@@ -1,102 +1,131 @@
+import type { ReactNode } from "react";
 import type { Lead } from "@/lib/types";
 import { themes, themeStyle, type Theme } from "@/lib/themes";
 import { telHref } from "@/lib/leads";
-import PlaceholderArt from "./PlaceholderArt";
+import Scene from "./Scene";
 import ContactForm from "./ContactForm";
+import QuickRequest from "./QuickRequest";
+import BeforeAfter from "./BeforeAfter";
+import AreaMap from "./AreaMap";
+import Enhance from "./Enhance";
 
 const DEMO_NOTICE = "Unverbindlicher Website-Entwurf – nicht die offizielle Website des Unternehmens.";
 
+interface Ctx {
+  lead: Lead;
+  theme: Theme;
+  call: string;
+  upper: string;
+}
+
 export default function DemoSite({ lead }: { lead: Lead }) {
   const { site, company } = lead;
-  const base = themes[site.theme];
-  const theme = site.motif ? { ...base, motif: site.motif } : base;
-  const call = company.phone ? telHref(company.phone) : "#kontakt";
-  const upper = theme.displayCase === "upper" ? "uppercase tracking-tight" : "";
+  const theme = themes[site.theme];
+  const ctx: Ctx = {
+    lead,
+    theme,
+    call: company.phone ? telHref(company.phone) : "#kontakt",
+    upper: theme.displayCase === "upper" ? "uppercase tracking-tight" : "",
+  };
+  const heroHasForm = !["editorial", "organic", "banner"].includes(theme.hero);
 
   return (
-    <div style={themeStyle(theme)} className="min-h-screen bg-t-bg font-body text-t-ink">
-      <a href="#inhalt" className="skip-link rounded bg-t-ink px-3 py-2 text-t-bg">
-        Zum Inhalt springen
-      </a>
-
-      <div className="bg-t-dark px-4 py-2 text-center text-xs text-t-dark-ink/85" role="note">
-        {DEMO_NOTICE}
-      </div>
-
-      <Header lead={lead} call={call} />
-
+    <div style={themeStyle(theme)} className="min-h-screen bg-t-bg font-body text-t-ink antialiased">
+      <a href="#inhalt" className="skip-link rounded bg-t-ink px-3 py-2 text-t-bg">Zum Inhalt springen</a>
+      <div className="bg-black px-4 py-1.5 text-center text-[11px] font-medium tracking-wide text-white/80" role="note">{DEMO_NOTICE}</div>
+      <TopBar {...ctx} />
+      <Header {...ctx} />
       <main id="inhalt">
-        <Hero lead={lead} theme={theme} call={call} upper={upper} />
-        <TrustBar items={site.trust} variant={theme.hero} />
-        <Services lead={lead} theme={theme} upper={upper} />
-        <Why lead={lead} theme={theme} upper={upper} />
-        <Reviews lead={lead} upper={upper} />
-        <Process lead={lead} upper={upper} />
-        <Gallery lead={lead} theme={theme} upper={upper} />
-        <Region lead={lead} upper={upper} />
-        <Faq lead={lead} upper={upper} />
-        <Contact lead={lead} call={call} upper={upper} />
+        <Hero {...ctx} />
+        <Badges {...ctx} />
+        <Services {...ctx} />
+        {!heroHasForm && <QuoteSection {...ctx} />}
+        <About {...ctx} />
+        <Stats {...ctx} />
+        <Projects {...ctx} />
+        <Reviews {...ctx} />
+        <Process {...ctx} />
+        <CtaBand {...ctx} />
+        <Region {...ctx} />
+        <Faq {...ctx} />
+        <Contact {...ctx} />
       </main>
-
-      <Footer lead={lead} call={call} />
-
-      <div className="fixed inset-x-0 bottom-0 z-40 border-t border-t-line bg-t-surface/95 p-3 backdrop-blur md:hidden">
-        <div className="flex gap-2">
-          {company.phone && (
-            <a href={call} className="flex flex-1 items-center justify-center gap-2 rounded-t border border-t-ink/15 px-3 py-3 text-sm font-semibold text-t-ink">
-              <PhoneIcon /> Anrufen
-            </a>
-          )}
-          <a href="#kontakt" className="flex flex-[1.4] items-center justify-center rounded-t bg-t-accent px-3 py-3 text-sm font-semibold text-t-accent-ink">
-            {site.stickyCta}
-          </a>
-        </div>
-      </div>
-      <div className="h-20 md:hidden" aria-hidden="true" />
+      <Footer {...ctx} />
+      <StickyBar {...ctx} />
+      <Enhance />
     </div>
   );
 }
 
-function Header({ lead, call }: { lead: Lead; call: string }) {
+/* ---------- Kopfbereich ---------- */
+
+function TopBar({ lead, call }: Ctx) {
+  const { company, listings } = lead;
+  const mh = listings.myhammer;
+  return (
+    <div className="bg-t-dark text-t-dark-ink">
+      <div className="mx-auto flex max-w-site flex-wrap items-center justify-between gap-x-6 gap-y-1 px-4 py-2 text-xs sm:px-6">
+        {mh.rating !== null && (
+          <a href={mh.url} target="_blank" rel="noopener noreferrer nofollow" className="flex items-center gap-1.5 hover:underline">
+            <span className="text-t-accent" aria-hidden="true">★★★★★</span>
+            <span><b>{fmt(mh.rating)}</b> von 5{mh.reviews !== null && ` · ${mh.reviews} Bewertungen`} auf MyHammer</span>
+          </a>
+        )}
+        <span className="hidden text-t-dark-ink/75 md:inline">Einsatzgebiet: {company.serviceArea.slice(0, 3).join(", ")} &amp; Umgebung</span>
+        <div className="flex items-center gap-4">
+          {company.email && <a href={`mailto:${company.email}`} className="hidden hover:underline sm:inline">{company.email}</a>}
+          {company.phone && <a href={call} className="font-semibold hover:underline">{company.phone}</a>}
+        </div>
+      </div>
+    </div>
+  );
+}
+
+function Logo({ lead }: { lead: Lead }) {
   const { site, company } = lead;
   return (
-    <header className="sticky top-0 z-30 border-b border-t-line bg-t-bg/90 backdrop-blur">
+    <span className="flex min-w-0 items-center gap-3">
+      <span className="relative grid h-11 w-11 shrink-0 place-items-center overflow-hidden rounded-t bg-t-accent font-display text-lg font-black text-t-accent-ink">
+        <span className="absolute -bottom-3 -right-3 h-7 w-7 rotate-45 bg-black/15" aria-hidden="true" />
+        {site.logoMark}
+      </span>
+      <span className="min-w-0 leading-tight">
+        <span className="block truncate font-display text-[15px] font-extrabold">{site.brandName}</span>
+        <span className="block truncate text-[11px] font-semibold uppercase tracking-[0.14em] text-t-muted">{company.trade} · {company.city}</span>
+      </span>
+    </span>
+  );
+}
+
+function Header({ lead, call }: Ctx) {
+  const { site, company } = lead;
+  return (
+    <header className="sticky top-0 z-30 border-b border-t-line bg-t-bg/95 backdrop-blur">
       <div className="mx-auto flex max-w-site items-center justify-between gap-4 px-4 py-3 sm:px-6">
-        <a href="#inhalt" className="flex min-w-0 items-center gap-3">
-          <span className="grid h-10 w-10 shrink-0 place-items-center rounded-t bg-t-accent font-display text-lg font-bold text-t-accent-ink">
-            {site.logoMark}
-          </span>
-          <span className="min-w-0">
-            <span className="block truncate font-display text-base font-bold leading-tight">{company.name}</span>
-            <span className="block truncate text-xs text-t-muted">{company.trade} · {company.city}</span>
-          </span>
-        </a>
-        <nav aria-label="Hauptnavigation" className="hidden items-center gap-6 text-sm font-medium lg:flex">
+        <a href="#inhalt" className="min-w-0"><Logo lead={lead} /></a>
+        <nav aria-label="Hauptnavigation" className="hidden items-center gap-7 text-sm font-semibold lg:flex">
           {site.nav.map((n) => (
-            <a key={n.href} href={n.href} className="text-t-muted transition hover:text-t-ink">
-              {n.label}
-            </a>
+            <a key={n.href} href={n.href} className="text-t-muted transition hover:text-t-ink">{n.label}</a>
           ))}
         </nav>
         <div className="flex items-center gap-2">
           {company.phone && (
-            <a href={call} className="hidden items-center gap-2 rounded-t bg-t-accent px-4 py-2.5 text-sm font-semibold text-t-accent-ink sm:inline-flex">
+            <a href={call} className="hidden items-center gap-2 whitespace-nowrap rounded-t border border-t-ink/15 px-4 py-2.5 text-sm font-bold xl:inline-flex">
               <PhoneIcon /> {company.phone}
             </a>
           )}
+          <a href="#anfrage" className="hidden whitespace-nowrap rounded-t bg-t-accent px-4 py-2.5 text-sm font-bold text-t-accent-ink shadow-sm hover:brightness-110 sm:inline-flex">
+            {site.hero.ctaPrimary}
+          </a>
           <details className="relative lg:hidden">
-            <summary className="flex h-10 w-10 cursor-pointer list-none items-center justify-center rounded-t border border-t-line [&::-webkit-details-marker]:hidden" aria-label="Menü öffnen">
+            <summary className="flex h-11 w-11 cursor-pointer list-none items-center justify-center rounded-t border border-t-line [&::-webkit-details-marker]:hidden" aria-label="Menü öffnen">
               <svg width="20" height="20" viewBox="0 0 20 20" aria-hidden="true"><path d="M3 5h14M3 10h14M3 15h14" stroke="currentColor" strokeWidth="2" strokeLinecap="round" /></svg>
             </summary>
-            <nav aria-label="Mobile Navigation" className="absolute right-0 mt-2 w-56 rounded-t border border-t-line bg-t-surface p-2 shadow-xl">
+            <nav aria-label="Mobile Navigation" className="absolute right-0 mt-2 w-60 rounded-t border border-t-line bg-t-surface p-2 shadow-xl">
               {site.nav.map((n) => (
-                <a key={n.href} href={n.href} className="block rounded px-3 py-2.5 text-sm font-medium hover:bg-t-bg">
-                  {n.label}
-                </a>
+                <a key={n.href} href={n.href} className="block rounded px-3 py-2.5 text-sm font-semibold hover:bg-t-bg">{n.label}</a>
               ))}
-              <a href="#kontakt" className="mt-1 block rounded bg-t-accent px-3 py-2.5 text-sm font-semibold text-t-accent-ink">
-                {site.hero.ctaPrimary}
-              </a>
+              <a href="#anfrage" className="mt-1 block rounded bg-t-accent px-3 py-2.5 text-sm font-bold text-t-accent-ink">{site.hero.ctaPrimary}</a>
             </nav>
           </details>
         </div>
@@ -105,20 +134,29 @@ function Header({ lead, call }: { lead: Lead; call: string }) {
   );
 }
 
+/* ---------- Hero ---------- */
+
+function RatingChip({ lead, dark = false }: { lead: Lead; dark?: boolean }) {
+  const mh = lead.listings.myhammer;
+  if (mh.rating === null) return null;
+  return (
+    <a href={mh.url} target="_blank" rel="noopener noreferrer nofollow"
+      className={`inline-flex items-center gap-3 rounded-full px-4 py-2 text-sm ${dark ? "bg-white/10 text-white ring-1 ring-white/20" : "bg-t-surface ring-1 ring-t-line"}`}>
+      <Stars rating={mh.rating} />
+      <span><b>{fmt(mh.rating)}</b>{mh.reviews !== null && ` · ${mh.reviews} Bewertungen`} · MyHammer</span>
+    </a>
+  );
+}
+
 function CtaRow({ lead, call, dark = false }: { lead: Lead; call: string; dark?: boolean }) {
   const { hero } = lead.site;
   return (
     <div className="mt-8 flex flex-col gap-3 sm:flex-row">
-      <a href="#kontakt" className="inline-flex items-center justify-center rounded-t bg-t-accent px-6 py-3.5 font-semibold text-t-accent-ink shadow-sm transition hover:brightness-110">
-        {hero.ctaPrimary}
+      <a href="#anfrage" className="inline-flex items-center justify-center gap-2 rounded-t bg-t-accent px-7 py-4 font-bold text-t-accent-ink shadow-lg shadow-black/10 transition hover:brightness-110">
+        {hero.ctaPrimary} <span aria-hidden="true">→</span>
       </a>
-      <a
-        href={lead.company.phone ? call : "#kontakt"}
-        className={`inline-flex items-center justify-center gap-2 rounded-t border px-6 py-3.5 font-semibold transition ${
-          dark ? "border-white/30 text-white hover:bg-white/10" : "border-t-ink/20 text-t-ink hover:bg-t-ink/5"
-        }`}
-      >
-        <PhoneIcon /> {hero.ctaSecondary}
+      <a href={call} className={`inline-flex items-center justify-center gap-2 rounded-t border px-7 py-4 font-bold transition ${dark ? "border-white/30 text-white hover:bg-white/10" : "border-t-ink/20 text-t-ink hover:bg-t-ink/5"}`}>
+        <PhoneIcon /> {lead.company.phone ?? hero.ctaSecondary}
       </a>
     </div>
   );
@@ -126,56 +164,49 @@ function CtaRow({ lead, call, dark = false }: { lead: Lead; call: string; dark?:
 
 function Bullets({ items, dark = false }: { items: string[]; dark?: boolean }) {
   return (
-    <ul className={`mt-6 grid gap-2 text-sm ${dark ? "text-white/85" : "text-t-muted"}`}>
+    <ul className={`mt-7 grid gap-2.5 text-[15px] ${dark ? "text-white/90" : "text-t-ink/80"}`}>
       {items.map((b) => (
-        <li key={b} className="flex items-start gap-2">
-          <CheckIcon className="mt-0.5 shrink-0 text-t-accent" /> <span>{b}</span>
+        <li key={b} className="flex items-start gap-2.5">
+          <span className="mt-0.5 grid h-5 w-5 shrink-0 place-items-center rounded-full bg-t-accent text-t-accent-ink"><CheckIcon size={12} /></span>
+          <span>{b}</span>
         </li>
       ))}
     </ul>
   );
 }
 
-function Hero({ lead, theme, call, upper }: { lead: Lead; theme: Theme; call: string; upper: string }) {
-  const { hero } = lead.site;
-  const art = (cls: string, seed = 0) => <PlaceholderArt motif={theme.motif} palette={theme.palette} label={hero.imageLabel} seed={seed} className={cls} />;
+function quoteProps(lead: Lead) {
+  return { services: lead.site.contact.topics.filter((t) => t !== "Sonstiges").slice(0, 6), ...lead.site.quote };
+}
+
+function Hero({ lead, theme, call, upper }: Ctx) {
+  const { hero, scene } = lead.site;
+  const art = (cls: string, seed = 0) => <Scene kind={scene} palette={theme.palette} label={hero.imageLabel} seed={seed} className={cls} />;
 
   if (theme.hero === "editorial") {
     return (
-      <section className="mx-auto grid max-w-site gap-10 px-4 pb-16 pt-12 sm:px-6 lg:grid-cols-12 lg:pt-20">
-        <div className="lg:col-span-7">
-          <p className="text-sm font-semibold uppercase tracking-[0.2em] text-t-accent">{hero.eyebrow}</p>
-          <h1 className={`mt-4 font-display text-4xl font-semibold leading-[1.05] sm:text-6xl ${upper}`}>{hero.headline}</h1>
-          <p className="mt-6 max-w-xl text-lg leading-relaxed text-t-muted">{hero.sub}</p>
-          <CtaRow lead={lead} call={call} />
-          <Bullets items={hero.bullets} />
-        </div>
-        <div className="relative lg:col-span-5">
-          {art("aspect-[4/5] w-full rounded-t shadow-2xl")}
-          <div className="absolute -bottom-5 -right-3 flex gap-1.5 rounded-t bg-t-surface p-2 shadow-lg sm:-right-6" aria-hidden="true">
-            {theme.palette.map((c) => (
-              <span key={c} className="h-8 w-8 rounded-sm" style={{ background: c }} />
-            ))}
-          </div>
-        </div>
-      </section>
-    );
-  }
-
-  if (theme.hero === "panel") {
-    return (
-      <section className="bg-t-dark text-t-dark-ink">
-        <div className="mx-auto grid max-w-site gap-10 px-4 py-14 sm:px-6 lg:grid-cols-2 lg:py-20">
-          <div>
-            <p className="inline-flex rounded-full bg-t-accent/15 px-3 py-1 text-xs font-semibold uppercase tracking-wider text-t-accent">{hero.eyebrow}</p>
-            <h1 className={`mt-5 font-display text-4xl font-extrabold leading-tight sm:text-5xl ${upper}`}>{hero.headline}</h1>
-            <p className="mt-5 max-w-xl text-lg text-t-dark-ink/80">{hero.sub}</p>
-            <CtaRow lead={lead} call={call} dark />
-          </div>
-          <div className="rounded-t bg-t-surface p-6 text-t-ink shadow-2xl sm:p-8">
-            <p className="text-sm font-semibold uppercase tracking-wider text-t-muted">Auf einen Blick</p>
+      <section className="relative overflow-hidden">
+        <div className="mx-auto grid max-w-site items-center gap-12 px-4 pb-20 pt-12 sm:px-6 lg:grid-cols-12 lg:pt-16">
+          <div className="lg:col-span-6">
+            <RatingChip lead={lead} />
+            <p className="mt-8 text-sm font-bold uppercase tracking-[0.22em] text-t-accent">{hero.eyebrow}</p>
+            <h1 className={`mt-4 text-balance font-display text-5xl font-semibold leading-[1.02] sm:text-7xl ${upper}`}>{hero.headline}</h1>
+            <p className="mt-6 max-w-xl text-lg leading-relaxed text-t-muted">{hero.sub}</p>
+            <CtaRow lead={lead} call={call} />
             <Bullets items={hero.bullets} />
-            {art("mt-6 aspect-[16/9] w-full rounded-t")}
+          </div>
+          <div className="relative lg:col-span-6">
+            <div className="absolute -right-24 -top-10 hidden h-[120%] w-2/3 rounded-l-full bg-t-accent/10 lg:block" aria-hidden="true" />
+            {art("aspect-[4/5] w-full rounded-t shadow-2xl sm:aspect-[5/5]")}
+            <div className="absolute -bottom-6 left-4 right-4 flex items-center justify-between gap-4 rounded-t bg-t-surface p-4 shadow-xl sm:left-auto sm:right-6 sm:w-80">
+              <div>
+                <p className="text-xs font-semibold uppercase tracking-wider text-t-muted">{lead.site.badges[0]?.sub}</p>
+                <p className="font-display text-lg font-semibold">{lead.site.badges[0]?.title}</p>
+              </div>
+              <div className="flex gap-1" aria-hidden="true">
+                {theme.palette.slice(0, 4).map((c) => <span key={c} className="h-8 w-4 rounded-sm" style={{ background: c }} />)}
+              </div>
+            </div>
           </div>
         </div>
       </section>
@@ -184,15 +215,21 @@ function Hero({ lead, theme, call, upper }: { lead: Lead; theme: Theme; call: st
 
   if (theme.hero === "fullbleed") {
     return (
-      <section className="relative isolate min-h-[34rem] overflow-hidden bg-t-dark text-white">
-        {art("absolute inset-0 -z-10 h-full w-full")}
-        <div className="absolute inset-0 -z-10 bg-gradient-to-r from-black/80 via-black/55 to-black/10" />
-        <div className="mx-auto max-w-site px-4 py-20 sm:px-6 lg:py-28">
-          <p className="text-xs font-semibold uppercase tracking-[0.3em] text-t-accent">{hero.eyebrow}</p>
-          <h1 className={`mt-5 max-w-3xl font-display text-4xl font-light leading-[1.05] sm:text-6xl ${upper}`}>{hero.headline}</h1>
-          <p className="mt-6 max-w-xl text-lg text-white/80">{hero.sub}</p>
-          <CtaRow lead={lead} call={call} dark />
-          <div className="max-w-xl"><Bullets items={hero.bullets} dark /></div>
+      <section id="anfrage" className="relative isolate overflow-hidden bg-t-dark text-white">
+        {art("absolute inset-0 -z-10 h-full w-full", 1)}
+        <div className="absolute inset-0 -z-10 bg-gradient-to-r from-black/80 via-black/50 to-black/5" />
+        <div className="mx-auto grid max-w-site items-center gap-10 px-4 py-16 sm:px-6 lg:grid-cols-12 lg:py-24">
+          <div className="lg:col-span-7">
+            <RatingChip lead={lead} dark />
+            <p className="mt-8 text-xs font-bold uppercase tracking-[0.3em] text-t-accent">{hero.eyebrow}</p>
+            <h1 className={`mt-5 text-balance font-display text-4xl font-light leading-[1.04] sm:text-6xl ${upper}`}>{hero.headline}</h1>
+            <p className="mt-6 max-w-xl text-lg text-white/80">{hero.sub}</p>
+            <Bullets items={hero.bullets} dark />
+            <a href={call} className="mt-8 inline-flex items-center gap-2 font-bold text-white underline-offset-4 hover:underline">
+              <PhoneIcon /> {lead.company.phone ? `Lieber direkt anrufen: ${lead.company.phone}` : hero.ctaSecondary}
+            </a>
+          </div>
+          <div className="lg:col-span-5"><QuickRequest {...quoteProps(lead)} /></div>
         </div>
       </section>
     );
@@ -202,17 +239,22 @@ function Hero({ lead, theme, call, upper }: { lead: Lead; theme: Theme; call: st
     return (
       <section className="px-3 pt-3 sm:px-6 sm:pt-6">
         <div className="relative isolate mx-auto max-w-site overflow-hidden rounded-[2rem] bg-t-dark text-t-dark-ink">
-          {art("absolute inset-0 -z-10 h-full w-full opacity-60", 1)}
-          <div className="absolute inset-0 -z-10 bg-gradient-to-t from-t-dark via-t-dark/70 to-t-dark/20" />
-          <div className="px-6 pb-14 pt-24 sm:px-12 lg:pb-20 lg:pt-36">
-            <p className="font-display text-lg italic text-t-dark-ink/85">{hero.eyebrow}</p>
-            <h1 className={`mt-3 max-w-3xl font-display text-4xl font-semibold leading-[1.08] sm:text-6xl ${upper}`}>{hero.headline}</h1>
-            <p className="mt-5 max-w-xl text-lg text-t-dark-ink/85">{hero.sub}</p>
-            <CtaRow lead={lead} call={call} dark />
-            <div className="mt-2 flex flex-wrap gap-2">
-              {hero.bullets.map((b) => (
-                <span key={b} className="rounded-full bg-white/10 px-4 py-2 text-sm backdrop-blur">{b}</span>
-              ))}
+          {art("absolute inset-0 -z-10 h-full w-full", 1)}
+          <div className="absolute inset-0 -z-10 bg-gradient-to-t from-t-dark via-t-dark/70 to-transparent" />
+          <div className="grid gap-10 px-6 pb-12 pt-28 sm:px-12 lg:grid-cols-12 lg:pb-16 lg:pt-44">
+            <div className="lg:col-span-8">
+              <p className="font-display text-xl italic text-t-dark-ink/90">{hero.eyebrow}</p>
+              <h1 className={`mt-3 text-balance font-display text-5xl font-semibold leading-[1.04] sm:text-7xl ${upper}`}>{hero.headline}</h1>
+              <p className="mt-5 max-w-xl text-lg text-t-dark-ink/85">{hero.sub}</p>
+              <CtaRow lead={lead} call={call} dark />
+            </div>
+            <div className="self-end lg:col-span-4">
+              <div className="rounded-3xl bg-white/10 p-5 ring-1 ring-white/20 backdrop-blur">
+                <RatingChip lead={lead} dark />
+                <ul className="mt-4 space-y-2 text-sm text-t-dark-ink/90">
+                  {hero.bullets.map((b) => <li key={b} className="flex gap-2"><CheckIcon className="mt-0.5 shrink-0 text-t-accent" />{b}</li>)}
+                </ul>
+              </div>
             </div>
           </div>
         </div>
@@ -220,27 +262,205 @@ function Hero({ lead, theme, call, upper }: { lead: Lead; theme: Theme; call: st
     );
   }
 
-  // split
-  return (
-    <section className="border-b border-t-line">
-      <div className="mx-auto grid max-w-site items-center gap-10 px-4 py-12 sm:px-6 lg:grid-cols-2 lg:py-20">
-        <div>
-          <p className="flex items-center gap-2 text-sm font-semibold uppercase tracking-wider text-t-accent">
-            <span className="h-0.5 w-8 bg-t-accent" aria-hidden="true" /> {hero.eyebrow}
-          </p>
-          <h1 className={`mt-4 font-display text-4xl font-bold leading-[1.02] sm:text-6xl ${upper}`}>{hero.headline}</h1>
-          <p className="mt-5 max-w-xl text-lg text-t-muted">{hero.sub}</p>
-          <CtaRow lead={lead} call={call} />
-          <Bullets items={hero.bullets} />
-        </div>
-        <div className="grid grid-cols-5 gap-3">
-          {art("col-span-3 aspect-[3/4] rounded-t", 0)}
-          <div className="col-span-2 grid gap-3">
-            <PlaceholderArt motif={theme.motif} palette={theme.palette} label="Detail" seed={2} className="aspect-square rounded-t" showLabel={false} />
-            <div className="flex aspect-square flex-col justify-end rounded-t bg-t-dark p-4 text-t-dark-ink">
-              <span className="font-display text-3xl font-bold">{lead.site.trust[0]?.value}</span>
-              <span className="text-xs text-t-dark-ink/75">{lead.site.trust[0]?.label}</span>
+  if (theme.hero === "banner") {
+    return (
+      <section className="border-b border-t-line">
+        <div className="mx-auto max-w-site px-4 pt-12 sm:px-6 lg:pt-16">
+          <div className="flex flex-wrap items-end justify-between gap-6">
+            <div className="min-w-0 max-w-4xl">
+              <p className="flex flex-wrap items-center gap-3 text-sm font-bold uppercase tracking-[0.2em] text-t-accent">
+                <span className="h-0.5 w-10 bg-t-accent" aria-hidden="true" /> {hero.eyebrow}
+              </p>
+              <h1 className={`mt-4 text-balance font-display text-[2.6rem] font-black leading-[0.95] sm:text-6xl lg:text-7xl ${upper}`}>{hero.headline}</h1>
             </div>
+            <RatingChip lead={lead} />
+          </div>
+          <div className="mt-8 grid gap-8 lg:grid-cols-12">
+            <p className="text-lg leading-relaxed text-t-muted lg:col-span-7">{hero.sub}</p>
+            <div className="lg:col-span-5"><CtaRow lead={lead} call={call} /></div>
+          </div>
+        </div>
+        <div className="relative mx-auto mt-10 max-w-site px-4 pb-12 sm:px-6">
+          {art("aspect-[16/9] w-full rounded-t shadow-2xl sm:aspect-[21/8]")}
+          <ul className="relative -mt-8 mx-4 grid gap-px overflow-hidden rounded-t bg-t-line shadow-xl sm:mx-10 sm:grid-cols-3">
+            {hero.bullets.map((b) => (
+              <li key={b} className="flex items-center gap-3 bg-t-surface px-5 py-4 text-sm font-semibold">
+                <span className="grid h-7 w-7 shrink-0 place-items-center rounded-full bg-t-accent text-t-accent-ink"><CheckIcon size={14} /></span>{b}
+              </li>
+            ))}
+          </ul>
+        </div>
+      </section>
+    );
+  }
+
+  // split: Text links, Schnellanfrage rechts
+  return (
+    <section id="anfrage" className="relative overflow-hidden border-b border-t-line">
+      <div className="absolute inset-y-0 right-0 hidden w-[42%] lg:block" aria-hidden="true">
+        {art("h-full w-full", 0)}
+        <div className="absolute inset-0 bg-gradient-to-r from-t-bg via-t-bg/30 to-transparent" />
+      </div>
+      <div className="relative mx-auto grid max-w-site items-center gap-10 px-4 py-12 sm:px-6 lg:grid-cols-12 lg:py-20">
+        <div className="lg:col-span-6">
+          <RatingChip lead={lead} />
+          <p className="mt-7 text-sm font-bold uppercase tracking-wider text-t-accent">{hero.eyebrow}</p>
+          <h1 className={`mt-4 text-balance font-display text-4xl font-extrabold leading-[1.04] sm:text-6xl ${upper}`}>{hero.headline}</h1>
+          <p className="mt-5 max-w-xl text-lg text-t-muted">{hero.sub}</p>
+          <Bullets items={hero.bullets} />
+          <a href={call} className="mt-8 inline-flex items-center gap-2 rounded-t border border-t-ink/15 bg-t-surface px-5 py-3 font-bold">
+            <PhoneIcon /> {lead.company.phone ? `${hero.ctaSecondary}: ${lead.company.phone}` : hero.ctaSecondary}
+          </a>
+          {art("mt-8 aspect-[16/9] w-full rounded-t lg:hidden", 0)}
+        </div>
+        <div className="lg:col-span-5 lg:col-start-8"><QuickRequest {...quoteProps(lead)} /></div>
+      </div>
+    </section>
+  );
+}
+
+/* ---------- Vertrauen ---------- */
+
+function Badges({ lead }: Ctx) {
+  return (
+    <section aria-label="Qualitätsmerkmale" className="border-b border-t-line bg-t-surface">
+      <ul className="mx-auto grid max-w-site grid-cols-2 gap-px bg-t-line px-0 sm:px-6 lg:grid-cols-4">
+        {lead.site.badges.map((b) => (
+          <li key={b.title} className="flex items-center gap-3 bg-t-surface px-4 py-5 sm:px-5">
+            <span className="grid h-11 w-11 shrink-0 place-items-center rounded-full border-2 border-t-accent/40 text-t-accent"><ShieldIcon /></span>
+            <span className="min-w-0">
+              <span className="block text-sm font-bold leading-tight">{b.title}</span>
+              <span className="block text-xs text-t-muted">{b.sub}</span>
+            </span>
+          </li>
+        ))}
+      </ul>
+    </section>
+  );
+}
+
+function SectionHead({ kicker, title, text, upper, center = false, dark = false }: { kicker: string; title: string; text?: string; upper: string; center?: boolean; dark?: boolean }) {
+  return (
+    <div className={`max-w-2xl ${center ? "mx-auto text-center" : ""}`}>
+      <p className="text-sm font-bold uppercase tracking-[0.2em] text-t-accent">{kicker}</p>
+      <h2 className={`mt-3 text-balance font-display text-3xl font-bold leading-tight sm:text-5xl ${upper}`}>{title}</h2>
+      {text && <p className={`mt-5 text-lg leading-relaxed ${dark ? "text-t-dark-ink/75" : "text-t-muted"}`}>{text}</p>}
+    </div>
+  );
+}
+
+/* ---------- Leistungen ---------- */
+
+function Services({ lead, theme, upper }: Ctx) {
+  const { services, servicesIntro, scene } = lead.site;
+  return (
+    <section id="leistungen" className="mx-auto max-w-site px-4 py-24 sm:px-6">
+      <div className="flex flex-wrap items-end justify-between gap-6">
+        <SectionHead kicker="Leistungen" title={servicesIntro.headline} text={servicesIntro.text} upper={upper} />
+        <a href="#anfrage" className="font-bold text-t-accent underline-offset-4 hover:underline">Leistung anfragen →</a>
+      </div>
+      {theme.services === "numbered" && (
+        <ol className="mt-14 divide-y divide-t-line border-y border-t-line">
+          {services.map((s, i) => (
+            <li key={s.title} className="group grid gap-4 py-8 md:grid-cols-12 md:items-center">
+              <span className="font-display text-5xl font-light text-t-accent/70 md:col-span-1">{String(i + 1).padStart(2, "0")}</span>
+              <div className="md:col-span-5">
+                <h3 className={`font-display text-2xl font-semibold ${upper}`}>{s.title}</h3>
+                <p className="mt-2 text-t-muted">{s.text}</p>
+              </div>
+              <ul className="flex flex-wrap gap-2 md:col-span-4">
+                {s.items.map((it) => <li key={it} className="rounded-full border border-t-line bg-t-surface px-3 py-1.5 text-sm">{it}</li>)}
+              </ul>
+              <a href="#anfrage" className="text-sm font-bold text-t-accent md:col-span-2 md:text-right">Anfragen →</a>
+            </li>
+          ))}
+        </ol>
+      )}
+      {theme.services === "cards" && (
+        <div className="mt-14 grid gap-5 md:grid-cols-2 lg:grid-cols-3">
+          {services.map((s, i) => (
+            <article key={s.title} className="group flex flex-col overflow-hidden rounded-t border border-t-line bg-t-surface shadow-sm transition hover:-translate-y-1 hover:shadow-xl">
+              <Scene kind={scene} palette={theme.palette} label={s.title} seed={i + 1} className="aspect-[16/9] w-full" showLabel={false} />
+              <div className="flex flex-1 flex-col p-6">
+                <h3 className={`font-display text-xl font-bold ${upper}`}>{s.title}</h3>
+                <p className="mt-2 text-t-muted">{s.text}</p>
+                <ul className="mt-4 space-y-1.5 text-sm">
+                  {s.items.map((it) => <li key={it} className="flex gap-2"><CheckIcon className="mt-0.5 shrink-0 text-t-accent" size={14} />{it}</li>)}
+                </ul>
+                <a href="#anfrage" className="mt-auto pt-5 text-sm font-bold text-t-accent">Jetzt anfragen →</a>
+              </div>
+            </article>
+          ))}
+        </div>
+      )}
+      {theme.services === "tiles" && (
+        <div className="mt-14 grid gap-px bg-t-line sm:grid-cols-2 lg:grid-cols-3">
+          {services.map((s, i) => (
+            <article key={s.title} className="group relative bg-t-bg">
+              <Scene kind={scene} palette={theme.palette} label={s.title} seed={i + 1} variant={i % 4 === 3 ? "before" : "after"} className="aspect-[16/10] w-full transition duration-500 group-hover:opacity-90" showLabel={false} />
+              <div className="p-6">
+                <h3 className={`font-display text-xl font-bold ${upper}`}>{s.title}</h3>
+                <p className="mt-2 text-sm text-t-muted">{s.text}</p>
+                <p className="mt-3 text-sm font-semibold">{s.items.join(" · ")}</p>
+                <a href="#anfrage" className="mt-4 inline-block text-sm font-bold text-t-accent">Anfragen →</a>
+              </div>
+            </article>
+          ))}
+        </div>
+      )}
+    </section>
+  );
+}
+
+function QuoteSection({ lead, upper }: Ctx) {
+  return (
+    <section id="anfrage" className="bg-t-dark text-t-dark-ink">
+      <div className="mx-auto grid max-w-site items-center gap-10 px-4 py-20 sm:px-6 lg:grid-cols-2">
+        <div>
+          <SectionHead kicker="Schnellanfrage" title="In 60 Sekunden zum unverbindlichen Angebot" upper={upper} dark
+            text="Drei kurze Fragen, dann meldet sich der Betrieb mit einer Einschätzung bei Ihnen. Kostenlos und ohne Verpflichtung." />
+          <ul className="mt-8 grid gap-3 text-t-dark-ink/85 sm:grid-cols-3">
+            {["Kostenlos", "Unverbindlich", "Persönliche Rückmeldung"].map((t) => (
+              <li key={t} className="flex items-center gap-2 text-sm font-semibold"><CheckIcon className="text-t-accent" />{t}</li>
+            ))}
+          </ul>
+        </div>
+        <QuickRequest {...quoteProps(lead)} />
+      </div>
+    </section>
+  );
+}
+
+/* ---------- Über uns / Zahlen ---------- */
+
+function About({ lead, upper }: Ctx) {
+  const { why, logoMark } = lead.site;
+  const { company } = lead;
+  return (
+    <section id="ueber-uns" className="mx-auto max-w-site px-4 py-24 sm:px-6">
+      <div className="grid gap-14 lg:grid-cols-12">
+        <div className="lg:col-span-5">
+          <div className="relative">
+            <div className="relative grid aspect-[4/5] place-items-center overflow-hidden rounded-t bg-t-accent text-t-accent-ink">
+              <span className="font-display text-[9rem] font-black leading-none opacity-90" aria-hidden="true">{logoMark}</span>
+              <span className="absolute inset-x-0 bottom-0 bg-black/25 p-4 text-xs font-medium text-white">Platz für ein Foto von {company.owner ?? "Inhaber und Team"} bei der Arbeit</span>
+            </div>
+            <div className="absolute -bottom-6 right-2 rounded-t bg-t-surface p-5 shadow-xl sm:-right-6">
+              <p className="text-xs font-bold uppercase tracking-wider text-t-muted">Ihr Ansprechpartner</p>
+              <p className="font-display text-xl font-bold">{company.owner ?? company.name}</p>
+              <p className="text-sm text-t-muted">{company.trade} · {company.city}</p>
+            </div>
+          </div>
+        </div>
+        <div className="lg:col-span-7">
+          <SectionHead kicker={`Warum ${company.owner ?? lead.site.brandName}`} title={why.headline} upper={upper} />
+          <div className="mt-10 grid gap-x-8 gap-y-8 sm:grid-cols-2">
+            {why.points.map((p) => (
+              <div key={p.title} className="border-t-2 border-t-accent pt-5">
+                <h3 className="font-display text-xl font-bold">{p.title}</h3>
+                <p className="mt-2 text-t-muted">{p.text}</p>
+              </div>
+            ))}
           </div>
         </div>
       </div>
@@ -248,15 +468,14 @@ function Hero({ lead, theme, call, upper }: { lead: Lead; theme: Theme; call: st
   );
 }
 
-function TrustBar({ items, variant }: { items: Lead["site"]["trust"]; variant: Theme["hero"] }) {
-  const overlap = variant === "panel" || variant === "fullbleed";
+function Stats({ lead }: Ctx) {
   return (
-    <section aria-label="Vertrauenssignale" className={`mx-auto max-w-site px-4 sm:px-6 ${overlap ? "-mt-8 relative z-10" : "mt-10"}`}>
-      <dl className="grid grid-cols-2 gap-px overflow-hidden rounded-t border border-t-line bg-t-line shadow-sm lg:grid-cols-4">
-        {items.map((t) => (
-          <div key={t.label} className="bg-t-surface p-5">
-            <dt className="text-xs text-t-muted">{t.label}</dt>
-            <dd className="order-first font-display text-2xl font-bold text-t-ink">{t.value}</dd>
+    <section aria-label="Zahlen" className="bg-t-accent text-t-accent-ink">
+      <dl className="mx-auto grid max-w-site grid-cols-2 gap-y-8 px-4 py-12 sm:px-6 lg:grid-cols-4">
+        {lead.site.trust.map((t) => (
+          <div key={t.label} className="flex flex-col-reverse gap-1 px-2 text-center">
+            <dt className="text-sm opacity-85">{t.label}</dt>
+            <dd className="break-words font-display text-3xl font-black sm:text-5xl">{t.value}</dd>
           </div>
         ))}
       </dl>
@@ -264,275 +483,234 @@ function TrustBar({ items, variant }: { items: Lead["site"]["trust"]; variant: T
   );
 }
 
-function SectionHead({ kicker, title, text, upper, center = false }: { kicker: string; title: string; text?: string; upper: string; center?: boolean }) {
+/* ---------- Projekte ---------- */
+
+function Projects({ lead, theme, upper }: Ctx) {
+  const g = lead.site.gallery;
+  const { scene } = lead.site;
+  const [first, ...rest] = g.items;
   return (
-    <div className={`max-w-2xl ${center ? "mx-auto text-center" : ""}`}>
-      <p className="text-sm font-semibold uppercase tracking-[0.18em] text-t-accent">{kicker}</p>
-      <h2 className={`mt-3 font-display text-3xl font-bold leading-tight sm:text-4xl ${upper}`}>{title}</h2>
-      {text && <p className="mt-4 text-lg text-t-muted">{text}</p>}
+    <section id="projekte" className="border-y border-t-line bg-t-surface">
+      <div className="mx-auto max-w-site px-4 py-24 sm:px-6">
+        <SectionHead kicker="Projekte" title={g.headline} text={g.text} upper={upper} />
+        <div className="mt-14 grid gap-6 lg:grid-cols-12">
+          <figure className="lg:col-span-7">
+            <BeforeAfter label={first.title}
+              before={<Scene kind={scene} palette={theme.palette} label={first.photoNeeded} seed={5} variant="before" className="h-full w-full" showLabel={false} />}
+              after={<Scene kind={scene} palette={theme.palette} label={first.photoNeeded} seed={5} className="h-full w-full" showLabel={false} />} />
+            <figcaption className="mt-3 text-sm text-t-muted">Regler ziehen: Vorher/Nachher. In der Live-Version mit echten Fotos ({first.photoNeeded}).</figcaption>
+          </figure>
+          <div className="grid grid-cols-2 gap-4 lg:col-span-5">
+            {rest.slice(0, 4).map((it, i) => (
+              <figure key={it.title} className="group relative overflow-hidden rounded-t">
+                <Scene kind={scene} palette={theme.palette} label={it.photoNeeded} seed={i + 6} className="aspect-square w-full transition duration-500 group-hover:scale-105" showLabel={false} />
+                <figcaption className="absolute inset-x-0 bottom-0 bg-gradient-to-t from-black/75 to-transparent p-3 pt-8 text-white">
+                  <span className="block text-sm font-bold">{it.title}</span>
+                  <span className="block text-[11px] text-white/80">Foto folgt: {it.photoNeeded}</span>
+                </figcaption>
+              </figure>
+            ))}
+          </div>
+        </div>
+      </div>
+    </section>
+  );
+}
+
+/* ---------- Bewertungen ---------- */
+
+function Reviews({ lead, upper }: Ctx) {
+  const r = lead.site.reviews;
+  return (
+    <section id="bewertungen" className="mx-auto max-w-site px-4 py-24 sm:px-6">
+      <div className="grid gap-12 lg:grid-cols-12">
+        <div className="lg:col-span-4">
+          <SectionHead kicker="Kundenstimmen" title={r.headline} upper={upper} />
+          {r.rating !== null && (
+            <div className="mt-8 rounded-t bg-t-dark p-7 text-t-dark-ink shadow-xl">
+              <p className="text-sm font-semibold text-t-dark-ink/70">Durchschnitt auf {r.source}</p>
+              <div className="mt-2 flex items-baseline gap-2">
+                <span className="font-display text-6xl font-black">{fmt(r.rating)}</span>
+                <span className="text-t-dark-ink/70">/ 5</span>
+              </div>
+              <Stars rating={r.rating} />
+              {r.count !== null && <p className="mt-3 text-sm text-t-dark-ink/80">aus {r.count} Bewertungen</p>}
+              <a href={r.sourceUrl} target="_blank" rel="noopener noreferrer nofollow" className="mt-5 inline-block text-sm font-bold text-t-accent underline-offset-4 hover:underline">Alle Bewertungen ansehen →</a>
+            </div>
+          )}
+        </div>
+        <div className="lg:col-span-8">
+          <blockquote className="border-l-4 border-t-accent pl-6 font-display text-2xl leading-snug sm:text-3xl">{r.summary}</blockquote>
+          <ul className="mt-10 grid gap-4 sm:grid-cols-2">
+            {r.highlights.map((h) => (
+              <li key={h} className="rounded-t border border-t-line bg-t-surface p-6 shadow-sm">
+                <Stars rating={5} />
+                <p className="mt-3 font-display text-lg font-semibold">{h}</p>
+                <p className="mt-1 text-xs text-t-muted">Häufig genannt in Bewertungen auf {r.source}</p>
+              </li>
+            ))}
+          </ul>
+          <p className="mt-6 text-xs text-t-muted">Sinngemäße Zusammenfassung öffentlicher Bewertungen, keine wörtlichen Zitate. Quelle: {r.source}, Stand {new Date(lead.date).toLocaleDateString("de-DE")}.</p>
+        </div>
+      </div>
+    </section>
+  );
+}
+
+/* ---------- Ablauf / CTA ---------- */
+
+function Process({ lead, upper }: Ctx) {
+  const p = lead.site.process;
+  return (
+    <section id="ablauf" className="border-y border-t-line bg-t-surface">
+      <div className="mx-auto max-w-site px-4 py-24 sm:px-6">
+        <SectionHead kicker="So läuft es ab" title={p.headline} upper={upper} center />
+        <ol className="relative mt-16 grid gap-10 md:grid-cols-4 md:gap-6">
+          <span className="absolute left-[12%] right-[12%] top-6 hidden h-0.5 bg-t-line md:block" aria-hidden="true" />
+          {p.steps.map((s, i) => (
+            <li key={s.title} className="relative text-center">
+              <span className="relative mx-auto grid h-12 w-12 place-items-center rounded-full bg-t-accent font-display text-lg font-black text-t-accent-ink ring-8 ring-t-surface">{i + 1}</span>
+              <h3 className="mt-5 font-display text-lg font-bold">{s.title}</h3>
+              <p className="mx-auto mt-2 max-w-[16rem] text-sm text-t-muted">{s.text}</p>
+            </li>
+          ))}
+        </ol>
+      </div>
+    </section>
+  );
+}
+
+function CtaBand({ lead, call, upper }: Ctx) {
+  return (
+    <section className="mx-auto max-w-site px-4 py-20 sm:px-6">
+      <div className="relative overflow-hidden rounded-t bg-t-dark px-6 py-12 text-t-dark-ink sm:px-12">
+        <div className="absolute -right-16 -top-16 h-64 w-64 rounded-full bg-t-accent/25" aria-hidden="true" />
+        <div className="relative flex flex-wrap items-center justify-between gap-8">
+          <div className="max-w-2xl">
+            <h2 className={`text-balance font-display text-3xl font-bold sm:text-4xl ${upper}`}>{lead.site.contact.headline}</h2>
+            <p className="mt-3 text-t-dark-ink/80">Kostenlos und unverbindlich – Sie bekommen eine persönliche Rückmeldung.</p>
+          </div>
+          <div className="flex flex-col gap-3 sm:flex-row">
+            <a href="#anfrage" className="rounded-t bg-t-accent px-7 py-4 text-center font-bold text-t-accent-ink hover:brightness-110">{lead.site.hero.ctaPrimary}</a>
+            {lead.company.phone && <a href={call} className="rounded-t border border-white/30 px-7 py-4 text-center font-bold hover:bg-white/10">{lead.company.phone}</a>}
+          </div>
+        </div>
+      </div>
+    </section>
+  );
+}
+
+/* ---------- Region / FAQ ---------- */
+
+function Region({ lead, theme, upper }: Ctx) {
+  const r = lead.site.region;
+  return (
+    <section id="region" className="bg-t-surface">
+      <div className="mx-auto grid max-w-site items-center gap-12 px-4 py-24 sm:px-6 lg:grid-cols-2">
+        <div>
+          <SectionHead kicker="Einsatzgebiet" title={r.headline} text={r.text} upper={upper} />
+          <ul className="mt-8 flex flex-wrap gap-2" aria-label="Orte im Einsatzgebiet">
+            {r.places.map((p) => (
+              <li key={p} className="rounded-full border border-t-line bg-t-bg px-4 py-2 text-sm font-semibold">{lead.company.trade} {p}</li>
+            ))}
+          </ul>
+        </div>
+        <div className="rounded-t border border-t-line p-2 shadow-sm">
+          <AreaMap home={lead.company.city} places={r.places} accent={theme.palette[0]} />
+          <p className="px-2 pb-1 pt-2 text-xs text-t-muted">Schematische Darstellung des Einsatzgebiets.</p>
+        </div>
+      </div>
+    </section>
+  );
+}
+
+function Faq({ lead, upper }: Ctx) {
+  return (
+    <section id="faq" className="mx-auto max-w-site px-4 py-24 sm:px-6">
+      <div className="grid gap-10 lg:grid-cols-12">
+        <div className="lg:col-span-4">
+          <SectionHead kicker="FAQ" title="Häufige Fragen" upper={upper} text="Ihre Frage ist nicht dabei? Rufen Sie einfach an oder schreiben Sie uns." />
+        </div>
+        <div className="divide-y divide-t-line rounded-t border border-t-line bg-t-surface lg:col-span-8">
+          {lead.site.faq.map((f) => (
+            <details key={f.q} className="group p-6">
+              <summary className="flex cursor-pointer list-none items-center justify-between gap-4 font-display text-lg font-semibold [&::-webkit-details-marker]:hidden">
+                {f.q}
+                <span className="grid h-8 w-8 shrink-0 place-items-center rounded-full bg-t-accent/10 text-xl text-t-accent transition group-open:rotate-45" aria-hidden="true">+</span>
+              </summary>
+              <p className="mt-3 leading-relaxed text-t-muted">{f.a}</p>
+            </details>
+          ))}
+        </div>
+      </div>
+    </section>
+  );
+}
+
+/* ---------- Kontakt / Footer ---------- */
+
+function ContactCard({ icon, title, children }: { icon: ReactNode; title: string; children: ReactNode }) {
+  return (
+    <div className="flex items-start gap-4 rounded-t bg-white/5 p-5 ring-1 ring-white/10">
+      <span className="grid h-11 w-11 shrink-0 place-items-center rounded-full bg-t-accent text-t-accent-ink">{icon}</span>
+      <div className="min-w-0">
+        <p className="text-xs font-semibold uppercase tracking-wider text-t-dark-ink/60">{title}</p>
+        <div className="mt-0.5 break-words font-semibold">{children}</div>
+      </div>
     </div>
   );
 }
 
-function Services({ lead, theme, upper }: { lead: Lead; theme: Theme; upper: string }) {
-  const { services, servicesIntro } = lead.site;
-  return (
-    <section id="leistungen" className="mx-auto max-w-site px-4 py-20 sm:px-6">
-      <SectionHead kicker="Leistungen" title={servicesIntro.headline} text={servicesIntro.text} upper={upper} />
-      {theme.services === "numbered" && (
-        <ol className="mt-12 divide-y divide-t-line border-y border-t-line">
-          {services.map((s, i) => (
-            <li key={s.title} className="grid gap-4 py-8 md:grid-cols-12">
-              <span className="font-display text-4xl font-light text-t-accent md:col-span-1">{String(i + 1).padStart(2, "0")}</span>
-              <div className="md:col-span-5">
-                <h3 className={`font-display text-2xl font-semibold ${upper}`}>{s.title}</h3>
-                <p className="mt-2 text-t-muted">{s.text}</p>
-              </div>
-              <ul className="flex flex-wrap content-start gap-2 md:col-span-6">
-                {s.items.map((it) => (
-                  <li key={it} className="rounded-full border border-t-line bg-t-surface px-3 py-1.5 text-sm">{it}</li>
-                ))}
-              </ul>
-            </li>
-          ))}
-        </ol>
-      )}
-      {theme.services === "cards" && (
-        <div className="mt-12 grid gap-5 md:grid-cols-2 lg:grid-cols-3">
-          {services.map((s) => (
-            <article key={s.title} className="flex flex-col rounded-t border border-t-line bg-t-surface p-6 shadow-sm transition hover:-translate-y-0.5 hover:shadow-md">
-              <span className="grid h-11 w-11 place-items-center rounded-t bg-t-accent/15 text-t-accent" aria-hidden="true"><CheckIcon /></span>
-              <h3 className={`mt-4 font-display text-xl font-bold ${upper}`}>{s.title}</h3>
-              <p className="mt-2 text-t-muted">{s.text}</p>
-              <ul className="mt-4 space-y-1.5 text-sm">
-                {s.items.map((it) => (
-                  <li key={it} className="flex gap-2"><span className="text-t-accent" aria-hidden="true">–</span>{it}</li>
-                ))}
-              </ul>
-            </article>
-          ))}
-        </div>
-      )}
-      {theme.services === "tiles" && (
-        <div className="mt-12 grid gap-px bg-t-line sm:grid-cols-2 lg:grid-cols-3">
-          {services.map((s, i) => (
-            <article key={s.title} className="group bg-t-bg">
-              <PlaceholderArt motif={theme.motif} palette={theme.palette} label={s.title} seed={i + 1} className="aspect-[16/10] w-full" showLabel={false} />
-              <div className="p-6">
-                <h3 className={`font-display text-xl font-semibold ${upper}`}>{s.title}</h3>
-                <p className="mt-2 text-sm text-t-muted">{s.text}</p>
-                <p className="mt-3 text-sm font-medium">{s.items.join(" · ")}</p>
-              </div>
-            </article>
-          ))}
-        </div>
-      )}
-    </section>
-  );
-}
-
-function Why({ lead, theme, upper }: { lead: Lead; theme: Theme; upper: string }) {
-  const { why } = lead.site;
-  const { company } = lead;
-  return (
-    <section id="ueber-uns" className="bg-t-dark text-t-dark-ink">
-      <div className="mx-auto grid max-w-site gap-12 px-4 py-20 sm:px-6 lg:grid-cols-12">
-        <div className="lg:col-span-5">
-          <p className="text-sm font-semibold uppercase tracking-[0.18em] text-t-accent">Warum {company.owner ?? company.name}?</p>
-          <h2 className={`mt-3 font-display text-3xl font-bold leading-tight sm:text-4xl ${upper}`}>{why.headline}</h2>
-          <PlaceholderArt motif={theme.motif} palette={theme.palette} label={company.owner ? `Portrait ${company.owner}` : "Portrait des Inhabers / Teams"} seed={3} className="mt-8 aspect-[4/3] rounded-t" />
-        </div>
-        <div className="grid gap-6 sm:grid-cols-2 lg:col-span-7">
-          {why.points.map((p) => (
-            <div key={p.title} className="rounded-t border border-white/10 bg-white/[0.04] p-6">
-              <h3 className="font-display text-xl font-semibold">{p.title}</h3>
-              <p className="mt-2 text-t-dark-ink/75">{p.text}</p>
-            </div>
-          ))}
-        </div>
-      </div>
-    </section>
-  );
-}
-
-function Stars({ rating }: { rating: number }) {
-  return (
-    <span className="inline-flex items-center gap-0.5 text-t-accent" aria-label={`${rating.toLocaleString("de-DE")} von 5 Sternen`}>
-      {Array.from({ length: 5 }).map((_, i) => (
-        <svg key={i} width="18" height="18" viewBox="0 0 20 20" aria-hidden="true" fill={i < Math.round(rating) ? "currentColor" : "none"} stroke="currentColor">
-          <path d="M10 1.5l2.6 5.4 5.9.8-4.3 4.1 1 5.8L10 14.9l-5.2 2.7 1-5.8L1.5 7.7l5.9-.8z" />
-        </svg>
-      ))}
-    </span>
-  );
-}
-
-function Reviews({ lead, upper }: { lead: Lead; upper: string }) {
-  const r = lead.site.reviews;
-  return (
-    <section id="bewertungen" className="mx-auto max-w-site px-4 py-20 sm:px-6">
-      <div className="grid gap-10 lg:grid-cols-12">
-        <div className="lg:col-span-5">
-          <SectionHead kicker="Kundenstimmen" title={r.headline} upper={upper} />
-          {r.rating !== null && (
-            <div className="mt-8 rounded-t border border-t-line bg-t-surface p-6">
-              <div className="flex items-baseline gap-3">
-                <span className="font-display text-5xl font-bold">{r.rating.toLocaleString("de-DE", { minimumFractionDigits: 1 })}</span>
-                <span className="text-t-muted">von 5</span>
-              </div>
-              <Stars rating={r.rating} />
-              <p className="mt-2 text-sm text-t-muted">
-                {r.count !== null ? `${r.count} Bewertungen auf ` : "Bewertungen auf "}
-                <a href={r.sourceUrl} target="_blank" rel="noopener noreferrer nofollow" className="font-semibold text-t-ink underline underline-offset-4">{r.source}</a>
-              </p>
-            </div>
-          )}
-        </div>
-        <div className="lg:col-span-7">
-          <p className="text-xl leading-relaxed">{r.summary}</p>
-          <ul className="mt-8 grid gap-4 sm:grid-cols-2">
-            {r.highlights.map((h) => (
-              <li key={h} className="flex items-start gap-3 rounded-t border border-t-line bg-t-surface p-5">
-                <CheckIcon className="mt-0.5 shrink-0 text-t-accent" />
-                <span>{h}</span>
-              </li>
-            ))}
-          </ul>
-          <p className="mt-6 text-xs text-t-muted">
-            Sinngemäße Zusammenfassung öffentlicher Bewertungen. Quelle: {r.source}. Stand der Recherche: {new Date(lead.date).toLocaleDateString("de-DE")}.
-          </p>
-        </div>
-      </div>
-    </section>
-  );
-}
-
-function Process({ lead, upper }: { lead: Lead; upper: string }) {
-  const p = lead.site.process;
-  return (
-    <section id="ablauf" className="border-y border-t-line bg-t-surface">
-      <div className="mx-auto max-w-site px-4 py-20 sm:px-6">
-        <SectionHead kicker="So läuft es ab" title={p.headline} upper={upper} center />
-        <ol className="mt-12 grid gap-6 md:grid-cols-2 lg:grid-cols-4">
-          {p.steps.map((s, i) => (
-            <li key={s.title} className="relative rounded-t bg-t-bg p-6">
-              <span className="grid h-10 w-10 place-items-center rounded-full bg-t-accent font-bold text-t-accent-ink">{i + 1}</span>
-              <h3 className="mt-4 font-display text-lg font-bold">{s.title}</h3>
-              <p className="mt-2 text-sm text-t-muted">{s.text}</p>
-            </li>
-          ))}
-        </ol>
-      </div>
-    </section>
-  );
-}
-
-function Gallery({ lead, theme, upper }: { lead: Lead; theme: Theme; upper: string }) {
-  const g = lead.site.gallery;
-  return (
-    <section id="projekte" className="mx-auto max-w-site px-4 py-20 sm:px-6">
-      <SectionHead kicker="Projekte" title={g.headline} text={g.text} upper={upper} />
-      <div className="mt-12 grid auto-rows-[12rem] grid-cols-2 gap-3 md:auto-rows-[14rem] md:grid-cols-4">
-        {g.items.map((it, i) => (
-          <figure key={it.title} className={`relative overflow-hidden rounded-t ${i === 0 ? "col-span-2 row-span-2" : ""}`}>
-            <PlaceholderArt motif={theme.motif} palette={theme.palette} label={it.photoNeeded} seed={i + 4} className="h-full w-full" />
-            <figcaption className="absolute right-3 top-3 rounded bg-t-surface/90 px-2 py-1 text-xs font-semibold text-t-ink">{it.title}</figcaption>
-          </figure>
-        ))}
-      </div>
-    </section>
-  );
-}
-
-function Region({ lead, upper }: { lead: Lead; upper: string }) {
-  const r = lead.site.region;
-  return (
-    <section id="region" className="bg-t-surface">
-      <div className="mx-auto grid max-w-site gap-10 px-4 py-20 sm:px-6 lg:grid-cols-2">
-        <SectionHead kicker="Einsatzgebiet" title={r.headline} text={r.text} upper={upper} />
-        <ul className="flex flex-wrap content-start gap-2" aria-label="Orte im Einsatzgebiet">
-          {r.places.map((p) => (
-            <li key={p} className="rounded-full border border-t-line bg-t-bg px-4 py-2 text-sm font-medium">
-              {lead.company.trade} {p}
-            </li>
-          ))}
-        </ul>
-      </div>
-    </section>
-  );
-}
-
-function Faq({ lead, upper }: { lead: Lead; upper: string }) {
-  return (
-    <section id="faq" className="mx-auto max-w-3xl px-4 py-20 sm:px-6">
-      <SectionHead kicker="FAQ" title="Häufige Fragen" upper={upper} center />
-      <div className="mt-10 divide-y divide-t-line rounded-t border border-t-line bg-t-surface">
-        {lead.site.faq.map((f) => (
-          <details key={f.q} className="group p-5">
-            <summary className="flex cursor-pointer list-none items-center justify-between gap-4 font-semibold [&::-webkit-details-marker]:hidden">
-              {f.q}
-              <span className="text-xl text-t-accent transition group-open:rotate-45" aria-hidden="true">+</span>
-            </summary>
-            <p className="mt-3 text-t-muted">{f.a}</p>
-          </details>
-        ))}
-      </div>
-    </section>
-  );
-}
-
-function Contact({ lead, call, upper }: { lead: Lead; call: string; upper: string }) {
+function Contact({ lead, call, upper }: Ctx) {
   const { contact } = lead.site;
   const { company } = lead;
   return (
     <section id="kontakt" className="bg-t-dark text-t-dark-ink">
-      <div className="mx-auto grid max-w-site gap-10 px-4 py-20 sm:px-6 lg:grid-cols-12">
+      <div className="mx-auto grid max-w-site gap-12 px-4 py-24 sm:px-6 lg:grid-cols-12">
         <div className="lg:col-span-5">
-          <p className="text-sm font-semibold uppercase tracking-[0.18em] text-t-accent">Kontakt</p>
-          <h2 className={`mt-3 font-display text-3xl font-bold leading-tight sm:text-4xl ${upper}`}>{contact.headline}</h2>
-          <p className="mt-4 text-lg text-t-dark-ink/80">{contact.text}</p>
-          {company.phone && (
-            <a href={call} className="mt-8 flex items-center gap-4 rounded-t bg-white/5 p-5 transition hover:bg-white/10">
-              <span className="grid h-12 w-12 place-items-center rounded-full bg-t-accent text-t-accent-ink"><PhoneIcon /></span>
-              <span>
-                <span className="block text-sm text-t-dark-ink/70">Direkt anrufen</span>
-                <span className="block font-display text-2xl font-bold">{company.phone}</span>
-              </span>
-            </a>
-          )}
-          <dl className="mt-6 space-y-3 text-sm text-t-dark-ink/80">
-            {company.owner && (<div><dt className="inline font-semibold text-t-dark-ink">Ansprechpartner: </dt><dd className="inline">{company.owner}</dd></div>)}
-            <div><dt className="inline font-semibold text-t-dark-ink">Standort: </dt><dd className="inline">{company.address ?? company.city}</dd></div>
-            <div><dt className="inline font-semibold text-t-dark-ink">Hinweis: </dt><dd className="inline">{contact.responseNote}</dd></div>
-          </dl>
+          <SectionHead kicker="Kontakt" title={contact.headline} text={contact.text} upper={upper} dark />
+          <div className="mt-8 grid gap-3">
+            {company.phone && <ContactCard icon={<PhoneIcon />} title="Telefon"><a href={call} className="font-display text-xl">{company.phone}</a></ContactCard>}
+            {company.email && <ContactCard icon={<MailIcon />} title="E-Mail"><a href={`mailto:${company.email}`}>{company.email}</a></ContactCard>}
+            <ContactCard icon={<PinIcon />} title="Standort">{company.address ?? company.city}</ContactCard>
+            <ContactCard icon={<ShieldIcon />} title="Hinweis">{contact.responseNote}</ContactCard>
+          </div>
         </div>
-        <div className="rounded-t bg-t-bg p-6 text-t-ink sm:p-8 lg:col-span-7">
-          <ContactForm topics={contact.topics} companyName={company.name} />
+        <div className="rounded-t bg-t-bg p-6 text-t-ink shadow-2xl sm:p-8 lg:col-span-7">
+          <h3 className="font-display text-2xl font-bold">Nachricht senden</h3>
+          <p className="mb-6 mt-1 text-sm text-t-muted">Je genauer Ihre Beschreibung, desto schneller die Einschätzung.</p>
+          <ContactForm topics={contact.topics} />
         </div>
       </div>
     </section>
   );
 }
 
-function Footer({ lead, call }: { lead: Lead; call: string }) {
+function Footer({ lead, call }: Ctx) {
   const { company, site } = lead;
   const year = new Date(lead.date).getFullYear();
   return (
     <footer className="border-t border-t-line bg-t-bg">
-      <div className="mx-auto grid max-w-site gap-8 px-4 py-12 text-sm sm:px-6 md:grid-cols-3">
-        <div>
-          <p className="font-display text-lg font-bold">{company.name}</p>
-          <p className="mt-2 text-t-muted">{company.trade} für {company.serviceArea.slice(0, 3).join(", ")} und Umgebung.</p>
-          {company.phone && <a href={call} className="mt-3 inline-block font-semibold text-t-accent">{company.phone}</a>}
+      <div className="mx-auto grid max-w-site gap-10 px-4 py-14 text-sm sm:px-6 md:grid-cols-4">
+        <div className="md:col-span-2">
+          <Logo lead={lead} />
+          <p className="mt-4 max-w-sm text-t-muted">{company.trade} für {company.serviceArea.slice(0, 4).join(", ")} und Umgebung.</p>
         </div>
-        <nav aria-label="Footer-Navigation" className="grid content-start gap-2">
-          {site.nav.map((n) => (
-            <a key={n.href} href={n.href} className="text-t-muted hover:text-t-ink">{n.label}</a>
-          ))}
-        </nav>
-        <div className="grid content-start gap-2">
-          <a href="#impressum" className="text-t-muted hover:text-t-ink">Impressum</a>
-          <a href="#datenschutz" className="text-t-muted hover:text-t-ink">Datenschutz</a>
+        <div>
+          <p className="font-bold">Seiten</p>
+          <nav aria-label="Footer-Navigation" className="mt-3 grid gap-2">
+            {site.nav.map((n) => <a key={n.href} href={n.href} className="text-t-muted hover:text-t-ink">{n.label}</a>)}
+          </nav>
+        </div>
+        <div>
+          <p className="font-bold">Kontakt</p>
+          <div className="mt-3 grid gap-2 text-t-muted">
+            {company.phone && <a href={call} className="hover:text-t-ink">{company.phone}</a>}
+            {company.email && <a href={`mailto:${company.email}`} className="break-words hover:text-t-ink">{company.email}</a>}
+            <span>{company.address ?? company.city}</span>
+            <a href="#impressum" className="hover:text-t-ink">Impressum</a>
+            <a href="#datenschutz" className="hover:text-t-ink">Datenschutz</a>
+          </div>
         </div>
       </div>
       <div className="mx-auto grid max-w-site gap-4 px-4 pb-10 text-xs text-t-muted sm:px-6 md:grid-cols-2">
@@ -545,10 +723,43 @@ function Footer({ lead, call }: { lead: Lead; call: string }) {
           <p className="mt-1">Die vollständige Datenschutzerklärung nach DSGVO (Kontaktformular, Hosting, Server-Logs) wird vor dem Livegang erstellt.</p>
         </div>
       </div>
-      <p className="border-t border-t-line px-4 py-4 text-center text-xs text-t-muted">
+      <p className="border-t border-t-line px-4 py-4 pb-24 text-center text-xs text-t-muted md:pb-4">
         {DEMO_NOTICE} Entwurf vom {new Date(lead.date).toLocaleDateString("de-DE")} · © {year}
       </p>
     </footer>
+  );
+}
+
+function StickyBar({ lead, call }: Ctx) {
+  return (
+    <div className="fixed inset-x-0 bottom-0 z-40 border-t border-t-line bg-t-surface/95 p-3 shadow-[0_-8px_24px_rgba(0,0,0,0.08)] backdrop-blur md:hidden">
+      <div className="flex gap-2">
+        {lead.company.phone && (
+          <a href={call} className="flex flex-1 items-center justify-center gap-2 rounded-t border border-t-ink/15 px-3 py-3 text-sm font-bold">
+            <PhoneIcon /> Anrufen
+          </a>
+        )}
+        <a href="#anfrage" className="flex flex-[1.5] items-center justify-center rounded-t bg-t-accent px-3 py-3 text-sm font-bold text-t-accent-ink">{lead.site.stickyCta}</a>
+      </div>
+    </div>
+  );
+}
+
+/* ---------- Kleinteile ---------- */
+
+function fmt(n: number) {
+  return n.toLocaleString("de-DE", { minimumFractionDigits: 1, maximumFractionDigits: 1 });
+}
+
+function Stars({ rating }: { rating: number }) {
+  return (
+    <span className="inline-flex items-center gap-0.5 text-t-accent" aria-label={`${fmt(rating)} von 5 Sternen`}>
+      {Array.from({ length: 5 }).map((_, i) => (
+        <svg key={i} width="16" height="16" viewBox="0 0 20 20" aria-hidden="true" fill={i < Math.round(rating) ? "currentColor" : "none"} stroke="currentColor">
+          <path d="M10 1.5l2.6 5.4 5.9.8-4.3 4.1 1 5.8L10 14.9l-5.2 2.7 1-5.8L1.5 7.7l5.9-.8z" />
+        </svg>
+      ))}
+    </span>
   );
 }
 
@@ -560,9 +771,33 @@ function PhoneIcon() {
   );
 }
 
-function CheckIcon({ className = "" }: { className?: string }) {
+function MailIcon() {
   return (
-    <svg width="18" height="18" viewBox="0 0 20 20" fill="none" stroke="currentColor" strokeWidth="2.2" className={className} aria-hidden="true">
+    <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
+      <rect x="3" y="5" width="18" height="14" rx="2" /><path d="M3 7l9 6 9-6" />
+    </svg>
+  );
+}
+
+function PinIcon() {
+  return (
+    <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
+      <path d="M12 21s-7-6.2-7-11.5A7 7 0 0 1 19 9.5C19 14.8 12 21 12 21z" /><circle cx="12" cy="9.5" r="2.5" />
+    </svg>
+  );
+}
+
+function ShieldIcon() {
+  return (
+    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
+      <path d="M12 3l8 3v6c0 4.5-3.4 8.2-8 9-4.6-.8-8-4.5-8-9V6l8-3z" /><path d="M8.5 12l2.5 2.5 4.5-5" />
+    </svg>
+  );
+}
+
+function CheckIcon({ className = "", size = 18 }: { className?: string; size?: number }) {
+  return (
+    <svg width={size} height={size} viewBox="0 0 20 20" fill="none" stroke="currentColor" strokeWidth="2.4" className={className} aria-hidden="true">
       <path d="M4 10.5l4 4 8-9" strokeLinecap="round" strokeLinejoin="round" />
     </svg>
   );

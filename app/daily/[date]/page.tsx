@@ -68,6 +68,7 @@ export default async function DailyPage({ params }: { params: Promise<{ date: st
               <div><dt className="text-slate-500">Telefon</dt><dd className="font-semibold">{l.company.phone ? <a href={`tel:${l.company.phone.replace(/[^\d+]/g, "")}`}>{l.company.phone}</a> : "nicht öffentlich belegt"}</dd></div>
               <div><dt className="text-slate-500">Google</dt><dd><a className="font-semibold text-blue-700 underline" href={l.listings.google.url} target="_blank" rel="noopener noreferrer">In Maps prüfen</a>{l.listings.google.evidence.startsWith("NICHT") ? <span className="ml-1 rounded bg-amber-100 px-1.5 py-0.5 text-xs font-semibold text-amber-800">nicht verifiziert</span> : <> · {fmtRating(l.listings.google.rating, l.listings.google.reviews)}</>}</dd></div>
               <div><dt className="text-slate-500">MyHammer</dt><dd><a className="font-semibold text-blue-700 underline" href={l.listings.myhammer.url} target="_blank" rel="noopener noreferrer">Profil öffnen</a> · {fmtRating(l.listings.myhammer.rating, l.listings.myhammer.reviews)}</dd></div>
+              <div><dt className="text-slate-500">E-Mail</dt><dd className="font-semibold">{l.company.email ? <a href={`mailto:${l.company.email}`}>{l.company.email}</a> : "nicht öffentlich belegt"}</dd></div>
               <div><dt className="text-slate-500">Website-Status</dt><dd className="font-semibold">{l.websiteStatus}</dd></div>
             </dl>
 

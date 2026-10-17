@@ -8,18 +8,17 @@ const appDir = path.join(root, ".next", "server", "app");
 const cssDir = path.join(root, ".next", "static", "css");
 const css = fs.readdirSync(cssDir).filter((f) => f.endsWith(".css")).map((f) => fs.readFileSync(path.join(cssDir, f), "utf8")).join("\n");
 
-const formScript = `<script>document.querySelectorAll("form").forEach(function(f){f.addEventListener("submit",function(e){e.preventDefault();if(f.reportValidity()){alert("Website-Entwurf: Das Formular verschickt noch keine Daten. In der Live-Version landet die Anfrage direkt beim Betrieb.");}});});</script>`;
 
 function standalone(html) {
   return html
     .replace(/<link[^>]+rel="stylesheet"[^>]*>/g, "")
     .replace(/<link[^>]+rel="preload"[^>]*>/g, "")
-    .replace(/<script\b[^>]*>[\s\S]*?<\/script>/g, "")
+    .replace(/<script\b(?![^>]*id="demo-enhance")[^>]*>[\s\S]*?<\/script>/g, "")
     .replace(/href="\/demo\/([a-z0-9-]+)"/g, 'href="$1.html"')
     .replace(/href="\/daily\/(\d{4}-\d{2}-\d{2})"/g, 'href="index.html"')
     .replace(/href="\/"/g, 'href="index.html"')
     .replace("</head>", `<style>${css}</style></head>`)
-    .replace("</body>", `${formScript}</body>`);
+    ;
 }
 
 const dates = fs.readdirSync(path.join(appDir, "daily")).filter((f) => /^\d{4}-\d{2}-\d{2}\.html$/.test(f)).map((f) => f.slice(0, 10));

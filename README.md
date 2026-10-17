@@ -48,3 +48,12 @@ Claude-Artifacts veröffentlicht und über das Share-Menü gezielt an den jeweil
 | 2026-10-17 | Patrick Faulhaber Küchen- & Möbelmontagen | https://claude.ai/artifact/QBXGRSms9pW8xq6zUtZnuU |
 | 2026-10-17 | Agata Mangani | https://claude.ai/artifact/3rG55VCSPXjwJhVtp23NuM |
 | 2026-10-17 | Paul-Ovidiu Asmarandi Garten- und Landschaftsbau | https://claude.ai/artifact/B77jY13wyBbs5CJSdmmMFH |
+
+## Design-Standard der Entwürfe
+
+Aufbau orientiert an führenden Handwerker-Websites: Kontaktleiste mit Bewertung/Telefon/E-Mail, Header mit
+Anfrage-Button, Hero mit lokalem Keyword-H1 und Bewertungs-Badge, mehrstufige Schnellanfrage
+(„Angebot in 60 Sekunden“), Qualitätsmerkmale, Leistungen mit Bild, Inhaber-/Über-uns-Bereich, Kennzahlen-Band,
+Vorher/Nachher-Regler, Bewertungs-Zusammenfassung, Ablauf, CTA-Band, Karte des Einsatzgebiets, FAQ, Kontaktkarten +
+Formular, Footer und mobile Sticky-Leiste. Interaktive Teile laufen über ein kleines Inline-Skript
+(`components/Enhance.tsx`) und funktionieren daher auch in den Exporten.

@@ -34,6 +34,17 @@ body {
   z-index: 100;
 }
 
+h1,
+h2,
+h3 {
+  overflow-wrap: break-word;
+  hyphens: auto;
+}
+
+[hidden] {
+  display: none !important;
+}
+
 section[id] {
   scroll-margin-top: 5rem;
 }

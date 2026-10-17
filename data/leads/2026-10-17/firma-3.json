@@ -7,7 +7,7 @@
     "owner": "Patrick Faulhaber",
     "trade": "Küchen- & Möbelmontage",
     "city": "Andechs",
-    "address": null,
+    "address": "An der Breite 5, 82229 Seefeld",
     "phone": null,
     "serviceArea": [
       "Andechs",
@@ -16,7 +16,8 @@
       "Weßling",
       "Tutzing",
       "Schondorf"
-    ]
+    ],
+    "email": null
   },
   "listings": {
     "google": {
@@ -128,7 +129,7 @@
     ],
     "hero": {
       "eyebrow": "Küchen- & Möbelmontage · Andechs",
-      "headline": "Ihre Küche. Millimetergenau montiert.",
+      "headline": "Ihre Küche. Millimeter­genau montiert.",
       "sub": "Patrick Faulhaber ist gelernter Schreiner und baut seit über zehn Jahren Küchen und Möbel auf – vom Möbelhaus-Bausatz bis zur passgenau eingesetzten Arbeitsplatte. Für Andechs, den Ammersee und das Fünfseenland.",
       "ctaPrimary": "Montage anfragen",
       "ctaSecondary": "Rückruf vereinbaren",
@@ -343,8 +344,43 @@
         "Möbelmontage",
         "Sonstiges"
       ],
-      "responseNote": "Telefonnummer wird in der Live-Version ergänzt."
+      "responseNote": "Kontakt bisher über MyHammer – Telefon/E-Mail werden in der Live-Version ergänzt."
     },
-    "stickyCta": "Montage anfragen"
+    "stickyCta": "Montage anfragen",
+    "brandName": "Faulhaber Montagen",
+    "scene": "kitchen",
+    "quote": {
+      "sizeLabel": "Was soll montiert werden?",
+      "sizes": [
+        "Komplette Küche",
+        "Küchenerweiterung / Umbau",
+        "Nur Arbeitsplatte",
+        "Möbel / Schränke"
+      ],
+      "timings": [
+        "Liefertermin steht schon",
+        "In den nächsten Wochen",
+        "In 1–3 Monaten",
+        "Ich plane erst noch"
+      ]
+    },
+    "badges": [
+      {
+        "title": "Gelernter Schreiner",
+        "sub": "über 10 Jahre Montageerfahrung"
+      },
+      {
+        "title": "5,0 ★ auf MyHammer",
+        "sub": "aus 38 Bewertungen"
+      },
+      {
+        "title": "Auch IKEA-Küchen",
+        "sub": "und Möbelhausküchen"
+      },
+      {
+        "title": "Fünfseenland",
+        "sub": "Andechs, Seefeld, Herrsching"
+      }
+    ]
   }
 }

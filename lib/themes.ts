@@ -1,15 +1,13 @@
 import type { CSSProperties } from "react";
 import type { ThemeKey } from "./types";
 
-export type HeroVariant = "editorial" | "panel" | "fullbleed" | "split" | "organic";
+export type HeroVariant = "editorial" | "panel" | "fullbleed" | "split" | "organic" | "banner";
 export type ServicesVariant = "cards" | "numbered" | "tiles";
-export type Motif = "paint" | "tiles" | "leaves" | "circuit" | "building" | "wood";
 
 export interface Theme {
   vars: Record<string, string>;
   hero: HeroVariant;
   services: ServicesVariant;
-  motif: Motif;
   displayCase: "normal" | "upper";
   palette: string[];
 }
@@ -24,7 +22,7 @@ export const themes: Record<ThemeKey, Theme> = {
       accent: "184 84 52", "accent-ink": "255 255 255", dark: "38 34 31", "dark-ink": "250 246 240",
       "font-display": font.serif, "font-body": font.sans, radius: "0.375rem",
     },
-    hero: "editorial", services: "numbered", motif: "paint", displayCase: "normal",
+    hero: "editorial", services: "numbered", displayCase: "normal",
     palette: ["#b85434", "#d9a35f", "#7f8f86", "#e8ddd0", "#2f3b4a"],
   },
   // Hausmeisterservice: strukturiert, verlässlich, Objektbetreuung
@@ -34,7 +32,7 @@ export const themes: Record<ThemeKey, Theme> = {
       accent: "245 176 38", "accent-ink": "17 28 45", dark: "18 34 58", "dark-ink": "240 244 250",
       "font-display": font.sans, "font-body": font.sans, radius: "0.75rem",
     },
-    hero: "panel", services: "cards", motif: "building", displayCase: "normal",
+    hero: "panel", services: "cards", displayCase: "normal",
     palette: ["#12223a", "#f5b026", "#3e6a9c", "#dce2eb", "#8aa2bf"],
   },
   // Fliesenleger: Stein, Material, Ruhe
@@ -44,7 +42,7 @@ export const themes: Record<ThemeKey, Theme> = {
       accent: "166 132 78", "accent-ink": "255 255 255", dark: "28 28 27", "dark-ink": "242 240 237",
       "font-display": font.sans, "font-body": font.sans, radius: "0px",
     },
-    hero: "fullbleed", services: "tiles", motif: "tiles", displayCase: "upper",
+    hero: "fullbleed", services: "tiles", displayCase: "upper",
     palette: ["#d6d2cc", "#a6844e", "#5f5c57", "#ebe8e3", "#2c2c2b"],
   },
   // Garten- und Landschaftsbau: natürlich, emotional
@@ -54,7 +52,7 @@ export const themes: Record<ThemeKey, Theme> = {
       accent: "122 154 62", "accent-ink": "255 255 255", dark: "30 58 41", "dark-ink": "240 245 232",
       "font-display": font.serif, "font-body": font.sans, radius: "1.5rem",
     },
-    hero: "organic", services: "cards", motif: "leaves", displayCase: "normal",
+    hero: "organic", services: "cards", displayCase: "normal",
     palette: ["#1e3a29", "#7a9a3e", "#c7d59f", "#a8875a", "#eef0e2"],
   },
   // Elektriker: Sicherheit, Präzision, klare Struktur
@@ -64,7 +62,7 @@ export const themes: Record<ThemeKey, Theme> = {
       accent: "37 99 235", "accent-ink": "255 255 255", dark: "11 17 28", "dark-ink": "236 242 252",
       "font-display": font.condensed, "font-body": font.sans, radius: "0.5rem",
     },
-    hero: "split", services: "numbered", motif: "circuit", displayCase: "upper",
+    hero: "split", services: "numbered", displayCase: "upper",
     palette: ["#2563eb", "#facc15", "#0b111c", "#e2e7ee", "#60a5fa"],
   },
   // Schreiner / Innenausbau / Sanitär: Handwerk, Wärme, Präzision
@@ -74,7 +72,7 @@ export const themes: Record<ThemeKey, Theme> = {
       accent: "176 120 52", "accent-ink": "255 255 255", dark: "45 36 29", "dark-ink": "248 240 230",
       "font-display": font.condensed, "font-body": font.sans, radius: "0.25rem",
     },
-    hero: "split", services: "tiles", motif: "wood", displayCase: "upper",
+    hero: "banner", services: "tiles", displayCase: "upper",
     palette: ["#b07834", "#5b4636", "#d8c3a5", "#2d241d", "#8a9a8c"],
   },
   // Sanitär / Heizung: frisch, sauber, technisch-vertrauensvoll
@@ -84,7 +82,7 @@ export const themes: Record<ThemeKey, Theme> = {
       accent: "8 131 149", "accent-ink": "255 255 255", dark: "10 46 58", "dark-ink": "232 244 246",
       "font-display": font.sans, "font-body": font.sans, radius: "1rem",
     },
-    hero: "split", services: "cards", motif: "tiles", displayCase: "normal",
+    hero: "split", services: "cards", displayCase: "normal",
     palette: ["#0a2e3a", "#f59e0b", "#e6f2f4", "#7fc4cf", "#088395"],
   },
 };

@@ -1,3 +1,5 @@
+import type { SceneKind } from "@/components/Scene";
+
 export type ThemeKey = "atelier" | "objekt" | "stein" | "garten" | "volt" | "werk" | "aqua";
 
 export interface SourceRef {
@@ -16,6 +18,7 @@ export interface Lead {
     city: string;
     address: string | null;
     phone: string | null;
+    email: string | null;
     serviceArea: string[];
   };
   listings: {
@@ -48,10 +51,13 @@ export interface Lead {
 
 export interface SiteContent {
   theme: ThemeKey;
-  motif?: "paint" | "tiles" | "leaves" | "circuit" | "building" | "wood";
+  scene: SceneKind;
+  quote: { sizeLabel: string; sizes: string[]; timings: string[] };
+  badges: { title: string; sub: string }[];
   seoTitle: string;
   seoDescription: string;
   logoMark: string;
+  brandName: string;
   nav: { label: string; href: string }[];
   hero: {
     eyebrow: string;

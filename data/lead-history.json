@@ -24,7 +24,8 @@
         "https://www.11880.com/suche/heizungsinstallation/gilching"
       ],
       "websiteStatus": "keine eigene Website gefunden",
-      "criteriaStatus": "MyHammer belegt, keine eigene Website gefunden; Google-Eintrag NICHT verifiziert (Google aus Recherche-Umgebung nicht erreichbar)"
+      "criteriaStatus": "MyHammer belegt, keine eigene Website gefunden; Google-Eintrag NICHT verifiziert (Google aus Recherche-Umgebung nicht erreichbar)",
+      "email": "andreas.salamon@gmx.net"
     },
     {
       "company": "Gavai Maler Trockenbau",
@@ -32,7 +33,7 @@
       "trade": "Maler & Trockenbau",
       "city": "Gilching",
       "date": "2026-10-17",
-      "phone": null,
+      "phone": "0162 2463321",
       "googleLink": "https://www.google.com/maps/search/?api=1&query=Gavai%20Maler%20Trockenbau%20Gilching",
       "googleVerified": false,
       "myhammerLink": "https://www.my-hammer.de/auftragnehmer/gavai-maler-trockenbau",
@@ -47,7 +48,8 @@
         "https://www.blauarbeit.de/maler/branchenbuch/muenchen/gavai"
       ],
       "websiteStatus": "keine eigene Website gefunden",
-      "criteriaStatus": "MyHammer belegt, keine eigene Website gefunden; Google-Eintrag NICHT verifiziert (Google aus Recherche-Umgebung nicht erreichbar)"
+      "criteriaStatus": "MyHammer belegt, keine eigene Website gefunden; Google-Eintrag NICHT verifiziert (Google aus Recherche-Umgebung nicht erreichbar)",
+      "email": null
     },
     {
       "company": "Patrick Faulhaber Küchen- & Möbelmontagen",
@@ -70,7 +72,8 @@
         "https://branchenbuch.meinestadt.de/andechs/company/15468521"
       ],
       "websiteStatus": "keine eigene Website gefunden",
-      "criteriaStatus": "MyHammer belegt, keine eigene Website gefunden; Google-Eintrag NICHT verifiziert (Google aus Recherche-Umgebung nicht erreichbar)"
+      "criteriaStatus": "MyHammer belegt, keine eigene Website gefunden; Google-Eintrag NICHT verifiziert (Google aus Recherche-Umgebung nicht erreichbar)",
+      "email": null
     },
     {
       "company": "Agata Mangani",
@@ -95,7 +98,8 @@
         "https://www.hausmeisterdienste.net/germering/agata-mangani-aUQ2nI"
       ],
       "websiteStatus": "keine eigene Website gefunden",
-      "criteriaStatus": "MyHammer belegt, keine eigene Website gefunden; Google-Eintrag NICHT verifiziert (Google aus Recherche-Umgebung nicht erreichbar)"
+      "criteriaStatus": "MyHammer belegt, keine eigene Website gefunden; Google-Eintrag NICHT verifiziert (Google aus Recherche-Umgebung nicht erreichbar)",
+      "email": "manganibau@googlemail.com"
     },
     {
       "company": "Paul-Ovidiu Asmarandi Garten- und Landschaftsbau",
@@ -120,7 +124,8 @@
         "https://web2.cylex.de/firma-home/gaertnerei-stocker-2669347.html"
       ],
       "websiteStatus": "keine eigene Website gefunden",
-      "criteriaStatus": "MyHammer belegt, keine eigene Website gefunden; Google-Eintrag NICHT verifiziert (Google aus Recherche-Umgebung nicht erreichbar)"
+      "criteriaStatus": "MyHammer belegt, keine eigene Website gefunden; Google-Eintrag NICHT verifiziert (Google aus Recherche-Umgebung nicht erreichbar)",
+      "email": null
     }
   ],
   "rejected": [

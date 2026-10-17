@@ -8,7 +8,7 @@
     "trade": "Maler & Trockenbau",
     "city": "Gilching",
     "address": "Gilgener Heide 8f, 82205 Gilching",
-    "phone": null,
+    "phone": "0162 2463321",
     "serviceArea": [
       "Gilching",
       "Starnberg",
@@ -16,7 +16,8 @@
       "Weßling",
       "Gauting",
       "München-West"
-    ]
+    ],
+    "email": null
   },
   "listings": {
     "google": {
@@ -70,7 +71,7 @@
   },
   "manualChecks": [
     "Google-Unternehmensprofil in Google Maps prüfen (Existenz, Bewertung, hinterlegte Website)",
-    "Telefonnummer ermitteln (meinestadt.de hat einen Eintrag, Nummer war nicht im Suchsnippet) – im Entwurf daher kein Click-to-call",
+    "Telefonnummer 0162 2463321 bestätigen (Creditreform/meinestadt.de laut Suchergebnis, mittleres Vertrauen)",
     "Firmensitz bestätigen: Gilching (meinestadt.de) vs. Blauarbeit-Eintrag mit PLZ 81927 München",
     "Erfahrungsangabe (14 Jahre) mit Inhaber bestätigen, bevor sie auf der Live-Seite steht",
     "Eine ältere Kritik (2023) zu Preis/Zuverlässigkeit im Gespräch nicht ansprechen, aber kennen",
@@ -92,6 +93,10 @@
     {
       "label": "Blauarbeit – Gavai",
       "url": "https://www.blauarbeit.de/maler/branchenbuch/muenchen/gavai"
+    },
+    {
+      "label": "Creditreform – Ferenc Gavai Trockenbau",
+      "url": "https://firmeneintrag.creditreform.de/82205/8171094054/FERENC_GAVAI_TROCKENBAU"
     }
   ],
   "site": {
@@ -130,7 +135,7 @@
       "headline": "Räume, die wieder Freude machen.",
       "sub": "Ferenc Gavai streicht, spachtelt und baut um – von der frisch gestrichenen Wohnung bis zur neuen Trockenbauwand. Zwei Gewerke, ein Ansprechpartner, eine saubere Baustelle.",
       "ctaPrimary": "Kostenloses Angebot anfragen",
-      "ctaSecondary": "Rückruf vereinbaren",
+      "ctaSecondary": "Anrufen",
       "bullets": [
         "Malerarbeiten und Trockenbau aus einer Hand",
         "4,7 von 5 Sternen bei rund 25 Bewertungen auf MyHammer",
@@ -326,8 +331,43 @@
         "Maler + Trockenbau kombiniert",
         "Sonstiges"
       ],
-      "responseNote": "Telefonnummer wird in der Live-Version ergänzt."
+      "responseNote": "Rückruf nach Absprache."
     },
-    "stickyCta": "Angebot anfragen"
+    "stickyCta": "Angebot anfragen",
+    "brandName": "Gavai Maler & Trockenbau",
+    "scene": "paint",
+    "quote": {
+      "sizeLabel": "Wie viel soll gemacht werden?",
+      "sizes": [
+        "Ein Raum",
+        "2–3 Räume",
+        "Ganze Wohnung",
+        "Haus / mehrere Etagen"
+      ],
+      "timings": [
+        "So bald wie möglich",
+        "In den nächsten Wochen",
+        "In 1–3 Monaten",
+        "Zum Ein- oder Auszug"
+      ]
+    },
+    "badges": [
+      {
+        "title": "Maler + Trockenbau",
+        "sub": "zwei Gewerke, ein Ansprechpartner"
+      },
+      {
+        "title": "4,7 ★ auf MyHammer",
+        "sub": "aus rund 25 Bewertungen"
+      },
+      {
+        "title": "Sauber übergeben",
+        "sub": "abgedeckt, abgeklebt, aufgeräumt"
+      },
+      {
+        "title": "Aus Gilching",
+        "sub": "Landkreis Starnberg & Münchner Westen"
+      }
+    ]
   }
 }

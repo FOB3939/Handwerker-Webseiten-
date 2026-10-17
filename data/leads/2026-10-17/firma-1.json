@@ -9,7 +9,15 @@
     "city": "Gilching",
     "address": "Am Buchenstock 25 a, 82205 Gilching",
     "phone": "0176 22062380",
-    "serviceArea": ["Gilching", "Starnberg", "Weßling", "Germering", "Wörthsee", "Gauting"]
+    "serviceArea": [
+      "Gilching",
+      "Starnberg",
+      "Weßling",
+      "Germering",
+      "Wörthsee",
+      "Gauting"
+    ],
+    "email": "andreas.salamon@gmx.net"
   },
   "listings": {
     "google": {
@@ -40,7 +48,13 @@
       "Heizungsinstallation, Wärmepumpen (laut 11880)"
     ],
     "experience": null,
-    "praisedFor": ["Pünktlichkeit", "schnelle Erledigung", "Kompetenz", "Freundlichkeit", "saubere Arbeit"]
+    "praisedFor": [
+      "Pünktlichkeit",
+      "schnelle Erledigung",
+      "Kompetenz",
+      "Freundlichkeit",
+      "saubere Arbeit"
+    ]
   },
   "strategy": {
     "audience": "Eigenheimbesitzer im westlichen Landkreis Starnberg mit Bad- oder Heizungsprojekt",
@@ -66,12 +80,30 @@
     "Buderus-Vertragspartnerschaft vor Nennung auf der Live-Seite bestätigen lassen"
   ],
   "sources": [
-    { "label": "MyHammer-Profil", "url": "https://www.my-hammer.de/auftragnehmer/andreas-salamon-heizung-sanitaer-haustechnik" },
-    { "label": "MyHammer-Bewertungen", "url": "https://www.my-hammer.de/auftragnehmer/andreas-salamon-heizung-sanitaer-haustechnik/bewertungen" },
-    { "label": "Handwerkskammer München – Betriebsdetail", "url": "https://www.hwk-muenchen.de/betriebe/andreas-salamon-74,0,bdbdetail.html?id=402038" },
-    { "label": "Gemeindewerke Gilching – Installateurverzeichnis (PDF)", "url": "https://gemeindewerke-gilching.de/wp-content/uploads/2024/10/24-10-11-Installateurverzeichnis.pdf" },
-    { "label": "Gemeindewerke Gilching – Liste Heizungsbauer (PDF)", "url": "https://gemeindewerke-gilching.de/wp-content/uploads/2025/03/Liste-Heizungsbauer-1.pdf" },
-    { "label": "11880 – Heizungsinstallation Gilching", "url": "https://www.11880.com/suche/heizungsinstallation/gilching" }
+    {
+      "label": "MyHammer-Profil",
+      "url": "https://www.my-hammer.de/auftragnehmer/andreas-salamon-heizung-sanitaer-haustechnik"
+    },
+    {
+      "label": "MyHammer-Bewertungen",
+      "url": "https://www.my-hammer.de/auftragnehmer/andreas-salamon-heizung-sanitaer-haustechnik/bewertungen"
+    },
+    {
+      "label": "Handwerkskammer München – Betriebsdetail",
+      "url": "https://www.hwk-muenchen.de/betriebe/andreas-salamon-74,0,bdbdetail.html?id=402038"
+    },
+    {
+      "label": "Gemeindewerke Gilching – Installateurverzeichnis (PDF)",
+      "url": "https://gemeindewerke-gilching.de/wp-content/uploads/2024/10/24-10-11-Installateurverzeichnis.pdf"
+    },
+    {
+      "label": "Gemeindewerke Gilching – Liste Heizungsbauer (PDF)",
+      "url": "https://gemeindewerke-gilching.de/wp-content/uploads/2025/03/Liste-Heizungsbauer-1.pdf"
+    },
+    {
+      "label": "11880 – Heizungsinstallation Gilching",
+      "url": "https://www.11880.com/suche/heizungsinstallation/gilching"
+    }
   ],
   "site": {
     "theme": "aqua",
@@ -79,12 +111,30 @@
     "seoDescription": "Badsanierung, Heizung und Fußbodenheizung in Gilching und im Landkreis Starnberg. Eingetragener Installateur- und Heizungsbaubetrieb. Jetzt Besichtigung anfragen.",
     "logoMark": "AS",
     "nav": [
-      { "label": "Leistungen", "href": "#leistungen" },
-      { "label": "Über uns", "href": "#ueber-uns" },
-      { "label": "Bewertungen", "href": "#bewertungen" },
-      { "label": "Ablauf", "href": "#ablauf" },
-      { "label": "FAQ", "href": "#faq" },
-      { "label": "Kontakt", "href": "#kontakt" }
+      {
+        "label": "Leistungen",
+        "href": "#leistungen"
+      },
+      {
+        "label": "Über uns",
+        "href": "#ueber-uns"
+      },
+      {
+        "label": "Bewertungen",
+        "href": "#bewertungen"
+      },
+      {
+        "label": "Ablauf",
+        "href": "#ablauf"
+      },
+      {
+        "label": "FAQ",
+        "href": "#faq"
+      },
+      {
+        "label": "Kontakt",
+        "href": "#kontakt"
+      }
     ],
     "hero": {
       "eyebrow": "Sanitär · Heizung · Haustechnik in Gilching",
@@ -100,36 +150,113 @@
       "imageLabel": "modernes, fertig saniertes Bad eines Kundenprojekts"
     },
     "trust": [
-      { "value": "4,9 ★", "label": "Durchschnitt auf MyHammer" },
-      { "value": "27", "label": "Kundenbewertungen auf MyHammer" },
-      { "value": "HWK", "label": "Eingetragener Fachbetrieb, Handwerkskammer München" },
-      { "value": "Gilching", "label": "Betrieb vor Ort – kurze Wege im Landkreis" }
+      {
+        "value": "4,9 ★",
+        "label": "Durchschnitt auf MyHammer"
+      },
+      {
+        "value": "27",
+        "label": "Kundenbewertungen auf MyHammer"
+      },
+      {
+        "value": "HWK",
+        "label": "Eingetragener Fachbetrieb, Handwerkskammer München"
+      },
+      {
+        "value": "Gilching",
+        "label": "Betrieb vor Ort – kurze Wege im Landkreis"
+      }
     ],
     "servicesIntro": {
       "headline": "Alles rund um Wasser und Wärme im Haus",
       "text": "Vom Austausch einer Toilette bis zur kompletten Badsanierung, vom Gasanschluss bis zur neuen Fußbodenheizung: Sie bekommen einen Handwerker, der das ganze Projekt im Blick behält."
     },
     "services": [
-      { "title": "Badsanierung", "text": "Ihr altes Bad wird zum modernen Wohlfühlraum – geplant und umgesetzt von einem Ansprechpartner.", "items": ["Komplettsanierung", "Barrierearme Duschen", "Neue Sanitärobjekte"] },
-      { "title": "Dusche & Badewanne", "text": "Schneller Tausch von Duschkabine oder Wanne, auch als Einzelmaßnahme ohne Komplettumbau.", "items": ["Duschkabinen tauschen", "Badewannen ersetzen", "Abdichtung & Anschluss"] },
-      { "title": "Sanitäranschlüsse", "text": "Fachgerechte Installation von WC, Waschtisch und Armaturen – dicht und sauber angeschlossen.", "items": ["Toiletten einbauen", "Waschtische", "Armaturen"] },
-      { "title": "Heizungsinstallation", "text": "Installation und Modernisierung Ihrer Heizungsanlage – sprechen Sie uns auch auf Wärmepumpen an.", "items": ["Heizungstausch", "Wärmepumpe", "Heizkörper"] },
-      { "title": "Fußbodenheizung", "text": "Behagliche Wärme von unten – im Neubau ebenso wie bei der Sanierung einzelner Räume.", "items": ["Verlegung", "Anschluss an Bestand", "Badezimmer & Wohnräume"] },
-      { "title": "Gas & Leitungen", "text": "Verlegung von Gasleitungen und Anschluss von Gasherden durch den eingetragenen Fachbetrieb.", "items": ["Gasleitungen", "Gasherd anschließen", "Arbeiten am Schornsteinanschluss"] }
+      {
+        "title": "Badsanierung",
+        "text": "Ihr altes Bad wird zum modernen Wohlfühlraum – geplant und umgesetzt von einem Ansprechpartner.",
+        "items": [
+          "Komplettsanierung",
+          "Barrierearme Duschen",
+          "Neue Sanitärobjekte"
+        ]
+      },
+      {
+        "title": "Dusche & Badewanne",
+        "text": "Schneller Tausch von Duschkabine oder Wanne, auch als Einzelmaßnahme ohne Komplettumbau.",
+        "items": [
+          "Duschkabinen tauschen",
+          "Badewannen ersetzen",
+          "Abdichtung & Anschluss"
+        ]
+      },
+      {
+        "title": "Sanitäranschlüsse",
+        "text": "Fachgerechte Installation von WC, Waschtisch und Armaturen – dicht und sauber angeschlossen.",
+        "items": [
+          "Toiletten einbauen",
+          "Waschtische",
+          "Armaturen"
+        ]
+      },
+      {
+        "title": "Heizungsinstallation",
+        "text": "Installation und Modernisierung Ihrer Heizungsanlage – sprechen Sie uns auch auf Wärmepumpen an.",
+        "items": [
+          "Heizungstausch",
+          "Wärmepumpe",
+          "Heizkörper"
+        ]
+      },
+      {
+        "title": "Fußbodenheizung",
+        "text": "Behagliche Wärme von unten – im Neubau ebenso wie bei der Sanierung einzelner Räume.",
+        "items": [
+          "Verlegung",
+          "Anschluss an Bestand",
+          "Badezimmer & Wohnräume"
+        ]
+      },
+      {
+        "title": "Gas & Leitungen",
+        "text": "Verlegung von Gasleitungen und Anschluss von Gasherden durch den eingetragenen Fachbetrieb.",
+        "items": [
+          "Gasleitungen",
+          "Gasherd anschließen",
+          "Arbeiten am Schornsteinanschluss"
+        ]
+      }
     ],
     "why": {
       "headline": "Ein Ansprechpartner für Wasser und Wärme im Haus.",
       "points": [
-        { "title": "Eingetragener Fachbetrieb", "text": "Andreas Salamon ist bei der Handwerkskammer München als Installateur und Heizungsbauer eingetragen." },
-        { "title": "Von der Gemeinde gelistet", "text": "Als Vertragsinstallateur der Gemeindewerke Gilching arbeitet er direkt am örtlichen Wassernetz." },
-        { "title": "Pünktlich und sauber", "text": "Kunden heben in ihren Bewertungen immer wieder Pünktlichkeit und ordentliche Arbeit hervor." },
-        { "title": "Kurze Wege", "text": "Der Betrieb sitzt in Gilching – Termine im Landkreis Starnberg sind schnell erreichbar." }
+        {
+          "title": "Eingetragener Fachbetrieb",
+          "text": "Andreas Salamon ist bei der Handwerkskammer München als Installateur und Heizungsbauer eingetragen."
+        },
+        {
+          "title": "Von der Gemeinde gelistet",
+          "text": "Als Vertragsinstallateur der Gemeindewerke Gilching arbeitet er direkt am örtlichen Wassernetz."
+        },
+        {
+          "title": "Pünktlich und sauber",
+          "text": "Kunden heben in ihren Bewertungen immer wieder Pünktlichkeit und ordentliche Arbeit hervor."
+        },
+        {
+          "title": "Kurze Wege",
+          "text": "Der Betrieb sitzt in Gilching – Termine im Landkreis Starnberg sind schnell erreichbar."
+        }
       ]
     },
     "reviews": {
       "headline": "Was Kunden über die Zusammenarbeit sagen",
       "summary": "Kunden aus Gilching und Starnberg loben besonders die pünktliche, schnelle und kompetente Arbeitsweise sowie den freundlichen Umgang. Mehrfach wird hervorgehoben, dass nach dem Einsatz alles sauber hinterlassen wurde.",
-      "highlights": ["Pünktlich zu vereinbarten Terminen", "Schnelle, kompetente Erledigung", "Freundlicher Umgang", "Saubere Baustelle"],
+      "highlights": [
+        "Pünktlich zu vereinbarten Terminen",
+        "Schnelle, kompetente Erledigung",
+        "Freundlicher Umgang",
+        "Saubere Baustelle"
+      ],
       "source": "MyHammer",
       "sourceUrl": "https://www.my-hammer.de/auftragnehmer/andreas-salamon-heizung-sanitaer-haustechnik/bewertungen",
       "rating": 4.9,
@@ -138,41 +265,135 @@
     "process": {
       "headline": "In vier Schritten zum fertigen Bad",
       "steps": [
-        { "title": "Anfrage", "text": "Sie schildern kurz Ihr Vorhaben – per Telefon oder Formular." },
-        { "title": "Besichtigung", "text": "Vor Ort schauen wir uns Leitungen, Platz und Wünsche gemeinsam an." },
-        { "title": "Angebot", "text": "Sie erhalten ein nachvollziehbares Angebot mit klarem Leistungsumfang." },
-        { "title": "Umsetzung", "text": "Installation durch den Fachbetrieb – und eine saubere Übergabe." }
+        {
+          "title": "Anfrage",
+          "text": "Sie schildern kurz Ihr Vorhaben – per Telefon oder Formular."
+        },
+        {
+          "title": "Besichtigung",
+          "text": "Vor Ort schauen wir uns Leitungen, Platz und Wünsche gemeinsam an."
+        },
+        {
+          "title": "Angebot",
+          "text": "Sie erhalten ein nachvollziehbares Angebot mit klarem Leistungsumfang."
+        },
+        {
+          "title": "Umsetzung",
+          "text": "Installation durch den Fachbetrieb – und eine saubere Übergabe."
+        }
       ]
     },
     "gallery": {
       "headline": "Bäder und Anlagen aus der Region",
       "text": "Hier zeigen wir künftig ausgewählte Projekte aus Gilching und Umgebung – mit Einverständnis der Kunden.",
       "items": [
-        { "title": "Badsanierung", "photoNeeded": "fertiges Bad (Querformat, Tageslicht)" },
-        { "title": "Dusche", "photoNeeded": "bodengleiche Dusche nach Umbau" },
-        { "title": "Fußbodenheizung", "photoNeeded": "Heizkreise vor dem Estrich" },
-        { "title": "Heizung", "photoNeeded": "neu installierte Heizungsanlage im Technikraum" },
-        { "title": "Vorher / Nachher", "photoNeeded": "altes Bad vor der Sanierung" }
+        {
+          "title": "Badsanierung",
+          "photoNeeded": "fertiges Bad (Querformat, Tageslicht)"
+        },
+        {
+          "title": "Dusche",
+          "photoNeeded": "bodengleiche Dusche nach Umbau"
+        },
+        {
+          "title": "Fußbodenheizung",
+          "photoNeeded": "Heizkreise vor dem Estrich"
+        },
+        {
+          "title": "Heizung",
+          "photoNeeded": "neu installierte Heizungsanlage im Technikraum"
+        },
+        {
+          "title": "Vorher / Nachher",
+          "photoNeeded": "altes Bad vor der Sanierung"
+        }
       ]
     },
     "region": {
       "headline": "Ihr Sanitär- und Heizungsbetrieb für Gilching und den Landkreis Starnberg",
       "text": "Von Gilching aus sind Argelsried, Geisenbrunn, Weßling, Wörthsee, Starnberg, Gauting und Germering schnell erreicht. Ob Badsanierung im Einfamilienhaus oder neue Heizung im Reihenhaus – Sie haben einen Installateur aus der Nachbarschaft.",
-      "places": ["Gilching", "Argelsried", "Weßling", "Wörthsee", "Starnberg", "Gauting", "Germering", "Krailling"]
+      "places": [
+        "Gilching",
+        "Argelsried",
+        "Weßling",
+        "Wörthsee",
+        "Starnberg",
+        "Gauting",
+        "Germering",
+        "Krailling"
+      ]
     },
     "faq": [
-      { "q": "Übernehmen Sie auch kleinere Aufträge wie einen WC-Tausch?", "a": "Ja. Neben kompletten Badsanierungen gehören auch Einzelarbeiten wie der Einbau einer Toilette oder der Tausch einer Duschkabine zum Leistungsumfang." },
-      { "q": "Ist der Betrieb ein eingetragener Fachbetrieb?", "a": "Ja, Andreas Salamon ist bei der Handwerkskammer für München und Oberbayern als Installateur und Heizungsbauer eingetragen und Vertragsinstallateur der Gemeindewerke Gilching." },
-      { "q": "Wie läuft die Angebotserstellung ab?", "a": "Nach einer kurzen Beschreibung Ihres Vorhabens wird in der Regel ein Termin vor Ort vereinbart. Danach erhalten Sie ein schriftliches Angebot." },
-      { "q": "Bieten Sie auch Fußbodenheizungen an?", "a": "Ja, die Verlegung von Fußbodenheizungen gehört zum Leistungsangebot – sowohl im Bad als auch in Wohnräumen." },
-      { "q": "In welchen Orten sind Sie tätig?", "a": "Schwerpunkt ist Gilching und der Landkreis Starnberg. Fragen Sie für angrenzende Orte einfach kurz an." }
+      {
+        "q": "Übernehmen Sie auch kleinere Aufträge wie einen WC-Tausch?",
+        "a": "Ja. Neben kompletten Badsanierungen gehören auch Einzelarbeiten wie der Einbau einer Toilette oder der Tausch einer Duschkabine zum Leistungsumfang."
+      },
+      {
+        "q": "Ist der Betrieb ein eingetragener Fachbetrieb?",
+        "a": "Ja, Andreas Salamon ist bei der Handwerkskammer für München und Oberbayern als Installateur und Heizungsbauer eingetragen und Vertragsinstallateur der Gemeindewerke Gilching."
+      },
+      {
+        "q": "Wie läuft die Angebotserstellung ab?",
+        "a": "Nach einer kurzen Beschreibung Ihres Vorhabens wird in der Regel ein Termin vor Ort vereinbart. Danach erhalten Sie ein schriftliches Angebot."
+      },
+      {
+        "q": "Bieten Sie auch Fußbodenheizungen an?",
+        "a": "Ja, die Verlegung von Fußbodenheizungen gehört zum Leistungsangebot – sowohl im Bad als auch in Wohnräumen."
+      },
+      {
+        "q": "In welchen Orten sind Sie tätig?",
+        "a": "Schwerpunkt ist Gilching und der Landkreis Starnberg. Fragen Sie für angrenzende Orte einfach kurz an."
+      }
     ],
     "contact": {
       "headline": "Erzählen Sie uns von Ihrem Projekt",
       "text": "Rufen Sie direkt an oder senden Sie eine kurze Anfrage. Sie erhalten eine Rückmeldung mit einem Vorschlag für einen Besichtigungstermin.",
-      "topics": ["Badsanierung", "Dusche / Badewanne tauschen", "Sanitäranschluss / WC", "Heizung / Wärmepumpe", "Fußbodenheizung", "Gasanschluss", "Sonstiges"],
+      "topics": [
+        "Badsanierung",
+        "Dusche / Badewanne tauschen",
+        "Sanitäranschluss / WC",
+        "Heizung / Wärmepumpe",
+        "Fußbodenheizung",
+        "Gasanschluss",
+        "Sonstiges"
+      ],
       "responseNote": "Anfragen werden werktags bearbeitet."
     },
-    "stickyCta": "Besichtigung anfragen"
+    "stickyCta": "Besichtigung anfragen",
+    "brandName": "Salamon Haustechnik",
+    "scene": "bath",
+    "quote": {
+      "sizeLabel": "Wie groß ist das Vorhaben?",
+      "sizes": [
+        "Einzelne Reparatur / Austausch",
+        "Teilsanierung (z. B. nur Dusche)",
+        "Komplettes Bad",
+        "Heizung / ganzes Haus"
+      ],
+      "timings": [
+        "So bald wie möglich",
+        "In 1–3 Monaten",
+        "In 3–6 Monaten",
+        "Ich plane erst noch"
+      ]
+    },
+    "badges": [
+      {
+        "title": "Handwerkskammer München",
+        "sub": "eingetragener Installateur & Heizungsbauer"
+      },
+      {
+        "title": "Gemeindewerke Gilching",
+        "sub": "Vertragsinstallateur Wasser"
+      },
+      {
+        "title": "4,9 ★ auf MyHammer",
+        "sub": "aus 27 Bewertungen"
+      },
+      {
+        "title": "Bad & Heizung",
+        "sub": "aus einer Hand"
+      }
+    ]
   }
 }

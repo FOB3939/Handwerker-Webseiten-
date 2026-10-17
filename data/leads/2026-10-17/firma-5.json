@@ -16,7 +16,8 @@
       "Gräfelfing",
       "Gauting",
       "Schöngeising"
-    ]
+    ],
+    "email": null
   },
   "listings": {
     "google": {
@@ -140,8 +141,8 @@
       "ctaPrimary": "Gartenprojekt besprechen",
       "ctaSecondary": "Jetzt anrufen",
       "bullets": [
-        "4,9 ★ auf MyHammer",
-        "36 Bewertungen",
+        "Terrassen, Wege & Zäune",
+        "Gartenpflege & Gartenteiche",
         "Seit sechs Jahren am Markt"
       ],
       "imageLabel": "gepflegter Garten mit neuer Terrasse"
@@ -355,6 +356,41 @@
       ],
       "responseNote": "Termine vor Ort nach Absprache."
     },
-    "stickyCta": "Projekt besprechen"
+    "stickyCta": "Projekt besprechen",
+    "brandName": "Asmarandi Gartenbau",
+    "scene": "garden",
+    "quote": {
+      "sizeLabel": "Wie groß ist Ihr Garten?",
+      "sizes": [
+        "Kleiner Garten (bis 200 m²)",
+        "Mittel (200–500 m²)",
+        "Groß (über 500 m²)",
+        "Nur einzelne Fläche / Terrasse"
+      ],
+      "timings": [
+        "So bald wie möglich",
+        "Diese Saison",
+        "Nächstes Frühjahr",
+        "Regelmäßig (Pflege)"
+      ]
+    },
+    "badges": [
+      {
+        "title": "4,9 ★ auf MyHammer",
+        "sub": "aus 36 Bewertungen"
+      },
+      {
+        "title": "Seit 6 Jahren",
+        "sub": "am Markt (Eigenangabe)"
+      },
+      {
+        "title": "Bau & Pflege",
+        "sub": "Terrassen, Wege, Zäune, Teiche"
+      },
+      {
+        "title": "Würmtal",
+        "sub": "Planegg, Krailling, Gräfelfing"
+      }
+    ]
   }
 }
