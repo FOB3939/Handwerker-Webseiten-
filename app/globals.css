@@ -48,3 +48,59 @@ h3 {
 section[id] {
   scroll-margin-top: 5rem;
 }
+
+/* Logo-Intro (components/Splash.tsx) */
+.demo-splash {
+  animation: splash-out 0.6s ease-in 1.9s forwards;
+}
+.demo-splash-mark {
+  animation: splash-mark 0.9s cubic-bezier(0.2, 0.9, 0.25, 1.2) both;
+}
+.demo-splash-name {
+  animation: splash-up 0.6s ease-out 0.45s both;
+}
+.demo-splash-tag {
+  animation: splash-up 0.6s ease-out 0.65s both;
+}
+.demo-splash-line {
+  animation: splash-line 0.9s ease-out 0.8s both;
+}
+@keyframes splash-out {
+  to {
+    opacity: 0;
+    visibility: hidden;
+  }
+}
+@keyframes splash-mark {
+  from {
+    opacity: 0;
+    transform: scale(0.4) rotate(-12deg);
+  }
+  to {
+    opacity: 1;
+    transform: none;
+  }
+}
+@keyframes splash-up {
+  from {
+    opacity: 0;
+    transform: translateY(14px);
+  }
+  to {
+    opacity: 1;
+    transform: none;
+  }
+}
+@keyframes splash-line {
+  from {
+    transform: scaleX(0);
+  }
+  to {
+    transform: scaleX(1);
+  }
+}
+@media (prefers-reduced-motion: reduce) {
+  .demo-splash {
+    display: none;
+  }
+}

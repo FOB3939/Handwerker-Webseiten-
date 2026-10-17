@@ -8,6 +8,8 @@ import QuickRequest from "./QuickRequest";
 import BeforeAfter from "./BeforeAfter";
 import AreaMap from "./AreaMap";
 import Enhance from "./Enhance";
+import BrandLogo from "./BrandLogo";
+import Splash from "./Splash";
 
 const DEMO_NOTICE = "Unverbindlicher Website-Entwurf – nicht die offizielle Website des Unternehmens.";
 
@@ -31,6 +33,7 @@ export default function DemoSite({ lead }: { lead: Lead }) {
 
   return (
     <div style={themeStyle(theme)} className="min-h-screen bg-t-bg font-body text-t-ink antialiased">
+      <Splash icon={site.logoIcon} mark={site.logoMark} name={site.brandName} tagline={`${company.trade} · ${company.city}`} />
       <a href="#inhalt" className="skip-link rounded bg-t-ink px-3 py-2 text-t-bg">Zum Inhalt springen</a>
       <div className="bg-black px-4 py-1.5 text-center text-[11px] font-medium tracking-wide text-white/80" role="note">{DEMO_NOTICE}</div>
       <TopBar {...ctx} />
@@ -83,18 +86,7 @@ function TopBar({ lead, call }: Ctx) {
 
 function Logo({ lead }: { lead: Lead }) {
   const { site, company } = lead;
-  return (
-    <span className="flex min-w-0 items-center gap-3">
-      <span className="relative grid h-11 w-11 shrink-0 place-items-center overflow-hidden rounded-t bg-t-accent font-display text-lg font-black text-t-accent-ink">
-        <span className="absolute -bottom-3 -right-3 h-7 w-7 rotate-45 bg-black/15" aria-hidden="true" />
-        {site.logoMark}
-      </span>
-      <span className="min-w-0 leading-tight">
-        <span className="block truncate font-display text-[15px] font-extrabold">{site.brandName}</span>
-        <span className="block truncate text-[11px] font-semibold uppercase tracking-[0.14em] text-t-muted">{company.trade} · {company.city}</span>
-      </span>
-    </span>
-  );
+  return <BrandLogo icon={site.logoIcon} mark={site.logoMark} name={site.brandName} tagline={`${company.trade} · ${company.city}`} />;
 }
 
 function Header({ lead, call }: Ctx) {

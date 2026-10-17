@@ -1,4 +1,5 @@
 import type { SceneKind } from "@/components/Scene";
+import type { LogoIcon } from "@/components/BrandLogo";
 
 export type ThemeKey = "atelier" | "objekt" | "stein" | "garten" | "volt" | "werk" | "aqua";
 
@@ -58,6 +59,7 @@ export interface SiteContent {
   seoDescription: string;
   logoMark: string;
   brandName: string;
+  logoIcon: LogoIcon;
   nav: { label: string; href: string }[];
   hero: {
     eyebrow: string;
