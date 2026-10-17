@@ -85,6 +85,16 @@ export const themes: Record<ThemeKey, Theme> = {
     hero: "split", services: "cards", displayCase: "normal",
     palette: ["#0a2e3a", "#f59e0b", "#e6f2f4", "#7fc4cf", "#088395"],
   },
+  // Pferdehof / Bauernhof / Hofladen: naturnah, bodenständig, warm
+  hof: {
+    vars: {
+      bg: "248 245 236", surface: "255 253 247", ink: "44 36 27", muted: "110 98 82", line: "228 220 202",
+      accent: "158 58 38", "accent-ink": "255 255 255", dark: "52 61 38", "dark-ink": "246 242 228",
+      "font-display": font.serif, "font-body": font.sans, radius: "0.75rem",
+    },
+    hero: "organic", services: "tiles", displayCase: "normal",
+    palette: ["#9e3a26", "#8fae5a", "#b9c98a", "#efe4cc", "#3d2b1f"],
+  },
 };
 
 export function themeStyle(theme: Theme): CSSProperties {

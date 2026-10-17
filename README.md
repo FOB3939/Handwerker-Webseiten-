@@ -57,3 +57,11 @@ Anfrage-Button, Hero mit lokalem Keyword-H1 und Bewertungs-Badge, mehrstufige Sc
 Vorher/Nachher-Regler, Bewertungs-Zusammenfassung, Ablauf, CTA-Band, Karte des Einsatzgebiets, FAQ, Kontaktkarten +
 Formular, Footer und mobile Sticky-Leiste. Interaktive Teile laufen über ein kleines Inline-Skript
 (`components/Enhance.tsx`) und funktionieren daher auch in den Exporten.
+
+## Branchen & Treffsicherheit
+
+Neben Handwerk auch Pferdehöfe/Reitställe, Bauernhöfe/Hofläden (Theme `hof`, Szene `farm`, Logo-Icons
+`horseshoe`/`barn`). Website-Freiheit wird ohne Internetzugang nur über die Websuche geprüft: Pflicht sind mindestens
+zwei positive Belege (z. B. Freemail-Adresse im Verzeichnis, leeres Website-Feld) und eine Suche mit ausgeschlossenen
+Branchenbüchern ohne eigenen Treffer. Ein 100-%-Nachweis ist so nicht möglich – deshalb enthält jeder Lauf eine
+Schnell-Check-Liste mit Google-Maps-Links und Reserve-Kandidaten.

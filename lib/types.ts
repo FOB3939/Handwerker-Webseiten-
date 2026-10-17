@@ -1,7 +1,7 @@
 import type { SceneKind } from "@/components/Scene";
 import type { LogoIcon } from "@/components/BrandLogo";
 
-export type ThemeKey = "atelier" | "objekt" | "stein" | "garten" | "volt" | "werk" | "aqua";
+export type ThemeKey = "atelier" | "objekt" | "stein" | "garten" | "volt" | "werk" | "aqua" | "hof";
 
 export interface SourceRef {
   label: string;

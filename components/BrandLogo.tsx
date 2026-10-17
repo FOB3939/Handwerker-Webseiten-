@@ -1,4 +1,4 @@
-export type LogoIcon = "drop" | "roller" | "leaf" | "cabinet" | "plank" | "bolt" | "house" | "trowel";
+export type LogoIcon = "drop" | "roller" | "leaf" | "cabinet" | "plank" | "bolt" | "house" | "trowel" | "horseshoe" | "barn" | "broom" | "roof";
 
 const ICONS: Record<LogoIcon, string> = {
   drop: "M12 3c-3 4-6.5 7.6-6.5 11.2a6.5 6.5 0 0 0 13 0C18.5 10.6 15 7 12 3z M9 14.5a3 3 0 0 0 3 3",
@@ -9,6 +9,10 @@ const ICONS: Record<LogoIcon, string> = {
   bolt: "M13 2L4.5 13.5H11L10 22l8.5-11.5H12z",
   house: "M3 11.5L12 4l9 7.5 M5.5 9.5V20h13V9.5 M10 20v-5h4v5",
   trowel: "M4 20l7-7 M9 11l8.5-8.5 3.5 3.5L12.5 14.5z",
+  horseshoe: "M7 20V11a5 5 0 0 1 10 0v9 M7 20h3 M14 20h3 M7 14h2 M15 14h2",
+  barn: "M3 10l9-6 9 6v11H3z M9 21v-6h6v6 M9 15l6 6 M15 15l-6 6",
+  broom: "M14 3l-4 9 M7 12h8l3 9H4z M9 16v5 M13 16v5",
+  roof: "M2 13L12 4l10 9 M5 11v9h14v-9 M15 6V3h3v6",
 };
 
 // Selbst gestaltetes Logo (Emblem + Wortmarke) für den Entwurf. Ein vorhandenes Firmenlogo

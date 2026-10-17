@@ -1,4 +1,4 @@
-export type SceneKind = "bath" | "paint" | "kitchen" | "parquet" | "garden" | "drywall" | "electric" | "facade";
+export type SceneKind = "bath" | "paint" | "kitchen" | "parquet" | "garden" | "drywall" | "electric" | "facade" | "farm";
 
 interface Props {
   kind: SceneKind;
@@ -33,7 +33,7 @@ export default function Scene({ kind, palette, label, seed = 0, variant = "after
             <stop offset="1" stopColor="#000" stopOpacity="0.18" />
           </linearGradient>
         </defs>
-        {kind === "garden" ? <Garden p={p} id={id} seed={seed} before={before} /> : kind === "facade" ? <Facade p={p} id={id} seed={seed} before={before} /> : <Room kind={kind} p={p} id={id} seed={seed} before={before} />}
+        {kind === "garden" ? <Garden p={p} id={id} seed={seed} before={before} /> : kind === "facade" ? <Facade p={p} id={id} seed={seed} before={before} /> : kind === "farm" ? <Farm p={p} id={id} seed={seed} before={before} /> : <Room kind={kind} p={p} id={id} seed={seed} before={before} />}
         {before && <rect width="400" height="300" fill="#6b6158" opacity="0.28" style={{ mixBlendMode: "multiply" }} />}
       </svg>
       {showLabel && (
@@ -310,6 +310,48 @@ function Facade({ p, id, seed, before }: { p: P; id: string; seed: number; befor
         </g>
       )}
       <rect x="0" y="280" width="400" height="20" fill="#7d8c5a" />
+    </g>
+  );
+}
+
+function Farm({ p, id, seed, before }: { p: P; id: string; seed: number; before: boolean }) {
+  const s = (seed % 3) * 20;
+  return (
+    <g>
+      <rect width="400" height="300" fill={`url(#sky-${id})`} />
+      {/* Alpenkette am Horizont */}
+      <path d="M0 150 L50 110 L90 135 L140 85 L190 128 L240 95 L300 135 L350 100 L400 130 V170 H0 Z" fill="#9fb3c4" opacity="0.7" />
+      <path d="M140 85 l12 12 -10 -2 -8 6 z M240 95 l10 10 -9 -1 -7 5 z" fill="#fff" opacity="0.8" />
+      {/* Wiesen */}
+      <path d="M0 165 Q200 140 400 168 V300 H0 Z" fill={before ? "#a3a86a" : p.b} />
+      <path d="M0 210 Q180 185 400 215 V300 H0 Z" fill={before ? "#8f9a5a" : p.c} opacity="0.7" />
+      {/* Stall / Hof */}
+      <g transform={`translate(${40 + s} 0)`}>
+        <polygon points="0,150 60,112 120,150" fill={p.a} />
+        <rect x="8" y="148" width="104" height="62" fill={p.d} />
+        <rect x="46" y="170" width="28" height="40" fill={p.e} />
+        <path d="M46 170 l28 40 M74 170 l-28 40" stroke={p.d} strokeWidth="2" />
+        <rect x="18" y="160" width="16" height="14" fill="#fff" opacity="0.85" />
+        <rect x="86" y="160" width="16" height="14" fill="#fff" opacity="0.85" />
+      </g>
+      {/* Koppelzaun */}
+      <g stroke="#7a5a3a" strokeWidth="3" opacity={before ? 0.5 : 1}>
+        {Array.from({ length: 9 }).map((_, i) => <line key={i} x1={190 + i * 26} y1="214" x2={190 + i * 26} y2="246" />)}
+        <line x1="186" y1="222" x2="400" y2="222" />
+        <line x1="186" y1="236" x2="400" y2="236" />
+      </g>
+      {/* Pferd (Silhouette) */}
+      {!before && (
+        <g transform={`translate(${250 - s / 2} 168) scale(0.9)`} fill="#4a3426">
+          <path d="M10 30 q10 -12 34 -10 q14 1 22 -8 l8 -16 l5 2 l-2 10 q6 -2 8 4 q-6 2 -9 8 q-3 14 -10 18 l2 26 h-5 l-4 -22 q-14 4 -28 0 l-3 22 h-5 l0 -24 q-8 -2 -13 -10 z" />
+          <path d="M70 6 q-8 -2 -12 6" stroke="#4a3426" strokeWidth="3" fill="none" />
+        </g>
+      )}
+      {/* Heuballen */}
+      <g>
+        <ellipse cx="350" cy="262" rx="22" ry="14" fill={before ? "#b8a77a" : "#d8b866"} />
+        <ellipse cx="342" cy="262" rx="7" ry="10" fill="#c49f4c" opacity="0.7" />
+      </g>
     </g>
   );
 }
