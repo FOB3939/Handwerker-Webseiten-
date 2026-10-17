@@ -11,7 +11,7 @@ const css = fs.readdirSync(cssDir).filter((f) => f.endsWith(".css")).map((f) => 
 
 function standalone(html) {
   return html
-    .replace(/<link[^>]+rel="stylesheet"[^>]*>/g, "")
+    .replace(/<link(?![^>]*fonts\.googleapis)[^>]+rel="stylesheet"[^>]*>/g, "")
     .replace(/<link[^>]+rel="preload"[^>]*>/g, "")
     .replace(/<script\b(?![^>]*id="demo-enhance")[^>]*>[\s\S]*?<\/script>/g, "")
     .replace(/href="\/demo\/([a-z0-9-]+)"/g, 'href="$1.html"')

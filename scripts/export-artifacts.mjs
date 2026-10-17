@@ -16,9 +16,10 @@ const extraCss = `header.sticky{top:env(safe-area-inset-top,0px)}.fixed.bottom-0
 
 
 function toArtifact(html, companyName) {
+  const fontLinks = (html.match(/<link[^>]+href="https:\/\/fonts\.googleapis\.com[^"]*"[^>]*>/g) || []).join("\n");
   const title = `Website-Entwurf ${companyName}`.replace(/&/g, "&amp;");
   const body = (html.match(/<body[^>]*>([\s\S]*)<\/body>/) || [, ""])[1].replace(/<script\b(?![^>]*id="demo-enhance")[^>]*>[\s\S]*?<\/script>/g, "");
-  return `<title>${title}</title>\n<meta name="robots" content="noindex, nofollow">\n<style>${css}\n${extraCss}</style>\n<div lang="de">${body}</div>\n`;
+  return `<title>${title}</title>\n<meta name="robots" content="noindex, nofollow">\n${fontLinks}\n<style>${css}\n${extraCss}</style>\n<div lang="de">${body}</div>\n`;
 }
 
 fs.mkdirSync(outDir, { recursive: true });

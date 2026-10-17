@@ -55,7 +55,10 @@ Aufbau orientiert an führenden Handwerker-Websites: Kontaktleiste mit Bewertung
 Anfrage-Button, Hero mit lokalem Keyword-H1 und Bewertungs-Badge, mehrstufige Schnellanfrage
 („Angebot in 60 Sekunden“), Qualitätsmerkmale, Leistungen mit Bild, Inhaber-/Über-uns-Bereich, Kennzahlen-Band,
 Vorher/Nachher-Regler, Bewertungs-Zusammenfassung, Ablauf, CTA-Band, Karte des Einsatzgebiets, FAQ, Kontaktkarten +
-Formular, Footer und mobile Sticky-Leiste. Interaktive Teile laufen über ein kleines Inline-Skript
+Formular, Footer und mobile Sticky-Leiste. Effekte: Logo-Intro, gestaffelter Hero-Einstieg, Parallax,
+Scroll-Reveal, hochzählende Kennzahlen, Laufband, Button-Glanz, Karten-Hover, animierte Szenen je Branche,
+automatischer Vorher/Nachher-Hinweis, pulsierender Standort auf der Karte, Scroll-Fortschritt. Schriften pro Theme
+über Google Fonts (mit System-Fallback); „Bewegung reduzieren“ wird respektiert. Interaktive Teile laufen über ein kleines Inline-Skript
 (`components/Enhance.tsx`) und funktionieren daher auch in den Exporten.
 
 ## Branchen & Treffsicherheit

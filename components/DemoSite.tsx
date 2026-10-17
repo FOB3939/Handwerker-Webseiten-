@@ -33,6 +33,9 @@ export default function DemoSite({ lead }: { lead: Lead }) {
 
   return (
     <div style={themeStyle(theme)} className="min-h-screen bg-t-bg font-body text-t-ink antialiased">
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="" />
+      <link rel="stylesheet" href={theme.fontsHref} precedence="default" />
+      <div className="scroll-progress fixed inset-x-0 top-0 z-[55] h-1 bg-t-accent" aria-hidden="true" />
       <Splash icon={site.logoIcon} mark={site.logoMark} name={site.brandName} tagline={`${company.trade} · ${company.city}`} />
       <a href="#inhalt" className="skip-link rounded bg-t-ink px-3 py-2 text-t-bg">Zum Inhalt springen</a>
       <div className="bg-black px-4 py-1.5 text-center text-[11px] font-medium tracking-wide text-white/80" role="note">{DEMO_NOTICE}</div>
@@ -41,6 +44,7 @@ export default function DemoSite({ lead }: { lead: Lead }) {
       <main id="inhalt">
         <Hero {...ctx} />
         <Badges {...ctx} />
+        <Marquee {...ctx} />
         <Services {...ctx} />
         {!heroHasForm && <QuoteSection {...ctx} />}
         <About {...ctx} />
@@ -93,7 +97,7 @@ function Header({ lead, call }: Ctx) {
   const { site, company } = lead;
   return (
     <header className="sticky top-0 z-30 border-b border-t-line bg-t-bg/95 backdrop-blur">
-      <div className="mx-auto flex max-w-site items-center justify-between gap-4 px-4 py-3 sm:px-6">
+      <div className="hdr-inner mx-auto flex max-w-site items-center justify-between gap-4 px-4 py-3 sm:px-6">
         <a href="#inhalt" className="min-w-0"><Logo lead={lead} /></a>
         <nav aria-label="Hauptnavigation" className="hidden items-center gap-7 text-sm font-semibold lg:flex">
           {site.nav.map((n) => (
@@ -106,7 +110,7 @@ function Header({ lead, call }: Ctx) {
               <PhoneIcon /> {company.phone}
             </a>
           )}
-          <a href="#anfrage" className="hidden whitespace-nowrap rounded-t bg-t-accent px-4 py-2.5 text-sm font-bold text-t-accent-ink shadow-sm hover:brightness-110 sm:inline-flex">
+          <a href="#anfrage" className="btn-shine hidden whitespace-nowrap rounded-t bg-t-accent px-4 py-2.5 text-sm font-bold text-t-accent-ink shadow-sm hover:brightness-110 sm:inline-flex">
             {site.hero.ctaPrimary}
           </a>
           <details className="relative lg:hidden">
@@ -144,7 +148,7 @@ function CtaRow({ lead, call, dark = false }: { lead: Lead; call: string; dark?:
   const { hero } = lead.site;
   return (
     <div className="mt-8 flex flex-col gap-3 sm:flex-row">
-      <a href="#anfrage" className="inline-flex items-center justify-center gap-2 rounded-t bg-t-accent px-7 py-4 font-bold text-t-accent-ink shadow-lg shadow-black/10 transition hover:brightness-110">
+      <a href="#anfrage" className="btn-shine inline-flex items-center justify-center gap-2 rounded-t bg-t-accent px-7 py-4 font-bold text-t-accent-ink shadow-lg shadow-black/10 transition hover:brightness-110">
         {hero.ctaPrimary} <span aria-hidden="true">→</span>
       </a>
       <a href={call} className={`inline-flex items-center justify-center gap-2 rounded-t border px-7 py-4 font-bold transition ${dark ? "border-white/30 text-white hover:bg-white/10" : "border-t-ink/20 text-t-ink hover:bg-t-ink/5"}`}>
@@ -179,15 +183,15 @@ function Hero({ lead, theme, call, upper }: Ctx) {
     return (
       <section className="relative overflow-hidden">
         <div className="mx-auto grid max-w-site items-center gap-12 px-4 pb-20 pt-12 sm:px-6 lg:grid-cols-12 lg:pt-16">
-          <div className="lg:col-span-6">
+          <div className="hero-in lg:col-span-6">
             <RatingChip lead={lead} />
             <p className="mt-8 text-sm font-bold uppercase tracking-[0.22em] text-t-accent">{hero.eyebrow}</p>
-            <h1 className={`mt-4 text-balance font-display text-5xl font-semibold leading-[1.02] sm:text-7xl ${upper}`}>{hero.headline}</h1>
+            <h1 className={`mt-4 text-balance font-display text-5xl font-semibold leading-[1.02] sm:text-7xl ${upper}`}><span className="ink-line">{hero.headline}</span></h1>
             <p className="mt-6 max-w-xl text-lg leading-relaxed text-t-muted">{hero.sub}</p>
             <CtaRow lead={lead} call={call} />
             <Bullets items={hero.bullets} />
           </div>
-          <div className="relative lg:col-span-6">
+          <div className="hero-media relative lg:col-span-6">
             <div className="absolute -right-24 -top-10 hidden h-[120%] w-2/3 rounded-l-full bg-t-accent/10 lg:block" aria-hidden="true" />
             {art("aspect-[4/5] w-full rounded-t shadow-2xl sm:aspect-[5/5]")}
             <div className="absolute -bottom-6 left-4 right-4 flex items-center justify-between gap-4 rounded-t bg-t-surface p-4 shadow-xl sm:left-auto sm:right-6 sm:w-80">
@@ -208,10 +212,10 @@ function Hero({ lead, theme, call, upper }: Ctx) {
   if (theme.hero === "fullbleed") {
     return (
       <section id="anfrage" className="relative isolate overflow-hidden bg-t-dark text-white">
-        {art("absolute inset-0 -z-10 h-full w-full", 1)}
+        <div className="absolute inset-0 -z-10 overflow-hidden"><div data-parallax="0.18" className="h-full w-full">{art("absolute inset-0 h-full w-full", 1)}</div></div>
         <div className="absolute inset-0 -z-10 bg-gradient-to-r from-black/80 via-black/50 to-black/5" />
         <div className="mx-auto grid max-w-site items-center gap-10 px-4 py-16 sm:px-6 lg:grid-cols-12 lg:py-24">
-          <div className="lg:col-span-7">
+          <div className="hero-in lg:col-span-7">
             <RatingChip lead={lead} dark />
             <p className="mt-8 text-xs font-bold uppercase tracking-[0.3em] text-t-accent">{hero.eyebrow}</p>
             <h1 className={`mt-5 text-balance font-display text-4xl font-light leading-[1.04] sm:text-6xl ${upper}`}>{hero.headline}</h1>
@@ -221,7 +225,7 @@ function Hero({ lead, theme, call, upper }: Ctx) {
               <PhoneIcon /> {lead.company.phone ? `Lieber direkt anrufen: ${lead.company.phone}` : hero.ctaSecondary}
             </a>
           </div>
-          <div className="lg:col-span-5"><QuickRequest {...quoteProps(lead)} /></div>
+          <div className="hero-media lg:col-span-5"><QuickRequest {...quoteProps(lead)} /></div>
         </div>
       </section>
     );
@@ -231,16 +235,16 @@ function Hero({ lead, theme, call, upper }: Ctx) {
     return (
       <section className="px-3 pt-3 sm:px-6 sm:pt-6">
         <div className="relative isolate mx-auto max-w-site overflow-hidden rounded-[2rem] bg-t-dark text-t-dark-ink">
-          {art("absolute inset-0 -z-10 h-full w-full", 1)}
+          <div className="absolute inset-0 -z-10 overflow-hidden"><div data-parallax="0.15" className="h-full w-full">{art("absolute inset-0 h-full w-full", 1)}</div></div>
           <div className="absolute inset-0 -z-10 bg-gradient-to-t from-t-dark via-t-dark/70 to-transparent" />
           <div className="grid gap-10 px-6 pb-12 pt-28 sm:px-12 lg:grid-cols-12 lg:pb-16 lg:pt-44">
-            <div className="lg:col-span-8">
+            <div className="hero-in lg:col-span-8">
               <p className="font-display text-xl italic text-t-dark-ink/90">{hero.eyebrow}</p>
               <h1 className={`mt-3 text-balance font-display text-5xl font-semibold leading-[1.04] sm:text-7xl ${upper}`}>{hero.headline}</h1>
               <p className="mt-5 max-w-xl text-lg text-t-dark-ink/85">{hero.sub}</p>
               <CtaRow lead={lead} call={call} dark />
             </div>
-            <div className="self-end lg:col-span-4">
+            <div className="hero-media self-end lg:col-span-4">
               <div className="rounded-3xl bg-white/10 p-5 ring-1 ring-white/20 backdrop-blur">
                 <RatingChip lead={lead} dark />
                 <ul className="mt-4 space-y-2 text-sm text-t-dark-ink/90">
@@ -257,7 +261,7 @@ function Hero({ lead, theme, call, upper }: Ctx) {
   if (theme.hero === "banner") {
     return (
       <section className="border-b border-t-line">
-        <div className="mx-auto max-w-site px-4 pt-12 sm:px-6 lg:pt-16">
+        <div className="hero-in mx-auto max-w-site px-4 pt-12 sm:px-6 lg:pt-16">
           <div className="flex flex-wrap items-end justify-between gap-6">
             <div className="min-w-0 max-w-4xl">
               <p className="flex flex-wrap items-center gap-3 text-sm font-bold uppercase tracking-[0.2em] text-t-accent">
@@ -272,7 +276,7 @@ function Hero({ lead, theme, call, upper }: Ctx) {
             <div className="lg:col-span-5"><CtaRow lead={lead} call={call} /></div>
           </div>
         </div>
-        <div className="relative mx-auto mt-10 max-w-site px-4 pb-12 sm:px-6">
+        <div className="hero-media relative mx-auto mt-10 max-w-site px-4 pb-12 sm:px-6">
           {art("aspect-[16/9] w-full rounded-t shadow-2xl sm:aspect-[21/8]")}
           <ul className="relative -mt-8 mx-4 grid gap-px overflow-hidden rounded-t bg-t-line shadow-xl sm:mx-10 sm:grid-cols-3">
             {hero.bullets.map((b) => (
@@ -289,12 +293,12 @@ function Hero({ lead, theme, call, upper }: Ctx) {
   // split: Text links, Schnellanfrage rechts
   return (
     <section id="anfrage" className="relative overflow-hidden border-b border-t-line">
-      <div className="absolute inset-y-0 right-0 hidden w-[42%] lg:block" aria-hidden="true">
-        {art("h-full w-full", 0)}
+      <div className="hero-media absolute inset-y-0 right-0 hidden w-[42%] overflow-hidden lg:block" aria-hidden="true">
+        <div data-parallax="0.12" className="h-full w-full">{art("h-full w-full", 0)}</div>
         <div className="absolute inset-0 bg-gradient-to-r from-t-bg via-t-bg/30 to-transparent" />
       </div>
       <div className="relative mx-auto grid max-w-site items-center gap-10 px-4 py-12 sm:px-6 lg:grid-cols-12 lg:py-20">
-        <div className="lg:col-span-6">
+        <div className="hero-in lg:col-span-6">
           <RatingChip lead={lead} />
           <p className="mt-7 text-sm font-bold uppercase tracking-wider text-t-accent">{hero.eyebrow}</p>
           <h1 className={`mt-4 text-balance font-display text-4xl font-extrabold leading-[1.04] sm:text-6xl ${upper}`}>{hero.headline}</h1>
@@ -305,7 +309,7 @@ function Hero({ lead, theme, call, upper }: Ctx) {
           </a>
           {art("mt-8 aspect-[16/9] w-full rounded-t lg:hidden", 0)}
         </div>
-        <div className="lg:col-span-5 lg:col-start-8"><QuickRequest {...quoteProps(lead)} /></div>
+        <div className="hero-media lg:col-span-5 lg:col-start-8"><QuickRequest {...quoteProps(lead)} /></div>
       </div>
     </section>
   );
@@ -316,7 +320,7 @@ function Hero({ lead, theme, call, upper }: Ctx) {
 function Badges({ lead }: Ctx) {
   return (
     <section aria-label="Qualitätsmerkmale" className="border-b border-t-line bg-t-surface">
-      <ul className="mx-auto grid max-w-site grid-cols-2 gap-px bg-t-line px-0 sm:px-6 lg:grid-cols-4">
+      <ul data-stagger className="mx-auto grid max-w-site grid-cols-2 gap-px bg-t-line px-0 sm:px-6 lg:grid-cols-4">
         {lead.site.badges.map((b) => (
           <li key={b.title} className="flex items-center gap-3 bg-t-surface px-4 py-5 sm:px-5">
             <span className="grid h-11 w-11 shrink-0 place-items-center rounded-full border-2 border-t-accent/40 text-t-accent"><ShieldIcon /></span>
@@ -333,10 +337,28 @@ function Badges({ lead }: Ctx) {
 
 function SectionHead({ kicker, title, text, upper, center = false, dark = false }: { kicker: string; title: string; text?: string; upper: string; center?: boolean; dark?: boolean }) {
   return (
-    <div className={`max-w-2xl ${center ? "mx-auto text-center" : ""}`}>
+    <div data-reveal className={`max-w-2xl ${center ? "mx-auto text-center" : ""}`}>
       <p className="text-sm font-bold uppercase tracking-[0.2em] text-t-accent">{kicker}</p>
       <h2 className={`mt-3 text-balance font-display text-3xl font-bold leading-tight sm:text-5xl ${upper}`}>{title}</h2>
       {text && <p className={`mt-5 text-lg leading-relaxed ${dark ? "text-t-dark-ink/75" : "text-t-muted"}`}>{text}</p>}
+    </div>
+  );
+}
+
+function Marquee({ lead }: Ctx) {
+  const words = [...lead.site.services.map((s) => s.title), ...lead.site.region.places.slice(0, 4)];
+  const row = (
+    <div className="flex shrink-0 items-center gap-10 pr-10">
+      {words.map((w, i) => (
+        <span key={`${w}-${i}`} className="flex items-center gap-10 whitespace-nowrap font-display text-2xl font-bold sm:text-3xl">
+          {w}<span className="text-t-accent" aria-hidden="true">✦</span>
+        </span>
+      ))}
+    </div>
+  );
+  return (
+    <div className="marquee overflow-hidden border-b border-t-line bg-t-bg py-5 text-t-ink/80" aria-hidden="true">
+      <div className="marquee-track">{row}{row}</div>
     </div>
   );
 }
@@ -352,9 +374,9 @@ function Services({ lead, theme, upper }: Ctx) {
         <a href="#anfrage" className="font-bold text-t-accent underline-offset-4 hover:underline">Leistung anfragen →</a>
       </div>
       {theme.services === "numbered" && (
-        <ol className="mt-14 divide-y divide-t-line border-y border-t-line">
+        <ol data-stagger className="mt-14 divide-y divide-t-line border-y border-t-line">
           {services.map((s, i) => (
-            <li key={s.title} className="group grid gap-4 py-8 md:grid-cols-12 md:items-center">
+            <li key={s.title} className="group grid gap-4 py-8 transition-colors hover:bg-t-surface md:grid-cols-12 md:items-center md:px-4">
               <span className="font-display text-5xl font-light text-t-accent/70 md:col-span-1">{String(i + 1).padStart(2, "0")}</span>
               <div className="md:col-span-5">
                 <h3 className={`font-display text-2xl font-semibold ${upper}`}>{s.title}</h3>
@@ -369,10 +391,11 @@ function Services({ lead, theme, upper }: Ctx) {
         </ol>
       )}
       {theme.services === "cards" && (
-        <div className="mt-14 grid gap-5 md:grid-cols-2 lg:grid-cols-3">
+        <div data-stagger className="mt-14 grid gap-5 md:grid-cols-2 lg:grid-cols-3">
           {services.map((s, i) => (
-            <article key={s.title} className="group flex flex-col overflow-hidden rounded-t border border-t-line bg-t-surface shadow-sm transition hover:-translate-y-1 hover:shadow-xl">
-              <Scene kind={scene} palette={theme.palette} label={s.title} seed={i + 1} className="aspect-[16/9] w-full" showLabel={false} />
+            <article key={s.title} className="card-fx group flex flex-col overflow-hidden rounded-t border border-t-line bg-t-surface shadow-sm">
+              <div className="overflow-hidden"><Scene kind={scene} palette={theme.palette} label={s.title} seed={i + 1} className="card-media aspect-[16/9] w-full" showLabel={false} /></div>
+              <span className="card-line block h-1 bg-t-accent" aria-hidden="true" />
               <div className="flex flex-1 flex-col p-6">
                 <h3 className={`font-display text-xl font-bold ${upper}`}>{s.title}</h3>
                 <p className="mt-2 text-t-muted">{s.text}</p>
@@ -386,10 +409,11 @@ function Services({ lead, theme, upper }: Ctx) {
         </div>
       )}
       {theme.services === "tiles" && (
-        <div className="mt-14 grid gap-px bg-t-line sm:grid-cols-2 lg:grid-cols-3">
+        <div data-stagger className="mt-14 grid gap-px bg-t-line sm:grid-cols-2 lg:grid-cols-3">
           {services.map((s, i) => (
-            <article key={s.title} className="group relative bg-t-bg">
-              <Scene kind={scene} palette={theme.palette} label={s.title} seed={i + 1} variant={i % 4 === 3 ? "before" : "after"} className="aspect-[16/10] w-full transition duration-500 group-hover:opacity-90" showLabel={false} />
+            <article key={s.title} className="card-fx group relative bg-t-bg">
+              <div className="overflow-hidden"><Scene kind={scene} palette={theme.palette} label={s.title} seed={i + 1} className="card-media aspect-[16/10] w-full" showLabel={false} /></div>
+              <span className="card-line block h-1 bg-t-accent" aria-hidden="true" />
               <div className="p-6">
                 <h3 className={`font-display text-xl font-bold ${upper}`}>{s.title}</h3>
                 <p className="mt-2 text-sm text-t-muted">{s.text}</p>
@@ -417,7 +441,7 @@ function QuoteSection({ lead, upper }: Ctx) {
             ))}
           </ul>
         </div>
-        <QuickRequest {...quoteProps(lead)} />
+        <div data-reveal="right"><QuickRequest {...quoteProps(lead)} /></div>
       </div>
     </section>
   );
@@ -431,7 +455,7 @@ function About({ lead, upper }: Ctx) {
   return (
     <section id="ueber-uns" className="mx-auto max-w-site px-4 py-24 sm:px-6">
       <div className="grid gap-14 lg:grid-cols-12">
-        <div className="lg:col-span-5">
+        <div data-reveal="left" className="lg:col-span-5">
           <div className="relative">
             <div className="relative grid aspect-[4/5] place-items-center overflow-hidden rounded-t bg-t-accent text-t-accent-ink">
               <span className="font-display text-[9rem] font-black leading-none opacity-90" aria-hidden="true">{logoMark}</span>
@@ -446,7 +470,7 @@ function About({ lead, upper }: Ctx) {
         </div>
         <div className="lg:col-span-7">
           <SectionHead kicker={`Warum ${company.owner ?? lead.site.brandName}`} title={why.headline} upper={upper} />
-          <div className="mt-10 grid gap-x-8 gap-y-8 sm:grid-cols-2">
+          <div data-stagger className="mt-10 grid gap-x-8 gap-y-8 sm:grid-cols-2">
             {why.points.map((p) => (
               <div key={p.title} className="border-t-2 border-t-accent pt-5">
                 <h3 className="font-display text-xl font-bold">{p.title}</h3>
@@ -463,11 +487,11 @@ function About({ lead, upper }: Ctx) {
 function Stats({ lead }: Ctx) {
   return (
     <section aria-label="Zahlen" className="bg-t-accent text-t-accent-ink">
-      <dl className="mx-auto grid max-w-site grid-cols-2 gap-y-8 px-4 py-12 sm:px-6 lg:grid-cols-4">
+      <dl data-stagger className="mx-auto grid max-w-site grid-cols-2 gap-y-8 px-4 py-12 sm:px-6 lg:grid-cols-4">
         {lead.site.trust.map((t) => (
           <div key={t.label} className="flex flex-col-reverse gap-1 px-2 text-center">
             <dt className="text-sm opacity-85">{t.label}</dt>
-            <dd className="break-words font-display text-3xl font-black sm:text-5xl">{t.value}</dd>
+            <dd data-count className="break-words font-display text-3xl font-black tabular-nums sm:text-5xl">{t.value}</dd>
           </div>
         ))}
       </dl>
@@ -486,13 +510,13 @@ function Projects({ lead, theme, upper }: Ctx) {
       <div className="mx-auto max-w-site px-4 py-24 sm:px-6">
         <SectionHead kicker="Projekte" title={g.headline} text={g.text} upper={upper} />
         <div className="mt-14 grid gap-6 lg:grid-cols-12">
-          <figure className="lg:col-span-7">
+          <figure data-reveal="zoom" className="lg:col-span-7">
             <BeforeAfter label={first.title}
               before={<Scene kind={scene} palette={theme.palette} label={first.photoNeeded} seed={5} variant="before" className="h-full w-full" showLabel={false} />}
               after={<Scene kind={scene} palette={theme.palette} label={first.photoNeeded} seed={5} className="h-full w-full" showLabel={false} />} />
             <figcaption className="mt-3 text-sm text-t-muted">Regler ziehen: Vorher/Nachher. In der Live-Version mit echten Fotos ({first.photoNeeded}).</figcaption>
           </figure>
-          <div className="grid grid-cols-2 gap-4 lg:col-span-5">
+          <div data-stagger className="grid grid-cols-2 gap-4 lg:col-span-5">
             {rest.slice(0, 4).map((it, i) => (
               <figure key={it.title} className="group relative overflow-hidden rounded-t">
                 <Scene kind={scene} palette={theme.palette} label={it.photoNeeded} seed={i + 6} className="aspect-square w-full transition duration-500 group-hover:scale-105" showLabel={false} />
@@ -519,10 +543,10 @@ function Reviews({ lead, upper }: Ctx) {
         <div className="lg:col-span-4">
           <SectionHead kicker="Kundenstimmen" title={r.headline} upper={upper} />
           {r.rating !== null && (
-            <div className="mt-8 rounded-t bg-t-dark p-7 text-t-dark-ink shadow-xl">
+            <div data-reveal="left" className="mt-8 rounded-t bg-t-dark p-7 text-t-dark-ink shadow-xl">
               <p className="text-sm font-semibold text-t-dark-ink/70">Durchschnitt auf {r.source}</p>
               <div className="mt-2 flex items-baseline gap-2">
-                <span className="font-display text-6xl font-black">{fmt(r.rating)}</span>
+                <span data-count className="font-display text-6xl font-black tabular-nums">{fmt(r.rating)}</span>
                 <span className="text-t-dark-ink/70">/ 5</span>
               </div>
               <Stars rating={r.rating} />
@@ -532,10 +556,10 @@ function Reviews({ lead, upper }: Ctx) {
           )}
         </div>
         <div className="lg:col-span-8">
-          <blockquote className="border-l-4 border-t-accent pl-6 font-display text-2xl leading-snug sm:text-3xl">{r.summary}</blockquote>
-          <ul className="mt-10 grid gap-4 sm:grid-cols-2">
+          <blockquote data-reveal className="border-l-4 border-t-accent pl-6 font-display text-2xl leading-snug sm:text-3xl">{r.summary}</blockquote>
+          <ul data-stagger className="mt-10 grid gap-4 sm:grid-cols-2">
             {r.highlights.map((h) => (
-              <li key={h} className="rounded-t border border-t-line bg-t-surface p-6 shadow-sm">
+              <li key={h} className="card-fx rounded-t border border-t-line bg-t-surface p-6 shadow-sm">
                 <Stars rating={5} />
                 <p className="mt-3 font-display text-lg font-semibold">{h}</p>
                 <p className="mt-1 text-xs text-t-muted">Häufig genannt in Bewertungen auf {r.source}</p>
@@ -557,8 +581,8 @@ function Process({ lead, upper }: Ctx) {
     <section id="ablauf" className="border-y border-t-line bg-t-surface">
       <div className="mx-auto max-w-site px-4 py-24 sm:px-6">
         <SectionHead kicker="So läuft es ab" title={p.headline} upper={upper} center />
-        <ol className="relative mt-16 grid gap-10 md:grid-cols-4 md:gap-6">
-          <span className="absolute left-[12%] right-[12%] top-6 hidden h-0.5 bg-t-line md:block" aria-hidden="true" />
+        <ol data-observe data-stagger className="relative mt-16 grid gap-10 md:grid-cols-4 md:gap-6">
+          <span className="absolute left-[12%] right-[12%] top-6 hidden h-0.5 bg-t-line md:block" aria-hidden="true"><span className="process-fill block h-full w-full bg-t-accent" /></span>
           {p.steps.map((s, i) => (
             <li key={s.title} className="relative text-center">
               <span className="relative mx-auto grid h-12 w-12 place-items-center rounded-full bg-t-accent font-display text-lg font-black text-t-accent-ink ring-8 ring-t-surface">{i + 1}</span>
@@ -575,15 +599,16 @@ function Process({ lead, upper }: Ctx) {
 function CtaBand({ lead, call, upper }: Ctx) {
   return (
     <section className="mx-auto max-w-site px-4 py-20 sm:px-6">
-      <div className="relative overflow-hidden rounded-t bg-t-dark px-6 py-12 text-t-dark-ink sm:px-12">
-        <div className="absolute -right-16 -top-16 h-64 w-64 rounded-full bg-t-accent/25" aria-hidden="true" />
+      <div data-reveal="zoom" className="relative overflow-hidden rounded-t bg-t-dark px-6 py-12 text-t-dark-ink sm:px-12">
+        <div className="fx-float absolute -right-16 -top-16 h-64 w-64 rounded-full bg-t-accent/25" aria-hidden="true" />
+        <div className="fx-float absolute -bottom-20 left-1/3 h-40 w-40 rounded-full bg-t-accent/10" style={{ animationDelay: "-3s" }} aria-hidden="true" />
         <div className="relative flex flex-wrap items-center justify-between gap-8">
           <div className="max-w-2xl">
             <h2 className={`text-balance font-display text-3xl font-bold sm:text-4xl ${upper}`}>{lead.site.contact.headline}</h2>
             <p className="mt-3 text-t-dark-ink/80">Kostenlos und unverbindlich – Sie bekommen eine persönliche Rückmeldung.</p>
           </div>
           <div className="flex flex-col gap-3 sm:flex-row">
-            <a href="#anfrage" className="rounded-t bg-t-accent px-7 py-4 text-center font-bold text-t-accent-ink hover:brightness-110">{lead.site.hero.ctaPrimary}</a>
+            <a href="#anfrage" className="btn-shine rounded-t bg-t-accent px-7 py-4 text-center font-bold text-t-accent-ink hover:brightness-110">{lead.site.hero.ctaPrimary}</a>
             {lead.company.phone && <a href={call} className="rounded-t border border-white/30 px-7 py-4 text-center font-bold hover:bg-white/10">{lead.company.phone}</a>}
           </div>
         </div>
@@ -601,13 +626,13 @@ function Region({ lead, theme, upper }: Ctx) {
       <div className="mx-auto grid max-w-site items-center gap-12 px-4 py-24 sm:px-6 lg:grid-cols-2">
         <div>
           <SectionHead kicker="Einsatzgebiet" title={r.headline} text={r.text} upper={upper} />
-          <ul className="mt-8 flex flex-wrap gap-2" aria-label="Orte im Einsatzgebiet">
+          <ul data-stagger className="mt-8 flex flex-wrap gap-2" aria-label="Orte im Einsatzgebiet">
             {r.places.map((p) => (
               <li key={p} className="rounded-full border border-t-line bg-t-bg px-4 py-2 text-sm font-semibold">{lead.company.trade} {p}</li>
             ))}
           </ul>
         </div>
-        <div className="rounded-t border border-t-line p-2 shadow-sm">
+        <div data-reveal="zoom" className="rounded-t border border-t-line p-2 shadow-sm">
           <AreaMap home={lead.company.city} places={r.places} accent={theme.palette[0]} />
           <p className="px-2 pb-1 pt-2 text-xs text-t-muted">Schematische Darstellung des Einsatzgebiets.</p>
         </div>
@@ -623,14 +648,14 @@ function Faq({ lead, upper }: Ctx) {
         <div className="lg:col-span-4">
           <SectionHead kicker="FAQ" title="Häufige Fragen" upper={upper} text="Ihre Frage ist nicht dabei? Rufen Sie einfach an oder schreiben Sie uns." />
         </div>
-        <div className="divide-y divide-t-line rounded-t border border-t-line bg-t-surface lg:col-span-8">
+        <div data-reveal className="divide-y divide-t-line rounded-t border border-t-line bg-t-surface lg:col-span-8">
           {lead.site.faq.map((f) => (
             <details key={f.q} className="group p-6">
               <summary className="flex cursor-pointer list-none items-center justify-between gap-4 font-display text-lg font-semibold [&::-webkit-details-marker]:hidden">
                 {f.q}
                 <span className="grid h-8 w-8 shrink-0 place-items-center rounded-full bg-t-accent/10 text-xl text-t-accent transition group-open:rotate-45" aria-hidden="true">+</span>
               </summary>
-              <p className="mt-3 leading-relaxed text-t-muted">{f.a}</p>
+              <p className="faq-body mt-3 leading-relaxed text-t-muted">{f.a}</p>
             </details>
           ))}
         </div>
@@ -661,14 +686,14 @@ function Contact({ lead, call, upper }: Ctx) {
       <div className="mx-auto grid max-w-site gap-12 px-4 py-24 sm:px-6 lg:grid-cols-12">
         <div className="lg:col-span-5">
           <SectionHead kicker="Kontakt" title={contact.headline} text={contact.text} upper={upper} dark />
-          <div className="mt-8 grid gap-3">
+          <div data-stagger className="mt-8 grid gap-3">
             {company.phone && <ContactCard icon={<PhoneIcon />} title="Telefon"><a href={call} className="font-display text-xl">{company.phone}</a></ContactCard>}
             {company.email && <ContactCard icon={<MailIcon />} title="E-Mail"><a href={`mailto:${company.email}`}>{company.email}</a></ContactCard>}
             <ContactCard icon={<PinIcon />} title="Standort">{company.address ?? company.city}</ContactCard>
             <ContactCard icon={<ShieldIcon />} title="Hinweis">{contact.responseNote}</ContactCard>
           </div>
         </div>
-        <div className="rounded-t bg-t-bg p-6 text-t-ink shadow-2xl sm:p-8 lg:col-span-7">
+        <div data-reveal="right" className="rounded-t bg-t-bg p-6 text-t-ink shadow-2xl sm:p-8 lg:col-span-7">
           <h3 className="font-display text-2xl font-bold">Nachricht senden</h3>
           <p className="mb-6 mt-1 text-sm text-t-muted">Je genauer Ihre Beschreibung, desto schneller die Einschätzung.</p>
           <ContactForm topics={contact.topics} />
@@ -731,7 +756,7 @@ function StickyBar({ lead, call }: Ctx) {
             <PhoneIcon /> Anrufen
           </a>
         )}
-        <a href="#anfrage" className="flex flex-[1.5] items-center justify-center rounded-t bg-t-accent px-3 py-3 text-sm font-bold text-t-accent-ink">{lead.site.stickyCta}</a>
+        <a href="#anfrage" className="pulse-ring btn-shine flex flex-[1.5] items-center justify-center rounded-t bg-t-accent px-3 py-3 text-sm font-bold text-t-accent-ink">{lead.site.stickyCta}</a>
       </div>
     </div>
   );

@@ -39,7 +39,7 @@ export default function AreaMap({ home, places, accent }: Props) {
       <circle cx={x(homePt.ll[1])} cy={y(homePt.ll[0])} r={Math.min(W, H) * 0.42} fill={accent} opacity="0.07" />
       <circle cx={x(homePt.ll[1])} cy={y(homePt.ll[0])} r={Math.min(W, H) * 0.24} fill={accent} opacity="0.08" />
       {pts.slice(1).map((p) => (
-        <line key={`l${p.n}`} x1={x(homePt.ll[1])} y1={y(homePt.ll[0])} x2={x(p.ll[1])} y2={y(p.ll[0])} stroke={accent} strokeOpacity="0.25" strokeDasharray="3 4" />
+        <line key={`l${p.n}`} x1={x(homePt.ll[1])} y1={y(homePt.ll[0])} x2={x(p.ll[1])} y2={y(p.ll[0])} stroke={accent} strokeOpacity="0.35" strokeDasharray="3 4" className="map-line" />
       ))}
       {pts.map((p, i) => {
         const cx = x(p.ll[1]);
@@ -47,6 +47,7 @@ export default function AreaMap({ home, places, accent }: Props) {
         const right = cx < W - 90;
         return (
           <g key={p.n}>
+            {i === 0 && <circle className="map-pulse" cx={cx} cy={cy} r="9" fill={accent} />}
             <circle cx={cx} cy={cy} r={i === 0 ? 9 : 5} fill={i === 0 ? accent : "rgb(var(--ink))"} stroke="#fff" strokeWidth="2" />
             <text x={right ? cx + 10 : cx - 10} y={cy + 4} textAnchor={right ? "start" : "end"} fontSize={i === 0 ? 14 : 12} fontWeight={i === 0 ? 700 : 500} fill="rgb(var(--ink))" style={{ paintOrder: "stroke", stroke: "rgb(var(--surface))", strokeWidth: 3 }}>
               {p.n}

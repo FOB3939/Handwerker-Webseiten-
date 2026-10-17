@@ -66,7 +66,7 @@ function Room({ kind, p, id, seed, before }: { kind: SceneKind; p: P; id: string
       <g>
         <rect x="235" y="62" width="62" height="88" fill="#dbe9f0" stroke="#fff" strokeWidth="5" />
         <line x1="266" y1="62" x2="266" y2="150" stroke="#fff" strokeWidth="3" />
-        <polygon points="235,150 297,150 360,300 200,300" fill={`url(#light-${id})`} opacity={before ? 0.25 : 0.7} />
+        <polygon className={before ? "" : "fx-breathe"} points="235,150 297,150 360,300 200,300" fill={`url(#light-${id})`} opacity={before ? 0.25 : 0.7} />
       </g>
       {kind === "bath" && <Bath p={p} />}
       {kind === "paint" && <Paint p={p} before={before} />}
@@ -91,7 +91,7 @@ function Floor({ kind, before }: { kind: SceneKind; before: boolean }) {
       lines.push(<line key={i} x1={x1} y1="200" x2={x2} y2="350" stroke="#5a3f24" strokeWidth="0.9" opacity="0.35" />);
     }
     [208, 222, 241, 268].forEach((y, i) => lines.push(<line key={`s${y}`} x1={-20 + i * 30} y1={y} x2={140 + i * 40} y2={y} stroke="#5a3f24" strokeWidth="0.8" opacity="0.25" />));
-    if (!before) lines.push(<polygon key="sheen" points="120,215 260,215 330,300 60,300" fill="#fff" opacity="0.12" />);
+    if (!before) lines.push(<polygon key="sheen" points="120,215 260,215 330,300 60,300" fill="#fff" opacity="0.12" />, <polygon key="sweep" className="fx-sheen" points="120,200 150,200 200,300 150,300" fill="#fff" opacity="0.22" />);
     if (before) lines.push(<g key="wear" opacity="0.5"><ellipse cx="170" cy="250" rx="60" ry="16" fill="#6a5a44" /><ellipse cx="260" cy="230" rx="30" ry="8" fill="#6a5a44" /></g>);
   }
   return <g>{lines}</g>;
@@ -108,13 +108,19 @@ function Bath({ p }: { p: P }) {
       <rect x="92" y="70" width="70" height="135" fill="#cfe6ea" opacity="0.35" stroke="#9fb9be" strokeWidth="2" />
       <line x1="127" y1="70" x2="127" y2="88" stroke="#7b8b8f" strokeWidth="3" />
       <rect x="114" y="86" width="26" height="5" rx="2" fill="#7b8b8f" />
+      <g>
+        {[118, 124, 130, 136].map((x) => <line key={x} className="fx-drop" x1={x} y1="94" x2={x} y2="102" stroke="#8fc3cf" strokeWidth="2" strokeLinecap="round" />)}
+      </g>
+      <g opacity="0.7">
+        {[220, 248, 276].map((x, i) => <path key={x} className="fx-steam" style={{ animationDelay: `${i * -1.1}s` }} d={`M${x} 150 q-6 -10 0 -20 q6 -10 0 -20`} stroke="#fff" strokeWidth="4" fill="none" strokeLinecap="round" />)}
+      </g>
       {/* Wanne */}
       <path d="M180 196 Q180 160 200 158 L300 158 Q320 160 318 196 Z" fill="#fff" stroke="#cfd5d6" strokeWidth="2" />
       <ellipse cx="249" cy="160" rx="64" ry="6" fill="#e8eef0" />
       <rect x="292" y="132" width="4" height="26" fill="#7b8b8f" />
       {/* Waschtisch-Akzent */}
       <rect x="168" y="122" width="40" height="3" fill={p.a} opacity="0.9" />
-      <circle cx="350" cy="120" r="10" fill={p.b} opacity="0.85" />
+      <circle className="fx-sway" cx="350" cy="120" r="10" fill={p.b} opacity="0.85" />
       <rect x="346" y="128" width="8" height="40" fill={p.b} opacity="0.6" />
     </g>
   );
@@ -145,8 +151,11 @@ function Paint({ p, before }: { p: P; before: boolean }) {
         ))}
       </g>
       {/* Farbrolle und Wanne */}
-      <line x1="196" y1="246" x2="226" y2="150" stroke="#4a4a4a" strokeWidth="3" />
-      <rect x="212" y="140" width="34" height="12" rx="5" fill={before ? "#ddd" : p.a} stroke="#555" strokeWidth="1.5" />
+      {!before && <rect className="fx-paint" x="213" y="60" width="32" height="88" fill={p.a} opacity="0.55" />}
+      <g className={before ? "" : "fx-roller"}>
+        <line x1="196" y1="246" x2="226" y2="150" stroke="#4a4a4a" strokeWidth="3" />
+        <rect x="212" y="140" width="34" height="12" rx="5" fill={before ? "#ddd" : p.a} stroke="#555" strokeWidth="1.5" />
+      </g>
       <polygon points="150,250 196,250 190,262 156,262" fill="#6d6d6d" />
       <rect x="156" y="248" width="34" height="4" fill={p.a} />
     </g>
@@ -171,11 +180,13 @@ function Kitchen({ p }: { p: P }) {
       {/* Armatur, Kochfeld */}
       <path d="M150 144 v-20 q0 -6 8 -6 h8" stroke="#8d8d8d" strokeWidth="3" fill="none" />
       <rect x="236" y="141" width="46" height="4" fill="#222" />
+      {[248, 262].map((x, i) => <path key={x} className="fx-steam" style={{ animationDelay: `${i * -1.4}s` }} d={`M${x} 138 q-5 -8 0 -16 q5 -8 0 -16`} stroke="#fff" strokeWidth="3" fill="none" strokeLinecap="round" opacity="0.8" />)}
       {/* Pendelleuchten */}
       {[150, 250].map((x) => (
         <g key={x}>
           <line x1={x} y1="0" x2={x} y2="28" stroke="#333" />
           <path d={`M${x - 10} 38 Q${x} 22 ${x + 10} 38 Z`} fill={p.b} />
+          <circle className="fx-glow" cx={x} cy="44" r="22" fill={p.b} />
         </g>
       ))}
     </g>
@@ -188,7 +199,7 @@ function ParquetDecor({ p }: { p: P }) {
       <rect x="80" y="186" width="240" height="14" fill="#fff" opacity="0.8" />
       <ellipse cx="320" cy="215" rx="16" ry="5" fill="#00000030" />
       <path d="M312 214 h16 l-3 -24 h-10 z" fill={p.c} />
-      <path d="M320 190 q-18 -20 -6 -40 q4 18 6 40 q4 -26 18 -34 q-4 22 -18 34" fill="#5f7d4e" />
+      <path className="fx-sway" d="M320 190 q-18 -20 -6 -40 q4 18 6 40 q4 -26 18 -34 q-4 22 -18 34" fill="#5f7d4e" />
     </g>
   );
 }
@@ -217,12 +228,14 @@ function Garden({ p, id, seed, before }: { p: P; id: string; seed: number; befor
   return (
     <g>
       <rect width="400" height="300" fill={`url(#sky-${id})`} />
+      <circle className="fx-glow" cx={330 - s} cy="48" r="40" fill="#fff6d6" />
       <circle cx={330 - s} cy="48" r="22" fill="#fff6d6" opacity="0.9" />
+      <g className="fx-cloud" opacity="0.85"><ellipse cx="60" cy="40" rx="34" ry="11" fill="#fff" /><ellipse cx="82" cy="33" rx="20" ry="11" fill="#fff" /></g>
       {/* Bäume Hintergrund */}
       {[30, 95, 300, 360].map((x, i) => (
         <g key={x}>
           <rect x={x + s / 3 - 3} y="120" width="6" height="45" fill="#6b5236" />
-          <ellipse cx={x + s / 3} cy={105 + (i % 2) * 8} rx={28 + (i % 2) * 8} ry="38" fill={i % 2 ? p.a : "#3e6a3a"} opacity="0.9" />
+          <ellipse className={i % 2 ? "fx-sway" : "fx-sway-2"} cx={x + s / 3} cy={105 + (i % 2) * 8} rx={28 + (i % 2) * 8} ry="38" fill={i % 2 ? p.a : "#3e6a3a"} opacity="0.9" />
         </g>
       ))}
       {/* Hecke */}
@@ -239,7 +252,7 @@ function Garden({ p, id, seed, before }: { p: P; id: string; seed: number; befor
       <polygon points="0,232 230,232 300,300 0,300" fill={before ? "#9a8f7e" : "#b0875a"} />
       {!before && Array.from({ length: 9 }).map((_, i) => <line key={i} x1="0" y1={236 + i * 8} x2={234 + i * 8} y2={236 + i * 8} stroke="#7d5b37" strokeWidth="1" opacity="0.6" />)}
       {/* Teich */}
-      {!before && <ellipse cx="320" cy="228" rx="44" ry="12" fill="#7fb3c4" opacity="0.9" />}
+      {!before && <ellipse className="fx-breathe" cx="320" cy="228" rx="44" ry="12" fill="#7fb3c4" opacity="0.9" />}
       {/* Pflanzkübel */}
       <g>
         <rect x="40" y="206" width="26" height="26" fill="#5c5046" />
@@ -279,10 +292,13 @@ function Electric({ p, before }: { p: P; before: boolean }) {
       <rect x="270" y="165" width="6" height="12" rx="1" fill={p.b} />
       <line x1="200" y1="0" x2="200" y2="26" stroke="#333" />
       <circle cx="200" cy="34" r={before ? 6 : 10} fill={before ? "#bbb" : p.b} />
-      {!before && <circle cx="200" cy="34" r="26" fill={p.b} opacity="0.18" />}
+      {!before && <circle className="fx-glow" cx="200" cy="34" r="30" fill={p.b} />}
+      {!before && [[196, 60], [188, 100], [196, 140]].map(([x, y], i) => (
+        <path key={i} className="fx-spark" style={{ animationDelay: `${i * 0.7}s` }} d={`M${x} ${y} l6 -8 l-2 7 l7 -2 l-8 9 l2 -6 z`} fill={p.b} />
+      ))}
       {/* Wallbox */}
       <rect x="330" y="120" width="34" height="56" rx="6" fill={p.c} opacity={before ? 0.3 : 1} />
-      <circle cx="347" cy="140" r="6" fill={before ? "#999" : p.e} />
+      <circle className={before ? "" : "live-dot"} cx="347" cy="140" r="6" fill={before ? "#999" : p.e} />
     </g>
   );
 }
@@ -292,6 +308,7 @@ function Facade({ p, id, seed, before }: { p: P; id: string; seed: number; befor
   return (
     <g>
       <rect width="400" height="300" fill={`url(#sky-${id})`} />
+      <g className="fx-cloud" opacity="0.9"><ellipse cx="40" cy="40" rx="30" ry="10" fill="#fff" /><ellipse cx="60" cy="34" rx="18" ry="10" fill="#fff" /></g>
       <polygon points="40,110 200,30 360,110" fill={p.a} />
       <rect x="60" y="108" width="280" height="172" fill={wall} />
       {before && <g opacity="0.55">{[[90, 150], [250, 200], [170, 250], [300, 140]].map(([x, y]) => <ellipse key={`${x}${y}`} cx={x} cy={y} rx="26" ry="10" fill="#8f8577" />)}</g>}
@@ -302,6 +319,12 @@ function Facade({ p, id, seed, before }: { p: P; id: string; seed: number; befor
         </g>
       )))}
       <rect x="182" y="226" width="36" height="54" fill={p.e} />
+      {!before && (
+        <g className="fx-roller">
+          <rect x="314" y="200" width="22" height="9" rx="4" fill={p.d} stroke="#555" />
+          <line x1="325" y1="209" x2="325" y2="250" stroke="#555" strokeWidth="2.5" />
+        </g>
+      )}
       {/* Gerüst */}
       {!before && (
         <g stroke="#8b8f96" strokeWidth="3" opacity="0.85">
@@ -319,6 +342,7 @@ function Farm({ p, id, seed, before }: { p: P; id: string; seed: number; before:
   return (
     <g>
       <rect width="400" height="300" fill={`url(#sky-${id})`} />
+      <g className="fx-cloud" opacity="0.9"><ellipse cx="80" cy="45" rx="34" ry="11" fill="#fff" /><ellipse cx="102" cy="38" rx="20" ry="11" fill="#fff" /></g>
       {/* Alpenkette am Horizont */}
       <path d="M0 150 L50 110 L90 135 L140 85 L190 128 L240 95 L300 135 L350 100 L400 130 V170 H0 Z" fill="#9fb3c4" opacity="0.7" />
       <path d="M140 85 l12 12 -10 -2 -8 6 z M240 95 l10 10 -9 -1 -7 5 z" fill="#fff" opacity="0.8" />
@@ -345,6 +369,7 @@ function Farm({ p, id, seed, before }: { p: P; id: string; seed: number; before:
         <g transform={`translate(${250 - s / 2} 168) scale(0.9)`} fill="#4a3426">
           <path d="M10 30 q10 -12 34 -10 q14 1 22 -8 l8 -16 l5 2 l-2 10 q6 -2 8 4 q-6 2 -9 8 q-3 14 -10 18 l2 26 h-5 l-4 -22 q-14 4 -28 0 l-3 22 h-5 l0 -24 q-8 -2 -13 -10 z" />
           <path d="M70 6 q-8 -2 -12 6" stroke="#4a3426" strokeWidth="3" fill="none" />
+          <path className="fx-tail" d="M11 31 q-10 6 -8 26" stroke="#3a281c" strokeWidth="5" fill="none" strokeLinecap="round" />
         </g>
       )}
       {/* Heuballen */}
