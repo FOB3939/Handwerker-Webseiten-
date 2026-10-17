@@ -29,3 +29,8 @@ npm run typecheck
 npm run lint
 npm run build
 ```
+
+## Eigenständige Vorschau-Dateien
+
+`npm run build && npm run export:previews` erzeugt unter `previews/YYYY-MM-DD/` je Entwurf eine HTML-Datei mit
+eingebettetem CSS (plus `index.html` als Dashboard), die ohne Server im Browser geöffnet werden kann.

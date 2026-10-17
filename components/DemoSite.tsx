@@ -152,7 +152,7 @@ function Hero({ lead, theme, call, upper }: { lead: Lead; theme: Theme; call: st
         </div>
         <div className="relative lg:col-span-5">
           {art("aspect-[4/5] w-full rounded-t shadow-2xl")}
-          <div className="absolute -bottom-5 -left-3 flex gap-1.5 rounded-t bg-t-surface p-2 shadow-lg sm:-left-6" aria-hidden="true">
+          <div className="absolute -bottom-5 -right-3 flex gap-1.5 rounded-t bg-t-surface p-2 shadow-lg sm:-right-6" aria-hidden="true">
             {theme.palette.map((c) => (
               <span key={c} className="h-8 w-8 rounded-sm" style={{ background: c }} />
             ))}
