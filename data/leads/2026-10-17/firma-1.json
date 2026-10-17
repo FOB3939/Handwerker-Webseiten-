@@ -1,0 +1,405 @@
+{
+  "id": "2026-10-17-1",
+  "slug": "spahiu-malerarbeiten-puchheim",
+  "date": "2026-10-17",
+  "company": {
+    "name": "Kushtrim Spahiu Malerarbeiten Holz- und Bautenschutz",
+    "owner": "Kushtrim Spahiu",
+    "trade": "Maler & Fassade",
+    "city": "Puchheim",
+    "address": "Bäumlstr. 15, 82178 Puchheim",
+    "phone": "0176 72968185",
+    "email": null,
+    "serviceArea": [
+      "Puchheim",
+      "Germering",
+      "Eichenau",
+      "Gröbenzell",
+      "Olching",
+      "München-West"
+    ]
+  },
+  "listings": {
+    "google": {
+      "url": "https://www.google.com/maps/search/?api=1&query=Kushtrim%20Spahiu%20Malerarbeiten%20Puchheim",
+      "rating": null,
+      "reviews": null,
+      "evidence": "NICHT VERIFIZIERT – Google/Google Maps war aus der Recherche-Umgebung nicht erreichbar und die Websuche lieferte keinen Maps-Treffer. Vor Kontaktaufnahme manuell prüfen (auch: ist beim Eintrag eine Website hinterlegt?)."
+    },
+    "myhammer": {
+      "url": "https://www.my-hammer.de/malerarbeiten-tapezieren/maler-lackierer-berufe/puchheim",
+      "rating": 4.7,
+      "reviews": 33,
+      "evidence": "Betrieb auf zahlreichen MyHammer-Ortslisten belegt (4,7 bei 33–37 Bewertungen). Die direkte Profil-URL (vermutlich /auftragnehmer/kushtrim-spahiu) konnte nicht bestätigt werden – Link führt auf die Maler-Liste Puchheim."
+    }
+  },
+  "websiteStatus": "keine eigene Website gefunden",
+  "websiteChecks": [
+    "(1) \"Kushtrim Spahiu\" – nur Namensvettern, keine Website",
+    "(2) Spahiu + Maler + Puchheim/Olching – nur Branchenlisten",
+    "(3) Inhaber + Gewerk + Ort – keine Website",
+    "(4) Telefon 0176 72968185 in 3 Schreibweisen – keine Treffer",
+    "(5) spahiu-malerarbeiten.de, maler-spahiu.de, spahiu.de – nichts gefunden",
+    "(6) 11880-Eintrag ohne Website- und E-Mail-Feld; trustlocal/golocal ohne Eintrag",
+    "(7) Impressum + Inhabername – kein Impressum",
+    "Offen: malermeister-spahiu.de gehört laut früherer Recherche Lulzim Spahiu (München) – Verbindung unklar, im Browser prüfen"
+  ],
+  "facts": {
+    "services": [
+      "Malerarbeiten innen und außen",
+      "Spachtelarbeiten",
+      "Fassadenanstrich",
+      "Trockenbau und Verkleidungen",
+      "Holz- und Bautenschutz",
+      "Türen reparieren und streichen",
+      "Entrümpelung / Allround-Arbeiten"
+    ],
+    "experience": null,
+    "praisedFor": [
+      "schnell",
+      "sehr gute Arbeit",
+      "freundlich",
+      "zuverlässig",
+      "selbstständiges Arbeiten",
+      "einwandfreies Ergebnis"
+    ]
+  },
+  "strategy": {
+    "audience": "Haus- und Wohnungseigentümer im Münchner Westen (Puchheim, Germering, Olching) mit Innen- oder Fassadenprojekt",
+    "mainService": "Malerarbeiten innen und Fassadenanstrich",
+    "trustSignal": "4,7 Sterne bei über 30 MyHammer-Bewertungen",
+    "conversionGoal": "Kostenloses Angebot anfragen",
+    "visualConcept": "Warm-editorial mit Fassaden-Motiv, Farbpalette als Gestaltungselement"
+  },
+  "sales": {
+    "score": 7,
+    "whyGoodLead": [
+      "Über 30 MyHammer-Bewertungen mit 4,7 Sternen – solide Reputation",
+      "Maler/Fassade: sehr visuelles Gewerk, Vorher/Nachher verkauft sich stark",
+      "Breites Angebot (innen, Fassade, Trockenbau, Holzschutz) wird nirgends übersichtlich dargestellt",
+      "Keine eigene Website gefunden, Branchenbuch ohne E-Mail – digitaler Auftritt fehlt"
+    ],
+    "pitch": "Guten Tag Herr Spahiu, mein Name ist … – ich mache Websites für Handwerksbetriebe hier im Münchner Westen. Ich habe gesehen, dass Sie auf MyHammer über 30 Bewertungen mit 4,7 Sternen haben, aber noch keine eigene Website, auf der Kunden Ihre Malerarbeiten und Fassaden sehen. Ich habe dafür unverbindlich einen Entwurf vorbereitet – darf ich Ihnen den Link schicken?"
+  },
+  "manualChecks": [
+    "Google-Eintrag in Maps prüfen (Existenz, Bewertung, KEINE hinterlegte Website)",
+    "MyHammer-Profil-URL im Browser bestätigen",
+    "malermeister-spahiu.de öffnen: taucht Bäumlstr. 15 oder 0176 72968185 auf → Lead verwerfen",
+    "Sitz klären: Puchheim (11880) vs. Olching (MyHammer-Listing)",
+    "E-Mail-Adresse nicht öffentlich gefunden – im Gespräch erfragen",
+    "Echtes Logo: nicht gefunden – beim Inhaber als Datei anfragen"
+  ],
+  "sources": [
+    {
+      "label": "MyHammer – Maler Puchheim",
+      "url": "https://www.my-hammer.de/malerarbeiten-tapezieren/maler-lackierer-berufe/puchheim"
+    },
+    {
+      "label": "MyHammer – Trockenbauer Puchheim",
+      "url": "https://www.my-hammer.de/trockenbau-verputzen/trockenbauer-berufe/puchheim?internalNavigation=true&page=2"
+    },
+    {
+      "label": "MyHammer – Maler Germering",
+      "url": "https://my-hammer.de/maler/germering"
+    },
+    {
+      "label": "11880 – Maler Puchheim",
+      "url": "https://www.11880.com/suche/maler/puchheim"
+    },
+    {
+      "label": "11880 – Maler Eichenau",
+      "url": "https://www.11880.com/suche/maler/eichenau"
+    }
+  ],
+  "site": {
+    "theme": "atelier",
+    "scene": "facade",
+    "logoIcon": "roller",
+    "logoMark": "KS",
+    "brandName": "Spahiu Malerarbeiten",
+    "seoTitle": "Maler in Puchheim – Spahiu Malerarbeiten & Fassade",
+    "seoDescription": "Malerarbeiten, Fassadenanstrich, Trockenbau und Holzschutz in Puchheim, Germering und im Münchner Westen. 4,7 Sterne auf MyHammer. Jetzt kostenloses Angebot anfragen.",
+    "nav": [
+      {
+        "label": "Leistungen",
+        "href": "#leistungen"
+      },
+      {
+        "label": "Projekte",
+        "href": "#projekte"
+      },
+      {
+        "label": "Bewertungen",
+        "href": "#bewertungen"
+      },
+      {
+        "label": "Ablauf",
+        "href": "#ablauf"
+      },
+      {
+        "label": "FAQ",
+        "href": "#faq"
+      },
+      {
+        "label": "Kontakt",
+        "href": "#kontakt"
+      }
+    ],
+    "hero": {
+      "eyebrow": "Malerbetrieb & Fassade · Puchheim",
+      "headline": "Frische Farbe. Innen wie außen.",
+      "sub": "Kushtrim Spahiu streicht Wohnräume und Fassaden, spachtelt, baut im Trockenbau und schützt Holz – für Eigentümer in Puchheim, Germering und im ganzen Münchner Westen.",
+      "ctaPrimary": "Kostenloses Angebot anfragen",
+      "ctaSecondary": "Anrufen",
+      "bullets": [
+        "4,7 von 5 Sternen bei über 30 Bewertungen auf MyHammer",
+        "Innenräume, Fassaden, Trockenbau und Holzschutz",
+        "Für Puchheim, Germering und den Münchner Westen"
+      ],
+      "imageLabel": "frisch gestrichene Hausfassade"
+    },
+    "badges": [
+      {
+        "title": "Innen + Fassade",
+        "sub": "Malerarbeiten aus einer Hand"
+      },
+      {
+        "title": "4,7 ★ auf MyHammer",
+        "sub": "aus über 30 Bewertungen"
+      },
+      {
+        "title": "Holz- & Bautenschutz",
+        "sub": "für langlebige Oberflächen"
+      },
+      {
+        "title": "Puchheim",
+        "sub": "Münchner Westen & Umland"
+      }
+    ],
+    "trust": [
+      {
+        "value": "4,7 ★",
+        "label": "Durchschnitt auf MyHammer"
+      },
+      {
+        "value": "30+",
+        "label": "Bewertungen von Auftraggebern"
+      },
+      {
+        "value": "innen + außen",
+        "label": "Wände, Decken, Fassaden"
+      },
+      {
+        "value": "Puchheim",
+        "label": "Betrieb im Münchner Westen"
+      }
+    ],
+    "servicesIntro": {
+      "headline": "Was wir für Ihr Zuhause tun",
+      "text": "Vom Wohnzimmer bis zur Hausfassade: ein Ansprechpartner für Farbe, Oberfläche und Schutz – sauber ausgeführt und ordentlich übergeben."
+    },
+    "services": [
+      {
+        "title": "Malerarbeiten innen",
+        "text": "Wände und Decken in Wohnungen und Häusern – gleichmäßig gestrichen, sauber abgeklebt.",
+        "items": [
+          "Wohnräume",
+          "Decken",
+          "Treppenhaus"
+        ]
+      },
+      {
+        "title": "Fassadenanstrich",
+        "text": "Ein neuer Anstrich schützt Ihr Haus und lässt es wieder gepflegt aussehen.",
+        "items": [
+          "Fassaden",
+          "Außenwände",
+          "Sockel"
+        ]
+      },
+      {
+        "title": "Spachtelarbeiten",
+        "text": "Glatte, saubere Untergründe als Basis für ein einwandfreies Ergebnis.",
+        "items": [
+          "Spachteln",
+          "Ausbessern",
+          "Bohrlöcher schließen"
+        ]
+      },
+      {
+        "title": "Trockenbau",
+        "text": "Neue Wände und Verkleidungen in Trockenbauweise – passend gestrichen.",
+        "items": [
+          "Wände",
+          "Verkleidungen"
+        ]
+      },
+      {
+        "title": "Holz- & Bautenschutz",
+        "text": "Schutzanstriche für Holz und Bauteile, damit Oberflächen lange schön bleiben.",
+        "items": [
+          "Holzschutz",
+          "Türen",
+          "Außenholz"
+        ]
+      },
+      {
+        "title": "Allround-Arbeiten",
+        "text": "Türen reparieren und streichen, kleine Reparaturen, Entrümpelung – nach Absprache.",
+        "items": [
+          "Türen",
+          "Kleinreparaturen",
+          "Entrümpelung"
+        ]
+      }
+    ],
+    "why": {
+      "headline": "Schnell, sauber und zuverlässig.",
+      "points": [
+        {
+          "title": "Schnelle Ausführung",
+          "text": "Kunden heben in ihren Bewertungen immer wieder das zügige Arbeiten hervor."
+        },
+        {
+          "title": "Sehr gutes Ergebnis",
+          "text": "Auftraggeber beschreiben die Arbeit als sehr gut und das Ergebnis als einwandfrei."
+        },
+        {
+          "title": "Selbstständig & zuverlässig",
+          "text": "Kunden loben, dass Arbeiten zuverlässig und selbstständig erledigt werden."
+        },
+        {
+          "title": "Innen und außen",
+          "text": "Vom Zimmer bis zur Fassade – Sie brauchen nur einen Ansprechpartner."
+        }
+      ]
+    },
+    "reviews": {
+      "headline": "Was Kunden im Münchner Westen sagen",
+      "summary": "Auftraggeber loben besonders die schnelle, sehr gute Arbeit und das freundliche, zuverlässige Auftreten. Ein Kunde beschreibt etwa, wie neben der Entrümpelung auch Türen repariert und gestrichen sowie Bohrlöcher verschlossen wurden – mit einwandfreiem Ergebnis.",
+      "highlights": [
+        "Schnell und zuverlässig",
+        "Sehr gute Arbeit",
+        "Freundlicher Umgang",
+        "Einwandfreies Ergebnis"
+      ],
+      "source": "MyHammer",
+      "sourceUrl": "https://www.my-hammer.de/malerarbeiten-tapezieren/maler-lackierer-berufe/puchheim",
+      "rating": 4.7,
+      "count": 33
+    },
+    "process": {
+      "headline": "Von der Anfrage zur frischen Wand",
+      "steps": [
+        {
+          "title": "Anfrage",
+          "text": "Fotos und grobe Maße schicken – oder kurz anrufen."
+        },
+        {
+          "title": "Besichtigung",
+          "text": "Wir schauen uns Untergrund und Flächen vor Ort an."
+        },
+        {
+          "title": "Angebot",
+          "text": "Sie erhalten ein klares Angebot mit Leistungsumfang."
+        },
+        {
+          "title": "Ausführung",
+          "text": "Sauber abgedeckt, ordentlich gestrichen, aufgeräumt übergeben."
+        }
+      ]
+    },
+    "gallery": {
+      "headline": "Fassaden und Räume – vorher und nachher",
+      "text": "Für die Live-Version zeigen wir hier echte Projekte, idealerweise als Vorher-/Nachher-Paare.",
+      "items": [
+        {
+          "title": "Fassade",
+          "photoNeeded": "Fassade vor und nach dem Anstrich"
+        },
+        {
+          "title": "Wohnraum",
+          "photoNeeded": "frisch gestrichenes Zimmer"
+        },
+        {
+          "title": "Türen",
+          "photoNeeded": "reparierte und gestrichene Tür"
+        },
+        {
+          "title": "Holzschutz",
+          "photoNeeded": "behandeltes Außenholz"
+        },
+        {
+          "title": "Trockenbau",
+          "photoNeeded": "neue Trockenbauwand"
+        }
+      ]
+    },
+    "region": {
+      "headline": "Maler für Puchheim, Germering und den Münchner Westen",
+      "text": "Von Puchheim aus ist der Betrieb in Germering, Eichenau, Gröbenzell, Olching, Fürstenfeldbruck und im Münchner Westen schnell vor Ort – für Innenräume ebenso wie für Fassaden.",
+      "places": [
+        "Puchheim",
+        "Germering",
+        "Eichenau",
+        "Gröbenzell",
+        "Olching",
+        "Fürstenfeldbruck",
+        "München-Pasing",
+        "Gilching"
+      ]
+    },
+    "faq": [
+      {
+        "q": "Streichen Sie auch Fassaden?",
+        "a": "Ja, neben Innenräumen gehören Fassadenanstriche zum Leistungsangebot."
+      },
+      {
+        "q": "Übernehmen Sie Spachtel- und Ausbesserungsarbeiten?",
+        "a": "Ja. Spachteln, Ausbessern und das Schließen von Bohrlöchern sind oft Teil des Auftrags."
+      },
+      {
+        "q": "Bieten Sie auch Holzschutz an?",
+        "a": "Ja, Holz- und Bautenschutz gehört zum Angebot – etwa für Türen und Außenholz."
+      },
+      {
+        "q": "Kann ich vorab Fotos schicken?",
+        "a": "Gern. Fotos und grobe Maße helfen für eine erste Einschätzung; für ein verbindliches Angebot ist ein kurzer Termin vor Ort sinnvoll."
+      },
+      {
+        "q": "In welchen Orten sind Sie tätig?",
+        "a": "Vor allem in Puchheim, Germering und im Münchner Westen. Fragen Sie für andere Orte einfach an."
+      }
+    ],
+    "contact": {
+      "headline": "Ihr Angebot – kostenlos und unverbindlich",
+      "text": "Beschreiben Sie kurz, was gestrichen werden soll – innen, außen oder beides. Fotos helfen bei der Einschätzung.",
+      "topics": [
+        "Malerarbeiten innen",
+        "Fassadenanstrich",
+        "Spachtelarbeiten",
+        "Trockenbau",
+        "Holz- / Bautenschutz",
+        "Türen / Kleinreparaturen",
+        "Sonstiges"
+      ],
+      "responseNote": "Besichtigung nach Absprache."
+    },
+    "quote": {
+      "sizeLabel": "Wie groß ist das Vorhaben?",
+      "sizes": [
+        "Ein Raum",
+        "Mehrere Räume / Wohnung",
+        "Fassade Einfamilienhaus",
+        "Fassade Mehrfamilienhaus"
+      ],
+      "timings": [
+        "So bald wie möglich",
+        "In den nächsten Wochen",
+        "In 1–3 Monaten",
+        "Ich plane erst noch"
+      ]
+    },
+    "stickyCta": "Angebot anfragen"
+  }
+}

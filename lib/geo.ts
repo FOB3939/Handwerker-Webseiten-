@@ -25,6 +25,9 @@ export const PLACES: Record<string, [number, number]> = {
   Neuried: [48.093, 11.466],
   "Schöngeising": [48.141, 11.205],
   "Fürstenfeldbruck": [48.178, 11.255],
+  Eichenau: [48.167, 11.312],
+  "Gröbenzell": [48.196, 11.37],
+  Olching: [48.2, 11.33],
 };
 
 // Grobe Seeumrisse als Ellipsen: [lat, lon, Halbachse Nord-Süd in Grad, Halbachse Ost-West in Grad]

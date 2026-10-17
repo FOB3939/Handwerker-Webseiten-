@@ -43,8 +43,8 @@ Claude-Artifacts veröffentlicht und über das Share-Menü gezielt an den jeweil
 
 | Datum | Betrieb | Artifact |
 |---|---|---|
-| 2026-10-17 | Andreas Salamon Heizung, Sanitär, Haustechnik | https://claude.ai/artifact/9BogW54JVXkzp4xB5epKt9 |
-| 2026-10-17 | Gavai Maler Trockenbau | https://claude.ai/artifact/Eb1mm9QaHHaBtKxyU1ppaE |
+| 2026-10-17 | Kushtrim Spahiu Malerarbeiten Holz- und Bautenschutz | https://claude.ai/artifact/DXuVGTA9p1n7X94bUKyoBP |
+| 2026-10-17 | GSA-Elektrotechnik | https://claude.ai/artifact/Wemc9iFTyBfXdbvZ5DVkUF |
 | 2026-10-17 | Patrick Faulhaber Küchen- & Möbelmontagen | https://claude.ai/artifact/QBXGRSms9pW8xq6zUtZnuU |
 | 2026-10-17 | Agata Mangani | https://claude.ai/artifact/3rG55VCSPXjwJhVtp23NuM |
 | 2026-10-17 | Paul-Ovidiu Asmarandi Garten- und Landschaftsbau | https://claude.ai/artifact/B77jY13wyBbs5CJSdmmMFH |

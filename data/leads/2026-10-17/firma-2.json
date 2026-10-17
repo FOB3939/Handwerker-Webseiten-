@@ -1,0 +1,407 @@
+{
+  "id": "2026-10-17-2",
+  "slug": "gsa-elektrotechnik-gilching",
+  "date": "2026-10-17",
+  "company": {
+    "name": "GSA-Elektrotechnik",
+    "owner": "Abdullah Genc",
+    "trade": "Elektrotechnik",
+    "city": "Gilching",
+    "address": "Landsberger Str. 49, 82205 Gilching",
+    "phone": "01573 9455412",
+    "email": null,
+    "serviceArea": [
+      "Gilching",
+      "Starnberg",
+      "Fürstenfeldbruck",
+      "Germering",
+      "Weßling",
+      "München"
+    ]
+  },
+  "listings": {
+    "google": {
+      "url": "https://www.google.com/maps/search/?api=1&query=GSA-Elektrotechnik%20Gilching",
+      "rating": null,
+      "reviews": null,
+      "evidence": "NICHT VERIFIZIERT – Google/Google Maps war aus der Recherche-Umgebung nicht erreichbar und die Websuche lieferte keinen Maps-Treffer. Vor Kontaktaufnahme manuell prüfen (auch: ist beim Eintrag eine Website hinterlegt?)."
+    },
+    "myhammer": {
+      "url": "https://www.my-hammer.de/auftragnehmer/gsa-elektrotechnik",
+      "rating": null,
+      "reviews": null,
+      "evidence": "Profil auf MyHammer-Listen (Elektriker Starnberg, Pöcking, Berg) belegt. Bewertungen widersprüchlich: 5,0 bei 3–5 Bewertungen bzw. 4,4 bei 6 (Solar-Liste) – daher keine Zahl im Entwurf."
+    }
+  },
+  "websiteStatus": "keine eigene Website gefunden",
+  "websiteChecks": [
+    "(1) \"GSA-Elektrotechnik\" Gilching – nichts",
+    "(2) Name + Adresse – nichts",
+    "(3) \"Abdullah Genc\" Elektro Gilching – nur Namensvetter",
+    "(4) Telefon 01573 9455412 in 2 Schreibweisen – keine Treffer",
+    "(5) \"gsa-elektrotechnik.de\" – kein Treffer, nur fremde Firmen (GSAB, gs-et.de, GSA Österreich)",
+    "(6) elektriker.org, 11880, Gelbe Seiten, Das Örtliche – ohne Website und E-Mail",
+    "(7) Impressum – nicht gefunden",
+    "Offen: gsa-elektrotechnik.de im Browser/WHOIS prüfen"
+  ],
+  "facts": {
+    "services": [
+      "Elektroinstallation und Sanierung",
+      "Beleuchtung",
+      "Smart Home",
+      "Netzwerk- und Sicherheitstechnik",
+      "Fehlersuche und Reparatur",
+      "E-Check",
+      "Wallbox-Installation",
+      "Geräteprüfung nach DIN EN 50678/50699 (VDE 0701/0702)",
+      "Photovoltaik-Erfahrung"
+    ],
+    "experience": "Laut Profil mehrjährige PV-Erfahrung",
+    "praisedFor": [
+      "schnelle Hilfe (Herdanschluss am selben Tag)",
+      "freundlich",
+      "fairer Preis",
+      "zuverlässig",
+      "pünktlich",
+      "klare Beratung"
+    ]
+  },
+  "strategy": {
+    "audience": "Hausbesitzer und Vermieter im Landkreis Starnberg/FFB mit Elektro-, Wallbox- oder Smart-Home-Vorhaben",
+    "mainService": "Elektroinstallation, Wallbox und Prüfungen",
+    "trustSignal": "Prüfungen nach VDE 0701/0702, Wallbox- und PV-Erfahrung, sehr gute MyHammer-Rückmeldungen",
+    "conversionGoal": "Rückruf / Termin anfragen",
+    "visualConcept": "Sicherheit und Präzision: Blau/Weiß, klare Raster, technische Struktur"
+  },
+  "sales": {
+    "score": 6,
+    "whyGoodLead": [
+      "Elektriker mit gefragten Zukunftsthemen (Wallbox, Smart Home, PV) – hohe Suchnachfrage",
+      "Junges Profil mit sehr guten ersten Bewertungen – Website kann Wachstum stark beschleunigen",
+      "Keine eigene Website, nur Plattform- und Verzeichniseinträge",
+      "Gilching als Standort mit kaufkräftigem Umland"
+    ],
+    "pitch": "Guten Tag Herr Genc, mein Name ist … – ich bin Webdesigner hier aus der Region. Ich habe Ihr MyHammer-Profil gesehen, Kunden loben dort zum Beispiel, dass Sie einen Herd noch am selben Tag angeschlossen haben. Für Themen wie Wallbox und Smart Home suchen viele Kunden gezielt online – deshalb habe ich Ihnen unverbindlich einen Website-Entwurf gebaut. Darf ich Ihnen den kurz zeigen?"
+  },
+  "manualChecks": [
+    "Google-Eintrag in Maps prüfen (Existenz, Bewertung, KEINE hinterlegte Website)",
+    "gsa-elektrotechnik.de im Browser/WHOIS prüfen – existiert die Domain, Lead verwerfen",
+    "Telefonnummer bestätigen (nur elektriker.org, als „ähnlicher Betrieb“ gelistet)",
+    "Aktuelle MyHammer-Bewertungszahl ablesen (Angaben widersprüchlich)",
+    "Eintrag in die Handwerksrolle/Installateurverzeichnis prüfen, bevor Fachbetrieb-Aussagen ergänzt werden",
+    "Echtes Logo: nicht gefunden – beim Inhaber als Datei anfragen"
+  ],
+  "sources": [
+    {
+      "label": "MyHammer-Profil",
+      "url": "https://www.my-hammer.de/auftragnehmer/gsa-elektrotechnik"
+    },
+    {
+      "label": "MyHammer – Elektriker Starnberg",
+      "url": "https://www.my-hammer.de/elektrik/elektriker-berufe/starnberg"
+    },
+    {
+      "label": "MyHammer – Elektriker Pöcking",
+      "url": "https://www.my-hammer.de/elektrik/elektriker-berufe/poecking"
+    },
+    {
+      "label": "MyHammer – Solarteure Starnberg",
+      "url": "https://www.my-hammer.de/erneuerbare-energien/solarteur-berufe/starnberg"
+    },
+    {
+      "label": "elektriker.org (Telefon)",
+      "url": "https://www.elektriker.org/gilching/gilchinger-beschriftungen-gmbh-und-co-kg-aUMaGU"
+    }
+  ],
+  "site": {
+    "theme": "volt",
+    "scene": "electric",
+    "logoIcon": "bolt",
+    "logoMark": "GSA",
+    "brandName": "GSA-Elektrotechnik",
+    "seoTitle": "Elektriker in Gilching – GSA-Elektrotechnik",
+    "seoDescription": "Elektroinstallation, Wallbox, Smart Home, E-Check und Geräteprüfung in Gilching, Starnberg und Fürstenfeldbruck. Jetzt Rückruf anfragen.",
+    "nav": [
+      {
+        "label": "Leistungen",
+        "href": "#leistungen"
+      },
+      {
+        "label": "Über uns",
+        "href": "#ueber-uns"
+      },
+      {
+        "label": "Bewertungen",
+        "href": "#bewertungen"
+      },
+      {
+        "label": "Ablauf",
+        "href": "#ablauf"
+      },
+      {
+        "label": "FAQ",
+        "href": "#faq"
+      },
+      {
+        "label": "Kontakt",
+        "href": "#kontakt"
+      }
+    ],
+    "hero": {
+      "eyebrow": "Elektrotechnik · Gilching",
+      "headline": "Strom, der sicher funktioniert.",
+      "sub": "Abdullah Genc installiert, saniert und prüft Elektroanlagen – von der neuen Leitung über die Wallbox bis zum Smart Home. Für Gilching, Starnberg, Fürstenfeldbruck und das Münchner Umland.",
+      "ctaPrimary": "Rückruf anfragen",
+      "ctaSecondary": "Anrufen",
+      "bullets": [
+        "Elektroinstallation, Sanierung und Fehlersuche",
+        "Wallbox, Smart Home und Photovoltaik-Erfahrung",
+        "Geräteprüfung nach VDE 0701/0702 und E-Check"
+      ],
+      "imageLabel": "moderne Unterverteilung nach Elektro-Sanierung"
+    },
+    "badges": [
+      {
+        "title": "VDE 0701/0702",
+        "sub": "Geräteprüfung nach DIN EN 50678/50699"
+      },
+      {
+        "title": "Wallbox",
+        "sub": "Laden zu Hause"
+      },
+      {
+        "title": "Smart Home",
+        "sub": "Licht, Netzwerk, Sicherheit"
+      },
+      {
+        "title": "Gilching",
+        "sub": "Landkreis Starnberg & FFB"
+      }
+    ],
+    "trust": [
+      {
+        "value": "E-Check",
+        "label": "Prüfung Ihrer Elektroanlage"
+      },
+      {
+        "value": "Wallbox",
+        "label": "Installation für E-Autos"
+      },
+      {
+        "value": "PV",
+        "label": "mehrjährige Photovoltaik-Erfahrung"
+      },
+      {
+        "value": "Gilching",
+        "label": "Betrieb vor Ort"
+      }
+    ],
+    "servicesIntro": {
+      "headline": "Elektrotechnik für Haus und Wohnung",
+      "text": "Sicher, normgerecht und verständlich erklärt: von der kleinen Reparatur bis zur kompletten Sanierung der Elektroinstallation."
+    },
+    "services": [
+      {
+        "title": "Elektroinstallation & Sanierung",
+        "text": "Neue Leitungen, Steckdosen und Verteilungen – im Altbau wie im Neubau.",
+        "items": [
+          "Installation",
+          "Altbausanierung",
+          "Unterverteilung"
+        ]
+      },
+      {
+        "title": "Wallbox",
+        "text": "Laden Sie Ihr E-Auto bequem zu Hause – fachgerecht angeschlossen.",
+        "items": [
+          "Beratung",
+          "Montage",
+          "Anschluss"
+        ]
+      },
+      {
+        "title": "Smart Home & Beleuchtung",
+        "text": "Intelligente Steuerung und stimmungsvolles Licht für Ihr Zuhause.",
+        "items": [
+          "Smart Home",
+          "Beleuchtung",
+          "Steuerung"
+        ]
+      },
+      {
+        "title": "Netzwerk & Sicherheit",
+        "text": "Netzwerkverkabelung und Sicherheitstechnik für Haus und Büro.",
+        "items": [
+          "Netzwerk",
+          "Sicherheitstechnik"
+        ]
+      },
+      {
+        "title": "Fehlersuche & Reparatur",
+        "text": "Sicherung fliegt, Steckdose tot, Herd anschließen? Wir finden die Ursache.",
+        "items": [
+          "Fehlersuche",
+          "Herdanschluss",
+          "Reparatur"
+        ]
+      },
+      {
+        "title": "Prüfungen",
+        "text": "E-Check und Geräteprüfung nach DIN EN 50678/50699 (VDE 0701/0702).",
+        "items": [
+          "E-Check",
+          "Geräteprüfung",
+          "Protokoll"
+        ]
+      }
+    ],
+    "why": {
+      "headline": "Schnell da, klar erklärt, sauber gelöst.",
+      "points": [
+        {
+          "title": "Schnelle Hilfe",
+          "text": "Ein Kunde berichtet, dass sein Herd noch am selben Tag angeschlossen wurde."
+        },
+        {
+          "title": "Klare Beratung",
+          "text": "Kunden loben die verständliche Beratung, etwa bei der Wallbox-Montage."
+        },
+        {
+          "title": "Zuverlässig & pünktlich",
+          "text": "Termine werden laut Bewertungen zuverlässig eingehalten."
+        },
+        {
+          "title": "Zukunftsthemen",
+          "text": "Wallbox, Smart Home und Photovoltaik-Erfahrung aus einer Hand."
+        }
+      ]
+    },
+    "reviews": {
+      "headline": "Erste Kunden sind überzeugt",
+      "summary": "Kunden beschreiben die Zusammenarbeit als freundlich, zuverlässig und pünktlich. Hervorgehoben werden ein Herdanschluss noch am selben Tag zu einem fairen Preis sowie die klare Beratung bei der Montage einer Wallbox.",
+      "highlights": [
+        "Schnelle Hilfe am selben Tag",
+        "Faire Preise",
+        "Zuverlässig und pünktlich",
+        "Klare Beratung"
+      ],
+      "source": "MyHammer",
+      "sourceUrl": "https://www.my-hammer.de/auftragnehmer/gsa-elektrotechnik",
+      "rating": null,
+      "count": null
+    },
+    "process": {
+      "headline": "So einfach kommen Sie zum Elektriker",
+      "steps": [
+        {
+          "title": "Anfrage",
+          "text": "Kurz beschreiben, was gemacht werden soll – oder anrufen."
+        },
+        {
+          "title": "Rückruf",
+          "text": "Wir klären Details und vereinbaren einen Termin."
+        },
+        {
+          "title": "Angebot",
+          "text": "Bei größeren Vorhaben erhalten Sie ein klares Angebot."
+        },
+        {
+          "title": "Umsetzung",
+          "text": "Fachgerechte Ausführung und Übergabe mit Erklärung."
+        }
+      ]
+    },
+    "gallery": {
+      "headline": "Saubere Installationen",
+      "text": "In der Live-Version zeigen wir hier echte Projekte – von der Unterverteilung bis zur Wallbox.",
+      "items": [
+        {
+          "title": "Verteilung",
+          "photoNeeded": "neu aufgebaute Unterverteilung"
+        },
+        {
+          "title": "Wallbox",
+          "photoNeeded": "montierte Wallbox an der Garage"
+        },
+        {
+          "title": "Beleuchtung",
+          "photoNeeded": "neue Beleuchtung im Wohnraum"
+        },
+        {
+          "title": "Smart Home",
+          "photoNeeded": "Smart-Home-Schalter / Steuerung"
+        },
+        {
+          "title": "Prüfung",
+          "photoNeeded": "Geräteprüfung mit Messgerät"
+        }
+      ]
+    },
+    "region": {
+      "headline": "Elektriker für Gilching, Starnberg und Fürstenfeldbruck",
+      "text": "Von Gilching aus ist GSA-Elektrotechnik im Landkreis Starnberg, im Landkreis Fürstenfeldbruck und im Münchner Umland unterwegs – kurze Wege für schnelle Termine.",
+      "places": [
+        "Gilching",
+        "Weßling",
+        "Starnberg",
+        "Germering",
+        "Fürstenfeldbruck",
+        "Gauting",
+        "Wörthsee",
+        "München"
+      ]
+    },
+    "faq": [
+      {
+        "q": "Installieren Sie Wallboxen?",
+        "a": "Ja, die Montage und der Anschluss von Wallboxen gehören zum Angebot – inklusive Beratung vorab."
+      },
+      {
+        "q": "Bieten Sie einen E-Check an?",
+        "a": "Ja, sowie die Prüfung elektrischer Geräte nach DIN EN 50678/50699 (VDE 0701/0702)."
+      },
+      {
+        "q": "Helfen Sie auch bei kleinen Problemen?",
+        "a": "Ja, zum Beispiel bei Fehlersuche, Reparaturen oder dem Anschluss eines Herds."
+      },
+      {
+        "q": "Planen Sie Smart-Home-Lösungen?",
+        "a": "Ja, Smart Home, Beleuchtung sowie Netzwerk- und Sicherheitstechnik gehören zum Leistungsangebot."
+      },
+      {
+        "q": "In welchen Orten sind Sie tätig?",
+        "a": "In Gilching, Starnberg, Fürstenfeldbruck, München und im gesamten Münchner Umland."
+      }
+    ],
+    "contact": {
+      "headline": "Elektriker gesucht? Wir melden uns.",
+      "text": "Beschreiben Sie kurz Ihr Anliegen – vom Herdanschluss bis zur Wallbox. Sie bekommen einen Rückruf mit Terminvorschlag.",
+      "topics": [
+        "Elektroinstallation / Sanierung",
+        "Wallbox",
+        "Smart Home / Beleuchtung",
+        "Netzwerk / Sicherheit",
+        "Fehlersuche / Reparatur",
+        "E-Check / Geräteprüfung",
+        "Sonstiges"
+      ],
+      "responseNote": "Rückruf nach Absprache."
+    },
+    "quote": {
+      "sizeLabel": "Wie groß ist das Vorhaben?",
+      "sizes": [
+        "Kleine Reparatur / Anschluss",
+        "Einzelner Raum",
+        "Wallbox / Smart Home",
+        "Ganze Wohnung / Haus"
+      ],
+      "timings": [
+        "Dringend",
+        "In den nächsten Wochen",
+        "In 1–3 Monaten",
+        "Ich plane erst noch"
+      ]
+    },
+    "stickyCta": "Rückruf anfragen"
+  }
+}

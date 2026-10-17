@@ -2,6 +2,56 @@
   "description": "Dauerhafte Lead-Historie. Jeder Betrieb darf nur einmal verwendet werden. Vor jeder Auswahl gegen 'company' + 'phone' + MyHammer-URL prüfen.",
   "leads": [
     {
+      "company": "GSA-Elektrotechnik",
+      "slug": "gsa-elektrotechnik-gilching",
+      "trade": "Elektrotechnik",
+      "city": "Gilching",
+      "date": "2026-10-17",
+      "phone": "01573 9455412",
+      "email": null,
+      "googleLink": "https://www.google.com/maps/search/?api=1&query=GSA-Elektrotechnik%20Gilching",
+      "googleVerified": false,
+      "myhammerLink": "https://www.my-hammer.de/auftragnehmer/gsa-elektrotechnik",
+      "myhammerRating": null,
+      "myhammerReviews": null,
+      "googleRating": null,
+      "googleReviews": null,
+      "sources": [
+        "https://www.my-hammer.de/auftragnehmer/gsa-elektrotechnik",
+        "https://www.my-hammer.de/elektrik/elektriker-berufe/starnberg",
+        "https://www.my-hammer.de/elektrik/elektriker-berufe/poecking",
+        "https://www.my-hammer.de/erneuerbare-energien/solarteur-berufe/starnberg",
+        "https://www.elektriker.org/gilching/gilchinger-beschriftungen-gmbh-und-co-kg-aUMaGU"
+      ],
+      "websiteStatus": "keine eigene Website gefunden (7-fach-Prüfung)",
+      "criteriaStatus": "Ersatz-Lead; Google NICHT verifiziert"
+    },
+    {
+      "company": "Kushtrim Spahiu Malerarbeiten Holz- und Bautenschutz",
+      "slug": "spahiu-malerarbeiten-puchheim",
+      "trade": "Maler & Fassade",
+      "city": "Puchheim",
+      "date": "2026-10-17",
+      "phone": "0176 72968185",
+      "email": null,
+      "googleLink": "https://www.google.com/maps/search/?api=1&query=Kushtrim%20Spahiu%20Malerarbeiten%20Puchheim",
+      "googleVerified": false,
+      "myhammerLink": "https://www.my-hammer.de/malerarbeiten-tapezieren/maler-lackierer-berufe/puchheim",
+      "myhammerRating": 4.7,
+      "myhammerReviews": 33,
+      "googleRating": null,
+      "googleReviews": null,
+      "sources": [
+        "https://www.my-hammer.de/malerarbeiten-tapezieren/maler-lackierer-berufe/puchheim",
+        "https://www.my-hammer.de/trockenbau-verputzen/trockenbauer-berufe/puchheim?internalNavigation=true&page=2",
+        "https://my-hammer.de/maler/germering",
+        "https://www.11880.com/suche/maler/puchheim",
+        "https://www.11880.com/suche/maler/eichenau"
+      ],
+      "websiteStatus": "keine eigene Website gefunden (7-fach-Prüfung)",
+      "criteriaStatus": "Ersatz-Lead; Google NICHT verifiziert"
+    },
+    {
       "company": "Patrick Faulhaber Küchen- & Möbelmontagen",
       "slug": "faulhaber-kuechenmontage-andechs",
       "trade": "Küchen- & Möbelmontage",
@@ -200,18 +250,8 @@
       "date": "2026-10-17"
     },
     {
-      "company": "Kushtrim Spahiu (Puchheim)",
-      "reason": "Reserve: MyHammer-Profil-URL nicht verifiziert",
-      "date": "2026-10-17"
-    },
-    {
       "company": "Gecaj Bau (Fürstenfeldbruck)",
       "reason": "Reserve: Profil-URL und Firmenzuordnung unsicher",
-      "date": "2026-10-17"
-    },
-    {
-      "company": "Thalmair Ludwig Garten Landschaftsbau (Gauting)",
-      "reason": "Reserve: keine Adresse/Telefon belegt",
       "date": "2026-10-17"
     },
     {
@@ -232,6 +272,16 @@
       "date": "2026-10-17",
       "phone": "0162 2463321",
       "myhammerLink": "https://www.my-hammer.de/auftragnehmer/gavai-maler-trockenbau"
+    },
+    {
+      "company": "TipTop-Renovierung Karapinar (Planegg)",
+      "reason": "E-Mail auf eigener Domain tip-top-renovierungen.de – Website wahrscheinlich",
+      "date": "2026-10-17"
+    },
+    {
+      "company": "Thalmair Ludwig Garten Landschaftsbau (Gauting)",
+      "reason": "Reserve: keine Kontaktdaten öffentlich, GaLaBau schon vertreten",
+      "date": "2026-10-17"
     }
   ]
 }
