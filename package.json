@@ -8,7 +8,8 @@
     "start": "next start",
     "lint": "next lint",
     "typecheck": "tsc --noEmit",
-    "export:previews": "node scripts/export-previews.mjs"
+    "export:previews": "node scripts/export-previews.mjs",
+    "export:artifacts": "node scripts/export-artifacts.mjs"
   },
   "dependencies": {
     "next": "15.5.28",

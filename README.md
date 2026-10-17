@@ -34,3 +34,17 @@ npm run build
 
 `npm run build && npm run export:previews` erzeugt unter `previews/YYYY-MM-DD/` je Entwurf eine HTML-Datei mit
 eingebettetem CSS (plus `index.html` als Dashboard), die ohne Server im Browser geöffnet werden kann.
+
+## Private Artifact-Links für Kunden
+
+`npm run build && npm run export:artifacts -- <zielordner> YYYY-MM-DD` erzeugt je Entwurf eine Seite im
+Artifact-Format (ohne JS-Bundle, Formular zeigt nur einen Entwurfs-Hinweis). Diese werden als private
+Claude-Artifacts veröffentlicht und über das Share-Menü gezielt an den jeweiligen Betrieb freigegeben.
+
+| Datum | Betrieb | Artifact |
+|---|---|---|
+| 2026-10-17 | Andreas Salamon Heizung, Sanitär, Haustechnik | https://claude.ai/artifact/9BogW54JVXkzp4xB5epKt9 |
+| 2026-10-17 | Gavai Maler Trockenbau | https://claude.ai/artifact/Eb1mm9QaHHaBtKxyU1ppaE |
+| 2026-10-17 | Patrick Faulhaber Küchen- & Möbelmontagen | https://claude.ai/artifact/QBXGRSms9pW8xq6zUtZnuU |
+| 2026-10-17 | Agata Mangani | https://claude.ai/artifact/3rG55VCSPXjwJhVtp23NuM |
+| 2026-10-17 | Paul-Ovidiu Asmarandi Garten- und Landschaftsbau | https://claude.ai/artifact/B77jY13wyBbs5CJSdmmMFH |
