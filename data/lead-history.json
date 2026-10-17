@@ -2,56 +2,6 @@
   "description": "Dauerhafte Lead-Historie. Jeder Betrieb darf nur einmal verwendet werden. Vor jeder Auswahl gegen 'company' + 'phone' + MyHammer-URL prüfen.",
   "leads": [
     {
-      "company": "Andreas Salamon Heizung, Sanitär, Haustechnik",
-      "slug": "salamon-haustechnik-gilching",
-      "trade": "Sanitär & Heizung",
-      "city": "Gilching",
-      "date": "2026-10-17",
-      "phone": "0176 22062380",
-      "googleLink": "https://www.google.com/maps/search/?api=1&query=Andreas%20Salamon%20Heizung%20Sanit%C3%A4r%20Gilching",
-      "googleVerified": false,
-      "myhammerLink": "https://www.my-hammer.de/auftragnehmer/andreas-salamon-heizung-sanitaer-haustechnik",
-      "myhammerRating": 4.9,
-      "myhammerReviews": 27,
-      "googleRating": null,
-      "googleReviews": null,
-      "sources": [
-        "https://www.my-hammer.de/auftragnehmer/andreas-salamon-heizung-sanitaer-haustechnik",
-        "https://www.my-hammer.de/auftragnehmer/andreas-salamon-heizung-sanitaer-haustechnik/bewertungen",
-        "https://www.hwk-muenchen.de/betriebe/andreas-salamon-74,0,bdbdetail.html?id=402038",
-        "https://gemeindewerke-gilching.de/wp-content/uploads/2024/10/24-10-11-Installateurverzeichnis.pdf",
-        "https://gemeindewerke-gilching.de/wp-content/uploads/2025/03/Liste-Heizungsbauer-1.pdf",
-        "https://www.11880.com/suche/heizungsinstallation/gilching"
-      ],
-      "websiteStatus": "keine eigene Website gefunden",
-      "criteriaStatus": "MyHammer belegt, keine eigene Website gefunden; Google-Eintrag NICHT verifiziert (Google aus Recherche-Umgebung nicht erreichbar)",
-      "email": "andreas.salamon@gmx.net"
-    },
-    {
-      "company": "Gavai Maler Trockenbau",
-      "slug": "gavai-maler-trockenbau",
-      "trade": "Maler & Trockenbau",
-      "city": "Gilching",
-      "date": "2026-10-17",
-      "phone": "0162 2463321",
-      "googleLink": "https://www.google.com/maps/search/?api=1&query=Gavai%20Maler%20Trockenbau%20Gilching",
-      "googleVerified": false,
-      "myhammerLink": "https://www.my-hammer.de/auftragnehmer/gavai-maler-trockenbau",
-      "myhammerRating": 4.7,
-      "myhammerReviews": 25,
-      "googleRating": null,
-      "googleReviews": null,
-      "sources": [
-        "https://www.my-hammer.de/auftragnehmer/gavai-maler-trockenbau/bewertungen",
-        "https://www.my-hammer.de/malerarbeiten-tapezieren/maler-lackierer-berufe/gilching",
-        "https://branchenbuch.meinestadt.de/gilching/company/13423672",
-        "https://www.blauarbeit.de/maler/branchenbuch/muenchen/gavai"
-      ],
-      "websiteStatus": "keine eigene Website gefunden",
-      "criteriaStatus": "MyHammer belegt, keine eigene Website gefunden; Google-Eintrag NICHT verifiziert (Google aus Recherche-Umgebung nicht erreichbar)",
-      "email": null
-    },
-    {
       "company": "Patrick Faulhaber Küchen- & Möbelmontagen",
       "slug": "faulhaber-kuechenmontage-andechs",
       "trade": "Küchen- & Möbelmontage",
@@ -268,6 +218,20 @@
       "company": "Hren Hausmeisterservice",
       "reason": "Reserve: kaum Firmendaten, nur 4 Bewertungen",
       "date": "2026-10-17"
+    },
+    {
+      "company": "Andreas Salamon Heizung, Sanitär, Haustechnik",
+      "reason": "hat doch eine eigene Website (vom Nutzer am 17.10.2026 festgestellt) – Website-Prüfung per Websuche hatte sie nicht gefunden",
+      "date": "2026-10-17",
+      "phone": "0176 22062380",
+      "myhammerLink": "https://www.my-hammer.de/auftragnehmer/andreas-salamon-heizung-sanitaer-haustechnik"
+    },
+    {
+      "company": "Gavai Maler Trockenbau",
+      "reason": "hat doch eine eigene Website (vom Nutzer am 17.10.2026 festgestellt) – Website-Prüfung per Websuche hatte sie nicht gefunden",
+      "date": "2026-10-17",
+      "phone": "0162 2463321",
+      "myhammerLink": "https://www.my-hammer.de/auftragnehmer/gavai-maler-trockenbau"
     }
   ]
 }

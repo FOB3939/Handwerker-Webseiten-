@@ -1,4 +1,4 @@
-export type SceneKind = "bath" | "paint" | "kitchen" | "parquet" | "garden" | "drywall";
+export type SceneKind = "bath" | "paint" | "kitchen" | "parquet" | "garden" | "drywall" | "electric" | "facade";
 
 interface Props {
   kind: SceneKind;
@@ -33,7 +33,7 @@ export default function Scene({ kind, palette, label, seed = 0, variant = "after
             <stop offset="1" stopColor="#000" stopOpacity="0.18" />
           </linearGradient>
         </defs>
-        {kind === "garden" ? <Garden p={p} id={id} seed={seed} before={before} /> : <Room kind={kind} p={p} id={id} seed={seed} before={before} />}
+        {kind === "garden" ? <Garden p={p} id={id} seed={seed} before={before} /> : kind === "facade" ? <Facade p={p} id={id} seed={seed} before={before} /> : <Room kind={kind} p={p} id={id} seed={seed} before={before} />}
         {before && <rect width="400" height="300" fill="#6b6158" opacity="0.28" style={{ mixBlendMode: "multiply" }} />}
       </svg>
       {showLabel && (
@@ -73,6 +73,7 @@ function Room({ kind, p, id, seed, before }: { kind: SceneKind; p: P; id: string
       {kind === "kitchen" && <Kitchen p={p} />}
       {kind === "parquet" && <ParquetDecor p={p} />}
       {kind === "drywall" && <Drywall p={p} before={before} />}
+      {kind === "electric" && <Electric p={p} before={before} />}
       <rect x="-20" y="0" width="440" height="300" fill={`url(#shade-${id})`} />
     </g>
   );
@@ -245,6 +246,70 @@ function Garden({ p, id, seed, before }: { p: P; id: string; seed: number; befor
         <ellipse cx="53" cy="200" rx="22" ry="16" fill={before ? "#7d7a4a" : "#4f7f3c"} />
       </g>
       {before && <g opacity="0.6">{[120, 180, 250].map((x) => <path key={x} d={`M${x} 214 l6 -14 l6 14 M${x + 10} 216 l4 -10 l4 10`} stroke="#5d6a2f" strokeWidth="2" fill="none" />)}</g>}
+    </g>
+  );
+}
+
+function Electric({ p, before }: { p: P; before: boolean }) {
+  return (
+    <g>
+      {/* Zählerschrank / Unterverteilung */}
+      <rect x="96" y="58" width="96" height="128" rx="4" fill="#f4f5f7" stroke="#c7ccd3" strokeWidth="2" />
+      {before ? (
+        <g stroke="#7a6f62" strokeWidth="2" fill="none">
+          <path d="M110 80 q20 30 -4 50 t30 40" /><path d="M140 76 q-16 40 14 60" /><path d="M170 84 q10 40 -20 80" />
+          <rect x="118" y="120" width="18" height="24" fill="#d9d3c7" stroke="none" />
+        </g>
+      ) : (
+        <g>
+          {[0, 1, 2].map((r) => (
+            <g key={r}>
+              <rect x="106" y={72 + r * 36} width="76" height="26" rx="2" fill="#e3e7ec" />
+              {Array.from({ length: 6 }).map((_, i) => (
+                <rect key={i} x={110 + i * 12} y={76 + r * 36} width="9" height="18" rx="1.5" fill={i % 3 === 0 ? p.a : "#ffffff"} stroke="#aab2bd" />
+              ))}
+            </g>
+          ))}
+        </g>
+      )}
+      {/* Steckdose, Schalter, Leuchte */}
+      <rect x="226" y="160" width="22" height="22" rx="4" fill="#fff" stroke="#c7ccd3" />
+      <circle cx="237" cy="171" r="5" fill="#c7ccd3" />
+      <rect x="262" y="160" width="22" height="22" rx="4" fill="#fff" stroke="#c7ccd3" />
+      <rect x="270" y="165" width="6" height="12" rx="1" fill={p.b} />
+      <line x1="200" y1="0" x2="200" y2="26" stroke="#333" />
+      <circle cx="200" cy="34" r={before ? 6 : 10} fill={before ? "#bbb" : p.b} />
+      {!before && <circle cx="200" cy="34" r="26" fill={p.b} opacity="0.18" />}
+      {/* Wallbox */}
+      <rect x="330" y="120" width="34" height="56" rx="6" fill={p.c} opacity={before ? 0.3 : 1} />
+      <circle cx="347" cy="140" r="6" fill={before ? "#999" : p.e} />
+    </g>
+  );
+}
+
+function Facade({ p, id, seed, before }: { p: P; id: string; seed: number; before: boolean }) {
+  const wall = before ? "#c9c0b2" : p.d;
+  return (
+    <g>
+      <rect width="400" height="300" fill={`url(#sky-${id})`} />
+      <polygon points="40,110 200,30 360,110" fill={p.a} />
+      <rect x="60" y="108" width="280" height="172" fill={wall} />
+      {before && <g opacity="0.55">{[[90, 150], [250, 200], [170, 250], [300, 140]].map(([x, y]) => <ellipse key={`${x}${y}`} cx={x} cy={y} rx="26" ry="10" fill="#8f8577" />)}</g>}
+      {[0, 1].map((r) => [0, 1, 2].map((c) => (
+        <g key={`${r}${c}`}>
+          <rect x={92 + c * 86} y={132 + r * 70} width="44" height="48" fill="#cfe1ea" stroke="#fff" strokeWidth="4" />
+          <rect x={88 + c * 86} y={180 + r * 70} width="52" height="5" fill="#fff" opacity="0.9" />
+        </g>
+      )))}
+      <rect x="182" y="226" width="36" height="54" fill={p.e} />
+      {/* Gerüst */}
+      {!before && (
+        <g stroke="#8b8f96" strokeWidth="3" opacity="0.85">
+          {[300 + (seed % 2) * 10, 352].map((x) => <line key={x} x1={x} y1="96" x2={x} y2="290" />)}
+          {[150, 210, 270].map((y) => <line key={y} x1="296" y1={y} x2="356" y2={y} />)}
+        </g>
+      )}
+      <rect x="0" y="280" width="400" height="20" fill="#7d8c5a" />
     </g>
   );
 }
