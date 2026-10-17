@@ -1,0 +1,268 @@
+{
+  "description": "Dauerhafte Lead-Historie. Jeder Betrieb darf nur einmal verwendet werden. Vor jeder Auswahl gegen 'company' + 'phone' + MyHammer-URL prüfen.",
+  "leads": [
+    {
+      "company": "Andreas Salamon Heizung, Sanitär, Haustechnik",
+      "slug": "salamon-haustechnik-gilching",
+      "trade": "Sanitär & Heizung",
+      "city": "Gilching",
+      "date": "2026-10-17",
+      "phone": "0176 22062380",
+      "googleLink": "https://www.google.com/maps/search/?api=1&query=Andreas%20Salamon%20Heizung%20Sanit%C3%A4r%20Gilching",
+      "googleVerified": false,
+      "myhammerLink": "https://www.my-hammer.de/auftragnehmer/andreas-salamon-heizung-sanitaer-haustechnik",
+      "myhammerRating": 4.9,
+      "myhammerReviews": 27,
+      "googleRating": null,
+      "googleReviews": null,
+      "sources": [
+        "https://www.my-hammer.de/auftragnehmer/andreas-salamon-heizung-sanitaer-haustechnik",
+        "https://www.my-hammer.de/auftragnehmer/andreas-salamon-heizung-sanitaer-haustechnik/bewertungen",
+        "https://www.hwk-muenchen.de/betriebe/andreas-salamon-74,0,bdbdetail.html?id=402038",
+        "https://gemeindewerke-gilching.de/wp-content/uploads/2024/10/24-10-11-Installateurverzeichnis.pdf",
+        "https://gemeindewerke-gilching.de/wp-content/uploads/2025/03/Liste-Heizungsbauer-1.pdf",
+        "https://www.11880.com/suche/heizungsinstallation/gilching"
+      ],
+      "websiteStatus": "keine eigene Website gefunden",
+      "criteriaStatus": "MyHammer belegt, keine eigene Website gefunden; Google-Eintrag NICHT verifiziert (Google aus Recherche-Umgebung nicht erreichbar)"
+    },
+    {
+      "company": "Gavai Maler Trockenbau",
+      "slug": "gavai-maler-trockenbau",
+      "trade": "Maler & Trockenbau",
+      "city": "Gilching",
+      "date": "2026-10-17",
+      "phone": null,
+      "googleLink": "https://www.google.com/maps/search/?api=1&query=Gavai%20Maler%20Trockenbau%20Gilching",
+      "googleVerified": false,
+      "myhammerLink": "https://www.my-hammer.de/auftragnehmer/gavai-maler-trockenbau",
+      "myhammerRating": 4.7,
+      "myhammerReviews": 25,
+      "googleRating": null,
+      "googleReviews": null,
+      "sources": [
+        "https://www.my-hammer.de/auftragnehmer/gavai-maler-trockenbau/bewertungen",
+        "https://www.my-hammer.de/malerarbeiten-tapezieren/maler-lackierer-berufe/gilching",
+        "https://branchenbuch.meinestadt.de/gilching/company/13423672",
+        "https://www.blauarbeit.de/maler/branchenbuch/muenchen/gavai"
+      ],
+      "websiteStatus": "keine eigene Website gefunden",
+      "criteriaStatus": "MyHammer belegt, keine eigene Website gefunden; Google-Eintrag NICHT verifiziert (Google aus Recherche-Umgebung nicht erreichbar)"
+    },
+    {
+      "company": "Patrick Faulhaber Küchen- & Möbelmontagen",
+      "slug": "faulhaber-kuechenmontage-andechs",
+      "trade": "Küchen- & Möbelmontage",
+      "city": "Andechs",
+      "date": "2026-10-17",
+      "phone": null,
+      "googleLink": "https://www.google.com/maps/search/?api=1&query=Patrick%20Faulhaber%20K%C3%BCchenmontage%20Andechs",
+      "googleVerified": false,
+      "myhammerLink": "https://www.my-hammer.de/auftragnehmer/patrick-faulhaber-kuechen-moebelmontagen",
+      "myhammerRating": 5.0,
+      "myhammerReviews": 38,
+      "googleRating": null,
+      "googleReviews": null,
+      "sources": [
+        "https://www.my-hammer.de/auftragnehmer/patrick-faulhaber-kuechen-moebelmontagen",
+        "https://www.my-hammer.de/auftragnehmer/patrick-faulhaber-kuechen-moebelmontagen/bewertungen",
+        "https://firmeneintrag.creditreform.de/82229/8290815753/PATRICK_FAULHABER_MOEBELMONTAGEN",
+        "https://branchenbuch.meinestadt.de/andechs/company/15468521"
+      ],
+      "websiteStatus": "keine eigene Website gefunden",
+      "criteriaStatus": "MyHammer belegt, keine eigene Website gefunden; Google-Eintrag NICHT verifiziert (Google aus Recherche-Umgebung nicht erreichbar)"
+    },
+    {
+      "company": "Agata Mangani",
+      "slug": "mangani-parkett-renovierung-germering",
+      "trade": "Parkett & Renovierung",
+      "city": "Germering",
+      "date": "2026-10-17",
+      "phone": "01525 3859933",
+      "googleLink": "https://www.google.com/maps/search/?api=1&query=Agata%20Mangani%20Germering",
+      "googleVerified": false,
+      "myhammerLink": "https://www.my-hammer.de/auftragnehmer/agata-mangani",
+      "myhammerRating": 4.9,
+      "myhammerReviews": 46,
+      "googleRating": null,
+      "googleReviews": null,
+      "sources": [
+        "https://www.my-hammer.de/auftragnehmer/agata-mangani",
+        "https://www.my-hammer.de/auftragnehmer/agata-mangani/bewertungen",
+        "https://www.my-hammer.de/trockenbau-verputzen/stuckateur-verputzer-berufe/germering",
+        "https://www.11880.com/suche/trockenbau/germering",
+        "https://web2.cylex.de/suche/bodenleger/Germering",
+        "https://www.hausmeisterdienste.net/germering/agata-mangani-aUQ2nI"
+      ],
+      "websiteStatus": "keine eigene Website gefunden",
+      "criteriaStatus": "MyHammer belegt, keine eigene Website gefunden; Google-Eintrag NICHT verifiziert (Google aus Recherche-Umgebung nicht erreichbar)"
+    },
+    {
+      "company": "Paul-Ovidiu Asmarandi Garten- und Landschaftsbau",
+      "slug": "asmarandi-gartenbau-planegg",
+      "trade": "Garten- & Landschaftsbau",
+      "city": "Planegg",
+      "date": "2026-10-17",
+      "phone": "01523 4623556",
+      "googleLink": "https://www.google.com/maps/search/?api=1&query=Asmarandi%20Garten%20Landschaftsbau%20Planegg",
+      "googleVerified": false,
+      "myhammerLink": "https://www.my-hammer.de/auftragnehmer/asmarandi-paul",
+      "myhammerRating": 4.9,
+      "myhammerReviews": 36,
+      "googleRating": null,
+      "googleReviews": null,
+      "sources": [
+        "https://www.my-hammer.de/garten-aussenbereich/garten-landschaftsbauer-berufe/planegg",
+        "https://www.my-hammer.de/garten-aussenbereich/garten-landschaftsbauer-berufe/krailling",
+        "https://www.my-hammer.de/auftragnehmer/asmarandi-paul",
+        "https://firmeneintrag.creditreform.de/82152/8330594228/PAUL_OVIDIU_ASMARANDI_GARTEN_UND_LANDSCHAFTSBAU",
+        "https://branchenbuch.meinestadt.de/planegg/company/502186739",
+        "https://web2.cylex.de/firma-home/gaertnerei-stocker-2669347.html"
+      ],
+      "websiteStatus": "keine eigene Website gefunden",
+      "criteriaStatus": "MyHammer belegt, keine eigene Website gefunden; Google-Eintrag NICHT verifiziert (Google aus Recherche-Umgebung nicht erreichbar)"
+    }
+  ],
+  "rejected": [
+    {
+      "company": "Malereibetrieb Fischer (Olching)",
+      "reason": "eigene Website maler-fischer-olching.de",
+      "date": "2026-10-17"
+    },
+    {
+      "company": "Garten- und Hausmeisterservice Bardiqi Blerim (Germering)",
+      "reason": "eigene Website gartenbau-blerim-bardiqi.de",
+      "date": "2026-10-17"
+    },
+    {
+      "company": "Bartel-Bau (Maisach)",
+      "reason": "eigene Website bau-bartel.de",
+      "date": "2026-10-17"
+    },
+    {
+      "company": "Mel Maler (Puchheim)",
+      "reason": "eigene Website melmalerarbeiten.de",
+      "date": "2026-10-17"
+    },
+    {
+      "company": "Renés Dienstleistungen (Emmering)",
+      "reason": "eigene Website renesdienstleistungen.de",
+      "date": "2026-10-17"
+    },
+    {
+      "company": "Blunder Innenausbau (Puchheim)",
+      "reason": "eigene Website blunder-innenausbau.de",
+      "date": "2026-10-17"
+    },
+    {
+      "company": "Emel Soultani Innen- und Außensanierung (Gröbenzell)",
+      "reason": "eigene Website soultani-renovierung.de",
+      "date": "2026-10-17"
+    },
+    {
+      "company": "Ameise Hausmeisterservice (München-Aubing)",
+      "reason": "eigene Website ameiseinfo.de",
+      "date": "2026-10-17"
+    },
+    {
+      "company": "Starnberger Trockenbau (Berg)",
+      "reason": "eigene Website starnbergertrockenbau.de",
+      "date": "2026-10-17"
+    },
+    {
+      "company": "K&M Trockenbau (Berg)",
+      "reason": "eigene Website starnberg-trockenbau.de",
+      "date": "2026-10-17"
+    },
+    {
+      "company": "Sta Mi Verputz & Sanierungen GmbH (Starnberg)",
+      "reason": "eigene Website stamiverputz.de",
+      "date": "2026-10-17"
+    },
+    {
+      "company": "Allroundmax e.K. (Starnberg)",
+      "reason": "eigene Website allroundmax.de",
+      "date": "2026-10-17"
+    },
+    {
+      "company": "Portner Energie- und Gebäudetechnik GmbH (Berg)",
+      "reason": "eigene Website portner-egt.de",
+      "date": "2026-10-17"
+    },
+    {
+      "company": "Hummer Bausanierung (Gilching)",
+      "reason": "eigene Website hummer-bausanierung.de",
+      "date": "2026-10-17"
+    },
+    {
+      "company": "Würmtaler Schattenoase GmbH (Krailling)",
+      "reason": "eigene Website wuermtaler-schattenoase.de",
+      "date": "2026-10-17"
+    },
+    {
+      "company": "Baumarbeiten & -pflege Schenk (Herrsching)",
+      "reason": "eigene Website baumpflege-schenk.com",
+      "date": "2026-10-17"
+    },
+    {
+      "company": "Elektro Martin (Starnberg)",
+      "reason": "wahrscheinlich eigene Website elektro-vitusmartin.de",
+      "date": "2026-10-17"
+    },
+    {
+      "company": "Heimrath Heizung und Sanitär GmbH (Neuried)",
+      "reason": "eigene Website heimrath-shk.de",
+      "date": "2026-10-17"
+    },
+    {
+      "company": "Schuller-Elektro (München)",
+      "reason": "eigene Website schuller-elektro.com",
+      "date": "2026-10-17"
+    },
+    {
+      "company": "AMM Elektro & Licht (München)",
+      "reason": "eigene Website amm-elektrolicht.de",
+      "date": "2026-10-17"
+    },
+    {
+      "company": "Holzner Heizung & Sanitär (München)",
+      "reason": "eigene Website holzner-heizung.de",
+      "date": "2026-10-17"
+    },
+    {
+      "company": "MPRO Emilio Mola (München)",
+      "reason": "eigene Website mpro-immoservice.de",
+      "date": "2026-10-17"
+    },
+    {
+      "company": "Maler Marlow",
+      "reason": "Sitz Friedberg – außerhalb der Zielregion",
+      "date": "2026-10-17"
+    },
+    {
+      "company": "Allround Handwerk Krestic",
+      "reason": "Sitz Wielenbach – außerhalb der Zielregion",
+      "date": "2026-10-17"
+    },
+    {
+      "company": "Kushtrim Spahiu (Puchheim)",
+      "reason": "Reserve: MyHammer-Profil-URL nicht verifiziert",
+      "date": "2026-10-17"
+    },
+    {
+      "company": "Gecaj Bau (Fürstenfeldbruck)",
+      "reason": "Reserve: Profil-URL und Firmenzuordnung unsicher",
+      "date": "2026-10-17"
+    },
+    {
+      "company": "Thalmair Ludwig Garten Landschaftsbau (Gauting)",
+      "reason": "Reserve: keine Adresse/Telefon belegt",
+      "date": "2026-10-17"
+    },
+    {
+      "company": "Hren Hausmeisterservice",
+      "reason": "Reserve: kaum Firmendaten, nur 4 Bewertungen",
+      "date": "2026-10-17"
+    }
+  ]
+}

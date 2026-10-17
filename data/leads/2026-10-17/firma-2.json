@@ -1,0 +1,333 @@
+{
+  "id": "2026-10-17-2",
+  "slug": "gavai-maler-trockenbau",
+  "date": "2026-10-17",
+  "company": {
+    "name": "Gavai Maler Trockenbau",
+    "owner": "Ferenc Gavai",
+    "trade": "Maler & Trockenbau",
+    "city": "Gilching",
+    "address": "Gilgener Heide 8f, 82205 Gilching",
+    "phone": null,
+    "serviceArea": [
+      "Gilching",
+      "Starnberg",
+      "Germering",
+      "Weßling",
+      "Gauting",
+      "München-West"
+    ]
+  },
+  "listings": {
+    "google": {
+      "url": "https://www.google.com/maps/search/?api=1&query=Gavai%20Maler%20Trockenbau%20Gilching",
+      "rating": null,
+      "reviews": null,
+      "evidence": "NICHT VERIFIZIERT – Google/Google Maps war aus der Recherche-Umgebung nicht erreichbar und die Websuche lieferte keinen Maps-Treffer. Vor Kontaktaufnahme manuell prüfen."
+    },
+    "myhammer": {
+      "url": "https://www.my-hammer.de/auftragnehmer/gavai-maler-trockenbau",
+      "rating": 4.7,
+      "reviews": 25,
+      "evidence": "Bewertungsseite in Suchergebnissen belegt; je nach Kategorieseite 4,6–4,7 bei 24–26 Bewertungen."
+    }
+  },
+  "websiteStatus": "keine eigene Website gefunden",
+  "websiteChecks": [
+    "Suchen: „Gavai Maler Trockenbau“, „Ferenc Gavai Maler Gilching“, „Gavai Gilching Trockenbau“ – keine eigene Domain gefunden.",
+    "meinestadt.de-Eintrag führt keine Website."
+  ],
+  "facts": {
+    "services": [
+      "Malerarbeiten innen",
+      "Trockenbau"
+    ],
+    "experience": "Laut einer MyHammer-Listung rund 14 Jahre Erfahrung (mittel belegt)",
+    "praisedFor": [
+      "schnelle Ausführung",
+      "gründliche Arbeit",
+      "Flexibilität",
+      "unkomplizierte Abwicklung",
+      "gute Qualität"
+    ]
+  },
+  "strategy": {
+    "audience": "Wohnungs- und Hauseigentümer sowie Vermieter im Raum Gilching/Starnberg vor Renovierung oder Umbau",
+    "mainService": "Malerarbeiten in Kombination mit Trockenbau – Renovierung aus einer Hand",
+    "trustSignal": "4,7 Sterne bei rund 25 MyHammer-Bewertungen",
+    "conversionGoal": "Kostenloses Angebot anfragen (mit Fotos/Raumgröße)",
+    "visualConcept": "Hochwertig-editorial: warme Wandfarben, Farbpalette als Gestaltungselement, Vorher/Nachher"
+  },
+  "sales": {
+    "score": 7,
+    "whyGoodLead": [
+      "Bevorzugtes Gewerk (Maler) mit visuell starken Ergebnissen – ideal für eine Projektgalerie",
+      "Solide MyHammer-Reputation (4,7 bei ca. 25 Bewertungen)",
+      "Kombination Maler + Trockenbau ist ein klares Verkaufsargument, das bisher nirgends erklärt wird",
+      "Keine eigene Website, nur Plattform- und Verzeichnisprofile"
+    ],
+    "pitch": "Guten Tag Herr Gavai, mein Name ist … – ich mache Websites für Handwerksbetriebe hier im Landkreis. Mir ist aufgefallen, dass Sie auf MyHammer viele gute Bewertungen für Ihre Maler- und Trockenbauarbeiten haben, aber noch keine eigene Website, auf der Kunden Ihre Arbeiten sehen können. Ich habe dafür einmal ganz unverbindlich einen Entwurf gebaut – hätten Sie zwei Minuten, dass ich Ihnen den Link schicke?"
+  },
+  "manualChecks": [
+    "Google-Unternehmensprofil in Google Maps prüfen (Existenz, Bewertung, hinterlegte Website)",
+    "Telefonnummer ermitteln (meinestadt.de hat einen Eintrag, Nummer war nicht im Suchsnippet) – im Entwurf daher kein Click-to-call",
+    "Firmensitz bestätigen: Gilching (meinestadt.de) vs. Blauarbeit-Eintrag mit PLZ 81927 München",
+    "Erfahrungsangabe (14 Jahre) mit Inhaber bestätigen, bevor sie auf der Live-Seite steht",
+    "Eine ältere Kritik (2023) zu Preis/Zuverlässigkeit im Gespräch nicht ansprechen, aber kennen",
+    "Einsatzgebiet und genaue Leistungsliste mit Inhaber abstimmen (öffentlich nur „Maler und Trockenbau“ belegt)"
+  ],
+  "sources": [
+    {
+      "label": "MyHammer-Bewertungen",
+      "url": "https://www.my-hammer.de/auftragnehmer/gavai-maler-trockenbau/bewertungen"
+    },
+    {
+      "label": "MyHammer – Maler in Gilching",
+      "url": "https://www.my-hammer.de/malerarbeiten-tapezieren/maler-lackierer-berufe/gilching"
+    },
+    {
+      "label": "meinestadt.de Branchenbuch Gilching",
+      "url": "https://branchenbuch.meinestadt.de/gilching/company/13423672"
+    },
+    {
+      "label": "Blauarbeit – Gavai",
+      "url": "https://www.blauarbeit.de/maler/branchenbuch/muenchen/gavai"
+    }
+  ],
+  "site": {
+    "theme": "atelier",
+    "seoTitle": "Maler & Trockenbau in Gilching – Gavai Maler Trockenbau",
+    "seoDescription": "Malerarbeiten und Trockenbau aus einer Hand in Gilching, Starnberg und Umgebung. Saubere Renovierung von Wohnungen und Häusern. Jetzt kostenloses Angebot anfragen.",
+    "logoMark": "G",
+    "nav": [
+      {
+        "label": "Leistungen",
+        "href": "#leistungen"
+      },
+      {
+        "label": "Projekte",
+        "href": "#projekte"
+      },
+      {
+        "label": "Bewertungen",
+        "href": "#bewertungen"
+      },
+      {
+        "label": "Ablauf",
+        "href": "#ablauf"
+      },
+      {
+        "label": "FAQ",
+        "href": "#faq"
+      },
+      {
+        "label": "Kontakt",
+        "href": "#kontakt"
+      }
+    ],
+    "hero": {
+      "eyebrow": "Malerbetrieb & Trockenbau · Gilching",
+      "headline": "Räume, die wieder Freude machen.",
+      "sub": "Ferenc Gavai streicht, spachtelt und baut um – von der frisch gestrichenen Wohnung bis zur neuen Trockenbauwand. Zwei Gewerke, ein Ansprechpartner, eine saubere Baustelle.",
+      "ctaPrimary": "Kostenloses Angebot anfragen",
+      "ctaSecondary": "Rückruf vereinbaren",
+      "bullets": [
+        "Malerarbeiten und Trockenbau aus einer Hand",
+        "4,7 von 5 Sternen bei rund 25 Bewertungen auf MyHammer",
+        "Für Gilching, Starnberg und den Münchner Westen"
+      ],
+      "imageLabel": "frisch gestrichener Wohnraum aus einem Kundenprojekt"
+    },
+    "trust": [
+      {
+        "value": "4,7 ★",
+        "label": "Durchschnitt auf MyHammer"
+      },
+      {
+        "value": "~25",
+        "label": "Bewertungen von Auftraggebern"
+      },
+      {
+        "value": "2 in 1",
+        "label": "Maler und Trockenbau ohne Schnittstellen"
+      },
+      {
+        "value": "Gilching",
+        "label": "Betrieb aus dem Landkreis Starnberg"
+      }
+    ],
+    "servicesIntro": {
+      "headline": "Was wir für Ihre Räume tun",
+      "text": "Viele Renovierungen brauchen beides: eine neue Wand oder Decke und danach den perfekten Anstrich. Bei uns kommt beides aus einer Hand – das spart Abstimmung, Zeit und Nerven."
+    },
+    "services": [
+      {
+        "title": "Malerarbeiten innen",
+        "text": "Wände und Decken in Wohnungen und Häusern – sauber abgeklebt, gleichmäßig gestrichen, ordentlich hinterlassen.",
+        "items": [
+          "Wohnräume",
+          "Wände",
+          "Decken"
+        ]
+      },
+      {
+        "title": "Renovierung bei Ein- & Auszug",
+        "text": "Wenn es schnell gehen muss: Wohnung streichen vor dem Einzug oder zur Übergabe an den Vermieter.",
+        "items": [
+          "Wohnungsübergabe",
+          "Mieterwechsel",
+          "Renovierung"
+        ]
+      },
+      {
+        "title": "Trockenbau",
+        "text": "Neue Raumaufteilung ohne große Baustelle – Wände, Vorsatzschalen und Verkleidungen in Trockenbauweise.",
+        "items": [
+          "Trennwände",
+          "Vorsatzschalen",
+          "Verkleidungen"
+        ]
+      },
+      {
+        "title": "Spachtel- & Oberflächenarbeiten",
+        "text": "Glatte, sauber vorbereitete Oberflächen als Grundlage für den Anstrich – gerade nach Trockenbauarbeiten.",
+        "items": [
+          "Spachteln",
+          "Ausbessern",
+          "Untergrundvorbereitung"
+        ]
+      }
+    ],
+    "why": {
+      "headline": "Schnell, gründlich und unkompliziert.",
+      "points": [
+        {
+          "title": "Zwei Gewerke, ein Termin",
+          "text": "Trockenbau und Anstrich werden aufeinander abgestimmt – ohne zweite Firma und ohne Wartezeit dazwischen."
+        },
+        {
+          "title": "Gründliche Arbeit",
+          "text": "Kunden beschreiben die Ausführung in ihren Bewertungen als gründlich und qualitativ gut."
+        },
+        {
+          "title": "Flexibel",
+          "text": "Auftraggeber loben die flexible und unkomplizierte Terminabstimmung."
+        },
+        {
+          "title": "Aus der Region",
+          "text": "Der Betrieb sitzt in Gilching und ist im Landkreis Starnberg und im Münchner Westen unterwegs."
+        }
+      ]
+    },
+    "reviews": {
+      "headline": "Kunden über Gavai Maler Trockenbau",
+      "summary": "Auftraggeber heben vor allem die schnelle und gründliche Ausführung hervor. Häufig gelobt werden außerdem die flexible, unkomplizierte Zusammenarbeit und die gute Qualität des Ergebnisses.",
+      "highlights": [
+        "Schnelle Ausführung",
+        "Gründlich und sorgfältig",
+        "Flexibel bei Terminen",
+        "Gute Qualität"
+      ],
+      "source": "MyHammer",
+      "sourceUrl": "https://www.my-hammer.de/auftragnehmer/gavai-maler-trockenbau/bewertungen",
+      "rating": 4.7,
+      "count": 25
+    },
+    "process": {
+      "headline": "Vom ersten Foto bis zur sauberen Übergabe",
+      "steps": [
+        {
+          "title": "Anfrage mit Fotos",
+          "text": "Schicken Sie uns ein paar Fotos und die ungefähre Raumgröße."
+        },
+        {
+          "title": "Besichtigung",
+          "text": "Bei Bedarf schauen wir uns Untergründe und Wände vor Ort an."
+        },
+        {
+          "title": "Festes Angebot",
+          "text": "Sie erhalten ein klares Angebot mit Leistungsumfang und Zeitrahmen."
+        },
+        {
+          "title": "Ausführung & Übergabe",
+          "text": "Wir arbeiten sauber, räumen auf und übergeben Ihnen fertige Räume."
+        }
+      ]
+    },
+    "gallery": {
+      "headline": "Vorher, nachher – und alles dazwischen",
+      "text": "Für die Live-Version werden hier echte Projekte des Betriebs gezeigt, idealerweise als Vorher-/Nachher-Paare.",
+      "items": [
+        {
+          "title": "Wohnzimmer",
+          "photoNeeded": "gestrichener Wohnraum mit Tageslicht"
+        },
+        {
+          "title": "Vorher",
+          "photoNeeded": "Raum vor der Renovierung"
+        },
+        {
+          "title": "Nachher",
+          "photoNeeded": "gleicher Raum nach der Renovierung"
+        },
+        {
+          "title": "Trockenbau",
+          "photoNeeded": "neue Trennwand im Rohbau"
+        },
+        {
+          "title": "Detail",
+          "photoNeeded": "saubere Kante Decke/Wand"
+        }
+      ]
+    },
+    "region": {
+      "headline": "Malerbetrieb für Gilching, Starnberg und den Münchner Westen",
+      "text": "Gavai Maler Trockenbau ist in Gilching zuhause und übernimmt Malerarbeiten und Trockenbau in den umliegenden Gemeinden – von Weßling und Wörthsee über Starnberg und Gauting bis Germering und in den Münchner Westen.",
+      "places": [
+        "Gilching",
+        "Weßling",
+        "Wörthsee",
+        "Starnberg",
+        "Gauting",
+        "Germering",
+        "Krailling",
+        "München-Pasing"
+      ]
+    },
+    "faq": [
+      {
+        "q": "Übernehmen Sie Maler- und Trockenbauarbeiten in einem Auftrag?",
+        "a": "Ja, genau das ist der Schwerpunkt: Neue Wände oder Verkleidungen in Trockenbauweise und der anschließende Anstrich kommen aus einer Hand."
+      },
+      {
+        "q": "Kann ich ein Angebot ohne Vor-Ort-Termin bekommen?",
+        "a": "Für eine erste Einschätzung reichen oft Fotos und die Raumgröße. Für ein verbindliches Angebot ist ein kurzer Termin vor Ort sinnvoll."
+      },
+      {
+        "q": "Streichen Sie auch Wohnungen zur Übergabe an den Vermieter?",
+        "a": "Ja, Renovierungen beim Ein- oder Auszug gehören zu den typischen Aufträgen."
+      },
+      {
+        "q": "Wird nach den Arbeiten aufgeräumt?",
+        "a": "Ja. Abdecken, Abkleben und eine saubere Übergabe gehören selbstverständlich dazu."
+      },
+      {
+        "q": "In welchen Orten sind Sie tätig?",
+        "a": "Vor allem in Gilching und im Landkreis Starnberg sowie im Münchner Westen. Fragen Sie für andere Orte gern an."
+      }
+    ],
+    "contact": {
+      "headline": "Ihr Angebot – kostenlos und unverbindlich",
+      "text": "Beschreiben Sie kurz, welche Räume gestrichen oder umgebaut werden sollen. Fotos helfen bei der Einschätzung. Sie bekommen eine Rückmeldung für die nächsten Schritte.",
+      "topics": [
+        "Malerarbeiten innen",
+        "Wohnung streichen (Ein-/Auszug)",
+        "Trockenbau",
+        "Maler + Trockenbau kombiniert",
+        "Sonstiges"
+      ],
+      "responseNote": "Telefonnummer wird in der Live-Version ergänzt."
+    },
+    "stickyCta": "Angebot anfragen"
+  }
+}

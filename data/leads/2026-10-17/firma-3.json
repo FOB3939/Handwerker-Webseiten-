@@ -1,0 +1,350 @@
+{
+  "id": "2026-10-17-3",
+  "slug": "faulhaber-kuechenmontage-andechs",
+  "date": "2026-10-17",
+  "company": {
+    "name": "Patrick Faulhaber Küchen- & Möbelmontagen",
+    "owner": "Patrick Faulhaber",
+    "trade": "Küchen- & Möbelmontage",
+    "city": "Andechs",
+    "address": null,
+    "phone": null,
+    "serviceArea": [
+      "Andechs",
+      "Seefeld",
+      "Herrsching",
+      "Weßling",
+      "Tutzing",
+      "Schondorf"
+    ]
+  },
+  "listings": {
+    "google": {
+      "url": "https://www.google.com/maps/search/?api=1&query=Patrick%20Faulhaber%20K%C3%BCchenmontage%20Andechs",
+      "rating": null,
+      "reviews": null,
+      "evidence": "NICHT VERIFIZIERT – Google/Google Maps war aus der Recherche-Umgebung nicht erreichbar und die Websuche lieferte keinen Maps-Treffer. Vor Kontaktaufnahme manuell prüfen."
+    },
+    "myhammer": {
+      "url": "https://www.my-hammer.de/auftragnehmer/patrick-faulhaber-kuechen-moebelmontagen",
+      "rating": 5.0,
+      "reviews": 38,
+      "evidence": "Profil und Bewertungsseite in Suchergebnissen belegt; erscheint auf MyHammer-Seiten für Andechs, Herrsching, Schondorf, Tutzing und Weßling."
+    }
+  },
+  "websiteStatus": "keine eigene Website gefunden",
+  "websiteChecks": [
+    "Suchen: „Patrick Faulhaber Andechs“, „Faulhaber Möbelmontage Andechs Impressum“, „faulhaber-montage“, „faulhaber-moebelmontage“, „kuechenmontage-faulhaber“ – nur fremde Faulhaber-Firmen (faulhaber-edv.de, faulhaber-it.com, ibf-faulhaber.de).",
+    "meinestadt.de nennt ausdrücklich keine Internetseite."
+  ],
+  "facts": {
+    "services": [
+      "Küchenmontage und Küchenerweiterung",
+      "Arbeitsplatten einpassen und tauschen",
+      "Anschluss von Armaturen und Elektrogeräten (laut Profil zertifizierte Elektro- und Wasseranschlüsse)",
+      "Möbelmontage inkl. IKEA",
+      "Nischenrückwände montieren"
+    ],
+    "experience": "Laut Profil gelernter Schreiner mit über 10 Jahren Erfahrung in Küchen- und Möbelmontage",
+    "praisedFor": [
+      "Zuverlässigkeit",
+      "Pünktlichkeit",
+      "Freundlichkeit",
+      "schnelle Rückmeldung",
+      "ordentliche Arbeit"
+    ]
+  },
+  "strategy": {
+    "audience": "Haushalte am Ammersee und im Fünfseenland, die eine neue Küche (Möbelhaus/IKEA) montieren oder eine bestehende umbauen lassen",
+    "mainService": "Küchenmontage inklusive Arbeitsplatte und Anschlüssen",
+    "trustSignal": "5,0 Sterne bei 38 MyHammer-Bewertungen, gelernter Schreiner",
+    "conversionGoal": "Montage-Anfrage mit Küchenplan / Wunschtermin",
+    "visualConcept": "Handwerklich-warm: Holztöne, präzise Typografie, Fokus auf Detail und Passgenauigkeit"
+  },
+  "sales": {
+    "score": 8,
+    "whyGoodLead": [
+      "Perfekte Bewertung (5,0) bei 38 Bewertungen – sehr starker Social Proof",
+      "Klar umrissenes, gut erklärbares Angebot (Küchenmontage) mit hoher lokaler Nachfrage",
+      "Kunden kaufen Küchen online/im Möbelhaus und suchen danach gezielt einen Monteur – eine Website fängt genau diese Suche ab",
+      "Keine eigene Website, nicht einmal ein Telefon öffentlich auffindbar – großes Potenzial"
+    ],
+    "pitch": "Guten Tag Herr Faulhaber, mein Name ist … – ich bin Webdesigner aus der Region. Ich habe Ihr MyHammer-Profil gesehen: 38 Bewertungen mit einem Schnitt von 5,0, das ist wirklich selten. Wer bei uns am Ammersee eine Küchenmontage sucht, findet Sie außerhalb von MyHammer aber kaum – deshalb habe ich unverbindlich einen Website-Entwurf für Sie vorbereitet. Darf ich Ihnen den einmal zeigen?"
+  },
+  "manualChecks": [
+    "Google-Unternehmensprofil in Google Maps prüfen (Existenz, Bewertung, hinterlegte Website)",
+    "Telefonnummer und Kontaktweg ermitteln – öffentlich nicht belegt, im Entwurf daher kein Click-to-call",
+    "Firmensitz klären: Andechs (MyHammer, meinestadt.de) vs. Seefeld, An der Breite 5 (Creditreform)",
+    "Umfang „zertifizierte Elektro- und Wasseranschlüsse“ vor Live-Nennung bestätigen lassen"
+  ],
+  "sources": [
+    {
+      "label": "MyHammer-Profil",
+      "url": "https://www.my-hammer.de/auftragnehmer/patrick-faulhaber-kuechen-moebelmontagen"
+    },
+    {
+      "label": "MyHammer-Bewertungen",
+      "url": "https://www.my-hammer.de/auftragnehmer/patrick-faulhaber-kuechen-moebelmontagen/bewertungen"
+    },
+    {
+      "label": "Creditreform Firmeneintrag",
+      "url": "https://firmeneintrag.creditreform.de/82229/8290815753/PATRICK_FAULHABER_MOEBELMONTAGEN"
+    },
+    {
+      "label": "meinestadt.de Branchenbuch Andechs",
+      "url": "https://branchenbuch.meinestadt.de/andechs/company/15468521"
+    }
+  ],
+  "site": {
+    "theme": "werk",
+    "seoTitle": "Küchenmontage am Ammersee – Patrick Faulhaber, Andechs",
+    "seoDescription": "Küchenmontage, Arbeitsplatten und Möbelmontage in Andechs, Herrsching, Seefeld und im Fünfseenland. Gelernter Schreiner, 5,0 Sterne auf MyHammer. Jetzt Montage anfragen.",
+    "logoMark": "PF",
+    "nav": [
+      {
+        "label": "Leistungen",
+        "href": "#leistungen"
+      },
+      {
+        "label": "Über mich",
+        "href": "#ueber-uns"
+      },
+      {
+        "label": "Bewertungen",
+        "href": "#bewertungen"
+      },
+      {
+        "label": "Ablauf",
+        "href": "#ablauf"
+      },
+      {
+        "label": "FAQ",
+        "href": "#faq"
+      },
+      {
+        "label": "Kontakt",
+        "href": "#kontakt"
+      }
+    ],
+    "hero": {
+      "eyebrow": "Küchen- & Möbelmontage · Andechs",
+      "headline": "Ihre Küche. Millimetergenau montiert.",
+      "sub": "Patrick Faulhaber ist gelernter Schreiner und baut seit über zehn Jahren Küchen und Möbel auf – vom Möbelhaus-Bausatz bis zur passgenau eingesetzten Arbeitsplatte. Für Andechs, den Ammersee und das Fünfseenland.",
+      "ctaPrimary": "Montage anfragen",
+      "ctaSecondary": "Rückruf vereinbaren",
+      "bullets": [
+        "5,0 von 5 Sternen bei 38 Bewertungen auf MyHammer",
+        "Gelernter Schreiner mit über 10 Jahren Montageerfahrung",
+        "Auch IKEA- und Möbelhausküchen"
+      ],
+      "imageLabel": "fertig montierte Küche mit Arbeitsplatte"
+    },
+    "trust": [
+      {
+        "value": "5,0",
+        "label": "Sterne auf MyHammer"
+      },
+      {
+        "value": "38",
+        "label": "Bewertungen auf MyHammer"
+      },
+      {
+        "value": "10+",
+        "label": "Jahre Küchen- und Möbelmontage"
+      },
+      {
+        "value": "Schreiner",
+        "label": "gelernter Holzhandwerker"
+      }
+    ],
+    "servicesIntro": {
+      "headline": "Montage mit Schreinerhandwerk",
+      "text": "Eine Küche ist nur so gut wie ihr Aufbau. Fronten, Fugen und Arbeitsplatte müssen sitzen – und die Anschlüsse müssen funktionieren. Genau darauf kommt es an."
+    },
+    "services": [
+      {
+        "title": "Küchenmontage",
+        "text": "Aufbau Ihrer neuen Küche – ob vom Küchenstudio, Möbelhaus oder als IKEA-Küche.",
+        "items": [
+          "Neuküchen",
+          "IKEA-Küchen",
+          "Ausrichten & Justieren"
+        ]
+      },
+      {
+        "title": "Küchenerweiterung",
+        "text": "Zusätzliche Schränke, neue Elemente oder Umbau einer bestehenden Küche.",
+        "items": [
+          "Ergänzungen",
+          "Umbau",
+          "Anpassungen"
+        ]
+      },
+      {
+        "title": "Arbeitsplatten",
+        "text": "Arbeitsplatten passgenau einpassen oder tauschen.",
+        "items": [
+          "Einpassen",
+          "Austausch"
+        ]
+      },
+      {
+        "title": "Anschlüsse",
+        "text": "Anschluss von Armaturen und Elektrogeräten im Rahmen der Küchenmontage.",
+        "items": [
+          "Armaturen",
+          "E-Geräte",
+          "Spüle"
+        ]
+      },
+      {
+        "title": "Nischenrückwände",
+        "text": "Montage von Nischenrückwänden als sauberer, pflegeleichter Abschluss.",
+        "items": [
+          "Rückwände",
+          "Abschlussleisten"
+        ]
+      },
+      {
+        "title": "Möbelmontage",
+        "text": "Aufbau von Schränken, Regalen und anderen Möbeln – zuverlässig und ordentlich.",
+        "items": [
+          "Schränke",
+          "IKEA-Möbel",
+          "Einbauten"
+        ]
+      }
+    ],
+    "why": {
+      "headline": "38 Bewertungen. Durchschnitt: 5,0.",
+      "points": [
+        {
+          "title": "Gelernter Schreiner",
+          "text": "Holz, Maße und Passungen sind sein gelerntes Handwerk – die beste Voraussetzung für eine saubere Montage."
+        },
+        {
+          "title": "Zuverlässig & pünktlich",
+          "text": "Kunden betonen immer wieder, dass Termine eingehalten werden."
+        },
+        {
+          "title": "Schnelle Rückmeldung",
+          "text": "Anfragen werden laut Bewertungen schnell beantwortet – auch bei kleineren Aufträgen."
+        },
+        {
+          "title": "Aus dem Fünfseenland",
+          "text": "Andechs, Herrsching, Seefeld, Weßling, Tutzing: kurze Wege zu Ihnen."
+        }
+      ]
+    },
+    "reviews": {
+      "headline": "Was Kunden am Ammersee berichten",
+      "summary": "Kunden beschreiben Patrick Faulhaber als zuverlässig, pünktlich und freundlich. Hervorgehoben werden die schnelle Rückmeldung auf Anfragen und die ordentliche Ausführung – etwa beim Tausch einer Arbeitsplatte oder der Montage einer Nischenrückwand.",
+      "highlights": [
+        "Zuverlässig und pünktlich",
+        "Schnelle Rückmeldung",
+        "Freundlicher Umgang",
+        "Ordentliche, saubere Arbeit"
+      ],
+      "source": "MyHammer",
+      "sourceUrl": "https://www.my-hammer.de/auftragnehmer/patrick-faulhaber-kuechen-moebelmontagen/bewertungen",
+      "rating": 5.0,
+      "count": 38
+    },
+    "process": {
+      "headline": "So kommt Ihre Küche an die Wand",
+      "steps": [
+        {
+          "title": "Küchenplan senden",
+          "text": "Schicken Sie Planung oder Auftragsbestätigung Ihres Küchenhändlers."
+        },
+        {
+          "title": "Einschätzung",
+          "text": "Sie bekommen eine Einschätzung zu Aufwand, Dauer und Preis."
+        },
+        {
+          "title": "Montagetermin",
+          "text": "Wir stimmen den Termin passend zur Lieferung Ihrer Küche ab."
+        },
+        {
+          "title": "Aufbau & Übergabe",
+          "text": "Montage, Justage, Anschlüsse – und eine aufgeräumte Küche."
+        }
+      ]
+    },
+    "gallery": {
+      "headline": "Montierte Küchen und Möbel",
+      "text": "In der Live-Version zeigen wir hier echte Montageprojekte – idealerweise mit Detailaufnahmen von Fugen und Arbeitsplatten.",
+      "items": [
+        {
+          "title": "Küche",
+          "photoNeeded": "komplett montierte Küche (Weitwinkel)"
+        },
+        {
+          "title": "Arbeitsplatte",
+          "photoNeeded": "Detail Arbeitsplatte mit Ausschnitt"
+        },
+        {
+          "title": "Rückwand",
+          "photoNeeded": "montierte Nischenrückwand"
+        },
+        {
+          "title": "IKEA-Küche",
+          "photoNeeded": "aufgebaute IKEA-Küche"
+        },
+        {
+          "title": "Möbel",
+          "photoNeeded": "Einbauschrank / Möbelmontage"
+        }
+      ]
+    },
+    "region": {
+      "headline": "Küchenmonteur für Andechs, den Ammersee und das Fünfseenland",
+      "text": "Von Andechs aus sind Herrsching, Seefeld, Weßling, Tutzing und Schondorf schnell erreicht. Wer am Ammersee eine neue Küche bekommt, hat mit Patrick Faulhaber einen Monteur aus der Region.",
+      "places": [
+        "Andechs",
+        "Herrsching",
+        "Seefeld",
+        "Weßling",
+        "Tutzing",
+        "Schondorf"
+      ]
+    },
+    "faq": [
+      {
+        "q": "Montieren Sie auch IKEA-Küchen?",
+        "a": "Ja, die Montage von IKEA-Küchen und -Möbeln gehört ausdrücklich zum Angebot."
+      },
+      {
+        "q": "Kann ich nur eine Arbeitsplatte tauschen lassen?",
+        "a": "Ja, auch Einzelaufträge wie der Tausch oder das Einpassen einer Arbeitsplatte werden übernommen."
+      },
+      {
+        "q": "Werden Spüle und Geräte angeschlossen?",
+        "a": "Der Anschluss von Armaturen und Elektrogeräten ist im Rahmen der Küchenmontage möglich. Was genau nötig ist, klären wir vorab."
+      },
+      {
+        "q": "Was brauchen Sie für eine Einschätzung?",
+        "a": "Am besten den Küchenplan oder die Auftragsbestätigung Ihres Händlers sowie ein Foto des Raums."
+      },
+      {
+        "q": "In welchen Orten sind Sie unterwegs?",
+        "a": "Vor allem in Andechs und rund um den Ammersee – Herrsching, Seefeld, Weßling, Tutzing, Schondorf und Umgebung."
+      }
+    ],
+    "contact": {
+      "headline": "Montage anfragen",
+      "text": "Erzählen Sie kurz, um welche Küche oder welche Möbel es geht, und wann geliefert wird. Sie bekommen eine Rückmeldung mit Einschätzung und Terminvorschlag.",
+      "topics": [
+        "Küchenmontage komplett",
+        "IKEA-Küche",
+        "Arbeitsplatte tauschen / einpassen",
+        "Küchenerweiterung",
+        "Nischenrückwand",
+        "Möbelmontage",
+        "Sonstiges"
+      ],
+      "responseNote": "Telefonnummer wird in der Live-Version ergänzt."
+    },
+    "stickyCta": "Montage anfragen"
+  }
+}

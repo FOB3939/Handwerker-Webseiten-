@@ -1,0 +1,366 @@
+{
+  "id": "2026-10-17-4",
+  "slug": "mangani-parkett-renovierung-germering",
+  "date": "2026-10-17",
+  "company": {
+    "name": "Agata Mangani",
+    "owner": null,
+    "trade": "Parkett & Renovierung",
+    "city": "Germering",
+    "address": "Westendstr. 22, 82110 Germering",
+    "phone": "01525 3859933",
+    "serviceArea": [
+      "Germering",
+      "München",
+      "Gilching",
+      "Puchheim",
+      "Gräfelfing",
+      "Planegg"
+    ]
+  },
+  "listings": {
+    "google": {
+      "url": "https://www.google.com/maps/search/?api=1&query=Agata%20Mangani%20Germering",
+      "rating": null,
+      "reviews": null,
+      "evidence": "NICHT VERIFIZIERT – Google/Google Maps war aus der Recherche-Umgebung nicht erreichbar und die Websuche lieferte keinen Maps-Treffer. Vor Kontaktaufnahme manuell prüfen."
+    },
+    "myhammer": {
+      "url": "https://www.my-hammer.de/auftragnehmer/agata-mangani",
+      "rating": 4.9,
+      "reviews": 46,
+      "evidence": "Profil und Bewertungsseite in Suchergebnissen belegt; strukturierte Daten zeigen 4,85 bei 45–46 Bewertungen (Stand Herbst 2026)."
+    }
+  },
+  "websiteStatus": "keine eigene Website gefunden",
+  "websiteChecks": [
+    "Suchen: „Agata Mangani“, „manganibau“, „mangani-bau“, „Mangani Bau“, „Mangani Renovierung Innenausbau Parkett München Impressum“, Adresse + Name – keine eigene Domain gefunden.",
+    "Verzeichnisse (11880, Cylex) führen keine Website; E-Mail läuft über googlemail.com."
+  ],
+  "facts": {
+    "services": [
+      "Parkett verlegen, schleifen und versiegeln",
+      "Dielen- und Parkettsanierung, auch nach Wasserschaden",
+      "Vinyl- und Designböden",
+      "Teppichboden",
+      "Malerarbeiten",
+      "Trockenbau",
+      "Fliesenarbeiten",
+      "Komplettrenovierung von Wohnungen"
+    ],
+    "experience": "Profil nennt widersprüchlich „20 Jahre Handwerkserfahrung“ und „seit 1985“ – nicht verwendet",
+    "praisedFor": [
+      "Zuverlässigkeit",
+      "Sauberkeit",
+      "gute Kommunikation",
+      "Fachkompetenz",
+      "Freundlichkeit"
+    ]
+  },
+  "strategy": {
+    "audience": "Eigentümer und Vermieter in Germering und München mit Parkett- oder Wohnungsrenovierung",
+    "mainService": "Parkett schleifen, versiegeln und verlegen",
+    "trustSignal": "4,9 Sterne bei rund 46 MyHammer-Bewertungen; Kunden berichten von geretteten, stark beschädigten Böden",
+    "conversionGoal": "Kostenlose Besichtigung / Angebot für den Boden anfragen",
+    "visualConcept": "Ruhig und materialbetont: große Bodenflächen, Holzstruktur, viel Weißraum, klare Versalien"
+  },
+  "sales": {
+    "score": 8,
+    "whyGoodLead": [
+      "Hohe Bewertungsanzahl (ca. 46) bei 4,9 Sternen – stärkster Social Proof im Raum Germering",
+      "Parkettsanierung ist sehr visuell – Vorher/Nachher verkauft sich auf einer Website hervorragend",
+      "Breites Renovierungsangebot (Boden, Maler, Trockenbau, Fliesen) wird bisher nirgends strukturiert dargestellt",
+      "Kein eigener Webauftritt, E-Mail über Freemail – professioneller Auftritt fehlt"
+    ],
+    "pitch": "Guten Tag, mein Name ist … – ich bin Webdesigner aus dem Münchner Westen. Ich bin auf Ihr MyHammer-Profil gestoßen: Fast 50 Bewertungen mit 4,9 Sternen, und Kunden schreiben, dass Sie sogar stark beschädigte Parkettböden wieder hinbekommen. So etwas sollte man auch außerhalb von MyHammer sehen können – ich habe Ihnen deshalb unverbindlich einen Website-Entwurf gebaut. Darf ich Ihnen den kurz schicken?"
+  },
+  "manualChecks": [
+    "Google-Unternehmensprofil in Google Maps prüfen (Existenz, Bewertung, hinterlegte Website)",
+    "Telefonnummer bestätigen: 01525 3859933 (11880, Cylex) vs. 01575 1767038 (hausmeisterdienste.net)",
+    "Ansprechpartner klären: Profilname „Agata Mangani“, Bewertungen sprechen von „Herrn Mangani“ – Anrede im Gespräch daher offen halten",
+    "Firmen-/Markennamen klären (E-Mail-Adresse deutet auf „Mangani Bau“)",
+    "Erfahrungsangabe nicht verwenden, bis sie geklärt ist (20 Jahre vs. seit 1985)"
+  ],
+  "sources": [
+    {
+      "label": "MyHammer-Profil",
+      "url": "https://www.my-hammer.de/auftragnehmer/agata-mangani"
+    },
+    {
+      "label": "MyHammer-Bewertungen",
+      "url": "https://www.my-hammer.de/auftragnehmer/agata-mangani/bewertungen"
+    },
+    {
+      "label": "MyHammer – Stuckateure/Verputzer Germering",
+      "url": "https://www.my-hammer.de/trockenbau-verputzen/stuckateur-verputzer-berufe/germering"
+    },
+    {
+      "label": "11880 – Trockenbau Germering",
+      "url": "https://www.11880.com/suche/trockenbau/germering"
+    },
+    {
+      "label": "Cylex – Bodenleger Germering",
+      "url": "https://web2.cylex.de/suche/bodenleger/Germering"
+    },
+    {
+      "label": "hausmeisterdienste.net – Agata Mangani",
+      "url": "https://www.hausmeisterdienste.net/germering/agata-mangani-aUQ2nI"
+    }
+  ],
+  "site": {
+    "theme": "stein",
+    "motif": "wood",
+    "seoTitle": "Parkett schleifen & Renovierung in Germering – Mangani",
+    "seoDescription": "Parkett verlegen, schleifen und versiegeln, Vinyl- und Designböden sowie Wohnungsrenovierung in Germering und München. 4,9 Sterne auf MyHammer. Jetzt Besichtigung anfragen.",
+    "logoMark": "M",
+    "nav": [
+      {
+        "label": "Leistungen",
+        "href": "#leistungen"
+      },
+      {
+        "label": "Projekte",
+        "href": "#projekte"
+      },
+      {
+        "label": "Bewertungen",
+        "href": "#bewertungen"
+      },
+      {
+        "label": "Ablauf",
+        "href": "#ablauf"
+      },
+      {
+        "label": "FAQ",
+        "href": "#faq"
+      },
+      {
+        "label": "Kontakt",
+        "href": "#kontakt"
+      }
+    ],
+    "hero": {
+      "eyebrow": "Parkett · Böden · Renovierung · Germering",
+      "headline": "Böden, die wieder aussehen wie neu.",
+      "sub": "Parkett verlegen, schleifen und versiegeln – und wenn mehr zu tun ist, die komplette Wohnungsrenovierung mit Maler-, Trockenbau- und Fliesenarbeiten. Für Germering, München und den Münchner Westen.",
+      "ctaPrimary": "Besichtigung anfragen",
+      "ctaSecondary": "Jetzt anrufen",
+      "bullets": [
+        "4,9 von 5 Sternen bei rund 46 Bewertungen auf MyHammer",
+        "Parkett- und Dielensanierung – auch nach Wasserschaden",
+        "Renovierung aus einer Hand: Boden, Wand, Decke"
+      ],
+      "imageLabel": "frisch geschliffener und versiegelter Parkettboden"
+    },
+    "trust": [
+      {
+        "value": "4,9 ★",
+        "label": "Durchschnitt auf MyHammer"
+      },
+      {
+        "value": "46",
+        "label": "Bewertungen von Auftraggebern"
+      },
+      {
+        "value": "Parkett",
+        "label": "Verlegen, schleifen, versiegeln"
+      },
+      {
+        "value": "Germering",
+        "label": "Betrieb im Münchner Westen"
+      }
+    ],
+    "servicesIntro": {
+      "headline": "Vom Boden bis zur fertigen Wohnung",
+      "text": "Der Boden ist das Herzstück jedes Raums. Wir bringen Parkett und Dielen zurück in Form – und übernehmen bei Bedarf die gesamte Renovierung drumherum."
+    },
+    "services": [
+      {
+        "title": "Parkett schleifen & versiegeln",
+        "text": "Abgenutztes oder beschädigtes Parkett wird abgeschliffen und neu versiegelt – für eine strapazierfähige, schöne Oberfläche.",
+        "items": [
+          "Schleifen",
+          "Versiegeln",
+          "Ausbessern"
+        ]
+      },
+      {
+        "title": "Parkett & Dielen verlegen",
+        "text": "Neue Holzböden fachgerecht verlegt – als Parkett oder Dielen.",
+        "items": [
+          "Parkett",
+          "Dielen",
+          "Sockelleisten"
+        ]
+      },
+      {
+        "title": "Vinyl- & Designböden",
+        "text": "Pflegeleichte, moderne Bodenbeläge für Wohnung, Haus und Mietobjekt.",
+        "items": [
+          "Vinyl",
+          "Designboden",
+          "Teppichboden"
+        ]
+      },
+      {
+        "title": "Maler & Trockenbau",
+        "text": "Wände und Decken streichen, neue Wände in Trockenbauweise – passend zum neuen Boden.",
+        "items": [
+          "Anstrich",
+          "Trockenbauwände"
+        ]
+      },
+      {
+        "title": "Fliesenarbeiten",
+        "text": "Fliesen in Bad, Küche oder Flur als Teil Ihrer Renovierung.",
+        "items": [
+          "Bad",
+          "Küche",
+          "Flur"
+        ]
+      },
+      {
+        "title": "Komplettrenovierung",
+        "text": "Die ganze Wohnung aus einer Hand – ideal vor dem Einzug oder bei Mieterwechsel.",
+        "items": [
+          "Wohnungen",
+          "Mieterwechsel",
+          "Sanierung"
+        ]
+      }
+    ],
+    "why": {
+      "headline": "Wenn der Boden eigentlich schon verloren scheint.",
+      "points": [
+        {
+          "title": "Rettung statt Austausch",
+          "text": "Ein Kunde berichtet, wie sein durch Wasserschaden stark beschädigter Parkettboden wieder hergerichtet wurde."
+        },
+        {
+          "title": "Sauber & zuverlässig",
+          "text": "Sauberkeit und Zuverlässigkeit sind die Punkte, die in Bewertungen am häufigsten genannt werden."
+        },
+        {
+          "title": "Gute Kommunikation",
+          "text": "Auftraggeber loben die klare Abstimmung vor und während der Arbeiten."
+        },
+        {
+          "title": "Alles aus einer Hand",
+          "text": "Boden, Maler, Trockenbau und Fliesen – Sie brauchen für die Renovierung nur einen Ansprechpartner."
+        }
+      ]
+    },
+    "reviews": {
+      "headline": "Fast 50 Bewertungen, fast immer Bestnote",
+      "summary": "Kunden aus Germering und München loben besonders die Zuverlässigkeit, die saubere Arbeitsweise und die fachliche Kompetenz. Ein Auftraggeber beschreibt etwa, wie ein durch Wasserschaden stark beschädigter Parkettboden wieder in einen sehr guten Zustand gebracht wurde.",
+      "highlights": [
+        "Zuverlässige Zusammenarbeit",
+        "Sehr saubere Arbeitsweise",
+        "Gute Kommunikation",
+        "Echte Fachkompetenz bei Parkett"
+      ],
+      "source": "MyHammer",
+      "sourceUrl": "https://www.my-hammer.de/auftragnehmer/agata-mangani/bewertungen",
+      "rating": 4.9,
+      "count": 46
+    },
+    "process": {
+      "headline": "Ihr Weg zum neuen Boden",
+      "steps": [
+        {
+          "title": "Anfrage",
+          "text": "Fotos vom Boden und die ungefähre Fläche in m² reichen für den Start."
+        },
+        {
+          "title": "Besichtigung",
+          "text": "Vor Ort prüfen wir Zustand, Holzart und mögliche Schäden."
+        },
+        {
+          "title": "Angebot",
+          "text": "Sie erhalten ein klares Angebot – Schleifen, Verlegen oder Komplettrenovierung."
+        },
+        {
+          "title": "Ausführung",
+          "text": "Saubere Arbeit, abgestimmte Termine und eine ordentliche Übergabe."
+        }
+      ]
+    },
+    "gallery": {
+      "headline": "Vorher. Nachher.",
+      "text": "Gerade bei Parkett sprechen Bilder mehr als Worte. Für die Live-Version werden hier echte Vorher-/Nachher-Fotos aus Kundenprojekten eingesetzt.",
+      "items": [
+        {
+          "title": "Nachher",
+          "photoNeeded": "geschliffener, versiegelter Parkettboden"
+        },
+        {
+          "title": "Vorher",
+          "photoNeeded": "abgenutzter Boden vor dem Schliff"
+        },
+        {
+          "title": "Dielen",
+          "photoNeeded": "sanierte Holzdielen"
+        },
+        {
+          "title": "Vinyl",
+          "photoNeeded": "verlegter Designboden"
+        },
+        {
+          "title": "Renovierung",
+          "photoNeeded": "fertig renovierte Wohnung"
+        }
+      ]
+    },
+    "region": {
+      "headline": "Parkett und Renovierung für Germering, München und den Münchner Westen",
+      "text": "Von Germering aus arbeiten wir in München und den umliegenden Gemeinden. Typische Aufträge: Parkett schleifen in der Altbauwohnung, neuer Designboden im Reihenhaus oder die Komplettrenovierung vor dem Mieterwechsel.",
+      "places": [
+        "Germering",
+        "Unterpfaffenhofen",
+        "München",
+        "Puchheim",
+        "Gilching",
+        "Gräfelfing",
+        "Planegg",
+        "Fürstenfeldbruck"
+      ]
+    },
+    "faq": [
+      {
+        "q": "Lohnt sich das Schleifen oder brauche ich neues Parkett?",
+        "a": "Massivparkett und Dielen lassen sich oft mehrfach abschleifen. Ob das bei Ihrem Boden möglich ist, klären wir bei einer kurzen Besichtigung."
+      },
+      {
+        "q": "Kann ein Boden nach einem Wasserschaden gerettet werden?",
+        "a": "In vielen Fällen ja – ein Kunde berichtet von einem stark beschädigten Parkett nach Wasserschaden, das wieder hergerichtet wurde. Entscheidend ist der Zustand des Holzes."
+      },
+      {
+        "q": "Verlegen Sie auch Vinyl und Designböden?",
+        "a": "Ja, neben Parkett und Dielen gehören Vinyl-, Design- und Teppichböden zum Angebot."
+      },
+      {
+        "q": "Übernehmen Sie die komplette Renovierung einer Wohnung?",
+        "a": "Ja. Neben den Böden sind Malerarbeiten, Trockenbau und Fliesen möglich – alles aus einer Hand."
+      },
+      {
+        "q": "Was sollte ich für ein Angebot vorbereiten?",
+        "a": "Ein paar Fotos des Bodens und die ungefähre Fläche in Quadratmetern helfen für eine erste Einschätzung."
+      }
+    ],
+    "contact": {
+      "headline": "Ihr Boden verdient eine zweite Chance",
+      "text": "Schreiben Sie kurz, um welchen Boden und welche Fläche es geht – oder rufen Sie direkt an. Sie bekommen eine Rückmeldung mit einem Terminvorschlag für die Besichtigung.",
+      "topics": [
+        "Parkett schleifen / versiegeln",
+        "Parkett / Dielen verlegen",
+        "Vinyl- / Designboden",
+        "Malerarbeiten / Trockenbau",
+        "Fliesen",
+        "Komplettrenovierung",
+        "Sonstiges"
+      ],
+      "responseNote": "Besichtigungstermine nach Absprache."
+    },
+    "stickyCta": "Besichtigung anfragen"
+  }
+}

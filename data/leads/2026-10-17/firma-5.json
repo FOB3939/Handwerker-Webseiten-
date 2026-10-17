@@ -1,0 +1,360 @@
+{
+  "id": "2026-10-17-5",
+  "slug": "asmarandi-gartenbau-planegg",
+  "date": "2026-10-17",
+  "company": {
+    "name": "Paul-Ovidiu Asmarandi Garten- und Landschaftsbau",
+    "owner": "Paul-Ovidiu Asmarandi",
+    "trade": "Garten- & Landschaftsbau",
+    "city": "Planegg",
+    "address": "Rudolfstr. 1, 82152 Planegg",
+    "phone": "01523 4623556",
+    "serviceArea": [
+      "Planegg",
+      "Krailling",
+      "Martinsried",
+      "Gräfelfing",
+      "Gauting",
+      "Schöngeising"
+    ]
+  },
+  "listings": {
+    "google": {
+      "url": "https://www.google.com/maps/search/?api=1&query=Asmarandi%20Garten%20Landschaftsbau%20Planegg",
+      "rating": null,
+      "reviews": null,
+      "evidence": "NICHT VERIFIZIERT – Google/Google Maps war aus der Recherche-Umgebung nicht erreichbar und die Websuche lieferte keinen Maps-Treffer. Vor Kontaktaufnahme manuell prüfen."
+    },
+    "myhammer": {
+      "url": "https://www.my-hammer.de/auftragnehmer/asmarandi-paul",
+      "rating": 4.9,
+      "reviews": 36,
+      "evidence": "Profil auf MyHammer-Kategorieseiten (GaLaBau Planegg, Krailling, Schöngeising) belegt; 4,9 bei 36 Bewertungen."
+    }
+  },
+  "websiteStatus": "keine eigene Website gefunden",
+  "websiteChecks": [
+    "Suchen: „asmarandi-gartenbau.de“, „asmarandi.de“, „www.asmarandi“, „Paul-Ovidiu Asmarandi“ – nur Creditreform, MyHammer und meinestadt.de gefunden.",
+    "meinestadt.de-Eintrag zeigt keine Website."
+  ],
+  "facts": {
+    "services": [
+      "Gartenpflege",
+      "Terrassen- und Wegebau",
+      "Zäune aufbauen und austauschen",
+      "Gartenteiche anlegen und pflegen",
+      "Gebäudereinigung",
+      "Entrümpelung"
+    ],
+    "experience": "Laut MyHammer-Eigenangabe seit sechs Jahren am Markt",
+    "praisedFor": [
+      "saubere Arbeit",
+      "zügige Ausführung"
+    ]
+  },
+  "strategy": {
+    "audience": "Eigenheimbesitzer im Würmtal (Planegg, Krailling, Gräfelfing) mit Garten- oder Außenanlagenprojekt",
+    "mainService": "Terrassen-, Wege- und Zaunbau sowie regelmäßige Gartenpflege",
+    "trustSignal": "4,9 Sterne bei 36 MyHammer-Bewertungen, seit sechs Jahren am Markt",
+    "conversionGoal": "Gartenprojekt besprechen / Vor-Ort-Termin anfragen",
+    "visualConcept": "Emotional und natürlich: tiefes Grün, organische Formen, große Außenbilder, warme Serifenschrift"
+  },
+  "sales": {
+    "score": 7,
+    "whyGoodLead": [
+      "Sehr gute Bewertungslage (4,9 bei 36 Bewertungen)",
+      "GaLaBau ist extrem visuell – eine Website mit Projektbildern hebt sich klar von MyHammer-Profilen ab",
+      "Kaufkräftiges Einzugsgebiet im Würmtal mit vielen Einfamilienhäusern und Gärten",
+      "Wiederkehrende Leistungen (Gartenpflege) – Website kann gezielt Pflegeverträge anstoßen"
+    ],
+    "pitch": "Guten Tag Herr Asmarandi, mein Name ist … – ich gestalte Websites für Handwerksbetriebe hier im Würmtal. Ich habe gesehen, dass Ihre Kunden Sie auf MyHammer mit 4,9 Sternen bewerten, Sie aber noch keine eigene Website haben, auf der man Ihre Terrassen und Gärten sehen kann. Ich habe deshalb unverbindlich einen Entwurf vorbereitet – darf ich Ihnen den kurz zeigen?"
+  },
+  "manualChecks": [
+    "Google-Unternehmensprofil in Google Maps prüfen (Existenz, Bewertung, hinterlegte Website)",
+    "Telefonnummer bestätigen – nur über einen Cylex-Eintrag (bei einem Nachbarbetrieb gelistet) belegt",
+    "Zuordnung MyHammer-Profil „Asmarandi Paul“ ↔ Creditreform-Firma bestätigen (plausibel über Name und Ort)",
+    "Gelobte Eigenschaften nur aus Suchsnippets – vor Live-Nutzung Bewertungen direkt lesen",
+    "Leistungsdetails (z. B. Umfang der Gartenpflege) mit Inhaber abstimmen"
+  ],
+  "sources": [
+    {
+      "label": "MyHammer – GaLaBau Planegg",
+      "url": "https://www.my-hammer.de/garten-aussenbereich/garten-landschaftsbauer-berufe/planegg"
+    },
+    {
+      "label": "MyHammer – GaLaBau Krailling",
+      "url": "https://www.my-hammer.de/garten-aussenbereich/garten-landschaftsbauer-berufe/krailling"
+    },
+    {
+      "label": "MyHammer-Profil",
+      "url": "https://www.my-hammer.de/auftragnehmer/asmarandi-paul"
+    },
+    {
+      "label": "Creditreform Firmeneintrag",
+      "url": "https://firmeneintrag.creditreform.de/82152/8330594228/PAUL_OVIDIU_ASMARANDI_GARTEN_UND_LANDSCHAFTSBAU"
+    },
+    {
+      "label": "meinestadt.de Branchenbuch Planegg",
+      "url": "https://branchenbuch.meinestadt.de/planegg/company/502186739"
+    },
+    {
+      "label": "Cylex (Telefonnummer)",
+      "url": "https://web2.cylex.de/firma-home/gaertnerei-stocker-2669347.html"
+    }
+  ],
+  "site": {
+    "theme": "garten",
+    "seoTitle": "Garten- und Landschaftsbau in Planegg – Asmarandi",
+    "seoDescription": "Gartenpflege, Terrassen, Wege, Zäune und Gartenteiche in Planegg, Krailling und dem Würmtal. 4,9 Sterne auf MyHammer. Jetzt Gartenprojekt besprechen.",
+    "logoMark": "A",
+    "nav": [
+      {
+        "label": "Leistungen",
+        "href": "#leistungen"
+      },
+      {
+        "label": "Gärten",
+        "href": "#projekte"
+      },
+      {
+        "label": "Bewertungen",
+        "href": "#bewertungen"
+      },
+      {
+        "label": "Ablauf",
+        "href": "#ablauf"
+      },
+      {
+        "label": "FAQ",
+        "href": "#faq"
+      },
+      {
+        "label": "Kontakt",
+        "href": "#kontakt"
+      }
+    ],
+    "hero": {
+      "eyebrow": "Garten- und Landschaftsbau im Würmtal",
+      "headline": "Ihr Garten. Gepflegt, gestaltet, genossen.",
+      "sub": "Paul-Ovidiu Asmarandi legt Terrassen und Wege an, baut Zäune, pflegt Gärten und Gartenteiche – für Hausbesitzer in Planegg, Krailling und Umgebung.",
+      "ctaPrimary": "Gartenprojekt besprechen",
+      "ctaSecondary": "Jetzt anrufen",
+      "bullets": [
+        "4,9 ★ auf MyHammer",
+        "36 Bewertungen",
+        "Seit sechs Jahren am Markt"
+      ],
+      "imageLabel": "gepflegter Garten mit neuer Terrasse"
+    },
+    "trust": [
+      {
+        "value": "4,9 ★",
+        "label": "Durchschnitt auf MyHammer"
+      },
+      {
+        "value": "36",
+        "label": "Bewertungen von Auftraggebern"
+      },
+      {
+        "value": "6 Jahre",
+        "label": "am Markt (Eigenangabe)"
+      },
+      {
+        "value": "Planegg",
+        "label": "Betrieb im Würmtal"
+      }
+    ],
+    "servicesIntro": {
+      "headline": "Alles, was Ihr Garten braucht",
+      "text": "Von der regelmäßigen Pflege bis zur neuen Terrasse: ein Ansprechpartner für Ihre Außenanlage – und auf Wunsch auch für Reinigung und Entrümpelung rund ums Haus."
+    },
+    "services": [
+      {
+        "title": "Gartenpflege",
+        "text": "Regelmäßige oder einmalige Pflege, damit Ihr Garten das ganze Jahr gut aussieht.",
+        "items": [
+          "Rasen & Beete",
+          "Hecken & Sträucher",
+          "Saisonpflege"
+        ]
+      },
+      {
+        "title": "Terrassen- & Wegebau",
+        "text": "Neue Terrassen und Gartenwege, die Ihren Außenbereich nutzbar und schön machen.",
+        "items": [
+          "Terrassen",
+          "Gartenwege",
+          "Zugänge"
+        ]
+      },
+      {
+        "title": "Zaunbau",
+        "text": "Aufbau neuer Zäune und Austausch alter Zaunanlagen.",
+        "items": [
+          "Neubau",
+          "Austausch",
+          "Rückbau alter Zäune"
+        ]
+      },
+      {
+        "title": "Gartenteiche",
+        "text": "Gartenteiche anlegen und pflegen – für einen lebendigen Garten.",
+        "items": [
+          "Anlage",
+          "Pflege",
+          "Reinigung"
+        ]
+      },
+      {
+        "title": "Entrümpelung",
+        "text": "Garten, Garage oder Keller: wir räumen auf und schaffen Platz.",
+        "items": [
+          "Garten",
+          "Keller",
+          "Garage"
+        ]
+      },
+      {
+        "title": "Gebäudereinigung",
+        "text": "Reinigungsleistungen rund ums Haus als Ergänzung zur Gartenbetreuung.",
+        "items": [
+          "Reinigung",
+          "nach Absprache"
+        ]
+      }
+    ],
+    "why": {
+      "headline": "Ein Garten ist kein Projekt. Er ist ein Zuhause.",
+      "points": [
+        {
+          "title": "Sehr gut bewertet",
+          "text": "4,9 von 5 Sternen bei 36 Bewertungen auf MyHammer."
+        },
+        {
+          "title": "Sauber & zügig",
+          "text": "Kunden heben die saubere und zügige Ausführung hervor."
+        },
+        {
+          "title": "Breites Angebot",
+          "text": "Pflege, Bau, Teiche, Zäune – und bei Bedarf Entrümpelung: ein Ansprechpartner genügt."
+        },
+        {
+          "title": "Aus dem Würmtal",
+          "text": "Der Betrieb sitzt in Planegg – Krailling, Gräfelfing und Martinsried liegen direkt nebenan."
+        }
+      ]
+    },
+    "reviews": {
+      "headline": "Zufriedene Gärten im Würmtal",
+      "summary": "Auftraggeber bewerten die Zusammenarbeit mit durchschnittlich 4,9 von 5 Sternen. Besonders hervorgehoben werden die saubere und zügige Ausführung der Arbeiten.",
+      "highlights": [
+        "Saubere Arbeit",
+        "Zügige Ausführung",
+        "Sehr hohe Zufriedenheit (4,9 ★)",
+        "36 Bewertungen auf MyHammer"
+      ],
+      "source": "MyHammer",
+      "sourceUrl": "https://www.my-hammer.de/auftragnehmer/asmarandi-paul",
+      "rating": 4.9,
+      "count": 36
+    },
+    "process": {
+      "headline": "Vom ersten Gespräch zum fertigen Garten",
+      "steps": [
+        {
+          "title": "Gespräch",
+          "text": "Sie erzählen, was Sie sich für Ihren Garten wünschen."
+        },
+        {
+          "title": "Vor-Ort-Termin",
+          "text": "Wir sehen uns Fläche, Zugang und Gegebenheiten gemeinsam an."
+        },
+        {
+          "title": "Angebot",
+          "text": "Sie bekommen ein klares Angebot für Bau oder Pflege."
+        },
+        {
+          "title": "Umsetzung",
+          "text": "Wir arbeiten sauber und zügig – und hinterlassen Ihren Garten aufgeräumt."
+        }
+      ]
+    },
+    "gallery": {
+      "headline": "Gärten, Terrassen, Wege",
+      "text": "Für die Live-Version zeigen wir hier echte Außenanlagen aus dem Würmtal – am besten bei Tageslicht und im Sommer fotografiert.",
+      "items": [
+        {
+          "title": "Terrasse",
+          "photoNeeded": "fertige Terrasse mit Garten"
+        },
+        {
+          "title": "Gartenweg",
+          "photoNeeded": "neu angelegter Weg"
+        },
+        {
+          "title": "Zaun",
+          "photoNeeded": "neu gebauter Zaun"
+        },
+        {
+          "title": "Gartenteich",
+          "photoNeeded": "angelegter Gartenteich"
+        },
+        {
+          "title": "Pflege",
+          "photoNeeded": "gepflegter Rasen und Beete"
+        }
+      ]
+    },
+    "region": {
+      "headline": "Gartenbau für Planegg, Krailling und das Würmtal",
+      "text": "Von Planegg aus betreut der Betrieb Gärten in Krailling, Martinsried, Gräfelfing, Gauting und im weiteren Münchner Südwesten – kurze Wege für Termine vor Ort.",
+      "places": [
+        "Planegg",
+        "Krailling",
+        "Martinsried",
+        "Gräfelfing",
+        "Gauting",
+        "Stockdorf",
+        "Neuried",
+        "Schöngeising"
+      ]
+    },
+    "faq": [
+      {
+        "q": "Übernehmen Sie auch regelmäßige Gartenpflege?",
+        "a": "Ja, Gartenpflege gehört zum Kernangebot – einmalig oder regelmäßig nach Absprache."
+      },
+      {
+        "q": "Bauen Sie Terrassen und Wege?",
+        "a": "Ja, Terrassen- und Wegebau ist ein Schwerpunkt. Details zu Material und Umfang klären wir beim Vor-Ort-Termin."
+      },
+      {
+        "q": "Können Sie einen alten Zaun ersetzen?",
+        "a": "Ja, sowohl der Aufbau neuer Zäune als auch der Austausch bestehender Zaunanlagen werden angeboten."
+      },
+      {
+        "q": "Legen Sie Gartenteiche an?",
+        "a": "Ja, Gartenteiche werden angelegt und auch gepflegt."
+      },
+      {
+        "q": "Bieten Sie auch Entrümpelung an?",
+        "a": "Ja, Entrümpelung und Reinigungsleistungen sind als Ergänzung möglich – sprechen Sie uns einfach an."
+      }
+    ],
+    "contact": {
+      "headline": "Lassen Sie uns über Ihren Garten sprechen",
+      "text": "Beschreiben Sie kurz Ihr Vorhaben – gern mit Fotos. Wir melden uns mit einem Vorschlag für einen Vor-Ort-Termin.",
+      "topics": [
+        "Gartenpflege",
+        "Terrasse / Wege",
+        "Zaunbau",
+        "Gartenteich",
+        "Entrümpelung",
+        "Reinigung",
+        "Sonstiges"
+      ],
+      "responseNote": "Termine vor Ort nach Absprache."
+    },
+    "stickyCta": "Projekt besprechen"
+  }
+}
