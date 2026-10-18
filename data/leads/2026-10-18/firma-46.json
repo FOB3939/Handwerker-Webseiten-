@@ -1,0 +1,371 @@
+{
+  "id": "2026-10-18-46",
+  "slug": "baukonzepte-hermann-germering",
+  "date": "2026-10-18",
+  "company": {
+    "name": "Baukonzepte Hermann",
+    "owner": null,
+    "trade": "Trockenbau, Malerarbeiten & Terrassenbau",
+    "city": "Germering",
+    "address": "Untere Bahnhofstr. 56, 82110 Germering",
+    "phone": "01515 5877525",
+    "email": "info.hermann.service@gmail.com",
+    "serviceArea": [
+      "Germering",
+      "Krailling"
+    ]
+  },
+  "listings": {
+    "google": {
+      "url": "https://www.google.com/maps/search/?api=1&query=Baukonzepte%20Hermann%20Untere%20Bahnhofstr.%2056%20Germering",
+      "rating": null,
+      "reviews": null,
+      "evidence": "INDIREKT/NICHT VERIFIZIERT – kein Google-Maps-Treffer und kein Eintrag auf trustlocal/weshoplocal/reviewhero/firmania gefunden. Angenommen wegen Freemail-Beleg (info.hermann.service@gmail.com laut 11880-Eintrag „Trockenbau Germering“, Hinweis des Koordinators; in meinen eigenen Snippets war die E-Mail nicht sichtbar). Kein Website-Feld in irgendeiner Quelle gesehen."
+    },
+    "myhammer": {
+      "url": "https://www.11880.com/suche/trockenbau/germering",
+      "rating": null,
+      "reviews": null,
+      "evidence": "Kein MyHammer – Einträge in 11880: „Baukonzepte Hermann Germering – Trockenbau, Maler & Terrassenbau“, Untere Bahnhofstr. 56, 82110 Germering, Tel. (01515) 5877525, keine Öffnungszeiten; weitere 11880-Listen (Entrümpelung Germering, Trockenbau Krailling) mit Maler, Bodenverlegung, Entrümpelung, gleiche Nummer. Keine Website genannt."
+    }
+  },
+  "websiteStatus": "keine eigene Website gefunden",
+  "websiteChecks": [
+    "(1) „Baukonzepte Hermann Germering“ mit blocked_domains (11880, Gelbe Seiten, Das Örtliche, Das Telefonbuch, Cylex, meinestadt, Creditreform, Facebook, Instagram, golocal, MyHammer, Northdata, Firmenwissen, WerkenntdenBesten, Yelp, trustlocal, wlw) – nur 11880 und fremde Firmen (u. a. Siegfried Hermann Sanitär-Heizung, hermann-bad-heizung.de = anderer Betrieb, Kerschensteinerstr. 2a); keine eigene Domain",
+    "(2) Telefon-/E-Mail-Suche „01515 5877525“/„015155877525“/„info.hermann.service“ mit denselben blocked_domains – nur Rufnummernblock-Seite handyanrufe.de, keine Website",
+    "(3) Domainprüfung allowed_domains baukonzepte-hermann.de, hermann-baukonzepte.de, baukonzepte-hermann.com, hermann-service.de, hermann-trockenbau.de, trockenbau-hermann.de, baukonzepte-germering.de, hermannservice.de – keine Ergebnisse",
+    "(4) Impressum-Suche „Impressum \"Baukonzepte Hermann\"“ – kein eigenes Impressum (nur fremde Hermann-Firmen); Inhabername unbekannt",
+    "(5) Verzeichnis 11880: kein Website-Feld, E-Mail laut Koordinator Freemail (gmail.com)",
+    "(6) Spiegel-Verzeichnisse (trustlocal, weshoplocal, reviewhero, firmania) – kein Eintrag, daher auch kein Website-Feld",
+    "Website-Risiko: mittel – alle Prüfungen negativ, Gmail-Adresse nur über Koordinator-Hinweis belegt, Google-Eintrag nicht verifiziert"
+  ],
+  "facts": {
+    "services": [
+      "Trockenbau",
+      "Malerarbeiten",
+      "Terrassenbau",
+      "Bodenverlegung",
+      "Entrümpelung"
+    ],
+    "experience": null,
+    "praisedFor": []
+  },
+  "strategy": {
+    "audience": "Hausbesitzer und Mieter in Germering und Krailling, die Innenräume ausbauen, streichen oder eine neue Terrasse wollen",
+    "mainService": "Trockenbau und Malerarbeiten, dazu Terrassenbau",
+    "trustSignal": "Ein Betrieb für innen und außen – direkt erreichbar per Handy/WhatsApp",
+    "conversionGoal": "Angebot per WhatsApp oder Formular anfragen",
+    "visualConcept": "Ruhige Stein-Optik: helle Wände, Holzterrasse im Abendlicht – solide, vielseitig, ordentlich"
+  },
+  "sales": {
+    "score": 6,
+    "whyGoodLead": [
+      "Keine eigene Website gefunden – nur Verzeichniseinträge",
+      "Mobilnummer öffentlich gelistet – per WhatsApp ansprechbar",
+      "Vielseitiges Angebot (Trockenbau, Maler, Boden, Terrasse, Entrümpelung) – gut für mehrere Leistungsseiten",
+      "Sitz zentral in Germering"
+    ],
+    "pitch": "Hallo, ich erstelle Websites für Handwerksbetriebe im Münchner Westen. Ich habe Baukonzepte Hermann im Branchenverzeichnis mit Trockenbau, Malerarbeiten und Terrassenbau in Germering gefunden, aber keine eigene Website. Ich habe unverbindlich einen Entwurf vorbereitet – darf ich Ihnen den Link schicken?"
+  },
+  "manualChecks": [
+    "Website-Risiko: mittel – vor Versand in Google Maps prüfen, dass keine Website hinterlegt ist (Grund: alle Suchen negativ, aber Google-Eintrag nicht gefunden und Gmail-Adresse nicht selbst im Snippet gesehen)",
+    "E-Mail info.hermann.service@gmail.com im 11880-Eintrag selbst bestätigen",
+    "Inhabername unbekannt – vor Anschreiben klären (Anrede neutral halten)",
+    "Nicht verwechseln mit Siegfried Hermann Sanitär-Heizung Germering (hat Website hermann-bad-heizung.de)",
+    "Mobilnummer 01515 5877525 vor WhatsApp-Kontakt prüfen",
+    "Einsatzgebiet nur Germering/Krailling (Verzeichnislisten) belegt",
+    "Logo und Projektfotos: nicht gefunden – beim Betrieb anfragen"
+  ],
+  "sources": [
+    {
+      "label": "11880 – Trockenbauer Germering (Eintrag Baukonzepte Hermann)",
+      "url": "https://www.11880.com/suche/trockenbau/germering"
+    },
+    {
+      "label": "11880 – Entrümpler Germering",
+      "url": "https://www.11880.com/suche/entruempelung/germering"
+    },
+    {
+      "label": "11880 – Trockenbauer Krailling",
+      "url": "https://www.11880.com/suche/trockenbau/krailling"
+    },
+    {
+      "label": "handyanrufe.de – Rufnummernblock 01515/587",
+      "url": "https://handyanrufe.de/rufnummer/01515/587"
+    }
+  ],
+  "site": {
+    "theme": "stein",
+    "category": "handwerk",
+    "heroOffer": [
+      "Trockenbau",
+      "Malerarbeiten",
+      "Terrassenbau",
+      "Bodenverlegung",
+      "Entrümpelung"
+    ],
+    "scene": "drywall",
+    "logoIcon": "house",
+    "logoMark": "BH",
+    "brandName": "Baukonzepte Hermann",
+    "seoTitle": "Trockenbau & Maler in Germering – Baukonzepte Hermann",
+    "seoDescription": "Trockenbau, Malerarbeiten, Bodenverlegung und Terrassenbau in Germering – Baukonzepte Hermann. Jetzt unverbindlich anfragen.",
+    "nav": [
+      {
+        "label": "Leistungen",
+        "href": "#leistungen"
+      },
+      {
+        "label": "Projekte",
+        "href": "#projekte"
+      },
+      {
+        "label": "Bewertungen",
+        "href": "#bewertungen"
+      },
+      {
+        "label": "Ablauf",
+        "href": "#ablauf"
+      },
+      {
+        "label": "FAQ",
+        "href": "#faq"
+      },
+      {
+        "label": "Kontakt",
+        "href": "#kontakt"
+      }
+    ],
+    "hero": {
+      "eyebrow": "Trockenbau · Maler · Terrasse · Germering",
+      "headline": "Trockenbau, Malerarbeiten & Terrassenbau in Germering – aus einer Hand.",
+      "sub": "Baukonzepte Hermann baut Wände und Decken, streicht Räume, verlegt Böden und baut Ihre Terrasse – in Germering und Umgebung.",
+      "ctaPrimary": "Angebot anfragen",
+      "ctaSecondary": "Anrufen",
+      "bullets": [
+        "Innen und außen aus einer Hand",
+        "Auch Bodenverlegung und Entrümpelung",
+        "Direkt erreichbar per Handy"
+      ],
+      "imageLabel": "neu ausgebauter Raum mit frisch gestrichener Wand"
+    },
+    "badges": [
+      {
+        "title": "Trockenbau",
+        "sub": "Wände & Decken"
+      },
+      {
+        "title": "Malerarbeiten",
+        "sub": "frische Räume"
+      },
+      {
+        "title": "Terrassenbau",
+        "sub": "draußen genießen"
+      },
+      {
+        "title": "Germering",
+        "sub": "Untere Bahnhofstraße"
+      }
+    ],
+    "trust": [
+      {
+        "value": "5",
+        "label": "Leistungsbereiche"
+      },
+      {
+        "value": "Innen",
+        "label": "Ausbau, Wand, Boden"
+      },
+      {
+        "value": "Außen",
+        "label": "Terrassen"
+      },
+      {
+        "value": "Germering",
+        "label": "Sitz im Münchner Westen"
+      }
+    ],
+    "servicesIntro": {
+      "headline": "Vom Ausbau bis zur Terrasse",
+      "text": "Ein Betrieb für mehrere Gewerke: Trockenbau, Anstrich, Boden und Terrasse – dazu die Entrümpelung vorab."
+    },
+    "services": [
+      {
+        "title": "Trockenbau",
+        "text": "Neue Wände und Decken für mehr Raum und bessere Aufteilung.",
+        "items": [
+          "Ständerwände",
+          "Decken",
+          "Ausbau"
+        ]
+      },
+      {
+        "title": "Malerarbeiten",
+        "text": "Saubere Anstriche für Wohnung und Haus.",
+        "items": [
+          "Wände & Decken",
+          "Renovierung"
+        ]
+      },
+      {
+        "title": "Bodenverlegung",
+        "text": "Der passende Boden zum renovierten Raum.",
+        "items": [
+          "Bodenbeläge verlegen"
+        ]
+      },
+      {
+        "title": "Terrassenbau",
+        "text": "Neue Terrasse für Garten oder Haus.",
+        "items": [
+          "Terrassen bauen"
+        ]
+      },
+      {
+        "title": "Entrümpelung",
+        "text": "Räume werden vor der Renovierung freigeräumt.",
+        "items": [
+          "Wohnungen",
+          "Keller & Dachböden"
+        ]
+      }
+    ],
+    "why": {
+      "headline": "Mehrere Gewerke, ein Ansprechpartner.",
+      "points": [
+        {
+          "title": "Aus einer Hand",
+          "text": "Entrümpeln, ausbauen, streichen, Boden legen – ohne Koordinationsaufwand."
+        },
+        {
+          "title": "Innen & außen",
+          "text": "Neben dem Innenausbau auch Terrassen."
+        },
+        {
+          "title": "Schnell erreichbar",
+          "text": "Anfragen direkt per Handy oder WhatsApp."
+        },
+        {
+          "title": "Aus Germering",
+          "text": "Kurze Wege in Germering und Krailling."
+        }
+      ]
+    },
+    "reviews": {
+      "headline": "Was Kunden sagen",
+      "summary": "Kundenstimmen werden hier eingebunden, sobald sie aus dem Google-Eintrag übernommen sind.",
+      "highlights": [
+        "Trockenbau",
+        "Malerarbeiten",
+        "Terrassenbau",
+        "Sitz in Germering"
+      ],
+      "source": "Google",
+      "sourceUrl": "https://www.google.com/maps/search/?api=1&query=Baukonzepte%20Hermann%20Untere%20Bahnhofstr.%2056%20Germering",
+      "rating": null,
+      "count": null
+    },
+    "process": {
+      "headline": "So läuft Ihr Projekt",
+      "steps": [
+        {
+          "title": "Anfrage",
+          "text": "Fotos und Wünsche schicken – per WhatsApp oder Formular."
+        },
+        {
+          "title": "Besichtigung",
+          "text": "Umfang und Material werden vor Ort abgestimmt."
+        },
+        {
+          "title": "Angebot",
+          "text": "Sie erhalten ein klares Angebot."
+        },
+        {
+          "title": "Ausführung",
+          "text": "Saubere Arbeit und ordentliche Übergabe."
+        }
+      ]
+    },
+    "gallery": {
+      "headline": "Projekte",
+      "text": "Für die Live-Version zeigen wir hier echte Projekte des Betriebs.",
+      "items": [
+        {
+          "title": "Trockenbau",
+          "photoNeeded": "neu gestellte Trennwand"
+        },
+        {
+          "title": "Anstrich",
+          "photoNeeded": "frisch gestrichenes Zimmer"
+        },
+        {
+          "title": "Neuer Boden",
+          "photoNeeded": "frisch verlegter Boden"
+        },
+        {
+          "title": "Terrasse",
+          "photoNeeded": "fertige Terrasse am Haus"
+        }
+      ]
+    },
+    "region": {
+      "headline": "Für Germering und Umgebung",
+      "text": "Baukonzepte Hermann arbeitet von Germering aus – auch in Krailling und den Nachbarorten.",
+      "places": [
+        "Germering",
+        "Krailling",
+        "Puchheim",
+        "Gilching",
+        "Planegg",
+        "Gräfelfing"
+      ]
+    },
+    "faq": [
+      {
+        "q": "Machen Sie auch Terrassen?",
+        "a": "Ja, Terrassenbau gehört zum Angebot."
+      },
+      {
+        "q": "Kann ich per WhatsApp anfragen?",
+        "a": "Gern – schicken Sie Fotos an die Mobilnummer."
+      },
+      {
+        "q": "Räumen Sie vor der Renovierung auch aus?",
+        "a": "Ja, Entrümpelung wird ebenfalls angeboten."
+      },
+      {
+        "q": "Verlegen Sie auch Böden?",
+        "a": "Ja, Bodenverlegung gehört zum Leistungsumfang."
+      }
+    ],
+    "contact": {
+      "headline": "Ihr Angebot – unverbindlich",
+      "text": "Beschreiben Sie kurz Ihr Vorhaben. Fotos helfen bei der Einschätzung.",
+      "topics": [
+        "Trockenbau",
+        "Malerarbeiten",
+        "Bodenverlegung",
+        "Terrassenbau",
+        "Entrümpelung",
+        "Sonstiges"
+      ],
+      "responseNote": "Besichtigung nach Absprache."
+    },
+    "quote": {
+      "sizeLabel": "Was soll gemacht werden?",
+      "sizes": [
+        "Ein Raum",
+        "Mehrere Räume / Wohnung",
+        "Ganzes Haus",
+        "Terrasse / Außenbereich"
+      ],
+      "timings": [
+        "So bald wie möglich",
+        "In den nächsten Wochen",
+        "In 1–3 Monaten",
+        "Ich plane erst noch"
+      ]
+    },
+    "stickyCta": "Angebot anfragen"
+  }
+}
