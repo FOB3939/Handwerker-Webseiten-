@@ -1,0 +1,313 @@
+{
+  "id": "2026-10-18-16",
+  "slug": "buchner-hausmeisterservice-sindelsdorf",
+  "date": "2026-10-18",
+  "company": {
+    "name": "Georg Buchner Hausmeisterservice",
+    "owner": "Georg Buchner",
+    "trade": "Hausmeisterservice & Gartenpflege",
+    "city": "Sindelsdorf",
+    "address": "Hauptstr. 8, 82404 Sindelsdorf",
+    "phone": "08856 2285",
+    "email": null,
+    "serviceArea": [
+      "Sindelsdorf",
+      "Penzberg",
+      "Weilheim i. OB",
+      "Polling",
+      "Habach",
+      "Spatzenhausen",
+      "Eglfing"
+    ]
+  },
+  "listings": {
+    "google": {
+      "url": "https://www.google.com/maps/search/?api=1&query=Georg%20Buchner%20Hausmeister%20Hauptstr.%208%20Sindelsdorf",
+      "rating": null,
+      "reviews": null,
+      "evidence": "NICHT VERIFIZIERT – Google/Google Maps war aus der Recherche-Umgebung nicht erreichbar und die Websuche lieferte keinen Maps-Treffer. Vor Kontaktaufnahme manuell prüfen (Existenz, Bewertungen, KEINE hinterlegte Website)."
+    },
+    "myhammer": {
+      "url": "https://www.my-hammer.de/reinigung/hausmeisterservice-berufe/polling-weilheim-schongau",
+      "rating": 4.8,
+      "reviews": 94,
+      "evidence": "Georg Buchner Hausmeisterservice auf der MyHammer-Ortsliste Hausmeisterservice Polling (Weilheim-Schongau) mit 4,8 von 5 bei 94 Bewertungen; auf weiteren Ortslisten (Habach, Spatzenhausen, Eglfing, Hohenpeißenberg, Peißenberg) 4,8 bei je nach Seitenstand ca. 84–102 Bewertungen. Konservativ mit 94 angesetzt. Eigene Profil-URL nicht abrufbar."
+    }
+  },
+  "websiteStatus": "keine eigene Website gefunden",
+  "websiteChecks": [
+    "(1) \"Georg Buchner Hausmeisterservice\" – nur MyHammer-Ortslisten (Polling, Habach, Spatzenhausen, Eglfing u. a.), keine eigene Website",
+    "(2) Georg Buchner Hausmeisterservice Polling mit blocked_domains (MyHammer, 11880, Gelbe Seiten, Das Örtliche, Das Telefonbuch, Cylex, meinestadt, Creditreform, firmenwissen, northdata, Facebook, Instagram, golocal) – nur hausmeisterdienste.net-Eintrag „Georg Buchner Hausmeistertätigkeiten“ in Sindelsdorf, sonst nur fremde Betriebe gleichen Namens (Österreich, Feldkirchen)",
+    "(3) allowed_domains buchner-hausmeisterservice.de, hausmeisterservice-buchner.de, hausmeister-buchner.de, buchner-hausmeister.de, georg-buchner.de – keine Ergebnisse (Domains nicht indexiert)",
+    "(4) Verzeichnis hausmeisterdienste.net: „Georg Buchner Hausmeistertätigkeiten, Herr Georg Buchner, Hauptstr. 8, 82404 Sindelsdorf, 08856 2285“ – keine Website und keine E-Mail-Adresse genannt; Das Örtliche ohne eigenen Firmeneintrag",
+    "Website-Risiko: mittel – alle vier Prüfungen negativ, aber kein positiver Beleg (keine Freemail-Adresse, Website-Feld im Verzeichnis nicht ausdrücklich leer belegt)"
+  ],
+  "facts": {
+    "services": [
+      "Hausmeistertätigkeiten",
+      "Gartenhilfe",
+      "Rasenmähen",
+      "Heckenschnitt",
+      "Entsorgung von Gartenabfällen",
+      "Entrümpelungen",
+      "Winterdienst",
+      "Kaminholz sägen und spalten",
+      "Abbau von Gartenhäusern"
+    ],
+    "experience": null,
+    "praisedFor": [
+      "zuverlässig",
+      "freundlich",
+
+      "saubere und schnelle Arbeit",
+      "strukturiertes Arbeiten ohne Hektik (Gartenhausabbau)",
+      "Kaminholz aus Holzstämmen gesägt und gespalten"
+    ]
+  },
+  "strategy": {
+    "audience": "Hausbesitzer, ältere Eigentümer und Vermieter rund um Sindelsdorf, Penzberg und Weilheim, die Hilfe bei Garten, Winterdienst und kleinen Arbeiten rund ums Haus suchen",
+    "mainService": "Hausmeisterservice mit Gartenpflege: Rasenmähen, Heckenschnitt, Gartenabfälle, Winterdienst",
+    "trustSignal": "4,8 Sterne bei über 90 MyHammer-Bewertungen",
+    "conversionGoal": "Anruf oder Anfrage für Garten- und Hausmeisterhilfe (Leistung, Grundstücksgröße, Häufigkeit)",
+    "visualConcept": "Gepflegte Objekt-Optik: ordentliches Haus mit gemähtem Rasen und geschnittener Hecke als Leitmotiv, ruhige Farben, klare Leistungsblöcke"
+  },
+  "sales": {
+    "score": 7,
+    "whyGoodLead": [
+      "Über 90 MyHammer-Bewertungen mit 4,8 Sternen – sehr belastbare Reputation für einen Einzelbetrieb",
+      "Wiederkehrende Leistungen (Rasen, Hecke, Winterdienst) – eine Website bringt Daueraufträge statt Einzelanfragen",
+      "Kunden loben Zuverlässigkeit und Freundlichkeit – ideale Texte für Vertrauensaufbau bei älteren Eigentümern",
+      "Nur Verzeichnis- und Plattformeinträge, keine eigene Website gefunden"
+    ],
+    "pitch": "Guten Tag Herr Buchner, mein Name ist … – ich erstelle Websites für Handwerks- und Servicebetriebe zwischen Penzberg und Weilheim. Ich habe gesehen, dass Sie auf MyHammer über 90 Bewertungen mit 4,8 Sternen haben, aber noch keine eigene Website, über die Kunden aus der Umgebung Sie direkt für Garten, Winterdienst und Hausmeisterarbeiten finden. Ich habe dafür unverbindlich einen Entwurf vorbereitet – darf ich Ihnen den Link schicken?"
+  },
+  "manualChecks": [
+    "Website-Risiko: mittel – vor Versand in Google Maps prüfen, dass keine Website hinterlegt ist",
+    "Bewertungszahl prüfen: je nach MyHammer-Ortsseite 84–102 Bewertungen – liegt an der 100er-Grenze; aktuellen Stand im Profil bestätigen",
+    "MyHammer-Profil im Browser öffnen und Profil-URL nachtragen (aktuell nur Ortsliste Polling belegt)",
+    "Kritische Bewertung beachten: Kunde aus Spatzenhausen (August 2025) meldet, der Anbieter sei nach Auftragserteilung nicht mehr erreichbar gewesen – vor dem Gespräch lesen",
+    "Telefonnummer 08856 2285 (Festnetz, Verzeichnis hausmeisterdienste.net) vor Anruf prüfen; Das Örtliche führt unter Hauptstr. 8 „Buchner Anton“ – möglicherweise Familienanschluss",
+    "Kontaktwege laut MyHammer-Ortsliste: Telefon, WhatsApp, SMS, E-Mail, erreichbar 8–20 Uhr – E-Mail-Adresse und Mobilnummer nicht öffentlich gefunden, beim Erstkontakt erfragen",
+    "Einsatzgebiet bestätigen: Sitz Sindelsdorf (bei Penzberg), MyHammer listet ihn auf Ortsseiten im Raum Weilheim/Penzberg",
+    "Echtes Logo: nicht gefunden – beim Betrieb als Datei anfragen"
+  ],
+  "sources": [
+    {
+      "label": "MyHammer – Hausmeisterservice Polling (Weilheim-Schongau)",
+      "url": "https://www.my-hammer.de/reinigung/hausmeisterservice-berufe/polling-weilheim-schongau"
+    },
+    {
+      "label": "MyHammer – Gärtner Spatzenhausen",
+      "url": "https://www.my-hammer.de/garten-aussenbereich/gaertner-berufe/spatzenhausen"
+    },
+    {
+      "label": "MyHammer – Gärtner Habach",
+      "url": "https://www.my-hammer.de/garten-aussenbereich/gaertner-berufe/habach"
+    },
+    {
+      "label": "hausmeisterdienste.net – Georg Buchner Hausmeistertätigkeiten Sindelsdorf",
+      "url": "https://www.hausmeisterdienste.net/sindelsdorf/georg-buchner-hausmeisterttigkeiten-aUNQm6"
+    }
+  ],
+  "site": {
+    "theme": "objekt",
+    "category": "handwerk",
+    "heroOffer": ["Rasenmähen", "Heckenschnitt", "Winterdienst", "Entrümpelung"],
+    "scene": "facade",
+    "logoIcon": "house",
+    "logoMark": "GB",
+    "brandName": "Buchner Hausmeisterservice",
+    "seoTitle": "Hausmeisterservice Sindelsdorf & Penzberg – Georg Buchner",
+    "seoDescription": "Rasenmähen, Heckenschnitt, Gartenabfälle, Winterdienst, Entrümpelung und Hausmeistertätigkeiten – Georg Buchner aus Sindelsdorf für Penzberg, Weilheim und Umgebung. 4,8 Sterne auf MyHammer.",
+    "nav": [
+      { "label": "Leistungen", "href": "#leistungen" },
+      { "label": "Bewertungen", "href": "#bewertungen" },
+      { "label": "Ablauf", "href": "#ablauf" },
+      { "label": "Region", "href": "#region" },
+      { "label": "FAQ", "href": "#faq" },
+      { "label": "Kontakt", "href": "#kontakt" }
+    ],
+    "hero": {
+      "eyebrow": "Hausmeisterservice · Sindelsdorf",
+      "headline": "Hausmeisterservice und Gartenpflege – Ihr Grundstück in guten Händen.",
+      "sub": "Georg Buchner mäht Rasen, schneidet Hecken, entsorgt Gartenabfälle, räumt im Winter und hilft bei Entrümpelung und Arbeiten rund ums Haus – für Eigentümer in Sindelsdorf, Penzberg, Weilheim und Umgebung.",
+      "ctaPrimary": "Unverbindlich anfragen",
+      "ctaSecondary": "Anrufen",
+      "bullets": [
+        "4,8 von 5 Sternen bei über 90 Bewertungen auf MyHammer",
+        "Garten, Winterdienst und Hausmeisterarbeiten aus einer Hand",
+        "Aus Sindelsdorf für Penzberg, Weilheim und Umgebung"
+      ],
+      "imageLabel": "gepflegtes Wohnhaus mit frisch gemähtem Rasen und geschnittener Hecke"
+    },
+    "badges": [
+      { "title": "4,8 ★ auf MyHammer", "sub": "aus über 90 Bewertungen" },
+      { "title": "Garten & Hecke", "sub": "Rasenmähen, Heckenschnitt" },
+      { "title": "Winterdienst", "sub": "Räumen in der kalten Jahreszeit" },
+      { "title": "Sindelsdorf", "sub": "zwischen Penzberg und Weilheim" }
+    ],
+    "trust": [
+      { "value": "4,8 ★", "label": "Durchschnitt auf MyHammer" },
+      { "value": "90+", "label": "Bewertungen von Auftraggebern" },
+      { "value": "Ganzjährig", "label": "Garten im Sommer, Winterdienst im Winter" },
+      { "value": "Sindelsdorf", "label": "Betrieb bei Penzberg" }
+    ],
+    "servicesIntro": {
+      "headline": "Hilfe rund um Haus und Garten",
+      "text": "Vom Rasen im Sommer bis zum Schnee im Winter: Georg Buchner übernimmt die Arbeiten, die rund ums Grundstück anfallen – zuverlässig und ohne großen Aufwand für Sie."
+    },
+    "services": [
+      {
+        "title": "Rasenmähen",
+        "text": "Ihr Rasen wird regelmäßig oder nach Bedarf gemäht – damit das Grundstück immer gepflegt aussieht.",
+        "items": ["Rasenmähen", "Regelmäßig oder einmalig", "Gartenhilfe"]
+      },
+      {
+        "title": "Heckenschnitt",
+        "text": "Hecken und Sträucher werden in Form gebracht, der Schnitt wird anschließend entsorgt.",
+        "items": ["Heckenschnitt", "Sträucher", "Grünschnitt"]
+      },
+      {
+        "title": "Gartenabfälle entsorgen",
+        "text": "Laub, Grünschnitt und Gartenabfälle werden abgeholt und entsorgt – Sie müssen nichts selbst wegfahren.",
+        "items": ["Grünschnitt", "Laub", "Gartenabfälle"]
+      },
+      {
+        "title": "Winterdienst",
+        "text": "Wenn Schnee fällt, werden Wege und Zufahrten geräumt – damit Sie und Ihre Besucher sicher ankommen.",
+        "items": ["Schneeräumen", "Wege", "Zufahrten"]
+      },
+      {
+        "title": "Entrümpelung",
+        "text": "Keller, Dachboden oder Schuppen werden ausgeräumt; Kunden beauftragten auch den Abbau eines Gartenhauses.",
+        "items": ["Entrümpelung", "Gartenhaus-Abbau", "Entsorgung"]
+      },
+      {
+        "title": "Hausmeistertätigkeiten",
+        "text": "Kleine Arbeiten rund ums Haus – bis hin zu Kaminholz, das aus Stämmen gesägt und gespalten wird.",
+        "items": ["Hausmeisterarbeiten", "Kaminholz sägen & spalten", "Hilfe rund ums Haus"]
+      }
+    ],
+    "why": {
+      "headline": "Zuverlässig, freundlich, sauber.",
+      "points": [
+        {
+          "title": "Über 90 Bewertungen",
+          "text": "Auf MyHammer bewerten Auftraggeber Georg Buchner mit durchschnittlich 4,8 von 5 Sternen."
+        },
+        {
+          "title": "Zuverlässig & freundlich",
+          "text": "Kunden heben in ihren Bewertungen immer wieder Zuverlässigkeit und Freundlichkeit hervor."
+        },
+        {
+          "title": "Sauber und schnell",
+          "text": "Auftraggeber loben saubere, zügige Arbeit – beim Gartenhausabbau „strukturiert und ohne Hektik“."
+        },
+        {
+          "title": "Ein Ansprechpartner",
+          "text": "Garten, Winterdienst, Entrümpelung und Hausmeisterarbeiten – alles über einen Kontakt."
+        }
+      ]
+    },
+    "reviews": {
+      "headline": "Was Auftraggeber sagen",
+      "summary": "Auftraggeber beschreiben Georg Buchner als zuverlässig und freundlich und loben saubere, schnelle Arbeit. Ein Kunde ließ Holzstämme zu Kaminholz sägen und spalten, ein anderer lobte den strukturierten Abbau eines Gartenhauses – ohne Hektik.",
+      "highlights": [
+        "Zuverlässig",
+        "Freundlich",
+        "Saubere, schnelle Arbeit",
+        "Strukturiert und ohne Hektik"
+      ],
+      "source": "MyHammer",
+      "sourceUrl": "https://www.my-hammer.de/reinigung/hausmeisterservice-berufe/polling-weilheim-schongau",
+      "rating": 4.8,
+      "count": 94
+    },
+    "process": {
+      "headline": "So einfach bekommen Sie Hilfe",
+      "steps": [
+        { "title": "Anfrage", "text": "Kurz anrufen oder schreiben, welche Arbeit ansteht – gern mit Fotos." },
+        { "title": "Absprache", "text": "Wir klären Umfang, Grundstück und ob einmalig oder regelmäßig." },
+        { "title": "Angebot", "text": "Sie erhalten eine klare Einschätzung von Aufwand und Kosten." },
+        { "title": "Erledigt", "text": "Die Arbeit wird zuverlässig ausgeführt – Rasen, Hecke, Schnee oder Entrümpelung." }
+      ]
+    },
+    "gallery": {
+      "headline": "Gepflegte Grundstücke im Oberland",
+      "text": "Für die Live-Version zeigen wir hier echte Einsätze von Georg Buchner – idealerweise Vorher-/Nachher-Bilder desselben Grundstücks.",
+      "items": [
+        { "title": "Rasen gemäht", "photoNeeded": "frisch gemähte Rasenfläche vor einem Wohnhaus" },
+        { "title": "Hecke geschnitten", "photoNeeded": "Hecke vor und nach dem Schnitt" },
+        { "title": "Winterdienst", "photoNeeded": "geräumte Zufahrt oder Gehweg im Schnee" },
+        { "title": "Kaminholz", "photoNeeded": "gesägtes und gespaltenes Kaminholz, gestapelt" },
+        { "title": "Entrümpelung", "photoNeeded": "geräumter Keller oder abgebautes Gartenhaus" }
+      ]
+    },
+    "region": {
+      "headline": "Hausmeisterservice zwischen Penzberg und Weilheim",
+      "text": "Von Sindelsdorf aus ist Georg Buchner schnell in Penzberg, Habach, Spatzenhausen, Eglfing, Polling, Weilheim und bis Murnau – für Privathäuser ebenso wie für Vermieter.",
+      "places": [
+        "Sindelsdorf",
+        "Penzberg",
+        "Weilheim i. OB",
+        "Polling",
+        "Habach",
+        "Spatzenhausen",
+        "Eglfing",
+        "Murnau a. Staffelsee"
+      ]
+    },
+    "faq": [
+      {
+        "q": "Kommen Sie regelmäßig oder auch einmalig?",
+        "a": "Beides ist möglich – ob einmaliger Heckenschnitt oder regelmäßiges Rasenmähen, das stimmen wir gemeinsam ab."
+      },
+      {
+        "q": "Nehmen Sie den Grünschnitt mit?",
+        "a": "Ja, die Entsorgung von Gartenabfällen gehört zum Angebot."
+      },
+      {
+        "q": "Bieten Sie Winterdienst an?",
+        "a": "Ja. Wege und Zufahrten werden bei Schnee geräumt – Details zu Umfang und Einsatzzeiten besprechen wir vorab."
+      },
+      {
+        "q": "Helfen Sie auch bei Entrümpelungen?",
+        "a": "Ja, Entrümpelungen gehören dazu – Kunden haben z. B. auch den Abbau eines Gartenhauses beauftragt."
+      },
+      {
+        "q": "Wie erreiche ich Sie am besten?",
+        "a": "Am einfachsten telefonisch. Schildern Sie kurz die Arbeit und Ihren Ort – wir melden uns mit einer Einschätzung."
+      }
+    ],
+    "contact": {
+      "headline": "Hilfe für Haus und Garten anfragen",
+      "text": "Beschreiben Sie kurz, was ansteht: Leistung, ungefähre Grundstücksgröße und ob einmalig oder regelmäßig. Fotos helfen bei der Einschätzung.",
+      "topics": [
+        "Rasenmähen",
+        "Heckenschnitt",
+        "Gartenabfälle",
+        "Winterdienst",
+        "Entrümpelung",
+        "Kaminholz",
+        "Sonstiges"
+      ],
+      "responseNote": "Termin nach Absprache."
+    },
+    "quote": {
+      "sizeLabel": "Wie groß ist das Grundstück?",
+      "sizes": [
+        "Kleiner Garten (bis ca. 300 m²)",
+        "Mittleres Grundstück (300–800 m²)",
+        "Großes Grundstück (über 800 m²)",
+        "Wohnanlage / Mehrfamilienhaus"
+      ],
+      "timings": [
+        "Einmalig, so bald wie möglich",
+        "Regelmäßig (z. B. Rasen/Hecke)",
+        "Für den Winterdienst",
+        "Ich plane erst noch"
+      ]
+    },
+    "stickyCta": "Jetzt anfragen"
+  }
+}

@@ -1,0 +1,394 @@
+{
+  "id": "2026-10-18-11",
+  "slug": "malermeister-yanko-unterhaching",
+  "date": "2026-10-18",
+  "company": {
+    "name": "Malermeister Yanko",
+    "owner": "Julian Yanko",
+    "trade": "Maler & Lackierer",
+    "city": "Unterhaching",
+    "address": "Rathausplatz 4, 82008 Unterhaching",
+    "phone": "01590 1809565",
+    "email": null,
+    "serviceArea": [
+      "Unterhaching",
+      "Taufkirchen",
+      "Oberhaching",
+      "Neubiberg",
+      "Ottobrunn",
+      "München-Perlach"
+    ]
+  },
+  "listings": {
+    "google": {
+      "url": "https://www.google.com/maps/search/?api=1&query=Malermeister%20Yanko%20Rathausplatz%204%20Unterhaching",
+      "rating": null,
+      "reviews": null,
+      "evidence": "NICHT VERIFIZIERT – Google/Google Maps war aus der Recherche-Umgebung nicht erreichbar und die Websuche lieferte keinen Maps-Treffer. Vor Kontaktaufnahme manuell prüfen (Existenz, Bewertungen, KEINE hinterlegte Website)."
+    },
+    "myhammer": {
+      "url": "https://www.my-hammer.de/auftragnehmer/malermeister-yanko",
+      "rating": null,
+      "reviews": null,
+      "evidence": "MyHammer-Profil „Profil von Malermeister Yanko in Unterhaching“ in Suchergebnissen belegt (auch auf der Unterhaching-Ortsliste Maler & Lackierer). Profiltext: junger Malermeister Julian, kürzlich selbstständig; Maler- und Verputzarbeiten, Bodenlegearbeiten, Tapezierarbeiten, exklusive Spachteltechniken. Sternewertung und Bewertungsanzahl waren in den Snippets nicht sichtbar – daher null."
+    }
+  },
+  "websiteStatus": "keine eigene Website gefunden",
+  "websiteChecks": [
+    "(1) \"Malermeister Yanko\" / Malermeister Yanko Unterhaching Bewertungen (MyHammer) – nur MyHammer-Profil und Ortslisten",
+    "(2) Malermeister Yanko Unterhaching Maler mit blocked_domains (MyHammer, 11880, Gelbe Seiten, Das Örtliche, Das Telefonbuch, Cylex, meinestadt, Creditreform, Firmenwissen, Northdata, Facebook, Instagram, golocal) – kein Treffer zum Betrieb, nur andere Unterhachinger Malerbetriebe (Lindermeier, MR Maler, Zenglein, Dein Maler München)",
+    "(3) allowed_domains malermeister-yanko.de, maler-yanko.de, yanko-maler.de, malermeisteryanko.de, yanko.de – keine Ergebnisse",
+    "(4) Verzeichnissuche (11880/Cylex/meinestadt/Das Örtliche/Gelbe Seiten/golocal): 11880-Eintrag „Malermeister Julian Yanko“, Maler, Tapezierer & Renovierung, Rathausplatz 4, 82008 Unterhaching, Tel. (01590) 1809565 – laut Snippet keine Website genannt, E-Mail nicht sichtbar",
+    "Website-Risiko: mittel – alle Suchen negativ, aber kein positiver Beleg (keine Freemail-Adresse, leeres Website-Feld nicht sicher bestätigt); Betrieb laut Profil erst kürzlich gegründet"
+  ],
+  "facts": {
+    "services": [
+      "Malerarbeiten",
+      "Verputzarbeiten",
+      "Tapezierarbeiten",
+      "Exklusive Spachteltechniken",
+      "Bodenlegearbeiten"
+    ],
+    "experience": null,
+    "praisedFor": []
+  },
+  "strategy": {
+    "audience": "Mieter, Wohnungs- und Hauseigentümer in Unterhaching, Taufkirchen, Oberhaching und im Münchner Südosten, die Räume streichen, tapezieren oder neu gestalten lassen wollen",
+    "mainService": "Malerarbeiten innen inkl. Verputz, Tapete und Spachteltechnik",
+    "trustSignal": "Meisterbetrieb – der Malermeister arbeitet selbst (Inhaber Julian Yanko)",
+    "conversionGoal": "Kostenloses Angebot für Malerarbeiten anfragen (mit Fotos und Raumgrößen)",
+    "visualConcept": "Helles Atelier-Gefühl: frisch gestrichene Wände, Farbmuster und Spachteloberflächen in warmem Licht – jung, präzise, meisterlich"
+  },
+  "sales": {
+    "score": 6,
+    "whyGoodLead": [
+      "Junger, frisch selbstständiger Malermeister – braucht jetzt Sichtbarkeit und erste Stammkunden",
+      "Keine eigene Website gefunden, nur MyHammer-Profil und Verzeichniseintrag",
+      "Breites Angebot (Malern, Verputz, Tapete, Spachteltechnik, Boden) – ideal für eine Leistungsseite mit lokalen Suchbegriffen",
+      "Zentrale Adresse in Unterhaching, kurze Wege in den ganzen Münchner Südosten"
+    ],
+    "pitch": "Guten Tag Herr Yanko, mein Name ist … – ich erstelle Websites für Handwerksbetriebe im Münchner Süden. Ich habe gesehen, dass Sie sich als Malermeister in Unterhaching selbstständig gemacht haben und auf MyHammer Maler-, Verputz- und Spachtelarbeiten anbieten, aber noch keine eigene Website haben. Ich habe dafür unverbindlich einen Entwurf vorbereitet, der genau diese Leistungen zeigt – darf ich Ihnen den Link schicken?"
+  },
+  "manualChecks": [
+    "Website-Risiko: mittel – vor Versand in Google Maps prüfen, dass keine Website hinterlegt ist",
+    "Google-Eintrag in Maps prüfen (Existenz, Bewertungen)",
+    "MyHammer-Profil https://www.my-hammer.de/auftragnehmer/malermeister-yanko im Browser öffnen: Anzahl/Schnitt der Bewertungen nachtragen (aktuell null) und Lob-Punkte für why/reviews übernehmen",
+    "Telefonnummer (01590) 1809565 aus 11880 vor Anruf prüfen; E-Mail-Adresse unbekannt",
+    "Einsatzgebiet (Orte in serviceArea/region) beim Betrieb bestätigen – nur Unterhaching als Sitz belegt",
+    "Meistertitel ist Selbstangabe im MyHammer-Profil – Gründungsjahr/Meisterjahr nicht belegt, daher nicht auf der Seite genannt",
+    "Echtes Logo und Projektfotos: nicht gefunden – beim Betrieb anfragen"
+  ],
+  "sources": [
+    {
+      "label": "MyHammer – Profil Malermeister Yanko",
+      "url": "https://www.my-hammer.de/auftragnehmer/malermeister-yanko"
+    },
+    {
+      "label": "MyHammer – Maler und Lackierer in Unterhaching",
+      "url": "https://www.my-hammer.de/malerarbeiten-tapezieren/maler-lackierer-berufe/unterhaching"
+    },
+    {
+      "label": "11880 – Maler Unterhaching (Eintrag Malermeister Julian Yanko)",
+      "url": "https://www.11880.com/suche/maler/unterhaching"
+    }
+  ],
+  "site": {
+    "theme": "atelier",
+    "category": "handwerk",
+    "heroOffer": [
+      "Wände & Decken",
+      "Verputz",
+      "Tapezieren",
+      "Spachteltechnik"
+    ],
+    "scene": "paint",
+    "logoIcon": "roller",
+    "logoMark": "MY",
+    "brandName": "Malermeister Yanko",
+    "seoTitle": "Malermeister in Unterhaching – Malermeister Yanko",
+    "seoDescription": "Malerarbeiten, Verputz, Tapezieren, exklusive Spachteltechniken und Bodenlegearbeiten vom Malermeister aus Unterhaching. Jetzt kostenloses Angebot anfragen.",
+    "nav": [
+      {
+        "label": "Leistungen",
+        "href": "#leistungen"
+      },
+      {
+        "label": "Projekte",
+        "href": "#projekte"
+      },
+      {
+        "label": "Bewertungen",
+        "href": "#bewertungen"
+      },
+      {
+        "label": "Ablauf",
+        "href": "#ablauf"
+      },
+      {
+        "label": "FAQ",
+        "href": "#faq"
+      },
+      {
+        "label": "Kontakt",
+        "href": "#kontakt"
+      }
+    ],
+    "hero": {
+      "eyebrow": "Maler & Lackierer · Unterhaching",
+      "headline": "Malerarbeiten vom Meister – frische Wände, saubere Übergänge.",
+      "sub": "Malermeister Julian Yanko streicht, verputzt und tapeziert Ihre Räume in Unterhaching und im Münchner Südosten – und gestaltet Wände mit exklusiven Spachteltechniken. Auf Wunsch kommt der neue Boden gleich mit.",
+      "ctaPrimary": "Kostenloses Angebot anfragen",
+      "ctaSecondary": "Anrufen",
+      "bullets": [
+        "Meisterbetrieb – der Chef arbeitet selbst",
+        "Malern, Verputz, Tapete und Spachteltechnik aus einer Hand",
+        "Sitz am Rathausplatz in Unterhaching"
+      ],
+      "imageLabel": "frisch gestrichene Wand mit Malerrolle und Farbmustern"
+    },
+    "badges": [
+      {
+        "title": "Meisterbetrieb",
+        "sub": "Malermeister Julian Yanko"
+      },
+      {
+        "title": "Spachteltechniken",
+        "sub": "exklusive Wandoberflächen"
+      },
+      {
+        "title": "Alles aus einer Hand",
+        "sub": "Wand, Tapete und Boden"
+      },
+      {
+        "title": "Unterhaching",
+        "sub": "Rathausplatz 4"
+      }
+    ],
+    "trust": [
+      {
+        "value": "Meister",
+        "label": "Inhaber führt selbst aus"
+      },
+      {
+        "value": "5",
+        "label": "Leistungsbereiche aus einer Hand"
+      },
+      {
+        "value": "Innen",
+        "label": "Wände, Decken, Böden"
+      },
+      {
+        "value": "Unterhaching",
+        "label": "Betrieb im Münchner Südosten"
+      }
+    ],
+    "servicesIntro": {
+      "headline": "Ihre Räume – sauber gemalert und neu gestaltet",
+      "text": "Vom klassischen Anstrich bis zur edlen Spachteloberfläche: Ein Malermeister, der Untergrund, Farbe und Detail im Blick hat – und auf Wunsch auch den Boden verlegt."
+    },
+    "services": [
+      {
+        "title": "Wände & Decken streichen",
+        "text": "Gleichmäßige, saubere Anstriche für Wohnräume, Treppenhaus oder einzelne Zimmer – mit ordentlichen Kanten und Übergängen.",
+        "items": [
+          "Wandanstrich",
+          "Deckenanstrich",
+          "Einzelne Zimmer oder ganze Wohnung"
+        ]
+      },
+      {
+        "title": "Verputzarbeiten",
+        "text": "Unebene oder beschädigte Wände werden verputzt und für den neuen Anstrich vorbereitet.",
+        "items": [
+          "Innenputz",
+          "Ausbessern",
+          "Untergrund vorbereiten"
+        ]
+      },
+      {
+        "title": "Tapezierarbeiten",
+        "text": "Neue Tapeten, sauber und stoßgenau angebracht – vom Raufaser bis zur Designtapete.",
+        "items": [
+          "Tapezieren",
+          "Alte Tapete entfernen",
+          "Akzentwände"
+        ]
+      },
+      {
+        "title": "Exklusive Spachteltechniken",
+        "text": "Edle, fugenlose Wandoberflächen mit Tiefe – für Wohnzimmer, Flur oder Gewerberäume, die besonders wirken sollen.",
+        "items": [
+          "Spachteltechnik",
+          "Dekorative Wandgestaltung",
+          "Akzentflächen"
+        ]
+      },
+      {
+        "title": "Bodenlegearbeiten",
+        "text": "Zum frisch gestalteten Raum der passende Boden – verlegt vom selben Handwerker.",
+        "items": [
+          "Bodenbeläge verlegen",
+          "Abschluss zur Wand",
+          "Koordination aus einer Hand"
+        ]
+      },
+      {
+        "title": "Renovierung aus einer Hand",
+        "text": "Wand, Tapete und Boden in einem Auftrag: ein Ansprechpartner, eine Planung, ein stimmiges Ergebnis.",
+        "items": [
+          "Wohnungsrenovierung",
+          "Auszug / Einzug",
+          "Ein Ansprechpartner"
+        ]
+      }
+    ],
+    "why": {
+      "headline": "Ein Meister, der selbst Hand anlegt.",
+      "points": [
+        {
+          "title": "Meisterqualität",
+          "text": "Julian Yanko ist Malermeister – Ihr Auftrag wird von jemandem ausgeführt, der das Handwerk von Grund auf gelernt hat."
+        },
+        {
+          "title": "Direkter Draht",
+          "text": "Als junger Einzelbetrieb sprechen Sie direkt mit dem Inhaber – von der Anfrage bis zur Abnahme."
+        },
+        {
+          "title": "Mehr als Anstrich",
+          "text": "Verputz, Tapete, Spachteltechnik und Boden gehören zum Angebot – Sie müssen nicht mehrere Betriebe koordinieren."
+        },
+        {
+          "title": "Aus Unterhaching",
+          "text": "Mit Sitz am Rathausplatz ist der Betrieb schnell vor Ort – in Unterhaching und den Nachbargemeinden."
+        }
+      ]
+    },
+    "reviews": {
+      "headline": "Was Kunden sagen",
+      "summary": "Malermeister Yanko ist auf MyHammer gelistet. Kundenstimmen werden hier eingebunden, sobald sie aus dem Profil übernommen sind.",
+      "highlights": [
+        "Meisterbetrieb",
+        "Direkter Kontakt zum Inhaber",
+        "Malern, Verputz, Tapete, Boden",
+        "Sitz in Unterhaching"
+      ],
+      "source": "MyHammer",
+      "sourceUrl": "https://www.my-hammer.de/auftragnehmer/malermeister-yanko",
+      "rating": null,
+      "count": null
+    },
+    "process": {
+      "headline": "In vier Schritten zu frischen Wänden",
+      "steps": [
+        {
+          "title": "Anfrage",
+          "text": "Fotos und ungefähre Raumgrößen schicken – oder kurz anrufen."
+        },
+        {
+          "title": "Besichtigung",
+          "text": "Untergrund, Wunschoberfläche und Umfang werden vor Ort abgestimmt."
+        },
+        {
+          "title": "Angebot",
+          "text": "Sie erhalten ein klares Angebot – Anstrich, Tapete, Spachteltechnik oder Boden."
+        },
+        {
+          "title": "Ausführung",
+          "text": "Abdecken, vorbereiten, malern – und ein sauber übergebener Raum."
+        }
+      ]
+    },
+    "gallery": {
+      "headline": "Räume, die neu wirken",
+      "text": "Für die Live-Version zeigen wir hier echte Projekte des Betriebs – idealerweise als Vorher-/Nachher-Paare.",
+      "items": [
+        {
+          "title": "Frisch gestrichen",
+          "photoNeeded": "hell gestrichenes Wohnzimmer mit sauberen Kanten"
+        },
+        {
+          "title": "Spachteltechnik",
+          "photoNeeded": "Nahaufnahme einer edlen Spachteloberfläche im Streiflicht"
+        },
+        {
+          "title": "Neue Tapete",
+          "photoNeeded": "tapezierte Akzentwand im Schlaf- oder Wohnzimmer"
+        },
+        {
+          "title": "Verputz",
+          "photoNeeded": "ausgebesserte und verputzte Wand vor dem Anstrich"
+        },
+        {
+          "title": "Neuer Boden",
+          "photoNeeded": "frisch verlegter Boden in einem renovierten Raum"
+        }
+      ]
+    },
+    "region": {
+      "headline": "Ihr Malermeister für Unterhaching und den Münchner Südosten",
+      "text": "Von Unterhaching aus ist Malermeister Yanko schnell in Taufkirchen, Oberhaching, Neubiberg, Ottobrunn, Grünwald, Pullach und Perlach – für einzelne Zimmer ebenso wie für ganze Wohnungen.",
+      "places": [
+        "Unterhaching",
+        "Taufkirchen",
+        "Oberhaching",
+        "Neubiberg",
+        "Ottobrunn",
+        "Grünwald",
+        "Pullach",
+        "München-Perlach"
+      ]
+    },
+    "faq": [
+      {
+        "q": "Übernehmen Sie auch einzelne Zimmer?",
+        "a": "Ja. Ob ein Zimmer, ein Flur oder die ganze Wohnung – fragen Sie einfach mit ein paar Fotos an."
+      },
+      {
+        "q": "Was sind Spachteltechniken?",
+        "a": "Dekorative, fugenlose Wandoberflächen, die mit dem Spachtel aufgebaut werden und Räumen Tiefe und Struktur geben. Welche Optik zu Ihrem Raum passt, besprechen wir vor Ort."
+      },
+      {
+        "q": "Bereiten Sie die Wände vor dem Streichen vor?",
+        "a": "Ja. Beschädigte oder unebene Flächen werden ausgebessert bzw. verputzt, damit der Anstrich gleichmäßig wird."
+      },
+      {
+        "q": "Verlegen Sie auch Böden?",
+        "a": "Ja, Bodenlegearbeiten gehören zum Angebot – so lässt sich eine Renovierung aus einer Hand erledigen."
+      },
+      {
+        "q": "Kann ich vorab Fotos schicken?",
+        "a": "Gern. Fotos und ungefähre Raumgrößen helfen für eine erste Einschätzung; für ein verbindliches Angebot ist ein kurzer Termin vor Ort sinnvoll."
+      }
+    ],
+    "contact": {
+      "headline": "Ihr Angebot – kostenlos und unverbindlich",
+      "text": "Beschreiben Sie kurz Ihr Vorhaben: welche Räume, ungefähre Größe und ob gestrichen, tapeziert oder gespachtelt werden soll. Fotos helfen bei der Einschätzung.",
+      "topics": [
+        "Wände & Decken streichen",
+        "Verputzarbeiten",
+        "Tapezieren",
+        "Spachteltechnik",
+        "Bodenlegearbeiten",
+        "Komplette Renovierung",
+        "Sonstiges"
+      ],
+      "responseNote": "Besichtigung nach Absprache."
+    },
+    "quote": {
+      "sizeLabel": "Was soll gemalert werden?",
+      "sizes": [
+        "Ein Zimmer",
+        "Mehrere Zimmer / Wohnung",
+        "Ganzes Haus",
+        "Einzelne Wand / Akzentfläche"
+      ],
+      "timings": [
+        "So bald wie möglich",
+        "In den nächsten Wochen",
+        "In 1–3 Monaten",
+        "Ich plane erst noch"
+      ]
+    },
+    "stickyCta": "Angebot anfragen"
+  }
+}
