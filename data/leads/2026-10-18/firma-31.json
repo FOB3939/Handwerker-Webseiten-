@@ -1,0 +1,405 @@
+{
+  "id": "2026-10-18-31",
+  "slug": "kufner-weigl-isoliertechnik-mering",
+  "date": "2026-10-18",
+  "company": {
+    "name": "Kufner & Weigl GmbH",
+    "owner": "Werner Weigl (Geschäftsführer)",
+    "trade": "Isoliertechnik, Brandschutz & Trockenbau",
+    "city": "Mering",
+    "address": "Troppauer Weg 2, 86415 Mering",
+    "phone": "08233 20508",
+    "email": "Kufner-weigl.isoliertechnik@gmx.de",
+    "serviceArea": [
+      "Mering",
+      "Kissing",
+      "Friedberg",
+      "Merching",
+      "Prittriching",
+      "Augsburg-Hochzoll",
+      "Steindorf"
+    ]
+  },
+  "listings": {
+    "google": {
+      "url": "https://www.google.com/maps/search/?api=1&query=Kufner%20%26%20Weigl%20GmbH%20Isoliertechnik%20Mering",
+      "rating": null,
+      "reviews": null,
+      "evidence": "NICHT VERIFIZIERT (indirekt) – WebSearch mit allowed_domains google.com/google.de lieferte keinen Maps-Treffer, Google-Spiegelverzeichnisse (trustlocal, werkenntdenbesten, weshoplocal, firmania) zeigten keinen Eintrag mit Google-Sternen. Angenommen nur wegen starkem Website-Negativbeleg (gmx-Adresse im Gemeinde-Branchenverzeichnis). Vor Kontaktaufnahme in Google Maps prüfen: Eintrag vorhanden? KEIN Website-Feld?"
+    },
+    "myhammer": {
+      "url": "https://mering.de/wirtschaft-gewerbe/branchenverzeichnis/bauen-handwerk/isoliertechnik",
+      "rating": null,
+      "reviews": null,
+      "evidence": "Kein MyHammer – Eintrag im Branchenverzeichnis des Marktes Mering (Rubrik Isoliertechnik): Kufner & Weigl GmbH, Troppauer Weg 4, Tel. 08233 20508, Fax 08233 26189, E-Mail Kufner-weigl.isoliertechnik@gmx.de – kein Website-Feld. Handelsregister (openregister.de): HRB 14075 AG Augsburg, aktiv, Geschäftsanschrift seit 2015 Troppauer Weg 2; Geschäftsführer Werner Weigl."
+    }
+  },
+  "websiteStatus": "keine eigene Website gefunden",
+  "websiteChecks": [
+    "(1) „Kufner & Weigl GmbH Mering“ mit blocked_domains [\"11880.com\",\"gelbeseiten.de\",\"dasoertliche.de\",\"dastelefonbuch.de\",\"cylex.de\",\"meinestadt.de\",\"creditreform.de\",\"facebook.com\",\"instagram.com\",\"golocal.de\",\"my-hammer.de\",\"northdata.de\",\"firmenwissen.de\",\"werkenntdenbesten.de\",\"yelp.de\",\"trustlocal.de\",\"wlw.de\"] – nur Register-/Verzeichnisseiten (openregister, online-handelsregister, baustoffe.xyz, bauunternehmen.org, branchen-info.net, stadtbranchenbuch, firminform, implisense); keine eigene Domain",
+    "(2) Telefonnummer „08233 20508“ mit denselben blocked_domains – nur Verzeichnisse (branchen-info.net, stadtbranchenbuch, baustoffe.xyz, mering.de, bauunternehmen.org, firmenfinden); keine Website",
+    "(3) Domainprüfung per allowed_domains: kufner-weigl.de, kufnerweigl.de, kufner-weigl-isoliertechnik.de, kufner-und-weigl.de, kufner-weigl.com, isoliertechnik-kufner-weigl.de, weigl-isoliertechnik.de – keine Treffer",
+    "(4) Impressum-Suche „Impressum Werner Weigl Mering Isoliertechnik“ – kein eigenes Impressum; einziger Website-Treffer spenglerei-weigl.de gehört zu einer anderen Firma (Bauspenglerei Werner Weigl, Hausham) – nicht verbunden",
+    "(5) Verzeichnis mering.de: Website-Feld leer, E-Mail Freemail (gmx.de) – starkes Indiz für keine eigene Domain",
+    "(6) Kein Google-Maps-/Spiegel-Treffer mit Website-Feld gefunden; Google-Spiegel (trustlocal/werkenntdenbesten) ohne Eintrag",
+    "Website-Risiko: niedrig bzgl. Website (gmx-Adresse + alle Prüfungen negativ) – aber Google-Eintrag NICHT verifiziert"
+  ],
+  "facts": {
+    "services": [
+      "Wärmeisolierung",
+      "Kälteisolierung",
+      "Schallisolierung",
+      "Brandschutz",
+      "Trockenbau",
+      "Handel mit Isoliermaterial"
+    ],
+    "experience": "GmbH laut Handelsregister seit 1994 (Gründung 24.08.1994, HRB 14075 AG Augsburg)",
+    "praisedFor": []
+  },
+  "strategy": {
+    "audience": "SHK- und Lüftungsbetriebe, Bauträger, Industrie- und Gewerbekunden sowie Bauherren im Raum Augsburg und Landkreis Aichach-Friedberg, die Dämmung, Brandschutz oder Trockenbau benötigen",
+    "mainService": "Isoliertechnik für Wärme, Kälte und Schall – ergänzt um Brandschutz und Trockenbau",
+    "trustSignal": "Eingetragene GmbH aus Mering seit 1994 mit persönlich erreichbarem Geschäftsführer",
+    "conversionGoal": "Anfrage für Isolier-, Brandschutz- oder Trockenbauarbeiten",
+    "visualConcept": "Robuste Werk-Optik: Blechummantelte Rohrdämmung und Brandschutz-Abschottungen im Technikraum"
+  },
+  "sales": {
+    "score": 7,
+    "whyGoodLead": [
+      "Etablierte GmbH (seit 1994) nur mit gmx-Adresse und Verzeichniseinträgen – keine eigene Website gefunden",
+      "Breites, gut darstellbares Leistungsspektrum: Wärme, Kälte, Schall, Brandschutz, Trockenbau",
+      "B2B-Auftraggeber prüfen Nachunternehmer online – Website und Referenzen schaffen Vertrauen",
+      "Uneinheitliche Adressen in Verzeichnissen (Troppauer Weg 2/4, Sudetenring 20) – eine eigene Seite schafft eine verlässliche Quelle"
+    ],
+    "pitch": "Guten Tag Herr Weigl, mein Name ist … – ich erstelle Websites für Handwerksbetriebe im Raum Augsburg. Kufner & Weigl ist seit vielen Jahren in Mering im Handelsregister und im Branchenverzeichnis, aber ich habe keine eigene Website gefunden – und in den Verzeichnissen stehen sogar unterschiedliche Adressen. Ich habe unverbindlich einen Entwurf vorbereitet, der Isolierung, Brandschutz und Trockenbau übersichtlich zeigt. Darf ich Ihnen den Link schicken?"
+  },
+  "manualChecks": [
+    "Website-Risiko: niedrig – vor Versand in Google Maps prüfen, dass keine Website hinterlegt ist (Grund: gmx-Adresse Kufner-weigl.isoliertechnik@gmx.de im Gemeindeverzeichnis, alle Such- und Domainprüfungen negativ; Google-Eintrag selbst nicht verifiziert)",
+    "Google-Maps-Eintrag suchen (Kufner & Weigl, Mering) – vorhanden? Bewertungen?",
+    "Adresse klären: Register Troppauer Weg 2 (seit 2015), Gemeindeverzeichnis Troppauer Weg 4, andere Verzeichnisse Sudetenring 20",
+    "Hans-Jürgen Kufner ist laut Register nicht mehr Geschäftsführer – Ansprechpartner ist Werner Weigl",
+    "Jahreszahl ‚seit 1994‘ (Registergründung) nur nach Rückfrage auf der Seite verwenden – derzeit nicht im Hero",
+    "Echtes Logo und Referenzfotos: nicht gefunden – beim Betrieb anfragen"
+  ],
+  "sources": [
+    {
+      "label": "Markt Mering – Branchenverzeichnis Isoliertechnik",
+      "url": "https://mering.de/wirtschaft-gewerbe/branchenverzeichnis/bauen-handwerk/isoliertechnik"
+    },
+    {
+      "label": "openregister – Kufner & Weigl GmbH (HRB 14075)",
+      "url": "https://openregister.de/company/DE-HRB-D2102-14075"
+    },
+    {
+      "label": "online-handelsregister – Kufner & Weigl GmbH",
+      "url": "https://www.online-handelsregister.de/handelsregisterauszug/by/Augsburg/HRB/14075/Kufner-Weigl-GmbH-Isoliertechnik-Waerme-Kaelte-Schall-Brandschutz-Trockenbau"
+    },
+    {
+      "label": "baustoffe.xyz – Kufner & Weigl GmbH",
+      "url": "https://www.baustoffe.xyz/bau-kufner-und-weigl-gmbh-in-mering-63527"
+    },
+    {
+      "label": "bauunternehmen.org – Kufner & Weigl GmbH",
+      "url": "https://www.bauunternehmen.org/mering-schwaben/kufner-und-weigl-gmbh-isoliertechnik-waerme-kaelte--schall-brandschutz-aUMWCu"
+    },
+    {
+      "label": "branchen-info.net – Kufner & Weigl GmbH",
+      "url": "https://mering.branchen-info.net/fp_430439.php"
+    },
+    {
+      "label": "Stadtbranchenbuch Mering – Kufner & Weigl GmbH",
+      "url": "https://mering.stadtbranchenbuch.com/1727514.html"
+    }
+  ],
+  "site": {
+    "theme": "werk",
+    "category": "handwerk",
+    "heroOffer": [
+      "Wärmeisolierung",
+      "Kälteisolierung",
+      "Schallschutz",
+      "Brandschutz",
+      "Trockenbau"
+    ],
+    "scene": "drywall",
+    "logoIcon": "trowel",
+    "logoMark": "KW",
+    "brandName": "Kufner & Weigl",
+    "seoTitle": "Isoliertechnik & Brandschutz in Mering – Kufner & Weigl GmbH",
+    "seoDescription": "Wärme-, Kälte- und Schallisolierung, Brandschutz und Trockenbau – Kufner & Weigl GmbH aus Mering für Augsburg und den Landkreis Aichach-Friedberg. Jetzt anfragen.",
+    "nav": [
+      {
+        "label": "Leistungen",
+        "href": "#leistungen"
+      },
+      {
+        "label": "Projekte",
+        "href": "#projekte"
+      },
+      {
+        "label": "Ablauf",
+        "href": "#ablauf"
+      },
+      {
+        "label": "Region",
+        "href": "#region"
+      },
+      {
+        "label": "FAQ",
+        "href": "#faq"
+      },
+      {
+        "label": "Kontakt",
+        "href": "#kontakt"
+      }
+    ],
+    "hero": {
+      "eyebrow": "Isoliertechnik · Brandschutz · Trockenbau · Mering",
+      "headline": "Isoliertechnik in Mering – Wärme, Kälte, Schall und Brandschutz.",
+      "sub": "Die Kufner & Weigl GmbH dämmt Leitungen und Anlagen, übernimmt Brandschutz- und Trockenbauarbeiten und liefert Isoliermaterial – für Auftraggeber in Mering, Augsburg und Umgebung.",
+      "ctaPrimary": "Anfrage senden",
+      "ctaSecondary": "Anrufen",
+      "bullets": [
+        "Wärme-, Kälte- und Schallisolierung",
+        "Brandschutz und Trockenbau",
+        "GmbH mit Sitz in Mering"
+      ],
+      "imageLabel": "blechummantelte Rohrdämmung im Technikraum"
+    },
+    "badges": [
+      {
+        "title": "Wärme & Kälte",
+        "sub": "Isolierung von Leitungen"
+      },
+      {
+        "title": "Schallschutz",
+        "sub": "leisere Technik"
+      },
+      {
+        "title": "Brandschutz",
+        "sub": "für Gebäude und Anlagen"
+      },
+      {
+        "title": "Trockenbau",
+        "sub": "aus einer Hand"
+      }
+    ],
+    "trust": [
+      {
+        "value": "GmbH",
+        "label": "im Handelsregister Augsburg"
+      },
+      {
+        "value": "WKS",
+        "label": "Wärme · Kälte · Schall"
+      },
+      {
+        "value": "+ Brandschutz",
+        "label": "und Trockenbau"
+      },
+      {
+        "value": "Mering",
+        "label": "Landkreis Aichach-Friedberg"
+      }
+    ],
+    "servicesIntro": {
+      "headline": "Dämmen, schützen, ausbauen",
+      "text": "Von der Rohrleitung bis zur Trockenbauwand: Kufner & Weigl übernimmt Isolierung, Brandschutz und Trockenbau – abgestimmt auf Ihr Bauvorhaben."
+    },
+    "services": [
+      {
+        "title": "Wärmeisolierung",
+        "text": "Dämmung von Heizungs- und Warmwasserleitungen sowie Anlagen gegen Wärmeverluste.",
+        "items": [
+          "Heizung",
+          "Warmwasser",
+          "Anlagen"
+        ]
+      },
+      {
+        "title": "Kälteisolierung",
+        "text": "Isolierung von Kälte- und Klimaleitungen gegen Wärmeeintrag und Tauwasser.",
+        "items": [
+          "Kälteleitungen",
+          "Klima",
+          "Tauwasserschutz"
+        ]
+      },
+      {
+        "title": "Schallisolierung",
+        "text": "Dämmung, die Geräusche aus Leitungen und Anlagen reduziert.",
+        "items": [
+          "Schallschutz",
+          "Leitungen",
+          "Technikräume"
+        ]
+      },
+      {
+        "title": "Brandschutz",
+        "text": "Brandschutzarbeiten für Gebäude und Haustechnik – ausgeführt vom Fachbetrieb.",
+        "items": [
+          "Brandschutz",
+          "Haustechnik",
+          "Gebäude"
+        ]
+      },
+      {
+        "title": "Trockenbau",
+        "text": "Wände, Decken und Verkleidungen in Trockenbauweise.",
+        "items": [
+          "Wände",
+          "Decken",
+          "Verkleidungen"
+        ]
+      },
+      {
+        "title": "Isoliermaterial",
+        "text": "Handel mit Isoliermaterial – fragen Sie nach Material für Ihr Projekt.",
+        "items": [
+          "Dämmstoffe",
+          "Zubehör",
+          "Beratung"
+        ]
+      }
+    ],
+    "why": {
+      "headline": "Ein Fachbetrieb für Dämmung, Brandschutz und Ausbau.",
+      "points": [
+        {
+          "title": "Alles aus einer Hand",
+          "text": "Isolierung, Brandschutz und Trockenbau – Sie koordinieren weniger Gewerke."
+        },
+        {
+          "title": "Persönlicher Ansprechpartner",
+          "text": "Geschäftsführer Werner Weigl ist direkt erreichbar."
+        },
+        {
+          "title": "Material und Montage",
+          "text": "Neben der Ausführung handeln wir auch mit Isoliermaterial."
+        },
+        {
+          "title": "Aus Mering",
+          "text": "Kurze Wege nach Augsburg, Friedberg, Kissing und in den Landkreis."
+        }
+      ]
+    },
+    "reviews": {
+      "headline": "Ihre Meinung zählt",
+      "summary": "Bewertungen von Auftraggebern zeigen wir hier, sobald sie für die Live-Version freigegeben sind.",
+      "highlights": [
+        "Eingetragene GmbH",
+        "Wärme, Kälte, Schall",
+        "Brandschutz & Trockenbau",
+        "Sitz in Mering"
+      ],
+      "source": "Branchenverzeichnis Markt Mering",
+      "sourceUrl": "https://mering.de/wirtschaft-gewerbe/branchenverzeichnis/bauen-handwerk/isoliertechnik",
+      "rating": null,
+      "count": null
+    },
+    "process": {
+      "headline": "So läuft Ihr Auftrag",
+      "steps": [
+        {
+          "title": "Anfrage",
+          "text": "Objekt, Leitungsart und Zeitraum kurz schildern – gern mit Plänen oder Fotos."
+        },
+        {
+          "title": "Abstimmung",
+          "text": "Wir klären Umfang, Material und Termin – auch mit dem SHK-Betrieb vor Ort."
+        },
+        {
+          "title": "Angebot",
+          "text": "Sie erhalten ein nachvollziehbares Angebot für die Isolierarbeiten."
+        },
+        {
+          "title": "Ausführung",
+          "text": "Wir isolieren sauber und termingerecht – passend zum Bauablauf."
+        }
+      ]
+    },
+    "gallery": {
+      "headline": "Projekte aus Isolierung, Brandschutz und Trockenbau",
+      "text": "Für die Live-Version zeigen wir hier echte Baustellen der Kufner & Weigl GmbH.",
+      "items": [
+        {
+          "title": "Rohrdämmung",
+          "photoNeeded": "blechummantelte Rohrleitungen im Technikraum"
+        },
+        {
+          "title": "Kälteisolierung",
+          "photoNeeded": "isolierte Kälte-/Klimaleitungen"
+        },
+        {
+          "title": "Brandschutz",
+          "photoNeeded": "Brandschutz-Abschottung an Leitungsdurchführung"
+        },
+        {
+          "title": "Trockenbau",
+          "photoNeeded": "fertige Trockenbauwand oder -decke"
+        }
+      ]
+    },
+    "region": {
+      "headline": "Für Mering, Augsburg und den Landkreis Aichach-Friedberg",
+      "text": "Von Mering aus arbeitet Kufner & Weigl in Kissing, Friedberg, Merching, Prittriching, Steindorf und Augsburg – für Wohnbau, Gewerbe und Objekt.",
+      "places": [
+        "Mering",
+        "Kissing",
+        "Friedberg",
+        "Merching",
+        "Prittriching",
+        "Steindorf",
+        "Augsburg"
+      ]
+    },
+    "faq": [
+      {
+        "q": "Welche Isolierarbeiten übernehmen Sie?",
+        "a": "Wärme-, Kälte- und Schallisolierung von Leitungen und Anlagen. Den genauen Umfang klären wir vorab mit Ihnen."
+      },
+      {
+        "q": "Machen Sie auch Brandschutz?",
+        "a": "Ja, Brandschutz gehört zu unseren Leistungen – ebenso Trockenbau."
+      },
+      {
+        "q": "Kann ich Isoliermaterial bei Ihnen bekommen?",
+        "a": "Wir handeln auch mit Isoliermaterial. Fragen Sie einfach an, was Sie benötigen."
+      },
+      {
+        "q": "Kann ich Pläne vorab schicken?",
+        "a": "Gern per E-Mail – das beschleunigt Einschätzung und Angebot."
+      }
+    ],
+    "contact": {
+      "headline": "Ihre Anfrage an Kufner & Weigl",
+      "text": "Beschreiben Sie kurz Objekt, Leistung und Zeitraum. Pläne oder Fotos helfen bei der Einschätzung.",
+      "topics": [
+        "Wärmeisolierung",
+        "Kälteisolierung",
+        "Schallisolierung",
+        "Brandschutz",
+        "Trockenbau",
+        "Isoliermaterial",
+        "Sonstiges"
+      ],
+      "responseNote": "Termin nach Absprache."
+    },
+    "quote": {
+      "sizeLabel": "Wie groß ist das Vorhaben?",
+      "sizes": [
+        "Einzelne Leitungen / Reparatur",
+        "Einfamilienhaus",
+        "Mehrfamilienhaus / Wohnanlage",
+        "Gewerbe- / Objektbau"
+      ],
+      "timings": [
+        "So bald wie möglich",
+        "In den nächsten Wochen",
+        "In 1–3 Monaten",
+        "Ich plane erst noch"
+      ]
+    },
+    "stickyCta": "Anfrage senden"
+  }
+}

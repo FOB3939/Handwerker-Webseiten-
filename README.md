@@ -65,6 +65,16 @@ Claude-Artifacts veröffentlicht und über das Share-Menü gezielt an den jeweil
 | 2026-10-18 | Hofladen Wirthmüller | https://claude.ai/artifact/CU2DGom9TKwYWN6VCJheUv |
 | 2026-10-18 | Reitstall Schütz | https://claude.ai/artifact/2iexuZeyCDXFRL9N7Rryba |
 | 2026-10-18 | Hofmanns Hofladen | https://claude.ai/artifact/Wvzfe9umrjA4AKqNcxw9tu |
+| 2026-10-18 | Zimmerschmidhof – Familie Kreitmeir | https://claude.ai/artifact/JDQ67cTgJp7m5QLxGLUPbq |
+| 2026-10-18 | Hofladen Voit / Biogärtnerei Voit | https://claude.ai/artifact/M87L6HkM4QPWMyraRcAXw3 |
+| 2026-10-18 | Obsthof Seidinger | https://claude.ai/artifact/RBHf316V45FE6wk7R5i6dR |
+| 2026-10-18 | Senftl's Hofladen | https://claude.ai/artifact/EM1yauAgAazKxmfHooiji1 |
+| 2026-10-18 | Fatmir Sallahi Malerbetrieb | https://claude.ai/artifact/2hxFKeane4HL2KaMep6H3U |
+| 2026-10-18 | Murat Özerol Elektrotechnik | https://claude.ai/artifact/5FFprzTXHr1yC8WaMPJSoJ |
+| 2026-10-18 | Isoliertechnik Mering GbR | https://claude.ai/artifact/22ea7i5PNpWbXkkYJ9ZPLt |
+| 2026-10-18 | Kufner & Weigl GmbH | https://claude.ai/artifact/XJwrZE4USpkNQRhRXgPWWE |
+| 2026-10-18 | Klaus Fraider Fliesenverlegemeisterbetrieb (Reserve) | https://claude.ai/artifact/9pkCrxHoL1jKLSPiE2mddq |
+| 2026-10-18 | Geflügelhof Ruhdorfer (Reserve) | https://claude.ai/artifact/GFUHWcZbMhBTAx3WEASmU4 |
 
 ## Design-Standard der Entwürfe
 
