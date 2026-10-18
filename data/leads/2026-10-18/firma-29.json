@@ -1,0 +1,416 @@
+{
+  "id": "2026-10-18-29",
+  "slug": "elektrotechnik-oezerol-muenchen-riem",
+  "date": "2026-10-18",
+  "company": {
+    "name": "Murat Özerol Elektrotechnik",
+    "owner": "Murat Özerol",
+    "trade": "Elektrotechnik (Meisterbetrieb)",
+    "city": "München-Riem",
+    "address": "Elisabeth-Dane-Straße 32, 81829 München",
+    "phone": null,
+    "email": null,
+    "serviceArea": [
+      "München-Riem",
+      "München-Trudering",
+      "Haar",
+      "Aschheim",
+      "Feldkirchen",
+      "Putzbrunn"
+    ]
+  },
+  "listings": {
+    "google": {
+      "url": "https://www.google.com/maps/search/?api=1&query=Murat%20%C3%96zerol%20Elektrotechnik%20Elisabeth-Dane-Stra%C3%9Fe%2032%20M%C3%BCnchen",
+      "rating": 5.0,
+      "reviews": 23,
+      "evidence": "INDIREKT – kein direkter google.com/maps/place-Treffer. Der Places-Spiegel MerhabaMap (merhabamap.com/de/places/…) zeigt den Betrieb mit Adresse Elisabeth-Dane-Straße 32, 81829 München, Öffnungszeiten und 5,0/5 bei 23 Bewertungen (Stand 01.08.2026) – typische Google-Places-Daten, Quelle aber nicht ausdrücklich als Google benannt. In den Snippets war KEIN Website-Feld und keine Telefonnummer zu sehen. Vor Versand in Google Maps verifizieren."
+    },
+    "myhammer": {
+      "url": "https://www.my-hammer.de/auftragnehmer/murat-oezerol-elektrotechnik",
+      "rating": 5.0,
+      "reviews": 41,
+      "evidence": "MyHammer-Profil „Profil von Murat Özerol Elektrotechnik in München“ in Suchergebnissen belegt: 5/5 bei 41 Bewertungen (auf den Ortslisten Haar/Aschheim 5/5 bei 48 Bewertungen – Zahl je Unterseite unterschiedlich). Profiltext: junges, engagiertes Meisterunternehmen Elektrotechnik; Inhaber gelernter Elektriker und studierter Elektrotechniker, Gründung Anfang 2025. Gelistet auf den MyHammer-Ortslisten Elektriker Haar und Aschheim sowie Energieberater Aschheim/Haar/Putzbrunn/Grasbrunn."
+    }
+  },
+  "websiteStatus": "keine eigene Website gefunden",
+  "websiteChecks": [
+    "(1) „Murat Özerol Elektrotechnik“ mit blocked_domains (11880, Gelbe Seiten, Das Örtliche, Das Telefonbuch, Cylex, meinestadt, Creditreform, Facebook, Instagram, golocal, MyHammer, North Data, Firmenwissen, werkenntdenbesten, Yelp, trustlocal, wlw) – nur MerhabaMap und CHECK24-Profil, keine eigene Domain",
+    "(2) Telefonnummer: in keiner Quelle gefunden – Telefonsuche daher nicht möglich; stattdessen „Özerol“ Elektro Elisabeth-Dane-Straße München – kein Treffer zum Betrieb, keine Domain",
+    "(3) Domainprüfung allowed_domains oezerol-elektrotechnik.de, ozerol-elektrotechnik.de, elektro-oezerol.de, oezerol.de, ozerol.de, elektrotechnik-oezerol.de, oezerol-elektro.de, mo-elektrotechnik.de – einziger Treffer mo-elektrotechnik.de gehört zu einem Betrieb in 24534 Neumünster (Wasbeker Straße), nicht verbunden",
+    "(4) Impressum-Suche „Impressum Murat Özerol Elektrotechnik München Telefon“ – nur Impressen anderer Münchner Elektrobetriebe, kein eigenes Impressum",
+    "(5) Verzeichnisse (MerhabaMap, CHECK24, MyHammer; Suche auch in 11880/Gelbe Seiten/Das Örtliche/trustlocal/firmania) – kein Website-Feld sichtbar, keine E-Mail, keine Telefonnummer; kein Freemail-Beleg",
+    "(6) MerhabaMap-Eintrag (Google-Places-Spiegel) ohne Website-Feld in den Snippets; MyHammer-Suche ergab nur Profil/Bewertungsseite, keinen Webauftritt",
+    "Website-Risiko: mittel – alle Prüfungen negativ, aber kein Freemail-Beleg und Google-Eintrag nur indirekt belegt"
+  ],
+  "facts": {
+    "services": [
+      "Elektroinstallation (Steckdosen, Lichtschalter, Verkabelung)",
+      "Beleuchtung / Lichtkonzepte",
+      "Smart Home",
+      "Netzwerktechnik",
+      "E-Ladestationen / Wallbox",
+      "Alarm- und Gegensprechanlagen",
+      "Fußbodenheizung (elektrisch)",
+      "Montage von Solaranlagen"
+    ],
+    "experience": "Gegründet Anfang 2025 (Selbstangabe MyHammer); Inhaber gelernter Elektriker und studierter Elektrotechniker",
+    "praisedFor": [
+      "Top Preis-Leistungs-Verhältnis",
+      "absolut zuverlässig",
+      "professionell",
+      "schnelle Reaktion"
+    ]
+  },
+  "strategy": {
+    "audience": "Haus- und Wohnungseigentümer, Mieter und Vermieter in Riem, Trudering, Haar, Aschheim, Feldkirchen und Putzbrunn, die Elektroarbeiten, Wallbox oder Smart Home brauchen",
+    "mainService": "Elektroinstallation inkl. Beleuchtung, Smart Home und Wallbox",
+    "trustSignal": "Junger Meisterbetrieb mit 5,0 Sternen auf MyHammer (41 Bewertungen)",
+    "conversionGoal": "Kostenlose Anfrage für Elektroarbeiten (mit Fotos / kurzer Beschreibung)",
+    "visualConcept": "Klare, technische Volt-Optik: saubere Installationen, Licht und Smart-Home-Bedienelemente – modern, präzise, zuverlässig"
+  },
+  "sales": {
+    "score": 6,
+    "whyGoodLead": [
+      "5,0 Sterne bei 41 MyHammer-Bewertungen – sehr gute Reputation",
+      "Junger Betrieb (Gründung 2025) – braucht Sichtbarkeit über MyHammer hinaus",
+      "Breites, gut suchbares Leistungsspektrum (Wallbox, Smart Home, Beleuchtung, Netzwerk)",
+      "Keine eigene Website gefunden"
+    ],
+    "pitch": "Guten Tag Herr Özerol, mein Name ist … – ich erstelle Websites für Handwerksbetriebe im Münchner Osten. Ich habe gesehen, dass Ihr Elektro-Meisterbetrieb auf MyHammer mit 5 Sternen bewertet ist und Kunden Ihre Zuverlässigkeit und schnelle Reaktion loben – aber eine eigene Website habe ich nicht gefunden. Ich habe unverbindlich einen Entwurf vorbereitet, der Ihre Leistungen von Elektroinstallation bis Wallbox und Smart Home zeigt – darf ich Ihnen den Link schicken?"
+  },
+  "manualChecks": [
+    "Website-Risiko: mittel – vor Versand in Google Maps prüfen, dass keine Website hinterlegt ist (Grund: alle Suchen negativ, aber kein Freemail-Beleg; Google-Eintrag nur über Places-Spiegel MerhabaMap indirekt belegt)",
+    "Google-Eintrag in Maps bestätigen (5,0 / 23 Bewertungen laut MerhabaMap) und maps/place-URL nachtragen",
+    "Telefonnummer und E-Mail unbekannt – aus Google-Eintrag oder MyHammer-Profil übernehmen",
+    "Bewertungszahl MyHammer schwankt (41 auf Profil, 48 auf Ortslisten) – aktuellen Stand im Profil prüfen",
+    "Sitz München-Riem liegt knapp außerhalb der Gemeindeliste (grenzt an Haar/Feldkirchen/Aschheim); Einsatzgebiet beim Betrieb bestätigen",
+    "Öffnungszeiten laut MerhabaMap widersprüchlich (u. a. Sonntag) – nicht auf der Seite verwendet",
+    "Meistertitel ist Selbstangabe (MyHammer/CHECK24) – in der Handwerksrolle prüfen",
+    "Echtes Logo und Projektfotos nicht gefunden – beim Betrieb anfragen"
+  ],
+  "sources": [
+    {
+      "label": "MyHammer – Profil Murat Özerol Elektrotechnik",
+      "url": "https://www.my-hammer.de/auftragnehmer/murat-oezerol-elektrotechnik"
+    },
+    {
+      "label": "MyHammer – Bewertungen Murat Özerol Elektrotechnik",
+      "url": "https://www.my-hammer.de/auftragnehmer/murat-oezerol-elektrotechnik/bewertungen"
+    },
+    {
+      "label": "MyHammer – Elektriker in Haar",
+      "url": "https://www.my-hammer.de/elektrik/elektriker-berufe/haar"
+    },
+    {
+      "label": "MyHammer – Elektriker in Aschheim",
+      "url": "https://www.my-hammer.de/elektrik/elektriker-berufe/aschheim"
+    },
+    {
+      "label": "MerhabaMap – Murat Özerol Elektrotechnik München",
+      "url": "https://merhabamap.com/de/places/murat-ozerol-elektrotechnik-muenchen"
+    },
+    {
+      "label": "CHECK24 – Murat Özerol Elektrotechnik",
+      "url": "https://handwerk.check24.de/craftsmen/cs/profile/sp_4O2eB"
+    }
+  ],
+  "site": {
+    "theme": "volt",
+    "category": "handwerk",
+    "heroOffer": [
+      "Elektroinstallation",
+      "Beleuchtung",
+      "Smart Home",
+      "Wallbox",
+      "Netzwerktechnik"
+    ],
+    "scene": "electric",
+    "logoIcon": "bolt",
+    "logoMark": "MÖ",
+    "brandName": "Özerol Elektrotechnik",
+    "seoTitle": "Elektriker in München-Riem – Murat Özerol Elektrotechnik",
+    "seoDescription": "Elektroinstallation, Beleuchtung, Smart Home, Wallbox und Netzwerktechnik vom jungen Elektro-Meisterbetrieb aus München-Riem – für Riem, Trudering, Haar, Aschheim und Feldkirchen. Jetzt kostenlos anfragen.",
+    "nav": [
+      {
+        "label": "Leistungen",
+        "href": "#leistungen"
+      },
+      {
+        "label": "Projekte",
+        "href": "#projekte"
+      },
+      {
+        "label": "Bewertungen",
+        "href": "#bewertungen"
+      },
+      {
+        "label": "Ablauf",
+        "href": "#ablauf"
+      },
+      {
+        "label": "FAQ",
+        "href": "#faq"
+      },
+      {
+        "label": "Kontakt",
+        "href": "#kontakt"
+      }
+    ],
+    "hero": {
+      "eyebrow": "Elektrotechnik · München-Riem",
+      "headline": "Ihr Elektriker in München-Riem – Installation, Licht, Smart Home & Wallbox.",
+      "sub": "Murat Özerol Elektrotechnik plant und installiert Elektrik für Wohnung, Haus und Gewerbe – von der neuen Steckdose über Lichtkonzepte bis zur Wallbox. Für Riem, Trudering, Haar, Aschheim und Feldkirchen.",
+      "ctaPrimary": "Kostenlos anfragen",
+      "ctaSecondary": "Anrufen",
+      "bullets": [
+        "5,0 von 5 Sternen auf MyHammer",
+        "Junger Meisterbetrieb – Beratung bis Wartung",
+        "Elektro, Licht, Smart Home und Wallbox aus einer Hand"
+      ],
+      "imageLabel": "moderne Elektroinstallation mit Sicherungskasten und Smart-Home-Schalter"
+    },
+    "badges": [
+      {
+        "title": "5,0 ★ auf MyHammer",
+        "sub": "aus 41 Bewertungen"
+      },
+      {
+        "title": "Meisterbetrieb",
+        "sub": "Elektrotechnik"
+      },
+      {
+        "title": "Wallbox & Smart Home",
+        "sub": "Technik von heute"
+      },
+      {
+        "title": "München-Riem",
+        "sub": "und Münchner Osten"
+      }
+    ],
+    "trust": [
+      {
+        "value": "5,0 ★",
+        "label": "Durchschnitt auf MyHammer"
+      },
+      {
+        "value": "41",
+        "label": "Bewertungen von Auftraggebern"
+      },
+      {
+        "value": "Meister",
+        "label": "Elektrotechnik-Meisterbetrieb"
+      },
+      {
+        "value": "Riem",
+        "label": "Sitz im Münchner Osten"
+      }
+    ],
+    "servicesIntro": {
+      "headline": "Elektrik, die einfach funktioniert",
+      "text": "Von der Beratung über die Planung bis zur fachgerechten Umsetzung und Wartung – ein Ansprechpartner für Ihre Elektroarbeiten."
+    },
+    "services": [
+      {
+        "title": "Elektroinstallation",
+        "text": "Steckdosen, Lichtschalter und Verkabelung – neu, erweitert oder erneuert.",
+        "items": [
+          "Steckdosen",
+          "Lichtschalter",
+          "Verkabelung"
+        ]
+      },
+      {
+        "title": "Beleuchtung",
+        "text": "Leuchten montiert und Lichtkonzepte umgesetzt – für Wohnräume, Außenbereich und Gewerbe.",
+        "items": [
+          "Leuchtenmontage",
+          "Lichtkonzepte",
+          "Innen & außen"
+        ]
+      },
+      {
+        "title": "Smart Home",
+        "text": "Licht und Technik intelligent steuern – sauber eingerichtet und verständlich übergeben.",
+        "items": [
+          "Smart-Home-Steuerung",
+          "Beratung",
+          "Einrichtung"
+        ]
+      },
+      {
+        "title": "Wallbox & E-Mobilität",
+        "text": "Ladestation für das E-Auto installiert – passend zu Hausanschluss und Bedarf.",
+        "items": [
+          "Wallbox",
+          "Ladestation",
+          "Anschluss"
+        ]
+      },
+      {
+        "title": "Netzwerk & Sicherheit",
+        "text": "Netzwerkverkabelung, Alarm- und Gegensprechanlagen für Haus und Büro.",
+        "items": [
+          "Netzwerktechnik",
+          "Alarmanlage",
+          "Gegensprechanlage"
+        ]
+      },
+      {
+        "title": "Energie-Technik",
+        "text": "Elektrische Fußbodenheizung und Montage von Solaranlagen – energieeffiziente Technik aus einer Hand.",
+        "items": [
+          "Fußbodenheizung",
+          "Solaranlagen-Montage",
+          "Energieeffizienz"
+        ]
+      }
+    ],
+    "why": {
+      "headline": "Jung, engagiert – und vom Fach.",
+      "points": [
+        {
+          "title": "Meisterbetrieb",
+          "text": "Ein junges Meisterunternehmen der Elektrotechnik, das auf Qualität und Zuverlässigkeit setzt."
+        },
+        {
+          "title": "Doppelt ausgebildet",
+          "text": "Murat Özerol ist gelernter Elektriker und studierter Elektrotechniker."
+        },
+        {
+          "title": "Schnelle Reaktion",
+          "text": "Kunden loben auf MyHammer Zuverlässigkeit, Professionalität und schnelle Antworten."
+        },
+        {
+          "title": "Alles aus einer Hand",
+          "text": "Beratung, Planung, Umsetzung und Wartung – ein Ansprechpartner für das ganze Projekt."
+        }
+      ]
+    },
+    "reviews": {
+      "headline": "Was Kunden sagen",
+      "summary": "Murat Özerol Elektrotechnik ist auf MyHammer mit 5,0 von 5 Sternen bewertet. Kunden heben Preis-Leistung, Zuverlässigkeit und Professionalität hervor.",
+      "highlights": [
+        "Top Preis-Leistungs-Verhältnis",
+        "Absolut zuverlässig",
+        "Professionell",
+        "Schnelle Reaktion"
+      ],
+      "source": "MyHammer",
+      "sourceUrl": "https://www.my-hammer.de/auftragnehmer/murat-oezerol-elektrotechnik/bewertungen",
+      "rating": 5.0,
+      "count": 41
+    },
+    "process": {
+      "headline": "In vier Schritten zur neuen Elektrik",
+      "steps": [
+        {
+          "title": "Anfrage",
+          "text": "Kurz beschreiben, was gemacht werden soll – gern mit Fotos."
+        },
+        {
+          "title": "Beratung",
+          "text": "Umfang, Technik und Wünsche werden besprochen, bei Bedarf vor Ort."
+        },
+        {
+          "title": "Angebot",
+          "text": "Sie erhalten ein klares Angebot für die geplanten Arbeiten."
+        },
+        {
+          "title": "Umsetzung",
+          "text": "Fachgerechte Installation, Prüfung und Übergabe – Wartung auf Wunsch."
+        }
+      ]
+    },
+    "gallery": {
+      "headline": "Saubere Installationen",
+      "text": "Für die Live-Version zeigen wir hier echte Projekte des Betriebs.",
+      "items": [
+        {
+          "title": "Elektroinstallation",
+          "photoNeeded": "sauber verdrahteter Sicherungskasten"
+        },
+        {
+          "title": "Beleuchtung",
+          "photoNeeded": "moderne Deckenbeleuchtung in einem Wohnraum"
+        },
+        {
+          "title": "Smart Home",
+          "photoNeeded": "Smart-Home-Bedienfeld an der Wand"
+        },
+        {
+          "title": "Wallbox",
+          "photoNeeded": "installierte Wallbox in Garage oder Carport"
+        },
+        {
+          "title": "Netzwerk",
+          "photoNeeded": "ordentlich verlegtes Netzwerkkabel / Patchfeld"
+        }
+      ]
+    },
+    "region": {
+      "headline": "Ihr Elektriker für Riem und den Münchner Osten",
+      "text": "Von München-Riem aus ist Murat Özerol Elektrotechnik schnell in Trudering, Haar, Aschheim, Feldkirchen und Putzbrunn.",
+      "places": [
+        "München-Riem",
+        "München-Trudering",
+        "Haar",
+        "Aschheim",
+        "Feldkirchen",
+        "Putzbrunn"
+      ]
+    },
+    "faq": [
+      {
+        "q": "Installieren Sie Wallboxen?",
+        "a": "Ja, die Installation von Ladestationen für E-Autos gehört zum Angebot. Was an Ihrem Hausanschluss möglich ist, klären wir bei der Beratung."
+      },
+      {
+        "q": "Übernehmen Sie auch kleine Arbeiten?",
+        "a": "Ja – auch einzelne Steckdosen, Lichtschalter oder Leuchten. Fragen Sie einfach mit einer kurzen Beschreibung an."
+      },
+      {
+        "q": "Können Sie mein Zuhause smart machen?",
+        "a": "Ja, Smart-Home-Lösungen gehören zu den Schwerpunkten – von der Beratung bis zur Einrichtung."
+      },
+      {
+        "q": "Machen Sie auch Netzwerk- und Sicherheitstechnik?",
+        "a": "Ja, Netzwerkverkabelung sowie Alarm- und Gegensprechanlagen werden ebenfalls installiert."
+      },
+      {
+        "q": "Kann ich vorab Fotos schicken?",
+        "a": "Gern. Fotos helfen bei einer ersten Einschätzung; für ein verbindliches Angebot ist oft ein kurzer Termin vor Ort sinnvoll."
+      }
+    ],
+    "contact": {
+      "headline": "Ihre Anfrage – kostenlos und unverbindlich",
+      "text": "Beschreiben Sie kurz, was gemacht werden soll: Installation, Beleuchtung, Smart Home, Wallbox oder Netzwerk. Fotos helfen bei der Einschätzung.",
+      "topics": [
+        "Elektroinstallation",
+        "Beleuchtung",
+        "Smart Home",
+        "Wallbox / Ladestation",
+        "Netzwerk & Sicherheit",
+        "Fußbodenheizung / Solar",
+        "Sonstiges"
+      ],
+      "responseNote": "Termin nach Absprache."
+    },
+    "quote": {
+      "sizeLabel": "Worum geht es?",
+      "sizes": [
+        "Kleine Reparatur / einzelne Steckdose",
+        "Ein Raum",
+        "Ganze Wohnung / Haus",
+        "Wallbox / Smart Home"
+      ],
+      "timings": [
+        "So bald wie möglich",
+        "In den nächsten Wochen",
+        "In 1–3 Monaten",
+        "Ich plane erst noch"
+      ]
+    },
+    "stickyCta": "Jetzt anfragen"
+  }
+}
