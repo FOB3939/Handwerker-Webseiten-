@@ -1107,6 +1107,217 @@
       "websiteStatus": "keine eigene Website gefunden",
       "websiteRisk": "mittel",
       "reserve": true
+    },
+    {
+      "company": "Koller Kraftbau",
+      "slug": "koller-kraftbau-eching",
+      "trade": "Trockenbau, Fenstereinbau & Baumdienst",
+      "city": "Eching",
+      "date": "2026-10-18",
+      "phone": "01512 8802043",
+      "email": "koller.kraftbau@gmail.com",
+      "googleLink": "https://www.google.com/maps/search/?api=1&query=Koller%20Kraftbau%20Fuchsbergstr.%2011a%20Eching",
+      "googleVerified": false,
+      "myhammerLink": "https://www.11880.com/suche/baumpflege/eching",
+      "myhammerRating": null,
+      "myhammerReviews": null,
+      "sources": [
+        "https://www.11880.com/suche/baumpflege/eching",
+        "https://www.11880.com/suche/trockenbau/eching"
+      ],
+      "websiteStatus": "keine eigene Website gefunden",
+      "websiteRisk": "mittel"
+    },
+    {
+      "company": "P&C InnoBau",
+      "slug": "bau-pc-innobau-unterschleissheim",
+      "trade": "Bau, Fliesen, Maler & Trockenbau",
+      "city": "Unterschleißheim",
+      "date": "2026-10-18",
+      "phone": "0176 16376264",
+      "email": "partetzke@mail.de",
+      "googleLink": "https://www.google.com/maps/search/?api=1&query=P%26C%20InnoBau%20Ganghoferstr.%2015%20Unterschlei%C3%9Fheim",
+      "googleVerified": false,
+      "myhammerLink": "https://www.11880.com/branchenbuch/unterschleissheim/290110615B112430402/p-c-innobau.html",
+      "myhammerRating": null,
+      "myhammerReviews": null,
+      "sources": [
+        "https://www.11880.com/branchenbuch/unterschleissheim/290110615B112430402/p-c-innobau.html",
+        "https://www.companyhouse.de/p/Jannik-Partetzke-CGcZgVjUr82YkwLydwLfEEiAQ0Q"
+      ],
+      "websiteStatus": "keine eigene Website gefunden",
+      "websiteRisk": "mittel"
+    },
+    {
+      "company": "Trockenbau-Brian",
+      "slug": "trockenbau-brian-kirchseeon",
+      "trade": "Trockenbau",
+      "city": "Kirchseeon",
+      "date": "2026-10-18",
+      "phone": "0176 62353089",
+      "email": null,
+      "googleLink": "https://www.google.com/maps/search/?api=1&query=Trockenbau-Brian%20Xaver-Hamberger-Weg%2017B%20Kirchseeon",
+      "googleVerified": false,
+      "myhammerLink": "https://www.11880.com/suche/trockenbau/kirchseeon",
+      "myhammerRating": null,
+      "myhammerReviews": null,
+      "sources": [
+        "https://www.11880.com/suche/trockenbau/kirchseeon",
+        "https://www.11880.com/suche/trockenbau/zorneding",
+        "https://rgv-bayern.de/kirchseeon/trockenbaubrian",
+        "https://restaurant-aris.de/trockenbau-brian-6645194111230694987/",
+        "https://www.firmenabc.com/u/trockenbau-brian_fsgmbb",
+        "http://www.az-deutschland.com/unternehmen/brian_trockenbau_ek_kirchseeon_by_wallnerstr_7",
+        "https://kirchseeon.branchen-info.net/fp_4573662.php"
+      ],
+      "websiteStatus": "keine eigene Website gefunden",
+      "websiteRisk": "mittel"
+    },
+    {
+      "company": "Forstner Dienstleistungen & mehr",
+      "slug": "forstner-dienstleistungen-landsberg",
+      "trade": "Hausmeisterservice, Garten- & Landschaftspflege, Entrümpelung",
+      "city": "Landsberg am Lech",
+      "date": "2026-10-18",
+      "phone": "01578 0584815",
+      "email": "forstner.dienstleistungen@web.de",
+      "googleLink": "https://www.google.com/maps/search/?api=1&query=Forstner%20Dienstleistungen%20Max-von-Eyth-Str.%205%20Landsberg%20am%20Lech",
+      "googleVerified": false,
+      "myhammerLink": "https://www.11880.com/suche/hausmeisterservice/landsberg",
+      "myhammerRating": null,
+      "myhammerReviews": null,
+      "sources": [
+        "https://www.11880.com/suche/hausmeisterservice/landsberg",
+        "https://11880.com/branchenbuch/landsberg-am-lech/hausmeisterservice"
+      ],
+      "websiteStatus": "keine eigene Website gefunden",
+      "websiteRisk": "mittel"
+    },
+    {
+      "company": "Horst Bieder Trockenbau",
+      "slug": "trockenbau-bieder-landsberg",
+      "trade": "Trockenbau",
+      "city": "Landsberg am Lech",
+      "date": "2026-10-18",
+      "phone": "08191 922118",
+      "email": null,
+      "googleLink": "https://www.google.com/maps/search/?api=1&query=Horst%20Bieder%20Trockenbau%20Christoph-Thomas-Scheffler-Str.%204%20Landsberg",
+      "googleVerified": false,
+      "myhammerLink": "https://www.11880.com/branchenbuch/landsberg-am-lech/292245417B100779310/horst-bieder-trockenbau.html",
+      "myhammerRating": null,
+      "myhammerReviews": null,
+      "sources": [
+        "https://www.11880.com/branchenbuch/landsberg-am-lech/292245417B100779310/horst-bieder-trockenbau.html",
+        "https://www.11880.com/suche/trockenbau/landsberg",
+        "https://firmania.de/landsberg/horst-bieder-trockenbau-623881",
+        "https://bauenwohnen.org/BY/landsberg/horst-bieder-trockenbau/",
+        "https://www.oeffnungszeitenbuch.de/filiale/Landsberg-Horst%2520Bieder%2520Trockenbau-3020908O.html"
+      ],
+      "websiteStatus": "keine eigene Website gefunden",
+      "websiteRisk": "mittel"
+    },
+    {
+      "company": "Gabriel Pantiru Hausmeisterservice & Trockenbau",
+      "slug": "hausmeisterservice-trockenbau-pantiru-geretsried",
+      "trade": "Hausmeisterservice & Trockenbau",
+      "city": "Geretsried",
+      "date": "2026-10-18",
+      "phone": "0173 6001746",
+      "email": null,
+      "googleLink": "https://www.google.com/maps/search/?api=1&query=Gabriel%20Pantiru%20Hausmeisterservice%20%26%20Trockenbau%20Max-Reger-Weg%206%20Geretsried",
+      "googleVerified": false,
+      "myhammerLink": "https://www.11880.com/suche/trockenbau/geretsried",
+      "myhammerRating": null,
+      "myhammerReviews": null,
+      "sources": [
+        "https://www.11880.com/suche/trockenbau/geretsried"
+      ],
+      "websiteStatus": "keine eigene Website gefunden",
+      "websiteRisk": "mittel",
+      "reserve": true
+    },
+    {
+      "company": "Marcin Liczberski Fliesenlegerei",
+      "slug": "fliesen-magier-liczberski-germering",
+      "trade": "Fliesenleger",
+      "city": "Germering",
+      "date": "2026-10-18",
+      "phone": "0177 1905202",
+      "email": null,
+      "googleLink": "https://www.google.com/maps/search/?api=1&query=Marcin%20Liczberski%20Fliesenlegerei%20Parkstr.%202%20Germering",
+      "googleVerified": false,
+      "myhammerLink": "https://www.11880.com/suche/fliesenleger/germering",
+      "myhammerRating": null,
+      "myhammerReviews": null,
+      "sources": [
+        "https://www.11880.com/suche/fliesenleger/germering",
+        "https://www.dasoertliche.de/?kw=Liczberski&ci=Germering",
+        "https://www.fliesenleger.net/"
+      ],
+      "websiteStatus": "keine eigene Website gefunden",
+      "websiteRisk": "mittel",
+      "reserve": true
+    },
+    {
+      "company": "BT-Trockenbau",
+      "slug": "bt-trockenbau-ottobrunn",
+      "trade": "Trockenbau",
+      "city": "Ottobrunn",
+      "date": "2026-10-18",
+      "phone": "0172 9536025",
+      "email": null,
+      "googleLink": "https://www.google.com/maps/search/?api=1&query=BT-Trockenbau%20Zeisigstr.%2014%20Ottobrunn",
+      "googleVerified": false,
+      "myhammerLink": "https://www.11880.com/suche/trockenbau/ottobrunn",
+      "myhammerRating": null,
+      "myhammerReviews": null,
+      "sources": [
+        "https://www.11880.com/suche/trockenbau/ottobrunn"
+      ],
+      "websiteStatus": "keine eigene Website gefunden",
+      "websiteRisk": "mittel",
+      "reserve": true
+    },
+    {
+      "company": "Malereibetrieb M S",
+      "slug": "malereibetrieb-m-s-garching",
+      "trade": "Maler",
+      "city": "Garching b. München",
+      "date": "2026-10-18",
+      "phone": "0176 84899607",
+      "email": null,
+      "googleLink": "https://www.google.com/maps/search/?api=1&query=Malereibetrieb%20M%20S%20R%C3%B6merhofweg%2049%20Garching%20b.%20M%C3%BCnchen",
+      "googleVerified": false,
+      "myhammerLink": "https://www.11880.com/suche/maler/garching-bei-muenchen",
+      "myhammerRating": null,
+      "myhammerReviews": null,
+      "sources": [
+        "https://www.11880.com/suche/maler/garching-bei-muenchen"
+      ],
+      "websiteStatus": "keine eigene Website gefunden",
+      "websiteRisk": "mittel",
+      "reserve": true
+    },
+    {
+      "company": "Nerim Bau UG (haftungsbeschränkt)",
+      "slug": "nerim-bau-erding",
+      "trade": "Innenausbau & Renovierung",
+      "city": "Erding",
+      "date": "2026-10-18",
+      "phone": "0160 8115169",
+      "email": null,
+      "googleLink": "https://www.google.com/maps/search/?api=1&query=Nerim%20Bau%20UG%20%28haftungsbeschr%C3%A4nkt%29%20Stefanstr.%2015%20Erding",
+      "googleVerified": false,
+      "myhammerLink": "https://www.11880.com/suche/trockenbau/erding",
+      "myhammerRating": null,
+      "myhammerReviews": null,
+      "sources": [
+        "https://www.11880.com/suche/trockenbau/erding",
+        "https://www.registercheck.de/"
+      ],
+      "websiteStatus": "keine eigene Website gefunden",
+      "websiteRisk": "mittel",
+      "reserve": true
     }
   ],
   "rejected": [
@@ -2067,6 +2278,196 @@
     {
       "company": "Durmishi Bodenleger (Germering)",
       "reason": "mögliche Website delta-kg.de (ungeklärt)",
+      "date": "2026-10-18"
+    },
+    {
+      "company": "Ronny Opitz Baudienstleistungen (Geretsried)",
+      "reason": "eigene Website",
+      "date": "2026-10-18"
+    },
+    {
+      "company": "Maler List (Wolfratshausen)",
+      "reason": "eigene Website",
+      "date": "2026-10-18"
+    },
+    {
+      "company": "FK Dienstleistungen (Geretsried)",
+      "reason": "eigene Website",
+      "date": "2026-10-18"
+    },
+    {
+      "company": "HG-Service Rupp (Taufkirchen/Vils)",
+      "reason": "eigene Website",
+      "date": "2026-10-18"
+    },
+    {
+      "company": "Martin Berg Hausmeisterservice (Isen)",
+      "reason": "eigene Website",
+      "date": "2026-10-18"
+    },
+    {
+      "company": "Malerbetrieb Eixenberger (Dorfen)",
+      "reason": "eigene Website",
+      "date": "2026-10-18"
+    },
+    {
+      "company": "Bytyqi Verputz (Dorfen)",
+      "reason": "eigene Website",
+      "date": "2026-10-18"
+    },
+    {
+      "company": "Fliesen Weber (Erding)",
+      "reason": "eigene Website",
+      "date": "2026-10-18"
+    },
+    {
+      "company": "Magnus von Terzi GaLaBau (Neufahrn)",
+      "reason": "eigene Website",
+      "date": "2026-10-18"
+    },
+    {
+      "company": "Syfra Hausmeisterdienste (Haar)",
+      "reason": "eigene Website",
+      "date": "2026-10-18"
+    },
+    {
+      "company": "MH-Dienstleistungen (Haar)",
+      "reason": "eigene Website",
+      "date": "2026-10-18"
+    },
+    {
+      "company": "HUG Brüderle (Olching)",
+      "reason": "eigene Website",
+      "date": "2026-10-18"
+    },
+    {
+      "company": "PATRIKETT Parkett (Germering)",
+      "reason": "eigene Website",
+      "date": "2026-10-18"
+    },
+    {
+      "company": "Robert Kreuch Wohnraumgestaltung (Puchheim)",
+      "reason": "eigene Website",
+      "date": "2026-10-18"
+    },
+    {
+      "company": "Maler Tomaselli (Eichenau)",
+      "reason": "eigene Website",
+      "date": "2026-10-18"
+    },
+    {
+      "company": "ZR-Bau (Puchheim)",
+      "reason": "eigene Website",
+      "date": "2026-10-18"
+    },
+    {
+      "company": "Renova-MUC (Olching)",
+      "reason": "Website mit gleicher Gmail",
+      "date": "2026-10-18"
+    },
+    {
+      "company": "Rudolf Paraj Baugewerbe (Unterschleißheim)",
+      "reason": "Domain-E-Mail",
+      "date": "2026-10-18"
+    },
+    {
+      "company": "Baumpflege Kramer (Neufahrn)",
+      "reason": "Domain baumpflege-kramer.de",
+      "date": "2026-10-18"
+    },
+    {
+      "company": "Hausmeisterservice Sykora (Ebersberg)",
+      "reason": "eigene Website",
+      "date": "2026-10-18"
+    },
+    {
+      "company": "KB Fliesen (Grafing)",
+      "reason": "eigene Website",
+      "date": "2026-10-18"
+    },
+    {
+      "company": "HMS-Ferencak (Poing)",
+      "reason": "eigene Website",
+      "date": "2026-10-18"
+    },
+    {
+      "company": "MS-Service Stern (Markt Schwaben)",
+      "reason": "eigene Website",
+      "date": "2026-10-18"
+    },
+    {
+      "company": "Spasic GaLaBau (Markt Schwaben)",
+      "reason": "eigene Website",
+      "date": "2026-10-18"
+    },
+    {
+      "company": "ZWINZ Hausmeisterei (Poing)",
+      "reason": "eigene Website",
+      "date": "2026-10-18"
+    },
+    {
+      "company": "Ruckzuck Entrümpelung (Grafing)",
+      "reason": "eigene Website",
+      "date": "2026-10-18"
+    },
+    {
+      "company": "Bavaria Entrümpelung (Grafing)",
+      "reason": "Domain-E-Mail",
+      "date": "2026-10-18"
+    },
+    {
+      "company": "die-clever-entrümpler (Grafing)",
+      "reason": "eigene Website",
+      "date": "2026-10-18"
+    },
+    {
+      "company": "A&M Fliesendesign (Landsberg)",
+      "reason": "eigene Website",
+      "date": "2026-10-18"
+    },
+    {
+      "company": "PERFEMO Elektrotechnik (Königsbrunn)",
+      "reason": "eigene Website",
+      "date": "2026-10-18"
+    },
+    {
+      "company": "Rimmer Hausmeisterservice (Landsberg)",
+      "reason": "eigene Website",
+      "date": "2026-10-18"
+    },
+    {
+      "company": "Renovierung El Kima (Ottobrunn)",
+      "reason": "eigene Website",
+      "date": "2026-10-18"
+    },
+    {
+      "company": "Pauls Hausmeisterservice (Kaufering)",
+      "reason": "eigene Website",
+      "date": "2026-10-18"
+    },
+    {
+      "company": "Kiechle Edle Räume (Geretsried)",
+      "reason": "eigene Website",
+      "date": "2026-10-18"
+    },
+    {
+      "company": "Rusnov Gebäudereinigung (Neuching)",
+      "reason": "eigene Website",
+      "date": "2026-10-18"
+    },
+    {
+      "company": "Zimmermann-Späth Hausmeisterei (Poing)",
+      "reason": "eigene Website",
+      "date": "2026-10-18"
+    },
+    {
+      "company": "Osterman Service (Poing)",
+      "reason": "Domain-E-Mail",
+      "date": "2026-10-18"
+    },
+    {
+      "company": "Lech Clean (Landsberg)",
+      "reason": "Domain-E-Mail",
       "date": "2026-10-18"
     }
   ]

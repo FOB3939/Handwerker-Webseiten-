@@ -64,7 +64,7 @@ const PATHS: Record<string, string[]> = {
 const RULES: [RegExp, string][] = [
   [/wallbox|lades(ä|a)ule|e-?auto/i, "wallbox"],
   [/smart\s?home|knx|haussteuer/i, "smart"],
-  [/netzwerk|daten|lan|kabel(verlegung)?|sat|antenne/i, "network"],
+  [/netzwerk|datenleitung|\blan\b|kabel(verlegung)?|\bsat\b|antenne/i, "network"],
   [/licht|leuchte|beleuchtung|lampe/i, "bulb"],
   [/steckdose|schalter|zählerschrank|verteiler|sicherung/i, "socket"],
   [/photovoltaik|pv\b|solar/i, "solar"],
@@ -100,7 +100,7 @@ const RULES: [RegExp, string][] = [
   [/pflaster|terrasse|wege|einfahrt|naturstein/i, "paving"],
   [/zaun|sichtschutz/i, "fence"],
   [/erd|aushub|bagger|graben/i, "shovel"],
-  [/garten|grün|laub|pflanz|beet/i, "leaf"],
+  [/garten|grün|laub|pflanz|beet|landschaft/i, "leaf"],
   [/winter|schnee|räum/i, "snow"],
   [/entrümpel|entsorg|räumung|müll|sperr/i, "trash"],
   [/umzug|transport/i, "truck"],

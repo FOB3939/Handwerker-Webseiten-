@@ -83,7 +83,7 @@ function TopBar({ lead, call }: Ctx) {
             <span><b>{fmt(mh.rating)}</b> von 5{mh.reviews !== null && ` · ${mh.reviews} Bewertungen`} auf MyHammer</span>
           </a>
         )}
-        <span className="hidden text-t-dark-ink/75 md:inline">Einsatzgebiet: {company.serviceArea.slice(0, 3).join(", ")} &amp; Umgebung</span>
+        <span className="hidden text-t-dark-ink/75 md:inline">Einsatzgebiet: {company.serviceArea.filter((x) => !/umgebung/i.test(x)).slice(0, 3).join(", ")} &amp; Umgebung</span>
         <div className="flex items-center gap-4">
           {company.email && <a href={`mailto:${company.email}`} className="hidden hover:underline sm:inline">{company.email}</a>}
           {company.phone && <a href={call} className="font-semibold hover:underline">{company.phone}</a>}
@@ -400,11 +400,11 @@ function OfferStrip({ lead, hof, dark = false }: { lead: Lead; hof: boolean; dar
     return (
       <ul data-pop aria-label="Leistungen auf einen Blick" className="mt-7 grid max-w-xl grid-cols-2 gap-2.5 sm:grid-cols-3">
         {offer.map((o, k) => (
-          <li key={o} style={{ "--k": k } as CSSProperties} className={`offer-tile flex items-center gap-2.5 rounded-t px-2.5 py-2.5 text-[13px] font-bold leading-tight shadow-sm ${dark ? "bg-white/10 text-white ring-1 ring-white/25 backdrop-blur" : "bg-t-surface text-t-ink ring-1 ring-t-line"}`}>
+          <li key={o} style={{ "--k": k } as CSSProperties} className={`offer-tile flex flex-col items-center gap-2 rounded-t px-2 py-3 text-center text-[12px] font-bold leading-tight shadow-sm sm:flex-row sm:gap-2.5 sm:px-2.5 sm:py-2.5 sm:text-left sm:text-[13px] ${dark ? "bg-white/10 text-white ring-1 ring-white/25 backdrop-blur" : "bg-t-surface text-t-ink ring-1 ring-t-line"}`}>
             <span className={`grid h-10 w-10 shrink-0 place-items-center rounded-full ${dark ? "bg-t-accent text-t-accent-ink" : "bg-t-accent/15 text-t-accent"}`}>
               <ServiceIcon name={serviceIcon(o, lead.site.scene)} size={22} />
             </span>
-            <span lang="de" className={`min-w-0 hyphens-auto break-words ${o.length > 15 ? "text-[12px]" : ""}`}>{o}</span>
+            <span lang="de" className={`min-w-0 hyphens-auto break-words ${o.length > 15 ? "sm:text-[12px]" : ""}`}>{o}</span>
           </li>
         ))}
       </ul>

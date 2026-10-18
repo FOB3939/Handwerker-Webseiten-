@@ -91,6 +91,16 @@ Claude-Artifacts veröffentlicht und über das Share-Menü gezielt an den jeweil
 | 2026-10-18 | CM Trockenbau (Reserve) | https://claude.ai/artifact/DivRL6ZqKmKPU7V6MtTXgd |
 | 2026-10-18 | Malsor Ceku – Bodenleger (Reserve) | https://claude.ai/artifact/FFGjceCu7FFxLL35r76Z8x |
 | 2026-10-18 | Roland Bodenleger (Reserve) | https://claude.ai/artifact/QMHGLrewZYyCj89gNQb1SQ |
+| 2026-10-18 | Koller Kraftbau | https://claude.ai/artifact/8Uu8PSGRgtps7SAcDiQ6Qu |
+| 2026-10-18 | P&C InnoBau | https://claude.ai/artifact/TpyYdf6GDxi6pNca4tHHHp |
+| 2026-10-18 | Trockenbau-Brian | https://claude.ai/artifact/8iYkrHV5Y9EZnUkDZyddfW |
+| 2026-10-18 | Forstner Dienstleistungen & mehr | https://claude.ai/artifact/4CEDLDQngyh2oAnw5Lp1Vb |
+| 2026-10-18 | Horst Bieder Trockenbau | https://claude.ai/artifact/2vfw4nme3xhfVJPBKbjHia |
+| 2026-10-18 | Gabriel Pantiru Hausmeisterservice & Trockenbau (Reserve) | https://claude.ai/artifact/16UUUxxHfZPoQntdXnqeLG |
+| 2026-10-18 | Marcin Liczberski Fliesenlegerei (Reserve) | https://claude.ai/artifact/MfPgHY6YBCXRhQpHyVGEUu |
+| 2026-10-18 | BT-Trockenbau (Reserve) | https://claude.ai/artifact/9XcrHtDDThuEiLV36UXPWv |
+| 2026-10-18 | Malereibetrieb M S (Reserve) | https://claude.ai/artifact/Dt2x4e3tqXKLBLGpLMEVbr |
+| 2026-10-18 | Nerim Bau UG (haftungsbeschränkt) (Reserve) | https://claude.ai/artifact/SdDQs8LtSqZmZzGbmLMhj1 |
 
 ## Design-Standard der Entwürfe
 

@@ -1,0 +1,347 @@
+{
+  "id": "2026-10-18-78",
+  "slug": "nerim-bau-erding",
+  "date": "2026-10-18",
+  "company": {
+    "name": "Nerim Bau UG (haftungsbeschränkt)",
+    "owner": "Sherif Ahmetovic",
+    "trade": "Innenausbau & Renovierung",
+    "city": "Erding",
+    "address": "Stefanstr. 15, 85435 Erding",
+    "phone": "0160 8115169",
+    "email": null,
+    "serviceArea": [
+      "Erding",
+      "Umgebung"
+    ]
+  },
+  "listings": {
+    "google": {
+      "url": "https://www.google.com/maps/search/?api=1&query=Nerim%20Bau%20UG%20%28haftungsbeschr%C3%A4nkt%29%20Stefanstr.%2015%20Erding",
+      "rating": null,
+      "reviews": null,
+      "evidence": "NICHT BELEGT – kein google.com/maps/place-Treffer und kein Google-Spiegel (trustlocal o. ä.) mit Google-Bewertungen gefunden. Ob ein Google-Eintrag existiert und ob dort eine Website hinterlegt ist, muss vor Versand in Google Maps geprüft werden."
+    },
+    "myhammer": {
+      "url": "https://www.11880.com/suche/trockenbau/erding",
+      "rating": null,
+      "reviews": null,
+      "evidence": "Kein MyHammer gefunden – Eintrag „Nerim Bau UG (haftungsbeschränkt)“ bei 11880 (Stefanstr. 15, Erding, Mobil 0160 8115169; Trockenbau, Fliesen, Boden, Renovierung)."
+    }
+  },
+  "websiteStatus": "keine eigene Website gefunden",
+  "websiteChecks": [
+    "(1) „Nerim Bau Erding“ mit blocked_domains (11880, Gelbe Seiten, Das Örtliche, Telefonbuch, Cylex, meinestadt, Creditreform, Facebook, Instagram, golocal, MyHammer, Northdata, Firmenwissen, WKDB, Yelp, trustlocal, wlw) – keine eigene Domain (Vorprüfung)",
+    "(2) Telefonsuche „0160 8115169“ – keine Website (Vorprüfung)",
+    "(3) Domain-Check auf 8 naheliegende Domains (nerim-bau.de, nerimbau.de u. ä.) – keine Treffer (Vorprüfung)",
+    "(5) Verzeichnisse (Vorprüfung): kein Website-Feld bekannt; keine E-Mail-Adresse belegt (auch keine Freemail)",
+    "(6) Google-Spiegel: nicht vorhanden – Google-Eintrag unbelegt",
+    "Website-Risiko: mittel – Vorprüfungen negativ, aber weder Google-Eintrag noch Freemail belegt (RESERVE)"
+  ],
+  "facts": {
+    "services": [
+      "Trockenbau",
+      "Fliesen",
+      "Boden",
+      "Renovierung"
+    ],
+    "experience": null,
+    "praisedFor": []
+  },
+  "strategy": {
+    "audience": "Hauseigentümer und Vermieter in Erding und Umgebung, die renovieren, Böden erneuern oder Trockenbau und Fliesen ausführen lassen wollen",
+    "mainService": "Renovierung mit Trockenbau, Fliesen und Böden",
+    "trustSignal": "Betrieb vor Ort in Erding, direkt per Handy erreichbar",
+    "conversionGoal": "Kostenloses Angebot anfragen (per WhatsApp/Anruf mit Fotos)",
+    "visualConcept": "Moderne, helle Innenräume mit neuem Boden, glatten Wänden und klaren Linien"
+  },
+  "sales": {
+    "score": 4,
+    "whyGoodLead": [
+      "Keine eigene Website gefunden – nur Verzeichniseinträge mit Handynummer",
+      "Mobilnummer öffentlich gelistet – WhatsApp-Erstkontakt möglich",
+      "Kaum Online-Sichtbarkeit – eine Website mit Anfrageformular schafft einen direkten Kanal",
+      "RESERVE: Google-Eintrag unbelegt – nur nach Maps-Prüfung versenden"
+    ],
+    "pitch": "Hallo, hier ist … – ich baue Websites für Handwerksbetriebe im Münchner Umland. Ich habe Ihren Eintrag „Nerim Bau“ in Erding gefunden, aber keine eigene Website. Ich habe unverbindlich einen Entwurf vorbereitet, auf dem Kunden Ihre Leistungen sehen und direkt per WhatsApp anfragen können – darf ich Ihnen den Link schicken?"
+  },
+  "manualChecks": [
+    "RESERVE – weder Google-Eintrag noch Freemail-Adresse belegt: NUR versenden, wenn Google Maps einen Eintrag OHNE Website zeigt.",
+    "Website-Risiko: mittel – vor Versand in Google Maps prüfen, dass keine Website hinterlegt ist (Grund: Vorprüfungen negativ, aber weder Google-Eintrag noch Freemail belegt)",
+    "Einsatzgebiet: nur Sitz Erding belegt – konkrete Nachbarorte nicht belegt, beim Betrieb erfragen",
+    "Geschäftsführer Sherif Ahmetovic nur laut registercheck – Anrede vor Versand bestätigen",
+    "Leistungen nur als Kategorien belegt (Trockenbau, Fliesen, Boden, Renovierung) – Details beim Betrieb bestätigen",
+    "PLZ 85435 aus Ortsname ergänzt – mit Eintrag abgleichen",
+    "Bewertungen, Öffnungszeiten, Logo und Projektfotos: nicht belegt – beim Betrieb anfragen"
+  ],
+  "sources": [
+    {
+      "label": "11880 – Trockenbau Erding (Suchliste mit Nerim Bau UG)",
+      "url": "https://www.11880.com/suche/trockenbau/erding"
+    },
+    {
+      "label": "registercheck – Nerim Bau UG (haftungsbeschränkt), Erding",
+      "url": "https://www.registercheck.de/"
+    }
+  ],
+  "site": {
+    "theme": "objekt",
+    "category": "handwerk",
+    "heroOffer": [
+      "Renovierung",
+      "Trockenbau",
+      "Fliesen verlegen",
+      "Bodenbeläge"
+    ],
+    "scene": "parquet",
+    "logoIcon": "plank",
+    "logoMark": "NB",
+    "brandName": "Nerim Bau",
+    "seoTitle": "Innenausbau & Renovierung in Erding – Nerim Bau",
+    "seoDescription": "Trockenbau, Fliesen, Böden und Renovierung in Erding und Umgebung. Jetzt kostenloses Angebot anfragen – auch per WhatsApp.",
+    "nav": [
+      {
+        "label": "Leistungen",
+        "href": "#leistungen"
+      },
+      {
+        "label": "Projekte",
+        "href": "#projekte"
+      },
+      {
+        "label": "Bewertungen",
+        "href": "#bewertungen"
+      },
+      {
+        "label": "Ablauf",
+        "href": "#ablauf"
+      },
+      {
+        "label": "FAQ",
+        "href": "#faq"
+      },
+      {
+        "label": "Kontakt",
+        "href": "#kontakt"
+      }
+    ],
+    "hero": {
+      "eyebrow": "Innenausbau & Renovierung · Erding",
+      "headline": "Renovierung & Böden in Erding",
+      "sub": "Trockenbau, Fliesen und Böden aus einer Hand – direkt anfragen.",
+      "ctaPrimary": "Kostenloses Angebot anfragen",
+      "ctaSecondary": "Anrufen",
+      "bullets": [
+        "Betrieb in Erding",
+        "Trockenbau, Fliesen, Boden",
+        "Direkt per Handy erreichbar"
+      ],
+      "imageLabel": "renovierter heller Raum mit neuem Boden"
+    },
+    "badges": [
+      {
+        "title": "Renovierung",
+        "sub": "Innenräume"
+      },
+      {
+        "title": "Trockenbau",
+        "sub": "Wände & Decken"
+      },
+      {
+        "title": "Fliesen & Boden",
+        "sub": "neu verlegt"
+      },
+      {
+        "title": "Erding",
+        "sub": "Stefanstr."
+      }
+    ],
+    "trust": [
+      {
+        "value": "Vor Ort",
+        "label": "Betrieb in Erding"
+      },
+      {
+        "value": "4",
+        "label": "Leistungsbereiche"
+      },
+      {
+        "value": "Direkt",
+        "label": "ohne Callcenter"
+      },
+      {
+        "value": "Mobil",
+        "label": "schnell erreichbar"
+      }
+    ],
+    "servicesIntro": {
+      "headline": "Renovierung aus einer Hand",
+      "text": "Trockenbau, Fliesen und Böden – ein Ansprechpartner für Ihr Vorhaben."
+    },
+    "services": [
+      {
+        "title": "Renovierung",
+        "text": "Innenräume erneuern – Umfang und Ablauf stimmen wir gemeinsam ab.",
+        "items": [
+          "Innenräume",
+          "Nach Absprache",
+          "Ein Ansprechpartner"
+        ]
+      },
+      {
+        "title": "Trockenbauwände",
+        "text": "Neue Raumaufteilung und Verkleidungen in Trockenbau.",
+        "items": [
+          "Ständerwände",
+          "Decken",
+          "Verspachteln"
+        ]
+      },
+      {
+        "title": "Fliesen verlegen",
+        "text": "Wand- und Bodenfliesen – sauber verlegt und verfugt.",
+        "items": [
+          "Wandfliesen",
+          "Bodenfliesen",
+          "Verfugen"
+        ]
+      },
+      {
+        "title": "Bodenbeläge",
+        "text": "Neue Böden für Ihre Räume nach Absprache.",
+        "items": [
+          "Bodenarbeiten",
+          "Saubere Übergänge",
+          "Nach Absprache"
+        ]
+      }
+    ],
+    "why": {
+      "headline": "Innenausbau & Renovierung aus Erding – direkt und unkompliziert.",
+      "points": [
+        {
+          "title": "Kurze Wege",
+          "text": "Der Betrieb sitzt in Erding und arbeitet in der Umgebung."
+        },
+        {
+          "title": "Direkter Kontakt",
+          "text": "Ein Anruf oder eine WhatsApp-Nachricht genügt."
+        },
+        {
+          "title": "Klare Absprachen",
+          "text": "Umfang und Ablauf werden vorab gemeinsam abgestimmt."
+        },
+        {
+          "title": "Mehrere Gewerke",
+          "text": "Trockenbau, Fliesen und Böden in einem Auftrag."
+        }
+      ]
+    },
+    "reviews": {
+      "headline": "Was Kunden sagen",
+      "summary": "Kundenstimmen werden hier eingebunden, sobald sie aus einem Bewertungsprofil übernommen sind.",
+      "highlights": [
+        "Renovierung",
+        "Trockenbau",
+        "Fliesen & Böden"
+      ],
+      "source": "Google",
+      "sourceUrl": "https://www.google.com/maps/search/?api=1&query=Nerim%20Bau%20UG%20%28haftungsbeschr%C3%A4nkt%29%20Stefanstr.%2015%20Erding",
+      "rating": null,
+      "count": null
+    },
+    "process": {
+      "headline": "In vier Schritten zum Ergebnis",
+      "steps": [
+        {
+          "title": "Anfrage",
+          "text": "Fotos und grobe Maße per WhatsApp schicken – oder kurz anrufen."
+        },
+        {
+          "title": "Besichtigung",
+          "text": "Umfang und Details werden vor Ort abgestimmt."
+        },
+        {
+          "title": "Angebot",
+          "text": "Sie erhalten ein klares Angebot für Ihr Vorhaben."
+        },
+        {
+          "title": "Ausführung",
+          "text": "Die Arbeiten werden wie besprochen sauber ausgeführt und übergeben."
+        }
+      ]
+    },
+    "gallery": {
+      "headline": "Räume, die neu werden",
+      "text": "Für die Live-Version zeigen wir hier echte Projekte des Betriebs.",
+      "items": [
+        {
+          "title": "Neuer Boden",
+          "photoNeeded": "frisch verlegter Boden"
+        },
+        {
+          "title": "Fliesen",
+          "photoNeeded": "gefliestes Bad oder Küche"
+        },
+        {
+          "title": "Trockenbau",
+          "photoNeeded": "neue Trockenbauwand"
+        }
+      ]
+    },
+    "region": {
+      "headline": "Innenausbau & Renovierung für Erding und Umgebung",
+      "text": "Von Erding aus für Kunden in der Umgebung – fragen Sie einfach an.",
+      "places": [
+        "Erding",
+        "Umgebung"
+      ]
+    },
+    "faq": [
+      {
+        "q": "Kann ich vorab Fotos schicken?",
+        "a": "Ja, Fotos und grobe Maße per WhatsApp helfen für eine erste Einschätzung."
+      },
+      {
+        "q": "Was kostet mein Vorhaben?",
+        "a": "Das hängt von Umfang und Material ab. Nach einer Besichtigung erhalten Sie ein klares Angebot."
+      },
+      {
+        "q": "Übernehmen Sie mehrere Arbeiten in einem Auftrag?",
+        "a": "Ja, Trockenbau, Fliesen, Böden und Renovierung gehören zum Angebot."
+      },
+      {
+        "q": "Arbeiten Sie auch außerhalb von Erding?",
+        "a": "Fragen Sie einfach an – auch für die Umgebung von Erding."
+      }
+    ],
+    "contact": {
+      "headline": "Ihr Angebot – kostenlos und unverbindlich",
+      "text": "Beschreiben Sie kurz Ihr Vorhaben: welche Räume und welche Arbeiten. Fotos helfen.",
+      "topics": [
+        "Renovierung",
+        "Trockenbauwände",
+        "Fliesen verlegen",
+        "Bodenbeläge",
+        "Sonstiges"
+      ],
+      "responseNote": "Besichtigung nach Absprache."
+    },
+    "quote": {
+      "sizeLabel": "Was soll gemacht werden?",
+      "sizes": [
+        "Ein Raum",
+        "Mehrere Räume",
+        "Wohnung komplett",
+        "Bad"
+      ],
+      "timings": [
+        "So bald wie möglich",
+        "In den nächsten Wochen",
+        "In 1–3 Monaten",
+        "Ich plane erst noch"
+      ]
+    },
+    "stickyCta": "Angebot anfragen"
+  }
+}

@@ -74,60 +74,6 @@
       "hint": "sellwerk-Profil (prüfen, ob als Website gilt)"
     },
     {
-      "name": "P&C InnoBau",
-      "trade": "Bau/Fliesen/Maler/Trockenbau",
-      "city": "Unterschleißheim",
-      "hint": "Ganghoferstr. 15, Mobil 0176 16376264; Name, 8 Domains, Telefon negativ; Google/Freemail fehlt"
-    },
-    {
-      "name": "Rudolf Paraj Baugewerbe",
-      "trade": "Fliesen/Abbruch",
-      "city": "Unterschleißheim-Hollern",
-      "hint": "0176 62317877 (11880)"
-    },
-    {
-      "name": "Malereibetrieb M S",
-      "trade": "Maler/Trockenbau",
-      "city": "Garching",
-      "hint": "Römerhofweg 49, 0176 84899607 (11880)"
-    },
-    {
-      "name": "Magnus von Terzi GaLaBau",
-      "trade": "GaLaBau",
-      "city": "Neufahrn",
-      "hint": "trustlocal 5,0 (3) = Google-Beleg"
-    },
-    {
-      "name": "Baumpflege Kramer",
-      "trade": "Baumpflege",
-      "city": "Neufahrn",
-      "hint": "11880"
-    },
-    {
-      "name": "Baumpflege Hauser",
-      "trade": "Baumpflege",
-      "city": "Eching",
-      "hint": "11880"
-    },
-    {
-      "name": "Der Fliesen-Magier",
-      "trade": "Fliesen/Boden/Trockenbau",
-      "city": "Germering",
-      "hint": "Parkstr. 2, 0177 1905202 (11880)"
-    },
-    {
-      "name": "PATRIKETT Parkett",
-      "trade": "Bodenleger",
-      "city": "Germering",
-      "hint": "Nelkenstr. 32, 0176 23417738 (11880)"
-    },
-    {
-      "name": "Baum- und Gartenpflege Olching",
-      "trade": "Gartenpflege",
-      "city": "Olching",
-      "hint": "trustlocal-Profil (Google-Beleg wahrscheinlich)"
-    },
-    {
       "name": "Balint Innenausbau & Trockenbau",
       "trade": "Trockenbau",
       "city": "Fürstenfeldbruck",
@@ -146,18 +92,6 @@
       "hint": "11880"
     },
     {
-      "name": "Syfra Hausmeisterdienste / MH-Dienstleistungen",
-      "trade": "Hausmeister",
-      "city": "Haar",
-      "hint": "trustlocal = Google-Beleg"
-    },
-    {
-      "name": "BT-Trockenbau",
-      "trade": "Trockenbau",
-      "city": "Ottobrunn",
-      "hint": "Zeisigstr. 14"
-    },
-    {
       "name": "Christoph Niedersteiner Malewerk",
       "trade": "Maler",
       "city": "Markt Indersdorf",
@@ -168,6 +102,156 @@
       "trade": "Fliesen",
       "city": "Karlsfeld",
       "hint": "Richard-Wagner-Str. 13"
+    },
+    {
+      "name": "Stevo Kuzmanovic",
+      "trade": "Trockenbau/Fliesen",
+      "city": "Glonn",
+      "hint": "11880"
+    },
+    {
+      "name": "Fliesen Trybula",
+      "trade": "Fliesen/Vinyl",
+      "city": "Kirchseeon",
+      "hint": "11880"
+    },
+    {
+      "name": "NOJA Fliesen (Norman Kosch)",
+      "trade": "Fliesen",
+      "city": "Zorneding",
+      "hint": "Bahnwiesenstr. 3"
+    },
+    {
+      "name": "Fliesenleger Jürgen Pfeifer",
+      "trade": "Fliesen",
+      "city": "Grafing",
+      "hint": "08092 2321300"
+    },
+    {
+      "name": "CO Entrümpelung",
+      "trade": "Entrümpelung",
+      "city": "Ebersberg",
+      "hint": "An der Schafweide 2"
+    },
+    {
+      "name": "Allroundservice Rohleder",
+      "trade": "Entrümpelung",
+      "city": "Anzing",
+      "hint": "08121 9028712"
+    },
+    {
+      "name": "Trockenbau Rafał Mazurek",
+      "trade": "Trockenbau",
+      "city": "Windach",
+      "hint": "11880, 1×5,0"
+    },
+    {
+      "name": "Heiko Palmer Innenausbau",
+      "trade": "Trockenbau/Fliesen",
+      "city": "Landsberg",
+      "hint": "11880"
+    },
+    {
+      "name": "Montage Bau Dilmann",
+      "trade": "Trockenbau/Akustik",
+      "city": "Landsberg",
+      "hint": "11880"
+    },
+    {
+      "name": "Rene Janke Trockenbau",
+      "trade": "Trockenbau",
+      "city": "Hurlach",
+      "hint": "11880"
+    },
+    {
+      "name": "Merlin Haus- und Gartenservice",
+      "trade": "Hausmeister/Garten",
+      "city": "Schwabmünchen",
+      "hint": "08232 8079270"
+    },
+    {
+      "name": "Malerbetrieb Ratzka",
+      "trade": "Maler/Boden",
+      "city": "Penzing",
+      "hint": "08191 8271"
+    },
+    {
+      "name": "Sultan Gartenservice (Türkoglu)",
+      "trade": "Gartenpflege",
+      "city": "Isen",
+      "hint": "Mobil 0171 4745247; Einträge 2022"
+    },
+    {
+      "name": "Sezer Seymen",
+      "trade": "Trockenbau",
+      "city": "Erding",
+      "hint": "11880"
+    },
+    {
+      "name": "Dieter Sesojew Fliesenleger",
+      "trade": "Fliesen",
+      "city": "Altenerding",
+      "hint": "08122 1777975"
+    },
+    {
+      "name": "Fliesen Capriglia",
+      "trade": "Fliesen",
+      "city": "Altenerding",
+      "hint": "08122 9597503"
+    },
+    {
+      "name": "Schlenzger's Hausmeisterservice",
+      "trade": "Hausmeister",
+      "city": "Dorfen",
+      "hint": "11880"
+    },
+    {
+      "name": "Etec M. Willibald",
+      "trade": "Elektro",
+      "city": "Lenggries",
+      "hint": "Mobil 0176 41487839; Name/8 Domains negativ"
+    },
+    {
+      "name": "Fliesen und Naturstein (Tiroler Str. 4)",
+      "trade": "Fliesen",
+      "city": "Wolfratshausen",
+      "hint": "Mobil 0177 2017880"
+    },
+    {
+      "name": "Handwerker Service Oskar Pietras",
+      "trade": "Sanitär/Trockenbau",
+      "city": "Geretsried",
+      "hint": "11880"
+    },
+    {
+      "name": "Tino's Malerbetrieb",
+      "trade": "Maler",
+      "city": "Geretsried",
+      "hint": "Beethovenweg 9"
+    },
+    {
+      "name": "Isartaler Fliesenverlegung",
+      "trade": "Fliesen",
+      "city": "Geretsried",
+      "hint": "Graslitzer Str. 12"
+    },
+    {
+      "name": "Top Garten & Rasen",
+      "trade": "Gartenpflege",
+      "city": "Bad Tölz",
+      "hint": "11880"
+    },
+    {
+      "name": "Krosi GaLaBau",
+      "trade": "GaLaBau",
+      "city": "Bad Tölz",
+      "hint": "11880"
+    },
+    {
+      "name": "Svitlana Kochale Hausmeisterservice",
+      "trade": "Hausmeister",
+      "city": "Landsberg",
+      "hint": "Schongauer Str."
     }
   ]
 }
