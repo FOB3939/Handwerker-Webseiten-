@@ -400,11 +400,11 @@ function OfferStrip({ lead, hof, dark = false }: { lead: Lead; hof: boolean; dar
     return (
       <ul data-pop aria-label="Leistungen auf einen Blick" className="mt-7 grid max-w-xl grid-cols-2 gap-2.5 sm:grid-cols-3">
         {offer.map((o, k) => (
-          <li key={o} style={{ "--k": k } as CSSProperties} className={`offer-tile flex items-center gap-3 rounded-t px-3 py-3 text-sm font-bold leading-tight shadow-sm sm:text-[15px] ${dark ? "bg-white/10 text-white ring-1 ring-white/25 backdrop-blur" : "bg-t-surface text-t-ink ring-1 ring-t-line"}`}>
+          <li key={o} style={{ "--k": k } as CSSProperties} className={`offer-tile flex items-center gap-2.5 rounded-t px-2.5 py-2.5 text-[13px] font-bold leading-tight shadow-sm ${dark ? "bg-white/10 text-white ring-1 ring-white/25 backdrop-blur" : "bg-t-surface text-t-ink ring-1 ring-t-line"}`}>
             <span className={`grid h-10 w-10 shrink-0 place-items-center rounded-full ${dark ? "bg-t-accent text-t-accent-ink" : "bg-t-accent/15 text-t-accent"}`}>
               <ServiceIcon name={serviceIcon(o, lead.site.scene)} size={22} />
             </span>
-            <span className="min-w-0">{o}</span>
+            <span lang="de" className={`min-w-0 hyphens-auto break-words ${o.length > 15 ? "text-[12px]" : ""}`}>{o}</span>
           </li>
         ))}
       </ul>
@@ -561,7 +561,7 @@ function Services({ lead, theme, upper, hof }: Ctx) {
           {services.map((s, i) => (
             <li key={s.title} className="group grid gap-4 py-8 transition-colors hover:bg-t-surface md:grid-cols-12 md:items-center md:px-4">
               <span className="flex items-center gap-3 md:col-span-1 md:flex-col md:items-start">
-                <span className="svc-badge grid h-14 w-14 place-items-center rounded-full bg-t-accent/10 text-t-accent ring-1 ring-t-accent/25"><ServiceIcon name={serviceIcon(`${s.title} ${s.items.join(" ")}`, scene)} size={28} /></span>
+                <span className="svc-badge grid h-14 w-14 place-items-center rounded-full bg-t-accent/10 text-t-accent ring-1 ring-t-accent/25"><ServiceIcon name={serviceIcon(s.title, scene, s.items)} size={28} /></span>
                 <span className="font-display text-sm font-bold text-t-accent/70">{String(i + 1).padStart(2, "0")}</span>
               </span>
               <div className="md:col-span-5">
@@ -583,7 +583,7 @@ function Services({ lead, theme, upper, hof }: Ctx) {
               <div className="overflow-hidden"><Scene kind={scene} palette={theme.palette} label={s.title} seed={i + 1} className="card-media aspect-[16/9] w-full" showLabel={false} /></div>
               <span className="card-line block h-1 bg-t-accent" aria-hidden="true" />
               <div className="relative flex flex-1 flex-col p-6 pt-10">
-                <span className="svc-badge absolute -top-7 left-6 grid h-14 w-14 place-items-center rounded-full bg-t-accent text-t-accent-ink shadow-lg ring-4 ring-t-surface"><ServiceIcon name={serviceIcon(`${s.title} ${s.items.join(" ")}`, scene)} size={26} /></span>
+                <span className="svc-badge absolute -top-7 left-6 grid h-14 w-14 place-items-center rounded-full bg-t-accent text-t-accent-ink shadow-lg ring-4 ring-t-surface"><ServiceIcon name={serviceIcon(s.title, scene, s.items)} size={26} /></span>
                 <h3 className={`font-display text-xl font-bold ${upper}`}>{s.title}</h3>
                 <p className="mt-2 text-t-muted">{s.text}</p>
                 <ul className="mt-4 space-y-1.5 text-sm">
@@ -602,7 +602,7 @@ function Services({ lead, theme, upper, hof }: Ctx) {
               <div className="overflow-hidden"><Scene kind={scene} palette={theme.palette} label={s.title} seed={i + 1} className="card-media aspect-[16/10] w-full" showLabel={false} /></div>
               <span className="card-line block h-1 bg-t-accent" aria-hidden="true" />
               <div className="relative p-6 pt-10">
-                <span className="svc-badge absolute -top-7 left-6 grid h-14 w-14 place-items-center rounded-full bg-t-accent text-t-accent-ink shadow-lg ring-4 ring-t-bg"><ServiceIcon name={serviceIcon(`${s.title} ${s.items.join(" ")}`, scene)} size={26} /></span>
+                <span className="svc-badge absolute -top-7 left-6 grid h-14 w-14 place-items-center rounded-full bg-t-accent text-t-accent-ink shadow-lg ring-4 ring-t-bg"><ServiceIcon name={serviceIcon(s.title, scene, s.items)} size={26} /></span>
                 <h3 className={`font-display text-xl font-bold ${upper}`}>{s.title}</h3>
                 <p className="mt-2 text-sm text-t-muted">{s.text}</p>
                 <p className="mt-3 text-sm font-semibold">{s.items.join(" · ")}</p>

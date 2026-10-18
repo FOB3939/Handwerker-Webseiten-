@@ -70,6 +70,8 @@ export const PLACES: Record<string, [number, number]> = {
   Penzing: [48.075, 10.925],
   Igling: [48.072, 10.808],
   Neuching: [48.247, 11.83],
+  "Garching b. München": [48.249, 11.651],
+  "Eching (Günzenhausen)": [48.32, 11.59],
   Lenggries: [47.68, 11.57],
   "Bad Tölz": [47.76, 11.56],
   Isen: [48.212, 12.058],

@@ -118,9 +118,14 @@ const SCENE_DEFAULT: Record<SceneKind, string> = {
   drywall: "drywall", electric: "bolt", facade: "facade", farm: "leaf",
 };
 
-export function serviceIcon(text: string, scene?: SceneKind): string {
+function match(text: string) {
   for (const [re, key] of RULES) if (re.test(text)) return key;
-  return scene ? SCENE_DEFAULT[scene] : "check";
+  return null;
+}
+
+// Erst der Titel, dann die Stichpunkte – so bekommt „Trockenbau“ die Wand und nicht die Decke aus „Deckenverkleidung“.
+export function serviceIcon(text: string, scene?: SceneKind, extra?: string[]): string {
+  return match(text) ?? (extra && match(extra.join(" "))) ?? (scene ? SCENE_DEFAULT[scene] : "check");
 }
 
 export default function ServiceIcon({ name, size = 24, className = "" }: { name: string; size?: number; className?: string }) {
