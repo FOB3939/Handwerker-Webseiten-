@@ -255,10 +255,10 @@ details[open] > .faq-body { animation: faq 0.35s ease-out; }
 
 /* Hero-Überschrift an das längste Wort anpassen (components/DemoSite.tsx: fitH1) */
 .fit-h1 {
-  font-size: min(3rem, calc((100vw - 2rem) / (var(--L) * 0.6))) !important;
+  font-size: min(3rem, calc((100vw - 2rem) / (var(--L) * var(--cw, 0.6)))) !important;
 }
 @media (min-width: 1024px) {
   .fit-h1 {
-    font-size: min(4.25rem, calc(min(100vw, 76rem) * var(--frac) / (var(--L) * 0.6))) !important;
+    font-size: min(4.25rem, calc(min(100vw, 76rem) * var(--frac) / (var(--L) * var(--cw, 0.6)))) !important;
   }
 }

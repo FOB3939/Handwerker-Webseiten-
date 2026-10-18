@@ -75,6 +75,13 @@ Claude-Artifacts veröffentlicht und über das Share-Menü gezielt an den jeweil
 | 2026-10-18 | Kufner & Weigl GmbH | https://claude.ai/artifact/XJwrZE4USpkNQRhRXgPWWE |
 | 2026-10-18 | Klaus Fraider Fliesenverlegemeisterbetrieb (Reserve) | https://claude.ai/artifact/9pkCrxHoL1jKLSPiE2mddq |
 | 2026-10-18 | Geflügelhof Ruhdorfer (Reserve) | https://claude.ai/artifact/GFUHWcZbMhBTAx3WEASmU4 |
+| 2026-10-18 | Wohnsystem e.K. | https://claude.ai/artifact/4hUXmrmiFz5VUXx5EXutAM |
+| 2026-10-18 | ARBau | https://claude.ai/artifact/5WZPaoCGvKN88qjFjMAThZ |
+| 2026-10-18 | Baukonzepte Hermann | https://claude.ai/artifact/D5iv4Nu1oLtL3bTga2bWum |
+| 2026-10-18 | Mateusz Oryszczak (Reserve) | https://claude.ai/artifact/QrJPRLbvNY2EdCQwAgFgqU |
+| 2026-10-18 | Trockenbau Spehar (Reserve) | https://claude.ai/artifact/QZGq9NRqX9TeuxhpWRnkWt |
+| 2026-10-18 | Antonio Di Venuta Fliesenleger (Reserve) | https://claude.ai/artifact/DSfJAByX2h6wAZzK7qBckC |
+| 2026-10-18 | WIR WIR (Reserve) | https://claude.ai/artifact/Shb9dz4BStpMhMfufnzJFD |
 
 ## Design-Standard der Entwürfe
 

@@ -747,6 +747,172 @@
       "websiteStatus": "keine eigene Website gefunden",
       "websiteRisk": "mittel",
       "reserve": true
+    },
+    {
+      "company": "Wohnsystem e.K.",
+      "slug": "wohnsystem-bajraktari-innenausbau-germering",
+      "trade": "Innenausbau, Trockenbau & Renovierung",
+      "city": "Germering",
+      "date": "2026-10-18",
+      "phone": "0176 28380303",
+      "email": "wohnsystem@gmail.com",
+      "googleLink": "https://www.google.com/maps/search/?api=1&query=Wohnsystem%20e.K.%20Meisenweg%207%20Germering",
+      "googleVerified": false,
+      "myhammerLink": "https://www.11880.com/branchenbuch/germering-oberbayern/060690823B107281312/wohnsystem-e-k-lulzim-bajraktari.html",
+      "myhammerRating": null,
+      "myhammerReviews": null,
+      "sources": [
+        "https://www.11880.com/branchenbuch/germering-oberbayern/060690823B107281312/wohnsystem-e-k-lulzim-bajraktari.html",
+        "https://www.11880.com/suche/trockenbau/germering",
+        "https://www.sanitaer-finden.de/germering/wohnsystem-ek-lulzim-bajraktari-aYCmka.html",
+        "https://www.oeffnungszeitenbuch.de/filiale/Germering-Wohnsystem%2520e.K%2520Lulzim%2520Bajraktari-4207487U.html",
+        "https://www.online-handelsregister.de/personen/Ljulzim-Bajraktari-Germering/cdf192630b54b1100f3f8090ec3eccc9",
+        "https://www.creditsafe.com/business-index/de-de/company/wohnsystem-ek-inhaber-ljulzim-bajraktari-de25554595",
+        "https://www.databyte.de/loesungen/firmensuche/firmenprofil/DE+DB65391080339+Muenchen-HRA-108711",
+        "https://www.goyellow.de/suche/maler/germering"
+      ],
+      "websiteStatus": "keine eigene Website gefunden",
+      "websiteRisk": "mittel"
+    },
+    {
+      "company": "ARBau",
+      "slug": "trockenbau-arbau-germering",
+      "trade": "Trockenbau, Akustikbau & Renovierung",
+      "city": "Germering",
+      "date": "2026-10-18",
+      "phone": "01517 1882872",
+      "email": "arbau.innenausbau@gmail.com",
+      "googleLink": "https://www.google.com/maps/search/?api=1&query=ARBau%20Streiflacher%20Str.%205c%20Germering",
+      "googleVerified": false,
+      "myhammerLink": "https://www.11880.com/suche/trockenbau/germering",
+      "myhammerRating": null,
+      "myhammerReviews": null,
+      "sources": [
+        "https://www.11880.com/suche/trockenbau/germering",
+        "https://www.11880.com/suche/akustikbau/germering",
+        "https://www.blauarbeit.de/handwerker/puchheim/arbau",
+        "https://anrufer.info/mobil/01517-188",
+        "https://ar-bau.de/kontakt.html"
+      ],
+      "websiteStatus": "keine eigene Website gefunden",
+      "websiteRisk": "niedrig"
+    },
+    {
+      "company": "Baukonzepte Hermann",
+      "slug": "baukonzepte-hermann-germering",
+      "trade": "Trockenbau, Malerarbeiten & Terrassenbau",
+      "city": "Germering",
+      "date": "2026-10-18",
+      "phone": "01515 5877525",
+      "email": "info.hermann.service@gmail.com",
+      "googleLink": "https://www.google.com/maps/search/?api=1&query=Baukonzepte%20Hermann%20Untere%20Bahnhofstr.%2056%20Germering",
+      "googleVerified": false,
+      "myhammerLink": "https://www.11880.com/suche/trockenbau/germering",
+      "myhammerRating": null,
+      "myhammerReviews": null,
+      "sources": [
+        "https://www.11880.com/suche/trockenbau/germering",
+        "https://www.11880.com/suche/entruempelung/germering",
+        "https://www.11880.com/suche/trockenbau/krailling",
+        "https://handyanrufe.de/rufnummer/01515/587"
+      ],
+      "websiteStatus": "keine eigene Website gefunden",
+      "websiteRisk": "mittel"
+    },
+    {
+      "company": "Mateusz Oryszczak",
+      "slug": "oryszczak-maler-putz-penzberg",
+      "trade": "Maler-, Putz- & Trockenbauarbeiten",
+      "city": "Penzberg",
+      "date": "2026-10-18",
+      "phone": "01520 6606478",
+      "email": null,
+      "googleLink": "https://www.google.com/maps/search/?api=1&query=Mateusz%20Oryszczak%20Poennensperchstr.%2018%20Penzberg",
+      "googleVerified": false,
+      "myhammerLink": "https://www.my-hammer.de/auftragnehmer/mateusz-oryszczak",
+      "myhammerRating": null,
+      "myhammerReviews": null,
+      "sources": [
+        "https://www.my-hammer.de/auftragnehmer/mateusz-oryszczak",
+        "https://www.my-hammer.de/malerarbeiten-tapezieren/maler-lackierer-berufe/penzberg",
+        "https://www.my-hammer.de/trockenbau-verputzen/trockenbauer-berufe/dietramszell?page=5",
+        "https://web2.cylex.de/suche/trockenbau/Penzberg",
+        "https://web2.cylex.de/branchen/malerbetriebe-und-tapezierarbeiten/Penzberg/",
+        "https://penzberg.stadtbranchenbuch.com/F/firmenverzeichnis.html"
+      ],
+      "websiteStatus": "keine eigene Website gefunden",
+      "websiteRisk": "mittel",
+      "reserve": true
+    },
+    {
+      "company": "Trockenbau Spehar",
+      "slug": "trockenbau-spehar-penzberg",
+      "trade": "Trockenbau",
+      "city": "Penzberg",
+      "date": "2026-10-18",
+      "phone": "0172 6492911",
+      "email": null,
+      "googleLink": "https://www.google.com/maps/search/?api=1&query=Trockenbau%20Spehar%20Am%20Haselberg%2025%20Penzberg",
+      "googleVerified": false,
+      "myhammerLink": "https://www.my-hammer.de/auftragnehmer/trockenbau-spehar",
+      "myhammerRating": null,
+      "myhammerReviews": null,
+      "sources": [
+        "https://www.my-hammer.de/auftragnehmer/trockenbau-spehar",
+        "https://www.my-hammer.de/trockenbau-verputzen/trockenbauer-berufe/penzberg",
+        "https://www.11880.com/branchenbuch/penzberg/292245417B113003236/trockenbau-spehar.html",
+        "https://www.dasoertliche.de/Themen/Trockenbau/Penzberg.html"
+      ],
+      "websiteStatus": "keine eigene Website gefunden",
+      "websiteRisk": "mittel",
+      "reserve": true
+    },
+    {
+      "company": "Antonio Di Venuta Fliesenleger",
+      "slug": "fliesenleger-di-venuta-herrsching",
+      "trade": "Fliesenleger",
+      "city": "Herrsching",
+      "date": "2026-10-18",
+      "phone": null,
+      "email": null,
+      "googleLink": "https://www.google.com/maps/search/?api=1&query=Antonio%20Di%20Venuta%20Fliesenleger%20Herrsching",
+      "googleVerified": false,
+      "myhammerLink": "https://www.my-hammer.de/boden-fliesen/fliesen-platten-mosaikleger-berufe/herrsching-am-ammersee",
+      "myhammerRating": 4.9,
+      "myhammerReviews": 12,
+      "sources": [
+        "https://www.my-hammer.de/boden-fliesen/fliesen-platten-mosaikleger-berufe/herrsching-am-ammersee",
+        "https://www.my-hammer.de/boden-fliesen/fliesen-platten-mosaikleger-berufe/poecking",
+        "https://www.my-hammer.de/boden-fliesen/fliesen-platten-mosaikleger-berufe/gauting",
+        "https://www.my-hammer.de/boden-fliesen/fliesen-platten-mosaikleger-berufe/seefeld",
+        "https://www.my-hammer.de/bauen-renovieren/steinmetz-berufe/seefeld",
+        "https://www.my-hammer.de/sanitaer/sanitaerinstallateur-berufe/andechs"
+      ],
+      "websiteStatus": "keine eigene Website gefunden",
+      "websiteRisk": "mittel",
+      "reserve": true
+    },
+    {
+      "company": "WIR WIR",
+      "slug": "maler-wir-wir-gauting",
+      "trade": "Maler & Lackierer",
+      "city": "Gauting",
+      "date": "2026-10-18",
+      "phone": null,
+      "email": null,
+      "googleLink": "https://www.google.com/maps/search/?api=1&query=WIR%20WIR%20Maler%20Gauting",
+      "googleVerified": false,
+      "myhammerLink": "https://www.my-hammer.de/malerarbeiten-tapezieren/maler-lackierer-berufe/gauting",
+      "myhammerRating": 4.9,
+      "myhammerReviews": 12,
+      "sources": [
+        "https://www.my-hammer.de/malerarbeiten-tapezieren/maler-lackierer-berufe/gauting",
+        "https://www.my-hammer.de/maler/gauting",
+        "https://www.my-hammer.de/malerarbeiten-tapezieren/maler-lackierer-berufe/germering"
+      ],
+      "websiteStatus": "keine eigene Website gefunden",
+      "websiteRisk": "mittel",
+      "reserve": true
     }
   ],
   "rejected": [
@@ -1371,6 +1537,216 @@
     },
     {
       "company": "Dreer Dienstleistungen (Olching)",
+      "reason": "eigene Website",
+      "date": "2026-10-18"
+    },
+    {
+      "company": "Fliesen Hopf (Dorfen)",
+      "reason": "eigene Website",
+      "date": "2026-10-18"
+    },
+    {
+      "company": "Maler Schwemmhuber (Neufahrn)",
+      "reason": "eigene Website",
+      "date": "2026-10-18"
+    },
+    {
+      "company": "Karimi SolarAutomation (Eching)",
+      "reason": "eigene Website",
+      "date": "2026-10-18"
+    },
+    {
+      "company": "Grabrucker Hausmeisterservice (Moosburg)",
+      "reason": "Website verlinkt",
+      "date": "2026-10-18"
+    },
+    {
+      "company": "Malerbetrieb Hack (Freising)",
+      "reason": "Domain hack-malerbetrieb.de",
+      "date": "2026-10-18"
+    },
+    {
+      "company": "Elektro Portenlänger (Sauerlach)",
+      "reason": "Website im Verzeichnis",
+      "date": "2026-10-18"
+    },
+    {
+      "company": "Fliesenleger Dörfler (Sauerlach)",
+      "reason": "eigene Website",
+      "date": "2026-10-18"
+    },
+    {
+      "company": "Fliesen Bauer (Sauerlach)",
+      "reason": "eigene Website",
+      "date": "2026-10-18"
+    },
+    {
+      "company": "Malerbetrieb Binder (Sauerlach)",
+      "reason": "eigene Website",
+      "date": "2026-10-18"
+    },
+    {
+      "company": "Maler Troisch (Sauerlach)",
+      "reason": "Domain-E-Mail",
+      "date": "2026-10-18"
+    },
+    {
+      "company": "Malermeister Schwaiger (Sauerlach)",
+      "reason": "Domain-E-Mail",
+      "date": "2026-10-18"
+    },
+    {
+      "company": "Schreinerei Bockmeir (Höhenkirchen)",
+      "reason": "eigene Website",
+      "date": "2026-10-18"
+    },
+    {
+      "company": "Josef Nehmer GWH (Höhenkirchen)",
+      "reason": "eigene Website",
+      "date": "2026-10-18"
+    },
+    {
+      "company": "Jürgen Kraus Fliesen (Höhenkirchen)",
+      "reason": "kein Google-/Freemail-Beleg",
+      "date": "2026-10-18"
+    },
+    {
+      "company": "Kardos Trockenbau (Weilheim)",
+      "reason": "eigene Website",
+      "date": "2026-10-18"
+    },
+    {
+      "company": "Amann Malerbetrieb (Weilheim)",
+      "reason": "eigene Website",
+      "date": "2026-10-18"
+    },
+    {
+      "company": "Ullmann Build & Design (Tutzing)",
+      "reason": "eigene Website",
+      "date": "2026-10-18"
+    },
+    {
+      "company": "Malermeister Röttcher (Tutzing)",
+      "reason": "eigene Website",
+      "date": "2026-10-18"
+    },
+    {
+      "company": "Malermeister Ahamer (Gröbenzell)",
+      "reason": "eigene Website",
+      "date": "2026-10-18"
+    },
+    {
+      "company": "Türen- und Parkettstudio Mering",
+      "reason": "eigene Website",
+      "date": "2026-10-18"
+    },
+    {
+      "company": "Bösl/EK/Bigiel Haustechnik (Mering)",
+      "reason": "eigene Websites",
+      "date": "2026-10-18"
+    },
+    {
+      "company": "Pfrieger Fliesen (Olching)",
+      "reason": "kein Google-/Freemail-Beleg",
+      "date": "2026-10-18"
+    },
+    {
+      "company": "Biechl Fliesen (Vaterstetten)",
+      "reason": "eigene Website",
+      "date": "2026-10-18"
+    },
+    {
+      "company": "RN Elektrotechnik (Unterhaching)",
+      "reason": "eigene Website",
+      "date": "2026-10-18"
+    },
+    {
+      "company": "Elektro Tremmel (Unterhaching)",
+      "reason": "eigene Website",
+      "date": "2026-10-18"
+    },
+    {
+      "company": "Maler Krechel (Markt Schwaben)",
+      "reason": "eigene Website",
+      "date": "2026-10-18"
+    },
+    {
+      "company": "Meister Amiri (Markt Schwaben)",
+      "reason": "eigene Website",
+      "date": "2026-10-18"
+    },
+    {
+      "company": "Nikos Heimwerkerservice (Neubiberg)",
+      "reason": "eigene Website",
+      "date": "2026-10-18"
+    },
+    {
+      "company": "Malermeister Bosch (Vaterstetten)",
+      "reason": "eigene Website",
+      "date": "2026-10-18"
+    },
+    {
+      "company": "Malereibetrieb Rath (Unterhaching)",
+      "reason": "eigene Website",
+      "date": "2026-10-18"
+    },
+    {
+      "company": "Mergim Kuci / Magic Colors (Karlsfeld)",
+      "reason": "eigene Website",
+      "date": "2026-10-18"
+    },
+    {
+      "company": "Malerei Höhne (Ismaning)",
+      "reason": "eigene Website",
+      "date": "2026-10-18"
+    },
+    {
+      "company": "Begaj Bau (Garching)",
+      "reason": "eigene Website",
+      "date": "2026-10-18"
+    },
+    {
+      "company": "Elektro Koch (Dachau)",
+      "reason": "eigene Website",
+      "date": "2026-10-18"
+    },
+    {
+      "company": "Riki Fliesenleger (Dachau)",
+      "reason": "eigene Domain",
+      "date": "2026-10-18"
+    },
+    {
+      "company": "H. Danahe Malerbetrieb (Germering)",
+      "reason": "eigene Website",
+      "date": "2026-10-18"
+    },
+    {
+      "company": "Mike Schlabs Maler (Germering)",
+      "reason": "eigene Domain",
+      "date": "2026-10-18"
+    },
+    {
+      "company": "Fliesen Bobaj / Fliesenleger Poing",
+      "reason": "eigene Website",
+      "date": "2026-10-18"
+    },
+    {
+      "company": "Farbenpracht Malermeister (Karlsfeld)",
+      "reason": "eigene Website",
+      "date": "2026-10-18"
+    },
+    {
+      "company": "Daniel Kirsten Elektrotechnik",
+      "reason": "eigene Website",
+      "date": "2026-10-18"
+    },
+    {
+      "company": "Malereibetrieb Blumoser (Poing)",
+      "reason": "eigene Website",
+      "date": "2026-10-18"
+    },
+    {
+      "company": "Maik Lindner Malerarbeiten (Poing)",
       "reason": "eigene Website",
       "date": "2026-10-18"
     }

@@ -380,8 +380,10 @@ function Marquee({ lead }: Ctx) {
 // damit es nicht mitten im Wort umbricht.
 function fitH1(headline: string, frac: number, className: string) {
   const longest = Math.max(...headline.replace(/[\u00ad.,–!?:]/g, " ").split(/\s+/).map((w) => w.length));
-  if (longest < 12) return { className };
-  return { className: `${className} fit-h1`, style: { "--L": longest, "--frac": frac } as CSSProperties };
+  // Breite Versalien (nicht die schmale Banner-Schrift) brauchen mehr Platz pro Buchstabe.
+  const wideCaps = className.includes("uppercase") && frac < 0.9;
+  if (longest < (wideCaps ? 10 : 12)) return { className };
+  return { className: `${className} fit-h1`, style: { "--L": longest, "--frac": frac, "--cw": wideCaps ? 0.8 : 0.6 } as CSSProperties };
 }
 
 function OfferStrip({ lead, hof, dark = false }: { lead: Lead; hof: boolean; dark?: boolean }) {
