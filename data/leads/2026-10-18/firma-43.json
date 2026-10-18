@@ -1,0 +1,416 @@
+{
+  "id": "2026-10-18-43",
+  "slug": "wohnsystem-bajraktari-innenausbau-germering",
+  "date": "2026-10-18",
+  "company": {
+    "name": "Wohnsystem e.K.",
+    "owner": "Ljulzim (Lulzim) Bajraktari",
+    "trade": "Innenausbau, Trockenbau & Renovierung",
+    "city": "Germering",
+    "address": "Meisenweg 7, 82110 Germering",
+    "phone": "0176 28380303",
+    "email": "wohnsystem@gmail.com",
+    "serviceArea": [
+      "Germering",
+      "Puchheim",
+      "Gilching",
+      "Gauting",
+      "Planegg",
+      "München-West"
+    ]
+  },
+  "listings": {
+    "google": {
+      "url": "https://www.google.com/maps/search/?api=1&query=Wohnsystem%20e.K.%20Meisenweg%207%20Germering",
+      "rating": null,
+      "reviews": null,
+      "evidence": "INDIREKT / NICHT VERIFIZIERT – WebSearch mit allowed_domains google.com/google.de lieferte keinen maps/place-Treffer; auch Spiegel-Verzeichnisse (sanitaer-finden.de, oeffnungszeitenbuch.de, 11880) zeigen keine Google-Bewertungen (jeweils 0 Bewertungen). Angenommen nur wegen starkem Website-Negativbeleg: Freemail wohnsystem@gmail.com + vom Inhaber bestätigter 11880-Eintrag ohne Website. In keinem Treffer war ein Website-Feld / eine Domain zu sehen."
+    },
+    "myhammer": {
+      "url": "https://www.11880.com/branchenbuch/germering-oberbayern/060690823B107281312/wohnsystem-e-k-lulzim-bajraktari.html",
+      "rating": null,
+      "reviews": null,
+      "evidence": "Kein MyHammer – Eintrag bei 11880 (Rubrik Trockenbau Germering), laut Snippet „Vom Inhaber bestätigt (0176) 28380303“, E-Mail wohnsystem@gmail.com; noch keine Bewertungen, nur Siegel „werkenntdenBESTEN – Sehr gut“ angezeigt."
+    }
+  },
+  "websiteStatus": "keine eigene Website gefunden",
+  "websiteChecks": [
+    "(1) „Wohnsystem Bajraktari Germering Trockenbau“ + Mobilnummer mit blocked_domains (11880, Gelbe Seiten, Das Örtliche, Telefonbuch, Cylex, meinestadt, Creditreform, Facebook, Instagram, golocal, MyHammer, Northdata, Firmenwissen, WKDB, Yelp, trustlocal, wlw) – nur Verzeichnisse/Register (sanitaer-finden.de, oeffnungszeitenbuch.de, creditsafe, online-handelsregister, databyte), keine eigene Domain",
+    "(2) Telefonsuche „0176 28380303“ / „017628380303“ (in derselben Suche) – nur dieselben Verzeichnisse, keine Website",
+    "(3) allowed_domains wohnsystem.de, wohnsystem.com, wohnsystem.eu, wohnsystem-germering.de, wohnsystem-ek.de, wohnsystem-bajraktari.de, bajraktari.de, bajraktari-bau.de mit „Wohnsystem Germering“ – keine Ergebnisse",
+    "(4) „Impressum Bajraktari Germering Wohnsystem“ – kein eigenes Impressum; einziges Bajraktari-Impressum (bajraktari-bau.de) gehört zu Sami Bajraktari in 64380 Roßdorf (anderer Betrieb, gesondert geprüft)",
+    "(5) Verzeichnisse: 11880 (vom Inhaber bestätigt), sanitaer-finden.de, oeffnungszeitenbuch.de – E-Mail Freemail wohnsystem@gmail.com, kein Website-Feld in den Snippets",
+    "(6) Google: kein Maps-Treffer, daher kein Website-Feld prüfbar – manuell prüfen"
+  ],
+  "facts": {
+    "services": [
+      "Trockenbau & Innenausbau",
+      "Badrenovierung / Badsanierung",
+      "Elektroinstallation",
+      "Gartenservice",
+      "Bau- und Renovierungsarbeiten"
+    ],
+    "experience": "Im Handelsregister München (HRA 108711) als e.K. eingetragen; Ersteintrag 29.03.2018, Sitz 2020 von München nach Germering verlegt",
+    "praisedFor": []
+  },
+  "strategy": {
+    "audience": "Haus- und Wohnungseigentümer, Vermieter und Hausverwaltungen in Germering und im Münchner Westen, die Innenausbau, Bad oder Renovierung aus einer Hand suchen",
+    "mainService": "Trockenbau und Innenausbau bei Renovierungen",
+    "trustSignal": "Eingetragener Kaufmann (HRA 108711), Inhaber direkt erreichbar per Mobil/WhatsApp",
+    "conversionGoal": "Anfrage per WhatsApp/Telefon mit Fotos des Vorhabens",
+    "visualConcept": "Robuste Werkstatt-Optik: frisch gestellte Trockenbauwände, Spachtel und Wasserwaage, klare Linien – solide, ordentlich, alles aus einer Hand"
+  },
+  "sales": {
+    "score": 6,
+    "whyGoodLead": [
+      "Keine eigene Website gefunden – nur Verzeichniseinträge und Freemail (gmail)",
+      "Öffentliche Mobilnummer – ideal für WhatsApp-Erstkontakt",
+      "Breites Leistungsspektrum (Trockenbau, Bad, Elektro, Garten) – braucht eine klare Leistungsseite",
+      "Seit 2018 im Handelsregister, Sitz in Germering – etablierter Kleinbetrieb ohne Online-Auftritt"
+    ],
+    "pitch": "Guten Tag Herr Bajraktari, ich erstelle Websites für Handwerksbetriebe im Münchner Westen. Ich habe Wohnsystem e.K. im Branchenverzeichnis unter Trockenbau in Germering gefunden, aber keine eigene Website. Ich habe Ihnen unverbindlich einen Entwurf vorbereitet, der Innenausbau, Bad und Renovierung übersichtlich zeigt – darf ich Ihnen den Link schicken?"
+  },
+  "manualChecks": [
+    "Website-Risiko: mittel – vor Versand in Google Maps prüfen, dass keine Website hinterlegt ist (Grund: kein Google-Eintrag gefunden; aber Freemail wohnsystem@gmail.com und keine Domain in allen Prüfungen)",
+    "Google-Unternehmenseintrag existiert evtl. nicht – in Maps nach „Wohnsystem Germering“ suchen; falls kein Eintrag: Pitch ggf. um Google-Profil ergänzen",
+    "Leistungen nur aus Verzeichnis-Rubriken (11880: Trockenbau; GoYellow-Snippet: Elektroinstallation, Gartenservice, Badsanierung) – Schwerpunkt beim Inhaber bestätigen",
+    "Vorname uneinheitlich: Handelsregister „Ljulzim“, Verzeichnisse „Lulzim“ – Anrede prüfen",
+    "Öffnungszeiten Mo–Sa 8–17 Uhr nur laut oeffnungszeitenbuch.de – bestätigen",
+    "Einsatzgebiet (serviceArea) nicht belegt – nur Sitz Germering",
+    "Logo und Projektfotos beim Betrieb anfragen"
+  ],
+  "sources": [
+    {
+      "label": "11880 – Wohnsystem e.K Lulzim Bajraktari, Germering",
+      "url": "https://www.11880.com/branchenbuch/germering-oberbayern/060690823B107281312/wohnsystem-e-k-lulzim-bajraktari.html"
+    },
+    {
+      "label": "11880 – Trockenbauer Germering",
+      "url": "https://www.11880.com/suche/trockenbau/germering"
+    },
+    {
+      "label": "sanitaer-finden.de – Wohnsystem e.K Lulzim Bajraktari",
+      "url": "https://www.sanitaer-finden.de/germering/wohnsystem-ek-lulzim-bajraktari-aYCmka.html"
+    },
+    {
+      "label": "oeffnungszeitenbuch.de – Wohnsystem e.K Lulzim Bajraktari",
+      "url": "https://www.oeffnungszeitenbuch.de/filiale/Germering-Wohnsystem%2520e.K%2520Lulzim%2520Bajraktari-4207487U.html"
+    },
+    {
+      "label": "Online-Handelsregister – Ljulzim Bajraktari, Germering",
+      "url": "https://www.online-handelsregister.de/personen/Ljulzim-Bajraktari-Germering/cdf192630b54b1100f3f8090ec3eccc9"
+    },
+    {
+      "label": "Creditsafe – Wohnsystem e.K. Inhaber Ljulzim Bajraktari",
+      "url": "https://www.creditsafe.com/business-index/de-de/company/wohnsystem-ek-inhaber-ljulzim-bajraktari-de25554595"
+    },
+    {
+      "label": "databyte – Wohnsystem e.K. (HRA 108711)",
+      "url": "https://www.databyte.de/loesungen/firmensuche/firmenprofil/DE+DB65391080339+Muenchen-HRA-108711"
+    },
+    {
+      "label": "GoYellow – Maler/Reinigung Germering (Rubriken-Snippet)",
+      "url": "https://www.goyellow.de/suche/maler/germering"
+    }
+  ],
+  "site": {
+    "theme": "werk",
+    "category": "handwerk",
+    "heroOffer": [
+      "Trockenbau",
+      "Innenausbau",
+      "Badrenovierung",
+      "Elektroinstallation",
+      "Gartenservice"
+    ],
+    "hours": [
+      {
+        "label": "Mo–Sa",
+        "value": "8–17 Uhr"
+      }
+    ],
+    "scene": "drywall",
+    "logoIcon": "trowel",
+    "logoMark": "WS",
+    "brandName": "Wohnsystem",
+    "seoTitle": "Trockenbau & Innenausbau in Germering – Wohnsystem e.K.",
+    "seoDescription": "Trockenbau, Innenausbau, Badrenovierung, Elektroinstallation und Gartenservice aus Germering. Wohnsystem e.K. – jetzt per WhatsApp oder Telefon anfragen.",
+    "nav": [
+      {
+        "label": "Leistungen",
+        "href": "#leistungen"
+      },
+      {
+        "label": "Projekte",
+        "href": "#projekte"
+      },
+      {
+        "label": "Bewertungen",
+        "href": "#bewertungen"
+      },
+      {
+        "label": "Ablauf",
+        "href": "#ablauf"
+      },
+      {
+        "label": "FAQ",
+        "href": "#faq"
+      },
+      {
+        "label": "Kontakt",
+        "href": "#kontakt"
+      }
+    ],
+    "hero": {
+      "eyebrow": "Innenausbau & Renovierung · Germering",
+      "headline": "Trockenbau, Innenausbau & Bad in Germering – alles aus einer Hand.",
+      "sub": "Wohnsystem e.K. aus Germering übernimmt Trockenbau und Innenausbau, renoviert Bäder und erledigt Elektroinstallation und Gartenservice – mit einem Ansprechpartner für Ihr ganzes Vorhaben.",
+      "ctaPrimary": "Per WhatsApp anfragen",
+      "ctaSecondary": "Anrufen",
+      "bullets": [
+        "Ein Ansprechpartner für mehrere Gewerke",
+        "Inhaber direkt erreichbar",
+        "Sitz am Meisenweg in Germering"
+      ],
+      "imageLabel": "frisch gestellte Trockenbauwand mit Spachtel und Wasserwaage"
+    },
+    "badges": [
+      {
+        "title": "Trockenbau",
+        "sub": "Wände, Decken, Ausbau"
+      },
+      {
+        "title": "Badrenovierung",
+        "sub": "Bad neu gestalten"
+      },
+      {
+        "title": "Mehrere Gewerke",
+        "sub": "aus einer Hand"
+      },
+      {
+        "title": "Germering",
+        "sub": "Meisenweg 7"
+      }
+    ],
+    "trust": [
+      {
+        "value": "5",
+        "label": "Leistungsbereiche"
+      },
+      {
+        "value": "e.K.",
+        "label": "im Handelsregister eingetragen"
+      },
+      {
+        "value": "Mo–Sa",
+        "label": "erreichbar 8–17 Uhr"
+      },
+      {
+        "value": "Germering",
+        "label": "Betrieb im Münchner Westen"
+      }
+    ],
+    "servicesIntro": {
+      "headline": "Ausbau und Renovierung – ein Betrieb, viele Gewerke",
+      "text": "Statt mehrere Handwerker zu koordinieren: Wohnsystem übernimmt Trockenbau, Bad, Elektro und Außenbereich in einem Auftrag."
+    },
+    "services": [
+      {
+        "title": "Trockenbau",
+        "text": "Neue Raumaufteilung, abgehängte Decken oder Vorsatzschalen – schnell, sauber und ohne lange Trocknungszeiten.",
+        "items": [
+          "Trennwände",
+          "Deckenverkleidung",
+          "Vorsatzschalen"
+        ]
+      },
+      {
+        "title": "Innenausbau",
+        "text": "Vom Rohbau zum bewohnbaren Raum: Ausbauarbeiten für Wohnung, Dachgeschoss oder Gewerbefläche.",
+        "items": [
+          "Dachgeschossausbau",
+          "Raumaufteilung",
+          "Renovierung"
+        ]
+      },
+      {
+        "title": "Badrenovierung",
+        "text": "Das alte Bad wird modernisiert – geplant und umgesetzt aus einer Hand.",
+        "items": [
+          "Badsanierung",
+          "Modernisierung",
+          "Koordination"
+        ]
+      },
+      {
+        "title": "Elektroinstallation",
+        "text": "Elektroarbeiten im Zuge von Ausbau und Renovierung – passend zur neuen Raumaufteilung.",
+        "items": [
+          "Installation",
+          "Leitungen im Ausbau",
+          "Steckdosen & Licht"
+        ]
+      },
+      {
+        "title": "Gartenservice",
+        "text": "Auch draußen wird es ordentlich: Pflege und Arbeiten rund um Haus und Garten.",
+        "items": [
+          "Gartenpflege",
+          "Außenbereich",
+          "Nach Absprache"
+        ]
+      },
+      {
+        "title": "Renovierung aus einer Hand",
+        "text": "Mehrere Gewerke, ein Ansprechpartner, ein Zeitplan – weniger Abstimmung für Sie.",
+        "items": [
+          "Ein Ansprechpartner",
+          "Ein Angebot",
+          "Ein Zeitplan"
+        ]
+      }
+    ],
+    "why": {
+      "headline": "Ein Ansprechpartner statt fünf Handwerker.",
+      "points": [
+        {
+          "title": "Mehrere Gewerke",
+          "text": "Trockenbau, Bad, Elektro und Garten aus einem Betrieb – Sie müssen nicht selbst koordinieren."
+        },
+        {
+          "title": "Direkter Draht",
+          "text": "Sie sprechen direkt mit dem Inhaber – per Telefon oder WhatsApp."
+        },
+        {
+          "title": "Eingetragener Betrieb",
+          "text": "Wohnsystem ist als eingetragener Kaufmann im Handelsregister München geführt."
+        },
+        {
+          "title": "Aus Germering",
+          "text": "Mit Sitz in Germering ist der Betrieb schnell vor Ort im Münchner Westen."
+        }
+      ]
+    },
+    "reviews": {
+      "headline": "Was Kunden sagen",
+      "summary": "Wohnsystem e.K. ist im Branchenverzeichnis 11880 gelistet. Kundenstimmen werden hier eingebunden, sobald Bewertungen vorliegen.",
+      "highlights": [
+        "Mehrere Gewerke aus einer Hand",
+        "Inhaber direkt erreichbar",
+        "Sitz in Germering"
+      ],
+      "source": "11880",
+      "sourceUrl": "https://www.11880.com/branchenbuch/germering-oberbayern/060690823B107281312/wohnsystem-e-k-lulzim-bajraktari.html",
+      "rating": null,
+      "count": null
+    },
+    "process": {
+      "headline": "In vier Schritten zum fertigen Ausbau",
+      "steps": [
+        {
+          "title": "Anfrage",
+          "text": "Fotos und kurze Beschreibung per WhatsApp schicken – oder anrufen."
+        },
+        {
+          "title": "Besichtigung",
+          "text": "Umfang, Material und Ablauf werden vor Ort abgestimmt."
+        },
+        {
+          "title": "Angebot",
+          "text": "Sie erhalten ein klares Angebot für alle Gewerke."
+        },
+        {
+          "title": "Ausführung",
+          "text": "Ausbau, Bad, Elektro – sauber umgesetzt und übergeben."
+        }
+      ]
+    },
+    "gallery": {
+      "headline": "Räume, die neu entstehen",
+      "text": "Für die Live-Version zeigen wir hier echte Projekte des Betriebs – idealerweise als Vorher-/Nachher-Paare.",
+      "items": [
+        {
+          "title": "Neue Trennwand",
+          "photoNeeded": "frisch gestellte und gespachtelte Trockenbauwand"
+        },
+        {
+          "title": "Abgehängte Decke",
+          "photoNeeded": "Trockenbaudecke mit Einbauleuchten"
+        },
+        {
+          "title": "Renoviertes Bad",
+          "photoNeeded": "modernisiertes Bad nach der Sanierung"
+        },
+        {
+          "title": "Dachgeschoss",
+          "photoNeeded": "ausgebautes Dachgeschoss vor dem Bezug"
+        },
+        {
+          "title": "Außenbereich",
+          "photoNeeded": "gepflegter Garten nach dem Einsatz"
+        }
+      ]
+    },
+    "region": {
+      "headline": "Ihr Ausbau-Betrieb für Germering und den Münchner Westen",
+      "text": "Von Germering aus ist Wohnsystem schnell in Puchheim, Gilching, Gauting, Planegg und im Münchner Westen – für einzelne Räume ebenso wie für komplette Renovierungen.",
+      "places": [
+        "Germering",
+        "Puchheim",
+        "Gilching",
+        "Gauting",
+        "Planegg",
+        "Eichenau",
+        "München-West"
+      ]
+    },
+    "faq": [
+      {
+        "q": "Übernehmen Sie auch kleinere Aufträge?",
+        "a": "Fragen Sie einfach mit ein paar Fotos an – auch einzelne Wände oder Räume sind möglich."
+      },
+      {
+        "q": "Können mehrere Gewerke in einem Auftrag erledigt werden?",
+        "a": "Ja. Trockenbau, Bad, Elektroinstallation und Gartenservice gehören zum Angebot – so haben Sie einen Ansprechpartner."
+      },
+      {
+        "q": "Wie erreiche ich Sie am schnellsten?",
+        "a": "Per Telefon oder WhatsApp unter 0176 28380303, Montag bis Samstag von 8 bis 17 Uhr."
+      },
+      {
+        "q": "Kann ich vorab Fotos schicken?",
+        "a": "Gern. Fotos und ungefähre Maße helfen für eine erste Einschätzung; für ein verbindliches Angebot ist ein Termin vor Ort sinnvoll."
+      }
+    ],
+    "contact": {
+      "headline": "Ihr Vorhaben – unverbindlich anfragen",
+      "text": "Beschreiben Sie kurz, was gemacht werden soll: Trockenbau, Bad, Elektro oder Garten. Fotos per WhatsApp helfen bei der Einschätzung.",
+      "topics": [
+        "Trockenbau",
+        "Innenausbau",
+        "Badrenovierung",
+        "Elektroinstallation",
+        "Gartenservice",
+        "Sonstiges"
+      ],
+      "responseNote": "Erreichbar Mo–Sa 8–17 Uhr."
+    },
+    "quote": {
+      "sizeLabel": "Worum geht es?",
+      "sizes": [
+        "Einzelner Raum",
+        "Mehrere Räume / Wohnung",
+        "Ganzes Haus",
+        "Bad",
+        "Garten / Außenbereich"
+      ],
+      "timings": [
+        "So bald wie möglich",
+        "In den nächsten Wochen",
+        "In 1–3 Monaten",
+        "Ich plane erst noch"
+      ]
+    },
+    "stickyCta": "Jetzt anfragen"
+  }
+}
