@@ -101,7 +101,7 @@ function Header({ lead, call }: Ctx) {
         <a href="#inhalt" className="min-w-0"><Logo lead={lead} /></a>
         <nav aria-label="Hauptnavigation" className="hidden items-center gap-7 text-sm font-semibold lg:flex">
           {site.nav.map((n) => (
-            <a key={n.href} href={n.href} className="text-t-muted transition hover:text-t-ink">{n.label}</a>
+            <a key={n.href} href={n.href} className="whitespace-nowrap text-t-muted transition hover:text-t-ink">{n.label}</a>
           ))}
         </nav>
         <div className="flex items-center gap-2">

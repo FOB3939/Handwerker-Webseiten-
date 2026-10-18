@@ -13,6 +13,11 @@ html {
   -webkit-text-size-adjust: 100%;
 }
 
+html,
+body {
+  overflow-x: clip;
+}
+
 body {
   font-family: var(--font-sans);
   -webkit-font-smoothing: antialiased;
@@ -39,6 +44,15 @@ h2,
 h3 {
   overflow-wrap: break-word;
   hyphens: auto;
+}
+
+/* Rasterspalten dürfen schrumpfen (lange Texte, Select-Optionen) */
+.grid > * {
+  min-width: 0;
+}
+select {
+  max-width: 100%;
+  text-overflow: ellipsis;
 }
 
 [hidden] {

@@ -12,7 +12,7 @@ const cssDir = path.join(root, ".next", "static", "css");
 const css = fs.readdirSync(cssDir).filter((f) => f.endsWith(".css")).map((f) => fs.readFileSync(path.join(cssDir, f), "utf8")).join("\n");
 
 // Sticky-Header unter die Statusleiste des Telefons setzen (Safe-Area).
-const extraCss = `header.sticky{top:env(safe-area-inset-top,0px)}.fixed.bottom-0{padding-bottom:calc(.75rem + env(safe-area-inset-bottom,0px))}`;
+const extraCss = `body{overflow-x:clip}header.sticky{top:env(safe-area-inset-top,0px)}.fixed.bottom-0{padding-bottom:calc(.75rem + env(safe-area-inset-bottom,0px))}`;
 
 
 function toArtifact(html, companyName) {

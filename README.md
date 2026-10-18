@@ -48,6 +48,13 @@ Claude-Artifacts veröffentlicht und über das Share-Menü gezielt an den jeweil
 | 2026-10-17 | Patrick Faulhaber Küchen- & Möbelmontagen | https://claude.ai/artifact/QBXGRSms9pW8xq6zUtZnuU |
 | 2026-10-17 | Agata Mangani | https://claude.ai/artifact/3rG55VCSPXjwJhVtp23NuM |
 | 2026-10-17 | Paul-Ovidiu Asmarandi Garten- und Landschaftsbau | https://claude.ai/artifact/B77jY13wyBbs5CJSdmmMFH |
+| 2026-10-18 | Alexander Jung Elektrotechnik | https://claude.ai/artifact/4L24mTcQfzX7STeXueskw5 |
+| 2026-10-18 | Mehmet Cem Kurtoglu | https://claude.ai/artifact/QF6Q7CcxxevwaMj2t6Sk4r |
+| 2026-10-18 | FKM Parkett | https://claude.ai/artifact/Tay6ass2iJKy9iGVkGWpki |
+| 2026-10-18 | Hofladen Familie Wild | https://claude.ai/artifact/6fHwoyn9eGCf7jrafLFf5y |
+| 2026-10-18 | Wunderlbare Holzhütte | https://claude.ai/artifact/G9TEJE1dvdUZWekN35qM3Y |
+| 2026-10-18 | Hofladen Georg Eschbaumer | https://claude.ai/artifact/47yDWTPTGgxjvLVNtWoG8D |
+| 2026-10-18 | Hofladen Schmid | https://claude.ai/artifact/Co81xxSwFu9Tu4JVwb9dkx |
 
 ## Design-Standard der Entwürfe
 

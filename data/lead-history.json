@@ -126,6 +126,156 @@
       "websiteStatus": "keine eigene Website gefunden",
       "criteriaStatus": "MyHammer belegt, keine eigene Website gefunden; Google-Eintrag NICHT verifiziert (Google aus Recherche-Umgebung nicht erreichbar)",
       "email": null
+    },
+    {
+      "company": "Alexander Jung Elektrotechnik",
+      "slug": "jung-elektrotechnik-erding",
+      "trade": "Elektrotechnik",
+      "city": "Erding",
+      "date": "2026-10-18",
+      "phone": "01590 6835856",
+      "email": null,
+      "googleLink": "https://www.google.com/maps/search/?api=1&query=Alexander%20Jung%20Elektrotechnik%20Erding",
+      "googleVerified": false,
+      "myhammerLink": "https://www.my-hammer.de/elektrik/elektriker-berufe/erding",
+      "myhammerRating": 5.0,
+      "myhammerReviews": 5,
+      "sources": [
+        "https://www.my-hammer.de/elektrik/elektriker-berufe/erding",
+        "https://www.11880.com/suche/photovoltaik/erding",
+        "https://www.11880.com/suche/photovoltaik/oberding"
+      ],
+      "websiteStatus": "keine eigene Website gefunden",
+      "websiteRisk": "mittel"
+    },
+    {
+      "company": "Hofladen Schmid",
+      "slug": "hofladen-schmid-eitting",
+      "trade": "Hofladen & Direktvermarktung",
+      "city": "Eitting",
+      "date": "2026-10-18",
+      "phone": "08122 42986",
+      "email": "schmid_w@gmx.de",
+      "googleLink": "https://www.google.com/maps/search/?api=1&query=Hofladen%20Schmid%20Eitting",
+      "googleVerified": false,
+      "myhammerLink": "https://www.regionales-bayern.de/anbieter/wolfgang-schmid-10577/",
+      "myhammerRating": null,
+      "myhammerReviews": null,
+      "sources": [
+        "https://www.regionales-bayern.de/anbieter/wolfgang-schmid-10577/",
+        "https://www.ed-live.de/branchenbuch?eintrag=6733",
+        "https://www.vr-bank-erding.de/bankeigen/hoflaeden/hofladen-schmid.html",
+        "https://www.ed-live.de/region_direktvermarkter",
+        "http://landwarenkorb.net/images/hoflaeden_direktvermarkter_deutschland_Bayern_Kreis_Erding.php"
+      ],
+      "websiteStatus": "keine eigene Website gefunden",
+      "websiteRisk": "niedrig"
+    },
+    {
+      "company": "Mehmet Cem Kurtoglu",
+      "slug": "kurtoglu-elektro-erding",
+      "trade": "Elektroinstallation & Beleuchtung",
+      "city": "Erding",
+      "date": "2026-10-18",
+      "phone": null,
+      "email": null,
+      "googleLink": "https://www.google.com/maps/search/?api=1&query=Mehmet%20Cem%20Kurtoglu%20Erding",
+      "googleVerified": false,
+      "myhammerLink": "https://www.my-hammer.de/elektrik/elektriker-berufe/erding",
+      "myhammerRating": 4.9,
+      "myhammerReviews": 44,
+      "sources": [
+        "https://www.my-hammer.de/elektrik/elektriker-berufe/erding",
+        "https://www.oeffnungszeitenbuch.de/filiale/Erding-Mehmet%2520Cem%2520Kurtoglu-5684853A.html"
+      ],
+      "websiteStatus": "keine eigene Website gefunden",
+      "websiteRisk": "mittel"
+    },
+    {
+      "company": "FKM Parkett",
+      "slug": "fkm-parkett-karlsfeld",
+      "trade": "Parkett & Bodenbeläge",
+      "city": "Karlsfeld",
+      "date": "2026-10-18",
+      "phone": "08131 998868",
+      "email": "fkmparkett@web.de",
+      "googleLink": "https://www.google.com/maps/search/?api=1&query=FKM%20Parkett%20Rathausstr.%20111%20Karlsfeld",
+      "googleVerified": false,
+      "myhammerLink": "https://www.my-hammer.de/auftragnehmer/fkm-parkett/bewertungen",
+      "myhammerRating": 4.7,
+      "myhammerReviews": 45,
+      "sources": [
+        "https://www.my-hammer.de/auftragnehmer/fkm-parkett/bewertungen",
+        "https://www.my-hammer.de/boden-fliesen/boden-estrichleger-berufe/karlsfeld",
+        "https://karlsfeld.de/index.php?gid=482&id=%2C49",
+        "https://branchenbuch.meinestadt.de/karlsfeld/company/14806157",
+        "https://www.bodenleger.net/karlsfeld/marianna-fueloepne-kovacs-fkm-parkett-aUOfQ7"
+      ],
+      "websiteStatus": "keine eigene Website gefunden",
+      "websiteRisk": "niedrig"
+    },
+    {
+      "company": "Hofladen Familie Wild",
+      "slug": "hofladen-wild-kreuzweg-berg",
+      "trade": "Hofladen & Bauernhof",
+      "city": "Berg (Kreuzweg)",
+      "date": "2026-10-18",
+      "phone": "08151 51543",
+      "email": null,
+      "googleLink": "https://www.google.com/maps/search/?api=1&query=Wild%20Kreuzweg%2055%20Berg",
+      "googleVerified": false,
+      "myhammerLink": "https://www.buergerbeteiligung-berg.de/arbeitsgruppen/nahversorgung-landwirtschaft/direktverkauf-liste",
+      "myhammerRating": null,
+      "myhammerReviews": null,
+      "sources": [
+        "https://www.buergerbeteiligung-berg.de/arbeitsgruppen/nahversorgung-landwirtschaft/direktverkauf-liste",
+        "https://www.buergerbeteiligung-berg.de/arbeitsgruppen/nahversorgung-landwirtschaft"
+      ],
+      "websiteStatus": "keine eigene Website gefunden",
+      "websiteRisk": "mittel"
+    },
+    {
+      "company": "Wunderlbare Holzhütte",
+      "slug": "wunderlbare-holzhuette-hoehenrain",
+      "trade": "Hofladen & Direktvermarktung",
+      "city": "Berg (Höhenrain)",
+      "date": "2026-10-18",
+      "phone": "08171 20362",
+      "email": null,
+      "googleLink": "https://www.google.com/maps/search/?api=1&query=Wunderlbare%20Holzh%C3%BCtte%20H%C3%B6henrain",
+      "googleVerified": false,
+      "myhammerLink": "https://www.buergerbeteiligung-berg.de/arbeitsgruppen/nahversorgung-landwirtschaft/direktverkauf-liste",
+      "myhammerRating": null,
+      "myhammerReviews": null,
+      "sources": [
+        "https://www.buergerbeteiligung-berg.de/arbeitsgruppen/nahversorgung-landwirtschaft/direktverkauf-liste",
+        "https://www.buergerbeteiligung-berg.de/arbeitsgruppen/nahversorgung-landwirtschaft"
+      ],
+      "websiteStatus": "keine eigene Website gefunden",
+      "websiteRisk": "mittel"
+    },
+    {
+      "company": "Hofladen Georg Eschbaumer",
+      "slug": "eschbaumer-hofladen-notzing",
+      "trade": "Hofladen & Direktvermarktung",
+      "city": "Oberding-Notzing",
+      "date": "2026-10-18",
+      "phone": "08122 902393",
+      "email": "esche63@web.de",
+      "googleLink": "https://www.google.com/maps/search/?api=1&query=Hofladen%20Georg%20Eschbaumer%20Notzing",
+      "googleVerified": false,
+      "myhammerLink": "https://www.ed-live.de/branchenbuch?eintrag=6709",
+      "myhammerRating": null,
+      "myhammerReviews": null,
+      "sources": [
+        "https://www.ed-live.de/branchenbuch?eintrag=6709",
+        "https://www.bauernmarktverein-landkreis-mchn.de/eschbaumer.html",
+        "https://www.ed-live.de/region_direktvermarkter",
+        "https://www.ed-live.de/region_erdbeeren",
+        "https://ed.liveblatt.de/branchenbuch/branche-direkterzeuger+und+vermarkter-377"
+      ],
+      "websiteStatus": "keine eigene Website gefunden",
+      "websiteRisk": "mittel"
     }
   ],
   "rejected": [
@@ -282,6 +432,101 @@
       "company": "Thalmair Ludwig Garten Landschaftsbau (Gauting)",
       "reason": "Reserve: keine Kontaktdaten öffentlich, GaLaBau schon vertreten",
       "date": "2026-10-17"
+    },
+    {
+      "company": "Malermeisterbetrieb Florian Finkel (Grafing)",
+      "reason": "eigene Website maler-finkel.de",
+      "date": "2026-10-18"
+    },
+    {
+      "company": "E S Gebäudereinigungen & Dienstleistungen (Ebersberg)",
+      "reason": "eigene Website e-s-gebaeudereinigung.de",
+      "date": "2026-10-18"
+    },
+    {
+      "company": "Gebäudeservice Peric (Ebersberg/Kirchseeon)",
+      "reason": "eigene Website peric-gbs.de",
+      "date": "2026-10-18"
+    },
+    {
+      "company": "Lugina Dienstleistungen GmbH (Vaterstetten)",
+      "reason": "GmbH",
+      "date": "2026-10-18"
+    },
+    {
+      "company": "Malerfachbetrieb Bekaj GmbH (Geretsried)",
+      "reason": "GmbH",
+      "date": "2026-10-18"
+    },
+    {
+      "company": "Christian Mahl Hausmeisterei & Entrümpelung (Hohenlinden)",
+      "reason": "über 100 Bewertungen",
+      "date": "2026-10-18"
+    },
+    {
+      "company": "Winkelbodenbeläge (Dachau)",
+      "reason": "eigene Website winkelbodenbelaege.de",
+      "date": "2026-10-18"
+    },
+    {
+      "company": "Handwerk Woller (München-Allach)",
+      "reason": "eigene Website handwerk-woller.de",
+      "date": "2026-10-18"
+    },
+    {
+      "company": "Schreinerei Adolf (Bergkirchen)",
+      "reason": "eigene Website schreinerei-stephan-adolf.de",
+      "date": "2026-10-18"
+    },
+    {
+      "company": "Reitstall Knott (Tutzing)",
+      "reason": "eigene Website reitstall-knott.de",
+      "date": "2026-10-18"
+    },
+    {
+      "company": "Reitstall Keller (Weßling)",
+      "reason": "eigene Website reitstall-keller.de",
+      "date": "2026-10-18"
+    },
+    {
+      "company": "Ponyhof Pflaumdorf (Eresing)",
+      "reason": "eigene Website, außerhalb",
+      "date": "2026-10-18"
+    },
+    {
+      "company": "Löfflerhof Friedinger (Berg-Farchach)",
+      "reason": "eigene Website loefflerhof.de",
+      "date": "2026-10-18"
+    },
+    {
+      "company": "Hofladen Seeger (Gilching)",
+      "reason": "E-Mail auf eigener Domain seegers-hofladen.de",
+      "date": "2026-10-18"
+    },
+    {
+      "company": "Said Sanitär + Heizung (Erding)",
+      "reason": "eigene Website said-sanitaerheizung.de",
+      "date": "2026-10-18"
+    },
+    {
+      "company": "Hausmeisterservice Toth (Moosburg)",
+      "reason": "eigene Website hausmeister-toth.com",
+      "date": "2026-10-18"
+    },
+    {
+      "company": "Stemmer's Hofladen (Niederding)",
+      "reason": "eigene Website stemmershofladen.de",
+      "date": "2026-10-18"
+    },
+    {
+      "company": "Strigl's Hofladen (Oberding)",
+      "reason": "eigene Website strigl-hofladen.de",
+      "date": "2026-10-18"
+    },
+    {
+      "company": "Bio-Hofladen Schneiderhof (Haimhausen)",
+      "reason": "Website bio-schneiderhof.de laut Verzeichnis",
+      "date": "2026-10-18"
     }
   ]
 }
