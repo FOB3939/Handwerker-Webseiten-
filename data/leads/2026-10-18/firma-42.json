@@ -1,0 +1,361 @@
+{
+  "id": "2026-10-18-42",
+  "slug": "maler-wir-wir-gauting",
+  "date": "2026-10-18",
+  "company": {
+    "name": "WIR WIR",
+    "owner": null,
+    "trade": "Maler & Lackierer",
+    "city": "Gauting",
+    "address": null,
+    "phone": null,
+    "email": null,
+    "serviceArea": [
+      "Gauting",
+      "Germering",
+      "Starnberg",
+      "Krailling",
+      "Planegg",
+      "Stockdorf"
+    ]
+  },
+  "listings": {
+    "google": {
+      "url": "https://www.google.com/maps/search/?api=1&query=WIR%20WIR%20Maler%20Gauting",
+      "rating": null,
+      "reviews": null,
+      "evidence": "NICHT VERIFIZIERT – keine google.com/maps/place-Seite und kein Google-Spiegel (trustlocal/weshoplocal/werkenntdenbesten) mit Google-Bewertungen gefunden. Ob überhaupt ein Google-Unternehmensprofil existiert, ist offen. Vor Kontaktaufnahme manuell in Google Maps prüfen (Existenz, Bewertungen, KEIN Website-Feld). google.com-Suche „WIR WIR Maler Gauting“ ergab keinen Maps-Treffer."
+    },
+    "myhammer": {
+      "url": "https://www.my-hammer.de/malerarbeiten-tapezieren/maler-lackierer-berufe/gauting",
+      "rating": 4.9,
+      "reviews": 12,
+      "evidence": "MyHammer-Ortsliste „Maler und Lackierer in Gauting“ (und weitere Gauting-Listen sowie Germering) zeigt „WIR WIR“ mit 4,9 von 5 bei 12 Bewertungen. Profiltext laut Snippet: Maler- und Lackierermeister mit über 15 Jahren Berufserfahrung. Eine Bewertung vom 17.08.2026 (Malerarbeiten innen) lobt sinngemäß Beratung, Ausführung und Pünktlichkeit – Zuordnung zu WIR WIR laut Suchzusammenfassung nicht ganz sicher. Direkte Profil-URL nicht gefunden."
+    }
+  },
+  "websiteStatus": "keine eigene Website gefunden",
+  "websiteChecks": [
+    "(1) \"WIR WIR\" Malermeister Gauting mit blocked_domains (11880, Gelbe Seiten, Das Örtliche, Das Telefonbuch, Cylex, meinestadt, Creditreform, Facebook, Instagram, golocal, MyHammer, Northdata, Firmenwissen, werkenntdenbesten, Yelp, trustlocal, wlw) – kein Treffer zum Betrieb; nur andere Gautinger Maler (Ott, Künkler, Nietsch, Karadag, Maier) mit eigenen Domains",
+    "(2) Telefonnummer und Inhabername nicht bekannt – keine Telefonsuche möglich",
+    "(3) Domainprüfung allowed_domains wir-wir.de, wirwir.de, wirwir-maler.de, maler-wirwir.de, wir-wir-maler.de, wirwir-gauting.de – keine Ergebnisse",
+    "(4) Impressum-Suche nicht möglich (Inhabername unbekannt) – keine eigene Seite in allen Suchen aufgetaucht",
+    "(5) Verzeichnisse (11880, Gelbe Seiten, Das Örtliche, Cylex, trustlocal, unser-wuermtal.de, muenchen.de, goyellow) – kein Eintrag „WIR WIR“; Website-Feld/E-Mail daher nicht belegbar",
+    "(6) google.com/google.de-Suche – kein Maps-Treffer, kein Website-Feld gesehen",
+    "Website-Risiko: mittel – alle durchgeführten Prüfungen negativ, aber Inhaber/Telefon unbekannt, kein Google-Beleg und keine Freemail"
+  ],
+  "facts": {
+    "services": [
+      "Malerarbeiten innen",
+      "Maler- und Lackierarbeiten"
+    ],
+    "experience": "über 15 Jahre Berufserfahrung (Selbstangabe MyHammer)",
+    "praisedFor": [
+      "Beratung",
+      "Ausführung",
+      "Pünktlichkeit"
+    ]
+  },
+  "strategy": {
+    "audience": "Wohnungs- und Hauseigentümer sowie Mieter in Gauting und im Würmtal, die Räume streichen oder lackieren lassen wollen",
+    "mainService": "Malerarbeiten innen vom Meister",
+    "trustSignal": "Maler- und Lackierermeister, 4,9 Sterne auf MyHammer",
+    "conversionGoal": "Kostenloses Angebot für Malerarbeiten anfragen",
+    "visualConcept": "Klare, moderne Würmtal-Optik: helle Räume, satte Akzentfarben, Werkzeug in Steingrau – ehrlich, präzise, meisterlich"
+  },
+  "sales": {
+    "score": 5,
+    "whyGoodLead": [
+      "4,9 Sterne bei 12 MyHammer-Bewertungen",
+      "Meisterbetrieb (Selbstangabe) mit über 15 Jahren Erfahrung",
+      "Keine Website, kein Verzeichniseintrag – online nur über MyHammer auffindbar",
+      "Gauting/Würmtal: viele Malerkonkurrenten mit Website – ohne eigene Seite verliert der Betrieb Anfragen"
+    ],
+    "pitch": "Guten Tag, mein Name ist … – ich erstelle Websites für Handwerksbetriebe im Würmtal. Ich habe gesehen, dass Sie auf MyHammer als Malermeister in Gauting mit 4,9 Sternen bewertet sind – aber wer Sie bei Google sucht, findet keine eigene Seite. Ich habe unverbindlich einen Entwurf für Sie vorbereitet – darf ich Ihnen den Link schicken?"
+  },
+  "manualChecks": [
+    "Website-Risiko: mittel – vor Versand in Google Maps prüfen, dass keine Website hinterlegt ist (Grund: alle Suchen negativ, aber kein Google-Beleg, keine Freemail, Inhaber unbekannt)",
+    "Inhabername, Telefon, E-Mail und Adresse unbekannt – über MyHammer-Profil ermitteln; „WIR WIR“ ist evtl. nur ein Profil-/Markenname",
+    "Direkte MyHammer-Profil-URL ermitteln; Profiltext (Meister, 15 Jahre) und Bewertung 17.08.2026 dem Betrieb sicher zuordnen",
+    "Leistungsumfang über „Malerarbeiten innen“ hinaus beim Betrieb klären – auf der Seite nur allgemein formuliert",
+    "Logo und Projektfotos beim Betrieb anfragen"
+  ],
+  "sources": [
+    {
+      "label": "MyHammer – Maler und Lackierer in Gauting",
+      "url": "https://www.my-hammer.de/malerarbeiten-tapezieren/maler-lackierer-berufe/gauting"
+    },
+    {
+      "label": "MyHammer – Maler Gauting",
+      "url": "https://www.my-hammer.de/maler/gauting"
+    },
+    {
+      "label": "MyHammer – Maler und Lackierer in Germering",
+      "url": "https://www.my-hammer.de/malerarbeiten-tapezieren/maler-lackierer-berufe/germering"
+    }
+  ],
+  "site": {
+    "theme": "stein",
+    "category": "handwerk",
+    "heroOffer": [
+      "Malerarbeiten innen",
+      "Wände & Decken",
+      "Lackierarbeiten",
+      "Beratung vor Ort"
+    ],
+    "scene": "paint",
+    "logoIcon": "roller",
+    "logoMark": "WW",
+    "brandName": "WIR WIR Malerei",
+    "seoTitle": "Maler in Gauting – WIR WIR Malermeister",
+    "seoDescription": "Maler- und Lackierarbeiten vom Meister in Gauting und im Würmtal – gute Beratung, saubere Ausführung, pünktlich. Jetzt kostenloses Angebot anfragen.",
+    "nav": [
+      {
+        "label": "Leistungen",
+        "href": "#leistungen"
+      },
+      {
+        "label": "Projekte",
+        "href": "#projekte"
+      },
+      {
+        "label": "Bewertungen",
+        "href": "#bewertungen"
+      },
+      {
+        "label": "Ablauf",
+        "href": "#ablauf"
+      },
+      {
+        "label": "FAQ",
+        "href": "#faq"
+      },
+      {
+        "label": "Kontakt",
+        "href": "#kontakt"
+      }
+    ],
+    "hero": {
+      "eyebrow": "Maler & Lackierer · Gauting",
+      "headline": "Ihr Malermeister in Gauting – beraten, streichen, pünktlich fertig.",
+      "sub": "WIR WIR übernimmt Maler- und Lackierarbeiten in Gauting und im Würmtal – vom einzelnen Zimmer bis zur ganzen Wohnung, mit Meisteranspruch.",
+      "ctaPrimary": "Kostenloses Angebot anfragen",
+      "ctaSecondary": "Nachricht senden",
+      "bullets": [
+        "4,9 von 5 Sternen auf MyHammer",
+        "Maler- und Lackierermeister",
+        "Kunden loben Beratung und Pünktlichkeit"
+      ],
+      "imageLabel": "frisch gestrichener Wohnraum mit Farbmustern und Malerrolle"
+    },
+    "badges": [
+      {
+        "title": "4,9 Sterne",
+        "sub": "12 Bewertungen auf MyHammer"
+      },
+      {
+        "title": "Meisterbetrieb",
+        "sub": "Maler & Lackierer"
+      },
+      {
+        "title": "Pünktlich",
+        "sub": "laut Kundenbewertung"
+      },
+      {
+        "title": "Gauting",
+        "sub": "und Würmtal"
+      }
+    ],
+    "trust": [
+      {
+        "value": "4,9",
+        "label": "Sterne auf MyHammer"
+      },
+      {
+        "value": "12",
+        "label": "Bewertungen"
+      },
+      {
+        "value": "Meister",
+        "label": "Maler & Lackierer"
+      },
+      {
+        "value": "Würmtal",
+        "label": "Gauting & Umgebung"
+      }
+    ],
+    "servicesIntro": {
+      "headline": "Frische Farbe – sauber und termintreu",
+      "text": "Gute Beratung, saubere Ausführung und Pünktlichkeit – genau das heben Kunden hervor."
+    },
+    "services": [
+      {
+        "title": "Malerarbeiten innen",
+        "text": "Wände und Decken in Wohnung oder Haus – gleichmäßig gestrichen, mit sauberen Kanten.",
+        "items": [
+          "Wandanstrich",
+          "Deckenanstrich",
+          "Einzelne Räume oder ganze Wohnung"
+        ]
+      },
+      {
+        "title": "Lackierarbeiten",
+        "text": "Türen, Zargen, Heizkörper oder Holzteile – fachgerecht lackiert.",
+        "items": [
+          "Türen & Zargen",
+          "Heizkörper",
+          "Holzflächen"
+        ]
+      },
+      {
+        "title": "Farbberatung",
+        "text": "Welche Farbe passt zu Raum und Licht? Das wird vor Ort gemeinsam besprochen.",
+        "items": [
+          "Beratung vor Ort",
+          "Farbmuster",
+          "Material"
+        ]
+      },
+      {
+        "title": "Renovieren bei Auszug & Einzug",
+        "text": "Wohnung übergabefertig streichen – planbar und pünktlich.",
+        "items": [
+          "Auszugsrenovierung",
+          "Einzug",
+          "Termingenau"
+        ]
+      }
+    ],
+    "why": {
+      "headline": "Meisterqualität, auf die man sich verlassen kann.",
+      "points": [
+        {
+          "title": "Meister",
+          "text": "Maler- und Lackierermeister mit über 15 Jahren Berufserfahrung (laut Profil)."
+        },
+        {
+          "title": "Gute Beratung",
+          "text": "Kunden sind laut Bewertung mit Beratung und Ausführung sehr zufrieden."
+        },
+        {
+          "title": "Pünktlich",
+          "text": "Termine werden eingehalten – das schätzen Kunden besonders."
+        },
+        {
+          "title": "Aus Gauting",
+          "text": "Kurze Wege im Würmtal und zum Starnberger See."
+        }
+      ]
+    },
+    "reviews": {
+      "headline": "Was Kunden sagen",
+      "summary": "Auf MyHammer ist WIR WIR mit 4,9 von 5 Sternen bei 12 Bewertungen gelistet. Kunden heben Beratung, Ausführung und Pünktlichkeit hervor.",
+      "highlights": [
+        "Beratung",
+        "Ausführung",
+        "Pünktlichkeit",
+        "Meisterqualität"
+      ],
+      "source": "MyHammer",
+      "sourceUrl": "https://www.my-hammer.de/malerarbeiten-tapezieren/maler-lackierer-berufe/gauting",
+      "rating": 4.9,
+      "count": 12
+    },
+    "process": {
+      "headline": "In vier Schritten zu frischen Wänden",
+      "steps": [
+        {
+          "title": "Anfrage",
+          "text": "Fotos und Raumgrößen schicken."
+        },
+        {
+          "title": "Beratung",
+          "text": "Farbe, Untergrund und Umfang werden vor Ort besprochen."
+        },
+        {
+          "title": "Angebot",
+          "text": "Klares Angebot ohne Überraschungen."
+        },
+        {
+          "title": "Ausführung",
+          "text": "Abdecken, streichen, sauber übergeben – pünktlich."
+        }
+      ]
+    },
+    "gallery": {
+      "headline": "Räume, die neu wirken",
+      "text": "Für die Live-Version zeigen wir hier echte Projekte des Betriebs.",
+      "items": [
+        {
+          "title": "Wohnzimmer",
+          "photoNeeded": "frisch gestrichenes helles Wohnzimmer"
+        },
+        {
+          "title": "Akzentwand",
+          "photoNeeded": "farbige Akzentwand im Schlafzimmer"
+        },
+        {
+          "title": "Treppenhaus",
+          "photoNeeded": "gestrichenes Treppenhaus"
+        },
+        {
+          "title": "Lackierte Türen",
+          "photoNeeded": "neu lackierte Innentür mit Zarge"
+        }
+      ]
+    },
+    "region": {
+      "headline": "Ihr Malermeister für Gauting und das Würmtal",
+      "text": "Von Gauting aus schnell in Germering, Krailling, Planegg, Stockdorf und Starnberg.",
+      "places": [
+        "Gauting",
+        "Stockdorf",
+        "Krailling",
+        "Planegg",
+        "Germering",
+        "Starnberg"
+      ]
+    },
+    "faq": [
+      {
+        "q": "Streichen Sie auch einzelne Zimmer?",
+        "a": "Ja – vom einzelnen Raum bis zur ganzen Wohnung. Fragen Sie einfach mit ein paar Fotos an."
+      },
+      {
+        "q": "Beraten Sie bei der Farbwahl?",
+        "a": "Ja, die Beratung vor Ort gehört dazu."
+      },
+      {
+        "q": "Wie schnell bekomme ich ein Angebot?",
+        "a": "Nach kurzer Besichtigung oder anhand von Fotos erhalten Sie ein Angebot."
+      }
+    ],
+    "contact": {
+      "headline": "Ihr Angebot – kostenlos und unverbindlich",
+      "text": "Beschreiben Sie kurz, welche Räume gestrichen oder lackiert werden sollen – Fotos helfen.",
+      "topics": [
+        "Malerarbeiten innen",
+        "Lackierarbeiten",
+        "Farbberatung",
+        "Auszug / Einzug",
+        "Sonstiges"
+      ],
+      "responseNote": "Besichtigung nach Absprache."
+    },
+    "quote": {
+      "sizeLabel": "Was soll gestrichen werden?",
+      "sizes": [
+        "Ein Zimmer",
+        "Mehrere Zimmer / Wohnung",
+        "Ganzes Haus",
+        "Türen / Lackierarbeiten"
+      ],
+      "timings": [
+        "So bald wie möglich",
+        "In den nächsten Wochen",
+        "In 1–3 Monaten",
+        "Ich plane erst noch"
+      ]
+    },
+    "stickyCta": "Angebot anfragen"
+  }
+}

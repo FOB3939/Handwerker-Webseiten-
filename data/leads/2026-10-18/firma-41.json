@@ -1,0 +1,400 @@
+{
+  "id": "2026-10-18-41",
+  "slug": "fliesenleger-di-venuta-herrsching",
+  "date": "2026-10-18",
+  "company": {
+    "name": "Antonio Di Venuta Fliesenleger",
+    "owner": "Antonio Di Venuta",
+    "trade": "Fliesenleger",
+    "city": "Herrsching",
+    "address": null,
+    "phone": null,
+    "email": null,
+    "serviceArea": [
+      "Herrsching",
+      "Pöcking",
+      "Andechs",
+      "Seefeld",
+      "Wörthsee",
+      "Gauting",
+      "Feldafing",
+      "Weßling"
+    ]
+  },
+  "listings": {
+    "google": {
+      "url": "https://www.google.com/maps/search/?api=1&query=Antonio%20Di%20Venuta%20Fliesenleger%20Herrsching",
+      "rating": null,
+      "reviews": null,
+      "evidence": "NICHT VERIFIZIERT – keine google.com/maps/place-Seite und kein Google-Spiegel (trustlocal/weshoplocal/werkenntdenbesten) mit Google-Bewertungen gefunden. Ob überhaupt ein Google-Unternehmensprofil existiert, ist offen. Vor Kontaktaufnahme manuell in Google Maps prüfen (Existenz, Bewertungen, KEIN Website-Feld)."
+    },
+    "myhammer": {
+      "url": "https://www.my-hammer.de/boden-fliesen/fliesen-platten-mosaikleger-berufe/herrsching-am-ammersee",
+      "rating": 4.9,
+      "reviews": 12,
+      "evidence": "MyHammer-Ortslisten Fliesenleger Herrsching am Ammersee, Pöcking, Gauting, Seefeld, Wörthsee, Andechs u. a. zeigen „Antonio Di Venuta Fliesenleger“ mit 4,9 von 5 (je nach Liste 7–12 Bewertungen; Steinmetz-Liste 11). Profiltext: ca. 40 Jahre Berufserfahrung, davon 25 Jahre selbstständig; spezialisiert auf Fliesen- und Mosaiklegen, Badsanierung mit bodenebenen Duschen, Treppen in Marmor, Fliesen und Naturstein. Bewertungen (zuletzt Sept./Okt. 2026) loben sinngemäß Pünktlichkeit, Freundlichkeit, saubere Baustelle und eingehaltenen Kostenvoranschlag. Direkte Profil-URL nicht gefunden – Ortsliste als Beleg."
+    }
+  },
+  "websiteStatus": "keine eigene Website gefunden",
+  "websiteChecks": [
+    "(1) \"Antonio Di Venuta Fliesen\" mit blocked_domains (11880, Gelbe Seiten, Das Örtliche, Das Telefonbuch, Cylex, meinestadt, Creditreform, Facebook, Instagram, golocal, MyHammer, Northdata, Firmenwissen, werkenntdenbesten, Yelp, trustlocal, wlw) – kein Treffer zum Betrieb (nur italienische Namensvettern ohne Bezug), keine eigene Domain",
+    "(2) Telefonnummer nicht bekannt – Suche „Antonio Di Venuta“ + Herrsching/Pöcking/Starnberg/Andechs/Seefeld ohne Treffer zum Betrieb; keine Telefonnummer auffindbar",
+    "(3) Domainprüfung allowed_domains di-venuta.de, divenuta.de, fliesen-divenuta.de, fliesen-di-venuta.de, divenuta-fliesen.de, di-venuta-fliesen.de, antonio-di-venuta.de, fliesenleger-divenuta.de – keine Ergebnisse",
+    "(4) Impressum-Suche „Impressum Di Venuta Fliesen Bayern“ – kein eigenes Impressum, nur fremde Fliesenbetriebe",
+    "(5) Verzeichnisse (11880, Gelbe Seiten, Das Örtliche, Das Telefonbuch, Cylex, meinestadt, muenchen.de-Branchenbuch, goyellow, northdata, trustlocal) – kein Eintrag „Di Venuta“ gefunden; daher weder Website-Feld noch E-Mail belegbar",
+    "(6) Google-Spiegel (trustlocal, weshoplocal, reviewhero, firmania, cylex, werkenntdenbesten) und google.com-Suche – kein Treffer, also auch kein Website-Feld gesehen",
+    "Website-Risiko: mittel – alle Website-Prüfungen negativ, praktisch keine Webpräsenz außer MyHammer; aber kein Google-Beleg und keine Freemail"
+  ],
+  "facts": {
+    "services": [
+      "Fliesen- und Mosaiklegen",
+      "Badsanierung",
+      "Bodenebene Duschen",
+      "Treppen in Marmor, Fliesen und Naturstein"
+    ],
+    "experience": "ca. 40 Jahre Berufserfahrung, 25 Jahre selbstständig (Selbstangabe MyHammer)",
+    "praisedFor": [
+      "Pünktlichkeit",
+      "Freundlichkeit",
+      "saubere Baustelle",
+      "Kostenvoranschlag eingehalten"
+    ]
+  },
+  "strategy": {
+    "audience": "Haus- und Wohnungseigentümer am Ammersee und im westlichen Landkreis Starnberg, die Bad, Böden oder Treppen erneuern wollen",
+    "mainService": "Badsanierung mit Fliesen und bodenebener Dusche",
+    "trustSignal": "4,9 Sterne auf MyHammer und jahrzehntelange Erfahrung des Inhabers",
+    "conversionGoal": "Unverbindliche Anfrage für Badsanierung oder Fliesenarbeiten (mit Fotos)",
+    "visualConcept": "Ruhiges Bad-Ambiente: helle Großformatfliesen, Naturstein, Wasser und klare Fugenlinien – handwerklich, präzise, italienische Materialfreude"
+  },
+  "sales": {
+    "score": 6,
+    "whyGoodLead": [
+      "4,9 Sterne bei bis zu 12 MyHammer-Bewertungen, aktuelle Bewertungen aus Sept./Okt. 2026",
+      "Sehr erfahrener Einzelunternehmer (ca. 40 Jahre Beruf, 25 Jahre selbstständig)",
+      "Keinerlei Webpräsenz außer MyHammer – keine Website, kein Verzeichniseintrag gefunden",
+      "Hochwertige Nischen (bodenebene Duschen, Marmor-/Natursteintreppen) – ideal für eine Projektgalerie",
+      "Kaufkräftiges Einzugsgebiet Ammersee/Starnberger See"
+    ],
+    "pitch": "Guten Tag Herr Di Venuta, mein Name ist … – ich erstelle Websites für Handwerksbetriebe rund um Ammersee und Starnberger See. Ich habe gesehen, dass Sie auf MyHammer mit 4,9 Sternen bewertet sind und Kunden Ihre pünktliche, saubere Arbeit loben – aber online findet man sonst nichts über Ihre Bäder und Natursteintreppen. Ich habe unverbindlich einen Website-Entwurf für Sie vorbereitet – darf ich Ihnen den Link schicken?"
+  },
+  "manualChecks": [
+    "Website-Risiko: mittel – vor Versand in Google Maps prüfen, dass keine Website hinterlegt ist (Grund: alle Website-Suchen negativ, aber kein Google-Eintrag und keine Freemail belegt)",
+    "Google-Unternehmensprofil existiert evtl. gar nicht – in Maps prüfen; falls keins: Pitch um Google-Profil-Einrichtung ergänzen",
+    "Telefon, E-Mail, Adresse und genauer Firmensitz (Herrsching oder Pöcking?) unbekannt – über MyHammer-Profil ermitteln (Kontakt ggf. nur über MyHammer möglich)",
+    "Direkte MyHammer-Profil-URL ermitteln und Bewertungsanzahl bestätigen (Ortslisten zeigen 7–12)",
+    "Erfahrungsangaben (40/25 Jahre) sind Selbstangaben – auf der Seite nicht als Zahl genannt",
+    "Echtes Logo und Projektfotos (Bäder, Treppen) beim Betrieb anfragen"
+  ],
+  "sources": [
+    {
+      "label": "MyHammer – Fliesenleger in Herrsching am Ammersee",
+      "url": "https://www.my-hammer.de/boden-fliesen/fliesen-platten-mosaikleger-berufe/herrsching-am-ammersee"
+    },
+    {
+      "label": "MyHammer – Fliesenleger in Pöcking",
+      "url": "https://www.my-hammer.de/boden-fliesen/fliesen-platten-mosaikleger-berufe/poecking"
+    },
+    {
+      "label": "MyHammer – Fliesenleger in Gauting",
+      "url": "https://www.my-hammer.de/boden-fliesen/fliesen-platten-mosaikleger-berufe/gauting"
+    },
+    {
+      "label": "MyHammer – Fliesenleger in Seefeld",
+      "url": "https://www.my-hammer.de/boden-fliesen/fliesen-platten-mosaikleger-berufe/seefeld"
+    },
+    {
+      "label": "MyHammer – Steinmetz in Seefeld",
+      "url": "https://www.my-hammer.de/bauen-renovieren/steinmetz-berufe/seefeld"
+    },
+    {
+      "label": "MyHammer – Sanitärinstallateure in Andechs",
+      "url": "https://www.my-hammer.de/sanitaer/sanitaerinstallateur-berufe/andechs"
+    }
+  ],
+  "site": {
+    "theme": "aqua",
+    "category": "handwerk",
+    "heroOffer": [
+      "Badsanierung",
+      "Bodenebene Duschen",
+      "Fliesen & Mosaik",
+      "Marmor- & Natursteintreppen"
+    ],
+    "scene": "bath",
+    "logoIcon": "drop",
+    "logoMark": "DV",
+    "brandName": "Di Venuta Fliesen",
+    "seoTitle": "Fliesenleger in Herrsching – Antonio Di Venuta",
+    "seoDescription": "Fliesen- und Mosaikarbeiten, Badsanierung mit bodenebener Dusche und Treppen in Marmor und Naturstein – Fliesenleger Antonio Di Venuta am Ammersee. Jetzt unverbindlich anfragen.",
+    "nav": [
+      {
+        "label": "Leistungen",
+        "href": "#leistungen"
+      },
+      {
+        "label": "Projekte",
+        "href": "#projekte"
+      },
+      {
+        "label": "Bewertungen",
+        "href": "#bewertungen"
+      },
+      {
+        "label": "Ablauf",
+        "href": "#ablauf"
+      },
+      {
+        "label": "FAQ",
+        "href": "#faq"
+      },
+      {
+        "label": "Kontakt",
+        "href": "#kontakt"
+      }
+    ],
+    "hero": {
+      "eyebrow": "Fliesenleger · Herrsching & Ammersee",
+      "headline": "Ihr Fliesenleger am Ammersee – Bäder, Mosaik und Natursteintreppen.",
+      "sub": "Antonio Di Venuta verlegt Fliesen und Mosaik, saniert Bäder mit bodenebener Dusche und fertigt Treppen in Marmor, Fliesen und Naturstein – in Herrsching, Pöcking und Umgebung.",
+      "ctaPrimary": "Unverbindlich anfragen",
+      "ctaSecondary": "Nachricht senden",
+      "bullets": [
+        "4,9 von 5 Sternen auf MyHammer",
+        "Jahrzehntelange Erfahrung – der Inhaber arbeitet selbst",
+        "Pünktlich, sauber, Kostenvoranschlag eingehalten (laut Kunden)"
+      ],
+      "imageLabel": "modernes Bad mit großformatigen Fliesen und bodenebener Dusche"
+    },
+    "badges": [
+      {
+        "title": "4,9 Sterne",
+        "sub": "Bewertungen auf MyHammer"
+      },
+      {
+        "title": "Badsanierung",
+        "sub": "mit bodenebener Dusche"
+      },
+      {
+        "title": "Naturstein",
+        "sub": "Treppen in Marmor & Stein"
+      },
+      {
+        "title": "Ammersee",
+        "sub": "Herrsching, Pöcking & Umgebung"
+      }
+    ],
+    "trust": [
+      {
+        "value": "4,9",
+        "label": "Sterne auf MyHammer"
+      },
+      {
+        "value": "Inhaber",
+        "label": "verlegt selbst"
+      },
+      {
+        "value": "4",
+        "label": "Schwerpunkte aus einer Hand"
+      },
+      {
+        "value": "Ammersee",
+        "label": "und Starnberger See"
+      }
+    ],
+    "servicesIntro": {
+      "headline": "Fliesen, Bad und Stein – sauber verlegt",
+      "text": "Vom Mosaik im Gäste-WC bis zur Marmortreppe: ein erfahrener Fliesenleger, der Material, Gefälle und Fuge im Blick hat."
+    },
+    "services": [
+      {
+        "title": "Fliesen verlegen",
+        "text": "Wand- und Bodenfliesen für Bad, Küche und Wohnräume – gerade Fugen, saubere Anschlüsse.",
+        "items": [
+          "Wandfliesen",
+          "Bodenfliesen",
+          "Küche & Bad"
+        ]
+      },
+      {
+        "title": "Mosaikarbeiten",
+        "text": "Feine Mosaikflächen als Akzent im Bad, in der Dusche oder an der Küchenwand.",
+        "items": [
+          "Mosaik",
+          "Akzentflächen",
+          "Duschnischen"
+        ]
+      },
+      {
+        "title": "Badsanierung",
+        "text": "Das alte Bad wird zum neuen – Fliesen, Abdichtung und Gestaltung aus einer Hand.",
+        "items": [
+          "Komplettsanierung",
+          "Teilsanierung",
+          "Beratung vor Ort"
+        ]
+      },
+      {
+        "title": "Bodenebene Duschen",
+        "text": "Barrierearme, bodenebene Duschbereiche mit sauber ausgeführtem Gefälle.",
+        "items": [
+          "Bodengleiche Dusche",
+          "Gefälle & Abdichtung",
+          "Barrierearm"
+        ]
+      },
+      {
+        "title": "Treppen in Marmor & Naturstein",
+        "text": "Langjährige Erfahrung mit Treppen aus Marmor, Fliesen und Naturstein – innen wie außen.",
+        "items": [
+          "Marmortreppen",
+          "Natursteinstufen",
+          "Fliesentreppen"
+        ]
+      }
+    ],
+    "why": {
+      "headline": "Erfahrung, die man in jeder Fuge sieht.",
+      "points": [
+        {
+          "title": "Viel Erfahrung",
+          "text": "Antonio Di Venuta arbeitet seit Jahrzehnten im Fliesenhandwerk und ist seit vielen Jahren selbstständig."
+        },
+        {
+          "title": "Pünktlich & sauber",
+          "text": "Kunden loben auf MyHammer Pünktlichkeit, Freundlichkeit und eine saubere Baustelle."
+        },
+        {
+          "title": "Faire Kalkulation",
+          "text": "Laut Bewertungen wurde der Kostenvoranschlag eingehalten – keine bösen Überraschungen."
+        },
+        {
+          "title": "Spezialist für Stein",
+          "text": "Neben Fliesen auch Marmor- und Natursteintreppen – nicht jeder Fliesenleger bietet das."
+        }
+      ]
+    },
+    "reviews": {
+      "headline": "Was Kunden sagen",
+      "summary": "Auf MyHammer ist Antonio Di Venuta mit 4,9 von 5 Sternen bewertet. Kunden heben vor allem Pünktlichkeit, Sauberkeit und den eingehaltenen Kostenvoranschlag hervor.",
+      "highlights": [
+        "Pünktlich",
+        "Freundlich",
+        "Saubere Baustelle",
+        "Kostenvoranschlag eingehalten"
+      ],
+      "source": "MyHammer",
+      "sourceUrl": "https://www.my-hammer.de/boden-fliesen/fliesen-platten-mosaikleger-berufe/herrsching-am-ammersee",
+      "rating": 4.9,
+      "count": 12
+    },
+    "process": {
+      "headline": "In vier Schritten zum neuen Bad",
+      "steps": [
+        {
+          "title": "Anfrage",
+          "text": "Fotos und ungefähre Maße schicken – kurz beschreiben, was geplant ist."
+        },
+        {
+          "title": "Besichtigung",
+          "text": "Untergrund, Material und Wünsche werden vor Ort besprochen."
+        },
+        {
+          "title": "Angebot",
+          "text": "Sie erhalten einen klaren Kostenvoranschlag."
+        },
+        {
+          "title": "Ausführung",
+          "text": "Verlegen, verfugen, sauber übergeben."
+        }
+      ]
+    },
+    "gallery": {
+      "headline": "Bäder und Treppen, die bleiben",
+      "text": "Für die Live-Version zeigen wir hier echte Projekte des Betriebs.",
+      "items": [
+        {
+          "title": "Neues Bad",
+          "photoNeeded": "saniertes Bad mit großformatigen Fliesen"
+        },
+        {
+          "title": "Bodenebene Dusche",
+          "photoNeeded": "bodengleiche Dusche mit Glaswand"
+        },
+        {
+          "title": "Mosaik",
+          "photoNeeded": "Mosaik-Akzentwand in der Dusche"
+        },
+        {
+          "title": "Marmortreppe",
+          "photoNeeded": "Treppe mit Marmorstufen im Hausflur"
+        },
+        {
+          "title": "Naturstein",
+          "photoNeeded": "Natursteinstufen im Außenbereich"
+        }
+      ]
+    },
+    "region": {
+      "headline": "Ihr Fliesenleger am Ammersee und Starnberger See",
+      "text": "Antonio Di Venuta ist auf MyHammer in Herrsching, Pöcking, Andechs, Seefeld, Wörthsee, Gauting, Feldafing und Weßling gelistet.",
+      "places": [
+        "Herrsching",
+        "Pöcking",
+        "Andechs",
+        "Seefeld",
+        "Wörthsee",
+        "Gauting",
+        "Feldafing",
+        "Weßling"
+      ]
+    },
+    "faq": [
+      {
+        "q": "Sanieren Sie auch komplette Bäder?",
+        "a": "Ja, Badsanierung gehört zu den Schwerpunkten – inklusive bodenebener Dusche."
+      },
+      {
+        "q": "Verlegen Sie auch Naturstein und Marmor?",
+        "a": "Ja, insbesondere Treppen in Marmor, Fliesen und Naturstein."
+      },
+      {
+        "q": "Übernehmen Sie kleinere Aufträge?",
+        "a": "Fragen Sie einfach an – mit ein paar Fotos lässt sich der Umfang schnell einschätzen."
+      },
+      {
+        "q": "Bekomme ich vorab einen Kostenvoranschlag?",
+        "a": "Ja. Nach Besichtigung erhalten Sie einen Kostenvoranschlag."
+      }
+    ],
+    "contact": {
+      "headline": "Ihr Fliesenprojekt – unverbindlich anfragen",
+      "text": "Beschreiben Sie kurz Ihr Vorhaben – Bad, Boden, Dusche oder Treppe – und schicken Sie gern Fotos mit.",
+      "topics": [
+        "Badsanierung",
+        "Bodenebene Dusche",
+        "Fliesen verlegen",
+        "Mosaik",
+        "Treppe Marmor/Naturstein",
+        "Sonstiges"
+      ],
+      "responseNote": "Besichtigung nach Absprache."
+    },
+    "quote": {
+      "sizeLabel": "Was soll gefliest werden?",
+      "sizes": [
+        "Gäste-WC / kleines Bad",
+        "Komplettes Bad",
+        "Boden / Wohnräume",
+        "Treppe"
+      ],
+      "timings": [
+        "So bald wie möglich",
+        "In den nächsten Wochen",
+        "In 1–3 Monaten",
+        "Ich plane erst noch"
+      ]
+    },
+    "stickyCta": "Anfrage senden"
+  }
+}
