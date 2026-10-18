@@ -73,6 +73,7 @@
     "pitch": "Guten Tag, mein Name ist … – ich erstelle Websites für Handwerksbetriebe im Würmtal. Ich habe gesehen, dass Sie auf MyHammer als Malermeister in Gauting mit 4,9 Sternen bewertet sind – aber wer Sie bei Google sucht, findet keine eigene Seite. Ich habe unverbindlich einen Entwurf für Sie vorbereitet – darf ich Ihnen den Link schicken?"
   },
   "manualChecks": [
+    "RESERVE – weder Google-Eintrag noch Freemail-Adresse belegt: NUR versenden, wenn Google Maps einen Eintrag OHNE Website zeigt.",
     "Website-Risiko: mittel – vor Versand in Google Maps prüfen, dass keine Website hinterlegt ist (Grund: alle Suchen negativ, aber kein Google-Beleg, keine Freemail, Inhaber unbekannt)",
     "Inhabername, Telefon, E-Mail und Adresse unbekannt – über MyHammer-Profil ermitteln; „WIR WIR“ ist evtl. nur ein Profil-/Markenname",
     "Direkte MyHammer-Profil-URL ermitteln; Profiltext (Meister, 15 Jahre) und Bewertung 17.08.2026 dem Betrieb sicher zuordnen",
