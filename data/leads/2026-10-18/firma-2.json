@@ -1,0 +1,380 @@
+{
+  "id": "2026-10-18-2",
+  "slug": "kurtoglu-elektro-erding",
+  "date": "2026-10-18",
+  "company": {
+    "name": "Mehmet Cem Kurtoglu",
+    "owner": "Mehmet Cem Kurtoglu",
+    "trade": "Elektroinstallation & Beleuchtung",
+    "city": "Erding",
+    "address": "Rotkreuzstraße 56, 85435 Erding",
+    "phone": null,
+    "email": null,
+    "serviceArea": [
+      "Erding",
+      "Eitting",
+      "Berglern",
+      "Ottenhofen",
+      "Hallbergmoos",
+      "Moosburg an der Isar"
+    ]
+  },
+  "listings": {
+    "google": {
+      "url": "https://www.google.com/maps/search/?api=1&query=Mehmet%20Cem%20Kurtoglu%20Erding",
+      "rating": null,
+      "reviews": null,
+      "evidence": "NICHT VERIFIZIERT – Google/Google Maps war aus der Recherche-Umgebung nicht erreichbar und die Websuche lieferte keinen Maps-Treffer. Vor Kontaktaufnahme manuell prüfen (auch: ist beim Eintrag eine Website hinterlegt?)."
+    },
+    "myhammer": {
+      "url": "https://www.my-hammer.de/elektrik/elektriker-berufe/erding",
+      "rating": 4.9,
+      "reviews": 44,
+      "evidence": "Auf der MyHammer-Ortsliste „Elektriker in Erding“ gelistet (4,9 bei 44 Bewertungen laut Suchindex). Direkte Profil-URL und Bewertungstexte nicht ermittelt – Link führt auf die Ortsliste."
+    }
+  },
+  "websiteStatus": "keine eigene Website gefunden (Prüfung unvollständig)",
+  "websiteChecks": [
+    "(1)+(2) Mehmet Cem Kurtoglu + Elektro + Erding – einziger relevanter Treffer: Verzeichniseintrag oeffnungszeitenbuch.de (Elektroinstallation/Beleuchtung, Rotkreuzstraße 56), sonst nur Namensvettern; keine Website",
+    "(3) Telefon/E-Mail über Verzeichnisse (oeffnungszeitenbuch, 11880, Cylex, Das Örtliche, Gelbe Seiten) – Suche vom Suchwerkzeug aus Datenschutzgründen verweigert, kein Ergebnis",
+    "(4) Domain-Prüfung per allowed_domains – NICHT DURCHGEFÜHRT (Such-Budget erschöpft)",
+    "(5) Website-/E-Mail-Feld im Verzeichnis – laut Suchzusammenfassung enthält der oeffnungszeitenbuch-Eintrag Telefon und E-Mail, Website wurde nicht erwähnt; Werte nicht einsehbar",
+    "(6) Name + Ort mit blocked_domains – NICHT DURCHGEFÜHRT (Such-Budget erschöpft)",
+    "Website-Risiko: mittel – vorhandene Suchen negativ, aber Prüfprotokoll unvollständig; E-Mail-Domain unbekannt"
+  ],
+  "facts": {
+    "services": [
+      "Elektroinstallation",
+      "Beleuchtung: Decken- und Pendelleuchten",
+      "LED-Leuchten"
+    ],
+    "experience": null,
+    "praisedFor": []
+  },
+  "strategy": {
+    "audience": "Eigentümer und Mieter in Erding und Umgebung mit Elektro- oder Beleuchtungsvorhaben (Neubau, Renovierung, Modernisierung)",
+    "mainService": "Elektroinstallation und Beleuchtung",
+    "trustSignal": "4,9 Sterne bei über 40 MyHammer-Bewertungen",
+    "conversionGoal": "Rückruf / Termin anfragen",
+    "visualConcept": "Licht als Gestaltungselement: klares Aqua-Farbschema, helle Flächen, Lichtkegel-Motive"
+  },
+  "sales": {
+    "score": 6,
+    "whyGoodLead": [
+      "Über 40 MyHammer-Bewertungen mit 4,9 Sternen – starke, aber unsichtbare Reputation",
+      "Beleuchtung ist ein sehr visuelles Thema – Vorher/Nachher-Bilder verkaufen sich hervorragend",
+      "Sitz in Erding mit kaufkräftigem Flughafen-Umland",
+      "Keine eigene Website gefunden, nur Plattform- und Verzeichniseinträge"
+    ],
+    "pitch": "Guten Tag Herr Kurtoglu, mein Name ist … – ich bin Webdesigner hier aus der Region. Mir ist aufgefallen, dass Sie auf MyHammer bei über 40 Bewertungen fast die Bestnote haben – aber wer Sie bei Google sucht, findet keine eigene Seite. Ich habe Ihnen deshalb unverbindlich einen Entwurf gebaut, der genau diese Stärke zeigt. Darf ich Ihnen den kurz zeigen?"
+  },
+  "manualChecks": [
+    "Website-Risiko: mittel – vor Versand in Google Maps prüfen, dass keine Website hinterlegt ist",
+    "Website-Prüfung nachholen (Such-Budget war erschöpft): Domains kurtoglu-elektro.de / elektro-kurtoglu.de per Browser/WHOIS, Name + Erding ohne Verzeichnisse suchen",
+    "Telefon und E-Mail aus dem Eintrag oeffnungszeitenbuch.de ablesen – E-Mail auf eigener Domain = Lead verwerfen",
+    "Direkte MyHammer-Profil-URL, Firmenbezeichnung und aktuelle Bewertungszahl (4,9 / 44) ablesen; Bewertungstexte für Kundenstimmen übernehmen",
+    "Leistungsumfang mit Inhaber abstimmen – belegt sind nur Elektroinstallation und Beleuchtung (Decken-, Pendel-, LED-Leuchten); Leistungen wie Steckdosen/Schalter und Außenbeleuchtung sind daraus abgeleitet",
+    "Eintrag in die Handwerksrolle prüfen, bevor Meister-/Fachbetrieb-Aussagen ergänzt werden",
+    "Echtes Logo: nicht gefunden – beim Inhaber als Datei anfragen"
+  ],
+  "sources": [
+    {
+      "label": "MyHammer – Elektriker Erding",
+      "url": "https://www.my-hammer.de/elektrik/elektriker-berufe/erding"
+    },
+    {
+      "label": "oeffnungszeitenbuch.de – Mehmet Cem Kurtoglu, Erding",
+      "url": "https://www.oeffnungszeitenbuch.de/filiale/Erding-Mehmet%2520Cem%2520Kurtoglu-5684853A.html"
+    }
+  ],
+  "site": {
+    "theme": "aqua",
+    "scene": "electric",
+    "logoIcon": "bolt",
+    "logoMark": "MK",
+    "brandName": "Kurtoglu Elektro",
+    "seoTitle": "Elektriker in Erding – Elektroinstallation & Beleuchtung | Kurtoglu",
+    "seoDescription": "Elektroinstallation und Beleuchtung in Erding: Decken- und Pendelleuchten, LED und saubere Installation. 4,9 Sterne auf MyHammer. Jetzt Rückruf anfragen.",
+    "nav": [
+      {
+        "label": "Leistungen",
+        "href": "#leistungen"
+      },
+      {
+        "label": "Über uns",
+        "href": "#ueber-uns"
+      },
+      {
+        "label": "Bewertungen",
+        "href": "#bewertungen"
+      },
+      {
+        "label": "Ablauf",
+        "href": "#ablauf"
+      },
+      {
+        "label": "FAQ",
+        "href": "#faq"
+      },
+      {
+        "label": "Kontakt",
+        "href": "#kontakt"
+      }
+    ],
+    "hero": {
+      "eyebrow": "Elektroinstallation & Licht · Erding",
+      "headline": "Gutes Licht beginnt mit sauberer Elektrik.",
+      "sub": "Mehmet Cem Kurtoglu installiert Elektrik und setzt Räume ins richtige Licht – von der Leitung bis zur fertig montierten LED-Leuchte. Für Erding und das Umland, mit 4,9 Sternen auf MyHammer.",
+      "ctaPrimary": "Rückruf anfragen",
+      "ctaSecondary": "Anrufen",
+      "bullets": [
+        "Elektroinstallation für Wohnung und Haus",
+        "Decken-, Pendel- und LED-Leuchten fachgerecht montiert",
+        "4,9 Sterne bei über 40 Bewertungen auf MyHammer"
+      ],
+      "imageLabel": "moderner Wohnraum mit neu montierten Pendel- und LED-Leuchten"
+    },
+    "badges": [
+      {
+        "title": "Elektroinstallation",
+        "sub": "sicher und sauber"
+      },
+      {
+        "title": "Beleuchtung",
+        "sub": "Decken- & Pendelleuchten"
+      },
+      {
+        "title": "LED",
+        "sub": "effizientes Licht"
+      },
+      {
+        "title": "Erding",
+        "sub": "Betrieb vor Ort"
+      }
+    ],
+    "trust": [
+      {
+        "value": "Licht",
+        "label": "Beleuchtung als Spezialgebiet"
+      },
+      {
+        "value": "LED",
+        "label": "moderne, effiziente Leuchten"
+      },
+      {
+        "value": "MyHammer",
+        "label": "Top-Bewertungen von Kunden"
+      },
+      {
+        "value": "Erding",
+        "label": "kurze Wege im Landkreis"
+      }
+    ],
+    "servicesIntro": {
+      "headline": "Elektrik und Licht aus einer Hand",
+      "text": "Erst die saubere Installation, dann das passende Licht: Sie bekommen beides vom selben Fachmann – ordentlich ausgeführt und verständlich erklärt."
+    },
+    "services": [
+      {
+        "title": "Elektroinstallation",
+        "text": "Leitungen, Anschlüsse und Verteilung – fachgerecht installiert für Wohnung und Haus.",
+        "items": [
+          "Installation",
+          "Erweiterung",
+          "Anschlüsse"
+        ]
+      },
+      {
+        "title": "Deckenleuchten",
+        "text": "Neue Deckenleuchten sicher angeschlossen und exakt ausgerichtet – auch bei hohen Decken.",
+        "items": [
+          "Montage",
+          "Anschluss",
+          "Austausch"
+        ]
+      },
+      {
+        "title": "Pendelleuchten",
+        "text": "Pendelleuchten über Esstisch und Kücheninsel – auf die richtige Höhe gebracht.",
+        "items": [
+          "Positionierung",
+          "Höhenanpassung",
+          "Montage"
+        ]
+      },
+      {
+        "title": "LED-Beleuchtung",
+        "text": "Effizientes LED-Licht, das Stromkosten senkt und Räume modern wirken lässt.",
+        "items": [
+          "LED-Leuchten",
+          "Umrüstung",
+          "Lichtplanung"
+        ]
+      },
+      {
+        "title": "Steckdosen & Schalter",
+        "text": "Zusätzliche Steckdosen, neue Schalter oder ein Austausch – schnell und sauber erledigt.",
+        "items": [
+          "Steckdosen",
+          "Schalter",
+          "Austausch"
+        ]
+      },
+      {
+        "title": "Renovierung & Umzug",
+        "text": "Neue Wohnung, neue Küche, neue Raumaufteilung: Elektrik und Licht passend zum Vorhaben.",
+        "items": [
+          "Leuchten umhängen",
+          "Anschlüsse anpassen",
+          "Beratung"
+        ]
+      }
+    ],
+    "why": {
+      "headline": "Warum Kunden in Erding auf Kurtoglu setzen",
+      "points": [
+        {
+          "title": "Starke Bewertungen",
+          "text": "4,9 Sterne bei über 40 Bewertungen auf MyHammer sprechen für sich."
+        },
+        {
+          "title": "Spezialgebiet Licht",
+          "text": "Beleuchtung ist kein Nebenprodukt, sondern ein Schwerpunkt – vom Einzelstück bis zum ganzen Raum."
+        },
+        {
+          "title": "Ein Ansprechpartner",
+          "text": "Installation und Leuchtenmontage aus einer Hand – keine Abstimmung zwischen mehreren Firmen."
+        },
+        {
+          "title": "Vor Ort in Erding",
+          "text": "Kurze Wege in Erding und im Umland für unkomplizierte Termine."
+        }
+      ]
+    },
+    "reviews": {
+      "headline": "Kunden geben fast die Bestnote",
+      "summary": "Auf MyHammer bewerten Kunden die Arbeit von Mehmet Cem Kurtoglu mit 4,9 von 5 Sternen. In der Live-Version zeigen wir hier ausgewählte Kundenstimmen.",
+      "highlights": [
+        "4,9 von 5 Sternen",
+        "Über 40 Bewertungen auf MyHammer",
+        "Elektroinstallation und Beleuchtung"
+      ],
+      "source": "MyHammer",
+      "sourceUrl": "https://www.my-hammer.de/elektrik/elektriker-berufe/erding",
+      "rating": 4.9,
+      "count": 44
+    },
+    "process": {
+      "headline": "So kommen Sie zu neuem Licht",
+      "steps": [
+        {
+          "title": "Anfrage",
+          "text": "Kurz beschreiben, was installiert oder montiert werden soll – gern mit Foto."
+        },
+        {
+          "title": "Rückruf",
+          "text": "Wir klären Details, Leuchten und Termin."
+        },
+        {
+          "title": "Angebot",
+          "text": "Bei größeren Vorhaben erhalten Sie ein klares Angebot."
+        },
+        {
+          "title": "Montage",
+          "text": "Saubere Ausführung, Funktionstest und Übergabe."
+        }
+      ]
+    },
+    "gallery": {
+      "headline": "Licht, das Räume verändert",
+      "text": "In der Live-Version zeigen wir hier echte Projekte – vom einzelnen Pendel bis zum komplett neu beleuchteten Raum.",
+      "items": [
+        {
+          "title": "Pendelleuchten",
+          "photoNeeded": "Pendelleuchten über einem Esstisch"
+        },
+        {
+          "title": "Deckenleuchte",
+          "photoNeeded": "neu montierte Deckenleuchte im Wohnzimmer"
+        },
+        {
+          "title": "LED",
+          "photoNeeded": "LED-Beleuchtung in Küche oder Flur"
+        },
+        {
+          "title": "Installation",
+          "photoNeeded": "saubere Elektroinstallation während der Renovierung"
+        },
+        {
+          "title": "Vorher / Nachher",
+          "photoNeeded": "Raum vor und nach der neuen Beleuchtung"
+        }
+      ]
+    },
+    "region": {
+      "headline": "Elektriker für Erding und das Umland",
+      "text": "Von Erding aus ist Mehmet Cem Kurtoglu in der Stadt und in den umliegenden Gemeinden im Einsatz – vom Flughafen-Umland bis Moosburg.",
+      "places": [
+        "Erding",
+        "Eitting",
+        "Berglern",
+        "Ottenhofen",
+        "Wörth",
+        "Hallbergmoos",
+        "Ismaning",
+        "Moosburg an der Isar"
+      ]
+    },
+    "faq": [
+      {
+        "q": "Montieren Sie auch Leuchten, die ich selbst gekauft habe?",
+        "a": "Sprechen Sie uns an – die Montage und der Anschluss von Decken-, Pendel- und LED-Leuchten gehören zum Angebot."
+      },
+      {
+        "q": "Lohnt sich die Umstellung auf LED?",
+        "a": "LED-Leuchten verbrauchen deutlich weniger Strom als ältere Leuchtmittel. Wir beraten Sie gern, welche Lösung zu Ihren Räumen passt."
+      },
+      {
+        "q": "Übernehmen Sie auch Elektroinstallationen?",
+        "a": "Ja, Elektroinstallation ist neben der Beleuchtung ein Schwerpunkt."
+      },
+      {
+        "q": "Wie läuft eine Anfrage ab?",
+        "a": "Sie beschreiben kurz Ihr Vorhaben, wir rufen zurück, klären die Details und vereinbaren einen Termin."
+      },
+      {
+        "q": "In welchen Orten sind Sie tätig?",
+        "a": "In Erding und Umgebung, zum Beispiel in Eitting, Berglern, Ottenhofen, Hallbergmoos und Moosburg."
+      }
+    ],
+    "contact": {
+      "headline": "Neues Licht oder neue Leitung? Wir melden uns.",
+      "text": "Beschreiben Sie kurz Ihr Vorhaben – von der einzelnen Leuchte bis zur Installation im ganzen Raum. Sie bekommen einen Rückruf mit Terminvorschlag.",
+      "topics": [
+        "Elektroinstallation",
+        "Deckenleuchten",
+        "Pendelleuchten",
+        "LED-Beleuchtung",
+        "Steckdosen / Schalter",
+        "Sonstiges"
+      ],
+      "responseNote": "Rückruf nach Absprache."
+    },
+    "quote": {
+      "sizeLabel": "Wie groß ist das Vorhaben?",
+      "sizes": [
+        "1–2 Leuchten montieren",
+        "Einzelner Raum",
+        "Mehrere Räume / Wohnung",
+        "Ganzes Haus / Renovierung"
+      ],
+      "timings": [
+        "Dringend",
+        "In den nächsten Wochen",
+        "In 1–3 Monaten",
+        "Ich plane erst noch"
+      ]
+    },
+    "stickyCta": "Rückruf anfragen"
+  }
+}

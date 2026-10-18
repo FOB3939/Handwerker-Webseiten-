@@ -1,0 +1,398 @@
+{
+  "id": "2026-10-18-9",
+  "slug": "eschbaumer-hofladen-notzing",
+  "date": "2026-10-18",
+  "company": {
+    "name": "Hofladen Georg Eschbaumer",
+    "owner": "Georg Eschbaumer",
+    "trade": "Hofladen & Direktvermarktung",
+    "city": "Oberding-Notzing",
+    "address": "An der Point 1, 85445 Oberding-Notzing",
+    "phone": "08122 902393",
+    "email": "esche63@web.de",
+    "serviceArea": [
+      "Notzing",
+      "Oberding",
+      "Niederding",
+      "Schwaig",
+      "Aufkirchen",
+      "Erding",
+      "Moosinning",
+      "Eitting"
+    ]
+  },
+  "listings": {
+    "google": {
+      "url": "https://www.google.com/maps/search/?api=1&query=Hofladen%20Georg%20Eschbaumer%20Notzing",
+      "rating": null,
+      "reviews": null,
+      "evidence": "NICHT VERIFIZIERT – Google/Google Maps war aus der Recherche-Umgebung nicht erreichbar und die Websuche lieferte keinen Maps-Treffer. Vor Kontaktaufnahme manuell prüfen."
+    },
+    "myhammer": {
+      "url": "https://www.ed-live.de/branchenbuch?eintrag=6709",
+      "rating": null,
+      "reviews": null,
+      "evidence": "Kein MyHammer – Branchenbuch-Eintrag „Hofladen Georg Eschbaumer“ bei ED-live (Region Erding) mit Adresse, Telefon 0 81 22 / 90 23 93 und E-Mail esche63@web.de; zusätzlich Mitgliedsseite beim Bauernmarktverein Landkreis München e.V. und Listung in der ED-live-Übersicht „Direktvermarkter“ und „Erdbeerfelder im Landkreis Erding“. Keine Bewertungen belegt."
+    }
+  },
+  "websiteStatus": "keine eigene Website gefunden",
+  "websiteChecks": [
+    "(1) Exakter Name „Eschbaumer“ + Notzing + Hofladen: keine eigene Domain, nur Fremdtreffer.",
+    "(2) „Hofladen Georg Eschbaumer Notzing“ mit Ausschluss von 11880, Gelbe Seiten, Das Örtliche, Das Telefonbuch, Cylex, meinestadt, Creditreform, Firmenwissen, Northdata, Facebook, Instagram, golocal: nur ED-live, Bauernmarktverein Landkreis München, fs-live/ed-live-Erdbeerlisten, firmania – keine eigene Website.",
+    "(3) Telefon „902393“ Notzing bzw. E-Mail esche63@web.de: keine Treffer auf einer eigenen Domain.",
+    "(4) Domainprüfung per allowed_domains eschbaumer.de, hofladen-eschbaumer.de, eschbaumer-hofladen.de, eschbaumer-notzing.de: nur eschbaumer.de = private Familien-Homepage anderer Personen (Christian/Caro/Marco Eschbaumer, Schwaig) – kein Hofbezug.",
+    "(5) ED-live-Eintrag: E-Mail ist Freemail (web.de); der Eintrag zeigt einen Link „Webseite“ und „Facebook“, deren Ziel-URL in den Suchergebnissen nicht sichtbar war – daher nur Risiko „mittel“.",
+    "(6) Suche nach Hühnern/Ziegen/Öffnungszeiten auf ED-live, Bauernmarktverein, regionales-bayern, VR-Bank Erding: Angaben nur in Verzeichnissen, keine eigene Domain genannt."
+  ],
+  "facts": {
+    "services": [
+      "Gemüse aus eigenem Anbau",
+      "Erdbeeren sowie rote und schwarze Johannisbeeren ab Hof und auf den Märkten",
+      "Freilandeier von eigenen Hühnern",
+      "Hausgemachte Marmeladen und Gelees",
+      "Apfelsaft, Erdbeerlimes, Hollerlikör, Eierlikör",
+      "Nudeln, Äpfel, Birnen, Kirschen, Zwetschgen, Käse, Honig, Saisonblumen"
+    ],
+    "experience": "Laut Bauernmarktverein-Profil Hofübernahme 1989, Aussiedlung des Hofs 1991",
+    "praisedFor": []
+  },
+  "strategy": {
+    "audience": "Familien und Genießer aus Oberding, Erding und dem Erdinger Moos, die frische Eier, Gemüse und Beeren direkt vom Hof kaufen wollen",
+    "mainService": "Hofladen mit Gemüse, Erdbeeren und Freilandeiern",
+    "trustSignal": "Familienhof seit 1989 in Notzing, ca. 150 eigene Hühner, Mitglied im Bauernmarktverein Landkreis München",
+    "conversionGoal": "Anruf / Vorbestellung (z. B. Erdbeeren) und Besuch im Hofladen",
+    "visualConcept": "Hofromantik mit Bodenhaftung: warmes Rot der Erdbeeren, sattes Grün, Kreidetafel-Optik, große Bilder vom Hof, den Hühnern und dem Gemüsefeld"
+  },
+  "sales": {
+    "score": 7,
+    "whyGoodLead": [
+      "Sehr breites, belegtes Sortiment (Gemüse, Beeren, Eier, Liköre, Marmeladen) – ideal für eine bildstarke Website",
+      "Saisonware wie Erdbeeren lebt von aktueller Info („Erdbeeren sind da!“) – eine eigene Seite schafft genau das",
+      "Bisher nur in Verzeichnissen sichtbar; Öffnungszeiten widersprechen sich dort – eine eigene Seite schafft Klarheit",
+      "Kaufkräftiges Umfeld rund um Erding und den Flughafen mit vielen Zuzüglern, die regionale Höfe suchen"
+    ],
+    "pitch": "Grüß Gott Herr Eschbaumer, mein Name ist … – ich mache Websites für Höfe und Betriebe hier im Landkreis Erding. Ich habe Ihren Hofladen im ED-live-Branchenbuch und beim Bauernmarktverein gesehen: Erdbeeren, Freilandeier von Ihren rund 150 Hühnern, Marmeladen, Holler- und Eierlikör – das ist ein tolles Sortiment, aber im Netz findet man es nur verstreut. Ich habe unverbindlich einen Entwurf für eine eigene Hofladen-Seite vorbereitet. Darf ich ihn Ihnen kurz zeigen?"
+  },
+  "manualChecks": [
+    "Website-Risiko: mittel – vor Versand in Google Maps prüfen, dass keine Website hinterlegt ist",
+    "Ziel des Links „Webseite“ im ED-live-Eintrag direkt im Browser prüfen (evtl. nur Facebook oder Bauernmarktverein-Seite)",
+    "Google-Unternehmensprofil prüfen (Existenz, Bewertungen, hinterlegte Website)",
+    "Öffnungszeiten klären – Verzeichnisse widersprechen sich (ganztägig vs. 24 h); im Entwurf bewusst nicht genannt",
+    "Tierbestand und Sortiment aktuell bestätigen (Quelle teils ältere Verzeichniseinträge; Schafe nur beim Bauernmarktverein genannt)",
+    "Auf welchen Bauernmärkten der Hof aktuell steht, beim Inhaber erfragen"
+  ],
+  "sources": [
+    {
+      "label": "ED-live Branchenbuch – Hofladen Georg Eschbaumer",
+      "url": "https://www.ed-live.de/branchenbuch?eintrag=6709"
+    },
+    {
+      "label": "Bauernmarktverein Landkreis München e.V. – Eschbaumer",
+      "url": "https://www.bauernmarktverein-landkreis-mchn.de/eschbaumer.html"
+    },
+    {
+      "label": "ED-live – Direktvermarkter im Landkreis Erding",
+      "url": "https://www.ed-live.de/region_direktvermarkter"
+    },
+    {
+      "label": "ED-live – Erdbeerfelder im Landkreis Erding",
+      "url": "https://www.ed-live.de/region_erdbeeren"
+    },
+    {
+      "label": "Liveblatt Branchenbuch Erding – Direkterzeuger",
+      "url": "https://ed.liveblatt.de/branchenbuch/branche-direkterzeuger+und+vermarkter-377"
+    }
+  ],
+  "site": {
+    "theme": "hof",
+    "scene": "garden",
+    "quote": {
+      "sizeLabel": "Was möchten Sie bei uns holen?",
+      "sizes": [
+        "Erdbeeren / Beeren",
+        "Eier & Nudeln",
+        "Gemüse & Obst",
+        "Marmeladen, Säfte & Liköre",
+        "Geschenk vom Hof"
+      ],
+      "timings": [
+        "Diese Woche",
+        "Zum Wochenende",
+        "Zur nächsten Erntezeit",
+        "Regelmäßig"
+      ]
+    },
+    "badges": [
+      {
+        "title": "Seit 1989",
+        "sub": "Familienhof in Notzing"
+      },
+      {
+        "title": "ca. 150 Hühner",
+        "sub": "Freilandeier vom eigenen Hof"
+      },
+      {
+        "title": "Erdbeeren ab Hof",
+        "sub": "und auf den Bauernmärkten"
+      },
+      {
+        "title": "Bauernmarktverein",
+        "sub": "Mitglied, Landkreis München"
+      }
+    ],
+    "seoTitle": "Hofladen Eschbaumer in Notzing – Erdbeeren, Eier & Gemüse vom Hof",
+    "seoDescription": "Gemüse, Erdbeeren, Johannisbeeren und Freilandeier von den eigenen Hühnern – dazu hausgemachte Marmeladen und Liköre. Hofladen Eschbaumer in Notzing bei Oberding.",
+    "logoMark": "GE",
+    "brandName": "Hofladen Eschbaumer",
+    "logoIcon": "leaf",
+    "nav": [
+      {
+        "label": "Hofladen",
+        "href": "#leistungen"
+      },
+      {
+        "label": "Hof",
+        "href": "#projekte"
+      },
+      {
+        "label": "Ablauf",
+        "href": "#ablauf"
+      },
+      {
+        "label": "Region",
+        "href": "#region"
+      },
+      {
+        "label": "FAQ",
+        "href": "#faq"
+      },
+      {
+        "label": "Kontakt",
+        "href": "#kontakt"
+      }
+    ],
+    "hero": {
+      "eyebrow": "Hofladen in Notzing · Gemeinde Oberding",
+      "headline": "Frisch vom Feld. Direkt vom Hof.",
+      "sub": "Gemüse aus eigenem Anbau, sonnenreife Erdbeeren und Freilandeier von unseren rund 150 Hühnern – dazu hausgemachte Marmeladen, Säfte und Liköre. Familie Eschbaumer freut sich auf Ihren Besuch.",
+      "ctaPrimary": "Jetzt anrufen",
+      "ctaSecondary": "Sortiment ansehen",
+      "bullets": [
+        "Gemüse & Erdbeeren aus eigenem Anbau",
+        "Freilandeier von eigenen Hühnern",
+        "Hausgemachtes aus der Hofküche"
+      ],
+      "imageLabel": "Hofladen mit Erdbeerkörben und frischem Gemüse"
+    },
+    "trust": [
+      {
+        "value": "1989",
+        "label": "Hof in Familienhand übernommen"
+      },
+      {
+        "value": "ca. 150",
+        "label": "Hühner auf dem Hof"
+      },
+      {
+        "value": "Ab Hof",
+        "label": "und auf den Bauernmärkten"
+      },
+      {
+        "value": "Notzing",
+        "label": "im Erdinger Moos"
+      }
+    ],
+    "servicesIntro": {
+      "headline": "Was bei uns auf den Tisch kommt",
+      "text": "Vom Feld, aus dem Hühnerstall und aus der eigenen Hofküche: Im Hofladen Eschbaumer finden Sie, was gerade Saison hat – ehrlich, regional und ohne Umwege."
+    },
+    "services": [
+      {
+        "title": "Gemüse vom Feld",
+        "text": "Gemüse aus eigenem Anbau, frisch geerntet – je nach Saison.",
+        "items": [
+          "eigener Anbau",
+          "saisonal",
+          "erntefrisch"
+        ]
+      },
+      {
+        "title": "Erdbeeren & Beeren",
+        "text": "Erdbeeren sowie rote und schwarze Johannisbeeren gibt es ab Hof und auf den Märkten.",
+        "items": [
+          "Erdbeeren",
+          "Johannisbeeren rot",
+          "Johannisbeeren schwarz"
+        ]
+      },
+      {
+        "title": "Freilandeier",
+        "text": "Eier von unseren eigenen Hühnern – rund 150 leben bei uns auf dem Hof.",
+        "items": [
+          "Freilandeier",
+          "eigene Hühner",
+          "Nudeln"
+        ]
+      },
+      {
+        "title": "Aus der Hofküche",
+        "text": "Hausgemachte Marmeladen und Gelees – das Beste aus der Ernte, im Glas bewahrt.",
+        "items": [
+          "Marmeladen",
+          "Gelees",
+          "hausgemacht"
+        ]
+      },
+      {
+        "title": "Säfte & Liköre",
+        "text": "Für den Genuss und zum Verschenken: Säfte und Liköre vom Hof.",
+        "items": [
+          "Apfelsaft",
+          "Erdbeerlimes",
+          "Holler- & Eierlikör"
+        ]
+      },
+      {
+        "title": "Obst, Käse & Blumen",
+        "text": "Rund ums Jahr ergänzen Obst, Käse, Honig und Saisonblumen das Sortiment.",
+        "items": [
+          "Äpfel, Birnen, Kirschen, Zwetschgen",
+          "Käse & Honig",
+          "Saisonblumen"
+        ]
+      }
+    ],
+    "why": {
+      "headline": "Warum der Weg nach Notzing sich lohnt",
+      "points": [
+        {
+          "title": "Seit 1989 in Familienhand",
+          "text": "Georg Eschbaumer hat den Hof 1989 übernommen und 1991 neu ausgesiedelt – Landwirtschaft mit Herz und Verantwortung."
+        },
+        {
+          "title": "Eigene Tiere",
+          "text": "Rund 150 Hühner, dazu Ziegen – und verschmuste Berner Sennenhunde auf dem Hof."
+        },
+        {
+          "title": "Vom Acker in den Korb",
+          "text": "Gemüse, Erdbeeren und Beeren wachsen auf den eigenen Flächen – kurze Wege, volle Frische."
+        },
+        {
+          "title": "Teil der Bauernmärkte",
+          "text": "Als Mitglied im Bauernmarktverein Landkreis München steht der Hof für echte regionale Ware."
+        }
+      ]
+    },
+    "reviews": {
+      "headline": "Regional einkaufen mit gutem Gefühl",
+      "summary": "Der Hofladen Eschbaumer ist im ED-live-Branchenbuch, in den Erdbeer- und Direktvermarkter-Übersichten des Landkreises Erding und beim Bauernmarktverein Landkreis München gelistet. Öffentliche Kundenbewertungen liegen derzeit nicht vor.",
+      "highlights": [
+        "Gelistet bei ED-live (Region Erding)",
+        "Mitglied im Bauernmarktverein Landkreis München",
+        "In der Übersicht „Erdbeerfelder im Landkreis Erding“",
+        "Direktvermarkter im Landkreis Erding"
+      ],
+      "source": "ED-live Branchenbuch Region Erding",
+      "sourceUrl": "https://www.ed-live.de/branchenbuch?eintrag=6709",
+      "rating": null,
+      "count": null
+    },
+    "process": {
+      "headline": "So kommen Sie zu Ihrem Einkauf",
+      "steps": [
+        {
+          "title": "Anrufen",
+          "text": "Kurz durchrufen und fragen, was gerade frisch ist – gerade in der Erdbeerzeit lohnt sich das."
+        },
+        {
+          "title": "Vorbestellen",
+          "text": "Größere Mengen Erdbeeren, Eier oder ein Geschenk vom Hof? Einfach vorab Bescheid geben."
+        },
+        {
+          "title": "Vorbeikommen",
+          "text": "An der Point 1 in Notzing – zwischen Erding und Oberding, gut mit dem Auto oder Rad erreichbar."
+        },
+        {
+          "title": "Genießen",
+          "text": "Mit vollem Korb nach Hause – und wiederkommen, wenn die nächste Ernte reif ist."
+        }
+      ]
+    },
+    "gallery": {
+      "headline": "Ein Blick auf den Hof",
+      "text": "Für die Live-Version zeigen wir hier echte Bilder vom Hof Eschbaumer – am schönsten im Frühsommer zur Erdbeerzeit.",
+      "items": [
+        {
+          "title": "Erdbeerzeit",
+          "photoNeeded": "Körbe mit frisch gepflückten Erdbeeren"
+        },
+        {
+          "title": "Unsere Hühner",
+          "photoNeeded": "Hühner im Freilauf auf dem Hof"
+        },
+        {
+          "title": "Gemüsefeld",
+          "photoNeeded": "Gemüsereihen auf dem eigenen Feld"
+        },
+        {
+          "title": "Hofküche",
+          "photoNeeded": "Regal mit Marmeladen, Säften und Likören"
+        },
+        {
+          "title": "Hofladen",
+          "photoNeeded": "Verkaufsraum mit Saisonblumen und Eiern"
+        }
+      ]
+    },
+    "region": {
+      "headline": "Ihr Hofladen im Erdinger Moos",
+      "text": "Vom Hof in Notzing sind es nur wenige Minuten nach Oberding, Erding, Moosinning und Eitting – ideal für den Einkauf auf dem Heimweg.",
+      "places": [
+        "Notzing",
+        "Oberding",
+        "Niederding",
+        "Schwaig",
+        "Aufkirchen",
+        "Erding",
+        "Moosinning",
+        "Eitting"
+      ]
+    },
+    "faq": [
+      {
+        "q": "Wann haben Sie geöffnet?",
+        "a": "Am besten kurz anrufen unter 08122 902393 – dann wissen Sie auch gleich, was gerade frisch ist."
+      },
+      {
+        "q": "Wann gibt es Erdbeeren?",
+        "a": "Erdbeeren und Johannisbeeren gibt es zur Saison ab Hof und auf den Märkten. Fragen Sie gern telefonisch nach dem aktuellen Stand der Ernte."
+      },
+      {
+        "q": "Sind die Eier von eigenen Hühnern?",
+        "a": "Ja, die Freilandeier stammen von den rund 150 Hühnern auf unserem Hof."
+      },
+      {
+        "q": "Kann ich vorbestellen?",
+        "a": "Ja, sprechen Sie uns einfach an – telefonisch oder per E-Mail an esche63@web.de."
+      },
+      {
+        "q": "Haben Sie auch Geschenke vom Hof?",
+        "a": "Hausgemachte Marmeladen und Gelees, Erdbeerlimes, Holler- und Eierlikör eignen sich wunderbar als Mitbringsel."
+      }
+    ],
+    "contact": {
+      "headline": "Fragen, vorbestellen, vorbeikommen",
+      "text": "Rufen Sie uns an oder schreiben Sie uns – wir sagen Ihnen gern, was gerade Saison hat, und legen Ihnen auf Wunsch etwas zurück.",
+      "topics": [
+        "Erdbeeren / Beeren",
+        "Eier",
+        "Gemüse",
+        "Marmeladen & Liköre",
+        "Geschenk vom Hof",
+        "Sonstiges"
+      ],
+      "responseNote": "Wir melden uns, sobald die Arbeit auf dem Hof es zulässt."
+    },
+    "stickyCta": "Hofladen anrufen"
+  }
+}

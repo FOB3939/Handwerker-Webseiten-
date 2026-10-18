@@ -1,0 +1,382 @@
+{
+  "id": "2026-10-18-7",
+  "slug": "hofladen-wild-kreuzweg-berg",
+  "date": "2026-10-18",
+  "company": {
+    "name": "Hofladen Familie Wild (Joachim jr. & Miriam Wild)",
+    "owner": "Joachim jr. und Miriam Wild",
+    "trade": "Hofladen & Bauernhof",
+    "city": "Berg (Kreuzweg)",
+    "address": "Kreuzweg 55, 82335 Berg-Kreuzweg",
+    "phone": "08151 51543",
+    "email": null,
+    "serviceArea": [
+      "Kreuzweg",
+      "Aufkirchen",
+      "Berg",
+      "Farchach",
+      "Allmannshausen",
+      "Höhenrain"
+    ]
+  },
+  "listings": {
+    "google": {
+      "url": "https://www.google.com/maps/search/?api=1&query=Wild%20Kreuzweg%2055%20Berg",
+      "rating": null,
+      "reviews": null,
+      "evidence": "NICHT VERIFIZIERT – kein Google-Maps-Treffer in der Recherche; Google war aus der Recherche-Umgebung nicht abrufbar. Vor Kontaktaufnahme manuell prüfen."
+    },
+    "myhammer": {
+      "url": "https://www.buergerbeteiligung-berg.de/arbeitsgruppen/nahversorgung-landwirtschaft/direktverkauf-liste",
+      "rating": null,
+      "reviews": null,
+      "evidence": "Eintrag in der „Liste der Direktvermarkter“ der Bürgerbeteiligung Berg e. V. (AG Nahversorgung & Landwirtschaft): Wild Joachim jr. und Miriam, Kreuzweg 55, 82335 Kreuzweg – Eier, Nudeln, Kartoffeln, Marmeladen, Zwiebeln; Selbstbedienung im Verkaufshäuschen; Tel. 08151 / 51543. Keine Bewertungen auf dem Portal."
+    }
+  },
+  "websiteStatus": "keine eigene Website gefunden – Prüfung jedoch UNVOLLSTÄNDIG (Suchbudget erschöpft), Website-Risiko: mittel",
+  "websiteChecks": [
+    "ACHTUNG: Website-Prüfung unvollständig – das gemeinsame WebSearch-Budget war nach dem Fund ausgeschöpft. Die Suchen (1) exakter Name, (2) Name+Ort, (3) Inhaber/Telefon, (4) Domain-Check, (5) Branchenbuch-Website-Feld, (6) Suche mit blocked_domains konnten NICHT mehr ausgeführt werden und müssen vor Versand nachgeholt werden.",
+    "Durchgeführt: Suche nach Direktvermarktern in Berg auf buergerbeteiligung-berg.de (allowed_domains) – Eintrag ohne Website-Angabe gefunden; bei anderen Einträgen derselben Liste (z. B. Löfflerhof) existieren eigene Websites, für Familie Wild wurde keine genannt.",
+    "Durchgeführt: allgemeine Suche „Hofladen Landkreis Starnberg …“ auf hofladen-bauernladen.info u. a. – Familie Wild dort nicht aufgetaucht (kein Website-Hinweis).",
+    "Keine E-Mail-Adresse öffentlich gefunden."
+  ],
+  "facts": {
+    "services": [
+      "Eier",
+      "Nudeln",
+      "Kartoffeln",
+      "Marmeladen",
+      "Zwiebeln",
+      "Selbstbedienung im Verkaufshäuschen"
+    ],
+    "experience": null,
+    "praisedFor": []
+  },
+  "strategy": {
+    "audience": "Familien und Genießer am Ostufer des Starnberger Sees (Berg, Aufkirchen, Farchach, Kreuzweg), die Eier, Nudeln und Kartoffeln direkt vom Hof kaufen möchten",
+    "mainService": "Hofladen mit Selbstbedienungs-Verkaufshäuschen: Eier, Nudeln, Kartoffeln, Marmeladen, Zwiebeln",
+    "trustSignal": "Gelistet in der Direktvermarkter-Liste der Bürgerbeteiligung Berg – echter Hofverkauf aus der Nachbarschaft",
+    "conversionGoal": "Hofladen-Besuch / Anfrage zu Verfügbarkeit und Vorbestellung",
+    "visualConcept": "Warm und bodenständig: Holzhütte, Eierkarton, Kartoffelkiste, Erdtöne, Morgenlicht über dem Hof"
+  },
+  "sales": {
+    "score": 5,
+    "whyGoodLead": [
+      "Kleiner Familienbetrieb, bisher nur über eine ehrenamtliche Liste auffindbar",
+      "Selbstbedienung lebt von Sichtbarkeit – eine Website mit Sortiment und Anfahrt bringt direkt Kundschaft",
+      "Kaufkräftiges Umfeld am Starnberger See mit großer Nachfrage nach regionalen Lebensmitteln",
+      "Einfacher, schnell umsetzbarer Onepager"
+    ],
+    "pitch": "Grüß Gott Familie Wild, mein Name ist … – ich mache Websites für kleine Betriebe hier am Starnberger See. Ihr Verkaufshäuschen in Kreuzweg habe ich in der Direktvermarkter-Liste der Bürgerbeteiligung Berg gefunden – online sonst aber nirgends. Ich habe Ihnen unverbindlich einen kleinen Entwurf gebaut, auf dem man Eier, Nudeln und Kartoffeln von Ihrem Hof findet. Darf ich ihn Ihnen kurz zeigen?"
+  },
+  "manualChecks": [
+    "Website-Risiko: mittel – vor Versand in Google Maps prüfen, dass keine Website hinterlegt ist",
+    "WEBSITE-PRÜFUNG NACHHOLEN: exakter Name, Name+Ort (Kreuzweg/Berg), Telefon 08151 51543, Domains wie hofladen-wild.de / wild-kreuzweg.de, Branchenbuch-Website-Feld, Suche mit blocked_domains",
+    "Telefonnummer 08151 51543 bestätigen (nur aus der Berg-Liste belegt)",
+    "Sortiment und Öffnungszeiten aktuell abfragen (Liste ohne verlässliches Aktualisierungsdatum)",
+    "Klären, ob eigene Hühner/eigene Nudelherstellung – im Text bisher bewusst allgemein formuliert"
+  ],
+  "sources": [
+    {
+      "label": "Bürgerbeteiligung Berg – Liste der Direktvermarkter",
+      "url": "https://www.buergerbeteiligung-berg.de/arbeitsgruppen/nahversorgung-landwirtschaft/direktverkauf-liste"
+    },
+    {
+      "label": "Bürgerbeteiligung Berg – AG Nahversorgung & Landwirtschaft",
+      "url": "https://www.buergerbeteiligung-berg.de/arbeitsgruppen/nahversorgung-landwirtschaft"
+    }
+  ],
+  "site": {
+    "theme": "hof",
+    "scene": "farm",
+    "quote": {
+      "sizeLabel": "Was möchten Sie vom Hof?",
+      "sizes": [
+        "Eier",
+        "Nudeln",
+        "Kartoffeln",
+        "Marmelade & Zwiebeln",
+        "Gemischter Einkauf"
+      ],
+      "timings": [
+        "Diese Woche",
+        "Regelmäßig",
+        "Für ein Fest / größere Menge",
+        "Erst einmal nur informieren"
+      ]
+    },
+    "badges": [
+      {
+        "title": "Direkt vom Hof",
+        "sub": "Kreuzweg, Berg am Starnberger See"
+      },
+      {
+        "title": "Selbstbedienung",
+        "sub": "im Verkaufshäuschen"
+      },
+      {
+        "title": "Familienbetrieb",
+        "sub": "Joachim jr. & Miriam Wild"
+      },
+      {
+        "title": "Regional gelistet",
+        "sub": "Direktvermarkter-Liste Berg"
+      }
+    ],
+    "seoTitle": "Hofladen Wild in Kreuzweg (Berg) – Eier, Nudeln & Kartoffeln vom Hof",
+    "seoDescription": "Eier, Nudeln, Kartoffeln, Marmeladen und Zwiebeln direkt vom Hof der Familie Wild in Kreuzweg bei Berg am Starnberger See. Selbstbedienung im Verkaufshäuschen.",
+    "logoMark": "W",
+    "brandName": "Hofladen Wild",
+    "logoIcon": "barn",
+    "nav": [
+      {
+        "label": "Hofladen",
+        "href": "#leistungen"
+      },
+      {
+        "label": "Unser Hof",
+        "href": "#projekte"
+      },
+      {
+        "label": "Warum wir",
+        "href": "#bewertungen"
+      },
+      {
+        "label": "So geht's",
+        "href": "#ablauf"
+      },
+      {
+        "label": "FAQ",
+        "href": "#faq"
+      },
+      {
+        "label": "Kontakt",
+        "href": "#kontakt"
+      }
+    ],
+    "hero": {
+      "eyebrow": "Hofladen in Kreuzweg · Berg am Starnberger See",
+      "headline": "Frisch vom Hof. Ehrlich wie früher.",
+      "sub": "Eier, Nudeln, Kartoffeln, Marmeladen und Zwiebeln – bei Familie Wild in Kreuzweg holen Sie sich gute Lebensmittel einfach selbst im Verkaufshäuschen ab.",
+      "ctaPrimary": "Hofladen-Anfrage senden",
+      "ctaSecondary": "Jetzt anrufen",
+      "bullets": [
+        "Eier, Nudeln & Kartoffeln",
+        "Selbstbedienung im Verkaufshäuschen",
+        "Familie Wild, Kreuzweg 55"
+      ],
+      "imageLabel": "Verkaufshäuschen am Hof mit Eiern und Kartoffeln"
+    },
+    "trust": [
+      {
+        "value": "5",
+        "label": "Produktgruppen im Hofverkauf"
+      },
+      {
+        "value": "SB",
+        "label": "Selbstbedienung im Verkaufshäuschen"
+      },
+      {
+        "value": "Berg",
+        "label": "Ostufer des Starnberger Sees"
+      },
+      {
+        "value": "Familie",
+        "label": "Joachim jr. & Miriam Wild"
+      }
+    ],
+    "servicesIntro": {
+      "headline": "Was es bei uns am Hof gibt",
+      "text": "Kein Supermarktregal, sondern ein kleines Verkaufshäuschen am Hof: Hier finden Sie, was gerade da ist – unkompliziert, regional und mit kurzen Wegen."
+    },
+    "services": [
+      {
+        "title": "Eier",
+        "text": "Frische Eier direkt am Hof – für Frühstück, Backen und die ganze Familie.",
+        "items": [
+          "direkt vom Hof",
+          "zum Mitnehmen",
+          "Menge nach Bedarf"
+        ]
+      },
+      {
+        "title": "Nudeln",
+        "text": "Nudeln aus dem Hofverkauf – für ein schnelles, ehrliches Essen unter der Woche.",
+        "items": [
+          "Hofverkauf",
+          "gut zu bevorraten",
+          "ideal als Mitbringsel"
+        ]
+      },
+      {
+        "title": "Kartoffeln",
+        "text": "Kartoffeln für die bayerische Küche – vom Kartoffelsalat bis zum Sonntagsbraten.",
+        "items": [
+          "zum Kochen",
+          "für Beilagen",
+          "je nach Saison"
+        ]
+      },
+      {
+        "title": "Marmeladen",
+        "text": "Marmeladen für den Frühstückstisch und als kleines Geschenk aus der Region.",
+        "items": [
+          "zum Frühstück",
+          "als Geschenk",
+          "je nach Vorrat"
+        ]
+      },
+      {
+        "title": "Zwiebeln",
+        "text": "Zwiebeln für Küche und Vorrat – die Basis fast jedes guten Gerichts.",
+        "items": [
+          "für die Küche",
+          "zum Bevorraten",
+          "je nach Saison"
+        ]
+      },
+      {
+        "title": "Selbstbedienung",
+        "text": "Im Verkaufshäuschen bedienen Sie sich selbst – einfach vorbeikommen, aussuchen, bezahlen.",
+        "items": [
+          "Verkaufshäuschen",
+          "unkompliziert",
+          "Kreuzweg 55"
+        ]
+      }
+    ],
+    "why": {
+      "headline": "Weil gute Lebensmittel keinen Umweg brauchen",
+      "points": [
+        {
+          "title": "Direkt vom Hof",
+          "text": "Sie kaufen dort, wo die Lebensmittel herkommen – ohne Zwischenhandel."
+        },
+        {
+          "title": "Aus der Nachbarschaft",
+          "text": "Kreuzweg liegt mitten in der Gemeinde Berg – kurze Wege aus Aufkirchen, Farchach und Berg."
+        },
+        {
+          "title": "Einfach & unkompliziert",
+          "text": "Verkaufshäuschen mit Selbstbedienung: vorbeikommen, auswählen, mitnehmen."
+        },
+        {
+          "title": "Familie statt Konzern",
+          "text": "Hinter dem Hofladen stehen Joachim jr. und Miriam Wild persönlich."
+        }
+      ]
+    },
+    "reviews": {
+      "headline": "Ein Hof, den die Nachbarschaft kennt",
+      "summary": "Der Hofladen der Familie Wild ist in der Direktvermarkter-Liste der Bürgerbeteiligung Berg aufgeführt – als Anlaufstelle für Eier, Nudeln, Kartoffeln, Marmeladen und Zwiebeln. Öffentliche Bewertungen liegen bisher nicht vor.",
+      "highlights": [
+        "Gelistet bei der Bürgerbeteiligung Berg",
+        "Selbstbedienung im Verkaufshäuschen",
+        "Familienbetrieb in Kreuzweg",
+        "Regionale Lebensmittel am Ostufer"
+      ],
+      "source": "Bürgerbeteiligung Berg – Liste der Direktvermarkter",
+      "sourceUrl": "https://www.buergerbeteiligung-berg.de/arbeitsgruppen/nahversorgung-landwirtschaft/direktverkauf-liste",
+      "rating": null,
+      "count": null
+    },
+    "process": {
+      "headline": "So kommen Sie an Ihre Hofprodukte",
+      "steps": [
+        {
+          "title": "Anfragen",
+          "text": "Kurz anrufen oder Nachricht schicken – was brauchen Sie, und wie viel?"
+        },
+        {
+          "title": "Verfügbarkeit klären",
+          "text": "Sie erfahren, was gerade im Verkaufshäuschen bereitsteht."
+        },
+        {
+          "title": "Vorbeikommen",
+          "text": "Nach Kreuzweg 55 fahren – das Verkaufshäuschen ist leicht zu finden."
+        },
+        {
+          "title": "Genießen",
+          "text": "Selbst bedienen, bezahlen, mitnehmen – und zu Hause genießen."
+        }
+      ]
+    },
+    "gallery": {
+      "headline": "Ein Blick auf unseren Hof",
+      "text": "Für die Live-Version zeigen wir hier echte Fotos vom Hof und vom Verkaufshäuschen – am besten im Morgenlicht.",
+      "items": [
+        {
+          "title": "Das Verkaufshäuschen",
+          "photoNeeded": "Verkaufshäuschen von außen"
+        },
+        {
+          "title": "Frische Eier",
+          "photoNeeded": "Eier im Karton oder Korb"
+        },
+        {
+          "title": "Kartoffeln",
+          "photoNeeded": "Kartoffelkiste im Hofladen"
+        },
+        {
+          "title": "Nudeln & Marmelade",
+          "photoNeeded": "Regal mit Nudeln und Marmeladengläsern"
+        },
+        {
+          "title": "Der Hof",
+          "photoNeeded": "Hofansicht Kreuzweg mit Landschaft"
+        }
+      ]
+    },
+    "region": {
+      "headline": "Ihr Hofladen am Ostufer des Starnberger Sees",
+      "text": "Von Kreuzweg aus sind es nur wenige Minuten nach Aufkirchen, Berg, Farchach, Allmannshausen und Höhenrain – ideal für den Einkauf auf dem Heimweg.",
+      "places": [
+        "Kreuzweg",
+        "Aufkirchen",
+        "Berg",
+        "Farchach",
+        "Allmannshausen",
+        "Höhenrain",
+        "Leoni",
+        "Starnberg"
+      ]
+    },
+    "faq": [
+      {
+        "q": "Was gibt es im Hofladen?",
+        "a": "Laut aktueller Listung Eier, Nudeln, Kartoffeln, Marmeladen und Zwiebeln. Was gerade vorrätig ist, erfahren Sie am schnellsten telefonisch."
+      },
+      {
+        "q": "Wie funktioniert der Einkauf?",
+        "a": "Der Verkauf läuft per Selbstbedienung im Verkaufshäuschen am Hof."
+      },
+      {
+        "q": "Wo finde ich den Hofladen?",
+        "a": "Bei Familie Wild, Kreuzweg 55, 82335 Berg-Kreuzweg."
+      },
+      {
+        "q": "Kann ich größere Mengen vorbestellen?",
+        "a": "Rufen Sie am besten kurz an – dann klären wir, was möglich ist."
+      },
+      {
+        "q": "Wie erreiche ich Sie?",
+        "a": "Telefonisch unter 08151 51543 oder über das Anfrageformular auf dieser Seite."
+      }
+    ],
+    "contact": {
+      "headline": "Schreiben Sie uns – wir freuen uns auf Sie",
+      "text": "Sagen Sie uns kurz, was Sie brauchen. Wir melden uns, sobald wir vom Hof zurück sind.",
+      "topics": [
+        "Eier",
+        "Nudeln",
+        "Kartoffeln",
+        "Marmelade",
+        "Zwiebeln",
+        "Größere Menge",
+        "Sonstiges"
+      ],
+      "responseNote": "Wir melden uns, sobald die Hofarbeit es zulässt."
+    },
+    "stickyCta": "Hofladen anfragen"
+  }
+}
