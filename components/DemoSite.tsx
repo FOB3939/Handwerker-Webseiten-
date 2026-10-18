@@ -11,6 +11,7 @@ import Enhance from "./Enhance";
 import BrandLogo from "./BrandLogo";
 import Splash from "./Splash";
 import HofIcon, { productIcon } from "./HofIcons";
+import ServiceIcon, { serviceIcon } from "./ServiceIcons";
 
 const DEMO_NOTICE = "Unverbindlicher Website-Entwurf – nicht die offizielle Website des Unternehmens.";
 
@@ -175,6 +176,12 @@ function Bullets({ items, dark = false }: { items: string[]; dark?: boolean }) {
   );
 }
 
+// Hero-Unterzeile bei Handwerkern: nur der erste Satz, damit der Hero ruhig bleibt.
+function shortSub(sub: string) {
+  const m = sub.match(/^.+?[.!?](?=\s|$)/);
+  return (m ? m[0] : sub).trim();
+}
+
 function quoteProps(lead: Lead, hof = false) {
   return {
     services: lead.site.contact.topics.filter((t) => t !== "Sonstiges").slice(0, 6),
@@ -195,11 +202,11 @@ function Hero({ lead, theme, call, upper, hof }: Ctx) {
           <div className="hero-in lg:col-span-6">
             <RatingChip lead={lead} />
             <p className="mt-8 text-sm font-bold uppercase tracking-[0.22em] text-t-accent">{hero.eyebrow}</p>
-            <h1 {...fitH1(hero.headline, 0.48, `mt-4 text-balance font-display text-5xl font-semibold leading-[1.02] sm:text-7xl ${upper}`)}><span className="ink-line">{hero.headline}</span></h1>
-            <p className="mt-6 max-w-xl text-lg leading-relaxed text-t-muted">{hero.sub}</p>
+            <h1 data-split {...fitH1(hero.headline, 0.48, `mt-4 text-balance font-display text-5xl font-semibold leading-[1.02] sm:text-7xl ${upper}`)}><span className="ink-line">{hero.headline}</span></h1>
+            <p className="mt-6 max-w-xl text-lg leading-relaxed text-t-muted">{hof ? hero.sub : shortSub(hero.sub)}</p>
             <OfferStrip lead={lead} hof={hof} />
             <CtaRow lead={lead} call={call} />
-            <Bullets items={hero.bullets} />
+            {hof && <Bullets items={hero.bullets} />}
           </div>
           <div className="hero-media relative lg:col-span-6">
             <div className="absolute -right-24 -top-10 hidden h-[120%] w-2/3 rounded-l-full bg-t-accent/10 lg:block" aria-hidden="true" />
@@ -228,10 +235,10 @@ function Hero({ lead, theme, call, upper, hof }: Ctx) {
           <div className="hero-in lg:col-span-7">
             <RatingChip lead={lead} dark />
             <p className="mt-8 text-xs font-bold uppercase tracking-[0.3em] text-t-accent">{hero.eyebrow}</p>
-            <h1 {...fitH1(hero.headline, 0.55, `mt-5 text-balance font-display text-4xl font-light leading-[1.04] sm:text-6xl ${upper}`)}>{hero.headline}</h1>
-            <p className="mt-6 max-w-xl text-lg text-white/80">{hero.sub}</p>
+            <h1 data-split {...fitH1(hero.headline, 0.55, `mt-5 text-balance font-display text-4xl font-light leading-[1.04] sm:text-6xl ${upper}`)}>{hero.headline}</h1>
+            <p className="mt-6 max-w-xl text-lg text-white/80">{hof ? hero.sub : shortSub(hero.sub)}</p>
             <OfferStrip lead={lead} hof={hof} dark />
-            <Bullets items={hero.bullets} dark />
+            {hof && <Bullets items={hero.bullets} dark />}
             <a href={call} className="mt-8 inline-flex items-center gap-2 font-bold text-white underline-offset-4 hover:underline">
               <PhoneIcon /> {lead.company.phone ? `Lieber direkt anrufen: ${lead.company.phone}` : hero.ctaSecondary}
             </a>
@@ -251,7 +258,7 @@ function Hero({ lead, theme, call, upper, hof }: Ctx) {
           <div className="grid gap-10 px-6 pb-12 pt-28 sm:px-12 lg:grid-cols-12 lg:pb-16 lg:pt-44">
             <div className="hero-in lg:col-span-8">
               <p className="font-display text-xl italic text-t-dark-ink/90">{hero.eyebrow}</p>
-              <h1 {...fitH1(hero.headline, 0.62, `mt-3 text-balance font-display text-5xl font-semibold leading-[1.04] sm:text-7xl ${upper}`)}>{hero.headline}</h1>
+              <h1 data-split {...fitH1(hero.headline, 0.62, `mt-3 text-balance font-display text-5xl font-semibold leading-[1.04] sm:text-7xl ${upper}`)}>{hero.headline}</h1>
               <p className="mt-5 max-w-xl text-lg text-t-dark-ink/85">{hero.sub}</p>
               <OfferStrip lead={lead} hof={hof} dark />
               <CtaRow lead={lead} call={call} dark />
@@ -279,24 +286,24 @@ function Hero({ lead, theme, call, upper, hof }: Ctx) {
               <p className="flex flex-wrap items-center gap-3 text-sm font-bold uppercase tracking-[0.2em] text-t-accent">
                 <span className="h-0.5 w-10 bg-t-accent" aria-hidden="true" /> {hero.eyebrow}
               </p>
-              <h1 {...fitH1(hero.headline, 0.9, `mt-4 text-balance font-display text-[2.6rem] font-black leading-[0.95] sm:text-6xl lg:text-7xl ${upper}`)}>{hero.headline}</h1>
+              <h1 data-split {...fitH1(hero.headline, 0.9, `mt-4 text-balance font-display text-[2.6rem] font-black leading-[0.95] sm:text-6xl lg:text-7xl ${upper}`)}>{hero.headline}</h1>
             </div>
             <RatingChip lead={lead} />
           </div>
           <div className="mt-8 grid gap-8 lg:grid-cols-12">
-            <div className="lg:col-span-7"><p className="text-lg leading-relaxed text-t-muted">{hero.sub}</p><OfferStrip lead={lead} hof={hof} /></div>
+            <div className="lg:col-span-7"><p className="text-lg leading-relaxed text-t-muted">{hof ? hero.sub : shortSub(hero.sub)}</p><OfferStrip lead={lead} hof={hof} /></div>
             <div className="lg:col-span-5"><CtaRow lead={lead} call={call} /></div>
           </div>
         </div>
         <div className="hero-media relative mx-auto mt-10 max-w-site px-4 pb-12 sm:px-6">
           {art("aspect-[16/9] w-full rounded-t shadow-2xl sm:aspect-[21/8]")}
-          <ul className="relative -mt-8 mx-4 grid gap-px overflow-hidden rounded-t bg-t-line shadow-xl sm:mx-10 sm:grid-cols-3">
+          {hof && <ul className="relative -mt-8 mx-4 grid gap-px overflow-hidden rounded-t bg-t-line shadow-xl sm:mx-10 sm:grid-cols-3">
             {hero.bullets.map((b) => (
               <li key={b} className="flex items-center gap-3 bg-t-surface px-5 py-4 text-sm font-semibold">
                 <span className="grid h-7 w-7 shrink-0 place-items-center rounded-full bg-t-accent text-t-accent-ink"><CheckIcon size={14} /></span>{b}
               </li>
             ))}
-          </ul>
+          </ul>}
         </div>
       </section>
     );
@@ -313,10 +320,10 @@ function Hero({ lead, theme, call, upper, hof }: Ctx) {
         <div className="hero-in lg:col-span-6">
           <RatingChip lead={lead} />
           <p className="mt-7 text-sm font-bold uppercase tracking-wider text-t-accent">{hero.eyebrow}</p>
-          <h1 {...fitH1(hero.headline, 0.48, `mt-4 text-balance font-display text-4xl font-extrabold leading-[1.04] sm:text-6xl ${upper}`)}>{hero.headline}</h1>
-          <p className="mt-5 max-w-xl text-lg text-t-muted">{hero.sub}</p>
+          <h1 data-split {...fitH1(hero.headline, 0.48, `mt-4 text-balance font-display text-4xl font-extrabold leading-[1.04] sm:text-6xl ${upper}`)}>{hero.headline}</h1>
+          <p className="mt-5 max-w-xl text-lg text-t-muted">{hof ? hero.sub : shortSub(hero.sub)}</p>
           <OfferStrip lead={lead} hof={hof} />
-          <Bullets items={hero.bullets} />
+          {hof && <Bullets items={hero.bullets} />}
           <a href={call} className="mt-8 inline-flex items-center gap-2 rounded-t border border-t-ink/15 bg-t-surface px-5 py-3 font-bold">
             <PhoneIcon /> {lead.company.phone ? `${hero.ctaSecondary}: ${lead.company.phone}` : hero.ctaSecondary}
           </a>
@@ -364,7 +371,7 @@ function Marquee({ lead }: Ctx) {
     <div className="flex shrink-0 items-center gap-10 pr-10">
       {words.map((w, i) => (
         <span key={`${w}-${i}`} className="flex items-center gap-10 whitespace-nowrap font-display text-2xl font-bold sm:text-3xl">
-          {w}<span className="text-t-accent" aria-hidden="true">✦</span>
+          <ServiceIcon name={serviceIcon(w, lead.site.scene)} size={26} className="text-t-accent" />{w}
         </span>
       ))}
     </div>
@@ -387,7 +394,22 @@ function fitH1(headline: string, frac: number, className: string) {
 }
 
 function OfferStrip({ lead, hof, dark = false }: { lead: Lead; hof: boolean; dark?: boolean }) {
-  const offer = (lead.site.heroOffer?.length ? lead.site.heroOffer : lead.site.services.map((s) => s.title)).slice(0, 5);
+  const offer = (lead.site.heroOffer?.length ? lead.site.heroOffer : lead.site.services.map((s) => s.title)).slice(0, hof ? 5 : 6);
+  if (!hof) {
+    // Handwerk: große Symbol-Kacheln – auf einen Blick erkennbar, was angeboten wird.
+    return (
+      <ul data-pop aria-label="Leistungen auf einen Blick" className="mt-7 grid max-w-xl grid-cols-2 gap-2.5 sm:grid-cols-3">
+        {offer.map((o, k) => (
+          <li key={o} style={{ "--k": k } as CSSProperties} className={`offer-tile flex items-center gap-3 rounded-t px-3 py-3 text-sm font-bold leading-tight shadow-sm sm:text-[15px] ${dark ? "bg-white/10 text-white ring-1 ring-white/25 backdrop-blur" : "bg-t-surface text-t-ink ring-1 ring-t-line"}`}>
+            <span className={`grid h-10 w-10 shrink-0 place-items-center rounded-full ${dark ? "bg-t-accent text-t-accent-ink" : "bg-t-accent/15 text-t-accent"}`}>
+              <ServiceIcon name={serviceIcon(o, lead.site.scene)} size={22} />
+            </span>
+            <span className="min-w-0">{o}</span>
+          </li>
+        ))}
+      </ul>
+    );
+  }
   return (
     <div className="mt-6">
       <p className={`text-xs font-bold uppercase tracking-[0.18em] ${dark ? "text-white/70" : "text-t-muted"}`}>
@@ -538,7 +560,10 @@ function Services({ lead, theme, upper, hof }: Ctx) {
         <ol data-stagger className="mt-14 divide-y divide-t-line border-y border-t-line">
           {services.map((s, i) => (
             <li key={s.title} className="group grid gap-4 py-8 transition-colors hover:bg-t-surface md:grid-cols-12 md:items-center md:px-4">
-              <span className="font-display text-5xl font-light text-t-accent/70 md:col-span-1">{String(i + 1).padStart(2, "0")}</span>
+              <span className="flex items-center gap-3 md:col-span-1 md:flex-col md:items-start">
+                <span className="svc-badge grid h-14 w-14 place-items-center rounded-full bg-t-accent/10 text-t-accent ring-1 ring-t-accent/25"><ServiceIcon name={serviceIcon(`${s.title} ${s.items.join(" ")}`, scene)} size={28} /></span>
+                <span className="font-display text-sm font-bold text-t-accent/70">{String(i + 1).padStart(2, "0")}</span>
+              </span>
               <div className="md:col-span-5">
                 <h3 className={`font-display text-2xl font-semibold ${upper}`}>{s.title}</h3>
                 <p className="mt-2 text-t-muted">{s.text}</p>
@@ -557,7 +582,8 @@ function Services({ lead, theme, upper, hof }: Ctx) {
             <article key={s.title} className="card-fx group flex flex-col overflow-hidden rounded-t border border-t-line bg-t-surface shadow-sm">
               <div className="overflow-hidden"><Scene kind={scene} palette={theme.palette} label={s.title} seed={i + 1} className="card-media aspect-[16/9] w-full" showLabel={false} /></div>
               <span className="card-line block h-1 bg-t-accent" aria-hidden="true" />
-              <div className="flex flex-1 flex-col p-6">
+              <div className="relative flex flex-1 flex-col p-6 pt-10">
+                <span className="svc-badge absolute -top-7 left-6 grid h-14 w-14 place-items-center rounded-full bg-t-accent text-t-accent-ink shadow-lg ring-4 ring-t-surface"><ServiceIcon name={serviceIcon(`${s.title} ${s.items.join(" ")}`, scene)} size={26} /></span>
                 <h3 className={`font-display text-xl font-bold ${upper}`}>{s.title}</h3>
                 <p className="mt-2 text-t-muted">{s.text}</p>
                 <ul className="mt-4 space-y-1.5 text-sm">
@@ -575,7 +601,8 @@ function Services({ lead, theme, upper, hof }: Ctx) {
             <article key={s.title} className="card-fx group relative bg-t-bg">
               <div className="overflow-hidden"><Scene kind={scene} palette={theme.palette} label={s.title} seed={i + 1} className="card-media aspect-[16/10] w-full" showLabel={false} /></div>
               <span className="card-line block h-1 bg-t-accent" aria-hidden="true" />
-              <div className="p-6">
+              <div className="relative p-6 pt-10">
+                <span className="svc-badge absolute -top-7 left-6 grid h-14 w-14 place-items-center rounded-full bg-t-accent text-t-accent-ink shadow-lg ring-4 ring-t-bg"><ServiceIcon name={serviceIcon(`${s.title} ${s.items.join(" ")}`, scene)} size={26} /></span>
                 <h3 className={`font-display text-xl font-bold ${upper}`}>{s.title}</h3>
                 <p className="mt-2 text-sm text-t-muted">{s.text}</p>
                 <p className="mt-3 text-sm font-semibold">{s.items.join(" · ")}</p>

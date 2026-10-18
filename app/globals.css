@@ -262,3 +262,83 @@ details[open] > .faq-body { animation: faq 0.35s ease-out; }
     font-size: min(4.25rem, calc(min(100vw, 76rem) * var(--frac) / (var(--L) * var(--cw, 0.6)))) !important;
   }
 }
+
+/* Leistungs-Symbole (components/ServiceIcons.tsx): Striche werden beim Einblenden gezeichnet */
+.anim [data-reveal] .svc-icon path {
+  stroke-dasharray: 1;
+  stroke-dashoffset: 1;
+  transition: stroke-dashoffset 0.9s cubic-bezier(0.65, 0, 0.35, 1) calc(var(--d, 0s) + 0.3s + var(--i, 0) * 0.12s);
+}
+.anim [data-reveal].is-in .svc-icon path {
+  stroke-dashoffset: 0;
+}
+.svc-badge {
+  transition: transform 0.45s cubic-bezier(0.34, 1.56, 0.64, 1);
+}
+.card-fx:hover .svc-badge,
+li:hover > span > .svc-badge {
+  transform: translateY(-4px) rotate(-6deg) scale(1.08);
+}
+
+/* Hero-Kacheln: federn nach dem Logo-Intro nacheinander herein, Symbole zeichnen sich */
+.anim [data-pop] > li {
+  animation: tile-pop 0.7s cubic-bezier(0.34, 1.56, 0.64, 1) both;
+  animation-delay: calc(2.35s + var(--k, 0) * 0.09s);
+}
+.anim [data-pop] .svc-icon path {
+  stroke-dasharray: 1;
+  animation: icon-draw 0.9s cubic-bezier(0.65, 0, 0.35, 1) both;
+  animation-delay: calc(2.6s + var(--k, 0) * 0.09s + var(--i, 0) * 0.1s);
+}
+.offer-tile {
+  transition: transform 0.35s cubic-bezier(0.34, 1.56, 0.64, 1), box-shadow 0.3s;
+}
+.offer-tile:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 12px 24px -12px rgb(0 0 0 / 0.35);
+}
+.offer-tile:hover .svc-icon {
+  animation: icon-wiggle 0.6s ease-in-out;
+}
+@keyframes tile-pop {
+  from {
+    opacity: 0;
+    transform: translateY(14px) scale(0.85);
+  }
+  to {
+    opacity: 1;
+    transform: none;
+  }
+}
+@keyframes icon-draw {
+  from {
+    stroke-dashoffset: 1;
+  }
+  to {
+    stroke-dashoffset: 0;
+  }
+}
+@keyframes icon-wiggle {
+  0%, 100% { transform: rotate(0); }
+  30% { transform: rotate(-12deg) scale(1.1); }
+  60% { transform: rotate(8deg); }
+}
+
+/* Wortweise eingeblendete Überschriften (Motion, components/Enhance.tsx) */
+[data-split] .w {
+  display: inline-block;
+  will-change: transform, opacity;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .anim [data-reveal] .svc-icon path,
+  .anim [data-pop] .svc-icon path {
+    stroke-dashoffset: 0;
+    animation: none;
+    transition: none;
+  }
+  .anim [data-pop] > li,
+  .offer-tile:hover .svc-icon {
+    animation: none;
+  }
+}
