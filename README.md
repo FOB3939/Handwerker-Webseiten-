@@ -55,6 +55,16 @@ Claude-Artifacts veröffentlicht und über das Share-Menü gezielt an den jeweil
 | 2026-10-18 | Wunderlbare Holzhütte | https://claude.ai/artifact/G9TEJE1dvdUZWekN35qM3Y |
 | 2026-10-18 | Hofladen Georg Eschbaumer | https://claude.ai/artifact/47yDWTPTGgxjvLVNtWoG8D |
 | 2026-10-18 | Hofladen Schmid | https://claude.ai/artifact/Co81xxSwFu9Tu4JVwb9dkx |
+| 2026-10-18 | Malermeister Yanko | https://claude.ai/artifact/AGvmh6WMcMdxNYdfpiBHy1 |
+| 2026-10-18 | Dusko Jovic Bau | https://claude.ai/artifact/YL1afWjhMLe3zdkuEtpg6W |
+| 2026-10-18 | Csaba Vikor (Fliesenleger) | https://claude.ai/artifact/Tvk3RRHk7KjWC9yauPiP85 |
+| 2026-10-18 | AK Elektro & Kabelverlegung | https://claude.ai/artifact/TymAS43HGhu2tjommLcWLC |
+| 2026-10-18 | Krasniqi Innenausbau | https://claude.ai/artifact/5F9oisj2ktoEA4tgPyLDQf |
+| 2026-10-18 | Georg Buchner Hausmeisterservice | https://claude.ai/artifact/5vbnx1PYweQdRpHsqqJRbp |
+| 2026-10-18 | Neheiders Milchhäusl | https://claude.ai/artifact/CCocfimysqssNUCCBZkAdj |
+| 2026-10-18 | Hofladen Wirthmüller | https://claude.ai/artifact/CU2DGom9TKwYWN6VCJheUv |
+| 2026-10-18 | Reitstall Schütz | https://claude.ai/artifact/2iexuZeyCDXFRL9N7Rryba |
+| 2026-10-18 | Hofmanns Hofladen | https://claude.ai/artifact/Wvzfe9umrjA4AKqNcxw9tu |
 
 ## Design-Standard der Entwürfe
 
@@ -67,6 +77,13 @@ Scroll-Reveal, hochzählende Kennzahlen, Laufband, Button-Glanz, Karten-Hover, a
 automatischer Vorher/Nachher-Hinweis, pulsierender Standort auf der Karte, Scroll-Fortschritt. Schriften pro Theme
 über Google Fonts (mit System-Fallback); „Bewegung reduzieren“ wird respektiert. Interaktive Teile laufen über ein kleines Inline-Skript
 (`components/Enhance.tsx`) und funktionieren daher auch in den Exporten.
+
+## Branchen-Design
+
+`site.category` (`handwerk` | `hof`) steuert den Aufbau: Handwerker bekommen Leistungen, Angebots-Assistent und
+Vorher/Nachher; Höfe/Hofläden bekommen Sortiment mit Produkt-Symbolen, Einkaufs-Karte (Zeiten, Adresse, Route),
+Abschnitt „Besuch & Öffnungszeiten“ (`site.hours`, nur belegte Zeiten) und Hofgalerie. `site.heroOffer` zeigt im Hero
+sofort, was angeboten wird.
 
 ## Branchen & Treffsicherheit
 

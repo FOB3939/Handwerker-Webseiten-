@@ -58,7 +58,6 @@
     "praisedFor": [
       "zuverlässig",
       "freundlich",
-
       "saubere und schnelle Arbeit",
       "strukturiertes Arbeiten ohne Hektik (Gartenhausabbau)",
       "Kaminholz aus Holzstämmen gesägt und gespalten"
@@ -112,7 +111,12 @@
   "site": {
     "theme": "objekt",
     "category": "handwerk",
-    "heroOffer": ["Rasenmähen", "Heckenschnitt", "Winterdienst", "Entrümpelung"],
+    "heroOffer": [
+      "Rasenmähen",
+      "Heckenschnitt",
+      "Winterdienst",
+      "Entrümpelung"
+    ],
     "scene": "facade",
     "logoIcon": "house",
     "logoMark": "GB",
@@ -120,12 +124,30 @@
     "seoTitle": "Hausmeisterservice Sindelsdorf & Penzberg – Georg Buchner",
     "seoDescription": "Rasenmähen, Heckenschnitt, Gartenabfälle, Winterdienst, Entrümpelung und Hausmeistertätigkeiten – Georg Buchner aus Sindelsdorf für Penzberg, Weilheim und Umgebung. 4,8 Sterne auf MyHammer.",
     "nav": [
-      { "label": "Leistungen", "href": "#leistungen" },
-      { "label": "Bewertungen", "href": "#bewertungen" },
-      { "label": "Ablauf", "href": "#ablauf" },
-      { "label": "Region", "href": "#region" },
-      { "label": "FAQ", "href": "#faq" },
-      { "label": "Kontakt", "href": "#kontakt" }
+      {
+        "label": "Leistungen",
+        "href": "#leistungen"
+      },
+      {
+        "label": "Bewertungen",
+        "href": "#bewertungen"
+      },
+      {
+        "label": "Ablauf",
+        "href": "#ablauf"
+      },
+      {
+        "label": "Region",
+        "href": "#region"
+      },
+      {
+        "label": "FAQ",
+        "href": "#faq"
+      },
+      {
+        "label": "Kontakt",
+        "href": "#kontakt"
+      }
     ],
     "hero": {
       "eyebrow": "Hausmeisterservice · Sindelsdorf",
@@ -141,16 +163,40 @@
       "imageLabel": "gepflegtes Wohnhaus mit frisch gemähtem Rasen und geschnittener Hecke"
     },
     "badges": [
-      { "title": "4,8 ★ auf MyHammer", "sub": "aus über 90 Bewertungen" },
-      { "title": "Garten & Hecke", "sub": "Rasenmähen, Heckenschnitt" },
-      { "title": "Winterdienst", "sub": "Räumen in der kalten Jahreszeit" },
-      { "title": "Sindelsdorf", "sub": "zwischen Penzberg und Weilheim" }
+      {
+        "title": "4,8 ★ auf MyHammer",
+        "sub": "aus über 90 Bewertungen"
+      },
+      {
+        "title": "Garten & Hecke",
+        "sub": "Rasenmähen, Heckenschnitt"
+      },
+      {
+        "title": "Winterdienst",
+        "sub": "Räumen in der kalten Jahreszeit"
+      },
+      {
+        "title": "Sindelsdorf",
+        "sub": "zwischen Penzberg und Weilheim"
+      }
     ],
     "trust": [
-      { "value": "4,8 ★", "label": "Durchschnitt auf MyHammer" },
-      { "value": "90+", "label": "Bewertungen von Auftraggebern" },
-      { "value": "Ganzjährig", "label": "Garten im Sommer, Winterdienst im Winter" },
-      { "value": "Sindelsdorf", "label": "Betrieb bei Penzberg" }
+      {
+        "value": "4,8 ★",
+        "label": "Durchschnitt auf MyHammer"
+      },
+      {
+        "value": "90+",
+        "label": "Bewertungen von Auftraggebern"
+      },
+      {
+        "value": "Ganzjährig",
+        "label": "Garten im Sommer, Winterdienst im Winter"
+      },
+      {
+        "value": "Sindelsdorf",
+        "label": "Betrieb bei Penzberg"
+      }
     ],
     "servicesIntro": {
       "headline": "Hilfe rund um Haus und Garten",
@@ -160,32 +206,56 @@
       {
         "title": "Rasenmähen",
         "text": "Ihr Rasen wird regelmäßig oder nach Bedarf gemäht – damit das Grundstück immer gepflegt aussieht.",
-        "items": ["Rasenmähen", "Regelmäßig oder einmalig", "Gartenhilfe"]
+        "items": [
+          "Rasenmähen",
+          "Regelmäßig oder einmalig",
+          "Gartenhilfe"
+        ]
       },
       {
         "title": "Heckenschnitt",
         "text": "Hecken und Sträucher werden in Form gebracht, der Schnitt wird anschließend entsorgt.",
-        "items": ["Heckenschnitt", "Sträucher", "Grünschnitt"]
+        "items": [
+          "Heckenschnitt",
+          "Sträucher",
+          "Grünschnitt"
+        ]
       },
       {
         "title": "Gartenabfälle entsorgen",
         "text": "Laub, Grünschnitt und Gartenabfälle werden abgeholt und entsorgt – Sie müssen nichts selbst wegfahren.",
-        "items": ["Grünschnitt", "Laub", "Gartenabfälle"]
+        "items": [
+          "Grünschnitt",
+          "Laub",
+          "Gartenabfälle"
+        ]
       },
       {
         "title": "Winterdienst",
         "text": "Wenn Schnee fällt, werden Wege und Zufahrten geräumt – damit Sie und Ihre Besucher sicher ankommen.",
-        "items": ["Schneeräumen", "Wege", "Zufahrten"]
+        "items": [
+          "Schneeräumen",
+          "Wege",
+          "Zufahrten"
+        ]
       },
       {
         "title": "Entrümpelung",
         "text": "Keller, Dachboden oder Schuppen werden ausgeräumt; Kunden beauftragten auch den Abbau eines Gartenhauses.",
-        "items": ["Entrümpelung", "Gartenhaus-Abbau", "Entsorgung"]
+        "items": [
+          "Entrümpelung",
+          "Gartenhaus-Abbau",
+          "Entsorgung"
+        ]
       },
       {
         "title": "Hausmeistertätigkeiten",
         "text": "Kleine Arbeiten rund ums Haus – bis hin zu Kaminholz, das aus Stämmen gesägt und gespalten wird.",
-        "items": ["Hausmeisterarbeiten", "Kaminholz sägen & spalten", "Hilfe rund ums Haus"]
+        "items": [
+          "Hausmeisterarbeiten",
+          "Kaminholz sägen & spalten",
+          "Hilfe rund ums Haus"
+        ]
       }
     ],
     "why": {
@@ -226,21 +296,48 @@
     "process": {
       "headline": "So einfach bekommen Sie Hilfe",
       "steps": [
-        { "title": "Anfrage", "text": "Kurz anrufen oder schreiben, welche Arbeit ansteht – gern mit Fotos." },
-        { "title": "Absprache", "text": "Wir klären Umfang, Grundstück und ob einmalig oder regelmäßig." },
-        { "title": "Angebot", "text": "Sie erhalten eine klare Einschätzung von Aufwand und Kosten." },
-        { "title": "Erledigt", "text": "Die Arbeit wird zuverlässig ausgeführt – Rasen, Hecke, Schnee oder Entrümpelung." }
+        {
+          "title": "Anfrage",
+          "text": "Kurz anrufen oder schreiben, welche Arbeit ansteht – gern mit Fotos."
+        },
+        {
+          "title": "Absprache",
+          "text": "Wir klären Umfang, Grundstück und ob einmalig oder regelmäßig."
+        },
+        {
+          "title": "Angebot",
+          "text": "Sie erhalten eine klare Einschätzung von Aufwand und Kosten."
+        },
+        {
+          "title": "Erledigt",
+          "text": "Die Arbeit wird zuverlässig ausgeführt – Rasen, Hecke, Schnee oder Entrümpelung."
+        }
       ]
     },
     "gallery": {
       "headline": "Gepflegte Grundstücke im Oberland",
       "text": "Für die Live-Version zeigen wir hier echte Einsätze von Georg Buchner – idealerweise Vorher-/Nachher-Bilder desselben Grundstücks.",
       "items": [
-        { "title": "Rasen gemäht", "photoNeeded": "frisch gemähte Rasenfläche vor einem Wohnhaus" },
-        { "title": "Hecke geschnitten", "photoNeeded": "Hecke vor und nach dem Schnitt" },
-        { "title": "Winterdienst", "photoNeeded": "geräumte Zufahrt oder Gehweg im Schnee" },
-        { "title": "Kaminholz", "photoNeeded": "gesägtes und gespaltenes Kaminholz, gestapelt" },
-        { "title": "Entrümpelung", "photoNeeded": "geräumter Keller oder abgebautes Gartenhaus" }
+        {
+          "title": "Rasen gemäht",
+          "photoNeeded": "frisch gemähte Rasenfläche vor einem Wohnhaus"
+        },
+        {
+          "title": "Hecke geschnitten",
+          "photoNeeded": "Hecke vor und nach dem Schnitt"
+        },
+        {
+          "title": "Winterdienst",
+          "photoNeeded": "geräumte Zufahrt oder Gehweg im Schnee"
+        },
+        {
+          "title": "Kaminholz",
+          "photoNeeded": "gesägtes und gespaltenes Kaminholz, gestapelt"
+        },
+        {
+          "title": "Entrümpelung",
+          "photoNeeded": "geräumter Keller oder abgebautes Gartenhaus"
+        }
       ]
     },
     "region": {

@@ -111,7 +111,12 @@
   "site": {
     "theme": "stein",
     "category": "handwerk",
-    "heroOffer": ["Trockenbau", "Gipskartondecken", "Akustikwände", "Spachtelarbeiten"],
+    "heroOffer": [
+      "Trockenbau",
+      "Gipskartondecken",
+      "Akustikwände",
+      "Spachtelarbeiten"
+    ],
     "scene": "drywall",
     "logoIcon": "trowel",
     "logoMark": "KI",
@@ -119,12 +124,30 @@
     "seoTitle": "Trockenbau in Peißenberg – Krasniqi Innenausbau",
     "seoDescription": "Rigipswände, Gipskartondecken, Akustikwände, Trockenestrich und Spachtelarbeiten – Krasniqi Innenausbau aus Peißenberg für Weilheim und den Pfaffenwinkel. Jetzt kostenloses Angebot anfragen.",
     "nav": [
-      { "label": "Leistungen", "href": "#leistungen" },
-      { "label": "Projekte", "href": "#projekte" },
-      { "label": "Ablauf", "href": "#ablauf" },
-      { "label": "Region", "href": "#region" },
-      { "label": "FAQ", "href": "#faq" },
-      { "label": "Kontakt", "href": "#kontakt" }
+      {
+        "label": "Leistungen",
+        "href": "#leistungen"
+      },
+      {
+        "label": "Projekte",
+        "href": "#projekte"
+      },
+      {
+        "label": "Ablauf",
+        "href": "#ablauf"
+      },
+      {
+        "label": "Region",
+        "href": "#region"
+      },
+      {
+        "label": "FAQ",
+        "href": "#faq"
+      },
+      {
+        "label": "Kontakt",
+        "href": "#kontakt"
+      }
     ],
     "hero": {
       "eyebrow": "Trockenbau & Innenausbau · Peißenberg",
@@ -140,16 +163,40 @@
       "imageLabel": "frisch gespachtelte Gipskartonwand im Streiflicht"
     },
     "badges": [
-      { "title": "Rigips & Gipskarton", "sub": "Wände und Decken" },
-      { "title": "Akustikwände", "sub": "für ruhigere Räume" },
-      { "title": "Trockenestrich", "sub": "schnell belegbarer Boden" },
-      { "title": "Peißenberg", "sub": "Landkreis Weilheim-Schongau" }
+      {
+        "title": "Rigips & Gipskarton",
+        "sub": "Wände und Decken"
+      },
+      {
+        "title": "Akustikwände",
+        "sub": "für ruhigere Räume"
+      },
+      {
+        "title": "Trockenestrich",
+        "sub": "schnell belegbarer Boden"
+      },
+      {
+        "title": "Peißenberg",
+        "sub": "Landkreis Weilheim-Schongau"
+      }
     ],
     "trust": [
-      { "value": "Inhaber", "label": "Riad Krasniqi persönlich" },
-      { "value": "Wand & Decke", "label": "Gipskarton aus einer Hand" },
-      { "value": "Spachteln", "label": "Oberflächen streichfertig" },
-      { "value": "Peißenberg", "label": "Betrieb im Pfaffenwinkel" }
+      {
+        "value": "Inhaber",
+        "label": "Riad Krasniqi persönlich"
+      },
+      {
+        "value": "Wand & Decke",
+        "label": "Gipskarton aus einer Hand"
+      },
+      {
+        "value": "Spachteln",
+        "label": "Oberflächen streichfertig"
+      },
+      {
+        "value": "Peißenberg",
+        "label": "Betrieb im Pfaffenwinkel"
+      }
     ],
     "servicesIntro": {
       "headline": "Innenausbau, der Räume neu ordnet",
@@ -159,32 +206,56 @@
       {
         "title": "Rigips- & Trennwände",
         "text": "Neue Raumaufteilung ohne Mauerwerk – Ständerwände mit Gipskarton, sauber gestellt und beplankt.",
-        "items": ["Rigipswände", "Raumteilung", "Gipskarton"]
+        "items": [
+          "Rigipswände",
+          "Raumteilung",
+          "Gipskarton"
+        ]
       },
       {
         "title": "Gipskartondecken",
         "text": "Abgehängte oder verkleidete Decken für eine ebene Fläche, versteckte Leitungen und ein ruhiges Raumbild.",
-        "items": ["Gipskartondecken", "Deckenverkleidung", "Abhängen"]
+        "items": [
+          "Gipskartondecken",
+          "Deckenverkleidung",
+          "Abhängen"
+        ]
       },
       {
         "title": "Akustikwände",
         "text": "Wände, die Schall dämpfen – für Wohnräume, Arbeitszimmer und Büros, in denen es leiser werden soll.",
-        "items": ["Akustikwände", "Wohnräume", "Büros"]
+        "items": [
+          "Akustikwände",
+          "Wohnräume",
+          "Büros"
+        ]
       },
       {
         "title": "Trockenestrich",
         "text": "Ein tragfähiger, ebener Untergrund ohne lange Trocknungszeit – ideal bei Sanierung und Umbau.",
-        "items": ["Trockenestrich", "Sanierung", "Umbau"]
+        "items": [
+          "Trockenestrich",
+          "Sanierung",
+          "Umbau"
+        ]
       },
       {
         "title": "Spachtelarbeiten",
         "text": "Fugen und Flächen werden gespachtelt, bis die Oberfläche bereit für Farbe oder Tapete ist.",
-        "items": ["Fugen spachteln", "Flächenspachtelung", "Streichfertig"]
+        "items": [
+          "Fugen spachteln",
+          "Flächenspachtelung",
+          "Streichfertig"
+        ]
       },
       {
         "title": "Teppich verlegen",
         "text": "Zum Abschluss des Innenausbaus verlegen wir auf Wunsch auch Teppichböden.",
-        "items": ["Teppichboden", "Wohnräume", "Abschluss Innenausbau"]
+        "items": [
+          "Teppichboden",
+          "Wohnräume",
+          "Abschluss Innenausbau"
+        ]
       }
     ],
     "why": {
@@ -225,21 +296,48 @@
     "process": {
       "headline": "Vom Rohbau zur glatten Wand",
       "steps": [
-        { "title": "Anfrage", "text": "Kurz Raum, ungefähre Fläche und Vorhaben schildern – gern mit Fotos." },
-        { "title": "Aufmaß vor Ort", "text": "Wir sehen uns Raum, Untergrund und Anschlüsse an und klären Ihre Wünsche." },
-        { "title": "Angebot", "text": "Sie erhalten ein nachvollziehbares Angebot für Wände, Decken oder Estrich." },
-        { "title": "Ausführung", "text": "Stellen, beplanken, spachteln – bis die Fläche bereit für Farbe oder Belag ist." }
+        {
+          "title": "Anfrage",
+          "text": "Kurz Raum, ungefähre Fläche und Vorhaben schildern – gern mit Fotos."
+        },
+        {
+          "title": "Aufmaß vor Ort",
+          "text": "Wir sehen uns Raum, Untergrund und Anschlüsse an und klären Ihre Wünsche."
+        },
+        {
+          "title": "Angebot",
+          "text": "Sie erhalten ein nachvollziehbares Angebot für Wände, Decken oder Estrich."
+        },
+        {
+          "title": "Ausführung",
+          "text": "Stellen, beplanken, spachteln – bis die Fläche bereit für Farbe oder Belag ist."
+        }
       ]
     },
     "gallery": {
       "headline": "Projekte aus dem Innenausbau",
       "text": "Für die Live-Version zeigen wir hier echte Baustellen von Krasniqi Innenausbau – idealerweise Rohbau und fertige Fläche desselben Raums.",
       "items": [
-        { "title": "Neue Trennwand", "photoNeeded": "Ständerwerk und fertig beplankte Rigipswand im selben Raum" },
-        { "title": "Abgehängte Decke", "photoNeeded": "Gipskartondecke, gespachtelt, mit Einbauleuchten" },
-        { "title": "Akustikwand", "photoNeeded": "fertige Akustikwand in Wohn- oder Büroraum" },
-        { "title": "Trockenestrich", "photoNeeded": "verlegte Trockenestrich-Elemente vor dem Belag" },
-        { "title": "Spachtelarbeit", "photoNeeded": "gespachtelte Fugen und Flächen im Streiflicht" }
+        {
+          "title": "Neue Trennwand",
+          "photoNeeded": "Ständerwerk und fertig beplankte Rigipswand im selben Raum"
+        },
+        {
+          "title": "Abgehängte Decke",
+          "photoNeeded": "Gipskartondecke, gespachtelt, mit Einbauleuchten"
+        },
+        {
+          "title": "Akustikwand",
+          "photoNeeded": "fertige Akustikwand in Wohn- oder Büroraum"
+        },
+        {
+          "title": "Trockenestrich",
+          "photoNeeded": "verlegte Trockenestrich-Elemente vor dem Belag"
+        },
+        {
+          "title": "Spachtelarbeit",
+          "photoNeeded": "gespachtelte Fugen und Flächen im Streiflicht"
+        }
       ]
     },
     "region": {

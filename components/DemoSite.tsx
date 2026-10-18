@@ -1,4 +1,4 @@
-import { Fragment, type ReactNode } from "react";
+import { Fragment, type CSSProperties, type ReactNode } from "react";
 import type { Lead } from "@/lib/types";
 import { themes, themeStyle, type Theme } from "@/lib/themes";
 import { telHref } from "@/lib/leads";
@@ -195,7 +195,7 @@ function Hero({ lead, theme, call, upper, hof }: Ctx) {
           <div className="hero-in lg:col-span-6">
             <RatingChip lead={lead} />
             <p className="mt-8 text-sm font-bold uppercase tracking-[0.22em] text-t-accent">{hero.eyebrow}</p>
-            <h1 className={`mt-4 text-balance font-display text-5xl font-semibold leading-[1.02] sm:text-7xl ${upper}`}><span className="ink-line">{hero.headline}</span></h1>
+            <h1 {...fitH1(hero.headline, 0.48, `mt-4 text-balance font-display text-5xl font-semibold leading-[1.02] sm:text-7xl ${upper}`)}><span className="ink-line">{hero.headline}</span></h1>
             <p className="mt-6 max-w-xl text-lg leading-relaxed text-t-muted">{hero.sub}</p>
             <OfferStrip lead={lead} hof={hof} />
             <CtaRow lead={lead} call={call} />
@@ -228,7 +228,7 @@ function Hero({ lead, theme, call, upper, hof }: Ctx) {
           <div className="hero-in lg:col-span-7">
             <RatingChip lead={lead} dark />
             <p className="mt-8 text-xs font-bold uppercase tracking-[0.3em] text-t-accent">{hero.eyebrow}</p>
-            <h1 className={`mt-5 text-balance font-display text-4xl font-light leading-[1.04] sm:text-6xl ${upper}`}>{hero.headline}</h1>
+            <h1 {...fitH1(hero.headline, 0.55, `mt-5 text-balance font-display text-4xl font-light leading-[1.04] sm:text-6xl ${upper}`)}>{hero.headline}</h1>
             <p className="mt-6 max-w-xl text-lg text-white/80">{hero.sub}</p>
             <OfferStrip lead={lead} hof={hof} dark />
             <Bullets items={hero.bullets} dark />
@@ -251,7 +251,7 @@ function Hero({ lead, theme, call, upper, hof }: Ctx) {
           <div className="grid gap-10 px-6 pb-12 pt-28 sm:px-12 lg:grid-cols-12 lg:pb-16 lg:pt-44">
             <div className="hero-in lg:col-span-8">
               <p className="font-display text-xl italic text-t-dark-ink/90">{hero.eyebrow}</p>
-              <h1 className={`mt-3 text-balance font-display text-5xl font-semibold leading-[1.04] sm:text-7xl ${upper}`}>{hero.headline}</h1>
+              <h1 {...fitH1(hero.headline, 0.62, `mt-3 text-balance font-display text-5xl font-semibold leading-[1.04] sm:text-7xl ${upper}`)}>{hero.headline}</h1>
               <p className="mt-5 max-w-xl text-lg text-t-dark-ink/85">{hero.sub}</p>
               <OfferStrip lead={lead} hof={hof} dark />
               <CtaRow lead={lead} call={call} dark />
@@ -279,7 +279,7 @@ function Hero({ lead, theme, call, upper, hof }: Ctx) {
               <p className="flex flex-wrap items-center gap-3 text-sm font-bold uppercase tracking-[0.2em] text-t-accent">
                 <span className="h-0.5 w-10 bg-t-accent" aria-hidden="true" /> {hero.eyebrow}
               </p>
-              <h1 className={`mt-4 text-balance font-display text-[2.6rem] font-black leading-[0.95] sm:text-6xl lg:text-7xl ${upper}`}>{hero.headline}</h1>
+              <h1 {...fitH1(hero.headline, 0.9, `mt-4 text-balance font-display text-[2.6rem] font-black leading-[0.95] sm:text-6xl lg:text-7xl ${upper}`)}>{hero.headline}</h1>
             </div>
             <RatingChip lead={lead} />
           </div>
@@ -313,7 +313,7 @@ function Hero({ lead, theme, call, upper, hof }: Ctx) {
         <div className="hero-in lg:col-span-6">
           <RatingChip lead={lead} />
           <p className="mt-7 text-sm font-bold uppercase tracking-wider text-t-accent">{hero.eyebrow}</p>
-          <h1 className={`mt-4 text-balance font-display text-4xl font-extrabold leading-[1.04] sm:text-6xl ${upper}`}>{hero.headline}</h1>
+          <h1 {...fitH1(hero.headline, 0.48, `mt-4 text-balance font-display text-4xl font-extrabold leading-[1.04] sm:text-6xl ${upper}`)}>{hero.headline}</h1>
           <p className="mt-5 max-w-xl text-lg text-t-muted">{hero.sub}</p>
           <OfferStrip lead={lead} hof={hof} />
           <Bullets items={hero.bullets} />
@@ -374,6 +374,14 @@ function Marquee({ lead }: Ctx) {
       <div className="marquee-track">{row}{row}</div>
     </div>
   );
+}
+
+// Verkleinert die Hero-Überschrift, wenn ein einzelnes Wort sehr lang ist (z. B. „Hausmeisterservice“),
+// damit es nicht mitten im Wort umbricht.
+function fitH1(headline: string, frac: number, className: string) {
+  const longest = Math.max(...headline.replace(/[\u00ad.,–!?:]/g, " ").split(/\s+/).map((w) => w.length));
+  if (longest < 12) return { className };
+  return { className: `${className} fit-h1`, style: { "--L": longest, "--frac": frac } as CSSProperties };
 }
 
 function OfferStrip({ lead, hof, dark = false }: { lead: Lead; hof: boolean; dark?: boolean }) {
