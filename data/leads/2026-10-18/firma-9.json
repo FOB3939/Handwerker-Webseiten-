@@ -393,6 +393,14 @@
       ],
       "responseNote": "Wir melden uns, sobald die Arbeit auf dem Hof es zulässt."
     },
-    "stickyCta": "Hofladen anrufen"
+    "stickyCta": "Hofladen anrufen",
+    "category": "hof",
+    "heroOffer": [
+      "Erdbeeren",
+      "Gemüse",
+      "Freilandeier",
+      "Marmeladen",
+      "Honig"
+    ]
   }
 }

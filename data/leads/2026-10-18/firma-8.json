@@ -377,6 +377,19 @@
       ],
       "responseNote": "Antwort meist innerhalb weniger Tage."
     },
-    "stickyCta": "Jetzt anfragen"
+    "stickyCta": "Jetzt anfragen",
+    "category": "hof",
+    "heroOffer": [
+      "Eier",
+      "Honig",
+      "Kartoffeln",
+      "Offmühle-Produkte"
+    ],
+    "hours": [
+      {
+        "label": "Mo–So",
+        "value": "ab 5:00 Uhr (Selbstbedienung)"
+      }
+    ]
   }
 }

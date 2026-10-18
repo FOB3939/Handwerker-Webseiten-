@@ -52,6 +52,12 @@ export interface Lead {
 
 export interface SiteContent {
   theme: ThemeKey;
+  /** "hof" = Hofladen/Bauernhof/Pferdehof (Produkte, Öffnungszeiten, Anfahrt); "handwerk" = Leistungen & Angebot */
+  category?: "handwerk" | "hof";
+  /** 3–5 ganz kurze Angebots-Stichworte für den Hero (z. B. "Eier", "Kartoffeln" bzw. "Badsanierung", "Fliesen") */
+  heroOffer?: string[];
+  /** Nur belegte Öffnungs-/Verkaufszeiten, z. B. { label: "Mo, Mi, Sa", value: "8–13 Uhr" } */
+  hours?: { label: string; value: string }[];
   scene: SceneKind;
   quote: { sizeLabel: string; sizes: string[]; timings: string[] };
   badges: { title: string; sub: string }[];

@@ -122,12 +122,30 @@
     "seoTitle": "Parkett schleifen in Karlsfeld – FKM Parkett",
     "seoDescription": "Parkett und Dielen schleifen, lackieren oder ölen, Treppen aufarbeiten, Parkett, Laminat und Vinyl verlegen – FKM Parkett aus Karlsfeld. 4,7 Sterne auf MyHammer. Jetzt kostenloses Angebot anfragen.",
     "nav": [
-      { "label": "Leistungen", "href": "#leistungen" },
-      { "label": "Projekte", "href": "#projekte" },
-      { "label": "Bewertungen", "href": "#bewertungen" },
-      { "label": "Ablauf", "href": "#ablauf" },
-      { "label": "FAQ", "href": "#faq" },
-      { "label": "Kontakt", "href": "#kontakt" }
+      {
+        "label": "Leistungen",
+        "href": "#leistungen"
+      },
+      {
+        "label": "Projekte",
+        "href": "#projekte"
+      },
+      {
+        "label": "Bewertungen",
+        "href": "#bewertungen"
+      },
+      {
+        "label": "Ablauf",
+        "href": "#ablauf"
+      },
+      {
+        "label": "FAQ",
+        "href": "#faq"
+      },
+      {
+        "label": "Kontakt",
+        "href": "#kontakt"
+      }
     ],
     "hero": {
       "eyebrow": "Parkett & Bodenbeläge · Karlsfeld",
@@ -143,16 +161,40 @@
       "imageLabel": "frisch geschliffener und geölter Parkettboden"
     },
     "badges": [
-      { "title": "Schleifen & Versiegeln", "sub": "mit Lack oder Öl" },
-      { "title": "4,7 ★ auf MyHammer", "sub": "aus über 45 Bewertungen" },
-      { "title": "Treppen inklusive", "sub": "Stufen schleifen und versiegeln" },
-      { "title": "Karlsfeld", "sub": "Landkreis Dachau & Münchner Nordwesten" }
+      {
+        "title": "Schleifen & Versiegeln",
+        "sub": "mit Lack oder Öl"
+      },
+      {
+        "title": "4,7 ★ auf MyHammer",
+        "sub": "aus über 45 Bewertungen"
+      },
+      {
+        "title": "Treppen inklusive",
+        "sub": "Stufen schleifen und versiegeln"
+      },
+      {
+        "title": "Karlsfeld",
+        "sub": "Landkreis Dachau & Münchner Nordwesten"
+      }
     ],
     "trust": [
-      { "value": "4,7 ★", "label": "Durchschnitt auf MyHammer" },
-      { "value": "45+", "label": "Bewertungen von Auftraggebern" },
-      { "value": "Lack oder Öl", "label": "Versiegelung nach Wunsch" },
-      { "value": "Karlsfeld", "label": "Betrieb im Landkreis Dachau" }
+      {
+        "value": "4,7 ★",
+        "label": "Durchschnitt auf MyHammer"
+      },
+      {
+        "value": "45+",
+        "label": "Bewertungen von Auftraggebern"
+      },
+      {
+        "value": "Lack oder Öl",
+        "label": "Versiegelung nach Wunsch"
+      },
+      {
+        "value": "Karlsfeld",
+        "label": "Betrieb im Landkreis Dachau"
+      }
     ],
     "servicesIntro": {
       "headline": "Alles rund um Ihren Holzboden",
@@ -162,32 +204,56 @@
       {
         "title": "Parkett schleifen",
         "text": "Kratzer, Laufstraßen und vergrauter Lack verschwinden – der Boden bekommt eine frische, gleichmäßige Oberfläche.",
-        "items": ["Parkett", "Dielenboden", "Mehrfach geschliffene Böden"]
+        "items": [
+          "Parkett",
+          "Dielenboden",
+          "Mehrfach geschliffene Böden"
+        ]
       },
       {
         "title": "Lackieren oder Ölen",
         "text": "Nach dem Schliff versiegeln wir Ihren Boden so, wie Sie es möchten – robust lackiert oder natürlich geölt.",
-        "items": ["Lackversiegelung", "Ölen", "Beratung zur Oberfläche"]
+        "items": [
+          "Lackversiegelung",
+          "Ölen",
+          "Beratung zur Oberfläche"
+        ]
       },
       {
         "title": "Treppen aufarbeiten",
         "text": "Ausgetretene Holzstufen werden geschliffen und neu versiegelt – die Treppe wird wieder zum Blickfang.",
-        "items": ["Treppenstufen schleifen", "Lack", "Öl"]
+        "items": [
+          "Treppenstufen schleifen",
+          "Lack",
+          "Öl"
+        ]
       },
       {
         "title": "Parkett verlegen",
         "text": "Neues Parkett, sauber verlegt – für ein Zimmer oder die ganze Wohnung.",
-        "items": ["Parkett", "Neuverlegung", "Renovierung"]
+        "items": [
+          "Parkett",
+          "Neuverlegung",
+          "Renovierung"
+        ]
       },
       {
         "title": "Laminat & Vinyl",
         "text": "Pflegeleichte Alternativen zum Echtholz, fachgerecht verlegt.",
-        "items": ["Laminat", "Vinyl", "Wohnräume"]
+        "items": [
+          "Laminat",
+          "Vinyl",
+          "Wohnräume"
+        ]
       },
       {
         "title": "Reparatur & Leisten",
         "text": "Beschädigte Stellen ausbessern und den Boden mit passenden Sockelleisten sauber abschließen.",
-        "items": ["Parkettreparatur", "Sockelleisten", "Ausbesserungen"]
+        "items": [
+          "Parkettreparatur",
+          "Sockelleisten",
+          "Ausbesserungen"
+        ]
       }
     ],
     "why": {
@@ -228,21 +294,48 @@
     "process": {
       "headline": "Vom stumpfen Boden zur neuen Oberfläche",
       "steps": [
-        { "title": "Anfrage", "text": "Fotos und ungefähre Quadratmeter schicken – oder kurz anrufen." },
-        { "title": "Besichtigung", "text": "Wir schauen uns Holzart, Zustand und Schleifreserve vor Ort an." },
-        { "title": "Angebot", "text": "Sie erhalten ein klares Angebot – Lack oder Öl, ganz nach Wunsch." },
-        { "title": "Ausführung", "text": "Schleifen, versiegeln, Leisten anbringen – und ein Boden, der wieder strahlt." }
+        {
+          "title": "Anfrage",
+          "text": "Fotos und ungefähre Quadratmeter schicken – oder kurz anrufen."
+        },
+        {
+          "title": "Besichtigung",
+          "text": "Wir schauen uns Holzart, Zustand und Schleifreserve vor Ort an."
+        },
+        {
+          "title": "Angebot",
+          "text": "Sie erhalten ein klares Angebot – Lack oder Öl, ganz nach Wunsch."
+        },
+        {
+          "title": "Ausführung",
+          "text": "Schleifen, versiegeln, Leisten anbringen – und ein Boden, der wieder strahlt."
+        }
       ]
     },
     "gallery": {
       "headline": "Böden und Treppen – vorher und nachher",
       "text": "Für die Live-Version zeigen wir hier echte Projekte, idealerweise als Vorher-/Nachher-Paare desselben Raums.",
       "items": [
-        { "title": "Parkett geschliffen", "photoNeeded": "Parkettboden vor und nach dem Schleifen" },
-        { "title": "Geölter Boden", "photoNeeded": "frisch geölter Holzboden im Streiflicht" },
-        { "title": "Holztreppe", "photoNeeded": "geschliffene und versiegelte Treppenstufen" },
-        { "title": "Neuverlegung", "photoNeeded": "neu verlegtes Parkett, Laminat oder Vinyl" },
-        { "title": "Details", "photoNeeded": "Sockelleisten und reparierte Parkettstelle" }
+        {
+          "title": "Parkett geschliffen",
+          "photoNeeded": "Parkettboden vor und nach dem Schleifen"
+        },
+        {
+          "title": "Geölter Boden",
+          "photoNeeded": "frisch geölter Holzboden im Streiflicht"
+        },
+        {
+          "title": "Holztreppe",
+          "photoNeeded": "geschliffene und versiegelte Treppenstufen"
+        },
+        {
+          "title": "Neuverlegung",
+          "photoNeeded": "neu verlegtes Parkett, Laminat oder Vinyl"
+        },
+        {
+          "title": "Details",
+          "photoNeeded": "Sockelleisten und reparierte Parkettstelle"
+        }
       ]
     },
     "region": {
@@ -310,6 +403,13 @@
         "Ich plane erst noch"
       ]
     },
-    "stickyCta": "Angebot anfragen"
+    "stickyCta": "Angebot anfragen",
+    "category": "handwerk",
+    "heroOffer": [
+      "Parkett schleifen",
+      "Lackieren oder Ölen",
+      "Treppen aufarbeiten",
+      "Parkett verlegen"
+    ]
   }
 }

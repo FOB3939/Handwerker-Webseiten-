@@ -377,6 +377,14 @@
       ],
       "responseNote": "Wir melden uns, sobald die Hofarbeit es zulässt."
     },
-    "stickyCta": "Hofladen anfragen"
+    "stickyCta": "Hofladen anfragen",
+    "category": "hof",
+    "heroOffer": [
+      "Eier",
+      "Nudeln",
+      "Kartoffeln",
+      "Marmeladen",
+      "Zwiebeln"
+    ]
   }
 }

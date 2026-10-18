@@ -390,6 +390,23 @@
       ],
       "responseNote": "Am schnellsten erreichen Sie uns zu den Öffnungszeiten."
     },
-    "stickyCta": "Hofladen anrufen"
+    "stickyCta": "Hofladen anrufen",
+    "category": "hof",
+    "heroOffer": [
+      "Eier",
+      "Eiernudeln",
+      "Kartoffeln",
+      "Marmeladen"
+    ],
+    "hours": [
+      {
+        "label": "Mo, Mi, Sa",
+        "value": "8–13 Uhr"
+      },
+      {
+        "label": "Fr",
+        "value": "8–18 Uhr"
+      }
+    ]
   }
 }

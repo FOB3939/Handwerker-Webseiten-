@@ -1,4 +1,4 @@
-import type { ReactNode } from "react";
+import { Fragment, type ReactNode } from "react";
 import type { Lead } from "@/lib/types";
 import { themes, themeStyle, type Theme } from "@/lib/themes";
 import { telHref } from "@/lib/leads";
@@ -10,6 +10,7 @@ import AreaMap from "./AreaMap";
 import Enhance from "./Enhance";
 import BrandLogo from "./BrandLogo";
 import Splash from "./Splash";
+import HofIcon, { productIcon } from "./HofIcons";
 
 const DEMO_NOTICE = "Unverbindlicher Website-Entwurf – nicht die offizielle Website des Unternehmens.";
 
@@ -18,6 +19,7 @@ interface Ctx {
   theme: Theme;
   call: string;
   upper: string;
+  hof: boolean;
 }
 
 export default function DemoSite({ lead }: { lead: Lead }) {
@@ -28,8 +30,9 @@ export default function DemoSite({ lead }: { lead: Lead }) {
     theme,
     call: company.phone ? telHref(company.phone) : "#kontakt",
     upper: theme.displayCase === "upper" ? "uppercase tracking-tight" : "",
+    hof: (site.category ?? (site.theme === "hof" || site.scene === "farm" ? "hof" : "handwerk")) === "hof",
   };
-  const heroHasForm = !["editorial", "organic", "banner"].includes(theme.hero);
+  const heroHasForm = !ctx.hof && !["editorial", "organic", "banner"].includes(theme.hero);
 
   return (
     <div style={themeStyle(theme)} className="min-h-screen bg-t-bg font-body text-t-ink antialiased">
@@ -46,10 +49,11 @@ export default function DemoSite({ lead }: { lead: Lead }) {
         <Badges {...ctx} />
         <Marquee {...ctx} />
         <Services {...ctx} />
+        {ctx.hof && <Visit {...ctx} />}
         {!heroHasForm && <QuoteSection {...ctx} />}
         <About {...ctx} />
         <Stats {...ctx} />
-        <Projects {...ctx} />
+        {ctx.hof ? <HofGallery {...ctx} /> : <Projects {...ctx} />}
         <Reviews {...ctx} />
         <Process {...ctx} />
         <CtaBand {...ctx} />
@@ -171,11 +175,16 @@ function Bullets({ items, dark = false }: { items: string[]; dark?: boolean }) {
   );
 }
 
-function quoteProps(lead: Lead) {
-  return { services: lead.site.contact.topics.filter((t) => t !== "Sonstiges").slice(0, 6), ...lead.site.quote };
+function quoteProps(lead: Lead, hof = false) {
+  return {
+    services: lead.site.contact.topics.filter((t) => t !== "Sonstiges").slice(0, 6),
+    ...lead.site.quote,
+    title: hof ? "Anfrage in 60 Sekunden" : "Angebot in 60 Sekunden",
+    firstQuestion: hof ? "Was interessiert Sie?" : "Was dürfen wir für Sie tun?",
+  };
 }
 
-function Hero({ lead, theme, call, upper }: Ctx) {
+function Hero({ lead, theme, call, upper, hof }: Ctx) {
   const { hero, scene } = lead.site;
   const art = (cls: string, seed = 0) => <Scene kind={scene} palette={theme.palette} label={hero.imageLabel} seed={seed} className={cls} />;
 
@@ -188,6 +197,7 @@ function Hero({ lead, theme, call, upper }: Ctx) {
             <p className="mt-8 text-sm font-bold uppercase tracking-[0.22em] text-t-accent">{hero.eyebrow}</p>
             <h1 className={`mt-4 text-balance font-display text-5xl font-semibold leading-[1.02] sm:text-7xl ${upper}`}><span className="ink-line">{hero.headline}</span></h1>
             <p className="mt-6 max-w-xl text-lg leading-relaxed text-t-muted">{hero.sub}</p>
+            <OfferStrip lead={lead} hof={hof} />
             <CtaRow lead={lead} call={call} />
             <Bullets items={hero.bullets} />
           </div>
@@ -220,12 +230,13 @@ function Hero({ lead, theme, call, upper }: Ctx) {
             <p className="mt-8 text-xs font-bold uppercase tracking-[0.3em] text-t-accent">{hero.eyebrow}</p>
             <h1 className={`mt-5 text-balance font-display text-4xl font-light leading-[1.04] sm:text-6xl ${upper}`}>{hero.headline}</h1>
             <p className="mt-6 max-w-xl text-lg text-white/80">{hero.sub}</p>
+            <OfferStrip lead={lead} hof={hof} dark />
             <Bullets items={hero.bullets} dark />
             <a href={call} className="mt-8 inline-flex items-center gap-2 font-bold text-white underline-offset-4 hover:underline">
               <PhoneIcon /> {lead.company.phone ? `Lieber direkt anrufen: ${lead.company.phone}` : hero.ctaSecondary}
             </a>
           </div>
-          <div className="hero-media lg:col-span-5"><QuickRequest {...quoteProps(lead)} /></div>
+          <div className="hero-media lg:col-span-5">{hof ? <HofInfoCard lead={lead} /> : <QuickRequest {...quoteProps(lead, hof)} />}</div>
         </div>
       </section>
     );
@@ -242,6 +253,7 @@ function Hero({ lead, theme, call, upper }: Ctx) {
               <p className="font-display text-xl italic text-t-dark-ink/90">{hero.eyebrow}</p>
               <h1 className={`mt-3 text-balance font-display text-5xl font-semibold leading-[1.04] sm:text-7xl ${upper}`}>{hero.headline}</h1>
               <p className="mt-5 max-w-xl text-lg text-t-dark-ink/85">{hero.sub}</p>
+              <OfferStrip lead={lead} hof={hof} dark />
               <CtaRow lead={lead} call={call} dark />
             </div>
             <div className="hero-media self-end lg:col-span-4">
@@ -272,7 +284,7 @@ function Hero({ lead, theme, call, upper }: Ctx) {
             <RatingChip lead={lead} />
           </div>
           <div className="mt-8 grid gap-8 lg:grid-cols-12">
-            <p className="text-lg leading-relaxed text-t-muted lg:col-span-7">{hero.sub}</p>
+            <div className="lg:col-span-7"><p className="text-lg leading-relaxed text-t-muted">{hero.sub}</p><OfferStrip lead={lead} hof={hof} /></div>
             <div className="lg:col-span-5"><CtaRow lead={lead} call={call} /></div>
           </div>
         </div>
@@ -303,13 +315,14 @@ function Hero({ lead, theme, call, upper }: Ctx) {
           <p className="mt-7 text-sm font-bold uppercase tracking-wider text-t-accent">{hero.eyebrow}</p>
           <h1 className={`mt-4 text-balance font-display text-4xl font-extrabold leading-[1.04] sm:text-6xl ${upper}`}>{hero.headline}</h1>
           <p className="mt-5 max-w-xl text-lg text-t-muted">{hero.sub}</p>
+          <OfferStrip lead={lead} hof={hof} />
           <Bullets items={hero.bullets} />
           <a href={call} className="mt-8 inline-flex items-center gap-2 rounded-t border border-t-ink/15 bg-t-surface px-5 py-3 font-bold">
             <PhoneIcon /> {lead.company.phone ? `${hero.ctaSecondary}: ${lead.company.phone}` : hero.ctaSecondary}
           </a>
           {art("mt-8 aspect-[16/9] w-full rounded-t lg:hidden", 0)}
         </div>
-        <div className="hero-media lg:col-span-5 lg:col-start-8"><QuickRequest {...quoteProps(lead)} /></div>
+        <div className="hero-media lg:col-span-5 lg:col-start-8">{hof ? <HofInfoCard lead={lead} /> : <QuickRequest {...quoteProps(lead, hof)} />}</div>
       </div>
     </section>
   );
@@ -363,10 +376,148 @@ function Marquee({ lead }: Ctx) {
   );
 }
 
+function OfferStrip({ lead, hof, dark = false }: { lead: Lead; hof: boolean; dark?: boolean }) {
+  const offer = (lead.site.heroOffer?.length ? lead.site.heroOffer : lead.site.services.map((s) => s.title)).slice(0, 5);
+  return (
+    <div className="mt-6">
+      <p className={`text-xs font-bold uppercase tracking-[0.18em] ${dark ? "text-white/70" : "text-t-muted"}`}>
+        {hof ? "Bei uns gibt’s" : "Leistungen auf einen Blick"}
+      </p>
+      <ul className="mt-3 flex flex-wrap gap-2">
+        {offer.map((o) => (
+          <li key={o} className={`flex items-center gap-2 rounded-full px-3.5 py-2 text-sm font-bold shadow-sm sm:text-[15px] ${dark ? "bg-white/15 text-white ring-1 ring-white/25 backdrop-blur" : "bg-t-surface text-t-ink ring-1 ring-t-line"}`}>
+            <span className={`grid h-6 w-6 place-items-center rounded-full ${dark ? "bg-white/20" : "bg-t-accent/15 text-t-accent"}`}>
+              <HofIcon name={hof ? productIcon(o) : "check"} size={14} />
+            </span>
+            {o}
+          </li>
+        ))}
+      </ul>
+    </div>
+  );
+}
+
+function routeHref(lead: Lead) {
+  const q = lead.company.address ?? `${lead.company.name} ${lead.company.city}`;
+  return `https://www.google.com/maps/dir/?api=1&destination=${encodeURIComponent(q)}`;
+}
+
+function HofInfoCard({ lead }: { lead: Lead }) {
+  const { company, site } = lead;
+  return (
+    <div className="rounded-t bg-t-surface p-6 text-t-ink shadow-2xl ring-1 ring-t-line sm:p-8">
+      <p className="text-xs font-bold uppercase tracking-[0.18em] text-t-accent">{company.trade}</p>
+      <p className="mt-1 font-display text-2xl font-bold">Einkaufen bei {site.brandName}</p>
+      <div className="mt-5 rounded-t bg-t-bg p-4">
+        <p className="flex items-center gap-2 text-sm font-bold"><HofIcon name="sun" size={16} className="text-t-accent" /> {site.hours?.length ? "Verkaufszeiten" : "Verkauf"}</p>
+        {site.hours?.length ? (
+          <dl className="mt-2 grid grid-cols-[auto_1fr] gap-x-4 gap-y-1 text-sm">
+            {site.hours.map((h) => (<Fragment key={h.label}><dt className="font-semibold">{h.label}</dt><dd className="text-t-muted">{h.value}</dd></Fragment>))}
+          </dl>
+        ) : (
+          <p className="mt-2 text-sm text-t-muted">{site.contact.responseNote}</p>
+        )}
+      </div>
+      <p className="mt-4 flex items-start gap-2 text-sm"><PinIcon /> <span>{company.address ?? company.city}</span></p>
+      <div className="mt-6 grid gap-2 sm:grid-cols-2">
+        <a href={routeHref(lead)} target="_blank" rel="noopener noreferrer" className="btn-shine rounded-t bg-t-accent px-4 py-3 text-center text-sm font-bold text-t-accent-ink">Route planen</a>
+        <a href="#anfrage" className="rounded-t border border-t-ink/15 px-4 py-3 text-center text-sm font-bold">Vorbestellen / anfragen</a>
+      </div>
+    </div>
+  );
+}
+
+function ProductGrid({ lead, upper }: { lead: Lead; upper: string }) {
+  const { services, servicesIntro } = lead.site;
+  return (
+    <section id="leistungen" className="mx-auto max-w-site px-4 py-24 sm:px-6">
+      <div className="flex flex-wrap items-end justify-between gap-6">
+        <SectionHead kicker="Unser Angebot" title={servicesIntro.headline} text={servicesIntro.text} upper={upper} />
+        <a href="#besuch" className="font-bold text-t-accent underline-offset-4 hover:underline">Zeiten & Anfahrt →</a>
+      </div>
+      <div data-stagger className="mt-14 grid gap-5 sm:grid-cols-2 lg:grid-cols-3">
+        {services.map((s) => (
+          <article key={s.title} className="card-fx relative overflow-hidden rounded-t border border-t-line bg-t-surface p-7 shadow-sm">
+            <span className="absolute -right-6 -top-6 h-24 w-24 rounded-full bg-t-accent/10" aria-hidden="true" />
+            <span className="relative grid h-14 w-14 place-items-center rounded-full bg-t-accent text-t-accent-ink shadow-md">
+              <HofIcon name={productIcon(`${s.title} ${s.items.join(" ")}`)} size={28} />
+            </span>
+            <h3 className={`relative mt-5 font-display text-2xl font-bold ${upper}`}>{s.title}</h3>
+            <p className="relative mt-2 text-t-muted">{s.text}</p>
+            {s.items.length > 0 && (
+              <ul className="relative mt-4 flex flex-wrap gap-1.5">
+                {s.items.map((it) => <li key={it} className="rounded-full bg-t-bg px-3 py-1 text-xs font-semibold ring-1 ring-t-line">{it}</li>)}
+              </ul>
+            )}
+          </article>
+        ))}
+      </div>
+    </section>
+  );
+}
+
+function Visit({ lead, upper }: Ctx) {
+  const { company, site } = lead;
+  return (
+    <section id="besuch" className="bg-t-dark text-t-dark-ink">
+      <div className="mx-auto grid max-w-site gap-10 px-4 py-20 sm:px-6 lg:grid-cols-2">
+        <div>
+          <SectionHead kicker="Besuch & Öffnungszeiten" title={`So finden Sie ${site.brandName}`} upper={upper} dark
+            text={`${company.address ?? company.city} – einfach vorbeikommen, einkaufen und genießen.`} />
+          <div className="mt-8 flex flex-col gap-3 sm:flex-row">
+            <a href={routeHref(lead)} target="_blank" rel="noopener noreferrer" className="btn-shine rounded-t bg-t-accent px-6 py-3.5 text-center font-bold text-t-accent-ink">Route planen</a>
+            {company.phone && <a href={telHref(company.phone)} className="rounded-t border border-white/30 px-6 py-3.5 text-center font-bold">{company.phone}</a>}
+          </div>
+        </div>
+        <div data-reveal="right" className="rounded-t bg-white/5 p-6 ring-1 ring-white/10 sm:p-8">
+          <p className="flex items-center gap-2 font-display text-xl font-bold"><HofIcon name="sun" className="text-t-accent" /> {site.hours?.length ? "Verkaufszeiten" : "Verkauf & Abholung"}</p>
+          {site.hours?.length ? (
+            <dl className="mt-5 divide-y divide-white/10">
+              {site.hours.map((h) => (
+                <div key={h.label} className="flex items-center justify-between gap-4 py-3">
+                  <dt className="font-semibold">{h.label}</dt>
+                  <dd className="text-t-dark-ink/80 tabular-nums">{h.value}</dd>
+                </div>
+              ))}
+            </dl>
+          ) : (
+            <p className="mt-4 text-t-dark-ink/80">{site.contact.responseNote}</p>
+          )}
+          <p className="mt-6 text-xs text-t-dark-ink/60">Angaben aus öffentlichen Verzeichnissen – bitte vor Veröffentlichung mit dem Hof abstimmen.</p>
+        </div>
+      </div>
+    </section>
+  );
+}
+
+function HofGallery({ lead, theme, upper }: Ctx) {
+  const g = lead.site.gallery;
+  const { scene } = lead.site;
+  return (
+    <section id="projekte" className="border-y border-t-line bg-t-surface">
+      <div className="mx-auto max-w-site px-4 py-24 sm:px-6">
+        <SectionHead kicker="Einblicke" title={g.headline} text={g.text} upper={upper} />
+        <div data-stagger className="mt-14 grid auto-rows-[11rem] grid-cols-2 gap-4 md:auto-rows-[13rem] md:grid-cols-4">
+          {g.items.map((it, i) => (
+            <figure key={it.title} className={`group relative overflow-hidden rounded-t ${i === 0 ? "col-span-2 row-span-2" : ""}`}>
+              <Scene kind={i % 2 === 0 ? scene : scene === "farm" ? "garden" : "farm"} palette={theme.palette} label={it.photoNeeded} seed={i + 2} className="h-full w-full transition duration-700 group-hover:scale-105" showLabel={false} />
+              <figcaption className="absolute inset-x-0 bottom-0 bg-gradient-to-t from-black/75 to-transparent p-3 pt-10 text-white">
+                <span className="block text-sm font-bold">{it.title}</span>
+                <span className="block text-[11px] text-white/80">Foto folgt: {it.photoNeeded}</span>
+              </figcaption>
+            </figure>
+          ))}
+        </div>
+      </div>
+    </section>
+  );
+}
+
 /* ---------- Leistungen ---------- */
 
-function Services({ lead, theme, upper }: Ctx) {
+function Services({ lead, theme, upper, hof }: Ctx) {
   const { services, servicesIntro, scene } = lead.site;
+  if (hof) return <ProductGrid lead={lead} upper={upper} />;
   return (
     <section id="leistungen" className="mx-auto max-w-site px-4 py-24 sm:px-6">
       <div className="flex flex-wrap items-end justify-between gap-6">
@@ -428,20 +579,20 @@ function Services({ lead, theme, upper }: Ctx) {
   );
 }
 
-function QuoteSection({ lead, upper }: Ctx) {
+function QuoteSection({ lead, upper, hof }: Ctx) {
   return (
     <section id="anfrage" className="bg-t-dark text-t-dark-ink">
       <div className="mx-auto grid max-w-site items-center gap-10 px-4 py-20 sm:px-6 lg:grid-cols-2">
         <div>
-          <SectionHead kicker="Schnellanfrage" title="In 60 Sekunden zum unverbindlichen Angebot" upper={upper} dark
-            text="Drei kurze Fragen, dann meldet sich der Betrieb mit einer Einschätzung bei Ihnen. Kostenlos und ohne Verpflichtung." />
+          <SectionHead kicker={hof ? "Vorbestellen & anfragen" : "Schnellanfrage"} title={hof ? "In 60 Sekunden vorbestellen oder anfragen" : "In 60 Sekunden zum unverbindlichen Angebot"} upper={upper} dark
+            text={hof ? "Drei kurze Fragen – dann meldet sich der Hof mit einer Rückmeldung zu Verfügbarkeit und Abholung." : "Drei kurze Fragen, dann meldet sich der Betrieb mit einer Einschätzung bei Ihnen. Kostenlos und ohne Verpflichtung."} />
           <ul className="mt-8 grid gap-3 text-t-dark-ink/85 sm:grid-cols-3">
-            {["Kostenlos", "Unverbindlich", "Persönliche Rückmeldung"].map((t) => (
+            {(hof ? ["Direkt vom Hof", "Unverbindlich", "Persönliche Rückmeldung"] : ["Kostenlos", "Unverbindlich", "Persönliche Rückmeldung"]).map((t) => (
               <li key={t} className="flex items-center gap-2 text-sm font-semibold"><CheckIcon className="text-t-accent" />{t}</li>
             ))}
           </ul>
         </div>
-        <div data-reveal="right"><QuickRequest {...quoteProps(lead)} /></div>
+        <div data-reveal="right"><QuickRequest {...quoteProps(lead, hof)} /></div>
       </div>
     </section>
   );

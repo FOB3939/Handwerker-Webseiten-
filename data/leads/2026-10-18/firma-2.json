@@ -375,6 +375,13 @@
         "Ich plane erst noch"
       ]
     },
-    "stickyCta": "Rückruf anfragen"
+    "stickyCta": "Rückruf anfragen",
+    "category": "handwerk",
+    "heroOffer": [
+      "Elektroinstallation",
+      "Deckenleuchten",
+      "Pendelleuchten",
+      "LED-Beleuchtung"
+    ]
   }
 }
