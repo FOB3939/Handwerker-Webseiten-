@@ -1,0 +1,404 @@
+{
+  "id": "2026-10-18-20",
+  "slug": "hofmanns-hofladen-egling-aufhofen",
+  "date": "2026-10-18",
+  "company": {
+    "name": "Hofmanns Hofladen",
+    "owner": "Ursula und Friedrich Hofmann",
+    "trade": "Hofladen & Direktvermarktung",
+    "city": "Egling (Aufhofen)",
+    "address": "Hofmarkstraße 26, 82544 Egling-Aufhofen",
+    "phone": "08176 925089",
+    "email": null,
+    "serviceArea": [
+      "Egling",
+      "Aufhofen",
+      "Wolfratshausen",
+      "Geretsried",
+      "Icking",
+      "Dietramszell",
+      "Straßlach-Dingharting",
+      "Sauerlach"
+    ]
+  },
+  "listings": {
+    "google": {
+      "url": "https://www.google.com/maps/search/?api=1&query=Hofmanns%20Hofladen%20Egling%20Aufhofen",
+      "rating": null,
+      "reviews": null,
+      "evidence": "NICHT VERIFIZIERT – Google Maps aus der Recherche-Umgebung nicht erreichbar, kein Maps-Treffer in der Websuche. Vor Kontaktaufnahme manuell prüfen."
+    },
+    "myhammer": {
+      "url": "https://www.egling.de/index.php?id=0,6&gid=245",
+      "rating": null,
+      "reviews": null,
+      "evidence": "Kein MyHammer – Eintrag im Gewerbeverzeichnis der Gemeinde Egling: „Hofmann Ursula, Hofladen Direktvermarktung, Aufhofen, Hofmarkstr. 26, 82544 Egling, Telefon 08176 925089“. Zusätzlich Direktvermarkter-Liste der Stadt Wolfratshausen (Friedrich Hofmann, eigene Eier, Fleischwaren, Kartoffeln; Fr & Sa 7–18 Uhr in geraden Kalenderwochen) und Bio-Einkaufsführer des BUND Naturschutz Bad Tölz-Wolfratshausen. Keine Website und keine E-Mail in den Einträgen, keine Bewertungen belegt."
+    }
+  },
+  "websiteStatus": "keine eigene Website gefunden",
+  "websiteChecks": [
+    "(1) „Hofmanns Hofladen Egling Eier Fleischwaren Kartoffeln“ mit Ausschluss von 11880.com, gelbeseiten.de, dasoertliche.de, dastelefonbuch.de, cylex.de, meinestadt.de, creditreform.de, facebook.com, instagram.com, golocal.de: nur BN-Biofuehrer, Wolfratshausen-Liste, mein-bauernhof.de und gleichnamige fremde Betriebe (Hofmann Bauernladen, Hoffmann's Hofladen Hofer Land, Hofmanns Hofladen Abenberg) – keine Domain des Egglinger Betriebs.",
+    "(2) „Hofmann Hofladen Egling Aufhofen 08176 925089“ zusätzlich ohne bund-naturschutz.de und wolfratshausen.de: nur Gemeinde Egling (Gewerbeverzeichnis), Direktvermarkter-Sammlung der Grünen Nordlandkreis und Bioland-Sommerprogramm 2012 – keine eigene Website.",
+    "(3) Domainprüfung per allowed_domains hofmanns-hofladen.de, hofmann-egling.de, hofmanns-hofladen-egling.de, hofladen-hofmann.de, biohof-hofmann.de, hofmann-aufhofen.de: keine Treffer.",
+    "(4) Verzeichniseinträge (Gemeinde Egling, Wolfratshausen, BN) nennen weder Website noch E-Mail; Suche nach E-Mail/Öffnungszeiten ohne weitere Treffer."
+  ],
+  "facts": {
+    "services": [
+      "Rind- und Schweinefleisch",
+      "Wurst aus eigenen Erzeugnissen",
+      "Eier von eigenen Hühnern",
+      "Kartoffeln vom eigenen Feld",
+      "Milch",
+      "Wein"
+    ],
+    "experience": null,
+    "praisedFor": []
+  },
+  "strategy": {
+    "audience": "Familien und Genießer in Egling, Wolfratshausen, Geretsried und Icking, die Fleisch, Eier und Kartoffeln direkt vom Erzeuger kaufen möchten",
+    "mainService": "Hofladen mit eigenem Fleisch, Wurst, Eiern und Kartoffeln",
+    "trustSignal": "Eigene Tiere, eigene Hühner, eigenes Feld; gelistet im Bio-Einkaufsführer des BUND Naturschutz und im Gewerbeverzeichnis der Gemeinde Egling",
+    "conversionGoal": "Vorbestellung per Telefon/Formular für den nächsten Verkaufstag",
+    "visualConcept": "Warm und ländlich: Gartengrün, Holzkisten mit Kartoffeln, Eierkörbe, Voralpenlicht über dem Isartal"
+  },
+  "sales": {
+    "score": 7,
+    "whyGoodLead": [
+      "Verkauf nur alle zwei Wochen – Kunden brauchen dringend einen verlässlichen Ort, um die Verkaufstage nachzulesen",
+      "Fleisch und Wurst werden gern vorbestellt – Formular spart Telefonzeit",
+      "Bisher nur in Gemeinde-, Stadt- und BN-Listen sichtbar, keine eigene Website",
+      "Klares Sortiment aus eigener Erzeugung – ideale Basis für eine authentische Hofseite"
+    ],
+    "pitch": "Grüß Gott Frau Hofmann, mein Name ist … – ich gestalte Websites für Höfe im Isartal. Ihren Hofladen in Aufhofen habe ich in der Direktvermarkter-Liste und im Bio-Einkaufsführer gefunden: Fleisch, Wurst, Eier und Kartoffeln aus eigener Erzeugung. Weil Sie nur in geraden Kalenderwochen verkaufen, wäre eine kleine Seite mit Verkaufstagen und Vorbestellung für Ihre Kunden ideal. Ich habe unverbindlich einen Entwurf vorbereitet – darf ich ihn Ihnen zeigen?"
+  },
+  "manualChecks": [
+    "Website-Risiko: mittel – vor Versand in Google Maps prüfen, dass keine Website hinterlegt ist (Grund: alle Prüfungen negativ, aber keine Freemail-Adresse belegt)",
+    "Adresse bestätigen: Hofmarkstr. 26 (Gemeinde Egling, Wolfratshausen-Liste) vs. Hauptstraße 1b (BN-Biofuehrer, Bioland 2012)",
+    "Verkaufszeiten (Fr & Sa 7–18 Uhr, gerade Kalenderwochen) vor Live-Nutzung bestätigen",
+    "Bio-/Bioland-Status klären: nur im Bioland-Programm 2012 und BN-Biofuehrer genannt – im Entwurf bewusst nicht als Siegel behauptet",
+    "Ansprechpartner klären: Ursula Hofmann (Gemeinde) bzw. Friedrich Hofmann (Direktvermarkter-Liste)",
+    "E-Mail-Adresse beim Betrieb erfragen (keine öffentlich gefunden)"
+  ],
+  "sources": [
+    {
+      "label": "Gemeinde Egling – Gewerbe & Wirtschaft",
+      "url": "https://www.egling.de/index.php?id=0,6&gid=245"
+    },
+    {
+      "label": "Stadt Wolfratshausen – Direktvermarkter, Hofläden und regionale Lebensmittel",
+      "url": "https://www.wolfratshausen.de/fileadmin/Stadt_Wolfratshausen/Dateien/Umwelt_und_Energie/Klimaschutz/23-9-18__Regionale_Vermarkung.pdf"
+    },
+    {
+      "label": "BUND Naturschutz – Bio wo? Her damit! Landkreis Bad Tölz-Wolfratshausen",
+      "url": "https://bad-toelz.bund-naturschutz.de/fileadmin/kreisgruppen/badtoelz/dokumente/biofuehrer_ebook_din_a4_01.pdf"
+    },
+    {
+      "label": "Sammlung Direktvermarkter Nordlandkreis Bad Tölz-Wolfratshausen",
+      "url": "https://wordpress02.gcms.verdigado.net/gruene-toelz-wor/wp-content/uploads/sites/38/2021/08/Sammlung_Direktvermarkter_Nordlandkreis_200717.pdf"
+    },
+    {
+      "label": "Bioland Sommerprogramm 2012 (yumpu)",
+      "url": "https://www.yumpu.com/de/document/view/5675279/sommerprogramm-2012-bioland"
+    }
+  ],
+  "site": {
+    "theme": "hof",
+    "category": "hof",
+    "scene": "garden",
+    "heroOffer": [
+      "Rind & Schwein",
+      "Wurst",
+      "Eier",
+      "Kartoffeln",
+      "Milch"
+    ],
+    "hours": [
+      {
+        "label": "Fr & Sa (gerade Kalenderwochen)",
+        "value": "7–18 Uhr"
+      }
+    ],
+    "quote": {
+      "sizeLabel": "Was dürfen wir für Sie zurücklegen?",
+      "sizes": [
+        "Rind- oder Schweinefleisch",
+        "Wurst",
+        "Eier",
+        "Kartoffeln",
+        "Gemischter Einkauf"
+      ],
+      "timings": [
+        "Nächster Verkaufstag",
+        "In zwei Wochen",
+        "Regelmäßig",
+        "Nach Absprache"
+      ]
+    },
+    "badges": [
+      {
+        "title": "Eigene Hühner",
+        "sub": "frische Eier"
+      },
+      {
+        "title": "Eigenes Feld",
+        "sub": "Kartoffeln"
+      },
+      {
+        "title": "Fr & Sa",
+        "sub": "in geraden Kalenderwochen"
+      },
+      {
+        "title": "Aufhofen",
+        "sub": "Gemeinde Egling"
+      }
+    ],
+    "seoTitle": "Hofmanns Hofladen in Egling-Aufhofen – Fleisch, Wurst, Eier & Kartoffeln",
+    "seoDescription": "Rind- und Schweinefleisch, Wurst, Eier von eigenen Hühnern und Kartoffeln vom eigenen Feld: Hofmanns Hofladen in Aufhofen bei Egling. Fr & Sa 7–18 Uhr in geraden Kalenderwochen.",
+    "logoMark": "H",
+    "brandName": "Hofmanns Hofladen",
+    "logoIcon": "barn",
+    "nav": [
+      {
+        "label": "Angebot",
+        "href": "#leistungen"
+      },
+      {
+        "label": "Hof",
+        "href": "#projekte"
+      },
+      {
+        "label": "Ablauf",
+        "href": "#ablauf"
+      },
+      {
+        "label": "Region",
+        "href": "#region"
+      },
+      {
+        "label": "FAQ",
+        "href": "#faq"
+      },
+      {
+        "label": "Kontakt",
+        "href": "#kontakt"
+      }
+    ],
+    "hero": {
+      "eyebrow": "Hofladen · Egling-Aufhofen",
+      "headline": "Fleisch, Wurst, Eier und Kartoffeln – direkt vom Hof in Aufhofen.",
+      "sub": "Bei Familie Hofmann kaufen Sie, was auf dem eigenen Hof entsteht: Fleisch von Rind und Schwein, Wurst aus eigenen Erzeugnissen, Eier von den eigenen Hühnern und Kartoffeln vom eigenen Feld.",
+      "ctaPrimary": "Jetzt vorbestellen",
+      "ctaSecondary": "Verkaufstage ansehen",
+      "bullets": [
+        "Fleisch von Rind & Schwein",
+        "Eier von eigenen Hühnern",
+        "Kartoffeln vom eigenen Feld"
+      ],
+      "imageLabel": "Hofladen mit Eiern, Kartoffeln und Wurst in Aufhofen"
+    },
+    "trust": [
+      {
+        "value": "Fr & Sa",
+        "label": "7–18 Uhr geöffnet"
+      },
+      {
+        "value": "Alle 2 Wochen",
+        "label": "in geraden Kalenderwochen"
+      },
+      {
+        "value": "Eigene",
+        "label": "Tiere, Hühner & Felder"
+      },
+      {
+        "value": "Aufhofen",
+        "label": "Hofmarkstraße 26"
+      }
+    ],
+    "servicesIntro": {
+      "headline": "Unser Hofladen-Sortiment",
+      "text": "Vom Sonntagsbraten bis zum Frühstücksei – ehrliche Lebensmittel aus eigener Erzeugung, ergänzt um Milch und Wein."
+    },
+    "services": [
+      {
+        "title": "Rindfleisch",
+        "text": "Fleisch von Rindern vom eigenen Hof – für Braten, Gulasch und Gegrilltes.",
+        "items": [
+          "Rindfleisch",
+          "Vorbestellung empfohlen"
+        ]
+      },
+      {
+        "title": "Schweinefleisch",
+        "text": "Schweinefleisch aus eigener Haltung – frisch zum Verkaufstag.",
+        "items": [
+          "Schweinefleisch",
+          "nach Verfügbarkeit"
+        ]
+      },
+      {
+        "title": "Wurst",
+        "text": "Wurst aus den eigenen Erzeugnissen des Hofes.",
+        "items": [
+          "Wurst aus eigener Erzeugung",
+          "nach Verfügbarkeit"
+        ]
+      },
+      {
+        "title": "Eier",
+        "text": "Frische Eier von den eigenen Hühnern.",
+        "items": [
+          "Eier von eigenen Hühnern",
+          "auch größere Mengen nach Absprache"
+        ]
+      },
+      {
+        "title": "Kartoffeln",
+        "text": "Kartoffeln vom eigenen Feld – Grundlage für jede gute Küche.",
+        "items": [
+          "Kartoffeln vom eigenen Feld",
+          "saisonal"
+        ]
+      },
+      {
+        "title": "Milch & Wein",
+        "text": "Ergänzend im Hofladen: Milch und eine Auswahl an Wein.",
+        "items": [
+          "Milch",
+          "Wein"
+        ]
+      }
+    ],
+    "why": {
+      "headline": "Warum sich der Weg nach Aufhofen lohnt",
+      "points": [
+        {
+          "title": "Aus eigener Erzeugung",
+          "text": "Fleisch, Wurst, Eier und Kartoffeln kommen von eigenen Tieren, eigenen Hühnern und dem eigenen Feld."
+        },
+        {
+          "title": "Klare Verkaufstage",
+          "text": "Freitag und Samstag von 7 bis 18 Uhr – jeweils in den geraden Kalenderwochen."
+        },
+        {
+          "title": "Vorbestellen leicht gemacht",
+          "text": "Fleisch und Wurst für Feiern oder die Vorratshaltung einfach vorab reservieren."
+        },
+        {
+          "title": "Mitten im Isartal-Land",
+          "text": "Aufhofen bei Egling – schnell erreichbar aus Wolfratshausen, Geretsried, Icking und Dietramszell."
+        }
+      ]
+    },
+    "reviews": {
+      "headline": "Bekannt in der Region",
+      "summary": "Hofmanns Hofladen ist im Gewerbeverzeichnis der Gemeinde Egling, in der Direktvermarkter-Liste der Stadt Wolfratshausen und im Bio-Einkaufsführer des BUND Naturschutz gelistet. Öffentliche Kundenbewertungen liegen derzeit nicht vor.",
+      "highlights": [
+        "Gewerbeverzeichnis Gemeinde Egling",
+        "Direktvermarkter-Liste Wolfratshausen",
+        "Bio-Einkaufsführer BUND Naturschutz",
+        "Eigene Eier, Fleischwaren und Kartoffeln"
+      ],
+      "source": "Gemeinde Egling",
+      "sourceUrl": "https://www.egling.de/index.php?id=0,6&gid=245",
+      "rating": null,
+      "count": null
+    },
+    "process": {
+      "headline": "So einfach geht's",
+      "steps": [
+        {
+          "title": "Verkaufstag merken",
+          "text": "Freitag und Samstag, 7–18 Uhr – in jeder geraden Kalenderwoche."
+        },
+        {
+          "title": "Optional vorbestellen",
+          "text": "Fleisch, Wurst oder viele Eier? Kurz anrufen oder das Formular nutzen."
+        },
+        {
+          "title": "Vorbeikommen",
+          "text": "Hofmarkstraße 26 in Aufhofen, Gemeinde Egling."
+        },
+        {
+          "title": "Wiederkommen",
+          "text": "Alle zwei Wochen gibt es frische Ware – viele Kunden planen ihren Einkauf danach."
+        }
+      ]
+    },
+    "gallery": {
+      "headline": "Bei uns auf dem Hof",
+      "text": "Für die Live-Version zeigen wir hier echte Bilder vom Hof und aus dem Hofladen der Familie Hofmann.",
+      "items": [
+        {
+          "title": "Hofladen",
+          "photoNeeded": "Verkaufsraum mit Theke und Kühlung"
+        },
+        {
+          "title": "Hühner",
+          "photoNeeded": "Hühner im Auslauf"
+        },
+        {
+          "title": "Kartoffeln",
+          "photoNeeded": "Kartoffelkisten und Feld"
+        },
+        {
+          "title": "Wurst & Fleisch",
+          "photoNeeded": "Wurstauswahl, Nahaufnahme"
+        },
+        {
+          "title": "Der Hof",
+          "photoNeeded": "Hofansicht in Aufhofen mit Voralpenblick"
+        }
+      ]
+    },
+    "region": {
+      "headline": "Ihr Hofladen für Egling und das Isartal",
+      "text": "Aus Egling und Aufhofen sind Sie in wenigen Minuten da – und auch aus Wolfratshausen, Geretsried, Icking, Dietramszell, Straßlach-Dingharting und Sauerlach lohnt sich der Weg.",
+      "places": [
+        "Egling",
+        "Aufhofen",
+        "Wolfratshausen",
+        "Geretsried",
+        "Icking",
+        "Dietramszell",
+        "Straßlach-Dingharting",
+        "Sauerlach"
+      ]
+    },
+    "faq": [
+      {
+        "q": "Wann hat der Hofladen geöffnet?",
+        "a": "Freitag und Samstag von 7 bis 18 Uhr – jeweils in den geraden Kalenderwochen."
+      },
+      {
+        "q": "Kann ich Fleisch und Wurst vorbestellen?",
+        "a": "Ja, rufen Sie einfach unter 08176 925089 an oder nutzen Sie das Anfrageformular."
+      },
+      {
+        "q": "Was gibt es im Hofladen?",
+        "a": "Rind- und Schweinefleisch, Wurst aus eigenen Erzeugnissen, Eier von eigenen Hühnern, Kartoffeln vom eigenen Feld sowie Milch und Wein."
+      },
+      {
+        "q": "Wo finde ich den Hofladen?",
+        "a": "In der Hofmarkstraße 26 in Aufhofen, 82544 Egling."
+      },
+      {
+        "q": "Woher weiß ich, ob gerade Verkaufswoche ist?",
+        "a": "Verkauft wird in den geraden Kalenderwochen. Im Zweifel kurz anrufen – wir sagen Ihnen gern, wann der nächste Verkaufstag ist."
+      }
+    ],
+    "contact": {
+      "headline": "Fragen oder vorbestellen",
+      "text": "Sie möchten etwas zurücklegen lassen oder wissen, was am nächsten Verkaufstag da ist? Rufen Sie an oder schreiben Sie uns.",
+      "topics": [
+        "Rindfleisch",
+        "Schweinefleisch",
+        "Wurst",
+        "Eier",
+        "Kartoffeln",
+        "Sonstiges"
+      ],
+      "responseNote": "Am schnellsten erreichen Sie uns telefonisch."
+    },
+    "stickyCta": "Hofladen anrufen"
+  }
+}

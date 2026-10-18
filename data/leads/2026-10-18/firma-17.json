@@ -1,0 +1,404 @@
+{
+  "id": "2026-10-18-17",
+  "slug": "neheiders-milchhaeusl-oberschweinbach",
+  "date": "2026-10-18",
+  "company": {
+    "name": "Neheiders Milchhäusl",
+    "owner": "Andreas Neheider",
+    "trade": "Hofladen & Milchhäusl",
+    "city": "Oberschweinbach",
+    "address": "Hauptstraße 32, 82294 Oberschweinbach",
+    "phone": "08145 99798301",
+    "email": "NeheiderAndi@aol.com",
+    "serviceArea": [
+      "Oberschweinbach",
+      "Mammendorf",
+      "Egenhofen",
+      "Hattenhofen",
+      "Althegnenberg",
+      "Mittelstetten",
+      "Jesenwang",
+      "Maisach"
+    ]
+  },
+  "listings": {
+    "google": {
+      "url": "https://www.google.com/maps/search/?api=1&query=Neheiders%20Milchhäusl%20Oberschweinbach",
+      "rating": null,
+      "reviews": null,
+      "evidence": "NICHT VERIFIZIERT – Google Maps war aus der Recherche-Umgebung nicht erreichbar, die Websuche lieferte keinen Maps-Treffer. Vor Kontaktaufnahme manuell prüfen (Profil, Bewertungen, hinterlegte Website)."
+    },
+    "myhammer": {
+      "url": "https://www.regionales-bayern.de/anbieter/neheider-12690/",
+      "rating": null,
+      "reviews": null,
+      "evidence": "Kein MyHammer – Anbieterprofil „Neheider“ auf Regionales Bayern (Portal der bayerischen Landwirtschaftsverwaltung, AELF Fürstenfeldbruck) mit Ansprechpartner Andreas Neheider, Hauptstraße 32, 82294 Oberschweinbach, Telefon 08145 99798301, E-Mail NeheiderAndi@aol.com, Öffnungszeiten Mo–Sa 08:00–18:00 Uhr, „Landwirtschaftlicher Betrieb mit Milchviehhaltung“, „Eier von glücklichen Hühnern“. Zusätzlich gelistet in der Liste „Produkte aus unserer direkten Umgebung“ der VG Mammendorf (Milch und Eier), bei Milchbauernservice Bayern (Milchverkaufsstellen) und bei besser-regional.eu (24-h-Regional). Keine Bewertungen belegt."
+    }
+  },
+  "websiteStatus": "keine eigene Website gefunden",
+  "websiteChecks": [
+    "(1) „Neheider“ + Oberschweinbach + Milch mit Ausschluss von 11880, Gelbe Seiten, Das Örtliche, Das Telefonbuch, Cylex, meinestadt, Creditreform, Facebook, Instagram, golocal und Regionales Bayern: nur Verzeichnisse (foodbevg.com-Aggregat einer Facebook-Seite, Milchbauernservice Bayern, mein-bauernhof.de, besser-regional.eu) – keine eigene Domain.",
+    "(2) Domainprüfung per allowed_domains neheider.de, neheiders-milchhaeusl.de, milchhaeusl-neheider.de, neheider-hof.de, milchhaeusl.de: keine Treffer.",
+    "(3) Regionales-Bayern-Profil: Kontakt nur Telefon und Freemail-Adresse (aol.com), keine Website genannt.",
+    "(4) Liste der VG Mammendorf („Produkte aus unserer direkten Umgebung“) nennt Neheiders Milchhäusl ohne Website-Link."
+  ],
+  "facts": {
+    "services": [
+      "Frische Milch vom eigenen Milchviehbetrieb (Milchhäusl)",
+      "Eier von glücklichen Hühnern",
+      "Käse",
+      "Kartoffeln",
+      "Nudeln"
+    ],
+    "experience": null,
+    "praisedFor": []
+  },
+  "strategy": {
+    "audience": "Familien und Haushalte in Oberschweinbach, Mammendorf, Egenhofen und Maisach, die frische Milch und Eier regelmäßig direkt beim Bauern holen möchten",
+    "mainService": "Milchhäusl mit frischer Milch vom Hof und Eiern",
+    "trustSignal": "Milchviehbetrieb mit eigenem Milchhäusl, lange Öffnungszeiten Mo–Sa 8–18 Uhr, gelistet bei Regionales Bayern, VG Mammendorf und Milchbauernservice Bayern",
+    "conversionGoal": "Besuch im Milchhäusl zu den Öffnungszeiten / Anruf für größere Mengen",
+    "visualConcept": "Frisch und hell: Milchweiß, saftiges Wiesengrün und warmes Holz, Hofszene mit Kuhstall und Weide im Fürstenfeldbrucker Land"
+  },
+  "sales": {
+    "score": 7,
+    "whyGoodLead": [
+      "Milch und Eier sind klassische Wiederholungskäufe – eine Seite mit Öffnungszeiten bindet Stammkunden",
+      "Sehr kundenfreundliche, belegte Öffnungszeiten (Mo–Sa 8–18 Uhr) – ideal für eine klare, nützliche Website",
+      "Bisher nur in Portalen sichtbar, Freemail-Adresse (aol.com) – keine eigene Präsenz",
+      "Zuzug im S-Bahn-Raum Mammendorf/Maisach – Neubürger suchen online nach frischer Milch vom Hof"
+    ],
+    "pitch": "Grüß Gott Herr Neheider, mein Name ist … – ich gestalte Websites für Höfe und kleine Betriebe im Landkreis Fürstenfeldbruck. Ich bin bei Regionales Bayern und auf der Liste der VG Mammendorf auf Ihr Milchhäusl gestoßen – frische Milch und Eier, Montag bis Samstag von 8 bis 18 Uhr. Wer neu in Oberschweinbach oder Mammendorf ist, findet Sie im Netz aber kaum. Ich habe deshalb unverbindlich eine kleine Seite für Ihr Milchhäusl entworfen. Darf ich sie Ihnen zeigen?"
+  },
+  "manualChecks": [
+    "Website-Risiko: niedrig – vor Versand in Google Maps prüfen, dass keine Website hinterlegt ist",
+    "Facebook-Seite „Neheider's Milchhäusl“ (über foodbevg.com-Aggregat sichtbar) prüfen – dort ggf. aktuelle Zeiten, Preise und Bilder",
+    "Öffnungszeiten (Mo–Sa 8–18 Uhr laut Regionales Bayern) vor Live-Nutzung bestätigen lassen",
+    "Sortiment bestätigen: Käse, Kartoffeln und Nudeln nur bei besser-regional.eu (ca. 4 Jahre alter Eintrag) genannt",
+    "Klären, ob Milch als Rohmilch zum Selbstzapfen abgegeben wird (Hinweis „vor dem Verzehr abkochen“ ggf. Pflicht) – im Entwurf bewusst neutral formuliert",
+    "Google-Unternehmensprofil prüfen (Existenz, Bewertungen)"
+  ],
+  "sources": [
+    {
+      "label": "Regionales Bayern – Neheider",
+      "url": "https://www.regionales-bayern.de/anbieter/neheider-12690/"
+    },
+    {
+      "label": "VG Mammendorf – Produkte aus unserer direkten Umgebung",
+      "url": "https://www.mammendorf.de/produkte-aus-in-unserer-direkten-umgebung"
+    },
+    {
+      "label": "Milchbauernservice Bayern – Milchverkaufsstellen",
+      "url": "https://www.milchbauernservice.de/milchverkaufstellen?tx_lfmap_lfmap%5B%40widget_0%5D%5BcurrentPage%5D=14&cHash=3ca131c5cf58d3627861fa36be7c5c40"
+    },
+    {
+      "label": "besser-regional.eu – 24-h-Regional",
+      "url": "https://www.besser-regional.eu/hoflaeden/24-h-regional/"
+    },
+    {
+      "label": "foodbevg.com – Neheider's Milchhäusl",
+      "url": "https://www.foodbevg.com/DE/Oberschweinbach/554512998076464/Neheider's-Milchh%C3%A4usl"
+    }
+  ],
+  "site": {
+    "theme": "hof",
+    "category": "hof",
+    "scene": "farm",
+    "heroOffer": [
+      "Frische Milch",
+      "Eier",
+      "Käse",
+      "Kartoffeln"
+    ],
+    "hours": [
+      {
+        "label": "Mo–Sa",
+        "value": "8–18 Uhr"
+      }
+    ],
+    "quote": {
+      "sizeLabel": "Was dürfen wir für Sie herrichten?",
+      "sizes": [
+        "Frische Milch",
+        "Eier",
+        "Käse",
+        "Kartoffeln & Nudeln",
+        "Gemischter Einkauf"
+      ],
+      "timings": [
+        "Heute noch",
+        "Diese Woche",
+        "Regelmäßig (z. B. wöchentlich)",
+        "Nach Vereinbarung"
+      ]
+    },
+    "badges": [
+      {
+        "title": "Milch vom Hof",
+        "sub": "eigene Milchkühe"
+      },
+      {
+        "title": "Mo–Sa",
+        "sub": "8–18 Uhr geöffnet"
+      },
+      {
+        "title": "Regionales Bayern",
+        "sub": "gelisteter Direktvermarkter"
+      },
+      {
+        "title": "Oberschweinbach",
+        "sub": "Hauptstraße 32"
+      }
+    ],
+    "seoTitle": "Neheiders Milchhäusl Oberschweinbach – frische Milch & Eier vom Hof",
+    "seoDescription": "Frische Milch vom Milchviehbetrieb und Eier von glücklichen Hühnern: Neheiders Milchhäusl in Oberschweinbach bei Mammendorf. Montag bis Samstag 8–18 Uhr geöffnet.",
+    "logoMark": "N",
+    "brandName": "Neheiders Milchhäusl",
+    "logoIcon": "barn",
+    "nav": [
+      {
+        "label": "Hofladen",
+        "href": "#leistungen"
+      },
+      {
+        "label": "Hof",
+        "href": "#projekte"
+      },
+      {
+        "label": "Ablauf",
+        "href": "#ablauf"
+      },
+      {
+        "label": "Region",
+        "href": "#region"
+      },
+      {
+        "label": "FAQ",
+        "href": "#faq"
+      },
+      {
+        "label": "Kontakt",
+        "href": "#kontakt"
+      }
+    ],
+    "hero": {
+      "eyebrow": "Hofladen · Oberschweinbach",
+      "headline": "Frische Milch und Eier direkt vom Hof",
+      "sub": "Im Milchhäusl der Familie Neheider holen Sie Milch von den eigenen Kühen und Eier von glücklichen Hühnern – mitten in Oberschweinbach, Montag bis Samstag von 8 bis 18 Uhr.",
+      "ctaPrimary": "Jetzt anrufen",
+      "ctaSecondary": "Öffnungszeiten ansehen",
+      "bullets": [
+        "Milch vom eigenen Milchviehbetrieb",
+        "Eier von glücklichen Hühnern",
+        "Mo–Sa 8–18 Uhr geöffnet"
+      ],
+      "imageLabel": "Milchhäusl mit frischer Milch und Eiern"
+    },
+    "trust": [
+      {
+        "value": "Mo–Sa",
+        "label": "8–18 Uhr geöffnet"
+      },
+      {
+        "value": "Eigene Kühe",
+        "label": "Milchviehbetrieb"
+      },
+      {
+        "value": "Regional",
+        "label": "gelistet bei Regionales Bayern"
+      },
+      {
+        "value": "Oberschweinbach",
+        "label": "Hauptstraße 32"
+      }
+    ],
+    "servicesIntro": {
+      "headline": "Das gibt's im Milchhäusl",
+      "text": "Ehrliche Grundnahrungsmittel vom Bauernhof – frische Milch, Eier und was die Küche sonst noch braucht. Kurzer Weg, direkt vom Erzeuger."
+    },
+    "services": [
+      {
+        "title": "Frische Milch",
+        "text": "Milch von den eigenen Kühen – frischer geht es kaum.",
+        "items": [
+          "vom eigenen Milchviehbetrieb",
+          "im Milchhäusl erhältlich",
+          "für Frühstück, Kaffee und Küche"
+        ]
+      },
+      {
+        "title": "Eier",
+        "text": "Eier von glücklichen Hühnern – fürs Frühstück, zum Backen und Kochen.",
+        "items": [
+          "frische Eier",
+          "vom Hof",
+          "auch für den Kuchen am Wochenende"
+        ]
+      },
+      {
+        "title": "Käse",
+        "text": "Käse ergänzt das Sortiment für die Brotzeit.",
+        "items": [
+          "Käse",
+          "je nach Verfügbarkeit"
+        ]
+      },
+      {
+        "title": "Kartoffeln",
+        "text": "Kartoffeln für den Mittagstisch – ein Grundnahrungsmittel aus der Region.",
+        "items": [
+          "Speisekartoffeln",
+          "je nach Saison"
+        ]
+      },
+      {
+        "title": "Nudeln",
+        "text": "Nudeln für die schnelle Küche – praktisch mitgenommen beim Milchholen.",
+        "items": [
+          "Nudeln",
+          "je nach Verfügbarkeit"
+        ]
+      },
+      {
+        "title": "Größere Mengen",
+        "text": "Mehr Milch oder Eier für Familienfeier, Backtag oder Verein? Am besten kurz vorher anrufen.",
+        "items": [
+          "telefonische Absprache",
+          "Abholung am Hof"
+        ]
+      }
+    ],
+    "why": {
+      "headline": "Warum sich der Weg ins Milchhäusl lohnt",
+      "points": [
+        {
+          "title": "Lange Öffnungszeiten",
+          "text": "Montag bis Samstag von 8 bis 18 Uhr – passt auch nach der Arbeit oder vor dem Einkauf."
+        },
+        {
+          "title": "Direkt vom Erzeuger",
+          "text": "Die Milch kommt vom eigenen Milchviehbetrieb – ohne Zwischenhandel, mit kurzem Weg."
+        },
+        {
+          "title": "Eier von glücklichen Hühnern",
+          "text": "Frische Eier gehören bei uns zum Hof genauso dazu wie die Milch."
+        },
+        {
+          "title": "Mitten im Ort",
+          "text": "Hauptstraße 32 in Oberschweinbach – schnell erreichbar aus Mammendorf, Egenhofen und Hattenhofen."
+        }
+      ]
+    },
+    "reviews": {
+      "headline": "Bekannt in der Region",
+      "summary": "Neheiders Milchhäusl ist bei Regionales Bayern, auf der Direktvermarkter-Liste der VG Mammendorf und bei Milchbauernservice Bayern gelistet. Öffentliche Kundenbewertungen liegen derzeit nicht vor.",
+      "highlights": [
+        "Profil bei Regionales Bayern",
+        "Liste „Produkte aus unserer direkten Umgebung“ der VG Mammendorf",
+        "Milchverkaufsstelle bei Milchbauernservice Bayern",
+        "Milchviehbetrieb in Oberschweinbach"
+      ],
+      "source": "Regionales Bayern",
+      "sourceUrl": "https://www.regionales-bayern.de/anbieter/neheider-12690/",
+      "rating": null,
+      "count": null
+    },
+    "process": {
+      "headline": "So kaufen Sie bei uns ein",
+      "steps": [
+        {
+          "title": "Zeit wählen",
+          "text": "Montag bis Samstag zwischen 8 und 18 Uhr ins Milchhäusl kommen."
+        },
+        {
+          "title": "Gefäß mitbringen",
+          "text": "Am besten eine eigene Flasche oder Kanne für die Milch einpacken."
+        },
+        {
+          "title": "Einkaufen",
+          "text": "Milch, Eier und was sonst gerade da ist mitnehmen – Hauptstraße 32."
+        },
+        {
+          "title": "Größeres vorbestellen",
+          "text": "Für größere Mengen einfach kurz unter 08145 99798301 anrufen."
+        }
+      ]
+    },
+    "gallery": {
+      "headline": "Bei uns auf dem Hof",
+      "text": "Für die Live-Version zeigen wir hier echte Bilder vom Hof und aus dem Milchhäusl der Familie Neheider.",
+      "items": [
+        {
+          "title": "Das Milchhäusl",
+          "photoNeeded": "Außenansicht des Milchhäusls an der Hauptstraße"
+        },
+        {
+          "title": "Frische Milch",
+          "photoNeeded": "Milchflaschen bzw. Zapfstelle, Nahaufnahme"
+        },
+        {
+          "title": "Unsere Kühe",
+          "photoNeeded": "Milchkühe im Stall oder auf der Weide"
+        },
+        {
+          "title": "Frische Eier",
+          "photoNeeded": "Eierkartons im Verkaufsraum"
+        },
+        {
+          "title": "Der Hof",
+          "photoNeeded": "Hofansicht in Oberschweinbach"
+        }
+      ]
+    },
+    "region": {
+      "headline": "Ihr Milchhäusl für Oberschweinbach und Umgebung",
+      "text": "Aus Oberschweinbach, Mammendorf und Egenhofen ist man in wenigen Minuten da – und auch aus Hattenhofen, Althegnenberg, Mittelstetten, Jesenwang und Maisach lohnt sich der kurze Weg.",
+      "places": [
+        "Oberschweinbach",
+        "Mammendorf",
+        "Egenhofen",
+        "Hattenhofen",
+        "Althegnenberg",
+        "Mittelstetten",
+        "Jesenwang",
+        "Maisach"
+      ]
+    },
+    "faq": [
+      {
+        "q": "Wann hat das Milchhäusl geöffnet?",
+        "a": "Montag bis Samstag von 8 bis 18 Uhr."
+      },
+      {
+        "q": "Woher kommt die Milch?",
+        "a": "Von unserem eigenen landwirtschaftlichen Betrieb mit Milchviehhaltung in Oberschweinbach."
+      },
+      {
+        "q": "Was gibt es außer Milch?",
+        "a": "Eier von glücklichen Hühnern sowie – je nach Verfügbarkeit – Käse, Kartoffeln und Nudeln."
+      },
+      {
+        "q": "Kann ich größere Mengen bestellen?",
+        "a": "Ja, rufen Sie einfach unter 08145 99798301 an oder schreiben Sie an NeheiderAndi@aol.com."
+      },
+      {
+        "q": "Wo finde ich das Milchhäusl?",
+        "a": "In der Hauptstraße 32 in 82294 Oberschweinbach, zwischen Mammendorf und Egenhofen."
+      }
+    ],
+    "contact": {
+      "headline": "Fragen oder vorbestellen",
+      "text": "Sie möchten wissen, was gerade da ist, oder größere Mengen zurücklegen lassen? Rufen Sie an oder schreiben Sie uns.",
+      "topics": [
+        "Frische Milch",
+        "Eier",
+        "Käse",
+        "Kartoffeln & Nudeln",
+        "Größere Mengen",
+        "Sonstiges"
+      ],
+      "responseNote": "Am schnellsten erreichen Sie uns telefonisch zu den Öffnungszeiten."
+    },
+    "stickyCta": "Milchhäusl anrufen"
+  }
+}

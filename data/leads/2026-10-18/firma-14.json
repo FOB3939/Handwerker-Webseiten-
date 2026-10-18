@@ -1,0 +1,402 @@
+{
+  "id": "2026-10-18-14",
+  "slug": "ak-elektro-kabelverlegung-fuerstenfeldbruck",
+  "date": "2026-10-18",
+  "company": {
+    "name": "AK Elektro & Kabelverlegung",
+    "owner": null,
+    "trade": "Elektro & Kabelverlegung",
+    "city": "Fürstenfeldbruck",
+    "address": null,
+    "phone": null,
+    "email": null,
+    "serviceArea": [
+      "Fürstenfeldbruck",
+      "Emmering",
+      "Mammendorf",
+      "Maisach",
+      "Olching",
+      "Eichenau"
+    ]
+  },
+  "listings": {
+    "google": {
+      "url": "https://www.google.com/maps/search/?api=1&query=AK%20Elektro%20%26%20Kabelverlegung%20F%C3%BCrstenfeldbruck",
+      "rating": null,
+      "reviews": null,
+      "evidence": "NICHT VERIFIZIERT – Google/Google Maps war aus der Recherche-Umgebung nicht erreichbar und die Websuche lieferte keinen Maps-Treffer. Vor Kontaktaufnahme manuell prüfen (Existenz, Bewertungen, KEINE hinterlegte Website)."
+    },
+    "myhammer": {
+      "url": "https://www.my-hammer.de/elektrik/elektriker-berufe/fuerstenfeldbruck",
+      "rating": 4.8,
+      "reviews": 15,
+      "evidence": "Auf den MyHammer-Ortslisten „Elektriker in Fürstenfeldbruck“ und „Elektriker in Mammendorf“ in Suchergebnissen belegt: AK Elektro & Kabelverlegung mit 4,8 von 5 bei 15 Bewertungen; Profiltext „Sie suchen zuverlässige Unterstützung bei Kabelverlegung und Montagearbeiten in Fürstenfeldbruck und Umgebung?“; Bewertungsauszüge „Pünktlich, nett, freundlich und professionell“ und „Der Auftrag wurde professionell und transparent zu 100 % ausgeführt. Meine Empfehlung.“ Direkte Profil-URL nicht gefunden – Ortsliste als Beleg."
+    }
+  },
+  "websiteStatus": "keine eigene Website gefunden",
+  "websiteChecks": [
+    "(1) \"AK Elektro & Kabelverlegung\" OR \"AK Elektro und Kabelverlegung\" Fürstenfeldbruck – kein Treffer zum Betrieb, keine eigene Website (nur gleichnamiger AK ELEKTRO Technikservice im Raum Stuttgart, nicht identisch)",
+    "(2) AK Elektro Kabelverlegung Fürstenfeldbruck Profil (allowed_domains my-hammer.de) – nur MyHammer-Ortslisten, kein Webauftritt verlinkt",
+    "(3) Name + Ort mit blocked_domains (MyHammer, 11880, Gelbe Seiten, Das Örtliche, Das Telefonbuch, Cylex, meinestadt, Creditreform, Firmenwissen, North Data, Facebook, Instagram, golocal) – NICHT durchgeführt (Suchbudget erschöpft)",
+    "(4) naheliegende Domains (ak-elektro-ffb.de, ak-kabelverlegung.de) per allowed_domains – NICHT durchgeführt (Suchbudget erschöpft)",
+    "(5) Verzeichnis-Eintrag (11880/Cylex/meinestadt/Das Örtliche) – nicht gefunden; Telefon und E-Mail offen",
+    "Website-Risiko: mittel – durchgeführte Suchen negativ, aber Domain-Prüfung und Verzeichnis-Eintrag fehlen; kein positiver Beleg (Freemail/leeres Website-Feld)"
+  ],
+  "facts": {
+    "services": [
+      "Kabelverlegung",
+      "Stemmarbeiten",
+      "Montage von Kabelkanälen",
+      "Unterkonstruktionen und Befestigungsarbeiten",
+      "Montagearbeiten"
+    ],
+    "experience": null,
+    "praisedFor": [
+      "pünktlich",
+      "nett und freundlich",
+      "professionell",
+      "transparent",
+      "auch komplexere Aufträge zu 100 % ausgeführt",
+      "weiterempfohlen"
+    ]
+  },
+  "strategy": {
+    "audience": "Eigentümer, Vermieter und Bauherren im Landkreis Fürstenfeldbruck, die bei Umbau, Renovierung oder Neubau Kabel verlegen und Leitungswege vorbereiten lassen",
+    "mainService": "Kabelverlegung inkl. Stemmarbeiten und Kabelkanälen",
+    "trustSignal": "4,8 Sterne bei 15 MyHammer-Bewertungen",
+    "conversionGoal": "Kostenlose Anfrage für Kabelverlegung/Montage stellen (mit Fotos und Beschreibung)",
+    "visualConcept": "Kraftvolles Volt-Design mit dunklem Grund und elektrischen Akzenten: saubere Kabelwege und Kabelkanäle als Motiv"
+  },
+  "sales": {
+    "score": 5,
+    "whyGoodLead": [
+      "4,8 Sterne bei 15 MyHammer-Bewertungen – solide Reputation",
+      "Klar umrissenes Nischenangebot (Kabelverlegung, Stemmarbeiten, Kabelkanäle) – gut suchbar",
+      "Kein auffindbarer eigener Webauftritt",
+      "Auf mehreren Ortslisten (Fürstenfeldbruck, Mammendorf) aktiv"
+    ],
+    "pitch": "Guten Tag, mein Name ist … – ich erstelle Websites für Handwerksbetriebe im Landkreis Fürstenfeldbruck. Ich habe gesehen, dass AK Elektro & Kabelverlegung auf MyHammer mit 4,8 Sternen bewertet ist und Kunden Ihre pünktliche, transparente Arbeit loben – aber es gibt noch keine eigene Website. Ich habe dafür unverbindlich einen Entwurf vorbereitet – darf ich Ihnen den Link schicken?"
+  },
+  "manualChecks": [
+    "Website-Risiko: mittel – vor Versand in Google Maps prüfen, dass keine Website hinterlegt ist",
+    "Domain-Check und Name+Ort-Suche ohne Verzeichnisse nachholen – aus Suchbudgetgründen nicht durchgeführt",
+    "Inhaber, Telefon, E-Mail und Adresse fehlen – über MyHammer-Profil bzw. Google Maps ermitteln",
+    "Rechtsform/Qualifikation klären: Angebot klingt nach Kabelverlegung/Montage-Unterstützung – ob Eintrag im Installateurverzeichnis besteht, ist offen; daher auf der Seite KEINE Anschluss-/Prüfarbeiten (Zählerschrank, E-Check) behauptet",
+    "Hinweis aus Suche: identische 4,8/15-Angabe erscheint auch auf MyHammer-Listen fremder Gewerke – Bewertungszahl im Profil bestätigen",
+    "MyHammer-Profil-URL ermitteln (nur Ortslisten gefunden)",
+    "Echtes Logo: nicht gefunden – beim Betrieb als Datei anfragen"
+  ],
+  "sources": [
+    {
+      "label": "MyHammer – Elektriker Fürstenfeldbruck",
+      "url": "https://www.my-hammer.de/elektrik/elektriker-berufe/fuerstenfeldbruck"
+    },
+    {
+      "label": "MyHammer – Elektriker Mammendorf",
+      "url": "https://www.my-hammer.de/elektrik/elektriker-berufe/mammendorf"
+    },
+    {
+      "label": "MyHammer – Elektriker Fürstenfeldbruck (Kurz-URL)",
+      "url": "https://www.my-hammer.de/elektriker/fuerstenfeldbruck/"
+    }
+  ],
+  "site": {
+    "theme": "volt",
+    "category": "handwerk",
+    "heroOffer": [
+      "Kabelverlegung",
+      "Stemmarbeiten",
+      "Kabelkanäle",
+      "Montage"
+    ],
+    "scene": "electric",
+    "logoIcon": "bolt",
+    "logoMark": "AK",
+    "brandName": "AK Elektro",
+    "seoTitle": "Kabelverlegung in Fürstenfeldbruck – AK Elektro & Kabelverlegung",
+    "seoDescription": "Kabel verlegen, Schlitze stemmen, Kabelkanäle montieren – AK Elektro & Kabelverlegung für Fürstenfeldbruck und Umgebung. 4,8 Sterne auf MyHammer. Jetzt kostenlos anfragen.",
+    "nav": [
+      {
+        "label": "Leistungen",
+        "href": "#leistungen"
+      },
+      {
+        "label": "Projekte",
+        "href": "#projekte"
+      },
+      {
+        "label": "Bewertungen",
+        "href": "#bewertungen"
+      },
+      {
+        "label": "Ablauf",
+        "href": "#ablauf"
+      },
+      {
+        "label": "FAQ",
+        "href": "#faq"
+      },
+      {
+        "label": "Kontakt",
+        "href": "#kontakt"
+      }
+    ],
+    "hero": {
+      "eyebrow": "Elektro & Kabelverlegung · Fürstenfeldbruck",
+      "headline": "Kabel sauber verlegt – pünktlich und transparent.",
+      "sub": "AK Elektro & Kabelverlegung verlegt Kabel, übernimmt Stemmarbeiten und montiert Kabelkanäle und Unterkonstruktionen – zuverlässige Unterstützung bei Umbau und Renovierung in Fürstenfeldbruck und Umgebung.",
+      "ctaPrimary": "Kostenlos anfragen",
+      "ctaSecondary": "Anrufen",
+      "bullets": [
+        "4,8 von 5 Sternen bei 15 Bewertungen auf MyHammer",
+        "Kabelverlegung, Stemmarbeiten, Kabelkanäle",
+        "Für Fürstenfeldbruck und Umgebung"
+      ],
+      "imageLabel": "sauber verlegte Kabel in Kabelkanälen an einer Wand"
+    },
+    "badges": [
+      {
+        "title": "4,8 ★ auf MyHammer",
+        "sub": "aus 15 Bewertungen"
+      },
+      {
+        "title": "Kabelverlegung",
+        "sub": "sauber und strukturiert"
+      },
+      {
+        "title": "Pünktlich & transparent",
+        "sub": "so beschreiben es Kunden"
+      },
+      {
+        "title": "Fürstenfeldbruck",
+        "sub": "und Umgebung"
+      }
+    ],
+    "trust": [
+      {
+        "value": "4,8 ★",
+        "label": "Durchschnitt auf MyHammer"
+      },
+      {
+        "value": "15",
+        "label": "Bewertungen von Auftraggebern"
+      },
+      {
+        "value": "100 %",
+        "label": "„professionell und transparent ausgeführt“"
+      },
+      {
+        "value": "FFB",
+        "label": "Einsatz im Landkreis Fürstenfeldbruck"
+      }
+    ],
+    "servicesIntro": {
+      "headline": "Saubere Leitungswege für Ihr Projekt",
+      "text": "Bei Umbau, Renovierung oder Neubau müssen Kabel ordentlich verlegt und befestigt werden – genau darauf ist AK Elektro & Kabelverlegung spezialisiert."
+    },
+    "services": [
+      {
+        "title": "Kabelverlegung",
+        "text": "Kabel strukturiert und sauber verlegt – als Grundlage für eine ordentliche Installation.",
+        "items": [
+          "Umbau",
+          "Renovierung",
+          "Neubau"
+        ]
+      },
+      {
+        "title": "Stemmarbeiten",
+        "text": "Schlitze und Durchbrüche für Leitungswege, sauber vorbereitet.",
+        "items": [
+          "Schlitze",
+          "Leitungswege",
+          "Vorbereitung"
+        ]
+      },
+      {
+        "title": "Kabelkanäle",
+        "text": "Kabelkanäle montiert, damit Leitungen geschützt und ordentlich geführt sind.",
+        "items": [
+          "Montage",
+          "Aufputz",
+          "Ordnung"
+        ]
+      },
+      {
+        "title": "Unterkonstruktionen",
+        "text": "Tragende Unterkonstruktionen für Kabel und Komponenten – stabil montiert.",
+        "items": [
+          "Unterkonstruktion",
+          "Befestigung",
+          "Montage"
+        ]
+      },
+      {
+        "title": "Befestigungsarbeiten",
+        "text": "Kabel und Bauteile fachgerecht befestigt – damit alles sicher sitzt.",
+        "items": [
+          "Befestigung",
+          "Halterungen",
+          "Montage"
+        ]
+      },
+      {
+        "title": "Montagearbeiten",
+        "text": "Zuverlässige Unterstützung bei Montagearbeiten in Fürstenfeldbruck und Umgebung.",
+        "items": [
+          "Montage",
+          "Unterstützung",
+          "Nach Absprache"
+        ]
+      }
+    ],
+    "why": {
+      "headline": "Pünktlich, freundlich, professionell.",
+      "points": [
+        {
+          "title": "Pünktlich",
+          "text": "Auftraggeber beschreiben die Arbeit als „pünktlich, nett, freundlich und professionell“."
+        },
+        {
+          "title": "Transparent",
+          "text": "Ein Kunde betont, dass sein Auftrag „professionell und transparent zu 100 % ausgeführt“ wurde."
+        },
+        {
+          "title": "Auch wenn es komplexer wird",
+          "text": "Laut Bewertung wurde ein Auftrag, der aufwendiger war als gedacht, trotzdem vollständig erledigt."
+        },
+        {
+          "title": "Weiterempfohlen",
+          "text": "4,8 von 5 Sternen bei 15 Bewertungen – Kunden sprechen ausdrücklich ihre Empfehlung aus."
+        }
+      ]
+    },
+    "reviews": {
+      "headline": "Was Auftraggeber sagen",
+      "summary": "Auf MyHammer bewerten Auftraggeber AK Elektro & Kabelverlegung mit 4,8 von 5 Sternen. Gelobt werden Pünktlichkeit, freundliches und professionelles Auftreten sowie eine transparente, vollständige Ausführung – auch bei Aufträgen, die komplexer waren als erwartet.",
+      "highlights": [
+        "Pünktlich",
+        "Nett und freundlich",
+        "Professionell",
+        "Transparent – „Meine Empfehlung“"
+      ],
+      "source": "MyHammer",
+      "sourceUrl": "https://www.my-hammer.de/elektrik/elektriker-berufe/fuerstenfeldbruck",
+      "rating": 4.8,
+      "count": 15
+    },
+    "process": {
+      "headline": "So läuft Ihr Auftrag ab",
+      "steps": [
+        {
+          "title": "Anfrage",
+          "text": "Kurz beschreiben, was verlegt oder montiert werden soll – Fotos helfen."
+        },
+        {
+          "title": "Abstimmung",
+          "text": "Leitungswege, Umfang und Termin werden gemeinsam geklärt."
+        },
+        {
+          "title": "Angebot",
+          "text": "Sie erhalten ein transparentes Angebot."
+        },
+        {
+          "title": "Ausführung",
+          "text": "Pünktlich vor Ort – Kabel verlegt, Kanäle montiert, alles sauber befestigt."
+        }
+      ]
+    },
+    "gallery": {
+      "headline": "Saubere Kabelwege – aus echten Aufträgen",
+      "text": "Für die Live-Version zeigen wir hier Fotos echter Projekte von AK Elektro & Kabelverlegung.",
+      "items": [
+        {
+          "title": "Kabel verlegt",
+          "photoNeeded": "sauber verlegte Kabelstränge im Rohbau oder bei Renovierung"
+        },
+        {
+          "title": "Stemmarbeiten",
+          "photoNeeded": "vorbereitete Wandschlitze für Leitungen"
+        },
+        {
+          "title": "Kabelkanal",
+          "photoNeeded": "montierter Kabelkanal an Wand oder Decke"
+        },
+        {
+          "title": "Unterkonstruktion",
+          "photoNeeded": "montierte Unterkonstruktion mit befestigten Kabeln"
+        },
+        {
+          "title": "Vorher/Nachher",
+          "photoNeeded": "Raum vor und nach der Kabelverlegung"
+        }
+      ]
+    },
+    "region": {
+      "headline": "Kabelverlegung für Fürstenfeldbruck und Umgebung",
+      "text": "Von Fürstenfeldbruck aus ist AK Elektro & Kabelverlegung in Emmering, Mammendorf, Maisach, Olching, Eichenau und den umliegenden Orten im Einsatz.",
+      "places": [
+        "Fürstenfeldbruck",
+        "Emmering",
+        "Mammendorf",
+        "Maisach",
+        "Olching",
+        "Eichenau",
+        "Alling",
+        "Puchheim"
+      ]
+    },
+    "faq": [
+      {
+        "q": "Welche Arbeiten übernehmen Sie?",
+        "a": "Kabelverlegung, Stemmarbeiten, die Montage von Kabelkanälen sowie Unterkonstruktionen und Befestigungsarbeiten."
+      },
+      {
+        "q": "Helfen Sie auch bei Renovierungen?",
+        "a": "Ja – gerade bei Umbau und Renovierung müssen Leitungswege vorbereitet und Kabel sauber verlegt werden."
+      },
+      {
+        "q": "Kann ich vorab Fotos schicken?",
+        "a": "Gern. Fotos und eine kurze Beschreibung helfen, Umfang und Aufwand einzuschätzen."
+      },
+      {
+        "q": "In welchen Orten sind Sie tätig?",
+        "a": "In Fürstenfeldbruck und Umgebung, zum Beispiel in Emmering, Mammendorf, Maisach, Olching und Eichenau."
+      },
+      {
+        "q": "Was passiert, wenn der Auftrag aufwendiger wird als gedacht?",
+        "a": "Das wird offen besprochen – Kunden loben ausdrücklich die transparente Ausführung auch bei komplexeren Aufträgen."
+      }
+    ],
+    "contact": {
+      "headline": "Ihre Anfrage – kostenlos und unverbindlich",
+      "text": "Beschreiben Sie kurz, was verlegt oder montiert werden soll, und wo. Fotos helfen bei der Einschätzung.",
+      "topics": [
+        "Kabelverlegung",
+        "Stemmarbeiten",
+        "Kabelkanäle",
+        "Unterkonstruktionen",
+        "Befestigungsarbeiten",
+        "Montagearbeiten",
+        "Sonstiges"
+      ],
+      "responseNote": "Termin nach Absprache."
+    },
+    "quote": {
+      "sizeLabel": "Wie groß ist das Vorhaben?",
+      "sizes": [
+        "Einzelner Raum",
+        "Mehrere Räume / Wohnung",
+        "Ganzes Haus / Neubau",
+        "Gewerbe / Sonstiges"
+      ],
+      "timings": [
+        "So bald wie möglich",
+        "In den nächsten Wochen",
+        "In 1–3 Monaten",
+        "Ich plane erst noch"
+      ]
+    },
+    "stickyCta": "Jetzt anfragen"
+  }
+}

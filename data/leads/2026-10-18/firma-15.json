@@ -1,0 +1,312 @@
+{
+  "id": "2026-10-18-15",
+  "slug": "krasniqi-innenausbau-peissenberg",
+  "date": "2026-10-18",
+  "company": {
+    "name": "Krasniqi Innenausbau",
+    "owner": "Riad Krasniqi",
+    "trade": "Trockenbau & Innenausbau",
+    "city": "Peißenberg",
+    "address": "Böhmerwaldstr. 1, 82380 Peißenberg",
+    "phone": "0172 6126732",
+    "email": null,
+    "serviceArea": [
+      "Peißenberg",
+      "Hohenpeißenberg",
+      "Weilheim i. OB",
+      "Polling",
+      "Peiting",
+      "Wessobrunn"
+    ]
+  },
+  "listings": {
+    "google": {
+      "url": "https://www.google.com/maps/search/?api=1&query=Krasniqi%20Innenausbau%20B%C3%B6hmerwaldstr.%201%20Pei%C3%9Fenberg",
+      "rating": null,
+      "reviews": null,
+      "evidence": "NICHT VERIFIZIERT – Google/Google Maps war aus der Recherche-Umgebung nicht erreichbar und die Websuche lieferte keinen Maps-Treffer. Vor Kontaktaufnahme manuell prüfen (Existenz, Bewertungen, KEINE hinterlegte Website)."
+    },
+    "myhammer": {
+      "url": "https://www.my-hammer.de/trockenbau-verputzen/trockenbauer-berufe/weilheim-in-oberbayern",
+      "rating": null,
+      "reviews": null,
+      "evidence": "Krasniqi Innenausbau „aus 82380 Peißenberg“ wird in MyHammer-Suchergebnissen (Trockenbau-/Verputzer- und Bauunternehmen-Ortslisten Weilheim bzw. Hohenpeißenberg) genannt. Eigene Profil-URL und Bewertungszahl waren über die Websuche nicht abrufbar – daher rating/count null."
+    }
+  },
+  "websiteStatus": "keine eigene Website gefunden",
+  "websiteChecks": [
+    "(1) \"Krasniqi Innenausbau\" Peißenberg Trockenbau – nur Verzeichnisse (sellwerk, MyHammer-Ortslisten, auftragsbank), keine eigene Website",
+    "(2) Krasniqi Innenausbau 82380 Peißenberg Telefon Trockenbau (ohne MyHammer/Facebook/Instagram) – nur sellwerk, trockenbauunternehmen.net, blauarbeit.de, trustlocal, Gelbe Seiten, Das Telefonbuch; die Domains ka-bau-krasniqi.de (Karlsruhe) und komplettrenovierung-krasniqi.de gehören zu anderen, nicht verbundenen Betrieben",
+    "(3) Naheliegende Domain per allowed_domains (z. B. krasniqi-innenausbau.de) – NICHT durchgeführt (Suchbudget erschöpft)",
+    "(4) Verzeichnisse (Gelbe Seiten „Krasniqi Riad“, Das Telefonbuch „Innenausbau Riad Krasniqi“, sellwerk) nennen Mobilnummer 0172 6126732 und Adresse Böhmerwaldstr. 1; ein Website-Feld wurde in den Snippets nicht angezeigt, eine E-Mail-Adresse wurde nicht gefunden",
+    "Website-Risiko: mittel – Such- und Verzeichnisprüfungen negativ, aber Domain-Prüfung fehlt und keine Freemail-Adresse als positiver Beleg"
+  ],
+  "facts": {
+    "services": [
+      "Trockenbau",
+      "Rigips-/Gipskartonwände",
+      "Gipskartondecken und Deckenverkleidungen",
+      "Akustikwände",
+      "Trockenestrich",
+      "Spachtelarbeiten",
+      "Teppich verlegen"
+    ],
+    "experience": null,
+    "praisedFor": []
+  },
+  "strategy": {
+    "audience": "Haus- und Wohnungseigentümer, Vermieter und Bauherren in Peißenberg, Weilheim und im Pfaffenwinkel, die Räume umbauen, Decken abhängen oder Dachräume ausbauen wollen",
+    "mainService": "Trockenbau: Rigipswände, Gipskartondecken und Spachtelarbeiten",
+    "trustSignal": "Inhabergeführter Innenausbau-Betrieb mit Sitz in Peißenberg, direkt per Mobilnummer erreichbar",
+    "conversionGoal": "Kostenloses Angebot für Trockenbau anfragen (Raum, Fläche, Fotos)",
+    "visualConcept": "Klare Steinoptik mit Gipskarton-Weiß und Profil-Linien: frisch gespachtelte Wand im Streiflicht als Leitmotiv"
+  },
+  "sales": {
+    "score": 6,
+    "whyGoodLead": [
+      "Inhabergeführter Kleinbetrieb ohne gefundene eigene Website – nur Verzeichniseinträge",
+      "Trockenbau wird lokal aktiv gesucht („Trockenbau Peißenberg/Weilheim“) – eine Website mit klaren Leistungen fängt diese Anfragen ab",
+      "Mehrere Verzeichniseinträge mit identischer Mobilnummer – der Betrieb ist erreichbar und aktiv",
+      "Klar umrissenes Leistungsspektrum (Wände, Decken, Akustik, Trockenestrich, Spachteln) – ideal für eine übersichtliche Leistungsseite"
+    ],
+    "pitch": "Guten Tag Herr Krasniqi, mein Name ist … – ich erstelle Websites für Handwerksbetriebe im Landkreis Weilheim-Schongau. Ich habe gesehen, dass Krasniqi Innenausbau in mehreren Branchenverzeichnissen und auf MyHammer steht, aber noch keine eigene Website hat, auf der Kunden Ihre Trockenbau- und Spachtelarbeiten sehen und direkt anfragen können. Ich habe dafür unverbindlich einen Entwurf vorbereitet – darf ich Ihnen den Link schicken?"
+  },
+  "manualChecks": [
+    "Website-Risiko: mittel – vor Versand in Google Maps prüfen, dass keine Website hinterlegt ist",
+    "Domain-Prüfung nachholen: krasniqi-innenausbau.de, innenausbau-krasniqi.de, trockenbau-krasniqi.de im Browser aufrufen",
+    "Sellwerk-Profil https://sellwerk.de/firmenprofil/krasniqi-innenausbau prüfen (Sellwerk bietet auch Websites an – ggf. dort eine verlinkte Seite)",
+    "MyHammer-Profil im Browser suchen (Bewertungen, Bewertungszahl, Profiltext) – aktuell keine belegten Bewertungen, daher rating/count null",
+    "Abgrenzung prüfen: auf sellwerk existiert zusätzlich ein Profil „Trockenbau Krasniqi“ ohne Ortsangabe im Snippet – Zuordnung klären",
+    "blauarbeit.de führt den Betrieb unter „Bodenlegearbeiten“ – Leistungsumfang (Teppich/Bodenbeläge) beim Gespräch bestätigen",
+    "Öffnungszeiten laut sellwerk Mo–Fr 8–17, Sa 8–15 Uhr – nicht auf die Seite übernommen, vorher bestätigen",
+    "E-Mail-Adresse nicht gefunden – beim Erstkontakt erfragen",
+    "Echtes Logo: nicht gefunden – beim Betrieb als Datei anfragen"
+  ],
+  "sources": [
+    {
+      "label": "sellwerk – Krasniqi Innenausbau in Peißenberg",
+      "url": "https://sellwerk.de/firmenprofil/krasniqi-innenausbau"
+    },
+    {
+      "label": "trockenbauunternehmen.net – Krasniqi Innenausbau Peißenberg",
+      "url": "https://www.trockenbauunternehmen.net/peissenberg/krasniqi-innenausbau-aUPWyz"
+    },
+    {
+      "label": "blauarbeit.de – Krasniqi Innenausbau",
+      "url": "https://www.blauarbeit.de/handwerker/weilheim-in-oberbayern/krasniqi-innenausbau"
+    },
+    {
+      "label": "Gelbe Seiten – Krasniqi Riad, Peißenberg",
+      "url": "https://www.gelbeseiten.de/gsbiz/c242814d-caae-441c-a518-41e91e84c18b"
+    },
+    {
+      "label": "Das Telefonbuch – Innenausbau Riad Krasniqi",
+      "url": "https://adresse.dastelefonbuch.de/Pei%C3%9Fenberg/1-Innenausbau-Riad-Krasniqi-Pei%C3%9Fenberg-B%C3%B6hmerwaldstr.html"
+    },
+    {
+      "label": "MyHammer – Trockenbauer Weilheim in Oberbayern",
+      "url": "https://www.my-hammer.de/trockenbau-verputzen/trockenbauer-berufe/weilheim-in-oberbayern"
+    }
+  ],
+  "site": {
+    "theme": "stein",
+    "category": "handwerk",
+    "heroOffer": ["Trockenbau", "Gipskartondecken", "Akustikwände", "Spachtelarbeiten"],
+    "scene": "drywall",
+    "logoIcon": "trowel",
+    "logoMark": "KI",
+    "brandName": "Krasniqi Innenausbau",
+    "seoTitle": "Trockenbau in Peißenberg – Krasniqi Innenausbau",
+    "seoDescription": "Rigipswände, Gipskartondecken, Akustikwände, Trockenestrich und Spachtelarbeiten – Krasniqi Innenausbau aus Peißenberg für Weilheim und den Pfaffenwinkel. Jetzt kostenloses Angebot anfragen.",
+    "nav": [
+      { "label": "Leistungen", "href": "#leistungen" },
+      { "label": "Projekte", "href": "#projekte" },
+      { "label": "Ablauf", "href": "#ablauf" },
+      { "label": "Region", "href": "#region" },
+      { "label": "FAQ", "href": "#faq" },
+      { "label": "Kontakt", "href": "#kontakt" }
+    ],
+    "hero": {
+      "eyebrow": "Trockenbau & Innenausbau · Peißenberg",
+      "headline": "Trockenbau in Peißenberg: neue Wände, glatte Decken.",
+      "sub": "Krasniqi Innenausbau stellt Rigipswände, Gipskartondecken und Akustikwände, verlegt Trockenestrich und spachtelt Oberflächen streichfertig – für Eigentümer und Bauherren in Peißenberg, Weilheim und Umgebung.",
+      "ctaPrimary": "Kostenloses Angebot anfragen",
+      "ctaSecondary": "Anrufen",
+      "bullets": [
+        "Wände, Decken und Akustik aus einer Hand",
+        "Trockenestrich und Spachtelarbeiten inklusive",
+        "Inhabergeführt, mit Sitz in Peißenberg"
+      ],
+      "imageLabel": "frisch gespachtelte Gipskartonwand im Streiflicht"
+    },
+    "badges": [
+      { "title": "Rigips & Gipskarton", "sub": "Wände und Decken" },
+      { "title": "Akustikwände", "sub": "für ruhigere Räume" },
+      { "title": "Trockenestrich", "sub": "schnell belegbarer Boden" },
+      { "title": "Peißenberg", "sub": "Landkreis Weilheim-Schongau" }
+    ],
+    "trust": [
+      { "value": "Inhaber", "label": "Riad Krasniqi persönlich" },
+      { "value": "Wand & Decke", "label": "Gipskarton aus einer Hand" },
+      { "value": "Spachteln", "label": "Oberflächen streichfertig" },
+      { "value": "Peißenberg", "label": "Betrieb im Pfaffenwinkel" }
+    ],
+    "servicesIntro": {
+      "headline": "Innenausbau, der Räume neu ordnet",
+      "text": "Ob zusätzliches Zimmer, abgehängte Decke oder ruhigeres Büro: Mit Trockenbau verändern Sie Räume schnell, sauber und ohne Nassbaustelle."
+    },
+    "services": [
+      {
+        "title": "Rigips- & Trennwände",
+        "text": "Neue Raumaufteilung ohne Mauerwerk – Ständerwände mit Gipskarton, sauber gestellt und beplankt.",
+        "items": ["Rigipswände", "Raumteilung", "Gipskarton"]
+      },
+      {
+        "title": "Gipskartondecken",
+        "text": "Abgehängte oder verkleidete Decken für eine ebene Fläche, versteckte Leitungen und ein ruhiges Raumbild.",
+        "items": ["Gipskartondecken", "Deckenverkleidung", "Abhängen"]
+      },
+      {
+        "title": "Akustikwände",
+        "text": "Wände, die Schall dämpfen – für Wohnräume, Arbeitszimmer und Büros, in denen es leiser werden soll.",
+        "items": ["Akustikwände", "Wohnräume", "Büros"]
+      },
+      {
+        "title": "Trockenestrich",
+        "text": "Ein tragfähiger, ebener Untergrund ohne lange Trocknungszeit – ideal bei Sanierung und Umbau.",
+        "items": ["Trockenestrich", "Sanierung", "Umbau"]
+      },
+      {
+        "title": "Spachtelarbeiten",
+        "text": "Fugen und Flächen werden gespachtelt, bis die Oberfläche bereit für Farbe oder Tapete ist.",
+        "items": ["Fugen spachteln", "Flächenspachtelung", "Streichfertig"]
+      },
+      {
+        "title": "Teppich verlegen",
+        "text": "Zum Abschluss des Innenausbaus verlegen wir auf Wunsch auch Teppichböden.",
+        "items": ["Teppichboden", "Wohnräume", "Abschluss Innenausbau"]
+      }
+    ],
+    "why": {
+      "headline": "Ein Ansprechpartner für den ganzen Innenausbau.",
+      "points": [
+        {
+          "title": "Alles aus einer Hand",
+          "text": "Wände, Decken, Akustik, Estrich und Spachteln – Sie müssen nicht mehrere Gewerke koordinieren."
+        },
+        {
+          "title": "Direkter Draht zum Inhaber",
+          "text": "Sie sprechen mit Riad Krasniqi selbst – vom ersten Anruf bis zur fertigen Wand."
+        },
+        {
+          "title": "Trockene Bauweise",
+          "text": "Trockenbau und Trockenestrich kommen ohne lange Trocknungszeiten aus – Räume sind schneller wieder nutzbar."
+        },
+        {
+          "title": "Aus der Region",
+          "text": "Mit Sitz in Peißenberg sind Weilheim, Peiting, Schongau und der Pfaffenwinkel schnell erreichbar."
+        }
+      ]
+    },
+    "reviews": {
+      "headline": "Ihre Meinung zählt",
+      "summary": "Krasniqi Innenausbau ist auf MyHammer gelistet. Bewertungen von Auftraggebern zeigen wir hier, sobald sie für die Live-Version freigegeben sind.",
+      "highlights": [
+        "Inhabergeführter Betrieb",
+        "Trockenbau, Akustik und Estrich",
+        "Spachtelarbeiten streichfertig",
+        "Sitz in Peißenberg"
+      ],
+      "source": "MyHammer",
+      "sourceUrl": "https://www.my-hammer.de/trockenbau-verputzen/trockenbauer-berufe/weilheim-in-oberbayern",
+      "rating": null,
+      "count": null
+    },
+    "process": {
+      "headline": "Vom Rohbau zur glatten Wand",
+      "steps": [
+        { "title": "Anfrage", "text": "Kurz Raum, ungefähre Fläche und Vorhaben schildern – gern mit Fotos." },
+        { "title": "Aufmaß vor Ort", "text": "Wir sehen uns Raum, Untergrund und Anschlüsse an und klären Ihre Wünsche." },
+        { "title": "Angebot", "text": "Sie erhalten ein nachvollziehbares Angebot für Wände, Decken oder Estrich." },
+        { "title": "Ausführung", "text": "Stellen, beplanken, spachteln – bis die Fläche bereit für Farbe oder Belag ist." }
+      ]
+    },
+    "gallery": {
+      "headline": "Projekte aus dem Innenausbau",
+      "text": "Für die Live-Version zeigen wir hier echte Baustellen von Krasniqi Innenausbau – idealerweise Rohbau und fertige Fläche desselben Raums.",
+      "items": [
+        { "title": "Neue Trennwand", "photoNeeded": "Ständerwerk und fertig beplankte Rigipswand im selben Raum" },
+        { "title": "Abgehängte Decke", "photoNeeded": "Gipskartondecke, gespachtelt, mit Einbauleuchten" },
+        { "title": "Akustikwand", "photoNeeded": "fertige Akustikwand in Wohn- oder Büroraum" },
+        { "title": "Trockenestrich", "photoNeeded": "verlegte Trockenestrich-Elemente vor dem Belag" },
+        { "title": "Spachtelarbeit", "photoNeeded": "gespachtelte Fugen und Flächen im Streiflicht" }
+      ]
+    },
+    "region": {
+      "headline": "Trockenbauer für Peißenberg, Weilheim und den Pfaffenwinkel",
+      "text": "Von Peißenberg aus ist Krasniqi Innenausbau schnell in Hohenpeißenberg, Weilheim, Polling, Peiting, Schongau, Wessobrunn und den umliegenden Orten – für einzelne Räume ebenso wie für den kompletten Ausbau.",
+      "places": [
+        "Peißenberg",
+        "Hohenpeißenberg",
+        "Weilheim i. OB",
+        "Polling",
+        "Peiting",
+        "Schongau",
+        "Wessobrunn",
+        "Penzberg"
+      ]
+    },
+    "faq": [
+      {
+        "q": "Wie schnell ist eine Trockenbauwand fertig?",
+        "a": "Das hängt von Größe und Ausstattung ab. Weil keine Mauer trocknen muss, geht Trockenbau meist deutlich schneller als Massivbau – den konkreten Zeitrahmen nennen wir im Angebot."
+      },
+      {
+        "q": "Verkleiden oder hängen Sie auch Decken ab?",
+        "a": "Ja. Wir verkleiden Decken mit Gipskarton oder hängen sie ab – etwa um Leitungen zu verbergen oder eine ebene Fläche zu schaffen."
+      },
+      {
+        "q": "Können Sie einen Raum leiser machen?",
+        "a": "Akustikwände gehören zu unseren Leistungen. Was in Ihrem Raum sinnvoll ist, besprechen wir beim Termin vor Ort."
+      },
+      {
+        "q": "Ist die Wand danach streichfertig?",
+        "a": "Spachtelarbeiten gehören dazu. Den gewünschten Oberflächenzustand – etwa für Farbe oder Tapete – stimmen wir vorab ab."
+      },
+      {
+        "q": "Kann ich vorab Fotos schicken?",
+        "a": "Gern. Fotos und ungefähre Maße helfen für eine erste Einschätzung; für ein verbindliches Angebot ist ein kurzer Termin vor Ort sinnvoll."
+      }
+    ],
+    "contact": {
+      "headline": "Ihr Angebot – kostenlos und unverbindlich",
+      "text": "Beschreiben Sie kurz Ihr Vorhaben: Raum, ungefähre Fläche und ob Wand, Decke oder Boden. Fotos helfen bei der Einschätzung.",
+      "topics": [
+        "Rigips-/Trennwand",
+        "Gipskartondecke",
+        "Akustikwand",
+        "Trockenestrich",
+        "Spachtelarbeiten",
+        "Teppich verlegen",
+        "Sonstiges"
+      ],
+      "responseNote": "Termin vor Ort nach Absprache."
+    },
+    "quote": {
+      "sizeLabel": "Wie groß ist das Vorhaben?",
+      "sizes": [
+        "Eine Wand oder Decke",
+        "Ein Raum",
+        "Mehrere Räume / Wohnung",
+        "Dachgeschoss / ganzes Haus"
+      ],
+      "timings": [
+        "So bald wie möglich",
+        "In den nächsten Wochen",
+        "In 1–3 Monaten",
+        "Ich plane erst noch"
+      ]
+    },
+    "stickyCta": "Angebot anfragen"
+  }
+}
