@@ -28,7 +28,7 @@
     },
     "myhammer": {
       "url": "https://www.my-hammer.de/auftragnehmer/dusko-jovic-bau/bewertungen",
-      "rating": 5.0,
+      "rating": 5,
       "reviews": 42,
       "evidence": "Bewertungsseite „Bewertungen für Dusko Jovic Bau in Unterhaching – MyHammer“ in Suchergebnissen belegt: 5 von 5 bei 42 Bewertungen (Nov. 2025 – Juli 2026); Unterhaching-Ortsliste Trockenbauer ebenfalls 5,0 bei 42 Bewertungen, andere Ortslisten 29–40 (älterer Stand). Profiltext: in Unterhaching ansässiges Trockenbau-Unternehmen."
     }
@@ -285,7 +285,7 @@
       ],
       "source": "MyHammer",
       "sourceUrl": "https://www.my-hammer.de/auftragnehmer/dusko-jovic-bau/bewertungen",
-      "rating": 5.0,
+      "rating": 5,
       "count": 42
     },
     "process": {
@@ -400,6 +400,15 @@
         "Ich plane erst noch"
       ]
     },
-    "stickyCta": "Angebot anfragen"
+    "stickyCta": "Angebot anfragen",
+    "look": {
+      "palette": 2,
+      "font": 10,
+      "hero": 2,
+      "services": 1,
+      "radius": 1,
+      "logo": 0,
+      "intro": 5
+    }
   }
 }

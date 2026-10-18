@@ -103,12 +103,30 @@
     "seoTitle": "Trockenbau & Fenstereinbau in Eching – Koller Kraftbau",
     "seoDescription": "Trockenbau, Fenstereinbau und Baumdienst aus Eching-Günzenhausen – Koller Kraftbau für Eching, Neufahrn und Umgebung. Jetzt unverbindlich anfragen.",
     "nav": [
-      { "label": "Leistungen", "href": "#leistungen" },
-      { "label": "Projekte", "href": "#projekte" },
-      { "label": "Ablauf", "href": "#ablauf" },
-      { "label": "Region", "href": "#region" },
-      { "label": "FAQ", "href": "#faq" },
-      { "label": "Kontakt", "href": "#kontakt" }
+      {
+        "label": "Leistungen",
+        "href": "#leistungen"
+      },
+      {
+        "label": "Projekte",
+        "href": "#projekte"
+      },
+      {
+        "label": "Ablauf",
+        "href": "#ablauf"
+      },
+      {
+        "label": "Region",
+        "href": "#region"
+      },
+      {
+        "label": "FAQ",
+        "href": "#faq"
+      },
+      {
+        "label": "Kontakt",
+        "href": "#kontakt"
+      }
     ],
     "hero": {
       "eyebrow": "Trockenbau · Fenster · Baumdienst · Eching",
@@ -124,16 +142,40 @@
       "imageLabel": "frisch beplankte Trockenbauwand mit neuem Fenster"
     },
     "badges": [
-      { "title": "Trockenbau", "sub": "Wände und Decken" },
-      { "title": "Fenstereinbau", "sub": "Neubau und Austausch" },
-      { "title": "Baumdienst", "sub": "Pflege und Schnitt" },
-      { "title": "Eching", "sub": "Landkreis Freising" }
+      {
+        "title": "Trockenbau",
+        "sub": "Wände und Decken"
+      },
+      {
+        "title": "Fenstereinbau",
+        "sub": "Neubau und Austausch"
+      },
+      {
+        "title": "Baumdienst",
+        "sub": "Pflege und Schnitt"
+      },
+      {
+        "title": "Eching",
+        "sub": "Landkreis Freising"
+      }
     ],
     "trust": [
-      { "value": "Direkt", "label": "per Handy und WhatsApp erreichbar" },
-      { "value": "3 Bereiche", "label": "Trockenbau, Fenster, Baumdienst" },
-      { "value": "Vor Ort", "label": "Sitz in Eching-Günzenhausen" },
-      { "value": "Kostenlos", "label": "unverbindliche Anfrage" }
+      {
+        "value": "Direkt",
+        "label": "per Handy und WhatsApp erreichbar"
+      },
+      {
+        "value": "3 Bereiche",
+        "label": "Trockenbau, Fenster, Baumdienst"
+      },
+      {
+        "value": "Vor Ort",
+        "label": "Sitz in Eching-Günzenhausen"
+      },
+      {
+        "value": "Kostenlos",
+        "label": "unverbindliche Anfrage"
+      }
     ],
     "servicesIntro": {
       "headline": "Was Koller Kraftbau für Sie erledigt",
@@ -143,25 +185,46 @@
       {
         "title": "Trockenbauwände",
         "text": "Neue Wände und Raumaufteilungen im Trockenbau – sauber gestellt und beplankt.",
-        "items": ["Trennwände", "Gipskarton", "Innenausbau"]
+        "items": [
+          "Trennwände",
+          "Gipskarton",
+          "Innenausbau"
+        ]
       },
       {
         "title": "Fenstereinbau",
         "text": "Einbau neuer Fenster – ob beim Umbau oder beim Austausch alter Fenster.",
-        "items": ["Fenster einbauen", "Fenstertausch", "Umbau"]
+        "items": [
+          "Fenster einbauen",
+          "Fenstertausch",
+          "Umbau"
+        ]
       },
       {
         "title": "Baumdienst",
         "text": "Arbeiten an Bäumen auf Ihrem Grundstück – Umfang besprechen wir vorab vor Ort.",
-        "items": ["Baumpflege", "Rückschnitt", "Grundstück"]
+        "items": [
+          "Baumpflege",
+          "Rückschnitt",
+          "Grundstück"
+        ]
       }
     ],
     "why": {
       "headline": "Ein Betrieb für Haus und Grundstück.",
       "points": [
-        { "title": "Mehrere Gewerke", "text": "Trockenbau, Fenster und Baumdienst – Sie müssen nicht drei Firmen koordinieren." },
-        { "title": "Kurzer Draht", "text": "Anfrage per Anruf oder WhatsApp, Fotos schicken genügt für die erste Einschätzung." },
-        { "title": "Aus der Nähe", "text": "Mit Sitz in Eching-Günzenhausen sind Neufahrn, Unterschleißheim und Haimhausen schnell erreichbar." }
+        {
+          "title": "Mehrere Gewerke",
+          "text": "Trockenbau, Fenster und Baumdienst – Sie müssen nicht drei Firmen koordinieren."
+        },
+        {
+          "title": "Kurzer Draht",
+          "text": "Anfrage per Anruf oder WhatsApp, Fotos schicken genügt für die erste Einschätzung."
+        },
+        {
+          "title": "Aus der Nähe",
+          "text": "Mit Sitz in Eching-Günzenhausen sind Neufahrn, Unterschleißheim und Haimhausen schnell erreichbar."
+        }
       ]
     },
     "reviews": {
@@ -181,19 +244,40 @@
     "process": {
       "headline": "So einfach geht's",
       "steps": [
-        { "title": "Anfrage", "text": "Kurz das Vorhaben schildern – gern mit Fotos per WhatsApp." },
-        { "title": "Termin vor Ort", "text": "Wir sehen uns Raum, Fenster oder Baum an und klären die Details." },
-        { "title": "Angebot", "text": "Sie erhalten ein nachvollziehbares Angebot." },
-        { "title": "Ausführung", "text": "Die Arbeiten werden zum vereinbarten Termin erledigt." }
+        {
+          "title": "Anfrage",
+          "text": "Kurz das Vorhaben schildern – gern mit Fotos per WhatsApp."
+        },
+        {
+          "title": "Termin vor Ort",
+          "text": "Wir sehen uns Raum, Fenster oder Baum an und klären die Details."
+        },
+        {
+          "title": "Angebot",
+          "text": "Sie erhalten ein nachvollziehbares Angebot."
+        },
+        {
+          "title": "Ausführung",
+          "text": "Die Arbeiten werden zum vereinbarten Termin erledigt."
+        }
       ]
     },
     "gallery": {
       "headline": "Projekte",
       "text": "Für die Live-Version zeigen wir hier echte Arbeiten von Koller Kraftbau.",
       "items": [
-        { "title": "Trockenbauwand", "photoNeeded": "neu gestellte und beplankte Trennwand" },
-        { "title": "Neue Fenster", "photoNeeded": "eingebautes Fenster vor und nach dem Austausch" },
-        { "title": "Baumdienst", "photoNeeded": "Baum vor und nach dem Rückschnitt" }
+        {
+          "title": "Trockenbauwand",
+          "photoNeeded": "neu gestellte und beplankte Trennwand"
+        },
+        {
+          "title": "Neue Fenster",
+          "photoNeeded": "eingebautes Fenster vor und nach dem Austausch"
+        },
+        {
+          "title": "Baumdienst",
+          "photoNeeded": "Baum vor und nach dem Rückschnitt"
+        }
       ]
     },
     "region": {
@@ -209,9 +293,18 @@
       ]
     },
     "faq": [
-      { "q": "Welche Arbeiten übernehmen Sie?", "a": "Trockenbau, Fenstereinbau und Baumdienst. Was genau bei Ihnen ansteht, klären wir bei der Anfrage." },
-      { "q": "Kann ich vorab Fotos schicken?", "a": "Gern – per WhatsApp oder E-Mail. Für ein verbindliches Angebot ist meist ein kurzer Termin vor Ort sinnvoll." },
-      { "q": "In welchem Gebiet sind Sie unterwegs?", "a": "Vor allem in Eching und den Nachbarorten im Landkreis Freising und im Münchner Norden." }
+      {
+        "q": "Welche Arbeiten übernehmen Sie?",
+        "a": "Trockenbau, Fenstereinbau und Baumdienst. Was genau bei Ihnen ansteht, klären wir bei der Anfrage."
+      },
+      {
+        "q": "Kann ich vorab Fotos schicken?",
+        "a": "Gern – per WhatsApp oder E-Mail. Für ein verbindliches Angebot ist meist ein kurzer Termin vor Ort sinnvoll."
+      },
+      {
+        "q": "In welchem Gebiet sind Sie unterwegs?",
+        "a": "Vor allem in Eching und den Nachbarorten im Landkreis Freising und im Münchner Norden."
+      }
     ],
     "contact": {
       "headline": "Unverbindlich anfragen",
@@ -239,6 +332,15 @@
         "Ich plane erst noch"
       ]
     },
-    "stickyCta": "Angebot anfragen"
+    "stickyCta": "Angebot anfragen",
+    "look": {
+      "palette": 0,
+      "font": 0,
+      "hero": 0,
+      "services": 2,
+      "radius": 4,
+      "logo": 2,
+      "intro": 3
+    }
   }
 }

@@ -405,6 +405,15 @@
         "Ich plane erst noch"
       ]
     },
-    "stickyCta": "Besichtigung anfragen"
+    "stickyCta": "Besichtigung anfragen",
+    "look": {
+      "palette": 5,
+      "font": 8,
+      "hero": 0,
+      "services": 0,
+      "radius": 2,
+      "logo": 4,
+      "intro": 1
+    }
   }
 }

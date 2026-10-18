@@ -28,7 +28,7 @@
     },
     "myhammer": {
       "url": "https://www.my-hammer.de/elektrik/elektriker-berufe/erding",
-      "rating": 5.0,
+      "rating": 5,
       "reviews": 5,
       "evidence": "Auf der MyHammer-Ortsliste „Elektriker in Erding“ gelistet (5,0 bei 5 Bewertungen laut Suchindex). Profiltext: selbstständiger Elektromeister mit 10 Jahren Berufserfahrung. Direkte Profil-URL nicht ermittelt – Link führt auf die Ortsliste."
     }
@@ -270,7 +270,7 @@
       ],
       "source": "MyHammer",
       "sourceUrl": "https://www.my-hammer.de/elektrik/elektriker-berufe/erding",
-      "rating": 5.0,
+      "rating": 5,
       "count": 5
     },
     "process": {
@@ -393,6 +393,15 @@
       "Wallbox",
       "Elektroinstallation",
       "Fehlersuche"
-    ]
+    ],
+    "look": {
+      "palette": 2,
+      "font": 4,
+      "hero": 2,
+      "services": 2,
+      "radius": 4,
+      "logo": 2,
+      "intro": 3
+    }
   }
 }

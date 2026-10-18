@@ -22,7 +22,7 @@
   "listings": {
     "google": {
       "url": "https://www.google.com/maps/search/?api=1&query=Fatmir%20Sallahi%20Malerbetrieb%20M%C3%BCnchner%20Str.%2095%20Holzkirchen",
-      "rating": 5.0,
+      "rating": 5,
       "reviews": 5,
       "evidence": "Indirekt über Google-Spiegel belegt: werkenntdenbesten.de führt „Fatmir Sallahi Malerbetrieb“, Münchner Str. 95, 83607 Holzkirchen, mit Ø 5,00 aus 5 Google-Bewertungen (alle 5 Sterne; Stand der Seite 03.01.2023). Eine google.com/maps/place-URL lieferte die Websuche nicht. In keinem Verzeichnis-/Spiegel-Snippet war ein Website-Feld oder eine Domain zu sehen."
     },
@@ -285,7 +285,7 @@
       ],
       "source": "Google",
       "sourceUrl": "https://www.google.com/maps/search/?api=1&query=Fatmir%20Sallahi%20Malerbetrieb%20M%C3%BCnchner%20Str.%2095%20Holzkirchen",
-      "rating": 5.0,
+      "rating": 5,
       "count": 5
     },
     "process": {
@@ -387,6 +387,15 @@
         "Ich plane erst noch"
       ]
     },
-    "stickyCta": "Angebot anfragen"
+    "stickyCta": "Angebot anfragen",
+    "look": {
+      "palette": 0,
+      "font": 12,
+      "hero": 0,
+      "services": 1,
+      "radius": 4,
+      "logo": 0,
+      "intro": 5
+    }
   }
 }

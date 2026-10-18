@@ -397,6 +397,15 @@
         "Ich plane erst noch"
       ]
     },
-    "stickyCta": "Jetzt anfragen"
+    "stickyCta": "Jetzt anfragen",
+    "look": {
+      "palette": 1,
+      "font": 6,
+      "hero": 0,
+      "services": 2,
+      "radius": 2,
+      "logo": 2,
+      "intro": 3
+    }
   }
 }

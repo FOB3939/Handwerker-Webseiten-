@@ -382,6 +382,15 @@
       "Deckenleuchten",
       "Pendelleuchten",
       "LED-Beleuchtung"
-    ]
+    ],
+    "look": {
+      "palette": 0,
+      "font": 9,
+      "hero": 3,
+      "services": 1,
+      "radius": 2,
+      "logo": 3,
+      "intro": 2
+    }
   }
 }

@@ -396,6 +396,15 @@
         "Noch offen"
       ]
     },
-    "stickyCta": "Fliesenprojekt anfragen"
+    "stickyCta": "Fliesenprojekt anfragen",
+    "look": {
+      "palette": 0,
+      "font": 7,
+      "hero": 3,
+      "services": 2,
+      "radius": 1,
+      "logo": 5,
+      "intro": 0
+    }
   }
 }

@@ -332,6 +332,15 @@
         "label": "Kontakt",
         "href": "#kontakt"
       }
-    ]
+    ],
+    "look": {
+      "palette": 4,
+      "font": 2,
+      "hero": 0,
+      "services": 1,
+      "radius": 0,
+      "logo": 0,
+      "intro": 5
+    }
   }
 }

@@ -1,6 +1,7 @@
 import { Fragment, type CSSProperties, type ReactNode } from "react";
 import type { Lead } from "@/lib/types";
-import { themes, themeStyle, type Theme } from "@/lib/themes";
+import { themeStyle } from "@/lib/themes";
+import { resolveTheme, type Identity } from "@/lib/identity";
 import { telHref } from "@/lib/leads";
 import Scene from "./Scene";
 import ContactForm from "./ContactForm";
@@ -17,7 +18,7 @@ const DEMO_NOTICE = "Unverbindlicher Website-Entwurf – nicht die offizielle We
 
 interface Ctx {
   lead: Lead;
-  theme: Theme;
+  theme: Identity;
   call: string;
   upper: string;
   hof: boolean;
@@ -25,7 +26,7 @@ interface Ctx {
 
 export default function DemoSite({ lead }: { lead: Lead }) {
   const { site, company } = lead;
-  const theme = themes[site.theme];
+  const theme = resolveTheme(lead);
   const ctx: Ctx = {
     lead,
     theme,
@@ -36,11 +37,11 @@ export default function DemoSite({ lead }: { lead: Lead }) {
   const heroHasForm = !ctx.hof && !["editorial", "organic", "banner"].includes(theme.hero);
 
   return (
-    <div style={themeStyle(theme)} className="min-h-screen bg-t-bg font-body text-t-ink antialiased">
+    <div data-identity={theme.name} style={themeStyle(theme)} className="min-h-screen bg-t-bg font-body text-t-ink antialiased">
       <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="" />
       <link rel="stylesheet" href={theme.fontsHref} precedence="default" />
       <div className="scroll-progress fixed inset-x-0 top-0 z-[55] h-1 bg-t-accent" aria-hidden="true" />
-      <Splash icon={site.logoIcon} mark={site.logoMark} name={site.brandName} tagline={`${company.trade} · ${company.city}`} />
+      <Splash icon={site.logoIcon} mark={site.logoMark} name={site.brandName} tagline={`${company.trade} in ${company.city}`} logo={theme.logo} intro={theme.intro} />
       <a href="#inhalt" className="skip-link rounded bg-t-ink px-3 py-2 text-t-bg">Zum Inhalt springen</a>
       <div className="bg-black px-4 py-1.5 text-center text-[11px] font-medium tracking-wide text-white/80" role="note">{DEMO_NOTICE}</div>
       <TopBar {...ctx} />
@@ -93,17 +94,17 @@ function TopBar({ lead, call }: Ctx) {
   );
 }
 
-function Logo({ lead }: { lead: Lead }) {
+function Logo({ lead, theme }: { lead: Lead; theme: Identity }) {
   const { site, company } = lead;
-  return <BrandLogo icon={site.logoIcon} mark={site.logoMark} name={site.brandName} tagline={`${company.trade} · ${company.city}`} />;
+  return <BrandLogo icon={site.logoIcon} mark={site.logoMark} name={site.brandName} tagline={`${company.trade} in ${company.city}`} variant={theme.logo} />;
 }
 
-function Header({ lead, call }: Ctx) {
+function Header({ lead, call, theme }: Ctx) {
   const { site, company } = lead;
   return (
     <header className="sticky top-0 z-30 border-b border-t-line bg-t-bg/95 backdrop-blur">
       <div className="hdr-inner mx-auto flex max-w-site items-center justify-between gap-4 px-4 py-3 sm:px-6">
-        <a href="#inhalt" className="min-w-0"><Logo lead={lead} /></a>
+        <a href="#inhalt" className="min-w-0"><Logo lead={lead} theme={theme} /></a>
         <nav aria-label="Hauptnavigation" className="hidden items-center gap-7 text-sm font-semibold lg:flex">
           {site.nav.map((n) => (
             <a key={n.href} href={n.href} className="whitespace-nowrap text-t-muted transition hover:text-t-ink">{n.label}</a>
@@ -154,7 +155,7 @@ function CtaRow({ lead, call, dark = false }: { lead: Lead; call: string; dark?:
   return (
     <div className="mt-8 flex flex-col gap-3 sm:flex-row">
       <a href="#anfrage" className="btn-shine inline-flex items-center justify-center gap-2 rounded-t bg-t-accent px-7 py-4 font-bold text-t-accent-ink shadow-lg shadow-black/10 transition hover:brightness-110">
-        {hero.ctaPrimary} <span aria-hidden="true">→</span>
+        {hero.ctaPrimary}
       </a>
       <a href={call} className={`inline-flex items-center justify-center gap-2 rounded-t border px-7 py-4 font-bold transition ${dark ? "border-white/30 text-white hover:bg-white/10" : "border-t-ink/20 text-t-ink hover:bg-t-ink/5"}`}>
         <PhoneIcon /> {lead.company.phone ?? hero.ctaSecondary}
@@ -201,7 +202,7 @@ function Hero({ lead, theme, call, upper, hof }: Ctx) {
         <div className="mx-auto grid max-w-site items-center gap-12 px-4 pb-20 pt-12 sm:px-6 lg:grid-cols-12 lg:pt-16">
           <div className="hero-in lg:col-span-6">
             <RatingChip lead={lead} />
-            <p className="mt-8 text-sm font-bold uppercase tracking-[0.22em] text-t-accent">{hero.eyebrow}</p>
+            {hof && <p className="mt-8 text-sm font-bold uppercase tracking-[0.22em] text-t-accent">{hero.eyebrow}</p>}
             <h1 data-split {...fitH1(hero.headline, 0.48, `mt-4 text-balance font-display text-5xl font-semibold leading-[1.02] sm:text-7xl ${upper}`)}><span className="ink-line">{hero.headline}</span></h1>
             <p className="mt-6 max-w-xl text-lg leading-relaxed text-t-muted">{hof ? hero.sub : shortSub(hero.sub)}</p>
             <OfferStrip lead={lead} hof={hof} />
@@ -234,7 +235,7 @@ function Hero({ lead, theme, call, upper, hof }: Ctx) {
         <div className="mx-auto grid max-w-site items-center gap-10 px-4 py-16 sm:px-6 lg:grid-cols-12 lg:py-24">
           <div className="hero-in lg:col-span-7">
             <RatingChip lead={lead} dark />
-            <p className="mt-8 text-xs font-bold uppercase tracking-[0.3em] text-t-accent">{hero.eyebrow}</p>
+            {hof && <p className="mt-8 text-xs font-bold uppercase tracking-[0.3em] text-t-accent">{hero.eyebrow}</p>}
             <h1 data-split {...fitH1(hero.headline, 0.55, `mt-5 text-balance font-display text-4xl font-light leading-[1.04] sm:text-6xl ${upper}`)}>{hero.headline}</h1>
             <p className="mt-6 max-w-xl text-lg text-white/80">{hof ? hero.sub : shortSub(hero.sub)}</p>
             <OfferStrip lead={lead} hof={hof} dark />
@@ -283,9 +284,9 @@ function Hero({ lead, theme, call, upper, hof }: Ctx) {
         <div className="hero-in mx-auto max-w-site px-4 pt-12 sm:px-6 lg:pt-16">
           <div className="flex flex-wrap items-end justify-between gap-6">
             <div className="min-w-0 max-w-4xl">
-              <p className="flex flex-wrap items-center gap-3 text-sm font-bold uppercase tracking-[0.2em] text-t-accent">
+              {hof && <p className="flex flex-wrap items-center gap-3 text-sm font-bold uppercase tracking-[0.2em] text-t-accent">
                 <span className="h-0.5 w-10 bg-t-accent" aria-hidden="true" /> {hero.eyebrow}
-              </p>
+              </p>}
               <h1 data-split {...fitH1(hero.headline, 0.9, `mt-4 text-balance font-display text-[2.6rem] font-black leading-[0.95] sm:text-6xl lg:text-7xl ${upper}`)}>{hero.headline}</h1>
             </div>
             <RatingChip lead={lead} />
@@ -319,7 +320,7 @@ function Hero({ lead, theme, call, upper, hof }: Ctx) {
       <div className="relative mx-auto grid max-w-site items-center gap-10 px-4 py-12 sm:px-6 lg:grid-cols-12 lg:py-20">
         <div className="hero-in lg:col-span-6">
           <RatingChip lead={lead} />
-          <p className="mt-7 text-sm font-bold uppercase tracking-wider text-t-accent">{hero.eyebrow}</p>
+          {hof && <p className="mt-7 text-sm font-bold uppercase tracking-wider text-t-accent">{hero.eyebrow}</p>}
           <h1 data-split {...fitH1(hero.headline, 0.48, `mt-4 text-balance font-display text-4xl font-extrabold leading-[1.04] sm:text-6xl ${upper}`)}>{hero.headline}</h1>
           <p className="mt-5 max-w-xl text-lg text-t-muted">{hof ? hero.sub : shortSub(hero.sub)}</p>
           <OfferStrip lead={lead} hof={hof} />
@@ -358,7 +359,7 @@ function Badges({ lead }: Ctx) {
 function SectionHead({ kicker, title, text, upper, center = false, dark = false }: { kicker: string; title: string; text?: string; upper: string; center?: boolean; dark?: boolean }) {
   return (
     <div data-reveal className={`max-w-2xl ${center ? "mx-auto text-center" : ""}`}>
-      <p className="text-sm font-bold uppercase tracking-[0.2em] text-t-accent">{kicker}</p>
+      <p className="flex items-center gap-2 text-[15px] font-semibold text-t-accent"><span className="h-px w-8 bg-current" aria-hidden="true" />{kicker}</p>
       <h2 className={`mt-3 text-balance font-display text-3xl font-bold leading-tight sm:text-5xl ${upper}`}>{title}</h2>
       {text && <p className={`mt-5 text-lg leading-relaxed ${dark ? "text-t-dark-ink/75" : "text-t-muted"}`}>{text}</p>}
     </div>
@@ -465,7 +466,7 @@ function ProductGrid({ lead, upper }: { lead: Lead; upper: string }) {
     <section id="leistungen" className="mx-auto max-w-site px-4 py-24 sm:px-6">
       <div className="flex flex-wrap items-end justify-between gap-6">
         <SectionHead kicker="Unser Angebot" title={servicesIntro.headline} text={servicesIntro.text} upper={upper} />
-        <a href="#besuch" className="font-bold text-t-accent underline-offset-4 hover:underline">Zeiten & Anfahrt →</a>
+        <a href="#besuch" className="font-bold text-t-accent underline-offset-4 hover:underline">Zeiten & Anfahrt</a>
       </div>
       <div data-stagger className="mt-14 grid gap-5 sm:grid-cols-2 lg:grid-cols-3">
         {services.map((s) => (
@@ -554,7 +555,7 @@ function Services({ lead, theme, upper, hof }: Ctx) {
     <section id="leistungen" className="mx-auto max-w-site px-4 py-24 sm:px-6">
       <div className="flex flex-wrap items-end justify-between gap-6">
         <SectionHead kicker="Leistungen" title={servicesIntro.headline} text={servicesIntro.text} upper={upper} />
-        <a href="#anfrage" className="font-bold text-t-accent underline-offset-4 hover:underline">Leistung anfragen →</a>
+        <a href="#anfrage" className="font-bold text-t-accent underline-offset-4 hover:underline">Leistung anfragen</a>
       </div>
       {theme.services === "numbered" && (
         <ol data-stagger className="mt-14 divide-y divide-t-line border-y border-t-line">
@@ -571,7 +572,7 @@ function Services({ lead, theme, upper, hof }: Ctx) {
               <ul className="flex flex-wrap gap-2 md:col-span-4">
                 {s.items.map((it) => <li key={it} className="rounded-full border border-t-line bg-t-surface px-3 py-1.5 text-sm">{it}</li>)}
               </ul>
-              <a href="#anfrage" className="text-sm font-bold text-t-accent md:col-span-2 md:text-right">Anfragen →</a>
+              <a href="#anfrage" className="text-sm font-bold text-t-accent md:col-span-2 md:text-right">Anfragen</a>
             </li>
           ))}
         </ol>
@@ -589,7 +590,7 @@ function Services({ lead, theme, upper, hof }: Ctx) {
                 <ul className="mt-4 space-y-1.5 text-sm">
                   {s.items.map((it) => <li key={it} className="flex gap-2"><CheckIcon className="mt-0.5 shrink-0 text-t-accent" size={14} />{it}</li>)}
                 </ul>
-                <a href="#anfrage" className="mt-auto pt-5 text-sm font-bold text-t-accent">Jetzt anfragen →</a>
+                <a href="#anfrage" className="mt-auto pt-5 text-sm font-bold text-t-accent">Jetzt anfragen</a>
               </div>
             </article>
           ))}
@@ -606,7 +607,7 @@ function Services({ lead, theme, upper, hof }: Ctx) {
                 <h3 className={`font-display text-xl font-bold ${upper}`}>{s.title}</h3>
                 <p className="mt-2 text-sm text-t-muted">{s.text}</p>
                 <p className="mt-3 text-sm font-semibold">{s.items.join(" · ")}</p>
-                <a href="#anfrage" className="mt-4 inline-block text-sm font-bold text-t-accent">Anfragen →</a>
+                <a href="#anfrage" className="mt-4 inline-block text-sm font-bold text-t-accent">Anfragen</a>
               </div>
             </article>
           ))}
@@ -739,7 +740,7 @@ function Reviews({ lead, upper }: Ctx) {
               </div>
               <Stars rating={r.rating} />
               {r.count !== null && <p className="mt-3 text-sm text-t-dark-ink/80">aus {r.count} Bewertungen</p>}
-              <a href={r.sourceUrl} target="_blank" rel="noopener noreferrer nofollow" className="mt-5 inline-block text-sm font-bold text-t-accent underline-offset-4 hover:underline">Alle Bewertungen ansehen →</a>
+              <a href={r.sourceUrl} target="_blank" rel="noopener noreferrer nofollow" className="mt-5 inline-block text-sm font-bold text-t-accent underline-offset-4 hover:underline">Alle Bewertungen ansehen</a>
             </div>
           )}
         </div>
@@ -891,15 +892,15 @@ function Contact({ lead, call, upper }: Ctx) {
   );
 }
 
-function Footer({ lead, call }: Ctx) {
+function Footer({ lead, call, theme }: Ctx) {
   const { company, site } = lead;
   const year = new Date(lead.date).getFullYear();
   return (
     <footer className="border-t border-t-line bg-t-bg">
       <div className="mx-auto grid max-w-site gap-10 px-4 py-14 text-sm sm:px-6 md:grid-cols-4">
         <div className="md:col-span-2">
-          <Logo lead={lead} />
-          <p className="mt-4 max-w-sm text-t-muted">{company.trade} für {company.serviceArea.slice(0, 4).join(", ")} und Umgebung.</p>
+          <Logo lead={lead} theme={theme} />
+          <p className="mt-4 max-w-sm text-t-muted">{company.trade} für {company.serviceArea.filter((x) => !/umgebung/i.test(x)).slice(0, 4).join(", ")} und Umgebung.</p>
         </div>
         <div>
           <p className="font-bold">Seiten</p>

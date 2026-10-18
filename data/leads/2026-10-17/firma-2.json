@@ -402,6 +402,15 @@
         "Ich plane erst noch"
       ]
     },
-    "stickyCta": "Rückruf anfragen"
+    "stickyCta": "Rückruf anfragen",
+    "look": {
+      "palette": 1,
+      "font": 8,
+      "hero": 2,
+      "services": 0,
+      "radius": 1,
+      "logo": 2,
+      "intro": 1
+    }
   }
 }

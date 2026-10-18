@@ -324,6 +324,15 @@
         "Ich plane erst noch"
       ]
     },
-    "stickyCta": "WhatsApp-Anfrage"
+    "stickyCta": "WhatsApp-Anfrage",
+    "look": {
+      "palette": 2,
+      "font": 3,
+      "hero": 3,
+      "services": 1,
+      "radius": 4,
+      "logo": 3,
+      "intro": 2
+    }
   }
 }

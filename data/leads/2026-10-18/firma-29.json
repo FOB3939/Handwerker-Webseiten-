@@ -22,13 +22,13 @@
   "listings": {
     "google": {
       "url": "https://www.google.com/maps/search/?api=1&query=Murat%20%C3%96zerol%20Elektrotechnik%20Elisabeth-Dane-Stra%C3%9Fe%2032%20M%C3%BCnchen",
-      "rating": 5.0,
+      "rating": 5,
       "reviews": 23,
       "evidence": "INDIREKT – kein direkter google.com/maps/place-Treffer. Der Places-Spiegel MerhabaMap (merhabamap.com/de/places/…) zeigt den Betrieb mit Adresse Elisabeth-Dane-Straße 32, 81829 München, Öffnungszeiten und 5,0/5 bei 23 Bewertungen (Stand 01.08.2026) – typische Google-Places-Daten, Quelle aber nicht ausdrücklich als Google benannt. In den Snippets war KEIN Website-Feld und keine Telefonnummer zu sehen. Vor Versand in Google Maps verifizieren."
     },
     "myhammer": {
       "url": "https://www.my-hammer.de/auftragnehmer/murat-oezerol-elektrotechnik",
-      "rating": 5.0,
+      "rating": 5,
       "reviews": 41,
       "evidence": "MyHammer-Profil „Profil von Murat Özerol Elektrotechnik in München“ in Suchergebnissen belegt: 5/5 bei 41 Bewertungen (auf den Ortslisten Haar/Aschheim 5/5 bei 48 Bewertungen – Zahl je Unterseite unterschiedlich). Profiltext: junges, engagiertes Meisterunternehmen Elektrotechnik; Inhaber gelernter Elektriker und studierter Elektrotechniker, Gründung Anfang 2025. Gelistet auf den MyHammer-Ortslisten Elektriker Haar und Aschheim sowie Energieberater Aschheim/Haar/Putzbrunn/Grasbrunn."
     }
@@ -298,7 +298,7 @@
       ],
       "source": "MyHammer",
       "sourceUrl": "https://www.my-hammer.de/auftragnehmer/murat-oezerol-elektrotechnik/bewertungen",
-      "rating": 5.0,
+      "rating": 5,
       "count": 41
     },
     "process": {
@@ -411,6 +411,15 @@
         "Ich plane erst noch"
       ]
     },
-    "stickyCta": "Jetzt anfragen"
+    "stickyCta": "Jetzt anfragen",
+    "look": {
+      "palette": 2,
+      "font": 3,
+      "hero": 1,
+      "services": 0,
+      "radius": 2,
+      "logo": 1,
+      "intro": 4
+    }
   }
 }

@@ -410,6 +410,15 @@
       "Lackieren oder Ölen",
       "Treppen aufarbeiten",
       "Parkett verlegen"
-    ]
+    ],
+    "look": {
+      "palette": 2,
+      "font": 0,
+      "hero": 0,
+      "services": 0,
+      "radius": 0,
+      "logo": 4,
+      "intro": 1
+    }
   }
 }

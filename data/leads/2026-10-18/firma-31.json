@@ -400,6 +400,15 @@
         "Ich plane erst noch"
       ]
     },
-    "stickyCta": "Anfrage senden"
+    "stickyCta": "Anfrage senden",
+    "look": {
+      "palette": 5,
+      "font": 13,
+      "hero": 3,
+      "services": 1,
+      "radius": 3,
+      "logo": 3,
+      "intro": 2
+    }
   }
 }
