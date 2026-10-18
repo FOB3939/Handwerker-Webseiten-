@@ -913,6 +913,200 @@
       "websiteStatus": "keine eigene Website gefunden",
       "websiteRisk": "mittel",
       "reserve": true
+    },
+    {
+      "company": "BA-Haussanierungen",
+      "slug": "ba-haussanierungen-ottobrunn",
+      "trade": "Haussanierung, Trockenbau & Renovierung",
+      "city": "Ottobrunn",
+      "date": "2026-10-18",
+      "phone": "0173 6720675",
+      "email": "ba-haussanierungen@t-online.de",
+      "googleLink": "https://www.google.com/maps/search/?api=1&query=BA-Haussanierungen%20Am%20Brunneck%2010%20Ottobrunn",
+      "googleVerified": false,
+      "myhammerLink": "https://www.auftragsbank.de/firmen/ba-haussanierungen/107078",
+      "myhammerRating": null,
+      "myhammerReviews": null,
+      "sources": [
+        "https://www.11880.com/branchenbuch/ottobrunn/292245417B112523648/ba-haussanierungen.html",
+        "https://www.11880.com/suche/trockenbau/ottobrunn",
+        "https://www.gelbeseiten.de/gsbiz/89282df8-651f-4361-b91c-06a6b6a27165",
+        "https://www.auftragsbank.de/firmen/ba-haussanierungen/107078",
+        "https://www.auftragsbank.de/gesuche/haussanierungen-auftraege-gesucht-mit-wohnsitz-der-firma-in-muenche/177974",
+        "https://www.blauarbeit.de/handwerker/muenchen/ba-haussanierungen"
+      ],
+      "websiteStatus": "keine eigene Website gefunden",
+      "websiteRisk": "mittel"
+    },
+    {
+      "company": "Domi Garten- und Hausmeisterservice",
+      "slug": "gartenpflege-hausmeister-domi-ismaning",
+      "trade": "Gartenpflege & Hausmeisterservice",
+      "city": "Ismaning",
+      "date": "2026-10-18",
+      "phone": "01522 9783337",
+      "email": "domihgservice@gmail.com",
+      "googleLink": "https://www.google.com/maps/search/?api=1&query=Domi%20Garten%20und%20Hausmeisterservice%20Wiesstr.%2023%20Ismaning",
+      "googleVerified": false,
+      "myhammerLink": "https://www.11880.com/suche/gartenbau/ismaning",
+      "myhammerRating": null,
+      "myhammerReviews": null,
+      "sources": [
+        "https://www.11880.com/suche/gartenbau/ismaning",
+        "https://www.kleinanzeigen.de/s-anzeige/gartenpflege-in-muenchen-umgebung-schnell-guenstig-/3146033892-239-17192"
+      ],
+      "websiteStatus": "keine eigene Website gefunden",
+      "websiteRisk": "niedrig"
+    },
+    {
+      "company": "Theo-M.T.B",
+      "slug": "gartenbau-theo-mtb-neufahrn",
+      "trade": "Garten- und Landschaftsbau",
+      "city": "Neufahrn",
+      "date": "2026-10-18",
+      "phone": "0155 10087163",
+      "email": "theogartenbau89@gmail.com",
+      "googleLink": "https://www.google.com/maps/search/?api=1&query=Theo-M.T.B%20Georg-Stegschuster-Str.%201%20Neufahrn",
+      "googleVerified": false,
+      "myhammerLink": "https://www.11880.com/branchenbuch/neufahrn-bei-freising/170211840B113020867/theo-m-t-b.html",
+      "myhammerRating": null,
+      "myhammerReviews": null,
+      "sources": [
+        "https://www.11880.com/branchenbuch/neufahrn-bei-freising/170211840B113020867/theo-m-t-b.html",
+        "https://www.11880.com/suche/gartenbau/neufahrn"
+      ],
+      "websiteStatus": "keine eigene Website gefunden",
+      "websiteRisk": "mittel"
+    },
+    {
+      "company": "Baumpflege Kanka",
+      "slug": "baumpflege-kanka-neufahrn",
+      "trade": "Baumpflege & Pflasterarbeiten",
+      "city": "Neufahrn bei Freising",
+      "date": "2026-10-18",
+      "phone": "0176 37818492",
+      "email": "baumpflege-kanka@web.de",
+      "googleLink": "https://www.google.com/maps/search/?api=1&query=Baumpflege%20Kanka%20Bahnhofstr.%2042%20Neufahrn%20bei%20Freising",
+      "googleVerified": false,
+      "myhammerLink": "https://www.11880.com/branchenbuch/neufahrn-bei-freising/170210582B112542846/baumpflege-kanka.html",
+      "myhammerRating": null,
+      "myhammerReviews": null,
+      "sources": [
+        "https://www.11880.com/branchenbuch/neufahrn-bei-freising/170210582B112542846/baumpflege-kanka.html",
+        "https://www.11880.com/suche/baumpflege/neufahrn",
+        "https://suchehandwerker.de/betrieb/baumpflege-kanka-58997/"
+      ],
+      "websiteStatus": "keine eigene Website gefunden",
+      "websiteRisk": "niedrig"
+    },
+    {
+      "company": "Sbau Galabau",
+      "slug": "sbau-galabau-oberding",
+      "trade": "Garten- und Landschaftsbau",
+      "city": "Oberding",
+      "date": "2026-10-18",
+      "phone": "0172 6402400",
+      "email": null,
+      "googleLink": "https://www.google.com/maps/search/?api=1&query=Sbau%20Galabau%20Freisinger%20Str.%2076%20Oberding",
+      "googleVerified": false,
+      "myhammerLink": "https://www.11880.com/branchenbuch/oberding/170211840B108364472/sbau-galabau.html",
+      "myhammerRating": null,
+      "myhammerReviews": null,
+      "sources": [
+        "https://www.11880.com/branchenbuch/oberding/170211840B108364472/sbau-galabau.html",
+        "https://www.11880.com/suche/gartenbau/oberding",
+        "https://www.aroundhome.de/fachfirmen/firma/5d7fa90d1053275d35538cb2-1/",
+        "https://onlinestreet.de/strassen/Freisinger+Stra%C3%9Fe.Oberding.478731.html"
+      ],
+      "websiteStatus": "keine eigene Website gefunden",
+      "websiteRisk": "mittel"
+    },
+    {
+      "company": "Andrzej Jedraszczak Fliesenleger & Hausmeisterservice",
+      "slug": "fliesenleger-jedraszczak-karlsfeld",
+      "trade": "Fliesenleger & Hausmeisterservice",
+      "city": "Karlsfeld",
+      "date": "2026-10-18",
+      "phone": "01517 451358",
+      "email": null,
+      "googleLink": "https://www.google.com/maps/search/?api=1&query=Andrzej%20Jedraszczak%20Fliesenleger%20Karlsfeld",
+      "googleVerified": false,
+      "myhammerLink": "https://www.11880.com/suche/fliesenleger/karlsfeld",
+      "myhammerRating": null,
+      "myhammerReviews": null,
+      "sources": [
+        "https://www.11880.com/suche/fliesenleger/karlsfeld",
+        "https://www.11880.com/suche/hausmeisterservice/karlsfeld",
+        "https://www.11880.com/suche/hausservice/karlsfeld"
+      ],
+      "websiteStatus": "keine eigene Website gefunden",
+      "websiteRisk": "mittel",
+      "reserve": true
+    },
+    {
+      "company": "CM Trockenbau",
+      "slug": "trockenbau-cm-emmering",
+      "trade": "Trockenbau",
+      "city": "Emmering",
+      "date": "2026-10-18",
+      "phone": "0176 84644837",
+      "email": null,
+      "googleLink": "https://www.google.com/maps/search/?api=1&query=CM%20Trockenbau%20Mitterfeldweg%2011%20Emmering",
+      "googleVerified": false,
+      "myhammerLink": "https://www.11880.com/branchenbuch/emmering-kreis-fuerstenfeldbruck/292245417B102405971/cm-trockenbau.html",
+      "myhammerRating": null,
+      "myhammerReviews": null,
+      "sources": [
+        "https://www.11880.com/branchenbuch/emmering-kreis-fuerstenfeldbruck/292245417B102405971/cm-trockenbau.html",
+        "https://www.11880.com/suche/trockenbau/emmering",
+        "https://cm-trockenbau.at/impressum/"
+      ],
+      "websiteStatus": "keine eigene Website gefunden",
+      "websiteRisk": "mittel",
+      "reserve": true
+    },
+    {
+      "company": "Malsor Ceku – Bodenleger",
+      "slug": "bodenleger-ceku-germering",
+      "trade": "Bodenleger, Möbelmontage & Hausmeisterservice",
+      "city": "Germering",
+      "date": "2026-10-18",
+      "phone": "01573 3664453",
+      "email": null,
+      "googleLink": "https://www.google.com/maps/search/?api=1&query=Malsor%20Ceku%20Bodenleger%20Germering",
+      "googleVerified": false,
+      "myhammerLink": "https://handwerk.check24.de/craftsmen/cs/profile/sp_JBgx5",
+      "myhammerRating": null,
+      "myhammerReviews": null,
+      "sources": [
+        "https://handwerk.check24.de/craftsmen/cs/profile/sp_JBgx5",
+        "https://www.11880.com/suche/bodenleger/germering"
+      ],
+      "websiteStatus": "keine eigene Website gefunden",
+      "websiteRisk": "mittel",
+      "reserve": true
+    },
+    {
+      "company": "Roland Bodenleger",
+      "slug": "bodenleger-roland-hreniuc-neubiberg",
+      "trade": "Bodenleger, Fliesen & Trockenbau",
+      "city": "Neubiberg",
+      "date": "2026-10-18",
+      "phone": "0174 7391115",
+      "email": null,
+      "googleLink": "https://www.google.com/maps/search/?api=1&query=Roland%20Bodenleger%20Freiherr-von-Stengel-Str.%2010%20Neubiberg",
+      "googleVerified": false,
+      "myhammerLink": "https://www.blauarbeit.de/handwerker/muenchen/roland-hreniuc-boderleger",
+      "myhammerRating": null,
+      "myhammerReviews": null,
+      "sources": [
+        "https://www.blauarbeit.de/handwerker/muenchen/roland-hreniuc-boderleger",
+        "https://www.11880.com/suche/trockenbau/neubiberg",
+        "https://www.11880.com/suche/bodenleger/ottobrunn"
+      ],
+      "websiteStatus": "keine eigene Website gefunden",
+      "websiteRisk": "mittel",
+      "reserve": true
     }
   ],
   "rejected": [
@@ -1748,6 +1942,131 @@
     {
       "company": "Maik Lindner Malerarbeiten (Poing)",
       "reason": "eigene Website",
+      "date": "2026-10-18"
+    },
+    {
+      "company": "BLZMontage (Karlsfeld)",
+      "reason": ">50 Bewertungen, PV-Montage",
+      "date": "2026-10-18"
+    },
+    {
+      "company": "Mato Bauservice (Dachau)",
+      "reason": "eigene Website",
+      "date": "2026-10-18"
+    },
+    {
+      "company": "TK-Trockenbau Kraus (Dachau)",
+      "reason": "eigene Website",
+      "date": "2026-10-18"
+    },
+    {
+      "company": "Altenbuchinger Hausmeisterservice (Karlsfeld)",
+      "reason": "eigene Website",
+      "date": "2026-10-18"
+    },
+    {
+      "company": "Helmut Prommersberger Elektro (Hebertshausen)",
+      "reason": "Domain-E-Mail",
+      "date": "2026-10-18"
+    },
+    {
+      "company": "JL Hausmeisterservice (Karlsfeld)",
+      "reason": "eigene Website",
+      "date": "2026-10-18"
+    },
+    {
+      "company": "Hausmeisterei Fuchs (Karlsfeld)",
+      "reason": "eigene Website",
+      "date": "2026-10-18"
+    },
+    {
+      "company": "Ajan Trockenbau (Fürstenfeldbruck)",
+      "reason": "Website im Verzeichnis",
+      "date": "2026-10-18"
+    },
+    {
+      "company": "Tosic Trockenbau (Olching)",
+      "reason": "eigene Website",
+      "date": "2026-10-18"
+    },
+    {
+      "company": "Malermeister Duhm (Maisach)",
+      "reason": "eigene Website",
+      "date": "2026-10-18"
+    },
+    {
+      "company": "P&M Elektrotechnik (Gröbenzell)",
+      "reason": "eigene Website",
+      "date": "2026-10-18"
+    },
+    {
+      "company": "Trockenbau Wojtkow (Fürstenfeldbruck)",
+      "reason": "Domain-E-Mail",
+      "date": "2026-10-18"
+    },
+    {
+      "company": "Sefaj (Olching)",
+      "reason": "mögliche Google-Sites-Seite",
+      "date": "2026-10-18"
+    },
+    {
+      "company": "Sabit Fazliu Fliesen (Puchheim)",
+      "reason": "eigene Website",
+      "date": "2026-10-18"
+    },
+    {
+      "company": "Der Elektromeister Bayern (Germering)",
+      "reason": "eigene Domain",
+      "date": "2026-10-18"
+    },
+    {
+      "company": "Baulux Bauservice (Planegg)",
+      "reason": "eigene Website",
+      "date": "2026-10-18"
+    },
+    {
+      "company": "Konstantin Kiss Fliesen (Germering)",
+      "reason": "eigene Website",
+      "date": "2026-10-18"
+    },
+    {
+      "company": "Sanierung direkt Kopplin (Taufkirchen)",
+      "reason": "eigene Website",
+      "date": "2026-10-18"
+    },
+    {
+      "company": "L.s Hausmeisterservice (Haar)",
+      "reason": "eigene Website",
+      "date": "2026-10-18"
+    },
+    {
+      "company": "Armanazi Hausmeisterservice (Haar)",
+      "reason": ">100 Bewertungen",
+      "date": "2026-10-18"
+    },
+    {
+      "company": "Dula Trockenbau (Unterschleißheim)",
+      "reason": "eigene Website",
+      "date": "2026-10-18"
+    },
+    {
+      "company": "Sönmez Handwerk (Unterschleißheim)",
+      "reason": "eigene Website",
+      "date": "2026-10-18"
+    },
+    {
+      "company": "Schwagerbau (Unterschleißheim)",
+      "reason": "eigene Website",
+      "date": "2026-10-18"
+    },
+    {
+      "company": "Heiko Schneider Gartenbau (Neufahrn)",
+      "reason": "eigene Website",
+      "date": "2026-10-18"
+    },
+    {
+      "company": "Durmishi Bodenleger (Germering)",
+      "reason": "mögliche Website delta-kg.de (ungeklärt)",
       "date": "2026-10-18"
     }
   ]

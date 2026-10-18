@@ -1,19 +1,173 @@
 {
   "info": "Noch ungeprüfte Handwerker-Kandidaten aus früheren Läufen. Jeder Lauf prüft zuerst diese (oben = vielversprechend), entfernt geprüfte Einträge (angenommen → leads, verworfen → rejected in lead-history.json) und ergänzt neue Funde, für die das Suchbudget nicht reichte.",
   "candidates": [
-    {"name": "BLZMontage", "trade": "Elektro", "city": "Karlsfeld", "hint": "trustlocal 9,8 (Google-Beleg); Inhaber/Telefon fehlen – Profil unter trustlocal.de/bayern/karlsfeld/elektriker/ suchen"},
-    {"name": "RT Raumgestaltung / Thomas Rehm", "trade": "Renovierung/Maler", "city": "Dachau/Haimhausen", "hint": "MyHammer 4,5 (10), blauarbeit, Check24; 8 Domains negativ; Google/Telefon fehlen"},
-    {"name": "Johann Pfrieger Fliesenlegerei", "trade": "Fliesen", "city": "Olching", "hint": "Mozartstr. 19, 08142 30919; Domain negativ; Google-/Freemail-Beleg fehlt"},
-    {"name": "Pedro-Bau.A3", "trade": "Bau/Renovierung", "city": "Wartenberg", "hint": "MyHammer 14 Bewertungen; keine eigene Domain gefunden; Kontakt fehlt"},
-    {"name": "ISIC-hausservice", "trade": "Hausmeister", "city": "Freising", "hint": "MyHammer 5,0 (15); Kontakt fehlt"},
-    {"name": "Ateş (Fliesen/Renovierung)", "trade": "Fliesen", "city": "Tutzing", "hint": "MyHammer 4,7 (7); sonst nichts gefunden"},
-    {"name": "GT Fliesen (Santoro?)", "trade": "Fliesen", "city": "Olching", "hint": "MyHammer 5,0 (19); Inhaber/Telefon fehlen"},
-    {"name": "Hausmeisterservice Benjamin Zeck", "trade": "Hausmeister", "city": "Neufahrn", "hint": "nur MyHammer"},
-    {"name": "Lautenbacher Elektrobau", "trade": "Elektro", "city": "Murnau", "hint": "MyHammer, ungeprüft"},
-    {"name": "Tk Elektrotechnik", "trade": "Elektro", "city": "Murnau", "hint": "MyHammer, ungeprüft"},
-    {"name": "Andreas Waal Trockenbau", "trade": "Trockenbau", "city": "Penzberg", "hint": "ungeprüft"},
-    {"name": "Attila Riegel Malermeister", "trade": "Maler", "city": "Miesbach", "hint": "MyHammer 4,8 (16), ungeprüft"},
-    {"name": "LechRein GbR (Schleich)", "trade": "Entrümpelung/Reinigung", "city": "Kaufering", "hint": "gegründet 2026; Telefon/Google fehlen"},
-    {"name": "Hamad Maler- und Verputzarbeiten", "trade": "Maler", "city": "Weilheim", "hint": "sellwerk-Profil (prüfen, ob als Website gilt)"}
+    {
+      "name": "Johann Pfrieger Fliesenlegerei",
+      "trade": "Fliesen",
+      "city": "Olching",
+      "hint": "Mozartstr. 19, 08142 30919; Domain negativ; Google-/Freemail-Beleg fehlt"
+    },
+    {
+      "name": "Pedro-Bau.A3",
+      "trade": "Bau/Renovierung",
+      "city": "Wartenberg",
+      "hint": "MyHammer 14 Bewertungen; keine eigene Domain gefunden; Kontakt fehlt"
+    },
+    {
+      "name": "ISIC-hausservice",
+      "trade": "Hausmeister",
+      "city": "Freising",
+      "hint": "MyHammer 5,0 (15); Kontakt fehlt"
+    },
+    {
+      "name": "Ateş (Fliesen/Renovierung)",
+      "trade": "Fliesen",
+      "city": "Tutzing",
+      "hint": "MyHammer 4,7 (7); sonst nichts gefunden"
+    },
+    {
+      "name": "GT Fliesen (Santoro?)",
+      "trade": "Fliesen",
+      "city": "Olching",
+      "hint": "MyHammer 5,0 (19); Inhaber/Telefon fehlen"
+    },
+    {
+      "name": "Hausmeisterservice Benjamin Zeck",
+      "trade": "Hausmeister",
+      "city": "Neufahrn",
+      "hint": "nur MyHammer"
+    },
+    {
+      "name": "Lautenbacher Elektrobau",
+      "trade": "Elektro",
+      "city": "Murnau",
+      "hint": "MyHammer, ungeprüft"
+    },
+    {
+      "name": "Tk Elektrotechnik",
+      "trade": "Elektro",
+      "city": "Murnau",
+      "hint": "MyHammer, ungeprüft"
+    },
+    {
+      "name": "Andreas Waal Trockenbau",
+      "trade": "Trockenbau",
+      "city": "Penzberg",
+      "hint": "ungeprüft"
+    },
+    {
+      "name": "Attila Riegel Malermeister",
+      "trade": "Maler",
+      "city": "Miesbach",
+      "hint": "MyHammer 4,8 (16), ungeprüft"
+    },
+    {
+      "name": "LechRein GbR (Schleich)",
+      "trade": "Entrümpelung/Reinigung",
+      "city": "Kaufering",
+      "hint": "gegründet 2026; Telefon/Google fehlen"
+    },
+    {
+      "name": "Hamad Maler- und Verputzarbeiten",
+      "trade": "Maler",
+      "city": "Weilheim",
+      "hint": "sellwerk-Profil (prüfen, ob als Website gilt)"
+    },
+    {
+      "name": "P&C InnoBau",
+      "trade": "Bau/Fliesen/Maler/Trockenbau",
+      "city": "Unterschleißheim",
+      "hint": "Ganghoferstr. 15, Mobil 0176 16376264; Name, 8 Domains, Telefon negativ; Google/Freemail fehlt"
+    },
+    {
+      "name": "Rudolf Paraj Baugewerbe",
+      "trade": "Fliesen/Abbruch",
+      "city": "Unterschleißheim-Hollern",
+      "hint": "0176 62317877 (11880)"
+    },
+    {
+      "name": "Malereibetrieb M S",
+      "trade": "Maler/Trockenbau",
+      "city": "Garching",
+      "hint": "Römerhofweg 49, 0176 84899607 (11880)"
+    },
+    {
+      "name": "Magnus von Terzi GaLaBau",
+      "trade": "GaLaBau",
+      "city": "Neufahrn",
+      "hint": "trustlocal 5,0 (3) = Google-Beleg"
+    },
+    {
+      "name": "Baumpflege Kramer",
+      "trade": "Baumpflege",
+      "city": "Neufahrn",
+      "hint": "11880"
+    },
+    {
+      "name": "Baumpflege Hauser",
+      "trade": "Baumpflege",
+      "city": "Eching",
+      "hint": "11880"
+    },
+    {
+      "name": "Der Fliesen-Magier",
+      "trade": "Fliesen/Boden/Trockenbau",
+      "city": "Germering",
+      "hint": "Parkstr. 2, 0177 1905202 (11880)"
+    },
+    {
+      "name": "PATRIKETT Parkett",
+      "trade": "Bodenleger",
+      "city": "Germering",
+      "hint": "Nelkenstr. 32, 0176 23417738 (11880)"
+    },
+    {
+      "name": "Baum- und Gartenpflege Olching",
+      "trade": "Gartenpflege",
+      "city": "Olching",
+      "hint": "trustlocal-Profil (Google-Beleg wahrscheinlich)"
+    },
+    {
+      "name": "Balint Innenausbau & Trockenbau",
+      "trade": "Trockenbau",
+      "city": "Fürstenfeldbruck",
+      "hint": "Ahornstr. 1 (11880), Telefon fehlt"
+    },
+    {
+      "name": "Attila Nemeth Fliesenleger",
+      "trade": "Fliesen",
+      "city": "Olching",
+      "hint": "11880 (2023)"
+    },
+    {
+      "name": "Jimmy Müller Trockenbau",
+      "trade": "Trockenbau",
+      "city": "Mammendorf",
+      "hint": "11880"
+    },
+    {
+      "name": "Syfra Hausmeisterdienste / MH-Dienstleistungen",
+      "trade": "Hausmeister",
+      "city": "Haar",
+      "hint": "trustlocal = Google-Beleg"
+    },
+    {
+      "name": "BT-Trockenbau",
+      "trade": "Trockenbau",
+      "city": "Ottobrunn",
+      "hint": "Zeisigstr. 14"
+    },
+    {
+      "name": "Christoph Niedersteiner Malewerk",
+      "trade": "Maler",
+      "city": "Markt Indersdorf",
+      "hint": "11880"
+    },
+    {
+      "name": "CL-Altbausanierung",
+      "trade": "Fliesen",
+      "city": "Karlsfeld",
+      "hint": "Richard-Wagner-Str. 13"
+    }
   ]
 }

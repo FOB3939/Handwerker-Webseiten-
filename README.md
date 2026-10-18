@@ -82,6 +82,15 @@ Claude-Artifacts veröffentlicht und über das Share-Menü gezielt an den jeweil
 | 2026-10-18 | Trockenbau Spehar (Reserve) | https://claude.ai/artifact/QZGq9NRqX9TeuxhpWRnkWt |
 | 2026-10-18 | Antonio Di Venuta Fliesenleger (Reserve) | https://claude.ai/artifact/DSfJAByX2h6wAZzK7qBckC |
 | 2026-10-18 | WIR WIR (Reserve) | https://claude.ai/artifact/Shb9dz4BStpMhMfufnzJFD |
+| 2026-10-18 | BA-Haussanierungen | https://claude.ai/artifact/B3mH2pcu8nzzLihdre518f |
+| 2026-10-18 | Domi Garten- und Hausmeisterservice | https://claude.ai/artifact/TbAsYUjdBsYd3BMhPLt6vk |
+| 2026-10-18 | Theo-M.T.B | https://claude.ai/artifact/DbpShgr38Uv82zikuGmj5B |
+| 2026-10-18 | Baumpflege Kanka | https://claude.ai/artifact/BQbMSby672SnxcphP6Ysyc |
+| 2026-10-18 | Sbau Galabau | https://claude.ai/artifact/RLuxz3GD284ovdRvVT74sc |
+| 2026-10-18 | Andrzej Jedraszczak Fliesenleger & Hausmeisterservice (Reserve) | https://claude.ai/artifact/NkvtaQ3L8hvrnFxaJr2EPP |
+| 2026-10-18 | CM Trockenbau (Reserve) | https://claude.ai/artifact/DivRL6ZqKmKPU7V6MtTXgd |
+| 2026-10-18 | Malsor Ceku – Bodenleger (Reserve) | https://claude.ai/artifact/FFGjceCu7FFxLL35r76Z8x |
+| 2026-10-18 | Roland Bodenleger (Reserve) | https://claude.ai/artifact/QMHGLrewZYyCj89gNQb1SQ |
 
 ## Design-Standard der Entwürfe
 
