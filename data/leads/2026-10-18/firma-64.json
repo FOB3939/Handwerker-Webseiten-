@@ -1,0 +1,365 @@
+{
+  "id": "2026-10-18-64",
+  "slug": "bodenleger-ceku-germering",
+  "date": "2026-10-18",
+  "company": {
+    "name": "Malsor Ceku – Bodenleger",
+    "owner": "Malsor Ceku",
+    "trade": "Bodenleger, Möbelmontage & Hausmeisterservice",
+    "city": "Germering",
+    "address": null,
+    "phone": "01573 3664453",
+    "email": null,
+    "serviceArea": [
+      "Germering"
+    ]
+  },
+  "listings": {
+    "google": {
+      "url": "https://www.google.com/maps/search/?api=1&query=Malsor%20Ceku%20Bodenleger%20Germering",
+      "rating": null,
+      "reviews": null,
+      "evidence": "INDIREKT/NICHT VERIFIZIERT – WebSearch mit allowed_domains google.com/google.de („Malsor Ceku Bodenleger Germering“) lieferte keine maps/place-Seite; kein trustlocal-Treffer. Keine Freemail-Adresse belegt. Ein Website-Feld war in keiner Quelle zu sehen. RESERVE-Kandidat."
+    },
+    "myhammer": {
+      "url": "https://handwerk.check24.de/craftsmen/cs/profile/sp_JBgx5",
+      "rating": null,
+      "reviews": null,
+      "evidence": "Kein MyHammer – Check24-Handwerkerprofil „Malsor Ceku in Germering“ (Bodenverlegung Vinyl/Laminat/Parkett/Teppich, Trockenbau & Akustik, Montage, Büro- und Gebäudereinigung; für Privat- und Geschäftskunden). Zusätzlich 11880-Eintrag „Malsor Ceku - Bodenleger“ (Bodenleger, Möbelmontage & Hausmeisterservice, Germering, Mobil 01573 3664453, keine Website)."
+    }
+  },
+  "websiteStatus": "keine eigene Website gefunden",
+  "websiteChecks": [
+    "(1) „Malsor Ceku Germering“ mit blocked_domains (11880, Gelbe Seiten, Das Örtliche, Das Telefonbuch, Cylex, meinestadt, Creditreform, Facebook, Instagram, golocal, MyHammer, Northdata, Firmenwissen, WerkenntdenBesten, Yelp, trustlocal, wlw) – negativ (Vorprüfung): keine eigene Domain",
+    "(2) Telefonsuche „01573 3664453“ mit denselben blocked_domains – keine Website",
+    "(3) Domainprüfung allowed_domains ceku.de, malsor-ceku.de, ceku-bodenleger.de, bodenleger-ceku.de – keine Treffer zum Betrieb",
+    "(4) Impressum-Suche „Impressum Malsor Ceku Germering Bodenleger“ mit blocked_domains – kein eigenes Impressum, nur Check24-Profil und fremde Betriebe (tpk-fussbodentechnik, patrikett, meisterbetrieb-pfeil u. a.)",
+    "(5) Verzeichnisse 11880/Check24: kein Website-Feld; E-Mail-Adresse nicht belegt (keine Freemail nachgewiesen)",
+    "(6) Google-Maps-Suche (allowed google.com/google.de) – kein Place-Treffer, damit kein Website-Feld sichtbar",
+    "Website-Risiko: mittel – alle Prüfungen negativ, aber weder Google-Eintrag noch Freemail belegt (RESERVE)"
+  ],
+  "facts": {
+    "services": [
+      "Bodenverlegung (Vinyl, Laminat, Parkett, Teppich)",
+      "Trockenbau & Akustik",
+      "Montagearbeiten / Möbelmontage",
+      "Hausmeisterservice",
+      "Büro- und Gebäudereinigung"
+    ],
+    "experience": null,
+    "praisedFor": []
+  },
+  "strategy": {
+    "audience": "Privatkunden, Vermieter und kleine Gewerbe in Germering und Umgebung, die neue Böden, Montagen oder laufende Hausbetreuung brauchen",
+    "mainService": "Bodenverlegung (Vinyl, Laminat, Parkett, Teppich)",
+    "trustSignal": "Persönlicher Ansprechpartner Malsor Ceku – direkt per Handy/WhatsApp erreichbar",
+    "conversionGoal": "Anfrage per WhatsApp oder Formular (Fotos, Raumgröße, gewünschter Bodenbelag)",
+    "visualConcept": "Warme Atelier-Optik: frisch verlegter Holz-/Vinylboden in hellem Raum, ordentliche Kanten und Leisten"
+  },
+  "sales": {
+    "score": 5,
+    "whyGoodLead": [
+      "Keine eigene Website gefunden – nur Check24- und 11880-Einträge",
+      "Mobilnummer öffentlich gelistet – per WhatsApp ansprechbar",
+      "Mehrere Leistungen (Boden, Montage, Hausmeister, Reinigung) – gut für eine Leistungsseite",
+      "RESERVE: Google-Eintrag und Freemail nicht belegt – nur nach Maps-Prüfung versenden"
+    ],
+    "pitch": "Hallo Herr Ceku, ich erstelle Websites für Handwerksbetriebe im Münchner Westen. Ich habe Sie als Bodenleger in Germering im Branchenverzeichnis gefunden, aber keine eigene Website. Ich habe dafür unverbindlich einen Entwurf gebaut – darf ich Ihnen den Link schicken?"
+  },
+  "manualChecks": [
+    "RESERVE – weder Google-Eintrag noch Freemail-Adresse belegt: NUR versenden, wenn Google Maps einen Eintrag OHNE Website zeigt.",
+    "Website-Risiko: mittel – vor Versand in Google Maps prüfen, dass keine Website hinterlegt ist (Grund: alle Suchen negativ, aber kein Google- oder Freemail-Beleg)",
+    "Google-Maps-Eintrag „Malsor Ceku Germering“ suchen: Existenz, Website-Feld, Bewertungen",
+    "Straße/Adresse nicht belegt – nur Ort Germering; address = null",
+    "Check24-Profil verlinkt ein Impressum, dessen Inhalt nicht geprüft werden konnte – vor Versand ansehen (eigene Domain dort = verwerfen)",
+    "Mobilnummer 01573 3664453 (11880) vor WhatsApp-Kontakt prüfen",
+    "Einsatzgebiet nicht belegt – nur Sitz Germering",
+    "Logo und Projektfotos: nicht gefunden – beim Betrieb anfragen"
+  ],
+  "sources": [
+    {
+      "label": "Check24 – Profil Malsor Ceku in Germering",
+      "url": "https://handwerk.check24.de/craftsmen/cs/profile/sp_JBgx5"
+    },
+    {
+      "label": "11880 – Bodenleger Germering (Eintrag Malsor Ceku)",
+      "url": "https://www.11880.com/suche/bodenleger/germering"
+    }
+  ],
+  "site": {
+    "theme": "atelier",
+    "category": "handwerk",
+    "heroOffer": [
+      "Vinyl & Laminat",
+      "Parkett",
+      "Teppichboden",
+      "Möbelmontage",
+      "Hausmeisterservice"
+    ],
+    "scene": "parquet",
+    "logoIcon": "plank",
+    "logoMark": "MC",
+    "brandName": "Ceku Bodenleger",
+    "seoTitle": "Bodenleger in Germering – Malsor Ceku",
+    "seoDescription": "Vinyl, Laminat, Parkett und Teppich verlegen, Möbelmontage und Hausmeisterservice in Germering. Malsor Ceku – jetzt unverbindlich anfragen.",
+    "nav": [
+      {
+        "label": "Leistungen",
+        "href": "#leistungen"
+      },
+      {
+        "label": "Projekte",
+        "href": "#projekte"
+      },
+      {
+        "label": "Bewertungen",
+        "href": "#bewertungen"
+      },
+      {
+        "label": "Ablauf",
+        "href": "#ablauf"
+      },
+      {
+        "label": "FAQ",
+        "href": "#faq"
+      },
+      {
+        "label": "Kontakt",
+        "href": "#kontakt"
+      }
+    ],
+    "hero": {
+      "eyebrow": "Bodenleger · Montage · Hausmeisterservice · Germering",
+      "headline": "Ihr Bodenleger in Germering – Vinyl, Laminat & Parkett sauber verlegt.",
+      "sub": "Malsor Ceku verlegt neue Böden, montiert Möbel und kümmert sich als Hausmeisterservice um Haus und Objekt – für Privat- und Geschäftskunden.",
+      "ctaPrimary": "Angebot anfragen",
+      "ctaSecondary": "Anrufen",
+      "bullets": [
+        "Vinyl, Laminat, Parkett und Teppich",
+        "Möbelmontage und Trockenbau",
+        "Direkter Kontakt per Handy/WhatsApp"
+      ],
+      "imageLabel": "frisch verlegter Holzboden in einem hellen Wohnraum"
+    },
+    "badges": [
+      {
+        "title": "Bodenverlegung",
+        "sub": "Vinyl, Laminat, Parkett"
+      },
+      {
+        "title": "Montage",
+        "sub": "Möbel & Einbauten"
+      },
+      {
+        "title": "Hausmeister",
+        "sub": "Betreuung & Reinigung"
+      },
+      {
+        "title": "Germering",
+        "sub": "Münchner Westen"
+      }
+    ],
+    "trust": [
+      {
+        "value": "Inhaber",
+        "label": "persönlicher Ansprechpartner"
+      },
+      {
+        "value": "5",
+        "label": "Leistungsbereiche"
+      },
+      {
+        "value": "Privat",
+        "label": "und Geschäftskunden"
+      },
+      {
+        "value": "Germering",
+        "label": "Betrieb vor Ort"
+      }
+    ],
+    "servicesIntro": {
+      "headline": "Boden, Montage, Betreuung",
+      "text": "Vom neuen Bodenbelag über die Möbelmontage bis zur laufenden Betreuung von Haus und Büro – ein Ansprechpartner für viele Aufgaben."
+    },
+    "services": [
+      {
+        "title": "Bodenverlegung",
+        "text": "Neue Böden für Wohnung, Haus oder Büro.",
+        "items": [
+          "Vinyl",
+          "Laminat",
+          "Parkett",
+          "Teppichboden"
+        ]
+      },
+      {
+        "title": "Trockenbau & Akustik",
+        "text": "Wände, Decken und bessere Raumakustik.",
+        "items": [
+          "Trockenbau",
+          "Akustik"
+        ]
+      },
+      {
+        "title": "Möbelmontage",
+        "text": "Möbel und Einbauten fachgerecht aufgebaut und montiert.",
+        "items": [
+          "Möbel aufbauen",
+          "Montagearbeiten"
+        ]
+      },
+      {
+        "title": "Hausmeisterservice",
+        "text": "Unterstützung rund um Haus und Objekt.",
+        "items": [
+          "Hausbetreuung",
+          "Kleine Arbeiten"
+        ]
+      },
+      {
+        "title": "Büro- & Gebäudereinigung",
+        "text": "Reinigung für Büros und Gebäude.",
+        "items": [
+          "Büroreinigung",
+          "Gebäudereinigung"
+        ]
+      }
+    ],
+    "why": {
+      "headline": "Ein Ansprechpartner für Boden und Haus.",
+      "points": [
+        {
+          "title": "Vieles aus einer Hand",
+          "text": "Boden, Montage, Hausmeister und Reinigung – Sie brauchen nicht mehrere Firmen."
+        },
+        {
+          "title": "Direkter Draht",
+          "text": "Sie sprechen direkt mit Malsor Ceku – per Telefon oder WhatsApp."
+        },
+        {
+          "title": "Privat und Gewerbe",
+          "text": "Für Wohnungen und Häuser ebenso wie für Büros und Objekte."
+        },
+        {
+          "title": "Aus Germering",
+          "text": "Kurze Wege in Germering und Umgebung."
+        }
+      ]
+    },
+    "reviews": {
+      "headline": "Was Kunden sagen",
+      "summary": "Kundenstimmen werden hier eingebunden, sobald sie aus dem Google-Eintrag übernommen sind.",
+      "highlights": [
+        "Bodenverlegung",
+        "Möbelmontage",
+        "Hausmeisterservice",
+        "Sitz in Germering"
+      ],
+      "source": "Google",
+      "sourceUrl": "https://www.google.com/maps/search/?api=1&query=Malsor%20Ceku%20Bodenleger%20Germering",
+      "rating": null,
+      "count": null
+    },
+    "process": {
+      "headline": "So kommen Sie zum neuen Boden",
+      "steps": [
+        {
+          "title": "Anfrage",
+          "text": "Fotos und Raumgröße schicken – per WhatsApp oder Formular."
+        },
+        {
+          "title": "Besichtigung",
+          "text": "Untergrund, Belag und Termin werden abgestimmt."
+        },
+        {
+          "title": "Angebot",
+          "text": "Sie erhalten ein klares Angebot."
+        },
+        {
+          "title": "Verlegung",
+          "text": "Sauber verlegter Boden und ordentliche Übergabe."
+        }
+      ]
+    },
+    "gallery": {
+      "headline": "Verlegte Böden",
+      "text": "Für die Live-Version zeigen wir hier echte Projekte des Betriebs.",
+      "items": [
+        {
+          "title": "Vinylboden",
+          "photoNeeded": "frisch verlegter Vinylboden"
+        },
+        {
+          "title": "Laminat",
+          "photoNeeded": "Laminat im Wohnzimmer"
+        },
+        {
+          "title": "Parkett",
+          "photoNeeded": "Parkettboden mit Sockelleiste"
+        },
+        {
+          "title": "Teppich",
+          "photoNeeded": "neuer Teppichboden im Schlafzimmer"
+        },
+        {
+          "title": "Montage",
+          "photoNeeded": "aufgebaute Möbel / Einbau"
+        }
+      ]
+    },
+    "region": {
+      "headline": "Bodenleger für Germering",
+      "text": "Malsor Ceku ist in Germering ansässig – fragen Sie gern auch aus den Nachbarorten an.",
+      "places": [
+        "Germering"
+      ]
+    },
+    "faq": [
+      {
+        "q": "Welche Böden verlegen Sie?",
+        "a": "Vinyl, Laminat, Parkett und Teppichboden."
+      },
+      {
+        "q": "Bauen Sie auch Möbel auf?",
+        "a": "Ja, Möbelmontage gehört zum Angebot."
+      },
+      {
+        "q": "Arbeiten Sie auch für Firmen?",
+        "a": "Ja – für Privat- und Geschäftskunden, inklusive Büro- und Gebäudereinigung."
+      },
+      {
+        "q": "Kann ich per WhatsApp anfragen?",
+        "a": "Gern – schicken Sie Fotos und ungefähre Maße an die Mobilnummer."
+      }
+    ],
+    "contact": {
+      "headline": "Ihr Angebot – unverbindlich",
+      "text": "Beschreiben Sie kurz Ihr Vorhaben: Raum, Fläche und gewünschter Belag oder Leistung. Fotos helfen.",
+      "topics": [
+        "Bodenverlegung",
+        "Trockenbau & Akustik",
+        "Möbelmontage",
+        "Hausmeisterservice",
+        "Reinigung",
+        "Sonstiges"
+      ],
+      "responseNote": "Besichtigung nach Absprache."
+    },
+    "quote": {
+      "sizeLabel": "Was soll gemacht werden?",
+      "sizes": [
+        "Ein Raum",
+        "Mehrere Räume",
+        "Ganze Wohnung / Haus",
+        "Büro / Gewerbe"
+      ],
+      "timings": [
+        "So bald wie möglich",
+        "In den nächsten Wochen",
+        "In 1–3 Monaten",
+        "Ich plane erst noch"
+      ]
+    },
+    "stickyCta": "Angebot anfragen"
+  }
+}

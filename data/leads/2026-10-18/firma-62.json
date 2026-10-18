@@ -1,0 +1,337 @@
+{
+  "id": "2026-10-18-62",
+  "slug": "trockenbau-cm-emmering",
+  "date": "2026-10-18",
+  "company": {
+    "name": "CM Trockenbau",
+    "owner": null,
+    "trade": "Trockenbau",
+    "city": "Emmering",
+    "address": "Mitterfeldweg 11, 82275 Emmering",
+    "phone": "0176 84644837",
+    "email": null,
+    "serviceArea": [
+      "Emmering"
+    ]
+  },
+  "listings": {
+    "google": {
+      "url": "https://www.google.com/maps/search/?api=1&query=CM%20Trockenbau%20Mitterfeldweg%2011%20Emmering",
+      "rating": null,
+      "reviews": null,
+      "evidence": "INDIREKT/NICHT VERIFIZIERT – WebSearch mit allowed_domains google.com/google.de/trustlocal.de lieferte keine maps/place-Seite und keinen trustlocal-Eintrag; keine Google-Bewertungen belegt. Ein Website-Feld war in keiner Quelle zu sehen (11880-Eintrag ohne Homepage)."
+    },
+    "myhammer": {
+      "url": "https://www.11880.com/branchenbuch/emmering-kreis-fuerstenfeldbruck/292245417B102405971/cm-trockenbau.html",
+      "rating": null,
+      "reviews": null,
+      "evidence": "Kein MyHammer – Eintrag in 11880 (Trockenbau Emmering): „CM TROCKENBAU“, Mitterfeldweg 11, 82275 Emmering, Tel. (0176) 84644837, keine Website, keine E-Mail."
+    }
+  },
+  "websiteStatus": "keine eigene Website gefunden",
+  "websiteChecks": [
+    "(1) „CM Trockenbau Emmering“ mit blocked_domains (11880, Gelbe Seiten, Das Örtliche, Das Telefonbuch, Cylex, meinestadt, Creditreform, Facebook, Instagram, golocal, MyHammer, Northdata, Firmenwissen, WerkenntdenBesten, Yelp, trustlocal, wlw) – nur gleichnamige Firma cm-trockenbau.at (Christian Müller, Wimpassing 26, 9433 St. Andrä, Österreich, andere Telefonnummer) – kein Bezug zu Emmering",
+    "(2) Telefonsuche „0176 84644837“ mit denselben blocked_domains – keine Website",
+    "(3) Domainprüfung per allowed_domains auf 8 naheliegende Domains (cm-trockenbau.de u. ä.) – keine Treffer",
+    "(4) Impressum-Suche „\"CM Trockenbau\" Emmering Impressum“ – nur Impressum der österreichischen Firma cm-trockenbau.at; kein Impressum mit Emmering-Adresse",
+    "(5) Verzeichnis 11880: kein Website-Feld, keine E-Mail angegeben (kein Freemail-Beleg)",
+    "(6) Google/trustlocal-Suche (allowed google.com, google.de, trustlocal.de) – kein Place-/trustlocal-Treffer, damit kein Website-Feld sichtbar, aber Google-Eintrag auch nicht belegt",
+    "Website-Risiko: mittel – alle Prüfungen negativ, aber weder Google-Eintrag noch Freemail belegt (RESERVE)"
+  ],
+  "facts": {
+    "services": [
+      "Trockenbau"
+    ],
+    "experience": null,
+    "praisedFor": []
+  },
+  "strategy": {
+    "audience": "Haus- und Wohnungseigentümer, Vermieter und kleine Gewerbe in Emmering und im Landkreis Fürstenfeldbruck",
+    "mainService": "Trockenbau",
+    "trustSignal": "Direkter Ansprechpartner per Handy/WhatsApp",
+    "conversionGoal": "Anfrage per WhatsApp oder Formular (mit Fotos und Raummaßen)",
+    "visualConcept": "Ruhige Stein- und Werkstoff-Optik: Gipskarton, Profile und klare Kanten in hellem Baulicht"
+  },
+  "sales": {
+    "score": 5,
+    "whyGoodLead": [
+      "Keine eigene Website gefunden – nur Verzeichniseintrag bei 11880",
+      "Mobilnummer öffentlich gelistet – per WhatsApp ansprechbar",
+      "Gleichnamige österreichische Firma belegt Suchergebnisse – eigene Website würde Verwechslungen vermeiden",
+      "Standort Emmering im Landkreis Fürstenfeldbruck"
+    ],
+    "pitch": "Hallo, ich erstelle Websites für Handwerksbetriebe im Münchner Westen. Ich habe CM Trockenbau aus Emmering im Branchenverzeichnis gefunden, aber keine eigene Website – bei der Suche erscheint stattdessen eine gleichnamige Firma aus Österreich. Ich habe unverbindlich einen Entwurf gebaut – darf ich Ihnen den Link schicken?"
+  },
+  "manualChecks": [
+    "RESERVE – weder Google-Eintrag noch Freemail-Adresse belegt: NUR versenden, wenn Google Maps einen Eintrag OHNE Website zeigt.",
+    "Website-Risiko: mittel – vor Versand in Google Maps prüfen, dass ein Eintrag existiert und keine Website hinterlegt ist (Grund: alle Suchen negativ, aber kein Google- und kein Freemail-Beleg)",
+    "Nicht verwechseln mit cm-trockenbau.at (Christian Müller, St. Andrä, Österreich – fremde Firma)",
+    "Inhabername unbekannt – im Pitch neutrale Anrede; beim Erstkontakt erfragen",
+    "Leistungen nur aus 11880-Kategorie „Trockenbau“ – Details (Wände, Decken, Dämmung etc.) beim Betrieb bestätigen",
+    "Mobilnummer 0176 84644837 (11880) vor WhatsApp-Kontakt prüfen",
+    "Keine E-Mail-Adresse bekannt",
+    "Einsatzgebiet (serviceArea) nicht belegt – nur Sitz Emmering; beim Betrieb bestätigen",
+    "Logo und Projektfotos: nicht gefunden – beim Betrieb anfragen"
+  ],
+  "sources": [
+    {
+      "label": "11880 – CM TROCKENBAU Emmering",
+      "url": "https://www.11880.com/branchenbuch/emmering-kreis-fuerstenfeldbruck/292245417B102405971/cm-trockenbau.html"
+    },
+    {
+      "label": "11880 – Trockenbauer Emmering",
+      "url": "https://www.11880.com/suche/trockenbau/emmering"
+    },
+    {
+      "label": "cm-trockenbau.at – gleichnamige Firma in Österreich (Abgrenzung)",
+      "url": "https://cm-trockenbau.at/impressum/"
+    }
+  ],
+  "site": {
+    "theme": "stein",
+    "category": "handwerk",
+    "heroOffer": [
+      "Trockenbau",
+      "Trockenbauwände",
+      "Decken im Trockenbau",
+      "Innenausbau-Anfragen"
+    ],
+    "scene": "drywall",
+    "logoIcon": "trowel",
+    "logoMark": "CM",
+    "brandName": "CM Trockenbau",
+    "seoTitle": "Trockenbau in Emmering – CM Trockenbau",
+    "seoDescription": "Trockenbau aus Emmering bei Fürstenfeldbruck. CM Trockenbau – direkt per Telefon oder WhatsApp unverbindlich anfragen.",
+    "hero": {
+      "eyebrow": "Trockenbau · Emmering",
+      "headline": "Ihr Trockenbauer in Emmering – direkt anfragen.",
+      "sub": "CM Trockenbau aus Emmering übernimmt Trockenbauarbeiten für Haus, Wohnung und Gewerbe. Schicken Sie Ihr Vorhaben – Sie erhalten eine direkte Rückmeldung.",
+      "ctaPrimary": "Angebot anfragen",
+      "ctaSecondary": "Anrufen",
+      "bullets": [
+        "Trockenbau",
+        "Direkter Kontakt per Telefon & WhatsApp",
+        "Sitz in Emmering"
+      ],
+      "imageLabel": "neue Trockenbauwand mit Profilen und Gipskartonplatten"
+    },
+    "badges": [
+      {
+        "title": "Trockenbau",
+        "sub": "Wände & Decken"
+      },
+      {
+        "title": "Direkt",
+        "sub": "per Telefon & WhatsApp"
+      },
+      {
+        "title": "Emmering",
+        "sub": "Mitterfeldweg"
+      },
+      {
+        "title": "Lkr. FFB",
+        "sub": "Münchner Westen"
+      }
+    ],
+    "trust": [
+      {
+        "value": "Direkt",
+        "label": "ein Ansprechpartner"
+      },
+      {
+        "value": "Trockenbau",
+        "label": "Kernleistung"
+      },
+      {
+        "value": "Mobil",
+        "label": "per Telefon & WhatsApp"
+      },
+      {
+        "value": "Emmering",
+        "label": "Betrieb vor Ort"
+      }
+    ],
+    "servicesIntro": {
+      "headline": "Trockenbau nach Ihrem Bedarf",
+      "text": "Neue Raumaufteilung, Decke oder Ausbau: Beschreiben Sie Ihr Vorhaben, der Umfang wird gemeinsam abgestimmt."
+    },
+    "services": [
+      {
+        "title": "Trockenbauwände",
+        "text": "Wände im Trockenbau für neue Raumaufteilungen.",
+        "items": [
+          "Nach Absprache"
+        ]
+      },
+      {
+        "title": "Decken",
+        "text": "Decken im Trockenbau – Umfang nach Vorhaben.",
+        "items": [
+          "Nach Absprache"
+        ]
+      },
+      {
+        "title": "Innenausbau",
+        "text": "Trockenbau als Teil Ihres Ausbaus – sprechen Sie Ihr Projekt an.",
+        "items": [
+          "Nach Absprache"
+        ]
+      }
+    ],
+    "why": {
+      "headline": "Trockenbau mit kurzem Draht.",
+      "points": [
+        {
+          "title": "Direkter Kontakt",
+          "text": "Sie erreichen den Betrieb direkt per Telefon oder WhatsApp."
+        },
+        {
+          "title": "Aus Emmering",
+          "text": "Kurze Wege im Landkreis Fürstenfeldbruck."
+        },
+        {
+          "title": "Klare Absprachen",
+          "text": "Umfang, Termin und Angebot werden vorab abgestimmt."
+        },
+        {
+          "title": "Unkompliziert anfragen",
+          "text": "Fotos und Maße genügen für die erste Einschätzung."
+        }
+      ]
+    },
+    "reviews": {
+      "headline": "Was Kunden sagen",
+      "summary": "Kundenstimmen werden hier eingebunden, sobald sie aus dem Google-Eintrag übernommen sind.",
+      "highlights": [
+        "Trockenbau",
+        "Direkter Kontakt",
+        "Sitz in Emmering"
+      ],
+      "source": "Google",
+      "rating": null,
+      "count": null,
+      "sourceUrl": "https://www.google.com/maps/search/?api=1&query=CM%20Trockenbau%20Mitterfeldweg%2011%20Emmering"
+    },
+    "process": {
+      "headline": "So läuft Ihr Projekt",
+      "steps": [
+        {
+          "title": "Anfrage",
+          "text": "Fotos und Maße schicken – per WhatsApp oder Formular."
+        },
+        {
+          "title": "Besichtigung",
+          "text": "Umfang und Termin werden vor Ort abgestimmt."
+        },
+        {
+          "title": "Angebot",
+          "text": "Sie erhalten ein klares Angebot."
+        },
+        {
+          "title": "Ausführung",
+          "text": "Die Arbeiten werden wie vereinbart umgesetzt."
+        }
+      ]
+    },
+    "gallery": {
+      "headline": "Projekte",
+      "text": "Für die Live-Version zeigen wir hier echte Projekte des Betriebs.",
+      "items": [
+        {
+          "title": "Neue Wand",
+          "photoNeeded": "frisch gestellte Trockenbauwand"
+        },
+        {
+          "title": "Decke",
+          "photoNeeded": "Trockenbaudecke in einem Raum"
+        },
+        {
+          "title": "Ausbau",
+          "photoNeeded": "Raum im Ausbau mit Profilen"
+        },
+        {
+          "title": "Fertig",
+          "photoNeeded": "fertiger Raum nach dem Trockenbau"
+        }
+      ]
+    },
+    "region": {
+      "headline": "Trockenbau in Emmering und Umgebung",
+      "text": "Der Betrieb sitzt in Emmering – das genaue Einsatzgebiet stimmen Sie bei der Anfrage ab.",
+      "places": [
+        "Emmering",
+        "Fürstenfeldbruck",
+        "Eichenau",
+        "Puchheim",
+        "Olching"
+      ]
+    },
+    "faq": [
+      {
+        "q": "Übernehmen Sie auch kleine Aufträge?",
+        "a": "Fragen Sie einfach mit ein paar Fotos an – der Umfang wird gemeinsam abgestimmt."
+      },
+      {
+        "q": "Kann ich per WhatsApp anfragen?",
+        "a": "Gern – schicken Sie Fotos und ungefähre Maße an die Mobilnummer."
+      },
+      {
+        "q": "Gibt es eine Besichtigung?",
+        "a": "Ja, nach Absprache vor Ort."
+      }
+    ],
+    "contact": {
+      "headline": "Ihr Angebot – unverbindlich",
+      "text": "Beschreiben Sie kurz Ihr Vorhaben: Raum, Maße und was gebaut werden soll. Fotos helfen.",
+      "topics": [
+        "Trockenbauwand",
+        "Decke",
+        "Innenausbau",
+        "Sonstiges"
+      ],
+      "responseNote": "Besichtigung nach Absprache."
+    },
+    "quote": {
+      "sizeLabel": "Was soll gemacht werden?",
+      "sizes": [
+        "Einzelne Wand / Decke",
+        "Ein Raum",
+        "Mehrere Räume / Wohnung",
+        "Gewerbefläche"
+      ],
+      "timings": [
+        "So bald wie möglich",
+        "In den nächsten Wochen",
+        "In 1–3 Monaten",
+        "Ich plane erst noch"
+      ]
+    },
+    "stickyCta": "Angebot anfragen",
+    "nav": [
+      {
+        "label": "Leistungen",
+        "href": "#leistungen"
+      },
+      {
+        "label": "Projekte",
+        "href": "#projekte"
+      },
+      {
+        "label": "Bewertungen",
+        "href": "#bewertungen"
+      },
+      {
+        "label": "Ablauf",
+        "href": "#ablauf"
+      },
+      {
+        "label": "FAQ",
+        "href": "#faq"
+      },
+      {
+        "label": "Kontakt",
+        "href": "#kontakt"
+      }
+    ]
+  }
+}

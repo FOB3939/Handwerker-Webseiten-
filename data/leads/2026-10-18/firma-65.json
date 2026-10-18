@@ -1,0 +1,372 @@
+{
+  "id": "2026-10-18-65",
+  "slug": "bodenleger-roland-hreniuc-neubiberg",
+  "date": "2026-10-18",
+  "company": {
+    "name": "Roland Bodenleger",
+    "owner": "Roland Hreniuc",
+    "trade": "Bodenleger, Fliesen & Trockenbau",
+    "city": "Neubiberg",
+    "address": "Freiherr-von-Stengel-Str. 10, 85579 Neubiberg",
+    "phone": "0174 7391115",
+    "email": null,
+    "serviceArea": [
+      "Neubiberg"
+    ]
+  },
+  "listings": {
+    "google": {
+      "url": "https://www.google.com/maps/search/?api=1&query=Roland%20Bodenleger%20Freiherr-von-Stengel-Str.%2010%20Neubiberg",
+      "rating": null,
+      "reviews": null,
+      "evidence": "INDIREKT/NICHT VERIFIZIERT – WebSearch mit allowed_domains google.com/google.de („Roland Bodenleger Neubiberg“) lieferte keine maps/place-Seite; kein trustlocal-Treffer. Keine Freemail-Adresse belegt. Ein Website-Feld war in keiner Quelle zu sehen. RESERVE-Kandidat."
+    },
+    "myhammer": {
+      "url": "https://www.blauarbeit.de/handwerker/muenchen/roland-hreniuc-boderleger",
+      "rating": null,
+      "reviews": null,
+      "evidence": "Kein MyHammer – blauarbeit.de-Profil „Roland Hreniuc boderleger – Bodenleger in Neubiberg“ (85579; Bodenverlegung, Bautrocknung nach Wasserschaden, Fliesen-/Platten-/Mosaikarbeiten; Parkett und Parkett-Renovierung; selbstständig). Zusätzlich 11880-Einträge „Roland Bodenleger“, Freiherr-von-Stengel-Str. 10, Neubiberg, Mobil 0174 7391115 (Bodenleger, Fußbodenverlegung, Fliesenleger, Trockenbau), keine Website."
+    }
+  },
+  "websiteStatus": "keine eigene Website gefunden",
+  "websiteChecks": [
+    "(1) „Roland Hreniuc / Roland Bodenleger Neubiberg“ mit blocked_domains (11880, Gelbe Seiten, Das Örtliche, Das Telefonbuch, Cylex, meinestadt, Creditreform, Facebook, Instagram, golocal, MyHammer, Northdata, Firmenwissen, WerkenntdenBesten, Yelp, trustlocal, wlw) – negativ (Vorprüfung): keine eigene Domain",
+    "(2) Telefonsuche „0174 7391115“ mit denselben blocked_domains – keine Website",
+    "(3) Domainprüfung allowed_domains auf 8 naheliegende Domains (Vorprüfung) – keine Treffer zum Betrieb",
+    "(4) Impressum-Suche „Impressum“ + Roland Hreniuc + Neubiberg (Vorprüfung) – kein eigenes Impressum",
+    "(5) Verzeichnisse 11880/blauarbeit: kein Website-Feld; E-Mail nicht belegt (keine Freemail nachgewiesen)",
+    "(6) Google-Maps-Suche (allowed google.com/google.de) – kein Place-Treffer, damit kein Website-Feld sichtbar",
+    "Website-Risiko: mittel – alle Prüfungen negativ, aber weder Google-Eintrag noch Freemail belegt (RESERVE)"
+  ],
+  "facts": {
+    "services": [
+      "Bodenverlegung",
+      "Parkett verlegen",
+      "Parkett-Renovierung",
+      "Fliesen-, Platten- und Mosaikarbeiten",
+      "Trockenbau",
+      "Bautrocknung nach Wasserschaden",
+      "Beratung und Angebot"
+    ],
+    "experience": null,
+    "praisedFor": []
+  },
+  "strategy": {
+    "audience": "Wohnungs- und Hauseigentümer sowie Vermieter in Neubiberg und im Münchner Südosten, die Böden neu verlegen oder renovieren lassen wollen",
+    "mainService": "Parkett- und Bodenverlegung inkl. Renovierung",
+    "trustSignal": "Inhaber Roland Hreniuc als persönlicher Ansprechpartner – per Handy/WhatsApp erreichbar",
+    "conversionGoal": "Schnelles Angebot per WhatsApp oder Formular (Fotos, Fläche, Wunschbelag)",
+    "visualConcept": "Ruhige Stein-Optik: neuer Parkettboden neben Fliesenfläche, klare Fugen, helles Tageslicht"
+  },
+  "sales": {
+    "score": 5,
+    "whyGoodLead": [
+      "Keine eigene Website gefunden – nur blauarbeit- und 11880-Einträge",
+      "Mobilnummer öffentlich gelistet – per WhatsApp ansprechbar",
+      "Einzelunternehmer mit Boden, Fliesen und Trockenbau – gute Basis für eine Leistungsseite",
+      "Profiltext auf blauarbeit sprachlich holprig – eine professionelle Website wäre ein klarer Mehrwert",
+      "RESERVE: Google-Eintrag und Freemail nicht belegt – nur nach Maps-Prüfung versenden"
+    ],
+    "pitch": "Hallo Herr Hreniuc, ich erstelle Websites für Handwerksbetriebe im Münchner Süden. Ich habe Sie als Bodenleger in Neubiberg im Branchenverzeichnis gefunden, aber keine eigene Website. Ich habe dafür unverbindlich einen Entwurf gebaut – darf ich Ihnen den Link schicken?"
+  },
+  "manualChecks": [
+    "RESERVE – weder Google-Eintrag noch Freemail-Adresse belegt: NUR versenden, wenn Google Maps einen Eintrag OHNE Website zeigt.",
+    "Website-Risiko: mittel – vor Versand in Google Maps prüfen, dass keine Website hinterlegt ist (Grund: alle Suchen negativ, aber kein Google- oder Freemail-Beleg)",
+    "Google-Maps-Eintrag „Roland Bodenleger Neubiberg“ suchen: Existenz, Website-Feld, Bewertungen",
+    "Firmenname uneinheitlich: 11880 „Roland Bodenleger“, blauarbeit „Roland Hreniuc boderleger“ – Schreibweise beim Erstkontakt klären",
+    "Adresse Freiherr-von-Stengel-Str. 10 evtl. Privatadresse – auf der Website nur nach Zustimmung zeigen",
+    "Mobilnummer 0174 7391115 (11880) vor WhatsApp-Kontakt prüfen",
+    "Einsatzgebiet nicht belegt – nur Sitz Neubiberg",
+    "Logo und Projektfotos: nicht gefunden – beim Betrieb anfragen"
+  ],
+  "sources": [
+    {
+      "label": "blauarbeit.de – Profil Roland Hreniuc (Bodenleger Neubiberg)",
+      "url": "https://www.blauarbeit.de/handwerker/muenchen/roland-hreniuc-boderleger"
+    },
+    {
+      "label": "11880 – Trockenbauer Neubiberg (Eintrag Roland Bodenleger)",
+      "url": "https://www.11880.com/suche/trockenbau/neubiberg"
+    },
+    {
+      "label": "11880 – Bodenleger Ottobrunn (Eintrag Roland Bodenleger)",
+      "url": "https://www.11880.com/suche/bodenleger/ottobrunn"
+    }
+  ],
+  "site": {
+    "theme": "stein",
+    "category": "handwerk",
+    "heroOffer": [
+      "Parkett verlegen",
+      "Parkett renovieren",
+      "Fliesen & Mosaik",
+      "Trockenbau",
+      "Bautrocknung"
+    ],
+    "scene": "parquet",
+    "logoIcon": "plank",
+    "logoMark": "RH",
+    "brandName": "Roland Bodenleger",
+    "seoTitle": "Bodenleger in Neubiberg – Roland Hreniuc",
+    "seoDescription": "Parkett verlegen und renovieren, Fliesen, Trockenbau und Bautrocknung in Neubiberg. Roland Bodenleger – jetzt schnell ein Angebot anfragen.",
+    "nav": [
+      {
+        "label": "Leistungen",
+        "href": "#leistungen"
+      },
+      {
+        "label": "Projekte",
+        "href": "#projekte"
+      },
+      {
+        "label": "Bewertungen",
+        "href": "#bewertungen"
+      },
+      {
+        "label": "Ablauf",
+        "href": "#ablauf"
+      },
+      {
+        "label": "FAQ",
+        "href": "#faq"
+      },
+      {
+        "label": "Kontakt",
+        "href": "#kontakt"
+      }
+    ],
+    "hero": {
+      "eyebrow": "Bodenleger · Fliesen · Trockenbau · Neubiberg",
+      "headline": "Ihr Bodenleger in Neubiberg – Parkett, Fliesen & Renovierung.",
+      "sub": "Roland Hreniuc verlegt und renoviert Parkett, legt Fliesen und Mosaik, übernimmt Trockenbau und Bautrocknung nach Wasserschäden – mit Beratung und schnellem Angebot.",
+      "ctaPrimary": "Angebot anfragen",
+      "ctaSecondary": "Anrufen",
+      "bullets": [
+        "Parkett verlegen und renovieren",
+        "Fliesen, Platten und Mosaik",
+        "Direkter Kontakt zum Inhaber"
+      ],
+      "imageLabel": "neu verlegter Parkettboden mit angrenzender Fliesenfläche"
+    },
+    "badges": [
+      {
+        "title": "Parkett",
+        "sub": "verlegen & renovieren"
+      },
+      {
+        "title": "Fliesen",
+        "sub": "Platten & Mosaik"
+      },
+      {
+        "title": "Trockenbau",
+        "sub": "Wände & Decken"
+      },
+      {
+        "title": "Neubiberg",
+        "sub": "Münchner Südosten"
+      }
+    ],
+    "trust": [
+      {
+        "value": "Inhaber",
+        "label": "persönlicher Ansprechpartner"
+      },
+      {
+        "value": "5",
+        "label": "Leistungsbereiche"
+      },
+      {
+        "value": "Beratung",
+        "label": "vor dem Angebot"
+      },
+      {
+        "value": "Neubiberg",
+        "label": "Betrieb vor Ort"
+      }
+    ],
+    "servicesIntro": {
+      "headline": "Böden, die bleiben",
+      "text": "Ob neues Parkett, Renovierung eines alten Holzbodens oder Fliesen im Bad: Roland Hreniuc berät Sie und macht ein transparentes Angebot."
+    },
+    "services": [
+      {
+        "title": "Parkett verlegen",
+        "text": "Neue Parkettböden in Wohnung und Haus.",
+        "items": [
+          "Parkett",
+          "Bodenverlegung",
+          "Musterberatung"
+        ]
+      },
+      {
+        "title": "Parkett-Renovierung",
+        "text": "Bestehende Holzböden wieder ansehnlich machen.",
+        "items": [
+          "Renovierung",
+          "Auffrischung"
+        ]
+      },
+      {
+        "title": "Fliesen & Mosaik",
+        "text": "Fliesen-, Platten- und Mosaikarbeiten.",
+        "items": [
+          "Fliesen",
+          "Platten",
+          "Mosaik"
+        ]
+      },
+      {
+        "title": "Trockenbau",
+        "text": "Wände und Decken im Innenausbau.",
+        "items": [
+          "Trockenbauwände",
+          "Decken"
+        ]
+      },
+      {
+        "title": "Bautrocknung",
+        "text": "Trocknung nach einem Wasserschaden als Vorbereitung für den neuen Boden.",
+        "items": [
+          "Wasserschaden",
+          "Bautrocknung"
+        ]
+      }
+    ],
+    "why": {
+      "headline": "Persönlich beraten, sauber verlegt.",
+      "points": [
+        {
+          "title": "Beratung zuerst",
+          "text": "Muster und Möglichkeiten werden vorab besprochen."
+        },
+        {
+          "title": "Transparentes Angebot",
+          "text": "Sie wissen vorher, womit Sie rechnen können."
+        },
+        {
+          "title": "Boden und Fliese",
+          "text": "Parkett, Fliesen und Trockenbau aus einer Hand."
+        },
+        {
+          "title": "Aus Neubiberg",
+          "text": "Kurze Wege im Münchner Südosten."
+        }
+      ]
+    },
+    "reviews": {
+      "headline": "Was Kunden sagen",
+      "summary": "Kundenstimmen werden hier eingebunden, sobald sie aus dem Google-Eintrag übernommen sind.",
+      "highlights": [
+        "Parkett",
+        "Fliesen",
+        "Trockenbau",
+        "Sitz in Neubiberg"
+      ],
+      "source": "Google",
+      "sourceUrl": "https://www.google.com/maps/search/?api=1&query=Roland%20Bodenleger%20Freiherr-von-Stengel-Str.%2010%20Neubiberg",
+      "rating": null,
+      "count": null
+    },
+    "process": {
+      "headline": "So kommen Sie zum neuen Boden",
+      "steps": [
+        {
+          "title": "Anfrage",
+          "text": "Fotos und Fläche schicken – per WhatsApp oder Formular."
+        },
+        {
+          "title": "Beratung",
+          "text": "Belag, Muster und Untergrund werden besprochen."
+        },
+        {
+          "title": "Angebot",
+          "text": "Sie erhalten ein schnelles, transparentes Angebot."
+        },
+        {
+          "title": "Verlegung",
+          "text": "Sauber verlegter Boden und ordentliche Übergabe."
+        }
+      ]
+    },
+    "gallery": {
+      "headline": "Verlegte Böden",
+      "text": "Für die Live-Version zeigen wir hier echte Projekte des Betriebs.",
+      "items": [
+        {
+          "title": "Neues Parkett",
+          "photoNeeded": "frisch verlegter Parkettboden"
+        },
+        {
+          "title": "Renoviertes Parkett",
+          "photoNeeded": "Holzboden vorher/nachher"
+        },
+        {
+          "title": "Fliesen",
+          "photoNeeded": "geflieste Fläche im Bad oder Flur"
+        },
+        {
+          "title": "Mosaik",
+          "photoNeeded": "Mosaikfliesen im Detail"
+        },
+        {
+          "title": "Trockenbau",
+          "photoNeeded": "neue Trockenbauwand"
+        }
+      ]
+    },
+    "region": {
+      "headline": "Bodenleger für Neubiberg",
+      "text": "Roland Hreniuc ist in Neubiberg ansässig – fragen Sie gern auch aus den Nachbarorten an.",
+      "places": [
+        "Neubiberg"
+      ]
+    },
+    "faq": [
+      {
+        "q": "Renovieren Sie auch alte Parkettböden?",
+        "a": "Ja, neben dem Verlegen gehört auch die Renovierung von Parkett dazu."
+      },
+      {
+        "q": "Machen Sie auch Fliesen?",
+        "a": "Ja – Fliesen-, Platten- und Mosaikarbeiten."
+      },
+      {
+        "q": "Was tun nach einem Wasserschaden?",
+        "a": "Bautrocknung und anschließend der neue Boden – fragen Sie einfach an."
+      },
+      {
+        "q": "Kann ich per WhatsApp anfragen?",
+        "a": "Gern – schicken Sie Fotos und ungefähre Maße an die Mobilnummer."
+      }
+    ],
+    "contact": {
+      "headline": "Ihr Angebot – unverbindlich",
+      "text": "Beschreiben Sie kurz Ihr Vorhaben: Raum, Fläche und gewünschter Belag. Fotos helfen.",
+      "topics": [
+        "Parkett verlegen",
+        "Parkett-Renovierung",
+        "Fliesen & Mosaik",
+        "Trockenbau",
+        "Bautrocknung",
+        "Sonstiges"
+      ],
+      "responseNote": "Besichtigung nach Absprache."
+    },
+    "quote": {
+      "sizeLabel": "Was soll gemacht werden?",
+      "sizes": [
+        "Ein Raum",
+        "Mehrere Räume",
+        "Ganze Wohnung / Haus",
+        "Nur Renovierung"
+      ],
+      "timings": [
+        "So bald wie möglich",
+        "In den nächsten Wochen",
+        "In 1–3 Monaten",
+        "Ich plane erst noch"
+      ]
+    },
+    "stickyCta": "Angebot anfragen"
+  }
+}
