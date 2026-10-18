@@ -1,0 +1,392 @@
+{
+  "id": "2026-10-18-27",
+  "slug": "malerbetrieb-sallahi-holzkirchen",
+  "date": "2026-10-18",
+  "company": {
+    "name": "Fatmir Sallahi Malerbetrieb",
+    "owner": "Fatmir Sallahi",
+    "trade": "Maler & Lackierer",
+    "city": "Holzkirchen",
+    "address": "Münchner Str. 95, 83607 Holzkirchen",
+    "phone": "08024 478030",
+    "email": "maler-salahi@t-online.de",
+    "serviceArea": [
+      "Holzkirchen",
+      "Otterfing",
+      "Valley",
+      "Warngau",
+      "Sauerlach",
+      "Miesbach"
+    ]
+  },
+  "listings": {
+    "google": {
+      "url": "https://www.google.com/maps/search/?api=1&query=Fatmir%20Sallahi%20Malerbetrieb%20M%C3%BCnchner%20Str.%2095%20Holzkirchen",
+      "rating": 5.0,
+      "reviews": 5,
+      "evidence": "Indirekt über Google-Spiegel belegt: werkenntdenbesten.de führt „Fatmir Sallahi Malerbetrieb“, Münchner Str. 95, 83607 Holzkirchen, mit Ø 5,00 aus 5 Google-Bewertungen (alle 5 Sterne; Stand der Seite 03.01.2023). Eine google.com/maps/place-URL lieferte die Websuche nicht. In keinem Verzeichnis-/Spiegel-Snippet war ein Website-Feld oder eine Domain zu sehen."
+    },
+    "myhammer": {
+      "url": "https://www.maler.org/holzkirchen/fatmir-sallahi-malerbetrieb-aUObpz",
+      "rating": null,
+      "reviews": null,
+      "evidence": "Kein MyHammer-Profil gefunden – Eintrag auf maler.org („Fatmir Sallahi Malerbetrieb – Top Maler in Holzkirchen“): Meisterbetrieb, Malerarbeiten aller Art innen und außen, Ausbildungsbetrieb. Weitere Einträge: maler-und-lackierer.com, goyellow.de, finderr.de/deutschbranchenbuch (Schreibweise „Fatmir Salahi“, Münchner Str. 61), firmenwissen.com (Creditreform, aktiv, Stand 08/2022)."
+    }
+  },
+  "websiteStatus": "keine eigene Website gefunden",
+  "websiteChecks": [
+    "(1) „Fatmir Sallahi Maler Holzkirchen“ mit blocked_domains (11880, Gelbe Seiten, Das Örtliche, Das Telefonbuch, Cylex, meinestadt, Creditreform, Facebook, Instagram, golocal, MyHammer, Northdata, Firmenwissen.de, werkenntdenbesten, Yelp, trustlocal, wlw) – nur Verzeichnisse (maler.org, maler-und-lackierer.com, finderr, firmenwissen.com, deutschbranchenbuch, goyellow, dialo, auftragsfreundlich, backinjob); keine eigene Domain, keine Baukasten-Seite",
+    "(2) Telefonnummer „08024 478030“ (alle Schreibweisen) mit denselben blocked_domains – nur Rückwärtssuche anruferauskunft.de (Nummernblock Holzkirchen), keine Website",
+    "(3) Domainprüfung per allowed_domains: maler-salahi.de, maler-sallahi.de, malerbetrieb-sallahi.de, malerbetrieb-salahi.de, sallahi.de, salahi.de, sallahi-malerbetrieb.de, maler-sallahi-holzkirchen.de – keine Treffer",
+    "(4) Impressum-Suche „Impressum Fatmir Salahi OR Sallahi Holzkirchen“ – kein eigenes Impressum, nur werkenntdenbesten-Eintrag und fremde Impressen",
+    "(5) Verzeichnisse: firmenwissen.com (Creditreform) nennt Tel. 08024 478030 und E-Mail maler-salahi@t-online.de (Freemail, starkes Indiz für fehlende eigene Domain); kein Website-Feld in den Snippets",
+    "(6) Google-Spiegel werkenntdenbesten.de: 5 Google-Bewertungen, kein Website-Feld/keine Domain sichtbar; google.com/maps-Suche (allowed_domains google.com/google.de) ergab keinen Place-Treffer",
+    "Website-Risiko: niedrig – Google-Bewertungen über Spiegel belegt, kein Website-Feld, Freemail-Adresse (t-online.de), alle Such- und Domainprüfungen negativ"
+  ],
+  "facts": {
+    "services": [
+      "Malerarbeiten aller Art",
+      "Malerarbeiten innen",
+      "Malerarbeiten außen"
+    ],
+    "experience": null,
+    "praisedFor": [
+      "5 von 5 Google-Bewertungen mit 5 Sternen (laut werkenntdenbesten, Stand 2023)"
+    ]
+  },
+  "strategy": {
+    "audience": "Haus- und Wohnungseigentümer, Vermieter und Mieter in Holzkirchen, Otterfing, Valley, Warngau und im nördlichen Landkreis Miesbach, die innen oder außen streichen lassen wollen",
+    "mainService": "Malerarbeiten innen und außen vom Meisterbetrieb",
+    "trustSignal": "Meisterbetrieb und Ausbildungsbetrieb (laut maler.org), 5,0 Sterne aus 5 Google-Bewertungen",
+    "conversionGoal": "Kostenloses Angebot für Malerarbeiten anfragen (Fotos, Räume/Fläche)",
+    "visualConcept": "Helles Atelier: frisch gestrichene Wand und Fassade im Voralpenlicht, Farbmuster und Malerrolle – solide, handwerklich, ruhig"
+  },
+  "sales": {
+    "score": 7,
+    "whyGoodLead": [
+      "Etablierter Malerbetrieb (Creditreform: aktiv) mit sehr guten Google-Bewertungen, aber ohne eigene Website",
+      "Kontakt nur über t-online-Adresse und Festnetz – moderne Online-Anfrage fehlt komplett",
+      "Uneinheitliche Verzeichnisdaten (Schreibweise Sallahi/Salahi, Hausnummer 95/61) – eine eigene Website schafft eine verlässliche Quelle",
+      "Holzkirchen wächst stark; „Maler Holzkirchen“ ist eine gefragte lokale Suche"
+    ],
+    "pitch": "Grüß Gott Herr Sallahi, mein Name ist … – ich erstelle Websites für Handwerksbetriebe im Oberland. Ihr Malerbetrieb in Holzkirchen hat bei Google durchweg 5 Sterne, aber wer Sie online sucht, findet nur Branchenverzeichnisse mit teils unterschiedlichen Angaben. Ich habe unverbindlich einen Entwurf vorbereitet, der Ihre Malerarbeiten innen und außen zeigt und Anfragen direkt zu Ihnen leitet – darf ich Ihnen den Link schicken?"
+  },
+  "manualChecks": [
+    "Website-Risiko: niedrig – vor Versand in Google Maps prüfen, dass keine Website hinterlegt ist (Grund: Google-Eintrag nur über Spiegel werkenntdenbesten belegt, Daten von 2023)",
+    "Aktuelle Google-Bewertungszahl und Sterne in Maps nachtragen (Stand 2023: 5,0 aus 5)",
+    "Adresse klären: meist Münchner Str. 95, finderr/deutschbranchenbuch nennen Münchner Str. 61 (gleiche Telefonnummer)",
+    "Schreibweise klären: „Sallahi“ (werkenntdenbesten, maler.org) vs. „Salahi“ (E-Mail, finderr, dialo) – Seite nutzt Sallahi",
+    "E-Mail maler-salahi@t-online.de stammt aus firmenwissen.com (Creditreform, Stand 08/2022) – vor Versand prüfen; dialo.de vermerkt eingeschränkte telefonische Erreichbarkeit",
+    "Meister- und Ausbildungsbetrieb nur laut maler.org – beim Betrieb bestätigen; Gründungsjahr unbekannt, daher nicht genannt",
+    "Einsatzgebiet (serviceArea) nicht belegt – nur Sitz Holzkirchen; beim Betrieb bestätigen",
+    "Holzkirchen fehlt in lib/geo.ts (PLACES) – Koordinaten ergänzen (ca. 47.8853, 11.6987)",
+    "Echtes Logo und Projektfotos: nicht gefunden – beim Betrieb anfragen"
+  ],
+  "sources": [
+    {
+      "label": "werkenntdenbesten – Fatmir Sallahi Malerbetrieb (5 Google-Bewertungen)",
+      "url": "https://www.werkenntdenbesten.de/e/110050261/maler/holzkirchen-oberbayern/fatmir-sallahi-malerbetrieb-bewertungen.html"
+    },
+    {
+      "label": "firmenwissen.com – Fatmir Sallahi Malerbetrieb (Creditreform, Tel./E-Mail)",
+      "url": "https://www.firmenwissen.com/en/az/firmeneintrag/83607/8250258902/FATMIR_SALLAHI_MALERBETRIEB.html"
+    },
+    {
+      "label": "maler.org – Fatmir Sallahi Malerbetrieb Holzkirchen",
+      "url": "https://www.maler.org/holzkirchen/fatmir-sallahi-malerbetrieb-aUObpz"
+    },
+    {
+      "label": "maler-und-lackierer.com – Fatmir Sallahi",
+      "url": "https://www.maler-und-lackierer.com/anbieter/holzkirchen/fatmir-sallahi/"
+    },
+    {
+      "label": "finderr – Fatmir Salahi, Maler, Holzkirchen",
+      "url": "https://www.finderr.de/maler-holzkirchen-fatmir-salahi-100851995"
+    },
+    {
+      "label": "deutschbranchenbuch – Fatmir Salahi, Münchner Str. 61",
+      "url": "https://holzkirchen.deutschbranchenbuch.com/painter/fatmir-fatmir-salahi/"
+    },
+    {
+      "label": "goyellow – Sallahi Fatmir Malerbetrieb",
+      "url": "https://www.goyellow.de/home/maler-sallahi-holzkirchen--g63gyz.html"
+    },
+    {
+      "label": "dialo – Fatmir Salahi Malerbetrieb",
+      "url": "https://www.dialo.de/installateur/holzkirchen/fatmir-salahi-malerbetrieb-m45904637800"
+    },
+    {
+      "label": "anruferauskunft – Nummernblock 08024-478",
+      "url": "https://anruferauskunft.de/holzkirchen-08024-478/"
+    }
+  ],
+  "site": {
+    "theme": "atelier",
+    "category": "handwerk",
+    "heroOffer": [
+      "Malerarbeiten aller Art",
+      "Innenanstrich",
+      "Fassade & außen",
+      "Meisterbetrieb",
+      "5,0 ★ bei Google"
+    ],
+    "scene": "paint",
+    "logoIcon": "roller",
+    "logoMark": "FS",
+    "brandName": "Malerbetrieb Sallahi",
+    "seoTitle": "Maler in Holzkirchen – Fatmir Sallahi Malerbetrieb",
+    "seoDescription": "Malerarbeiten aller Art innen und außen vom Meisterbetrieb in Holzkirchen. 5,0 Sterne bei Google. Jetzt kostenloses Angebot anfragen.",
+    "nav": [
+      {
+        "label": "Leistungen",
+        "href": "#leistungen"
+      },
+      {
+        "label": "Projekte",
+        "href": "#projekte"
+      },
+      {
+        "label": "Bewertungen",
+        "href": "#bewertungen"
+      },
+      {
+        "label": "Ablauf",
+        "href": "#ablauf"
+      },
+      {
+        "label": "FAQ",
+        "href": "#faq"
+      },
+      {
+        "label": "Kontakt",
+        "href": "#kontakt"
+      }
+    ],
+    "hero": {
+      "eyebrow": "Maler & Lackierer · Holzkirchen",
+      "headline": "Ihr Maler in Holzkirchen – innen wie außen, vom Meisterbetrieb.",
+      "sub": "Fatmir Sallahi und sein Team übernehmen Malerarbeiten aller Art: frische Wände und Decken im Haus, saubere Anstriche an Fassade und Außenflächen – in Holzkirchen und Umgebung.",
+      "ctaPrimary": "Kostenloses Angebot anfragen",
+      "ctaSecondary": "Anrufen",
+      "bullets": [
+        "Meisterbetrieb und Ausbildungsbetrieb",
+        "Malerarbeiten innen und außen",
+        "5,0 Sterne aus Google-Bewertungen"
+      ],
+      "imageLabel": "frisch gestrichene Wand mit Malerrolle, im Hintergrund eine helle Hausfassade"
+    },
+    "badges": [
+      {
+        "title": "Meisterbetrieb",
+        "sub": "Maler & Lackierer"
+      },
+      {
+        "title": "Innen & außen",
+        "sub": "Malerarbeiten aller Art"
+      },
+      {
+        "title": "5,0 ★ Google",
+        "sub": "aus 5 Bewertungen"
+      },
+      {
+        "title": "Holzkirchen",
+        "sub": "Münchner Straße"
+      }
+    ],
+    "trust": [
+      {
+        "value": "5,0",
+        "label": "Sterne bei Google"
+      },
+      {
+        "value": "Meister",
+        "label": "Meister- und Ausbildungsbetrieb"
+      },
+      {
+        "value": "Innen + Außen",
+        "label": "alle Malerarbeiten"
+      },
+      {
+        "value": "Holzkirchen",
+        "label": "Betrieb vor Ort"
+      }
+    ],
+    "servicesIntro": {
+      "headline": "Malerarbeiten aller Art – aus einer Hand",
+      "text": "Ob ein Zimmer, die ganze Wohnung oder die Fassade: Der Meisterbetrieb aus Holzkirchen kümmert sich um Vorbereitung, Anstrich und einen sauber übergebenen Raum."
+    },
+    "services": [
+      {
+        "title": "Wände & Decken",
+        "text": "Gleichmäßige Anstriche für Wohnräume, Flure und Treppenhäuser – mit sauberen Kanten.",
+        "items": [
+          "Wandanstrich",
+          "Deckenanstrich",
+          "Einzelne Räume oder ganze Wohnung"
+        ]
+      },
+      {
+        "title": "Fassade & Außenanstrich",
+        "text": "Neuer Anstrich für Hausfassade und Außenflächen – damit das Haus wieder gepflegt aussieht.",
+        "items": [
+          "Fassadenanstrich",
+          "Außenflächen",
+          "Vorbereitung des Untergrunds"
+        ]
+      },
+      {
+        "title": "Renovierung",
+        "text": "Vor dem Einzug, nach dem Auszug oder einfach, weil es Zeit ist: Räume werden frisch und bezugsfertig.",
+        "items": [
+          "Ein-/Auszug",
+          "Renovierungsanstrich",
+          "Abdecken und Aufräumen"
+        ]
+      },
+      {
+        "title": "Untergrund vorbereiten",
+        "text": "Gute Malerarbeit beginnt beim Untergrund: Ausbessern und Vorbereiten, damit der Anstrich hält.",
+        "items": [
+          "Ausbessern",
+          "Grundieren",
+          "Abkleben"
+        ]
+      }
+    ],
+    "why": {
+      "headline": "Ein Malerbetrieb, dem Kunden fünf Sterne geben.",
+      "points": [
+        {
+          "title": "Meisterqualität",
+          "text": "Ein Meister- und Ausbildungsbetrieb – das Handwerk wird hier gelernt und weitergegeben."
+        },
+        {
+          "title": "Zufriedene Kunden",
+          "text": "Alle Google-Bewertungen mit fünf Sternen."
+        },
+        {
+          "title": "Innen und außen",
+          "text": "Vom Wohnzimmer bis zur Fassade – Sie brauchen nur einen Ansprechpartner."
+        },
+        {
+          "title": "Aus Holzkirchen",
+          "text": "Der Betrieb sitzt an der Münchner Straße und ist schnell bei Ihnen vor Ort."
+        }
+      ]
+    },
+    "reviews": {
+      "headline": "Was Kunden sagen",
+      "summary": "Der Malerbetrieb hat bei Google 5,0 Sterne aus 5 Bewertungen. Ausgewählte Kundenstimmen werden für die Live-Version übernommen.",
+      "highlights": [
+        "5,0 Sterne bei Google",
+        "Meisterbetrieb",
+        "Innen und außen",
+        "Sitz in Holzkirchen"
+      ],
+      "source": "Google",
+      "sourceUrl": "https://www.google.com/maps/search/?api=1&query=Fatmir%20Sallahi%20Malerbetrieb%20M%C3%BCnchner%20Str.%2095%20Holzkirchen",
+      "rating": 5.0,
+      "count": 5
+    },
+    "process": {
+      "headline": "In vier Schritten zu frischen Wänden",
+      "steps": [
+        {
+          "title": "Anfrage",
+          "text": "Kurz anrufen oder Fotos und ungefähre Flächen schicken."
+        },
+        {
+          "title": "Besichtigung",
+          "text": "Umfang, Untergrund und Farbwunsch werden vor Ort besprochen."
+        },
+        {
+          "title": "Angebot",
+          "text": "Sie erhalten ein klares, schriftliches Angebot."
+        },
+        {
+          "title": "Ausführung",
+          "text": "Abdecken, vorbereiten, streichen – und sauber übergeben."
+        }
+      ]
+    },
+    "gallery": {
+      "headline": "Frische Farbe in Holzkirchen",
+      "text": "Für die Live-Version zeigen wir hier echte Projekte des Betriebs – innen und außen.",
+      "items": [
+        {
+          "title": "Wohnraum",
+          "photoNeeded": "hell gestrichenes Wohnzimmer mit sauberen Kanten"
+        },
+        {
+          "title": "Fassade",
+          "photoNeeded": "frisch gestrichene Hausfassade im Oberland"
+        },
+        {
+          "title": "Treppenhaus",
+          "photoNeeded": "renoviertes Treppenhaus mit neuem Anstrich"
+        },
+        {
+          "title": "Vorbereitung",
+          "photoNeeded": "abgeklebter Raum mit ausgebesserter Wand vor dem Anstrich"
+        }
+      ]
+    },
+    "region": {
+      "headline": "Ihr Maler für Holzkirchen und Umgebung",
+      "text": "Von Holzkirchen aus sind Otterfing, Valley, Warngau, Sauerlach und Miesbach schnell erreichbar – für einzelne Räume ebenso wie für ganze Häuser.",
+      "places": [
+        "Holzkirchen",
+        "Otterfing",
+        "Valley",
+        "Warngau",
+        "Sauerlach",
+        "Miesbach"
+      ]
+    },
+    "faq": [
+      {
+        "q": "Übernehmen Sie auch einzelne Zimmer?",
+        "a": "Ja. Ob ein Zimmer oder das ganze Haus – fragen Sie einfach an."
+      },
+      {
+        "q": "Streichen Sie auch Fassaden?",
+        "a": "Ja, Malerarbeiten außen gehören zum Angebot. Umfang und Untergrund besprechen wir vor Ort."
+      },
+      {
+        "q": "Kann ich vorab Fotos schicken?",
+        "a": "Gern. Fotos und ungefähre Flächen helfen bei der ersten Einschätzung; für ein verbindliches Angebot ist ein Termin vor Ort sinnvoll."
+      },
+      {
+        "q": "Wie erreiche ich Sie am besten?",
+        "a": "Telefonisch unter 08024 478030 oder per E-Mail – oder einfach über das Anfrageformular."
+      }
+    ],
+    "contact": {
+      "headline": "Ihr Angebot – kostenlos und unverbindlich",
+      "text": "Beschreiben Sie kurz, was gestrichen werden soll: Räume oder Fassade, ungefähre Fläche und Wunschtermin.",
+      "topics": [
+        "Wände & Decken",
+        "Fassade / außen",
+        "Renovierung",
+        "Sonstiges"
+      ],
+      "responseNote": "Besichtigung nach Absprache."
+    },
+    "quote": {
+      "sizeLabel": "Was soll gestrichen werden?",
+      "sizes": [
+        "Ein Zimmer",
+        "Mehrere Zimmer / Wohnung",
+        "Ganzes Haus",
+        "Fassade / außen"
+      ],
+      "timings": [
+        "So bald wie möglich",
+        "In den nächsten Wochen",
+        "In 1–3 Monaten",
+        "Ich plane erst noch"
+      ]
+    },
+    "stickyCta": "Angebot anfragen"
+  }
+}
