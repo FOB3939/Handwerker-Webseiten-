@@ -1,0 +1,389 @@
+{
+  "id": "2026-10-18-22",
+  "slug": "zimmerschmidhof-kreitmeir-hebertshausen",
+  "date": "2026-10-18",
+  "company": {
+    "name": "Zimmerschmidhof – Familie Kreitmeir",
+    "owner": "Anton Kreitmeir",
+    "trade": "Hofverkauf Gänse, Enten & Eier",
+    "city": "Hebertshausen",
+    "address": "Lotzbach 3a, 85241 Hebertshausen",
+    "phone": "08139 8122",
+    "email": "anton.kreitmeir@googlemail.com",
+    "serviceArea": [
+      "Hebertshausen",
+      "Lotzbach",
+      "Dachau",
+      "Röhrmoos",
+      "Haimhausen",
+      "Vierkirchen",
+      "Petershausen",
+      "Karlsfeld"
+    ]
+  },
+  "listings": {
+    "google": {
+      "url": "https://www.google.com/maps/search/?api=1&query=Anton%20Kreitmeir%20G%C3%A4nse%20und%20Enten%20Lotzbach%203a%20Hebertshausen",
+      "rating": null,
+      "reviews": null,
+      "evidence": "INDIREKT / NICHT VERIFIZIERT – Websuche mit allowed_domains google.com/google.de lieferte keinen Maps-Place-Treffer. Indirekter Hinweis: Branchenportale deutschebiz.de und hebertshausen-by.deutschebusiness.com führen „Anton Kreitmeir Gänse und Enten Lotzbach“ mit Adresse, Telefon und Öffnungszeiten im Stil eines Google-Datensatzes, aber ohne Bewertungen; als „Website“ nennt deutschebiz nur das Portal www.regionales-bayern.de (keine eigene Domain). Vor Kontakt in Google Maps prüfen, dass KEINE Website hinterlegt ist."
+    },
+    "myhammer": {
+      "url": "https://www.mein-bauernhof.de/verkaufstelle/zimmerschmidhof-familie-kreitmeir-698525/",
+      "rating": null,
+      "reviews": null,
+      "evidence": "Kein MyHammer – Eintrag „Zimmerschmidhof – Familie Kreitmeir“ auf mein-bauernhof.de (Lotzbach 3a, 85241 Hebertshausen, Ansprechpartner Anton Kreitmeir, Tel. 08139 8122, E-Mail anton.kreitmeir@googlemail.com, Entenfleisch, Gänsefleisch, Zeiten saisonabhängig). Gleicher Eintrag auf hofatlas.de; Profil „Kreitmeier Anton“ auf dachau-handelt.de (Direktvermarkter; Enten, Gänse, Eier; Abholung möglich). Keine Website im Eintrag."
+    }
+  },
+  "websiteStatus": "keine eigene Website gefunden",
+  "websiteChecks": [
+    "(1) „Zimmerschmidhof Kreitmeir Hebertshausen“ mit den blocked_domains: nur hofatlas.de, mein-bauernhof.de, telefonbuch-suche.com, plusadresse.com und ein Blog mit Empfehlungsliste – keine eigene Domain.",
+    "(2) Telefonnummer „08139 8122“ / „081398122“ + Kreitmeir mit den blocked_domains: nur deutschebiz.de (Website-Feld = Portal www.regionales-bayern.de, keine eigene Domain) und Empfehlungsblog sicheres-auftreten-bei-voelliger-ahnungslosigkeit.de – keine eigene Website.",
+    "(3) Domainprüfung per allowed_domains zimmerschmidhof.de, zimmerschmid-hof.de, kreitmeir-hof.de, hof-kreitmeir.de, kreitmeir-lotzbach.de, gaense-kreitmeir.de, kreitmeir.de: keine Treffer.",
+    "(4) „Impressum Anton Kreitmeir Hebertshausen“: kein eigenes Impressum; nur Verzeichnisse und fremde Betriebe (kreitmeir-partner.de = Hermann-J. Kreitmeir, Kirchdorf am Inn, nicht identisch).",
+    "(5) Verzeichnis mein-bauernhof.de nennt die Freemail-Adresse anton.kreitmeir@googlemail.com – starkes Indiz für fehlende eigene Domain; kein Website-Feld.",
+    "(6) Kein Google-Maps-Treffer gefunden; Branchenportal mit Google-ähnlichem Datensatz zeigt nur das Portal regionales-bayern.de als Website, keine eigene Domain."
+  ],
+  "facts": {
+    "services": [
+      "Gänse aus Freilauf",
+      "Enten aus Freilauf",
+      "Gänsefleisch",
+      "Entenfleisch",
+      "Eier",
+      "Abholung am Hof"
+    ],
+    "experience": null,
+    "praisedFor": []
+  },
+  "strategy": {
+    "audience": "Familien und Genießer im Raum Dachau und im Münchner Norden, die für Martini, Weihnachten oder das Sonntagsessen eine Gans oder Ente direkt vom Bauern suchen",
+    "mainService": "Gänse und Enten aus Freilaufhaltung zum Vorbestellen und Abholen am Hof",
+    "trustSignal": "Familienbetrieb Kreitmeir in Lotzbach – Geflügel aus eigener Haltung, direkt vom Hof",
+    "conversionGoal": "Vorbestellung einer Gans oder Ente per Telefon / Formular",
+    "visualConcept": "Warm und ländlich: Hofszene mit Gänsen auf der Wiese, Holz, Herbstlicht, Eierkorb"
+  },
+  "sales": {
+    "score": 7,
+    "whyGoodLead": [
+      "Nur in Hof- und Branchenverzeichnissen sichtbar, Kontakt über eine googlemail-Adresse – keine eigene Website",
+      "Saisonales Geschäft (Martini- und Weihnachtsgans) – ein Vorbestellformular spart viele Telefonate",
+      "Zeiten und Verfügbarkeit sind laut Verzeichnis saisonabhängig – genau das lässt sich auf einer eigenen Seite aktuell halten",
+      "Lage nahe Dachau und Münchner Norden – große Nachfrage nach Geflügel direkt vom Bauern"
+    ],
+    "pitch": "Grüß Gott Herr Kreitmeir, mein Name ist … – ich gestalte Websites für Höfe im Landkreis Dachau. Ihren Zimmerschmidhof in Lotzbach habe ich auf mein-bauernhof.de gefunden: Gänse und Enten aus Freilauf und Eier direkt vom Hof. Eine eigene Seite, auf der Kunden sehen, wann es Gänse gibt, und gleich vorbestellen können, gibt es aber noch nicht. Ich habe unverbindlich einen Entwurf vorbereitet – darf ich ihn Ihnen kurz zeigen?"
+  },
+  "manualChecks": [
+    "Website-Risiko: mittel – vor Versand in Google Maps prüfen, dass keine Website hinterlegt ist (Grund: Freemail-Adresse anton.kreitmeir@googlemail.com und alle Prüfungen negativ, aber Google-Eintrag nur indirekt belegt; deutschebiz nennt als Website das Portal regionales-bayern.de – prüfen, ob dort ein eigener Hof-Unterauftritt existiert)",
+    "Google-Eintrag in Maps suchen („Anton Kreitmeir Gänse und Enten Lotzbach“) und Bewertungen/Website-Feld prüfen",
+    "Verkaufszeiten nicht übernommen: mein-bauernhof nennt sie saisonabhängig, ein Branchenportal Mo–Fr 8–18 Uhr – beim Inhaber erfragen",
+    "Sortiment bestätigen: Eier laut dachau-handelt.de, Gänse/Enten laut mehreren Quellen; ob ganzjährig oder nur saisonal",
+    "Namensschreibweise klären: Kreitmeir / Kreitmeier (dachau-handelt) – im Entwurf „Kreitmeir“ wie bei mein-bauernhof/hofatlas",
+    "Ein Michael Kreitmeir (Lotzbach 3, Tel. 08139 6304) ist separat gelistet – Zusammenhang unklar, nicht verwenden",
+    "Hoffotos (Gänse auf der Weide, Hofladen) beim Betrieb anfragen"
+  ],
+  "sources": [
+    {
+      "label": "mein-bauernhof.de – Zimmerschmidhof Familie Kreitmeir",
+      "url": "https://www.mein-bauernhof.de/verkaufstelle/zimmerschmidhof-familie-kreitmeir-698525/"
+    },
+    {
+      "label": "hofatlas.de – Zimmerschmidhof Familie Kreitmeir",
+      "url": "https://hofatlas.de/hof/Zimmerschmidhof-Familie-Kreitmeir"
+    },
+    {
+      "label": "DACHAU HANDELT! – Kreitmeier Anton",
+      "url": "https://www.dachau-handelt.de/profil/kreitmeier-anton"
+    },
+    {
+      "label": "deutschebiz.de – Anton Kreitmeir Gänse und Enten Lotzbach",
+      "url": "https://www.deutschebiz.de/anton-kreitmeir-gänse-und-enten-08139-8122"
+    },
+    {
+      "label": "deutschebusiness.com – Anton Kreitmeir Gänse und Enten Lotzbach",
+      "url": "https://hebertshausen-by.deutschebusiness.com/anton-kreitmeir-ganse-und-enten-lotzbach/"
+    },
+    {
+      "label": "Blog-Empfehlungsliste (Gänse und Enten aus dem Freilauf)",
+      "url": "https://sicheres-auftreten-bei-voelliger-ahnungslosigkeit.de/2019/07/29/empfehlungen/"
+    }
+  ],
+  "site": {
+    "theme": "hof",
+    "category": "hof",
+    "scene": "farm",
+    "heroOffer": [
+      "Gänse aus Freilauf",
+      "Enten aus Freilauf",
+      "Frische Eier",
+      "Abholung am Hof"
+    ],
+    "quote": {
+      "sizeLabel": "Was möchten Sie bestellen?",
+      "sizes": [
+        "Gans",
+        "Ente",
+        "Eier",
+        "Gans & Ente",
+        "Sonstige Frage"
+      ],
+      "timings": [
+        "So bald wie möglich",
+        "Zu Martini",
+        "Zu Weihnachten",
+        "Noch offen"
+      ]
+    },
+    "badges": [
+      {
+        "title": "Gänse & Enten",
+        "sub": "aus Freilauf"
+      },
+      {
+        "title": "Frische Eier",
+        "sub": "direkt vom Hof"
+      },
+      {
+        "title": "Abholung",
+        "sub": "am Hof in Lotzbach"
+      },
+      {
+        "title": "Familie Kreitmeir",
+        "sub": "Lotzbach 3a, Hebertshausen"
+      }
+    ],
+    "seoTitle": "Zimmerschmidhof in Hebertshausen – Gänse, Enten & Eier direkt vom Hof",
+    "seoDescription": "Gänse und Enten aus Freilauf und frische Eier direkt vom Zimmerschmidhof der Familie Kreitmeir in Lotzbach bei Hebertshausen. Jetzt Gans oder Ente vorbestellen.",
+    "logoMark": "Z",
+    "brandName": "Zimmerschmidhof",
+    "logoIcon": "leaf",
+    "nav": [
+      {
+        "label": "Angebot",
+        "href": "#leistungen"
+      },
+      {
+        "label": "Hof",
+        "href": "#projekte"
+      },
+      {
+        "label": "Ablauf",
+        "href": "#ablauf"
+      },
+      {
+        "label": "Region",
+        "href": "#region"
+      },
+      {
+        "label": "FAQ",
+        "href": "#faq"
+      },
+      {
+        "label": "Kontakt",
+        "href": "#kontakt"
+      }
+    ],
+    "hero": {
+      "eyebrow": "Hofverkauf · Hebertshausen-Lotzbach",
+      "headline": "Gänse, Enten & Eier direkt vom Hof in Hebertshausen.",
+      "sub": "Auf dem Zimmerschmidhof der Familie Kreitmeir in Lotzbach wachsen Gänse und Enten im Freilauf auf. Bestellen Sie Ihre Gans oder Ente vor und holen Sie sie direkt am Hof ab – dazu frische Eier.",
+      "ctaPrimary": "Gans oder Ente vorbestellen",
+      "ctaSecondary": "Anrufen",
+      "bullets": [
+        "Gänse und Enten aus dem Freilauf",
+        "Frische Eier vom Hof",
+        "Abholung in Lotzbach bei Hebertshausen"
+      ],
+      "imageLabel": "Gänse auf der Wiese vor dem Hof in Lotzbach"
+    },
+    "trust": [
+      {
+        "value": "Freilauf",
+        "label": "Gänse & Enten"
+      },
+      {
+        "value": "Direkt",
+        "label": "vom Erzeuger"
+      },
+      {
+        "value": "Abholung",
+        "label": "am Hof"
+      },
+      {
+        "value": "Lotzbach",
+        "label": "bei Hebertshausen"
+      }
+    ],
+    "servicesIntro": {
+      "headline": "Unser Angebot vom Hof",
+      "text": "Geflügel aus eigener Haltung und frische Eier – ehrlich, regional und direkt von der Familie Kreitmeir."
+    },
+    "services": [
+      {
+        "title": "Gänse aus Freilauf",
+        "text": "Die Gans für Martini, Weihnachten oder das Familienessen – direkt vom Hof.",
+        "items": [
+          "Gänsefleisch",
+          "Vorbestellung",
+          "Abholung am Hof"
+        ]
+      },
+      {
+        "title": "Enten aus Freilauf",
+        "text": "Enten aus Freilaufhaltung – ideal für den Sonntagsbraten.",
+        "items": [
+          "Entenfleisch",
+          "Vorbestellung",
+          "Abholung am Hof"
+        ]
+      },
+      {
+        "title": "Frische Eier",
+        "text": "Eier direkt vom Hof – fragen Sie nach der aktuellen Verfügbarkeit.",
+        "items": [
+          "Eier",
+          "Auf Anfrage"
+        ]
+      },
+      {
+        "title": "Abholung am Hof",
+        "text": "Sie holen Ihre Bestellung direkt in Lotzbach ab – kurze Wege, persönlicher Kontakt.",
+        "items": [
+          "Lotzbach 3a",
+          "Termin nach Absprache"
+        ]
+      }
+    ],
+    "why": {
+      "headline": "Warum direkt vom Hof?",
+      "points": [
+        {
+          "title": "Freilaufhaltung",
+          "text": "Gänse und Enten wachsen im Freilauf auf dem Hof auf."
+        },
+        {
+          "title": "Vom Erzeuger",
+          "text": "Sie kaufen direkt bei der Familie Kreitmeir – ohne Zwischenhandel."
+        },
+        {
+          "title": "Regional",
+          "text": "Lotzbach liegt bei Hebertshausen, nur wenige Minuten von Dachau entfernt."
+        },
+        {
+          "title": "Persönlich",
+          "text": "Bestellung und Abholung laufen persönlich – Fragen beantworten wir gern am Telefon."
+        }
+      ]
+    },
+    "reviews": {
+      "headline": "Bekannt in der Region",
+      "summary": "Der Zimmerschmidhof ist auf mein-bauernhof.de, hofatlas.de und bei DACHAU HANDELT! als Direktvermarkter für Gänse, Enten und Eier gelistet. Kundenbewertungen zeigen wir erst nach Freigabe.",
+      "highlights": [
+        "Eintrag bei mein-bauernhof.de",
+        "Direktvermarkter bei DACHAU HANDELT!",
+        "Gänse und Enten aus dem Freilauf",
+        "Abholung am Hof"
+      ],
+      "source": "mein-bauernhof.de",
+      "sourceUrl": "https://www.mein-bauernhof.de/verkaufstelle/zimmerschmidhof-familie-kreitmeir-698525/",
+      "rating": null,
+      "count": null
+    },
+    "process": {
+      "headline": "So kommen Sie zu Ihrer Gans",
+      "steps": [
+        {
+          "title": "Vorbestellen",
+          "text": "Rufen Sie an oder nutzen Sie das Formular – Gans oder Ente, Anzahl und Wunschtermin."
+        },
+        {
+          "title": "Bestätigung",
+          "text": "Wir melden uns mit Verfügbarkeit und Abholtermin."
+        },
+        {
+          "title": "Abholen",
+          "text": "Sie holen Ihre Bestellung am Hof in Lotzbach ab."
+        },
+        {
+          "title": "Genießen",
+          "text": "Regionales Geflügel direkt vom Erzeuger auf Ihrem Tisch."
+        }
+      ]
+    },
+    "gallery": {
+      "headline": "Ein Blick auf den Hof",
+      "text": "Für die Live-Version zeigen wir hier echte Bilder vom Zimmerschmidhof in Lotzbach.",
+      "items": [
+        {
+          "title": "Gänse im Freilauf",
+          "photoNeeded": "Gänse auf der Wiese am Hof"
+        },
+        {
+          "title": "Enten",
+          "photoNeeded": "Enten im Freilauf"
+        },
+        {
+          "title": "Eier",
+          "photoNeeded": "Korb mit frischen Eiern"
+        },
+        {
+          "title": "Der Hof",
+          "photoNeeded": "Hofansicht in Lotzbach"
+        },
+        {
+          "title": "Abholung",
+          "photoNeeded": "Verkaufs- bzw. Abholstelle am Hof"
+        }
+      ]
+    },
+    "region": {
+      "headline": "Direkt vom Hof im Landkreis Dachau",
+      "text": "Lotzbach gehört zu Hebertshausen – aus Dachau, Röhrmoos, Haimhausen, Vierkirchen, Petershausen und Karlsfeld ist der Hof schnell erreicht.",
+      "places": [
+        "Hebertshausen",
+        "Lotzbach",
+        "Dachau",
+        "Röhrmoos",
+        "Haimhausen",
+        "Vierkirchen",
+        "Petershausen",
+        "Karlsfeld"
+      ]
+    },
+    "faq": [
+      {
+        "q": "Wann gibt es Gänse und Enten?",
+        "a": "Das ist saisonabhängig. Fragen Sie am besten telefonisch unter 08139 8122 nach oder bestellen Sie über das Formular vor."
+      },
+      {
+        "q": "Muss ich vorbestellen?",
+        "a": "Für Gänse und Enten empfehlen wir eine Vorbestellung – besonders vor Martini und Weihnachten."
+      },
+      {
+        "q": "Gibt es auch Eier?",
+        "a": "Ja, Eier gibt es ebenfalls direkt vom Hof. Fragen Sie nach der aktuellen Verfügbarkeit."
+      },
+      {
+        "q": "Wo hole ich meine Bestellung ab?",
+        "a": "Direkt am Hof: Lotzbach 3a, 85241 Hebertshausen."
+      },
+      {
+        "q": "Wie erreiche ich Sie?",
+        "a": "Telefonisch unter 08139 8122 oder per E-Mail an anton.kreitmeir@googlemail.com."
+      }
+    ],
+    "contact": {
+      "headline": "Gans oder Ente vorbestellen",
+      "text": "Sagen Sie uns, was Sie möchten und wann – wir melden uns mit Verfügbarkeit und Abholtermin.",
+      "topics": [
+        "Gans",
+        "Ente",
+        "Eier",
+        "Abholtermin",
+        "Sonstiges"
+      ],
+      "responseNote": "Am schnellsten erreichen Sie uns telefonisch."
+    },
+    "stickyCta": "Jetzt vorbestellen"
+  }
+}
