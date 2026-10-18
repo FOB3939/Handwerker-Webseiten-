@@ -1,0 +1,410 @@
+{
+  "id": "2026-10-18-67",
+  "slug": "ba-haussanierungen-ottobrunn",
+  "date": "2026-10-18",
+  "company": {
+    "name": "BA-Haussanierungen",
+    "owner": "Rexhep Bugari",
+    "trade": "Haussanierung, Trockenbau & Renovierung",
+    "city": "Ottobrunn",
+    "address": "Am Brunneck 10, 85521 Ottobrunn",
+    "phone": "0173 6720675",
+    "email": "ba-haussanierungen@t-online.de",
+    "serviceArea": [
+      "Ottobrunn",
+      "Neubiberg",
+      "Putzbrunn",
+      "Hohenbrunn",
+      "Haar",
+      "München"
+    ]
+  },
+  "listings": {
+    "google": {
+      "url": "https://www.google.com/maps/search/?api=1&query=BA-Haussanierungen%20Am%20Brunneck%2010%20Ottobrunn",
+      "rating": null,
+      "reviews": null,
+      "evidence": "INDIREKT / NICHT VERIFIZIERT – WebSearch mit allowed_domains google.com/google.de, trustlocal.de, weshoplocal.de, firmania.de, reviewhero.io lieferte keinen Treffer zum Betrieb (weder Maps-Seite noch Google-Bewertungen). Aufnahme wegen starkem Website-Negativbeleg (Freemail-Adresse @t-online.de in 11880-Datensatz). Vor Versand in Google Maps prüfen, ob ein Eintrag existiert und KEIN Website-Feld hinterlegt ist."
+    },
+    "myhammer": {
+      "url": "https://www.auftragsbank.de/firmen/ba-haussanierungen/107078",
+      "rating": null,
+      "reviews": null,
+      "evidence": "Kein MyHammer-Profil gefunden – Eintrag auf auftragsbank.de (BA-Haussanierungen, Ansprechpartner Rexhep Bugari, Am Brunneck 10, 85521 Ottobrunn; Profiltext: Sanierung und Renovierung in München und Umgebung seit 2015) sowie blauarbeit.de-Profil (Ba-Haussanierungen, Ottobrunn). Bewertungen nicht sichtbar."
+    }
+  },
+  "websiteStatus": "keine eigene Website gefunden",
+  "websiteChecks": [
+    "(1) \"Bugari\" Haussanierungen Ottobrunn mit blocked_domains (11880, Gelbe Seiten, Das Örtliche, Telefonbuch, Cylex, meinestadt, Creditreform, Facebook, Instagram, golocal, MyHammer, Northdata, Firmenwissen, WKDB, Yelp, trustlocal, wlw) – nur blauarbeit.de, auftragsbank.de und fremde Betriebe (bujaribau.at = österreichisches Unternehmen ohne Bezug); keine eigene Domain. Zusätzlich \"Ba haussanierungen\" Ottobrunn ohne Filter: nur MyHammer-Ortslisten, auftragsbank – keine Domain",
+    "(2) Telefonsuche \"0173 6720675\" (mit blocked_domains) – nur Rufnummernblock-Listen (anrufer.info, handyanrufe.de), keine Website",
+    "(3) Domainprüfung allowed_domains ba-haussanierungen.de, bahaussanierungen.de, ba-haussanierung.de, ba-haussanierungen.com, ba-sanierung.de, ba-haussanierungen-muenchen.de – keine Ergebnisse",
+    "(4) Impressum Rexhep Bugari Ottobrunn – kein eigenes Impressum, nur auftragsbank- und blauarbeit-Einträge sowie fremde Impressen",
+    "(5) Verzeichnisse: 11880-Datensatz nennt E-Mail ba-haussanierungen@t-online.de (FREEMAIL – starkes Indiz), Festnetz (089) 46138436 und Mobil (0173) 6720675; keine Website im Snippet. Gelbe Seiten führt unter derselben Adresse/Mobilnummer „Rexhep Bugari Bausanierung Trockenbau“ (Isolierarbeiten)",
+    "(6) Kein Google-Spiegel-Treffer (trustlocal/weshoplocal/firmania) – daher auch kein Website-Feld dort gesehen"
+  ],
+  "facts": {
+    "services": [
+      "Trockenbau",
+      "Kälteschutz / Isolierarbeiten",
+      "Zaunbau",
+      "Baggerarbeiten",
+      "Komplettsanierung von Häusern und Wohnungen",
+      "Badsanierung",
+      "Modernisierung von Altbauten",
+      "Bodenlegearbeiten",
+      "Abrissarbeiten",
+      "Fassadensanierung & Wärmedämmung"
+    ],
+    "experience": "laut auftragsbank-Profil seit 2015 in Sanierung und Renovierung tätig (Selbstangabe)",
+    "praisedFor": []
+  },
+  "strategy": {
+    "audience": "Haus- und Wohnungseigentümer in Ottobrunn, Neubiberg, Putzbrunn und im Münchner Südosten, die sanieren, umbauen oder modernisieren wollen",
+    "mainService": "Haus- und Wohnungssanierung mit Trockenbau, Bad und Boden aus einer Hand",
+    "trustSignal": "Inhabergeführt (Rexhep Bugari), laut Profil seit 2015 in Sanierung und Renovierung tätig",
+    "conversionGoal": "Kostenlose Besichtigung / Angebot für Sanierungsprojekt anfragen (per Anruf oder WhatsApp)",
+    "visualConcept": "Robuste Baustellen-Ästhetik: frisch gespachtelte Trockenbauwände, Profile und Gipskarton, klare Linien – solide, ordentlich, zupackend"
+  },
+  "sales": {
+    "score": 7,
+    "whyGoodLead": [
+      "Keine eigene Website gefunden, Kontakt nur über Verzeichnisse – t-online-Adresse als Firmenmail",
+      "Mobilnummer öffentlich gelistet – direkt per WhatsApp ansprechbar",
+      "Breites Leistungsspektrum (Trockenbau, Bad, Boden, Fassade, Zaun, Bagger) – ideal für eine Leistungsseite mit lokalen Suchbegriffen",
+      "Sitz in Ottobrunn, kaufkräftiges Einzugsgebiet im Münchner Südosten mit viel Altbestand"
+    ],
+    "pitch": "Grüß Gott Herr Bugari, ich baue Websites für Handwerksbetriebe im Münchner Südosten. Ich habe gesehen, dass BA-Haussanierungen in Ottobrunn Trockenbau, Badsanierungen und Komplettsanierungen anbietet, aber im Netz nur über Branchenbücher zu finden ist. Ich habe unverbindlich einen Entwurf für Ihre eigene Website gebaut – darf ich Ihnen den Link schicken?"
+  },
+  "manualChecks": [
+    "Website-Risiko: mittel – vor Versand in Google Maps prüfen, dass keine Website hinterlegt ist (Grund: alle Website-Prüfungen negativ und Freemail @t-online.de, aber KEIN Google-Eintrag in der Suche belegt)",
+    "Google-Maps-Eintrag suchen (Existenz, Bewertungen, Website-Feld)",
+    "11880-Eintrag ist älter (laut Suche ca. 1630 Tage) – Mobilnummer 0173 6720675 und E-Mail vor Kontakt prüfen; Festnetz laut 11880: (089) 46138436",
+    "Gelbe-Seiten-Eintrag „Rexhep Bugari Bausanierung Trockenbau“ (gleiche Adresse/Mobilnummer) – vermutlich derselbe Betrieb, bestätigen",
+    "„Seit 2015“ ist Selbstangabe aus auftragsbank-Profil – auf der Seite nicht als Siegel/Jahreszahl verwenden, nur nach Bestätigung",
+    "Einsatzgebiet bestätigen – belegt nur Sitz Ottobrunn und „München und Umgebung“",
+    "Logo und Projektfotos beim Betrieb anfragen"
+  ],
+  "sources": [
+    {
+      "label": "11880 – Ba haussanierungen Ottobrunn",
+      "url": "https://www.11880.com/branchenbuch/ottobrunn/292245417B112523648/ba-haussanierungen.html"
+    },
+    {
+      "label": "11880 – Trockenbauer Ottobrunn",
+      "url": "https://www.11880.com/suche/trockenbau/ottobrunn"
+    },
+    {
+      "label": "Gelbe Seiten – Rexhep Bugari Bausanierung Trockenbau",
+      "url": "https://www.gelbeseiten.de/gsbiz/89282df8-651f-4361-b91c-06a6b6a27165"
+    },
+    {
+      "label": "auftragsbank – BA-Haussanierungen",
+      "url": "https://www.auftragsbank.de/firmen/ba-haussanierungen/107078"
+    },
+    {
+      "label": "auftragsbank – Gesuch Haussanierungen",
+      "url": "https://www.auftragsbank.de/gesuche/haussanierungen-auftraege-gesucht-mit-wohnsitz-der-firma-in-muenche/177974"
+    },
+    {
+      "label": "blauarbeit – Ba-Haussanierungen",
+      "url": "https://www.blauarbeit.de/handwerker/muenchen/ba-haussanierungen"
+    }
+  ],
+  "site": {
+    "theme": "werk",
+    "category": "handwerk",
+    "heroOffer": [
+      "Trockenbau",
+      "Badsanierung",
+      "Komplettsanierung",
+      "Bodenlegearbeiten",
+      "Fassade & Dämmung",
+      "Zaunbau"
+    ],
+    "scene": "drywall",
+    "logoIcon": "trowel",
+    "logoMark": "BA",
+    "brandName": "BA-Haussanierungen",
+    "seoTitle": "Haussanierung & Trockenbau in Ottobrunn – BA-Haussanierungen",
+    "seoDescription": "Trockenbau, Badsanierung, Komplettsanierung, Bodenlegearbeiten, Fassadensanierung und Zaunbau aus Ottobrunn. Jetzt kostenlose Besichtigung anfragen.",
+    "nav": [
+      {
+        "label": "Leistungen",
+        "href": "#leistungen"
+      },
+      {
+        "label": "Projekte",
+        "href": "#projekte"
+      },
+      {
+        "label": "Bewertungen",
+        "href": "#bewertungen"
+      },
+      {
+        "label": "Ablauf",
+        "href": "#ablauf"
+      },
+      {
+        "label": "FAQ",
+        "href": "#faq"
+      },
+      {
+        "label": "Kontakt",
+        "href": "#kontakt"
+      }
+    ],
+    "hero": {
+      "eyebrow": "Sanierung & Trockenbau · Ottobrunn",
+      "headline": "Ihre Haussanierung in Ottobrunn – Trockenbau, Bad und Boden aus einer Hand.",
+      "sub": "BA-Haussanierungen saniert und renoviert Häuser und Wohnungen in Ottobrunn und im Münchner Südosten: vom neuen Trockenbau über das Bad bis zu Boden, Fassade und Zaun.",
+      "ctaPrimary": "Kostenlose Besichtigung anfragen",
+      "ctaSecondary": "Anrufen",
+      "bullets": [
+        "Komplettsanierung von Häusern und Wohnungen",
+        "Trockenbau, Bad, Boden und Fassade aus einer Hand",
+        "Inhaber Rexhep Bugari – direkter Ansprechpartner"
+      ],
+      "imageLabel": "frisch gespachtelte Trockenbauwand in einer sanierten Wohnung"
+    },
+    "badges": [
+      {
+        "title": "Alles aus einer Hand",
+        "sub": "vom Rohbau bis zum Boden"
+      },
+      {
+        "title": "Trockenbau",
+        "sub": "Wände, Decken, Dämmung"
+      },
+      {
+        "title": "Badsanierung",
+        "sub": "komplett erneuert"
+      },
+      {
+        "title": "Ottobrunn",
+        "sub": "Am Brunneck 10"
+      }
+    ],
+    "trust": [
+      {
+        "value": "Inhaber",
+        "label": "persönlicher Ansprechpartner"
+      },
+      {
+        "value": "6+",
+        "label": "Gewerke aus einer Hand"
+      },
+      {
+        "value": "Innen & außen",
+        "label": "Wohnung, Fassade, Garten"
+      },
+      {
+        "value": "Ottobrunn",
+        "label": "Betrieb im Münchner Südosten"
+      }
+    ],
+    "servicesIntro": {
+      "headline": "Sanieren ohne Gewerke-Chaos",
+      "text": "Ein Betrieb für Trockenbau, Bad, Boden, Fassade und Außenanlagen – Sie haben einen Ansprechpartner statt vieler Einzelfirmen."
+    },
+    "services": [
+      {
+        "title": "Trockenbau",
+        "text": "Neue Wände, abgehängte Decken und Raumaufteilungen – sauber gestellt und spachtelfertig.",
+        "items": [
+          "Ständerwände",
+          "Deckenverkleidung",
+          "Dämmung / Kälteschutz"
+        ]
+      },
+      {
+        "title": "Komplettsanierung",
+        "text": "Häuser und Wohnungen werden von Grund auf erneuert und modernisiert – auch im Altbau.",
+        "items": [
+          "Wohnungssanierung",
+          "Haussanierung",
+          "Altbau-Modernisierung"
+        ]
+      },
+      {
+        "title": "Badsanierung",
+        "text": "Das alte Bad raus, ein neues Bad rein – koordiniert aus einer Hand.",
+        "items": [
+          "Rückbau",
+          "Neugestaltung",
+          "Modernisierung"
+        ]
+      },
+      {
+        "title": "Bodenlegearbeiten",
+        "text": "Neue Böden als Abschluss der Sanierung – passend zum renovierten Raum.",
+        "items": [
+          "Bodenbeläge verlegen",
+          "Alten Belag entfernen",
+          "Übergänge"
+        ]
+      },
+      {
+        "title": "Fassade & Wärmedämmung",
+        "text": "Fassaden sanieren und dämmen – für ein gepflegtes Haus und weniger Wärmeverlust.",
+        "items": [
+          "Fassadensanierung",
+          "Wärmedämmung",
+          "Isolierarbeiten"
+        ]
+      },
+      {
+        "title": "Außenanlagen, Zaun & Bagger",
+        "text": "Auch draußen packt der Betrieb an: Zäune bauen, Baggerarbeiten und Abriss.",
+        "items": [
+          "Zaunbau",
+          "Baggerarbeiten",
+          "Abrissarbeiten"
+        ]
+      }
+    ],
+    "why": {
+      "headline": "Ein Ansprechpartner für die ganze Sanierung.",
+      "points": [
+        {
+          "title": "Viele Gewerke, ein Betrieb",
+          "text": "Trockenbau, Bad, Boden, Fassade und Außenanlagen – Sie müssen nicht mehrere Firmen koordinieren."
+        },
+        {
+          "title": "Direkt mit dem Inhaber",
+          "text": "Sie sprechen mit Rexhep Bugari selbst – von der Besichtigung bis zur Übergabe."
+        },
+        {
+          "title": "Innen und außen",
+          "text": "Von der Trockenbauwand bis zum Gartenzaun: Das Haus wird als Ganzes gesehen."
+        },
+        {
+          "title": "Aus Ottobrunn",
+          "text": "Kurze Wege nach Neubiberg, Putzbrunn, Hohenbrunn, Haar und München."
+        }
+      ]
+    },
+    "reviews": {
+      "headline": "Was Kunden sagen",
+      "summary": "Kundenstimmen werden hier eingebunden, sobald sie aus dem Google-Eintrag übernommen sind.",
+      "highlights": [
+        "Alles aus einer Hand",
+        "Trockenbau & Sanierung",
+        "Direkter Kontakt zum Inhaber",
+        "Sitz in Ottobrunn"
+      ],
+      "source": "Google",
+      "sourceUrl": "https://www.google.com/maps/search/?api=1&query=BA-Haussanierungen%20Am%20Brunneck%2010%20Ottobrunn",
+      "rating": null,
+      "count": null
+    },
+    "process": {
+      "headline": "In vier Schritten zur fertigen Sanierung",
+      "steps": [
+        {
+          "title": "Anfrage",
+          "text": "Kurz anrufen oder per WhatsApp Fotos vom Objekt schicken."
+        },
+        {
+          "title": "Besichtigung",
+          "text": "Vor Ort werden Zustand, Wünsche und Umfang aufgenommen."
+        },
+        {
+          "title": "Angebot",
+          "text": "Sie erhalten ein klares Angebot für die einzelnen Gewerke."
+        },
+        {
+          "title": "Ausführung",
+          "text": "Sanierung aus einer Hand – mit einem festen Ansprechpartner."
+        }
+      ]
+    },
+    "gallery": {
+      "headline": "Sanierte Räume",
+      "text": "Für die Live-Version zeigen wir hier echte Projekte des Betriebs – idealerweise als Vorher-/Nachher-Paare.",
+      "items": [
+        {
+          "title": "Trockenbau",
+          "photoNeeded": "neue Trockenbauwand, gespachtelt, vor dem Anstrich"
+        },
+        {
+          "title": "Neues Bad",
+          "photoNeeded": "komplett saniertes Bad"
+        },
+        {
+          "title": "Neuer Boden",
+          "photoNeeded": "frisch verlegter Boden in sanierter Wohnung"
+        },
+        {
+          "title": "Fassade",
+          "photoNeeded": "gedämmte, neu verputzte Hausfassade"
+        },
+        {
+          "title": "Zaunbau",
+          "photoNeeded": "neu gesetzter Gartenzaun"
+        }
+      ]
+    },
+    "region": {
+      "headline": "Ihr Sanierungsbetrieb für Ottobrunn und den Münchner Südosten",
+      "text": "Von Ottobrunn aus ist BA-Haussanierungen schnell in Neubiberg, Putzbrunn, Hohenbrunn, Haar, Taufkirchen und München – für einzelne Räume ebenso wie für ganze Häuser.",
+      "places": [
+        "Ottobrunn",
+        "Neubiberg",
+        "Putzbrunn",
+        "Hohenbrunn",
+        "Haar",
+        "Taufkirchen",
+        "München"
+      ]
+    },
+    "faq": [
+      {
+        "q": "Übernehmen Sie auch komplette Sanierungen?",
+        "a": "Ja. Häuser und Wohnungen können komplett saniert werden – Trockenbau, Bad, Boden und Fassade aus einer Hand."
+      },
+      {
+        "q": "Machen Sie auch kleinere Aufträge, z. B. eine Trockenbauwand?",
+        "a": "Fragen Sie einfach an – am besten mit ein paar Fotos und den ungefähren Maßen."
+      },
+      {
+        "q": "Arbeiten Sie auch im Außenbereich?",
+        "a": "Ja, zum Angebot gehören auch Fassadensanierung, Wärmedämmung, Zaunbau und Baggerarbeiten."
+      },
+      {
+        "q": "Kann ich per WhatsApp Fotos schicken?",
+        "a": "Gern – Fotos helfen bei der ersten Einschätzung. Für ein verbindliches Angebot ist eine Besichtigung vor Ort sinnvoll."
+      }
+    ],
+    "contact": {
+      "headline": "Ihr Sanierungsprojekt – kostenlos anfragen",
+      "text": "Beschreiben Sie kurz Ihr Vorhaben: welches Objekt, welche Räume und was gemacht werden soll. Fotos helfen bei der Einschätzung.",
+      "topics": [
+        "Trockenbau",
+        "Komplettsanierung",
+        "Badsanierung",
+        "Bodenlegearbeiten",
+        "Fassade & Dämmung",
+        "Zaunbau / Baggerarbeiten",
+        "Sonstiges"
+      ],
+      "responseNote": "Besichtigung nach Absprache."
+    },
+    "quote": {
+      "sizeLabel": "Was soll saniert werden?",
+      "sizes": [
+        "Einzelner Raum",
+        "Bad",
+        "Wohnung",
+        "Ganzes Haus",
+        "Außenbereich / Fassade"
+      ],
+      "timings": [
+        "So bald wie möglich",
+        "In den nächsten Wochen",
+        "In 1–3 Monaten",
+        "Ich plane erst noch"
+      ]
+    },
+    "stickyCta": "Besichtigung anfragen"
+  }
+}
