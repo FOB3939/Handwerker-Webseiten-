@@ -62,6 +62,8 @@ export const PLACES: Record<string, [number, number]> = {
   "München-Riem": [48.131, 11.691],
   Ebersberg: [48.077, 11.97],
   Mering: [48.266, 10.984],
+  Poing: [48.17, 11.812],
+  Vaterstetten: [48.105, 11.77],
   Notzing: [48.3, 11.836],
   Niederding: [48.316, 11.866],
   Schwaig: [48.338, 11.835],
