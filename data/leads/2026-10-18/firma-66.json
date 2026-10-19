@@ -1,0 +1,338 @@
+{
+  "id": "2026-10-18-66",
+  "slug": "baumpflege-kanka-neufahrn",
+  "date": "2026-10-18",
+  "company": {
+    "name": "Baumpflege Kanka",
+    "owner": null,
+    "trade": "Baumpflege & Pflasterarbeiten",
+    "city": "Neufahrn bei Freising",
+    "address": "Bahnhofstr. 42, 85375 Neufahrn bei Freising",
+    "phone": "0176 37818492",
+    "email": "baumpflege-kanka@web.de",
+    "serviceArea": [
+      "Neufahrn bei Freising",
+      "Landkreis Freising"
+    ]
+  },
+  "listings": {
+    "google": {
+      "url": "https://www.google.com/maps/search/?api=1&query=Baumpflege%20Kanka%20Bahnhofstr.%2042%20Neufahrn%20bei%20Freising",
+      "rating": null,
+      "reviews": null,
+      "evidence": "INDIREKT / NICHT VERIFIZIERT – kein Maps-/trustlocal-Treffer gesucht bzw. gefunden (Suchbudget). Aufnahme wegen starkem Kein-Website-Beleg: Freemail baumpflege-kanka@web.de in 11880 und suchehandwerker.de. Ein Website-Feld war in keinem Eintrag zu sehen. Vor Versand in Google Maps prüfen, ob ein Eintrag existiert."
+    },
+    "myhammer": {
+      "url": "https://www.11880.com/branchenbuch/neufahrn-bei-freising/170210582B112542846/baumpflege-kanka.html",
+      "rating": null,
+      "reviews": null,
+      "evidence": "Kein MyHammer – Eintrag in 11880: „Baumpflege Kanka“, Bahnhofstr. 42, 85375 Neufahrn bei Freising, Tel. 0176 37818492, E-Mail baumpflege-kanka@web.de; Rubriken Baumpflege und Pflasterarbeiten; noch keine Bewertungen, keine Öffnungszeiten. Zusätzlich suchehandwerker.de (gleiche Adresse und E-Mail, Leistung Pflasterarbeiten, Platzhalter-„Über uns“)."
+    }
+  },
+  "websiteStatus": "keine eigene Website gefunden",
+  "websiteChecks": [
+    "(1) Baumpflege Kanka Neufahrn bei Freising mit blocked_domains (11880, Gelbe Seiten, Das Örtliche, Das Telefonbuch, Cylex, meinestadt, Creditreform, Facebook, Instagram, golocal, MyHammer, Northdata, Firmenwissen, werkenntdenbesten, Yelp, trustlocal, wlw) – nur Verzeichnis suchehandwerker.de (keine Homepage) und fremde Baumpflege-Betriebe (Rieder Baumdienst, Arbocare, GreenCare u. a.), keine eigene Domain",
+    "(2) Telefonsuche \"0176 37818492\"/\"017637818492\" Baumpflege mit blocked_domains (11880, Gelbe Seiten, Das Örtliche, Das Telefonbuch, Cylex, meinestadt, Creditreform, Facebook, Instagram, golocal, MyHammer, Northdata, Firmenwissen, werkenntdenbesten, Yelp, trustlocal, wlw) – kein Treffer zur Nummer",
+    "(3) Domainprüfung allowed_domains baumpflege-kanka.de, kanka-baumpflege.de, baumpflegekanka.de, kanka.de, kanka-neufahrn.de, baumpflege-neufahrn.de, kanka-garten.de, baumservice-kanka.de – keine Ergebnisse",
+    "(4) Impressum-Suche Impressum Kanka Baumpflege Neufahrn Bahnhofstr. 42 (blocked_domains (11880, Gelbe Seiten, Das Örtliche, Das Telefonbuch, Cylex, meinestadt, Creditreform, Facebook, Instagram, golocal, MyHammer, Northdata, Firmenwissen, werkenntdenbesten, Yelp, trustlocal, wlw)) – kein eigenes Impressum, nur suchehandwerker.de-Eintrag und fremde Betriebe (u. a. b+b Garten- und Landschaftsbau, Bahnhofstr. 41 – anderer Betrieb)",
+    "(5) Verzeichnisse 11880 und suchehandwerker.de: kein Website-Feld, E-Mail ist Freemail (web.de) – starkes Indiz",
+    "(6) Kein Google-Spiegel/Maps-Treffer geprüft/gefunden – daher kein Website-Feld prüfbar",
+    "Website-Risiko: niedrig – Freemail-Adresse, alle Namens-/Domain-/Telefon-/Impressum-Suchen negativ; Google-Eintrag aber nicht belegt"
+  ],
+  "facts": {
+    "services": [
+      "Baumpflege",
+      "Pflasterarbeiten"
+    ],
+    "experience": null,
+    "praisedFor": []
+  },
+  "strategy": {
+    "audience": "Hausbesitzer, Vermieter und Eigentümergemeinschaften in Neufahrn und im Landkreis Freising mit Bäumen auf dem Grundstück oder Pflasterflächen",
+    "mainService": "Baumpflege",
+    "trustSignal": "Direkter Kontakt per Mobilnummer – ein Ansprechpartner vor Ort in Neufahrn",
+    "conversionGoal": "Anfrage per WhatsApp oder Formular mit Fotos vom Baum bzw. der Fläche",
+    "visualConcept": "Ruhiges, hochwertiges Grün: gepflegte Baumkronen, saubere Pflasterwege – solide und bodenständig"
+  },
+  "sales": {
+    "score": 6,
+    "whyGoodLead": [
+      "Keine eigene Website – bisher nur Verzeichniseinträge",
+      "Mobilnummer öffentlich – Kontakt per WhatsApp möglich",
+      "Noch keine Bewertungen – eine Website mit Leistungen schafft erstes Vertrauen",
+      "web.de-Adresse wirkt gegenüber Wettbewerbern mit eigener Domain weniger professionell"
+    ],
+    "pitch": "Hallo, ich erstelle Websites für Handwerks- und Gartenbetriebe im Münchner Umland. Ich habe Baumpflege Kanka in Neufahrn im Branchenbuch gefunden – eine eigene Website gibt es aber noch nicht. Ich habe Ihnen unverbindlich einen Entwurf vorbereitet, über den Kunden direkt per WhatsApp anfragen können. Darf ich Ihnen den Link schicken?"
+  },
+  "manualChecks": [
+    "Website-Risiko: niedrig – vor Versand in Google Maps prüfen, dass keine Website hinterlegt ist (Grund: Freemail web.de, alle Namens-/Domain-/Telefon-/Impressum-Suchen negativ; Google-Eintrag selbst nicht belegt)",
+    "Inhaber (Vorname/Nachname Kanka) nicht belegt – Anrede vor Versand klären",
+    "Existenz und Bewertungen des Google-Eintrags prüfen (rating/reviews aktuell null)",
+    "Leistungsumfang: belegt nur Baumpflege (Firmenname/Rubrik) und Pflasterarbeiten – Baumfällung, Heckenschnitt etc. NICHT belegt",
+    "WhatsApp-Erreichbarkeit der Mobilnummer prüfen",
+    "Echtes Logo und Fotos: nicht gefunden – beim Betrieb anfragen"
+  ],
+  "sources": [
+    {
+      "label": "11880 – Baumpflege Kanka Neufahrn",
+      "url": "https://www.11880.com/branchenbuch/neufahrn-bei-freising/170210582B112542846/baumpflege-kanka.html"
+    },
+    {
+      "label": "11880 – Baumpfleger Neufahrn",
+      "url": "https://www.11880.com/suche/baumpflege/neufahrn"
+    },
+    {
+      "label": "suchehandwerker.de – Baumpflege Kanka in Neufahrn",
+      "url": "https://suchehandwerker.de/betrieb/baumpflege-kanka-58997/"
+    }
+  ],
+  "site": {
+    "theme": "objekt",
+    "category": "handwerk",
+    "heroOffer": [
+      "Baumpflege",
+      "Pflasterarbeiten",
+      "Anfrage per WhatsApp",
+      "Neufahrn & Landkreis Freising"
+    ],
+    "scene": "garden",
+    "logoIcon": "leaf",
+    "logoMark": "BK",
+    "brandName": "Baumpflege Kanka",
+    "seoTitle": "Baumpflege & Pflasterarbeiten in Neufahrn – Baumpflege Kanka",
+    "seoDescription": "Baumpflege und Pflasterarbeiten aus Neufahrn bei Freising. Direkt anfragen – auch per WhatsApp.",
+    "nav": [
+      {
+        "label": "Leistungen",
+        "href": "#leistungen"
+      },
+      {
+        "label": "Projekte",
+        "href": "#projekte"
+      },
+      {
+        "label": "Bewertungen",
+        "href": "#bewertungen"
+      },
+      {
+        "label": "Ablauf",
+        "href": "#ablauf"
+      },
+      {
+        "label": "FAQ",
+        "href": "#faq"
+      },
+      {
+        "label": "Kontakt",
+        "href": "#kontakt"
+      }
+    ],
+    "hero": {
+      "eyebrow": "Baumpflege & Pflaster · Neufahrn bei Freising",
+      "headline": "Baumpflege und Pflasterarbeiten in Neufahrn – direkt vom Fachmann vor Ort.",
+      "sub": "Baumpflege Kanka kümmert sich um Ihre Bäume und verlegt Pflaster – in Neufahrn bei Freising und Umgebung. Anfragen gehen direkt per Telefon oder WhatsApp.",
+      "ctaPrimary": "Per WhatsApp anfragen",
+      "ctaSecondary": "Anrufen",
+      "bullets": [
+        "Direkter Ansprechpartner",
+        "Baum und Pflaster aus einer Hand",
+        "Vor Ort in Neufahrn"
+      ],
+      "imageLabel": "gepflegter Baum über einem frisch gepflasterten Weg"
+    },
+    "badges": [
+      {
+        "title": "Baumpflege",
+        "sub": "rund ums Grundstück"
+      },
+      {
+        "title": "Pflaster",
+        "sub": "Wege & Flächen"
+      },
+      {
+        "title": "WhatsApp",
+        "sub": "0176 37818492"
+      },
+      {
+        "title": "Neufahrn",
+        "sub": "bei Freising"
+      }
+    ],
+    "trust": [
+      {
+        "value": "2",
+        "label": "Leistungsbereiche"
+      },
+      {
+        "value": "1",
+        "label": "fester Ansprechpartner"
+      },
+      {
+        "value": "WhatsApp",
+        "label": "schnell erreichbar"
+      },
+      {
+        "value": "Neufahrn",
+        "label": "Landkreis Freising"
+      }
+    ],
+    "servicesIntro": {
+      "headline": "Bäume gepflegt, Flächen gepflastert",
+      "text": "Baumpflege und Pflasterarbeiten – abgestimmt auf Ihr Grundstück."
+    },
+    "services": [
+      {
+        "title": "Baumpflege",
+        "text": "Pflege der Bäume auf Ihrem Grundstück – Umfang wird vor Ort abgestimmt.",
+        "items": [
+          "Besichtigung vor Ort",
+          "Privatgrundstücke",
+          "Wohnanlagen nach Absprache"
+        ]
+      },
+      {
+        "title": "Pflasterarbeiten",
+        "text": "Pflasterflächen für Wege, Einfahrten und Terrassen nach Absprache.",
+        "items": [
+          "Wege",
+          "Einfahrten",
+          "Terrassen nach Absprache"
+        ]
+      }
+    ],
+    "why": {
+      "headline": "Ein Ansprechpartner für Baum und Pflaster.",
+      "points": [
+        {
+          "title": "Direkt erreichbar",
+          "text": "Sie sprechen direkt mit dem Betrieb – per Telefon oder WhatsApp."
+        },
+        {
+          "title": "Zwei Leistungen",
+          "text": "Baumpflege und Pflasterarbeiten aus einer Hand."
+        },
+        {
+          "title": "Aus Neufahrn",
+          "text": "Kurze Wege in Neufahrn und im Landkreis Freising."
+        },
+        {
+          "title": "Fotos genügen",
+          "text": "Schicken Sie Fotos – so lässt sich der Aufwand schnell einschätzen."
+        }
+      ]
+    },
+    "reviews": {
+      "headline": "Was Kunden sagen",
+      "summary": "Kundenstimmen werden hier eingebunden, sobald sie aus dem Google-Profil übernommen sind.",
+      "highlights": [
+        "Baumpflege",
+        "Pflasterarbeiten",
+        "WhatsApp",
+        "Neufahrn"
+      ],
+      "source": "Google",
+      "sourceUrl": "https://www.google.com/maps/search/?api=1&query=Baumpflege%20Kanka%20Bahnhofstr.%2042%20Neufahrn%20bei%20Freising",
+      "rating": null,
+      "count": null
+    },
+    "process": {
+      "headline": "So einfach geht's",
+      "steps": [
+        {
+          "title": "Anfrage",
+          "text": "Kurz per WhatsApp oder Telefon melden – gern mit Fotos."
+        },
+        {
+          "title": "Besichtigung",
+          "text": "Baum oder Fläche wird vor Ort angesehen."
+        },
+        {
+          "title": "Angebot",
+          "text": "Sie erhalten ein klares Angebot."
+        },
+        {
+          "title": "Ausführung",
+          "text": "Die Arbeiten werden zum vereinbarten Termin erledigt."
+        }
+      ]
+    },
+    "gallery": {
+      "headline": "Arbeiten aus der Region",
+      "text": "Für die Live-Version zeigen wir hier echte Einsätze des Betriebs.",
+      "items": [
+        {
+          "title": "Baumpflege",
+          "photoNeeded": "gepflegte Baumkrone nach dem Einsatz"
+        },
+        {
+          "title": "Pflasterweg",
+          "photoNeeded": "frisch verlegter Pflasterweg"
+        },
+        {
+          "title": "Einfahrt",
+          "photoNeeded": "gepflasterte Einfahrt"
+        },
+        {
+          "title": "Vorher/Nachher",
+          "photoNeeded": "Grundstück vor und nach der Arbeit"
+        }
+      ]
+    },
+    "region": {
+      "headline": "Baumpflege und Pflaster für Neufahrn und Umgebung",
+      "text": "Von Neufahrn bei Freising aus ist Baumpflege Kanka im Landkreis Freising im Einsatz.",
+      "places": [
+        "Neufahrn bei Freising",
+        "Landkreis Freising"
+      ]
+    },
+    "faq": [
+      {
+        "q": "Kann ich per WhatsApp anfragen?",
+        "a": "Ja, unter 0176 37818492 – am besten gleich mit ein paar Fotos."
+      },
+      {
+        "q": "Machen Sie auch Pflasterarbeiten?",
+        "a": "Ja, neben der Baumpflege übernimmt der Betrieb auch Pflasterarbeiten."
+      },
+      {
+        "q": "Kommen Sie zur Besichtigung?",
+        "a": "Umfang und Termin werden individuell abgestimmt – fragen Sie einfach an."
+      }
+    ],
+    "contact": {
+      "headline": "Jetzt unverbindlich anfragen",
+      "text": "Beschreiben Sie kurz, worum es geht. Fotos helfen bei der Einschätzung.",
+      "topics": [
+        "Baumpflege",
+        "Pflasterarbeiten",
+        "Sonstiges"
+      ],
+      "responseNote": "Antwort per Telefon, WhatsApp oder E-Mail."
+    },
+    "quote": {
+      "sizeLabel": "Worum geht es?",
+      "sizes": [
+        "Einzelner Baum",
+        "Mehrere Bäume",
+        "Pflasterfläche",
+        "Weg / Einfahrt"
+      ],
+      "timings": [
+        "So bald wie möglich",
+        "In den nächsten Wochen",
+        "Ich plane erst noch"
+      ]
+    },
+    "stickyCta": "WhatsApp-Anfrage",
+    "look": {
+      "palette": 2,
+      "font": 3,
+      "hero": 3,
+      "services": 1,
+      "radius": 4,
+      "logo": 3,
+      "intro": 2
+    }
+  }
+}

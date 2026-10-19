@@ -1,0 +1,385 @@
+{
+  "id": "2026-10-18-30",
+  "slug": "isoliertechnik-mering-gaussring",
+  "date": "2026-10-18",
+  "company": {
+    "name": "Isoliertechnik Mering GbR",
+    "owner": null,
+    "trade": "Technische Isolierung (Wärme-, Kälte-, Schallschutz)",
+    "city": "Mering",
+    "address": "Gaußring 26, 86415 Mering",
+    "phone": "0172 4682138",
+    "email": "isoliertechnik.mering@gmail.com",
+    "serviceArea": [
+      "Mering",
+      "Kissing",
+      "Friedberg",
+      "Merching",
+      "Prittriching",
+      "Augsburg-Hochzoll",
+      "Steindorf"
+    ]
+  },
+  "listings": {
+    "google": {
+      "url": "https://www.google.com/maps/search/?api=1&query=Isoliertechnik%20Mering%20GbR%20Gau%C3%9Fring%2026%20Mering",
+      "rating": null,
+      "reviews": null,
+      "evidence": "NICHT VERIFIZIERT (indirekt) – WebSearch mit allowed_domains google.com/google.de lieferte keinen Maps-Treffer, Google-Spiegelverzeichnisse (trustlocal, werkenntdenbesten, weshoplocal, firmania) zeigten keinen Eintrag mit Google-Sternen. Angenommen nur wegen starkem Website-Negativbeleg (Freemail-Adresse im Gemeinde-Branchenverzeichnis). Vor Kontaktaufnahme in Google Maps prüfen: Eintrag vorhanden? KEIN Website-Feld?"
+    },
+    "myhammer": {
+      "url": "https://mering.de/wirtschaft-gewerbe/branchenverzeichnis/bauen-handwerk/isoliertechnik",
+      "rating": null,
+      "reviews": null,
+      "evidence": "Kein MyHammer – Eintrag im Branchenverzeichnis des Marktes Mering (Rubrik Bauen & Handwerk › Isoliertechnik): „Isoliertechnik Mering GbR, Gaußring 26, 86415 Mering, Tel. 0172 4682138, E-Mail isoliertechnik.mering@gmail.com“ – kein Website-Feld. Zusätzlich Stellenanzeige auf Kleinanzeigen (29.08.2026, „WKS-Isolierer (m/w/d) gesucht“): junges, inhabergeführtes Unternehmen mit Schwerpunkt technische Isolierung in der Haustechnik."
+    }
+  },
+  "websiteStatus": "keine eigene Website gefunden",
+  "websiteChecks": [
+    "(1) „Isoliertechnik Mering GbR“ mit blocked_domains [\"11880.com\",\"gelbeseiten.de\",\"dasoertliche.de\",\"dastelefonbuch.de\",\"cylex.de\",\"meinestadt.de\",\"creditreform.de\",\"facebook.com\",\"instagram.com\",\"golocal.de\",\"my-hammer.de\",\"northdata.de\",\"firmenwissen.de\",\"werkenntdenbesten.de\",\"yelp.de\",\"trustlocal.de\",\"wlw.de\"] – nur mering.de-Branchenverzeichnis, mering.stadtbranchenbuch.com, marktplatz-mittelstand.de (Nachbarliste, Rubrik Dämmung), Kleinanzeigen-Stellenanzeige; keine eigene Domain",
+    "(2) Telefonnummer „0172 4682138“ mit denselben blocked_domains – nur mering.de-Branchenverzeichnis, ein Vereinseintrag (SV Prittriching, Jugendtrainer – Zuordnung unklar) und Rufnummern-Rückwärtssuchen; keine Firmen-Website",
+    "(3) Domainprüfung per allowed_domains: isoliertechnik-mering.de, isoliertechnikmering.de, isoliertechnik-mering.com, mering-isoliertechnik.de, isolierung-mering.de, itm-mering.de – keine Treffer",
+    "(4) Impressum-Suche „Impressum Isoliertechnik Mering GbR Gaußring 26“ – kein eigenes Impressum, nur Impressen anderer Meringer Firmen; Gesellschafter/Inhaber nicht ermittelbar",
+    "(5) Verzeichnis mering.de: Website-Feld leer, E-Mail Freemail (gmail.com) – starkes Indiz für keine eigene Domain",
+    "(6) Kein Google-Maps-/Spiegel-Treffer gefunden, daher auch kein Website-Feld sichtbar; auch WebSearch allowed_domains google.com lieferte nur Patente",
+    "Website-Risiko: niedrig bzgl. Website (Freemail + alle Prüfungen negativ) – aber Google-Eintrag NICHT verifiziert"
+  ],
+  "facts": {
+    "services": [
+      "Technische Isolierung in der Haustechnik",
+      "Wärmedämmung",
+      "Kälteisolierung",
+      "Schallschutz-Isolierung"
+    ],
+    "experience": null,
+    "praisedFor": []
+  },
+  "strategy": {
+    "audience": "Heizungs- und Sanitärbetriebe, Bauträger, Hausverwaltungen und Bauherren in Mering, Kissing, Friedberg und im Raum Augsburg, die Rohrleitungen und Haustechnik dämmen lassen müssen",
+    "mainService": "Technische Isolierung (Wärme, Kälte, Schall) für Haustechnik",
+    "trustSignal": "Junger, inhabergeführter Fachbetrieb aus Mering – direkt per Mobilnummer erreichbar",
+    "conversionGoal": "Anfrage für Isolierarbeiten (Objekt, Leitungen, Zeitraum) bzw. Bewerbungen als WKS-Isolierer",
+    "visualConcept": "Klare Objekt-Optik: gedämmte Rohrleitungen mit Blechmantel und sauberen Abschlüssen im Technikraum als Leitmotiv"
+  },
+  "sales": {
+    "score": 6,
+    "whyGoodLead": [
+      "Nur Freemail-Adresse und Gemeinde-Verzeichniseintrag – keine eigene Website gefunden",
+      "Junger Betrieb sucht laut Stellenanzeige aktuell Mitarbeiter – eine Website mit Karriereseite hilft direkt beim Recruiting",
+      "B2B-Gewerk (Haustechnik-Isolierung): Generalunternehmer und SHK-Betriebe prüfen Nachunternehmer online",
+      "Klares, gut darstellbares Leistungsspektrum (Wärme, Kälte, Schall)"
+    ],
+    "pitch": "Guten Tag, mein Name ist … – ich erstelle Websites für Handwerksbetriebe im Raum Augsburg. Ich habe gesehen, dass die Isoliertechnik Mering im Branchenverzeichnis des Marktes Mering steht und gerade einen WKS-Isolierer sucht, aber noch keine eigene Website hat. Ich habe unverbindlich einen Entwurf vorbereitet – mit Leistungen für Auftraggeber und einer Karriereseite für Bewerber. Darf ich Ihnen den Link schicken?"
+  },
+  "manualChecks": [
+    "Website-Risiko: niedrig – vor Versand in Google Maps prüfen, dass keine Website hinterlegt ist (Grund: Freemail-Adresse isoliertechnik.mering@gmail.com, alle Such- und Domainprüfungen negativ; ABER Google-Eintrag selbst nicht verifiziert)",
+    "Google-Maps-Eintrag suchen (Isoliertechnik Mering, Gaußring 26) – existiert er überhaupt? Bewertungen? Falls kein Eintrag: Lead trotzdem nutzbar, Google-Profil als Zusatzleistung anbieten",
+    "Gesellschafter/Inhaber der GbR nicht ermittelt – beim Erstkontakt Ansprechpartner erfragen",
+    "Die Mobilnummer taucht auch als Kontakt eines Jugendtrainers beim SV Prittriching auf – möglicherweise ein Gesellschafter; nicht ungeprüft verwenden",
+    "Leistungsumfang (Rohrleitungen, Lüftung, Kälte, Brandschutz?) im Gespräch bestätigen – belegt ist nur ‚technische Isolierung in der Haustechnik‘ und WKS (Wärme/Kälte/Schall)",
+    "Echtes Logo und Projektfotos: nicht gefunden – beim Betrieb anfragen"
+  ],
+  "sources": [
+    {
+      "label": "Markt Mering – Branchenverzeichnis Isoliertechnik",
+      "url": "https://mering.de/wirtschaft-gewerbe/branchenverzeichnis/bauen-handwerk/isoliertechnik"
+    },
+    {
+      "label": "Markt Mering – Branchenverzeichnis Bauen & Handwerk",
+      "url": "https://mering.de/wirtschaft-gewerbe/branchenverzeichnis/bauen-handwerk"
+    },
+    {
+      "label": "Kleinanzeigen – Stellenanzeige WKS-Isolierer, Isoliertechnik Mering GbR",
+      "url": "https://www.kleinanzeigen.de/s-jobs/isolierer-isolierer/k0c102"
+    },
+    {
+      "label": "Marktplatz Mittelstand – Nachbarliste Mering (Dämmung, Gaußring 26)",
+      "url": "https://www.marktplatz-mittelstand.de/mering/boesl-haustechnik-gmbh-aXnK4N.html"
+    },
+    {
+      "label": "Stadtbranchenbuch Mering",
+      "url": "https://mering.stadtbranchenbuch.com/"
+    }
+  ],
+  "site": {
+    "theme": "objekt",
+    "category": "handwerk",
+    "heroOffer": [
+      "Technische Isolierung",
+      "Wärmedämmung",
+      "Kälteisolierung",
+      "Schallschutz",
+      "Haustechnik"
+    ],
+    "scene": "drywall",
+    "logoIcon": "house",
+    "logoMark": "IM",
+    "brandName": "Isoliertechnik Mering",
+    "seoTitle": "Technische Isolierung in Mering – Isoliertechnik Mering GbR",
+    "seoDescription": "Wärme-, Kälte- und Schallschutz-Isolierung für die Haustechnik – Isoliertechnik Mering GbR, inhabergeführt, für Mering, Kissing, Friedberg und den Raum Augsburg. Jetzt anfragen.",
+    "nav": [
+      {
+        "label": "Leistungen",
+        "href": "#leistungen"
+      },
+      {
+        "label": "Projekte",
+        "href": "#projekte"
+      },
+      {
+        "label": "Ablauf",
+        "href": "#ablauf"
+      },
+      {
+        "label": "Region",
+        "href": "#region"
+      },
+      {
+        "label": "FAQ",
+        "href": "#faq"
+      },
+      {
+        "label": "Kontakt",
+        "href": "#kontakt"
+      }
+    ],
+    "hero": {
+      "eyebrow": "Technische Isolierung · Mering",
+      "headline": "Technische Isolierung in Mering – Wärme, Kälte, Schall.",
+      "sub": "Die Isoliertechnik Mering GbR dämmt Leitungen und Anlagen der Haustechnik – für SHK-Betriebe, Bauträger und Bauherren in Mering, Kissing, Friedberg und im Raum Augsburg.",
+      "ctaPrimary": "Isolierarbeiten anfragen",
+      "ctaSecondary": "Anrufen",
+      "bullets": [
+        "Wärme-, Kälte- und Schallschutz-Isolierung",
+        "Schwerpunkt Haustechnik",
+        "Junger, inhabergeführter Betrieb aus Mering"
+      ],
+      "imageLabel": "gedämmte Rohrleitungen mit sauberen Abschlüssen im Technikraum"
+    },
+    "badges": [
+      {
+        "title": "Wärmedämmung",
+        "sub": "für Heizungsleitungen"
+      },
+      {
+        "title": "Kälteisolierung",
+        "sub": "für Kälte- und Klimaleitungen"
+      },
+      {
+        "title": "Schallschutz",
+        "sub": "leisere Haustechnik"
+      },
+      {
+        "title": "Mering",
+        "sub": "Landkreis Aichach-Friedberg"
+      }
+    ],
+    "trust": [
+      {
+        "value": "WKS",
+        "label": "Wärme · Kälte · Schall"
+      },
+      {
+        "value": "Haustechnik",
+        "label": "unser Schwerpunkt"
+      },
+      {
+        "value": "Inhaber",
+        "label": "persönlich vor Ort"
+      },
+      {
+        "value": "Mering",
+        "label": "Sitz am Gaußring"
+      }
+    ],
+    "servicesIntro": {
+      "headline": "Isolierung, die Energie spart und Anlagen schützt",
+      "text": "Gut gedämmte Leitungen verlieren weniger Wärme, schwitzen nicht und laufen leiser. Wir isolieren die Haustechnik in Neubau und Sanierung."
+    },
+    "services": [
+      {
+        "title": "Wärmedämmung",
+        "text": "Dämmung von Heizungs- und Warmwasserleitungen – damit die Wärme dort ankommt, wo sie gebraucht wird.",
+        "items": [
+          "Heizungsleitungen",
+          "Warmwasser",
+          "Neubau & Sanierung"
+        ]
+      },
+      {
+        "title": "Kälteisolierung",
+        "text": "Isolierung kalter Leitungen gegen Wärmeeintrag und Tauwasser.",
+        "items": [
+          "Kälteleitungen",
+          "Tauwasserschutz",
+          "Haustechnik"
+        ]
+      },
+      {
+        "title": "Schallschutz-Isolierung",
+        "text": "Dämmung, die Geräusche aus Leitungen und Anlagen reduziert.",
+        "items": [
+          "Schallschutz",
+          "Leitungen",
+          "Wohnbau"
+        ]
+      },
+      {
+        "title": "Technische Isolierung Haustechnik",
+        "text": "Isolierarbeiten als Partner von Heizungs-, Sanitär- und Lüftungsbetrieben – sauber abgestimmt auf den Bauablauf.",
+        "items": [
+          "Partner für SHK",
+          "Bauträger",
+          "Objektbau"
+        ]
+      }
+    ],
+    "why": {
+      "headline": "Ein junger Fachbetrieb mit sauberer Arbeit.",
+      "points": [
+        {
+          "title": "Spezialisiert",
+          "text": "Technische Isolierung in der Haustechnik ist unser Schwerpunkt – kein Nebengeschäft."
+        },
+        {
+          "title": "Inhabergeführt",
+          "text": "Sie sprechen direkt mit den Inhabern – kurze Wege, klare Absprachen."
+        },
+        {
+          "title": "Saubere Ausführung",
+          "text": "Ordentliche Abschlüsse und eine aufgeräumte Baustelle sind für uns selbstverständlich."
+        },
+        {
+          "title": "Aus Mering",
+          "text": "Kurze Anfahrt nach Kissing, Friedberg, Augsburg und in den Landkreis Aichach-Friedberg."
+        }
+      ]
+    },
+    "reviews": {
+      "headline": "Ihre Meinung zählt",
+      "summary": "Bewertungen von Auftraggebern zeigen wir hier, sobald sie für die Live-Version freigegeben sind.",
+      "highlights": [
+        "Inhabergeführter Betrieb",
+        "Wärme, Kälte, Schall",
+        "Schwerpunkt Haustechnik",
+        "Sitz in Mering"
+      ],
+      "source": "Branchenverzeichnis Markt Mering",
+      "sourceUrl": "https://mering.de/wirtschaft-gewerbe/branchenverzeichnis/bauen-handwerk/isoliertechnik",
+      "rating": null,
+      "count": null
+    },
+    "process": {
+      "headline": "So läuft Ihr Auftrag",
+      "steps": [
+        {
+          "title": "Anfrage",
+          "text": "Objekt, Leitungsart und Zeitraum kurz schildern – gern mit Plänen oder Fotos."
+        },
+        {
+          "title": "Abstimmung",
+          "text": "Wir klären Umfang, Material und Termin – auch mit dem SHK-Betrieb vor Ort."
+        },
+        {
+          "title": "Angebot",
+          "text": "Sie erhalten ein nachvollziehbares Angebot für die Isolierarbeiten."
+        },
+        {
+          "title": "Ausführung",
+          "text": "Wir isolieren sauber und termingerecht – passend zum Bauablauf."
+        }
+      ]
+    },
+    "gallery": {
+      "headline": "Projekte aus der technischen Isolierung",
+      "text": "Für die Live-Version zeigen wir hier echte Baustellen der Isoliertechnik Mering.",
+      "items": [
+        {
+          "title": "Heizungsverteilung",
+          "photoNeeded": "gedämmte Heizungsverteilung im Technikraum"
+        },
+        {
+          "title": "Rohrleitungen",
+          "photoNeeded": "isolierte Rohrleitungen mit Blech- oder PVC-Mantel"
+        },
+        {
+          "title": "Kälteleitungen",
+          "photoNeeded": "isolierte Kälte-/Klimaleitungen"
+        },
+        {
+          "title": "Team bei der Arbeit",
+          "photoNeeded": "Isolierer bei der Montage auf der Baustelle"
+        }
+      ]
+    },
+    "region": {
+      "headline": "Isolierarbeiten für Mering, Kissing, Friedberg und Augsburg",
+      "text": "Von Mering aus sind wir schnell in Kissing, Friedberg, Merching, Prittriching, Steindorf und Augsburg – für Einfamilienhaus, Wohnanlage oder Gewerbeobjekt.",
+      "places": [
+        "Mering",
+        "Kissing",
+        "Friedberg",
+        "Merching",
+        "Prittriching",
+        "Steindorf",
+        "Augsburg"
+      ]
+    },
+    "faq": [
+      {
+        "q": "Was isolieren Sie?",
+        "a": "Unser Schwerpunkt ist die technische Isolierung in der Haustechnik – Wärme-, Kälte- und Schallschutz für Leitungen und Anlagen. Den genauen Umfang klären wir mit Ihnen vorab."
+      },
+      {
+        "q": "Arbeiten Sie auch für Heizungs- und Sanitärbetriebe?",
+        "a": "Ja, gerne. Sprechen Sie uns für die Isolierung auf Ihren Baustellen an."
+      },
+      {
+        "q": "Kann ich vorab Pläne oder Fotos schicken?",
+        "a": "Gern – per E-Mail. Das hilft für eine erste Einschätzung und ein schnelles Angebot."
+      },
+      {
+        "q": "Suchen Sie Mitarbeiter?",
+        "a": "Wir suchen WKS-Isolierer (m/w/d). Melden Sie sich gern telefonisch oder per E-Mail."
+      }
+    ],
+    "contact": {
+      "headline": "Isolierarbeiten anfragen",
+      "text": "Beschreiben Sie kurz Objekt, Leitungsart und gewünschten Zeitraum. Pläne oder Fotos helfen bei der Einschätzung.",
+      "topics": [
+        "Wärmedämmung",
+        "Kälteisolierung",
+        "Schallschutz",
+        "Isolierung Haustechnik",
+        "Bewerbung WKS-Isolierer",
+        "Sonstiges"
+      ],
+      "responseNote": "Termin nach Absprache."
+    },
+    "quote": {
+      "sizeLabel": "Wie groß ist das Vorhaben?",
+      "sizes": [
+        "Einzelne Leitungen / Reparatur",
+        "Einfamilienhaus",
+        "Mehrfamilienhaus / Wohnanlage",
+        "Gewerbe- / Objektbau"
+      ],
+      "timings": [
+        "So bald wie möglich",
+        "In den nächsten Wochen",
+        "In 1–3 Monaten",
+        "Ich plane erst noch"
+      ]
+    },
+    "stickyCta": "Anfrage senden",
+    "look": {
+      "palette": 4,
+      "font": 8,
+      "hero": 2,
+      "services": 2,
+      "radius": 0,
+      "logo": 2,
+      "intro": 3
+    }
+  }
+}

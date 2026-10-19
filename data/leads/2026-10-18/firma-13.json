@@ -1,0 +1,419 @@
+{
+  "id": "2026-10-18-13",
+  "slug": "vikor-fliesenleger-fuerstenfeldbruck",
+  "date": "2026-10-18",
+  "company": {
+    "name": "Csaba Vikor",
+    "owner": "Csaba Vikor",
+    "trade": "Fliesenleger",
+    "city": "Fürstenfeldbruck",
+    "address": null,
+    "phone": null,
+    "email": null,
+    "serviceArea": [
+      "Fürstenfeldbruck",
+      "Emmering",
+      "Maisach",
+      "Olching",
+      "Eichenau",
+      "Mammendorf"
+    ]
+  },
+  "listings": {
+    "google": {
+      "url": "https://www.google.com/maps/search/?api=1&query=Csaba%20Vikor%20Fliesenleger%20F%C3%BCrstenfeldbruck",
+      "rating": null,
+      "reviews": null,
+      "evidence": "NICHT VERIFIZIERT – Google/Google Maps war aus der Recherche-Umgebung nicht erreichbar und die Websuche lieferte keinen Maps-Treffer. Vor Kontaktaufnahme manuell prüfen (Existenz, Bewertungen, KEINE hinterlegte Website)."
+    },
+    "myhammer": {
+      "url": "https://www.my-hammer.de/boden-fliesen/fliesen-platten-mosaikleger-berufe/fuerstenfeldbruck",
+      "rating": 4.9,
+      "reviews": 20,
+      "evidence": "Auf der MyHammer-Ortsliste „Fliesenleger in Fürstenfeldbruck“ in Suchergebnissen belegt: Csaba Vikor mit 4,9 von 5 bei 20 Bewertungen (andere Listenstände: 4,9 bei 18; in der Kategorie Montageservice 5,0 bei 11; in Listen Schwabhausen/Oberschweinbach/Markt Indersdorf 5,0 bei 8). Jüngste Bewertungen vom August und Oktober 2026, u. a. „Sehr freundlich, verlässlich, ehrlich und vor allem ein Top-Profi“. Direkte Profil-URL nicht gefunden – Ortsliste als Beleg."
+    }
+  },
+  "websiteStatus": "keine eigene Website gefunden",
+  "websiteChecks": [
+    "(1) \"Csaba Vikor\" Fliesen – keine Treffer zum Betrieb, keine eigene Website, kein Impressum",
+    "(2) Csaba Vikor Fliesenleger Profil Bewertungen (allowed_domains my-hammer.de) – nur MyHammer-Ortslisten (Fürstenfeldbruck, Schwabhausen, Oberschweinbach, Markt Indersdorf, Mering), kein eigener Webauftritt verlinkt",
+    "(3) \"Vikor\" Fliesen Fürstenfeldbruck Telefon – nur muenchen.de-Branchenbuchlisten, kein Eintrag für Vikor, keine Website",
+    "(4) Name + Ort mit blocked_domains (MyHammer, 11880, Gelbe Seiten, Das Örtliche, Das Telefonbuch, Cylex, meinestadt, Creditreform, Firmenwissen, North Data, Facebook, Instagram, golocal) – NICHT durchgeführt (Suchbudget erschöpft)",
+    "(5) naheliegende Domains (vikor-fliesen.de, fliesen-vikor.de) per allowed_domains – NICHT durchgeführt (Suchbudget erschöpft)",
+    "(6) Verzeichnis-Eintrag (11880/Cylex/meinestadt/Das Örtliche) – nicht gefunden; Telefon und E-Mail daher offen",
+    "Website-Risiko: mittel – alle durchgeführten Suchen negativ, aber Domain-Prüfung und Verzeichnis-Eintrag fehlen; kein positiver Beleg (Freemail/leeres Website-Feld)"
+  ],
+  "facts": {
+    "services": [
+      "Fliesenarbeiten (MyHammer-Kategorie Fliesen-, Platten- und Mosaikleger)",
+      "Wand- und Bodenfliesen",
+      "Montagearbeiten (MyHammer-Kategorie Montageservice)"
+    ],
+    "experience": null,
+    "praisedFor": [
+      "sehr freundlich",
+      "verlässlich und ehrlich",
+      "„ein Top-Profi“",
+      "pünktlich",
+      "sauberes Arbeiten",
+      "zuverlässig"
+    ]
+  },
+  "strategy": {
+    "audience": "Haus- und Wohnungseigentümer in Fürstenfeldbruck und den umliegenden Gemeinden, die Bad, Küche oder Böden neu fliesen lassen wollen",
+    "mainService": "Wand- und Bodenfliesen verlegen",
+    "trustSignal": "4,9 Sterne bei rund 20 MyHammer-Bewertungen, jüngste Bewertungen aus Oktober 2026",
+    "conversionGoal": "Kostenloses Angebot für Fliesenarbeiten anfragen (mit Fotos und Quadratmetern)",
+    "visualConcept": "Helles, frisches Aqua-Design mit klaren Fugenlinien: frisch gefliestes Bad als zentrales Motiv, Vorher/Nachher-Galerie"
+  },
+  "sales": {
+    "score": 6,
+    "whyGoodLead": [
+      "4,9 Sterne bei rund 20 MyHammer-Bewertungen – sehr gute, aktuelle Reputation",
+      "Einzelunternehmer ohne auffindbaren eigenen Webauftritt",
+      "Fliesenarbeiten sind sehr visuell – Vorher/Nachher-Fotos verkaufen",
+      "Auf mehreren MyHammer-Ortslisten im Westen Münchens präsent – aktiv auf Auftragssuche"
+    ],
+    "pitch": "Guten Tag Herr Vikor, mein Name ist … – ich erstelle Websites für Handwerksbetriebe im Landkreis Fürstenfeldbruck. Ich habe gesehen, dass Sie auf MyHammer mit 4,9 Sternen bewertet sind und Kunden Sie als „Top-Profi“ beschreiben – aber es gibt noch keine eigene Website, auf der man Ihre Fliesenarbeiten sieht. Ich habe dafür unverbindlich einen Entwurf vorbereitet – darf ich Ihnen den Link schicken?"
+  },
+  "manualChecks": [
+    "Website-Risiko: mittel – vor Versand in Google Maps prüfen, dass keine Website hinterlegt ist",
+    "Domain-Check (z. B. vikor-fliesen.de) und Name+Ort-Suche ohne Verzeichnisse nachholen – aus Suchbudgetgründen nicht durchgeführt",
+    "Kontaktdaten fehlen komplett (Telefon, E-Mail, Adresse) – über das MyHammer-Profil bzw. Google Maps ermitteln",
+    "Firmensitz unsicher: erscheint auf der Fürstenfeldbrucker Ortsliste, aber auch in Listen für Schwabhausen, Markt Indersdorf und Mering – genauen Sitz klären",
+    "MyHammer-Profil-URL ermitteln (nur Ortslisten gefunden) und Bewertungszahl (18/20) bestätigen",
+    "Leistungsumfang bestätigen: Badsanierung, Naturstein, Mosaik etc. NICHT belegt und daher nicht auf der Seite behauptet",
+    "Bewertungen erwähnen Dubai-Einsätze und 16 Jahre Selbstständigkeit – Zuordnung unsicher, daher nicht übernommen",
+    "Echtes Logo: nicht gefunden – beim Betrieb als Datei anfragen"
+  ],
+  "sources": [
+    {
+      "label": "MyHammer – Fliesenleger Fürstenfeldbruck",
+      "url": "https://www.my-hammer.de/boden-fliesen/fliesen-platten-mosaikleger-berufe/fuerstenfeldbruck"
+    },
+    {
+      "label": "MyHammer – Monteure Fürstenfeldbruck",
+      "url": "https://www.my-hammer.de/handwerks-montageleistungen/monteur-allroundhandwerker-berufe/fuerstenfeldbruck"
+    },
+    {
+      "label": "MyHammer – Fliesenleger Oberschweinbach",
+      "url": "https://www.my-hammer.de/boden-fliesen/fliesen-platten-mosaikleger-berufe/oberschweinbach"
+    },
+    {
+      "label": "MyHammer – Fliesenleger Schwabhausen",
+      "url": "https://www.my-hammer.de/boden-fliesen/fliesen-platten-mosaikleger-berufe/schwabhausen"
+    },
+    {
+      "label": "MyHammer – Bodenleger Fürstenfeldbruck",
+      "url": "https://www.my-hammer.de/boden-fliesen/boden-estrichleger-berufe/fuerstenfeldbruck"
+    }
+  ],
+  "site": {
+    "theme": "aqua",
+    "category": "handwerk",
+    "heroOffer": [
+      "Wandfliesen",
+      "Bodenfliesen",
+      "Fliesenarbeiten",
+      "Montage"
+    ],
+    "scene": "bath",
+    "logoIcon": "trowel",
+    "logoMark": "CV",
+    "brandName": "Fliesen Vikor",
+    "seoTitle": "Fliesenleger in Fürstenfeldbruck – Csaba Vikor",
+    "seoDescription": "Wand- und Bodenfliesen sauber, pünktlich und zuverlässig verlegt – Fliesenleger Csaba Vikor für Fürstenfeldbruck und Umgebung. 4,9 Sterne auf MyHammer. Jetzt kostenloses Angebot anfragen.",
+    "nav": [
+      {
+        "label": "Leistungen",
+        "href": "#leistungen"
+      },
+      {
+        "label": "Projekte",
+        "href": "#projekte"
+      },
+      {
+        "label": "Bewertungen",
+        "href": "#bewertungen"
+      },
+      {
+        "label": "Ablauf",
+        "href": "#ablauf"
+      },
+      {
+        "label": "FAQ",
+        "href": "#faq"
+      },
+      {
+        "label": "Kontakt",
+        "href": "#kontakt"
+      }
+    ],
+    "hero": {
+      "eyebrow": "Fliesenleger · Fürstenfeldbruck",
+      "headline": "Fliesen, sauber verlegt – pünktlich und zuverlässig.",
+      "sub": "Csaba Vikor verlegt Wand- und Bodenfliesen für Eigentümer in Fürstenfeldbruck, Emmering, Maisach, Olching und Umgebung – mit klaren Absprachen und einem Ergebnis, das Kunden mit 4,9 Sternen bewerten.",
+      "ctaPrimary": "Kostenloses Angebot anfragen",
+      "ctaSecondary": "Anrufen",
+      "bullets": [
+        "4,9 von 5 Sternen bei rund 20 Bewertungen auf MyHammer",
+        "Wand- und Bodenfliesen aus einer Hand",
+        "Für Fürstenfeldbruck und die umliegenden Gemeinden"
+      ],
+      "imageLabel": "frisch gefliestes, helles Badezimmer"
+    },
+    "badges": [
+      {
+        "title": "4,9 ★ auf MyHammer",
+        "sub": "aus rund 20 Bewertungen"
+      },
+      {
+        "title": "Wand & Boden",
+        "sub": "Fliesen fachgerecht verlegt"
+      },
+      {
+        "title": "Pünktlich & sauber",
+        "sub": "so beschreiben es Kunden"
+      },
+      {
+        "title": "Fürstenfeldbruck",
+        "sub": "und umliegende Gemeinden"
+      }
+    ],
+    "trust": [
+      {
+        "value": "4,9 ★",
+        "label": "Durchschnitt auf MyHammer"
+      },
+      {
+        "value": "20",
+        "label": "Bewertungen von Auftraggebern"
+      },
+      {
+        "value": "2026",
+        "label": "aktuelle Kundenbewertungen"
+      },
+      {
+        "value": "FFB",
+        "label": "Einsatz im Landkreis Fürstenfeldbruck"
+      }
+    ],
+    "servicesIntro": {
+      "headline": "Fliesenarbeiten für Ihr Zuhause",
+      "text": "Ob neue Wandfliesen, ein neuer Fliesenboden oder kleinere Arbeiten: Sie bekommen einen Ansprechpartner, der sauber arbeitet und Termine einhält."
+    },
+    "services": [
+      {
+        "title": "Wandfliesen",
+        "text": "Neue Wandflächen, exakt ausgerichtet und sauber verfugt – für Bad, Küche und WC.",
+        "items": [
+          "Bad",
+          "Küchenrückwand",
+          "Gäste-WC"
+        ]
+      },
+      {
+        "title": "Bodenfliesen",
+        "text": "Robuste, pflegeleichte Böden, präzise verlegt und sauber abgeschlossen.",
+        "items": [
+          "Wohnräume",
+          "Flur",
+          "Bad"
+        ]
+      },
+      {
+        "title": "Fliesen im Bad",
+        "text": "Wände und Boden im Bad neu gefliest – für ein frisches, pflegeleichtes Badezimmer.",
+        "items": [
+          "Wandflächen",
+          "Boden",
+          "Fugen"
+        ]
+      },
+      {
+        "title": "Fliesen in der Küche",
+        "text": "Spritzschutz und Boden in der Küche – passend zu Ihren Möbeln verlegt.",
+        "items": [
+          "Fliesenspiegel",
+          "Küchenboden",
+          "Anschlüsse"
+        ]
+      },
+      {
+        "title": "Kleinere Fliesenarbeiten",
+        "text": "Auch kleinere Flächen und Teilbereiche werden zuverlässig erledigt.",
+        "items": [
+          "Teilflächen",
+          "Ausbesserungen",
+          "Abschlüsse"
+        ]
+      },
+      {
+        "title": "Montagearbeiten",
+        "text": "Neben Fliesenarbeiten übernimmt Csaba Vikor auch Montagearbeiten rund ums Haus.",
+        "items": [
+          "Montage",
+          "Nach Absprache",
+          "Vor Ort"
+        ]
+      }
+    ],
+    "why": {
+      "headline": "Freundlich, verlässlich, ein Profi.",
+      "points": [
+        {
+          "title": "Top-Profi",
+          "text": "Ein Auftraggeber beschreibt Csaba Vikor als „sehr freundlich, verlässlich, ehrlich und vor allem ein Top-Profi“."
+        },
+        {
+          "title": "Pünktlich",
+          "text": "Kunden heben in ihren Bewertungen die Pünktlichkeit hervor."
+        },
+        {
+          "title": "Sauberes Arbeiten",
+          "text": "Auftraggeber loben, dass sauber gearbeitet wird."
+        },
+        {
+          "title": "Zuverlässig",
+          "text": "Bewertungen nennen ihn wiederholt zuverlässig und ehrlich – mit 4,9 von 5 Sternen im Schnitt."
+        }
+      ]
+    },
+    "reviews": {
+      "headline": "Was Auftraggeber sagen",
+      "summary": "Auf MyHammer bewerten Auftraggeber Csaba Vikor mit 4,9 von 5 Sternen. Sie beschreiben ihn als freundlich, ehrlich und verlässlich, loben pünktliches und sauberes Arbeiten – die jüngsten Bewertungen stammen aus August und Oktober 2026.",
+      "highlights": [
+        "Sehr freundlich und ehrlich",
+        "Verlässlich",
+        "„Ein Top-Profi“",
+        "Pünktlich und sauber"
+      ],
+      "source": "MyHammer",
+      "sourceUrl": "https://www.my-hammer.de/boden-fliesen/fliesen-platten-mosaikleger-berufe/fuerstenfeldbruck",
+      "rating": 4.9,
+      "count": 20
+    },
+    "process": {
+      "headline": "In vier Schritten zur neuen Fliesenfläche",
+      "steps": [
+        {
+          "title": "Anfrage",
+          "text": "Fotos und ungefähre Quadratmeter schicken – oder kurz anrufen."
+        },
+        {
+          "title": "Termin vor Ort",
+          "text": "Untergrund, Maße und Wunschfliesen werden gemeinsam angeschaut."
+        },
+        {
+          "title": "Angebot",
+          "text": "Sie erhalten ein klares, nachvollziehbares Angebot."
+        },
+        {
+          "title": "Ausführung",
+          "text": "Pünktlich zum vereinbarten Termin – sauber verlegt und verfugt."
+        }
+      ]
+    },
+    "gallery": {
+      "headline": "Fliesenarbeiten – vorher und nachher",
+      "text": "Für die Live-Version zeigen wir hier echte Projekte von Csaba Vikor, idealerweise als Vorher-/Nachher-Paare.",
+      "items": [
+        {
+          "title": "Bad neu gefliest",
+          "photoNeeded": "fertig gefliestes Badezimmer, Gesamtansicht"
+        },
+        {
+          "title": "Wandfliesen",
+          "photoNeeded": "Wandfläche mit sauberem Fugenbild, Nahaufnahme"
+        },
+        {
+          "title": "Fliesenboden",
+          "photoNeeded": "neu verlegter Fliesenboden in Wohnraum oder Flur"
+        },
+        {
+          "title": "Küche",
+          "photoNeeded": "Fliesenspiegel oder Küchenboden nach Fertigstellung"
+        },
+        {
+          "title": "Vorher/Nachher",
+          "photoNeeded": "derselbe Raum vor und nach den Fliesenarbeiten"
+        }
+      ]
+    },
+    "region": {
+      "headline": "Fliesenleger für Fürstenfeldbruck und Umgebung",
+      "text": "Von Fürstenfeldbruck aus ist Csaba Vikor in Emmering, Maisach, Olching, Eichenau, Mammendorf und den umliegenden Orten im Einsatz.",
+      "places": [
+        "Fürstenfeldbruck",
+        "Emmering",
+        "Maisach",
+        "Olching",
+        "Eichenau",
+        "Mammendorf",
+        "Alling",
+        "Puchheim"
+      ]
+    },
+    "faq": [
+      {
+        "q": "Welche Fliesenarbeiten übernehmen Sie?",
+        "a": "Schwerpunkt sind Wand- und Bodenfliesen – zum Beispiel im Bad, in der Küche oder im Flur. Sprechen Sie Ihr Vorhaben einfach an."
+      },
+      {
+        "q": "Kann ich vorab Fotos schicken?",
+        "a": "Gern. Fotos und ungefähre Quadratmeter helfen für eine erste Einschätzung; für ein verbindliches Angebot ist ein Termin vor Ort sinnvoll."
+      },
+      {
+        "q": "Übernehmen Sie auch kleinere Flächen?",
+        "a": "Ja, auch kleinere Fliesenarbeiten und Teilflächen sind möglich – fragen Sie einfach an."
+      },
+      {
+        "q": "In welchen Orten sind Sie tätig?",
+        "a": "In Fürstenfeldbruck und den umliegenden Gemeinden wie Emmering, Maisach, Olching, Eichenau und Mammendorf."
+      },
+      {
+        "q": "Muss ich die Fliesen selbst besorgen?",
+        "a": "Das klären wir beim Termin vor Ort – je nachdem, ob Sie schon Fliesen ausgesucht haben oder noch beraten werden möchten."
+      }
+    ],
+    "contact": {
+      "headline": "Ihr Angebot – kostenlos und unverbindlich",
+      "text": "Beschreiben Sie kurz Ihr Vorhaben: Raum, ungefähre Fläche und ob Wand, Boden oder beides gefliest werden soll. Fotos helfen bei der Einschätzung.",
+      "topics": [
+        "Wandfliesen",
+        "Bodenfliesen",
+        "Fliesen im Bad",
+        "Fliesen in der Küche",
+        "Kleinere Fliesenarbeiten",
+        "Montagearbeiten",
+        "Sonstiges"
+      ],
+      "responseNote": "Termin vor Ort nach Absprache."
+    },
+    "quote": {
+      "sizeLabel": "Wie groß ist die Fläche?",
+      "sizes": [
+        "Kleine Fläche (bis ca. 5 m²)",
+        "Ein Raum (ca. 5–20 m²)",
+        "Mehrere Räume",
+        "Ich weiß es noch nicht"
+      ],
+      "timings": [
+        "So bald wie möglich",
+        "In den nächsten Wochen",
+        "In 1–3 Monaten",
+        "Ich plane erst noch"
+      ]
+    },
+    "stickyCta": "Angebot anfragen",
+    "look": {
+      "palette": 2,
+      "font": 1,
+      "hero": 3,
+      "services": 0,
+      "radius": 4,
+      "logo": 1,
+      "intro": 4
+    }
+  }
+}

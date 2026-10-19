@@ -1,0 +1,419 @@
+{
+  "id": "2026-10-18-18",
+  "slug": "hofladen-wirthmueller-odelzhausen",
+  "date": "2026-10-18",
+  "company": {
+    "name": "Hofladen Wirthmüller",
+    "owner": "Richard Wirthmüller",
+    "trade": "Hofladen & Bio-Kartoffeln",
+    "city": "Odelzhausen",
+    "address": "Mühlweg 9, 85235 Odelzhausen",
+    "phone": "08134 92310",
+    "email": "wirthmueller-muehlenhof@t-online.de",
+    "serviceArea": [
+      "Odelzhausen",
+      "Sulzemoos",
+      "Pfaffenhofen an der Glonn",
+      "Egenhofen",
+      "Adelzhausen",
+      "Erdweg",
+      "Altomünster",
+      "Dachau"
+    ]
+  },
+  "listings": {
+    "google": {
+      "url": "https://www.google.com/maps/search/?api=1&query=Hofladen%20Wirthmüller%20Odelzhausen",
+      "rating": null,
+      "reviews": null,
+      "evidence": "NICHT VERIFIZIERT – Google Maps war aus der Recherche-Umgebung nicht erreichbar, die Websuche lieferte keinen Maps-Treffer. Vor Kontaktaufnahme manuell prüfen (Profil, Bewertungen, hinterlegte Website)."
+    },
+    "myhammer": {
+      "url": "https://www.dahoam-in-dachau.de/odelzhausen/einkaufen-dahoam/hoflaeden/hofladen-wirthmueller-odelzhausen--",
+      "rating": null,
+      "reviews": null,
+      "evidence": "Kein MyHammer – Hofladen-Eintrag „Hofladen Wirthmüller Odelzhausen“ auf dahoam-in-dachau.de (Mühlweg 9, Telefon 08134/92310, Fax 08134/92312, E-Mail wirthmueller-muehlenhof@t-online.de); weitere Einträge bei DACHAU HANDELT!, mein-bauernhof.de, hofladen-bauernladen.info und oeffnungszeitenbuch.de (Getreideerzeugnisse und Kartoffeln; Fr 14–18 Uhr, Sa 9–12 Uhr bzw. „August bis Mai“). UNSER LAND listet Richard Wirthmüller als Erzeuger von BIO-Kartoffeln (Dachauer Land, Odelzhausen). besser-regional.eu: „Hofladen R. Wirthmüller, Mühlweg 9 – keine Homepage –“. Keine Bewertungen belegt."
+    }
+  },
+  "websiteStatus": "keine eigene Website gefunden",
+  "websiteChecks": [
+    "(1) „Hofladen Wirthmüller Odelzhausen Mühlweg 9“ mit Ausschluss von 11880, Gelbe Seiten, Das Örtliche, Das Telefonbuch, Cylex, meinestadt, Creditreform, Facebook, Instagram, golocal: nur Verzeichnisse (oeffnungszeitenbuch, hofladen-bauernladen.info, dahoam-in-dachau, mein-bauernhof, DACHAU HANDELT!, besser-regional, StMELF Erlebnis-Bauernhof) – keine eigene Domain.",
+    "(2) „Mühlenhof Wirthmüller Odelzhausen“ zusätzlich ohne die genutzten Portale: nur UNSER LAND, besser-regional.eu („– keine Homepage –“), Kurier Dachau, Gemeindeblatt – keine eigene Domain.",
+    "(3) Domainprüfung per allowed_domains wirthmueller-muehlenhof.de, muehlenhof-wirthmueller.de, muehlenhof-odelzhausen.de, hofladen-wirthmueller.de, wirthmueller.de: nur wirthmueller.de = fremde Unternehmensberatung in Thüringen, kein Bezug.",
+    "(4) E-Mail ist Freemail (t-online.de); Website-/Homepage-Feld in einem Verzeichnis leer bzw. „keine Homepage“."
+  ],
+  "facts": {
+    "services": [
+      "BIO-Kartoffeln (Erzeuger für UNSER LAND / Dachauer Land)",
+      "Getreideerzeugnisse",
+      "Ab-Hof-Verkauf im Hofladen",
+      "Abholung nach telefonischer Vereinbarung",
+      "BIO-Sonnenblumen für UNSER LAND"
+    ],
+    "experience": null,
+    "praisedFor": []
+  },
+  "strategy": {
+    "audience": "Haushalte in Odelzhausen, Sulzemoos, Pfaffenhofen a. d. Glonn und Egenhofen, die Bio-Kartoffeln und Getreideprodukte direkt beim Erzeuger kaufen möchten",
+    "mainService": "Bio-Kartoffeln und Getreideerzeugnisse ab Hof",
+    "trustSignal": "BIO-Kartoffel-Erzeuger für UNSER LAND (Dachauer Land), feste Verkaufszeiten, in mehreren regionalen Hofladen-Verzeichnissen gelistet",
+    "conversionGoal": "Anruf zur Vorbestellung / Besuch im Hofladen zu den Verkaufszeiten",
+    "visualConcept": "Naturnah und erdig: Feldgrün, warmes Kartoffel-Ocker und Getreidegold, ruhige Flächen mit Acker und Hof im Dachauer Land"
+  },
+  "sales": {
+    "score": 7,
+    "whyGoodLead": [
+      "Bio-Erzeuger mit UNSER-LAND-Bezug – starkes, belegbares Vertrauenssignal für die Website",
+      "Widersprüchliche Öffnungszeiten in den Portalen – eine eigene Seite schafft endlich eine verlässliche Quelle",
+      "Laut Verzeichnis ausdrücklich „keine Homepage“, Freemail-Adresse (t-online.de)",
+      "Kartoffeln sind Vorrats- und Wiederholungskauf – Vorbestellung über die Website bringt planbare Abholungen"
+    ],
+    "pitch": "Grüß Gott Herr Wirthmüller, mein Name ist … – ich gestalte Websites für Höfe und kleine Betriebe im Dachauer Land. Ich habe Ihren Hofladen am Mühlweg in mehreren Hofladen-Verzeichnissen gefunden und gesehen, dass Sie Bio-Kartoffeln für UNSER LAND erzeugen. Die Portale nennen aber ganz unterschiedliche Verkaufszeiten – und eine eigene Seite gibt es noch nicht. Ich habe deshalb unverbindlich eine kleine Hofladen-Seite für Sie entworfen. Darf ich sie Ihnen zeigen?"
+  },
+  "manualChecks": [
+    "Website-Risiko: niedrig – vor Versand in Google Maps prüfen, dass keine Website hinterlegt ist",
+    "Prüfen, ob der Hofladen aktuell verkauft: Bund-Naturschutz-Liste (Feb. 2020) nennt „kein Hofverkauf“, andere Verzeichnisse nennen Verkaufszeiten bzw. „Abholung ist möglich“",
+    "Verkaufszeiten bestätigen: Fr 14–18 Uhr, Sa 9–12 Uhr (August bis Mai) laut zwei Verzeichnissen; ein Verzeichnis nennt abweichend täglich 8–19 Uhr in der Saison",
+    "Sortiment bestätigen: welche Getreideerzeugnisse (Mehl? Körner?) – im Entwurf bewusst allgemein; Honig nur bei abweichendem Eintrag genannt und daher weggelassen",
+    "Klären, ob Erlebnis-Bauernhof-/Schulangebot (Kontakt Lena Wirthmüller laut StMELF-Verzeichnis) noch aktuell ist und auf die Website soll",
+    "Google-Unternehmensprofil prüfen (Existenz, Bewertungen)"
+  ],
+  "sources": [
+    {
+      "label": "dahoam-in-dachau.de – Hofladen Wirthmüller Odelzhausen",
+      "url": "https://www.dahoam-in-dachau.de/odelzhausen/einkaufen-dahoam/hoflaeden/hofladen-wirthmueller-odelzhausen--"
+    },
+    {
+      "label": "DACHAU HANDELT! – Hofladen Wirthmüller",
+      "url": "https://www.dachau-handelt.de/profil/hofladen-wirthmueller"
+    },
+    {
+      "label": "UNSER LAND – Wirthmüller Richard",
+      "url": "https://www.unserland.info/lebensmittel/landwirtschaft-handwerk/obstbauern-gemuesebauern/wirthmueller-richard"
+    },
+    {
+      "label": "besser-regional.eu – Hofläden und Direktvermarkter",
+      "url": "https://www.besser-regional.eu/hoflaeden/hoflaeden-und-direktvermarkter/"
+    },
+    {
+      "label": "hofladen-bauernladen.info – Richard Wirthmüller",
+      "url": "https://www.hofladen-bauernladen.info/adressen/richard-wirthmueller-odelzhausen__2316.php"
+    },
+    {
+      "label": "mein-bauernhof.de – Richard Wirthmüller",
+      "url": "https://www.mein-bauernhof.de/verkaufstelle/richard-wirthmueller-871504/"
+    },
+    {
+      "label": "oeffnungszeitenbuch.de – Hofladen Richard Wirthmüller",
+      "url": "https://www.oeffnungszeitenbuch.de/filiale/Odelzhausen-Hofladen%2520Richard%2520Wirthmueller-970193Q.html"
+    }
+  ],
+  "site": {
+    "theme": "garten",
+    "category": "hof",
+    "scene": "garden",
+    "heroOffer": [
+      "Bio-Kartoffeln",
+      "Getreideerzeugnisse",
+      "Ab Hof",
+      "Vorbestellung"
+    ],
+    "hours": [
+      {
+        "label": "Fr (Aug–Mai)",
+        "value": "14–18 Uhr"
+      },
+      {
+        "label": "Sa (Aug–Mai)",
+        "value": "9–12 Uhr"
+      },
+      {
+        "label": "Sonst",
+        "value": "nach telefonischer Vereinbarung"
+      }
+    ],
+    "quote": {
+      "sizeLabel": "Was dürfen wir für Sie herrichten?",
+      "sizes": [
+        "Bio-Kartoffeln – kleine Menge",
+        "Bio-Kartoffeln – Vorrat",
+        "Getreideerzeugnisse",
+        "Gemischter Einkauf"
+      ],
+      "timings": [
+        "Nächster Verkaufstag",
+        "Diese Woche",
+        "Zur Einlagerung im Herbst",
+        "Nach Vereinbarung"
+      ]
+    },
+    "badges": [
+      {
+        "title": "BIO-Kartoffeln",
+        "sub": "aus eigenem Anbau"
+      },
+      {
+        "title": "UNSER LAND",
+        "sub": "Erzeuger im Dachauer Land"
+      },
+      {
+        "title": "Fr & Sa",
+        "sub": "Verkauf ab Hof"
+      },
+      {
+        "title": "Odelzhausen",
+        "sub": "Mühlweg 9"
+      }
+    ],
+    "seoTitle": "Hofladen Wirthmüller Odelzhausen – Bio-Kartoffeln direkt vom Hof",
+    "seoDescription": "Bio-Kartoffeln und Getreideerzeugnisse direkt vom Erzeuger: Hofladen Wirthmüller am Mühlweg 9 in Odelzhausen, Dachauer Land. Verkauf Fr 14–18 Uhr, Sa 9–12 Uhr (Aug–Mai) oder nach Absprache.",
+    "logoMark": "W",
+    "brandName": "Hofladen Wirthmüller",
+    "logoIcon": "leaf",
+    "nav": [
+      {
+        "label": "Hofladen",
+        "href": "#leistungen"
+      },
+      {
+        "label": "Hof",
+        "href": "#projekte"
+      },
+      {
+        "label": "Ablauf",
+        "href": "#ablauf"
+      },
+      {
+        "label": "Region",
+        "href": "#region"
+      },
+      {
+        "label": "FAQ",
+        "href": "#faq"
+      },
+      {
+        "label": "Kontakt",
+        "href": "#kontakt"
+      }
+    ],
+    "hero": {
+      "eyebrow": "Hofladen · Odelzhausen",
+      "headline": "Bio-Kartoffeln direkt vom Feld in Odelzhausen",
+      "sub": "Am Mühlweg verkauft Familie Wirthmüller Bio-Kartoffeln aus eigenem Anbau und Getreideerzeugnisse – direkt vom Erzeuger, der auch für UNSER LAND im Dachauer Land anbaut.",
+      "ctaPrimary": "Jetzt anrufen",
+      "ctaSecondary": "Verkaufszeiten ansehen",
+      "bullets": [
+        "Bio-Kartoffeln aus eigenem Anbau",
+        "Getreideerzeugnisse vom Hof",
+        "Vorbestellen per Telefon"
+      ],
+      "imageLabel": "Bio-Kartoffeln in Kisten am Hof"
+    },
+    "trust": [
+      {
+        "value": "BIO",
+        "label": "Kartoffeln aus eigenem Anbau"
+      },
+      {
+        "value": "UNSER LAND",
+        "label": "Erzeuger Dachauer Land"
+      },
+      {
+        "value": "Fr · Sa",
+        "label": "Verkauf ab Hof (Aug–Mai)"
+      },
+      {
+        "value": "Odelzhausen",
+        "label": "Mühlweg 9"
+      }
+    ],
+    "servicesIntro": {
+      "headline": "Unser Angebot ab Hof",
+      "text": "Was auf unseren Feldern rund um Odelzhausen wächst, verkaufen wir direkt am Hof – ehrlich, regional und ohne Umwege."
+    },
+    "services": [
+      {
+        "title": "Bio-Kartoffeln",
+        "text": "Kartoffeln aus biologischem Anbau – vom eigenen Acker im Dachauer Land.",
+        "items": [
+          "BIO-Kartoffeln",
+          "aus eigenem Anbau",
+          "je nach Saison"
+        ]
+      },
+      {
+        "title": "Kartoffeln für den Vorrat",
+        "text": "Für Familien, die gern einlagern: größere Mengen am besten vorab telefonisch bestellen.",
+        "items": [
+          "größere Mengen auf Anfrage",
+          "Abholung am Hof"
+        ]
+      },
+      {
+        "title": "Getreideerzeugnisse",
+        "text": "Getreideprodukte vom Hof für Küche und Backstube daheim.",
+        "items": [
+          "Getreideerzeugnisse",
+          "Sortiment auf Anfrage"
+        ]
+      },
+      {
+        "title": "Ab-Hof-Verkauf",
+        "text": "Einkaufen direkt beim Erzeuger – am Mühlweg 9 in Odelzhausen.",
+        "items": [
+          "Freitagnachmittag",
+          "Samstagvormittag",
+          "von August bis Mai"
+        ]
+      },
+      {
+        "title": "Abholung nach Vereinbarung",
+        "text": "Außerhalb der Verkaufszeiten? Kurz anrufen und einen Abholtermin ausmachen.",
+        "items": [
+          "telefonische Absprache",
+          "08134 92310"
+        ]
+      },
+      {
+        "title": "Regional über UNSER LAND",
+        "text": "Wir erzeugen Bio-Kartoffeln und Bio-Sonnenblumen für das UNSER LAND-Netzwerk im Dachauer Land.",
+        "items": [
+          "BIO-Kartoffeln",
+          "BIO-Sonnenblumen",
+          "Dachauer Land"
+        ]
+      }
+    ],
+    "why": {
+      "headline": "Warum direkt bei uns kaufen",
+      "points": [
+        {
+          "title": "Bio aus eigenem Anbau",
+          "text": "Unsere Kartoffeln wachsen biologisch auf Feldern rund um Odelzhausen."
+        },
+        {
+          "title": "Direkt vom Erzeuger",
+          "text": "Kein Zwischenhandel – Sie kaufen bei dem, der sät, pflegt und erntet."
+        },
+        {
+          "title": "Teil von UNSER LAND",
+          "text": "Als Erzeuger im Dachauer Land liefern wir auch für das regionale UNSER-LAND-Netzwerk."
+        },
+        {
+          "title": "Flexibel abholen",
+          "text": "Feste Verkaufszeiten am Freitag und Samstag – und sonst nach telefonischer Absprache."
+        }
+      ]
+    },
+    "reviews": {
+      "headline": "Bekannt im Dachauer Land",
+      "summary": "Der Hofladen Wirthmüller ist in mehreren regionalen Verzeichnissen gelistet, Richard Wirthmüller ist als BIO-Kartoffel-Erzeuger bei UNSER LAND geführt. Öffentliche Kundenbewertungen liegen derzeit nicht vor.",
+      "highlights": [
+        "Erzeuger bei UNSER LAND (Dachauer Land)",
+        "Eintrag bei dahoam-in-dachau.de",
+        "Profil bei DACHAU HANDELT!",
+        "Gelistet bei mein-bauernhof.de"
+      ],
+      "source": "dahoam-in-dachau.de",
+      "sourceUrl": "https://www.dahoam-in-dachau.de/odelzhausen/einkaufen-dahoam/hoflaeden/hofladen-wirthmueller-odelzhausen--",
+      "rating": null,
+      "count": null
+    },
+    "process": {
+      "headline": "So kaufen Sie bei uns ein",
+      "steps": [
+        {
+          "title": "Anrufen oder schreiben",
+          "text": "Sagen Sie uns, wie viele Kartoffeln oder welche Getreideprodukte Sie brauchen."
+        },
+        {
+          "title": "Termin wählen",
+          "text": "Freitag 14–18 Uhr, Samstag 9–12 Uhr (August bis Mai) oder nach Vereinbarung."
+        },
+        {
+          "title": "Abholen",
+          "text": "Mühlweg 9 in Odelzhausen – wir haben alles hergerichtet."
+        },
+        {
+          "title": "Wiederkommen",
+          "text": "Kartoffeln gehen immer – gern auch regelmäßig oder zur Einlagerung im Herbst."
+        }
+      ]
+    },
+    "gallery": {
+      "headline": "Bei uns auf dem Hof",
+      "text": "Für die Live-Version zeigen wir hier echte Bilder von den Feldern und vom Hof der Familie Wirthmüller.",
+      "items": [
+        {
+          "title": "Der Hofladen",
+          "photoNeeded": "Verkaufsbereich am Mühlweg 9"
+        },
+        {
+          "title": "Bio-Kartoffeln",
+          "photoNeeded": "Kartoffeln in Kisten oder Säcken, Nahaufnahme"
+        },
+        {
+          "title": "Auf dem Feld",
+          "photoNeeded": "Kartoffelacker bzw. Ernte rund um Odelzhausen"
+        },
+        {
+          "title": "Getreide",
+          "photoNeeded": "Getreideerzeugnisse bzw. Getreidefeld"
+        },
+        {
+          "title": "Der Hof",
+          "photoNeeded": "Hofansicht in Odelzhausen"
+        }
+      ]
+    },
+    "region": {
+      "headline": "Ihr Hofladen für Odelzhausen und das Dachauer Land",
+      "text": "Aus Odelzhausen, Sulzemoos und Pfaffenhofen an der Glonn ist man schnell am Mühlweg – und auch aus Egenhofen, Adelzhausen, Erdweg, Altomünster und Dachau lohnt sich der Weg zu Bio-Kartoffeln vom Erzeuger.",
+      "places": [
+        "Odelzhausen",
+        "Sulzemoos",
+        "Pfaffenhofen an der Glonn",
+        "Egenhofen",
+        "Adelzhausen",
+        "Erdweg",
+        "Altomünster",
+        "Dachau"
+      ]
+    },
+    "faq": [
+      {
+        "q": "Wann kann ich einkaufen?",
+        "a": "Von August bis Mai freitags von 14 bis 18 Uhr und samstags von 9 bis 12 Uhr – außerdem nach telefonischer Vereinbarung."
+      },
+      {
+        "q": "Sind die Kartoffeln bio?",
+        "a": "Ja, Richard Wirthmüller baut BIO-Kartoffeln an und ist damit auch Erzeuger für UNSER LAND im Dachauer Land."
+      },
+      {
+        "q": "Kann ich größere Mengen vorbestellen?",
+        "a": "Gern – rufen Sie unter 08134 92310 an oder schreiben Sie an wirthmueller-muehlenhof@t-online.de."
+      },
+      {
+        "q": "Was gibt es außer Kartoffeln?",
+        "a": "Getreideerzeugnisse vom Hof. Was gerade verfügbar ist, sagen wir Ihnen am Telefon."
+      },
+      {
+        "q": "Wo finde ich den Hofladen?",
+        "a": "Am Mühlweg 9 in 85235 Odelzhausen im Landkreis Dachau."
+      }
+    ],
+    "contact": {
+      "headline": "Fragen oder vorbestellen",
+      "text": "Sie möchten Kartoffeln zurücklegen lassen oder einen Abholtermin ausmachen? Rufen Sie an oder schreiben Sie uns.",
+      "topics": [
+        "Bio-Kartoffeln",
+        "Kartoffeln für den Vorrat",
+        "Getreideerzeugnisse",
+        "Abholtermin",
+        "Sonstiges"
+      ],
+      "responseNote": "Am schnellsten erreichen Sie uns telefonisch."
+    },
+    "stickyCta": "Hofladen anrufen"
+  }
+}

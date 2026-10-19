@@ -1,0 +1,395 @@
+{
+  "id": "2026-10-18-8",
+  "slug": "wunderlbare-holzhuette-hoehenrain",
+  "date": "2026-10-18",
+  "company": {
+    "name": "Wunderlbare Holzhütte",
+    "owner": "Rosi Hartmann",
+    "trade": "Hofladen & Direktvermarktung",
+    "city": "Berg (Höhenrain)",
+    "address": "Wolfratshauser Straße 3, 82335 Berg-Höhenrain",
+    "phone": "08171 20362",
+    "email": null,
+    "serviceArea": [
+      "Höhenrain",
+      "Allmannshausen",
+      "Aufkirchen",
+      "Kreuzweg",
+      "Farchach",
+      "Degerndorf"
+    ]
+  },
+  "listings": {
+    "google": {
+      "url": "https://www.google.com/maps/search/?api=1&query=Wunderlbare%20Holzh%C3%BCtte%20H%C3%B6henrain",
+      "rating": null,
+      "reviews": null,
+      "evidence": "NICHT VERIFIZIERT – kein Google-Maps-Treffer in der Recherche; Google war aus der Recherche-Umgebung nicht abrufbar. Vor Kontaktaufnahme manuell prüfen."
+    },
+    "myhammer": {
+      "url": "https://www.buergerbeteiligung-berg.de/arbeitsgruppen/nahversorgung-landwirtschaft/direktverkauf-liste",
+      "rating": null,
+      "reviews": null,
+      "evidence": "Eintrag in der „Liste der Direktvermarkter“ der Bürgerbeteiligung Berg e. V.: Wunderlbare Holzhütte, Rosi Hartmann, Wolfratshauser Straße 3 (Höhenrain) – Eier, Honig, Kartoffeln sowie Produkte der Offmühle (Sindelsdorf); Selbstbedienung, täglich ab 5:00 Uhr (Endzeit im Snippet abgeschnitten); Tel. 08171 / 20362. Keine Bewertungen."
+    }
+  },
+  "websiteStatus": "keine eigene Website gefunden – Prüfung jedoch UNVOLLSTÄNDIG (Suchbudget erschöpft), Website-Risiko: mittel",
+  "websiteChecks": [
+    "ACHTUNG: Website-Prüfung unvollständig – das gemeinsame WebSearch-Budget war nach dem Fund ausgeschöpft. Die Suchen (1) exakter Name, (2) Name+Ort, (3) Inhaber/Telefon, (4) Domain-Check, (5) Branchenbuch-Website-Feld, (6) Suche mit blocked_domains konnten NICHT mehr ausgeführt werden und müssen vor Versand nachgeholt werden.",
+    "Durchgeführt: Suche auf buergerbeteiligung-berg.de (allowed_domains) – Eintrag ohne Website-Angabe.",
+    "Durchgeführt: Suche nach exaktem Namen „Wunderlbare Holzhütte“ Höhenrain – KEIN Treffer im Web (nur Treffer zu Höhenrain/Grainau) → keine Website unter diesem Namen gefunden. Positiver Hinweis, aber nur eine Suche.",
+    "Keine E-Mail-Adresse öffentlich gefunden."
+  ],
+  "facts": {
+    "services": [
+      "Eier",
+      "Honig",
+      "Kartoffeln",
+      "Produkte der Offmühle (Sindelsdorf)",
+      "Selbstbedienung",
+      "täglich ab 5:00 Uhr geöffnet (laut Liste)"
+    ],
+    "experience": null,
+    "praisedFor": []
+  },
+  "strategy": {
+    "audience": "Pendler, Familien und Spaziergänger in Höhenrain und am Ostufer des Starnberger Sees, die früh am Morgen regionale Lebensmittel mitnehmen wollen",
+    "mainService": "Selbstbedienungs-Holzhütte mit Eiern, Honig, Kartoffeln und Produkten der Offmühle",
+    "trustSignal": "Gelistet in der Direktvermarkter-Liste der Bürgerbeteiligung Berg; täglich ab 5 Uhr offen",
+    "conversionGoal": "Besuch der Holzhütte / Anfrage zu Verfügbarkeit",
+    "visualConcept": "Liebevoll und naturnah: Holzhütte im Grünen, Honiggold, Wiesengrün, handgeschriebene Akzente"
+  },
+  "sales": {
+    "score": 5,
+    "whyGoodLead": [
+      "Charmanter, merkfähiger Name – ideal für eine kleine Marken-Website",
+      "Bisher nur in einer ehrenamtlichen Liste auffindbar, exakte Namenssuche ohne Web-Treffer",
+      "Täglich ab 5 Uhr offen – perfekt für Pendler, die online davon erfahren müssen",
+      "Kaufkräftiges Umfeld am Starnberger See"
+    ],
+    "pitch": "Grüß Gott Frau Hartmann, mein Name ist … – ich mache Websites für kleine Betriebe hier am See. Ihre „Wunderlbare Holzhütte“ in Höhenrain habe ich in der Direktvermarkter-Liste der Bürgerbeteiligung Berg entdeckt – im Internet findet man sie sonst gar nicht. Dabei ist so ein Name ein Geschenk! Ich habe Ihnen unverbindlich einen kleinen Entwurf gebaut – darf ich ihn Ihnen zeigen?"
+  },
+  "manualChecks": [
+    "Website-Risiko: mittel – vor Versand in Google Maps prüfen, dass keine Website hinterlegt ist",
+    "WEBSITE-PRÜFUNG NACHHOLEN: Name+Ort, Inhaberin Rosi Hartmann / Telefon 08171 20362, Domains wie wunderlbare-holzhuette.de, Branchenbuch-Website-Feld, Suche mit blocked_domains",
+    "Schreibweise „Wunderlbare“ (so in der Liste) mit der Inhaberin bestätigen",
+    "Telefonnummer 08171 20362 bestätigen (nur aus der Berg-Liste belegt)",
+    "Öffnungszeit: nur „Mo–So ab 5:00 Uhr“ belegt, Endzeit erfragen; Sortiment der Offmühle-Produkte klären",
+    "Herkunft von Eiern/Honig/Kartoffeln (eigene Erzeugung?) klären – im Text bewusst allgemein formuliert"
+  ],
+  "sources": [
+    {
+      "label": "Bürgerbeteiligung Berg – Liste der Direktvermarkter",
+      "url": "https://www.buergerbeteiligung-berg.de/arbeitsgruppen/nahversorgung-landwirtschaft/direktverkauf-liste"
+    },
+    {
+      "label": "Bürgerbeteiligung Berg – AG Nahversorgung & Landwirtschaft",
+      "url": "https://www.buergerbeteiligung-berg.de/arbeitsgruppen/nahversorgung-landwirtschaft"
+    }
+  ],
+  "site": {
+    "theme": "garten",
+    "scene": "garden",
+    "quote": {
+      "sizeLabel": "Was darf's sein?",
+      "sizes": [
+        "Eier",
+        "Honig",
+        "Kartoffeln",
+        "Produkte der Offmühle",
+        "Gemischter Einkauf"
+      ],
+      "timings": [
+        "Heute / morgen früh",
+        "Diese Woche",
+        "Regelmäßig",
+        "Erst einmal nur informieren"
+      ]
+    },
+    "badges": [
+      {
+        "title": "Täglich ab 5 Uhr",
+        "sub": "Mo–So, Selbstbedienung"
+      },
+      {
+        "title": "Eier, Honig, Kartoffeln",
+        "sub": "regional & ehrlich"
+      },
+      {
+        "title": "Offmühle-Produkte",
+        "sub": "aus Sindelsdorf"
+      },
+      {
+        "title": "Höhenrain",
+        "sub": "Wolfratshauser Straße 3"
+      }
+    ],
+    "seoTitle": "Wunderlbare Holzhütte Höhenrain – Eier, Honig & Kartoffeln in Selbstbedienung",
+    "seoDescription": "Eier, Honig, Kartoffeln und Produkte der Offmühle: die Wunderlbare Holzhütte von Rosi Hartmann in Höhenrain (Berg). Selbstbedienung, täglich ab 5 Uhr.",
+    "logoMark": "WH",
+    "brandName": "Wunderlbare Holzhütte",
+    "logoIcon": "leaf",
+    "nav": [
+      {
+        "label": "Hofladen",
+        "href": "#leistungen"
+      },
+      {
+        "label": "Unser Hof",
+        "href": "#projekte"
+      },
+      {
+        "label": "Warum wir",
+        "href": "#bewertungen"
+      },
+      {
+        "label": "So geht's",
+        "href": "#ablauf"
+      },
+      {
+        "label": "FAQ",
+        "href": "#faq"
+      },
+      {
+        "label": "Kontakt",
+        "href": "#kontakt"
+      }
+    ],
+    "hero": {
+      "eyebrow": "Selbstbedienung in Höhenrain · Berg am Starnberger See",
+      "headline": "Die kleine Hütte mit den guten Sachen.",
+      "sub": "Eier, Honig, Kartoffeln und Produkte der Offmühle – in Rosi Hartmanns Wunderlbarer Holzhütte in Höhenrain, jeden Tag schon ab 5 Uhr früh.",
+      "ctaPrimary": "Anfrage senden",
+      "ctaSecondary": "Jetzt anrufen",
+      "bullets": [
+        "Täglich ab 5:00 Uhr",
+        "Eier, Honig & Kartoffeln",
+        "Selbstbedienung, Wolfratshauser Str. 3"
+      ],
+      "imageLabel": "Holzhütte mit Eiern, Honig und Kartoffeln im Grünen"
+    },
+    "trust": [
+      {
+        "value": "5 Uhr",
+        "label": "täglich geöffnet ab"
+      },
+      {
+        "value": "7 Tage",
+        "label": "die Woche, Mo–So"
+      },
+      {
+        "value": "SB",
+        "label": "Selbstbedienung"
+      },
+      {
+        "value": "Höhenrain",
+        "label": "Ostufer Starnberger See"
+      }
+    ],
+    "servicesIntro": {
+      "headline": "Was in der Holzhütte auf Sie wartet",
+      "text": "Eine kleine Hütte, ein paar ehrliche Lebensmittel – und das Gefühl, morgens schon etwas Gutes mitgenommen zu haben."
+    },
+    "services": [
+      {
+        "title": "Eier",
+        "text": "Frische Eier für Frühstück und Backen – schon am frühen Morgen abholbereit.",
+        "items": [
+          "frisch",
+          "ab 5 Uhr",
+          "Selbstbedienung"
+        ]
+      },
+      {
+        "title": "Honig",
+        "text": "Honig aus der Region – für den Frühstückstisch, den Tee oder als Geschenk.",
+        "items": [
+          "regional",
+          "als Geschenk",
+          "zum Frühstück"
+        ]
+      },
+      {
+        "title": "Kartoffeln",
+        "text": "Kartoffeln für die tägliche Küche – unkompliziert direkt mitnehmen.",
+        "items": [
+          "für die Küche",
+          "Vorrat",
+          "je nach Saison"
+        ]
+      },
+      {
+        "title": "Offmühle-Produkte",
+        "text": "Ausgewählte Produkte der Offmühle aus Sindelsdorf ergänzen das Angebot.",
+        "items": [
+          "aus Sindelsdorf",
+          "regional",
+          "je nach Angebot"
+        ]
+      },
+      {
+        "title": "Früh geöffnet",
+        "text": "Montag bis Sonntag ab 5 Uhr – ideal für alle, die früh zur Arbeit fahren.",
+        "items": [
+          "Mo–So",
+          "ab 5:00 Uhr",
+          "für Pendler"
+        ]
+      },
+      {
+        "title": "Selbstbedienung",
+        "text": "Aussuchen, bezahlen, mitnehmen – ganz ohne Warten.",
+        "items": [
+          "unkompliziert",
+          "ohne Wartezeit",
+          "Wolfratshauser Str. 3"
+        ]
+      }
+    ],
+    "why": {
+      "headline": "Kleine Hütte, große Freude",
+      "points": [
+        {
+          "title": "Jeden Tag früh offen",
+          "text": "Mo–So ab 5 Uhr – bevor andere Läden überhaupt aufsperren."
+        },
+        {
+          "title": "Ehrliche Lebensmittel",
+          "text": "Eier, Honig und Kartoffeln aus der Region statt aus dem Kühlregal."
+        },
+        {
+          "title": "Mit Herz geführt",
+          "text": "Hinter der Holzhütte steht Rosi Hartmann persönlich."
+        },
+        {
+          "title": "Mitten in Höhenrain",
+          "text": "Direkt an der Wolfratshauser Straße – perfekt auf dem Weg."
+        }
+      ]
+    },
+    "reviews": {
+      "headline": "Eine Adresse, die man in Berg kennt",
+      "summary": "Die Wunderlbare Holzhütte ist in der Direktvermarkter-Liste der Bürgerbeteiligung Berg aufgeführt – mit Eiern, Honig, Kartoffeln und Produkten der Offmühle. Öffentliche Bewertungen liegen bisher nicht vor.",
+      "highlights": [
+        "Gelistet bei der Bürgerbeteiligung Berg",
+        "Täglich ab 5 Uhr",
+        "Selbstbedienung",
+        "Regionale Produkte"
+      ],
+      "source": "Bürgerbeteiligung Berg – Liste der Direktvermarkter",
+      "sourceUrl": "https://www.buergerbeteiligung-berg.de/arbeitsgruppen/nahversorgung-landwirtschaft/direktverkauf-liste",
+      "rating": null,
+      "count": null
+    },
+    "process": {
+      "headline": "So einfach geht's",
+      "steps": [
+        {
+          "title": "Vorbeikommen",
+          "text": "Wolfratshauser Straße 3 in Höhenrain – täglich ab 5 Uhr."
+        },
+        {
+          "title": "Aussuchen",
+          "text": "Eier, Honig, Kartoffeln oder Offmühle-Produkte – was gerade da ist."
+        },
+        {
+          "title": "Bezahlen",
+          "text": "Ganz einfach per Selbstbedienung."
+        },
+        {
+          "title": "Genießen",
+          "text": "Mit guten Sachen in den Tag starten."
+        }
+      ]
+    },
+    "gallery": {
+      "headline": "Die Wunderlbare Holzhütte",
+      "text": "Für die Live-Version zeigen wir hier echte Fotos der Hütte und ihres Angebots – am liebsten im frühen Morgenlicht.",
+      "items": [
+        {
+          "title": "Die Holzhütte",
+          "photoNeeded": "Holzhütte von außen"
+        },
+        {
+          "title": "Eier",
+          "photoNeeded": "Eier in der Hütte"
+        },
+        {
+          "title": "Honig",
+          "photoNeeded": "Honiggläser im Regal"
+        },
+        {
+          "title": "Kartoffeln",
+          "photoNeeded": "Kartoffeln in Kiste oder Sack"
+        },
+        {
+          "title": "Morgens in Höhenrain",
+          "photoNeeded": "Hütte im Morgenlicht mit Landschaft"
+        }
+      ]
+    },
+    "region": {
+      "headline": "Für Höhenrain und das Ostufer",
+      "text": "Die Holzhütte liegt in Höhenrain – praktisch für alle aus Allmannshausen, Aufkirchen, Kreuzweg, Farchach und den Nachbarorten Richtung Münsing.",
+      "places": [
+        "Höhenrain",
+        "Allmannshausen",
+        "Aufkirchen",
+        "Kreuzweg",
+        "Farchach",
+        "Berg",
+        "Degerndorf",
+        "Münsing"
+      ]
+    },
+    "faq": [
+      {
+        "q": "Wann hat die Holzhütte geöffnet?",
+        "a": "Laut aktueller Listung Montag bis Sonntag ab 5:00 Uhr – per Selbstbedienung."
+      },
+      {
+        "q": "Was gibt es in der Holzhütte?",
+        "a": "Eier, Honig, Kartoffeln und Produkte der Offmühle aus Sindelsdorf – je nachdem, was gerade vorrätig ist."
+      },
+      {
+        "q": "Wo genau finde ich Sie?",
+        "a": "Wolfratshauser Straße 3 in Höhenrain, Gemeinde Berg."
+      },
+      {
+        "q": "Muss ich vorher anrufen?",
+        "a": "Nein, einfach vorbeikommen. Für größere Mengen lohnt sich ein kurzer Anruf vorab."
+      },
+      {
+        "q": "Wie erreiche ich Sie?",
+        "a": "Telefonisch unter 08171 20362 oder über das Anfrageformular auf dieser Seite."
+      }
+    ],
+    "contact": {
+      "headline": "Fragen? Einfach melden.",
+      "text": "Sie möchten etwas zurücklegen lassen oder wissen, was gerade da ist? Schreiben Sie kurz – Rosi Hartmann meldet sich.",
+      "topics": [
+        "Eier",
+        "Honig",
+        "Kartoffeln",
+        "Offmühle-Produkte",
+        "Größere Menge",
+        "Sonstiges"
+      ],
+      "responseNote": "Antwort meist innerhalb weniger Tage."
+    },
+    "stickyCta": "Jetzt anfragen",
+    "category": "hof",
+    "heroOffer": [
+      "Eier",
+      "Honig",
+      "Kartoffeln",
+      "Offmühle-Produkte"
+    ],
+    "hours": [
+      {
+        "label": "Mo–So",
+        "value": "ab 5:00 Uhr (Selbstbedienung)"
+      }
+    ]
+  }
+}

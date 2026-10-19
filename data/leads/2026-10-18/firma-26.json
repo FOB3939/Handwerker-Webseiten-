@@ -1,0 +1,390 @@
+{
+  "id": "2026-10-18-30",
+  "slug": "gefluegelhof-ruhdorfer-herrsching",
+  "date": "2026-10-18",
+  "company": {
+    "name": "Geflügelhof Ruhdorfer",
+    "owner": "Magnus Ruhdorfer",
+    "trade": "Geflügelhof mit Hofladen (Eier, Nudeln, Geflügel)",
+    "city": "Herrsching",
+    "address": "Rausch 4, 82211 Herrsching am Ammersee",
+    "phone": "08152 8697",
+    "email": null,
+    "serviceArea": [
+      "Herrsching",
+      "Rausch",
+      "Breitbrunn",
+      "Widdersberg",
+      "Andechs",
+      "Seefeld",
+      "Wörthsee",
+      "Inning"
+    ]
+  },
+  "listings": {
+    "google": {
+      "url": "https://www.google.com/maps/search/?api=1&query=Gefl%C3%BCgelhof%20Ruhdorfer%20Rausch%204%20Herrsching",
+      "rating": null,
+      "reviews": null,
+      "evidence": "NICHT VERIFIZIERT / indirekt – WebSearch mit allowed_domains google.com/google.de lieferte keine maps/place-Seite des Betriebs (nur allgemeine Herrsching-Treffer). Kein Google-Spiegel mit Sternen gefunden. Vor Kontakt in Google Maps prüfen: Existenz des Eintrags, Bewertungen und dass KEINE Website hinterlegt ist."
+    },
+    "myhammer": {
+      "url": "https://www.hofladen-bauernladen.info/adressen/herrsching-rausch-gefluegelhof-ruhdorfer__60081.php",
+      "rating": null,
+      "reviews": null,
+      "evidence": "Kein MyHammer – Eintrag „Hofladen Magnus Ruhdorfer“ auf hofladen-bauernladen.info und mein-bauernhof.de (Rausch 4, 82211 Herrsching): Eier, Nudeln (hausgemacht), Geflügel (saisonal). Angaben zu Öffnung widersprüchlich (24/7 Selbstbedienung vs. „nach Vereinbarung“). Zusätzlich gelistet als „Geflügelhof Ruhdorfer“ auf der Freitagsmarkt-Seite der Stadt Starnberg und im Direktvermarkter-Verzeichnis des AELF Weilheim (Tel. 08152/8697). Kein Website-Feld in den Snippets."
+    }
+  },
+  "websiteStatus": "keine eigene Website gefunden",
+  "websiteChecks": [
+    "(1) „Ruhdorfer Herrsching Eier Nudeln 8152“ mit blocked_domains (Standardliste + mein-bauernhof.de, hofladen-bauernladen.info): nur starnberg.de (Freitagsmarkt), mensa-regio.de, hofladenfinder.org, bayregio, yumpu-Broschüre – keine eigene Domain.",
+    "(2) Telefonsuche „08152 8697“ / „3962266“ mit blocked_domains: nur mensa-regio.de (Ruhdorfer-Hof, Rausch 4, Tel. 08152/8697, Fax 08152/3962266), AELF-Weilheim-Broschüre (poecking.de, yumpu) – keine eigene Domain.",
+    "(3) Domainprüfung allowed_domains ruhdorfer.de, gefluegelhof-ruhdorfer.de, ruhdorfer-hof.de, ruhdorferhof.de, hofladen-ruhdorfer.de, ruhdorfer-herrsching.de, gefluegel-ruhdorfer.de, schloeglhof.de: einziger Treffer ruhdorfer.de = Architektur- und Ingenieurbüro Ruhdorfer in Starnberg (anderer Betrieb, kein Bezug zum Hof erkennbar).",
+    "(4) Impressum-Suche: kein eigenes Impressum des Hofs gefunden (nur Impressum des Architekturbüros ruhdorfer.de, Starnberg).",
+    "(5) Verzeichnisse (hofladen-bauernladen.info, mein-bauernhof.de, hofladenfinder.org, mensa-regio.de): kein Website-Feld sichtbar; keine E-Mail-Adresse auffindbar (also auch keine Freemail).",
+    "(6) Google-Maps-Treffer nicht gefunden – Website-Feld konnte nicht geprüft werden."
+  ],
+  "facts": {
+    "services": [
+      "Frische Eier vom eigenen Hühnerhof",
+      "Hausgemachte Nudeln",
+      "Geflügel (saisonal)",
+      "Ab-Hof-Verkauf in Rausch",
+      "Verkauf auf dem Herrschinger Bauernmarkt (Samstag)",
+      "Stand auf dem Starnberger Freitagsmarkt"
+    ],
+    "experience": null,
+    "praisedFor": []
+  },
+  "strategy": {
+    "audience": "Familien und Genießer in Herrsching und am Ostufer des Ammersees (Andechs, Seefeld, Wörthsee, Inning), die Eier und Geflügel direkt vom Erzeuger kaufen wollen; Marktbesucher in Herrsching und Starnberg",
+    "mainService": "Frische Eier, hausgemachte Nudeln und saisonales Geflügel direkt vom Hof",
+    "trustSignal": "Gelistet im Direktvermarkter-Verzeichnis des Amts für Ernährung, Landwirtschaft und Forsten Weilheim; feste Marktstände in Herrsching und Starnberg",
+    "conversionGoal": "Geflügel-Vorbestellung per Telefon/Formular, Besuch am Hof oder Marktstand",
+    "visualConcept": "Hell und ländlich: Hühner im Grünen, Eierkorb, Nudelnester auf Holz, Ammersee-Blau als Akzent"
+  },
+  "sales": {
+    "score": 5,
+    "whyGoodLead": [
+      "In mehreren Hof- und Marktverzeichnissen gelistet, aber keine eigene Website gefunden",
+      "Widersprüchliche Öffnungsangaben in Portalen (24/7 vs. nach Vereinbarung) – eine eigene Seite schafft Klarheit",
+      "Saisonales Geflügel eignet sich gut für Online-Vorbestellung",
+      "Sichtbar auf zwei Wochenmärkten (Herrsching, Starnberg) – Marktkunden suchen danach online"
+    ],
+    "pitch": "Grüß Gott Herr Ruhdorfer, mein Name ist … – ich mache Websites für Höfe im Fünfseenland. Ihre Eier und Nudeln habe ich in den Hofladen-Verzeichnissen und beim Starnberger Freitagsmarkt gefunden, aber die Angaben zu Ihren Verkaufszeiten widersprechen sich dort. Ich habe unverbindlich einen Entwurf vorbereitet, auf dem Kunden auf einen Blick sehen, wann und wo es Eier gibt – und Geflügel vorbestellen können. Darf ich ihn Ihnen kurz zeigen?"
+  },
+  "manualChecks": [
+    "RESERVE – weder Google-Eintrag noch Freemail-Adresse belegt: NUR versenden, wenn Google Maps einen Eintrag OHNE Website zeigt.",
+    "Website-Risiko: mittel – vor Versand in Google Maps prüfen, dass keine Website hinterlegt ist (Grund: alle Prüfungen negativ, aber kein Google-Beleg und keine Freemail-Adresse gefunden)",
+    "Google-Eintrag existiert? Nicht verifiziert – zuerst in Maps suchen („Geflügelhof Ruhdorfer Herrsching“); ohne Eintrag Lead ggf. zurückstellen",
+    "Aktualität prüfen: Quellen teils älter (Broschüre, mensa-regio); Betrieb aktiv? Adresse Rausch 4 vs. Rausch 2 (ältere Broschüre)",
+    "Öffnung klären: 24/7-Selbstbedienung vs. „nach Vereinbarung“ – deshalb keine Öffnungszeiten auf der Seite",
+    "Telefon 08152 8697 (Festnetz) bestätigen; 08152 3962266 ist laut mensa-regio das Fax",
+    "Verhältnis zum Schlöglhof (laut Verzeichnis mit Familie Ruhdorfer verbunden) klären – dieser könnte eine eigene Website haben",
+    "Marktpräsenz bestätigen: Herrschinger Bauernmarkt (Sa) und Starnberger Freitagsmarkt"
+  ],
+  "sources": [
+    {
+      "label": "hofladen-bauernladen.info – Hofladen Magnus Ruhdorfer",
+      "url": "https://www.hofladen-bauernladen.info/adressen/herrsching-rausch-gefluegelhof-ruhdorfer__60081.php"
+    },
+    {
+      "label": "mein-bauernhof.de – Hofladen Magnus Ruhdorfer",
+      "url": "https://www.mein-bauernhof.de/verkaufstelle/hofladen-magnus-ruhdorfer-865153/"
+    },
+    {
+      "label": "hofladenfinder.org – Hofladen Magnus Ruhdorfer",
+      "url": "https://www.hofladenfinder.org/farmshop/details/hofladen-magnus-ruhdorfer-in-herrsching-am-ammersee__60081"
+    },
+    {
+      "label": "Stadt Starnberg – Freitagsmarkt: Geflügelhof Ruhdorfer",
+      "url": "https://www.starnberg.de/kultur-freizeit/einkaufs-und-erlebnisstadt/wochenmaerkte/freitagsmarkt/cafe-piccolino-1-1"
+    },
+    {
+      "label": "mensa-regio.de – Ruhdorfer-Hof",
+      "url": "http://www.mensa-regio.de/index.php?id=92&idh=133"
+    },
+    {
+      "label": "AELF Weilheim – Einkaufen auf dem Bauernhof (poecking.de)",
+      "url": "https://www.poecking.de/fileadmin/Gemeinde/Bilder/Vereine/Einkaufen_auf_dem_Bauernhof.pdf"
+    },
+    {
+      "label": "yumpu – Starnberger Fünf-Seen-Land: Hofläden & Märkte",
+      "url": "https://www.yumpu.com/de/document/view/21981283/starnberger-funf-seen-land-utting/57"
+    }
+  ],
+  "site": {
+    "theme": "hof",
+    "category": "hof",
+    "scene": "farm",
+    "heroOffer": [
+      "Frische Eier",
+      "Hausgemachte Nudeln",
+      "Geflügel (saisonal)",
+      "Ab Hof in Rausch",
+      "Bauernmarkt Herrsching"
+    ],
+    "quote": {
+      "sizeLabel": "Was dürfen wir für Sie zurücklegen?",
+      "sizes": [
+        "Eier",
+        "Nudeln",
+        "Geflügel (saisonal)",
+        "Gemischter Einkauf",
+        "Sonstige Frage"
+      ],
+      "timings": [
+        "Diese Woche",
+        "Zum nächsten Markttag",
+        "Für ein Fest / Feiertag",
+        "Nach Absprache"
+      ]
+    },
+    "badges": [
+      {
+        "title": "Eier",
+        "sub": "vom eigenen Hühnerhof"
+      },
+      {
+        "title": "Nudeln",
+        "sub": "hausgemacht"
+      },
+      {
+        "title": "Geflügel",
+        "sub": "saisonal, auf Vorbestellung"
+      },
+      {
+        "title": "Rausch 4",
+        "sub": "Herrsching am Ammersee"
+      }
+    ],
+    "seoTitle": "Geflügelhof Ruhdorfer in Herrsching – Eier, Nudeln & Geflügel vom Hof",
+    "seoDescription": "Frische Eier, hausgemachte Nudeln und saisonales Geflügel direkt vom Geflügelhof Ruhdorfer in Herrsching-Rausch – auch auf dem Herrschinger Bauernmarkt. Jetzt vorbestellen.",
+    "logoMark": "R",
+    "brandName": "Geflügelhof Ruhdorfer",
+    "logoIcon": "barn",
+    "nav": [
+      {
+        "label": "Angebot",
+        "href": "#leistungen"
+      },
+      {
+        "label": "Hof",
+        "href": "#projekte"
+      },
+      {
+        "label": "Ablauf",
+        "href": "#ablauf"
+      },
+      {
+        "label": "Region",
+        "href": "#region"
+      },
+      {
+        "label": "FAQ",
+        "href": "#faq"
+      },
+      {
+        "label": "Kontakt",
+        "href": "#kontakt"
+      }
+    ],
+    "hero": {
+      "eyebrow": "Geflügelhof · Herrsching am Ammersee",
+      "headline": "Frische Eier, Nudeln & Geflügel direkt vom Hof in Herrsching.",
+      "sub": "Vom Geflügelhof Ruhdorfer in Rausch: Eier vom eigenen Hühnerhof, hausgemachte Nudeln und saisonales Geflügel – ab Hof und auf dem Bauernmarkt.",
+      "ctaPrimary": "Jetzt vorbestellen",
+      "ctaSecondary": "Unser Angebot",
+      "bullets": [
+        "Eier vom eigenen Hühnerhof",
+        "Hausgemachte Nudeln",
+        "Geflügel saisonal auf Vorbestellung"
+      ],
+      "imageLabel": "Hühner im Grünen am Geflügelhof in Herrsching-Rausch"
+    },
+    "trust": [
+      {
+        "value": "Eier",
+        "label": "vom eigenen Hühnerhof"
+      },
+      {
+        "value": "Nudeln",
+        "label": "hausgemacht"
+      },
+      {
+        "value": "Samstag",
+        "label": "Bauernmarkt Herrsching"
+      },
+      {
+        "value": "Rausch",
+        "label": "bei Herrsching"
+      }
+    ],
+    "servicesIntro": {
+      "headline": "Was es bei uns gibt",
+      "text": "Ein kleines, ehrliches Sortiment rund ums Huhn – direkt vom Hof am Ammersee."
+    },
+    "services": [
+      {
+        "title": "Frische Eier",
+        "text": "Eier direkt vom eigenen Hühnerhof – frisch und ohne Umwege.",
+        "items": [
+          "Frische Eier",
+          "Ab Hof",
+          "Auf dem Markt"
+        ]
+      },
+      {
+        "title": "Hausgemachte Nudeln",
+        "text": "Nudeln aus eigener Herstellung – die passende Beilage zu unseren Eiern und unserem Geflügel.",
+        "items": [
+          "Hausgemachte Nudeln",
+          "Ab Hof"
+        ]
+      },
+      {
+        "title": "Geflügel",
+        "text": "Geflügel gibt es saisonal – am besten rechtzeitig vorbestellen.",
+        "items": [
+          "Saisonales Geflügel",
+          "Vorbestellung per Telefon"
+        ]
+      },
+      {
+        "title": "Auf dem Markt",
+        "text": "Sie finden uns auch auf dem Herrschinger Bauernmarkt am Samstag und auf dem Starnberger Freitagsmarkt.",
+        "items": [
+          "Bauernmarkt Herrsching",
+          "Freitagsmarkt Starnberg"
+        ]
+      }
+    ],
+    "why": {
+      "headline": "Warum direkt vom Hof?",
+      "points": [
+        {
+          "title": "Kurzer Weg",
+          "text": "Vom Hühnerhof in Rausch direkt zu Ihnen – ohne Zwischenhandel."
+        },
+        {
+          "title": "Selbst gemacht",
+          "text": "Unsere Nudeln stellen wir selbst her."
+        },
+        {
+          "title": "Saisonal",
+          "text": "Geflügel gibt es, wenn es Saison hat – auf Vorbestellung."
+        },
+        {
+          "title": "Gut erreichbar",
+          "text": "Am Hof in Rausch bei Herrsching und auf den Märkten in Herrsching und Starnberg."
+        }
+      ]
+    },
+    "reviews": {
+      "headline": "Bekannt in der Region",
+      "summary": "Der Geflügelhof Ruhdorfer ist in Hofladen-Verzeichnissen, im Direktvermarkter-Verzeichnis des Amts für Landwirtschaft Weilheim und auf der Marktseite der Stadt Starnberg gelistet. Kundenbewertungen zeigen wir erst nach Freigabe.",
+      "highlights": [
+        "Eintrag bei hofladen-bauernladen.info",
+        "Gelistet beim Starnberger Freitagsmarkt",
+        "Direktvermarkter-Verzeichnis AELF Weilheim",
+        "Herrschinger Bauernmarkt"
+      ],
+      "source": "hofladen-bauernladen.info",
+      "sourceUrl": "https://www.hofladen-bauernladen.info/adressen/herrsching-rausch-gefluegelhof-ruhdorfer__60081.php",
+      "rating": null,
+      "count": null
+    },
+    "process": {
+      "headline": "So kommen Sie an Ihre Eier",
+      "steps": [
+        {
+          "title": "Anrufen oder anfragen",
+          "text": "Sagen Sie uns, was Sie brauchen – Eier, Nudeln oder Geflügel."
+        },
+        {
+          "title": "Termin abstimmen",
+          "text": "Wir sagen Ihnen, wann Sie am Hof oder am Marktstand abholen können."
+        },
+        {
+          "title": "Abholen",
+          "text": "Am Hof in Rausch oder auf dem Markt in Herrsching bzw. Starnberg."
+        },
+        {
+          "title": "Wiederkommen",
+          "text": "Viele holen ihre Eier regelmäßig – sprechen Sie uns gern auf eine feste Menge an."
+        }
+      ]
+    },
+    "gallery": {
+      "headline": "Ein Blick auf den Hof",
+      "text": "Für die Live-Version zeigen wir hier echte Bilder vom Geflügelhof Ruhdorfer.",
+      "items": [
+        {
+          "title": "Hühner",
+          "photoNeeded": "Hühner im Auslauf"
+        },
+        {
+          "title": "Eier",
+          "photoNeeded": "Eierkorb oder Eierschachteln"
+        },
+        {
+          "title": "Nudeln",
+          "photoNeeded": "Hausgemachte Nudeln"
+        },
+        {
+          "title": "Marktstand",
+          "photoNeeded": "Stand auf dem Herrschinger Bauernmarkt"
+        },
+        {
+          "title": "Hof",
+          "photoNeeded": "Hofansicht in Rausch"
+        }
+      ]
+    },
+    "region": {
+      "headline": "Ihr Geflügelhof am Ammersee",
+      "text": "Der Hof liegt in Rausch bei Herrsching – aus Andechs, Seefeld, Wörthsee und Inning schnell erreichbar.",
+      "places": [
+        "Herrsching",
+        "Rausch",
+        "Breitbrunn",
+        "Widdersberg",
+        "Andechs",
+        "Seefeld",
+        "Wörthsee",
+        "Inning"
+      ]
+    },
+    "faq": [
+      {
+        "q": "Wann kann ich am Hof einkaufen?",
+        "a": "Die Verkaufszeiten stimmen wir gern mit Ihnen ab – rufen Sie am besten unter 08152 8697 an."
+      },
+      {
+        "q": "Gibt es das ganze Jahr Geflügel?",
+        "a": "Nein, Geflügel gibt es saisonal. Bitte rechtzeitig vorbestellen."
+      },
+      {
+        "q": "Wo finde ich Sie auf dem Markt?",
+        "a": "Auf dem Herrschinger Bauernmarkt am Samstag und auf dem Starnberger Freitagsmarkt."
+      },
+      {
+        "q": "Sind die Nudeln selbst gemacht?",
+        "a": "Ja, die Nudeln sind hausgemacht."
+      }
+    ],
+    "contact": {
+      "headline": "Vorbestellen & Fragen",
+      "text": "Sie möchten Eier, Nudeln oder Geflügel zurücklegen lassen? Melden Sie sich – wir sagen Ihnen, wann Sie abholen können.",
+      "topics": [
+        "Eier",
+        "Nudeln",
+        "Geflügel",
+        "Marktstand",
+        "Sonstiges"
+      ],
+      "responseNote": "Am schnellsten erreichen Sie uns telefonisch."
+    },
+    "stickyCta": "Jetzt vorbestellen"
+  }
+}

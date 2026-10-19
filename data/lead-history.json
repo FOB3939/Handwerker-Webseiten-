@@ -126,6 +126,1198 @@
       "websiteStatus": "keine eigene Website gefunden",
       "criteriaStatus": "MyHammer belegt, keine eigene Website gefunden; Google-Eintrag NICHT verifiziert (Google aus Recherche-Umgebung nicht erreichbar)",
       "email": null
+    },
+    {
+      "company": "Alexander Jung Elektrotechnik",
+      "slug": "jung-elektrotechnik-erding",
+      "trade": "Elektrotechnik",
+      "city": "Erding",
+      "date": "2026-10-18",
+      "phone": "01590 6835856",
+      "email": null,
+      "googleLink": "https://www.google.com/maps/search/?api=1&query=Alexander%20Jung%20Elektrotechnik%20Erding",
+      "googleVerified": false,
+      "myhammerLink": "https://www.my-hammer.de/elektrik/elektriker-berufe/erding",
+      "myhammerRating": 5.0,
+      "myhammerReviews": 5,
+      "sources": [
+        "https://www.my-hammer.de/elektrik/elektriker-berufe/erding",
+        "https://www.11880.com/suche/photovoltaik/erding",
+        "https://www.11880.com/suche/photovoltaik/oberding"
+      ],
+      "websiteStatus": "keine eigene Website gefunden",
+      "websiteRisk": "mittel"
+    },
+    {
+      "company": "Hofladen Schmid",
+      "slug": "hofladen-schmid-eitting",
+      "trade": "Hofladen & Direktvermarktung",
+      "city": "Eitting",
+      "date": "2026-10-18",
+      "phone": "08122 42986",
+      "email": "schmid_w@gmx.de",
+      "googleLink": "https://www.google.com/maps/search/?api=1&query=Hofladen%20Schmid%20Eitting",
+      "googleVerified": false,
+      "myhammerLink": "https://www.regionales-bayern.de/anbieter/wolfgang-schmid-10577/",
+      "myhammerRating": null,
+      "myhammerReviews": null,
+      "sources": [
+        "https://www.regionales-bayern.de/anbieter/wolfgang-schmid-10577/",
+        "https://www.ed-live.de/branchenbuch?eintrag=6733",
+        "https://www.vr-bank-erding.de/bankeigen/hoflaeden/hofladen-schmid.html",
+        "https://www.ed-live.de/region_direktvermarkter",
+        "http://landwarenkorb.net/images/hoflaeden_direktvermarkter_deutschland_Bayern_Kreis_Erding.php"
+      ],
+      "websiteStatus": "keine eigene Website gefunden",
+      "websiteRisk": "niedrig"
+    },
+    {
+      "company": "Mehmet Cem Kurtoglu",
+      "slug": "kurtoglu-elektro-erding",
+      "trade": "Elektroinstallation & Beleuchtung",
+      "city": "Erding",
+      "date": "2026-10-18",
+      "phone": null,
+      "email": null,
+      "googleLink": "https://www.google.com/maps/search/?api=1&query=Mehmet%20Cem%20Kurtoglu%20Erding",
+      "googleVerified": false,
+      "myhammerLink": "https://www.my-hammer.de/elektrik/elektriker-berufe/erding",
+      "myhammerRating": 4.9,
+      "myhammerReviews": 44,
+      "sources": [
+        "https://www.my-hammer.de/elektrik/elektriker-berufe/erding",
+        "https://www.oeffnungszeitenbuch.de/filiale/Erding-Mehmet%2520Cem%2520Kurtoglu-5684853A.html"
+      ],
+      "websiteStatus": "keine eigene Website gefunden",
+      "websiteRisk": "mittel"
+    },
+    {
+      "company": "FKM Parkett",
+      "slug": "fkm-parkett-karlsfeld",
+      "trade": "Parkett & Bodenbeläge",
+      "city": "Karlsfeld",
+      "date": "2026-10-18",
+      "phone": "08131 998868",
+      "email": "fkmparkett@web.de",
+      "googleLink": "https://www.google.com/maps/search/?api=1&query=FKM%20Parkett%20Rathausstr.%20111%20Karlsfeld",
+      "googleVerified": false,
+      "myhammerLink": "https://www.my-hammer.de/auftragnehmer/fkm-parkett/bewertungen",
+      "myhammerRating": 4.7,
+      "myhammerReviews": 45,
+      "sources": [
+        "https://www.my-hammer.de/auftragnehmer/fkm-parkett/bewertungen",
+        "https://www.my-hammer.de/boden-fliesen/boden-estrichleger-berufe/karlsfeld",
+        "https://karlsfeld.de/index.php?gid=482&id=%2C49",
+        "https://branchenbuch.meinestadt.de/karlsfeld/company/14806157",
+        "https://www.bodenleger.net/karlsfeld/marianna-fueloepne-kovacs-fkm-parkett-aUOfQ7"
+      ],
+      "websiteStatus": "keine eigene Website gefunden",
+      "websiteRisk": "niedrig"
+    },
+    {
+      "company": "Hofladen Familie Wild",
+      "slug": "hofladen-wild-kreuzweg-berg",
+      "trade": "Hofladen & Bauernhof",
+      "city": "Berg (Kreuzweg)",
+      "date": "2026-10-18",
+      "phone": "08151 51543",
+      "email": null,
+      "googleLink": "https://www.google.com/maps/search/?api=1&query=Wild%20Kreuzweg%2055%20Berg",
+      "googleVerified": false,
+      "myhammerLink": "https://www.buergerbeteiligung-berg.de/arbeitsgruppen/nahversorgung-landwirtschaft/direktverkauf-liste",
+      "myhammerRating": null,
+      "myhammerReviews": null,
+      "sources": [
+        "https://www.buergerbeteiligung-berg.de/arbeitsgruppen/nahversorgung-landwirtschaft/direktverkauf-liste",
+        "https://www.buergerbeteiligung-berg.de/arbeitsgruppen/nahversorgung-landwirtschaft"
+      ],
+      "websiteStatus": "keine eigene Website gefunden",
+      "websiteRisk": "mittel"
+    },
+    {
+      "company": "Wunderlbare Holzhütte",
+      "slug": "wunderlbare-holzhuette-hoehenrain",
+      "trade": "Hofladen & Direktvermarktung",
+      "city": "Berg (Höhenrain)",
+      "date": "2026-10-18",
+      "phone": "08171 20362",
+      "email": null,
+      "googleLink": "https://www.google.com/maps/search/?api=1&query=Wunderlbare%20Holzh%C3%BCtte%20H%C3%B6henrain",
+      "googleVerified": false,
+      "myhammerLink": "https://www.buergerbeteiligung-berg.de/arbeitsgruppen/nahversorgung-landwirtschaft/direktverkauf-liste",
+      "myhammerRating": null,
+      "myhammerReviews": null,
+      "sources": [
+        "https://www.buergerbeteiligung-berg.de/arbeitsgruppen/nahversorgung-landwirtschaft/direktverkauf-liste",
+        "https://www.buergerbeteiligung-berg.de/arbeitsgruppen/nahversorgung-landwirtschaft"
+      ],
+      "websiteStatus": "keine eigene Website gefunden",
+      "websiteRisk": "mittel"
+    },
+    {
+      "company": "Hofladen Georg Eschbaumer",
+      "slug": "eschbaumer-hofladen-notzing",
+      "trade": "Hofladen & Direktvermarktung",
+      "city": "Oberding-Notzing",
+      "date": "2026-10-18",
+      "phone": "08122 902393",
+      "email": "esche63@web.de",
+      "googleLink": "https://www.google.com/maps/search/?api=1&query=Hofladen%20Georg%20Eschbaumer%20Notzing",
+      "googleVerified": false,
+      "myhammerLink": "https://www.ed-live.de/branchenbuch?eintrag=6709",
+      "myhammerRating": null,
+      "myhammerReviews": null,
+      "sources": [
+        "https://www.ed-live.de/branchenbuch?eintrag=6709",
+        "https://www.bauernmarktverein-landkreis-mchn.de/eschbaumer.html",
+        "https://www.ed-live.de/region_direktvermarkter",
+        "https://www.ed-live.de/region_erdbeeren",
+        "https://ed.liveblatt.de/branchenbuch/branche-direkterzeuger+und+vermarkter-377"
+      ],
+      "websiteStatus": "keine eigene Website gefunden",
+      "websiteRisk": "mittel"
+    },
+    {
+      "company": "Malermeister Yanko",
+      "slug": "malermeister-yanko-unterhaching",
+      "trade": "Maler & Lackierer",
+      "city": "Unterhaching",
+      "date": "2026-10-18",
+      "phone": "01590 1809565",
+      "email": null,
+      "googleLink": "https://www.google.com/maps/search/?api=1&query=Malermeister%20Yanko%20Rathausplatz%204%20Unterhaching",
+      "googleVerified": false,
+      "myhammerLink": "https://www.my-hammer.de/auftragnehmer/malermeister-yanko",
+      "myhammerRating": null,
+      "myhammerReviews": null,
+      "sources": [
+        "https://www.my-hammer.de/auftragnehmer/malermeister-yanko",
+        "https://www.my-hammer.de/malerarbeiten-tapezieren/maler-lackierer-berufe/unterhaching",
+        "https://www.11880.com/suche/maler/unterhaching"
+      ],
+      "websiteStatus": "keine eigene Website gefunden",
+      "websiteRisk": "mittel"
+    },
+    {
+      "company": "Dusko Jovic Bau",
+      "slug": "dusko-jovic-trockenbau-unterhaching",
+      "trade": "Trockenbau & Innenausbau",
+      "city": "Unterhaching",
+      "date": "2026-10-18",
+      "phone": null,
+      "email": null,
+      "googleLink": "https://www.google.com/maps/search/?api=1&query=Dusko%20Jovic%20Bau%20Unterhaching",
+      "googleVerified": false,
+      "myhammerLink": "https://www.my-hammer.de/auftragnehmer/dusko-jovic-bau/bewertungen",
+      "myhammerRating": 5.0,
+      "myhammerReviews": 42,
+      "sources": [
+        "https://www.my-hammer.de/auftragnehmer/dusko-jovic-bau/bewertungen",
+        "https://www.my-hammer.de/trockenbau-verputzen/trockenbauer-berufe/unterhaching",
+        "https://www.blauarbeit.de/trockenbau/branchenbuch/muenchen"
+      ],
+      "websiteStatus": "keine eigene Website gefunden",
+      "websiteRisk": "mittel"
+    },
+    {
+      "company": "Csaba Vikor",
+      "slug": "vikor-fliesenleger-fuerstenfeldbruck",
+      "trade": "Fliesenleger",
+      "city": "Fürstenfeldbruck",
+      "date": "2026-10-18",
+      "phone": null,
+      "email": null,
+      "googleLink": "https://www.google.com/maps/search/?api=1&query=Csaba%20Vikor%20Fliesenleger%20F%C3%BCrstenfeldbruck",
+      "googleVerified": false,
+      "myhammerLink": "https://www.my-hammer.de/boden-fliesen/fliesen-platten-mosaikleger-berufe/fuerstenfeldbruck",
+      "myhammerRating": 4.9,
+      "myhammerReviews": 20,
+      "sources": [
+        "https://www.my-hammer.de/boden-fliesen/fliesen-platten-mosaikleger-berufe/fuerstenfeldbruck",
+        "https://www.my-hammer.de/handwerks-montageleistungen/monteur-allroundhandwerker-berufe/fuerstenfeldbruck",
+        "https://www.my-hammer.de/boden-fliesen/fliesen-platten-mosaikleger-berufe/oberschweinbach",
+        "https://www.my-hammer.de/boden-fliesen/fliesen-platten-mosaikleger-berufe/schwabhausen",
+        "https://www.my-hammer.de/boden-fliesen/boden-estrichleger-berufe/fuerstenfeldbruck"
+      ],
+      "websiteStatus": "keine eigene Website gefunden",
+      "websiteRisk": "mittel"
+    },
+    {
+      "company": "AK Elektro & Kabelverlegung",
+      "slug": "ak-elektro-kabelverlegung-fuerstenfeldbruck",
+      "trade": "Elektro & Kabelverlegung",
+      "city": "Fürstenfeldbruck",
+      "date": "2026-10-18",
+      "phone": null,
+      "email": null,
+      "googleLink": "https://www.google.com/maps/search/?api=1&query=AK%20Elektro%20%26%20Kabelverlegung%20F%C3%BCrstenfeldbruck",
+      "googleVerified": false,
+      "myhammerLink": "https://www.my-hammer.de/elektrik/elektriker-berufe/fuerstenfeldbruck",
+      "myhammerRating": 4.8,
+      "myhammerReviews": 15,
+      "sources": [
+        "https://www.my-hammer.de/elektrik/elektriker-berufe/fuerstenfeldbruck",
+        "https://www.my-hammer.de/elektrik/elektriker-berufe/mammendorf",
+        "https://www.my-hammer.de/elektriker/fuerstenfeldbruck/"
+      ],
+      "websiteStatus": "keine eigene Website gefunden",
+      "websiteRisk": "mittel"
+    },
+    {
+      "company": "Krasniqi Innenausbau",
+      "slug": "krasniqi-innenausbau-peissenberg",
+      "trade": "Trockenbau & Innenausbau",
+      "city": "Peißenberg",
+      "date": "2026-10-18",
+      "phone": "0172 6126732",
+      "email": null,
+      "googleLink": "https://www.google.com/maps/search/?api=1&query=Krasniqi%20Innenausbau%20B%C3%B6hmerwaldstr.%201%20Pei%C3%9Fenberg",
+      "googleVerified": false,
+      "myhammerLink": "https://www.my-hammer.de/trockenbau-verputzen/trockenbauer-berufe/weilheim-in-oberbayern",
+      "myhammerRating": null,
+      "myhammerReviews": null,
+      "sources": [
+        "https://sellwerk.de/firmenprofil/krasniqi-innenausbau",
+        "https://www.trockenbauunternehmen.net/peissenberg/krasniqi-innenausbau-aUPWyz",
+        "https://www.blauarbeit.de/handwerker/weilheim-in-oberbayern/krasniqi-innenausbau",
+        "https://www.gelbeseiten.de/gsbiz/c242814d-caae-441c-a518-41e91e84c18b",
+        "https://adresse.dastelefonbuch.de/Pei%C3%9Fenberg/1-Innenausbau-Riad-Krasniqi-Pei%C3%9Fenberg-B%C3%B6hmerwaldstr.html",
+        "https://www.my-hammer.de/trockenbau-verputzen/trockenbauer-berufe/weilheim-in-oberbayern"
+      ],
+      "websiteStatus": "keine eigene Website gefunden",
+      "websiteRisk": "mittel"
+    },
+    {
+      "company": "Georg Buchner Hausmeisterservice",
+      "slug": "buchner-hausmeisterservice-sindelsdorf",
+      "trade": "Hausmeisterservice & Gartenpflege",
+      "city": "Sindelsdorf",
+      "date": "2026-10-18",
+      "phone": "08856 2285",
+      "email": null,
+      "googleLink": "https://www.google.com/maps/search/?api=1&query=Georg%20Buchner%20Hausmeister%20Hauptstr.%208%20Sindelsdorf",
+      "googleVerified": false,
+      "myhammerLink": "https://www.my-hammer.de/reinigung/hausmeisterservice-berufe/polling-weilheim-schongau",
+      "myhammerRating": 4.8,
+      "myhammerReviews": 94,
+      "sources": [
+        "https://www.my-hammer.de/reinigung/hausmeisterservice-berufe/polling-weilheim-schongau",
+        "https://www.my-hammer.de/garten-aussenbereich/gaertner-berufe/spatzenhausen",
+        "https://www.my-hammer.de/garten-aussenbereich/gaertner-berufe/habach",
+        "https://www.hausmeisterdienste.net/sindelsdorf/georg-buchner-hausmeisterttigkeiten-aUNQm6"
+      ],
+      "websiteStatus": "keine eigene Website gefunden",
+      "websiteRisk": "mittel"
+    },
+    {
+      "company": "Neheiders Milchhäusl",
+      "slug": "neheiders-milchhaeusl-oberschweinbach",
+      "trade": "Hofladen & Milchhäusl",
+      "city": "Oberschweinbach",
+      "date": "2026-10-18",
+      "phone": "08145 99798301",
+      "email": "NeheiderAndi@aol.com",
+      "googleLink": "https://www.google.com/maps/search/?api=1&query=Neheiders%20Milchhäusl%20Oberschweinbach",
+      "googleVerified": false,
+      "myhammerLink": "https://www.regionales-bayern.de/anbieter/neheider-12690/",
+      "myhammerRating": null,
+      "myhammerReviews": null,
+      "sources": [
+        "https://www.regionales-bayern.de/anbieter/neheider-12690/",
+        "https://www.mammendorf.de/produkte-aus-in-unserer-direkten-umgebung",
+        "https://www.milchbauernservice.de/milchverkaufstellen?tx_lfmap_lfmap%5B%40widget_0%5D%5BcurrentPage%5D=14&cHash=3ca131c5cf58d3627861fa36be7c5c40",
+        "https://www.besser-regional.eu/hoflaeden/24-h-regional/",
+        "https://www.foodbevg.com/DE/Oberschweinbach/554512998076464/Neheider's-Milchh%C3%A4usl"
+      ],
+      "websiteStatus": "keine eigene Website gefunden",
+      "websiteRisk": "niedrig"
+    },
+    {
+      "company": "Hofladen Wirthmüller",
+      "slug": "hofladen-wirthmueller-odelzhausen",
+      "trade": "Hofladen & Bio-Kartoffeln",
+      "city": "Odelzhausen",
+      "date": "2026-10-18",
+      "phone": "08134 92310",
+      "email": "wirthmueller-muehlenhof@t-online.de",
+      "googleLink": "https://www.google.com/maps/search/?api=1&query=Hofladen%20Wirthmüller%20Odelzhausen",
+      "googleVerified": false,
+      "myhammerLink": "https://www.dahoam-in-dachau.de/odelzhausen/einkaufen-dahoam/hoflaeden/hofladen-wirthmueller-odelzhausen--",
+      "myhammerRating": null,
+      "myhammerReviews": null,
+      "sources": [
+        "https://www.dahoam-in-dachau.de/odelzhausen/einkaufen-dahoam/hoflaeden/hofladen-wirthmueller-odelzhausen--",
+        "https://www.dachau-handelt.de/profil/hofladen-wirthmueller",
+        "https://www.unserland.info/lebensmittel/landwirtschaft-handwerk/obstbauern-gemuesebauern/wirthmueller-richard",
+        "https://www.besser-regional.eu/hoflaeden/hoflaeden-und-direktvermarkter/",
+        "https://www.hofladen-bauernladen.info/adressen/richard-wirthmueller-odelzhausen__2316.php",
+        "https://www.mein-bauernhof.de/verkaufstelle/richard-wirthmueller-871504/",
+        "https://www.oeffnungszeitenbuch.de/filiale/Odelzhausen-Hofladen%2520Richard%2520Wirthmueller-970193Q.html"
+      ],
+      "websiteStatus": "keine eigene Website gefunden",
+      "websiteRisk": "niedrig"
+    },
+    {
+      "company": "Reitstall Schütz",
+      "slug": "reitstall-schuetz-sauerlach",
+      "trade": "Pferdepension & Reitstall",
+      "city": "Sauerlach (Lanzenhaar)",
+      "date": "2026-10-18",
+      "phone": "08104 1746",
+      "email": null,
+      "googleLink": "https://www.google.com/maps/search/?api=1&query=Reitstall%20Sch%C3%BCtz%20Lanzenhaar%20Sauerlach",
+      "googleVerified": false,
+      "myhammerLink": "https://www.stall-frei.de/stall/bayern/sauerlach/122807",
+      "myhammerRating": null,
+      "myhammerReviews": null,
+      "sources": [
+        "https://www.stall-frei.de/stall/bayern/sauerlach/122807",
+        "https://www.trabland.de/reitschule-schuetz",
+        "https://www.pferdeundreiter.com/rudolf_georg_schuetz_sen",
+        "https://rg-strasslach.de/kontakt/",
+        "https://www.stallbewertung.de/reitstall-sch-tz",
+        "https://www.waze.com/live-map/directions/de/by/sauerlach/reitstall-schutz,-lanzenhaar?to=place.ChIJVahkN7LnnUcRrG-XPF4tfC4"
+      ],
+      "websiteStatus": "keine eigene Website gefunden",
+      "websiteRisk": "mittel"
+    },
+    {
+      "company": "Hofmanns Hofladen",
+      "slug": "hofmanns-hofladen-egling-aufhofen",
+      "trade": "Hofladen & Direktvermarktung",
+      "city": "Egling (Aufhofen)",
+      "date": "2026-10-18",
+      "phone": "08176 925089",
+      "email": null,
+      "googleLink": "https://www.google.com/maps/search/?api=1&query=Hofmanns%20Hofladen%20Egling%20Aufhofen",
+      "googleVerified": false,
+      "myhammerLink": "https://www.egling.de/index.php?id=0,6&gid=245",
+      "myhammerRating": null,
+      "myhammerReviews": null,
+      "sources": [
+        "https://www.egling.de/index.php?id=0,6&gid=245",
+        "https://www.wolfratshausen.de/fileadmin/Stadt_Wolfratshausen/Dateien/Umwelt_und_Energie/Klimaschutz/23-9-18__Regionale_Vermarkung.pdf",
+        "https://bad-toelz.bund-naturschutz.de/fileadmin/kreisgruppen/badtoelz/dokumente/biofuehrer_ebook_din_a4_01.pdf",
+        "https://wordpress02.gcms.verdigado.net/gruene-toelz-wor/wp-content/uploads/sites/38/2021/08/Sammlung_Direktvermarkter_Nordlandkreis_200717.pdf",
+        "https://www.yumpu.com/de/document/view/5675279/sommerprogramm-2012-bioland"
+      ],
+      "websiteStatus": "keine eigene Website gefunden",
+      "websiteRisk": "mittel"
+    },
+    {
+      "company": "Zimmerschmidhof – Familie Kreitmeir",
+      "slug": "zimmerschmidhof-kreitmeir-hebertshausen",
+      "trade": "Hofverkauf Gänse, Enten & Eier",
+      "city": "Hebertshausen",
+      "date": "2026-10-18",
+      "phone": "08139 8122",
+      "email": "anton.kreitmeir@googlemail.com",
+      "googleLink": "https://www.google.com/maps/search/?api=1&query=Anton%20Kreitmeir%20G%C3%A4nse%20und%20Enten%20Lotzbach%203a%20Hebertshausen",
+      "googleVerified": false,
+      "myhammerLink": "https://www.mein-bauernhof.de/verkaufstelle/zimmerschmidhof-familie-kreitmeir-698525/",
+      "myhammerRating": null,
+      "myhammerReviews": null,
+      "sources": [
+        "https://www.mein-bauernhof.de/verkaufstelle/zimmerschmidhof-familie-kreitmeir-698525/",
+        "https://hofatlas.de/hof/Zimmerschmidhof-Familie-Kreitmeir",
+        "https://www.dachau-handelt.de/profil/kreitmeier-anton",
+        "https://www.deutschebiz.de/anton-kreitmeir-gänse-und-enten-08139-8122",
+        "https://hebertshausen-by.deutschebusiness.com/anton-kreitmeir-ganse-und-enten-lotzbach/",
+        "https://sicheres-auftreten-bei-voelliger-ahnungslosigkeit.de/2019/07/29/empfehlungen/"
+      ],
+      "websiteStatus": "keine eigene Website gefunden",
+      "websiteRisk": "mittel"
+    },
+    {
+      "company": "Hofladen Voit / Biogärtnerei Voit",
+      "slug": "biogaertnerei-voit-moosburg",
+      "trade": "Bioland-Gärtnerei & Hofladen",
+      "city": "Moosburg an der Isar",
+      "date": "2026-10-18",
+      "phone": "08761 60307",
+      "email": "biogaertnerei-voit@t-online.de",
+      "googleLink": "https://www.google.com/maps/search/?api=1&query=Hofladen%20Voit%20Thalbacher%20Stra%C3%9Fe%2034%20Moosburg",
+      "googleVerified": false,
+      "myhammerLink": "https://www.mein-bauernhof.de/verkaufstelle/hofladen-voit-775338/",
+      "myhammerRating": null,
+      "myhammerReviews": null,
+      "sources": [
+        "https://www.mein-bauernhof.de/verkaufstelle/hofladen-voit-775338/",
+        "https://www.hofladen-bauernladen.info/adressen/hofladen-josef-voit-moosburg__2327.php",
+        "https://biodukte.de/markt/josef-voit-3382",
+        "https://onlinestreet.de/poi/ZHFBODVKRm8rRXU5QnA5azVPaGN0dz09",
+        "https://www.oeffnungszeitenbuch.de/filiale/Moosburg-Hofladen%2520Josef%2520Voit-970917D.html",
+        "https://www.aloeus.de/hofladen-josef-voit-moosburg-an-der-isar/",
+        "https://www.sandras-bauerngarten.de/aktuelles/gut-gern"
+      ],
+      "websiteStatus": "keine eigene Website gefunden",
+      "websiteRisk": "mittel"
+    },
+    {
+      "company": "Obsthof Seidinger",
+      "slug": "obsthof-seidinger-ebersberg",
+      "trade": "Bioland-Obsthof",
+      "city": "Ebersberg",
+      "date": "2026-10-18",
+      "phone": "08092 22103",
+      "email": "laurenzius_ich@yahoo.de",
+      "googleLink": "https://www.google.com/maps/search/?api=1&query=Obsthof%20Seidinger%20Rinding%2022%20Ebersberg",
+      "googleVerified": false,
+      "myhammerLink": "https://hofladen-bauernladen.info/adressen/ebersberg-rinding-obsthof-seidinger__2335.php",
+      "myhammerRating": null,
+      "myhammerReviews": null,
+      "sources": [
+        "https://hofladen-bauernladen.info/adressen/ebersberg-rinding-obsthof-seidinger__2335.php",
+        "https://mein-bauernhof.de/verkaufstelle/obsthof-seidinger-778974",
+        "https://www.mein-bauernhof.de/verkaufstelle/obsthof-seidinger-866183/",
+        "https://ebersberg.de/de/handel-gewerbe/landwirtschaft/regionale-vermarktung.html"
+      ],
+      "websiteStatus": "keine eigene Website gefunden",
+      "websiteRisk": "mittel"
+    },
+    {
+      "company": "Senftl's Hofladen",
+      "slug": "hofladen-senftl-moosburg",
+      "trade": "Hofladen / Direktvermarktung",
+      "city": "Moosburg an der Isar",
+      "date": "2026-10-18",
+      "phone": "08761 63838",
+      "email": "jutta.senftl@web.de",
+      "googleLink": "https://www.google.com/maps/search/?api=1&query=Senftl%27s%20Hofladen%20Kochbauerstra%C3%9Fe%201a%20Moosburg",
+      "googleVerified": false,
+      "myhammerLink": "https://www.regionales-bayern.de/anbieter/senftls-hofladen-11892/",
+      "myhammerRating": null,
+      "myhammerReviews": null,
+      "sources": [
+        "https://www.regionales-bayern.de/anbieter/senftls-hofladen-11892/",
+        "https://www.mein-bauernhof.de/verkaufstelle/senftls-hofladen-872197/",
+        "https://www.hofladen-finden.de/verkauf/senftls-hofladen/",
+        "https://www.fs-live.de/branchenbuch?eintrag=5217",
+        "https://onlinestreet.de/poi/Zlh2RE9QWjJkcUpPcUdEVHZGWmcydz09",
+        "https://www.vitanina.de/haendler/senftls-hofladen/",
+        "https://www.hofladen-bauernladen.info/in/moosburg-an-der-isar/2477"
+      ],
+      "websiteStatus": "keine eigene Website gefunden",
+      "websiteRisk": "niedrig"
+    },
+    {
+      "company": "Fatmir Sallahi Malerbetrieb",
+      "slug": "malerbetrieb-sallahi-holzkirchen",
+      "trade": "Maler & Lackierer",
+      "city": "Holzkirchen",
+      "date": "2026-10-18",
+      "phone": "08024 478030",
+      "email": "maler-salahi@t-online.de",
+      "googleLink": "https://www.google.com/maps/search/?api=1&query=Fatmir%20Sallahi%20Malerbetrieb%20M%C3%BCnchner%20Str.%2095%20Holzkirchen",
+      "googleVerified": false,
+      "myhammerLink": "https://www.maler.org/holzkirchen/fatmir-sallahi-malerbetrieb-aUObpz",
+      "myhammerRating": null,
+      "myhammerReviews": null,
+      "sources": [
+        "https://www.werkenntdenbesten.de/e/110050261/maler/holzkirchen-oberbayern/fatmir-sallahi-malerbetrieb-bewertungen.html",
+        "https://www.firmenwissen.com/en/az/firmeneintrag/83607/8250258902/FATMIR_SALLAHI_MALERBETRIEB.html",
+        "https://www.maler.org/holzkirchen/fatmir-sallahi-malerbetrieb-aUObpz",
+        "https://www.maler-und-lackierer.com/anbieter/holzkirchen/fatmir-sallahi/",
+        "https://www.finderr.de/maler-holzkirchen-fatmir-salahi-100851995",
+        "https://holzkirchen.deutschbranchenbuch.com/painter/fatmir-fatmir-salahi/",
+        "https://www.goyellow.de/home/maler-sallahi-holzkirchen--g63gyz.html",
+        "https://www.dialo.de/installateur/holzkirchen/fatmir-salahi-malerbetrieb-m45904637800",
+        "https://anruferauskunft.de/holzkirchen-08024-478/"
+      ],
+      "websiteStatus": "keine eigene Website gefunden",
+      "websiteRisk": "niedrig"
+    },
+    {
+      "company": "Murat Özerol Elektrotechnik",
+      "slug": "elektrotechnik-oezerol-muenchen-riem",
+      "trade": "Elektrotechnik (Meisterbetrieb)",
+      "city": "München-Riem",
+      "date": "2026-10-18",
+      "phone": null,
+      "email": null,
+      "googleLink": "https://www.google.com/maps/search/?api=1&query=Murat%20%C3%96zerol%20Elektrotechnik%20Elisabeth-Dane-Stra%C3%9Fe%2032%20M%C3%BCnchen",
+      "googleVerified": false,
+      "myhammerLink": "https://www.my-hammer.de/auftragnehmer/murat-oezerol-elektrotechnik",
+      "myhammerRating": 5.0,
+      "myhammerReviews": 41,
+      "sources": [
+        "https://www.my-hammer.de/auftragnehmer/murat-oezerol-elektrotechnik",
+        "https://www.my-hammer.de/auftragnehmer/murat-oezerol-elektrotechnik/bewertungen",
+        "https://www.my-hammer.de/elektrik/elektriker-berufe/haar",
+        "https://www.my-hammer.de/elektrik/elektriker-berufe/aschheim",
+        "https://merhabamap.com/de/places/murat-ozerol-elektrotechnik-muenchen",
+        "https://handwerk.check24.de/craftsmen/cs/profile/sp_4O2eB"
+      ],
+      "websiteStatus": "keine eigene Website gefunden",
+      "websiteRisk": "mittel"
+    },
+    {
+      "company": "Isoliertechnik Mering GbR",
+      "slug": "isoliertechnik-mering-gaussring",
+      "trade": "Technische Isolierung (Wärme-, Kälte-, Schallschutz)",
+      "city": "Mering",
+      "date": "2026-10-18",
+      "phone": "0172 4682138",
+      "email": "isoliertechnik.mering@gmail.com",
+      "googleLink": "https://www.google.com/maps/search/?api=1&query=Isoliertechnik%20Mering%20GbR%20Gau%C3%9Fring%2026%20Mering",
+      "googleVerified": false,
+      "myhammerLink": "https://mering.de/wirtschaft-gewerbe/branchenverzeichnis/bauen-handwerk/isoliertechnik",
+      "myhammerRating": null,
+      "myhammerReviews": null,
+      "sources": [
+        "https://mering.de/wirtschaft-gewerbe/branchenverzeichnis/bauen-handwerk/isoliertechnik",
+        "https://mering.de/wirtschaft-gewerbe/branchenverzeichnis/bauen-handwerk",
+        "https://www.kleinanzeigen.de/s-jobs/isolierer-isolierer/k0c102",
+        "https://www.marktplatz-mittelstand.de/mering/boesl-haustechnik-gmbh-aXnK4N.html",
+        "https://mering.stadtbranchenbuch.com/"
+      ],
+      "websiteStatus": "keine eigene Website gefunden",
+      "websiteRisk": "niedrig"
+    },
+    {
+      "company": "Kufner & Weigl GmbH",
+      "slug": "kufner-weigl-isoliertechnik-mering",
+      "trade": "Isoliertechnik, Brandschutz & Trockenbau",
+      "city": "Mering",
+      "date": "2026-10-18",
+      "phone": "08233 20508",
+      "email": "Kufner-weigl.isoliertechnik@gmx.de",
+      "googleLink": "https://www.google.com/maps/search/?api=1&query=Kufner%20%26%20Weigl%20GmbH%20Isoliertechnik%20Mering",
+      "googleVerified": false,
+      "myhammerLink": "https://mering.de/wirtschaft-gewerbe/branchenverzeichnis/bauen-handwerk/isoliertechnik",
+      "myhammerRating": null,
+      "myhammerReviews": null,
+      "sources": [
+        "https://mering.de/wirtschaft-gewerbe/branchenverzeichnis/bauen-handwerk/isoliertechnik",
+        "https://openregister.de/company/DE-HRB-D2102-14075",
+        "https://www.online-handelsregister.de/handelsregisterauszug/by/Augsburg/HRB/14075/Kufner-Weigl-GmbH-Isoliertechnik-Waerme-Kaelte-Schall-Brandschutz-Trockenbau",
+        "https://www.baustoffe.xyz/bau-kufner-und-weigl-gmbh-in-mering-63527",
+        "https://www.bauunternehmen.org/mering-schwaben/kufner-und-weigl-gmbh-isoliertechnik-waerme-kaelte--schall-brandschutz-aUMWCu",
+        "https://mering.branchen-info.net/fp_430439.php",
+        "https://mering.stadtbranchenbuch.com/1727514.html"
+      ],
+      "websiteStatus": "keine eigene Website gefunden",
+      "websiteRisk": "niedrig"
+    },
+    {
+      "company": "Klaus Fraider Fliesenverlegemeisterbetrieb",
+      "slug": "fraider-fliesen-bergkirchen",
+      "trade": "Fliesenleger (Meisterbetrieb)",
+      "city": "Bergkirchen",
+      "date": "2026-10-18",
+      "phone": "08131 84091",
+      "email": null,
+      "googleLink": "https://www.google.com/maps/search/?api=1&query=Klaus%20Fraider%20Fliesen%20Bergstra%C3%9Fe%206%20Bergkirchen",
+      "googleVerified": false,
+      "myhammerLink": "https://www.fliesenleger.net/bergkirchen/klaus-fraider-platten--und-fliesen--verlegung-aULj28",
+      "myhammerRating": null,
+      "myhammerReviews": null,
+      "sources": [
+        "https://www.fliesenleger.net/bergkirchen/klaus-fraider-platten--und-fliesen--verlegung-aULj28",
+        "https://www.dasoertliche.de/Themen/Fraider-Klaus-Fliesenverlegemeisterbetrieb-Bergkirchen-Unterbachern-Bergstr",
+        "https://adresse.dastelefonbuch.de/Bergkirchen%20Kr%20Dachau/1-Fliesenverlegungen-Klaus-Fraider-Bergkirchen-Bergstr.html",
+        "https://www.starofservice.de/liste/bayern/dachau/bergkirchen/fliesenlegen"
+      ],
+      "websiteStatus": "keine eigene Website gefunden",
+      "websiteRisk": "mittel",
+      "reserve": true
+    },
+    {
+      "company": "Geflügelhof Ruhdorfer",
+      "slug": "gefluegelhof-ruhdorfer-herrsching",
+      "trade": "Geflügelhof mit Hofladen (Eier, Nudeln, Geflügel)",
+      "city": "Herrsching",
+      "date": "2026-10-18",
+      "phone": "08152 8697",
+      "email": null,
+      "googleLink": "https://www.google.com/maps/search/?api=1&query=Gefl%C3%BCgelhof%20Ruhdorfer%20Rausch%204%20Herrsching",
+      "googleVerified": false,
+      "myhammerLink": "https://www.hofladen-bauernladen.info/adressen/herrsching-rausch-gefluegelhof-ruhdorfer__60081.php",
+      "myhammerRating": null,
+      "myhammerReviews": null,
+      "sources": [
+        "https://www.hofladen-bauernladen.info/adressen/herrsching-rausch-gefluegelhof-ruhdorfer__60081.php",
+        "https://www.mein-bauernhof.de/verkaufstelle/hofladen-magnus-ruhdorfer-865153/",
+        "https://www.hofladenfinder.org/farmshop/details/hofladen-magnus-ruhdorfer-in-herrsching-am-ammersee__60081",
+        "https://www.starnberg.de/kultur-freizeit/einkaufs-und-erlebnisstadt/wochenmaerkte/freitagsmarkt/cafe-piccolino-1-1",
+        "http://www.mensa-regio.de/index.php?id=92&idh=133",
+        "https://www.poecking.de/fileadmin/Gemeinde/Bilder/Vereine/Einkaufen_auf_dem_Bauernhof.pdf",
+        "https://www.yumpu.com/de/document/view/21981283/starnberger-funf-seen-land-utting/57"
+      ],
+      "websiteStatus": "keine eigene Website gefunden",
+      "websiteRisk": "mittel",
+      "reserve": true
+    },
+    {
+      "company": "Wohnsystem e.K.",
+      "slug": "wohnsystem-bajraktari-innenausbau-germering",
+      "trade": "Innenausbau, Trockenbau & Renovierung",
+      "city": "Germering",
+      "date": "2026-10-18",
+      "phone": "0176 28380303",
+      "email": "wohnsystem@gmail.com",
+      "googleLink": "https://www.google.com/maps/search/?api=1&query=Wohnsystem%20e.K.%20Meisenweg%207%20Germering",
+      "googleVerified": false,
+      "myhammerLink": "https://www.11880.com/branchenbuch/germering-oberbayern/060690823B107281312/wohnsystem-e-k-lulzim-bajraktari.html",
+      "myhammerRating": null,
+      "myhammerReviews": null,
+      "sources": [
+        "https://www.11880.com/branchenbuch/germering-oberbayern/060690823B107281312/wohnsystem-e-k-lulzim-bajraktari.html",
+        "https://www.11880.com/suche/trockenbau/germering",
+        "https://www.sanitaer-finden.de/germering/wohnsystem-ek-lulzim-bajraktari-aYCmka.html",
+        "https://www.oeffnungszeitenbuch.de/filiale/Germering-Wohnsystem%2520e.K%2520Lulzim%2520Bajraktari-4207487U.html",
+        "https://www.online-handelsregister.de/personen/Ljulzim-Bajraktari-Germering/cdf192630b54b1100f3f8090ec3eccc9",
+        "https://www.creditsafe.com/business-index/de-de/company/wohnsystem-ek-inhaber-ljulzim-bajraktari-de25554595",
+        "https://www.databyte.de/loesungen/firmensuche/firmenprofil/DE+DB65391080339+Muenchen-HRA-108711",
+        "https://www.goyellow.de/suche/maler/germering"
+      ],
+      "websiteStatus": "keine eigene Website gefunden",
+      "websiteRisk": "mittel"
+    },
+    {
+      "company": "ARBau",
+      "slug": "trockenbau-arbau-germering",
+      "trade": "Trockenbau, Akustikbau & Renovierung",
+      "city": "Germering",
+      "date": "2026-10-18",
+      "phone": "01517 1882872",
+      "email": "arbau.innenausbau@gmail.com",
+      "googleLink": "https://www.google.com/maps/search/?api=1&query=ARBau%20Streiflacher%20Str.%205c%20Germering",
+      "googleVerified": false,
+      "myhammerLink": "https://www.11880.com/suche/trockenbau/germering",
+      "myhammerRating": null,
+      "myhammerReviews": null,
+      "sources": [
+        "https://www.11880.com/suche/trockenbau/germering",
+        "https://www.11880.com/suche/akustikbau/germering",
+        "https://www.blauarbeit.de/handwerker/puchheim/arbau",
+        "https://anrufer.info/mobil/01517-188",
+        "https://ar-bau.de/kontakt.html"
+      ],
+      "websiteStatus": "keine eigene Website gefunden",
+      "websiteRisk": "niedrig"
+    },
+    {
+      "company": "Baukonzepte Hermann",
+      "slug": "baukonzepte-hermann-germering",
+      "trade": "Trockenbau, Malerarbeiten & Terrassenbau",
+      "city": "Germering",
+      "date": "2026-10-18",
+      "phone": "01515 5877525",
+      "email": "info.hermann.service@gmail.com",
+      "googleLink": "https://www.google.com/maps/search/?api=1&query=Baukonzepte%20Hermann%20Untere%20Bahnhofstr.%2056%20Germering",
+      "googleVerified": false,
+      "myhammerLink": "https://www.11880.com/suche/trockenbau/germering",
+      "myhammerRating": null,
+      "myhammerReviews": null,
+      "sources": [
+        "https://www.11880.com/suche/trockenbau/germering",
+        "https://www.11880.com/suche/entruempelung/germering",
+        "https://www.11880.com/suche/trockenbau/krailling",
+        "https://handyanrufe.de/rufnummer/01515/587"
+      ],
+      "websiteStatus": "keine eigene Website gefunden",
+      "websiteRisk": "mittel"
+    },
+    {
+      "company": "Mateusz Oryszczak",
+      "slug": "oryszczak-maler-putz-penzberg",
+      "trade": "Maler-, Putz- & Trockenbauarbeiten",
+      "city": "Penzberg",
+      "date": "2026-10-18",
+      "phone": "01520 6606478",
+      "email": null,
+      "googleLink": "https://www.google.com/maps/search/?api=1&query=Mateusz%20Oryszczak%20Poennensperchstr.%2018%20Penzberg",
+      "googleVerified": false,
+      "myhammerLink": "https://www.my-hammer.de/auftragnehmer/mateusz-oryszczak",
+      "myhammerRating": null,
+      "myhammerReviews": null,
+      "sources": [
+        "https://www.my-hammer.de/auftragnehmer/mateusz-oryszczak",
+        "https://www.my-hammer.de/malerarbeiten-tapezieren/maler-lackierer-berufe/penzberg",
+        "https://www.my-hammer.de/trockenbau-verputzen/trockenbauer-berufe/dietramszell?page=5",
+        "https://web2.cylex.de/suche/trockenbau/Penzberg",
+        "https://web2.cylex.de/branchen/malerbetriebe-und-tapezierarbeiten/Penzberg/",
+        "https://penzberg.stadtbranchenbuch.com/F/firmenverzeichnis.html"
+      ],
+      "websiteStatus": "keine eigene Website gefunden",
+      "websiteRisk": "mittel",
+      "reserve": true
+    },
+    {
+      "company": "Trockenbau Spehar",
+      "slug": "trockenbau-spehar-penzberg",
+      "trade": "Trockenbau",
+      "city": "Penzberg",
+      "date": "2026-10-18",
+      "phone": "0172 6492911",
+      "email": null,
+      "googleLink": "https://www.google.com/maps/search/?api=1&query=Trockenbau%20Spehar%20Am%20Haselberg%2025%20Penzberg",
+      "googleVerified": false,
+      "myhammerLink": "https://www.my-hammer.de/auftragnehmer/trockenbau-spehar",
+      "myhammerRating": null,
+      "myhammerReviews": null,
+      "sources": [
+        "https://www.my-hammer.de/auftragnehmer/trockenbau-spehar",
+        "https://www.my-hammer.de/trockenbau-verputzen/trockenbauer-berufe/penzberg",
+        "https://www.11880.com/branchenbuch/penzberg/292245417B113003236/trockenbau-spehar.html",
+        "https://www.dasoertliche.de/Themen/Trockenbau/Penzberg.html"
+      ],
+      "websiteStatus": "keine eigene Website gefunden",
+      "websiteRisk": "mittel",
+      "reserve": true
+    },
+    {
+      "company": "Antonio Di Venuta Fliesenleger",
+      "slug": "fliesenleger-di-venuta-herrsching",
+      "trade": "Fliesenleger",
+      "city": "Herrsching",
+      "date": "2026-10-18",
+      "phone": null,
+      "email": null,
+      "googleLink": "https://www.google.com/maps/search/?api=1&query=Antonio%20Di%20Venuta%20Fliesenleger%20Herrsching",
+      "googleVerified": false,
+      "myhammerLink": "https://www.my-hammer.de/boden-fliesen/fliesen-platten-mosaikleger-berufe/herrsching-am-ammersee",
+      "myhammerRating": 4.9,
+      "myhammerReviews": 12,
+      "sources": [
+        "https://www.my-hammer.de/boden-fliesen/fliesen-platten-mosaikleger-berufe/herrsching-am-ammersee",
+        "https://www.my-hammer.de/boden-fliesen/fliesen-platten-mosaikleger-berufe/poecking",
+        "https://www.my-hammer.de/boden-fliesen/fliesen-platten-mosaikleger-berufe/gauting",
+        "https://www.my-hammer.de/boden-fliesen/fliesen-platten-mosaikleger-berufe/seefeld",
+        "https://www.my-hammer.de/bauen-renovieren/steinmetz-berufe/seefeld",
+        "https://www.my-hammer.de/sanitaer/sanitaerinstallateur-berufe/andechs"
+      ],
+      "websiteStatus": "keine eigene Website gefunden",
+      "websiteRisk": "mittel",
+      "reserve": true
+    },
+    {
+      "company": "WIR WIR",
+      "slug": "maler-wir-wir-gauting",
+      "trade": "Maler & Lackierer",
+      "city": "Gauting",
+      "date": "2026-10-18",
+      "phone": null,
+      "email": null,
+      "googleLink": "https://www.google.com/maps/search/?api=1&query=WIR%20WIR%20Maler%20Gauting",
+      "googleVerified": false,
+      "myhammerLink": "https://www.my-hammer.de/malerarbeiten-tapezieren/maler-lackierer-berufe/gauting",
+      "myhammerRating": 4.9,
+      "myhammerReviews": 12,
+      "sources": [
+        "https://www.my-hammer.de/malerarbeiten-tapezieren/maler-lackierer-berufe/gauting",
+        "https://www.my-hammer.de/maler/gauting",
+        "https://www.my-hammer.de/malerarbeiten-tapezieren/maler-lackierer-berufe/germering"
+      ],
+      "websiteStatus": "keine eigene Website gefunden",
+      "websiteRisk": "mittel",
+      "reserve": true
+    },
+    {
+      "company": "BA-Haussanierungen",
+      "slug": "ba-haussanierungen-ottobrunn",
+      "trade": "Haussanierung, Trockenbau & Renovierung",
+      "city": "Ottobrunn",
+      "date": "2026-10-18",
+      "phone": "0173 6720675",
+      "email": "ba-haussanierungen@t-online.de",
+      "googleLink": "https://www.google.com/maps/search/?api=1&query=BA-Haussanierungen%20Am%20Brunneck%2010%20Ottobrunn",
+      "googleVerified": false,
+      "myhammerLink": "https://www.auftragsbank.de/firmen/ba-haussanierungen/107078",
+      "myhammerRating": null,
+      "myhammerReviews": null,
+      "sources": [
+        "https://www.11880.com/branchenbuch/ottobrunn/292245417B112523648/ba-haussanierungen.html",
+        "https://www.11880.com/suche/trockenbau/ottobrunn",
+        "https://www.gelbeseiten.de/gsbiz/89282df8-651f-4361-b91c-06a6b6a27165",
+        "https://www.auftragsbank.de/firmen/ba-haussanierungen/107078",
+        "https://www.auftragsbank.de/gesuche/haussanierungen-auftraege-gesucht-mit-wohnsitz-der-firma-in-muenche/177974",
+        "https://www.blauarbeit.de/handwerker/muenchen/ba-haussanierungen"
+      ],
+      "websiteStatus": "keine eigene Website gefunden",
+      "websiteRisk": "mittel"
+    },
+    {
+      "company": "Domi Garten- und Hausmeisterservice",
+      "slug": "gartenpflege-hausmeister-domi-ismaning",
+      "trade": "Gartenpflege & Hausmeisterservice",
+      "city": "Ismaning",
+      "date": "2026-10-18",
+      "phone": "01522 9783337",
+      "email": "domihgservice@gmail.com",
+      "googleLink": "https://www.google.com/maps/search/?api=1&query=Domi%20Garten%20und%20Hausmeisterservice%20Wiesstr.%2023%20Ismaning",
+      "googleVerified": false,
+      "myhammerLink": "https://www.11880.com/suche/gartenbau/ismaning",
+      "myhammerRating": null,
+      "myhammerReviews": null,
+      "sources": [
+        "https://www.11880.com/suche/gartenbau/ismaning",
+        "https://www.kleinanzeigen.de/s-anzeige/gartenpflege-in-muenchen-umgebung-schnell-guenstig-/3146033892-239-17192"
+      ],
+      "websiteStatus": "keine eigene Website gefunden",
+      "websiteRisk": "niedrig"
+    },
+    {
+      "company": "Theo-M.T.B",
+      "slug": "gartenbau-theo-mtb-neufahrn",
+      "trade": "Garten- und Landschaftsbau",
+      "city": "Neufahrn",
+      "date": "2026-10-18",
+      "phone": "0155 10087163",
+      "email": "theogartenbau89@gmail.com",
+      "googleLink": "https://www.google.com/maps/search/?api=1&query=Theo-M.T.B%20Georg-Stegschuster-Str.%201%20Neufahrn",
+      "googleVerified": false,
+      "myhammerLink": "https://www.11880.com/branchenbuch/neufahrn-bei-freising/170211840B113020867/theo-m-t-b.html",
+      "myhammerRating": null,
+      "myhammerReviews": null,
+      "sources": [
+        "https://www.11880.com/branchenbuch/neufahrn-bei-freising/170211840B113020867/theo-m-t-b.html",
+        "https://www.11880.com/suche/gartenbau/neufahrn"
+      ],
+      "websiteStatus": "keine eigene Website gefunden",
+      "websiteRisk": "mittel"
+    },
+    {
+      "company": "Baumpflege Kanka",
+      "slug": "baumpflege-kanka-neufahrn",
+      "trade": "Baumpflege & Pflasterarbeiten",
+      "city": "Neufahrn bei Freising",
+      "date": "2026-10-18",
+      "phone": "0176 37818492",
+      "email": "baumpflege-kanka@web.de",
+      "googleLink": "https://www.google.com/maps/search/?api=1&query=Baumpflege%20Kanka%20Bahnhofstr.%2042%20Neufahrn%20bei%20Freising",
+      "googleVerified": false,
+      "myhammerLink": "https://www.11880.com/branchenbuch/neufahrn-bei-freising/170210582B112542846/baumpflege-kanka.html",
+      "myhammerRating": null,
+      "myhammerReviews": null,
+      "sources": [
+        "https://www.11880.com/branchenbuch/neufahrn-bei-freising/170210582B112542846/baumpflege-kanka.html",
+        "https://www.11880.com/suche/baumpflege/neufahrn",
+        "https://suchehandwerker.de/betrieb/baumpflege-kanka-58997/"
+      ],
+      "websiteStatus": "keine eigene Website gefunden",
+      "websiteRisk": "niedrig"
+    },
+    {
+      "company": "Sbau Galabau",
+      "slug": "sbau-galabau-oberding",
+      "trade": "Garten- und Landschaftsbau",
+      "city": "Oberding",
+      "date": "2026-10-18",
+      "phone": "0172 6402400",
+      "email": null,
+      "googleLink": "https://www.google.com/maps/search/?api=1&query=Sbau%20Galabau%20Freisinger%20Str.%2076%20Oberding",
+      "googleVerified": false,
+      "myhammerLink": "https://www.11880.com/branchenbuch/oberding/170211840B108364472/sbau-galabau.html",
+      "myhammerRating": null,
+      "myhammerReviews": null,
+      "sources": [
+        "https://www.11880.com/branchenbuch/oberding/170211840B108364472/sbau-galabau.html",
+        "https://www.11880.com/suche/gartenbau/oberding",
+        "https://www.aroundhome.de/fachfirmen/firma/5d7fa90d1053275d35538cb2-1/",
+        "https://onlinestreet.de/strassen/Freisinger+Stra%C3%9Fe.Oberding.478731.html"
+      ],
+      "websiteStatus": "keine eigene Website gefunden",
+      "websiteRisk": "mittel"
+    },
+    {
+      "company": "Andrzej Jedraszczak Fliesenleger & Hausmeisterservice",
+      "slug": "fliesenleger-jedraszczak-karlsfeld",
+      "trade": "Fliesenleger & Hausmeisterservice",
+      "city": "Karlsfeld",
+      "date": "2026-10-18",
+      "phone": "01517 451358",
+      "email": null,
+      "googleLink": "https://www.google.com/maps/search/?api=1&query=Andrzej%20Jedraszczak%20Fliesenleger%20Karlsfeld",
+      "googleVerified": false,
+      "myhammerLink": "https://www.11880.com/suche/fliesenleger/karlsfeld",
+      "myhammerRating": null,
+      "myhammerReviews": null,
+      "sources": [
+        "https://www.11880.com/suche/fliesenleger/karlsfeld",
+        "https://www.11880.com/suche/hausmeisterservice/karlsfeld",
+        "https://www.11880.com/suche/hausservice/karlsfeld"
+      ],
+      "websiteStatus": "keine eigene Website gefunden",
+      "websiteRisk": "mittel",
+      "reserve": true
+    },
+    {
+      "company": "CM Trockenbau",
+      "slug": "trockenbau-cm-emmering",
+      "trade": "Trockenbau",
+      "city": "Emmering",
+      "date": "2026-10-18",
+      "phone": "0176 84644837",
+      "email": null,
+      "googleLink": "https://www.google.com/maps/search/?api=1&query=CM%20Trockenbau%20Mitterfeldweg%2011%20Emmering",
+      "googleVerified": false,
+      "myhammerLink": "https://www.11880.com/branchenbuch/emmering-kreis-fuerstenfeldbruck/292245417B102405971/cm-trockenbau.html",
+      "myhammerRating": null,
+      "myhammerReviews": null,
+      "sources": [
+        "https://www.11880.com/branchenbuch/emmering-kreis-fuerstenfeldbruck/292245417B102405971/cm-trockenbau.html",
+        "https://www.11880.com/suche/trockenbau/emmering",
+        "https://cm-trockenbau.at/impressum/"
+      ],
+      "websiteStatus": "keine eigene Website gefunden",
+      "websiteRisk": "mittel",
+      "reserve": true
+    },
+    {
+      "company": "Malsor Ceku – Bodenleger",
+      "slug": "bodenleger-ceku-germering",
+      "trade": "Bodenleger, Möbelmontage & Hausmeisterservice",
+      "city": "Germering",
+      "date": "2026-10-18",
+      "phone": "01573 3664453",
+      "email": null,
+      "googleLink": "https://www.google.com/maps/search/?api=1&query=Malsor%20Ceku%20Bodenleger%20Germering",
+      "googleVerified": false,
+      "myhammerLink": "https://handwerk.check24.de/craftsmen/cs/profile/sp_JBgx5",
+      "myhammerRating": null,
+      "myhammerReviews": null,
+      "sources": [
+        "https://handwerk.check24.de/craftsmen/cs/profile/sp_JBgx5",
+        "https://www.11880.com/suche/bodenleger/germering"
+      ],
+      "websiteStatus": "keine eigene Website gefunden",
+      "websiteRisk": "mittel",
+      "reserve": true
+    },
+    {
+      "company": "Roland Bodenleger",
+      "slug": "bodenleger-roland-hreniuc-neubiberg",
+      "trade": "Bodenleger, Fliesen & Trockenbau",
+      "city": "Neubiberg",
+      "date": "2026-10-18",
+      "phone": "0174 7391115",
+      "email": null,
+      "googleLink": "https://www.google.com/maps/search/?api=1&query=Roland%20Bodenleger%20Freiherr-von-Stengel-Str.%2010%20Neubiberg",
+      "googleVerified": false,
+      "myhammerLink": "https://www.blauarbeit.de/handwerker/muenchen/roland-hreniuc-boderleger",
+      "myhammerRating": null,
+      "myhammerReviews": null,
+      "sources": [
+        "https://www.blauarbeit.de/handwerker/muenchen/roland-hreniuc-boderleger",
+        "https://www.11880.com/suche/trockenbau/neubiberg",
+        "https://www.11880.com/suche/bodenleger/ottobrunn"
+      ],
+      "websiteStatus": "keine eigene Website gefunden",
+      "websiteRisk": "mittel",
+      "reserve": true
+    },
+    {
+      "company": "Koller Kraftbau",
+      "slug": "koller-kraftbau-eching",
+      "trade": "Trockenbau, Fenstereinbau & Baumdienst",
+      "city": "Eching",
+      "date": "2026-10-18",
+      "phone": "01512 8802043",
+      "email": "koller.kraftbau@gmail.com",
+      "googleLink": "https://www.google.com/maps/search/?api=1&query=Koller%20Kraftbau%20Fuchsbergstr.%2011a%20Eching",
+      "googleVerified": false,
+      "myhammerLink": "https://www.11880.com/suche/baumpflege/eching",
+      "myhammerRating": null,
+      "myhammerReviews": null,
+      "sources": [
+        "https://www.11880.com/suche/baumpflege/eching",
+        "https://www.11880.com/suche/trockenbau/eching"
+      ],
+      "websiteStatus": "keine eigene Website gefunden",
+      "websiteRisk": "mittel"
+    },
+    {
+      "company": "P&C InnoBau",
+      "slug": "bau-pc-innobau-unterschleissheim",
+      "trade": "Bau, Fliesen, Maler & Trockenbau",
+      "city": "Unterschleißheim",
+      "date": "2026-10-18",
+      "phone": "0176 16376264",
+      "email": "partetzke@mail.de",
+      "googleLink": "https://www.google.com/maps/search/?api=1&query=P%26C%20InnoBau%20Ganghoferstr.%2015%20Unterschlei%C3%9Fheim",
+      "googleVerified": false,
+      "myhammerLink": "https://www.11880.com/branchenbuch/unterschleissheim/290110615B112430402/p-c-innobau.html",
+      "myhammerRating": null,
+      "myhammerReviews": null,
+      "sources": [
+        "https://www.11880.com/branchenbuch/unterschleissheim/290110615B112430402/p-c-innobau.html",
+        "https://www.companyhouse.de/p/Jannik-Partetzke-CGcZgVjUr82YkwLydwLfEEiAQ0Q"
+      ],
+      "websiteStatus": "keine eigene Website gefunden",
+      "websiteRisk": "mittel"
+    },
+    {
+      "company": "Trockenbau-Brian",
+      "slug": "trockenbau-brian-kirchseeon",
+      "trade": "Trockenbau",
+      "city": "Kirchseeon",
+      "date": "2026-10-18",
+      "phone": "0176 62353089",
+      "email": null,
+      "googleLink": "https://www.google.com/maps/search/?api=1&query=Trockenbau-Brian%20Xaver-Hamberger-Weg%2017B%20Kirchseeon",
+      "googleVerified": false,
+      "myhammerLink": "https://www.11880.com/suche/trockenbau/kirchseeon",
+      "myhammerRating": null,
+      "myhammerReviews": null,
+      "sources": [
+        "https://www.11880.com/suche/trockenbau/kirchseeon",
+        "https://www.11880.com/suche/trockenbau/zorneding",
+        "https://rgv-bayern.de/kirchseeon/trockenbaubrian",
+        "https://restaurant-aris.de/trockenbau-brian-6645194111230694987/",
+        "https://www.firmenabc.com/u/trockenbau-brian_fsgmbb",
+        "http://www.az-deutschland.com/unternehmen/brian_trockenbau_ek_kirchseeon_by_wallnerstr_7",
+        "https://kirchseeon.branchen-info.net/fp_4573662.php"
+      ],
+      "websiteStatus": "keine eigene Website gefunden",
+      "websiteRisk": "mittel"
+    },
+    {
+      "company": "Forstner Dienstleistungen & mehr",
+      "slug": "forstner-dienstleistungen-landsberg",
+      "trade": "Hausmeisterservice, Garten- & Landschaftspflege, Entrümpelung",
+      "city": "Landsberg am Lech",
+      "date": "2026-10-18",
+      "phone": "01578 0584815",
+      "email": "forstner.dienstleistungen@web.de",
+      "googleLink": "https://www.google.com/maps/search/?api=1&query=Forstner%20Dienstleistungen%20Max-von-Eyth-Str.%205%20Landsberg%20am%20Lech",
+      "googleVerified": false,
+      "myhammerLink": "https://www.11880.com/suche/hausmeisterservice/landsberg",
+      "myhammerRating": null,
+      "myhammerReviews": null,
+      "sources": [
+        "https://www.11880.com/suche/hausmeisterservice/landsberg",
+        "https://11880.com/branchenbuch/landsberg-am-lech/hausmeisterservice"
+      ],
+      "websiteStatus": "keine eigene Website gefunden",
+      "websiteRisk": "mittel"
+    },
+    {
+      "company": "Horst Bieder Trockenbau",
+      "slug": "trockenbau-bieder-landsberg",
+      "trade": "Trockenbau",
+      "city": "Landsberg am Lech",
+      "date": "2026-10-18",
+      "phone": "08191 922118",
+      "email": null,
+      "googleLink": "https://www.google.com/maps/search/?api=1&query=Horst%20Bieder%20Trockenbau%20Christoph-Thomas-Scheffler-Str.%204%20Landsberg",
+      "googleVerified": false,
+      "myhammerLink": "https://www.11880.com/branchenbuch/landsberg-am-lech/292245417B100779310/horst-bieder-trockenbau.html",
+      "myhammerRating": null,
+      "myhammerReviews": null,
+      "sources": [
+        "https://www.11880.com/branchenbuch/landsberg-am-lech/292245417B100779310/horst-bieder-trockenbau.html",
+        "https://www.11880.com/suche/trockenbau/landsberg",
+        "https://firmania.de/landsberg/horst-bieder-trockenbau-623881",
+        "https://bauenwohnen.org/BY/landsberg/horst-bieder-trockenbau/",
+        "https://www.oeffnungszeitenbuch.de/filiale/Landsberg-Horst%2520Bieder%2520Trockenbau-3020908O.html"
+      ],
+      "websiteStatus": "keine eigene Website gefunden",
+      "websiteRisk": "mittel"
+    },
+    {
+      "company": "Gabriel Pantiru Hausmeisterservice & Trockenbau",
+      "slug": "hausmeisterservice-trockenbau-pantiru-geretsried",
+      "trade": "Hausmeisterservice & Trockenbau",
+      "city": "Geretsried",
+      "date": "2026-10-18",
+      "phone": "0173 6001746",
+      "email": null,
+      "googleLink": "https://www.google.com/maps/search/?api=1&query=Gabriel%20Pantiru%20Hausmeisterservice%20%26%20Trockenbau%20Max-Reger-Weg%206%20Geretsried",
+      "googleVerified": false,
+      "myhammerLink": "https://www.11880.com/suche/trockenbau/geretsried",
+      "myhammerRating": null,
+      "myhammerReviews": null,
+      "sources": [
+        "https://www.11880.com/suche/trockenbau/geretsried"
+      ],
+      "websiteStatus": "keine eigene Website gefunden",
+      "websiteRisk": "mittel",
+      "reserve": true
+    },
+    {
+      "company": "Marcin Liczberski Fliesenlegerei",
+      "slug": "fliesen-magier-liczberski-germering",
+      "trade": "Fliesenleger",
+      "city": "Germering",
+      "date": "2026-10-18",
+      "phone": "0177 1905202",
+      "email": null,
+      "googleLink": "https://www.google.com/maps/search/?api=1&query=Marcin%20Liczberski%20Fliesenlegerei%20Parkstr.%202%20Germering",
+      "googleVerified": false,
+      "myhammerLink": "https://www.11880.com/suche/fliesenleger/germering",
+      "myhammerRating": null,
+      "myhammerReviews": null,
+      "sources": [
+        "https://www.11880.com/suche/fliesenleger/germering",
+        "https://www.dasoertliche.de/?kw=Liczberski&ci=Germering",
+        "https://www.fliesenleger.net/"
+      ],
+      "websiteStatus": "keine eigene Website gefunden",
+      "websiteRisk": "mittel",
+      "reserve": true
+    },
+    {
+      "company": "BT-Trockenbau",
+      "slug": "bt-trockenbau-ottobrunn",
+      "trade": "Trockenbau",
+      "city": "Ottobrunn",
+      "date": "2026-10-18",
+      "phone": "0172 9536025",
+      "email": null,
+      "googleLink": "https://www.google.com/maps/search/?api=1&query=BT-Trockenbau%20Zeisigstr.%2014%20Ottobrunn",
+      "googleVerified": false,
+      "myhammerLink": "https://www.11880.com/suche/trockenbau/ottobrunn",
+      "myhammerRating": null,
+      "myhammerReviews": null,
+      "sources": [
+        "https://www.11880.com/suche/trockenbau/ottobrunn"
+      ],
+      "websiteStatus": "keine eigene Website gefunden",
+      "websiteRisk": "mittel",
+      "reserve": true
+    },
+    {
+      "company": "Malereibetrieb M S",
+      "slug": "malereibetrieb-m-s-garching",
+      "trade": "Maler",
+      "city": "Garching b. München",
+      "date": "2026-10-18",
+      "phone": "0176 84899607",
+      "email": null,
+      "googleLink": "https://www.google.com/maps/search/?api=1&query=Malereibetrieb%20M%20S%20R%C3%B6merhofweg%2049%20Garching%20b.%20M%C3%BCnchen",
+      "googleVerified": false,
+      "myhammerLink": "https://www.11880.com/suche/maler/garching-bei-muenchen",
+      "myhammerRating": null,
+      "myhammerReviews": null,
+      "sources": [
+        "https://www.11880.com/suche/maler/garching-bei-muenchen"
+      ],
+      "websiteStatus": "keine eigene Website gefunden",
+      "websiteRisk": "mittel",
+      "reserve": true
+    },
+    {
+      "company": "Nerim Bau UG (haftungsbeschränkt)",
+      "slug": "nerim-bau-erding",
+      "trade": "Innenausbau & Renovierung",
+      "city": "Erding",
+      "date": "2026-10-18",
+      "phone": "0160 8115169",
+      "email": null,
+      "googleLink": "https://www.google.com/maps/search/?api=1&query=Nerim%20Bau%20UG%20%28haftungsbeschr%C3%A4nkt%29%20Stefanstr.%2015%20Erding",
+      "googleVerified": false,
+      "myhammerLink": "https://www.11880.com/suche/trockenbau/erding",
+      "myhammerRating": null,
+      "myhammerReviews": null,
+      "sources": [
+        "https://www.11880.com/suche/trockenbau/erding",
+        "https://www.registercheck.de/"
+      ],
+      "websiteStatus": "keine eigene Website gefunden",
+      "websiteRisk": "mittel",
+      "reserve": true
     }
   ],
   "rejected": [
@@ -282,6 +1474,1001 @@
       "company": "Thalmair Ludwig Garten Landschaftsbau (Gauting)",
       "reason": "Reserve: keine Kontaktdaten öffentlich, GaLaBau schon vertreten",
       "date": "2026-10-17"
+    },
+    {
+      "company": "Malermeisterbetrieb Florian Finkel (Grafing)",
+      "reason": "eigene Website maler-finkel.de",
+      "date": "2026-10-18"
+    },
+    {
+      "company": "E S Gebäudereinigungen & Dienstleistungen (Ebersberg)",
+      "reason": "eigene Website e-s-gebaeudereinigung.de",
+      "date": "2026-10-18"
+    },
+    {
+      "company": "Gebäudeservice Peric (Ebersberg/Kirchseeon)",
+      "reason": "eigene Website peric-gbs.de",
+      "date": "2026-10-18"
+    },
+    {
+      "company": "Lugina Dienstleistungen GmbH (Vaterstetten)",
+      "reason": "GmbH",
+      "date": "2026-10-18"
+    },
+    {
+      "company": "Malerfachbetrieb Bekaj GmbH (Geretsried)",
+      "reason": "GmbH",
+      "date": "2026-10-18"
+    },
+    {
+      "company": "Christian Mahl Hausmeisterei & Entrümpelung (Hohenlinden)",
+      "reason": "über 100 Bewertungen",
+      "date": "2026-10-18"
+    },
+    {
+      "company": "Winkelbodenbeläge (Dachau)",
+      "reason": "eigene Website winkelbodenbelaege.de",
+      "date": "2026-10-18"
+    },
+    {
+      "company": "Handwerk Woller (München-Allach)",
+      "reason": "eigene Website handwerk-woller.de",
+      "date": "2026-10-18"
+    },
+    {
+      "company": "Schreinerei Adolf (Bergkirchen)",
+      "reason": "eigene Website schreinerei-stephan-adolf.de",
+      "date": "2026-10-18"
+    },
+    {
+      "company": "Reitstall Knott (Tutzing)",
+      "reason": "eigene Website reitstall-knott.de",
+      "date": "2026-10-18"
+    },
+    {
+      "company": "Reitstall Keller (Weßling)",
+      "reason": "eigene Website reitstall-keller.de",
+      "date": "2026-10-18"
+    },
+    {
+      "company": "Ponyhof Pflaumdorf (Eresing)",
+      "reason": "eigene Website, außerhalb",
+      "date": "2026-10-18"
+    },
+    {
+      "company": "Löfflerhof Friedinger (Berg-Farchach)",
+      "reason": "eigene Website loefflerhof.de",
+      "date": "2026-10-18"
+    },
+    {
+      "company": "Hofladen Seeger (Gilching)",
+      "reason": "E-Mail auf eigener Domain seegers-hofladen.de",
+      "date": "2026-10-18"
+    },
+    {
+      "company": "Said Sanitär + Heizung (Erding)",
+      "reason": "eigene Website said-sanitaerheizung.de",
+      "date": "2026-10-18"
+    },
+    {
+      "company": "Hausmeisterservice Toth (Moosburg)",
+      "reason": "eigene Website hausmeister-toth.com",
+      "date": "2026-10-18"
+    },
+    {
+      "company": "Stemmer's Hofladen (Niederding)",
+      "reason": "eigene Website stemmershofladen.de",
+      "date": "2026-10-18"
+    },
+    {
+      "company": "Strigl's Hofladen (Oberding)",
+      "reason": "eigene Website strigl-hofladen.de",
+      "date": "2026-10-18"
+    },
+    {
+      "company": "Bio-Hofladen Schneiderhof (Haimhausen)",
+      "reason": "Website bio-schneiderhof.de laut Verzeichnis",
+      "date": "2026-10-18"
+    },
+    {
+      "company": "Dilger's Hofladen (Jesenwang)",
+      "reason": "eigene Website dilgers-hofladen.de",
+      "date": "2026-10-18"
+    },
+    {
+      "company": "Geflügelhof Schweiger (Egenhofen)",
+      "reason": "eigene Website gefluegelhof-schweiger.de",
+      "date": "2026-10-18"
+    },
+    {
+      "company": "Joslhof Humersberg (Altomünster)",
+      "reason": "eigene Website",
+      "date": "2026-10-18"
+    },
+    {
+      "company": "Pferdepension Lindenhof (Röhrmoos)",
+      "reason": "eigene Website pferdepensionlindenhof.com",
+      "date": "2026-10-18"
+    },
+    {
+      "company": "Rainer & Petra Schöll (Röhrmoos)",
+      "reason": "Website gemuese-schoell.de",
+      "date": "2026-10-18"
+    },
+    {
+      "company": "Reindlhof (Röhrmoos)",
+      "reason": "Website reindlhof.de",
+      "date": "2026-10-18"
+    },
+    {
+      "company": "Alois Knab Sanitär-Heizung (Dachau)",
+      "reason": "eigene Website",
+      "date": "2026-10-18"
+    },
+    {
+      "company": "Dachdeckermeister Marko Sachon (Olching)",
+      "reason": "eigene Website dach-sachon.de",
+      "date": "2026-10-18"
+    },
+    {
+      "company": "Jansen Verlegung (Fürstenfeldbruck)",
+      "reason": "eigene Website jansen-verlegung.com",
+      "date": "2026-10-18"
+    },
+    {
+      "company": "E-FERIZI (Puchheim)",
+      "reason": "eigene Websites",
+      "date": "2026-10-18"
+    },
+    {
+      "company": "Haustechnik Günther (Maisach)",
+      "reason": "über 100 Bewertungen",
+      "date": "2026-10-18"
+    },
+    {
+      "company": "Brandl-Hof Martin Aschauer (Aßling)",
+      "reason": "Website brandl-hof.de",
+      "date": "2026-10-18"
+    },
+    {
+      "company": "Zum Bertenbauer (Dietramszell)",
+      "reason": "eigene Website zum-bertenbauer.de",
+      "date": "2026-10-18"
+    },
+    {
+      "company": "Münchner Malereibetrieb Roberto Biancu (Taufkirchen)",
+      "reason": "eigene Website dein-maler-muenchen.de",
+      "date": "2026-10-18"
+    },
+    {
+      "company": "SE Malermeisterbetrieb Sinan Ercan (München)",
+      "reason": "eigene Website malermeister-sinan.de",
+      "date": "2026-10-18"
+    },
+    {
+      "company": "Malerbetrieb Robert Radlsböck (München)",
+      "reason": "eigene Website",
+      "date": "2026-10-18"
+    },
+    {
+      "company": "Gil Fliesenleger (Wessobrunn)",
+      "reason": "eigene Website gilfliesenleger.de",
+      "date": "2026-10-18"
+    },
+    {
+      "company": "NL Exklusiv Hausmeisterservice (Weilheim)",
+      "reason": "eigene Website nl-exklusiv.de",
+      "date": "2026-10-18"
+    },
+    {
+      "company": "Naim Spahija Gebäudereinigung (Weilheim)",
+      "reason": "eigene Website",
+      "date": "2026-10-18"
+    },
+    {
+      "company": "Trockenbau Greinwald (Weilheim)",
+      "reason": "Website im Verzeichnis verlinkt",
+      "date": "2026-10-18"
+    },
+    {
+      "company": "Elektro Forstmair (Grafing)",
+      "reason": "eigene Website elektro-forstmair.de",
+      "date": "2026-10-18"
+    },
+    {
+      "company": "Kanzler's Hofladen (Kirchseeon)",
+      "reason": "Website kanzlers-hofladen.de",
+      "date": "2026-10-18"
+    },
+    {
+      "company": "Hofladen Schlacht (Glonn)",
+      "reason": "eigene Website hofladen-schlacht.de",
+      "date": "2026-10-18"
+    },
+    {
+      "company": "Milchautomat Obermoahof (Bruck)",
+      "reason": "eigene Website",
+      "date": "2026-10-18"
+    },
+    {
+      "company": "Nirschlhof (Grafing)",
+      "reason": "eigene Website nirschlhof.de",
+      "date": "2026-10-18"
+    },
+    {
+      "company": "Huberhof Kendlinger (Grafing)",
+      "reason": "eigene Website josef-kendlinger.de",
+      "date": "2026-10-18"
+    },
+    {
+      "company": "Pferdehof Anger (Grafing)",
+      "reason": "eigene Website pferdehofanger.com",
+      "date": "2026-10-18"
+    },
+    {
+      "company": "HuG Schulz (Egmating)",
+      "reason": "eigene Website hug-schulz.com",
+      "date": "2026-10-18"
+    },
+    {
+      "company": "Baum- und Gartenpflege Pietrzak (Oberpframmern)",
+      "reason": "eigene Website",
+      "date": "2026-10-18"
+    },
+    {
+      "company": "Fliesen Ünsal (Geretsried)",
+      "reason": "eigene Website fliesen-uensal.de",
+      "date": "2026-10-18"
+    },
+    {
+      "company": "Gartenservice Patzelt (Geretsried)",
+      "reason": "eigene Websites",
+      "date": "2026-10-18"
+    },
+    {
+      "company": "Malerbetrieb Ritschel (Wolfratshausen)",
+      "reason": "eigene Website thomas-ritschel.de",
+      "date": "2026-10-18"
+    },
+    {
+      "company": "Schreinerei Fuhrmann (Unterhaching)",
+      "reason": "eigene Website",
+      "date": "2026-10-18"
+    },
+    {
+      "company": "Bewegungsstall Zeilhofer (Hallbergmoos)",
+      "reason": "eigene Domain",
+      "date": "2026-10-18"
+    },
+    {
+      "company": "Geflügelhof Riedl (Kranzberg)",
+      "reason": "Website zumpeternhof.de",
+      "date": "2026-10-18"
+    },
+    {
+      "company": "Zwinglerhof (Allershausen)",
+      "reason": "eigene Domain zwingler.net",
+      "date": "2026-10-18"
+    },
+    {
+      "company": "Reitanlage Holzner (Freising)",
+      "reason": "Betreiberseite vorhanden",
+      "date": "2026-10-18"
+    },
+    {
+      "company": "Arold Hausmeisterservice (Freising)",
+      "reason": "kein Google-/Freemail-Beleg",
+      "date": "2026-10-18"
+    },
+    {
+      "company": "Zafer Elektrotechnik (Unterschleißheim)",
+      "reason": "eigene Website",
+      "date": "2026-10-18"
+    },
+    {
+      "company": "Malerbetrieb Mengütay (Oberschleißheim)",
+      "reason": "eigene Website",
+      "date": "2026-10-18"
+    },
+    {
+      "company": "Malermeisterbetrieb Yazar (Garching)",
+      "reason": "eigene Website",
+      "date": "2026-10-18"
+    },
+    {
+      "company": "Hatil Elektrotechnik (Trudering)",
+      "reason": "eigene Website",
+      "date": "2026-10-18"
+    },
+    {
+      "company": "Malereibetrieb Richter (Aschheim)",
+      "reason": "eigene Website",
+      "date": "2026-10-18"
+    },
+    {
+      "company": "Dragoti Fliesen (Dachau)",
+      "reason": "eigene Website dragoti.de",
+      "date": "2026-10-18"
+    },
+    {
+      "company": "Bentenrieder Hof (Hebertshausen)",
+      "reason": "eigene Website",
+      "date": "2026-10-18"
+    },
+    {
+      "company": "Malermeister Schöller (Petershausen)",
+      "reason": "eigene Website",
+      "date": "2026-10-18"
+    },
+    {
+      "company": "Farbdesign Mike Büttner",
+      "reason": "eigene Website",
+      "date": "2026-10-18"
+    },
+    {
+      "company": "Darweshi Fliesen",
+      "reason": "eigene Website",
+      "date": "2026-10-18"
+    },
+    {
+      "company": "BBM-Fliesenleger",
+      "reason": "eigene Website",
+      "date": "2026-10-18"
+    },
+    {
+      "company": "Roland Kaffl Malerbetrieb (Hausham)",
+      "reason": "Website roland-kaffl.de im Verzeichnis",
+      "date": "2026-10-18"
+    },
+    {
+      "company": "Geflügelhof Schaberl (Hausham)",
+      "reason": "eigene Website",
+      "date": "2026-10-18"
+    },
+    {
+      "company": "Taubenbergerhof (Weyarn)",
+      "reason": "eigene Website",
+      "date": "2026-10-18"
+    },
+    {
+      "company": "Hofbäckerei Steingraber (Feldkirchen-Westerham)",
+      "reason": "eigene Website",
+      "date": "2026-10-18"
+    },
+    {
+      "company": "Pischlhof (Valley)",
+      "reason": "eigene Website",
+      "date": "2026-10-18"
+    },
+    {
+      "company": "Grazienhof (Feldkirchen-Westerham)",
+      "reason": "eigene Website",
+      "date": "2026-10-18"
+    },
+    {
+      "company": "Trockenbau Seiwald (Gauting)",
+      "reason": "eigene Website",
+      "date": "2026-10-18"
+    },
+    {
+      "company": "Broslhof (Inning)",
+      "reason": "eigene Website",
+      "date": "2026-10-18"
+    },
+    {
+      "company": "Kellerhof (Gauting)",
+      "reason": "Online-Shop",
+      "date": "2026-10-18"
+    },
+    {
+      "company": "Hofladen Stuhlmiller (Pöcking)",
+      "reason": "aufgegeben",
+      "date": "2026-10-18"
+    },
+    {
+      "company": "Mario Trockenbau (Kaufering)",
+      "reason": "eigene Website mariobau.com",
+      "date": "2026-10-18"
+    },
+    {
+      "company": "Elektrotechnik Schauz (Friedberg)",
+      "reason": "eigene Website",
+      "date": "2026-10-18"
+    },
+    {
+      "company": "Malermeister Kölling (Kissing)",
+      "reason": "eigene Website",
+      "date": "2026-10-18"
+    },
+    {
+      "company": "Nietsch Maler (Mering)",
+      "reason": "eigene Website",
+      "date": "2026-10-18"
+    },
+    {
+      "company": "Riccardo Srock (Mering)",
+      "reason": "eigene Website",
+      "date": "2026-10-18"
+    },
+    {
+      "company": "AL-Elektrotechnik Hutterer (Mering)",
+      "reason": "Baukasten-Seite",
+      "date": "2026-10-18"
+    },
+    {
+      "company": "Biolandhof Büchler (Friedberg)",
+      "reason": "kein Google-/Freemail-Beleg, mögliche Familien-Website",
+      "date": "2026-10-18"
+    },
+    {
+      "company": "Gebäudeservice Schwab (Mering)",
+      "reason": "eigene Website",
+      "date": "2026-10-18"
+    },
+    {
+      "company": "Pferdepension Bauer (Aying)",
+      "reason": "Baukasten-Seite .de.tl",
+      "date": "2026-10-18"
+    },
+    {
+      "company": "Elektro Hammerschick (Hohenbrunn)",
+      "reason": "eigene Website",
+      "date": "2026-10-18"
+    },
+    {
+      "company": "Malermeister Promberger (Hohenbrunn)",
+      "reason": "eigene Website",
+      "date": "2026-10-18"
+    },
+    {
+      "company": "Malermeister Huber (Höhenkirchen)",
+      "reason": "eigene Website",
+      "date": "2026-10-18"
+    },
+    {
+      "company": "Rollladen Huber (Maisach)",
+      "reason": "eigene Website",
+      "date": "2026-10-18"
+    },
+    {
+      "company": "Dorn-Dienstleistungen (Erdweg)",
+      "reason": "eigene Website",
+      "date": "2026-10-18"
+    },
+    {
+      "company": "Malereibetrieb Bauer (Olching)",
+      "reason": "eigene Website",
+      "date": "2026-10-18"
+    },
+    {
+      "company": "Dreer Dienstleistungen (Olching)",
+      "reason": "eigene Website",
+      "date": "2026-10-18"
+    },
+    {
+      "company": "Fliesen Hopf (Dorfen)",
+      "reason": "eigene Website",
+      "date": "2026-10-18"
+    },
+    {
+      "company": "Maler Schwemmhuber (Neufahrn)",
+      "reason": "eigene Website",
+      "date": "2026-10-18"
+    },
+    {
+      "company": "Karimi SolarAutomation (Eching)",
+      "reason": "eigene Website",
+      "date": "2026-10-18"
+    },
+    {
+      "company": "Grabrucker Hausmeisterservice (Moosburg)",
+      "reason": "Website verlinkt",
+      "date": "2026-10-18"
+    },
+    {
+      "company": "Malerbetrieb Hack (Freising)",
+      "reason": "Domain hack-malerbetrieb.de",
+      "date": "2026-10-18"
+    },
+    {
+      "company": "Elektro Portenlänger (Sauerlach)",
+      "reason": "Website im Verzeichnis",
+      "date": "2026-10-18"
+    },
+    {
+      "company": "Fliesenleger Dörfler (Sauerlach)",
+      "reason": "eigene Website",
+      "date": "2026-10-18"
+    },
+    {
+      "company": "Fliesen Bauer (Sauerlach)",
+      "reason": "eigene Website",
+      "date": "2026-10-18"
+    },
+    {
+      "company": "Malerbetrieb Binder (Sauerlach)",
+      "reason": "eigene Website",
+      "date": "2026-10-18"
+    },
+    {
+      "company": "Maler Troisch (Sauerlach)",
+      "reason": "Domain-E-Mail",
+      "date": "2026-10-18"
+    },
+    {
+      "company": "Malermeister Schwaiger (Sauerlach)",
+      "reason": "Domain-E-Mail",
+      "date": "2026-10-18"
+    },
+    {
+      "company": "Schreinerei Bockmeir (Höhenkirchen)",
+      "reason": "eigene Website",
+      "date": "2026-10-18"
+    },
+    {
+      "company": "Josef Nehmer GWH (Höhenkirchen)",
+      "reason": "eigene Website",
+      "date": "2026-10-18"
+    },
+    {
+      "company": "Jürgen Kraus Fliesen (Höhenkirchen)",
+      "reason": "kein Google-/Freemail-Beleg",
+      "date": "2026-10-18"
+    },
+    {
+      "company": "Kardos Trockenbau (Weilheim)",
+      "reason": "eigene Website",
+      "date": "2026-10-18"
+    },
+    {
+      "company": "Amann Malerbetrieb (Weilheim)",
+      "reason": "eigene Website",
+      "date": "2026-10-18"
+    },
+    {
+      "company": "Ullmann Build & Design (Tutzing)",
+      "reason": "eigene Website",
+      "date": "2026-10-18"
+    },
+    {
+      "company": "Malermeister Röttcher (Tutzing)",
+      "reason": "eigene Website",
+      "date": "2026-10-18"
+    },
+    {
+      "company": "Malermeister Ahamer (Gröbenzell)",
+      "reason": "eigene Website",
+      "date": "2026-10-18"
+    },
+    {
+      "company": "Türen- und Parkettstudio Mering",
+      "reason": "eigene Website",
+      "date": "2026-10-18"
+    },
+    {
+      "company": "Bösl/EK/Bigiel Haustechnik (Mering)",
+      "reason": "eigene Websites",
+      "date": "2026-10-18"
+    },
+    {
+      "company": "Pfrieger Fliesen (Olching)",
+      "reason": "kein Google-/Freemail-Beleg",
+      "date": "2026-10-18"
+    },
+    {
+      "company": "Biechl Fliesen (Vaterstetten)",
+      "reason": "eigene Website",
+      "date": "2026-10-18"
+    },
+    {
+      "company": "RN Elektrotechnik (Unterhaching)",
+      "reason": "eigene Website",
+      "date": "2026-10-18"
+    },
+    {
+      "company": "Elektro Tremmel (Unterhaching)",
+      "reason": "eigene Website",
+      "date": "2026-10-18"
+    },
+    {
+      "company": "Maler Krechel (Markt Schwaben)",
+      "reason": "eigene Website",
+      "date": "2026-10-18"
+    },
+    {
+      "company": "Meister Amiri (Markt Schwaben)",
+      "reason": "eigene Website",
+      "date": "2026-10-18"
+    },
+    {
+      "company": "Nikos Heimwerkerservice (Neubiberg)",
+      "reason": "eigene Website",
+      "date": "2026-10-18"
+    },
+    {
+      "company": "Malermeister Bosch (Vaterstetten)",
+      "reason": "eigene Website",
+      "date": "2026-10-18"
+    },
+    {
+      "company": "Malereibetrieb Rath (Unterhaching)",
+      "reason": "eigene Website",
+      "date": "2026-10-18"
+    },
+    {
+      "company": "Mergim Kuci / Magic Colors (Karlsfeld)",
+      "reason": "eigene Website",
+      "date": "2026-10-18"
+    },
+    {
+      "company": "Malerei Höhne (Ismaning)",
+      "reason": "eigene Website",
+      "date": "2026-10-18"
+    },
+    {
+      "company": "Begaj Bau (Garching)",
+      "reason": "eigene Website",
+      "date": "2026-10-18"
+    },
+    {
+      "company": "Elektro Koch (Dachau)",
+      "reason": "eigene Website",
+      "date": "2026-10-18"
+    },
+    {
+      "company": "Riki Fliesenleger (Dachau)",
+      "reason": "eigene Domain",
+      "date": "2026-10-18"
+    },
+    {
+      "company": "H. Danahe Malerbetrieb (Germering)",
+      "reason": "eigene Website",
+      "date": "2026-10-18"
+    },
+    {
+      "company": "Mike Schlabs Maler (Germering)",
+      "reason": "eigene Domain",
+      "date": "2026-10-18"
+    },
+    {
+      "company": "Fliesen Bobaj / Fliesenleger Poing",
+      "reason": "eigene Website",
+      "date": "2026-10-18"
+    },
+    {
+      "company": "Farbenpracht Malermeister (Karlsfeld)",
+      "reason": "eigene Website",
+      "date": "2026-10-18"
+    },
+    {
+      "company": "Daniel Kirsten Elektrotechnik",
+      "reason": "eigene Website",
+      "date": "2026-10-18"
+    },
+    {
+      "company": "Malereibetrieb Blumoser (Poing)",
+      "reason": "eigene Website",
+      "date": "2026-10-18"
+    },
+    {
+      "company": "Maik Lindner Malerarbeiten (Poing)",
+      "reason": "eigene Website",
+      "date": "2026-10-18"
+    },
+    {
+      "company": "BLZMontage (Karlsfeld)",
+      "reason": ">50 Bewertungen, PV-Montage",
+      "date": "2026-10-18"
+    },
+    {
+      "company": "Mato Bauservice (Dachau)",
+      "reason": "eigene Website",
+      "date": "2026-10-18"
+    },
+    {
+      "company": "TK-Trockenbau Kraus (Dachau)",
+      "reason": "eigene Website",
+      "date": "2026-10-18"
+    },
+    {
+      "company": "Altenbuchinger Hausmeisterservice (Karlsfeld)",
+      "reason": "eigene Website",
+      "date": "2026-10-18"
+    },
+    {
+      "company": "Helmut Prommersberger Elektro (Hebertshausen)",
+      "reason": "Domain-E-Mail",
+      "date": "2026-10-18"
+    },
+    {
+      "company": "JL Hausmeisterservice (Karlsfeld)",
+      "reason": "eigene Website",
+      "date": "2026-10-18"
+    },
+    {
+      "company": "Hausmeisterei Fuchs (Karlsfeld)",
+      "reason": "eigene Website",
+      "date": "2026-10-18"
+    },
+    {
+      "company": "Ajan Trockenbau (Fürstenfeldbruck)",
+      "reason": "Website im Verzeichnis",
+      "date": "2026-10-18"
+    },
+    {
+      "company": "Tosic Trockenbau (Olching)",
+      "reason": "eigene Website",
+      "date": "2026-10-18"
+    },
+    {
+      "company": "Malermeister Duhm (Maisach)",
+      "reason": "eigene Website",
+      "date": "2026-10-18"
+    },
+    {
+      "company": "P&M Elektrotechnik (Gröbenzell)",
+      "reason": "eigene Website",
+      "date": "2026-10-18"
+    },
+    {
+      "company": "Trockenbau Wojtkow (Fürstenfeldbruck)",
+      "reason": "Domain-E-Mail",
+      "date": "2026-10-18"
+    },
+    {
+      "company": "Sefaj (Olching)",
+      "reason": "mögliche Google-Sites-Seite",
+      "date": "2026-10-18"
+    },
+    {
+      "company": "Sabit Fazliu Fliesen (Puchheim)",
+      "reason": "eigene Website",
+      "date": "2026-10-18"
+    },
+    {
+      "company": "Der Elektromeister Bayern (Germering)",
+      "reason": "eigene Domain",
+      "date": "2026-10-18"
+    },
+    {
+      "company": "Baulux Bauservice (Planegg)",
+      "reason": "eigene Website",
+      "date": "2026-10-18"
+    },
+    {
+      "company": "Konstantin Kiss Fliesen (Germering)",
+      "reason": "eigene Website",
+      "date": "2026-10-18"
+    },
+    {
+      "company": "Sanierung direkt Kopplin (Taufkirchen)",
+      "reason": "eigene Website",
+      "date": "2026-10-18"
+    },
+    {
+      "company": "L.s Hausmeisterservice (Haar)",
+      "reason": "eigene Website",
+      "date": "2026-10-18"
+    },
+    {
+      "company": "Armanazi Hausmeisterservice (Haar)",
+      "reason": ">100 Bewertungen",
+      "date": "2026-10-18"
+    },
+    {
+      "company": "Dula Trockenbau (Unterschleißheim)",
+      "reason": "eigene Website",
+      "date": "2026-10-18"
+    },
+    {
+      "company": "Sönmez Handwerk (Unterschleißheim)",
+      "reason": "eigene Website",
+      "date": "2026-10-18"
+    },
+    {
+      "company": "Schwagerbau (Unterschleißheim)",
+      "reason": "eigene Website",
+      "date": "2026-10-18"
+    },
+    {
+      "company": "Heiko Schneider Gartenbau (Neufahrn)",
+      "reason": "eigene Website",
+      "date": "2026-10-18"
+    },
+    {
+      "company": "Durmishi Bodenleger (Germering)",
+      "reason": "mögliche Website delta-kg.de (ungeklärt)",
+      "date": "2026-10-18"
+    },
+    {
+      "company": "Ronny Opitz Baudienstleistungen (Geretsried)",
+      "reason": "eigene Website",
+      "date": "2026-10-18"
+    },
+    {
+      "company": "Maler List (Wolfratshausen)",
+      "reason": "eigene Website",
+      "date": "2026-10-18"
+    },
+    {
+      "company": "FK Dienstleistungen (Geretsried)",
+      "reason": "eigene Website",
+      "date": "2026-10-18"
+    },
+    {
+      "company": "HG-Service Rupp (Taufkirchen/Vils)",
+      "reason": "eigene Website",
+      "date": "2026-10-18"
+    },
+    {
+      "company": "Martin Berg Hausmeisterservice (Isen)",
+      "reason": "eigene Website",
+      "date": "2026-10-18"
+    },
+    {
+      "company": "Malerbetrieb Eixenberger (Dorfen)",
+      "reason": "eigene Website",
+      "date": "2026-10-18"
+    },
+    {
+      "company": "Bytyqi Verputz (Dorfen)",
+      "reason": "eigene Website",
+      "date": "2026-10-18"
+    },
+    {
+      "company": "Fliesen Weber (Erding)",
+      "reason": "eigene Website",
+      "date": "2026-10-18"
+    },
+    {
+      "company": "Magnus von Terzi GaLaBau (Neufahrn)",
+      "reason": "eigene Website",
+      "date": "2026-10-18"
+    },
+    {
+      "company": "Syfra Hausmeisterdienste (Haar)",
+      "reason": "eigene Website",
+      "date": "2026-10-18"
+    },
+    {
+      "company": "MH-Dienstleistungen (Haar)",
+      "reason": "eigene Website",
+      "date": "2026-10-18"
+    },
+    {
+      "company": "HUG Brüderle (Olching)",
+      "reason": "eigene Website",
+      "date": "2026-10-18"
+    },
+    {
+      "company": "PATRIKETT Parkett (Germering)",
+      "reason": "eigene Website",
+      "date": "2026-10-18"
+    },
+    {
+      "company": "Robert Kreuch Wohnraumgestaltung (Puchheim)",
+      "reason": "eigene Website",
+      "date": "2026-10-18"
+    },
+    {
+      "company": "Maler Tomaselli (Eichenau)",
+      "reason": "eigene Website",
+      "date": "2026-10-18"
+    },
+    {
+      "company": "ZR-Bau (Puchheim)",
+      "reason": "eigene Website",
+      "date": "2026-10-18"
+    },
+    {
+      "company": "Renova-MUC (Olching)",
+      "reason": "Website mit gleicher Gmail",
+      "date": "2026-10-18"
+    },
+    {
+      "company": "Rudolf Paraj Baugewerbe (Unterschleißheim)",
+      "reason": "Domain-E-Mail",
+      "date": "2026-10-18"
+    },
+    {
+      "company": "Baumpflege Kramer (Neufahrn)",
+      "reason": "Domain baumpflege-kramer.de",
+      "date": "2026-10-18"
+    },
+    {
+      "company": "Hausmeisterservice Sykora (Ebersberg)",
+      "reason": "eigene Website",
+      "date": "2026-10-18"
+    },
+    {
+      "company": "KB Fliesen (Grafing)",
+      "reason": "eigene Website",
+      "date": "2026-10-18"
+    },
+    {
+      "company": "HMS-Ferencak (Poing)",
+      "reason": "eigene Website",
+      "date": "2026-10-18"
+    },
+    {
+      "company": "MS-Service Stern (Markt Schwaben)",
+      "reason": "eigene Website",
+      "date": "2026-10-18"
+    },
+    {
+      "company": "Spasic GaLaBau (Markt Schwaben)",
+      "reason": "eigene Website",
+      "date": "2026-10-18"
+    },
+    {
+      "company": "ZWINZ Hausmeisterei (Poing)",
+      "reason": "eigene Website",
+      "date": "2026-10-18"
+    },
+    {
+      "company": "Ruckzuck Entrümpelung (Grafing)",
+      "reason": "eigene Website",
+      "date": "2026-10-18"
+    },
+    {
+      "company": "Bavaria Entrümpelung (Grafing)",
+      "reason": "Domain-E-Mail",
+      "date": "2026-10-18"
+    },
+    {
+      "company": "die-clever-entrümpler (Grafing)",
+      "reason": "eigene Website",
+      "date": "2026-10-18"
+    },
+    {
+      "company": "A&M Fliesendesign (Landsberg)",
+      "reason": "eigene Website",
+      "date": "2026-10-18"
+    },
+    {
+      "company": "PERFEMO Elektrotechnik (Königsbrunn)",
+      "reason": "eigene Website",
+      "date": "2026-10-18"
+    },
+    {
+      "company": "Rimmer Hausmeisterservice (Landsberg)",
+      "reason": "eigene Website",
+      "date": "2026-10-18"
+    },
+    {
+      "company": "Renovierung El Kima (Ottobrunn)",
+      "reason": "eigene Website",
+      "date": "2026-10-18"
+    },
+    {
+      "company": "Pauls Hausmeisterservice (Kaufering)",
+      "reason": "eigene Website",
+      "date": "2026-10-18"
+    },
+    {
+      "company": "Kiechle Edle Räume (Geretsried)",
+      "reason": "eigene Website",
+      "date": "2026-10-18"
+    },
+    {
+      "company": "Rusnov Gebäudereinigung (Neuching)",
+      "reason": "eigene Website",
+      "date": "2026-10-18"
+    },
+    {
+      "company": "Zimmermann-Späth Hausmeisterei (Poing)",
+      "reason": "eigene Website",
+      "date": "2026-10-18"
+    },
+    {
+      "company": "Osterman Service (Poing)",
+      "reason": "Domain-E-Mail",
+      "date": "2026-10-18"
+    },
+    {
+      "company": "Lech Clean (Landsberg)",
+      "reason": "Domain-E-Mail",
+      "date": "2026-10-18"
     }
   ]
 }

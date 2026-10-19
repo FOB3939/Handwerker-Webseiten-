@@ -1,0 +1,398 @@
+{
+  "id": "2026-10-18-48",
+  "slug": "trockenbau-spehar-penzberg",
+  "date": "2026-10-18",
+  "company": {
+    "name": "Trockenbau Spehar",
+    "owner": null,
+    "trade": "Trockenbau",
+    "city": "Penzberg",
+    "address": "Am Haselberg 25, 82377 Penzberg",
+    "phone": "0172 6492911",
+    "email": null,
+    "serviceArea": [
+      "Penzberg",
+      "Starnberg",
+      "München",
+      "Weilheim"
+    ]
+  },
+  "listings": {
+    "google": {
+      "url": "https://www.google.com/maps/search/?api=1&query=Trockenbau%20Spehar%20Am%20Haselberg%2025%20Penzberg",
+      "rating": null,
+      "reviews": null,
+      "evidence": "NICHT VERIFIZIERT / indirekt – Suche mit allowed_domains google.com/google.de lieferte keinen Maps-Treffer; trustlocal-Suche ohne Eintrag. Vor Kontaktaufnahme in Google Maps prüfen: Existiert ein Eintrag, und ist KEINE Website hinterlegt?"
+    },
+    "myhammer": {
+      "url": "https://www.my-hammer.de/auftragnehmer/trockenbau-spehar",
+      "rating": null,
+      "reviews": null,
+      "evidence": "MyHammer-Profil „Profil von Trockenbau Spehar in Penzberg“ in Suchergebnissen belegt. Profiltext sinngemäß: dekorativer und konstruktiver Trockenbau, Dachausbau mit Dämmung, Spachtel-/Putzarbeiten Q1–Q4, Vorwandinstallationen, Rohrverkleidungen; Einsatz Penzberg, Starnberg, München, Weilheim (ca. 100 km). Gleicher Text erscheint als „S&K Trockenbau GbR“. Bewertungen nicht sichtbar – daher null."
+    }
+  },
+  "websiteStatus": "keine eigene Website gefunden",
+  "websiteChecks": [
+    "(1) „Trockenbau Spehar Penzberg“ (ohne MyHammer) – nur 11880-Eintrag und Penzberger Trockenbau-Verzeichnisse; „Impressum Spehar Penzberg Trockenbau Haselberg“ mit allen blocked_domains – kein Treffer zum Betrieb (nur Mile Spehar GmbH Hamburg, anderer Betrieb)",
+    "(2) Telefonsuche „0172 6492911“/„01726492911“ mit allen blocked_domains – nur Rufnummern-Blockseiten, keine Website",
+    "(3) Domainprüfung allowed_domains trockenbau-spehar.de, spehar-trockenbau.de, spehar.de, sk-trockenbau.de, sk-trockenbau-penzberg.de, trockenbau-penzberg.de – einziger Treffer sk-trockenbau.de = SK-Trockenbau GmbH in Schierling (Lkr. Regensburg), anderer Betrieb",
+    "(4) Impressum-Suche – kein eigenes Impressum gefunden",
+    "(5) Verzeichnisse: 11880 „Trockenbau Spehar“, Am Haselberg 25, 82377 Penzberg, Tel. 0172 6492911, Ansprechpartner „Heinz“, aktualisiert 11.07.2024, keine Bewertungen; weiterer Verzeichniseintrag „S&K Trockenbau GbR“ gleiche Adresse/Nummer – laut Snippets keine Website; E-Mail nicht sichtbar",
+    "(6) Kein Google-Maps-/Spiegel-Treffer – Website-Feld nicht prüfbar",
+    "Website-Risiko: mittel – alle Suchen negativ, aber kein Google-Beleg und keine Freemail"
+  ],
+  "facts": {
+    "services": [
+      "Dekorativer und konstruktiver Trockenbau",
+      "Dachausbau mit Dämmung",
+      "Spachtel- und Putzarbeiten Q1–Q4",
+      "Vorwandinstallationen",
+      "Rohrverkleidungen"
+    ],
+    "experience": null,
+    "praisedFor": []
+  },
+  "strategy": {
+    "audience": "Bauherren, Hauseigentümer und Renovierer zwischen Penzberg, Weilheim, Starnberg und München, die Dach ausbauen oder Räume neu aufteilen wollen",
+    "mainService": "Trockenbau und Dachausbau mit Dämmung",
+    "trustSignal": "Komplette Spachtelqualitäten Q1–Q4 – vom Rohbau bis zur glatten Endoberfläche",
+    "conversionGoal": "Per WhatsApp Grundriss/Fotos schicken und Angebot anfragen",
+    "visualConcept": "Klare Werk-Optik: Ständerwerk, Gipskarton, Dachschräge mit Dämmung – präzise Linien"
+  },
+  "sales": {
+    "score": 6,
+    "whyGoodLead": [
+      "Mobilnummer öffentlich gelistet – per WhatsApp erreichbar",
+      "Keine eigene Website gefunden, nur MyHammer und Verzeichnisse",
+      "Klares, gut vermarktbares Angebot (Dachausbau, Q1–Q4, Vorwand)",
+      "Großes Einsatzgebiet bis München – Website mit lokalen Seiten lohnt sich"
+    ],
+    "pitch": "Hallo, ich erstelle Websites für Handwerksbetriebe rund um Penzberg und Weilheim. Ich habe Ihr MyHammer-Profil gesehen – Trockenbau, Dachausbau mit Dämmung, Spachtelarbeiten bis Q4 –, aber keine eigene Website gefunden. Ich habe unverbindlich einen Entwurf vorbereitet. Darf ich Ihnen den Link schicken?"
+  },
+  "manualChecks": [
+    "RESERVE – weder Google-Eintrag noch Freemail-Adresse belegt: NUR versenden, wenn Google Maps einen Eintrag OHNE Website zeigt.",
+    "Website-Risiko: mittel – vor Versand in Google Maps prüfen, dass keine Website hinterlegt ist (Grund: kein Google-Eintrag gefunden, keine Freemail; alle Website-Suchen negativ)",
+    "Inhabername klären: 11880 nennt Ansprechpartner „Heinz“; Verhältnis zu „S&K Trockenbau GbR“ (gleiche Adresse/Nummer) klären und Firmennamen für die Seite bestätigen",
+    "Google-Eintrag in Maps suchen (Existenz, Bewertungen, Website-Feld)",
+    "MyHammer-Profil öffnen: Bewertungen nachtragen",
+    "Mobilnummer 0172 6492911 vor WhatsApp prüfen",
+    "Logo und Projektfotos beim Betrieb anfragen"
+  ],
+  "sources": [
+    {
+      "label": "MyHammer – Profil Trockenbau Spehar",
+      "url": "https://www.my-hammer.de/auftragnehmer/trockenbau-spehar"
+    },
+    {
+      "label": "MyHammer – Trockenbauer in Penzberg",
+      "url": "https://www.my-hammer.de/trockenbau-verputzen/trockenbauer-berufe/penzberg"
+    },
+    {
+      "label": "11880 – Trockenbau Spehar Penzberg",
+      "url": "https://www.11880.com/branchenbuch/penzberg/292245417B113003236/trockenbau-spehar.html"
+    },
+    {
+      "label": "Verzeichnisse Trockenbau Penzberg (S&K Trockenbau GbR)",
+      "url": "https://www.dasoertliche.de/Themen/Trockenbau/Penzberg.html"
+    }
+  ],
+  "site": {
+    "theme": "atelier",
+    "category": "handwerk",
+    "heroOffer": [
+      "Trockenbau",
+      "Dachausbau mit Dämmung",
+      "Spachteln Q1–Q4",
+      "Vorwandinstallation",
+      "Rohrverkleidung"
+    ],
+    "scene": "drywall",
+    "logoIcon": "house",
+    "logoMark": "TS",
+    "brandName": "Trockenbau Spehar",
+    "seoTitle": "Trockenbau in Penzberg – Trockenbau Spehar",
+    "seoDescription": "Trockenbau, Dachausbau mit Dämmung, Spachtelarbeiten Q1–Q4, Vorwandinstallationen und Rohrverkleidungen in Penzberg, Weilheim, Starnberg und München.",
+    "nav": [
+      {
+        "label": "Leistungen",
+        "href": "#leistungen"
+      },
+      {
+        "label": "Projekte",
+        "href": "#projekte"
+      },
+      {
+        "label": "Bewertungen",
+        "href": "#bewertungen"
+      },
+      {
+        "label": "Ablauf",
+        "href": "#ablauf"
+      },
+      {
+        "label": "FAQ",
+        "href": "#faq"
+      },
+      {
+        "label": "Kontakt",
+        "href": "#kontakt"
+      }
+    ],
+    "hero": {
+      "eyebrow": "Trockenbau · Penzberg",
+      "headline": "Trockenbau & Dachausbau in Penzberg – sauber gespachtelt bis Q4.",
+      "sub": "Trockenbau Spehar baut Wände, Dachgeschosse und Verkleidungen – mit Dämmung im Dach und Oberflächen von Q1 bis Q4. Im Einsatz von Penzberg bis Weilheim, Starnberg und München.",
+      "ctaPrimary": "Angebot anfragen",
+      "ctaSecondary": "Anrufen",
+      "bullets": [
+        "Dachausbau inkl. Dämmung",
+        "Spachtelqualitäten Q1–Q4",
+        "Einsatz im Umkreis von ca. 100 km"
+      ],
+      "imageLabel": "Dachgeschoss im Ausbau mit Gipskarton und Dämmung"
+    },
+    "badges": [
+      {
+        "title": "Dachausbau",
+        "sub": "mit Dämmung"
+      },
+      {
+        "title": "Q1–Q4",
+        "sub": "Spachtelqualitäten"
+      },
+      {
+        "title": "Vorwand",
+        "sub": "Installationswände"
+      },
+      {
+        "title": "Penzberg",
+        "sub": "Am Haselberg 25"
+      }
+    ],
+    "trust": [
+      {
+        "value": "Q1–Q4",
+        "label": "alle Spachtelstufen"
+      },
+      {
+        "value": "~100 km",
+        "label": "Einsatzgebiet"
+      },
+      {
+        "value": "5",
+        "label": "Leistungsbereiche"
+      },
+      {
+        "value": "Penzberg",
+        "label": "Sitz des Betriebs"
+      }
+    ],
+    "servicesIntro": {
+      "headline": "Trockenbau für Neubau, Ausbau und Sanierung",
+      "text": "Von der neuen Trennwand bis zum gedämmten Dachgeschoss – mit Oberflächen genau in der Qualität, die Ihr Projekt braucht."
+    },
+    "services": [
+      {
+        "title": "Konstruktiver Trockenbau",
+        "text": "Trennwände, Decken und Verkleidungen für neue Raumaufteilungen.",
+        "items": [
+          "Ständerwände",
+          "Abgehängte Decken",
+          "Verkleidungen"
+        ]
+      },
+      {
+        "title": "Dekorativer Trockenbau",
+        "text": "Nischen, Absätze und Gestaltungselemente aus Gipskarton.",
+        "items": [
+          "Nischen",
+          "Deckensprünge",
+          "Gestaltungselemente"
+        ]
+      },
+      {
+        "title": "Dachausbau mit Dämmung",
+        "text": "Aus dem Dachboden wird Wohnraum – gedämmt und beplankt.",
+        "items": [
+          "Dämmung",
+          "Beplankung",
+          "Dachschrägen"
+        ]
+      },
+      {
+        "title": "Spachtelarbeiten Q1–Q4",
+        "text": "Oberflächen von der Grundverspachtelung bis zur vollflächigen Q4-Qualität.",
+        "items": [
+          "Q1/Q2",
+          "Q3",
+          "Q4"
+        ]
+      },
+      {
+        "title": "Vorwandinstallationen",
+        "text": "Installationswände für Bad und WC.",
+        "items": [
+          "Bad",
+          "WC",
+          "Leitungsführung"
+        ]
+      },
+      {
+        "title": "Rohrverkleidungen",
+        "text": "Sichtbare Rohre und Leitungen sauber verschwinden lassen.",
+        "items": [
+          "Rohrkästen",
+          "Schachtverkleidung"
+        ]
+      }
+    ],
+    "why": {
+      "headline": "Präzise Wände, glatte Flächen.",
+      "points": [
+        {
+          "title": "Q1 bis Q4",
+          "text": "Spachtelqualität passend zu Anstrich, Tapete oder Streiflicht."
+        },
+        {
+          "title": "Dachausbau komplett",
+          "text": "Dämmung und Beplankung aus einer Hand."
+        },
+        {
+          "title": "Großes Einsatzgebiet",
+          "text": "Penzberg, Weilheim, Starnberg, München – im Umkreis von ca. 100 km."
+        },
+        {
+          "title": "Direkter Draht",
+          "text": "Anfrage einfach per Telefon oder WhatsApp."
+        }
+      ]
+    },
+    "reviews": {
+      "headline": "Was Kunden sagen",
+      "summary": "Trockenbau Spehar ist auf MyHammer gelistet. Kundenstimmen werden hier eingebunden, sobald sie übernommen sind.",
+      "highlights": [
+        "Dachausbau",
+        "Q1–Q4",
+        "Vorwandinstallation",
+        "Sitz in Penzberg"
+      ],
+      "source": "MyHammer",
+      "sourceUrl": "https://www.my-hammer.de/auftragnehmer/trockenbau-spehar",
+      "rating": null,
+      "count": null
+    },
+    "process": {
+      "headline": "In vier Schritten zum Ausbau",
+      "steps": [
+        {
+          "title": "Anfrage",
+          "text": "Grundriss oder Fotos per WhatsApp schicken."
+        },
+        {
+          "title": "Aufmaß",
+          "text": "Vor Ort messen und Details klären."
+        },
+        {
+          "title": "Angebot",
+          "text": "Klares Angebot inkl. gewünschter Spachtelqualität."
+        },
+        {
+          "title": "Ausbau",
+          "text": "Ständerwerk, Dämmung, Beplankung, Spachteln."
+        }
+      ]
+    },
+    "gallery": {
+      "headline": "Projekte",
+      "text": "Für die Live-Version zeigen wir hier echte Projekte des Betriebs.",
+      "items": [
+        {
+          "title": "Dachgeschoss",
+          "photoNeeded": "ausgebautes Dachgeschoss mit Dachschrägen"
+        },
+        {
+          "title": "Trennwand",
+          "photoNeeded": "neue Trockenbauwand im Rohbau"
+        },
+        {
+          "title": "Q4-Fläche",
+          "photoNeeded": "glatte Wand im Streiflicht"
+        },
+        {
+          "title": "Vorwand",
+          "photoNeeded": "Vorwandinstallation im Bad"
+        },
+        {
+          "title": "Deckengestaltung",
+          "photoNeeded": "abgehängte Decke mit Absatz"
+        }
+      ]
+    },
+    "region": {
+      "headline": "Trockenbau rund um Penzberg",
+      "text": "Von Penzberg aus im Einsatz in Weilheim, Starnberg und bis München – im Umkreis von ca. 100 km.",
+      "places": [
+        "Penzberg",
+        "Weilheim",
+        "Starnberg",
+        "München"
+      ]
+    },
+    "faq": [
+      {
+        "q": "Was bedeutet Q1 bis Q4?",
+        "a": "Das sind Qualitätsstufen der Spachtelung – von der Grundverspachtelung (Q1) bis zur vollflächig geglätteten Oberfläche (Q4)."
+      },
+      {
+        "q": "Bauen Sie auch Dachgeschosse aus?",
+        "a": "Ja, Dachausbau mit Dämmung gehört zum Angebot."
+      },
+      {
+        "q": "Machen Sie Vorwandinstallationen fürs Bad?",
+        "a": "Ja, Vorwandinstallationen und Rohrverkleidungen gehören dazu."
+      },
+      {
+        "q": "Wie weit fahren Sie?",
+        "a": "Laut Profil im Umkreis von etwa 100 km – u. a. Penzberg, Weilheim, Starnberg und München."
+      }
+    ],
+    "contact": {
+      "headline": "Angebot anfragen",
+      "text": "Kurz beschreiben, was gebaut werden soll – gern mit Grundriss oder Fotos.",
+      "topics": [
+        "Trockenbauwand",
+        "Dachausbau",
+        "Spachtelarbeiten",
+        "Vorwandinstallation",
+        "Rohrverkleidung",
+        "Sonstiges"
+      ],
+      "responseNote": "Aufmaß nach Absprache."
+    },
+    "quote": {
+      "sizeLabel": "Was soll gebaut werden?",
+      "sizes": [
+        "Einzelne Wand",
+        "Ein Raum",
+        "Dachgeschoss",
+        "Ganzer Ausbau"
+      ],
+      "timings": [
+        "So bald wie möglich",
+        "In den nächsten Wochen",
+        "In 1–3 Monaten",
+        "Ich plane erst noch"
+      ]
+    },
+    "stickyCta": "Angebot anfragen",
+    "look": {
+      "palette": 3,
+      "font": 6,
+      "hero": 2,
+      "services": 0,
+      "radius": 4,
+      "logo": 4,
+      "intro": 1
+    }
+  }
+}

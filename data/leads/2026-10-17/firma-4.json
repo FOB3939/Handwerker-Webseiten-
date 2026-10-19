@@ -398,6 +398,15 @@
         "sub": "München & Münchner Westen"
       }
     ],
-    "logoIcon": "plank"
+    "logoIcon": "plank",
+    "look": {
+      "palette": 1,
+      "font": 4,
+      "hero": 0,
+      "services": 1,
+      "radius": 2,
+      "logo": 4,
+      "intro": 5
+    }
   }
 }

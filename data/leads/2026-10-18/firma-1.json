@@ -1,0 +1,407 @@
+{
+  "id": "2026-10-18-1",
+  "slug": "jung-elektrotechnik-erding",
+  "date": "2026-10-18",
+  "company": {
+    "name": "Alexander Jung Elektrotechnik",
+    "owner": "Alexander Jung",
+    "trade": "Elektrotechnik",
+    "city": "Erding",
+    "address": "Dorfstr. 58, 85435 Erding (Siglfing)",
+    "phone": "01590 6835856",
+    "email": null,
+    "serviceArea": [
+      "Erding",
+      "Oberding",
+      "Moosinning",
+      "Bockhorn",
+      "Wartenberg",
+      "Freising"
+    ]
+  },
+  "listings": {
+    "google": {
+      "url": "https://www.google.com/maps/search/?api=1&query=Alexander%20Jung%20Elektrotechnik%20Erding",
+      "rating": null,
+      "reviews": null,
+      "evidence": "NICHT VERIFIZIERT – Google/Google Maps war aus der Recherche-Umgebung nicht erreichbar und die Websuche lieferte keinen Maps-Treffer. Vor Kontaktaufnahme manuell prüfen (auch: ist beim Eintrag eine Website hinterlegt?)."
+    },
+    "myhammer": {
+      "url": "https://www.my-hammer.de/elektrik/elektriker-berufe/erding",
+      "rating": 5,
+      "reviews": 5,
+      "evidence": "Auf der MyHammer-Ortsliste „Elektriker in Erding“ gelistet (5,0 bei 5 Bewertungen laut Suchindex). Profiltext: selbstständiger Elektromeister mit 10 Jahren Berufserfahrung. Direkte Profil-URL nicht ermittelt – Link führt auf die Ortsliste."
+    }
+  },
+  "websiteStatus": "keine eigene Website gefunden",
+  "websiteChecks": [
+    "(1) \"Alexander Jung Elektrotechnik\" exakt – nur fremde Treffer (Jobportale, Namensvettern), keine Website",
+    "(2) Name + Erding/Siglfing + Elektromeister mit blocked_domains (Verzeichnisse/Social) – nur andere Erdinger Elektrobetriebe, keine Website",
+    "(3) Telefon 01590 6835856 in 3 Schreibweisen – keine Treffer",
+    "(4) Domain alexander-jung-elektrotechnik.de / jung-elektrotechnik-erding.de / elektro-jung-erding.de per allowed_domains – keine Treffer",
+    "(5) 11880-Eintrag (Solaranlagen Erding): Adresse + Telefon, im Suchergebnis keine Website und keine E-Mail angezeigt",
+    "(6) \"Jung Elektrotechnik\" Erding Wallbox PV Impressum mit blocked_domains – nur gleichnamige Firmen in Solingen, Westerwald, Langenfeld, Extertal",
+    "Website-Risiko: mittel – alle Suchen negativ, aber kein harter Positivbeleg (Website-Feld im Verzeichnis nur indirekt leer)"
+  ],
+  "facts": {
+    "services": [
+      "Elektroinstallationen",
+      "Photovoltaik-Anlagen",
+      "Wallbox-Installation",
+      "Fehlersuche",
+      "Klingel- und Türsprechanlagen",
+      "Prüfung ortsfester Anlagen nach VDE",
+      "Prüfung ortsveränderlicher Geräte nach DGUV V3"
+    ],
+    "experience": "Laut MyHammer-Profil selbstständiger Elektromeister mit 10 Jahren Berufserfahrung",
+    "praisedFor": []
+  },
+  "strategy": {
+    "audience": "Hausbesitzer im Landkreis Erding mit PV-, Wallbox- oder Elektro-Vorhaben sowie Gewerbetreibende mit Prüfpflicht (DGUV V3)",
+    "mainService": "Photovoltaik, Wallbox und Elektroinstallation vom Meister",
+    "trustSignal": "Elektromeister, 10 Jahre Berufserfahrung, VDE- und DGUV-V3-Prüfungen, MyHammer-Bestnote",
+    "conversionGoal": "Rückruf / Vor-Ort-Termin anfragen",
+    "visualConcept": "Energie und Präzision: kräftige Volt-Akzente, technische Raster, Sonnen-/Strom-Motiv für PV und Wallbox"
+  },
+  "sales": {
+    "score": 7,
+    "whyGoodLead": [
+      "Elektromeister mit gefragten Themen (PV, Wallbox) – hohe lokale Suchnachfrage im Landkreis Erding",
+      "DGUV-V3-Prüfungen eröffnen wiederkehrende Gewerbekunden – dafür braucht es einen seriösen Webauftritt",
+      "Junges MyHammer-Profil mit Bestnote – Website kann Wachstum beschleunigen",
+      "Keine eigene Website gefunden, nur Plattform- und Verzeichniseinträge"
+    ],
+    "pitch": "Guten Tag Herr Jung, mein Name ist … – ich bin Webdesigner hier aus der Region. Ich habe Ihr MyHammer-Profil gesehen: Elektromeister, Photovoltaik, Wallbox und sogar DGUV-V3-Prüfungen – genau die Themen, nach denen Hausbesitzer und Betriebe rund um Erding gerade googeln. Weil ich keine eigene Website von Ihnen gefunden habe, habe ich Ihnen unverbindlich einen Entwurf gebaut. Darf ich Ihnen den kurz zeigen?"
+  },
+  "manualChecks": [
+    "Website-Risiko: mittel – vor Versand in Google Maps prüfen, dass keine Website hinterlegt ist",
+    "Google-Eintrag in Maps prüfen (Existenz, Bewertung, KEINE hinterlegte Website)",
+    "Domains alexander-jung-elektrotechnik.de, jung-elektrotechnik.de/-erding.de im Browser/WHOIS prüfen",
+    "Telefonnummer 01590 6835856 bestätigen (Quelle: 11880, nur Suchindex)",
+    "Direkte MyHammer-Profil-URL und aktuelle Bewertungszahl (5,0 / 5) ablesen; Zuordnung Profil ↔ 11880-Eintrag bestätigen",
+    "Meistertitel in der Handwerksrolle (HWK München und Oberbayern) prüfen",
+    "Echtes Logo: nicht gefunden – beim Inhaber als Datei anfragen"
+  ],
+  "sources": [
+    {
+      "label": "MyHammer – Elektriker Erding",
+      "url": "https://www.my-hammer.de/elektrik/elektriker-berufe/erding"
+    },
+    {
+      "label": "11880 – Photovoltaik Erding (Adresse, Telefon)",
+      "url": "https://www.11880.com/suche/photovoltaik/erding"
+    },
+    {
+      "label": "11880 – Photovoltaik Oberding",
+      "url": "https://www.11880.com/suche/photovoltaik/oberding"
+    }
+  ],
+  "site": {
+    "theme": "volt",
+    "scene": "electric",
+    "logoIcon": "bolt",
+    "logoMark": "AJ",
+    "brandName": "Jung Elektrotechnik",
+    "seoTitle": "Elektromeister in Erding – Alexander Jung Elektrotechnik",
+    "seoDescription": "Photovoltaik, Wallbox, Elektroinstallation und Prüfungen nach VDE & DGUV V3 vom Elektromeister aus Erding-Siglfing. Jetzt Rückruf anfragen.",
+    "nav": [
+      {
+        "label": "Leistungen",
+        "href": "#leistungen"
+      },
+      {
+        "label": "Über uns",
+        "href": "#ueber-uns"
+      },
+      {
+        "label": "Bewertungen",
+        "href": "#bewertungen"
+      },
+      {
+        "label": "Ablauf",
+        "href": "#ablauf"
+      },
+      {
+        "label": "FAQ",
+        "href": "#faq"
+      },
+      {
+        "label": "Kontakt",
+        "href": "#kontakt"
+      }
+    ],
+    "hero": {
+      "eyebrow": "Elektromeister · Erding-Siglfing",
+      "headline": "Ihr Strom. Vom Dach bis zur Steckdose.",
+      "sub": "Alexander Jung plant und installiert Photovoltaik, Wallboxen und Elektroanlagen – und prüft sie nach VDE und DGUV V3. Meisterqualität mit 10 Jahren Berufserfahrung, für Erding und den ganzen Landkreis.",
+      "ctaPrimary": "Rückruf anfragen",
+      "ctaSecondary": "Anrufen",
+      "bullets": [
+        "Photovoltaik und Wallbox aus einer Hand",
+        "Elektroinstallation, Fehlersuche und Klingelanlagen",
+        "Prüfungen nach VDE und DGUV V3 – mit Protokoll"
+      ],
+      "imageLabel": "PV-Anlage auf dem Einfamilienhaus mit Wallbox in der Garage"
+    },
+    "badges": [
+      {
+        "title": "Elektromeister",
+        "sub": "selbstständiger Meisterbetrieb"
+      },
+      {
+        "title": "PV & Wallbox",
+        "sub": "Sonnenstrom selbst nutzen"
+      },
+      {
+        "title": "DGUV V3",
+        "sub": "Geräteprüfung für Betriebe"
+      },
+      {
+        "title": "Erding",
+        "sub": "Sitz in Siglfing"
+      }
+    ],
+    "trust": [
+      {
+        "value": "10 Jahre",
+        "label": "Berufserfahrung als Elektriker"
+      },
+      {
+        "value": "Meister",
+        "label": "selbstständiger Elektromeister"
+      },
+      {
+        "value": "VDE",
+        "label": "Prüfung ortsfester Anlagen"
+      },
+      {
+        "value": "Erding",
+        "label": "Betrieb vor Ort in Siglfing"
+      }
+    ],
+    "servicesIntro": {
+      "headline": "Elektrotechnik, die mitdenkt",
+      "text": "Vom Solarmodul über die Ladestation bis zur Klingel: Sie bekommen alles aus einer Meisterhand – sauber installiert, geprüft und verständlich erklärt."
+    },
+    "services": [
+      {
+        "title": "Photovoltaik",
+        "text": "Eigener Strom vom eigenen Dach – fachgerecht angeschlossen und in Ihre Hausinstallation eingebunden.",
+        "items": [
+          "PV-Installation",
+          "Anschluss",
+          "Einbindung ins Hausnetz"
+        ]
+      },
+      {
+        "title": "Wallbox",
+        "text": "Laden Sie Ihr E-Auto zu Hause – sicher, schnell und passend zu Ihrer Anlage.",
+        "items": [
+          "Beratung",
+          "Montage",
+          "Anschluss"
+        ]
+      },
+      {
+        "title": "Elektroinstallation",
+        "text": "Neue Leitungen, Steckdosen und Verteilungen – für Neubau, Umbau und Sanierung.",
+        "items": [
+          "Installation",
+          "Erweiterung",
+          "Unterverteilung"
+        ]
+      },
+      {
+        "title": "Fehlersuche",
+        "text": "Sicherung fliegt, Licht flackert, Steckdose tot? Der Meister findet die Ursache.",
+        "items": [
+          "Störungsanalyse",
+          "Messung",
+          "Reparatur"
+        ]
+      },
+      {
+        "title": "Klingel- & Sprechanlagen",
+        "text": "Klingelanlagen und Türkommunikation – modern, zuverlässig, sauber montiert.",
+        "items": [
+          "Klingelanlage",
+          "Türsprechanlage",
+          "Austausch"
+        ]
+      },
+      {
+        "title": "Prüfungen VDE & DGUV V3",
+        "text": "Prüfung ortsfester Anlagen nach VDE und ortsveränderlicher Geräte nach DGUV V3 – mit Protokoll für Ihre Unterlagen.",
+        "items": [
+          "Anlagenprüfung",
+          "Geräteprüfung",
+          "Prüfprotokoll"
+        ]
+      }
+    ],
+    "why": {
+      "headline": "Ein Ansprechpartner. Meisterqualität. Kurze Wege.",
+      "points": [
+        {
+          "title": "Meister persönlich",
+          "text": "Sie sprechen direkt mit dem Elektromeister – vom ersten Anruf bis zur Übergabe."
+        },
+        {
+          "title": "10 Jahre Erfahrung",
+          "text": "Ein Jahrzehnt Praxis in der Elektrotechnik fließt in jede Installation ein."
+        },
+        {
+          "title": "Zukunft inklusive",
+          "text": "Photovoltaik und Wallbox gehören zum Kerngeschäft – nicht zum Nebenbei."
+        },
+        {
+          "title": "Geprüfte Sicherheit",
+          "text": "Prüfungen nach VDE und DGUV V3 sorgen für Sicherheit – zu Hause und im Betrieb."
+        }
+      ]
+    },
+    "reviews": {
+      "headline": "Bestnote auf MyHammer",
+      "summary": "Auf MyHammer wird Alexander Jung Elektrotechnik mit der Höchstnote bewertet. In der Live-Version zeigen wir hier ausgewählte Kundenstimmen.",
+      "highlights": [
+        "Höchstbewertung auf MyHammer",
+        "Elektromeister mit 10 Jahren Erfahrung",
+        "PV, Wallbox und Prüfungen aus einer Hand"
+      ],
+      "source": "MyHammer",
+      "sourceUrl": "https://www.my-hammer.de/elektrik/elektriker-berufe/erding",
+      "rating": 5,
+      "count": 5
+    },
+    "process": {
+      "headline": "In vier Schritten zur fertigen Anlage",
+      "steps": [
+        {
+          "title": "Anfrage",
+          "text": "Kurz beschreiben, worum es geht – PV, Wallbox, Störung oder Prüfung."
+        },
+        {
+          "title": "Rückruf & Termin",
+          "text": "Wir klären die Details und vereinbaren bei Bedarf einen Vor-Ort-Termin."
+        },
+        {
+          "title": "Angebot",
+          "text": "Sie erhalten ein klares, nachvollziehbares Angebot."
+        },
+        {
+          "title": "Umsetzung & Übergabe",
+          "text": "Fachgerechte Ausführung, Prüfung und Erklärung Ihrer Anlage."
+        }
+      ]
+    },
+    "gallery": {
+      "headline": "Projekte aus dem Landkreis Erding",
+      "text": "In der Live-Version zeigen wir hier echte Arbeiten – vom Solardach bis zur Prüfplakette.",
+      "items": [
+        {
+          "title": "Photovoltaik",
+          "photoNeeded": "PV-Module auf einem Hausdach im Landkreis Erding"
+        },
+        {
+          "title": "Wallbox",
+          "photoNeeded": "montierte Wallbox in Garage oder Carport"
+        },
+        {
+          "title": "Verteilung",
+          "photoNeeded": "sauber aufgebaute Unterverteilung"
+        },
+        {
+          "title": "Klingelanlage",
+          "photoNeeded": "neue Klingel-/Türsprechanlage am Hauseingang"
+        },
+        {
+          "title": "Prüfung",
+          "photoNeeded": "DGUV-V3-Geräteprüfung mit Messgerät und Prüfplakette"
+        }
+      ]
+    },
+    "region": {
+      "headline": "Elektromeister für Erding und den Landkreis",
+      "text": "Von Siglfing aus ist Alexander Jung in Erding, im ganzen Landkreis und bis nach Freising unterwegs – kurze Anfahrt, schnelle Termine.",
+      "places": [
+        "Erding",
+        "Oberding",
+        "Moosinning",
+        "Bockhorn",
+        "Wartenberg",
+        "Freising",
+        "Dorfen",
+        "Markt Schwaben"
+      ]
+    },
+    "faq": [
+      {
+        "q": "Installieren Sie Photovoltaik-Anlagen?",
+        "a": "Ja, Photovoltaik gehört zu den Schwerpunkten – inklusive Anschluss und Einbindung in Ihre Hausinstallation."
+      },
+      {
+        "q": "Kann ich bei Ihnen eine Wallbox installieren lassen?",
+        "a": "Ja. Wir beraten Sie, montieren die Wallbox und schließen sie fachgerecht an."
+      },
+      {
+        "q": "Prüfen Sie auch Geräte für Betriebe nach DGUV V3?",
+        "a": "Ja, ortsveränderliche Geräte werden nach DGUV V3 geprüft, ortsfeste Anlagen nach VDE – jeweils mit Protokoll."
+      },
+      {
+        "q": "Helfen Sie auch bei Störungen und kleinen Arbeiten?",
+        "a": "Ja, zum Beispiel bei der Fehlersuche oder beim Erneuern einer Klingelanlage."
+      },
+      {
+        "q": "Wo sind Sie im Einsatz?",
+        "a": "In Erding und im Landkreis, etwa in Oberding, Moosinning, Bockhorn, Wartenberg und Dorfen, sowie in Freising."
+      }
+    ],
+    "contact": {
+      "headline": "Projekt im Kopf? Der Meister meldet sich.",
+      "text": "Beschreiben Sie kurz Ihr Vorhaben – ob PV-Anlage, Wallbox, Störung oder Prüfung. Sie bekommen einen Rückruf mit Terminvorschlag.",
+      "topics": [
+        "Photovoltaik",
+        "Wallbox",
+        "Elektroinstallation",
+        "Fehlersuche / Störung",
+        "Klingel- / Sprechanlage",
+        "Prüfung VDE / DGUV V3",
+        "Sonstiges"
+      ],
+      "responseNote": "Rückruf nach Absprache."
+    },
+    "quote": {
+      "sizeLabel": "Worum geht es?",
+      "sizes": [
+        "Störung / kleine Reparatur",
+        "Wallbox",
+        "Photovoltaik-Anlage",
+        "Installation Raum / Haus",
+        "Geräte- / Anlagenprüfung"
+      ],
+      "timings": [
+        "Dringend",
+        "In den nächsten Wochen",
+        "In 1–3 Monaten",
+        "Ich plane erst noch"
+      ]
+    },
+    "stickyCta": "Rückruf anfragen",
+    "category": "handwerk",
+    "heroOffer": [
+      "Photovoltaik",
+      "Wallbox",
+      "Elektroinstallation",
+      "Fehlersuche"
+    ],
+    "look": {
+      "palette": 2,
+      "font": 4,
+      "hero": 2,
+      "services": 2,
+      "radius": 4,
+      "logo": 2,
+      "intro": 3
+    }
+  }
+}

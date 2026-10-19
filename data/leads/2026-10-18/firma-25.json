@@ -1,0 +1,401 @@
+{
+  "id": "2026-10-18-25",
+  "slug": "hofladen-senftl-moosburg",
+  "date": "2026-10-18",
+  "company": {
+    "name": "Senftl's Hofladen",
+    "owner": "Reinhold und Jutta Senftl",
+    "trade": "Hofladen / Direktvermarktung",
+    "city": "Moosburg an der Isar",
+    "address": "Kochbauerstraße 1a, 85368 Moosburg an der Isar (Ortsteil Aich)",
+    "phone": "08761 63838",
+    "email": "jutta.senftl@web.de",
+    "serviceArea": [
+      "Moosburg an der Isar",
+      "Aich",
+      "Freising",
+      "Langenbach",
+      "Wang",
+      "Gammelsdorf",
+      "Mauern"
+    ]
+  },
+  "listings": {
+    "google": {
+      "url": "https://www.google.com/maps/search/?api=1&query=Senftl%27s%20Hofladen%20Kochbauerstra%C3%9Fe%201a%20Moosburg",
+      "rating": null,
+      "reviews": null,
+      "evidence": "NICHT VERIFIZIERT – die Websuche mit allowed_domains google.com/google.de lieferte keinen Maps-Treffer, und auch keine Spiegel-Seite mit Google-Bewertungen. Vor Kontakt in Google Maps prüfen, ob ein Eintrag existiert und dass KEINE Website hinterlegt ist. Der Betrieb wird trotzdem vorgeschlagen, weil die Website-Belege sehr stark sind (Freemail-Adresse jutta.senftl@web.de, alle Domain-, Telefon- und Impressum-Suchen ohne Treffer)."
+    },
+    "myhammer": {
+      "url": "https://www.regionales-bayern.de/anbieter/senftls-hofladen-11892/",
+      "rating": null,
+      "reviews": null,
+      "evidence": "Kein MyHammer – Eintrag „Senftl's Hofladen“ auf regionales-bayern.de: Kontakt Reinhold und Jutta Senftl, Kochbauerstraße 1a, Moosburg, Tel. 08761 63838, E-Mail jutta.senftl@web.de; Eier, Honig, Kartoffeln, saisonales Obst, Obst- und Gemüseverarbeitung nach Jahreszeit; Anfahrt über die A92, Ausfahrt Moosburg-Süd. Weitere Einträge: mein-bauernhof.de, hofladen-finden.de, fs-live.de-Branchenbuch, Liveblatt Region Freising, onlinestreet.de, Händlerliste von vitanina.de; Mitglied bei „Einkaufen auf dem Bauernhof“. In keinem Eintrag ist eine Website genannt, Bewertungen sind nicht belegt."
+    }
+  },
+  "websiteStatus": "keine eigene Website gefunden",
+  "websiteChecks": [
+    "(1) „Senftl's Hofladen Moosburg Kochbauerstraße“ mit blocked_domains (11880, Gelbe Seiten, Das Örtliche, Das Telefonbuch, Cylex, meinestadt, Creditreform, Facebook, Instagram, golocal, MyHammer, Northdata, Firmenwissen, werkenntdenbesten, Yelp, trustlocal, wlw): nur Portale (regionales-bayern.de, mein-bauernhof.de, hofladen-finden.de, fs-live.de, liveblatt.de, onlinestreet.de, vitanina.de, einkaufen-auf-dem-bauernhof.com) – keine eigene Domain.",
+    "(2) Telefonsuche „08761 63838“ / „08761/63838“ Senftl mit denselben blocked_domains: nur regionales-bayern.de, fs-live.de und Liveblatt Region Freising – keine Website.",
+    "(3) Domainprüfung per allowed_domains senftls-hofladen.de, senftl-hofladen.de, hofladen-senftl.de, senftl.de, senftlhof.de, senftl-moosburg.de, senftls.de, hof-senftl.de: einziger Treffer senftl.de = Autohaus Senftl GmbH (Opel, Langenpreising) – fremder Betrieb, kein Bezug zum Hofladen.",
+    "(4) Impressum-Suche „Impressum Reinhold Senftl Jutta Senftl Moosburg Aich“: nur Hofladen-Portale und Impressen örtlicher Vereine (HSV Moosburg-Aich, EV Aich, SC Moosburg) – kein eigenes Impressum.",
+    "(5) Verzeichniseinträge: kein Website-Feld genannt; E-Mail jutta.senftl@web.de = Freemail (starkes Indiz für keine eigene Domain).",
+    "(6) Google: Suche mit allowed_domains google.com/google.de ohne Maps-Treffer; „Senftl's Hofladen“ Bewertungen: keine Bewertungsseite gefunden – daher kein Website-Feld sichtbar, aber auch kein Google-Beleg."
+  ],
+  "facts": {
+    "services": [
+      "Frische Eier (täglich für Selbstabholer)",
+      "Kartoffeln",
+      "Honig",
+      "Saisonales Obst",
+      "Obst- und Gemüseverarbeitung nach Jahreszeit",
+      "Hofladen freitags 13–18 Uhr"
+    ],
+    "experience": null,
+    "praisedFor": []
+  },
+  "strategy": {
+    "audience": "Familien und Pendler in Moosburg, Aich und den Nachbarorten an der A92, die Eier, Kartoffeln und Honig direkt vom Hof kaufen möchten",
+    "mainService": "Frische Eier und Kartoffeln direkt vom Hof, dazu Honig und saisonales Obst",
+    "trustSignal": "Familienbetrieb Senftl, Mitglied bei „Einkaufen auf dem Bauernhof“, in mehreren regionalen Hofladen-Verzeichnissen gelistet",
+    "conversionGoal": "Besuch am Freitag im Hofladen bzw. Eier-Abholung; Vorbestellung per Telefon oder Formular",
+    "visualConcept": "Warm und ländlich: Eierkorb, Kartoffelsack und Honiggläser auf Holz, Hofeinfahrt in Aich im Abendlicht"
+  },
+  "sales": {
+    "score": 6,
+    "whyGoodLead": [
+      "Nur in Hofladen-Portalen sichtbar, keine eigene Website, Freemail-Adresse",
+      "Verkaufszeiten sind in den Portalen uneinheitlich (Freitag vs. täglich Eier) – eine eigene Seite schafft Klarheit",
+      "Lage direkt an der A92-Ausfahrt Moosburg-Süd – Pendler sind eine gute Zielgruppe für Online-Sichtbarkeit",
+      "Mitglied bei „Einkaufen auf dem Bauernhof“ – offen für Direktvermarktung und Marketing"
+    ],
+    "pitch": "Grüß Gott Frau Senftl, mein Name ist … – ich mache Websites für Hofläden im Landkreis Freising. Ich habe Ihren Hofladen in Aich auf regionales-bayern.de gefunden: frische Eier, Kartoffeln, Honig und Obst, freitags geöffnet. Eine eigene Seite, auf der Kunden Öffnungszeiten und Angebot sofort sehen, gibt es aber noch nicht. Ich habe unverbindlich einen Entwurf vorbereitet – darf ich Ihnen den Link schicken?"
+  },
+  "manualChecks": [
+    "Website-Risiko: niedrig – vor Versand in Google Maps prüfen, dass keine Website hinterlegt ist (Grund: Freemail-Adresse jutta.senftl@web.de, alle Domain-, Telefon- und Impressum-Suchen negativ; Google-Eintrag aber nicht belegt)",
+    "Google-Eintrag in Maps suchen (Existenz, Bewertungen) – bisher kein Beleg",
+    "Postleitzahl klären: Einträge nennen 85368 und 85360 (Aich)",
+    "Öffnungszeiten bestätigen: Hofladen Freitag 13–18 Uhr; „täglich frische Eier für Selbstabholer“ – wie genau (Kasse, Automat, Klingeln?)",
+    "Sortiment bestätigen: einzelne Verzeichnisse nennen zusätzlich Spirituosen und Bio-Produkte sowie Vitanina-Produkte – nicht auf der Seite verwendet",
+    "Fotos vom Hof und Hofladen beim Betrieb anfragen"
+  ],
+  "sources": [
+    {
+      "label": "Regionales Bayern – Senftl's Hofladen",
+      "url": "https://www.regionales-bayern.de/anbieter/senftls-hofladen-11892/"
+    },
+    {
+      "label": "Mein Bauernhof – Senftl's Hofladen",
+      "url": "https://www.mein-bauernhof.de/verkaufstelle/senftls-hofladen-872197/"
+    },
+    {
+      "label": "hofladen-finden.de – Senftl's Hofladen",
+      "url": "https://www.hofladen-finden.de/verkauf/senftls-hofladen/"
+    },
+    {
+      "label": "FS-live Branchenbuch – Senftl's Hofladen",
+      "url": "https://www.fs-live.de/branchenbuch?eintrag=5217"
+    },
+    {
+      "label": "onlinestreet.de – Hofladen Senftl",
+      "url": "https://onlinestreet.de/poi/Zlh2RE9QWjJkcUpPcUdEVHZGWmcydz09"
+    },
+    {
+      "label": "vitanina.de – Händler Senftl's Hofladen",
+      "url": "https://www.vitanina.de/haendler/senftls-hofladen/"
+    },
+    {
+      "label": "hofladen-bauernladen.info – Direktvermarkter Moosburg",
+      "url": "https://www.hofladen-bauernladen.info/in/moosburg-an-der-isar/2477"
+    }
+  ],
+  "site": {
+    "theme": "hof",
+    "category": "hof",
+    "scene": "farm",
+    "heroOffer": [
+      "Frische Eier",
+      "Kartoffeln",
+      "Honig",
+      "Saisonales Obst",
+      "Eingemachtes nach Saison"
+    ],
+    "hours": [
+      {
+        "label": "Hofladen Freitag",
+        "value": "13–18 Uhr"
+      },
+      {
+        "label": "Eier für Selbstabholer",
+        "value": "täglich"
+      }
+    ],
+    "quote": {
+      "sizeLabel": "Was dürfen wir für Sie zurücklegen?",
+      "sizes": [
+        "Eier",
+        "Kartoffeln",
+        "Honig",
+        "Obst der Saison",
+        "Gemischter Einkauf"
+      ],
+      "timings": [
+        "Diesen Freitag",
+        "Nächste Woche",
+        "Regelmäßig",
+        "Nach Absprache"
+      ]
+    },
+    "badges": [
+      {
+        "title": "Frische Eier",
+        "sub": "täglich für Selbstabholer"
+      },
+      {
+        "title": "Freitag",
+        "sub": "Hofladen 13–18 Uhr"
+      },
+      {
+        "title": "Einkaufen auf dem Bauernhof",
+        "sub": "Mitgliedsbetrieb"
+      },
+      {
+        "title": "Aich",
+        "sub": "nahe A92 Moosburg-Süd"
+      }
+    ],
+    "seoTitle": "Senftl's Hofladen in Moosburg-Aich – Eier, Kartoffeln & Honig vom Hof",
+    "seoDescription": "Frische Eier, Kartoffeln, Honig und saisonales Obst direkt vom Hof: Senftl's Hofladen in Moosburg-Aich, Kochbauerstraße 1a. Hofladen freitags 13–18 Uhr.",
+    "logoMark": "S",
+    "brandName": "Senftl's Hofladen",
+    "logoIcon": "barn",
+    "nav": [
+      {
+        "label": "Angebot",
+        "href": "#leistungen"
+      },
+      {
+        "label": "Hof",
+        "href": "#projekte"
+      },
+      {
+        "label": "Ablauf",
+        "href": "#ablauf"
+      },
+      {
+        "label": "Region",
+        "href": "#region"
+      },
+      {
+        "label": "FAQ",
+        "href": "#faq"
+      },
+      {
+        "label": "Kontakt",
+        "href": "#kontakt"
+      }
+    ],
+    "hero": {
+      "eyebrow": "Hofladen · Moosburg-Aich",
+      "headline": "Frische Eier, Kartoffeln & Honig direkt vom Hof in Moosburg-Aich.",
+      "sub": "Bei Familie Senftl in der Kochbauerstraße gibt es frische Eier für Selbstabholer, Kartoffeln, Honig und Obst der Saison – freitags von 13 bis 18 Uhr im Hofladen.",
+      "ctaPrimary": "Vorbestellen",
+      "ctaSecondary": "Anfahrt & Zeiten",
+      "bullets": [
+        "Frische Eier für Selbstabholer",
+        "Kartoffeln, Honig und saisonales Obst",
+        "Nur wenige Minuten von der A92-Ausfahrt Moosburg-Süd"
+      ],
+      "imageLabel": "Eierkorb, Kartoffeln und Honiggläser im Hofladen in Aich"
+    },
+    "trust": [
+      {
+        "value": "Freitag",
+        "label": "13–18 Uhr Hofladen"
+      },
+      {
+        "value": "Täglich",
+        "label": "frische Eier für Selbstabholer"
+      },
+      {
+        "value": "Saisonal",
+        "label": "Obst und Eingemachtes"
+      },
+      {
+        "value": "Aich",
+        "label": "Kochbauerstraße 1a"
+      }
+    ],
+    "servicesIntro": {
+      "headline": "Unser Angebot vom Hof",
+      "text": "Ehrliche Lebensmittel aus Aich – was der Hof gerade hergibt, bekommen Sie bei uns direkt."
+    },
+    "services": [
+      {
+        "title": "Frische Eier",
+        "text": "Frische Eier vom Hof – täglich für Selbstabholer.",
+        "items": [
+          "Eier für Selbstabholer",
+          "Größere Mengen nach Vorbestellung"
+        ]
+      },
+      {
+        "title": "Kartoffeln",
+        "text": "Kartoffeln für die Küche zu Hause – einfach im Hofladen mitnehmen.",
+        "items": [
+          "Kartoffeln",
+          "Vorbestellung möglich"
+        ]
+      },
+      {
+        "title": "Honig",
+        "text": "Honig im Glas – ein Klassiker im Hofladen.",
+        "items": [
+          "Honig"
+        ]
+      },
+      {
+        "title": "Obst der Saison",
+        "text": "Was gerade reif ist, kommt in den Laden – je nach Jahreszeit.",
+        "items": [
+          "Saisonales Obst"
+        ]
+      },
+      {
+        "title": "Eingemachtes nach Saison",
+        "text": "Obst und Gemüse werden je nach Jahreszeit verarbeitet.",
+        "items": [
+          "Obstverarbeitung",
+          "Gemüseverarbeitung"
+        ]
+      }
+    ],
+    "why": {
+      "headline": "Warum Kunden bei uns einkaufen",
+      "points": [
+        {
+          "title": "Direkt vom Hof",
+          "text": "Sie kaufen dort, wo die Lebensmittel herkommen – ohne Umweg über den Supermarkt."
+        },
+        {
+          "title": "Eier jeden Tag",
+          "text": "Frische Eier gibt es für Selbstabholer täglich, nicht nur am Ladentag."
+        },
+        {
+          "title": "Nach der Jahreszeit",
+          "text": "Obst und Eingemachtes richten sich nach dem, was die Saison bringt."
+        },
+        {
+          "title": "Gut erreichbar",
+          "text": "Kochbauerstraße 1a in Aich – nahe der A92-Ausfahrt Moosburg-Süd."
+        }
+      ]
+    },
+    "reviews": {
+      "headline": "Bekannt in der Region",
+      "summary": "Senftl's Hofladen ist bei Regionales Bayern, Mein Bauernhof und weiteren Hofladen-Verzeichnissen gelistet und Mitglied bei „Einkaufen auf dem Bauernhof“. Kundenbewertungen zeigen wir erst nach Freigabe.",
+      "highlights": [
+        "Eintrag bei Regionales Bayern",
+        "Gelistet bei Mein Bauernhof",
+        "Mitglied „Einkaufen auf dem Bauernhof“",
+        "Eier, Kartoffeln, Honig, Obst"
+      ],
+      "source": "Regionales Bayern",
+      "sourceUrl": "https://www.regionales-bayern.de/anbieter/senftls-hofladen-11892/",
+      "rating": null,
+      "count": null
+    },
+    "process": {
+      "headline": "So kommen Sie zu Ihrem Einkauf",
+      "steps": [
+        {
+          "title": "Vorbestellen (optional)",
+          "text": "Rufen Sie an oder nutzen Sie das Formular – wir legen Ihnen Eier und Kartoffeln zurück."
+        },
+        {
+          "title": "Vorbeikommen",
+          "text": "Freitags von 13 bis 18 Uhr ist der Hofladen geöffnet, Eier gibt es täglich für Selbstabholer."
+        },
+        {
+          "title": "Einkaufen",
+          "text": "Sie nehmen mit, was die Saison gerade bietet."
+        },
+        {
+          "title": "Wiederkommen",
+          "text": "Viele Kunden holen ihre Eier regelmäßig – sprechen Sie uns auf feste Mengen an."
+        }
+      ]
+    },
+    "gallery": {
+      "headline": "Ein Blick auf den Hof",
+      "text": "Für die Live-Version zeigen wir hier echte Bilder von Senftl's Hofladen in Aich.",
+      "items": [
+        {
+          "title": "Hofladen",
+          "photoNeeded": "Hofladen von innen mit Regalen"
+        },
+        {
+          "title": "Eier",
+          "photoNeeded": "Eierkorb bzw. Eierstation für Selbstabholer"
+        },
+        {
+          "title": "Kartoffeln",
+          "photoNeeded": "Kartoffeln in Säcken oder Kisten"
+        },
+        {
+          "title": "Honig",
+          "photoNeeded": "Honiggläser im Regal"
+        },
+        {
+          "title": "Hofeinfahrt",
+          "photoNeeded": "Hof von außen, Kochbauerstraße 1a"
+        }
+      ]
+    },
+    "region": {
+      "headline": "Ihr Hofladen im Moosburger Süden",
+      "text": "Aich liegt im Süden von Moosburg an der Isar, nahe der A92-Ausfahrt Moosburg-Süd – gut erreichbar aus Moosburg, Freising, Langenbach, Wang, Gammelsdorf und Mauern.",
+      "places": [
+        "Moosburg an der Isar",
+        "Aich",
+        "Freising",
+        "Langenbach",
+        "Wang",
+        "Gammelsdorf",
+        "Mauern"
+      ]
+    },
+    "faq": [
+      {
+        "q": "Wann hat der Hofladen geöffnet?",
+        "a": "Der Hofladen ist freitags von 13 bis 18 Uhr geöffnet. Frische Eier gibt es täglich für Selbstabholer."
+      },
+      {
+        "q": "Kann ich vorbestellen?",
+        "a": "Gern – rufen Sie unter 08761 63838 an oder schreiben Sie an jutta.senftl@web.de."
+      },
+      {
+        "q": "Was gibt es im Hofladen?",
+        "a": "Eier, Kartoffeln, Honig und Obst der Saison, dazu je nach Jahreszeit verarbeitetes Obst und Gemüse."
+      },
+      {
+        "q": "Wie finde ich den Hof?",
+        "a": "Kochbauerstraße 1a in Moosburg-Aich – über die A92, Ausfahrt Moosburg-Süd."
+      }
+    ],
+    "contact": {
+      "headline": "Vorbestellen & Fragen",
+      "text": "Sie möchten Eier oder Kartoffeln zurücklegen lassen oder haben eine Frage zum Angebot? Melden Sie sich bei Familie Senftl.",
+      "topics": [
+        "Eier vorbestellen",
+        "Kartoffeln",
+        "Honig",
+        "Obst der Saison",
+        "Sonstiges"
+      ],
+      "responseNote": "Am schnellsten erreichen Sie uns telefonisch."
+    },
+    "stickyCta": "Vorbestellen"
+  }
+}

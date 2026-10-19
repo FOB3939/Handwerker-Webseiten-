@@ -1,0 +1,349 @@
+{
+  "id": "2026-10-18-74",
+  "slug": "fliesen-magier-liczberski-germering",
+  "date": "2026-10-18",
+  "company": {
+    "name": "Marcin Liczberski Fliesenlegerei",
+    "owner": "Marcin Liczberski",
+    "trade": "Fliesenleger",
+    "city": "Germering",
+    "address": "Parkstr. 2, 82110 Germering",
+    "phone": "0177 1905202",
+    "email": null,
+    "serviceArea": [
+      "Germering",
+      "Umgebung"
+    ]
+  },
+  "listings": {
+    "google": {
+      "url": "https://www.google.com/maps/search/?api=1&query=Marcin%20Liczberski%20Fliesenlegerei%20Parkstr.%202%20Germering",
+      "rating": null,
+      "reviews": null,
+      "evidence": "NICHT BELEGT – kein google.com/maps/place-Treffer und kein Google-Spiegel (trustlocal o. ä.) mit Google-Bewertungen gefunden. Ob ein Google-Eintrag existiert und ob dort eine Website hinterlegt ist, muss vor Versand in Google Maps geprüft werden."
+    },
+    "myhammer": {
+      "url": "https://www.11880.com/suche/fliesenleger/germering",
+      "rating": null,
+      "reviews": null,
+      "evidence": "Kein MyHammer gefunden – Einträge „Marcin Liczberski Fliesenlegerei“ („Der Fliesen-Magier“) bei fliesenleger.net, Das Örtliche und 11880 (Parkstr. 2, 82110 Germering, Mobil 0177 1905202; Fliesen, Boden, Trockenbau)."
+    }
+  },
+  "websiteStatus": "keine eigene Website gefunden",
+  "websiteChecks": [
+    "(1) „Marcin Liczberski Fliesenlegerei Germering“ / „Fliesen-Magier Germering“ mit blocked_domains (11880, Gelbe Seiten, Das Örtliche, Telefonbuch, Cylex, meinestadt, Creditreform, Facebook, Instagram, golocal, MyHammer, Northdata, Firmenwissen, WKDB, Yelp, trustlocal, wlw) – keine eigene Domain (Vorprüfung)",
+    "(2) Telefonsuche „0177 1905202“ – keine Website (Vorprüfung)",
+    "(3) Domain-Check auf 8 naheliegende Domains (liczberski.de, fliesen-magier.de u. ä.) – keine Treffer (Vorprüfung)",
+    "(4) Impressum-Suche „Impressum Liczberski Germering“ – kein eigenes Impressum (Vorprüfung)",
+    "(5) Verzeichnisse (Vorprüfung): kein Website-Feld bekannt; keine E-Mail-Adresse belegt (auch keine Freemail)",
+    "(6) Google-Spiegel: nicht vorhanden – Google-Eintrag unbelegt",
+    "Website-Risiko: mittel – Vorprüfungen negativ, aber weder Google-Eintrag noch Freemail belegt (RESERVE)"
+  ],
+  "facts": {
+    "services": [
+      "Fliesen",
+      "Boden",
+      "Trockenbau"
+    ],
+    "experience": null,
+    "praisedFor": []
+  },
+  "strategy": {
+    "audience": "Hauseigentümer und Vermieter in Germering und Umgebung, die Bäder, Küchen oder Böden fliesen lassen wollen",
+    "mainService": "Fliesenarbeiten",
+    "trustSignal": "Betrieb vor Ort in Germering, direkt per Handy erreichbar",
+    "conversionGoal": "Kostenloses Angebot anfragen (per WhatsApp/Anruf mit Fotos)",
+    "visualConcept": "Helle, frische Bäder: saubere Fugen, großformatige Fliesen, Wasser- und Aquatöne"
+  },
+  "sales": {
+    "score": 4,
+    "whyGoodLead": [
+      "Keine eigene Website gefunden – nur Verzeichniseinträge mit Handynummer",
+      "Mobilnummer öffentlich gelistet – WhatsApp-Erstkontakt möglich",
+      "Kaum Online-Sichtbarkeit – eine Website mit Anfrageformular schafft einen direkten Kanal",
+      "RESERVE: Google-Eintrag unbelegt – nur nach Maps-Prüfung versenden"
+    ],
+    "pitch": "Hallo, hier ist … – ich baue Websites für Handwerksbetriebe im Münchner Umland. Ich habe Ihren Eintrag „Der Fliesen-Magier“ in Germering gefunden, aber keine eigene Website. Ich habe unverbindlich einen Entwurf vorbereitet, auf dem Kunden Ihre Leistungen sehen und direkt per WhatsApp anfragen können – darf ich Ihnen den Link schicken?"
+  },
+  "manualChecks": [
+    "RESERVE – weder Google-Eintrag noch Freemail-Adresse belegt: NUR versenden, wenn Google Maps einen Eintrag OHNE Website zeigt.",
+    "Website-Risiko: mittel – vor Versand in Google Maps prüfen, dass keine Website hinterlegt ist (Grund: Vorprüfungen negativ, aber weder Google-Eintrag noch Freemail belegt)",
+    "Einsatzgebiet: nur Sitz Germering belegt – konkrete Nachbarorte nicht belegt, beim Betrieb erfragen",
+    "Leistungen nur als Kategorien belegt (Fliesen, Boden, Trockenbau) – Badsanierung/Mosaik o. ä. NICHT belegt, beim Betrieb bestätigen",
+    "Firmenname „Der Fliesen-Magier“ vs. „Marcin Liczberski Fliesenlegerei“ – bevorzugten Markennamen erfragen",
+    "Bewertungen, Öffnungszeiten, Logo und Projektfotos: nicht belegt – beim Betrieb anfragen"
+  ],
+  "sources": [
+    {
+      "label": "11880 – Fliesenleger Germering (Suchliste mit Marcin Liczberski)",
+      "url": "https://www.11880.com/suche/fliesenleger/germering"
+    },
+    {
+      "label": "Das Örtliche – Suche Liczberski Germering",
+      "url": "https://www.dasoertliche.de/?kw=Liczberski&ci=Germering"
+    },
+    {
+      "label": "fliesenleger.net – Eintrag Der Fliesen-Magier (Verzeichnis)",
+      "url": "https://www.fliesenleger.net/"
+    }
+  ],
+  "site": {
+    "theme": "aqua",
+    "category": "handwerk",
+    "heroOffer": [
+      "Fliesen verlegen",
+      "Bodenbeläge",
+      "Trockenbau",
+      "Wandfliesen"
+    ],
+    "scene": "bath",
+    "logoIcon": "drop",
+    "logoMark": "FM",
+    "brandName": "Der Fliesen-Magier",
+    "seoTitle": "Fliesenleger in Germering – Der Fliesen-Magier",
+    "seoDescription": "Fliesen, Boden und Trockenbau in Germering und Umgebung. Jetzt kostenloses Angebot anfragen – auch per WhatsApp.",
+    "nav": [
+      {
+        "label": "Leistungen",
+        "href": "#leistungen"
+      },
+      {
+        "label": "Projekte",
+        "href": "#projekte"
+      },
+      {
+        "label": "Bewertungen",
+        "href": "#bewertungen"
+      },
+      {
+        "label": "Ablauf",
+        "href": "#ablauf"
+      },
+      {
+        "label": "FAQ",
+        "href": "#faq"
+      },
+      {
+        "label": "Kontakt",
+        "href": "#kontakt"
+      }
+    ],
+    "hero": {
+      "eyebrow": "Fliesenleger · Germering",
+      "headline": "Fliesen & Böden in Germering",
+      "sub": "Fliesenarbeiten, Böden und Trockenbau – sauber verlegt, direkt anfragen.",
+      "ctaPrimary": "Kostenloses Angebot anfragen",
+      "ctaSecondary": "Anrufen",
+      "bullets": [
+        "Fliesenleger aus Germering",
+        "Fliesen, Boden, Trockenbau",
+        "Direkt per Handy erreichbar"
+      ],
+      "imageLabel": "frisch gefliestes, helles Bad mit sauberen Fugen"
+    },
+    "badges": [
+      {
+        "title": "Fliesen",
+        "sub": "Wand & Boden"
+      },
+      {
+        "title": "Boden",
+        "sub": "Beläge verlegen"
+      },
+      {
+        "title": "Trockenbau",
+        "sub": "Wände & Vorwände"
+      },
+      {
+        "title": "Germering",
+        "sub": "Parkstr."
+      }
+    ],
+    "trust": [
+      {
+        "value": "Vor Ort",
+        "label": "Betrieb in Germering"
+      },
+      {
+        "value": "3",
+        "label": "Leistungsbereiche"
+      },
+      {
+        "value": "Direkt",
+        "label": "ohne Callcenter"
+      },
+      {
+        "value": "Mobil",
+        "label": "schnell erreichbar"
+      }
+    ],
+    "servicesIntro": {
+      "headline": "Fliesen, Boden und Trockenbau",
+      "text": "Vom Untergrund bis zur fertigen Fuge – alles aus einer Hand."
+    },
+    "services": [
+      {
+        "title": "Fliesen verlegen",
+        "text": "Wand- und Bodenfliesen für Bad, Küche und Wohnräume – sauber verlegt und verfugt.",
+        "items": [
+          "Wandfliesen",
+          "Bodenfliesen",
+          "Verfugen"
+        ]
+      },
+      {
+        "title": "Bodenbeläge",
+        "text": "Neue Böden für Ihre Räume – Material und Ausführung stimmen wir gemeinsam ab.",
+        "items": [
+          "Bodenarbeiten",
+          "Nach Absprache",
+          "Saubere Übergänge"
+        ]
+      },
+      {
+        "title": "Trockenbau",
+        "text": "Trockenbauarbeiten als Grundlage für neue Räume und Flächen.",
+        "items": [
+          "Trockenbauwände",
+          "Vorbereitung",
+          "Nach Absprache"
+        ]
+      }
+    ],
+    "why": {
+      "headline": "Fliesenleger aus Germering – direkt und unkompliziert.",
+      "points": [
+        {
+          "title": "Kurze Wege",
+          "text": "Der Betrieb sitzt in Germering und arbeitet in der Umgebung."
+        },
+        {
+          "title": "Direkter Kontakt",
+          "text": "Ein Anruf oder eine WhatsApp-Nachricht genügt."
+        },
+        {
+          "title": "Klare Absprachen",
+          "text": "Umfang und Ablauf werden vorab gemeinsam abgestimmt."
+        },
+        {
+          "title": "Fliese und Untergrund",
+          "text": "Fliesen, Boden und Trockenbau in einem Auftrag."
+        }
+      ]
+    },
+    "reviews": {
+      "headline": "Was Kunden sagen",
+      "summary": "Kundenstimmen werden hier eingebunden, sobald sie aus einem Bewertungsprofil übernommen sind.",
+      "highlights": [
+        "Fliesenarbeiten",
+        "Bodenbeläge",
+        "Trockenbau"
+      ],
+      "source": "Google",
+      "sourceUrl": "https://www.google.com/maps/search/?api=1&query=Marcin%20Liczberski%20Fliesenlegerei%20Parkstr.%202%20Germering",
+      "rating": null,
+      "count": null
+    },
+    "process": {
+      "headline": "In vier Schritten zum Ergebnis",
+      "steps": [
+        {
+          "title": "Anfrage",
+          "text": "Fotos und grobe Maße per WhatsApp schicken – oder kurz anrufen."
+        },
+        {
+          "title": "Besichtigung",
+          "text": "Umfang und Details werden vor Ort abgestimmt."
+        },
+        {
+          "title": "Angebot",
+          "text": "Sie erhalten ein klares Angebot für Ihr Vorhaben."
+        },
+        {
+          "title": "Ausführung",
+          "text": "Untergrund, Verlegung, Fugen – sauber übergeben."
+        }
+      ]
+    },
+    "gallery": {
+      "headline": "Flächen, die überzeugen",
+      "text": "Für die Live-Version zeigen wir hier echte Projekte des Betriebs.",
+      "items": [
+        {
+          "title": "Bad",
+          "photoNeeded": "frisch gefliestes Bad"
+        },
+        {
+          "title": "Boden",
+          "photoNeeded": "neu verlegter Fliesenboden"
+        },
+        {
+          "title": "Küche",
+          "photoNeeded": "Fliesenspiegel in der Küche"
+        }
+      ]
+    },
+    "region": {
+      "headline": "Fliesenleger für Germering und Umgebung",
+      "text": "Von Germering aus für Kunden in der Umgebung – fragen Sie einfach an.",
+      "places": [
+        "Germering",
+        "Umgebung"
+      ]
+    },
+    "faq": [
+      {
+        "q": "Kann ich vorab Fotos schicken?",
+        "a": "Ja, Fotos und grobe Maße per WhatsApp helfen für eine erste Einschätzung."
+      },
+      {
+        "q": "Was kostet mein Vorhaben?",
+        "a": "Das hängt von Umfang und Material ab. Nach einer Besichtigung erhalten Sie ein klares Angebot."
+      },
+      {
+        "q": "Übernehmen Sie auch Trockenbau?",
+        "a": "Ja, neben Fliesen und Böden gehört Trockenbau zum Angebot."
+      },
+      {
+        "q": "Arbeiten Sie auch außerhalb von Germering?",
+        "a": "Fragen Sie einfach an – auch für die Umgebung von Germering."
+      }
+    ],
+    "contact": {
+      "headline": "Ihr Angebot – kostenlos und unverbindlich",
+      "text": "Beschreiben Sie kurz Ihr Vorhaben: welcher Raum, ungefähre Fläche und ob Wand oder Boden. Fotos helfen.",
+      "topics": [
+        "Fliesen verlegen",
+        "Bodenbeläge",
+        "Trockenbau",
+        "Sonstiges"
+      ],
+      "responseNote": "Besichtigung nach Absprache."
+    },
+    "quote": {
+      "sizeLabel": "Was soll gefliest werden?",
+      "sizes": [
+        "Kleine Fläche",
+        "Ein Raum",
+        "Bad komplett",
+        "Mehrere Räume"
+      ],
+      "timings": [
+        "So bald wie möglich",
+        "In den nächsten Wochen",
+        "In 1–3 Monaten",
+        "Ich plane erst noch"
+      ]
+    },
+    "stickyCta": "Angebot anfragen",
+    "look": {
+      "palette": 2,
+      "font": 1,
+      "hero": 3,
+      "services": 2,
+      "radius": 3,
+      "logo": 5,
+      "intro": 0
+    }
+  }
+}

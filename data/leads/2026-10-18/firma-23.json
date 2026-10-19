@@ -1,0 +1,384 @@
+{
+  "id": "2026-10-18-23",
+  "slug": "biogaertnerei-voit-moosburg",
+  "date": "2026-10-18",
+  "company": {
+    "name": "Hofladen Voit / Biogärtnerei Voit",
+    "owner": "Josef Voit",
+    "trade": "Bioland-Gärtnerei & Hofladen",
+    "city": "Moosburg an der Isar",
+    "address": "Thalbacher Straße 34, 85368 Moosburg an der Isar",
+    "phone": "08761 60307",
+    "email": "biogaertnerei-voit@t-online.de",
+    "serviceArea": [
+      "Moosburg an der Isar",
+      "Freising",
+      "Langenbach",
+      "Wang",
+      "Gammelsdorf",
+      "Haag an der Amper",
+      "Zolling"
+    ]
+  },
+  "listings": {
+    "google": {
+      "url": "https://www.google.com/maps/search/?api=1&query=Hofladen%20Voit%20Thalbacher%20Stra%C3%9Fe%2034%20Moosburg",
+      "rating": null,
+      "reviews": null,
+      "evidence": "INDIREKT / NICHT VERIFIZIERT – WebSearch mit allowed_domains google.com/google.de lieferte keine maps/place-Seite; Suche nach Google-Bewertungen ergab nichts. Ein Google-Hotels-Treffer „Bio (Kinder Erlebnis) Bauernhof Voit“ ist ein anderer Betrieb (kein Ortsbezug Moosburg) und wurde NICHT übernommen. Ein Google-Eintrag ist daher nicht belegt; Aufnahme nur wegen starker Freemail-Evidenz (t-online.de) und durchgehend negativer Website-Prüfungen. Kein Website-Feld in irgendeinem gefundenen Verzeichnis."
+    },
+    "myhammer": {
+      "url": "https://www.mein-bauernhof.de/verkaufstelle/hofladen-voit-775338/",
+      "rating": null,
+      "reviews": null,
+      "evidence": "Kein MyHammer – Eintrag „Hofladen Voit“ auf mein-bauernhof.de, zusätzlich hofladen-bauernladen.info, biodukte.de, onlinestreet.de („Bioland-Hofladen Voit“), oeffnungszeitenbuch.de und aloeus.de: Thalbacher Straße 34, 85368 Moosburg, Tel. 08761 60307 (zweite Nr. 08761 721959), E-Mail biogaertnerei-voit@t-online.de, Bioland-zertifiziert, Verkauf Di + Fr 15–18 Uhr. Keine Website in den Einträgen (oeffnungszeitenbuch: weder E-Mail- noch Website-Feld)."
+    }
+  },
+  "websiteStatus": "keine eigene Website gefunden",
+  "websiteChecks": [
+    "(1) „Biogärtnerei Voit Moosburg“ mit Ausschluss von 11880.com, gelbeseiten.de, dasoertliche.de, dastelefonbuch.de, cylex.de, meinestadt.de, creditreform.de, facebook.com, instagram.com, golocal.de, my-hammer.de, northdata.de, firmenwissen.de, werkenntdenbesten.de, yelp.de, trustlocal.de, wlw.de: nur Portale (mein-bauernhof.de, hofladen-bauernladen.info, biodukte.de, onlinestreet.de, oeffnungszeitenbuch.de, aloeus.de) und sandras-bauerngarten.de (anderer Betrieb, nennt Voit nur in einem Beitrag „Gut & Gern“) – keine eigene Domain.",
+    "(2) Telefonsuche „08761 60307“ (gleiche Ausschlüsse): nur oeffnungszeitenbuch.de – Eintrag ohne E-Mail und ohne Website.",
+    "(3) Domainprüfung per allowed_domains biogaertnerei-voit.de, biogaertnerei-voit.com, voit-moosburg.de, hofladen-voit.de, gaertnerei-voit.de, bioland-voit.de, voit-bio.de, biohof-voit.de: keine Treffer. Zusätzlich Freitextsuche „biogaertnerei-voit“: keine Domain dieses Namens, nur fremde Treffer (u. a. andere Gärtnerei Voit in Uffenheim).",
+    "(4) Impressum-Suche „Impressum Josef Voit Moosburg Thalbacher“: kein eigenes Impressum, nur dieselben Verzeichnisse.",
+    "(5) Verzeichnisse: Website-Feld leer; E-Mail ist Freemail biogaertnerei-voit@t-online.de (starkes Indiz – der Domainname der Mail ist T-Online, keine eigene Domain).",
+    "(6) Kein Google-/Maps-Treffer mit Website-Feld gefunden (Google-Eintrag selbst nicht belegt, s. listings.google)."
+  ],
+  "facts": {
+    "services": [
+      "Bioland-zertifizierte Gärtnerei mit Hofladen",
+      "Eier",
+      "Kartoffeln",
+      "Saisonales Bio-Gemüse",
+      "Tomatensorten (laut Beitrag „Gut & Gern“ bekannt dafür)"
+    ],
+    "experience": "Laut Beitrag auf sandras-bauerngarten.de („Gut & Gern“) Biogärtner seit 1987 – nicht im Entwurf verwendet, vorher bestätigen",
+    "praisedFor": [
+      "Tomatensorten (laut Gut & Gern)"
+    ]
+  },
+  "strategy": {
+    "audience": "Bio-Kunden aus Moosburg und dem nördlichen Landkreis Freising, die frisches Gemüse, Eier und Kartoffeln direkt vom Erzeuger kaufen wollen",
+    "mainService": "Bio-Gemüse, Eier und Kartoffeln aus eigener Bioland-Gärtnerei im Hofladen",
+    "trustSignal": "Bioland-zertifiziert, direkt in Moosburg (Thalbacher Straße)",
+    "conversionGoal": "Hofladenbesuch zu den Verkaufszeiten (Di + Fr), Anruf / Vorbestellung",
+    "visualConcept": "Frisch und erdig: Gewächshaus, rote Tomaten, Gemüsekisten, Bioland-Grün"
+  },
+  "sales": {
+    "score": 6,
+    "whyGoodLead": [
+      "Nur in Hofladen-Verzeichnissen sichtbar, keine eigene Website",
+      "T-Online-Adresse statt eigener Domain – klares Zeichen fehlender Webpräsenz",
+      "Nur zwei Verkaufstage pro Woche: Kunden brauchen verlässliche Infos zu Zeiten und Angebot",
+      "Bio-Gemüse und Tomatenvielfalt lassen sich saisonal sehr gut zeigen"
+    ],
+    "pitch": "Grüß Gott Herr Voit, mein Name ist … – ich gestalte Websites für Hofläden im Landkreis Freising. Ihre Bioland-Gärtnerei in Moosburg habe ich in mehreren Hofladen-Verzeichnissen gefunden, eine eigene Seite mit Verkaufszeiten und Ihrem Gemüse gibt es aber noch nicht. Ich habe unverbindlich einen Entwurf vorbereitet – darf ich ihn Ihnen kurz zeigen?"
+  },
+  "manualChecks": [
+    "Website-Risiko: mittel – vor Versand in Google Maps prüfen, dass keine Website hinterlegt ist (Grund: Freemail t-online.de und alle Website-Prüfungen negativ, aber Google-Eintrag selbst nicht belegt)",
+    "Google-Eintrag überhaupt vorhanden? Falls nein: Lead trotzdem geeignet, aber Pitch ohne Google-Bezug",
+    "Verkaufszeiten bestätigen: meist Di + Fr 15–18 Uhr, Beitrag „Gut & Gern“ nennt Di + Fr 13–18 Uhr",
+    "Zweite Telefonnummer 08761 721959 (oeffnungszeitenbuch / mein-bauernhof) zuordnen",
+    "Sortiment (Tomaten, Gemüse, Eier, Kartoffeln) und „Biogärtner seit 1987“ beim Inhaber bestätigen"
+  ],
+  "sources": [
+    {
+      "label": "mein-bauernhof.de – Hofladen Voit",
+      "url": "https://www.mein-bauernhof.de/verkaufstelle/hofladen-voit-775338/"
+    },
+    {
+      "label": "hofladen-bauernladen.info – Hofladen Voit",
+      "url": "https://www.hofladen-bauernladen.info/adressen/hofladen-josef-voit-moosburg__2327.php"
+    },
+    {
+      "label": "biodukte.de – Josef Voit",
+      "url": "https://biodukte.de/markt/josef-voit-3382"
+    },
+    {
+      "label": "onlinestreet.de – Bioland-Hofladen Voit",
+      "url": "https://onlinestreet.de/poi/ZHFBODVKRm8rRXU5QnA5azVPaGN0dz09"
+    },
+    {
+      "label": "oeffnungszeitenbuch.de – Hofladen Josef Voit",
+      "url": "https://www.oeffnungszeitenbuch.de/filiale/Moosburg-Hofladen%2520Josef%2520Voit-970917D.html"
+    },
+    {
+      "label": "aloeus.de – Hofladen Josef Voit",
+      "url": "https://www.aloeus.de/hofladen-josef-voit-moosburg-an-der-isar/"
+    },
+    {
+      "label": "Sandra´s Bauerngarten – Gut & Gern",
+      "url": "https://www.sandras-bauerngarten.de/aktuelles/gut-gern"
+    }
+  ],
+  "site": {
+    "theme": "hof",
+    "category": "hof",
+    "scene": "farm",
+    "heroOffer": [
+      "Bio-Gemüse",
+      "Tomaten",
+      "Eier",
+      "Kartoffeln",
+      "Bioland"
+    ],
+    "hours": [
+      {
+        "label": "Dienstag & Freitag",
+        "value": "15–18 Uhr"
+      }
+    ],
+    "quote": {
+      "sizeLabel": "Was dürfen wir für Sie zurücklegen?",
+      "sizes": [
+        "Gemüse der Saison",
+        "Tomaten",
+        "Eier",
+        "Kartoffeln",
+        "Sonstige Frage"
+      ],
+      "timings": [
+        "Nächsten Dienstag",
+        "Nächsten Freitag",
+        "Regelmäßig",
+        "Noch offen"
+      ]
+    },
+    "badges": [
+      {
+        "title": "Bioland",
+        "sub": "zertifiziert"
+      },
+      {
+        "title": "Eigene Gärtnerei",
+        "sub": "in Moosburg"
+      },
+      {
+        "title": "Di & Fr",
+        "sub": "15–18 Uhr"
+      },
+      {
+        "title": "Thalbacher Straße 34",
+        "sub": "Moosburg an der Isar"
+      }
+    ],
+    "seoTitle": "Biogärtnerei & Hofladen Voit in Moosburg – Bio-Gemüse, Eier, Kartoffeln",
+    "seoDescription": "Bioland-Gemüse, Tomaten, Eier und Kartoffeln direkt aus der Biogärtnerei Voit in Moosburg an der Isar. Hofladen dienstags und freitags von 15 bis 18 Uhr.",
+    "logoMark": "V",
+    "brandName": "Biogärtnerei Voit",
+    "logoIcon": "leaf",
+    "nav": [
+      {
+        "label": "Angebot",
+        "href": "#leistungen"
+      },
+      {
+        "label": "Hof",
+        "href": "#projekte"
+      },
+      {
+        "label": "Ablauf",
+        "href": "#ablauf"
+      },
+      {
+        "label": "Region",
+        "href": "#region"
+      },
+      {
+        "label": "FAQ",
+        "href": "#faq"
+      },
+      {
+        "label": "Kontakt",
+        "href": "#kontakt"
+      }
+    ],
+    "hero": {
+      "eyebrow": "Bioland-Hofladen · Moosburg an der Isar",
+      "headline": "Bio-Gemüse, Tomaten & Eier direkt aus der Gärtnerei in Moosburg.",
+      "sub": "In der Biogärtnerei Voit wächst, was Sie im Hofladen kaufen: Gemüse der Saison, Tomaten, Kartoffeln und Eier – Bioland-zertifiziert, direkt an der Thalbacher Straße.",
+      "ctaPrimary": "Verkaufszeiten & Anfahrt",
+      "ctaSecondary": "Unser Angebot",
+      "bullets": [
+        "Bioland-zertifiziert",
+        "Dienstag & Freitag 15–18 Uhr",
+        "Direkt vom Erzeuger"
+      ],
+      "imageLabel": "Gemüsekisten und Tomaten im Hofladen der Biogärtnerei Voit"
+    },
+    "trust": [
+      {
+        "value": "Bioland",
+        "label": "zertifiziert"
+      },
+      {
+        "value": "2 Tage",
+        "label": "Hofverkauf pro Woche"
+      },
+      {
+        "value": "Saisonal",
+        "label": "aus eigenem Anbau"
+      },
+      {
+        "value": "Moosburg",
+        "label": "Thalbacher Straße 34"
+      }
+    ],
+    "servicesIntro": {
+      "headline": "Frisch aus unserer Bio-Gärtnerei",
+      "text": "Was gerade reif ist, kommt in den Hofladen – ohne lange Wege, nach Bioland-Richtlinien angebaut."
+    },
+    "services": [
+      {
+        "title": "Gemüse der Saison",
+        "text": "Frisches Bio-Gemüse aus der eigenen Gärtnerei – je nach Jahreszeit.",
+        "items": [
+          "Saisonales Gemüse",
+          "Bioland-Qualität"
+        ]
+      },
+      {
+        "title": "Tomaten",
+        "text": "Die Gärtnerei ist für ihre Tomatensorten bekannt – im Sommer frisch im Hofladen.",
+        "items": [
+          "Verschiedene Tomatensorten",
+          "Sommer-Saison"
+        ]
+      },
+      {
+        "title": "Eier",
+        "text": "Frische Eier gibt es im Hofladen zu den Verkaufszeiten.",
+        "items": [
+          "Frische Eier"
+        ]
+      },
+      {
+        "title": "Kartoffeln",
+        "text": "Bio-Kartoffeln für die Küche zu Hause.",
+        "items": [
+          "Kartoffeln"
+        ]
+      }
+    ],
+    "why": {
+      "headline": "Warum bei uns einkaufen?",
+      "points": [
+        {
+          "title": "Bioland-zertifiziert",
+          "text": "Angebaut nach den Richtlinien des Bioland-Verbands."
+        },
+        {
+          "title": "Direkt vom Erzeuger",
+          "text": "Sie kaufen dort, wo das Gemüse wächst – ohne Zwischenhandel."
+        },
+        {
+          "title": "Feste Verkaufszeiten",
+          "text": "Dienstag und Freitag von 15 bis 18 Uhr ist der Hofladen geöffnet."
+        },
+        {
+          "title": "Mitten in Moosburg",
+          "text": "Thalbacher Straße 34 – schnell erreichbar aus der Stadt und dem Umland."
+        }
+      ]
+    },
+    "reviews": {
+      "headline": "Bekannt in der Region",
+      "summary": "Die Biogärtnerei Voit ist in mehreren Hofladen-Verzeichnissen als Bioland-Betrieb gelistet. Kundenbewertungen zeigen wir erst nach Freigabe.",
+      "highlights": [
+        "Bioland-zertifiziert",
+        "Gelistet bei mein-bauernhof.de und hofladen-bauernladen.info",
+        "Bekannt für Tomatensorten"
+      ],
+      "source": "mein-bauernhof.de",
+      "sourceUrl": "https://www.mein-bauernhof.de/verkaufstelle/hofladen-voit-775338/",
+      "rating": null,
+      "count": null
+    },
+    "process": {
+      "headline": "So kaufen Sie bei uns",
+      "steps": [
+        {
+          "title": "Vorbeikommen",
+          "text": "Dienstag oder Freitag zwischen 15 und 18 Uhr in den Hofladen kommen."
+        },
+        {
+          "title": "Auswählen",
+          "text": "Gemüse, Tomaten, Eier und Kartoffeln – je nach Saison."
+        },
+        {
+          "title": "Vorbestellen",
+          "text": "Größere Mengen? Rufen Sie vorher kurz an."
+        },
+        {
+          "title": "Genießen",
+          "text": "Frisch aus der Gärtnerei auf den Tisch."
+        }
+      ]
+    },
+    "gallery": {
+      "headline": "Ein Blick in die Gärtnerei",
+      "text": "Für die Live-Version zeigen wir hier echte Bilder der Biogärtnerei Voit.",
+      "items": [
+        {
+          "title": "Gewächshaus",
+          "photoNeeded": "Tomaten im Gewächshaus"
+        },
+        {
+          "title": "Hofladen",
+          "photoNeeded": "Verkaufstisch mit Gemüsekisten"
+        },
+        {
+          "title": "Freiland",
+          "photoNeeded": "Gemüsebeete im Sommer"
+        },
+        {
+          "title": "Eier",
+          "photoNeeded": "Eierschachteln im Hofladen"
+        }
+      ]
+    },
+    "region": {
+      "headline": "Ihr Bio-Hofladen in Moosburg",
+      "text": "Aus Moosburg, Freising und den Gemeinden im nördlichen Landkreis ist die Gärtnerei schnell erreicht.",
+      "places": [
+        "Moosburg an der Isar",
+        "Freising",
+        "Langenbach",
+        "Wang",
+        "Gammelsdorf",
+        "Haag an der Amper",
+        "Zolling"
+      ]
+    },
+    "faq": [
+      {
+        "q": "Wann hat der Hofladen geöffnet?",
+        "a": "Dienstag und Freitag von 15 bis 18 Uhr."
+      },
+      {
+        "q": "Ist alles Bio?",
+        "a": "Die Gärtnerei ist Bioland-zertifiziert."
+      },
+      {
+        "q": "Kann ich vorbestellen?",
+        "a": "Rufen Sie uns gern unter 08761 60307 an oder schreiben Sie an biogaertnerei-voit@t-online.de."
+      },
+      {
+        "q": "Wo finde ich Sie?",
+        "a": "Thalbacher Straße 34, 85368 Moosburg an der Isar."
+      }
+    ],
+    "contact": {
+      "headline": "Fragen oder Vorbestellung?",
+      "text": "Schreiben oder rufen Sie uns an – wir legen Ihnen gern etwas zurück.",
+      "topics": [
+        "Vorbestellung",
+        "Gemüse der Saison",
+        "Eier",
+        "Kartoffeln",
+        "Sonstiges"
+      ],
+      "responseNote": "Am schnellsten erreichen Sie uns telefonisch."
+    },
+    "stickyCta": "Verkaufszeiten ansehen"
+  }
+}
