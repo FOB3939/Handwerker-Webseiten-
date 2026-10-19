@@ -59,6 +59,8 @@ export interface SiteContent {
   /** Nur belegte Öffnungs-/Verkaufszeiten, z. B. { label: "Mo, Mi, Sa", value: "8–13 Uhr" } */
   hours?: { label: string; value: string }[];
   scene: SceneKind;
+  /** Lizenzfreie Beispielfotos (gesetzt von scripts/fetch-photos.mjs). Fehlt die Datei, bleibt die Illustration. */
+  photos?: { hero?: PhotoRef; gallery?: (PhotoRef | null)[] };
   quote: { sizeLabel: string; sizes: string[]; timings: string[] };
   badges: { title: string; sub: string }[];
   seoTitle: string;
@@ -87,4 +89,16 @@ export interface SiteContent {
   faq: { q: string; a: string }[];
   contact: { headline: string; text: string; topics: string[]; responseNote: string };
   stickyCta: string;
+}
+
+export interface PhotoRef {
+  /** Pfad relativ zu data/photos/ */
+  file: string;
+  /** Original-URL zum erneuten Herunterladen (images.pexels.com) */
+  download: string;
+  alt: string;
+  author: string;
+  authorUrl: string;
+  source: "Pexels";
+  sourceUrl: string;
 }

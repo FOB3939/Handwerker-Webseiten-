@@ -5,6 +5,7 @@ import { resolveTheme, familyOf, type Identity } from "@/lib/identity";
 import { HeroFx, TradeDivider, fxFor, type TradeFxKind } from "./TradeFx";
 import { telHref } from "@/lib/leads";
 import Scene from "./Scene";
+import Photo, { photoSrc } from "./Photo";
 import ContactForm from "./ContactForm";
 import QuickRequest from "./QuickRequest";
 import BeforeAfter from "./BeforeAfter";
@@ -202,7 +203,11 @@ function quoteProps(lead: Lead, hof = false) {
 function Hero({ lead, theme, call, upper, hof, fx }: Ctx) {
   const sig = fx ? <HeroFx kind={fx} /> : null;
   const { hero, scene } = lead.site;
-  const art = (cls: string, seed = 0) => <Scene kind={scene} palette={theme.palette} label={hero.imageLabel} seed={seed} className={cls} />;
+  const heroPhoto = hof ? undefined : lead.site.photos?.hero;
+  const heroSrc = photoSrc(heroPhoto);
+  const art = (cls: string, seed = 0) => heroPhoto && heroSrc
+    ? <Photo photo={heroPhoto} src={heroSrc} className={cls} eager badge={false} />
+    : <Scene kind={scene} palette={theme.palette} label={hero.imageLabel} seed={seed} className={cls} />;
 
   if (theme.hero === "editorial") {
     return (
@@ -706,27 +711,42 @@ function Projects({ lead, theme, upper }: Ctx) {
   const g = lead.site.gallery;
   const { scene } = lead.site;
   const [first, ...rest] = g.items;
+  const refs = lead.site.photos?.gallery ?? [];
+  const pic = (i: number) => { const ref = refs[i]; const src = photoSrc(ref); return ref && src ? { ref, src } : null; };
+  const firstPic = pic(0);
   return (
     <section id="projekte" className="border-y border-t-line bg-t-surface">
       <div className="mx-auto max-w-site px-4 py-24 sm:px-6">
         <SectionHead kicker="Projekte" title={g.headline} text={g.text} upper={upper} />
         <div className="mt-14 grid gap-6 lg:grid-cols-12">
+          {firstPic ? (
+          <figure data-reveal="zoom" className="lg:col-span-7">
+            <Photo photo={firstPic.ref} src={firstPic.src} className="aspect-[4/3] w-full rounded-t shadow-xl" />
+            <figcaption className="mt-3 text-sm text-t-muted">{first.title}: Beispielfoto. In der Live-Version zeigen wir echte Projekte ({first.photoNeeded}).</figcaption>
+          </figure>
+          ) : (
           <figure data-reveal="zoom" className="lg:col-span-7">
             <BeforeAfter label={first.title}
               before={<Scene kind={scene} palette={theme.palette} label={first.photoNeeded} seed={5} variant="before" className="h-full w-full" showLabel={false} />}
               after={<Scene kind={scene} palette={theme.palette} label={first.photoNeeded} seed={5} className="h-full w-full" showLabel={false} />} />
             <figcaption className="mt-3 text-sm text-t-muted">Regler ziehen: Vorher/Nachher. In der Live-Version mit echten Fotos ({first.photoNeeded}).</figcaption>
           </figure>
+          )}
           <div data-stagger className="grid grid-cols-2 gap-4 lg:col-span-5">
-            {rest.slice(0, 4).map((it, i) => (
+            {rest.slice(0, 4).map((it, i) => {
+              const p = pic(i + 1);
+              return (
               <figure key={it.title} className="group relative overflow-hidden rounded-t">
-                <Scene kind={scene} palette={theme.palette} label={it.photoNeeded} seed={i + 6} className="aspect-square w-full transition duration-500 group-hover:scale-105" showLabel={false} />
+                {p
+                  ? <Photo photo={p.ref} src={p.src} className="aspect-square w-full transition duration-500 group-hover:scale-105" />
+                  : <Scene kind={scene} palette={theme.palette} label={it.photoNeeded} seed={i + 6} className="aspect-square w-full transition duration-500 group-hover:scale-105" showLabel={false} />}
                 <figcaption className="absolute inset-x-0 bottom-0 bg-gradient-to-t from-black/75 to-transparent p-3 pt-8 text-white">
                   <span className="block text-sm font-bold">{it.title}</span>
-                  <span className="block text-[11px] text-white/80">Foto folgt: {it.photoNeeded}</span>
+                  <span className="block text-[11px] text-white/80">{p ? "Später echtes Foto" : "Foto folgt"}: {it.photoNeeded}</span>
                 </figcaption>
               </figure>
-            ))}
+              );
+            })}
           </div>
         </div>
       </div>
@@ -941,10 +961,30 @@ function Footer({ lead, call, theme }: Ctx) {
           <p className="mt-1">Die vollständige Datenschutzerklärung nach DSGVO (Kontaktformular, Hosting, Server-Logs) wird vor dem Livegang erstellt.</p>
         </div>
       </div>
+      <PhotoCredits lead={lead} />
       <p className="border-t border-t-line px-4 py-4 pb-24 text-center text-xs text-t-muted md:pb-4">
         {DEMO_NOTICE} Entwurf vom {new Date(lead.date).toLocaleDateString("de-DE")} · © {year}
       </p>
     </footer>
+  );
+}
+
+function PhotoCredits({ lead }: { lead: Lead }) {
+  const p = lead.site.photos;
+  const used = [p?.hero, ...(p?.gallery ?? [])].filter((r): r is NonNullable<typeof r> => !!r && !!photoSrc(r));
+  const authors = [...new Map(used.map((r) => [r.authorUrl, r])).values()];
+  if (!authors.length) return null;
+  return (
+    <p className="mx-auto max-w-site px-4 pb-6 text-xs text-t-muted sm:px-6">
+      Beispielfotos (lizenzfrei, keine Arbeiten des Betriebs) von{" "}
+      {authors.map((r, i) => (
+        <Fragment key={r.authorUrl}>
+          {i > 0 && ", "}
+          <a href={r.sourceUrl} target="_blank" rel="noopener noreferrer nofollow" className="underline underline-offset-2 hover:text-t-ink">{r.author}</a>
+        </Fragment>
+      ))}{" "}
+      auf <a href="https://www.pexels.com" target="_blank" rel="noopener noreferrer nofollow" className="underline underline-offset-2 hover:text-t-ink">Pexels</a>.
+    </p>
   );
 }
 
