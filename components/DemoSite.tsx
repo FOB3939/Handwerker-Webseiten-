@@ -1,7 +1,8 @@
 import { Fragment, type CSSProperties, type ReactNode } from "react";
 import type { Lead } from "@/lib/types";
 import { themeStyle } from "@/lib/themes";
-import { resolveTheme, type Identity } from "@/lib/identity";
+import { resolveTheme, familyOf, type Identity } from "@/lib/identity";
+import { HeroFx, TradeDivider, fxFor, type TradeFxKind } from "./TradeFx";
 import { telHref } from "@/lib/leads";
 import Scene from "./Scene";
 import ContactForm from "./ContactForm";
@@ -22,6 +23,7 @@ interface Ctx {
   call: string;
   upper: string;
   hof: boolean;
+  fx: TradeFxKind | null;
 }
 
 export default function DemoSite({ lead }: { lead: Lead }) {
@@ -33,7 +35,10 @@ export default function DemoSite({ lead }: { lead: Lead }) {
     call: company.phone ? telHref(company.phone) : "#kontakt",
     upper: theme.displayCase === "upper" ? "uppercase tracking-tight" : "",
     hof: (site.category ?? (site.theme === "hof" || site.scene === "farm" ? "hof" : "handwerk")) === "hof",
+    fx: null,
   };
+  // Gewerk-Signatur (Effekt im Hero + Trennleisten), nur für Handwerk
+  if (!ctx.hof) ctx.fx = fxFor(company.trade, familyOf(lead));
   const heroHasForm = !ctx.hof && !["editorial", "organic", "banner"].includes(theme.hero);
 
   return (
@@ -50,6 +55,7 @@ export default function DemoSite({ lead }: { lead: Lead }) {
         <Hero {...ctx} />
         <Badges {...ctx} />
         <Marquee {...ctx} />
+        {ctx.fx && <TradeDivider kind={ctx.fx} />}
         <Services {...ctx} />
         {ctx.hof && <Visit {...ctx} />}
         {!heroHasForm && <QuoteSection {...ctx} />}
@@ -57,6 +63,7 @@ export default function DemoSite({ lead }: { lead: Lead }) {
         <Stats {...ctx} />
         {ctx.hof ? <HofGallery {...ctx} /> : <Projects {...ctx} />}
         <Reviews {...ctx} />
+        {ctx.fx && <TradeDivider kind={ctx.fx} />}
         <Process {...ctx} />
         <CtaBand {...ctx} />
         <Region {...ctx} />
@@ -192,13 +199,15 @@ function quoteProps(lead: Lead, hof = false) {
   };
 }
 
-function Hero({ lead, theme, call, upper, hof }: Ctx) {
+function Hero({ lead, theme, call, upper, hof, fx }: Ctx) {
+  const sig = fx ? <HeroFx kind={fx} /> : null;
   const { hero, scene } = lead.site;
   const art = (cls: string, seed = 0) => <Scene kind={scene} palette={theme.palette} label={hero.imageLabel} seed={seed} className={cls} />;
 
   if (theme.hero === "editorial") {
     return (
-      <section className="relative overflow-hidden">
+      <section className="relative isolate overflow-hidden">
+        {sig}
         <div className="mx-auto grid max-w-site items-center gap-12 px-4 pb-20 pt-12 sm:px-6 lg:grid-cols-12 lg:pt-16">
           <div className="hero-in lg:col-span-6">
             <RatingChip lead={lead} />
@@ -230,6 +239,7 @@ function Hero({ lead, theme, call, upper, hof }: Ctx) {
   if (theme.hero === "fullbleed") {
     return (
       <section id="anfrage" className="relative isolate overflow-hidden bg-t-dark text-white">
+        {sig}
         <div className="absolute inset-0 -z-10 overflow-hidden"><div data-parallax="0.18" className="h-full w-full">{art("absolute inset-0 h-full w-full", 1)}</div></div>
         <div className="absolute inset-0 -z-10 bg-gradient-to-r from-black/80 via-black/50 to-black/5" />
         <div className="mx-auto grid max-w-site items-center gap-10 px-4 py-16 sm:px-6 lg:grid-cols-12 lg:py-24">
@@ -280,7 +290,8 @@ function Hero({ lead, theme, call, upper, hof }: Ctx) {
 
   if (theme.hero === "banner") {
     return (
-      <section className="border-b border-t-line">
+      <section className="relative isolate overflow-hidden border-b border-t-line">
+        {sig}
         <div className="hero-in mx-auto max-w-site px-4 pt-12 sm:px-6 lg:pt-16">
           <div className="flex flex-wrap items-end justify-between gap-6">
             <div className="min-w-0 max-w-4xl">
@@ -312,7 +323,8 @@ function Hero({ lead, theme, call, upper, hof }: Ctx) {
 
   // split: Text links, Schnellanfrage rechts
   return (
-    <section id="anfrage" className="relative overflow-hidden border-b border-t-line">
+    <section id="anfrage" className="relative isolate overflow-hidden border-b border-t-line">
+      {sig}
       <div className="hero-media absolute inset-y-0 right-0 hidden w-[42%] overflow-hidden lg:block" aria-hidden="true">
         <div data-parallax="0.12" className="h-full w-full">{art("h-full w-full", 0)}</div>
         <div className="absolute inset-0 bg-gradient-to-r from-t-bg via-t-bg/30 to-transparent" />
