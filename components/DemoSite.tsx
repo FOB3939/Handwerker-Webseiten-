@@ -675,7 +675,7 @@ function About({ lead, upper }: Ctx) {
           <div className="relative">
             <div className="relative grid aspect-[4/5] place-items-center overflow-hidden rounded-t bg-t-accent text-t-accent-ink">
               <span className="font-display text-[9rem] font-black leading-none opacity-90" aria-hidden="true">{logoMark}</span>
-              <span className="absolute inset-x-0 bottom-0 bg-black/25 p-4 text-xs font-medium text-white">Platz für ein Foto von {company.owner ?? "Inhaber und Team"} bei der Arbeit</span>
+              <span className="absolute inset-x-0 bottom-0 bg-black/60 p-4 text-xs font-medium text-white">Platz für ein Foto von {company.owner ?? "Inhaber und Team"} bei der Arbeit</span>
             </div>
             <div className="absolute -bottom-6 right-2 rounded-t bg-t-surface p-5 shadow-xl sm:-right-6">
               <p className="text-xs font-bold uppercase tracking-wider text-t-muted">Ihr Ansprechpartner</p>
