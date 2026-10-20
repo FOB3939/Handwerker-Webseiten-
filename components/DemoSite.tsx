@@ -3,6 +3,7 @@ import type { Lead } from "@/lib/types";
 import { themeStyle } from "@/lib/themes";
 import { resolveTheme, familyOf, type Identity } from "@/lib/identity";
 import { HeroFx, TradeDivider, fxFor, type TradeFxKind } from "./TradeFx";
+import TradeGame, { gameFor } from "./TradeGame";
 import { telHref } from "@/lib/leads";
 import Scene from "./Scene";
 import Photo, { photoSrc } from "./Photo";
@@ -40,6 +41,7 @@ export default function DemoSite({ lead }: { lead: Lead }) {
   };
   // Gewerk-Signatur (Effekt im Hero + Trennleisten), nur für Handwerk
   if (!ctx.hof) ctx.fx = fxFor(company.trade, familyOf(lead));
+  const game = ctx.hof ? null : gameFor(company.trade, ctx.fx);
   const heroHasForm = !ctx.hof && !["editorial", "organic", "banner"].includes(theme.hero);
 
   return (
@@ -62,6 +64,7 @@ export default function DemoSite({ lead }: { lead: Lead }) {
         {!heroHasForm && <QuoteSection {...ctx} />}
         <About {...ctx} />
         <Stats {...ctx} />
+        {game && <TradeGame lead={lead} kind={game} />}
         {ctx.hof ? <HofGallery {...ctx} /> : <Projects {...ctx} />}
         <Reviews {...ctx} />
         {ctx.fx && <TradeDivider kind={ctx.fx} />}

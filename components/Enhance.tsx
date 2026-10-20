@@ -83,12 +83,15 @@ if(M&&!reduce){
 // Motion wird als Datei im Projekt mitgeliefert (vendor/, MIT-Lizenz) und inline eingebettet,
 // damit die Animationen auch in exportierten Seiten ohne fremden Server laufen.
 const motion = readFileSync(join(process.cwd(), "vendor/motion-11.11.17.min.js"), "utf8");
+// Mitmach-Spiel je Gewerk (eigener Code, ohne Abhängigkeiten)
+const game = readFileSync(join(process.cwd(), "assets/trade-game.js"), "utf8");
 
 export default function Enhance() {
   return (
     <>
       <script id="demo-motion" dangerouslySetInnerHTML={{ __html: motion }} />
       <script id="demo-enhance" dangerouslySetInnerHTML={{ __html: script }} />
+      <script id="demo-game" dangerouslySetInnerHTML={{ __html: game }} />
     </>
   );
 }
