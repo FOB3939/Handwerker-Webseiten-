@@ -431,3 +431,8 @@ section:has(> .fx2-circuit) h1 { animation: fx2-flicker 0.8s steps(1, end) 2.2s 
 .fx2-ground-tall { top: min(64vh, calc(100% - 10rem)); }
 .fx2-laser { --laser-end: min(38vh, 64%); }
 @keyframes fx2-laser { 0% { top: 0; opacity: 0; } 8% { opacity: 1; } 70% { top: min(90vh, 100%); opacity: 1; } 100% { top: var(--laser-end); opacity: 0.4; } }
+
+/* Lesbare Akzentschrift (WCAG AA): eigene Textvariante je Palette, auf dunklen Flächen die helle */
+.text-t-accent { color: rgb(var(--accent-text, var(--accent))); }
+.bg-t-dark .text-t-accent, .text-t-dark-ink .text-t-accent { color: rgb(var(--accent-text-dark, var(--accent))); }
+.bg-t-dark .bg-t-surface .text-t-accent, .bg-t-dark .bg-t-bg .text-t-accent, .bg-t-dark .bg-white .text-t-accent { color: rgb(var(--accent-text, var(--accent))); }

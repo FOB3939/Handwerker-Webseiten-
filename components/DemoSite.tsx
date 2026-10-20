@@ -4,6 +4,11 @@ import { themeStyle } from "@/lib/themes";
 import { resolveTheme, familyOf, type Identity } from "@/lib/identity";
 import { HeroFx, TradeDivider, fxFor, type TradeFxKind } from "./TradeFx";
 import TradeGame, { gameFor } from "./TradeGame";
+import { readFileSync } from "node:fs";
+import { join } from "node:path";
+
+// Logo-Intro je Gewerk (Wasser, Strom, Holz …) – läuft direkt nach dem Splash, ohne Abhängigkeiten
+const intro = readFileSync(join(process.cwd(), "assets/trade-intro.js"), "utf8");
 import { telHref } from "@/lib/leads";
 import Scene from "./Scene";
 import Photo, { photoSrc } from "./Photo";
@@ -50,12 +55,14 @@ export default function DemoSite({ lead }: { lead: Lead }) {
       <link rel="stylesheet" href={theme.fontsHref} precedence="default" />
       <div className="scroll-progress fixed inset-x-0 top-0 z-[55] h-1 bg-t-accent" aria-hidden="true" />
       <Splash icon={site.logoIcon} mark={site.logoMark} name={site.brandName} tagline={`${company.trade} in ${company.city}`} logo={theme.logo} intro={theme.intro} />
+      <script id="demo-intro" dangerouslySetInnerHTML={{ __html: intro }} />
       <a href="#inhalt" className="skip-link rounded bg-t-ink px-3 py-2 text-t-bg">Zum Inhalt springen</a>
       <div className="bg-black px-4 py-1.5 text-center text-[11px] font-medium tracking-wide text-white/80" role="note">{DEMO_NOTICE}</div>
       <TopBar {...ctx} />
       <Header {...ctx} />
       <main id="inhalt">
         <Hero {...ctx} />
+        {game && <TradeGame lead={lead} kind={game} />}
         <Badges {...ctx} />
         <Marquee {...ctx} />
         {ctx.fx && <TradeDivider kind={ctx.fx} />}
@@ -64,7 +71,6 @@ export default function DemoSite({ lead }: { lead: Lead }) {
         {!heroHasForm && <QuoteSection {...ctx} />}
         <About {...ctx} />
         <Stats {...ctx} />
-        {game && <TradeGame lead={lead} kind={game} />}
         {ctx.hof ? <HofGallery {...ctx} /> : <Projects {...ctx} />}
         <Reviews {...ctx} />
         {ctx.fx && <TradeDivider kind={ctx.fx} />}
@@ -76,6 +82,7 @@ export default function DemoSite({ lead }: { lead: Lead }) {
       </main>
       <Footer {...ctx} />
       <StickyBar {...ctx} />
+      <script id="demo-ldjson" type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(localBusiness(lead)).replace(/</g, "\\u003c") }} />
       <Enhance />
     </div>
   );
@@ -97,8 +104,8 @@ function TopBar({ lead, call }: Ctx) {
         )}
         <span className="hidden text-t-dark-ink/75 md:inline">Einsatzgebiet: {company.serviceArea.filter((x) => !/umgebung/i.test(x)).slice(0, 3).join(", ")} &amp; Umgebung</span>
         <div className="flex items-center gap-4">
-          {company.email && <a href={`mailto:${company.email}`} className="hidden hover:underline sm:inline">{company.email}</a>}
-          {company.phone && <a href={call} className="font-semibold hover:underline">{company.phone}</a>}
+          {company.email && <a href={`mailto:${company.email}`} className="hidden min-h-[40px] items-center hover:underline sm:inline-flex">{company.email}</a>}
+          {company.phone && <a href={call} className="inline-flex min-h-[40px] items-center font-semibold hover:underline">{company.phone}</a>}
         </div>
       </div>
     </div>
@@ -118,7 +125,7 @@ function Header({ lead, call, theme }: Ctx) {
         <a href="#inhalt" className="min-w-0"><Logo lead={lead} theme={theme} /></a>
         <nav aria-label="Hauptnavigation" className="hidden items-center gap-7 text-sm font-semibold lg:flex">
           {site.nav.map((n) => (
-            <a key={n.href} href={n.href} className="whitespace-nowrap text-t-muted transition hover:text-t-ink">{n.label}</a>
+            <a key={n.href} href={n.href} className="inline-flex min-h-[44px] items-center whitespace-nowrap text-t-muted transition hover:text-t-ink">{n.label}</a>
           ))}
         </nav>
         <div className="flex items-center gap-2">
@@ -258,7 +265,7 @@ function Hero({ lead, theme, call, upper, hof, fx }: Ctx) {
             <p className="mt-6 max-w-xl text-lg text-white/80">{hof ? hero.sub : shortSub(hero.sub)}</p>
             <OfferStrip lead={lead} hof={hof} dark />
             {hof && <Bullets items={hero.bullets} dark />}
-            <a href={call} className="mt-8 inline-flex items-center gap-2 font-bold text-white underline-offset-4 hover:underline">
+            <a href={call} className="mt-8 inline-flex min-h-[44px] items-center gap-2 font-bold text-white underline-offset-4 hover:underline">
               <PhoneIcon /> {lead.company.phone ? `Lieber direkt anrufen: ${lead.company.phone}` : hero.ctaSecondary}
             </a>
           </div>
@@ -486,7 +493,7 @@ function ProductGrid({ lead, upper }: { lead: Lead; upper: string }) {
     <section id="leistungen" className="mx-auto max-w-site px-4 py-24 sm:px-6">
       <div className="flex flex-wrap items-end justify-between gap-6">
         <SectionHead kicker="Unser Angebot" title={servicesIntro.headline} text={servicesIntro.text} upper={upper} />
-        <a href="#besuch" className="font-bold text-t-accent underline-offset-4 hover:underline">Zeiten & Anfahrt</a>
+        <a href="#besuch" className="inline-flex min-h-[44px] items-center font-bold text-t-accent underline-offset-4 hover:underline">Zeiten & Anfahrt</a>
       </div>
       <div data-stagger className="mt-14 grid gap-5 sm:grid-cols-2 lg:grid-cols-3">
         {services.map((s) => (
@@ -536,7 +543,7 @@ function Visit({ lead, upper }: Ctx) {
           ) : (
             <p className="mt-4 text-t-dark-ink/80">{site.contact.responseNote}</p>
           )}
-          <p className="mt-6 text-xs text-t-dark-ink/60">Angaben aus öffentlichen Verzeichnissen – bitte vor Veröffentlichung mit dem Hof abstimmen.</p>
+          <p className="mt-6 text-xs text-t-dark-ink/75">Angaben aus öffentlichen Verzeichnissen – bitte vor Veröffentlichung mit dem Hof abstimmen.</p>
         </div>
       </div>
     </section>
@@ -575,7 +582,7 @@ function Services({ lead, theme, upper, hof }: Ctx) {
     <section id="leistungen" className="mx-auto max-w-site px-4 py-24 sm:px-6">
       <div className="flex flex-wrap items-end justify-between gap-6">
         <SectionHead kicker="Leistungen" title={servicesIntro.headline} text={servicesIntro.text} upper={upper} />
-        <a href="#anfrage" className="font-bold text-t-accent underline-offset-4 hover:underline">Leistung anfragen</a>
+        <a href="#anfrage" className="inline-flex min-h-[44px] items-center font-bold text-t-accent underline-offset-4 hover:underline">Leistung anfragen</a>
       </div>
       {theme.services === "numbered" && (
         <ol data-stagger className="mt-14 divide-y divide-t-line border-y border-t-line">
@@ -583,7 +590,7 @@ function Services({ lead, theme, upper, hof }: Ctx) {
             <li key={s.title} className="group grid gap-4 py-8 transition-colors hover:bg-t-surface md:grid-cols-12 md:items-center md:px-4">
               <span className="flex items-center gap-3 md:col-span-1 md:flex-col md:items-start">
                 <span className="svc-badge grid h-14 w-14 place-items-center rounded-full bg-t-accent/10 text-t-accent ring-1 ring-t-accent/25"><ServiceIcon name={serviceIcon(s.title, scene, s.items)} size={28} /></span>
-                <span className="font-display text-sm font-bold text-t-accent/70">{String(i + 1).padStart(2, "0")}</span>
+                <span className="font-display text-sm font-bold text-t-accent">{String(i + 1).padStart(2, "0")}</span>
               </span>
               <div className="md:col-span-5">
                 <h3 className={`font-display text-2xl font-semibold ${upper}`}>{s.title}</h3>
@@ -592,7 +599,7 @@ function Services({ lead, theme, upper, hof }: Ctx) {
               <ul className="flex flex-wrap gap-2 md:col-span-4">
                 {s.items.map((it) => <li key={it} className="rounded-full border border-t-line bg-t-surface px-3 py-1.5 text-sm">{it}</li>)}
               </ul>
-              <a href="#anfrage" className="text-sm font-bold text-t-accent md:col-span-2 md:text-right">Anfragen</a>
+              <a href="#anfrage" className="inline-flex min-h-[44px] items-center text-sm font-bold text-t-accent md:col-span-2 md:justify-end">Anfragen</a>
             </li>
           ))}
         </ol>
@@ -627,7 +634,7 @@ function Services({ lead, theme, upper, hof }: Ctx) {
                 <h3 className={`font-display text-xl font-bold ${upper}`}>{s.title}</h3>
                 <p className="mt-2 text-sm text-t-muted">{s.text}</p>
                 <p className="mt-3 text-sm font-semibold">{s.items.join(" · ")}</p>
-                <a href="#anfrage" className="mt-4 inline-block text-sm font-bold text-t-accent">Anfragen</a>
+                <a href="#anfrage" className="mt-2 inline-flex min-h-[44px] items-center text-sm font-bold text-t-accent">Anfragen</a>
               </div>
             </article>
           ))}
@@ -699,7 +706,7 @@ function Stats({ lead }: Ctx) {
       <dl data-stagger className="mx-auto grid max-w-site grid-cols-2 gap-y-8 px-4 py-12 sm:px-6 lg:grid-cols-4">
         {lead.site.trust.map((t) => (
           <div key={t.label} className="flex flex-col-reverse gap-1 px-2 text-center">
-            <dt className="text-sm opacity-85">{t.label}</dt>
+            <dt className="text-sm">{t.label}</dt>
             <dd data-count className="break-words font-display text-3xl font-black tabular-nums sm:text-5xl">{t.value}</dd>
           </div>
         ))}
@@ -895,7 +902,7 @@ function ContactCard({ icon, title, children }: { icon: ReactNode; title: string
     <div className="flex items-start gap-4 rounded-t bg-white/5 p-5 ring-1 ring-white/10">
       <span className="grid h-11 w-11 shrink-0 place-items-center rounded-full bg-t-accent text-t-accent-ink">{icon}</span>
       <div className="min-w-0">
-        <p className="text-xs font-semibold uppercase tracking-wider text-t-dark-ink/60">{title}</p>
+        <p className="text-xs font-semibold uppercase tracking-wider text-t-dark-ink/75">{title}</p>
         <div className="mt-0.5 break-words font-semibold">{children}</div>
       </div>
     </div>
@@ -911,8 +918,8 @@ function Contact({ lead, call, upper }: Ctx) {
         <div className="lg:col-span-5">
           <SectionHead kicker="Kontakt" title={contact.headline} text={contact.text} upper={upper} dark />
           <div data-stagger className="mt-8 grid gap-3">
-            {company.phone && <ContactCard icon={<PhoneIcon />} title="Telefon"><a href={call} className="font-display text-xl">{company.phone}</a></ContactCard>}
-            {company.email && <ContactCard icon={<MailIcon />} title="E-Mail"><a href={`mailto:${company.email}`}>{company.email}</a></ContactCard>}
+            {company.phone && <ContactCard icon={<PhoneIcon />} title="Telefon"><a href={call} className="inline-flex min-h-[44px] items-center font-display text-xl">{company.phone}</a></ContactCard>}
+            {company.email && <ContactCard icon={<MailIcon />} title="E-Mail"><a href={`mailto:${company.email}`} className="inline-flex min-h-[44px] items-center break-all">{company.email}</a></ContactCard>}
             <ContactCard icon={<PinIcon />} title="Standort">{company.address ?? company.city}</ContactCard>
             <ContactCard icon={<ShieldIcon />} title="Hinweis">{contact.responseNote}</ContactCard>
           </div>
@@ -940,14 +947,14 @@ function Footer({ lead, call, theme }: Ctx) {
         <div>
           <p className="font-bold">Seiten</p>
           <nav aria-label="Footer-Navigation" className="mt-3 grid gap-2">
-            {site.nav.map((n) => <a key={n.href} href={n.href} className="text-t-muted hover:text-t-ink">{n.label}</a>)}
+            {site.nav.map((n) => <a key={n.href} href={n.href} className="inline-flex min-h-[40px] items-center text-t-muted hover:text-t-ink">{n.label}</a>)}
           </nav>
         </div>
         <div>
           <p className="font-bold">Kontakt</p>
           <div className="mt-3 grid gap-2 text-t-muted">
-            {company.phone && <a href={call} className="hover:text-t-ink">{company.phone}</a>}
-            {company.email && <a href={`mailto:${company.email}`} className="break-words hover:text-t-ink">{company.email}</a>}
+            {company.phone && <a href={call} className="inline-flex min-h-[40px] items-center hover:text-t-ink">{company.phone}</a>}
+            {company.email && <a href={`mailto:${company.email}`} className="inline-flex min-h-[40px] items-center break-all hover:text-t-ink">{company.email}</a>}
             <span>{company.address ?? company.city}</span>
             <a href="#impressum" className="hover:text-t-ink">Impressum</a>
             <a href="#datenschutz" className="hover:text-t-ink">Datenschutz</a>
@@ -991,6 +998,25 @@ function PhotoCredits({ lead }: { lead: Lead }) {
   );
 }
 
+// Strukturierte Daten (schema.org) nur aus belegten Angaben – keine Bewertungen, keine Öffnungszeiten-Schätzungen.
+function localBusiness(lead: Lead) {
+  const { company, site } = lead;
+  const data: Record<string, unknown> = {
+    "@context": "https://schema.org",
+    "@type": "HomeAndConstructionBusiness",
+    name: company.name,
+    description: site.seoDescription,
+    areaServed: company.serviceArea.filter((x) => !/umgebung/i.test(x)).map((name) => ({ "@type": "Place", name })),
+    makesOffer: site.services.map((sv) => ({ "@type": "Offer", itemOffered: { "@type": "Service", name: sv.title } })),
+  };
+  if (company.phone) data.telephone = company.phone;
+  if (company.email) data.email = company.email;
+  data.address = company.address
+    ? { "@type": "PostalAddress", streetAddress: company.address.split(",")[0], addressLocality: company.city, addressCountry: "DE" }
+    : { "@type": "PostalAddress", addressLocality: company.city, addressCountry: "DE" };
+  return data;
+}
+
 function StickyBar({ lead, call }: Ctx) {
   return (
     <div className="fixed inset-x-0 bottom-0 z-40 border-t border-t-line bg-t-surface/95 p-3 shadow-[0_-8px_24px_rgba(0,0,0,0.08)] backdrop-blur md:hidden">
@@ -1014,7 +1040,7 @@ function fmt(n: number) {
 
 function Stars({ rating }: { rating: number }) {
   return (
-    <span className="inline-flex items-center gap-0.5 text-t-accent" aria-label={`${fmt(rating)} von 5 Sternen`}>
+    <span role="img" className="inline-flex items-center gap-0.5 text-t-accent" aria-label={`${fmt(rating)} von 5 Sternen`}>
       {Array.from({ length: 5 }).map((_, i) => (
         <svg key={i} width="16" height="16" viewBox="0 0 20 20" aria-hidden="true" fill={i < Math.round(rating) ? "currentColor" : "none"} stroke="currentColor">
           <path d="M10 1.5l2.6 5.4 5.9.8-4.3 4.1 1 5.8L10 14.9l-5.2 2.7 1-5.8L1.5 7.7l5.9-.8z" />

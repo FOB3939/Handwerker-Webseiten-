@@ -18,6 +18,15 @@ const RULES = [
 ];
 const BY_FX = { paint: "paint", tiles: "tiles", laser: "drywall", planks: "planks", leaves: "lawn", circuit: "circuit", bricks: "bricks", keys: "sweep" };
 const game = readFileSync(join(process.cwd(), "assets/trade-game.js"), "utf8");
+const intro = readFileSync(join(process.cwd(), "assets/trade-intro.js"), "utf8");
+function endOfFirstSection(html, from) {
+  if (from < 0) return -1;
+  const start = html.indexOf("<section", from);
+  if (start < 0) return -1;
+  const re = /<\/?section\b/g; re.lastIndex = start; let depth = 0, m;
+  while ((m = re.exec(html))) { depth += m[0][1] === "/" ? -1 : 1; if (!depth) return html.indexOf(">", m.index) + 1; }
+  return -1;
+}
 const esc = (s) => s.replace(/&/g, "&amp;").replace(/"/g, "&quot;").replace(/</g, "&lt;");
 
 const [out, ...files] = process.argv.slice(2);
@@ -35,8 +44,11 @@ for (const f of files) {
   const company = ((html.match(/<title>Website-Entwurf ([^<]+)<\/title>/) || [])[1] || "").trim();
   if (!kind) { console.log(basename(f), "kein Gewerk erkannt"); continue; }
   const sec = `<section id="mitmachen" class="tg-sec" data-trade-game="${kind}" data-company="${esc(company)}" data-cta="#kontakt" aria-label="Zum Ausprobieren"></section>`;
-  const at = html.indexOf('<section id="projekte"');
-  html = at > 0 ? html.slice(0, at) + sec + html.slice(at) : html.replace(/<footer/, sec + "<footer");
+  // Spiel direkt unter den Hero-Bereich (erste Section in <main>)
+  const heroEnd = endOfFirstSection(html, html.indexOf('<main id="inhalt"'));
+  html = heroEnd > 0 ? html.slice(0, heroEnd) + sec + html.slice(heroEnd) : html.replace(/<footer/, sec + "<footer");
+  // Logo-Intro je Gewerk direkt vor <main>, damit es sofort beim Laden läuft
+  if (!html.includes('id="demo-intro"')) html = html.replace('<main id="inhalt"', `<script id="demo-intro">${intro}</script><main id="inhalt"`);
   html += `\n<script id="demo-game">${game}</script>`;
   const name = basename(f);
   writeFileSync(join(out, name), html);

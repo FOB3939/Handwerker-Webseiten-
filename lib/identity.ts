@@ -101,6 +101,30 @@ function hash(s: string, salt: number) {
   return (h >>> 0);
 }
 const pick = <T,>(arr: T[], s: string, salt: number) => arr[hash(s, salt) % arr.length];
+// Lesbarkeit (WCAG AA, Kontrast ≥ 4,5:1): eigene Akzent-Textfarben für helle und dunkle Flächen
+// und eine Schriftfarbe auf Akzentflächen, die sicher lesbar ist. Arbeitet auf "r g b"-Strings der Theme-Variablen.
+const trip = (v: string) => v.split(/\s+/).map(Number);
+const lum = ([r, g, b]: number[]) => { const f = (c: number) => { c /= 255; return c <= 0.03928 ? c / 12.92 : ((c + 0.055) / 1.055) ** 2.4; }; return 0.2126 * f(r) + 0.7152 * f(g) + 0.0722 * f(b); };
+const ratio = (a: number[], b: number[]) => { const [x, y] = [lum(a), lum(b)].sort((m, n) => n - m); return (x + 0.05) / (y + 0.05); };
+function readable(base: number[], bgs: number[][], toward: 0 | 255): string {
+  for (let t = 0; t <= 1.0001; t += 0.04) {
+    const c = base.map((v) => Math.round(v + (toward - v) * t));
+    if (bgs.every((bg) => ratio(c, bg) >= 4.5)) return c.join(" ");
+  }
+  return toward ? "255 255 255" : "0 0 0";
+}
+export function withReadableColors(vars: Record<string, string>): Record<string, string> {
+  let accent = trip(vars.accent);
+  const dark = trip(vars.dark);
+  // Mittlere Akzenttöne (weder Weiß noch Dunkel lesbar): Akzent minimal abdunkeln, bis weiße Schrift ≥ 4,5:1 hat
+  if (ratio([255, 255, 255], accent) < 4.5 && ratio([20, 20, 20], accent) < 4.5) accent = trip(readable(accent, [[255, 255, 255]], 0));
+  const light = [vars.bg, vars.surface].filter(Boolean).map(trip);
+  const ink = trip(vars["accent-ink"]);
+  const darkInk = [20, 20, 20];
+  const accentInk = ratio(ink, accent) >= 4.5 ? vars["accent-ink"] : ratio([255, 255, 255], accent) >= 4.5 ? "255 255 255" : ratio(darkInk, accent) >= ratio([255, 255, 255], accent) ? darkInk.join(" ") : "255 255 255";
+  return { ...vars, accent: accent.join(" "), "accent-ink": accentInk, "accent-text": readable(accent, light, 0), "accent-text-dark": readable(accent, [dark], 255) };
+}
+
 const rgb = (hex: string) => {
   const n = parseInt(hex.slice(1), 16);
   return `${(n >> 16) & 255} ${(n >> 8) & 255} ${n & 255}`;
@@ -126,18 +150,18 @@ export function familyOf(lead: Lead) {
 export function resolveTheme(lead: Lead): Identity {
   const base = themes[lead.site.theme];
   const hof = (lead.site.category ?? (lead.site.theme === "hof" || lead.site.scene === "farm" ? "hof" : "handwerk")) === "hof";
-  if (hof) return { ...base, logo: "badge", intro: "rise", name: lead.site.theme };
+  if (hof) return { ...base, vars: withReadableColors(base.vars), logo: "badge", intro: "rise", name: lead.site.theme };
   const s = lead.slug;
   const look: Look = (lead.site as { look?: Look }).look ?? {};
   const pal = at(PALETTES[family(lead)], look.palette, s, 1);
   const fonts = at(FONTS, look.font, s, 2);
   return {
-    vars: {
+    vars: withReadableColors({
       bg: rgb(pal.bg), surface: rgb(pal.surface), ink: rgb(pal.ink), muted: rgb(pal.muted), line: rgb(pal.line),
       accent: rgb(pal.accent), "accent-ink": rgb(pal.accentInk), dark: rgb(pal.dark), "dark-ink": rgb(pal.darkInk),
       "font-display": `${fonts.display}, var(--font-sans)`, "font-body": `${fonts.body}, var(--font-sans)`,
       radius: at(RADII, look.radius, s, 3),
-    },
+    }),
     hero: at(HEROES, look.hero, s, 4),
     services: at(SERVICES, look.services, s, 5),
     displayCase: fonts.upper ? "upper" : "normal",
