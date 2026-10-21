@@ -1,276 +1,409 @@
 {
   "id": "2026-10-21-91",
-  "slug": "zech-schreinerei-bergkirchen",
+  "slug": "florian-beka-dienstleistungen-wartenberg",
   "date": "2026-10-21",
   "company": {
-    "name": "Zech Schreinerei",
-    "owner": null,
-    "trade": "Schreinerei",
-    "city": "Bergkirchen",
-    "address": "Graßlfinger Str. 55, 85232 Bergkirchen (Feldgeding)",
-    "phone": "08131 667981",
-    "email": null,
+    "name": "Florian Beka – Dienstleistungen",
+    "owner": "Florian Beka",
+    "trade": "Hausmeisterservice & Gebäudereinigung",
+    "city": "Wartenberg",
+    "address": "Moosburger Str. 23a, 85456 Wartenberg",
+    "phone": "0174 3809031",
+    "email": "info.firmabeka@gmail.com",
     "serviceArea": [
-      "Bergkirchen",
-      "Feldgeding",
-      "Dachau",
-      "Karlsfeld",
-      "Schwabhausen",
-      "Odelzhausen"
+      "Wartenberg",
+      "Erding",
+      "Moosburg",
+      "Berglern",
+      "Langenpreising",
+      "Fraunberg"
     ]
   },
   "listings": {
     "google": {
-      "url": "https://www.google.com/maps/search/?api=1&query=Zech%20Schreinerei%20Gra%C3%9Flfinger%20Str.%2055%20Bergkirchen",
+      "url": "https://www.google.com/maps/search/?api=1&query=Florian%20Beka%20Dienstleistungen%20Moosburger%20Str.%2023a%20Wartenberg",
       "rating": null,
       "reviews": null,
-      "evidence": "NICHT BELEGT – kein Google-Spiegel (trustlocal, firmania, rgv-bayern) gefunden. Nur Verzeichniseinträge: 11880 („Zech Schreinerei“, Graßlfinger Str. 55, Bergkirchen) und suchehandwerker.de (gleiche Adresse, Tel. 08131 667981, keine Bewertungen). Ein weiteres Verzeichnis nennt „Stephan Zech Kunstgewerbe Schreinerei“ unter derselben Adresse."
+      "evidence": "Kein Google-Beleg gefunden (kein Spiegel-Treffer bei trustlocal/rgv-bayern/firmania). Annahme über öffentlich belegte Freemail-Adresse info.firmabeka@gmail.com im 11880-Eintrag (Hausmeisterservice, Gebäudereinigung, Büroreinigung, Winterdienst; Moosburger Str. 23a, Tel. (0174) 3809031, Status „geöffnet“)."
     },
     "myhammer": {
-      "url": "https://www.11880.com/branchenbuch/bergkirchen-kreis-dachau/060694711B38607949/zech-schreinerei.html",
+      "url": "https://www.my-hammer.de/reinigung/hausmeisterservice-berufe/wartenberg-erding",
       "rating": null,
       "reviews": null,
-      "evidence": "Kein MyHammer gefunden – Eintrag „Zech Schreinerei“ bei 11880 (Kategorie Schreiner/Tischler, Graßlfinger Str. 55, 85232 Bergkirchen)."
+      "evidence": "Auftragsbank-Anzeige (16.04.2020, unterzeichnet von Benjamin Beka als stellv. Geschäftsinhaber) verweist auf ein MyHammer-Profil unter „Florian Beka“ mit Bewertungen und Arbeitsfotos – Profil-URL und Bewertungszahl nicht belegt."
     }
   },
   "websiteStatus": "keine eigene Website gefunden",
   "websiteChecks": [
-    "(1) „Schreinerei Zech Bergkirchen Graßlfinger Str“ mit blocked_domains (11880, Gelbe Seiten, Das Örtliche, Telefonbuch, Cylex, meinestadt, Creditreform, Facebook, Instagram, golocal, MyHammer, Northdata, Firmenwissen, WKDB, Yelp, trustlocal, wlw) – nur Verzeichnisse (suchehandwerker.de u. a.), keine eigene Domain. Gleichnamige, aber andere Betriebe: Schreinerei Zech GmbH & Co. KG (Freising), Schreinerei Franz Zech (Amberg) – beide nicht am Ort",
-    "(2) Domain-Check allowed_domains schreinerei-zech.de, zech-schreinerei.de, schreiner-zech.de, stephan-zech.de, zech-bergkirchen.de, schreinerei-zech-bergkirchen.de, zech-kunstgewerbe.de, kunstschreinerei-zech.de – einziger Treffer schreinerei-zech.de = Schreinerei Franz Zech in Amberg (anderer Betrieb, kein Bezug zu Bergkirchen)",
-    "(3) Telefonnummer-Suche und Impressum-Suche NICHT durchgeführt (Suchbudget erschöpft)",
-    "(4) Keine E-Mail gefunden (weder Freemail noch Firmendomain)",
-    "Website-Risiko: mittel – nur 2 von 4 Prüfungen durchgeführt, kein Google-Beleg, keine Freemail"
+    "(1) „Beka Wartenberg Moosburger Str. 23a Gebäudereinigung“ mit blocked_domains (11880, Gelbe Seiten, Das Örtliche, Telefonbuch, Cylex, meinestadt, Creditreform, Facebook, Instagram, golocal, MyHammer, Northdata, Firmenwissen, WKDB, Yelp, trustlocal, wlw) – nur tellows, finde-offen.de, auftragsbank.de; keine eigene Domain. beka-dienstleistungsgesellschaft.de gehört zur Beka Security Dienstleistungsgesellschaft mbH (Moosburg) – andere Firma, keine Verbindung belegt.",
+    "(2) Domain-Check allowed_domains firmabeka.de, firma-beka.de, beka-dienstleistungen.de, beka-service.de, bb-service.de, beka-reinigung.de, beka-wartenberg.de, florian-beka.de – keine Treffer",
+    "(3) Telefon-/E-Mail-Suche „0174 3809031“/„01743809031“/„info.firmabeka“ – keine Website (nur fremde Beka-Firmen im Ausland)",
+    "(4) „Florian Beka Dienstleistungen Wartenberg“ ohne Filter – nur auftragsbank.de-Anzeigen (2020, 2022), keine Website, kein Impressum",
+    "Website-Risiko: niedrig – alle Prüfungen negativ, Kontakt läuft über Gmail-Adresse"
   ],
   "facts": {
     "services": [
-      "Schreinerarbeiten",
-      "Tischlerarbeiten"
+      "Hausmeisterservice",
+      "Gebäudereinigung",
+      "Büroreinigung",
+      "Praxisreinigung",
+      "Winterdienst",
+      "Garten- und Landschaftspflege"
     ],
-    "experience": null,
+    "experience": "laut Auftragsbank-Anzeige (2020) als Dienstleister tätig seit Januar 2017",
     "praisedFor": []
   },
   "strategy": {
-    "audience": "Hauseigentümer und Familien in Bergkirchen, Feldgeding, Dachau und Karlsfeld, die Möbel nach Maß, Einbauten oder Holzreparaturen suchen",
-    "mainService": "Schreinerarbeiten nach Maß",
-    "trustSignal": "Kleine Schreinerei direkt in Feldgeding – kurze Wege im Dachauer Land",
-    "conversionGoal": "Anfrage für ein Möbel- oder Einbauprojekt per Telefon oder Formular",
-    "visualConcept": "Warme Werkstattästhetik: helles Massivholz, Hobelspäne, saubere Kanten und Maßarbeit"
+    "audience": "Hausverwaltungen, Eigentümergemeinschaften, Arztpraxen und Büros in Wartenberg, Erding und Moosburg, die zuverlässige Reinigung, Objektbetreuung und Winterdienst suchen",
+    "mainService": "Hausmeisterservice und Gebäudereinigung",
+    "trustSignal": "Inhabergeführter Betrieb aus Wartenberg, direkt per Handy erreichbar, seit 2017 tätig",
+    "conversionGoal": "Unverbindliches Angebot für Reinigung oder Objektbetreuung anfragen (Anruf/WhatsApp)",
+    "visualConcept": "Gepflegte Treppenhäuser, glänzende Böden und geräumte Wege – ordentlich, hell, verlässlich"
   },
   "sales": {
-    "score": 3,
+    "score": 7,
     "whyGoodLead": [
-      "Keine eigene Website gefunden – nur knappe Verzeichniseinträge",
-      "Kein Google-Profil sichtbar – Website + Profil bringen Sichtbarkeit im Landkreis Dachau",
-      "Schreiner war bisher seltenes Gewerk in der Lead-Liste",
-      "Maßarbeit lebt von Bildern – eine Website mit Projektgalerie zeigt das Können"
+      "Keine eigene Website – Kontakt nur über Gmail-Adresse und Verzeichnisse",
+      "Mobilnummer öffentlich gelistet – ideal für WhatsApp-Erstkontakt",
+      "Gewerbekunden (Praxen, Büros, Hausverwaltungen) prüfen Anbieter online – Website schafft Vertrauen",
+      "Breites Leistungspaket von Reinigung bis Winterdienst lässt sich gut präsentieren"
     ],
-    "pitch": "Grüß Gott, hier ist … – ich baue Websites für Handwerker im Landkreis Dachau. Ich habe Ihre Schreinerei in Bergkirchen im Branchenbuch gefunden, aber keine eigene Website. Ich habe unverbindlich einen Entwurf vorbereitet, auf dem Kunden Ihre Arbeiten sehen und direkt anfragen können – darf ich Ihnen den Link schicken?"
+    "pitch": "Hallo Herr Beka, hier ist … – ich baue Websites für Betriebe im Landkreis Erding. Ich habe Ihren Eintrag für Hausmeisterservice und Gebäudereinigung in Wartenberg gefunden, aber keine eigene Website. Ich habe unverbindlich einen Entwurf vorbereitet, auf dem Hausverwaltungen und Praxen Ihre Leistungen sehen und direkt anfragen können – darf ich Ihnen den Link schicken?"
   },
   "manualChecks": [
-    "RESERVE – weder Google-Eintrag noch Freemail-Adresse belegt: NUR versenden, wenn Google Maps einen Eintrag OHNE Website zeigt.",
-    "Telefonnummer 08131 667981 und Impressum-Suche („Impressum Zech Bergkirchen“) vor Versand nachholen – wurden aus Budgetgründen nicht geprüft",
-    "Prüfen, ob der Betrieb noch aktiv ist (nur ältere Verzeichniseinträge, Festnetznummer, keine Bewertungen)",
-    "Inhaber unklar – ein Verzeichnis nennt „Stephan Zech Kunstgewerbe Schreinerei“ an derselben Adresse; Schwerpunkt (Kunstgewerbe/Möbel/Innenausbau) beim Erstkontakt klären",
-    "Leistungen nur als Kategorie Schreiner/Tischler belegt – Detailleistungen (Möbel, Türen, Innenausbau) bestätigen",
-    "Logo und Projektfotos: nicht gefunden – beim Betrieb anfragen"
+    "Website-Risiko: niedrig – vor Versand in Google Maps prüfen, dass keine Website hinterlegt ist (Grund: Google-Eintrag nicht belegt, Annahme über Gmail-Adresse)",
+    "Ansprechpartner klären: Firma läuft auf Florian Beka, Auftragsbank-Anzeige 2020 von Benjamin Beka (stellv. Geschäftsinhaber) unterzeichnet",
+    "Aktivität prüfen: Verzeichnisdaten teils älter (finde-offen 2021, Anzeigen 2020/2022) – Nummer 0174 3809031 vor Versand verifizieren",
+    "Auftragsbank-Anzeige 2022 nennt „BB-Service“ (Wartenberg) – prüfen, ob neuer Firmenname desselben Betriebs; ggf. Branding anpassen",
+    "MyHammer-Profil suchen (Bewertungen/Fotos) – Bewertungen erst nach Prüfung übernehmen",
+    "Logo und Fotos: nicht gefunden – beim Betrieb anfragen"
   ],
   "sources": [
     {
-      "label": "11880 – Zech Schreinerei Bergkirchen",
-      "url": "https://www.11880.com/branchenbuch/bergkirchen-kreis-dachau/060694711B38607949/zech-schreinerei.html"
+      "label": "11880 – Hausmeisterservices Moosburg (Liste mit Florian Beka – Dienstleistungen, Gmail-Adresse)",
+      "url": "https://www.11880.com/suche/hausmeisterservice/moosburg"
     },
     {
-      "label": "suchehandwerker.de – Zech Schreinerei in Bergkirchen",
-      "url": "https://suchehandwerker.de/betrieb/zech-schreinerei-301038/"
+      "label": "tellows – Gebäudereinigung Florian Beka, 01743809031",
+      "url": "https://www.tellows.de/num/01743809031"
     },
     {
-      "label": "schreiner-tischler.de – Schreiner aus Bergkirchen (Übersicht)",
-      "url": "https://www.schreiner-tischler.de/bergkirchen"
+      "label": "finde-offen.de – Florian Beka – Dienstleistungen, Moosburger Str. 23a",
+      "url": "https://finde-offen.de/wartenberg/florian-beka-dienstleistungen-4491060"
+    },
+    {
+      "label": "Auftragsbank – Florian Beka in Wartenberg",
+      "url": "https://www.auftragsbank.de/firmen/florian-beka/27448"
+    },
+    {
+      "label": "Auftragsbank – Anzeige Dienstleistungen im Raum München/Erding (2020)",
+      "url": "https://www.auftragsbank.de/gesuche/dienstleistungen-im-raum-muenchenerding-florian-beka-gebaeudereingun/72519"
     }
   ],
   "site": {
-    "theme": "atelier",
+    "theme": "objekt",
     "category": "handwerk",
     "heroOffer": [
-      "Möbel nach Maß",
-      "Einbauschränke",
-      "Innentüren",
-      "Holzreparaturen",
-      "Innenausbau"
+      "Hausmeisterdienst",
+      "Gebäudereinigung",
+      "Büroreinigung",
+      "Winterdienst",
+      "Gartenpflege"
     ],
-    "scene": "kitchen",
-    "logoIcon": "cabinet",
-    "logoMark": "ZS",
-    "brandName": "Zech Schreinerei",
-    "seoTitle": "Schreinerei in Bergkirchen – Zech Schreinerei",
-    "seoDescription": "Schreinerarbeiten nach Maß aus Bergkirchen-Feldgeding: Möbel, Einbauten, Türen und Reparaturen im Landkreis Dachau. Jetzt unverbindlich anfragen.",
+    "scene": "facade",
+    "logoIcon": "broom",
+    "logoMark": "FB",
+    "brandName": "Beka Dienstleistungen",
+    "seoTitle": "Hausmeisterservice & Gebäudereinigung in Wartenberg – Florian Beka",
+    "seoDescription": "Hausmeisterservice, Gebäude-, Büro- und Praxisreinigung, Winterdienst und Gartenpflege in Wartenberg und Umgebung. Jetzt unverbindlich anfragen.",
     "nav": [
-      { "label": "Leistungen", "href": "#leistungen" },
-      { "label": "Projekte", "href": "#projekte" },
-      { "label": "Bewertungen", "href": "#bewertungen" },
-      { "label": "Ablauf", "href": "#ablauf" },
-      { "label": "FAQ", "href": "#faq" },
-      { "label": "Kontakt", "href": "#kontakt" }
+      {
+        "label": "Leistungen",
+        "href": "#leistungen"
+      },
+      {
+        "label": "Projekte",
+        "href": "#projekte"
+      },
+      {
+        "label": "Bewertungen",
+        "href": "#bewertungen"
+      },
+      {
+        "label": "Ablauf",
+        "href": "#ablauf"
+      },
+      {
+        "label": "FAQ",
+        "href": "#faq"
+      },
+      {
+        "label": "Kontakt",
+        "href": "#kontakt"
+      }
     ],
     "hero": {
-      "eyebrow": "Schreinerei · Bergkirchen-Feldgeding",
-      "headline": "Ihre Schreinerei in Bergkirchen",
-      "sub": "Möbel, Einbauten und Holzarbeiten nach Maß – gefertigt im Dachauer Land.",
-      "ctaPrimary": "Projekt anfragen",
+      "eyebrow": "Hausmeisterservice · Wartenberg",
+      "headline": "Hausmeisterservice und Reinigung in Wartenberg",
+      "sub": "Objekte, Büros und Praxen gepflegt – vom Treppenhaus bis zum geräumten Gehweg.",
+      "ctaPrimary": "Angebot anfragen",
       "ctaSecondary": "Anrufen",
       "bullets": [
-        "Werkstatt in Feldgeding",
-        "Maßarbeit statt Möbel von der Stange",
-        "Kurze Wege nach Dachau und Karlsfeld"
+        "Inhabergeführt aus Wartenberg",
+        "Reinigung, Objektpflege, Winterdienst",
+        "Direkt per Handy erreichbar"
       ],
-      "imageLabel": "Schreinerwerkstatt mit Massivholzplatten und Hobelbank"
+      "imageLabel": "frisch gereinigtes Treppenhaus mit glänzendem Boden"
     },
     "badges": [
-      { "title": "Maßarbeit", "sub": "passend für Ihren Raum" },
-      { "title": "Massivholz", "sub": "und Plattenwerkstoffe" },
-      { "title": "Einbauten", "sub": "Schränke & Nischen" },
-      { "title": "Feldgeding", "sub": "Graßlfinger Straße" }
+      {
+        "title": "Hausmeister",
+        "sub": "Objektbetreuung"
+      },
+      {
+        "title": "Reinigung",
+        "sub": "Büro & Praxis"
+      },
+      {
+        "title": "Winterdienst",
+        "sub": "Räumen & Streuen"
+      },
+      {
+        "title": "Wartenberg",
+        "sub": "Moosburger Straße"
+      }
     ],
     "trust": [
-      { "value": "Vor Ort", "label": "Werkstatt in Bergkirchen" },
-      { "value": "Maß", "label": "jedes Stück individuell" },
-      { "value": "Holz", "label": "Möbel, Türen, Ausbau" },
-      { "value": "Direkt", "label": "ein Ansprechpartner" }
+      {
+        "value": "2017",
+        "label": "als Dienstleister tätig"
+      },
+      {
+        "value": "6",
+        "label": "Leistungsbereiche"
+      },
+      {
+        "value": "Vor Ort",
+        "label": "Betrieb in Wartenberg"
+      },
+      {
+        "value": "Mobil",
+        "label": "schnell erreichbar"
+      }
     ],
     "servicesIntro": {
-      "headline": "Holzarbeiten, die genau passen",
-      "text": "Ob Dachschräge, Nische oder ganzer Raum: Wir planen und fertigen Möbel und Einbauten, die sich nach Ihrem Zuhause richten."
+      "headline": "Alles rund ums Objekt aus einer Hand",
+      "text": "Reinigung, Hausmeisterdienst, Grünpflege und Winterdienst – ein Ansprechpartner statt vieler Einzelaufträge."
     },
     "services": [
       {
-        "title": "Möbel nach Maß",
-        "text": "Tische, Regale und Sideboards, gefertigt in den Maßen und Oberflächen, die zu Ihrem Raum passen.",
-        "items": ["Tische", "Regale", "Sideboards"]
+        "title": "Hausmeisterservice",
+        "text": "Regelmäßige Objektkontrollen und kleine Arbeiten rund ums Haus – damit Mieter und Eigentümer sich auf ein gepflegtes Objekt verlassen können.",
+        "items": [
+          "Objektkontrolle",
+          "Kleinreparaturen",
+          "Mülltonnenservice"
+        ]
       },
       {
-        "title": "Einbauschränke",
-        "text": "Schränke für Dachschrägen, Nischen und Flure – der Platz wird bis in die Ecke genutzt.",
-        "items": ["Dachschrägen", "Nischen", "Garderoben"]
+        "title": "Gebäudereinigung",
+        "text": "Treppenhäuser, Eingangsbereiche und Gemeinschaftsflächen werden im festen Turnus sauber gehalten.",
+        "items": [
+          "Treppenhausreinigung",
+          "Eingangsbereiche",
+          "Gemeinschaftsräume"
+        ]
       },
       {
-        "title": "Innentüren",
-        "text": "Neue Innentüren liefern und einbauen oder bestehende Türen anpassen.",
-        "items": ["Türen einbauen", "Türen kürzen", "Zargen"]
+        "title": "Büroreinigung",
+        "text": "Saubere Arbeitsplätze, Küchen und Sanitärräume – planbar zu Zeiten, die den Betrieb nicht stören.",
+        "items": [
+          "Arbeitsplätze",
+          "Sanitärräume",
+          "Teeküchen"
+        ]
       },
       {
-        "title": "Innenausbau",
-        "text": "Verkleidungen, Ablagen und Holzelemente für Wohnräume, Treppenhaus und Dachgeschoss.",
-        "items": ["Verkleidungen", "Fensterbänke", "Ablagen"]
+        "title": "Praxisreinigung",
+        "text": "Gründliche Reinigung von Wartezimmern, Behandlungsräumen und Empfang für einen gepflegten ersten Eindruck.",
+        "items": [
+          "Wartezimmer",
+          "Behandlungsräume",
+          "Empfang"
+        ]
       },
       {
-        "title": "Küchenanpassung",
-        "text": "Fronten, Arbeitsplatten und Passstücke so angepasst, dass die Küche sauber abschließt.",
-        "items": ["Passblenden", "Arbeitsplatten", "Fronten"]
+        "title": "Winterdienst",
+        "text": "Gehwege, Zufahrten und Eingänge werden geräumt und gestreut, damit die Räum- und Streupflicht erfüllt ist.",
+        "items": [
+          "Schneeräumen",
+          "Streuen",
+          "Zufahrten"
+        ]
       },
       {
-        "title": "Reparaturen",
-        "text": "Klemmende Türen, lose Beschläge oder beschädigte Möbel – kleine Holzarbeiten zuverlässig erledigt.",
-        "items": ["Beschläge", "Ausbesserungen", "Nacharbeiten"]
+        "title": "Garten- und Grünpflege",
+        "text": "Rasen, Hecken und Außenanlagen bleiben über die Saison gepflegt.",
+        "items": [
+          "Rasenmähen",
+          "Heckenschnitt",
+          "Laub entfernen"
+        ]
       }
     ],
     "why": {
-      "headline": "Schreinerhandwerk aus Feldgeding – persönlich und genau.",
+      "headline": "Ein Ansprechpartner für Ihr Objekt in Wartenberg.",
       "points": [
-        { "title": "Kurze Wege", "text": "Von Feldgeding aus schnell in Bergkirchen, Dachau, Karlsfeld und Schwabhausen." },
-        { "title": "Ein Ansprechpartner", "text": "Beratung, Aufmaß und Montage aus einer Hand – ohne Weiterreichen." },
-        { "title": "Passgenau", "text": "Jedes Stück wird nach Aufmaß vor Ort gefertigt, nicht aus dem Katalog." },
-        { "title": "Auch Kleines", "text": "Neben großen Einbauten übernehmen wir auch Anpassungen und Reparaturen." }
+        {
+          "title": "Alles aus einer Hand",
+          "text": "Reinigung, Hausmeisterdienst, Grünpflege und Winterdienst kommen vom selben Betrieb."
+        },
+        {
+          "title": "Kurze Wege",
+          "text": "Von Wartenberg aus schnell in Erding, Moosburg und Berglern."
+        },
+        {
+          "title": "Direkter Draht",
+          "text": "Ein Anruf oder eine WhatsApp-Nachricht an den Inhaber genügt."
+        },
+        {
+          "title": "Seit 2017 aktiv",
+          "text": "Erfahrung mit Reinigung und Objektpflege im Landkreis Erding."
+        }
       ]
     },
     "reviews": {
       "headline": "Was Kunden sagen",
-      "summary": "Kundenstimmen werden hier eingebunden, sobald ein Google-Profil mit Bewertungen besteht.",
+      "summary": "Kundenstimmen werden hier eingebunden, sobald sie aus Google oder MyHammer übernommen sind.",
       "highlights": [
-        "Schreinerei in Bergkirchen",
-        "Maßarbeit aus Holz",
-        "Persönlicher Kontakt"
+        "Hausmeisterservice in Wartenberg",
+        "Büro- und Praxisreinigung",
+        "Winterdienst"
       ],
       "source": "Google",
-      "sourceUrl": "https://www.google.com/maps/search/?api=1&query=Zech%20Schreinerei%20Gra%C3%9Flfinger%20Str.%2055%20Bergkirchen",
+      "sourceUrl": "https://www.google.com/maps/search/?api=1&query=Florian%20Beka%20Dienstleistungen%20Moosburger%20Str.%2023a%20Wartenberg",
       "rating": null,
       "count": null
     },
     "process": {
-      "headline": "So entsteht Ihr Möbelstück",
+      "headline": "So kommt Ihr Objekt in gute Hände",
       "steps": [
-        { "title": "Anfrage", "text": "Rufen Sie an oder schicken Sie Fotos und grobe Maße Ihres Vorhabens." },
-        { "title": "Aufmaß", "text": "Vor Ort wird genau gemessen und besprochen, wie das Stück aussehen soll." },
-        { "title": "Angebot", "text": "Sie erhalten ein klares Angebot mit Material und Ausführung." },
-        { "title": "Fertigung & Montage", "text": "In der Werkstatt gefertigt und bei Ihnen sauber eingebaut." }
+        {
+          "title": "Anfrage",
+          "text": "Objekt, Fläche und gewünschte Leistungen kurz per Anruf oder WhatsApp schildern."
+        },
+        {
+          "title": "Besichtigung",
+          "text": "Vor Ort werden Umfang und Turnus gemeinsam festgelegt."
+        },
+        {
+          "title": "Angebot",
+          "text": "Sie erhalten ein klares Angebot mit festen Leistungen."
+        },
+        {
+          "title": "Betreuung",
+          "text": "Reinigung und Objektpflege laufen im vereinbarten Rhythmus."
+        }
       ]
     },
     "gallery": {
-      "headline": "Aus der Werkstatt",
-      "text": "Für die Live-Version zeigen wir hier echte Arbeiten der Schreinerei.",
+      "headline": "Gepflegte Objekte im Landkreis Erding",
+      "text": "Für die Live-Version zeigen wir hier echte Einsätze des Betriebs.",
       "items": [
-        { "title": "Dachschrägenschrank", "photoNeeded": "Einbauschrank unter einer Dachschräge" },
-        { "title": "Massivholztisch", "photoNeeded": "Esstisch aus Massivholz im Wohnraum" },
-        { "title": "Garderobe", "photoNeeded": "Einbaugarderobe im Flur" },
-        { "title": "Innentür", "photoNeeded": "neu eingebaute Holz-Innentür mit Zarge" },
-        { "title": "Werkstatt", "photoNeeded": "Hobelbank und Werkstücke in der Werkstatt" }
+        {
+          "title": "Treppenhaus",
+          "photoNeeded": "frisch gereinigtes Treppenhaus in einem Mehrfamilienhaus"
+        },
+        {
+          "title": "Büro",
+          "photoNeeded": "sauberer Büroraum nach der Unterhaltsreinigung"
+        },
+        {
+          "title": "Praxis",
+          "photoNeeded": "gepflegter Empfangsbereich einer Arztpraxis"
+        },
+        {
+          "title": "Winterdienst",
+          "photoNeeded": "geräumter und gestreuter Gehweg vor einem Wohnhaus"
+        },
+        {
+          "title": "Außenanlage",
+          "photoNeeded": "gemähter Rasen und geschnittene Hecke an einer Wohnanlage"
+        }
       ]
     },
     "region": {
-      "headline": "Schreinerei für Bergkirchen und das Dachauer Land",
-      "text": "Von Feldgeding aus arbeiten wir in Bergkirchen, Dachau, Karlsfeld, Schwabhausen und Odelzhausen.",
+      "headline": "Objektbetreuung für Wartenberg und Umgebung",
+      "text": "Von Wartenberg aus im Einsatz in Erding, Moosburg, Berglern, Langenpreising und Fraunberg.",
       "places": [
-        "Bergkirchen",
-        "Feldgeding",
-        "Dachau",
-        "Karlsfeld",
-        "Schwabhausen",
-        "Odelzhausen"
+        "Wartenberg",
+        "Erding",
+        "Moosburg",
+        "Berglern",
+        "Langenpreising",
+        "Fraunberg"
       ]
     },
     "faq": [
-      { "q": "Fertigen Sie auch einzelne Möbelstücke?", "a": "Ja, auch einzelne Stücke wie ein Regal oder ein Tisch werden nach Maß gefertigt." },
-      { "q": "Kann ich vorab Fotos und Maße schicken?", "a": "Ja, Fotos und grobe Maße helfen für eine erste Einschätzung vor dem Aufmaß." },
-      { "q": "Übernehmen Sie auch kleine Reparaturen?", "a": "Ja, auch Anpassungen an Türen, Beschlägen oder Möbeln – fragen Sie einfach an." },
-      { "q": "Wie lange dauert die Fertigung?", "a": "Das hängt von Umfang und Material ab. Ein Zeitplan wird mit dem Angebot abgestimmt." },
-      { "q": "Arbeiten Sie auch außerhalb von Bergkirchen?", "a": "Ja, im Landkreis Dachau und Umgebung, etwa in Dachau und Karlsfeld." }
+      {
+        "q": "Übernehmen Sie auch regelmäßige Treppenhausreinigung?",
+        "a": "Ja, Gebäude- und Treppenhausreinigung im festen Turnus gehört zum Angebot."
+      },
+      {
+        "q": "Reinigen Sie auch Arztpraxen?",
+        "a": "Ja, Praxis- und Büroreinigung werden angeboten – Zeiten werden mit Ihnen abgestimmt."
+      },
+      {
+        "q": "Kann ich den Winterdienst separat buchen?",
+        "a": "Fragen Sie einfach an – Umfang und Einsatzbereich werden individuell vereinbart."
+      },
+      {
+        "q": "Gibt es eine Besichtigung vor dem Angebot?",
+        "a": "Ja, Umfang und Turnus werden in der Regel vor Ort abgestimmt."
+      },
+      {
+        "q": "Wie erreiche ich Sie am schnellsten?",
+        "a": "Per Anruf oder WhatsApp unter 0174 3809031 oder per E-Mail."
+      }
     ],
     "contact": {
-      "headline": "Ihr Projekt – unverbindlich anfragen",
-      "text": "Beschreiben Sie kurz, was entstehen soll: Raum, ungefähre Maße und Wunschmaterial. Fotos helfen.",
+      "headline": "Ihr Angebot – unverbindlich",
+      "text": "Beschreiben Sie kurz Ihr Objekt: Art, ungefähre Fläche und welche Leistungen Sie brauchen.",
       "topics": [
-        "Möbel nach Maß",
-        "Einbauschrank",
-        "Innentüren",
-        "Innenausbau",
-        "Reparatur",
+        "Hausmeisterservice",
+        "Gebäudereinigung",
+        "Büro-/Praxisreinigung",
+        "Winterdienst",
+        "Gartenpflege",
         "Sonstiges"
       ],
-      "responseNote": "Aufmaß vor Ort nach Absprache."
+      "responseNote": "Besichtigung nach Absprache."
     },
     "quote": {
-      "sizeLabel": "Was soll gefertigt werden?",
+      "sizeLabel": "Um welches Objekt geht es?",
       "sizes": [
-        "Einzelnes Möbelstück",
-        "Einbauschrank",
-        "Türen",
-        "Ganzer Raum"
+        "Einfamilienhaus",
+        "Mehrfamilienhaus",
+        "Büro",
+        "Arztpraxis",
+        "Wohnanlage"
       ],
       "timings": [
         "So bald wie möglich",
-        "In den nächsten Wochen",
-        "In 1–3 Monaten",
+        "Ab nächsten Monat",
+        "Für die Wintersaison",
         "Ich plane erst noch"
       ]
     },
-    "stickyCta": "Projekt anfragen",
+    "stickyCta": "Angebot anfragen",
     "look": {
-      "palette": 2,
-      "font": 6,
+      "palette": 1,
+      "font": 10,
       "hero": 0,
-      "services": 1,
-      "radius": 1,
-      "logo": 0,
-      "intro": 5
+      "services": 0,
+      "radius": 2,
+      "logo": 4,
+      "intro": 1
     }
   }
 }

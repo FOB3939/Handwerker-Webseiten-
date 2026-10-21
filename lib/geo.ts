@@ -142,6 +142,18 @@ export const PLACES: Record<string, [number, number]> = {
   "Murnau a. Staffelsee": [47.6797, 11.2002],
   "Egling (Aufhofen)": [47.9017, 11.4789],
   "Sauerlach (Lanzenhaar)": [47.9948, 11.6421],
+  Adelshofen: [48.183, 11.15],
+  Dietersheim: [48.305, 11.665],
+  Esting: [48.188, 11.34],
+  Fraunberg: [48.371, 12.0],
+  Gelting: [47.879, 11.438],
+  Goldach: [48.32, 11.732],
+  "Königsdorf": [47.813, 11.483],
+  Landsberied: [48.168, 11.17],
+  Malching: [48.232, 11.247],
+  "Maisach-Malching": [48.232, 11.247],
+  Moosburg: [48.47, 11.938],
+  Ottenburg: [48.334, 11.612],
 };
 
 // Grobe Seeumrisse als Ellipsen: [lat, lon, Halbachse Nord-Süd in Grad, Halbachse Ost-West in Grad]

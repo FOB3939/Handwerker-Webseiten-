@@ -9,6 +9,7 @@ const RULES = [
   [/dach|zimmerei|spengler/i, "roof"],
   [/maler|lackier|anstrich|tapezier/i, "paint"],
   [/fliese|naturstein|mosaik/i, "tiles"],
+  [/sanit|installateur|heizung|klempner|bäder|badsanier|wasser|rohr/i, "water"],
   [/elektr|strom|photovoltaik|solar|wallbox/i, "circuit"],
   [/hausmeister|objekt|reinigung|winterdienst|entrümpel/i, "sweep"],
   [/garten|rasen|landschaft|grün|hecke|baum/i, "lawn"],

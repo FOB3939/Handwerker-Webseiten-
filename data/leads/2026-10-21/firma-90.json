@@ -1,126 +1,118 @@
 {
   "id": "2026-10-21-90",
-  "slug": "elektroinstallation-bernd-klinder-groebenzell",
+  "slug": "marco-eder-heizung-sanitaer-eching",
   "date": "2026-10-21",
   "company": {
-    "name": "Elektroinstallation Bernd Klinder",
-    "owner": "Bernd Klinder",
-    "trade": "Elektroinstallation",
-    "city": "Gröbenzell",
-    "address": "Industriestr. 39a, 82194 Gröbenzell",
-    "phone": "08142 60599",
+    "name": "Marco Eder Heizung- und Sanitärinstallation e.K.",
+    "owner": "Marco Eder",
+    "trade": "Sanitär & Heizung",
+    "city": "Eching",
+    "address": "Waldweg 19, 85386 Eching",
+    "phone": "089 37001966",
     "email": null,
     "serviceArea": [
-      "Gröbenzell",
-      "Olching",
-      "Puchheim",
-      "Eichenau",
-      "Lochhausen",
-      "Germering"
+      "Eching",
+      "Neufahrn",
+      "Ottenburg",
+      "Dietersheim",
+      "Unterschleißheim",
+      "Garching",
+      "Hallbergmoos"
     ]
   },
   "listings": {
     "google": {
-      "url": "https://www.google.com/maps/search/?api=1&query=Elektroinstallation%20Bernd%20Klinder%20Industriestr.%2039a%20Gr%C3%B6benzell",
+      "url": "https://www.google.com/maps/search/?api=1&query=Marco%20Eder%20Heizung%20Sanit%C3%A4r%20Waldweg%2019%20Eching",
       "rating": null,
       "reviews": null,
-      "evidence": "NICHT BELEGT – Suche über Spiegel (trustlocal, firmania, rgv-bayern, elektriker.org, kennstdueinen) ergab keinen Google-Eintrag und keine Bewertungsangabe; elektriker.org führt den Betrieb ohne Bewertungen. In Maps prüfen."
+      "evidence": "INDIREKT – ein Branchenverzeichnis (Suchtreffer sanitaer.org/deutschbranchenbuch.com) nennt 1 Bewertung auf Google My Business; ein anderes zeigt 0,0 von 5. Kein direkter google.com/maps-Treffer, kein Website-Feld in den Snippets. 11880 zeigt eigene Bewertungen (8, Ø 2,75) – das sind KEINE Google-Bewertungen. In Maps prüfen."
     },
     "myhammer": {
-      "url": "https://www.11880.com/branchenbuch/groebenzell/060691303B39436186/elektroinstallation-bernd-klinder.html",
+      "url": "https://www.11880.com/branchenbuch/eching-kreis-freising/060692320B40453746/marco-eder-heizung-sanitaer.html",
       "rating": null,
       "reviews": null,
-      "evidence": "Kein MyHammer gefunden – 11880-Eintrag „Elektroinstallation Bernd Klinder“, Industriestr. 39a, (08142) 60599, mit Neuinstallationen, Sprechanlagen, Lichttechnik und Altbausanierung; außerdem goyellow, elektriker24.org, branchen-info.net, oeffnungszeitenbuch."
+      "evidence": "Kein MyHammer-Profil gefunden – 11880-Eintrag „Marco Eder Heizung Sanitär“, Waldweg 19, Eching, Tel. 089 37001966, Heizungs- und Sanitärinstallation (11880: 8 Bewertungen, Ø 2,75)."
     }
   },
   "websiteStatus": "keine eigene Website gefunden",
   "websiteChecks": [
-    "(1) „Elektroinstallation Bernd Klinder Gröbenzell“ mit blocked_domains (11880, Gelbe Seiten, Das Örtliche, Telefonbuch, Cylex, meinestadt, Creditreform, Facebook, Instagram, golocal, MyHammer, Northdata, Firmenwissen, WKDB, Yelp, trustlocal, wlw) – nur Verzeichnisse (elektriker.org, elektriker24.org, goyellow, oeffnungszeitenbuch, branchen-info.net, starofservice); keine eigene Domain",
-    "(2) Domain-Check allowed_domains elektro-klinder.de, klinder-elektro.de, elektroklinder.de, bernd-klinder.de, klinder.de, elektroinstallation-klinder.de, klinder-elektroinstallation.de, elektro-klinder-groebenzell.de – keine Treffer",
-    "(3) Telefonsuche „08142 60599“/„0814260599“ mit blocked_domains – keine Treffer zum Betrieb (nur Fremdtreffer zur Kurzwahl 60599)",
-    "(4) Google-Spiegel-Suche (trustlocal, firmania, rgv-bayern, elektriker.org, kennstdueinen) – kein Google-Profil, kein Website-Feld",
-    "(5) Verzeichnisse: kein Website-Feld, keine E-Mail; abweichende Nummern 08142 9035 und 08142 52415 in einzelnen Verzeichnissen",
-    "Website-Risiko: mittel – alle Prüfungen negativ, aber weder Google-Eintrag noch Freemail belegt (RESERVE)"
+    "(1) „Marco Eder Heizung Sanitär Eching“ mit blocked_domains (11880, Gelbe Seiten, Das Örtliche, Telefonbuch, Cylex, meinestadt, Creditreform, Facebook, Instagram, golocal, MyHammer, Northdata, Firmenwissen, WKDB, Yelp, wlw) – nur Verzeichnisse und Registerportale (sanitaer.org, openregister, registercheck, unternehmen24, fusionbase, klimatechniker24, deutschbranchenbuch); keine eigene Domain",
+    "(2) Domain-Check allowed_domains eder-heizung.de, eder-sanitaer.de, marco-eder.de, eder-haustechnik.de, eder-heizung-sanitaer.de, heizung-eder.de, sanitaer-eder.de, eder-eching.de – keine Treffer",
+    "(3) Telefonnummer-Suche und Impressum-Suche NICHT durchgeführt (Suchbudget erschöpft)",
+    "(4) Handelsregister: Marco Eder Heizung- und Sanitärinstallation e.K., HRA 94596 (AG München), eingetragen 02.11.2009, aktiv, Inhaber Marco Eder – Einzelkaufmann, keine GmbH",
+    "Website-Risiko: mittel – Namens- und Domainsuche negativ, aber Telefon-/Impressum-Prüfung offen und Google-Eintrag nur indirekt belegt"
   ],
   "facts": {
     "services": [
-      "Neuinstallationen",
-      "Altbausanierung",
-      "Sprechanlagen",
-      "Lichttechnik",
-      "Alarmanlagen-Planung",
-      "Notdienst"
+      "Heizungsinstallation",
+      "Sanitärinstallation"
     ],
     "experience": null,
     "praisedFor": []
   },
   "strategy": {
-    "audience": "Hauseigentümer und Vermieter in Gröbenzell, Olching, Puchheim und Eichenau, die einen Altbau neu verkabeln, eine Sprechanlage tauschen oder Licht und Alarmtechnik planen wollen",
-    "mainService": "Elektroinstallation für Neubau und Altbausanierung",
-    "trustSignal": "Inhabergeführter Elektrobetrieb im Gröbenzeller Gewerbegebiet, mit Notdienst für den Ort und die Umgebung",
-    "conversionGoal": "Unverbindlich Termin für Elektroarbeiten anfragen (Anruf oder Formular)",
-    "visualConcept": "Warmes Licht im sanierten Altbau, neue Sprechanlage am Hauseingang, ordentlich verlegte Leitungen – handwerklich und hell"
+    "audience": "Hausbesitzer und Vermieter in Eching, Neufahrn und Unterschleißheim, die Heizung oder Bad erneuern, warten oder reparieren lassen wollen",
+    "mainService": "Heizungs- und Sanitärinstallation",
+    "trustSignal": "Seit 2009 eingetragener Einzelbetrieb (e.K.) – Inhaber Marco Eder direkt vor Ort in Eching",
+    "conversionGoal": "Anfrage für Heizungs- oder Sanitärarbeiten per Anruf oder Formular",
+    "visualConcept": "Saubere Haustechnik: blanke Kupfer- und Edelstahlrohre, moderner Heizkessel, helles Bad – technisch präzise und ordentlich"
   },
   "sales": {
     "score": 3,
     "whyGoodLead": [
-      "Keine eigene Website gefunden – nur Verzeichniseinträge",
-      "Klares Leistungsprofil (Altbau, Sprechanlagen, Licht, Alarm) – gut auf einer Website darstellbar",
-      "Widersprüchliche Telefonnummern in Verzeichnissen – eine eigene Seite schafft eindeutige Kontaktdaten",
-      "Elektro ist ein bisher seltenes Gewerk in der Lead-Liste"
+      "Keine eigene Website gefunden – nur Verzeichnisse und Registerportale",
+      "Sanitär/Heizung ist bisher selten unter den Leads",
+      "Widersprüchliche Adressen und Nummern im Netz – eine eigene Website schafft klare Kontaktdaten",
+      "Schwache 11880-Bewertung (Ø 2,75) – eigene Website und Google-Profil können das Bild verbessern"
     ],
-    "pitch": "Grüß Gott Herr Klinder, hier ist … – ich baue Websites für Handwerker im Landkreis Fürstenfeldbruck. Ich habe Ihren Elektrobetrieb in Gröbenzell in mehreren Verzeichnissen gefunden – teils mit unterschiedlichen Telefonnummern – aber keine eigene Website. Ich habe unverbindlich einen Entwurf vorbereitet, auf dem Kunden Ihre Leistungen von Altbausanierung bis Sprechanlage sehen und direkt anfragen können – darf ich Ihnen den Link schicken?"
+    "pitch": "Grüß Gott Herr Eder, hier ist … – ich baue Websites für Handwerksbetriebe im Landkreis Freising. Ich habe Ihren Betrieb in Eching gefunden, aber keine eigene Website – und im Netz kursieren mehrere Adressen und Nummern. Ich habe unverbindlich einen Entwurf vorbereitet, auf dem Kunden Ihre Heizungs- und Sanitärleistungen mit den richtigen Kontaktdaten finden – darf ich Ihnen den Link schicken?"
   },
   "manualChecks": [
-    "RESERVE – weder Google-Eintrag noch Freemail-Adresse belegt: NUR versenden, wenn Google Maps einen Eintrag OHNE Website zeigt.",
-    "Telefonnummer klären: 08142 60599 (am häufigsten), daneben 08142 9035 und 08142 52415 in Verzeichnissen",
-    "Nur Festnetz, keine E-Mail bekannt – Erstkontakt telefonisch",
-    "Eine kritische Einzelbewertung auf branchen-info.net (Beschädigung von Dämmung/Dampfsperre bei Außensteckdose) – nicht verifiziert, nicht auf der Seite verwendet",
-    "Meistertitel nicht belegt – nicht auf der Seite verwendet",
+    "Website-Risiko: mittel – vor Versand in Google Maps prüfen, dass keine Website hinterlegt ist (Grund: Google-Eintrag nur indirekt über ein Verzeichnis belegt, Telefon- und Impressum-Suche nicht durchgeführt)",
+    "Telefonnummer klären: 089 37001966 (11880) vs. 089 37979081 (andere Verzeichnisse); keine Mobilnummer, keine E-Mail gefunden",
+    "Adresse klären: Waldweg 19 (Handelsregister, 11880) vs. Mallershofener Weg 6 bzw. Hofangerstraße 12 (einzelne Verzeichnisse)",
+    "11880-Bewertungen Ø 2,75 bei 8 Stimmen – vor Kontakt prüfen, ob der Lead trotzdem passt; Bewertungsbereich der Seite neutral halten",
+    "Leistungen nur grob belegt (Heizungs- und Sanitärinstallation) – Badsanierung, Wärmepumpe, Wartung, Notdienst beim Betrieb bestätigen; Meistertitel nicht belegt",
     "Logo und Projektfotos: nicht gefunden – beim Betrieb anfragen"
   ],
   "sources": [
     {
-      "label": "11880 – Elektroinstallation Bernd Klinder, Gröbenzell",
-      "url": "https://www.11880.com/branchenbuch/groebenzell/060691303B39436186/elektroinstallation-bernd-klinder.html"
+      "label": "11880 – Marco Eder Heizung Sanitär Eching",
+      "url": "https://www.11880.com/branchenbuch/eching-kreis-freising/060692320B40453746/marco-eder-heizung-sanitaer.html"
     },
     {
-      "label": "elektriker.org – Bernd Klinder Elektroinstallation",
-      "url": "https://www.elektriker.org/groebenzell/bernd-klinder-elektroinstallation-aULysY"
+      "label": "openregister – Marco Eder Heizung- und Sanitärinstallation e.K. (HRA 94596)",
+      "url": "https://openregister.de/company/DE-HRA-D2601-94596"
     },
     {
-      "label": "elektriker24.org – Elektroinstallation Bernd Klinder",
-      "url": "https://www.elektriker24.org/stadt/groebenzell/profil/elektroinstallation-bernd-klinder/"
+      "label": "sanitaer.org – Marco Eder Heizung- und Sanitärinstallation e.K. Eching",
+      "url": "https://www.sanitaer.org/eching/marco-eder-heizung--und-sanitaerinstallation-e-k-aULSKZ"
     },
     {
-      "label": "goyellow – Elektroinstallation Bernd Klinder",
-      "url": "https://www.goyellow.de/home/elektriker-elektroinstallation-bernd-klinder-groebenzell--44h1ty.html"
+      "label": "deutschbranchenbuch – Marco Eder Heizung- und Sanitärinstallation e.K.",
+      "url": "https://eching.deutschbranchenbuch.com/plumber/marco-eder-heizung-und-sanitarinstallation-ek/"
     },
     {
-      "label": "branchen-info.net – Bernd Klinder, Industriestraße 39a",
-      "url": "https://groebenzell.branchen-info.net/fp_845847.php"
-    },
-    {
-      "label": "oeffnungszeitenbuch – Elektroinstallation Bernd Klinder",
-      "url": "https://www.oeffnungszeitenbuch.de/filiale/Groebenzell-Elektroinstallation%2520Bernd%2520Klinder-3979723F.html"
+      "label": "klimatechniker24 – Marco Eder Heizung Sanitär Eching",
+      "url": "https://www.klimatechniker24.com/stadt/eching-freising/profil/marco-eder-heizung-sanitaer/"
     }
   ],
   "site": {
-    "theme": "volt",
+    "theme": "aqua",
     "category": "handwerk",
     "heroOffer": [
-      "Neuinstallation",
-      "Altbausanierung",
-      "Sprechanlagen",
-      "Lichttechnik",
-      "Alarmtechnik"
+      "Heizung",
+      "Sanitär",
+      "Badinstallation",
+      "Reparaturen",
+      "Wartung"
     ],
-    "scene": "electric",
-    "logoIcon": "bolt",
-    "logoMark": "BK",
-    "brandName": "Elektro Klinder",
-    "seoTitle": "Elektriker in Gröbenzell – Elektroinstallation Bernd Klinder",
-    "seoDescription": "Elektroinstallation, Altbausanierung, Sprechanlagen und Lichttechnik in Gröbenzell und Umgebung. Jetzt unverbindlich anfragen.",
+    "scene": "bath",
+    "logoIcon": "drop",
+    "logoMark": "ME",
+    "brandName": "Marco Eder Heizung Sanitär",
+    "seoTitle": "Heizung & Sanitär in Eching – Marco Eder",
+    "seoDescription": "Heizungs- und Sanitärinstallation in Eching, Neufahrn und Umgebung. Jetzt unverbindlich anfragen bei Marco Eder.",
     "nav": [
       {
         "label": "Leistungen",
@@ -148,132 +140,132 @@
       }
     ],
     "hero": {
-      "eyebrow": "Elektroinstallation · Gröbenzell",
-      "headline": "Ihr Elektriker in Gröbenzell",
-      "sub": "Neue Leitungen, moderne Sprechanlagen und gutes Licht – im Neubau wie im Altbau.",
-      "ctaPrimary": "Unverbindlich anfragen",
+      "eyebrow": "Heizung & Sanitär · Eching",
+      "headline": "Heizung und Sanitär in Eching",
+      "sub": "Installation, Erneuerung und Reparatur – vom Inhaber Marco Eder selbst betreut.",
+      "ctaPrimary": "Anfrage senden",
       "ctaSecondary": "Anrufen",
       "bullets": [
-        "Altbau fachgerecht neu verkabelt",
-        "Sprech- und Alarmanlagen",
-        "Notdienst in Gröbenzell"
+        "Heizungsinstallation",
+        "Sanitärinstallation",
+        "Betrieb vor Ort in Eching"
       ],
-      "imageLabel": "sanierter Altbauflur mit neuer Beleuchtung und Sprechanlage"
+      "imageLabel": "neu installierter Heizkessel mit sauber verlegten Rohren"
     },
     "badges": [
       {
-        "title": "Neuinstallation",
-        "sub": "Neubau & Umbau"
+        "title": "Heizung",
+        "sub": "Installation & Tausch"
       },
       {
-        "title": "Altbau",
-        "sub": "Sanierung der Elektrik"
+        "title": "Sanitär",
+        "sub": "Bad & Leitungen"
       },
       {
-        "title": "Sprechanlagen",
-        "sub": "Klingel & Türsprechen"
+        "title": "Inhabergeführt",
+        "sub": "Marco Eder e.K."
       },
       {
-        "title": "Gröbenzell",
-        "sub": "Industriestraße"
+        "title": "Eching",
+        "sub": "Landkreis Freising"
       }
     ],
     "trust": [
       {
+        "value": "e.K.",
+        "label": "eingetragener Betrieb"
+      },
+      {
+        "value": "2",
+        "label": "Gewerke: Heizung & Sanitär"
+      },
+      {
         "value": "Vor Ort",
-        "label": "Betrieb in Gröbenzell"
+        "label": "Betrieb in Eching"
       },
       {
-        "value": "Mo–Fr",
-        "label": "8–18 Uhr erreichbar"
-      },
-      {
-        "value": "Notdienst",
-        "label": "Gröbenzell und Umgebung"
-      },
-      {
-        "value": "Neu & Alt",
-        "label": "Neubau und Altbausanierung"
+        "value": "Direkt",
+        "label": "Inhaber als Ansprechpartner"
       }
     ],
     "servicesIntro": {
-      "headline": "Elektrotechnik für Neubau und Altbau",
-      "text": "Vom Rohbau bis zum Altbau mit alten Leitungen: Bernd Klinder installiert Strom, Licht, Sprechanlagen und plant Alarmtechnik passend zum Haus."
+      "headline": "Wärme und Wasser aus einer Hand",
+      "text": "Ob neue Heizung, Bad oder tropfende Leitung: Heizungs- und Sanitärinstallation kommen bei Marco Eder aus einem Betrieb."
     },
     "services": [
       {
-        "title": "Neuinstallation",
-        "text": "Elektroinstallation im Neubau oder bei größeren Umbauten – geplant, verlegt und angeschlossen.",
+        "title": "Heizungsinstallation",
+        "text": "Neue Heizungsanlagen fachgerecht installiert und angeschlossen – abgestimmt auf Haus und Bedarf.",
         "items": [
-          "Leitungen",
-          "Verteiler",
-          "Schalter & Steckdosen"
+          "Neuinstallation",
+          "Anschluss",
+          "Inbetriebnahme"
         ]
       },
       {
-        "title": "Altbausanierung",
-        "text": "Alte Leitungen und Verteiler raus, sichere Elektrik rein – abgestimmt auf den Bestand.",
+        "title": "Heizungstausch",
+        "text": "Alte Anlage raus, neue rein – mit klarer Planung, damit Sie möglichst kurz ohne Wärme sind.",
         "items": [
-          "Leitungen erneuern",
-          "Neuer Verteiler",
-          "Mehr Stromkreise"
+          "Altanlage ausbauen",
+          "Neue Anlage",
+          "Abstimmung"
         ]
       },
       {
-        "title": "Sprechanlagen",
-        "text": "Klingel- und Türsprechanlagen für Ein- und Mehrfamilienhäuser montiert und angeschlossen.",
+        "title": "Heizkörper & Leitungen",
+        "text": "Heizkörper versetzen, ergänzen oder erneuern und die Leitungen dazu sauber verlegen.",
         "items": [
-          "Türsprechanlage",
-          "Klingelanlage",
-          "Austausch"
+          "Heizkörper",
+          "Rohrleitungen",
+          "Thermostate"
         ]
       },
       {
-        "title": "Lichttechnik",
-        "text": "Licht, das zum Raum passt – von der Konzeptplanung bis zur montierten Leuchte.",
+        "title": "Sanitärinstallation",
+        "text": "Wasserleitungen, Abflüsse und Anschlüsse in Neubau und Bestand – dicht und ordentlich.",
         "items": [
-          "Lichtplanung",
-          "Leuchtenmontage",
-          "Schaltungen"
+          "Wasserleitungen",
+          "Abwasser",
+          "Anschlüsse"
         ]
       },
       {
-        "title": "Alarmanlagen",
-        "text": "Planung von Alarmanlagen mit Komponenten wie Bewegungsmeldern – für mehr Sicherheit im Haus.",
+        "title": "Bad & WC",
+        "text": "Waschtisch, WC, Dusche oder Wanne fachgerecht montiert und angeschlossen.",
         "items": [
-          "Konzept",
-          "Bewegungsmelder",
-          "Installation"
+          "Waschtisch",
+          "WC",
+          "Dusche & Wanne"
         ]
       },
       {
-        "title": "Notdienst",
-        "text": "Bei Stromausfall oder Defekt schnell erreichbar in Gröbenzell und Umgebung.",
+        "title": "Reparaturen",
+        "text": "Tropfende Armatur, undichte Leitung oder Störung an der Heizung – wird geprüft und behoben.",
         "items": [
-          "Störungen",
-          "Defekte",
-          "Schnelle Hilfe"
+          "Armaturen",
+          "Undichtigkeiten",
+          "Störungen"
         ]
       }
     ],
     "why": {
-      "headline": "Elektrik aus Gröbenzell – persönlich und nah.",
+      "headline": "Haustechnik aus Eching – direkt vom Inhaber.",
       "points": [
         {
+          "title": "Ein Ansprechpartner",
+          "text": "Marco Eder führt den Betrieb selbst – Sie sprechen direkt mit dem Inhaber."
+        },
+        {
+          "title": "Heizung und Sanitär",
+          "text": "Beide Gewerke aus einer Hand – keine Abstimmung zwischen zwei Firmen."
+        },
+        {
           "title": "Kurze Wege",
-          "text": "Von der Industriestraße schnell in Olching, Puchheim, Eichenau und Lochhausen."
+          "text": "Von Eching schnell in Neufahrn, Unterschleißheim, Garching und Hallbergmoos."
         },
         {
-          "title": "Altbau-Erfahrung",
-          "text": "Altbausanierung gehört ausdrücklich zum Leistungsprofil des Betriebs."
-        },
-        {
-          "title": "Planung inklusive",
-          "text": "Licht- und Alarmkonzepte werden vorab geplant, nicht nur montiert."
-        },
-        {
-          "title": "Notdienst",
-          "text": "Bei Störungen gibt es einen Notdienst für Gröbenzell und Umgebung."
+          "title": "Eingetragener Betrieb",
+          "text": "Seit 2009 im Handelsregister als Heizungs- und Sanitärbetrieb eingetragen."
         }
       ]
     },
@@ -281,132 +273,133 @@
       "headline": "Was Kunden sagen",
       "summary": "Kundenstimmen werden hier eingebunden, sobald sie aus dem Google-Profil übernommen sind.",
       "highlights": [
-        "Elektroinstallation in Gröbenzell",
-        "Altbausanierung",
-        "Sprechanlagen"
+        "Heizung in Eching",
+        "Sanitärinstallation",
+        "Direkter Kontakt zum Inhaber"
       ],
       "source": "Google",
-      "sourceUrl": "https://www.google.com/maps/search/?api=1&query=Elektroinstallation%20Bernd%20Klinder%20Industriestr.%2039a%20Gr%C3%B6benzell",
+      "sourceUrl": "https://www.google.com/maps/search/?api=1&query=Marco%20Eder%20Heizung%20Sanit%C3%A4r%20Waldweg%2019%20Eching",
       "rating": null,
       "count": null
     },
     "process": {
-      "headline": "Von der Anfrage zur fertigen Installation",
+      "headline": "In vier Schritten zur neuen Haustechnik",
       "steps": [
         {
           "title": "Anfrage",
-          "text": "Anrufen oder Formular nutzen – kurz beschreiben, was gemacht werden soll."
+          "text": "Kurz anrufen oder das Formular nutzen – mit Foto von Anlage oder Bad."
         },
         {
-          "title": "Besichtigung",
-          "text": "Bestand, Leitungswege und Wünsche werden vor Ort angeschaut."
+          "title": "Termin vor Ort",
+          "text": "Heizung, Leitungen oder Bad werden angeschaut und Möglichkeiten besprochen."
         },
         {
           "title": "Angebot",
-          "text": "Sie erhalten ein nachvollziehbares Angebot für Material und Arbeit."
+          "text": "Sie erhalten ein nachvollziehbares Angebot für Ihr Vorhaben."
         },
         {
-          "title": "Ausführung",
-          "text": "Installation, Prüfung und Übergabe – mit Erklärung der neuen Technik."
+          "title": "Installation",
+          "text": "Fachgerechte Ausführung, Prüfung und Übergabe der fertigen Anlage."
         }
       ]
     },
     "gallery": {
-      "headline": "Elektroarbeiten in Gröbenzell",
-      "text": "Für die Live-Version zeigen wir hier echte Projekte des Betriebs.",
+      "headline": "Haustechnik, die läuft",
+      "text": "Für die Live-Version zeigen wir hier echte Arbeiten des Betriebs.",
       "items": [
         {
-          "title": "Altbau neu verkabelt",
-          "photoNeeded": "offene Wandschlitze mit neuen Leitungen im Altbau"
+          "title": "Neue Heizung",
+          "photoNeeded": "neu installierter Heizkessel im Technikraum"
         },
         {
-          "title": "Türsprechanlage",
-          "photoNeeded": "neue Sprechanlage am Hauseingang"
+          "title": "Heizkreisverteiler",
+          "photoNeeded": "sauber verrohrter Verteiler mit Pumpen"
         },
         {
-          "title": "Neuer Verteiler",
-          "photoNeeded": "aufgeräumter, beschrifteter Sicherungskasten"
+          "title": "Neues Bad",
+          "photoNeeded": "fertiges Bad mit Waschtisch und Dusche"
         },
         {
-          "title": "Lichtkonzept",
-          "photoNeeded": "Wohnraum mit neuer Decken- und Akzentbeleuchtung"
+          "title": "Vorwandinstallation",
+          "photoNeeded": "WC-Vorwandelement vor dem Verkleiden"
         },
         {
-          "title": "Bewegungsmelder",
-          "photoNeeded": "montierter Bewegungsmelder an Fassade oder Flur"
+          "title": "Heizkörper",
+          "photoNeeded": "neu montierter Heizkörper mit Thermostat"
         }
       ]
     },
     "region": {
-      "headline": "Elektriker für Gröbenzell und Umgebung",
-      "text": "Von Gröbenzell aus schnell in Olching, Puchheim, Eichenau, Lochhausen und Germering.",
+      "headline": "Heizung und Sanitär für Eching und Umgebung",
+      "text": "Von Eching aus schnell in Neufahrn, Ottenburg, Dietersheim, Unterschleißheim, Garching und Hallbergmoos.",
       "places": [
-        "Gröbenzell",
-        "Olching",
-        "Puchheim",
-        "Eichenau",
-        "Lochhausen",
-        "Germering"
+        "Eching",
+        "Neufahrn",
+        "Ottenburg",
+        "Dietersheim",
+        "Unterschleißheim",
+        "Garching",
+        "Hallbergmoos"
       ]
     },
     "faq": [
       {
-        "q": "Lohnt sich eine neue Elektrik im Altbau?",
-        "a": "Alte Leitungen und Verteiler sind oft nicht mehr auf heutige Geräte ausgelegt. Beim Vor-Ort-Termin wird der Bestand angeschaut und der sinnvolle Umfang besprochen."
+        "q": "Tauschen Sie auch alte Heizungen aus?",
+        "a": "Ja, Heizungsinstallation umfasst auch den Austausch bestehender Anlagen. Details klären wir beim Termin vor Ort."
       },
       {
-        "q": "Tauschen Sie auch alte Klingel- und Sprechanlagen?",
-        "a": "Ja, Sprechanlagen gehören zum Angebot – vom Austausch bis zur neuen Anlage."
+        "q": "Übernehmen Sie Sanitärarbeiten im Bad?",
+        "a": "Ja, Sanitärinstallation gehört zum Angebot – von Leitungen bis zum Anschluss von WC, Waschtisch und Dusche."
       },
       {
-        "q": "Planen Sie auch Alarmanlagen?",
-        "a": "Ja, Alarmanlagen werden mit Ihnen geplant, inklusive Komponenten wie Bewegungsmeldern."
+        "q": "Kommen Sie auch für kleinere Reparaturen?",
+        "a": "Fragen Sie einfach an – ob und wann es passt, wird direkt abgestimmt."
       },
       {
-        "q": "Gibt es einen Notdienst?",
-        "a": "Ja, für Gröbenzell und Umgebung gibt es einen Notdienst – am besten direkt anrufen."
+        "q": "Wie läuft die Anfrage ab?",
+        "a": "Anrufen oder Formular ausfüllen, dann folgt ein Termin vor Ort und ein Angebot."
       },
       {
-        "q": "Wann ist der Betrieb erreichbar?",
-        "a": "Montag bis Freitag von 8 bis 18 Uhr."
+        "q": "Arbeiten Sie auch außerhalb von Eching?",
+        "a": "Ja, im Umkreis von Eching – etwa Neufahrn, Unterschleißheim und Garching."
       }
     ],
     "contact": {
-      "headline": "Ihre Anfrage – unverbindlich",
-      "text": "Beschreiben Sie kurz Ihr Vorhaben: Neuinstallation, Altbau, Sprechanlage, Licht oder Alarm. Fotos vom Bestand helfen.",
+      "headline": "Ihre Anfrage für Heizung oder Sanitär",
+      "text": "Beschreiben Sie kurz Ihr Vorhaben: Heizung, Bad oder Reparatur, Baujahr der Anlage und gewünschter Zeitraum. Ein Foto hilft.",
       "topics": [
-        "Neuinstallation",
-        "Altbausanierung",
-        "Sprechanlage",
-        "Licht & Alarm",
-        "Sonstiges"
+        "Heizungsinstallation",
+        "Heizungstausch",
+        "Sanitärinstallation",
+        "Bad & WC",
+        "Reparatur"
       ],
-      "responseNote": "Erreichbar Mo–Fr 8–18 Uhr."
+      "responseNote": "Termin vor Ort nach Absprache."
     },
     "quote": {
       "sizeLabel": "Worum geht es?",
       "sizes": [
-        "Reparatur/Störung",
-        "Sprechanlage",
-        "Licht oder Alarm",
-        "Altbau/Neubau komplett"
+        "Neue Heizung",
+        "Heizung reparieren",
+        "Bad / Sanitär",
+        "Leitungen & Anschlüsse"
       ],
       "timings": [
-        "So bald wie möglich",
+        "Dringend",
         "In den nächsten Wochen",
         "In 1–3 Monaten",
         "Ich plane erst noch"
       ]
     },
-    "stickyCta": "Jetzt anfragen",
+    "stickyCta": "Anfrage senden",
     "look": {
-      "palette": 2,
-      "font": 6,
-      "hero": 0,
+      "palette": 0,
+      "font": 5,
+      "hero": 3,
       "services": 1,
-      "radius": 1,
-      "logo": 0,
-      "intro": 5
+      "radius": 4,
+      "logo": 3,
+      "intro": 2
     }
   }
 }

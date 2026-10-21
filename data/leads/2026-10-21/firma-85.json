@@ -110,12 +110,30 @@
     "seoTitle": "Handwerker Service in Geretsried – Oskar Pietras",
     "seoDescription": "Sanitärinstallation, Trockenbau, Altbausanierung und Renovierung in Geretsried und Wolfratshausen. Jetzt unverbindlich anfragen – auch per WhatsApp.",
     "nav": [
-      { "label": "Leistungen", "href": "#leistungen" },
-      { "label": "Projekte", "href": "#projekte" },
-      { "label": "Bewertungen", "href": "#bewertungen" },
-      { "label": "Ablauf", "href": "#ablauf" },
-      { "label": "FAQ", "href": "#faq" },
-      { "label": "Kontakt", "href": "#kontakt" }
+      {
+        "label": "Leistungen",
+        "href": "#leistungen"
+      },
+      {
+        "label": "Projekte",
+        "href": "#projekte"
+      },
+      {
+        "label": "Bewertungen",
+        "href": "#bewertungen"
+      },
+      {
+        "label": "Ablauf",
+        "href": "#ablauf"
+      },
+      {
+        "label": "FAQ",
+        "href": "#faq"
+      },
+      {
+        "label": "Kontakt",
+        "href": "#kontakt"
+      }
     ],
     "hero": {
       "eyebrow": "Handwerker Service · Geretsried",
@@ -131,16 +149,40 @@
       "imageLabel": "renoviertes Bad mit neuer Armatur und frisch verspachtelter Wand"
     },
     "badges": [
-      { "title": "Sanitär", "sub": "Installation" },
-      { "title": "Trockenbau", "sub": "Wände & Decken" },
-      { "title": "Altbau", "sub": "Sanierung" },
-      { "title": "Geretsried", "sub": "Isartal" }
+      {
+        "title": "Sanitär",
+        "sub": "Installation"
+      },
+      {
+        "title": "Trockenbau",
+        "sub": "Wände & Decken"
+      },
+      {
+        "title": "Altbau",
+        "sub": "Sanierung"
+      },
+      {
+        "title": "Geretsried",
+        "sub": "Isartal"
+      }
     ],
     "trust": [
-      { "value": "1", "label": "Ansprechpartner für alles" },
-      { "value": "5", "label": "Leistungsbereiche" },
-      { "value": "Vor Ort", "label": "Betrieb in Geretsried" },
-      { "value": "Mobil", "label": "direkt erreichbar" }
+      {
+        "value": "1",
+        "label": "Ansprechpartner für alles"
+      },
+      {
+        "value": "5",
+        "label": "Leistungsbereiche"
+      },
+      {
+        "value": "Vor Ort",
+        "label": "Betrieb in Geretsried"
+      },
+      {
+        "value": "Mobil",
+        "label": "direkt erreichbar"
+      }
     ],
     "servicesIntro": {
       "headline": "Was in Ihrer Wohnung ansteht – ein Handwerker kümmert sich",
@@ -150,41 +192,77 @@
       {
         "title": "Sanitärinstallation",
         "text": "Armaturen, Waschtische und WC werden montiert oder getauscht – sauber angeschlossen und dicht.",
-        "items": ["Armaturen", "Waschtisch & WC", "Anschlüsse"]
+        "items": [
+          "Armaturen",
+          "Waschtisch & WC",
+          "Anschlüsse"
+        ]
       },
       {
         "title": "Trockenbau",
         "text": "Ständerwände, Vorwände und abgehängte Decken teilen Räume neu und verstecken Leitungen.",
-        "items": ["Ständerwände", "Vorwandinstallation", "Decken"]
+        "items": [
+          "Ständerwände",
+          "Vorwandinstallation",
+          "Decken"
+        ]
       },
       {
         "title": "Altbausanierung",
         "text": "Ältere Wohnungen und Häuser werden Schritt für Schritt auf den heutigen Stand gebracht.",
-        "items": ["Bestandsaufnahme", "Rückbau", "Wiederaufbau"]
+        "items": [
+          "Bestandsaufnahme",
+          "Rückbau",
+          "Wiederaufbau"
+        ]
       },
       {
         "title": "Innenausbau",
         "text": "Vom Rohbau zum bewohnbaren Raum: Wände, Decken und Oberflächen werden fertig ausgebaut.",
-        "items": ["Wände", "Oberflächen", "Ausbau"]
+        "items": [
+          "Wände",
+          "Oberflächen",
+          "Ausbau"
+        ]
       },
       {
         "title": "Renovierung",
         "text": "Wohnung frisch machen vor Einzug oder Neuvermietung – mit einem Ansprechpartner.",
-        "items": ["Wohnungsrenovierung", "Vor Neuvermietung", "Ausbesserungen"]
+        "items": [
+          "Wohnungsrenovierung",
+          "Vor Neuvermietung",
+          "Ausbesserungen"
+        ]
       },
       {
         "title": "Wasserschaden",
         "text": "Nach einem Wasserschaden werden betroffene Wände und Böden instand gesetzt.",
-        "items": ["Schaden begutachten", "Rückbau", "Instandsetzung"]
+        "items": [
+          "Schaden begutachten",
+          "Rückbau",
+          "Instandsetzung"
+        ]
       }
     ],
     "why": {
       "headline": "Ein Handwerker aus Geretsried statt fünf Termine.",
       "points": [
-        { "title": "Alles aus einer Hand", "text": "Sanitär, Trockenbau und Renovierung laufen über einen Ansprechpartner – ohne Abstimmung zwischen Gewerken." },
-        { "title": "Direkter Draht", "text": "Sie sprechen mit Oskar Pietras selbst – per Anruf oder WhatsApp." },
-        { "title": "Kurze Wege", "text": "Von Geretsried aus schnell in Wolfratshausen, Gelting, Königsdorf und Egling." },
-        { "title": "Auch Altbau", "text": "Ältere Wohnungen und Häuser gehören zum Alltag – inklusive Rückbau und Neuaufbau." }
+        {
+          "title": "Alles aus einer Hand",
+          "text": "Sanitär, Trockenbau und Renovierung laufen über einen Ansprechpartner – ohne Abstimmung zwischen Gewerken."
+        },
+        {
+          "title": "Direkter Draht",
+          "text": "Sie sprechen mit Oskar Pietras selbst – per Anruf oder WhatsApp."
+        },
+        {
+          "title": "Kurze Wege",
+          "text": "Von Geretsried aus schnell in Wolfratshausen, Gelting, Königsdorf und Egling."
+        },
+        {
+          "title": "Auch Altbau",
+          "text": "Ältere Wohnungen und Häuser gehören zum Alltag – inklusive Rückbau und Neuaufbau."
+        }
       ]
     },
     "reviews": {
@@ -203,21 +281,48 @@
     "process": {
       "headline": "So läuft Ihre Renovierung ab",
       "steps": [
-        { "title": "Fotos schicken", "text": "Zeigen Sie per WhatsApp, was gemacht werden soll – oder rufen Sie kurz an." },
-        { "title": "Termin vor Ort", "text": "Oskar Pietras sieht sich Bad, Wand oder Wohnung an und klärt die Details." },
-        { "title": "Angebot", "text": "Sie bekommen ein klares Angebot für alle Arbeiten zusammen." },
-        { "title": "Umsetzung", "text": "Sanitär, Trockenbau und Feinarbeiten werden nacheinander erledigt und sauber übergeben." }
+        {
+          "title": "Fotos schicken",
+          "text": "Zeigen Sie per WhatsApp, was gemacht werden soll – oder rufen Sie kurz an."
+        },
+        {
+          "title": "Termin vor Ort",
+          "text": "Oskar Pietras sieht sich Bad, Wand oder Wohnung an und klärt die Details."
+        },
+        {
+          "title": "Angebot",
+          "text": "Sie bekommen ein klares Angebot für alle Arbeiten zusammen."
+        },
+        {
+          "title": "Umsetzung",
+          "text": "Sanitär, Trockenbau und Feinarbeiten werden nacheinander erledigt und sauber übergeben."
+        }
       ]
     },
     "gallery": {
       "headline": "Arbeiten aus Geretsried und Umgebung",
       "text": "Für die Live-Version zeigen wir hier echte Projekte des Betriebs.",
       "items": [
-        { "title": "Neues Bad", "photoNeeded": "renoviertes Bad mit neuer Armatur und Waschtisch" },
-        { "title": "Vorwand", "photoNeeded": "Vorwandinstallation mit Unterputz-Spülkasten im Rohbau" },
-        { "title": "Trennwand", "photoNeeded": "neue Ständerwand, verspachtelt" },
-        { "title": "Altbauwohnung", "photoNeeded": "sanierter Altbauraum vor und nach der Renovierung" },
-        { "title": "Abgehängte Decke", "photoNeeded": "glatte abgehängte Decke mit Leuchten" }
+        {
+          "title": "Neues Bad",
+          "photoNeeded": "renoviertes Bad mit neuer Armatur und Waschtisch"
+        },
+        {
+          "title": "Vorwand",
+          "photoNeeded": "Vorwandinstallation mit Unterputz-Spülkasten im Rohbau"
+        },
+        {
+          "title": "Trennwand",
+          "photoNeeded": "neue Ständerwand, verspachtelt"
+        },
+        {
+          "title": "Altbauwohnung",
+          "photoNeeded": "sanierter Altbauraum vor und nach der Renovierung"
+        },
+        {
+          "title": "Abgehängte Decke",
+          "photoNeeded": "glatte abgehängte Decke mit Leuchten"
+        }
       ]
     },
     "region": {
@@ -234,11 +339,26 @@
       ]
     },
     "faq": [
-      { "q": "Übernehmen Sie Sanitär und Trockenbau zusammen?", "a": "Ja, beides gehört zum Angebot – zum Beispiel Vorwand und neue Armaturen im selben Auftrag." },
-      { "q": "Kann ich vorab Fotos schicken?", "a": "Ja, Fotos per WhatsApp helfen für eine erste Einschätzung vor dem Termin." },
-      { "q": "Sanieren Sie auch Altbauwohnungen?", "a": "Ja, Altbausanierung und Innenausbau gehören zu den Leistungen." },
-      { "q": "Helfen Sie nach einem Wasserschaden?", "a": "Betroffene Wände und Böden werden nach Absprache instand gesetzt – fragen Sie einfach an." },
-      { "q": "Arbeiten Sie auch außerhalb von Geretsried?", "a": "Ja, im Umkreis von Geretsried und Wolfratshausen – sprechen Sie uns an." }
+      {
+        "q": "Übernehmen Sie Sanitär und Trockenbau zusammen?",
+        "a": "Ja, beides gehört zum Angebot – zum Beispiel Vorwand und neue Armaturen im selben Auftrag."
+      },
+      {
+        "q": "Kann ich vorab Fotos schicken?",
+        "a": "Ja, Fotos per WhatsApp helfen für eine erste Einschätzung vor dem Termin."
+      },
+      {
+        "q": "Sanieren Sie auch Altbauwohnungen?",
+        "a": "Ja, Altbausanierung und Innenausbau gehören zu den Leistungen."
+      },
+      {
+        "q": "Helfen Sie nach einem Wasserschaden?",
+        "a": "Betroffene Wände und Böden werden nach Absprache instand gesetzt – fragen Sie einfach an."
+      },
+      {
+        "q": "Arbeiten Sie auch außerhalb von Geretsried?",
+        "a": "Ja, im Umkreis von Geretsried und Wolfratshausen – sprechen Sie uns an."
+      }
     ],
     "contact": {
       "headline": "Ihre Anfrage – unverbindlich",
@@ -271,12 +391,12 @@
     "stickyCta": "Jetzt anfragen",
     "look": {
       "palette": 2,
-      "font": 6,
-      "hero": 0,
-      "services": 1,
-      "radius": 1,
-      "logo": 0,
-      "intro": 5
+      "font": 8,
+      "hero": 2,
+      "services": 0,
+      "radius": 4,
+      "logo": 4,
+      "intro": 1
     }
   }
 }

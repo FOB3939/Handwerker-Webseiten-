@@ -2,52 +2,52 @@
   "info": "Noch ungeprüfte Handwerker-Kandidaten aus früheren Läufen. Jeder Lauf prüft zuerst diese (oben = vielversprechend), entfernt geprüfte Einträge (angenommen → leads, verworfen → rejected in lead-history.json) und ergänzt neue Funde, für die das Suchbudget nicht reichte.",
   "candidates": [
     {
-      "name": "Johann Pfrieger Fliesenlegerei",
-      "trade": "Fliesen",
-      "city": "Olching",
-      "hint": "Mozartstr. 19, 08142 30919; Domain negativ; Google-/Freemail-Beleg fehlt"
+      "name": "Sezer Seymen Trockenbau",
+      "trade": "Trockenbau",
+      "city": "Erding",
+      "hint": "RESERVE-geprüft 2026-10-21: Website-Prüfung negativ, kein Google-/Freemail-Beleg; Tel. 0176 88199667"
     },
     {
-      "name": "Pedro-Bau.A3",
-      "trade": "Bau/Renovierung",
-      "city": "Wartenberg",
-      "hint": "MyHammer 14 Bewertungen; keine eigene Domain gefunden; Kontakt fehlt"
+      "name": "Elektroinstallation Bernd Klinder",
+      "trade": "Elektroinstallation",
+      "city": "Gröbenzell",
+      "hint": "RESERVE-geprüft 2026-10-21: Website-Prüfung negativ, kein Google-/Freemail-Beleg; Tel. 08142 60599"
     },
     {
-      "name": "ISIC-hausservice",
-      "trade": "Hausmeister",
+      "name": "Zech Schreinerei",
+      "trade": "Schreinerei",
+      "city": "Bergkirchen",
+      "hint": "RESERVE-geprüft 2026-10-21: Website-Prüfung negativ, kein Google-/Freemail-Beleg; Tel. 08131 667981"
+    },
+    {
+      "name": "Zimmerei Franz X. Stierstorfer",
+      "trade": "Zimmerei",
+      "city": "Gröbenzell",
+      "hint": "RESERVE-geprüft 2026-10-21: Website-Prüfung negativ, kein Google-/Freemail-Beleg; Tel. 08142 540393"
+    },
+    {
+      "name": "Wilhelm Gaugg Küchenmontage",
+      "trade": "Küchenmontage",
       "city": "Freising",
-      "hint": "MyHammer 5,0 (15); Kontakt fehlt"
-    },
-    {
-      "name": "Ateş (Fliesen/Renovierung)",
-      "trade": "Fliesen",
-      "city": "Tutzing",
-      "hint": "MyHammer 4,7 (7); sonst nichts gefunden"
-    },
-    {
-      "name": "GT Fliesen (Santoro?)",
-      "trade": "Fliesen",
-      "city": "Olching",
-      "hint": "MyHammer 5,0 (19); Inhaber/Telefon fehlen"
+      "hint": "RESERVE-geprüft 2026-10-21: Website-Prüfung negativ, kein Google-/Freemail-Beleg; Tel. 08161 66409"
     },
     {
       "name": "Hausmeisterservice Benjamin Zeck",
       "trade": "Hausmeister",
       "city": "Neufahrn",
-      "hint": "nur MyHammer"
+      "hint": "nur MyHammer; ungeprüft"
     },
     {
       "name": "Lautenbacher Elektrobau",
       "trade": "Elektro",
       "city": "Murnau",
-      "hint": "MyHammer, ungeprüft"
+      "hint": "MyHammer; ungeprüft"
     },
     {
       "name": "Tk Elektrotechnik",
       "trade": "Elektro",
       "city": "Murnau",
-      "hint": "MyHammer, ungeprüft"
+      "hint": "MyHammer; ungeprüft"
     },
     {
       "name": "Andreas Waal Trockenbau",
@@ -59,199 +59,103 @@
       "name": "Attila Riegel Malermeister",
       "trade": "Maler",
       "city": "Miesbach",
-      "hint": "MyHammer 4,8 (16), ungeprüft"
+      "hint": "MyHammer 4,8 (16); ungeprüft"
     },
     {
       "name": "LechRein GbR (Schleich)",
       "trade": "Entrümpelung/Reinigung",
       "city": "Kaufering",
-      "hint": "gegründet 2026; Telefon/Google fehlen"
+      "hint": "gegründet 2026; ungeprüft"
     },
     {
       "name": "Hamad Maler- und Verputzarbeiten",
       "trade": "Maler",
       "city": "Weilheim",
-      "hint": "sellwerk-Profil (prüfen, ob als Website gilt)"
-    },
-    {
-      "name": "Balint Innenausbau & Trockenbau",
-      "trade": "Trockenbau",
-      "city": "Fürstenfeldbruck",
-      "hint": "Ahornstr. 1 (11880), Telefon fehlt"
-    },
-    {
-      "name": "Attila Nemeth Fliesenleger",
-      "trade": "Fliesen",
-      "city": "Olching",
-      "hint": "11880 (2023)"
-    },
-    {
-      "name": "Jimmy Müller Trockenbau",
-      "trade": "Trockenbau",
-      "city": "Mammendorf",
-      "hint": "11880"
-    },
-    {
-      "name": "Christoph Niedersteiner Malewerk",
-      "trade": "Maler",
-      "city": "Markt Indersdorf",
-      "hint": "11880"
-    },
-    {
-      "name": "CL-Altbausanierung",
-      "trade": "Fliesen",
-      "city": "Karlsfeld",
-      "hint": "Richard-Wagner-Str. 13"
+      "hint": "sellwerk-Profil; ungeprüft"
     },
     {
       "name": "Stevo Kuzmanovic",
-      "trade": "Trockenbau/Fliesen",
+      "trade": "Handwerk",
       "city": "Glonn",
-      "hint": "11880"
+      "hint": "Website negativ, Festnetz 08093 300599; RESERVE"
     },
     {
-      "name": "Fliesen Trybula",
-      "trade": "Fliesen/Vinyl",
-      "city": "Kirchseeon",
-      "hint": "11880"
-    },
-    {
-      "name": "NOJA Fliesen (Norman Kosch)",
+      "name": "NOJA Fliesen",
       "trade": "Fliesen",
       "city": "Zorneding",
-      "hint": "Bahnwiesenstr. 3"
+      "hint": "Festnetz 08106 3759792; Website-Prüfung offen"
     },
     {
-      "name": "Fliesenleger Jürgen Pfeifer",
-      "trade": "Fliesen",
-      "city": "Grafing",
-      "hint": "08092 2321300"
+      "name": "Rainer Schneller Spenglerei",
+      "trade": "Spengler",
+      "city": "Puchheim",
+      "hint": "089 89009270; Name+Ort negativ, Domain/Telefon offen"
     },
     {
-      "name": "CO Entrümpelung",
-      "trade": "Entrümpelung",
-      "city": "Ebersberg",
-      "hint": "An der Schafweide 2"
+      "name": "Frank Schmidt Heizung Sanitär",
+      "trade": "Sanitär",
+      "city": "Germering",
+      "hint": "089 8403095; ungeprüft"
     },
     {
-      "name": "Allroundservice Rohleder",
-      "trade": "Entrümpelung",
-      "city": "Anzing",
-      "hint": "08121 9028712"
+      "name": "Siegfried Hermann Sanitär und Heizung",
+      "trade": "Sanitär",
+      "city": "Germering",
+      "hint": "ungeprüft"
     },
     {
-      "name": "Trockenbau Rafał Mazurek",
-      "trade": "Trockenbau",
-      "city": "Windach",
-      "hint": "11880, 1×5,0"
+      "name": "Klaus Hanisch Heizung und Sanitär",
+      "trade": "Sanitär",
+      "city": "Gilching",
+      "hint": "ungeprüft"
     },
     {
-      "name": "Heiko Palmer Innenausbau",
-      "trade": "Trockenbau/Fliesen",
-      "city": "Landsberg",
-      "hint": "11880"
+      "name": "Winfried Drobny Gas Wasser Sanitär",
+      "trade": "Sanitär",
+      "city": "Planegg",
+      "hint": "ungeprüft"
     },
     {
-      "name": "Montage Bau Dilmann",
-      "trade": "Trockenbau/Akustik",
-      "city": "Landsberg",
-      "hint": "11880"
+      "name": "Robert Siebler Schmiede und Schlosserei",
+      "trade": "Metallbau",
+      "city": "Krailling",
+      "hint": "089 8573404; ungeprüft"
     },
     {
-      "name": "Rene Janke Trockenbau",
-      "trade": "Trockenbau",
-      "city": "Hurlach",
-      "hint": "11880"
+      "name": "Alexander Stütz Bauinstallationen",
+      "trade": "Innenausbau",
+      "city": "Petershausen",
+      "hint": "11880; ungeprüft"
     },
     {
-      "name": "Merlin Haus- und Gartenservice",
-      "trade": "Hausmeister/Garten",
-      "city": "Schwabmünchen",
-      "hint": "08232 8079270"
+      "name": "Manuel Zull Schreinerei",
+      "trade": "Schreiner",
+      "city": "Bergkirchen",
+      "hint": "ungeprüft"
     },
     {
-      "name": "Malerbetrieb Ratzka",
-      "trade": "Maler/Boden",
-      "city": "Penzing",
-      "hint": "08191 8271"
+      "name": "A. Held Handwerker",
+      "trade": "Schweißer",
+      "city": "Bergkirchen",
+      "hint": "08142 440628; ungeprüft"
     },
     {
-      "name": "Sultan Gartenservice (Türkoglu)",
-      "trade": "Gartenpflege",
-      "city": "Isen",
-      "hint": "Mobil 0171 4745247; Einträge 2022"
+      "name": "F.A.T. Prezioso Heizung/Sanitär",
+      "trade": "Sanitär",
+      "city": "Karlsfeld",
+      "hint": "08131 430055; ungeprüft"
     },
     {
-      "name": "Sezer Seymen",
-      "trade": "Trockenbau",
-      "city": "Erding",
-      "hint": "11880"
+      "name": "Etterer Heizung und Sanitär",
+      "trade": "Sanitär",
+      "city": "Karlsfeld",
+      "hint": "08131 1637165; ungeprüft"
     },
     {
-      "name": "Dieter Sesojew Fliesenleger",
-      "trade": "Fliesen",
-      "city": "Altenerding",
-      "hint": "08122 1777975"
-    },
-    {
-      "name": "Fliesen Capriglia",
-      "trade": "Fliesen",
-      "city": "Altenerding",
-      "hint": "08122 9597503"
-    },
-    {
-      "name": "Schlenzger's Hausmeisterservice",
-      "trade": "Hausmeister",
-      "city": "Dorfen",
-      "hint": "11880"
-    },
-    {
-      "name": "Etec M. Willibald",
-      "trade": "Elektro",
-      "city": "Lenggries",
-      "hint": "Mobil 0176 41487839; Name/8 Domains negativ"
-    },
-    {
-      "name": "Fliesen und Naturstein (Tiroler Str. 4)",
-      "trade": "Fliesen",
-      "city": "Wolfratshausen",
-      "hint": "Mobil 0177 2017880"
-    },
-    {
-      "name": "Handwerker Service Oskar Pietras",
-      "trade": "Sanitär/Trockenbau",
-      "city": "Geretsried",
-      "hint": "11880"
-    },
-    {
-      "name": "Tino's Malerbetrieb",
-      "trade": "Maler",
-      "city": "Geretsried",
-      "hint": "Beethovenweg 9"
-    },
-    {
-      "name": "Isartaler Fliesenverlegung",
-      "trade": "Fliesen",
-      "city": "Geretsried",
-      "hint": "Graslitzer Str. 12"
-    },
-    {
-      "name": "Top Garten & Rasen",
-      "trade": "Gartenpflege",
-      "city": "Bad Tölz",
-      "hint": "11880"
-    },
-    {
-      "name": "Krosi GaLaBau",
-      "trade": "GaLaBau",
-      "city": "Bad Tölz",
-      "hint": "11880"
-    },
-    {
-      "name": "Svitlana Kochale Hausmeisterservice",
-      "trade": "Hausmeister",
-      "city": "Landsberg",
-      "hint": "Schongauer Str."
+      "name": "Szabi Gebäudereinigung",
+      "trade": "Reinigung",
+      "city": "unklar",
+      "hint": "gebaeudereinigung-viga@gmx.de; ungeprüft"
     }
   ]
 }

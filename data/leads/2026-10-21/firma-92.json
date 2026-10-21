@@ -1,5 +1,5 @@
 {
-  "id": "2026-10-21-96",
+  "id": "2026-10-21-92",
   "slug": "despa-dienstleistungen-maisach",
   "date": "2026-10-21",
   "company": {
@@ -117,12 +117,30 @@
     "seoTitle": "Pflaster, Terrassen & Rollrasen in Maisach – Despa Dienstleistungen",
     "seoDescription": "Pflasterarbeiten, Terrassenbau, Rollrasen und Baumpflege in Maisach, Fürstenfeldbruck und Umgebung. Jetzt kostenloses Angebot anfragen.",
     "nav": [
-      { "label": "Leistungen", "href": "#leistungen" },
-      { "label": "Projekte", "href": "#projekte" },
-      { "label": "Bewertungen", "href": "#bewertungen" },
-      { "label": "Ablauf", "href": "#ablauf" },
-      { "label": "FAQ", "href": "#faq" },
-      { "label": "Kontakt", "href": "#kontakt" }
+      {
+        "label": "Leistungen",
+        "href": "#leistungen"
+      },
+      {
+        "label": "Projekte",
+        "href": "#projekte"
+      },
+      {
+        "label": "Bewertungen",
+        "href": "#bewertungen"
+      },
+      {
+        "label": "Ablauf",
+        "href": "#ablauf"
+      },
+      {
+        "label": "FAQ",
+        "href": "#faq"
+      },
+      {
+        "label": "Kontakt",
+        "href": "#kontakt"
+      }
     ],
     "hero": {
       "eyebrow": "Pflaster & Garten · Maisach",
@@ -138,16 +156,40 @@
       "imageLabel": "frisch gepflasterte Einfahrt neben grünem Rollrasen"
     },
     "badges": [
-      { "title": "Pflaster", "sub": "Einfahrt & Wege" },
-      { "title": "Terrassen", "sub": "neu angelegt" },
-      { "title": "Rollrasen", "sub": "sofort grün" },
-      { "title": "Malching", "sub": "Am Steinacker" }
+      {
+        "title": "Pflaster",
+        "sub": "Einfahrt & Wege"
+      },
+      {
+        "title": "Terrassen",
+        "sub": "neu angelegt"
+      },
+      {
+        "title": "Rollrasen",
+        "sub": "sofort grün"
+      },
+      {
+        "title": "Malching",
+        "sub": "Am Steinacker"
+      }
     ],
     "trust": [
-      { "value": "Vor Ort", "label": "Betrieb in Malching" },
-      { "value": "5", "label": "Leistungsbereiche" },
-      { "value": "Außen", "label": "Pflaster, Terrasse, Rasen" },
-      { "value": "Mobil", "label": "schnell erreichbar" }
+      {
+        "value": "Vor Ort",
+        "label": "Betrieb in Malching"
+      },
+      {
+        "value": "5",
+        "label": "Leistungsbereiche"
+      },
+      {
+        "value": "Außen",
+        "label": "Pflaster, Terrasse, Rasen"
+      },
+      {
+        "value": "Mobil",
+        "label": "schnell erreichbar"
+      }
     ],
     "servicesIntro": {
       "headline": "Vom Pflasterweg bis zum fertigen Rasen",
@@ -157,41 +199,77 @@
       {
         "title": "Pflasterarbeiten",
         "text": "Einfahrten, Wege und Stellplätze werden auf tragfähigem Unterbau sauber gepflastert.",
-        "items": ["Einfahrten", "Gartenwege", "Stellplätze"]
+        "items": [
+          "Einfahrten",
+          "Gartenwege",
+          "Stellplätze"
+        ]
       },
       {
         "title": "Terrassenbau",
         "text": "Neue Terrassen mit ebener Fläche und sauberem Gefälle – der Platz für Sommerabende im Garten.",
-        "items": ["Terrassenflächen", "Unterbau", "Randeinfassung"]
+        "items": [
+          "Terrassenflächen",
+          "Unterbau",
+          "Randeinfassung"
+        ]
       },
       {
         "title": "Rollrasen verlegen",
         "text": "Bodenvorbereitung und Verlegung von Rollrasen – in wenigen Tagen eine grüne, nutzbare Fläche.",
-        "items": ["Bodenvorbereitung", "Verlegung", "Anwalzen"]
+        "items": [
+          "Bodenvorbereitung",
+          "Verlegung",
+          "Anwalzen"
+        ]
       },
       {
         "title": "Baumpflege",
         "text": "Rückschnitt und Pflege von Bäumen, damit sie gesund bleiben und Haus und Garten nicht beeinträchtigen.",
-        "items": ["Rückschnitt", "Kronenpflege", "Grünschnitt"]
+        "items": [
+          "Rückschnitt",
+          "Kronenpflege",
+          "Grünschnitt"
+        ]
       },
       {
         "title": "Gartenpflege",
         "text": "Damit die neu angelegten Flächen auch nach der Fertigstellung gepflegt aussehen.",
-        "items": ["Rasenpflege", "Heckenschnitt", "Laub"]
+        "items": [
+          "Rasenpflege",
+          "Heckenschnitt",
+          "Laub"
+        ]
       },
       {
         "title": "Umzugshilfe",
         "text": "Unterstützung beim Umzug – Tragen, Transportieren, Aufräumen.",
-        "items": ["Transport", "Tragehilfe", "Abtransport"]
+        "items": [
+          "Transport",
+          "Tragehilfe",
+          "Abtransport"
+        ]
       }
     ],
     "why": {
       "headline": "Außenanlagen aus Malching – direkt und unkompliziert.",
       "points": [
-        { "title": "Kurze Wege", "text": "Von Malching schnell in Maisach, Fürstenfeldbruck, Olching und Mammendorf." },
-        { "title": "Alles draußen", "text": "Pflaster, Terrasse, Rasen und Bäume aus einer Hand." },
-        { "title": "Direkter Kontakt", "text": "Ein Anruf oder eine WhatsApp-Nachricht genügt." },
-        { "title": "Sichtbares Ergebnis", "text": "Vorher/nachher – neue Flächen, die sofort nutzbar sind." }
+        {
+          "title": "Kurze Wege",
+          "text": "Von Malching schnell in Maisach, Fürstenfeldbruck, Olching und Mammendorf."
+        },
+        {
+          "title": "Alles draußen",
+          "text": "Pflaster, Terrasse, Rasen und Bäume aus einer Hand."
+        },
+        {
+          "title": "Direkter Kontakt",
+          "text": "Ein Anruf oder eine WhatsApp-Nachricht genügt."
+        },
+        {
+          "title": "Sichtbares Ergebnis",
+          "text": "Vorher/nachher – neue Flächen, die sofort nutzbar sind."
+        }
       ]
     },
     "reviews": {
@@ -210,55 +288,120 @@
     "process": {
       "headline": "In vier Schritten zur neuen Außenanlage",
       "steps": [
-        { "title": "Anfrage", "text": "Fotos und grobe Maße der Fläche per WhatsApp schicken – oder kurz anrufen." },
-        { "title": "Besichtigung", "text": "Untergrund, Material und Gefälle werden vor Ort besprochen." },
-        { "title": "Angebot", "text": "Sie erhalten ein klares Angebot für Ihre Fläche." },
-        { "title": "Ausführung", "text": "Aushub, Unterbau, Pflaster oder Rasen – sauber übergeben." }
+        {
+          "title": "Anfrage",
+          "text": "Fotos und grobe Maße der Fläche per WhatsApp schicken – oder kurz anrufen."
+        },
+        {
+          "title": "Besichtigung",
+          "text": "Untergrund, Material und Gefälle werden vor Ort besprochen."
+        },
+        {
+          "title": "Angebot",
+          "text": "Sie erhalten ein klares Angebot für Ihre Fläche."
+        },
+        {
+          "title": "Ausführung",
+          "text": "Aushub, Unterbau, Pflaster oder Rasen – sauber übergeben."
+        }
       ]
     },
     "gallery": {
       "headline": "Flächen, die neu entstehen",
       "text": "Für die Live-Version zeigen wir hier echte Projekte des Betriebs.",
       "items": [
-        { "title": "Gepflasterte Einfahrt", "photoNeeded": "neu gepflasterte Hofeinfahrt eines Einfamilienhauses" },
-        { "title": "Neue Terrasse", "photoNeeded": "fertige Terrassenfläche am Haus" },
-        { "title": "Rollrasen", "photoNeeded": "frisch verlegter Rollrasen im Garten" },
-        { "title": "Gartenweg", "photoNeeded": "gepflasterter Weg durch den Garten" },
-        { "title": "Baumschnitt", "photoNeeded": "Baum nach dem Rückschnitt" }
+        {
+          "title": "Gepflasterte Einfahrt",
+          "photoNeeded": "neu gepflasterte Hofeinfahrt eines Einfamilienhauses"
+        },
+        {
+          "title": "Neue Terrasse",
+          "photoNeeded": "fertige Terrassenfläche am Haus"
+        },
+        {
+          "title": "Rollrasen",
+          "photoNeeded": "frisch verlegter Rollrasen im Garten"
+        },
+        {
+          "title": "Gartenweg",
+          "photoNeeded": "gepflasterter Weg durch den Garten"
+        },
+        {
+          "title": "Baumschnitt",
+          "photoNeeded": "Baum nach dem Rückschnitt"
+        }
       ]
     },
     "region": {
       "headline": "Für Maisach und den Landkreis Fürstenfeldbruck",
       "text": "Von Malching aus im Einsatz in Maisach, Fürstenfeldbruck, Olching, Mammendorf und Egenhofen.",
-      "places": ["Maisach", "Malching", "Fürstenfeldbruck", "Olching", "Mammendorf", "Egenhofen"]
+      "places": [
+        "Maisach",
+        "Malching",
+        "Fürstenfeldbruck",
+        "Olching",
+        "Mammendorf",
+        "Egenhofen"
+      ]
     },
     "faq": [
-      { "q": "Wie lange dauert eine Pflasterfläche?", "a": "Das hängt von Größe und Unterbau ab. Ein Zeitplan wird nach der Besichtigung abgestimmt." },
-      { "q": "Kann ich vorab Fotos schicken?", "a": "Ja, Fotos und grobe Maße per WhatsApp helfen für eine erste Einschätzung." },
-      { "q": "Wann kann Rollrasen verlegt werden?", "a": "Grundsätzlich während der frostfreien Monate – der passende Termin wird mit Ihnen abgestimmt." },
-      { "q": "Übernehmen Sie auch Baumpflege?", "a": "Ja, Baumpflege gehört zum Angebot – fragen Sie einfach an." },
-      { "q": "Arbeiten Sie auch außerhalb von Maisach?", "a": "Ja, im Landkreis Fürstenfeldbruck und Umgebung." }
+      {
+        "q": "Wie lange dauert eine Pflasterfläche?",
+        "a": "Das hängt von Größe und Unterbau ab. Ein Zeitplan wird nach der Besichtigung abgestimmt."
+      },
+      {
+        "q": "Kann ich vorab Fotos schicken?",
+        "a": "Ja, Fotos und grobe Maße per WhatsApp helfen für eine erste Einschätzung."
+      },
+      {
+        "q": "Wann kann Rollrasen verlegt werden?",
+        "a": "Grundsätzlich während der frostfreien Monate – der passende Termin wird mit Ihnen abgestimmt."
+      },
+      {
+        "q": "Übernehmen Sie auch Baumpflege?",
+        "a": "Ja, Baumpflege gehört zum Angebot – fragen Sie einfach an."
+      },
+      {
+        "q": "Arbeiten Sie auch außerhalb von Maisach?",
+        "a": "Ja, im Landkreis Fürstenfeldbruck und Umgebung."
+      }
     ],
     "contact": {
       "headline": "Ihr Angebot – kostenlos und unverbindlich",
       "text": "Beschreiben Sie kurz Ihr Vorhaben: welche Fläche, ungefähre Größe und ob Pflaster, Terrasse oder Rasen. Fotos helfen.",
-      "topics": ["Pflasterarbeiten", "Terrasse", "Rollrasen", "Baumpflege", "Sonstiges"],
+      "topics": [
+        "Pflasterarbeiten",
+        "Terrasse",
+        "Rollrasen",
+        "Baumpflege",
+        "Sonstiges"
+      ],
       "responseNote": "Besichtigung nach Absprache."
     },
     "quote": {
       "sizeLabel": "Wie groß ist die Fläche?",
-      "sizes": ["Bis 20 m²", "20–50 m²", "50–100 m²", "Über 100 m²"],
-      "timings": ["So bald wie möglich", "Im Frühjahr", "In 1–3 Monaten", "Ich plane erst noch"]
+      "sizes": [
+        "Bis 20 m²",
+        "20–50 m²",
+        "50–100 m²",
+        "Über 100 m²"
+      ],
+      "timings": [
+        "So bald wie möglich",
+        "Im Frühjahr",
+        "In 1–3 Monaten",
+        "Ich plane erst noch"
+      ]
     },
     "stickyCta": "Angebot anfragen",
     "look": {
-      "palette": 2,
-      "font": 6,
-      "hero": 0,
-      "services": 1,
-      "radius": 1,
-      "logo": 0,
-      "intro": 5
+      "palette": 0,
+      "font": 1,
+      "hero": 1,
+      "services": 2,
+      "radius": 0,
+      "logo": 5,
+      "intro": 0
     }
   }
 }

@@ -10,8 +10,8 @@
   var cut = tag.lastIndexOf(" in "); if (cut > 0) tag = tag.slice(0, cut); // nur das Gewerk, nicht den Ort (z. B. „Windach“)
   var RULES = [
     [/elektr|strom|photovoltaik|solar|wallbox|blitz/i, "electric"],
-    [/sanit|installateur|heizung|klempner|bäder|badsanierung|wasser|rohr|spengler/i, "water"],
     [/dach/i, "roof"],
+    [/sanit|installateur|heizung|klempner|bäder|badsanierung|wasser|rohr|spengler/i, "water"],
     [/schreiner|tischler|zimmer|holz|parkett|boden|dielen|möbel|küchen/i, "wood"],
     [/maler|lackier|anstrich|tapezier/i, "paint"],
     [/fliese|naturstein|mosaik/i, "tiles"],

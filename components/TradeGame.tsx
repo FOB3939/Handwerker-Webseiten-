@@ -1,7 +1,7 @@
 import type { Lead } from "@/lib/types";
 import type { TradeFxKind } from "./TradeFx";
 
-export type GameKind = "paint" | "lawn" | "sweep" | "tiles" | "planks" | "drywall" | "bricks" | "roof" | "circuit";
+export type GameKind = "paint" | "lawn" | "sweep" | "tiles" | "planks" | "drywall" | "bricks" | "roof" | "circuit" | "water";
 
 // Reihenfolge zählt: „Dachdecker und Trockenbau“ → Dach, „Fliesenleger und Trockenbau“ → Fliesen.
 // Gleiche Regeln stehen in scripts/add-games.mjs (für bereits veröffentlichte Seiten).
@@ -9,6 +9,7 @@ const GAME_RULES: [RegExp, GameKind][] = [
   [/dach|zimmerei|spengler/i, "roof"],
   [/maler|lackier|anstrich|tapezier/i, "paint"],
   [/fliese|naturstein|mosaik/i, "tiles"],
+  [/sanit|installateur|heizung|klempner|bäder|badsanier|wasser|rohr/i, "water"],
   [/elektr|strom|photovoltaik|solar|wallbox/i, "circuit"],
   [/hausmeister|objekt|reinigung|winterdienst|entrümpel/i, "sweep"],
   [/garten|rasen|landschaft|grün|hecke|baum/i, "lawn"],

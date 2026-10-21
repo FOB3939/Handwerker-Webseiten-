@@ -128,3 +128,17 @@ Neben Handwerk auch Pferdehöfe/Reitställe, Bauernhöfe/Hofläden (Theme `hof`,
 zwei positive Belege (z. B. Freemail-Adresse im Verzeichnis, leeres Website-Feld) und eine Suche mit ausgeschlossenen
 Branchenbüchern ohne eigenen Treffer. Ein 100-%-Nachweis ist so nicht möglich – deshalb enthält jeder Lauf eine
 Schnell-Check-Liste mit Google-Maps-Links und Reserve-Kandidaten.
+
+## Entwürfe 2026-10-21
+
+- WhatsApp-Entwürfe: https://claude.ai/artifact/9AkQPAGaGdFoEi9URcJ1SL
+- Handwerker Service Oskar Pietras (Geretsried): https://claude.ai/artifact/Eg15pq9x5X1TrEoC44y1d1
+- Hutter Elektroanlagen (Puchheim): https://claude.ai/artifact/HUTad1RXZEgaq9jS2dwrvL
+- Elektro Arno Wörl (Olching): https://claude.ai/artifact/P2E1j2BRi6h9TS6UnkMarL
+- Y.S.Gartenpflege (Hallbergmoos): https://claude.ai/artifact/KUwkg4fNea76AUtmFaZ8hX
+- Marco Eder Heizung & Sanitär (Eching): https://claude.ai/artifact/S584ueoaGGRDmDoUsT9Cjq
+- Florian Beka – Dienstleistungen (Wartenberg): https://claude.ai/artifact/WWHsGYPi8tU3HA3eWopTd7
+- Reserve: Jimmy Müller Trockenbau (Mammendorf): https://claude.ai/artifact/Wmxg5KtyccovumYgAWtbB8
+- Reserve: Attila Nemeth (Olching): https://claude.ai/artifact/KzeCpy19wdASo1ciDjgi5h
+- Reserve: Muncz Spengler- und Dacharbeiten (Germering): https://claude.ai/artifact/RMVCBW5a9j1B2fvBb794Tt
+- Reserve: Despa Dienstleistungen (Maisach): https://claude.ai/artifact/YKqVpgZqszYvJHkv3CfDSB

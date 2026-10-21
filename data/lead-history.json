@@ -1318,6 +1318,126 @@
       "websiteStatus": "keine eigene Website gefunden",
       "websiteRisk": "mittel",
       "reserve": true
+    },
+    {
+      "company": "Jimmy Müller Trockenbau – Müller macht Alles",
+      "slug": "trockenbau-jimmy-mueller-mammendorf",
+      "trade": "Trockenbau",
+      "city": "Mammendorf",
+      "date": "2026-10-21",
+      "phone": "0176 62536165",
+      "email": null,
+      "googleLink": "https://www.google.com/maps/search/?api=1&query=Jimmy%20M%C3%BCller%20Trockenbau%20%E2%80%93%20M%C3%BCller%20macht%20Alles%20Kohlstattstr.%206%2C%2082291%20Mammendorf",
+      "googleVerified": false,
+      "reserve": true
+    },
+    {
+      "company": "Attila Nemeth Fliesenleger u. Gebäudereiniger",
+      "slug": "attila-nemeth-olching",
+      "trade": "Fliesenleger & Gebäudereinigung",
+      "city": "Olching",
+      "date": "2026-10-21",
+      "phone": "0179 1970231",
+      "email": null,
+      "googleLink": "https://www.google.com/maps/search/?api=1&query=Attila%20Nemeth%20Fliesenleger%20u.%20Geb%C3%A4udereiniger%20Gleiserstr.%2032%2C%2082140%20Olching",
+      "googleVerified": false,
+      "reserve": true
+    },
+    {
+      "company": "Handwerker Service Oskar Pietras",
+      "slug": "handwerker-service-pietras-geretsried",
+      "trade": "Sanitär, Trockenbau & Renovierung",
+      "city": "Geretsried",
+      "date": "2026-10-21",
+      "phone": "01523 4384494",
+      "email": "oskpiet@gmail.com",
+      "googleLink": "https://www.google.com/maps/search/?api=1&query=Handwerker%20Service%20Oskar%20Pietras%20Carl-Maria-von-Weber-Weg%201%2C%2082538%20Geretsried",
+      "googleVerified": false,
+      "reserve": false
+    },
+    {
+      "company": "Hutter Roland u. Sandra Elektroanlagen Elektroinstallationen",
+      "slug": "hutter-elektroanlagen-puchheim",
+      "trade": "Elektroinstallation",
+      "city": "Puchheim",
+      "date": "2026-10-21",
+      "phone": "089 849618",
+      "email": "roland.hutter@gmx.net",
+      "googleLink": "https://www.google.com/maps/search/?api=1&query=Hutter%20Roland%20u.%20Sandra%20Elektroanlagen%20Elektroinstallationen%20Egenhoferstr.%2013%2C%2082178%20Puchheim",
+      "googleVerified": false,
+      "reserve": false
+    },
+    {
+      "company": "Muncz Spengler- und Dacharbeiten",
+      "slug": "muncz-spengler-dacharbeiten-germering",
+      "trade": "Spenglerei & Dacharbeiten",
+      "city": "Germering",
+      "date": "2026-10-21",
+      "phone": "089 845748",
+      "email": null,
+      "googleLink": "https://www.google.com/maps/search/?api=1&query=Muncz%20Spengler-%20und%20Dacharbeiten%20Lilienstr.%2015%2C%2082110%20Germering",
+      "googleVerified": false,
+      "reserve": true
+    },
+    {
+      "company": "Elektro Arno Wörl – Meisterbetrieb für Elektrotechnik",
+      "slug": "elektro-arno-woerl-olching",
+      "trade": "Elektroinstallation",
+      "city": "Olching",
+      "date": "2026-10-21",
+      "phone": "08142 2848026",
+      "email": null,
+      "googleLink": "https://www.google.com/maps/search/?api=1&query=Elektro%20Arno%20W%C3%B6rl%20%E2%80%93%20Meisterbetrieb%20f%C3%BCr%20Elektrotechnik%20Estinger%20Str.%2031%2C%2082140%20Olching",
+      "googleVerified": false,
+      "reserve": false
+    },
+    {
+      "company": "Y.S.Gartenpflege",
+      "slug": "ys-gartenpflege-hallbergmoos",
+      "trade": "Garten- und Landschaftspflege",
+      "city": "Hallbergmoos",
+      "date": "2026-10-21",
+      "phone": "0176 62517944",
+      "email": "yasinsahin77@hotmail.de",
+      "googleLink": "https://www.google.com/maps/search/?api=1&query=Y.S.Gartenpflege%20Ulmenstr.%2021%2C%2085399%20Hallbergmoos%20%28Goldach%29",
+      "googleVerified": false,
+      "reserve": false
+    },
+    {
+      "company": "Marco Eder Heizung- und Sanitärinstallation e.K.",
+      "slug": "marco-eder-heizung-sanitaer-eching",
+      "trade": "Sanitär & Heizung",
+      "city": "Eching",
+      "date": "2026-10-21",
+      "phone": "089 37001966",
+      "email": null,
+      "googleLink": "https://www.google.com/maps/search/?api=1&query=Marco%20Eder%20Heizung-%20und%20Sanit%C3%A4rinstallation%20e.K.%20Waldweg%2019%2C%2085386%20Eching",
+      "googleVerified": false,
+      "reserve": false
+    },
+    {
+      "company": "Florian Beka – Dienstleistungen",
+      "slug": "florian-beka-dienstleistungen-wartenberg",
+      "trade": "Hausmeisterservice & Gebäudereinigung",
+      "city": "Wartenberg",
+      "date": "2026-10-21",
+      "phone": "0174 3809031",
+      "email": "info.firmabeka@gmail.com",
+      "googleLink": "https://www.google.com/maps/search/?api=1&query=Florian%20Beka%20%E2%80%93%20Dienstleistungen%20Moosburger%20Str.%2023a%2C%2085456%20Wartenberg",
+      "googleVerified": false,
+      "reserve": false
+    },
+    {
+      "company": "Despa Dienstleistungen",
+      "slug": "despa-dienstleistungen-maisach",
+      "trade": "Garten- und Landschaftsbau",
+      "city": "Maisach-Malching",
+      "date": "2026-10-21",
+      "phone": "01590 1158598",
+      "email": null,
+      "googleLink": "https://www.google.com/maps/search/?api=1&query=Despa%20Dienstleistungen%20Am%20Steinacker%204%2C%2082216%20Maisach-Malching",
+      "googleVerified": false,
+      "reserve": true
     }
   ],
   "rejected": [
@@ -2469,6 +2589,281 @@
       "company": "Lech Clean (Landsberg)",
       "reason": "Domain-E-Mail",
       "date": "2026-10-18"
+    },
+    {
+      "company": "Johann Pfrieger Fliesenlegerei",
+      "reason": "bereits verworfen/Tabu",
+      "date": "2026-10-21"
+    },
+    {
+      "company": "Pedro-Bau.A3 (Wartenberg)",
+      "reason": "keine Kontaktdaten",
+      "date": "2026-10-21"
+    },
+    {
+      "company": "ISIC-hausservice (Freising)",
+      "reason": "keine Kontaktdaten",
+      "date": "2026-10-21"
+    },
+    {
+      "company": "Christoph Niedersteiner Malerwerk",
+      "reason": "Website",
+      "date": "2026-10-21"
+    },
+    {
+      "company": "CL-Altbausanierung",
+      "reason": "Website/GmbH",
+      "date": "2026-10-21"
+    },
+    {
+      "company": "Schreinerei Schlenz (Fürstenfeldbruck)",
+      "reason": "Website",
+      "date": "2026-10-21"
+    },
+    {
+      "company": "GaLa- und Pflasterbau Atakul-Blumentritt (Maisach)",
+      "reason": "Website",
+      "date": "2026-10-21"
+    },
+    {
+      "company": "Matteo Biancofiore Haustechnik (Emmering)",
+      "reason": "Website",
+      "date": "2026-10-21"
+    },
+    {
+      "company": "Dubova Haustechnik (Emmering)",
+      "reason": "Website",
+      "date": "2026-10-21"
+    },
+    {
+      "company": "Rakman Elektro (Freising)",
+      "reason": "Website",
+      "date": "2026-10-21"
+    },
+    {
+      "company": "Schulz Dachdeckerei (Moosburg)",
+      "reason": "Website",
+      "date": "2026-10-21"
+    },
+    {
+      "company": "Gartenbau Schulz (Hallbergmoos)",
+      "reason": "Website",
+      "date": "2026-10-21"
+    },
+    {
+      "company": "Elektro Fechter (Neufahrn)",
+      "reason": "Website",
+      "date": "2026-10-21"
+    },
+    {
+      "company": "Clean-service GW GbR (Freising)",
+      "reason": "Website",
+      "date": "2026-10-21"
+    },
+    {
+      "company": "H.R. Dienstleistungen (Moosburg)",
+      "reason": "Website",
+      "date": "2026-10-21"
+    },
+    {
+      "company": "Dachdeckerei Tom Beger (Moosburg)",
+      "reason": "Website",
+      "date": "2026-10-21"
+    },
+    {
+      "company": "Metallbau Elsnitz (Gauting)",
+      "reason": "Website",
+      "date": "2026-10-21"
+    },
+    {
+      "company": "TKS Thomas Keller Sanitär (Gilching)",
+      "reason": "Website",
+      "date": "2026-10-21"
+    },
+    {
+      "company": "Dietmar Schubert Dachspenglerei (Gilching)",
+      "reason": "mögliche Website spenglerdach.de",
+      "date": "2026-10-21"
+    },
+    {
+      "company": "Thomas Will Schreinerei (Gilching)",
+      "reason": "Website",
+      "date": "2026-10-21"
+    },
+    {
+      "company": "Allroundservice Rohleder (Anzing)",
+      "reason": "Website",
+      "date": "2026-10-21"
+    },
+    {
+      "company": "Heiko Palmer Innenausbau (Landsberg)",
+      "reason": "Website",
+      "date": "2026-10-21"
+    },
+    {
+      "company": "Montage Bau Dilmann (Landsberg)",
+      "reason": "Website",
+      "date": "2026-10-21"
+    },
+    {
+      "company": "Merlin Haus- und Gartenservice (Schwabmünchen)",
+      "reason": "Website",
+      "date": "2026-10-21"
+    },
+    {
+      "company": "Malerbetrieb Ratzka (Penzing)",
+      "reason": "Website",
+      "date": "2026-10-21"
+    },
+    {
+      "company": "Dieter Sesojew Fliesenleger (Altenerding)",
+      "reason": "Website",
+      "date": "2026-10-21"
+    },
+    {
+      "company": "Fliesen Capriglia (Altenerding)",
+      "reason": "Website",
+      "date": "2026-10-21"
+    },
+    {
+      "company": "Schlenzger's Hausmeisterservice (Dorfen)",
+      "reason": "Website",
+      "date": "2026-10-21"
+    },
+    {
+      "company": "Tino's Malerbetrieb (Geretsried)",
+      "reason": "Domain-E-Mail",
+      "date": "2026-10-21"
+    },
+    {
+      "company": "Isartaler Fliesenverlegung (Geretsried)",
+      "reason": "Website",
+      "date": "2026-10-21"
+    },
+    {
+      "company": "Top Garten & Rasen (Bad Tölz)",
+      "reason": "Website",
+      "date": "2026-10-21"
+    },
+    {
+      "company": "Krosi GaLaBau (Bad Tölz)",
+      "reason": "Website",
+      "date": "2026-10-21"
+    },
+    {
+      "company": "Svitlana Kochale Hausmeisterservice (Landsberg)",
+      "reason": "Website",
+      "date": "2026-10-21"
+    },
+    {
+      "company": "Basti's Entrümpelungen (Dachau)",
+      "reason": "Website",
+      "date": "2026-10-21"
+    },
+    {
+      "company": "HPH Entrümpelung (Dachau)",
+      "reason": "Website",
+      "date": "2026-10-21"
+    },
+    {
+      "company": "Harald Bock Hausmeisterservice (Dachau)",
+      "reason": "Website",
+      "date": "2026-10-21"
+    },
+    {
+      "company": "AE Gebäude Service (Dachau)",
+      "reason": "Website",
+      "date": "2026-10-21"
+    },
+    {
+      "company": "Ayhan Tas Heizung & Sanitär (Karlsfeld)",
+      "reason": "Website",
+      "date": "2026-10-21"
+    },
+    {
+      "company": "Sentürk Gebäudetechnik (Karlsfeld)",
+      "reason": "Baukasten-Seite",
+      "date": "2026-10-21"
+    },
+    {
+      "company": "Der Rohrkäfer (Karlsfeld)",
+      "reason": "Website",
+      "date": "2026-10-21"
+    },
+    {
+      "company": "Malerfachbetrieb Peter Dick (Markt Indersdorf)",
+      "reason": "Website",
+      "date": "2026-10-21"
+    },
+    {
+      "company": "Maler und Bautenschutz Heiss (Markt Indersdorf)",
+      "reason": "Website",
+      "date": "2026-10-21"
+    },
+    {
+      "company": "Schreinermeister Thomas Schelbert (Karlsfeld)",
+      "reason": "Website",
+      "date": "2026-10-21"
+    },
+    {
+      "company": "Thomas Kraus Metallbau (Dachau)",
+      "reason": "Website",
+      "date": "2026-10-21"
+    },
+    {
+      "company": "Stemmer Schlosserei (Petershausen)",
+      "reason": "vermutlich inaktiv/Nachbar mit Website",
+      "date": "2026-10-21"
+    },
+    {
+      "company": "Michael Schlegel Entsorgungsbetrieb (Emmering)",
+      "reason": "Website",
+      "date": "2026-10-21"
+    },
+    {
+      "company": "Elektro Michler (Olching)",
+      "reason": "Website/GmbH",
+      "date": "2026-10-21"
+    },
+    {
+      "company": "Ronald Bartels (Maisach)",
+      "reason": "Website",
+      "date": "2026-10-21"
+    },
+    {
+      "company": "Fliesen Trybula (Kirchseeon)",
+      "reason": "Website",
+      "date": "2026-10-21"
+    },
+    {
+      "company": "Johann Gaubatz (Gröbenzell)",
+      "reason": "nicht belegt",
+      "date": "2026-10-21"
+    },
+    {
+      "company": "GT Fliesen (Olching)",
+      "reason": "keine Kontaktdaten",
+      "date": "2026-10-21"
+    },
+    {
+      "company": "Ardit Hajzeri (Eching)",
+      "reason": "nicht bestätigt",
+      "date": "2026-10-21"
+    },
+    {
+      "company": "HA Hausmeisterservice (Eching)",
+      "reason": "nicht auffindbar",
+      "date": "2026-10-21"
+    },
+    {
+      "company": "CO Entrümpelung (Ebersberg)",
+      "reason": "existiert nicht",
+      "date": "2026-10-21"
+    },
+    {
+      "company": "Rene Janke Trockenbau (Hurlach)",
+      "reason": "keine Kontaktdaten",
+      "date": "2026-10-21"
     }
   ]
 }

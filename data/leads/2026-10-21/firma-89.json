@@ -1,126 +1,106 @@
 {
   "id": "2026-10-21-89",
-  "slug": "elektro-arno-woerl-olching",
+  "slug": "ys-gartenpflege-hallbergmoos",
   "date": "2026-10-21",
   "company": {
-    "name": "Elektro Arno Wörl – Meisterbetrieb für Elektrotechnik",
-    "owner": "Arno Wörl",
-    "trade": "Elektroinstallation",
-    "city": "Olching",
-    "address": "Estinger Str. 31, 82140 Olching",
-    "phone": "08142 2848026",
-    "email": null,
+    "name": "Y.S.Gartenpflege",
+    "owner": null,
+    "trade": "Garten- und Landschaftspflege",
+    "city": "Hallbergmoos",
+    "address": "Ulmenstr. 21, 85399 Hallbergmoos (Goldach)",
+    "phone": "0176 62517944",
+    "email": "yasinsahin77@hotmail.de",
     "serviceArea": [
-      "Olching",
-      "Esting",
-      "Gröbenzell",
-      "Eichenau",
-      "Fürstenfeldbruck",
-      "Maisach"
+      "Hallbergmoos",
+      "Goldach",
+      "Freising",
+      "Neufahrn",
+      "Eching",
+      "Oberding",
+      "Ismaning"
     ]
   },
   "listings": {
     "google": {
-      "url": "https://www.google.com/maps/search/?api=1&query=Elektro%20Arno%20W%C3%B6rl%20Estinger%20Str.%2031%20Olching",
-      "rating": 4,
-      "reviews": 6,
-      "evidence": "INDIREKT (Spiegel) – laut Suchergebnis zeigt ein Verzeichnisprofil (elektriker.org, „Wörl, Arno Inh. Arno Wörl“) Google-Bewertungen mit 4 von 5 Sternen bei 6 Bewertungen. Zusätzlich 1 geprüfte Bewertung auf kennstdueinen.de (4,8/5). Kein direkter google.com/maps/place-Treffer, kein Website-Feld in den Snippets – in Maps prüfen."
-    },
-    "myhammer": {
-      "url": "https://www.11880.com/suche/elektro/olching",
+      "url": "https://www.google.com/maps/search/?api=1&query=Y.S.Gartenpflege%20Ulmenstr.%2021%20Hallbergmoos",
       "rating": null,
       "reviews": null,
-      "evidence": "Kein MyHammer gefunden – Eintrag „Elektro Arno Wörl Meisterbetrieb für Elektrotechnik“, Estinger Str. 31, (08142) 2848026 in den 11880-Ortslisten Elektro/Elektriker Olching sowie in Das Örtliche, klicktel und stadtbranchenbuch."
+      "evidence": "KEIN Google-Beleg gefunden – kein Spiegel (rgv-bayern, firmania, trustlocal) führt den Betrieb. Stattdessen Freemail öffentlich belegt: 11880-Eintrag nennt in den strukturierten Daten yasinsahin77@hotmail.de (Microsoft-Freemail wie outlook). 11880: noch keine Bewertungen abgegeben, Stand 11.12.2025. In Maps prüfen, ob ein Eintrag existiert."
+    },
+    "myhammer": {
+      "url": "https://www.11880.com/branchenbuch/hallbergmoos/170211840B113663815/y-s-gartenpflege.html",
+      "rating": null,
+      "reviews": null,
+      "evidence": "Kein MyHammer-Profil gefunden – 11880-Eintrag „Y.S.Gartenpflege“, Ulmenstr. 21, 85399 Hallbergmoos (Goldach), Tel. (0176) 62517944, Kategorien Garten- und Landschaftspflege, Grabmalgestaltung & Rollrasen verlegen, keine Öffnungszeiten."
     }
   },
   "websiteStatus": "keine eigene Website gefunden",
   "websiteChecks": [
-    "(1) „Elektro Arno Wörl Olching“ mit blocked_domains (11880, Gelbe Seiten, Das Örtliche, Telefonbuch, Cylex, meinestadt, Creditreform, Facebook, Instagram, golocal, MyHammer, Northdata, Firmenwissen, WKDB, Yelp, trustlocal, wlw) – nur Verzeichnisse (elektriker.org, kennstdueinen, stadtbranchenbuch, klicktel, elektrikerbetreibe.online, goyellow); keine eigene Domain",
-    "(2) Domain-Check allowed_domains elektro-woerl.de, woerl-elektro.de, elektrowoerl.de, elektro-arno-woerl.de, arno-woerl.de, woerl-elektrotechnik.de, elektrotechnik-woerl.de, elektro-woerl-olching.de – nur Treffer elektrotechnik-woerl.de: anderer Betrieb „Elektrotechnik Wörl“ in Unterschleißheim (Bezirksstraße 24/Heidestraße 38A, Tel. 0176 32608964) – kein Bezug zu Olching/Arno Wörl erkennbar",
-    "(3) Telefonsuche „08142 2848026“/„081422848026“ mit blocked_domains – nur stadtbranchenbuch-Eintrag, keine Website",
-    "(4) Impressum-Suche „Impressum Arno Wörl Elektrotechnik Olching Estinger Straße“ – kein eigenes Impressum, nur Das-Örtliche-Listen",
-    "(5) Verzeichnisse: kein Website-Feld und keine E-Mail in den Snippets",
-    "Website-Risiko: mittel – alle Prüfungen negativ, Google-Eintrag nur indirekt belegt; gleichnamiger Elektrobetrieb mit Website in Unterschleißheim (Verwandtschaft nicht ausgeschlossen)"
+    "(1) Namenssuche „Y.S. Gartenpflege“/„YS Gartenpflege“ Hallbergmoos + 0176 62517944 mit blocked_domains (11880, Gelbe Seiten, Das Örtliche, Telefonbuch, Cylex, meinestadt, Creditreform, Facebook, Instagram, golocal, MyHammer, Northdata, Firmenwissen, WKDB, Yelp, wlw) – kein Treffer zum Betrieb, nur andere Gartenbetriebe (HEWI, Hans Stamm, Matthias Pfeifer); Telefonnummer taucht nirgends mit Website auf",
+    "(2) Domain-Check allowed_domains ys-gartenpflege.de, ysgartenpflege.de, ys-gartenpflege.com, gartenpflege-ys.de, ys-gartenpflege-hallbergmoos.de, gartenpflege-hallbergmoos.de, ys-garten.de – keine Treffer",
+    "(3) Suche Name + Adresse Ulmenstr. 21 + E-Mail (offen) – kein Impressum, keine Website, nur fremde Verzeichnisse",
+    "(4) 11880-Eintrag: kein „Homepage“-Feld, E-Mail auf Freemail (hotmail.de) statt eigener Domain",
+    "Website-Risiko: niedrig – alle Prüfungen negativ, Freemail belegt; Google-Eintrag aber nicht belegt"
   ],
   "facts": {
     "services": [
-      "Elektroinstallation",
-      "Neuinstallationen",
-      "Erweiterungen",
-      "Reparaturen",
-      "Verkabelung der Haustechnik",
-      "Wallbox-Installation"
+      "Garten- und Landschaftspflege",
+      "Grabmalgestaltung",
+      "Rollrasen verlegen"
     ],
     "experience": null,
     "praisedFor": []
   },
   "strategy": {
-    "audience": "Hauseigentümer, Bauherren und Vermieter in Olching, Esting, Gröbenzell und Eichenau, die Elektrik erneuern, erweitern oder eine Wallbox fürs E-Auto anschließen lassen wollen",
-    "mainService": "Elektroinstallation vom Meisterbetrieb – Neubau, Erweiterung, Wallbox",
-    "trustSignal": "Meisterbetrieb für Elektrotechnik mit Sitz in Olching",
-    "conversionGoal": "Unverbindlich Termin oder Angebot für Elektroarbeiten anfragen (Anruf oder Formular)",
-    "visualConcept": "Sauber verdrahtete Verteilerschränke, Steckdosen und Wallbox an der Garagenwand – klar, technisch, aufgeräumt"
+    "audience": "Hausbesitzer, Vermieter und Angehörige mit Grabstätten in Hallbergmoos, Goldach, Freising und Neufahrn, die Garten- oder Grabpflege abgeben möchten",
+    "mainService": "Gartenpflege und neuer Rasen – plus Grabgestaltung",
+    "trustSignal": "Kleiner Betrieb aus Goldach, direkt per Handy erreichbar",
+    "conversionGoal": "Kostenlose Anfrage zur Gartenpflege oder Rollrasen-Verlegung (per WhatsApp mit Fotos oder Anruf)",
+    "visualConcept": "Frisches Grün und klare Kanten: frisch verlegter Rollrasen, geschnittene Hecken, ordentlich gestaltete Grabstätte – ruhig und gepflegt"
   },
   "sales": {
     "score": 4,
     "whyGoodLead": [
-      "Keine eigene Website gefunden – nur Verzeichniseinträge",
-      "Meisterbetrieb mit wenigen Google-Bewertungen – eine Website stärkt die Sichtbarkeit spürbar",
-      "Wallbox und Elektro-Modernisierung sind stark nachgefragt – Suchanfragen landen sonst bei Wettbewerbern",
-      "Elektro ist ein bisher seltenes Gewerk in der Lead-Liste"
+      "Keine eigene Website – nur ein 11880-Eintrag ohne Bewertungen",
+      "Mobilnummer und Freemail öffentlich – direkter Erstkontakt per WhatsApp möglich",
+      "Ungewöhnliche Kombination Gartenpflege + Grabmalgestaltung – auf einer Website gut erklärbar",
+      "Hallbergmoos/Goldach mit vielen Einfamilienhäusern – stetiger Bedarf an Garten- und Rasenpflege"
     ],
-    "pitch": "Grüß Gott Herr Wörl, hier ist … – ich baue Websites für Handwerker im Landkreis Fürstenfeldbruck. Ich habe Ihren Meisterbetrieb in Olching gefunden, aber keine eigene Website. Ich habe unverbindlich einen Entwurf vorbereitet, auf dem Kunden Ihre Elektroinstallationen und Wallbox-Montagen sehen und direkt anfragen können – darf ich Ihnen den Link schicken?"
+    "pitch": "Hallo, hier ist … – ich baue Websites für Handwerks- und Gartenbetriebe im Landkreis Freising. Ich habe Ihren Eintrag „Y.S.Gartenpflege“ in Hallbergmoos gefunden, aber keine eigene Website. Ich habe unverbindlich einen Entwurf vorbereitet, auf dem Kunden Gartenpflege, Rollrasen und Grabgestaltung sehen und direkt per WhatsApp anfragen können – darf ich Ihnen den Link schicken?"
   },
   "manualChecks": [
-    "Website-Risiko: mittel – vor Versand in Google Maps prüfen, dass keine Website hinterlegt ist (Grund: Google-Eintrag nur indirekt über Verzeichnis-Spiegel belegt; gleichnamiger Betrieb „Elektrotechnik Wörl“ mit Website in Unterschleißheim)",
-    "Google-Eintrag in Maps bestätigen (Existenz, Bewertung 4/5 bei 6 Bewertungen laut Spiegel)",
-    "Klären, ob „Elektrotechnik Wörl“ (Unterschleißheim, elektrotechnik-woerl.de) ein verwandter Betrieb ist – falls ja, verwerfen",
-    "Nur Festnetznummer bekannt, keine E-Mail – Erstkontakt telefonisch",
-    "Gründungsjahr (2007 laut einem Verzeichnis) nur einfach belegt – nicht auf der Seite verwendet",
+    "Website-Risiko: niedrig – vor Versand in Google Maps prüfen, dass keine Website hinterlegt ist (Grund: Google-Eintrag nicht belegt, nur 11880 mit Freemail; ob überhaupt ein Maps-Profil existiert, ist offen)",
+    "Inhabername nicht ausdrücklich belegt (E-Mail-Adresse deutet auf „Yasin Sahin“ hin) – beim Erstkontakt erfragen, Anrede bis dahin neutral",
+    "Leistungen nur grob belegt (Garten- und Landschaftspflege, Grabmalgestaltung, Rollrasen) – Heckenschnitt, Rasenpflege, Grünschnitt-Abfuhr beim Betrieb bestätigen",
+    "Einzugsgebiet nicht belegt – Nachbarorte sind Annahme, beim Betrieb bestätigen",
     "Logo und Projektfotos: nicht gefunden – beim Betrieb anfragen"
   ],
   "sources": [
     {
-      "label": "11880 – Elektro Olching (Liste mit Elektro Arno Wörl)",
-      "url": "https://www.11880.com/suche/elektro/olching"
+      "label": "11880 – Y.S.Gartenpflege Hallbergmoos",
+      "url": "https://www.11880.com/branchenbuch/hallbergmoos/170211840B113663815/y-s-gartenpflege.html"
     },
     {
-      "label": "elektriker.org – Wörl, Arno Inh. Arno Wörl (Olching)",
-      "url": "https://www.elektriker.org/olching/woerl-arno-inh-arno-woerl-aUPoS6"
-    },
-    {
-      "label": "kennstdueinen.de – Elektro Arno Wörl (1 geprüfte Bewertung)",
-      "url": "https://www.kennstdueinen.de/elektrotechnik-olching-elektro-arno-woerl-d934191.html"
-    },
-    {
-      "label": "stadtbranchenbuch – Elektro Arno Wörl, Estinger Str. 31",
-      "url": "https://olching.stadtbranchenbuch.com/5564097.html"
-    },
-    {
-      "label": "klicktel – Elektro Arno Wörl Meisterbetrieb für Elektrotechnik",
-      "url": "https://klicktel.de/branchenbuch/olching/060691303B67288724/elektro-arno-woerl-meisterbetrieb-fuer-elektrotechnik.html"
-    },
-    {
-      "label": "elektrikerbetreibe.online – Elektro Arno Wörl",
-      "url": "https://elektrikerbetreibe.online/elektro-arno-woerl-meisterbetrieb-fuer-elektrotechnik/00276926"
+      "label": "11880 – Garten- und Landschaftspflege Hallbergmoos (Liste mit Y.S.Gartenpflege)",
+      "url": "https://www.11880.com/suche/garten-und-landschaftspflege/hallbergmoos"
     }
   ],
   "site": {
-    "theme": "volt",
+    "theme": "garten",
     "category": "handwerk",
     "heroOffer": [
-      "Elektroinstallation",
-      "Wallbox",
-      "Erweiterungen",
-      "Reparaturen",
-      "Haustechnik"
+      "Gartenpflege",
+      "Rollrasen",
+      "Heckenschnitt",
+      "Grabgestaltung",
+      "Rasenpflege"
     ],
-    "scene": "electric",
-    "logoIcon": "bolt",
-    "logoMark": "AW",
-    "brandName": "Elektro Arno Wörl",
-    "seoTitle": "Elektriker in Olching – Elektro Arno Wörl, Meisterbetrieb",
-    "seoDescription": "Elektroinstallation, Erweiterungen, Reparaturen und Wallbox-Montage vom Meisterbetrieb in Olching. Jetzt unverbindlich anfragen.",
+    "scene": "garden",
+    "logoIcon": "leaf",
+    "logoMark": "YS",
+    "brandName": "Y.S.Gartenpflege",
+    "seoTitle": "Gartenpflege in Hallbergmoos – Y.S.Gartenpflege",
+    "seoDescription": "Gartenpflege, Rollrasen und Grabgestaltung in Hallbergmoos, Goldach und Umgebung. Jetzt kostenlos anfragen – auch per WhatsApp.",
     "nav": [
       {
         "label": "Leistungen",
@@ -148,132 +128,132 @@
       }
     ],
     "hero": {
-      "eyebrow": "Meisterbetrieb · Olching",
-      "headline": "Elektrotechnik vom Meister in Olching",
-      "sub": "Neue Leitungen, mehr Steckdosen, Wallbox – fachgerecht installiert im Landkreis Fürstenfeldbruck.",
-      "ctaPrimary": "Unverbindlich anfragen",
+      "eyebrow": "Gartenpflege · Hallbergmoos",
+      "headline": "Gartenpflege in Hallbergmoos",
+      "sub": "Rasen, Hecken, Beete und Grabstätten – gepflegt von Ihrem Betrieb aus Goldach.",
+      "ctaPrimary": "Kostenlos anfragen",
       "ctaSecondary": "Anrufen",
       "bullets": [
-        "Meisterbetrieb für Elektrotechnik",
-        "Wallbox fürs E-Auto",
-        "Sitz an der Estinger Straße"
+        "Garten- und Landschaftspflege",
+        "Rollrasen fertig verlegt",
+        "Grabgestaltung und -pflege"
       ],
-      "imageLabel": "aufgeräumter Sicherungskasten mit frisch verlegten Leitungen"
+      "imageLabel": "frisch verlegter Rollrasen vor gepflegter Hecke"
     },
     "badges": [
       {
-        "title": "Meisterbetrieb",
-        "sub": "Elektrotechnik"
+        "title": "Gartenpflege",
+        "sub": "Rasen, Hecken, Beete"
       },
       {
-        "title": "Wallbox",
-        "sub": "Laden zu Hause"
+        "title": "Rollrasen",
+        "sub": "sofort grün"
       },
       {
-        "title": "Installation",
-        "sub": "neu & Erweiterung"
+        "title": "Grabgestaltung",
+        "sub": "würdevoll gepflegt"
       },
       {
-        "title": "Olching",
-        "sub": "Estinger Straße"
+        "title": "Hallbergmoos",
+        "sub": "Ortsteil Goldach"
       }
     ],
     "trust": [
       {
-        "value": "Meister",
-        "label": "Betrieb für Elektrotechnik"
-      },
-      {
         "value": "Vor Ort",
-        "label": "Sitz in Olching"
+        "label": "Betrieb in Goldach"
       },
       {
-        "value": "Neu & Alt",
-        "label": "Installation und Erweiterung"
+        "value": "3",
+        "label": "Leistungsbereiche"
       },
       {
-        "value": "E-Mobil",
-        "label": "Wallbox-Montage"
+        "value": "Grün",
+        "label": "Garten, Rasen, Grab"
+      },
+      {
+        "value": "Mobil",
+        "label": "direkt erreichbar"
       }
     ],
     "servicesIntro": {
-      "headline": "Strom, wo Sie ihn brauchen",
-      "text": "Ob neue Leitungen im Neubau, zusätzliche Steckdosen im Bestand oder die Wallbox in der Garage: Arno Wörl plant und installiert fachgerecht nach Norm."
+      "headline": "Garten, Rasen und Grabstätte in guten Händen",
+      "text": "Ob regelmäßige Pflege, ein neuer Rasen über Nacht oder eine gepflegte Grabstätte: Sie beschreiben, was ansteht – wir erledigen es."
     },
     "services": [
       {
-        "title": "Elektroinstallation",
-        "text": "Komplette Elektroinstallation für Neubau und Umbau – von der Leitungsführung bis zur Abnahme.",
+        "title": "Gartenpflege",
+        "text": "Regelmäßige oder einmalige Pflege Ihres Gartens – damit Rasen, Beete und Wege das ganze Jahr ordentlich aussehen.",
         "items": [
-          "Leitungen verlegen",
-          "Unterverteilung",
-          "Schalter & Steckdosen"
+          "Laufende Pflege",
+          "Saisonarbeiten",
+          "Ordnung im Garten"
         ]
       },
       {
-        "title": "Erweiterungen",
-        "text": "Zusätzliche Steckdosen, neue Stromkreise oder Anschlüsse für Küche, Keller und Garten.",
+        "title": "Rollrasen verlegen",
+        "text": "Boden vorbereiten, Rollrasen auslegen, andrücken und wässern – in kurzer Zeit eine dichte, grüne Fläche.",
         "items": [
-          "Neue Stromkreise",
-          "Küchenanschlüsse",
-          "Außensteckdosen"
+          "Bodenvorbereitung",
+          "Verlegung",
+          "Anwässern"
         ]
       },
       {
-        "title": "Wallbox-Montage",
-        "text": "Ladestation fürs Elektroauto an Garage oder Stellplatz – sauber angeschlossen und abgesichert.",
+        "title": "Rasenpflege",
+        "text": "Mähen und Kantenschnitt, damit der Rasen gleichmäßig und gesund bleibt.",
         "items": [
-          "Wallbox anschließen",
-          "Zuleitung",
-          "Absicherung"
+          "Rasenmähen",
+          "Kanten schneiden",
+          "Grünschnitt"
         ]
       },
       {
-        "title": "Reparaturen",
-        "text": "Defekte Steckdosen, auslösende Sicherungen oder ausgefallene Leuchten – Fehler finden und beheben.",
+        "title": "Hecken & Sträucher",
+        "text": "Formschnitt für Hecken und Sträucher – sauber, gerade und mit Rücksicht auf die Pflanze.",
         "items": [
-          "Fehlersuche",
-          "Austausch",
-          "Instandsetzung"
+          "Heckenschnitt",
+          "Strauchschnitt",
+          "Formschnitt"
         ]
       },
       {
-        "title": "Haustechnik-Verkabelung",
-        "text": "Fachgerechte Verkabelung der Haustechnik, damit Geräte und Netzwerk zuverlässig laufen.",
+        "title": "Landschaftspflege",
+        "text": "Pflege größerer Grünflächen rund um Wohnanlagen und Grundstücke.",
         "items": [
-          "Netzwerkkabel",
-          "Geräteanschlüsse",
-          "Ordentliche Verlegung"
+          "Grünflächen",
+          "Wohnanlagen",
+          "Grundstücke"
         ]
       },
       {
-        "title": "Beleuchtung",
-        "text": "Neue Leuchten innen und außen montiert und angeschlossen – vom Flur bis zur Einfahrt.",
+        "title": "Grabgestaltung",
+        "text": "Gestaltung und Pflege von Grabstätten – würdevoll und zuverlässig, auch wenn Sie selbst nicht vor Ort sein können.",
         "items": [
-          "Deckenleuchten",
-          "Außenbeleuchtung",
-          "Schaltungen"
+          "Grabgestaltung",
+          "Grabpflege",
+          "Saisonbepflanzung"
         ]
       }
     ],
     "why": {
-      "headline": "Elektrik aus Meisterhand – direkt aus Olching.",
+      "headline": "Gartenpflege aus Goldach – direkt und verlässlich.",
       "points": [
         {
-          "title": "Meisterbetrieb",
-          "text": "Elektroarbeiten gehören in Fachhände – hier arbeitet ein Meisterbetrieb für Elektrotechnik."
-        },
-        {
           "title": "Kurze Wege",
-          "text": "Von der Estinger Straße schnell in Esting, Gröbenzell, Eichenau und Fürstenfeldbruck."
+          "text": "Der Betrieb sitzt in Goldach und ist schnell in Hallbergmoos, Freising, Neufahrn und Eching."
         },
         {
-          "title": "Ein Ansprechpartner",
-          "text": "Arno Wörl ist direkt erreichbar – von der Anfrage bis zur Übergabe."
+          "title": "Direkter Draht",
+          "text": "Eine WhatsApp mit Fotos oder ein kurzer Anruf genügt – ohne Umwege."
         },
         {
-          "title": "Zukunftssicher",
-          "text": "Mit Wallbox und erweiterten Stromkreisen ist Ihr Haus bereit für E-Auto und mehr Technik."
+          "title": "Garten und Grab",
+          "text": "Gartenpflege und Grabgestaltung aus einer Hand – ein Ansprechpartner für beides."
+        },
+        {
+          "title": "Schnell grün",
+          "text": "Mit Rollrasen ist eine neue Rasenfläche in kurzer Zeit fertig."
         }
       ]
     },
@@ -281,132 +261,133 @@
       "headline": "Was Kunden sagen",
       "summary": "Kundenstimmen werden hier eingebunden, sobald sie aus dem Google-Profil übernommen sind.",
       "highlights": [
-        "Elektroinstallation in Olching",
-        "Wallbox-Montage",
-        "Meisterbetrieb"
+        "Gartenpflege in Hallbergmoos",
+        "Rollrasen und Rasenpflege",
+        "Grabgestaltung"
       ],
       "source": "Google",
-      "sourceUrl": "https://www.google.com/maps/search/?api=1&query=Elektro%20Arno%20W%C3%B6rl%20Estinger%20Str.%2031%20Olching",
+      "sourceUrl": "https://www.google.com/maps/search/?api=1&query=Y.S.Gartenpflege%20Ulmenstr.%2021%20Hallbergmoos",
       "rating": null,
       "count": null
     },
     "process": {
-      "headline": "So kommt der Strom an die richtige Stelle",
+      "headline": "In vier Schritten zum gepflegten Garten",
       "steps": [
         {
           "title": "Anfrage",
-          "text": "Kurz anrufen oder das Formular nutzen – was soll installiert, erweitert oder repariert werden?"
+          "text": "Fotos vom Garten oder der Grabstätte per WhatsApp schicken – oder kurz anrufen."
         },
         {
-          "title": "Vor-Ort-Termin",
-          "text": "Bestand, Verteiler und Leitungswege werden angeschaut und besprochen."
+          "title": "Besichtigung",
+          "text": "Fläche und Umfang werden vor Ort angeschaut und abgestimmt."
         },
         {
           "title": "Angebot",
-          "text": "Sie erhalten ein klares Angebot für Material und Arbeit."
+          "text": "Sie erhalten ein klares Angebot – einmalig oder als regelmäßige Pflege."
         },
         {
-          "title": "Installation",
-          "text": "Fachgerechter Einbau, Prüfung und Übergabe – sauber hinterlassen."
+          "title": "Ausführung",
+          "text": "Die Arbeiten werden erledigt, Grünschnitt und Reste ordentlich aufgeräumt."
         }
       ]
     },
     "gallery": {
-      "headline": "Elektroarbeiten aus Olching",
-      "text": "Für die Live-Version zeigen wir hier echte Projekte des Betriebs.",
+      "headline": "Gärten und Flächen, die gepflegt aussehen",
+      "text": "Für die Live-Version zeigen wir hier echte Arbeiten des Betriebs.",
       "items": [
         {
-          "title": "Neuer Verteiler",
-          "photoNeeded": "frisch bestückter, beschrifteter Sicherungskasten"
+          "title": "Neuer Rollrasen",
+          "photoNeeded": "frisch verlegter Rollrasen im Hausgarten"
         },
         {
-          "title": "Wallbox",
-          "photoNeeded": "montierte Wallbox an der Garagenwand mit Ladekabel"
+          "title": "Heckenschnitt",
+          "photoNeeded": "gerade geschnittene Hecke vorher/nachher"
         },
         {
-          "title": "Rohinstallation",
-          "photoNeeded": "verlegte Leitungen und Dosen im Rohbau"
+          "title": "Gepflegte Beete",
+          "photoNeeded": "gejätete, saubere Beete mit klaren Kanten"
         },
         {
-          "title": "Außenbeleuchtung",
-          "photoNeeded": "neue Wandleuchten an Hauseingang oder Einfahrt"
+          "title": "Grabstätte",
+          "photoNeeded": "gepflegte, saisonal bepflanzte Grabstätte"
         },
         {
-          "title": "Küchenanschluss",
-          "photoNeeded": "neue Steckdosenleiste über der Arbeitsplatte"
+          "title": "Grünfläche",
+          "photoNeeded": "gemähte Grünfläche an einer Wohnanlage"
         }
       ]
     },
     "region": {
-      "headline": "Elektriker für Olching und Umgebung",
-      "text": "Von Olching aus schnell in Esting, Gröbenzell, Eichenau, Fürstenfeldbruck und Maisach.",
+      "headline": "Gartenpflege für Hallbergmoos und Umgebung",
+      "text": "Von Goldach aus schnell in Hallbergmoos, Freising, Neufahrn, Eching, Oberding und Ismaning.",
       "places": [
-        "Olching",
-        "Esting",
-        "Gröbenzell",
-        "Eichenau",
-        "Fürstenfeldbruck",
-        "Maisach"
+        "Hallbergmoos",
+        "Goldach",
+        "Freising",
+        "Neufahrn",
+        "Eching",
+        "Oberding",
+        "Ismaning"
       ]
     },
     "faq": [
       {
-        "q": "Installieren Sie auch eine Wallbox fürs E-Auto?",
-        "a": "Ja, die Montage und der Anschluss von Wallboxen gehören zum Angebot. Vorab wird geprüft, ob Zuleitung und Hausanschluss passen."
+        "q": "Übernehmen Sie auch regelmäßige Gartenpflege?",
+        "a": "Ja, Gartenpflege ist einmalig oder regelmäßig möglich – der Rhythmus wird gemeinsam abgestimmt."
       },
       {
-        "q": "Können Sie in einem bestehenden Haus Steckdosen nachrüsten?",
-        "a": "Ja, Erweiterungen im Bestand sind möglich – der Aufwand wird beim Vor-Ort-Termin eingeschätzt."
+        "q": "Wie schnell ist Rollrasen nutzbar?",
+        "a": "Rollrasen ist sofort grün. Wann er belastbar ist, hängt von Boden und Wetter ab – das besprechen wir vor Ort."
       },
       {
-        "q": "Übernehmen Sie auch kleine Reparaturen?",
-        "a": "Ja, auch defekte Steckdosen, Schalter oder Leuchten werden repariert oder getauscht."
+        "q": "Pflegen Sie auch Grabstätten?",
+        "a": "Ja, Grabgestaltung und Grabpflege gehören zum Angebot."
       },
       {
-        "q": "Ist der Betrieb ein Meisterbetrieb?",
-        "a": "Ja, Elektro Arno Wörl ist ein Meisterbetrieb für Elektrotechnik."
+        "q": "Kann ich vorab Fotos schicken?",
+        "a": "Ja, Fotos per WhatsApp helfen für eine erste Einschätzung."
       },
       {
-        "q": "Arbeiten Sie auch außerhalb von Olching?",
-        "a": "Ja, im Umkreis von Olching, etwa in Gröbenzell, Eichenau und Fürstenfeldbruck – fragen Sie einfach an."
+        "q": "Arbeiten Sie auch außerhalb von Hallbergmoos?",
+        "a": "Ja, im Umkreis von Hallbergmoos – fragen Sie einfach an."
       }
     ],
     "contact": {
-      "headline": "Ihre Anfrage – unverbindlich",
-      "text": "Beschreiben Sie kurz, was gemacht werden soll: Neuinstallation, Erweiterung, Reparatur oder Wallbox. Fotos vom Verteiler helfen.",
+      "headline": "Ihre Anfrage – kostenlos und unverbindlich",
+      "text": "Beschreiben Sie kurz, was ansteht: Garten, Rasen oder Grabstätte, ungefähre Größe und gewünschter Zeitraum. Fotos helfen.",
       "topics": [
-        "Elektroinstallation",
-        "Erweiterung",
-        "Wallbox",
-        "Reparatur",
+        "Gartenpflege",
+        "Rollrasen",
+        "Hecken & Sträucher",
+        "Grabgestaltung",
         "Sonstiges"
       ],
-      "responseNote": "Termin nach Absprache."
+      "responseNote": "Besichtigung nach Absprache."
     },
     "quote": {
-      "sizeLabel": "Worum geht es?",
+      "sizeLabel": "Um welche Fläche geht es?",
       "sizes": [
-        "Kleine Reparatur",
-        "Steckdosen/Leuchten nachrüsten",
-        "Wallbox",
-        "Komplette Installation"
+        "Kleiner Garten",
+        "Mittlerer Garten",
+        "Großes Grundstück",
+        "Grabstätte"
       ],
       "timings": [
         "So bald wie möglich",
         "In den nächsten Wochen",
-        "In 1–3 Monaten",
-        "Ich plane erst noch"
+        "Nächste Saison",
+        "Regelmäßige Pflege"
       ]
     },
     "stickyCta": "Jetzt anfragen",
     "look": {
       "palette": 2,
-      "font": 6,
-      "hero": 0,
-      "services": 1,
+      "font": 0,
+      "hero": 2,
+      "services": 2,
       "radius": 1,
-      "logo": 0,
-      "intro": 5
+      "logo": 2,
+      "intro": 3
     }
   }
 }

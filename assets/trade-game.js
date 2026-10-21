@@ -61,6 +61,12 @@
     ".tg-wires{position:absolute;inset:0;width:100%;height:100%;pointer-events:none;z-index:2}",
     ".tg-wires path{fill:none;stroke:rgb(var(--accent));stroke-width:.9;stroke-linecap:round;stroke-dasharray:1;stroke-dashoffset:1;transition:stroke-dashoffset .6s ease-out}",
     ".tg-wires path.on{stroke-dashoffset:0}",
+    ".tg-water .tg-room{background:#eef2f5;border-color:#c3ced8;color:#4a5866}",
+    ".tg-water .tg-room:after{width:16px;height:16px;margin:-8px;border-radius:50% 50% 50% 0;transform:rotate(-45deg);background:#b3c0cc}",
+    ".tg-water .tg-room.on{background:linear-gradient(180deg,#f2f9ff 0,#c9e7fb 55%,#86c6ef 100%);color:#0b3a5c}",
+    ".tg-water .tg-room.on:after{background:#2d8fd6;box-shadow:0 0 14px 5px rgb(45 143 214/.5)}",
+    ".tg-water .tg-wires path{stroke:#2d8fd6;stroke-width:1.5}",
+    ".tg-water .tg-fuse{background:#2d8fd6;color:#fff;border-color:#c3ced8;font-size:.62rem;text-align:center;padding:2px}",
     ".tg-fuse{position:absolute;z-index:3;display:grid;place-items:center;border-radius:6px;background:#e8ebef;border:2px solid #0f1724;color:#0f1724;font-family:inherit;font-weight:800;font-size:.7rem;line-height:1}",
     ".tg-skim{position:absolute;inset:0;z-index:3;opacity:0;pointer-events:none;transition:opacity 1.2s ease}",
     ".tg-stage.is-done .tg-skim{opacity:1}",
@@ -84,7 +90,8 @@
     bricks: { m: "place", kicker: "Zum Ausprobieren", title: "Mauern Sie die Wand", sub: "Stein auf Stein, bis die Wand steht.", hint: "Steine antippen oder überwischen", unit: "gemauert", done: "Die Mauer steht. Für Ihr Projekt mauern wir gern weiter." },
     roof: { m: "place", kicker: "Zum Ausprobieren", title: "Decken Sie das Dach", sub: "Legen Sie die Ziegel Reihe für Reihe auf die Lattung.", hint: "Ziegel antippen oder überwischen", unit: "gedeckt", done: "Dicht und sauber gedeckt. Wir kümmern uns auch um Ihr Dach.",
       swatches: [["Ziegelrot", "#a9472f"], ["Anthrazit", "#3b3f45"], ["Braun", "#6b4330"]] },
-    circuit: { m: "place", kicker: "Zum Ausprobieren", title: "Schalten Sie das Licht ein", sub: "Tippen Sie die Räume an, um sie an den Sicherungskasten anzuschließen.", hint: "Räume antippen", unit: "angeschlossen", done: "Alles an, sicher installiert vom Fachbetrieb." }
+    circuit: { m: "place", kicker: "Zum Ausprobieren", title: "Schalten Sie das Licht ein", sub: "Tippen Sie die Räume an, um sie an den Sicherungskasten anzuschließen.", hint: "Räume antippen", unit: "angeschlossen", done: "Alles an, sicher installiert vom Fachbetrieb." },
+    water: { m: "place", kicker: "Zum Ausprobieren", title: "Bringen Sie das Wasser ins Haus", sub: "Tippen Sie Küche, Bad und Heizung an, um sie an die Hauptleitung anzuschließen.", hint: "Räume antippen", unit: "angeschlossen", done: "Alles dicht, alles läuft. Installiert vom Fachbetrieb." }
   };
 
   // Werkzeug-Symbole (eigene Zeichnungen)
@@ -341,7 +348,7 @@
         if (finished || b.classList.contains("on")) return;
         b.classList.add("on"); b.setAttribute("aria-pressed", "true"); placed++;
         stage.classList.add("is-busy");
-        if (kind === "circuit") wire(b);
+        if (kind === "circuit" || kind === "water") wire(b);
         progress(placed / slots.length);
       }
 
@@ -415,14 +422,18 @@
               roofEl.appendChild(sl);
             }
           }
-        } else if (kind === "circuit") {
-          stage.style.background = "#0f1724";
+        } else if (kind === "circuit" || kind === "water") {
+          var wet = kind === "water";
+          stage.classList.toggle("tg-water", wet);
+          stage.style.background = wet ? "#dfe6ec" : "#0f1724";
           stage.style.cursor = "default";
-          var rooms = [["Küche", 22, 4, 36, 42], ["Wohnen", 58, 4, 38, 52], ["Bad", 22, 46, 24, 50], ["Schlafen", 46, 56, 50, 40], ["Flur", 4, 46, 18, 50]];
+          var rooms = wet
+            ? [["Küche", 22, 4, 36, 42], ["Bad", 58, 4, 38, 52], ["Heizung", 22, 46, 24, 50], ["Dusche", 46, 56, 50, 40], ["WC", 4, 46, 18, 50]]
+            : [["Küche", 22, 4, 36, 42], ["Wohnen", 58, 4, 38, 52], ["Bad", 22, 46, 24, 50], ["Schlafen", 46, 56, 50, 40], ["Flur", 4, 46, 18, 50]];
           var svg = document.createElementNS("http://www.w3.org/2000/svg", "svg");
           svg.setAttribute("class", "tg-wires"); svg.setAttribute("viewBox", "0 0 100 100"); svg.setAttribute("preserveAspectRatio", "none");
           layer.appendChild(svg);
-          var fuse = h("div", { class: "tg-fuse", style: "left:4%;top:6%;width:14%;height:30%" }, "FI");
+          var fuse = h("div", { class: "tg-fuse", style: "left:4%;top:6%;width:14%;height:30%" }, wet ? "Haupt-<br>leitung" : "FI");
           layer.appendChild(fuse);
           rooms.forEach(function (rm, idx) {
             var b = h("button", { type: "button", class: "tg-room", "aria-label": rm[0] + " anschließen", "aria-pressed": "false" }, "<span>" + rm[0] + "</span>");
@@ -440,7 +451,7 @@
       function wire(b) { if (b._wire) b._wire.classList.add("on"); }
 
       var dragging = false;
-      stage.addEventListener("pointerdown", function (e) { if (kind === "circuit") return; dragging = true; stage.setPointerCapture && stage.setPointerCapture(e.pointerId); hit(e); });
+      stage.addEventListener("pointerdown", function (e) { if (kind === "circuit" || kind === "water") return; dragging = true; stage.setPointerCapture && stage.setPointerCapture(e.pointerId); hit(e); });
       stage.addEventListener("pointermove", function (e) { if (dragging) hit(e); });
       window.addEventListener("pointerup", function () { dragging = false; });
       function hit(e) {
