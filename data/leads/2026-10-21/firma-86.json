@@ -1,0 +1,272 @@
+{
+  "id": "2026-10-21-86",
+  "slug": "trockenbau-seymen-erding",
+  "date": "2026-10-21",
+  "company": {
+    "name": "Sezer Seymen Trockenbau",
+    "owner": "Sezer Seymen",
+    "trade": "Trockenbau",
+    "city": "Erding",
+    "address": "Stadtweg 41, 85435 Erding (Altenerding)",
+    "phone": "0176 88199667",
+    "email": null,
+    "serviceArea": [
+      "Erding",
+      "Altenerding",
+      "Oberding",
+      "Lengdorf",
+      "Fraunberg",
+      "Moosinning",
+      "Bockhorn"
+    ]
+  },
+  "listings": {
+    "google": {
+      "url": "https://www.google.com/maps/search/?api=1&query=Sezer%20Seymen%20Trockenbau%20Erding",
+      "rating": null,
+      "reviews": null,
+      "evidence": "KEIN Google-Beleg gefunden (Spiegel-Suche bei rgv-bayern/firmania/trustlocal ohne Treffer). Keine Freemail-Adresse belegt. Nur 11880-Eintrag – RESERVE."
+    },
+    "myhammer": {
+      "url": "https://www.11880.com/suche/trockenbau/erding",
+      "rating": null,
+      "reviews": null,
+      "evidence": "Kein MyHammer gefunden – 11880-Eintrag „Sezer Seymen“, Trockenbau & Trockenbauarbeiten, Stadtweg 41, 85435 Erding (Altenerding), Tel. (0176) 88199667, keine Öffnungszeiten; auch in der 11880-Liste Trockenbauer Lengdorf."
+    }
+  },
+  "websiteStatus": "keine eigene Website gefunden",
+  "websiteChecks": [
+    "(1) „Sezer Seymen“ Trockenbau Erding mit blocked_domains (11880, Gelbe Seiten, Das Örtliche, Telefonbuch, Cylex, meinestadt, Creditreform, Facebook, Instagram, golocal, MyHammer, Northdata, Firmenwissen, WKDB, Yelp, trustlocal, wlw) – nur Namensvettern (Fußballspieler, CAD-Vertrieb in Bursa, türkische Baufirma Seymen Altyapı ohne Erding-Bezug), keine Website des Betriebs",
+    "(2) Telefonsuche „0176 88199667“/„017688199667“ – nur Rufnummern-Blockliste (anrufer.info, O2), keine Website",
+    "(3) Domain-Check allowed_domains seymen-trockenbau.de, trockenbau-seymen.de, seymen-bau.de, seymen.de, sezer-seymen.de, seymenbau.de, trockenbauseymen.de, seymen-erding.de – keine Treffer",
+    "(4) Google-Spiegel/Bewertungsportale (rgv-bayern, firmania, trustlocal, Gelbe Seiten, Das Örtliche) – kein Eintrag, keine Bewertungen",
+    "Website-Risiko: mittel – alle Prüfungen negativ, aber weder Google-Eintrag noch Freemail belegt"
+  ],
+  "facts": {
+    "services": [
+      "Trockenbau",
+      "Trockenbauarbeiten"
+    ],
+    "experience": null,
+    "praisedFor": []
+  },
+  "strategy": {
+    "audience": "Hauseigentümer, Bauherren und Vermieter in Erding und Altenerding, die Räume neu aufteilen, Dachgeschosse ausbauen oder Decken abhängen wollen",
+    "mainService": "Trockenbau – Wände, Decken, Dachausbau",
+    "trustSignal": "Betrieb in Altenerding, Inhaber Sezer Seymen direkt per Handy erreichbar",
+    "conversionGoal": "Trockenbau-Anfrage mit Fotos per WhatsApp oder Anruf",
+    "visualConcept": "Helles Baustellenlicht auf frischem Gipskarton: Ständerwerk, Profile, glatte Spachtelflächen – präzise und aufgeräumt"
+  },
+  "sales": {
+    "score": 4,
+    "whyGoodLead": [
+      "Keine eigene Website und keine Bewertungen gefunden – praktisch unsichtbar online",
+      "Mobilnummer öffentlich gelistet – WhatsApp-Erstkontakt möglich",
+      "Trockenbau ist rund um Erding und den Flughafen (Neubau, Ausbau) gefragt",
+      "Website plus Google-Profil würden erstmals Anfragen über die Suche bringen"
+    ],
+    "pitch": "Hallo Herr Seymen, hier ist … – ich baue Websites für Handwerker im Landkreis Erding. Ich habe Ihren Trockenbau-Eintrag in Altenerding gefunden, aber keine eigene Website. Ich habe unverbindlich einen Entwurf vorbereitet, auf dem Kunden Ihre Trockenbauarbeiten sehen und direkt per WhatsApp anfragen können – darf ich Ihnen den Link schicken?"
+  },
+  "manualChecks": [
+    "RESERVE – weder Google-Eintrag noch Freemail-Adresse belegt: NUR versenden, wenn Google Maps einen Eintrag OHNE Website zeigt.",
+    "Aktualität prüfen: einziger Beleg ist der 11880-Eintrag ohne Datum – Betrieb noch aktiv?",
+    "Leistungen nur als „Trockenbau & Trockenbauarbeiten“ belegt – Detailleistungen (Decken, Dachausbau, Dämmung, Spachteln) beim Betrieb bestätigen",
+    "Firmenname unklar (Eintrag nur „Sezer Seymen“) – gewünschten Betriebsnamen beim Erstkontakt erfragen",
+    "Logo und Projektfotos: nicht gefunden – beim Betrieb anfragen"
+  ],
+  "sources": [
+    {
+      "label": "11880 – Trockenbauer Erding (Liste mit Sezer Seymen)",
+      "url": "https://www.11880.com/suche/trockenbau/erding"
+    },
+    {
+      "label": "11880 – Trockenbauer Lengdorf (Liste mit Sezer Seymen)",
+      "url": "https://www.11880.com/suche/trockenbau/lengdorf"
+    }
+  ],
+  "site": {
+    "theme": "stein",
+    "category": "handwerk",
+    "heroOffer": [
+      "Trennwände",
+      "Decken",
+      "Dachausbau",
+      "Vorwände",
+      "Spachteln"
+    ],
+    "scene": "drywall",
+    "logoIcon": "trowel",
+    "logoMark": "SS",
+    "brandName": "Trockenbau Seymen",
+    "seoTitle": "Trockenbau in Erding – Sezer Seymen",
+    "seoDescription": "Trockenbau in Erding und Altenerding: Trennwände, abgehängte Decken, Dachausbau und Vorwände. Jetzt unverbindlich anfragen – auch per WhatsApp.",
+    "nav": [
+      { "label": "Leistungen", "href": "#leistungen" },
+      { "label": "Projekte", "href": "#projekte" },
+      { "label": "Bewertungen", "href": "#bewertungen" },
+      { "label": "Ablauf", "href": "#ablauf" },
+      { "label": "FAQ", "href": "#faq" },
+      { "label": "Kontakt", "href": "#kontakt" }
+    ],
+    "hero": {
+      "eyebrow": "Trockenbau · Erding",
+      "headline": "Trockenbau aus Altenerding",
+      "sub": "Wände, Decken und Dachausbau – gestellt, beplankt und glatt verspachtelt.",
+      "ctaPrimary": "Trockenbau anfragen",
+      "ctaSecondary": "Anrufen",
+      "bullets": [
+        "Betrieb in Altenerding",
+        "Wände, Decken, Dachgeschoss",
+        "Direkt per Handy erreichbar"
+      ],
+      "imageLabel": "Ständerwerk und frisch beplankte Gipskartonwand im Rohbau"
+    },
+    "badges": [
+      { "title": "Trennwände", "sub": "Räume neu teilen" },
+      { "title": "Decken", "sub": "abgehängt & glatt" },
+      { "title": "Dachausbau", "sub": "Schrägen beplanken" },
+      { "title": "Erding", "sub": "Altenerding" }
+    ],
+    "trust": [
+      { "value": "Vor Ort", "label": "Betrieb in Altenerding" },
+      { "value": "Trocken", "label": "keine langen Trocknungszeiten" },
+      { "value": "Innen", "label": "Wände, Decken, Dach" },
+      { "value": "Mobil", "label": "schnell erreichbar" }
+    ],
+    "servicesIntro": {
+      "headline": "Neue Räume ohne Mauer und Mörtel",
+      "text": "Mit Profilen und Gipskarton entstehen Wände, Decken und ausgebaute Dachgeschosse schnell und sauber – bereit für Farbe, Tapete oder Fliesen."
+    },
+    "services": [
+      {
+        "title": "Trennwände",
+        "text": "Ständerwände teilen große Räume auf – fürs Kinderzimmer, Homeoffice oder die Ankleide.",
+        "items": ["Metallständerwände", "Raumteiler", "Türöffnungen"]
+      },
+      {
+        "title": "Abgehängte Decken",
+        "text": "Eine neue Deckenebene verdeckt Leitungen und schafft Platz für Einbauleuchten.",
+        "items": ["Unterkonstruktion", "Einbauleuchten", "Leitungen verdecken"]
+      },
+      {
+        "title": "Dachausbau",
+        "text": "Dachschrägen und Kniestöcke werden beplankt, damit aus dem Speicher Wohnraum wird.",
+        "items": ["Dachschrägen", "Kniestock", "Spitzboden"]
+      },
+      {
+        "title": "Vorwände",
+        "text": "Vorwände nehmen Rohre und Kabel auf – etwa im Bad oder in der Küche.",
+        "items": ["Installationsvorwand", "Verkleidungen", "Nischen"]
+      },
+      {
+        "title": "Spachtelarbeiten",
+        "text": "Fugen und Flächen werden glatt gespachtelt und für den Maler vorbereitet.",
+        "items": ["Fugen spachteln", "Flächenspachtelung", "Kantenschutz"]
+      },
+      {
+        "title": "Verkleidungen",
+        "text": "Stützen, Schächte und Unterzüge werden sauber mit Gipskarton verkleidet.",
+        "items": ["Schächte", "Unterzüge", "Stützen"]
+      }
+    ],
+    "why": {
+      "headline": "Trockenbau aus Altenerding – direkt beim Inhaber.",
+      "points": [
+        { "title": "Kurze Wege", "text": "Von Altenerding aus schnell in Erding, Oberding, Lengdorf und Fraunberg." },
+        { "title": "Direkter Kontakt", "text": "Sie sprechen mit Sezer Seymen selbst – per Anruf oder WhatsApp." },
+        { "title": "Trocken & schnell", "text": "Ohne Mörtel und lange Trocknungszeiten ist der Raum rasch wieder nutzbar." },
+        { "title": "Saubere Flächen", "text": "Wände und Decken werden so verspachtelt, dass der Maler direkt weitermachen kann." }
+      ]
+    },
+    "reviews": {
+      "headline": "Was Kunden sagen",
+      "summary": "Kundenstimmen werden hier eingebunden, sobald sie aus dem Google-Profil übernommen sind.",
+      "highlights": [
+        "Trockenbau in Erding",
+        "Wände und Decken",
+        "Direkter Kontakt"
+      ],
+      "source": "Google",
+      "sourceUrl": "https://www.google.com/maps/search/?api=1&query=Sezer%20Seymen%20Trockenbau%20Erding",
+      "rating": null,
+      "count": null
+    },
+    "process": {
+      "headline": "Vom Plan zur fertigen Wand",
+      "steps": [
+        { "title": "Anfrage", "text": "Fotos und grobe Maße per WhatsApp schicken – oder kurz anrufen." },
+        { "title": "Aufmaß", "text": "Vor Ort werden Maße, Türen und Leitungen abgestimmt." },
+        { "title": "Angebot", "text": "Sie bekommen ein klares Angebot für Ihr Vorhaben." },
+        { "title": "Ausführung", "text": "Ständerwerk, Beplankung und Spachteln – sauber übergeben." }
+      ]
+    },
+    "gallery": {
+      "headline": "Räume, die neu entstehen",
+      "text": "Für die Live-Version zeigen wir hier echte Projekte des Betriebs.",
+      "items": [
+        { "title": "Neue Trennwand", "photoNeeded": "Metallständerwand im Rohbau und fertig verspachtelt" },
+        { "title": "Abgehängte Decke", "photoNeeded": "glatte Decke mit Einbauleuchten" },
+        { "title": "Dachgeschoss", "photoNeeded": "beplankte Dachschrägen im ausgebauten Speicher" },
+        { "title": "Vorwand Bad", "photoNeeded": "Installationsvorwand vor dem Fliesen" },
+        { "title": "Verkleideter Schacht", "photoNeeded": "mit Gipskarton verkleideter Leitungsschacht" }
+      ]
+    },
+    "region": {
+      "headline": "Trockenbau in Erding und Umgebung",
+      "text": "Von Altenerding aus schnell in Erding, Oberding, Lengdorf, Fraunberg, Moosinning und Bockhorn.",
+      "places": [
+        "Erding",
+        "Altenerding",
+        "Oberding",
+        "Lengdorf",
+        "Fraunberg",
+        "Moosinning",
+        "Bockhorn"
+      ]
+    },
+    "faq": [
+      { "q": "Wie lange dauert eine Trennwand?", "a": "Das hängt von Größe, Türen und Leitungen ab. Ein genauer Zeitplan wird nach dem Aufmaß abgestimmt." },
+      { "q": "Kann ich vorab Fotos schicken?", "a": "Ja, Fotos und grobe Maße per WhatsApp helfen für eine erste Einschätzung." },
+      { "q": "Bauen Sie auch Dachgeschosse aus?", "a": "Dachschrägen und Kniestöcke können mit Gipskarton beplankt werden – fragen Sie mit Fotos an." },
+      { "q": "Ist die Wand danach fertig zum Streichen?", "a": "Die Flächen werden verspachtelt; die gewünschte Spachtelqualität wird vorab besprochen." },
+      { "q": "Arbeiten Sie auch außerhalb von Erding?", "a": "Ja, im Umkreis von Erding – sprechen Sie uns einfach an." }
+    ],
+    "contact": {
+      "headline": "Ihre Trockenbau-Anfrage",
+      "text": "Beschreiben Sie kurz Ihr Vorhaben: Wand, Decke oder Dachgeschoss, ungefähre Maße und Wunschtermin. Fotos helfen.",
+      "topics": [
+        "Trennwand",
+        "Abgehängte Decke",
+        "Dachausbau",
+        "Vorwand",
+        "Sonstiges"
+      ],
+      "responseNote": "Aufmaß vor Ort nach Absprache."
+    },
+    "quote": {
+      "sizeLabel": "Was soll entstehen?",
+      "sizes": [
+        "Eine Wand",
+        "Decke in einem Raum",
+        "Dachgeschoss",
+        "Mehrere Räume"
+      ],
+      "timings": [
+        "So bald wie möglich",
+        "In den nächsten Wochen",
+        "In 1–3 Monaten",
+        "Ich plane erst noch"
+      ]
+    },
+    "stickyCta": "Trockenbau anfragen",
+    "look": {
+      "palette": 2,
+      "font": 6,
+      "hero": 0,
+      "services": 1,
+      "radius": 1,
+      "logo": 0,
+      "intro": 5
+    }
+  }
+}

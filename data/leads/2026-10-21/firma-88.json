@@ -1,0 +1,406 @@
+{
+  "id": "2026-10-21-88",
+  "slug": "muncz-spengler-dacharbeiten-germering",
+  "date": "2026-10-21",
+  "company": {
+    "name": "Muncz Spengler- und Dacharbeiten",
+    "owner": "Matthias Muncz",
+    "trade": "Spenglerei & Dacharbeiten",
+    "city": "Germering",
+    "address": "Lilienstr. 15, 82110 Germering",
+    "phone": "089 845748",
+    "email": null,
+    "serviceArea": [
+      "Germering",
+      "Puchheim",
+      "Gilching",
+      "Gauting",
+      "Planegg",
+      "Krailling"
+    ]
+  },
+  "listings": {
+    "google": {
+      "url": "https://www.google.com/maps/search/?api=1&query=Muncz%20Spengler-%20und%20Dacharbeiten%20Lilienstr.%2015%20Germering",
+      "rating": null,
+      "reviews": null,
+      "evidence": "NICHT BELEGT – kein Google-Spiegel mit Bewertungen gefunden (Suche auf trustlocal, firmania, rgv-bayern, sanitaer.org, finde-offen). finde-offen.de und oeffnungszeitenbuch.de führen den Betrieb mit Öffnungszeiten, sanitaer.org ohne Bewertungen. In Maps prüfen."
+    },
+    "myhammer": {
+      "url": "https://www.11880.com/branchenbuch/germering-oberbayern/132381074B26123125/muncz-spengler-und-dacharbeiten-matthias-muncz-spenglerei.html",
+      "rating": null,
+      "reviews": null,
+      "evidence": "Kein MyHammer gefunden – Eintrag bei 11880 (Lilienstr. 15, Tel. 089 845748, Spengler & Dachdecker) sowie gewerbeverzeichnis-deutschland.de (Fax 089 8404378), branchen-germering.de, sanitaer.org und finde-offen.de."
+    }
+  },
+  "websiteStatus": "keine eigene Website gefunden",
+  "websiteChecks": [
+    "(1) „Muncz Spengler Germering Lilienstr“ mit blocked_domains (11880, Gelbe Seiten, Das Örtliche, Telefonbuch, Cylex, meinestadt, Creditreform, Facebook, Instagram, golocal, MyHammer, Northdata, Firmenwissen, WKDB, Yelp, trustlocal, wlw) – nur Verzeichnisse (finde-offen, oeffnungszeitenbuch, gewerbeverzeichnis-deutschland, branchen-germering.de); keine eigene Domain",
+    "(2) Domain-Check allowed_domains muncz.de, spenglerei-muncz.de, muncz-spenglerei.de, muncz-dach.de, dach-muncz.de, muncz-germering.de, matthias-muncz.de, spengler-muncz.de – keine Treffer",
+    "(3) Telefonsuche „089 845748“/„089845748“ mit blocked_domains – nur Verzeichnisse (gewerbeverzeichnis-deutschland, oeffnungszeitenbuch, sanitaer.org, Stadtbranchenbuch), keine Website",
+    "(4) Impressum-Suche „Impressum Matthias Muncz Spenglermeister Germering“ – kein eigenes Impressum, nur Verzeichnisse und fremde Germeringer Impressen",
+    "(5) E-Mail-Suche auf 11880/Gelbe Seiten/Das Örtliche – keine E-Mail-Adresse gelistet (weder Freemail noch Firmendomain)",
+    "Website-Risiko: mittel – alle Prüfungen negativ, aber weder Google-Eintrag noch Freemail belegt (nur RESERVE)"
+  ],
+  "facts": {
+    "services": [
+      "Spenglerarbeiten",
+      "Dacharbeiten",
+      "Ausbildung zum Dachdecker und Spengler"
+    ],
+    "experience": null,
+    "praisedFor": []
+  },
+  "strategy": {
+    "audience": "Hausbesitzer und Hausverwaltungen in Germering, Puchheim und dem Würmtal, die Dachrinnen, Fallrohre, Kamin- oder Gaubenverkleidungen erneuern oder kleinere Dachschäden reparieren lassen wollen",
+    "mainService": "Spenglerarbeiten am Dach – Rinnen, Fallrohre, Verblechungen",
+    "trustSignal": "Spenglermeister Matthias Muncz, Betrieb in Germering, bildet Dachdecker und Spengler aus",
+    "conversionGoal": "Spengler- oder Dacharbeit anfragen (Anruf oder Formular mit Fotos)",
+    "visualConcept": "Handwerklich und solide: glänzende Kupfer- und Titanzinkrinnen, gefalzte Bleche, Ziegeldach vor blauem Himmel"
+  },
+  "sales": {
+    "score": 3,
+    "whyGoodLead": [
+      "Keine eigene Website gefunden – nur Verzeichniseinträge",
+      "Spengler sind selten online gut auffindbar – Website hebt den Betrieb in Germering ab",
+      "Bildet Dachdecker und Spengler aus – eine Website hilft auch bei der Azubi-Suche",
+      "Inhaber namentlich bekannt – persönliche Ansprache möglich"
+    ],
+    "pitch": "Guten Tag Herr Muncz, hier ist … – ich baue Websites für Handwerksbetriebe rund um Germering. Ich habe Ihre Spenglerei in mehreren Verzeichnissen gefunden, aber keine eigene Website. Ich habe unverbindlich einen Entwurf vorbereitet, auf dem Kunden Ihre Spengler- und Dacharbeiten sehen und direkt anfragen können – und der auch Azubis anspricht. Darf ich Ihnen den Link schicken?"
+  },
+  "manualChecks": [
+    "RESERVE – weder Google-Eintrag noch Freemail-Adresse belegt: NUR versenden, wenn Google Maps einen Eintrag OHNE Website zeigt.",
+    "Adresse klären: 11880/finde-offen nennen Lilienstr. 15, andere Verzeichnisse Waldstr. 56 (gleiche Nummer 089 845748) bzw. Dorfstr. 7 (Tel. 089 847554, „Matthias Alois Muncz“) – aktuelle Anschrift beim Erstkontakt erfragen",
+    "Festnetznummer 089 845748 – keine Mobilnummer und keine E-Mail gefunden; Erstkontakt per Anruf",
+    "Leistungen nur grob belegt (Spengler- und Dacharbeiten, Ausbildung laut branchen-germering.de; sanitaer.org nennt Badsanierung – unsicher) – Detailleistungen beim Betrieb bestätigen",
+    "Prüfen, ob der Betrieb noch aktiv ist (Verzeichnisdaten teils älter)",
+    "Logo und Projektfotos: nicht gefunden – beim Betrieb anfragen"
+  ],
+  "sources": [
+    {
+      "label": "11880 – Muncz Spengler- und Dacharbeiten, Germering",
+      "url": "https://www.11880.com/branchenbuch/germering-oberbayern/132381074B26123125/muncz-spengler-und-dacharbeiten-matthias-muncz-spenglerei.html"
+    },
+    {
+      "label": "Gewerbeverzeichnis Deutschland – Muncz Spengler- und Dacharbeiten",
+      "url": "https://www.gewerbeverzeichnis-deutschland.de/muncz-spengler--und-dacharbeiten-matthias-muncz/845408.html"
+    },
+    {
+      "label": "finde-offen – Muncz Spengler- und Dacharbeiten, Lilienstr. 15",
+      "url": "https://finde-offen.de/germering/muncz-spengler-und-dacharbeiten-matthias-muncz-967563"
+    },
+    {
+      "label": "Germeringer Branchenverzeichnis (Ausbildung Dachdecker/Spengler)",
+      "url": "http://www.branchen-germering.de/bid/115"
+    },
+    {
+      "label": "sanitaer.org – Matthias Muncz Spenglerei Germering",
+      "url": "https://www.sanitaer.org/germering/matthias-muncz-spenglerei-aULSBC"
+    }
+  ],
+  "site": {
+    "theme": "werk",
+    "category": "handwerk",
+    "heroOffer": [
+      "Dachrinnen",
+      "Fallrohre",
+      "Verblechungen",
+      "Dachreparatur",
+      "Kaminverkleidung"
+    ],
+    "scene": "facade",
+    "logoIcon": "roof",
+    "logoMark": "MM",
+    "brandName": "Spenglerei Muncz",
+    "seoTitle": "Spengler in Germering – Muncz Spengler- und Dacharbeiten",
+    "seoDescription": "Spengler- und Dacharbeiten in Germering und Umgebung: Dachrinnen, Fallrohre, Verblechungen und Reparaturen. Jetzt anfragen.",
+    "nav": [
+      {
+        "label": "Leistungen",
+        "href": "#leistungen"
+      },
+      {
+        "label": "Projekte",
+        "href": "#projekte"
+      },
+      {
+        "label": "Bewertungen",
+        "href": "#bewertungen"
+      },
+      {
+        "label": "Ablauf",
+        "href": "#ablauf"
+      },
+      {
+        "label": "FAQ",
+        "href": "#faq"
+      },
+      {
+        "label": "Kontakt",
+        "href": "#kontakt"
+      }
+    ],
+    "hero": {
+      "eyebrow": "Spenglerei · Germering",
+      "headline": "Spengler- und Dacharbeiten in Germering",
+      "sub": "Rinnen, Bleche und Dachdetails – vom Spenglermeister Matthias Muncz.",
+      "ctaPrimary": "Spenglerarbeit anfragen",
+      "ctaSecondary": "Anrufen",
+      "bullets": [
+        "Spenglerei aus Germering",
+        "Spengler- und Dacharbeiten",
+        "Ausbildungsbetrieb"
+      ],
+      "imageLabel": "neue Titanzink-Dachrinne an einem Ziegeldach"
+    },
+    "badges": [
+      {
+        "title": "Spenglerei",
+        "sub": "Rinnen & Bleche"
+      },
+      {
+        "title": "Dacharbeiten",
+        "sub": "Reparatur & Details"
+      },
+      {
+        "title": "Ausbildung",
+        "sub": "Dachdecker & Spengler"
+      },
+      {
+        "title": "Germering",
+        "sub": "Betrieb vor Ort"
+      }
+    ],
+    "trust": [
+      {
+        "value": "Meister",
+        "label": "Spenglermeister Matthias Muncz"
+      },
+      {
+        "value": "Vor Ort",
+        "label": "Betrieb in Germering"
+      },
+      {
+        "value": "Azubis",
+        "label": "Ausbildungsbetrieb"
+      },
+      {
+        "value": "Dach",
+        "label": "Spengler- und Dacharbeiten"
+      }
+    ],
+    "servicesIntro": {
+      "headline": "Alles, was am Dach aus Blech ist",
+      "text": "Dachrinnen, Fallrohre, Anschlüsse und Verkleidungen schützen das Haus vor Wasser. Die Spenglerei Muncz fertigt, montiert und repariert sie."
+    },
+    "services": [
+      {
+        "title": "Dachrinnen",
+        "text": "Neue Rinnen montieren oder alte, undichte Rinnen ersetzen – passend zu Dach und Fassade.",
+        "items": [
+          "Hängerinnen",
+          "Rinnenhalter",
+          "Austausch"
+        ]
+      },
+      {
+        "title": "Fallrohre",
+        "text": "Fallrohre und Anschlüsse, die das Regenwasser sicher vom Dach ableiten.",
+        "items": [
+          "Fallrohre",
+          "Rohrschellen",
+          "Standrohre"
+        ]
+      },
+      {
+        "title": "Verblechungen",
+        "text": "Ortgang, Traufe, Attika und Mauerabdeckungen aus Blech – sauber gekantet und dicht angeschlossen.",
+        "items": [
+          "Ortgang",
+          "Attika",
+          "Mauerabdeckung"
+        ]
+      },
+      {
+        "title": "Kamin & Gaube",
+        "text": "Kaminverkleidungen und Gaubenbekleidungen, die Wind und Wetter dauerhaft standhalten.",
+        "items": [
+          "Kaminverkleidung",
+          "Gaubenverkleidung",
+          "Anschlussbleche"
+        ]
+      },
+      {
+        "title": "Dachreparatur",
+        "text": "Undichte Stellen finden und beheben, lose Bleche und Ziegel wieder richtig befestigen.",
+        "items": [
+          "Undichtigkeiten",
+          "Sturmschäden",
+          "Kleinreparaturen"
+        ]
+      },
+      {
+        "title": "Wartung",
+        "text": "Rinnen und Bleche regelmäßig prüfen lassen, bevor aus einem kleinen Schaden ein großer wird.",
+        "items": [
+          "Sichtprüfung",
+          "Rinnen reinigen",
+          "Nachbessern"
+        ]
+      }
+    ],
+    "why": {
+      "headline": "Spenglerei aus Germering – Meisterarbeit am Dach.",
+      "points": [
+        {
+          "title": "Meisterbetrieb",
+          "text": "Matthias Muncz ist Spenglermeister und führt den Betrieb selbst."
+        },
+        {
+          "title": "Kurze Wege",
+          "text": "Von Germering schnell in Puchheim, Gilching und im Würmtal."
+        },
+        {
+          "title": "Ausbildungsbetrieb",
+          "text": "Der Betrieb bildet Dachdecker und Spengler aus und gibt sein Handwerk weiter."
+        },
+        {
+          "title": "Dicht und dauerhaft",
+          "text": "Bleche werden passgenau gekantet und sauber angeschlossen."
+        }
+      ]
+    },
+    "reviews": {
+      "headline": "Was Kunden sagen",
+      "summary": "Kundenstimmen werden hier eingebunden, sobald sie aus dem Google-Profil übernommen sind.",
+      "highlights": [
+        "Spengler in Germering",
+        "Meisterbetrieb",
+        "Direkter Kontakt"
+      ],
+      "source": "Google",
+      "sourceUrl": "https://www.google.com/maps/search/?api=1&query=Muncz%20Spengler-%20und%20Dacharbeiten%20Lilienstr.%2015%20Germering",
+      "rating": null,
+      "count": null
+    },
+    "process": {
+      "headline": "So kommt Ihr Dach in Ordnung",
+      "steps": [
+        {
+          "title": "Anfrage",
+          "text": "Kurz anrufen oder das Formular nutzen – Fotos von Rinne oder Schaden helfen."
+        },
+        {
+          "title": "Besichtigung",
+          "text": "Dach, Rinnen und Anschlüsse werden vor Ort angeschaut und aufgemessen."
+        },
+        {
+          "title": "Angebot",
+          "text": "Sie erhalten ein klares Angebot für Material und Arbeit."
+        },
+        {
+          "title": "Montage",
+          "text": "Fertigen, montieren, abdichten – und die Baustelle ordentlich hinterlassen."
+        }
+      ]
+    },
+    "gallery": {
+      "headline": "Spenglerarbeit, die man sieht",
+      "text": "Für die Live-Version zeigen wir hier echte Arbeiten des Betriebs.",
+      "items": [
+        {
+          "title": "Neue Dachrinne",
+          "photoNeeded": "frisch montierte Dachrinne an der Traufe"
+        },
+        {
+          "title": "Kaminverkleidung",
+          "photoNeeded": "verblechter Kamin auf einem Ziegeldach"
+        },
+        {
+          "title": "Gaube",
+          "photoNeeded": "Gaube mit neuer Blechverkleidung"
+        },
+        {
+          "title": "Attika",
+          "photoNeeded": "Attikaabdeckung auf einem Flachdach"
+        },
+        {
+          "title": "Fallrohr",
+          "photoNeeded": "neues Fallrohr an einer Hausfassade"
+        }
+      ]
+    },
+    "region": {
+      "headline": "Spengler für Germering und das Würmtal",
+      "text": "Von Germering aus schnell in Puchheim, Gilching, Gauting, Planegg und Krailling.",
+      "places": [
+        "Germering",
+        "Puchheim",
+        "Gilching",
+        "Gauting",
+        "Planegg",
+        "Krailling"
+      ]
+    },
+    "faq": [
+      {
+        "q": "Meine Dachrinne tropft – lohnt sich eine Reparatur?",
+        "a": "Das hängt vom Zustand ab. Nach der Besichtigung wissen Sie, ob Reparatur oder Austausch sinnvoll ist."
+      },
+      {
+        "q": "Kann ich vorab Fotos schicken?",
+        "a": "Ja, Fotos von Rinne, Kamin oder Schaden helfen für eine erste Einschätzung."
+      },
+      {
+        "q": "Übernehmen Sie auch kleine Reparaturen?",
+        "a": "Ja, auch einzelne Rinnenstücke, Fallrohre oder lose Bleche – fragen Sie einfach an."
+      },
+      {
+        "q": "Bilden Sie aus?",
+        "a": "Ja, der Betrieb bildet Dachdecker und Spengler aus. Interessierte können sich gern melden."
+      },
+      {
+        "q": "Arbeiten Sie auch außerhalb von Germering?",
+        "a": "Ja, im Umkreis von Germering, etwa in Puchheim, Gilching und im Würmtal."
+      }
+    ],
+    "contact": {
+      "headline": "Spenglerarbeit anfragen",
+      "text": "Beschreiben Sie kurz, worum es geht: Rinne, Fallrohr, Kamin oder Schaden am Dach. Fotos helfen.",
+      "topics": [
+        "Dachrinnen",
+        "Fallrohre",
+        "Verblechungen",
+        "Kamin & Gaube",
+        "Dachreparatur",
+        "Ausbildung"
+      ],
+      "responseNote": "Besichtigung nach Absprache."
+    },
+    "quote": {
+      "sizeLabel": "Was soll gemacht werden?",
+      "sizes": [
+        "Reparatur an einer Stelle",
+        "Rinnen einer Hausseite",
+        "Alle Rinnen & Fallrohre",
+        "Kamin, Gaube oder Attika"
+      ],
+      "timings": [
+        "Dringend (Schaden)",
+        "In den nächsten Wochen",
+        "In 1–3 Monaten",
+        "Ich plane erst noch"
+      ]
+    },
+    "stickyCta": "Spengler anfragen",
+    "look": {
+      "palette": 2,
+      "font": 6,
+      "hero": 0,
+      "services": 1,
+      "radius": 1,
+      "logo": 0,
+      "intro": 5
+    }
+  }
+}
