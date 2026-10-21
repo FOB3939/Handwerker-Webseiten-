@@ -1,0 +1,405 @@
+{
+  "id": "2026-10-21-94",
+  "slug": "marco-eder-heizung-sanitaer-eching",
+  "date": "2026-10-21",
+  "company": {
+    "name": "Marco Eder Heizung- und Sanitärinstallation e.K.",
+    "owner": "Marco Eder",
+    "trade": "Sanitär & Heizung",
+    "city": "Eching",
+    "address": "Waldweg 19, 85386 Eching",
+    "phone": "089 37001966",
+    "email": null,
+    "serviceArea": [
+      "Eching",
+      "Neufahrn",
+      "Ottenburg",
+      "Dietersheim",
+      "Unterschleißheim",
+      "Garching",
+      "Hallbergmoos"
+    ]
+  },
+  "listings": {
+    "google": {
+      "url": "https://www.google.com/maps/search/?api=1&query=Marco%20Eder%20Heizung%20Sanit%C3%A4r%20Waldweg%2019%20Eching",
+      "rating": null,
+      "reviews": null,
+      "evidence": "INDIREKT – ein Branchenverzeichnis (Suchtreffer sanitaer.org/deutschbranchenbuch.com) nennt 1 Bewertung auf Google My Business; ein anderes zeigt 0,0 von 5. Kein direkter google.com/maps-Treffer, kein Website-Feld in den Snippets. 11880 zeigt eigene Bewertungen (8, Ø 2,75) – das sind KEINE Google-Bewertungen. In Maps prüfen."
+    },
+    "myhammer": {
+      "url": "https://www.11880.com/branchenbuch/eching-kreis-freising/060692320B40453746/marco-eder-heizung-sanitaer.html",
+      "rating": null,
+      "reviews": null,
+      "evidence": "Kein MyHammer-Profil gefunden – 11880-Eintrag „Marco Eder Heizung Sanitär“, Waldweg 19, Eching, Tel. 089 37001966, Heizungs- und Sanitärinstallation (11880: 8 Bewertungen, Ø 2,75)."
+    }
+  },
+  "websiteStatus": "keine eigene Website gefunden",
+  "websiteChecks": [
+    "(1) „Marco Eder Heizung Sanitär Eching“ mit blocked_domains (11880, Gelbe Seiten, Das Örtliche, Telefonbuch, Cylex, meinestadt, Creditreform, Facebook, Instagram, golocal, MyHammer, Northdata, Firmenwissen, WKDB, Yelp, wlw) – nur Verzeichnisse und Registerportale (sanitaer.org, openregister, registercheck, unternehmen24, fusionbase, klimatechniker24, deutschbranchenbuch); keine eigene Domain",
+    "(2) Domain-Check allowed_domains eder-heizung.de, eder-sanitaer.de, marco-eder.de, eder-haustechnik.de, eder-heizung-sanitaer.de, heizung-eder.de, sanitaer-eder.de, eder-eching.de – keine Treffer",
+    "(3) Telefonnummer-Suche und Impressum-Suche NICHT durchgeführt (Suchbudget erschöpft)",
+    "(4) Handelsregister: Marco Eder Heizung- und Sanitärinstallation e.K., HRA 94596 (AG München), eingetragen 02.11.2009, aktiv, Inhaber Marco Eder – Einzelkaufmann, keine GmbH",
+    "Website-Risiko: mittel – Namens- und Domainsuche negativ, aber Telefon-/Impressum-Prüfung offen und Google-Eintrag nur indirekt belegt"
+  ],
+  "facts": {
+    "services": [
+      "Heizungsinstallation",
+      "Sanitärinstallation"
+    ],
+    "experience": null,
+    "praisedFor": []
+  },
+  "strategy": {
+    "audience": "Hausbesitzer und Vermieter in Eching, Neufahrn und Unterschleißheim, die Heizung oder Bad erneuern, warten oder reparieren lassen wollen",
+    "mainService": "Heizungs- und Sanitärinstallation",
+    "trustSignal": "Seit 2009 eingetragener Einzelbetrieb (e.K.) – Inhaber Marco Eder direkt vor Ort in Eching",
+    "conversionGoal": "Anfrage für Heizungs- oder Sanitärarbeiten per Anruf oder Formular",
+    "visualConcept": "Saubere Haustechnik: blanke Kupfer- und Edelstahlrohre, moderner Heizkessel, helles Bad – technisch präzise und ordentlich"
+  },
+  "sales": {
+    "score": 3,
+    "whyGoodLead": [
+      "Keine eigene Website gefunden – nur Verzeichnisse und Registerportale",
+      "Sanitär/Heizung ist bisher selten unter den Leads",
+      "Widersprüchliche Adressen und Nummern im Netz – eine eigene Website schafft klare Kontaktdaten",
+      "Schwache 11880-Bewertung (Ø 2,75) – eigene Website und Google-Profil können das Bild verbessern"
+    ],
+    "pitch": "Grüß Gott Herr Eder, hier ist … – ich baue Websites für Handwerksbetriebe im Landkreis Freising. Ich habe Ihren Betrieb in Eching gefunden, aber keine eigene Website – und im Netz kursieren mehrere Adressen und Nummern. Ich habe unverbindlich einen Entwurf vorbereitet, auf dem Kunden Ihre Heizungs- und Sanitärleistungen mit den richtigen Kontaktdaten finden – darf ich Ihnen den Link schicken?"
+  },
+  "manualChecks": [
+    "Website-Risiko: mittel – vor Versand in Google Maps prüfen, dass keine Website hinterlegt ist (Grund: Google-Eintrag nur indirekt über ein Verzeichnis belegt, Telefon- und Impressum-Suche nicht durchgeführt)",
+    "Telefonnummer klären: 089 37001966 (11880) vs. 089 37979081 (andere Verzeichnisse); keine Mobilnummer, keine E-Mail gefunden",
+    "Adresse klären: Waldweg 19 (Handelsregister, 11880) vs. Mallershofener Weg 6 bzw. Hofangerstraße 12 (einzelne Verzeichnisse)",
+    "11880-Bewertungen Ø 2,75 bei 8 Stimmen – vor Kontakt prüfen, ob der Lead trotzdem passt; Bewertungsbereich der Seite neutral halten",
+    "Leistungen nur grob belegt (Heizungs- und Sanitärinstallation) – Badsanierung, Wärmepumpe, Wartung, Notdienst beim Betrieb bestätigen; Meistertitel nicht belegt",
+    "Logo und Projektfotos: nicht gefunden – beim Betrieb anfragen"
+  ],
+  "sources": [
+    {
+      "label": "11880 – Marco Eder Heizung Sanitär Eching",
+      "url": "https://www.11880.com/branchenbuch/eching-kreis-freising/060692320B40453746/marco-eder-heizung-sanitaer.html"
+    },
+    {
+      "label": "openregister – Marco Eder Heizung- und Sanitärinstallation e.K. (HRA 94596)",
+      "url": "https://openregister.de/company/DE-HRA-D2601-94596"
+    },
+    {
+      "label": "sanitaer.org – Marco Eder Heizung- und Sanitärinstallation e.K. Eching",
+      "url": "https://www.sanitaer.org/eching/marco-eder-heizung--und-sanitaerinstallation-e-k-aULSKZ"
+    },
+    {
+      "label": "deutschbranchenbuch – Marco Eder Heizung- und Sanitärinstallation e.K.",
+      "url": "https://eching.deutschbranchenbuch.com/plumber/marco-eder-heizung-und-sanitarinstallation-ek/"
+    },
+    {
+      "label": "klimatechniker24 – Marco Eder Heizung Sanitär Eching",
+      "url": "https://www.klimatechniker24.com/stadt/eching-freising/profil/marco-eder-heizung-sanitaer/"
+    }
+  ],
+  "site": {
+    "theme": "aqua",
+    "category": "handwerk",
+    "heroOffer": [
+      "Heizung",
+      "Sanitär",
+      "Badinstallation",
+      "Reparaturen",
+      "Wartung"
+    ],
+    "scene": "bath",
+    "logoIcon": "drop",
+    "logoMark": "ME",
+    "brandName": "Marco Eder Heizung Sanitär",
+    "seoTitle": "Heizung & Sanitär in Eching – Marco Eder",
+    "seoDescription": "Heizungs- und Sanitärinstallation in Eching, Neufahrn und Umgebung. Jetzt unverbindlich anfragen bei Marco Eder.",
+    "nav": [
+      {
+        "label": "Leistungen",
+        "href": "#leistungen"
+      },
+      {
+        "label": "Projekte",
+        "href": "#projekte"
+      },
+      {
+        "label": "Bewertungen",
+        "href": "#bewertungen"
+      },
+      {
+        "label": "Ablauf",
+        "href": "#ablauf"
+      },
+      {
+        "label": "FAQ",
+        "href": "#faq"
+      },
+      {
+        "label": "Kontakt",
+        "href": "#kontakt"
+      }
+    ],
+    "hero": {
+      "eyebrow": "Heizung & Sanitär · Eching",
+      "headline": "Heizung und Sanitär in Eching",
+      "sub": "Installation, Erneuerung und Reparatur – vom Inhaber Marco Eder selbst betreut.",
+      "ctaPrimary": "Anfrage senden",
+      "ctaSecondary": "Anrufen",
+      "bullets": [
+        "Heizungsinstallation",
+        "Sanitärinstallation",
+        "Betrieb vor Ort in Eching"
+      ],
+      "imageLabel": "neu installierter Heizkessel mit sauber verlegten Rohren"
+    },
+    "badges": [
+      {
+        "title": "Heizung",
+        "sub": "Installation & Tausch"
+      },
+      {
+        "title": "Sanitär",
+        "sub": "Bad & Leitungen"
+      },
+      {
+        "title": "Inhabergeführt",
+        "sub": "Marco Eder e.K."
+      },
+      {
+        "title": "Eching",
+        "sub": "Landkreis Freising"
+      }
+    ],
+    "trust": [
+      {
+        "value": "e.K.",
+        "label": "eingetragener Betrieb"
+      },
+      {
+        "value": "2",
+        "label": "Gewerke: Heizung & Sanitär"
+      },
+      {
+        "value": "Vor Ort",
+        "label": "Betrieb in Eching"
+      },
+      {
+        "value": "Direkt",
+        "label": "Inhaber als Ansprechpartner"
+      }
+    ],
+    "servicesIntro": {
+      "headline": "Wärme und Wasser aus einer Hand",
+      "text": "Ob neue Heizung, Bad oder tropfende Leitung: Heizungs- und Sanitärinstallation kommen bei Marco Eder aus einem Betrieb."
+    },
+    "services": [
+      {
+        "title": "Heizungsinstallation",
+        "text": "Neue Heizungsanlagen fachgerecht installiert und angeschlossen – abgestimmt auf Haus und Bedarf.",
+        "items": [
+          "Neuinstallation",
+          "Anschluss",
+          "Inbetriebnahme"
+        ]
+      },
+      {
+        "title": "Heizungstausch",
+        "text": "Alte Anlage raus, neue rein – mit klarer Planung, damit Sie möglichst kurz ohne Wärme sind.",
+        "items": [
+          "Altanlage ausbauen",
+          "Neue Anlage",
+          "Abstimmung"
+        ]
+      },
+      {
+        "title": "Heizkörper & Leitungen",
+        "text": "Heizkörper versetzen, ergänzen oder erneuern und die Leitungen dazu sauber verlegen.",
+        "items": [
+          "Heizkörper",
+          "Rohrleitungen",
+          "Thermostate"
+        ]
+      },
+      {
+        "title": "Sanitärinstallation",
+        "text": "Wasserleitungen, Abflüsse und Anschlüsse in Neubau und Bestand – dicht und ordentlich.",
+        "items": [
+          "Wasserleitungen",
+          "Abwasser",
+          "Anschlüsse"
+        ]
+      },
+      {
+        "title": "Bad & WC",
+        "text": "Waschtisch, WC, Dusche oder Wanne fachgerecht montiert und angeschlossen.",
+        "items": [
+          "Waschtisch",
+          "WC",
+          "Dusche & Wanne"
+        ]
+      },
+      {
+        "title": "Reparaturen",
+        "text": "Tropfende Armatur, undichte Leitung oder Störung an der Heizung – wird geprüft und behoben.",
+        "items": [
+          "Armaturen",
+          "Undichtigkeiten",
+          "Störungen"
+        ]
+      }
+    ],
+    "why": {
+      "headline": "Haustechnik aus Eching – direkt vom Inhaber.",
+      "points": [
+        {
+          "title": "Ein Ansprechpartner",
+          "text": "Marco Eder führt den Betrieb selbst – Sie sprechen direkt mit dem Inhaber."
+        },
+        {
+          "title": "Heizung und Sanitär",
+          "text": "Beide Gewerke aus einer Hand – keine Abstimmung zwischen zwei Firmen."
+        },
+        {
+          "title": "Kurze Wege",
+          "text": "Von Eching schnell in Neufahrn, Unterschleißheim, Garching und Hallbergmoos."
+        },
+        {
+          "title": "Eingetragener Betrieb",
+          "text": "Seit 2009 im Handelsregister als Heizungs- und Sanitärbetrieb eingetragen."
+        }
+      ]
+    },
+    "reviews": {
+      "headline": "Was Kunden sagen",
+      "summary": "Kundenstimmen werden hier eingebunden, sobald sie aus dem Google-Profil übernommen sind.",
+      "highlights": [
+        "Heizung in Eching",
+        "Sanitärinstallation",
+        "Direkter Kontakt zum Inhaber"
+      ],
+      "source": "Google",
+      "sourceUrl": "https://www.google.com/maps/search/?api=1&query=Marco%20Eder%20Heizung%20Sanit%C3%A4r%20Waldweg%2019%20Eching",
+      "rating": null,
+      "count": null
+    },
+    "process": {
+      "headline": "In vier Schritten zur neuen Haustechnik",
+      "steps": [
+        {
+          "title": "Anfrage",
+          "text": "Kurz anrufen oder das Formular nutzen – mit Foto von Anlage oder Bad."
+        },
+        {
+          "title": "Termin vor Ort",
+          "text": "Heizung, Leitungen oder Bad werden angeschaut und Möglichkeiten besprochen."
+        },
+        {
+          "title": "Angebot",
+          "text": "Sie erhalten ein nachvollziehbares Angebot für Ihr Vorhaben."
+        },
+        {
+          "title": "Installation",
+          "text": "Fachgerechte Ausführung, Prüfung und Übergabe der fertigen Anlage."
+        }
+      ]
+    },
+    "gallery": {
+      "headline": "Haustechnik, die läuft",
+      "text": "Für die Live-Version zeigen wir hier echte Arbeiten des Betriebs.",
+      "items": [
+        {
+          "title": "Neue Heizung",
+          "photoNeeded": "neu installierter Heizkessel im Technikraum"
+        },
+        {
+          "title": "Heizkreisverteiler",
+          "photoNeeded": "sauber verrohrter Verteiler mit Pumpen"
+        },
+        {
+          "title": "Neues Bad",
+          "photoNeeded": "fertiges Bad mit Waschtisch und Dusche"
+        },
+        {
+          "title": "Vorwandinstallation",
+          "photoNeeded": "WC-Vorwandelement vor dem Verkleiden"
+        },
+        {
+          "title": "Heizkörper",
+          "photoNeeded": "neu montierter Heizkörper mit Thermostat"
+        }
+      ]
+    },
+    "region": {
+      "headline": "Heizung und Sanitär für Eching und Umgebung",
+      "text": "Von Eching aus schnell in Neufahrn, Ottenburg, Dietersheim, Unterschleißheim, Garching und Hallbergmoos.",
+      "places": [
+        "Eching",
+        "Neufahrn",
+        "Ottenburg",
+        "Dietersheim",
+        "Unterschleißheim",
+        "Garching",
+        "Hallbergmoos"
+      ]
+    },
+    "faq": [
+      {
+        "q": "Tauschen Sie auch alte Heizungen aus?",
+        "a": "Ja, Heizungsinstallation umfasst auch den Austausch bestehender Anlagen. Details klären wir beim Termin vor Ort."
+      },
+      {
+        "q": "Übernehmen Sie Sanitärarbeiten im Bad?",
+        "a": "Ja, Sanitärinstallation gehört zum Angebot – von Leitungen bis zum Anschluss von WC, Waschtisch und Dusche."
+      },
+      {
+        "q": "Kommen Sie auch für kleinere Reparaturen?",
+        "a": "Fragen Sie einfach an – ob und wann es passt, wird direkt abgestimmt."
+      },
+      {
+        "q": "Wie läuft die Anfrage ab?",
+        "a": "Anrufen oder Formular ausfüllen, dann folgt ein Termin vor Ort und ein Angebot."
+      },
+      {
+        "q": "Arbeiten Sie auch außerhalb von Eching?",
+        "a": "Ja, im Umkreis von Eching – etwa Neufahrn, Unterschleißheim und Garching."
+      }
+    ],
+    "contact": {
+      "headline": "Ihre Anfrage für Heizung oder Sanitär",
+      "text": "Beschreiben Sie kurz Ihr Vorhaben: Heizung, Bad oder Reparatur, Baujahr der Anlage und gewünschter Zeitraum. Ein Foto hilft.",
+      "topics": [
+        "Heizungsinstallation",
+        "Heizungstausch",
+        "Sanitärinstallation",
+        "Bad & WC",
+        "Reparatur"
+      ],
+      "responseNote": "Termin vor Ort nach Absprache."
+    },
+    "quote": {
+      "sizeLabel": "Worum geht es?",
+      "sizes": [
+        "Neue Heizung",
+        "Heizung reparieren",
+        "Bad / Sanitär",
+        "Leitungen & Anschlüsse"
+      ],
+      "timings": [
+        "Dringend",
+        "In den nächsten Wochen",
+        "In 1–3 Monaten",
+        "Ich plane erst noch"
+      ]
+    },
+    "stickyCta": "Anfrage senden",
+    "look": {
+      "palette": 2,
+      "font": 6,
+      "hero": 0,
+      "services": 1,
+      "radius": 1,
+      "logo": 0,
+      "intro": 5
+    }
+  }
+}
