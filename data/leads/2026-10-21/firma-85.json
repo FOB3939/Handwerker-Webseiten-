@@ -1,0 +1,282 @@
+{
+  "id": "2026-10-21-85",
+  "slug": "handwerker-service-pietras-geretsried",
+  "date": "2026-10-21",
+  "company": {
+    "name": "Handwerker Service Oskar Pietras",
+    "owner": "Oskar Pietras",
+    "trade": "Sanitär, Trockenbau & Renovierung",
+    "city": "Geretsried",
+    "address": "Carl-Maria-von-Weber-Weg 1, 82538 Geretsried",
+    "phone": "01523 4384494",
+    "email": "oskpiet@gmail.com",
+    "serviceArea": [
+      "Geretsried",
+      "Wolfratshausen",
+      "Gelting",
+      "Königsdorf",
+      "Egling",
+      "Dietramszell",
+      "Icking"
+    ]
+  },
+  "listings": {
+    "google": {
+      "url": "https://www.google.com/maps/search/?api=1&query=Handwerker%20Service%20Oskar%20Pietras%20Geretsried",
+      "rating": null,
+      "reviews": null,
+      "evidence": "KEIN Google-Beleg gefunden (kein Spiegel-Treffer bei rgv-bayern/firmania/trustlocal). Aufnahme über öffentlich gelistete Freemail-Adresse oskpiet@gmail.com im 11880-Eintrag. Google-Eintrag in Maps vor Versand prüfen."
+    },
+    "myhammer": {
+      "url": "https://www.11880.com/branchenbuch/geretsried/060371176B107335423/handwerker-service-oskar-pietras.html",
+      "rating": null,
+      "reviews": null,
+      "evidence": "Kein MyHammer gefunden – 11880-Eintrag „Handwerker Service Oskar Pietras“, Carl-Maria-von-Weber-Weg 1, Geretsried, Tel. 01523 4384494, E-Mail oskpiet@gmail.com, Leistungen Sanitärinstallation, Altbausanierung, Trockenbau, Innenausbau, Renovierung; noch keine Bewertungen. Zusätzlich Auftragsbank-Profil „HandwerkerService Pietras“ (2019, Ansprechpartner Oskar Pietras)."
+    }
+  },
+  "websiteStatus": "keine eigene Website gefunden",
+  "websiteChecks": [
+    "(1) „Oskar Pietras“ Handwerker Service Geretsried mit blocked_domains (Gelbe Seiten, Das Örtliche, Telefonbuch, Cylex, meinestadt, Creditreform, Facebook, Instagram, golocal, MyHammer, Northdata, Firmenwissen, WKDB, Yelp, trustlocal, wlw) – nur 11880 und Auftragsbank, keine eigene Domain",
+    "(2) Telefon-/E-Mail-Suche „01523 4384494“/„015234384494“/„oskpiet@gmail.com“ – nur Rufnummern-Blockliste (anrufer.info, Vodafone), keine Website",
+    "(3) Domain-Check allowed_domains pietras.de, handwerkerservice-pietras.de, pietras-geretsried.de, handwerker-pietras.de, pietras-service.de, hs-pietras.de, pietras-handwerkerservice.de, oskar-pietras.de – nur pietras.de (Siegmund Pietras GmbH, Troisdorf / Domain zum Verkauf) – fremder Betrieb, kein Bezug",
+    "(4) Verzeichnisse: kein Website-Feld, E-Mail ist Freemail (gmail)",
+    "Website-Risiko: niedrig – Freemail belegt, alle Prüfungen negativ; Google-Eintrag aber nicht belegt"
+  ],
+  "facts": {
+    "services": [
+      "Sanitärinstallation",
+      "Altbausanierung",
+      "Trockenbau",
+      "Innenausbau",
+      "Renovierung",
+      "Malerarbeiten",
+      "Wasserschadensanierung"
+    ],
+    "experience": null,
+    "praisedFor": []
+  },
+  "strategy": {
+    "audience": "Wohnungs- und Hauseigentümer, Vermieter und Hausverwaltungen in Geretsried und Wolfratshausen, die Bad, Wohnung oder Altbau renovieren lassen wollen – ohne fünf Gewerke einzeln zu koordinieren",
+    "mainService": "Renovierung mit Sanitär und Trockenbau aus einer Hand",
+    "trustSignal": "Inhaber Oskar Pietras persönlich ansprechbar – direkt per Handy und WhatsApp",
+    "conversionGoal": "Renovierungsanfrage mit Fotos per WhatsApp oder Anruf",
+    "visualConcept": "Ehrliche Werkstatt-Optik: frisch verspachtelte Wände, neue Armaturen, Werkzeug auf der Baustelle – solide, aufgeräumt, bodenständig"
+  },
+  "sales": {
+    "score": 7,
+    "whyGoodLead": [
+      "Keine eigene Website – nur 11880 und ein altes Auftragsbank-Profil",
+      "Mobilnummer und Gmail-Adresse öffentlich – direkter Erstkontakt möglich",
+      "Breites Leistungsspektrum (Sanitär, Trockenbau, Renovierung) lässt sich auf einer Website gut bündeln",
+      "Noch keine Bewertungen – Website plus Google-Profil schaffen erste Sichtbarkeit"
+    ],
+    "pitch": "Hallo Herr Pietras, hier ist … – ich baue Websites für Handwerker im Isartal. Ich habe Ihren Handwerker Service in Geretsried bei 11880 gefunden, aber keine eigene Website. Ich habe unverbindlich einen Entwurf vorbereitet, auf dem Kunden Ihre Sanitär-, Trockenbau- und Renovierungsarbeiten sehen und direkt per WhatsApp anfragen können – darf ich Ihnen den Link schicken?"
+  },
+  "manualChecks": [
+    "Website-Risiko: niedrig – vor Versand in Google Maps prüfen, dass keine Website hinterlegt ist (Grund: Freemail belegt, aber kein Google-Eintrag gefunden)",
+    "Google-Eintrag in Maps suchen (Existenz, Bewertungen) – bisher nicht belegt",
+    "Aktualität prüfen: Auftragsbank-Profil von 2019; 11880-Eintrag ohne Datum – Betrieb noch aktiv?",
+    "Leistungsschwerpunkt beim Erstkontakt klären (Sanitär vs. Trockenbau/Renovierung); Malerarbeiten und Wasserschadensanierung nur aus Auftragsbank-Profil 2019",
+    "Logo und Projektfotos: nicht gefunden – beim Betrieb anfragen"
+  ],
+  "sources": [
+    {
+      "label": "11880 – Handwerker Service Oskar Pietras Geretsried",
+      "url": "https://www.11880.com/branchenbuch/geretsried/060371176B107335423/handwerker-service-oskar-pietras.html"
+    },
+    {
+      "label": "Auftragsbank – HandwerkerService Pietras in Geretsried",
+      "url": "https://www.auftragsbank.de/firmen/handwerkerservice-pietras/23273"
+    },
+    {
+      "label": "11880 – Trockenbauer Geretsried (Liste)",
+      "url": "https://www.11880.com/suche/trockenbau/geretsried"
+    }
+  ],
+  "site": {
+    "theme": "werk",
+    "category": "handwerk",
+    "heroOffer": [
+      "Sanitär",
+      "Trockenbau",
+      "Altbausanierung",
+      "Innenausbau",
+      "Renovierung"
+    ],
+    "scene": "bath",
+    "logoIcon": "house",
+    "logoMark": "OP",
+    "brandName": "Handwerker Service Pietras",
+    "seoTitle": "Handwerker Service in Geretsried – Oskar Pietras",
+    "seoDescription": "Sanitärinstallation, Trockenbau, Altbausanierung und Renovierung in Geretsried und Wolfratshausen. Jetzt unverbindlich anfragen – auch per WhatsApp.",
+    "nav": [
+      { "label": "Leistungen", "href": "#leistungen" },
+      { "label": "Projekte", "href": "#projekte" },
+      { "label": "Bewertungen", "href": "#bewertungen" },
+      { "label": "Ablauf", "href": "#ablauf" },
+      { "label": "FAQ", "href": "#faq" },
+      { "label": "Kontakt", "href": "#kontakt" }
+    ],
+    "hero": {
+      "eyebrow": "Handwerker Service · Geretsried",
+      "headline": "Renovieren in Geretsried",
+      "sub": "Sanitär, Trockenbau und Sanierung – Oskar Pietras erledigt es aus einer Hand.",
+      "ctaPrimary": "Renovierung anfragen",
+      "ctaSecondary": "Anrufen",
+      "bullets": [
+        "Sanitär und Trockenbau",
+        "Altbau und Innenausbau",
+        "Inhaber direkt erreichbar"
+      ],
+      "imageLabel": "renoviertes Bad mit neuer Armatur und frisch verspachtelter Wand"
+    },
+    "badges": [
+      { "title": "Sanitär", "sub": "Installation" },
+      { "title": "Trockenbau", "sub": "Wände & Decken" },
+      { "title": "Altbau", "sub": "Sanierung" },
+      { "title": "Geretsried", "sub": "Isartal" }
+    ],
+    "trust": [
+      { "value": "1", "label": "Ansprechpartner für alles" },
+      { "value": "5", "label": "Leistungsbereiche" },
+      { "value": "Vor Ort", "label": "Betrieb in Geretsried" },
+      { "value": "Mobil", "label": "direkt erreichbar" }
+    ],
+    "servicesIntro": {
+      "headline": "Was in Ihrer Wohnung ansteht – ein Handwerker kümmert sich",
+      "text": "Neue Leitungen, eine versetzte Wand, frische Oberflächen: Oskar Pietras übernimmt Sanitär, Trockenbau und Renovierung, damit Sie nicht mehrere Betriebe abstimmen müssen."
+    },
+    "services": [
+      {
+        "title": "Sanitärinstallation",
+        "text": "Armaturen, Waschtische und WC werden montiert oder getauscht – sauber angeschlossen und dicht.",
+        "items": ["Armaturen", "Waschtisch & WC", "Anschlüsse"]
+      },
+      {
+        "title": "Trockenbau",
+        "text": "Ständerwände, Vorwände und abgehängte Decken teilen Räume neu und verstecken Leitungen.",
+        "items": ["Ständerwände", "Vorwandinstallation", "Decken"]
+      },
+      {
+        "title": "Altbausanierung",
+        "text": "Ältere Wohnungen und Häuser werden Schritt für Schritt auf den heutigen Stand gebracht.",
+        "items": ["Bestandsaufnahme", "Rückbau", "Wiederaufbau"]
+      },
+      {
+        "title": "Innenausbau",
+        "text": "Vom Rohbau zum bewohnbaren Raum: Wände, Decken und Oberflächen werden fertig ausgebaut.",
+        "items": ["Wände", "Oberflächen", "Ausbau"]
+      },
+      {
+        "title": "Renovierung",
+        "text": "Wohnung frisch machen vor Einzug oder Neuvermietung – mit einem Ansprechpartner.",
+        "items": ["Wohnungsrenovierung", "Vor Neuvermietung", "Ausbesserungen"]
+      },
+      {
+        "title": "Wasserschaden",
+        "text": "Nach einem Wasserschaden werden betroffene Wände und Böden instand gesetzt.",
+        "items": ["Schaden begutachten", "Rückbau", "Instandsetzung"]
+      }
+    ],
+    "why": {
+      "headline": "Ein Handwerker aus Geretsried statt fünf Termine.",
+      "points": [
+        { "title": "Alles aus einer Hand", "text": "Sanitär, Trockenbau und Renovierung laufen über einen Ansprechpartner – ohne Abstimmung zwischen Gewerken." },
+        { "title": "Direkter Draht", "text": "Sie sprechen mit Oskar Pietras selbst – per Anruf oder WhatsApp." },
+        { "title": "Kurze Wege", "text": "Von Geretsried aus schnell in Wolfratshausen, Gelting, Königsdorf und Egling." },
+        { "title": "Auch Altbau", "text": "Ältere Wohnungen und Häuser gehören zum Alltag – inklusive Rückbau und Neuaufbau." }
+      ]
+    },
+    "reviews": {
+      "headline": "Was Kunden sagen",
+      "summary": "Kundenstimmen werden hier eingebunden, sobald sie aus dem Google-Profil übernommen sind.",
+      "highlights": [
+        "Sanitär und Trockenbau",
+        "Renovierung aus einer Hand",
+        "Direkter Kontakt zum Inhaber"
+      ],
+      "source": "Google",
+      "sourceUrl": "https://www.google.com/maps/search/?api=1&query=Handwerker%20Service%20Oskar%20Pietras%20Geretsried",
+      "rating": null,
+      "count": null
+    },
+    "process": {
+      "headline": "So läuft Ihre Renovierung ab",
+      "steps": [
+        { "title": "Fotos schicken", "text": "Zeigen Sie per WhatsApp, was gemacht werden soll – oder rufen Sie kurz an." },
+        { "title": "Termin vor Ort", "text": "Oskar Pietras sieht sich Bad, Wand oder Wohnung an und klärt die Details." },
+        { "title": "Angebot", "text": "Sie bekommen ein klares Angebot für alle Arbeiten zusammen." },
+        { "title": "Umsetzung", "text": "Sanitär, Trockenbau und Feinarbeiten werden nacheinander erledigt und sauber übergeben." }
+      ]
+    },
+    "gallery": {
+      "headline": "Arbeiten aus Geretsried und Umgebung",
+      "text": "Für die Live-Version zeigen wir hier echte Projekte des Betriebs.",
+      "items": [
+        { "title": "Neues Bad", "photoNeeded": "renoviertes Bad mit neuer Armatur und Waschtisch" },
+        { "title": "Vorwand", "photoNeeded": "Vorwandinstallation mit Unterputz-Spülkasten im Rohbau" },
+        { "title": "Trennwand", "photoNeeded": "neue Ständerwand, verspachtelt" },
+        { "title": "Altbauwohnung", "photoNeeded": "sanierter Altbauraum vor und nach der Renovierung" },
+        { "title": "Abgehängte Decke", "photoNeeded": "glatte abgehängte Decke mit Leuchten" }
+      ]
+    },
+    "region": {
+      "headline": "Unterwegs in Geretsried und im Isartal",
+      "text": "Von Geretsried aus schnell in Wolfratshausen, Gelting, Königsdorf, Egling, Dietramszell und Icking.",
+      "places": [
+        "Geretsried",
+        "Wolfratshausen",
+        "Gelting",
+        "Königsdorf",
+        "Egling",
+        "Dietramszell",
+        "Icking"
+      ]
+    },
+    "faq": [
+      { "q": "Übernehmen Sie Sanitär und Trockenbau zusammen?", "a": "Ja, beides gehört zum Angebot – zum Beispiel Vorwand und neue Armaturen im selben Auftrag." },
+      { "q": "Kann ich vorab Fotos schicken?", "a": "Ja, Fotos per WhatsApp helfen für eine erste Einschätzung vor dem Termin." },
+      { "q": "Sanieren Sie auch Altbauwohnungen?", "a": "Ja, Altbausanierung und Innenausbau gehören zu den Leistungen." },
+      { "q": "Helfen Sie nach einem Wasserschaden?", "a": "Betroffene Wände und Böden werden nach Absprache instand gesetzt – fragen Sie einfach an." },
+      { "q": "Arbeiten Sie auch außerhalb von Geretsried?", "a": "Ja, im Umkreis von Geretsried und Wolfratshausen – sprechen Sie uns an." }
+    ],
+    "contact": {
+      "headline": "Ihre Anfrage – unverbindlich",
+      "text": "Beschreiben Sie kurz, was ansteht: Bad, Wand, Altbau oder ganze Wohnung. Fotos helfen.",
+      "topics": [
+        "Sanitärinstallation",
+        "Trockenbau",
+        "Altbausanierung",
+        "Renovierung",
+        "Wasserschaden",
+        "Sonstiges"
+      ],
+      "responseNote": "Besichtigung nach Absprache."
+    },
+    "quote": {
+      "sizeLabel": "Wie groß ist das Vorhaben?",
+      "sizes": [
+        "Kleine Reparatur",
+        "Ein Raum / Bad",
+        "Ganze Wohnung",
+        "Altbau-Sanierung"
+      ],
+      "timings": [
+        "So bald wie möglich",
+        "In den nächsten Wochen",
+        "In 1–3 Monaten",
+        "Ich plane erst noch"
+      ]
+    },
+    "stickyCta": "Jetzt anfragen",
+    "look": {
+      "palette": 2,
+      "font": 6,
+      "hero": 0,
+      "services": 1,
+      "radius": 1,
+      "logo": 0,
+      "intro": 5
+    }
+  }
+}

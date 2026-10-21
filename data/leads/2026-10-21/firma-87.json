@@ -1,0 +1,411 @@
+{
+  "id": "2026-10-21-87",
+  "slug": "hutter-elektroanlagen-puchheim",
+  "date": "2026-10-21",
+  "company": {
+    "name": "Hutter Roland u. Sandra Elektroanlagen Elektroinstallationen",
+    "owner": "Roland und Sandra Hutter",
+    "trade": "Elektroinstallation",
+    "city": "Puchheim",
+    "address": "Egenhoferstr. 13, 82178 Puchheim",
+    "phone": "089 849618",
+    "email": "roland.hutter@gmx.net",
+    "serviceArea": [
+      "Puchheim",
+      "Germering",
+      "Eichenau",
+      "Gröbenzell",
+      "Olching",
+      "Gilching"
+    ]
+  },
+  "listings": {
+    "google": {
+      "url": "https://www.google.com/maps/search/?api=1&query=Hutter%20Roland%20u.%20Sandra%20Elektroanlagen%20Egenhoferstr.%2013%20Puchheim",
+      "rating": null,
+      "reviews": null,
+      "evidence": "INDIREKT (Spiegel) – firmania.de führt „Hutter Roland u. Sandra Elektroanlagen Elektroinstallationen“, Egenhoferstr. 13, 82178 Puchheim (Kategorie Elektroinstallateure); finde-offen.de mit Öffnungszeiten. Keine Bewertungszahl und kein Website-Feld in den Snippets. Kein direkter google.com/maps/place-Treffer – in Maps prüfen. Freemail roland.hutter@gmx.net öffentlich belegt (11880, bundes-telefonbuch.de)."
+    },
+    "myhammer": {
+      "url": "https://www.11880.com/branchenbuch/puchheim-oberbayern/060691303B52619694/hutter-roland-u-sandra-elektroanlagen-elektroinstallationen.html",
+      "rating": null,
+      "reviews": null,
+      "evidence": "Kein MyHammer gefunden – Eintrag bei 11880 (Egenhoferstr. 13, Tel. 089 849618, E-Mail roland.hutter@gmx.net) sowie Stadtbranchenbuch Puchheim, orte.muenchen.de, GoYellow, firmenABC und mein-elektriker-profi.de."
+    }
+  },
+  "websiteStatus": "keine eigene Website gefunden",
+  "websiteChecks": [
+    "(1) „Hutter Elektroanlagen Puchheim Egenhoferstr“ mit blocked_domains (11880, Gelbe Seiten, Das Örtliche, Telefonbuch, Cylex, meinestadt, Creditreform, Facebook, Instagram, golocal, MyHammer, Northdata, Firmenwissen, WKDB, Yelp, trustlocal, wlw) – nur Verzeichnisse (Stadtbranchenbuch, firmania, GoYellow, finde-offen, bundes-telefonbuch, orte.muenchen.de, mein-elektriker-profi); keine eigene Domain",
+    "(2) Domain-Check allowed_domains elektro-hutter.de, hutter-elektro.de, elektroanlagen-hutter.de, hutter-elektroanlagen.de, elektrohutter.de, hutter-puchheim.de, elektro-hutter-puchheim.de, roland-hutter.de – keine Treffer",
+    "(3) Telefonsuche „089 849618“/„089849618“ mit blocked_domains – nur Verzeichnisse und Rufnummern-Lookup (anrufercheck), keine Website",
+    "(4) Impressum-Suche „Impressum Roland Hutter Elektro Puchheim Inhaber“ – kein eigenes Impressum; Treffer rolandhutter.at (Roland Hutter GmbH, Wien) und svgtyrol.org sind andere Personen/Firmen",
+    "(5) E-Mail ausschließlich Freemail (gmx.net) – keine Firmendomain",
+    "Website-Risiko: mittel – alle Prüfungen negativ, Freemail belegt, Google-Eintrag nur indirekt; Verzeichnisdaten teils älter (bundes-telefonbuch zuletzt 2013)"
+  ],
+  "facts": {
+    "services": [
+      "Elektroinstallation",
+      "Elektroanlagen",
+      "Leitungsverlegung",
+      "Schalter und Steckdosen"
+    ],
+    "experience": null,
+    "praisedFor": []
+  },
+  "strategy": {
+    "audience": "Eigentümer und Mieter in Puchheim, Germering, Eichenau und Gröbenzell, die Steckdosen nachrüsten, Leitungen erneuern oder bei Renovierung und Umbau die Elektrik machen lassen wollen",
+    "mainService": "Elektroinstallation für Wohnung und Haus",
+    "trustSignal": "Familienbetrieb Roland und Sandra Hutter mit festem Sitz in Puchheim",
+    "conversionGoal": "Elektro-Auftrag anfragen (Anruf oder Formular mit Fotos)",
+    "visualConcept": "Sachlich und präzise: saubere Unterverteilung, gerade verlegte Leitungen, helle Räume mit neuen Schalterprogrammen"
+  },
+  "sales": {
+    "score": 4,
+    "whyGoodLead": [
+      "Keine eigene Website gefunden – nur Verzeichniseinträge",
+      "Öffentliche Freemail-Adresse (gmx.net) – keine Firmendomain vorhanden",
+      "Elektriker sind in Puchheim und Germering stark gefragt – eine Website macht den Betrieb online sichtbar",
+      "Inhaber namentlich bekannt – persönliche Ansprache möglich"
+    ],
+    "pitch": "Guten Tag Herr Hutter, hier ist … – ich baue Websites für Handwerksbetriebe im Landkreis Fürstenfeldbruck. Ich habe Ihren Elektrobetrieb in Puchheim in mehreren Verzeichnissen gefunden, aber keine eigene Website. Ich habe unverbindlich einen Entwurf vorbereitet, über den Kunden aus Puchheim und Germering Ihre Elektroarbeiten sehen und direkt anfragen können – darf ich Ihnen den Link schicken?"
+  },
+  "manualChecks": [
+    "Website-Risiko: mittel – vor Versand in Google Maps prüfen, dass keine Website hinterlegt ist (Grund: Google-Eintrag nur über Spiegel firmania/finde-offen belegt, Verzeichnisdaten teils von 2013)",
+    "Google-Eintrag in Maps bestätigen (Existenz, Bewertungsanzahl, ob noch aktiv)",
+    "Festnetznummer 089 849618 – keine Mobilnummer gefunden; Erstkontakt per E-Mail an roland.hutter@gmx.net oder Anruf",
+    "Prüfen, ob der Betrieb noch aktiv ist (bundes-telefonbuch zuletzt 27.02.2013 aktualisiert)",
+    "Leistungen nur grob belegt (Elektroinstallation, Leitungen, Schalter, Steckdosen) – Detailleistungen (Zählerschrank, E-Check, Smart Home) beim Betrieb bestätigen",
+    "Logo und Projektfotos: nicht gefunden – beim Betrieb anfragen"
+  ],
+  "sources": [
+    {
+      "label": "11880 – Hutter Roland u. Sandra Elektroanlagen, Puchheim",
+      "url": "https://www.11880.com/branchenbuch/puchheim-oberbayern/060691303B52619694/hutter-roland-u-sandra-elektroanlagen-elektroinstallationen.html"
+    },
+    {
+      "label": "firmania – Hutter Roland u. Sandra Elektroanlagen (Google-Spiegel)",
+      "url": "https://firmania.de/puchheim/hutter-roland-u-sandra-elektroanlagen-elektroinstallationen-3359417"
+    },
+    {
+      "label": "Stadtbranchenbuch Puchheim – Elektroanlagen Roland und Sandra Hutter",
+      "url": "https://puchheim.stadtbranchenbuch.com/4900548.html"
+    },
+    {
+      "label": "Bundes-Telefonbuch – Hutter Roland u. Sandra Elektroanlagen (E-Mail)",
+      "url": "https://www.bundes-telefonbuch.de/puchheim/elektrotechnik/hutter-roland-u-sandra-elektroanlagen-bvg207261833"
+    },
+    {
+      "label": "GoYellow – Roland Hutter Elektroanlagen Puchheim",
+      "url": "https://www.goyellow.de/home/elektriker-roland-hutter-elektroanlagen-puchheim--lwq93.html"
+    },
+    {
+      "label": "finde-offen – Öffnungszeiten Hutter Elektroanlagen",
+      "url": "https://finde-offen.de/puchheim/hutter-roland-u-sandra-elektroanlagen-elektroinstallationen-914105"
+    }
+  ],
+  "site": {
+    "theme": "volt",
+    "category": "handwerk",
+    "heroOffer": [
+      "Elektroinstallation",
+      "Steckdosen",
+      "Leitungen",
+      "Beleuchtung",
+      "Umbau"
+    ],
+    "scene": "electric",
+    "logoIcon": "bolt",
+    "logoMark": "RH",
+    "brandName": "Elektro Hutter",
+    "seoTitle": "Elektriker in Puchheim – Hutter Elektroanlagen",
+    "seoDescription": "Elektroinstallation in Puchheim, Germering und Eichenau: Leitungen, Schalter, Steckdosen und Elektrik bei Umbau. Jetzt anfragen.",
+    "nav": [
+      {
+        "label": "Leistungen",
+        "href": "#leistungen"
+      },
+      {
+        "label": "Projekte",
+        "href": "#projekte"
+      },
+      {
+        "label": "Bewertungen",
+        "href": "#bewertungen"
+      },
+      {
+        "label": "Ablauf",
+        "href": "#ablauf"
+      },
+      {
+        "label": "FAQ",
+        "href": "#faq"
+      },
+      {
+        "label": "Kontakt",
+        "href": "#kontakt"
+      }
+    ],
+    "hero": {
+      "eyebrow": "Elektroinstallation · Puchheim",
+      "headline": "Ihr Elektriker in Puchheim",
+      "sub": "Leitungen, Schalter und Steckdosen – fachgerecht verlegt von Roland und Sandra Hutter.",
+      "ctaPrimary": "Elektro-Auftrag anfragen",
+      "ctaSecondary": "Anrufen",
+      "bullets": [
+        "Familienbetrieb aus Puchheim",
+        "Elektrik für Wohnung und Haus",
+        "Kurze Wege nach Germering und Eichenau"
+      ],
+      "imageLabel": "neu verdrahtete Unterverteilung mit beschrifteten Sicherungen"
+    },
+    "badges": [
+      {
+        "title": "Elektroanlagen",
+        "sub": "Installation & Umbau"
+      },
+      {
+        "title": "Leitungen",
+        "sub": "sauber verlegt"
+      },
+      {
+        "title": "Schalter & Dosen",
+        "sub": "nachrüsten & tauschen"
+      },
+      {
+        "title": "Puchheim",
+        "sub": "Egenhoferstraße"
+      }
+    ],
+    "trust": [
+      {
+        "value": "Vor Ort",
+        "label": "Betrieb in Puchheim"
+      },
+      {
+        "value": "Familie",
+        "label": "Roland & Sandra Hutter"
+      },
+      {
+        "value": "Innen",
+        "label": "Wohnung, Haus, Gewerbe"
+      },
+      {
+        "value": "Direkt",
+        "label": "Ansprechpartner ohne Umwege"
+      }
+    ],
+    "servicesIntro": {
+      "headline": "Elektrik, die sicher funktioniert",
+      "text": "Von der zusätzlichen Steckdose bis zur kompletten Neuinstallation bei Renovierung: Hutter Elektroanlagen verlegt, schließt an und prüft."
+    },
+    "services": [
+      {
+        "title": "Elektroinstallation",
+        "text": "Neue Elektrik für Wohnung und Haus – geplant nach Ihrem Bedarf und fachgerecht ausgeführt.",
+        "items": [
+          "Neuinstallation",
+          "Erweiterung",
+          "Anschluss"
+        ]
+      },
+      {
+        "title": "Leitungsverlegung",
+        "text": "Kabel auf und unter Putz verlegen, alte Leitungen ersetzen und Stromkreise sauber aufteilen.",
+        "items": [
+          "Unterputz",
+          "Aufputz",
+          "Alte Leitungen ersetzen"
+        ]
+      },
+      {
+        "title": "Schalter & Steckdosen",
+        "text": "Zusätzliche Steckdosen dort, wo Sie sie brauchen, und neue Schalter in einheitlichem Design.",
+        "items": [
+          "Steckdosen nachrüsten",
+          "Schalter tauschen",
+          "Doppeldosen"
+        ]
+      },
+      {
+        "title": "Beleuchtung",
+        "text": "Leuchten anschließen, Lichtauslässe setzen und Schaltungen für Flur, Treppe und Garten einrichten.",
+        "items": [
+          "Leuchten anschließen",
+          "Wechselschaltung",
+          "Außenlicht"
+        ]
+      },
+      {
+        "title": "Elektrik bei Umbau",
+        "text": "Bei Renovierung von Küche, Bad oder Wohnung wird die Elektrik passend zum neuen Grundriss geplant.",
+        "items": [
+          "Küche",
+          "Bad",
+          "Wohnungsrenovierung"
+        ]
+      },
+      {
+        "title": "Reparatur & Fehlersuche",
+        "text": "Wenn Sicherungen fliegen oder Steckdosen ausfallen, wird die Ursache gesucht und behoben.",
+        "items": [
+          "Fehlersuche",
+          "Defekte Dosen",
+          "Kleinreparaturen"
+        ]
+      }
+    ],
+    "why": {
+      "headline": "Elektriker aus Puchheim – persönlich und direkt.",
+      "points": [
+        {
+          "title": "Kurze Wege",
+          "text": "Der Betrieb sitzt in Puchheim und ist schnell in Germering, Eichenau und Gröbenzell."
+        },
+        {
+          "title": "Feste Ansprechpartner",
+          "text": "Roland und Sandra Hutter kümmern sich selbst um Ihren Auftrag."
+        },
+        {
+          "title": "Sauber gearbeitet",
+          "text": "Leitungen werden ordentlich verlegt, Arbeitsbereiche hinterlassen wie vorgefunden."
+        },
+        {
+          "title": "Klein bis groß",
+          "text": "Einzelne Steckdose oder komplette Elektrik bei Renovierung – beides wird ernst genommen."
+        }
+      ]
+    },
+    "reviews": {
+      "headline": "Was Kunden sagen",
+      "summary": "Kundenstimmen werden hier eingebunden, sobald sie aus dem Google-Profil übernommen sind.",
+      "highlights": [
+        "Elektriker in Puchheim",
+        "Familienbetrieb",
+        "Direkter Kontakt"
+      ],
+      "source": "Google",
+      "sourceUrl": "https://www.google.com/maps/search/?api=1&query=Hutter%20Roland%20u.%20Sandra%20Elektroanlagen%20Egenhoferstr.%2013%20Puchheim",
+      "rating": null,
+      "count": null
+    },
+    "process": {
+      "headline": "So läuft Ihr Elektro-Auftrag",
+      "steps": [
+        {
+          "title": "Anfrage",
+          "text": "Kurz anrufen oder das Formular nutzen – Fotos von Verteiler oder Raum helfen."
+        },
+        {
+          "title": "Termin vor Ort",
+          "text": "Bestehende Elektrik und Wünsche werden gemeinsam angeschaut."
+        },
+        {
+          "title": "Angebot",
+          "text": "Sie erhalten ein klares Angebot mit den nötigen Arbeiten."
+        },
+        {
+          "title": "Ausführung",
+          "text": "Verlegen, anschließen, prüfen – und die Anlage funktionsfähig übergeben."
+        }
+      ]
+    },
+    "gallery": {
+      "headline": "Elektrik, die man sehen kann",
+      "text": "Für die Live-Version zeigen wir hier echte Arbeiten des Betriebs.",
+      "items": [
+        {
+          "title": "Unterverteilung",
+          "photoNeeded": "neu bestückter und beschrifteter Sicherungskasten"
+        },
+        {
+          "title": "Steckdosen",
+          "photoNeeded": "neue Steckdosenleiste über einer Küchenarbeitsplatte"
+        },
+        {
+          "title": "Leitungen",
+          "photoNeeded": "frisch verlegte Leitungen im Rohbau vor dem Verputzen"
+        },
+        {
+          "title": "Beleuchtung",
+          "photoNeeded": "Flur oder Wohnraum mit neu installierten Leuchten"
+        },
+        {
+          "title": "Schalterprogramm",
+          "photoNeeded": "einheitliche neue Schalter und Dosen an einer Wand"
+        }
+      ]
+    },
+    "region": {
+      "headline": "Elektroinstallation für Puchheim und Umgebung",
+      "text": "Von der Egenhoferstraße in Puchheim schnell in Germering, Eichenau, Gröbenzell, Olching und Gilching.",
+      "places": [
+        "Puchheim",
+        "Germering",
+        "Eichenau",
+        "Gröbenzell",
+        "Olching",
+        "Gilching"
+      ]
+    },
+    "faq": [
+      {
+        "q": "Übernehmen Sie auch kleine Aufträge?",
+        "a": "Ja, auch einzelne Steckdosen oder Schalter – fragen Sie einfach an."
+      },
+      {
+        "q": "Kann ich vorab Fotos schicken?",
+        "a": "Ja, Fotos von Sicherungskasten oder Raum helfen für eine erste Einschätzung."
+      },
+      {
+        "q": "Machen Sie die Elektrik bei einer Renovierung?",
+        "a": "Ja, die Elektrik wird passend zum Umbau geplant und verlegt."
+      },
+      {
+        "q": "Wie schnell bekomme ich einen Termin?",
+        "a": "Das hängt von der Auslastung ab. Bei der Anfrage wird ein Termin abgestimmt."
+      },
+      {
+        "q": "Arbeiten Sie auch außerhalb von Puchheim?",
+        "a": "Ja, im Umkreis von Puchheim, etwa in Germering, Eichenau und Gröbenzell."
+      }
+    ],
+    "contact": {
+      "headline": "Elektro-Auftrag anfragen",
+      "text": "Beschreiben Sie kurz, was gemacht werden soll: welcher Raum, welche Arbeiten und ob neu oder Austausch. Fotos helfen.",
+      "topics": [
+        "Elektroinstallation",
+        "Steckdosen & Schalter",
+        "Beleuchtung",
+        "Elektrik bei Umbau",
+        "Reparatur",
+        "Sonstiges"
+      ],
+      "responseNote": "Rückmeldung per Telefon oder E-Mail."
+    },
+    "quote": {
+      "sizeLabel": "Was steht an?",
+      "sizes": [
+        "Einzelne Steckdose/Schalter",
+        "Ein Raum",
+        "Ganze Wohnung",
+        "Haus / Neuinstallation"
+      ],
+      "timings": [
+        "So bald wie möglich",
+        "In den nächsten Wochen",
+        "In 1–3 Monaten",
+        "Ich plane erst noch"
+      ]
+    },
+    "stickyCta": "Elektriker anfragen",
+    "look": {
+      "palette": 2,
+      "font": 6,
+      "hero": 0,
+      "services": 1,
+      "radius": 1,
+      "logo": 0,
+      "intro": 5
+    }
+  }
+}

@@ -1,0 +1,412 @@
+{
+  "id": "2026-10-21-90",
+  "slug": "elektroinstallation-bernd-klinder-groebenzell",
+  "date": "2026-10-21",
+  "company": {
+    "name": "Elektroinstallation Bernd Klinder",
+    "owner": "Bernd Klinder",
+    "trade": "Elektroinstallation",
+    "city": "Gröbenzell",
+    "address": "Industriestr. 39a, 82194 Gröbenzell",
+    "phone": "08142 60599",
+    "email": null,
+    "serviceArea": [
+      "Gröbenzell",
+      "Olching",
+      "Puchheim",
+      "Eichenau",
+      "Lochhausen",
+      "Germering"
+    ]
+  },
+  "listings": {
+    "google": {
+      "url": "https://www.google.com/maps/search/?api=1&query=Elektroinstallation%20Bernd%20Klinder%20Industriestr.%2039a%20Gr%C3%B6benzell",
+      "rating": null,
+      "reviews": null,
+      "evidence": "NICHT BELEGT – Suche über Spiegel (trustlocal, firmania, rgv-bayern, elektriker.org, kennstdueinen) ergab keinen Google-Eintrag und keine Bewertungsangabe; elektriker.org führt den Betrieb ohne Bewertungen. In Maps prüfen."
+    },
+    "myhammer": {
+      "url": "https://www.11880.com/branchenbuch/groebenzell/060691303B39436186/elektroinstallation-bernd-klinder.html",
+      "rating": null,
+      "reviews": null,
+      "evidence": "Kein MyHammer gefunden – 11880-Eintrag „Elektroinstallation Bernd Klinder“, Industriestr. 39a, (08142) 60599, mit Neuinstallationen, Sprechanlagen, Lichttechnik und Altbausanierung; außerdem goyellow, elektriker24.org, branchen-info.net, oeffnungszeitenbuch."
+    }
+  },
+  "websiteStatus": "keine eigene Website gefunden",
+  "websiteChecks": [
+    "(1) „Elektroinstallation Bernd Klinder Gröbenzell“ mit blocked_domains (11880, Gelbe Seiten, Das Örtliche, Telefonbuch, Cylex, meinestadt, Creditreform, Facebook, Instagram, golocal, MyHammer, Northdata, Firmenwissen, WKDB, Yelp, trustlocal, wlw) – nur Verzeichnisse (elektriker.org, elektriker24.org, goyellow, oeffnungszeitenbuch, branchen-info.net, starofservice); keine eigene Domain",
+    "(2) Domain-Check allowed_domains elektro-klinder.de, klinder-elektro.de, elektroklinder.de, bernd-klinder.de, klinder.de, elektroinstallation-klinder.de, klinder-elektroinstallation.de, elektro-klinder-groebenzell.de – keine Treffer",
+    "(3) Telefonsuche „08142 60599“/„0814260599“ mit blocked_domains – keine Treffer zum Betrieb (nur Fremdtreffer zur Kurzwahl 60599)",
+    "(4) Google-Spiegel-Suche (trustlocal, firmania, rgv-bayern, elektriker.org, kennstdueinen) – kein Google-Profil, kein Website-Feld",
+    "(5) Verzeichnisse: kein Website-Feld, keine E-Mail; abweichende Nummern 08142 9035 und 08142 52415 in einzelnen Verzeichnissen",
+    "Website-Risiko: mittel – alle Prüfungen negativ, aber weder Google-Eintrag noch Freemail belegt (RESERVE)"
+  ],
+  "facts": {
+    "services": [
+      "Neuinstallationen",
+      "Altbausanierung",
+      "Sprechanlagen",
+      "Lichttechnik",
+      "Alarmanlagen-Planung",
+      "Notdienst"
+    ],
+    "experience": null,
+    "praisedFor": []
+  },
+  "strategy": {
+    "audience": "Hauseigentümer und Vermieter in Gröbenzell, Olching, Puchheim und Eichenau, die einen Altbau neu verkabeln, eine Sprechanlage tauschen oder Licht und Alarmtechnik planen wollen",
+    "mainService": "Elektroinstallation für Neubau und Altbausanierung",
+    "trustSignal": "Inhabergeführter Elektrobetrieb im Gröbenzeller Gewerbegebiet, mit Notdienst für den Ort und die Umgebung",
+    "conversionGoal": "Unverbindlich Termin für Elektroarbeiten anfragen (Anruf oder Formular)",
+    "visualConcept": "Warmes Licht im sanierten Altbau, neue Sprechanlage am Hauseingang, ordentlich verlegte Leitungen – handwerklich und hell"
+  },
+  "sales": {
+    "score": 3,
+    "whyGoodLead": [
+      "Keine eigene Website gefunden – nur Verzeichniseinträge",
+      "Klares Leistungsprofil (Altbau, Sprechanlagen, Licht, Alarm) – gut auf einer Website darstellbar",
+      "Widersprüchliche Telefonnummern in Verzeichnissen – eine eigene Seite schafft eindeutige Kontaktdaten",
+      "Elektro ist ein bisher seltenes Gewerk in der Lead-Liste"
+    ],
+    "pitch": "Grüß Gott Herr Klinder, hier ist … – ich baue Websites für Handwerker im Landkreis Fürstenfeldbruck. Ich habe Ihren Elektrobetrieb in Gröbenzell in mehreren Verzeichnissen gefunden – teils mit unterschiedlichen Telefonnummern – aber keine eigene Website. Ich habe unverbindlich einen Entwurf vorbereitet, auf dem Kunden Ihre Leistungen von Altbausanierung bis Sprechanlage sehen und direkt anfragen können – darf ich Ihnen den Link schicken?"
+  },
+  "manualChecks": [
+    "RESERVE – weder Google-Eintrag noch Freemail-Adresse belegt: NUR versenden, wenn Google Maps einen Eintrag OHNE Website zeigt.",
+    "Telefonnummer klären: 08142 60599 (am häufigsten), daneben 08142 9035 und 08142 52415 in Verzeichnissen",
+    "Nur Festnetz, keine E-Mail bekannt – Erstkontakt telefonisch",
+    "Eine kritische Einzelbewertung auf branchen-info.net (Beschädigung von Dämmung/Dampfsperre bei Außensteckdose) – nicht verifiziert, nicht auf der Seite verwendet",
+    "Meistertitel nicht belegt – nicht auf der Seite verwendet",
+    "Logo und Projektfotos: nicht gefunden – beim Betrieb anfragen"
+  ],
+  "sources": [
+    {
+      "label": "11880 – Elektroinstallation Bernd Klinder, Gröbenzell",
+      "url": "https://www.11880.com/branchenbuch/groebenzell/060691303B39436186/elektroinstallation-bernd-klinder.html"
+    },
+    {
+      "label": "elektriker.org – Bernd Klinder Elektroinstallation",
+      "url": "https://www.elektriker.org/groebenzell/bernd-klinder-elektroinstallation-aULysY"
+    },
+    {
+      "label": "elektriker24.org – Elektroinstallation Bernd Klinder",
+      "url": "https://www.elektriker24.org/stadt/groebenzell/profil/elektroinstallation-bernd-klinder/"
+    },
+    {
+      "label": "goyellow – Elektroinstallation Bernd Klinder",
+      "url": "https://www.goyellow.de/home/elektriker-elektroinstallation-bernd-klinder-groebenzell--44h1ty.html"
+    },
+    {
+      "label": "branchen-info.net – Bernd Klinder, Industriestraße 39a",
+      "url": "https://groebenzell.branchen-info.net/fp_845847.php"
+    },
+    {
+      "label": "oeffnungszeitenbuch – Elektroinstallation Bernd Klinder",
+      "url": "https://www.oeffnungszeitenbuch.de/filiale/Groebenzell-Elektroinstallation%2520Bernd%2520Klinder-3979723F.html"
+    }
+  ],
+  "site": {
+    "theme": "volt",
+    "category": "handwerk",
+    "heroOffer": [
+      "Neuinstallation",
+      "Altbausanierung",
+      "Sprechanlagen",
+      "Lichttechnik",
+      "Alarmtechnik"
+    ],
+    "scene": "electric",
+    "logoIcon": "bolt",
+    "logoMark": "BK",
+    "brandName": "Elektro Klinder",
+    "seoTitle": "Elektriker in Gröbenzell – Elektroinstallation Bernd Klinder",
+    "seoDescription": "Elektroinstallation, Altbausanierung, Sprechanlagen und Lichttechnik in Gröbenzell und Umgebung. Jetzt unverbindlich anfragen.",
+    "nav": [
+      {
+        "label": "Leistungen",
+        "href": "#leistungen"
+      },
+      {
+        "label": "Projekte",
+        "href": "#projekte"
+      },
+      {
+        "label": "Bewertungen",
+        "href": "#bewertungen"
+      },
+      {
+        "label": "Ablauf",
+        "href": "#ablauf"
+      },
+      {
+        "label": "FAQ",
+        "href": "#faq"
+      },
+      {
+        "label": "Kontakt",
+        "href": "#kontakt"
+      }
+    ],
+    "hero": {
+      "eyebrow": "Elektroinstallation · Gröbenzell",
+      "headline": "Ihr Elektriker in Gröbenzell",
+      "sub": "Neue Leitungen, moderne Sprechanlagen und gutes Licht – im Neubau wie im Altbau.",
+      "ctaPrimary": "Unverbindlich anfragen",
+      "ctaSecondary": "Anrufen",
+      "bullets": [
+        "Altbau fachgerecht neu verkabelt",
+        "Sprech- und Alarmanlagen",
+        "Notdienst in Gröbenzell"
+      ],
+      "imageLabel": "sanierter Altbauflur mit neuer Beleuchtung und Sprechanlage"
+    },
+    "badges": [
+      {
+        "title": "Neuinstallation",
+        "sub": "Neubau & Umbau"
+      },
+      {
+        "title": "Altbau",
+        "sub": "Sanierung der Elektrik"
+      },
+      {
+        "title": "Sprechanlagen",
+        "sub": "Klingel & Türsprechen"
+      },
+      {
+        "title": "Gröbenzell",
+        "sub": "Industriestraße"
+      }
+    ],
+    "trust": [
+      {
+        "value": "Vor Ort",
+        "label": "Betrieb in Gröbenzell"
+      },
+      {
+        "value": "Mo–Fr",
+        "label": "8–18 Uhr erreichbar"
+      },
+      {
+        "value": "Notdienst",
+        "label": "Gröbenzell und Umgebung"
+      },
+      {
+        "value": "Neu & Alt",
+        "label": "Neubau und Altbausanierung"
+      }
+    ],
+    "servicesIntro": {
+      "headline": "Elektrotechnik für Neubau und Altbau",
+      "text": "Vom Rohbau bis zum Altbau mit alten Leitungen: Bernd Klinder installiert Strom, Licht, Sprechanlagen und plant Alarmtechnik passend zum Haus."
+    },
+    "services": [
+      {
+        "title": "Neuinstallation",
+        "text": "Elektroinstallation im Neubau oder bei größeren Umbauten – geplant, verlegt und angeschlossen.",
+        "items": [
+          "Leitungen",
+          "Verteiler",
+          "Schalter & Steckdosen"
+        ]
+      },
+      {
+        "title": "Altbausanierung",
+        "text": "Alte Leitungen und Verteiler raus, sichere Elektrik rein – abgestimmt auf den Bestand.",
+        "items": [
+          "Leitungen erneuern",
+          "Neuer Verteiler",
+          "Mehr Stromkreise"
+        ]
+      },
+      {
+        "title": "Sprechanlagen",
+        "text": "Klingel- und Türsprechanlagen für Ein- und Mehrfamilienhäuser montiert und angeschlossen.",
+        "items": [
+          "Türsprechanlage",
+          "Klingelanlage",
+          "Austausch"
+        ]
+      },
+      {
+        "title": "Lichttechnik",
+        "text": "Licht, das zum Raum passt – von der Konzeptplanung bis zur montierten Leuchte.",
+        "items": [
+          "Lichtplanung",
+          "Leuchtenmontage",
+          "Schaltungen"
+        ]
+      },
+      {
+        "title": "Alarmanlagen",
+        "text": "Planung von Alarmanlagen mit Komponenten wie Bewegungsmeldern – für mehr Sicherheit im Haus.",
+        "items": [
+          "Konzept",
+          "Bewegungsmelder",
+          "Installation"
+        ]
+      },
+      {
+        "title": "Notdienst",
+        "text": "Bei Stromausfall oder Defekt schnell erreichbar in Gröbenzell und Umgebung.",
+        "items": [
+          "Störungen",
+          "Defekte",
+          "Schnelle Hilfe"
+        ]
+      }
+    ],
+    "why": {
+      "headline": "Elektrik aus Gröbenzell – persönlich und nah.",
+      "points": [
+        {
+          "title": "Kurze Wege",
+          "text": "Von der Industriestraße schnell in Olching, Puchheim, Eichenau und Lochhausen."
+        },
+        {
+          "title": "Altbau-Erfahrung",
+          "text": "Altbausanierung gehört ausdrücklich zum Leistungsprofil des Betriebs."
+        },
+        {
+          "title": "Planung inklusive",
+          "text": "Licht- und Alarmkonzepte werden vorab geplant, nicht nur montiert."
+        },
+        {
+          "title": "Notdienst",
+          "text": "Bei Störungen gibt es einen Notdienst für Gröbenzell und Umgebung."
+        }
+      ]
+    },
+    "reviews": {
+      "headline": "Was Kunden sagen",
+      "summary": "Kundenstimmen werden hier eingebunden, sobald sie aus dem Google-Profil übernommen sind.",
+      "highlights": [
+        "Elektroinstallation in Gröbenzell",
+        "Altbausanierung",
+        "Sprechanlagen"
+      ],
+      "source": "Google",
+      "sourceUrl": "https://www.google.com/maps/search/?api=1&query=Elektroinstallation%20Bernd%20Klinder%20Industriestr.%2039a%20Gr%C3%B6benzell",
+      "rating": null,
+      "count": null
+    },
+    "process": {
+      "headline": "Von der Anfrage zur fertigen Installation",
+      "steps": [
+        {
+          "title": "Anfrage",
+          "text": "Anrufen oder Formular nutzen – kurz beschreiben, was gemacht werden soll."
+        },
+        {
+          "title": "Besichtigung",
+          "text": "Bestand, Leitungswege und Wünsche werden vor Ort angeschaut."
+        },
+        {
+          "title": "Angebot",
+          "text": "Sie erhalten ein nachvollziehbares Angebot für Material und Arbeit."
+        },
+        {
+          "title": "Ausführung",
+          "text": "Installation, Prüfung und Übergabe – mit Erklärung der neuen Technik."
+        }
+      ]
+    },
+    "gallery": {
+      "headline": "Elektroarbeiten in Gröbenzell",
+      "text": "Für die Live-Version zeigen wir hier echte Projekte des Betriebs.",
+      "items": [
+        {
+          "title": "Altbau neu verkabelt",
+          "photoNeeded": "offene Wandschlitze mit neuen Leitungen im Altbau"
+        },
+        {
+          "title": "Türsprechanlage",
+          "photoNeeded": "neue Sprechanlage am Hauseingang"
+        },
+        {
+          "title": "Neuer Verteiler",
+          "photoNeeded": "aufgeräumter, beschrifteter Sicherungskasten"
+        },
+        {
+          "title": "Lichtkonzept",
+          "photoNeeded": "Wohnraum mit neuer Decken- und Akzentbeleuchtung"
+        },
+        {
+          "title": "Bewegungsmelder",
+          "photoNeeded": "montierter Bewegungsmelder an Fassade oder Flur"
+        }
+      ]
+    },
+    "region": {
+      "headline": "Elektriker für Gröbenzell und Umgebung",
+      "text": "Von Gröbenzell aus schnell in Olching, Puchheim, Eichenau, Lochhausen und Germering.",
+      "places": [
+        "Gröbenzell",
+        "Olching",
+        "Puchheim",
+        "Eichenau",
+        "Lochhausen",
+        "Germering"
+      ]
+    },
+    "faq": [
+      {
+        "q": "Lohnt sich eine neue Elektrik im Altbau?",
+        "a": "Alte Leitungen und Verteiler sind oft nicht mehr auf heutige Geräte ausgelegt. Beim Vor-Ort-Termin wird der Bestand angeschaut und der sinnvolle Umfang besprochen."
+      },
+      {
+        "q": "Tauschen Sie auch alte Klingel- und Sprechanlagen?",
+        "a": "Ja, Sprechanlagen gehören zum Angebot – vom Austausch bis zur neuen Anlage."
+      },
+      {
+        "q": "Planen Sie auch Alarmanlagen?",
+        "a": "Ja, Alarmanlagen werden mit Ihnen geplant, inklusive Komponenten wie Bewegungsmeldern."
+      },
+      {
+        "q": "Gibt es einen Notdienst?",
+        "a": "Ja, für Gröbenzell und Umgebung gibt es einen Notdienst – am besten direkt anrufen."
+      },
+      {
+        "q": "Wann ist der Betrieb erreichbar?",
+        "a": "Montag bis Freitag von 8 bis 18 Uhr."
+      }
+    ],
+    "contact": {
+      "headline": "Ihre Anfrage – unverbindlich",
+      "text": "Beschreiben Sie kurz Ihr Vorhaben: Neuinstallation, Altbau, Sprechanlage, Licht oder Alarm. Fotos vom Bestand helfen.",
+      "topics": [
+        "Neuinstallation",
+        "Altbausanierung",
+        "Sprechanlage",
+        "Licht & Alarm",
+        "Sonstiges"
+      ],
+      "responseNote": "Erreichbar Mo–Fr 8–18 Uhr."
+    },
+    "quote": {
+      "sizeLabel": "Worum geht es?",
+      "sizes": [
+        "Reparatur/Störung",
+        "Sprechanlage",
+        "Licht oder Alarm",
+        "Altbau/Neubau komplett"
+      ],
+      "timings": [
+        "So bald wie möglich",
+        "In den nächsten Wochen",
+        "In 1–3 Monaten",
+        "Ich plane erst noch"
+      ]
+    },
+    "stickyCta": "Jetzt anfragen",
+    "look": {
+      "palette": 2,
+      "font": 6,
+      "hero": 0,
+      "services": 1,
+      "radius": 1,
+      "logo": 0,
+      "intro": 5
+    }
+  }
+}
