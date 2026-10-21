@@ -1,0 +1,401 @@
+{
+  "id": "2026-10-21-83",
+  "slug": "trockenbau-jimmy-mueller-mammendorf",
+  "date": "2026-10-21",
+  "company": {
+    "name": "Jimmy Müller Trockenbau – Müller macht Alles",
+    "owner": "Jimmy Müller",
+    "trade": "Trockenbau",
+    "city": "Mammendorf",
+    "address": "Kohlstattstr. 6, 82291 Mammendorf",
+    "phone": "0176 62536165",
+    "email": null,
+    "serviceArea": [
+      "Mammendorf",
+      "Fürstenfeldbruck",
+      "Maisach",
+      "Althegnenberg",
+      "Jesenwang",
+      "Adelshofen",
+      "Landsberied"
+    ]
+  },
+  "listings": {
+    "google": {
+      "url": "https://www.google.com/maps/search/?api=1&query=Jimmy%20M%C3%BCller%20Trockenbau%20Kohlstattstr.%206%20Mammendorf",
+      "rating": null,
+      "reviews": null,
+      "evidence": "NICHT BELEGT – weder direkter Google-Maps-Treffer noch Google-Spiegel (trustlocal, rgv-bayern, firmania) gefunden. In Maps prüfen."
+    },
+    "myhammer": {
+      "url": "https://www.11880.com/branchenbuch/mammendorf-oberbayern/292245417B112620040/jimmy-mueller-trockenbau-mueller-macht-alles.html",
+      "rating": null,
+      "reviews": null,
+      "evidence": "Kein MyHammer gefunden – 11880-Eintrag „Jimmy Müller Trockenbau Müller macht Alles“, Kohlstattstr. 6, Mammendorf, Tel. (0176) 62536165, Kategorie Trockenbau, keine Bewertungen, aktualisiert 29.04.2025. meinestadt/Creditreform: gleiche Adresse, Festnetz 08145 995870 (meinestadt zusätzlich 08145 9953475, Kategorie Hausmeisterservice)."
+    }
+  },
+  "websiteStatus": "keine eigene Website gefunden",
+  "websiteChecks": [
+    "(1) „Müller macht Alles“ Mammendorf mit blocked_domains (11880, Gelbe Seiten, Das Örtliche, Telefonbuch, Cylex, meinestadt, Creditreform, Facebook, Instagram, golocal, MyHammer, Northdata, Firmenwissen, WKDB, Yelp, trustlocal, wlw) – nur fremde Treffer (FW Mammendorf, VG-Firmenverzeichnis, andere Müller), keine eigene Domain",
+    "(2) Telefon-/Namenssuche „0176 62536165“/„017662536165“/„Jimmy Müller Trockenbau“ (ohne 11880) – nur Creditreform, meinestadt und Rufnummernliste (anrufer.info), keine Website",
+    "(3) Domain-Check allowed_domains muellermachtalles.de, mueller-macht-alles.de, jimmy-mueller.de, jimmymueller.de, trockenbau-jimmy-mueller.de, mueller-trockenbau-mammendorf.de, trockenbau-mueller-mammendorf.de – keine Treffer",
+    "(4) Impressum-Suche „Impressum Jimmy Müller Trockenbau Mammendorf Kohlstattstr“ – nur Impressen anderer Firmen (muellertrockenbau.de = Bad Endorf, trockenbaumueller.de = Attendorn), kein eigenes",
+    "(5) Google-Spiegel (trustlocal, rgv-bayern, firmania, firmenABC, branchen-info) – kein Eintrag gefunden",
+    "Website-Risiko: mittel – alle Prüfungen negativ, aber weder Google-Eintrag noch Freemail belegt (RESERVE)"
+  ],
+  "facts": {
+    "services": [
+      "Trockenbau",
+      "Hausmeisterservice (Verzeichniskategorie)"
+    ],
+    "experience": null,
+    "praisedFor": []
+  },
+  "strategy": {
+    "audience": "Hauseigentümer, Vermieter und Bauherren in Mammendorf und im westlichen Landkreis Fürstenfeldbruck, die Räume neu aufteilen, Decken abhängen oder Dachgeschosse ausbauen wollen",
+    "mainService": "Trockenbau – Wände, Decken, Dachausbau",
+    "trustSignal": "Inhaber Jimmy Müller direkt am Handy, Betrieb in Mammendorf",
+    "conversionGoal": "Angebot für Trockenbau per WhatsApp/Anruf mit Fotos anfragen",
+    "visualConcept": "Helle Rohbau-Ästhetik: Ständerwerk, Gipskartonplatten, frisch gespachtelte Fugen – zupackend und unkompliziert passend zu „Müller macht Alles“"
+  },
+  "sales": {
+    "score": 4,
+    "whyGoodLead": [
+      "Keine eigene Website gefunden – nur Verzeichniseinträge",
+      "Mobilnummer öffentlich gelistet – direkter WhatsApp-Erstkontakt möglich",
+      "Eingängiger Name „Müller macht Alles“ – gute Basis für eine Marke",
+      "Trockenbau im wachsenden Landkreis Fürstenfeldbruck gefragt"
+    ],
+    "pitch": "Hallo Herr Müller, hier ist … – ich baue Websites für Handwerker im Landkreis Fürstenfeldbruck. Ich habe Ihren Eintrag „Müller macht Alles“ in Mammendorf gefunden, aber keine eigene Website. Ich habe unverbindlich einen Entwurf vorbereitet, über den Kunden Ihre Trockenbauarbeiten sehen und direkt per WhatsApp anfragen können – darf ich Ihnen den Link schicken?"
+  },
+  "manualChecks": [
+    "RESERVE – weder Google-Eintrag noch Freemail-Adresse belegt: NUR versenden, wenn Google Maps einen Eintrag OHNE Website zeigt.",
+    "Mobilnummer 0176 62536165 nur über 11880 belegt; Creditreform/meinestadt nennen Festnetz 08145 995870 – beim Erstkontakt bestätigen",
+    "Leistungsumfang nur grob belegt (Trockenbau, Kategorie Hausmeisterservice) – Detailleistungen (Dachausbau, Dämmung, Spachteln) beim Inhaber bestätigen",
+    "Prüfen, ob der Betrieb aktiv ist (11880-Eintrag zuletzt 04/2025 aktualisiert)",
+    "Logo und Projektfotos: nicht gefunden – beim Betrieb anfragen"
+  ],
+  "sources": [
+    {
+      "label": "11880 – Jimmy Müller Trockenbau Müller macht Alles, Mammendorf",
+      "url": "https://www.11880.com/branchenbuch/mammendorf-oberbayern/292245417B112620040/jimmy-mueller-trockenbau-mueller-macht-alles.html"
+    },
+    {
+      "label": "11880 – Trockenbauer Mammendorf",
+      "url": "https://www.11880.com/suche/trockenbau/mammendorf"
+    },
+    {
+      "label": "Creditreform Firmeneintrag – Jimmy Müller Trockenbau",
+      "url": "https://firmeneintrag.creditreform.de/82291/8330549621/JIMMY_MUELLER_TROCKENBAU"
+    },
+    {
+      "label": "meinestadt – Jimmy Müller Trockenbau Mammendorf",
+      "url": "https://branchenbuch.meinestadt.de/mammendorf/company/15733359"
+    }
+  ],
+  "site": {
+    "theme": "stein",
+    "category": "handwerk",
+    "heroOffer": [
+      "Trennwände",
+      "Decken",
+      "Dachausbau",
+      "Dämmung",
+      "Spachteln"
+    ],
+    "scene": "drywall",
+    "logoIcon": "trowel",
+    "logoMark": "JM",
+    "brandName": "Müller macht Alles",
+    "seoTitle": "Trockenbau in Mammendorf – Jimmy Müller",
+    "seoDescription": "Trockenbau in Mammendorf und im Landkreis Fürstenfeldbruck: Wände, Decken, Dachausbau. Angebot direkt per WhatsApp anfragen.",
+    "nav": [
+      {
+        "label": "Leistungen",
+        "href": "#leistungen"
+      },
+      {
+        "label": "Projekte",
+        "href": "#projekte"
+      },
+      {
+        "label": "Bewertungen",
+        "href": "#bewertungen"
+      },
+      {
+        "label": "Ablauf",
+        "href": "#ablauf"
+      },
+      {
+        "label": "FAQ",
+        "href": "#faq"
+      },
+      {
+        "label": "Kontakt",
+        "href": "#kontakt"
+      }
+    ],
+    "hero": {
+      "eyebrow": "Trockenbau · Mammendorf",
+      "headline": "Trockenbau in Mammendorf",
+      "sub": "Jimmy Müller baut Wände, Decken und Dachräume – direkt vom Inhaber.",
+      "ctaPrimary": "Angebot anfragen",
+      "ctaSecondary": "Anrufen",
+      "bullets": [
+        "Trockenbau aus Mammendorf",
+        "Inhaber direkt am Handy",
+        "Fotos per WhatsApp schicken"
+      ],
+      "imageLabel": "Ständerwand mit Gipskartonplatten im Ausbau"
+    },
+    "badges": [
+      {
+        "title": "Trockenbau",
+        "sub": "Wände & Decken"
+      },
+      {
+        "title": "Ausbau",
+        "sub": "Dach und Keller"
+      },
+      {
+        "title": "Inhaber",
+        "sub": "Jimmy Müller"
+      },
+      {
+        "title": "Mammendorf",
+        "sub": "Kohlstattstraße"
+      }
+    ],
+    "trust": [
+      {
+        "value": "Vor Ort",
+        "label": "Betrieb in Mammendorf"
+      },
+      {
+        "value": "Direkt",
+        "label": "Inhaber am Telefon"
+      },
+      {
+        "value": "Innen",
+        "label": "Wände, Decken, Ausbau"
+      },
+      {
+        "value": "Mobil",
+        "label": "per WhatsApp erreichbar"
+      }
+    ],
+    "servicesIntro": {
+      "headline": "Trockenbau für Haus und Wohnung",
+      "text": "Ob neues Kinderzimmer, ausgebauter Dachboden oder abgehängte Decke: Trockenbau bringt neue Räume ohne nasse Baustelle."
+    },
+    "services": [
+      {
+        "title": "Trennwände",
+        "text": "Ständerwände für eine neue Raumaufteilung – gestellt, beplankt und bereit für Farbe.",
+        "items": [
+          "Ständerwerk",
+          "Raumteiler",
+          "Türöffnungen"
+        ]
+      },
+      {
+        "title": "Abgehängte Decken",
+        "text": "Glatte Decken, unter denen Leitungen verschwinden und Einbauleuchten Platz finden.",
+        "items": [
+          "Deckenabhängung",
+          "Leitungen verkleiden",
+          "Einbauleuchten"
+        ]
+      },
+      {
+        "title": "Dachausbau",
+        "text": "Aus dem Speicher wird Wohnraum: Dachschrägen werden gedämmt und sauber verkleidet.",
+        "items": [
+          "Dachschrägen",
+          "Kniestöcke",
+          "Gauben innen"
+        ]
+      },
+      {
+        "title": "Dämmung",
+        "text": "Wärme- und Schallschutz in Wänden und Decken für behaglichere, ruhigere Räume.",
+        "items": [
+          "Wärmedämmung",
+          "Schallschutz",
+          "Dampfbremse"
+        ]
+      },
+      {
+        "title": "Vorwandinstallation",
+        "text": "Vorsatzschalen in Bad und WC, hinter denen Rohre und Spülkästen verschwinden.",
+        "items": [
+          "Vorsatzschalen",
+          "Installationswände",
+          "Verkleidungen"
+        ]
+      },
+      {
+        "title": "Spachteln & Finish",
+        "text": "Fugen und Flächen werden glatt gespachtelt – je nach Wunsch bis zur streichfertigen Oberfläche.",
+        "items": [
+          "Fugen spachteln",
+          "Flächenspachtelung",
+          "Kantenschutz"
+        ]
+      }
+    ],
+    "why": {
+      "headline": "Ein Ansprechpartner in Mammendorf.",
+      "points": [
+        {
+          "title": "Inhaber direkt",
+          "text": "Sie sprechen mit Jimmy Müller selbst – vom ersten Anruf bis zur Übergabe."
+        },
+        {
+          "title": "Kurze Wege",
+          "text": "Von Mammendorf aus schnell in Maisach, Fürstenfeldbruck und den Nachbarorten."
+        },
+        {
+          "title": "Trocken gebaut",
+          "text": "Keine langen Trocknungszeiten – Räume sind schnell wieder nutzbar."
+        },
+        {
+          "title": "Unkompliziert",
+          "text": "Fotos per WhatsApp schicken, kurz abstimmen, loslegen."
+        }
+      ]
+    },
+    "reviews": {
+      "headline": "Was Kunden sagen",
+      "summary": "Kundenstimmen werden hier eingebunden, sobald sie aus dem Google-Profil übernommen sind.",
+      "highlights": [
+        "Trockenbau in Mammendorf",
+        "Inhaber direkt erreichbar",
+        "Wände, Decken, Ausbau"
+      ],
+      "source": "Google",
+      "sourceUrl": "https://www.google.com/maps/search/?api=1&query=Jimmy%20M%C3%BCller%20Trockenbau%20Kohlstattstr.%206%20Mammendorf",
+      "rating": null,
+      "count": null
+    },
+    "process": {
+      "headline": "So läuft Ihr Trockenbau-Projekt",
+      "steps": [
+        {
+          "title": "Anfrage",
+          "text": "Fotos und grobe Maße per WhatsApp senden oder anrufen."
+        },
+        {
+          "title": "Termin vor Ort",
+          "text": "Jimmy Müller schaut sich Raum und Details in Mammendorf und Umgebung an."
+        },
+        {
+          "title": "Angebot",
+          "text": "Sie erhalten ein klares Angebot für Material und Arbeit."
+        },
+        {
+          "title": "Ausbau",
+          "text": "Ständerwerk, Beplankung, Dämmung und Spachteln – besenrein übergeben."
+        }
+      ]
+    },
+    "gallery": {
+      "headline": "Räume aus Mammendorf und Umgebung",
+      "text": "In der Live-Version zeigen wir hier echte Projekte des Betriebs.",
+      "items": [
+        {
+          "title": "Neue Trennwand",
+          "photoNeeded": "Ständerwand im Rohbau und fertig gespachtelt"
+        },
+        {
+          "title": "Abgehängte Decke",
+          "photoNeeded": "glatte Decke mit Einbauleuchten"
+        },
+        {
+          "title": "Dachausbau",
+          "photoNeeded": "gedämmte, beplankte Dachschräge"
+        },
+        {
+          "title": "Vorwand im Bad",
+          "photoNeeded": "Vorsatzschale für WC vor dem Fliesen"
+        },
+        {
+          "title": "Spachtelarbeit",
+          "photoNeeded": "frisch gespachtelte Fugen an Gipskarton"
+        }
+      ]
+    },
+    "region": {
+      "headline": "Trockenbau für Mammendorf und den Landkreis Fürstenfeldbruck",
+      "text": "Von der Kohlstattstraße aus schnell in Fürstenfeldbruck, Maisach, Althegnenberg, Jesenwang, Adelshofen und Landsberied.",
+      "places": [
+        "Mammendorf",
+        "Fürstenfeldbruck",
+        "Maisach",
+        "Althegnenberg",
+        "Jesenwang",
+        "Adelshofen",
+        "Landsberied"
+      ]
+    },
+    "faq": [
+      {
+        "q": "Kann ich vorab Fotos schicken?",
+        "a": "Ja, Fotos und grobe Maße per WhatsApp an 0176 62536165 helfen für eine erste Einschätzung."
+      },
+      {
+        "q": "Wie lange dauert eine Trockenbauwand?",
+        "a": "Das hängt von Größe und Ausführung ab – den Zeitplan stimmen wir nach der Besichtigung ab."
+      },
+      {
+        "q": "Bauen Sie auch Dachgeschosse aus?",
+        "a": "Fragen Sie Ihr Vorhaben einfach an – Umfang und Details werden vor Ort besprochen."
+      },
+      {
+        "q": "Arbeiten Sie auch außerhalb von Mammendorf?",
+        "a": "Ja, im Umkreis von Mammendorf und im Landkreis Fürstenfeldbruck."
+      },
+      {
+        "q": "Was kostet die Besichtigung?",
+        "a": "Sprechen Sie das bei der Anfrage direkt an – Termine gibt es nach Absprache."
+      }
+    ],
+    "contact": {
+      "headline": "Ihr Trockenbau-Angebot",
+      "text": "Beschreiben Sie kurz Raum, Maße und ob Wand, Decke oder Dachausbau. Fotos helfen.",
+      "topics": [
+        "Trennwand",
+        "Decke abhängen",
+        "Dachausbau",
+        "Dämmung",
+        "Sonstiges"
+      ],
+      "responseNote": "Besichtigung nach Absprache."
+    },
+    "quote": {
+      "sizeLabel": "Was soll gebaut werden?",
+      "sizes": [
+        "Eine Wand",
+        "Eine Decke",
+        "Ein Raum",
+        "Dachgeschoss"
+      ],
+      "timings": [
+        "So bald wie möglich",
+        "In den nächsten Wochen",
+        "In 1–3 Monaten",
+        "Ich plane erst noch"
+      ]
+    },
+    "stickyCta": "Angebot anfragen",
+    "look": {
+      "palette": 2,
+      "font": 6,
+      "hero": 0,
+      "services": 1,
+      "radius": 1,
+      "logo": 0,
+      "intro": 5
+    }
+  }
+}
