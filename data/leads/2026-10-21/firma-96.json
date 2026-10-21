@@ -1,0 +1,264 @@
+{
+  "id": "2026-10-21-96",
+  "slug": "despa-dienstleistungen-maisach",
+  "date": "2026-10-21",
+  "company": {
+    "name": "Despa Dienstleistungen",
+    "owner": null,
+    "trade": "Garten- und Landschaftsbau",
+    "city": "Maisach-Malching",
+    "address": "Am Steinacker 4, 82216 Maisach-Malching",
+    "phone": "01590 1158598",
+    "email": null,
+    "serviceArea": [
+      "Maisach",
+      "Malching",
+      "Fürstenfeldbruck",
+      "Olching",
+      "Mammendorf",
+      "Egenhofen"
+    ]
+  },
+  "listings": {
+    "google": {
+      "url": "https://www.google.com/maps/search/?api=1&query=Despa%20Dienstleistungen%20Am%20Steinacker%204%20Maisach",
+      "rating": null,
+      "reviews": null,
+      "evidence": "Kein Google-Beleg gefunden – Spiegel-Suche (trustlocal, firmania, rgv-bayern, werkenntdenbesten, firmenABC) ohne Treffer. Betrieb nur über Verzeichnisse belegt: 11880 (Ortslisten Hattenhofen/Egenhofen/Pfaffenhofen a. d. Glonn: Am Steinacker 4, Maisach-Malching, Tel. (01590) 1158598; Status teils „geöffnet“, teils „geschlossen“), golocal (Am Steinacker 4, 82216 Maisach), Cylex (Am Steinacker 4 b), suchmaschinenauskunft.com (Garten- und Landschaftsbau)."
+    },
+    "myhammer": {
+      "url": "https://www.11880.com/suche/dienstleistung/hattenhofen-kreis-fuerstenfeldbruck",
+      "rating": null,
+      "reviews": null,
+      "evidence": "Kein MyHammer gefunden – nur Verzeichniseinträge (11880, golocal, Cylex, suchmaschinenauskunft.com) mit Mobilnummer."
+    }
+  },
+  "websiteStatus": "keine eigene Website gefunden",
+  "websiteChecks": [
+    "(1) „Despa Pflaster Rollrasen Maisach“ mit blocked_domains (11880, Gelbe Seiten, Das Örtliche, Telefonbuch, Cylex, meinestadt, Creditreform, Facebook, Instagram, golocal, MyHammer, Northdata, Firmenwissen, WKDB, Yelp, trustlocal, wlw) – nur suchmaschinenauskunft.com (GaLaBau-/Pflaster-Tags), keine eigene Domain",
+    "(2) Domain-Check allowed_domains despa-dienstleistungen.de, despa.de, despa-maisach.de, despa-gartenbau.de, despa-galabau.de, despa-service.de, despadienstleistungen.de, despa-pflaster.de – keine Treffer",
+    "(3) Telefonsuche „01590 1158598“/„015901158598“ – keine Treffer (keine Website, keine Spam-Meldung)",
+    "(4) „Despa Dienstleistungen“ ohne Filter – keine passende Website (nur fremde Firmen/Begriffe)",
+    "(5) Verzeichnis-Snippets (11880, golocal, Cylex): kein Website-Feld, keine E-Mail",
+    "Website-Risiko: mittel – alle Prüfungen negativ, aber weder Google-Eintrag noch Freemail belegt; 11880 zeigt widersprüchlichen Status (geöffnet/geschlossen)"
+  ],
+  "facts": {
+    "services": [
+      "Pflasterarbeiten",
+      "Rollrasen verlegen",
+      "Terrassenbau",
+      "Baumpflege",
+      "Umzugsservice"
+    ],
+    "experience": null,
+    "praisedFor": []
+  },
+  "strategy": {
+    "audience": "Hausbesitzer in Maisach, Fürstenfeldbruck und Olching, die Einfahrt, Terrasse oder Garten neu anlegen lassen wollen",
+    "mainService": "Pflaster, Terrassen und Rollrasen",
+    "trustSignal": "Kleiner Betrieb aus Malching, direkt per Handy erreichbar",
+    "conversionGoal": "Kostenloses Angebot für Pflaster/Terrasse/Rollrasen anfragen (Anruf/WhatsApp mit Fotos)",
+    "visualConcept": "Frisch verlegtes Pflaster, saftig grüner Rollrasen und neue Terrassen – erdig, sauber, vorher/nachher"
+  },
+  "sales": {
+    "score": 4,
+    "whyGoodLead": [
+      "Keine eigene Website gefunden – nur Verzeichniseinträge",
+      "Mobilnummer öffentlich gelistet – WhatsApp-Erstkontakt möglich",
+      "Pflaster und Terrassen sind stark bildgetriebene Leistungen – Vorher/Nachher-Galerie wirkt sofort",
+      "Pflaster ist ein bisher seltenes Gewerk in den Leads"
+    ],
+    "pitch": "Hallo, hier ist … – ich baue Websites für Handwerker im Landkreis Fürstenfeldbruck. Ich habe Ihren Eintrag „Despa Dienstleistungen“ in Malching gefunden, aber keine eigene Website. Ich habe unverbindlich einen Entwurf vorbereitet, auf dem Kunden Ihre Pflaster-, Terrassen- und Rollrasenarbeiten sehen und direkt per WhatsApp anfragen können – darf ich Ihnen den Link schicken?"
+  },
+  "manualChecks": [
+    "RESERVE – weder Google-Eintrag noch Freemail-Adresse belegt: NUR versenden, wenn Google Maps einen Eintrag OHNE Website zeigt.",
+    "Betrieb aktiv? 11880 zeigt in einer Liste „geschlossen“, in einer anderen „geöffnet“ – vor Versand prüfen",
+    "Nummer 01590 1158598 (Netz 01590 = Mobilfunk) vor Versand verifizieren",
+    "Inhabername unbekannt – Anrede neutral halten",
+    "Leistungen nur aus Verzeichniskategorien (Pflaster, Rollrasen, Terrassen, Baumpflege, Umzug/Spedition) – Schwerpunkt beim Betrieb bestätigen",
+    "Hausnummer: 4 bzw. 4 b (Cylex) – klären",
+    "Logo und Projektfotos: nicht gefunden – beim Betrieb anfragen"
+  ],
+  "sources": [
+    {
+      "label": "11880 – Dienstleistungen Hattenhofen (Liste mit Despa Dienstleistungen)",
+      "url": "https://www.11880.com/suche/dienstleistung/hattenhofen-kreis-fuerstenfeldbruck"
+    },
+    {
+      "label": "11880 – Baumpfleger Egenhofen (Liste mit Despa Dienstleistungen)",
+      "url": "https://www.11880.com/suche/baumpflege/egenhofen"
+    },
+    {
+      "label": "11880 – Baumpfleger Pfaffenhofen an der Glonn",
+      "url": "https://www.11880.com/suche/baumpflege/pfaffenhofen-an-der-glonn"
+    },
+    {
+      "label": "golocal – Speditionen Maisach (Despa Dienstleistungen, Am Steinacker 4)",
+      "url": "https://www.golocal.de/maisach/speditionen/"
+    },
+    {
+      "label": "suchmaschinenauskunft.com – Garten- und Landschaftsbau",
+      "url": "https://suchmaschinenauskunft.com/tags/garten-und-landschaftsbau"
+    }
+  ],
+  "site": {
+    "theme": "garten",
+    "category": "handwerk",
+    "heroOffer": [
+      "Pflaster",
+      "Terrassen",
+      "Rollrasen",
+      "Baumpflege"
+    ],
+    "scene": "garden",
+    "logoIcon": "leaf",
+    "logoMark": "DD",
+    "brandName": "Despa Dienstleistungen",
+    "seoTitle": "Pflaster, Terrassen & Rollrasen in Maisach – Despa Dienstleistungen",
+    "seoDescription": "Pflasterarbeiten, Terrassenbau, Rollrasen und Baumpflege in Maisach, Fürstenfeldbruck und Umgebung. Jetzt kostenloses Angebot anfragen.",
+    "nav": [
+      { "label": "Leistungen", "href": "#leistungen" },
+      { "label": "Projekte", "href": "#projekte" },
+      { "label": "Bewertungen", "href": "#bewertungen" },
+      { "label": "Ablauf", "href": "#ablauf" },
+      { "label": "FAQ", "href": "#faq" },
+      { "label": "Kontakt", "href": "#kontakt" }
+    ],
+    "hero": {
+      "eyebrow": "Pflaster & Garten · Maisach",
+      "headline": "Pflaster und Rollrasen in Maisach",
+      "sub": "Einfahrten, Terrassen und Rasenflächen – neu angelegt im Landkreis Fürstenfeldbruck.",
+      "ctaPrimary": "Kostenloses Angebot anfragen",
+      "ctaSecondary": "Anrufen",
+      "bullets": [
+        "Betrieb aus Malching",
+        "Pflaster, Terrasse, Rollrasen",
+        "Direkt per Handy erreichbar"
+      ],
+      "imageLabel": "frisch gepflasterte Einfahrt neben grünem Rollrasen"
+    },
+    "badges": [
+      { "title": "Pflaster", "sub": "Einfahrt & Wege" },
+      { "title": "Terrassen", "sub": "neu angelegt" },
+      { "title": "Rollrasen", "sub": "sofort grün" },
+      { "title": "Malching", "sub": "Am Steinacker" }
+    ],
+    "trust": [
+      { "value": "Vor Ort", "label": "Betrieb in Malching" },
+      { "value": "5", "label": "Leistungsbereiche" },
+      { "value": "Außen", "label": "Pflaster, Terrasse, Rasen" },
+      { "value": "Mobil", "label": "schnell erreichbar" }
+    ],
+    "servicesIntro": {
+      "headline": "Vom Pflasterweg bis zum fertigen Rasen",
+      "text": "Wer Einfahrt, Terrasse und Garten neu gestaltet, bekommt hier die Arbeiten aus einer Hand – vom Unterbau bis zur letzten Rasenbahn."
+    },
+    "services": [
+      {
+        "title": "Pflasterarbeiten",
+        "text": "Einfahrten, Wege und Stellplätze werden auf tragfähigem Unterbau sauber gepflastert.",
+        "items": ["Einfahrten", "Gartenwege", "Stellplätze"]
+      },
+      {
+        "title": "Terrassenbau",
+        "text": "Neue Terrassen mit ebener Fläche und sauberem Gefälle – der Platz für Sommerabende im Garten.",
+        "items": ["Terrassenflächen", "Unterbau", "Randeinfassung"]
+      },
+      {
+        "title": "Rollrasen verlegen",
+        "text": "Bodenvorbereitung und Verlegung von Rollrasen – in wenigen Tagen eine grüne, nutzbare Fläche.",
+        "items": ["Bodenvorbereitung", "Verlegung", "Anwalzen"]
+      },
+      {
+        "title": "Baumpflege",
+        "text": "Rückschnitt und Pflege von Bäumen, damit sie gesund bleiben und Haus und Garten nicht beeinträchtigen.",
+        "items": ["Rückschnitt", "Kronenpflege", "Grünschnitt"]
+      },
+      {
+        "title": "Gartenpflege",
+        "text": "Damit die neu angelegten Flächen auch nach der Fertigstellung gepflegt aussehen.",
+        "items": ["Rasenpflege", "Heckenschnitt", "Laub"]
+      },
+      {
+        "title": "Umzugshilfe",
+        "text": "Unterstützung beim Umzug – Tragen, Transportieren, Aufräumen.",
+        "items": ["Transport", "Tragehilfe", "Abtransport"]
+      }
+    ],
+    "why": {
+      "headline": "Außenanlagen aus Malching – direkt und unkompliziert.",
+      "points": [
+        { "title": "Kurze Wege", "text": "Von Malching schnell in Maisach, Fürstenfeldbruck, Olching und Mammendorf." },
+        { "title": "Alles draußen", "text": "Pflaster, Terrasse, Rasen und Bäume aus einer Hand." },
+        { "title": "Direkter Kontakt", "text": "Ein Anruf oder eine WhatsApp-Nachricht genügt." },
+        { "title": "Sichtbares Ergebnis", "text": "Vorher/nachher – neue Flächen, die sofort nutzbar sind." }
+      ]
+    },
+    "reviews": {
+      "headline": "Was Kunden sagen",
+      "summary": "Kundenstimmen werden hier eingebunden, sobald sie aus dem Google-Profil übernommen sind.",
+      "highlights": [
+        "Pflaster in Maisach",
+        "Terrassen und Rollrasen",
+        "Direkter Kontakt"
+      ],
+      "source": "Google",
+      "sourceUrl": "https://www.google.com/maps/search/?api=1&query=Despa%20Dienstleistungen%20Am%20Steinacker%204%20Maisach",
+      "rating": null,
+      "count": null
+    },
+    "process": {
+      "headline": "In vier Schritten zur neuen Außenanlage",
+      "steps": [
+        { "title": "Anfrage", "text": "Fotos und grobe Maße der Fläche per WhatsApp schicken – oder kurz anrufen." },
+        { "title": "Besichtigung", "text": "Untergrund, Material und Gefälle werden vor Ort besprochen." },
+        { "title": "Angebot", "text": "Sie erhalten ein klares Angebot für Ihre Fläche." },
+        { "title": "Ausführung", "text": "Aushub, Unterbau, Pflaster oder Rasen – sauber übergeben." }
+      ]
+    },
+    "gallery": {
+      "headline": "Flächen, die neu entstehen",
+      "text": "Für die Live-Version zeigen wir hier echte Projekte des Betriebs.",
+      "items": [
+        { "title": "Gepflasterte Einfahrt", "photoNeeded": "neu gepflasterte Hofeinfahrt eines Einfamilienhauses" },
+        { "title": "Neue Terrasse", "photoNeeded": "fertige Terrassenfläche am Haus" },
+        { "title": "Rollrasen", "photoNeeded": "frisch verlegter Rollrasen im Garten" },
+        { "title": "Gartenweg", "photoNeeded": "gepflasterter Weg durch den Garten" },
+        { "title": "Baumschnitt", "photoNeeded": "Baum nach dem Rückschnitt" }
+      ]
+    },
+    "region": {
+      "headline": "Für Maisach und den Landkreis Fürstenfeldbruck",
+      "text": "Von Malching aus im Einsatz in Maisach, Fürstenfeldbruck, Olching, Mammendorf und Egenhofen.",
+      "places": ["Maisach", "Malching", "Fürstenfeldbruck", "Olching", "Mammendorf", "Egenhofen"]
+    },
+    "faq": [
+      { "q": "Wie lange dauert eine Pflasterfläche?", "a": "Das hängt von Größe und Unterbau ab. Ein Zeitplan wird nach der Besichtigung abgestimmt." },
+      { "q": "Kann ich vorab Fotos schicken?", "a": "Ja, Fotos und grobe Maße per WhatsApp helfen für eine erste Einschätzung." },
+      { "q": "Wann kann Rollrasen verlegt werden?", "a": "Grundsätzlich während der frostfreien Monate – der passende Termin wird mit Ihnen abgestimmt." },
+      { "q": "Übernehmen Sie auch Baumpflege?", "a": "Ja, Baumpflege gehört zum Angebot – fragen Sie einfach an." },
+      { "q": "Arbeiten Sie auch außerhalb von Maisach?", "a": "Ja, im Landkreis Fürstenfeldbruck und Umgebung." }
+    ],
+    "contact": {
+      "headline": "Ihr Angebot – kostenlos und unverbindlich",
+      "text": "Beschreiben Sie kurz Ihr Vorhaben: welche Fläche, ungefähre Größe und ob Pflaster, Terrasse oder Rasen. Fotos helfen.",
+      "topics": ["Pflasterarbeiten", "Terrasse", "Rollrasen", "Baumpflege", "Sonstiges"],
+      "responseNote": "Besichtigung nach Absprache."
+    },
+    "quote": {
+      "sizeLabel": "Wie groß ist die Fläche?",
+      "sizes": ["Bis 20 m²", "20–50 m²", "50–100 m²", "Über 100 m²"],
+      "timings": ["So bald wie möglich", "Im Frühjahr", "In 1–3 Monaten", "Ich plane erst noch"]
+    },
+    "stickyCta": "Angebot anfragen",
+    "look": {
+      "palette": 2,
+      "font": 6,
+      "hero": 0,
+      "services": 1,
+      "radius": 1,
+      "logo": 0,
+      "intro": 5
+    }
+  }
+}
