@@ -1,0 +1,396 @@
+{
+  "id": "2026-10-22-106",
+  "slug": "zimmerei-stierstorfer-groebenzell",
+  "date": "2026-10-22",
+  "company": {
+    "name": "Zimmerei Franz X. Stierstorfer",
+    "owner": "Franz X. Stierstorfer",
+    "trade": "Zimmerei",
+    "city": "Gröbenzell",
+    "address": "Erlbachweg 11, 82194 Gröbenzell",
+    "phone": "08142 540393",
+    "email": null,
+    "serviceArea": [
+      "Gröbenzell",
+      "Olching",
+      "Puchheim",
+      "Eichenau",
+      "Germering",
+      "Fürstenfeldbruck"
+    ]
+  },
+  "listings": {
+    "google": {
+      "url": "https://www.google.com/maps/search/?api=1&query=Franz%20X.%20Stierstorfer%20Zimmerer%20Erlbachweg%2011%20Gröbenzell",
+      "rating": null,
+      "reviews": null,
+      "evidence": "NICHT BELEGT – kein Google-Spiegel (rgv-bayern, firmania) und kein Maps-Treffer gefunden. Nur Verzeichniseinträge (Das Örtliche „Stierstorfer Franz X. Zimmerer“, Erlbachweg, Gröbenzell; Cylex mit Tel. 08142/540393, Kategorien Zimmerei/Dacheindeckung). Google-Eintrag muss in Maps geprüft werden. Nachsuche 22.10. in trustlocal, firmania, rgv-bayern, cybo, mapquest, infoisinfo, 11880, Gelbe Seiten sowie E-Mail-Suche ohne Treffer."
+    },
+    "myhammer": {
+      "url": "https://www.dasoertliche.de/Themen/Stierstorfer-Franz-X-Zimmerer-Gr%C3%B6benzell-Erlbachweg",
+      "rating": null,
+      "reviews": null,
+      "evidence": "Kein MyHammer gefunden – Eintrag als Zimmerer in Das Örtliche und Cylex (Erlbachweg 11, Gröbenzell)."
+    }
+  },
+  "websiteStatus": "keine eigene Website gefunden",
+  "websiteChecks": [
+    "(1) „Zimmerei Stierstorfer Gröbenzell“ mit blocked_domains (11880, Gelbe Seiten, Das Örtliche, Telefonbuch, Cylex, meinestadt, Creditreform, Facebook, Instagram, golocal, MyHammer, Northdata, Firmenwissen, WKDB, Yelp, trustlocal, wlw) – nur andere Zimmereien (Bauernfeind, Scherer, Boris Hoffmann, Zimmerei Stier in Trossingen), keine Seite von Stierstorfer",
+    "(2) Domain-Check allowed_domains stierstorfer.de, zimmerei-stierstorfer.de, stierstorfer-zimmerei.de, stierstorfer-holzbau.de, holzbau-stierstorfer.de, zimmerei-stierstorfer-groebenzell.de (+ rgv-bayern, firmania) – nur stierstorfer.de = Autohaus Stierstorfer GmbH in Barbing (fremde Firma), sonst keine Treffer",
+    "(3) Telefonsuche „08142 540393“ – keine Treffer außer Cylex",
+    "(4) „Stierstorfer Zimmerer Gröbenzell Erlbachweg“ ohne Das Örtliche – nur Cylex/Telefonbuch/Straßenverzeichnisse, kein Impressum, keine Homepage-Angabe",
+    "Keine E-Mail-Adresse gefunden (auch keine Freemail); keine Bewertungen gefunden",
+    "Website-Risiko: niedrig – aber Google-Eintrag und aktuelle Geschäftstätigkeit unbelegt (RESERVE)"
+  ],
+  "facts": {
+    "services": [
+      "Zimmererarbeiten",
+      "Dacheindeckung"
+    ],
+    "experience": null,
+    "praisedFor": []
+  },
+  "strategy": {
+    "audience": "Hausbesitzer in Gröbenzell, Olching, Puchheim und Eichenau mit Dachstuhl-, Carport- oder Holzbauvorhaben",
+    "mainService": "Zimmererarbeiten – Dachstuhl, Holzbau und Dach",
+    "trustSignal": "Inhabergeführter Zimmerer mit Sitz in Gröbenzell",
+    "conversionGoal": "Anruf oder Anfrage mit Fotos für eine Besichtigung",
+    "visualConcept": "Warmes Holz, sichtbares Gebälk, klare Linien – handwerklich und bodenständig"
+  },
+  "sales": {
+    "score": 3,
+    "whyGoodLead": [
+      "Keine eigene Website gefunden – nur Telefonbuch- und Cylex-Einträge",
+      "Zimmerer sind bisher selten unter den Leads",
+      "Wer im Landkreis Fürstenfeldbruck nach einem Zimmerer sucht, findet ihn online praktisch nicht",
+      "Inhabergeführter Kleinbetrieb – Entscheidung direkt beim Chef"
+    ],
+    "pitch": "Grüß Gott Herr Stierstorfer, hier ist … – ich baue Websites für Handwerker im Landkreis Fürstenfeldbruck. Ihren Zimmereibetrieb in Gröbenzell findet man online nur im Telefonbuch. Ich habe unverbindlich einen Entwurf vorbereitet, auf dem Bauherren Ihre Zimmererarbeiten sehen und direkt anfragen können – darf ich Ihnen den Link schicken?"
+  },
+  "manualChecks": [
+    "RESERVE – weder Google-Eintrag noch Freemail-Adresse belegt: NUR versenden, wenn Google Maps einen Eintrag OHNE Website zeigt.",
+    "Prüfen, ob der Betrieb noch aktiv ist – nur ältere Verzeichniseinträge, keine Bewertungen, keine aktuelle Aktivität belegt",
+    "Erlbachweg 11 ist vermutlich zugleich Wohnadresse – vor Veröffentlichung klären, ob die Adresse auf die Website soll",
+    "Nur Festnetz bekannt (08142 540393, aus Cylex) – keine Mobilnummer, kein WhatsApp; Nummer vorher prüfen",
+    "Leistungsumfang nur grob belegt (Zimmerer; Cylex-Stichworte Zimmerei/Dacheindeckung) – Details wie Dachstühle, Carports, Holzterrassen beim Inhaber bestätigen",
+    "Logo und Projektfotos: nicht gefunden – beim Betrieb anfragen"
+  ],
+  "sources": [
+    {
+      "label": "Das Örtliche – Stierstorfer Franz X. Zimmerer, Gröbenzell, Erlbachweg",
+      "url": "https://www.dasoertliche.de/Themen/Stierstorfer-Franz-X-Zimmerer-Gr%C3%B6benzell-Erlbachweg"
+    },
+    {
+      "label": "Cylex – Zimmerei Gröbenzell (Franz X. Stierstorfer, 08142/540393)",
+      "url": "https://web2.cylex.de/suche/zimmerei/Groebenzell"
+    },
+    {
+      "label": "Das Telefonbuch – Franz Stierstorfer",
+      "url": "https://www.dastelefonbuch.de/Suche/Franz%20Stierstorfer"
+    }
+  ],
+  "site": {
+    "theme": "werk",
+    "category": "handwerk",
+    "heroOffer": [
+      "Dachstuhl",
+      "Holzbau",
+      "Dacheindeckung",
+      "Carports",
+      "Reparaturen"
+    ],
+    "scene": "facade",
+    "logoIcon": "roof",
+    "logoMark": "FS",
+    "brandName": "Zimmerei Stierstorfer",
+    "seoTitle": "Zimmerei in Gröbenzell – Franz X. Stierstorfer",
+    "seoDescription": "Zimmererarbeiten, Dachstühle und Dacheindeckung in Gröbenzell, Olching und Puchheim. Jetzt unverbindlich anfragen.",
+    "nav": [
+      {
+        "label": "Leistungen",
+        "href": "#leistungen"
+      },
+      {
+        "label": "Projekte",
+        "href": "#projekte"
+      },
+      {
+        "label": "Bewertungen",
+        "href": "#bewertungen"
+      },
+      {
+        "label": "Ablauf",
+        "href": "#ablauf"
+      },
+      {
+        "label": "FAQ",
+        "href": "#faq"
+      },
+      {
+        "label": "Kontakt",
+        "href": "#kontakt"
+      }
+    ],
+    "hero": {
+      "eyebrow": "Zimmerei · Gröbenzell",
+      "headline": "Ihr Zimmerer in Gröbenzell",
+      "sub": "Dachstuhl, Holzbau und Dach – vom Zimmerer aus dem Ort.",
+      "ctaPrimary": "Besichtigung anfragen",
+      "ctaSecondary": "Anrufen",
+      "bullets": [
+        "Zimmerer aus Gröbenzell",
+        "Dachstuhl und Dacheindeckung",
+        "Direkt beim Inhaber"
+      ],
+      "imageLabel": "neuer Dachstuhl aus Holz vor blauem Himmel"
+    },
+    "badges": [
+      {
+        "title": "Zimmerei",
+        "sub": "Holzbau vom Fach"
+      },
+      {
+        "title": "Dachstuhl",
+        "sub": "Neubau & Sanierung"
+      },
+      {
+        "title": "Dach",
+        "sub": "Eindeckung"
+      },
+      {
+        "title": "Gröbenzell",
+        "sub": "Erlbachweg"
+      }
+    ],
+    "trust": [
+      {
+        "value": "Vor Ort",
+        "label": "Betrieb in Gröbenzell"
+      },
+      {
+        "value": "Inhaber",
+        "label": "persönlich am Telefon"
+      },
+      {
+        "value": "Holz",
+        "label": "tragend und sichtbar"
+      },
+      {
+        "value": "Landkreis",
+        "label": "Fürstenfeldbruck"
+      }
+    ],
+    "servicesIntro": {
+      "headline": "Holzbau und Dach aus einer Hand",
+      "text": "Vom neuen Dachstuhl bis zur Reparatur am Gebälk: Der Zimmerer aus Gröbenzell plant und baut mit Holz."
+    },
+    "services": [
+      {
+        "title": "Dachstühle",
+        "text": "Neue Dachstühle für Neubau und Aufstockung – passgenau abgebunden und aufgerichtet.",
+        "items": [
+          "Neubau",
+          "Aufstockung",
+          "Abbund"
+        ]
+      },
+      {
+        "title": "Dachsanierung",
+        "text": "Morsche Sparren und Balken werden ersetzt oder verstärkt, damit das Dach wieder sicher trägt.",
+        "items": [
+          "Sparren erneuern",
+          "Balken verstärken",
+          "Gebälk prüfen"
+        ]
+      },
+      {
+        "title": "Dacheindeckung",
+        "text": "Das Dach wird neu eingedeckt – mit Lattung, Unterspannbahn und Ziegeln.",
+        "items": [
+          "Lattung",
+          "Unterspannbahn",
+          "Ziegel"
+        ]
+      },
+      {
+        "title": "Carports",
+        "text": "Carports und Unterstände aus Holz, gebaut für Grundstück und Fahrzeug.",
+        "items": [
+          "Carport",
+          "Fahrradunterstand",
+          "Holzlager"
+        ]
+      },
+      {
+        "title": "Vordächer & Terrassendächer",
+        "text": "Überdachungen für Hauseingang und Terrasse – stabil und wetterfest.",
+        "items": [
+          "Vordach",
+          "Terrassendach",
+          "Pergola"
+        ]
+      },
+      {
+        "title": "Reparaturen",
+        "text": "Kleinere Holzarbeiten am Haus, vom Gebälk bis zur Dachgaube.",
+        "items": [
+          "Gauben",
+          "Ortgang",
+          "Holzschäden"
+        ]
+      }
+    ],
+    "why": {
+      "headline": "Zimmerei aus Gröbenzell – kurze Wege, klare Absprachen.",
+      "points": [
+        {
+          "title": "Aus dem Ort",
+          "text": "Sitz in Gröbenzell – schnell in Olching, Puchheim und Eichenau."
+        },
+        {
+          "title": "Inhaber direkt",
+          "text": "Sie sprechen mit dem Zimmerer selbst, nicht mit einer Zentrale."
+        },
+        {
+          "title": "Holz und Dach",
+          "text": "Tragwerk und Eindeckung in einer Hand – weniger Schnittstellen."
+        },
+        {
+          "title": "Ehrliche Einschätzung",
+          "text": "Erst Besichtigung, dann ein klares Angebot."
+        }
+      ]
+    },
+    "reviews": {
+      "headline": "Was Kunden sagen",
+      "summary": "Kundenstimmen werden hier eingebunden, sobald sie aus dem Google-Profil übernommen sind.",
+      "highlights": [
+        "Zimmerei in Gröbenzell",
+        "Dachstuhl und Dach",
+        "Direkter Kontakt"
+      ],
+      "source": "Google",
+      "sourceUrl": "https://www.google.com/maps/search/?api=1&query=Franz%20X.%20Stierstorfer%20Zimmerer%20Erlbachweg%2011%20Gröbenzell",
+      "rating": null,
+      "count": null
+    },
+    "process": {
+      "headline": "In vier Schritten zum neuen Dach",
+      "steps": [
+        {
+          "title": "Anruf",
+          "text": "Kurz schildern, worum es geht – Dachstuhl, Carport oder Reparatur."
+        },
+        {
+          "title": "Besichtigung",
+          "text": "Gebälk, Maße und Zustand werden vor Ort angeschaut."
+        },
+        {
+          "title": "Angebot",
+          "text": "Sie erhalten ein klares Angebot mit Material und Ablauf."
+        },
+        {
+          "title": "Ausführung",
+          "text": "Abbund, Aufrichten, Eindecken – sauber übergeben."
+        }
+      ]
+    },
+    "gallery": {
+      "headline": "Holzbau aus Gröbenzell",
+      "text": "Für die Live-Version zeigen wir hier echte Projekte des Betriebs.",
+      "items": [
+        {
+          "title": "Neuer Dachstuhl",
+          "photoNeeded": "frisch aufgerichteter Dachstuhl"
+        },
+        {
+          "title": "Dachsanierung",
+          "photoNeeded": "erneuerte Sparren am Altbau"
+        },
+        {
+          "title": "Carport",
+          "photoNeeded": "Holz-Carport vor Einfamilienhaus"
+        },
+        {
+          "title": "Terrassendach",
+          "photoNeeded": "Holzüberdachung über einer Terrasse"
+        },
+        {
+          "title": "Eindeckung",
+          "photoNeeded": "Dach mit Lattung und neuen Ziegeln"
+        }
+      ]
+    },
+    "region": {
+      "headline": "Zimmerer für Gröbenzell und den Landkreis Fürstenfeldbruck",
+      "text": "Von Gröbenzell aus schnell in Olching, Puchheim, Eichenau, Germering und Fürstenfeldbruck.",
+      "places": [
+        "Gröbenzell",
+        "Olching",
+        "Puchheim",
+        "Eichenau",
+        "Germering",
+        "Fürstenfeldbruck"
+      ]
+    },
+    "faq": [
+      {
+        "q": "Bauen Sie auch Carports?",
+        "a": "Carports und Überdachungen aus Holz gehören zu den typischen Zimmererarbeiten – fragen Sie einfach an."
+      },
+      {
+        "q": "Kann ein alter Dachstuhl saniert werden?",
+        "a": "Oft ja. Ob Sparren ersetzt oder verstärkt werden, zeigt die Besichtigung."
+      },
+      {
+        "q": "Wie läuft ein Angebot ab?",
+        "a": "Nach dem Anruf folgt ein Termin vor Ort, danach erhalten Sie ein schriftliches Angebot."
+      },
+      {
+        "q": "Übernehmen Sie auch die Dacheindeckung?",
+        "a": "Ja, Dacheindeckung ist im Leistungsumfang genannt."
+      },
+      {
+        "q": "Arbeiten Sie auch außerhalb von Gröbenzell?",
+        "a": "Ja, im Umkreis von Gröbenzell im Landkreis Fürstenfeldbruck."
+      }
+    ],
+    "contact": {
+      "headline": "Ihr Vorhaben – unverbindlich anfragen",
+      "text": "Beschreiben Sie kurz, was gebaut oder repariert werden soll. Fotos vom Dach oder Grundstück helfen.",
+      "topics": [
+        "Dachstuhl",
+        "Dachsanierung",
+        "Dacheindeckung",
+        "Carport",
+        "Sonstiges"
+      ],
+      "responseNote": "Besichtigung nach Absprache."
+    },
+    "quote": {
+      "sizeLabel": "Was ist geplant?",
+      "sizes": [
+        "Reparatur",
+        "Carport / Vordach",
+        "Dachsanierung",
+        "Neuer Dachstuhl"
+      ],
+      "timings": [
+        "So bald wie möglich",
+        "In den nächsten Wochen",
+        "In 1–3 Monaten",
+        "Ich plane erst noch"
+      ]
+    },
+    "stickyCta": "Zimmerer anfragen",
+    "look": {
+      "palette": 2,
+      "font": 6,
+      "hero": 0,
+      "services": 1,
+      "radius": 1,
+      "logo": 0,
+      "intro": 5
+    }
+  }
+}
