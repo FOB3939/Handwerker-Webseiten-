@@ -1,0 +1,287 @@
+{
+  "id": "2026-10-22-97",
+  "slug": "neuberger-pflasterarbeiten-woerth",
+  "date": "2026-10-22",
+  "company": {
+    "name": "Fa. Neuberger Pflasterarbeiten",
+    "owner": "Udo Michael Neuberger",
+    "trade": "Pflasterarbeiten & Zaunbau",
+    "city": "Wörth (Kreis Erding)",
+    "address": "Ötzstr. 1, 85457 Wörth",
+    "phone": "0176 96378891",
+    "email": "neuberger.michael@web.de",
+    "serviceArea": [
+      "Wörth",
+      "Hörlkofen",
+      "Erding",
+      "Walpertskirchen",
+      "Forstern",
+      "Pastetten",
+      "Markt Schwaben"
+    ]
+  },
+  "listings": {
+    "google": {
+      "url": "https://www.google.com/maps/search/?api=1&query=Neuberger%20%C3%96tzstr.%201%2085457%20W%C3%B6rth",
+      "rating": null,
+      "reviews": null,
+      "evidence": "NICHT BELEGT – kein Google-Spiegel (rgv-bayern, trustlocal, firmania, goyellow) mit Bewertungen gefunden. Kriterium (A) über öffentlich gelistete Freemail-Adresse neuberger.michael@web.de (11880-Eintrag „Fa. Neuberger Pflasterarbeiten“) erfüllt. Google-Eintrag in Maps prüfen."
+    },
+    "myhammer": {
+      "url": "https://www.11880.com/suche/pflasterarbeiten/eitting",
+      "rating": null,
+      "reviews": null,
+      "evidence": "Kein MyHammer-Profil gefunden – Einträge bei 11880 (Pflasterarbeiten, Bodenleger, Verbundpflaster verlegen; Mobil 0176 96378891, web.de-Adresse), goyellow/bundes-telefonbuch („Firma Neuberger“, Ötzstr. 1, Wörth) und Kleinanzeigen-Inserat „Zäune, Terrassen, Pflaster, Gartenarbeiten“ (Wörth Kr. Erding, Einzelunternehmer Udo Michael Neuberger)."
+    }
+  },
+  "websiteStatus": "keine eigene Website gefunden",
+  "websiteChecks": [
+    "(1) „Neuberger Pflasterarbeiten Wörth Erding“ mit blocked_domains (11880, Gelbe Seiten, Das Örtliche, Telefonbuch, Cylex, meinestadt, Creditreform, Facebook, Instagram, golocal, MyHammer, Northdata, Firmenwissen, WKDB, Yelp, trustlocal, wlw) – nur goyellow, bundes-telefonbuch und ein Kleinanzeigen-Inserat; keine eigene Domain, keine Baukasten-Seite",
+    "(2) Domain-Check allowed_domains neuberger-pflaster.de, neuberger-pflasterarbeiten.de, pflaster-neuberger.de, neuberger-woerth.de, firma-neuberger.de, neuberger-galabau.de, neuberger-zaunbau.de, neuberger-bodenbelaege.de – keine Treffer",
+    "(3) Telefonsuche „0176 96378891“/„017696378891“ mit blocked_domains – nur Rufnummern-Blocklisten (anruferauskunft.de), keine Website",
+    "(4) Impressum-Suche „Udo Michael Neuberger Wörth Impressum Pflaster“ – kein eigenes Impressum; nur gleichnamige, fremde Neuberger-Firmen (Öhringen, Eichenbühl u. a.)",
+    "(5) E-Mail ist Freemail (web.de) – keine Firmendomain",
+    "Website-Risiko: mittel – alle Prüfungen negativ, Freemail belegt, aber kein Google-Eintrag nachgewiesen"
+  ],
+  "facts": {
+    "services": [
+      "Pflasterarbeiten",
+      "Verbundpflaster verlegen",
+      "Terrassenbau",
+      "Garageneinfahrten und Wege",
+      "Zaun- und Sichtschutzmontage",
+      "Gartenarbeiten",
+      "Bodenlegerarbeiten"
+    ],
+    "experience": null,
+    "praisedFor": []
+  },
+  "strategy": {
+    "audience": "Hausbesitzer und Bauherren in Wörth, Erding, Forstern und Pastetten, die Einfahrt, Terrasse oder Gartenwege pflastern oder einen neuen Zaun setzen lassen wollen",
+    "mainService": "Pflasterarbeiten – Einfahrten, Terrassen und Wege",
+    "trustSignal": "Inhabergeführter Einzelbetrieb aus Wörth, direkt per Handy erreichbar",
+    "conversionGoal": "Kostenloses Angebot anfragen (per WhatsApp mit Fotos der Fläche oder Anruf)",
+    "visualConcept": "Erdig und solide: frisch verlegtes Verbundpflaster, saubere Fugen, Randsteine und Holzzaun im Abendlicht"
+  },
+  "sales": {
+    "score": 4,
+    "whyGoodLead": [
+      "Keine eigene Website gefunden – nur Verzeichniseinträge und ein Kleinanzeigen-Inserat",
+      "Mobilnummer und web.de-Adresse öffentlich – ideal für WhatsApp-Erstkontakt",
+      "Inserat auf Kleinanzeigen zeigt aktive Kundensuche",
+      "Pflaster, Terrassen und Zäune sind im Landkreis Erding mit vielen Neubauten gefragt"
+    ],
+    "pitch": "Hallo Herr Neuberger, hier ist … – ich baue Websites für Handwerker im Landkreis Erding. Ich habe Ihr Angebot für Pflaster, Terrassen und Zäune aus Wörth gesehen, aber keine eigene Website gefunden. Ich habe unverbindlich einen Entwurf vorbereitet, über den Kunden Fotos ihrer Einfahrt schicken und direkt anfragen können – darf ich Ihnen den Link schicken?"
+  },
+  "manualChecks": [
+    "Website-Risiko: mittel – vor Versand in Google Maps prüfen, dass keine Website hinterlegt ist (Grund: Google-Eintrag nicht nachgewiesen, nur Freemail belegt)",
+    "Google-Eintrag in Maps suchen (Name „Neuberger“, Ötzstr. 1, Wörth) – Existenz und Bewertungen prüfen",
+    "Firmenname uneinheitlich („Fa. Neuberger Pflasterarbeiten“, „Firma Neuberger“, Fußbodenlegerei) – beim Erstkontakt bevorzugten Namen erfragen",
+    "Inhabername aus Kleinanzeigen-Impressum (Udo Michael Neuberger); E-Mail lautet auf „neuberger.michael“ – Anrede bestätigen",
+    "Leistungsschwerpunkt klären: Pflaster/Zaun/Garten vs. Bodenleger – Website auf Außenanlagen ausgerichtet",
+    "Logo und Projektfotos: nicht gefunden – beim Betrieb anfragen"
+  ],
+  "sources": [
+    {
+      "label": "11880 – Pflasterarbeiten Oberding/Eitting (Liste mit Fa. Neuberger Pflasterarbeiten)",
+      "url": "https://www.11880.com/suche/pflasterarbeiten/eitting"
+    },
+    {
+      "label": "goyellow – Firma Neuberger, Wörth (Kreis Erding)",
+      "url": "https://www.goyellow.de/home/fussbodenlegerei-firma-neuberger-woerth-kreis-erding--4n2vzr.html"
+    },
+    {
+      "label": "bundes-telefonbuch – Firma Neuberger, 85457 Wörth",
+      "url": "https://www.bundes-telefonbuch.de/woerth/firma-neuberger-kt1605542211401"
+    },
+    {
+      "label": "Kleinanzeigen – Zäune, Terrassen, Pflaster, Gartenarbeiten (Wörth Kr. Erding)",
+      "url": "https://www.kleinanzeigen.de/s-anzeige/zaeune-terrassen-pflaster-gartenarbeiten/3061900425-239-6575"
+    }
+  ],
+  "site": {
+    "theme": "garten",
+    "category": "handwerk",
+    "heroOffer": [
+      "Pflaster",
+      "Einfahrten",
+      "Terrassen",
+      "Gartenwege",
+      "Zäune"
+    ],
+    "scene": "garden",
+    "logoIcon": "trowel",
+    "logoMark": "N",
+    "brandName": "Neuberger Pflasterarbeiten",
+    "seoTitle": "Pflasterarbeiten in Wörth & Erding – Neuberger",
+    "seoDescription": "Pflaster, Einfahrten, Terrassen und Zäune in Wörth, Erding und Umgebung. Jetzt kostenloses Angebot anfragen – auch per WhatsApp.",
+    "nav": [
+      { "label": "Leistungen", "href": "#leistungen" },
+      { "label": "Projekte", "href": "#projekte" },
+      { "label": "Bewertungen", "href": "#bewertungen" },
+      { "label": "Ablauf", "href": "#ablauf" },
+      { "label": "FAQ", "href": "#faq" },
+      { "label": "Kontakt", "href": "#kontakt" }
+    ],
+    "hero": {
+      "eyebrow": "Pflaster & Zaunbau · Wörth",
+      "headline": "Pflasterarbeiten aus Wörth bei Erding",
+      "sub": "Einfahrten, Terrassen, Wege und Zäune – verlegt und gesetzt im Landkreis Erding.",
+      "ctaPrimary": "Kostenloses Angebot anfragen",
+      "ctaSecondary": "Anrufen",
+      "bullets": [
+        "Verbundpflaster für Einfahrt und Hof",
+        "Terrassen und Gartenwege",
+        "Zaun und Sichtschutz"
+      ],
+      "imageLabel": "frisch gepflasterte Hofeinfahrt mit sauberen Randsteinen"
+    },
+    "badges": [
+      { "title": "Pflaster", "sub": "Einfahrt & Hof" },
+      { "title": "Terrassen", "sub": "Platz im Garten" },
+      { "title": "Zäune", "sub": "inkl. Sichtschutz" },
+      { "title": "Wörth", "sub": "Landkreis Erding" }
+    ],
+    "trust": [
+      { "value": "Vor Ort", "label": "Betrieb in Wörth" },
+      { "value": "Inhaber", "label": "persönlich am Bau" },
+      { "value": "Außen", "label": "Pflaster, Terrasse, Zaun" },
+      { "value": "Mobil", "label": "direkt erreichbar" }
+    ],
+    "servicesIntro": {
+      "headline": "Alles für Hof, Einfahrt und Garten",
+      "text": "Vom Unterbau bis zur letzten Fuge: Pflasterflächen, Terrassen und Zäune aus einer Hand – für Grundstücke rund um Wörth und Erding."
+    },
+    "services": [
+      {
+        "title": "Pflasterarbeiten",
+        "text": "Verbundpflaster und Pflasterflächen auf tragfähigem Unterbau – eben verlegt und sauber eingefasst.",
+        "items": ["Verbundpflaster", "Unterbau", "Randsteine"]
+      },
+      {
+        "title": "Garageneinfahrten",
+        "text": "Befahrbare Einfahrten und Stellplätze, die dem Auto und dem Winter standhalten.",
+        "items": ["Einfahrten", "Stellplätze", "Hofflächen"]
+      },
+      {
+        "title": "Terrassenbau",
+        "text": "Neue Terrassenflächen als Verlängerung des Wohnraums nach draußen.",
+        "items": ["Terrassenflächen", "Anschluss ans Haus", "Gefälle"]
+      },
+      {
+        "title": "Gartenwege",
+        "text": "Wege zum Hauseingang, zur Garage oder durch den Garten – trittsicher und ordentlich.",
+        "items": ["Hauszugang", "Gartenwege", "Einfassungen"]
+      },
+      {
+        "title": "Zaun & Sichtschutz",
+        "text": "Zäune und Sichtschutzelemente fachgerecht gesetzt – für Grenze, Garten und Terrasse.",
+        "items": ["Zaunmontage", "Sichtschutz", "Pfosten setzen"]
+      },
+      {
+        "title": "Gartenarbeiten",
+        "text": "Begleitende Arbeiten rund um Pflaster und Zaun sowie Pflege im Garten.",
+        "items": ["Gartenpflege", "Vorbereitung", "Aufräumen"]
+      }
+    ],
+    "why": {
+      "headline": "Pflaster und Zaun aus Wörth – direkt vom Inhaber.",
+      "points": [
+        { "title": "Kurze Wege", "text": "Von Wörth aus schnell in Erding, Forstern, Pastetten und Walpertskirchen." },
+        { "title": "Ein Ansprechpartner", "text": "Sie sprechen direkt mit dem Inhaber – ohne Umwege über ein Büro." },
+        { "title": "Außen komplett", "text": "Pflaster, Terrasse und Zaun in einem Auftrag statt drei Firmen." },
+        { "title": "Fotos genügen", "text": "Ein paar Bilder der Fläche per WhatsApp reichen für eine erste Einschätzung." }
+      ]
+    },
+    "reviews": {
+      "headline": "Was Kunden sagen",
+      "summary": "Kundenstimmen werden hier eingebunden, sobald sie aus dem Google-Profil übernommen sind.",
+      "highlights": [
+        "Pflasterarbeiten in Wörth",
+        "Einfahrten und Terrassen",
+        "Direkter Kontakt"
+      ],
+      "source": "Google",
+      "sourceUrl": "https://www.google.com/maps/search/?api=1&query=Neuberger%20%C3%96tzstr.%201%2085457%20W%C3%B6rth",
+      "rating": null,
+      "count": null
+    },
+    "process": {
+      "headline": "In vier Schritten zur neuen Fläche",
+      "steps": [
+        { "title": "Anfrage", "text": "Fotos und ungefähre Maße der Fläche per WhatsApp schicken – oder kurz anrufen." },
+        { "title": "Besichtigung", "text": "Untergrund, Gefälle und Material werden vor Ort abgestimmt." },
+        { "title": "Angebot", "text": "Sie erhalten ein klares Angebot für Pflaster, Terrasse oder Zaun." },
+        { "title": "Ausführung", "text": "Aushub, Unterbau, Verlegen und Verfugen – die Fläche wird sauber übergeben." }
+      ]
+    },
+    "gallery": {
+      "headline": "Flächen, die halten",
+      "text": "Für die Live-Version zeigen wir hier echte Projekte des Betriebs.",
+      "items": [
+        { "title": "Hofeinfahrt", "photoNeeded": "gepflasterte Garageneinfahrt mit Randsteinen" },
+        { "title": "Neue Terrasse", "photoNeeded": "fertige Pflasterterrasse am Haus" },
+        { "title": "Gartenweg", "photoNeeded": "geschwungener Pflasterweg durch den Garten" },
+        { "title": "Zaun", "photoNeeded": "neu gesetzter Zaun an der Grundstücksgrenze" },
+        { "title": "Sichtschutz", "photoNeeded": "Sichtschutzwand an der Terrasse" }
+      ]
+    },
+    "region": {
+      "headline": "Pflasterarbeiten für Wörth und den Landkreis Erding",
+      "text": "Von Wörth aus schnell in Hörlkofen, Erding, Walpertskirchen, Forstern, Pastetten und Markt Schwaben.",
+      "places": [
+        "Wörth",
+        "Hörlkofen",
+        "Erding",
+        "Walpertskirchen",
+        "Forstern",
+        "Pastetten",
+        "Markt Schwaben"
+      ]
+    },
+    "faq": [
+      { "q": "Kann ich vorab Fotos schicken?", "a": "Ja, Fotos und grobe Maße per WhatsApp helfen für eine erste Einschätzung." },
+      { "q": "Pflastern Sie auch Garageneinfahrten?", "a": "Ja, Einfahrten, Stellplätze und Hofflächen gehören zum Angebot." },
+      { "q": "Setzen Sie auch Zäune?", "a": "Ja, Zäune und Sichtschutz werden ebenfalls montiert – gern zusammen mit der Pflasterfläche." },
+      { "q": "Wie lange dauert eine neue Terrasse?", "a": "Das hängt von Größe und Untergrund ab. Ein Zeitplan wird nach der Besichtigung abgestimmt." },
+      { "q": "Arbeiten Sie auch außerhalb von Wörth?", "a": "Ja, im Landkreis Erding und Umgebung – fragen Sie einfach an." }
+    ],
+    "contact": {
+      "headline": "Ihr Angebot – kostenlos und unverbindlich",
+      "text": "Beschreiben Sie kurz Ihr Vorhaben: Einfahrt, Terrasse, Weg oder Zaun, ungefähre Fläche und gewünschter Zeitraum. Fotos helfen.",
+      "topics": [
+        "Pflasterarbeiten",
+        "Garageneinfahrt",
+        "Terrasse",
+        "Zaun & Sichtschutz",
+        "Sonstiges"
+      ],
+      "responseNote": "Besichtigung nach Absprache."
+    },
+    "quote": {
+      "sizeLabel": "Welche Fläche soll entstehen?",
+      "sizes": [
+        "Gartenweg",
+        "Terrasse",
+        "Einfahrt / Stellplatz",
+        "Hoffläche / Zaun"
+      ],
+      "timings": [
+        "So bald wie möglich",
+        "In den nächsten Wochen",
+        "Im Frühjahr",
+        "Ich plane erst noch"
+      ]
+    },
+    "stickyCta": "Angebot anfragen",
+    "look": {
+      "palette": 2,
+      "font": 6,
+      "hero": 0,
+      "services": 1,
+      "radius": 1,
+      "logo": 0,
+      "intro": 5
+    }
+  }
+}

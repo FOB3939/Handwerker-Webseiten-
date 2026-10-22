@@ -1,0 +1,399 @@
+{
+  "id": "2026-10-22-100",
+  "slug": "pllana-handwerk-und-dienstleistung-poing",
+  "date": "2026-10-22",
+  "company": {
+    "name": "Pllana Handwerk und Dienstleistung",
+    "owner": "Isuf Pllana",
+    "trade": "Hausmeisterservice & Montage",
+    "city": "Poing",
+    "address": "Petunienweg 2, 85586 Poing",
+    "phone": "0176 45618543",
+    "email": null,
+    "serviceArea": [
+      "Poing",
+      "Grub",
+      "Angelbrechting",
+      "Pliening",
+      "Markt Schwaben",
+      "Anzing",
+      "Kirchheim"
+    ]
+  },
+  "listings": {
+    "google": {
+      "url": "https://www.google.com/maps/search/?api=1&query=Pllana%20Handwerk%20und%20Dienstleistung%20Poing",
+      "rating": null,
+      "reviews": null,
+      "evidence": "NICHT BELEGT – kein Google-Spiegel (trustlocal, rgv-bayern, firmania, hausmeisterdienste.net) mit Pllana in Poing gefunden. In Maps prüfen."
+    },
+    "myhammer": {
+      "url": "https://www.11880.com/suche/hausmeisterservice/poing",
+      "rating": null,
+      "reviews": null,
+      "evidence": "Kein MyHammer gefunden – Eintrag „Pllana Handwerk und Dienstleistung“, Hausmeisterservice, Petunienweg 2, 85586 Poing, (0176) 45618543 in der 11880-Ortsliste; zusätzlich Kleinanzeigen-Inserat (März 2024) „Plana Handwerk und Dienstleistung“ mit Impressum Isuf Pllana, Mitterfeldring 44, Poing."
+    }
+  },
+  "websiteStatus": "keine eigene Website gefunden",
+  "websiteChecks": [
+    "(1) „Pllana Handwerk und Dienstleistung Poing“ mit blocked_domains (11880, Gelbe Seiten, Das Örtliche, Telefonbuch, Cylex, meinestadt, Creditreform, Facebook, Instagram, golocal, MyHammer, Northdata, Firmenwissen, WKDB, Yelp, trustlocal, wlw) – nur Kleinanzeigen-Inserat (Hausmeister, Handwerker, Allrounder, Poing) und gleichnamige fremde Firmen (Pllana GmbH Aluminium Sachsenheim, SP Dienstleistungen Sindelfingen, GaLaBau Bad Urach, gelöschte PLLANA Bau GmbH AT); keine eigene Domain des Poinger Betriebs",
+    "(2) Domain-Check allowed_domains pllana.de, pllana-poing.de, plana-handwerk.de, pllana-handwerk.de, pllana-dienstleistung.de, hausmeister-pllana.de, pllana-service.de, plana-dienstleistung.de – nur pllana.de = Pllana GmbH (Aluminiumhandel, Sachsenheim, GF Fatmir Pllana), kein Bezug zu Poing",
+    "(3) Telefonsuche „0176 45618543“/„017645618543“ – keine Treffer",
+    "(4) Spiegel-/Verzeichnissuche (hausmeisterdienste.net, muenchen.de, rgv-bayern, firmania) – kein Eintrag, kein Website-Feld; Impressum nur im Kleinanzeigen-Inserat",
+    "Website-Risiko: mittel – alle Prüfungen negativ, aber weder Google-Eintrag noch Freemail belegt (RESERVE)"
+  ],
+  "facts": {
+    "services": [
+      "Hausmeisterservice",
+      "Möbelmontage",
+      "Küchenmontage",
+      "Fenster- und Türenmontage",
+      "Garten- und Grundstückspflege",
+      "Reparaturarbeiten",
+      "Renovierungen"
+    ],
+    "experience": null,
+    "praisedFor": []
+  },
+  "strategy": {
+    "audience": "Hausbesitzer, Mieter, Vermieter und Hausverwaltungen in Poing und Umgebung, die einen zuverlässigen Allrounder für Montage, Reparaturen und Grundstückspflege suchen",
+    "mainService": "Hausmeister- und Handwerkerservice – Montage, Reparatur, Grundstückspflege",
+    "trustSignal": "Allrounder aus Poing, direkt per Handy erreichbar",
+    "conversionGoal": "Auftrag per WhatsApp/Anruf anfragen (mit Fotos)",
+    "visualConcept": "Aufgeräumte Werkzeugtasche, frisch montierte Küche, gepflegtes Grundstück in einer Poinger Wohnsiedlung – praktisch, zupackend, verlässlich"
+  },
+  "sales": {
+    "score": 4,
+    "whyGoodLead": [
+      "Keine eigene Website gefunden – nur 11880-Eintrag und Kleinanzeigen-Inserat",
+      "Mobilnummer öffentlich gelistet – ideal für WhatsApp-Erstkontakt",
+      "Wirbt bereits aktiv über Kleinanzeigen – sucht Aufträge",
+      "Viele Leistungen (Montage, Garten, Reparatur) lassen sich mit einer Website klar bündeln"
+    ],
+    "pitch": "Hallo Herr Pllana, hier ist … – ich baue Websites für Handwerksbetriebe rund um Poing. Ich habe Ihren Eintrag „Pllana Handwerk und Dienstleistung“ gefunden, aber keine eigene Website. Ich habe unverbindlich einen Entwurf vorbereitet, auf dem Kunden Ihre Montage-, Reparatur- und Gartenarbeiten sehen und direkt per WhatsApp anfragen können – darf ich Ihnen den Link schicken?"
+  },
+  "manualChecks": [
+    "RESERVE – weder Google-Eintrag noch Freemail-Adresse belegt: NUR versenden, wenn Google Maps einen Eintrag OHNE Website zeigt.",
+    "Zwei Adressen: 11880 Petunienweg 2 vs. Kleinanzeigen-Impressum Mitterfeldring 44 (beide Poing) – aktuelle Adresse klären",
+    "Schreibweise „Pllana“ (11880) vs. „Plana“ (Kleinanzeigen) – Firmenname beim Erstkontakt bestätigen",
+    "Google-Eintrag in Maps suchen – Existenz, Bewertungen, Website-Feld",
+    "Leistungen aus Kleinanzeigen-Inserat (März 2024) – auf Aktualität prüfen",
+    "Logo und Fotos: nicht übernommen – beim Betrieb anfragen"
+  ],
+  "sources": [
+    {
+      "label": "11880 – Hausmeisterservices Poing (Liste mit Pllana Handwerk und Dienstleistung)",
+      "url": "https://www.11880.com/suche/hausmeisterservice/poing"
+    },
+    {
+      "label": "Kleinanzeigen – Hausmeister, Handwerker, Allrounder in Poing (Impressum Isuf Pllana)",
+      "url": "https://www.kleinanzeigen.de/s-anzeige/hausmeister-handwerker-allrounder/2713484937-239-5579"
+    }
+  ],
+  "site": {
+    "theme": "werk",
+    "category": "handwerk",
+    "heroOffer": [
+      "Möbelmontage",
+      "Küchenmontage",
+      "Reparaturen",
+      "Gartenpflege",
+      "Fenster & Türen"
+    ],
+    "scene": "kitchen",
+    "logoIcon": "house",
+    "logoMark": "PH",
+    "brandName": "Pllana Handwerk",
+    "seoTitle": "Hausmeister & Montage in Poing – Pllana Handwerk und Dienstleistung",
+    "seoDescription": "Möbel- und Küchenmontage, Reparaturen, Fenster- und Türenmontage sowie Grundstückspflege in Poing. Jetzt per WhatsApp anfragen.",
+    "nav": [
+      {
+        "label": "Leistungen",
+        "href": "#leistungen"
+      },
+      {
+        "label": "Projekte",
+        "href": "#projekte"
+      },
+      {
+        "label": "Bewertungen",
+        "href": "#bewertungen"
+      },
+      {
+        "label": "Ablauf",
+        "href": "#ablauf"
+      },
+      {
+        "label": "FAQ",
+        "href": "#faq"
+      },
+      {
+        "label": "Kontakt",
+        "href": "#kontakt"
+      }
+    ],
+    "hero": {
+      "eyebrow": "Hausmeister & Montage · Poing",
+      "headline": "Ihr Allrounder in Poing",
+      "sub": "Montage, Reparaturen und Grundstückspflege – zuverlässig erledigt im Landkreis Ebersberg.",
+      "ctaPrimary": "Jetzt anfragen",
+      "ctaSecondary": "Anrufen",
+      "bullets": [
+        "Handwerker aus Poing",
+        "Montage, Reparatur, Garten",
+        "Direkt per Handy erreichbar"
+      ],
+      "imageLabel": "frisch montierte Einbauküche mit Werkzeug im Vordergrund"
+    },
+    "badges": [
+      {
+        "title": "Montage",
+        "sub": "Möbel & Küchen"
+      },
+      {
+        "title": "Fenster & Türen",
+        "sub": "Einbau & Einstellung"
+      },
+      {
+        "title": "Reparaturen",
+        "sub": "rund ums Haus"
+      },
+      {
+        "title": "Grundstück",
+        "sub": "Garten & Pflege"
+      }
+    ],
+    "trust": [
+      {
+        "value": "Vor Ort",
+        "label": "Betrieb in Poing"
+      },
+      {
+        "value": "6",
+        "label": "Leistungsbereiche"
+      },
+      {
+        "value": "Allround",
+        "label": "Haus, Wohnung, Garten"
+      },
+      {
+        "value": "Mobil",
+        "label": "schnell erreichbar"
+      }
+    ],
+    "servicesIntro": {
+      "headline": "Ein Handwerker für viele Aufgaben",
+      "text": "Statt für jede Kleinigkeit einen eigenen Betrieb zu suchen: Pllana montiert, repariert und pflegt – in Wohnung, Haus und Garten."
+    },
+    "services": [
+      {
+        "title": "Möbelmontage",
+        "text": "Schränke, Regale und Betten werden aufgebaut, ausgerichtet und sicher befestigt.",
+        "items": [
+          "Schrankaufbau",
+          "Wandmontage",
+          "Umzugsmöbel"
+        ]
+      },
+      {
+        "title": "Küchenmontage",
+        "text": "Die neue Küche wird montiert und ausgerichtet – Schränke, Arbeitsplatten und Fronten.",
+        "items": [
+          "Unterschränke",
+          "Hängeschränke",
+          "Arbeitsplatten"
+        ]
+      },
+      {
+        "title": "Fenster & Türen",
+        "text": "Fenster und Türen werden montiert und eingestellt, damit sie sauber schließen.",
+        "items": [
+          "Türmontage",
+          "Fenstermontage",
+          "Einstellen"
+        ]
+      },
+      {
+        "title": "Reparaturen",
+        "text": "Kleine und mittlere Reparaturen rund ums Haus, schnell erledigt.",
+        "items": [
+          "Kleinreparaturen",
+          "Ausbessern",
+          "Instandhaltung"
+        ]
+      },
+      {
+        "title": "Garten- & Grundstückspflege",
+        "text": "Rasen, Hecken und Wege bleiben gepflegt – einmalig oder regelmäßig.",
+        "items": [
+          "Rasenpflege",
+          "Heckenschnitt",
+          "Wege sauber halten"
+        ]
+      },
+      {
+        "title": "Renovierung",
+        "text": "Kleinere Renovierungsarbeiten, damit Räume wieder frisch aussehen.",
+        "items": [
+          "Auffrischen",
+          "Ausbessern",
+          "Vor Einzug"
+        ]
+      }
+    ],
+    "why": {
+      "headline": "Ein Anruf – und die Arbeit ist erledigt.",
+      "points": [
+        {
+          "title": "Vielseitig",
+          "text": "Montage, Reparatur und Garten aus einer Hand – ohne mehrere Firmen zu koordinieren."
+        },
+        {
+          "title": "Aus Poing",
+          "text": "Kurze Wege nach Grub, Pliening, Markt Schwaben und Anzing."
+        },
+        {
+          "title": "Direkter Kontakt",
+          "text": "Persönlich per Handy oder WhatsApp erreichbar – ohne Warteschleife."
+        },
+        {
+          "title": "Auch Kleinaufträge",
+          "text": "Ein einzelner Schrank oder eine klemmende Tür ist kein Problem."
+        }
+      ]
+    },
+    "reviews": {
+      "headline": "Was Kunden sagen",
+      "summary": "Kundenstimmen werden hier eingebunden, sobald sie aus dem Google-Profil übernommen sind.",
+      "highlights": [
+        "Montage in Poing",
+        "Reparaturen rund ums Haus",
+        "Direkter Kontakt"
+      ],
+      "source": "Google",
+      "sourceUrl": "https://www.google.com/maps/search/?api=1&query=Pllana%20Handwerk%20und%20Dienstleistung%20Poing",
+      "rating": null,
+      "count": null
+    },
+    "process": {
+      "headline": "So einfach geht's",
+      "steps": [
+        {
+          "title": "Nachricht",
+          "text": "Kurz beschreiben, was zu tun ist – Fotos per WhatsApp helfen."
+        },
+        {
+          "title": "Einschätzung",
+          "text": "Aufwand und Material werden besprochen, bei Bedarf vor Ort."
+        },
+        {
+          "title": "Termin",
+          "text": "Ein fester Termin wird vereinbart."
+        },
+        {
+          "title": "Erledigt",
+          "text": "Die Arbeit wird ausgeführt und sauber übergeben."
+        }
+      ]
+    },
+    "gallery": {
+      "headline": "Erledigte Aufträge",
+      "text": "Für die Live-Version zeigen wir hier echte Arbeiten des Betriebs.",
+      "items": [
+        {
+          "title": "Neue Küche",
+          "photoNeeded": "frisch montierte Einbauküche"
+        },
+        {
+          "title": "Schrankaufbau",
+          "photoNeeded": "aufgebauter Kleiderschrank im Schlafzimmer"
+        },
+        {
+          "title": "Neue Tür",
+          "photoNeeded": "eingebaute Innentür mit Zarge"
+        },
+        {
+          "title": "Gepflegter Garten",
+          "photoNeeded": "gemähter Rasen und geschnittene Hecke"
+        },
+        {
+          "title": "Reparatur",
+          "photoNeeded": "ausgebesserte Stelle an Wand oder Möbel"
+        }
+      ]
+    },
+    "region": {
+      "headline": "Im Einsatz in Poing und Umgebung",
+      "text": "Von Poing aus schnell in Grub, Angelbrechting, Pliening, Markt Schwaben, Anzing und Kirchheim.",
+      "places": [
+        "Poing",
+        "Grub",
+        "Angelbrechting",
+        "Pliening",
+        "Markt Schwaben",
+        "Anzing",
+        "Kirchheim"
+      ]
+    },
+    "faq": [
+      {
+        "q": "Übernehmen Sie auch kleine Aufträge?",
+        "a": "Ja – auch einzelne Möbel, eine Tür oder eine kleine Reparatur werden gern erledigt."
+      },
+      {
+        "q": "Montieren Sie auch komplette Küchen?",
+        "a": "Ja, Küchenmontage gehört zum Angebot. Details werden vorab besprochen."
+      },
+      {
+        "q": "Kann ich Fotos per WhatsApp schicken?",
+        "a": "Ja, Fotos helfen für eine schnelle erste Einschätzung."
+      },
+      {
+        "q": "Bieten Sie regelmäßige Gartenpflege an?",
+        "a": "Garten- und Grundstückspflege ist einmalig oder regelmäßig möglich – je nach Absprache."
+      },
+      {
+        "q": "Wo sind Sie tätig?",
+        "a": "In Poing und den Nachbarorten – fragen Sie einfach an."
+      }
+    ],
+    "contact": {
+      "headline": "Was dürfen wir erledigen?",
+      "text": "Beschreiben Sie kurz die Aufgabe: was montiert, repariert oder gepflegt werden soll. Fotos helfen.",
+      "topics": [
+        "Möbelmontage",
+        "Küchenmontage",
+        "Fenster & Türen",
+        "Reparatur",
+        "Garten",
+        "Sonstiges"
+      ],
+      "responseNote": "Termin nach Absprache."
+    },
+    "quote": {
+      "sizeLabel": "Wie groß ist der Auftrag?",
+      "sizes": [
+        "Einzelnes Teil",
+        "Ein Raum",
+        "Ganze Küche",
+        "Haus & Garten"
+      ],
+      "timings": [
+        "So bald wie möglich",
+        "In den nächsten Wochen",
+        "In 1–3 Monaten",
+        "Ich plane erst noch"
+      ]
+    },
+    "stickyCta": "Jetzt anfragen",
+    "look": {
+      "palette": 2,
+      "font": 6,
+      "hero": 0,
+      "services": 1,
+      "radius": 1,
+      "logo": 0,
+      "intro": 5
+    }
+  }
+}

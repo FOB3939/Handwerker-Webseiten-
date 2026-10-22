@@ -1,0 +1,402 @@
+{
+  "id": "2026-10-22-99",
+  "slug": "nrk-hausmeisterservice-markt-schwaben",
+  "date": "2026-10-22",
+  "company": {
+    "name": "NRK HausmeisterService",
+    "owner": "Nadjim Roberto Khaleqi",
+    "trade": "Hausmeisterservice",
+    "city": "Markt Schwaben",
+    "address": "Adalbert-Stifter-Weg 1, 85570 Markt Schwaben",
+    "phone": "01520 1386647",
+    "email": null,
+    "serviceArea": [
+      "Markt Schwaben",
+      "Poing",
+      "Anzing",
+      "Forstinning",
+      "Pliening",
+      "Ottenhofen"
+    ]
+  },
+  "listings": {
+    "google": {
+      "url": "https://www.google.com/maps/search/?api=1&query=NRK%20HausmeisterService%20Adalbert-Stifter-Weg%201%20Markt%20Schwaben",
+      "rating": null,
+      "reviews": null,
+      "evidence": "NICHT BELEGT – kein Google-Spiegel (trustlocal, rgv-bayern, firmania) mit NRK gefunden. Einzige Bewertungen: hausmeisterdienste.net (4,9 aus 2 Bewertungen, Nov./Dez. 2025, mit Antwort des Inhabers) – Herkunft der Bewertungen nicht als Google belegt. In Maps prüfen."
+    },
+    "myhammer": {
+      "url": "https://www.11880.com/suche/hausmeisterservice/poing",
+      "rating": null,
+      "reviews": null,
+      "evidence": "Kein MyHammer gefunden – Eintrag „NRK HausmeisterService“, Markt Schwaben, in der 11880-Ortsliste Hausmeisterservice (Mobil (0175) 3783752) sowie auf hausmeisterdienste.net (Adalbert Stifter Weg 1, 01520 1386647)."
+    }
+  },
+  "websiteStatus": "keine eigene Website gefunden",
+  "websiteChecks": [
+    "(1) „NRK Hausmeisterservice Markt Schwaben“ mit blocked_domains (11880, Gelbe Seiten, Das Örtliche, Telefonbuch, Cylex, meinestadt, Creditreform, Facebook, Instagram, golocal, MyHammer, Northdata, Firmenwissen, WKDB, Yelp, trustlocal, wlw) – nur hausmeisterdienste.net, muenchen.de-Branchenbuch, putzperle und andere Hausmeisterdienste (Kronex, d.t. Dienstleistungen); keine eigene Domain. Verzeichnis verlinkt nur ein Instagram-Profil.",
+    "(2) Domain-Check allowed_domains nrk-hausmeisterservice.de, nrk-hausmeister.de, nrkhausmeisterservice.de, nrk-service.de, hausmeisterservice-nrk.de, khaleqi.de, nrk-markt-schwaben.de, nrk-dienstleistungen.de – keine Treffer",
+    "(3) Telefonsuche „0175 3783752“/„01753783752“ – keine Treffer (nur themenfremde Dokumente)",
+    "(4) Impressum-Suche „Khaleqi Hausmeister Markt Schwaben Impressum“ – kein eigenes Impressum, nur Gemeinde- und Fremd-Impressen (mk-haus-garten.de, hausmeister-stern.de gehören anderen Betrieben)",
+    "(5) Bewertungs-Suche – nur hausmeisterdienste.net (4,9/2), keine Google-Spiegel, kein Website-Feld",
+    "Website-Risiko: mittel – alle Prüfungen negativ, aber weder Google-Eintrag noch Freemail belegt (RESERVE)"
+  ],
+  "facts": {
+    "services": [
+      "Hausmeisterdienste / Objektbetreuung",
+      "Gebäudereinigung",
+      "Büro- und Fensterreinigung",
+      "Grünflächenpflege",
+      "Winterdienst",
+      "Entrümpelung und Haushaltsauflösung",
+      "Kleinreparaturen"
+    ],
+    "experience": null,
+    "praisedFor": []
+  },
+  "strategy": {
+    "audience": "Hausverwaltungen, Eigentümergemeinschaften, Vermieter und Hausbesitzer in Markt Schwaben, Poing und Anzing, die Pflege, Reinigung und Winterdienst aus einer Hand suchen",
+    "mainService": "Hausmeisterservice – Objektbetreuung, Reinigung, Grünpflege und Winterdienst",
+    "trustSignal": "Inhabergeführter Betrieb in Markt Schwaben, direkt per Handy erreichbar",
+    "conversionGoal": "Unverbindliches Angebot für Objektbetreuung anfragen (Anruf/WhatsApp)",
+    "visualConcept": "Gepflegte Wohnanlage im Münchner Osten: gemähter Rasen, saubere Treppenhäuser, geräumte Wege – ordentlich, verlässlich, freundlich"
+  },
+  "sales": {
+    "score": 4,
+    "whyGoodLead": [
+      "Keine eigene Website gefunden – nur Verzeichniseinträge und Instagram",
+      "Mobilnummer öffentlich gelistet – ideal für WhatsApp-Erstkontakt",
+      "Erste Kundenbewertungen 2025 – junger Betrieb im Aufbau",
+      "Breites Leistungsspektrum (Reinigung, Grünpflege, Winterdienst, Entrümpelung) lässt sich auf einer Website gut verkaufen"
+    ],
+    "pitch": "Hallo Herr Khaleqi, hier ist … – ich baue Websites für Handwerksbetriebe im Landkreis Ebersberg. Ich habe NRK HausmeisterService in Markt Schwaben gefunden, aber keine eigene Website. Ich habe unverbindlich einen Entwurf vorbereitet, auf dem Hausverwaltungen und Eigentümer Ihre Leistungen von Reinigung bis Winterdienst sehen und direkt per WhatsApp anfragen können – darf ich Ihnen den Link schicken?"
+  },
+  "manualChecks": [
+    "RESERVE – weder Google-Eintrag noch Freemail-Adresse belegt: NUR versenden, wenn Google Maps einen Eintrag OHNE Website zeigt.",
+    "Telefonnummern widersprüchlich: hausmeisterdienste.net 01520 1386647, 11880 (0175) 3783752, ein Snippet nennt 0175 3783725 – vor Kontakt klären, welche aktuell ist",
+    "Google-Eintrag in Maps suchen (Name „NRK HausmeisterService“, Markt Schwaben) – Existenz, Bewertungen, Website-Feld",
+    "Instagram-Profil auf Link zu einer Website prüfen",
+    "Leistungen aus Verzeichnis-Selbstbeschreibung – beim Erstkontakt bestätigen",
+    "Logo und Fotos: nicht übernommen – beim Betrieb anfragen"
+  ],
+  "sources": [
+    {
+      "label": "11880 – Hausmeisterservices Poing/Umgebung (Liste mit NRK HausmeisterService)",
+      "url": "https://www.11880.com/suche/hausmeisterservice/poing"
+    },
+    {
+      "label": "hausmeisterdienste.net – NRK HausmeisterService Markt Schwaben",
+      "url": "https://www.hausmeisterdienste.net/markt-schwaben/nrk-hausmeisterservice-aUPZht"
+    },
+    {
+      "label": "muenchen.de Branchenbuch – Hausmeisterservice Markt Schwaben",
+      "url": "https://www.muenchen.de/service/branchenbuch/ebersberg/markt-schwaben/H/621.html"
+    }
+  ],
+  "site": {
+    "theme": "garten",
+    "category": "handwerk",
+    "heroOffer": [
+      "Objektbetreuung",
+      "Reinigung",
+      "Grünpflege",
+      "Winterdienst",
+      "Entrümpelung"
+    ],
+    "scene": "garden",
+    "logoIcon": "house",
+    "logoMark": "NRK",
+    "brandName": "NRK HausmeisterService",
+    "seoTitle": "Hausmeisterservice in Markt Schwaben – NRK HausmeisterService",
+    "seoDescription": "Hausmeisterdienste, Reinigung, Grünpflege und Winterdienst in Markt Schwaben, Poing und Umgebung. Jetzt unverbindlich anfragen – auch per WhatsApp.",
+    "nav": [
+      {
+        "label": "Leistungen",
+        "href": "#leistungen"
+      },
+      {
+        "label": "Projekte",
+        "href": "#projekte"
+      },
+      {
+        "label": "Bewertungen",
+        "href": "#bewertungen"
+      },
+      {
+        "label": "Ablauf",
+        "href": "#ablauf"
+      },
+      {
+        "label": "FAQ",
+        "href": "#faq"
+      },
+      {
+        "label": "Kontakt",
+        "href": "#kontakt"
+      }
+    ],
+    "hero": {
+      "eyebrow": "Hausmeisterservice · Markt Schwaben",
+      "headline": "Hausmeisterservice für Markt Schwaben",
+      "sub": "Pflege, Reinigung und Winterdienst für Wohnanlagen und Häuser im Münchner Osten.",
+      "ctaPrimary": "Angebot anfragen",
+      "ctaSecondary": "Anrufen",
+      "bullets": [
+        "Inhabergeführt aus Markt Schwaben",
+        "Reinigung, Grünpflege, Winterdienst",
+        "Direkt per Handy erreichbar"
+      ],
+      "imageLabel": "gepflegte Wohnanlage mit gemähtem Rasen und sauberem Eingang"
+    },
+    "badges": [
+      {
+        "title": "Objektbetreuung",
+        "sub": "Kontrolle & Kleinreparaturen"
+      },
+      {
+        "title": "Reinigung",
+        "sub": "Treppenhaus, Büro, Fenster"
+      },
+      {
+        "title": "Grünpflege",
+        "sub": "Rasen, Hecken, Beete"
+      },
+      {
+        "title": "Winterdienst",
+        "sub": "Räumen & Streuen"
+      }
+    ],
+    "trust": [
+      {
+        "value": "Vor Ort",
+        "label": "Betrieb in Markt Schwaben"
+      },
+      {
+        "value": "6",
+        "label": "Leistungsbereiche"
+      },
+      {
+        "value": "Mo–Fr",
+        "label": "8–20 Uhr erreichbar"
+      },
+      {
+        "value": "Mobil",
+        "label": "schnell erreichbar"
+      }
+    ],
+    "servicesIntro": {
+      "headline": "Alles rund ums Objekt – aus einer Hand",
+      "text": "Ob Wohnanlage, Mehrfamilienhaus oder Büro: NRK übernimmt Pflege, Reinigung und Winterdienst, damit sich Eigentümer und Verwalter um nichts kümmern müssen."
+    },
+    "services": [
+      {
+        "title": "Objektbetreuung",
+        "text": "Regelmäßige Kontrollgänge und kleine Reparaturen – Mängel werden erkannt, bevor sie teuer werden.",
+        "items": [
+          "Kontrollgänge",
+          "Kleinreparaturen",
+          "Ansprechpartner vor Ort"
+        ]
+      },
+      {
+        "title": "Gebäudereinigung",
+        "text": "Saubere Treppenhäuser, Eingänge und Gemeinschaftsflächen nach festem Plan.",
+        "items": [
+          "Treppenhausreinigung",
+          "Eingangsbereiche",
+          "Kellerflächen"
+        ]
+      },
+      {
+        "title": "Büro- & Fensterreinigung",
+        "text": "Gepflegte Arbeitsräume und streifenfreie Fenster für Büros und Praxen.",
+        "items": [
+          "Büroreinigung",
+          "Fensterreinigung",
+          "Glasflächen"
+        ]
+      },
+      {
+        "title": "Grünflächenpflege",
+        "text": "Rasen, Hecken und Beete bleiben das ganze Jahr ordentlich.",
+        "items": [
+          "Rasenmähen",
+          "Heckenschnitt",
+          "Laub entfernen"
+        ]
+      },
+      {
+        "title": "Winterdienst",
+        "text": "Geräumte und gestreute Wege, damit Bewohner und Besucher sicher ankommen.",
+        "items": [
+          "Schneeräumen",
+          "Streuen",
+          "Gehwege & Zufahrten"
+        ]
+      },
+      {
+        "title": "Entrümpelung",
+        "text": "Keller, Dachböden und ganze Wohnungen werden geräumt – bis hin zur Haushaltsauflösung.",
+        "items": [
+          "Kellerräumung",
+          "Haushaltsauflösung",
+          "Besenrein übergeben"
+        ]
+      }
+    ],
+    "why": {
+      "headline": "Ein Ansprechpartner für Haus, Garten und Winter.",
+      "points": [
+        {
+          "title": "Kurze Wege",
+          "text": "Der Betrieb sitzt in Markt Schwaben und ist schnell in Poing, Anzing und Forstinning."
+        },
+        {
+          "title": "Alles aus einer Hand",
+          "text": "Reinigung, Grünpflege, Winterdienst und Entrümpelung – ein Auftrag statt vier Firmen."
+        },
+        {
+          "title": "Direkter Draht",
+          "text": "Der Inhaber ist persönlich per Handy oder WhatsApp erreichbar."
+        },
+        {
+          "title": "Flexibel",
+          "text": "Einmalige Einsätze oder feste Betreuung – je nach Bedarf des Objekts."
+        }
+      ]
+    },
+    "reviews": {
+      "headline": "Was Kunden sagen",
+      "summary": "Kundenstimmen werden hier eingebunden, sobald sie aus dem Google-Profil übernommen sind.",
+      "highlights": [
+        "Hausmeisterdienste in Markt Schwaben",
+        "Reinigung und Grünpflege",
+        "Direkter Kontakt zum Inhaber"
+      ],
+      "source": "Google",
+      "sourceUrl": "https://www.google.com/maps/search/?api=1&query=NRK%20HausmeisterService%20Adalbert-Stifter-Weg%201%20Markt%20Schwaben",
+      "rating": null,
+      "count": null
+    },
+    "process": {
+      "headline": "So startet die Zusammenarbeit",
+      "steps": [
+        {
+          "title": "Anfrage",
+          "text": "Objekt und gewünschte Leistungen kurz per Anruf oder WhatsApp schildern."
+        },
+        {
+          "title": "Besichtigung",
+          "text": "Gemeinsamer Rundgang vor Ort – Flächen, Turnus und Besonderheiten werden aufgenommen."
+        },
+        {
+          "title": "Angebot",
+          "text": "Sie erhalten ein klares Angebot für einmalige oder regelmäßige Leistungen."
+        },
+        {
+          "title": "Betreuung",
+          "text": "Die Arbeiten starten zum vereinbarten Termin – mit festem Ansprechpartner."
+        }
+      ]
+    },
+    "gallery": {
+      "headline": "Gepflegte Objekte im Münchner Osten",
+      "text": "Für die Live-Version zeigen wir hier echte Einsätze des Betriebs.",
+      "items": [
+        {
+          "title": "Sauberes Treppenhaus",
+          "photoNeeded": "frisch gereinigtes Treppenhaus einer Wohnanlage"
+        },
+        {
+          "title": "Gepflegter Garten",
+          "photoNeeded": "gemähter Rasen und geschnittene Hecke an einem Mehrfamilienhaus"
+        },
+        {
+          "title": "Winterdienst",
+          "photoNeeded": "geräumter und gestreuter Gehweg vor einem Hauseingang"
+        },
+        {
+          "title": "Klare Fenster",
+          "photoNeeded": "streifenfreie Fensterfront eines Büros"
+        },
+        {
+          "title": "Geräumter Keller",
+          "photoNeeded": "leerer, besenreiner Kellerraum nach Entrümpelung"
+        }
+      ]
+    },
+    "region": {
+      "headline": "Hausmeisterservice für Markt Schwaben und Umgebung",
+      "text": "Von Markt Schwaben aus schnell in Poing, Anzing, Forstinning, Pliening und Ottenhofen.",
+      "places": [
+        "Markt Schwaben",
+        "Poing",
+        "Anzing",
+        "Forstinning",
+        "Pliening",
+        "Ottenhofen"
+      ]
+    },
+    "faq": [
+      {
+        "q": "Übernehmen Sie auch einmalige Einsätze?",
+        "a": "Ja – neben fester Objektbetreuung sind auch einzelne Aufträge wie eine Entrümpelung oder ein Grünschnitt möglich."
+      },
+      {
+        "q": "Ist Winterdienst im Angebot enthalten?",
+        "a": "Winterdienst gehört zum Leistungsangebot und wird je nach Objekt individuell vereinbart."
+      },
+      {
+        "q": "Arbeiten Sie auch für Hausverwaltungen?",
+        "a": "Ja, die Betreuung von Wohnanlagen und Mehrfamilienhäusern gehört zum Kerngeschäft eines Hausmeisterservice."
+      },
+      {
+        "q": "Wann sind Sie erreichbar?",
+        "a": "Laut Verzeichnis Montag bis Freitag von 8 bis 20 Uhr – am einfachsten per Anruf oder WhatsApp."
+      },
+      {
+        "q": "In welchen Orten sind Sie tätig?",
+        "a": "In Markt Schwaben und den Nachbarorten wie Poing, Anzing und Forstinning – fragen Sie einfach an."
+      }
+    ],
+    "contact": {
+      "headline": "Ihr Angebot – unverbindlich",
+      "text": "Beschreiben Sie kurz Ihr Objekt: Art des Gebäudes, Größe und welche Leistungen Sie brauchen.",
+      "topics": [
+        "Objektbetreuung",
+        "Reinigung",
+        "Grünpflege",
+        "Winterdienst",
+        "Entrümpelung",
+        "Sonstiges"
+      ],
+      "responseNote": "Besichtigung nach Absprache."
+    },
+    "quote": {
+      "sizeLabel": "Welches Objekt soll betreut werden?",
+      "sizes": [
+        "Einfamilienhaus",
+        "Mehrfamilienhaus",
+        "Wohnanlage",
+        "Büro/Gewerbe"
+      ],
+      "timings": [
+        "So bald wie möglich",
+        "Ab nächstem Monat",
+        "Zur nächsten Saison",
+        "Ich plane erst noch"
+      ]
+    },
+    "stickyCta": "Angebot anfragen",
+    "look": {
+      "palette": 2,
+      "font": 6,
+      "hero": 0,
+      "services": 1,
+      "radius": 1,
+      "logo": 0,
+      "intro": 5
+    }
+  }
+}

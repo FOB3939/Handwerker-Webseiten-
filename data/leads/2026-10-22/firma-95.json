@@ -1,0 +1,412 @@
+{
+  "id": "2026-10-22-95",
+  "slug": "winfried-drobny-krailling",
+  "date": "2026-10-22",
+  "company": {
+    "name": "Winfried Drobny Gas Wasser Sanitär",
+    "owner": "Winfried Drobny",
+    "trade": "Sanitär & Heizung",
+    "city": "Krailling",
+    "address": "Konrad-Siebler-Straße 7, 82152 Krailling",
+    "phone": "089 89930260",
+    "email": "w.drobny@t-online.de",
+    "serviceArea": [
+      "Krailling",
+      "Planegg",
+      "Stockdorf",
+      "Gauting",
+      "Gräfelfing",
+      "Martinsried"
+    ]
+  },
+  "listings": {
+    "google": {
+      "url": "https://www.google.com/maps/search/?api=1&query=Winfried%20Drobny%20Konrad-Siebler-Stra%C3%9Fe%207%20Krailling",
+      "rating": null,
+      "reviews": null,
+      "evidence": "KEIN direkter Google-Beleg gefunden – kein Spiegel (rgv-bayern, firmania, trustlocal) zeigt ein Google-Profil. Teil (A) über Freemail erfüllt: w.drobny@t-online.de öffentlich auf der SHK-Webvisitenkarte (wasserwaermeluft.de). In Maps prüfen, ob ein Eintrag existiert und ob dort eine Website hinterlegt ist."
+    },
+    "myhammer": {
+      "url": "https://www.hwk-muenchen.de/betriebe/winfried-drobny-74,0,bdbdetail.html?id=18188",
+      "rating": null,
+      "reviews": null,
+      "evidence": "Kein MyHammer gefunden – Eintrag in der Handwerkersuche der HWK München und Oberbayern (Winfried Wolfram Drobny, Installateur und Heizungsbauer, Konrad-Siebler-Straße 7, Krailling) sowie SHK-Handwerkersuche, sanitaer.org, heizungsbau.net, stadtbranchenbuch."
+    }
+  },
+  "websiteStatus": "keine eigene Website gefunden",
+  "websiteChecks": [
+    "(1) „Winfried Drobny Sanitär Planegg“ mit blocked_domains (11880, Gelbe Seiten, Das Örtliche, Telefonbuch, Cylex, meinestadt, Creditreform, Facebook, Instagram, golocal, MyHammer, Northdata, Firmenwissen, WKDB, Yelp, trustlocal, wlw) – nur Verzeichnisse (sanitaer.org, stadtbranchenbuch, klicktel, oeffnungszeitenbuch, tupalo, goyellow, yasni); keine eigene Domain",
+    "(2) Domain-Check allowed_domains drobny.de, drobny-sanitaer.de, sanitaer-drobny.de, drobny-planegg.de, winfried-drobny.de, drobny-haustechnik.de, drobny-heizung.de, drobny-installation.de – keine Treffer",
+    "(3) Telefonsuche „089 89930260“/„08989930260“ mit blocked_domains – nur HWK-Handwerkersuche, SHK-Webvisitenkarte (wasserwaermeluft.de, Verbandsportal, keine eigene Domain), anrufer.info, bundes-telefonbuch, heizungsbau.net; keine Website",
+    "(4) Impressum-Suche „Impressum Drobny Installateur Heizungsbau Krailling Konrad-Siebler-Str“ – kein eigenes Impressum, nur Verzeichnisse (wasserwaermeluft, branchenbuch24, mux.de, HWK)",
+    "(5) E-Mail ist Freemail (t-online.de) – kein Hinweis auf eigene Firmendomain",
+    "Website-Risiko: mittel – alle Prüfungen negativ, Freemail belegt, aber kein Google-Beleg und nur Festnetz; SHK-Webvisitenkarte ist eine Verbandsprofilseite"
+  ],
+  "facts": {
+    "services": [
+      "Sanitärinstallation",
+      "Badsanierung",
+      "Gasheizung",
+      "Solarthermie",
+      "Gas-Prüfung",
+      "Heizungsinstallation"
+    ],
+    "experience": null,
+    "praisedFor": []
+  },
+  "strategy": {
+    "audience": "Hauseigentümer und Vermieter im Würmtal (Krailling, Planegg, Stockdorf, Gauting, Gräfelfing), die ihr Bad erneuern, die Gasheizung warten oder Solarthermie nachrüsten wollen",
+    "mainService": "Sanitär- und Heizungsinstallation mit Badsanierung",
+    "trustSignal": "Inhabergeführter Installateur- und Heizungsbaubetrieb, eingetragen bei der Handwerkskammer München und Oberbayern",
+    "conversionGoal": "Rückruf oder Angebot für Bad, Heizung oder Gas-Check anfragen",
+    "visualConcept": "Saubere Haustechnik: glänzende Kupferleitungen, moderner Heizraum und ein frisch saniertes, helles Bad – solide und vertrauenswürdig"
+  },
+  "sales": {
+    "score": 3,
+    "whyGoodLead": [
+      "Keine eigene Website gefunden – nur Verzeichnis- und Kammereinträge",
+      "Öffentliche Freemail-Adresse (t-online) – wirkt für Kunden wenig professionell",
+      "Heizungstausch, Solarthermie und Badsanierung sind im Würmtal stark gefragt – eine Website fängt diese Anfragen ab",
+      "Nur Festnetz – Kontakt per Anruf oder E-Mail"
+    ],
+    "pitch": "Guten Tag Herr Drobny, ich baue Websites für Handwerksbetriebe im Würmtal. Ich habe Ihren Betrieb über die Handwerkskammer gefunden, aber keine eigene Website. Ich habe unverbindlich einen Entwurf vorbereitet, auf dem Kunden aus Krailling und Planegg Ihre Leistungen rund um Bad, Gasheizung und Solarthermie sehen und direkt anfragen können – darf ich Ihnen den Link per E-Mail schicken?"
+  },
+  "manualChecks": [
+    "Website-Risiko: mittel – vor Versand in Google Maps prüfen, dass keine Website hinterlegt ist (Grund: kein Google-Beleg, nur Freemail; SHK-Webvisitenkarte auf wasserwaermeluft.de könnte im Profil als Website verlinkt sein)",
+    "Adresse klären: HWK/SHK nennen Konrad-Siebler-Straße 7, Krailling; ältere Verzeichnisse Richard-Wagner-Str. 66F, Planegg",
+    "Betrieb noch aktiv? Verzeichnisdaten teils alt – Festnetz 089 89930260 prüfen; keine Mobilnummer öffentlich, Erstkontakt per E-Mail/Anruf",
+    "Leistungsumfang (Badsanierung, Gasheizung, Solarthermie laut SHK-/HWK-Einträgen) beim Inhaber bestätigen; Wärmepumpe nicht belegt",
+    "Logo und Projektfotos: nicht gefunden – beim Betrieb anfragen"
+  ],
+  "sources": [
+    {
+      "label": "HWK München und Oberbayern – Winfried Wolfram Drobny",
+      "url": "https://www.hwk-muenchen.de/betriebe/winfried-drobny-74,0,bdbdetail.html?id=18188"
+    },
+    {
+      "label": "SHK-Webvisitenkarte Winfried Drobny (E-Mail, Telefon)",
+      "url": "https://www.wasserwaermeluft.de/webvisitenkarte/winfried-drobny"
+    },
+    {
+      "label": "SHK-Handwerkersuche – Winfried Drobny Krailling",
+      "url": "https://www.wasserwaermeluft.de/handwerkersuche/winfried-drobny-82152-krailling"
+    },
+    {
+      "label": "sanitaer.org – Winfried Drobny Planegg",
+      "url": "https://www.sanitaer.org/planegg/winfried-drobny-aULSBT"
+    },
+    {
+      "label": "Stadtbranchenbuch – Winfried Drobny Planegg",
+      "url": "https://planegg.stadtbranchenbuch.com/3899570.html"
+    },
+    {
+      "label": "branchenbuch24 – Winfried Drobny Krailling",
+      "url": "https://www.branchenbuch24.com/krailling/haus-innenausstattung/installateur-und-heizungsbauer/winfried-drobny-819973/"
+    }
+  ],
+  "site": {
+    "theme": "aqua",
+    "category": "handwerk",
+    "heroOffer": [
+      "Badsanierung",
+      "Sanitär",
+      "Gasheizung",
+      "Solarthermie",
+      "Gas-Check"
+    ],
+    "scene": "bath",
+    "logoIcon": "drop",
+    "logoMark": "WD",
+    "brandName": "Drobny Gas Wasser Sanitär",
+    "seoTitle": "Sanitär & Heizung in Krailling – Winfried Drobny",
+    "seoDescription": "Installateur und Heizungsbauer in Krailling: Badsanierung, Sanitär, Gasheizung und Solarthermie im Würmtal. Jetzt Angebot anfragen.",
+    "nav": [
+      {
+        "label": "Leistungen",
+        "href": "#leistungen"
+      },
+      {
+        "label": "Projekte",
+        "href": "#projekte"
+      },
+      {
+        "label": "Bewertungen",
+        "href": "#bewertungen"
+      },
+      {
+        "label": "Ablauf",
+        "href": "#ablauf"
+      },
+      {
+        "label": "FAQ",
+        "href": "#faq"
+      },
+      {
+        "label": "Kontakt",
+        "href": "#kontakt"
+      }
+    ],
+    "hero": {
+      "eyebrow": "Sanitär & Heizung · Krailling",
+      "headline": "Sanitär und Heizung in Krailling",
+      "sub": "Bad, Gasheizung und Solarthermie – vom Installateurmeister aus dem Würmtal.",
+      "ctaPrimary": "Angebot anfragen",
+      "ctaSecondary": "Anrufen",
+      "bullets": [
+        "Installateur und Heizungsbauer",
+        "Bad, Gas und Solar",
+        "Betrieb in Krailling"
+      ],
+      "imageLabel": "modernes Bad mit bodengleicher Dusche und neuer Armatur"
+    },
+    "badges": [
+      {
+        "title": "Sanitär",
+        "sub": "Installation & Bad"
+      },
+      {
+        "title": "Heizung",
+        "sub": "Gasheizung"
+      },
+      {
+        "title": "Solarthermie",
+        "sub": "Wärme vom Dach"
+      },
+      {
+        "title": "Krailling",
+        "sub": "im Würmtal"
+      }
+    ],
+    "trust": [
+      {
+        "value": "HWK",
+        "label": "eingetragener Handwerksbetrieb"
+      },
+      {
+        "value": "2",
+        "label": "Gewerke: Installateur & Heizungsbau"
+      },
+      {
+        "value": "Würmtal",
+        "label": "Krailling, Planegg, Gauting"
+      },
+      {
+        "value": "Direkt",
+        "label": "Ansprechpartner ist der Inhaber"
+      }
+    ],
+    "servicesIntro": {
+      "headline": "Wasser, Wärme und Gas aus einer Hand",
+      "text": "Vom neuen Bad bis zur Solaranlage auf dem Dach: Winfried Drobny plant und installiert Haustechnik für Häuser und Wohnungen im Würmtal."
+    },
+    "services": [
+      {
+        "title": "Badsanierung",
+        "text": "Das alte Bad wird zum neuen – Leitungen, Dusche, Wanne und Armaturen werden fachgerecht erneuert.",
+        "items": [
+          "Komplettbad",
+          "Dusche statt Wanne",
+          "Neue Armaturen"
+        ]
+      },
+      {
+        "title": "Sanitärinstallation",
+        "text": "Wasserleitungen, Abwasser und Sanitärobjekte – im Neubau wie im Bestand.",
+        "items": [
+          "Trinkwasserleitungen",
+          "Abwasser",
+          "WC & Waschtisch"
+        ]
+      },
+      {
+        "title": "Gasheizung",
+        "text": "Installation und Austausch von Gasheizungen – für zuverlässige Wärme im ganzen Haus.",
+        "items": [
+          "Neuinstallation",
+          "Kesseltausch",
+          "Heizkörper"
+        ]
+      },
+      {
+        "title": "Solarthermie",
+        "text": "Kollektoren auf dem Dach unterstützen Warmwasser und Heizung mit Sonnenenergie.",
+        "items": [
+          "Warmwasser",
+          "Heizungsunterstützung",
+          "Speicher"
+        ]
+      },
+      {
+        "title": "Gas-Prüfung",
+        "text": "Gasleitungen und -geräte werden geprüft, damit alles dicht und sicher bleibt.",
+        "items": [
+          "Dichtheitsprüfung",
+          "Leitungscheck",
+          "Sicherheit"
+        ]
+      },
+      {
+        "title": "Reparaturen",
+        "text": "Tropfende Armatur, verstopfter Abfluss oder kalte Heizkörper – kleine Schäden werden schnell behoben.",
+        "items": [
+          "Armaturen",
+          "Abflüsse",
+          "Heizkörper"
+        ]
+      }
+    ],
+    "why": {
+      "headline": "Haustechnik aus Krailling – vom Inhaber selbst.",
+      "points": [
+        {
+          "title": "Zwei Gewerke",
+          "text": "Installateur und Heizungsbauer in einer Person – Bad und Heizung ohne Schnittstellen."
+        },
+        {
+          "title": "Kurze Wege",
+          "text": "Von Krailling schnell in Planegg, Stockdorf, Gauting und Gräfelfing."
+        },
+        {
+          "title": "Persönlich",
+          "text": "Sie sprechen direkt mit dem Inhaber, nicht mit einer Zentrale."
+        },
+        {
+          "title": "Gas sicher",
+          "text": "Prüfung von Gasleitungen und -geräten gehört zum Angebot."
+        }
+      ]
+    },
+    "reviews": {
+      "headline": "Was Kunden sagen",
+      "summary": "Kundenstimmen werden hier eingebunden, sobald sie aus dem Google-Profil übernommen sind.",
+      "highlights": [
+        "Sanitär und Heizung",
+        "Badsanierung",
+        "Betrieb im Würmtal"
+      ],
+      "source": "Google",
+      "sourceUrl": "https://www.google.com/maps/search/?api=1&query=Winfried%20Drobny%20Konrad-Siebler-Stra%C3%9Fe%207%20Krailling",
+      "rating": null,
+      "count": null
+    },
+    "process": {
+      "headline": "So läuft Ihr Auftrag",
+      "steps": [
+        {
+          "title": "Anfrage",
+          "text": "Anrufen oder per E-Mail kurz beschreiben, worum es geht – Fotos helfen."
+        },
+        {
+          "title": "Termin vor Ort",
+          "text": "Bad, Heizraum oder Leitungen werden angeschaut und Wünsche besprochen."
+        },
+        {
+          "title": "Angebot",
+          "text": "Sie erhalten ein nachvollziehbares Angebot für Material und Arbeit."
+        },
+        {
+          "title": "Ausführung",
+          "text": "Installation, Prüfung und Übergabe – sauber und funktionsbereit."
+        }
+      ]
+    },
+    "gallery": {
+      "headline": "Bäder und Technik, die funktionieren",
+      "text": "Für die Live-Version zeigen wir hier echte Projekte des Betriebs.",
+      "items": [
+        {
+          "title": "Neues Bad",
+          "photoNeeded": "saniertes Bad mit Dusche und Waschtisch"
+        },
+        {
+          "title": "Heizraum",
+          "photoNeeded": "neu installierte Gasheizung mit Verrohrung"
+        },
+        {
+          "title": "Solarkollektoren",
+          "photoNeeded": "Solarthermie-Kollektoren auf einem Hausdach"
+        },
+        {
+          "title": "Armaturen",
+          "photoNeeded": "neue Armatur am Waschtisch"
+        },
+        {
+          "title": "Leitungen",
+          "photoNeeded": "sauber verlegte Kupfer- oder Verbundrohre"
+        }
+      ]
+    },
+    "region": {
+      "headline": "Sanitär und Heizung im Würmtal",
+      "text": "Von Krailling aus schnell in Planegg, Stockdorf, Gauting, Gräfelfing und Martinsried.",
+      "places": [
+        "Krailling",
+        "Planegg",
+        "Stockdorf",
+        "Gauting",
+        "Gräfelfing",
+        "Martinsried"
+      ]
+    },
+    "faq": [
+      {
+        "q": "Übernehmen Sie komplette Badsanierungen?",
+        "a": "Ja, die Badsanierung gehört zum Angebot. Umfang und Ablauf werden beim Termin vor Ort besprochen."
+      },
+      {
+        "q": "Lohnt sich Solarthermie für mein Haus?",
+        "a": "Das hängt von Dach, Ausrichtung und Verbrauch ab. Eine Einschätzung gibt es nach einem Blick vor Ort."
+      },
+      {
+        "q": "Prüfen Sie auch Gasleitungen?",
+        "a": "Ja, die Prüfung von Gasleitungen und -geräten wird angeboten."
+      },
+      {
+        "q": "Wie erreiche ich Sie am besten?",
+        "a": "Telefonisch unter 089 89930260 oder per E-Mail – beschreiben Sie kurz Ihr Anliegen."
+      },
+      {
+        "q": "In welchen Orten sind Sie unterwegs?",
+        "a": "Vor allem im Würmtal: Krailling, Planegg, Stockdorf, Gauting, Gräfelfing und Umgebung."
+      }
+    ],
+    "contact": {
+      "headline": "Ihre Anfrage für Bad oder Heizung",
+      "text": "Beschreiben Sie kurz Ihr Vorhaben: Bad, Heizung, Solar oder Reparatur. Fotos vom Bestand helfen bei der ersten Einschätzung.",
+      "topics": [
+        "Badsanierung",
+        "Sanitärinstallation",
+        "Gasheizung",
+        "Solarthermie",
+        "Reparatur",
+        "Sonstiges"
+      ],
+      "responseNote": "Termin vor Ort nach Absprache."
+    },
+    "quote": {
+      "sizeLabel": "Worum geht es?",
+      "sizes": [
+        "Reparatur",
+        "Teilsanierung Bad",
+        "Komplettes Bad",
+        "Heizung / Solar"
+      ],
+      "timings": [
+        "So bald wie möglich",
+        "In den nächsten Wochen",
+        "In 1–3 Monaten",
+        "Ich plane erst noch"
+      ]
+    },
+    "stickyCta": "Angebot anfragen",
+    "look": {
+      "palette": 2,
+      "font": 6,
+      "hero": 0,
+      "services": 1,
+      "radius": 1,
+      "logo": 0,
+      "intro": 5
+    }
+  }
+}
