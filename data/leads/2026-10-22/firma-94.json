@@ -1,0 +1,278 @@
+{
+  "id": "2026-10-22-94",
+  "slug": "elektroinstallation-klinder-groebenzell",
+  "date": "2026-10-22",
+  "company": {
+    "name": "Elektroinstallation Bernd Klinder",
+    "owner": "Bernd Klinder",
+    "trade": "Elektroinstallation",
+    "city": "Gröbenzell",
+    "address": "Industriestr. 39a, 82194 Gröbenzell",
+    "phone": "08142 60599",
+    "email": "elektro.klinder@t-online.de",
+    "serviceArea": [
+      "Gröbenzell",
+      "Olching",
+      "Puchheim",
+      "Eichenau",
+      "Germering",
+      "Lochhausen"
+    ]
+  },
+  "listings": {
+    "google": {
+      "url": "https://www.google.com/maps/search/?api=1&query=Elektroinstallation%20Bernd%20Klinder%20Industriestr.%2039%20Gr%C3%B6benzell",
+      "rating": null,
+      "reviews": null,
+      "evidence": "KEIN Google-Beleg gefunden – Lead stützt sich auf die öffentlich gelistete Freemail-Adresse elektro.klinder@t-online.de (Cylex- und 11880-Eintrag, Industriestr. 39/39a, Gröbenzell, Tel. 08142 60599, Mo–Fr 8–18 Uhr; 11880 zuletzt aktualisiert 02.10.2026). Google-Eintrag in Maps prüfen."
+    },
+    "myhammer": {
+      "url": "https://www.11880.com/branchenbuch/groebenzell/060691303B39436186/elektroinstallation-bernd-klinder.html",
+      "rating": null,
+      "reviews": null,
+      "evidence": "Kein MyHammer gefunden – Einträge bei 11880 und Cylex ohne Bewertungen und ohne Website-Feld."
+    }
+  },
+  "websiteStatus": "keine eigene Website gefunden",
+  "websiteChecks": [
+    "(1) Website-Prüfung am 2026-10-21 (Vorlauf, RESERVE-geprüft): Namenssuche mit blocked_domains, Domain-Check, Telefon- und Impressum-Suche – alle negativ",
+    "(2) 2026-10-22: Spiegel-/Verzeichnissuche „Elektroinstallation Bernd Klinder Gröbenzell“ (11880, Cylex, Gelbe Seiten, rgv-bayern, trustlocal, firmania) – nur 11880 und Cylex, kein Website-Feld, E-Mail auf Freemail-Domain t-online.de (keine Firmendomain)",
+    "(3) Kein Google-Spiegel-Treffer (rgv-bayern/trustlocal/firmania) – Google-Eintrag nicht belegt",
+    "Website-Risiko: niedrig – alle Prüfungen negativ, nur T-Online-Adresse, keine Domain sichtbar"
+  ],
+  "facts": {
+    "services": [
+      "Elektroinstallation",
+      "Installation elektrischer Geräte",
+      "Altbausanierung",
+      "Neubau",
+      "Lichtkonzepte",
+      "Alarmanlagen mit Bewegungsmeldern",
+      "Sprechanlagen"
+    ],
+    "experience": null,
+    "praisedFor": []
+  },
+  "strategy": {
+    "audience": "Hauseigentümer, Bauherren und Vermieter in Gröbenzell, Olching, Puchheim und Eichenau, die neu bauen, einen Altbau sanieren oder Licht und Sicherheitstechnik modernisieren wollen",
+    "mainService": "Elektroinstallation für Neubau und Altbausanierung",
+    "trustSignal": "Inhabergeführter Elektrobetrieb im Gröbenzeller Gewerbegebiet, Mo–Fr 8–18 Uhr erreichbar",
+    "conversionGoal": "Kostenloses Angebot für Elektroarbeiten anfragen (Anruf oder Formular)",
+    "visualConcept": "Klare Technik-Ästhetik: ordentlich verdrahteter Verteilerkasten, warmes Licht im renovierten Altbau, saubere Schalter und Leitungen"
+  },
+  "sales": {
+    "score": 5,
+    "whyGoodLead": [
+      "Keine eigene Website gefunden – nur Verzeichniseinträge mit T-Online-Adresse",
+      "Breites, belegtes Leistungsspektrum (Neubau, Altbau, Licht, Alarm, Sprechanlagen) – gut darstellbar",
+      "Keine Bewertungen sichtbar – Website und Google-Profil bringen Sichtbarkeit",
+      "Hohe Nachfrage nach Elektrikern im Landkreis Fürstenfeldbruck (Sanierung, Smart Home, Sicherheit)"
+    ],
+    "pitch": "Grüß Gott Herr Klinder, hier ist … – ich baue Websites für Handwerker rund um Gröbenzell. Ich habe Ihren Eintrag als Elektroinstallateur gefunden, aber keine eigene Website. Ich habe unverbindlich einen Entwurf vorbereitet, auf dem Kunden Ihre Leistungen von Altbausanierung bis Alarmanlage sehen und direkt anfragen können – darf ich Ihnen den Link per E-Mail schicken?"
+  },
+  "manualChecks": [
+    "Website-Risiko: niedrig – vor Versand in Google Maps prüfen, dass keine Website hinterlegt ist (Grund: Google-Eintrag nicht belegt, Lead stützt sich auf öffentliche Freemail-Adresse elektro.klinder@t-online.de)",
+    "Keine Mobilnummer belegt – Erstkontakt per Festnetz (08142 60599) oder E-Mail; Fax 08142 52415 nicht verwenden",
+    "Hausnummer klären: Cylex nennt Industriestr. 39, 11880 Industriestr. 39 a",
+    "Gröbenzell liegt nicht in den heutigen Zielregionen (Lkr. Fürstenfeldbruck) – Freigabe laut Auftrag „Ort egal“",
+    "Logo und Projektfotos: nicht gefunden – beim Betrieb anfragen"
+  ],
+  "sources": [
+    {
+      "label": "11880 – Elektroinstallation Bernd Klinder, Gröbenzell",
+      "url": "https://www.11880.com/branchenbuch/groebenzell/060691303B39436186/elektroinstallation-bernd-klinder.html"
+    },
+    {
+      "label": "Cylex – Elektroinstallation Bernd Klinder, Gröbenzell (Leistungen, E-Mail)",
+      "url": "https://web2.cylex.de/firma-home/elektroinstallation-bernd-klinder-3225483.html"
+    },
+    {
+      "label": "11880 – Elektriker Gröbenzell",
+      "url": "https://www.11880.com/suche/elektriker/groebenzell"
+    }
+  ],
+  "site": {
+    "theme": "volt",
+    "category": "handwerk",
+    "heroOffer": [
+      "Neubau",
+      "Altbausanierung",
+      "Lichtkonzepte",
+      "Alarmanlagen",
+      "Sprechanlagen"
+    ],
+    "scene": "electric",
+    "logoIcon": "bolt",
+    "logoMark": "BK",
+    "brandName": "Elektro Klinder",
+    "seoTitle": "Elektriker in Gröbenzell – Elektroinstallation Bernd Klinder",
+    "seoDescription": "Elektroinstallation in Gröbenzell: Neubau, Altbausanierung, Lichtkonzepte, Alarm- und Sprechanlagen. Jetzt kostenloses Angebot anfragen.",
+    "nav": [
+      { "label": "Leistungen", "href": "#leistungen" },
+      { "label": "Projekte", "href": "#projekte" },
+      { "label": "Bewertungen", "href": "#bewertungen" },
+      { "label": "Ablauf", "href": "#ablauf" },
+      { "label": "FAQ", "href": "#faq" },
+      { "label": "Kontakt", "href": "#kontakt" }
+    ],
+    "hero": {
+      "eyebrow": "Elektroinstallation · Gröbenzell",
+      "headline": "Ihr Elektriker in Gröbenzell",
+      "sub": "Strom, Licht und Sicherheitstechnik für Neubau und Altbau – vom Planen bis Anschließen.",
+      "ctaPrimary": "Kostenloses Angebot anfragen",
+      "ctaSecondary": "Anrufen",
+      "bullets": [
+        "Neubau und Altbausanierung",
+        "Licht, Alarm, Sprechanlagen",
+        "Mo–Fr 8–18 Uhr erreichbar"
+      ],
+      "imageLabel": "ordentlich verdrahteter Sicherungskasten in einem sanierten Altbau"
+    },
+    "badges": [
+      { "title": "Neubau", "sub": "komplette Installation" },
+      { "title": "Altbau", "sub": "Sanierung der Elektrik" },
+      { "title": "Sicherheit", "sub": "Alarm & Bewegungsmelder" },
+      { "title": "Gröbenzell", "sub": "Industriestraße" }
+    ],
+    "trust": [
+      { "value": "Vor Ort", "label": "Betrieb in Gröbenzell" },
+      { "value": "Mo–Fr", "label": "8 bis 18 Uhr" },
+      { "value": "Inhaber", "label": "Bernd Klinder" },
+      { "value": "Alles", "label": "von Planung bis Anschluss" }
+    ],
+    "servicesIntro": {
+      "headline": "Elektrik vom ersten Plan bis zur letzten Steckdose",
+      "text": "Ob Neubau oder Altbau: Die Elektroinstallation wird von der ersten Planung bis zur fertigen Montage begleitet – inklusive Licht und Sicherheitstechnik."
+    },
+    "services": [
+      {
+        "title": "Elektroinstallation Neubau",
+        "text": "Komplette Elektrik für neue Häuser und Wohnungen – geplant nach Ihren Wünschen und sauber verlegt.",
+        "items": ["Leitungen", "Steckdosen & Schalter", "Verteilung"]
+      },
+      {
+        "title": "Altbausanierung",
+        "text": "Alte Leitungen und Sicherungskästen werden erneuert – für mehr Sicherheit und Leistung im Bestand.",
+        "items": ["Leitungen erneuern", "Sicherungskasten", "Mehr Steckdosen"]
+      },
+      {
+        "title": "Lichtkonzepte",
+        "text": "Licht, das zu Raum und Nutzung passt – von der Planung bis zur montierten Leuchte.",
+        "items": ["Lichtplanung", "Einbauleuchten", "Außenbeleuchtung"]
+      },
+      {
+        "title": "Alarmanlagen",
+        "text": "Alarmtechnik mit Bewegungsmeldern schützt Haus und Betrieb – passend geplant und installiert.",
+        "items": ["Alarmanlage", "Bewegungsmelder", "Planung"]
+      },
+      {
+        "title": "Sprechanlagen",
+        "text": "Klingel- und Sprechanlagen für Einfamilien- und Mehrfamilienhäuser.",
+        "items": ["Türsprechanlage", "Klingelanlage", "Nachrüstung"]
+      },
+      {
+        "title": "Geräteanschluss",
+        "text": "Elektrische Geräte werden fachgerecht installiert und angeschlossen.",
+        "items": ["Herd & Backofen", "Hausgeräte", "Anschluss"]
+      }
+    ],
+    "why": {
+      "headline": "Elektrik aus Gröbenzell – geplant, verlegt, angeschlossen.",
+      "points": [
+        { "title": "Alles aus einer Hand", "text": "Von der ersten Planung bis zur fertigen Installation bleibt ein Betrieb verantwortlich." },
+        { "title": "Neubau & Bestand", "text": "Erfahrung mit neuen Häusern ebenso wie mit der Sanierung alter Elektrik." },
+        { "title": "Sicherheit inklusive", "text": "Alarmanlagen, Bewegungsmelder und Sprechanlagen gehören zum Angebot." },
+        { "title": "Kurze Wege", "text": "Von Gröbenzell schnell in Olching, Puchheim, Eichenau und Germering." }
+      ]
+    },
+    "reviews": {
+      "headline": "Was Kunden sagen",
+      "summary": "Kundenstimmen werden hier eingebunden, sobald sie aus dem Google-Profil übernommen sind.",
+      "highlights": [
+        "Elektroinstallation in Gröbenzell",
+        "Neubau und Altbausanierung",
+        "Licht- und Sicherheitstechnik"
+      ],
+      "source": "Google",
+      "sourceUrl": "https://www.google.com/maps/search/?api=1&query=Elektroinstallation%20Bernd%20Klinder%20Industriestr.%2039%20Gr%C3%B6benzell",
+      "rating": null,
+      "count": null
+    },
+    "process": {
+      "headline": "So läuft Ihr Elektroprojekt",
+      "steps": [
+        { "title": "Anfrage", "text": "Anrufen oder kurz per Formular beschreiben, worum es geht." },
+        { "title": "Planung", "text": "Umfang, Leitungswege und Wünsche werden gemeinsam festgelegt." },
+        { "title": "Angebot", "text": "Sie erhalten ein klares Angebot für die Arbeiten." },
+        { "title": "Installation", "text": "Verlegen, anschließen, prüfen – und die fertige Anlage übergeben." }
+      ]
+    },
+    "gallery": {
+      "headline": "Elektrik, die man sieht – und die man nicht sieht",
+      "text": "Für die Live-Version zeigen wir hier echte Projekte des Betriebs.",
+      "items": [
+        { "title": "Neuer Verteiler", "photoNeeded": "sauber verdrahteter Sicherungskasten" },
+        { "title": "Altbau saniert", "photoNeeded": "neu verlegte Leitungen im Altbau vor dem Verputzen" },
+        { "title": "Lichtkonzept", "photoNeeded": "Wohnraum mit Einbauleuchten am Abend" },
+        { "title": "Alarmanlage", "photoNeeded": "Bewegungsmelder und Bedienteil an der Wand" },
+        { "title": "Sprechanlage", "photoNeeded": "neue Türsprechanlage am Hauseingang" }
+      ]
+    },
+    "region": {
+      "headline": "Elektriker für Gröbenzell und Umgebung",
+      "text": "Von Gröbenzell aus schnell in Olching, Puchheim, Eichenau, Germering und Lochhausen.",
+      "places": [
+        "Gröbenzell",
+        "Olching",
+        "Puchheim",
+        "Eichenau",
+        "Germering",
+        "Lochhausen"
+      ]
+    },
+    "faq": [
+      { "q": "Sanieren Sie auch die Elektrik im Altbau?", "a": "Ja, Altbausanierung gehört neben dem Neubau zu den Schwerpunkten." },
+      { "q": "Planen Sie auch die Beleuchtung?", "a": "Ja, Lichtkonzepte werden geplant und umgesetzt." },
+      { "q": "Bieten Sie Alarmanlagen an?", "a": "Ja, inklusive Bewegungsmeldern – passend zu Haus oder Betrieb geplant." },
+      { "q": "Wann sind Sie erreichbar?", "a": "Montag bis Freitag von 8 bis 18 Uhr telefonisch, sonst gern per E-Mail." },
+      { "q": "Arbeiten Sie auch außerhalb von Gröbenzell?", "a": "Ja, im Umkreis von Gröbenzell – fragen Sie einfach an." }
+    ],
+    "contact": {
+      "headline": "Ihr Angebot – kostenlos und unverbindlich",
+      "text": "Beschreiben Sie kurz Ihr Vorhaben: Neubau oder Altbau, welche Räume und was installiert werden soll.",
+      "topics": [
+        "Neubau",
+        "Altbausanierung",
+        "Licht",
+        "Alarm- & Sprechanlage",
+        "Sonstiges"
+      ],
+      "responseNote": "Rückmeldung werktags zwischen 8 und 18 Uhr."
+    },
+    "quote": {
+      "sizeLabel": "Worum geht es?",
+      "sizes": [
+        "Einzelne Steckdose/Leuchte",
+        "Ein Raum",
+        "Ganze Wohnung",
+        "Ganzes Haus"
+      ],
+      "timings": [
+        "So bald wie möglich",
+        "In den nächsten Wochen",
+        "In 1–3 Monaten",
+        "Ich plane erst noch"
+      ]
+    },
+    "stickyCta": "Angebot anfragen",
+    "look": {
+      "palette": 2,
+      "font": 6,
+      "hero": 0,
+      "services": 1,
+      "radius": 1,
+      "logo": 0,
+      "intro": 5
+    }
+  }
+}

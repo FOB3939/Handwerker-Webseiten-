@@ -1,0 +1,276 @@
+{
+  "id": "2026-10-22-93",
+  "slug": "sezer-seymen-trockenbau-erding",
+  "date": "2026-10-22",
+  "company": {
+    "name": "Sezer Seymen Trockenbau",
+    "owner": "Sezer Seymen",
+    "trade": "Trockenbau",
+    "city": "Erding",
+    "address": "Stadtweg 41, 85435 Erding (Altenerding)",
+    "phone": "0176 88199667",
+    "email": "seymensezer@hotmail.de",
+    "serviceArea": [
+      "Erding",
+      "Altenerding",
+      "Oberding",
+      "Moosinning",
+      "Fraunberg",
+      "Lengdorf",
+      "Finsing"
+    ]
+  },
+  "listings": {
+    "google": {
+      "url": "https://www.google.com/maps/search/?api=1&query=Sezer%20Seymen%20Trockenbau%20Stadtweg%2041%20Erding",
+      "rating": null,
+      "reviews": null,
+      "evidence": "KEIN Google-Beleg gefunden – Lead stützt sich auf die öffentlich gelistete Freemail-Adresse seymensezer@hotmail.de (11880-Eintrag, Kategorie Trockenbau & Trockenbauarbeiten, Stadtweg 41, Erding-Altenerding, Mobil 0176 88199667). Google-Eintrag in Maps prüfen."
+    },
+    "myhammer": {
+      "url": "https://www.11880.com/suche/trockenbau/erding",
+      "rating": null,
+      "reviews": null,
+      "evidence": "Kein MyHammer gefunden – Eintrag „Sezer Seymen“ in den 11880-Ortslisten Trockenbauer Erding, Fraunberg, Lengdorf, Finsing, Forstern sowie Innenausbauer Moosinning; keine Öffnungszeiten, keine Bewertungen, kein Website-Feld."
+    }
+  },
+  "websiteStatus": "keine eigene Website gefunden",
+  "websiteChecks": [
+    "(1) Website-Prüfung am 2026-10-21 (Vorlauf, RESERVE-geprüft): Namenssuche mit blocked_domains, Domain-Check, Telefon- und Impressum-Suche – alle negativ",
+    "(2) 2026-10-22: Spiegel-/Verzeichnissuche „Sezer Seymen Trockenbau Erding“ (11880, Gelbe Seiten, Cylex, rgv-bayern, trustlocal, firmania) – nur 11880-Einträge ohne Website-Feld, E-Mail auf Freemail-Domain hotmail.de (keine Firmendomain)",
+    "(3) Kein Google-Spiegel-Treffer (rgv-bayern/trustlocal/firmania) – Google-Eintrag nicht belegt",
+    "Website-Risiko: niedrig – alle Prüfungen negativ, nur Freemail-Adresse, keine Domain sichtbar"
+  ],
+  "facts": {
+    "services": [
+      "Trockenbau",
+      "Trockenbauarbeiten",
+      "Innenausbau"
+    ],
+    "experience": null,
+    "praisedFor": []
+  },
+  "strategy": {
+    "audience": "Hauseigentümer, Bauherren und Vermieter in Erding, Altenerding, Oberding und Moosinning, die Räume aufteilen, Dachgeschosse ausbauen oder Decken abhängen wollen",
+    "mainService": "Trockenbau – Wände, Decken und Innenausbau",
+    "trustSignal": "Inhaber Sezer Seymen persönlich per Handy und E-Mail erreichbar, Betrieb in Altenerding",
+    "conversionGoal": "Kostenloses Angebot für Trockenbau anfragen (per WhatsApp/Anruf mit Fotos)",
+    "visualConcept": "Helle Rohbau-Ästhetik: Metallständerwerk, frische Gipskartonplatten und glatt gespachtelte Fugen – präzise und aufgeräumt"
+  },
+  "sales": {
+    "score": 6,
+    "whyGoodLead": [
+      "Keine eigene Website gefunden – nur Verzeichniseinträge mit Handynummer und Hotmail-Adresse",
+      "Mobilnummer öffentlich gelistet – ideal für WhatsApp-Erstkontakt",
+      "Keine Bewertungen und kein Website-Feld – eine Website schafft schnell Sichtbarkeit",
+      "Wachsender Landkreis Erding mit viel Neubau und Dachausbau – Trockenbau ist gefragt"
+    ],
+    "pitch": "Hallo Herr Seymen, hier ist … – ich baue Websites für Handwerker im Landkreis Erding. Ich habe Ihren Trockenbau-Eintrag in Altenerding gefunden, aber keine eigene Website. Ich habe unverbindlich einen Entwurf vorbereitet, auf dem Kunden Ihre Trockenbauarbeiten sehen und direkt per WhatsApp anfragen können – darf ich Ihnen den Link schicken?"
+  },
+  "manualChecks": [
+    "Website-Risiko: niedrig – vor Versand in Google Maps prüfen, dass keine Website hinterlegt ist (Grund: Google-Eintrag nicht belegt, Lead stützt sich auf öffentliche Freemail-Adresse seymensezer@hotmail.de)",
+    "Google-Eintrag in Maps suchen (Existenz, Bewertungen) – falls keiner existiert, Google-Profil als Zusatzleistung anbieten",
+    "Leistungen nur allgemein belegt (Trockenbau & Trockenbauarbeiten, Innenausbau) – Detailleistungen (Decken, Dachausbau, Dämmung) beim Inhaber bestätigen",
+    "Adresse Stadtweg 41 ist evtl. Wohnadresse – vor Veröffentlichung fragen, ob sie auf der Website stehen soll",
+    "Logo und Projektfotos: nicht gefunden – beim Betrieb anfragen"
+  ],
+  "sources": [
+    {
+      "label": "11880 – Trockenbauer Erding (Liste mit Sezer Seymen, E-Mail und Mobilnummer)",
+      "url": "https://www.11880.com/suche/trockenbau/erding"
+    },
+    {
+      "label": "11880 – Trockenbauer Fraunberg",
+      "url": "https://www.11880.com/suche/trockenbau/fraunberg"
+    },
+    {
+      "label": "11880 – Innenausbauer Moosinning",
+      "url": "https://www.11880.com/suche/innenausbau/moosinning"
+    }
+  ],
+  "site": {
+    "theme": "stein",
+    "category": "handwerk",
+    "heroOffer": [
+      "Trennwände",
+      "Decken",
+      "Dachausbau",
+      "Innenausbau",
+      "Spachteln"
+    ],
+    "scene": "drywall",
+    "logoIcon": "trowel",
+    "logoMark": "SS",
+    "brandName": "Seymen Trockenbau",
+    "seoTitle": "Trockenbau in Erding – Sezer Seymen",
+    "seoDescription": "Trockenbau und Innenausbau in Erding, Altenerding und Umgebung: Wände, Decken, Dachausbau. Jetzt kostenloses Angebot anfragen – auch per WhatsApp.",
+    "nav": [
+      { "label": "Leistungen", "href": "#leistungen" },
+      { "label": "Projekte", "href": "#projekte" },
+      { "label": "Bewertungen", "href": "#bewertungen" },
+      { "label": "Ablauf", "href": "#ablauf" },
+      { "label": "FAQ", "href": "#faq" },
+      { "label": "Kontakt", "href": "#kontakt" }
+    ],
+    "hero": {
+      "eyebrow": "Trockenbau · Erding",
+      "headline": "Trockenbau für Erding und Umgebung",
+      "sub": "Neue Wände, glatte Decken und ausgebaute Dachgeschosse – direkt vom Inhaber.",
+      "ctaPrimary": "Kostenloses Angebot anfragen",
+      "ctaSecondary": "Anrufen",
+      "bullets": [
+        "Betrieb in Altenerding",
+        "Wände, Decken, Innenausbau",
+        "Per Handy und WhatsApp erreichbar"
+      ],
+      "imageLabel": "Metallständerwerk mit frisch beplankter Gipskartonwand"
+    },
+    "badges": [
+      { "title": "Trockenbau", "sub": "Wände & Decken" },
+      { "title": "Innenausbau", "sub": "Raum für Raum" },
+      { "title": "Inhaber", "sub": "Sezer Seymen" },
+      { "title": "Erding", "sub": "Altenerding" }
+    ],
+    "trust": [
+      { "value": "Vor Ort", "label": "Betrieb in Altenerding" },
+      { "value": "Direkt", "label": "Inhaber am Telefon" },
+      { "value": "Innen", "label": "Wände, Decken, Ausbau" },
+      { "value": "Mobil", "label": "auch per WhatsApp" }
+    ],
+    "servicesIntro": {
+      "headline": "Trockenbau, der Räume neu ordnet",
+      "text": "Ob zusätzliches Kinderzimmer, ausgebautes Dach oder abgehängte Decke: Trockenbau schafft schnell neue Räume – ohne lange Trocknungszeiten."
+    },
+    "services": [
+      {
+        "title": "Trennwände",
+        "text": "Ständerwände für neue Raumaufteilungen – gestellt, beplankt und bereit für Farbe oder Tapete.",
+        "items": ["Ständerwände", "Raumteiler", "Türöffnungen"]
+      },
+      {
+        "title": "Abgehängte Decken",
+        "text": "Gerade Deckenflächen auf Unterkonstruktion – ideal, um Leitungen zu verstecken oder Raumhöhen anzupassen.",
+        "items": ["Unterkonstruktion", "Leitungen verdecken", "Glatte Fläche"]
+      },
+      {
+        "title": "Dachausbau",
+        "text": "Dachschrägen und Kniestöcke verkleiden, damit aus dem Speicher ein nutzbarer Wohnraum wird.",
+        "items": ["Dachschrägen", "Kniestock", "Wohnraum gewinnen"]
+      },
+      {
+        "title": "Vorwände & Verkleidungen",
+        "text": "Vorsatzschalen und Verkleidungen für Rohre, Installationen und unebene Wände.",
+        "items": ["Vorsatzschalen", "Rohrkästen", "Installationswände"]
+      },
+      {
+        "title": "Spachteln & Finish",
+        "text": "Fugen und Flächen sauber gespachtelt und geschliffen – als Grundlage für ein glattes Endergebnis.",
+        "items": ["Fugen spachteln", "Schleifen", "Malerfertig"]
+      },
+      {
+        "title": "Innenausbau",
+        "text": "Umbau und Ausbau von Innenräumen in Wohnungen, Häusern und Gewerbeflächen.",
+        "items": ["Wohnungen", "Häuser", "Gewerberäume"]
+      }
+    ],
+    "why": {
+      "headline": "Trockenbau aus Altenerding – persönlich und unkompliziert.",
+      "points": [
+        { "title": "Kurze Wege", "text": "Von Altenerding schnell in Erding, Oberding, Moosinning und Fraunberg." },
+        { "title": "Ein Ansprechpartner", "text": "Sie sprechen direkt mit Inhaber Sezer Seymen – vom ersten Anruf bis zur Übergabe." },
+        { "title": "Schnell nutzbar", "text": "Trockenbau braucht keine langen Trocknungszeiten – Räume sind rasch bezugsfertig." },
+        { "title": "Fotos genügen", "text": "Ein paar Bilder per WhatsApp reichen oft für eine erste Einschätzung." }
+      ]
+    },
+    "reviews": {
+      "headline": "Was Kunden sagen",
+      "summary": "Kundenstimmen werden hier eingebunden, sobald sie aus dem Google-Profil übernommen sind.",
+      "highlights": [
+        "Trockenbau in Erding",
+        "Innenausbau",
+        "Direkter Kontakt zum Inhaber"
+      ],
+      "source": "Google",
+      "sourceUrl": "https://www.google.com/maps/search/?api=1&query=Sezer%20Seymen%20Trockenbau%20Stadtweg%2041%20Erding",
+      "rating": null,
+      "count": null
+    },
+    "process": {
+      "headline": "In vier Schritten zum neuen Raum",
+      "steps": [
+        { "title": "Anfrage", "text": "Fotos und grobe Maße per WhatsApp schicken – oder kurz anrufen." },
+        { "title": "Besichtigung", "text": "Umfang und Ausführung werden vor Ort besprochen." },
+        { "title": "Angebot", "text": "Sie erhalten ein klares Angebot für Ihr Vorhaben." },
+        { "title": "Ausführung", "text": "Ständerwerk, Beplankung, Spachteln – sauber übergeben." }
+      ]
+    },
+    "gallery": {
+      "headline": "Räume, die neu entstehen",
+      "text": "Für die Live-Version zeigen wir hier echte Projekte des Betriebs.",
+      "items": [
+        { "title": "Neue Trennwand", "photoNeeded": "Ständerwand im Rohbau und fertig gespachtelt" },
+        { "title": "Abgehängte Decke", "photoNeeded": "glatte Decke mit Einbauleuchten" },
+        { "title": "Dachausbau", "photoNeeded": "verkleidete Dachschräge im ausgebauten Speicher" },
+        { "title": "Rohrverkleidung", "photoNeeded": "Vorsatzschale im Bad vor dem Fliesen" },
+        { "title": "Gespachtelte Fläche", "photoNeeded": "malerfertig gespachtelte Wand" }
+      ]
+    },
+    "region": {
+      "headline": "Trockenbau im Landkreis Erding",
+      "text": "Von Altenerding aus im ganzen Raum Erding unterwegs – von Oberding bis Lengdorf.",
+      "places": [
+        "Erding",
+        "Altenerding",
+        "Oberding",
+        "Moosinning",
+        "Fraunberg",
+        "Lengdorf",
+        "Finsing"
+      ]
+    },
+    "faq": [
+      { "q": "Wie lange dauert eine neue Trennwand?", "a": "Das hängt von Größe und Ausführung ab. Ein genauer Zeitplan wird nach der Besichtigung abgestimmt." },
+      { "q": "Kann ich vorab Fotos schicken?", "a": "Ja, Fotos und grobe Maße per WhatsApp helfen für eine erste Einschätzung." },
+      { "q": "Bauen Sie auch Dachgeschosse aus?", "a": "Sprechen Sie Ihr Vorhaben einfach an – Umfang und Ausführung werden vor Ort geklärt." },
+      { "q": "Ist die Wand danach direkt streichfertig?", "a": "Nach dem Spachteln und Schleifen ist die Fläche bereit für Farbe oder Tapete." },
+      { "q": "Arbeiten Sie auch außerhalb von Erding?", "a": "Ja, im Umkreis von Erding – zum Beispiel in Oberding, Moosinning oder Fraunberg." }
+    ],
+    "contact": {
+      "headline": "Ihr Angebot – kostenlos und unverbindlich",
+      "text": "Beschreiben Sie kurz Ihr Vorhaben: welcher Raum, ungefähre Maße und ob Wand, Decke oder Dachausbau. Fotos helfen.",
+      "topics": [
+        "Trennwände",
+        "Abgehängte Decken",
+        "Dachausbau",
+        "Vorwände",
+        "Sonstiges"
+      ],
+      "responseNote": "Besichtigung nach Absprache."
+    },
+    "quote": {
+      "sizeLabel": "Was soll gebaut werden?",
+      "sizes": [
+        "Eine Wand",
+        "Eine Decke",
+        "Ein Raum",
+        "Dachgeschoss"
+      ],
+      "timings": [
+        "So bald wie möglich",
+        "In den nächsten Wochen",
+        "In 1–3 Monaten",
+        "Ich plane erst noch"
+      ]
+    },
+    "stickyCta": "Angebot anfragen",
+    "look": {
+      "palette": 2,
+      "font": 6,
+      "hero": 0,
+      "services": 1,
+      "radius": 1,
+      "logo": 0,
+      "intro": 5
+    }
+  }
+}
