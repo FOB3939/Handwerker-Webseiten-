@@ -1438,6 +1438,126 @@
       "googleLink": "https://www.google.com/maps/search/?api=1&query=Despa%20Dienstleistungen%20Am%20Steinacker%204%2C%2082216%20Maisach-Malching",
       "googleVerified": false,
       "reserve": true
+    },
+    {
+      "company": "Sezer Seymen Trockenbau",
+      "slug": "sezer-seymen-trockenbau-erding",
+      "trade": "Trockenbau",
+      "city": "Erding",
+      "date": "2026-10-22",
+      "phone": "0176 88199667",
+      "email": "seymensezer@hotmail.de",
+      "googleLink": "https://www.google.com/maps/search/?api=1&query=Sezer%20Seymen%20Trockenbau%20Stadtweg%2041%2C%2085435%20Erding%20%28Altenerding%29",
+      "googleVerified": false,
+      "reserve": false
+    },
+    {
+      "company": "Elektroinstallation Bernd Klinder",
+      "slug": "elektroinstallation-klinder-groebenzell",
+      "trade": "Elektroinstallation",
+      "city": "Gröbenzell",
+      "date": "2026-10-22",
+      "phone": "08142 60599",
+      "email": "elektro.klinder@t-online.de",
+      "googleLink": "https://www.google.com/maps/search/?api=1&query=Elektroinstallation%20Bernd%20Klinder%20Industriestr.%2039a%2C%2082194%20Gr%C3%B6benzell",
+      "googleVerified": false,
+      "reserve": false
+    },
+    {
+      "company": "Winfried Drobny Gas Wasser Sanitär",
+      "slug": "winfried-drobny-krailling",
+      "trade": "Sanitär & Heizung",
+      "city": "Krailling",
+      "date": "2026-10-22",
+      "phone": "089 89930260",
+      "email": "w.drobny@t-online.de",
+      "googleLink": "https://www.google.com/maps/search/?api=1&query=Winfried%20Drobny%20Gas%20Wasser%20Sanit%C3%A4r%20Konrad-Siebler-Stra%C3%9Fe%207%2C%2082152%20Krailling",
+      "googleVerified": false,
+      "reserve": false
+    },
+    {
+      "company": "Fa. Neuberger Pflasterarbeiten",
+      "slug": "neuberger-pflasterarbeiten-woerth",
+      "trade": "Pflasterarbeiten & Zaunbau",
+      "city": "Wörth (Kreis Erding)",
+      "date": "2026-10-22",
+      "phone": "0176 96378891",
+      "email": "neuberger.michael@web.de",
+      "googleLink": "https://www.google.com/maps/search/?api=1&query=Fa.%20Neuberger%20Pflasterarbeiten%20%C3%96tzstr.%201%2C%2085457%20W%C3%B6rth",
+      "googleVerified": false,
+      "reserve": false
+    },
+    {
+      "company": "Anton Reich Zimmerei & Baumfällungen",
+      "slug": "anton-reich-zimmerei-isen",
+      "trade": "Zimmerei",
+      "city": "Isen",
+      "date": "2026-10-22",
+      "phone": "0172 8350350",
+      "email": "reich.toni@web.de",
+      "googleLink": "https://www.google.com/maps/search/?api=1&query=Anton%20Reich%20Zimmerei%20%26%20Baumf%C3%A4llungen%20Weidacherweg%205%2C%2084424%20Isen",
+      "googleVerified": false,
+      "reserve": false
+    },
+    {
+      "company": "Schreinerei Wolf",
+      "slug": "schreinerei-wolf-geretsried",
+      "trade": "Schreinerei",
+      "city": "Geretsried",
+      "date": "2026-10-22",
+      "phone": "08171 32341",
+      "email": "wolfswerkstatt@hotmail.com",
+      "googleLink": "https://www.google.com/maps/search/?api=1&query=Schreinerei%20Wolf%20Keplerweg%207%2C%2082538%20Geretsried",
+      "googleVerified": false,
+      "reserve": false
+    },
+    {
+      "company": "NRK HausmeisterService",
+      "slug": "nrk-hausmeisterservice-markt-schwaben",
+      "trade": "Hausmeisterservice",
+      "city": "Markt Schwaben",
+      "date": "2026-10-22",
+      "phone": "01520 1386647",
+      "email": null,
+      "googleLink": "https://www.google.com/maps/search/?api=1&query=NRK%20HausmeisterService%20Adalbert-Stifter-Weg%201%2C%2085570%20Markt%20Schwaben",
+      "googleVerified": false,
+      "reserve": true
+    },
+    {
+      "company": "KC Holztechnik",
+      "slug": "kc-holztechnik-ottobrunn",
+      "trade": "Küchen- und Möbelmontage",
+      "city": "Ottobrunn",
+      "date": "2026-10-22",
+      "phone": "01575 8538772",
+      "email": null,
+      "googleLink": "https://www.google.com/maps/search/?api=1&query=KC%20Holztechnik%20Ottostr.%2057%2C%2085521%20Ottobrunn",
+      "googleVerified": false,
+      "reserve": true
+    },
+    {
+      "company": "SK Baumdienst",
+      "slug": "sk-baumdienst-sauerlach",
+      "trade": "Baumpflege",
+      "city": "Sauerlach",
+      "date": "2026-10-22",
+      "phone": "01577 7788666",
+      "email": null,
+      "googleLink": "https://www.google.com/maps/search/?api=1&query=SK%20Baumdienst%20Oberbrandweg%203%2C%2082054%20Sauerlach",
+      "googleVerified": false,
+      "reserve": true
+    },
+    {
+      "company": "Johann Hobmeier Malerbetrieb",
+      "slug": "malerbetrieb-hobmeier-erding",
+      "trade": "Malerbetrieb",
+      "city": "Erding",
+      "date": "2026-10-22",
+      "phone": "08122 18636",
+      "email": null,
+      "googleLink": "https://www.google.com/maps/search/?api=1&query=Johann%20Hobmeier%20Malerbetrieb%20Parkstr.%2025%2C%2085435%20Erding",
+      "googleVerified": false,
+      "reserve": true
     }
   ],
   "rejected": [
@@ -2864,6 +2984,226 @@
       "company": "Rene Janke Trockenbau (Hurlach)",
       "reason": "keine Kontaktdaten",
       "date": "2026-10-21"
+    },
+    {
+      "company": "GB Haussanierungen (Poing)",
+      "reason": "Website",
+      "date": "2026-10-22"
+    },
+    {
+      "company": "Malermeister Michael Franzke (Ebersberg)",
+      "reason": "Website",
+      "date": "2026-10-22"
+    },
+    {
+      "company": "Reiser Maler- und Lackierbetrieb (Glonn)",
+      "reason": "Website",
+      "date": "2026-10-22"
+    },
+    {
+      "company": "Jirsak Heizung & Sanitär (Glonn)",
+      "reason": "Website",
+      "date": "2026-10-22"
+    },
+    {
+      "company": "Helmut Pelz Malerfachbetrieb (Glonn)",
+      "reason": "Website",
+      "date": "2026-10-22"
+    },
+    {
+      "company": "MK Dienstleistungen (Markt Schwaben)",
+      "reason": "vermutlich Website mk-haus-garten.de",
+      "date": "2026-10-22"
+    },
+    {
+      "company": "NOJA Fliesen (Zorneding)",
+      "reason": "Website",
+      "date": "2026-10-22"
+    },
+    {
+      "company": "Frank Schmidt Heizung Sanitär (Germering)",
+      "reason": "Website/GmbH",
+      "date": "2026-10-22"
+    },
+    {
+      "company": "Siegfried Hermann Sanitär und Heizung (Germering)",
+      "reason": "Website",
+      "date": "2026-10-22"
+    },
+    {
+      "company": "Klaus Hanisch Heizung und Sanitär (Gilching)",
+      "reason": "Website",
+      "date": "2026-10-22"
+    },
+    {
+      "company": "Robert Siebler Schmiede und Schlosserei (Krailling)",
+      "reason": "GmbH & Co. KG",
+      "date": "2026-10-22"
+    },
+    {
+      "company": "Alexander Stütz Bauinstallationen (Petershausen)",
+      "reason": "Website",
+      "date": "2026-10-22"
+    },
+    {
+      "company": "Manuel Zull Schreinerei (Bergkirchen)",
+      "reason": "Website",
+      "date": "2026-10-22"
+    },
+    {
+      "company": "A. Held Handwerker (Bergkirchen)",
+      "reason": "Website",
+      "date": "2026-10-22"
+    },
+    {
+      "company": "F.A.T. Prezioso Heizung/Sanitär (Karlsfeld)",
+      "reason": "Website",
+      "date": "2026-10-22"
+    },
+    {
+      "company": "Etterer Heizung und Sanitär (Karlsfeld)",
+      "reason": "Website",
+      "date": "2026-10-22"
+    },
+    {
+      "company": "Szabi Gebäudereinigung",
+      "reason": "nicht belegbar",
+      "date": "2026-10-22"
+    },
+    {
+      "company": "Vitus Heilinger Pflasterbau (Oberding)",
+      "reason": "Website",
+      "date": "2026-10-22"
+    },
+    {
+      "company": "Zimmerei & Montageservice Schweiger (Dorfen)",
+      "reason": "Website",
+      "date": "2026-10-22"
+    },
+    {
+      "company": "Peter Grundner Schreinerei (Dorfen)",
+      "reason": "Website",
+      "date": "2026-10-22"
+    },
+    {
+      "company": "Michael Keilhacker Kirchenmaler (Taufkirchen/Vils)",
+      "reason": "Website",
+      "date": "2026-10-22"
+    },
+    {
+      "company": "Malerei Wegmann (Taufkirchen/Vils)",
+      "reason": "Domain-E-Mail",
+      "date": "2026-10-22"
+    },
+    {
+      "company": "Malerbetrieb Trettenbacher (Erding)",
+      "reason": "geschlossen",
+      "date": "2026-10-22"
+    },
+    {
+      "company": "Schreinerei Michael Schäfer (Wolfratshausen)",
+      "reason": "Website",
+      "date": "2026-10-22"
+    },
+    {
+      "company": "Zimmerei Hans Wiedemann (Lenggries)",
+      "reason": "Website",
+      "date": "2026-10-22"
+    },
+    {
+      "company": "Holzbau Leinauer (Geretsried)",
+      "reason": "Website",
+      "date": "2026-10-22"
+    },
+    {
+      "company": "Malerbetrieb Andreas Steininger (Holzkirchen)",
+      "reason": "Website",
+      "date": "2026-10-22"
+    },
+    {
+      "company": "Zimmerei Kürn (Holzkirchen)",
+      "reason": "Domain-E-Mail",
+      "date": "2026-10-22"
+    },
+    {
+      "company": "Fliesenfachbetrieb Sven Kluge (Unterhaching)",
+      "reason": "Jimdo/Domain-E-Mail",
+      "date": "2026-10-22"
+    },
+    {
+      "company": "Svetoslav Petrov Fliesenleger (Vaterstetten)",
+      "reason": "Website",
+      "date": "2026-10-22"
+    },
+    {
+      "company": "Fliesen Sternberg (Haar)",
+      "reason": "Website",
+      "date": "2026-10-22"
+    },
+    {
+      "company": "Martin Netscher Fliesenleger (Haar)",
+      "reason": "vermutlich Website",
+      "date": "2026-10-22"
+    },
+    {
+      "company": "H.E. Entruempelfix (Ottobrunn)",
+      "reason": "gleichnamige Websites",
+      "date": "2026-10-22"
+    },
+    {
+      "company": "BF Fliesen Design (Haar)",
+      "reason": "Website",
+      "date": "2026-10-22"
+    },
+    {
+      "company": "Andreas Waal Trockenbau (Penzberg)",
+      "reason": "Website",
+      "date": "2026-10-22"
+    },
+    {
+      "company": "Hamad Maler- und Verputzarbeiten (Weilheim)",
+      "reason": "Website",
+      "date": "2026-10-22"
+    },
+    {
+      "company": "Lautenbacher Elektrobau (Murnau)",
+      "reason": "nicht auffindbar",
+      "date": "2026-10-22"
+    },
+    {
+      "company": "Attila Riegel Malermeister (Miesbach)",
+      "reason": "keine Kontaktdaten",
+      "date": "2026-10-22"
+    },
+    {
+      "company": "Hausmeisterservice Benjamin Zeck (Neufahrn)",
+      "reason": "keine Kontaktdaten",
+      "date": "2026-10-22"
+    },
+    {
+      "company": "Nikolaus Huber Schreinerei (Wolfratshausen)",
+      "reason": "Website im Verzeichnis",
+      "date": "2026-10-22"
+    },
+    {
+      "company": "Josef Sappl Malerbetrieb (Holzkirchen)",
+      "reason": "Website",
+      "date": "2026-10-22"
+    },
+    {
+      "company": "Oliv Beschriftungen & Malerbetrieb (Holzkirchen)",
+      "reason": "Website",
+      "date": "2026-10-22"
+    },
+    {
+      "company": "R & R Dienstleistungen (Taufkirchen/Vils)",
+      "reason": "Website",
+      "date": "2026-10-22"
+    },
+    {
+      "company": "Kai Powels Maler- und Lackierermeister (Erding)",
+      "reason": "Website",
+      "date": "2026-10-22"
     }
   ]
 }

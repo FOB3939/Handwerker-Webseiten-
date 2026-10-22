@@ -1,282 +1,388 @@
 {
   "id": "2026-10-22-98",
-  "slug": "anton-reich-zimmerei-isen",
+  "slug": "schreinerei-wolf-geretsried",
   "date": "2026-10-22",
   "company": {
-    "name": "Anton Reich Zimmerei & Baumfällungen",
-    "owner": "Anton Reich",
-    "trade": "Zimmerei",
-    "city": "Isen",
-    "address": "Weidacherweg 5, 84424 Isen",
-    "phone": "0172 8350350",
-    "email": "reich.toni@web.de",
+    "name": "Schreinerei Wolf",
+    "owner": "Stefan Wolf",
+    "trade": "Schreinerei",
+    "city": "Geretsried",
+    "address": "Keplerweg 7, 82538 Geretsried",
+    "phone": "08171 32341",
+    "email": "wolfswerkstatt@hotmail.com",
     "serviceArea": [
-      "Isen",
-      "Lengdorf",
-      "Dorfen",
-      "Sankt Wolfgang",
-      "Maitenbeth",
-      "Walpertskirchen",
-      "Pastetten"
+      "Geretsried",
+      "Wolfratshausen",
+      "Gelting",
+      "Königsdorf",
+      "Eurasburg",
+      "Egling"
     ]
   },
   "listings": {
     "google": {
-      "url": "https://www.google.com/maps/search/?api=1&query=Anton%20Reich%20Zimmerei%20Weidacherweg%205%20Isen",
+      "url": "https://www.google.com/maps/search/?api=1&query=Schreinerei%20Wolf%20Keplerweg%207%20Geretsried",
       "rating": null,
       "reviews": null,
-      "evidence": "NICHT BELEGT – kein Google-Spiegel mit Bewertungen gefunden. Kriterium (A) über öffentlich gelistete Freemail-Adresse reich.toni@web.de (Das Örtliche, ED-live, Markt-Isen-Adressbuch) erfüllt. Zusätzlich wirsindhandwerk.de-Profil mit 5,0/5 bei 1 Bewertung (ca. 3,5 Jahre alt) – keine Google-Bewertung. Google-Eintrag in Maps prüfen."
+      "evidence": "NICHT DIREKT BELEGT – kein google.com/maps-Treffer und kein Spiegel (rgv-bayern/firmania) mit Bewertungszahl. tischler-schreiner.org und fensterbau.org führen „Schreinerei Wolf“, Keplerweg 7, 82538 Geretsried, Tel. 08171 32341, „Offen für Aufträge“, ohne Bewertungen und ohne Website-Feld. Annahme-Grundlage ist die öffentlich gelistete Freemail-Adresse wolfswerkstatt@hotmail.com (11880). In Maps prüfen."
     },
     "myhammer": {
-      "url": "https://www.wirsindhandwerk.de/anton-reich",
-      "rating": 5,
-      "reviews": 1,
-      "evidence": "Kein MyHammer-Profil gefunden – stattdessen wirsindhandwerk.de „Anton Reich Zimmerei & Baumfällungen in Isen“: 5,0/5 bei 1 Bewertung (Baumfällung mit Entasten und Wurzelfräsen; gelobt: pünktlich, gute Ausrüstung, freundlich, sauber). Einträge außerdem bei 11880 („Hausmeisterservice & Zimmerei“), Gelbe Seiten (Dachgauben, Dachgeschossausbau, Hausaufstockung), Das Örtliche, ED-live und im Adressbuch des Markt Isen (mit Mobil 0172 8350350)."
+      "url": "https://www.11880.com/branchenbuch/geretsried/schreiner",
+      "rating": null,
+      "reviews": null,
+      "evidence": "Kein MyHammer gefunden – Eintrag „Stefan Wolf Schreinerei Wolf“ in der 11880-Liste Schreiner Geretsried (Verdiweg 8, Tel. (08171) 32341, E-Mail wolfswerkstatt@hotmail.com)."
     }
   },
   "websiteStatus": "keine eigene Website gefunden",
   "websiteChecks": [
-    "(1) „Anton Reich Zimmerei Hausmeisterservice Isen Weidacherweg“ ohne Filter sowie „Impressum Anton Reich Zimmerei Baumfällungen Isen Inhaber“ mit blocked_domains (11880, Gelbe Seiten, Das Örtliche, Telefonbuch, Cylex, meinestadt, Creditreform, Facebook, Instagram, golocal, MyHammer, Northdata, Firmenwissen, WKDB, Yelp, trustlocal, wlw) – nur ED-live, Markt-Isen-Adressbuch, wirsindhandwerk-Profil und eine Spenderliste der FF Isen; kein eigenes Impressum",
-    "(2) Domain-Check allowed_domains zimmerei-reich.de, reich-zimmerei.de, zimmerei-reich-isen.de, anton-reich.de, toni-reich.de, reich-isen.de, hausmeisterservice-reich.de, reich-holzbau.de – Treffer nur reich-holzbau.de (Zimmerei Reich GmbH & Co. KG, Aindling-Gaulzhofen) und reich-zimmerei.de (Markus Reich, Lübeck) – fremde Betriebe, kein Bezug zu Isen",
-    "(3) Telefon-/Mailsuche „08083 549768“ / „reich.toni@web.de“ mit blocked_domains – nur ED-live und Markt-Isen-Adressbuch, keine Website",
-    "(4) E-Mail ist Freemail (web.de) – keine Firmendomain; kein „Homepage“-Feld in den Verzeichnis-Snippets",
-    "(5) wirsindhandwerk.de-Profil ist ein Plattformprofil, keine eigene Website",
-    "Website-Risiko: mittel – alle Prüfungen negativ, Freemail belegt, Google-Eintrag nicht nachgewiesen"
+    "(1) „Schreinerei Wolf Geretsried Verdiweg“ mit blocked_domains (11880, Gelbe Seiten, Das Örtliche, Telefonbuch, Cylex, meinestadt, Creditreform, Facebook, Instagram, golocal, MyHammer, Northdata, Firmenwissen, WKDB, Yelp, trustlocal, wlw) – nur Verzeichnisse (my-tischler.de „Wolf Stefan, Bärbel“, regioregister/branchen-info, fensterbau.org, tischler-schreiner.org, oeffnungszeitenbuch.de); keine eigene Domain.",
+    "(2) Domain-Check allowed_domains schreinerei-wolf.de, schreinerei-wolf-geretsried.de, wolf-schreinerei.de, schreinereiwolf.de, wolfswerkstatt.de, schreiner-wolf.de, wolf-geretsried.de, stefan-wolf-schreinerei.de – Treffer nur von fremden Schreinereien Wolf (Maihingen, Hessen, Westerwald/Rheinland-Pfalz), keine mit Bezug zu Geretsried.",
+    "(3) Telefon-/Mail-Suche „08171 32341“/„0817132341“/„wolfswerkstatt“ mit blocked_domains – nur eine fremde Hundeschule „Die Wolfswerkstatt“ (Göggingen), keine Website des Betriebs.",
+    "(4) Google-Spiegel-Suche (rgv-bayern, firmania, trustlocal, tischler-schreiner.org, fensterbau.org) – Einträge ohne Website-Feld und ohne Bewertungen; „Schreinerei Engelbert Wolf GmbH“ (Bruckmühl) ist ein anderer Betrieb.",
+    "(5) E-Mail ist Freemail (hotmail.com), keine Firmendomain.",
+    "Website-Risiko: mittel – alle Prüfungen negativ, Freemail öffentlich belegt, Google-Eintrag aber nicht direkt belegt"
   ],
   "facts": {
     "services": [
-      "Zimmerei",
-      "Dachgauben",
-      "Dachgeschossausbau",
-      "Hausaufstockung",
-      "Baumfällungen",
-      "Hausmeisterservice"
+      "Schreinerarbeiten",
+      "Fenstereinbau"
     ],
     "experience": null,
-    "praisedFor": [
-      "Pünktlichkeit",
-      "gute Ausrüstung",
-      "Freundlichkeit",
-      "sauberes Arbeiten bei der Baumfällung"
-    ]
+    "praisedFor": []
   },
   "strategy": {
-    "audience": "Hausbesitzer in Isen, Lengdorf, Dorfen und Sankt Wolfgang, die das Dach ausbauen, eine Gaube oder Aufstockung planen oder einen großen Baum sicher fällen lassen wollen",
-    "mainService": "Zimmerei – Dachgauben, Dachausbau und Aufstockung, dazu Baumfällung",
-    "trustSignal": "Inhabergeführte Zimmerei aus Isen; Kundenbewertung lobt Pünktlichkeit und gute Ausrüstung",
-    "conversionGoal": "Kostenlose Besichtigung bzw. Angebot anfragen (Anruf oder WhatsApp mit Fotos)",
-    "visualConcept": "Warmes Holz und Handwerk: Dachstuhl im Rohbau, frische Gaube, Fichtenbalken und Motorsäge im ländlichen Isental"
+    "audience": "Hausbesitzer und Wohnungseigentümer in Geretsried, Wolfratshausen und den Isartal-Gemeinden, die Fenster tauschen, Türen oder Einbauten vom Schreiner wollen",
+    "mainService": "Fenstereinbau und Schreinerarbeiten nach Maß",
+    "trustSignal": "Inhabergeführte Schreinerei in Geretsried, direkter Draht zu Stefan Wolf",
+    "conversionGoal": "Anfrage für Fenstertausch oder Schreinerarbeit per Telefon oder Formular",
+    "visualConcept": "Warmes Holz, Hobelspäne und präzise Fensterrahmen – handwerklich, ruhig, ordentlich"
   },
   "sales": {
     "score": 4,
     "whyGoodLead": [
-      "Keine eigene Website gefunden – nur Verzeichnisse und ein Plattformprofil",
-      "Mobilnummer und web.de-Adresse öffentlich – ideal für WhatsApp-Erstkontakt",
-      "Zwei klare Standbeine (Zimmerei und Baumfällung), die auf einer Website gut zu zeigen sind",
-      "Zimmerer sind in der bisherigen Lead-Liste selten"
+      "Keine eigene Website gefunden – nur Verzeichniseinträge",
+      "Öffentliche Hotmail-Adresse statt Firmendomain – Website + eigene Mail-Adresse als Paket",
+      "Verzeichnisse widersprechen sich bei der Adresse (Verdiweg 8 / Keplerweg 7) – eine eigene Seite schafft Klarheit",
+      "Fenstertausch ist im Isartal stark gefragt (Sanierung, Energiesparen)"
     ],
-    "pitch": "Hallo Herr Reich, hier ist … – ich baue Websites für Handwerker im Landkreis Erding. Ich habe Ihre Zimmerei und Baumfällungen in Isen gefunden, aber keine eigene Website. Ich habe unverbindlich einen Entwurf vorbereitet, auf dem Kunden Ihre Dachausbauten und Baumfällungen sehen und direkt anfragen können – darf ich Ihnen den Link schicken?"
+    "pitch": "Grüß Gott Herr Wolf, ich baue Websites für Handwerksbetriebe im Landkreis Bad Tölz-Wolfratshausen. Ihre Schreinerei in Geretsried finde ich nur in Branchenbüchern – teils noch mit alter Adresse. Ich habe unverbindlich einen Entwurf vorbereitet, auf dem Kunden Ihre Fenster- und Schreinerarbeiten sehen und direkt anfragen können. Darf ich Ihnen den Link schicken?"
   },
   "manualChecks": [
-    "Website-Risiko: mittel – vor Versand in Google Maps prüfen, dass keine Website hinterlegt ist (Grund: Google-Eintrag nicht nachgewiesen, nur Freemail belegt)",
-    "Mobilnummer 0172 8350350 stammt aus dem Adressbuch des Markt Isen – vor WhatsApp-Kontakt bestätigen; Festnetz 08083 549768",
-    "Inhaber Anton Reich nur indirekt belegt (Firmenname, Spenderliste FF Isen, E-Mail „reich.toni“) – Anrede beim Erstkontakt bestätigen",
-    "Leistungsmix klären: Zimmerei (Gauben, Dachausbau, Aufstockung) laut Gelbe Seiten, Hausmeisterservice laut 11880 – Schwerpunkt erfragen",
-    "Kein Bezug zur Zimmerei Reich GmbH & Co. KG (Aindling) oder Markus Reich (Lübeck) – nicht verwechseln",
+    "Website-Risiko: mittel – vor Versand in Google Maps prüfen, dass keine Website hinterlegt ist (Grund: Google-Eintrag nicht direkt belegt, Annahme über Freemail wolfswerkstatt@hotmail.com)",
+    "Adresse klären: ältere Einträge Verdiweg 8, neuere Keplerweg 7 (gleiche Tel. 08171 32341)",
+    "Keine Mobilnummer gefunden – Erstkontakt per E-Mail an wolfswerkstatt@hotmail.com oder Festnetz",
+    "Leistungen nur grob belegt (Schreinerei, Fenstereinbau als Spezialisierung laut fensterbau.org) – Türen, Möbel, Innenausbau beim Betrieb bestätigen",
+    "Öffnungszeiten (eine Quelle: Mo–Do 8–17, Fr bis 15:30) nicht übernommen – beim Betrieb bestätigen",
     "Logo und Projektfotos: nicht gefunden – beim Betrieb anfragen"
   ],
   "sources": [
     {
-      "label": "Markt Isen – Adressbuch: Anton Reich Zimmerei + Baumfällungen",
-      "url": "https://www.markt-isen.de/adressbuch/eintrag/anton-reich-zimmerei-baumfaellungen"
+      "label": "11880 – Schreiner Geretsried (Liste mit Stefan Wolf Schreinerei Wolf)",
+      "url": "https://www.11880.com/branchenbuch/geretsried/schreiner"
     },
     {
-      "label": "ED-live – Branchenbuch Region Erding: Anton Reich Zimmerei u. Baumfällungen",
-      "url": "https://www.ed-live.de/branchenbuch?eintrag=7877"
+      "label": "fensterbau.org – Schreinerei Wolf Geretsried",
+      "url": "https://www.fensterbau.org/geretsried/schreinerei-wolf-aUOxC0"
     },
     {
-      "label": "wirsindhandwerk – Anton Reich Zimmerei & Baumfällungen (Bewertungen)",
-      "url": "https://www.wirsindhandwerk.de/anton-reich/bewertungen"
+      "label": "tischler-schreiner.org – Schreinerei Wolf Geretsried",
+      "url": "https://www.tischler-schreiner.org/geretsried/schreinerei-wolf-aUOxC6"
     },
     {
-      "label": "Das Örtliche – Reich Anton Zimmerei, Isen",
-      "url": "https://mobil.dasoertliche.de/Themen/Reich-Anton-Zimmerei-Isen-Weidacher-Weg"
+      "label": "my-tischler.de – Wolf Stefan, Bärbel, Geretsried",
+      "url": "https://my-tischler.de/profil/219938/branche/tischler/stadt/geretsried/"
     },
     {
-      "label": "Gelbe Seiten – Reich Anton, Isen",
-      "url": "http://adresse.gelbeseiten.de/120002836265/reich-anton/isen"
-    },
-    {
-      "label": "11880 – Hausmeisterservices Isen (Anton Reich Hausmeisterservice & Zimmerei)",
-      "url": "https://www.11880.com/suche/hausmeisterservice/isen"
+      "label": "regioregister/branchen-info – Firmen Geretsried (Stefan Wolf „Schreinerei Wolf“)",
+      "url": "https://regioregister.branchen-info.net/geretsried/firmen/s/2/"
     }
   ],
   "site": {
     "theme": "werk",
     "category": "handwerk",
     "heroOffer": [
-      "Dachgauben",
-      "Dachausbau",
-      "Aufstockung",
-      "Baumfällung",
-      "Zimmerei"
+      "Fenstereinbau",
+      "Fenstertausch",
+      "Innentüren",
+      "Einbaumöbel",
+      "Reparaturen"
     ],
-    "scene": "facade",
-    "logoIcon": "roof",
-    "logoMark": "AR",
-    "brandName": "Zimmerei Anton Reich",
-    "seoTitle": "Zimmerei in Isen – Anton Reich",
-    "seoDescription": "Zimmerei und Baumfällungen in Isen: Dachgauben, Dachgeschossausbau und Aufstockungen. Jetzt kostenlos anfragen – auch per WhatsApp.",
+    "scene": "parquet",
+    "logoIcon": "cabinet",
+    "logoMark": "SW",
+    "brandName": "Schreinerei Wolf",
+    "seoTitle": "Schreinerei in Geretsried – Schreinerei Wolf",
+    "seoDescription": "Fenstereinbau und Schreinerarbeiten in Geretsried, Wolfratshausen und Umgebung. Jetzt unverbindlich anfragen bei Schreinerei Wolf.",
     "nav": [
-      { "label": "Leistungen", "href": "#leistungen" },
-      { "label": "Projekte", "href": "#projekte" },
-      { "label": "Bewertungen", "href": "#bewertungen" },
-      { "label": "Ablauf", "href": "#ablauf" },
-      { "label": "FAQ", "href": "#faq" },
-      { "label": "Kontakt", "href": "#kontakt" }
+      {
+        "label": "Leistungen",
+        "href": "#leistungen"
+      },
+      {
+        "label": "Projekte",
+        "href": "#projekte"
+      },
+      {
+        "label": "Bewertungen",
+        "href": "#bewertungen"
+      },
+      {
+        "label": "Ablauf",
+        "href": "#ablauf"
+      },
+      {
+        "label": "FAQ",
+        "href": "#faq"
+      },
+      {
+        "label": "Kontakt",
+        "href": "#kontakt"
+      }
     ],
     "hero": {
-      "eyebrow": "Zimmerei & Baumfällungen · Isen",
-      "headline": "Ihre Zimmerei in Isen",
-      "sub": "Gauben, Dachausbau und Aufstockungen – dazu sichere Baumfällungen im Isental.",
-      "ctaPrimary": "Kostenlos anfragen",
+      "eyebrow": "Schreinerei · Geretsried",
+      "headline": "Ihre Schreinerei in Geretsried",
+      "sub": "Fenster, Türen und Holzarbeiten – von der Schreinerei Wolf im Isartal.",
+      "ctaPrimary": "Anfrage stellen",
       "ctaSecondary": "Anrufen",
       "bullets": [
-        "Dachgauben und Dachgeschossausbau",
-        "Aufstockungen in Holzbauweise",
-        "Baumfällung mit Wurzelfräsen"
+        "Schreinerei aus Geretsried",
+        "Fenstereinbau und -tausch",
+        "Persönlicher Ansprechpartner"
       ],
-      "imageLabel": "neuer Dachstuhl mit Gaube aus hellem Holz"
+      "imageLabel": "neu eingebautes Holzfenster in einem Wohnhaus"
     },
     "badges": [
-      { "title": "Zimmerei", "sub": "Dach & Holzbau" },
-      { "title": "Gauben", "sub": "mehr Platz unterm Dach" },
-      { "title": "Baumfällung", "sub": "inkl. Wurzelfräsen" },
-      { "title": "Isen", "sub": "Weidacherweg" }
+      {
+        "title": "Fenster",
+        "sub": "Einbau & Tausch"
+      },
+      {
+        "title": "Holz",
+        "sub": "Schreinerarbeiten"
+      },
+      {
+        "title": "Inhaber",
+        "sub": "Stefan Wolf"
+      },
+      {
+        "title": "Geretsried",
+        "sub": "Keplerweg"
+      }
     ],
     "trust": [
-      { "value": "5,0", "label": "Kundenbewertung (wirsindhandwerk)" },
-      { "value": "Vor Ort", "label": "Zimmerei in Isen" },
-      { "value": "2", "label": "Standbeine: Holzbau & Bäume" },
-      { "value": "Mobil", "label": "direkt erreichbar" }
+      {
+        "value": "Vor Ort",
+        "label": "Werkstatt in Geretsried"
+      },
+      {
+        "value": "Fenster",
+        "label": "Schwerpunkt Einbau"
+      },
+      {
+        "value": "Inhaber",
+        "label": "direkter Ansprechpartner"
+      },
+      {
+        "value": "Isartal",
+        "label": "kurze Anfahrtswege"
+      }
     ],
     "servicesIntro": {
-      "headline": "Holzbau am Dach – und sichere Arbeit am Baum",
-      "text": "Von der neuen Gaube bis zur Aufstockung: Die Zimmerei schafft Wohnraum unter dem Dach. Große Bäume werden entastet, gefällt und auf Wunsch samt Wurzel entfernt."
+      "headline": "Schreinerarbeiten mit Schwerpunkt Fenster",
+      "text": "Ob ein einzelnes Fenster klemmt oder das ganze Haus neue Fenster bekommt: Die Schreinerei Wolf misst auf, baut ein und schließt sauber an."
     },
     "services": [
       {
-        "title": "Dachgauben",
-        "text": "Eine Gaube bringt Licht, Stehhöhe und nutzbare Fläche ins Dachgeschoss.",
-        "items": ["Schleppgaube", "Satteldachgaube", "Einbau im Bestand"]
+        "title": "Fenstereinbau",
+        "text": "Neue Fenster für Neubau und Altbau – maßgenau eingesetzt und dicht angeschlossen.",
+        "items": [
+          "Aufmaß vor Ort",
+          "Montage",
+          "Anschlussfugen"
+        ]
       },
       {
-        "title": "Dachgeschossausbau",
-        "text": "Aus dem Speicher wird Wohnraum – mit tragfähiger Holzkonstruktion als Grundlage.",
-        "items": ["Ausbau", "Holzkonstruktion", "Wohnraum"]
+        "title": "Fenstertausch",
+        "text": "Alte, undichte Fenster raus, neue rein – mit möglichst wenig Schmutz im Wohnraum.",
+        "items": [
+          "Ausbau Altfenster",
+          "Einbau Neufenster",
+          "Beiputz nach Absprache"
+        ]
       },
       {
-        "title": "Hausaufstockung",
-        "text": "Ein zusätzliches Geschoss in Holzbauweise – leicht und schnell aufgesetzt.",
-        "items": ["Aufstockung", "Holzbau", "Mehr Fläche"]
+        "title": "Fenster einstellen",
+        "text": "Klemmende oder zugige Flügel werden nachjustiert, Beschläge geprüft.",
+        "items": [
+          "Beschläge justieren",
+          "Dichtungen prüfen",
+          "Gängigkeit"
+        ]
       },
       {
-        "title": "Zimmererarbeiten",
-        "text": "Dachstühle, Balken und Holzkonstruktionen rund um Haus und Hof.",
-        "items": ["Dachstuhl", "Balkenarbeiten", "Reparaturen"]
+        "title": "Innentüren",
+        "text": "Zimmertüren tauschen oder neu setzen – passend zu Zarge und Raum.",
+        "items": [
+          "Türblatt tauschen",
+          "Zargen",
+          "Anpassen"
+        ]
       },
       {
-        "title": "Baumfällungen",
-        "text": "Auch hohe Bäume werden Stück für Stück entastet und kontrolliert umgelegt.",
-        "items": ["Entasten", "Fällen", "Abtransport"]
+        "title": "Einbauten nach Maß",
+        "text": "Schränke und Regale, die genau in Nische und Dachschräge passen.",
+        "items": [
+          "Einbauschränke",
+          "Regale",
+          "Nischenlösungen"
+        ]
       },
       {
-        "title": "Wurzelfräsen",
-        "text": "Nach der Fällung wird der Wurzelstock ausgefräst – die Fläche ist wieder nutzbar.",
-        "items": ["Wurzelstock", "Fräsen", "Fläche frei"]
+        "title": "Reparaturen",
+        "text": "Kleinere Holzreparaturen rund ums Haus – vom Fensterbrett bis zur Schranktür.",
+        "items": [
+          "Fensterbänke",
+          "Möbelreparatur",
+          "Holzteile ersetzen"
+        ]
       }
     ],
     "why": {
-      "headline": "Zimmerei aus Isen – mit Werkzeug für Dach und Baum.",
+      "headline": "Schreinerhandwerk aus Geretsried – direkt beim Inhaber.",
       "points": [
-        { "title": "Kurze Wege", "text": "Von Isen aus schnell in Lengdorf, Dorfen, Sankt Wolfgang und Maitenbeth." },
-        { "title": "Gut ausgerüstet", "text": "Ein Kunde hebt die gute Ausrüstung und die Pünktlichkeit hervor." },
-        { "title": "Sauber übergeben", "text": "Arbeiten werden ohne Verschmutzung abgeschlossen – laut Kundenbewertung." },
-        { "title": "Direkter Draht", "text": "Sie sprechen direkt mit dem Zimmerer – per Anruf oder WhatsApp." }
+        {
+          "title": "Kurze Wege",
+          "text": "Von Geretsried schnell in Wolfratshausen, Gelting, Königsdorf und Eurasburg."
+        },
+        {
+          "title": "Ein Ansprechpartner",
+          "text": "Sie sprechen mit Stefan Wolf – vom Aufmaß bis zur Montage."
+        },
+        {
+          "title": "Fenster als Schwerpunkt",
+          "text": "Einbau und Tausch von Fenstern gehören zum täglichen Handwerk."
+        },
+        {
+          "title": "Werkstatt vor Ort",
+          "text": "Anpassungen und Zuschnitte direkt aus der eigenen Werkstatt in Geretsried."
+        }
       ]
     },
     "reviews": {
       "headline": "Was Kunden sagen",
-      "summary": "Auf wirsindhandwerk.de mit 5,0 von 5 bewertet. Weitere Kundenstimmen werden eingebunden, sobald sie aus dem Google-Profil übernommen sind.",
+      "summary": "Kundenstimmen werden hier eingebunden, sobald sie aus dem Google-Profil übernommen sind.",
       "highlights": [
-        "Pünktlich",
-        "Gute Ausrüstung",
-        "Sauber gearbeitet"
+        "Schreinerei in Geretsried",
+        "Fenstereinbau",
+        "Direkter Kontakt"
       ],
-      "source": "wirsindhandwerk",
-      "sourceUrl": "https://www.wirsindhandwerk.de/anton-reich/bewertungen",
-      "rating": 5,
-      "count": 1
+      "source": "Google",
+      "sourceUrl": "https://www.google.com/maps/search/?api=1&query=Schreinerei%20Wolf%20Keplerweg%207%20Geretsried",
+      "rating": null,
+      "count": null
     },
     "process": {
-      "headline": "In vier Schritten zum Ergebnis",
+      "headline": "So kommen Ihre neuen Fenster ins Haus",
       "steps": [
-        { "title": "Anfrage", "text": "Fotos von Dach oder Baum per WhatsApp schicken – oder kurz anrufen." },
-        { "title": "Besichtigung", "text": "Konstruktion, Zugang und Umfang werden vor Ort angeschaut." },
-        { "title": "Angebot", "text": "Sie erhalten ein klares Angebot für Ihr Vorhaben." },
-        { "title": "Ausführung", "text": "Holzbau oder Fällung – erledigt und ordentlich hinterlassen." }
+        {
+          "title": "Anfrage",
+          "text": "Kurz anrufen oder eine E-Mail mit Fotos und ungefähren Maßen schicken."
+        },
+        {
+          "title": "Aufmaß",
+          "text": "Vor Ort wird genau gemessen und die Ausführung besprochen."
+        },
+        {
+          "title": "Angebot",
+          "text": "Sie erhalten ein klares Angebot mit Material und Montage."
+        },
+        {
+          "title": "Montage",
+          "text": "Einbau, Abdichtung und Einstellung – sauber übergeben."
+        }
       ]
     },
     "gallery": {
-      "headline": "Holz, das trägt",
-      "text": "Für die Live-Version zeigen wir hier echte Projekte des Betriebs.",
+      "headline": "Arbeiten aus der Werkstatt",
+      "text": "Für die Live-Version zeigen wir hier echte Projekte der Schreinerei Wolf.",
       "items": [
-        { "title": "Neue Gaube", "photoNeeded": "fertige Dachgaube an einem Einfamilienhaus" },
-        { "title": "Dachausbau", "photoNeeded": "offener Dachstuhl während des Ausbaus" },
-        { "title": "Aufstockung", "photoNeeded": "Holzrahmen eines aufgesetzten Geschosses" },
-        { "title": "Baumfällung", "photoNeeded": "hoher Baum beim Entasten mit Seilsicherung" },
-        { "title": "Wurzel gefräst", "photoNeeded": "Fläche nach dem Ausfräsen des Wurzelstocks" }
+        {
+          "title": "Neue Holzfenster",
+          "photoNeeded": "frisch eingebaute Holzfenster an einem Wohnhaus"
+        },
+        {
+          "title": "Fenstertausch Altbau",
+          "photoNeeded": "Fensteröffnung vor und nach dem Tausch"
+        },
+        {
+          "title": "Innentür",
+          "photoNeeded": "neu gesetzte Zimmertür mit Zarge"
+        },
+        {
+          "title": "Einbauschrank",
+          "photoNeeded": "Einbauschrank in Nische oder Dachschräge"
+        },
+        {
+          "title": "Werkstatt",
+          "photoNeeded": "Hobelbank und Werkstück in der Werkstatt"
+        }
       ]
     },
     "region": {
-      "headline": "Zimmerei für Isen und das Isental",
-      "text": "Von Isen aus schnell in Lengdorf, Dorfen, Sankt Wolfgang, Maitenbeth, Walpertskirchen und Pastetten.",
+      "headline": "Schreinerei für Geretsried und das Isartal",
+      "text": "Von Geretsried aus schnell in Wolfratshausen, Gelting, Königsdorf, Eurasburg und Egling.",
       "places": [
-        "Isen",
-        "Lengdorf",
-        "Dorfen",
-        "Sankt Wolfgang",
-        "Maitenbeth",
-        "Walpertskirchen",
-        "Pastetten"
+        "Geretsried",
+        "Wolfratshausen",
+        "Gelting",
+        "Königsdorf",
+        "Eurasburg",
+        "Egling"
       ]
     },
     "faq": [
-      { "q": "Bauen Sie Gauben auch in bestehende Dächer ein?", "a": "Ja, Dachgauben und Dachgeschossausbau gehören zu den Schwerpunkten der Zimmerei." },
-      { "q": "Ist eine Aufstockung in Holz möglich?", "a": "Ja, Hausaufstockungen werden angeboten. Ob es bei Ihrem Haus passt, klärt eine Besichtigung." },
-      { "q": "Fällen Sie auch große Bäume?", "a": "Ja, auch hohe Bäume werden entastet, gefällt und auf Wunsch samt Wurzelstock entfernt." },
-      { "q": "Kann ich vorab Fotos schicken?", "a": "Ja, Fotos per WhatsApp helfen für eine erste Einschätzung." },
-      { "q": "Arbeiten Sie auch außerhalb von Isen?", "a": "Ja, in Isen und den Nachbarorten – fragen Sie einfach an." }
+      {
+        "q": "Bauen Sie auch einzelne Fenster ein?",
+        "a": "Ja, vom einzelnen Fenster bis zum kompletten Fenstertausch – fragen Sie einfach an."
+      },
+      {
+        "q": "Kann ich vorab Fotos schicken?",
+        "a": "Ja, Fotos und grobe Maße per E-Mail helfen für eine erste Einschätzung."
+      },
+      {
+        "q": "Kommen Sie zum Aufmessen vorbei?",
+        "a": "Ja, für ein genaues Angebot wird vor Ort aufgemessen."
+      },
+      {
+        "q": "Wie lange dauert ein Fenstertausch?",
+        "a": "Das hängt von Anzahl und Ausführung ab. Der Zeitplan wird nach dem Aufmaß abgestimmt."
+      },
+      {
+        "q": "Arbeiten Sie auch außerhalb von Geretsried?",
+        "a": "Ja, im Umkreis von Geretsried und Wolfratshausen – fragen Sie einfach an."
+      }
     ],
     "contact": {
-      "headline": "Ihre Anfrage – kostenlos und unverbindlich",
-      "text": "Beschreiben Sie kurz Ihr Vorhaben: Gaube, Dachausbau, Aufstockung oder Baumfällung, dazu Ort und gewünschter Zeitraum. Fotos helfen.",
+      "headline": "Ihre Anfrage an die Schreinerei Wolf",
+      "text": "Beschreiben Sie kurz Ihr Vorhaben: wie viele Fenster oder Türen, ungefähre Maße und ob Neubau oder Tausch. Fotos helfen.",
       "topics": [
-        "Dachgaube",
-        "Dachgeschossausbau",
-        "Aufstockung",
-        "Baumfällung",
+        "Fenstereinbau",
+        "Fenstertausch",
+        "Innentüren",
+        "Einbauten",
+        "Reparatur",
         "Sonstiges"
       ],
-      "responseNote": "Besichtigung nach Absprache."
+      "responseNote": "Aufmaß vor Ort nach Absprache."
     },
     "quote": {
       "sizeLabel": "Worum geht es?",
       "sizes": [
-        "Gaube / Dachausbau",
-        "Aufstockung",
-        "Reparatur am Holz",
-        "Baum fällen"
+        "Ein Fenster",
+        "Mehrere Fenster",
+        "Ganzes Haus",
+        "Tür oder Einbau"
       ],
       "timings": [
         "So bald wie möglich",
@@ -285,14 +391,14 @@
         "Ich plane erst noch"
       ]
     },
-    "stickyCta": "Jetzt anfragen",
+    "stickyCta": "Anfrage stellen",
     "look": {
-      "palette": 2,
-      "font": 6,
-      "hero": 0,
+      "palette": 0,
+      "font": 10,
+      "hero": 2,
       "services": 1,
-      "radius": 1,
-      "logo": 0,
+      "radius": 4,
+      "logo": 2,
       "intro": 5
     }
   }

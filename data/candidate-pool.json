@@ -2,76 +2,40 @@
   "info": "Noch ungeprüfte Handwerker-Kandidaten aus früheren Läufen. Jeder Lauf prüft zuerst diese (oben = vielversprechend), entfernt geprüfte Einträge (angenommen → leads, verworfen → rejected in lead-history.json) und ergänzt neue Funde, für die das Suchbudget nicht reichte.",
   "candidates": [
     {
-      "name": "Sezer Seymen Trockenbau",
-      "trade": "Trockenbau",
-      "city": "Erding",
-      "hint": "RESERVE-geprüft 2026-10-21: Website-Prüfung negativ, kein Google-/Freemail-Beleg; Tel. 0176 88199667"
+      "name": "Pllana Handwerk und Dienstleistung",
+      "trade": "Hausmeisterservice & Montage",
+      "city": "Poing",
+      "hint": "RESERVE-geprüft 2026-10-22: Website-Prüfung negativ, kein Google-/Freemail-Beleg; Tel. 0176 45618543"
     },
     {
-      "name": "Elektroinstallation Bernd Klinder",
-      "trade": "Elektroinstallation",
-      "city": "Gröbenzell",
-      "hint": "RESERVE-geprüft 2026-10-21: Website-Prüfung negativ, kein Google-/Freemail-Beleg; Tel. 08142 60599"
+      "name": "Hausmeister Service Handwerker Innenausbau & Abbrucharbeiten – Dan Suciu",
+      "trade": "Hausmeisterservice & Innenausbau",
+      "city": "Taufkirchen",
+      "hint": "RESERVE-geprüft 2026-10-22: Website-Prüfung negativ, kein Google-/Freemail-Beleg; Tel. 0175 8172411"
     },
     {
       "name": "Zech Schreinerei",
       "trade": "Schreinerei",
       "city": "Bergkirchen",
-      "hint": "RESERVE-geprüft 2026-10-21: Website-Prüfung negativ, kein Google-/Freemail-Beleg; Tel. 08131 667981"
+      "hint": "RESERVE-geprüft 2026-10-22: Website-Prüfung negativ, kein Google-/Freemail-Beleg; Tel. 08131 667981"
     },
     {
       "name": "Zimmerei Franz X. Stierstorfer",
       "trade": "Zimmerei",
       "city": "Gröbenzell",
-      "hint": "RESERVE-geprüft 2026-10-21: Website-Prüfung negativ, kein Google-/Freemail-Beleg; Tel. 08142 540393"
+      "hint": "RESERVE-geprüft 2026-10-22: Website-Prüfung negativ, kein Google-/Freemail-Beleg; Tel. 08142 540393"
+    },
+    {
+      "name": "Rainer Schneller Spenglerei",
+      "trade": "Spenglerei",
+      "city": "Puchheim",
+      "hint": "RESERVE-geprüft 2026-10-22: Website-Prüfung negativ, kein Google-/Freemail-Beleg; Tel. 089 89009270"
     },
     {
       "name": "Wilhelm Gaugg Küchenmontage",
       "trade": "Küchenmontage",
       "city": "Freising",
-      "hint": "RESERVE-geprüft 2026-10-21: Website-Prüfung negativ, kein Google-/Freemail-Beleg; Tel. 08161 66409"
-    },
-    {
-      "name": "Hausmeisterservice Benjamin Zeck",
-      "trade": "Hausmeister",
-      "city": "Neufahrn",
-      "hint": "nur MyHammer; ungeprüft"
-    },
-    {
-      "name": "Lautenbacher Elektrobau",
-      "trade": "Elektro",
-      "city": "Murnau",
-      "hint": "MyHammer; ungeprüft"
-    },
-    {
-      "name": "Tk Elektrotechnik",
-      "trade": "Elektro",
-      "city": "Murnau",
-      "hint": "MyHammer; ungeprüft"
-    },
-    {
-      "name": "Andreas Waal Trockenbau",
-      "trade": "Trockenbau",
-      "city": "Penzberg",
-      "hint": "ungeprüft"
-    },
-    {
-      "name": "Attila Riegel Malermeister",
-      "trade": "Maler",
-      "city": "Miesbach",
-      "hint": "MyHammer 4,8 (16); ungeprüft"
-    },
-    {
-      "name": "LechRein GbR (Schleich)",
-      "trade": "Entrümpelung/Reinigung",
-      "city": "Kaufering",
-      "hint": "gegründet 2026; ungeprüft"
-    },
-    {
-      "name": "Hamad Maler- und Verputzarbeiten",
-      "trade": "Maler",
-      "city": "Weilheim",
-      "hint": "sellwerk-Profil; ungeprüft"
+      "hint": "RESERVE-geprüft: Website negativ, kein Google-/Freemail-Beleg; Tel. 08161 66409"
     },
     {
       "name": "Stevo Kuzmanovic",
@@ -80,82 +44,184 @@
       "hint": "Website negativ, Festnetz 08093 300599; RESERVE"
     },
     {
-      "name": "NOJA Fliesen",
-      "trade": "Fliesen",
-      "city": "Zorneding",
-      "hint": "Festnetz 08106 3759792; Website-Prüfung offen"
+      "name": "Tk Elektrotechnik",
+      "trade": "Elektro",
+      "city": "Murnau",
+      "hint": "MyHammer; ungeprüft"
     },
     {
-      "name": "Rainer Schneller Spenglerei",
+      "name": "LechRein GbR (Schleich)",
+      "trade": "Entrümpelung/Reinigung",
+      "city": "Kaufering",
+      "hint": "gegründet 2026; ungeprüft"
+    },
+    {
+      "name": "Ivan Karacic Hausmeisterservice",
+      "trade": "Hausmeister",
+      "city": "Poing",
+      "hint": "01573 6262964; Name+Domain negativ, Telefon/Impressum offen"
+    },
+    {
+      "name": "Marco Haugk Malermeister",
+      "trade": "Maler",
+      "city": "Grafing",
+      "hint": "ungeprüft"
+    },
+    {
+      "name": "Spenglerei T. Neundorf",
       "trade": "Spengler",
-      "city": "Puchheim",
-      "hint": "089 89009270; Name+Ort negativ, Domain/Telefon offen"
+      "city": "Grafing",
+      "hint": "Festnetz; ungeprüft"
     },
     {
-      "name": "Frank Schmidt Heizung Sanitär",
-      "trade": "Sanitär",
-      "city": "Germering",
-      "hint": "089 8403095; ungeprüft"
+      "name": "Wiesbauer & Schnell GbR",
+      "trade": "Parkett",
+      "city": "Markt Schwaben",
+      "hint": "Festnetz; ungeprüft"
     },
     {
-      "name": "Siegfried Hermann Sanitär und Heizung",
+      "name": "Jürgen Ostermeier Parkettlegermeister",
+      "trade": "Parkett",
+      "city": "Markt Schwaben",
+      "hint": "Festnetz; ungeprüft"
+    },
+    {
+      "name": "Martin Matuszewski Heizung- und Sanitärkundendienst",
       "trade": "Sanitär",
-      "city": "Germering",
+      "city": "Zorneding",
+      "hint": "4 Bewertungen; ungeprüft"
+    },
+    {
+      "name": "Wolfgang Wiesinger Sanitär",
+      "trade": "Sanitär",
+      "city": "Kirchseeon",
       "hint": "ungeprüft"
     },
     {
-      "name": "Klaus Hanisch Heizung und Sanitär",
-      "trade": "Sanitär",
-      "city": "Gilching",
-      "hint": "ungeprüft"
+      "name": "Hans Wörndle Malergeschäft",
+      "trade": "Maler",
+      "city": "Taufkirchen (Vils)",
+      "hint": "Festnetz 08084 432; ungeprüft"
     },
     {
-      "name": "Winfried Drobny Gas Wasser Sanitär",
-      "trade": "Sanitär",
-      "city": "Planegg",
-      "hint": "ungeprüft"
-    },
-    {
-      "name": "Robert Siebler Schmiede und Schlosserei",
-      "trade": "Metallbau",
-      "city": "Krailling",
-      "hint": "089 8573404; ungeprüft"
-    },
-    {
-      "name": "Alexander Stütz Bauinstallationen",
-      "trade": "Innenausbau",
-      "city": "Petershausen",
-      "hint": "11880; ungeprüft"
-    },
-    {
-      "name": "Manuel Zull Schreinerei",
+      "name": "Klaus Westphal Möbelschreinerei",
       "trade": "Schreiner",
-      "city": "Bergkirchen",
+      "city": "Dorfen",
       "hint": "ungeprüft"
     },
     {
-      "name": "A. Held Handwerker",
-      "trade": "Schweißer",
-      "city": "Bergkirchen",
-      "hint": "08142 440628; ungeprüft"
+      "name": "Ludwig Hundschell Schreiner",
+      "trade": "Schreiner",
+      "city": "Dorfen",
+      "hint": "ungeprüft"
     },
     {
-      "name": "F.A.T. Prezioso Heizung/Sanitär",
-      "trade": "Sanitär",
-      "city": "Karlsfeld",
-      "hint": "08131 430055; ungeprüft"
+      "name": "Georg Hagl Schreinerei",
+      "trade": "Schreiner",
+      "city": "Dorfen",
+      "hint": "ungeprüft"
     },
     {
-      "name": "Etterer Heizung und Sanitär",
-      "trade": "Sanitär",
-      "city": "Karlsfeld",
-      "hint": "08131 1637165; ungeprüft"
+      "name": "Josef Peller Metallbau",
+      "trade": "Metallbau",
+      "city": "Isen",
+      "hint": "ungeprüft"
     },
     {
-      "name": "Szabi Gebäudereinigung",
-      "trade": "Reinigung",
-      "city": "unklar",
-      "hint": "gebaeudereinigung-viga@gmx.de; ungeprüft"
+      "name": "Schmiede & Schlosserei Forstmaier",
+      "trade": "Metallbau",
+      "city": "Dorfen",
+      "hint": "ungeprüft"
+    },
+    {
+      "name": "Anton Maier Holzausbau",
+      "trade": "Zimmerer",
+      "city": "Isen",
+      "hint": "ungeprüft"
+    },
+    {
+      "name": "Thomas Gerg Zimmerei",
+      "trade": "Zimmerer",
+      "city": "Lenggries",
+      "hint": "08042 978554; ungeprüft"
+    },
+    {
+      "name": "Klaus Hanus Zimmerei",
+      "trade": "Zimmerer",
+      "city": "Lenggries",
+      "hint": "08042 5039990; 11880-Bewertungen; ungeprüft"
+    },
+    {
+      "name": "Andreas Frenzel Dachdeckermeister",
+      "trade": "Dachdecker",
+      "city": "Geretsried",
+      "hint": "08171 410061; ungeprüft"
+    },
+    {
+      "name": "Dachdeckerei Markus Greiner",
+      "trade": "Dachdecker",
+      "city": "Wolfratshausen",
+      "hint": "08171 480075; ungeprüft"
+    },
+    {
+      "name": "Peter Wagner Metallbau",
+      "trade": "Metallbau",
+      "city": "Geretsried",
+      "hint": "08171 380833; ungeprüft"
+    },
+    {
+      "name": "Hermann Bernkopf Schlosserei",
+      "trade": "Metallbau",
+      "city": "Geretsried",
+      "hint": "08171 911274; ungeprüft"
+    },
+    {
+      "name": "Bernhard Keller Metallbau",
+      "trade": "Metallbau",
+      "city": "Bad Tölz",
+      "hint": "08041 806812; ungeprüft"
+    },
+    {
+      "name": "Florian Riepl Gartenservice",
+      "trade": "Garten",
+      "city": "Holzkirchen",
+      "hint": "08024 478551; ungeprüft"
+    },
+    {
+      "name": "Gartenbau Messerer",
+      "trade": "Garten",
+      "city": "Holzkirchen",
+      "hint": "08024 9018862; ungeprüft"
+    },
+    {
+      "name": "Franz Sanierungs Service",
+      "trade": "Maler/Trockenbau",
+      "city": "Unterhaching",
+      "hint": "0176 68317047; Jimdo-Zugehörigkeit klären"
+    },
+    {
+      "name": "mlt71 Service Tomic",
+      "trade": "Montage/Reinigung",
+      "city": "Taufkirchen",
+      "hint": "01575 7295599; ungeprüft"
+    },
+    {
+      "name": "Möbelmontage BAM",
+      "trade": "Möbelmontage",
+      "city": "Taufkirchen",
+      "hint": "0170 2034201; Domain/Telefon offen"
+    },
+    {
+      "name": "Elektrotechnik Patron",
+      "trade": "Elektro",
+      "city": "Vaterstetten",
+      "hint": "08106 2100851; ungeprüft"
+    },
+    {
+      "name": "Josef Molin Elektroinstallation",
+      "trade": "Elektro",
+      "city": "Vaterstetten",
+      "hint": "08106 4190; ungeprüft"
     }
   ]
 }

@@ -1,108 +1,120 @@
 {
   "id": "2026-10-22-96",
-  "slug": "rainer-schneller-spenglerei-puchheim",
+  "slug": "neuberger-pflasterarbeiten-woerth",
   "date": "2026-10-22",
   "company": {
-    "name": "Rainer Schneller Spenglerei",
-    "owner": null,
-    "trade": "Spenglerei",
-    "city": "Puchheim",
-    "address": "Lagerstr. 12, 82178 Puchheim",
-    "phone": "089 89009270",
-    "email": null,
+    "name": "Fa. Neuberger Pflasterarbeiten",
+    "owner": "Udo Michael Neuberger",
+    "trade": "Pflasterarbeiten & Zaunbau",
+    "city": "Wörth (Kreis Erding)",
+    "address": "Ötzstr. 1, 85457 Wörth",
+    "phone": "0176 96378891",
+    "email": "neuberger.michael@web.de",
     "serviceArea": [
-      "Puchheim",
-      "Germering",
-      "Eichenau",
-      "Gröbenzell",
-      "Olching",
-      "Fürstenfeldbruck"
+      "Wörth",
+      "Hörlkofen",
+      "Erding",
+      "Walpertskirchen",
+      "Forstern",
+      "Pastetten",
+      "Markt Schwaben"
     ]
   },
   "listings": {
     "google": {
-      "url": "https://www.google.com/maps/search/?api=1&query=Rainer%20Schneller%20Spenglerei%20Lagerstr.%2012%20Puchheim",
+      "url": "https://www.google.com/maps/search/?api=1&query=Neuberger%20%C3%96tzstr.%201%2085457%20W%C3%B6rth",
       "rating": null,
       "reviews": null,
-      "evidence": "KEIN Google-Beleg gefunden – Spiegel-Suche (rgv-bayern, firmania, trustlocal) ohne Treffer; keine Freemail-Adresse belegt. Nur Verzeichniseinträge (11880: noch keine Bewertungen)."
+      "evidence": "NICHT BELEGT – kein Google-Spiegel (rgv-bayern, trustlocal, firmania, goyellow) mit Bewertungen gefunden. Kriterium (A) über öffentlich gelistete Freemail-Adresse neuberger.michael@web.de (11880-Eintrag „Fa. Neuberger Pflasterarbeiten“) erfüllt. Google-Eintrag in Maps prüfen."
     },
     "myhammer": {
-      "url": "https://www.11880.com/branchenbuch/puchheim-oberbayern/290114921B43334002/rainer-schneller-spenglerei.html",
+      "url": "https://www.11880.com/suche/pflasterarbeiten/eitting",
       "rating": null,
       "reviews": null,
-      "evidence": "Kein MyHammer gefunden – 11880-Eintrag „Rainer Schneller Spenglerei“, Lagerstr. 12, Puchheim, Tel. (089) 89009270, Kategorien Spengler/Klempner, Öffnungszeiten Mo–Do 8–18 Uhr; außerdem orte.muenchen.de und oeffnungszeitenbuch."
+      "evidence": "Kein MyHammer-Profil gefunden – Einträge bei 11880 (Pflasterarbeiten, Bodenleger, Verbundpflaster verlegen; Mobil 0176 96378891, web.de-Adresse), goyellow/bundes-telefonbuch („Firma Neuberger“, Ötzstr. 1, Wörth) und Kleinanzeigen-Inserat „Zäune, Terrassen, Pflaster, Gartenarbeiten“ (Wörth Kr. Erding, Einzelunternehmer Udo Michael Neuberger)."
     }
   },
   "websiteStatus": "keine eigene Website gefunden",
   "websiteChecks": [
-    "(1) „Rainer Schneller Spenglerei Puchheim“ mit blocked_domains (11880, Gelbe Seiten, Das Örtliche, Telefonbuch, Cylex, meinestadt, Creditreform, Facebook, Instagram, golocal, MyHammer, Northdata, Firmenwissen, WKDB, Yelp, trustlocal, wlw) – laut Vorprüfung negativ, nur Verzeichnisse",
-    "(2) Domain-Check allowed_domains spenglerei-schneller.de, schneller-spenglerei.de, spenglerei-schneller-puchheim.de, schneller-dach.de, rainer-schneller.de, schneller-puchheim.de, spenglereischneller.de, schneller-bedachung.de – nur schneller-dach.de (Gebrüder Schneller, Würzburg – anderer Betrieb)",
-    "(3) Telefonsuche „089 89009270“/„08989009270“ mit blocked_domains – nur orte.muenchen.de, oeffnungszeitenbuch.de und Stadtbranchenbuch-Listen; keine Website",
-    "(4) Impressum-Suche „Impressum Rainer Schneller Spenglerei Puchheim Inhaber“ – kein eigenes Impressum; nur andere Puchheimer Spenglereien (Happach GmbH, Gusenbauer GmbH – nicht verbunden)",
-    "Website-Risiko: mittel – alle Prüfungen negativ, aber weder Google-Eintrag noch Freemail belegt; Verzeichnisdaten teils sehr alt (Betrieb evtl. nicht mehr aktiv)"
+    "(1) „Neuberger Pflasterarbeiten Wörth Erding“ mit blocked_domains (11880, Gelbe Seiten, Das Örtliche, Telefonbuch, Cylex, meinestadt, Creditreform, Facebook, Instagram, golocal, MyHammer, Northdata, Firmenwissen, WKDB, Yelp, trustlocal, wlw) – nur goyellow, bundes-telefonbuch und ein Kleinanzeigen-Inserat; keine eigene Domain, keine Baukasten-Seite",
+    "(2) Domain-Check allowed_domains neuberger-pflaster.de, neuberger-pflasterarbeiten.de, pflaster-neuberger.de, neuberger-woerth.de, firma-neuberger.de, neuberger-galabau.de, neuberger-zaunbau.de, neuberger-bodenbelaege.de – keine Treffer",
+    "(3) Telefonsuche „0176 96378891“/„017696378891“ mit blocked_domains – nur Rufnummern-Blocklisten (anruferauskunft.de), keine Website",
+    "(4) Impressum-Suche „Udo Michael Neuberger Wörth Impressum Pflaster“ – kein eigenes Impressum; nur gleichnamige, fremde Neuberger-Firmen (Öhringen, Eichenbühl u. a.)",
+    "(5) E-Mail ist Freemail (web.de) – keine Firmendomain",
+    "Website-Risiko: mittel – alle Prüfungen negativ, Freemail belegt, aber kein Google-Eintrag nachgewiesen"
   ],
   "facts": {
     "services": [
-      "Spenglerarbeiten",
-      "Klempnerarbeiten"
+      "Pflasterarbeiten",
+      "Verbundpflaster verlegen",
+      "Terrassenbau",
+      "Garageneinfahrten und Wege",
+      "Zaun- und Sichtschutzmontage",
+      "Gartenarbeiten",
+      "Bodenlegerarbeiten"
     ],
     "experience": null,
     "praisedFor": []
   },
   "strategy": {
-    "audience": "Hauseigentümer und Hausverwaltungen in Puchheim, Germering, Eichenau und Gröbenzell mit Bedarf an Dachrinnen, Blechverkleidungen und Abdeckungen",
-    "mainService": "Spenglerarbeiten am Dach – Rinnen, Fallrohre, Verblechungen",
-    "trustSignal": "Spenglerei mit Werkstatt in Puchheim",
-    "conversionGoal": "Rückruf oder Angebot für Dachrinne oder Verblechung anfragen",
-    "visualConcept": "Handwerkliches Metall: glänzende Kupfer- und Titanzinkrinnen, gefalzte Bleche und klare Dachkanten"
+    "audience": "Hausbesitzer und Bauherren in Wörth, Erding, Forstern und Pastetten, die Einfahrt, Terrasse oder Gartenwege pflastern oder einen neuen Zaun setzen lassen wollen",
+    "mainService": "Pflasterarbeiten – Einfahrten, Terrassen und Wege",
+    "trustSignal": "Inhabergeführter Einzelbetrieb aus Wörth, direkt per Handy erreichbar",
+    "conversionGoal": "Kostenloses Angebot anfragen (per WhatsApp mit Fotos der Fläche oder Anruf)",
+    "visualConcept": "Erdig und solide: frisch verlegtes Verbundpflaster, saubere Fugen, Randsteine und Holzzaun im Abendlicht"
   },
   "sales": {
-    "score": 2,
+    "score": 4,
     "whyGoodLead": [
-      "Keine eigene Website gefunden – nur Verzeichniseinträge",
-      "Spengler sind gesucht (Dachrinnen, Sturmschäden) – Kunden suchen online nach Betrieben vor Ort",
-      "Keine Bewertungen sichtbar – Website und Google-Profil würden Sichtbarkeit schaffen",
-      "Nur RESERVE: Google-Eintrag und aktuelle Tätigkeit unbelegt"
+      "Keine eigene Website gefunden – nur Verzeichniseinträge und ein Kleinanzeigen-Inserat",
+      "Mobilnummer und web.de-Adresse öffentlich – ideal für WhatsApp-Erstkontakt",
+      "Inserat auf Kleinanzeigen zeigt aktive Kundensuche",
+      "Pflaster, Terrassen und Zäune sind im Landkreis Erding mit vielen Neubauten gefragt"
     ],
-    "pitch": "Guten Tag Herr Schneller, ich baue Websites für Handwerksbetriebe im Landkreis Fürstenfeldbruck. Ich habe Ihre Spenglerei in Puchheim im Branchenbuch gefunden, aber keine eigene Website. Ich habe unverbindlich einen Entwurf vorbereitet, auf dem Kunden Ihre Spenglerarbeiten sehen und direkt anfragen können – darf ich Ihnen den Link schicken?"
+    "pitch": "Hallo Herr Neuberger, hier ist … – ich baue Websites für Handwerker im Landkreis Erding. Ich habe Ihr Angebot für Pflaster, Terrassen und Zäune aus Wörth gesehen, aber keine eigene Website gefunden. Ich habe unverbindlich einen Entwurf vorbereitet, über den Kunden Fotos ihrer Einfahrt schicken und direkt anfragen können – darf ich Ihnen den Link schicken?"
   },
   "manualChecks": [
-    "RESERVE – weder Google-Eintrag noch Freemail-Adresse belegt: NUR versenden, wenn Google Maps einen Eintrag OHNE Website zeigt.",
-    "Betrieb noch aktiv? Ein Verzeichniseintrag ist über 12 Jahre alt – Festnetz 089 89009270 prüfen; keine Mobilnummer und keine E-Mail öffentlich",
-    "Inhaber nur aus Firmennamen abgeleitet (Rainer Schneller) – beim Erstkontakt bestätigen",
-    "Leistungen nur grob belegt (Spengler/Klempner laut 11880) – Details (Dachrinnen, Verblechungen, Kupfer/Titanzink) beim Betrieb bestätigen",
+    "Website-Risiko: mittel – vor Versand in Google Maps prüfen, dass keine Website hinterlegt ist (Grund: Google-Eintrag nicht nachgewiesen, nur Freemail belegt)",
+    "Google-Eintrag in Maps suchen (Name „Neuberger“, Ötzstr. 1, Wörth) – Existenz und Bewertungen prüfen",
+    "Firmenname uneinheitlich („Fa. Neuberger Pflasterarbeiten“, „Firma Neuberger“, Fußbodenlegerei) – beim Erstkontakt bevorzugten Namen erfragen",
+    "Inhabername aus Kleinanzeigen-Impressum (Udo Michael Neuberger); E-Mail lautet auf „neuberger.michael“ – Anrede bestätigen",
+    "Leistungsschwerpunkt klären: Pflaster/Zaun/Garten vs. Bodenleger – Website auf Außenanlagen ausgerichtet",
     "Logo und Projektfotos: nicht gefunden – beim Betrieb anfragen"
   ],
   "sources": [
     {
-      "label": "11880 – Rainer Schneller Spenglerei Puchheim",
-      "url": "https://www.11880.com/branchenbuch/puchheim-oberbayern/290114921B43334002/rainer-schneller-spenglerei.html"
+      "label": "11880 – Pflasterarbeiten Oberding/Eitting (Liste mit Fa. Neuberger Pflasterarbeiten)",
+      "url": "https://www.11880.com/suche/pflasterarbeiten/eitting"
     },
     {
-      "label": "Stadtbranchenbuch München – Rainer Schneller Puchheim",
-      "url": "https://orte.muenchen.de/90413.html"
+      "label": "goyellow – Firma Neuberger, Wörth (Kreis Erding)",
+      "url": "https://www.goyellow.de/home/fussbodenlegerei-firma-neuberger-woerth-kreis-erding--4n2vzr.html"
     },
     {
-      "label": "oeffnungszeitenbuch – Rainer Schneller Spenglerei",
-      "url": "https://www.oeffnungszeitenbuch.de/filiale/Puchheim-Rainer%2520Schneller%2520Spenglerei-2625862C.html"
+      "label": "bundes-telefonbuch – Firma Neuberger, 85457 Wörth",
+      "url": "https://www.bundes-telefonbuch.de/woerth/firma-neuberger-kt1605542211401"
+    },
+    {
+      "label": "Kleinanzeigen – Zäune, Terrassen, Pflaster, Gartenarbeiten (Wörth Kr. Erding)",
+      "url": "https://www.kleinanzeigen.de/s-anzeige/zaeune-terrassen-pflaster-gartenarbeiten/3061900425-239-6575"
     }
   ],
   "site": {
-    "theme": "werk",
+    "theme": "garten",
     "category": "handwerk",
     "heroOffer": [
-      "Dachrinnen",
-      "Fallrohre",
-      "Verblechungen",
-      "Kaminverkleidung",
-      "Reparaturen"
+      "Pflaster",
+      "Einfahrten",
+      "Terrassen",
+      "Gartenwege",
+      "Zäune"
     ],
-    "scene": "facade",
-    "logoIcon": "roof",
-    "logoMark": "RS",
-    "brandName": "Spenglerei Schneller",
-    "seoTitle": "Spenglerei in Puchheim – Rainer Schneller",
-    "seoDescription": "Spenglerarbeiten in Puchheim und Umgebung: Dachrinnen, Fallrohre, Verblechungen und Reparaturen. Jetzt Angebot anfragen.",
+    "scene": "garden",
+    "logoIcon": "trowel",
+    "logoMark": "N",
+    "brandName": "Neuberger Pflasterarbeiten",
+    "seoTitle": "Pflasterarbeiten in Wörth & Erding – Neuberger",
+    "seoDescription": "Pflaster, Einfahrten, Terrassen und Zäune in Wörth, Erding und Umgebung. Jetzt kostenloses Angebot anfragen – auch per WhatsApp.",
     "nav": [
       {
         "label": "Leistungen",
@@ -130,266 +142,266 @@
       }
     ],
     "hero": {
-      "eyebrow": "Spenglerei · Puchheim",
-      "headline": "Ihre Spenglerei in Puchheim",
-      "sub": "Dachrinnen, Fallrohre und Verblechungen – handwerklich gefertigt im Landkreis Fürstenfeldbruck.",
-      "ctaPrimary": "Angebot anfragen",
+      "eyebrow": "Pflaster & Zaunbau · Wörth",
+      "headline": "Pflasterarbeiten aus Wörth bei Erding",
+      "sub": "Einfahrten, Terrassen, Wege und Zäune – verlegt und gesetzt im Landkreis Erding.",
+      "ctaPrimary": "Kostenloses Angebot anfragen",
       "ctaSecondary": "Anrufen",
       "bullets": [
-        "Spenglerei aus Puchheim",
-        "Rinnen und Verblechungen",
-        "Reparatur und Neubau"
+        "Verbundpflaster für Einfahrt und Hof",
+        "Terrassen und Gartenwege",
+        "Zaun und Sichtschutz"
       ],
-      "imageLabel": "neue Titanzink-Dachrinne mit Fallrohr an einem Satteldach"
+      "imageLabel": "frisch gepflasterte Hofeinfahrt mit sauberen Randsteinen"
     },
     "badges": [
       {
-        "title": "Dachrinnen",
-        "sub": "neu & Reparatur"
+        "title": "Pflaster",
+        "sub": "Einfahrt & Hof"
       },
       {
-        "title": "Fallrohre",
-        "sub": "sicher abgeleitet"
+        "title": "Terrassen",
+        "sub": "Platz im Garten"
       },
       {
-        "title": "Verblechung",
-        "sub": "Kamin, Gaube, Attika"
+        "title": "Zäune",
+        "sub": "inkl. Sichtschutz"
       },
       {
-        "title": "Puchheim",
-        "sub": "Lagerstraße"
+        "title": "Wörth",
+        "sub": "Landkreis Erding"
       }
     ],
     "trust": [
       {
         "value": "Vor Ort",
-        "label": "Werkstatt in Puchheim"
+        "label": "Betrieb in Wörth"
       },
       {
-        "value": "Blech",
-        "label": "Spengler- und Klempnerarbeiten"
+        "value": "Inhaber",
+        "label": "persönlich am Bau"
       },
       {
-        "value": "FFB",
-        "label": "Landkreis Fürstenfeldbruck"
+        "value": "Außen",
+        "label": "Pflaster, Terrasse, Zaun"
       },
       {
-        "value": "Direkt",
-        "label": "kurzer Draht zum Betrieb"
+        "value": "Mobil",
+        "label": "direkt erreichbar"
       }
     ],
     "servicesIntro": {
-      "headline": "Spenglerarbeiten rund ums Dach",
-      "text": "Wo Wasser abläuft und Dach auf Wand trifft, braucht es sauber verarbeitetes Blech – von der Rinne bis zur Kaminverkleidung."
+      "headline": "Alles für Hof, Einfahrt und Garten",
+      "text": "Vom Unterbau bis zur letzten Fuge: Pflasterflächen, Terrassen und Zäune aus einer Hand – für Grundstücke rund um Wörth und Erding."
     },
     "services": [
       {
-        "title": "Dachrinnen",
-        "text": "Neue Rinnen oder Austausch alter Anlagen – passgenau montiert, damit Regenwasser zuverlässig abläuft.",
+        "title": "Pflasterarbeiten",
+        "text": "Verbundpflaster und Pflasterflächen auf tragfähigem Unterbau – eben verlegt und sauber eingefasst.",
         "items": [
-          "Hängerinnen",
-          "Austausch",
-          "Rinnenhalter"
+          "Verbundpflaster",
+          "Unterbau",
+          "Randsteine"
         ]
       },
       {
-        "title": "Fallrohre",
-        "text": "Fallrohre und Anschlüsse leiten das Wasser sicher vom Dach in die Entwässerung.",
+        "title": "Garageneinfahrten",
+        "text": "Befahrbare Einfahrten und Stellplätze, die dem Auto und dem Winter standhalten.",
         "items": [
-          "Fallrohre",
-          "Standrohre",
-          "Anschlüsse"
+          "Einfahrten",
+          "Stellplätze",
+          "Hofflächen"
         ]
       },
       {
-        "title": "Kaminverkleidung",
-        "text": "Blechverkleidungen schützen Kamin und Anschlüsse dauerhaft vor Witterung.",
+        "title": "Terrassenbau",
+        "text": "Neue Terrassenflächen als Verlängerung des Wohnraums nach draußen.",
         "items": [
-          "Kaminkopf",
-          "Anschlussbleche",
-          "Abdichtung"
+          "Terrassenflächen",
+          "Anschluss ans Haus",
+          "Gefälle"
         ]
       },
       {
-        "title": "Gaubenverblechung",
-        "text": "Gauben und Dachaufbauten erhalten eine dichte, saubere Blecheindeckung.",
+        "title": "Gartenwege",
+        "text": "Wege zum Hauseingang, zur Garage oder durch den Garten – trittsicher und ordentlich.",
         "items": [
-          "Gaubenwangen",
-          "Gaubendach",
-          "Anschlüsse"
+          "Hauszugang",
+          "Gartenwege",
+          "Einfassungen"
         ]
       },
       {
-        "title": "Mauerabdeckungen",
-        "text": "Abdeckungen für Mauern, Attiken und Fensterbänke halten Feuchtigkeit fern.",
+        "title": "Zaun & Sichtschutz",
+        "text": "Zäune und Sichtschutzelemente fachgerecht gesetzt – für Grenze, Garten und Terrasse.",
         "items": [
-          "Attika",
-          "Mauerkronen",
-          "Fensterbleche"
+          "Zaunmontage",
+          "Sichtschutz",
+          "Pfosten setzen"
         ]
       },
       {
-        "title": "Reparaturen",
-        "text": "Undichte Rinne, lose Bleche oder Sturmschaden – Schäden werden fachgerecht instandgesetzt.",
+        "title": "Gartenarbeiten",
+        "text": "Begleitende Arbeiten rund um Pflaster und Zaun sowie Pflege im Garten.",
         "items": [
-          "Undichtigkeiten",
-          "Sturmschäden",
-          "Rinnenreinigung"
+          "Gartenpflege",
+          "Vorbereitung",
+          "Aufräumen"
         ]
       }
     ],
     "why": {
-      "headline": "Spenglerhandwerk aus Puchheim – solide und direkt.",
+      "headline": "Pflaster und Zaun aus Wörth – direkt vom Inhaber.",
       "points": [
         {
           "title": "Kurze Wege",
-          "text": "Von Puchheim schnell in Germering, Eichenau, Gröbenzell und Olching."
+          "text": "Von Wörth aus schnell in Erding, Forstern, Pastetten und Walpertskirchen."
         },
         {
-          "title": "Fachgewerk",
-          "text": "Spengler- und Klempnerarbeiten sind das Kerngeschäft – nicht Nebensache."
+          "title": "Ein Ansprechpartner",
+          "text": "Sie sprechen direkt mit dem Inhaber – ohne Umwege über ein Büro."
         },
         {
-          "title": "Direkter Kontakt",
-          "text": "Ein Anruf genügt, um Schaden oder Vorhaben zu besprechen."
+          "title": "Außen komplett",
+          "text": "Pflaster, Terrasse und Zaun in einem Auftrag statt drei Firmen."
         },
         {
-          "title": "Neu und Reparatur",
-          "text": "Vom Komplettaustausch bis zur kleinen Ausbesserung."
+          "title": "Fotos genügen",
+          "text": "Ein paar Bilder der Fläche per WhatsApp reichen für eine erste Einschätzung."
         }
       ]
     },
     "reviews": {
       "headline": "Was Kunden sagen",
-      "summary": "Kundenstimmen werden hier eingebunden, sobald ein Google-Profil vorliegt.",
+      "summary": "Kundenstimmen werden hier eingebunden, sobald sie aus dem Google-Profil übernommen sind.",
       "highlights": [
-        "Spenglerei in Puchheim",
-        "Dachrinnen und Verblechungen",
+        "Pflasterarbeiten in Wörth",
+        "Einfahrten und Terrassen",
         "Direkter Kontakt"
       ],
       "source": "Google",
-      "sourceUrl": "https://www.google.com/maps/search/?api=1&query=Rainer%20Schneller%20Spenglerei%20Lagerstr.%2012%20Puchheim",
+      "sourceUrl": "https://www.google.com/maps/search/?api=1&query=Neuberger%20%C3%96tzstr.%201%2085457%20W%C3%B6rth",
       "rating": null,
       "count": null
     },
     "process": {
-      "headline": "So kommt das Blech aufs Dach",
+      "headline": "In vier Schritten zur neuen Fläche",
       "steps": [
         {
           "title": "Anfrage",
-          "text": "Anrufen und Schaden oder Vorhaben kurz schildern – Fotos helfen."
+          "text": "Fotos und ungefähre Maße der Fläche per WhatsApp schicken – oder kurz anrufen."
         },
         {
-          "title": "Aufmaß",
-          "text": "Rinnen, Anschlüsse und Bleche werden vor Ort aufgemessen."
+          "title": "Besichtigung",
+          "text": "Untergrund, Gefälle und Material werden vor Ort abgestimmt."
         },
         {
           "title": "Angebot",
-          "text": "Sie erhalten ein klares Angebot mit Material und Arbeit."
+          "text": "Sie erhalten ein klares Angebot für Pflaster, Terrasse oder Zaun."
         },
         {
-          "title": "Montage",
-          "text": "Fertigung und Montage – sauber angeschlossen und dicht übergeben."
+          "title": "Ausführung",
+          "text": "Aushub, Unterbau, Verlegen und Verfugen – die Fläche wird sauber übergeben."
         }
       ]
     },
     "gallery": {
-      "headline": "Blecharbeiten, die dicht halten",
+      "headline": "Flächen, die halten",
       "text": "Für die Live-Version zeigen wir hier echte Projekte des Betriebs.",
       "items": [
         {
-          "title": "Neue Dachrinne",
-          "photoNeeded": "montierte Dachrinne mit Rinnenhaltern an der Traufe"
+          "title": "Hofeinfahrt",
+          "photoNeeded": "gepflasterte Garageneinfahrt mit Randsteinen"
         },
         {
-          "title": "Fallrohr",
-          "photoNeeded": "Fallrohr mit Standrohr an einer Hausfassade"
+          "title": "Neue Terrasse",
+          "photoNeeded": "fertige Pflasterterrasse am Haus"
         },
         {
-          "title": "Kaminkopf",
-          "photoNeeded": "verblechter Kamin auf einem Ziegeldach"
+          "title": "Gartenweg",
+          "photoNeeded": "geschwungener Pflasterweg durch den Garten"
         },
         {
-          "title": "Gaube",
-          "photoNeeded": "Gaube mit Blecheindeckung und Wangen"
+          "title": "Zaun",
+          "photoNeeded": "neu gesetzter Zaun an der Grundstücksgrenze"
         },
         {
-          "title": "Mauerabdeckung",
-          "photoNeeded": "Attika- oder Mauerabdeckung aus Blech"
+          "title": "Sichtschutz",
+          "photoNeeded": "Sichtschutzwand an der Terrasse"
         }
       ]
     },
     "region": {
-      "headline": "Spenglerei für Puchheim und den Landkreis Fürstenfeldbruck",
-      "text": "Von Puchheim aus schnell in Germering, Eichenau, Gröbenzell, Olching und Fürstenfeldbruck.",
+      "headline": "Pflasterarbeiten für Wörth und den Landkreis Erding",
+      "text": "Von Wörth aus schnell in Hörlkofen, Erding, Walpertskirchen, Forstern, Pastetten und Markt Schwaben.",
       "places": [
-        "Puchheim",
-        "Germering",
-        "Eichenau",
-        "Gröbenzell",
-        "Olching",
-        "Fürstenfeldbruck"
+        "Wörth",
+        "Hörlkofen",
+        "Erding",
+        "Walpertskirchen",
+        "Forstern",
+        "Pastetten",
+        "Markt Schwaben"
       ]
     },
     "faq": [
       {
-        "q": "Reparieren Sie auch einzelne Rinnenstücke?",
-        "a": "Ja, auch kleinere Reparaturen an Rinnen und Fallrohren sind möglich – am besten kurz anrufen und den Schaden schildern."
-      },
-      {
-        "q": "Welche Materialien verwenden Sie?",
-        "a": "Das Material wird je nach Dach und Wunsch abgestimmt – sprechen Sie uns beim Aufmaß darauf an."
-      },
-      {
         "q": "Kann ich vorab Fotos schicken?",
-        "a": "Ja, Fotos vom Schaden oder der Situation am Dach helfen für eine erste Einschätzung."
+        "a": "Ja, Fotos und grobe Maße per WhatsApp helfen für eine erste Einschätzung."
       },
       {
-        "q": "Wann sind Sie erreichbar?",
-        "a": "Laut Verzeichnis Montag bis Donnerstag von 8 bis 18 Uhr unter 089 89009270."
+        "q": "Pflastern Sie auch Garageneinfahrten?",
+        "a": "Ja, Einfahrten, Stellplätze und Hofflächen gehören zum Angebot."
       },
       {
-        "q": "Arbeiten Sie auch außerhalb von Puchheim?",
-        "a": "Ja, im Umkreis von Puchheim – fragen Sie einfach an."
+        "q": "Setzen Sie auch Zäune?",
+        "a": "Ja, Zäune und Sichtschutz werden ebenfalls montiert – gern zusammen mit der Pflasterfläche."
+      },
+      {
+        "q": "Wie lange dauert eine neue Terrasse?",
+        "a": "Das hängt von Größe und Untergrund ab. Ein Zeitplan wird nach der Besichtigung abgestimmt."
+      },
+      {
+        "q": "Arbeiten Sie auch außerhalb von Wörth?",
+        "a": "Ja, im Landkreis Erding und Umgebung – fragen Sie einfach an."
       }
     ],
     "contact": {
-      "headline": "Ihre Anfrage für Spenglerarbeiten",
-      "text": "Beschreiben Sie kurz, worum es geht: Rinne, Fallrohr, Verblechung oder Schaden. Fotos helfen.",
+      "headline": "Ihr Angebot – kostenlos und unverbindlich",
+      "text": "Beschreiben Sie kurz Ihr Vorhaben: Einfahrt, Terrasse, Weg oder Zaun, ungefähre Fläche und gewünschter Zeitraum. Fotos helfen.",
       "topics": [
-        "Dachrinnen",
-        "Fallrohre",
-        "Kaminverkleidung",
-        "Verblechung",
-        "Reparatur",
+        "Pflasterarbeiten",
+        "Garageneinfahrt",
+        "Terrasse",
+        "Zaun & Sichtschutz",
         "Sonstiges"
       ],
-      "responseNote": "Aufmaß vor Ort nach Absprache."
+      "responseNote": "Besichtigung nach Absprache."
     },
     "quote": {
-      "sizeLabel": "Was steht an?",
+      "sizeLabel": "Welche Fläche soll entstehen?",
       "sizes": [
-        "Kleine Reparatur",
-        "Rinne an einer Hausseite",
-        "Rinnen ums ganze Haus",
-        "Verblechung / Kamin"
+        "Gartenweg",
+        "Terrasse",
+        "Einfahrt / Stellplatz",
+        "Hoffläche / Zaun"
       ],
       "timings": [
         "So bald wie möglich",
         "In den nächsten Wochen",
-        "In 1–3 Monaten",
+        "Im Frühjahr",
         "Ich plane erst noch"
       ]
     },
     "stickyCta": "Angebot anfragen",
     "look": {
-      "palette": 2,
-      "font": 6,
+      "palette": 0,
+      "font": 0,
       "hero": 0,
-      "services": 1,
-      "radius": 1,
+      "services": 0,
+      "radius": 3,
       "logo": 0,
-      "intro": 5
+      "intro": 1
     }
   }
 }

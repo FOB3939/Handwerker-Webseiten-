@@ -142,3 +142,17 @@ Schnell-Check-Liste mit Google-Maps-Links und Reserve-Kandidaten.
 - Reserve: Attila Nemeth (Olching): https://claude.ai/artifact/KzeCpy19wdASo1ciDjgi5h
 - Reserve: Muncz Spengler- und Dacharbeiten (Germering): https://claude.ai/artifact/RMVCBW5a9j1B2fvBb794Tt
 - Reserve: Despa Dienstleistungen (Maisach): https://claude.ai/artifact/YKqVpgZqszYvJHkv3CfDSB
+
+## Entwürfe 2026-10-22
+
+- WhatsApp-Entwürfe: https://claude.ai/artifact/UB5hrLi5bvdMHWdc4chuCA
+- Sezer Seymen Trockenbau (Erding): https://claude.ai/artifact/VZznR4W79e24sNA54QnHEb
+- Elektroinstallation Bernd Klinder (Gröbenzell): https://claude.ai/artifact/SY9Faq132JFFWMYogn2vBV
+- Winfried Drobny Gas Wasser Sanitär (Krailling): https://claude.ai/artifact/HF4vgKQEMjT3g28TnHHZK7
+- Fa. Neuberger Pflasterarbeiten (Wörth): https://claude.ai/artifact/4wmBcMk8zgwSDi5GS2VkWU
+- Anton Reich Zimmerei & Baumfällungen (Isen): https://claude.ai/artifact/HyckFfFfchi5XLeAEVEQEe
+- Schreinerei Wolf (Geretsried): https://claude.ai/artifact/LpVZCKxfsjeqK8sTs8G67W
+- Reserve: NRK HausmeisterService (Markt Schwaben): https://claude.ai/artifact/P2oJCnMoEQ7nZcybXkaPJU
+- Reserve: KC Holztechnik (Ottobrunn): https://claude.ai/artifact/5XvWM6Y9zZm8YsEAQcxftj
+- Reserve: SK Baumdienst (Sauerlach): https://claude.ai/artifact/AoqAoSp3R5yn91q6xQsFPz
+- Reserve: Johann Hobmeier Malerbetrieb (Erding): https://claude.ai/artifact/59QUVFp8TsEiRHnFCirqav

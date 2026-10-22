@@ -1,265 +1,390 @@
 {
   "id": "2026-10-22-102",
-  "slug": "dan-suciu-taufkirchen",
+  "slug": "malerbetrieb-hobmeier-erding",
   "date": "2026-10-22",
   "company": {
-    "name": "Hausmeister Service Handwerker Innenausbau & Abbrucharbeiten – Dan Suciu",
-    "owner": "Dan Suciu",
-    "trade": "Hausmeisterservice & Innenausbau",
-    "city": "Taufkirchen",
-    "address": "Walleitnerweg 10, 82024 Taufkirchen",
-    "phone": "0175 8172411",
+    "name": "Johann Hobmeier Malerbetrieb",
+    "owner": "Johann Hobmeier",
+    "trade": "Malerbetrieb",
+    "city": "Erding",
+    "address": "Parkstr. 25, 85435 Erding",
+    "phone": "08122 18636",
     "email": null,
     "serviceArea": [
-      "Taufkirchen",
-      "Unterhaching",
-      "Oberhaching",
-      "Ottobrunn",
-      "Neubiberg",
-      "Sauerlach"
+      "Erding",
+      "Altenerding",
+      "Langengeisling",
+      "Klettham",
+      "Oberding",
+      "Moosinning"
     ]
   },
   "listings": {
     "google": {
-      "url": "https://www.google.com/maps/search/?api=1&query=Dan%20Suciu%20Walleitnerweg%2010%20Taufkirchen",
+      "url": "https://www.google.com/maps/search/?api=1&query=Johann%20Hobmeier%20Malerbetrieb%20Parkstr.%2025%20Erding",
       "rating": null,
       "reviews": null,
-      "evidence": "NICHT BELEGT – kein Google-Spiegel (rgv-bayern, trustlocal, firmania, firmenABC) gefunden. Belegt sind der 11880-Eintrag „Dan Suciu“ (Walleitnerweg 10, Taufkirchen, (0175) 8172411; Möbelmontage, Terrassenbau, Verputzer) sowie Profile auf blauarbeit.de („HausmeisterService Handwerker Innenausbau & Abbrucharbeiten“, Walleitnerweg 10, 82024 Taufkirchen) und handwerker-expertencheck.de (Dan Suciu, Taufkirchen). In Maps prüfen."
+      "evidence": "NICHT BELEGT – kein Google-Spiegel (trustlocal, rgv-bayern, firmania, oeffnungszeitenbuch) mit eigenem Profil gefunden; Hobmeier taucht nur als Nachbar-Eintrag auf fremden Seiten auf. In Google Maps prüfen."
     },
     "myhammer": {
-      "url": "https://www.blauarbeit.de/handwerker/muenchen/hausmeisterservice-handwerker-innenausbau-abbrucharbeiten",
-      "rating": null,
-      "reviews": null,
-      "evidence": "Kein MyHammer gefunden – stattdessen Handwerkerprofil auf blauarbeit.de mit Leistungen Hausmeisterservice, Innenausbau, Trockenbau, Renovierung, Möbelmontage, Garten- und Landschaftspflege, leichte Abbrucharbeiten."
+      "url": "https://www.11880.com/branchenbuch/erding/060693517B27300349/johann-hobmeier-malerbetrieb.html",
+      "rating": 4.88,
+      "reviews": 8,
+      "evidence": "Kein MyHammer gefunden – 11880-Eintrag „Johann Hobmeier Malerbetrieb“, Parkstr. 25, 85435 Erding, Tel. (08122) 18636, 8 Bewertungen Ø 4,88 (Quelle GoLocal, sichtbare Bewertungen 2018–2020), ohne E-Mail- und ohne Website-Feld."
     }
   },
   "websiteStatus": "keine eigene Website gefunden",
   "websiteChecks": [
-    "(1) „Dan Suciu Taufkirchen Möbelmontage Walleitnerweg“ mit blocked_domains (11880, Gelbe Seiten, Das Örtliche, Telefonbuch, Cylex, meinestadt, Creditreform, Facebook, Instagram, golocal, MyHammer, Northdata, Firmenwissen, WKDB, Yelp, trustlocal, wlw) – nur Portalprofile (blauarbeit.de, handwerker-expertencheck.de), keine eigene Domain",
-    "(2) Domain-Check allowed_domains suciu-hausmeisterservice.de, hausmeisterservice-suciu.de, suciu-service.de, dan-suciu.de, suciu.de, suciu-handwerker.de, hausmeister-suciu.de, suciu-taufkirchen.de – keine Treffer",
-    "(3) Telefonsuche „0175 8172411“/„01758172411“ – keine Treffer",
-    "(4) Google-Spiegel-Suche (rgv-bayern, firmania, trustlocal, restaurant-aris, firmenABC) – kein Eintrag gefunden",
-    "Website-Risiko: mittel – keine Website gefunden, aber weder Google-Eintrag noch Freemail belegt (RESERVE)"
+    "(1) „Johann Hobmeier Malerbetrieb Erding Parkstr“ mit blocked_domains (11880, Gelbe Seiten, Das Örtliche, Telefonbuch, Cylex, meinestadt, Creditreform, Facebook, Instagram, golocal, MyHammer, Northdata, Firmenwissen, WKDB, Yelp, trustlocal, wlw) – nur Verzeichnisse (maler24.biz, my-profi-maler.de, maler-vergleich.com, deutschbranchenbuch), keine eigene Domain",
+    "(2) Domain-Check allowed_domains hobmeier.de, maler-hobmeier.de, malerbetrieb-hobmeier.de, hobmeier-maler.de, hobmeier-erding.de, malerhobmeier.de, hobmeier-malerbetrieb.de, malermeister-hobmeier.de – keine Treffer",
+    "(3) Telefonsuche „08122 18636“/„0812218636“ mit blocked_domains – nur maler24.biz und Stadtbranchenbuch (Erding/Altenerding), keine Website",
+    "(4) Impressum-Suche „Impressum Hobmeier Johann Malermeister Erding“ – nur Impressen anderer Erdinger Maler (malermeister-erding.de, maler-erding.de), kein eigenes",
+    "(5) 11880/Das Örtliche: kein Website- und kein E-Mail-Feld; keine Freemail gefunden",
+    "Website-Risiko: mittel – alle Prüfungen negativ, aber weder Google-Eintrag noch Freemail belegt (RESERVE)"
   ],
   "facts": {
     "services": [
-      "Hausmeisterservice",
-      "Innenausbau",
-      "Trockenbau",
-      "Renovierung",
-      "Möbelmontage",
-      "Garten- und Landschaftspflege",
-      "Leichte Abbrucharbeiten",
-      "Terrassenbau",
-      "Verputzarbeiten"
+      "Malerarbeiten",
+      "Lackierarbeiten"
     ],
     "experience": null,
     "praisedFor": []
   },
   "strategy": {
-    "audience": "Hausbesitzer, Vermieter und Mieter in Taufkirchen, Unterhaching und Oberhaching, die einen Ansprechpartner für Renovierung, Möbelmontage, kleine Abbrüche und Gartenpflege suchen",
-    "mainService": "Renovierung und Innenausbau – vom Rückbau bis zur fertigen Wand",
-    "trustSignal": "Inhaber Dan Suciu persönlich vor Ort in Taufkirchen, direkt per Handy erreichbar",
-    "conversionGoal": "Kostenloses Angebot anfragen (per WhatsApp mit Fotos)",
-    "visualConcept": "Handfeste Baustellenoptik: Rückbau, frisch verputzte Wände, montierte Möbel und gepflegte Terrasse – alles aus einer Hand"
+    "audience": "Hausbesitzer, Wohnungseigentümer und Vermieter in Erding, Altenerding und Umgebung, die Räume streichen, Türen und Fenster lackieren oder die Fassade auffrischen lassen wollen",
+    "mainService": "Maler- und Lackierarbeiten innen und außen",
+    "trustSignal": "Inhabergeführter Malerbetrieb in Erding mit 8 Bewertungen (Ø 4,88 auf 11880)",
+    "conversionGoal": "Kostenloses Angebot für Malerarbeiten anfragen (Anruf oder Formular mit Fotos)",
+    "visualConcept": "Frisch gestrichene, helle Wohnräume und sauber lackierte Holzflächen – ruhige Farbflächen, klare Kanten, abgeklebte Übergänge"
   },
   "sales": {
     "score": 3,
     "whyGoodLead": [
-      "Keine eigene Website gefunden – nur Portal- und Verzeichnisprofile",
-      "Mobilnummer öffentlich gelistet – WhatsApp-Erstkontakt möglich",
-      "Breites Leistungsspektrum (Renovierung, Montage, Garten) lässt sich auf einer Seite klar ordnen",
-      "Inhaber namentlich bekannt – persönliche Ansprache möglich"
+      "Keine eigene Website gefunden – nur Verzeichniseinträge mit Festnetznummer",
+      "Gute Bewertungen (8, Ø 4,88 auf 11880) – Zufriedenheit lässt sich auf einer Website sichtbar machen",
+      "Malerarbeiten sind im wachsenden Raum Erding stark nachgefragt",
+      "Inhabergeführter Kleinbetrieb – direkter Draht zum Entscheider"
     ],
-    "pitch": "Hallo Herr Suciu, hier ist … – ich baue Websites für Handwerker im Münchner Süden. Ich habe Ihr Profil für Innenausbau und Hausmeisterservice in Taufkirchen gefunden, aber keine eigene Website. Ich habe unverbindlich einen Entwurf vorbereitet, auf dem Kunden Ihre Leistungen sehen und direkt per WhatsApp anfragen können – darf ich Ihnen den Link schicken?"
+    "pitch": "Grüß Gott Herr Hobmeier, hier ist … – ich baue Websites für Handwerker im Landkreis Erding. Ich habe Ihren Malerbetrieb in der Parkstraße gefunden, mit sehr guten Bewertungen, aber ohne eigene Website. Ich habe unverbindlich einen Entwurf vorbereitet, auf dem Kunden Ihre Maler- und Lackierarbeiten sehen und direkt ein Angebot anfragen können – darf ich Ihnen den Link schicken?"
   },
   "manualChecks": [
     "RESERVE – weder Google-Eintrag noch Freemail-Adresse belegt: NUR versenden, wenn Google Maps einen Eintrag OHNE Website zeigt.",
-    "Firmenname uneinheitlich (blauarbeit: „HausmeisterService Handwerker Innenausbau & Abbrucharbeiten“, 11880: „Dan Suciu“) – gewünschten Markennamen beim Erstkontakt klären",
-    "Walleitnerweg 10 ist evtl. Wohnadresse – vor Veröffentlichung klären, ob die Adresse auf der Seite stehen soll",
-    "Leistungen aus Portalprofilen übernommen – Schwerpunkte (Trockenbau, Verputz, Terrassenbau) beim Inhaber bestätigen",
+    "Betrieb noch aktiv? Sichtbare Bewertungen stammen von 2018–2020 – vor Kontakt telefonisch/Maps prüfen",
+    "Telefon: 08122 18636 laut 11880/maler24; ein Verzeichnis nennt (08122) 15942 (vermutlich Verwechslung mit Malerbetrieb Beil) – klären",
+    "Nur Festnetz, keine Mobilnummer und keine E-Mail belegt – Erstkontakt per Anruf",
+    "Leistungen nur grob belegt (Maler, Lackierer) – Fassade, Tapezieren, Bodenbeläge beim Betrieb bestätigen",
     "Logo und Projektfotos: nicht gefunden – beim Betrieb anfragen"
   ],
   "sources": [
     {
-      "label": "11880 – Möbelmontage/Schreiner Taufkirchen (Eintrag Dan Suciu)",
-      "url": "https://www.11880.com/suche/schreiner/taufkirchen"
+      "label": "11880 – Johann Hobmeier Malerbetrieb Erding (8 Bewertungen, Ø 4,88)",
+      "url": "https://www.11880.com/branchenbuch/erding/060693517B27300349/johann-hobmeier-malerbetrieb.html"
     },
     {
-      "label": "blauarbeit.de – HausmeisterService Handwerker Innenausbau & Abbrucharbeiten (Taufkirchen)",
-      "url": "https://www.blauarbeit.de/handwerker/muenchen/hausmeisterservice-handwerker-innenausbau-abbrucharbeiten"
+      "label": "maler24.biz – Maler in Erding (Hobmeier, Parkstr. 25, 08122 18636)",
+      "url": "https://www.maler24.biz/stadt/erding/"
     },
     {
-      "label": "handwerker-expertencheck.de – Dan Suciu, Taufkirchen",
-      "url": "https://www.handwerker-expertencheck.de/handwerker/taufkirchen/hausmeister-service-handwerker-innenausbau-abbrucharbeiten-dan-suciu"
+      "label": "Stadtbranchenbuch – Maler Erding",
+      "url": "https://erding.stadtbranchenbuch.com/M/284.html"
+    },
+    {
+      "label": "Stadtbranchenbuch – Altenerding",
+      "url": "https://altenerding.stadtbranchenbuch.com/"
+    },
+    {
+      "label": "my-profi-maler.de – Malerbetriebe Langengeisling/Erding",
+      "url": "https://my-profi-maler.de/branche/malerbetriebe/ortsteil/langengeisling/85435/erding/"
     }
   ],
   "site": {
-    "theme": "werk",
+    "theme": "atelier",
     "category": "handwerk",
     "heroOffer": [
-      "Renovierung",
-      "Trockenbau",
-      "Möbelmontage",
-      "Abbruch",
-      "Gartenpflege"
+      "Innenanstrich",
+      "Lackierarbeiten",
+      "Fassade",
+      "Tapezieren",
+      "Renovierung"
     ],
-    "scene": "drywall",
-    "logoIcon": "house",
-    "logoMark": "DS",
-    "brandName": "Dan Suciu Haus & Ausbau",
-    "seoTitle": "Hausmeisterservice & Innenausbau in Taufkirchen – Dan Suciu",
-    "seoDescription": "Renovierung, Trockenbau, Möbelmontage, leichte Abbrucharbeiten und Gartenpflege in Taufkirchen und Umgebung. Jetzt kostenlos anfragen – auch per WhatsApp.",
+    "scene": "paint",
+    "logoIcon": "roller",
+    "logoMark": "JH",
+    "brandName": "Malerbetrieb Hobmeier",
+    "seoTitle": "Malerbetrieb in Erding – Johann Hobmeier",
+    "seoDescription": "Maler- und Lackierarbeiten in Erding und Umgebung: Innenanstrich, Lackieren, Fassade. Jetzt kostenloses Angebot anfragen.",
     "nav": [
-      { "label": "Leistungen", "href": "#leistungen" },
-      { "label": "Projekte", "href": "#projekte" },
-      { "label": "Bewertungen", "href": "#bewertungen" },
-      { "label": "Ablauf", "href": "#ablauf" },
-      { "label": "FAQ", "href": "#faq" },
-      { "label": "Kontakt", "href": "#kontakt" }
+      {
+        "label": "Leistungen",
+        "href": "#leistungen"
+      },
+      {
+        "label": "Projekte",
+        "href": "#projekte"
+      },
+      {
+        "label": "Bewertungen",
+        "href": "#bewertungen"
+      },
+      {
+        "label": "Ablauf",
+        "href": "#ablauf"
+      },
+      {
+        "label": "FAQ",
+        "href": "#faq"
+      },
+      {
+        "label": "Kontakt",
+        "href": "#kontakt"
+      }
     ],
     "hero": {
-      "eyebrow": "Innenausbau · Taufkirchen",
-      "headline": "Innenausbau und Hausservice in Taufkirchen",
-      "sub": "Vom Rückbau bis zur fertigen Wand – plus Montage und Gartenpflege.",
+      "eyebrow": "Malerbetrieb · Erding",
+      "headline": "Ihr Malerbetrieb in Erding",
+      "sub": "Wände, Lacke und Fassaden – sauber gestrichen von Johann Hobmeier.",
       "ctaPrimary": "Kostenloses Angebot anfragen",
       "ctaSecondary": "Anrufen",
       "bullets": [
-        "Inhaber Dan Suciu vor Ort",
-        "Renovierung bis Gartenpflege",
-        "Direkt per Handy erreichbar"
+        "Maler- und Lackierarbeiten",
+        "Inhabergeführt aus Erding",
+        "8 Bewertungen, Ø 4,88"
       ],
-      "imageLabel": "Raum im Umbau mit frisch verputzter Wand"
+      "imageLabel": "frisch gestrichener, heller Wohnraum mit abgeklebten Kanten"
     },
     "badges": [
-      { "title": "Innenausbau", "sub": "Trockenbau & Putz" },
-      { "title": "Abbruch", "sub": "leichte Rückbauten" },
-      { "title": "Montage", "sub": "Möbel & Terrasse" },
-      { "title": "Taufkirchen", "sub": "Walleitnerweg" }
+      {
+        "title": "Malerarbeiten",
+        "sub": "innen & außen"
+      },
+      {
+        "title": "Lackierung",
+        "sub": "Türen, Fenster, Holz"
+      },
+      {
+        "title": "Ø 4,88",
+        "sub": "8 Bewertungen (11880)"
+      },
+      {
+        "title": "Erding",
+        "sub": "Parkstraße"
+      }
     ],
     "trust": [
-      { "value": "Vor Ort", "label": "Betrieb in Taufkirchen" },
-      { "value": "1", "label": "Ansprechpartner für alles" },
-      { "value": "Innen", "label": "und außen am Haus" },
-      { "value": "Mobil", "label": "schnell erreichbar" }
+      {
+        "value": "4,88",
+        "label": "Ø Bewertung auf 11880"
+      },
+      {
+        "value": "8",
+        "label": "Kundenbewertungen"
+      },
+      {
+        "value": "Erding",
+        "label": "Betrieb vor Ort"
+      },
+      {
+        "value": "Inhaber",
+        "label": "direkter Ansprechpartner"
+      }
     ],
     "servicesIntro": {
-      "headline": "Ein Ansprechpartner für Haus, Wohnung und Garten",
-      "text": "Ob alte Wand raus, neue Wand rein, Möbel aufbauen oder Hecke schneiden: Dan Suciu übernimmt die Arbeiten rund ums Haus selbst."
+      "headline": "Farbe und Lack für Haus und Wohnung",
+      "text": "Vom einzelnen Zimmer bis zur ganzen Wohnung: Johann Hobmeier streicht, lackiert und frischt auf – sauber abgedeckt und ordentlich übergeben."
     },
     "services": [
       {
+        "title": "Innenanstrich",
+        "text": "Wände und Decken in Wohnräumen, Fluren und Treppenhäusern – deckend, gleichmäßig und mit sauberen Kanten.",
+        "items": [
+          "Wände & Decken",
+          "Treppenhaus",
+          "Farbberatung"
+        ]
+      },
+      {
+        "title": "Lackierarbeiten",
+        "text": "Türen, Zargen, Fenster und Heizkörper bekommen eine neue, widerstandsfähige Oberfläche.",
+        "items": [
+          "Türen & Zargen",
+          "Fensterrahmen",
+          "Heizkörper"
+        ]
+      },
+      {
+        "title": "Holzschutz außen",
+        "text": "Balkone, Dachuntersichten und Fensterläden werden geschliffen und neu lasiert oder lackiert.",
+        "items": [
+          "Lasuren",
+          "Fensterläden",
+          "Dachuntersicht"
+        ]
+      },
+      {
+        "title": "Fassadenanstrich",
+        "text": "Ein frischer Anstrich schützt den Putz und gibt dem Haus ein gepflegtes Gesicht.",
+        "items": [
+          "Fassadenfarbe",
+          "Sockel",
+          "Ausbessern"
+        ]
+      },
+      {
+        "title": "Tapezieren",
+        "text": "Raufaser oder Vlies – Untergrund vorbereiten, tapezieren und streichen aus einer Hand.",
+        "items": [
+          "Raufaser",
+          "Vliestapete",
+          "Untergrund"
+        ]
+      },
+      {
         "title": "Renovierung",
-        "text": "Wohnungen und Räume werden instand gesetzt – für den Neubezug oder nach dem Auszug.",
-        "items": ["Wohnungsrenovierung", "Ausbesserungen", "Übergabefertig"]
-      },
-      {
-        "title": "Trockenbau",
-        "text": "Neue Wände und Verkleidungen in Trockenbauweise – schnell gestellt und sauber verspachtelt.",
-        "items": ["Ständerwände", "Verkleidungen", "Spachteln"]
-      },
-      {
-        "title": "Verputzarbeiten",
-        "text": "Wände werden ausgebessert und neu verputzt – als Grundlage für Farbe oder Tapete.",
-        "items": ["Innenputz", "Ausbessern", "Glatte Flächen"]
-      },
-      {
-        "title": "Leichte Abbrucharbeiten",
-        "text": "Alte Einbauten, Verkleidungen oder nichttragende Elemente werden zurückgebaut.",
-        "items": ["Rückbau", "Demontage", "Vorbereitung Umbau"]
-      },
-      {
-        "title": "Möbelmontage",
-        "text": "Möbel werden aufgebaut, ausgerichtet und bei Bedarf an der Wand gesichert.",
-        "items": ["Schränke", "Regale", "Wandmontage"]
-      },
-      {
-        "title": "Garten & Terrasse",
-        "text": "Gartenpflege und Terrassenbau – damit es draußen genauso ordentlich aussieht wie drinnen.",
-        "items": ["Gartenpflege", "Terrassenbau", "Hausmeisterdienste"]
+        "text": "Bei Umzug oder Mieterwechsel: Räume ausbessern, spachteln und neu streichen.",
+        "items": [
+          "Auszugsrenovierung",
+          "Spachteln",
+          "Ausbessern"
+        ]
       }
     ],
     "why": {
-      "headline": "Hausservice aus Taufkirchen – persönlich und vielseitig.",
+      "headline": "Malerarbeiten aus Erding – mit Sorgfalt erledigt.",
       "points": [
-        { "title": "Kurze Wege", "text": "Vom Walleitnerweg schnell in Unterhaching, Oberhaching und Ottobrunn." },
-        { "title": "Alles aus einer Hand", "text": "Abbruch, Ausbau, Montage und Garten – ohne mehrere Firmen zu koordinieren." },
-        { "title": "Inhaber vor Ort", "text": "Dan Suciu ist Ihr direkter Ansprechpartner von der Anfrage bis zur Übergabe." },
-        { "title": "Schnell erreichbar", "text": "Fotos per WhatsApp schicken und zügig Rückmeldung bekommen." }
+        {
+          "title": "Gut bewertet",
+          "text": "8 Kundenbewertungen mit Ø 4,88 auf 11880 sprechen für sich."
+        },
+        {
+          "title": "Kurze Wege",
+          "text": "Von der Parkstraße schnell in Altenerding, Klettham, Langengeisling und im Umland."
+        },
+        {
+          "title": "Ein Ansprechpartner",
+          "text": "Johann Hobmeier bespricht, plant und führt aus – ohne Umwege."
+        },
+        {
+          "title": "Sauber übergeben",
+          "text": "Böden und Möbel werden abgedeckt, nach der Arbeit wird aufgeräumt."
+        }
       ]
     },
     "reviews": {
       "headline": "Was Kunden sagen",
-      "summary": "Kundenstimmen werden hier eingebunden, sobald sie aus dem Google-Profil übernommen sind.",
+      "summary": "8 Bewertungen mit durchschnittlich 4,88 von 5 Sternen auf 11880 (Quelle GoLocal).",
       "highlights": [
-        "Innenausbau in Taufkirchen",
-        "Renovierung und Montage",
-        "Persönlicher Kontakt"
+        "Malerarbeiten in Erding",
+        "Gute Bewertungen",
+        "Direkter Kontakt zum Inhaber"
       ],
-      "source": "Google",
-      "sourceUrl": "https://www.google.com/maps/search/?api=1&query=Dan%20Suciu%20Walleitnerweg%2010%20Taufkirchen",
-      "rating": null,
-      "count": null
+      "source": "11880",
+      "sourceUrl": "https://www.11880.com/branchenbuch/erding/060693517B27300349/johann-hobmeier-malerbetrieb.html",
+      "rating": 4.88,
+      "count": 8
     },
     "process": {
-      "headline": "In vier Schritten erledigt",
+      "headline": "In vier Schritten zum frischen Anstrich",
       "steps": [
-        { "title": "Anfrage", "text": "Fotos und kurze Beschreibung per WhatsApp schicken – oder anrufen." },
-        { "title": "Besichtigung", "text": "Umfang und Ablauf werden vor Ort besprochen." },
-        { "title": "Angebot", "text": "Sie erhalten ein klares Angebot für die Arbeiten." },
-        { "title": "Ausführung", "text": "Rückbau, Ausbau oder Montage – sauber übergeben." }
+        {
+          "title": "Anfrage",
+          "text": "Kurz anrufen oder Formular mit Fotos der Räume schicken."
+        },
+        {
+          "title": "Besichtigung",
+          "text": "Untergrund, Farbe und Umfang werden vor Ort abgestimmt."
+        },
+        {
+          "title": "Angebot",
+          "text": "Sie erhalten ein klares Angebot mit allen Arbeiten."
+        },
+        {
+          "title": "Ausführung",
+          "text": "Abdecken, vorbereiten, streichen – und besenrein übergeben."
+        }
       ]
     },
     "gallery": {
-      "headline": "Arbeiten rund ums Haus",
+      "headline": "Frisch gestrichen in Erding",
       "text": "Für die Live-Version zeigen wir hier echte Projekte des Betriebs.",
       "items": [
-        { "title": "Rückbau", "photoNeeded": "Raum nach leichten Abbrucharbeiten" },
-        { "title": "Trockenbauwand", "photoNeeded": "neue, verspachtelte Trennwand" },
-        { "title": "Frischer Putz", "photoNeeded": "frisch verputzte Innenwand" },
-        { "title": "Möbelmontage", "photoNeeded": "aufgebauter Einbauschrank" },
-        { "title": "Neue Terrasse", "photoNeeded": "fertig gebaute Terrasse im Garten" }
+        {
+          "title": "Wohnzimmer",
+          "photoNeeded": "frisch gestrichenes Wohnzimmer mit hellen Wänden"
+        },
+        {
+          "title": "Treppenhaus",
+          "photoNeeded": "renoviertes Treppenhaus mit sauberen Farbkanten"
+        },
+        {
+          "title": "Lackierte Türen",
+          "photoNeeded": "neu lackierte Innentür mit Zarge"
+        },
+        {
+          "title": "Fassade",
+          "photoNeeded": "Einfamilienhaus mit frischem Fassadenanstrich"
+        },
+        {
+          "title": "Holzbalkon",
+          "photoNeeded": "neu lasierter Holzbalkon"
+        }
       ]
     },
     "region": {
-      "headline": "Für Taufkirchen und den Münchner Süden",
-      "text": "Von Taufkirchen aus schnell in Unterhaching, Oberhaching, Ottobrunn, Neubiberg und Sauerlach.",
+      "headline": "Malerarbeiten für Erding und Umgebung",
+      "text": "Von Erding aus in Altenerding, Klettham, Langengeisling, Oberding, Moosinning und Bockhorn.",
       "places": [
-        "Taufkirchen",
-        "Unterhaching",
-        "Oberhaching",
-        "Ottobrunn",
-        "Neubiberg",
-        "Sauerlach"
+        "Erding",
+        "Altenerding",
+        "Langengeisling",
+        "Klettham",
+        "Oberding",
+        "Moosinning",
+        "Bockhorn",
+        "Wörth"
       ]
     },
     "faq": [
-      { "q": "Übernehmen Sie auch kleine Aufträge?", "a": "Ja, fragen Sie einfach an – auch einzelne Montagen oder Ausbesserungen." },
-      { "q": "Welche Abbrucharbeiten machen Sie?", "a": "Leichte Abbrucharbeiten wie Rückbau von Einbauten und Verkleidungen. Details klären wir bei der Besichtigung." },
-      { "q": "Kann ich vorab Fotos schicken?", "a": "Ja, Fotos per WhatsApp helfen für eine erste Einschätzung." },
-      { "q": "Kümmern Sie sich auch um den Garten?", "a": "Ja, Gartenpflege und Terrassenbau gehören zum Angebot." },
-      { "q": "Arbeiten Sie auch außerhalb von Taufkirchen?", "a": "Ja, im Münchner Süden – fragen Sie einfach an." }
+      {
+        "q": "Was kostet das Streichen eines Zimmers?",
+        "a": "Das hängt von Fläche, Untergrund und Farbe ab. Nach einer kurzen Besichtigung erhalten Sie ein festes Angebot."
+      },
+      {
+        "q": "Muss ich die Möbel selbst ausräumen?",
+        "a": "Kleinere Möbel bitte vorab beiseite stellen, große Stücke werden in der Raummitte abgedeckt – das klären wir vorher."
+      },
+      {
+        "q": "Lackieren Sie auch Türen und Fenster?",
+        "a": "Ja, Lackierarbeiten an Türen, Zargen, Fenstern und Heizkörpern gehören dazu."
+      },
+      {
+        "q": "Kann ich vorab Fotos schicken?",
+        "a": "Ja, Fotos der Räume helfen für eine erste Einschätzung."
+      },
+      {
+        "q": "Arbeiten Sie auch außerhalb von Erding?",
+        "a": "Ja, im Umkreis von Erding – fragen Sie einfach an."
+      }
     ],
     "contact": {
       "headline": "Ihr Angebot – kostenlos und unverbindlich",
-      "text": "Beschreiben Sie kurz, was gemacht werden soll: Raum, Umfang und Wunschtermin. Fotos helfen.",
+      "text": "Beschreiben Sie kurz Ihr Vorhaben: welche Räume oder Flächen, ungefähre Größe und Wunschtermin. Fotos helfen.",
       "topics": [
-        "Renovierung",
-        "Trockenbau & Putz",
-        "Abbrucharbeiten",
-        "Möbelmontage",
-        "Garten & Terrasse",
+        "Innenanstrich",
+        "Lackierarbeiten",
+        "Fassadenanstrich",
+        "Tapezieren",
         "Sonstiges"
       ],
       "responseNote": "Besichtigung nach Absprache."
     },
     "quote": {
-      "sizeLabel": "Worum geht es?",
+      "sizeLabel": "Was soll gestrichen werden?",
       "sizes": [
-        "Kleine Reparatur/Montage",
-        "Ein Raum",
-        "Ganze Wohnung",
-        "Haus & Garten"
+        "Ein Zimmer",
+        "Mehrere Räume",
+        "Ganze Wohnung/Haus",
+        "Fassade",
+        "Türen/Fenster lackieren"
       ],
       "timings": [
         "So bald wie möglich",
@@ -270,13 +395,13 @@
     },
     "stickyCta": "Angebot anfragen",
     "look": {
-      "palette": 2,
-      "font": 6,
-      "hero": 0,
-      "services": 1,
+      "palette": 0,
+      "font": 2,
+      "hero": 2,
+      "services": 0,
       "radius": 1,
       "logo": 0,
-      "intro": 5
+      "intro": 1
     }
   }
 }

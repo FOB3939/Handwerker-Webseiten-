@@ -105,12 +105,30 @@
     "seoTitle": "Trockenbau in Erding – Sezer Seymen",
     "seoDescription": "Trockenbau und Innenausbau in Erding, Altenerding und Umgebung: Wände, Decken, Dachausbau. Jetzt kostenloses Angebot anfragen – auch per WhatsApp.",
     "nav": [
-      { "label": "Leistungen", "href": "#leistungen" },
-      { "label": "Projekte", "href": "#projekte" },
-      { "label": "Bewertungen", "href": "#bewertungen" },
-      { "label": "Ablauf", "href": "#ablauf" },
-      { "label": "FAQ", "href": "#faq" },
-      { "label": "Kontakt", "href": "#kontakt" }
+      {
+        "label": "Leistungen",
+        "href": "#leistungen"
+      },
+      {
+        "label": "Projekte",
+        "href": "#projekte"
+      },
+      {
+        "label": "Bewertungen",
+        "href": "#bewertungen"
+      },
+      {
+        "label": "Ablauf",
+        "href": "#ablauf"
+      },
+      {
+        "label": "FAQ",
+        "href": "#faq"
+      },
+      {
+        "label": "Kontakt",
+        "href": "#kontakt"
+      }
     ],
     "hero": {
       "eyebrow": "Trockenbau · Erding",
@@ -126,16 +144,40 @@
       "imageLabel": "Metallständerwerk mit frisch beplankter Gipskartonwand"
     },
     "badges": [
-      { "title": "Trockenbau", "sub": "Wände & Decken" },
-      { "title": "Innenausbau", "sub": "Raum für Raum" },
-      { "title": "Inhaber", "sub": "Sezer Seymen" },
-      { "title": "Erding", "sub": "Altenerding" }
+      {
+        "title": "Trockenbau",
+        "sub": "Wände & Decken"
+      },
+      {
+        "title": "Innenausbau",
+        "sub": "Raum für Raum"
+      },
+      {
+        "title": "Inhaber",
+        "sub": "Sezer Seymen"
+      },
+      {
+        "title": "Erding",
+        "sub": "Altenerding"
+      }
     ],
     "trust": [
-      { "value": "Vor Ort", "label": "Betrieb in Altenerding" },
-      { "value": "Direkt", "label": "Inhaber am Telefon" },
-      { "value": "Innen", "label": "Wände, Decken, Ausbau" },
-      { "value": "Mobil", "label": "auch per WhatsApp" }
+      {
+        "value": "Vor Ort",
+        "label": "Betrieb in Altenerding"
+      },
+      {
+        "value": "Direkt",
+        "label": "Inhaber am Telefon"
+      },
+      {
+        "value": "Innen",
+        "label": "Wände, Decken, Ausbau"
+      },
+      {
+        "value": "Mobil",
+        "label": "auch per WhatsApp"
+      }
     ],
     "servicesIntro": {
       "headline": "Trockenbau, der Räume neu ordnet",
@@ -145,41 +187,77 @@
       {
         "title": "Trennwände",
         "text": "Ständerwände für neue Raumaufteilungen – gestellt, beplankt und bereit für Farbe oder Tapete.",
-        "items": ["Ständerwände", "Raumteiler", "Türöffnungen"]
+        "items": [
+          "Ständerwände",
+          "Raumteiler",
+          "Türöffnungen"
+        ]
       },
       {
         "title": "Abgehängte Decken",
         "text": "Gerade Deckenflächen auf Unterkonstruktion – ideal, um Leitungen zu verstecken oder Raumhöhen anzupassen.",
-        "items": ["Unterkonstruktion", "Leitungen verdecken", "Glatte Fläche"]
+        "items": [
+          "Unterkonstruktion",
+          "Leitungen verdecken",
+          "Glatte Fläche"
+        ]
       },
       {
         "title": "Dachausbau",
         "text": "Dachschrägen und Kniestöcke verkleiden, damit aus dem Speicher ein nutzbarer Wohnraum wird.",
-        "items": ["Dachschrägen", "Kniestock", "Wohnraum gewinnen"]
+        "items": [
+          "Dachschrägen",
+          "Kniestock",
+          "Wohnraum gewinnen"
+        ]
       },
       {
         "title": "Vorwände & Verkleidungen",
         "text": "Vorsatzschalen und Verkleidungen für Rohre, Installationen und unebene Wände.",
-        "items": ["Vorsatzschalen", "Rohrkästen", "Installationswände"]
+        "items": [
+          "Vorsatzschalen",
+          "Rohrkästen",
+          "Installationswände"
+        ]
       },
       {
         "title": "Spachteln & Finish",
         "text": "Fugen und Flächen sauber gespachtelt und geschliffen – als Grundlage für ein glattes Endergebnis.",
-        "items": ["Fugen spachteln", "Schleifen", "Malerfertig"]
+        "items": [
+          "Fugen spachteln",
+          "Schleifen",
+          "Malerfertig"
+        ]
       },
       {
         "title": "Innenausbau",
         "text": "Umbau und Ausbau von Innenräumen in Wohnungen, Häusern und Gewerbeflächen.",
-        "items": ["Wohnungen", "Häuser", "Gewerberäume"]
+        "items": [
+          "Wohnungen",
+          "Häuser",
+          "Gewerberäume"
+        ]
       }
     ],
     "why": {
       "headline": "Trockenbau aus Altenerding – persönlich und unkompliziert.",
       "points": [
-        { "title": "Kurze Wege", "text": "Von Altenerding schnell in Erding, Oberding, Moosinning und Fraunberg." },
-        { "title": "Ein Ansprechpartner", "text": "Sie sprechen direkt mit Inhaber Sezer Seymen – vom ersten Anruf bis zur Übergabe." },
-        { "title": "Schnell nutzbar", "text": "Trockenbau braucht keine langen Trocknungszeiten – Räume sind rasch bezugsfertig." },
-        { "title": "Fotos genügen", "text": "Ein paar Bilder per WhatsApp reichen oft für eine erste Einschätzung." }
+        {
+          "title": "Kurze Wege",
+          "text": "Von Altenerding schnell in Erding, Oberding, Moosinning und Fraunberg."
+        },
+        {
+          "title": "Ein Ansprechpartner",
+          "text": "Sie sprechen direkt mit Inhaber Sezer Seymen – vom ersten Anruf bis zur Übergabe."
+        },
+        {
+          "title": "Schnell nutzbar",
+          "text": "Trockenbau braucht keine langen Trocknungszeiten – Räume sind rasch bezugsfertig."
+        },
+        {
+          "title": "Fotos genügen",
+          "text": "Ein paar Bilder per WhatsApp reichen oft für eine erste Einschätzung."
+        }
       ]
     },
     "reviews": {
@@ -198,21 +276,48 @@
     "process": {
       "headline": "In vier Schritten zum neuen Raum",
       "steps": [
-        { "title": "Anfrage", "text": "Fotos und grobe Maße per WhatsApp schicken – oder kurz anrufen." },
-        { "title": "Besichtigung", "text": "Umfang und Ausführung werden vor Ort besprochen." },
-        { "title": "Angebot", "text": "Sie erhalten ein klares Angebot für Ihr Vorhaben." },
-        { "title": "Ausführung", "text": "Ständerwerk, Beplankung, Spachteln – sauber übergeben." }
+        {
+          "title": "Anfrage",
+          "text": "Fotos und grobe Maße per WhatsApp schicken – oder kurz anrufen."
+        },
+        {
+          "title": "Besichtigung",
+          "text": "Umfang und Ausführung werden vor Ort besprochen."
+        },
+        {
+          "title": "Angebot",
+          "text": "Sie erhalten ein klares Angebot für Ihr Vorhaben."
+        },
+        {
+          "title": "Ausführung",
+          "text": "Ständerwerk, Beplankung, Spachteln – sauber übergeben."
+        }
       ]
     },
     "gallery": {
       "headline": "Räume, die neu entstehen",
       "text": "Für die Live-Version zeigen wir hier echte Projekte des Betriebs.",
       "items": [
-        { "title": "Neue Trennwand", "photoNeeded": "Ständerwand im Rohbau und fertig gespachtelt" },
-        { "title": "Abgehängte Decke", "photoNeeded": "glatte Decke mit Einbauleuchten" },
-        { "title": "Dachausbau", "photoNeeded": "verkleidete Dachschräge im ausgebauten Speicher" },
-        { "title": "Rohrverkleidung", "photoNeeded": "Vorsatzschale im Bad vor dem Fliesen" },
-        { "title": "Gespachtelte Fläche", "photoNeeded": "malerfertig gespachtelte Wand" }
+        {
+          "title": "Neue Trennwand",
+          "photoNeeded": "Ständerwand im Rohbau und fertig gespachtelt"
+        },
+        {
+          "title": "Abgehängte Decke",
+          "photoNeeded": "glatte Decke mit Einbauleuchten"
+        },
+        {
+          "title": "Dachausbau",
+          "photoNeeded": "verkleidete Dachschräge im ausgebauten Speicher"
+        },
+        {
+          "title": "Rohrverkleidung",
+          "photoNeeded": "Vorsatzschale im Bad vor dem Fliesen"
+        },
+        {
+          "title": "Gespachtelte Fläche",
+          "photoNeeded": "malerfertig gespachtelte Wand"
+        }
       ]
     },
     "region": {
@@ -229,11 +334,26 @@
       ]
     },
     "faq": [
-      { "q": "Wie lange dauert eine neue Trennwand?", "a": "Das hängt von Größe und Ausführung ab. Ein genauer Zeitplan wird nach der Besichtigung abgestimmt." },
-      { "q": "Kann ich vorab Fotos schicken?", "a": "Ja, Fotos und grobe Maße per WhatsApp helfen für eine erste Einschätzung." },
-      { "q": "Bauen Sie auch Dachgeschosse aus?", "a": "Sprechen Sie Ihr Vorhaben einfach an – Umfang und Ausführung werden vor Ort geklärt." },
-      { "q": "Ist die Wand danach direkt streichfertig?", "a": "Nach dem Spachteln und Schleifen ist die Fläche bereit für Farbe oder Tapete." },
-      { "q": "Arbeiten Sie auch außerhalb von Erding?", "a": "Ja, im Umkreis von Erding – zum Beispiel in Oberding, Moosinning oder Fraunberg." }
+      {
+        "q": "Wie lange dauert eine neue Trennwand?",
+        "a": "Das hängt von Größe und Ausführung ab. Ein genauer Zeitplan wird nach der Besichtigung abgestimmt."
+      },
+      {
+        "q": "Kann ich vorab Fotos schicken?",
+        "a": "Ja, Fotos und grobe Maße per WhatsApp helfen für eine erste Einschätzung."
+      },
+      {
+        "q": "Bauen Sie auch Dachgeschosse aus?",
+        "a": "Sprechen Sie Ihr Vorhaben einfach an – Umfang und Ausführung werden vor Ort geklärt."
+      },
+      {
+        "q": "Ist die Wand danach direkt streichfertig?",
+        "a": "Nach dem Spachteln und Schleifen ist die Fläche bereit für Farbe oder Tapete."
+      },
+      {
+        "q": "Arbeiten Sie auch außerhalb von Erding?",
+        "a": "Ja, im Umkreis von Erding – zum Beispiel in Oberding, Moosinning oder Fraunberg."
+      }
     ],
     "contact": {
       "headline": "Ihr Angebot – kostenlos und unverbindlich",
@@ -264,13 +384,13 @@
     },
     "stickyCta": "Angebot anfragen",
     "look": {
-      "palette": 2,
-      "font": 6,
-      "hero": 0,
-      "services": 1,
-      "radius": 1,
-      "logo": 0,
-      "intro": 5
+      "palette": 3,
+      "font": 13,
+      "hero": 1,
+      "services": 0,
+      "radius": 4,
+      "logo": 3,
+      "intro": 4
     }
   }
 }

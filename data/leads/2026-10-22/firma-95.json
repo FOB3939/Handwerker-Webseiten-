@@ -149,7 +149,7 @@
     "hero": {
       "eyebrow": "Sanitär & Heizung · Krailling",
       "headline": "Sanitär und Heizung in Krailling",
-      "sub": "Bad, Gasheizung und Solarthermie – vom Installateurmeister aus dem Würmtal.",
+      "sub": "Bad, Gasheizung und Solarthermie – von Winfried Drobny aus dem Würmtal.",
       "ctaPrimary": "Angebot anfragen",
       "ctaSecondary": "Anrufen",
       "bullets": [
@@ -400,13 +400,13 @@
     },
     "stickyCta": "Angebot anfragen",
     "look": {
-      "palette": 2,
-      "font": 6,
-      "hero": 0,
+      "palette": 0,
+      "font": 9,
+      "hero": 3,
       "services": 1,
-      "radius": 1,
-      "logo": 0,
-      "intro": 5
+      "radius": 0,
+      "logo": 5,
+      "intro": 2
     }
   }
 }

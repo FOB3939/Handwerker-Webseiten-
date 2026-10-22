@@ -91,6 +91,8 @@
     roof: { m: "place", kicker: "Zum Ausprobieren", title: "Decken Sie das Dach", sub: "Legen Sie die Ziegel Reihe für Reihe auf die Lattung.", hint: "Ziegel antippen oder überwischen", unit: "gedeckt", done: "Dicht und sauber gedeckt. Wir kümmern uns auch um Ihr Dach.",
       swatches: [["Ziegelrot", "#a9472f"], ["Anthrazit", "#3b3f45"], ["Braun", "#6b4330"]] },
     circuit: { m: "place", kicker: "Zum Ausprobieren", title: "Schalten Sie das Licht ein", sub: "Tippen Sie die Räume an, um sie an den Sicherungskasten anzuschließen.", hint: "Räume antippen", unit: "angeschlossen", done: "Alles an, sicher installiert vom Fachbetrieb." },
+    kitchen: { m: "place", kicker: "Zum Ausprobieren", title: "Bauen Sie die Küche auf", sub: "Setzen Sie Ober- und Unterschränke an die Wand. Die Front wählen Sie selbst.", hint: "Schränke antippen oder überwischen", unit: "montiert", done: "Küche steht, Fronten in Flucht. So passgenau montieren wir auch bei Ihnen.",
+      swatches: [["Ihr Farbton", "accent"], ["Weiß matt", "#efede8"], ["Eiche", "#b98a57"], ["Salbei", "#9fb19a"], ["Anthrazit", "#43464b"]] },
     water: { m: "place", kicker: "Zum Ausprobieren", title: "Bringen Sie das Wasser ins Haus", sub: "Tippen Sie Küche, Bad und Heizung an, um sie an die Hauptleitung anzuschließen.", hint: "Räume antippen", unit: "angeschlossen", done: "Alles dicht, alles läuft. Installiert vom Fachbetrieb." }
   };
 
@@ -422,6 +424,18 @@
               roofEl.appendChild(sl);
             }
           }
+        } else if (kind === "kitchen") {
+          // Wand mit Fliesenspiegel; Oberschränke oben, Unterschränke unten, Arbeitsplatte erscheint am Ende
+          stage.style.background = "linear-gradient(#ece8e1 0 34%,#d9d4cb 34% 37%,#e4e0d8 37% 56%,#b9b2a6 56%)";
+          layer.insertAdjacentHTML("beforeend",
+            '<div style="position:absolute;left:4%;right:4%;top:37%;height:19%;background-image:linear-gradient(90deg,rgba(255,255,255,.55) 1px,transparent 1px),linear-gradient(rgba(255,255,255,.55) 1px,transparent 1px);background-size:6% 33%;opacity:.8"></div>');
+          var front = "inset:2px;border-radius:3px;background-image:linear-gradient(180deg,rgba(255,255,255,.18),rgba(0,0,0,.08));box-shadow:inset 0 0 0 1px rgba(0,0,0,.12),0 3px 6px rgba(0,0,0,.18)";
+          var uw = [24, 20, 20, 24], ux = 6;
+          uw.forEach(function (w, n) { var sl = slot(ux, 6, w, 28, c, "Oberschrank " + (n + 1), front); sl.querySelector("i").insertAdjacentHTML("beforeend", '<b style="position:absolute;left:50%;bottom:14%;width:26%;height:5%;margin-left:-13%;border-radius:2px;background:rgba(0,0,0,.45)"></b>'); ux += w + 0; });
+          var lw = [18, 22, 14, 22, 12], lx = 6;
+          lw.forEach(function (w, n) { var sl = slot(lx, 58, w, 34, c, "Unterschrank " + (n + 1), front); sl.querySelector("i").insertAdjacentHTML("beforeend", '<b style="position:absolute;left:50%;top:12%;width:30%;height:4%;margin-left:-15%;border-radius:2px;background:rgba(0,0,0,.45)"></b>'); lx += w; });
+          skim = h("div", { class: "tg-skim", style: "inset:auto 4% 42% 4%;height:4%;background:linear-gradient(#cdb48f,#a98a5f);border-radius:2px;box-shadow:0 3px 6px rgba(0,0,0,.25)" });
+          stage.appendChild(skim);
         } else if (kind === "circuit" || kind === "water") {
           var wet = kind === "water";
           stage.classList.toggle("tg-water", wet);
@@ -471,7 +485,7 @@
         auto: auto, reset: build,
         recolor: function () {
           var c = color;
-          slots.forEach(function (s) { var i = s.querySelector("i"); if (i) i.style.backgroundColor = shade(c, (R() - 0.5) * (kind === "planks" || kind === "roof" ? 0.18 : 0.08)); });
+          slots.forEach(function (s) { var i = s.querySelector("i"); if (i) i.style.backgroundColor = shade(c, (R() - 0.5) * (kind === "planks" || kind === "roof" ? 0.18 : kind === "kitchen" ? 0 : 0.08)); });
         }
       };
     }

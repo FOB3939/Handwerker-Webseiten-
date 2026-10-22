@@ -1,287 +1,419 @@
 {
   "id": "2026-10-22-97",
-  "slug": "neuberger-pflasterarbeiten-woerth",
+  "slug": "anton-reich-zimmerei-isen",
   "date": "2026-10-22",
   "company": {
-    "name": "Fa. Neuberger Pflasterarbeiten",
-    "owner": "Udo Michael Neuberger",
-    "trade": "Pflasterarbeiten & Zaunbau",
-    "city": "Wörth (Kreis Erding)",
-    "address": "Ötzstr. 1, 85457 Wörth",
-    "phone": "0176 96378891",
-    "email": "neuberger.michael@web.de",
+    "name": "Anton Reich Zimmerei & Baumfällungen",
+    "owner": "Anton Reich",
+    "trade": "Zimmerei",
+    "city": "Isen",
+    "address": "Weidacherweg 5, 84424 Isen",
+    "phone": "0172 8350350",
+    "email": "reich.toni@web.de",
     "serviceArea": [
-      "Wörth",
-      "Hörlkofen",
-      "Erding",
+      "Isen",
+      "Lengdorf",
+      "Dorfen",
+      "Sankt Wolfgang",
+      "Maitenbeth",
       "Walpertskirchen",
-      "Forstern",
-      "Pastetten",
-      "Markt Schwaben"
+      "Pastetten"
     ]
   },
   "listings": {
     "google": {
-      "url": "https://www.google.com/maps/search/?api=1&query=Neuberger%20%C3%96tzstr.%201%2085457%20W%C3%B6rth",
+      "url": "https://www.google.com/maps/search/?api=1&query=Anton%20Reich%20Zimmerei%20Weidacherweg%205%20Isen",
       "rating": null,
       "reviews": null,
-      "evidence": "NICHT BELEGT – kein Google-Spiegel (rgv-bayern, trustlocal, firmania, goyellow) mit Bewertungen gefunden. Kriterium (A) über öffentlich gelistete Freemail-Adresse neuberger.michael@web.de (11880-Eintrag „Fa. Neuberger Pflasterarbeiten“) erfüllt. Google-Eintrag in Maps prüfen."
+      "evidence": "NICHT BELEGT – kein Google-Spiegel mit Bewertungen gefunden. Kriterium (A) über öffentlich gelistete Freemail-Adresse reich.toni@web.de (Das Örtliche, ED-live, Markt-Isen-Adressbuch) erfüllt. Zusätzlich wirsindhandwerk.de-Profil mit 5,0/5 bei 1 Bewertung (ca. 3,5 Jahre alt) – keine Google-Bewertung. Google-Eintrag in Maps prüfen."
     },
     "myhammer": {
-      "url": "https://www.11880.com/suche/pflasterarbeiten/eitting",
-      "rating": null,
-      "reviews": null,
-      "evidence": "Kein MyHammer-Profil gefunden – Einträge bei 11880 (Pflasterarbeiten, Bodenleger, Verbundpflaster verlegen; Mobil 0176 96378891, web.de-Adresse), goyellow/bundes-telefonbuch („Firma Neuberger“, Ötzstr. 1, Wörth) und Kleinanzeigen-Inserat „Zäune, Terrassen, Pflaster, Gartenarbeiten“ (Wörth Kr. Erding, Einzelunternehmer Udo Michael Neuberger)."
+      "url": "https://www.wirsindhandwerk.de/anton-reich",
+      "rating": 5,
+      "reviews": 1,
+      "evidence": "Kein MyHammer-Profil gefunden – stattdessen wirsindhandwerk.de „Anton Reich Zimmerei & Baumfällungen in Isen“: 5,0/5 bei 1 Bewertung (Baumfällung mit Entasten und Wurzelfräsen; gelobt: pünktlich, gute Ausrüstung, freundlich, sauber). Einträge außerdem bei 11880 („Hausmeisterservice & Zimmerei“), Gelbe Seiten (Dachgauben, Dachgeschossausbau, Hausaufstockung), Das Örtliche, ED-live und im Adressbuch des Markt Isen (mit Mobil 0172 8350350)."
     }
   },
   "websiteStatus": "keine eigene Website gefunden",
   "websiteChecks": [
-    "(1) „Neuberger Pflasterarbeiten Wörth Erding“ mit blocked_domains (11880, Gelbe Seiten, Das Örtliche, Telefonbuch, Cylex, meinestadt, Creditreform, Facebook, Instagram, golocal, MyHammer, Northdata, Firmenwissen, WKDB, Yelp, trustlocal, wlw) – nur goyellow, bundes-telefonbuch und ein Kleinanzeigen-Inserat; keine eigene Domain, keine Baukasten-Seite",
-    "(2) Domain-Check allowed_domains neuberger-pflaster.de, neuberger-pflasterarbeiten.de, pflaster-neuberger.de, neuberger-woerth.de, firma-neuberger.de, neuberger-galabau.de, neuberger-zaunbau.de, neuberger-bodenbelaege.de – keine Treffer",
-    "(3) Telefonsuche „0176 96378891“/„017696378891“ mit blocked_domains – nur Rufnummern-Blocklisten (anruferauskunft.de), keine Website",
-    "(4) Impressum-Suche „Udo Michael Neuberger Wörth Impressum Pflaster“ – kein eigenes Impressum; nur gleichnamige, fremde Neuberger-Firmen (Öhringen, Eichenbühl u. a.)",
-    "(5) E-Mail ist Freemail (web.de) – keine Firmendomain",
-    "Website-Risiko: mittel – alle Prüfungen negativ, Freemail belegt, aber kein Google-Eintrag nachgewiesen"
+    "(1) „Anton Reich Zimmerei Hausmeisterservice Isen Weidacherweg“ ohne Filter sowie „Impressum Anton Reich Zimmerei Baumfällungen Isen Inhaber“ mit blocked_domains (11880, Gelbe Seiten, Das Örtliche, Telefonbuch, Cylex, meinestadt, Creditreform, Facebook, Instagram, golocal, MyHammer, Northdata, Firmenwissen, WKDB, Yelp, trustlocal, wlw) – nur ED-live, Markt-Isen-Adressbuch, wirsindhandwerk-Profil und eine Spenderliste der FF Isen; kein eigenes Impressum",
+    "(2) Domain-Check allowed_domains zimmerei-reich.de, reich-zimmerei.de, zimmerei-reich-isen.de, anton-reich.de, toni-reich.de, reich-isen.de, hausmeisterservice-reich.de, reich-holzbau.de – Treffer nur reich-holzbau.de (Zimmerei Reich GmbH & Co. KG, Aindling-Gaulzhofen) und reich-zimmerei.de (Markus Reich, Lübeck) – fremde Betriebe, kein Bezug zu Isen",
+    "(3) Telefon-/Mailsuche „08083 549768“ / „reich.toni@web.de“ mit blocked_domains – nur ED-live und Markt-Isen-Adressbuch, keine Website",
+    "(4) E-Mail ist Freemail (web.de) – keine Firmendomain; kein „Homepage“-Feld in den Verzeichnis-Snippets",
+    "(5) wirsindhandwerk.de-Profil ist ein Plattformprofil, keine eigene Website",
+    "Website-Risiko: mittel – alle Prüfungen negativ, Freemail belegt, Google-Eintrag nicht nachgewiesen"
   ],
   "facts": {
     "services": [
-      "Pflasterarbeiten",
-      "Verbundpflaster verlegen",
-      "Terrassenbau",
-      "Garageneinfahrten und Wege",
-      "Zaun- und Sichtschutzmontage",
-      "Gartenarbeiten",
-      "Bodenlegerarbeiten"
+      "Zimmerei",
+      "Dachgauben",
+      "Dachgeschossausbau",
+      "Hausaufstockung",
+      "Baumfällungen",
+      "Hausmeisterservice"
     ],
     "experience": null,
-    "praisedFor": []
+    "praisedFor": [
+      "Pünktlichkeit",
+      "gute Ausrüstung",
+      "Freundlichkeit",
+      "sauberes Arbeiten bei der Baumfällung"
+    ]
   },
   "strategy": {
-    "audience": "Hausbesitzer und Bauherren in Wörth, Erding, Forstern und Pastetten, die Einfahrt, Terrasse oder Gartenwege pflastern oder einen neuen Zaun setzen lassen wollen",
-    "mainService": "Pflasterarbeiten – Einfahrten, Terrassen und Wege",
-    "trustSignal": "Inhabergeführter Einzelbetrieb aus Wörth, direkt per Handy erreichbar",
-    "conversionGoal": "Kostenloses Angebot anfragen (per WhatsApp mit Fotos der Fläche oder Anruf)",
-    "visualConcept": "Erdig und solide: frisch verlegtes Verbundpflaster, saubere Fugen, Randsteine und Holzzaun im Abendlicht"
+    "audience": "Hausbesitzer in Isen, Lengdorf, Dorfen und Sankt Wolfgang, die das Dach ausbauen, eine Gaube oder Aufstockung planen oder einen großen Baum sicher fällen lassen wollen",
+    "mainService": "Zimmerei – Dachgauben, Dachausbau und Aufstockung, dazu Baumfällung",
+    "trustSignal": "Inhabergeführte Zimmerei aus Isen; Kundenbewertung lobt Pünktlichkeit und gute Ausrüstung",
+    "conversionGoal": "Kostenlose Besichtigung bzw. Angebot anfragen (Anruf oder WhatsApp mit Fotos)",
+    "visualConcept": "Warmes Holz und Handwerk: Dachstuhl im Rohbau, frische Gaube, Fichtenbalken und Motorsäge im ländlichen Isental"
   },
   "sales": {
     "score": 4,
     "whyGoodLead": [
-      "Keine eigene Website gefunden – nur Verzeichniseinträge und ein Kleinanzeigen-Inserat",
+      "Keine eigene Website gefunden – nur Verzeichnisse und ein Plattformprofil",
       "Mobilnummer und web.de-Adresse öffentlich – ideal für WhatsApp-Erstkontakt",
-      "Inserat auf Kleinanzeigen zeigt aktive Kundensuche",
-      "Pflaster, Terrassen und Zäune sind im Landkreis Erding mit vielen Neubauten gefragt"
+      "Zwei klare Standbeine (Zimmerei und Baumfällung), die auf einer Website gut zu zeigen sind",
+      "Zimmerer sind in der bisherigen Lead-Liste selten"
     ],
-    "pitch": "Hallo Herr Neuberger, hier ist … – ich baue Websites für Handwerker im Landkreis Erding. Ich habe Ihr Angebot für Pflaster, Terrassen und Zäune aus Wörth gesehen, aber keine eigene Website gefunden. Ich habe unverbindlich einen Entwurf vorbereitet, über den Kunden Fotos ihrer Einfahrt schicken und direkt anfragen können – darf ich Ihnen den Link schicken?"
+    "pitch": "Hallo Herr Reich, hier ist … – ich baue Websites für Handwerker im Landkreis Erding. Ich habe Ihre Zimmerei und Baumfällungen in Isen gefunden, aber keine eigene Website. Ich habe unverbindlich einen Entwurf vorbereitet, auf dem Kunden Ihre Dachausbauten und Baumfällungen sehen und direkt anfragen können – darf ich Ihnen den Link schicken?"
   },
   "manualChecks": [
     "Website-Risiko: mittel – vor Versand in Google Maps prüfen, dass keine Website hinterlegt ist (Grund: Google-Eintrag nicht nachgewiesen, nur Freemail belegt)",
-    "Google-Eintrag in Maps suchen (Name „Neuberger“, Ötzstr. 1, Wörth) – Existenz und Bewertungen prüfen",
-    "Firmenname uneinheitlich („Fa. Neuberger Pflasterarbeiten“, „Firma Neuberger“, Fußbodenlegerei) – beim Erstkontakt bevorzugten Namen erfragen",
-    "Inhabername aus Kleinanzeigen-Impressum (Udo Michael Neuberger); E-Mail lautet auf „neuberger.michael“ – Anrede bestätigen",
-    "Leistungsschwerpunkt klären: Pflaster/Zaun/Garten vs. Bodenleger – Website auf Außenanlagen ausgerichtet",
+    "Mobilnummer 0172 8350350 stammt aus dem Adressbuch des Markt Isen – vor WhatsApp-Kontakt bestätigen; Festnetz 08083 549768",
+    "Inhaber Anton Reich nur indirekt belegt (Firmenname, Spenderliste FF Isen, E-Mail „reich.toni“) – Anrede beim Erstkontakt bestätigen",
+    "Leistungsmix klären: Zimmerei (Gauben, Dachausbau, Aufstockung) laut Gelbe Seiten, Hausmeisterservice laut 11880 – Schwerpunkt erfragen",
+    "Kein Bezug zur Zimmerei Reich GmbH & Co. KG (Aindling) oder Markus Reich (Lübeck) – nicht verwechseln",
     "Logo und Projektfotos: nicht gefunden – beim Betrieb anfragen"
   ],
   "sources": [
     {
-      "label": "11880 – Pflasterarbeiten Oberding/Eitting (Liste mit Fa. Neuberger Pflasterarbeiten)",
-      "url": "https://www.11880.com/suche/pflasterarbeiten/eitting"
+      "label": "Markt Isen – Adressbuch: Anton Reich Zimmerei + Baumfällungen",
+      "url": "https://www.markt-isen.de/adressbuch/eintrag/anton-reich-zimmerei-baumfaellungen"
     },
     {
-      "label": "goyellow – Firma Neuberger, Wörth (Kreis Erding)",
-      "url": "https://www.goyellow.de/home/fussbodenlegerei-firma-neuberger-woerth-kreis-erding--4n2vzr.html"
+      "label": "ED-live – Branchenbuch Region Erding: Anton Reich Zimmerei u. Baumfällungen",
+      "url": "https://www.ed-live.de/branchenbuch?eintrag=7877"
     },
     {
-      "label": "bundes-telefonbuch – Firma Neuberger, 85457 Wörth",
-      "url": "https://www.bundes-telefonbuch.de/woerth/firma-neuberger-kt1605542211401"
+      "label": "wirsindhandwerk – Anton Reich Zimmerei & Baumfällungen (Bewertungen)",
+      "url": "https://www.wirsindhandwerk.de/anton-reich/bewertungen"
     },
     {
-      "label": "Kleinanzeigen – Zäune, Terrassen, Pflaster, Gartenarbeiten (Wörth Kr. Erding)",
-      "url": "https://www.kleinanzeigen.de/s-anzeige/zaeune-terrassen-pflaster-gartenarbeiten/3061900425-239-6575"
+      "label": "Das Örtliche – Reich Anton Zimmerei, Isen",
+      "url": "https://mobil.dasoertliche.de/Themen/Reich-Anton-Zimmerei-Isen-Weidacher-Weg"
+    },
+    {
+      "label": "Gelbe Seiten – Reich Anton, Isen",
+      "url": "http://adresse.gelbeseiten.de/120002836265/reich-anton/isen"
+    },
+    {
+      "label": "11880 – Hausmeisterservices Isen (Anton Reich Hausmeisterservice & Zimmerei)",
+      "url": "https://www.11880.com/suche/hausmeisterservice/isen"
     }
   ],
   "site": {
-    "theme": "garten",
+    "theme": "werk",
     "category": "handwerk",
     "heroOffer": [
-      "Pflaster",
-      "Einfahrten",
-      "Terrassen",
-      "Gartenwege",
-      "Zäune"
+      "Dachgauben",
+      "Dachausbau",
+      "Aufstockung",
+      "Baumfällung",
+      "Zimmerei"
     ],
-    "scene": "garden",
-    "logoIcon": "trowel",
-    "logoMark": "N",
-    "brandName": "Neuberger Pflasterarbeiten",
-    "seoTitle": "Pflasterarbeiten in Wörth & Erding – Neuberger",
-    "seoDescription": "Pflaster, Einfahrten, Terrassen und Zäune in Wörth, Erding und Umgebung. Jetzt kostenloses Angebot anfragen – auch per WhatsApp.",
+    "scene": "facade",
+    "logoIcon": "roof",
+    "logoMark": "AR",
+    "brandName": "Zimmerei Anton Reich",
+    "seoTitle": "Zimmerei in Isen – Anton Reich",
+    "seoDescription": "Zimmerei und Baumfällungen in Isen: Dachgauben, Dachgeschossausbau und Aufstockungen. Jetzt kostenlos anfragen – auch per WhatsApp.",
     "nav": [
-      { "label": "Leistungen", "href": "#leistungen" },
-      { "label": "Projekte", "href": "#projekte" },
-      { "label": "Bewertungen", "href": "#bewertungen" },
-      { "label": "Ablauf", "href": "#ablauf" },
-      { "label": "FAQ", "href": "#faq" },
-      { "label": "Kontakt", "href": "#kontakt" }
+      {
+        "label": "Leistungen",
+        "href": "#leistungen"
+      },
+      {
+        "label": "Projekte",
+        "href": "#projekte"
+      },
+      {
+        "label": "Bewertungen",
+        "href": "#bewertungen"
+      },
+      {
+        "label": "Ablauf",
+        "href": "#ablauf"
+      },
+      {
+        "label": "FAQ",
+        "href": "#faq"
+      },
+      {
+        "label": "Kontakt",
+        "href": "#kontakt"
+      }
     ],
     "hero": {
-      "eyebrow": "Pflaster & Zaunbau · Wörth",
-      "headline": "Pflasterarbeiten aus Wörth bei Erding",
-      "sub": "Einfahrten, Terrassen, Wege und Zäune – verlegt und gesetzt im Landkreis Erding.",
-      "ctaPrimary": "Kostenloses Angebot anfragen",
+      "eyebrow": "Zimmerei & Baumfällungen · Isen",
+      "headline": "Ihre Zimmerei in Isen",
+      "sub": "Gauben, Dachausbau und Aufstockungen – dazu sichere Baumfällungen im Isental.",
+      "ctaPrimary": "Kostenlos anfragen",
       "ctaSecondary": "Anrufen",
       "bullets": [
-        "Verbundpflaster für Einfahrt und Hof",
-        "Terrassen und Gartenwege",
-        "Zaun und Sichtschutz"
+        "Dachgauben und Dachgeschossausbau",
+        "Aufstockungen in Holzbauweise",
+        "Baumfällung mit Wurzelfräsen"
       ],
-      "imageLabel": "frisch gepflasterte Hofeinfahrt mit sauberen Randsteinen"
+      "imageLabel": "neuer Dachstuhl mit Gaube aus hellem Holz"
     },
     "badges": [
-      { "title": "Pflaster", "sub": "Einfahrt & Hof" },
-      { "title": "Terrassen", "sub": "Platz im Garten" },
-      { "title": "Zäune", "sub": "inkl. Sichtschutz" },
-      { "title": "Wörth", "sub": "Landkreis Erding" }
+      {
+        "title": "Zimmerei",
+        "sub": "Dach & Holzbau"
+      },
+      {
+        "title": "Gauben",
+        "sub": "mehr Platz unterm Dach"
+      },
+      {
+        "title": "Baumfällung",
+        "sub": "inkl. Wurzelfräsen"
+      },
+      {
+        "title": "Isen",
+        "sub": "Weidacherweg"
+      }
     ],
     "trust": [
-      { "value": "Vor Ort", "label": "Betrieb in Wörth" },
-      { "value": "Inhaber", "label": "persönlich am Bau" },
-      { "value": "Außen", "label": "Pflaster, Terrasse, Zaun" },
-      { "value": "Mobil", "label": "direkt erreichbar" }
+      {
+        "value": "5,0",
+        "label": "Kundenbewertung (wirsindhandwerk)"
+      },
+      {
+        "value": "Vor Ort",
+        "label": "Zimmerei in Isen"
+      },
+      {
+        "value": "2",
+        "label": "Standbeine: Holzbau & Bäume"
+      },
+      {
+        "value": "Mobil",
+        "label": "direkt erreichbar"
+      }
     ],
     "servicesIntro": {
-      "headline": "Alles für Hof, Einfahrt und Garten",
-      "text": "Vom Unterbau bis zur letzten Fuge: Pflasterflächen, Terrassen und Zäune aus einer Hand – für Grundstücke rund um Wörth und Erding."
+      "headline": "Holzbau am Dach – und sichere Arbeit am Baum",
+      "text": "Von der neuen Gaube bis zur Aufstockung: Die Zimmerei schafft Wohnraum unter dem Dach. Große Bäume werden entastet, gefällt und auf Wunsch samt Wurzel entfernt."
     },
     "services": [
       {
-        "title": "Pflasterarbeiten",
-        "text": "Verbundpflaster und Pflasterflächen auf tragfähigem Unterbau – eben verlegt und sauber eingefasst.",
-        "items": ["Verbundpflaster", "Unterbau", "Randsteine"]
+        "title": "Dachgauben",
+        "text": "Eine Gaube bringt Licht, Stehhöhe und nutzbare Fläche ins Dachgeschoss.",
+        "items": [
+          "Schleppgaube",
+          "Satteldachgaube",
+          "Einbau im Bestand"
+        ]
       },
       {
-        "title": "Garageneinfahrten",
-        "text": "Befahrbare Einfahrten und Stellplätze, die dem Auto und dem Winter standhalten.",
-        "items": ["Einfahrten", "Stellplätze", "Hofflächen"]
+        "title": "Dachgeschossausbau",
+        "text": "Aus dem Speicher wird Wohnraum – mit tragfähiger Holzkonstruktion als Grundlage.",
+        "items": [
+          "Ausbau",
+          "Holzkonstruktion",
+          "Wohnraum"
+        ]
       },
       {
-        "title": "Terrassenbau",
-        "text": "Neue Terrassenflächen als Verlängerung des Wohnraums nach draußen.",
-        "items": ["Terrassenflächen", "Anschluss ans Haus", "Gefälle"]
+        "title": "Hausaufstockung",
+        "text": "Ein zusätzliches Geschoss in Holzbauweise – leicht und schnell aufgesetzt.",
+        "items": [
+          "Aufstockung",
+          "Holzbau",
+          "Mehr Fläche"
+        ]
       },
       {
-        "title": "Gartenwege",
-        "text": "Wege zum Hauseingang, zur Garage oder durch den Garten – trittsicher und ordentlich.",
-        "items": ["Hauszugang", "Gartenwege", "Einfassungen"]
+        "title": "Zimmererarbeiten",
+        "text": "Dachstühle, Balken und Holzkonstruktionen rund um Haus und Hof.",
+        "items": [
+          "Dachstuhl",
+          "Balkenarbeiten",
+          "Reparaturen"
+        ]
       },
       {
-        "title": "Zaun & Sichtschutz",
-        "text": "Zäune und Sichtschutzelemente fachgerecht gesetzt – für Grenze, Garten und Terrasse.",
-        "items": ["Zaunmontage", "Sichtschutz", "Pfosten setzen"]
+        "title": "Baumfällungen",
+        "text": "Auch hohe Bäume werden Stück für Stück entastet und kontrolliert umgelegt.",
+        "items": [
+          "Entasten",
+          "Fällen",
+          "Abtransport"
+        ]
       },
       {
-        "title": "Gartenarbeiten",
-        "text": "Begleitende Arbeiten rund um Pflaster und Zaun sowie Pflege im Garten.",
-        "items": ["Gartenpflege", "Vorbereitung", "Aufräumen"]
+        "title": "Wurzelfräsen",
+        "text": "Nach der Fällung wird der Wurzelstock ausgefräst – die Fläche ist wieder nutzbar.",
+        "items": [
+          "Wurzelstock",
+          "Fräsen",
+          "Fläche frei"
+        ]
       }
     ],
     "why": {
-      "headline": "Pflaster und Zaun aus Wörth – direkt vom Inhaber.",
+      "headline": "Zimmerei aus Isen – mit Werkzeug für Dach und Baum.",
       "points": [
-        { "title": "Kurze Wege", "text": "Von Wörth aus schnell in Erding, Forstern, Pastetten und Walpertskirchen." },
-        { "title": "Ein Ansprechpartner", "text": "Sie sprechen direkt mit dem Inhaber – ohne Umwege über ein Büro." },
-        { "title": "Außen komplett", "text": "Pflaster, Terrasse und Zaun in einem Auftrag statt drei Firmen." },
-        { "title": "Fotos genügen", "text": "Ein paar Bilder der Fläche per WhatsApp reichen für eine erste Einschätzung." }
+        {
+          "title": "Kurze Wege",
+          "text": "Von Isen aus schnell in Lengdorf, Dorfen, Sankt Wolfgang und Maitenbeth."
+        },
+        {
+          "title": "Gut ausgerüstet",
+          "text": "Ein Kunde hebt die gute Ausrüstung und die Pünktlichkeit hervor."
+        },
+        {
+          "title": "Sauber übergeben",
+          "text": "Arbeiten werden ohne Verschmutzung abgeschlossen – laut Kundenbewertung."
+        },
+        {
+          "title": "Direkter Draht",
+          "text": "Sie sprechen direkt mit dem Zimmerer – per Anruf oder WhatsApp."
+        }
       ]
     },
     "reviews": {
       "headline": "Was Kunden sagen",
-      "summary": "Kundenstimmen werden hier eingebunden, sobald sie aus dem Google-Profil übernommen sind.",
+      "summary": "Auf wirsindhandwerk.de mit 5,0 von 5 bewertet. Weitere Kundenstimmen werden eingebunden, sobald sie aus dem Google-Profil übernommen sind.",
       "highlights": [
-        "Pflasterarbeiten in Wörth",
-        "Einfahrten und Terrassen",
-        "Direkter Kontakt"
+        "Pünktlich",
+        "Gute Ausrüstung",
+        "Sauber gearbeitet"
       ],
-      "source": "Google",
-      "sourceUrl": "https://www.google.com/maps/search/?api=1&query=Neuberger%20%C3%96tzstr.%201%2085457%20W%C3%B6rth",
-      "rating": null,
-      "count": null
+      "source": "wirsindhandwerk",
+      "sourceUrl": "https://www.wirsindhandwerk.de/anton-reich/bewertungen",
+      "rating": 5,
+      "count": 1
     },
     "process": {
-      "headline": "In vier Schritten zur neuen Fläche",
+      "headline": "In vier Schritten zum Ergebnis",
       "steps": [
-        { "title": "Anfrage", "text": "Fotos und ungefähre Maße der Fläche per WhatsApp schicken – oder kurz anrufen." },
-        { "title": "Besichtigung", "text": "Untergrund, Gefälle und Material werden vor Ort abgestimmt." },
-        { "title": "Angebot", "text": "Sie erhalten ein klares Angebot für Pflaster, Terrasse oder Zaun." },
-        { "title": "Ausführung", "text": "Aushub, Unterbau, Verlegen und Verfugen – die Fläche wird sauber übergeben." }
+        {
+          "title": "Anfrage",
+          "text": "Fotos von Dach oder Baum per WhatsApp schicken – oder kurz anrufen."
+        },
+        {
+          "title": "Besichtigung",
+          "text": "Konstruktion, Zugang und Umfang werden vor Ort angeschaut."
+        },
+        {
+          "title": "Angebot",
+          "text": "Sie erhalten ein klares Angebot für Ihr Vorhaben."
+        },
+        {
+          "title": "Ausführung",
+          "text": "Holzbau oder Fällung – erledigt und ordentlich hinterlassen."
+        }
       ]
     },
     "gallery": {
-      "headline": "Flächen, die halten",
+      "headline": "Holz, das trägt",
       "text": "Für die Live-Version zeigen wir hier echte Projekte des Betriebs.",
       "items": [
-        { "title": "Hofeinfahrt", "photoNeeded": "gepflasterte Garageneinfahrt mit Randsteinen" },
-        { "title": "Neue Terrasse", "photoNeeded": "fertige Pflasterterrasse am Haus" },
-        { "title": "Gartenweg", "photoNeeded": "geschwungener Pflasterweg durch den Garten" },
-        { "title": "Zaun", "photoNeeded": "neu gesetzter Zaun an der Grundstücksgrenze" },
-        { "title": "Sichtschutz", "photoNeeded": "Sichtschutzwand an der Terrasse" }
+        {
+          "title": "Neue Gaube",
+          "photoNeeded": "fertige Dachgaube an einem Einfamilienhaus"
+        },
+        {
+          "title": "Dachausbau",
+          "photoNeeded": "offener Dachstuhl während des Ausbaus"
+        },
+        {
+          "title": "Aufstockung",
+          "photoNeeded": "Holzrahmen eines aufgesetzten Geschosses"
+        },
+        {
+          "title": "Baumfällung",
+          "photoNeeded": "hoher Baum beim Entasten mit Seilsicherung"
+        },
+        {
+          "title": "Wurzel gefräst",
+          "photoNeeded": "Fläche nach dem Ausfräsen des Wurzelstocks"
+        }
       ]
     },
     "region": {
-      "headline": "Pflasterarbeiten für Wörth und den Landkreis Erding",
-      "text": "Von Wörth aus schnell in Hörlkofen, Erding, Walpertskirchen, Forstern, Pastetten und Markt Schwaben.",
+      "headline": "Zimmerei für Isen und das Isental",
+      "text": "Von Isen aus schnell in Lengdorf, Dorfen, Sankt Wolfgang, Maitenbeth, Walpertskirchen und Pastetten.",
       "places": [
-        "Wörth",
-        "Hörlkofen",
-        "Erding",
+        "Isen",
+        "Lengdorf",
+        "Dorfen",
+        "Sankt Wolfgang",
+        "Maitenbeth",
         "Walpertskirchen",
-        "Forstern",
-        "Pastetten",
-        "Markt Schwaben"
+        "Pastetten"
       ]
     },
     "faq": [
-      { "q": "Kann ich vorab Fotos schicken?", "a": "Ja, Fotos und grobe Maße per WhatsApp helfen für eine erste Einschätzung." },
-      { "q": "Pflastern Sie auch Garageneinfahrten?", "a": "Ja, Einfahrten, Stellplätze und Hofflächen gehören zum Angebot." },
-      { "q": "Setzen Sie auch Zäune?", "a": "Ja, Zäune und Sichtschutz werden ebenfalls montiert – gern zusammen mit der Pflasterfläche." },
-      { "q": "Wie lange dauert eine neue Terrasse?", "a": "Das hängt von Größe und Untergrund ab. Ein Zeitplan wird nach der Besichtigung abgestimmt." },
-      { "q": "Arbeiten Sie auch außerhalb von Wörth?", "a": "Ja, im Landkreis Erding und Umgebung – fragen Sie einfach an." }
+      {
+        "q": "Bauen Sie Gauben auch in bestehende Dächer ein?",
+        "a": "Ja, Dachgauben und Dachgeschossausbau gehören zu den Schwerpunkten der Zimmerei."
+      },
+      {
+        "q": "Ist eine Aufstockung in Holz möglich?",
+        "a": "Ja, Hausaufstockungen werden angeboten. Ob es bei Ihrem Haus passt, klärt eine Besichtigung."
+      },
+      {
+        "q": "Fällen Sie auch große Bäume?",
+        "a": "Ja, auch hohe Bäume werden entastet, gefällt und auf Wunsch samt Wurzelstock entfernt."
+      },
+      {
+        "q": "Kann ich vorab Fotos schicken?",
+        "a": "Ja, Fotos per WhatsApp helfen für eine erste Einschätzung."
+      },
+      {
+        "q": "Arbeiten Sie auch außerhalb von Isen?",
+        "a": "Ja, in Isen und den Nachbarorten – fragen Sie einfach an."
+      }
     ],
     "contact": {
-      "headline": "Ihr Angebot – kostenlos und unverbindlich",
-      "text": "Beschreiben Sie kurz Ihr Vorhaben: Einfahrt, Terrasse, Weg oder Zaun, ungefähre Fläche und gewünschter Zeitraum. Fotos helfen.",
+      "headline": "Ihre Anfrage – kostenlos und unverbindlich",
+      "text": "Beschreiben Sie kurz Ihr Vorhaben: Gaube, Dachausbau, Aufstockung oder Baumfällung, dazu Ort und gewünschter Zeitraum. Fotos helfen.",
       "topics": [
-        "Pflasterarbeiten",
-        "Garageneinfahrt",
-        "Terrasse",
-        "Zaun & Sichtschutz",
+        "Dachgaube",
+        "Dachgeschossausbau",
+        "Aufstockung",
+        "Baumfällung",
         "Sonstiges"
       ],
       "responseNote": "Besichtigung nach Absprache."
     },
     "quote": {
-      "sizeLabel": "Welche Fläche soll entstehen?",
+      "sizeLabel": "Worum geht es?",
       "sizes": [
-        "Gartenweg",
-        "Terrasse",
-        "Einfahrt / Stellplatz",
-        "Hoffläche / Zaun"
+        "Gaube / Dachausbau",
+        "Aufstockung",
+        "Reparatur am Holz",
+        "Baum fällen"
       ],
       "timings": [
         "So bald wie möglich",
         "In den nächsten Wochen",
-        "Im Frühjahr",
+        "In 1–3 Monaten",
         "Ich plane erst noch"
       ]
     },
-    "stickyCta": "Angebot anfragen",
+    "stickyCta": "Jetzt anfragen",
     "look": {
-      "palette": 2,
-      "font": 6,
-      "hero": 0,
-      "services": 1,
+      "palette": 1,
+      "font": 5,
+      "hero": 1,
+      "services": 2,
       "radius": 1,
-      "logo": 0,
-      "intro": 5
+      "logo": 1,
+      "intro": 0
     }
   }
 }

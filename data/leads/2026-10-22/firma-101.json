@@ -1,280 +1,400 @@
 {
   "id": "2026-10-22-101",
-  "slug": "kc-holztechnik-ottobrunn",
+  "slug": "sk-baumdienst-sauerlach",
   "date": "2026-10-22",
   "company": {
-    "name": "KC Holztechnik",
+    "name": "SK Baumdienst",
     "owner": null,
-    "trade": "Küchen- und Möbelmontage",
-    "city": "Ottobrunn",
-    "address": "Ottostr. 57, 85521 Ottobrunn",
-    "phone": "01575 8538772",
+    "trade": "Baumpflege",
+    "city": "Sauerlach",
+    "address": "Oberbrandweg 3, 82054 Sauerlach",
+    "phone": "01577 7788666",
     "email": null,
     "serviceArea": [
-      "Ottobrunn",
-      "Neubiberg",
-      "Unterhaching",
-      "Taufkirchen",
-      "Haar",
-      "Putzbrunn",
-      "München"
+      "Sauerlach",
+      "Arget",
+      "Otterfing",
+      "Holzkirchen",
+      "Oberhaching",
+      "Straßlach-Dingharting"
     ]
   },
   "listings": {
     "google": {
-      "url": "https://www.google.com/maps/search/?api=1&query=KC%20Holztechnik%20Ottostr.%2057%20Ottobrunn",
+      "url": "https://www.google.com/maps/search/?api=1&query=SK%20Baumdienst%20Oberbrandweg%203%20Sauerlach",
       "rating": null,
       "reviews": null,
-      "evidence": "NICHT BELEGT – kein Google-Spiegel (rgv-bayern, trustlocal, firmania, firmenABC) mit KC Holztechnik gefunden. Belegt sind nur der 11880-Eintrag „Kc Holztechnik“ (Ottostr. 57, 85521 Ottobrunn, (01575) 8538772, Schreiner/Küchenmontage/Möbelbau) und gewerbliche Kleinanzeigen-Inserate (IKEA-Küchenmontage, Küchenaufbau; Konto seit 2020, Inserate 2025/2026). In Maps prüfen."
+      "evidence": "NICHT BELEGT – kein google.com/maps-Treffer und kein Google-Spiegel (rgv-bayern, firmania, trustlocal) für SK Baumdienst Sauerlach. Nur 11880-Eintrag (Oberbrandweg 3, Tel. (01577) 7788666, Branche Baumpflege, aktualisiert 24.08.2024, keine Bewertungen). In Maps prüfen."
     },
     "myhammer": {
-      "url": "https://www.kleinanzeigen.de/s-anzeige/ikea-kuechenmontage-handwerker-kuechenmonteur-kuechenaufbau/3153736219-239-15597",
+      "url": "https://www.11880.com/branchenbuch/sauerlach/170210582B108084791/sk-baumdienst.html",
       "rating": null,
       "reviews": null,
-      "evidence": "Kein MyHammer gefunden – stattdessen gewerbliches Kleinanzeigen-Inserat „IKEA Küchenmontage, Handwerker, Küchenmonteur Küchenaufbau“ in Kr. München – Ottobrunn (PRO-Konto)."
+      "evidence": "Kein MyHammer gefunden – 11880-Eintrag „Sk Baumdienst“, Oberbrandweg 3, 82054 Sauerlach, Mobil (01577) 7788666, keine Bewertungen; auch in den 11880-Listen Baumpfleger Holzkirchen und Furth (Kreis München)."
     }
   },
   "websiteStatus": "keine eigene Website gefunden",
   "websiteChecks": [
-    "(1) „Kc Holztechnik Ottobrunn“ mit blocked_domains (11880, Gelbe Seiten, Das Örtliche, Telefonbuch, Cylex, meinestadt, Creditreform, Facebook, Instagram, golocal, MyHammer, Northdata, Firmenwissen, WKDB, Yelp, trustlocal, wlw) – nur Kleinanzeigen-Inserate und fremde Firmen (Rettenberger Holzfachmarkt), keine eigene Domain",
-    "(2) Domain-Check allowed_domains kc-holztechnik.de, kcholztechnik.de, kc-holztechnik.com, kcholztechnik.com, kc-kuechenmontage.de, kc-holz.de, holztechnik-kc.de, kc-holztechnik-ottobrunn.de – keine Treffer",
-    "(3) Telefonsuche „01575 8538772“/„015758538772“ – keine Treffer (nur britische Vorwahl-Seiten 01575)",
-    "(4) „KC Holztechnik“ Ottobrunn Küchenmontage auf Kleinanzeigen/11880/Örtliche/Gelbe Seiten/rgv-bayern/firmania – nur Kleinanzeigen + 11880, kein Website-Feld sichtbar",
-    "(5) Google-Spiegel-Suche (rgv-bayern, firmania, trustlocal, restaurant-aris, firmenABC) – kein Eintrag gefunden",
-    "Website-Risiko: mittel – keine Website gefunden, aber weder Google-Eintrag noch Freemail belegt (RESERVE)"
+    "(1) „SK Baumdienst Sauerlach Oberbrandweg“ mit blocked_domains (11880, Gelbe Seiten, Das Örtliche, Telefonbuch, Cylex, meinestadt, Creditreform, Facebook, Instagram, golocal, MyHammer, Northdata, Firmenwissen, WKDB, Yelp, trustlocal, wlw) – kein Treffer zum Betrieb; nur andere Firmen am Oberbrandweg (WSK Versicherungsmakler, Venali Express) und ein Münchner Baumpflegebetrieb.",
+    "(2) Telefonsuche „01577 7788666“/„015777788666“/„01577-7788666“ mit blocked_domains – keine Seite mit dieser Nummer.",
+    "(3) Domain-Check allowed_domains sk-baumdienst.de, skbaumdienst.de, sk-baumdienst-sauerlach.de, baumdienst-sk.de, sk-baumpflege.de, baumdienst-sauerlach.de, sk-baumdienst.com, skbaumdienst.com – keine Treffer.",
+    "(4) Impressum-Suche „SK Baumdienst Impressum Inhaber“ – nur fremde Betriebe (Baumdienst SKT Dortmund/Essen/Witten, SK Bau u. a.), kein Impressum mit Bezug zu Sauerlach.",
+    "(5) Google-Spiegel-Suche (rgv-bayern, firmania, trustlocal, 11880) – nur 11880-Einträge, kein Website-Feld.",
+    "Website-Risiko: niedrig – alle Prüfungen negativ; aber weder Google-Eintrag noch Freemail belegt (RESERVE)"
   ],
   "facts": {
     "services": [
-      "IKEA-Küchenmontage",
-      "Küchenaufbau",
-      "Möbelbau",
-      "Schreinerarbeiten"
+      "Baumpflege"
     ],
     "experience": null,
     "praisedFor": []
   },
   "strategy": {
-    "audience": "Mieter, Eigentümer und Familien in Ottobrunn, Neubiberg, Unterhaching und im Münchner Osten, die eine neue (IKEA-)Küche oder Möbel fachgerecht aufbauen lassen wollen",
-    "mainService": "Küchenmontage – Aufbau, Anpassung und Anschluss von Einbauküchen",
-    "trustSignal": "Holztechnik-Betrieb aus Ottobrunn, direkt per Handy erreichbar",
-    "conversionGoal": "Montagetermin anfragen (per WhatsApp mit Küchenplan oder Fotos)",
-    "visualConcept": "Warme Holztöne und klare Küchenfronten: frisch montierte Hängeschränke, exakte Fugen, Arbeitsplatte im Streiflicht"
+    "audience": "Hausbesitzer mit Garten, Hausverwaltungen und Landwirte in Sauerlach, Otterfing und Holzkirchen, deren Bäume geschnitten, gesichert oder gefällt werden müssen",
+    "mainService": "Baumpflege, Baumschnitt und Baumfällung",
+    "trustSignal": "Kleiner Baumdienst aus Sauerlach, direkt per Handy erreichbar",
+    "conversionGoal": "Baum-Foto per WhatsApp schicken und Einschätzung anfragen",
+    "visualConcept": "Kräftiges Grün, Rinde und Kletterseil – naturnah, sicher und bodenständig"
   },
   "sales": {
     "score": 3,
     "whyGoodLead": [
-      "Keine eigene Website gefunden – Akquise läuft offenbar nur über Kleinanzeigen",
-      "Mobilnummer öffentlich gelistet – WhatsApp-Erstkontakt möglich",
-      "Küchenmontage ist ein suchstarkes Thema („IKEA Küche aufbauen lassen Ottobrunn“)",
-      "Eigene Seite mit Montagebeispielen würde von Kleinanzeigen unabhängig machen"
+      "Keine eigene Website gefunden – nur ein 11880-Eintrag",
+      "Mobilnummer öffentlich gelistet – ideal für WhatsApp-Erstkontakt",
+      "Noch keine Bewertungen – Website und Google-Profil schaffen erst Sichtbarkeit",
+      "Baumpflege im waldreichen Süden Münchens saisonal stark gefragt (Herbst/Winter-Fällsaison)"
     ],
-    "pitch": "Hallo, hier ist … – ich baue Websites für Handwerker im Münchner Süden. Ich habe Ihre Anzeigen für Küchenmontage aus Ottobrunn gesehen, aber keine eigene Website gefunden. Ich habe unverbindlich einen Entwurf vorbereitet, auf dem Kunden ihren Küchenplan schicken und direkt einen Montagetermin anfragen können – darf ich Ihnen den Link schicken?"
+    "pitch": "Hallo, hier ist … – ich baue Websites für Handwerks- und Gartenbetriebe im Münchner Süden. Ich habe Ihren Eintrag „SK Baumdienst“ in Sauerlach gefunden, aber keine Website. Ich habe unverbindlich einen Entwurf vorbereitet, über den Kunden Ihnen direkt ein Foto ihres Baums per WhatsApp schicken können – darf ich Ihnen den Link senden?"
   },
   "manualChecks": [
     "RESERVE – weder Google-Eintrag noch Freemail-Adresse belegt: NUR versenden, wenn Google Maps einen Eintrag OHNE Website zeigt.",
-    "Inhabername unbekannt (Kleinanzeigen-Impressum nicht ausgewertet) – beim Erstkontakt erfragen, Anrede neutral",
-    "Leistungen nur grob belegt (IKEA-Küchenmontage, Küchenaufbau; 11880: Schreiner, Möbelbau) – Elektro-/Wasseranschluss, Arbeitsplatten-Zuschnitt beim Betrieb bestätigen",
-    "Einsatzgebiet laut Inserat Raum München (bis 200 km Anfahrt erwähnt) – tatsächliches Gebiet klären",
-    "Kleinanzeigen-Selbstangaben („sehr zuverlässig“) nicht als Kundenbewertung verwenden",
+    "Website-Risiko: niedrig – alle Prüfungen negativ (Name, Telefon, Domains, Impressum), Betrieb aber nur über einen 11880-Eintrag (Stand 24.08.2024) belegt – prüfen, ob noch aktiv",
+    "Inhabername unbekannt („SK“ vermutlich Initialen) – beim Erstkontakt erfragen; Anrede neutral halten",
+    "Leistungen nur als „Baumpflege“ belegt – Fällung, Klettertechnik, Wurzelstockfräsen, Entsorgung beim Betrieb bestätigen",
+    "Adresse Oberbrandweg 3 könnte Wohnadresse sein – auf der Website ggf. nur Ort nennen",
     "Logo und Projektfotos: nicht gefunden – beim Betrieb anfragen"
   ],
   "sources": [
     {
-      "label": "11880 – Schreiner Ottobrunn (Liste mit Kc Holztechnik)",
-      "url": "https://www.11880.com/branchenbuch/ottobrunn/schreiner"
+      "label": "11880 – Sk Baumdienst Sauerlach",
+      "url": "https://www.11880.com/branchenbuch/sauerlach/170210582B108084791/sk-baumdienst.html"
     },
     {
-      "label": "Kleinanzeigen – IKEA Küchenmontage, Küchenaufbau (Ottobrunn)",
-      "url": "https://www.kleinanzeigen.de/s-anzeige/ikea-kuechenmontage-handwerker-kuechenmonteur-kuechenaufbau/3153736219-239-15597"
+      "label": "11880 – Baumpfleger Sauerlach",
+      "url": "https://www.11880.com/suche/baumpflege/sauerlach"
     },
     {
-      "label": "Kleinanzeigen – Handwerk in Ottobrunn",
-      "url": "https://www.kleinanzeigen.de/s-ottobrunn/handwerk./k0l5511"
+      "label": "11880 – Baumpfleger Holzkirchen",
+      "url": "https://www.11880.com/suche/baumpflege/holzkirchen"
+    },
+    {
+      "label": "11880 – Baumpfleger Furth (Kreis München)",
+      "url": "https://www.11880.com/suche/baumpflege/furth-kreis-muenchen"
     }
   ],
   "site": {
-    "theme": "atelier",
+    "theme": "garten",
     "category": "handwerk",
     "heroOffer": [
-      "Küchenmontage",
-      "IKEA-Küchen",
-      "Möbelaufbau",
-      "Möbelbau",
-      "Anpassungen"
+      "Baumpflege",
+      "Baumschnitt",
+      "Baumfällung",
+      "Totholz",
+      "Kronenpflege"
     ],
-    "scene": "kitchen",
-    "logoIcon": "cabinet",
-    "logoMark": "KC",
-    "brandName": "KC Holztechnik",
-    "seoTitle": "Küchenmontage in Ottobrunn – KC Holztechnik",
-    "seoDescription": "Küchenmontage, IKEA-Küchenaufbau und Möbelbau in Ottobrunn und im Münchner Osten. Jetzt Montagetermin anfragen – auch per WhatsApp.",
+    "scene": "garden",
+    "logoIcon": "leaf",
+    "logoMark": "SK",
+    "brandName": "SK Baumdienst",
+    "seoTitle": "Baumpflege in Sauerlach – SK Baumdienst",
+    "seoDescription": "Baumpflege, Baumschnitt und Fällung in Sauerlach, Otterfing und Holzkirchen. Foto per WhatsApp schicken und Einschätzung erhalten.",
     "nav": [
-      { "label": "Leistungen", "href": "#leistungen" },
-      { "label": "Projekte", "href": "#projekte" },
-      { "label": "Bewertungen", "href": "#bewertungen" },
-      { "label": "Ablauf", "href": "#ablauf" },
-      { "label": "FAQ", "href": "#faq" },
-      { "label": "Kontakt", "href": "#kontakt" }
+      {
+        "label": "Leistungen",
+        "href": "#leistungen"
+      },
+      {
+        "label": "Projekte",
+        "href": "#projekte"
+      },
+      {
+        "label": "Bewertungen",
+        "href": "#bewertungen"
+      },
+      {
+        "label": "Ablauf",
+        "href": "#ablauf"
+      },
+      {
+        "label": "FAQ",
+        "href": "#faq"
+      },
+      {
+        "label": "Kontakt",
+        "href": "#kontakt"
+      }
     ],
     "hero": {
-      "eyebrow": "Küchenmontage · Ottobrunn",
-      "headline": "Küchenmontage in Ottobrunn",
-      "sub": "Ihre neue Küche passgenau aufgebaut – vom Korpus bis zur Arbeitsplatte.",
-      "ctaPrimary": "Montagetermin anfragen",
+      "eyebrow": "Baumpflege · Sauerlach",
+      "headline": "Baumpflege in Sauerlach",
+      "sub": "Schnitt, Pflege und Fällung – für gesunde, sichere Bäume im Münchner Süden.",
+      "ctaPrimary": "Baum-Foto schicken",
       "ctaSecondary": "Anrufen",
       "bullets": [
-        "IKEA- und Markenküchen",
-        "Holztechnik aus Ottobrunn",
+        "Baumdienst aus Sauerlach",
+        "Pflege, Schnitt und Fällung",
         "Direkt per Handy erreichbar"
       ],
-      "imageLabel": "frisch montierte Einbauküche mit Holzarbeitsplatte"
+      "imageLabel": "Baumpfleger im Seil in einer Baumkrone"
     },
     "badges": [
-      { "title": "Küchen", "sub": "Aufbau & Montage" },
-      { "title": "IKEA", "sub": "Planung umgesetzt" },
-      { "title": "Möbelbau", "sub": "aus Holz" },
-      { "title": "Ottobrunn", "sub": "Ottostraße" }
+      {
+        "title": "Baumpflege",
+        "sub": "gesunde Kronen"
+      },
+      {
+        "title": "Fällung",
+        "sub": "auch auf engem Raum"
+      },
+      {
+        "title": "Mobil",
+        "sub": "schnell erreichbar"
+      },
+      {
+        "title": "Sauerlach",
+        "sub": "Landkreis München"
+      }
     ],
     "trust": [
-      { "value": "Vor Ort", "label": "Betrieb in Ottobrunn" },
-      { "value": "Holz", "label": "Schreinerhandwerk" },
-      { "value": "Küche", "label": "Montage im Fokus" },
-      { "value": "Mobil", "label": "schnell erreichbar" }
+      {
+        "value": "Vor Ort",
+        "label": "Betrieb in Sauerlach"
+      },
+      {
+        "value": "Baum",
+        "label": "Pflege bis Fällung"
+      },
+      {
+        "value": "WhatsApp",
+        "label": "Foto genügt"
+      },
+      {
+        "value": "Süden",
+        "label": "Sauerlach bis Holzkirchen"
+      }
     ],
     "servicesIntro": {
-      "headline": "Vom Karton zur fertigen Küche",
-      "text": "Wir bauen Ihre Küche nach Plan auf, richten Fronten aus und passen an, wo Wände und Nischen nicht im Lot sind."
+      "headline": "Rund um den Baum – von der Pflege bis zur Fällung",
+      "text": "Ob ein Ast aufs Dach ragt, die Krone zu dicht ist oder ein Baum weichen muss: Der SK Baumdienst schaut sich Ihren Baum an und sagt, was nötig ist."
     },
     "services": [
       {
-        "title": "IKEA-Küchenmontage",
-        "text": "Wir montieren Ihre IKEA-Küche nach Ihrem Planungsausdruck – Korpusse, Fronten, Griffe und Sockel.",
-        "items": ["Korpusaufbau", "Fronten & Griffe", "Sockelblenden"]
+        "title": "Baumschnitt",
+        "text": "Fachgerechter Schnitt, der den Baum entlastet und seine Form erhält.",
+        "items": [
+          "Erziehungsschnitt",
+          "Lichtraumprofil",
+          "Rückschnitt"
+        ]
       },
       {
-        "title": "Küchenaufbau",
-        "text": "Auch Küchen anderer Hersteller bauen wir sauber auf und richten sie exakt aus.",
-        "items": ["Unterschränke", "Hängeschränke", "Hochschränke"]
+        "title": "Kronenpflege",
+        "text": "Auslichten zu dichter Kronen für mehr Licht im Garten und weniger Windlast.",
+        "items": [
+          "Auslichten",
+          "Kronensicherung",
+          "Entlastung"
+        ]
       },
       {
-        "title": "Arbeitsplatten",
-        "text": "Arbeitsplatten werden angepasst, eingesetzt und für Spüle und Kochfeld vorbereitet.",
-        "items": ["Zuschnitt", "Ausschnitte", "Wandabschluss"]
+        "title": "Totholz entfernen",
+        "text": "Abgestorbene Äste kommen raus, bevor sie auf Dach, Auto oder Weg fallen.",
+        "items": [
+          "Totholz",
+          "Bruchgefahr",
+          "Verkehrssicherheit"
+        ]
       },
       {
-        "title": "Möbelaufbau",
-        "text": "Schränke, Regale und Betten aus dem Möbelhaus – stabil aufgebaut und bei Bedarf an der Wand gesichert.",
-        "items": ["Kleiderschränke", "Regale", "Wandbefestigung"]
+        "title": "Baumfällung",
+        "text": "Kontrollierte Fällung – auch Stück für Stück, wenn wenig Platz ist.",
+        "items": [
+          "Fällung",
+          "Abtragen",
+          "Engstellen"
+        ]
       },
       {
-        "title": "Möbelbau",
-        "text": "Wo Standardmöbel nicht passen, schaffen wir mit Holz passende Lösungen.",
-        "items": ["Nischenlösungen", "Blenden", "Einzelstücke"]
+        "title": "Sturmschäden",
+        "text": "Schnelle Hilfe, wenn nach Sturm oder Schneebruch Bäume oder Äste gefährlich hängen.",
+        "items": [
+          "Schadbäume",
+          "Hänger",
+          "Aufräumen"
+        ]
       },
       {
-        "title": "Anpassungen",
-        "text": "Schiefe Wände, Rohre oder Fensterbänke: Wir passen Korpusse und Blenden vor Ort an.",
-        "items": ["Passblenden", "Ausklinkungen", "Höhenausgleich"]
+        "title": "Hecken & Gehölze",
+        "text": "Rückschnitt von Großsträuchern und Hecken, die über den Garten hinauswachsen.",
+        "items": [
+          "Großsträucher",
+          "Hecken",
+          "Grenzbewuchs"
+        ]
       }
     ],
     "why": {
-      "headline": "Küchenmontage aus Ottobrunn – ohne lange Wartezeit.",
+      "headline": "Baumpflege aus Sauerlach – schnell vor Ort.",
       "points": [
-        { "title": "Kurze Wege", "text": "Von der Ottostraße sind Neubiberg, Unterhaching und Haar schnell erreicht." },
-        { "title": "Holz-Know-how", "text": "Als Holztechnik-Betrieb passen wir an, wo der Bausatz nicht reicht." },
-        { "title": "Direkter Draht", "text": "Küchenplan per WhatsApp schicken und direkt Rückmeldung bekommen." },
-        { "title": "Saubere Übergabe", "text": "Verpackung und Reste werden nach Absprache mitgenommen." }
+        {
+          "title": "Kurze Wege",
+          "text": "Von Sauerlach rasch in Otterfing, Holzkirchen, Oberhaching und Straßlach."
+        },
+        {
+          "title": "Foto genügt",
+          "text": "Ein Bild per WhatsApp reicht oft für die erste Einschätzung."
+        },
+        {
+          "title": "Sicherheit zuerst",
+          "text": "Gefährliche Äste und Schadbäume werden gezielt und kontrolliert entfernt."
+        },
+        {
+          "title": "Direkter Kontakt",
+          "text": "Sie sprechen direkt mit dem Betrieb – ohne Callcenter."
+        }
       ]
     },
     "reviews": {
       "headline": "Was Kunden sagen",
-      "summary": "Kundenstimmen werden hier eingebunden, sobald sie aus dem Google-Profil übernommen sind.",
+      "summary": "Kundenstimmen werden hier eingebunden, sobald ein Google-Profil mit Bewertungen vorliegt.",
       "highlights": [
-        "Küchenmontage in Ottobrunn",
-        "IKEA-Küchen",
+        "Baumpflege in Sauerlach",
+        "Schnitt und Fällung",
         "Direkter Kontakt"
       ],
       "source": "Google",
-      "sourceUrl": "https://www.google.com/maps/search/?api=1&query=KC%20Holztechnik%20Ottostr.%2057%20Ottobrunn",
+      "sourceUrl": "https://www.google.com/maps/search/?api=1&query=SK%20Baumdienst%20Oberbrandweg%203%20Sauerlach",
       "rating": null,
       "count": null
     },
     "process": {
-      "headline": "In vier Schritten zur fertigen Küche",
+      "headline": "So kommt Ihr Baum in Form",
       "steps": [
-        { "title": "Anfrage", "text": "Küchenplan oder Fotos per WhatsApp schicken – oder kurz anrufen." },
-        { "title": "Einschätzung", "text": "Umfang, Anpassungen und Liefertermin der Küche werden abgestimmt." },
-        { "title": "Angebot", "text": "Sie erhalten ein klares Angebot für die Montage." },
-        { "title": "Montage", "text": "Aufbau, Ausrichten, Arbeitsplatte – Übergabe der fertigen Küche." }
+        {
+          "title": "Foto schicken",
+          "text": "Baum und Umgebung fotografieren und per WhatsApp senden – oder anrufen."
+        },
+        {
+          "title": "Besichtigung",
+          "text": "Vor Ort wird geklärt, was geschnitten oder gefällt werden muss."
+        },
+        {
+          "title": "Angebot",
+          "text": "Sie erhalten ein klares Angebot – auf Wunsch mit Abtransport."
+        },
+        {
+          "title": "Ausführung",
+          "text": "Schnitt oder Fällung, danach wird aufgeräumt."
+        }
       ]
     },
     "gallery": {
-      "headline": "Küchen, die passen",
-      "text": "Für die Live-Version zeigen wir hier echte Montagen des Betriebs.",
+      "headline": "Bäume, die wieder sicher stehen",
+      "text": "Für die Live-Version zeigen wir hier echte Einsätze des SK Baumdienst.",
       "items": [
-        { "title": "IKEA-Küche", "photoNeeded": "fertig montierte IKEA-Küchenzeile" },
-        { "title": "Hängeschränke", "photoNeeded": "exakt ausgerichtete Oberschränke" },
-        { "title": "Arbeitsplatte", "photoNeeded": "eingesetzte Arbeitsplatte mit Spülenausschnitt" },
-        { "title": "Passblende", "photoNeeded": "angepasste Blende an schiefer Wand" },
-        { "title": "Möbelbau", "photoNeeded": "Nischenmöbel aus Holz" }
+        {
+          "title": "Kronenschnitt",
+          "photoNeeded": "ausgelichtete Baumkrone vorher/nachher"
+        },
+        {
+          "title": "Seilklettern",
+          "photoNeeded": "Baumpfleger mit Seil in der Krone"
+        },
+        {
+          "title": "Fällung",
+          "photoNeeded": "abgetragener Baum neben einem Haus"
+        },
+        {
+          "title": "Totholz",
+          "photoNeeded": "entfernte tote Äste am Boden"
+        },
+        {
+          "title": "Sturmschaden",
+          "photoNeeded": "umgestürzter Baum nach Sturm, geräumt"
+        }
       ]
     },
     "region": {
-      "headline": "Küchenmontage für Ottobrunn und den Münchner Osten",
-      "text": "Von Ottobrunn aus schnell in Neubiberg, Unterhaching, Taufkirchen, Haar, Putzbrunn und München.",
+      "headline": "Baumpflege für Sauerlach und den Münchner Süden",
+      "text": "Von Sauerlach aus schnell in Arget, Otterfing, Holzkirchen, Oberhaching und Straßlach-Dingharting.",
       "places": [
-        "Ottobrunn",
-        "Neubiberg",
-        "Unterhaching",
-        "Taufkirchen",
-        "Haar",
-        "Putzbrunn",
-        "München"
+        "Sauerlach",
+        "Arget",
+        "Otterfing",
+        "Holzkirchen",
+        "Oberhaching",
+        "Straßlach-Dingharting"
       ]
     },
     "faq": [
-      { "q": "Montieren Sie auch IKEA-Küchen?", "a": "Ja, IKEA-Küchenmontage gehört zu unseren Schwerpunkten." },
-      { "q": "Was brauchen Sie für ein Angebot?", "a": "Am besten den Küchenplan und Fotos vom Raum – per WhatsApp oder E-Mail." },
-      { "q": "Bauen Sie auch Küchen anderer Hersteller auf?", "a": "Ja, sprechen Sie uns mit Hersteller und Plan einfach an." },
-      { "q": "Wie lange dauert eine Küchenmontage?", "a": "Das hängt von Größe und Anpassungen ab. Den Zeitrahmen stimmen wir vorab mit Ihnen ab." },
-      { "q": "Arbeiten Sie auch außerhalb von Ottobrunn?", "a": "Ja, im Raum München – fragen Sie einfach an." }
+      {
+        "q": "Darf ich meinen Baum einfach fällen lassen?",
+        "a": "Das hängt von Gemeinde, Baumart und Stammumfang ab. Klären Sie vorab, ob eine Baumschutzverordnung gilt."
+      },
+      {
+        "q": "Wann ist die beste Zeit für Baumschnitt?",
+        "a": "Größere Schnitte und Fällungen erfolgen meist außerhalb der Brutzeit, also von Oktober bis Februar. Pflegeschnitte sind teils auch im Sommer möglich."
+      },
+      {
+        "q": "Reicht ein Foto für eine Einschätzung?",
+        "a": "Für eine erste Einschätzung ja – das genaue Angebot folgt nach der Besichtigung."
+      },
+      {
+        "q": "Kommen Sie auch bei Sturmschäden?",
+        "a": "Rufen Sie an – bei gefährlich hängenden Ästen wird schnellstmöglich ein Termin gesucht."
+      },
+      {
+        "q": "Arbeiten Sie auch außerhalb von Sauerlach?",
+        "a": "Ja, im Umkreis von Sauerlach – fragen Sie einfach an."
+      }
     ],
     "contact": {
-      "headline": "Montagetermin anfragen – unverbindlich",
-      "text": "Schicken Sie uns Küchenplan, Hersteller und Wunschtermin. Fotos vom Raum helfen bei der Einschätzung.",
+      "headline": "Ihr Baum – kurz beschreiben, Foto schicken",
+      "text": "Was soll gemacht werden: Schnitt, Totholz oder Fällung? Wie hoch ist der Baum und wie nah steht er am Haus? Ein Foto hilft.",
       "topics": [
-        "IKEA-Küchenmontage",
-        "Küchenaufbau",
-        "Arbeitsplatten",
-        "Möbelaufbau",
+        "Baumschnitt",
+        "Kronenpflege",
+        "Totholz",
+        "Baumfällung",
+        "Sturmschaden",
         "Sonstiges"
       ],
-      "responseNote": "Termin nach Absprache."
+      "responseNote": "Besichtigung nach Absprache."
     },
     "quote": {
-      "sizeLabel": "Was soll montiert werden?",
+      "sizeLabel": "Wie groß ist der Baum?",
       "sizes": [
-        "Küchenzeile",
-        "L- oder U-Küche",
-        "Küche mit Insel",
-        "Einzelne Möbel"
+        "Bis 5 m",
+        "5–10 m",
+        "10–20 m",
+        "Über 20 m"
       ],
       "timings": [
-        "So bald wie möglich",
-        "Küche wird geliefert am …",
-        "In 1–3 Monaten",
+        "Dringend",
+        "In den nächsten Wochen",
+        "Diese Fällsaison",
         "Ich plane erst noch"
       ]
     },
-    "stickyCta": "Termin anfragen",
+    "stickyCta": "Baum-Foto schicken",
     "look": {
-      "palette": 2,
-      "font": 6,
-      "hero": 0,
+      "palette": 1,
+      "font": 11,
+      "hero": 1,
       "services": 1,
-      "radius": 1,
-      "logo": 0,
-      "intro": 5
+      "radius": 3,
+      "logo": 5,
+      "intro": 2
     }
   }
 }

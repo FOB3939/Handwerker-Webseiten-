@@ -108,12 +108,30 @@
     "seoTitle": "Elektriker in Gröbenzell – Elektroinstallation Bernd Klinder",
     "seoDescription": "Elektroinstallation in Gröbenzell: Neubau, Altbausanierung, Lichtkonzepte, Alarm- und Sprechanlagen. Jetzt kostenloses Angebot anfragen.",
     "nav": [
-      { "label": "Leistungen", "href": "#leistungen" },
-      { "label": "Projekte", "href": "#projekte" },
-      { "label": "Bewertungen", "href": "#bewertungen" },
-      { "label": "Ablauf", "href": "#ablauf" },
-      { "label": "FAQ", "href": "#faq" },
-      { "label": "Kontakt", "href": "#kontakt" }
+      {
+        "label": "Leistungen",
+        "href": "#leistungen"
+      },
+      {
+        "label": "Projekte",
+        "href": "#projekte"
+      },
+      {
+        "label": "Bewertungen",
+        "href": "#bewertungen"
+      },
+      {
+        "label": "Ablauf",
+        "href": "#ablauf"
+      },
+      {
+        "label": "FAQ",
+        "href": "#faq"
+      },
+      {
+        "label": "Kontakt",
+        "href": "#kontakt"
+      }
     ],
     "hero": {
       "eyebrow": "Elektroinstallation · Gröbenzell",
@@ -129,16 +147,40 @@
       "imageLabel": "ordentlich verdrahteter Sicherungskasten in einem sanierten Altbau"
     },
     "badges": [
-      { "title": "Neubau", "sub": "komplette Installation" },
-      { "title": "Altbau", "sub": "Sanierung der Elektrik" },
-      { "title": "Sicherheit", "sub": "Alarm & Bewegungsmelder" },
-      { "title": "Gröbenzell", "sub": "Industriestraße" }
+      {
+        "title": "Neubau",
+        "sub": "komplette Installation"
+      },
+      {
+        "title": "Altbau",
+        "sub": "Sanierung der Elektrik"
+      },
+      {
+        "title": "Sicherheit",
+        "sub": "Alarm & Bewegungsmelder"
+      },
+      {
+        "title": "Gröbenzell",
+        "sub": "Industriestraße"
+      }
     ],
     "trust": [
-      { "value": "Vor Ort", "label": "Betrieb in Gröbenzell" },
-      { "value": "Mo–Fr", "label": "8 bis 18 Uhr" },
-      { "value": "Inhaber", "label": "Bernd Klinder" },
-      { "value": "Alles", "label": "von Planung bis Anschluss" }
+      {
+        "value": "Vor Ort",
+        "label": "Betrieb in Gröbenzell"
+      },
+      {
+        "value": "Mo–Fr",
+        "label": "8 bis 18 Uhr"
+      },
+      {
+        "value": "Inhaber",
+        "label": "Bernd Klinder"
+      },
+      {
+        "value": "Alles",
+        "label": "von Planung bis Anschluss"
+      }
     ],
     "servicesIntro": {
       "headline": "Elektrik vom ersten Plan bis zur letzten Steckdose",
@@ -148,41 +190,77 @@
       {
         "title": "Elektroinstallation Neubau",
         "text": "Komplette Elektrik für neue Häuser und Wohnungen – geplant nach Ihren Wünschen und sauber verlegt.",
-        "items": ["Leitungen", "Steckdosen & Schalter", "Verteilung"]
+        "items": [
+          "Leitungen",
+          "Steckdosen & Schalter",
+          "Verteilung"
+        ]
       },
       {
         "title": "Altbausanierung",
         "text": "Alte Leitungen und Sicherungskästen werden erneuert – für mehr Sicherheit und Leistung im Bestand.",
-        "items": ["Leitungen erneuern", "Sicherungskasten", "Mehr Steckdosen"]
+        "items": [
+          "Leitungen erneuern",
+          "Sicherungskasten",
+          "Mehr Steckdosen"
+        ]
       },
       {
         "title": "Lichtkonzepte",
         "text": "Licht, das zu Raum und Nutzung passt – von der Planung bis zur montierten Leuchte.",
-        "items": ["Lichtplanung", "Einbauleuchten", "Außenbeleuchtung"]
+        "items": [
+          "Lichtplanung",
+          "Einbauleuchten",
+          "Außenbeleuchtung"
+        ]
       },
       {
         "title": "Alarmanlagen",
         "text": "Alarmtechnik mit Bewegungsmeldern schützt Haus und Betrieb – passend geplant und installiert.",
-        "items": ["Alarmanlage", "Bewegungsmelder", "Planung"]
+        "items": [
+          "Alarmanlage",
+          "Bewegungsmelder",
+          "Planung"
+        ]
       },
       {
         "title": "Sprechanlagen",
         "text": "Klingel- und Sprechanlagen für Einfamilien- und Mehrfamilienhäuser.",
-        "items": ["Türsprechanlage", "Klingelanlage", "Nachrüstung"]
+        "items": [
+          "Türsprechanlage",
+          "Klingelanlage",
+          "Nachrüstung"
+        ]
       },
       {
         "title": "Geräteanschluss",
         "text": "Elektrische Geräte werden fachgerecht installiert und angeschlossen.",
-        "items": ["Herd & Backofen", "Hausgeräte", "Anschluss"]
+        "items": [
+          "Herd & Backofen",
+          "Hausgeräte",
+          "Anschluss"
+        ]
       }
     ],
     "why": {
       "headline": "Elektrik aus Gröbenzell – geplant, verlegt, angeschlossen.",
       "points": [
-        { "title": "Alles aus einer Hand", "text": "Von der ersten Planung bis zur fertigen Installation bleibt ein Betrieb verantwortlich." },
-        { "title": "Neubau & Bestand", "text": "Erfahrung mit neuen Häusern ebenso wie mit der Sanierung alter Elektrik." },
-        { "title": "Sicherheit inklusive", "text": "Alarmanlagen, Bewegungsmelder und Sprechanlagen gehören zum Angebot." },
-        { "title": "Kurze Wege", "text": "Von Gröbenzell schnell in Olching, Puchheim, Eichenau und Germering." }
+        {
+          "title": "Alles aus einer Hand",
+          "text": "Von der ersten Planung bis zur fertigen Installation bleibt ein Betrieb verantwortlich."
+        },
+        {
+          "title": "Neubau & Bestand",
+          "text": "Erfahrung mit neuen Häusern ebenso wie mit der Sanierung alter Elektrik."
+        },
+        {
+          "title": "Sicherheit inklusive",
+          "text": "Alarmanlagen, Bewegungsmelder und Sprechanlagen gehören zum Angebot."
+        },
+        {
+          "title": "Kurze Wege",
+          "text": "Von Gröbenzell schnell in Olching, Puchheim, Eichenau und Germering."
+        }
       ]
     },
     "reviews": {
@@ -201,21 +279,48 @@
     "process": {
       "headline": "So läuft Ihr Elektroprojekt",
       "steps": [
-        { "title": "Anfrage", "text": "Anrufen oder kurz per Formular beschreiben, worum es geht." },
-        { "title": "Planung", "text": "Umfang, Leitungswege und Wünsche werden gemeinsam festgelegt." },
-        { "title": "Angebot", "text": "Sie erhalten ein klares Angebot für die Arbeiten." },
-        { "title": "Installation", "text": "Verlegen, anschließen, prüfen – und die fertige Anlage übergeben." }
+        {
+          "title": "Anfrage",
+          "text": "Anrufen oder kurz per Formular beschreiben, worum es geht."
+        },
+        {
+          "title": "Planung",
+          "text": "Umfang, Leitungswege und Wünsche werden gemeinsam festgelegt."
+        },
+        {
+          "title": "Angebot",
+          "text": "Sie erhalten ein klares Angebot für die Arbeiten."
+        },
+        {
+          "title": "Installation",
+          "text": "Verlegen, anschließen, prüfen – und die fertige Anlage übergeben."
+        }
       ]
     },
     "gallery": {
       "headline": "Elektrik, die man sieht – und die man nicht sieht",
       "text": "Für die Live-Version zeigen wir hier echte Projekte des Betriebs.",
       "items": [
-        { "title": "Neuer Verteiler", "photoNeeded": "sauber verdrahteter Sicherungskasten" },
-        { "title": "Altbau saniert", "photoNeeded": "neu verlegte Leitungen im Altbau vor dem Verputzen" },
-        { "title": "Lichtkonzept", "photoNeeded": "Wohnraum mit Einbauleuchten am Abend" },
-        { "title": "Alarmanlage", "photoNeeded": "Bewegungsmelder und Bedienteil an der Wand" },
-        { "title": "Sprechanlage", "photoNeeded": "neue Türsprechanlage am Hauseingang" }
+        {
+          "title": "Neuer Verteiler",
+          "photoNeeded": "sauber verdrahteter Sicherungskasten"
+        },
+        {
+          "title": "Altbau saniert",
+          "photoNeeded": "neu verlegte Leitungen im Altbau vor dem Verputzen"
+        },
+        {
+          "title": "Lichtkonzept",
+          "photoNeeded": "Wohnraum mit Einbauleuchten am Abend"
+        },
+        {
+          "title": "Alarmanlage",
+          "photoNeeded": "Bewegungsmelder und Bedienteil an der Wand"
+        },
+        {
+          "title": "Sprechanlage",
+          "photoNeeded": "neue Türsprechanlage am Hauseingang"
+        }
       ]
     },
     "region": {
@@ -231,11 +336,26 @@
       ]
     },
     "faq": [
-      { "q": "Sanieren Sie auch die Elektrik im Altbau?", "a": "Ja, Altbausanierung gehört neben dem Neubau zu den Schwerpunkten." },
-      { "q": "Planen Sie auch die Beleuchtung?", "a": "Ja, Lichtkonzepte werden geplant und umgesetzt." },
-      { "q": "Bieten Sie Alarmanlagen an?", "a": "Ja, inklusive Bewegungsmeldern – passend zu Haus oder Betrieb geplant." },
-      { "q": "Wann sind Sie erreichbar?", "a": "Montag bis Freitag von 8 bis 18 Uhr telefonisch, sonst gern per E-Mail." },
-      { "q": "Arbeiten Sie auch außerhalb von Gröbenzell?", "a": "Ja, im Umkreis von Gröbenzell – fragen Sie einfach an." }
+      {
+        "q": "Sanieren Sie auch die Elektrik im Altbau?",
+        "a": "Ja, Altbausanierung gehört neben dem Neubau zu den Schwerpunkten."
+      },
+      {
+        "q": "Planen Sie auch die Beleuchtung?",
+        "a": "Ja, Lichtkonzepte werden geplant und umgesetzt."
+      },
+      {
+        "q": "Bieten Sie Alarmanlagen an?",
+        "a": "Ja, inklusive Bewegungsmeldern – passend zu Haus oder Betrieb geplant."
+      },
+      {
+        "q": "Wann sind Sie erreichbar?",
+        "a": "Montag bis Freitag von 8 bis 18 Uhr telefonisch, sonst gern per E-Mail."
+      },
+      {
+        "q": "Arbeiten Sie auch außerhalb von Gröbenzell?",
+        "a": "Ja, im Umkreis von Gröbenzell – fragen Sie einfach an."
+      }
     ],
     "contact": {
       "headline": "Ihr Angebot – kostenlos und unverbindlich",
@@ -266,13 +386,13 @@
     },
     "stickyCta": "Angebot anfragen",
     "look": {
-      "palette": 2,
-      "font": 6,
-      "hero": 0,
-      "services": 1,
-      "radius": 1,
-      "logo": 0,
-      "intro": 5
+      "palette": 0,
+      "font": 4,
+      "hero": 2,
+      "services": 2,
+      "radius": 2,
+      "logo": 4,
+      "intro": 3
     }
   }
 }
