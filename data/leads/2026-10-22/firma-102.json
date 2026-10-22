@@ -1,0 +1,282 @@
+{
+  "id": "2026-10-22-102",
+  "slug": "dan-suciu-taufkirchen",
+  "date": "2026-10-22",
+  "company": {
+    "name": "Hausmeister Service Handwerker Innenausbau & Abbrucharbeiten – Dan Suciu",
+    "owner": "Dan Suciu",
+    "trade": "Hausmeisterservice & Innenausbau",
+    "city": "Taufkirchen",
+    "address": "Walleitnerweg 10, 82024 Taufkirchen",
+    "phone": "0175 8172411",
+    "email": null,
+    "serviceArea": [
+      "Taufkirchen",
+      "Unterhaching",
+      "Oberhaching",
+      "Ottobrunn",
+      "Neubiberg",
+      "Sauerlach"
+    ]
+  },
+  "listings": {
+    "google": {
+      "url": "https://www.google.com/maps/search/?api=1&query=Dan%20Suciu%20Walleitnerweg%2010%20Taufkirchen",
+      "rating": null,
+      "reviews": null,
+      "evidence": "NICHT BELEGT – kein Google-Spiegel (rgv-bayern, trustlocal, firmania, firmenABC) gefunden. Belegt sind der 11880-Eintrag „Dan Suciu“ (Walleitnerweg 10, Taufkirchen, (0175) 8172411; Möbelmontage, Terrassenbau, Verputzer) sowie Profile auf blauarbeit.de („HausmeisterService Handwerker Innenausbau & Abbrucharbeiten“, Walleitnerweg 10, 82024 Taufkirchen) und handwerker-expertencheck.de (Dan Suciu, Taufkirchen). In Maps prüfen."
+    },
+    "myhammer": {
+      "url": "https://www.blauarbeit.de/handwerker/muenchen/hausmeisterservice-handwerker-innenausbau-abbrucharbeiten",
+      "rating": null,
+      "reviews": null,
+      "evidence": "Kein MyHammer gefunden – stattdessen Handwerkerprofil auf blauarbeit.de mit Leistungen Hausmeisterservice, Innenausbau, Trockenbau, Renovierung, Möbelmontage, Garten- und Landschaftspflege, leichte Abbrucharbeiten."
+    }
+  },
+  "websiteStatus": "keine eigene Website gefunden",
+  "websiteChecks": [
+    "(1) „Dan Suciu Taufkirchen Möbelmontage Walleitnerweg“ mit blocked_domains (11880, Gelbe Seiten, Das Örtliche, Telefonbuch, Cylex, meinestadt, Creditreform, Facebook, Instagram, golocal, MyHammer, Northdata, Firmenwissen, WKDB, Yelp, trustlocal, wlw) – nur Portalprofile (blauarbeit.de, handwerker-expertencheck.de), keine eigene Domain",
+    "(2) Domain-Check allowed_domains suciu-hausmeisterservice.de, hausmeisterservice-suciu.de, suciu-service.de, dan-suciu.de, suciu.de, suciu-handwerker.de, hausmeister-suciu.de, suciu-taufkirchen.de – keine Treffer",
+    "(3) Telefonsuche „0175 8172411“/„01758172411“ – keine Treffer",
+    "(4) Google-Spiegel-Suche (rgv-bayern, firmania, trustlocal, restaurant-aris, firmenABC) – kein Eintrag gefunden",
+    "Website-Risiko: mittel – keine Website gefunden, aber weder Google-Eintrag noch Freemail belegt (RESERVE)"
+  ],
+  "facts": {
+    "services": [
+      "Hausmeisterservice",
+      "Innenausbau",
+      "Trockenbau",
+      "Renovierung",
+      "Möbelmontage",
+      "Garten- und Landschaftspflege",
+      "Leichte Abbrucharbeiten",
+      "Terrassenbau",
+      "Verputzarbeiten"
+    ],
+    "experience": null,
+    "praisedFor": []
+  },
+  "strategy": {
+    "audience": "Hausbesitzer, Vermieter und Mieter in Taufkirchen, Unterhaching und Oberhaching, die einen Ansprechpartner für Renovierung, Möbelmontage, kleine Abbrüche und Gartenpflege suchen",
+    "mainService": "Renovierung und Innenausbau – vom Rückbau bis zur fertigen Wand",
+    "trustSignal": "Inhaber Dan Suciu persönlich vor Ort in Taufkirchen, direkt per Handy erreichbar",
+    "conversionGoal": "Kostenloses Angebot anfragen (per WhatsApp mit Fotos)",
+    "visualConcept": "Handfeste Baustellenoptik: Rückbau, frisch verputzte Wände, montierte Möbel und gepflegte Terrasse – alles aus einer Hand"
+  },
+  "sales": {
+    "score": 3,
+    "whyGoodLead": [
+      "Keine eigene Website gefunden – nur Portal- und Verzeichnisprofile",
+      "Mobilnummer öffentlich gelistet – WhatsApp-Erstkontakt möglich",
+      "Breites Leistungsspektrum (Renovierung, Montage, Garten) lässt sich auf einer Seite klar ordnen",
+      "Inhaber namentlich bekannt – persönliche Ansprache möglich"
+    ],
+    "pitch": "Hallo Herr Suciu, hier ist … – ich baue Websites für Handwerker im Münchner Süden. Ich habe Ihr Profil für Innenausbau und Hausmeisterservice in Taufkirchen gefunden, aber keine eigene Website. Ich habe unverbindlich einen Entwurf vorbereitet, auf dem Kunden Ihre Leistungen sehen und direkt per WhatsApp anfragen können – darf ich Ihnen den Link schicken?"
+  },
+  "manualChecks": [
+    "RESERVE – weder Google-Eintrag noch Freemail-Adresse belegt: NUR versenden, wenn Google Maps einen Eintrag OHNE Website zeigt.",
+    "Firmenname uneinheitlich (blauarbeit: „HausmeisterService Handwerker Innenausbau & Abbrucharbeiten“, 11880: „Dan Suciu“) – gewünschten Markennamen beim Erstkontakt klären",
+    "Walleitnerweg 10 ist evtl. Wohnadresse – vor Veröffentlichung klären, ob die Adresse auf der Seite stehen soll",
+    "Leistungen aus Portalprofilen übernommen – Schwerpunkte (Trockenbau, Verputz, Terrassenbau) beim Inhaber bestätigen",
+    "Logo und Projektfotos: nicht gefunden – beim Betrieb anfragen"
+  ],
+  "sources": [
+    {
+      "label": "11880 – Möbelmontage/Schreiner Taufkirchen (Eintrag Dan Suciu)",
+      "url": "https://www.11880.com/suche/schreiner/taufkirchen"
+    },
+    {
+      "label": "blauarbeit.de – HausmeisterService Handwerker Innenausbau & Abbrucharbeiten (Taufkirchen)",
+      "url": "https://www.blauarbeit.de/handwerker/muenchen/hausmeisterservice-handwerker-innenausbau-abbrucharbeiten"
+    },
+    {
+      "label": "handwerker-expertencheck.de – Dan Suciu, Taufkirchen",
+      "url": "https://www.handwerker-expertencheck.de/handwerker/taufkirchen/hausmeister-service-handwerker-innenausbau-abbrucharbeiten-dan-suciu"
+    }
+  ],
+  "site": {
+    "theme": "werk",
+    "category": "handwerk",
+    "heroOffer": [
+      "Renovierung",
+      "Trockenbau",
+      "Möbelmontage",
+      "Abbruch",
+      "Gartenpflege"
+    ],
+    "scene": "drywall",
+    "logoIcon": "house",
+    "logoMark": "DS",
+    "brandName": "Dan Suciu Haus & Ausbau",
+    "seoTitle": "Hausmeisterservice & Innenausbau in Taufkirchen – Dan Suciu",
+    "seoDescription": "Renovierung, Trockenbau, Möbelmontage, leichte Abbrucharbeiten und Gartenpflege in Taufkirchen und Umgebung. Jetzt kostenlos anfragen – auch per WhatsApp.",
+    "nav": [
+      { "label": "Leistungen", "href": "#leistungen" },
+      { "label": "Projekte", "href": "#projekte" },
+      { "label": "Bewertungen", "href": "#bewertungen" },
+      { "label": "Ablauf", "href": "#ablauf" },
+      { "label": "FAQ", "href": "#faq" },
+      { "label": "Kontakt", "href": "#kontakt" }
+    ],
+    "hero": {
+      "eyebrow": "Innenausbau · Taufkirchen",
+      "headline": "Innenausbau und Hausservice in Taufkirchen",
+      "sub": "Vom Rückbau bis zur fertigen Wand – plus Montage und Gartenpflege.",
+      "ctaPrimary": "Kostenloses Angebot anfragen",
+      "ctaSecondary": "Anrufen",
+      "bullets": [
+        "Inhaber Dan Suciu vor Ort",
+        "Renovierung bis Gartenpflege",
+        "Direkt per Handy erreichbar"
+      ],
+      "imageLabel": "Raum im Umbau mit frisch verputzter Wand"
+    },
+    "badges": [
+      { "title": "Innenausbau", "sub": "Trockenbau & Putz" },
+      { "title": "Abbruch", "sub": "leichte Rückbauten" },
+      { "title": "Montage", "sub": "Möbel & Terrasse" },
+      { "title": "Taufkirchen", "sub": "Walleitnerweg" }
+    ],
+    "trust": [
+      { "value": "Vor Ort", "label": "Betrieb in Taufkirchen" },
+      { "value": "1", "label": "Ansprechpartner für alles" },
+      { "value": "Innen", "label": "und außen am Haus" },
+      { "value": "Mobil", "label": "schnell erreichbar" }
+    ],
+    "servicesIntro": {
+      "headline": "Ein Ansprechpartner für Haus, Wohnung und Garten",
+      "text": "Ob alte Wand raus, neue Wand rein, Möbel aufbauen oder Hecke schneiden: Dan Suciu übernimmt die Arbeiten rund ums Haus selbst."
+    },
+    "services": [
+      {
+        "title": "Renovierung",
+        "text": "Wohnungen und Räume werden instand gesetzt – für den Neubezug oder nach dem Auszug.",
+        "items": ["Wohnungsrenovierung", "Ausbesserungen", "Übergabefertig"]
+      },
+      {
+        "title": "Trockenbau",
+        "text": "Neue Wände und Verkleidungen in Trockenbauweise – schnell gestellt und sauber verspachtelt.",
+        "items": ["Ständerwände", "Verkleidungen", "Spachteln"]
+      },
+      {
+        "title": "Verputzarbeiten",
+        "text": "Wände werden ausgebessert und neu verputzt – als Grundlage für Farbe oder Tapete.",
+        "items": ["Innenputz", "Ausbessern", "Glatte Flächen"]
+      },
+      {
+        "title": "Leichte Abbrucharbeiten",
+        "text": "Alte Einbauten, Verkleidungen oder nichttragende Elemente werden zurückgebaut.",
+        "items": ["Rückbau", "Demontage", "Vorbereitung Umbau"]
+      },
+      {
+        "title": "Möbelmontage",
+        "text": "Möbel werden aufgebaut, ausgerichtet und bei Bedarf an der Wand gesichert.",
+        "items": ["Schränke", "Regale", "Wandmontage"]
+      },
+      {
+        "title": "Garten & Terrasse",
+        "text": "Gartenpflege und Terrassenbau – damit es draußen genauso ordentlich aussieht wie drinnen.",
+        "items": ["Gartenpflege", "Terrassenbau", "Hausmeisterdienste"]
+      }
+    ],
+    "why": {
+      "headline": "Hausservice aus Taufkirchen – persönlich und vielseitig.",
+      "points": [
+        { "title": "Kurze Wege", "text": "Vom Walleitnerweg schnell in Unterhaching, Oberhaching und Ottobrunn." },
+        { "title": "Alles aus einer Hand", "text": "Abbruch, Ausbau, Montage und Garten – ohne mehrere Firmen zu koordinieren." },
+        { "title": "Inhaber vor Ort", "text": "Dan Suciu ist Ihr direkter Ansprechpartner von der Anfrage bis zur Übergabe." },
+        { "title": "Schnell erreichbar", "text": "Fotos per WhatsApp schicken und zügig Rückmeldung bekommen." }
+      ]
+    },
+    "reviews": {
+      "headline": "Was Kunden sagen",
+      "summary": "Kundenstimmen werden hier eingebunden, sobald sie aus dem Google-Profil übernommen sind.",
+      "highlights": [
+        "Innenausbau in Taufkirchen",
+        "Renovierung und Montage",
+        "Persönlicher Kontakt"
+      ],
+      "source": "Google",
+      "sourceUrl": "https://www.google.com/maps/search/?api=1&query=Dan%20Suciu%20Walleitnerweg%2010%20Taufkirchen",
+      "rating": null,
+      "count": null
+    },
+    "process": {
+      "headline": "In vier Schritten erledigt",
+      "steps": [
+        { "title": "Anfrage", "text": "Fotos und kurze Beschreibung per WhatsApp schicken – oder anrufen." },
+        { "title": "Besichtigung", "text": "Umfang und Ablauf werden vor Ort besprochen." },
+        { "title": "Angebot", "text": "Sie erhalten ein klares Angebot für die Arbeiten." },
+        { "title": "Ausführung", "text": "Rückbau, Ausbau oder Montage – sauber übergeben." }
+      ]
+    },
+    "gallery": {
+      "headline": "Arbeiten rund ums Haus",
+      "text": "Für die Live-Version zeigen wir hier echte Projekte des Betriebs.",
+      "items": [
+        { "title": "Rückbau", "photoNeeded": "Raum nach leichten Abbrucharbeiten" },
+        { "title": "Trockenbauwand", "photoNeeded": "neue, verspachtelte Trennwand" },
+        { "title": "Frischer Putz", "photoNeeded": "frisch verputzte Innenwand" },
+        { "title": "Möbelmontage", "photoNeeded": "aufgebauter Einbauschrank" },
+        { "title": "Neue Terrasse", "photoNeeded": "fertig gebaute Terrasse im Garten" }
+      ]
+    },
+    "region": {
+      "headline": "Für Taufkirchen und den Münchner Süden",
+      "text": "Von Taufkirchen aus schnell in Unterhaching, Oberhaching, Ottobrunn, Neubiberg und Sauerlach.",
+      "places": [
+        "Taufkirchen",
+        "Unterhaching",
+        "Oberhaching",
+        "Ottobrunn",
+        "Neubiberg",
+        "Sauerlach"
+      ]
+    },
+    "faq": [
+      { "q": "Übernehmen Sie auch kleine Aufträge?", "a": "Ja, fragen Sie einfach an – auch einzelne Montagen oder Ausbesserungen." },
+      { "q": "Welche Abbrucharbeiten machen Sie?", "a": "Leichte Abbrucharbeiten wie Rückbau von Einbauten und Verkleidungen. Details klären wir bei der Besichtigung." },
+      { "q": "Kann ich vorab Fotos schicken?", "a": "Ja, Fotos per WhatsApp helfen für eine erste Einschätzung." },
+      { "q": "Kümmern Sie sich auch um den Garten?", "a": "Ja, Gartenpflege und Terrassenbau gehören zum Angebot." },
+      { "q": "Arbeiten Sie auch außerhalb von Taufkirchen?", "a": "Ja, im Münchner Süden – fragen Sie einfach an." }
+    ],
+    "contact": {
+      "headline": "Ihr Angebot – kostenlos und unverbindlich",
+      "text": "Beschreiben Sie kurz, was gemacht werden soll: Raum, Umfang und Wunschtermin. Fotos helfen.",
+      "topics": [
+        "Renovierung",
+        "Trockenbau & Putz",
+        "Abbrucharbeiten",
+        "Möbelmontage",
+        "Garten & Terrasse",
+        "Sonstiges"
+      ],
+      "responseNote": "Besichtigung nach Absprache."
+    },
+    "quote": {
+      "sizeLabel": "Worum geht es?",
+      "sizes": [
+        "Kleine Reparatur/Montage",
+        "Ein Raum",
+        "Ganze Wohnung",
+        "Haus & Garten"
+      ],
+      "timings": [
+        "So bald wie möglich",
+        "In den nächsten Wochen",
+        "In 1–3 Monaten",
+        "Ich plane erst noch"
+      ]
+    },
+    "stickyCta": "Angebot anfragen",
+    "look": {
+      "palette": 2,
+      "font": 6,
+      "hero": 0,
+      "services": 1,
+      "radius": 1,
+      "logo": 0,
+      "intro": 5
+    }
+  }
+}

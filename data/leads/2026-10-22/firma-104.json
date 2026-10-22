@@ -1,0 +1,400 @@
+{
+  "id": "2026-10-22-104",
+  "slug": "sk-baumdienst-sauerlach",
+  "date": "2026-10-22",
+  "company": {
+    "name": "SK Baumdienst",
+    "owner": null,
+    "trade": "Baumpflege",
+    "city": "Sauerlach",
+    "address": "Oberbrandweg 3, 82054 Sauerlach",
+    "phone": "01577 7788666",
+    "email": null,
+    "serviceArea": [
+      "Sauerlach",
+      "Arget",
+      "Otterfing",
+      "Holzkirchen",
+      "Oberhaching",
+      "Straßlach-Dingharting"
+    ]
+  },
+  "listings": {
+    "google": {
+      "url": "https://www.google.com/maps/search/?api=1&query=SK%20Baumdienst%20Oberbrandweg%203%20Sauerlach",
+      "rating": null,
+      "reviews": null,
+      "evidence": "NICHT BELEGT – kein google.com/maps-Treffer und kein Google-Spiegel (rgv-bayern, firmania, trustlocal) für SK Baumdienst Sauerlach. Nur 11880-Eintrag (Oberbrandweg 3, Tel. (01577) 7788666, Branche Baumpflege, aktualisiert 24.08.2024, keine Bewertungen). In Maps prüfen."
+    },
+    "myhammer": {
+      "url": "https://www.11880.com/branchenbuch/sauerlach/170210582B108084791/sk-baumdienst.html",
+      "rating": null,
+      "reviews": null,
+      "evidence": "Kein MyHammer gefunden – 11880-Eintrag „Sk Baumdienst“, Oberbrandweg 3, 82054 Sauerlach, Mobil (01577) 7788666, keine Bewertungen; auch in den 11880-Listen Baumpfleger Holzkirchen und Furth (Kreis München)."
+    }
+  },
+  "websiteStatus": "keine eigene Website gefunden",
+  "websiteChecks": [
+    "(1) „SK Baumdienst Sauerlach Oberbrandweg“ mit blocked_domains (11880, Gelbe Seiten, Das Örtliche, Telefonbuch, Cylex, meinestadt, Creditreform, Facebook, Instagram, golocal, MyHammer, Northdata, Firmenwissen, WKDB, Yelp, trustlocal, wlw) – kein Treffer zum Betrieb; nur andere Firmen am Oberbrandweg (WSK Versicherungsmakler, Venali Express) und ein Münchner Baumpflegebetrieb.",
+    "(2) Telefonsuche „01577 7788666“/„015777788666“/„01577-7788666“ mit blocked_domains – keine Seite mit dieser Nummer.",
+    "(3) Domain-Check allowed_domains sk-baumdienst.de, skbaumdienst.de, sk-baumdienst-sauerlach.de, baumdienst-sk.de, sk-baumpflege.de, baumdienst-sauerlach.de, sk-baumdienst.com, skbaumdienst.com – keine Treffer.",
+    "(4) Impressum-Suche „SK Baumdienst Impressum Inhaber“ – nur fremde Betriebe (Baumdienst SKT Dortmund/Essen/Witten, SK Bau u. a.), kein Impressum mit Bezug zu Sauerlach.",
+    "(5) Google-Spiegel-Suche (rgv-bayern, firmania, trustlocal, 11880) – nur 11880-Einträge, kein Website-Feld.",
+    "Website-Risiko: niedrig – alle Prüfungen negativ; aber weder Google-Eintrag noch Freemail belegt (RESERVE)"
+  ],
+  "facts": {
+    "services": [
+      "Baumpflege"
+    ],
+    "experience": null,
+    "praisedFor": []
+  },
+  "strategy": {
+    "audience": "Hausbesitzer mit Garten, Hausverwaltungen und Landwirte in Sauerlach, Otterfing und Holzkirchen, deren Bäume geschnitten, gesichert oder gefällt werden müssen",
+    "mainService": "Baumpflege, Baumschnitt und Baumfällung",
+    "trustSignal": "Kleiner Baumdienst aus Sauerlach, direkt per Handy erreichbar",
+    "conversionGoal": "Baum-Foto per WhatsApp schicken und Einschätzung anfragen",
+    "visualConcept": "Kräftiges Grün, Rinde und Kletterseil – naturnah, sicher und bodenständig"
+  },
+  "sales": {
+    "score": 3,
+    "whyGoodLead": [
+      "Keine eigene Website gefunden – nur ein 11880-Eintrag",
+      "Mobilnummer öffentlich gelistet – ideal für WhatsApp-Erstkontakt",
+      "Noch keine Bewertungen – Website und Google-Profil schaffen erst Sichtbarkeit",
+      "Baumpflege im waldreichen Süden Münchens saisonal stark gefragt (Herbst/Winter-Fällsaison)"
+    ],
+    "pitch": "Hallo, hier ist … – ich baue Websites für Handwerks- und Gartenbetriebe im Münchner Süden. Ich habe Ihren Eintrag „SK Baumdienst“ in Sauerlach gefunden, aber keine Website. Ich habe unverbindlich einen Entwurf vorbereitet, über den Kunden Ihnen direkt ein Foto ihres Baums per WhatsApp schicken können – darf ich Ihnen den Link senden?"
+  },
+  "manualChecks": [
+    "RESERVE – weder Google-Eintrag noch Freemail-Adresse belegt: NUR versenden, wenn Google Maps einen Eintrag OHNE Website zeigt.",
+    "Website-Risiko: niedrig – alle Prüfungen negativ (Name, Telefon, Domains, Impressum), Betrieb aber nur über einen 11880-Eintrag (Stand 24.08.2024) belegt – prüfen, ob noch aktiv",
+    "Inhabername unbekannt („SK“ vermutlich Initialen) – beim Erstkontakt erfragen; Anrede neutral halten",
+    "Leistungen nur als „Baumpflege“ belegt – Fällung, Klettertechnik, Wurzelstockfräsen, Entsorgung beim Betrieb bestätigen",
+    "Adresse Oberbrandweg 3 könnte Wohnadresse sein – auf der Website ggf. nur Ort nennen",
+    "Logo und Projektfotos: nicht gefunden – beim Betrieb anfragen"
+  ],
+  "sources": [
+    {
+      "label": "11880 – Sk Baumdienst Sauerlach",
+      "url": "https://www.11880.com/branchenbuch/sauerlach/170210582B108084791/sk-baumdienst.html"
+    },
+    {
+      "label": "11880 – Baumpfleger Sauerlach",
+      "url": "https://www.11880.com/suche/baumpflege/sauerlach"
+    },
+    {
+      "label": "11880 – Baumpfleger Holzkirchen",
+      "url": "https://www.11880.com/suche/baumpflege/holzkirchen"
+    },
+    {
+      "label": "11880 – Baumpfleger Furth (Kreis München)",
+      "url": "https://www.11880.com/suche/baumpflege/furth-kreis-muenchen"
+    }
+  ],
+  "site": {
+    "theme": "garten",
+    "category": "handwerk",
+    "heroOffer": [
+      "Baumpflege",
+      "Baumschnitt",
+      "Baumfällung",
+      "Totholz",
+      "Kronenpflege"
+    ],
+    "scene": "garden",
+    "logoIcon": "leaf",
+    "logoMark": "SK",
+    "brandName": "SK Baumdienst",
+    "seoTitle": "Baumpflege in Sauerlach – SK Baumdienst",
+    "seoDescription": "Baumpflege, Baumschnitt und Fällung in Sauerlach, Otterfing und Holzkirchen. Foto per WhatsApp schicken und Einschätzung erhalten.",
+    "nav": [
+      {
+        "label": "Leistungen",
+        "href": "#leistungen"
+      },
+      {
+        "label": "Projekte",
+        "href": "#projekte"
+      },
+      {
+        "label": "Bewertungen",
+        "href": "#bewertungen"
+      },
+      {
+        "label": "Ablauf",
+        "href": "#ablauf"
+      },
+      {
+        "label": "FAQ",
+        "href": "#faq"
+      },
+      {
+        "label": "Kontakt",
+        "href": "#kontakt"
+      }
+    ],
+    "hero": {
+      "eyebrow": "Baumpflege · Sauerlach",
+      "headline": "Baumpflege in Sauerlach",
+      "sub": "Schnitt, Pflege und Fällung – für gesunde, sichere Bäume im Münchner Süden.",
+      "ctaPrimary": "Baum-Foto schicken",
+      "ctaSecondary": "Anrufen",
+      "bullets": [
+        "Baumdienst aus Sauerlach",
+        "Pflege, Schnitt und Fällung",
+        "Direkt per Handy erreichbar"
+      ],
+      "imageLabel": "Baumpfleger im Seil in einer Baumkrone"
+    },
+    "badges": [
+      {
+        "title": "Baumpflege",
+        "sub": "gesunde Kronen"
+      },
+      {
+        "title": "Fällung",
+        "sub": "auch auf engem Raum"
+      },
+      {
+        "title": "Mobil",
+        "sub": "schnell erreichbar"
+      },
+      {
+        "title": "Sauerlach",
+        "sub": "Landkreis München"
+      }
+    ],
+    "trust": [
+      {
+        "value": "Vor Ort",
+        "label": "Betrieb in Sauerlach"
+      },
+      {
+        "value": "Baum",
+        "label": "Pflege bis Fällung"
+      },
+      {
+        "value": "WhatsApp",
+        "label": "Foto genügt"
+      },
+      {
+        "value": "Süden",
+        "label": "Sauerlach bis Holzkirchen"
+      }
+    ],
+    "servicesIntro": {
+      "headline": "Rund um den Baum – von der Pflege bis zur Fällung",
+      "text": "Ob ein Ast aufs Dach ragt, die Krone zu dicht ist oder ein Baum weichen muss: Der SK Baumdienst schaut sich Ihren Baum an und sagt, was nötig ist."
+    },
+    "services": [
+      {
+        "title": "Baumschnitt",
+        "text": "Fachgerechter Schnitt, der den Baum entlastet und seine Form erhält.",
+        "items": [
+          "Erziehungsschnitt",
+          "Lichtraumprofil",
+          "Rückschnitt"
+        ]
+      },
+      {
+        "title": "Kronenpflege",
+        "text": "Auslichten zu dichter Kronen für mehr Licht im Garten und weniger Windlast.",
+        "items": [
+          "Auslichten",
+          "Kronensicherung",
+          "Entlastung"
+        ]
+      },
+      {
+        "title": "Totholz entfernen",
+        "text": "Abgestorbene Äste kommen raus, bevor sie auf Dach, Auto oder Weg fallen.",
+        "items": [
+          "Totholz",
+          "Bruchgefahr",
+          "Verkehrssicherheit"
+        ]
+      },
+      {
+        "title": "Baumfällung",
+        "text": "Kontrollierte Fällung – auch Stück für Stück, wenn wenig Platz ist.",
+        "items": [
+          "Fällung",
+          "Abtragen",
+          "Engstellen"
+        ]
+      },
+      {
+        "title": "Sturmschäden",
+        "text": "Schnelle Hilfe, wenn nach Sturm oder Schneebruch Bäume oder Äste gefährlich hängen.",
+        "items": [
+          "Schadbäume",
+          "Hänger",
+          "Aufräumen"
+        ]
+      },
+      {
+        "title": "Hecken & Gehölze",
+        "text": "Rückschnitt von Großsträuchern und Hecken, die über den Garten hinauswachsen.",
+        "items": [
+          "Großsträucher",
+          "Hecken",
+          "Grenzbewuchs"
+        ]
+      }
+    ],
+    "why": {
+      "headline": "Baumpflege aus Sauerlach – schnell vor Ort.",
+      "points": [
+        {
+          "title": "Kurze Wege",
+          "text": "Von Sauerlach rasch in Otterfing, Holzkirchen, Oberhaching und Straßlach."
+        },
+        {
+          "title": "Foto genügt",
+          "text": "Ein Bild per WhatsApp reicht oft für die erste Einschätzung."
+        },
+        {
+          "title": "Sicherheit zuerst",
+          "text": "Gefährliche Äste und Schadbäume werden gezielt und kontrolliert entfernt."
+        },
+        {
+          "title": "Direkter Kontakt",
+          "text": "Sie sprechen direkt mit dem Betrieb – ohne Callcenter."
+        }
+      ]
+    },
+    "reviews": {
+      "headline": "Was Kunden sagen",
+      "summary": "Kundenstimmen werden hier eingebunden, sobald ein Google-Profil mit Bewertungen vorliegt.",
+      "highlights": [
+        "Baumpflege in Sauerlach",
+        "Schnitt und Fällung",
+        "Direkter Kontakt"
+      ],
+      "source": "Google",
+      "sourceUrl": "https://www.google.com/maps/search/?api=1&query=SK%20Baumdienst%20Oberbrandweg%203%20Sauerlach",
+      "rating": null,
+      "count": null
+    },
+    "process": {
+      "headline": "So kommt Ihr Baum in Form",
+      "steps": [
+        {
+          "title": "Foto schicken",
+          "text": "Baum und Umgebung fotografieren und per WhatsApp senden – oder anrufen."
+        },
+        {
+          "title": "Besichtigung",
+          "text": "Vor Ort wird geklärt, was geschnitten oder gefällt werden muss."
+        },
+        {
+          "title": "Angebot",
+          "text": "Sie erhalten ein klares Angebot – auf Wunsch mit Abtransport."
+        },
+        {
+          "title": "Ausführung",
+          "text": "Schnitt oder Fällung, danach wird aufgeräumt."
+        }
+      ]
+    },
+    "gallery": {
+      "headline": "Bäume, die wieder sicher stehen",
+      "text": "Für die Live-Version zeigen wir hier echte Einsätze des SK Baumdienst.",
+      "items": [
+        {
+          "title": "Kronenschnitt",
+          "photoNeeded": "ausgelichtete Baumkrone vorher/nachher"
+        },
+        {
+          "title": "Seilklettern",
+          "photoNeeded": "Baumpfleger mit Seil in der Krone"
+        },
+        {
+          "title": "Fällung",
+          "photoNeeded": "abgetragener Baum neben einem Haus"
+        },
+        {
+          "title": "Totholz",
+          "photoNeeded": "entfernte tote Äste am Boden"
+        },
+        {
+          "title": "Sturmschaden",
+          "photoNeeded": "umgestürzter Baum nach Sturm, geräumt"
+        }
+      ]
+    },
+    "region": {
+      "headline": "Baumpflege für Sauerlach und den Münchner Süden",
+      "text": "Von Sauerlach aus schnell in Arget, Otterfing, Holzkirchen, Oberhaching und Straßlach-Dingharting.",
+      "places": [
+        "Sauerlach",
+        "Arget",
+        "Otterfing",
+        "Holzkirchen",
+        "Oberhaching",
+        "Straßlach-Dingharting"
+      ]
+    },
+    "faq": [
+      {
+        "q": "Darf ich meinen Baum einfach fällen lassen?",
+        "a": "Das hängt von Gemeinde, Baumart und Stammumfang ab. Klären Sie vorab, ob eine Baumschutzverordnung gilt."
+      },
+      {
+        "q": "Wann ist die beste Zeit für Baumschnitt?",
+        "a": "Größere Schnitte und Fällungen erfolgen meist außerhalb der Brutzeit, also von Oktober bis Februar. Pflegeschnitte sind teils auch im Sommer möglich."
+      },
+      {
+        "q": "Reicht ein Foto für eine Einschätzung?",
+        "a": "Für eine erste Einschätzung ja – das genaue Angebot folgt nach der Besichtigung."
+      },
+      {
+        "q": "Kommen Sie auch bei Sturmschäden?",
+        "a": "Rufen Sie an – bei gefährlich hängenden Ästen wird schnellstmöglich ein Termin gesucht."
+      },
+      {
+        "q": "Arbeiten Sie auch außerhalb von Sauerlach?",
+        "a": "Ja, im Umkreis von Sauerlach – fragen Sie einfach an."
+      }
+    ],
+    "contact": {
+      "headline": "Ihr Baum – kurz beschreiben, Foto schicken",
+      "text": "Was soll gemacht werden: Schnitt, Totholz oder Fällung? Wie hoch ist der Baum und wie nah steht er am Haus? Ein Foto hilft.",
+      "topics": [
+        "Baumschnitt",
+        "Kronenpflege",
+        "Totholz",
+        "Baumfällung",
+        "Sturmschaden",
+        "Sonstiges"
+      ],
+      "responseNote": "Besichtigung nach Absprache."
+    },
+    "quote": {
+      "sizeLabel": "Wie groß ist der Baum?",
+      "sizes": [
+        "Bis 5 m",
+        "5–10 m",
+        "10–20 m",
+        "Über 20 m"
+      ],
+      "timings": [
+        "Dringend",
+        "In den nächsten Wochen",
+        "Diese Fällsaison",
+        "Ich plane erst noch"
+      ]
+    },
+    "stickyCta": "Baum-Foto schicken",
+    "look": {
+      "palette": 2,
+      "font": 6,
+      "hero": 0,
+      "services": 1,
+      "radius": 1,
+      "logo": 0,
+      "intro": 5
+    }
+  }
+}
