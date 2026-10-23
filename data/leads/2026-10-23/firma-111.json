@@ -1,0 +1,402 @@
+{
+  "id": "2026-10-23-111",
+  "slug": "ase-serviceteam-landsberg",
+  "date": "2026-10-23",
+  "company": {
+    "name": "ASE Serviceteam A. Haxhiu",
+    "owner": "A. Haxhiu",
+    "trade": "Gartenpflege, Garten- & Landschaftsbau, Entrümpelung",
+    "city": "Landsberg am Lech",
+    "address": "Am Ziegelanger, 86899 Landsberg am Lech",
+    "phone": "0176 82403313",
+    "email": "ase-servicetram@hotmail.com",
+    "serviceArea": [
+      "Landsberg am Lech",
+      "Kaufering",
+      "Schwifting",
+      "Penzing",
+      "Igling",
+      "Pürgen"
+    ]
+  },
+  "listings": {
+    "google": {
+      "url": "https://www.google.com/maps/search/?api=1&query=ASE%20Serviceteam%20A.%20Haxhiu%20Am%20Ziegelanger%20Landsberg%20am%20Lech",
+      "rating": null,
+      "reviews": null,
+      "evidence": "KEIN Google-Beleg gefunden – Spiegelsuche (rgv-bayern, firmania, trustlocal, yably, branchen-info, stadtbranchenbuch) ohne Treffer zu „ASE Serviceteam“ Landsberg. Annahme stützt sich auf die öffentlich gelistete Freemail-Adresse (Hotmail) im 11880-Eintrag. In Maps prüfen, ob ein Eintrag existiert und ob eine Website hinterlegt ist."
+    },
+    "myhammer": {
+      "url": "https://www.11880.com/suche/garten-und-landschaftspflege/landsberg",
+      "rating": null,
+      "reviews": null,
+      "evidence": "Kein MyHammer gefunden – 11880-Eintrag „ASE Serviceteam A.Haxhiu“, Am Ziegelanger, 86899 Landsberg, Tel. (0176) 82403313, E-Mail ase-servicetram@hotmail.com, Kategorien Garten- und Landschaftspflege, Garten- und Landschaftsbau & Entrümpelung; erscheint in mehreren 11880-Ortslisten (Landsberg, Schwifting, Kaufering, Entrümpelung Landsberg)."
+    }
+  },
+  "websiteStatus": "keine eigene Website gefunden",
+  "websiteChecks": [
+    "(1) „ASE Serviceteam“ Haxhiu Landsberg mit blocked_domains (11880, Gelbe Seiten, Das Örtliche, Telefonbuch, Cylex, meinestadt, Creditreform, Facebook, Instagram, golocal, MyHammer, Northdata, Firmenwissen, WKDB, Yelp, wlw) – nur 11880-Kategorieseiten, keine eigene Domain",
+    "(2) Telefon-/E-Mail-Suche „0176 82403313“/„017682403313“/„ase-servicetram“ mit blocked_domains – keine Treffer (nur fremde Firmen namens ASE in USA/CH/Mannheim)",
+    "(3) Domain-Check allowed_domains ase-serviceteam.de, aseserviceteam.de, ase-service.de, haxhiu.de, ase-serviceteam-landsberg.de, haxhiu-service.de, ase-landsberg.de, serviceteam-haxhiu.de – keine Treffer",
+    "(4) Google-Spiegel (rgv-bayern, firmania, trustlocal, yably, branchen-info, stadtbranchenbuch) – kein Eintrag, kein Website-Feld; „ASE Hausmeisterservice“ (München) und „ASE GmbH“ (Schmiechen, Solar) sind andere Firmen",
+    "(5) E-Mail im Verzeichnis auf Freemail (hotmail.com) – keine Firmendomain",
+    "Website-Risiko: mittel – alle Prüfungen negativ, Freemail belegt, aber kein Google-Eintrag nachgewiesen"
+  ],
+  "facts": {
+    "services": [
+      "Garten- und Landschaftspflege",
+      "Garten- und Landschaftsbau",
+      "Entrümpelung"
+    ],
+    "experience": null,
+    "praisedFor": []
+  },
+  "strategy": {
+    "audience": "Hausbesitzer, Vermieter, Erbengemeinschaften und Hausverwaltungen in Landsberg, Kaufering und den Lechrain-Dörfern, die Garten in Schuss halten oder Keller, Dachboden oder Wohnung räumen lassen wollen",
+    "mainService": "Gartenpflege und Entrümpelung aus einer Hand",
+    "trustSignal": "Inhabergeführter Betrieb aus Landsberg, direkt per Handy und WhatsApp erreichbar",
+    "conversionGoal": "Kostenlose Einschätzung per WhatsApp mit Fotos von Garten oder Räumen anfragen",
+    "visualConcept": "Frisches Grün und aufgeräumte Flächen: gemähter Rasen, geschnittene Hecke, leerer besenreiner Keller – Vorher/Nachher als roter Faden"
+  },
+  "sales": {
+    "score": 4,
+    "whyGoodLead": [
+      "Keine eigene Website gefunden – nur 11880-Einträge",
+      "Mobilnummer und Freemail öffentlich – direkter Erstkontakt per WhatsApp möglich",
+      "Zwei Standbeine (Garten + Entrümpelung) lassen sich auf einer Website gut als Vorher/Nachher zeigen",
+      "Kein Google-Profil gefunden – Website plus Profil bringt Sichtbarkeit in Landsberg"
+    ],
+    "pitch": "Hallo Herr Haxhiu, hier ist … – ich baue Websites für Handwerks- und Servicebetriebe im Landkreis Landsberg. Ich habe Ihren Eintrag „ASE Serviceteam“ gefunden, aber keine eigene Website. Ich habe unverbindlich einen Entwurf vorbereitet, auf dem Kunden Ihre Gartenpflege und Entrümpelungen sehen und direkt per WhatsApp Fotos schicken können – darf ich Ihnen den Link schicken?"
+  },
+  "manualChecks": [
+    "Website-Risiko: mittel – vor Versand in Google Maps prüfen, dass keine Website hinterlegt ist (Grund: Google-Eintrag nicht nachgewiesen, Annahme nur über Freemail)",
+    "E-Mail im Verzeichnis lautet „ase-servicetram@hotmail.com“ – möglicher Tippfehler („serviceteam“?); vor Mailversand per WhatsApp/Anruf bestätigen",
+    "Hausnummer am Ziegelanger nicht belegt – nur Straße verwenden",
+    "Vorname des Inhabers nur als „A.“ belegt – Anrede „Herr/Frau Haxhiu“ beim Erstkontakt klären",
+    "Leistungsumfang (z. B. Pflaster, Baumfällung, Haushaltsauflösung) beim Betrieb bestätigen",
+    "Logo und Projektfotos: nicht gefunden – beim Betrieb anfragen"
+  ],
+  "sources": [
+    {
+      "label": "11880 – Garten- und Landschaftspflege Landsberg (Liste mit ASE Serviceteam)",
+      "url": "https://www.11880.com/suche/garten-und-landschaftspflege/landsberg"
+    },
+    {
+      "label": "11880 – Garten- und Landschaftsbau Landsberg",
+      "url": "https://www.11880.com/suche/garten-und-landschaftsbau/landsberg"
+    },
+    {
+      "label": "11880 – Gartenbauer Schwifting (Liste mit ASE Serviceteam)",
+      "url": "https://www.11880.com/suche/gartenbau/schwifting"
+    },
+    {
+      "label": "11880 – Garten- und Landschaftsbau Kaufering",
+      "url": "https://www.11880.com/suche/garten-und-landschaftsbau/kaufering"
+    }
+  ],
+  "site": {
+    "theme": "garten",
+    "category": "handwerk",
+    "heroOffer": [
+      "Gartenpflege",
+      "Heckenschnitt",
+      "Rasenpflege",
+      "Entrümpelung",
+      "Grünschnitt"
+    ],
+    "scene": "garden",
+    "logoIcon": "leaf",
+    "logoMark": "ASE",
+    "brandName": "ASE Serviceteam",
+    "seoTitle": "Gartenpflege & Entrümpelung in Landsberg – ASE Serviceteam",
+    "seoDescription": "Gartenpflege, Garten- und Landschaftsbau und Entrümpelung in Landsberg am Lech und Umgebung. Jetzt kostenlos anfragen – auch per WhatsApp.",
+    "nav": [
+      {
+        "label": "Leistungen",
+        "href": "#leistungen"
+      },
+      {
+        "label": "Projekte",
+        "href": "#projekte"
+      },
+      {
+        "label": "Bewertungen",
+        "href": "#bewertungen"
+      },
+      {
+        "label": "Ablauf",
+        "href": "#ablauf"
+      },
+      {
+        "label": "FAQ",
+        "href": "#faq"
+      },
+      {
+        "label": "Kontakt",
+        "href": "#kontakt"
+      }
+    ],
+    "hero": {
+      "eyebrow": "Garten & Entrümpelung · Landsberg",
+      "headline": "Gartenpflege und Entrümpelung in Landsberg",
+      "sub": "Wir pflegen Ihren Garten und räumen Keller, Dachboden und Wohnung.",
+      "ctaPrimary": "Kostenlos anfragen",
+      "ctaSecondary": "Anrufen",
+      "bullets": [
+        "Betrieb aus Landsberg am Lech",
+        "Garten und Räumung aus einer Hand",
+        "Direkt per Handy & WhatsApp"
+      ],
+      "imageLabel": "frisch gemähter Rasen mit sauber geschnittener Hecke"
+    },
+    "badges": [
+      {
+        "title": "Gartenpflege",
+        "sub": "Rasen, Hecken, Beete"
+      },
+      {
+        "title": "Gartenbau",
+        "sub": "Umgestalten & Anlegen"
+      },
+      {
+        "title": "Entrümpelung",
+        "sub": "Keller bis Wohnung"
+      },
+      {
+        "title": "Landsberg",
+        "sub": "Am Ziegelanger"
+      }
+    ],
+    "trust": [
+      {
+        "value": "Vor Ort",
+        "label": "Betrieb in Landsberg"
+      },
+      {
+        "value": "2-in-1",
+        "label": "Garten & Räumung"
+      },
+      {
+        "value": "Lechrain",
+        "label": "kurze Anfahrt"
+      },
+      {
+        "value": "Mobil",
+        "label": "per WhatsApp erreichbar"
+      }
+    ],
+    "servicesIntro": {
+      "headline": "Grün gepflegt, Räume frei",
+      "text": "Ein Ansprechpartner für den Garten draußen und die Räumung drinnen – das spart Abstimmung und Termine."
+    },
+    "services": [
+      {
+        "title": "Gartenpflege",
+        "text": "Regelmäßige oder einmalige Pflege, damit der Garten durch die Saison ordentlich bleibt.",
+        "items": [
+          "Rasen mähen",
+          "Beete jäten",
+          "Laub entfernen"
+        ]
+      },
+      {
+        "title": "Heckenschnitt",
+        "text": "Hecken und Sträucher in Form bringen – sauber geschnitten, Schnittgut mitgenommen.",
+        "items": [
+          "Formschnitt",
+          "Rückschnitt",
+          "Sträucher"
+        ]
+      },
+      {
+        "title": "Garten- und Landschaftsbau",
+        "text": "Gartenbereiche neu anlegen oder umgestalten – abgestimmt auf Grundstück und Wünsche.",
+        "items": [
+          "Umgestaltung",
+          "Neuanlage",
+          "Beete anlegen"
+        ]
+      },
+      {
+        "title": "Grünschnitt & Abfuhr",
+        "text": "Schnittgut, Laub und Gartenabfälle werden eingesammelt und abgefahren.",
+        "items": [
+          "Grünschnitt",
+          "Laub",
+          "Gartenabfälle"
+        ]
+      },
+      {
+        "title": "Entrümpelung",
+        "text": "Keller, Dachboden, Garage oder Schuppen werden geräumt und Sperrgut entsorgt.",
+        "items": [
+          "Keller",
+          "Dachboden",
+          "Garage"
+        ]
+      },
+      {
+        "title": "Wohnungsräumung",
+        "text": "Räumung von Wohnungen und Häusern, etwa nach Umzug oder im Erbfall – besenrein übergeben.",
+        "items": [
+          "Wohnung",
+          "Haus",
+          "Besenrein"
+        ]
+      }
+    ],
+    "why": {
+      "headline": "Ein Team aus Landsberg für Garten und Räumung.",
+      "points": [
+        {
+          "title": "Kurze Wege",
+          "text": "Der Betrieb sitzt in Landsberg und ist schnell in Kaufering, Igling oder Penzing."
+        },
+        {
+          "title": "Alles aus einer Hand",
+          "text": "Garten herrichten und Keller räumen – ein Ansprechpartner statt zwei Firmen."
+        },
+        {
+          "title": "Direkter Draht",
+          "text": "Fotos per WhatsApp schicken und kurz abstimmen – ohne Warteschleife."
+        },
+        {
+          "title": "Sauber übergeben",
+          "text": "Schnittgut und Sperrgut werden mitgenommen, die Fläche bleibt ordentlich."
+        }
+      ]
+    },
+    "reviews": {
+      "headline": "Was Kunden sagen",
+      "summary": "Kundenstimmen werden hier eingebunden, sobald ein Google-Profil mit Bewertungen vorliegt.",
+      "highlights": [
+        "Gartenpflege in Landsberg",
+        "Entrümpelung",
+        "Direkter Kontakt"
+      ],
+      "source": "Google",
+      "sourceUrl": "https://www.google.com/maps/search/?api=1&query=ASE%20Serviceteam%20A.%20Haxhiu%20Am%20Ziegelanger%20Landsberg%20am%20Lech",
+      "rating": null,
+      "count": null
+    },
+    "process": {
+      "headline": "So läuft Ihr Auftrag",
+      "steps": [
+        {
+          "title": "Fotos schicken",
+          "text": "Garten oder Räume fotografieren und per WhatsApp senden – oder kurz anrufen."
+        },
+        {
+          "title": "Besichtigung",
+          "text": "Bei Bedarf wird der Umfang vor Ort angeschaut."
+        },
+        {
+          "title": "Angebot",
+          "text": "Sie erhalten ein klares Angebot für Pflege oder Räumung."
+        },
+        {
+          "title": "Erledigt",
+          "text": "Arbeit wird ausgeführt, Abfälle mitgenommen, Fläche sauber übergeben."
+        }
+      ]
+    },
+    "gallery": {
+      "headline": "Vorher, nachher – aufgeräumt",
+      "text": "Für die Live-Version zeigen wir hier echte Einsätze des Betriebs.",
+      "items": [
+        {
+          "title": "Gepflegter Rasen",
+          "photoNeeded": "frisch gemähte Rasenfläche mit sauberen Kanten"
+        },
+        {
+          "title": "Hecke in Form",
+          "photoNeeded": "geschnittene Hecke vorher/nachher"
+        },
+        {
+          "title": "Neues Beet",
+          "photoNeeded": "neu angelegtes Gartenbeet"
+        },
+        {
+          "title": "Keller geräumt",
+          "photoNeeded": "Keller vor und nach der Entrümpelung"
+        },
+        {
+          "title": "Laub weg",
+          "photoNeeded": "Garten im Herbst nach der Laubräumung"
+        }
+      ]
+    },
+    "region": {
+      "headline": "Für Landsberg und den Lechrain",
+      "text": "Von Landsberg aus schnell in Kaufering, Schwifting, Penzing, Igling und Pürgen.",
+      "places": [
+        "Landsberg am Lech",
+        "Kaufering",
+        "Schwifting",
+        "Penzing",
+        "Igling",
+        "Pürgen"
+      ]
+    },
+    "faq": [
+      {
+        "q": "Übernehmen Sie Gartenpflege auch regelmäßig?",
+        "a": "Ja, sowohl einmalige Einsätze als auch wiederkehrende Pflege lassen sich vereinbaren."
+      },
+      {
+        "q": "Wird das Schnittgut mitgenommen?",
+        "a": "Grünschnitt und Gartenabfälle werden nach Absprache mitgenommen und entsorgt."
+      },
+      {
+        "q": "Was kostet eine Entrümpelung?",
+        "a": "Das hängt von Menge und Zugänglichkeit ab. Mit Fotos gibt es eine erste Einschätzung, danach ein festes Angebot."
+      },
+      {
+        "q": "Kann ich Fotos per WhatsApp schicken?",
+        "a": "Ja, Fotos von Garten oder Räumen helfen für eine schnelle Einschätzung."
+      },
+      {
+        "q": "In welchen Orten sind Sie unterwegs?",
+        "a": "In Landsberg am Lech und den umliegenden Gemeinden – fragen Sie einfach an."
+      }
+    ],
+    "contact": {
+      "headline": "Garten oder Räumung – kostenlos anfragen",
+      "text": "Kurz beschreiben, was zu tun ist: Gartenpflege, Umgestaltung oder Entrümpelung. Fotos helfen bei der Einschätzung.",
+      "topics": [
+        "Gartenpflege",
+        "Heckenschnitt",
+        "Garten umgestalten",
+        "Entrümpelung",
+        "Wohnungsräumung",
+        "Sonstiges"
+      ],
+      "responseNote": "Besichtigung nach Absprache."
+    },
+    "quote": {
+      "sizeLabel": "Worum geht es?",
+      "sizes": [
+        "Kleiner Garten",
+        "Großes Grundstück",
+        "Keller / Dachboden",
+        "Ganze Wohnung / Haus"
+      ],
+      "timings": [
+        "So bald wie möglich",
+        "In den nächsten Wochen",
+        "Regelmäßig",
+        "Ich plane erst noch"
+      ]
+    },
+    "stickyCta": "Kostenlos anfragen",
+    "look": {
+      "palette": 2,
+      "font": 6,
+      "hero": 0,
+      "services": 1,
+      "radius": 1,
+      "logo": 0,
+      "intro": 5
+    }
+  }
+}

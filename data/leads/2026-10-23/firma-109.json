@@ -1,0 +1,396 @@
+{
+  "id": "2026-10-23-109",
+  "slug": "krenz-fussbodenverlegung-weilheim",
+  "date": "2026-10-23",
+  "company": {
+    "name": "Krenz Fußbodenverlegung",
+    "owner": null,
+    "trade": "Bodenleger & Parkett",
+    "city": "Weilheim in Oberbayern",
+    "address": "Enzianweg 12, 82362 Weilheim in Oberbayern",
+    "phone": "0171 4329046",
+    "email": null,
+    "serviceArea": [
+      "Weilheim",
+      "Wielenbach",
+      "Polling",
+      "Peißenberg",
+      "Pähl",
+      "Raisting"
+    ]
+  },
+  "listings": {
+    "google": {
+      "url": "https://www.google.com/maps/search/?api=1&query=Krenz%20Fu%C3%9Fbodenverlegung%20Enzianweg%2012%20Weilheim",
+      "rating": null,
+      "reviews": null,
+      "evidence": "NICHT BELEGT – kein Google-Spiegel (trustlocal, rgv-bayern, firmania) mit diesem Betrieb gefunden; trustlocal-Suche „Krenz Bodenleger Weilheim“ ohne Treffer. In Google Maps prüfen, ob ein Eintrag existiert und ob dort eine Website hinterlegt ist."
+    },
+    "myhammer": {
+      "url": "https://www.11880.com/branchenbuch/weilheim-in-oberbayern/060690823B26763284/krenz-fussbodenverlegung.html",
+      "rating": null,
+      "reviews": null,
+      "evidence": "Kein MyHammer gefunden – 11880-Eintrag „Krenz Fußbodenverlegung“, Enzianweg 12, Weilheim, Tel. (0171) 4329046 (Kategorien Bodenleger/Parkettleger); zweites Verzeichnis mit derselben Adresse und 01714329046."
+    }
+  },
+  "websiteStatus": "keine eigene Website gefunden",
+  "websiteChecks": [
+    "(1) „Krenz Fußbodenverlegung Weilheim“ mit blocked_domains (11880, Gelbe Seiten, Das Örtliche, Telefonbuch, Cylex, meinestadt, Creditreform, Facebook, Instagram, golocal, MyHammer, Northdata, Firmenwissen, WKDB, Yelp, trustlocal, wlw) – nur Verzeichnisse (branchen-info.net „Horst Krenz Bodenlegerei“, Kirchmayrstr. 16, Tel. 0881-49716; andere Bodenleger wie bodenbelaege-mom.de sind fremde Firmen); keine eigene Domain",
+    "(2) Telefonsuche „0171 4329046“/„01714329046“ – keine Website, nur allgemeine Rückwärtssuche-Seiten",
+    "(3) Domain-Check allowed_domains krenz-bodenleger.de, bodenleger-krenz.de, krenz-boden.de, krenz-fussboden.de, krenz-weilheim.de – keine Treffer",
+    "(4) „Krenz Fußbodenverlegung“ + Enzianweg ohne 11880 – nur Verzeichnisse (Cylex, branchenbuch-bayern, tellows-Liste), kein Website-Feld, keine E-Mail",
+    "Keine E-Mail-Adresse gefunden (auch keine Freemail)",
+    "Website-Risiko: mittel – alle Prüfungen negativ, aber weder Google-Eintrag noch Freemail belegt (RESERVE)"
+  ],
+  "facts": {
+    "services": [
+      "Fußbodenverlegung",
+      "Parkett verlegen",
+      "Bodenbeläge"
+    ],
+    "experience": null,
+    "praisedFor": []
+  },
+  "strategy": {
+    "audience": "Hauseigentümer, Vermieter und Renovierer in Weilheim und Umgebung, die neue Böden in Wohnung oder Haus wollen",
+    "mainService": "Fußbodenverlegung – Parkett und Bodenbeläge",
+    "trustSignal": "Bodenleger aus Weilheim, direkt per Handy erreichbar",
+    "conversionGoal": "Unverbindliches Angebot für neuen Boden anfragen (Anruf/WhatsApp mit Fotos und Quadratmetern)",
+    "visualConcept": "Warme Holztöne, frisch verlegtes Parkett im Streiflicht, saubere Sockelleisten – handwerklich und ruhig"
+  },
+  "sales": {
+    "score": 3,
+    "whyGoodLead": [
+      "Keine eigene Website gefunden – nur Verzeichniseinträge mit Handynummer",
+      "Mobilnummer öffentlich gelistet – ideal für WhatsApp-Erstkontakt",
+      "Boden/Parkett ist bisher selten unter den Leads",
+      "Kaum Online-Sichtbarkeit – eine Website mit Bodenbeispielen hebt den Betrieb ab"
+    ],
+    "pitch": "Hallo, hier ist … – ich baue Websites für Handwerker im Landkreis Weilheim-Schongau. Ich habe Ihren Eintrag „Krenz Fußbodenverlegung“ in Weilheim gefunden, aber keine eigene Website. Ich habe unverbindlich einen Entwurf vorbereitet, auf dem Kunden Ihre Parkett- und Bodenarbeiten sehen und direkt per WhatsApp anfragen können – darf ich Ihnen den Link schicken?"
+  },
+  "manualChecks": [
+    "RESERVE – weder Google-Eintrag noch Freemail-Adresse belegt: NUR versenden, wenn Google Maps einen Eintrag OHNE Website zeigt.",
+    "Google-Eintrag in Maps suchen (Name, Enzianweg 12) – Existenz, Website-Feld und Bewertungen prüfen",
+    "Verhältnis zu „Horst Krenz Bodenlegerei“, Kirchmayrstr. 16, Tel. 0881-49716 klären (evtl. älterer Eintrag oder Familienbetrieb) – sicherstellen, dass auch dieser keine Website hat",
+    "Inhabername nicht belegt – beim Erstkontakt erfragen, Anrede neutral halten",
+    "Leistungen nur grob belegt (Bodenleger/Parkettleger) – Bodenarten (Vinyl, Teppich, Schleifen) beim Betrieb bestätigen",
+    "Logo und Projektfotos: nicht gefunden – beim Betrieb anfragen"
+  ],
+  "sources": [
+    {
+      "label": "11880 – Krenz Fußbodenverlegung, Weilheim",
+      "url": "https://www.11880.com/branchenbuch/weilheim-in-oberbayern/060690823B26763284/krenz-fussbodenverlegung.html"
+    },
+    {
+      "label": "branchen-info.net – Horst Krenz Bodenlegerei Weilheim",
+      "url": "https://weilheim-in-oberbayern.branchen-info.net/fp_1343065.php"
+    },
+    {
+      "label": "Cylex – Teppichboden Weilheim (Liste)",
+      "url": "https://web2.cylex.de/suche/teppichboden/weilheim-in-oberbayern"
+    }
+  ],
+  "site": {
+    "theme": "atelier",
+    "category": "handwerk",
+    "heroOffer": [
+      "Parkett",
+      "Bodenbeläge",
+      "Vinyl",
+      "Sockelleisten"
+    ],
+    "scene": "parquet",
+    "logoIcon": "plank",
+    "logoMark": "KF",
+    "brandName": "Krenz Fußbodenverlegung",
+    "seoTitle": "Bodenleger in Weilheim – Krenz Fußbodenverlegung",
+    "seoDescription": "Parkett und Bodenbeläge verlegen in Weilheim und Umgebung. Jetzt unverbindliches Angebot anfragen – auch per WhatsApp.",
+    "nav": [
+      {
+        "label": "Leistungen",
+        "href": "#leistungen"
+      },
+      {
+        "label": "Projekte",
+        "href": "#projekte"
+      },
+      {
+        "label": "Bewertungen",
+        "href": "#bewertungen"
+      },
+      {
+        "label": "Ablauf",
+        "href": "#ablauf"
+      },
+      {
+        "label": "FAQ",
+        "href": "#faq"
+      },
+      {
+        "label": "Kontakt",
+        "href": "#kontakt"
+      }
+    ],
+    "hero": {
+      "eyebrow": "Bodenleger · Weilheim",
+      "headline": "Neue Böden für Weilheim",
+      "sub": "Parkett und Bodenbeläge sauber verlegt – vom Zimmer bis zum ganzen Haus.",
+      "ctaPrimary": "Angebot anfragen",
+      "ctaSecondary": "Anrufen",
+      "bullets": [
+        "Bodenleger aus Weilheim",
+        "Parkett und Bodenbeläge",
+        "Direkt per Handy erreichbar"
+      ],
+      "imageLabel": "frisch verlegtes Eichenparkett im Wohnzimmer"
+    },
+    "badges": [
+      {
+        "title": "Parkett",
+        "sub": "verlegt & versiegelt"
+      },
+      {
+        "title": "Bodenbeläge",
+        "sub": "für jeden Raum"
+      },
+      {
+        "title": "Untergrund",
+        "sub": "sorgfältig vorbereitet"
+      },
+      {
+        "title": "Weilheim",
+        "sub": "Enzianweg"
+      }
+    ],
+    "trust": [
+      {
+        "value": "Vor Ort",
+        "label": "Betrieb in Weilheim"
+      },
+      {
+        "value": "Boden",
+        "label": "unser Handwerk"
+      },
+      {
+        "value": "Mobil",
+        "label": "schnell erreichbar"
+      },
+      {
+        "value": "Fotos",
+        "label": "für erste Einschätzung"
+      }
+    ],
+    "servicesIntro": {
+      "headline": "Vom Untergrund bis zur letzten Leiste",
+      "text": "Ein guter Boden beginnt unter der Oberfläche: Wir bereiten den Untergrund vor, verlegen sauber und schließen mit passenden Leisten ab."
+    },
+    "services": [
+      {
+        "title": "Parkett verlegen",
+        "text": "Massiv- oder Fertigparkett, verklebt oder schwimmend – passend zu Raum und Nutzung.",
+        "items": [
+          "Fertigparkett",
+          "Landhausdielen",
+          "Fischgrät"
+        ]
+      },
+      {
+        "title": "Designböden",
+        "text": "Vinyl- und Designbeläge für Küche, Flur und Bad-nahe Räume – robust und pflegeleicht.",
+        "items": [
+          "Vinyl",
+          "Klick-Systeme",
+          "Klebeware"
+        ]
+      },
+      {
+        "title": "Teppichboden",
+        "text": "Weiche Beläge für Schlafzimmer, Kinderzimmer und Treppen.",
+        "items": [
+          "Teppichboden",
+          "Treppen",
+          "Schlafräume"
+        ]
+      },
+      {
+        "title": "Untergrund",
+        "text": "Alter Belag raus, Untergrund prüfen, ausgleichen – damit der neue Boden lange hält.",
+        "items": [
+          "Altbelag entfernen",
+          "Ausgleichen",
+          "Trittschall"
+        ]
+      },
+      {
+        "title": "Sockelleisten",
+        "text": "Saubere Abschlüsse an Wand, Tür und Übergang.",
+        "items": [
+          "Sockelleisten",
+          "Übergangsprofile",
+          "Türanschlüsse"
+        ]
+      },
+      {
+        "title": "Renovierung",
+        "text": "Neuer Boden beim Umzug, Mieterwechsel oder als Teil einer Sanierung.",
+        "items": [
+          "Mieterwechsel",
+          "Altbau",
+          "Einzelräume"
+        ]
+      }
+    ],
+    "why": {
+      "headline": "Ihr Bodenleger aus Weilheim.",
+      "points": [
+        {
+          "title": "Kurze Wege",
+          "text": "Vom Enzianweg schnell in Wielenbach, Polling, Pähl und Peißenberg."
+        },
+        {
+          "title": "Direkter Draht",
+          "text": "Ein Anruf oder eine WhatsApp-Nachricht genügt – Sie sprechen mit dem Bodenleger selbst."
+        },
+        {
+          "title": "Sauberer Untergrund",
+          "text": "Vorbereitung wird nicht ausgelassen – sie entscheidet über die Haltbarkeit."
+        },
+        {
+          "title": "Ein Ansprechpartner",
+          "text": "Vom Ausmessen bis zur letzten Leiste aus einer Hand."
+        }
+      ]
+    },
+    "reviews": {
+      "headline": "Was Kunden sagen",
+      "summary": "Kundenstimmen werden hier eingebunden, sobald sie aus dem Google-Profil übernommen sind.",
+      "highlights": [
+        "Böden in Weilheim",
+        "Parkett und Beläge",
+        "Direkter Kontakt"
+      ],
+      "source": "Google",
+      "sourceUrl": "https://www.google.com/maps/search/?api=1&query=Krenz%20Fu%C3%9Fbodenverlegung%20Enzianweg%2012%20Weilheim",
+      "rating": null,
+      "count": null
+    },
+    "process": {
+      "headline": "In vier Schritten zum neuen Boden",
+      "steps": [
+        {
+          "title": "Anfrage",
+          "text": "Fotos, Raum und ungefähre Quadratmeter per WhatsApp schicken – oder anrufen."
+        },
+        {
+          "title": "Aufmaß",
+          "text": "Vor Ort werden Untergrund, Fläche und Belag abgestimmt."
+        },
+        {
+          "title": "Angebot",
+          "text": "Sie erhalten ein klares Angebot für Material und Verlegung."
+        },
+        {
+          "title": "Verlegung",
+          "text": "Untergrund vorbereiten, verlegen, Leisten setzen – besenrein übergeben."
+        }
+      ]
+    },
+    "gallery": {
+      "headline": "Böden, die Räume verändern",
+      "text": "Für die Live-Version zeigen wir hier echte Arbeiten des Betriebs.",
+      "items": [
+        {
+          "title": "Eichenparkett",
+          "photoNeeded": "Wohnzimmer mit frisch verlegtem Eichenparkett"
+        },
+        {
+          "title": "Fischgrät",
+          "photoNeeded": "Parkett im Fischgrätverband im Altbau"
+        },
+        {
+          "title": "Vinylboden",
+          "photoNeeded": "Küche oder Flur mit Designboden"
+        },
+        {
+          "title": "Treppe",
+          "photoNeeded": "mit Teppich oder Belag erneuerte Treppe"
+        },
+        {
+          "title": "Sockelleisten",
+          "photoNeeded": "saubere Leiste und Übergang an der Tür"
+        }
+      ]
+    },
+    "region": {
+      "headline": "Bodenleger für Weilheim und Umgebung",
+      "text": "Von Weilheim aus schnell in Wielenbach, Polling, Pähl, Raisting und Peißenberg.",
+      "places": [
+        "Weilheim",
+        "Wielenbach",
+        "Polling",
+        "Peißenberg",
+        "Pähl",
+        "Raisting"
+      ]
+    },
+    "faq": [
+      {
+        "q": "Kann ich vorab Fotos schicken?",
+        "a": "Ja, Fotos vom Raum und vom alten Boden helfen für eine erste Einschätzung."
+      },
+      {
+        "q": "Bringen Sie das Material mit?",
+        "a": "Das wird beim Aufmaß abgestimmt – Sie können auch eigenes Material stellen."
+      },
+      {
+        "q": "Wird der alte Boden entfernt?",
+        "a": "Das kann Teil des Auftrags sein und wird im Angebot aufgeführt."
+      },
+      {
+        "q": "Wie lange dauert die Verlegung?",
+        "a": "Das hängt von Fläche und Belag ab; der Zeitplan steht nach dem Aufmaß."
+      },
+      {
+        "q": "Arbeiten Sie auch außerhalb von Weilheim?",
+        "a": "Ja, im Umkreis von Weilheim – fragen Sie einfach an."
+      }
+    ],
+    "contact": {
+      "headline": "Ihr neuer Boden – unverbindlich angefragt",
+      "text": "Schreiben Sie kurz, welcher Raum, wie viele Quadratmeter und welcher Belag. Fotos helfen.",
+      "topics": [
+        "Parkett",
+        "Designboden",
+        "Teppichboden",
+        "Untergrund",
+        "Sonstiges"
+      ],
+      "responseNote": "Aufmaß vor Ort nach Absprache."
+    },
+    "quote": {
+      "sizeLabel": "Wie groß ist die Fläche?",
+      "sizes": [
+        "Ein Raum",
+        "Bis 50 m²",
+        "50–100 m²",
+        "Ganzes Haus"
+      ],
+      "timings": [
+        "So bald wie möglich",
+        "In den nächsten Wochen",
+        "In 1–3 Monaten",
+        "Ich plane erst noch"
+      ]
+    },
+    "stickyCta": "Angebot anfragen",
+    "look": {
+      "palette": 2,
+      "font": 6,
+      "hero": 0,
+      "services": 1,
+      "radius": 1,
+      "logo": 0,
+      "intro": 5
+    }
+  }
+}

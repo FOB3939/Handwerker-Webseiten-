@@ -1,0 +1,396 @@
+{
+  "id": "2026-10-23-112",
+  "slug": "hausklar-dienstleistungen-friedberg",
+  "date": "2026-10-23",
+  "company": {
+    "name": "Hausklar Dienstleistungen",
+    "owner": null,
+    "trade": "Entrümpelung, Hausmeisterservice & Umzugsservice",
+    "city": "Friedberg",
+    "address": "Thomas-Mann-Str. 10, 86316 Friedberg",
+    "phone": "0170 4502040",
+    "email": null,
+    "serviceArea": [
+      "Friedberg",
+      "Mering",
+      "Kissing",
+      "Dasing",
+      "Wulfertshausen",
+      "Augsburg-Hochzoll"
+    ]
+  },
+  "listings": {
+    "google": {
+      "url": "https://www.google.com/maps/search/?api=1&query=Hausklar%20Dienstleistungen%20Thomas-Mann-Str.%2010%20Friedberg",
+      "rating": null,
+      "reviews": null,
+      "evidence": "KEIN Google-Beleg – Google-Spiegel (rgv-bayern, firmania, trustlocal) wurden aus Budgetgründen NICHT gesucht; vorhanden sind nur Verzeichnisse (11880 mit vom Inhaber bestätigtem Eintrag, stadtbranchenbuch Friedberg, YellowMap mit E-Mail-Link). In Maps prüfen."
+    },
+    "myhammer": {
+      "url": "https://www.11880.com/suche/hausmeisterservice/friedberg-bayern",
+      "rating": null,
+      "reviews": null,
+      "evidence": "Kein MyHammer gefunden – 11880-Eintrag „Hausklar Dienstleistungen“, Thomas-Mann-Str. 10, 86316 Friedberg, Tel. (0170) 4502040, Kategorien Hausmeisterservice, Entrümpelung, Umzugsservice (Eintrag vom Inhaber bestätigt); ebenfalls in der 11880-Liste Haushaltsauflösungen Friedberg."
+    }
+  },
+  "websiteStatus": "keine eigene Website gefunden",
+  "websiteChecks": [
+    "(1) „Hausklar“ Dienstleistungen Friedberg Entrümpelung mit blocked_domains (11880, Gelbe Seiten, Das Örtliche, Telefonbuch, Cylex, meinestadt, Creditreform, Facebook, Instagram, golocal, MyHammer, Northdata, Firmenwissen, WKDB, Yelp, wlw) – nur fremde Entrümpelungsfirmen (überwiegend Friedberg/Hessen) und ein Verzeichnis-Eintrag, keine eigene Domain",
+    "(2) Telefonsuche „0170 4502040“/„01704502040“ mit blocked_domains – nur stadtbranchenbuch Friedberg, YellowMap und Rufnummernblock-Seite, keine Website",
+    "(3) Domain-Check allowed_domains hausklar.de, hausklar-dienstleistungen.de, hausklar-friedberg.de, haus-klar.de, hausklar.com, hausklar-augsburg.de, hausklar-service.de, hausklar24.de – keine Treffer",
+    "(4) Verzeichnisse: kein Website-Feld in den Snippets; E-Mail nur als Link bei YellowMap, Adresse nicht sichtbar",
+    "Website-Risiko: mittel – alle Prüfungen negativ, aber weder Google-Eintrag noch Freemail belegt (RESERVE)"
+  ],
+  "facts": {
+    "services": [
+      "Entrümpelung",
+      "Hausmeisterservice",
+      "Umzugsservice",
+      "Haushaltsauflösung"
+    ],
+    "experience": null,
+    "praisedFor": []
+  },
+  "strategy": {
+    "audience": "Haushalte, Erbengemeinschaften, Vermieter und Hausverwaltungen in Friedberg, Mering und Kissing, die räumen, umziehen oder ihr Haus betreuen lassen wollen",
+    "mainService": "Entrümpelung und Haushaltsauflösung",
+    "trustSignal": "Betrieb aus Friedberg mit vom Inhaber bestätigtem Verzeichniseintrag, direkt per Handy erreichbar",
+    "conversionGoal": "Kostenlose Einschätzung per WhatsApp mit Fotos der Räume anfragen",
+    "visualConcept": "Klar und ruhig: leere, helle Räume nach der Räumung, gepackte Umzugskartons, ordentliches Treppenhaus – „Haus klar“ als Versprechen"
+  },
+  "sales": {
+    "score": 3,
+    "whyGoodLead": [
+      "Keine eigene Website gefunden – nur Verzeichniseinträge",
+      "Mobilnummer öffentlich – WhatsApp-Erstkontakt möglich",
+      "Markenname „Hausklar“ eignet sich gut für eine eigene Domain",
+      "Entrümpelung in Friedberg ist stark umkämpft (viele überregionale Anbieter) – lokale Website schafft Abgrenzung"
+    ],
+    "pitch": "Hallo, hier ist … – ich baue Websites für Handwerks- und Servicebetriebe rund um Augsburg. Ich habe Ihren Eintrag „Hausklar Dienstleistungen“ in Friedberg gefunden, aber keine eigene Website. Ich habe unverbindlich einen Entwurf vorbereitet, auf dem Kunden Ihre Entrümpelungen und Ihren Hausmeisterservice sehen und direkt per WhatsApp Fotos schicken können – darf ich Ihnen den Link schicken?"
+  },
+  "manualChecks": [
+    "RESERVE – weder Google-Eintrag noch Freemail-Adresse belegt: NUR versenden, wenn Google Maps einen Eintrag OHNE Website zeigt.",
+    "Inhabername nicht belegt – beim Erstkontakt erfragen; Anrede neutral halten",
+    "E-Mail-Adresse unbekannt (YellowMap nur Link) – falls Firmendomain, verwerfen",
+    "Name „Hausklar“ ist generisch – sicherstellen, dass keine gleichnamige Firma mit Website gemeint ist",
+    "Leistungsumfang (Haushaltsauflösung, Umzugsservice, Hausmeisterleistungen im Detail) beim Betrieb bestätigen",
+    "Logo und Projektfotos: nicht gefunden – beim Betrieb anfragen"
+  ],
+  "sources": [
+    {
+      "label": "11880 – Hausmeisterservices Friedberg (Liste mit Hausklar Dienstleistungen)",
+      "url": "https://www.11880.com/suche/hausmeisterservice/friedberg-bayern"
+    },
+    {
+      "label": "11880 – Haushaltsauflösungen Friedberg",
+      "url": "https://www.11880.com/suche/haushaltsaufloesung/friedberg-bayern"
+    },
+    {
+      "label": "Stadtbranchenbuch – Firmenverzeichnis Friedberg",
+      "url": "https://friedberg.stadtbranchenbuch.com/F/firmenverzeichnis.html"
+    }
+  ],
+  "site": {
+    "theme": "objekt",
+    "category": "handwerk",
+    "heroOffer": [
+      "Entrümpelung",
+      "Haushaltsauflösung",
+      "Umzugshilfe",
+      "Hausmeisterdienst"
+    ],
+    "scene": "facade",
+    "logoIcon": "broom",
+    "logoMark": "HK",
+    "brandName": "Hausklar",
+    "seoTitle": "Entrümpelung & Hausmeisterservice in Friedberg – Hausklar",
+    "seoDescription": "Entrümpelung, Haushaltsauflösung, Umzugsservice und Hausmeisterdienste in Friedberg bei Augsburg. Jetzt kostenlos anfragen – auch per WhatsApp.",
+    "nav": [
+      {
+        "label": "Leistungen",
+        "href": "#leistungen"
+      },
+      {
+        "label": "Projekte",
+        "href": "#projekte"
+      },
+      {
+        "label": "Bewertungen",
+        "href": "#bewertungen"
+      },
+      {
+        "label": "Ablauf",
+        "href": "#ablauf"
+      },
+      {
+        "label": "FAQ",
+        "href": "#faq"
+      },
+      {
+        "label": "Kontakt",
+        "href": "#kontakt"
+      }
+    ],
+    "hero": {
+      "eyebrow": "Entrümpelung · Friedberg",
+      "headline": "Entrümpelung und Hausservice in Friedberg",
+      "sub": "Wir räumen, ziehen mit Ihnen um und kümmern uns ums Haus.",
+      "ctaPrimary": "Kostenlos anfragen",
+      "ctaSecondary": "Anrufen",
+      "bullets": [
+        "Betrieb aus Friedberg",
+        "Räumung, Umzug und Hausmeister",
+        "Direkt per Handy erreichbar"
+      ],
+      "imageLabel": "leerer, besenreiner Raum nach der Entrümpelung"
+    },
+    "badges": [
+      {
+        "title": "Entrümpelung",
+        "sub": "Keller bis Haus"
+      },
+      {
+        "title": "Haushaltsauflösung",
+        "sub": "komplett geräumt"
+      },
+      {
+        "title": "Umzugsservice",
+        "sub": "Tragen & Transport"
+      },
+      {
+        "title": "Friedberg",
+        "sub": "Thomas-Mann-Straße"
+      }
+    ],
+    "trust": [
+      {
+        "value": "Vor Ort",
+        "label": "Betrieb in Friedberg"
+      },
+      {
+        "value": "3",
+        "label": "Leistungsbereiche"
+      },
+      {
+        "value": "Besenrein",
+        "label": "Übergabe nach Räumung"
+      },
+      {
+        "value": "Mobil",
+        "label": "schnell erreichbar"
+      }
+    ],
+    "servicesIntro": {
+      "headline": "Räumen, umziehen, betreuen",
+      "text": "Ob ein voller Keller, eine ganze Wohnung oder das Haus, das regelmäßig betreut werden soll – ein Anruf genügt."
+    },
+    "services": [
+      {
+        "title": "Entrümpelung",
+        "text": "Keller, Dachboden, Garage oder Schuppen werden geräumt und das Sperrgut entsorgt.",
+        "items": [
+          "Keller",
+          "Dachboden",
+          "Garage"
+        ]
+      },
+      {
+        "title": "Haushaltsauflösung",
+        "text": "Komplette Wohnungen und Häuser werden aufgelöst – etwa nach Umzug ins Heim oder im Erbfall.",
+        "items": [
+          "Wohnung",
+          "Haus",
+          "Nachlass"
+        ]
+      },
+      {
+        "title": "Wohnungsräumung",
+        "text": "Räumung bis zur besenreinen Übergabe an Vermieter oder Käufer.",
+        "items": [
+          "Besenrein",
+          "Übergabe",
+          "Sperrmüll"
+        ]
+      },
+      {
+        "title": "Umzugsservice",
+        "text": "Hilfe beim Umzug: Tragen, Verladen und Transport im Raum Friedberg und Augsburg.",
+        "items": [
+          "Tragen",
+          "Verladen",
+          "Transport"
+        ]
+      },
+      {
+        "title": "Möbel & Sperrgut",
+        "text": "Einzelne Möbelstücke oder Sperrgut werden abgeholt und entsorgt.",
+        "items": [
+          "Einzelmöbel",
+          "Sperrgut",
+          "Abholung"
+        ]
+      },
+      {
+        "title": "Hausmeisterservice",
+        "text": "Betreuung von Haus und Grundstück – kleine Arbeiten und Kontrollgänge nach Absprache.",
+        "items": [
+          "Kleinreparaturen",
+          "Kontrollgänge",
+          "Objektbetreuung"
+        ]
+      }
+    ],
+    "why": {
+      "headline": "Hausklar aus Friedberg – unkompliziert und direkt.",
+      "points": [
+        {
+          "title": "Kurze Wege",
+          "text": "Der Betrieb sitzt in Friedberg und ist schnell in Mering, Kissing und Dasing."
+        },
+        {
+          "title": "Ein Ansprechpartner",
+          "text": "Räumung, Umzug und Hausbetreuung laufen über eine Nummer."
+        },
+        {
+          "title": "Fotos genügen",
+          "text": "Eine erste Einschätzung gibt es oft schon anhand von Fotos per WhatsApp."
+        },
+        {
+          "title": "Besenrein",
+          "text": "Nach der Räumung bleibt ein sauberer Raum zurück."
+        }
+      ]
+    },
+    "reviews": {
+      "headline": "Was Kunden sagen",
+      "summary": "Kundenstimmen werden hier eingebunden, sobald ein Google-Profil mit Bewertungen vorliegt.",
+      "highlights": [
+        "Entrümpelung in Friedberg",
+        "Haushaltsauflösung",
+        "Direkter Kontakt"
+      ],
+      "source": "Google",
+      "sourceUrl": "https://www.google.com/maps/search/?api=1&query=Hausklar%20Dienstleistungen%20Thomas-Mann-Str.%2010%20Friedberg",
+      "rating": null,
+      "count": null
+    },
+    "process": {
+      "headline": "In vier Schritten zum leeren Raum",
+      "steps": [
+        {
+          "title": "Anfrage",
+          "text": "Fotos der Räume per WhatsApp schicken oder kurz anrufen."
+        },
+        {
+          "title": "Besichtigung",
+          "text": "Bei größeren Räumungen wird der Umfang vor Ort angeschaut."
+        },
+        {
+          "title": "Angebot",
+          "text": "Sie erhalten ein klares Angebot mit Termin."
+        },
+        {
+          "title": "Räumung",
+          "text": "Ausräumen, abtransportieren, besenrein übergeben."
+        }
+      ]
+    },
+    "gallery": {
+      "headline": "Raum für Neues",
+      "text": "Für die Live-Version zeigen wir hier echte Einsätze des Betriebs.",
+      "items": [
+        {
+          "title": "Keller frei",
+          "photoNeeded": "Keller vor und nach der Entrümpelung"
+        },
+        {
+          "title": "Wohnung geräumt",
+          "photoNeeded": "leere, besenreine Wohnung"
+        },
+        {
+          "title": "Dachboden",
+          "photoNeeded": "geräumter Dachboden"
+        },
+        {
+          "title": "Umzugstag",
+          "photoNeeded": "beladener Transporter mit Kartons"
+        },
+        {
+          "title": "Hausbetreuung",
+          "photoNeeded": "gepflegter Hauseingang"
+        }
+      ]
+    },
+    "region": {
+      "headline": "Für Friedberg und das Augsburger Land",
+      "text": "Von Friedberg aus schnell in Mering, Kissing, Dasing, Wulfertshausen und Augsburg-Hochzoll.",
+      "places": [
+        "Friedberg",
+        "Mering",
+        "Kissing",
+        "Dasing",
+        "Wulfertshausen",
+        "Augsburg-Hochzoll"
+      ]
+    },
+    "faq": [
+      {
+        "q": "Was kostet eine Entrümpelung?",
+        "a": "Das hängt von Menge, Stockwerk und Zugänglichkeit ab. Mit Fotos gibt es eine erste Einschätzung, danach ein festes Angebot."
+      },
+      {
+        "q": "Wird die Wohnung besenrein übergeben?",
+        "a": "Ja, nach der Räumung wird der Raum besenrein hinterlassen."
+      },
+      {
+        "q": "Übernehmen Sie auch Haushaltsauflösungen im Erbfall?",
+        "a": "Ja, komplette Haushaltsauflösungen gehören zum Angebot – sprechen Sie uns an."
+      },
+      {
+        "q": "Helfen Sie auch beim Umzug?",
+        "a": "Ja, Umzugsservice mit Tragen und Transport ist möglich."
+      },
+      {
+        "q": "Kann ich Fotos per WhatsApp schicken?",
+        "a": "Ja, das ist der schnellste Weg zu einer ersten Einschätzung."
+      }
+    ],
+    "contact": {
+      "headline": "Räumung oder Umzug – kostenlos anfragen",
+      "text": "Kurz beschreiben, was ansteht: welche Räume, wie viel Inhalt, welches Stockwerk. Fotos helfen.",
+      "topics": [
+        "Entrümpelung",
+        "Haushaltsauflösung",
+        "Umzugsservice",
+        "Hausmeisterservice",
+        "Sonstiges"
+      ],
+      "responseNote": "Besichtigung nach Absprache."
+    },
+    "quote": {
+      "sizeLabel": "Was soll geräumt werden?",
+      "sizes": [
+        "Keller / Dachboden",
+        "Einzelne Möbel",
+        "Wohnung",
+        "Ganzes Haus"
+      ],
+      "timings": [
+        "So bald wie möglich",
+        "In den nächsten Wochen",
+        "In 1–3 Monaten",
+        "Ich plane erst noch"
+      ]
+    },
+    "stickyCta": "Kostenlos anfragen",
+    "look": {
+      "palette": 2,
+      "font": 6,
+      "hero": 0,
+      "services": 1,
+      "radius": 1,
+      "logo": 0,
+      "intro": 5
+    }
+  }
+}
