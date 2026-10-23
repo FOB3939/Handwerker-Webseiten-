@@ -1,115 +1,117 @@
 {
   "id": "2026-10-23-110",
-  "slug": "niki-innenausbau-peissenberg",
+  "slug": "trockenbau-csekk-kirchheim",
   "date": "2026-10-23",
   "company": {
-    "name": "Niki Innenausbau",
-    "owner": null,
-    "trade": "Innenausbau & Parkett",
-    "city": "Peißenberg",
-    "address": "Sonnenstr. 39, 82380 Peißenberg",
-    "phone": "01520 4031625",
-    "email": null,
+    "name": "Trockenbau Csekk Attila",
+    "owner": "Attila Csekk",
+    "trade": "Trockenbau & Renovierung",
+    "city": "Kirchheim bei München",
+    "address": "Daimlerstr. 4, 85551 Kirchheim bei München",
+    "phone": "01514 5191802",
+    "email": "trockenbau1970@gmail.com",
     "serviceArea": [
-      "Peißenberg",
-      "Hohenpeißenberg",
-      "Weilheim",
-      "Polling",
-      "Peiting",
-      "Böbing"
+      "Kirchheim bei München",
+      "Heimstetten",
+      "Aschheim",
+      "Feldkirchen",
+      "Haar",
+      "Ismaning"
     ]
   },
   "listings": {
     "google": {
-      "url": "https://www.google.com/maps/search/?api=1&query=Niki%20Innenausbau%20Sonnenstr.%2039%20Pei%C3%9Fenberg",
+      "url": "https://www.google.com/maps/search/?api=1&query=Trockenbau%20Csekk%20Attila%20Daimlerstr.%204%20Kirchheim%20bei%20M%C3%BCnchen",
       "rating": null,
       "reviews": null,
-      "evidence": "NICHT BELEGT – kein Google-Spiegel (trustlocal, rgv-bayern, firmania) gefunden. finde-offen.de führt den Betrieb mit Adresse Sonnenstr. 39 und Öffnungsstatus (möglicherweise aus Google übernommen, aber nicht eindeutig). In Google Maps prüfen."
+      "evidence": "Kein Google-Spiegel gefunden (Suche auf trustlocal.de, rgv-bayern.de, firmania.de ohne Treffer). Freemail-Adresse trockenbau1970@gmail.com öffentlich im 11880-Eintrag (strukturierte Daten der Kategorie Renovierung Kirchheim) belegt – Kriterium (A) über Freemail erfüllt. Google-Eintrag in Maps prüfen."
     },
     "myhammer": {
-      "url": "https://peissenberg.stadtbranchenbuch.com/F/firmenverzeichnis.html",
+      "url": "https://www.11880.com/branchenbuch/kirchheim-bei-muenchen/060694382B113026113/trockenbau-csekk-attila.html",
       "rating": null,
       "reviews": null,
-      "evidence": "Kein MyHammer gefunden – 11880-Liste Parkettleger/Bodenleger Peißenberg mit „Niki Innenausbau“, Sonnenstr. 39, Tel. (01520) 4031625 (Parkettleger & Innenausbau); Stadtbranchenbuch Peißenberg und Cylex mit gleicher Adresse/Nummer."
+      "evidence": "Kein MyHammer gefunden – 11880-Eintrag „Trockenbau Csekk Attila“, Daimlerstr. 4, 85551 Kirchheim bei München, Tel. (01514) 5191802, Kategorien Trockenbau, Renovierung, Fliesen, Bodenleger; laut Snippet aktualisiert am 04.10.2026."
     }
   },
   "websiteStatus": "keine eigene Website gefunden",
   "websiteChecks": [
-    "(1) „Niki Innenausbau Peißenberg“ mit blocked_domains (11880, Gelbe Seiten, Das Örtliche, Telefonbuch, Cylex, meinestadt, Creditreform, Facebook, Instagram, golocal, MyHammer, Northdata, Firmenwissen, WKDB, Yelp, trustlocal, wlw) – nur Verzeichnisse (Stadtbranchenbuch, finde-offen); „NiKi Bau“ (nikibau.com) ist laut Treffern ein anderer, nicht in Peißenberg verorteter Betrieb; keine eigene Domain",
-    "(2) Telefonsuche „01520 4031625“/„015204031625“ – nur Stadtbranchenbuch, Cylex und Rufnummernliste, keine Website",
-    "(3) Domain-Check allowed_domains niki-innenausbau.de, nikiinnenausbau.de, niki-bau.de – keine Treffer",
-    "(4) Google-Spiegel-Suche (rgv-bayern, firmania, finde-offen, stadtbranchenbuch) – kein Website-Feld",
-    "Keine E-Mail-Adresse gefunden (auch keine Freemail)",
-    "Website-Risiko: mittel – alle Prüfungen negativ, aber weder Google-Eintrag noch Freemail eindeutig belegt (RESERVE)"
+    "(1) „Trockenbau Csekk Attila Kirchheim“ (offen) sowie „Csekk Attila Trockenbau E-Mail“ – keine eigene Domain, kein Treffer außer Verzeichnissen; nur fremde Trockenbaufirmen",
+    "(2) Domain-Check allowed_domains csekk-trockenbau.de, trockenbau-csekk.de, csekk.de, trockenbau-csekk-attila.de, csekk-attila.de, attila-trockenbau.de, csekk-bau.de, trockenbau-csekk.com – keine Treffer",
+    "(3) Telefonsuche „5191802“ + Csekk mit blocked_domains – keine Treffer",
+    "(4) Impressum-Suche „Impressum Csekk Kirchheim Daimlerstr. 4 Trockenbau Inhaber“ – kein eigenes Impressum gefunden",
+    "(5) Verzeichnisse (11880): kein Website-Feld im Snippet, E-Mail ist Freemail (gmail.com)",
+    "Website-Risiko: mittel – alle Prüfungen negativ, Freemail belegt, Google-Eintrag nicht belegt"
   ],
   "facts": {
     "services": [
-      "Innenausbau",
-      "Parkett verlegen",
+      "Trockenbau",
       "Renovierung",
-      "Trockenbau"
+      "Fliesenlegen",
+      "Bodenbelagsarbeiten"
     ],
     "experience": null,
     "praisedFor": []
   },
   "strategy": {
-    "audience": "Eigentümer und Vermieter in Peißenberg, Hohenpeißenberg und Weilheim, die Räume renovieren, Böden erneuern oder Wände neu einziehen wollen",
-    "mainService": "Innenausbau mit Parkett und Trockenbau",
-    "trustSignal": "Kleiner Innenausbauer aus Peißenberg, direkt per Handy erreichbar",
-    "conversionGoal": "Unverbindliches Angebot für Innenausbau oder Boden anfragen (WhatsApp mit Fotos)",
-    "visualConcept": "Helle, frisch renovierte Räume: neue Holzböden, glatte Wände, klare Linien – modern und aufgeräumt"
+    "audience": "Wohnungs- und Hauseigentümer, Vermieter und Hausverwaltungen in Kirchheim, Heimstetten, Aschheim und Feldkirchen, die Räume umbauen, renovieren oder neue Böden und Fliesen wollen",
+    "mainService": "Trockenbau und Renovierung – Wände, Decken, Fliesen und Böden",
+    "trustSignal": "Ein Ansprechpartner für Trockenbau, Fliesen und Boden – direkt per Handy erreichbar",
+    "conversionGoal": "Kostenloses Angebot anfragen (Anruf oder WhatsApp mit Fotos)",
+    "visualConcept": "Helle Renovierungs-Baustelle: frisch verspachtelte Wände, verlegte Fliesen und neuer Boden – ordentlich, sachlich, handwerklich"
   },
   "sales": {
-    "score": 3,
+    "score": 4,
     "whyGoodLead": [
-      "Keine eigene Website gefunden – nur Verzeichniseinträge mit Handynummer",
-      "Mobilnummer öffentlich gelistet – ideal für WhatsApp-Erstkontakt",
-      "Innenausbau + Parkett: breites Angebot, das sich auf einer Website gut zeigen lässt",
-      "Kaum Online-Sichtbarkeit in Peißenberg"
+      "Keine eigene Website gefunden – nur ein 11880-Eintrag",
+      "Mobilnummer und Gmail-Adresse öffentlich – Erstkontakt per WhatsApp oder E-Mail möglich",
+      "Breites Leistungsspektrum (Trockenbau, Renovierung, Fliesen, Boden) lässt sich auf einer Website gut darstellen",
+      "Eintrag kürzlich aktualisiert (Okt. 2026) – Betrieb aktiv und an Sichtbarkeit interessiert"
     ],
-    "pitch": "Hallo, hier ist … – ich baue Websites für Handwerker im Landkreis Weilheim-Schongau. Ich habe Ihren Eintrag „Niki Innenausbau“ in Peißenberg gefunden, aber keine eigene Website. Ich habe unverbindlich einen Entwurf vorbereitet, auf dem Kunden Ihre Parkett- und Ausbauarbeiten sehen und direkt per WhatsApp anfragen können – darf ich Ihnen den Link schicken?"
+    "pitch": "Hallo Herr Csekk, hier ist … – ich baue Websites für Handwerker im Münchner Osten. Ich habe Ihren Eintrag als Trockenbauer in Kirchheim gefunden, aber keine eigene Website. Ich habe unverbindlich einen Entwurf vorbereitet, auf dem Kunden Ihre Trockenbau-, Fliesen- und Renovierungsarbeiten sehen und direkt per WhatsApp anfragen können – darf ich Ihnen den Link schicken?"
   },
   "manualChecks": [
-    "RESERVE – weder Google-Eintrag noch Freemail-Adresse belegt: NUR versenden, wenn Google Maps einen Eintrag OHNE Website zeigt.",
-    "Google-Eintrag in Maps suchen (Niki Innenausbau, Sonnenstr. 39) – Existenz, Website-Feld und Bewertungen prüfen",
-    "Abgrenzung zu „Krasniqi Innenausbau“ (Peißenberg, bereits Lead/verworfen – Tabu) und „NiKi Bau“ (nikibau.com) prüfen: kein Zusammenhang belegt, aber vor Versand sicherstellen",
-    "Inhabername nicht belegt – beim Erstkontakt erfragen, Anrede neutral halten",
-    "Leistungen nur grob belegt (Parkettleger, Innenausbau, Renovierung, Trockenbau laut Verzeichnissen) – Details beim Betrieb bestätigen",
+    "Website-Risiko: mittel – vor Versand in Google Maps prüfen, dass keine Website hinterlegt ist (Grund: Google-Eintrag nicht über Spiegel belegt; nur 11880-Eintrag mit Freemail)",
+    "Google-Eintrag in Maps suchen (Existenz, Bewertungen) – bisher kein Beleg",
+    "E-Mail trockenbau1970@gmail.com nur aus einer Verzeichnisquelle (11880) – vor Versand prüfen",
+    "Inhabername aus Firmennamen abgeleitet („Csekk Attila“ – ungarische Namensfolge, Nachname vermutlich Csekk); Anrede beim Erstkontakt bestätigen",
+    "Daimlerstr. 4 liegt im Gewerbegebiet – klären, ob Betriebssitz oder nur Postadresse",
+    "Leistungen nur als Verzeichniskategorien belegt (Trockenbau, Renovierung, Fliesen, Boden) – Details beim Betrieb bestätigen",
     "Logo und Projektfotos: nicht gefunden – beim Betrieb anfragen"
   ],
   "sources": [
     {
-      "label": "11880 – Parkettleger Hohenpeißenberg/Peißenberg (Liste mit Niki Innenausbau)",
-      "url": "https://www.11880.com/suche/parkettleger/hohenpeissenberg"
+      "label": "11880 – Trockenbau Csekk Attila, Kirchheim bei München",
+      "url": "https://www.11880.com/branchenbuch/kirchheim-bei-muenchen/060694382B113026113/trockenbau-csekk-attila.html"
     },
     {
-      "label": "Stadtbranchenbuch Peißenberg – Firmenverzeichnis (Niki Innenausbau)",
-      "url": "https://peissenberg.stadtbranchenbuch.com/F/firmenverzeichnis.html"
+      "label": "11880 – Renovierungen Kirchheim bei München (Liste mit E-Mail)",
+      "url": "https://www.11880.com/suche/renovierung/kirchheim-bei-muenchen"
     },
     {
-      "label": "finde-offen – Malerbetriebe und Tapezierarbeiten Peißenberg (Niki Innenausbau)",
-      "url": "https://finde-offen.de/peissenberg/malerbetriebe-und-tapezierarbeiten"
+      "label": "11880 – Trockenbauer Kirchheim bei München",
+      "url": "https://www.11880.com/suche/trockenbau/kirchheim-bei-muenchen"
     },
     {
-      "label": "Cylex – Innenausbau Raisting (Liste mit Niki Innenausbau)",
-      "url": "https://web2.cylex.de/suche/innenausbau/raisting"
+      "label": "11880 – Bodenleger Kirchheim bei München",
+      "url": "https://www.11880.com/suche/bodenleger/kirchheim-bei-muenchen"
     }
   ],
   "site": {
-    "theme": "objekt",
+    "theme": "stein",
     "category": "handwerk",
     "heroOffer": [
-      "Parkett",
-      "Innenausbau",
       "Trockenbau",
-      "Renovierung"
+      "Renovierung",
+      "Fliesen",
+      "Bodenbeläge",
+      "Decken"
     ],
-    "scene": "parquet",
-    "logoIcon": "house",
-    "logoMark": "NI",
-    "brandName": "Niki Innenausbau",
-    "seoTitle": "Innenausbau & Parkett in Peißenberg – Niki Innenausbau",
-    "seoDescription": "Innenausbau, Parkett, Trockenbau und Renovierung in Peißenberg und Umgebung. Jetzt unverbindlich anfragen – auch per WhatsApp.",
+    "scene": "drywall",
+    "logoIcon": "trowel",
+    "logoMark": "CA",
+    "brandName": "Trockenbau Csekk",
+    "seoTitle": "Trockenbau & Renovierung in Kirchheim – Trockenbau Csekk",
+    "seoDescription": "Trockenbau, Renovierung, Fliesen und Bodenbeläge in Kirchheim bei München und Umgebung. Jetzt kostenloses Angebot anfragen – auch per WhatsApp.",
     "nav": [
       {
         "label": "Leistungen",
@@ -137,132 +139,132 @@
       }
     ],
     "hero": {
-      "eyebrow": "Innenausbau · Peißenberg",
-      "headline": "Innenausbau und Parkett in Peißenberg",
-      "sub": "Böden, Wände und Renovierung – alles für den Innenraum aus einer Hand.",
-      "ctaPrimary": "Angebot anfragen",
+      "eyebrow": "Trockenbau · Kirchheim bei München",
+      "headline": "Trockenbau und Renovierung in Kirchheim",
+      "sub": "Wände, Decken, Fliesen und Böden – alles aus einer Hand im Münchner Osten.",
+      "ctaPrimary": "Kostenloses Angebot anfragen",
       "ctaSecondary": "Anrufen",
       "bullets": [
-        "Innenausbauer aus Peißenberg",
-        "Parkett, Trockenbau, Renovierung",
+        "Trockenbau aus Kirchheim",
+        "Fliesen und Bodenbeläge",
         "Direkt per Handy erreichbar"
       ],
-      "imageLabel": "renovierter Wohnraum mit neuem Parkett"
+      "imageLabel": "renovierter Raum mit neuer Trockenbauwand und frisch verlegtem Boden"
     },
     "badges": [
-      {
-        "title": "Parkett",
-        "sub": "neu verlegt"
-      },
       {
         "title": "Trockenbau",
         "sub": "Wände & Decken"
       },
       {
         "title": "Renovierung",
-        "sub": "Raum für Raum"
+        "sub": "Räume neu gestalten"
       },
       {
-        "title": "Peißenberg",
-        "sub": "Sonnenstraße"
+        "title": "Fliesen & Boden",
+        "sub": "sauber verlegt"
+      },
+      {
+        "title": "Kirchheim",
+        "sub": "bei München"
       }
     ],
     "trust": [
       {
         "value": "Vor Ort",
-        "label": "Betrieb in Peißenberg"
+        "label": "Betrieb in Kirchheim"
       },
       {
-        "value": "Innen",
-        "label": "Böden, Wände, Decken"
-      },
-      {
-        "value": "Mobil",
-        "label": "schnell erreichbar"
+        "value": "4",
+        "label": "Leistungsbereiche"
       },
       {
         "value": "1",
         "label": "Ansprechpartner"
+      },
+      {
+        "value": "Mobil",
+        "label": "schnell erreichbar"
       }
     ],
     "servicesIntro": {
-      "headline": "Ein Betrieb für den ganzen Innenraum",
-      "text": "Statt drei Gewerke zu koordinieren: Boden, Wände und Renovierung aus einer Hand – abgestimmt und ohne Leerlauf."
+      "headline": "Vom Rohbau bis zum fertigen Boden",
+      "text": "Neue Wände stellen, Decken abhängen, Fliesen legen, Böden erneuern: Trockenbau Csekk übernimmt die Gewerke, die bei einer Renovierung ineinandergreifen."
     },
     "services": [
       {
-        "title": "Parkett verlegen",
-        "text": "Fertigparkett und Dielen für Wohnräume – sauber verlegt mit passenden Leisten.",
-        "items": [
-          "Fertigparkett",
-          "Dielen",
-          "Sockelleisten"
-        ]
-      },
-      {
-        "title": "Bodenbeläge",
-        "text": "Vinyl- und Designböden für Flur, Küche und Mietwohnungen.",
-        "items": [
-          "Vinyl",
-          "Designboden",
-          "Laminat"
-        ]
-      },
-      {
-        "title": "Trockenbau",
-        "text": "Neue Wände und abgehängte Decken – schnell gestellt und bereit für Farbe.",
+        "title": "Trockenbauwände",
+        "text": "Neue Raumaufteilung mit Ständerwänden – schnell gestellt, sauber verspachtelt und bereit für Farbe.",
         "items": [
           "Ständerwände",
-          "Decken",
-          "Verkleidungen"
+          "Raumteiler",
+          "Verspachteln"
+        ]
+      },
+      {
+        "title": "Decken abhängen",
+        "text": "Abgehängte Decken für ein ruhiges Raumbild – Leitungen und Rohre verschwinden dahinter.",
+        "items": [
+          "Abgehängte Decken",
+          "Leitungen verkleiden",
+          "Glatte Flächen"
         ]
       },
       {
         "title": "Renovierung",
-        "text": "Wohnungen und Räume auffrischen – beim Einzug, Mieterwechsel oder Umbau.",
+        "text": "Wohnung oder Haus auffrischen: Wände, Decken und Böden werden in einem Zug erneuert.",
         "items": [
-          "Wohnungen",
-          "Mieterwechsel",
-          "Altbau"
+          "Wohnungsrenovierung",
+          "Zimmer umbauen",
+          "Nach Auszug"
         ]
       },
       {
-        "title": "Innenausbau",
-        "text": "Dachgeschoss, Keller oder Anbau: Räume vom Rohbau bis zum fertigen Boden.",
+        "title": "Fliesenarbeiten",
+        "text": "Fliesen für Bad, Küche und Flur – vom Untergrund bis zur Fuge.",
         "items": [
-          "Dachgeschoss",
-          "Kellerräume",
-          "Umbau"
+          "Wandfliesen",
+          "Bodenfliesen",
+          "Verfugen"
         ]
       },
       {
-        "title": "Untergrund",
-        "text": "Alte Beläge entfernen und Untergrund vorbereiten – die Basis für einen langlebigen Boden.",
+        "title": "Bodenbeläge",
+        "text": "Neuer Boden für Wohn- und Schlafräume – passend zum Raum und zur Nutzung.",
         "items": [
-          "Altbelag entfernen",
-          "Ausgleichen",
-          "Trittschall"
+          "Vinyl",
+          "Laminat",
+          "Untergrund vorbereiten"
+        ]
+      },
+      {
+        "title": "Kleine Umbauten",
+        "text": "Vorsatzschale, Nische oder Durchbruch verkleiden – auch kleinere Aufträge werden angenommen.",
+        "items": [
+          "Vorsatzschalen",
+          "Nischen",
+          "Verkleidungen"
         ]
       }
     ],
     "why": {
-      "headline": "Innenausbau aus Peißenberg – alles aus einer Hand.",
+      "headline": "Trockenbau aus Kirchheim – mehrere Gewerke, ein Ansprechpartner.",
       "points": [
         {
           "title": "Kurze Wege",
-          "text": "Von der Sonnenstraße schnell in Hohenpeißenberg, Weilheim, Polling und Peiting."
+          "text": "Von Kirchheim aus schnell in Heimstetten, Aschheim, Feldkirchen und Haar."
         },
         {
-          "title": "Ein Ansprechpartner",
-          "text": "Boden, Wand und Renovierung in einem Auftrag – ohne Abstimmung zwischen Firmen."
+          "title": "Alles aus einer Hand",
+          "text": "Trockenbau, Fliesen und Boden ohne Abstimmung zwischen mehreren Firmen."
         },
         {
-          "title": "Direkter Kontakt",
-          "text": "Anruf oder WhatsApp genügt – Fotos schicken, Rückmeldung bekommen."
+          "title": "Direkter Draht",
+          "text": "Ein Anruf oder eine WhatsApp-Nachricht genügt – Sie sprechen direkt mit dem Betrieb."
         },
         {
-          "title": "Sauber übergeben",
-          "text": "Untergrund, Ausführung und Abschluss werden ordentlich erledigt."
+          "title": "Trocken & zügig",
+          "text": "Trockenbau kommt ohne lange Trocknungszeiten aus – Räume sind rasch wieder nutzbar."
         }
       ]
     },
@@ -270,104 +272,104 @@
       "headline": "Was Kunden sagen",
       "summary": "Kundenstimmen werden hier eingebunden, sobald sie aus dem Google-Profil übernommen sind.",
       "highlights": [
-        "Innenausbau in Peißenberg",
-        "Parkett und Trockenbau",
+        "Trockenbau in Kirchheim",
+        "Fliesen und Bodenbeläge",
         "Direkter Kontakt"
       ],
       "source": "Google",
-      "sourceUrl": "https://www.google.com/maps/search/?api=1&query=Niki%20Innenausbau%20Sonnenstr.%2039%20Pei%C3%9Fenberg",
+      "sourceUrl": "https://www.google.com/maps/search/?api=1&query=Trockenbau%20Csekk%20Attila%20Daimlerstr.%204%20Kirchheim%20bei%20M%C3%BCnchen",
       "rating": null,
       "count": null
     },
     "process": {
-      "headline": "So läuft Ihr Projekt",
+      "headline": "So läuft Ihr Projekt ab",
       "steps": [
         {
           "title": "Anfrage",
-          "text": "Fotos und kurze Beschreibung per WhatsApp schicken – oder anrufen."
+          "text": "Fotos und grobe Maße per WhatsApp schicken oder kurz anrufen."
         },
         {
           "title": "Besichtigung",
-          "text": "Vor Ort werden Räume, Maße und Wünsche abgestimmt."
+          "text": "Umfang, Materialien und Ablauf werden vor Ort besprochen."
         },
         {
           "title": "Angebot",
-          "text": "Sie erhalten ein klares Angebot für alle Gewerke."
+          "text": "Sie erhalten ein klares Angebot für Wände, Fliesen oder Boden."
         },
         {
-          "title": "Umsetzung",
-          "text": "Wände, Böden, Abschlüsse – Schritt für Schritt bis zur Übergabe."
+          "title": "Ausführung",
+          "text": "Die Arbeiten werden erledigt und der Raum sauber übergeben."
         }
       ]
     },
     "gallery": {
-      "headline": "Räume, die neu werden",
+      "headline": "Räume, die neu entstehen",
       "text": "Für die Live-Version zeigen wir hier echte Projekte des Betriebs.",
       "items": [
         {
-          "title": "Neues Parkett",
-          "photoNeeded": "Wohnraum mit frisch verlegtem Parkett"
+          "title": "Neue Trennwand",
+          "photoNeeded": "Ständerwand im Rohbau und fertig verspachtelt"
         },
         {
-          "title": "Trennwand",
-          "photoNeeded": "neu gestellte, verspachtelte Trockenbauwand"
+          "title": "Abgehängte Decke",
+          "photoNeeded": "glatte, abgehängte Decke mit Einbauleuchten"
         },
         {
-          "title": "Dachgeschoss",
-          "photoNeeded": "ausgebautes Dachgeschoss mit Boden"
+          "title": "Gefliestes Bad",
+          "photoNeeded": "frisch gefliestes Bad mit sauberen Fugen"
         },
         {
-          "title": "Wohnungsrenovierung",
-          "photoNeeded": "Raum vorher/nachher"
+          "title": "Neuer Boden",
+          "photoNeeded": "frisch verlegter Boden in einem Wohnraum"
         },
         {
-          "title": "Vinylboden",
-          "photoNeeded": "Flur oder Küche mit Designboden"
+          "title": "Renovierte Wohnung",
+          "photoNeeded": "heller, fertig renovierter Raum vor dem Einzug"
         }
       ]
     },
     "region": {
-      "headline": "Innenausbau für Peißenberg und Umgebung",
-      "text": "Von Peißenberg aus schnell in Hohenpeißenberg, Weilheim, Polling, Peiting und Böbing.",
+      "headline": "Für Kirchheim und den Münchner Osten",
+      "text": "Von der Daimlerstraße in Kirchheim aus schnell in Heimstetten, Aschheim, Feldkirchen, Haar und Ismaning.",
       "places": [
-        "Peißenberg",
-        "Hohenpeißenberg",
-        "Weilheim",
-        "Polling",
-        "Peiting",
-        "Böbing"
+        "Kirchheim bei München",
+        "Heimstetten",
+        "Aschheim",
+        "Feldkirchen",
+        "Haar",
+        "Ismaning"
       ]
     },
     "faq": [
       {
-        "q": "Übernehmen Sie Boden und Wände zusammen?",
-        "a": "Ja, Parkett, Bodenbeläge und Trockenbau können in einem Auftrag erledigt werden."
+        "q": "Übernehmen Sie auch Fliesen und Böden?",
+        "a": "Ja, neben Trockenbau gehören Fliesenarbeiten, Bodenbeläge und Renovierungen zum Angebot."
       },
       {
         "q": "Kann ich vorab Fotos schicken?",
-        "a": "Ja, Fotos per WhatsApp helfen für eine erste Einschätzung."
+        "a": "Ja, Fotos und grobe Maße per WhatsApp helfen für eine erste Einschätzung."
       },
       {
-        "q": "Machen Sie auch einzelne Räume?",
-        "a": "Ja, vom einzelnen Zimmer bis zur ganzen Wohnung."
+        "q": "Wie lange dauert eine Trockenbauwand?",
+        "a": "Das hängt von Größe und Ausführung ab. Ein Zeitplan wird nach der Besichtigung abgestimmt."
       },
       {
-        "q": "Wie schnell kann es losgehen?",
-        "a": "Das hängt von der Auftragslage ab – fragen Sie einfach an."
+        "q": "Nehmen Sie auch kleine Aufträge an?",
+        "a": "Fragen Sie einfach an – auch einzelne Wände oder kleinere Reparaturen werden besprochen."
       },
       {
-        "q": "Arbeiten Sie auch außerhalb von Peißenberg?",
-        "a": "Ja, im Umkreis von Peißenberg und Weilheim."
+        "q": "Arbeiten Sie auch außerhalb von Kirchheim?",
+        "a": "Ja, im Umkreis von Kirchheim, etwa in Aschheim, Feldkirchen, Haar und Ismaning."
       }
     ],
     "contact": {
-      "headline": "Ihr Projekt – unverbindlich angefragt",
-      "text": "Beschreiben Sie kurz Raum, Fläche und Vorhaben – Boden, Wand oder Renovierung. Fotos helfen.",
+      "headline": "Ihr Angebot – kostenlos und unverbindlich",
+      "text": "Beschreiben Sie kurz Ihr Vorhaben: welcher Raum, ungefähre Maße und ob Wand, Decke, Fliesen oder Boden. Fotos helfen.",
       "topics": [
-        "Parkett",
-        "Bodenbeläge",
         "Trockenbau",
         "Renovierung",
+        "Fliesen",
+        "Bodenbeläge",
         "Sonstiges"
       ],
       "responseNote": "Besichtigung nach Absprache."
@@ -375,10 +377,10 @@
     "quote": {
       "sizeLabel": "Was steht an?",
       "sizes": [
+        "Eine Wand oder Decke",
         "Ein Raum",
-        "Eine Wohnung",
-        "Dachgeschoss",
-        "Ganzes Haus"
+        "Bad oder Küche",
+        "Ganze Wohnung"
       ],
       "timings": [
         "So bald wie möglich",
@@ -389,13 +391,13 @@
     },
     "stickyCta": "Angebot anfragen",
     "look": {
-      "palette": 2,
-      "font": 6,
-      "hero": 0,
-      "services": 1,
+      "palette": 0,
+      "font": 7,
+      "hero": 1,
+      "services": 0,
       "radius": 1,
-      "logo": 0,
-      "intro": 5
+      "logo": 5,
+      "intro": 4
     }
   }
 }

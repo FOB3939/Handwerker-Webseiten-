@@ -1,110 +1,110 @@
 {
   "id": "2026-10-23-109",
-  "slug": "krenz-fussbodenverlegung-weilheim",
+  "slug": "hausklar-dienstleistungen-friedberg",
   "date": "2026-10-23",
   "company": {
-    "name": "Krenz Fußbodenverlegung",
+    "name": "Hausklar Dienstleistungen",
     "owner": null,
-    "trade": "Bodenleger & Parkett",
-    "city": "Weilheim in Oberbayern",
-    "address": "Enzianweg 12, 82362 Weilheim in Oberbayern",
-    "phone": "0171 4329046",
+    "trade": "Entrümpelung, Hausmeisterservice & Umzugsservice",
+    "city": "Friedberg",
+    "address": "Thomas-Mann-Str. 10, 86316 Friedberg",
+    "phone": "0170 4502040",
     "email": null,
     "serviceArea": [
-      "Weilheim",
-      "Wielenbach",
-      "Polling",
-      "Peißenberg",
-      "Pähl",
-      "Raisting"
+      "Friedberg",
+      "Mering",
+      "Kissing",
+      "Dasing",
+      "Wulfertshausen",
+      "Augsburg-Hochzoll"
     ]
   },
   "listings": {
     "google": {
-      "url": "https://www.google.com/maps/search/?api=1&query=Krenz%20Fu%C3%9Fbodenverlegung%20Enzianweg%2012%20Weilheim",
+      "url": "https://www.google.com/maps/search/?api=1&query=Hausklar%20Dienstleistungen%20Thomas-Mann-Str.%2010%20Friedberg",
       "rating": null,
       "reviews": null,
-      "evidence": "NICHT BELEGT – kein Google-Spiegel (trustlocal, rgv-bayern, firmania) mit diesem Betrieb gefunden; trustlocal-Suche „Krenz Bodenleger Weilheim“ ohne Treffer. In Google Maps prüfen, ob ein Eintrag existiert und ob dort eine Website hinterlegt ist."
+      "evidence": "KEIN Google-Beleg – Google-Spiegel (rgv-bayern, firmania, trustlocal) wurden aus Budgetgründen NICHT gesucht; vorhanden sind nur Verzeichnisse (11880 mit vom Inhaber bestätigtem Eintrag, stadtbranchenbuch Friedberg, YellowMap mit E-Mail-Link). In Maps prüfen."
     },
     "myhammer": {
-      "url": "https://www.11880.com/branchenbuch/weilheim-in-oberbayern/060690823B26763284/krenz-fussbodenverlegung.html",
+      "url": "https://www.11880.com/suche/hausmeisterservice/friedberg-bayern",
       "rating": null,
       "reviews": null,
-      "evidence": "Kein MyHammer gefunden – 11880-Eintrag „Krenz Fußbodenverlegung“, Enzianweg 12, Weilheim, Tel. (0171) 4329046 (Kategorien Bodenleger/Parkettleger); zweites Verzeichnis mit derselben Adresse und 01714329046."
+      "evidence": "Kein MyHammer gefunden – 11880-Eintrag „Hausklar Dienstleistungen“, Thomas-Mann-Str. 10, 86316 Friedberg, Tel. (0170) 4502040, Kategorien Hausmeisterservice, Entrümpelung, Umzugsservice (Eintrag vom Inhaber bestätigt); ebenfalls in der 11880-Liste Haushaltsauflösungen Friedberg."
     }
   },
   "websiteStatus": "keine eigene Website gefunden",
   "websiteChecks": [
-    "(1) „Krenz Fußbodenverlegung Weilheim“ mit blocked_domains (11880, Gelbe Seiten, Das Örtliche, Telefonbuch, Cylex, meinestadt, Creditreform, Facebook, Instagram, golocal, MyHammer, Northdata, Firmenwissen, WKDB, Yelp, trustlocal, wlw) – nur Verzeichnisse (branchen-info.net „Horst Krenz Bodenlegerei“, Kirchmayrstr. 16, Tel. 0881-49716; andere Bodenleger wie bodenbelaege-mom.de sind fremde Firmen); keine eigene Domain",
-    "(2) Telefonsuche „0171 4329046“/„01714329046“ – keine Website, nur allgemeine Rückwärtssuche-Seiten",
-    "(3) Domain-Check allowed_domains krenz-bodenleger.de, bodenleger-krenz.de, krenz-boden.de, krenz-fussboden.de, krenz-weilheim.de – keine Treffer",
-    "(4) „Krenz Fußbodenverlegung“ + Enzianweg ohne 11880 – nur Verzeichnisse (Cylex, branchenbuch-bayern, tellows-Liste), kein Website-Feld, keine E-Mail",
-    "Keine E-Mail-Adresse gefunden (auch keine Freemail)",
+    "(1) „Hausklar“ Dienstleistungen Friedberg Entrümpelung mit blocked_domains (11880, Gelbe Seiten, Das Örtliche, Telefonbuch, Cylex, meinestadt, Creditreform, Facebook, Instagram, golocal, MyHammer, Northdata, Firmenwissen, WKDB, Yelp, wlw) – nur fremde Entrümpelungsfirmen (überwiegend Friedberg/Hessen) und ein Verzeichnis-Eintrag, keine eigene Domain",
+    "(2) Telefonsuche „0170 4502040“/„01704502040“ mit blocked_domains – nur stadtbranchenbuch Friedberg, YellowMap und Rufnummernblock-Seite, keine Website",
+    "(3) Domain-Check allowed_domains hausklar.de, hausklar-dienstleistungen.de, hausklar-friedberg.de, haus-klar.de, hausklar.com, hausklar-augsburg.de, hausklar-service.de, hausklar24.de – keine Treffer",
+    "(4) Verzeichnisse: kein Website-Feld in den Snippets; E-Mail nur als Link bei YellowMap, Adresse nicht sichtbar",
     "Website-Risiko: mittel – alle Prüfungen negativ, aber weder Google-Eintrag noch Freemail belegt (RESERVE)"
   ],
   "facts": {
     "services": [
-      "Fußbodenverlegung",
-      "Parkett verlegen",
-      "Bodenbeläge"
+      "Entrümpelung",
+      "Hausmeisterservice",
+      "Umzugsservice",
+      "Haushaltsauflösung"
     ],
     "experience": null,
     "praisedFor": []
   },
   "strategy": {
-    "audience": "Hauseigentümer, Vermieter und Renovierer in Weilheim und Umgebung, die neue Böden in Wohnung oder Haus wollen",
-    "mainService": "Fußbodenverlegung – Parkett und Bodenbeläge",
-    "trustSignal": "Bodenleger aus Weilheim, direkt per Handy erreichbar",
-    "conversionGoal": "Unverbindliches Angebot für neuen Boden anfragen (Anruf/WhatsApp mit Fotos und Quadratmetern)",
-    "visualConcept": "Warme Holztöne, frisch verlegtes Parkett im Streiflicht, saubere Sockelleisten – handwerklich und ruhig"
+    "audience": "Haushalte, Erbengemeinschaften, Vermieter und Hausverwaltungen in Friedberg, Mering und Kissing, die räumen, umziehen oder ihr Haus betreuen lassen wollen",
+    "mainService": "Entrümpelung und Haushaltsauflösung",
+    "trustSignal": "Betrieb aus Friedberg mit vom Inhaber bestätigtem Verzeichniseintrag, direkt per Handy erreichbar",
+    "conversionGoal": "Kostenlose Einschätzung per WhatsApp mit Fotos der Räume anfragen",
+    "visualConcept": "Klar und ruhig: leere, helle Räume nach der Räumung, gepackte Umzugskartons, ordentliches Treppenhaus – „Haus klar“ als Versprechen"
   },
   "sales": {
     "score": 3,
     "whyGoodLead": [
-      "Keine eigene Website gefunden – nur Verzeichniseinträge mit Handynummer",
-      "Mobilnummer öffentlich gelistet – ideal für WhatsApp-Erstkontakt",
-      "Boden/Parkett ist bisher selten unter den Leads",
-      "Kaum Online-Sichtbarkeit – eine Website mit Bodenbeispielen hebt den Betrieb ab"
+      "Keine eigene Website gefunden – nur Verzeichniseinträge",
+      "Mobilnummer öffentlich – WhatsApp-Erstkontakt möglich",
+      "Markenname „Hausklar“ eignet sich gut für eine eigene Domain",
+      "Entrümpelung in Friedberg ist stark umkämpft (viele überregionale Anbieter) – lokale Website schafft Abgrenzung"
     ],
-    "pitch": "Hallo, hier ist … – ich baue Websites für Handwerker im Landkreis Weilheim-Schongau. Ich habe Ihren Eintrag „Krenz Fußbodenverlegung“ in Weilheim gefunden, aber keine eigene Website. Ich habe unverbindlich einen Entwurf vorbereitet, auf dem Kunden Ihre Parkett- und Bodenarbeiten sehen und direkt per WhatsApp anfragen können – darf ich Ihnen den Link schicken?"
+    "pitch": "Hallo, hier ist … – ich baue Websites für Handwerks- und Servicebetriebe rund um Augsburg. Ich habe Ihren Eintrag „Hausklar Dienstleistungen“ in Friedberg gefunden, aber keine eigene Website. Ich habe unverbindlich einen Entwurf vorbereitet, auf dem Kunden Ihre Entrümpelungen und Ihren Hausmeisterservice sehen und direkt per WhatsApp Fotos schicken können – darf ich Ihnen den Link schicken?"
   },
   "manualChecks": [
     "RESERVE – weder Google-Eintrag noch Freemail-Adresse belegt: NUR versenden, wenn Google Maps einen Eintrag OHNE Website zeigt.",
-    "Google-Eintrag in Maps suchen (Name, Enzianweg 12) – Existenz, Website-Feld und Bewertungen prüfen",
-    "Verhältnis zu „Horst Krenz Bodenlegerei“, Kirchmayrstr. 16, Tel. 0881-49716 klären (evtl. älterer Eintrag oder Familienbetrieb) – sicherstellen, dass auch dieser keine Website hat",
-    "Inhabername nicht belegt – beim Erstkontakt erfragen, Anrede neutral halten",
-    "Leistungen nur grob belegt (Bodenleger/Parkettleger) – Bodenarten (Vinyl, Teppich, Schleifen) beim Betrieb bestätigen",
+    "Inhabername nicht belegt – beim Erstkontakt erfragen; Anrede neutral halten",
+    "E-Mail-Adresse unbekannt (YellowMap nur Link) – falls Firmendomain, verwerfen",
+    "Name „Hausklar“ ist generisch – sicherstellen, dass keine gleichnamige Firma mit Website gemeint ist",
+    "Leistungsumfang (Haushaltsauflösung, Umzugsservice, Hausmeisterleistungen im Detail) beim Betrieb bestätigen",
     "Logo und Projektfotos: nicht gefunden – beim Betrieb anfragen"
   ],
   "sources": [
     {
-      "label": "11880 – Krenz Fußbodenverlegung, Weilheim",
-      "url": "https://www.11880.com/branchenbuch/weilheim-in-oberbayern/060690823B26763284/krenz-fussbodenverlegung.html"
+      "label": "11880 – Hausmeisterservices Friedberg (Liste mit Hausklar Dienstleistungen)",
+      "url": "https://www.11880.com/suche/hausmeisterservice/friedberg-bayern"
     },
     {
-      "label": "branchen-info.net – Horst Krenz Bodenlegerei Weilheim",
-      "url": "https://weilheim-in-oberbayern.branchen-info.net/fp_1343065.php"
+      "label": "11880 – Haushaltsauflösungen Friedberg",
+      "url": "https://www.11880.com/suche/haushaltsaufloesung/friedberg-bayern"
     },
     {
-      "label": "Cylex – Teppichboden Weilheim (Liste)",
-      "url": "https://web2.cylex.de/suche/teppichboden/weilheim-in-oberbayern"
+      "label": "Stadtbranchenbuch – Firmenverzeichnis Friedberg",
+      "url": "https://friedberg.stadtbranchenbuch.com/F/firmenverzeichnis.html"
     }
   ],
   "site": {
-    "theme": "atelier",
+    "theme": "objekt",
     "category": "handwerk",
     "heroOffer": [
-      "Parkett",
-      "Bodenbeläge",
-      "Vinyl",
-      "Sockelleisten"
+      "Entrümpelung",
+      "Haushaltsauflösung",
+      "Umzugshilfe",
+      "Hausmeisterdienst"
     ],
-    "scene": "parquet",
-    "logoIcon": "plank",
-    "logoMark": "KF",
-    "brandName": "Krenz Fußbodenverlegung",
-    "seoTitle": "Bodenleger in Weilheim – Krenz Fußbodenverlegung",
-    "seoDescription": "Parkett und Bodenbeläge verlegen in Weilheim und Umgebung. Jetzt unverbindliches Angebot anfragen – auch per WhatsApp.",
+    "scene": "facade",
+    "logoIcon": "broom",
+    "logoMark": "HK",
+    "brandName": "Hausklar",
+    "seoTitle": "Entrümpelung & Hausmeisterservice in Friedberg – Hausklar",
+    "seoDescription": "Entrümpelung, Haushaltsauflösung, Umzugsservice und Hausmeisterdienste in Friedberg bei Augsburg. Jetzt kostenlos anfragen – auch per WhatsApp.",
     "nav": [
       {
         "label": "Leistungen",
@@ -132,247 +132,247 @@
       }
     ],
     "hero": {
-      "eyebrow": "Bodenleger · Weilheim",
-      "headline": "Neue Böden für Weilheim",
-      "sub": "Parkett und Bodenbeläge sauber verlegt – vom Zimmer bis zum ganzen Haus.",
-      "ctaPrimary": "Angebot anfragen",
+      "eyebrow": "Entrümpelung · Friedberg",
+      "headline": "Entrümpelung und Hausservice in Friedberg",
+      "sub": "Wir räumen, ziehen mit Ihnen um und kümmern uns ums Haus.",
+      "ctaPrimary": "Kostenlos anfragen",
       "ctaSecondary": "Anrufen",
       "bullets": [
-        "Bodenleger aus Weilheim",
-        "Parkett und Bodenbeläge",
+        "Betrieb aus Friedberg",
+        "Räumung, Umzug und Hausmeister",
         "Direkt per Handy erreichbar"
       ],
-      "imageLabel": "frisch verlegtes Eichenparkett im Wohnzimmer"
+      "imageLabel": "leerer, besenreiner Raum nach der Entrümpelung"
     },
     "badges": [
       {
-        "title": "Parkett",
-        "sub": "verlegt & versiegelt"
+        "title": "Entrümpelung",
+        "sub": "Keller bis Haus"
       },
       {
-        "title": "Bodenbeläge",
-        "sub": "für jeden Raum"
+        "title": "Haushaltsauflösung",
+        "sub": "komplett geräumt"
       },
       {
-        "title": "Untergrund",
-        "sub": "sorgfältig vorbereitet"
+        "title": "Umzugsservice",
+        "sub": "Tragen & Transport"
       },
       {
-        "title": "Weilheim",
-        "sub": "Enzianweg"
+        "title": "Friedberg",
+        "sub": "Thomas-Mann-Straße"
       }
     ],
     "trust": [
       {
         "value": "Vor Ort",
-        "label": "Betrieb in Weilheim"
+        "label": "Betrieb in Friedberg"
       },
       {
-        "value": "Boden",
-        "label": "unser Handwerk"
+        "value": "3",
+        "label": "Leistungsbereiche"
+      },
+      {
+        "value": "Besenrein",
+        "label": "Übergabe nach Räumung"
       },
       {
         "value": "Mobil",
         "label": "schnell erreichbar"
-      },
-      {
-        "value": "Fotos",
-        "label": "für erste Einschätzung"
       }
     ],
     "servicesIntro": {
-      "headline": "Vom Untergrund bis zur letzten Leiste",
-      "text": "Ein guter Boden beginnt unter der Oberfläche: Wir bereiten den Untergrund vor, verlegen sauber und schließen mit passenden Leisten ab."
+      "headline": "Räumen, umziehen, betreuen",
+      "text": "Ob ein voller Keller, eine ganze Wohnung oder das Haus, das regelmäßig betreut werden soll – ein Anruf genügt."
     },
     "services": [
       {
-        "title": "Parkett verlegen",
-        "text": "Massiv- oder Fertigparkett, verklebt oder schwimmend – passend zu Raum und Nutzung.",
+        "title": "Entrümpelung",
+        "text": "Keller, Dachboden, Garage oder Schuppen werden geräumt und das Sperrgut entsorgt.",
         "items": [
-          "Fertigparkett",
-          "Landhausdielen",
-          "Fischgrät"
+          "Keller",
+          "Dachboden",
+          "Garage"
         ]
       },
       {
-        "title": "Designböden",
-        "text": "Vinyl- und Designbeläge für Küche, Flur und Bad-nahe Räume – robust und pflegeleicht.",
+        "title": "Haushaltsauflösung",
+        "text": "Komplette Wohnungen und Häuser werden aufgelöst – etwa nach Umzug ins Heim oder im Erbfall.",
         "items": [
-          "Vinyl",
-          "Klick-Systeme",
-          "Klebeware"
+          "Wohnung",
+          "Haus",
+          "Nachlass"
         ]
       },
       {
-        "title": "Teppichboden",
-        "text": "Weiche Beläge für Schlafzimmer, Kinderzimmer und Treppen.",
+        "title": "Wohnungsräumung",
+        "text": "Räumung bis zur besenreinen Übergabe an Vermieter oder Käufer.",
         "items": [
-          "Teppichboden",
-          "Treppen",
-          "Schlafräume"
+          "Besenrein",
+          "Übergabe",
+          "Sperrmüll"
         ]
       },
       {
-        "title": "Untergrund",
-        "text": "Alter Belag raus, Untergrund prüfen, ausgleichen – damit der neue Boden lange hält.",
+        "title": "Umzugsservice",
+        "text": "Hilfe beim Umzug: Tragen, Verladen und Transport im Raum Friedberg und Augsburg.",
         "items": [
-          "Altbelag entfernen",
-          "Ausgleichen",
-          "Trittschall"
+          "Tragen",
+          "Verladen",
+          "Transport"
         ]
       },
       {
-        "title": "Sockelleisten",
-        "text": "Saubere Abschlüsse an Wand, Tür und Übergang.",
+        "title": "Möbel & Sperrgut",
+        "text": "Einzelne Möbelstücke oder Sperrgut werden abgeholt und entsorgt.",
         "items": [
-          "Sockelleisten",
-          "Übergangsprofile",
-          "Türanschlüsse"
+          "Einzelmöbel",
+          "Sperrgut",
+          "Abholung"
         ]
       },
       {
-        "title": "Renovierung",
-        "text": "Neuer Boden beim Umzug, Mieterwechsel oder als Teil einer Sanierung.",
+        "title": "Hausmeisterservice",
+        "text": "Betreuung von Haus und Grundstück – kleine Arbeiten und Kontrollgänge nach Absprache.",
         "items": [
-          "Mieterwechsel",
-          "Altbau",
-          "Einzelräume"
+          "Kleinreparaturen",
+          "Kontrollgänge",
+          "Objektbetreuung"
         ]
       }
     ],
     "why": {
-      "headline": "Ihr Bodenleger aus Weilheim.",
+      "headline": "Hausklar aus Friedberg – unkompliziert und direkt.",
       "points": [
         {
           "title": "Kurze Wege",
-          "text": "Vom Enzianweg schnell in Wielenbach, Polling, Pähl und Peißenberg."
-        },
-        {
-          "title": "Direkter Draht",
-          "text": "Ein Anruf oder eine WhatsApp-Nachricht genügt – Sie sprechen mit dem Bodenleger selbst."
-        },
-        {
-          "title": "Sauberer Untergrund",
-          "text": "Vorbereitung wird nicht ausgelassen – sie entscheidet über die Haltbarkeit."
+          "text": "Der Betrieb sitzt in Friedberg und ist schnell in Mering, Kissing und Dasing."
         },
         {
           "title": "Ein Ansprechpartner",
-          "text": "Vom Ausmessen bis zur letzten Leiste aus einer Hand."
+          "text": "Räumung, Umzug und Hausbetreuung laufen über eine Nummer."
+        },
+        {
+          "title": "Fotos genügen",
+          "text": "Eine erste Einschätzung gibt es oft schon anhand von Fotos per WhatsApp."
+        },
+        {
+          "title": "Besenrein",
+          "text": "Nach der Räumung bleibt ein sauberer Raum zurück."
         }
       ]
     },
     "reviews": {
       "headline": "Was Kunden sagen",
-      "summary": "Kundenstimmen werden hier eingebunden, sobald sie aus dem Google-Profil übernommen sind.",
+      "summary": "Kundenstimmen werden hier eingebunden, sobald ein Google-Profil mit Bewertungen vorliegt.",
       "highlights": [
-        "Böden in Weilheim",
-        "Parkett und Beläge",
+        "Entrümpelung in Friedberg",
+        "Haushaltsauflösung",
         "Direkter Kontakt"
       ],
       "source": "Google",
-      "sourceUrl": "https://www.google.com/maps/search/?api=1&query=Krenz%20Fu%C3%9Fbodenverlegung%20Enzianweg%2012%20Weilheim",
+      "sourceUrl": "https://www.google.com/maps/search/?api=1&query=Hausklar%20Dienstleistungen%20Thomas-Mann-Str.%2010%20Friedberg",
       "rating": null,
       "count": null
     },
     "process": {
-      "headline": "In vier Schritten zum neuen Boden",
+      "headline": "In vier Schritten zum leeren Raum",
       "steps": [
         {
           "title": "Anfrage",
-          "text": "Fotos, Raum und ungefähre Quadratmeter per WhatsApp schicken – oder anrufen."
+          "text": "Fotos der Räume per WhatsApp schicken oder kurz anrufen."
         },
         {
-          "title": "Aufmaß",
-          "text": "Vor Ort werden Untergrund, Fläche und Belag abgestimmt."
+          "title": "Besichtigung",
+          "text": "Bei größeren Räumungen wird der Umfang vor Ort angeschaut."
         },
         {
           "title": "Angebot",
-          "text": "Sie erhalten ein klares Angebot für Material und Verlegung."
+          "text": "Sie erhalten ein klares Angebot mit Termin."
         },
         {
-          "title": "Verlegung",
-          "text": "Untergrund vorbereiten, verlegen, Leisten setzen – besenrein übergeben."
+          "title": "Räumung",
+          "text": "Ausräumen, abtransportieren, besenrein übergeben."
         }
       ]
     },
     "gallery": {
-      "headline": "Böden, die Räume verändern",
-      "text": "Für die Live-Version zeigen wir hier echte Arbeiten des Betriebs.",
+      "headline": "Raum für Neues",
+      "text": "Für die Live-Version zeigen wir hier echte Einsätze des Betriebs.",
       "items": [
         {
-          "title": "Eichenparkett",
-          "photoNeeded": "Wohnzimmer mit frisch verlegtem Eichenparkett"
+          "title": "Keller frei",
+          "photoNeeded": "Keller vor und nach der Entrümpelung"
         },
         {
-          "title": "Fischgrät",
-          "photoNeeded": "Parkett im Fischgrätverband im Altbau"
+          "title": "Wohnung geräumt",
+          "photoNeeded": "leere, besenreine Wohnung"
         },
         {
-          "title": "Vinylboden",
-          "photoNeeded": "Küche oder Flur mit Designboden"
+          "title": "Dachboden",
+          "photoNeeded": "geräumter Dachboden"
         },
         {
-          "title": "Treppe",
-          "photoNeeded": "mit Teppich oder Belag erneuerte Treppe"
+          "title": "Umzugstag",
+          "photoNeeded": "beladener Transporter mit Kartons"
         },
         {
-          "title": "Sockelleisten",
-          "photoNeeded": "saubere Leiste und Übergang an der Tür"
+          "title": "Hausbetreuung",
+          "photoNeeded": "gepflegter Hauseingang"
         }
       ]
     },
     "region": {
-      "headline": "Bodenleger für Weilheim und Umgebung",
-      "text": "Von Weilheim aus schnell in Wielenbach, Polling, Pähl, Raisting und Peißenberg.",
+      "headline": "Für Friedberg und das Augsburger Land",
+      "text": "Von Friedberg aus schnell in Mering, Kissing, Dasing, Wulfertshausen und Augsburg-Hochzoll.",
       "places": [
-        "Weilheim",
-        "Wielenbach",
-        "Polling",
-        "Peißenberg",
-        "Pähl",
-        "Raisting"
+        "Friedberg",
+        "Mering",
+        "Kissing",
+        "Dasing",
+        "Wulfertshausen",
+        "Augsburg-Hochzoll"
       ]
     },
     "faq": [
       {
-        "q": "Kann ich vorab Fotos schicken?",
-        "a": "Ja, Fotos vom Raum und vom alten Boden helfen für eine erste Einschätzung."
+        "q": "Was kostet eine Entrümpelung?",
+        "a": "Das hängt von Menge, Stockwerk und Zugänglichkeit ab. Mit Fotos gibt es eine erste Einschätzung, danach ein festes Angebot."
       },
       {
-        "q": "Bringen Sie das Material mit?",
-        "a": "Das wird beim Aufmaß abgestimmt – Sie können auch eigenes Material stellen."
+        "q": "Wird die Wohnung besenrein übergeben?",
+        "a": "Ja, nach der Räumung wird der Raum besenrein hinterlassen."
       },
       {
-        "q": "Wird der alte Boden entfernt?",
-        "a": "Das kann Teil des Auftrags sein und wird im Angebot aufgeführt."
+        "q": "Übernehmen Sie auch Haushaltsauflösungen im Erbfall?",
+        "a": "Ja, komplette Haushaltsauflösungen gehören zum Angebot – sprechen Sie uns an."
       },
       {
-        "q": "Wie lange dauert die Verlegung?",
-        "a": "Das hängt von Fläche und Belag ab; der Zeitplan steht nach dem Aufmaß."
+        "q": "Helfen Sie auch beim Umzug?",
+        "a": "Ja, Umzugsservice mit Tragen und Transport ist möglich."
       },
       {
-        "q": "Arbeiten Sie auch außerhalb von Weilheim?",
-        "a": "Ja, im Umkreis von Weilheim – fragen Sie einfach an."
+        "q": "Kann ich Fotos per WhatsApp schicken?",
+        "a": "Ja, das ist der schnellste Weg zu einer ersten Einschätzung."
       }
     ],
     "contact": {
-      "headline": "Ihr neuer Boden – unverbindlich angefragt",
-      "text": "Schreiben Sie kurz, welcher Raum, wie viele Quadratmeter und welcher Belag. Fotos helfen.",
+      "headline": "Räumung oder Umzug – kostenlos anfragen",
+      "text": "Kurz beschreiben, was ansteht: welche Räume, wie viel Inhalt, welches Stockwerk. Fotos helfen.",
       "topics": [
-        "Parkett",
-        "Designboden",
-        "Teppichboden",
-        "Untergrund",
+        "Entrümpelung",
+        "Haushaltsauflösung",
+        "Umzugsservice",
+        "Hausmeisterservice",
         "Sonstiges"
       ],
-      "responseNote": "Aufmaß vor Ort nach Absprache."
+      "responseNote": "Besichtigung nach Absprache."
     },
     "quote": {
-      "sizeLabel": "Wie groß ist die Fläche?",
+      "sizeLabel": "Was soll geräumt werden?",
       "sizes": [
-        "Ein Raum",
-        "Bis 50 m²",
-        "50–100 m²",
+        "Keller / Dachboden",
+        "Einzelne Möbel",
+        "Wohnung",
         "Ganzes Haus"
       ],
       "timings": [
@@ -382,14 +382,14 @@
         "Ich plane erst noch"
       ]
     },
-    "stickyCta": "Angebot anfragen",
+    "stickyCta": "Kostenlos anfragen",
     "look": {
-      "palette": 2,
-      "font": 6,
+      "palette": 0,
+      "font": 2,
       "hero": 0,
       "services": 1,
-      "radius": 1,
-      "logo": 0,
+      "radius": 3,
+      "logo": 4,
       "intro": 5
     }
   }

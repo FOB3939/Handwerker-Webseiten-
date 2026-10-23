@@ -93,6 +93,10 @@
     circuit: { m: "place", kicker: "Zum Ausprobieren", title: "Schalten Sie das Licht ein", sub: "Tippen Sie die Räume an, um sie an den Sicherungskasten anzuschließen.", hint: "Räume antippen", unit: "angeschlossen", done: "Alles an, sicher installiert vom Fachbetrieb." },
     kitchen: { m: "place", kicker: "Zum Ausprobieren", title: "Bauen Sie die Küche auf", sub: "Setzen Sie Ober- und Unterschränke an die Wand. Die Front wählen Sie selbst.", hint: "Schränke antippen oder überwischen", unit: "montiert", done: "Küche steht, Fronten in Flucht. So passgenau montieren wir auch bei Ihnen.",
       swatches: [["Ihr Farbton", "accent"], ["Weiß matt", "#efede8"], ["Eiche", "#b98a57"], ["Salbei", "#9fb19a"], ["Anthrazit", "#43464b"]] },
+    railing: { m: "place", kicker: "Zum Ausprobieren", title: "Montieren Sie das Geländer", sub: "Setzen Sie die Stäbe zwischen Handlauf und Fußleiste. Die Farbe wählen Sie selbst.", hint: "Stäbe antippen oder überwischen", unit: "montiert", done: "Geländer steht, Stab für Stab im Lot. So sauber schweißen wir auch für Sie.",
+      swatches: [["Anthrazit", "#3b3f45"], ["Verzinkt", "#a7adb3"], ["Ihr Farbton", "accent"], ["Weiß", "#e9e9e6"]] },
+    blinds: { m: "place", kicker: "Zum Ausprobieren", title: "Lassen Sie den Rollladen herunter", sub: "Tippen Sie die Lamellen an, bis das Fenster beschattet ist.", hint: "Lamellen antippen oder überwischen", unit: "geschlossen", done: "Rollladen unten, Hitze draußen. Wir montieren auch Ihren.",
+      swatches: [["Grau", "#8d939a"], ["Weiß", "#e6e6e2"], ["Anthrazit", "#3e4248"], ["Ihr Farbton", "accent"]] },
     water: { m: "place", kicker: "Zum Ausprobieren", title: "Bringen Sie das Wasser ins Haus", sub: "Tippen Sie Küche, Bad und Heizung an, um sie an die Hauptleitung anzuschließen.", hint: "Räume antippen", unit: "angeschlossen", done: "Alles dicht, alles läuft. Installiert vom Fachbetrieb." }
   };
 
@@ -424,6 +428,28 @@
               roofEl.appendChild(sl);
             }
           }
+        } else if (kind === "railing") {
+          // Terrasse mit Himmel; Handlauf und Fußleiste fest, die Stäbe werden gesetzt
+          stage.style.background = "linear-gradient(#bcd6e8,#e7f0f4 70%,#c9c2b5 70%)";
+          var rc = c;
+          layer.insertAdjacentHTML("beforeend",
+            '<div data-rail style="position:absolute;left:5%;right:5%;top:16%;height:5%;border-radius:3px;background:' + rc + ';box-shadow:0 3px 5px rgba(0,0,0,.25)"></div>' +
+            '<div data-rail style="position:absolute;left:5%;right:5%;top:66%;height:3%;background:' + rc + '"></div>' +
+            '<div data-rail style="position:absolute;left:5%;top:16%;width:3%;height:58%;background:' + rc + '"></div>' +
+            '<div data-rail style="position:absolute;right:5%;top:16%;width:3%;height:58%;background:' + rc + '"></div>');
+          var bars = 14;
+          for (var bi = 0; bi < bars; bi++)
+            slot(9 + bi * (82 / bars), 21, 82 / bars, 45, rc, "Stab " + (bi + 1), "left:38%;right:38%;top:0;bottom:0;border-radius:2px;background-image:linear-gradient(90deg,rgba(255,255,255,.35),rgba(0,0,0,.25));box-shadow:1px 0 2px rgba(0,0,0,.3)");
+        } else if (kind === "blinds") {
+          // Fenster mit Laibung; Lamellen fallen von oben nach unten
+          stage.style.background = "#d9d3c8";
+          layer.insertAdjacentHTML("beforeend",
+            '<div style="position:absolute;left:18%;right:18%;top:8%;bottom:8%;background:linear-gradient(160deg,#9cc8ea,#e3f1fb 60%,#bcd9ee);border:8px solid #f4f2ee;box-shadow:inset 0 0 0 2px rgba(0,0,0,.08),0 4px 12px rgba(0,0,0,.18)"></div>' +
+            '<div style="position:absolute;left:49.5%;top:8%;bottom:8%;width:1%;background:#f4f2ee"></div>' +
+            '<div style="position:absolute;left:16%;right:16%;top:4%;height:5%;background:#cfc9be;border-radius:3px"></div>');
+          var nl = 12;
+          for (var li = 0; li < nl; li++)
+            slot(18, 9 + li * (82 / nl), 64, 82 / nl, c, "Lamelle " + (li + 1), "inset:0;border-radius:1px;background-image:linear-gradient(180deg,rgba(255,255,255,.28),rgba(0,0,0,.14));box-shadow:inset 0 -1px 0 rgba(0,0,0,.25)");
         } else if (kind === "kitchen") {
           // Wand mit Fliesenspiegel; Oberschränke oben, Unterschränke unten, Arbeitsplatte erscheint am Ende
           stage.style.background = "linear-gradient(#ece8e1 0 34%,#d9d4cb 34% 37%,#e4e0d8 37% 56%,#b9b2a6 56%)";
@@ -475,6 +501,7 @@
       }
       function auto() {
         var rest = slots.filter(function (s) { return !s.classList.contains("on"); });
+        if (kind === "blinds") rest.sort(function (a, b) { return parseFloat(a.style.top) - parseFloat(b.style.top); });
         if (kind === "bricks" || kind === "roof") rest.sort(function (a, b) { return parseFloat(b.style.top) - parseFloat(a.style.top); });
         if (RM) { rest.forEach(function (s) { put(s); s.classList.add("on"); }); return; }
         var gap = Math.max(18, 1400 / Math.max(1, rest.length));
@@ -485,7 +512,8 @@
         auto: auto, reset: build,
         recolor: function () {
           var c = color;
-          slots.forEach(function (s) { var i = s.querySelector("i"); if (i) i.style.backgroundColor = shade(c, (R() - 0.5) * (kind === "planks" || kind === "roof" ? 0.18 : kind === "kitchen" ? 0 : 0.08)); });
+          if (kind === "railing") layer.querySelectorAll("[data-rail]").forEach(function (r) { r.style.background = c; });
+          slots.forEach(function (s) { var i = s.querySelector("i"); if (i) i.style.backgroundColor = shade(c, (R() - 0.5) * (kind === "planks" || kind === "roof" ? 0.18 : kind === "kitchen" || kind === "railing" || kind === "blinds" ? 0 : 0.08)); });
         }
       };
     }

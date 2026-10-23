@@ -2,190 +2,58 @@
   "info": "Noch ungeprüfte Handwerker-Kandidaten aus früheren Läufen. Jeder Lauf prüft zuerst diese (oben = vielversprechend), entfernt geprüfte Einträge (angenommen → leads, verworfen → rejected in lead-history.json) und ergänzt neue Funde, für die das Suchbudget nicht reichte.",
   "candidates": [
     {
-      "name": "Pllana Handwerk und Dienstleistung",
-      "trade": "Hausmeisterservice & Montage",
-      "city": "Poing",
-      "hint": "RESERVE-geprüft 2026-10-22: Website-Prüfung negativ, kein Google-/Freemail-Beleg; Tel. 0176 45618543"
+      "name": "Riepl Florian Gartenservice",
+      "trade": "Gartenpflege & Zaunbau",
+      "city": "Holzkirchen",
+      "hint": "RESERVE-geprüft 2026-10-23: Website-Prüfung negativ, kein Google-/Freemail-Beleg; Tel. 08024 478551"
     },
     {
-      "name": "Hausmeister Service Handwerker Innenausbau & Abbrucharbeiten – Dan Suciu",
-      "trade": "Hausmeisterservice & Innenausbau",
-      "city": "Taufkirchen",
-      "hint": "RESERVE-geprüft 2026-10-22: Website-Prüfung negativ, kein Google-/Freemail-Beleg; Tel. 0175 8172411"
+      "name": "Gartenpflege Baur Garten- und Landschaftsbau",
+      "trade": "Gartenpflege",
+      "city": "Wörthsee",
+      "hint": "RESERVE-geprüft 2026-10-23: Website-Prüfung negativ, kein Google-/Freemail-Beleg; Tel. 08153 987460"
+    },
+    {
+      "name": "Niki Innenausbau",
+      "trade": "Innenausbau & Parkett",
+      "city": "Peißenberg",
+      "hint": "RESERVE-geprüft 2026-10-23: Website-Prüfung negativ, kein Google-/Freemail-Beleg; Tel. 01520 4031625"
+    },
+    {
+      "name": "Jürgen Ostermeier Parkettlegermeister",
+      "trade": "Parkettlegermeister",
+      "city": "Markt Schwaben",
+      "hint": "RESERVE-geprüft 2026-10-23: Website-Prüfung negativ, kein Google-/Freemail-Beleg; Tel. 08121 47120"
     },
     {
       "name": "Zech Schreinerei",
       "trade": "Schreinerei",
       "city": "Bergkirchen",
-      "hint": "RESERVE-geprüft 2026-10-22: Website-Prüfung negativ, kein Google-/Freemail-Beleg; Tel. 08131 667981"
+      "hint": "RESERVE-geprüft (Vorlage reserve22/firma-105); Festnetz 08131 667981"
     },
     {
       "name": "Zimmerei Franz X. Stierstorfer",
       "trade": "Zimmerei",
       "city": "Gröbenzell",
-      "hint": "RESERVE-geprüft 2026-10-22: Website-Prüfung negativ, kein Google-/Freemail-Beleg; Tel. 08142 540393"
+      "hint": "RESERVE-geprüft; 08142 540393"
     },
     {
       "name": "Rainer Schneller Spenglerei",
       "trade": "Spenglerei",
       "city": "Puchheim",
-      "hint": "RESERVE-geprüft 2026-10-22: Website-Prüfung negativ, kein Google-/Freemail-Beleg; Tel. 089 89009270"
+      "hint": "RESERVE-geprüft; 089 89009270"
     },
     {
       "name": "Wilhelm Gaugg Küchenmontage",
       "trade": "Küchenmontage",
       "city": "Freising",
-      "hint": "RESERVE-geprüft: Website negativ, kein Google-/Freemail-Beleg; Tel. 08161 66409"
+      "hint": "RESERVE-geprüft; 08161 66409"
     },
     {
       "name": "Stevo Kuzmanovic",
       "trade": "Handwerk",
       "city": "Glonn",
-      "hint": "Website negativ, Festnetz 08093 300599; RESERVE"
-    },
-    {
-      "name": "Tk Elektrotechnik",
-      "trade": "Elektro",
-      "city": "Murnau",
-      "hint": "MyHammer; ungeprüft"
-    },
-    {
-      "name": "LechRein GbR (Schleich)",
-      "trade": "Entrümpelung/Reinigung",
-      "city": "Kaufering",
-      "hint": "gegründet 2026; ungeprüft"
-    },
-    {
-      "name": "Ivan Karacic Hausmeisterservice",
-      "trade": "Hausmeister",
-      "city": "Poing",
-      "hint": "01573 6262964; Name+Domain negativ, Telefon/Impressum offen"
-    },
-    {
-      "name": "Marco Haugk Malermeister",
-      "trade": "Maler",
-      "city": "Grafing",
-      "hint": "ungeprüft"
-    },
-    {
-      "name": "Spenglerei T. Neundorf",
-      "trade": "Spengler",
-      "city": "Grafing",
-      "hint": "Festnetz; ungeprüft"
-    },
-    {
-      "name": "Wiesbauer & Schnell GbR",
-      "trade": "Parkett",
-      "city": "Markt Schwaben",
-      "hint": "Festnetz; ungeprüft"
-    },
-    {
-      "name": "Jürgen Ostermeier Parkettlegermeister",
-      "trade": "Parkett",
-      "city": "Markt Schwaben",
-      "hint": "Festnetz; ungeprüft"
-    },
-    {
-      "name": "Martin Matuszewski Heizung- und Sanitärkundendienst",
-      "trade": "Sanitär",
-      "city": "Zorneding",
-      "hint": "4 Bewertungen; ungeprüft"
-    },
-    {
-      "name": "Wolfgang Wiesinger Sanitär",
-      "trade": "Sanitär",
-      "city": "Kirchseeon",
-      "hint": "ungeprüft"
-    },
-    {
-      "name": "Hans Wörndle Malergeschäft",
-      "trade": "Maler",
-      "city": "Taufkirchen (Vils)",
-      "hint": "Festnetz 08084 432; ungeprüft"
-    },
-    {
-      "name": "Klaus Westphal Möbelschreinerei",
-      "trade": "Schreiner",
-      "city": "Dorfen",
-      "hint": "ungeprüft"
-    },
-    {
-      "name": "Ludwig Hundschell Schreiner",
-      "trade": "Schreiner",
-      "city": "Dorfen",
-      "hint": "ungeprüft"
-    },
-    {
-      "name": "Georg Hagl Schreinerei",
-      "trade": "Schreiner",
-      "city": "Dorfen",
-      "hint": "ungeprüft"
-    },
-    {
-      "name": "Josef Peller Metallbau",
-      "trade": "Metallbau",
-      "city": "Isen",
-      "hint": "ungeprüft"
-    },
-    {
-      "name": "Schmiede & Schlosserei Forstmaier",
-      "trade": "Metallbau",
-      "city": "Dorfen",
-      "hint": "ungeprüft"
-    },
-    {
-      "name": "Anton Maier Holzausbau",
-      "trade": "Zimmerer",
-      "city": "Isen",
-      "hint": "ungeprüft"
-    },
-    {
-      "name": "Thomas Gerg Zimmerei",
-      "trade": "Zimmerer",
-      "city": "Lenggries",
-      "hint": "08042 978554; ungeprüft"
-    },
-    {
-      "name": "Klaus Hanus Zimmerei",
-      "trade": "Zimmerer",
-      "city": "Lenggries",
-      "hint": "08042 5039990; 11880-Bewertungen; ungeprüft"
-    },
-    {
-      "name": "Andreas Frenzel Dachdeckermeister",
-      "trade": "Dachdecker",
-      "city": "Geretsried",
-      "hint": "08171 410061; ungeprüft"
-    },
-    {
-      "name": "Dachdeckerei Markus Greiner",
-      "trade": "Dachdecker",
-      "city": "Wolfratshausen",
-      "hint": "08171 480075; ungeprüft"
-    },
-    {
-      "name": "Peter Wagner Metallbau",
-      "trade": "Metallbau",
-      "city": "Geretsried",
-      "hint": "08171 380833; ungeprüft"
-    },
-    {
-      "name": "Hermann Bernkopf Schlosserei",
-      "trade": "Metallbau",
-      "city": "Geretsried",
-      "hint": "08171 911274; ungeprüft"
-    },
-    {
-      "name": "Bernhard Keller Metallbau",
-      "trade": "Metallbau",
-      "city": "Bad Tölz",
-      "hint": "08041 806812; ungeprüft"
-    },
-    {
-      "name": "Florian Riepl Gartenservice",
-      "trade": "Garten",
-      "city": "Holzkirchen",
-      "hint": "08024 478551; ungeprüft"
+      "hint": "RESERVE; 08093 300599"
     },
     {
       "name": "Gartenbau Messerer",
@@ -200,10 +68,10 @@
       "hint": "0176 68317047; Jimdo-Zugehörigkeit klären"
     },
     {
-      "name": "mlt71 Service Tomic",
-      "trade": "Montage/Reinigung",
-      "city": "Taufkirchen",
-      "hint": "01575 7295599; ungeprüft"
+      "name": "Josef Molin Elektroinstallation",
+      "trade": "Elektro",
+      "city": "Vaterstetten",
+      "hint": "08106 4190; ungeprüft"
     },
     {
       "name": "Möbelmontage BAM",
@@ -212,16 +80,118 @@
       "hint": "0170 2034201; Domain/Telefon offen"
     },
     {
-      "name": "Elektrotechnik Patron",
-      "trade": "Elektro",
-      "city": "Vaterstetten",
-      "hint": "08106 2100851; ungeprüft"
+      "name": "Volkmar Mühlberger Fliesenlegermeister",
+      "trade": "Fliesen",
+      "city": "Landsberg",
+      "hint": "08191 22594; ungeprüft"
     },
     {
-      "name": "Josef Molin Elektroinstallation",
+      "name": "M. Kuisel Fliesenlegermeister",
+      "trade": "Fliesen",
+      "city": "Landsberg-Erpfting",
+      "hint": "ungeprüft"
+    },
+    {
+      "name": "Andreas Neß Fliesenlegermeister",
+      "trade": "Fliesen",
+      "city": "Windach",
+      "hint": "08193 939744; ungeprüft"
+    },
+    {
+      "name": "Dach-Art",
+      "trade": "Dachdecker",
+      "city": "Schwabmünchen",
+      "hint": "Auenstr. 27; ungeprüft"
+    },
+    {
+      "name": "mh-bautechnik Michael Henter",
+      "trade": "Bau",
+      "city": "Schwabmünchen",
+      "hint": "ungeprüft"
+    },
+    {
+      "name": "Hugo Räumt",
+      "trade": "Entrümpelung",
+      "city": "Landsberg",
+      "hint": "ungeprüft"
+    },
+    {
+      "name": "J&L Bauprojekte",
+      "trade": "Entrümpelung",
+      "city": "Landsberg",
+      "hint": "ungeprüft"
+    },
+    {
+      "name": "Braumüller Wohnungsauflösung",
+      "trade": "Entrümpelung",
+      "city": "Friedberg",
+      "hint": "ungeprüft"
+    },
+    {
+      "name": "Ge-Sa-Clean",
+      "trade": "Entrümpelung",
+      "city": "Friedberg-Wulfertshausen",
+      "hint": "ungeprüft"
+    },
+    {
+      "name": "Berger Elektrik",
       "trade": "Elektro",
-      "city": "Vaterstetten",
-      "hint": "08106 4190; ungeprüft"
+      "city": "Kaufering",
+      "hint": "ungeprüft"
+    },
+    {
+      "name": "Elektro Hilscher",
+      "trade": "Elektro",
+      "city": "Kaufering",
+      "hint": "ungeprüft"
+    },
+    {
+      "name": "Lars Urbanski Fliesenleger",
+      "trade": "Fliesen",
+      "city": "Berg",
+      "hint": "0172 7789655; 11880 alt"
+    },
+    {
+      "name": "B. Mörtl Gartenpflege",
+      "trade": "Garten",
+      "city": "Seefeld",
+      "hint": "ungeprüft"
+    },
+    {
+      "name": "Josef Schichl Schlosserei",
+      "trade": "Metallbau",
+      "city": "Peißenberg",
+      "hint": "ungeprüft"
+    },
+    {
+      "name": "Schlosserei Zwerger GbR",
+      "trade": "Metallbau",
+      "city": "Murnau",
+      "hint": "ungeprüft"
+    },
+    {
+      "name": "Detlef Gebäudereinigung Albert",
+      "trade": "Reinigung",
+      "city": "Unterschleißheim",
+      "hint": "ungeprüft"
+    },
+    {
+      "name": "Bodenliebe",
+      "trade": "Boden",
+      "city": "Kirchheim",
+      "hint": "11880-Bodenlegerliste; ungeprüft"
+    },
+    {
+      "name": "J. Postruzin Estriche",
+      "trade": "Boden",
+      "city": "Kirchheim",
+      "hint": "ungeprüft"
+    },
+    {
+      "name": "Renovierungen-Morgenstern",
+      "trade": "Renovierung",
+      "city": "Kirchheim",
+      "hint": "ungeprüft"
     }
   ]
 }

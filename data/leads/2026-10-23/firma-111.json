@@ -1,115 +1,111 @@
 {
   "id": "2026-10-23-111",
-  "slug": "ase-serviceteam-landsberg",
+  "slug": "mafero-sonnenschutztechnik-garching",
   "date": "2026-10-23",
   "company": {
-    "name": "ASE Serviceteam A. Haxhiu",
-    "owner": "A. Haxhiu",
-    "trade": "Gartenpflege, Garten- & Landschaftsbau, Entrümpelung",
-    "city": "Landsberg am Lech",
-    "address": "Am Ziegelanger, 86899 Landsberg am Lech",
-    "phone": "0176 82403313",
-    "email": "ase-servicetram@hotmail.com",
+    "name": "Mafero Sonnenschutztechnik",
+    "owner": null,
+    "trade": "Rollladen & Sonnenschutz",
+    "city": "Garching b. München",
+    "address": "Schleißheimer Str. 26, 85748 Garching b. München",
+    "phone": "089 32625897",
+    "email": null,
     "serviceArea": [
-      "Landsberg am Lech",
-      "Kaufering",
-      "Schwifting",
-      "Penzing",
-      "Igling",
-      "Pürgen"
+      "Garching",
+      "Hochbrück",
+      "Unterschleißheim",
+      "Oberschleißheim",
+      "Ismaning",
+      "Eching"
     ]
   },
   "listings": {
     "google": {
-      "url": "https://www.google.com/maps/search/?api=1&query=ASE%20Serviceteam%20A.%20Haxhiu%20Am%20Ziegelanger%20Landsberg%20am%20Lech",
+      "url": "https://www.google.com/maps/search/?api=1&query=Mafero%20Sonnenschutztechnik%20Schlei%C3%9Fheimer%20Str.%2026%20Garching",
       "rating": null,
       "reviews": null,
-      "evidence": "KEIN Google-Beleg gefunden – Spiegelsuche (rgv-bayern, firmania, trustlocal, yably, branchen-info, stadtbranchenbuch) ohne Treffer zu „ASE Serviceteam“ Landsberg. Annahme stützt sich auf die öffentlich gelistete Freemail-Adresse (Hotmail) im 11880-Eintrag. In Maps prüfen, ob ein Eintrag existiert und ob eine Website hinterlegt ist."
+      "evidence": "NICHT BELEGT – kein Google-Spiegel (trustlocal, rgv-bayern, firmania) gefunden. Google-Eintrag in Maps prüfen."
     },
     "myhammer": {
-      "url": "https://www.11880.com/suche/garten-und-landschaftspflege/landsberg",
+      "url": "https://www.gelbeseiten.de/gsbiz/5665e2bd-3216-4dac-82f3-fc13fab46c97",
       "rating": null,
       "reviews": null,
-      "evidence": "Kein MyHammer gefunden – 11880-Eintrag „ASE Serviceteam A.Haxhiu“, Am Ziegelanger, 86899 Landsberg, Tel. (0176) 82403313, E-Mail ase-servicetram@hotmail.com, Kategorien Garten- und Landschaftspflege, Garten- und Landschaftsbau & Entrümpelung; erscheint in mehreren 11880-Ortslisten (Landsberg, Schwifting, Kaufering, Entrümpelung Landsberg)."
+      "evidence": "Kein MyHammer gefunden – Gelbe Seiten und Das Örtliche führen „Mafero Sonnenschutztechnik Handel, Markisen, Rolläden, Fenster“, Schleißheimer Str. 26, 85748 Garching, Tel. 089 32625897, Fax 089 32625899 (Gelbe-Seiten-Eintrag ca. 571 Tage alt)."
     }
   },
   "websiteStatus": "keine eigene Website gefunden",
   "websiteChecks": [
-    "(1) „ASE Serviceteam“ Haxhiu Landsberg mit blocked_domains (11880, Gelbe Seiten, Das Örtliche, Telefonbuch, Cylex, meinestadt, Creditreform, Facebook, Instagram, golocal, MyHammer, Northdata, Firmenwissen, WKDB, Yelp, wlw) – nur 11880-Kategorieseiten, keine eigene Domain",
-    "(2) Telefon-/E-Mail-Suche „0176 82403313“/„017682403313“/„ase-servicetram“ mit blocked_domains – keine Treffer (nur fremde Firmen namens ASE in USA/CH/Mannheim)",
-    "(3) Domain-Check allowed_domains ase-serviceteam.de, aseserviceteam.de, ase-service.de, haxhiu.de, ase-serviceteam-landsberg.de, haxhiu-service.de, ase-landsberg.de, serviceteam-haxhiu.de – keine Treffer",
-    "(4) Google-Spiegel (rgv-bayern, firmania, trustlocal, yably, branchen-info, stadtbranchenbuch) – kein Eintrag, kein Website-Feld; „ASE Hausmeisterservice“ (München) und „ASE GmbH“ (Schmiechen, Solar) sind andere Firmen",
-    "(5) E-Mail im Verzeichnis auf Freemail (hotmail.com) – keine Firmendomain",
-    "Website-Risiko: mittel – alle Prüfungen negativ, Freemail belegt, aber kein Google-Eintrag nachgewiesen"
+    "(1) „Mafero Sonnenschutztechnik Garching“ mit blocked_domains (11880, Gelbe Seiten, Das Örtliche, Telefonbuch, Cylex, meinestadt, Creditreform, Facebook, Instagram, golocal, MyHammer, Northdata, Firmenwissen, WKDB, Yelp, trustlocal, wlw) – nur Verzeichnisse (goyellow) und Fremdanbieter (Morina, rollladenbau-markisen.de u. a.); keine eigene Domain",
+    "(2) Domain-Check allowed_domains mafero.de, mafero.com, mafero-sonnenschutz.de, mafero-sonnenschutztechnik.de, mafero-garching.de, mafero.eu, mafero-muenchen.de, maferosonnenschutz.de – nur mafero.com (fremdes, spanischsprachiges GateControl-Produkt, nicht dieser Betrieb)",
+    "(3) Telefonsuche „32625897“/„32 62 58 97“ mit blocked_domains – keine Treffer",
+    "(4) Impressum-/Inhaber-Suche „Mafero Sonnenschutztechnik Inhaber Impressum Garching“ – kein Impressum, Inhaber unbekannt",
+    "(5) Verzeichnisse (Das Örtliche, Gelbe Seiten): kein Website-Feld im Snippet, keine E-Mail",
+    "Website-Risiko: mittel – alle Prüfungen negativ, aber RESERVE (weder Google noch Freemail belegt), Rechtsform/Inhaber unbekannt, Schwerpunkt evtl. Handel"
   ],
   "facts": {
     "services": [
-      "Garten- und Landschaftspflege",
-      "Garten- und Landschaftsbau",
-      "Entrümpelung"
+      "Markisen",
+      "Rollläden",
+      "Fenster",
+      "Sonnenschutztechnik"
     ],
     "experience": null,
     "praisedFor": []
   },
   "strategy": {
-    "audience": "Hausbesitzer, Vermieter, Erbengemeinschaften und Hausverwaltungen in Landsberg, Kaufering und den Lechrain-Dörfern, die Garten in Schuss halten oder Keller, Dachboden oder Wohnung räumen lassen wollen",
-    "mainService": "Gartenpflege und Entrümpelung aus einer Hand",
-    "trustSignal": "Inhabergeführter Betrieb aus Landsberg, direkt per Handy und WhatsApp erreichbar",
-    "conversionGoal": "Kostenlose Einschätzung per WhatsApp mit Fotos von Garten oder Räumen anfragen",
-    "visualConcept": "Frisches Grün und aufgeräumte Flächen: gemähter Rasen, geschnittene Hecke, leerer besenreiner Keller – Vorher/Nachher als roter Faden"
+    "audience": "Hauseigentümer und Wohnungsbesitzer in Garching, Hochbrück, Unterschleißheim und Ismaning, die Rollläden, Markisen oder Fenster erneuern wollen",
+    "mainService": "Rollläden und Markisen – Beratung, Lieferung und Einbau",
+    "trustSignal": "Fachbetrieb für Sonnenschutztechnik direkt in Garching",
+    "conversionGoal": "Unverbindliche Anfrage für Rollladen oder Markise per Telefon oder Formular",
+    "visualConcept": "Helle Terrassen und Fassaden mit Markisen und Rollläden, klares Licht-und-Schatten-Spiel"
   },
   "sales": {
-    "score": 4,
+    "score": 3,
     "whyGoodLead": [
-      "Keine eigene Website gefunden – nur 11880-Einträge",
-      "Mobilnummer und Freemail öffentlich – direkter Erstkontakt per WhatsApp möglich",
-      "Zwei Standbeine (Garten + Entrümpelung) lassen sich auf einer Website gut als Vorher/Nachher zeigen",
-      "Kein Google-Profil gefunden – Website plus Profil bringt Sichtbarkeit in Landsberg"
+      "Keine eigene Website gefunden – nur Verzeichniseinträge",
+      "Fenster/Rollladen ist ein selten vertretenes Gewerk in unseren Leads",
+      "Sonnenschutz wird online gesucht und verglichen – Website bringt Anfragen",
+      "Standort Garching mit vielen Wohnanlagen und Neubauten"
     ],
-    "pitch": "Hallo Herr Haxhiu, hier ist … – ich baue Websites für Handwerks- und Servicebetriebe im Landkreis Landsberg. Ich habe Ihren Eintrag „ASE Serviceteam“ gefunden, aber keine eigene Website. Ich habe unverbindlich einen Entwurf vorbereitet, auf dem Kunden Ihre Gartenpflege und Entrümpelungen sehen und direkt per WhatsApp Fotos schicken können – darf ich Ihnen den Link schicken?"
+    "pitch": "Grüß Gott, hier ist … – ich baue Websites für Handwerksbetriebe im Münchner Norden. Ich habe Ihren Eintrag „Mafero Sonnenschutztechnik“ in Garching gefunden, aber keine eigene Website. Ich habe unverbindlich einen Entwurf vorbereitet, auf dem Kunden Ihre Rollläden, Markisen und Fenster sehen und direkt anfragen können – darf ich Ihnen den Link schicken?"
   },
   "manualChecks": [
-    "Website-Risiko: mittel – vor Versand in Google Maps prüfen, dass keine Website hinterlegt ist (Grund: Google-Eintrag nicht nachgewiesen, Annahme nur über Freemail)",
-    "E-Mail im Verzeichnis lautet „ase-servicetram@hotmail.com“ – möglicher Tippfehler („serviceteam“?); vor Mailversand per WhatsApp/Anruf bestätigen",
-    "Hausnummer am Ziegelanger nicht belegt – nur Straße verwenden",
-    "Vorname des Inhabers nur als „A.“ belegt – Anrede „Herr/Frau Haxhiu“ beim Erstkontakt klären",
-    "Leistungsumfang (z. B. Pflaster, Baumfällung, Haushaltsauflösung) beim Betrieb bestätigen",
+    "RESERVE – weder Google-Eintrag noch Freemail-Adresse belegt: NUR versenden, wenn Google Maps einen Eintrag OHNE Website zeigt.",
+    "Betrieb aktiv? Verzeichniseinträge 1–2 Jahre alt, sonst keine Spuren – vor Kontakt bestätigen",
+    "Rechtsform und Inhaber unbekannt – bei GmbH verwerfen; Anrede neutral halten",
+    "Eintrag lautet „Handel, Markisen, Rolläden, Fenster“ – klären, ob auch Montage angeboten wird",
+    "Nur Festnetz (089 32625897) belegt, keine Mobilnummer",
     "Logo und Projektfotos: nicht gefunden – beim Betrieb anfragen"
   ],
   "sources": [
     {
-      "label": "11880 – Garten- und Landschaftspflege Landsberg (Liste mit ASE Serviceteam)",
-      "url": "https://www.11880.com/suche/garten-und-landschaftspflege/landsberg"
+      "label": "Gelbe Seiten – Mafero Sonnenschutztechnik Garching",
+      "url": "https://www.gelbeseiten.de/gsbiz/5665e2bd-3216-4dac-82f3-fc13fab46c97"
     },
     {
-      "label": "11880 – Garten- und Landschaftsbau Landsberg",
-      "url": "https://www.11880.com/suche/garten-und-landschaftsbau/landsberg"
+      "label": "Das Örtliche – Mafero Sonnenschutztechnik, Schleißheimer Str.",
+      "url": "https://www.dasoertliche.de/Themen/Mafero-Sonnenschutztechnik-Handel-Markisen-Roll%C3%A4den-Fenster-Garching-b-M%C3%BCnchen-Schlei%C3%9Fheimer-Str"
     },
     {
-      "label": "11880 – Gartenbauer Schwifting (Liste mit ASE Serviceteam)",
-      "url": "https://www.11880.com/suche/gartenbau/schwifting"
-    },
-    {
-      "label": "11880 – Garten- und Landschaftsbau Kaufering",
-      "url": "https://www.11880.com/suche/garten-und-landschaftsbau/kaufering"
+      "label": "GoYellow – Mafero Sonnenschutztechnik",
+      "url": "https://www.goyellow.de/home/jalousien-rolladen-markisen-mafero-sonnenschutztechnik-garching-b-muenchen--dptng.html"
     }
   ],
   "site": {
-    "theme": "garten",
+    "theme": "objekt",
     "category": "handwerk",
     "heroOffer": [
-      "Gartenpflege",
-      "Heckenschnitt",
-      "Rasenpflege",
-      "Entrümpelung",
-      "Grünschnitt"
+      "Rollläden",
+      "Markisen",
+      "Fenster",
+      "Sonnenschutz"
     ],
-    "scene": "garden",
-    "logoIcon": "leaf",
-    "logoMark": "ASE",
-    "brandName": "ASE Serviceteam",
-    "seoTitle": "Gartenpflege & Entrümpelung in Landsberg – ASE Serviceteam",
-    "seoDescription": "Gartenpflege, Garten- und Landschaftsbau und Entrümpelung in Landsberg am Lech und Umgebung. Jetzt kostenlos anfragen – auch per WhatsApp.",
+    "scene": "facade",
+    "logoIcon": "house",
+    "logoMark": "MS",
+    "brandName": "Mafero Sonnenschutztechnik",
+    "seoTitle": "Rollläden & Markisen in Garching – Mafero Sonnenschutztechnik",
+    "seoDescription": "Rollläden, Markisen und Fenster in Garching, Unterschleißheim und Ismaning. Jetzt unverbindlich beraten lassen.",
     "nav": [
       {
         "label": "Leistungen",
@@ -137,266 +133,265 @@
       }
     ],
     "hero": {
-      "eyebrow": "Garten & Entrümpelung · Landsberg",
-      "headline": "Gartenpflege und Entrümpelung in Landsberg",
-      "sub": "Wir pflegen Ihren Garten und räumen Keller, Dachboden und Wohnung.",
-      "ctaPrimary": "Kostenlos anfragen",
+      "eyebrow": "Sonnenschutz · Garching",
+      "headline": "Rollläden und Markisen in Garching",
+      "sub": "Sonnenschutz und Fenster für Haus, Balkon und Terrasse im Münchner Norden.",
+      "ctaPrimary": "Unverbindlich anfragen",
       "ctaSecondary": "Anrufen",
       "bullets": [
-        "Betrieb aus Landsberg am Lech",
-        "Garten und Räumung aus einer Hand",
-        "Direkt per Handy & WhatsApp"
+        "Fachbetrieb in Garching",
+        "Rollläden, Markisen, Fenster",
+        "Persönliche Beratung"
       ],
-      "imageLabel": "frisch gemähter Rasen mit sauber geschnittener Hecke"
+      "imageLabel": "ausgefahrene Markise über einer sonnigen Terrasse"
     },
     "badges": [
       {
-        "title": "Gartenpflege",
-        "sub": "Rasen, Hecken, Beete"
+        "title": "Rollläden",
+        "sub": "Schutz & Ruhe"
       },
       {
-        "title": "Gartenbau",
-        "sub": "Umgestalten & Anlegen"
+        "title": "Markisen",
+        "sub": "Schatten im Sommer"
       },
       {
-        "title": "Entrümpelung",
-        "sub": "Keller bis Wohnung"
+        "title": "Fenster",
+        "sub": "aus einer Hand"
       },
       {
-        "title": "Landsberg",
-        "sub": "Am Ziegelanger"
+        "title": "Garching",
+        "sub": "Schleißheimer Str."
       }
     ],
     "trust": [
       {
         "value": "Vor Ort",
-        "label": "Betrieb in Landsberg"
+        "label": "Betrieb in Garching"
       },
       {
-        "value": "2-in-1",
-        "label": "Garten & Räumung"
+        "value": "3",
+        "label": "Produktbereiche"
       },
       {
-        "value": "Lechrain",
-        "label": "kurze Anfahrt"
+        "value": "Haus",
+        "label": "Fenster bis Terrasse"
       },
       {
-        "value": "Mobil",
-        "label": "per WhatsApp erreichbar"
+        "value": "Direkt",
+        "label": "persönlicher Kontakt"
       }
     ],
     "servicesIntro": {
-      "headline": "Grün gepflegt, Räume frei",
-      "text": "Ein Ansprechpartner für den Garten draußen und die Räumung drinnen – das spart Abstimmung und Termine."
+      "headline": "Sonnenschutz, der zum Haus passt",
+      "text": "Ob Rollladen fürs Schlafzimmer oder Markise für die Terrasse: Mafero Sonnenschutztechnik berät zu Lösungen für Licht, Wärme und Sichtschutz."
     },
     "services": [
       {
-        "title": "Gartenpflege",
-        "text": "Regelmäßige oder einmalige Pflege, damit der Garten durch die Saison ordentlich bleibt.",
+        "title": "Rollläden",
+        "text": "Rollläden für Wärme-, Sicht- und Einbruchschutz – für Neubau und Bestand.",
         "items": [
-          "Rasen mähen",
-          "Beete jäten",
-          "Laub entfernen"
+          "Vorbaurollladen",
+          "Aufsatzrollladen",
+          "Austausch"
         ]
       },
       {
-        "title": "Heckenschnitt",
-        "text": "Hecken und Sträucher in Form bringen – sauber geschnitten, Schnittgut mitgenommen.",
+        "title": "Markisen",
+        "text": "Schatten für Terrasse und Balkon – passend zu Fassade und Fläche.",
         "items": [
-          "Formschnitt",
-          "Rückschnitt",
-          "Sträucher"
+          "Terrassenmarkise",
+          "Balkonmarkise",
+          "Tuchwechsel"
         ]
       },
       {
-        "title": "Garten- und Landschaftsbau",
-        "text": "Gartenbereiche neu anlegen oder umgestalten – abgestimmt auf Grundstück und Wünsche.",
+        "title": "Fenster",
+        "text": "Neue Fenster in Kombination mit passendem Sonnenschutz.",
         "items": [
-          "Umgestaltung",
-          "Neuanlage",
-          "Beete anlegen"
+          "Fenstertausch",
+          "Beratung",
+          "Abstimmung"
         ]
       },
       {
-        "title": "Grünschnitt & Abfuhr",
-        "text": "Schnittgut, Laub und Gartenabfälle werden eingesammelt und abgefahren.",
+        "title": "Sonnenschutz innen & außen",
+        "text": "Lösungen gegen Hitze und Blendung für Wohnräume und Büros.",
         "items": [
-          "Grünschnitt",
-          "Laub",
-          "Gartenabfälle"
+          "Hitzeschutz",
+          "Blendschutz",
+          "Sichtschutz"
         ]
       },
       {
-        "title": "Entrümpelung",
-        "text": "Keller, Dachboden, Garage oder Schuppen werden geräumt und Sperrgut entsorgt.",
+        "title": "Elektrische Antriebe",
+        "text": "Rollläden und Markisen bequem per Schalter oder Fernbedienung bedienen.",
         "items": [
-          "Keller",
-          "Dachboden",
-          "Garage"
+          "Motorisierung",
+          "Schalter",
+          "Fernbedienung"
         ]
       },
       {
-        "title": "Wohnungsräumung",
-        "text": "Räumung von Wohnungen und Häusern, etwa nach Umzug oder im Erbfall – besenrein übergeben.",
+        "title": "Reparatur & Service",
+        "text": "Klemmende Rollläden oder gerissene Gurte – Hilfe bei Störungen.",
         "items": [
-          "Wohnung",
-          "Haus",
-          "Besenrein"
+          "Gurtwechsel",
+          "Lamellen",
+          "Wartung"
         ]
       }
     ],
     "why": {
-      "headline": "Ein Team aus Landsberg für Garten und Räumung.",
+      "headline": "Sonnenschutz aus Garching – nah und persönlich.",
       "points": [
         {
           "title": "Kurze Wege",
-          "text": "Der Betrieb sitzt in Landsberg und ist schnell in Kaufering, Igling oder Penzing."
+          "text": "Von Garching aus schnell in Hochbrück, Unterschleißheim, Ismaning und Eching."
         },
         {
-          "title": "Alles aus einer Hand",
-          "text": "Garten herrichten und Keller räumen – ein Ansprechpartner statt zwei Firmen."
+          "title": "Alles rund ums Fenster",
+          "text": "Rollläden, Markisen und Fenster aus einer Hand."
         },
         {
-          "title": "Direkter Draht",
-          "text": "Fotos per WhatsApp schicken und kurz abstimmen – ohne Warteschleife."
+          "title": "Beratung vor Ort",
+          "text": "Maße, Montage und Bedienung werden direkt am Objekt geklärt."
         },
         {
-          "title": "Sauber übergeben",
-          "text": "Schnittgut und Sperrgut werden mitgenommen, die Fläche bleibt ordentlich."
+          "title": "Direkter Kontakt",
+          "text": "Ein Anruf genügt – ohne Callcenter."
         }
       ]
     },
     "reviews": {
       "headline": "Was Kunden sagen",
-      "summary": "Kundenstimmen werden hier eingebunden, sobald ein Google-Profil mit Bewertungen vorliegt.",
+      "summary": "Kundenstimmen werden hier eingebunden, sobald sie aus dem Google-Profil übernommen sind.",
       "highlights": [
-        "Gartenpflege in Landsberg",
-        "Entrümpelung",
-        "Direkter Kontakt"
+        "Sonnenschutz in Garching",
+        "Rollläden und Markisen",
+        "Persönliche Beratung"
       ],
       "source": "Google",
-      "sourceUrl": "https://www.google.com/maps/search/?api=1&query=ASE%20Serviceteam%20A.%20Haxhiu%20Am%20Ziegelanger%20Landsberg%20am%20Lech",
+      "sourceUrl": "https://www.google.com/maps/search/?api=1&query=Mafero%20Sonnenschutztechnik%20Schlei%C3%9Fheimer%20Str.%2026%20Garching",
       "rating": null,
       "count": null
     },
     "process": {
-      "headline": "So läuft Ihr Auftrag",
+      "headline": "In vier Schritten zum Sonnenschutz",
       "steps": [
         {
-          "title": "Fotos schicken",
-          "text": "Garten oder Räume fotografieren und per WhatsApp senden – oder kurz anrufen."
+          "title": "Anfrage",
+          "text": "Kurz anrufen oder Fenster und Wunsch über das Formular beschreiben."
         },
         {
-          "title": "Besichtigung",
-          "text": "Bei Bedarf wird der Umfang vor Ort angeschaut."
+          "title": "Aufmaß",
+          "text": "Vor Ort werden Maße genommen und Varianten besprochen."
         },
         {
           "title": "Angebot",
-          "text": "Sie erhalten ein klares Angebot für Pflege oder Räumung."
+          "text": "Sie erhalten ein klares Angebot für Produkt und Einbau."
         },
         {
-          "title": "Erledigt",
-          "text": "Arbeit wird ausgeführt, Abfälle mitgenommen, Fläche sauber übergeben."
+          "title": "Einbau",
+          "text": "Montage und Einweisung in die Bedienung."
         }
       ]
     },
     "gallery": {
-      "headline": "Vorher, nachher – aufgeräumt",
-      "text": "Für die Live-Version zeigen wir hier echte Einsätze des Betriebs.",
+      "headline": "Schatten, Schutz und Ruhe",
+      "text": "Für die Live-Version zeigen wir hier echte Projekte des Betriebs.",
       "items": [
         {
-          "title": "Gepflegter Rasen",
-          "photoNeeded": "frisch gemähte Rasenfläche mit sauberen Kanten"
+          "title": "Terrassenmarkise",
+          "photoNeeded": "ausgefahrene Markise über einer Terrasse"
         },
         {
-          "title": "Hecke in Form",
-          "photoNeeded": "geschnittene Hecke vorher/nachher"
+          "title": "Rollläden",
+          "photoNeeded": "Hausfassade mit halb geschlossenen Rollläden"
         },
         {
-          "title": "Neues Beet",
-          "photoNeeded": "neu angelegtes Gartenbeet"
+          "title": "Balkon",
+          "photoNeeded": "Balkonmarkise an einem Mehrfamilienhaus"
         },
         {
-          "title": "Keller geräumt",
-          "photoNeeded": "Keller vor und nach der Entrümpelung"
+          "title": "Neue Fenster",
+          "photoNeeded": "frisch eingebautes Fenster mit Rollladenkasten"
         },
         {
-          "title": "Laub weg",
-          "photoNeeded": "Garten im Herbst nach der Laubräumung"
+          "title": "Antrieb",
+          "photoNeeded": "Funkschalter für elektrischen Rollladen"
         }
       ]
     },
     "region": {
-      "headline": "Für Landsberg und den Lechrain",
-      "text": "Von Landsberg aus schnell in Kaufering, Schwifting, Penzing, Igling und Pürgen.",
+      "headline": "Sonnenschutz für Garching und den Münchner Norden",
+      "text": "Von Garching aus in Hochbrück, Unterschleißheim, Oberschleißheim, Ismaning und Eching.",
       "places": [
-        "Landsberg am Lech",
-        "Kaufering",
-        "Schwifting",
-        "Penzing",
-        "Igling",
-        "Pürgen"
+        "Garching",
+        "Hochbrück",
+        "Unterschleißheim",
+        "Oberschleißheim",
+        "Ismaning",
+        "Eching"
       ]
     },
     "faq": [
       {
-        "q": "Übernehmen Sie Gartenpflege auch regelmäßig?",
-        "a": "Ja, sowohl einmalige Einsätze als auch wiederkehrende Pflege lassen sich vereinbaren."
+        "q": "Kann ich alte Rollläden nachrüsten?",
+        "a": "In vielen Fällen ja, etwa mit Vorbaurollläden. Was passt, wird beim Aufmaß geklärt."
       },
       {
-        "q": "Wird das Schnittgut mitgenommen?",
-        "a": "Grünschnitt und Gartenabfälle werden nach Absprache mitgenommen und entsorgt."
+        "q": "Lassen sich Rollläden motorisieren?",
+        "a": "Häufig ja. Ob ein Antrieb nachgerüstet werden kann, wird vor Ort geprüft."
       },
       {
-        "q": "Was kostet eine Entrümpelung?",
-        "a": "Das hängt von Menge und Zugänglichkeit ab. Mit Fotos gibt es eine erste Einschätzung, danach ein festes Angebot."
+        "q": "Welche Markise passt zu meiner Terrasse?",
+        "a": "Das hängt von Breite, Ausladung und Fassade ab. Dazu gibt es eine Beratung am Objekt."
       },
       {
-        "q": "Kann ich Fotos per WhatsApp schicken?",
-        "a": "Ja, Fotos von Garten oder Räumen helfen für eine schnelle Einschätzung."
+        "q": "Bieten Sie auch Fenster an?",
+        "a": "Ja, Fenster gehören neben Rollläden und Markisen zum Angebot."
       },
       {
-        "q": "In welchen Orten sind Sie unterwegs?",
-        "a": "In Landsberg am Lech und den umliegenden Gemeinden – fragen Sie einfach an."
+        "q": "Arbeiten Sie auch außerhalb von Garching?",
+        "a": "Ja, im Münchner Norden – fragen Sie einfach an."
       }
     ],
     "contact": {
-      "headline": "Garten oder Räumung – kostenlos anfragen",
-      "text": "Kurz beschreiben, was zu tun ist: Gartenpflege, Umgestaltung oder Entrümpelung. Fotos helfen bei der Einschätzung.",
+      "headline": "Ihr Sonnenschutz – unverbindlich anfragen",
+      "text": "Beschreiben Sie kurz Ihr Vorhaben: Rollladen, Markise oder Fenster, Anzahl und ungefähre Maße.",
       "topics": [
-        "Gartenpflege",
-        "Heckenschnitt",
-        "Garten umgestalten",
-        "Entrümpelung",
-        "Wohnungsräumung",
+        "Rollläden",
+        "Markisen",
+        "Fenster",
+        "Reparatur",
         "Sonstiges"
       ],
-      "responseNote": "Besichtigung nach Absprache."
+      "responseNote": "Aufmaß nach Absprache."
     },
     "quote": {
       "sizeLabel": "Worum geht es?",
       "sizes": [
-        "Kleiner Garten",
-        "Großes Grundstück",
-        "Keller / Dachboden",
-        "Ganze Wohnung / Haus"
+        "Ein Fenster",
+        "Mehrere Fenster",
+        "Terrasse/Balkon",
+        "Ganzes Haus"
       ],
       "timings": [
         "So bald wie möglich",
-        "In den nächsten Wochen",
-        "Regelmäßig",
+        "Vor dem Sommer",
+        "In 1–3 Monaten",
         "Ich plane erst noch"
       ]
     },
-    "stickyCta": "Kostenlos anfragen",
+    "stickyCta": "Angebot anfragen",
     "look": {
-      "palette": 2,
-      "font": 6,
-      "hero": 0,
-      "services": 1,
-      "radius": 1,
+      "palette": 1,
+      "font": 12,
+      "hero": 2,
+      "services": 2,
+      "radius": 4,
       "logo": 0,
-      "intro": 5
+      "intro": 3
     }
   }
 }

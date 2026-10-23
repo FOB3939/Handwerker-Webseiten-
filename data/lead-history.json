@@ -1558,6 +1558,126 @@
       "googleLink": "https://www.google.com/maps/search/?api=1&query=Johann%20Hobmeier%20Malerbetrieb%20Parkstr.%2025%2C%2085435%20Erding",
       "googleVerified": false,
       "reserve": true
+    },
+    {
+      "company": "Pllana Handwerk und Dienstleistung",
+      "slug": "pllana-handwerk-und-dienstleistung-poing",
+      "trade": "Hausmeisterservice & Montage",
+      "city": "Poing",
+      "date": "2026-10-23",
+      "phone": "0176 45618543",
+      "email": "info.pllana@gmail.com",
+      "googleLink": "https://www.google.com/maps/search/?api=1&query=Pllana%20Handwerk%20und%20Dienstleistung%20Petunienweg%202%2C%2085586%20Poing",
+      "googleVerified": false,
+      "reserve": false
+    },
+    {
+      "company": "Hausmeister Service Handwerker Innenausbau & Abbrucharbeiten – Dan Suciu",
+      "slug": "dan-suciu-taufkirchen",
+      "trade": "Hausmeisterservice & Innenausbau",
+      "city": "Taufkirchen",
+      "date": "2026-10-23",
+      "phone": "0175 8172411",
+      "email": null,
+      "googleLink": "https://www.google.com/maps/search/?api=1&query=Hausmeister%20Service%20Handwerker%20Innenausbau%20%26%20Abbrucharbeiten%20%E2%80%93%20Dan%20Suciu%20Walleitnerweg%2010%2C%2082024%20Taufkirchen",
+      "googleVerified": false,
+      "reserve": true
+    },
+    {
+      "company": "Bernhard Keller Metallbau und Schlosserei",
+      "slug": "bernhard-keller-metallbau-bad-toelz",
+      "trade": "Metallbau & Schlosserei",
+      "city": "Bad Tölz",
+      "date": "2026-10-23",
+      "phone": "08041 806812",
+      "email": "metallbaub.keller@t-online.de",
+      "googleLink": "https://www.google.com/maps/search/?api=1&query=Bernhard%20Keller%20Metallbau%20und%20Schlosserei%20Kohlstattstra%C3%9Fe%2051/3%2C%2083646%20Bad%20T%C3%B6lz",
+      "googleVerified": false,
+      "reserve": false
+    },
+    {
+      "company": "Tomasz Zaluski Fliesenleger",
+      "slug": "tomasz-zaluski-fliesenleger-tutzing",
+      "trade": "Fliesenleger",
+      "city": "Tutzing",
+      "date": "2026-10-23",
+      "phone": "01590 4040747",
+      "email": null,
+      "googleLink": "https://www.google.com/maps/search/?api=1&query=Tomasz%20Zaluski%20Fliesenleger%20Primelweg%204%2C%2082327%20Tutzing",
+      "googleVerified": false,
+      "reserve": true
+    },
+    {
+      "company": "Krenz Fußbodenverlegung",
+      "slug": "krenz-fussbodenverlegung-weilheim",
+      "trade": "Bodenleger & Parkett",
+      "city": "Weilheim in Oberbayern",
+      "date": "2026-10-23",
+      "phone": "0171 4329046",
+      "email": null,
+      "googleLink": "https://www.google.com/maps/search/?api=1&query=Krenz%20Fu%C3%9Fbodenverlegung%20Enzianweg%2012%2C%2082362%20Weilheim%20in%20Oberbayern",
+      "googleVerified": false,
+      "reserve": true
+    },
+    {
+      "company": "ASE Serviceteam A. Haxhiu",
+      "slug": "ase-serviceteam-landsberg",
+      "trade": "Gartenpflege, Garten- & Landschaftsbau, Entrümpelung",
+      "city": "Landsberg am Lech",
+      "date": "2026-10-23",
+      "phone": "0176 82403313",
+      "email": "ase-servicetram@hotmail.com",
+      "googleLink": "https://www.google.com/maps/search/?api=1&query=ASE%20Serviceteam%20A.%20Haxhiu%20Am%20Ziegelanger%2C%2086899%20Landsberg%20am%20Lech",
+      "googleVerified": false,
+      "reserve": false
+    },
+    {
+      "company": "Hausklar Dienstleistungen",
+      "slug": "hausklar-dienstleistungen-friedberg",
+      "trade": "Entrümpelung, Hausmeisterservice & Umzugsservice",
+      "city": "Friedberg",
+      "date": "2026-10-23",
+      "phone": "0170 4502040",
+      "email": null,
+      "googleLink": "https://www.google.com/maps/search/?api=1&query=Hausklar%20Dienstleistungen%20Thomas-Mann-Str.%2010%2C%2086316%20Friedberg",
+      "googleVerified": false,
+      "reserve": true
+    },
+    {
+      "company": "Trockenbau Csekk Attila",
+      "slug": "trockenbau-csekk-kirchheim",
+      "trade": "Trockenbau & Renovierung",
+      "city": "Kirchheim bei München",
+      "date": "2026-10-23",
+      "phone": "01514 5191802",
+      "email": "trockenbau1970@gmail.com",
+      "googleLink": "https://www.google.com/maps/search/?api=1&query=Trockenbau%20Csekk%20Attila%20Daimlerstr.%204%2C%2085551%20Kirchheim%20bei%20M%C3%BCnchen",
+      "googleVerified": false,
+      "reserve": false
+    },
+    {
+      "company": "Mafero Sonnenschutztechnik",
+      "slug": "mafero-sonnenschutztechnik-garching",
+      "trade": "Rollladen & Sonnenschutz",
+      "city": "Garching b. München",
+      "date": "2026-10-23",
+      "phone": "089 32625897",
+      "email": null,
+      "googleLink": "https://www.google.com/maps/search/?api=1&query=Mafero%20Sonnenschutztechnik%20Schlei%C3%9Fheimer%20Str.%2026%2C%2085748%20Garching%20b.%20M%C3%BCnchen",
+      "googleVerified": false,
+      "reserve": true
+    },
+    {
+      "company": "Construktion",
+      "slug": "construktion-murnau",
+      "trade": "Trockenbau & Altbausanierung",
+      "city": "Murnau am Staffelsee",
+      "date": "2026-10-23",
+      "phone": "0174 4445467",
+      "email": null,
+      "googleLink": "https://www.google.com/maps/search/?api=1&query=Construktion%20Loisachstr.%2C%2082418%20Murnau%20am%20Staffelsee",
+      "googleVerified": false,
+      "reserve": true
     }
   ],
   "rejected": [
@@ -3204,6 +3324,351 @@
       "company": "Kai Powels Maler- und Lackierermeister (Erding)",
       "reason": "Website",
       "date": "2026-10-22"
+    },
+    {
+      "company": "SüdColor Malermeisterbetrieb (Unterschleißheim)",
+      "reason": "Website",
+      "date": "2026-10-23"
+    },
+    {
+      "company": "Christoph Verscht Schreinerwerkstätte (Ismaning)",
+      "reason": "Website",
+      "date": "2026-10-23"
+    },
+    {
+      "company": "M-Clean Mehmet Sayin (Unterschleißheim)",
+      "reason": "Website",
+      "date": "2026-10-23"
+    },
+    {
+      "company": "Marcel Keller Renovierung (Kirchheim)",
+      "reason": "Website",
+      "date": "2026-10-23"
+    },
+    {
+      "company": "Fliesen Shala (Aschheim)",
+      "reason": "Website",
+      "date": "2026-10-23"
+    },
+    {
+      "company": "Fuchsart (Unterschleißheim)",
+      "reason": "keine Kontaktdaten",
+      "date": "2026-10-23"
+    },
+    {
+      "company": "Marco Haugk Malermeister (Grafing)",
+      "reason": "Website",
+      "date": "2026-10-23"
+    },
+    {
+      "company": "Spenglerei T. Neundorf (Grafing)",
+      "reason": "Website",
+      "date": "2026-10-23"
+    },
+    {
+      "company": "Wiesbauer & Schnell GbR (Markt Schwaben)",
+      "reason": "Website",
+      "date": "2026-10-23"
+    },
+    {
+      "company": "Martin Matuszewski (Zorneding)",
+      "reason": "Website",
+      "date": "2026-10-23"
+    },
+    {
+      "company": "Wolfgang Wiesinger Sanitär (Kirchseeon)",
+      "reason": "Website",
+      "date": "2026-10-23"
+    },
+    {
+      "company": "Klaus Westphal Möbelschreinerei (Dorfen)",
+      "reason": "Website",
+      "date": "2026-10-23"
+    },
+    {
+      "company": "Hans Wörndle Malergeschäft (Taufkirchen/Vils)",
+      "reason": "Domain-E-Mail",
+      "date": "2026-10-23"
+    },
+    {
+      "company": "Tk Elektrotechnik (Murnau)",
+      "reason": "nicht belegt",
+      "date": "2026-10-23"
+    },
+    {
+      "company": "LechRein GbR (Kaufering)",
+      "reason": "nicht belegt",
+      "date": "2026-10-23"
+    },
+    {
+      "company": "Ivan Karacic Hausmeisterservice (Poing)",
+      "reason": "nicht belegt",
+      "date": "2026-10-23"
+    },
+    {
+      "company": "Ludwig Hundschell Schreiner (Dorfen)",
+      "reason": "Website",
+      "date": "2026-10-23"
+    },
+    {
+      "company": "Georg Hagl Schreinerei (Dorfen)",
+      "reason": "Schwesterbetrieb mit Website/GmbH",
+      "date": "2026-10-23"
+    },
+    {
+      "company": "Schmiede & Schlosserei Forstmaier (Dorfen)",
+      "reason": "Website",
+      "date": "2026-10-23"
+    },
+    {
+      "company": "Anton Maier Holzausbau (Isen)",
+      "reason": "Website",
+      "date": "2026-10-23"
+    },
+    {
+      "company": "Thomas Gerg Zimmerei (Lenggries)",
+      "reason": "Website",
+      "date": "2026-10-23"
+    },
+    {
+      "company": "Klaus Hanus Zimmerei (Lenggries)",
+      "reason": "GmbH/Website",
+      "date": "2026-10-23"
+    },
+    {
+      "company": "Andreas Frenzel Dachdeckermeister (Geretsried)",
+      "reason": "Website",
+      "date": "2026-10-23"
+    },
+    {
+      "company": "Dachdeckerei Markus Greiner (Wolfratshausen)",
+      "reason": "GmbH/Website",
+      "date": "2026-10-23"
+    },
+    {
+      "company": "Peter Wagner Metallbau (Geretsried)",
+      "reason": "Website",
+      "date": "2026-10-23"
+    },
+    {
+      "company": "Hermann Bernkopf Schlosserei (Geretsried)",
+      "reason": "Domain-E-Mail",
+      "date": "2026-10-23"
+    },
+    {
+      "company": "Elektrotechnik Patron (Vaterstetten)",
+      "reason": "Website",
+      "date": "2026-10-23"
+    },
+    {
+      "company": "LK&ES Dienstleistungen GbR (Tutzing)",
+      "reason": "Website",
+      "date": "2026-10-23"
+    },
+    {
+      "company": "A&K Hausmeisterservice (Starnberg)",
+      "reason": "Website",
+      "date": "2026-10-23"
+    },
+    {
+      "company": "Christian Hauf Dachdeckerei (Pöcking)",
+      "reason": "Website",
+      "date": "2026-10-23"
+    },
+    {
+      "company": "JM-Bau Service (Tutzing)",
+      "reason": "Website",
+      "date": "2026-10-23"
+    },
+    {
+      "company": "Bodengestaltung Lang (Herrsching)",
+      "reason": "mögliche Schwester mit Website",
+      "date": "2026-10-23"
+    },
+    {
+      "company": "Daniels Gartenpflege (Herrsching)",
+      "reason": "Website",
+      "date": "2026-10-23"
+    },
+    {
+      "company": "Rene und Wilken Mros Fliesenlegerei (Herrsching)",
+      "reason": "Website",
+      "date": "2026-10-23"
+    },
+    {
+      "company": "Elektro Disl (Penzberg)",
+      "reason": "Website",
+      "date": "2026-10-23"
+    },
+    {
+      "company": "Adnan Sayak Elektro (Penzberg)",
+      "reason": "Website",
+      "date": "2026-10-23"
+    },
+    {
+      "company": "MG Elektro & Informationstechnik (Penzberg)",
+      "reason": "Website",
+      "date": "2026-10-23"
+    },
+    {
+      "company": "Andreas Richter Parkett (Weilheim)",
+      "reason": "Online-Shop",
+      "date": "2026-10-23"
+    },
+    {
+      "company": "Schreinermeister Michael Lorz (Weilheim)",
+      "reason": "Website",
+      "date": "2026-10-23"
+    },
+    {
+      "company": "Martin Höck Schlosserei (Iffeldorf)",
+      "reason": "Website",
+      "date": "2026-10-23"
+    },
+    {
+      "company": "Ugler Hermann Schlosserei (Penzberg)",
+      "reason": "GmbH/Website",
+      "date": "2026-10-23"
+    },
+    {
+      "company": "Melvin Fliesen & Bodendesign (Landsberg)",
+      "reason": ">50 Bewertungen",
+      "date": "2026-10-23"
+    },
+    {
+      "company": "Fliesen Bob (Landsberg)",
+      "reason": "Website",
+      "date": "2026-10-23"
+    },
+    {
+      "company": "Dachreparaturen Michael Brockmann (Schwabmünchen)",
+      "reason": "Domain-E-Mail",
+      "date": "2026-10-23"
+    },
+    {
+      "company": "JR Fliesenleger (Mering)",
+      "reason": "Website",
+      "date": "2026-10-23"
+    },
+    {
+      "company": "Rupp Sanierung (Kaufering)",
+      "reason": "Website",
+      "date": "2026-10-23"
+    },
+    {
+      "company": "Stellato Putz (Landsberg)",
+      "reason": "GmbH",
+      "date": "2026-10-23"
+    },
+    {
+      "company": "Fliesen Häring (Mering)",
+      "reason": "Website",
+      "date": "2026-10-23"
+    },
+    {
+      "company": "FLIESEN TECHNIK Christian Hönle (Landsberg)",
+      "reason": "Website",
+      "date": "2026-10-23"
+    },
+    {
+      "company": "Hans Peter Krahe Dachdecker (Starnberg)",
+      "reason": "Website",
+      "date": "2026-10-23"
+    },
+    {
+      "company": "Jan Hopstock (Starnberg)",
+      "reason": "Website",
+      "date": "2026-10-23"
+    },
+    {
+      "company": "Jörg Schmid Fliesenleger (Herrsching)",
+      "reason": "geschlossen",
+      "date": "2026-10-23"
+    },
+    {
+      "company": "Peer Schmid Fliesenlegermeisterbetrieb (Starnberg)",
+      "reason": "Website",
+      "date": "2026-10-23"
+    },
+    {
+      "company": "Franco Foresti (Starnberg)",
+      "reason": "Website",
+      "date": "2026-10-23"
+    },
+    {
+      "company": "Werner Eder Malermeister (Pöcking)",
+      "reason": "Website",
+      "date": "2026-10-23"
+    },
+    {
+      "company": "Georg Riedl Malermeister (Starnberg)",
+      "reason": "Website",
+      "date": "2026-10-23"
+    },
+    {
+      "company": "AKERN-Rollladenbau (Wörthsee)",
+      "reason": "Domain-E-Mail",
+      "date": "2026-10-23"
+    },
+    {
+      "company": "Amir Basic Gartenpflege (Herrsching)",
+      "reason": "Website",
+      "date": "2026-10-23"
+    },
+    {
+      "company": "G. Schuster Schreinerei (Ismaning)",
+      "reason": "Website",
+      "date": "2026-10-23"
+    },
+    {
+      "company": "Parkett & Fußbodentechnik Felkel (Unterschleißheim)",
+      "reason": "Website",
+      "date": "2026-10-23"
+    },
+    {
+      "company": "Ralf Prohaska Schreinerei (Ismaning)",
+      "reason": "Website",
+      "date": "2026-10-23"
+    },
+    {
+      "company": "Schreinerei Holzkonzept (Ismaning)",
+      "reason": "Website",
+      "date": "2026-10-23"
+    },
+    {
+      "company": "Rollladen Stark (Garching)",
+      "reason": "Website",
+      "date": "2026-10-23"
+    },
+    {
+      "company": "Heinz Pioch Reinigungen (Unterschleißheim)",
+      "reason": "Website",
+      "date": "2026-10-23"
+    },
+    {
+      "company": "Trockenbau Habermeier (Weilheim)",
+      "reason": "Website",
+      "date": "2026-10-23"
+    },
+    {
+      "company": "SW Interieur (Weilheim)",
+      "reason": "Website",
+      "date": "2026-10-23"
+    },
+    {
+      "company": "CA Teambau (Weilheim)",
+      "reason": "GmbH/Website",
+      "date": "2026-10-23"
+    },
+    {
+      "company": "Werner Hellebrandt Schreinermeister (Weilheim)",
+      "reason": "Website",
+      "date": "2026-10-23"
+    },
+    {
+      "company": "Tobias Altersberger (Penzberg)",
+      "reason": "Website",
+      "date": "2026-10-23"
     }
   ]
 }

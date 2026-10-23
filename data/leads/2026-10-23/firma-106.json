@@ -1,98 +1,100 @@
 {
   "id": "2026-10-23-106",
-  "slug": "florian-riepl-gartenservice-holzkirchen",
+  "slug": "tomasz-zaluski-fliesenleger-tutzing",
   "date": "2026-10-23",
   "company": {
-    "name": "Riepl Florian Gartenservice",
-    "owner": "Florian Riepl",
-    "trade": "Gartenpflege & Zaunbau",
-    "city": "Holzkirchen",
-    "address": "Südstraße, 83607 Holzkirchen",
-    "phone": "08024 478551",
+    "name": "Tomasz Zaluski Fliesenleger",
+    "owner": "Tomasz Zaluski",
+    "trade": "Fliesenleger",
+    "city": "Tutzing",
+    "address": "Primelweg 4, 82327 Tutzing",
+    "phone": "01590 4040747",
     "email": null,
     "serviceArea": [
-      "Holzkirchen",
-      "Otterfing",
-      "Valley",
-      "Warngau",
-      "Sauerlach",
-      "Weyarn"
+      "Tutzing",
+      "Feldafing",
+      "Pöcking",
+      "Bernried",
+      "Starnberg",
+      "Weilheim"
     ]
   },
   "listings": {
     "google": {
-      "url": "https://www.google.com/maps/search/?api=1&query=Riepl%20Florian%20Gartenservice%20Holzkirchen",
+      "url": "https://www.google.com/maps/search/?api=1&query=Tomasz%20Zaluski%20Fliesenleger%20Primelweg%204%20Tutzing",
       "rating": null,
       "reviews": null,
-      "evidence": "NICHT BELEGT – kein Google-Spiegel gefunden, keine Freemail-Adresse. Nur Verzeichniseintrag zaunbaubetriebe.online („Riepl Florian Gartenservice – Zaun Spezialist in Holzkirchen“, Südstraße, 83607 Holzkirchen)."
+      "evidence": "NICHT BELEGT – kein Google-Spiegel (rgv-bayern, firmania, trustlocal) zu „Zaluski“ gefunden; trustlocal-Liste Fliesenleger Tutzing nennt den Betrieb im Snippet nicht. Existenz eines Google-Eintrags in Maps prüfen."
     },
     "myhammer": {
-      "url": "https://zaunbaubetriebe.online/riepl-florian-gartenservice/00738847",
+      "url": "https://www.11880.com/suche/fliesenleger/tutzing",
       "rating": null,
       "reviews": null,
-      "evidence": "Kein MyHammer gefunden – einzig zaunbaubetriebe.online führt den Betrieb; Telefon 08024 478551 stammt aus der Vorrecherche (Kandidatenliste), Telefonsuche ohne Treffer."
+      "evidence": "Kein MyHammer gefunden – einziger Beleg: 11880-Eintrag „Tomasz Zaluski Fliesenleger, 82327 Tutzing, Primelweg 4, (01590) 4040747“ (Ortsliste Fliesenleger Tutzing)."
     }
   },
   "websiteStatus": "keine eigene Website gefunden",
   "websiteChecks": [
-    "(1) „Florian Riepl Gartenservice Holzkirchen“ mit blocked_domains (11880, Gelbe Seiten, Das Örtliche, Telefonbuch, Cylex, meinestadt, Creditreform, Facebook, Instagram, golocal, MyHammer, Northdata, Firmenwissen, WKDB, Yelp, trustlocal, wlw) – nur zaunbaubetriebe.online; übrige Treffer andere Gartenbetriebe (Gerr-Schmid Gärten, CB-Hausmeister-Service, Wochinger). Kein eigener Webauftritt.",
-    "(2) Telefonsuche „Riepl Gartenservice Holzkirchen 08024 478551“ – kein Treffer zur Nummer; nur Sanitär Erwin Riepl (Roggersdorfer Str., Holzkirchen, andere Nummer) – Verwandtschaft unklar, dessen Website-Status nicht geprüft.",
-    "(3) Domain-Check allowed_domains riepl-gartenservice.de, gartenservice-riepl.de, riepl-garten.de, garten-riepl.de, florian-riepl.de, riepl-holzkirchen.de, gartenservice-holzkirchen.de, riepl-gartenbau.de – keine Treffer",
-    "Website-Risiko: mittel – keine Website gefunden, aber Datenlage sehr dünn (weder Google-Eintrag noch Freemail belegt)"
+    "(1) „Tomasz Zaluski Fliesenleger Tutzing“ mit blocked_domains (11880, Gelbe Seiten, Das Örtliche, Telefonbuch, Cylex, meinestadt, Creditreform, Facebook, Instagram, golocal, MyHammer, Northdata, Firmenwissen, WKDB, Yelp, trustlocal, wlw) – nur fremde Fliesenbetriebe (Keramlux, Fliesen Stefanic, Fliesen Schlagwein, peker fliesenleger) und Verzeichnislisten; keine eigene Domain",
+    "(2) Telefon-/Namenssuche „01590 4040747“/„015904040747“/„Zaluski Tutzing“ – keine Treffer außer Wikipedia/historischen Personen; keine Website",
+    "(3) Domain-Check allowed_domains zaluski-fliesen.de, fliesen-zaluski.de, zaluski.de, fliesenleger-zaluski.de, zaluski-fliesenleger.de, tz-fliesen.de, fliesen-tutzing.de, zaluski.com – keine Treffer",
+    "(4) Google-Spiegel (rgv-bayern, firmania, trustlocal) – kein Profil gefunden",
+    "Keine E-Mail-Adresse gefunden (weder Freemail noch Firmendomain)",
+    "Website-Risiko: niedrig, aber RESERVE – weder Google-Eintrag noch Freemail belegt"
   ],
   "facts": {
     "services": [
-      "Gartenpflege",
-      "Zaunbau"
+      "Fliesenverlegung"
     ],
     "experience": null,
     "praisedFor": []
   },
   "strategy": {
-    "audience": "Hausbesitzer und Vermieter in Holzkirchen und Umgebung, die regelmäßige Gartenpflege oder einen neuen Zaun brauchen",
-    "mainService": "Gartenpflege und Zaunbau",
-    "trustSignal": "Inhaber Florian Riepl aus Holzkirchen, persönlich erreichbar",
-    "conversionGoal": "Anruf oder Anfrage für Gartenpflege/Zaun mit Fotos",
-    "visualConcept": "Gepflegte Gärten im Oberland: frisch gemähter Rasen, geschnittene Hecken, Holz- und Metallzäune"
+    "audience": "Hauseigentümer und Vermieter in Tutzing, Feldafing, Pöcking und Bernried, die Bad, Küche, Flur oder Terrasse neu fliesen lassen wollen",
+    "mainService": "Fliesen verlegen – Bad, Küche, Boden und Wand",
+    "trustSignal": "Fliesenleger direkt aus Tutzing, per Handy erreichbar",
+    "conversionGoal": "Kostenloses Angebot für Fliesenarbeiten anfragen (per WhatsApp/Anruf mit Fotos und Maßen)",
+    "visualConcept": "Ruhige Materialästhetik: großformatige Fliesen, exakte Fugenbilder, helles Bad mit Seeblick-Stimmung vom Starnberger See"
   },
   "sales": {
     "score": 3,
     "whyGoodLead": [
-      "Keine eigene Website gefunden",
-      "Kaum Online-Präsenz – nur ein Verzeichniseintrag",
-      "Gartenpflege ist im wachsenden Holzkirchen stark gefragt"
+      "Keine eigene Website gefunden – nur ein einziger Verzeichniseintrag",
+      "Mobilnummer öffentlich gelistet – direkter WhatsApp-Erstkontakt möglich",
+      "Fliesenleger ist bei uns ein seltenes Gewerk",
+      "Kaum Online-Sichtbarkeit – eine Website plus Google-Profil würde den Betrieb erstmals auffindbar machen"
     ],
-    "pitch": "Grüß Gott Herr Riepl, hier ist … – ich baue Websites für Handwerker im Landkreis Miesbach. Ihren Gartenservice in Holzkirchen habe ich nur in einem Verzeichnis gefunden. Ich habe unverbindlich einen Entwurf vorbereitet, auf dem Kunden Gartenpflege und Zaunbau bei Ihnen anfragen können – darf ich Ihnen den Link schicken?"
+    "pitch": "Hallo Herr Zaluski, hier ist … – ich baue Websites für Handwerker am Starnberger See. Ich habe Ihren Eintrag als Fliesenleger in Tutzing gefunden, aber keine eigene Website. Ich habe unverbindlich einen Entwurf vorbereitet, auf dem Kunden Ihre Fliesenarbeiten sehen und direkt per WhatsApp anfragen können – darf ich Ihnen den Link schicken?"
   },
   "manualChecks": [
     "RESERVE – weder Google-Eintrag noch Freemail-Adresse belegt: NUR versenden, wenn Google Maps einen Eintrag OHNE Website zeigt.",
-    "Telefon 08024 478551 nur aus der Kandidatenliste, in eigener Suche nicht bestätigt – vor Kontakt prüfen",
-    "Hausnummer Südstraße unbekannt",
-    "Leistungen unklar (Name „Gartenservice“, Verzeichnis „Zaun Spezialist“) – beim Betrieb bestätigen",
-    "Mögliche Verbindung zu Sanitär Erwin Riepl (Holzkirchen) prüfen",
+    "Prüfen, ob der Betrieb noch aktiv ist (einziger Beleg ist der 11880-Eintrag, Datum unbekannt)",
+    "Rufnummer 01590 4040747 (Mobilfunk) vor Erstkontakt verifizieren",
+    "Leistungen nur als „Fliesenleger“ belegt – Detailleistungen (Bad, Naturstein, Terrasse, Abdichtung) beim Betrieb bestätigen",
     "Logo und Projektfotos: nicht gefunden – beim Betrieb anfragen"
   ],
   "sources": [
     {
-      "label": "zaunbaubetriebe.online – Riepl Florian Gartenservice Holzkirchen",
-      "url": "https://zaunbaubetriebe.online/riepl-florian-gartenservice/00738847"
+      "label": "11880 – Fliesenleger Tutzing (Liste mit Tomasz Zaluski Fliesenleger)",
+      "url": "https://www.11880.com/suche/fliesenleger/tutzing"
     }
   ],
   "site": {
-    "theme": "garten",
+    "theme": "aqua",
     "category": "handwerk",
     "heroOffer": [
-      "Gartenpflege",
-      "Rasen",
-      "Hecken",
-      "Zaunbau"
+      "Badfliesen",
+      "Bodenfliesen",
+      "Wandfliesen",
+      "Küchenspiegel",
+      "Reparaturen"
     ],
-    "scene": "garden",
-    "logoIcon": "leaf",
-    "logoMark": "FR",
-    "brandName": "Riepl Gartenservice",
-    "seoTitle": "Gartenservice in Holzkirchen – Florian Riepl",
-    "seoDescription": "Gartenpflege und Zaunbau in Holzkirchen und Umgebung. Florian Riepl Gartenservice – jetzt unverbindlich anfragen.",
+    "scene": "bath",
+    "logoIcon": "trowel",
+    "logoMark": "TZ",
+    "brandName": "Fliesen Zaluski",
+    "seoTitle": "Fliesenleger in Tutzing – Tomasz Zaluski",
+    "seoDescription": "Fliesenleger in Tutzing: Bad, Küche, Boden und Wand sauber gefliest. Jetzt kostenloses Angebot anfragen – auch per WhatsApp.",
     "nav": [
       {
         "label": "Leistungen",
@@ -120,132 +122,132 @@
       }
     ],
     "hero": {
-      "eyebrow": "Gartenservice · Holzkirchen",
-      "headline": "Ihr Gartenservice in Holzkirchen",
-      "sub": "Gartenpflege und Zäune für Haus und Grundstück im Landkreis Miesbach.",
-      "ctaPrimary": "Unverbindlich anfragen",
+      "eyebrow": "Fliesenleger · Tutzing",
+      "headline": "Ihr Fliesenleger in Tutzing",
+      "sub": "Bad, Küche und Boden – exakt verlegt am Starnberger See.",
+      "ctaPrimary": "Kostenloses Angebot anfragen",
       "ctaSecondary": "Anrufen",
       "bullets": [
-        "Betrieb aus Holzkirchen",
-        "Pflege und Zaunbau",
-        "Persönlicher Ansprechpartner"
+        "Fliesenleger aus Tutzing",
+        "Wand und Boden",
+        "Direkt per Handy erreichbar"
       ],
-      "imageLabel": "gepflegter Garten mit neuem Holzzaun"
+      "imageLabel": "frisch gefliestes, helles Bad mit großformatigen Fliesen"
     },
     "badges": [
       {
-        "title": "Gartenpflege",
-        "sub": "rund ums Jahr"
+        "title": "Fliesen",
+        "sub": "Wand & Boden"
       },
       {
-        "title": "Zaunbau",
-        "sub": "für Haus & Garten"
+        "title": "Bad",
+        "sub": "neu gefliest"
       },
       {
-        "title": "Persönlich",
-        "sub": "Florian Riepl"
+        "title": "Küche",
+        "sub": "Fliesenspiegel"
       },
       {
-        "title": "Holzkirchen",
-        "sub": "Südstraße"
+        "title": "Tutzing",
+        "sub": "Primelweg"
       }
     ],
     "trust": [
       {
         "value": "Vor Ort",
-        "label": "Betrieb in Holzkirchen"
+        "label": "Betrieb in Tutzing"
       },
       {
-        "value": "2",
-        "label": "Leistungsbereiche"
+        "value": "Fliesen",
+        "label": "unser Handwerk"
       },
       {
-        "value": "Außen",
-        "label": "Garten & Zaun"
+        "value": "Innen",
+        "label": "Bad, Küche, Flur"
       },
       {
-        "value": "Direkt",
-        "label": "ohne Umwege"
+        "value": "Mobil",
+        "label": "schnell erreichbar"
       }
     ],
     "servicesIntro": {
-      "headline": "Garten und Zaun aus einer Hand",
-      "text": "Ob der Rasen gemäht, die Hecke geschnitten oder ein Zaun neu gesetzt werden soll – ein Anruf genügt."
+      "headline": "Fliesenarbeiten für Haus und Wohnung",
+      "text": "Ob neues Bad, Küchenrückwand oder Flurboden: Wir verlegen Fliesen passgenau, mit sauberem Fugenbild und klaren Kanten."
     },
     "services": [
       {
-        "title": "Rasenpflege",
-        "text": "Regelmäßiges Mähen und Pflegen, damit der Rasen dicht und gleichmäßig bleibt.",
+        "title": "Badfliesen",
+        "text": "Wände und Boden im Bad neu gefliest – vom Gäste-WC bis zum großen Familienbad.",
         "items": [
-          "Mähen",
-          "Vertikutieren",
-          "Rasenkanten"
+          "Wandfliesen",
+          "Bodenfliesen",
+          "Duschbereich"
         ]
       },
       {
-        "title": "Heckenschnitt",
-        "text": "Hecken und Sträucher in Form gebracht – sauber geschnitten, Schnittgut entsorgt.",
+        "title": "Bodenfliesen",
+        "text": "Robuste Fliesenböden für Flur, Küche und Wohnräume – plan verlegt und pflegeleicht.",
         "items": [
-          "Formschnitt",
-          "Rückschnitt",
-          "Abtransport"
+          "Flur",
+          "Wohnräume",
+          "Großformate"
         ]
       },
       {
-        "title": "Beetpflege",
-        "text": "Unkraut entfernen, Beete auflockern und für die Saison vorbereiten.",
+        "title": "Küchenspiegel",
+        "text": "Fliesen hinter Arbeitsplatte und Herd – leicht zu reinigen und passend zur Küche.",
         "items": [
-          "Jäten",
-          "Mulchen",
-          "Saisonpflege"
+          "Fliesenspiegel",
+          "Arbeitsbereich",
+          "Steckdosenausschnitte"
         ]
       },
       {
-        "title": "Zaunbau",
-        "text": "Neue Zäune für Garten und Grundstück – passend zum Haus gesetzt.",
+        "title": "Sockel & Kanten",
+        "text": "Saubere Abschlüsse mit Sockelleisten und Profilen für ein stimmiges Gesamtbild.",
         "items": [
-          "Gartenzäune",
-          "Sichtschutz",
-          "Pfosten setzen"
+          "Sockelfliesen",
+          "Kantenprofile",
+          "Übergänge"
         ]
       },
       {
-        "title": "Zaunreparatur",
-        "text": "Lockere Pfosten, kaputte Latten oder Felder werden instand gesetzt.",
+        "title": "Verfugen",
+        "text": "Neue Fugen für ein gleichmäßiges Bild – auch bei bestehenden Flächen.",
         "items": [
-          "Pfosten richten",
-          "Felder tauschen",
-          "Instandsetzung"
+          "Fugen erneuern",
+          "Silikonfugen",
+          "Fugenfarbe"
         ]
       },
       {
-        "title": "Herbst & Frühjahr",
-        "text": "Laub räumen, Garten winterfest machen und im Frühjahr wieder aufbereiten.",
+        "title": "Reparaturen",
+        "text": "Einzelne gesprungene oder lose Fliesen werden ausgetauscht, statt die ganze Fläche zu erneuern.",
         "items": [
-          "Laubräumen",
-          "Winterfest",
-          "Frühjahrsputz"
+          "Fliesen tauschen",
+          "Lose Fliesen",
+          "Kleine Flächen"
         ]
       }
     ],
     "why": {
-      "headline": "Gartenservice aus Holzkirchen – persönlich und verlässlich.",
+      "headline": "Fliesen aus Tutzing – direkt vom Handwerker.",
       "points": [
         {
           "title": "Kurze Wege",
-          "text": "Von Holzkirchen schnell in Otterfing, Valley, Warngau und Sauerlach."
+          "text": "Von Tutzing aus schnell in Feldafing, Pöcking, Bernried und Starnberg."
         },
         {
-          "title": "Ein Ansprechpartner",
-          "text": "Sie sprechen direkt mit Florian Riepl – ohne Zwischenstellen."
+          "title": "Direkter Kontakt",
+          "text": "Sie sprechen direkt mit Tomasz Zaluski – ohne Zwischenstelle."
         },
         {
-          "title": "Pflege und Zaun",
-          "text": "Gartenarbeit und Zaunbau in einem Auftrag."
+          "title": "Exaktes Fugenbild",
+          "text": "Fliesen werden geplant aufgeteilt, damit Schnitte und Fugen stimmig sitzen."
         },
         {
-          "title": "Auch einmalig",
-          "text": "Regelmäßige Pflege oder einmaliger Einsatz – beides ist möglich."
+          "title": "Fotos genügen",
+          "text": "Für eine erste Einschätzung reichen ein paar Bilder per WhatsApp."
         }
       ]
     },
@@ -253,132 +255,132 @@
       "headline": "Was Kunden sagen",
       "summary": "Kundenstimmen werden hier eingebunden, sobald sie aus dem Google-Profil übernommen sind.",
       "highlights": [
-        "Gartenservice in Holzkirchen",
-        "Zaunbau",
-        "Persönlicher Kontakt"
+        "Fliesen in Tutzing",
+        "Bad, Küche und Boden",
+        "Direkter Kontakt"
       ],
       "source": "Google",
-      "sourceUrl": "https://www.google.com/maps/search/?api=1&query=Riepl%20Florian%20Gartenservice%20Holzkirchen",
+      "sourceUrl": "https://www.google.com/maps/search/?api=1&query=Tomasz%20Zaluski%20Fliesenleger%20Primelweg%204%20Tutzing",
       "rating": null,
       "count": null
     },
     "process": {
-      "headline": "So kommt Ihr Garten in Form",
+      "headline": "So kommen Ihre neuen Fliesen an die Wand",
       "steps": [
         {
           "title": "Anfrage",
-          "text": "Kurz anrufen oder Fotos vom Garten schicken."
+          "text": "Raum, ungefähre Fläche und Fotos per WhatsApp schicken – oder kurz anrufen."
         },
         {
-          "title": "Besichtigung",
-          "text": "Umfang und Wünsche werden vor Ort besprochen."
+          "title": "Aufmaß",
+          "text": "Untergrund, Maße und Fliesenauswahl werden vor Ort besprochen."
         },
         {
           "title": "Angebot",
-          "text": "Sie erhalten ein klares Angebot – einmalig oder regelmäßig."
+          "text": "Sie erhalten ein klares Angebot für Material und Verlegung."
         },
         {
-          "title": "Umsetzung",
-          "text": "Pflege oder Zaunbau zum vereinbarten Termin."
+          "title": "Verlegung",
+          "text": "Untergrund vorbereiten, verlegen, verfugen – sauber übergeben."
         }
       ]
     },
     "gallery": {
-      "headline": "Gärten, die gepflegt aussehen",
-      "text": "Für die Live-Version zeigen wir hier echte Arbeiten des Betriebs.",
+      "headline": "Flächen, die wir gefliest haben",
+      "text": "Für die Live-Version zeigen wir hier echte Projekte des Betriebs.",
       "items": [
         {
-          "title": "Rasen",
-          "photoNeeded": "frisch gemähter Rasen mit sauberen Kanten"
+          "title": "Neues Bad",
+          "photoNeeded": "komplett gefliestes Bad mit Dusche"
         },
         {
-          "title": "Hecke",
-          "photoNeeded": "frisch geschnittene Hecke"
+          "title": "Flurboden",
+          "photoNeeded": "großformatige Bodenfliesen im Eingangsbereich"
         },
         {
-          "title": "Neuer Zaun",
-          "photoNeeded": "neu gesetzter Gartenzaun"
+          "title": "Küchenspiegel",
+          "photoNeeded": "gefliester Bereich hinter der Arbeitsplatte"
         },
         {
-          "title": "Beete",
-          "photoNeeded": "gepflegte, gemulchte Beete"
+          "title": "Gäste-WC",
+          "photoNeeded": "kleines WC mit Wandfliesen"
         },
         {
-          "title": "Herbstpflege",
-          "photoNeeded": "vom Laub befreiter Garten im Herbst"
+          "title": "Fugenbild",
+          "photoNeeded": "Detailaufnahme exakter Fugen und Kanten"
         }
       ]
     },
     "region": {
-      "headline": "Gartenservice für Holzkirchen und Umgebung",
-      "text": "Von Holzkirchen aus in Otterfing, Valley, Warngau, Sauerlach und Weyarn.",
+      "headline": "Fliesenleger für Tutzing und den Starnberger See",
+      "text": "Von Tutzing aus im Einsatz in Feldafing, Pöcking, Bernried, Starnberg und Weilheim.",
       "places": [
-        "Holzkirchen",
-        "Otterfing",
-        "Valley",
-        "Warngau",
-        "Sauerlach",
-        "Weyarn"
+        "Tutzing",
+        "Feldafing",
+        "Pöcking",
+        "Bernried",
+        "Starnberg",
+        "Weilheim"
       ]
     },
     "faq": [
       {
-        "q": "Übernehmen Sie regelmäßige Gartenpflege?",
-        "a": "Regelmäßige oder einmalige Einsätze werden nach Absprache vereinbart."
-      },
-      {
-        "q": "Setzen Sie auch neue Zäune?",
-        "a": "Ja, Zaunbau gehört zum Angebot – fragen Sie mit Länge und Wunschmaterial an."
-      },
-      {
-        "q": "Wird Schnittgut mitgenommen?",
-        "a": "Das wird bei der Besichtigung abgestimmt."
-      },
-      {
         "q": "Kann ich vorab Fotos schicken?",
-        "a": "Ja, Fotos helfen für eine erste Einschätzung."
+        "a": "Ja, Fotos und grobe Maße per WhatsApp helfen für eine erste Einschätzung."
       },
       {
-        "q": "Arbeiten Sie auch außerhalb von Holzkirchen?",
-        "a": "Ja, in der Umgebung von Holzkirchen – sprechen Sie uns an."
+        "q": "Bringen Sie die Fliesen mit?",
+        "a": "Das wird individuell abgesprochen – Sie können eigene Fliesen stellen oder die Auswahl gemeinsam treffen."
+      },
+      {
+        "q": "Übernehmen Sie auch kleine Reparaturen?",
+        "a": "Fragen Sie gern an – auch einzelne Fliesen oder Fugen lassen sich erneuern."
+      },
+      {
+        "q": "Wie lange dauert ein Bad?",
+        "a": "Das hängt von Größe und Untergrund ab. Ein Zeitplan wird nach dem Aufmaß abgestimmt."
+      },
+      {
+        "q": "Arbeiten Sie auch außerhalb von Tutzing?",
+        "a": "Ja, im Umkreis von Tutzing rund um den Starnberger See – fragen Sie einfach an."
       }
     ],
     "contact": {
-      "headline": "Ihre Anfrage – unverbindlich",
-      "text": "Beschreiben Sie kurz, was ansteht: Rasen, Hecke, Beete oder Zaun. Fotos helfen.",
+      "headline": "Ihr Angebot – kostenlos und unverbindlich",
+      "text": "Beschreiben Sie kurz Ihr Vorhaben: welcher Raum, ungefähre Fläche und ob Wand, Boden oder beides. Fotos helfen.",
       "topics": [
-        "Rasenpflege",
-        "Heckenschnitt",
-        "Beetpflege",
-        "Zaunbau",
+        "Bad",
+        "Bodenfliesen",
+        "Küchenspiegel",
+        "Reparatur",
         "Sonstiges"
       ],
-      "responseNote": "Besichtigung nach Absprache."
+      "responseNote": "Aufmaß vor Ort nach Absprache."
     },
     "quote": {
-      "sizeLabel": "Wie groß ist der Garten?",
+      "sizeLabel": "Welche Fläche soll gefliest werden?",
       "sizes": [
-        "Kleiner Garten",
-        "Reihenhausgarten",
-        "Großes Grundstück",
-        "Nur Zaun"
+        "Bis 5 m²",
+        "5–15 m²",
+        "15–40 m²",
+        "Mehr als 40 m²"
       ],
       "timings": [
         "So bald wie möglich",
         "In den nächsten Wochen",
-        "Regelmäßig ab Saison",
+        "In 1–3 Monaten",
         "Ich plane erst noch"
       ]
     },
-    "stickyCta": "Jetzt anfragen",
+    "stickyCta": "Angebot anfragen",
     "look": {
-      "palette": 2,
-      "font": 6,
-      "hero": 0,
+      "palette": 1,
+      "font": 1,
+      "hero": 1,
       "services": 1,
-      "radius": 1,
-      "logo": 0,
-      "intro": 5
+      "radius": 4,
+      "logo": 1,
+      "intro": 2
     }
   }
 }

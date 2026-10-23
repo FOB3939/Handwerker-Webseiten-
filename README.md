@@ -156,3 +156,17 @@ Schnell-Check-Liste mit Google-Maps-Links und Reserve-Kandidaten.
 - Reserve: KC Holztechnik (Ottobrunn): https://claude.ai/artifact/5XvWM6Y9zZm8YsEAQcxftj
 - Reserve: SK Baumdienst (Sauerlach): https://claude.ai/artifact/AoqAoSp3R5yn91q6xQsFPz
 - Reserve: Johann Hobmeier Malerbetrieb (Erding): https://claude.ai/artifact/59QUVFp8TsEiRHnFCirqav
+
+## Entwürfe 2026-10-23
+
+- WhatsApp-Entwürfe: https://claude.ai/artifact/HeXoEgBuU5ZNJ31D6pZ2Gz
+- Pllana Handwerk und Dienstleistung (Poing): https://claude.ai/artifact/QihVPiSbQCQtrgWctZsbow
+- Bernhard Keller Metallbau und Schlosserei (Bad Tölz): https://claude.ai/artifact/C2RkgE3vw3CVc89hXkK1Nj
+- ASE Serviceteam A. Haxhiu (Landsberg): https://claude.ai/artifact/QWjiBLxZmLQCeNaiBhyQBH
+- Trockenbau Csekk Attila (Kirchheim): https://claude.ai/artifact/94z5FkbQJce1u2NrJQXhvP
+- Reserve: Dan Suciu (Taufkirchen): https://claude.ai/artifact/A9gMsCoRakj2kF2vZK5ozf
+- Reserve: Tomasz Zaluski Fliesenleger (Tutzing): https://claude.ai/artifact/EmbuvHdY4QFVZsZFZM2NkC
+- Reserve: Krenz Fußbodenverlegung (Weilheim): https://claude.ai/artifact/QYtP8HuXxBTUiL13r1Rs6w
+- Reserve: Hausklar Dienstleistungen (Friedberg): https://claude.ai/artifact/Y2iH3Z6Jg8F7JgzV6dKn2r
+- Reserve: Mafero Sonnenschutztechnik (Garching): https://claude.ai/artifact/Tonqd1kxiSF2RSugfqK8EM
+- Reserve: Construktion (Murnau): https://claude.ai/artifact/WE4uK9bc9GuUtZgFkWJwNT

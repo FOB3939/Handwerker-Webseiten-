@@ -1,243 +1,396 @@
 {
   "id": "2026-10-23-107",
-  "slug": "tomasz-zaluski-fliesenleger-tutzing",
+  "slug": "krenz-fussbodenverlegung-weilheim",
   "date": "2026-10-23",
   "company": {
-    "name": "Tomasz Zaluski Fliesenleger",
-    "owner": "Tomasz Zaluski",
-    "trade": "Fliesenleger",
-    "city": "Tutzing",
-    "address": "Primelweg 4, 82327 Tutzing",
-    "phone": "01590 4040747",
+    "name": "Krenz Fußbodenverlegung",
+    "owner": null,
+    "trade": "Bodenleger & Parkett",
+    "city": "Weilheim in Oberbayern",
+    "address": "Enzianweg 12, 82362 Weilheim in Oberbayern",
+    "phone": "0171 4329046",
     "email": null,
     "serviceArea": [
-      "Tutzing",
-      "Feldafing",
-      "Pöcking",
-      "Bernried",
-      "Starnberg",
-      "Weilheim"
+      "Weilheim",
+      "Wielenbach",
+      "Polling",
+      "Peißenberg",
+      "Pähl",
+      "Raisting"
     ]
   },
   "listings": {
     "google": {
-      "url": "https://www.google.com/maps/search/?api=1&query=Tomasz%20Zaluski%20Fliesenleger%20Primelweg%204%20Tutzing",
+      "url": "https://www.google.com/maps/search/?api=1&query=Krenz%20Fu%C3%9Fbodenverlegung%20Enzianweg%2012%20Weilheim",
       "rating": null,
       "reviews": null,
-      "evidence": "NICHT BELEGT – kein Google-Spiegel (rgv-bayern, firmania, trustlocal) zu „Zaluski“ gefunden; trustlocal-Liste Fliesenleger Tutzing nennt den Betrieb im Snippet nicht. Existenz eines Google-Eintrags in Maps prüfen."
+      "evidence": "NICHT BELEGT – kein Google-Spiegel (trustlocal, rgv-bayern, firmania) mit diesem Betrieb gefunden; trustlocal-Suche „Krenz Bodenleger Weilheim“ ohne Treffer. In Google Maps prüfen, ob ein Eintrag existiert und ob dort eine Website hinterlegt ist."
     },
     "myhammer": {
-      "url": "https://www.11880.com/suche/fliesenleger/tutzing",
+      "url": "https://www.11880.com/branchenbuch/weilheim-in-oberbayern/060690823B26763284/krenz-fussbodenverlegung.html",
       "rating": null,
       "reviews": null,
-      "evidence": "Kein MyHammer gefunden – einziger Beleg: 11880-Eintrag „Tomasz Zaluski Fliesenleger, 82327 Tutzing, Primelweg 4, (01590) 4040747“ (Ortsliste Fliesenleger Tutzing)."
+      "evidence": "Kein MyHammer gefunden – 11880-Eintrag „Krenz Fußbodenverlegung“, Enzianweg 12, Weilheim, Tel. (0171) 4329046 (Kategorien Bodenleger/Parkettleger); zweites Verzeichnis mit derselben Adresse und 01714329046."
     }
   },
   "websiteStatus": "keine eigene Website gefunden",
   "websiteChecks": [
-    "(1) „Tomasz Zaluski Fliesenleger Tutzing“ mit blocked_domains (11880, Gelbe Seiten, Das Örtliche, Telefonbuch, Cylex, meinestadt, Creditreform, Facebook, Instagram, golocal, MyHammer, Northdata, Firmenwissen, WKDB, Yelp, trustlocal, wlw) – nur fremde Fliesenbetriebe (Keramlux, Fliesen Stefanic, Fliesen Schlagwein, peker fliesenleger) und Verzeichnislisten; keine eigene Domain",
-    "(2) Telefon-/Namenssuche „01590 4040747“/„015904040747“/„Zaluski Tutzing“ – keine Treffer außer Wikipedia/historischen Personen; keine Website",
-    "(3) Domain-Check allowed_domains zaluski-fliesen.de, fliesen-zaluski.de, zaluski.de, fliesenleger-zaluski.de, zaluski-fliesenleger.de, tz-fliesen.de, fliesen-tutzing.de, zaluski.com – keine Treffer",
-    "(4) Google-Spiegel (rgv-bayern, firmania, trustlocal) – kein Profil gefunden",
-    "Keine E-Mail-Adresse gefunden (weder Freemail noch Firmendomain)",
-    "Website-Risiko: niedrig, aber RESERVE – weder Google-Eintrag noch Freemail belegt"
+    "(1) „Krenz Fußbodenverlegung Weilheim“ mit blocked_domains (11880, Gelbe Seiten, Das Örtliche, Telefonbuch, Cylex, meinestadt, Creditreform, Facebook, Instagram, golocal, MyHammer, Northdata, Firmenwissen, WKDB, Yelp, trustlocal, wlw) – nur Verzeichnisse (branchen-info.net „Horst Krenz Bodenlegerei“, Kirchmayrstr. 16, Tel. 0881-49716; andere Bodenleger wie bodenbelaege-mom.de sind fremde Firmen); keine eigene Domain",
+    "(2) Telefonsuche „0171 4329046“/„01714329046“ – keine Website, nur allgemeine Rückwärtssuche-Seiten",
+    "(3) Domain-Check allowed_domains krenz-bodenleger.de, bodenleger-krenz.de, krenz-boden.de, krenz-fussboden.de, krenz-weilheim.de – keine Treffer",
+    "(4) „Krenz Fußbodenverlegung“ + Enzianweg ohne 11880 – nur Verzeichnisse (Cylex, branchenbuch-bayern, tellows-Liste), kein Website-Feld, keine E-Mail",
+    "Keine E-Mail-Adresse gefunden (auch keine Freemail)",
+    "Website-Risiko: mittel – alle Prüfungen negativ, aber weder Google-Eintrag noch Freemail belegt (RESERVE)"
   ],
   "facts": {
     "services": [
-      "Fliesenverlegung"
+      "Fußbodenverlegung",
+      "Parkett verlegen",
+      "Bodenbeläge"
     ],
     "experience": null,
     "praisedFor": []
   },
   "strategy": {
-    "audience": "Hauseigentümer und Vermieter in Tutzing, Feldafing, Pöcking und Bernried, die Bad, Küche, Flur oder Terrasse neu fliesen lassen wollen",
-    "mainService": "Fliesen verlegen – Bad, Küche, Boden und Wand",
-    "trustSignal": "Fliesenleger direkt aus Tutzing, per Handy erreichbar",
-    "conversionGoal": "Kostenloses Angebot für Fliesenarbeiten anfragen (per WhatsApp/Anruf mit Fotos und Maßen)",
-    "visualConcept": "Ruhige Materialästhetik: großformatige Fliesen, exakte Fugenbilder, helles Bad mit Seeblick-Stimmung vom Starnberger See"
+    "audience": "Hauseigentümer, Vermieter und Renovierer in Weilheim und Umgebung, die neue Böden in Wohnung oder Haus wollen",
+    "mainService": "Fußbodenverlegung – Parkett und Bodenbeläge",
+    "trustSignal": "Bodenleger aus Weilheim, direkt per Handy erreichbar",
+    "conversionGoal": "Unverbindliches Angebot für neuen Boden anfragen (Anruf/WhatsApp mit Fotos und Quadratmetern)",
+    "visualConcept": "Warme Holztöne, frisch verlegtes Parkett im Streiflicht, saubere Sockelleisten – handwerklich und ruhig"
   },
   "sales": {
     "score": 3,
     "whyGoodLead": [
-      "Keine eigene Website gefunden – nur ein einziger Verzeichniseintrag",
-      "Mobilnummer öffentlich gelistet – direkter WhatsApp-Erstkontakt möglich",
-      "Fliesenleger ist bei uns ein seltenes Gewerk",
-      "Kaum Online-Sichtbarkeit – eine Website plus Google-Profil würde den Betrieb erstmals auffindbar machen"
+      "Keine eigene Website gefunden – nur Verzeichniseinträge mit Handynummer",
+      "Mobilnummer öffentlich gelistet – ideal für WhatsApp-Erstkontakt",
+      "Boden/Parkett ist bisher selten unter den Leads",
+      "Kaum Online-Sichtbarkeit – eine Website mit Bodenbeispielen hebt den Betrieb ab"
     ],
-    "pitch": "Hallo Herr Zaluski, hier ist … – ich baue Websites für Handwerker am Starnberger See. Ich habe Ihren Eintrag als Fliesenleger in Tutzing gefunden, aber keine eigene Website. Ich habe unverbindlich einen Entwurf vorbereitet, auf dem Kunden Ihre Fliesenarbeiten sehen und direkt per WhatsApp anfragen können – darf ich Ihnen den Link schicken?"
+    "pitch": "Hallo, hier ist … – ich baue Websites für Handwerker im Landkreis Weilheim-Schongau. Ich habe Ihren Eintrag „Krenz Fußbodenverlegung“ in Weilheim gefunden, aber keine eigene Website. Ich habe unverbindlich einen Entwurf vorbereitet, auf dem Kunden Ihre Parkett- und Bodenarbeiten sehen und direkt per WhatsApp anfragen können – darf ich Ihnen den Link schicken?"
   },
   "manualChecks": [
     "RESERVE – weder Google-Eintrag noch Freemail-Adresse belegt: NUR versenden, wenn Google Maps einen Eintrag OHNE Website zeigt.",
-    "Prüfen, ob der Betrieb noch aktiv ist (einziger Beleg ist der 11880-Eintrag, Datum unbekannt)",
-    "Rufnummer 01590 4040747 (Mobilfunk) vor Erstkontakt verifizieren",
-    "Leistungen nur als „Fliesenleger“ belegt – Detailleistungen (Bad, Naturstein, Terrasse, Abdichtung) beim Betrieb bestätigen",
+    "Google-Eintrag in Maps suchen (Name, Enzianweg 12) – Existenz, Website-Feld und Bewertungen prüfen",
+    "Verhältnis zu „Horst Krenz Bodenlegerei“, Kirchmayrstr. 16, Tel. 0881-49716 klären (evtl. älterer Eintrag oder Familienbetrieb) – sicherstellen, dass auch dieser keine Website hat",
+    "Inhabername nicht belegt – beim Erstkontakt erfragen, Anrede neutral halten",
+    "Leistungen nur grob belegt (Bodenleger/Parkettleger) – Bodenarten (Vinyl, Teppich, Schleifen) beim Betrieb bestätigen",
     "Logo und Projektfotos: nicht gefunden – beim Betrieb anfragen"
   ],
   "sources": [
     {
-      "label": "11880 – Fliesenleger Tutzing (Liste mit Tomasz Zaluski Fliesenleger)",
-      "url": "https://www.11880.com/suche/fliesenleger/tutzing"
+      "label": "11880 – Krenz Fußbodenverlegung, Weilheim",
+      "url": "https://www.11880.com/branchenbuch/weilheim-in-oberbayern/060690823B26763284/krenz-fussbodenverlegung.html"
+    },
+    {
+      "label": "branchen-info.net – Horst Krenz Bodenlegerei Weilheim",
+      "url": "https://weilheim-in-oberbayern.branchen-info.net/fp_1343065.php"
+    },
+    {
+      "label": "Cylex – Teppichboden Weilheim (Liste)",
+      "url": "https://web2.cylex.de/suche/teppichboden/weilheim-in-oberbayern"
     }
   ],
   "site": {
-    "theme": "aqua",
+    "theme": "atelier",
     "category": "handwerk",
     "heroOffer": [
-      "Badfliesen",
-      "Bodenfliesen",
-      "Wandfliesen",
-      "Küchenspiegel",
-      "Reparaturen"
+      "Parkett",
+      "Bodenbeläge",
+      "Vinyl",
+      "Sockelleisten"
     ],
-    "scene": "bath",
-    "logoIcon": "trowel",
-    "logoMark": "TZ",
-    "brandName": "Fliesen Zaluski",
-    "seoTitle": "Fliesenleger in Tutzing – Tomasz Zaluski",
-    "seoDescription": "Fliesenleger in Tutzing: Bad, Küche, Boden und Wand sauber gefliest. Jetzt kostenloses Angebot anfragen – auch per WhatsApp.",
+    "scene": "parquet",
+    "logoIcon": "plank",
+    "logoMark": "KF",
+    "brandName": "Krenz Fußbodenverlegung",
+    "seoTitle": "Bodenleger in Weilheim – Krenz Fußbodenverlegung",
+    "seoDescription": "Parkett und Bodenbeläge verlegen in Weilheim und Umgebung. Jetzt unverbindliches Angebot anfragen – auch per WhatsApp.",
     "nav": [
-      { "label": "Leistungen", "href": "#leistungen" },
-      { "label": "Projekte", "href": "#projekte" },
-      { "label": "Bewertungen", "href": "#bewertungen" },
-      { "label": "Ablauf", "href": "#ablauf" },
-      { "label": "FAQ", "href": "#faq" },
-      { "label": "Kontakt", "href": "#kontakt" }
+      {
+        "label": "Leistungen",
+        "href": "#leistungen"
+      },
+      {
+        "label": "Projekte",
+        "href": "#projekte"
+      },
+      {
+        "label": "Bewertungen",
+        "href": "#bewertungen"
+      },
+      {
+        "label": "Ablauf",
+        "href": "#ablauf"
+      },
+      {
+        "label": "FAQ",
+        "href": "#faq"
+      },
+      {
+        "label": "Kontakt",
+        "href": "#kontakt"
+      }
     ],
     "hero": {
-      "eyebrow": "Fliesenleger · Tutzing",
-      "headline": "Ihr Fliesenleger in Tutzing",
-      "sub": "Bad, Küche und Boden – exakt verlegt am Starnberger See.",
-      "ctaPrimary": "Kostenloses Angebot anfragen",
+      "eyebrow": "Bodenleger · Weilheim",
+      "headline": "Neue Böden für Weilheim",
+      "sub": "Parkett und Bodenbeläge sauber verlegt – vom Zimmer bis zum ganzen Haus.",
+      "ctaPrimary": "Angebot anfragen",
       "ctaSecondary": "Anrufen",
       "bullets": [
-        "Fliesenleger aus Tutzing",
-        "Wand und Boden",
+        "Bodenleger aus Weilheim",
+        "Parkett und Bodenbeläge",
         "Direkt per Handy erreichbar"
       ],
-      "imageLabel": "frisch gefliestes, helles Bad mit großformatigen Fliesen"
+      "imageLabel": "frisch verlegtes Eichenparkett im Wohnzimmer"
     },
     "badges": [
-      { "title": "Fliesen", "sub": "Wand & Boden" },
-      { "title": "Bad", "sub": "neu gefliest" },
-      { "title": "Küche", "sub": "Fliesenspiegel" },
-      { "title": "Tutzing", "sub": "Primelweg" }
+      {
+        "title": "Parkett",
+        "sub": "verlegt & versiegelt"
+      },
+      {
+        "title": "Bodenbeläge",
+        "sub": "für jeden Raum"
+      },
+      {
+        "title": "Untergrund",
+        "sub": "sorgfältig vorbereitet"
+      },
+      {
+        "title": "Weilheim",
+        "sub": "Enzianweg"
+      }
     ],
     "trust": [
-      { "value": "Vor Ort", "label": "Betrieb in Tutzing" },
-      { "value": "Fliesen", "label": "unser Handwerk" },
-      { "value": "Innen", "label": "Bad, Küche, Flur" },
-      { "value": "Mobil", "label": "schnell erreichbar" }
+      {
+        "value": "Vor Ort",
+        "label": "Betrieb in Weilheim"
+      },
+      {
+        "value": "Boden",
+        "label": "unser Handwerk"
+      },
+      {
+        "value": "Mobil",
+        "label": "schnell erreichbar"
+      },
+      {
+        "value": "Fotos",
+        "label": "für erste Einschätzung"
+      }
     ],
     "servicesIntro": {
-      "headline": "Fliesenarbeiten für Haus und Wohnung",
-      "text": "Ob neues Bad, Küchenrückwand oder Flurboden: Wir verlegen Fliesen passgenau, mit sauberem Fugenbild und klaren Kanten."
+      "headline": "Vom Untergrund bis zur letzten Leiste",
+      "text": "Ein guter Boden beginnt unter der Oberfläche: Wir bereiten den Untergrund vor, verlegen sauber und schließen mit passenden Leisten ab."
     },
     "services": [
       {
-        "title": "Badfliesen",
-        "text": "Wände und Boden im Bad neu gefliest – vom Gäste-WC bis zum großen Familienbad.",
-        "items": ["Wandfliesen", "Bodenfliesen", "Duschbereich"]
+        "title": "Parkett verlegen",
+        "text": "Massiv- oder Fertigparkett, verklebt oder schwimmend – passend zu Raum und Nutzung.",
+        "items": [
+          "Fertigparkett",
+          "Landhausdielen",
+          "Fischgrät"
+        ]
       },
       {
-        "title": "Bodenfliesen",
-        "text": "Robuste Fliesenböden für Flur, Küche und Wohnräume – plan verlegt und pflegeleicht.",
-        "items": ["Flur", "Wohnräume", "Großformate"]
+        "title": "Designböden",
+        "text": "Vinyl- und Designbeläge für Küche, Flur und Bad-nahe Räume – robust und pflegeleicht.",
+        "items": [
+          "Vinyl",
+          "Klick-Systeme",
+          "Klebeware"
+        ]
       },
       {
-        "title": "Küchenspiegel",
-        "text": "Fliesen hinter Arbeitsplatte und Herd – leicht zu reinigen und passend zur Küche.",
-        "items": ["Fliesenspiegel", "Arbeitsbereich", "Steckdosenausschnitte"]
+        "title": "Teppichboden",
+        "text": "Weiche Beläge für Schlafzimmer, Kinderzimmer und Treppen.",
+        "items": [
+          "Teppichboden",
+          "Treppen",
+          "Schlafräume"
+        ]
       },
       {
-        "title": "Sockel & Kanten",
-        "text": "Saubere Abschlüsse mit Sockelleisten und Profilen für ein stimmiges Gesamtbild.",
-        "items": ["Sockelfliesen", "Kantenprofile", "Übergänge"]
+        "title": "Untergrund",
+        "text": "Alter Belag raus, Untergrund prüfen, ausgleichen – damit der neue Boden lange hält.",
+        "items": [
+          "Altbelag entfernen",
+          "Ausgleichen",
+          "Trittschall"
+        ]
       },
       {
-        "title": "Verfugen",
-        "text": "Neue Fugen für ein gleichmäßiges Bild – auch bei bestehenden Flächen.",
-        "items": ["Fugen erneuern", "Silikonfugen", "Fugenfarbe"]
+        "title": "Sockelleisten",
+        "text": "Saubere Abschlüsse an Wand, Tür und Übergang.",
+        "items": [
+          "Sockelleisten",
+          "Übergangsprofile",
+          "Türanschlüsse"
+        ]
       },
       {
-        "title": "Reparaturen",
-        "text": "Einzelne gesprungene oder lose Fliesen werden ausgetauscht, statt die ganze Fläche zu erneuern.",
-        "items": ["Fliesen tauschen", "Lose Fliesen", "Kleine Flächen"]
+        "title": "Renovierung",
+        "text": "Neuer Boden beim Umzug, Mieterwechsel oder als Teil einer Sanierung.",
+        "items": [
+          "Mieterwechsel",
+          "Altbau",
+          "Einzelräume"
+        ]
       }
     ],
     "why": {
-      "headline": "Fliesen aus Tutzing – direkt vom Handwerker.",
+      "headline": "Ihr Bodenleger aus Weilheim.",
       "points": [
-        { "title": "Kurze Wege", "text": "Von Tutzing aus schnell in Feldafing, Pöcking, Bernried und Starnberg." },
-        { "title": "Direkter Kontakt", "text": "Sie sprechen direkt mit Tomasz Zaluski – ohne Zwischenstelle." },
-        { "title": "Exaktes Fugenbild", "text": "Fliesen werden geplant aufgeteilt, damit Schnitte und Fugen stimmig sitzen." },
-        { "title": "Fotos genügen", "text": "Für eine erste Einschätzung reichen ein paar Bilder per WhatsApp." }
+        {
+          "title": "Kurze Wege",
+          "text": "Vom Enzianweg schnell in Wielenbach, Polling, Pähl und Peißenberg."
+        },
+        {
+          "title": "Direkter Draht",
+          "text": "Ein Anruf oder eine WhatsApp-Nachricht genügt – Sie sprechen mit dem Bodenleger selbst."
+        },
+        {
+          "title": "Sauberer Untergrund",
+          "text": "Vorbereitung wird nicht ausgelassen – sie entscheidet über die Haltbarkeit."
+        },
+        {
+          "title": "Ein Ansprechpartner",
+          "text": "Vom Ausmessen bis zur letzten Leiste aus einer Hand."
+        }
       ]
     },
     "reviews": {
       "headline": "Was Kunden sagen",
       "summary": "Kundenstimmen werden hier eingebunden, sobald sie aus dem Google-Profil übernommen sind.",
       "highlights": [
-        "Fliesen in Tutzing",
-        "Bad, Küche und Boden",
+        "Böden in Weilheim",
+        "Parkett und Beläge",
         "Direkter Kontakt"
       ],
       "source": "Google",
-      "sourceUrl": "https://www.google.com/maps/search/?api=1&query=Tomasz%20Zaluski%20Fliesenleger%20Primelweg%204%20Tutzing",
+      "sourceUrl": "https://www.google.com/maps/search/?api=1&query=Krenz%20Fu%C3%9Fbodenverlegung%20Enzianweg%2012%20Weilheim",
       "rating": null,
       "count": null
     },
     "process": {
-      "headline": "So kommen Ihre neuen Fliesen an die Wand",
+      "headline": "In vier Schritten zum neuen Boden",
       "steps": [
-        { "title": "Anfrage", "text": "Raum, ungefähre Fläche und Fotos per WhatsApp schicken – oder kurz anrufen." },
-        { "title": "Aufmaß", "text": "Untergrund, Maße und Fliesenauswahl werden vor Ort besprochen." },
-        { "title": "Angebot", "text": "Sie erhalten ein klares Angebot für Material und Verlegung." },
-        { "title": "Verlegung", "text": "Untergrund vorbereiten, verlegen, verfugen – sauber übergeben." }
+        {
+          "title": "Anfrage",
+          "text": "Fotos, Raum und ungefähre Quadratmeter per WhatsApp schicken – oder anrufen."
+        },
+        {
+          "title": "Aufmaß",
+          "text": "Vor Ort werden Untergrund, Fläche und Belag abgestimmt."
+        },
+        {
+          "title": "Angebot",
+          "text": "Sie erhalten ein klares Angebot für Material und Verlegung."
+        },
+        {
+          "title": "Verlegung",
+          "text": "Untergrund vorbereiten, verlegen, Leisten setzen – besenrein übergeben."
+        }
       ]
     },
     "gallery": {
-      "headline": "Flächen, die wir gefliest haben",
-      "text": "Für die Live-Version zeigen wir hier echte Projekte des Betriebs.",
+      "headline": "Böden, die Räume verändern",
+      "text": "Für die Live-Version zeigen wir hier echte Arbeiten des Betriebs.",
       "items": [
-        { "title": "Neues Bad", "photoNeeded": "komplett gefliestes Bad mit Dusche" },
-        { "title": "Flurboden", "photoNeeded": "großformatige Bodenfliesen im Eingangsbereich" },
-        { "title": "Küchenspiegel", "photoNeeded": "gefliester Bereich hinter der Arbeitsplatte" },
-        { "title": "Gäste-WC", "photoNeeded": "kleines WC mit Wandfliesen" },
-        { "title": "Fugenbild", "photoNeeded": "Detailaufnahme exakter Fugen und Kanten" }
+        {
+          "title": "Eichenparkett",
+          "photoNeeded": "Wohnzimmer mit frisch verlegtem Eichenparkett"
+        },
+        {
+          "title": "Fischgrät",
+          "photoNeeded": "Parkett im Fischgrätverband im Altbau"
+        },
+        {
+          "title": "Vinylboden",
+          "photoNeeded": "Küche oder Flur mit Designboden"
+        },
+        {
+          "title": "Treppe",
+          "photoNeeded": "mit Teppich oder Belag erneuerte Treppe"
+        },
+        {
+          "title": "Sockelleisten",
+          "photoNeeded": "saubere Leiste und Übergang an der Tür"
+        }
       ]
     },
     "region": {
-      "headline": "Fliesenleger für Tutzing und den Starnberger See",
-      "text": "Von Tutzing aus im Einsatz in Feldafing, Pöcking, Bernried, Starnberg und Weilheim.",
-      "places": ["Tutzing", "Feldafing", "Pöcking", "Bernried", "Starnberg", "Weilheim"]
+      "headline": "Bodenleger für Weilheim und Umgebung",
+      "text": "Von Weilheim aus schnell in Wielenbach, Polling, Pähl, Raisting und Peißenberg.",
+      "places": [
+        "Weilheim",
+        "Wielenbach",
+        "Polling",
+        "Peißenberg",
+        "Pähl",
+        "Raisting"
+      ]
     },
     "faq": [
-      { "q": "Kann ich vorab Fotos schicken?", "a": "Ja, Fotos und grobe Maße per WhatsApp helfen für eine erste Einschätzung." },
-      { "q": "Bringen Sie die Fliesen mit?", "a": "Das wird individuell abgesprochen – Sie können eigene Fliesen stellen oder die Auswahl gemeinsam treffen." },
-      { "q": "Übernehmen Sie auch kleine Reparaturen?", "a": "Fragen Sie gern an – auch einzelne Fliesen oder Fugen lassen sich erneuern." },
-      { "q": "Wie lange dauert ein Bad?", "a": "Das hängt von Größe und Untergrund ab. Ein Zeitplan wird nach dem Aufmaß abgestimmt." },
-      { "q": "Arbeiten Sie auch außerhalb von Tutzing?", "a": "Ja, im Umkreis von Tutzing rund um den Starnberger See – fragen Sie einfach an." }
+      {
+        "q": "Kann ich vorab Fotos schicken?",
+        "a": "Ja, Fotos vom Raum und vom alten Boden helfen für eine erste Einschätzung."
+      },
+      {
+        "q": "Bringen Sie das Material mit?",
+        "a": "Das wird beim Aufmaß abgestimmt – Sie können auch eigenes Material stellen."
+      },
+      {
+        "q": "Wird der alte Boden entfernt?",
+        "a": "Das kann Teil des Auftrags sein und wird im Angebot aufgeführt."
+      },
+      {
+        "q": "Wie lange dauert die Verlegung?",
+        "a": "Das hängt von Fläche und Belag ab; der Zeitplan steht nach dem Aufmaß."
+      },
+      {
+        "q": "Arbeiten Sie auch außerhalb von Weilheim?",
+        "a": "Ja, im Umkreis von Weilheim – fragen Sie einfach an."
+      }
     ],
     "contact": {
-      "headline": "Ihr Angebot – kostenlos und unverbindlich",
-      "text": "Beschreiben Sie kurz Ihr Vorhaben: welcher Raum, ungefähre Fläche und ob Wand, Boden oder beides. Fotos helfen.",
-      "topics": ["Bad", "Bodenfliesen", "Küchenspiegel", "Reparatur", "Sonstiges"],
+      "headline": "Ihr neuer Boden – unverbindlich angefragt",
+      "text": "Schreiben Sie kurz, welcher Raum, wie viele Quadratmeter und welcher Belag. Fotos helfen.",
+      "topics": [
+        "Parkett",
+        "Designboden",
+        "Teppichboden",
+        "Untergrund",
+        "Sonstiges"
+      ],
       "responseNote": "Aufmaß vor Ort nach Absprache."
     },
     "quote": {
-      "sizeLabel": "Welche Fläche soll gefliest werden?",
-      "sizes": ["Bis 5 m²", "5–15 m²", "15–40 m²", "Mehr als 40 m²"],
-      "timings": ["So bald wie möglich", "In den nächsten Wochen", "In 1–3 Monaten", "Ich plane erst noch"]
+      "sizeLabel": "Wie groß ist die Fläche?",
+      "sizes": [
+        "Ein Raum",
+        "Bis 50 m²",
+        "50–100 m²",
+        "Ganzes Haus"
+      ],
+      "timings": [
+        "So bald wie möglich",
+        "In den nächsten Wochen",
+        "In 1–3 Monaten",
+        "Ich plane erst noch"
+      ]
     },
     "stickyCta": "Angebot anfragen",
     "look": {
-      "palette": 2,
+      "palette": 1,
       "font": 6,
-      "hero": 0,
-      "services": 1,
-      "radius": 1,
-      "logo": 0,
-      "intro": 5
+      "hero": 2,
+      "services": 0,
+      "radius": 2,
+      "logo": 2,
+      "intro": 1
     }
   }
 }

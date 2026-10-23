@@ -262,7 +262,7 @@
       }
     ],
     "why": {
-      "headline": "Metallbau aus Bad Tölz – direkt vom Meister der Werkstatt.",
+      "headline": "Metallbau aus Bad Tölz – direkt vom Inhaber der Werkstatt.",
       "points": [
         {
           "title": "Kurze Wege",
@@ -408,13 +408,13 @@
     },
     "stickyCta": "Jetzt anfragen",
     "look": {
-      "palette": 2,
-      "font": 6,
+      "palette": 0,
+      "font": 10,
       "hero": 0,
-      "services": 1,
+      "services": 2,
       "radius": 1,
       "logo": 0,
-      "intro": 5
+      "intro": 3
     }
   }
 }
