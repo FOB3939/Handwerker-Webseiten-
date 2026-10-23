@@ -1,0 +1,243 @@
+{
+  "id": "2026-10-23-107",
+  "slug": "tomasz-zaluski-fliesenleger-tutzing",
+  "date": "2026-10-23",
+  "company": {
+    "name": "Tomasz Zaluski Fliesenleger",
+    "owner": "Tomasz Zaluski",
+    "trade": "Fliesenleger",
+    "city": "Tutzing",
+    "address": "Primelweg 4, 82327 Tutzing",
+    "phone": "01590 4040747",
+    "email": null,
+    "serviceArea": [
+      "Tutzing",
+      "Feldafing",
+      "Pöcking",
+      "Bernried",
+      "Starnberg",
+      "Weilheim"
+    ]
+  },
+  "listings": {
+    "google": {
+      "url": "https://www.google.com/maps/search/?api=1&query=Tomasz%20Zaluski%20Fliesenleger%20Primelweg%204%20Tutzing",
+      "rating": null,
+      "reviews": null,
+      "evidence": "NICHT BELEGT – kein Google-Spiegel (rgv-bayern, firmania, trustlocal) zu „Zaluski“ gefunden; trustlocal-Liste Fliesenleger Tutzing nennt den Betrieb im Snippet nicht. Existenz eines Google-Eintrags in Maps prüfen."
+    },
+    "myhammer": {
+      "url": "https://www.11880.com/suche/fliesenleger/tutzing",
+      "rating": null,
+      "reviews": null,
+      "evidence": "Kein MyHammer gefunden – einziger Beleg: 11880-Eintrag „Tomasz Zaluski Fliesenleger, 82327 Tutzing, Primelweg 4, (01590) 4040747“ (Ortsliste Fliesenleger Tutzing)."
+    }
+  },
+  "websiteStatus": "keine eigene Website gefunden",
+  "websiteChecks": [
+    "(1) „Tomasz Zaluski Fliesenleger Tutzing“ mit blocked_domains (11880, Gelbe Seiten, Das Örtliche, Telefonbuch, Cylex, meinestadt, Creditreform, Facebook, Instagram, golocal, MyHammer, Northdata, Firmenwissen, WKDB, Yelp, trustlocal, wlw) – nur fremde Fliesenbetriebe (Keramlux, Fliesen Stefanic, Fliesen Schlagwein, peker fliesenleger) und Verzeichnislisten; keine eigene Domain",
+    "(2) Telefon-/Namenssuche „01590 4040747“/„015904040747“/„Zaluski Tutzing“ – keine Treffer außer Wikipedia/historischen Personen; keine Website",
+    "(3) Domain-Check allowed_domains zaluski-fliesen.de, fliesen-zaluski.de, zaluski.de, fliesenleger-zaluski.de, zaluski-fliesenleger.de, tz-fliesen.de, fliesen-tutzing.de, zaluski.com – keine Treffer",
+    "(4) Google-Spiegel (rgv-bayern, firmania, trustlocal) – kein Profil gefunden",
+    "Keine E-Mail-Adresse gefunden (weder Freemail noch Firmendomain)",
+    "Website-Risiko: niedrig, aber RESERVE – weder Google-Eintrag noch Freemail belegt"
+  ],
+  "facts": {
+    "services": [
+      "Fliesenverlegung"
+    ],
+    "experience": null,
+    "praisedFor": []
+  },
+  "strategy": {
+    "audience": "Hauseigentümer und Vermieter in Tutzing, Feldafing, Pöcking und Bernried, die Bad, Küche, Flur oder Terrasse neu fliesen lassen wollen",
+    "mainService": "Fliesen verlegen – Bad, Küche, Boden und Wand",
+    "trustSignal": "Fliesenleger direkt aus Tutzing, per Handy erreichbar",
+    "conversionGoal": "Kostenloses Angebot für Fliesenarbeiten anfragen (per WhatsApp/Anruf mit Fotos und Maßen)",
+    "visualConcept": "Ruhige Materialästhetik: großformatige Fliesen, exakte Fugenbilder, helles Bad mit Seeblick-Stimmung vom Starnberger See"
+  },
+  "sales": {
+    "score": 3,
+    "whyGoodLead": [
+      "Keine eigene Website gefunden – nur ein einziger Verzeichniseintrag",
+      "Mobilnummer öffentlich gelistet – direkter WhatsApp-Erstkontakt möglich",
+      "Fliesenleger ist bei uns ein seltenes Gewerk",
+      "Kaum Online-Sichtbarkeit – eine Website plus Google-Profil würde den Betrieb erstmals auffindbar machen"
+    ],
+    "pitch": "Hallo Herr Zaluski, hier ist … – ich baue Websites für Handwerker am Starnberger See. Ich habe Ihren Eintrag als Fliesenleger in Tutzing gefunden, aber keine eigene Website. Ich habe unverbindlich einen Entwurf vorbereitet, auf dem Kunden Ihre Fliesenarbeiten sehen und direkt per WhatsApp anfragen können – darf ich Ihnen den Link schicken?"
+  },
+  "manualChecks": [
+    "RESERVE – weder Google-Eintrag noch Freemail-Adresse belegt: NUR versenden, wenn Google Maps einen Eintrag OHNE Website zeigt.",
+    "Prüfen, ob der Betrieb noch aktiv ist (einziger Beleg ist der 11880-Eintrag, Datum unbekannt)",
+    "Rufnummer 01590 4040747 (Mobilfunk) vor Erstkontakt verifizieren",
+    "Leistungen nur als „Fliesenleger“ belegt – Detailleistungen (Bad, Naturstein, Terrasse, Abdichtung) beim Betrieb bestätigen",
+    "Logo und Projektfotos: nicht gefunden – beim Betrieb anfragen"
+  ],
+  "sources": [
+    {
+      "label": "11880 – Fliesenleger Tutzing (Liste mit Tomasz Zaluski Fliesenleger)",
+      "url": "https://www.11880.com/suche/fliesenleger/tutzing"
+    }
+  ],
+  "site": {
+    "theme": "aqua",
+    "category": "handwerk",
+    "heroOffer": [
+      "Badfliesen",
+      "Bodenfliesen",
+      "Wandfliesen",
+      "Küchenspiegel",
+      "Reparaturen"
+    ],
+    "scene": "bath",
+    "logoIcon": "trowel",
+    "logoMark": "TZ",
+    "brandName": "Fliesen Zaluski",
+    "seoTitle": "Fliesenleger in Tutzing – Tomasz Zaluski",
+    "seoDescription": "Fliesenleger in Tutzing: Bad, Küche, Boden und Wand sauber gefliest. Jetzt kostenloses Angebot anfragen – auch per WhatsApp.",
+    "nav": [
+      { "label": "Leistungen", "href": "#leistungen" },
+      { "label": "Projekte", "href": "#projekte" },
+      { "label": "Bewertungen", "href": "#bewertungen" },
+      { "label": "Ablauf", "href": "#ablauf" },
+      { "label": "FAQ", "href": "#faq" },
+      { "label": "Kontakt", "href": "#kontakt" }
+    ],
+    "hero": {
+      "eyebrow": "Fliesenleger · Tutzing",
+      "headline": "Ihr Fliesenleger in Tutzing",
+      "sub": "Bad, Küche und Boden – exakt verlegt am Starnberger See.",
+      "ctaPrimary": "Kostenloses Angebot anfragen",
+      "ctaSecondary": "Anrufen",
+      "bullets": [
+        "Fliesenleger aus Tutzing",
+        "Wand und Boden",
+        "Direkt per Handy erreichbar"
+      ],
+      "imageLabel": "frisch gefliestes, helles Bad mit großformatigen Fliesen"
+    },
+    "badges": [
+      { "title": "Fliesen", "sub": "Wand & Boden" },
+      { "title": "Bad", "sub": "neu gefliest" },
+      { "title": "Küche", "sub": "Fliesenspiegel" },
+      { "title": "Tutzing", "sub": "Primelweg" }
+    ],
+    "trust": [
+      { "value": "Vor Ort", "label": "Betrieb in Tutzing" },
+      { "value": "Fliesen", "label": "unser Handwerk" },
+      { "value": "Innen", "label": "Bad, Küche, Flur" },
+      { "value": "Mobil", "label": "schnell erreichbar" }
+    ],
+    "servicesIntro": {
+      "headline": "Fliesenarbeiten für Haus und Wohnung",
+      "text": "Ob neues Bad, Küchenrückwand oder Flurboden: Wir verlegen Fliesen passgenau, mit sauberem Fugenbild und klaren Kanten."
+    },
+    "services": [
+      {
+        "title": "Badfliesen",
+        "text": "Wände und Boden im Bad neu gefliest – vom Gäste-WC bis zum großen Familienbad.",
+        "items": ["Wandfliesen", "Bodenfliesen", "Duschbereich"]
+      },
+      {
+        "title": "Bodenfliesen",
+        "text": "Robuste Fliesenböden für Flur, Küche und Wohnräume – plan verlegt und pflegeleicht.",
+        "items": ["Flur", "Wohnräume", "Großformate"]
+      },
+      {
+        "title": "Küchenspiegel",
+        "text": "Fliesen hinter Arbeitsplatte und Herd – leicht zu reinigen und passend zur Küche.",
+        "items": ["Fliesenspiegel", "Arbeitsbereich", "Steckdosenausschnitte"]
+      },
+      {
+        "title": "Sockel & Kanten",
+        "text": "Saubere Abschlüsse mit Sockelleisten und Profilen für ein stimmiges Gesamtbild.",
+        "items": ["Sockelfliesen", "Kantenprofile", "Übergänge"]
+      },
+      {
+        "title": "Verfugen",
+        "text": "Neue Fugen für ein gleichmäßiges Bild – auch bei bestehenden Flächen.",
+        "items": ["Fugen erneuern", "Silikonfugen", "Fugenfarbe"]
+      },
+      {
+        "title": "Reparaturen",
+        "text": "Einzelne gesprungene oder lose Fliesen werden ausgetauscht, statt die ganze Fläche zu erneuern.",
+        "items": ["Fliesen tauschen", "Lose Fliesen", "Kleine Flächen"]
+      }
+    ],
+    "why": {
+      "headline": "Fliesen aus Tutzing – direkt vom Handwerker.",
+      "points": [
+        { "title": "Kurze Wege", "text": "Von Tutzing aus schnell in Feldafing, Pöcking, Bernried und Starnberg." },
+        { "title": "Direkter Kontakt", "text": "Sie sprechen direkt mit Tomasz Zaluski – ohne Zwischenstelle." },
+        { "title": "Exaktes Fugenbild", "text": "Fliesen werden geplant aufgeteilt, damit Schnitte und Fugen stimmig sitzen." },
+        { "title": "Fotos genügen", "text": "Für eine erste Einschätzung reichen ein paar Bilder per WhatsApp." }
+      ]
+    },
+    "reviews": {
+      "headline": "Was Kunden sagen",
+      "summary": "Kundenstimmen werden hier eingebunden, sobald sie aus dem Google-Profil übernommen sind.",
+      "highlights": [
+        "Fliesen in Tutzing",
+        "Bad, Küche und Boden",
+        "Direkter Kontakt"
+      ],
+      "source": "Google",
+      "sourceUrl": "https://www.google.com/maps/search/?api=1&query=Tomasz%20Zaluski%20Fliesenleger%20Primelweg%204%20Tutzing",
+      "rating": null,
+      "count": null
+    },
+    "process": {
+      "headline": "So kommen Ihre neuen Fliesen an die Wand",
+      "steps": [
+        { "title": "Anfrage", "text": "Raum, ungefähre Fläche und Fotos per WhatsApp schicken – oder kurz anrufen." },
+        { "title": "Aufmaß", "text": "Untergrund, Maße und Fliesenauswahl werden vor Ort besprochen." },
+        { "title": "Angebot", "text": "Sie erhalten ein klares Angebot für Material und Verlegung." },
+        { "title": "Verlegung", "text": "Untergrund vorbereiten, verlegen, verfugen – sauber übergeben." }
+      ]
+    },
+    "gallery": {
+      "headline": "Flächen, die wir gefliest haben",
+      "text": "Für die Live-Version zeigen wir hier echte Projekte des Betriebs.",
+      "items": [
+        { "title": "Neues Bad", "photoNeeded": "komplett gefliestes Bad mit Dusche" },
+        { "title": "Flurboden", "photoNeeded": "großformatige Bodenfliesen im Eingangsbereich" },
+        { "title": "Küchenspiegel", "photoNeeded": "gefliester Bereich hinter der Arbeitsplatte" },
+        { "title": "Gäste-WC", "photoNeeded": "kleines WC mit Wandfliesen" },
+        { "title": "Fugenbild", "photoNeeded": "Detailaufnahme exakter Fugen und Kanten" }
+      ]
+    },
+    "region": {
+      "headline": "Fliesenleger für Tutzing und den Starnberger See",
+      "text": "Von Tutzing aus im Einsatz in Feldafing, Pöcking, Bernried, Starnberg und Weilheim.",
+      "places": ["Tutzing", "Feldafing", "Pöcking", "Bernried", "Starnberg", "Weilheim"]
+    },
+    "faq": [
+      { "q": "Kann ich vorab Fotos schicken?", "a": "Ja, Fotos und grobe Maße per WhatsApp helfen für eine erste Einschätzung." },
+      { "q": "Bringen Sie die Fliesen mit?", "a": "Das wird individuell abgesprochen – Sie können eigene Fliesen stellen oder die Auswahl gemeinsam treffen." },
+      { "q": "Übernehmen Sie auch kleine Reparaturen?", "a": "Fragen Sie gern an – auch einzelne Fliesen oder Fugen lassen sich erneuern." },
+      { "q": "Wie lange dauert ein Bad?", "a": "Das hängt von Größe und Untergrund ab. Ein Zeitplan wird nach dem Aufmaß abgestimmt." },
+      { "q": "Arbeiten Sie auch außerhalb von Tutzing?", "a": "Ja, im Umkreis von Tutzing rund um den Starnberger See – fragen Sie einfach an." }
+    ],
+    "contact": {
+      "headline": "Ihr Angebot – kostenlos und unverbindlich",
+      "text": "Beschreiben Sie kurz Ihr Vorhaben: welcher Raum, ungefähre Fläche und ob Wand, Boden oder beides. Fotos helfen.",
+      "topics": ["Bad", "Bodenfliesen", "Küchenspiegel", "Reparatur", "Sonstiges"],
+      "responseNote": "Aufmaß vor Ort nach Absprache."
+    },
+    "quote": {
+      "sizeLabel": "Welche Fläche soll gefliest werden?",
+      "sizes": ["Bis 5 m²", "5–15 m²", "15–40 m²", "Mehr als 40 m²"],
+      "timings": ["So bald wie möglich", "In den nächsten Wochen", "In 1–3 Monaten", "Ich plane erst noch"]
+    },
+    "stickyCta": "Angebot anfragen",
+    "look": {
+      "palette": 2,
+      "font": 6,
+      "hero": 0,
+      "services": 1,
+      "radius": 1,
+      "logo": 0,
+      "intro": 5
+    }
+  }
+}
