@@ -1,0 +1,397 @@
+{
+  "id": "2026-10-23-116",
+  "slug": "mafero-sonnenschutztechnik-garching",
+  "date": "2026-10-23",
+  "company": {
+    "name": "Mafero Sonnenschutztechnik",
+    "owner": null,
+    "trade": "Rollladen & Sonnenschutz",
+    "city": "Garching b. München",
+    "address": "Schleißheimer Str. 26, 85748 Garching b. München",
+    "phone": "089 32625897",
+    "email": null,
+    "serviceArea": [
+      "Garching",
+      "Hochbrück",
+      "Unterschleißheim",
+      "Oberschleißheim",
+      "Ismaning",
+      "Eching"
+    ]
+  },
+  "listings": {
+    "google": {
+      "url": "https://www.google.com/maps/search/?api=1&query=Mafero%20Sonnenschutztechnik%20Schlei%C3%9Fheimer%20Str.%2026%20Garching",
+      "rating": null,
+      "reviews": null,
+      "evidence": "NICHT BELEGT – kein Google-Spiegel (trustlocal, rgv-bayern, firmania) gefunden. Google-Eintrag in Maps prüfen."
+    },
+    "myhammer": {
+      "url": "https://www.gelbeseiten.de/gsbiz/5665e2bd-3216-4dac-82f3-fc13fab46c97",
+      "rating": null,
+      "reviews": null,
+      "evidence": "Kein MyHammer gefunden – Gelbe Seiten und Das Örtliche führen „Mafero Sonnenschutztechnik Handel, Markisen, Rolläden, Fenster“, Schleißheimer Str. 26, 85748 Garching, Tel. 089 32625897, Fax 089 32625899 (Gelbe-Seiten-Eintrag ca. 571 Tage alt)."
+    }
+  },
+  "websiteStatus": "keine eigene Website gefunden",
+  "websiteChecks": [
+    "(1) „Mafero Sonnenschutztechnik Garching“ mit blocked_domains (11880, Gelbe Seiten, Das Örtliche, Telefonbuch, Cylex, meinestadt, Creditreform, Facebook, Instagram, golocal, MyHammer, Northdata, Firmenwissen, WKDB, Yelp, trustlocal, wlw) – nur Verzeichnisse (goyellow) und Fremdanbieter (Morina, rollladenbau-markisen.de u. a.); keine eigene Domain",
+    "(2) Domain-Check allowed_domains mafero.de, mafero.com, mafero-sonnenschutz.de, mafero-sonnenschutztechnik.de, mafero-garching.de, mafero.eu, mafero-muenchen.de, maferosonnenschutz.de – nur mafero.com (fremdes, spanischsprachiges GateControl-Produkt, nicht dieser Betrieb)",
+    "(3) Telefonsuche „32625897“/„32 62 58 97“ mit blocked_domains – keine Treffer",
+    "(4) Impressum-/Inhaber-Suche „Mafero Sonnenschutztechnik Inhaber Impressum Garching“ – kein Impressum, Inhaber unbekannt",
+    "(5) Verzeichnisse (Das Örtliche, Gelbe Seiten): kein Website-Feld im Snippet, keine E-Mail",
+    "Website-Risiko: mittel – alle Prüfungen negativ, aber RESERVE (weder Google noch Freemail belegt), Rechtsform/Inhaber unbekannt, Schwerpunkt evtl. Handel"
+  ],
+  "facts": {
+    "services": [
+      "Markisen",
+      "Rollläden",
+      "Fenster",
+      "Sonnenschutztechnik"
+    ],
+    "experience": null,
+    "praisedFor": []
+  },
+  "strategy": {
+    "audience": "Hauseigentümer und Wohnungsbesitzer in Garching, Hochbrück, Unterschleißheim und Ismaning, die Rollläden, Markisen oder Fenster erneuern wollen",
+    "mainService": "Rollläden und Markisen – Beratung, Lieferung und Einbau",
+    "trustSignal": "Fachbetrieb für Sonnenschutztechnik direkt in Garching",
+    "conversionGoal": "Unverbindliche Anfrage für Rollladen oder Markise per Telefon oder Formular",
+    "visualConcept": "Helle Terrassen und Fassaden mit Markisen und Rollläden, klares Licht-und-Schatten-Spiel"
+  },
+  "sales": {
+    "score": 3,
+    "whyGoodLead": [
+      "Keine eigene Website gefunden – nur Verzeichniseinträge",
+      "Fenster/Rollladen ist ein selten vertretenes Gewerk in unseren Leads",
+      "Sonnenschutz wird online gesucht und verglichen – Website bringt Anfragen",
+      "Standort Garching mit vielen Wohnanlagen und Neubauten"
+    ],
+    "pitch": "Grüß Gott, hier ist … – ich baue Websites für Handwerksbetriebe im Münchner Norden. Ich habe Ihren Eintrag „Mafero Sonnenschutztechnik“ in Garching gefunden, aber keine eigene Website. Ich habe unverbindlich einen Entwurf vorbereitet, auf dem Kunden Ihre Rollläden, Markisen und Fenster sehen und direkt anfragen können – darf ich Ihnen den Link schicken?"
+  },
+  "manualChecks": [
+    "RESERVE – weder Google-Eintrag noch Freemail-Adresse belegt: NUR versenden, wenn Google Maps einen Eintrag OHNE Website zeigt.",
+    "Betrieb aktiv? Verzeichniseinträge 1–2 Jahre alt, sonst keine Spuren – vor Kontakt bestätigen",
+    "Rechtsform und Inhaber unbekannt – bei GmbH verwerfen; Anrede neutral halten",
+    "Eintrag lautet „Handel, Markisen, Rolläden, Fenster“ – klären, ob auch Montage angeboten wird",
+    "Nur Festnetz (089 32625897) belegt, keine Mobilnummer",
+    "Logo und Projektfotos: nicht gefunden – beim Betrieb anfragen"
+  ],
+  "sources": [
+    {
+      "label": "Gelbe Seiten – Mafero Sonnenschutztechnik Garching",
+      "url": "https://www.gelbeseiten.de/gsbiz/5665e2bd-3216-4dac-82f3-fc13fab46c97"
+    },
+    {
+      "label": "Das Örtliche – Mafero Sonnenschutztechnik, Schleißheimer Str.",
+      "url": "https://www.dasoertliche.de/Themen/Mafero-Sonnenschutztechnik-Handel-Markisen-Roll%C3%A4den-Fenster-Garching-b-M%C3%BCnchen-Schlei%C3%9Fheimer-Str"
+    },
+    {
+      "label": "GoYellow – Mafero Sonnenschutztechnik",
+      "url": "https://www.goyellow.de/home/jalousien-rolladen-markisen-mafero-sonnenschutztechnik-garching-b-muenchen--dptng.html"
+    }
+  ],
+  "site": {
+    "theme": "objekt",
+    "category": "handwerk",
+    "heroOffer": [
+      "Rollläden",
+      "Markisen",
+      "Fenster",
+      "Sonnenschutz"
+    ],
+    "scene": "facade",
+    "logoIcon": "house",
+    "logoMark": "MS",
+    "brandName": "Mafero Sonnenschutztechnik",
+    "seoTitle": "Rollläden & Markisen in Garching – Mafero Sonnenschutztechnik",
+    "seoDescription": "Rollläden, Markisen und Fenster in Garching, Unterschleißheim und Ismaning. Jetzt unverbindlich beraten lassen.",
+    "nav": [
+      {
+        "label": "Leistungen",
+        "href": "#leistungen"
+      },
+      {
+        "label": "Projekte",
+        "href": "#projekte"
+      },
+      {
+        "label": "Bewertungen",
+        "href": "#bewertungen"
+      },
+      {
+        "label": "Ablauf",
+        "href": "#ablauf"
+      },
+      {
+        "label": "FAQ",
+        "href": "#faq"
+      },
+      {
+        "label": "Kontakt",
+        "href": "#kontakt"
+      }
+    ],
+    "hero": {
+      "eyebrow": "Sonnenschutz · Garching",
+      "headline": "Rollläden und Markisen in Garching",
+      "sub": "Sonnenschutz und Fenster für Haus, Balkon und Terrasse im Münchner Norden.",
+      "ctaPrimary": "Unverbindlich anfragen",
+      "ctaSecondary": "Anrufen",
+      "bullets": [
+        "Fachbetrieb in Garching",
+        "Rollläden, Markisen, Fenster",
+        "Persönliche Beratung"
+      ],
+      "imageLabel": "ausgefahrene Markise über einer sonnigen Terrasse"
+    },
+    "badges": [
+      {
+        "title": "Rollläden",
+        "sub": "Schutz & Ruhe"
+      },
+      {
+        "title": "Markisen",
+        "sub": "Schatten im Sommer"
+      },
+      {
+        "title": "Fenster",
+        "sub": "aus einer Hand"
+      },
+      {
+        "title": "Garching",
+        "sub": "Schleißheimer Str."
+      }
+    ],
+    "trust": [
+      {
+        "value": "Vor Ort",
+        "label": "Betrieb in Garching"
+      },
+      {
+        "value": "3",
+        "label": "Produktbereiche"
+      },
+      {
+        "value": "Haus",
+        "label": "Fenster bis Terrasse"
+      },
+      {
+        "value": "Direkt",
+        "label": "persönlicher Kontakt"
+      }
+    ],
+    "servicesIntro": {
+      "headline": "Sonnenschutz, der zum Haus passt",
+      "text": "Ob Rollladen fürs Schlafzimmer oder Markise für die Terrasse: Mafero Sonnenschutztechnik berät zu Lösungen für Licht, Wärme und Sichtschutz."
+    },
+    "services": [
+      {
+        "title": "Rollläden",
+        "text": "Rollläden für Wärme-, Sicht- und Einbruchschutz – für Neubau und Bestand.",
+        "items": [
+          "Vorbaurollladen",
+          "Aufsatzrollladen",
+          "Austausch"
+        ]
+      },
+      {
+        "title": "Markisen",
+        "text": "Schatten für Terrasse und Balkon – passend zu Fassade und Fläche.",
+        "items": [
+          "Terrassenmarkise",
+          "Balkonmarkise",
+          "Tuchwechsel"
+        ]
+      },
+      {
+        "title": "Fenster",
+        "text": "Neue Fenster in Kombination mit passendem Sonnenschutz.",
+        "items": [
+          "Fenstertausch",
+          "Beratung",
+          "Abstimmung"
+        ]
+      },
+      {
+        "title": "Sonnenschutz innen & außen",
+        "text": "Lösungen gegen Hitze und Blendung für Wohnräume und Büros.",
+        "items": [
+          "Hitzeschutz",
+          "Blendschutz",
+          "Sichtschutz"
+        ]
+      },
+      {
+        "title": "Elektrische Antriebe",
+        "text": "Rollläden und Markisen bequem per Schalter oder Fernbedienung bedienen.",
+        "items": [
+          "Motorisierung",
+          "Schalter",
+          "Fernbedienung"
+        ]
+      },
+      {
+        "title": "Reparatur & Service",
+        "text": "Klemmende Rollläden oder gerissene Gurte – Hilfe bei Störungen.",
+        "items": [
+          "Gurtwechsel",
+          "Lamellen",
+          "Wartung"
+        ]
+      }
+    ],
+    "why": {
+      "headline": "Sonnenschutz aus Garching – nah und persönlich.",
+      "points": [
+        {
+          "title": "Kurze Wege",
+          "text": "Von Garching aus schnell in Hochbrück, Unterschleißheim, Ismaning und Eching."
+        },
+        {
+          "title": "Alles rund ums Fenster",
+          "text": "Rollläden, Markisen und Fenster aus einer Hand."
+        },
+        {
+          "title": "Beratung vor Ort",
+          "text": "Maße, Montage und Bedienung werden direkt am Objekt geklärt."
+        },
+        {
+          "title": "Direkter Kontakt",
+          "text": "Ein Anruf genügt – ohne Callcenter."
+        }
+      ]
+    },
+    "reviews": {
+      "headline": "Was Kunden sagen",
+      "summary": "Kundenstimmen werden hier eingebunden, sobald sie aus dem Google-Profil übernommen sind.",
+      "highlights": [
+        "Sonnenschutz in Garching",
+        "Rollläden und Markisen",
+        "Persönliche Beratung"
+      ],
+      "source": "Google",
+      "sourceUrl": "https://www.google.com/maps/search/?api=1&query=Mafero%20Sonnenschutztechnik%20Schlei%C3%9Fheimer%20Str.%2026%20Garching",
+      "rating": null,
+      "count": null
+    },
+    "process": {
+      "headline": "In vier Schritten zum Sonnenschutz",
+      "steps": [
+        {
+          "title": "Anfrage",
+          "text": "Kurz anrufen oder Fenster und Wunsch über das Formular beschreiben."
+        },
+        {
+          "title": "Aufmaß",
+          "text": "Vor Ort werden Maße genommen und Varianten besprochen."
+        },
+        {
+          "title": "Angebot",
+          "text": "Sie erhalten ein klares Angebot für Produkt und Einbau."
+        },
+        {
+          "title": "Einbau",
+          "text": "Montage und Einweisung in die Bedienung."
+        }
+      ]
+    },
+    "gallery": {
+      "headline": "Schatten, Schutz und Ruhe",
+      "text": "Für die Live-Version zeigen wir hier echte Projekte des Betriebs.",
+      "items": [
+        {
+          "title": "Terrassenmarkise",
+          "photoNeeded": "ausgefahrene Markise über einer Terrasse"
+        },
+        {
+          "title": "Rollläden",
+          "photoNeeded": "Hausfassade mit halb geschlossenen Rollläden"
+        },
+        {
+          "title": "Balkon",
+          "photoNeeded": "Balkonmarkise an einem Mehrfamilienhaus"
+        },
+        {
+          "title": "Neue Fenster",
+          "photoNeeded": "frisch eingebautes Fenster mit Rollladenkasten"
+        },
+        {
+          "title": "Antrieb",
+          "photoNeeded": "Funkschalter für elektrischen Rollladen"
+        }
+      ]
+    },
+    "region": {
+      "headline": "Sonnenschutz für Garching und den Münchner Norden",
+      "text": "Von Garching aus in Hochbrück, Unterschleißheim, Oberschleißheim, Ismaning und Eching.",
+      "places": [
+        "Garching",
+        "Hochbrück",
+        "Unterschleißheim",
+        "Oberschleißheim",
+        "Ismaning",
+        "Eching"
+      ]
+    },
+    "faq": [
+      {
+        "q": "Kann ich alte Rollläden nachrüsten?",
+        "a": "In vielen Fällen ja, etwa mit Vorbaurollläden. Was passt, wird beim Aufmaß geklärt."
+      },
+      {
+        "q": "Lassen sich Rollläden motorisieren?",
+        "a": "Häufig ja. Ob ein Antrieb nachgerüstet werden kann, wird vor Ort geprüft."
+      },
+      {
+        "q": "Welche Markise passt zu meiner Terrasse?",
+        "a": "Das hängt von Breite, Ausladung und Fassade ab. Dazu gibt es eine Beratung am Objekt."
+      },
+      {
+        "q": "Bieten Sie auch Fenster an?",
+        "a": "Ja, Fenster gehören neben Rollläden und Markisen zum Angebot."
+      },
+      {
+        "q": "Arbeiten Sie auch außerhalb von Garching?",
+        "a": "Ja, im Münchner Norden – fragen Sie einfach an."
+      }
+    ],
+    "contact": {
+      "headline": "Ihr Sonnenschutz – unverbindlich anfragen",
+      "text": "Beschreiben Sie kurz Ihr Vorhaben: Rollladen, Markise oder Fenster, Anzahl und ungefähre Maße.",
+      "topics": [
+        "Rollläden",
+        "Markisen",
+        "Fenster",
+        "Reparatur",
+        "Sonstiges"
+      ],
+      "responseNote": "Aufmaß nach Absprache."
+    },
+    "quote": {
+      "sizeLabel": "Worum geht es?",
+      "sizes": [
+        "Ein Fenster",
+        "Mehrere Fenster",
+        "Terrasse/Balkon",
+        "Ganzes Haus"
+      ],
+      "timings": [
+        "So bald wie möglich",
+        "Vor dem Sommer",
+        "In 1–3 Monaten",
+        "Ich plane erst noch"
+      ]
+    },
+    "stickyCta": "Angebot anfragen",
+    "look": {
+      "palette": 2,
+      "font": 6,
+      "hero": 0,
+      "services": 1,
+      "radius": 1,
+      "logo": 0,
+      "intro": 5
+    }
+  }
+}

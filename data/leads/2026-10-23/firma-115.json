@@ -1,0 +1,403 @@
+{
+  "id": "2026-10-23-115",
+  "slug": "juergen-ostermeier-parkettlegermeister-markt-schwaben",
+  "date": "2026-10-23",
+  "company": {
+    "name": "Jürgen Ostermeier Parkettlegermeister",
+    "owner": "Jürgen Ostermeier",
+    "trade": "Parkettlegermeister",
+    "city": "Markt Schwaben",
+    "address": "Grafen-von-Sempt-Str. 22, 85570 Markt Schwaben",
+    "phone": "08121 47120",
+    "email": null,
+    "serviceArea": [
+      "Markt Schwaben",
+      "Poing",
+      "Anzing",
+      "Ottenhofen",
+      "Pliening",
+      "Forstinning",
+      "Erding"
+    ]
+  },
+  "listings": {
+    "google": {
+      "url": "https://www.google.com/maps/search/?api=1&query=J%C3%BCrgen%20Ostermeier%20Parkettlegermeister%20Grafen-von-Sempt-Str.%2022%20Markt%20Schwaben",
+      "rating": null,
+      "reviews": null,
+      "evidence": "NICHT BELEGT – kein Google-Spiegel (trustlocal, rgv-bayern, firmania) gefunden; Suche nach Google-Bewertungen ohne Treffer. 11880 zeigt 0 Bewertungen und ein werkenntdenBESTEN-Siegel „Befriedigend“ (keine Kundenbewertung). Google-Eintrag in Maps prüfen."
+    },
+    "myhammer": {
+      "url": "https://www.11880.com/branchenbuch/markt-schwaben/060694012B27251186/juergen-ostermeier-parkettlegermeister.html",
+      "rating": null,
+      "reviews": null,
+      "evidence": "Kein MyHammer gefunden – 11880-Eintrag „Jürgen Ostermeier Parkettlegermeister“, Grafen-von-Sempt-Str. 22, Tel. (08121) 47120, Kategorien Parkettleger, Fußbodenverlegung, Bodenleger; 0 Bewertungen."
+    }
+  },
+  "websiteStatus": "keine eigene Website gefunden",
+  "websiteChecks": [
+    "(1) Name + Ort („Ostermeier Parkettlegermeister Grafen-von-Sempt“) mit blocked_domains (11880, Gelbe Seiten, Das Örtliche, Telefonbuch, Cylex, meinestadt, Creditreform, Facebook, Instagram, golocal, MyHammer, Northdata, Firmenwissen, WKDB, Yelp, trustlocal, wlw) – nur Verzeichnisse (oeffnungszeitenbuch, orte.muenchen.de, misterwhat, stadtbranchenbuch, branchenbuch-bayern, branchen-info.net Ottenhofen); keine eigene Domain",
+    "(2) Domain-Check allowed_domains parkett-ostermeier.de, ostermeier-parkett.de, parkettostermeier.de, ostermeierparkett.de, parkettleger-ostermeier.de, ostermeier-boden.de, juergen-ostermeier.de, ostermeier-markt-schwaben.de – keine Treffer",
+    "(3) Telefonsuche „Ostermeier Parkett Markt Schwaben 08121 47120“ – nur muenchen.de-Branchenbuch (Bodenleger/Parkett abschleifen, Fußbodenbeläge), keine Website",
+    "(4) Google-Beleg-Suche (trustlocal, rgv-bayern, firmania, 11880, cylex) und allgemeine Suche nach Google-Bewertungen – kein Spiegel, kein Website-Feld, keine E-Mail",
+    "Hinweis: Einträge teils sehr alt (ein Verzeichnis datiert über 50 Jahre zurück, Ottenhofen-Eintrag 2013) – Betrieb evtl. nicht mehr aktiv",
+    "Website-Risiko: niedrig – aber RESERVE, da weder Google-Eintrag noch Freemail belegt"
+  ],
+  "facts": {
+    "services": [
+      "Parkett verlegen",
+      "Fußbodenverlegung",
+      "Bodenbeläge",
+      "Parkett abschleifen"
+    ],
+    "experience": null,
+    "praisedFor": []
+  },
+  "strategy": {
+    "audience": "Hauseigentümer und Vermieter in Markt Schwaben, Poing und dem nördlichen Landkreis Ebersberg, die neues Parkett wünschen oder alte Böden abschleifen lassen wollen",
+    "mainService": "Parkett verlegen und abschleifen vom Meisterbetrieb",
+    "trustSignal": "Parkettlegermeister mit Betrieb in Markt Schwaben",
+    "conversionGoal": "Unverbindliche Anfrage für Parkett oder Schleifarbeiten per Telefon oder Formular",
+    "visualConcept": "Warme Holztöne, frisch geschliffene Dielen im Streiflicht, ruhige handwerkliche Bildsprache"
+  },
+  "sales": {
+    "score": 3,
+    "whyGoodLead": [
+      "Keine eigene Website gefunden – nur alte Verzeichniseinträge",
+      "Meistertitel als starkes Vertrauenssignal, online bisher nicht sichtbar",
+      "Parkett ist ein selten vertretenes Gewerk in unseren Leads",
+      "Wachstumsregion Markt Schwaben/Poing mit vielen Bestandsimmobilien"
+    ],
+    "pitch": "Grüß Gott Herr Ostermeier, hier ist … – ich baue Websites für Handwerksbetriebe im Münchner Osten. Ich habe Ihren Eintrag als Parkettlegermeister in Markt Schwaben gefunden, aber keine eigene Website. Ich habe unverbindlich einen Entwurf vorbereitet, auf dem Kunden Ihre Parkett- und Schleifarbeiten sehen und direkt anfragen können – darf ich Ihnen den Link schicken?"
+  },
+  "manualChecks": [
+    "RESERVE – weder Google-Eintrag noch Freemail-Adresse belegt: NUR versenden, wenn Google Maps einen Eintrag OHNE Website zeigt.",
+    "Betrieb aktiv? Einträge teils sehr alt – vor Kontakt per Anruf/Maps bestätigen",
+    "Nur Festnetz (08121 47120) belegt, keine Mobilnummer – kein WhatsApp-Erstkontakt möglich",
+    "Leistungen nur grob belegt (Parkettleger, Fußbodenverlegung, Bodenleger, Parkett abschleifen) – Details beim Betrieb erfragen",
+    "Logo und Projektfotos: nicht gefunden – beim Betrieb anfragen"
+  ],
+  "sources": [
+    {
+      "label": "11880 – Jürgen Ostermeier Parkettlegermeister Markt Schwaben",
+      "url": "https://www.11880.com/branchenbuch/markt-schwaben/060694012B27251186/juergen-ostermeier-parkettlegermeister.html"
+    },
+    {
+      "label": "muenchen.de Branchenbuch – Ostermeier Jürgen, Bodenleger",
+      "url": "https://orte.muenchen.de/158052.html"
+    },
+    {
+      "label": "Stadtbranchenbuch – Jürgen Ostermeier Fußbodenbau Markt Schwaben",
+      "url": "https://markt-schwaben.stadtbranchenbuch.com/2153128.html"
+    },
+    {
+      "label": "oeffnungszeitenbuch – Jürgen Ostermeier Parkettlegermeister",
+      "url": "https://www.oeffnungszeitenbuch.de/filiale/Markt%2520Schwaben-Juergen%2520Ostermeier%2520Parkettlegermeister-1376417K.html"
+    }
+  ],
+  "site": {
+    "theme": "atelier",
+    "category": "handwerk",
+    "heroOffer": [
+      "Parkett verlegen",
+      "Abschleifen",
+      "Versiegeln",
+      "Dielen",
+      "Bodenbeläge"
+    ],
+    "scene": "parquet",
+    "logoIcon": "plank",
+    "logoMark": "JO",
+    "brandName": "Parkett Ostermeier",
+    "seoTitle": "Parkettlegermeister in Markt Schwaben – Jürgen Ostermeier",
+    "seoDescription": "Parkett verlegen, abschleifen und Bodenbeläge vom Meister in Markt Schwaben, Poing und Umgebung. Jetzt unverbindlich anfragen.",
+    "nav": [
+      {
+        "label": "Leistungen",
+        "href": "#leistungen"
+      },
+      {
+        "label": "Projekte",
+        "href": "#projekte"
+      },
+      {
+        "label": "Bewertungen",
+        "href": "#bewertungen"
+      },
+      {
+        "label": "Ablauf",
+        "href": "#ablauf"
+      },
+      {
+        "label": "FAQ",
+        "href": "#faq"
+      },
+      {
+        "label": "Kontakt",
+        "href": "#kontakt"
+      }
+    ],
+    "hero": {
+      "eyebrow": "Parkettlegermeister · Markt Schwaben",
+      "headline": "Parkett vom Meister in Markt Schwaben",
+      "sub": "Neue Holzböden verlegen und alte Dielen wieder zum Strahlen bringen.",
+      "ctaPrimary": "Unverbindlich anfragen",
+      "ctaSecondary": "Anrufen",
+      "bullets": [
+        "Meisterbetrieb in Markt Schwaben",
+        "Verlegen und Abschleifen",
+        "Persönlicher Ansprechpartner"
+      ],
+      "imageLabel": "frisch geschliffenes Eichenparkett im Streiflicht"
+    },
+    "badges": [
+      {
+        "title": "Meisterbetrieb",
+        "sub": "Parkettlegermeister"
+      },
+      {
+        "title": "Parkett",
+        "sub": "verlegen & schleifen"
+      },
+      {
+        "title": "Bodenbeläge",
+        "sub": "fachgerecht verlegt"
+      },
+      {
+        "title": "Markt Schwaben",
+        "sub": "Grafen-von-Sempt-Str."
+      }
+    ],
+    "trust": [
+      {
+        "value": "Meister",
+        "label": "Parkettlegerhandwerk"
+      },
+      {
+        "value": "Vor Ort",
+        "label": "Betrieb in Markt Schwaben"
+      },
+      {
+        "value": "Holz",
+        "label": "Parkett & Dielen"
+      },
+      {
+        "value": "Direkt",
+        "label": "Ansprechpartner Inhaber"
+      }
+    ],
+    "servicesIntro": {
+      "headline": "Holzböden in Meisterhand",
+      "text": "Vom ersten Aufmaß bis zur letzten Leiste: Jürgen Ostermeier verlegt neue Böden und bringt bestehendes Parkett wieder in Form."
+    },
+    "services": [
+      {
+        "title": "Parkett verlegen",
+        "text": "Neues Parkett für Wohnräume, Flure und Dachgeschosse – passend zu Raum und Nutzung ausgewählt.",
+        "items": [
+          "Mehrschichtparkett",
+          "Massivparkett",
+          "Fischgrät"
+        ]
+      },
+      {
+        "title": "Parkett abschleifen",
+        "text": "Abgenutzte Oberflächen werden geschliffen, bis das Holz wieder frisch und gleichmäßig wirkt.",
+        "items": [
+          "Schleifen",
+          "Kratzer entfernen",
+          "Neuer Glanz"
+        ]
+      },
+      {
+        "title": "Versiegeln & Ölen",
+        "text": "Die passende Oberfläche schützt das Holz im Alltag und betont seine Maserung.",
+        "items": [
+          "Lack",
+          "Öl",
+          "Wachs"
+        ]
+      },
+      {
+        "title": "Dielenböden",
+        "text": "Breite Landhausdielen oder alte Holzdielen – verlegt oder aufgearbeitet.",
+        "items": [
+          "Landhausdielen",
+          "Altbaudielen",
+          "Aufarbeitung"
+        ]
+      },
+      {
+        "title": "Bodenbeläge",
+        "text": "Neben Parkett auch andere Bodenbeläge fachgerecht verlegt.",
+        "items": [
+          "Fußbodenverlegung",
+          "Untergrund",
+          "Übergänge"
+        ]
+      },
+      {
+        "title": "Sockelleisten & Details",
+        "text": "Saubere Abschlüsse an Wänden, Türen und Treppen runden jeden Boden ab.",
+        "items": [
+          "Sockelleisten",
+          "Übergangsprofile",
+          "Abschlüsse"
+        ]
+      }
+    ],
+    "why": {
+      "headline": "Ein Meister für Ihren Holzboden.",
+      "points": [
+        {
+          "title": "Meisterqualität",
+          "text": "Als Parkettlegermeister kennt Jürgen Ostermeier Holz, Untergründe und Oberflächen genau."
+        },
+        {
+          "title": "Kurze Wege",
+          "text": "Von Markt Schwaben aus schnell in Poing, Anzing, Pliening und Forstinning."
+        },
+        {
+          "title": "Neu oder renoviert",
+          "text": "Neuer Boden oder abgeschliffenes Altparkett – beides aus einer Hand."
+        },
+        {
+          "title": "Persönlich",
+          "text": "Beratung und Ausführung direkt durch den Inhaber."
+        }
+      ]
+    },
+    "reviews": {
+      "headline": "Was Kunden sagen",
+      "summary": "Kundenstimmen werden hier eingebunden, sobald sie aus dem Google-Profil übernommen sind.",
+      "highlights": [
+        "Parkett in Markt Schwaben",
+        "Meisterbetrieb",
+        "Verlegen und Abschleifen"
+      ],
+      "source": "Google",
+      "sourceUrl": "https://www.google.com/maps/search/?api=1&query=J%C3%BCrgen%20Ostermeier%20Parkettlegermeister%20Grafen-von-Sempt-Str.%2022%20Markt%20Schwaben",
+      "rating": null,
+      "count": null
+    },
+    "process": {
+      "headline": "So entsteht Ihr neuer Boden",
+      "steps": [
+        {
+          "title": "Anfrage",
+          "text": "Kurz anrufen oder Raumgröße und Wunsch über das Formular schicken."
+        },
+        {
+          "title": "Aufmaß & Beratung",
+          "text": "Vor Ort werden Untergrund, Holzart und Oberfläche besprochen."
+        },
+        {
+          "title": "Angebot",
+          "text": "Sie erhalten ein klares Angebot für Material und Arbeit."
+        },
+        {
+          "title": "Verlegung",
+          "text": "Verlegen oder Schleifen, Oberfläche, Leisten – sauber übergeben."
+        }
+      ]
+    },
+    "gallery": {
+      "headline": "Böden mit Charakter",
+      "text": "Für die Live-Version zeigen wir hier echte Projekte des Betriebs.",
+      "items": [
+        {
+          "title": "Eichenparkett",
+          "photoNeeded": "fertig verlegtes Eichenparkett im Wohnzimmer"
+        },
+        {
+          "title": "Fischgrät",
+          "photoNeeded": "Fischgrätparkett in einem Altbauraum"
+        },
+        {
+          "title": "Vorher/Nachher",
+          "photoNeeded": "abgenutztes und frisch geschliffenes Parkett"
+        },
+        {
+          "title": "Landhausdielen",
+          "photoNeeded": "breite geölte Dielen im Essbereich"
+        },
+        {
+          "title": "Saubere Abschlüsse",
+          "photoNeeded": "Sockelleiste und Übergangsprofil im Detail"
+        }
+      ]
+    },
+    "region": {
+      "headline": "Parkett für Markt Schwaben und Umgebung",
+      "text": "Von Markt Schwaben aus in Poing, Anzing, Ottenhofen, Pliening, Forstinning und Erding.",
+      "places": [
+        "Markt Schwaben",
+        "Poing",
+        "Anzing",
+        "Ottenhofen",
+        "Pliening",
+        "Forstinning",
+        "Erding"
+      ]
+    },
+    "faq": [
+      {
+        "q": "Lohnt sich Abschleifen statt Neuverlegen?",
+        "a": "Bei Massiv- und vielen Mehrschichtparketts ja. Ob genug Nutzschicht vorhanden ist, wird vor Ort geprüft."
+      },
+      {
+        "q": "Wie lange dauert das Schleifen eines Raumes?",
+        "a": "Das hängt von Fläche und Oberfläche ab. Der Zeitplan wird nach der Besichtigung abgestimmt."
+      },
+      {
+        "q": "Geölt oder versiegelt – was ist besser?",
+        "a": "Beides hat Vorteile. Die Wahl hängt von Nutzung und Optik ab und wird gemeinsam besprochen."
+      },
+      {
+        "q": "Verlegen Sie auch andere Bodenbeläge?",
+        "a": "Ja, neben Parkett gehört auch die Fußbodenverlegung allgemein zum Angebot."
+      },
+      {
+        "q": "Arbeiten Sie auch außerhalb von Markt Schwaben?",
+        "a": "Ja, im Umkreis von Markt Schwaben – fragen Sie einfach an."
+      }
+    ],
+    "contact": {
+      "headline": "Ihr Boden – unverbindlich anfragen",
+      "text": "Beschreiben Sie kurz Ihr Vorhaben: Raum, ungefähre Fläche und ob neu verlegt oder abgeschliffen werden soll.",
+      "topics": [
+        "Parkett verlegen",
+        "Parkett abschleifen",
+        "Versiegeln & Ölen",
+        "Dielenböden",
+        "Sonstiges"
+      ],
+      "responseNote": "Besichtigung nach Absprache."
+    },
+    "quote": {
+      "sizeLabel": "Wie groß ist die Fläche?",
+      "sizes": [
+        "Ein Zimmer",
+        "Bis 50 m²",
+        "50–100 m²",
+        "Über 100 m²"
+      ],
+      "timings": [
+        "So bald wie möglich",
+        "In den nächsten Wochen",
+        "In 1–3 Monaten",
+        "Ich plane erst noch"
+      ]
+    },
+    "stickyCta": "Parkett anfragen",
+    "look": {
+      "palette": 2,
+      "font": 6,
+      "hero": 0,
+      "services": 1,
+      "radius": 1,
+      "logo": 0,
+      "intro": 5
+    }
+  }
+}
