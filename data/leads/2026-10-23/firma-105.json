@@ -1,0 +1,420 @@
+{
+  "id": "2026-10-23-105",
+  "slug": "bernhard-keller-metallbau-bad-toelz",
+  "date": "2026-10-23",
+  "company": {
+    "name": "Bernhard Keller Metallbau und Schlosserei",
+    "owner": "Bernhard Keller",
+    "trade": "Metallbau & Schlosserei",
+    "city": "Bad Tölz",
+    "address": "Kohlstattstraße 51/3, 83646 Bad Tölz",
+    "phone": "08041 806812",
+    "email": "metallbaub.keller@t-online.de",
+    "serviceArea": [
+      "Bad Tölz",
+      "Wackersberg",
+      "Lenggries",
+      "Gaißach",
+      "Greiling",
+      "Reichersbeuern",
+      "Dietramszell",
+      "Geretsried"
+    ]
+  },
+  "listings": {
+    "google": {
+      "url": "https://www.google.com/maps/search/?api=1&query=Keller%20Bernhard%20Metallbau%20Kohlstattstra%C3%9Fe%2051%20Bad%20T%C3%B6lz",
+      "rating": null,
+      "reviews": null,
+      "evidence": "NICHT BELEGT – kein Google-Spiegel (trustlocal/firmania/rgv-bayern) gefunden. Kriterium (A) über Freemail: Verzeichnisdaten nennen metallbaub.keller@t-online.de (t-online = Freemail). GoYellow und oeffnungszeitenbuch zeigen 0 Bewertungen. Google-Eintrag in Maps prüfen."
+    },
+    "myhammer": {
+      "url": "https://www.goyellow.de/home/schlosser-keller-bad-toelz--bfqrx.html",
+      "rating": null,
+      "reviews": null,
+      "evidence": "Kein MyHammer gefunden – Einträge bei GoYellow, klicktel, plusbranchenbuch, stadtbranchenbuch, branchen-info (Wackersberg), oeffnungszeitenbuch, misterwhat mit Kohlstattstraße 51/3, Tel. 08041 806812, Fax 08041 806813; kein Website-Feld sichtbar."
+    }
+  },
+  "websiteStatus": "keine eigene Website gefunden",
+  "websiteChecks": [
+    "(1) „Bernhard Keller Metallbau Bad Tölz“ mit blocked_domains (11880, Gelbe Seiten, Das Örtliche, Telefonbuch, Cylex, meinestadt, Creditreform, Facebook, Instagram, golocal, MyHammer, Northdata, Firmenwissen, WKDB, Yelp, trustlocal, wlw) – nur Verzeichnisse (stadtbranchenbuch, klicktel, plusbranchenbuch, branchen-info, oeffnungszeitenbuch, misterwhat, goyellow); bernhard-keller.com gehört einem Wirtschaftsjuristen/Sanierungsberater, nicht dem Betrieb.",
+    "(2) Domain-Check allowed_domains keller-metallbau.de, metallbau-keller.de, schlosserei-keller.de, keller-schlosserei.de, metallbau-keller-toelz.de, keller-metallbau-toelz.de, kellermetallbau.de, metallbaukeller.de – Treffer kellermetallbau.de (Keller Metallbau GmbH, ohne erkennbaren Ortsbezug) und keller-metallbau.de (Keller Blechtechnik, Endingen/Kaiserstuhl) – beide andere Firmen; Folgesuchen („Keller Metallbau GmbH“ + Tölz/Wackersberg/Lenggries, Impressum) ergaben keinen Bezug nach Bad Tölz.",
+    "(3) Telefonsuche „08041 806812“/„08041806812“ – nur Verzeichniseinträge desselben Betriebs, keine Website.",
+    "(4) Suche nach der E-Mail-Adresse „metallbaub.keller@t-online.de“ – keine weiteren Treffer (Adresse nur in einem Verzeichnis-Snippet, ein anderes Verzeichnis zeigt leeres E-Mail-Feld).",
+    "Website-Risiko: mittel – alle Prüfungen negativ, aber Google-Eintrag nicht belegt und Freemail nur aus einer Quelle"
+  ],
+  "facts": {
+    "services": [
+      "Metallbau",
+      "Schlosserarbeiten",
+      "Schweißarbeiten",
+      "Schleifarbeiten",
+      "Schmiedearbeiten"
+    ],
+    "experience": null,
+    "praisedFor": []
+  },
+  "strategy": {
+    "audience": "Hausbesitzer, Landwirte und Gewerbebetriebe im Tölzer Land, die Geländer, Tore, Zäune, Treppen oder Reparaturen aus Stahl brauchen",
+    "mainService": "Metallbau und Schlosserarbeiten nach Maß",
+    "trustSignal": "Inhabergeführte Schlosserei in Bad Tölz mit eigener Werkstatt in der Kohlstattstraße",
+    "conversionGoal": "Anfrage per Telefon oder E-Mail mit Foto und Maßen",
+    "visualConcept": "Werkstatt-Ästhetik: Funken beim Schweißen, verzinkter Stahl, klare Linien vor Voralpenkulisse"
+  },
+  "sales": {
+    "score": 4,
+    "whyGoodLead": [
+      "Keine eigene Website gefunden – nur Verzeichniseinträge",
+      "Metallbau/Schlosserei bisher selten unter den Leads",
+      "Kaum Online-Sichtbarkeit, 0 Bewertungen in Verzeichnissen",
+      "Geländer, Tore und Reparaturen werden typischerweise lokal gesucht"
+    ],
+    "pitch": "Grüß Gott Herr Keller, hier ist … – ich baue Websites für Handwerker im Tölzer Land. Ihre Schlosserei in der Kohlstattstraße habe ich in mehreren Verzeichnissen gefunden, aber keine eigene Website. Ich habe unverbindlich einen Entwurf vorbereitet, auf dem Kunden Ihre Metallbauarbeiten sehen und direkt anfragen können – darf ich Ihnen den Link schicken?"
+  },
+  "manualChecks": [
+    "Website-Risiko: mittel – vor Versand in Google Maps prüfen, dass keine Website hinterlegt ist (Grund: Google-Eintrag nicht belegt, Freemail nur aus einem Verzeichnis-Snippet; fremde Domains kellermetallbau.de/keller-metallbau.de existieren)",
+    "Keine Mobilnummer belegt – Erstkontakt per Festnetz 08041 806812 oder E-Mail",
+    "E-Mail metallbaub.keller@t-online.de nur in einer Quelle – vor Versand prüfen (z. B. telefonisch)",
+    "Adresse uneinheitlich (Kohlstattstraße 51/3 vs. 5 1/3; branchen-info listet Wackersberg) – klären",
+    "Betrieb noch aktiv? Verzeichnisdaten teils älter – kurz telefonisch bestätigen",
+    "Leistungen nur grob belegt (Metallbau, Schlosser/Schweißer/Schleifer/Schmiede) – Geländer, Tore, Treppen beim Betrieb bestätigen",
+    "Logo und Projektfotos: nicht gefunden – beim Betrieb anfragen"
+  ],
+  "sources": [
+    {
+      "label": "stadtbranchenbuch – Bernhard Keller Metallbau Bad Tölz",
+      "url": "https://bad-toelz.stadtbranchenbuch.com/1667784.html"
+    },
+    {
+      "label": "klicktel – Keller Bernhard Metallbau und Schlosserei",
+      "url": "http://www.klicktel.de/branchenbuch/bad-toelz/250394659B26613428/keller-bernhard-metallbau-und-schlosserei.html"
+    },
+    {
+      "label": "plusbranchenbuch – Keller Bernhard Metallbau und Schlosserei",
+      "url": "https://plusbranchenbuch.com/keller-bernhard-metallbau-und-schlosserei-bad-t%C3%B6lz-08041806812"
+    },
+    {
+      "label": "branchen-info – Keller Bernhard Metallbau (Wackersberg)",
+      "url": "https://wackersberg.branchen-info.net/fp_2025314.php"
+    },
+    {
+      "label": "oeffnungszeitenbuch – Bernhard Keller Metallbau und Schlosserei",
+      "url": "https://www.oeffnungszeitenbuch.de/filiale/Bad%2520Toelz-Bernhard%2520Keller%2520Metallbau%2520und%2520Schlosserei-1570511T.html"
+    },
+    {
+      "label": "GoYellow – Keller Bernhard Metallbau und Schlosserei",
+      "url": "https://www.goyellow.de/home/schlosser-keller-bad-toelz--bfqrx.html"
+    },
+    {
+      "label": "misterwhat – Keller Bernhard Bad Tölz",
+      "url": "https://www.misterwhat.de/company/1286764-keller-bernhard-bad-toelz"
+    }
+  ],
+  "site": {
+    "theme": "werk",
+    "category": "handwerk",
+    "heroOffer": [
+      "Geländer",
+      "Tore",
+      "Treppen",
+      "Schweißarbeiten",
+      "Reparaturen"
+    ],
+    "scene": "facade",
+    "logoIcon": "house",
+    "logoMark": "BK",
+    "brandName": "Keller Metallbau",
+    "seoTitle": "Metallbau & Schlosserei in Bad Tölz – Bernhard Keller",
+    "seoDescription": "Geländer, Tore, Treppen und Schweißarbeiten aus Bad Tölz. Schlosserei Bernhard Keller – jetzt unverbindlich anfragen.",
+    "nav": [
+      {
+        "label": "Leistungen",
+        "href": "#leistungen"
+      },
+      {
+        "label": "Projekte",
+        "href": "#projekte"
+      },
+      {
+        "label": "Bewertungen",
+        "href": "#bewertungen"
+      },
+      {
+        "label": "Ablauf",
+        "href": "#ablauf"
+      },
+      {
+        "label": "FAQ",
+        "href": "#faq"
+      },
+      {
+        "label": "Kontakt",
+        "href": "#kontakt"
+      }
+    ],
+    "hero": {
+      "eyebrow": "Metallbau · Bad Tölz",
+      "headline": "Ihre Schlosserei in Bad Tölz",
+      "sub": "Geländer, Tore und Reparaturen aus Stahl – gefertigt in der eigenen Werkstatt.",
+      "ctaPrimary": "Unverbindlich anfragen",
+      "ctaSecondary": "Anrufen",
+      "bullets": [
+        "Werkstatt in der Kohlstattstraße",
+        "Schweißen, Schleifen, Schmieden",
+        "Fertigung nach Maß"
+      ],
+      "imageLabel": "Schlosser beim Schweißen eines Stahlgeländers"
+    },
+    "badges": [
+      {
+        "title": "Metallbau",
+        "sub": "nach Maß"
+      },
+      {
+        "title": "Schlosserei",
+        "sub": "eigene Werkstatt"
+      },
+      {
+        "title": "Schweißen",
+        "sub": "Stahl & Eisen"
+      },
+      {
+        "title": "Bad Tölz",
+        "sub": "Kohlstattstraße"
+      }
+    ],
+    "trust": [
+      {
+        "value": "Vor Ort",
+        "label": "Werkstatt in Bad Tölz"
+      },
+      {
+        "value": "Maß",
+        "label": "Einzelanfertigung"
+      },
+      {
+        "value": "Stahl",
+        "label": "Schweißen & Schmieden"
+      },
+      {
+        "value": "Direkt",
+        "label": "Inhaber am Telefon"
+      }
+    ],
+    "servicesIntro": {
+      "headline": "Metallarbeiten aus einer Werkstatt",
+      "text": "Vom neuen Hoftor bis zur geschweißten Reparatur: In der Kohlstattstraße entsteht, was im Tölzer Land aus Stahl gebraucht wird."
+    },
+    "services": [
+      {
+        "title": "Geländer",
+        "text": "Treppen- und Balkongeländer aus Stahl, passend zu Haus und Hang gefertigt.",
+        "items": [
+          "Treppengeländer",
+          "Balkongeländer",
+          "Handläufe"
+        ]
+      },
+      {
+        "title": "Tore & Zäune",
+        "text": "Hoftore, Gartentüren und Zaunelemente – stabil gebaut für Wind und Winter.",
+        "items": [
+          "Hoftore",
+          "Gartentüren",
+          "Zaunfelder"
+        ]
+      },
+      {
+        "title": "Treppen",
+        "text": "Stahltreppen für innen und außen, von der Kellertreppe bis zum Außenaufgang.",
+        "items": [
+          "Außentreppen",
+          "Stahlwangen",
+          "Podeste"
+        ]
+      },
+      {
+        "title": "Schweißarbeiten",
+        "text": "Schweißen von Bauteilen und Konstruktionen direkt in der Werkstatt.",
+        "items": [
+          "Stahlbauteile",
+          "Konsolen",
+          "Halterungen"
+        ]
+      },
+      {
+        "title": "Reparaturen",
+        "text": "Gebrochene Scharniere, verbogene Tore, gerissene Nähte – wir richten es wieder.",
+        "items": [
+          "Torreparatur",
+          "Nachschweißen",
+          "Instandsetzung"
+        ]
+      },
+      {
+        "title": "Schmiedearbeiten",
+        "text": "Geschmiedete Einzelteile und Details für Haus, Hof und Garten.",
+        "items": [
+          "Einzelteile",
+          "Beschläge",
+          "Zierelemente"
+        ]
+      }
+    ],
+    "why": {
+      "headline": "Metallbau aus Bad Tölz – direkt vom Meister der Werkstatt.",
+      "points": [
+        {
+          "title": "Kurze Wege",
+          "text": "Von der Kohlstattstraße schnell in Wackersberg, Lenggries, Gaißach und Greiling."
+        },
+        {
+          "title": "Ein Ansprechpartner",
+          "text": "Sie sprechen direkt mit Bernhard Keller – vom Aufmaß bis zur Montage."
+        },
+        {
+          "title": "Eigene Werkstatt",
+          "text": "Geschweißt, geschliffen und angepasst wird im eigenen Betrieb."
+        },
+        {
+          "title": "Auch kleine Aufträge",
+          "text": "Eine Reparatur am Hoftor ist genauso willkommen wie ein neues Geländer."
+        }
+      ]
+    },
+    "reviews": {
+      "headline": "Was Kunden sagen",
+      "summary": "Kundenstimmen werden hier eingebunden, sobald sie aus dem Google-Profil übernommen sind.",
+      "highlights": [
+        "Schlosserei in Bad Tölz",
+        "Fertigung nach Maß",
+        "Direkter Kontakt"
+      ],
+      "source": "Google",
+      "sourceUrl": "https://www.google.com/maps/search/?api=1&query=Keller%20Bernhard%20Metallbau%20Kohlstattstra%C3%9Fe%2051%20Bad%20T%C3%B6lz",
+      "rating": null,
+      "count": null
+    },
+    "process": {
+      "headline": "Vom Foto zum fertigen Stahlteil",
+      "steps": [
+        {
+          "title": "Anfrage",
+          "text": "Foto und grobe Maße schicken oder kurz anrufen."
+        },
+        {
+          "title": "Aufmaß",
+          "text": "Vor Ort wird genau gemessen und die Ausführung abgestimmt."
+        },
+        {
+          "title": "Fertigung",
+          "text": "Zuschnitt, Schweißen und Oberfläche in der eigenen Werkstatt."
+        },
+        {
+          "title": "Montage",
+          "text": "Einbau vor Ort – sauber und fest verankert."
+        }
+      ]
+    },
+    "gallery": {
+      "headline": "Stahl, der hält",
+      "text": "Für die Live-Version zeigen wir hier echte Arbeiten aus der Werkstatt.",
+      "items": [
+        {
+          "title": "Treppengeländer",
+          "photoNeeded": "montiertes Stahlgeländer an einer Außentreppe"
+        },
+        {
+          "title": "Hoftor",
+          "photoNeeded": "neues Hoftor aus Stahl an einem Tölzer Anwesen"
+        },
+        {
+          "title": "Werkstatt",
+          "photoNeeded": "Schweißarbeit in der Werkstatt mit Funkenflug"
+        },
+        {
+          "title": "Balkongeländer",
+          "photoNeeded": "Balkon mit neuem Metallgeländer"
+        },
+        {
+          "title": "Reparatur",
+          "photoNeeded": "instandgesetztes Tor vorher/nachher"
+        }
+      ]
+    },
+    "region": {
+      "headline": "Metallbau für Bad Tölz und das Tölzer Land",
+      "text": "Von Bad Tölz aus schnell in Wackersberg, Lenggries, Gaißach, Greiling, Reichersbeuern und Dietramszell.",
+      "places": [
+        "Bad Tölz",
+        "Wackersberg",
+        "Lenggries",
+        "Gaißach",
+        "Greiling",
+        "Reichersbeuern",
+        "Dietramszell",
+        "Geretsried"
+      ]
+    },
+    "faq": [
+      {
+        "q": "Fertigen Sie Geländer nach Maß?",
+        "a": "Ja, Geländer werden nach Aufmaß vor Ort individuell gefertigt."
+      },
+      {
+        "q": "Übernehmen Sie auch kleine Reparaturen?",
+        "a": "Ja, auch einzelne Schweiß- und Reparaturarbeiten sind möglich – fragen Sie einfach an."
+      },
+      {
+        "q": "Kann ich vorab Fotos schicken?",
+        "a": "Ja, Fotos und grobe Maße per E-Mail helfen für eine erste Einschätzung."
+      },
+      {
+        "q": "Wie lange dauert die Fertigung?",
+        "a": "Das hängt von Umfang und Auslastung ab. Den Termin stimmen wir nach dem Aufmaß ab."
+      },
+      {
+        "q": "Arbeiten Sie auch außerhalb von Bad Tölz?",
+        "a": "Ja, im Tölzer Land und Umgebung – sprechen Sie uns an."
+      }
+    ],
+    "contact": {
+      "headline": "Ihre Anfrage – unverbindlich",
+      "text": "Beschreiben Sie kurz, was gebraucht wird: Geländer, Tor, Treppe oder Reparatur. Fotos und Maße helfen.",
+      "topics": [
+        "Geländer",
+        "Tore & Zäune",
+        "Treppen",
+        "Schweißarbeiten",
+        "Reparatur",
+        "Sonstiges"
+      ],
+      "responseNote": "Aufmaß vor Ort nach Absprache."
+    },
+    "quote": {
+      "sizeLabel": "Worum geht es?",
+      "sizes": [
+        "Kleine Reparatur",
+        "Ein Bauteil",
+        "Geländer oder Tor",
+        "Größeres Projekt"
+      ],
+      "timings": [
+        "So bald wie möglich",
+        "In den nächsten Wochen",
+        "In 1–3 Monaten",
+        "Ich plane erst noch"
+      ]
+    },
+    "stickyCta": "Jetzt anfragen",
+    "look": {
+      "palette": 2,
+      "font": 6,
+      "hero": 0,
+      "services": 1,
+      "radius": 1,
+      "logo": 0,
+      "intro": 5
+    }
+  }
+}

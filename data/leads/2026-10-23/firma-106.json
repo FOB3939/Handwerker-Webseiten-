@@ -1,0 +1,384 @@
+{
+  "id": "2026-10-23-106",
+  "slug": "florian-riepl-gartenservice-holzkirchen",
+  "date": "2026-10-23",
+  "company": {
+    "name": "Riepl Florian Gartenservice",
+    "owner": "Florian Riepl",
+    "trade": "Gartenpflege & Zaunbau",
+    "city": "Holzkirchen",
+    "address": "Südstraße, 83607 Holzkirchen",
+    "phone": "08024 478551",
+    "email": null,
+    "serviceArea": [
+      "Holzkirchen",
+      "Otterfing",
+      "Valley",
+      "Warngau",
+      "Sauerlach",
+      "Weyarn"
+    ]
+  },
+  "listings": {
+    "google": {
+      "url": "https://www.google.com/maps/search/?api=1&query=Riepl%20Florian%20Gartenservice%20Holzkirchen",
+      "rating": null,
+      "reviews": null,
+      "evidence": "NICHT BELEGT – kein Google-Spiegel gefunden, keine Freemail-Adresse. Nur Verzeichniseintrag zaunbaubetriebe.online („Riepl Florian Gartenservice – Zaun Spezialist in Holzkirchen“, Südstraße, 83607 Holzkirchen)."
+    },
+    "myhammer": {
+      "url": "https://zaunbaubetriebe.online/riepl-florian-gartenservice/00738847",
+      "rating": null,
+      "reviews": null,
+      "evidence": "Kein MyHammer gefunden – einzig zaunbaubetriebe.online führt den Betrieb; Telefon 08024 478551 stammt aus der Vorrecherche (Kandidatenliste), Telefonsuche ohne Treffer."
+    }
+  },
+  "websiteStatus": "keine eigene Website gefunden",
+  "websiteChecks": [
+    "(1) „Florian Riepl Gartenservice Holzkirchen“ mit blocked_domains (11880, Gelbe Seiten, Das Örtliche, Telefonbuch, Cylex, meinestadt, Creditreform, Facebook, Instagram, golocal, MyHammer, Northdata, Firmenwissen, WKDB, Yelp, trustlocal, wlw) – nur zaunbaubetriebe.online; übrige Treffer andere Gartenbetriebe (Gerr-Schmid Gärten, CB-Hausmeister-Service, Wochinger). Kein eigener Webauftritt.",
+    "(2) Telefonsuche „Riepl Gartenservice Holzkirchen 08024 478551“ – kein Treffer zur Nummer; nur Sanitär Erwin Riepl (Roggersdorfer Str., Holzkirchen, andere Nummer) – Verwandtschaft unklar, dessen Website-Status nicht geprüft.",
+    "(3) Domain-Check allowed_domains riepl-gartenservice.de, gartenservice-riepl.de, riepl-garten.de, garten-riepl.de, florian-riepl.de, riepl-holzkirchen.de, gartenservice-holzkirchen.de, riepl-gartenbau.de – keine Treffer",
+    "Website-Risiko: mittel – keine Website gefunden, aber Datenlage sehr dünn (weder Google-Eintrag noch Freemail belegt)"
+  ],
+  "facts": {
+    "services": [
+      "Gartenpflege",
+      "Zaunbau"
+    ],
+    "experience": null,
+    "praisedFor": []
+  },
+  "strategy": {
+    "audience": "Hausbesitzer und Vermieter in Holzkirchen und Umgebung, die regelmäßige Gartenpflege oder einen neuen Zaun brauchen",
+    "mainService": "Gartenpflege und Zaunbau",
+    "trustSignal": "Inhaber Florian Riepl aus Holzkirchen, persönlich erreichbar",
+    "conversionGoal": "Anruf oder Anfrage für Gartenpflege/Zaun mit Fotos",
+    "visualConcept": "Gepflegte Gärten im Oberland: frisch gemähter Rasen, geschnittene Hecken, Holz- und Metallzäune"
+  },
+  "sales": {
+    "score": 3,
+    "whyGoodLead": [
+      "Keine eigene Website gefunden",
+      "Kaum Online-Präsenz – nur ein Verzeichniseintrag",
+      "Gartenpflege ist im wachsenden Holzkirchen stark gefragt"
+    ],
+    "pitch": "Grüß Gott Herr Riepl, hier ist … – ich baue Websites für Handwerker im Landkreis Miesbach. Ihren Gartenservice in Holzkirchen habe ich nur in einem Verzeichnis gefunden. Ich habe unverbindlich einen Entwurf vorbereitet, auf dem Kunden Gartenpflege und Zaunbau bei Ihnen anfragen können – darf ich Ihnen den Link schicken?"
+  },
+  "manualChecks": [
+    "RESERVE – weder Google-Eintrag noch Freemail-Adresse belegt: NUR versenden, wenn Google Maps einen Eintrag OHNE Website zeigt.",
+    "Telefon 08024 478551 nur aus der Kandidatenliste, in eigener Suche nicht bestätigt – vor Kontakt prüfen",
+    "Hausnummer Südstraße unbekannt",
+    "Leistungen unklar (Name „Gartenservice“, Verzeichnis „Zaun Spezialist“) – beim Betrieb bestätigen",
+    "Mögliche Verbindung zu Sanitär Erwin Riepl (Holzkirchen) prüfen",
+    "Logo und Projektfotos: nicht gefunden – beim Betrieb anfragen"
+  ],
+  "sources": [
+    {
+      "label": "zaunbaubetriebe.online – Riepl Florian Gartenservice Holzkirchen",
+      "url": "https://zaunbaubetriebe.online/riepl-florian-gartenservice/00738847"
+    }
+  ],
+  "site": {
+    "theme": "garten",
+    "category": "handwerk",
+    "heroOffer": [
+      "Gartenpflege",
+      "Rasen",
+      "Hecken",
+      "Zaunbau"
+    ],
+    "scene": "garden",
+    "logoIcon": "leaf",
+    "logoMark": "FR",
+    "brandName": "Riepl Gartenservice",
+    "seoTitle": "Gartenservice in Holzkirchen – Florian Riepl",
+    "seoDescription": "Gartenpflege und Zaunbau in Holzkirchen und Umgebung. Florian Riepl Gartenservice – jetzt unverbindlich anfragen.",
+    "nav": [
+      {
+        "label": "Leistungen",
+        "href": "#leistungen"
+      },
+      {
+        "label": "Projekte",
+        "href": "#projekte"
+      },
+      {
+        "label": "Bewertungen",
+        "href": "#bewertungen"
+      },
+      {
+        "label": "Ablauf",
+        "href": "#ablauf"
+      },
+      {
+        "label": "FAQ",
+        "href": "#faq"
+      },
+      {
+        "label": "Kontakt",
+        "href": "#kontakt"
+      }
+    ],
+    "hero": {
+      "eyebrow": "Gartenservice · Holzkirchen",
+      "headline": "Ihr Gartenservice in Holzkirchen",
+      "sub": "Gartenpflege und Zäune für Haus und Grundstück im Landkreis Miesbach.",
+      "ctaPrimary": "Unverbindlich anfragen",
+      "ctaSecondary": "Anrufen",
+      "bullets": [
+        "Betrieb aus Holzkirchen",
+        "Pflege und Zaunbau",
+        "Persönlicher Ansprechpartner"
+      ],
+      "imageLabel": "gepflegter Garten mit neuem Holzzaun"
+    },
+    "badges": [
+      {
+        "title": "Gartenpflege",
+        "sub": "rund ums Jahr"
+      },
+      {
+        "title": "Zaunbau",
+        "sub": "für Haus & Garten"
+      },
+      {
+        "title": "Persönlich",
+        "sub": "Florian Riepl"
+      },
+      {
+        "title": "Holzkirchen",
+        "sub": "Südstraße"
+      }
+    ],
+    "trust": [
+      {
+        "value": "Vor Ort",
+        "label": "Betrieb in Holzkirchen"
+      },
+      {
+        "value": "2",
+        "label": "Leistungsbereiche"
+      },
+      {
+        "value": "Außen",
+        "label": "Garten & Zaun"
+      },
+      {
+        "value": "Direkt",
+        "label": "ohne Umwege"
+      }
+    ],
+    "servicesIntro": {
+      "headline": "Garten und Zaun aus einer Hand",
+      "text": "Ob der Rasen gemäht, die Hecke geschnitten oder ein Zaun neu gesetzt werden soll – ein Anruf genügt."
+    },
+    "services": [
+      {
+        "title": "Rasenpflege",
+        "text": "Regelmäßiges Mähen und Pflegen, damit der Rasen dicht und gleichmäßig bleibt.",
+        "items": [
+          "Mähen",
+          "Vertikutieren",
+          "Rasenkanten"
+        ]
+      },
+      {
+        "title": "Heckenschnitt",
+        "text": "Hecken und Sträucher in Form gebracht – sauber geschnitten, Schnittgut entsorgt.",
+        "items": [
+          "Formschnitt",
+          "Rückschnitt",
+          "Abtransport"
+        ]
+      },
+      {
+        "title": "Beetpflege",
+        "text": "Unkraut entfernen, Beete auflockern und für die Saison vorbereiten.",
+        "items": [
+          "Jäten",
+          "Mulchen",
+          "Saisonpflege"
+        ]
+      },
+      {
+        "title": "Zaunbau",
+        "text": "Neue Zäune für Garten und Grundstück – passend zum Haus gesetzt.",
+        "items": [
+          "Gartenzäune",
+          "Sichtschutz",
+          "Pfosten setzen"
+        ]
+      },
+      {
+        "title": "Zaunreparatur",
+        "text": "Lockere Pfosten, kaputte Latten oder Felder werden instand gesetzt.",
+        "items": [
+          "Pfosten richten",
+          "Felder tauschen",
+          "Instandsetzung"
+        ]
+      },
+      {
+        "title": "Herbst & Frühjahr",
+        "text": "Laub räumen, Garten winterfest machen und im Frühjahr wieder aufbereiten.",
+        "items": [
+          "Laubräumen",
+          "Winterfest",
+          "Frühjahrsputz"
+        ]
+      }
+    ],
+    "why": {
+      "headline": "Gartenservice aus Holzkirchen – persönlich und verlässlich.",
+      "points": [
+        {
+          "title": "Kurze Wege",
+          "text": "Von Holzkirchen schnell in Otterfing, Valley, Warngau und Sauerlach."
+        },
+        {
+          "title": "Ein Ansprechpartner",
+          "text": "Sie sprechen direkt mit Florian Riepl – ohne Zwischenstellen."
+        },
+        {
+          "title": "Pflege und Zaun",
+          "text": "Gartenarbeit und Zaunbau in einem Auftrag."
+        },
+        {
+          "title": "Auch einmalig",
+          "text": "Regelmäßige Pflege oder einmaliger Einsatz – beides ist möglich."
+        }
+      ]
+    },
+    "reviews": {
+      "headline": "Was Kunden sagen",
+      "summary": "Kundenstimmen werden hier eingebunden, sobald sie aus dem Google-Profil übernommen sind.",
+      "highlights": [
+        "Gartenservice in Holzkirchen",
+        "Zaunbau",
+        "Persönlicher Kontakt"
+      ],
+      "source": "Google",
+      "sourceUrl": "https://www.google.com/maps/search/?api=1&query=Riepl%20Florian%20Gartenservice%20Holzkirchen",
+      "rating": null,
+      "count": null
+    },
+    "process": {
+      "headline": "So kommt Ihr Garten in Form",
+      "steps": [
+        {
+          "title": "Anfrage",
+          "text": "Kurz anrufen oder Fotos vom Garten schicken."
+        },
+        {
+          "title": "Besichtigung",
+          "text": "Umfang und Wünsche werden vor Ort besprochen."
+        },
+        {
+          "title": "Angebot",
+          "text": "Sie erhalten ein klares Angebot – einmalig oder regelmäßig."
+        },
+        {
+          "title": "Umsetzung",
+          "text": "Pflege oder Zaunbau zum vereinbarten Termin."
+        }
+      ]
+    },
+    "gallery": {
+      "headline": "Gärten, die gepflegt aussehen",
+      "text": "Für die Live-Version zeigen wir hier echte Arbeiten des Betriebs.",
+      "items": [
+        {
+          "title": "Rasen",
+          "photoNeeded": "frisch gemähter Rasen mit sauberen Kanten"
+        },
+        {
+          "title": "Hecke",
+          "photoNeeded": "frisch geschnittene Hecke"
+        },
+        {
+          "title": "Neuer Zaun",
+          "photoNeeded": "neu gesetzter Gartenzaun"
+        },
+        {
+          "title": "Beete",
+          "photoNeeded": "gepflegte, gemulchte Beete"
+        },
+        {
+          "title": "Herbstpflege",
+          "photoNeeded": "vom Laub befreiter Garten im Herbst"
+        }
+      ]
+    },
+    "region": {
+      "headline": "Gartenservice für Holzkirchen und Umgebung",
+      "text": "Von Holzkirchen aus in Otterfing, Valley, Warngau, Sauerlach und Weyarn.",
+      "places": [
+        "Holzkirchen",
+        "Otterfing",
+        "Valley",
+        "Warngau",
+        "Sauerlach",
+        "Weyarn"
+      ]
+    },
+    "faq": [
+      {
+        "q": "Übernehmen Sie regelmäßige Gartenpflege?",
+        "a": "Regelmäßige oder einmalige Einsätze werden nach Absprache vereinbart."
+      },
+      {
+        "q": "Setzen Sie auch neue Zäune?",
+        "a": "Ja, Zaunbau gehört zum Angebot – fragen Sie mit Länge und Wunschmaterial an."
+      },
+      {
+        "q": "Wird Schnittgut mitgenommen?",
+        "a": "Das wird bei der Besichtigung abgestimmt."
+      },
+      {
+        "q": "Kann ich vorab Fotos schicken?",
+        "a": "Ja, Fotos helfen für eine erste Einschätzung."
+      },
+      {
+        "q": "Arbeiten Sie auch außerhalb von Holzkirchen?",
+        "a": "Ja, in der Umgebung von Holzkirchen – sprechen Sie uns an."
+      }
+    ],
+    "contact": {
+      "headline": "Ihre Anfrage – unverbindlich",
+      "text": "Beschreiben Sie kurz, was ansteht: Rasen, Hecke, Beete oder Zaun. Fotos helfen.",
+      "topics": [
+        "Rasenpflege",
+        "Heckenschnitt",
+        "Beetpflege",
+        "Zaunbau",
+        "Sonstiges"
+      ],
+      "responseNote": "Besichtigung nach Absprache."
+    },
+    "quote": {
+      "sizeLabel": "Wie groß ist der Garten?",
+      "sizes": [
+        "Kleiner Garten",
+        "Reihenhausgarten",
+        "Großes Grundstück",
+        "Nur Zaun"
+      ],
+      "timings": [
+        "So bald wie möglich",
+        "In den nächsten Wochen",
+        "Regelmäßig ab Saison",
+        "Ich plane erst noch"
+      ]
+    },
+    "stickyCta": "Jetzt anfragen",
+    "look": {
+      "palette": 2,
+      "font": 6,
+      "hero": 0,
+      "services": 1,
+      "radius": 1,
+      "logo": 0,
+      "intro": 5
+    }
+  }
+}
