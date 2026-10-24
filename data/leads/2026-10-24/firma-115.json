@@ -1,0 +1,409 @@
+{
+  "id": "2026-10-24-115",
+  "slug": "schlosserei-zwerger-murnau",
+  "date": "2026-10-24",
+  "company": {
+    "name": "Schlosserei Zwerger GbR",
+    "owner": "Michael Zwerger (Junior, laut Das Örtliche)",
+    "trade": "Schlosserei & Metallbau",
+    "city": "Murnau am Staffelsee",
+    "address": "Griesbräustr. 2, 82418 Murnau am Staffelsee",
+    "phone": "08841 9165",
+    "email": "schlosserei-m.zwerger@t-online.de",
+    "serviceArea": [
+      "Murnau",
+      "Seehausen am Staffelsee",
+      "Uffing",
+      "Riegsee",
+      "Ohlstadt",
+      "Weilheim"
+    ]
+  },
+  "listings": {
+    "google": {
+      "url": "https://www.google.com/maps/search/?api=1&query=Schlosserei%20Zwerger%20Griesbr%C3%A4ustr.%202%20Murnau",
+      "rating": null,
+      "reviews": null,
+      "evidence": "Kein Google-Spiegel gefunden – Annahme über öffentlich belegte Freemail-Adresse schlosserei-m.zwerger@t-online.de (schlosserbetriebe.online, 11880, Das Örtliche). Google-Eintrag in Maps prüfen."
+    },
+    "myhammer": {
+      "url": "https://www.11880.com/branchenbuch/murnau-am-staffelsee/250394659B112605290/schlosserei-zwerger-gbr.html",
+      "rating": null,
+      "reviews": null,
+      "evidence": "Kein MyHammer gefunden – Einträge bei 11880 (Schlosserei Zwerger GbR), Das Örtliche (Schlosserei Michael Zwerger, Inhaber Michael Zwerger Junior), schlosserbetriebe.online, zaunbau-regional.de, marktplatz-mittelstand.de (Zwerger Bau- und Kunstschlosserei GbR)."
+    }
+  },
+  "websiteStatus": "keine eigene Website gefunden",
+  "websiteChecks": [
+    "(1) „Schlosserei Zwerger GbR Murnau“ mit blocked_domains (Gelbe Seiten, Telefonbuch, Cylex, meinestadt, Creditreform, Facebook, Instagram, golocal, MyHammer, Northdata, Firmenwissen, WKDB, Yelp, wlw) – nur Verzeichnisse (schlosserbetriebe.online, 11880, business-branchenbuch, marktplatz-mittelstand, zaunbau-regional, cybo, schlosserei.net, metallbau.com); keine eigene Domain",
+    "(2) Domain-Check allowed_domains schlosserei-zwerger.de, zwerger-schlosserei.de, zwerger-murnau.de, zwerger-metallbau.de, kunstschlosserei-zwerger.de, zwerger.de, schlosserei-zwerger-murnau.de, zwerger-gbr.de – nur zwerger.de = fremdes Autohaus in Ravensburg/Friedrichshafen",
+    "(3) Telefonsuche „08841 9165“/„088419165“ – keine Treffer mit Website",
+    "(4) Verzeichnis-Suche nach E-Mail – überall schlosserei-m.zwerger@t-online.de (Freemail), kein Website-Feld in den Snippets",
+    "Website-Risiko: mittel – alle Prüfungen negativ, Freemail belegt, aber traditionsreicher Betrieb (mehrere Firmenbezeichnungen) und Google-Eintrag nicht direkt belegt"
+  ],
+  "facts": {
+    "services": [
+      "Bau- und Kunstschlosserei",
+      "Geländer",
+      "Zäune",
+      "Tore und Torantriebe",
+      "Schweißarbeiten",
+      "Metall- und Blechbearbeitung",
+      "Schlüsseldienst"
+    ],
+    "experience": null,
+    "praisedFor": []
+  },
+  "strategy": {
+    "audience": "Hausbesitzer, Bauherren und Gewerbe in Murnau und am Staffelsee, die Geländer, Zäune, Tore oder Reparaturen aus Metall brauchen",
+    "mainService": "Bau- und Kunstschlosserei – Geländer, Zäune und Tore nach Maß",
+    "trustSignal": "Familienbetrieb mitten in Murnau, direkt erreichbar",
+    "conversionGoal": "Anfrage für Geländer, Zaun oder Tor (Anruf oder Formular mit Fotos)",
+    "visualConcept": "Warme Werkstattatmosphäre: Funkenflug beim Schweißen, geschmiedete Geländer vor oberbayerischer Kulisse"
+  },
+  "sales": {
+    "score": 4,
+    "whyGoodLead": [
+      "Keine eigene Website gefunden – nur Verzeichniseinträge mit T-Online-Adresse",
+      "Mehrere uneinheitliche Firmennamen in Verzeichnissen – eine Website schafft Klarheit",
+      "Geländer, Zäune und Tore werden gezielt online gesucht",
+      "Schlosser sind in der Region rar – gute Sichtbarkeit bringt direkt Aufträge"
+    ],
+    "pitch": "Grüß Gott Herr Zwerger, hier ist … – ich baue Websites für Handwerksbetriebe in Oberbayern. Ich habe Ihre Schlosserei in der Griesbräustraße in mehreren Verzeichnissen gefunden, aber keine eigene Website. Ich habe unverbindlich einen Entwurf vorbereitet, der Ihre Geländer, Zäune und Tore zeigt und Anfragen direkt zu Ihnen bringt – darf ich Ihnen den Link per E-Mail schicken?"
+  },
+  "manualChecks": [
+    "Website-Risiko: mittel – vor Versand in Google Maps prüfen, dass keine Website hinterlegt ist (Grund: Google-Eintrag nicht direkt belegt, mehrere Firmenbezeichnungen – evtl. ältere Seite unter anderem Namen)",
+    "Firmenname klären: „Schlosserei Zwerger GbR“, „Zwerger Bau- und Kunstschlosserei GbR“ oder „Schlosserei Michael Zwerger“",
+    "Keine Mobilnummer gefunden – Erstkontakt per E-Mail oder Festnetz 08841 9165",
+    "Leistungen nur aus Verzeichnissen (Geländer, Zäune, Torantriebe, Schweißen, Schlüsseldienst) – beim Betrieb bestätigen",
+    "Ort Murnau liegt außerhalb der heutigen Kernregionen – Passung zum Vertriebsgebiet prüfen",
+    "Logo und Projektfotos: nicht gefunden – beim Betrieb anfragen"
+  ],
+  "sources": [
+    {
+      "label": "11880 – Schlosserei Zwerger GbR Murnau",
+      "url": "https://www.11880.com/branchenbuch/murnau-am-staffelsee/250394659B112605290/schlosserei-zwerger-gbr.html"
+    },
+    {
+      "label": "schlosserbetriebe.online – Schlosserei Zwerger GbR",
+      "url": "https://schlosserbetriebe.online/schlosserei-zwerger-gbr/00438334"
+    },
+    {
+      "label": "Das Örtliche – Schlosserei Michael Zwerger, Inhaber Michael Zwerger Junior",
+      "url": "https://mobil.dasoertliche.de/Themen/Schlosserei-Michael-Zwerger-Inhaber-Michael-Zwerger-Junior-Murnau-Griesbr%C3%A4ustrasse"
+    },
+    {
+      "label": "zaunbau-regional – Schlosserei Zwerger GbR",
+      "url": "https://zaunbau-regional.de/zaunbau-murnau/schlosserei-zwerger-gbr/"
+    },
+    {
+      "label": "marktplatz-mittelstand – Zwerger Bau- und Kunstschlosserei GbR",
+      "url": "https://www.marktplatz-mittelstand.de/murnau-am-staffelsee/51777953-zwerger-bau--und-kunstschlosserei-gbr"
+    }
+  ],
+  "site": {
+    "theme": "werk",
+    "category": "handwerk",
+    "heroOffer": [
+      "Geländer",
+      "Zäune",
+      "Tore",
+      "Schweißarbeiten",
+      "Schlüsseldienst"
+    ],
+    "scene": "facade",
+    "logoIcon": "house",
+    "logoMark": "SZ",
+    "brandName": "Schlosserei Zwerger",
+    "seoTitle": "Schlosserei in Murnau – Schlosserei Zwerger",
+    "seoDescription": "Geländer, Zäune, Tore und Schweißarbeiten aus Murnau am Staffelsee. Jetzt unverbindlich anfragen.",
+    "nav": [
+      {
+        "label": "Leistungen",
+        "href": "#leistungen"
+      },
+      {
+        "label": "Projekte",
+        "href": "#projekte"
+      },
+      {
+        "label": "Bewertungen",
+        "href": "#bewertungen"
+      },
+      {
+        "label": "Ablauf",
+        "href": "#ablauf"
+      },
+      {
+        "label": "FAQ",
+        "href": "#faq"
+      },
+      {
+        "label": "Kontakt",
+        "href": "#kontakt"
+      }
+    ],
+    "hero": {
+      "eyebrow": "Schlosserei · Murnau",
+      "headline": "Ihre Schlosserei in Murnau",
+      "sub": "Geländer, Zäune und Tore aus Metall – gefertigt in der Griesbräustraße.",
+      "ctaPrimary": "Unverbindlich anfragen",
+      "ctaSecondary": "Anrufen",
+      "bullets": [
+        "Bau- und Kunstschlosserei",
+        "Geländer, Zäune, Tore",
+        "Mitten in Murnau"
+      ],
+      "imageLabel": "Schlosser beim Schweißen eines Stahlgeländers"
+    },
+    "badges": [
+      {
+        "title": "Geländer",
+        "sub": "innen & außen"
+      },
+      {
+        "title": "Zäune & Tore",
+        "sub": "inkl. Torantriebe"
+      },
+      {
+        "title": "Schweißen",
+        "sub": "Metall & Blech"
+      },
+      {
+        "title": "Murnau",
+        "sub": "Griesbräustraße"
+      }
+    ],
+    "trust": [
+      {
+        "value": "Vor Ort",
+        "label": "Werkstatt in Murnau"
+      },
+      {
+        "value": "Metall",
+        "label": "Stahl und Blech"
+      },
+      {
+        "value": "Maß",
+        "label": "gefertigt fürs Objekt"
+      },
+      {
+        "value": "Direkt",
+        "label": "Ansprechpartner im Betrieb"
+      }
+    ],
+    "servicesIntro": {
+      "headline": "Metallarbeiten aus der eigenen Werkstatt",
+      "text": "Ob neues Treppengeländer, Gartenzaun oder Reparatur am Tor: Die Schlosserei Zwerger fertigt und montiert Metallarbeiten für Haus und Hof."
+    },
+    "services": [
+      {
+        "title": "Geländer",
+        "text": "Treppen-, Balkon- und Brüstungsgeländer aus Metall – passend zum Haus gefertigt und montiert.",
+        "items": [
+          "Treppengeländer",
+          "Balkongeländer",
+          "Handläufe"
+        ]
+      },
+      {
+        "title": "Zäune",
+        "text": "Stabile Zäune aus Metall, die Grundstücke sichern und lange halten.",
+        "items": [
+          "Gartenzäune",
+          "Grundstückszäune",
+          "Reparatur"
+        ]
+      },
+      {
+        "title": "Tore & Torantriebe",
+        "text": "Hof- und Einfahrtstore aus Metall, auf Wunsch mit Antrieb.",
+        "items": [
+          "Einfahrtstore",
+          "Gartentüren",
+          "Torantriebe"
+        ]
+      },
+      {
+        "title": "Schweißarbeiten",
+        "text": "Schweißen und Reparieren von Metallteilen – vom Einzelstück bis zur Konstruktion.",
+        "items": [
+          "Reparaturschweißen",
+          "Stahlteile",
+          "Konstruktionen"
+        ]
+      },
+      {
+        "title": "Metall- und Blechbearbeitung",
+        "text": "Zuschnitt, Biegen und Bearbeiten von Metall und Blech nach Maß.",
+        "items": [
+          "Blechteile",
+          "Zuschnitt",
+          "Sonderanfertigung"
+        ]
+      },
+      {
+        "title": "Schlüsseldienst",
+        "text": "Hilfe bei Schlüssel- und Schlossproblemen direkt aus Murnau.",
+        "items": [
+          "Türöffnung",
+          "Schlosstausch",
+          "Schlüssel"
+        ]
+      }
+    ],
+    "why": {
+      "headline": "Metallarbeiten aus Murnau – vom Familienbetrieb.",
+      "points": [
+        {
+          "title": "Kurze Wege",
+          "text": "Die Werkstatt liegt mitten in Murnau – schnell in Seehausen, Uffing und Riegsee."
+        },
+        {
+          "title": "Aus einer Hand",
+          "text": "Aufmaß, Fertigung und Montage erledigt der Betrieb selbst."
+        },
+        {
+          "title": "Nach Maß",
+          "text": "Geländer, Zäune und Tore werden für Ihr Objekt gefertigt, nicht von der Stange."
+        },
+        {
+          "title": "Persönlich",
+          "text": "Sie sprechen direkt mit dem Schlosser, der Ihr Projekt umsetzt."
+        }
+      ]
+    },
+    "reviews": {
+      "headline": "Was Kunden sagen",
+      "summary": "Kundenstimmen werden hier eingebunden, sobald sie aus dem Google-Profil übernommen sind.",
+      "highlights": [
+        "Schlosserei in Murnau",
+        "Geländer, Zäune, Tore",
+        "Persönlicher Kontakt"
+      ],
+      "source": "Google",
+      "sourceUrl": "https://www.google.com/maps/search/?api=1&query=Schlosserei%20Zwerger%20Griesbr%C3%A4ustr.%202%20Murnau",
+      "rating": null,
+      "count": null
+    },
+    "process": {
+      "headline": "In vier Schritten zum Metallbauteil",
+      "steps": [
+        {
+          "title": "Anfrage",
+          "text": "Anrufen oder Fotos und grobe Maße per Formular schicken."
+        },
+        {
+          "title": "Aufmaß",
+          "text": "Vor Ort wird genau gemessen und die Ausführung besprochen."
+        },
+        {
+          "title": "Angebot",
+          "text": "Sie erhalten ein klares Angebot für Material und Montage."
+        },
+        {
+          "title": "Fertigung & Montage",
+          "text": "Gefertigt in der Werkstatt, montiert bei Ihnen vor Ort."
+        }
+      ]
+    },
+    "gallery": {
+      "headline": "Arbeiten aus Metall",
+      "text": "Für die Live-Version zeigen wir hier echte Projekte des Betriebs.",
+      "items": [
+        {
+          "title": "Treppengeländer",
+          "photoNeeded": "montiertes Metallgeländer an einer Innentreppe"
+        },
+        {
+          "title": "Balkongeländer",
+          "photoNeeded": "Balkon mit neuem Stahlgeländer"
+        },
+        {
+          "title": "Einfahrtstor",
+          "photoNeeded": "Hoftor aus Metall an einer Einfahrt"
+        },
+        {
+          "title": "Gartenzaun",
+          "photoNeeded": "Metallzaun an einem Grundstück"
+        },
+        {
+          "title": "In der Werkstatt",
+          "photoNeeded": "Schweißarbeit mit Funkenflug"
+        }
+      ]
+    },
+    "region": {
+      "headline": "Schlosserei für Murnau und das Blaue Land",
+      "text": "Von Murnau aus schnell in Seehausen, Uffing, Riegsee, Ohlstadt und Weilheim.",
+      "places": [
+        "Murnau",
+        "Seehausen am Staffelsee",
+        "Uffing",
+        "Riegsee",
+        "Ohlstadt",
+        "Weilheim"
+      ]
+    },
+    "faq": [
+      {
+        "q": "Fertigen Sie Geländer nach Maß?",
+        "a": "Ja, Geländer werden nach Aufmaß vor Ort gefertigt und montiert."
+      },
+      {
+        "q": "Bauen Sie auch Torantriebe ein?",
+        "a": "Ja, Tore und Torantriebe gehören zum Angebot – fragen Sie mit Ihren Wünschen an."
+      },
+      {
+        "q": "Reparieren Sie auch bestehende Zäune oder Tore?",
+        "a": "Ja, auch Reparaturen und Schweißarbeiten an vorhandenen Metallteilen sind möglich."
+      },
+      {
+        "q": "Kann ich vorab Fotos schicken?",
+        "a": "Ja, Fotos und grobe Maße helfen für eine erste Einschätzung."
+      },
+      {
+        "q": "Arbeiten Sie auch außerhalb von Murnau?",
+        "a": "Ja, im Umkreis von Murnau – fragen Sie einfach an."
+      }
+    ],
+    "contact": {
+      "headline": "Ihre Anfrage – unverbindlich",
+      "text": "Beschreiben Sie kurz Ihr Vorhaben: Geländer, Zaun, Tor oder Reparatur, ungefähre Maße und Ort. Fotos helfen.",
+      "topics": [
+        "Geländer",
+        "Zaun",
+        "Tor / Torantrieb",
+        "Schweißarbeiten",
+        "Schlüsseldienst",
+        "Sonstiges"
+      ],
+      "responseNote": "Aufmaß vor Ort nach Absprache."
+    },
+    "quote": {
+      "sizeLabel": "Was soll gefertigt werden?",
+      "sizes": [
+        "Kleine Reparatur",
+        "Geländer",
+        "Zaun",
+        "Tor mit Antrieb"
+      ],
+      "timings": [
+        "So bald wie möglich",
+        "In den nächsten Wochen",
+        "In 1–3 Monaten",
+        "Ich plane erst noch"
+      ]
+    },
+    "stickyCta": "Anfrage senden",
+    "look": {
+      "palette": 2,
+      "font": 6,
+      "hero": 0,
+      "services": 1,
+      "radius": 1,
+      "logo": 0,
+      "intro": 5
+    }
+  }
+}

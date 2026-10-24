@@ -1,0 +1,404 @@
+{
+  "id": "2026-10-24-113",
+  "slug": "josef-molin-elektroinstallation-vaterstetten",
+  "date": "2026-10-24",
+  "company": {
+    "name": "Molin Josef Elektroinstallation",
+    "owner": "Josef Molin",
+    "trade": "Elektroinstallation",
+    "city": "Vaterstetten",
+    "address": "Amselweg 15, 85591 Vaterstetten",
+    "phone": "08106 4190",
+    "email": null,
+    "serviceArea": [
+      "Vaterstetten",
+      "Baldham",
+      "Grasbrunn",
+      "Haar",
+      "Zorneding",
+      "Poing"
+    ]
+  },
+  "listings": {
+    "google": {
+      "url": "https://www.google.com/maps/search/?api=1&query=Molin%20Josef%20Elektroinstallation%20Amselweg%2015%20Vaterstetten",
+      "rating": null,
+      "reviews": null,
+      "evidence": "INDIREKT (Spiegel) – firmania.de führt „Molin Josef Elektroinstallation“, Amselweg 15, 85591 Vaterstetten, mit Öffnungszeiten Mo–Fr 08:00–18:00 („eingetragen am 09.Apr.2024“); firmania übernimmt Profildaten typischerweise aus Google. Bewertungen im Snippet nicht sichtbar, kein Website-Feld. Kein direkter google.com/maps-Treffer – in Maps prüfen."
+    },
+    "myhammer": {
+      "url": "https://www.dasoertliche.de/Themen/Molin-Josef-Elektroinstallation-Vaterstetten-Amselweg",
+      "rating": null,
+      "reviews": null,
+      "evidence": "Kein MyHammer gefunden – Einträge in Das Örtliche (Amselweg, Tel. 08106 41 90), firmania, Gelbe Seiten und 11880 (Kategorie Elektroinstallation/Elektrohandwerk)."
+    }
+  },
+  "websiteStatus": "keine eigene Website gefunden",
+  "websiteChecks": [
+    "(1) „Josef Molin Elektro Vaterstetten“ ohne Filter – kein eigener Webauftritt; nur fremde Treffer (MOLIN Elektro GmbH in Wels/Österreich – andere Firma, Industrie-Elektrotechnik; Elektroheizungs-Anbieter Reiser Vaterstetten)",
+    "(2) Telefon-/Verzeichnissuche „Molin Elektroinstallation Vaterstetten 08106 4190“ – Nummer gehört laut Das Örtliche/firmania zu Molin Josef Elektroinstallation, Amselweg 15; in keinem Snippet eine Homepage",
+    "(3) Domain-Check allowed_domains molin-elektro.de, elektro-molin.de, molin.de, elektromolin.de, molin-elektrotechnik.de, josef-molin.de, molin-vaterstetten.de, elektro-molin-vaterstetten.de – keine Treffer",
+    "(4) Google-Spiegel-Suche (firmania, trustlocal, rgv-bayern) – nur firmania-Eintrag ohne Website-Feld und ohne Bewertungen; kein trustlocal-Profil",
+    "Website-Risiko: mittel – alle Prüfungen negativ, Google-Eintrag nur indirekt über firmania belegt, keine E-Mail/Freemail gefunden; Ein-Personen-Betrieb mit Festnetz, evtl. älterer Inhaber"
+  ],
+  "facts": {
+    "services": [
+      "Elektroinstallation"
+    ],
+    "experience": null,
+    "praisedFor": []
+  },
+  "strategy": {
+    "audience": "Hausbesitzer, Wohnungseigentümer und Vermieter in Vaterstetten, Baldham und Grasbrunn mit Elektroarbeiten, Reparaturen oder Modernisierung",
+    "mainService": "Elektroinstallation im Wohnbereich",
+    "trustSignal": "Inhaber Josef Molin, Elektrobetrieb direkt in Vaterstetten",
+    "conversionGoal": "Anruf oder Anfrage für Elektroarbeiten",
+    "visualConcept": "Saubere Elektrotechnik im Einfamilienhaus: neue Unterverteilung, ordentlich verlegte Leitungen, moderne Schalter"
+  },
+  "sales": {
+    "score": 3,
+    "whyGoodLead": [
+      "Keine eigene Website gefunden – nur Verzeichniseinträge",
+      "Elektriker sind in Vaterstetten/Baldham stark gefragt (Altbau-Modernisierung, Wallbox, PV)",
+      "Inhabergeführter Kleinbetrieb – eigene Website hebt ihn von größeren Firmen ab"
+    ],
+    "pitch": "Grüß Gott Herr Molin, hier ist … – ich baue Websites für Handwerker im Münchner Osten. Ihren Elektrobetrieb am Amselweg in Vaterstetten habe ich nur in Verzeichnissen gefunden, aber ohne eigene Website. Ich habe unverbindlich einen Entwurf vorbereitet, über den Kunden aus Vaterstetten und Baldham Elektroarbeiten direkt bei Ihnen anfragen können – darf ich Ihnen den Link schicken?"
+  },
+  "manualChecks": [
+    "Website-Risiko: mittel – vor Versand in Google Maps prüfen, dass keine Website hinterlegt ist (Grund: Google-Eintrag nur über firmania-Spiegel belegt, keine Freemail)",
+    "Google-Eintrag in Maps bestätigen (Existenz, Bewertungen) und prüfen, ob der Betrieb noch aktiv ist",
+    "Nur Festnetz 08106 4190 belegt – keine Mobilnummer, keine E-Mail; Kontakt telefonisch",
+    "Leistungen nur als „Elektroinstallation“ belegt – Detailleistungen (Sanierung, Zählerschrank, E-Check, Wallbox) beim Betrieb bestätigen",
+    "Logo und Projektfotos: nicht gefunden – beim Betrieb anfragen"
+  ],
+  "sources": [
+    {
+      "label": "firmania – Molin Josef Elektroinstallation, Amselweg 15, Vaterstetten",
+      "url": "https://firmania.de/vaterstetten/molin-josef-elektroinstallation-3237620"
+    },
+    {
+      "label": "Das Örtliche – Molin Josef Elektroinstallation Vaterstetten",
+      "url": "https://www.dasoertliche.de/Themen/Molin-Josef-Elektroinstallation-Vaterstetten-Amselweg"
+    },
+    {
+      "label": "Gelbe Seiten – Elektriker Vaterstetten",
+      "url": "https://www.gelbeseiten.de/branchen/elektriker/vaterstetten"
+    },
+    {
+      "label": "11880 – Elektriker Vaterstetten",
+      "url": "https://www.11880.com/suche/elektriker/vaterstetten"
+    }
+  ],
+  "site": {
+    "theme": "volt",
+    "category": "handwerk",
+    "heroOffer": [
+      "Elektroinstallation",
+      "Steckdosen",
+      "Beleuchtung",
+      "Sicherungskasten",
+      "Reparaturen"
+    ],
+    "scene": "electric",
+    "logoIcon": "bolt",
+    "logoMark": "JM",
+    "brandName": "Elektro Molin",
+    "seoTitle": "Elektriker in Vaterstetten – Molin Josef Elektroinstallation",
+    "seoDescription": "Elektroinstallation, Reparaturen und Modernisierung in Vaterstetten, Baldham und Umgebung. Jetzt unverbindlich anfragen.",
+    "nav": [
+      {
+        "label": "Leistungen",
+        "href": "#leistungen"
+      },
+      {
+        "label": "Projekte",
+        "href": "#projekte"
+      },
+      {
+        "label": "Bewertungen",
+        "href": "#bewertungen"
+      },
+      {
+        "label": "Ablauf",
+        "href": "#ablauf"
+      },
+      {
+        "label": "FAQ",
+        "href": "#faq"
+      },
+      {
+        "label": "Kontakt",
+        "href": "#kontakt"
+      }
+    ],
+    "hero": {
+      "eyebrow": "Elektroinstallation · Vaterstetten",
+      "headline": "Ihr Elektriker in Vaterstetten",
+      "sub": "Josef Molin verlegt, erneuert und repariert Elektrik in Vaterstetten und Baldham.",
+      "ctaPrimary": "Anfrage senden",
+      "ctaSecondary": "Anrufen",
+      "bullets": [
+        "Inhabergeführt aus Vaterstetten",
+        "Neubau, Umbau und Reparatur",
+        "Persönlich telefonisch erreichbar"
+      ],
+      "imageLabel": "neu verdrahtete Unterverteilung im Einfamilienhaus"
+    },
+    "badges": [
+      {
+        "title": "Elektro",
+        "sub": "Installation"
+      },
+      {
+        "title": "Vaterstetten",
+        "sub": "Amselweg"
+      },
+      {
+        "title": "Inhaber",
+        "sub": "Josef Molin"
+      },
+      {
+        "title": "Mo–Fr",
+        "sub": "8–18 Uhr"
+      }
+    ],
+    "trust": [
+      {
+        "value": "Vor Ort",
+        "label": "Betrieb in Vaterstetten"
+      },
+      {
+        "value": "Inhaber",
+        "label": "persönlicher Ansprechpartner"
+      },
+      {
+        "value": "Mo–Fr",
+        "label": "8–18 Uhr erreichbar"
+      },
+      {
+        "value": "Haus",
+        "label": "Wohnung, Haus, Gewerbe"
+      }
+    ],
+    "hours": [
+      {
+        "label": "Mo–Fr",
+        "value": "8–18 Uhr"
+      }
+    ],
+    "servicesIntro": {
+      "headline": "Elektroarbeiten rund ums Haus",
+      "text": "Vom zusätzlichen Stromkreis bis zur kompletten Neuinstallation: Josef Molin plant und setzt Elektrik in Vaterstetten fachgerecht um."
+    },
+    "services": [
+      {
+        "title": "Elektroinstallation",
+        "text": "Neue Leitungen, Dosen und Stromkreise für Neubau, Anbau oder Umbau – sauber verlegt und dokumentiert.",
+        "items": [
+          "Neubau",
+          "Anbau",
+          "Umbau"
+        ]
+      },
+      {
+        "title": "Altbau-Modernisierung",
+        "text": "Alte Leitungen und Verteilungen auf heutigen Stand bringen – sicher und mit Reserven für neue Geräte.",
+        "items": [
+          "Leitungen erneuern",
+          "Mehr Stromkreise",
+          "Sicherheit"
+        ]
+      },
+      {
+        "title": "Sicherungskasten",
+        "text": "Unterverteilung und Zählerschrank erneuern oder erweitern, inklusive FI-Schutzschalter.",
+        "items": [
+          "Unterverteilung",
+          "FI-Schutz",
+          "Erweiterung"
+        ]
+      },
+      {
+        "title": "Steckdosen & Schalter",
+        "text": "Zusätzliche Steckdosen, neue Schalterprogramme oder versetzte Anschlüsse – auch einzeln.",
+        "items": [
+          "Nachrüsten",
+          "Austausch",
+          "Versetzen"
+        ]
+      },
+      {
+        "title": "Beleuchtung",
+        "text": "Lampen, Spots und Außenleuchten anschließen und passend schalten.",
+        "items": [
+          "Innenlicht",
+          "Außenlicht",
+          "Spots"
+        ]
+      },
+      {
+        "title": "Reparatur & Fehlersuche",
+        "text": "Wenn die Sicherung fliegt oder eine Steckdose ausfällt: Fehler finden und beheben.",
+        "items": [
+          "Fehlersuche",
+          "Reparatur",
+          "Austausch"
+        ]
+      }
+    ],
+    "why": {
+      "headline": "Elektrik vom Betrieb aus der Nachbarschaft.",
+      "points": [
+        {
+          "title": "Kurze Wege",
+          "text": "Der Betrieb sitzt am Amselweg in Vaterstetten – Baldham, Grasbrunn und Haar sind gleich nebenan."
+        },
+        {
+          "title": "Ein Ansprechpartner",
+          "text": "Sie sprechen direkt mit Inhaber Josef Molin, von der Anfrage bis zur Übergabe."
+        },
+        {
+          "title": "Fachgerecht",
+          "text": "Elektroarbeiten gehören in Fachhand – für Ihre Sicherheit und den Versicherungsschutz."
+        },
+        {
+          "title": "Auch Kleinaufträge",
+          "text": "Eine zusätzliche Steckdose oder eine neue Lampe ist genauso willkommen wie der Umbau."
+        }
+      ]
+    },
+    "reviews": {
+      "headline": "Was Kunden sagen",
+      "summary": "Kundenstimmen werden hier eingebunden, sobald sie aus dem Google-Profil übernommen sind.",
+      "highlights": [
+        "Elektroinstallation in Vaterstetten",
+        "Persönlicher Ansprechpartner",
+        "Kurze Wege"
+      ],
+      "source": "Google",
+      "sourceUrl": "https://www.google.com/maps/search/?api=1&query=Molin%20Josef%20Elektroinstallation%20Amselweg%2015%20Vaterstetten",
+      "rating": null,
+      "count": null
+    },
+    "process": {
+      "headline": "So läuft Ihr Elektroauftrag",
+      "steps": [
+        {
+          "title": "Anruf",
+          "text": "Kurz schildern, was gemacht werden soll – Mo–Fr zwischen 8 und 18 Uhr."
+        },
+        {
+          "title": "Termin vor Ort",
+          "text": "Josef Molin sieht sich Leitungen, Verteilung und Wunsch an."
+        },
+        {
+          "title": "Angebot",
+          "text": "Sie erhalten ein klares Angebot für die Arbeiten."
+        },
+        {
+          "title": "Ausführung",
+          "text": "Installation, Prüfung und Übergabe – mit Erklärung, was gemacht wurde."
+        }
+      ]
+    },
+    "gallery": {
+      "headline": "Elektrik, die man nicht sieht – aber merkt",
+      "text": "Für die Live-Version zeigen wir hier echte Arbeiten des Betriebs.",
+      "items": [
+        {
+          "title": "Neue Unterverteilung",
+          "photoNeeded": "aufgeräumte, beschriftete Unterverteilung mit FI-Schaltern"
+        },
+        {
+          "title": "Leitungen im Rohbau",
+          "photoNeeded": "sauber verlegte Leerrohre und Dosen im Rohbau"
+        },
+        {
+          "title": "Schalterprogramm",
+          "photoNeeded": "neue Schalter und Steckdosen an frisch gestrichener Wand"
+        },
+        {
+          "title": "Außenbeleuchtung",
+          "photoNeeded": "Außenleuchte am Hauseingang bei Dämmerung"
+        },
+        {
+          "title": "Küchenanschluss",
+          "photoNeeded": "Herd- und Geräteanschlüsse in neuer Küche"
+        }
+      ]
+    },
+    "region": {
+      "headline": "Elektriker für Vaterstetten und den Münchner Osten",
+      "text": "Vom Amselweg aus schnell in Baldham, Grasbrunn, Haar, Zorneding und Poing.",
+      "places": [
+        "Vaterstetten",
+        "Baldham",
+        "Grasbrunn",
+        "Haar",
+        "Zorneding",
+        "Poing",
+        "Parsdorf"
+      ]
+    },
+    "faq": [
+      {
+        "q": "Übernehmen Sie auch kleine Elektroarbeiten?",
+        "a": "Ja, auch einzelne Steckdosen, Lampen oder Reparaturen – rufen Sie einfach an."
+      },
+      {
+        "q": "Wann sind Sie erreichbar?",
+        "a": "Montag bis Freitag zwischen 8 und 18 Uhr telefonisch unter 08106 4190."
+      },
+      {
+        "q": "Lohnt sich eine Modernisierung im Altbau?",
+        "a": "Oft ja – ältere Anlagen haben zu wenige Stromkreise und keinen FI-Schutz. Das wird vor Ort beurteilt."
+      },
+      {
+        "q": "Kommen Sie zur Besichtigung?",
+        "a": "Ja, für größere Arbeiten wird ein Termin vor Ort vereinbart."
+      },
+      {
+        "q": "Arbeiten Sie auch außerhalb von Vaterstetten?",
+        "a": "Ja, in den Nachbarorten wie Baldham, Grasbrunn, Haar und Zorneding."
+      }
+    ],
+    "contact": {
+      "headline": "Elektroarbeiten anfragen",
+      "text": "Beschreiben Sie kurz, was gemacht werden soll: Raum, Umfang und ob Neuinstallation oder Reparatur.",
+      "topics": [
+        "Elektroinstallation",
+        "Modernisierung",
+        "Sicherungskasten",
+        "Steckdosen & Licht",
+        "Reparatur",
+        "Sonstiges"
+      ],
+      "responseNote": "Telefonisch Mo–Fr 8–18 Uhr."
+    },
+    "quote": {
+      "sizeLabel": "Worum geht es?",
+      "sizes": [
+        "Kleine Reparatur",
+        "Einzelne Steckdosen/Lampen",
+        "Ein Raum",
+        "Ganze Wohnung/Haus"
+      ],
+      "timings": [
+        "Dringend",
+        "In den nächsten Wochen",
+        "In 1–3 Monaten",
+        "Ich plane erst noch"
+      ]
+    },
+    "stickyCta": "Elektriker anfragen",
+    "look": {
+      "palette": 2,
+      "font": 6,
+      "hero": 0,
+      "services": 1,
+      "radius": 1,
+      "logo": 0,
+      "intro": 5
+    }
+  }
+}
