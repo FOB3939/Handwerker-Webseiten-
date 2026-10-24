@@ -1,0 +1,386 @@
+{
+  "id": "2026-10-24-120",
+  "slug": "my-hausmeister-emmering",
+  "date": "2026-10-24",
+  "company": {
+    "name": "My Hausmeister",
+    "owner": null,
+    "trade": "Hausmeisterservice",
+    "city": "Emmering",
+    "address": "Hauptstr. 8, 82275 Emmering",
+    "phone": "0176 24857744",
+    "email": null,
+    "serviceArea": [
+      "Emmering",
+      "Fürstenfeldbruck",
+      "Eichenau",
+      "Olching",
+      "Puchheim",
+      "Maisach"
+    ]
+  },
+  "listings": {
+    "google": {
+      "url": "https://www.google.com/maps/search/?api=1&query=My%20Hausmeister%20Hauptstr.%208%20Emmering",
+      "rating": null,
+      "reviews": null,
+      "evidence": "NICHT BELEGT – kein Google-Spiegel gefunden, keine Freemail sichtbar. In Maps prüfen."
+    },
+    "myhammer": {
+      "url": "https://www.11880.com/suche/hausmeisterservice/emmering",
+      "rating": null,
+      "reviews": null,
+      "evidence": "Kein MyHammer gefunden – Eintrag „My Hausmeister“ (Hausmeisterservice, Hauptstr. 8, 82275 Emmering, (0176) 24857744, keine Öffnungszeiten) in der 11880-Liste Hausmeisterservices Emmering; zwei 11880-Seiten mit identischen Daten."
+    }
+  },
+  "websiteStatus": "keine eigene Website gefunden",
+  "websiteChecks": [
+    "(1) „My Hausmeister“ Emmering mit blocked_domains (11880, Gelbe Seiten, Das Örtliche, Telefonbuch, Cylex, meinestadt, Creditreform, Facebook, Instagram, golocal, MyHammer, Northdata, Firmenwissen, WKDB, Yelp, trustlocal, wlw) – einziger Treffer myhausmeisterservice.de (My Hausmeisterservice, Inhaber Hakan Satici, Landshut) – anderer Betrieb, kein Bezug zu Emmering",
+    "(2) Domain-Check allowed_domains my-hausmeister.de, myhausmeister.de, myhausmeister-emmering.de, my-hausmeister-emmering.de – keine Treffer",
+    "(3) 11880-Nachsuche Name + Adresse – Eintrag ohne Website-Feld und ohne E-Mail",
+    "Nicht durchgeführt (Budget): Telefonnummer-Suche „0176 24857744“, Impressum-Suche",
+    "Website-Risiko: mittel – Prüfungen negativ, aber generischer Name und kein Google-/Freemail-Beleg"
+  ],
+  "facts": {
+    "services": [
+      "Hausmeisterservice"
+    ],
+    "experience": null,
+    "praisedFor": []
+  },
+  "strategy": {
+    "audience": "Hausverwaltungen, WEGs, Vermieter und Eigenheimbesitzer in Emmering, Fürstenfeldbruck und Eichenau, die einen verlässlichen Hausmeister vor Ort suchen",
+    "mainService": "Hausmeisterservice rund um Haus, Treppenhaus und Außenanlage",
+    "trustSignal": "Hausmeister direkt aus Emmering, per Handy erreichbar",
+    "conversionGoal": "Angebot für Hausmeisterbetreuung per WhatsApp/Anruf anfragen",
+    "visualConcept": "Aufgeräumt und verlässlich: gepflegter Hauseingang, sauberes Treppenhaus, geräumter Gehweg – ruhige, solide Farben"
+  },
+  "sales": {
+    "score": 4,
+    "whyGoodLead": [
+      "Keine eigene Website gefunden – nur 11880-Eintrag",
+      "Mobilnummer öffentlich gelistet – WhatsApp-Erstkontakt möglich",
+      "Hausmeisterdienste werden von Hausverwaltungen online gesucht – Website schafft Vertrauen",
+      "Name „My Hausmeister“ eignet sich gut als Marke für eine kleine Website"
+    ],
+    "pitch": "Hallo, hier ist … – ich baue Websites für Betriebe im Landkreis Fürstenfeldbruck. Ich habe „My Hausmeister“ in Emmering bei 11880 gefunden, aber keine eigene Website. Ich habe unverbindlich einen Entwurf vorbereitet, über den Hausverwaltungen und Eigentümer Sie direkt per WhatsApp anfragen können – darf ich Ihnen den Link schicken?"
+  },
+  "manualChecks": [
+    "RESERVE – weder Google-Eintrag noch Freemail-Adresse belegt: NUR versenden, wenn Google Maps einen Eintrag OHNE Website zeigt.",
+    "Inhabername unbekannt – beim Erstkontakt erfragen; Anrede neutral halten",
+    "Leistungen nicht einzeln belegt (nur Kategorie Hausmeisterservice) – Treppenhausreinigung, Gartenpflege, Winterdienst, Kleinreparaturen beim Betrieb bestätigen",
+    "Verwechslungsgefahr mit „My Hausmeisterservice“ (Landshut, myhausmeisterservice.de) – sicherstellen, dass es kein Ableger ist",
+    "Logo und Fotos: nicht gefunden – beim Betrieb anfragen"
+  ],
+  "sources": [
+    {
+      "label": "11880 – Hausmeisterservices Emmering (Liste mit My Hausmeister)",
+      "url": "https://www.11880.com/suche/hausmeisterservice/emmering"
+    }
+  ],
+  "site": {
+    "theme": "objekt",
+    "category": "handwerk",
+    "heroOffer": [
+      "Hausmeisterdienst",
+      "Treppenhaus",
+      "Gartenpflege",
+      "Winterdienst",
+      "Kleinreparaturen"
+    ],
+    "scene": "facade",
+    "logoIcon": "house",
+    "logoMark": "MH",
+    "brandName": "My Hausmeister",
+    "seoTitle": "Hausmeisterservice in Emmering – My Hausmeister",
+    "seoDescription": "Hausmeisterservice in Emmering und Umgebung: Treppenhaus, Außenanlage, Winterdienst und Kleinreparaturen. Jetzt Angebot anfragen – auch per WhatsApp.",
+    "nav": [
+      {
+        "label": "Leistungen",
+        "href": "#leistungen"
+      },
+      {
+        "label": "Projekte",
+        "href": "#projekte"
+      },
+      {
+        "label": "Bewertungen",
+        "href": "#bewertungen"
+      },
+      {
+        "label": "Ablauf",
+        "href": "#ablauf"
+      },
+      {
+        "label": "FAQ",
+        "href": "#faq"
+      },
+      {
+        "label": "Kontakt",
+        "href": "#kontakt"
+      }
+    ],
+    "hero": {
+      "eyebrow": "Hausmeisterservice · Emmering",
+      "headline": "Ihr Hausmeister in Emmering",
+      "sub": "Treppenhaus, Außenanlage und Winterdienst – zuverlässig betreut im Landkreis Fürstenfeldbruck.",
+      "ctaPrimary": "Angebot anfragen",
+      "ctaSecondary": "Anrufen",
+      "bullets": [
+        "Hausmeister aus Emmering",
+        "Für Eigentümer und Verwaltungen",
+        "Direkt per Handy erreichbar"
+      ],
+      "imageLabel": "gepflegter Hauseingang mit gefegtem Weg"
+    },
+    "badges": [
+      {
+        "title": "Haus",
+        "sub": "Kontrolle & Pflege"
+      },
+      {
+        "title": "Außen",
+        "sub": "Garten & Wege"
+      },
+      {
+        "title": "Winter",
+        "sub": "Räum- und Streudienst"
+      },
+      {
+        "title": "Emmering",
+        "sub": "Hauptstraße"
+      }
+    ],
+    "trust": [
+      {
+        "value": "Vor Ort",
+        "label": "Betrieb in Emmering"
+      },
+      {
+        "value": "6",
+        "label": "Leistungsbereiche"
+      },
+      {
+        "value": "Mobil",
+        "label": "schnell erreichbar"
+      },
+      {
+        "value": "Fest",
+        "label": "ein Ansprechpartner"
+      }
+    ],
+    "servicesIntro": {
+      "headline": "Alles, was ein Haus regelmäßig braucht",
+      "text": "Vom sauberen Treppenhaus bis zum geräumten Gehweg: Sie vergeben die Betreuung einmal und haben einen festen Ansprechpartner."
+    },
+    "services": [
+      {
+        "title": "Objektbetreuung",
+        "text": "Regelmäßige Kontrollgänge durch Haus, Keller und Technikräume – Mängel werden früh gemeldet.",
+        "items": [
+          "Kontrollgänge",
+          "Mängelmeldung",
+          "Zählerstände"
+        ]
+      },
+      {
+        "title": "Treppenhausreinigung",
+        "text": "Saubere Treppenhäuser, Eingänge und Kellerflure im festen Rhythmus.",
+        "items": [
+          "Treppenhaus",
+          "Eingang",
+          "Kellerflur"
+        ]
+      },
+      {
+        "title": "Gartenpflege",
+        "text": "Rasen, Hecken und Beete rund ums Haus gepflegt – das Grundstück bleibt ordentlich.",
+        "items": [
+          "Rasenmähen",
+          "Heckenschnitt",
+          "Laub"
+        ]
+      },
+      {
+        "title": "Winterdienst",
+        "text": "Gehwege und Zugänge geräumt und gestreut, damit niemand ausrutscht.",
+        "items": [
+          "Schneeräumen",
+          "Streuen",
+          "Zugänge"
+        ]
+      },
+      {
+        "title": "Kleinreparaturen",
+        "text": "Kleine Schäden schnell behoben – vom klemmenden Türschloss bis zum Leuchtmitteltausch.",
+        "items": [
+          "Leuchtmittel",
+          "Türen & Schlösser",
+          "Kleinmontagen"
+        ]
+      },
+      {
+        "title": "Mülltonnendienst",
+        "text": "Tonnen rechtzeitig an die Straße und zurück – ohne dass Mieter daran denken müssen.",
+        "items": [
+          "Bereitstellung",
+          "Rückstellung",
+          "Tonnenplatz"
+        ]
+      }
+    ],
+    "why": {
+      "headline": "Ein Hausmeister aus dem Ort.",
+      "points": [
+        {
+          "title": "Kurze Wege",
+          "text": "Sitz an der Hauptstraße in Emmering – schnell in Fürstenfeldbruck und Eichenau."
+        },
+        {
+          "title": "Direkter Draht",
+          "text": "Ein Anruf oder eine WhatsApp-Nachricht genügt, ohne Warteschleife."
+        },
+        {
+          "title": "Alles aus einer Hand",
+          "text": "Innen, außen und im Winter – ein Auftrag statt mehrerer Dienstleister."
+        },
+        {
+          "title": "Für jede Größe",
+          "text": "Vom Einfamilienhaus bis zur Wohnanlage einer Eigentümergemeinschaft."
+        }
+      ]
+    },
+    "reviews": {
+      "headline": "Was Kunden sagen",
+      "summary": "Kundenstimmen werden hier eingebunden, sobald sie aus dem Google-Profil übernommen sind.",
+      "highlights": [
+        "Hausmeisterservice in Emmering",
+        "Direkter Kontakt",
+        "Innen und außen"
+      ],
+      "source": "Google",
+      "sourceUrl": "https://www.google.com/maps/search/?api=1&query=My%20Hausmeister%20Hauptstr.%208%20Emmering",
+      "rating": null,
+      "count": null
+    },
+    "process": {
+      "headline": "In vier Schritten zur Betreuung",
+      "steps": [
+        {
+          "title": "Anfrage",
+          "text": "Objekt und gewünschte Leistungen kurz per WhatsApp oder Telefon schildern."
+        },
+        {
+          "title": "Besichtigung",
+          "text": "Haus und Außenanlage werden gemeinsam angeschaut."
+        },
+        {
+          "title": "Angebot",
+          "text": "Sie erhalten ein klares Angebot mit festen Leistungen und Intervallen."
+        },
+        {
+          "title": "Betreuung",
+          "text": "Die Arbeiten laufen regelmäßig – Sie haben einen festen Ansprechpartner."
+        }
+      ]
+    },
+    "gallery": {
+      "headline": "Gepflegte Häuser in Emmering",
+      "text": "Für die Live-Version zeigen wir hier echte Objekte und Einsätze des Betriebs.",
+      "items": [
+        {
+          "title": "Treppenhaus",
+          "photoNeeded": "frisch gereinigtes Treppenhaus eines Mehrfamilienhauses"
+        },
+        {
+          "title": "Außenanlage",
+          "photoNeeded": "gemähter Rasen und geschnittene Hecke vor einem Wohnhaus"
+        },
+        {
+          "title": "Winterdienst",
+          "photoNeeded": "geräumter und gestreuter Gehweg im Schnee"
+        },
+        {
+          "title": "Tonnenplatz",
+          "photoNeeded": "aufgeräumter Mülltonnenplatz"
+        },
+        {
+          "title": "Kleinreparatur",
+          "photoNeeded": "Hausmeister beim Wechseln einer Treppenhausleuchte"
+        }
+      ]
+    },
+    "region": {
+      "headline": "Hausmeisterservice für Emmering und Umgebung",
+      "text": "Von Emmering aus in Fürstenfeldbruck, Eichenau, Olching, Puchheim und Maisach.",
+      "places": [
+        "Emmering",
+        "Fürstenfeldbruck",
+        "Eichenau",
+        "Olching",
+        "Puchheim",
+        "Maisach"
+      ]
+    },
+    "faq": [
+      {
+        "q": "Betreuen Sie auch Einfamilienhäuser?",
+        "a": "Ja, Anfragen von Eigenheimbesitzern sind ebenso willkommen wie von Hausverwaltungen."
+      },
+      {
+        "q": "Kann ich einzelne Leistungen buchen?",
+        "a": "Ja, zum Beispiel nur Winterdienst oder Gartenpflege – sprechen Sie uns an."
+      },
+      {
+        "q": "Wie schnell erreiche ich Sie?",
+        "a": "Am schnellsten per Anruf oder WhatsApp unter der Handynummer."
+      },
+      {
+        "q": "Arbeiten Sie auch außerhalb von Emmering?",
+        "a": "Ja, im Umkreis von Emmering, etwa in Fürstenfeldbruck und Eichenau."
+      },
+      {
+        "q": "Wie entsteht der Preis?",
+        "a": "Nach einer Besichtigung erhalten Sie ein Angebot passend zu Objekt und Leistungsumfang."
+      }
+    ],
+    "contact": {
+      "headline": "Ihr Angebot – kostenlos und unverbindlich",
+      "text": "Nennen Sie kurz Objektart, Ort und gewünschte Leistungen – zum Beispiel Treppenhaus, Garten oder Winterdienst.",
+      "topics": [
+        "Objektbetreuung",
+        "Treppenhausreinigung",
+        "Gartenpflege",
+        "Winterdienst",
+        "Kleinreparaturen",
+        "Sonstiges"
+      ],
+      "responseNote": "Besichtigung nach Absprache."
+    },
+    "quote": {
+      "sizeLabel": "Welches Objekt?",
+      "sizes": [
+        "Einfamilienhaus",
+        "Mehrfamilienhaus",
+        "Wohnanlage",
+        "Gewerbeobjekt"
+      ],
+      "timings": [
+        "So bald wie möglich",
+        "Ab nächstem Monat",
+        "Für den Winter",
+        "Ich plane erst noch"
+      ]
+    },
+    "stickyCta": "Angebot anfragen",
+    "look": {
+      "palette": 2,
+      "font": 6,
+      "hero": 0,
+      "services": 1,
+      "radius": 1,
+      "logo": 0,
+      "intro": 5
+    }
+  }
+}
