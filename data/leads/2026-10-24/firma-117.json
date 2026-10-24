@@ -1,0 +1,263 @@
+{
+  "id": "2026-10-24-117",
+  "slug": "arici-gebaeudedienst-gilching",
+  "date": "2026-10-24",
+  "company": {
+    "name": "ARICI Gebäudedienst",
+    "owner": "Nezih Arici",
+    "trade": "Gebäudereinigung & Hausmeisterservice",
+    "city": "Gilching",
+    "address": "Herrschinger Weg 10, 82205 Gilching",
+    "phone": "01573 1033701",
+    "email": null,
+    "serviceArea": [
+      "Gilching",
+      "Argelsried",
+      "Weßling",
+      "Germering",
+      "Gauting",
+      "Starnberg"
+    ]
+  },
+  "listings": {
+    "google": {
+      "url": "https://www.google.com/maps/search/?api=1&query=ARICI%20Geb%C3%A4udedienst%20Gilching",
+      "rating": null,
+      "reviews": null,
+      "evidence": "NICHT BELEGT – kein Google-Spiegel (rgv-bayern, trustlocal, firmania) zu ARICI Gebäudedienst gefunden. 11880 vermerkt „bisher keine Bewertungen“. In Google Maps prüfen, ob ein Eintrag existiert und ob dort eine Website hinterlegt ist."
+    },
+    "myhammer": {
+      "url": "https://www.11880.com/branchenbuch/gilching/061331911B108655466/arici-gebaeudedienst.html",
+      "rating": null,
+      "reviews": null,
+      "evidence": "Kein MyHammer gefunden – Eintrag bei 11880 (Gebäudereinigung, Herrschinger Weg 10, Gilching, Tel. 01573 1033701; in Ortslisten auch als Hausmeisterservice & Gebäudereinigung), bayregio.de (Nezih Arici, Gutenbergstr. 5, Gilching, Gründung 2019) und Auftragsgesuche auf auftragsbank.de (Glas-, Bau- und Treppenhausreinigung)."
+    }
+  },
+  "websiteStatus": "keine eigene Website gefunden",
+  "websiteChecks": [
+    "(1) „ARICI Gebäudedienst Gilching“ mit blocked_domains (11880, Gelbe Seiten, Das Örtliche, Telefonbuch, Cylex, meinestadt, Creditreform, Facebook, Instagram, golocal, MyHammer, Northdata, Firmenwissen, WKDB, Yelp, trustlocal, wlw) – nur bayregio.de, auftragsbank.de und gilching24.de; keine eigene Domain",
+    "(2) Domain-Check allowed_domains arici-gebaeudedienst.de, arici-gebaudedienst.de, aricigebaeudedienst.de, arici-reinigung.de, arici-gilching.de, arici-service.de, arici-facility.de, arici.de – keine Treffer",
+    "(3) Telefon-/E-Mail-Suche „01573 1033701“/„015731033701“ – Nummer nirgends außer 11880; auftragsbank zeigt E-Mail nur verschleiert; ein Gesuch von „Herr Arici“ (Gilching, 2023) nennt zusätzlich 0152-14565425",
+    "(4) Impressum-Suche „Impressum Nezih Arici Gilching“ – kein Impressum gefunden",
+    "Website-Risiko: mittel – alle Prüfungen negativ, aber weder Google-Eintrag noch Freemail belegt (RESERVE)"
+  ],
+  "facts": {
+    "services": [
+      "Gebäudereinigung",
+      "Treppenhausreinigung",
+      "Glasreinigung",
+      "Bauendreinigung",
+      "Hausmeisterservice"
+    ],
+    "experience": "Gründung 2019 (laut bayregio.de/auftragsbank.de)",
+    "praisedFor": []
+  },
+  "strategy": {
+    "audience": "Hausverwaltungen, Eigentümergemeinschaften, Vermieter und Gewerbebetriebe in Gilching, Argelsried, Weßling und Germering, die regelmäßige Treppenhaus-, Glas- oder Bauendreinigung brauchen",
+    "mainService": "Treppenhaus- und Gebäudereinigung im Unterhalt",
+    "trustSignal": "Inhabergeführter Reinigungsbetrieb aus Gilching, direkt per Handy erreichbar",
+    "conversionGoal": "Unverbindliches Reinigungsangebot anfragen (Objektart, Fläche, Turnus)",
+    "visualConcept": "Klar und frisch: glänzende Glasflächen, saubere Treppenhäuser, helles Weiß mit kühlem Akzent – ordentlich und verlässlich"
+  },
+  "sales": {
+    "score": 3,
+    "whyGoodLead": [
+      "Keine eigene Website gefunden – nur Verzeichnisse und Auftragsgesuche",
+      "Mobilnummer öffentlich gelistet – WhatsApp-Erstkontakt möglich",
+      "Betrieb sucht aktiv Aufträge (Gesuche auf auftragsbank.de) – Website liefert genau das",
+      "Gewerbegebiet Gilching/Argelsried bietet viele Objekte für Unterhaltsreinigung"
+    ],
+    "pitch": "Hallo Herr Arici, hier ist … – ich baue Websites für Handwerks- und Servicebetriebe im Landkreis Starnberg. Ich habe gesehen, dass Sie in Gilching Treppenhaus-, Glas- und Bauendreinigung anbieten, aber noch keine eigene Website haben. Ich habe unverbindlich einen Entwurf vorbereitet, über den Hausverwaltungen und Firmen direkt ein Angebot anfragen können – darf ich Ihnen den Link schicken?"
+  },
+  "manualChecks": [
+    "RESERVE – weder Google-Eintrag noch Freemail-Adresse belegt: NUR versenden, wenn Google Maps einen Eintrag OHNE Website zeigt.",
+    "Zwei Adressen: Herrschinger Weg 10 (11880) und Gutenbergstr. 5 (bayregio) – aktuelle Adresse klären",
+    "Zwei Mobilnummern: 01573 1033701 (11880) und 0152-14565425 (auftragsbank-Gesuch „Herr Arici“, 2023) – vor Kontakt klären, welche gilt",
+    "Prüfen, ob der Betrieb noch aktiv ist (Gesuche ab 2021, letzter Hinweis 2024)",
+    "Leistungen nur grob belegt (Treppenhaus-, Glas-, Bauendreinigung, Hausmeister/Objektpflege) – Winterdienst, Grünpflege etc. nicht belegt, beim Betrieb erfragen",
+    "Logo und Fotos: nicht gefunden – beim Betrieb anfragen"
+  ],
+  "sources": [
+    {
+      "label": "11880 – ARICI Gebäudedienst Gilching",
+      "url": "https://www.11880.com/branchenbuch/gilching/061331911B108655466/arici-gebaeudedienst.html"
+    },
+    {
+      "label": "11880 – Gebäudereinigungen Gilching (Liste)",
+      "url": "https://www.11880.com/suche/gebaeudereinigung/gilching"
+    },
+    {
+      "label": "bayregio – ARICI Gebäudedienst in Gilching",
+      "url": "https://www.bayregio.de/verzeichnis/detail.php?eintrag=8234"
+    },
+    {
+      "label": "auftragsbank – Gesuch ARICI Gebäudedienst",
+      "url": "https://www.auftragsbank.de/gesuche/arici-gebaeudedienst/92805"
+    },
+    {
+      "label": "auftragsbank – Firmenprofil ARICI Gebäudedienst",
+      "url": "https://www.auftragsbank.de/firmen/arici-gebaeudedienst/42226"
+    }
+  ],
+  "site": {
+    "theme": "aqua",
+    "category": "handwerk",
+    "heroOffer": [
+      "Treppenhaus",
+      "Glasreinigung",
+      "Bauendreinigung",
+      "Unterhalt",
+      "Hausmeister"
+    ],
+    "scene": "facade",
+    "logoIcon": "broom",
+    "logoMark": "AG",
+    "brandName": "ARICI Gebäudedienst",
+    "seoTitle": "Gebäudereinigung in Gilching – ARICI Gebäudedienst",
+    "seoDescription": "Treppenhaus-, Glas- und Bauendreinigung sowie Hausmeisterservice in Gilching und Umgebung. Jetzt unverbindlich Angebot anfragen.",
+    "nav": [
+      { "label": "Leistungen", "href": "#leistungen" },
+      { "label": "Objekte", "href": "#projekte" },
+      { "label": "Bewertungen", "href": "#bewertungen" },
+      { "label": "Ablauf", "href": "#ablauf" },
+      { "label": "FAQ", "href": "#faq" },
+      { "label": "Kontakt", "href": "#kontakt" }
+    ],
+    "hero": {
+      "eyebrow": "Gebäudereinigung · Gilching",
+      "headline": "Gebäudereinigung in Gilching",
+      "sub": "Treppenhäuser, Glasflächen und Baustellen – gründlich gereinigt im festen Turnus.",
+      "ctaPrimary": "Reinigungsangebot anfragen",
+      "ctaSecondary": "Anrufen",
+      "bullets": [
+        "Inhabergeführt aus Gilching",
+        "Einmalig oder regelmäßig",
+        "Direkt per Handy erreichbar"
+      ],
+      "imageLabel": "frisch gereinigtes, helles Treppenhaus mit glänzendem Geländer"
+    },
+    "badges": [
+      { "title": "Treppenhaus", "sub": "im festen Turnus" },
+      { "title": "Glas", "sub": "Fenster & Eingänge" },
+      { "title": "Bauende", "sub": "bezugsfertig übergeben" },
+      { "title": "Gilching", "sub": "seit 2019" }
+    ],
+    "trust": [
+      { "value": "2019", "label": "gegründet in Gilching" },
+      { "value": "5", "label": "Leistungsbereiche" },
+      { "value": "Turnus", "label": "wöchentlich bis einmalig" },
+      { "value": "Mobil", "label": "schnell erreichbar" }
+    ],
+    "servicesIntro": {
+      "headline": "Saubere Objekte – vom Treppenhaus bis zur Glasfront",
+      "text": "ARICI Gebäudedienst übernimmt die laufende Reinigung von Wohn- und Gewerbeobjekten und packt nach Bau oder Renovierung mit an."
+    },
+    "services": [
+      {
+        "title": "Treppenhausreinigung",
+        "text": "Stufen, Geländer, Eingangsbereich und Briefkastenanlage – regelmäßig gereinigt nach festem Plan.",
+        "items": ["Stufen & Podeste", "Geländer", "Eingangsbereich"]
+      },
+      {
+        "title": "Glasreinigung",
+        "text": "Streifenfreie Fenster, Glastüren und Schaufenster für Wohnhäuser, Büros und Läden.",
+        "items": ["Fenster", "Glastüren", "Rahmen"]
+      },
+      {
+        "title": "Bauendreinigung",
+        "text": "Nach Neubau oder Renovierung: Staub, Farbreste und Schmutz raus – Räume bezugsfertig übergeben.",
+        "items": ["Grobreinigung", "Feinreinigung", "Übergabe"]
+      },
+      {
+        "title": "Unterhaltsreinigung",
+        "text": "Laufende Reinigung von Büros und Gemeinschaftsflächen im vereinbarten Rhythmus.",
+        "items": ["Büros", "Gemeinschaftsflächen", "Fester Turnus"]
+      },
+      {
+        "title": "Hausmeisterservice",
+        "text": "Kleine Kontrollgänge und Objektpflege rund ums Haus – ein Ansprechpartner für Reinigung und Betreuung.",
+        "items": ["Objektkontrolle", "Kleinere Arbeiten", "Ansprechpartner"]
+      },
+      {
+        "title": "Einzelaufträge",
+        "text": "Auch einmalige Reinigungen, etwa vor Übergabe oder nach Auszug, auf Anfrage.",
+        "items": ["Auszug", "Übergabe", "Sonderreinigung"]
+      }
+    ],
+    "why": {
+      "headline": "Reinigung aus Gilching – verlässlich und direkt.",
+      "points": [
+        { "title": "Kurze Wege", "text": "Sitz in Gilching – schnell in Argelsried, Weßling, Germering und Gauting." },
+        { "title": "Fester Ansprechpartner", "text": "Sie sprechen direkt mit dem Inhaber, nicht mit einer Zentrale." },
+        { "title": "Flexibler Turnus", "text": "Wöchentlich, vierzehntägig oder einmalig – nach Bedarf des Objekts." },
+        { "title": "Vom Bau bis zum Unterhalt", "text": "Bauendreinigung und laufende Pflege aus einer Hand." }
+      ]
+    },
+    "reviews": {
+      "headline": "Was Kunden sagen",
+      "summary": "Kundenstimmen werden hier eingebunden, sobald sie aus dem Google-Profil übernommen sind.",
+      "highlights": [
+        "Treppenhausreinigung in Gilching",
+        "Glas- und Bauendreinigung",
+        "Direkter Kontakt"
+      ],
+      "source": "Google",
+      "sourceUrl": "https://www.google.com/maps/search/?api=1&query=ARICI%20Geb%C3%A4udedienst%20Gilching",
+      "rating": null,
+      "count": null
+    },
+    "process": {
+      "headline": "In vier Schritten zum sauberen Objekt",
+      "steps": [
+        { "title": "Anfrage", "text": "Objektart, ungefähre Fläche und gewünschten Turnus per Anruf oder WhatsApp nennen." },
+        { "title": "Besichtigung", "text": "Umfang und Besonderheiten werden vor Ort angeschaut." },
+        { "title": "Angebot", "text": "Sie erhalten ein klares Angebot mit Leistungsumfang und Rhythmus." },
+        { "title": "Start", "text": "Die Reinigung beginnt zum vereinbarten Termin – zuverlässig im Turnus." }
+      ]
+    },
+    "gallery": {
+      "headline": "Objekte, die glänzen",
+      "text": "Für die Live-Version zeigen wir hier echte Einsätze des Betriebs.",
+      "items": [
+        { "title": "Treppenhaus", "photoNeeded": "gereinigtes Treppenhaus eines Mehrfamilienhauses" },
+        { "title": "Glasfront", "photoNeeded": "streifenfreie Glastür oder Schaufenster" },
+        { "title": "Nach dem Bau", "photoNeeded": "bezugsfertiger Raum nach Bauendreinigung" },
+        { "title": "Büroflächen", "photoNeeded": "aufgeräumtes, gereinigtes Büro" },
+        { "title": "Eingangsbereich", "photoNeeded": "sauberer Hauseingang mit Briefkastenanlage" }
+      ]
+    },
+    "region": {
+      "headline": "Gebäudereinigung für Gilching und das Würmtal",
+      "text": "Von Gilching aus im Einsatz in Argelsried, Weßling, Germering, Gauting und Starnberg.",
+      "places": ["Gilching", "Argelsried", "Weßling", "Germering", "Gauting", "Starnberg"]
+    },
+    "faq": [
+      { "q": "Reinigen Sie auch nur einmalig?", "a": "Ja, neben regelmäßiger Reinigung sind auch Einzelaufträge möglich – fragen Sie einfach an." },
+      { "q": "Übernehmen Sie Bauendreinigungen?", "a": "Ja, nach Neubau oder Renovierung wird das Objekt bezugsfertig gereinigt." },
+      { "q": "Wie oft wird das Treppenhaus gereinigt?", "a": "Der Turnus richtet sich nach Ihrem Objekt und wird im Angebot festgelegt." },
+      { "q": "Wie kommt ein Angebot zustande?", "a": "Nach einer kurzen Anfrage und Besichtigung erhalten Sie ein Angebot mit Leistungsumfang." },
+      { "q": "Arbeiten Sie auch außerhalb von Gilching?", "a": "Ja, im Umkreis von Gilching – nennen Sie einfach den Ort Ihres Objekts." }
+    ],
+    "contact": {
+      "headline": "Ihr Reinigungsangebot – unverbindlich",
+      "text": "Nennen Sie kurz Objektart, ungefähre Fläche und gewünschten Turnus. Dann meldet sich ARICI Gebäudedienst mit einem Vorschlag.",
+      "topics": ["Treppenhausreinigung", "Glasreinigung", "Bauendreinigung", "Unterhaltsreinigung", "Hausmeisterservice", "Sonstiges"],
+      "responseNote": "Besichtigung nach Absprache."
+    },
+    "quote": {
+      "sizeLabel": "Welches Objekt soll gereinigt werden?",
+      "sizes": ["Treppenhaus", "Wohnung / Haus", "Büro / Gewerbe", "Baustelle"],
+      "timings": ["Einmalig", "Wöchentlich", "Alle 2 Wochen", "Monatlich"]
+    },
+    "stickyCta": "Angebot anfragen",
+    "look": {
+      "palette": 2,
+      "font": 6,
+      "hero": 0,
+      "services": 1,
+      "radius": 1,
+      "logo": 0,
+      "intro": 5
+    }
+  }
+}

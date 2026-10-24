@@ -1,0 +1,257 @@
+{
+  "id": "2026-10-24-122",
+  "slug": "panos-reinigungsservice-karlsfeld",
+  "date": "2026-10-24",
+  "company": {
+    "name": "Panos Reinigungsservice",
+    "owner": "Spyridon Panos",
+    "trade": "Gebäudereinigung",
+    "city": "Karlsfeld",
+    "address": "Fasanenstr. 49, 85757 Karlsfeld",
+    "phone": "0176 21177429",
+    "email": "panos-reinigungsservice@freenet.de",
+    "serviceArea": [
+      "Karlsfeld",
+      "Dachau",
+      "Bergkirchen",
+      "Oberschleißheim",
+      "München-Allach",
+      "München-Moosach"
+    ]
+  },
+  "listings": {
+    "google": {
+      "url": "https://www.google.com/maps/search/?api=1&query=Panos%20Reinigungsservice%20Fasanenstr.%2049%20Karlsfeld",
+      "rating": null,
+      "reviews": null,
+      "evidence": "Kein Google-Spiegel gefunden. Belegt ist eine öffentliche Freemail-Adresse panos-reinigungsservice@freenet.de im 11880-Eintrag (Fasanenstr. 49, 85757 Karlsfeld, Tel. 0176 21177429, aktualisiert 09.03.2025, noch keine Bewertungen). Zusätzlich im Branchenverzeichnis der Gemeinde Karlsfeld mit Inhaber Spyridon Panos. In Maps prüfen, ob ein Profil existiert."
+    },
+    "myhammer": {
+      "url": "https://www.11880.com/branchenbuch/karlsfeld-bei-muenchen/061331911B112956248/panos-reinigungsservice.html",
+      "rating": null,
+      "reviews": null,
+      "evidence": "Kein MyHammer gefunden – 11880-Eintrag (Gebäudereinigung) und Gemeinde-Branchenverzeichnis Karlsfeld (Gebäudereinigung, Ladenlokale, Treppenhausreinigung); Kleinanzeigen-Inserate aus Karlsfeld zu Büro-, Kita- und Treppenhausreinigung sowie Vertretungen."
+    }
+  },
+  "websiteStatus": "keine eigene Website gefunden",
+  "websiteChecks": [
+    "(1) „\"Panos Reinigungsservice\" Karlsfeld“ mit blocked_domains (11880, Gelbe Seiten, Das Örtliche, Telefonbuch, Cylex, meinestadt, Creditreform, Facebook, Instagram, golocal, MyHammer, Northdata, Firmenwissen, WKDB, Yelp, trustlocal, wlw) – nur Gemeinde-Branchenverzeichnis karlsfeld.de und Kleinanzeigen; übrige Treffer andere Reinigungsfirmen (NextLevelClean, TD24, Mr. Cleaner, Putzperle) mit eigenen Seiten",
+    "(2) Telefonsuche „0176 21177429“/„017621177429“ mit blocked_domains – keine Treffer, keine Website",
+    "(3) Domain-Check allowed_domains panos-reinigungsservice.de, panosreinigungsservice.de, panos-reinigung.de, panosreinigung.de, panos-reinigungsservice-karlsfeld.de, panos-service.de, reinigungsservice-panos.de, panos-gebaeudereinigung.de – keine Treffer",
+    "(4) Impressum-Suche „\"Spyridon Panos\" Reinigung Impressum“ – kein eigenes Impressum gefunden",
+    "E-Mail ist Freemail (freenet.de) – keine Firmendomain",
+    "Website-Risiko: niedrig – alle Prüfungen negativ, Freemail öffentlich belegt; Google-Eintrag nicht belegt"
+  ],
+  "facts": {
+    "services": [
+      "Gebäudereinigung",
+      "Büro- und Praxisreinigung",
+      "Kita-Reinigung",
+      "Treppenhausreinigung",
+      "Reinigung von Ladenlokalen",
+      "Glas- und Rahmenreinigung",
+      "Vertretung bei Urlaub/Krankheit"
+    ],
+    "experience": null,
+    "praisedFor": []
+  },
+  "strategy": {
+    "audience": "Hausverwaltungen, Eigentümergemeinschaften, Praxen, Büros, Läden und Kitas in Karlsfeld, Dachau und dem Münchner Nordwesten",
+    "mainService": "Unterhaltsreinigung für Treppenhäuser, Büros und Praxen",
+    "trustSignal": "Inhaber Spyridon Panos direkt per Handy erreichbar, Betrieb in Karlsfeld, im Gemeinde-Branchenverzeichnis gelistet",
+    "conversionGoal": "Kostenloses Reinigungsangebot anfragen (Objekt, Fläche, Turnus)",
+    "visualConcept": "Helle, klare Flächen: glänzende Treppenhausstufen, streifenfreie Glastüren, aufgeräumte Büros – frisches Blau-Weiß"
+  },
+  "sales": {
+    "score": 6,
+    "whyGoodLead": [
+      "Keine eigene Website gefunden – Akquise läuft offenbar über Kleinanzeigen",
+      "Mobilnummer und Freemail-Adresse öffentlich – leichter Erstkontakt",
+      "B2B-Kunden (Hausverwaltungen, Praxen) erwarten eine seriöse Website vor der Anfrage",
+      "Keine Bewertungen – Website plus Google-Profil schafft schnell Vertrauen"
+    ],
+    "pitch": "Hallo Herr Panos, hier ist … – ich baue Websites für Betriebe im Landkreis Dachau. Ich habe Panos Reinigungsservice in Karlsfeld gefunden, aber keine eigene Website. Ich habe unverbindlich einen Entwurf vorbereitet, auf dem Hausverwaltungen und Praxen Ihre Treppenhaus- und Büroreinigung sehen und direkt ein Angebot anfragen können – darf ich Ihnen den Link schicken?"
+  },
+  "manualChecks": [
+    "Website-Risiko: niedrig – vor Versand in Google Maps prüfen, dass keine Website hinterlegt ist (Grund: Google-Eintrag nicht belegt, nur Verzeichnisse mit freenet-Adresse)",
+    "Kleinanzeigen-Inserate (Büro/Kita/Treppenhaus/Vertretungen, Karlsfeld) nur über Suchsnippet dem Betrieb zugeordnet – Zugehörigkeit bestätigen",
+    "Bürozeiten laut Gemeindeverzeichnis werktags vormittags plus Donnerstagnachmittag – genaue Zeiten erfragen, bevor sie auf die Seite kommen",
+    "Leistungen aus Verzeichnis und Inseraten – Umfang (z. B. Glasreinigung, Ladenlokale) beim Betrieb bestätigen",
+    "Logo und Fotos: nicht gefunden – beim Betrieb anfragen"
+  ],
+  "sources": [
+    {
+      "label": "11880 – Panos Reinigungsservice Karlsfeld",
+      "url": "https://www.11880.com/branchenbuch/karlsfeld-bei-muenchen/061331911B112956248/panos-reinigungsservice.html"
+    },
+    {
+      "label": "Gemeinde Karlsfeld – Branchenverzeichnis: Panos Reinigungsservice",
+      "url": "https://karlsfeld.de/index.php?gid=559&id=%2C49"
+    },
+    {
+      "label": "Kleinanzeigen – Gebäudereinigung Büro, Kita, Treppenhäuser, Vertretungen (Karlsfeld)",
+      "url": "https://www.kleinanzeigen.de/s-anzeige/gebaeudereinigung-buero-kita-treppenhaeuser-vertretungen/2766956233-239-6252"
+    }
+  ],
+  "site": {
+    "theme": "objekt",
+    "category": "handwerk",
+    "heroOffer": [
+      "Treppenhäuser",
+      "Büros",
+      "Praxen",
+      "Glasreinigung",
+      "Vertretungen"
+    ],
+    "scene": "facade",
+    "logoIcon": "broom",
+    "logoMark": "PR",
+    "brandName": "Panos Reinigungsservice",
+    "seoTitle": "Gebäudereinigung in Karlsfeld – Panos Reinigungsservice",
+    "seoDescription": "Treppenhaus-, Büro-, Praxis- und Kita-Reinigung in Karlsfeld und Dachau. Jetzt kostenloses Reinigungsangebot anfragen.",
+    "nav": [
+      { "label": "Leistungen", "href": "#leistungen" },
+      { "label": "Objekte", "href": "#projekte" },
+      { "label": "Bewertungen", "href": "#bewertungen" },
+      { "label": "Ablauf", "href": "#ablauf" },
+      { "label": "FAQ", "href": "#faq" },
+      { "label": "Kontakt", "href": "#kontakt" }
+    ],
+    "hero": {
+      "eyebrow": "Gebäudereinigung · Karlsfeld",
+      "headline": "Gebäudereinigung aus Karlsfeld",
+      "sub": "Treppenhäuser, Büros und Praxen regelmäßig sauber – mit festem Ansprechpartner.",
+      "ctaPrimary": "Reinigungsangebot anfragen",
+      "ctaSecondary": "Anrufen",
+      "bullets": [
+        "Inhabergeführt aus Karlsfeld",
+        "Treppenhaus, Büro, Praxis, Kita",
+        "Auch Vertretung bei Ausfall"
+      ],
+      "imageLabel": "frisch gereinigtes, helles Treppenhaus"
+    },
+    "badges": [
+      { "title": "Treppenhaus", "sub": "für Hausverwaltungen" },
+      { "title": "Büro & Praxis", "sub": "Unterhaltsreinigung" },
+      { "title": "Vertretung", "sub": "bei Urlaub & Krankheit" },
+      { "title": "Karlsfeld", "sub": "Fasanenstraße" }
+    ],
+    "trust": [
+      { "value": "Vor Ort", "label": "Betrieb in Karlsfeld" },
+      { "value": "6", "label": "Reinigungsbereiche" },
+      { "value": "Gewerbe", "label": "Büro, Praxis, Laden, Kita" },
+      { "value": "Mobil", "label": "Inhaber direkt erreichbar" }
+    ],
+    "servicesIntro": {
+      "headline": "Reinigung für Wohnanlagen und Gewerbe",
+      "text": "Ob Treppenhaus einer Wohnanlage, Arztpraxis oder Ladenlokal: Panos Reinigungsservice reinigt regelmäßig und springt auch ein, wenn Ihr eigenes Personal ausfällt."
+    },
+    "services": [
+      {
+        "title": "Treppenhausreinigung",
+        "text": "Regelmäßige Reinigung von Treppen, Fluren und Eingangsbereichen – für Hausverwaltungen und Eigentümergemeinschaften.",
+        "items": ["Treppen & Flure", "Eingangsbereiche", "Fester Turnus"]
+      },
+      {
+        "title": "Büroreinigung",
+        "text": "Saubere Arbeitsplätze, Küchen und Sanitärräume – zu Zeiten, die den Betrieb nicht stören.",
+        "items": ["Arbeitsplätze", "Teeküche", "Sanitärräume"]
+      },
+      {
+        "title": "Praxisreinigung",
+        "text": "Gründliche Reinigung von Wartebereich, Behandlungsräumen und Empfang.",
+        "items": ["Wartezimmer", "Behandlungsräume", "Empfang"]
+      },
+      {
+        "title": "Kita-Reinigung",
+        "text": "Gruppenräume, Waschräume und Flure sauber für den nächsten Tag.",
+        "items": ["Gruppenräume", "Waschräume", "Flure"]
+      },
+      {
+        "title": "Glas- und Rahmenreinigung",
+        "text": "Streifenfreie Fenster, Glastüren und Rahmen – für Laden, Büro oder Treppenhaus.",
+        "items": ["Fenster", "Glastüren", "Rahmen"]
+      },
+      {
+        "title": "Ladenlokale & Vertretung",
+        "text": "Reinigung von Geschäftsräumen und Vertretung, wenn Ihre Reinigungskraft im Urlaub oder krank ist.",
+        "items": ["Ladenlokale", "Urlaubsvertretung", "Krankheitsvertretung"]
+      }
+    ],
+    "why": {
+      "headline": "Reinigung aus Karlsfeld – verlässlich und persönlich.",
+      "points": [
+        { "title": "Fester Ansprechpartner", "text": "Sie sprechen direkt mit dem Inhaber – kein Callcenter, keine Weiterleitung." },
+        { "title": "Kurze Wege", "text": "Von der Fasanenstraße aus schnell in Dachau, Allach und Oberschleißheim." },
+        { "title": "Einspringen möglich", "text": "Fällt Ihre Reinigungskraft aus, übernimmt Panos Reinigungsservice die Vertretung." },
+        { "title": "Für viele Objekte", "text": "Treppenhaus, Büro, Praxis, Laden und Kita aus einer Hand." }
+      ]
+    },
+    "reviews": {
+      "headline": "Was Kunden sagen",
+      "summary": "Kundenstimmen werden hier eingebunden, sobald sie aus dem Google-Profil übernommen sind.",
+      "highlights": [
+        "Gebäudereinigung in Karlsfeld",
+        "Treppenhaus- und Büroreinigung",
+        "Direkter Kontakt zum Inhaber"
+      ],
+      "source": "Google",
+      "sourceUrl": "https://www.google.com/maps/search/?api=1&query=Panos%20Reinigungsservice%20Fasanenstr.%2049%20Karlsfeld",
+      "rating": null,
+      "count": null
+    },
+    "process": {
+      "headline": "In vier Schritten zum sauberen Objekt",
+      "steps": [
+        { "title": "Anfrage", "text": "Objekt, ungefähre Fläche und gewünschten Turnus kurz schildern – telefonisch oder per Nachricht." },
+        { "title": "Begehung", "text": "Räume, Böden und Besonderheiten werden vor Ort angesehen." },
+        { "title": "Angebot", "text": "Sie erhalten ein klares Angebot mit Leistungsumfang und Turnus." },
+        { "title": "Reinigung", "text": "Die Reinigung startet zum vereinbarten Termin – regelmäßig oder als Vertretung." }
+      ]
+    },
+    "gallery": {
+      "headline": "Objekte, die sauber bleiben",
+      "text": "Für die Live-Version zeigen wir hier echte Objekte des Betriebs.",
+      "items": [
+        { "title": "Treppenhaus", "photoNeeded": "gereinigtes Treppenhaus einer Wohnanlage" },
+        { "title": "Büro", "photoNeeded": "aufgeräumtes, sauberes Großraumbüro" },
+        { "title": "Arztpraxis", "photoNeeded": "heller Wartebereich einer Praxis" },
+        { "title": "Glasfront", "photoNeeded": "streifenfreie Glastür eines Ladenlokals" },
+        { "title": "Kita", "photoNeeded": "sauberer Gruppenraum mit Kinderstühlen" }
+      ]
+    },
+    "region": {
+      "headline": "Reinigung für Karlsfeld und den Münchner Nordwesten",
+      "text": "Von Karlsfeld aus schnell in Dachau, Bergkirchen, Oberschleißheim, Allach und Moosach.",
+      "places": ["Karlsfeld", "Dachau", "Bergkirchen", "Oberschleißheim", "München-Allach", "München-Moosach"]
+    },
+    "faq": [
+      { "q": "Wie oft wird gereinigt?", "a": "Den Turnus legen Sie fest – zum Beispiel wöchentlich oder mehrmals pro Woche. Das wird im Angebot festgehalten." },
+      { "q": "Übernehmen Sie auch kurzfristige Vertretungen?", "a": "Ja, Vertretungen bei Urlaub oder Krankheit Ihrer Reinigungskraft gehören zum Angebot." },
+      { "q": "Reinigen Sie auch Fenster und Glastüren?", "a": "Ja, Glas- und Rahmenreinigung wird angeboten." },
+      { "q": "Für welche Objekte arbeiten Sie?", "a": "Treppenhäuser, Büros, Praxen, Ladenlokale und Kitas." },
+      { "q": "Arbeiten Sie auch außerhalb von Karlsfeld?", "a": "Ja, im Umkreis von Karlsfeld und Dachau – fragen Sie einfach an." }
+    ],
+    "contact": {
+      "headline": "Ihr Reinigungsangebot – kostenlos und unverbindlich",
+      "text": "Nennen Sie kurz Objektart, ungefähre Fläche und gewünschten Turnus. Wir melden uns mit einem Angebot.",
+      "topics": ["Treppenhausreinigung", "Büroreinigung", "Praxisreinigung", "Kita-Reinigung", "Glasreinigung", "Vertretung"],
+      "responseNote": "Begehung nach Absprache."
+    },
+    "quote": {
+      "sizeLabel": "Wie groß ist das Objekt?",
+      "sizes": ["Treppenhaus", "Bis 100 m²", "100–300 m²", "Über 300 m²"],
+      "timings": ["So bald wie möglich", "Ab nächstem Monat", "Nur als Vertretung", "Ich plane erst noch"]
+    },
+    "stickyCta": "Angebot anfragen",
+    "look": {
+      "palette": 2,
+      "font": 6,
+      "hero": 0,
+      "services": 1,
+      "radius": 1,
+      "logo": 0,
+      "intro": 5
+    }
+  }
+}
