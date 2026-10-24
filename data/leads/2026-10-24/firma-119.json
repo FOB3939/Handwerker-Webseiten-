@@ -1,116 +1,121 @@
 {
   "id": "2026-10-24-119",
-  "slug": "fensterreinigung-weinert-fuerstenfeldbruck",
+  "slug": "panos-reinigungsservice-karlsfeld",
   "date": "2026-10-24",
   "company": {
-    "name": "Fensterreinigung Weinert",
-    "owner": "Norbert Weinert",
-    "trade": "Fenster- und Glasreinigung",
-    "city": "Fürstenfeldbruck",
-    "address": "Maisacher Str. 73, 82256 Fürstenfeldbruck",
-    "phone": "08141 43465",
-    "email": null,
+    "name": "Panos Reinigungsservice",
+    "owner": "Spyridon Panos",
+    "trade": "Gebäudereinigung",
+    "city": "Karlsfeld",
+    "address": "Fasanenstr. 49, 85757 Karlsfeld",
+    "phone": "0176 21177429",
+    "email": "panos-reinigungsservice@freenet.de",
     "serviceArea": [
-      "Fürstenfeldbruck",
-      "Emmering",
-      "Maisach",
-      "Olching",
-      "Puchheim",
-      "Germering"
+      "Karlsfeld",
+      "Dachau",
+      "Bergkirchen",
+      "Oberschleißheim",
+      "München-Allach",
+      "München-Moosach"
     ]
   },
   "listings": {
     "google": {
-      "url": "https://www.google.com/maps/search/?api=1&query=Fensterreinigung%20Weinert%20Maisacher%20Str.%2073%20F%C3%BCrstenfeldbruck",
+      "url": "https://www.google.com/maps/search/?api=1&query=Panos%20Reinigungsservice%20Fasanenstr.%2049%20Karlsfeld",
       "rating": null,
       "reviews": null,
-      "evidence": "NICHT BELEGT – kein Google-Spiegel (trustlocal/firmania/rgv-bayern) gefunden. Ein 11880-Sammelsnippet nannte für „Fensterreinigung Fa. Weinert“ eine gmail.com-Adresse, die konkrete Adresse war in keinem Snippet sichtbar und eine Nachsuche fand keine E-Mail – daher nicht übernommen. In Maps prüfen."
+      "evidence": "Kein Google-Spiegel gefunden. Belegt ist eine öffentliche Freemail-Adresse panos-reinigungsservice@freenet.de im 11880-Eintrag (Fasanenstr. 49, 85757 Karlsfeld, Tel. 0176 21177429, aktualisiert 09.03.2025, noch keine Bewertungen). Zusätzlich im Branchenverzeichnis der Gemeinde Karlsfeld mit Inhaber Spyridon Panos. In Maps prüfen, ob ein Profil existiert."
     },
     "myhammer": {
-      "url": "https://www.11880.com/suche/fensterreinigung/emmering",
+      "url": "https://www.11880.com/branchenbuch/karlsfeld-bei-muenchen/061331911B112956248/panos-reinigungsservice.html",
       "rating": null,
       "reviews": null,
-      "evidence": "Kein MyHammer gefunden – Eintrag „Fensterreinigung Fa. Weinert“ (Fensterreinigung & Glasreinigung, Maisacher Str. 73, (08141) 43465) in den 11880-Ortslisten Fensterreiniger Emmering/Olching/Eresing; zusätzlich Kleinanzeigen-Inserat „Fensterreinigung Weinert – seit über 30 Jahren in Fürstenfeldbruck“ (Anbieter Norbert Weinert)."
+      "evidence": "Kein MyHammer gefunden – 11880-Eintrag (Gebäudereinigung) und Gemeinde-Branchenverzeichnis Karlsfeld (Gebäudereinigung, Ladenlokale, Treppenhausreinigung); Kleinanzeigen-Inserate aus Karlsfeld zu Büro-, Kita- und Treppenhausreinigung sowie Vertretungen."
     }
   },
   "websiteStatus": "keine eigene Website gefunden",
   "websiteChecks": [
-    "(1) „Fensterreinigung Weinert Fürstenfeldbruck“ mit blocked_domains (11880, Gelbe Seiten, Das Örtliche, Telefonbuch, Cylex, meinestadt, Creditreform, Facebook, Instagram, golocal, MyHammer, Northdata, Firmenwissen, WKDB, Yelp, trustlocal, wlw) – nur Kleinanzeigen-Inserate (Norbert Weinert, „ich arbeite allein“) und Websites anderer Reinigungsfirmen (Mr. Cleaner, TSC, Blitz Sauber, Reischl, NT, MIF) – keine eigene Domain",
-    "(2) Domain-Check allowed_domains fensterreinigung-weinert.de, weinert-fensterreinigung.de, fensterreinigung-weinert-ffb.de, weinert-ffb.de – keine Treffer",
-    "(3) 11880-Nachsuche Name + Adresse – nur Eintrag mit Festnetz, kein Website-Feld, keine E-Mail sichtbar",
-    "Nicht durchgeführt (Budget): Telefonnummer-Suche „08141 43465“, Impressum-Suche",
-    "Website-Risiko: mittel – Prüfungen negativ, aber weder Google-Eintrag noch Freemail sicher belegt"
+    "(1) „\"Panos Reinigungsservice\" Karlsfeld“ mit blocked_domains (11880, Gelbe Seiten, Das Örtliche, Telefonbuch, Cylex, meinestadt, Creditreform, Facebook, Instagram, golocal, MyHammer, Northdata, Firmenwissen, WKDB, Yelp, trustlocal, wlw) – nur Gemeinde-Branchenverzeichnis karlsfeld.de und Kleinanzeigen; übrige Treffer andere Reinigungsfirmen (NextLevelClean, TD24, Mr. Cleaner, Putzperle) mit eigenen Seiten",
+    "(2) Telefonsuche „0176 21177429“/„017621177429“ mit blocked_domains – keine Treffer, keine Website",
+    "(3) Domain-Check allowed_domains panos-reinigungsservice.de, panosreinigungsservice.de, panos-reinigung.de, panosreinigung.de, panos-reinigungsservice-karlsfeld.de, panos-service.de, reinigungsservice-panos.de, panos-gebaeudereinigung.de – keine Treffer",
+    "(4) Impressum-Suche „\"Spyridon Panos\" Reinigung Impressum“ – kein eigenes Impressum gefunden",
+    "E-Mail ist Freemail (freenet.de) – keine Firmendomain",
+    "Website-Risiko: niedrig – alle Prüfungen negativ, Freemail öffentlich belegt; Google-Eintrag nicht belegt"
   ],
   "facts": {
     "services": [
-      "Fensterreinigung",
-      "Glasreinigung"
+      "Gebäudereinigung",
+      "Büro- und Praxisreinigung",
+      "Kita-Reinigung",
+      "Treppenhausreinigung",
+      "Reinigung von Ladenlokalen",
+      "Glas- und Rahmenreinigung",
+      "Vertretung bei Urlaub/Krankheit"
     ],
-    "experience": "laut Kleinanzeigen-Inserat seit über 30 Jahren in Fürstenfeldbruck tätig",
+    "experience": null,
     "praisedFor": []
   },
   "strategy": {
-    "audience": "Hausbesitzer, Wohnungseigentümer, Praxen und kleine Läden in Fürstenfeldbruck und Emmering, die saubere Fenster ohne wechselnde Putzkolonnen wollen",
-    "mainService": "Fenster- und Glasreinigung für Privat und Gewerbe",
-    "trustSignal": "Seit über 30 Jahren in Fürstenfeldbruck – Inhaber arbeitet selbst, ohne wechselnde Kräfte",
-    "conversionGoal": "Termin für Fensterreinigung per Anruf oder Formular anfragen",
-    "visualConcept": "Klar, hell, viel Weißraum: streifenfreie Scheiben, Lichtreflexe, Altbau- und Neubaufenster in Fürstenfeldbruck"
+    "audience": "Hausverwaltungen, Eigentümergemeinschaften, Praxen, Büros, Läden und Kitas in Karlsfeld, Dachau und dem Münchner Nordwesten",
+    "mainService": "Unterhaltsreinigung für Treppenhäuser, Büros und Praxen",
+    "trustSignal": "Inhaber Spyridon Panos direkt per Handy erreichbar, Betrieb in Karlsfeld, im Gemeinde-Branchenverzeichnis gelistet",
+    "conversionGoal": "Kostenloses Reinigungsangebot anfragen (Objekt, Fläche, Turnus)",
+    "visualConcept": "Helle, klare Flächen: glänzende Treppenhausstufen, streifenfreie Glastüren, aufgeräumte Büros – frisches Blau-Weiß"
   },
   "sales": {
-    "score": 4,
+    "score": 6,
     "whyGoodLead": [
-      "Keine eigene Website gefunden – nur Verzeichniseintrag und Kleinanzeigen-Inserat",
-      "Einzelunternehmer mit langer Ortsbindung – persönliche Vertrauensbotschaft ideal für eine kleine Website",
-      "Fensterreinigung wird lokal und wiederkehrend gesucht – Website bringt Stammkunden",
-      "Bisher seltenes Gewerk Reinigung in der Lead-Liste"
+      "Keine eigene Website gefunden – Akquise läuft offenbar über Kleinanzeigen",
+      "Mobilnummer und Freemail-Adresse öffentlich – leichter Erstkontakt",
+      "B2B-Kunden (Hausverwaltungen, Praxen) erwarten eine seriöse Website vor der Anfrage",
+      "Keine Bewertungen – Website plus Google-Profil schafft schnell Vertrauen"
     ],
-    "pitch": "Guten Tag Herr Weinert, hier ist … – ich baue Websites für Betriebe im Landkreis Fürstenfeldbruck. Ich habe Ihre Fensterreinigung in Fürstenfeldbruck gefunden, aber keine eigene Website. Ich habe unverbindlich einen Entwurf vorbereitet, der zeigt, dass Sie seit über 30 Jahren selbst putzen – darf ich Ihnen den Link schicken?"
+    "pitch": "Hallo Herr Panos, hier ist … – ich baue Websites für Betriebe im Landkreis Dachau. Ich habe Panos Reinigungsservice in Karlsfeld gefunden, aber keine eigene Website. Ich habe unverbindlich einen Entwurf vorbereitet, auf dem Hausverwaltungen und Praxen Ihre Treppenhaus- und Büroreinigung sehen und direkt ein Angebot anfragen können – darf ich Ihnen den Link schicken?"
   },
   "manualChecks": [
-    "RESERVE – weder Google-Eintrag noch Freemail-Adresse belegt: NUR versenden, wenn Google Maps einen Eintrag OHNE Website zeigt.",
-    "Nur Festnetz 08141 43465 belegt – kein WhatsApp; Erstkontakt per Anruf oder Brief",
-    "11880-Sammelsnippet erwähnte eine gmail-Adresse – im 11880-Eintrag nachsehen und nur bei sichtbarer Adresse übernehmen",
-    "Kleinanzeigen-Inserat öffnen: Aktualität, Inhabername Norbert Weinert und Leistungen (z. B. Rahmen, Wintergärten) bestätigen",
-    "„Seit über 30 Jahren“ stammt aus dem Inserat – vor Verwendung auf der Website bestätigen",
+    "Website-Risiko: niedrig – vor Versand in Google Maps prüfen, dass keine Website hinterlegt ist (Grund: Google-Eintrag nicht belegt, nur Verzeichnisse mit freenet-Adresse)",
+    "Kleinanzeigen-Inserate (Büro/Kita/Treppenhaus/Vertretungen, Karlsfeld) nur über Suchsnippet dem Betrieb zugeordnet – Zugehörigkeit bestätigen",
+    "Bürozeiten laut Gemeindeverzeichnis werktags vormittags plus Donnerstagnachmittag – genaue Zeiten erfragen, bevor sie auf die Seite kommen",
+    "Leistungen aus Verzeichnis und Inseraten – Umfang (z. B. Glasreinigung, Ladenlokale) beim Betrieb bestätigen",
     "Logo und Fotos: nicht gefunden – beim Betrieb anfragen"
   ],
   "sources": [
     {
-      "label": "11880 – Fensterreiniger Emmering (Liste mit Fensterreinigung Fa. Weinert)",
-      "url": "https://www.11880.com/suche/fensterreinigung/emmering"
+      "label": "11880 – Panos Reinigungsservice Karlsfeld",
+      "url": "https://www.11880.com/branchenbuch/karlsfeld-bei-muenchen/061331911B112956248/panos-reinigungsservice.html"
     },
     {
-      "label": "11880 – Fensterreiniger Olching (Liste mit Fensterreinigung Fa. Weinert)",
-      "url": "https://www.11880.com/suche/fensterreinigung/olching"
+      "label": "Gemeinde Karlsfeld – Branchenverzeichnis: Panos Reinigungsservice",
+      "url": "https://karlsfeld.de/index.php?gid=559&id=%2C49"
     },
     {
-      "label": "Kleinanzeigen – Fensterputzer Bayern (Inserat Fensterreinigung Weinert)",
-      "url": "https://www.kleinanzeigen.de/s-dienstleistungen-haus-garten/bayern/fensterputzer/k0c239l5510"
+      "label": "Kleinanzeigen – Gebäudereinigung Büro, Kita, Treppenhäuser, Vertretungen (Karlsfeld)",
+      "url": "https://www.kleinanzeigen.de/s-anzeige/gebaeudereinigung-buero-kita-treppenhaeuser-vertretungen/2766956233-239-6252"
     }
   ],
   "site": {
-    "theme": "aqua",
+    "theme": "objekt",
     "category": "handwerk",
     "heroOffer": [
-      "Fensterreinigung",
-      "Glasflächen",
-      "Rahmen",
-      "Wintergärten",
-      "Schaufenster"
+      "Treppenhäuser",
+      "Büros",
+      "Praxen",
+      "Glasreinigung",
+      "Vertretungen"
     ],
     "scene": "facade",
     "logoIcon": "broom",
-    "logoMark": "FW",
-    "brandName": "Fensterreinigung Weinert",
-    "seoTitle": "Fensterreinigung in Fürstenfeldbruck – Weinert",
-    "seoDescription": "Fenster- und Glasreinigung in Fürstenfeldbruck und Umgebung – vom Inhaber selbst ausgeführt. Jetzt Termin anfragen.",
+    "logoMark": "PR",
+    "brandName": "Panos Reinigungsservice",
+    "seoTitle": "Gebäudereinigung in Karlsfeld – Panos Reinigungsservice",
+    "seoDescription": "Treppenhaus-, Büro-, Praxis- und Kita-Reinigung in Karlsfeld und Dachau. Jetzt kostenloses Reinigungsangebot anfragen.",
     "nav": [
       {
         "label": "Leistungen",
         "href": "#leistungen"
       },
       {
-        "label": "Projekte",
+        "label": "Objekte",
         "href": "#projekte"
       },
       {
@@ -131,132 +136,132 @@
       }
     ],
     "hero": {
-      "eyebrow": "Fensterreinigung · Fürstenfeldbruck",
-      "headline": "Klare Fenster in Fürstenfeldbruck",
-      "sub": "Fenster- und Glasreinigung vom Inhaber selbst – seit über 30 Jahren vor Ort.",
-      "ctaPrimary": "Termin anfragen",
+      "eyebrow": "Gebäudereinigung · Karlsfeld",
+      "headline": "Gebäudereinigung aus Karlsfeld",
+      "sub": "Treppenhäuser, Büros und Praxen regelmäßig sauber – mit festem Ansprechpartner.",
+      "ctaPrimary": "Reinigungsangebot anfragen",
       "ctaSecondary": "Anrufen",
       "bullets": [
-        "Inhaber putzt selbst",
-        "Seit über 30 Jahren in Fürstenfeldbruck",
-        "Privat und Gewerbe"
+        "Inhabergeführt aus Karlsfeld",
+        "Treppenhaus, Büro, Praxis, Kita",
+        "Auch Vertretung bei Ausfall"
       ],
-      "imageLabel": "streifenfrei geputztes Sprossenfenster mit Lichtreflex"
+      "imageLabel": "frisch gereinigtes, helles Treppenhaus"
     },
     "badges": [
       {
-        "title": "Fenster",
-        "sub": "innen & außen"
+        "title": "Treppenhaus",
+        "sub": "für Hausverwaltungen"
       },
       {
-        "title": "Glas",
-        "sub": "Türen & Flächen"
+        "title": "Büro & Praxis",
+        "sub": "Unterhaltsreinigung"
       },
       {
-        "title": "Persönlich",
-        "sub": "ohne wechselnde Kräfte"
+        "title": "Vertretung",
+        "sub": "bei Urlaub & Krankheit"
       },
       {
-        "title": "Fürstenfeldbruck",
-        "sub": "Maisacher Straße"
+        "title": "Karlsfeld",
+        "sub": "Fasanenstraße"
       }
     ],
     "trust": [
       {
-        "value": "30+",
-        "label": "Jahre in Fürstenfeldbruck"
-      },
-      {
-        "value": "1",
-        "label": "fester Ansprechpartner"
-      },
-      {
-        "value": "Privat",
-        "label": "und Gewerbe"
-      },
-      {
         "value": "Vor Ort",
-        "label": "kurze Wege im Landkreis"
+        "label": "Betrieb in Karlsfeld"
+      },
+      {
+        "value": "6",
+        "label": "Reinigungsbereiche"
+      },
+      {
+        "value": "Gewerbe",
+        "label": "Büro, Praxis, Laden, Kita"
+      },
+      {
+        "value": "Mobil",
+        "label": "Inhaber direkt erreichbar"
       }
     ],
     "servicesIntro": {
-      "headline": "Fenster- und Glasreinigung aus einer Hand",
-      "text": "Norbert Weinert reinigt Fenster und Glasflächen selbst – Sie haben jedes Mal denselben Ansprechpartner im Haus."
+      "headline": "Reinigung für Wohnanlagen und Gewerbe",
+      "text": "Ob Treppenhaus einer Wohnanlage, Arztpraxis oder Ladenlokal: Panos Reinigungsservice reinigt regelmäßig und springt auch ein, wenn Ihr eigenes Personal ausfällt."
     },
     "services": [
       {
-        "title": "Fensterreinigung",
-        "text": "Scheiben innen und außen streifenfrei geputzt – im Einfamilienhaus wie in der Etagenwohnung.",
+        "title": "Treppenhausreinigung",
+        "text": "Regelmäßige Reinigung von Treppen, Fluren und Eingangsbereichen – für Hausverwaltungen und Eigentümergemeinschaften.",
         "items": [
-          "Innen & außen",
-          "Sprossenfenster",
-          "Dachfenster"
+          "Treppen & Flure",
+          "Eingangsbereiche",
+          "Fester Turnus"
         ]
       },
       {
-        "title": "Rahmen & Falze",
-        "text": "Rahmen, Falze und Fensterbänke werden mitgereinigt, damit das Ergebnis rundum stimmt.",
+        "title": "Büroreinigung",
+        "text": "Saubere Arbeitsplätze, Küchen und Sanitärräume – zu Zeiten, die den Betrieb nicht stören.",
         "items": [
-          "Rahmen",
-          "Falze",
-          "Fensterbänke"
+          "Arbeitsplätze",
+          "Teeküche",
+          "Sanitärräume"
         ]
       },
       {
-        "title": "Glastüren",
-        "text": "Terrassen-, Balkon- und Haustüren aus Glas ohne Schlieren und Fingerabdrücke.",
+        "title": "Praxisreinigung",
+        "text": "Gründliche Reinigung von Wartebereich, Behandlungsräumen und Empfang.",
         "items": [
-          "Terrassentüren",
-          "Balkontüren",
-          "Glaseinsätze"
+          "Wartezimmer",
+          "Behandlungsräume",
+          "Empfang"
         ]
       },
       {
-        "title": "Wintergärten",
-        "text": "Große Glasflächen und Wintergärten wieder klar – für mehr Licht im Haus.",
+        "title": "Kita-Reinigung",
+        "text": "Gruppenräume, Waschräume und Flure sauber für den nächsten Tag.",
         "items": [
-          "Glasdach",
-          "Seitenwände",
+          "Gruppenräume",
+          "Waschräume",
+          "Flure"
+        ]
+      },
+      {
+        "title": "Glas- und Rahmenreinigung",
+        "text": "Streifenfreie Fenster, Glastüren und Rahmen – für Laden, Büro oder Treppenhaus.",
+        "items": [
+          "Fenster",
+          "Glastüren",
           "Rahmen"
         ]
       },
       {
-        "title": "Schaufenster",
-        "text": "Saubere Schaufenster und Eingangstüren für Läden, Praxen und Büros in Fürstenfeldbruck.",
+        "title": "Ladenlokale & Vertretung",
+        "text": "Reinigung von Geschäftsräumen und Vertretung, wenn Ihre Reinigungskraft im Urlaub oder krank ist.",
         "items": [
-          "Schaufenster",
-          "Eingangstüren",
-          "Praxen"
-        ]
-      },
-      {
-        "title": "Regelmäßige Termine",
-        "text": "Feste Intervalle vereinbaren – Ihre Fenster werden geputzt, ohne dass Sie daran denken müssen.",
-        "items": [
-          "Frühjahr & Herbst",
-          "Monatlich",
-          "Nach Absprache"
+          "Ladenlokale",
+          "Urlaubsvertretung",
+          "Krankheitsvertretung"
         ]
       }
     ],
     "why": {
-      "headline": "Ein Fensterputzer, den man kennt.",
+      "headline": "Reinigung aus Karlsfeld – verlässlich und persönlich.",
       "points": [
         {
-          "title": "Inhaber vor Ort",
-          "text": "Herr Weinert arbeitet allein – keine wechselnden Kräfte in Ihrer Wohnung."
-        },
-        {
-          "title": "Lange Ortskenntnis",
-          "text": "Seit über 30 Jahren in Fürstenfeldbruck unterwegs."
+          "title": "Fester Ansprechpartner",
+          "text": "Sie sprechen direkt mit dem Inhaber – kein Callcenter, keine Weiterleitung."
         },
         {
           "title": "Kurze Wege",
-          "text": "Von der Maisacher Straße schnell in Emmering, Maisach und Olching."
+          "text": "Von der Fasanenstraße aus schnell in Dachau, Allach und Oberschleißheim."
         },
         {
-          "title": "Privat & Gewerbe",
-          "text": "Vom Wohnhaus bis zum Ladengeschäft – Fenster und Glas aus einer Hand."
+          "title": "Einspringen möglich",
+          "text": "Fällt Ihre Reinigungskraft aus, übernimmt Panos Reinigungsservice die Vertretung."
+        },
+        {
+          "title": "Für viele Objekte",
+          "text": "Treppenhaus, Büro, Praxis, Laden und Kita aus einer Hand."
         }
       ]
     },
@@ -264,133 +269,133 @@
       "headline": "Was Kunden sagen",
       "summary": "Kundenstimmen werden hier eingebunden, sobald sie aus dem Google-Profil übernommen sind.",
       "highlights": [
-        "Fensterreinigung in Fürstenfeldbruck",
-        "Persönlicher Ansprechpartner",
-        "Privat und Gewerbe"
+        "Gebäudereinigung in Karlsfeld",
+        "Treppenhaus- und Büroreinigung",
+        "Direkter Kontakt zum Inhaber"
       ],
       "source": "Google",
-      "sourceUrl": "https://www.google.com/maps/search/?api=1&query=Fensterreinigung%20Weinert%20Maisacher%20Str.%2073%20F%C3%BCrstenfeldbruck",
+      "sourceUrl": "https://www.google.com/maps/search/?api=1&query=Panos%20Reinigungsservice%20Fasanenstr.%2049%20Karlsfeld",
       "rating": null,
       "count": null
     },
     "process": {
-      "headline": "So kommen Sie zu klaren Fenstern",
+      "headline": "In vier Schritten zum sauberen Objekt",
       "steps": [
         {
           "title": "Anfrage",
-          "text": "Kurz anrufen oder das Formular nutzen – Anzahl und Art der Fenster genügen."
+          "text": "Objekt, ungefähre Fläche und gewünschten Turnus kurz schildern – telefonisch oder per Nachricht."
         },
         {
-          "title": "Einschätzung",
-          "text": "Umfang und Zugänglichkeit werden besprochen, bei Bedarf vor Ort."
+          "title": "Begehung",
+          "text": "Räume, Böden und Besonderheiten werden vor Ort angesehen."
         },
         {
-          "title": "Termin",
-          "text": "Sie bekommen einen festen Termin – auf Wunsch auch regelmäßig."
+          "title": "Angebot",
+          "text": "Sie erhalten ein klares Angebot mit Leistungsumfang und Turnus."
         },
         {
           "title": "Reinigung",
-          "text": "Scheiben, Rahmen und Fensterbänke werden sauber übergeben."
+          "text": "Die Reinigung startet zum vereinbarten Termin – regelmäßig oder als Vertretung."
         }
       ]
     },
     "gallery": {
-      "headline": "Durchblick, der überzeugt",
-      "text": "Für die Live-Version zeigen wir hier echte Aufnahmen aus Kundenaufträgen.",
+      "headline": "Objekte, die sauber bleiben",
+      "text": "Für die Live-Version zeigen wir hier echte Objekte des Betriebs.",
       "items": [
         {
-          "title": "Sprossenfenster",
-          "photoNeeded": "geputztes Sprossenfenster an einem Altbau"
+          "title": "Treppenhaus",
+          "photoNeeded": "gereinigtes Treppenhaus einer Wohnanlage"
         },
         {
-          "title": "Terrassentür",
-          "photoNeeded": "große Glasschiebetür ohne Schlieren"
+          "title": "Büro",
+          "photoNeeded": "aufgeräumtes, sauberes Großraumbüro"
         },
         {
-          "title": "Wintergarten",
-          "photoNeeded": "heller Wintergarten mit klaren Glasflächen"
+          "title": "Arztpraxis",
+          "photoNeeded": "heller Wartebereich einer Praxis"
         },
         {
-          "title": "Schaufenster",
-          "photoNeeded": "sauberes Ladenschaufenster in der Innenstadt"
+          "title": "Glasfront",
+          "photoNeeded": "streifenfreie Glastür eines Ladenlokals"
         },
         {
-          "title": "Dachfenster",
-          "photoNeeded": "gereinigtes Dachflächenfenster von innen"
+          "title": "Kita",
+          "photoNeeded": "sauberer Gruppenraum mit Kinderstühlen"
         }
       ]
     },
     "region": {
-      "headline": "Fensterreinigung für Fürstenfeldbruck und Umgebung",
-      "text": "Von Fürstenfeldbruck aus in Emmering, Maisach, Olching, Puchheim und Germering.",
+      "headline": "Reinigung für Karlsfeld und den Münchner Nordwesten",
+      "text": "Von Karlsfeld aus schnell in Dachau, Bergkirchen, Oberschleißheim, Allach und Moosach.",
       "places": [
-        "Fürstenfeldbruck",
-        "Emmering",
-        "Maisach",
-        "Olching",
-        "Puchheim",
-        "Germering"
+        "Karlsfeld",
+        "Dachau",
+        "Bergkirchen",
+        "Oberschleißheim",
+        "München-Allach",
+        "München-Moosach"
       ]
     },
     "faq": [
       {
-        "q": "Putzen Sie Fenster innen und außen?",
-        "a": "Ja, Scheiben werden innen und außen gereinigt, Rahmen und Fensterbänke nach Absprache mit."
+        "q": "Wie oft wird gereinigt?",
+        "a": "Den Turnus legen Sie fest – zum Beispiel wöchentlich oder mehrmals pro Woche. Das wird im Angebot festgehalten."
       },
       {
-        "q": "Kommt immer dieselbe Person?",
-        "a": "Ja, Herr Weinert arbeitet allein und übernimmt die Aufträge selbst."
+        "q": "Übernehmen Sie auch kurzfristige Vertretungen?",
+        "a": "Ja, Vertretungen bei Urlaub oder Krankheit Ihrer Reinigungskraft gehören zum Angebot."
       },
       {
-        "q": "Reinigen Sie auch für Geschäfte und Praxen?",
-        "a": "Ja, auch Schaufenster und Glastüren von Gewerbekunden – fragen Sie einfach an."
+        "q": "Reinigen Sie auch Fenster und Glastüren?",
+        "a": "Ja, Glas- und Rahmenreinigung wird angeboten."
       },
       {
-        "q": "Sind regelmäßige Termine möglich?",
-        "a": "Ja, feste Intervalle lassen sich gerne vereinbaren."
+        "q": "Für welche Objekte arbeiten Sie?",
+        "a": "Treppenhäuser, Büros, Praxen, Ladenlokale und Kitas."
       },
       {
-        "q": "Wie bekomme ich einen Preis?",
-        "a": "Nennen Sie Anzahl und Art der Fenster – Sie erhalten dann eine Einschätzung."
+        "q": "Arbeiten Sie auch außerhalb von Karlsfeld?",
+        "a": "Ja, im Umkreis von Karlsfeld und Dachau – fragen Sie einfach an."
       }
     ],
     "contact": {
-      "headline": "Termin für Ihre Fensterreinigung",
-      "text": "Nennen Sie kurz Ort, ungefähre Fensteranzahl und besondere Flächen wie Wintergarten oder Dachfenster.",
+      "headline": "Ihr Reinigungsangebot – kostenlos und unverbindlich",
+      "text": "Nennen Sie kurz Objektart, ungefähre Fläche und gewünschten Turnus. Wir melden uns mit einem Angebot.",
       "topics": [
-        "Fensterreinigung",
-        "Glastüren",
-        "Wintergarten",
-        "Schaufenster",
-        "Regelmäßige Termine",
-        "Sonstiges"
+        "Treppenhausreinigung",
+        "Büroreinigung",
+        "Praxisreinigung",
+        "Kita-Reinigung",
+        "Glasreinigung",
+        "Vertretung"
       ],
-      "responseNote": "Rückruf nach Absprache."
+      "responseNote": "Begehung nach Absprache."
     },
     "quote": {
-      "sizeLabel": "Wie viele Fenster?",
+      "sizeLabel": "Wie groß ist das Objekt?",
       "sizes": [
-        "Wohnung",
-        "Einfamilienhaus",
-        "Ladengeschäft/Praxis",
-        "Größeres Objekt"
+        "Treppenhaus",
+        "Bis 100 m²",
+        "100–300 m²",
+        "Über 300 m²"
       ],
       "timings": [
         "So bald wie möglich",
-        "In den nächsten Wochen",
-        "Regelmäßig",
+        "Ab nächstem Monat",
+        "Nur als Vertretung",
         "Ich plane erst noch"
       ]
     },
-    "stickyCta": "Termin anfragen",
+    "stickyCta": "Angebot anfragen",
     "look": {
-      "palette": 2,
-      "font": 6,
-      "hero": 0,
-      "services": 1,
-      "radius": 1,
-      "logo": 0,
-      "intro": 5
+      "palette": 1,
+      "font": 3,
+      "hero": 1,
+      "services": 2,
+      "radius": 4,
+      "logo": 5,
+      "intro": 0
     }
   }
 }

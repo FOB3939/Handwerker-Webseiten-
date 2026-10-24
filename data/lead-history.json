@@ -1678,6 +1678,126 @@
       "googleLink": "https://www.google.com/maps/search/?api=1&query=Construktion%20Loisachstr.%2C%2082418%20Murnau%20am%20Staffelsee",
       "googleVerified": false,
       "reserve": true
+    },
+    {
+      "company": "Molin Josef Elektroinstallation",
+      "slug": "josef-molin-elektroinstallation-vaterstetten",
+      "trade": "Elektroinstallation",
+      "city": "Vaterstetten",
+      "date": "2026-10-24",
+      "phone": "08106 4190",
+      "email": null,
+      "googleLink": "https://www.google.com/maps/search/?api=1&query=Molin%20Josef%20Elektroinstallation%20Amselweg%2015%2C%2085591%20Vaterstetten",
+      "googleVerified": false,
+      "reserve": false
+    },
+    {
+      "company": "Schlosserei Zwerger GbR",
+      "slug": "schlosserei-zwerger-murnau",
+      "trade": "Schlosserei & Metallbau",
+      "city": "Murnau am Staffelsee",
+      "date": "2026-10-24",
+      "phone": "08841 9165",
+      "email": "schlosserei-m.zwerger@t-online.de",
+      "googleLink": "https://www.google.com/maps/search/?api=1&query=Schlosserei%20Zwerger%20GbR%20Griesbr%C3%A4ustr.%202%2C%2082418%20Murnau%20am%20Staffelsee",
+      "googleVerified": false,
+      "reserve": false
+    },
+    {
+      "company": "ARICI Gebäudedienst",
+      "slug": "arici-gebaeudedienst-gilching",
+      "trade": "Gebäudereinigung & Hausmeisterservice",
+      "city": "Gilching",
+      "date": "2026-10-24",
+      "phone": "01573 1033701",
+      "email": null,
+      "googleLink": "https://www.google.com/maps/search/?api=1&query=ARICI%20Geb%C3%A4udedienst%20Herrschinger%20Weg%2010%2C%2082205%20Gilching",
+      "googleVerified": false,
+      "reserve": true
+    },
+    {
+      "company": "Ulrich Dinkelmaier Malerbetrieb",
+      "slug": "malerbetrieb-dinkelmaier-planegg",
+      "trade": "Malerbetrieb",
+      "city": "Planegg",
+      "date": "2026-10-24",
+      "phone": "089 8596102",
+      "email": null,
+      "googleLink": "https://www.google.com/maps/search/?api=1&query=Ulrich%20Dinkelmaier%20Malerbetrieb%20Enzianweg%203%2C%2082152%20Planegg",
+      "googleVerified": false,
+      "reserve": true
+    },
+    {
+      "company": "Fensterreinigung Weinert",
+      "slug": "fensterreinigung-weinert-fuerstenfeldbruck",
+      "trade": "Fenster- und Glasreinigung",
+      "city": "Fürstenfeldbruck",
+      "date": "2026-10-24",
+      "phone": "08141 43465",
+      "email": null,
+      "googleLink": "https://www.google.com/maps/search/?api=1&query=Fensterreinigung%20Weinert%20Maisacher%20Str.%2073%2C%2082256%20F%C3%BCrstenfeldbruck",
+      "googleVerified": false,
+      "reserve": true
+    },
+    {
+      "company": "GH-Bau",
+      "slug": "gh-bau-karlsfeld",
+      "trade": "Garten- und Landschaftsbau",
+      "city": "Karlsfeld",
+      "date": "2026-10-24",
+      "phone": "01514 2888392",
+      "email": "gh.gartenbau@gmail.com",
+      "googleLink": "https://www.google.com/maps/search/?api=1&query=GH-Bau%20Hochstr.%2014%2C%2085757%20Karlsfeld",
+      "googleVerified": false,
+      "reserve": false
+    },
+    {
+      "company": "Panos Reinigungsservice",
+      "slug": "panos-reinigungsservice-karlsfeld",
+      "trade": "Gebäudereinigung",
+      "city": "Karlsfeld",
+      "date": "2026-10-24",
+      "phone": "0176 21177429",
+      "email": "panos-reinigungsservice@freenet.de",
+      "googleLink": "https://www.google.com/maps/search/?api=1&query=Panos%20Reinigungsservice%20Fasanenstr.%2049%2C%2085757%20Karlsfeld",
+      "googleVerified": false,
+      "reserve": false
+    },
+    {
+      "company": "Fliesenverlegung Habermann",
+      "slug": "fliesenverlegung-habermann-freising",
+      "trade": "Fliesenleger",
+      "city": "Freising",
+      "date": "2026-10-24",
+      "phone": "0176 84152776",
+      "email": null,
+      "googleLink": "https://www.google.com/maps/search/?api=1&query=Fliesenverlegung%20Habermann%20Dr.-von-Daller-Str.%2022a%2C%2085356%20Freising",
+      "googleVerified": false,
+      "reserve": true
+    },
+    {
+      "company": "Bajraktari Bau",
+      "slug": "bajraktari-bau-karlsfeld",
+      "trade": "Garten- und Landschaftsbau",
+      "city": "Karlsfeld",
+      "date": "2026-10-24",
+      "phone": "0163 9879448",
+      "email": "bajraktari.bau.80@gmail.com",
+      "googleLink": "https://www.google.com/maps/search/?api=1&query=Bajraktari%20Bau%20Bl%C3%BCtenstr.%204%2C%2085757%20Karlsfeld",
+      "googleVerified": false,
+      "reserve": false
+    },
+    {
+      "company": "Parkett Stachlewitz Parkettlegermeisterbetrieb",
+      "slug": "parkett-stachlewitz-dachau",
+      "trade": "Parkettleger",
+      "city": "Dachau",
+      "date": "2026-10-24",
+      "phone": "08131 4304678",
+      "email": null,
+      "googleLink": "https://www.google.com/maps/search/?api=1&query=Parkett%20Stachlewitz%20Parkettlegermeisterbetrieb%20Banater%20Str.%202%2C%2085221%20Dachau",
+      "googleVerified": false,
+      "reserve": false
     }
   ],
   "rejected": [
@@ -3669,6 +3789,256 @@
       "company": "Tobias Altersberger (Penzberg)",
       "reason": "Website",
       "date": "2026-10-23"
+    },
+    {
+      "company": "Berghammer Anton Parkett- und Fußbodenverlegung (Dachau)",
+      "reason": "GmbH",
+      "date": "2026-10-24"
+    },
+    {
+      "company": "Sechser Garten- und Landschaftsbau (Karlsfeld)",
+      "reason": "GmbH",
+      "date": "2026-10-24"
+    },
+    {
+      "company": "SE-Bau Landschafts (Karlsfeld)",
+      "reason": "GmbH",
+      "date": "2026-10-24"
+    },
+    {
+      "company": "Alpina Gebäudeservice (Karlsfeld)",
+      "reason": "Domain-E-Mail",
+      "date": "2026-10-24"
+    },
+    {
+      "company": "Gartenbau Maximilian Henkel (Karlsfeld)",
+      "reason": "Website",
+      "date": "2026-10-24"
+    },
+    {
+      "company": "Münchner Putzdienste (Karlsfeld)",
+      "reason": "GmbH",
+      "date": "2026-10-24"
+    },
+    {
+      "company": "Malerfirma Edelweiss (Fürstenfeldbruck)",
+      "reason": "Website",
+      "date": "2026-10-24"
+    },
+    {
+      "company": "A & J Hausmeisterservice (Emmering)",
+      "reason": "Website",
+      "date": "2026-10-24"
+    },
+    {
+      "company": "V&A Malereibetrieb Veliu (Fürstenfeldbruck)",
+      "reason": "Website",
+      "date": "2026-10-24"
+    },
+    {
+      "company": "Malerbetrieb Thorsten Thimm (Fürstenfeldbruck)",
+      "reason": "Website",
+      "date": "2026-10-24"
+    },
+    {
+      "company": "Z.A.M.M. Malermeisterbetrieb (Fürstenfeldbruck)",
+      "reason": "Website/GmbH",
+      "date": "2026-10-24"
+    },
+    {
+      "company": "Malermeister Klaus Gallasch (Fürstenfeldbruck)",
+      "reason": "GmbH mit Website",
+      "date": "2026-10-24"
+    },
+    {
+      "company": "TL Gebäudereinigung (Gröbenzell)",
+      "reason": "Website",
+      "date": "2026-10-24"
+    },
+    {
+      "company": "Aldo Malermeister Farbmanufaktur (Fürstenfeldbruck)",
+      "reason": "möglicherweise Website",
+      "date": "2026-10-24"
+    },
+    {
+      "company": "Luki Maler (Gilching)",
+      "reason": "Website",
+      "date": "2026-10-24"
+    },
+    {
+      "company": "Peter Bauer Bauelemente (Germering)",
+      "reason": "Website",
+      "date": "2026-10-24"
+    },
+    {
+      "company": "Parkett & Bodenverlegung Marcin Pawlica (Krailling)",
+      "reason": "Website",
+      "date": "2026-10-24"
+    },
+    {
+      "company": "DIAL Team (Gilching)",
+      "reason": "Website",
+      "date": "2026-10-24"
+    },
+    {
+      "company": "Malerbetrieb Niedermann (Stockdorf)",
+      "reason": "Website",
+      "date": "2026-10-24"
+    },
+    {
+      "company": "Sadik Mazreku Malermeisterbetrieb (Planegg)",
+      "reason": "Website",
+      "date": "2026-10-24"
+    },
+    {
+      "company": "Malermeister Hofer (Gilching)",
+      "reason": "Website",
+      "date": "2026-10-24"
+    },
+    {
+      "company": "Muri Entrümpelungen (Neufahrn)",
+      "reason": "Website",
+      "date": "2026-10-24"
+    },
+    {
+      "company": "Engelshände (Freising)",
+      "reason": "Schwesterbetrieb mit Website",
+      "date": "2026-10-24"
+    },
+    {
+      "company": "HORNBURG Garten- & Landschaftsbau (Freising)",
+      "reason": "Website",
+      "date": "2026-10-24"
+    },
+    {
+      "company": "Fliesen Güth (Neufahrn)",
+      "reason": "Website",
+      "date": "2026-10-24"
+    },
+    {
+      "company": "Fliesen Chrubasik GbR (Allershausen)",
+      "reason": "Website",
+      "date": "2026-10-24"
+    },
+    {
+      "company": "Franz Sanierungs Service (Unterhaching)",
+      "reason": "Website im Verzeichnis",
+      "date": "2026-10-24"
+    },
+    {
+      "company": "Gartenbau Messerer (Holzkirchen)",
+      "reason": "Website",
+      "date": "2026-10-24"
+    },
+    {
+      "company": "Andreas Neß Fliesenlegermeister (Windach)",
+      "reason": "Website",
+      "date": "2026-10-24"
+    },
+    {
+      "company": "Möbelmontage BAM (Taufkirchen)",
+      "reason": "nicht auffindbar",
+      "date": "2026-10-24"
+    },
+    {
+      "company": "Dach-Art (Schwabmünchen)",
+      "reason": "Website",
+      "date": "2026-10-24"
+    },
+    {
+      "company": "Hugo Räumt (Landsberg)",
+      "reason": "Website",
+      "date": "2026-10-24"
+    },
+    {
+      "company": "J&L Bauprojekte (Landsberg)",
+      "reason": "Website",
+      "date": "2026-10-24"
+    },
+    {
+      "company": "Braumüller Wohnungsauflösung (Friedberg)",
+      "reason": "Website",
+      "date": "2026-10-24"
+    },
+    {
+      "company": "Ge-Sa-Clean (Friedberg)",
+      "reason": "Domain-E-Mail",
+      "date": "2026-10-24"
+    },
+    {
+      "company": "Berger Elektrik (Kaufering)",
+      "reason": "Website",
+      "date": "2026-10-24"
+    },
+    {
+      "company": "Elektro Hilscher (Kaufering)",
+      "reason": "Website",
+      "date": "2026-10-24"
+    },
+    {
+      "company": "B. Mörtl Gartenpflege (Seefeld)",
+      "reason": "Website",
+      "date": "2026-10-24"
+    },
+    {
+      "company": "Josef Schichl Schlosserei (Peißenberg)",
+      "reason": "Website",
+      "date": "2026-10-24"
+    },
+    {
+      "company": "Detlef Albert Gebäudereinigung (Unterschleißheim)",
+      "reason": "Website",
+      "date": "2026-10-24"
+    },
+    {
+      "company": "Parkett- und Fußbodentechnik Eli (Dachau)",
+      "reason": "Website",
+      "date": "2026-10-24"
+    },
+    {
+      "company": "Parkett & Böden Reinosch (Dachau)",
+      "reason": "GmbH/Website",
+      "date": "2026-10-24"
+    },
+    {
+      "company": "Haustechnik Günther (Freising)",
+      "reason": "Domain-E-Mail",
+      "date": "2026-10-24"
+    },
+    {
+      "company": "Anton Betzenbichler Fliesenlegermeister (Eitting)",
+      "reason": "Domain-E-Mail",
+      "date": "2026-10-24"
+    },
+    {
+      "company": "Handwerker Crispin (Planegg)",
+      "reason": "Website",
+      "date": "2026-10-24"
+    },
+    {
+      "company": "Oliver Stock Malerbetrieb (Krailling)",
+      "reason": "Website",
+      "date": "2026-10-24"
+    },
+    {
+      "company": "Firma Winkerl (Germering)",
+      "reason": "Website",
+      "date": "2026-10-24"
+    },
+    {
+      "company": "Bautenschutz Rukavina (Emmering)",
+      "reason": "weggezogen",
+      "date": "2026-10-24"
+    },
+    {
+      "company": "Riepl Florian Gartenservice (Holzkirchen)",
+      "reason": "kein Beleg",
+      "date": "2026-10-24"
+    },
+    {
+      "company": "Hans-Peter Fritz Fußboden (Dachau)",
+      "reason": "veraltet",
+      "date": "2026-10-24"
     }
   ]
 }

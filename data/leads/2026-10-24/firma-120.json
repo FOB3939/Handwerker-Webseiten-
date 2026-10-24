@@ -1,99 +1,105 @@
 {
   "id": "2026-10-24-120",
-  "slug": "my-hausmeister-emmering",
+  "slug": "fliesenverlegung-habermann-freising",
   "date": "2026-10-24",
   "company": {
-    "name": "My Hausmeister",
+    "name": "Fliesenverlegung Habermann",
     "owner": null,
-    "trade": "Hausmeisterservice",
-    "city": "Emmering",
-    "address": "Hauptstr. 8, 82275 Emmering",
-    "phone": "0176 24857744",
+    "trade": "Fliesenleger",
+    "city": "Freising",
+    "address": "Dr.-von-Daller-Str. 22a, 85356 Freising",
+    "phone": "0176 84152776",
     "email": null,
     "serviceArea": [
-      "Emmering",
-      "Fürstenfeldbruck",
-      "Eichenau",
-      "Olching",
-      "Puchheim",
-      "Maisach"
+      "Freising",
+      "Lerchenfeld",
+      "Neufahrn",
+      "Marzling",
+      "Kranzberg",
+      "Hallbergmoos"
     ]
   },
   "listings": {
     "google": {
-      "url": "https://www.google.com/maps/search/?api=1&query=My%20Hausmeister%20Hauptstr.%208%20Emmering",
+      "url": "https://www.google.com/maps/search/?api=1&query=Fliesenverlegung%20Habermann%20Dr.-von-Daller-Str.%2022a%20Freising",
       "rating": null,
       "reviews": null,
-      "evidence": "NICHT BELEGT – kein Google-Spiegel gefunden, keine Freemail sichtbar. In Maps prüfen."
+      "evidence": "NICHT BELEGT – kein Google-Spiegel (rgv-bayern, firmania, trustlocal) mit Eintrag gefunden. Belegt sind nur Verzeichniseinträge: 11880 (Fliesenleger Freising, Dr.-von-Daller-Str. 22a, (0176) 84152776, „noch keine Bewertungen“, werkenntdenBESTEN-Siegel „Gut“) und Cylex (gleiche Adresse und Nummer). In Google Maps prüfen."
     },
     "myhammer": {
-      "url": "https://www.11880.com/suche/hausmeisterservice/emmering",
+      "url": "https://www.11880.com/branchenbuch/freising-oberbayern/060691660B113154632/fliesenverlegung-habermann.html",
       "rating": null,
       "reviews": null,
-      "evidence": "Kein MyHammer gefunden – Eintrag „My Hausmeister“ (Hausmeisterservice, Hauptstr. 8, 82275 Emmering, (0176) 24857744, keine Öffnungszeiten) in der 11880-Liste Hausmeisterservices Emmering; zwei 11880-Seiten mit identischen Daten."
+      "evidence": "Kein MyHammer gefunden – 11880-Eintrag „Fliesenverlegung Habermann“ (Freising, Mobil 0176 84152776, keine E-Mail, keine Homepage im Snippet)."
     }
   },
   "websiteStatus": "keine eigene Website gefunden",
   "websiteChecks": [
-    "(1) „My Hausmeister“ Emmering mit blocked_domains (11880, Gelbe Seiten, Das Örtliche, Telefonbuch, Cylex, meinestadt, Creditreform, Facebook, Instagram, golocal, MyHammer, Northdata, Firmenwissen, WKDB, Yelp, trustlocal, wlw) – einziger Treffer myhausmeisterservice.de (My Hausmeisterservice, Inhaber Hakan Satici, Landshut) – anderer Betrieb, kein Bezug zu Emmering",
-    "(2) Domain-Check allowed_domains my-hausmeister.de, myhausmeister.de, myhausmeister-emmering.de, my-hausmeister-emmering.de – keine Treffer",
-    "(3) 11880-Nachsuche Name + Adresse – Eintrag ohne Website-Feld und ohne E-Mail",
-    "Nicht durchgeführt (Budget): Telefonnummer-Suche „0176 24857744“, Impressum-Suche",
-    "Website-Risiko: mittel – Prüfungen negativ, aber generischer Name und kein Google-/Freemail-Beleg"
+    "(1) „Fliesenverlegung Habermann Freising“ mit blocked_domains (11880, Gelbe Seiten, Das Örtliche, Telefonbuch, Cylex, meinestadt, Creditreform, Facebook, Instagram, golocal, MyHammer, Northdata, Firmenwissen, WKDB, Yelp, trustlocal, wlw) – nur andere Fliesenbetriebe (MN Meisterbetrieb, Schiwietz, Pröpster, Fliesen Auer) und „PW Habermann“ (habermannpeter.de, Sitz Hohenöllen/Rheinland-Pfalz – anderer Betrieb); keine eigene Domain",
+    "(2) Domain-Check allowed_domains fliesen-habermann.de, habermann-fliesen.de, fliesenverlegung-habermann.de, fliesenleger-habermann.de, habermann-freising.de – keine Treffer",
+    "(3) Telefonsuche „0176 84152776“/„017684152776“ – keine Treffer",
+    "(4) Verzeichnis-/Spiegelsuche (rgv-bayern, firmania, trustlocal, muenchen.de, stadtbranchenbuch, Gelbe Seiten, Das Örtliche, Cylex) – nur Cylex-Eintrag mit Adresse und Mobilnummer, kein Website-Feld",
+    "(5) 11880-Detailseite: keine E-Mail, keine Bewertungen, keine Homepage im Snippet",
+    "(6) Namensgleicher Betrieb „Ha-Tro Habermann-Trocknungen“ (Kranzberg, ha-tro.com) mit Website – Verwandtschaft NICHT belegt, anderes Gewerk (Bautrocknung)",
+    "Website-Risiko: mittel – alle Prüfungen negativ, aber weder Google-Eintrag noch Freemail belegt"
   ],
   "facts": {
     "services": [
-      "Hausmeisterservice"
+      "Fliesenverlegung"
     ],
     "experience": null,
     "praisedFor": []
   },
   "strategy": {
-    "audience": "Hausverwaltungen, WEGs, Vermieter und Eigenheimbesitzer in Emmering, Fürstenfeldbruck und Eichenau, die einen verlässlichen Hausmeister vor Ort suchen",
-    "mainService": "Hausmeisterservice rund um Haus, Treppenhaus und Außenanlage",
-    "trustSignal": "Hausmeister direkt aus Emmering, per Handy erreichbar",
-    "conversionGoal": "Angebot für Hausmeisterbetreuung per WhatsApp/Anruf anfragen",
-    "visualConcept": "Aufgeräumt und verlässlich: gepflegter Hauseingang, sauberes Treppenhaus, geräumter Gehweg – ruhige, solide Farben"
+    "audience": "Hauseigentümer und Vermieter in Freising, Lerchenfeld, Neufahrn und Marzling, die Bad, Küche oder Böden neu fliesen lassen wollen",
+    "mainService": "Fliesenverlegung in Bad, Küche und Wohnräumen",
+    "trustSignal": "Kleiner Fliesenbetrieb in Freising, direkt per Handy erreichbar",
+    "conversionGoal": "Kostenloses Angebot für Fliesenarbeiten anfragen (per WhatsApp/Anruf mit Fotos und Maßen)",
+    "visualConcept": "Ruhige Materialästhetik: großformatige Fliesen, exakte Fugenbilder, helle Bäder mit Streiflicht"
   },
   "sales": {
-    "score": 4,
+    "score": 3,
     "whyGoodLead": [
-      "Keine eigene Website gefunden – nur 11880-Eintrag",
-      "Mobilnummer öffentlich gelistet – WhatsApp-Erstkontakt möglich",
-      "Hausmeisterdienste werden von Hausverwaltungen online gesucht – Website schafft Vertrauen",
-      "Name „My Hausmeister“ eignet sich gut als Marke für eine kleine Website"
+      "Keine eigene Website gefunden – nur Verzeichniseinträge mit Mobilnummer",
+      "Mobilnummer öffentlich gelistet – direkter WhatsApp-Erstkontakt möglich",
+      "Noch keine Bewertungen auf 11880 – wenig Online-Sichtbarkeit",
+      "Fliesenleger sind bei Bad- und Wohnungssanierungen rund um Freising stark gefragt"
     ],
-    "pitch": "Hallo, hier ist … – ich baue Websites für Betriebe im Landkreis Fürstenfeldbruck. Ich habe „My Hausmeister“ in Emmering bei 11880 gefunden, aber keine eigene Website. Ich habe unverbindlich einen Entwurf vorbereitet, über den Hausverwaltungen und Eigentümer Sie direkt per WhatsApp anfragen können – darf ich Ihnen den Link schicken?"
+    "pitch": "Hallo, hier ist … – ich baue Websites für Handwerker im Landkreis Freising. Ich habe Ihren Eintrag „Fliesenverlegung Habermann“ gefunden, aber keine eigene Website. Ich habe unverbindlich einen Entwurf vorbereitet, auf dem Kunden Ihre Fliesenarbeiten sehen und direkt per WhatsApp anfragen können – darf ich Ihnen den Link schicken?"
   },
   "manualChecks": [
     "RESERVE – weder Google-Eintrag noch Freemail-Adresse belegt: NUR versenden, wenn Google Maps einen Eintrag OHNE Website zeigt.",
-    "Inhabername unbekannt – beim Erstkontakt erfragen; Anrede neutral halten",
-    "Leistungen nicht einzeln belegt (nur Kategorie Hausmeisterservice) – Treppenhausreinigung, Gartenpflege, Winterdienst, Kleinreparaturen beim Betrieb bestätigen",
-    "Verwechslungsgefahr mit „My Hausmeisterservice“ (Landshut, myhausmeisterservice.de) – sicherstellen, dass es kein Ableger ist",
-    "Logo und Fotos: nicht gefunden – beim Betrieb anfragen"
+    "Inhaber-Vorname unbekannt – beim Erstkontakt erfragen; Anrede neutral halten",
+    "Verbindung zu „Ha-Tro Habermann-Trocknungen“ (Kranzberg, mit Website) klären – falls Familienbetrieb mit gemeinsamer Website: verwerfen",
+    "Leistungen nur als „Fliesenleger“ belegt – Bad, Naturstein, Abdichtung, Terrassen beim Betrieb bestätigen",
+    "Logo und Projektfotos: nicht gefunden – beim Betrieb anfragen"
   ],
   "sources": [
     {
-      "label": "11880 – Hausmeisterservices Emmering (Liste mit My Hausmeister)",
-      "url": "https://www.11880.com/suche/hausmeisterservice/emmering"
+      "label": "11880 – Fliesenverlegung Habermann Freising",
+      "url": "https://www.11880.com/branchenbuch/freising-oberbayern/060691660B113154632/fliesenverlegung-habermann.html"
+    },
+    {
+      "label": "11880 – Fliesenleger Freising (Liste)",
+      "url": "https://www.11880.com/suche/fliesenleger/freising"
     }
   ],
   "site": {
-    "theme": "objekt",
+    "theme": "stein",
     "category": "handwerk",
     "heroOffer": [
-      "Hausmeisterdienst",
-      "Treppenhaus",
-      "Gartenpflege",
-      "Winterdienst",
-      "Kleinreparaturen"
+      "Bodenfliesen",
+      "Wandfliesen",
+      "Bad",
+      "Küche",
+      "Fugen"
     ],
-    "scene": "facade",
-    "logoIcon": "house",
-    "logoMark": "MH",
-    "brandName": "My Hausmeister",
-    "seoTitle": "Hausmeisterservice in Emmering – My Hausmeister",
-    "seoDescription": "Hausmeisterservice in Emmering und Umgebung: Treppenhaus, Außenanlage, Winterdienst und Kleinreparaturen. Jetzt Angebot anfragen – auch per WhatsApp.",
+    "scene": "bath",
+    "logoIcon": "trowel",
+    "logoMark": "FH",
+    "brandName": "Fliesenverlegung Habermann",
+    "seoTitle": "Fliesenleger in Freising – Fliesenverlegung Habermann",
+    "seoDescription": "Fliesen für Bad, Küche und Wohnräume in Freising und Umgebung verlegen lassen. Jetzt kostenloses Angebot anfragen – auch per WhatsApp.",
     "nav": [
       {
         "label": "Leistungen",
@@ -121,132 +127,132 @@
       }
     ],
     "hero": {
-      "eyebrow": "Hausmeisterservice · Emmering",
-      "headline": "Ihr Hausmeister in Emmering",
-      "sub": "Treppenhaus, Außenanlage und Winterdienst – zuverlässig betreut im Landkreis Fürstenfeldbruck.",
-      "ctaPrimary": "Angebot anfragen",
+      "eyebrow": "Fliesenleger · Freising",
+      "headline": "Fliesen verlegt in Freising",
+      "sub": "Böden und Wände für Bad, Küche und Wohnräume – exakt verfugt.",
+      "ctaPrimary": "Kostenloses Angebot anfragen",
       "ctaSecondary": "Anrufen",
       "bullets": [
-        "Hausmeister aus Emmering",
-        "Für Eigentümer und Verwaltungen",
+        "Fliesenbetrieb aus Freising",
+        "Boden- und Wandfliesen",
         "Direkt per Handy erreichbar"
       ],
-      "imageLabel": "gepflegter Hauseingang mit gefegtem Weg"
+      "imageLabel": "frisch verfliestes helles Bad mit exaktem Fugenbild"
     },
     "badges": [
       {
-        "title": "Haus",
-        "sub": "Kontrolle & Pflege"
+        "title": "Fliesen",
+        "sub": "Boden & Wand"
       },
       {
-        "title": "Außen",
-        "sub": "Garten & Wege"
+        "title": "Bad",
+        "sub": "Dusche und Wände"
       },
       {
-        "title": "Winter",
-        "sub": "Räum- und Streudienst"
+        "title": "Küche",
+        "sub": "Spiegel & Boden"
       },
       {
-        "title": "Emmering",
-        "sub": "Hauptstraße"
+        "title": "Freising",
+        "sub": "Dr.-von-Daller-Straße"
       }
     ],
     "trust": [
       {
         "value": "Vor Ort",
-        "label": "Betrieb in Emmering"
+        "label": "Betrieb in Freising"
       },
       {
-        "value": "6",
-        "label": "Leistungsbereiche"
+        "value": "Innen",
+        "label": "Bad, Küche, Wohnräume"
       },
       {
         "value": "Mobil",
         "label": "schnell erreichbar"
       },
       {
-        "value": "Fest",
-        "label": "ein Ansprechpartner"
+        "value": "Gratis",
+        "label": "Angebot nach Besichtigung"
       }
     ],
     "servicesIntro": {
-      "headline": "Alles, was ein Haus regelmäßig braucht",
-      "text": "Vom sauberen Treppenhaus bis zum geräumten Gehweg: Sie vergeben die Betreuung einmal und haben einen festen Ansprechpartner."
+      "headline": "Fliesenarbeiten für jeden Raum",
+      "text": "Ob neues Bad, Küchenspiegel oder durchgehender Boden: Fliesen werden geplant, sauber verlegt und exakt verfugt."
     },
     "services": [
       {
-        "title": "Objektbetreuung",
-        "text": "Regelmäßige Kontrollgänge durch Haus, Keller und Technikräume – Mängel werden früh gemeldet.",
+        "title": "Bodenfliesen",
+        "text": "Robuste Böden für Flur, Küche und Wohnbereich – eben verlegt, mit sauberem Fugenbild.",
         "items": [
-          "Kontrollgänge",
-          "Mängelmeldung",
-          "Zählerstände"
+          "Flur",
+          "Wohnbereich",
+          "Großformate"
         ]
       },
       {
-        "title": "Treppenhausreinigung",
-        "text": "Saubere Treppenhäuser, Eingänge und Kellerflure im festen Rhythmus.",
+        "title": "Wandfliesen",
+        "text": "Wände in Bad und Küche fliesen – pflegeleicht und passend zum Boden.",
         "items": [
-          "Treppenhaus",
-          "Eingang",
-          "Kellerflur"
+          "Badwände",
+          "Küchenspiegel",
+          "Akzentflächen"
         ]
       },
       {
-        "title": "Gartenpflege",
-        "text": "Rasen, Hecken und Beete rund ums Haus gepflegt – das Grundstück bleibt ordentlich.",
+        "title": "Bad fliesen",
+        "text": "Boden, Wände und Dusche im Bad aus einer Hand – abgestimmt auf Ihre Sanitärplanung.",
         "items": [
-          "Rasenmähen",
-          "Heckenschnitt",
-          "Laub"
+          "Dusche",
+          "Badboden",
+          "Wandflächen"
         ]
       },
       {
-        "title": "Winterdienst",
-        "text": "Gehwege und Zugänge geräumt und gestreut, damit niemand ausrutscht.",
+        "title": "Küche fliesen",
+        "text": "Fliesenspiegel und Küchenboden, die Fett, Wasser und Alltag standhalten.",
         "items": [
-          "Schneeräumen",
-          "Streuen",
-          "Zugänge"
+          "Fliesenspiegel",
+          "Küchenboden",
+          "Anschlüsse"
         ]
       },
       {
-        "title": "Kleinreparaturen",
-        "text": "Kleine Schäden schnell behoben – vom klemmenden Türschloss bis zum Leuchtmitteltausch.",
+        "title": "Altfliesen erneuern",
+        "text": "Alte Beläge werden entfernt oder überarbeitet, damit der neue Belag sicher hält.",
         "items": [
-          "Leuchtmittel",
-          "Türen & Schlösser",
-          "Kleinmontagen"
+          "Rückbau",
+          "Untergrund",
+          "Neuverlegung"
         ]
       },
       {
-        "title": "Mülltonnendienst",
-        "text": "Tonnen rechtzeitig an die Straße und zurück – ohne dass Mieter daran denken müssen.",
+        "title": "Fugen & Silikon",
+        "text": "Verfärbte Fugen und rissige Silikonfugen werden erneuert – für ein frisches Fliesenbild.",
         "items": [
-          "Bereitstellung",
-          "Rückstellung",
-          "Tonnenplatz"
+          "Fugen erneuern",
+          "Silikonfugen",
+          "Ausbesserung"
         ]
       }
     ],
     "why": {
-      "headline": "Ein Hausmeister aus dem Ort.",
+      "headline": "Fliesen aus Freising – direkt beim Fliesenleger.",
       "points": [
         {
           "title": "Kurze Wege",
-          "text": "Sitz an der Hauptstraße in Emmering – schnell in Fürstenfeldbruck und Eichenau."
+          "text": "Der Betrieb sitzt in Freising und ist schnell in Lerchenfeld, Neufahrn und Marzling."
         },
         {
           "title": "Direkter Draht",
-          "text": "Ein Anruf oder eine WhatsApp-Nachricht genügt, ohne Warteschleife."
+          "text": "Ein Anruf oder eine WhatsApp-Nachricht genügt – Sie sprechen direkt mit dem Fliesenleger."
         },
         {
-          "title": "Alles aus einer Hand",
-          "text": "Innen, außen und im Winter – ein Auftrag statt mehrerer Dienstleister."
+          "title": "Klare Absprache",
+          "text": "Format, Fugenfarbe und Verlegemuster werden vor Beginn gemeinsam festgelegt."
         },
         {
-          "title": "Für jede Größe",
-          "text": "Vom Einfamilienhaus bis zur Wohnanlage einer Eigentümergemeinschaft."
+          "title": "Sauberes Fugenbild",
+          "text": "Exakte Fugen und gerade Kanten machen den Unterschied im fertigen Raum."
         }
       ]
     },
@@ -254,131 +260,131 @@
       "headline": "Was Kunden sagen",
       "summary": "Kundenstimmen werden hier eingebunden, sobald sie aus dem Google-Profil übernommen sind.",
       "highlights": [
-        "Hausmeisterservice in Emmering",
-        "Direkter Kontakt",
-        "Innen und außen"
+        "Fliesen in Freising",
+        "Bad und Küche",
+        "Direkter Kontakt"
       ],
       "source": "Google",
-      "sourceUrl": "https://www.google.com/maps/search/?api=1&query=My%20Hausmeister%20Hauptstr.%208%20Emmering",
+      "sourceUrl": "https://www.google.com/maps/search/?api=1&query=Fliesenverlegung%20Habermann%20Dr.-von-Daller-Str.%2022a%20Freising",
       "rating": null,
       "count": null
     },
     "process": {
-      "headline": "In vier Schritten zur Betreuung",
+      "headline": "In vier Schritten zum neuen Belag",
       "steps": [
         {
           "title": "Anfrage",
-          "text": "Objekt und gewünschte Leistungen kurz per WhatsApp oder Telefon schildern."
+          "text": "Fotos und grobe Maße per WhatsApp schicken – oder kurz anrufen."
         },
         {
           "title": "Besichtigung",
-          "text": "Haus und Außenanlage werden gemeinsam angeschaut."
+          "text": "Untergrund, Fliesenformat und Details werden vor Ort abgestimmt."
         },
         {
           "title": "Angebot",
-          "text": "Sie erhalten ein klares Angebot mit festen Leistungen und Intervallen."
+          "text": "Sie erhalten ein klares Angebot für Ihre Fliesenarbeiten."
         },
         {
-          "title": "Betreuung",
-          "text": "Die Arbeiten laufen regelmäßig – Sie haben einen festen Ansprechpartner."
+          "title": "Verlegung",
+          "text": "Vorbereiten, verlegen, verfugen – sauber übergeben."
         }
       ]
     },
     "gallery": {
-      "headline": "Gepflegte Häuser in Emmering",
-      "text": "Für die Live-Version zeigen wir hier echte Objekte und Einsätze des Betriebs.",
+      "headline": "Räume mit neuem Belag",
+      "text": "Für die Live-Version zeigen wir hier echte Projekte des Betriebs.",
       "items": [
         {
-          "title": "Treppenhaus",
-          "photoNeeded": "frisch gereinigtes Treppenhaus eines Mehrfamilienhauses"
+          "title": "Helles Bad",
+          "photoNeeded": "fertig verfliestes Bad mit bodengleicher Dusche"
         },
         {
-          "title": "Außenanlage",
-          "photoNeeded": "gemähter Rasen und geschnittene Hecke vor einem Wohnhaus"
+          "title": "Küchenspiegel",
+          "photoNeeded": "Fliesenspiegel hinter der Arbeitsplatte"
         },
         {
-          "title": "Winterdienst",
-          "photoNeeded": "geräumter und gestreuter Gehweg im Schnee"
+          "title": "Großformat",
+          "photoNeeded": "großformatige Bodenfliesen im Wohnbereich"
         },
         {
-          "title": "Tonnenplatz",
-          "photoNeeded": "aufgeräumter Mülltonnenplatz"
+          "title": "Flurboden",
+          "photoNeeded": "frisch verlegter Fliesenboden im Eingangsbereich"
         },
         {
-          "title": "Kleinreparatur",
-          "photoNeeded": "Hausmeister beim Wechseln einer Treppenhausleuchte"
+          "title": "Neue Fugen",
+          "photoNeeded": "Detail erneuerter Fugen und Silikonfugen"
         }
       ]
     },
     "region": {
-      "headline": "Hausmeisterservice für Emmering und Umgebung",
-      "text": "Von Emmering aus in Fürstenfeldbruck, Eichenau, Olching, Puchheim und Maisach.",
+      "headline": "Fliesenleger für Freising und Umgebung",
+      "text": "Von Freising aus schnell in Lerchenfeld, Neufahrn, Marzling, Kranzberg und Hallbergmoos.",
       "places": [
-        "Emmering",
-        "Fürstenfeldbruck",
-        "Eichenau",
-        "Olching",
-        "Puchheim",
-        "Maisach"
+        "Freising",
+        "Lerchenfeld",
+        "Neufahrn",
+        "Marzling",
+        "Kranzberg",
+        "Hallbergmoos"
       ]
     },
     "faq": [
       {
-        "q": "Betreuen Sie auch Einfamilienhäuser?",
-        "a": "Ja, Anfragen von Eigenheimbesitzern sind ebenso willkommen wie von Hausverwaltungen."
+        "q": "Kann ich vorab Fotos schicken?",
+        "a": "Ja, Fotos und grobe Maße per WhatsApp helfen für eine erste Einschätzung."
       },
       {
-        "q": "Kann ich einzelne Leistungen buchen?",
-        "a": "Ja, zum Beispiel nur Winterdienst oder Gartenpflege – sprechen Sie uns an."
+        "q": "Bringe ich die Fliesen selbst mit?",
+        "a": "Beides ist möglich – das wird bei der Besichtigung abgesprochen."
       },
       {
-        "q": "Wie schnell erreiche ich Sie?",
-        "a": "Am schnellsten per Anruf oder WhatsApp unter der Handynummer."
+        "q": "Wie lange dauert die Verlegung?",
+        "a": "Das hängt von Fläche, Format und Untergrund ab. Der Zeitplan wird nach der Besichtigung abgestimmt."
       },
       {
-        "q": "Arbeiten Sie auch außerhalb von Emmering?",
-        "a": "Ja, im Umkreis von Emmering, etwa in Fürstenfeldbruck und Eichenau."
+        "q": "Werden alte Fliesen entfernt?",
+        "a": "Je nach Zustand werden alte Beläge entfernt oder überarbeitet – das klären wir vor Ort."
       },
       {
-        "q": "Wie entsteht der Preis?",
-        "a": "Nach einer Besichtigung erhalten Sie ein Angebot passend zu Objekt und Leistungsumfang."
+        "q": "Arbeiten Sie auch außerhalb von Freising?",
+        "a": "Ja, im Umkreis von Freising – fragen Sie einfach an."
       }
     ],
     "contact": {
       "headline": "Ihr Angebot – kostenlos und unverbindlich",
-      "text": "Nennen Sie kurz Objektart, Ort und gewünschte Leistungen – zum Beispiel Treppenhaus, Garten oder Winterdienst.",
+      "text": "Beschreiben Sie kurz Ihr Vorhaben: welcher Raum, ungefähre Fläche und ob Boden, Wand oder beides. Fotos helfen.",
       "topics": [
-        "Objektbetreuung",
-        "Treppenhausreinigung",
-        "Gartenpflege",
-        "Winterdienst",
-        "Kleinreparaturen",
+        "Bodenfliesen",
+        "Wandfliesen",
+        "Bad fliesen",
+        "Küche fliesen",
+        "Fugen erneuern",
         "Sonstiges"
       ],
       "responseNote": "Besichtigung nach Absprache."
     },
     "quote": {
-      "sizeLabel": "Welches Objekt?",
+      "sizeLabel": "Wie groß ist die Fläche?",
       "sizes": [
-        "Einfamilienhaus",
-        "Mehrfamilienhaus",
-        "Wohnanlage",
-        "Gewerbeobjekt"
+        "Bis 10 m²",
+        "10–25 m²",
+        "25–50 m²",
+        "Über 50 m²"
       ],
       "timings": [
         "So bald wie möglich",
-        "Ab nächstem Monat",
-        "Für den Winter",
+        "In den nächsten Wochen",
+        "In 1–3 Monaten",
         "Ich plane erst noch"
       ]
     },
     "stickyCta": "Angebot anfragen",
     "look": {
       "palette": 2,
-      "font": 6,
-      "hero": 0,
+      "font": 8,
+      "hero": 2,
       "services": 1,
-      "radius": 1,
+      "radius": 2,
       "logo": 0,
       "intro": 5
     }

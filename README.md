@@ -170,3 +170,17 @@ Schnell-Check-Liste mit Google-Maps-Links und Reserve-Kandidaten.
 - Reserve: Hausklar Dienstleistungen (Friedberg): https://claude.ai/artifact/Y2iH3Z6Jg8F7JgzV6dKn2r
 - Reserve: Mafero Sonnenschutztechnik (Garching): https://claude.ai/artifact/Tonqd1kxiSF2RSugfqK8EM
 - Reserve: Construktion (Murnau): https://claude.ai/artifact/WE4uK9bc9GuUtZgFkWJwNT
+
+## Entwürfe 2026-10-24
+
+- WhatsApp-Entwürfe: https://claude.ai/artifact/5vZuCiZwNzakWFmqs92FWK
+- Molin Josef Elektroinstallation (Vaterstetten): https://claude.ai/artifact/LNT8Nk7gKJMuUjDkBfopBu
+- Schlosserei Zwerger GbR (Murnau): https://claude.ai/artifact/1jgPYJNxxwThRfzQBphrcE
+- GH-Bau (Karlsfeld): https://claude.ai/artifact/C2xkHQjcZMYUJgCuBBPAUU
+- Panos Reinigungsservice (Karlsfeld): https://claude.ai/artifact/MomVbWEtQtRaqU8JnXzEaG
+- Bajraktari Bau (Karlsfeld): https://claude.ai/artifact/3opj3Wxhckxj9XgGAeNBnL
+- Parkett Stachlewitz (Dachau): https://claude.ai/artifact/7VUQ7doyjjKnDd9XLjZTdt
+- Reserve: ARICI Gebäudedienst (Gilching): https://claude.ai/artifact/XyXwD8LxdcvFhZBP6odWc8
+- Reserve: Ulrich Dinkelmaier Malerbetrieb (Planegg): https://claude.ai/artifact/VxX4HVR2XA2W3qdGxL2BCr
+- Reserve: Fensterreinigung Weinert (Fürstenfeldbruck): https://claude.ai/artifact/S5XihKhebxJa7vTAXDj1Qb
+- Reserve: Fliesenverlegung Habermann (Freising): https://claude.ai/artifact/SNGaUoLQpq2kUxCYiMNWTu

@@ -1,263 +1,396 @@
 {
   "id": "2026-10-24-117",
-  "slug": "arici-gebaeudedienst-gilching",
+  "slug": "fensterreinigung-weinert-fuerstenfeldbruck",
   "date": "2026-10-24",
   "company": {
-    "name": "ARICI Gebäudedienst",
-    "owner": "Nezih Arici",
-    "trade": "Gebäudereinigung & Hausmeisterservice",
-    "city": "Gilching",
-    "address": "Herrschinger Weg 10, 82205 Gilching",
-    "phone": "01573 1033701",
+    "name": "Fensterreinigung Weinert",
+    "owner": "Norbert Weinert",
+    "trade": "Fenster- und Glasreinigung",
+    "city": "Fürstenfeldbruck",
+    "address": "Maisacher Str. 73, 82256 Fürstenfeldbruck",
+    "phone": "08141 43465",
     "email": null,
     "serviceArea": [
-      "Gilching",
-      "Argelsried",
-      "Weßling",
-      "Germering",
-      "Gauting",
-      "Starnberg"
+      "Fürstenfeldbruck",
+      "Emmering",
+      "Maisach",
+      "Olching",
+      "Puchheim",
+      "Germering"
     ]
   },
   "listings": {
     "google": {
-      "url": "https://www.google.com/maps/search/?api=1&query=ARICI%20Geb%C3%A4udedienst%20Gilching",
+      "url": "https://www.google.com/maps/search/?api=1&query=Fensterreinigung%20Weinert%20Maisacher%20Str.%2073%20F%C3%BCrstenfeldbruck",
       "rating": null,
       "reviews": null,
-      "evidence": "NICHT BELEGT – kein Google-Spiegel (rgv-bayern, trustlocal, firmania) zu ARICI Gebäudedienst gefunden. 11880 vermerkt „bisher keine Bewertungen“. In Google Maps prüfen, ob ein Eintrag existiert und ob dort eine Website hinterlegt ist."
+      "evidence": "NICHT BELEGT – kein Google-Spiegel (trustlocal/firmania/rgv-bayern) gefunden. Ein 11880-Sammelsnippet nannte für „Fensterreinigung Fa. Weinert“ eine gmail.com-Adresse, die konkrete Adresse war in keinem Snippet sichtbar und eine Nachsuche fand keine E-Mail – daher nicht übernommen. In Maps prüfen."
     },
     "myhammer": {
-      "url": "https://www.11880.com/branchenbuch/gilching/061331911B108655466/arici-gebaeudedienst.html",
+      "url": "https://www.11880.com/suche/fensterreinigung/emmering",
       "rating": null,
       "reviews": null,
-      "evidence": "Kein MyHammer gefunden – Eintrag bei 11880 (Gebäudereinigung, Herrschinger Weg 10, Gilching, Tel. 01573 1033701; in Ortslisten auch als Hausmeisterservice & Gebäudereinigung), bayregio.de (Nezih Arici, Gutenbergstr. 5, Gilching, Gründung 2019) und Auftragsgesuche auf auftragsbank.de (Glas-, Bau- und Treppenhausreinigung)."
+      "evidence": "Kein MyHammer gefunden – Eintrag „Fensterreinigung Fa. Weinert“ (Fensterreinigung & Glasreinigung, Maisacher Str. 73, (08141) 43465) in den 11880-Ortslisten Fensterreiniger Emmering/Olching/Eresing; zusätzlich Kleinanzeigen-Inserat „Fensterreinigung Weinert – seit über 30 Jahren in Fürstenfeldbruck“ (Anbieter Norbert Weinert)."
     }
   },
   "websiteStatus": "keine eigene Website gefunden",
   "websiteChecks": [
-    "(1) „ARICI Gebäudedienst Gilching“ mit blocked_domains (11880, Gelbe Seiten, Das Örtliche, Telefonbuch, Cylex, meinestadt, Creditreform, Facebook, Instagram, golocal, MyHammer, Northdata, Firmenwissen, WKDB, Yelp, trustlocal, wlw) – nur bayregio.de, auftragsbank.de und gilching24.de; keine eigene Domain",
-    "(2) Domain-Check allowed_domains arici-gebaeudedienst.de, arici-gebaudedienst.de, aricigebaeudedienst.de, arici-reinigung.de, arici-gilching.de, arici-service.de, arici-facility.de, arici.de – keine Treffer",
-    "(3) Telefon-/E-Mail-Suche „01573 1033701“/„015731033701“ – Nummer nirgends außer 11880; auftragsbank zeigt E-Mail nur verschleiert; ein Gesuch von „Herr Arici“ (Gilching, 2023) nennt zusätzlich 0152-14565425",
-    "(4) Impressum-Suche „Impressum Nezih Arici Gilching“ – kein Impressum gefunden",
-    "Website-Risiko: mittel – alle Prüfungen negativ, aber weder Google-Eintrag noch Freemail belegt (RESERVE)"
+    "(1) „Fensterreinigung Weinert Fürstenfeldbruck“ mit blocked_domains (11880, Gelbe Seiten, Das Örtliche, Telefonbuch, Cylex, meinestadt, Creditreform, Facebook, Instagram, golocal, MyHammer, Northdata, Firmenwissen, WKDB, Yelp, trustlocal, wlw) – nur Kleinanzeigen-Inserate (Norbert Weinert, „ich arbeite allein“) und Websites anderer Reinigungsfirmen (Mr. Cleaner, TSC, Blitz Sauber, Reischl, NT, MIF) – keine eigene Domain",
+    "(2) Domain-Check allowed_domains fensterreinigung-weinert.de, weinert-fensterreinigung.de, fensterreinigung-weinert-ffb.de, weinert-ffb.de – keine Treffer",
+    "(3) 11880-Nachsuche Name + Adresse – nur Eintrag mit Festnetz, kein Website-Feld, keine E-Mail sichtbar",
+    "Nicht durchgeführt (Budget): Telefonnummer-Suche „08141 43465“, Impressum-Suche",
+    "Website-Risiko: mittel – Prüfungen negativ, aber weder Google-Eintrag noch Freemail sicher belegt"
   ],
   "facts": {
     "services": [
-      "Gebäudereinigung",
-      "Treppenhausreinigung",
-      "Glasreinigung",
-      "Bauendreinigung",
-      "Hausmeisterservice"
+      "Fensterreinigung",
+      "Glasreinigung"
     ],
-    "experience": "Gründung 2019 (laut bayregio.de/auftragsbank.de)",
+    "experience": "laut Kleinanzeigen-Inserat seit über 30 Jahren in Fürstenfeldbruck tätig",
     "praisedFor": []
   },
   "strategy": {
-    "audience": "Hausverwaltungen, Eigentümergemeinschaften, Vermieter und Gewerbebetriebe in Gilching, Argelsried, Weßling und Germering, die regelmäßige Treppenhaus-, Glas- oder Bauendreinigung brauchen",
-    "mainService": "Treppenhaus- und Gebäudereinigung im Unterhalt",
-    "trustSignal": "Inhabergeführter Reinigungsbetrieb aus Gilching, direkt per Handy erreichbar",
-    "conversionGoal": "Unverbindliches Reinigungsangebot anfragen (Objektart, Fläche, Turnus)",
-    "visualConcept": "Klar und frisch: glänzende Glasflächen, saubere Treppenhäuser, helles Weiß mit kühlem Akzent – ordentlich und verlässlich"
+    "audience": "Hausbesitzer, Wohnungseigentümer, Praxen und kleine Läden in Fürstenfeldbruck und Emmering, die saubere Fenster ohne wechselnde Putzkolonnen wollen",
+    "mainService": "Fenster- und Glasreinigung für Privat und Gewerbe",
+    "trustSignal": "Seit über 30 Jahren in Fürstenfeldbruck – Inhaber arbeitet selbst, ohne wechselnde Kräfte",
+    "conversionGoal": "Termin für Fensterreinigung per Anruf oder Formular anfragen",
+    "visualConcept": "Klar, hell, viel Weißraum: streifenfreie Scheiben, Lichtreflexe, Altbau- und Neubaufenster in Fürstenfeldbruck"
   },
   "sales": {
-    "score": 3,
+    "score": 4,
     "whyGoodLead": [
-      "Keine eigene Website gefunden – nur Verzeichnisse und Auftragsgesuche",
-      "Mobilnummer öffentlich gelistet – WhatsApp-Erstkontakt möglich",
-      "Betrieb sucht aktiv Aufträge (Gesuche auf auftragsbank.de) – Website liefert genau das",
-      "Gewerbegebiet Gilching/Argelsried bietet viele Objekte für Unterhaltsreinigung"
+      "Keine eigene Website gefunden – nur Verzeichniseintrag und Kleinanzeigen-Inserat",
+      "Einzelunternehmer mit langer Ortsbindung – persönliche Vertrauensbotschaft ideal für eine kleine Website",
+      "Fensterreinigung wird lokal und wiederkehrend gesucht – Website bringt Stammkunden",
+      "Bisher seltenes Gewerk Reinigung in der Lead-Liste"
     ],
-    "pitch": "Hallo Herr Arici, hier ist … – ich baue Websites für Handwerks- und Servicebetriebe im Landkreis Starnberg. Ich habe gesehen, dass Sie in Gilching Treppenhaus-, Glas- und Bauendreinigung anbieten, aber noch keine eigene Website haben. Ich habe unverbindlich einen Entwurf vorbereitet, über den Hausverwaltungen und Firmen direkt ein Angebot anfragen können – darf ich Ihnen den Link schicken?"
+    "pitch": "Guten Tag Herr Weinert, hier ist … – ich baue Websites für Betriebe im Landkreis Fürstenfeldbruck. Ich habe Ihre Fensterreinigung in Fürstenfeldbruck gefunden, aber keine eigene Website. Ich habe unverbindlich einen Entwurf vorbereitet, der zeigt, dass Sie seit über 30 Jahren selbst putzen – darf ich Ihnen den Link schicken?"
   },
   "manualChecks": [
     "RESERVE – weder Google-Eintrag noch Freemail-Adresse belegt: NUR versenden, wenn Google Maps einen Eintrag OHNE Website zeigt.",
-    "Zwei Adressen: Herrschinger Weg 10 (11880) und Gutenbergstr. 5 (bayregio) – aktuelle Adresse klären",
-    "Zwei Mobilnummern: 01573 1033701 (11880) und 0152-14565425 (auftragsbank-Gesuch „Herr Arici“, 2023) – vor Kontakt klären, welche gilt",
-    "Prüfen, ob der Betrieb noch aktiv ist (Gesuche ab 2021, letzter Hinweis 2024)",
-    "Leistungen nur grob belegt (Treppenhaus-, Glas-, Bauendreinigung, Hausmeister/Objektpflege) – Winterdienst, Grünpflege etc. nicht belegt, beim Betrieb erfragen",
+    "Nur Festnetz 08141 43465 belegt – kein WhatsApp; Erstkontakt per Anruf oder Brief",
+    "11880-Sammelsnippet erwähnte eine gmail-Adresse – im 11880-Eintrag nachsehen und nur bei sichtbarer Adresse übernehmen",
+    "Kleinanzeigen-Inserat öffnen: Aktualität, Inhabername Norbert Weinert und Leistungen (z. B. Rahmen, Wintergärten) bestätigen",
+    "„Seit über 30 Jahren“ stammt aus dem Inserat – vor Verwendung auf der Website bestätigen",
     "Logo und Fotos: nicht gefunden – beim Betrieb anfragen"
   ],
   "sources": [
     {
-      "label": "11880 – ARICI Gebäudedienst Gilching",
-      "url": "https://www.11880.com/branchenbuch/gilching/061331911B108655466/arici-gebaeudedienst.html"
+      "label": "11880 – Fensterreiniger Emmering (Liste mit Fensterreinigung Fa. Weinert)",
+      "url": "https://www.11880.com/suche/fensterreinigung/emmering"
     },
     {
-      "label": "11880 – Gebäudereinigungen Gilching (Liste)",
-      "url": "https://www.11880.com/suche/gebaeudereinigung/gilching"
+      "label": "11880 – Fensterreiniger Olching (Liste mit Fensterreinigung Fa. Weinert)",
+      "url": "https://www.11880.com/suche/fensterreinigung/olching"
     },
     {
-      "label": "bayregio – ARICI Gebäudedienst in Gilching",
-      "url": "https://www.bayregio.de/verzeichnis/detail.php?eintrag=8234"
-    },
-    {
-      "label": "auftragsbank – Gesuch ARICI Gebäudedienst",
-      "url": "https://www.auftragsbank.de/gesuche/arici-gebaeudedienst/92805"
-    },
-    {
-      "label": "auftragsbank – Firmenprofil ARICI Gebäudedienst",
-      "url": "https://www.auftragsbank.de/firmen/arici-gebaeudedienst/42226"
+      "label": "Kleinanzeigen – Fensterputzer Bayern (Inserat Fensterreinigung Weinert)",
+      "url": "https://www.kleinanzeigen.de/s-dienstleistungen-haus-garten/bayern/fensterputzer/k0c239l5510"
     }
   ],
   "site": {
     "theme": "aqua",
     "category": "handwerk",
     "heroOffer": [
-      "Treppenhaus",
-      "Glasreinigung",
-      "Bauendreinigung",
-      "Unterhalt",
-      "Hausmeister"
+      "Fensterreinigung",
+      "Glasflächen",
+      "Rahmen",
+      "Wintergärten",
+      "Schaufenster"
     ],
     "scene": "facade",
     "logoIcon": "broom",
-    "logoMark": "AG",
-    "brandName": "ARICI Gebäudedienst",
-    "seoTitle": "Gebäudereinigung in Gilching – ARICI Gebäudedienst",
-    "seoDescription": "Treppenhaus-, Glas- und Bauendreinigung sowie Hausmeisterservice in Gilching und Umgebung. Jetzt unverbindlich Angebot anfragen.",
+    "logoMark": "FW",
+    "brandName": "Fensterreinigung Weinert",
+    "seoTitle": "Fensterreinigung in Fürstenfeldbruck – Weinert",
+    "seoDescription": "Fenster- und Glasreinigung in Fürstenfeldbruck und Umgebung – vom Inhaber selbst ausgeführt. Jetzt Termin anfragen.",
     "nav": [
-      { "label": "Leistungen", "href": "#leistungen" },
-      { "label": "Objekte", "href": "#projekte" },
-      { "label": "Bewertungen", "href": "#bewertungen" },
-      { "label": "Ablauf", "href": "#ablauf" },
-      { "label": "FAQ", "href": "#faq" },
-      { "label": "Kontakt", "href": "#kontakt" }
+      {
+        "label": "Leistungen",
+        "href": "#leistungen"
+      },
+      {
+        "label": "Projekte",
+        "href": "#projekte"
+      },
+      {
+        "label": "Bewertungen",
+        "href": "#bewertungen"
+      },
+      {
+        "label": "Ablauf",
+        "href": "#ablauf"
+      },
+      {
+        "label": "FAQ",
+        "href": "#faq"
+      },
+      {
+        "label": "Kontakt",
+        "href": "#kontakt"
+      }
     ],
     "hero": {
-      "eyebrow": "Gebäudereinigung · Gilching",
-      "headline": "Gebäudereinigung in Gilching",
-      "sub": "Treppenhäuser, Glasflächen und Baustellen – gründlich gereinigt im festen Turnus.",
-      "ctaPrimary": "Reinigungsangebot anfragen",
+      "eyebrow": "Fensterreinigung · Fürstenfeldbruck",
+      "headline": "Klare Fenster in Fürstenfeldbruck",
+      "sub": "Fenster- und Glasreinigung vom Inhaber selbst – seit über 30 Jahren vor Ort.",
+      "ctaPrimary": "Termin anfragen",
       "ctaSecondary": "Anrufen",
       "bullets": [
-        "Inhabergeführt aus Gilching",
-        "Einmalig oder regelmäßig",
-        "Direkt per Handy erreichbar"
+        "Inhaber putzt selbst",
+        "Seit über 30 Jahren in Fürstenfeldbruck",
+        "Privat und Gewerbe"
       ],
-      "imageLabel": "frisch gereinigtes, helles Treppenhaus mit glänzendem Geländer"
+      "imageLabel": "streifenfrei geputztes Sprossenfenster mit Lichtreflex"
     },
     "badges": [
-      { "title": "Treppenhaus", "sub": "im festen Turnus" },
-      { "title": "Glas", "sub": "Fenster & Eingänge" },
-      { "title": "Bauende", "sub": "bezugsfertig übergeben" },
-      { "title": "Gilching", "sub": "seit 2019" }
+      {
+        "title": "Fenster",
+        "sub": "innen & außen"
+      },
+      {
+        "title": "Glas",
+        "sub": "Türen & Flächen"
+      },
+      {
+        "title": "Persönlich",
+        "sub": "ohne wechselnde Kräfte"
+      },
+      {
+        "title": "Fürstenfeldbruck",
+        "sub": "Maisacher Straße"
+      }
     ],
     "trust": [
-      { "value": "2019", "label": "gegründet in Gilching" },
-      { "value": "5", "label": "Leistungsbereiche" },
-      { "value": "Turnus", "label": "wöchentlich bis einmalig" },
-      { "value": "Mobil", "label": "schnell erreichbar" }
+      {
+        "value": "30+",
+        "label": "Jahre in Fürstenfeldbruck"
+      },
+      {
+        "value": "1",
+        "label": "fester Ansprechpartner"
+      },
+      {
+        "value": "Privat",
+        "label": "und Gewerbe"
+      },
+      {
+        "value": "Vor Ort",
+        "label": "kurze Wege im Landkreis"
+      }
     ],
     "servicesIntro": {
-      "headline": "Saubere Objekte – vom Treppenhaus bis zur Glasfront",
-      "text": "ARICI Gebäudedienst übernimmt die laufende Reinigung von Wohn- und Gewerbeobjekten und packt nach Bau oder Renovierung mit an."
+      "headline": "Fenster- und Glasreinigung aus einer Hand",
+      "text": "Norbert Weinert reinigt Fenster und Glasflächen selbst – Sie haben jedes Mal denselben Ansprechpartner im Haus."
     },
     "services": [
       {
-        "title": "Treppenhausreinigung",
-        "text": "Stufen, Geländer, Eingangsbereich und Briefkastenanlage – regelmäßig gereinigt nach festem Plan.",
-        "items": ["Stufen & Podeste", "Geländer", "Eingangsbereich"]
+        "title": "Fensterreinigung",
+        "text": "Scheiben innen und außen streifenfrei geputzt – im Einfamilienhaus wie in der Etagenwohnung.",
+        "items": [
+          "Innen & außen",
+          "Sprossenfenster",
+          "Dachfenster"
+        ]
       },
       {
-        "title": "Glasreinigung",
-        "text": "Streifenfreie Fenster, Glastüren und Schaufenster für Wohnhäuser, Büros und Läden.",
-        "items": ["Fenster", "Glastüren", "Rahmen"]
+        "title": "Rahmen & Falze",
+        "text": "Rahmen, Falze und Fensterbänke werden mitgereinigt, damit das Ergebnis rundum stimmt.",
+        "items": [
+          "Rahmen",
+          "Falze",
+          "Fensterbänke"
+        ]
       },
       {
-        "title": "Bauendreinigung",
-        "text": "Nach Neubau oder Renovierung: Staub, Farbreste und Schmutz raus – Räume bezugsfertig übergeben.",
-        "items": ["Grobreinigung", "Feinreinigung", "Übergabe"]
+        "title": "Glastüren",
+        "text": "Terrassen-, Balkon- und Haustüren aus Glas ohne Schlieren und Fingerabdrücke.",
+        "items": [
+          "Terrassentüren",
+          "Balkontüren",
+          "Glaseinsätze"
+        ]
       },
       {
-        "title": "Unterhaltsreinigung",
-        "text": "Laufende Reinigung von Büros und Gemeinschaftsflächen im vereinbarten Rhythmus.",
-        "items": ["Büros", "Gemeinschaftsflächen", "Fester Turnus"]
+        "title": "Wintergärten",
+        "text": "Große Glasflächen und Wintergärten wieder klar – für mehr Licht im Haus.",
+        "items": [
+          "Glasdach",
+          "Seitenwände",
+          "Rahmen"
+        ]
       },
       {
-        "title": "Hausmeisterservice",
-        "text": "Kleine Kontrollgänge und Objektpflege rund ums Haus – ein Ansprechpartner für Reinigung und Betreuung.",
-        "items": ["Objektkontrolle", "Kleinere Arbeiten", "Ansprechpartner"]
+        "title": "Schaufenster",
+        "text": "Saubere Schaufenster und Eingangstüren für Läden, Praxen und Büros in Fürstenfeldbruck.",
+        "items": [
+          "Schaufenster",
+          "Eingangstüren",
+          "Praxen"
+        ]
       },
       {
-        "title": "Einzelaufträge",
-        "text": "Auch einmalige Reinigungen, etwa vor Übergabe oder nach Auszug, auf Anfrage.",
-        "items": ["Auszug", "Übergabe", "Sonderreinigung"]
+        "title": "Regelmäßige Termine",
+        "text": "Feste Intervalle vereinbaren – Ihre Fenster werden geputzt, ohne dass Sie daran denken müssen.",
+        "items": [
+          "Frühjahr & Herbst",
+          "Monatlich",
+          "Nach Absprache"
+        ]
       }
     ],
     "why": {
-      "headline": "Reinigung aus Gilching – verlässlich und direkt.",
+      "headline": "Ein Fensterputzer, den man kennt.",
       "points": [
-        { "title": "Kurze Wege", "text": "Sitz in Gilching – schnell in Argelsried, Weßling, Germering und Gauting." },
-        { "title": "Fester Ansprechpartner", "text": "Sie sprechen direkt mit dem Inhaber, nicht mit einer Zentrale." },
-        { "title": "Flexibler Turnus", "text": "Wöchentlich, vierzehntägig oder einmalig – nach Bedarf des Objekts." },
-        { "title": "Vom Bau bis zum Unterhalt", "text": "Bauendreinigung und laufende Pflege aus einer Hand." }
+        {
+          "title": "Inhaber vor Ort",
+          "text": "Herr Weinert arbeitet allein – keine wechselnden Kräfte in Ihrer Wohnung."
+        },
+        {
+          "title": "Lange Ortskenntnis",
+          "text": "Seit über 30 Jahren in Fürstenfeldbruck unterwegs."
+        },
+        {
+          "title": "Kurze Wege",
+          "text": "Von der Maisacher Straße schnell in Emmering, Maisach und Olching."
+        },
+        {
+          "title": "Privat & Gewerbe",
+          "text": "Vom Wohnhaus bis zum Ladengeschäft – Fenster und Glas aus einer Hand."
+        }
       ]
     },
     "reviews": {
       "headline": "Was Kunden sagen",
       "summary": "Kundenstimmen werden hier eingebunden, sobald sie aus dem Google-Profil übernommen sind.",
       "highlights": [
-        "Treppenhausreinigung in Gilching",
-        "Glas- und Bauendreinigung",
-        "Direkter Kontakt"
+        "Fensterreinigung in Fürstenfeldbruck",
+        "Persönlicher Ansprechpartner",
+        "Privat und Gewerbe"
       ],
       "source": "Google",
-      "sourceUrl": "https://www.google.com/maps/search/?api=1&query=ARICI%20Geb%C3%A4udedienst%20Gilching",
+      "sourceUrl": "https://www.google.com/maps/search/?api=1&query=Fensterreinigung%20Weinert%20Maisacher%20Str.%2073%20F%C3%BCrstenfeldbruck",
       "rating": null,
       "count": null
     },
     "process": {
-      "headline": "In vier Schritten zum sauberen Objekt",
+      "headline": "So kommen Sie zu klaren Fenstern",
       "steps": [
-        { "title": "Anfrage", "text": "Objektart, ungefähre Fläche und gewünschten Turnus per Anruf oder WhatsApp nennen." },
-        { "title": "Besichtigung", "text": "Umfang und Besonderheiten werden vor Ort angeschaut." },
-        { "title": "Angebot", "text": "Sie erhalten ein klares Angebot mit Leistungsumfang und Rhythmus." },
-        { "title": "Start", "text": "Die Reinigung beginnt zum vereinbarten Termin – zuverlässig im Turnus." }
+        {
+          "title": "Anfrage",
+          "text": "Kurz anrufen oder das Formular nutzen – Anzahl und Art der Fenster genügen."
+        },
+        {
+          "title": "Einschätzung",
+          "text": "Umfang und Zugänglichkeit werden besprochen, bei Bedarf vor Ort."
+        },
+        {
+          "title": "Termin",
+          "text": "Sie bekommen einen festen Termin – auf Wunsch auch regelmäßig."
+        },
+        {
+          "title": "Reinigung",
+          "text": "Scheiben, Rahmen und Fensterbänke werden sauber übergeben."
+        }
       ]
     },
     "gallery": {
-      "headline": "Objekte, die glänzen",
-      "text": "Für die Live-Version zeigen wir hier echte Einsätze des Betriebs.",
+      "headline": "Durchblick, der überzeugt",
+      "text": "Für die Live-Version zeigen wir hier echte Aufnahmen aus Kundenaufträgen.",
       "items": [
-        { "title": "Treppenhaus", "photoNeeded": "gereinigtes Treppenhaus eines Mehrfamilienhauses" },
-        { "title": "Glasfront", "photoNeeded": "streifenfreie Glastür oder Schaufenster" },
-        { "title": "Nach dem Bau", "photoNeeded": "bezugsfertiger Raum nach Bauendreinigung" },
-        { "title": "Büroflächen", "photoNeeded": "aufgeräumtes, gereinigtes Büro" },
-        { "title": "Eingangsbereich", "photoNeeded": "sauberer Hauseingang mit Briefkastenanlage" }
+        {
+          "title": "Sprossenfenster",
+          "photoNeeded": "geputztes Sprossenfenster an einem Altbau"
+        },
+        {
+          "title": "Terrassentür",
+          "photoNeeded": "große Glasschiebetür ohne Schlieren"
+        },
+        {
+          "title": "Wintergarten",
+          "photoNeeded": "heller Wintergarten mit klaren Glasflächen"
+        },
+        {
+          "title": "Schaufenster",
+          "photoNeeded": "sauberes Ladenschaufenster in der Innenstadt"
+        },
+        {
+          "title": "Dachfenster",
+          "photoNeeded": "gereinigtes Dachflächenfenster von innen"
+        }
       ]
     },
     "region": {
-      "headline": "Gebäudereinigung für Gilching und das Würmtal",
-      "text": "Von Gilching aus im Einsatz in Argelsried, Weßling, Germering, Gauting und Starnberg.",
-      "places": ["Gilching", "Argelsried", "Weßling", "Germering", "Gauting", "Starnberg"]
+      "headline": "Fensterreinigung für Fürstenfeldbruck und Umgebung",
+      "text": "Von Fürstenfeldbruck aus in Emmering, Maisach, Olching, Puchheim und Germering.",
+      "places": [
+        "Fürstenfeldbruck",
+        "Emmering",
+        "Maisach",
+        "Olching",
+        "Puchheim",
+        "Germering"
+      ]
     },
     "faq": [
-      { "q": "Reinigen Sie auch nur einmalig?", "a": "Ja, neben regelmäßiger Reinigung sind auch Einzelaufträge möglich – fragen Sie einfach an." },
-      { "q": "Übernehmen Sie Bauendreinigungen?", "a": "Ja, nach Neubau oder Renovierung wird das Objekt bezugsfertig gereinigt." },
-      { "q": "Wie oft wird das Treppenhaus gereinigt?", "a": "Der Turnus richtet sich nach Ihrem Objekt und wird im Angebot festgelegt." },
-      { "q": "Wie kommt ein Angebot zustande?", "a": "Nach einer kurzen Anfrage und Besichtigung erhalten Sie ein Angebot mit Leistungsumfang." },
-      { "q": "Arbeiten Sie auch außerhalb von Gilching?", "a": "Ja, im Umkreis von Gilching – nennen Sie einfach den Ort Ihres Objekts." }
+      {
+        "q": "Putzen Sie Fenster innen und außen?",
+        "a": "Ja, Scheiben werden innen und außen gereinigt, Rahmen und Fensterbänke nach Absprache mit."
+      },
+      {
+        "q": "Kommt immer dieselbe Person?",
+        "a": "Ja, Herr Weinert arbeitet allein und übernimmt die Aufträge selbst."
+      },
+      {
+        "q": "Reinigen Sie auch für Geschäfte und Praxen?",
+        "a": "Ja, auch Schaufenster und Glastüren von Gewerbekunden – fragen Sie einfach an."
+      },
+      {
+        "q": "Sind regelmäßige Termine möglich?",
+        "a": "Ja, feste Intervalle lassen sich gerne vereinbaren."
+      },
+      {
+        "q": "Wie bekomme ich einen Preis?",
+        "a": "Nennen Sie Anzahl und Art der Fenster – Sie erhalten dann eine Einschätzung."
+      }
     ],
     "contact": {
-      "headline": "Ihr Reinigungsangebot – unverbindlich",
-      "text": "Nennen Sie kurz Objektart, ungefähre Fläche und gewünschten Turnus. Dann meldet sich ARICI Gebäudedienst mit einem Vorschlag.",
-      "topics": ["Treppenhausreinigung", "Glasreinigung", "Bauendreinigung", "Unterhaltsreinigung", "Hausmeisterservice", "Sonstiges"],
-      "responseNote": "Besichtigung nach Absprache."
+      "headline": "Termin für Ihre Fensterreinigung",
+      "text": "Nennen Sie kurz Ort, ungefähre Fensteranzahl und besondere Flächen wie Wintergarten oder Dachfenster.",
+      "topics": [
+        "Fensterreinigung",
+        "Glastüren",
+        "Wintergarten",
+        "Schaufenster",
+        "Regelmäßige Termine",
+        "Sonstiges"
+      ],
+      "responseNote": "Rückruf nach Absprache."
     },
     "quote": {
-      "sizeLabel": "Welches Objekt soll gereinigt werden?",
-      "sizes": ["Treppenhaus", "Wohnung / Haus", "Büro / Gewerbe", "Baustelle"],
-      "timings": ["Einmalig", "Wöchentlich", "Alle 2 Wochen", "Monatlich"]
+      "sizeLabel": "Wie viele Fenster?",
+      "sizes": [
+        "Wohnung",
+        "Einfamilienhaus",
+        "Ladengeschäft/Praxis",
+        "Größeres Objekt"
+      ],
+      "timings": [
+        "So bald wie möglich",
+        "In den nächsten Wochen",
+        "Regelmäßig",
+        "Ich plane erst noch"
+      ]
     },
-    "stickyCta": "Angebot anfragen",
+    "stickyCta": "Termin anfragen",
     "look": {
-      "palette": 2,
-      "font": 6,
-      "hero": 0,
+      "palette": 0,
+      "font": 7,
+      "hero": 3,
       "services": 1,
-      "radius": 1,
-      "logo": 0,
-      "intro": 5
+      "radius": 3,
+      "logo": 3,
+      "intro": 2
     }
   }
 }

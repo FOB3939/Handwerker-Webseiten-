@@ -205,6 +205,15 @@ export const PLACES: Record<string, [number, number]> = {
   "Weilheim in Oberbayern": [47.84, 11.14],
   "Wielenbach": [47.88, 11.16],
   "Wulfertshausen": [48.37, 10.98],
+  "Baldham": [48.118, 11.79],
+  "Grasbrunn": [48.08, 11.745],
+  "Kranzberg": [48.405, 11.62],
+  "Lerchenfeld": [48.39, 11.74],
+  "Marzling": [48.41, 11.79],
+  "Parsdorf": [48.15, 11.79],
+  "Röhrmoos": [48.33, 11.45],
+  "Seehausen am Staffelsee": [47.69, 11.18],
+  "Zorneding": [48.085, 11.83],
 };
 
 // Grobe Seeumrisse als Ellipsen: [lat, lon, Halbachse Nord-Süd in Grad, Halbachse Ost-West in Grad]

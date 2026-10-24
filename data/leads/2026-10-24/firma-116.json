@@ -1,111 +1,118 @@
 {
   "id": "2026-10-24-116",
-  "slug": "lars-urbanski-fliesenleger-berg",
+  "slug": "malerbetrieb-dinkelmaier-planegg",
   "date": "2026-10-24",
   "company": {
-    "name": "Lars Urbanski Fliesenleger",
-    "owner": "Lars Urbanski",
-    "trade": "Fliesenleger",
-    "city": "Berg (Starnberger See)",
-    "address": "Bachstr. 10, 82335 Berg (Farchach)",
-    "phone": "0172 7789655",
+    "name": "Ulrich Dinkelmaier Malerbetrieb",
+    "owner": "Ulrich R. Dinkelmaier",
+    "trade": "Malerbetrieb",
+    "city": "Planegg",
+    "address": "Enzianweg 3, 82152 Planegg",
+    "phone": "089 8596102",
     "email": null,
     "serviceArea": [
-      "Berg",
-      "Farchach",
-      "Starnberg",
-      "Pöcking",
-      "Tutzing",
-      "Münsing"
+      "Planegg",
+      "Krailling",
+      "Martinsried",
+      "Gräfelfing",
+      "Stockdorf",
+      "Gauting"
     ]
   },
   "listings": {
     "google": {
-      "url": "https://www.google.com/maps/search/?api=1&query=Lars%20Urbanski%20Fliesenleger%20Bachstr.%2010%20Berg",
+      "url": "https://www.google.com/maps/search/?api=1&query=Ulrich%20Dinkelmaier%20Malerbetrieb%20Enzianweg%203%20Planegg",
       "rating": null,
       "reviews": null,
-      "evidence": "NICHT BELEGT – kein Google-Spiegel (rgv-bayern, firmania, trustlocal) gefunden, keine Freemail. Nur Verzeichniseinträge (11880, fliesenleger24.com)."
+      "evidence": "NICHT BELEGT – kein Google-Spiegel (rgv-bayern, trustlocal, firmania) mit Eintrag zum Betrieb gefunden, keine Bewertungen in den Verzeichnissen. In Google Maps prüfen, ob ein Eintrag existiert und ob dort eine Website hinterlegt ist."
     },
     "myhammer": {
-      "url": "https://www.11880.com/branchenbuch/berg-starnberger-see/060691660B102116517/lars-urbanski-fliesenleger.html",
+      "url": "https://www.11880.com/suche/maler/planegg",
       "rating": null,
       "reviews": null,
-      "evidence": "Kein MyHammer gefunden – 11880-Eintrag „Lars Urbanski Fliesenleger“, Bachstr. 10, 82335 Berg (Farchach), 0172 7789655 (Stand laut Seite 03.10.2026); außerdem in fliesenleger24.com-Ortslisten Pöcking und Tutzing."
+      "evidence": "Kein MyHammer gefunden – Eintrag „Ulrich Dinkelmaier Malerbetrieb“ in der 11880-Liste Maler Planegg (Enzianweg 3, (089) 8596102), dazu maler-und-lackierer.com, misterwhat.de („Maler, Malermeister“), mux.de und branchen-info.net (dort unter Krailling, Enzianweg 3)."
     }
   },
   "websiteStatus": "keine eigene Website gefunden",
   "websiteChecks": [
-    "(1) „Lars Urbanski Fliesenleger Berg“ mit blocked_domains (11880, Gelbe Seiten, Das Örtliche, Telefonbuch, Cylex, meinestadt, Creditreform, Facebook, Instagram, golocal, MyHammer, Northdata, Firmenwissen, WKDB, Yelp, trustlocal, wlw) – nur fliesenleger24.com-Listen; Namensvetter an der Uni Mannheim (andere Person); keine eigene Domain",
-    "(2) Domain-Check allowed_domains urbanski-fliesen.de, fliesen-urbanski.de, urbanski.de, fliesenleger-urbanski.de, urbanski-fliesenleger.de, lars-urbanski.de, fliesen-urbanski-berg.de, larsurbanski.de – nur urbanski.de = Privatseite Axel Urbanski, kein Bezug",
-    "(3) Telefonsuche „0172 7789655“/„01727789655“ – keine Treffer",
-    "(4) Impressum-/Bewertungssuche „Urbanski Fliesen Farchach/Berg Starnberg“ – kein Impressum, keine Bewertungen",
-    "Website-Risiko: niedrig – keinerlei Web-Präsenz außer Verzeichnissen; aber Google-Eintrag nicht belegt (RESERVE)"
+    "(1) „Ulrich Dinkelmaier Malerbetrieb Planegg“ mit blocked_domains (11880, Gelbe Seiten, Das Örtliche, Telefonbuch, Cylex, meinestadt, Creditreform, Facebook, Instagram, golocal, MyHammer, Northdata, Firmenwissen, WKDB, Yelp, trustlocal, wlw) – nur Verzeichnisse (mux.de, maler-und-lackierer.com, misterwhat.de, branchen-info.net, unser-wuermtal.de, branchenbuch-bayern.de); keine eigene Domain",
+    "(2) Domain-Check allowed_domains dinkelmaier.de, maler-dinkelmaier.de, malerbetrieb-dinkelmaier.de, dinkelmaier-maler.de, malermeister-dinkelmaier.de, dinkelmaier-malerbetrieb.de, ulrich-dinkelmaier.de, dinkelmaier-planegg.de – keine Treffer",
+    "(3) Telefonsuche „089 8596102“/„0898596102“/„089 85 96 102“ – keine Treffer, keine Website",
+    "(4) Impressum-Suche „Impressum Dinkelmaier Malermeister Planegg Krailling“ – kein Impressum, nur Verzeichnislisten; Patricia Dinkelmaier (Friseur, gleiche Adresse, andere Nummer) ist kein Malerbetrieb mit Website",
+    "Website-Risiko: mittel – alle Prüfungen negativ, aber weder Google-Eintrag noch Freemail belegt (RESERVE); Verzeichnisdaten teils ~3 Jahre alt"
   ],
   "facts": {
     "services": [
-      "Fliesenverlegung"
+      "Malerarbeiten",
+      "Lackierarbeiten",
+      "Anstrich innen und außen"
     ],
-    "experience": null,
+    "experience": "Malermeister (laut misterwhat.de/maler-und-lackierer.com)",
     "praisedFor": []
   },
   "strategy": {
-    "audience": "Hausbesitzer und Vermieter in Berg, Starnberg, Pöcking und Tutzing, die Bad, Küche oder Böden neu fliesen lassen wollen",
-    "mainService": "Fliesenarbeiten für Bad, Küche und Boden",
-    "trustSignal": "Fliesenleger aus Berg, direkt per Handy erreichbar",
-    "conversionGoal": "Angebot für Fliesenarbeiten anfragen (per WhatsApp/Anruf mit Fotos)",
-    "visualConcept": "Helle, ruhige Seeoptik: großformatige Fliesen, saubere Fugen, Licht vom Starnberger See"
+    "audience": "Hauseigentümer, Mieter und Vermieter in Planegg, Krailling, Martinsried und Gräfelfing, die Wohnräume, Treppenhäuser oder Fassaden streichen lassen wollen",
+    "mainService": "Malerarbeiten innen – Wände, Decken und Lackierungen",
+    "trustSignal": "Meisterbetrieb im Würmtal, persönlich vom Malermeister geführt",
+    "conversionGoal": "Kostenloses Angebot für Malerarbeiten anfragen (Anruf oder Formular mit Fotos)",
+    "visualConcept": "Ruhig und handwerklich: frisch gestrichene, helle Wände, Farbrolle und Abklebeband, warme Akzentfarbe – sorgfältig und meisterlich"
   },
   "sales": {
     "score": 3,
     "whyGoodLead": [
       "Keine eigene Website gefunden – nur Verzeichniseinträge",
-      "Mobilnummer öffentlich gelistet – ideal für WhatsApp-Erstkontakt",
-      "Zahlungskräftige Region am Starnberger See mit hoher Nachfrage nach Badsanierung",
-      "Kaum Online-Sichtbarkeit – jede Präsenz bringt sofort Vorsprung"
+      "Meisterbetrieb im kaufkräftigen Würmtal (Planegg/Krailling/Martinsried)",
+      "Keine sichtbaren Bewertungen – Website und Google-Profil schaffen Vertrauen",
+      "Kaum Online-Präsenz, Konkurrenz am Ort teils mit Websites"
     ],
-    "pitch": "Hallo Herr Urbanski, hier ist … – ich baue Websites für Handwerker rund um den Starnberger See. Ich habe Ihren Eintrag als Fliesenleger in Berg gefunden, aber keine eigene Website. Ich habe unverbindlich einen Entwurf vorbereitet, auf dem Kunden Ihre Fliesenarbeiten sehen und direkt per WhatsApp anfragen können – darf ich Ihnen den Link schicken?"
+    "pitch": "Guten Tag Herr Dinkelmaier, hier ist … – ich baue Websites für Handwerksbetriebe im Würmtal. Ihren Malerbetrieb in Planegg habe ich in mehreren Verzeichnissen gefunden, aber keine eigene Website. Ich habe unverbindlich einen Entwurf vorbereitet, auf dem Kunden aus Planegg und Krailling Ihre Malerarbeiten sehen und direkt anfragen können – darf ich Ihnen den Link schicken?"
   },
   "manualChecks": [
     "RESERVE – weder Google-Eintrag noch Freemail-Adresse belegt: NUR versenden, wenn Google Maps einen Eintrag OHNE Website zeigt.",
-    "Prüfen, ob der Betrieb noch aktiv ist (Einträge teils älter, 11880 zeigt „geschlossen“ – vermutlich nur Öffnungszeit)",
-    "Leistungen nur als „Fliesenleger“ belegt – Detailleistungen (Bad, Naturstein, Abdichtung) beim Betrieb bestätigen",
-    "Keine E-Mail gefunden – Erstkontakt per WhatsApp/Anruf an 0172 7789655",
+    "Prüfen, ob der Betrieb noch aktiv ist (Verzeichnisdaten teils ~3 Jahre alt, keine Öffnungszeiten hinterlegt)",
+    "Nur Festnetznummer (089 8596102) belegt, keine Mobilnummer und keine E-Mail – Erstkontakt telefonisch",
+    "Ortsangabe uneinheitlich: Planegg (11880, misterwhat) bzw. Krailling (branchen-info) – beide 82152, im Gespräch klären",
+    "Leistungen nur als Maler/Lackierer belegt – Fassade, Tapezieren, Spachteltechniken beim Betrieb bestätigen",
     "Logo und Projektfotos: nicht gefunden – beim Betrieb anfragen"
   ],
   "sources": [
     {
-      "label": "11880 – Lars Urbanski Fliesenleger Berg",
-      "url": "https://www.11880.com/branchenbuch/berg-starnberger-see/060691660B102116517/lars-urbanski-fliesenleger.html"
+      "label": "11880 – Maler Planegg (Liste mit Ulrich Dinkelmaier Malerbetrieb)",
+      "url": "https://www.11880.com/suche/maler/planegg"
     },
     {
-      "label": "11880 – Fliesenleger Berg (Liste)",
-      "url": "https://www.11880.com/suche/fliesenleger/berg"
+      "label": "maler-und-lackierer.com – Ulrich Dinkelmaier Malerbetrieb Planegg",
+      "url": "https://www.maler-und-lackierer.com/anbieter/planegg/ulrich-dinkelmaier-malerbetrieb/"
     },
     {
-      "label": "fliesenleger24 – Ortsliste Pöcking (mit Lars Urbanski)",
-      "url": "https://www.fliesenleger24.com/stadt/poecking/profil/gs-raumklang/"
+      "label": "misterwhat – Dinkelmaier Ulrich R., Maler, Malermeister",
+      "url": "https://www.misterwhat.de/company/752310-dinkelmaier-ulrich-r-planegg"
     },
     {
-      "label": "fliesenleger24 – Ortsliste Tutzing (mit Lars Urbanski)",
-      "url": "https://www.fliesenleger24.com/stadt/tutzing/profil/s-g-markovic-sanitaer-u-heizungsvertrieb-hausmeisterei/"
+      "label": "mux.de – Ulrich R. Dinkelmaier, Enzianweg",
+      "url": "https://www.mux.de/Ulrich-R-Dinkelmaier-Enzianweg"
+    },
+    {
+      "label": "branchen-info.net – Dinkelmaier Ulrich R. Malermeister, Krailling",
+      "url": "https://krailling.branchen-info.net/fp_3655062.php"
     }
   ],
   "site": {
-    "theme": "aqua",
+    "theme": "atelier",
     "category": "handwerk",
     "heroOffer": [
-      "Bodenfliesen",
-      "Wandfliesen",
-      "Badfliesen",
-      "Küchenspiegel",
-      "Reparaturen"
+      "Innenanstrich",
+      "Lackierarbeiten",
+      "Fassade",
+      "Treppenhaus",
+      "Renovierung"
     ],
-    "scene": "bath",
-    "logoIcon": "trowel",
-    "logoMark": "LU",
-    "brandName": "Fliesen Urbanski",
-    "seoTitle": "Fliesenleger in Berg am Starnberger See – Lars Urbanski",
-    "seoDescription": "Fliesenarbeiten für Bad, Küche und Boden in Berg, Starnberg und Umgebung. Jetzt Angebot anfragen – auch per WhatsApp.",
+    "scene": "paint",
+    "logoIcon": "roller",
+    "logoMark": "UD",
+    "brandName": "Malerbetrieb Dinkelmaier",
+    "seoTitle": "Malermeister in Planegg – Malerbetrieb Dinkelmaier",
+    "seoDescription": "Malerarbeiten und Lackierungen in Planegg, Krailling und dem Würmtal. Jetzt kostenloses Angebot beim Malermeister anfragen.",
     "nav": [
       {
         "label": "Leistungen",
@@ -133,132 +140,132 @@
       }
     ],
     "hero": {
-      "eyebrow": "Fliesenleger · Berg",
-      "headline": "Ihr Fliesenleger in Berg",
-      "sub": "Fliesen für Bad, Küche und Boden – verlegt am Starnberger See.",
-      "ctaPrimary": "Angebot anfragen",
+      "eyebrow": "Malermeister · Planegg",
+      "headline": "Ihr Malermeister in Planegg",
+      "sub": "Saubere Anstriche und Lackierungen für Wohnungen und Häuser im Würmtal.",
+      "ctaPrimary": "Kostenloses Angebot anfragen",
       "ctaSecondary": "Anrufen",
       "bullets": [
-        "Fliesenleger aus Berg-Farchach",
-        "Bad, Küche, Boden",
-        "Direkt per Handy erreichbar"
+        "Meisterbetrieb aus Planegg",
+        "Innen- und Außenanstrich",
+        "Persönlich vom Inhaber betreut"
       ],
-      "imageLabel": "frisch gefliestes, helles Badezimmer"
+      "imageLabel": "frisch gestrichene, helle Wohnzimmerwand mit Farbrolle"
     },
     "badges": [
       {
-        "title": "Badfliesen",
-        "sub": "Wand & Boden"
+        "title": "Meisterbetrieb",
+        "sub": "Maler & Lackierer"
       },
       {
-        "title": "Bodenfliesen",
-        "sub": "Wohnräume & Flur"
+        "title": "Innen",
+        "sub": "Wände & Decken"
       },
       {
-        "title": "Küche",
-        "sub": "Fliesenspiegel"
+        "title": "Lack",
+        "sub": "Türen & Holz"
       },
       {
-        "title": "Berg",
-        "sub": "Ortsteil Farchach"
+        "title": "Planegg",
+        "sub": "Enzianweg"
       }
     ],
     "trust": [
       {
-        "value": "Vor Ort",
-        "label": "Fliesenleger in Berg"
+        "value": "Meister",
+        "label": "Maler- und Lackierer"
       },
       {
-        "value": "Fliesen",
-        "label": "Wand und Boden"
+        "value": "Würmtal",
+        "label": "Planegg & Krailling"
       },
       {
-        "value": "Persönlich",
-        "label": "Inhaber führt aus"
+        "value": "Innen & außen",
+        "label": "Anstrich"
       },
       {
-        "value": "Mobil",
-        "label": "schnell erreichbar"
+        "value": "Direkt",
+        "label": "Inhaber am Telefon"
       }
     ],
     "servicesIntro": {
-      "headline": "Fliesenarbeiten für Haus und Wohnung",
-      "text": "Vom neuen Bad bis zum gefliesten Flur: Lars Urbanski verlegt Fliesen sauber, eben und mit klaren Fugenbildern."
+      "headline": "Farbe und Lack vom Meister",
+      "text": "Vom frischen Wohnzimmer bis zur lackierten Haustür: Der Malerbetrieb Dinkelmaier sorgt für saubere Flächen und klare Kanten."
     },
     "services": [
       {
-        "title": "Badfliesen",
-        "text": "Wand- und Bodenfliesen im Bad – für Neubau oder Renovierung.",
+        "title": "Innenanstrich",
+        "text": "Wände und Decken in Wohnung und Haus – sorgfältig abgedeckt, gleichmäßig gestrichen.",
         "items": [
-          "Wandfliesen",
-          "Bodenfliesen",
-          "Duschbereich"
+          "Wände",
+          "Decken",
+          "Abdecken & Abkleben"
         ]
       },
       {
-        "title": "Bodenfliesen",
-        "text": "Strapazierfähige Fliesenböden für Flur, Küche und Wohnräume.",
+        "title": "Lackierarbeiten",
+        "text": "Türen, Zargen, Heizkörper und Holzteile werden geschliffen und neu lackiert.",
         "items": [
-          "Flur",
-          "Wohnraum",
-          "Großformate"
+          "Türen & Zargen",
+          "Heizkörper",
+          "Holzteile"
         ]
       },
       {
-        "title": "Küchenspiegel",
-        "text": "Fliesenspiegel hinter Arbeitsplatte und Herd – pflegeleicht und passend zur Küche.",
+        "title": "Fassadenanstrich",
+        "text": "Neuer Anstrich für Außenwände – schützt die Fassade und frischt das Haus auf.",
         "items": [
-          "Fliesenspiegel",
-          "Arbeitsbereich",
-          "Nischen"
+          "Außenwände",
+          "Sockel",
+          "Vorbehandlung"
         ]
       },
       {
-        "title": "Wandfliesen",
-        "text": "Geflieste Wände in Bad, WC und Hauswirtschaftsraum.",
+        "title": "Treppenhäuser",
+        "text": "Treppenhäuser und Flure in Mehrfamilienhäusern – zügig und mit wenig Störung für Bewohner.",
         "items": [
-          "WC",
-          "Hauswirtschaftsraum",
-          "Akzentflächen"
+          "Flure",
+          "Geländer",
+          "Gemeinschaftsflächen"
         ]
       },
       {
-        "title": "Sockel & Treppen",
-        "text": "Fliesensockel und geflieste Stufen für saubere Abschlüsse.",
+        "title": "Renovierung",
+        "text": "Malerarbeiten bei Auszug, Einzug oder Modernisierung – Räume schnell wieder bewohnbar.",
         "items": [
-          "Sockelleisten",
-          "Stufen",
-          "Kanten"
+          "Auszug",
+          "Einzug",
+          "Modernisierung"
         ]
       },
       {
-        "title": "Reparaturen",
-        "text": "Einzelne Fliesen tauschen und Fugen erneuern.",
+        "title": "Farbberatung",
+        "text": "Welcher Ton passt zum Raum? Gemeinsam wird der passende Farbton vor Ort gefunden.",
         "items": [
-          "Fliesentausch",
-          "Fugen erneuern",
-          "Silikonfugen"
+          "Farbtöne",
+          "Raumwirkung",
+          "Musterflächen"
         ]
       }
     ],
     "why": {
-      "headline": "Fliesen aus Berg – direkt vom Fliesenleger.",
+      "headline": "Malerarbeiten aus Planegg – mit Meisterhand.",
       "points": [
         {
+          "title": "Meisterqualität",
+          "text": "Der Betrieb wird von einem Maler- und Lackierermeister geführt."
+        },
+        {
           "title": "Kurze Wege",
-          "text": "Aus Farchach schnell in Berg, Starnberg, Pöcking und Tutzing."
+          "text": "Sitz in Planegg – schnell in Krailling, Martinsried, Gräfelfing und Stockdorf."
+        },
+        {
+          "title": "Sauber gearbeitet",
+          "text": "Möbel und Böden werden abgedeckt, die Baustelle ordentlich hinterlassen."
         },
         {
           "title": "Ein Ansprechpartner",
-          "text": "Sie besprechen alles direkt mit dem Fliesenleger, der verlegt."
-        },
-        {
-          "title": "Sauberes Fugenbild",
-          "text": "Gleichmäßige Fugen und ebene Flächen sind das Ziel jeder Verlegung."
-        },
-        {
-          "title": "Schnell erreichbar",
-          "text": "Ein Anruf oder eine WhatsApp-Nachricht genügt."
+          "text": "Von der Besichtigung bis zur Übergabe sprechen Sie mit dem Inhaber."
         }
       ]
     },
@@ -266,115 +273,116 @@
       "headline": "Was Kunden sagen",
       "summary": "Kundenstimmen werden hier eingebunden, sobald sie aus dem Google-Profil übernommen sind.",
       "highlights": [
-        "Fliesenleger in Berg",
-        "Bad, Küche, Boden",
-        "Direkter Kontakt"
+        "Malermeister in Planegg",
+        "Anstrich und Lackierung",
+        "Persönlicher Kontakt"
       ],
       "source": "Google",
-      "sourceUrl": "https://www.google.com/maps/search/?api=1&query=Lars%20Urbanski%20Fliesenleger%20Bachstr.%2010%20Berg",
+      "sourceUrl": "https://www.google.com/maps/search/?api=1&query=Ulrich%20Dinkelmaier%20Malerbetrieb%20Enzianweg%203%20Planegg",
       "rating": null,
       "count": null
     },
     "process": {
-      "headline": "In vier Schritten zu neuen Fliesen",
+      "headline": "In vier Schritten zu frischen Wänden",
       "steps": [
         {
           "title": "Anfrage",
-          "text": "Fotos und grobe Maße per WhatsApp schicken – oder kurz anrufen."
+          "text": "Kurz anrufen oder das Formular nutzen – gern mit Fotos der Räume."
         },
         {
           "title": "Besichtigung",
-          "text": "Untergrund, Fliesenwahl und Details werden vor Ort abgestimmt."
+          "text": "Flächen, Untergrund und Farbwunsch werden vor Ort angeschaut."
         },
         {
           "title": "Angebot",
-          "text": "Sie erhalten ein klares Angebot für Ihre Fläche."
+          "text": "Sie erhalten ein klares Angebot mit Umfang und Termin."
         },
         {
-          "title": "Verlegung",
-          "text": "Vorbereiten, verlegen, verfugen – und sauber übergeben."
+          "title": "Ausführung",
+          "text": "Abdecken, vorbereiten, streichen – und sauber übergeben."
         }
       ]
     },
     "gallery": {
-      "headline": "Flächen, die bleiben",
-      "text": "Für die Live-Version zeigen wir hier echte Projekte des Betriebs.",
+      "headline": "Räume in neuer Farbe",
+      "text": "Für die Live-Version zeigen wir hier echte Arbeiten des Betriebs.",
       "items": [
         {
-          "title": "Neues Bad",
-          "photoNeeded": "komplett gefliestes Badezimmer"
+          "title": "Wohnzimmer",
+          "photoNeeded": "frisch gestrichenes Wohnzimmer mit hellen Wänden"
         },
         {
-          "title": "Fliesenboden",
-          "photoNeeded": "großformatiger Fliesenboden im Flur"
+          "title": "Lackierte Tür",
+          "photoNeeded": "neu lackierte Innentür mit Zarge"
         },
         {
-          "title": "Küchenspiegel",
-          "photoNeeded": "Fliesenspiegel hinter der Arbeitsplatte"
+          "title": "Treppenhaus",
+          "photoNeeded": "gestrichenes Treppenhaus in einem Mehrfamilienhaus"
         },
         {
-          "title": "Dusche",
-          "photoNeeded": "geflieste bodengleiche Dusche"
+          "title": "Fassade",
+          "photoNeeded": "Hausfassade nach dem Neuanstrich"
         },
         {
-          "title": "Treppe",
-          "photoNeeded": "geflieste Stufen mit Sockel"
+          "title": "Akzentwand",
+          "photoNeeded": "farbige Akzentwand in einem Schlafzimmer"
         }
       ]
     },
     "region": {
-      "headline": "Fliesenleger für Berg und den Starnberger See",
-      "text": "Von Farchach aus schnell in Berg, Starnberg, Pöcking, Tutzing und Münsing.",
+      "headline": "Malerbetrieb für Planegg und das Würmtal",
+      "text": "Von Planegg aus im Einsatz in Krailling, Martinsried, Gräfelfing, Stockdorf und Gauting.",
       "places": [
-        "Berg",
-        "Farchach",
-        "Starnberg",
-        "Pöcking",
-        "Tutzing",
-        "Münsing"
+        "Planegg",
+        "Krailling",
+        "Martinsried",
+        "Gräfelfing",
+        "Stockdorf",
+        "Gauting"
       ]
     },
     "faq": [
       {
+        "q": "Wie lange dauert der Anstrich einer Wohnung?",
+        "a": "Das hängt von Größe und Zustand der Räume ab. Ein Zeitplan wird nach der Besichtigung abgestimmt."
+      },
+      {
+        "q": "Muss ich die Möbel selbst ausräumen?",
+        "a": "Das wird vorab besprochen. Was im Raum bleibt, wird sorgfältig abgedeckt."
+      },
+      {
+        "q": "Streichen Sie auch Fassaden?",
+        "a": "Ja, Außenanstriche gehören zu den Malerarbeiten – fragen Sie mit Fotos der Fassade an."
+      },
+      {
         "q": "Kann ich vorab Fotos schicken?",
-        "a": "Ja, Fotos und grobe Maße per WhatsApp helfen für eine erste Einschätzung."
+        "a": "Ja, Fotos und grobe Maße helfen für eine erste Einschätzung."
       },
       {
-        "q": "Bringen Sie die Fliesen mit?",
-        "a": "Das wird individuell abgesprochen – eigene Fliesen oder gemeinsame Auswahl."
-      },
-      {
-        "q": "Übernehmen Sie auch kleine Reparaturen?",
-        "a": "Fragen Sie gerne an – auch einzelne Fliesen und Fugen lassen sich erneuern."
-      },
-      {
-        "q": "Wie lange dauert ein Bad?",
-        "a": "Das hängt von Fläche und Untergrund ab. Ein Zeitplan wird nach der Besichtigung abgestimmt."
-      },
-      {
-        "q": "Arbeiten Sie auch außerhalb von Berg?",
-        "a": "Ja, im Umkreis des Starnberger Sees – fragen Sie einfach an."
+        "q": "Arbeiten Sie auch außerhalb von Planegg?",
+        "a": "Ja, im Würmtal und den Nachbarorten – fragen Sie einfach an."
       }
     ],
     "contact": {
-      "headline": "Ihr Angebot – unverbindlich",
-      "text": "Beschreiben Sie kurz Ihr Vorhaben: welcher Raum, ungefähre Fläche und ob Wand oder Boden. Fotos helfen.",
+      "headline": "Ihr Angebot – kostenlos und unverbindlich",
+      "text": "Beschreiben Sie kurz, welche Räume oder Flächen gestrichen werden sollen und wann. Fotos helfen bei der Einschätzung.",
       "topics": [
-        "Bad",
-        "Bodenfliesen",
-        "Küchenspiegel",
-        "Reparatur",
+        "Innenanstrich",
+        "Lackierarbeiten",
+        "Fassadenanstrich",
+        "Treppenhaus",
+        "Renovierung",
         "Sonstiges"
       ],
       "responseNote": "Besichtigung nach Absprache."
     },
     "quote": {
-      "sizeLabel": "Wie groß ist die Fläche?",
+      "sizeLabel": "Was soll gestrichen werden?",
       "sizes": [
-        "Unter 10 m²",
-        "10–25 m²",
-        "25–50 m²",
-        "Über 50 m²"
+        "Ein Raum",
+        "Ganze Wohnung",
+        "Haus / Treppenhaus",
+        "Fassade"
       ],
       "timings": [
         "So bald wie möglich",
@@ -386,12 +394,12 @@
     "stickyCta": "Angebot anfragen",
     "look": {
       "palette": 2,
-      "font": 6,
-      "hero": 0,
-      "services": 1,
-      "radius": 1,
-      "logo": 0,
-      "intro": 5
+      "font": 2,
+      "hero": 2,
+      "services": 2,
+      "radius": 0,
+      "logo": 2,
+      "intro": 3
     }
   }
 }

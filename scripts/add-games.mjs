@@ -10,6 +10,7 @@ const RULES = [
   [/maler|lackier|anstrich|tapezier/i, "paint"],
   [/fliese|naturstein|mosaik/i, "tiles"],
   [/sanit|installateur|heizung|klempner|bäder|badsanier|wasser|rohr/i, "water"],
+  [/fensterreinig|glasreinig|fensterputz/i, "glass"],
   [/rollladen|rolladen|sonnenschutz|markise|jalousie/i, "blinds"],
   [/metallbau|schlosser|schmiede|geländer|stahlbau|zaun/i, "railing"],
   [/küche|möbel|schreiner|tischler|einbau/i, "kitchen"],

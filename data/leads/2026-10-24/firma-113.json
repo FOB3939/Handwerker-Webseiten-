@@ -393,12 +393,12 @@
     "stickyCta": "Elektriker anfragen",
     "look": {
       "palette": 2,
-      "font": 6,
-      "hero": 0,
-      "services": 1,
+      "font": 1,
+      "hero": 3,
+      "services": 2,
       "radius": 1,
-      "logo": 0,
-      "intro": 5
+      "logo": 5,
+      "intro": 0
     }
   }
 }

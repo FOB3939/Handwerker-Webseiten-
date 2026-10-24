@@ -1,261 +1,397 @@
 {
   "id": "2026-10-24-118",
-  "slug": "malerbetrieb-dinkelmaier-planegg",
+  "slug": "gh-bau-karlsfeld",
   "date": "2026-10-24",
   "company": {
-    "name": "Ulrich Dinkelmaier Malerbetrieb",
-    "owner": "Ulrich R. Dinkelmaier",
-    "trade": "Malerbetrieb",
-    "city": "Planegg",
-    "address": "Enzianweg 3, 82152 Planegg",
-    "phone": "089 8596102",
-    "email": null,
+    "name": "GH-Bau",
+    "owner": "Gentrit Haziraj",
+    "trade": "Garten- und Landschaftsbau",
+    "city": "Karlsfeld",
+    "address": "Hochstr. 14, 85757 Karlsfeld",
+    "phone": "01514 2888392",
+    "email": "gh.gartenbau@gmail.com",
     "serviceArea": [
-      "Planegg",
-      "Krailling",
-      "Martinsried",
-      "Gräfelfing",
-      "Stockdorf",
-      "Gauting"
+      "Karlsfeld",
+      "Dachau",
+      "Bergkirchen",
+      "Hebertshausen",
+      "Oberschleißheim",
+      "München-Allach"
     ]
   },
   "listings": {
     "google": {
-      "url": "https://www.google.com/maps/search/?api=1&query=Ulrich%20Dinkelmaier%20Malerbetrieb%20Enzianweg%203%20Planegg",
+      "url": "https://www.google.com/maps/search/?api=1&query=GH-Bau%20Hochstr.%2014%20Karlsfeld",
       "rating": null,
       "reviews": null,
-      "evidence": "NICHT BELEGT – kein Google-Spiegel (rgv-bayern, trustlocal, firmania) mit Eintrag zum Betrieb gefunden, keine Bewertungen in den Verzeichnissen. In Google Maps prüfen, ob ein Eintrag existiert und ob dort eine Website hinterlegt ist."
+      "evidence": "Kein Google-Spiegel gefunden (Suche auf rgv-bayern, firmania, trustlocal ohne Treffer). Belegt ist dafür eine öffentliche Freemail-Adresse gh.gartenbau@gmail.com im 11880-Eintrag (Hochstr. 14, 85757 Karlsfeld, Tel. 01514 2888392). In Maps prüfen, ob ein Profil existiert."
     },
     "myhammer": {
-      "url": "https://www.11880.com/suche/maler/planegg",
+      "url": "https://www.11880.com/suche/gartenbau/karlsfeld",
       "rating": null,
       "reviews": null,
-      "evidence": "Kein MyHammer gefunden – Eintrag „Ulrich Dinkelmaier Malerbetrieb“ in der 11880-Liste Maler Planegg (Enzianweg 3, (089) 8596102), dazu maler-und-lackierer.com, misterwhat.de („Maler, Malermeister“), mux.de und branchen-info.net (dort unter Krailling, Enzianweg 3)."
+      "evidence": "Kein MyHammer gefunden – Einträge in der 11880-Ortsliste Gartenbauer Karlsfeld (mit Gmail-Adresse) und bei gartenbau.org (Ansprechpartner Gentrit Haziraj, Hochstr. 72, Leistungen Zaunbau, Gartengestaltung, Pflasterarbeiten, Terrassenbau, Erdarbeiten, Gartenpflege)."
     }
   },
   "websiteStatus": "keine eigene Website gefunden",
   "websiteChecks": [
-    "(1) „Ulrich Dinkelmaier Malerbetrieb Planegg“ mit blocked_domains (11880, Gelbe Seiten, Das Örtliche, Telefonbuch, Cylex, meinestadt, Creditreform, Facebook, Instagram, golocal, MyHammer, Northdata, Firmenwissen, WKDB, Yelp, trustlocal, wlw) – nur Verzeichnisse (mux.de, maler-und-lackierer.com, misterwhat.de, branchen-info.net, unser-wuermtal.de, branchenbuch-bayern.de); keine eigene Domain",
-    "(2) Domain-Check allowed_domains dinkelmaier.de, maler-dinkelmaier.de, malerbetrieb-dinkelmaier.de, dinkelmaier-maler.de, malermeister-dinkelmaier.de, dinkelmaier-malerbetrieb.de, ulrich-dinkelmaier.de, dinkelmaier-planegg.de – keine Treffer",
-    "(3) Telefonsuche „089 8596102“/„0898596102“/„089 85 96 102“ – keine Treffer, keine Website",
-    "(4) Impressum-Suche „Impressum Dinkelmaier Malermeister Planegg Krailling“ – kein Impressum, nur Verzeichnislisten; Patricia Dinkelmaier (Friseur, gleiche Adresse, andere Nummer) ist kein Malerbetrieb mit Website",
-    "Website-Risiko: mittel – alle Prüfungen negativ, aber weder Google-Eintrag noch Freemail belegt (RESERVE); Verzeichnisdaten teils ~3 Jahre alt"
+    "(1) „\"GH-Bau\" Karlsfeld Gartenbau“ mit blocked_domains (11880, Gelbe Seiten, Das Örtliche, Telefonbuch, Cylex, meinestadt, Creditreform, Facebook, Instagram, golocal, MyHammer, Northdata, Firmenwissen, WKDB, Yelp, trustlocal, wlw) – nur gartenbau.org-Profil und andere Gartenbaufirmen (VG Garten, Gartenbau Henkel, Gartenbau Paradies) mit eigenen Seiten; keine Domain von GH-Bau",
+    "(2) Telefon-/Namenssuche „01514 2888392“/„015142888392“/„Gentrit Haziraj“ mit blocked_domains – nur gartenbau.org; haziraj.de und fliesenhaziraj.at gehören zu anderen Firmen (Calw bzw. Österreich), keine Verbindung erkennbar",
+    "(3) Domain-Check allowed_domains gh-bau.de, ghbau.de, gh-gartenbau.de, ghgartenbau.de, gh-bau-karlsfeld.de, haziraj-bau.de, gh-galabau.de, haziraj.de – ghbau.de = Growe Hagemeier GmbH (Beelen), gh-gartenbau.de = Grünes Herz (Berlin), haziraj.de = Haziraj Hof- & Gartengestaltung (Calw); keine Seite von GH-Bau Karlsfeld",
+    "(4) Verzeichnis-/Spiegel-Suche „\"GH-Bau\" Karlsfeld Hochstr“ (rgv-bayern, firmania, trustlocal, 11880, Gelbe Seiten, Örtliche, Cylex) – nur Verzeichnisdaten (Hochstr. 14, Mobilnummer), kein Website-Feld",
+    "E-Mail ist Freemail (gmail.com) – keine Firmendomain",
+    "Website-Risiko: niedrig – alle Prüfungen negativ, Freemail öffentlich belegt; Google-Eintrag nicht belegt"
   ],
   "facts": {
     "services": [
-      "Malerarbeiten",
-      "Lackierarbeiten",
-      "Anstrich innen und außen"
+      "Zaunbau",
+      "Gartengestaltung",
+      "Pflasterarbeiten",
+      "Terrassenbau",
+      "Erdarbeiten",
+      "Gartenpflege",
+      "Rollrasen verlegen"
     ],
-    "experience": "Malermeister (laut misterwhat.de/maler-und-lackierer.com)",
+    "experience": null,
     "praisedFor": []
   },
   "strategy": {
-    "audience": "Hauseigentümer, Mieter und Vermieter in Planegg, Krailling, Martinsried und Gräfelfing, die Wohnräume, Treppenhäuser oder Fassaden streichen lassen wollen",
-    "mainService": "Malerarbeiten innen – Wände, Decken und Lackierungen",
-    "trustSignal": "Meisterbetrieb im Würmtal, persönlich vom Malermeister geführt",
-    "conversionGoal": "Kostenloses Angebot für Malerarbeiten anfragen (Anruf oder Formular mit Fotos)",
-    "visualConcept": "Ruhig und handwerklich: frisch gestrichene, helle Wände, Farbrolle und Abklebeband, warme Akzentfarbe – sorgfältig und meisterlich"
+    "audience": "Hausbesitzer mit Reihen- und Einfamilienhaus in Karlsfeld, Dachau und dem Münchner Nordwesten, die Einfahrt, Terrasse, Zaun oder Garten neu anlegen oder pflegen lassen wollen",
+    "mainService": "Pflaster, Terrasse und Zaun – plus laufende Gartenpflege",
+    "trustSignal": "Inhaber Gentrit Haziraj direkt per Handy erreichbar, Betrieb in Karlsfeld",
+    "conversionGoal": "Kostenlose Besichtigung anfragen – Fotos vom Garten per WhatsApp",
+    "visualConcept": "Frisch verlegtes Pflaster, saubere Terrassenkanten und gerade Zaunlinien – kräftiges Grün mit Stein- und Holztönen"
   },
   "sales": {
-    "score": 3,
+    "score": 6,
     "whyGoodLead": [
       "Keine eigene Website gefunden – nur Verzeichniseinträge",
-      "Meisterbetrieb im kaufkräftigen Würmtal (Planegg/Krailling/Martinsried)",
-      "Keine sichtbaren Bewertungen – Website und Google-Profil schaffen Vertrauen",
-      "Kaum Online-Präsenz, Konkurrenz am Ort teils mit Websites"
+      "Mobilnummer und Gmail-Adresse öffentlich – Kontakt per WhatsApp/E-Mail einfach",
+      "Breites, gut bebilderbares Leistungsspektrum (Pflaster, Terrasse, Zaun, Rollrasen)",
+      "Karlsfeld/Dachau mit vielen Eigenheimen – hohe Nachfrage nach Außenanlagen"
     ],
-    "pitch": "Guten Tag Herr Dinkelmaier, hier ist … – ich baue Websites für Handwerksbetriebe im Würmtal. Ihren Malerbetrieb in Planegg habe ich in mehreren Verzeichnissen gefunden, aber keine eigene Website. Ich habe unverbindlich einen Entwurf vorbereitet, auf dem Kunden aus Planegg und Krailling Ihre Malerarbeiten sehen und direkt anfragen können – darf ich Ihnen den Link schicken?"
+    "pitch": "Hallo Herr Haziraj, hier ist … – ich baue Websites für Handwerker im Landkreis Dachau. Ich habe GH-Bau in Karlsfeld im Branchenbuch gefunden, aber keine eigene Website. Ich habe unverbindlich einen Entwurf vorbereitet, auf dem Kunden Ihre Pflaster-, Terrassen- und Zaunarbeiten sehen und direkt per WhatsApp anfragen können – darf ich Ihnen den Link schicken?"
   },
   "manualChecks": [
-    "RESERVE – weder Google-Eintrag noch Freemail-Adresse belegt: NUR versenden, wenn Google Maps einen Eintrag OHNE Website zeigt.",
-    "Prüfen, ob der Betrieb noch aktiv ist (Verzeichnisdaten teils ~3 Jahre alt, keine Öffnungszeiten hinterlegt)",
-    "Nur Festnetznummer (089 8596102) belegt, keine Mobilnummer und keine E-Mail – Erstkontakt telefonisch",
-    "Ortsangabe uneinheitlich: Planegg (11880, misterwhat) bzw. Krailling (branchen-info) – beide 82152, im Gespräch klären",
-    "Leistungen nur als Maler/Lackierer belegt – Fassade, Tapezieren, Spachteltechniken beim Betrieb bestätigen",
+    "Website-Risiko: niedrig – vor Versand in Google Maps prüfen, dass keine Website hinterlegt ist (Grund: Google-Eintrag nicht belegt, nur Verzeichnisse mit Gmail-Adresse)",
+    "Adresse widersprüchlich: 11880/Cylex Hochstr. 14, gartenbau.org Hochstr. 72 – beim Erstkontakt klären",
+    "Inhaber Gentrit Haziraj nur über gartenbau.org als Ansprechpartner belegt – Anrede bestätigen",
+    "Leistungen aus Verzeichnissen (Zaunbau, Gartengestaltung, Pflaster, Terrasse, Erdarbeiten, Gartenpflege, Rollrasen) – Schwerpunkte beim Betrieb bestätigen",
     "Logo und Projektfotos: nicht gefunden – beim Betrieb anfragen"
   ],
   "sources": [
     {
-      "label": "11880 – Maler Planegg (Liste mit Ulrich Dinkelmaier Malerbetrieb)",
-      "url": "https://www.11880.com/suche/maler/planegg"
+      "label": "11880 – Gartenbauer Karlsfeld (Liste mit GH-Bau, gh.gartenbau@gmail.com)",
+      "url": "https://www.11880.com/suche/gartenbau/karlsfeld"
     },
     {
-      "label": "maler-und-lackierer.com – Ulrich Dinkelmaier Malerbetrieb Planegg",
-      "url": "https://www.maler-und-lackierer.com/anbieter/planegg/ulrich-dinkelmaier-malerbetrieb/"
-    },
-    {
-      "label": "misterwhat – Dinkelmaier Ulrich R., Maler, Malermeister",
-      "url": "https://www.misterwhat.de/company/752310-dinkelmaier-ulrich-r-planegg"
-    },
-    {
-      "label": "mux.de – Ulrich R. Dinkelmaier, Enzianweg",
-      "url": "https://www.mux.de/Ulrich-R-Dinkelmaier-Enzianweg"
-    },
-    {
-      "label": "branchen-info.net – Dinkelmaier Ulrich R. Malermeister, Krailling",
-      "url": "https://krailling.branchen-info.net/fp_3655062.php"
+      "label": "gartenbau.org – GH-Bau Karlsfeld",
+      "url": "https://www.gartenbau.org/karlsfeld/gh-bau-aUOSpX"
     }
   ],
   "site": {
-    "theme": "atelier",
+    "theme": "garten",
     "category": "handwerk",
     "heroOffer": [
-      "Innenanstrich",
-      "Lackierarbeiten",
-      "Fassade",
-      "Treppenhaus",
-      "Renovierung"
+      "Pflaster",
+      "Terrassen",
+      "Zaunbau",
+      "Rollrasen",
+      "Gartenpflege"
     ],
-    "scene": "paint",
-    "logoIcon": "roller",
-    "logoMark": "UD",
-    "brandName": "Malerbetrieb Dinkelmaier",
-    "seoTitle": "Malermeister in Planegg – Malerbetrieb Dinkelmaier",
-    "seoDescription": "Malerarbeiten und Lackierungen in Planegg, Krailling und dem Würmtal. Jetzt kostenloses Angebot beim Malermeister anfragen.",
+    "scene": "garden",
+    "logoIcon": "leaf",
+    "logoMark": "GH",
+    "brandName": "GH-Bau",
+    "seoTitle": "Garten- und Landschaftsbau in Karlsfeld – GH-Bau",
+    "seoDescription": "Pflaster, Terrassen, Zäune, Rollrasen und Gartenpflege in Karlsfeld und Dachau. Jetzt kostenlose Besichtigung anfragen – auch per WhatsApp.",
     "nav": [
-      { "label": "Leistungen", "href": "#leistungen" },
-      { "label": "Projekte", "href": "#projekte" },
-      { "label": "Bewertungen", "href": "#bewertungen" },
-      { "label": "Ablauf", "href": "#ablauf" },
-      { "label": "FAQ", "href": "#faq" },
-      { "label": "Kontakt", "href": "#kontakt" }
+      {
+        "label": "Leistungen",
+        "href": "#leistungen"
+      },
+      {
+        "label": "Projekte",
+        "href": "#projekte"
+      },
+      {
+        "label": "Bewertungen",
+        "href": "#bewertungen"
+      },
+      {
+        "label": "Ablauf",
+        "href": "#ablauf"
+      },
+      {
+        "label": "FAQ",
+        "href": "#faq"
+      },
+      {
+        "label": "Kontakt",
+        "href": "#kontakt"
+      }
     ],
     "hero": {
-      "eyebrow": "Malermeister · Planegg",
-      "headline": "Ihr Malermeister in Planegg",
-      "sub": "Saubere Anstriche und Lackierungen für Wohnungen und Häuser im Würmtal.",
-      "ctaPrimary": "Kostenloses Angebot anfragen",
+      "eyebrow": "Garten- und Landschaftsbau · Karlsfeld",
+      "headline": "Gartenbau und Pflaster in Karlsfeld",
+      "sub": "Terrassen, Zäune und Einfahrten anlegen – und den Garten danach in Form halten.",
+      "ctaPrimary": "Kostenlose Besichtigung anfragen",
       "ctaSecondary": "Anrufen",
       "bullets": [
-        "Meisterbetrieb aus Planegg",
-        "Innen- und Außenanstrich",
-        "Persönlich vom Inhaber betreut"
+        "Inhabergeführt aus Karlsfeld",
+        "Pflaster, Terrasse, Zaun",
+        "Direkt per Handy erreichbar"
       ],
-      "imageLabel": "frisch gestrichene, helle Wohnzimmerwand mit Farbrolle"
+      "imageLabel": "frisch gepflasterte Terrasse mit neuem Rollrasen"
     },
     "badges": [
-      { "title": "Meisterbetrieb", "sub": "Maler & Lackierer" },
-      { "title": "Innen", "sub": "Wände & Decken" },
-      { "title": "Lack", "sub": "Türen & Holz" },
-      { "title": "Planegg", "sub": "Enzianweg" }
+      {
+        "title": "Pflaster",
+        "sub": "Einfahrt & Wege"
+      },
+      {
+        "title": "Terrassen",
+        "sub": "neu angelegt"
+      },
+      {
+        "title": "Zaunbau",
+        "sub": "klare Grenzen"
+      },
+      {
+        "title": "Karlsfeld",
+        "sub": "Hochstraße"
+      }
     ],
     "trust": [
-      { "value": "Meister", "label": "Maler- und Lackierer" },
-      { "value": "Würmtal", "label": "Planegg & Krailling" },
-      { "value": "Innen & außen", "label": "Anstrich" },
-      { "value": "Direkt", "label": "Inhaber am Telefon" }
+      {
+        "value": "Vor Ort",
+        "label": "Betrieb in Karlsfeld"
+      },
+      {
+        "value": "7",
+        "label": "Leistungen rund um den Garten"
+      },
+      {
+        "value": "Außen",
+        "label": "Pflaster, Terrasse, Zaun"
+      },
+      {
+        "value": "Mobil",
+        "label": "Inhaber direkt erreichbar"
+      }
     ],
     "servicesIntro": {
-      "headline": "Farbe und Lack vom Meister",
-      "text": "Vom frischen Wohnzimmer bis zur lackierten Haustür: Der Malerbetrieb Dinkelmaier sorgt für saubere Flächen und klare Kanten."
+      "headline": "Vom Aushub bis zum fertigen Garten",
+      "text": "GH-Bau übernimmt Erdarbeiten, Pflaster, Terrasse und Zaun – und kümmert sich anschließend um die Pflege, damit die Anlage gepflegt bleibt."
     },
     "services": [
       {
-        "title": "Innenanstrich",
-        "text": "Wände und Decken in Wohnung und Haus – sorgfältig abgedeckt, gleichmäßig gestrichen.",
-        "items": ["Wände", "Decken", "Abdecken & Abkleben"]
+        "title": "Pflasterarbeiten",
+        "text": "Einfahrten, Wege und Stellplätze auf tragfähigem Unterbau – eben verlegt und sauber abgeschlossen.",
+        "items": [
+          "Einfahrten",
+          "Gartenwege",
+          "Stellplätze"
+        ]
       },
       {
-        "title": "Lackierarbeiten",
-        "text": "Türen, Zargen, Heizkörper und Holzteile werden geschliffen und neu lackiert.",
-        "items": ["Türen & Zargen", "Heizkörper", "Holzteile"]
+        "title": "Terrassenbau",
+        "text": "Neue Terrassen als Erweiterung des Wohnraums – passend zu Haus und Garten geplant.",
+        "items": [
+          "Terrassenflächen",
+          "Unterbau",
+          "Randabschluss"
+        ]
       },
       {
-        "title": "Fassadenanstrich",
-        "text": "Neuer Anstrich für Außenwände – schützt die Fassade und frischt das Haus auf.",
-        "items": ["Außenwände", "Sockel", "Vorbehandlung"]
+        "title": "Zaunbau",
+        "text": "Zäune als Sichtschutz und Grundstücksgrenze – fest gesetzt und in gerader Linie.",
+        "items": [
+          "Gartenzaun",
+          "Sichtschutz",
+          "Grundstücksgrenze"
+        ]
       },
       {
-        "title": "Treppenhäuser",
-        "text": "Treppenhäuser und Flure in Mehrfamilienhäusern – zügig und mit wenig Störung für Bewohner.",
-        "items": ["Flure", "Geländer", "Gemeinschaftsflächen"]
+        "title": "Gartengestaltung",
+        "text": "Aus einer leeren oder verwilderten Fläche wird ein Garten, der zur Nutzung passt.",
+        "items": [
+          "Neuanlage",
+          "Umgestaltung",
+          "Beete"
+        ]
       },
       {
-        "title": "Renovierung",
-        "text": "Malerarbeiten bei Auszug, Einzug oder Modernisierung – Räume schnell wieder bewohnbar.",
-        "items": ["Auszug", "Einzug", "Modernisierung"]
+        "title": "Erdarbeiten & Rollrasen",
+        "text": "Aushub, Planie und Rollrasen – damit der neue Rasen schnell grün und belastbar ist.",
+        "items": [
+          "Aushub",
+          "Planie",
+          "Rollrasen"
+        ]
       },
       {
-        "title": "Farbberatung",
-        "text": "Welcher Ton passt zum Raum? Gemeinsam wird der passende Farbton vor Ort gefunden.",
-        "items": ["Farbtöne", "Raumwirkung", "Musterflächen"]
+        "title": "Gartenpflege",
+        "text": "Regelmäßige Pflege für Rasen, Hecken und Beete – damit der Garten das ganze Jahr ordentlich aussieht.",
+        "items": [
+          "Rasenpflege",
+          "Heckenschnitt",
+          "Beetpflege"
+        ]
       }
     ],
     "why": {
-      "headline": "Malerarbeiten aus Planegg – mit Meisterhand.",
+      "headline": "Gartenbau aus Karlsfeld – ein Ansprechpartner für alles draußen.",
       "points": [
-        { "title": "Meisterqualität", "text": "Der Betrieb wird von einem Maler- und Lackierermeister geführt." },
-        { "title": "Kurze Wege", "text": "Sitz in Planegg – schnell in Krailling, Martinsried, Gräfelfing und Stockdorf." },
-        { "title": "Sauber gearbeitet", "text": "Möbel und Böden werden abgedeckt, die Baustelle ordentlich hinterlassen." },
-        { "title": "Ein Ansprechpartner", "text": "Von der Besichtigung bis zur Übergabe sprechen Sie mit dem Inhaber." }
+        {
+          "title": "Kurze Wege",
+          "text": "Von der Hochstraße aus schnell in Dachau, Bergkirchen und im Münchner Nordwesten."
+        },
+        {
+          "title": "Alles aus einer Hand",
+          "text": "Erdarbeiten, Pflaster, Terrasse und Zaun ohne zusätzliche Gewerke koordinieren."
+        },
+        {
+          "title": "Direkter Draht",
+          "text": "Sie sprechen mit dem Inhaber – per Anruf oder WhatsApp."
+        },
+        {
+          "title": "Auch danach da",
+          "text": "Mit der Gartenpflege bleibt die neue Anlage dauerhaft in Schuss."
+        }
       ]
     },
     "reviews": {
       "headline": "Was Kunden sagen",
       "summary": "Kundenstimmen werden hier eingebunden, sobald sie aus dem Google-Profil übernommen sind.",
       "highlights": [
-        "Malermeister in Planegg",
-        "Anstrich und Lackierung",
-        "Persönlicher Kontakt"
+        "Pflaster und Terrassen in Karlsfeld",
+        "Zaunbau und Gartengestaltung",
+        "Direkter Kontakt zum Inhaber"
       ],
       "source": "Google",
-      "sourceUrl": "https://www.google.com/maps/search/?api=1&query=Ulrich%20Dinkelmaier%20Malerbetrieb%20Enzianweg%203%20Planegg",
+      "sourceUrl": "https://www.google.com/maps/search/?api=1&query=GH-Bau%20Hochstr.%2014%20Karlsfeld",
       "rating": null,
       "count": null
     },
     "process": {
-      "headline": "In vier Schritten zu frischen Wänden",
+      "headline": "In vier Schritten zum neuen Garten",
       "steps": [
-        { "title": "Anfrage", "text": "Kurz anrufen oder das Formular nutzen – gern mit Fotos der Räume." },
-        { "title": "Besichtigung", "text": "Flächen, Untergrund und Farbwunsch werden vor Ort angeschaut." },
-        { "title": "Angebot", "text": "Sie erhalten ein klares Angebot mit Umfang und Termin." },
-        { "title": "Ausführung", "text": "Abdecken, vorbereiten, streichen – und sauber übergeben." }
+        {
+          "title": "Anfrage",
+          "text": "Fotos und grobe Maße der Fläche per WhatsApp schicken – oder kurz anrufen."
+        },
+        {
+          "title": "Besichtigung",
+          "text": "Boden, Gefälle, Material und Wünsche werden vor Ort besprochen."
+        },
+        {
+          "title": "Angebot",
+          "text": "Sie erhalten ein klares Angebot für Ihr Vorhaben."
+        },
+        {
+          "title": "Umsetzung",
+          "text": "Aushub, Unterbau, Verlegen und Aufräumen – die Fläche wird sauber übergeben."
+        }
       ]
     },
     "gallery": {
-      "headline": "Räume in neuer Farbe",
-      "text": "Für die Live-Version zeigen wir hier echte Arbeiten des Betriebs.",
+      "headline": "Außenanlagen aus Karlsfeld",
+      "text": "Für die Live-Version zeigen wir hier echte Projekte des Betriebs.",
       "items": [
-        { "title": "Wohnzimmer", "photoNeeded": "frisch gestrichenes Wohnzimmer mit hellen Wänden" },
-        { "title": "Lackierte Tür", "photoNeeded": "neu lackierte Innentür mit Zarge" },
-        { "title": "Treppenhaus", "photoNeeded": "gestrichenes Treppenhaus in einem Mehrfamilienhaus" },
-        { "title": "Fassade", "photoNeeded": "Hausfassade nach dem Neuanstrich" },
-        { "title": "Akzentwand", "photoNeeded": "farbige Akzentwand in einem Schlafzimmer" }
+        {
+          "title": "Neue Einfahrt",
+          "photoNeeded": "frisch gepflasterte Hofeinfahrt vor Einfamilienhaus"
+        },
+        {
+          "title": "Terrasse",
+          "photoNeeded": "fertige Terrasse mit Randsteinen am Haus"
+        },
+        {
+          "title": "Gartenzaun",
+          "photoNeeded": "neu gesetzter Zaun entlang der Grundstücksgrenze"
+        },
+        {
+          "title": "Rollrasen",
+          "photoNeeded": "frisch verlegter Rollrasen nach der Planie"
+        },
+        {
+          "title": "Gepflegter Garten",
+          "photoNeeded": "geschnittene Hecke und gemähter Rasen"
+        }
       ]
     },
     "region": {
-      "headline": "Malerbetrieb für Planegg und das Würmtal",
-      "text": "Von Planegg aus im Einsatz in Krailling, Martinsried, Gräfelfing, Stockdorf und Gauting.",
-      "places": ["Planegg", "Krailling", "Martinsried", "Gräfelfing", "Stockdorf", "Gauting"]
+      "headline": "Gartenbau für Karlsfeld und den Landkreis Dachau",
+      "text": "Von Karlsfeld aus schnell in Dachau, Bergkirchen, Hebertshausen, Oberschleißheim und München-Allach.",
+      "places": [
+        "Karlsfeld",
+        "Dachau",
+        "Bergkirchen",
+        "Hebertshausen",
+        "Oberschleißheim",
+        "München-Allach"
+      ]
     },
     "faq": [
-      { "q": "Wie lange dauert der Anstrich einer Wohnung?", "a": "Das hängt von Größe und Zustand der Räume ab. Ein Zeitplan wird nach der Besichtigung abgestimmt." },
-      { "q": "Muss ich die Möbel selbst ausräumen?", "a": "Das wird vorab besprochen. Was im Raum bleibt, wird sorgfältig abgedeckt." },
-      { "q": "Streichen Sie auch Fassaden?", "a": "Ja, Außenanstriche gehören zu den Malerarbeiten – fragen Sie mit Fotos der Fassade an." },
-      { "q": "Kann ich vorab Fotos schicken?", "a": "Ja, Fotos und grobe Maße helfen für eine erste Einschätzung." },
-      { "q": "Arbeiten Sie auch außerhalb von Planegg?", "a": "Ja, im Würmtal und den Nachbarorten – fragen Sie einfach an." }
+      {
+        "q": "Was kostet eine neue Einfahrt oder Terrasse?",
+        "a": "Das hängt von Fläche, Untergrund und Material ab. Nach der Besichtigung erhalten Sie ein konkretes Angebot."
+      },
+      {
+        "q": "Kann ich vorab Fotos schicken?",
+        "a": "Ja, Fotos und grobe Maße per WhatsApp helfen für eine erste Einschätzung."
+      },
+      {
+        "q": "Übernehmen Sie auch die Erdarbeiten?",
+        "a": "Ja, Aushub und Planie gehören zum Angebot – Sie brauchen keine zusätzliche Firma."
+      },
+      {
+        "q": "Gibt es auch regelmäßige Gartenpflege?",
+        "a": "Ja, Gartenpflege wird angeboten. Umfang und Rhythmus stimmen wir gemeinsam ab."
+      },
+      {
+        "q": "Arbeiten Sie auch außerhalb von Karlsfeld?",
+        "a": "Ja, im Umkreis von Karlsfeld und Dachau – fragen Sie einfach an."
+      }
     ],
     "contact": {
-      "headline": "Ihr Angebot – kostenlos und unverbindlich",
-      "text": "Beschreiben Sie kurz, welche Räume oder Flächen gestrichen werden sollen und wann. Fotos helfen bei der Einschätzung.",
-      "topics": ["Innenanstrich", "Lackierarbeiten", "Fassadenanstrich", "Treppenhaus", "Renovierung", "Sonstiges"],
+      "headline": "Ihre Besichtigung – kostenlos und unverbindlich",
+      "text": "Beschreiben Sie kurz Ihr Vorhaben: welche Fläche, ungefähre Größe und ob Pflaster, Terrasse, Zaun oder Pflege. Fotos helfen.",
+      "topics": [
+        "Pflasterarbeiten",
+        "Terrassenbau",
+        "Zaunbau",
+        "Rollrasen",
+        "Gartenpflege",
+        "Sonstiges"
+      ],
       "responseNote": "Besichtigung nach Absprache."
     },
     "quote": {
-      "sizeLabel": "Was soll gestrichen werden?",
-      "sizes": ["Ein Raum", "Ganze Wohnung", "Haus / Treppenhaus", "Fassade"],
-      "timings": ["So bald wie möglich", "In den nächsten Wochen", "In 1–3 Monaten", "Ich plane erst noch"]
+      "sizeLabel": "Wie groß ist die Fläche?",
+      "sizes": [
+        "Bis 20 m²",
+        "20–50 m²",
+        "50–150 m²",
+        "Über 150 m²"
+      ],
+      "timings": [
+        "So bald wie möglich",
+        "In den nächsten Wochen",
+        "Im Frühjahr",
+        "Ich plane erst noch"
+      ]
     },
-    "stickyCta": "Angebot anfragen",
+    "stickyCta": "Besichtigung anfragen",
     "look": {
       "palette": 2,
-      "font": 6,
+      "font": 12,
       "hero": 0,
-      "services": 1,
+      "services": 0,
       "radius": 1,
-      "logo": 0,
-      "intro": 5
+      "logo": 4,
+      "intro": 1
     }
   }
 }

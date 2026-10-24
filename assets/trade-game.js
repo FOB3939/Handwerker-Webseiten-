@@ -81,6 +81,7 @@
     paint: { m: "wipe", kicker: "Zum Ausprobieren", title: "Streichen Sie die Wand selbst", sub: "Fahren Sie mit Maus oder Finger über die alte Wand und wählen Sie Ihren Farbton.", hint: "Hier über die Wand streichen", unit: "gestrichen", done: "Frisch gestrichen. Genau so sauber arbeiten wir bei Ihnen zu Hause.", tool: "roller", brush: 0.12,
       swatches: [["Ihr Farbton", "accent"], ["Reinweiß", "#f4f2ec"], ["Salbei", "#a9b8a0"], ["Taubenblau", "#8fa3b8"], ["Sand", "#d8c6a5"]] },
     lawn: { m: "wipe", kicker: "Zum Ausprobieren", title: "Mähen Sie den Rasen", sub: "Schieben Sie den Mäher über die Wiese, bis alles gepflegt ist.", hint: "Mäher über die Wiese ziehen", unit: "gemäht", done: "Sauber gemäht. Den Rest übernehmen wir, regelmäßig und zuverlässig.", tool: "mower", brush: 0.14 },
+    glass: { m: "wipe", kicker: "Zum Ausprobieren", title: "Putzen Sie das Fenster", sub: "Ziehen Sie den Abzieher über die Scheibe, bis sie streifenfrei glänzt.", hint: "Abzieher über die Scheibe ziehen", unit: "geputzt", done: "Streifenfrei sauber. So klar putzen wir auch Ihre Fenster.", tool: "squeegee", brush: 0.15 },
     sweep: { m: "wipe", kicker: "Zum Ausprobieren", title: "Fegen Sie den Weg frei", sub: "Wischen Sie das Laub mit dem Besen vom Gehweg.", hint: "Laub wegfegen", unit: "gefegt", done: "Weg frei. So gepflegt halten wir Ihr Haus das ganze Jahr.", tool: "broom", brush: 0.13 },
     tiles: { m: "place", kicker: "Zum Ausprobieren", title: "Verlegen Sie die Fliesen", sub: "Tippen Sie die Felder an oder wischen Sie darüber. Den Farbton wählen Sie selbst.", hint: "Felder antippen oder überwischen", unit: "verlegt", done: "Sauber verlegt, Fuge für Fuge. So wird auch Ihr Bad.",
       swatches: [["Anthrazit", "#4a4d52"], ["Weiß matt", "#eceae4"], ["Salbei", "#9fb19a"], ["Ihr Farbton", "accent"]] },
@@ -104,6 +105,7 @@
   var TOOLS = {
     roller: '<svg viewBox="0 0 84 84"><rect x="8" y="10" width="54" height="20" rx="8" fill="SW" stroke="#2b2b2b" stroke-width="3"/><path d="M62 20h8v20H40v12" fill="none" stroke="#2b2b2b" stroke-width="4" stroke-linejoin="round"/><rect x="34" y="52" width="12" height="28" rx="4" fill="#2b2b2b"/></svg>',
     mower: '<svg viewBox="0 0 84 84"><path d="M58 8 44 40" stroke="#2b2b2b" stroke-width="4" stroke-linecap="round"/><path d="M50 8h14" stroke="#2b2b2b" stroke-width="5" stroke-linecap="round"/><rect x="12" y="38" width="50" height="26" rx="9" fill="#d23b2a" stroke="#2b2b2b" stroke-width="3"/><circle cx="22" cy="68" r="8" fill="#2b2b2b"/><circle cx="54" cy="68" r="8" fill="#2b2b2b"/><rect x="20" y="44" width="22" height="7" rx="3" fill="#fff" opacity=".6"/></svg>',
+    squeegee: '<svg viewBox="0 0 84 84"><rect x="10" y="14" width="56" height="10" rx="3" fill="#2f3a44"/><rect x="8" y="22" width="60" height="5" rx="2" fill="#111"/><path d="M38 14V4" stroke="#2f3a44" stroke-width="6" stroke-linecap="round"/><rect x="33" y="28" width="10" height="46" rx="4" fill="SW" stroke="#2b2b2b" stroke-width="2"/></svg>',
     broom: '<svg viewBox="0 0 84 84"><path d="M62 6 40 46" stroke="#8a5a2b" stroke-width="5" stroke-linecap="round"/><path d="M28 44l22 10-8 24c-10-2-22-8-28-16z" fill="#d9a441" stroke="#2b2b2b" stroke-width="3" stroke-linejoin="round"/><path d="M24 58l-6 8M32 62l-6 10M40 66l-4 10" stroke="#2b2b2b" stroke-width="2"/></svg>'
   };
 
@@ -221,6 +223,7 @@
         bctx.clearRect(0, 0, W, H); tctx.clearRect(0, 0, W, H);
         if (kind === "paint") { drawWall(bctx, color || accent, false, R); drawWall(tctx, "#c9bfae", true, rng(seed + 3)); }
         if (kind === "lawn") { drawMown(bctx, R); drawGrass(tctx, rng(seed + 5)); }
+        if (kind === "glass") { drawWindow(bctx, false, R); drawWindow(tctx, true, rng(seed + 13)); }
         if (kind === "sweep") { drawPaving(bctx, rng(seed + 9)); drawPaving(tctx, rng(seed + 9)); drawLeaves(tctx, rng(seed + 11)); }
         top.style.opacity = "1";
       }
@@ -242,6 +245,21 @@
         var sx = W * 0.14, sy = H * 0.7, s2 = Math.max(26, W * 0.06);
         c.fillStyle = "#fbfbf9"; c.strokeStyle = "rgba(0,0,0,.18)"; c.lineWidth = 1.5; roundRect(c, sx, sy, s2, s2, 5); c.fill(); c.stroke();
         c.fillStyle = "rgba(0,0,0,.35)"; c.beginPath(); c.arc(sx + s2 * 0.36, sy + s2 / 2, 2.4, 0, 7); c.arc(sx + s2 * 0.64, sy + s2 / 2, 2.4, 0, 7); c.fill();
+      }
+      function drawWindow(c, dirty, R) {
+        // Fensterblick: Himmel, Hügel, Rahmen mit Sprosse; schmutzige Variante mit Schlieren und Flecken
+        var g = c.createLinearGradient(0, 0, 0, H); g.addColorStop(0, "#8ec3ea"); g.addColorStop(0.65, "#d9eefb"); g.addColorStop(0.66, "#9cc58a"); g.addColorStop(1, "#6f9d5a");
+        c.fillStyle = g; c.fillRect(0, 0, W, H);
+        c.fillStyle = "rgba(255,255,255,.9)"; [[0.22, 0.2], [0.62, 0.14], [0.8, 0.3]].forEach(function (p) { c.beginPath(); c.ellipse(W * p[0], H * p[1], W * 0.08, H * 0.04, 0, 0, 7); c.ellipse(W * p[0] + W * 0.05, H * p[1] + 4, W * 0.06, H * 0.035, 0, 0, 7); c.fill(); });
+        if (!dirty) { c.fillStyle = "rgba(255,255,255,.35)"; c.save(); c.translate(W * 0.15, 0); c.rotate(0.5); c.fillRect(0, 0, W * 0.05, H * 1.4); c.fillRect(W * 0.08, 0, W * 0.02, H * 1.4); c.restore(); }
+        else {
+          c.fillStyle = "rgba(120,104,80,.55)"; c.fillRect(0, 0, W, H);
+          for (var i = 0; i < 60; i++) { c.fillStyle = "rgba(80,66,48," + (0.08 + R() * 0.18) + ")"; c.beginPath(); c.arc(R() * W, R() * H, 3 + R() * 18, 0, 7); c.fill(); }
+          c.strokeStyle = "rgba(70,58,40,.35)"; c.lineWidth = 2;
+          for (var k = 0; k < 14; k++) { var x = R() * W, y = R() * H * 0.4; c.beginPath(); c.moveTo(x, y); c.lineTo(x + (R() - 0.5) * 8, y + 40 + R() * 90); c.stroke(); }
+        }
+        c.fillStyle = "#f4f2ee"; var fw = Math.max(10, W * 0.025);
+        c.fillRect(0, 0, W, fw); c.fillRect(0, H - fw, W, fw); c.fillRect(0, 0, fw, H); c.fillRect(W - fw, 0, fw, H); c.fillRect(W / 2 - fw / 2, 0, fw, H);
       }
       function drawMown(c, R) {
         var band = Math.max(28, H / 9);
@@ -330,7 +348,7 @@
       ro.observe(stage);
       return {
         auto: auto, reset: reset,
-        recolor: function () { tool.innerHTML = TOOLS[K.tool].replace("SW", color); if (W) { bctx.globalCompositeOperation = "source-over"; drawWall(bctx, color, false, rng(seed || 7)); } }
+        recolor: function () { tool.innerHTML = TOOLS[K.tool].replace("SW", color); if (W && kind === "paint") { bctx.globalCompositeOperation = "source-over"; drawWall(bctx, color, false, rng(seed || 7)); } }
       };
     }
 

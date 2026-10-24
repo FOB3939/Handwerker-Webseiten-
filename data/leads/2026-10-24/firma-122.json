@@ -1,257 +1,412 @@
 {
   "id": "2026-10-24-122",
-  "slug": "panos-reinigungsservice-karlsfeld",
+  "slug": "parkett-stachlewitz-dachau",
   "date": "2026-10-24",
   "company": {
-    "name": "Panos Reinigungsservice",
-    "owner": "Spyridon Panos",
-    "trade": "Gebäudereinigung",
-    "city": "Karlsfeld",
-    "address": "Fasanenstr. 49, 85757 Karlsfeld",
-    "phone": "0176 21177429",
-    "email": "panos-reinigungsservice@freenet.de",
+    "name": "Parkett Stachlewitz Parkettlegermeisterbetrieb",
+    "owner": null,
+    "trade": "Parkettleger",
+    "city": "Dachau",
+    "address": "Banater Str. 2, 85221 Dachau",
+    "phone": "08131 4304678",
+    "email": null,
     "serviceArea": [
-      "Karlsfeld",
       "Dachau",
+      "Karlsfeld",
       "Bergkirchen",
-      "Oberschleißheim",
-      "München-Allach",
-      "München-Moosach"
+      "Hebertshausen",
+      "Röhrmoos",
+      "Oberschleißheim"
     ]
   },
   "listings": {
     "google": {
-      "url": "https://www.google.com/maps/search/?api=1&query=Panos%20Reinigungsservice%20Fasanenstr.%2049%20Karlsfeld",
-      "rating": null,
-      "reviews": null,
-      "evidence": "Kein Google-Spiegel gefunden. Belegt ist eine öffentliche Freemail-Adresse panos-reinigungsservice@freenet.de im 11880-Eintrag (Fasanenstr. 49, 85757 Karlsfeld, Tel. 0176 21177429, aktualisiert 09.03.2025, noch keine Bewertungen). Zusätzlich im Branchenverzeichnis der Gemeinde Karlsfeld mit Inhaber Spyridon Panos. In Maps prüfen, ob ein Profil existiert."
+      "url": "https://www.google.com/maps/search/?api=1&query=Parkett%20Stachlewitz%20Meisterbetrieb%20Karlsfeld",
+      "rating": 5,
+      "reviews": 14,
+      "evidence": "INDIREKT (Spiegel) – yably.de führt „Parkett Stachlewitz Meisterbetrieb“, Wehrstaudenstr. 37, Karlsfeld, mit 5,00/5 aus 37 Bewertungen aus 4 Quellen, davon 14 Bewertungen auf Google (dazu 20 Check24, 1 cylex, 2 GoYellow). nicelocal: 5,0 bei 8 Bewertungen. Kein direkter google.com/maps-Treffer – in Maps prüfen (Bewertungszahl und Website-Feld)."
     },
     "myhammer": {
-      "url": "https://www.11880.com/branchenbuch/karlsfeld-bei-muenchen/061331911B112956248/panos-reinigungsservice.html",
+      "url": "https://handwerk.check24.de/craftsmen/cs/profile/sp_JNpzr",
       "rating": null,
-      "reviews": null,
-      "evidence": "Kein MyHammer gefunden – 11880-Eintrag (Gebäudereinigung) und Gemeinde-Branchenverzeichnis Karlsfeld (Gebäudereinigung, Ladenlokale, Treppenhausreinigung); Kleinanzeigen-Inserate aus Karlsfeld zu Büro-, Kita- und Treppenhausreinigung sowie Vertretungen."
+      "reviews": 20,
+      "evidence": "Kein MyHammer gefunden – Check24-Profil „Parkett Stachlewitz Meisterbetrieb – Bodenleger“ („selbstständig seit 2011“, laut yably 20 Bewertungen)."
     }
   },
   "websiteStatus": "keine eigene Website gefunden",
   "websiteChecks": [
-    "(1) „\"Panos Reinigungsservice\" Karlsfeld“ mit blocked_domains (11880, Gelbe Seiten, Das Örtliche, Telefonbuch, Cylex, meinestadt, Creditreform, Facebook, Instagram, golocal, MyHammer, Northdata, Firmenwissen, WKDB, Yelp, trustlocal, wlw) – nur Gemeinde-Branchenverzeichnis karlsfeld.de und Kleinanzeigen; übrige Treffer andere Reinigungsfirmen (NextLevelClean, TD24, Mr. Cleaner, Putzperle) mit eigenen Seiten",
-    "(2) Telefonsuche „0176 21177429“/„017621177429“ mit blocked_domains – keine Treffer, keine Website",
-    "(3) Domain-Check allowed_domains panos-reinigungsservice.de, panosreinigungsservice.de, panos-reinigung.de, panosreinigung.de, panos-reinigungsservice-karlsfeld.de, panos-service.de, reinigungsservice-panos.de, panos-gebaeudereinigung.de – keine Treffer",
-    "(4) Impressum-Suche „\"Spyridon Panos\" Reinigung Impressum“ – kein eigenes Impressum gefunden",
-    "E-Mail ist Freemail (freenet.de) – keine Firmendomain",
-    "Website-Risiko: niedrig – alle Prüfungen negativ, Freemail öffentlich belegt; Google-Eintrag nicht belegt"
+    "(1) „Parkett Stachlewitz Dachau“ mit blocked_domains (11880, Gelbe Seiten, Das Örtliche, Telefonbuch, Cylex, meinestadt, Creditreform, Facebook, Instagram, golocal, MyHammer, Northdata, Firmenwissen, WKDB, Yelp, trustlocal, wlw) – nur Verzeichnisse (firmenABC, goyellow, nicelocal, check24, yably, bauenwohnen.org); keine eigene Domain",
+    "(2) Domain-Check allowed_domains parkett-stachlewitz.de, stachlewitz.de, stachlewitz-parkett.de, parkettstachlewitz.de, parkett-stachlewitz.com, stachlewitz.com, parkett-stachlewitz-dachau.de, stachlewitz-parkett.com – keine Treffer",
+    "(3) Impressum-Suche „Stachlewitz Parkettleger Impressum Karlsfeld Dachau Meisterbetrieb“ mit blocked_domains – kein eigenes Impressum; ein Verzeichnis-Snippet erwähnt ein abgeschnittenes Feld „offizielle Website“ (Inhalt nicht sichtbar)",
+    "(4) Telefonsuche „08131 4304678“ Parkett – nur dastelefonbuch-Eintrag (Banater Str. 2, Dachau, 5,0 bei 2 Bewertungen), keine Website",
+    "(5) Google-Spiegel yably.de – kein Website-Feld/Domain sichtbar",
+    "Website-Risiko: mittel – alle Prüfungen negativ, Google-Eintrag (14 Bewertungen) nur über Spiegel belegt; ein Verzeichnis deutet ein Website-Feld an"
   ],
   "facts": {
     "services": [
-      "Gebäudereinigung",
-      "Büro- und Praxisreinigung",
-      "Kita-Reinigung",
-      "Treppenhausreinigung",
-      "Reinigung von Ladenlokalen",
-      "Glas- und Rahmenreinigung",
-      "Vertretung bei Urlaub/Krankheit"
+      "Parkett verlegen",
+      "Parkett schleifen und versiegeln",
+      "Parkettrenovierung",
+      "Bodenbeläge"
     ],
-    "experience": null,
-    "praisedFor": []
+    "experience": "selbstständig seit 2011 (laut Check24/goyellow)",
+    "praisedFor": [
+      "saubere, professionelle Ausführung bei Parkettrenovierung und Versiegelung (nicelocal-Bewertung)"
+    ]
   },
   "strategy": {
-    "audience": "Hausverwaltungen, Eigentümergemeinschaften, Praxen, Büros, Läden und Kitas in Karlsfeld, Dachau und dem Münchner Nordwesten",
-    "mainService": "Unterhaltsreinigung für Treppenhäuser, Büros und Praxen",
-    "trustSignal": "Inhaber Spyridon Panos direkt per Handy erreichbar, Betrieb in Karlsfeld, im Gemeinde-Branchenverzeichnis gelistet",
-    "conversionGoal": "Kostenloses Reinigungsangebot anfragen (Objekt, Fläche, Turnus)",
-    "visualConcept": "Helle, klare Flächen: glänzende Treppenhausstufen, streifenfreie Glastüren, aufgeräumte Büros – frisches Blau-Weiß"
+    "audience": "Eigentümer und Mieter in Dachau, Karlsfeld und Umgebung, die neues Parkett verlegen oder alte Holzböden abschleifen und versiegeln lassen wollen",
+    "mainService": "Parkett verlegen und renovieren",
+    "trustSignal": "Parkettlegermeisterbetrieb mit durchweg 5-Sterne-Bewertungen auf mehreren Portalen",
+    "conversionGoal": "Kostenloses Angebot für Parkett anfragen (per Anruf oder Formular mit Fotos und Quadratmetern)",
+    "visualConcept": "Warme Holztöne, frisch geschliffene Dielen und Fischgrätmuster im Streiflicht – handwerklich, ruhig, hochwertig"
   },
   "sales": {
-    "score": 6,
+    "score": 5,
     "whyGoodLead": [
-      "Keine eigene Website gefunden – Akquise läuft offenbar über Kleinanzeigen",
-      "Mobilnummer und Freemail-Adresse öffentlich – leichter Erstkontakt",
-      "B2B-Kunden (Hausverwaltungen, Praxen) erwarten eine seriöse Website vor der Anfrage",
-      "Keine Bewertungen – Website plus Google-Profil schafft schnell Vertrauen"
+      "Keine eigene Website gefunden – trotz 5,0 Sternen auf Google (14) und Check24 (20)",
+      "Meisterbetrieb mit sehr guten Bewertungen – starke Basis für eine Website",
+      "Boden/Parkett war bisher selten unter den Leads",
+      "Dachau/Karlsfeld: viele Bestandswohnungen mit Renovierungsbedarf"
     ],
-    "pitch": "Hallo Herr Panos, hier ist … – ich baue Websites für Betriebe im Landkreis Dachau. Ich habe Panos Reinigungsservice in Karlsfeld gefunden, aber keine eigene Website. Ich habe unverbindlich einen Entwurf vorbereitet, auf dem Hausverwaltungen und Praxen Ihre Treppenhaus- und Büroreinigung sehen und direkt ein Angebot anfragen können – darf ich Ihnen den Link schicken?"
+    "pitch": "Hallo, hier ist … – ich baue Websites für Handwerksbetriebe im Landkreis Dachau. Ich habe gesehen, dass Parkett Stachlewitz durchweg 5-Sterne-Bewertungen hat, aber keine eigene Website. Ich habe unverbindlich einen Entwurf vorbereitet, auf dem Kunden Ihre Parkettarbeiten sehen und direkt ein Angebot anfragen können – darf ich Ihnen den Link schicken?"
   },
   "manualChecks": [
-    "Website-Risiko: niedrig – vor Versand in Google Maps prüfen, dass keine Website hinterlegt ist (Grund: Google-Eintrag nicht belegt, nur Verzeichnisse mit freenet-Adresse)",
-    "Kleinanzeigen-Inserate (Büro/Kita/Treppenhaus/Vertretungen, Karlsfeld) nur über Suchsnippet dem Betrieb zugeordnet – Zugehörigkeit bestätigen",
-    "Bürozeiten laut Gemeindeverzeichnis werktags vormittags plus Donnerstagnachmittag – genaue Zeiten erfragen, bevor sie auf die Seite kommen",
-    "Leistungen aus Verzeichnis und Inseraten – Umfang (z. B. Glasreinigung, Ladenlokale) beim Betrieb bestätigen",
-    "Logo und Fotos: nicht gefunden – beim Betrieb anfragen"
+    "Website-Risiko: mittel – vor Versand in Google Maps prüfen, dass keine Website hinterlegt ist (Grund: Google-Eintrag nur über yably-Spiegel belegt; ein Verzeichnis-Snippet erwähnt ein abgeschnittenes Feld „offizielle Website“)",
+    "Zwei Adressen: Banater Str. 2, 85221 Dachau (dastelefonbuch, 11880, firmenABC) und Wehrstaudenstr. 37, 85757 Karlsfeld (Google laut yably, nicelocal) – gleiche Telefonnummer; aktuelle Adresse klären",
+    "Inhaber widersprüchlich: bauenwohnen.org nennt Michael Stachlewitz, goyellow/golocal nennen Michael Mereu – beim Erstkontakt neutral anreden und klären",
+    "Keine E-Mail und keine Mobilnummer gefunden – Erstkontakt per Festnetz 08131 4304678",
+    "Leistungen nur grob belegt (Parkettlegermeister, Parkettrenovierung/Versiegelung laut Bewertung) – weitere Bodenbeläge (Vinyl, Teppich) beim Betrieb bestätigen",
+    "Logo und Projektfotos: nicht gefunden – beim Betrieb anfragen"
   ],
   "sources": [
     {
-      "label": "11880 – Panos Reinigungsservice Karlsfeld",
-      "url": "https://www.11880.com/branchenbuch/karlsfeld-bei-muenchen/061331911B112956248/panos-reinigungsservice.html"
+      "label": "yably – Parkett Stachlewitz Meisterbetrieb, Karlsfeld (u. a. 14 Google-Bewertungen)",
+      "url": "https://yably.de/bewertungen/karlsfeld/parkett-stachlewitz-meisterbetrieb-wehrstaudenstr-37"
     },
     {
-      "label": "Gemeinde Karlsfeld – Branchenverzeichnis: Panos Reinigungsservice",
-      "url": "https://karlsfeld.de/index.php?gid=559&id=%2C49"
+      "label": "nicelocal – Parkett Stachlewitz Meisterbetrieb",
+      "url": "https://en.nicelocal.com.de/bayern/building/parkett_stachlewitz_meisterbetrieb/"
     },
     {
-      "label": "Kleinanzeigen – Gebäudereinigung Büro, Kita, Treppenhäuser, Vertretungen (Karlsfeld)",
-      "url": "https://www.kleinanzeigen.de/s-anzeige/gebaeudereinigung-buero-kita-treppenhaeuser-vertretungen/2766956233-239-6252"
+      "label": "Check24 – Parkett Stachlewitz Meisterbetrieb (Bodenleger)",
+      "url": "https://handwerk.check24.de/craftsmen/cs/profile/sp_JNpzr"
+    },
+    {
+      "label": "goyellow – Parkett Stachlewitz Parkettlegermeisterbetrieb",
+      "url": "https://www.goyellow.de/home/fussbodenlegerei-parkett-stachlewitz-parkettlegermeisterbetrieb-karlsfeld--2dptn0.html"
+    },
+    {
+      "label": "Das Telefonbuch – Parkett Stachlewitz, Banater Str., Dachau",
+      "url": "https://adresse.dastelefonbuch.de/Dachau/1-Parkett-Stachlewitz-Dachau-Banater-Str.html"
+    },
+    {
+      "label": "firmenABC – Parkett Stachlewitz in Dachau",
+      "url": "https://www.firmenabc.com/u/parkett-stachlewitz_fsagxi"
     }
   ],
   "site": {
-    "theme": "objekt",
+    "theme": "atelier",
     "category": "handwerk",
     "heroOffer": [
-      "Treppenhäuser",
-      "Büros",
-      "Praxen",
-      "Glasreinigung",
-      "Vertretungen"
+      "Parkett verlegen",
+      "Abschleifen",
+      "Versiegeln",
+      "Renovierung",
+      "Bodenbeläge"
     ],
-    "scene": "facade",
-    "logoIcon": "broom",
-    "logoMark": "PR",
-    "brandName": "Panos Reinigungsservice",
-    "seoTitle": "Gebäudereinigung in Karlsfeld – Panos Reinigungsservice",
-    "seoDescription": "Treppenhaus-, Büro-, Praxis- und Kita-Reinigung in Karlsfeld und Dachau. Jetzt kostenloses Reinigungsangebot anfragen.",
+    "scene": "parquet",
+    "logoIcon": "plank",
+    "logoMark": "PS",
+    "brandName": "Parkett Stachlewitz",
+    "seoTitle": "Parkettleger in Dachau – Parkett Stachlewitz Meisterbetrieb",
+    "seoDescription": "Parkett verlegen, abschleifen und versiegeln in Dachau und Karlsfeld. Parkettlegermeisterbetrieb – jetzt kostenloses Angebot anfragen.",
     "nav": [
-      { "label": "Leistungen", "href": "#leistungen" },
-      { "label": "Objekte", "href": "#projekte" },
-      { "label": "Bewertungen", "href": "#bewertungen" },
-      { "label": "Ablauf", "href": "#ablauf" },
-      { "label": "FAQ", "href": "#faq" },
-      { "label": "Kontakt", "href": "#kontakt" }
+      {
+        "label": "Leistungen",
+        "href": "#leistungen"
+      },
+      {
+        "label": "Projekte",
+        "href": "#projekte"
+      },
+      {
+        "label": "Bewertungen",
+        "href": "#bewertungen"
+      },
+      {
+        "label": "Ablauf",
+        "href": "#ablauf"
+      },
+      {
+        "label": "FAQ",
+        "href": "#faq"
+      },
+      {
+        "label": "Kontakt",
+        "href": "#kontakt"
+      }
     ],
     "hero": {
-      "eyebrow": "Gebäudereinigung · Karlsfeld",
-      "headline": "Gebäudereinigung aus Karlsfeld",
-      "sub": "Treppenhäuser, Büros und Praxen regelmäßig sauber – mit festem Ansprechpartner.",
-      "ctaPrimary": "Reinigungsangebot anfragen",
+      "eyebrow": "Parkettlegermeister · Dachau",
+      "headline": "Ihr Parkettleger in Dachau",
+      "sub": "Neues Parkett und renovierte Holzböden – vom Meisterbetrieb aus Dachau.",
+      "ctaPrimary": "Kostenloses Angebot anfragen",
       "ctaSecondary": "Anrufen",
       "bullets": [
-        "Inhabergeführt aus Karlsfeld",
-        "Treppenhaus, Büro, Praxis, Kita",
-        "Auch Vertretung bei Ausfall"
+        "Parkettlegermeisterbetrieb",
+        "5,0 Sterne auf Google",
+        "Verlegen, Schleifen, Versiegeln"
       ],
-      "imageLabel": "frisch gereinigtes, helles Treppenhaus"
+      "imageLabel": "frisch geschliffener Eichenparkett im Streiflicht"
     },
     "badges": [
-      { "title": "Treppenhaus", "sub": "für Hausverwaltungen" },
-      { "title": "Büro & Praxis", "sub": "Unterhaltsreinigung" },
-      { "title": "Vertretung", "sub": "bei Urlaub & Krankheit" },
-      { "title": "Karlsfeld", "sub": "Fasanenstraße" }
+      {
+        "title": "Meisterbetrieb",
+        "sub": "Parkettlegerhandwerk"
+      },
+      {
+        "title": "5,0 Sterne",
+        "sub": "14 Google-Bewertungen"
+      },
+      {
+        "title": "Renovierung",
+        "sub": "Schleifen & Versiegeln"
+      },
+      {
+        "title": "Dachau",
+        "sub": "und Karlsfeld"
+      }
     ],
     "trust": [
-      { "value": "Vor Ort", "label": "Betrieb in Karlsfeld" },
-      { "value": "6", "label": "Reinigungsbereiche" },
-      { "value": "Gewerbe", "label": "Büro, Praxis, Laden, Kita" },
-      { "value": "Mobil", "label": "Inhaber direkt erreichbar" }
+      {
+        "value": "5,0",
+        "label": "Sterne auf Google"
+      },
+      {
+        "value": "14",
+        "label": "Google-Bewertungen"
+      },
+      {
+        "value": "Meister",
+        "label": "Parkettlegerbetrieb"
+      },
+      {
+        "value": "Vor Ort",
+        "label": "Dachau & Karlsfeld"
+      }
     ],
     "servicesIntro": {
-      "headline": "Reinigung für Wohnanlagen und Gewerbe",
-      "text": "Ob Treppenhaus einer Wohnanlage, Arztpraxis oder Ladenlokal: Panos Reinigungsservice reinigt regelmäßig und springt auch ein, wenn Ihr eigenes Personal ausfällt."
+      "headline": "Parkett – neu verlegt oder wie neu",
+      "text": "Ob neuer Boden oder alter Holzboden mit Kratzern: Der Meisterbetrieb verlegt, schleift und versiegelt Parkett sauber und staubarm."
     },
     "services": [
       {
-        "title": "Treppenhausreinigung",
-        "text": "Regelmäßige Reinigung von Treppen, Fluren und Eingangsbereichen – für Hausverwaltungen und Eigentümergemeinschaften.",
-        "items": ["Treppen & Flure", "Eingangsbereiche", "Fester Turnus"]
+        "title": "Parkett verlegen",
+        "text": "Neues Parkett fachgerecht verlegen – verklebt oder schwimmend, passend zum Raum.",
+        "items": [
+          "Landhausdielen",
+          "Fischgrät",
+          "Mehrschichtparkett"
+        ]
       },
       {
-        "title": "Büroreinigung",
-        "text": "Saubere Arbeitsplätze, Küchen und Sanitärräume – zu Zeiten, die den Betrieb nicht stören.",
-        "items": ["Arbeitsplätze", "Teeküche", "Sanitärräume"]
+        "title": "Parkett abschleifen",
+        "text": "Kratzer, Flecken und Abnutzung abschleifen – der Holzboden bekommt eine frische Oberfläche.",
+        "items": [
+          "Abschleifen",
+          "Kratzer entfernen",
+          "Dielen auffrischen"
+        ]
       },
       {
-        "title": "Praxisreinigung",
-        "text": "Gründliche Reinigung von Wartebereich, Behandlungsräumen und Empfang.",
-        "items": ["Wartezimmer", "Behandlungsräume", "Empfang"]
+        "title": "Versiegeln und Ölen",
+        "text": "Lack oder Öl schützen die Oberfläche und betonen die Holzmaserung.",
+        "items": [
+          "Versiegeln",
+          "Ölen",
+          "Pflegebehandlung"
+        ]
       },
       {
-        "title": "Kita-Reinigung",
-        "text": "Gruppenräume, Waschräume und Flure sauber für den nächsten Tag.",
-        "items": ["Gruppenräume", "Waschräume", "Flure"]
+        "title": "Parkettrenovierung",
+        "text": "Alte Holzböden in Altbau und Bestandswohnung wieder schön machen.",
+        "items": [
+          "Altbauparkett",
+          "Reparaturen",
+          "Fugen schließen"
+        ]
       },
       {
-        "title": "Glas- und Rahmenreinigung",
-        "text": "Streifenfreie Fenster, Glastüren und Rahmen – für Laden, Büro oder Treppenhaus.",
-        "items": ["Fenster", "Glastüren", "Rahmen"]
+        "title": "Sockelleisten und Übergänge",
+        "text": "Saubere Abschlüsse an Wänden, Türen und zwischen Bodenbelägen.",
+        "items": [
+          "Sockelleisten",
+          "Übergangsprofile",
+          "Türbereiche"
+        ]
       },
       {
-        "title": "Ladenlokale & Vertretung",
-        "text": "Reinigung von Geschäftsräumen und Vertretung, wenn Ihre Reinigungskraft im Urlaub oder krank ist.",
-        "items": ["Ladenlokale", "Urlaubsvertretung", "Krankheitsvertretung"]
+        "title": "Untergrund vorbereiten",
+        "text": "Ein ebener Untergrund ist die Basis für einen dauerhaft schönen Boden.",
+        "items": [
+          "Altbelag entfernen",
+          "Ausgleichen",
+          "Untergrund prüfen"
+        ]
       }
     ],
     "why": {
-      "headline": "Reinigung aus Karlsfeld – verlässlich und persönlich.",
+      "headline": "Parkett vom Meisterbetrieb aus Dachau.",
       "points": [
-        { "title": "Fester Ansprechpartner", "text": "Sie sprechen direkt mit dem Inhaber – kein Callcenter, keine Weiterleitung." },
-        { "title": "Kurze Wege", "text": "Von der Fasanenstraße aus schnell in Dachau, Allach und Oberschleißheim." },
-        { "title": "Einspringen möglich", "text": "Fällt Ihre Reinigungskraft aus, übernimmt Panos Reinigungsservice die Vertretung." },
-        { "title": "Für viele Objekte", "text": "Treppenhaus, Büro, Praxis, Laden und Kita aus einer Hand." }
+        {
+          "title": "Meisterqualität",
+          "text": "Parkettlegermeisterbetrieb – Handwerk mit Ausbildung und Erfahrung."
+        },
+        {
+          "title": "Bestnoten",
+          "text": "5,0 Sterne auf Google und weiteren Portalen."
+        },
+        {
+          "title": "Sauber gearbeitet",
+          "text": "Kunden loben die saubere, professionelle Ausführung."
+        },
+        {
+          "title": "Kurze Wege",
+          "text": "Von Dachau aus schnell in Karlsfeld, Bergkirchen und Hebertshausen."
+        }
       ]
     },
     "reviews": {
       "headline": "Was Kunden sagen",
-      "summary": "Kundenstimmen werden hier eingebunden, sobald sie aus dem Google-Profil übernommen sind.",
+      "summary": "5,0 von 5 Sternen bei 14 Google-Bewertungen (laut Bewertungsübersicht). Kundenstimmen werden hier aus dem Google-Profil eingebunden.",
       "highlights": [
-        "Gebäudereinigung in Karlsfeld",
-        "Treppenhaus- und Büroreinigung",
-        "Direkter Kontakt zum Inhaber"
+        "Saubere Ausführung",
+        "Parkettrenovierung und Versiegelung",
+        "Professionelle Arbeit"
       ],
       "source": "Google",
-      "sourceUrl": "https://www.google.com/maps/search/?api=1&query=Panos%20Reinigungsservice%20Fasanenstr.%2049%20Karlsfeld",
-      "rating": null,
-      "count": null
+      "sourceUrl": "https://www.google.com/maps/search/?api=1&query=Parkett%20Stachlewitz%20Meisterbetrieb%20Karlsfeld",
+      "rating": 5,
+      "count": 14
     },
     "process": {
-      "headline": "In vier Schritten zum sauberen Objekt",
+      "headline": "In vier Schritten zum neuen Boden",
       "steps": [
-        { "title": "Anfrage", "text": "Objekt, ungefähre Fläche und gewünschten Turnus kurz schildern – telefonisch oder per Nachricht." },
-        { "title": "Begehung", "text": "Räume, Böden und Besonderheiten werden vor Ort angesehen." },
-        { "title": "Angebot", "text": "Sie erhalten ein klares Angebot mit Leistungsumfang und Turnus." },
-        { "title": "Reinigung", "text": "Die Reinigung startet zum vereinbarten Termin – regelmäßig oder als Vertretung." }
+        {
+          "title": "Anfrage",
+          "text": "Raum, Quadratmeter und Fotos des Bodens schicken – oder kurz anrufen."
+        },
+        {
+          "title": "Besichtigung",
+          "text": "Untergrund, Holzart und Ausführung werden vor Ort besprochen."
+        },
+        {
+          "title": "Angebot",
+          "text": "Sie erhalten ein klares Angebot für Verlegung oder Renovierung."
+        },
+        {
+          "title": "Ausführung",
+          "text": "Verlegen, Schleifen, Versiegeln – sauber übergeben."
+        }
       ]
     },
     "gallery": {
-      "headline": "Objekte, die sauber bleiben",
-      "text": "Für die Live-Version zeigen wir hier echte Objekte des Betriebs.",
+      "headline": "Böden, die wieder glänzen",
+      "text": "Für die Live-Version zeigen wir hier echte Projekte des Betriebs.",
       "items": [
-        { "title": "Treppenhaus", "photoNeeded": "gereinigtes Treppenhaus einer Wohnanlage" },
-        { "title": "Büro", "photoNeeded": "aufgeräumtes, sauberes Großraumbüro" },
-        { "title": "Arztpraxis", "photoNeeded": "heller Wartebereich einer Praxis" },
-        { "title": "Glasfront", "photoNeeded": "streifenfreie Glastür eines Ladenlokals" },
-        { "title": "Kita", "photoNeeded": "sauberer Gruppenraum mit Kinderstühlen" }
+        {
+          "title": "Fischgrätparkett",
+          "photoNeeded": "neu verlegtes Fischgrätparkett im Wohnzimmer"
+        },
+        {
+          "title": "Landhausdielen",
+          "photoNeeded": "breite Eichendielen in hellem Raum"
+        },
+        {
+          "title": "Vorher – nachher",
+          "photoNeeded": "abgenutzter und frisch geschliffener Parkettboden"
+        },
+        {
+          "title": "Geölte Oberfläche",
+          "photoNeeded": "Nahaufnahme geöltes Parkett mit Maserung"
+        },
+        {
+          "title": "Saubere Abschlüsse",
+          "photoNeeded": "Sockelleiste und Übergang an der Tür"
+        }
       ]
     },
     "region": {
-      "headline": "Reinigung für Karlsfeld und den Münchner Nordwesten",
-      "text": "Von Karlsfeld aus schnell in Dachau, Bergkirchen, Oberschleißheim, Allach und Moosach.",
-      "places": ["Karlsfeld", "Dachau", "Bergkirchen", "Oberschleißheim", "München-Allach", "München-Moosach"]
+      "headline": "Parkettleger für Dachau und Karlsfeld",
+      "text": "Von Dachau aus in Karlsfeld, Bergkirchen, Hebertshausen, Röhrmoos und Oberschleißheim.",
+      "places": [
+        "Dachau",
+        "Karlsfeld",
+        "Bergkirchen",
+        "Hebertshausen",
+        "Röhrmoos",
+        "Oberschleißheim"
+      ]
     },
     "faq": [
-      { "q": "Wie oft wird gereinigt?", "a": "Den Turnus legen Sie fest – zum Beispiel wöchentlich oder mehrmals pro Woche. Das wird im Angebot festgehalten." },
-      { "q": "Übernehmen Sie auch kurzfristige Vertretungen?", "a": "Ja, Vertretungen bei Urlaub oder Krankheit Ihrer Reinigungskraft gehören zum Angebot." },
-      { "q": "Reinigen Sie auch Fenster und Glastüren?", "a": "Ja, Glas- und Rahmenreinigung wird angeboten." },
-      { "q": "Für welche Objekte arbeiten Sie?", "a": "Treppenhäuser, Büros, Praxen, Ladenlokale und Kitas." },
-      { "q": "Arbeiten Sie auch außerhalb von Karlsfeld?", "a": "Ja, im Umkreis von Karlsfeld und Dachau – fragen Sie einfach an." }
+      {
+        "q": "Lohnt sich Abschleifen statt neuem Parkett?",
+        "a": "Oft ja – massives Parkett und viele Mehrschichtböden lassen sich abschleifen. Ob das bei Ihrem Boden geht, klären wir bei der Besichtigung."
+      },
+      {
+        "q": "Lack oder Öl – was ist besser?",
+        "a": "Beides hat Vorteile: Lack ist sehr strapazierfähig, Öl wirkt natürlicher. Wir beraten Sie passend zur Nutzung."
+      },
+      {
+        "q": "Wie lange dauert eine Parkettrenovierung?",
+        "a": "Das hängt von Fläche und Oberfläche ab. Einen genauen Zeitplan erhalten Sie mit dem Angebot."
+      },
+      {
+        "q": "Kann ich vorab Fotos schicken?",
+        "a": "Ja, Fotos und die ungefähre Quadratmeterzahl helfen für eine erste Einschätzung."
+      },
+      {
+        "q": "Arbeiten Sie auch außerhalb von Dachau?",
+        "a": "Ja, im Landkreis Dachau und im Münchner Norden – fragen Sie einfach an."
+      }
     ],
     "contact": {
-      "headline": "Ihr Reinigungsangebot – kostenlos und unverbindlich",
-      "text": "Nennen Sie kurz Objektart, ungefähre Fläche und gewünschten Turnus. Wir melden uns mit einem Angebot.",
-      "topics": ["Treppenhausreinigung", "Büroreinigung", "Praxisreinigung", "Kita-Reinigung", "Glasreinigung", "Vertretung"],
-      "responseNote": "Begehung nach Absprache."
+      "headline": "Ihr Angebot – kostenlos und unverbindlich",
+      "text": "Beschreiben Sie kurz Ihr Vorhaben: welcher Raum, ungefähre Quadratmeter und ob neu verlegen oder renovieren. Fotos helfen.",
+      "topics": [
+        "Parkett verlegen",
+        "Parkett abschleifen",
+        "Versiegeln oder Ölen",
+        "Parkettrenovierung",
+        "Sonstiges"
+      ],
+      "responseNote": "Besichtigung nach Absprache."
     },
     "quote": {
-      "sizeLabel": "Wie groß ist das Objekt?",
-      "sizes": ["Treppenhaus", "Bis 100 m²", "100–300 m²", "Über 300 m²"],
-      "timings": ["So bald wie möglich", "Ab nächstem Monat", "Nur als Vertretung", "Ich plane erst noch"]
+      "sizeLabel": "Wie groß ist die Fläche?",
+      "sizes": [
+        "Bis 20 m²",
+        "20–50 m²",
+        "50–100 m²",
+        "Über 100 m²"
+      ],
+      "timings": [
+        "So bald wie möglich",
+        "In den nächsten Wochen",
+        "In 1–3 Monaten",
+        "Ich plane erst noch"
+      ]
     },
     "stickyCta": "Angebot anfragen",
     "look": {
       "palette": 2,
-      "font": 6,
+      "font": 4,
       "hero": 0,
-      "services": 1,
-      "radius": 1,
-      "logo": 0,
-      "intro": 5
+      "services": 2,
+      "radius": 3,
+      "logo": 2,
+      "intro": 3
     }
   }
 }
