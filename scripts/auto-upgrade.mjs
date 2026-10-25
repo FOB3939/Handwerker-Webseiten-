@@ -19,7 +19,10 @@ const sat = (h) => { const v = h.slice(1).match(/../g).map((x) => parseInt(x, 16
 const cands = [...html.matchAll(/--(?:champ|acc|accent|brand|gold|primary|red|orange|signal|highlight)[\w-]*\s*:\s*(#[0-9a-f]{6})\b/gi)].map((m) => m[1])
   .filter((h) => sat(h) > 40 && lum(h) > 0.12 && lum(h) < 0.85);
 const accent = cands.sort((a, b) => lum(b) - lum(a))[0] ?? "#c8a45e";
-const ctaId = ["kontakt", "contact", "anfrage", "termin"].find((id) => new RegExp(`id="${id}"`).test(html));
+// Sprungziel: der Abschnitt mit dem ersten Textfeld (dort landet die Auswahl), sonst Kontakt/Anfrage
+const ta = html.search(/<textarea\b/i);
+const taId = ta > 0 ? [...html.slice(0, ta).matchAll(/<section\b[^>]*\bid="([^"]+)"/gi)].pop()?.[1] : undefined;
+const ctaId = taId ?? ["kontakt", "contact", "anfrage", "termin", "ankauf"].find((id) => new RegExp(`id="${id}"`).test(html));
 const cta = ctaId ? `#${ctaId}` : "#kontakt";
 
 if (/data-auto-game/.test(html)) report.push("Spiel schon vorhanden");
