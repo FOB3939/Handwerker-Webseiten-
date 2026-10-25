@@ -1,0 +1,397 @@
+{
+  "id": "2026-10-25-131",
+  "slug": "a1-jukic-bau-unterhaching",
+  "date": "2026-10-25",
+  "company": {
+    "name": "A1 Jukic Bau",
+    "owner": null,
+    "trade": "Malerbetrieb, Estrich & Trockenbau",
+    "city": "Unterhaching",
+    "address": "Kapellenstr. 22, 82008 Unterhaching",
+    "phone": "0176 99944408",
+    "email": null,
+    "serviceArea": [
+      "Unterhaching",
+      "Taufkirchen",
+      "Oberhaching",
+      "Neubiberg",
+      "Ottobrunn",
+      "München-Perlach"
+    ]
+  },
+  "listings": {
+    "google": {
+      "url": "https://www.google.com/maps/search/?api=1&query=A1%20Jukic%20Bau%20Kapellenstr.%2022%20Unterhaching",
+      "rating": null,
+      "reviews": null,
+      "evidence": "NICHT BELEGT – Spiegel-Suche (rgv-bayern, firmania, trustlocal, cylex, Gelbe Seiten, Das Örtliche, golocal) ohne Treffer für „A1 Jukic Bau“; nur ein gleichnamiger, fremder Haushaltsgeräte-Reparaturservice „Jukic“ in München-Harlaching. Google-Eintrag in Maps prüfen."
+    },
+    "myhammer": {
+      "url": "https://www.11880.com/suche/maler/unterhaching",
+      "rating": null,
+      "reviews": null,
+      "evidence": "Kein MyHammer gefunden – Eintrag „A1 Jukic Bau“ in der 11880-Ortsliste Maler Unterhaching (Maler, Estrich & Trockenbau, Kapellenstr. 22, 0176 99944408); zusätzlich als Nachbarbetrieb auf fliesenleger24.com (Profil Hallermeier & Sohn, Haar) gelistet."
+    }
+  },
+  "websiteStatus": "keine eigene Website gefunden",
+  "websiteChecks": [
+    "(1) „\"A1 Jukic Bau\" Unterhaching“ mit blocked_domains (11880, Gelbe Seiten, Das Örtliche, Telefonbuch, Cylex, meinestadt, Creditreform, Facebook, Instagram, golocal, MyHammer, Northdata, Firmenwissen, WKDB, Yelp, trustlocal, wlw) – einziger Treffer fliesenleger24.com (Nachbar-Liste auf Profil Hallermeier & Sohn GmbH, Haar) mit Adresse Kapellenstr. 22; keine eigene Domain",
+    "(2) Domain-Check allowed_domains a1-jukic-bau.de, a1jukicbau.de, jukic-bau.de, jukicbau.de, a1-jukic.de, jukic-bau-unterhaching.de, a1-bau-jukic.de, jukic-bau.com – einziger Treffer jukic-bau.de = Diamantbohrtechnik Senad Jukic in Rödermark (Hessen), anderer Betrieb ohne erkennbaren Bezug",
+    "(3) Telefonsuche „0176 99944408“/„017699944408“ (ohne 11880) – nur Rufnummernblock-Liste anrufer.info (O2), keine Website",
+    "(4) Spiegel-/Verzeichnissuche (rgv-bayern, firmania, trustlocal, cylex, Gelbe Seiten, Das Örtliche, golocal) – kein Eintrag, kein Website-Feld",
+    "(5) Impressum-Suche nicht durchgeführt (Suchbudget erschöpft); keine E-Mail gefunden (auch keine Freemail)",
+    "Website-Risiko: mittel – Prüfungen negativ, aber weder Google-Eintrag noch Freemail belegt (RESERVE)"
+  ],
+  "facts": {
+    "services": [
+      "Malerarbeiten",
+      "Estricharbeiten",
+      "Trockenbau"
+    ],
+    "experience": null,
+    "praisedFor": []
+  },
+  "strategy": {
+    "audience": "Eigentümer, Vermieter und Bauherren in Unterhaching, Taufkirchen, Oberhaching und Neubiberg, die renovieren, ausbauen oder neu streichen lassen",
+    "mainService": "Malerarbeiten mit Estrich und Trockenbau aus einer Hand",
+    "trustSignal": "Betrieb vor Ort in Unterhaching, direkt per Handy erreichbar",
+    "conversionGoal": "Kostenloses Angebot anfragen (per WhatsApp/Anruf mit Fotos)",
+    "visualConcept": "Frisch gestrichene, helle Innenräume mit glatten Trockenbauwänden und sauberem Estrich – Rohbau wird Wohnraum"
+  },
+  "sales": {
+    "score": 4,
+    "whyGoodLead": [
+      "Keine eigene Website gefunden – nur ein 11880-Eintrag mit Handynummer",
+      "Mobilnummer öffentlich gelistet – ideal für WhatsApp-Erstkontakt",
+      "Drei Gewerke (Maler, Estrich, Trockenbau) – eine Website bündelt das Angebot klar",
+      "Unterhaching und Umgebung: viel Bestand, viele Renovierungen"
+    ],
+    "pitch": "Hallo, hier ist … – ich baue Websites für Handwerker im Münchner Süden. Ich habe Ihren Eintrag „A1 Jukic Bau“ in Unterhaching gefunden, aber keine eigene Website. Ich habe unverbindlich einen Entwurf vorbereitet, auf dem Kunden Ihre Maler-, Estrich- und Trockenbauarbeiten sehen und direkt per WhatsApp anfragen können – darf ich Ihnen den Link schicken?"
+  },
+  "manualChecks": [
+    "RESERVE – weder Google-Eintrag noch Freemail-Adresse belegt: NUR versenden, wenn Google Maps einen Eintrag OHNE Website zeigt.",
+    "Google-Eintrag in Maps suchen (A1 Jukic Bau, Kapellenstr. 22, Unterhaching) – Existenz, Bewertungen und Website-Feld prüfen",
+    "Impressum-Suche nachholen (Suchbudget erschöpft) – sicherstellen, dass keine eigene Seite existiert",
+    "Inhabername unbekannt – beim Erstkontakt erfragen, Anrede neutral halten",
+    "Leistungen nur als Kategorien belegt (Maler, Estrich, Trockenbau) – Details (Fassade, Tapezieren, Fließestrich) beim Betrieb bestätigen",
+    "Logo und Projektfotos: nicht gefunden – beim Betrieb anfragen"
+  ],
+  "sources": [
+    {
+      "label": "11880 – Maler Unterhaching (Liste mit A1 Jukic Bau)",
+      "url": "https://www.11880.com/suche/maler/unterhaching"
+    },
+    {
+      "label": "fliesenleger24 – Profil Hallermeier & Sohn (Nachbarliste mit A1 Jukic Bau, Kapellenstr. 22)",
+      "url": "https://www.fliesenleger24.com/stadt/haar/profil/hallermeier-sohn-gmbh/"
+    },
+    {
+      "label": "anrufer.info – Rufnummernblock 0176-9994",
+      "url": "https://anrufer.info/mobil/0176-9994"
+    }
+  ],
+  "site": {
+    "theme": "atelier",
+    "category": "handwerk",
+    "heroOffer": [
+      "Malerarbeiten",
+      "Estrich",
+      "Trockenbau",
+      "Renovierung",
+      "Innenausbau"
+    ],
+    "scene": "paint",
+    "logoIcon": "roller",
+    "logoMark": "A1",
+    "brandName": "A1 Jukic Bau",
+    "seoTitle": "Maler, Estrich & Trockenbau in Unterhaching – A1 Jukic Bau",
+    "seoDescription": "Malerarbeiten, Estrich und Trockenbau in Unterhaching, Taufkirchen und Oberhaching. Jetzt kostenloses Angebot anfragen – auch per WhatsApp.",
+    "nav": [
+      {
+        "label": "Leistungen",
+        "href": "#leistungen"
+      },
+      {
+        "label": "Projekte",
+        "href": "#projekte"
+      },
+      {
+        "label": "Bewertungen",
+        "href": "#bewertungen"
+      },
+      {
+        "label": "Ablauf",
+        "href": "#ablauf"
+      },
+      {
+        "label": "FAQ",
+        "href": "#faq"
+      },
+      {
+        "label": "Kontakt",
+        "href": "#kontakt"
+      }
+    ],
+    "hero": {
+      "eyebrow": "Maler · Estrich · Trockenbau · Unterhaching",
+      "headline": "Maler und Ausbau in Unterhaching",
+      "sub": "Wände, Böden und Decken – vom Estrich bis zum letzten Anstrich.",
+      "ctaPrimary": "Kostenloses Angebot anfragen",
+      "ctaSecondary": "Anrufen",
+      "bullets": [
+        "Betrieb in Unterhaching",
+        "Drei Gewerke aus einer Hand",
+        "Direkt per Handy erreichbar"
+      ],
+      "imageLabel": "frisch gestrichener Raum mit neuer Trockenbauwand"
+    },
+    "badges": [
+      {
+        "title": "Malerarbeiten",
+        "sub": "innen & Renovierung"
+      },
+      {
+        "title": "Estrich",
+        "sub": "tragfähiger Untergrund"
+      },
+      {
+        "title": "Trockenbau",
+        "sub": "Wände & Decken"
+      },
+      {
+        "title": "Unterhaching",
+        "sub": "Kapellenstraße"
+      }
+    ],
+    "trust": [
+      {
+        "value": "3",
+        "label": "Gewerke aus einer Hand"
+      },
+      {
+        "value": "Vor Ort",
+        "label": "Betrieb in Unterhaching"
+      },
+      {
+        "value": "Mobil",
+        "label": "schnell erreichbar"
+      },
+      {
+        "value": "1",
+        "label": "Ansprechpartner fürs Projekt"
+      }
+    ],
+    "servicesIntro": {
+      "headline": "Vom Rohbau bis zur fertigen Wand",
+      "text": "A1 Jukic Bau übernimmt Estrich, Trockenbau und Malerarbeiten – Sie stimmen alles mit einem Betrieb ab statt mit drei."
+    },
+    "services": [
+      {
+        "title": "Innenanstrich",
+        "text": "Wände und Decken werden abgedeckt, vorbereitet und sauber gestrichen.",
+        "items": [
+          "Wände",
+          "Decken",
+          "Treppenhaus"
+        ]
+      },
+      {
+        "title": "Renovierung",
+        "text": "Wohnungen nach Auszug oder vor dem Einzug wieder in Schuss bringen.",
+        "items": [
+          "Ausbessern",
+          "Spachteln",
+          "Neu streichen"
+        ]
+      },
+      {
+        "title": "Estricharbeiten",
+        "text": "Ebener, tragfähiger Estrich als Grundlage für Fliesen, Parkett oder Vinyl.",
+        "items": [
+          "Neuer Estrich",
+          "Ausgleich",
+          "Bodenvorbereitung"
+        ]
+      },
+      {
+        "title": "Trockenbauwände",
+        "text": "Neue Raumaufteilung mit Ständerwänden – fertig für den Anstrich.",
+        "items": [
+          "Ständerwände",
+          "Raumteiler",
+          "Verspachteln"
+        ]
+      },
+      {
+        "title": "Decken & Verkleidungen",
+        "text": "Abgehängte Decken und Verkleidungen, die Leitungen verschwinden lassen.",
+        "items": [
+          "Abgehängte Decken",
+          "Vorsatzschalen",
+          "Leitungen verkleiden"
+        ]
+      },
+      {
+        "title": "Ausbau aus einer Hand",
+        "text": "Estrich, Trockenbau und Anstrich in einer Abfolge – ohne Abstimmung zwischen mehreren Firmen.",
+        "items": [
+          "Ein Ansprechpartner",
+          "Abgestimmte Abfolge",
+          "Saubere Übergabe"
+        ]
+      }
+    ],
+    "why": {
+      "headline": "Ein Betrieb für Boden, Wand und Farbe.",
+      "points": [
+        {
+          "title": "Drei Gewerke",
+          "text": "Estrich, Trockenbau und Malerarbeiten kommen aus einer Hand."
+        },
+        {
+          "title": "Kurze Wege",
+          "text": "Der Betrieb sitzt in Unterhaching und ist schnell in Taufkirchen, Oberhaching und Neubiberg."
+        },
+        {
+          "title": "Direkter Draht",
+          "text": "Ein Anruf oder eine WhatsApp-Nachricht genügt – ohne Callcenter."
+        },
+        {
+          "title": "Klare Abfolge",
+          "text": "Erst Boden und Wände, dann die Farbe – jeder Schritt baut auf dem vorigen auf."
+        }
+      ]
+    },
+    "reviews": {
+      "headline": "Was Kunden sagen",
+      "summary": "Kundenstimmen werden hier eingebunden, sobald sie aus dem Google-Profil übernommen sind.",
+      "highlights": [
+        "Malerarbeiten in Unterhaching",
+        "Estrich und Trockenbau",
+        "Direkter Kontakt"
+      ],
+      "source": "Google",
+      "sourceUrl": "https://www.google.com/maps/search/?api=1&query=A1%20Jukic%20Bau%20Kapellenstr.%2022%20Unterhaching",
+      "rating": null,
+      "count": null
+    },
+    "process": {
+      "headline": "So läuft Ihr Projekt",
+      "steps": [
+        {
+          "title": "Anfrage",
+          "text": "Fotos und grobe Maße per WhatsApp schicken – oder kurz anrufen."
+        },
+        {
+          "title": "Besichtigung",
+          "text": "Untergrund, Umfang und Farbwünsche werden vor Ort geklärt."
+        },
+        {
+          "title": "Angebot",
+          "text": "Sie erhalten ein klares Angebot für alle Arbeiten."
+        },
+        {
+          "title": "Ausführung",
+          "text": "Estrich, Trockenbau und Anstrich in sinnvoller Reihenfolge – sauber übergeben."
+        }
+      ]
+    },
+    "gallery": {
+      "headline": "Räume, die neu entstehen",
+      "text": "Für die Live-Version zeigen wir hier echte Projekte des Betriebs.",
+      "items": [
+        {
+          "title": "Frischer Anstrich",
+          "photoNeeded": "hell gestrichenes Wohnzimmer nach Renovierung"
+        },
+        {
+          "title": "Neuer Estrich",
+          "photoNeeded": "frisch eingebrachter, ebener Estrich im Rohbau"
+        },
+        {
+          "title": "Trennwand",
+          "photoNeeded": "neue Trockenbauwand, verspachtelt"
+        },
+        {
+          "title": "Abgehängte Decke",
+          "photoNeeded": "glatte Decke mit Einbauspots"
+        },
+        {
+          "title": "Treppenhaus",
+          "photoNeeded": "frisch gestrichenes Treppenhaus"
+        }
+      ]
+    },
+    "region": {
+      "headline": "Für Unterhaching und den Münchner Süden",
+      "text": "Von Unterhaching aus schnell in Taufkirchen, Oberhaching, Neubiberg, Ottobrunn und Perlach.",
+      "places": [
+        "Unterhaching",
+        "Taufkirchen",
+        "Oberhaching",
+        "Neubiberg",
+        "Ottobrunn",
+        "München-Perlach"
+      ]
+    },
+    "faq": [
+      {
+        "q": "Übernehmen Sie Estrich, Trockenbau und Anstrich zusammen?",
+        "a": "Ja, alle drei Gewerke gehören zum Angebot – auf Wunsch auch einzeln."
+      },
+      {
+        "q": "Kann ich vorab Fotos schicken?",
+        "a": "Ja, Fotos und grobe Maße per WhatsApp helfen für eine erste Einschätzung."
+      },
+      {
+        "q": "Wie lange muss Estrich trocknen?",
+        "a": "Das hängt von Estrichart und Dicke ab. Der Zeitplan wird bei der Besichtigung abgestimmt."
+      },
+      {
+        "q": "Streichen Sie auch einzelne Räume?",
+        "a": "Ja, auch einzelne Zimmer oder ein Treppenhaus – fragen Sie einfach an."
+      },
+      {
+        "q": "Arbeiten Sie auch außerhalb von Unterhaching?",
+        "a": "Ja, im Umkreis von Unterhaching, etwa in Taufkirchen, Oberhaching und Neubiberg."
+      }
+    ],
+    "contact": {
+      "headline": "Ihr Angebot – kostenlos und unverbindlich",
+      "text": "Beschreiben Sie kurz Ihr Vorhaben: welche Räume, ungefähre Fläche und ob Anstrich, Estrich oder Trockenbau. Fotos helfen.",
+      "topics": [
+        "Malerarbeiten",
+        "Renovierung",
+        "Estrich",
+        "Trockenbau",
+        "Sonstiges"
+      ],
+      "responseNote": "Besichtigung nach Absprache."
+    },
+    "quote": {
+      "sizeLabel": "Wie groß ist das Vorhaben?",
+      "sizes": [
+        "Ein Raum",
+        "Mehrere Räume",
+        "Ganze Wohnung",
+        "Haus / Neubau"
+      ],
+      "timings": [
+        "So bald wie möglich",
+        "In den nächsten Wochen",
+        "In 1–3 Monaten",
+        "Ich plane erst noch"
+      ]
+    },
+    "stickyCta": "Angebot anfragen",
+    "look": {
+      "palette": 2,
+      "font": 6,
+      "hero": 0,
+      "services": 1,
+      "radius": 1,
+      "logo": 0,
+      "intro": 5
+    }
+  }
+}

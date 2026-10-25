@@ -1,0 +1,402 @@
+{
+  "id": "2026-10-25-133",
+  "slug": "hausmeisterservice-fischer-wolfratshausen",
+  "date": "2026-10-25",
+  "company": {
+    "name": "Hausmeisterservice & Dienstleistungen Fischer",
+    "owner": null,
+    "trade": "Hausmeisterservice",
+    "city": "Wolfratshausen",
+    "address": "Margeritenstr. 15a, 82515 Wolfratshausen",
+    "phone": "0172 7056324",
+    "email": "hausmeisterwolfratshausen@gmx.de",
+    "serviceArea": [
+      "Wolfratshausen",
+      "Farchet",
+      "Geretsried",
+      "Icking",
+      "Egling",
+      "Eurasburg"
+    ]
+  },
+  "listings": {
+    "google": {
+      "url": "https://www.google.com/maps/search/?api=1&query=Hausmeisterservice%20Fischer%20Margeritenstr.%2015%20Wolfratshausen",
+      "rating": null,
+      "reviews": null,
+      "evidence": "NICHT BELEGT – kein Google-Spiegel (firmania, rgv-bayern, trustlocal) mit diesem Betrieb gefunden. Annahme stützt sich auf die öffentlich gelistete Freemail-Adresse hausmeisterwolfratshausen@gmx.de (11880-Snippet). Bewertungen nirgends sichtbar – in Google Maps prüfen."
+    },
+    "myhammer": {
+      "url": "https://www.11880.com/suche/hausmeisterservice/wolfratshausen",
+      "rating": null,
+      "reviews": null,
+      "evidence": "Kein MyHammer gefunden – Eintrag „Fischer Hausmeisterservice“ in der 11880-Ortsliste Hausmeisterservice Wolfratshausen (Margeritenstr. 15, Farchet, (0172) 7056324, gmx-Adresse; Kategorien Hausmeisterservice, Gebäudereinigung, Garten- und Landschaftspflege) sowie Seniorenportal und hausmeisterdienste.net („Hausmeisterservice & Dienstleistungen Fischer“, Margeritenstraße 15a)."
+    }
+  },
+  "websiteStatus": "keine eigene Website gefunden",
+  "websiteChecks": [
+    "(1) „Hausmeisterservice Fischer Wolfratshausen Margeritenstr“ mit blocked_domains (11880, Gelbe Seiten, Das Örtliche, Telefonbuch, Cylex, meinestadt, Creditreform, Facebook, Instagram, golocal, MyHammer, Northdata, Firmenwissen, WKDB, Yelp, trustlocal, wlw) – nur Verzeichnisse (Seniorenportal, YellowMap, hausmeisterdienste.net); hausmeisterfischer.de gehört zu einem Betrieb in Trebbin, nicht Wolfratshausen",
+    "(2) Domain-Check allowed_domains hausmeisterservice-fischer.de, hausmeister-fischer.de, fischer-hausmeisterservice.de, hausmeisterservice-fischer-wolfratshausen.de, hausmeister-wolfratshausen.de, fischer-dienstleistungen.de, hausmeisterwolfratshausen.de, fischer-wolfratshausen.de – Treffer nur fremder Firmen (Unterkirnach, Öhringen, ohne Ortsbezug), keine Wolfratshausen-Seite",
+    "(3) Telefon-/E-Mail-Suche „0172 7056324“/„01727056324“/„hausmeisterwolfratshausen@gmx.de“ mit blocked_domains – einziger Treffer hausmeisterdienste.net (Verzeichnis), keine Website",
+    "(4) Verzeichnis-/Bewertungssuche (11880, firmania, rgv-bayern, trustlocal, Seniorenportal, mein-wolfratshausen) – kein Website-Feld, keine Bewertungen; E-Mail auf gmx.de (Freemail)",
+    "Hinweis: hausmeisterservice-wor.de existiert (Inhaber unbekannt, Impressum-Suche ergebnislos) – könnte einem anderen Wolfratshauser Hausmeisterdienst gehören; vor Versand ausschließen",
+    "Website-Risiko: mittel – alle Prüfungen negativ, Freemail öffentlich belegt, Google-Eintrag nicht belegt"
+  ],
+  "facts": {
+    "services": [
+      "Hausmeisterservice",
+      "Gebäudereinigung",
+      "Garten- und Landschaftspflege"
+    ],
+    "experience": null,
+    "praisedFor": []
+  },
+  "strategy": {
+    "audience": "Hausverwaltungen, Eigentümergemeinschaften, Vermieter und private Hausbesitzer in Wolfratshausen, Geretsried und Icking, die Objektbetreuung, Reinigung und Grünpflege aus einer Hand suchen",
+    "mainService": "Hausmeisterservice mit Reinigung und Gartenpflege",
+    "trustSignal": "Fester Ansprechpartner aus Wolfratshausen-Farchet, direkt per Handy erreichbar",
+    "conversionGoal": "Unverbindliches Angebot für die Objektbetreuung anfragen (Anruf oder WhatsApp)",
+    "visualConcept": "Gepflegte Wohnanlage im Isartal: saubere Treppenhäuser, gemähte Rasenflächen, ordentliche Eingänge – zuverlässig und bodenständig"
+  },
+  "sales": {
+    "score": 4,
+    "whyGoodLead": [
+      "Keine eigene Website gefunden – nur Verzeichniseinträge",
+      "Mobilnummer und gmx-Adresse öffentlich gelistet – direkter Erstkontakt per WhatsApp/E-Mail möglich",
+      "Hausmeisterdienste werden von Hausverwaltungen online verglichen – ohne Website fehlt der Betrieb dort",
+      "Drei Leistungsbereiche (Hausmeister, Reinigung, Grünpflege) lassen sich auf einer Seite gut bündeln"
+    ],
+    "pitch": "Hallo, hier ist … – ich baue Websites für Handwerks- und Servicebetriebe im Isartal. Ich habe Ihren Eintrag „Hausmeisterservice Fischer“ in Wolfratshausen gefunden, aber keine eigene Website. Ich habe unverbindlich einen Entwurf vorbereitet, auf dem Hausverwaltungen und Eigentümer Ihre Leistungen sehen und direkt anfragen können – darf ich Ihnen den Link schicken?"
+  },
+  "manualChecks": [
+    "Website-Risiko: mittel – vor Versand in Google Maps prüfen, dass keine Website hinterlegt ist (Grund: Google-Eintrag nicht belegt, nur Freemail und Verzeichnisse)",
+    "hausmeisterservice-wor.de prüfen – gehört die Seite zu Fischer oder zu einem anderen Betrieb?",
+    "11880-Eintrag war beim Crawl als „geschlossen“ markiert (vermutlich nur Öffnungszeit) – per Anruf klären, dass der Betrieb aktiv ist",
+    "Hausnummer 15 vs. 15a (11880 vs. Seniorenportal) – beim Erstkontakt bestätigen",
+    "Inhaber-Vorname unbekannt – Anrede „Herr/Frau Fischer“ erst nach Rückmeldung",
+    "Leistungen nur als Verzeichniskategorien belegt (Hausmeisterservice, Gebäudereinigung, Garten- und Landschaftspflege) – Winterdienst, Kleinreparaturen etc. erfragen",
+    "Logo und Fotos: nicht gefunden – beim Betrieb anfragen"
+  ],
+  "sources": [
+    {
+      "label": "11880 – Hausmeisterservices Wolfratshausen (Liste mit Fischer Hausmeisterservice)",
+      "url": "https://www.11880.com/suche/hausmeisterservice/wolfratshausen"
+    },
+    {
+      "label": "11880 – Gebäudereinigungen Wolfratshausen",
+      "url": "https://www.11880.com/suche/gebaeudereinigung/wolfratshausen"
+    },
+    {
+      "label": "Seniorenportal – Hausmeisterservice Geretsried und Umgebung (Fischer, Margeritenstraße 15a)",
+      "url": "https://www.seniorenportal.de/regionale-angebote/hausmeisterdienste/geretsried"
+    },
+    {
+      "label": "hausmeisterdienste.net – Hausmeisterservices Eurasburg (Fischer, 0172 7056324)",
+      "url": "https://www.hausmeisterdienste.net/eurasburg"
+    }
+  ],
+  "site": {
+    "theme": "objekt",
+    "category": "handwerk",
+    "heroOffer": [
+      "Hausmeisterdienst",
+      "Treppenhausreinigung",
+      "Rasenpflege",
+      "Heckenschnitt",
+      "Objektkontrolle"
+    ],
+    "scene": "garden",
+    "logoIcon": "broom",
+    "logoMark": "HF",
+    "brandName": "Hausmeisterservice Fischer",
+    "seoTitle": "Hausmeisterservice in Wolfratshausen – Fischer",
+    "seoDescription": "Hausmeisterservice, Gebäudereinigung und Gartenpflege in Wolfratshausen, Geretsried und Icking. Jetzt unverbindlich anfragen – auch per WhatsApp.",
+    "nav": [
+      {
+        "label": "Leistungen",
+        "href": "#leistungen"
+      },
+      {
+        "label": "Projekte",
+        "href": "#projekte"
+      },
+      {
+        "label": "Bewertungen",
+        "href": "#bewertungen"
+      },
+      {
+        "label": "Ablauf",
+        "href": "#ablauf"
+      },
+      {
+        "label": "FAQ",
+        "href": "#faq"
+      },
+      {
+        "label": "Kontakt",
+        "href": "#kontakt"
+      }
+    ],
+    "hero": {
+      "eyebrow": "Hausmeisterservice · Wolfratshausen",
+      "headline": "Hausmeisterservice für Wolfratshausen",
+      "sub": "Objektbetreuung, Reinigung und Grünpflege für Wohnhäuser und Anlagen im Isartal.",
+      "ctaPrimary": "Angebot anfragen",
+      "ctaSecondary": "Anrufen",
+      "bullets": [
+        "Betrieb in Wolfratshausen-Farchet",
+        "Hausmeister, Reinigung, Garten",
+        "Direkt per Handy erreichbar"
+      ],
+      "imageLabel": "gepflegte Wohnanlage mit gemähtem Rasen und sauberem Eingang"
+    },
+    "badges": [
+      {
+        "title": "Hausmeister",
+        "sub": "Objektbetreuung"
+      },
+      {
+        "title": "Reinigung",
+        "sub": "Treppenhaus & Flächen"
+      },
+      {
+        "title": "Grünpflege",
+        "sub": "Rasen & Hecken"
+      },
+      {
+        "title": "Wolfratshausen",
+        "sub": "Margeritenstraße"
+      }
+    ],
+    "trust": [
+      {
+        "value": "Vor Ort",
+        "label": "Betrieb in Farchet"
+      },
+      {
+        "value": "3",
+        "label": "Leistungsbereiche"
+      },
+      {
+        "value": "1",
+        "label": "fester Ansprechpartner"
+      },
+      {
+        "value": "Mobil",
+        "label": "schnell erreichbar"
+      }
+    ],
+    "servicesIntro": {
+      "headline": "Ein Ansprechpartner für Haus, Treppenhaus und Garten",
+      "text": "Statt drei Dienstleister zu koordinieren, betreut ein Betrieb aus Wolfratshausen Ihr Objekt rundum – drinnen und draußen."
+    },
+    "services": [
+      {
+        "title": "Hausmeisterdienst",
+        "text": "Regelmäßige Kontrollgänge, kleine Mängel erkennen und melden, Ordnung rund ums Haus halten.",
+        "items": [
+          "Kontrollgänge",
+          "Mängelmeldung",
+          "Ordnung am Objekt"
+        ]
+      },
+      {
+        "title": "Treppenhausreinigung",
+        "text": "Saubere Treppenhäuser, Eingänge und Flure – im vereinbarten Rhythmus.",
+        "items": [
+          "Treppenhaus",
+          "Eingangsbereich",
+          "Flure"
+        ]
+      },
+      {
+        "title": "Gebäudereinigung",
+        "text": "Reinigung von Gemeinschaftsflächen, Kellern und Nebenräumen in Wohn- und Gewerbeobjekten.",
+        "items": [
+          "Gemeinschaftsräume",
+          "Keller",
+          "Nebenräume"
+        ]
+      },
+      {
+        "title": "Rasenpflege",
+        "text": "Mähen, Kanten schneiden, Schnittgut entsorgen – damit die Außenanlage gepflegt aussieht.",
+        "items": [
+          "Rasenmähen",
+          "Kantenschnitt",
+          "Schnittgut"
+        ]
+      },
+      {
+        "title": "Hecken & Sträucher",
+        "text": "Formschnitt von Hecken und Rückschnitt von Sträuchern zur passenden Jahreszeit.",
+        "items": [
+          "Heckenschnitt",
+          "Strauchschnitt",
+          "Laub"
+        ]
+      },
+      {
+        "title": "Außenanlagen",
+        "text": "Wege, Zufahrten und Müllplätze sauber halten – der erste Eindruck Ihres Objekts.",
+        "items": [
+          "Wege kehren",
+          "Müllplatz",
+          "Zufahrten"
+        ]
+      }
+    ],
+    "why": {
+      "headline": "Objektbetreuung aus Wolfratshausen – verlässlich und direkt.",
+      "points": [
+        {
+          "title": "Kurze Wege",
+          "text": "Von Farchet aus schnell in Wolfratshausen, Geretsried, Icking und Egling."
+        },
+        {
+          "title": "Alles aus einer Hand",
+          "text": "Hausmeister, Reinigung und Grünpflege mit einem Ansprechpartner."
+        },
+        {
+          "title": "Direkter Draht",
+          "text": "Anruf oder WhatsApp genügt – ohne Zentrale und Warteschleife."
+        },
+        {
+          "title": "Feste Intervalle",
+          "text": "Leistungen und Rhythmus werden klar vereinbart und eingehalten."
+        }
+      ]
+    },
+    "reviews": {
+      "headline": "Was Kunden sagen",
+      "summary": "Kundenstimmen werden hier eingebunden, sobald sie aus dem Google-Profil übernommen sind.",
+      "highlights": [
+        "Hausmeisterservice in Wolfratshausen",
+        "Reinigung und Grünpflege",
+        "Direkter Kontakt"
+      ],
+      "source": "Google",
+      "sourceUrl": "https://www.google.com/maps/search/?api=1&query=Hausmeisterservice%20Fischer%20Margeritenstr.%2015%20Wolfratshausen",
+      "rating": null,
+      "count": null
+    },
+    "process": {
+      "headline": "So startet die Betreuung Ihres Objekts",
+      "steps": [
+        {
+          "title": "Anfrage",
+          "text": "Objekt, Größe und gewünschte Leistungen kurz per Anruf oder WhatsApp schildern."
+        },
+        {
+          "title": "Begehung",
+          "text": "Gemeinsamer Rundgang vor Ort – Flächen, Garten und Besonderheiten."
+        },
+        {
+          "title": "Angebot",
+          "text": "Klares Angebot mit Leistungen und Intervallen."
+        },
+        {
+          "title": "Betreuung",
+          "text": "Start zum vereinbarten Termin – regelmäßig und zuverlässig."
+        }
+      ]
+    },
+    "gallery": {
+      "headline": "Gepflegte Objekte im Isartal",
+      "text": "Für die Live-Version zeigen wir hier echte Objekte des Betriebs.",
+      "items": [
+        {
+          "title": "Treppenhaus",
+          "photoNeeded": "frisch gereinigtes Treppenhaus einer Wohnanlage"
+        },
+        {
+          "title": "Rasenfläche",
+          "photoNeeded": "frisch gemähter Rasen vor Mehrfamilienhaus"
+        },
+        {
+          "title": "Heckenschnitt",
+          "photoNeeded": "sauber geschnittene Hecke am Grundstücksrand"
+        },
+        {
+          "title": "Eingangsbereich",
+          "photoNeeded": "gepflegter Hauseingang mit gekehrtem Weg"
+        },
+        {
+          "title": "Müllplatz",
+          "photoNeeded": "ordentlicher Müllplatz einer Wohnanlage"
+        }
+      ]
+    },
+    "region": {
+      "headline": "Hausmeisterservice für Wolfratshausen und Umgebung",
+      "text": "Von Farchet aus im Einsatz in Wolfratshausen, Geretsried, Icking, Egling und Eurasburg.",
+      "places": [
+        "Wolfratshausen",
+        "Farchet",
+        "Geretsried",
+        "Icking",
+        "Egling",
+        "Eurasburg"
+      ]
+    },
+    "faq": [
+      {
+        "q": "Für welche Objekte arbeiten Sie?",
+        "a": "Für Wohnhäuser, Wohnanlagen und Gewerbeobjekte – sprechen Sie uns einfach an."
+      },
+      {
+        "q": "Kann ich nur Gartenpflege buchen?",
+        "a": "Ja, Leistungen lassen sich einzeln oder kombiniert vereinbaren."
+      },
+      {
+        "q": "Wie oft wird gereinigt?",
+        "a": "Der Rhythmus wird individuell festgelegt – zum Beispiel wöchentlich oder vierzehntägig."
+      },
+      {
+        "q": "Arbeiten Sie auch außerhalb von Wolfratshausen?",
+        "a": "Ja, im Umkreis von Wolfratshausen, etwa in Geretsried, Icking und Egling."
+      },
+      {
+        "q": "Wie erhalte ich ein Angebot?",
+        "a": "Nach einer kurzen Anfrage und einer Begehung vor Ort erhalten Sie ein klares Angebot."
+      }
+    ],
+    "contact": {
+      "headline": "Ihr Angebot – unverbindlich",
+      "text": "Beschreiben Sie kurz Ihr Objekt: Art, Größe und welche Leistungen Sie brauchen – Hausmeister, Reinigung oder Garten.",
+      "topics": [
+        "Hausmeisterdienst",
+        "Treppenhausreinigung",
+        "Gebäudereinigung",
+        "Gartenpflege",
+        "Sonstiges"
+      ],
+      "responseNote": "Begehung nach Absprache."
+    },
+    "quote": {
+      "sizeLabel": "Um welches Objekt geht es?",
+      "sizes": [
+        "Einfamilienhaus",
+        "Mehrfamilienhaus",
+        "Wohnanlage",
+        "Gewerbeobjekt"
+      ],
+      "timings": [
+        "So bald wie möglich",
+        "Ab nächstem Monat",
+        "Zur neuen Saison",
+        "Ich plane erst noch"
+      ]
+    },
+    "stickyCta": "Angebot anfragen",
+    "look": {
+      "palette": 2,
+      "font": 6,
+      "hero": 0,
+      "services": 1,
+      "radius": 1,
+      "logo": 0,
+      "intro": 5
+    }
+  }
+}
