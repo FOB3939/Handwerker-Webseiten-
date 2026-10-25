@@ -214,6 +214,20 @@ export const PLACES: Record<string, [number, number]> = {
   "Röhrmoos": [48.33, 11.45],
   "Seehausen am Staffelsee": [47.69, 11.18],
   "Zorneding": [48.085, 11.83],
+  "Ammerland": [47.888, 11.35],
+  "Eglharting": [48.09, 11.89],
+  "Erpfting": [48.03, 10.86],
+  "Farchet": [47.92, 11.42],
+  "Fuchstal": [47.93, 10.84],
+  "Grafing": [48.046, 11.97],
+  "Haag an der Amper": [48.46, 11.83],
+  "Hurlach": [48.12, 10.82],
+  "Langenbach": [48.43, 11.85],
+  "Neukeferloh": [48.11, 11.74],
+  "Taufkirchen (Vils)": [48.34, 12.13],
+  "Velden": [48.37, 12.26],
+  "Wang": [48.49, 11.95],
+  "Zolling": [48.45, 11.77],
 };
 
 // Grobe Seeumrisse als Ellipsen: [lat, lon, Halbachse Nord-Süd in Grad, Halbachse Ost-West in Grad]

@@ -2,28 +2,10 @@
   "info": "Noch ungeprüfte Handwerker-Kandidaten aus früheren Läufen. Jeder Lauf prüft zuerst diese (oben = vielversprechend), entfernt geprüfte Einträge (angenommen → leads, verworfen → rejected in lead-history.json) und ergänzt neue Funde, für die das Suchbudget nicht reichte.",
   "candidates": [
     {
-      "name": "Fliesenlegermeister Kuisel M. & Stoiber A. GbR",
-      "trade": "Fliesenleger",
-      "city": "Landsberg am Lech",
-      "hint": "RESERVE-geprüft 2026-10-24: Website-Prüfung negativ, kein Google-/Freemail-Beleg; Tel. 0172 9486866 (Vorlage scratchpad/reserve24)"
-    },
-    {
-      "name": "Lars Urbanski Fliesenleger",
-      "trade": "Fliesenleger",
-      "city": "Berg (Starnberger See)",
-      "hint": "RESERVE-geprüft 2026-10-24: Website-Prüfung negativ, kein Google-/Freemail-Beleg; Tel. 0172 7789655 (Vorlage scratchpad/reserve24)"
-    },
-    {
-      "name": "My Hausmeister",
-      "trade": "Hausmeisterservice",
-      "city": "Emmering",
-      "hint": "RESERVE-geprüft 2026-10-24: Website-Prüfung negativ, kein Google-/Freemail-Beleg; Tel. 0176 24857744 (Vorlage scratchpad/reserve24)"
-    },
-    {
-      "name": "Tamara Voglar Fliesenleger",
-      "trade": "Fliesenleger & Innenausbau",
-      "city": "Moosburg an der Isar",
-      "hint": "RESERVE-geprüft 2026-10-24: Website-Prüfung negativ, kein Google-/Freemail-Beleg; Tel. 0160 8960202 (Vorlage scratchpad/reserve24)"
+      "name": "Karl Dennhöfer Gartenarbeiten",
+      "trade": "Gartenarbeiten & Zaunbau",
+      "city": "Pliening",
+      "hint": "RESERVE 2026-10-25: Name+Verzeichnis negativ, Domain/Telefon/Impressum offen; Tel. 08121 71591 (Vorlage scratchpad/reserve25)"
     },
     {
       "name": "Zech Schreinerei",
@@ -68,22 +50,10 @@
       "hint": "RESERVE-geprüft; 08153 987460"
     },
     {
-      "name": "Volkmar Mühlberger Fliesenlegermeister",
-      "trade": "Fliesen",
-      "city": "Landsberg",
-      "hint": "Website negativ; 08191 22594; Telefon/Impressum offen"
-    },
-    {
       "name": "mh-bautechnik Michael Henter",
       "trade": "Bau",
       "city": "Schwabmünchen",
       "hint": "Website negativ; 08232 958309"
-    },
-    {
-      "name": "Tafallari Dienstleistungen Rund um Haus",
-      "trade": "Reinigung/Entrümpelung",
-      "city": "Eching",
-      "hint": "0155 10342399; Website negativ, Domain-Check offen"
     },
     {
       "name": "Ulrich Buchenberger Bodenleger",
@@ -98,58 +68,10 @@
       "hint": "08131 591751; Website-Prüfung offen"
     },
     {
-      "name": "BS Hausmeisterservice",
-      "trade": "Hausmeister",
-      "city": "Fürstenfeldbruck",
-      "hint": "0176 60169611; Nummern widersprüchlich"
-    },
-    {
-      "name": "Peter Sven Dachdecker",
-      "trade": "Dachdecker",
-      "city": "Olching",
-      "hint": "0171 7238217; ungeprüft"
-    },
-    {
-      "name": "Otto Eisenbarth Hausmeisterservice",
-      "trade": "Hausmeister",
-      "city": "Fürstenfeldbruck",
-      "hint": "ungeprüft"
-    },
-    {
-      "name": "Michael Leech Gebäudereinigung",
-      "trade": "Reinigung",
-      "city": "Emmering",
-      "hint": "ungeprüft"
-    },
-    {
-      "name": "Gebäudereinigung Rudolf Wagenstaller",
-      "trade": "Reinigung",
-      "city": "Emmering",
-      "hint": "ungeprüft"
-    },
-    {
-      "name": "Schlosserei Krückl",
-      "trade": "Metallbau",
-      "city": "Olching",
-      "hint": "Festnetz; ungeprüft"
-    },
-    {
-      "name": "Sextl Kurt Metallbau",
-      "trade": "Metallbau",
-      "city": "Maisach",
-      "hint": "Festnetz; ungeprüft"
-    },
-    {
       "name": "Ludwig Kleber Metallbau",
       "trade": "Metallbau",
       "city": "Maisach",
       "hint": "Festnetz; ungeprüft"
-    },
-    {
-      "name": "Entrümpelung Freising",
-      "trade": "Entrümpelung",
-      "city": "Freising",
-      "hint": "0176 31524389; Name generisch"
     },
     {
       "name": "Haider Bautenschutz",
@@ -161,12 +83,6 @@
       "name": "Baumpflege Hauser",
       "trade": "Baumpflege",
       "city": "Eching",
-      "hint": "ungeprüft"
-    },
-    {
-      "name": "Bodenfachservice Fürst",
-      "trade": "Boden",
-      "city": "Krailling",
       "hint": "ungeprüft"
     },
     {
@@ -197,6 +113,132 @@
       "name": "Renovierungen-Morgenstern",
       "trade": "Renovierung",
       "city": "Kirchheim",
+      "hint": "ungeprüft"
+    },
+    {
+      "name": "Alois Scharl Elektroinstallation",
+      "trade": "Elektro",
+      "city": "Fraunberg",
+      "hint": "08084 575; Website negativ, kein Google/Freemail – RESERVE"
+    },
+    {
+      "name": "KRAS Gebäudereinigung & Hausmeisterservice",
+      "trade": "Reinigung",
+      "city": "Moosinning",
+      "hint": "089 32731402; Domain-Check offen"
+    },
+    {
+      "name": "Matthias Eder Fliesenlegermeister",
+      "trade": "Fliesen",
+      "city": "Lengdorf",
+      "hint": "08083 546886; fliesen-eder.de klären"
+    },
+    {
+      "name": "Malermeister Alfred Bachmeier",
+      "trade": "Maler",
+      "city": "Wartenberg",
+      "hint": "08762 9610; Daten alt"
+    },
+    {
+      "name": "Walter Meisinger Elektroinstallationen",
+      "trade": "Elektro",
+      "city": "Hohenbrunn",
+      "hint": "08102 4153; Website negativ, kein Google/Freemail – RESERVE"
+    },
+    {
+      "name": "Anes Sabanovic Elektro",
+      "trade": "Elektro",
+      "city": "Riemerling",
+      "hint": "0172 7568812; Website negativ, kein Google/Freemail – RESERVE"
+    },
+    {
+      "name": "Armin Nurovic Elektroinstallationsdienst",
+      "trade": "Elektro",
+      "city": "Hohenbrunn",
+      "hint": "ungeprüft"
+    },
+    {
+      "name": "Franz Braun Elektroinstallationen",
+      "trade": "Elektro",
+      "city": "Hohenbrunn",
+      "hint": "ungeprüft"
+    },
+    {
+      "name": "Gartenpflege Passauer",
+      "trade": "Garten",
+      "city": "Forstinning",
+      "hint": "ungeprüft"
+    },
+    {
+      "name": "Christian Kammerer Haus & Gartenservice",
+      "trade": "Hausmeister/Garten",
+      "city": "Poing",
+      "hint": "ungeprüft"
+    },
+    {
+      "name": "Manuel Kaußner Garten- und Landschaftsbau",
+      "trade": "Garten",
+      "city": "Pliening",
+      "hint": "ungeprüft"
+    },
+    {
+      "name": "A-K Gebäudeservice",
+      "trade": "Reinigung",
+      "city": "Kirchseeon",
+      "hint": "08091 6179991; ungeprüft"
+    },
+    {
+      "name": "PEREZ Dienstleistungsservice",
+      "trade": "Hausmeister",
+      "city": "Forstinning",
+      "hint": "ungeprüft"
+    },
+    {
+      "name": "Theodor Huber Fliesenleger",
+      "trade": "Fliesen",
+      "city": "Markt Schwaben",
+      "hint": "ungeprüft"
+    },
+    {
+      "name": "Kruppa Kastulus Hausmeisterservice",
+      "trade": "Hausmeister",
+      "city": "Moosinning",
+      "hint": "08123 990971; Name negativ"
+    },
+    {
+      "name": "Ernst Holnburger",
+      "trade": "Fliesen",
+      "city": "Lengdorf",
+      "hint": "ungeprüft"
+    },
+    {
+      "name": "Andrä Hausmeisterservice",
+      "trade": "Hausmeister",
+      "city": "Dietramszell",
+      "hint": "Festnetz; ungeprüft"
+    },
+    {
+      "name": "Christian u. Irmgard Zenglein Malerbetrieb",
+      "trade": "Maler",
+      "city": "Unterhaching",
+      "hint": "ungeprüft"
+    },
+    {
+      "name": "Malermeister Lindermeier",
+      "trade": "Maler",
+      "city": "Unterhaching",
+      "hint": "ungeprüft"
+    },
+    {
+      "name": "Elektro Erxleben",
+      "trade": "Elektro",
+      "city": "Höhenkirchen-Siegertsbrunn",
+      "hint": "ungeprüft"
+    },
+    {
+      "name": "Seif Elektrodienst",
+      "trade": "Elektro",
+      "city": "Höhenkirchen-Siegertsbrunn",
       "hint": "ungeprüft"
     }
   ]

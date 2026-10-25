@@ -1798,6 +1798,126 @@
       "googleLink": "https://www.google.com/maps/search/?api=1&query=Parkett%20Stachlewitz%20Parkettlegermeisterbetrieb%20Banater%20Str.%202%2C%2085221%20Dachau",
       "googleVerified": false,
       "reserve": false
+    },
+    {
+      "company": "Tamara Voglar Fliesenleger",
+      "slug": "fliesenleger-voglar-moosburg",
+      "trade": "Fliesenleger & Innenausbau",
+      "city": "Moosburg an der Isar",
+      "date": "2026-10-25",
+      "phone": "0160 8960202",
+      "email": null,
+      "googleLink": "https://www.google.com/maps/search/?api=1&query=Tamara%20Voglar%20Fliesenleger%20Thalbacher%20Str.%2046%20D%2C%2085368%20Moosburg%20an%20der%20Isar",
+      "googleVerified": false,
+      "reserve": true
+    },
+    {
+      "company": "Fliesenlegermeister Kuisel M. & Stoiber A. GbR",
+      "slug": "fliesen-kuisel-stoiber-landsberg-erpfting",
+      "trade": "Fliesenleger",
+      "city": "Landsberg am Lech",
+      "date": "2026-10-25",
+      "phone": "0172 9486866",
+      "email": null,
+      "googleLink": "https://www.google.com/maps/search/?api=1&query=Fliesenlegermeister%20Kuisel%20M.%20%26%20Stoiber%20A.%20GbR%20Mittelstetter%20Str.%2013%2C%2086899%20Landsberg%20am%20Lech%20%28Erpfting%29",
+      "googleVerified": false,
+      "reserve": true
+    },
+    {
+      "company": "Michael Leech Gebäudereinigung",
+      "slug": "michael-leech-gebaeudereinigung-emmering",
+      "trade": "Gebäudereinigung",
+      "city": "Emmering",
+      "date": "2026-10-25",
+      "phone": "0175 7351054",
+      "email": "cleanmick@googlemail.com",
+      "googleLink": "https://www.google.com/maps/search/?api=1&query=Michael%20Leech%20Geb%C3%A4udereinigung%20Amperstra%C3%9Fe%206B%2C%2082275%20Emmering",
+      "googleVerified": false,
+      "reserve": false
+    },
+    {
+      "company": "GeNeral-Gebäudeservice",
+      "slug": "general-gebaeudeservice-taufkirchen-vils",
+      "trade": "Gebäudereinigung",
+      "city": "Taufkirchen (Vils)",
+      "date": "2026-10-25",
+      "phone": "01575 8168564",
+      "email": null,
+      "googleLink": "https://www.google.com/maps/search/?api=1&query=GeNeral-Geb%C3%A4udeservice%20Schulgasse%206%2C%2084416%20Taufkirchen%20%28Vils%29",
+      "googleVerified": false,
+      "reserve": true
+    },
+    {
+      "company": "MAC Gebäudereinigung",
+      "slug": "mac-gebaeudereinigung-kirchseeon",
+      "trade": "Gebäudereinigung",
+      "city": "Kirchseeon",
+      "date": "2026-10-25",
+      "phone": "0177 6048663",
+      "email": null,
+      "googleLink": "https://www.google.com/maps/search/?api=1&query=MAC%20Geb%C3%A4udereinigung%20Karwendelstr.%201%2C%2085614%20Kirchseeon",
+      "googleVerified": false,
+      "reserve": true
+    },
+    {
+      "company": "A1 Jukic Bau",
+      "slug": "a1-jukic-bau-unterhaching",
+      "trade": "Malerbetrieb, Estrich & Trockenbau",
+      "city": "Unterhaching",
+      "date": "2026-10-25",
+      "phone": "0176 99944408",
+      "email": null,
+      "googleLink": "https://www.google.com/maps/search/?api=1&query=A1%20Jukic%20Bau%20Kapellenstr.%2022%2C%2082008%20Unterhaching",
+      "googleVerified": false,
+      "reserve": true
+    },
+    {
+      "company": "Thomas Sachse Bodenleger",
+      "slug": "thomas-sachse-bodenleger-grasbrunn",
+      "trade": "Bodenleger",
+      "city": "Grasbrunn",
+      "date": "2026-10-25",
+      "phone": "089 45616578",
+      "email": null,
+      "googleLink": "https://www.google.com/maps/search/?api=1&query=Thomas%20Sachse%20Bodenleger%20Neukeferloher%20Weg%202%2C%2085630%20Grasbrunn",
+      "googleVerified": false,
+      "reserve": true
+    },
+    {
+      "company": "Hausmeisterservice & Dienstleistungen Fischer",
+      "slug": "hausmeisterservice-fischer-wolfratshausen",
+      "trade": "Hausmeisterservice",
+      "city": "Wolfratshausen",
+      "date": "2026-10-25",
+      "phone": "0172 7056324",
+      "email": "hausmeisterwolfratshausen@gmx.de",
+      "googleLink": "https://www.google.com/maps/search/?api=1&query=Hausmeisterservice%20%26%20Dienstleistungen%20Fischer%20Margeritenstr.%2015a%2C%2082515%20Wolfratshausen",
+      "googleVerified": false,
+      "reserve": false
+    },
+    {
+      "company": "Schön Grün Gartenpflege",
+      "slug": "schoen-gruen-gartenpflege-muensing",
+      "trade": "Gartenpflege",
+      "city": "Münsing",
+      "date": "2026-10-25",
+      "phone": "0170 8709864",
+      "email": null,
+      "googleLink": "https://www.google.com/maps/search/?api=1&query=Sch%C3%B6n%20Gr%C3%BCn%20Gartenpflege%20Sterzenweg%208%2C%2082541%20M%C3%BCnsing",
+      "googleVerified": false,
+      "reserve": false
+    },
+    {
+      "company": "Hausmeisterservice Martinhilfteuch",
+      "slug": "hausmeisterservice-martinhilfteuch-geretsried",
+      "trade": "Hausmeisterservice",
+      "city": "Geretsried",
+      "date": "2026-10-25",
+      "phone": "0176 48671215",
+      "email": null,
+      "googleLink": "https://www.google.com/maps/search/?api=1&query=Hausmeisterservice%20Martinhilfteuch%20K%C3%B6nigsberger%20Weg%209%2C%2082538%20Geretsried",
+      "googleVerified": false,
+      "reserve": true
     }
   ],
   "rejected": [
@@ -4039,6 +4159,316 @@
       "company": "Hans-Peter Fritz Fußboden (Dachau)",
       "reason": "veraltet",
       "date": "2026-10-24"
+    },
+    {
+      "company": "Volkmar Mühlberger Fliesenlegermeister (Landsberg)",
+      "reason": "Domain-E-Mail",
+      "date": "2026-10-25"
+    },
+    {
+      "company": "My Hausmeister (Emmering)",
+      "reason": "kein Beleg/möglicher Schwesterbetrieb",
+      "date": "2026-10-25"
+    },
+    {
+      "company": "Malermeister Bastian Drazek (Lenggries)",
+      "reason": "bereits Lead",
+      "date": "2026-10-25"
+    },
+    {
+      "company": "Maler Max Rinshofer (Gaißach)",
+      "reason": "Website",
+      "date": "2026-10-25"
+    },
+    {
+      "company": "Malermeisterbetrieb Stefan Hau (Lenggries)",
+      "reason": "Website",
+      "date": "2026-10-25"
+    },
+    {
+      "company": "Hermann Huber Fliesen (Bad Tölz)",
+      "reason": "Website",
+      "date": "2026-10-25"
+    },
+    {
+      "company": "S&D Dienstleistungen Daniel Dreier (Wolfratshausen)",
+      "reason": "mögliche Wix-Seite",
+      "date": "2026-10-25"
+    },
+    {
+      "company": "ADZ Gebäudemanagement (Geretsried)",
+      "reason": "Domain-E-Mail",
+      "date": "2026-10-25"
+    },
+    {
+      "company": "VKG-Haustechnik (Geretsried)",
+      "reason": "Domain-E-Mail",
+      "date": "2026-10-25"
+    },
+    {
+      "company": "Elektro Lex (Fraunberg)",
+      "reason": "Website",
+      "date": "2026-10-25"
+    },
+    {
+      "company": "Malermeister Stefan Neumaier (Wartenberg)",
+      "reason": "Website",
+      "date": "2026-10-25"
+    },
+    {
+      "company": "Malermeister Hermann Knaller (Isen)",
+      "reason": "Website",
+      "date": "2026-10-25"
+    },
+    {
+      "company": "Alexander Sturm Farbkonzepte (Isen)",
+      "reason": "Website",
+      "date": "2026-10-25"
+    },
+    {
+      "company": "Farbenspiel Robert Grundler (Isen)",
+      "reason": "Baukasten-Seite",
+      "date": "2026-10-25"
+    },
+    {
+      "company": "Marians Renovierung (Moosinning)",
+      "reason": "Website",
+      "date": "2026-10-25"
+    },
+    {
+      "company": "Heizung-Sanitär Markus Klug (Wartenberg)",
+      "reason": "Website",
+      "date": "2026-10-25"
+    },
+    {
+      "company": "Haustechnik Johann Zechmayer (Wartenberg)",
+      "reason": "Website",
+      "date": "2026-10-25"
+    },
+    {
+      "company": "Suljic Hausmeisterservice (Dorfen)",
+      "reason": "Website",
+      "date": "2026-10-25"
+    },
+    {
+      "company": "Fa. Bernervis (Dorfen)",
+      "reason": "Website",
+      "date": "2026-10-25"
+    },
+    {
+      "company": "F&D Haus- und Gebäudeservice (Taufkirchen/Vils)",
+      "reason": "Website",
+      "date": "2026-10-25"
+    },
+    {
+      "company": "Plan Gebäudereinigung (Taufkirchen/Vils)",
+      "reason": "Website",
+      "date": "2026-10-25"
+    },
+    {
+      "company": "Hausmeisterservice Deisenberger (Dorfen)",
+      "reason": "Domain-E-Mail",
+      "date": "2026-10-25"
+    },
+    {
+      "company": "Markus Lackner Meisterbetrieb (Putzbrunn)",
+      "reason": "Website",
+      "date": "2026-10-25"
+    },
+    {
+      "company": "Hausmeisterservice & Raumausstattung Fürst (Taufkirchen)",
+      "reason": "Baukasten-Seite",
+      "date": "2026-10-25"
+    },
+    {
+      "company": "Hausmeisterservice-Aumüller (Ottobrunn)",
+      "reason": "GmbH",
+      "date": "2026-10-25"
+    },
+    {
+      "company": "Nebihi Bodenleger (Haar)",
+      "reason": "Domain-E-Mail",
+      "date": "2026-10-25"
+    },
+    {
+      "company": "S. Sejfula Hausmeisterservice (Oberhaching)",
+      "reason": "Website",
+      "date": "2026-10-25"
+    },
+    {
+      "company": "Hausmeister Eddi (Taufkirchen)",
+      "reason": "Website",
+      "date": "2026-10-25"
+    },
+    {
+      "company": "Schünemann und Mesic Hausmeisterservice (Taufkirchen)",
+      "reason": "Domain-E-Mail",
+      "date": "2026-10-25"
+    },
+    {
+      "company": "Holly & Siebeck GbR (Taufkirchen)",
+      "reason": "Domain-E-Mail",
+      "date": "2026-10-25"
+    },
+    {
+      "company": "Franz Oberndorfer Malermeister (Neubiberg)",
+      "reason": "Domain-E-Mail",
+      "date": "2026-10-25"
+    },
+    {
+      "company": "Toli Gartenservice (Poing)",
+      "reason": "Website",
+      "date": "2026-10-25"
+    },
+    {
+      "company": "Fatmir Buzaku Gartenbau (Ebersberg)",
+      "reason": "Website",
+      "date": "2026-10-25"
+    },
+    {
+      "company": "Hausservice Bayern (Kirchseeon)",
+      "reason": "Website",
+      "date": "2026-10-25"
+    },
+    {
+      "company": "BSB Gebäudeservice (Grafing)",
+      "reason": "Website",
+      "date": "2026-10-25"
+    },
+    {
+      "company": "Erich Kandlbinder Fliesenlegerei (Markt Schwaben)",
+      "reason": "Website",
+      "date": "2026-10-25"
+    },
+    {
+      "company": "Rainer Gregoritza Fliesenlegerei (Markt Schwaben)",
+      "reason": "Website",
+      "date": "2026-10-25"
+    },
+    {
+      "company": "JG Fliesen (Markt Schwaben)",
+      "reason": "Website",
+      "date": "2026-10-25"
+    },
+    {
+      "company": "Michael Huber Fliesenlegerfachbetrieb (Markt Schwaben)",
+      "reason": "Website",
+      "date": "2026-10-25"
+    },
+    {
+      "company": "BS Hausmeisterservice (Fürstenfeldbruck)",
+      "reason": "mögliche Website",
+      "date": "2026-10-25"
+    },
+    {
+      "company": "Peter Sven Dachdecker (Olching)",
+      "reason": "Domain-E-Mail",
+      "date": "2026-10-25"
+    },
+    {
+      "company": "Otto Eisenbarth Hausmeisterservice (Fürstenfeldbruck)",
+      "reason": "Baukasten-Seite",
+      "date": "2026-10-25"
+    },
+    {
+      "company": "Gebäudereinigung Rudolf Wagenstaller (Emmering)",
+      "reason": "Website",
+      "date": "2026-10-25"
+    },
+    {
+      "company": "Schlosserei Krückl (Olching)",
+      "reason": "Website",
+      "date": "2026-10-25"
+    },
+    {
+      "company": "Sextl Kurt Metallbau (Maisach)",
+      "reason": "Website",
+      "date": "2026-10-25"
+    },
+    {
+      "company": "Entrümpelung Freising (Freising)",
+      "reason": "Website",
+      "date": "2026-10-25"
+    },
+    {
+      "company": "Bodenfachservice Fürst (Krailling)",
+      "reason": "GmbH",
+      "date": "2026-10-25"
+    },
+    {
+      "company": "ASTRAIN Baum- und Gartenpflege (Dietramszell)",
+      "reason": "Website",
+      "date": "2026-10-25"
+    },
+    {
+      "company": "Gebäudereinigung & Hausmeisterservice Steinfeld (Wolfratshausen)",
+      "reason": "Website",
+      "date": "2026-10-25"
+    },
+    {
+      "company": "Manfred Piel Fliesenlegermeister (Bad Tölz)",
+      "reason": "Website",
+      "date": "2026-10-25"
+    },
+    {
+      "company": "Manfred Schletzbaum (Dietramszell)",
+      "reason": "Website",
+      "date": "2026-10-25"
+    },
+    {
+      "company": "Tafallari Dienstleistungen (Eching)",
+      "reason": "kein Beleg",
+      "date": "2026-10-25"
+    },
+    {
+      "company": "CLEANIES Reinigungsdienstleistungen (Oberding)",
+      "reason": "Website",
+      "date": "2026-10-25"
+    },
+    {
+      "company": "Richard Brandhuber Fensterreinigung (Oberding)",
+      "reason": "Website",
+      "date": "2026-10-25"
+    },
+    {
+      "company": "Gebäudereinigung Robert Drexler (Oberding)",
+      "reason": "Website",
+      "date": "2026-10-25"
+    },
+    {
+      "company": "Franz Gnadler Sanitär Heizung (Wartenberg)",
+      "reason": "Domain-E-Mail",
+      "date": "2026-10-25"
+    },
+    {
+      "company": "Davor Kunic (Haar)",
+      "reason": "Domain-E-Mail",
+      "date": "2026-10-25"
+    },
+    {
+      "company": "Elektro Retzer (Riemerling)",
+      "reason": "Website",
+      "date": "2026-10-25"
+    },
+    {
+      "company": "Rudolf Tegel Elektroinstallation (Brunnthal)",
+      "reason": "Website",
+      "date": "2026-10-25"
+    },
+    {
+      "company": "DEMOTECH Gebäudetechnik (Brunnthal)",
+      "reason": "Website",
+      "date": "2026-10-25"
+    },
+    {
+      "company": "Manfred Hofmeier Markisen (Neubiberg)",
+      "reason": "Website",
+      "date": "2026-10-25"
+    },
+    {
+      "company": "Wolf & Partner Rollladen (Neubiberg)",
+      "reason": "Website",
+      "date": "2026-10-25"
     }
   ]
 }

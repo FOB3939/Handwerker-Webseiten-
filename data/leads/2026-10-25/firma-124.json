@@ -393,13 +393,13 @@
     },
     "stickyCta": "Fliesenleger anfragen",
     "look": {
-      "palette": 2,
-      "font": 6,
-      "hero": 0,
-      "services": 1,
-      "radius": 1,
-      "logo": 0,
-      "intro": 5
+      "palette": 1,
+      "font": 7,
+      "hero": 1,
+      "services": 2,
+      "radius": 0,
+      "logo": 1,
+      "intro": 0
     }
   }
 }

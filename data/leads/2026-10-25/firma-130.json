@@ -1,114 +1,116 @@
 {
   "id": "2026-10-25-130",
-  "slug": "karl-dennhoefer-gartenarbeiten-pliening",
+  "slug": "hausmeisterservice-fischer-wolfratshausen",
   "date": "2026-10-25",
   "company": {
-    "name": "Karl Dennhöfer Gartenarbeiten",
-    "owner": "Karl Dennhöfer",
-    "trade": "Gartenarbeiten & Zaunbau",
-    "city": "Pliening",
-    "address": "Ludwigstr. 15, 85652 Pliening",
-    "phone": "08121 71591",
-    "email": null,
+    "name": "Hausmeisterservice & Dienstleistungen Fischer",
+    "owner": null,
+    "trade": "Hausmeisterservice",
+    "city": "Wolfratshausen",
+    "address": "Margeritenstr. 15a, 82515 Wolfratshausen",
+    "phone": "0172 7056324",
+    "email": "hausmeisterwolfratshausen@gmx.de",
     "serviceArea": [
-      "Pliening",
-      "Landsham",
-      "Gelting",
-      "Poing",
-      "Markt Schwaben",
-      "Kirchheim bei München"
+      "Wolfratshausen",
+      "Farchet",
+      "Geretsried",
+      "Icking",
+      "Egling",
+      "Eurasburg"
     ]
   },
   "listings": {
     "google": {
-      "url": "https://www.google.com/maps/search/?api=1&query=Karl%20Dennh%C3%B6fer%20Ludwigstr.%2015%20Pliening",
+      "url": "https://www.google.com/maps/search/?api=1&query=Hausmeisterservice%20Fischer%20Margeritenstr.%2015%20Wolfratshausen",
       "rating": null,
       "reviews": null,
-      "evidence": "NICHT BELEGT – kein Google-Spiegel gefunden (Abfrage mit rgv-bayern/firmania lieferte nur 11880 und Stadtbranchenbuch); Google-Eintrag in Maps prüfen."
+      "evidence": "NICHT BELEGT – kein Google-Spiegel (firmania, rgv-bayern, trustlocal) mit diesem Betrieb gefunden. Annahme stützt sich auf die öffentlich gelistete Freemail-Adresse hausmeisterwolfratshausen@gmx.de (11880-Snippet). Bewertungen nirgends sichtbar – in Google Maps prüfen."
     },
     "myhammer": {
-      "url": "https://www.11880.com/branchenbuch/pliening/290063346B27824604/karl-dennhoefer-gartenarbeiten-zaunanl.html",
+      "url": "https://www.11880.com/suche/hausmeisterservice/wolfratshausen",
       "rating": null,
       "reviews": null,
-      "evidence": "Kein MyHammer gefunden – 11880-Eintrag „Karl Dennhöfer Gartenarbeiten ZaunAnl.“, Ludwigstr. 15, 85652 Pliening, 08121 71591 (laut 11880 aktualisiert 02.10.2026, keine Öffnungszeiten); gleiche Daten im Stadtbranchenbuch Pliening, GoYellow, StarOfService, YellowMap."
+      "evidence": "Kein MyHammer gefunden – Eintrag „Fischer Hausmeisterservice“ in der 11880-Ortsliste Hausmeisterservice Wolfratshausen (Margeritenstr. 15, Farchet, (0172) 7056324, gmx-Adresse; Kategorien Hausmeisterservice, Gebäudereinigung, Garten- und Landschaftspflege) sowie Seniorenportal und hausmeisterdienste.net („Hausmeisterservice & Dienstleistungen Fischer“, Margeritenstraße 15a)."
     }
   },
   "websiteStatus": "keine eigene Website gefunden",
   "websiteChecks": [
-    "(1) „Karl Dennhöfer Gartenarbeiten Pliening“ mit blocked_domains (11880, Gelbe Seiten, Das Örtliche, Telefonbuch, Cylex, meinestadt, Creditreform, Facebook, Instagram, golocal, MyHammer, Northdata, Firmenwissen, WKDB, Yelp, trustlocal, wlw) – nur Verzeichnisse (Stadtbranchenbuch Pliening, GoYellow, StarOfService, YellowMap, oeffnungszeitenbuch); keine eigene Domain, kein Website-Feld",
-    "(2) „Dennhöfer Gartenarbeiten Pliening Ludwigstr Telefon“ (allowed 11880, stadtbranchenbuch, rgv-bayern, firmania, goyellow) – Nummer 08121 71591 in allen Quellen gleich, keine Website genannt",
-    "Domain-Check, Telefon-Websuche und Impressum-Suche nicht durchgeführt (Suchbudget erschöpft) – vor Versand nachholen (z. B. dennhoefer.de, dennhoefer-garten.de, gartenbau-dennhoefer.de)",
-    "Website-Risiko: mittel – bisherige Prüfungen negativ, aber unvollständig; weder Google-Eintrag noch Freemail belegt (RESERVE)"
+    "(1) „Hausmeisterservice Fischer Wolfratshausen Margeritenstr“ mit blocked_domains (11880, Gelbe Seiten, Das Örtliche, Telefonbuch, Cylex, meinestadt, Creditreform, Facebook, Instagram, golocal, MyHammer, Northdata, Firmenwissen, WKDB, Yelp, trustlocal, wlw) – nur Verzeichnisse (Seniorenportal, YellowMap, hausmeisterdienste.net); hausmeisterfischer.de gehört zu einem Betrieb in Trebbin, nicht Wolfratshausen",
+    "(2) Domain-Check allowed_domains hausmeisterservice-fischer.de, hausmeister-fischer.de, fischer-hausmeisterservice.de, hausmeisterservice-fischer-wolfratshausen.de, hausmeister-wolfratshausen.de, fischer-dienstleistungen.de, hausmeisterwolfratshausen.de, fischer-wolfratshausen.de – Treffer nur fremder Firmen (Unterkirnach, Öhringen, ohne Ortsbezug), keine Wolfratshausen-Seite",
+    "(3) Telefon-/E-Mail-Suche „0172 7056324“/„01727056324“/„hausmeisterwolfratshausen@gmx.de“ mit blocked_domains – einziger Treffer hausmeisterdienste.net (Verzeichnis), keine Website",
+    "(4) Verzeichnis-/Bewertungssuche (11880, firmania, rgv-bayern, trustlocal, Seniorenportal, mein-wolfratshausen) – kein Website-Feld, keine Bewertungen; E-Mail auf gmx.de (Freemail)",
+    "Hinweis: hausmeisterservice-wor.de existiert (Inhaber unbekannt, Impressum-Suche ergebnislos) – könnte einem anderen Wolfratshauser Hausmeisterdienst gehören; vor Versand ausschließen",
+    "Website-Risiko: mittel – alle Prüfungen negativ, Freemail öffentlich belegt, Google-Eintrag nicht belegt"
   ],
   "facts": {
     "services": [
-      "Gartenarbeiten",
-      "Zaunanlagen",
-      "Gartenbau"
+      "Hausmeisterservice",
+      "Gebäudereinigung",
+      "Garten- und Landschaftspflege"
     ],
     "experience": null,
     "praisedFor": []
   },
   "strategy": {
-    "audience": "Hausbesitzer mit Garten in Pliening, Landsham, Poing und Markt Schwaben, die Hilfe bei Gartenpflege oder einen neuen Zaun suchen",
-    "mainService": "Gartenarbeiten und Zaunanlagen",
-    "trustSignal": "Inhabergeführter Betrieb von Karl Dennhöfer direkt in Pliening",
-    "conversionGoal": "Kostenloses Angebot für Gartenarbeiten oder Zaun anfragen (Anruf/Formular)",
-    "visualConcept": "Gepflegte Vorgärten, frisch geschnittene Hecken und ein sauber gesetzter Zaun – grün, ordentlich, ländlich"
+    "audience": "Hausverwaltungen, Eigentümergemeinschaften, Vermieter und private Hausbesitzer in Wolfratshausen, Geretsried und Icking, die Objektbetreuung, Reinigung und Grünpflege aus einer Hand suchen",
+    "mainService": "Hausmeisterservice mit Reinigung und Gartenpflege",
+    "trustSignal": "Fester Ansprechpartner aus Wolfratshausen-Farchet, direkt per Handy erreichbar",
+    "conversionGoal": "Unverbindliches Angebot für die Objektbetreuung anfragen (Anruf oder WhatsApp)",
+    "visualConcept": "Gepflegte Wohnanlage im Isartal: saubere Treppenhäuser, gemähte Rasenflächen, ordentliche Eingänge – zuverlässig und bodenständig"
   },
   "sales": {
-    "score": 3,
+    "score": 4,
     "whyGoodLead": [
       "Keine eigene Website gefunden – nur Verzeichniseinträge",
-      "Inhabergeführt (Personenname) – klassischer kleiner Betrieb ohne Online-Auftritt",
-      "Gartenpflege und Zaunbau werden lokal gesucht – Website bringt neue Kunden aus Poing und Markt Schwaben",
-      "Eintrag erst kürzlich aktualisiert – Betrieb scheint aktiv"
+      "Mobilnummer und gmx-Adresse öffentlich gelistet – direkter Erstkontakt per WhatsApp/E-Mail möglich",
+      "Hausmeisterdienste werden von Hausverwaltungen online verglichen – ohne Website fehlt der Betrieb dort",
+      "Drei Leistungsbereiche (Hausmeister, Reinigung, Grünpflege) lassen sich auf einer Seite gut bündeln"
     ],
-    "pitch": "Grüß Gott Herr Dennhöfer, hier ist … – ich baue Websites für Handwerksbetriebe im Landkreis Ebersberg. Ich habe Ihren Eintrag für Gartenarbeiten und Zaunanlagen in Pliening gefunden, aber keine eigene Website. Ich habe unverbindlich einen Entwurf vorbereitet, über den Kunden Ihre Leistungen sehen und direkt anfragen können – darf ich Ihnen den Link schicken?"
+    "pitch": "Hallo, hier ist … – ich baue Websites für Handwerks- und Servicebetriebe im Isartal. Ich habe Ihren Eintrag „Hausmeisterservice Fischer“ in Wolfratshausen gefunden, aber keine eigene Website. Ich habe unverbindlich einen Entwurf vorbereitet, auf dem Hausverwaltungen und Eigentümer Ihre Leistungen sehen und direkt anfragen können – darf ich Ihnen den Link schicken?"
   },
   "manualChecks": [
-    "RESERVE – weder Google-Eintrag noch Freemail-Adresse belegt: NUR versenden, wenn Google Maps einen Eintrag OHNE Website zeigt.",
-    "Website-Prüfung unvollständig: Domain-Check, Telefonnummer-Suche und Impressum-Suche vor Versand nachholen",
-    "Google-Eintrag in Maps suchen (Karl Dennhöfer, Ludwigstr. 15, Pliening) – Existenz, Bewertungen und Website-Feld prüfen",
-    "Nur Festnetz (08121 71591) bekannt – kein WhatsApp-Erstkontakt; telefonisch oder per Brief ansprechen",
-    "Leistungen nur grob belegt (Gartenarbeiten, Zaunanlagen, Gartenbau; StarOfService-Kategorie auch Pflasterer) – Heckenschnitt, Rasen, Pflaster beim Betrieb bestätigen",
-    "Teilweise alte Verzeichnisdaten – prüfen, ob der Betrieb noch aktiv ist",
-    "Logo und Projektfotos: nicht gefunden – beim Betrieb anfragen"
+    "Website-Risiko: mittel – vor Versand in Google Maps prüfen, dass keine Website hinterlegt ist (Grund: Google-Eintrag nicht belegt, nur Freemail und Verzeichnisse)",
+    "hausmeisterservice-wor.de prüfen – gehört die Seite zu Fischer oder zu einem anderen Betrieb?",
+    "11880-Eintrag war beim Crawl als „geschlossen“ markiert (vermutlich nur Öffnungszeit) – per Anruf klären, dass der Betrieb aktiv ist",
+    "Hausnummer 15 vs. 15a (11880 vs. Seniorenportal) – beim Erstkontakt bestätigen",
+    "Inhaber-Vorname unbekannt – Anrede „Herr/Frau Fischer“ erst nach Rückmeldung",
+    "Leistungen nur als Verzeichniskategorien belegt (Hausmeisterservice, Gebäudereinigung, Garten- und Landschaftspflege) – Winterdienst, Kleinreparaturen etc. erfragen",
+    "Logo und Fotos: nicht gefunden – beim Betrieb anfragen"
   ],
   "sources": [
     {
-      "label": "11880 – Karl Dennhöfer Gartenarbeiten ZaunAnl. Pliening",
-      "url": "https://www.11880.com/branchenbuch/pliening/290063346B27824604/karl-dennhoefer-gartenarbeiten-zaunanl.html"
+      "label": "11880 – Hausmeisterservices Wolfratshausen (Liste mit Fischer Hausmeisterservice)",
+      "url": "https://www.11880.com/suche/hausmeisterservice/wolfratshausen"
     },
     {
-      "label": "Stadtbranchenbuch Pliening – Karl Dennhöfer Gartenbau, Ludwigstr. 15",
-      "url": "https://pliening.stadtbranchenbuch.com/408405.html"
+      "label": "11880 – Gebäudereinigungen Wolfratshausen",
+      "url": "https://www.11880.com/suche/gebaeudereinigung/wolfratshausen"
     },
     {
-      "label": "GoYellow – Gartenbau und Gartengestaltung Pliening",
-      "url": "https://www.goyellow.de/suche/gartenbau-und-gartengestaltung/pliening"
+      "label": "Seniorenportal – Hausmeisterservice Geretsried und Umgebung (Fischer, Margeritenstraße 15a)",
+      "url": "https://www.seniorenportal.de/regionale-angebote/hausmeisterdienste/geretsried"
     },
     {
-      "label": "StarOfService – Landschaftsgärtner Pliening",
-      "url": "https://www.starofservice.de/liste/bayern/ebersberg/pliening/garten-und-landschaftsbau"
+      "label": "hausmeisterdienste.net – Hausmeisterservices Eurasburg (Fischer, 0172 7056324)",
+      "url": "https://www.hausmeisterdienste.net/eurasburg"
     }
   ],
   "site": {
-    "theme": "garten",
+    "theme": "objekt",
     "category": "handwerk",
     "heroOffer": [
-      "Gartenpflege",
-      "Heckenschnitt",
-      "Zaunbau",
+      "Hausmeisterdienst",
+      "Treppenhausreinigung",
       "Rasenpflege",
-      "Gartenbau"
+      "Heckenschnitt",
+      "Objektkontrolle"
     ],
     "scene": "garden",
-    "logoIcon": "leaf",
-    "logoMark": "KD",
-    "brandName": "Dennhöfer Gartenarbeiten",
-    "seoTitle": "Gartenarbeiten & Zaunbau in Pliening – Karl Dennhöfer",
-    "seoDescription": "Gartenpflege, Heckenschnitt und Zaunanlagen in Pliening, Poing und Markt Schwaben. Jetzt kostenloses Angebot anfragen.",
+    "logoIcon": "broom",
+    "logoMark": "HF",
+    "brandName": "Hausmeisterservice Fischer",
+    "seoTitle": "Hausmeisterservice in Wolfratshausen – Fischer",
+    "seoDescription": "Hausmeisterservice, Gebäudereinigung und Gartenpflege in Wolfratshausen, Geretsried und Icking. Jetzt unverbindlich anfragen – auch per WhatsApp.",
     "nav": [
       {
         "label": "Leistungen",
@@ -136,132 +138,132 @@
       }
     ],
     "hero": {
-      "eyebrow": "Gartenarbeiten · Pliening",
-      "headline": "Gartenarbeiten und Zäune in Pliening",
-      "sub": "Gartenpflege und Zaunanlagen vom Inhaber – für Pliening, Poing und Markt Schwaben.",
-      "ctaPrimary": "Kostenloses Angebot anfragen",
+      "eyebrow": "Hausmeisterservice · Wolfratshausen",
+      "headline": "Hausmeisterservice für Wolfratshausen",
+      "sub": "Objektbetreuung, Reinigung und Grünpflege für Wohnhäuser und Anlagen im Isartal.",
+      "ctaPrimary": "Angebot anfragen",
       "ctaSecondary": "Anrufen",
       "bullets": [
-        "Inhabergeführt in Pliening",
-        "Garten und Zaun aus einer Hand",
-        "Kurze Wege im Landkreis"
+        "Betrieb in Wolfratshausen-Farchet",
+        "Hausmeister, Reinigung, Garten",
+        "Direkt per Handy erreichbar"
       ],
-      "imageLabel": "gepflegter Garten mit frisch geschnittener Hecke und Holzzaun"
+      "imageLabel": "gepflegte Wohnanlage mit gemähtem Rasen und sauberem Eingang"
     },
     "badges": [
       {
-        "title": "Gartenpflege",
-        "sub": "Rasen, Hecken, Beete"
+        "title": "Hausmeister",
+        "sub": "Objektbetreuung"
       },
       {
-        "title": "Zaunanlagen",
-        "sub": "neu setzen und erneuern"
+        "title": "Reinigung",
+        "sub": "Treppenhaus & Flächen"
       },
       {
-        "title": "Gartenbau",
-        "sub": "Umgestaltung nach Wunsch"
+        "title": "Grünpflege",
+        "sub": "Rasen & Hecken"
       },
       {
-        "title": "Pliening",
-        "sub": "Ludwigstraße"
+        "title": "Wolfratshausen",
+        "sub": "Margeritenstraße"
       }
     ],
     "trust": [
       {
-        "value": "Inhaber",
-        "label": "Karl Dennhöfer persönlich"
-      },
-      {
         "value": "Vor Ort",
-        "label": "Betrieb in Pliening"
+        "label": "Betrieb in Farchet"
       },
       {
-        "value": "2 in 1",
-        "label": "Garten und Zaun"
+        "value": "3",
+        "label": "Leistungsbereiche"
       },
       {
-        "value": "Lkr. EBE",
-        "label": "kurze Anfahrt"
+        "value": "1",
+        "label": "fester Ansprechpartner"
+      },
+      {
+        "value": "Mobil",
+        "label": "schnell erreichbar"
       }
     ],
     "servicesIntro": {
-      "headline": "Garten und Zaun in guten Händen",
-      "text": "Vom regelmäßigen Rückschnitt bis zum neuen Gartenzaun: Karl Dennhöfer übernimmt die Arbeiten rund um Ihr Grundstück."
+      "headline": "Ein Ansprechpartner für Haus, Treppenhaus und Garten",
+      "text": "Statt drei Dienstleister zu koordinieren, betreut ein Betrieb aus Wolfratshausen Ihr Objekt rundum – drinnen und draußen."
     },
     "services": [
       {
-        "title": "Gartenpflege",
-        "text": "Regelmäßige Pflege, damit der Garten das ganze Jahr ordentlich aussieht.",
+        "title": "Hausmeisterdienst",
+        "text": "Regelmäßige Kontrollgänge, kleine Mängel erkennen und melden, Ordnung rund ums Haus halten.",
         "items": [
-          "Beete pflegen",
-          "Unkraut entfernen",
-          "Laub beseitigen"
+          "Kontrollgänge",
+          "Mängelmeldung",
+          "Ordnung am Objekt"
         ]
       },
       {
-        "title": "Heckenschnitt",
-        "text": "Hecken und Sträucher in Form gebracht – sauber geschnitten, Schnittgut entsorgt.",
+        "title": "Treppenhausreinigung",
+        "text": "Saubere Treppenhäuser, Eingänge und Flure – im vereinbarten Rhythmus.",
         "items": [
-          "Formschnitt",
-          "Rückschnitt",
-          "Schnittgut"
+          "Treppenhaus",
+          "Eingangsbereich",
+          "Flure"
+        ]
+      },
+      {
+        "title": "Gebäudereinigung",
+        "text": "Reinigung von Gemeinschaftsflächen, Kellern und Nebenräumen in Wohn- und Gewerbeobjekten.",
+        "items": [
+          "Gemeinschaftsräume",
+          "Keller",
+          "Nebenräume"
         ]
       },
       {
         "title": "Rasenpflege",
-        "text": "Mähen, Vertikutieren und Nachsäen für einen dichten, grünen Rasen.",
+        "text": "Mähen, Kanten schneiden, Schnittgut entsorgen – damit die Außenanlage gepflegt aussieht.",
         "items": [
-          "Mähen",
-          "Vertikutieren",
-          "Nachsaat"
+          "Rasenmähen",
+          "Kantenschnitt",
+          "Schnittgut"
         ]
       },
       {
-        "title": "Zaunbau",
-        "text": "Neue Zaunanlagen gesetzt – passend zu Grundstück und Haus.",
+        "title": "Hecken & Sträucher",
+        "text": "Formschnitt von Hecken und Rückschnitt von Sträuchern zur passenden Jahreszeit.",
         "items": [
-          "Neue Zäune",
-          "Pfosten setzen",
-          "Grundstücksgrenze"
+          "Heckenschnitt",
+          "Strauchschnitt",
+          "Laub"
         ]
       },
       {
-        "title": "Zaunreparatur",
-        "text": "Beschädigte oder alte Zaunfelder erneuert und wieder stabil gemacht.",
+        "title": "Außenanlagen",
+        "text": "Wege, Zufahrten und Müllplätze sauber halten – der erste Eindruck Ihres Objekts.",
         "items": [
-          "Zaunfelder tauschen",
-          "Pfosten richten",
-          "Erneuern"
-        ]
-      },
-      {
-        "title": "Gartengestaltung",
-        "text": "Bereiche im Garten neu anlegen oder umgestalten – nach Ihren Vorstellungen.",
-        "items": [
-          "Neu anlegen",
-          "Umgestalten",
-          "Bepflanzen"
+          "Wege kehren",
+          "Müllplatz",
+          "Zufahrten"
         ]
       }
     ],
     "why": {
-      "headline": "Garten und Zaun vom Inhaber aus Pliening.",
+      "headline": "Objektbetreuung aus Wolfratshausen – verlässlich und direkt.",
       "points": [
         {
-          "title": "Persönlich",
-          "text": "Karl Dennhöfer ist Ihr direkter Ansprechpartner – von der Anfrage bis zur Ausführung."
-        },
-        {
           "title": "Kurze Wege",
-          "text": "Von Pliening aus schnell in Landsham, Poing und Markt Schwaben."
+          "text": "Von Farchet aus schnell in Wolfratshausen, Geretsried, Icking und Egling."
         },
         {
-          "title": "Alles rund ums Grundstück",
-          "text": "Gartenarbeiten und Zaunanlagen in einem Auftrag."
+          "title": "Alles aus einer Hand",
+          "text": "Hausmeister, Reinigung und Grünpflege mit einem Ansprechpartner."
         },
         {
-          "title": "Klare Absprachen",
-          "text": "Umfang und Termin werden vorab festgelegt."
+          "title": "Direkter Draht",
+          "text": "Anruf oder WhatsApp genügt – ohne Zentrale und Warteschleife."
+        },
+        {
+          "title": "Feste Intervalle",
+          "text": "Leistungen und Rhythmus werden klar vereinbart und eingehalten."
         }
       ]
     },
@@ -269,132 +271,132 @@
       "headline": "Was Kunden sagen",
       "summary": "Kundenstimmen werden hier eingebunden, sobald sie aus dem Google-Profil übernommen sind.",
       "highlights": [
-        "Gartenarbeiten in Pliening",
-        "Zaunanlagen",
-        "Inhabergeführt"
+        "Hausmeisterservice in Wolfratshausen",
+        "Reinigung und Grünpflege",
+        "Direkter Kontakt"
       ],
       "source": "Google",
-      "sourceUrl": "https://www.google.com/maps/search/?api=1&query=Karl%20Dennh%C3%B6fer%20Ludwigstr.%2015%20Pliening",
+      "sourceUrl": "https://www.google.com/maps/search/?api=1&query=Hausmeisterservice%20Fischer%20Margeritenstr.%2015%20Wolfratshausen",
       "rating": null,
       "count": null
     },
     "process": {
-      "headline": "In vier Schritten zum gepflegten Grundstück",
+      "headline": "So startet die Betreuung Ihres Objekts",
       "steps": [
         {
           "title": "Anfrage",
-          "text": "Kurz anrufen oder das Formular nutzen – gern mit Fotos vom Garten."
+          "text": "Objekt, Größe und gewünschte Leistungen kurz per Anruf oder WhatsApp schildern."
         },
         {
-          "title": "Besichtigung",
-          "text": "Garten oder Zaunverlauf werden vor Ort angesehen."
+          "title": "Begehung",
+          "text": "Gemeinsamer Rundgang vor Ort – Flächen, Garten und Besonderheiten."
         },
         {
           "title": "Angebot",
-          "text": "Sie erhalten ein klares Angebot für die Arbeiten."
+          "text": "Klares Angebot mit Leistungen und Intervallen."
         },
         {
-          "title": "Ausführung",
-          "text": "Die Arbeiten werden zum vereinbarten Termin erledigt – sauber hinterlassen."
+          "title": "Betreuung",
+          "text": "Start zum vereinbarten Termin – regelmäßig und zuverlässig."
         }
       ]
     },
     "gallery": {
-      "headline": "Gärten und Zäune aus der Region",
-      "text": "Für die Live-Version zeigen wir hier echte Arbeiten des Betriebs.",
+      "headline": "Gepflegte Objekte im Isartal",
+      "text": "Für die Live-Version zeigen wir hier echte Objekte des Betriebs.",
       "items": [
         {
-          "title": "Neuer Zaun",
-          "photoNeeded": "frisch gesetzter Gartenzaun an einer Grundstücksgrenze"
+          "title": "Treppenhaus",
+          "photoNeeded": "frisch gereinigtes Treppenhaus einer Wohnanlage"
+        },
+        {
+          "title": "Rasenfläche",
+          "photoNeeded": "frisch gemähter Rasen vor Mehrfamilienhaus"
         },
         {
           "title": "Heckenschnitt",
-          "photoNeeded": "sauber geschnittene Hecke vor einem Einfamilienhaus"
+          "photoNeeded": "sauber geschnittene Hecke am Grundstücksrand"
         },
         {
-          "title": "Gepflegter Rasen",
-          "photoNeeded": "frisch gemähter Rasen mit Beetkante"
+          "title": "Eingangsbereich",
+          "photoNeeded": "gepflegter Hauseingang mit gekehrtem Weg"
         },
         {
-          "title": "Beetpflege",
-          "photoNeeded": "gepflegtes Staudenbeet ohne Unkraut"
-        },
-        {
-          "title": "Gartenumgestaltung",
-          "photoNeeded": "neu angelegter Gartenbereich mit Bepflanzung"
+          "title": "Müllplatz",
+          "photoNeeded": "ordentlicher Müllplatz einer Wohnanlage"
         }
       ]
     },
     "region": {
-      "headline": "Gartenarbeiten für Pliening und Umgebung",
-      "text": "Von Pliening aus schnell in Landsham, Gelting, Poing, Markt Schwaben und Kirchheim.",
+      "headline": "Hausmeisterservice für Wolfratshausen und Umgebung",
+      "text": "Von Farchet aus im Einsatz in Wolfratshausen, Geretsried, Icking, Egling und Eurasburg.",
       "places": [
-        "Pliening",
-        "Landsham",
-        "Gelting",
-        "Poing",
-        "Markt Schwaben",
-        "Kirchheim bei München"
+        "Wolfratshausen",
+        "Farchet",
+        "Geretsried",
+        "Icking",
+        "Egling",
+        "Eurasburg"
       ]
     },
     "faq": [
       {
-        "q": "Übernehmen Sie regelmäßige Gartenpflege?",
-        "a": "Ja, auf Wunsch auch in festen Abständen über die Saison."
+        "q": "Für welche Objekte arbeiten Sie?",
+        "a": "Für Wohnhäuser, Wohnanlagen und Gewerbeobjekte – sprechen Sie uns einfach an."
       },
       {
-        "q": "Setzen Sie auch neue Zäune?",
-        "a": "Ja, Zaunanlagen gehören zum Angebot – Details klären wir vor Ort."
+        "q": "Kann ich nur Gartenpflege buchen?",
+        "a": "Ja, Leistungen lassen sich einzeln oder kombiniert vereinbaren."
       },
       {
-        "q": "Wird das Schnittgut mitgenommen?",
-        "a": "Das wird im Angebot festgehalten – fragen Sie einfach an."
+        "q": "Wie oft wird gereinigt?",
+        "a": "Der Rhythmus wird individuell festgelegt – zum Beispiel wöchentlich oder vierzehntägig."
       },
       {
-        "q": "Kann ich vorab Fotos schicken?",
-        "a": "Ja, Fotos vom Garten oder Zaun helfen für eine erste Einschätzung."
+        "q": "Arbeiten Sie auch außerhalb von Wolfratshausen?",
+        "a": "Ja, im Umkreis von Wolfratshausen, etwa in Geretsried, Icking und Egling."
       },
       {
-        "q": "Arbeiten Sie auch außerhalb von Pliening?",
-        "a": "Ja, im Umkreis von Pliening – etwa in Poing und Markt Schwaben."
+        "q": "Wie erhalte ich ein Angebot?",
+        "a": "Nach einer kurzen Anfrage und einer Begehung vor Ort erhalten Sie ein klares Angebot."
       }
     ],
     "contact": {
-      "headline": "Ihr Angebot – kostenlos und unverbindlich",
-      "text": "Beschreiben Sie kurz, was im Garten oder am Zaun zu tun ist, und wie groß das Grundstück ungefähr ist.",
+      "headline": "Ihr Angebot – unverbindlich",
+      "text": "Beschreiben Sie kurz Ihr Objekt: Art, Größe und welche Leistungen Sie brauchen – Hausmeister, Reinigung oder Garten.",
       "topics": [
+        "Hausmeisterdienst",
+        "Treppenhausreinigung",
+        "Gebäudereinigung",
         "Gartenpflege",
-        "Heckenschnitt",
-        "Zaunbau",
-        "Gartengestaltung",
         "Sonstiges"
       ],
-      "responseNote": "Besichtigung nach Absprache."
+      "responseNote": "Begehung nach Absprache."
     },
     "quote": {
-      "sizeLabel": "Worum geht es?",
+      "sizeLabel": "Um welches Objekt geht es?",
       "sizes": [
-        "Gartenpflege",
-        "Hecke / Sträucher",
-        "Neuer Zaun",
-        "Garten umgestalten"
+        "Einfamilienhaus",
+        "Mehrfamilienhaus",
+        "Wohnanlage",
+        "Gewerbeobjekt"
       ],
       "timings": [
         "So bald wie möglich",
-        "In den nächsten Wochen",
-        "Zur nächsten Saison",
+        "Ab nächstem Monat",
+        "Zur neuen Saison",
         "Ich plane erst noch"
       ]
     },
     "stickyCta": "Angebot anfragen",
     "look": {
-      "palette": 2,
-      "font": 6,
-      "hero": 0,
-      "services": 1,
-      "radius": 1,
-      "logo": 0,
-      "intro": 5
+      "palette": 1,
+      "font": 9,
+      "hero": 3,
+      "services": 2,
+      "radius": 3,
+      "logo": 1,
+      "intro": 0
     }
   }
 }

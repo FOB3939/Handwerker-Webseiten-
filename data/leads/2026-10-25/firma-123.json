@@ -391,13 +391,13 @@
     },
     "stickyCta": "Angebot anfragen",
     "look": {
-      "palette": 2,
-      "font": 6,
+      "palette": 0,
+      "font": 2,
       "hero": 0,
-      "services": 1,
-      "radius": 1,
+      "services": 0,
+      "radius": 2,
       "logo": 0,
-      "intro": 5
+      "intro": 1
     }
   }
 }

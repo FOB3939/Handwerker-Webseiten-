@@ -1,0 +1,388 @@
+{
+  "id": "2026-10-25-126",
+  "slug": "general-gebaeudeservice-taufkirchen-vils",
+  "date": "2026-10-25",
+  "company": {
+    "name": "GeNeral-Gebäudeservice",
+    "owner": null,
+    "trade": "Gebäudereinigung",
+    "city": "Taufkirchen (Vils)",
+    "address": "Schulgasse 6, 84416 Taufkirchen (Vils)",
+    "phone": "01575 8168564",
+    "email": null,
+    "serviceArea": [
+      "Taufkirchen (Vils)",
+      "Dorfen",
+      "Wartenberg",
+      "Erding",
+      "Isen",
+      "Velden"
+    ]
+  },
+  "listings": {
+    "google": {
+      "url": "https://www.google.com/maps/search/?api=1&query=GeNeral%20Geb%C3%A4udeservice%20Schulgasse%206%20Taufkirchen%20Vils",
+      "rating": null,
+      "reviews": null,
+      "evidence": "NICHT BELEGT – kein Google-Spiegel (firmania, rgv-bayern, trustlocal) mit diesem Betrieb gefunden. Einzige Quelle: 11880-Eintrag „GeNeral- Gebäudeservice“, Schulgasse 6, 84416 Taufkirchen (Vils), Tel. (01575) 8168564, Kategorie Reinigung, ohne Öffnungszeiten (erscheint in der 11880-Trefferliste Reinigung Dorfen). In Google Maps prüfen."
+    },
+    "myhammer": {
+      "url": "https://www.11880.com/suche/reinigung/dorfen",
+      "rating": null,
+      "reviews": null,
+      "evidence": "Kein MyHammer gefunden – nur 11880-Eintrag (Trefferliste Reinigung Dorfen) mit Adresse Schulgasse 6 und Mobilnummer 01575 8168564."
+    }
+  },
+  "websiteStatus": "keine eigene Website gefunden",
+  "websiteChecks": [
+    "(1) „GeNeral Gebäudeservice Taufkirchen Vils“ mit blocked_domains (Gelbe Seiten, Das Örtliche, Telefonbuch, Cylex, meinestadt, Creditreform, Facebook, Instagram, golocal, MyHammer, Northdata, Firmenwissen, WKDB, Yelp, trustlocal, wlw) – nur andere Betriebe (F&D Haus- und Gebäudeservice, LB Gebäudeservice, H&G GmbH), kein eigener Treffer",
+    "(2) Telefon-/Namenssuche „01575 8168564“/„015758168564“/„General Gebäudeservice“ – nur der 11880-Eintrag Taufkirchen sowie eine gleichnamige, andere Firma in Duisburg (general-service.de, Festnetz 02066) – kein Bezug zu Taufkirchen erkennbar",
+    "(3) Domain-Check allowed_domains general-gebaeudeservice.de, general-gebaeudeservice-taufkirchen.de, general-service-taufkirchen.de, general-reinigung.de, generalgebaeudeservice.de, general-gebäudeservice.de, general-gs.de, general-gebaeudeservice.com – keine Treffer",
+    "(4) Adresssuche „Schulgasse 6 Taufkirchen Vils“ auf firmania, rgv-bayern, trustlocal, koomio, hausmeisterdienste.net, 11880 – nur der 11880-Eintrag, kein Google-Spiegel, keine Website, kein Impressum",
+    "Website-Risiko: niedrig – alle Prüfungen negativ, aber weder Google-Eintrag noch Freemail belegt (nur RESERVE)"
+  ],
+  "facts": {
+    "services": [
+      "Gebäudereinigung"
+    ],
+    "experience": null,
+    "praisedFor": []
+  },
+  "strategy": {
+    "audience": "Hausverwaltungen, Vermieter, Praxen, Büros und Privathaushalte in Taufkirchen (Vils), Dorfen und Wartenberg, die eine zuverlässige Reinigung suchen",
+    "mainService": "Gebäudereinigung – Treppenhaus, Büro und Wohnung",
+    "trustSignal": "Betrieb direkt in Taufkirchen (Vils), per Handy erreichbar",
+    "conversionGoal": "Kostenloses Reinigungsangebot anfragen (per WhatsApp/Anruf)",
+    "visualConcept": "Frisch und klar: glänzende Treppenhäuser, streifenfreie Fenster und helle Büroflächen im Vilstal"
+  },
+  "sales": {
+    "score": 3,
+    "whyGoodLead": [
+      "Keine eigene Website gefunden – nur ein einzelner Verzeichniseintrag",
+      "Mobilnummer öffentlich gelistet – geeignet für WhatsApp-Erstkontakt",
+      "Praktisch keine Online-Sichtbarkeit – Website plus Google-Profil wären ein deutlicher Schritt",
+      "Reinigung ist in Taufkirchen (Vils) und Dorfen gefragt, Wettbewerber wie F&D sind bereits online"
+    ],
+    "pitch": "Hallo, hier ist … – ich baue Websites für Betriebe im Landkreis Erding. Ich habe Ihren Eintrag „GeNeral-Gebäudeservice“ in Taufkirchen (Vils) gefunden, aber keine eigene Website. Ich habe unverbindlich einen Entwurf vorbereitet, über den Kunden Ihre Reinigungsleistungen sehen und direkt per WhatsApp anfragen können – darf ich Ihnen den Link schicken?"
+  },
+  "manualChecks": [
+    "RESERVE – weder Google-Eintrag noch Freemail-Adresse belegt: NUR versenden, wenn Google Maps einen Eintrag OHNE Website zeigt.",
+    "Betrieb aktiv? Einziger Beleg ist ein 11880-Eintrag ohne Öffnungszeiten – Existenz und Erreichbarkeit unter 01575 8168564 prüfen",
+    "Inhabername unbekannt (Schreibweise „GeNeral“ evtl. aus Namensteilen gebildet) – beim Erstkontakt erfragen, Anrede neutral halten",
+    "Leistungen nur als Kategorie „Reinigung“ belegt – Treppenhaus-, Büro-, Fenster-, Grund- und Bauendreinigung sind gewerkstypische Annahmen und müssen bestätigt werden",
+    "Nicht verwechseln mit „General Gebäudeservice“ in Duisburg (general-service.de) – andere Firma",
+    "Logo und Fotos: nicht gefunden – beim Betrieb anfragen"
+  ],
+  "sources": [
+    {
+      "label": "11880 – Trefferliste Reinigung Dorfen (mit GeNeral- Gebäudeservice, Taufkirchen/Vils)",
+      "url": "https://www.11880.com/suche/reinigung/dorfen"
+    }
+  ],
+  "site": {
+    "theme": "aqua",
+    "category": "handwerk",
+    "heroOffer": [
+      "Treppenhaus",
+      "Büroreinigung",
+      "Fenster",
+      "Grundreinigung",
+      "Bauendreinigung"
+    ],
+    "scene": "facade",
+    "logoIcon": "broom",
+    "logoMark": "GN",
+    "brandName": "GeNeral-Gebäudeservice",
+    "seoTitle": "Gebäudereinigung in Taufkirchen (Vils) – GeNeral-Gebäudeservice",
+    "seoDescription": "Treppenhaus-, Büro- und Fensterreinigung in Taufkirchen (Vils), Dorfen und Umgebung. Jetzt kostenloses Angebot anfragen – auch per WhatsApp.",
+    "nav": [
+      {
+        "label": "Leistungen",
+        "href": "#leistungen"
+      },
+      {
+        "label": "Projekte",
+        "href": "#projekte"
+      },
+      {
+        "label": "Bewertungen",
+        "href": "#bewertungen"
+      },
+      {
+        "label": "Ablauf",
+        "href": "#ablauf"
+      },
+      {
+        "label": "FAQ",
+        "href": "#faq"
+      },
+      {
+        "label": "Kontakt",
+        "href": "#kontakt"
+      }
+    ],
+    "hero": {
+      "eyebrow": "Gebäudereinigung · Taufkirchen (Vils)",
+      "headline": "Gebäudereinigung in Taufkirchen (Vils)",
+      "sub": "Saubere Treppenhäuser, Büros und Fenster – zuverlässig im Vilstal und rund um Dorfen.",
+      "ctaPrimary": "Kostenloses Angebot anfragen",
+      "ctaSecondary": "Anrufen",
+      "bullets": [
+        "Betrieb in Taufkirchen (Vils)",
+        "Regelmäßig oder einmalig",
+        "Direkt per Handy erreichbar"
+      ],
+      "imageLabel": "frisch gereinigtes, helles Treppenhaus"
+    },
+    "badges": [
+      {
+        "title": "Treppenhaus",
+        "sub": "regelmäßig sauber"
+      },
+      {
+        "title": "Büro & Praxis",
+        "sub": "nach Plan"
+      },
+      {
+        "title": "Fenster",
+        "sub": "streifenfrei"
+      },
+      {
+        "title": "Taufkirchen",
+        "sub": "Schulgasse"
+      }
+    ],
+    "trust": [
+      {
+        "value": "Vor Ort",
+        "label": "Betrieb in Taufkirchen (Vils)"
+      },
+      {
+        "value": "Flexibel",
+        "label": "regelmäßig oder einmalig"
+      },
+      {
+        "value": "Innen",
+        "label": "Treppenhaus, Büro, Wohnung"
+      },
+      {
+        "value": "Mobil",
+        "label": "schnell erreichbar"
+      }
+    ],
+    "servicesIntro": {
+      "headline": "Reinigung für Wohnanlage, Büro und Zuhause",
+      "text": "Ob wöchentliche Treppenhausreinigung oder einmalige Grundreinigung nach dem Umzug: Sie bekommen einen festen Ansprechpartner aus Taufkirchen."
+    },
+    "services": [
+      {
+        "title": "Treppenhausreinigung",
+        "text": "Stufen, Geländer, Eingangsbereich und Briefkästen – im festen Rhythmus für Mehrfamilienhäuser und Wohnanlagen.",
+        "items": [
+          "Wöchentlich",
+          "Eingangsbereich",
+          "Geländer & Türen"
+        ]
+      },
+      {
+        "title": "Büroreinigung",
+        "text": "Arbeitsplätze, Böden, Küche und Sanitärräume werden nach Ihrem Plan gereinigt – auch außerhalb der Öffnungszeiten.",
+        "items": [
+          "Büros",
+          "Praxen",
+          "Sanitärräume"
+        ]
+      },
+      {
+        "title": "Fensterreinigung",
+        "text": "Glasflächen, Rahmen und Fensterbänke streifenfrei – für Wohnung, Büro und Ladenlokal.",
+        "items": [
+          "Glasflächen",
+          "Rahmen",
+          "Fensterbänke"
+        ]
+      },
+      {
+        "title": "Grundreinigung",
+        "text": "Gründliche Komplettreinigung, wenn der normale Putz nicht mehr reicht – etwa vor Einzug oder Übergabe.",
+        "items": [
+          "Böden",
+          "Küche & Bad",
+          "Schränke innen"
+        ]
+      },
+      {
+        "title": "Bauendreinigung",
+        "text": "Nach Umbau oder Renovierung werden Staub, Farbreste und Schutzfolien entfernt, damit Räume bezugsfertig sind.",
+        "items": [
+          "Baustaub",
+          "Farbreste",
+          "Bezugsfertig"
+        ]
+      },
+      {
+        "title": "Umzugsreinigung",
+        "text": "Wohnung besenrein oder übergabefertig – damit die Abnahme mit dem Vermieter entspannt läuft.",
+        "items": [
+          "Auszug",
+          "Einzug",
+          "Wohnungsübergabe"
+        ]
+      }
+    ],
+    "why": {
+      "headline": "Reinigung aus Taufkirchen – direkt und verlässlich.",
+      "points": [
+        {
+          "title": "Kurze Wege",
+          "text": "Von der Schulgasse aus schnell in Dorfen, Wartenberg, Isen und Erding."
+        },
+        {
+          "title": "Ein Ansprechpartner",
+          "text": "Ein Anruf oder eine WhatsApp-Nachricht genügt – ohne Callcenter."
+        },
+        {
+          "title": "Nach Ihrem Plan",
+          "text": "Rhythmus und Umfang richten sich nach Ihrem Objekt, nicht nach Standardpaketen."
+        },
+        {
+          "title": "Auch einmalig",
+          "text": "Neben regelmäßigen Terminen sind Grund-, Bauend- und Umzugsreinigung möglich."
+        }
+      ]
+    },
+    "reviews": {
+      "headline": "Was Kunden sagen",
+      "summary": "Kundenstimmen werden hier eingebunden, sobald sie aus dem Google-Profil übernommen sind.",
+      "highlights": [
+        "Reinigung in Taufkirchen (Vils)",
+        "Treppenhaus und Büro",
+        "Direkter Kontakt"
+      ],
+      "source": "Google",
+      "sourceUrl": "https://www.google.com/maps/search/?api=1&query=GeNeral%20Geb%C3%A4udeservice%20Schulgasse%206%20Taufkirchen%20Vils",
+      "rating": null,
+      "count": null
+    },
+    "process": {
+      "headline": "In vier Schritten zum sauberen Objekt",
+      "steps": [
+        {
+          "title": "Anfrage",
+          "text": "Objekt, Fläche und gewünschten Rhythmus kurz per WhatsApp oder Anruf schildern."
+        },
+        {
+          "title": "Besichtigung",
+          "text": "Vor Ort wird abgestimmt, welche Bereiche wie oft gereinigt werden."
+        },
+        {
+          "title": "Angebot",
+          "text": "Sie erhalten ein klares Angebot mit festem Leistungsumfang."
+        },
+        {
+          "title": "Reinigung",
+          "text": "Die Arbeiten starten zum vereinbarten Termin – regelmäßig oder einmalig."
+        }
+      ]
+    },
+    "gallery": {
+      "headline": "Sauber bis in die Ecken",
+      "text": "Für die Live-Version zeigen wir hier echte Einsätze des Betriebs.",
+      "items": [
+        {
+          "title": "Treppenhaus",
+          "photoNeeded": "frisch gewischtes Treppenhaus in einer Wohnanlage"
+        },
+        {
+          "title": "Büro",
+          "photoNeeded": "aufgeräumter, gereinigter Büroraum am Abend"
+        },
+        {
+          "title": "Fensterfront",
+          "photoNeeded": "streifenfreie Glasfront eines Ladenlokals"
+        },
+        {
+          "title": "Nach dem Umbau",
+          "photoNeeded": "Raum nach der Bauendreinigung, bezugsfertig"
+        },
+        {
+          "title": "Wohnungsübergabe",
+          "photoNeeded": "leere, gereinigte Wohnung mit glänzendem Boden"
+        }
+      ]
+    },
+    "region": {
+      "headline": "Gebäudereinigung für Taufkirchen (Vils) und Umgebung",
+      "text": "Von Taufkirchen aus im Einsatz in Dorfen, Wartenberg, Isen, Erding und Velden.",
+      "places": [
+        "Taufkirchen (Vils)",
+        "Dorfen",
+        "Wartenberg",
+        "Isen",
+        "Erding",
+        "Velden"
+      ]
+    },
+    "faq": [
+      {
+        "q": "Reinigen Sie regelmäßig oder auch einmalig?",
+        "a": "Beides ist möglich – vom festen Wochenrhythmus bis zur einmaligen Grund- oder Umzugsreinigung."
+      },
+      {
+        "q": "Kann ich vorab Fotos schicken?",
+        "a": "Ja, Fotos und eine kurze Beschreibung per WhatsApp helfen für eine erste Einschätzung."
+      },
+      {
+        "q": "Wie entsteht der Preis?",
+        "a": "Er richtet sich nach Fläche, Aufwand und Rhythmus. Sie erhalten nach der Besichtigung ein klares Angebot."
+      },
+      {
+        "q": "Reinigen Sie auch Büros außerhalb der Geschäftszeiten?",
+        "a": "Zeiten werden individuell abgestimmt – fragen Sie einfach an."
+      },
+      {
+        "q": "Arbeiten Sie auch außerhalb von Taufkirchen?",
+        "a": "Ja, im Umkreis von Taufkirchen (Vils), etwa in Dorfen, Wartenberg und Erding."
+      }
+    ],
+    "contact": {
+      "headline": "Ihr Reinigungsangebot – kostenlos und unverbindlich",
+      "text": "Beschreiben Sie kurz Ihr Objekt: Art, ungefähre Fläche und wie oft gereinigt werden soll. Fotos helfen.",
+      "topics": [
+        "Treppenhausreinigung",
+        "Büroreinigung",
+        "Fensterreinigung",
+        "Grund- oder Bauendreinigung",
+        "Umzugsreinigung",
+        "Sonstiges"
+      ],
+      "responseNote": "Besichtigung nach Absprache."
+    },
+    "quote": {
+      "sizeLabel": "Was soll gereinigt werden?",
+      "sizes": [
+        "Treppenhaus",
+        "Büro / Praxis",
+        "Wohnung",
+        "Fenster",
+        "Nach Umbau"
+      ],
+      "timings": [
+        "So bald wie möglich",
+        "Regelmäßig ab nächstem Monat",
+        "Einmaliger Termin",
+        "Ich plane erst noch"
+      ]
+    },
+    "stickyCta": "Angebot anfragen",
+    "look": {
+      "palette": 1,
+      "font": 3,
+      "hero": 3,
+      "services": 0,
+      "radius": 1,
+      "logo": 3,
+      "intro": 4
+    }
+  }
+}

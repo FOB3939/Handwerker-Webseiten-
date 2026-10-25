@@ -184,3 +184,17 @@ Schnell-Check-Liste mit Google-Maps-Links und Reserve-Kandidaten.
 - Reserve: Ulrich Dinkelmaier Malerbetrieb (Planegg): https://claude.ai/artifact/VxX4HVR2XA2W3qdGxL2BCr
 - Reserve: Fensterreinigung Weinert (Fürstenfeldbruck): https://claude.ai/artifact/S5XihKhebxJa7vTAXDj1Qb
 - Reserve: Fliesenverlegung Habermann (Freising): https://claude.ai/artifact/SNGaUoLQpq2kUxCYiMNWTu
+
+## Entwürfe 2026-10-25
+
+- WhatsApp-Entwürfe: https://claude.ai/artifact/CPaVDT7fqBjbYyveWLsBiV
+- Michael Leech Gebäudereinigung (Emmering): https://claude.ai/artifact/1Ftnb4ESKehKiB1fBRaCax
+- Hausmeisterservice & Dienstleistungen Fischer (Wolfratshausen): https://claude.ai/artifact/FWKNxgrZwVKMh5K8TzNedu
+- Schön Grün Gartenpflege (Münsing): https://claude.ai/artifact/J5x8MCows35JodajWTq9YX
+- Reserve: Tamara Voglar Fliesenleger (Moosburg): https://claude.ai/artifact/4N4WZ4RDz57yQLC4xCkcYN
+- Reserve: Fliesenlegermeister Kuisel & Stoiber GbR (Landsberg-Erpfting): https://claude.ai/artifact/4scghzq46zmyyxWVWXcm6t
+- Reserve: GeNeral-Gebäudeservice (Taufkirchen/Vils): https://claude.ai/artifact/2hcaBVWPxWH3eFBW285VE7
+- Reserve: MAC Gebäudereinigung (Kirchseeon): https://claude.ai/artifact/PZKkYRaN7uk5GcrHE93Wqq
+- Reserve: A1 Jukic Bau (Unterhaching): https://claude.ai/artifact/CHHYSofYFF81HTTPehnGmf
+- Reserve: Thomas Sachse Bodenleger (Grasbrunn): https://claude.ai/artifact/1SqCDJSdyiEH9Q8DHqpYFN
+- Reserve: Hausmeisterservice Martinhilfteuch (Geretsried): https://claude.ai/artifact/W5s4zLtNapkF6ebDvjNzYx

@@ -1,110 +1,104 @@
 {
   "id": "2026-10-25-132",
-  "slug": "thomas-sachse-bodenleger-grasbrunn",
+  "slug": "hausmeisterservice-martinhilfteuch-geretsried",
   "date": "2026-10-25",
   "company": {
-    "name": "Thomas Sachse Bodenleger",
-    "owner": "Thomas Sachse",
-    "trade": "Bodenleger",
-    "city": "Grasbrunn",
-    "address": "Neukeferloher Weg 2, 85630 Grasbrunn",
-    "phone": "089 45616578",
+    "name": "Hausmeisterservice Martinhilfteuch",
+    "owner": null,
+    "trade": "Hausmeisterservice",
+    "city": "Geretsried",
+    "address": "Königsberger Weg 9, 82538 Geretsried",
+    "phone": "0176 48671215",
     "email": null,
     "serviceArea": [
-      "Grasbrunn",
-      "Neukeferloh",
-      "Vaterstetten",
-      "Haar",
-      "Putzbrunn",
-      "Zorneding"
+      "Geretsried",
+      "Gelting",
+      "Wolfratshausen",
+      "Königsdorf",
+      "Egling",
+      "Eurasburg"
     ]
   },
   "listings": {
     "google": {
-      "url": "https://www.google.com/maps/search/?api=1&query=Thomas%20Sachse%20Bodenleger%20Neukeferloher%20Weg%202%20Grasbrunn",
+      "url": "https://www.google.com/maps/search/?api=1&query=Hausmeisterservice%20Martinhilfteuch%20K%C3%B6nigsberger%20Weg%209%20Geretsried",
       "rating": null,
       "reviews": null,
-      "evidence": "NICHT BELEGT – Spiegel-Suche (rgv-bayern, firmania, trustlocal, cylex, Gelbe Seiten, Das Örtliche, golocal) zeigt nur Cylex-Einträge (Neukeferloher Weg 2, 089 45616578, Fliesenleger/Bodenlegearbeiten), keinen Google-Spiegel. In Maps prüfen."
+      "evidence": "NICHT BELEGT – kein Google-Spiegel (rgv-bayern, firmania, trustlocal, finde-offen, oeffnungszeitenbuch, goyellow) mit diesem Betrieb gefunden. Keine Freemail-Adresse gefunden. In Google Maps prüfen."
     },
     "myhammer": {
-      "url": "https://www.11880.com/suche/bodenleger/grasbrunn",
+      "url": "https://11880.com/branchenbuch/geretsried/060692243B54291934/hausmeisterservice-martinhilfteuch.html",
       "rating": null,
       "reviews": null,
-      "evidence": "Kein MyHammer gefunden – Eintrag „Thomas Sachse Bodenleger“ in den 11880-Ortslisten Bodenleger/Fliesenleger Grasbrunn (Fußbodenverlegung & Fliesenleger, keine Öffnungszeiten) sowie bei Cylex."
+      "evidence": "Kein MyHammer gefunden – 11880-Eintrag „Hausmeisterservice Martinhilfteuch“ (Geretsried) sowie ein Geretsrieder Branchenverzeichnis-Eintrag (laut Snippet ca. 876 Tage alt) mit Königsberger Weg 9, 82538 Geretsried, (0176) 48671215."
     }
   },
   "websiteStatus": "keine eigene Website gefunden",
   "websiteChecks": [
-    "(1) „Thomas Sachse Bodenleger Grasbrunn“ (offene Websuche) – keine Treffer zum Betrieb, nur Jobbörsen/fremde Verzeichnisse; keine eigene Domain",
-    "(2) 11880-Suche „Thomas Sachse Bodenleger Grasbrunn Neukeferloher Weg“ – Verzeichniseintrag ohne Website- oder E-Mail-Angabe im Snippet",
-    "(3) Verzeichnis-/Spiegelsuche (rgv-bayern, firmania, trustlocal, cylex, Gelbe Seiten, Das Örtliche, golocal) – nur Cylex mit Adresse/Telefon, kein Website-Feld",
-    "(4) Domain-Check und Telefonnummer-Suche NICHT durchgeführt (Suchbudget erschöpft) – vor Versand nachholen",
-    "Website-Risiko: mittel – bisherige Prüfungen negativ, aber unvollständig; weder Google-Eintrag noch Freemail belegt (RESERVE)"
+    "(1) „Hausmeisterservice Martinhilfteuch Geretsried“ mit blocked_domains (11880, Gelbe Seiten, Das Örtliche, Telefonbuch, Cylex, meinestadt, Creditreform, Facebook, Instagram, golocal, MyHammer, Northdata, Firmenwissen, WKDB, Yelp, trustlocal, wlw) – nur ein Verzeichnis-Eintrag mit Adresse/Telefon, sonst ausschließlich andere Geretsrieder Hausmeisterdienste (IRO, BCM, CeKa, MP, Heerlein, Axer) mit eigenen Websites",
+    "(2) Exakte Namenssuche „Martinhilfteuch“ ohne Filter – keine Treffer zum Betrieb (kein Impressum, keine Domain)",
+    "(3) Telefonsuche „0176 48671215“/„017648671215“ – keine Treffer",
+    "(4) Domain-Check allowed_domains martinhilfteuch.de, hausmeisterservice-martinhilfteuch.de, hausmeister-martinhilfteuch.de, martinhilfteuch-hausmeisterservice.de, martinhilfteuch.com, hms-martinhilfteuch.de, martinhilfteuch-service.de, hausmeisterdienst-martinhilfteuch.de – keine Treffer",
+    "(5) Verzeichnis-/Google-Spiegel-Suche (11880, Das Örtliche, Gelbe Seiten, rgv-bayern, firmania, trustlocal, finde-offen, oeffnungszeitenbuch, goyellow) – nur 11880-Eintrag, kein Website-Feld, keine E-Mail, keine Bewertungen",
+    "Website-Risiko: niedrig (Website), aber Existenz/Aktivität unsicher – weder Google-Eintrag noch Freemail belegt, Verzeichniseintrag evtl. veraltet"
   ],
   "facts": {
     "services": [
-      "Bodenlegearbeiten",
-      "Fußbodenverlegung",
-      "Fliesenlegearbeiten"
+      "Hausmeisterservice"
     ],
     "experience": null,
     "praisedFor": []
   },
   "strategy": {
-    "audience": "Haus- und Wohnungseigentümer in Grasbrunn, Neukeferloh, Vaterstetten und Haar, die neue Böden oder Fliesen verlegen lassen wollen",
-    "mainService": "Bodenbeläge und Fliesen verlegen",
-    "trustSignal": "Inhabergeführter Betrieb von Thomas Sachse in Grasbrunn",
-    "conversionGoal": "Kostenloses Angebot für neuen Boden anfragen (Anruf/Formular mit Fotos)",
-    "visualConcept": "Warme Wohnräume mit frisch verlegtem Boden – saubere Fugen, gerade Kanten, Material in Nahaufnahme"
+    "audience": "Hausverwaltungen, Eigentümergemeinschaften, Vermieter und Hausbesitzer in Geretsried, Gelting und Wolfratshausen, die einen Hausmeister vor Ort suchen",
+    "mainService": "Hausmeisterservice für Wohnanlagen und Privathäuser",
+    "trustSignal": "Hausmeister mit Sitz in Geretsried, direkt per Handy erreichbar",
+    "conversionGoal": "Unverbindliches Angebot für die Objektbetreuung anfragen (Anruf oder WhatsApp)",
+    "visualConcept": "Gepflegte Wohnanlagen in Geretsried: saubere Eingänge, gekehrte Wege, ordentliche Außenanlagen – bodenständig und verlässlich"
   },
   "sales": {
     "score": 3,
     "whyGoodLead": [
-      "Keine eigene Website gefunden – nur Verzeichniseinträge",
-      "Inhabername öffentlich – persönliche Ansprache möglich",
-      "Kaum Online-Sichtbarkeit, keine Bewertungen sichtbar – Website + Google-Profil helfen schnell",
-      "Boden und Fliesen sind bei Sanierungen im Münchner Osten gefragt"
+      "Keine eigene Website gefunden – nur ein 11880-Eintrag",
+      "Mobilnummer öffentlich gelistet – Erstkontakt per WhatsApp möglich",
+      "In Geretsried haben fast alle Wettbewerber (IRO, CeKa, BCM, Heerlein) eigene Websites – ohne Seite fällt der Betrieb bei Online-Suchen heraus",
+      "Hausverwaltungen vergleichen Hausmeisterdienste online"
     ],
-    "pitch": "Guten Tag Herr Sachse, hier ist … – ich baue Websites für Handwerker im Münchner Osten. Ich habe Ihren Eintrag als Bodenleger in Grasbrunn gefunden, aber keine eigene Website. Ich habe unverbindlich einen Entwurf vorbereitet, auf dem Kunden Ihre Boden- und Fliesenarbeiten sehen und direkt anfragen können – darf ich Ihnen den Link schicken?"
+    "pitch": "Hallo, hier ist … – ich baue Websites für Handwerks- und Servicebetriebe im Landkreis Bad Tölz-Wolfratshausen. Ich habe Ihren Eintrag „Hausmeisterservice Martinhilfteuch“ in Geretsried gefunden, aber keine eigene Website. Ich habe unverbindlich einen Entwurf vorbereitet, auf dem Hausverwaltungen und Eigentümer Ihre Leistungen sehen und direkt anfragen können – darf ich Ihnen den Link schicken?"
   },
   "manualChecks": [
     "RESERVE – weder Google-Eintrag noch Freemail-Adresse belegt: NUR versenden, wenn Google Maps einen Eintrag OHNE Website zeigt.",
-    "Domain-Check (z. B. sachse-bodenleger.de, bodenleger-sachse.de, sachse-boden.de, thomas-sachse.de) und Telefonnummer-Suche 089 45616578 nachholen – Prüfung wegen Suchbudget unvollständig",
-    "Google-Eintrag in Maps suchen (Neukeferloher Weg 2, Grasbrunn) – Existenz, Bewertungen, Website-Feld",
-    "Nur Festnetznummer bekannt, keine Mobilnummer/E-Mail – Erstkontakt telefonisch",
-    "Leistungen nur als Kategorien belegt (Bodenleger, Fußbodenverlegung, Fliesenleger) – Beläge (Parkett, Vinyl, Teppich) beim Betrieb bestätigen",
-    "Logo und Projektfotos: nicht gefunden – beim Betrieb anfragen"
+    "Betrieb evtl. nicht mehr aktiv (Verzeichniseintrag laut Snippet ca. 876 Tage alt, Name nirgends sonst im Netz) – vorab in Maps/telefonisch klären",
+    "Schreibweise des Namens prüfen („Martinhilfteuch“ – evtl. Vor- und Nachname zusammengeschrieben); Inhaber unbekannt, Anrede neutral halten",
+    "Leistungen nicht belegt außer „Hausmeisterservice“ – Gartenpflege, Winterdienst, Reinigung, Kleinreparaturen erfragen, bevor die Seite live geht",
+    "Logo und Fotos: nicht gefunden – beim Betrieb anfragen"
   ],
   "sources": [
     {
-      "label": "11880 – Bodenleger Grasbrunn (Liste mit Thomas Sachse Bodenleger)",
-      "url": "https://www.11880.com/suche/bodenleger/grasbrunn"
+      "label": "11880 – Hausmeisterservice Martinhilfteuch, Geretsried",
+      "url": "https://11880.com/branchenbuch/geretsried/060692243B54291934/hausmeisterservice-martinhilfteuch.html"
     },
     {
-      "label": "11880 – Fliesenleger Grasbrunn",
-      "url": "https://www.11880.com/suche/fliesenleger/grasbrunn"
-    },
-    {
-      "label": "Cylex – Bodenleger Putzbrunn (Nachbareintrag Thomas Sachse, Grasbrunn)",
-      "url": "https://web2.cylex.de/suche/bodenleger/Putzbrunn"
+      "label": "Das Örtliche – Hausmeisterservices Geretsried (Ortsliste)",
+      "url": "https://www.dasoertliche.de/Themen/Hausmeisterservices/Geretsried.html"
     }
   ],
   "site": {
-    "theme": "stein",
+    "theme": "objekt",
     "category": "handwerk",
     "heroOffer": [
-      "Bodenbeläge",
-      "Parkett & Vinyl",
-      "Fliesen",
-      "Untergrund",
-      "Sanierung"
+      "Objektbetreuung",
+      "Kontrollgänge",
+      "Außenanlagen",
+      "Winterdienst",
+      "Kleinreparaturen"
     ],
-    "scene": "parquet",
-    "logoIcon": "plank",
-    "logoMark": "TS",
-    "brandName": "Sachse Bodenleger",
-    "seoTitle": "Bodenleger in Grasbrunn – Thomas Sachse",
-    "seoDescription": "Bodenbeläge und Fliesen verlegen in Grasbrunn, Vaterstetten und Haar. Thomas Sachse Bodenleger – jetzt kostenloses Angebot anfragen.",
+    "scene": "garden",
+    "logoIcon": "broom",
+    "logoMark": "HM",
+    "brandName": "Hausmeisterservice Martinhilfteuch",
+    "seoTitle": "Hausmeisterservice in Geretsried – Martinhilfteuch",
+    "seoDescription": "Hausmeisterservice für Wohnanlagen und Privathäuser in Geretsried, Gelting und Wolfratshausen. Jetzt unverbindlich anfragen – auch per WhatsApp.",
     "nav": [
       {
         "label": "Leistungen",
@@ -132,132 +126,132 @@
       }
     ],
     "hero": {
-      "eyebrow": "Bodenleger · Grasbrunn",
-      "headline": "Ihr Bodenleger in Grasbrunn",
-      "sub": "Neue Böden und Fliesen – verlegt von Thomas Sachse persönlich.",
-      "ctaPrimary": "Kostenloses Angebot anfragen",
+      "eyebrow": "Hausmeisterservice · Geretsried",
+      "headline": "Ihr Hausmeister in Geretsried",
+      "sub": "Objektbetreuung für Wohnanlagen und Häuser – vom Königsberger Weg aus.",
+      "ctaPrimary": "Angebot anfragen",
       "ctaSecondary": "Anrufen",
       "bullets": [
-        "Inhabergeführt in Grasbrunn",
-        "Böden und Fliesen",
-        "Kurze Wege im Münchner Osten"
+        "Hausmeister aus Geretsried",
+        "Für Verwaltungen und Eigentümer",
+        "Direkt per Handy erreichbar"
       ],
-      "imageLabel": "frisch verlegter Holzboden in hellem Wohnraum"
+      "imageLabel": "gepflegter Eingangsbereich einer Wohnanlage"
     },
     "badges": [
       {
-        "title": "Bodenbeläge",
-        "sub": "fachgerecht verlegt"
+        "title": "Objektbetreuung",
+        "sub": "Wohnanlagen & Häuser"
       },
       {
-        "title": "Fliesen",
-        "sub": "Boden & Wand"
+        "title": "Außenanlagen",
+        "sub": "gepflegt das ganze Jahr"
       },
       {
-        "title": "Inhaber",
-        "sub": "Thomas Sachse"
+        "title": "Direkt",
+        "sub": "ein Ansprechpartner"
       },
       {
-        "title": "Grasbrunn",
-        "sub": "Neukeferloher Weg"
+        "title": "Geretsried",
+        "sub": "Königsberger Weg"
       }
     ],
     "trust": [
       {
-        "value": "Inhaber",
-        "label": "persönlich vor Ort"
+        "value": "Vor Ort",
+        "label": "Sitz in Geretsried"
       },
       {
-        "value": "2",
-        "label": "Gewerke: Boden & Fliese"
+        "value": "1",
+        "label": "fester Ansprechpartner"
       },
       {
-        "value": "Grasbrunn",
-        "label": "Betriebssitz"
+        "value": "Ganzjährig",
+        "label": "Betreuung Ihres Objekts"
       },
       {
-        "value": "Direkt",
-        "label": "ohne Zwischenhändler"
+        "value": "Mobil",
+        "label": "schnell erreichbar"
       }
     ],
     "servicesIntro": {
-      "headline": "Der richtige Boden für jeden Raum",
-      "text": "Ob Wohnzimmer, Flur oder Bad: Thomas Sachse verlegt Bodenbeläge und Fliesen und bereitet den Untergrund passend vor."
+      "headline": "Hausmeisterdienste für Ihr Objekt",
+      "text": "Ob Mehrfamilienhaus, Wohnanlage oder Einfamilienhaus: Der Hausmeister hält Haus, Technik und Außenflächen im Blick, damit Eigentümer und Verwaltung entlastet sind."
     },
     "services": [
       {
-        "title": "Bodenbeläge verlegen",
-        "text": "Neue Beläge für Wohn- und Schlafräume – passend zu Nutzung und Untergrund.",
+        "title": "Objektbetreuung",
+        "text": "Regelmäßige Kontrollgänge durch Haus, Keller und Außenbereich – Mängel werden früh erkannt und gemeldet.",
         "items": [
-          "Wohnräume",
-          "Flur",
-          "Schlafzimmer"
+          "Kontrollgänge",
+          "Mängelmeldung",
+          "Ansprechpartner vor Ort"
         ]
       },
       {
-        "title": "Parkett & Laminat",
-        "text": "Holzoptik oder echtes Holz – schwimmend oder verklebt verlegt.",
+        "title": "Kleinreparaturen",
+        "text": "Lockere Türklinke, defekte Leuchtmittel, quietschende Tür – kleine Dinge werden direkt erledigt.",
         "items": [
-          "Parkett",
-          "Laminat",
-          "Sockelleisten"
+          "Leuchtmittel",
+          "Türen & Schlösser",
+          "Kleinmontagen"
         ]
       },
       {
-        "title": "Vinyl & Designboden",
-        "text": "Pflegeleichte Beläge für Küche, Flur und Mietwohnung.",
+        "title": "Außenanlagen",
+        "text": "Wege, Rasen und Hecken rund ums Haus bleiben ordentlich und einladend.",
         "items": [
-          "Klick-Vinyl",
-          "Klebevinyl",
-          "Übergänge"
+          "Rasen mähen",
+          "Hecken schneiden",
+          "Laub entfernen"
         ]
       },
       {
-        "title": "Fliesen verlegen",
-        "text": "Boden- und Wandfliesen für Bad, Küche und Eingangsbereich.",
+        "title": "Winterdienst",
+        "text": "Geräumte und gestreute Wege in den Wintermonaten – für sichere Zugänge.",
         "items": [
-          "Bodenfliesen",
-          "Wandfliesen",
-          "Verfugen"
+          "Schnee räumen",
+          "Streuen",
+          "Zugänge sichern"
         ]
       },
       {
-        "title": "Untergrund vorbereiten",
-        "text": "Alten Belag entfernen, ausgleichen, grundieren – damit der neue Boden hält.",
+        "title": "Mülltonnenservice",
+        "text": "Tonnen werden zur Abholung bereitgestellt und wieder zurückgebracht.",
         "items": [
-          "Altbelag entfernen",
-          "Ausgleichen",
-          "Grundieren"
+          "Bereitstellung",
+          "Rückstellung",
+          "Ordnung am Platz"
         ]
       },
       {
-        "title": "Bodensanierung",
-        "text": "Abgenutzte Böden bei Renovierung oder Mieterwechsel erneuern.",
+        "title": "Treppenhaus & Keller",
+        "text": "Saubere Gemeinschaftsflächen, auf die sich Mieter und Eigentümer verlassen können.",
         "items": [
-          "Renovierung",
-          "Mieterwechsel",
-          "Teilflächen"
+          "Treppenhaus",
+          "Kellergänge",
+          "Gemeinschaftsräume"
         ]
       }
     ],
     "why": {
-      "headline": "Ein Bodenleger, ein Ansprechpartner.",
+      "headline": "Ein Hausmeister aus Geretsried – nah und erreichbar.",
       "points": [
         {
-          "title": "Persönlich",
-          "text": "Thomas Sachse berät und verlegt selbst – Sie wissen, wer bei Ihnen arbeitet."
-        },
-        {
-          "title": "Boden und Fliese",
-          "text": "Beläge und Fliesen aus einer Hand, auch für Übergänge zwischen Räumen."
-        },
-        {
           "title": "Kurze Wege",
-          "text": "Von Grasbrunn schnell in Neukeferloh, Vaterstetten, Haar und Putzbrunn."
+          "text": "Vom Königsberger Weg schnell in Gelting, Wolfratshausen und Königsdorf."
         },
         {
-          "title": "Untergrund zuerst",
-          "text": "Der Boden wird geprüft und vorbereitet, bevor der neue Belag kommt."
+          "title": "Direkter Draht",
+          "text": "Anruf oder WhatsApp genügt – ohne Hotline und Warteschleife."
+        },
+        {
+          "title": "Feste Betreuung",
+          "text": "Ein Ansprechpartner, der Ihr Objekt kennt."
+        },
+        {
+          "title": "Alles rund ums Haus",
+          "text": "Kontrollgänge, Außenflächen und kleine Reparaturen in einem Auftrag."
         }
       ]
     },
@@ -265,132 +259,132 @@
       "headline": "Was Kunden sagen",
       "summary": "Kundenstimmen werden hier eingebunden, sobald sie aus dem Google-Profil übernommen sind.",
       "highlights": [
-        "Bodenleger in Grasbrunn",
-        "Böden und Fliesen",
-        "Persönlicher Kontakt"
+        "Hausmeister in Geretsried",
+        "Betreuung von Wohnanlagen",
+        "Direkter Kontakt"
       ],
       "source": "Google",
-      "sourceUrl": "https://www.google.com/maps/search/?api=1&query=Thomas%20Sachse%20Bodenleger%20Neukeferloher%20Weg%202%20Grasbrunn",
+      "sourceUrl": "https://www.google.com/maps/search/?api=1&query=Hausmeisterservice%20Martinhilfteuch%20K%C3%B6nigsberger%20Weg%209%20Geretsried",
       "rating": null,
       "count": null
     },
     "process": {
-      "headline": "In vier Schritten zum neuen Boden",
+      "headline": "In vier Schritten zur Betreuung",
       "steps": [
         {
           "title": "Anfrage",
-          "text": "Raum, ungefähre Fläche und Wunschbelag nennen – Fotos helfen."
+          "text": "Objekt, Größe und gewünschte Leistungen kurz per Anruf oder WhatsApp schildern."
         },
         {
-          "title": "Aufmaß",
-          "text": "Vor Ort werden Fläche und Untergrund geprüft und Material besprochen."
+          "title": "Besichtigung",
+          "text": "Haus und Außenanlagen werden gemeinsam angeschaut."
         },
         {
           "title": "Angebot",
-          "text": "Sie erhalten ein klares Angebot inklusive Vorarbeiten."
+          "text": "Sie erhalten ein klares Angebot für die vereinbarten Leistungen."
         },
         {
-          "title": "Verlegung",
-          "text": "Untergrund vorbereiten, verlegen, Leisten setzen – sauber übergeben."
+          "title": "Betreuung",
+          "text": "Die Arbeiten laufen zu festen Terminen – Sie werden über Auffälligkeiten informiert."
         }
       ]
     },
     "gallery": {
-      "headline": "Böden, die bleiben",
-      "text": "Für die Live-Version zeigen wir hier echte Projekte des Betriebs.",
+      "headline": "Gepflegte Objekte in Geretsried",
+      "text": "Für die Live-Version zeigen wir hier echte Objekte und Arbeiten des Betriebs.",
       "items": [
         {
-          "title": "Eichenparkett",
-          "photoNeeded": "verlegtes Parkett im Wohnzimmer"
+          "title": "Eingangsbereich",
+          "photoNeeded": "sauberer Hauseingang einer Wohnanlage"
         },
         {
-          "title": "Vinyl im Flur",
-          "photoNeeded": "Designboden im Eingangsbereich"
+          "title": "Grünflächen",
+          "photoNeeded": "frisch gemähter Rasen vor einem Mehrfamilienhaus"
         },
         {
-          "title": "Badfliesen",
-          "photoNeeded": "neu gefliestes Bad"
+          "title": "Winterdienst",
+          "photoNeeded": "geräumter und gestreuter Gehweg"
         },
         {
-          "title": "Übergänge",
-          "photoNeeded": "sauberer Übergang Fliese zu Parkett"
+          "title": "Treppenhaus",
+          "photoNeeded": "gereinigtes, helles Treppenhaus"
         },
         {
-          "title": "Vorher/Nachher",
-          "photoNeeded": "alter und neuer Boden im selben Raum"
+          "title": "Kleinreparatur",
+          "photoNeeded": "Hausmeister beim Tausch einer Leuchte"
         }
       ]
     },
     "region": {
-      "headline": "Bodenleger für Grasbrunn und den Münchner Osten",
-      "text": "Von Grasbrunn aus schnell in Neukeferloh, Vaterstetten, Haar, Putzbrunn und Zorneding.",
+      "headline": "Hausmeisterservice für Geretsried und Umgebung",
+      "text": "Von Geretsried aus schnell in Gelting, Wolfratshausen, Königsdorf, Egling und Eurasburg.",
       "places": [
-        "Grasbrunn",
-        "Neukeferloh",
-        "Vaterstetten",
-        "Haar",
-        "Putzbrunn",
-        "Zorneding"
+        "Geretsried",
+        "Gelting",
+        "Wolfratshausen",
+        "Königsdorf",
+        "Egling",
+        "Eurasburg"
       ]
     },
     "faq": [
       {
-        "q": "Welche Bodenbeläge verlegen Sie?",
-        "a": "Bodenbeläge und Fliesen – welcher Belag zu Ihrem Raum passt, klären wir beim Aufmaß."
+        "q": "Betreuen Sie auch einzelne Häuser?",
+        "a": "Ja, neben Wohnanlagen auch Einfamilien- und Mehrfamilienhäuser – fragen Sie einfach an."
       },
       {
-        "q": "Entfernen Sie auch den alten Boden?",
-        "a": "Die Vorbereitung des Untergrunds gehört dazu und wird im Angebot aufgeführt."
+        "q": "Kann ich nur einzelne Leistungen buchen?",
+        "a": "Ja, der Umfang wird nach Ihrem Bedarf abgestimmt."
       },
       {
-        "q": "Wie lange dauert die Verlegung?",
-        "a": "Das hängt von Fläche, Belag und Untergrund ab. Der Zeitplan wird nach dem Aufmaß abgestimmt."
+        "q": "Wie läuft die Abrechnung?",
+        "a": "Das wird im Angebot festgelegt – je nach Objekt und Leistungsumfang."
       },
       {
-        "q": "Kann ich das Material selbst kaufen?",
-        "a": "Sprechen Sie das bei der Anfrage an – dann wird gemeinsam geprüft, ob es zum Untergrund passt."
+        "q": "Arbeiten Sie auch außerhalb von Geretsried?",
+        "a": "Ja, im Umkreis von Geretsried – etwa Wolfratshausen, Königsdorf und Egling."
       },
       {
-        "q": "Arbeiten Sie auch außerhalb von Grasbrunn?",
-        "a": "Ja, im Münchner Osten, etwa in Vaterstetten, Haar und Putzbrunn."
+        "q": "Wie erreiche ich Sie am schnellsten?",
+        "a": "Am einfachsten per Anruf oder WhatsApp unter der angegebenen Handynummer."
       }
     ],
     "contact": {
-      "headline": "Ihr Angebot – kostenlos und unverbindlich",
-      "text": "Nennen Sie Raum, ungefähre Fläche und gewünschten Belag. Fotos vom jetzigen Boden helfen.",
+      "headline": "Ihr Angebot – unverbindlich",
+      "text": "Beschreiben Sie kurz Ihr Objekt: Art, Größe, Lage und welche Leistungen Sie brauchen.",
       "topics": [
-        "Bodenbelag",
-        "Parkett/Laminat",
-        "Vinyl",
-        "Fliesen",
+        "Objektbetreuung",
+        "Außenanlagen",
+        "Winterdienst",
+        "Kleinreparaturen",
         "Sonstiges"
       ],
-      "responseNote": "Aufmaß vor Ort nach Absprache."
+      "responseNote": "Besichtigung nach Absprache."
     },
     "quote": {
-      "sizeLabel": "Wie viel Fläche?",
+      "sizeLabel": "Um welches Objekt geht es?",
       "sizes": [
-        "Bis 20 m²",
-        "20–50 m²",
-        "50–100 m²",
-        "Über 100 m²"
+        "Einfamilienhaus",
+        "Mehrfamilienhaus",
+        "Wohnanlage",
+        "Gewerbeobjekt"
       ],
       "timings": [
         "So bald wie möglich",
-        "In den nächsten Wochen",
-        "In 1–3 Monaten",
+        "Ab nächstem Monat",
+        "Zur nächsten Saison",
         "Ich plane erst noch"
       ]
     },
     "stickyCta": "Angebot anfragen",
     "look": {
-      "palette": 2,
-      "font": 6,
-      "hero": 0,
-      "services": 1,
-      "radius": 1,
-      "logo": 0,
-      "intro": 5
+      "palette": 0,
+      "font": 5,
+      "hero": 1,
+      "services": 0,
+      "radius": 4,
+      "logo": 3,
+      "intro": 4
     }
   }
 }
