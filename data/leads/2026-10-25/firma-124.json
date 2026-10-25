@@ -1,0 +1,405 @@
+{
+  "id": "2026-10-25-124",
+  "slug": "fliesen-kuisel-stoiber-landsberg-erpfting",
+  "date": "2026-10-25",
+  "company": {
+    "name": "Fliesenlegermeister Kuisel M. & Stoiber A. GbR",
+    "owner": "Maximilian Kuisel, Armin Stoiber",
+    "trade": "Fliesenleger",
+    "city": "Landsberg am Lech",
+    "address": "Mittelstetter Str. 13, 86899 Landsberg am Lech (Erpfting)",
+    "phone": "0172 9486866",
+    "email": null,
+    "serviceArea": [
+      "Landsberg am Lech",
+      "Erpfting",
+      "Kaufering",
+      "Penzing",
+      "Igling",
+      "Fuchstal"
+    ]
+  },
+  "listings": {
+    "google": {
+      "url": "https://www.google.com/maps/search/?api=1&query=Fliesenlegermeister%20Kuisel%20Mittelstetter%20Str.%2013%20Landsberg",
+      "rating": null,
+      "reviews": null,
+      "evidence": "NICHT BELEGT – kein Google-Spiegel (firmania, trustlocal, rgv-bayern) gefunden, keine Freemail-Adresse. Nur Verzeichniseinträge: 11880 („Fliesenleger, Fliesen & Naturstein“, Mittelstetter Str. 13, Tel. 08191 3055851, als vom Inhaber bestätigt markiert), sellwerk, fliesenleger.net, misterwhat, fliesenleger24, branchenbuch24 (Erpfing/Landsberg, Mobil 0172 9486866), muenchen.de (0 Bewertungen)."
+    },
+    "myhammer": {
+      "url": "https://www.11880.com/branchenbuch/landsberg-am-lech/060691660B100228334/fliesenlegermeister-kuisel-m-stoiber-a-gbr-fliesen.html",
+      "rating": null,
+      "reviews": null,
+      "evidence": "Kein MyHammer gefunden – 11880-Eintrag „Fliesenlegermeister Kuisel M. & Stoiber A. GbR Fliesen“ ohne Website-Feld; muenchen.de-Branchenbuch zeigt 0 Bewertungen."
+    }
+  },
+  "websiteStatus": "keine eigene Website gefunden",
+  "websiteChecks": [
+    "(0) Vorab ungefilterte Suche „Kuisel Fliesenlegermeister Landsberg Erpfting“ – nur sellwerk-Profil (Max Kuisel, Mittelstetter Str. 13), muenchen.de, 11880; keine eigene Domain",
+    "(1) „Kuisel Stoiber Fliesen Landsberg“ mit blocked_domains (11880, Gelbe Seiten, Das Örtliche, Telefonbuch, Cylex, meinestadt, Creditreform, Facebook, Instagram, golocal, MyHammer, Northdata, Firmenwissen, WKDB, Yelp, trustlocal, wlw) plus sellwerk/muenchen.de – nur Verzeichnisse (fliesenleger.net, misterwhat, fliesenleger24, branchenbuch24, starofservice); keine eigene Website",
+    "(2) Domain-Check allowed_domains kuisel-stoiber.de, fliesen-kuisel.de, kuisel-fliesen.de, kuisel.de, fliesen-stoiber.de, stoiber-fliesen.de, kuisel-stoiber-fliesen.de (+ Spiegel firmania/trustlocal/rgv-bayern) – keine Treffer",
+    "(3) Telefonsuche „0172 9486866“/„08191 3055851“ – keine Treffer (auch keine Website)",
+    "(4) 11880-Detailsuche – Eintrag ohne Homepage und ohne E-Mail im Snippet",
+    "(5) Nachprüfung 2026-10-25: Google-Spiegel-Suche (trustlocal, firmania, rgv-bayern, 11880) „Kuisel Fliesen Landsberg Erpfting“ – nur 11880-Eintrag „Fliesenlegermeister M. Kuisel“ (Mittelstetter Str. 13, (08191) 3055851, vom Inhaber bestätigt); kein Google-Spiegel, keine E-Mail",
+    "Website-Risiko: mittel – alle Prüfungen negativ, aber weder Google-Eintrag noch Freemail belegt"
+  ],
+  "facts": {
+    "services": [
+      "Fliesenverlegung",
+      "Fliesen & Naturstein"
+    ],
+    "experience": null,
+    "praisedFor": []
+  },
+  "strategy": {
+    "audience": "Hausbesitzer und Bauherren in Landsberg, Erpfting und Kaufering, die Bad, Küche, Boden oder Terrasse fliesen lassen wollen",
+    "mainService": "Fliesen- und Natursteinverlegung",
+    "trustSignal": "Fliesenlegermeister-Betrieb aus Erpfting, zwei Inhaber",
+    "conversionGoal": "Anfrage mit Fotos und Maßen per WhatsApp oder Anruf",
+    "visualConcept": "Präzise Fugenbilder: großformatige Bodenfliesen, gefliestes Bad, Naturstein auf der Terrasse"
+  },
+  "sales": {
+    "score": 3,
+    "whyGoodLead": [
+      "Keine eigene Website gefunden – nur Verzeichniseinträge",
+      "Mobilnummer in einem Verzeichnis gelistet – WhatsApp-Erstkontakt möglich",
+      "Meisterbetrieb Fliesen – im Landkreis Landsberg wenig Online-Konkurrenz für Kleinbetriebe"
+    ],
+    "pitch": "Grüß Gott Herr Kuisel, hier ist … – ich baue Websites für Handwerker im Landkreis Landsberg. Ihren Fliesenbetrieb in Erpfting habe ich nur in Verzeichnissen gefunden, aber ohne eigene Website. Ich habe unverbindlich einen Entwurf vorbereitet, auf dem Kunden Bäder, Böden und Natursteinarbeiten sehen und direkt bei Ihnen anfragen können – darf ich Ihnen den Link schicken?"
+  },
+  "manualChecks": [
+    "RESERVE – weder Google-Eintrag noch Freemail-Adresse belegt: NUR versenden, wenn Google Maps einen Eintrag OHNE Website zeigt.",
+    "Mobilnummer 0172 9486866 nur in einem Verzeichnis (branchenbuch24) belegt, Festnetz 08191 3055851 laut 11880 – vor WhatsApp prüfen, welche Nummer aktuell ist",
+    "Einige Verzeichnisdaten laut Seite mehrere Jahre alt – prüfen, ob die GbR noch besteht (11880 nennt nur „Fliesenlegermeister M. Kuisel“)",
+    "Leistungen nur grob belegt (Fliesenverlegung, Fliesen & Naturstein) – Details (Bad, Terrasse, Großformat) beim Betrieb bestätigen",
+    "Logo und Projektfotos: nicht gefunden – beim Betrieb anfragen"
+  ],
+  "sources": [
+    {
+      "label": "11880 – Fliesenlegermeister Kuisel M. & Stoiber A. GbR Fliesen Landsberg",
+      "url": "https://www.11880.com/branchenbuch/landsberg-am-lech/060691660B100228334/fliesenlegermeister-kuisel-m-stoiber-a-gbr-fliesen.html"
+    },
+    {
+      "label": "sellwerk – Fliesenlegermeister Kuisel M. & Stoiber A. GbR",
+      "url": "https://sellwerk.de/firmenprofil/fliesenlegermeister-kuisel-m--stoiber-a-gbr-fliesen"
+    },
+    {
+      "label": "fliesenleger.net – Maximilian Kuisel + Armin Stoiber GbR",
+      "url": "https://www.fliesenleger.net/landsberg/maximilian-kuisel--armin-stoiber-gbr-fliesenleger-aUMfIn"
+    },
+    {
+      "label": "branchenbuch24 – Kuisel Max und Stoiber Armin GbR, Erpfing/Landsberg",
+      "url": "https://www.branchenbuch24.com/erpfing-landsberg/haus-innenausstattung/fliesen-platten-und-mosaikleger/kuisel-max-und-stoiber-armin-g-d-b-r-811961/"
+    },
+    {
+      "label": "misterwhat – Kuisel & Stoiber GbR Landsberg",
+      "url": "https://www.misterwhat.de/company/1376481-fliesenlegermeister-kuisel-m-stoiber-a-gbr-fliesen-landsberg-am-lech"
+    }
+  ],
+  "site": {
+    "theme": "stein",
+    "category": "handwerk",
+    "heroOffer": [
+      "Bodenfliesen",
+      "Badfliesen",
+      "Naturstein",
+      "Terrassen",
+      "Fliesensanierung"
+    ],
+    "scene": "bath",
+    "logoIcon": "trowel",
+    "logoMark": "KS",
+    "brandName": "Fliesen Kuisel & Stoiber",
+    "seoTitle": "Fliesenleger in Landsberg – Kuisel & Stoiber Fliesenlegermeister",
+    "seoDescription": "Fliesen und Naturstein für Bad, Boden und Terrasse in Landsberg am Lech, Erpfting und Umgebung. Jetzt unverbindlich anfragen.",
+    "nav": [
+      {
+        "label": "Leistungen",
+        "href": "#leistungen"
+      },
+      {
+        "label": "Projekte",
+        "href": "#projekte"
+      },
+      {
+        "label": "Bewertungen",
+        "href": "#bewertungen"
+      },
+      {
+        "label": "Ablauf",
+        "href": "#ablauf"
+      },
+      {
+        "label": "FAQ",
+        "href": "#faq"
+      },
+      {
+        "label": "Kontakt",
+        "href": "#kontakt"
+      }
+    ],
+    "hero": {
+      "eyebrow": "Fliesenlegermeister · Landsberg-Erpfting",
+      "headline": "Fliesen und Naturstein in Landsberg",
+      "sub": "Bäder, Böden und Terrassen – verlegt vom Meisterbetrieb aus Erpfting.",
+      "ctaPrimary": "Angebot anfragen",
+      "ctaSecondary": "Anrufen",
+      "bullets": [
+        "Fliesenlegermeister-Betrieb",
+        "Fliesen & Naturstein",
+        "Aus Erpfting für den Landkreis"
+      ],
+      "imageLabel": "frisch verfugter Boden mit großformatigen Fliesen"
+    },
+    "badges": [
+      {
+        "title": "Meisterbetrieb",
+        "sub": "Fliesenleger"
+      },
+      {
+        "title": "Naturstein",
+        "sub": "innen & außen"
+      },
+      {
+        "title": "Zwei Inhaber",
+        "sub": "Kuisel & Stoiber"
+      },
+      {
+        "title": "Erpfting",
+        "sub": "Mittelstetter Str."
+      }
+    ],
+    "trust": [
+      {
+        "value": "Meister",
+        "label": "Fliesenlegermeister"
+      },
+      {
+        "value": "2",
+        "label": "Inhaber im Betrieb"
+      },
+      {
+        "value": "Vor Ort",
+        "label": "Landsberg-Erpfting"
+      },
+      {
+        "value": "Innen & außen",
+        "label": "Bad, Boden, Terrasse"
+      }
+    ],
+    "servicesIntro": {
+      "headline": "Fliesen und Naturstein vom Meisterbetrieb",
+      "text": "Ob neues Bad, durchgehender Boden oder Terrasse aus Naturstein: Kuisel & Stoiber verlegen exakt, mit sauberem Fugenbild und dichtem Untergrund."
+    },
+    "services": [
+      {
+        "title": "Badfliesen",
+        "text": "Wand- und Bodenfliesen im Bad, inklusive Abdichtung in Dusche und Spritzwasserbereich.",
+        "items": [
+          "Wandfliesen",
+          "Abdichtung",
+          "Dusche"
+        ]
+      },
+      {
+        "title": "Bodenfliesen",
+        "text": "Fliesenböden für Flur, Küche und Wohnraum – auch großformatig und auf Fußbodenheizung.",
+        "items": [
+          "Großformat",
+          "Wohnraum",
+          "Fußbodenheizung"
+        ]
+      },
+      {
+        "title": "Naturstein",
+        "text": "Natursteinplatten innen und außen, von Fensterbänken bis zu Bodenflächen.",
+        "items": [
+          "Platten",
+          "Fensterbänke",
+          "Treppen"
+        ]
+      },
+      {
+        "title": "Terrasse & Balkon",
+        "text": "Fliesen und Platten im Außenbereich – frostsicher verlegt mit Gefälle.",
+        "items": [
+          "Terrasse",
+          "Balkon",
+          "Gefälle"
+        ]
+      },
+      {
+        "title": "Küchenspiegel",
+        "text": "Fliesenspiegel zwischen Arbeitsplatte und Oberschränken – passend zur Küche.",
+        "items": [
+          "Fliesenspiegel",
+          "Mosaik",
+          "Akzente"
+        ]
+      },
+      {
+        "title": "Reparatur & Sanierung",
+        "text": "Gesprungene Fliesen tauschen, Fugen erneuern und Silikonfugen neu ziehen.",
+        "items": [
+          "Fliesentausch",
+          "Fugen",
+          "Silikon"
+        ]
+      }
+    ],
+    "why": {
+      "headline": "Saubere Fliesenarbeit aus Erpfting.",
+      "points": [
+        {
+          "title": "Meisterbetrieb",
+          "text": "Fliesenlegermeister führen den Betrieb selbst und stehen für die Ausführung ein."
+        },
+        {
+          "title": "Kurze Wege",
+          "text": "Von Erpfting aus schnell in Landsberg, Kaufering, Penzing und Igling."
+        },
+        {
+          "title": "Innen und außen",
+          "text": "Bad, Wohnraum, Terrasse – Fliesen und Naturstein aus einer Hand."
+        },
+        {
+          "title": "Direkter Kontakt",
+          "text": "Sie sprechen mit den Inhabern selbst, nicht mit einer Zentrale."
+        }
+      ]
+    },
+    "reviews": {
+      "headline": "Was Kunden sagen",
+      "summary": "Kundenstimmen werden hier eingebunden, sobald sie aus dem Google-Profil übernommen sind.",
+      "highlights": [
+        "Fliesenlegermeister in Landsberg",
+        "Fliesen & Naturstein",
+        "Direkter Kontakt"
+      ],
+      "source": "Google",
+      "sourceUrl": "https://www.google.com/maps/search/?api=1&query=Fliesenlegermeister%20Kuisel%20Mittelstetter%20Str.%2013%20Landsberg",
+      "rating": null,
+      "count": null
+    },
+    "process": {
+      "headline": "In vier Schritten zur neuen Fliesenfläche",
+      "steps": [
+        {
+          "title": "Anfrage",
+          "text": "Fotos und grobe Maße per WhatsApp schicken oder kurz anrufen."
+        },
+        {
+          "title": "Aufmaß",
+          "text": "Untergrund, Fläche und Fliesenwunsch werden vor Ort angeschaut."
+        },
+        {
+          "title": "Angebot",
+          "text": "Sie erhalten ein klares Angebot mit Material und Arbeit."
+        },
+        {
+          "title": "Verlegung",
+          "text": "Untergrund vorbereiten, verlegen, verfugen – sauber übergeben."
+        }
+      ]
+    },
+    "gallery": {
+      "headline": "Flächen mit klarem Fugenbild",
+      "text": "Für die Live-Version zeigen wir hier echte Projekte des Betriebs.",
+      "items": [
+        {
+          "title": "Neues Bad",
+          "photoNeeded": "komplett gefliestes Bad mit bodengleicher Dusche"
+        },
+        {
+          "title": "Großformatboden",
+          "photoNeeded": "Wohnraum mit großformatigen Bodenfliesen"
+        },
+        {
+          "title": "Natursteinterrasse",
+          "photoNeeded": "Terrasse mit Natursteinplatten"
+        },
+        {
+          "title": "Küchenspiegel",
+          "photoNeeded": "Fliesenspiegel hinter der Arbeitsplatte"
+        },
+        {
+          "title": "Treppe",
+          "photoNeeded": "Treppe mit Natursteinbelag"
+        }
+      ]
+    },
+    "region": {
+      "headline": "Fliesenleger für Landsberg und Umgebung",
+      "text": "Von Erpfting aus in ganz Landsberg sowie Kaufering, Penzing, Igling und Fuchstal.",
+      "places": [
+        "Landsberg am Lech",
+        "Erpfting",
+        "Kaufering",
+        "Penzing",
+        "Igling",
+        "Fuchstal",
+        "Hurlach"
+      ]
+    },
+    "faq": [
+      {
+        "q": "Kann ich vorab Fotos schicken?",
+        "a": "Ja, Fotos und grobe Maße helfen für eine erste Einschätzung."
+      },
+      {
+        "q": "Verlegen Sie auch Naturstein?",
+        "a": "Ja, Fliesen und Naturstein gehören beide zum Angebot."
+      },
+      {
+        "q": "Bringen Sie die Fliesen mit?",
+        "a": "Das wird im Angebot abgestimmt – Sie können eigene Fliesen stellen oder sich beraten lassen."
+      },
+      {
+        "q": "Werden auch einzelne Fliesen ausgetauscht?",
+        "a": "Fragen Sie an – kleinere Reparaturen werden nach Aufwand geprüft."
+      },
+      {
+        "q": "Arbeiten Sie auch außerhalb von Landsberg?",
+        "a": "Ja, im Umkreis von Landsberg und Erpfting – fragen Sie einfach an."
+      }
+    ],
+    "contact": {
+      "headline": "Ihr Fliesenprojekt anfragen",
+      "text": "Beschreiben Sie kurz Ihr Vorhaben: welcher Raum, ungefähre Fläche und ob Fliesen oder Naturstein. Fotos helfen.",
+      "topics": [
+        "Bad",
+        "Boden",
+        "Naturstein",
+        "Terrasse/Balkon",
+        "Reparatur",
+        "Sonstiges"
+      ],
+      "responseNote": "Aufmaß nach Absprache."
+    },
+    "quote": {
+      "sizeLabel": "Wie groß ist die Fläche?",
+      "sizes": [
+        "Bis 10 m²",
+        "10–30 m²",
+        "30–60 m²",
+        "Über 60 m²"
+      ],
+      "timings": [
+        "So bald wie möglich",
+        "In den nächsten Wochen",
+        "In 1–3 Monaten",
+        "Ich plane erst noch"
+      ]
+    },
+    "stickyCta": "Fliesenleger anfragen",
+    "look": {
+      "palette": 2,
+      "font": 6,
+      "hero": 0,
+      "services": 1,
+      "radius": 1,
+      "logo": 0,
+      "intro": 5
+    }
+  }
+}

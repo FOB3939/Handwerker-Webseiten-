@@ -1,0 +1,403 @@
+{
+  "id": "2026-10-25-123",
+  "slug": "fliesenleger-voglar-moosburg",
+  "date": "2026-10-25",
+  "company": {
+    "name": "Tamara Voglar Fliesenleger",
+    "owner": "Tamara Voglar",
+    "trade": "Fliesenleger & Innenausbau",
+    "city": "Moosburg an der Isar",
+    "address": "Thalbacher Str. 46 D, 85368 Moosburg an der Isar",
+    "phone": "0160 8960202",
+    "email": null,
+    "serviceArea": [
+      "Moosburg",
+      "Wang",
+      "Haag an der Amper",
+      "Zolling",
+      "Langenbach",
+      "Freising"
+    ]
+  },
+  "listings": {
+    "google": {
+      "url": "https://www.google.com/maps/search/?api=1&query=Tamara%20Voglar%20Thalbacher%20Str.%2046%20D%20Moosburg",
+      "rating": null,
+      "reviews": null,
+      "evidence": "NICHT BELEGT – kein Google-Spiegel (rgv-bayern, firmania, trustlocal) mit Eintrag gefunden. Belegt sind Verzeichniseinträge: 11880 (Fliesenleger Moosburg, Thalbacher Str. 46 D, (0160) 8960202, Fliesenlegerarbeiten und Trockenbau) und Stadtbranchenbuch Moosburg (Ansprechpartner Tamara Voglar; Kategorien Fliesenleger, Innenausbau, Maler, Trockenbau, Fußbodenverlegung). In Google Maps prüfen."
+    },
+    "myhammer": {
+      "url": "https://www.11880.com/branchenbuch/moosburg-an-der-isar/fliesenleger",
+      "rating": null,
+      "reviews": null,
+      "evidence": "Kein MyHammer gefunden – Eintrag „Tamara Voglar“ in der 11880-Liste Fliesenleger Moosburg (Mobil 0160 8960202, keine Öffnungszeiten, keine Homepage im Snippet)."
+    }
+  },
+  "websiteStatus": "keine eigene Website gefunden",
+  "websiteChecks": [
+    "(1) „Tamara Voglar Fliesenleger Moosburg“ mit blocked_domains (11880, Gelbe Seiten, Das Örtliche, Telefonbuch, Cylex, meinestadt, Creditreform, Facebook, Instagram, golocal, MyHammer, Northdata, Firmenwissen, WKDB, Yelp, trustlocal, wlw) – nur Verzeichnisse (stadtbranchenbuch.com, fussbodenleger.org, Branchenportale); keine eigene Domain",
+    "(2) Domain-Check allowed_domains voglar.de, fliesen-voglar.de, voglar-fliesen.de, fliesenleger-voglar.de, tamara-voglar.de, voglar-moosburg.de, voglar-bau.de, voglar-innenausbau.de – keine Treffer",
+    "(3) Telefonsuche „0160 8960202“/„01608960202“/„0160/8960202“ – keine Treffer",
+    "(4) Spiegel-/Verzeichnissuche (rgv-bayern, firmania, trustlocal, Cylex, Gelbe Seiten, Das Örtliche) – Voglar nur als Ansprechpartner in einem Maler-/Renovierungsverzeichnis, kein Website-Feld, keine Bewertungen",
+    "(5) Keine E-Mail gefunden (auch keine Freemail)",
+    "(6) Nachprüfung 2026-10-25: Google-Spiegel-Suche (trustlocal, firmania, rgv-bayern, 11880) „Tamara Voglar Fliesenleger Moosburg“ – nur 11880-Listen, kein Google-Spiegel",
+    "(7) Nachprüfung 2026-10-25: „Voglar Moosburg Fliesen Trockenbau Bewertungen“ und „Voglar Thalbacher Str. 46 Moosburg“ (ohne 11880) – nur Stadtbranchenbuch, fussbodenleger.org und eine Auftragsbank-Anzeige (02.02.2023, Handwerkerleistungen inkl. Trockenbau/Fliesen, Moosburg); keine Website, keine Bewertungen, keine E-Mail",
+    "Website-Risiko: mittel – alle Prüfungen negativ, aber weder Google-Eintrag noch Freemail belegt; Gewerk in Verzeichnissen uneinheitlich"
+  ],
+  "facts": {
+    "services": [
+      "Fliesenlegerarbeiten",
+      "Trockenbau",
+      "Fußbodenverlegung",
+      "Malerarbeiten"
+    ],
+    "experience": null,
+    "praisedFor": []
+  },
+  "strategy": {
+    "audience": "Hauseigentümer und Vermieter in Moosburg, Wang, Haag und Zolling, die Bad, Böden oder Innenräume renovieren lassen wollen",
+    "mainService": "Fliesenverlegung und Innenausbau aus einer Hand",
+    "trustSignal": "Inhabergeführter Betrieb in Moosburg, direkt per Handy erreichbar",
+    "conversionGoal": "Kostenloses Angebot für Fliesen- und Ausbauarbeiten anfragen (per WhatsApp/Anruf mit Fotos)",
+    "visualConcept": "Warme Renovierungsästhetik: frisch verlegte Fliesen, glatte Trockenbauwände und neue Böden in hellen Räumen"
+  },
+  "sales": {
+    "score": 3,
+    "whyGoodLead": [
+      "Keine eigene Website gefunden – nur Verzeichniseinträge mit Mobilnummer",
+      "Mobilnummer öffentlich gelistet – direkter WhatsApp-Erstkontakt möglich",
+      "Mehrere Gewerke (Fliesen, Trockenbau, Boden) – Website kann das Komplettangebot zeigen",
+      "Inhaberin namentlich bekannt – persönliche Ansprache möglich"
+    ],
+    "pitch": "Hallo Frau Voglar, hier ist … – ich baue Websites für Handwerker im Landkreis Freising. Ich habe Ihren Eintrag als Fliesenlegerin in Moosburg gefunden, aber keine eigene Website. Ich habe unverbindlich einen Entwurf vorbereitet, auf dem Kunden Ihre Fliesen- und Ausbauarbeiten sehen und direkt per WhatsApp anfragen können – darf ich Ihnen den Link schicken?"
+  },
+  "manualChecks": [
+    "RESERVE – weder Google-Eintrag noch Freemail-Adresse belegt: NUR versenden, wenn Google Maps einen Eintrag OHNE Website zeigt.",
+    "Schwerpunkt klären: Verzeichnisse nennen teils Fliesenleger, teils Bodenleger/Maler/Trockenbau – Hauptgewerk beim Erstkontakt bestätigen und Texte ggf. anpassen",
+    "Ob Tamara Voglar Inhaberin oder nur Ansprechpartnerin ist, beim Erstkontakt klären",
+    "Leistungen Fliesen, Trockenbau, Boden belegt; Malerarbeiten nur in einem Verzeichnis – bestätigen",
+    "Logo und Projektfotos: nicht gefunden – beim Betrieb anfragen"
+  ],
+  "sources": [
+    {
+      "label": "11880 – Fliesenleger Moosburg (Liste mit Tamara Voglar)",
+      "url": "https://www.11880.com/branchenbuch/moosburg-an-der-isar/fliesenleger"
+    },
+    {
+      "label": "Stadtbranchenbuch Moosburg – Tamara Voglar Fliesenleger",
+      "url": "https://moosburg.stadtbranchenbuch.com/9673286.html"
+    },
+    {
+      "label": "11880 – Bodenleger Moosburg",
+      "url": "https://www.11880.com/suche/bodenleger/moosburg"
+    },
+    {
+      "label": "auftragsbank.de – Anzeige Tamara Voglar, Moosburg (02.02.2023)",
+      "url": "https://www.auftragsbank.de/gesuche/handwerker/126833"
+    }
+  ],
+  "site": {
+    "theme": "stein",
+    "category": "handwerk",
+    "heroOffer": [
+      "Fliesen",
+      "Bad",
+      "Trockenbau",
+      "Bodenbeläge",
+      "Renovierung"
+    ],
+    "scene": "bath",
+    "logoIcon": "trowel",
+    "logoMark": "TV",
+    "brandName": "Fliesen Voglar",
+    "seoTitle": "Fliesenleger in Moosburg – Tamara Voglar",
+    "seoDescription": "Fliesen, Trockenbau und Bodenbeläge in Moosburg an der Isar und Umgebung. Jetzt kostenloses Angebot anfragen – auch per WhatsApp.",
+    "nav": [
+      {
+        "label": "Leistungen",
+        "href": "#leistungen"
+      },
+      {
+        "label": "Projekte",
+        "href": "#projekte"
+      },
+      {
+        "label": "Bewertungen",
+        "href": "#bewertungen"
+      },
+      {
+        "label": "Ablauf",
+        "href": "#ablauf"
+      },
+      {
+        "label": "FAQ",
+        "href": "#faq"
+      },
+      {
+        "label": "Kontakt",
+        "href": "#kontakt"
+      }
+    ],
+    "hero": {
+      "eyebrow": "Fliesen & Innenausbau · Moosburg",
+      "headline": "Fliesen und Ausbau in Moosburg",
+      "sub": "Fliesen, Trockenbau und neue Böden – alles aus einer Hand in Moosburg.",
+      "ctaPrimary": "Kostenloses Angebot anfragen",
+      "ctaSecondary": "Anrufen",
+      "bullets": [
+        "Betrieb in Moosburg an der Isar",
+        "Fliesen, Trockenbau, Böden",
+        "Direkt per Handy erreichbar"
+      ],
+      "imageLabel": "frisch gefliestes Bad mit neuer Trockenbauwand"
+    },
+    "badges": [
+      {
+        "title": "Fliesen",
+        "sub": "Boden & Wand"
+      },
+      {
+        "title": "Trockenbau",
+        "sub": "Wände & Decken"
+      },
+      {
+        "title": "Böden",
+        "sub": "neue Beläge"
+      },
+      {
+        "title": "Moosburg",
+        "sub": "Thalbacher Straße"
+      }
+    ],
+    "trust": [
+      {
+        "value": "Vor Ort",
+        "label": "Betrieb in Moosburg"
+      },
+      {
+        "value": "3",
+        "label": "Gewerke aus einer Hand"
+      },
+      {
+        "value": "Mobil",
+        "label": "schnell erreichbar"
+      },
+      {
+        "value": "Gratis",
+        "label": "Angebot nach Besichtigung"
+      }
+    ],
+    "servicesIntro": {
+      "headline": "Fliesen, Trockenbau und Böden aus einer Hand",
+      "text": "Wer renoviert, braucht oft mehrere Gewerke. Hier kommen Fliesen, neue Wände und Bodenbeläge von einem Ansprechpartner."
+    },
+    "services": [
+      {
+        "title": "Bodenfliesen",
+        "text": "Fliesenböden für Flur, Küche und Wohnräume – eben verlegt und sauber verfugt.",
+        "items": [
+          "Flur",
+          "Küche",
+          "Wohnräume"
+        ]
+      },
+      {
+        "title": "Bad fliesen",
+        "text": "Boden, Wände und Dusche im Bad werden gefliest – pflegeleicht und dauerhaft.",
+        "items": [
+          "Dusche",
+          "Badwände",
+          "Badboden"
+        ]
+      },
+      {
+        "title": "Wandfliesen",
+        "text": "Fliesenspiegel und Wandflächen in Küche und Bad, passend zum Boden.",
+        "items": [
+          "Fliesenspiegel",
+          "Wandflächen",
+          "Akzente"
+        ]
+      },
+      {
+        "title": "Trockenbau",
+        "text": "Neue Raumaufteilung und glatte Decken mit Gipskarton – schnell und ohne lange Trocknung.",
+        "items": [
+          "Ständerwände",
+          "Decken",
+          "Verkleidungen"
+        ]
+      },
+      {
+        "title": "Bodenbeläge",
+        "text": "Neue Bodenbeläge für Wohn- und Schlafräume – auf vorbereitetem Untergrund verlegt.",
+        "items": [
+          "Bodenverlegung",
+          "Untergrund",
+          "Sockelleisten"
+        ]
+      },
+      {
+        "title": "Renovierung",
+        "text": "Fliesen, Wände und Böden abgestimmt erneuern – ein Ansprechpartner für den ganzen Raum.",
+        "items": [
+          "Raumsanierung",
+          "Koordination",
+          "Übergabe"
+        ]
+      }
+    ],
+    "why": {
+      "headline": "Renovieren in Moosburg – mit einem Ansprechpartner.",
+      "points": [
+        {
+          "title": "Kurze Wege",
+          "text": "Der Betrieb sitzt in Moosburg und ist schnell in Wang, Haag und Zolling."
+        },
+        {
+          "title": "Mehrere Gewerke",
+          "text": "Fliesen, Trockenbau und Böden aus einer Hand – weniger Abstimmung für Sie."
+        },
+        {
+          "title": "Direkter Kontakt",
+          "text": "Ein Anruf oder eine WhatsApp-Nachricht genügt – ohne Umwege."
+        },
+        {
+          "title": "Klare Absprache",
+          "text": "Material, Format und Ablauf werden vor Beginn gemeinsam festgelegt."
+        }
+      ]
+    },
+    "reviews": {
+      "headline": "Was Kunden sagen",
+      "summary": "Kundenstimmen werden hier eingebunden, sobald sie aus dem Google-Profil übernommen sind.",
+      "highlights": [
+        "Fliesen in Moosburg",
+        "Trockenbau und Böden",
+        "Direkter Kontakt"
+      ],
+      "source": "Google",
+      "sourceUrl": "https://www.google.com/maps/search/?api=1&query=Tamara%20Voglar%20Thalbacher%20Str.%2046%20D%20Moosburg",
+      "rating": null,
+      "count": null
+    },
+    "process": {
+      "headline": "In vier Schritten zum renovierten Raum",
+      "steps": [
+        {
+          "title": "Anfrage",
+          "text": "Fotos und grobe Maße per WhatsApp schicken – oder kurz anrufen."
+        },
+        {
+          "title": "Besichtigung",
+          "text": "Raum, Untergrund und Wünsche werden vor Ort angeschaut."
+        },
+        {
+          "title": "Angebot",
+          "text": "Sie erhalten ein klares Angebot für Fliesen, Wände oder Boden."
+        },
+        {
+          "title": "Ausführung",
+          "text": "Vorbereiten, verlegen, verfugen – sauber übergeben."
+        }
+      ]
+    },
+    "gallery": {
+      "headline": "Räume, die neu werden",
+      "text": "Für die Live-Version zeigen wir hier echte Projekte des Betriebs.",
+      "items": [
+        {
+          "title": "Neues Bad",
+          "photoNeeded": "fertig gefliestes Bad mit Dusche"
+        },
+        {
+          "title": "Fliesenboden",
+          "photoNeeded": "frisch verlegter Fliesenboden im Flur"
+        },
+        {
+          "title": "Trennwand",
+          "photoNeeded": "neue Trockenbauwand, verspachtelt"
+        },
+        {
+          "title": "Küchenspiegel",
+          "photoNeeded": "Fliesenspiegel hinter der Arbeitsplatte"
+        },
+        {
+          "title": "Neuer Boden",
+          "photoNeeded": "neu verlegter Bodenbelag im Wohnraum"
+        }
+      ]
+    },
+    "region": {
+      "headline": "Fliesen und Ausbau für Moosburg und Umgebung",
+      "text": "Von Moosburg aus schnell in Wang, Haag an der Amper, Zolling, Langenbach und Freising.",
+      "places": [
+        "Moosburg",
+        "Wang",
+        "Haag an der Amper",
+        "Zolling",
+        "Langenbach",
+        "Freising"
+      ]
+    },
+    "faq": [
+      {
+        "q": "Kann ich vorab Fotos schicken?",
+        "a": "Ja, Fotos und grobe Maße per WhatsApp helfen für eine erste Einschätzung."
+      },
+      {
+        "q": "Übernehmen Sie auch Trockenbau?",
+        "a": "Ja, neben Fliesen gehören Trockenbau und Bodenverlegung zum Angebot."
+      },
+      {
+        "q": "Wie lange dauert eine Badrenovierung?",
+        "a": "Das hängt von Größe und Umfang ab. Der Zeitplan wird nach der Besichtigung abgestimmt."
+      },
+      {
+        "q": "Bringe ich die Fliesen selbst mit?",
+        "a": "Beides ist möglich – das wird bei der Besichtigung abgesprochen."
+      },
+      {
+        "q": "Arbeiten Sie auch außerhalb von Moosburg?",
+        "a": "Ja, im Umkreis von Moosburg – fragen Sie einfach an."
+      }
+    ],
+    "contact": {
+      "headline": "Ihr Angebot – kostenlos und unverbindlich",
+      "text": "Beschreiben Sie kurz Ihr Vorhaben: welcher Raum, ungefähre Fläche und ob Fliesen, Wände oder Boden. Fotos helfen.",
+      "topics": [
+        "Fliesen",
+        "Bad",
+        "Trockenbau",
+        "Bodenbeläge",
+        "Sonstiges"
+      ],
+      "responseNote": "Besichtigung nach Absprache."
+    },
+    "quote": {
+      "sizeLabel": "Was soll gemacht werden?",
+      "sizes": [
+        "Ein Bad",
+        "Ein Boden",
+        "Wand oder Decke",
+        "Mehrere Räume"
+      ],
+      "timings": [
+        "So bald wie möglich",
+        "In den nächsten Wochen",
+        "In 1–3 Monaten",
+        "Ich plane erst noch"
+      ]
+    },
+    "stickyCta": "Angebot anfragen",
+    "look": {
+      "palette": 2,
+      "font": 6,
+      "hero": 0,
+      "services": 1,
+      "radius": 1,
+      "logo": 0,
+      "intro": 5
+    }
+  }
+}
