@@ -1,8 +1,8 @@
 import type { CSSProperties } from "react";
 import type { ThemeKey } from "./types";
 
-export type HeroVariant = "editorial" | "panel" | "fullbleed" | "split" | "organic" | "banner";
-export type ServicesVariant = "cards" | "numbered" | "tiles";
+export type HeroVariant = "editorial" | "panel" | "fullbleed" | "split" | "organic" | "banner" | "stack" | "mosaic" | "card" | "minimal";
+export type ServicesVariant = "cards" | "numbered" | "tiles" | "feature" | "split" | "rows";
 
 export interface Theme {
   vars: Record<string, string>;

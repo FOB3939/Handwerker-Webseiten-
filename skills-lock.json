@@ -42,6 +42,24 @@
       "sourceType": "github",
       "skillPath": "skills/webapp-testing/SKILL.md",
       "computedHash": "ad5b1fc52807e9afa4635e59218a026b164dc58b6c3f41b0f7c644dcd6ccf572"
+    },
+    "algorithmic-art": {
+      "source": "anthropics/skills",
+      "sourceType": "github",
+      "skillPath": "skills/algorithmic-art/SKILL.md",
+      "computedHash": "3bc4092c09804853186524c826bc0621b940bb6122c05b84496dff95388e6eef"
+    },
+    "writing-guidelines": {
+      "source": "vercel-labs/agent-skills",
+      "sourceType": "github",
+      "skillPath": "skills/writing-guidelines/SKILL.md",
+      "computedHash": "89a5f581193289b80af58b980090aeed535047c8df2b55ccbaae0de40283a99d"
+    },
+    "composition-patterns": {
+      "source": "vercel-labs/agent-skills",
+      "sourceType": "github",
+      "skillPath": "skills/composition-patterns/SKILL.md",
+      "computedHash": "e38e0eaa609316b10423a9a138ed95e35099accd3f735585295c8a8f165c28a3"
     }
   }
 }

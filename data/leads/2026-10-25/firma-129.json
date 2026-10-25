@@ -386,11 +386,16 @@
     "look": {
       "palette": 0,
       "font": 4,
-      "hero": 2,
+      "hero": 6,
       "services": 0,
       "radius": 0,
       "logo": 0,
-      "intro": 1
+      "intro": 1,
+      "projects": 2,
+      "process": 0,
+      "faq": 0,
+      "reviews": 0,
+      "order": 2
     }
   }
 }

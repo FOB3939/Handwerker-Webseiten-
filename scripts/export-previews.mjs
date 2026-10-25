@@ -13,7 +13,7 @@ function standalone(html) {
   return html
     .replace(/<link(?![^>]*fonts\.googleapis)[^>]+rel="stylesheet"[^>]*>/g, "")
     .replace(/<link[^>]+rel="preload"[^>]*>/g, "")
-    .replace(/<script\b(?![^>]*id="demo-(?:enhance|motion|game|ldjson|intro)")[^>]*>[\s\S]*?<\/script>/g, "")
+    .replace(/<script\b(?![^>]*id="demo-(?:enhance|motion|game|ldjson|intro|mfx)")[^>]*>[\s\S]*?<\/script>/g, "")
     .replace(/href="\/demo\/([a-z0-9-]+)"/g, 'href="$1.html"')
     .replace(/href="\/daily\/(\d{4}-\d{2}-\d{2})"/g, 'href="index.html"')
     .replace(/href="\/"/g, 'href="index.html"')

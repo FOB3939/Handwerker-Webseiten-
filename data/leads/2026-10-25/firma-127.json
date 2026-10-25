@@ -383,13 +383,18 @@
     },
     "stickyCta": "Angebot anfragen",
     "look": {
-      "palette": 0,
+      "palette": 2,
       "font": 8,
       "hero": 0,
       "services": 2,
       "radius": 4,
       "logo": 4,
-      "intro": 3
+      "intro": 3,
+      "projects": 2,
+      "process": 2,
+      "faq": 1,
+      "reviews": 0,
+      "order": 0
     }
   }
 }

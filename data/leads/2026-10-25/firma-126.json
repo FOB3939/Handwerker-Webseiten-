@@ -378,11 +378,16 @@
     "look": {
       "palette": 1,
       "font": 3,
-      "hero": 3,
-      "services": 0,
+      "hero": 5,
+      "services": 3,
       "radius": 1,
       "logo": 3,
-      "intro": 4
+      "intro": 4,
+      "projects": 1,
+      "process": 0,
+      "faq": 0,
+      "reviews": 1,
+      "order": 1
     }
   }
 }

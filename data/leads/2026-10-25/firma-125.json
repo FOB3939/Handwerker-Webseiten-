@@ -405,10 +405,15 @@
       "palette": 0,
       "font": 12,
       "hero": 2,
-      "services": 1,
+      "services": 4,
       "radius": 3,
       "logo": 2,
-      "intro": 5
+      "intro": 5,
+      "projects": 2,
+      "process": 1,
+      "faq": 2,
+      "reviews": 0,
+      "order": 2
     }
   }
 }

@@ -3,12 +3,20 @@ import type { Lead } from "@/lib/types";
 import { themeStyle } from "@/lib/themes";
 import { resolveTheme, familyOf, type Identity } from "@/lib/identity";
 import { HeroFx, TradeDivider, fxFor, type TradeFxKind } from "./TradeFx";
-import TradeGame, { gameFor } from "./TradeGame";
+import TradeGame, { gameFor, type GameKind } from "./TradeGame";
 import { readFileSync } from "node:fs";
 import { join } from "node:path";
 
 // Logo-Intro je Gewerk (Wasser, Strom, Holz …) – läuft direkt nach dem Splash, ohne Abhängigkeiten
 const intro = readFileSync(join(process.cwd(), "assets/trade-intro.js"), "utf8");
+// Gewerk-Effekte (Magic-UI-Stil) und generativer Hintergrund im Aufruf-Banner
+const mfx = readFileSync(join(process.cwd(), "assets/trade-mfx.js"), "utf8");
+// Je Spielart 2–3 passende Effekte; welcher es wird, hängt an der Abschnittsfolge (von assign-looks verteilt)
+const MFX: Record<GameKind, string[]> = {
+  circuit: ["beam", "flicker"], drywall: ["beam", "grid"], water: ["ripple", "meteors"], tiles: ["grid", "dots"], paint: ["highlight", "particles"],
+  lawn: ["particles", "highlight"], sweep: ["sparkles", "dots", "stripes"], glass: ["sparkles", "ripple", "highlight"], railing: ["flicker", "beam"],
+  planks: ["stripes", "dots"], kitchen: ["stripes", "beam"], blinds: ["stripes", "flicker"], roof: ["meteors", "stripes"], bricks: ["dots", "grid"],
+};
 import { telHref } from "@/lib/leads";
 import Scene from "./Scene";
 import Photo, { photoSrc } from "./Photo";
@@ -47,10 +55,28 @@ export default function DemoSite({ lead }: { lead: Lead }) {
   // Gewerk-Signatur (Effekt im Hero + Trennleisten), nur für Handwerk
   if (!ctx.hof) ctx.fx = fxFor(company.trade, familyOf(lead));
   const game = ctx.hof ? null : gameFor(company.trade, ctx.fx);
-  const heroHasForm = !ctx.hof && !["editorial", "organic", "banner"].includes(theme.hero);
+  // Hero-Varianten mit eingebauter Schnellanfrage (dann entfällt der separate Anfrage-Abschnitt)
+  const heroHasForm = !ctx.hof && ["fullbleed", "split", "minimal", "panel"].includes(theme.hero);
+  const divider = ctx.fx ? <TradeDivider kind={ctx.fx} /> : null;
+  const sections: Record<SectionKey, ReactNode> = {
+    badges: <Badges {...ctx} />,
+    marquee: <Marquee {...ctx} />,
+    div: divider,
+    services: <Services {...ctx} />,
+    visit: ctx.hof ? <Visit {...ctx} /> : null,
+    quote: heroHasForm ? null : <QuoteSection {...ctx} />,
+    about: <About {...ctx} />,
+    stats: <Stats {...ctx} />,
+    projects: ctx.hof ? <HofGallery {...ctx} /> : <Projects {...ctx} />,
+    reviews: <Reviews {...ctx} />,
+    process: <Process {...ctx} />,
+    cta: <CtaBand {...ctx} />,
+    region: <Region {...ctx} />,
+    faq: <Faq {...ctx} />,
+  };
 
   return (
-    <div data-identity={theme.name} style={themeStyle(theme)} className="min-h-screen bg-t-bg font-body text-t-ink antialiased">
+    <div data-identity={theme.name} data-mfx={game ? MFX[game][theme.order % MFX[game].length] : undefined} data-seed={theme.seed} data-pal={theme.palette.join(",")} style={themeStyle(theme)} className="min-h-screen bg-t-bg font-body text-t-ink antialiased">
       <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="" />
       <link rel="stylesheet" href={theme.fontsHref} precedence="default" />
       <div className="scroll-progress fixed inset-x-0 top-0 z-[55] h-1 bg-t-accent" aria-hidden="true" />
@@ -63,30 +89,31 @@ export default function DemoSite({ lead }: { lead: Lead }) {
       <main id="inhalt">
         <Hero {...ctx} />
         {game && <TradeGame lead={lead} kind={game} />}
-        <Badges {...ctx} />
-        <Marquee {...ctx} />
-        {ctx.fx && <TradeDivider kind={ctx.fx} />}
-        <Services {...ctx} />
-        {ctx.hof && <Visit {...ctx} />}
-        {!heroHasForm && <QuoteSection {...ctx} />}
-        <About {...ctx} />
-        <Stats {...ctx} />
-        {ctx.hof ? <HofGallery {...ctx} /> : <Projects {...ctx} />}
-        <Reviews {...ctx} />
-        {ctx.fx && <TradeDivider kind={ctx.fx} />}
-        <Process {...ctx} />
-        <CtaBand {...ctx} />
-        <Region {...ctx} />
-        <Faq {...ctx} />
+        {sectionOrder(ctx.hof ? 0 : theme.order).map((k, i) => {
+          const el = sections[k];
+          return el ? <Fragment key={`${k}-${i}`}>{el}</Fragment> : null;
+        })}
         <Contact {...ctx} />
       </main>
       <Footer {...ctx} />
       <StickyBar {...ctx} />
       <script id="demo-ldjson" type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(localBusiness(lead)).replace(/</g, "\\u003c") }} />
       <Enhance />
+      {game && <script id="demo-mfx" dangerouslySetInnerHTML={{ __html: mfx }} />}
     </div>
   );
 }
+
+type SectionKey = "badges" | "marquee" | "div" | "services" | "visit" | "quote" | "about" | "stats" | "projects" | "reviews" | "process" | "cta" | "region" | "faq";
+
+// Vier Abschnittsfolgen – das Spiel bleibt immer direkt unter dem Hero, Kontakt immer am Schluss
+const ORDERS: SectionKey[][] = [
+  ["badges", "marquee", "div", "services", "visit", "quote", "about", "stats", "projects", "reviews", "div", "process", "cta", "region", "faq"],
+  ["badges", "services", "stats", "projects", "quote", "div", "process", "about", "reviews", "marquee", "cta", "faq", "region"],
+  ["marquee", "badges", "about", "services", "div", "projects", "reviews", "stats", "quote", "process", "region", "cta", "faq"],
+  ["badges", "services", "process", "projects", "div", "quote", "reviews", "about", "stats", "marquee", "region", "faq", "cta"],
+];
+function sectionOrder(n: number) { return ORDERS[n % ORDERS.length]; }
 
 /* ---------- Kopfbereich ---------- */
 
@@ -331,6 +358,101 @@ function Hero({ lead, theme, call, upper, hof, fx }: Ctx) {
               </li>
             ))}
           </ul>}
+        </div>
+      </section>
+    );
+  }
+
+  if (theme.hero === "stack") {
+    // zentrierte Überschrift, darunter ein Bildband aus drei Motiven
+    return (
+      <section className="relative isolate overflow-hidden border-b border-t-line">
+        {sig}
+        <div className="hero-in mx-auto max-w-4xl px-4 pt-14 text-center sm:px-6 lg:pt-20">
+          <div className="flex justify-center"><RatingChip lead={lead} /></div>
+          <h1 data-split {...fitH1(hero.headline, 0.7, `mt-5 text-balance font-display text-5xl font-bold leading-[1.02] sm:text-7xl ${upper}`)}>{hero.headline}</h1>
+          <p className="mx-auto mt-6 max-w-2xl text-lg leading-relaxed text-t-muted">{shortSub(hero.sub)}</p>
+          <div className="flex justify-center [&>ul]:mx-auto"><OfferStrip lead={lead} hof={hof} /></div>
+          <div className="flex justify-center"><CtaRow lead={lead} call={call} /></div>
+        </div>
+        <div className="hero-media mx-auto mt-12 grid max-w-site gap-4 px-4 pb-14 sm:grid-cols-3 sm:px-6">
+          {[0, 1, 2].map((k) => (
+            <div key={k} className={`${k ? "hidden sm:block" : ""} ${k === 1 ? "sm:translate-y-8" : ""}`}>{art("aspect-[4/3] w-full rounded-t shadow-xl sm:aspect-[3/4]", k)}</div>
+          ))}
+        </div>
+      </section>
+    );
+  }
+
+  if (theme.hero === "mosaic") {
+    // Text links, rechts eine Kachel-Collage mit Merkmal-Kachel
+    const b0 = lead.site.badges[0], b1 = lead.site.badges[1];
+    return (
+      <section className="relative isolate overflow-hidden">
+        {sig}
+        <div className="mx-auto grid max-w-site items-center gap-10 px-4 py-12 sm:px-6 lg:grid-cols-12 lg:py-20">
+          <div className="hero-in lg:col-span-5">
+            <RatingChip lead={lead} />
+            <h1 data-split {...fitH1(hero.headline, 0.42, `mt-4 text-balance font-display text-4xl font-extrabold leading-[1.04] sm:text-6xl ${upper}`)}>{hero.headline}</h1>
+            <p className="mt-5 max-w-xl text-lg text-t-muted">{shortSub(hero.sub)}</p>
+            <OfferStrip lead={lead} hof={hof} />
+            <CtaRow lead={lead} call={call} />
+          </div>
+          <div className="hero-media grid grid-cols-2 grid-rows-2 gap-3 sm:gap-4 lg:col-span-7">
+            <div className="row-span-2">{art("h-full min-h-[18rem] w-full rounded-t shadow-xl", 0)}</div>
+            {art("aspect-[4/3] w-full rounded-t shadow-lg", 2)}
+            <div className="flex flex-col justify-end rounded-t bg-t-accent p-5 text-t-accent-ink shadow-lg">
+              <p className="font-display text-2xl font-black leading-tight">{b0?.title}</p>
+              <p className="mt-1 text-sm opacity-90">{b0?.sub}</p>
+              {b1 && <p className="mt-3 border-t border-current/30 pt-3 text-sm font-semibold">{b1.title}</p>}
+            </div>
+          </div>
+        </div>
+      </section>
+    );
+  }
+
+  if (theme.hero === "card") {
+    // Motiv als Vollbild, Text in einer hellen Karte unten links
+    return (
+      <section className="relative isolate overflow-hidden bg-t-dark">
+        {sig}
+        <div className="absolute inset-0 -z-10 overflow-hidden"><div data-parallax="0.14" className="h-full w-full">{art("absolute inset-0 h-full w-full", 1)}</div></div>
+        <div className="absolute inset-0 -z-10 bg-gradient-to-t from-black/55 via-black/10 to-transparent" />
+        <div className="mx-auto flex min-h-[34rem] max-w-site items-end px-4 pb-10 pt-40 sm:px-6 lg:min-h-[40rem]">
+          <div className="hero-in w-full max-w-2xl rounded-t bg-t-surface p-6 shadow-2xl sm:p-10">
+            <RatingChip lead={lead} />
+            <h1 data-split {...fitH1(hero.headline, 0.55, `mt-4 text-balance font-display text-4xl font-bold leading-[1.04] sm:text-6xl ${upper}`)}>{hero.headline}</h1>
+            <p className="mt-4 text-lg text-t-muted">{shortSub(hero.sub)}</p>
+            <OfferStrip lead={lead} hof={hof} />
+            <CtaRow lead={lead} call={call} />
+          </div>
+        </div>
+      </section>
+    );
+  }
+
+  if (theme.hero === "minimal") {
+    // große Überschrift über die volle Breite, darunter Text + Motiv links, Schnellanfrage rechts
+    return (
+      <section id="anfrage" className="relative isolate overflow-hidden border-b border-t-line">
+        {sig}
+        <div className="mx-auto max-w-site px-4 py-12 sm:px-6 lg:py-16">
+          <div className="hero-in">
+            <RatingChip lead={lead} />
+            <h1 data-split {...fitH1(hero.headline, 0.95, `mt-5 max-w-5xl text-balance font-display text-5xl font-black leading-[0.98] sm:text-7xl lg:text-8xl ${upper}`)}>{hero.headline}</h1>
+          </div>
+          <div className="mt-10 grid gap-10 lg:grid-cols-12">
+            <div className="lg:col-span-7">
+              <p className="max-w-xl text-lg text-t-muted">{shortSub(hero.sub)}</p>
+              <OfferStrip lead={lead} hof={hof} />
+              <a href={call} className="mt-8 inline-flex min-h-[44px] items-center gap-2 font-bold text-t-accent underline-offset-4 hover:underline">
+                <PhoneIcon /> {lead.company.phone ? `Direkt anrufen: ${lead.company.phone}` : hero.ctaSecondary}
+              </a>
+              <div className="hero-media mt-8">{art("aspect-[16/9] w-full rounded-t shadow-xl", 3)}</div>
+            </div>
+            <div className="hero-media lg:col-span-5"><QuickRequest {...quoteProps(lead, hof)} /></div>
+          </div>
         </div>
       </section>
     );
@@ -640,6 +762,75 @@ function Services({ lead, theme, upper, hof }: Ctx) {
           ))}
         </div>
       )}
+      {theme.services === "feature" && (() => {
+        const [lead0, ...more] = services;
+        return (
+          <div className="mt-14 grid gap-6 lg:grid-cols-12">
+            <article data-reveal="left" className="card-fx group relative flex flex-col overflow-hidden rounded-t bg-t-dark text-t-dark-ink lg:col-span-7">
+              <div className="overflow-hidden"><Scene kind={scene} palette={theme.palette} label={lead0.title} seed={1} className="card-media aspect-[16/10] w-full" showLabel={false} /></div>
+              <div className="flex flex-1 flex-col p-8">
+                <span className="text-xs font-bold uppercase tracking-[0.2em] text-t-accent">Schwerpunkt</span>
+                <h3 className={`mt-2 font-display text-3xl font-bold ${upper}`}>{lead0.title}</h3>
+                <p className="mt-3 max-w-xl text-t-dark-ink/80">{lead0.text}</p>
+                <ul className="mt-5 flex flex-wrap gap-2">{lead0.items.map((it) => <li key={it} className="rounded-full bg-white/10 px-3 py-1.5 text-sm">{it}</li>)}</ul>
+                <a href="#anfrage" className="mt-auto pt-6 font-bold text-t-accent">Jetzt anfragen</a>
+              </div>
+            </article>
+            <ul data-stagger className="grid gap-3 lg:col-span-5">
+              {more.map((s) => (
+                <li key={s.title} className="card-fx flex items-start gap-4 rounded-t border border-t-line bg-t-surface p-5">
+                  <span className="svc-badge grid h-12 w-12 shrink-0 place-items-center rounded-t bg-t-accent/10 text-t-accent"><ServiceIcon name={serviceIcon(s.title, scene, s.items)} size={24} /></span>
+                  <div>
+                    <h3 className={`font-display text-lg font-bold ${upper}`}>{s.title}</h3>
+                    <p className="mt-1 text-sm text-t-muted">{s.text}</p>
+                  </div>
+                </li>
+              ))}
+            </ul>
+          </div>
+        );
+      })()}
+      {theme.services === "split" && (
+        <div className="mt-14 grid gap-10 lg:grid-cols-12">
+          <div className="lg:col-span-5">
+            <div data-reveal="left" className="relative overflow-hidden rounded-t lg:sticky lg:top-28">
+              <Scene kind={scene} palette={theme.palette} label={servicesIntro.headline} seed={2} className="aspect-[4/5] w-full" showLabel={false} />
+              <div className="absolute inset-x-4 bottom-4 rounded-t bg-t-bg/95 p-5 shadow-xl">
+                <p className="font-display text-4xl font-black text-t-accent">{services.length}</p>
+                <p className="text-sm font-semibold">Leistungen in {lead.company.city} und Umgebung</p>
+              </div>
+            </div>
+          </div>
+          <ol data-stagger className="space-y-4 lg:col-span-7">
+            {services.map((s, i) => (
+              <li key={s.title} className="group rounded-t border-l-4 border-t-accent bg-t-surface p-6 shadow-sm transition hover:shadow-lg">
+                <div className="flex items-center gap-3">
+                  <span className="font-display text-sm font-black text-t-accent">{String(i + 1).padStart(2, "0")}</span>
+                  <h3 className={`font-display text-xl font-bold ${upper}`}>{s.title}</h3>
+                  <span className="ml-auto text-t-accent" aria-hidden="true"><ServiceIcon name={serviceIcon(s.title, scene, s.items)} size={24} /></span>
+                </div>
+                <p className="mt-2 text-t-muted">{s.text}</p>
+                <p className="mt-3 text-sm font-semibold">{s.items.join(" · ")}</p>
+              </li>
+            ))}
+          </ol>
+        </div>
+      )}
+      {theme.services === "rows" && (
+        <div data-stagger className="mt-14 space-y-6">
+          {services.map((s, i) => (
+            <article key={s.title} className="card-fx group grid items-center gap-6 overflow-hidden rounded-t border border-t-line bg-t-surface md:grid-cols-12">
+              <div className={`overflow-hidden md:col-span-4 ${i % 2 ? "md:order-2" : ""}`}><Scene kind={scene} palette={theme.palette} label={s.title} seed={i + 1} className="card-media aspect-[16/9] w-full md:aspect-[4/3]" showLabel={false} /></div>
+              <div className="p-6 md:col-span-8 md:p-8">
+                <div className="flex items-center gap-3 text-t-accent"><ServiceIcon name={serviceIcon(s.title, scene, s.items)} size={22} /><span className="text-xs font-bold uppercase tracking-[0.2em]">Leistung {i + 1}</span></div>
+                <h3 className={`mt-2 font-display text-2xl font-bold ${upper}`}>{s.title}</h3>
+                <p className="mt-2 max-w-2xl text-t-muted">{s.text}</p>
+                <ul className="mt-4 flex flex-wrap gap-x-5 gap-y-1 text-sm">{s.items.map((it) => <li key={it} className="flex items-center gap-1.5"><CheckIcon className="text-t-accent" size={14} />{it}</li>)}</ul>
+              </div>
+            </article>
+          ))}
+        </div>
+      )}
     </section>
   );
 }
@@ -724,41 +915,67 @@ function Projects({ lead, theme, upper }: Ctx) {
   const refs = lead.site.photos?.gallery ?? [];
   const pic = (i: number) => { const ref = refs[i]; const src = photoSrc(ref); return ref && src ? { ref, src } : null; };
   const firstPic = pic(0);
+  const media = (i: number, label: string, className: string) => {
+    const p = pic(i);
+    return p ? <Photo photo={p.ref} src={p.src} className={className} /> : <Scene kind={scene} palette={theme.palette} label={label} seed={i + 5} className={className} showLabel={false} />;
+  };
+  const slider = (
+    <BeforeAfter label={first.title}
+      before={<Scene kind={scene} palette={theme.palette} label={first.photoNeeded} seed={5} variant="before" className="h-full w-full" showLabel={false} />}
+      after={<Scene kind={scene} palette={theme.palette} label={first.photoNeeded} seed={5} className="h-full w-full" showLabel={false} />} />
+  );
+  const caption = (it: (typeof g.items)[number], i: number) => <><span className="block text-sm font-bold">{it.title}</span><span className="block text-[11px] text-white/80">{pic(i) ? "Später echtes Foto" : "Foto folgt"}: {it.photoNeeded}</span></>;
   return (
     <section id="projekte" className="border-y border-t-line bg-t-surface">
       <div className="mx-auto max-w-site px-4 py-24 sm:px-6">
-        <SectionHead kicker="Projekte" title={g.headline} text={g.text} upper={upper} />
-        <div className="mt-14 grid gap-6 lg:grid-cols-12">
-          {firstPic ? (
-          <figure data-reveal="zoom" className="lg:col-span-7">
-            <Photo photo={firstPic.ref} src={firstPic.src} className="aspect-[4/3] w-full rounded-t shadow-xl" />
-            <figcaption className="mt-3 text-sm text-t-muted">{first.title}: Beispielfoto. In der Live-Version zeigen wir echte Projekte ({first.photoNeeded}).</figcaption>
-          </figure>
-          ) : (
-          <figure data-reveal="zoom" className="lg:col-span-7">
-            <BeforeAfter label={first.title}
-              before={<Scene kind={scene} palette={theme.palette} label={first.photoNeeded} seed={5} variant="before" className="h-full w-full" showLabel={false} />}
-              after={<Scene kind={scene} palette={theme.palette} label={first.photoNeeded} seed={5} className="h-full w-full" showLabel={false} />} />
-            <figcaption className="mt-3 text-sm text-t-muted">Regler ziehen: Vorher/Nachher. In der Live-Version mit echten Fotos ({first.photoNeeded}).</figcaption>
-          </figure>
-          )}
-          <div data-stagger className="grid grid-cols-2 gap-4 lg:col-span-5">
-            {rest.slice(0, 4).map((it, i) => {
-              const p = pic(i + 1);
-              return (
-              <figure key={it.title} className="group relative overflow-hidden rounded-t">
-                {p
-                  ? <Photo photo={p.ref} src={p.src} className="aspect-square w-full transition duration-500 group-hover:scale-105" />
-                  : <Scene kind={scene} palette={theme.palette} label={it.photoNeeded} seed={i + 6} className="aspect-square w-full transition duration-500 group-hover:scale-105" showLabel={false} />}
-                <figcaption className="absolute inset-x-0 bottom-0 bg-gradient-to-t from-black/75 to-transparent p-3 pt-8 text-white">
-                  <span className="block text-sm font-bold">{it.title}</span>
-                  <span className="block text-[11px] text-white/80">{p ? "Später echtes Foto" : "Foto folgt"}: {it.photoNeeded}</span>
-                </figcaption>
+        <SectionHead kicker="Projekte" title={g.headline} text={g.text} upper={upper} center={theme.projects === "masonry"} />
+        {theme.projects === "strip" && (
+          <>
+            <ul data-stagger className="-mx-4 mt-14 flex snap-x snap-mandatory gap-5 overflow-x-auto px-4 pb-4 sm:-mx-6 sm:px-6" aria-label="Projektbeispiele, seitlich wischen">
+              <li className="w-[85%] shrink-0 snap-start sm:w-[34rem]">
+                {firstPic ? media(0, first.photoNeeded, "aspect-[4/3] w-full rounded-t") : slider}
+                <p className="mt-3 text-sm text-t-muted">{first.title}: {firstPic ? "Beispielfoto" : "Regler ziehen für Vorher/Nachher"}. Live mit echten Fotos ({first.photoNeeded}).</p>
+              </li>
+              {rest.map((it, i) => (
+                <li key={it.title} className="group relative w-[70%] shrink-0 snap-start overflow-hidden rounded-t sm:w-[22rem]">
+                  {media(i + 1, it.photoNeeded, "aspect-[3/4] w-full transition duration-500 group-hover:scale-105")}
+                  <div className="absolute inset-x-0 bottom-0 bg-gradient-to-t from-black/75 to-transparent p-4 pt-10 text-white">{caption(it, i + 1)}</div>
+                </li>
+              ))}
+            </ul>
+            <p className="mt-2 text-xs text-t-muted" aria-hidden="true">← wischen →</p>
+          </>
+        )}
+        {theme.projects === "masonry" && (
+          <div data-stagger className="mt-14 columns-1 gap-5 sm:columns-2 lg:columns-3 [&>*]:mb-5">
+            <figure className="break-inside-avoid">
+              {firstPic ? media(0, first.photoNeeded, "aspect-[4/3] w-full rounded-t") : slider}
+              <figcaption className="mt-2 text-sm text-t-muted">{first.title}: Vorher/Nachher. Live mit echten Fotos ({first.photoNeeded}).</figcaption>
+            </figure>
+            {rest.map((it, i) => (
+              <figure key={it.title} className="group relative break-inside-avoid overflow-hidden rounded-t">
+                {media(i + 1, it.photoNeeded, `${["aspect-[3/4]", "aspect-square", "aspect-[4/5]", "aspect-[16/11]"][i % 4]} w-full transition duration-500 group-hover:scale-105`)}
+                <figcaption className="absolute inset-x-0 bottom-0 bg-gradient-to-t from-black/75 to-transparent p-3 pt-8 text-white">{caption(it, i + 1)}</figcaption>
               </figure>
-              );
-            })}
+            ))}
+          </div>
+        )}
+        {theme.projects === "feature" && (
+        <div className="mt-14 grid gap-6 lg:grid-cols-12">
+          <figure data-reveal="zoom" className="lg:col-span-7">
+            {firstPic ? media(0, first.photoNeeded, "aspect-[4/3] w-full rounded-t shadow-xl") : slider}
+            <figcaption className="mt-3 text-sm text-t-muted">{firstPic ? `${first.title}: Beispielfoto. In der Live-Version zeigen wir echte Projekte (${first.photoNeeded}).` : `Regler ziehen: Vorher/Nachher. In der Live-Version mit echten Fotos (${first.photoNeeded}).`}</figcaption>
+          </figure>
+          <div data-stagger className="grid grid-cols-2 gap-4 lg:col-span-5">
+            {rest.slice(0, 4).map((it, i) => (
+              <figure key={it.title} className="group relative overflow-hidden rounded-t">
+                {media(i + 1, it.photoNeeded, "aspect-square w-full transition duration-500 group-hover:scale-105")}
+                <figcaption className="absolute inset-x-0 bottom-0 bg-gradient-to-t from-black/75 to-transparent p-3 pt-8 text-white">{caption(it, i + 1)}</figcaption>
+              </figure>
+            ))}
           </div>
         </div>
+        )}
       </div>
     </section>
   );
@@ -766,8 +983,29 @@ function Projects({ lead, theme, upper }: Ctx) {
 
 /* ---------- Bewertungen ---------- */
 
-function Reviews({ lead, upper }: Ctx) {
+function Reviews({ lead, theme, upper }: Ctx) {
   const r = lead.site.reviews;
+  if (theme.reviews === "quote") return (
+    <section id="bewertungen" className="relative isolate overflow-hidden bg-t-dark text-t-dark-ink">
+      <span className="pointer-events-none absolute -left-6 -top-16 -z-10 font-display text-[22rem] font-black leading-none text-t-accent/15" aria-hidden="true">“</span>
+      <div className="mx-auto max-w-4xl px-4 py-24 text-center sm:px-6">
+        <p className="text-xs font-bold uppercase tracking-[0.25em] text-t-accent">Kundenstimmen</p>
+        <h2 className={`mt-3 text-balance font-display text-3xl font-bold sm:text-4xl ${upper}`}>{r.headline}</h2>
+        <blockquote data-reveal className="mt-10 text-balance font-display text-2xl leading-snug sm:text-4xl">{r.summary}</blockquote>
+        {r.rating !== null && (
+          <div className="mt-8 inline-flex flex-wrap items-center justify-center gap-3 rounded-full bg-white/10 px-5 py-2.5">
+            <Stars rating={r.rating} />
+            <span className="font-bold tabular-nums">{fmt(r.rating)} / 5</span>
+            {r.count !== null && <span className="text-sm text-t-dark-ink/80">aus {r.count} Bewertungen auf {r.source}</span>}
+          </div>
+        )}
+        <ul data-stagger className="mt-10 flex flex-wrap justify-center gap-3">
+          {r.highlights.map((h) => <li key={h} className="rounded-full border border-white/20 px-4 py-2 text-sm font-semibold"><span className="mr-1.5 text-t-accent" aria-hidden="true">★</span>{h}</li>)}
+        </ul>
+        <p className="mt-8 text-xs text-t-dark-ink/70">Sinngemäße Zusammenfassung öffentlicher Bewertungen, keine wörtlichen Zitate. Quelle: {r.source}, Stand {new Date(lead.date).toLocaleDateString("de-DE")}. <a href={r.sourceUrl} target="_blank" rel="noopener noreferrer nofollow" className="inline-flex min-h-[44px] items-center font-bold text-t-accent underline-offset-4 hover:underline">Alle Bewertungen ansehen</a></p>
+      </div>
+    </section>
+  );
   return (
     <section id="bewertungen" className="mx-auto max-w-site px-4 py-24 sm:px-6">
       <div className="grid gap-12 lg:grid-cols-12">
@@ -806,8 +1044,39 @@ function Reviews({ lead, upper }: Ctx) {
 
 /* ---------- Ablauf / CTA ---------- */
 
-function Process({ lead, upper }: Ctx) {
+function Process({ lead, theme, upper }: Ctx) {
   const p = lead.site.process;
+  if (theme.process === "vertical") return (
+    <section id="ablauf" className="border-y border-t-line bg-t-surface">
+      <div className="mx-auto grid max-w-site gap-12 px-4 py-24 sm:px-6 lg:grid-cols-12">
+        <div className="lg:col-span-5"><div className="lg:sticky lg:top-28"><SectionHead kicker="So läuft es ab" title={p.headline} upper={upper} text="Vier Schritte vom ersten Anruf bis zur fertigen Arbeit." /></div></div>
+        <ol data-stagger className="relative space-y-10 border-l-2 border-t-line pl-10 lg:col-span-7">
+          {p.steps.map((s, i) => (
+            <li key={s.title} className="relative">
+              <span className="absolute -left-[3.85rem] grid h-11 w-11 place-items-center rounded-full bg-t-accent font-display font-black text-t-accent-ink ring-8 ring-t-surface">{i + 1}</span>
+              <h3 className="font-display text-xl font-bold">{s.title}</h3>
+              <p className="mt-2 max-w-xl text-t-muted">{s.text}</p>
+            </li>
+          ))}
+        </ol>
+      </div>
+    </section>
+  );
+  if (theme.process === "cards") return (
+    <section id="ablauf" className="mx-auto max-w-site px-4 py-24 sm:px-6">
+      <SectionHead kicker="So läuft es ab" title={p.headline} upper={upper} />
+      <ol data-stagger className="mt-14 grid gap-5 sm:grid-cols-2 lg:grid-cols-4">
+        {p.steps.map((s, i) => (
+          <li key={s.title} className="card-fx relative overflow-hidden rounded-t border border-t-line bg-t-surface p-6 shadow-sm">
+            <span className="pointer-events-none absolute -right-2 -top-6 font-display text-8xl font-black text-t-accent/10" aria-hidden="true">{i + 1}</span>
+            <span className="text-xs font-bold uppercase tracking-[0.2em] text-t-accent">Schritt {i + 1}</span>
+            <h3 className="mt-3 font-display text-lg font-bold">{s.title}</h3>
+            <p className="mt-2 text-sm text-t-muted">{s.text}</p>
+          </li>
+        ))}
+      </ol>
+    </section>
+  );
   return (
     <section id="ablauf" className="border-y border-t-line bg-t-surface">
       <div className="mx-auto max-w-site px-4 py-24 sm:px-6">
@@ -830,7 +1099,7 @@ function Process({ lead, upper }: Ctx) {
 function CtaBand({ lead, call, upper }: Ctx) {
   return (
     <section className="mx-auto max-w-site px-4 py-20 sm:px-6">
-      <div data-reveal="zoom" className="relative overflow-hidden rounded-t bg-t-dark px-6 py-12 text-t-dark-ink sm:px-12">
+      <div data-reveal="zoom" data-mfx-cta className="relative isolate overflow-hidden rounded-t bg-t-dark px-6 py-12 text-t-dark-ink sm:px-12">
         <div className="fx-float absolute -right-16 -top-16 h-64 w-64 rounded-full bg-t-accent/25" aria-hidden="true" />
         <div className="fx-float absolute -bottom-20 left-1/3 h-40 w-40 rounded-full bg-t-accent/10" style={{ animationDelay: "-3s" }} aria-hidden="true" />
         <div className="relative flex flex-wrap items-center justify-between gap-8">
@@ -872,7 +1141,35 @@ function Region({ lead, theme, upper }: Ctx) {
   );
 }
 
-function Faq({ lead, upper }: Ctx) {
+function Faq({ lead, theme, upper }: Ctx) {
+  const item = (f: { q: string; a: string }, cls: string) => (
+    <details key={f.q} className={`group ${cls}`}>
+      <summary className="flex cursor-pointer list-none items-center justify-between gap-4 font-display text-lg font-semibold [&::-webkit-details-marker]:hidden">
+        {f.q}
+        <span className="grid h-8 w-8 shrink-0 place-items-center rounded-full bg-t-accent/10 text-xl text-t-accent transition group-open:rotate-45" aria-hidden="true">+</span>
+      </summary>
+      <p className="faq-body mt-3 leading-relaxed text-t-muted">{f.a}</p>
+    </details>
+  );
+  const note = "Ihre Frage ist nicht dabei? Rufen Sie einfach an oder schreiben Sie uns.";
+  if (theme.faq === "columns") return (
+    <section id="faq" className="mx-auto max-w-site px-4 py-24 sm:px-6">
+      <SectionHead kicker="FAQ" title="Häufige Fragen" upper={upper} text={note} />
+      <div data-stagger className="mt-12 grid items-start gap-4 md:grid-cols-2">
+        {lead.site.faq.map((f) => item(f, "rounded-t border border-t-line bg-t-surface p-6 shadow-sm"))}
+      </div>
+    </section>
+  );
+  if (theme.faq === "center") return (
+    <section id="faq" className="bg-t-surface">
+      <div className="mx-auto max-w-3xl px-4 py-24 sm:px-6">
+        <SectionHead kicker="FAQ" title="Häufige Fragen" upper={upper} text={note} center />
+        <div data-reveal className="mt-12 divide-y divide-t-line border-y border-t-line">
+          {lead.site.faq.map((f) => item(f, "py-6"))}
+        </div>
+      </div>
+    </section>
+  );
   return (
     <section id="faq" className="mx-auto max-w-site px-4 py-24 sm:px-6">
       <div className="grid gap-10 lg:grid-cols-12">
