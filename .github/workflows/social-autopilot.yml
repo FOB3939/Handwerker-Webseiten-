@@ -1,0 +1,95 @@
+name: Social Autopilot
+
+on:
+  schedule:
+    - cron: "17 16 * * *" # täglich 16:17 UTC (18:17 Sommerzeit / 17:17 Winterzeit)
+  workflow_dispatch:
+    inputs:
+      dry_run:
+        description: "Nur Video erzeugen, nicht posten"
+        type: boolean
+        default: true
+
+permissions:
+  contents: write
+
+concurrency:
+  group: social-autopilot
+  cancel-in-progress: false
+
+jobs:
+  post:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    defaults:
+      run:
+        working-directory: social-autopilot
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: ffmpeg installieren
+        run: sudo apt-get update -qq && sudo apt-get install -y -qq ffmpeg fonts-dejavu-core
+
+      - run: pip install -r requirements.txt
+
+      - name: Video erzeugen und posten
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          PEXELS_API_KEY: ${{ secrets.PEXELS_API_KEY }}
+          ELEVENLABS_API_KEY: ${{ secrets.ELEVENLABS_API_KEY }}
+          ELEVENLABS_VOICE_ID: ${{ vars.ELEVENLABS_VOICE_ID }}
+          IG_USER_ID: ${{ secrets.IG_USER_ID }}
+          IG_ACCESS_TOKEN: ${{ secrets.IG_ACCESS_TOKEN }}
+          TIKTOK_CLIENT_KEY: ${{ secrets.TIKTOK_CLIENT_KEY }}
+          TIKTOK_CLIENT_SECRET: ${{ secrets.TIKTOK_CLIENT_SECRET }}
+          TIKTOK_REFRESH_TOKEN: ${{ secrets.TIKTOK_REFRESH_TOKEN }}
+          TIKTOK_PRIVACY: ${{ vars.TIKTOK_PRIVACY || 'SELF_ONLY' }}
+          AUTOPILOT_EDGE_VOICE: ${{ vars.AUTOPILOT_EDGE_VOICE }}
+          AUTOPILOT_CHANNEL_NAME: ${{ vars.AUTOPILOT_CHANNEL_NAME || 'Täglich klüger' }}
+        run: |
+          if [ "${{ github.event_name }}" = "workflow_dispatch" ] && [ "${{ inputs.dry_run }}" = "true" ]; then
+            python -m autopilot.main --dry-run
+          else
+            python -m autopilot.main
+          fi
+
+      - name: Erneuerte Tokens in Secrets speichern
+        if: always()
+        env:
+          GH_TOKEN: ${{ secrets.GH_PAT }}
+        run: |
+          [ -s out/tokens.env ] || exit 0
+          if [ -z "$GH_TOKEN" ]; then
+            echo "::warning::Tokens wurden erneuert, aber GH_PAT fehlt – Secrets bitte manuell aktualisieren."
+            exit 0
+          fi
+          while IFS='=' read -r name value; do
+            echo "::add-mask::$value"
+            gh secret set "$name" --body "$value" --repo "$GITHUB_REPOSITORY"
+          done < out/tokens.env
+          rm out/tokens.env
+
+      - name: Video als Artefakt speichern
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: video-${{ github.run_id }}
+          path: |
+            social-autopilot/out/video.mp4
+            social-autopilot/out/script.json
+          retention-days: 14
+          if-no-files-found: ignore
+
+      - name: Themen-Historie committen
+        if: always()
+        run: |
+          git diff --quiet history.json && exit 0
+          git config user.name "social-autopilot"
+          git config user.email "social-autopilot@users.noreply.github.com"
+          git add history.json
+          git commit -m "Social Autopilot: Post vom $(date +%F)"
+          git push
