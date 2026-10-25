@@ -1,0 +1,390 @@
+{
+  "id": "2026-10-25-135",
+  "slug": "hausmeisterservice-martinhilfteuch-geretsried",
+  "date": "2026-10-25",
+  "company": {
+    "name": "Hausmeisterservice Martinhilfteuch",
+    "owner": null,
+    "trade": "Hausmeisterservice",
+    "city": "Geretsried",
+    "address": "Königsberger Weg 9, 82538 Geretsried",
+    "phone": "0176 48671215",
+    "email": null,
+    "serviceArea": [
+      "Geretsried",
+      "Gelting",
+      "Wolfratshausen",
+      "Königsdorf",
+      "Egling",
+      "Eurasburg"
+    ]
+  },
+  "listings": {
+    "google": {
+      "url": "https://www.google.com/maps/search/?api=1&query=Hausmeisterservice%20Martinhilfteuch%20K%C3%B6nigsberger%20Weg%209%20Geretsried",
+      "rating": null,
+      "reviews": null,
+      "evidence": "NICHT BELEGT – kein Google-Spiegel (rgv-bayern, firmania, trustlocal, finde-offen, oeffnungszeitenbuch, goyellow) mit diesem Betrieb gefunden. Keine Freemail-Adresse gefunden. In Google Maps prüfen."
+    },
+    "myhammer": {
+      "url": "https://11880.com/branchenbuch/geretsried/060692243B54291934/hausmeisterservice-martinhilfteuch.html",
+      "rating": null,
+      "reviews": null,
+      "evidence": "Kein MyHammer gefunden – 11880-Eintrag „Hausmeisterservice Martinhilfteuch“ (Geretsried) sowie ein Geretsrieder Branchenverzeichnis-Eintrag (laut Snippet ca. 876 Tage alt) mit Königsberger Weg 9, 82538 Geretsried, (0176) 48671215."
+    }
+  },
+  "websiteStatus": "keine eigene Website gefunden",
+  "websiteChecks": [
+    "(1) „Hausmeisterservice Martinhilfteuch Geretsried“ mit blocked_domains (11880, Gelbe Seiten, Das Örtliche, Telefonbuch, Cylex, meinestadt, Creditreform, Facebook, Instagram, golocal, MyHammer, Northdata, Firmenwissen, WKDB, Yelp, trustlocal, wlw) – nur ein Verzeichnis-Eintrag mit Adresse/Telefon, sonst ausschließlich andere Geretsrieder Hausmeisterdienste (IRO, BCM, CeKa, MP, Heerlein, Axer) mit eigenen Websites",
+    "(2) Exakte Namenssuche „Martinhilfteuch“ ohne Filter – keine Treffer zum Betrieb (kein Impressum, keine Domain)",
+    "(3) Telefonsuche „0176 48671215“/„017648671215“ – keine Treffer",
+    "(4) Domain-Check allowed_domains martinhilfteuch.de, hausmeisterservice-martinhilfteuch.de, hausmeister-martinhilfteuch.de, martinhilfteuch-hausmeisterservice.de, martinhilfteuch.com, hms-martinhilfteuch.de, martinhilfteuch-service.de, hausmeisterdienst-martinhilfteuch.de – keine Treffer",
+    "(5) Verzeichnis-/Google-Spiegel-Suche (11880, Das Örtliche, Gelbe Seiten, rgv-bayern, firmania, trustlocal, finde-offen, oeffnungszeitenbuch, goyellow) – nur 11880-Eintrag, kein Website-Feld, keine E-Mail, keine Bewertungen",
+    "Website-Risiko: niedrig (Website), aber Existenz/Aktivität unsicher – weder Google-Eintrag noch Freemail belegt, Verzeichniseintrag evtl. veraltet"
+  ],
+  "facts": {
+    "services": [
+      "Hausmeisterservice"
+    ],
+    "experience": null,
+    "praisedFor": []
+  },
+  "strategy": {
+    "audience": "Hausverwaltungen, Eigentümergemeinschaften, Vermieter und Hausbesitzer in Geretsried, Gelting und Wolfratshausen, die einen Hausmeister vor Ort suchen",
+    "mainService": "Hausmeisterservice für Wohnanlagen und Privathäuser",
+    "trustSignal": "Hausmeister mit Sitz in Geretsried, direkt per Handy erreichbar",
+    "conversionGoal": "Unverbindliches Angebot für die Objektbetreuung anfragen (Anruf oder WhatsApp)",
+    "visualConcept": "Gepflegte Wohnanlagen in Geretsried: saubere Eingänge, gekehrte Wege, ordentliche Außenanlagen – bodenständig und verlässlich"
+  },
+  "sales": {
+    "score": 3,
+    "whyGoodLead": [
+      "Keine eigene Website gefunden – nur ein 11880-Eintrag",
+      "Mobilnummer öffentlich gelistet – Erstkontakt per WhatsApp möglich",
+      "In Geretsried haben fast alle Wettbewerber (IRO, CeKa, BCM, Heerlein) eigene Websites – ohne Seite fällt der Betrieb bei Online-Suchen heraus",
+      "Hausverwaltungen vergleichen Hausmeisterdienste online"
+    ],
+    "pitch": "Hallo, hier ist … – ich baue Websites für Handwerks- und Servicebetriebe im Landkreis Bad Tölz-Wolfratshausen. Ich habe Ihren Eintrag „Hausmeisterservice Martinhilfteuch“ in Geretsried gefunden, aber keine eigene Website. Ich habe unverbindlich einen Entwurf vorbereitet, auf dem Hausverwaltungen und Eigentümer Ihre Leistungen sehen und direkt anfragen können – darf ich Ihnen den Link schicken?"
+  },
+  "manualChecks": [
+    "RESERVE – weder Google-Eintrag noch Freemail-Adresse belegt: NUR versenden, wenn Google Maps einen Eintrag OHNE Website zeigt.",
+    "Betrieb evtl. nicht mehr aktiv (Verzeichniseintrag laut Snippet ca. 876 Tage alt, Name nirgends sonst im Netz) – vorab in Maps/telefonisch klären",
+    "Schreibweise des Namens prüfen („Martinhilfteuch“ – evtl. Vor- und Nachname zusammengeschrieben); Inhaber unbekannt, Anrede neutral halten",
+    "Leistungen nicht belegt außer „Hausmeisterservice“ – Gartenpflege, Winterdienst, Reinigung, Kleinreparaturen erfragen, bevor die Seite live geht",
+    "Logo und Fotos: nicht gefunden – beim Betrieb anfragen"
+  ],
+  "sources": [
+    {
+      "label": "11880 – Hausmeisterservice Martinhilfteuch, Geretsried",
+      "url": "https://11880.com/branchenbuch/geretsried/060692243B54291934/hausmeisterservice-martinhilfteuch.html"
+    },
+    {
+      "label": "Das Örtliche – Hausmeisterservices Geretsried (Ortsliste)",
+      "url": "https://www.dasoertliche.de/Themen/Hausmeisterservices/Geretsried.html"
+    }
+  ],
+  "site": {
+    "theme": "objekt",
+    "category": "handwerk",
+    "heroOffer": [
+      "Objektbetreuung",
+      "Kontrollgänge",
+      "Außenanlagen",
+      "Winterdienst",
+      "Kleinreparaturen"
+    ],
+    "scene": "garden",
+    "logoIcon": "broom",
+    "logoMark": "HM",
+    "brandName": "Hausmeisterservice Martinhilfteuch",
+    "seoTitle": "Hausmeisterservice in Geretsried – Martinhilfteuch",
+    "seoDescription": "Hausmeisterservice für Wohnanlagen und Privathäuser in Geretsried, Gelting und Wolfratshausen. Jetzt unverbindlich anfragen – auch per WhatsApp.",
+    "nav": [
+      {
+        "label": "Leistungen",
+        "href": "#leistungen"
+      },
+      {
+        "label": "Projekte",
+        "href": "#projekte"
+      },
+      {
+        "label": "Bewertungen",
+        "href": "#bewertungen"
+      },
+      {
+        "label": "Ablauf",
+        "href": "#ablauf"
+      },
+      {
+        "label": "FAQ",
+        "href": "#faq"
+      },
+      {
+        "label": "Kontakt",
+        "href": "#kontakt"
+      }
+    ],
+    "hero": {
+      "eyebrow": "Hausmeisterservice · Geretsried",
+      "headline": "Ihr Hausmeister in Geretsried",
+      "sub": "Objektbetreuung für Wohnanlagen und Häuser – vom Königsberger Weg aus.",
+      "ctaPrimary": "Angebot anfragen",
+      "ctaSecondary": "Anrufen",
+      "bullets": [
+        "Hausmeister aus Geretsried",
+        "Für Verwaltungen und Eigentümer",
+        "Direkt per Handy erreichbar"
+      ],
+      "imageLabel": "gepflegter Eingangsbereich einer Wohnanlage"
+    },
+    "badges": [
+      {
+        "title": "Objektbetreuung",
+        "sub": "Wohnanlagen & Häuser"
+      },
+      {
+        "title": "Außenanlagen",
+        "sub": "gepflegt das ganze Jahr"
+      },
+      {
+        "title": "Direkt",
+        "sub": "ein Ansprechpartner"
+      },
+      {
+        "title": "Geretsried",
+        "sub": "Königsberger Weg"
+      }
+    ],
+    "trust": [
+      {
+        "value": "Vor Ort",
+        "label": "Sitz in Geretsried"
+      },
+      {
+        "value": "1",
+        "label": "fester Ansprechpartner"
+      },
+      {
+        "value": "Ganzjährig",
+        "label": "Betreuung Ihres Objekts"
+      },
+      {
+        "value": "Mobil",
+        "label": "schnell erreichbar"
+      }
+    ],
+    "servicesIntro": {
+      "headline": "Hausmeisterdienste für Ihr Objekt",
+      "text": "Ob Mehrfamilienhaus, Wohnanlage oder Einfamilienhaus: Der Hausmeister hält Haus, Technik und Außenflächen im Blick, damit Eigentümer und Verwaltung entlastet sind."
+    },
+    "services": [
+      {
+        "title": "Objektbetreuung",
+        "text": "Regelmäßige Kontrollgänge durch Haus, Keller und Außenbereich – Mängel werden früh erkannt und gemeldet.",
+        "items": [
+          "Kontrollgänge",
+          "Mängelmeldung",
+          "Ansprechpartner vor Ort"
+        ]
+      },
+      {
+        "title": "Kleinreparaturen",
+        "text": "Lockere Türklinke, defekte Leuchtmittel, quietschende Tür – kleine Dinge werden direkt erledigt.",
+        "items": [
+          "Leuchtmittel",
+          "Türen & Schlösser",
+          "Kleinmontagen"
+        ]
+      },
+      {
+        "title": "Außenanlagen",
+        "text": "Wege, Rasen und Hecken rund ums Haus bleiben ordentlich und einladend.",
+        "items": [
+          "Rasen mähen",
+          "Hecken schneiden",
+          "Laub entfernen"
+        ]
+      },
+      {
+        "title": "Winterdienst",
+        "text": "Geräumte und gestreute Wege in den Wintermonaten – für sichere Zugänge.",
+        "items": [
+          "Schnee räumen",
+          "Streuen",
+          "Zugänge sichern"
+        ]
+      },
+      {
+        "title": "Mülltonnenservice",
+        "text": "Tonnen werden zur Abholung bereitgestellt und wieder zurückgebracht.",
+        "items": [
+          "Bereitstellung",
+          "Rückstellung",
+          "Ordnung am Platz"
+        ]
+      },
+      {
+        "title": "Treppenhaus & Keller",
+        "text": "Saubere Gemeinschaftsflächen, auf die sich Mieter und Eigentümer verlassen können.",
+        "items": [
+          "Treppenhaus",
+          "Kellergänge",
+          "Gemeinschaftsräume"
+        ]
+      }
+    ],
+    "why": {
+      "headline": "Ein Hausmeister aus Geretsried – nah und erreichbar.",
+      "points": [
+        {
+          "title": "Kurze Wege",
+          "text": "Vom Königsberger Weg schnell in Gelting, Wolfratshausen und Königsdorf."
+        },
+        {
+          "title": "Direkter Draht",
+          "text": "Anruf oder WhatsApp genügt – ohne Hotline und Warteschleife."
+        },
+        {
+          "title": "Feste Betreuung",
+          "text": "Ein Ansprechpartner, der Ihr Objekt kennt."
+        },
+        {
+          "title": "Alles rund ums Haus",
+          "text": "Kontrollgänge, Außenflächen und kleine Reparaturen in einem Auftrag."
+        }
+      ]
+    },
+    "reviews": {
+      "headline": "Was Kunden sagen",
+      "summary": "Kundenstimmen werden hier eingebunden, sobald sie aus dem Google-Profil übernommen sind.",
+      "highlights": [
+        "Hausmeister in Geretsried",
+        "Betreuung von Wohnanlagen",
+        "Direkter Kontakt"
+      ],
+      "source": "Google",
+      "sourceUrl": "https://www.google.com/maps/search/?api=1&query=Hausmeisterservice%20Martinhilfteuch%20K%C3%B6nigsberger%20Weg%209%20Geretsried",
+      "rating": null,
+      "count": null
+    },
+    "process": {
+      "headline": "In vier Schritten zur Betreuung",
+      "steps": [
+        {
+          "title": "Anfrage",
+          "text": "Objekt, Größe und gewünschte Leistungen kurz per Anruf oder WhatsApp schildern."
+        },
+        {
+          "title": "Besichtigung",
+          "text": "Haus und Außenanlagen werden gemeinsam angeschaut."
+        },
+        {
+          "title": "Angebot",
+          "text": "Sie erhalten ein klares Angebot für die vereinbarten Leistungen."
+        },
+        {
+          "title": "Betreuung",
+          "text": "Die Arbeiten laufen zu festen Terminen – Sie werden über Auffälligkeiten informiert."
+        }
+      ]
+    },
+    "gallery": {
+      "headline": "Gepflegte Objekte in Geretsried",
+      "text": "Für die Live-Version zeigen wir hier echte Objekte und Arbeiten des Betriebs.",
+      "items": [
+        {
+          "title": "Eingangsbereich",
+          "photoNeeded": "sauberer Hauseingang einer Wohnanlage"
+        },
+        {
+          "title": "Grünflächen",
+          "photoNeeded": "frisch gemähter Rasen vor einem Mehrfamilienhaus"
+        },
+        {
+          "title": "Winterdienst",
+          "photoNeeded": "geräumter und gestreuter Gehweg"
+        },
+        {
+          "title": "Treppenhaus",
+          "photoNeeded": "gereinigtes, helles Treppenhaus"
+        },
+        {
+          "title": "Kleinreparatur",
+          "photoNeeded": "Hausmeister beim Tausch einer Leuchte"
+        }
+      ]
+    },
+    "region": {
+      "headline": "Hausmeisterservice für Geretsried und Umgebung",
+      "text": "Von Geretsried aus schnell in Gelting, Wolfratshausen, Königsdorf, Egling und Eurasburg.",
+      "places": [
+        "Geretsried",
+        "Gelting",
+        "Wolfratshausen",
+        "Königsdorf",
+        "Egling",
+        "Eurasburg"
+      ]
+    },
+    "faq": [
+      {
+        "q": "Betreuen Sie auch einzelne Häuser?",
+        "a": "Ja, neben Wohnanlagen auch Einfamilien- und Mehrfamilienhäuser – fragen Sie einfach an."
+      },
+      {
+        "q": "Kann ich nur einzelne Leistungen buchen?",
+        "a": "Ja, der Umfang wird nach Ihrem Bedarf abgestimmt."
+      },
+      {
+        "q": "Wie läuft die Abrechnung?",
+        "a": "Das wird im Angebot festgelegt – je nach Objekt und Leistungsumfang."
+      },
+      {
+        "q": "Arbeiten Sie auch außerhalb von Geretsried?",
+        "a": "Ja, im Umkreis von Geretsried – etwa Wolfratshausen, Königsdorf und Egling."
+      },
+      {
+        "q": "Wie erreiche ich Sie am schnellsten?",
+        "a": "Am einfachsten per Anruf oder WhatsApp unter der angegebenen Handynummer."
+      }
+    ],
+    "contact": {
+      "headline": "Ihr Angebot – unverbindlich",
+      "text": "Beschreiben Sie kurz Ihr Objekt: Art, Größe, Lage und welche Leistungen Sie brauchen.",
+      "topics": [
+        "Objektbetreuung",
+        "Außenanlagen",
+        "Winterdienst",
+        "Kleinreparaturen",
+        "Sonstiges"
+      ],
+      "responseNote": "Besichtigung nach Absprache."
+    },
+    "quote": {
+      "sizeLabel": "Um welches Objekt geht es?",
+      "sizes": [
+        "Einfamilienhaus",
+        "Mehrfamilienhaus",
+        "Wohnanlage",
+        "Gewerbeobjekt"
+      ],
+      "timings": [
+        "So bald wie möglich",
+        "Ab nächstem Monat",
+        "Zur nächsten Saison",
+        "Ich plane erst noch"
+      ]
+    },
+    "stickyCta": "Angebot anfragen",
+    "look": {
+      "palette": 2,
+      "font": 6,
+      "hero": 0,
+      "services": 1,
+      "radius": 1,
+      "logo": 0,
+      "intro": 5
+    }
+  }
+}
