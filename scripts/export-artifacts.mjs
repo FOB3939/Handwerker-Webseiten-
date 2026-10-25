@@ -18,7 +18,7 @@ const extraCss = `body{overflow-x:clip}header.sticky{top:env(safe-area-inset-top
 function toArtifact(html, companyName) {
   const fontLinks = (html.match(/<link[^>]+href="https:\/\/fonts\.googleapis\.com[^"]*"[^>]*>/g) || []).join("\n");
   const title = `Website-Entwurf ${companyName}`.replace(/&/g, "&amp;");
-  const body = (html.match(/<body[^>]*>([\s\S]*)<\/body>/) || [, ""])[1].replace(/<script\b(?![^>]*id="demo-(?:enhance|motion|game|ldjson|intro|mfx)")[^>]*>[\s\S]*?<\/script>/g, "");
+  const body = (html.match(/<body[^>]*>([\s\S]*)<\/body>/) || [, ""])[1].replace(/<script\b(?![^>]*id="demo-(?:enhance|motion|game|ldjson|intro|mfx|gsap|3d)")[^>]*>[\s\S]*?<\/script>/g, "");
   return `<title>${title}</title>\n<meta name="robots" content="noindex, nofollow">\n${fontLinks}\n<style>${css}\n${extraCss}</style>\n<div lang="de">${body}</div>\n`;
 }
 

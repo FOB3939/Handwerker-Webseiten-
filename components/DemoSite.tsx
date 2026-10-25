@@ -11,6 +11,10 @@ import { join } from "node:path";
 const intro = readFileSync(join(process.cwd(), "assets/trade-intro.js"), "utf8");
 // Gewerk-Effekte (Magic-UI-Stil) und generativer Hintergrund im Aufruf-Banner
 const mfx = readFileSync(join(process.cwd(), "assets/trade-mfx.js"), "utf8");
+// 3D-Effekte beim Scrollen: GSAP + ScrollTrigger inline (Seiten bleiben eigenständig, kein CDN nötig)
+const gsapLib = ["gsap.min.js", "ScrollTrigger.min.js"].map((f) => readFileSync(join(process.cwd(), "node_modules/gsap/dist", f), "utf8")).join("\n");
+const t3d = readFileSync(join(process.cwd(), "assets/trade-3d.js"), "utf8");
+const STYLES_3D = ["kippen", "schwingen", "tiefe"];
 // Je Spielart 2–3 passende Effekte; welcher es wird, hängt an der Abschnittsfolge (von assign-looks verteilt)
 const MFX: Record<GameKind, string[]> = {
   circuit: ["beam", "flicker"], drywall: ["beam", "grid"], water: ["ripple", "meteors"], tiles: ["grid", "dots"], paint: ["highlight", "particles"],
@@ -76,7 +80,7 @@ export default function DemoSite({ lead }: { lead: Lead }) {
   };
 
   return (
-    <div data-identity={theme.name} data-mfx={game ? MFX[game][theme.order % MFX[game].length] : undefined} data-seed={theme.seed} data-pal={theme.palette.join(",")} style={themeStyle(theme)} className="min-h-screen bg-t-bg font-body text-t-ink antialiased">
+    <div data-identity={theme.name} data-mfx={game ? MFX[game][theme.order % MFX[game].length] : undefined} data-seed={theme.seed} data-pal={theme.palette.join(",")} data-3d={ctx.hof ? undefined : style3d(theme.services)} style={themeStyle(theme)} className="min-h-screen bg-t-bg font-body text-t-ink antialiased">
       <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="" />
       <link rel="stylesheet" href={theme.fontsHref} precedence="default" />
       <div className="scroll-progress fixed inset-x-0 top-0 z-[55] h-1 bg-t-accent" aria-hidden="true" />
@@ -100,6 +104,8 @@ export default function DemoSite({ lead }: { lead: Lead }) {
       <script id="demo-ldjson" type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(localBusiness(lead)).replace(/</g, "\\u003c") }} />
       <Enhance />
       {game && <script id="demo-mfx" dangerouslySetInnerHTML={{ __html: mfx }} />}
+      {!ctx.hof && <script id="demo-gsap" dangerouslySetInnerHTML={{ __html: gsapLib }} />}
+      {!ctx.hof && <script id="demo-3d" dangerouslySetInnerHTML={{ __html: t3d }} />}
     </div>
   );
 }
@@ -114,6 +120,9 @@ const ORDERS: SectionKey[][] = [
   ["badges", "services", "process", "projects", "div", "quote", "reviews", "about", "stats", "marquee", "region", "faq", "cta"],
 ];
 function sectionOrder(n: number) { return ORDERS[n % ORDERS.length]; }
+// 3D-Stil folgt dem Leistungs-Layout, das assign-looks innerhalb einer Runde verteilt
+const SERVICES_LIST = ["cards", "numbered", "tiles", "feature", "split", "rows"];
+function style3d(v: string) { return STYLES_3D[Math.max(0, SERVICES_LIST.indexOf(v)) % STYLES_3D.length]; }
 
 /* ---------- Kopfbereich ---------- */
 
