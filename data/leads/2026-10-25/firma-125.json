@@ -1,0 +1,269 @@
+{
+  "id": "2026-10-25-125",
+  "slug": "michael-leech-gebaeudereinigung-emmering",
+  "date": "2026-10-25",
+  "company": {
+    "name": "Michael Leech Gebäudereinigung",
+    "owner": "Michael Leech",
+    "trade": "Gebäudereinigung",
+    "city": "Emmering",
+    "address": "Amperstraße 6B, 82275 Emmering",
+    "phone": "0175 7351054",
+    "email": "cleanmick@googlemail.com",
+    "serviceArea": [
+      "Emmering",
+      "Fürstenfeldbruck",
+      "Olching",
+      "Eichenau",
+      "Puchheim",
+      "Maisach"
+    ]
+  },
+  "listings": {
+    "google": {
+      "url": "https://www.google.com/maps/search/?api=1&query=Michael%20Leech%20Geb%C3%A4udereinigung%20Amperstra%C3%9Fe%206B%20Emmering",
+      "rating": null,
+      "reviews": null,
+      "evidence": "NICHT BELEGT – kein Google-Spiegel (rgv-bayern, firmania, trustlocal) gefunden. Annahme über öffentlich belegte Freemail-Adresse cleanmick@googlemail.com (suchehandwerker.de / Verzeichnis-Snippets). In Google Maps prüfen, ob ein Eintrag existiert und ob dort eine Website hinterlegt ist."
+    },
+    "myhammer": {
+      "url": "https://www.11880.com/branchenbuch/emmering-kreis-fuerstenfeldbruck/061331911B107190184/michael-leech-gebaeudereinigung.html",
+      "rating": null,
+      "reviews": null,
+      "evidence": "Kein MyHammer gefunden – 11880-Eintrag „Michael Leech Gebäudereinigung“, Amperstr. 6 B, 82275 Emmering, Tel. (08141) 5339799, weitere Nummer (0175) 7351054, noch keine Bewertungen, aktualisiert 03.10.2026."
+    }
+  },
+  "websiteStatus": "keine eigene Website gefunden",
+  "websiteChecks": [
+    "(1) „Michael Leech Gebäudereinigung Emmering“ mit blocked_domains (11880, Gelbe Seiten, Das Örtliche, Telefonbuch, Cylex, meinestadt, Creditreform, Facebook, Instagram, golocal, MyHammer, Northdata, Firmenwissen, WKDB, Yelp, trustlocal, wlw) – nur Verzeichnisse (suchehandwerker.de, goyellow, tellows, ratgeber-bodenverlegung, ratgeber-fenster, freieauskunft); keine eigene Domain",
+    "(2) Domain-Check allowed_domains leech-gebaeudereinigung.de, gebaeudereinigung-leech.de, cleanmick.de, clean-mick.de, cleanmick.com, leech-reinigung.de, michael-leech.de, leech-emmering.de – keine Treffer",
+    "(3) Telefon-/E-Mail-Suche „08141 5339799“ / „081415339799“ / „cleanmick“ – nur Verzeichnisse und tellows (gewerbliche Nummer, keine Bewertungen), keine Website",
+    "(4) Google-Spiegel-Suche (rgv-bayern, firmania, trustlocal, 11880) – nur 11880-Eintrag ohne Website-Feld im Snippet",
+    "E-Mail ist Freemail (googlemail.com), keine Firmendomain",
+    "Website-Risiko: mittel – alle Prüfungen negativ, aber Google-Eintrag nicht belegt"
+  ],
+  "facts": {
+    "services": [
+      "Gebäudereinigung",
+      "Treppenhausreinigung",
+      "Büro- und Praxisreinigung",
+      "Teppichreinigung",
+      "Fensterreinigung",
+      "Graffitientfernung",
+      "Bauendreinigung",
+      "Grund- und Sonderreinigung",
+      "Hausmeisterservice"
+    ],
+    "experience": "seit 2008 (laut Verzeichnistext des Betriebs auf 11880/goyellow)",
+    "praisedFor": []
+  },
+  "strategy": {
+    "audience": "Hausverwaltungen, Eigentümergemeinschaften, Büros und Praxen in Emmering, Fürstenfeldbruck und Olching, die eine verlässliche regelmäßige Reinigung oder eine Bauendreinigung brauchen",
+    "mainService": "Unterhaltsreinigung für Wohnanlagen und Büros",
+    "trustSignal": "Inhabergeführter Betrieb aus Emmering, laut eigener Angabe seit 2008 im Einsatz",
+    "conversionGoal": "Angebot für regelmäßige Reinigung anfragen (Objektart, Fläche, Turnus)",
+    "visualConcept": "Klare, frische Objektästhetik: helle Treppenhäuser, streifenfreie Glasflächen, aufgeräumte Büros – sachlich und ordentlich"
+  },
+  "sales": {
+    "score": 4,
+    "whyGoodLead": [
+      "Keine eigene Website gefunden – nur Verzeichniseinträge",
+      "Mobilnummer und Freemail öffentlich gelistet – direkter Erstkontakt möglich",
+      "Breites, belegtes Leistungsspektrum von Treppenhaus bis Graffitientfernung",
+      "Gewerbliche Kunden (Hausverwaltungen, Büros) suchen Reinigungsfirmen gezielt online"
+    ],
+    "pitch": "Hallo Herr Leech, hier ist … – ich baue Websites für Betriebe im Landkreis Fürstenfeldbruck. Ich habe Ihre Gebäudereinigung in Emmering in Verzeichnissen gefunden, aber keine eigene Website. Ich habe unverbindlich einen Entwurf vorbereitet, auf dem Hausverwaltungen und Büros Ihre Leistungen sehen und direkt ein Angebot anfragen können – darf ich Ihnen den Link schicken?"
+  },
+  "manualChecks": [
+    "Website-Risiko: mittel – vor Versand in Google Maps prüfen, dass keine Website hinterlegt ist (Grund: Google-Eintrag nicht belegt, Annahme nur über Freemail cleanmick@googlemail.com)",
+    "Mobilnummer 0175 7351054 stammt aus 11880 („Weitere Kontaktdaten“) – vor WhatsApp-Kontakt bestätigen; Festnetz 08141 5339799",
+    "Ein Verzeichnis-Snippet enthielt „zur Homepage“ neben dem Eintrag – vermutlich Verzeichnis-Navigation, trotzdem kurz prüfen",
+    "„Seit 2008“ nur aus Verzeichnistext – beim Betrieb bestätigen, bevor es prominent genutzt wird",
+    "Einsatzgebiet nicht belegt – Umkreis beim Erstkontakt klären",
+    "Logo und Fotos: nicht gefunden – beim Betrieb anfragen"
+  ],
+  "sources": [
+    {
+      "label": "11880 – Michael Leech Gebäudereinigung Emmering",
+      "url": "https://www.11880.com/branchenbuch/emmering-kreis-fuerstenfeldbruck/061331911B107190184/michael-leech-gebaeudereinigung.html"
+    },
+    {
+      "label": "suchehandwerker.de – Michael Leech Gebäudereinigung (mit E-Mail)",
+      "url": "https://suchehandwerker.de/betrieb/michael-leech-gebaeudereinigung-173360/"
+    },
+    {
+      "label": "goyellow – Michael Leech Gebäudereinigung",
+      "url": "https://www.goyellow.de/home/reinigungsunternehmen-michael-leech-gebaeudereinigung-emmering-kreis-fuerstenfeldbruck--44l07y.html"
+    },
+    {
+      "label": "tellows – 081415339799",
+      "url": "https://www.tellows.de/num/081415339799"
+    },
+    {
+      "label": "ratgeber-fenster.com – Michael Leech Gebäudereinigung",
+      "url": "https://www.ratgeber-fenster.com/stadt/emmering-fuerstenfeldbruck/profil/michael-leech-gebaeudereinigung/"
+    }
+  ],
+  "site": {
+    "theme": "objekt",
+    "category": "handwerk",
+    "heroOffer": [
+      "Treppenhaus",
+      "Büroreinigung",
+      "Fenster",
+      "Bauendreinigung",
+      "Graffiti",
+      "Hausmeister"
+    ],
+    "scene": "facade",
+    "logoIcon": "broom",
+    "logoMark": "ML",
+    "brandName": "Leech Gebäudereinigung",
+    "seoTitle": "Gebäudereinigung in Emmering – Michael Leech",
+    "seoDescription": "Treppenhaus-, Büro- und Fensterreinigung, Bauendreinigung und Graffitientfernung in Emmering und Fürstenfeldbruck. Jetzt Angebot anfragen.",
+    "nav": [
+      { "label": "Leistungen", "href": "#leistungen" },
+      { "label": "Projekte", "href": "#projekte" },
+      { "label": "Bewertungen", "href": "#bewertungen" },
+      { "label": "Ablauf", "href": "#ablauf" },
+      { "label": "FAQ", "href": "#faq" },
+      { "label": "Kontakt", "href": "#kontakt" }
+    ],
+    "hero": {
+      "eyebrow": "Gebäudereinigung · Emmering",
+      "headline": "Gebäudereinigung in Emmering",
+      "sub": "Treppenhaus, Büro und Fenster – regelmäßig sauber im Landkreis Fürstenfeldbruck.",
+      "ctaPrimary": "Angebot anfragen",
+      "ctaSecondary": "Anrufen",
+      "bullets": [
+        "Inhaber Michael Leech direkt erreichbar",
+        "Wohnanlagen, Büros und Schulen",
+        "Auch Bauend- und Sonderreinigung"
+      ],
+      "imageLabel": "helles, frisch gereinigtes Treppenhaus einer Wohnanlage"
+    },
+    "badges": [
+      { "title": "Treppenhaus", "sub": "regelmäßig gepflegt" },
+      { "title": "Glas", "sub": "Fenster streifenfrei" },
+      { "title": "Bau", "sub": "Endreinigung" },
+      { "title": "Emmering", "sub": "Amperstraße" }
+    ],
+    "trust": [
+      { "value": "2008", "label": "laut Betrieb im Einsatz seit" },
+      { "value": "Vor Ort", "label": "Betrieb in Emmering" },
+      { "value": "Objekte", "label": "Wohnanlagen, Büros, Schulen" },
+      { "value": "Direkt", "label": "Inhaber als Ansprechpartner" }
+    ],
+    "servicesIntro": {
+      "headline": "Reinigung für Wohnanlagen, Büros und Baustellen",
+      "text": "Michael Leech reinigt Treppenhäuser, Büros und Glasflächen im festen Turnus und übernimmt Bauend- und Sonderreinigungen nach Bedarf."
+    },
+    "services": [
+      {
+        "title": "Treppenhausreinigung",
+        "text": "Regelmäßige Pflege von Treppenhäusern und Gemeinschaftsflächen in Wohnanlagen – im vereinbarten Turnus.",
+        "items": ["Treppen & Podeste", "Eingangsbereiche", "Fester Turnus"]
+      },
+      {
+        "title": "Büro- und Praxisreinigung",
+        "text": "Saubere Arbeitsplätze, Sanitärräume und Böden – inklusive Teppichsäuberung.",
+        "items": ["Büros", "Praxen", "Teppichsäuberung"]
+      },
+      {
+        "title": "Fensterreinigung",
+        "text": "Fenster und Glasflächen streifenfrei gereinigt – für Wohnungen, Büros und Gewerbeobjekte.",
+        "items": ["Fenster", "Glasflächen", "Rahmen"]
+      },
+      {
+        "title": "Bauendreinigung",
+        "text": "Nach Neubau oder Renovierung: Staub, Rückstände und Schmutz entfernen, damit Räume bezugsfertig sind.",
+        "items": ["Neubau", "Nach Renovierung", "Bezugsfertig"]
+      },
+      {
+        "title": "Grund- und Sonderreinigung",
+        "text": "Gründliche Reinigung, wenn die Unterhaltsreinigung nicht reicht – etwa bei Mieterwechsel oder starker Verschmutzung.",
+        "items": ["Grundreinigung", "Sonderreinigung", "Mieterwechsel"]
+      },
+      {
+        "title": "Graffiti & Hausmeister",
+        "text": "Graffitientfernung an Fassaden und Flächen sowie ein Hausmeisterservice, der sich um Ihre Immobilie kümmert.",
+        "items": ["Graffitientfernung", "Objektbetreuung", "Kleine Wartungen"]
+      }
+    ],
+    "why": {
+      "headline": "Saubere Objekte aus Emmering – direkt beim Inhaber beauftragt.",
+      "points": [
+        { "title": "Ein Ansprechpartner", "text": "Sie sprechen direkt mit Michael Leech – ohne Zentrale und Warteschleife." },
+        { "title": "Kurze Wege", "text": "Von Emmering aus schnell in Fürstenfeldbruck, Olching, Eichenau und Puchheim." },
+        { "title": "Alles aus einer Hand", "text": "Unterhaltsreinigung, Glas, Bauendreinigung und Hausmeisterservice in einem Auftrag." },
+        { "title": "Für viele Objekte", "text": "Wohnanlagen, Büros, Schulen und Spielplätze gehören zum Einsatzbereich." }
+      ]
+    },
+    "reviews": {
+      "headline": "Was Kunden sagen",
+      "summary": "Kundenstimmen werden hier eingebunden, sobald sie aus dem Google-Profil übernommen sind.",
+      "highlights": [
+        "Gebäudereinigung in Emmering",
+        "Treppenhaus, Büro und Fenster",
+        "Direkter Kontakt zum Inhaber"
+      ],
+      "source": "Google",
+      "sourceUrl": "https://www.google.com/maps/search/?api=1&query=Michael%20Leech%20Geb%C3%A4udereinigung%20Amperstra%C3%9Fe%206B%20Emmering",
+      "rating": null,
+      "count": null
+    },
+    "process": {
+      "headline": "In vier Schritten zum sauberen Objekt",
+      "steps": [
+        { "title": "Anfrage", "text": "Objektart, ungefähre Fläche und gewünschten Turnus kurz schildern." },
+        { "title": "Besichtigung", "text": "Termin vor Ort nach Vereinbarung, um Umfang und Details zu klären." },
+        { "title": "Angebot", "text": "Sie erhalten ein klares Angebot für Ihren Reinigungsplan." },
+        { "title": "Start", "text": "Die Reinigung beginnt im vereinbarten Rhythmus – oder einmalig zum Termin." }
+      ]
+    },
+    "gallery": {
+      "headline": "Sauberkeit, die man sieht",
+      "text": "Für die Live-Version zeigen wir hier echte Objekte des Betriebs.",
+      "items": [
+        { "title": "Treppenhaus", "photoNeeded": "gereinigtes Treppenhaus einer Wohnanlage" },
+        { "title": "Büro", "photoNeeded": "aufgeräumtes, gereinigtes Büro mit Teppichboden" },
+        { "title": "Glasfront", "photoNeeded": "streifenfrei geputzte Fenster oder Glastür" },
+        { "title": "Nach dem Bau", "photoNeeded": "bezugsfertiger Raum nach Bauendreinigung" },
+        { "title": "Graffiti entfernt", "photoNeeded": "Wand vorher/nachher bei Graffitientfernung" }
+      ]
+    },
+    "region": {
+      "headline": "Gebäudereinigung für Emmering und den Landkreis Fürstenfeldbruck",
+      "text": "Von Emmering aus schnell in Fürstenfeldbruck, Olching, Eichenau, Puchheim und Maisach.",
+      "places": ["Emmering", "Fürstenfeldbruck", "Olching", "Eichenau", "Puchheim", "Maisach"]
+    },
+    "faq": [
+      { "q": "Reinigen Sie auch regelmäßig?", "a": "Ja, Treppenhaus- und Büroreinigung laufen im vereinbarten Turnus, etwa wöchentlich oder vierzehntägig." },
+      { "q": "Übernehmen Sie einmalige Einsätze?", "a": "Ja, zum Beispiel Bauendreinigung, Grundreinigung oder Fensterreinigung." },
+      { "q": "Entfernen Sie Graffiti?", "a": "Ja, Graffitientfernung gehört zum Angebot. Den Aufwand klären wir nach Fotos oder vor Ort." },
+      { "q": "Gibt es feste Öffnungszeiten?", "a": "Termine erfolgen nach Vereinbarung – rufen Sie an oder schreiben Sie eine Nachricht." },
+      { "q": "Kümmern Sie sich auch um das Objekt selbst?", "a": "Auf Wunsch übernimmt der Hausmeisterservice die Betreuung Ihrer Immobilie." }
+    ],
+    "contact": {
+      "headline": "Ihr Reinigungsangebot – unverbindlich",
+      "text": "Schreiben Sie kurz, um welches Objekt es geht, wie groß es ungefähr ist und wie oft gereinigt werden soll.",
+      "topics": ["Treppenhausreinigung", "Büroreinigung", "Fensterreinigung", "Bauendreinigung", "Graffitientfernung", "Sonstiges"],
+      "responseNote": "Termine nach Vereinbarung."
+    },
+    "quote": {
+      "sizeLabel": "Welches Objekt soll gereinigt werden?",
+      "sizes": ["Treppenhaus", "Büro / Praxis", "Wohnung", "Wohnanlage", "Baustelle"],
+      "timings": ["Regelmäßig", "Einmalig, so bald wie möglich", "In den nächsten Wochen", "Ich plane erst noch"]
+    },
+    "stickyCta": "Angebot anfragen",
+    "look": {
+      "palette": 2,
+      "font": 6,
+      "hero": 0,
+      "services": 1,
+      "radius": 1,
+      "logo": 0,
+      "intro": 5
+    }
+  }
+}

@@ -1,0 +1,395 @@
+{
+  "id": "2026-10-25-129",
+  "slug": "mac-gebaeudereinigung-kirchseeon",
+  "date": "2026-10-25",
+  "company": {
+    "name": "MAC Gebäudereinigung",
+    "owner": null,
+    "trade": "Gebäudereinigung",
+    "city": "Kirchseeon",
+    "address": "Karwendelstr. 1, 85614 Kirchseeon",
+    "phone": "0177 6048663",
+    "email": null,
+    "serviceArea": [
+      "Kirchseeon",
+      "Eglharting",
+      "Zorneding",
+      "Grafing",
+      "Ebersberg",
+      "Vaterstetten"
+    ]
+  },
+  "listings": {
+    "google": {
+      "url": "https://www.google.com/maps/search/?api=1&query=MAC%20Geb%C3%A4udereinigung%20Karwendelstr.%201%20Kirchseeon",
+      "rating": null,
+      "reviews": null,
+      "evidence": "NICHT BELEGT – kein Google-Spiegel (rgv-bayern, firmania, trustlocal) zu „MAC Gebäudereinigung“ gefunden; Google-Eintrag in Maps prüfen."
+    },
+    "myhammer": {
+      "url": "https://www.11880.com/suche/gebaeudereinigung/kirchseeon",
+      "rating": null,
+      "reviews": null,
+      "evidence": "Kein MyHammer gefunden – Eintrag „MAC Gebäudereinigung“, Karwendelstr. 1, 85614 Kirchseeon, (0177) 6048663, in der 11880-Liste Gebäudereinigungen Kirchseeon; auf der 11880-Seite von RSJ Gebäudereinigung als Betrieb in der Nähe genannt. Keine Öffnungszeiten, kein Website-Feld im Snippet."
+    }
+  },
+  "websiteStatus": "keine eigene Website gefunden",
+  "websiteChecks": [
+    "(1) „MAC Gebäudereinigung Kirchseeon Karwendelstr“ mit blocked_domains (11880, Gelbe Seiten, Das Örtliche, Telefonbuch, Cylex, meinestadt, Creditreform, Facebook, Instagram, golocal, MyHammer, Northdata, Firmenwissen, WKDB, Yelp, trustlocal, wlw) – nur fremde Reinigungsfirmen (RSJ Gebäudereinigung GmbH, Remand Clean, Team Fresh, Mr. Cleaner) und Portale; keine eigene Domain von MAC",
+    "(2) Telefonsuche „0177 6048663“/„01776048663“/„0177-6048663“ – keine Treffer, keine Website",
+    "(3) Domain-Check allowed_domains mac-gebaeudereinigung.de, macgebaeudereinigung.de, mac-reinigung.de, mac-gebaudereinigung.de, mac-gebaeudereinigung-kirchseeon.de, mac-clean.de, mac-gebaeudeservice.de – keine Treffer",
+    "(4) Spiegel-Check „MAC Gebäudereinigung Kirchseeon“ (allowed 11880, rgv-bayern, firmania, trustlocal) – nur 11880-Listen, kein Google-Spiegel, kein Website-Feld",
+    "Impressum-Suche nicht durchgeführt (Suchbudget erschöpft); Inhaber unbekannt",
+    "Website-Risiko: mittel – Prüfungen negativ, aber weder Google-Eintrag noch Freemail belegt (RESERVE)"
+  ],
+  "facts": {
+    "services": [
+      "Gebäudereinigung"
+    ],
+    "experience": null,
+    "praisedFor": []
+  },
+  "strategy": {
+    "audience": "Hausverwaltungen, Vermieter, Eigentümergemeinschaften, Praxen und kleine Büros in Kirchseeon, Zorneding, Grafing und Ebersberg, die eine verlässliche Reinigung suchen",
+    "mainService": "Gebäudereinigung – Treppenhaus, Büro und Unterhaltsreinigung",
+    "trustSignal": "Kleiner Reinigungsbetrieb direkt in Kirchseeon, per Handy erreichbar",
+    "conversionGoal": "Kostenloses Reinigungsangebot anfragen (per WhatsApp/Anruf)",
+    "visualConcept": "Helle, aufgeräumte Flächen: glänzende Treppenhäuser, streifenfreie Fenster, frisch gewischte Böden – klar und frisch"
+  },
+  "sales": {
+    "score": 3,
+    "whyGoodLead": [
+      "Keine eigene Website gefunden – nur ein 11880-Eintrag",
+      "Mobilnummer öffentlich gelistet – direkter WhatsApp-Erstkontakt möglich",
+      "Gebäudereinigung wird stark über Google gesucht – ohne Website fehlen Anfragen von Hausverwaltungen",
+      "Kaum Online-Sichtbarkeit – eine Website mit Angebotsformular hebt den Betrieb von großen Ketten ab"
+    ],
+    "pitch": "Hallo, hier ist … – ich baue Websites für kleine Betriebe im Landkreis Ebersberg. Ich habe Ihren Eintrag „MAC Gebäudereinigung“ in Kirchseeon gefunden, aber keine eigene Website. Ich habe unverbindlich einen Entwurf vorbereitet, über den Hausverwaltungen und Büros direkt ein Reinigungsangebot anfragen können – darf ich Ihnen den Link schicken?"
+  },
+  "manualChecks": [
+    "RESERVE – weder Google-Eintrag noch Freemail-Adresse belegt: NUR versenden, wenn Google Maps einen Eintrag OHNE Website zeigt.",
+    "Google-Eintrag in Maps suchen (MAC Gebäudereinigung, Karwendelstr. 1, Kirchseeon) – Existenz, Bewertungen und Website-Feld prüfen",
+    "Inhabername unbekannt – beim Erstkontakt erfragen; Anrede neutral halten",
+    "Leistungen nur als Kategorie „Gebäudereinigung“ belegt – Treppenhaus-, Büro-, Fenster- und Grundreinigung beim Betrieb bestätigen",
+    "Betrieb aktiv? Eintrag ohne Öffnungszeiten – Status telefonisch klären",
+    "Logo und Fotos: nicht gefunden – beim Betrieb anfragen"
+  ],
+  "sources": [
+    {
+      "label": "11880 – Gebäudereinigungen Kirchseeon (Liste mit MAC Gebäudereinigung)",
+      "url": "https://www.11880.com/branchenbuch/kirchseeon/gebaeudereinigung"
+    },
+    {
+      "label": "11880 – Gebäudereinigung Kirchseeon (Suche)",
+      "url": "https://www.11880.com/suche/gebaeudereinigung/kirchseeon"
+    },
+    {
+      "label": "11880 – RSJ Gebäudereinigung Kirchseeon (nennt MAC als Betrieb in der Nähe)",
+      "url": "https://www.11880.com/branchenbuch/kirchseeon/061331911B112632094/rsj-gebaeudereinigung-gmbh.html"
+    }
+  ],
+  "site": {
+    "theme": "objekt",
+    "category": "handwerk",
+    "heroOffer": [
+      "Treppenhaus",
+      "Büroreinigung",
+      "Unterhaltsreinigung",
+      "Fenster",
+      "Grundreinigung"
+    ],
+    "scene": "facade",
+    "logoIcon": "broom",
+    "logoMark": "MAC",
+    "brandName": "MAC Gebäudereinigung",
+    "seoTitle": "Gebäudereinigung in Kirchseeon – MAC Gebäudereinigung",
+    "seoDescription": "Treppenhaus-, Büro- und Unterhaltsreinigung in Kirchseeon und Umgebung. Jetzt kostenloses Angebot anfragen – auch per WhatsApp.",
+    "nav": [
+      {
+        "label": "Leistungen",
+        "href": "#leistungen"
+      },
+      {
+        "label": "Projekte",
+        "href": "#projekte"
+      },
+      {
+        "label": "Bewertungen",
+        "href": "#bewertungen"
+      },
+      {
+        "label": "Ablauf",
+        "href": "#ablauf"
+      },
+      {
+        "label": "FAQ",
+        "href": "#faq"
+      },
+      {
+        "label": "Kontakt",
+        "href": "#kontakt"
+      }
+    ],
+    "hero": {
+      "eyebrow": "Gebäudereinigung · Kirchseeon",
+      "headline": "Gebäudereinigung in Kirchseeon",
+      "sub": "Treppenhäuser, Büros und Praxen – regelmäßig sauber im Landkreis Ebersberg.",
+      "ctaPrimary": "Kostenloses Angebot anfragen",
+      "ctaSecondary": "Anrufen",
+      "bullets": [
+        "Reinigungsbetrieb aus Kirchseeon",
+        "Feste Intervalle nach Absprache",
+        "Direkt per Handy erreichbar"
+      ],
+      "imageLabel": "frisch gereinigtes, helles Treppenhaus"
+    },
+    "badges": [
+      {
+        "title": "Treppenhaus",
+        "sub": "für Hausverwaltungen"
+      },
+      {
+        "title": "Büro",
+        "sub": "und Praxisräume"
+      },
+      {
+        "title": "Intervalle",
+        "sub": "wöchentlich oder nach Bedarf"
+      },
+      {
+        "title": "Kirchseeon",
+        "sub": "Karwendelstraße"
+      }
+    ],
+    "trust": [
+      {
+        "value": "Vor Ort",
+        "label": "Betrieb in Kirchseeon"
+      },
+      {
+        "value": "Mobil",
+        "label": "schnell erreichbar"
+      },
+      {
+        "value": "Fest",
+        "label": "vereinbarte Reinigungstage"
+      },
+      {
+        "value": "Lkr. EBE",
+        "label": "kurze Anfahrt"
+      }
+    ],
+    "servicesIntro": {
+      "headline": "Reinigung, auf die Sie sich verlassen",
+      "text": "Ob Treppenhaus im Mehrfamilienhaus oder kleines Büro: Wir reinigen in festen Intervallen und halten Absprachen ein."
+    },
+    "services": [
+      {
+        "title": "Treppenhausreinigung",
+        "text": "Treppen, Geländer, Eingangsbereich und Briefkastenanlage – regelmäßig gereinigt für Mieter und Eigentümer.",
+        "items": [
+          "Treppen & Podeste",
+          "Handläufe",
+          "Eingangsbereich"
+        ]
+      },
+      {
+        "title": "Büroreinigung",
+        "text": "Arbeitsplätze, Küchenzeile und Sanitärräume – gereinigt außerhalb Ihrer Arbeitszeiten.",
+        "items": [
+          "Arbeitsplätze",
+          "Teeküche",
+          "Sanitärräume"
+        ]
+      },
+      {
+        "title": "Unterhaltsreinigung",
+        "text": "Wiederkehrende Reinigung nach festem Plan – wöchentlich, 14-tägig oder nach Bedarf.",
+        "items": [
+          "Fester Reinigungsplan",
+          "Böden",
+          "Oberflächen"
+        ]
+      },
+      {
+        "title": "Fensterreinigung",
+        "text": "Glasflächen und Rahmen streifenfrei sauber – für mehr Licht in Büro und Treppenhaus.",
+        "items": [
+          "Fenster & Rahmen",
+          "Glastüren",
+          "Fensterbänke"
+        ]
+      },
+      {
+        "title": "Grundreinigung",
+        "text": "Gründliche Reinigung nach Auszug, Renovierung oder vor einer Neuvermietung.",
+        "items": [
+          "Nach Auszug",
+          "Nach Renovierung",
+          "Vor Übergabe"
+        ]
+      },
+      {
+        "title": "Praxisreinigung",
+        "text": "Wartebereich, Behandlungsräume und Empfang – gepflegt für Ihre Patienten und Kunden.",
+        "items": [
+          "Wartebereich",
+          "Empfang",
+          "Sanitärräume"
+        ]
+      }
+    ],
+    "why": {
+      "headline": "Reinigung aus Kirchseeon – zuverlässig und erreichbar.",
+      "points": [
+        {
+          "title": "Kurze Wege",
+          "text": "Der Betrieb sitzt in Kirchseeon und ist schnell in Zorneding, Grafing und Ebersberg."
+        },
+        {
+          "title": "Feste Ansprechpartner",
+          "text": "Sie erreichen den Betrieb direkt per Handy – ohne Callcenter."
+        },
+        {
+          "title": "Klare Absprachen",
+          "text": "Reinigungsumfang und Turnus werden schriftlich festgehalten."
+        },
+        {
+          "title": "Flexibel",
+          "text": "Regelmäßige Reinigung oder einmalige Grundreinigung – je nach Bedarf."
+        }
+      ]
+    },
+    "reviews": {
+      "headline": "Was Kunden sagen",
+      "summary": "Kundenstimmen werden hier eingebunden, sobald sie aus dem Google-Profil übernommen sind.",
+      "highlights": [
+        "Gebäudereinigung in Kirchseeon",
+        "Treppenhaus und Büro",
+        "Direkter Kontakt"
+      ],
+      "source": "Google",
+      "sourceUrl": "https://www.google.com/maps/search/?api=1&query=MAC%20Geb%C3%A4udereinigung%20Karwendelstr.%201%20Kirchseeon",
+      "rating": null,
+      "count": null
+    },
+    "process": {
+      "headline": "In vier Schritten zur sauberen Immobilie",
+      "steps": [
+        {
+          "title": "Anfrage",
+          "text": "Objekt, Fläche und gewünschten Turnus per WhatsApp oder Anruf mitteilen."
+        },
+        {
+          "title": "Besichtigung",
+          "text": "Räume und Umfang werden vor Ort angesehen."
+        },
+        {
+          "title": "Angebot",
+          "text": "Sie erhalten ein klares Angebot mit Leistungsplan."
+        },
+        {
+          "title": "Reinigung",
+          "text": "Die Reinigung startet zum vereinbarten Termin – im festen Rhythmus."
+        }
+      ]
+    },
+    "gallery": {
+      "headline": "Sauber bis ins Detail",
+      "text": "Für die Live-Version zeigen wir hier echte Einsätze des Betriebs.",
+      "items": [
+        {
+          "title": "Treppenhaus",
+          "photoNeeded": "frisch gewischtes Treppenhaus im Mehrfamilienhaus"
+        },
+        {
+          "title": "Büro",
+          "photoNeeded": "aufgeräumter, gereinigter Büroarbeitsplatz"
+        },
+        {
+          "title": "Fensterflächen",
+          "photoNeeded": "streifenfrei geputzte Fensterfront"
+        },
+        {
+          "title": "Sanitärraum",
+          "photoNeeded": "glänzend gereinigtes Waschbecken und Fliesen"
+        },
+        {
+          "title": "Grundreinigung",
+          "photoNeeded": "leere, frisch gereinigte Wohnung vor Übergabe"
+        }
+      ]
+    },
+    "region": {
+      "headline": "Gebäudereinigung für Kirchseeon und den Landkreis Ebersberg",
+      "text": "Von Kirchseeon aus schnell in Eglharting, Zorneding, Grafing, Ebersberg und Vaterstetten.",
+      "places": [
+        "Kirchseeon",
+        "Eglharting",
+        "Zorneding",
+        "Grafing",
+        "Ebersberg",
+        "Vaterstetten"
+      ]
+    },
+    "faq": [
+      {
+        "q": "Wie oft wird gereinigt?",
+        "a": "So oft Sie möchten – wöchentlich, 14-tägig oder nach individuellem Plan."
+      },
+      {
+        "q": "Reinigen Sie auch außerhalb der Bürozeiten?",
+        "a": "Termine werden nach Absprache gelegt, damit der Betrieb nicht gestört wird."
+      },
+      {
+        "q": "Gibt es auch einmalige Reinigungen?",
+        "a": "Ja, zum Beispiel eine Grundreinigung nach Auszug oder Renovierung."
+      },
+      {
+        "q": "Wie kommt das Angebot zustande?",
+        "a": "Nach einer kurzen Besichtigung erhalten Sie ein Angebot für Fläche und Turnus."
+      },
+      {
+        "q": "Arbeiten Sie auch außerhalb von Kirchseeon?",
+        "a": "Ja, im Umkreis von Kirchseeon – fragen Sie einfach an."
+      }
+    ],
+    "contact": {
+      "headline": "Ihr Reinigungsangebot – kostenlos und unverbindlich",
+      "text": "Nennen Sie kurz Objektart, ungefähre Fläche und gewünschten Turnus. Fotos helfen bei der Einschätzung.",
+      "topics": [
+        "Treppenhausreinigung",
+        "Büroreinigung",
+        "Fensterreinigung",
+        "Grundreinigung",
+        "Sonstiges"
+      ],
+      "responseNote": "Besichtigung nach Absprache."
+    },
+    "quote": {
+      "sizeLabel": "Was soll gereinigt werden?",
+      "sizes": [
+        "Treppenhaus",
+        "Büro / Praxis",
+        "Wohnung",
+        "Ganzes Gebäude"
+      ],
+      "timings": [
+        "Einmalig",
+        "Wöchentlich",
+        "Alle zwei Wochen",
+        "Nach Absprache"
+      ]
+    },
+    "stickyCta": "Angebot anfragen",
+    "look": {
+      "palette": 2,
+      "font": 6,
+      "hero": 0,
+      "services": 1,
+      "radius": 1,
+      "logo": 0,
+      "intro": 5
+    }
+  }
+}
