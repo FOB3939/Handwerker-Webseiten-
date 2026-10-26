@@ -11,6 +11,34 @@ import { ROOMS, CONTACT, PRICES, SITE, roomByKey, priceShown, euro } from "../co
 import { u } from "../lib/url";
 const studio = roomByKey("tonstudio");
 // Wechselnde Titelbilder: je Bild ein Raum, Bildunterschrift verlinkt die Raumseite
+// Schwebende Zeichen im Startbereich (Linien-Icons, keine Emojis – sehen auf allen Geräten gleich aus)
+const ICONS = {
+  note: '<path d="M9 18V5l10-2v13"/><circle cx="6" cy="18" r="3"/><circle cx="16" cy="16" r="3"/>',
+  note2: '<circle cx="8" cy="18" r="4"/><path d="M12 18V2l7 4"/>',
+  mic: '<rect x="9" y="2" width="6" height="12" rx="3"/><path d="M19 10v1a7 7 0 0 1-14 0v-1M12 18v4M8 22h8"/>',
+  phones: '<path d="M3 14h3a2 2 0 0 1 2 2v3a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-7a9 9 0 0 1 18 0v7a2 2 0 0 1-2 2h-1a2 2 0 0 1-2-2v-3a2 2 0 0 1 2-2h3"/>',
+  camera: '<path d="M14.5 4h-5L7 7H4a2 2 0 0 0-2 2v9a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2V9a2 2 0 0 0-2-2h-3l-2.5-3z"/><circle cx="12" cy="13" r="3"/>',
+  fader: '<path d="M4 21v-7M4 10V3M12 21v-9M12 8V3M20 21v-5M20 12V3M1 14h6M9 8h6M17 16h6"/>',
+  wave: '<path d="M2 10v3M6 6v11M10 3v18M14 8v7M18 5v13M22 10v3"/>',
+  drum: '<path d="m2 2 8 8M22 2l-8 8"/><ellipse cx="12" cy="9" rx="10" ry="5"/><path d="M7 13.4v7.9M12 14v8M17 13.4v7.9M2 9v8a10 5 0 0 0 20 0V9"/>',
+  vinyl: '<circle cx="12" cy="12" r="10"/><circle cx="12" cy="12" r="2"/><path d="M6 12c0-1.7.7-3.2 1.8-4.2M18 12c0 1.7-.7 3.2-1.8 4.2"/>',
+  spark: '<path d="M12 3l1.9 5.8L20 10l-6.1 1.9L12 18l-1.9-6.1L4 10l6.1-1.2z"/>',
+} as const;
+// x/y = Startposition (%), s = Größe (px), d = Dauer (s), l = Verzögerung (s), c = Lichtfarbe, m = auch am Handy
+const SYMBOLS: { i: keyof typeof ICONS; x: number; y: number; s: number; d: number; l: number; c: string; m?: boolean }[] = [
+  { i: "note", x: 62, y: 18, s: 46, d: 16, l: 0, c: "var(--silver)", m: true },
+  { i: "mic", x: 80, y: 40, s: 54, d: 19, l: -6, c: "var(--amber)", m: true },
+  { i: "phones", x: 90, y: 14, s: 44, d: 21, l: -11, c: "var(--spot)", m: true },
+  { i: "note2", x: 72, y: 66, s: 38, d: 15, l: -3, c: "var(--magenta)", m: true },
+  { i: "fader", x: 54, y: 52, s: 40, d: 23, l: -14, c: "var(--silver)", m: true },
+  { i: "camera", x: 86, y: 72, s: 46, d: 18, l: -9, c: "var(--spot)", m: true },
+  { i: "wave", x: 44, y: 24, s: 36, d: 17, l: -12, c: "var(--amber)" },
+  { i: "drum", x: 66, y: 86, s: 50, d: 22, l: -17, c: "var(--silver)" },
+  { i: "vinyl", x: 94, y: 50, s: 42, d: 20, l: -4, c: "var(--magenta)" },
+  { i: "spark", x: 76, y: 8, s: 22, d: 9, l: -2, c: "var(--spot)", m: true },
+  { i: "spark", x: 58, y: 78, s: 16, d: 11, l: -7, c: "var(--amber)" },
+  { i: "note", x: 38, y: 70, s: 28, d: 14, l: -10, c: "var(--spot)" },
+];
 const slides: { photo: PhotoKey; room: "tonstudio" | "stageroom" | "lightroom"; caption: string }[] = [
   { photo: "stagePultBlick", room: "stageroom", caption: "Stageroom – Blick vom Mischpult auf die Bühne" },
 ];
@@ -80,10 +108,18 @@ const faq = [
       <span class="shade" aria-hidden="true"></span>
       <span class="beams" aria-hidden="true"><i></i><i></i><i></i></span>
       <span class="grain" aria-hidden="true"></span>
+      <div class="symbols" aria-hidden="true" data-symbols>
+        {SYMBOLS.map((y) => (
+          <span class:list={["sym", { "sym--m": y.m }]} style={`--x:${y.x}%;--y:${y.y}%;--s:${y.s}px;--d:${y.d}s;--l:${y.l}s;--c:${y.c}`}>
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" set:html={ICONS[y.i]} />
+          </span>
+        ))}
+      </div>
       <canvas class="hero-canvas" aria-hidden="true" data-hero-canvas></canvas>
     </div>
     <div class="wrap hero-inner">
       <p class="eyebrow ld" style="--d:0s">Tonstudio &amp; Proberäume in München-Sendling</p>
+      <span class="rec ld" style="--d:.25s" aria-hidden="true"><i></i>REC</span>
       <h1 id="hero-title" class="rise hero-title"><span><span class="shine">Dein Sound.</span></span><span><span class="shine shine--2">Dein Raum.</span></span></h1>
       <div class="btn-row hero-cta ld" style="--d:.45s">
         <a class="btn btn--primary" href={u("/kontakt/")}>Session anfragen</a>
@@ -286,6 +322,8 @@ const faq = [
     </div>
   </section>
 
+  <a class="to-top" href="#inhalt" data-to-top aria-label="Nach oben"><span aria-hidden="true"></span></a>
+
   <!-- Schnellleiste am Handy, sobald der Startbereich verlassen ist -->
   <nav class="mbar" data-mbar aria-label="Schnellkontakt">
     <a href={CONTACT.phoneHref}><Icon name="phone" />Anrufen</a>
@@ -322,6 +360,33 @@ const faq = [
   .hero.paused .beams i { animation-play-state: paused; }
   .grain { position: absolute; inset: 0; pointer-events: none; opacity: 0.09; mix-blend-mode: overlay;
     background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='160' height='160'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='.9' numOctaves='2' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E"); }
+  /* Schwebende Zeichen: steigen wie Töne langsam auf, glühen in den Raumfarben und weichen dem Zeiger leicht aus */
+  .symbols { position: absolute; inset: 0; pointer-events: none; overflow: hidden;
+    transform: translate3d(calc(var(--mx, 0) * -18px), calc(var(--my, 0) * -14px), 0); transition: transform 0.6s var(--ease); }
+  .sym { position: absolute; left: var(--x); top: var(--y); width: calc(var(--s) * 1.45); height: calc(var(--s) * 1.45); color: var(--c); opacity: 0;
+    filter: drop-shadow(0 0 6px color-mix(in srgb, var(--c) 90%, transparent)) drop-shadow(0 0 22px color-mix(in srgb, var(--c) 55%, transparent)); animation: float-up var(--d) linear var(--l) infinite; will-change: transform, opacity; }
+  .sym svg { width: 100%; height: 100%; display: block; animation: wobble calc(var(--d) / 3) ease-in-out var(--l) infinite alternate; }
+  @keyframes float-up {
+    0% { transform: translate3d(0, 34vh, 0) scale(0.6); opacity: 0; }
+    12% { opacity: 1; }
+    70% { opacity: 0.8; }
+    100% { transform: translate3d(-6vw, -46vh, 0) scale(1.08); opacity: 0; }
+  }
+  @keyframes wobble { from { transform: rotate(-12deg) translateX(-6px); } to { transform: rotate(12deg) translateX(6px); } }
+  .hero.paused .sym, .hero.paused .sym svg { animation-play-state: paused; }
+  @media (max-width: 760px) { .sym:not(.sym--m) { display: none; } .sym { width: calc(var(--s) * 1.05); height: calc(var(--s) * 1.05); } }
+  /* Ruhige Variante: Zeichen stehen still an ihrem Platz */
+  @media (prefers-reduced-motion: reduce) {
+    :global(html:not(.fx-force)) .sym, :global(html:not(.fx-force)) .sym svg { animation: none; }
+    :global(html:not(.fx-force)) .sym { opacity: 0.45; }
+  }
+  /* Aufnahme-Anzeige über der Überschrift */
+  .rec { display: inline-flex; align-items: center; gap: 8px; padding: 6px 12px 6px 10px; border-radius: 999px; border: 1px solid rgb(242 166 90 / 0.45);
+    background: rgb(13 15 20 / 0.55); backdrop-filter: blur(8px); -webkit-backdrop-filter: blur(8px); color: #ffd2a6; font: 500 0.72rem / 1 var(--font-display); letter-spacing: 0.22em; margin-bottom: -10px; }
+  .rec i { width: 8px; height: 8px; border-radius: 50%; background: #ff5a4e; box-shadow: 0 0 10px #ff5a4e; animation: rec-blink 1.6s ease-in-out infinite; }
+  @keyframes rec-blink { 50% { opacity: 0.25; } }
+  .hero.paused .rec i { animation-play-state: paused; }
+  @media (forced-colors: active) { .symbols { display: none; } }
   .hero-canvas { position: absolute; inset: 0; width: 100%; height: 100%; pointer-events: none; }
   @media (forced-colors: active) { .beams, .grain, .hero-canvas { display: none; } }
 
@@ -562,6 +627,14 @@ const faq = [
   @media (max-width: 480px) { .quick .row { grid-template-columns: 1fr; } }
 
   /* ---------- Schnellleiste am Handy ---------- */
+  /* Nach oben: erscheint nach etwas Scrollen, sitzt am Handy über der Schnellleiste */
+  .to-top { position: fixed; right: 16px; bottom: 20px; z-index: 61; width: 48px; height: 48px; border-radius: 50%; display: grid; place-items: center;
+    background: #0d0f14d9; backdrop-filter: blur(12px); -webkit-backdrop-filter: blur(12px); border: 1px solid var(--line-strong); color: var(--ink);
+    opacity: 0; transform: translateY(12px); pointer-events: none; transition: opacity 0.3s var(--ease), transform 0.3s var(--ease), border-color 0.2s; }
+  .to-top.show { opacity: 1; transform: none; pointer-events: auto; }
+  .to-top:hover { border-color: var(--silver); }
+  .to-top span { width: 12px; height: 12px; border-left: 2px solid currentColor; border-top: 2px solid currentColor; transform: translateY(3px) rotate(45deg); }
+  @media (max-width: 760px) { .to-top { bottom: calc(84px + env(safe-area-inset-bottom, 0px)); right: 12px; } }
   .mbar { display: none; }
   @media (max-width: 760px) {
     .mbar { position: fixed; left: 0; right: 0; bottom: 0; z-index: 60; display: grid; grid-template-columns: 1fr 1fr 1.4fr; gap: 8px; padding: 10px 12px calc(10px + env(safe-area-inset-bottom, 0px)); background: #0d0f14eb; backdrop-filter: blur(14px); -webkit-backdrop-filter: blur(14px); border-top: 1px solid var(--line); transform: translateY(110%); transition: transform 0.35s var(--ease); }
@@ -662,7 +735,10 @@ const faq = [
       new IntersectionObserver(([e]) => { visible = e.isIntersecting; run(); }).observe(hero);
       new MutationObserver(run).observe(hero, { attributes: true, attributeFilter: ["class"] });
       document.addEventListener("visibilitychange", run);
-      hero.addEventListener("pointermove", (e) => { const b = cv.getBoundingClientRect(); mx = e.clientX - b.left; my = e.clientY - b.top; }, { passive: true });
+      hero.addEventListener("pointermove", (e) => {
+        const b = cv.getBoundingClientRect(); mx = e.clientX - b.left; my = e.clientY - b.top;
+        hero.style.setProperty("--mx", ((mx / b.width - 0.5) * 2).toFixed(3)); hero.style.setProperty("--my", ((my / b.height - 0.5) * 2).toFixed(3));
+      }, { passive: true });
       hero.addEventListener("pointerleave", () => { mx = my = -1e4; });
     }
     // Nächstes Foto vorladen, sobald die Seite steht
@@ -709,7 +785,12 @@ const faq = [
     addEventListener("resize", queue);
     if (matchMedia("(pointer: fine)").matches) addEventListener("pointermove", (e) => { tx = (e.clientX / innerWidth - 0.5) * 2; ty = (e.clientY / innerHeight - 0.5) * 2; queue(); }, { passive: true });
     // Tastatur: fokussiertes Foto in Sichtweite scrollen
+    // (nur beim Durchtabben – beim Antippen, Klicken oder Schließen der Großansicht darf die Seite nicht springen)
+    let viaTab = false;
+    addEventListener("keydown", (e) => { viaTab = e.key === "Tab"; }, true);
+    addEventListener("pointerdown", () => { viaTab = false; }, true);
     cards.forEach((c, i) => c.addEventListener("focusin", () => {
+      if (!viaTab) return;
       const r = tunnel.getBoundingClientRect(), top = scrollY + r.top, target = geo[i].start + span * 0.6;
       scrollTo({ top: top + target * (r.height - innerHeight), behavior: "instant" as ScrollBehavior });
     }));
@@ -717,6 +798,18 @@ const faq = [
   }
   // Scroll-Hinweis
   document.querySelector("[data-scroll-cue]")?.addEventListener("click", () => document.querySelector("[data-finder]")?.scrollIntoView({ behavior: "smooth" }));
+  // Nach oben
+  const toTop = document.querySelector<HTMLElement>("[data-to-top]");
+  if (toTop) {
+    const upd = () => toTop.classList.toggle("show", scrollY > innerHeight * 1.5);
+    addEventListener("scroll", upd, { passive: true }); upd();
+    toTop.addEventListener("click", (e) => {
+      e.preventDefault();
+      const calm = matchMedia("(prefers-reduced-motion: reduce)").matches;
+      scrollTo({ top: 0, behavior: calm ? "auto" : "smooth" });
+      document.querySelector<HTMLElement>("#inhalt")?.focus({ preventScroll: true });
+    });
+  }
   // Raumfinder
   const finderBox = document.querySelector<HTMLElement>("[data-finder]");
   if (finderBox) {
@@ -724,6 +817,12 @@ const faq = [
     opts.forEach((b) => b.addEventListener("click", () => {
       opts.forEach((o) => o.setAttribute("aria-pressed", String(o === b)));
       outs.forEach((o) => (o.hidden = o.dataset.finderOut !== b.dataset.pick));
+      // Ergebnis sanft in Sicht holen, falls es unter dem Bildschirmrand liegt
+      const out = outs.find((o) => !o.hidden);
+      if (out) requestAnimationFrame(() => {
+        const r = out.getBoundingClientRect(), bottomGap = matchMedia("(max-width: 760px)").matches ? 90 : 24;
+        if (r.bottom > innerHeight - bottomGap || r.top < 80) out.scrollIntoView({ behavior: "smooth", block: r.height < innerHeight - 170 ? "center" : "start" });
+      });
     }));
   }
   // Schnellanfrage: bereitet eine E-Mail vor (kein Versand ohne Zutun, keine vorgetäuschte Erfolgsmeldung)
@@ -755,7 +854,7 @@ const faq = [
     lb.addEventListener("touchstart", (e) => (x0 = e.touches[0].clientX), { passive: true });
     lb.addEventListener("touchend", (e) => { if (x0 === null) return; const dx = e.changedTouches[0].clientX - x0; if (Math.abs(dx) > 50) show(cur + (dx < 0 ? 1 : -1)); x0 = null; });
     lb.addEventListener("click", (e) => { if (e.target === lb) lb.close(); });
-    lb.addEventListener("close", () => opener?.focus());
+    lb.addEventListener("close", () => opener?.focus({ preventScroll: true }));
   }
   // Raumbahnen: Zeiger oder Fokus öffnet eine Bahn, sie bleibt offen bis zur nächsten
   const lanes = [...document.querySelectorAll<HTMLElement>("[data-lane]")];
