@@ -153,10 +153,44 @@ export const NAV = [
     { label: "Stageroom", href: "/stageroom/", note: "Proberaum mit Bühne · 80 m²" },
     { label: "Lightroom", href: "/lightroom/", note: "Tanz, Gesang & Foto · 55 m²" },
   ] },
+  { label: "Preise", href: "/preise/" },
   { label: "Beat Stage", href: "/beat-stage/" },
   { label: "Über uns", href: "/ueber-uns/" },
   { label: "Kontakt", href: "/kontakt/" },
 ];
+
+// Preisliste. ACHTUNG: Es liegen noch keine bestätigten Preise vor (Stand 26.10.2026).
+// Die Beträge unter `example` sind BEISPIELWERTE für die Vorschau (Marktüblich für München, grob geschätzt) und
+// werden nur in der Vorschau (PUBLIC_PREVIEW) sichtbar gekennzeichnet angezeigt. Im Live-Build steht ohne
+// Bestätigung „auf Anfrage“. Nach Freigabe: Beträge eintragen und `confirmed: true` setzen (docs/OFFENE-PUNKTE.md).
+export interface PriceItem { name: string; detail: string; unit: string; example: number }
+export interface PriceGroup { room: RoomKey; items: PriceItem[] }
+export const PRICES: { confirmed: boolean; note: string; groups: PriceGroup[] } = {
+  confirmed: false,
+  note: "Alle Preise inkl. Raum und vorhandener Technik. Endpreis abhängig von Dauer, Termin und Bedarf.",
+  groups: [
+    { room: "tonstudio", items: [
+      { name: "Aufnahme-Session", detail: "Musik, Band oder einzelne Spuren", unit: "pro Stunde", example: 55 },
+      { name: "Gesangsaufnahme", detail: "Vocals vom ersten Take bis zur fertigen Spur", unit: "pro Stunde", example: 55 },
+      { name: "Sprachaufnahme", detail: "Podcast, Hörspiel, Werbung", unit: "pro Stunde", example: 60 },
+      { name: "Studio-Tag", detail: "8 Stunden Tonstudio", unit: "pro Tag", example: 390 },
+    ] },
+    { room: "stageroom", items: [
+      { name: "Bandprobe", detail: "Bühne, Licht, Konzertanlage, Monitoring", unit: "pro Stunde", example: 30 },
+      { name: "Showprobe", detail: "mit Lichtanlage, Beamer und Leinwand", unit: "pro Stunde", example: 40 },
+      { name: "Live-Session mit Mitschnitt", detail: "Probe oder Auftritt mit Aufnahme", unit: "pro Stunde", example: 75 },
+      { name: "Proben-Tag", detail: "8 Stunden Stageroom", unit: "pro Tag", example: 210 },
+    ] },
+    { room: "lightroom", items: [
+      { name: "Tanztraining", detail: "55 m² mit Spiegelwand", unit: "pro Stunde", example: 25 },
+      { name: "Gesangsunterricht", detail: "mit hängender PA", unit: "pro Stunde", example: 25 },
+      { name: "Fotoshooting", detail: "4 Stunden mit farbigem Licht", unit: "pro Halbtag", example: 120 },
+    ] },
+  ],
+};
+/** Preis für die Anzeige: bestätigt → Betrag, Vorschau → Beispielbetrag, sonst null („auf Anfrage“) */
+export const priceShown = (it: PriceItem): number | null => (PRICES.confirmed || SITE.preview ? it.example : null);
+export const euro = (n: number) => `${n.toLocaleString("de-DE")} €`;
 
 // Intro-Einstellungen (siehe README → Intro)
 export const INTRO = { durationMs: 3000, storageKey: "ss-intro-seen" };

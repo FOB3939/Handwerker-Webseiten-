@@ -1,0 +1,20 @@
+---
+// Foto aus src/assets/photos: responsive AVIF/WebP mit festen Maßen (kein Layoutsprung)
+import { Picture } from "astro:assets";
+import { PHOTOS, type PhotoKey } from "../assets/photos";
+interface Props { name: PhotoKey; class?: string; sizes?: string; eager?: boolean; decorative?: boolean }
+const { name, class: cls, sizes = "(min-width: 1320px) 1320px, 100vw", eager = false, decorative = false } = Astro.props;
+const p = PHOTOS[name];
+---
+<Picture
+  src={p.src}
+  alt={decorative ? "" : p.alt}
+  widths={[480, 800, 1200, 1672]}
+  sizes={sizes}
+  formats={["avif", "webp"]}
+  quality={72}
+  loading={eager ? "eager" : "lazy"}
+  fetchpriority={eager ? "high" : "auto"}
+  decoding="async"
+  class={cls}
+/>

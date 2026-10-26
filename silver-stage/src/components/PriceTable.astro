@@ -1,0 +1,52 @@
+---
+// Leistungen und Preise eines Raums (Daten: PRICES in src/config/site.ts)
+import { PRICES, SITE, priceShown, euro, roomByKey, type RoomKey } from "../config/site";
+import { u } from "../lib/url";
+interface Props { room: RoomKey; heading?: "h2" | "h3"; compact?: boolean }
+const { room, heading = "h3", compact = false } = Astro.props;
+const group = PRICES.groups.find((g) => g.room === room)!;
+const r = roomByKey(room);
+const H = heading;
+const isExample = !PRICES.confirmed && SITE.preview;
+---
+<article class:list={["ptable", { compact }]} data-room={room}>
+  <header class="pt-head">
+    <H class="pt-title">{r.name}</H>
+    <a class="pt-link" href={u(r.path)}>Raum ansehen</a>
+  </header>
+  <ul class="pt-list">
+    {group.items.map((it) => {
+      const p = priceShown(it);
+      return (
+        <li>
+          <span class="pt-name">{it.name}<small>{it.detail}</small></span>
+          <span class="pt-price">
+            {p === null ? <strong>auf Anfrage</strong> : <><span class="from">ab</span> <strong>{euro(p)}</strong><small>{it.unit}</small></>}
+            {isExample && <span class="pt-tag">Beispielpreis</span>}
+          </span>
+        </li>
+      );
+    })}
+  </ul>
+  <a class="btn btn--ghost btn--sm pt-cta" href={u(`/kontakt/?raum=${room}`)}>{r.name} anfragen</a>
+</article>
+
+<style>
+  .ptable { display: grid; gap: 18px; align-content: start; padding: clamp(22px, 3vw, 34px); border-radius: var(--radius); border: 1px solid var(--line); background: linear-gradient(180deg, color-mix(in srgb, var(--room) 7%, var(--bg-2)), var(--bg-2) 40%); position: relative; overflow: hidden; }
+  .ptable::before { content: ""; position: absolute; top: 0; left: 0; right: 0; height: 2px; background: var(--room); box-shadow: 0 0 18px var(--room); }
+  .pt-head { display: flex; align-items: baseline; justify-content: space-between; gap: 16px; }
+  .pt-title { font: 300 var(--step-2) / 1.1 var(--font-display); letter-spacing: -0.02em; }
+  .pt-link { font-size: var(--step--1); color: var(--ink-2); min-height: 44px; display: inline-flex; align-items: center; }
+  .pt-list { list-style: none; margin: 0; padding: 0; }
+  .pt-list li { display: grid; grid-template-columns: 1fr auto; gap: 16px; align-items: center; padding: 16px 0; border-top: 1px solid var(--line); }
+  .pt-name { display: grid; gap: 2px; font: 400 var(--step-1) / 1.25 var(--font-display); }
+  .pt-name small { font: 400 var(--step--1) / 1.4 var(--font-body); color: var(--ink-2); }
+  .pt-price { display: grid; justify-items: end; text-align: right; gap: 2px; }
+  .pt-price strong { font: 400 var(--step-2) / 1 var(--font-display); letter-spacing: -0.02em; color: var(--ink); }
+  .from { font-size: var(--step--1); color: var(--ink-2); }
+  .pt-price small { font-size: var(--step--1); color: var(--ink-2); }
+  .pt-tag { margin-top: 4px; font-size: 11px; color: var(--room); border: 1px dashed currentColor; border-radius: 99px; padding: 2px 8px; }
+  .pt-cta { justify-self: start; margin-top: 4px; }
+  .compact .pt-list li { padding: 12px 0; }
+  @media (max-width: 480px) { .pt-list li { grid-template-columns: 1fr; } .pt-price { justify-items: start; text-align: left; } }
+</style>

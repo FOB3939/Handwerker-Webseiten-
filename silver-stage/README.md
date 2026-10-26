@@ -80,3 +80,25 @@ Echte Vektoren, Wortmarke als Pfade (Jost Medium, OFL). **Entwurf – Freigabe d
 - Semantische Struktur, eine H1 je Seite, Skip-Link, sichtbare Fokuszustände, Tastaturbedienung für Menü, Untermenü, Formular, Spiel.
 - `prefers-reduced-motion`: kein Intro, keine Einblend- und Lichtanimationen.
 - Keine Cookies, keine Analyse, keine externen Schriften oder Karten. Gespeichert wird nur lokal im Browser: Intro-gesehen (Sitzung), Bestwert und Lautstärke des Spiels.
+
+
+## Effekte von 21st.dev (React-Komponenten)
+Die Website ist bewusst **Astro + TypeScript ohne React, Tailwind und shadcn**: weniger JavaScript, schnellere Seiten.
+21st.dev-Komponenten werden deshalb nicht 1:1 kopiert, sondern als Effekt nativ nachgebaut:
+
+- **Perspective Tunnel Hero** → Bildstrecke „Einblicke“ auf der Startseite (`src/pages/index.astro`, Abschnitt `data-tunnel`):
+  Fotos fliegen beim normalen Scrollen in 3D auf den Betrachter zu, Maus-Parallaxe, Klick öffnet Großansicht.
+  Unterschied zum Original: kein Abfangen des Mausrads (Scroll-Jacking), Tastatur-bedienbar, bei reduzierter Bewegung normales Raster.
+- **Ledger Hero** (Rechnungs-Software) passt inhaltlich nicht zu einem Tonstudio; übernommen wurde nur die Idee
+  eines klaren Preis-/Leistungsbereichs (`src/components/PriceTable.astro`, Seite `/preise/`).
+
+Falls später doch React-Komponenten direkt eingebunden werden sollen:
+```bash
+npx astro add react tailwind      # React-Inseln + Tailwind CSS
+npx shadcn@latest init            # legt components.json, src/lib/utils.ts (cn) und src/components/ui/ an
+npm i framer-motion lucide-react
+```
+`src/components/ui/` ist der Standardordner, in den die shadcn-CLI und 21st.dev Komponenten legen und aus dem sie per
+`@/components/ui/...` importiert werden – ohne diesen Ordner (und den `@`-Pfad-Alias in `tsconfig.json`) funktionieren die
+kopierten Importe nicht. Eingebunden wird eine React-Komponente in Astro als Insel, z. B. `<Tunnel client:visible />`.
+Tailwind-Preflight würde dabei die bestehenden Grundstile überschreiben – vorher prüfen.

@@ -2,12 +2,14 @@
 import Base from "../../layouts/Base.astro";
 import PageHero from "../../components/PageHero.astro";
 import Light from "../../components/Light.astro";
+import Photo from "../../components/Photo.astro";
+import { ROOM_PHOTOS } from "../../assets/photos";
 import Icon from "../../components/Icon.astro";
 import { ROOMS } from "../../config/site";
 import { u } from "../../lib/url";
 ---
 <Base title="Über Silver Stage – Studio & Proberäume in München" description="Silver Stage in München-Sendling: Tonstudio, Stageroom mit Bühne, Lightroom und Lounge unter einem Dach – für Musik, Proben, Tanz und Fotoshootings." current="/ueber-uns/">
-  <PageHero kicker="Über uns" title="Ein Ort für Sound und Bühne" lead="Silver Stage verbindet in München-Sendling ein Tonstudio mit Räumen zum Proben, Tanzen und Fotografieren." cta={{ label: "Session anfragen", href: u("/kontakt/") }} />
+  <PageHero kicker="Über uns" title="Ein Ort für Sound und Bühne" lead="Silver Stage verbindet in München-Sendling ein Tonstudio mit Räumen zum Proben, Tanzen und Fotografieren." photo="stageVeniceBuehne" cta={{ label: "Session anfragen", href: u("/kontakt/") }} />
   <section class="section">
     <div class="wrap about">
       <div data-reveal>
@@ -23,7 +25,7 @@ import { u } from "../../lib/url";
     <div class="wrap">
       <ul class="tiles">
         {ROOMS.map((r) => (
-          <li data-room={r.key}><a href={u(r.path)}><Light room={r.key} class="tile-light" at="center" /><span class="t"><span class="label">{r.kicker}</span><span class="name">{r.name}</span></span></a></li>
+          <li data-room={r.key}><a href={u(r.path)}><Photo name={ROOM_PHOTOS[r.key].hero} class="tile-photo" sizes="(min-width: 980px) 25vw, 50vw" decorative /><span class="t"><span class="label">{r.kicker}</span><span class="name">{r.name}</span></span></a></li>
         ))}
         <li><div class="lounge"><Light class="tile-light" at="center" /><span class="t"><span class="label">Pause</span><span class="name">Lounge</span></span></div></li>
       </ul>
@@ -43,6 +45,9 @@ import { u } from "../../lib/url";
   .text { display: grid; gap: 20px; }
   .tiles { list-style: none; margin: 0; padding: 0; display: grid; grid-template-columns: repeat(4, 1fr); gap: 20px; }
   .tiles a, .lounge { position: relative; display: grid; align-content: end; min-height: 380px; text-decoration: none; border: 1px solid var(--line); border-radius: var(--radius); overflow: hidden; height: 100%; }
+  .tiles :global(picture), .tiles :global(.tile-photo) { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; }
+  .tiles a::after { content: ""; position: absolute; inset: 0; background: linear-gradient(0deg, rgb(7 8 11 / 0.9) 15%, transparent 70%); }
+  .t { z-index: 1; }
   .tiles :global(.tile-light) { position: absolute; inset: 0; --size: 130%; --cx: 50%; }
   .t { position: relative; display: grid; gap: 8px; padding: 22px; }
   .name { font: 300 var(--step-2) / 1.05 var(--font-display); letter-spacing: -0.02em; }

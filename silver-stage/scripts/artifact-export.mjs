@@ -37,7 +37,10 @@ const rewriteHtml = (html, file) => html
     if (attr === "content" && !/^\/(_astro|brand|og|favicon)/.test(url)) return m;
     return `${attr}="${rel(file, url)}"`;
   })
-  .replace(/url\((['"]?)\/(_astro\/[^)'"]+)\1\)/g, (m, q, u) => `url(${q}${rel(file, "/" + u)}${q})`);
+  .replace(/url\((['"]?)\/(_astro\/[^)'"]+)\1\)/g, (m, q, u) => `url(${q}${rel(file, "/" + u)}${q})`)
+  // responsive Bilder: jede URL in srcset; Großansicht der Bildstrecke (data-zoom)
+  .replace(/srcset="([^"]*)"/g, (m, list) => `srcset="${list.split(",").map((part) => part.trim().replace(/^\/(?!\/)\S+/, (url) => rel(file, url))).join(", ")}"`)
+  .replace(/data-zoom="(\/(?!\/)[^"]*)"/g, (m, url) => `data-zoom="${rel(file, url)}"`);
 
 const pages = [];
 for (const f of files) {

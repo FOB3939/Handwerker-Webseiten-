@@ -1,0 +1,47 @@
+---
+import Base from "../../layouts/Base.astro";
+import PriceTable from "../../components/PriceTable.astro";
+import Faq from "../../components/Faq.astro";
+import { PRICES, SITE, ROOMS, CONTACT } from "../../config/site";
+import { u } from "../../lib/url";
+const isExample = !PRICES.confirmed && SITE.preview;
+const faq = [
+  { q: "Wie setzt sich der Preis zusammen?", a: "Aus Raum, Dauer und der Technik, die du brauchst. Du bekommst vorab ein konkretes Angebot, bevor ein Termin verbindlich wird." },
+  { q: "Gibt es Paketpreise für längere Projekte?", a: "Sprich uns an: Für mehrere Tage oder wiederkehrende Proben stimmen wir ein Angebot mit dir ab." },
+  { q: "Wann kann ich buchen?", a: CONTACT.hoursNote },
+];
+---
+<Base title="Preise & Leistungen – Tonstudio und Proberaum München | Silver Stage" description="Leistungen und Preise von Silver Stage in München-Sendling: Aufnahme-Session, Gesangs- und Sprachaufnahme, Bandprobe mit Bühne, Live-Mitschnitt, Tanz und Fotoshooting." current="/preise/">
+  <section class="section price-hero">
+    <div class="wrap">
+      <h1 class="metal">Preise und Leistungen</h1>
+      <p class="lead">Aufnehmen, proben, tanzen, fotografieren: Was du bei Silver Stage buchen kannst und womit du rechnen kannst.</p>
+      {isExample && (
+        <p class="example-note" role="note"><strong>Vorschau:</strong> Die Beträge sind Beispielpreise zur Gestaltung und noch nicht vom Studio bestätigt. Vor der Veröffentlichung werden sie durch die echten Preise ersetzt.</p>
+      )}
+    </div>
+  </section>
+  <section class="section section--tight">
+    <div class="wrap tables">
+      {ROOMS.map((r) => <PriceTable room={r.key} heading="h2" />)}
+    </div>
+    <p class="wrap small muted fine">{PRICES.note}</p>
+  </section>
+  <section class="section section--alt"><div class="wrap"><Faq items={faq} /></div></section>
+  <section class="section cta">
+    <div class="wrap cta-inner">
+      <h2>Bereit für deine Session?</h2>
+      <a class="btn btn--primary" href={u("/kontakt/")}>Session anfragen</a>
+    </div>
+  </section>
+</Base>
+<style>
+  .price-hero { padding-bottom: 0; }
+  .price-hero .wrap { display: grid; gap: 22px; }
+  h1 { font-size: clamp(2.8rem, 1.2rem + 6vw, 7rem); line-height: 0.95; letter-spacing: -0.04em; padding-bottom: 0.06em; }
+  .example-note { max-width: 70ch; padding: 14px 18px; border: 1px dashed var(--line-strong); border-radius: 10px; color: var(--ink-2); font-size: var(--step--1); }
+  .tables { display: grid; grid-template-columns: repeat(3, 1fr); gap: 16px; align-items: start; }
+  .fine { margin-top: 20px; }
+  .cta-inner { display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 24px; }
+  @media (max-width: 1080px) { .tables { grid-template-columns: 1fr; max-width: 720px; } }
+</style>

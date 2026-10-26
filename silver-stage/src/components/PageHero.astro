@@ -1,11 +1,15 @@
 ---
 // Einstieg der Unterseiten: Lichtstimmung des Raums, große Überschrift, Nutzenaussage, Aktionen
 import Light from "./Light.astro";
-interface Props { kicker: string; title: string; lead: string; room?: "tonstudio" | "stageroom" | "lightroom" | "silver"; cta?: { label: string; href: string }; cta2?: { label: string; href: string }; facts?: string[] }
-const { kicker, title, lead, room = "silver", cta, cta2, facts = [] } = Astro.props;
+import Photo from "./Photo.astro";
+import type { PhotoKey } from "../assets/photos";
+interface Props { kicker: string; title: string; lead: string; room?: "tonstudio" | "stageroom" | "lightroom" | "silver"; cta?: { label: string; href: string }; cta2?: { label: string; href: string }; facts?: string[]; photo?: PhotoKey }
+const { kicker, title, lead, room = "silver", cta, cta2, facts = [], photo } = Astro.props;
 ---
 <section class="phero" data-room={room === "silver" ? undefined : room}>
-  <Light room={room} class="phero-light" pulse />
+  {photo ? (
+    <div class="phero-photo"><Photo name={photo} eager sizes="100vw" /><span class="shade" aria-hidden="true"></span></div>
+  ) : <Light room={room} class="phero-light" pulse />}
   <div class="wrap inner">
     <p class="label">{kicker}</p>
     <h1 class="metal">{title}</h1>
@@ -22,6 +26,12 @@ const { kicker, title, lead, room = "silver", cta, cta2, facts = [] } = Astro.pr
 <style>
   .phero { position: relative; min-height: min(84vh, 820px); display: flex; align-items: flex-end; overflow: hidden; border-bottom: 1px solid var(--line); }
   .phero :global(.phero-light) { position: absolute; inset: 0; --size: min(100vh, 900px); --cx: 76%; }
+  .phero-photo { position: absolute; inset: 0; }
+  .phero-photo :global(img) { width: 100%; height: 100%; object-fit: cover; animation: settle 2.4s var(--ease) both; }
+  @keyframes settle { from { transform: scale(1.08); } to { transform: scale(1); } }
+  .phero-photo .shade { position: absolute; inset: 0; background: linear-gradient(90deg, rgb(7 8 11 / 0.85), rgb(7 8 11 / 0.35) 60%, rgb(7 8 11 / 0.1)), linear-gradient(0deg, rgb(7 8 11 / 0.9), transparent 45%); }
+  @media (prefers-reduced-motion: reduce) { .phero-photo :global(img) { animation: none; } }
+  @media (max-width: 640px) { .phero-photo .shade { background: linear-gradient(0deg, rgb(7 8 11 / 0.92) 15%, rgb(7 8 11 / 0.45) 70%, rgb(7 8 11 / 0.3)); } }
   .inner { position: relative; z-index: 2; display: grid; gap: 24px; justify-items: start; padding-block: clamp(120px, 18vh, 200px) clamp(56px, 8vw, 96px); }
   h1 { font-size: clamp(2.8rem, 1.2rem + 6vw, 7.2rem); line-height: 0.95; letter-spacing: -0.04em; max-width: 13ch; padding-bottom: 0.06em; }
   .chips { display: flex; flex-wrap: wrap; gap: 8px; list-style: none; margin: 4px 0 0; padding: 0; }

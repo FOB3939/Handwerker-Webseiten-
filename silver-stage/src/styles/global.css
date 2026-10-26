@@ -51,6 +51,8 @@ body {
   -webkit-font-smoothing: antialiased; text-rendering: optimizeLegibility; overflow-x: clip;
 }
 img, svg, video { display: block; max-width: 100%; }
+/* <picture> aus astro:assets soll das Layout nicht beeinflussen: das <img> füllt direkt seinen Rahmen */
+picture { display: contents; }
 a { color: inherit; text-underline-offset: 0.2em; text-decoration-thickness: 1px; }
 :focus-visible { outline: 2px solid var(--focus); outline-offset: 3px; border-radius: 4px; }
 ::selection { background: var(--silver); color: var(--bg); }
@@ -69,6 +71,7 @@ p + p { margin-top: 1em; }
 .wrap { width: min(100% - 2 * var(--pad), var(--max)); margin-inline: auto; }
 .section { padding-block: clamp(80px, 11vw, 160px); }
 .section--alt { background: var(--bg-2); }
+.section--tight { padding-block: clamp(48px, 7vw, 96px); }
 
 /* Kurzer Hinweis über Überschriften – nur wo er Orientierung gibt (Satzschreibung, kein Versal-Label) */
 .label { display: inline-flex; align-items: center; gap: 10px; font: 500 var(--step--1) / 1.2 var(--font-body); color: var(--room); }

@@ -1,8 +1,10 @@
 ---
 import Base from "../layouts/Base.astro";
 import PageHero from "./PageHero.astro";
-import Light from "./Light.astro";
+import Photo from "./Photo.astro";
+import { ROOM_PHOTOS } from "../assets/photos";
 import Faq from "./Faq.astro";
+import PriceTable from "./PriceTable.astro";
 import Icon from "./Icon.astro";
 import { ROOMS, SITE, type RoomKey, roomByKey } from "../config/site";
 import { u } from "../lib/url";
@@ -18,7 +20,7 @@ const jsonLd = [
 ];
 ---
 <Base title={r.seoTitle} description={r.seoDescription} current={r.path} jsonLd={jsonLd}>
-  <PageHero kicker={r.kicker} title={r.title} lead={r.lead} room={r.key}
+  <PageHero kicker={r.kicker} title={r.title} lead={r.lead} room={r.key} photo={ROOM_PHOTOS[r.key].hero}
     cta={{ label: `${r.name} anfragen`, href: u(`/kontakt/?raum=${r.key}`) }}
     cta2={{ label: "Ausstattung", href: "#ausstattung" }}
     facts={r.area ? [r.area, "Preise auf Anfrage"] : ["Preise auf Anfrage"]} />
@@ -45,15 +47,23 @@ const jsonLd = [
   </section>
 
 
-  <section class="section" aria-labelledby="price-title">
-    <div class="wrap price" data-reveal>
-      <div>
-        <h2 id="price-title" class="h2">Individuelles Angebot</h2>
+  <section class="section gal-sec" aria-labelledby="gal-title">
+    <div class="wrap">
+      <h2 id="gal-title" class="h2">So sieht der {r.name} aus</h2>
+      <ul class:list={["gal", `gal--${ROOM_PHOTOS[r.key].gallery.length}`]}>
+        {ROOM_PHOTOS[r.key].gallery.map((k) => <li><figure><Photo name={k} sizes="(min-width: 860px) 50vw, 100vw" /></figure></li>)}
+      </ul>
+    </div>
+  </section>
+
+  <section class="section section--alt" aria-labelledby="price-title">
+    <div class="wrap price">
+      <div class="price-intro">
+        <h2 id="price-title" class="h2">Leistungen und Preise</h2>
+        <p class="lead">Das Angebot richtet sich nach Dauer, Nutzung und Technik. Beschreib dein Vorhaben, wir melden uns mit einem konkreten Vorschlag.</p>
+        <a class="link-arrow" href={u("/preise/")}>Alle Preise ansehen</a>
       </div>
-      <div class="price-body">
-        <p class="lead">Feste Preise gibt es nicht – das Angebot richtet sich nach Dauer, Nutzung und Technik. Beschreib dein Vorhaben, wir melden uns mit einem konkreten Vorschlag.</p>
-        <div class="btn-row"><a class="btn btn--primary" href={u(`/kontakt/?raum=${r.key}`)}>{r.name} anfragen</a></div>
-      </div>
+      <PriceTable room={r.key} />
     </div>
   </section>
 
@@ -65,7 +75,7 @@ const jsonLd = [
       <ul class="more">
         {others.map((o) => (
           <li data-room={o.key}><a href={u(o.path)} class="more-card">
-            <Light room={o.key} class="more-light" at="center" />
+            <Photo name={ROOM_PHOTOS[o.key].hero} class="more-photo" sizes="(min-width: 860px) 50vw, 100vw" decorative />
             <span class="more-body"><span class="label">{o.kicker}{o.area ? `, ${o.area}` : ""}</span><span class="more-name">{o.name}</span><span class="muted">{o.short}</span></span>
           </a></li>
         ))}
@@ -89,15 +99,25 @@ const jsonLd = [
   .led { width: 8px; height: 8px; border-radius: 50%; background: var(--room); box-shadow: 0 0 10px var(--room); }
   .price { display: grid; grid-template-columns: 0.8fr 1.2fr; gap: 32px; align-items: start; }
   .price .h2 { margin-bottom: 0; }
-  .price-body { display: grid; gap: 24px; }
+  .price-intro { display: grid; gap: 20px; justify-items: start; }
   .more { list-style: none; margin: 0; padding: 0; display: grid; grid-template-columns: 1fr 1fr; gap: 16px; }
   .more-card { position: relative; display: grid; align-content: end; min-height: 340px; text-decoration: none; border: 1px solid var(--line); border-radius: var(--radius); overflow: hidden; transition: border-color 0.3s; }
   .more-card:hover { border-color: color-mix(in srgb, var(--room) 50%, transparent); }
-  .more-card :global(.more-light) { position: absolute; inset: 0; --size: 110%; }
+  .more-card :global(picture), .more-card :global(.more-photo) { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; transition: transform 0.9s var(--ease); }
+  .more-card:hover :global(.more-photo) { transform: scale(1.04); }
+  .more-card::after { content: ""; position: absolute; inset: 0; background: linear-gradient(0deg, rgb(7 8 11 / 0.92) 10%, rgb(7 8 11 / 0.2) 70%); }
+  .more-body { z-index: 1; }
+  .gal { list-style: none; margin: 0; padding: 0; display: grid; grid-template-columns: 1.4fr 1fr; grid-auto-rows: clamp(200px, 22vw, 320px); gap: 12px; }
+  .gal li:first-child { grid-row: span 2; }
+  .gal--2 li:first-child { grid-row: span 1; }
+  .gal--2 { grid-template-columns: 1fr 1fr; }
+  .gal figure { margin: 0; height: 100%; border-radius: var(--radius); overflow: hidden; border: 1px solid var(--line); }
+  .gal :global(img) { width: 100%; height: 100%; object-fit: cover; }
   .more-body { position: relative; display: grid; gap: 10px; padding: 28px; }
   .more-name { font: 300 var(--step-3) / 1 var(--font-display); letter-spacing: -0.03em; }
   @media (max-width: 860px) {
-    .uses, .eq, .price, .more { grid-template-columns: 1fr; }
+    .uses, .eq, .price, .more, .gal { grid-template-columns: 1fr; }
+    .gal li:first-child { grid-row: span 1; }
     .rack li { gap: 12px; }
   }
 </style>
