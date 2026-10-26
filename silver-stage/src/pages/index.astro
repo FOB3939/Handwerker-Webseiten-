@@ -278,7 +278,8 @@ const faq = [
   .pause-ico { width: 10px; height: 12px; border-inline: 3px solid currentColor; }
   .hero.paused .pause-ico { width: 0; height: 0; border-inline: 0; border-left: 10px solid currentColor; border-block: 6px solid transparent; margin-left: 3px; }
   .hero.static .pause { display: none; }
-  @media (prefers-reduced-motion: reduce) { .slide.is-active :global(img) { animation: none; transform: none; } .js .rise > span > span { transform: none; transition: none; } }
+  /* Reduzierte Bewegung: Fotos wechseln weiter per Überblenden (pausierbar), aber ohne Zoom */
+  @media (prefers-reduced-motion: reduce) { .slide :global(img), .slide.is-active :global(img) { animation: none; transform: none; } .js .rise > span > span { transform: none; transition: none; } }
   @media (max-width: 640px) {
     .hero-inner .btn-row { flex-direction: column; align-items: flex-start; }
     .hero-foot { flex-direction: column; align-items: flex-start; gap: 4px; }
@@ -427,7 +428,6 @@ const faq = [
     });
     pauseBtn.addEventListener("click", () => setPaused(!paused));
     document.addEventListener("visibilitychange", () => { if (document.hidden && !paused) setPaused(true); });
-    if (matchMedia("(prefers-reduced-motion: reduce)").matches) { hero.classList.add("static"); setPaused(true); }
     // Überschrift nach dem Intro einblenden
     const html = document.documentElement;
     const ready = () => requestAnimationFrame(() => hero.classList.add("ready"));

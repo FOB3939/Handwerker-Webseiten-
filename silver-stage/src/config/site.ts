@@ -193,4 +193,4 @@ export const priceShown = (it: PriceItem): number | null => (PRICES.confirmed ||
 export const euro = (n: number) => `${n.toLocaleString("de-DE")} €`;
 
 // Intro-Einstellungen (siehe README → Intro)
-export const INTRO = { durationMs: 3000, storageKey: "ss-intro-seen" };
+export const INTRO = { durationMs: 5000, storageKey: "ss-intro-seen" }; // Zeiten der Phasen: Intro.astro

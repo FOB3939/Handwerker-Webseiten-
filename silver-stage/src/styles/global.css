@@ -123,6 +123,7 @@ p + p { margin-top: 1em; }
 .js [data-reveal].is-in { opacity: 1; transform: none; }
 
 @media (prefers-reduced-motion: reduce) {
-  *, *::before, *::after { animation-duration: 0.01ms !important; animation-iteration-count: 1 !important; transition-duration: 0.01ms !important; scroll-behavior: auto !important; }
+  /* Ausnahmen mit eigener ruhiger Variante: Intro (nur Blenden), Fotowechsel im Startbereich (Überblenden ohne Zoom) */
+  *:not(.intro, .intro *, .slide), *:not(.intro, .intro *)::before, *:not(.intro, .intro *, .seg > span)::after { animation-duration: 0.01ms !important; animation-iteration-count: 1 !important; transition-duration: 0.01ms !important; scroll-behavior: auto !important; }
   .js [data-reveal] { opacity: 1; transform: none; }
 }

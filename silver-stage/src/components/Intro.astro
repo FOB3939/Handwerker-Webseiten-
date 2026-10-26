@@ -1,5 +1,7 @@
 ---
-// Markenintro (~3 s) – progressive Verbesserung:
+// Markenintro (5 s) – progressive Verbesserung:
+// Phasen: Punkt 0–0,7 s · Wellen 0,9–2,5 s · Wortmarke 2,4–3,3 s · Lichtzug 3–4 s · Übergang 4,3–5 s.
+// Bei Änderung von INTRO.durationMs die Ausblend-Zeiten (4,3 s) hier mitziehen.
 // • Startet nur, wenn JS läuft, keine reduzierte Bewegung gewünscht ist und es in dieser Sitzung noch nicht lief.
 // • Der Seiteninhalt ist darunter bereits vollständig gerendert; das Intro blockiert weder Laden noch Rendern.
 // • „Intro überspringen“ ist sofort sichtbar und fokussierbar, Escape/Scrollen überspringt ebenfalls.
@@ -12,12 +14,14 @@ import { PHOTOS } from "../assets/photos";
 const bg = await getImage({ src: PHOTOS.stagePultBlick.src, width: 1280, format: "webp", quality: 55 });
 ---
 <script is:inline define:vars={{ key: INTRO.storageKey }}>
-  try {
-    var seen = sessionStorage.getItem(key);
-    var calm = matchMedia("(prefers-reduced-motion: reduce)").matches;
-    if (!seen && !calm) document.documentElement.classList.add("intro-play");
-    sessionStorage.setItem(key, "1");
-  } catch (e) { /* ohne Speicher: kein Intro */ }
+  // Einmal pro Sitzung. Ohne Sitzungsspeicher (z. B. eingebettete Vorschau) läuft es bei jedem Aufruf.
+  // Bei „Bewegung reduzieren“ läuft eine ruhige Variante (nur Ein-/Ausblenden, keine Bewegung).
+  var seen = null;
+  try { seen = sessionStorage.getItem(key); sessionStorage.setItem(key, "1"); } catch (e) {}
+  if (!seen) {
+    document.documentElement.classList.add("intro-play");
+    if (matchMedia("(prefers-reduced-motion: reduce)").matches) document.documentElement.classList.add("intro-calm");
+  }
 </script>
 <div class="intro" data-intro data-duration={INTRO.durationMs} role="region" aria-label="Intro">
   <!-- lazy: lädt nur, wenn das Intro wirklich läuft (sonst ist der Container display:none) -->
@@ -36,34 +40,40 @@ const bg = await getImage({ src: PHOTOS.stagePultBlick.src, width: 1280, format:
   :global(html.intro-play) .intro {
     display: grid; place-items: center; position: fixed; inset: 0; z-index: 120;
   }
-  /* Hintergrund blendet ab 2,3 s aus und gibt das Hero frei, während das Logo zum Header gleitet */
-  :global(html.intro-play) .intro::before { content: ""; position: absolute; inset: 0; background: #0a0a0c; animation: fade-out 0.7s var(--ease) 2.3s forwards; }
-  :global(html.intro-play) .logo-wrap { animation: fade-out 0.2s linear 2.8s forwards; }
-  :global(html.intro-play) .skip { animation: fade-out 0.3s linear 2.4s forwards; }
-  /* Foto hinter dem Logo: blendet weich ein, zoomt langsam, geht mit dem Hintergrund ab 2,3 s */
+  /* Hintergrund blendet ab 4,3 s aus und gibt das Hero frei, während das Logo zum Header gleitet */
+  :global(html.intro-play) .intro::before { content: ""; position: absolute; inset: 0; background: #0a0a0c; animation: fade-out 0.7s var(--ease) 4.3s forwards; }
+  :global(html.intro-play) .logo-wrap { animation: fade-out 0.2s linear 4.8s forwards; }
+  :global(html.intro-play) .skip { animation: fade-out 0.3s linear 4.4s forwards; }
+  /* Foto hinter dem Logo: blendet weich ein, zoomt langsam, geht mit dem Hintergrund ab 4,3 s */
   .intro-photo { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; opacity: 0; transform: scale(1.12); filter: blur(2px) saturate(0.9) brightness(0.42); transition: opacity 0.6s ease-out; }
-  :global(html.intro-play) .intro-photo { animation: photo-zoom 3s cubic-bezier(0.2, 0.5, 0.3, 1) forwards, fade-out 0.7s var(--ease) 2.3s forwards; }
+  :global(html.intro-play) .intro-photo { animation: photo-zoom 5s cubic-bezier(0.2, 0.5, 0.3, 1) forwards, fade-out 0.7s var(--ease) 4.3s forwards; }
   .intro-photo:global(.is-loaded) { opacity: 1; }
   .vignette { position: absolute; inset: 0; background: radial-gradient(60% 55% at 50% 46%, rgb(10 10 12 / 0.25), rgb(10 10 12 / 0.85) 80%); }
-  :global(html.intro-play) .vignette { animation: fade-out 0.7s var(--ease) 2.3s forwards; }
+  :global(html.intro-play) .vignette { animation: fade-out 0.7s var(--ease) 4.3s forwards; }
   @keyframes photo-zoom { to { transform: scale(1.02); } }
   .stagelight { position: absolute; inset: 0; pointer-events: none;
     background: radial-gradient(28% 34% at 50% 46%, rgb(139 125 255 / 0.28), transparent 70%), radial-gradient(18% 22% at 40% 40%, rgb(209 79 168 / 0.14), transparent 70%);
-    opacity: 0; animation: light-in 1.2s ease-out 0.5s forwards, fade-out 0.6s var(--ease) 2.3s forwards; }
+    opacity: 0; animation: light-in 1.6s ease-out 0.6s forwards, fade-out 0.6s var(--ease) 4.3s forwards; }
   .logo-wrap { position: relative; width: min(78vw, 640px); color: var(--ink); transform-origin: center; }
   .logo-wrap :global(.intro-logo) { width: 100%; height: auto; overflow: visible; }
   /* Phase 1: Punkt wird sichtbar */
-  .logo-wrap :global(.intro-logo .signet-dot) { opacity: 0; transform: scale(0.4); transform-box: fill-box; transform-origin: center; animation: dot-in 0.6s var(--ease) 0.05s forwards; filter: drop-shadow(0 0 14px rgb(198 203 210 / 0.8)); }
+  .logo-wrap :global(.intro-logo .signet-dot) { opacity: 0; transform: scale(0.4); transform-box: fill-box; transform-origin: center; animation: dot-in 0.7s var(--ease) 0.1s forwards; filter: drop-shadow(0 0 14px rgb(198 203 210 / 0.8)); }
   /* Phase 2: Schallwellen zeichnen sich rhythmisch auf (innen → außen, alle drei Gruppen gleichzeitig) */
-  .logo-wrap :global(.intro-logo path[pathLength]) { stroke-dasharray: 1; stroke-dashoffset: 1; opacity: 0; animation: wave-draw 0.42s var(--ease) forwards; }
-  .logo-wrap :global(.intro-logo path[data-ring="0"]) { animation-delay: 0.6s; }
-  .logo-wrap :global(.intro-logo path[data-ring="1"]) { animation-delay: 0.8s; }
-  .logo-wrap :global(.intro-logo path[data-ring="2"]) { animation-delay: 1s; }
-  .logo-wrap :global(.intro-logo path[data-ring="3"]) { animation-delay: 1.2s; }
+  .logo-wrap :global(.intro-logo path[pathLength]) { stroke-dasharray: 1; stroke-dashoffset: 1; opacity: 0; animation: wave-draw 0.55s var(--ease) forwards; }
+  .logo-wrap :global(.intro-logo path[data-ring="0"]) { animation-delay: 0.9s; }
+  .logo-wrap :global(.intro-logo path[data-ring="1"]) { animation-delay: 1.25s; }
+  .logo-wrap :global(.intro-logo path[data-ring="2"]) { animation-delay: 1.6s; }
+  .logo-wrap :global(.intro-logo path[data-ring="3"]) { animation-delay: 1.95s; }
   /* Phase 3: Wortmarke erscheint, kurzer Lichtzug */
-  .logo-wrap :global(.intro-logo .wordmark) { opacity: 0; clip-path: inset(0 100% 0 0); animation: word-in 0.75s var(--ease) 1.5s forwards; }
-  .sweep { position: absolute; inset: 20% auto 20% 0; width: 14%; background: linear-gradient(100deg, transparent, rgb(255 255 255 / 0.22), transparent); mix-blend-mode: screen; filter: blur(6px); transform: translateX(-120%) skewX(-16deg); opacity: 0; animation: sweep 0.9s ease-in-out 1.75s forwards; pointer-events: none; }
+  .logo-wrap :global(.intro-logo .wordmark) { opacity: 0; clip-path: inset(0 100% 0 0); animation: word-in 0.9s var(--ease) 2.4s forwards; }
+  .sweep { position: absolute; inset: 20% auto 20% 0; width: 14%; background: linear-gradient(100deg, transparent, rgb(255 255 255 / 0.22), transparent); mix-blend-mode: screen; filter: blur(6px); transform: translateX(-120%) skewX(-16deg); opacity: 0; animation: sweep 1s ease-in-out 3s forwards; pointer-events: none; }
   .skip { position: absolute; right: var(--pad); bottom: calc(var(--pad) + env(safe-area-inset-bottom, 0px)); background: rgb(16 17 18 / 0.6); }
+  /* Ruhige Variante bei reduzierter Bewegung: Foto und fertiges Logo blenden ein und aus, nichts bewegt sich */
+  :global(html.intro-calm) .intro-photo { transform: none; animation: fade-out 0.7s ease 4.3s forwards; }
+  :global(html.intro-calm) .logo-wrap { animation: calm-in 0.9s ease 0.2s both, fade-out 0.6s ease 4.3s forwards; }
+  :global(html.intro-calm) .logo-wrap :global(.intro-logo *) { animation: none !important; opacity: 1 !important; stroke-dashoffset: 0 !important; transform: none !important; clip-path: none !important; }
+  :global(html.intro-calm) .sweep { display: none; }
+  @keyframes calm-in { from { opacity: 0; } }
   @keyframes dot-in { to { opacity: 1; transform: none; } }
   @keyframes wave-draw { 0% { opacity: 1; } 100% { opacity: 1; stroke-dashoffset: 0; } }
   @keyframes word-in { to { opacity: 1; clip-path: inset(0 0 0 0); } }
@@ -97,9 +107,9 @@ const bg = await getImage({ src: PHOTOS.stagePultBlick.src, width: 1280, format:
     addEventListener("touchmove", finish, { passive: true });
     intro.querySelector("[data-intro-skip]")!.addEventListener("click", finish);
 
-    // Phase 4 (ab 2,3 s): Logo gleitet räumlich ruhig an die Position des Header-Logos
+    // Phase 4 (ab 4,3 s): Logo gleitet räumlich ruhig an die Position des Header-Logos
     setTimeout(() => {
-      if (finished) return;
+      if (finished || root.classList.contains("intro-calm")) return; // ruhige Variante: kein Gleiten
       const target = document.querySelector<SVGElement>(".site-header .brand-logo");
       if (!target || !logo.animate) return;
       const a = logo.getBoundingClientRect(), b = target.getBoundingClientRect();

@@ -33,3 +33,4 @@ Alle Prüfungen liefen automatisiert in Chromium (Playwright) in der Arbeitsumge
 
 ## Bewegung (WCAG 2.2.2)
 Automatisch laufende Animationen (Schallbögen, Rack-LEDs, D-F-J-K-Tasten) enden nach höchstens 4,8 s; bei „Bewegung reduzieren“ laufen sie gar nicht.
+Bei „Bewegung reduzieren“ gibt es ruhige Varianten statt keiner Effekte: Intro (5 s) nur mit Ein-/Ausblenden, Fotowechsel im Startbereich als Überblenden ohne Zoom (pausierbar), 3D-Tunnel als normales Bildraster. Ohne Sitzungsspeicher läuft das Intro bei jedem Aufruf. Getestet in Handy-Emulation (Pixel 7): normal, reduzierte Bewegung, gesperrter Speicher.

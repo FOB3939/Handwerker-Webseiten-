@@ -61,8 +61,8 @@ Reines statisches Hosting reicht (z. B. Webspace, Netlify, Cloudflare Pages). In
 
 | Was | Wo | Standard |
 |---|---|---|
-| Intro-Dauer, Speicher-Schlüssel | `src/config/site.ts` → `INTRO` | 3000 ms, `sessionStorage` „ss-intro-seen“ |
-| Intro-Ablauf (Phasen) | `src/components/Intro.astro` (CSS-Keyframes) | Punkt 0–0,6 s · Wellen 0,6–1,6 s · Wortmarke 1,5–2,3 s · Übergang 2,3–3 s |
+| Intro-Dauer, Speicher-Schlüssel | `src/config/site.ts` → `INTRO` | 5000 ms, `sessionStorage` „ss-intro-seen“ |
+| Intro-Ablauf (Phasen) | `src/components/Intro.astro` (CSS-Keyframes) | Punkt 0–0,7 s · Wellen 0,9–2,5 s · Wortmarke 2,4–3,3 s · Lichtzug 3–4 s · Übergang 4,3–5 s |
 | Spiel-Tempo, Rundenlänge, Trefferfenster, Punkte | `src/game/engine.js` → `SETTINGS` | 100 BPM, 30 s, Perfekt ±80 ms, Gut ±150 ms |
 | Groove/Notenfolge | `src/game/engine.js` → `BARS`, `ARRANGEMENT` | fest, keine Zufallsfolgen |
 | Lautstärke-Standard | `src/game/ui.js` (`beatstage-volume`) | 70 % |
