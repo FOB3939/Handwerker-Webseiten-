@@ -3,16 +3,14 @@ import "@fontsource/jost/latin-200.css";
 import "@fontsource/jost/latin-300.css";
 import "@fontsource/jost/latin-400.css";
 import "@fontsource/jost/latin-500.css";
-import "@fontsource/jost/latin-600.css";
 import "@fontsource/inter/latin-400.css";
 import "@fontsource/inter/latin-500.css";
 import "../styles/global.css";
 // Display-Schrift vorladen: verhindert Layoutsprung der großen Überschriften beim Schriftwechsel
 import jost300 from "@fontsource/jost/files/jost-latin-300-normal.woff2?url";
-import jost600 from "@fontsource/jost/files/jost-latin-600-normal.woff2?url";
 import jost400 from "@fontsource/jost/files/jost-latin-400-normal.woff2?url";
 import inter400 from "@fontsource/inter/files/inter-latin-400-normal.woff2?url";
-const preloadFonts = [jost600, jost300, inter400];
+const preloadFonts = [jost300, inter400];
 import Header from "../components/Header.astro";
 import Footer from "../components/Footer.astro";
 import Intro from "../components/Intro.astro";

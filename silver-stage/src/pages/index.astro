@@ -12,10 +12,7 @@ import { u } from "../lib/url";
 const studio = roomByKey("tonstudio");
 // Wechselnde Titelbilder: je Bild ein Raum, Bildunterschrift verlinkt die Raumseite
 const slides: { photo: PhotoKey; room: "tonstudio" | "stageroom" | "lightroom"; caption: string }[] = [
-  { photo: "stageBuehneFront", room: "stageroom", caption: "Stageroom – Bühne, Licht und Konzertanlage" },
-  { photo: "tonAufnahmeraum", room: "tonstudio", caption: "Tonstudio – Aufnahmeraum mit Blick in die Regie" },
-  { photo: "lightBackline", room: "lightroom", caption: "Lightroom – Spiegelwand und farbiges Licht" },
-  { photo: "stageVeniceBuehne", room: "stageroom", caption: "Stageroom – MIDAS Venice am Bühnenrand" },
+  { photo: "stagePultBlick", room: "stageroom", caption: "Stageroom – Blick vom Mischpult auf die Bühne" },
 ];
 // Bildstrecke mit Großansicht
 const gallery: { photo: PhotoKey; shape: string }[] = [
@@ -81,6 +78,9 @@ const faq = [
         </figure>
       ))}
       <span class="shade" aria-hidden="true"></span>
+      <span class="beams" aria-hidden="true"><i></i><i></i><i></i></span>
+      <span class="grain" aria-hidden="true"></span>
+      <canvas class="hero-canvas" aria-hidden="true" data-hero-canvas></canvas>
     </div>
     <div class="wrap hero-inner">
       <p class="eyebrow ld" style="--d:0s">Tonstudio &amp; Proberäume in München-Sendling</p>
@@ -101,12 +101,12 @@ const faq = [
       <p class="caption" aria-live="polite">
         {slides.map((sl, i) => <a href={u(`/${sl.room}/`)} data-room={sl.room} data-caption hidden={i !== 0}><span class="dot" aria-hidden="true"></span>{sl.caption}</a>)}
       </p>
-      <div class="ctrl" role="group" aria-label="Fotos im Startbereich">
+      <div class="ctrl" role="group" aria-label="Bewegung im Startbereich">
         <span class="eq" aria-hidden="true"><i></i><i></i><i></i><i></i></span>
-        {slides.map((sl, i) => (
+        {slides.length > 1 && slides.map((sl, i) => (
           <button type="button" class="seg" data-seg aria-label={`Foto ${i + 1} von ${slides.length}: ${sl.caption}`} aria-current={i === 0 ? "true" : undefined}><span></span></button>
         ))}
-        <button type="button" class="pause" data-pause aria-pressed="false"><span class="visually-hidden" data-pause-label>Fotowechsel anhalten</span><span class="pause-ico" aria-hidden="true"></span></button>
+        <button type="button" class="pause" data-pause aria-pressed="false"><span class="visually-hidden" data-pause-label>Bewegung anhalten</span><span class="pause-ico" aria-hidden="true"></span></button>
       </div>
     </div>
   </section>
@@ -310,19 +310,34 @@ const faq = [
       linear-gradient(0deg, rgb(7 8 11 / 0.9) 0%, transparent 38%),
       linear-gradient(180deg, rgb(7 8 11 / 0.5) 0%, transparent 22%); }
 
+  /* Bühnenlicht: drei weiche Lichtkegel schwenken langsam über das Foto (pausierbar) */
+  .beams { position: absolute; inset: 0; pointer-events: none; mix-blend-mode: screen; overflow: hidden; }
+  .beams i { position: absolute; top: -12%; left: var(--x); width: 46vw; height: 125%; margin-left: -23vw; transform-origin: 50% 0;
+    background: conic-gradient(from 180deg at 50% 0, transparent 0deg 170deg, rgb(230 236 247 / 0.2) 180deg, transparent 190deg 360deg);
+    filter: blur(14px); animation: sway 11s ease-in-out infinite alternate; }
+  .beams i:nth-child(1) { --x: 22%; --r: -14deg; animation-delay: -3s; }
+  .beams i:nth-child(2) { --x: 55%; --r: 10deg; animation-duration: 13s; background: conic-gradient(from 180deg at 50% 0, transparent 0deg 172deg, rgb(242 166 90 / 0.16) 180deg, transparent 188deg 360deg); }
+  .beams i:nth-child(3) { --x: 84%; --r: -8deg; animation-duration: 9s; animation-delay: -6s; }
+  @keyframes sway { from { transform: rotate(var(--r)); opacity: 0.55; } to { transform: rotate(calc(var(--r) * -1)); opacity: 1; } }
+  .hero.paused .beams i { animation-play-state: paused; }
+  .grain { position: absolute; inset: 0; pointer-events: none; opacity: 0.09; mix-blend-mode: overlay;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='160' height='160'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='.9' numOctaves='2' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E"); }
+  .hero-canvas { position: absolute; inset: 0; width: 100%; height: 100%; pointer-events: none; }
+  @media (forced-colors: active) { .beams, .grain, .hero-canvas { display: none; } }
+
   .hero-inner { align-self: end; display: grid; gap: 26px; justify-items: start; padding-block: clamp(96px, 16vh, 180px) clamp(32px, 6vh, 64px); }
   /* Überschrift: groß und kräftig; beim Laden „fährt“ die Schrift aus Unschärfe und weiter Laufweite zusammen,
      danach zieht ein Lichtschimmer über das Silber (pausiert mit dem Fotowechsel) */
-  .hero h1 { font-size: clamp(3.4rem, 0.6rem + 13vw, 13rem); line-height: 0.88; font-weight: 600; letter-spacing: -0.05em; filter: drop-shadow(0 6px 30px rgb(0 0 0 / 0.55)); }
-  .shine { transform-origin: left center; background: linear-gradient(105deg, #b9bfc8 0%, #ffffff 18%, #dfe3e8 34%, #8f97a3 50%, #ffffff 62%, #c6cbd2 78%, #ffffff 100%); background-size: 260% 100%; background-position: 100% 0; -webkit-background-clip: text; background-clip: text; color: transparent; }
-  .shine--2 { background-image: linear-gradient(105deg, #8f97a3 0%, #e6e9ed 20%, #ffffff 36%, #9aa1ab 52%, #f4f6f9 66%, #b9bfc8 82%, #ffffff 100%); }
+  .hero h1 { font-size: clamp(3.4rem, 0.6rem + 13vw, 13rem); line-height: 0.88; font-weight: 300; letter-spacing: -0.05em; filter: drop-shadow(0 6px 30px rgb(0 0 0 / 0.55)); }
+  .shine { transform-origin: left center; background: linear-gradient(105deg, transparent 42%, rgb(255 255 255 / 0.85) 50%, transparent 58%), linear-gradient(176deg, #ffffff 0%, #dfe3e8 38%, #8f97a3 58%, #e6e9ed 82%, #b9bfc8 100%); background-size: 260% 100%, 100% 100%; background-repeat: no-repeat; background-position: 100% 0, 0 0; -webkit-background-clip: text; background-clip: text; color: transparent; }
+  .shine--2 { background-image: linear-gradient(105deg, transparent 42%, rgb(255 255 255 / 0.85) 50%, transparent 58%), linear-gradient(176deg, #f4f6f9 0%, #c6cbd2 40%, #7d8591 60%, #dfe3e8 84%, #a9b0bb 100%); }
   @media (forced-colors: active) { .shine { color: CanvasText; background: none; } }
   :global(.js) .hero.title-in .shine { animation: track-in 1.3s cubic-bezier(0.2, 0.7, 0.15, 1) both, shimmer 4.5s ease-in-out 1.4s 3; }
   :global(.js) .hero.title-in .shine--2 { animation-delay: 0.15s, 1.7s; }
   .hero.paused .shine { animation-play-state: paused; }
   /* nur transform/filter/opacity: kein Layoutsprung */
   @keyframes track-in { from { transform: scale(1.14); filter: blur(16px); opacity: 0; } to { transform: none; filter: blur(0); opacity: 1; } }
-  @keyframes shimmer { 0% { background-position: 100% 0; } 60%, 100% { background-position: 0% 0; } }
+  @keyframes shimmer { 0% { background-position: 100% 0, 0 0; } 60%, 100% { background-position: 0% 0, 0 0; } }
   .hero h1 > span { display: block; overflow: hidden; padding-bottom: 0.08em; margin-bottom: -0.08em; }
   .hero h1 > span > span { display: inline-block; }
   .hero h1 > span { white-space: nowrap; }
@@ -584,7 +599,7 @@ const faq = [
     const setPaused = (p: boolean) => {
       paused = p; hero.classList.toggle("paused", p);
       pauseBtn.setAttribute("aria-pressed", String(p));
-      pauseLabel.textContent = p ? "Fotowechsel fortsetzen" : "Fotowechsel anhalten";
+      pauseLabel.textContent = p ? "Bewegung fortsetzen" : "Bewegung anhalten";
     };
     // Weiter, sobald der Fortschrittsbalken des aktiven Fotos voll ist
     segs.forEach((b, i) => {
@@ -603,6 +618,53 @@ const faq = [
     if (html.classList.contains("intro-play")) {
       new MutationObserver((_, o) => { if (html.classList.contains("intro-done")) { o.disconnect(); titleIn(); } }).observe(html, { attributes: true, attributeFilter: ["class"] });
     } else titleIn();
+    // Staub im Scheinwerferlicht + leise Wellenform (Canvas). Stoppt bei Pause, verstecktem Tab,
+    // außerhalb des Sichtbereichs und bei reduzierter Bewegung (außer „Effekte erzwingen“).
+    const cv = hero.querySelector<HTMLCanvasElement>("[data-hero-canvas]");
+    const calm = matchMedia("(prefers-reduced-motion: reduce)").matches && !html.classList.contains("fx-force");
+    const ctx = cv?.getContext("2d");
+    if (cv && ctx && !calm) {
+      let w = 0, h = 0, dpr = 1, raf = 0, visible = true, mx = -1e4, my = -1e4, t = 0;
+      const parts: { x: number; y: number; r: number; vx: number; vy: number; a: number }[] = [];
+      const size = () => {
+        dpr = Math.min(devicePixelRatio || 1, 1.5);
+        w = cv.clientWidth; h = cv.clientHeight;
+        cv.width = w * dpr; cv.height = h * dpr; ctx.setTransform(dpr, 0, 0, dpr, 0, 0);
+        const n = Math.round(Math.min(90, (w * h) / 14000));
+        parts.length = 0;
+        for (let i = 0; i < n; i++) parts.push({ x: Math.random() * w, y: Math.random() * h, r: 0.6 + Math.random() * 1.8, vx: (Math.random() - 0.5) * 0.15, vy: -0.08 - Math.random() * 0.25, a: 0.15 + Math.random() * 0.5 });
+      };
+      const frame = () => {
+        t += 0.016; ctx.clearRect(0, 0, w, h);
+        for (const p of parts) {
+          const dx = p.x - mx, dy = p.y - my, d2 = dx * dx + dy * dy;
+          if (d2 < 14400) { const f = (1 - d2 / 14400) * 0.9; p.x += (dx / Math.sqrt(d2 + 1)) * f; p.y += (dy / Math.sqrt(d2 + 1)) * f; }
+          p.x += p.vx + Math.sin(t + p.r * 3) * 0.08; p.y += p.vy;
+          if (p.y < -6) { p.y = h + 6; p.x = Math.random() * w; }
+          if (p.x < -6) p.x = w + 6; else if (p.x > w + 6) p.x = -6;
+          ctx.globalAlpha = p.a * (0.7 + 0.3 * Math.sin(t * 2 + p.x));
+          ctx.fillStyle = "#e6ecf7"; ctx.beginPath(); ctx.arc(p.x, p.y, p.r, 0, 6.283); ctx.fill();
+        }
+        // Wellenform am unteren Rand
+        ctx.globalAlpha = 0.22; ctx.strokeStyle = "#d5dae1"; ctx.lineWidth = 1.2; ctx.beginPath();
+        const base = h * 0.86;
+        for (let x = 0; x <= w; x += 6) {
+          const env = Math.sin((x / w) * Math.PI);
+          const y = base + env * (Math.sin(x * 0.021 + t * 2.2) * 14 + Math.sin(x * 0.007 - t * 1.3) * 10);
+          x ? ctx.lineTo(x, y) : ctx.moveTo(x, y);
+        }
+        ctx.stroke(); ctx.globalAlpha = 1;
+        raf = requestAnimationFrame(frame);
+      };
+      const run = () => { cancelAnimationFrame(raf); raf = 0; if (visible && !document.hidden && !hero.classList.contains("paused")) raf = requestAnimationFrame(frame); };
+      size(); run();
+      addEventListener("resize", () => { size(); }, { passive: true });
+      new IntersectionObserver(([e]) => { visible = e.isIntersecting; run(); }).observe(hero);
+      new MutationObserver(run).observe(hero, { attributes: true, attributeFilter: ["class"] });
+      document.addEventListener("visibilitychange", run);
+      hero.addEventListener("pointermove", (e) => { const b = cv.getBoundingClientRect(); mx = e.clientX - b.left; my = e.clientY - b.top; }, { passive: true });
+      hero.addEventListener("pointerleave", () => { mx = my = -1e4; });
+    }
     // Nächstes Foto vorladen, sobald die Seite steht
     addEventListener("load", () => setTimeout(() => slides[1]?.classList.add("seen"), 1500), { once: true });
   }
