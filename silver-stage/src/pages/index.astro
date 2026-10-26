@@ -40,6 +40,12 @@ const finder = [
   { key: "stageroom", k: "Proben", s: "Band, Bühnenshow, Live-Mitschnitt", text: "Für Bandproben und Bühnenprogramme: 80 m² mit Bühne, Licht, Konzertanlage und Monitoring. Live-Mitschnitt möglich." },
   { key: "lightroom", k: "Gestalten", s: "Tanz, Gesang, Foto & Video", text: "Für Tanz, Gesang, Foto und Video: 55 m² mit Spiegelwand, farbigem Licht und hängender PA." },
 ] as const;
+// Startbereich: ein Kanalzug je Raum (Stageroom mit dem Pult-Foto ist vorgewählt)
+const heroPhoto = { tonstudio: "tonAufnahmeraum", stageroom: "stagePultBlick", lightroom: "lightBackline" } as const;
+const heroChannels = finder.map((f) => ({
+  key: f.key, name: roomByKey(f.key).name, path: roomByKey(f.key).path, photo: heroPhoto[f.key], alt: PHOTOS[heroPhoto[f.key]].alt,
+  spec: spec[f.key], use: f.k, price: fromText(f.key) + (priceIsExample && fromPrice[f.key] != null ? " (Beispielpreis)" : ""),
+}));
 // Für wen
 const who = [
   { room: "stageroom", t: "Bands & Musiker:innen", d: "Proben mit Bühne, Licht und Konzertanlage, auf Wunsch mit Live-Mitschnitt.", go: "Zum Stageroom" },
@@ -67,25 +73,17 @@ const faq = [
   current="/"
 >
   <!-- Einstieg: Mischpult mit einem Kanalzug je Raum -->
-  <HomeHero />
+  <HomeHero channels={heroChannels} />
 
   <!-- Raumfinder: ein Tipp zeigt den passenden Raum mit Preis -->
-  <section class="finder" id="raumwahl" aria-labelledby="finder-title" data-finder>
+  <section class="finder" aria-labelledby="finder-title" data-finder>
     <div class="wrap finder-inner">
       <div class="finder-q">
         <h2 id="finder-title">Was hast du vor?</h2>
         <p class="muted">Tipp auf dein Vorhaben: Du siehst den passenden Raum mit Ausstattung und Preisen.</p>
       </div>
       <div class="finder-opts" role="group" aria-label="Vorhaben wählen">
-        {finder.map((f, i) => (
-          <button type="button" class="opt" data-pick={f.key} data-room={f.key} aria-pressed="false" aria-controls={`fo-${f.key}`} style={`--rest:${[0.42, 0.58, 0.34][i]}`}>
-            <span class="meter" aria-hidden="true">{Array.from({ length: 11 }, (_, n) => <i style={`--i:${n}`}></i>)}</span>
-            <span class="track" aria-hidden="true"><span class="cap"></span></span>
-            <span class="opt-k">{f.k}</span>
-            <span class="opt-r">{roomByKey(f.key).name}</span>
-            <span class="opt-s">{f.s}</span>
-          </button>
-        ))}
+        {finder.map((f) => <button type="button" class="opt" data-pick={f.key} data-room={f.key} aria-pressed="false" aria-controls={`fo-${f.key}`}><span class="opt-k">{f.k}</span><span class="opt-s">{f.s}</span></button>)}
       </div>
       {finder.map((f) => (
         <div class="finder-out" id={`fo-${f.key}`} data-room={f.key} data-finder-out={f.key} hidden>
@@ -395,37 +393,12 @@ const faq = [
   .finder h2 { font-size: var(--step-2); }
   .finder-q p { margin-top: 10px; }
   .finder-opts { display: grid; grid-template-columns: repeat(3, 1fr); gap: 12px; }
-  /* Raumwahl als Mischpult: je Raum ein Kanalzug mit Pegelanzeige und Fader. Beim Hineinscrollen fahren die
-     Regler einmal hoch; der gewählte Raum geht auf Anschlag und leuchtet in seiner Lichtfarbe. */
-  .finder-opts { --track: 116px; }
-  .opt { position: relative; display: grid; grid-template-columns: auto auto 1fr; grid-template-rows: auto auto 1fr; column-gap: 14px; row-gap: 4px; align-items: start; text-align: left;
-    padding: 18px 20px 18px 16px; border-radius: var(--radius); border: 1px solid var(--line); color: var(--ink); cursor: pointer; font: inherit;
-    background: linear-gradient(180deg, rgb(28 32 40 / 0.9), rgb(12 14 19 / 0.95)); box-shadow: 0 1px 0 rgb(255 255 255 / 0.06) inset;
-    transition: border-color 0.25s, box-shadow 0.3s, background 0.3s; }
-  .opt:hover { border-color: color-mix(in srgb, var(--room) 55%, transparent); }
-  .opt[aria-pressed="true"] { border-color: var(--room); box-shadow: 0 0 0 1px var(--room), 0 18px 40px -24px var(--room); background: linear-gradient(180deg, color-mix(in srgb, var(--room) 14%, rgb(28 32 40 / 0.9)), rgb(12 14 19 / 0.95)); }
-  .opt:focus-visible { outline: 2px solid var(--silver); outline-offset: 2px; }
-  .meter { grid-row: 1 / -1; display: flex; flex-direction: column-reverse; justify-content: space-between; width: 6px; height: var(--track); }
-  .meter i { display: block; height: calc((100% - 10 * 3px) / 11); border-radius: 1px; background: rgb(242 243 245 / 0.1); transition: background 0.25s, box-shadow 0.25s; transition-delay: calc(var(--i) * 28ms); }
-  .finder-opts.lit .meter i:nth-child(-n + 4) { background: rgb(213 218 225 / 0.55); }
-  .finder-opts.lit .opt[aria-pressed="true"] .meter i:nth-child(-n + 9) { background: var(--room); box-shadow: 0 0 8px color-mix(in srgb, var(--room) 70%, transparent); }
-  .finder-opts.lit .opt[aria-pressed="true"] .meter i:nth-child(10) { background: var(--amber); box-shadow: 0 0 8px var(--amber); }
-  .track { grid-row: 1 / -1; grid-column: 2; position: relative; width: 26px; height: var(--track); }
-  .track::before { content: ""; position: absolute; left: 50%; top: 4px; bottom: 4px; width: 4px; margin-left: -2px; border-radius: 2px; background: #05060a; box-shadow: 0 0 0 1px rgb(242 243 245 / 0.08); }
-  .track::after { content: ""; position: absolute; inset: 4px 2px; background: repeating-linear-gradient(0deg, rgb(242 243 245 / 0.18) 0 1px, transparent 1px 12px); mask: linear-gradient(90deg, #000 0 5px, transparent 5px 21px, #000 21px); }
-  .cap { position: absolute; left: 0; bottom: 0; width: 26px; height: 32px; border-radius: 5px;
-    background: linear-gradient(180deg, #eef0f3 0%, #b9bfc8 45%, #8f97a3 50%, #c9ced6 100%); box-shadow: 0 6px 14px rgb(0 0 0 / 0.55), 0 1px 0 #fff inset;
-    transform: translateY(calc(-1 * var(--lvl, 0) * (var(--track) - 32px))); transition: transform 0.7s cubic-bezier(0.3, 1.25, 0.4, 1); }
-  .cap::after { content: ""; position: absolute; left: 3px; right: 3px; top: 50%; height: 2px; margin-top: -1px; background: #2a2f38; border-radius: 1px; }
-  .finder-opts.lit .opt { --lvl: var(--rest); }
-  .finder-opts.lit .opt[aria-pressed="true"] { --lvl: 0.92; }
-  .opt[aria-pressed="true"] .cap::after { background: var(--room); box-shadow: 0 0 6px var(--room); }
-  .finder-opts.lit .opt:not([aria-pressed="true"]):hover .cap { transform: translateY(calc(-1 * (var(--lvl, 0) + 0.08) * (var(--track) - 32px))); }
-  .finder-opts.lit .opt:nth-child(2) .cap { transition-delay: 0.12s; } .finder-opts.lit .opt:nth-child(3) .cap { transition-delay: 0.24s; }
-  .opt-k { grid-column: 3; display: flex; align-items: center; gap: 10px; font: 400 var(--step-1) / 1.15 var(--font-display); }
+  .opt { display: grid; gap: 6px; text-align: left; padding: 20px 22px; min-height: 96px; border-radius: var(--radius); border: 1px solid var(--line); background: radial-gradient(120% 120% at 100% 0%, color-mix(in srgb, var(--room) 14%, transparent), transparent 60%), var(--bg); color: var(--ink); cursor: pointer; transition: border-color 0.25s, transform 0.3s var(--ease), box-shadow 0.3s; }
+  .opt:hover { border-color: color-mix(in srgb, var(--room) 55%, transparent); transform: translateY(-2px); }
+  .opt[aria-pressed="true"] { border-color: var(--room); box-shadow: 0 0 0 1px var(--room), 0 18px 40px -24px var(--room); }
+  .opt-k { display: flex; align-items: center; gap: 10px; font: 400 var(--step-1) / 1.15 var(--font-display); }
   .opt-k::before { content: ""; width: 8px; height: 8px; border-radius: 50%; background: var(--room); box-shadow: 0 0 10px var(--room); }
-  .opt-r { grid-column: 3; color: var(--room); font-size: var(--step--1); font-weight: 500; }
-  .opt-s { grid-column: 3; font-size: var(--step--1); color: var(--ink-2); align-self: end; }
+  .opt-s { font-size: var(--step--1); color: var(--ink-2); }
   .finder-out { grid-column: 1 / -1; display: grid; grid-template-columns: minmax(0, 0.9fr) minmax(0, 1.6fr); gap: 0; align-items: stretch; padding: 0; overflow: hidden; border-radius: var(--radius); border: 1px solid color-mix(in srgb, var(--room) 45%, transparent); background: radial-gradient(80% 140% at 0% 0%, color-mix(in srgb, var(--room) 12%, transparent), transparent 70%), var(--bg); animation: pop-in 0.45s var(--ease); }
   .finder-out[hidden] { display: none; }
   .fo-name { font: 300 var(--step-3) / 1 var(--font-display); letter-spacing: -0.03em; color: var(--room); }
@@ -447,8 +420,7 @@ const faq = [
   @keyframes pop-in { from { opacity: 0; transform: translateY(8px); } }
   @media (max-width: 960px) { .finder-inner { grid-template-columns: 1fr; } .finder-out { grid-template-columns: 1fr; } .fo-photo { min-height: 0; aspect-ratio: 16 / 9; } }
   @media (max-width: 640px) { .fo-cols { grid-template-columns: 1fr; } .fo-prices li { flex-direction: column; gap: 2px; } }
-  @media (max-width: 640px) { .finder-opts { grid-template-columns: 1fr; --track: 92px; } .opt { padding: 14px 16px 14px 14px; } }
-  @media (prefers-reduced-motion: reduce) { :global(html:not(.fx-force)) .cap { transition: none; } }
+  @media (max-width: 640px) { .finder-opts { grid-template-columns: 1fr; } .opt { min-height: 0; padding: 16px 18px; } }
 
   /* ---------- Räume: Preis und Fuß ---------- */
   .lane { cursor: pointer; }
@@ -582,12 +554,6 @@ const faq = [
   const finderBox = document.querySelector<HTMLElement>("[data-finder]");
   if (finderBox) {
     const opts = [...finderBox.querySelectorAll<HTMLButtonElement>("[data-pick]")], outs = [...finderBox.querySelectorAll<HTMLElement>("[data-finder-out]")];
-    // Regler fahren einmal hoch, sobald das Pult ins Bild kommt
-    const desk = finderBox.querySelector<HTMLElement>(".finder-opts");
-    if (desk) {
-      if ("IntersectionObserver" in window) new IntersectionObserver(([e], o) => { if (e.isIntersecting) { desk.classList.add("lit"); o.disconnect(); } }, { threshold: 0.4 }).observe(desk);
-      else desk.classList.add("lit");
-    }
     opts.forEach((b) => b.addEventListener("click", () => {
       opts.forEach((o) => o.setAttribute("aria-pressed", String(o === b)));
       outs.forEach((o) => (o.hidden = o.dataset.finderOut !== b.dataset.pick));
