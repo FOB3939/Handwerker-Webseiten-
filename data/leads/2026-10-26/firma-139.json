@@ -1,0 +1,415 @@
+{
+  "id": "2026-10-26-139",
+  "slug": "hausmeisterservice-sincek-paehl",
+  "date": "2026-10-26",
+  "company": {
+    "name": "Hausmeisterservice & Garten-Landschaftsbau Sincek",
+    "owner": "Zvonko Sincek",
+    "trade": "Hausmeisterservice & Gartenpflege",
+    "city": "Pähl",
+    "address": "Hohe Rainäckerstr. 8, 82396 Pähl",
+    "phone": "0151 43568644",
+    "email": "zvonko-sincek@web.de",
+    "serviceArea": [
+      "Pähl",
+      "Weilheim",
+      "Fischen am Ammersee",
+      "Andechs",
+      "Dießen",
+      "Wielenbach",
+      "Raisting"
+    ]
+  },
+  "listings": {
+    "google": {
+      "url": "https://www.google.com/maps/search/?api=1&query=Zvonko%20Sincek%20Hohe%20Rain%C3%A4ckerstr%208%20P%C3%A4hl",
+      "rating": null,
+      "reviews": null,
+      "evidence": "NICHT direkt belegt – kein Google-Spiegel (trustlocal, rgv-bayern, firmania) gefunden. Regulärer Lead über FREEMAIL: zvonko-sincek@web.de ist öffentlich in 11880 (strukturierte Daten) und bundes-telefonbuch.de gelistet. In Google Maps prüfen, ob ein Eintrag existiert und ob dort eine Website hinterlegt ist."
+    },
+    "myhammer": {
+      "url": "https://www.11880.com/branchenbuch/paehl/060692243B102799623/zvonko-sincek.html",
+      "rating": null,
+      "reviews": null,
+      "evidence": "Kein MyHammer gefunden – 11880 führt „Zvonko Sincek“, Hohe Rainäckerstr. 8, 82396 Pähl, Tel. (01514) 3568644 (vom Inhaber bestätigt), Mo–Fr 08:00–20:00, Wochenende nach Vereinbarung; Kategorien u. a. Hausmeisterservice, Gartenbau, Garten- und Landschaftsbau, Fliesenleger, Trockenbau, Renovierung. Keine Bewertungen. Laut bundes-telefonbuch seit 2015 gelistet."
+    }
+  },
+  "websiteStatus": "keine eigene Website gefunden",
+  "websiteChecks": [
+    "(1) „Sincek Pähl Hausmeisterservice Gartenbau Trockenbau“ mit blocked_domains (11880 (11880.com), Gelbe Seiten, Das Örtliche, Telefonbuch, Cylex, meinestadt, Creditreform, Facebook, Instagram, golocal, MyHammer, Northdata, Firmenwissen, WKDB, Yelp, trustlocal, wlw) – nur Verzeichnisse (landschaftsbau.net, goyellow, bundes-telefonbuch, oeffnungszeitenbuch); keine eigene Domain",
+    "(2) Domain-Check allowed_domains sincek.de, zvonko-sincek.de, zvonkosincek.de, sincek-hausmeisterservice.de, hausmeisterservice-sincek.de, sincek-service.de, sincek-paehl.de, sincek-trockenbau.de – einziger Treffer sincek.de = Ferienwohnungen „Apartments Sincek“ in Sv. Filip i Jakov (Kroatien), fremder Betrieb ohne Bezug zu Hausmeister/Garten",
+    "(3) Telefonsuche „0151 43568644“/„015143568644“ mit blocked_domains – nur goyellow, bundes-telefonbuch, tellows („Hausmeister Zvonko Sincek aus Pähl“, gewerblich); keine Website (sincek.com = ebenfalls die kroatischen Apartments)",
+    "(4) Impressum-Suche „Impressum Zvonko Sincek Hohe Rainäckerstr Pähl“ – kein eigenes Impressum; nur Verzeichnisse und fremde Firmen (pahl-elektrotechnik, pahl-services = andere Betriebe)",
+    "(5) E-Mail ist Freemail (web.de), keine Firmendomain; in keinem Verzeichnis-Snippet ein Website-Feld",
+    "Website-Risiko: niedrig – alle Prüfungen negativ, Freemail öffentlich belegt"
+  ],
+  "facts": {
+    "services": [
+      "Hausmeisterservice",
+      "Winterdienst",
+      "Gartengestaltung",
+      "Gartenpflege",
+      "Pflasterarbeiten",
+      "Garten- und Landschaftsbau"
+    ],
+    "experience": null,
+    "praisedFor": []
+  },
+  "strategy": {
+    "audience": "Hausbesitzer, Vermieter und Hausverwaltungen in Pähl, Weilheim und am Ammersee, die Garten, Außenanlagen und Winterdienst abgeben wollen",
+    "mainService": "Hausmeisterservice mit Gartenpflege und Winterdienst",
+    "trustSignal": "Inhaber Zvonko Sincek selbst vor Ort in Pähl, per Handy direkt erreichbar, seit 2015 in Verzeichnissen gelistet",
+    "conversionGoal": "Anfrage für Gartenpflege, Pflaster oder Winterdienst per WhatsApp/Anruf",
+    "visualConcept": "Gepflegte Gärten und Einfahrten im Pfaffenwinkel: frisch gemähter Rasen, saubere Pflasterfugen, geräumte Wege im Winter"
+  },
+  "sales": {
+    "score": 72,
+    "whyGoodLead": [
+      "Keine eigene Website – nur Verzeichniseinträge",
+      "Mobilnummer öffentlich gelistet und vom Inhaber bestätigt – ideal für WhatsApp",
+      "Freemail-Adresse (web.de) öffentlich – klarer Hinweis auf fehlende Website",
+      "Breites Angebot (Hausmeister, Garten, Pflaster, Winterdienst) lässt sich auf einer Seite gut bündeln"
+    ],
+    "pitch": "Hallo Herr Sincek, hier ist … – ich baue Websites für Handwerksbetriebe im Landkreis Weilheim-Schongau. Ich habe Ihren Hausmeister- und Gartenservice in Pähl im Branchenbuch gefunden, aber keine eigene Website. Ich habe unverbindlich einen Entwurf vorbereitet, auf dem Kunden Gartenpflege, Pflaster und Winterdienst sehen und Sie direkt per WhatsApp anfragen können – darf ich Ihnen den Link schicken?"
+  },
+  "manualChecks": [
+    "Website-Risiko: niedrig – vor Versand in Google Maps prüfen, dass keine Website hinterlegt ist (Grund: Google-Eintrag nicht direkt belegt, aber Freemail web.de öffentlich)",
+    "Google-Eintrag in Maps suchen (Existenz, Bewertungen) – bisher keine Spiegel-Treffer",
+    "Telefonnummer wird unterschiedlich geschrieben ((01514) 3568644 bzw. 0151 43568644) – gleiche Nummer 015143568644",
+    "Trockenbau, Fliesen und Renovierung stehen nur als Verzeichniskategorien – Website zeigt Haus & Garten als Schwerpunkt; Zusatzleistungen beim Inhaber bestätigen",
+    "goyellow beschreibt den Betrieb als Dienstleister „in Weilheim“ – Einsatzgebiet beim Erstkontakt klären",
+    "Logo und Projektfotos: nicht gefunden – beim Betrieb anfragen"
+  ],
+  "sources": [
+    {
+      "label": "11880 – Zvonko Sincek, Pähl",
+      "url": "https://www.11880.com/branchenbuch/paehl/060692243B102799623/zvonko-sincek.html"
+    },
+    {
+      "label": "bundes-telefonbuch – Zvonko Sincek, Pähl (E-Mail web.de)",
+      "url": "https://www.bundes-telefonbuch.de/paehl/zvonko-sincek-o1444298094723"
+    },
+    {
+      "label": "goyellow – Hausmeister Zvonko Sincek, Pähl",
+      "url": "https://www.goyellow.de/home/hausmeister-zvonko-sincek-paehl--4l6vxc.html"
+    },
+    {
+      "label": "landschaftsbau.net – Zvonko Sincek in Pähl",
+      "url": "https://www.landschaftsbau.net/paehl/zvonko-sincek-aXRiTQ.html"
+    },
+    {
+      "label": "oeffnungszeitenbuch – Zvonko Sincek, Pähl",
+      "url": "https://www.oeffnungszeitenbuch.de/filiale/Paehl-Zvonko%2520Sincek-3559511X.html"
+    },
+    {
+      "label": "tellows – 015143568644 (Hausmeister Zvonko Sincek, Pähl)",
+      "url": "https://www.tellows.de/num/015143568644"
+    }
+  ],
+  "site": {
+    "theme": "garten",
+    "category": "handwerk",
+    "heroOffer": [
+      "Gartenpflege",
+      "Winterdienst",
+      "Pflasterarbeiten",
+      "Hausmeisterdienst",
+      "Gartengestaltung"
+    ],
+    "scene": "garden",
+    "logoIcon": "leaf",
+    "logoMark": "ZS",
+    "brandName": "Sincek Haus & Garten",
+    "seoTitle": "Hausmeisterservice & Gartenpflege in Pähl – Zvonko Sincek",
+    "seoDescription": "Gartenpflege, Pflasterarbeiten, Winterdienst und Hausmeisterdienste in Pähl, Weilheim und am Ammersee. Jetzt per WhatsApp oder Anruf anfragen.",
+    "nav": [
+      {
+        "label": "Leistungen",
+        "href": "#leistungen"
+      },
+      {
+        "label": "Projekte",
+        "href": "#projekte"
+      },
+      {
+        "label": "Bewertungen",
+        "href": "#bewertungen"
+      },
+      {
+        "label": "Ablauf",
+        "href": "#ablauf"
+      },
+      {
+        "label": "FAQ",
+        "href": "#faq"
+      },
+      {
+        "label": "Kontakt",
+        "href": "#kontakt"
+      }
+    ],
+    "hero": {
+      "eyebrow": "Haus & Garten · Pähl",
+      "headline": "Hausmeister und Gartenpflege in Pähl",
+      "sub": "Garten, Pflaster und Winterdienst – erledigt vom Inhaber selbst.",
+      "ctaPrimary": "Anfrage per WhatsApp",
+      "ctaSecondary": "Anrufen",
+      "bullets": [
+        "Inhaber Zvonko Sincek",
+        "Mo–Fr 8–20 Uhr erreichbar",
+        "Wochenende nach Absprache"
+      ],
+      "imageLabel": "gepflegter Garten mit frisch gepflasterter Einfahrt"
+    },
+    "badges": [
+      {
+        "title": "Gartenpflege",
+        "sub": "Rasen, Hecken, Beete"
+      },
+      {
+        "title": "Winterdienst",
+        "sub": "Wege & Einfahrten"
+      },
+      {
+        "title": "Pflaster",
+        "sub": "Wege und Flächen"
+      },
+      {
+        "title": "Pähl",
+        "sub": "Hohe Rainäckerstraße"
+      }
+    ],
+    "trust": [
+      {
+        "value": "Inhaber",
+        "label": "arbeitet selbst mit"
+      },
+      {
+        "value": "Mo–Fr",
+        "label": "8–20 Uhr erreichbar"
+      },
+      {
+        "value": "Haus & Garten",
+        "label": "aus einer Hand"
+      },
+      {
+        "value": "Mobil",
+        "label": "direkt per WhatsApp"
+      }
+    ],
+    "servicesIntro": {
+      "headline": "Haus und Garten in einer Hand",
+      "text": "Vom Rasenschnitt über neue Pflasterwege bis zum geräumten Gehweg im Januar: Ein Ansprechpartner kümmert sich ums ganze Grundstück."
+    },
+    "services": [
+      {
+        "title": "Gartenpflege",
+        "text": "Rasen mähen, Hecken schneiden, Beete in Form halten – regelmäßig oder einmalig.",
+        "items": [
+          "Rasen mähen",
+          "Hecken schneiden",
+          "Beetpflege"
+        ]
+      },
+      {
+        "title": "Gartengestaltung",
+        "text": "Neue Beete, Rasenflächen und Bepflanzung – passend zu Grundstück und Pflegeaufwand.",
+        "items": [
+          "Beete anlegen",
+          "Bepflanzung",
+          "Rasenflächen"
+        ]
+      },
+      {
+        "title": "Pflasterarbeiten",
+        "text": "Wege, Terrassen und Einfahrten pflastern oder ausbessern.",
+        "items": [
+          "Gartenwege",
+          "Einfahrten",
+          "Ausbesserungen"
+        ]
+      },
+      {
+        "title": "Winterdienst",
+        "text": "Räumen und Streuen von Gehwegen und Einfahrten, damit niemand ausrutscht.",
+        "items": [
+          "Schnee räumen",
+          "Streuen",
+          "Gehwege"
+        ]
+      },
+      {
+        "title": "Hausmeisterdienst",
+        "text": "Kleine Reparaturen und Kontrollgänge rund ums Haus für Eigentümer und Vermieter.",
+        "items": [
+          "Kontrollgänge",
+          "Kleinreparaturen",
+          "Außenanlagen"
+        ]
+      },
+      {
+        "title": "Grünschnitt entsorgen",
+        "text": "Schnittgut und Laub werden nach der Pflege mitgenommen – der Garten bleibt sauber.",
+        "items": [
+          "Laub",
+          "Heckenschnitt",
+          "Abtransport"
+        ]
+      }
+    ],
+    "why": {
+      "headline": "Ein Ansprechpartner für Haus und Garten.",
+      "points": [
+        {
+          "title": "Inhaber vor Ort",
+          "text": "Zvonko Sincek übernimmt die Arbeiten selbst und ist direkt erreichbar."
+        },
+        {
+          "title": "Lange erreichbar",
+          "text": "Montag bis Freitag von 8 bis 20 Uhr, am Wochenende nach Absprache."
+        },
+        {
+          "title": "Ganzes Jahr",
+          "text": "Garten im Sommer, Winterdienst im Winter – ein Vertrag statt mehrerer Firmen."
+        },
+        {
+          "title": "Kurze Wege",
+          "text": "Von Pähl aus schnell in Weilheim, Fischen, Andechs und Dießen."
+        }
+      ]
+    },
+    "reviews": {
+      "headline": "Was Kunden sagen",
+      "summary": "Kundenstimmen werden hier eingebunden, sobald sie aus dem Google-Profil übernommen sind.",
+      "highlights": [
+        "Gartenpflege in Pähl",
+        "Winterdienst",
+        "Direkter Kontakt zum Inhaber"
+      ],
+      "source": "Google",
+      "sourceUrl": "https://www.google.com/maps/search/?api=1&query=Zvonko%20Sincek%20Hohe%20Rain%C3%A4ckerstr%208%20P%C3%A4hl",
+      "rating": null,
+      "count": null
+    },
+    "process": {
+      "headline": "So läuft Ihre Anfrage",
+      "steps": [
+        {
+          "title": "Nachricht",
+          "text": "Kurz per WhatsApp beschreiben, was zu tun ist – gern mit Fotos vom Grundstück."
+        },
+        {
+          "title": "Besichtigung",
+          "text": "Umfang und Termine werden vor Ort abgestimmt."
+        },
+        {
+          "title": "Angebot",
+          "text": "Sie bekommen ein klares Angebot – einmalig oder als regelmäßige Pflege."
+        },
+        {
+          "title": "Erledigt",
+          "text": "Die Arbeiten werden ausgeführt, Schnittgut wird mitgenommen."
+        }
+      ]
+    },
+    "gallery": {
+      "headline": "Grundstücke, die gepflegt aussehen",
+      "text": "Für die Live-Version zeigen wir hier echte Projekte des Betriebs.",
+      "items": [
+        {
+          "title": "Gepflegter Rasen",
+          "photoNeeded": "frisch gemähter Rasen mit sauberen Kanten"
+        },
+        {
+          "title": "Neuer Pflasterweg",
+          "photoNeeded": "frisch gepflasterter Gartenweg"
+        },
+        {
+          "title": "Hecke in Form",
+          "photoNeeded": "geschnittene Hecke vor und nach"
+        },
+        {
+          "title": "Geräumte Einfahrt",
+          "photoNeeded": "vom Schnee geräumte und gestreute Einfahrt"
+        },
+        {
+          "title": "Neues Beet",
+          "photoNeeded": "frisch angelegtes, bepflanztes Beet"
+        }
+      ]
+    },
+    "region": {
+      "headline": "Hausmeister- und Gartenservice rund um Pähl",
+      "text": "Von Pähl aus im Einsatz in Weilheim, Fischen am Ammersee, Andechs, Dießen, Wielenbach und Raisting.",
+      "places": [
+        "Pähl",
+        "Weilheim",
+        "Fischen am Ammersee",
+        "Andechs",
+        "Dießen",
+        "Wielenbach",
+        "Raisting"
+      ]
+    },
+    "faq": [
+      {
+        "q": "Übernehmen Sie Gartenpflege regelmäßig?",
+        "a": "Ja, einmalige Einsätze und regelmäßige Pflege sind möglich – sprechen Sie den gewünschten Rhythmus einfach an."
+      },
+      {
+        "q": "Bieten Sie Winterdienst an?",
+        "a": "Ja, Räumen und Streuen von Gehwegen und Einfahrten gehört zum Angebot."
+      },
+      {
+        "q": "Wann sind Sie erreichbar?",
+        "a": "Montag bis Freitag von 8 bis 20 Uhr, am Wochenende nach Vereinbarung."
+      },
+      {
+        "q": "Kann ich Fotos schicken?",
+        "a": "Ja, Fotos per WhatsApp helfen bei einer ersten Einschätzung."
+      },
+      {
+        "q": "In welchen Orten sind Sie unterwegs?",
+        "a": "Rund um Pähl, unter anderem in Weilheim, Fischen, Andechs und Dießen – fragen Sie einfach an."
+      }
+    ],
+    "contact": {
+      "headline": "Anfrage für Haus und Garten",
+      "text": "Schreiben Sie kurz, was ansteht: Gartenpflege, Pflaster oder Winterdienst – und wo das Grundstück liegt. Fotos helfen.",
+      "topics": [
+        "Gartenpflege",
+        "Gartengestaltung",
+        "Pflasterarbeiten",
+        "Winterdienst",
+        "Hausmeisterdienst",
+        "Sonstiges"
+      ],
+      "responseNote": "Besichtigung nach Absprache."
+    },
+    "quote": {
+      "sizeLabel": "Wie groß ist das Grundstück?",
+      "sizes": [
+        "Kleiner Garten",
+        "Einfamilienhaus",
+        "Mehrfamilienhaus",
+        "Gewerbefläche"
+      ],
+      "timings": [
+        "So bald wie möglich",
+        "In den nächsten Wochen",
+        "Regelmäßig ab Saisonbeginn",
+        "Für den Winter"
+      ]
+    },
+    "stickyCta": "Jetzt anfragen",
+    "look": {
+      "palette": 2,
+      "font": 6,
+      "hero": 0,
+      "services": 1,
+      "radius": 1,
+      "logo": 0,
+      "intro": 5
+    }
+  }
+}

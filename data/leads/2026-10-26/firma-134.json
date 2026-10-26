@@ -1,0 +1,400 @@
+{
+  "id": "2026-10-26-134",
+  "slug": "anes-sabanovic-elektro-riemerling",
+  "date": "2026-10-26",
+  "company": {
+    "name": "Anes Sabanovic Elektro",
+    "owner": "Anes Sabanovic",
+    "trade": "Elektroinstallation",
+    "city": "Riemerling",
+    "address": "Auenstr. 21, 85521 Riemerling",
+    "phone": "0172 7568812",
+    "email": null,
+    "serviceArea": [
+      "Riemerling",
+      "Hohenbrunn",
+      "Ottobrunn",
+      "Neubiberg",
+      "Putzbrunn",
+      "Taufkirchen"
+    ]
+  },
+  "listings": {
+    "google": {
+      "url": "https://www.google.com/maps/search/?api=1&query=Anes%20Sabanovic%20Elektro%20Auenstr.%2021%20Riemerling",
+      "rating": null,
+      "reviews": null,
+      "evidence": "NICHT BELEGT – kein Google-Spiegel gefunden (trustlocal, firmania, rgv-bayern, cybo, finde-offen ohne Eintrag; nur 11880). Google-Eintrag in Maps prüfen."
+    },
+    "myhammer": {
+      "url": "https://www.11880.com/branchenbuch/riemerling/060691303B112631606/anes-sabanovic-elektro.html",
+      "rating": null,
+      "reviews": null,
+      "evidence": "Kein MyHammer gefunden – 11880-Eintrag „Anes Sabanovic Elektro“, Auenstr. 21, 85521 Riemerling, Tel. (0172) 7568812, Rubrik Elektriker, keine Bewertungen, keine Öffnungszeiten (Ersteintrag 18.07.2023, aktualisiert 04.10.2026); elektriker.biz führt „Anes Sabanovic Elektro Service München“, Auenstr. 21A, Riemerling."
+    }
+  },
+  "websiteStatus": "keine eigene Website gefunden",
+  "websiteChecks": [
+    "(1) „Anes Sabanovic Elektro Auenstraße Riemerling“ mit blocked_domains (11880, Gelbe Seiten, Das Örtliche, Telefonbuch, Cylex, meinestadt, Creditreform, Facebook, Instagram, golocal, MyHammer, Northdata, Firmenwissen, WKDB, Yelp, wlw) – nur elektriker.biz (Verzeichnis) und LinkedIn-Profile gleichen Namens; keine eigene Domain, kein Website-Feld",
+    "(2) Domain-Check allowed_domains sabanovic-elektro.de, elektro-sabanovic.de, sabanovic.de, as-elektro.de, elektrosabanovic.de, sabanovic-elektrotechnik.de, anes-sabanovic.de – nur sabanovic.de = private Familienseite „Familie Sabanovic“ ohne Elektro-Bezug",
+    "(3) Google-Spiegel-/Verzeichnissuche (trustlocal, firmania, rgv-bayern, 11880, cybo, finde-offen) – nur 11880 ohne Website-Angabe",
+    "Website-Prüfung laut Kandidaten-Pool (Vorlauf) bereits negativ; Telefonnummer-Suche und Impressum-Suche nicht separat durchgeführt (Suchbudget) – vor Versand kurz nachholen",
+    "Keine E-Mail-Adresse gefunden (auch keine Freemail); keine Bewertungen gefunden",
+    "Website-Risiko: mittel – Prüfungen negativ, aber weder Google-Eintrag noch Freemail belegt (RESERVE)"
+  ],
+  "facts": {
+    "services": [
+      "Elektroinstallation"
+    ],
+    "experience": null,
+    "praisedFor": []
+  },
+  "strategy": {
+    "audience": "Hausbesitzer, Wohnungseigentümer und Vermieter in Riemerling, Ottobrunn und Neubiberg mit Elektroarbeiten bei Renovierung, Umbau oder Störung",
+    "mainService": "Elektroinstallation im Wohnbereich",
+    "trustSignal": "Inhabergeführter Elektrobetrieb von Anes Sabanovic direkt in Riemerling",
+    "conversionGoal": "Kostenloses Angebot für Elektroarbeiten anfragen (Anruf/WhatsApp/Formular)",
+    "visualConcept": "Saubere Unterverteilungen, neue Steckdosen und Leuchten in renovierten Wohnungen – hell, technisch präzise"
+  },
+  "sales": {
+    "score": 3,
+    "whyGoodLead": [
+      "Keine eigene Website gefunden – nur Verzeichniseinträge",
+      "Mobilnummer öffentlich gelistet (0172 7568812) – direkter Kontakt zum Inhaber",
+      "Elektriker werden im Raum Ottobrunn/Neubiberg ständig gesucht – Website bringt Anfragen aus der Nachbarschaft",
+      "Eintrag seit 2023 und im Oktober 2026 aktualisiert – Betrieb scheint aktiv"
+    ],
+    "pitch": "Grüß Gott Herr Sabanovic, hier ist … – ich baue Websites für Handwerksbetriebe im Landkreis München. Ich habe Ihren Eintrag als Elektriker in Riemerling gefunden, aber keine eigene Website. Ich habe unverbindlich einen Entwurf vorbereitet, über den Kunden Ihre Leistungen sehen und direkt anfragen können – darf ich Ihnen den Link schicken?"
+  },
+  "manualChecks": [
+    "RESERVE – weder Google-Eintrag noch Freemail-Adresse belegt: NUR versenden, wenn Google Maps einen Eintrag OHNE Website zeigt.",
+    "Google-Eintrag in Maps suchen (Anes Sabanovic Elektro, Auenstr. 21, Riemerling) – Existenz, Bewertungen und Website-Feld prüfen",
+    "Telefonnummer-Websuche und Impressum-Suche vor Versand nachholen; Hausnummer 21 (11880) vs. 21A (elektriker.biz) klären",
+    "Leistungen nicht einzeln belegt – nur Rubrik Elektriker/Elektroinstallation; Texte nennen gewerkübliche Leistungen (Installation, Sanierung, Zählerschrank, Beleuchtung, E-Check, Störung) – beim Betrieb bestätigen",
+    "Meistertitel nicht belegt (LinkedIn-Profil gleichen Namens nicht eindeutig zuzuordnen) – nicht verwenden",
+    "Logo und Projektfotos: nicht gefunden – beim Betrieb anfragen"
+  ],
+  "sources": [
+    {
+      "label": "11880 – Anes Sabanovic Elektro Riemerling",
+      "url": "https://www.11880.com/branchenbuch/riemerling/060691303B112631606/anes-sabanovic-elektro.html"
+    },
+    {
+      "label": "elektriker.biz – Elektriker in Brunnthal (Anes Sabanovic Elektro Service München)",
+      "url": "https://www.elektriker.biz/elektriker-in-brunnthal"
+    },
+    {
+      "label": "11880 – Elektriker Riemerling",
+      "url": "https://www.11880.com/suche/elektriker/riemerling"
+    }
+  ],
+  "site": {
+    "theme": "volt",
+    "category": "handwerk",
+    "heroOffer": [
+      "Elektroinstallation",
+      "Altbausanierung",
+      "Zählerschrank",
+      "Beleuchtung",
+      "E-Check"
+    ],
+    "scene": "electric",
+    "logoIcon": "bolt",
+    "logoMark": "AS",
+    "brandName": "Sabanovic Elektro",
+    "seoTitle": "Elektriker in Riemerling – Anes Sabanovic Elektro",
+    "seoDescription": "Elektroinstallation, Sanierung und Beleuchtung in Riemerling, Ottobrunn und Neubiberg. Jetzt kostenloses Angebot anfragen.",
+    "nav": [
+      {
+        "label": "Leistungen",
+        "href": "#leistungen"
+      },
+      {
+        "label": "Projekte",
+        "href": "#projekte"
+      },
+      {
+        "label": "Bewertungen",
+        "href": "#bewertungen"
+      },
+      {
+        "label": "Ablauf",
+        "href": "#ablauf"
+      },
+      {
+        "label": "FAQ",
+        "href": "#faq"
+      },
+      {
+        "label": "Kontakt",
+        "href": "#kontakt"
+      }
+    ],
+    "hero": {
+      "eyebrow": "Elektro · Riemerling",
+      "headline": "Ihr Elektriker in Riemerling",
+      "sub": "Anes Sabanovic erledigt Elektroarbeiten in Haus und Wohnung – in Riemerling und Umgebung.",
+      "ctaPrimary": "Kostenloses Angebot anfragen",
+      "ctaSecondary": "Anrufen",
+      "bullets": [
+        "Inhaber direkt erreichbar",
+        "Betrieb in Riemerling",
+        "Kurze Wege nach Ottobrunn"
+      ],
+      "imageLabel": "Elektriker beim Verdrahten einer neuen Unterverteilung in einem Wohnhaus"
+    },
+    "badges": [
+      {
+        "title": "Installation",
+        "sub": "Neubau und Umbau"
+      },
+      {
+        "title": "Sanierung",
+        "sub": "alte Leitungen erneuern"
+      },
+      {
+        "title": "Beleuchtung",
+        "sub": "innen und außen"
+      },
+      {
+        "title": "Riemerling",
+        "sub": "Auenstraße"
+      }
+    ],
+    "trust": [
+      {
+        "value": "Inhaber",
+        "label": "Anes Sabanovic persönlich"
+      },
+      {
+        "value": "Mobil",
+        "label": "direkt erreichbar"
+      },
+      {
+        "value": "Vor Ort",
+        "label": "Betrieb in Riemerling"
+      },
+      {
+        "value": "Lkr. M",
+        "label": "kurze Anfahrt"
+      }
+    ],
+    "servicesIntro": {
+      "headline": "Strom, der sicher läuft",
+      "text": "Von der neuen Steckdose bis zur kompletten Wohnungssanierung: Anes Sabanovic plant und verlegt die Elektrik in Ihrem Zuhause."
+    },
+    "services": [
+      {
+        "title": "Elektroinstallation",
+        "text": "Leitungen, Steckdosen und Schalter für Neubau, Anbau oder Umbau.",
+        "items": [
+          "Leitungen",
+          "Steckdosen",
+          "Schalter"
+        ]
+      },
+      {
+        "title": "Altbausanierung",
+        "text": "Alte Elektrik wird auf den heutigen Stand gebracht – Raum für Raum.",
+        "items": [
+          "Leitungen erneuern",
+          "Schutzleiter",
+          "Mehr Steckdosen"
+        ]
+      },
+      {
+        "title": "Zählerschrank",
+        "text": "Unterverteilung und Zählerschrank modernisiert, mit FI-Schutz nach Norm.",
+        "items": [
+          "Unterverteilung",
+          "FI-Schalter",
+          "Sicherungen"
+        ]
+      },
+      {
+        "title": "Beleuchtung",
+        "text": "Licht für Wohnräume, Bad und Außenbereich – geplant und montiert.",
+        "items": [
+          "Deckenleuchten",
+          "Spots",
+          "Außenlicht"
+        ]
+      },
+      {
+        "title": "E-Check",
+        "text": "Prüfung der Anlage, damit Mieter, Vermieter und Versicherung auf der sicheren Seite sind.",
+        "items": [
+          "Messung",
+          "Protokoll",
+          "Mängelliste"
+        ]
+      },
+      {
+        "title": "Störung & Reparatur",
+        "text": "Sicherung fliegt oder Steckdose ohne Strom: Fehler finden und beheben.",
+        "items": [
+          "Fehlersuche",
+          "Reparatur",
+          "Austausch"
+        ]
+      }
+    ],
+    "why": {
+      "headline": "Elektrik vom Inhaber aus Riemerling.",
+      "points": [
+        {
+          "title": "Persönlich",
+          "text": "Anes Sabanovic ist Ihr direkter Ansprechpartner – am Telefon und auf der Baustelle."
+        },
+        {
+          "title": "Kurze Wege",
+          "text": "Von Riemerling aus schnell in Ottobrunn, Neubiberg, Hohenbrunn und Putzbrunn."
+        },
+        {
+          "title": "Sauber gearbeitet",
+          "text": "Schlitze, Dosen und Leitungen werden ordentlich gesetzt und hinterlassen."
+        },
+        {
+          "title": "Klare Absprachen",
+          "text": "Umfang, Kosten und Termin stehen vor Beginn fest."
+        }
+      ]
+    },
+    "reviews": {
+      "headline": "Was Kunden sagen",
+      "summary": "Kundenstimmen werden hier eingebunden, sobald sie aus dem Google-Profil übernommen sind.",
+      "highlights": [
+        "Elektriker in Riemerling",
+        "Elektroinstallation",
+        "Inhabergeführt"
+      ],
+      "source": "Google",
+      "sourceUrl": "https://www.google.com/maps/search/?api=1&query=Anes%20Sabanovic%20Elektro%20Auenstr.%2021%20Riemerling",
+      "rating": null,
+      "count": null
+    },
+    "process": {
+      "headline": "In vier Schritten zur neuen Elektrik",
+      "steps": [
+        {
+          "title": "Anfrage",
+          "text": "Kurz anrufen oder das Formular nutzen – gern mit Fotos vom Sicherungskasten."
+        },
+        {
+          "title": "Besichtigung",
+          "text": "Die bestehende Anlage wird vor Ort angesehen."
+        },
+        {
+          "title": "Angebot",
+          "text": "Sie erhalten ein klares Angebot für die Arbeiten."
+        },
+        {
+          "title": "Ausführung",
+          "text": "Die Elektrik wird zum vereinbarten Termin installiert und geprüft."
+        }
+      ]
+    },
+    "gallery": {
+      "headline": "Elektroarbeiten aus der Region",
+      "text": "Für die Live-Version zeigen wir hier echte Arbeiten des Betriebs.",
+      "items": [
+        {
+          "title": "Neue Unterverteilung",
+          "photoNeeded": "sauber verdrahteter Sicherungskasten mit FI-Schaltern"
+        },
+        {
+          "title": "Steckdosen",
+          "photoNeeded": "neu gesetzte Steckdosenleiste in einer Küche"
+        },
+        {
+          "title": "Altbau saniert",
+          "photoNeeded": "Wand mit frisch verlegten Leitungen vor dem Verputzen"
+        },
+        {
+          "title": "Beleuchtung",
+          "photoNeeded": "Wohnzimmer mit neuen Deckenspots"
+        },
+        {
+          "title": "Außenlicht",
+          "photoNeeded": "Hauseingang mit neuer Außenleuchte"
+        }
+      ]
+    },
+    "region": {
+      "headline": "Elektriker für Riemerling und Umgebung",
+      "text": "Von Riemerling aus schnell in Hohenbrunn, Ottobrunn, Neubiberg, Putzbrunn und Taufkirchen.",
+      "places": [
+        "Riemerling",
+        "Hohenbrunn",
+        "Ottobrunn",
+        "Neubiberg",
+        "Putzbrunn",
+        "Taufkirchen"
+      ]
+    },
+    "faq": [
+      {
+        "q": "Übernehmen Sie auch kleine Aufträge?",
+        "a": "Ja, auch einzelne Steckdosen oder Leuchten – fragen Sie einfach an."
+      },
+      {
+        "q": "Lohnt sich die Sanierung alter Leitungen?",
+        "a": "Bei alten Anlagen ohne FI-Schutz meist ja – das klären wir bei der Besichtigung."
+      },
+      {
+        "q": "Kann ich vorab Fotos schicken?",
+        "a": "Ja, Fotos vom Sicherungskasten helfen für eine erste Einschätzung."
+      },
+      {
+        "q": "Machen Sie auch einen E-Check für Vermieter?",
+        "a": "Fragen Sie gern an – Umfang und Termin stimmen wir vorab ab."
+      },
+      {
+        "q": "Arbeiten Sie auch außerhalb von Riemerling?",
+        "a": "Ja, im Umkreis – etwa in Ottobrunn, Neubiberg und Putzbrunn."
+      }
+    ],
+    "contact": {
+      "headline": "Ihr Angebot – kostenlos und unverbindlich",
+      "text": "Beschreiben Sie kurz, welche Elektroarbeiten anstehen und um welche Räume es geht.",
+      "topics": [
+        "Elektroinstallation",
+        "Sanierung",
+        "Zählerschrank",
+        "Beleuchtung",
+        "Sonstiges"
+      ],
+      "responseNote": "Besichtigung nach Absprache."
+    },
+    "quote": {
+      "sizeLabel": "Worum geht es?",
+      "sizes": [
+        "Einzelne Steckdosen / Leuchten",
+        "Ein Raum",
+        "Ganze Wohnung",
+        "Ganzes Haus"
+      ],
+      "timings": [
+        "So bald wie möglich",
+        "In den nächsten Wochen",
+        "In den nächsten Monaten",
+        "Ich plane erst noch"
+      ]
+    },
+    "stickyCta": "Angebot anfragen",
+    "look": {
+      "palette": 3,
+      "font": 8,
+      "hero": 0,
+      "services": 0,
+      "radius": 1,
+      "logo": 2,
+      "intro": 1,
+      "projects": 2,
+      "process": 0,
+      "faq": 2,
+      "reviews": 0,
+      "order": 0
+    }
+  }
+}

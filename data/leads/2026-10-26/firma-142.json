@@ -119,12 +119,30 @@
     "seoTitle": "Maler in Kaufering – Jürgen Diepold Maler",
     "seoDescription": "Malerarbeiten, Tapezieren, Putz und Fassadenbeschichtung in Kaufering, Landsberg und Umgebung. Jetzt Angebot anfragen.",
     "nav": [
-      { "label": "Leistungen", "href": "#leistungen" },
-      { "label": "Projekte", "href": "#projekte" },
-      { "label": "Bewertungen", "href": "#bewertungen" },
-      { "label": "Ablauf", "href": "#ablauf" },
-      { "label": "FAQ", "href": "#faq" },
-      { "label": "Kontakt", "href": "#kontakt" }
+      {
+        "label": "Leistungen",
+        "href": "#leistungen"
+      },
+      {
+        "label": "Projekte",
+        "href": "#projekte"
+      },
+      {
+        "label": "Bewertungen",
+        "href": "#bewertungen"
+      },
+      {
+        "label": "Ablauf",
+        "href": "#ablauf"
+      },
+      {
+        "label": "FAQ",
+        "href": "#faq"
+      },
+      {
+        "label": "Kontakt",
+        "href": "#kontakt"
+      }
     ],
     "hero": {
       "eyebrow": "Malerbetrieb · Kaufering",
@@ -140,16 +158,40 @@
       "imageLabel": "frisch gestrichene Wohnzimmerwand mit Farbrolle"
     },
     "badges": [
-      { "title": "Malerarbeiten", "sub": "Wände & Decken" },
-      { "title": "Tapezieren", "sub": "Raufaser bis Vlies" },
-      { "title": "Fassade", "sub": "Beschichtung" },
-      { "title": "Kaufering", "sub": "Jahnstraße" }
+      {
+        "title": "Malerarbeiten",
+        "sub": "Wände & Decken"
+      },
+      {
+        "title": "Tapezieren",
+        "sub": "Raufaser bis Vlies"
+      },
+      {
+        "title": "Fassade",
+        "sub": "Beschichtung"
+      },
+      {
+        "title": "Kaufering",
+        "sub": "Jahnstraße"
+      }
     ],
     "trust": [
-      { "value": "Inhaber", "label": "Jürgen Diepold persönlich" },
-      { "value": "Innen", "label": "Farbe, Tapete, Putz" },
-      { "value": "Außen", "label": "Fassade & Imprägnierung" },
-      { "value": "8–18", "label": "Uhr werktags erreichbar" }
+      {
+        "value": "Inhaber",
+        "label": "Jürgen Diepold persönlich"
+      },
+      {
+        "value": "Innen",
+        "label": "Farbe, Tapete, Putz"
+      },
+      {
+        "value": "Außen",
+        "label": "Fassade & Imprägnierung"
+      },
+      {
+        "value": "8–18",
+        "label": "Uhr werktags erreichbar"
+      }
     ],
     "servicesIntro": {
       "headline": "Farbe, Tapete, Putz – innen wie außen",
@@ -159,41 +201,77 @@
       {
         "title": "Innenanstrich",
         "text": "Wände und Decken in Wunschfarbe – abgeklebt, gestrichen und sauber übergeben.",
-        "items": ["Wände", "Decken", "Farbberatung"]
+        "items": [
+          "Wände",
+          "Decken",
+          "Farbberatung"
+        ]
       },
       {
         "title": "Tapezierarbeiten",
         "text": "Alte Tapete runter, neue Tapete glatt an die Wand.",
-        "items": ["Raufaser", "Vliestapete", "Tapete entfernen"]
+        "items": [
+          "Raufaser",
+          "Vliestapete",
+          "Tapete entfernen"
+        ]
       },
       {
         "title": "Putzarbeiten",
         "text": "Risse und Schadstellen ausbessern, Flächen neu verputzen – als Grundlage für den Anstrich.",
-        "items": ["Ausbessern", "Innenputz", "Untergrund vorbereiten"]
+        "items": [
+          "Ausbessern",
+          "Innenputz",
+          "Untergrund vorbereiten"
+        ]
       },
       {
         "title": "Renovierung",
         "text": "Wohnung oder Haus auffrischen – etwa vor dem Einzug oder nach dem Auszug.",
-        "items": ["Wohnungsrenovierung", "Auszugsrenovierung", "Treppenhaus"]
+        "items": [
+          "Wohnungsrenovierung",
+          "Auszugsrenovierung",
+          "Treppenhaus"
+        ]
       },
       {
         "title": "Neubau",
         "text": "Malerarbeiten im Neubau, abgestimmt auf die anderen Gewerke.",
-        "items": ["Erstanstrich", "Neubau-Innenräume", "Termin nach Bauablauf"]
+        "items": [
+          "Erstanstrich",
+          "Neubau-Innenräume",
+          "Termin nach Bauablauf"
+        ]
       },
       {
         "title": "Fassade & Imprägnierung",
         "text": "Fassadenbeschichtung und Imprägnierung schützen das Haus vor Wetter und Feuchtigkeit.",
-        "items": ["Fassadenbeschichtung", "Imprägnierung", "Lackierarbeiten"]
+        "items": [
+          "Fassadenbeschichtung",
+          "Imprägnierung",
+          "Lackierarbeiten"
+        ]
       }
     ],
     "why": {
       "headline": "Ein Maler aus Kaufering – mit Namen und Telefonnummer.",
       "points": [
-        { "title": "Persönlich", "text": "Sie sprechen direkt mit Inhaber Jürgen Diepold." },
-        { "title": "Kurze Wege", "text": "Von der Jahnstraße schnell in Landsberg, Hurlach, Igling und Scheuring." },
-        { "title": "Innen und außen", "text": "Vom Wohnzimmer bis zur Fassade – ein Betrieb für alle Malerarbeiten." },
-        { "title": "Gut erreichbar", "text": "Werktags von 8 bis 18 Uhr telefonisch." }
+        {
+          "title": "Persönlich",
+          "text": "Sie sprechen direkt mit Inhaber Jürgen Diepold."
+        },
+        {
+          "title": "Kurze Wege",
+          "text": "Von der Jahnstraße schnell in Landsberg, Hurlach, Igling und Scheuring."
+        },
+        {
+          "title": "Innen und außen",
+          "text": "Vom Wohnzimmer bis zur Fassade – ein Betrieb für alle Malerarbeiten."
+        },
+        {
+          "title": "Gut erreichbar",
+          "text": "Werktags von 8 bis 18 Uhr telefonisch."
+        }
       ]
     },
     "reviews": {
@@ -212,21 +290,48 @@
     "process": {
       "headline": "So kommt Farbe ins Haus",
       "steps": [
-        { "title": "Anfrage", "text": "Anrufen oder Formular ausfüllen – gern mit Fotos der Räume." },
-        { "title": "Termin vor Ort", "text": "Flächen, Untergrund und Farbwünsche werden gemeinsam angeschaut." },
-        { "title": "Angebot", "text": "Sie erhalten ein klares Angebot für die besprochenen Arbeiten." },
-        { "title": "Ausführung", "text": "Abdecken, vorbereiten, streichen – und besenrein übergeben." }
+        {
+          "title": "Anfrage",
+          "text": "Anrufen oder Formular ausfüllen – gern mit Fotos der Räume."
+        },
+        {
+          "title": "Termin vor Ort",
+          "text": "Flächen, Untergrund und Farbwünsche werden gemeinsam angeschaut."
+        },
+        {
+          "title": "Angebot",
+          "text": "Sie erhalten ein klares Angebot für die besprochenen Arbeiten."
+        },
+        {
+          "title": "Ausführung",
+          "text": "Abdecken, vorbereiten, streichen – und besenrein übergeben."
+        }
       ]
     },
     "gallery": {
       "headline": "Frisch gestrichen in Kaufering",
       "text": "Für die Live-Version zeigen wir hier echte Projekte des Betriebs.",
       "items": [
-        { "title": "Wohnzimmer", "photoNeeded": "frisch gestrichenes Wohnzimmer" },
-        { "title": "Neue Tapete", "photoNeeded": "frisch tapezierte Wand" },
-        { "title": "Treppenhaus", "photoNeeded": "renoviertes Treppenhaus" },
-        { "title": "Fassade", "photoNeeded": "neu beschichtete Hausfassade" },
-        { "title": "Putz ausgebessert", "photoNeeded": "ausgebesserte Wand vor und nach dem Anstrich" }
+        {
+          "title": "Wohnzimmer",
+          "photoNeeded": "frisch gestrichenes Wohnzimmer"
+        },
+        {
+          "title": "Neue Tapete",
+          "photoNeeded": "frisch tapezierte Wand"
+        },
+        {
+          "title": "Treppenhaus",
+          "photoNeeded": "renoviertes Treppenhaus"
+        },
+        {
+          "title": "Fassade",
+          "photoNeeded": "neu beschichtete Hausfassade"
+        },
+        {
+          "title": "Putz ausgebessert",
+          "photoNeeded": "ausgebesserte Wand vor und nach dem Anstrich"
+        }
       ]
     },
     "region": {
@@ -242,11 +347,26 @@
       ]
     },
     "faq": [
-      { "q": "Streichen Sie auch Fassaden?", "a": "Ja, Fassadenbeschichtung und Imprägnierung gehören zum Angebot." },
-      { "q": "Übernehmen Sie Tapezierarbeiten?", "a": "Ja, Tapezieren gehört genauso dazu wie Streichen und Putzarbeiten." },
-      { "q": "Arbeiten Sie auch im Neubau?", "a": "Ja, Malerarbeiten im Neubau werden nach Bauablauf terminiert." },
-      { "q": "Wann sind Sie erreichbar?", "a": "Telefonisch werktags von 8 bis 18 Uhr." },
-      { "q": "Kommen Sie auch nach Landsberg?", "a": "Ja, Landsberg und die Orte rund um Kaufering gehören zum Einsatzgebiet." }
+      {
+        "q": "Streichen Sie auch Fassaden?",
+        "a": "Ja, Fassadenbeschichtung und Imprägnierung gehören zum Angebot."
+      },
+      {
+        "q": "Übernehmen Sie Tapezierarbeiten?",
+        "a": "Ja, Tapezieren gehört genauso dazu wie Streichen und Putzarbeiten."
+      },
+      {
+        "q": "Arbeiten Sie auch im Neubau?",
+        "a": "Ja, Malerarbeiten im Neubau werden nach Bauablauf terminiert."
+      },
+      {
+        "q": "Wann sind Sie erreichbar?",
+        "a": "Telefonisch werktags von 8 bis 18 Uhr."
+      },
+      {
+        "q": "Kommen Sie auch nach Landsberg?",
+        "a": "Ja, Landsberg und die Orte rund um Kaufering gehören zum Einsatzgebiet."
+      }
     ],
     "contact": {
       "headline": "Ihr Angebot – kostenlos und unverbindlich",
@@ -278,13 +398,18 @@
     },
     "stickyCta": "Angebot anfragen",
     "look": {
-      "palette": 2,
-      "font": 6,
-      "hero": 0,
-      "services": 1,
-      "radius": 1,
-      "logo": 0,
-      "intro": 5
+      "palette": 4,
+      "font": 1,
+      "hero": 5,
+      "services": 5,
+      "radius": 2,
+      "logo": 3,
+      "intro": 0,
+      "projects": 2,
+      "process": 2,
+      "faq": 0,
+      "reviews": 1,
+      "order": 1
     }
   }
 }

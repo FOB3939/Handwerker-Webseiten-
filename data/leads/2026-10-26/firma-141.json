@@ -112,12 +112,30 @@
     "seoTitle": "Trockenbau in Dießen am Ammersee – Tonino Trockenbau",
     "seoDescription": "Trockenbau, Spachtel-, Maler- und Bodenarbeiten in Dießen, Utting und Raisting. Angebot anfragen – auch per WhatsApp.",
     "nav": [
-      { "label": "Leistungen", "href": "#leistungen" },
-      { "label": "Projekte", "href": "#projekte" },
-      { "label": "Bewertungen", "href": "#bewertungen" },
-      { "label": "Ablauf", "href": "#ablauf" },
-      { "label": "FAQ", "href": "#faq" },
-      { "label": "Kontakt", "href": "#kontakt" }
+      {
+        "label": "Leistungen",
+        "href": "#leistungen"
+      },
+      {
+        "label": "Projekte",
+        "href": "#projekte"
+      },
+      {
+        "label": "Bewertungen",
+        "href": "#bewertungen"
+      },
+      {
+        "label": "Ablauf",
+        "href": "#ablauf"
+      },
+      {
+        "label": "FAQ",
+        "href": "#faq"
+      },
+      {
+        "label": "Kontakt",
+        "href": "#kontakt"
+      }
     ],
     "hero": {
       "eyebrow": "Trockenbau · Dießen am Ammersee",
@@ -133,16 +151,40 @@
       "imageLabel": "frisch verspachtelte Trockenbauwand in einem hellen Raum"
     },
     "badges": [
-      { "title": "Trockenbau", "sub": "Wände & Decken" },
-      { "title": "Spachteln", "sub": "glatte Flächen" },
-      { "title": "Malerarbeiten", "sub": "fertig gestrichen" },
-      { "title": "Dettenschwang", "sub": "Markt Dießen" }
+      {
+        "title": "Trockenbau",
+        "sub": "Wände & Decken"
+      },
+      {
+        "title": "Spachteln",
+        "sub": "glatte Flächen"
+      },
+      {
+        "title": "Malerarbeiten",
+        "sub": "fertig gestrichen"
+      },
+      {
+        "title": "Dettenschwang",
+        "sub": "Markt Dießen"
+      }
     ],
     "trust": [
-      { "value": "3", "label": "Gewerke aus einer Hand" },
-      { "value": "Vor Ort", "label": "Betrieb im Markt Dießen" },
-      { "value": "Innen", "label": "Wand, Decke, Boden" },
-      { "value": "Mobil", "label": "Anruf oder WhatsApp" }
+      {
+        "value": "3",
+        "label": "Gewerke aus einer Hand"
+      },
+      {
+        "value": "Vor Ort",
+        "label": "Betrieb im Markt Dießen"
+      },
+      {
+        "value": "Innen",
+        "label": "Wand, Decke, Boden"
+      },
+      {
+        "value": "Mobil",
+        "label": "Anruf oder WhatsApp"
+      }
     ],
     "servicesIntro": {
       "headline": "Vom Ständerwerk bis zum fertigen Boden",
@@ -152,41 +194,77 @@
       {
         "title": "Trockenbauwände",
         "text": "Neue Raumaufteilung mit Ständerwänden – ohne Nassarbeiten und lange Trocknungszeiten.",
-        "items": ["Ständerwände", "Raumteiler", "Vorsatzschalen"]
+        "items": [
+          "Ständerwände",
+          "Raumteiler",
+          "Vorsatzschalen"
+        ]
       },
       {
         "title": "Decken abhängen",
         "text": "Abgehängte Decken verbergen Leitungen und schaffen ein ruhiges Raumbild.",
-        "items": ["Abgehängte Decken", "Leitungen verkleiden", "Einbauleuchten vorbereiten"]
+        "items": [
+          "Abgehängte Decken",
+          "Leitungen verkleiden",
+          "Einbauleuchten vorbereiten"
+        ]
       },
       {
         "title": "Dachausbau",
         "text": "Dachschrägen beplanken und den Speicher zum nutzbaren Raum machen.",
-        "items": ["Dachschrägen", "Kniestöcke", "Beplankung"]
+        "items": [
+          "Dachschrägen",
+          "Kniestöcke",
+          "Beplankung"
+        ]
       },
       {
         "title": "Putz & Spachtel",
         "text": "Fugen und Flächen werden glatt gespachtelt – die Grundlage für einen sauberen Anstrich.",
-        "items": ["Spachtelarbeiten", "Ausbesserungen", "Glatte Oberflächen"]
+        "items": [
+          "Spachtelarbeiten",
+          "Ausbesserungen",
+          "Glatte Oberflächen"
+        ]
       },
       {
         "title": "Malerarbeiten",
         "text": "Nach dem Trockenbau gleich gestrichen: Wände und Decken übergeben Sie bezugsfertig.",
-        "items": ["Wände streichen", "Decken streichen", "Renovierung"]
+        "items": [
+          "Wände streichen",
+          "Decken streichen",
+          "Renovierung"
+        ]
       },
       {
         "title": "Bodenbeläge",
         "text": "Zum Schluss der neue Boden – der Raum ist danach komplett fertig.",
-        "items": ["Boden verlegen", "Altbelag ersetzen", "Sockelleisten"]
+        "items": [
+          "Boden verlegen",
+          "Altbelag ersetzen",
+          "Sockelleisten"
+        ]
       }
     ],
     "why": {
       "headline": "Ein Ansprechpartner für den ganzen Raum.",
       "points": [
-        { "title": "Drei Gewerke", "text": "Trockenbau, Anstrich und Boden aus einer Hand – keine Abstimmung zwischen mehreren Firmen." },
-        { "title": "Kurze Wege", "text": "Von Dettenschwang aus schnell in Dießen, Utting, Raisting und Hofstetten." },
-        { "title": "Direkter Draht", "text": "Ein Anruf oder eine WhatsApp-Nachricht genügt – ohne Zentrale." },
-        { "title": "Trocken gebaut", "text": "Trockenbau braucht keine langen Trocknungszeiten, Räume sind schnell wieder nutzbar." }
+        {
+          "title": "Drei Gewerke",
+          "text": "Trockenbau, Anstrich und Boden aus einer Hand – keine Abstimmung zwischen mehreren Firmen."
+        },
+        {
+          "title": "Kurze Wege",
+          "text": "Von Dettenschwang aus schnell in Dießen, Utting, Raisting und Hofstetten."
+        },
+        {
+          "title": "Direkter Draht",
+          "text": "Ein Anruf oder eine WhatsApp-Nachricht genügt – ohne Zentrale."
+        },
+        {
+          "title": "Trocken gebaut",
+          "text": "Trockenbau braucht keine langen Trocknungszeiten, Räume sind schnell wieder nutzbar."
+        }
       ]
     },
     "reviews": {
@@ -205,21 +283,48 @@
     "process": {
       "headline": "So entsteht Ihr neuer Raum",
       "steps": [
-        { "title": "Fotos schicken", "text": "Raum fotografieren, grobe Maße notieren und per WhatsApp senden." },
-        { "title": "Besichtigung", "text": "Wände, Decke und Boden werden vor Ort angeschaut und abgestimmt." },
-        { "title": "Angebot", "text": "Sie bekommen ein Angebot mit allen Arbeitsschritten." },
-        { "title": "Umsetzung", "text": "Ständerwerk, Spachteln, Anstrich, Boden – bis der Raum fertig ist." }
+        {
+          "title": "Fotos schicken",
+          "text": "Raum fotografieren, grobe Maße notieren und per WhatsApp senden."
+        },
+        {
+          "title": "Besichtigung",
+          "text": "Wände, Decke und Boden werden vor Ort angeschaut und abgestimmt."
+        },
+        {
+          "title": "Angebot",
+          "text": "Sie bekommen ein Angebot mit allen Arbeitsschritten."
+        },
+        {
+          "title": "Umsetzung",
+          "text": "Ständerwerk, Spachteln, Anstrich, Boden – bis der Raum fertig ist."
+        }
       ]
     },
     "gallery": {
       "headline": "Ausbau am Ammersee",
       "text": "Für die Live-Version zeigen wir hier echte Projekte des Betriebs.",
       "items": [
-        { "title": "Neue Trennwand", "photoNeeded": "Ständerwand im Rohbau und verspachtelt" },
-        { "title": "Abgehängte Decke", "photoNeeded": "glatte Decke mit Einbauleuchten" },
-        { "title": "Dachgeschoss", "photoNeeded": "beplankte und gestrichene Dachschräge" },
-        { "title": "Frischer Anstrich", "photoNeeded": "frisch gestrichener Wohnraum" },
-        { "title": "Neuer Boden", "photoNeeded": "neu verlegter Boden im fertigen Raum" }
+        {
+          "title": "Neue Trennwand",
+          "photoNeeded": "Ständerwand im Rohbau und verspachtelt"
+        },
+        {
+          "title": "Abgehängte Decke",
+          "photoNeeded": "glatte Decke mit Einbauleuchten"
+        },
+        {
+          "title": "Dachgeschoss",
+          "photoNeeded": "beplankte und gestrichene Dachschräge"
+        },
+        {
+          "title": "Frischer Anstrich",
+          "photoNeeded": "frisch gestrichener Wohnraum"
+        },
+        {
+          "title": "Neuer Boden",
+          "photoNeeded": "neu verlegter Boden im fertigen Raum"
+        }
       ]
     },
     "region": {
@@ -236,11 +341,26 @@
       ]
     },
     "faq": [
-      { "q": "Übernehmen Sie auch Streichen und Boden?", "a": "Ja, neben Trockenbau gehören Maler- und Bodenarbeiten zum Angebot." },
-      { "q": "Kann ich vorab Fotos schicken?", "a": "Ja, Fotos und grobe Maße per WhatsApp reichen für eine erste Einschätzung." },
-      { "q": "Wie lange dauert eine Trockenbauwand?", "a": "Das hängt von Größe und Ausführung ab. Der Zeitplan wird nach der Besichtigung abgestimmt." },
-      { "q": "Bauen Sie auch Dachgeschosse aus?", "a": "Fragen Sie Ihr Vorhaben an – Umfang und Details werden vor Ort besprochen." },
-      { "q": "In welchen Orten arbeiten Sie?", "a": "Im Raum Dießen am Ammersee, etwa in Utting, Raisting, Hofstetten und Thaining." }
+      {
+        "q": "Übernehmen Sie auch Streichen und Boden?",
+        "a": "Ja, neben Trockenbau gehören Maler- und Bodenarbeiten zum Angebot."
+      },
+      {
+        "q": "Kann ich vorab Fotos schicken?",
+        "a": "Ja, Fotos und grobe Maße per WhatsApp reichen für eine erste Einschätzung."
+      },
+      {
+        "q": "Wie lange dauert eine Trockenbauwand?",
+        "a": "Das hängt von Größe und Ausführung ab. Der Zeitplan wird nach der Besichtigung abgestimmt."
+      },
+      {
+        "q": "Bauen Sie auch Dachgeschosse aus?",
+        "a": "Fragen Sie Ihr Vorhaben an – Umfang und Details werden vor Ort besprochen."
+      },
+      {
+        "q": "In welchen Orten arbeiten Sie?",
+        "a": "Im Raum Dießen am Ammersee, etwa in Utting, Raisting, Hofstetten und Thaining."
+      }
     ],
     "contact": {
       "headline": "Ihr Angebot – kostenlos und unverbindlich",
@@ -273,12 +393,17 @@
     "stickyCta": "Angebot anfragen",
     "look": {
       "palette": 2,
-      "font": 6,
-      "hero": 0,
-      "services": 1,
-      "radius": 1,
-      "logo": 0,
-      "intro": 5
+      "font": 10,
+      "hero": 2,
+      "services": 0,
+      "radius": 4,
+      "logo": 2,
+      "intro": 1,
+      "projects": 1,
+      "process": 0,
+      "faq": 2,
+      "reviews": 0,
+      "order": 2
     }
   }
 }

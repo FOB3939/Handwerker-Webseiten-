@@ -385,13 +385,18 @@
     },
     "stickyCta": "Angebot anfragen",
     "look": {
-      "palette": 2,
-      "font": 6,
-      "hero": 0,
-      "services": 1,
-      "radius": 1,
-      "logo": 0,
-      "intro": 5
+      "palette": 3,
+      "font": 4,
+      "hero": 6,
+      "services": 4,
+      "radius": 2,
+      "logo": 4,
+      "intro": 5,
+      "projects": 2,
+      "process": 1,
+      "faq": 1,
+      "reviews": 0,
+      "order": 2
     }
   }
 }

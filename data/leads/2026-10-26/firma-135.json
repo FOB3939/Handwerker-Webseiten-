@@ -387,13 +387,18 @@
     },
     "stickyCta": "Projekt anfragen",
     "look": {
-      "palette": 2,
-      "font": 6,
-      "hero": 0,
-      "services": 1,
-      "radius": 1,
-      "logo": 0,
-      "intro": 5
+      "palette": 1,
+      "font": 13,
+      "hero": 3,
+      "services": 5,
+      "radius": 4,
+      "logo": 3,
+      "intro": 0,
+      "projects": 0,
+      "process": 2,
+      "faq": 0,
+      "reviews": 1,
+      "order": 3
     }
   }
 }

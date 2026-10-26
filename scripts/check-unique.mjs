@@ -24,7 +24,7 @@ for (let a = 0; a < items.length; a++) for (let b = a + 1; b < items.length; b++
 }
 
 // Textprüfung (Kurzfassung der writing-guidelines für Handwerker-Seiten)
-const FLOSKELN = [/qualität zu fairen preisen/i, /ihr zuverlässiger partner/i, /rundum[- ]sorglos/i, /höchste qualität/i, /kompetent und zuverlässig/i, /alles aus einer hand(?!.*\w)/i, /wir sind für sie da/i, /zufriedenheit unserer kunden/i, /nr\.?\s*1/i, /der beste/i];
+const FLOSKELN = [/qualität zu fairen preisen/i, /ihr zuverlässiger partner/i, /rundum[- ]sorglos/i, /höchste qualität/i, /kompetent und zuverlässig/i, /alles aus einer hand(?!.*\w)/i, /wir sind für sie da/i, /zufriedenheit unserer kunden/i, /nr\.?\s*1/i, /\bder beste\b/i];
 const words = (s) => (s ?? "").trim().split(/\s+/).filter(Boolean).length;
 for (const { f, lead } of leads) {
   const s = lead.site;

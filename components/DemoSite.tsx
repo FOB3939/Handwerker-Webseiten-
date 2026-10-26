@@ -412,7 +412,7 @@ function Hero({ lead, theme, call, upper, hof, fx }: Ctx) {
             {art("aspect-[4/3] w-full rounded-t shadow-lg", 2)}
             <div className="flex flex-col justify-end rounded-t bg-t-accent p-5 text-t-accent-ink shadow-lg">
               <p className="font-display text-2xl font-black leading-tight">{b0?.title}</p>
-              <p className="mt-1 text-sm opacity-90">{b0?.sub}</p>
+              <p className="mt-1 text-sm">{b0?.sub}</p>
               {b1 && <p className="mt-3 border-t border-current/30 pt-3 text-sm font-semibold">{b1.title}</p>}
             </div>
           </div>
