@@ -80,9 +80,9 @@ const ld = Astro.url.pathname === base ? [org, website, ...jsonLd] : [org, ...js
     <a class="skip-link" href="#inhalt">Zum Inhalt springen</a>
     {SITE.preview && (
       <div class="preview-bar" role="note">
-        <span>Private Vorschau – Inhalte, Bilder und Logo vor Veröffentlichung mit Silver Stage abstimmen.</span>
+        <span>Entwurf – Inhalte, Bilder, Preise und Logo werden vor der Veröffentlichung mit Silver Stage abgestimmt.</span>
         <span class="fx-tools">
-          <span data-fx-status>Skripte: aus</span>
+          <span data-fx-status hidden></span>
           <button type="button" data-fx-intro hidden>Intro abspielen</button>
           <button type="button" data-fx-force hidden>Effekte erzwingen</button>
         </span>
@@ -90,7 +90,9 @@ const ld = Astro.url.pathname === base ? [org, website, ...jsonLd] : [org, ...js
           // sofort (vor dem ersten Zeichnen) ausfüllen, damit die Leiste beim Laden nicht wächst
           (function () {
             var r = matchMedia("(prefers-reduced-motion: reduce)").matches, f = document.documentElement.classList.contains("fx-force");
-            document.querySelector("[data-fx-status]").textContent = "Skripte: an · „Bewegung reduzieren“: " + (r ? "an" + (f ? " (Effekte erzwungen)" : " (Effekte gedrosselt)") : "aus");
+            // Hinweis nur zeigen, wenn das Gerät Bewegung reduziert (sonst keine Technik-Angaben im Entwurf)
+            var st = document.querySelector("[data-fx-status]");
+            if (r) { st.hidden = false; st.textContent = "„Bewegung reduzieren“ ist an" + (f ? " – Effekte erzwungen" : " – Effekte gedrosselt"); }
             document.querySelector("[data-fx-intro]").hidden = false;
             if (r) { var b = document.querySelector("[data-fx-force]"); b.hidden = false; b.textContent = f ? "Effekte normal (gedrosselt)" : "Effekte erzwingen"; }
           })();
