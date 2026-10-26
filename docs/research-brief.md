@@ -6,10 +6,19 @@ Repo: /home/user/Handwerker-Webseiten- (Branch daily-leads/2026-10-21). Antworte
 Kleine Handwerksbetriebe (alle Gewerke) im Münchner Umland, die einen Google-Eintrag haben (gern neu, 1–40 Bewertungen), aber KEINE eigene Website. Für jeden angenommenen Betrieb schreibst du eine Datei `data/leads/2026-10-21/firma-N.json` (deine Nummern stehen im Auftrag).
 
 ## Regionen heute
+(Alle 12 Gruppen – pro Tag 4, Index = (Tag des Jahres × 4 + k) mod 12, k = 0…3, Index 0 = G1. Nur die heutigen 4 in den Tagesbrief übernehmen, gern mit kleineren Nachbarorten in Klammern.)
 G1 Germering, Puchheim, Gilching, Gauting, Planegg, Krailling
 G2 Fürstenfeldbruck, Olching, Maisach, Emmering, Gröbenzell, Mammendorf
 G3 Dachau, Karlsfeld, Bergkirchen, Markt Indersdorf, Petershausen, Hebertshausen
 G4 Freising, Neufahrn, Eching, Moosburg, Allershausen, Hallbergmoos
+G5 Erding, Dorfen, Taufkirchen (Vils), Wartenberg, Isen, Moosinning
+G6 Ebersberg, Grafing, Poing, Markt Schwaben, Kirchseeon, Zorneding, Glonn
+G7 Unterhaching, Taufkirchen, Ottobrunn, Neubiberg, Haar, Vaterstetten
+G8 Wolfratshausen, Geretsried, Holzkirchen, Sauerlach, Bad Tölz, Lenggries
+G9 Starnberg, Tutzing, Herrsching, Pöcking, Wörthsee, Inning
+G10 Weilheim, Penzberg, Murnau, Peißenberg, Seeshaupt, Iffeldorf
+G11 Landsberg, Kaufering, Mering, Friedberg, Schwabmünchen, Windach
+G12 Garching, Ismaning, Unterschleißheim, Oberschleißheim, Aschheim, Kirchheim
 
 Gewerke bunt mischen: Sanitär/Installateur, Heizung, Elektro, Schreiner/Tischler, Zimmerer, Dachdecker, Spengler, Maler, Fliesen, Boden/Parkett, Trockenbau, Innenausbau, Maurer, Fassade, Pflaster, GaLaBau/Gartenpflege, Baumpflege, Fenster/Rollladen, Küchen-/Möbelmontage, Metallbau/Schlosser, Hausmeister, Reinigung, Entrümpelung, Renovierung. Bevorzugt Gewerke, die bisher selten waren: Sanitär/Heizung, Elektro, Schreiner, Zimmerer, Dachdecker, Spengler, Metallbau, Fenster/Rollladen, Pflaster, Fassade.
 Bevorzugt: öffentlich gelistete MOBILNUMMER (015x/016x/017x).
