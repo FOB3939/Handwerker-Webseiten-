@@ -1,0 +1,18 @@
+---
+// Logo aus den Vektordaten von scripts/build-logo.mjs – im Header ruhig, im Intro/Spiel animierbar.
+import { SIGNET, WORDMARK_ONE_LINE as W } from "../assets/brand";
+interface Props { variant?: "horizontal" | "signet"; class?: string; title?: string; animated?: boolean }
+const { variant = "horizontal", class: cls, title = "Silver Stage", animated = false } = Astro.props;
+const R = SIGNET.rOuter;
+const D = R * 2, gap = 22;
+const w = variant === "signet" ? D : D + gap + W.width;
+---
+<svg class={cls} viewBox={`0 0 ${w.toFixed(1)} ${D.toFixed(1)}`} role="img" aria-label={title} data-logo>
+  <g transform={`translate(${R} ${R})`} class="signet">
+    <g fill="none" stroke="currentColor" stroke-width={SIGNET.stroke} stroke-linecap="round">
+      {SIGNET.arcs.map((a) => <path d={a.d} data-group={a.group} data-ring={a.ring} pathLength={animated ? 1 : undefined} />)}
+    </g>
+    <circle r={SIGNET.dot} fill="currentColor" class="signet-dot" />
+  </g>
+  {variant === "horizontal" && <path class="wordmark" fill="currentColor" transform={`translate(${D + gap} ${R + W.capH / 2})`} d={W.d} />}
+</svg>

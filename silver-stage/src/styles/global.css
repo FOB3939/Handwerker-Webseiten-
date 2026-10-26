@@ -1,0 +1,120 @@
+/* Silver Stage – Designsystem
+   Anthrazit, Silber, sparsames Blauviolett (aus dem Licht des Lightrooms). Große, leichte Versalien mit Laufweite,
+   ruhige Abstände, feine Linien. Kontraste der verwendeten Paare: siehe docs/PRUEFPROTOKOLL.md. */
+
+:root {
+  --bg: #101112;
+  --bg-2: #191b1e;
+  --bg-3: #22252a;
+  --ink: #f3f1ec;
+  --ink-2: #b8bdc5;
+  --silver: #c6cbd2;
+  --line: rgb(243 241 236 / 0.14);
+  --line-strong: rgb(243 241 236 / 0.32);
+  --violet: #8b7dff;      /* Lichtakzent – nur dekorativ oder auf dunklem Grund groß */
+  --violet-soft: rgb(139 125 255 / 0.18);
+  --focus: #b9b0ff;
+
+  --font-display: "Jost", "Futura", "Avenir Next", system-ui, sans-serif;
+  --font-body: "Inter", system-ui, -apple-system, "Segoe UI", sans-serif;
+
+  --pad: clamp(20px, 4.2vw, 64px);
+  --max: 1320px;
+  --max-text: 68ch;
+  --radius: 3px;
+  --ease: cubic-bezier(0.22, 0.7, 0.2, 1);
+
+  --step--1: clamp(0.8rem, 0.78rem + 0.1vw, 0.86rem);
+  --step-0: clamp(1rem, 0.97rem + 0.15vw, 1.0625rem);
+  --step-1: clamp(1.2rem, 1.1rem + 0.45vw, 1.45rem);
+  --step-2: clamp(1.55rem, 1.3rem + 1.1vw, 2.25rem);
+  --step-3: clamp(2rem, 1.5rem + 2.3vw, 3.5rem);
+  --step-4: clamp(2.6rem, 1.6rem + 4.6vw, 6rem);
+  color-scheme: dark;
+}
+
+*, *::before, *::after { box-sizing: border-box; }
+html { -webkit-text-size-adjust: 100%; scroll-padding-top: 88px; }
+body {
+  margin: 0; background: var(--bg); color: var(--ink);
+  font: 400 var(--step-0) / 1.65 var(--font-body);
+  -webkit-font-smoothing: antialiased; text-rendering: optimizeLegibility; overflow-x: clip;
+}
+img, svg, video { display: block; max-width: 100%; }
+a { color: inherit; text-underline-offset: 0.2em; text-decoration-thickness: 1px; }
+:focus-visible { outline: 2px solid var(--focus); outline-offset: 3px; border-radius: 2px; }
+::selection { background: var(--violet); color: #0b0b0d; }
+
+h1, h2, h3, h4 { font-family: var(--font-display); font-weight: 400; line-height: 1.08; margin: 0; text-wrap: balance; hyphens: auto; }
+h1 { font-size: var(--step-4); font-weight: 300; letter-spacing: -0.01em; }
+h2 { font-size: var(--step-3); font-weight: 300; }
+h3 { font-size: var(--step-1); font-weight: 500; letter-spacing: 0.01em; }
+p { margin: 0; }
+p + p { margin-top: 1em; }
+
+.wrap { width: min(100% - 2 * var(--pad), var(--max)); margin-inline: auto; }
+.wrap--narrow { width: min(100% - 2 * var(--pad), 1120px); margin-inline: auto; }
+.section { padding-block: clamp(72px, 10vw, 144px); }
+.section--tight { padding-block: clamp(48px, 7vw, 96px); }
+.section--alt { background: var(--bg-2); }
+.rule { border: 0; border-top: 1px solid var(--line); margin: 0; }
+
+/* Kleine Versal-Labels mit Laufweite – wie in der Referenz */
+.label {
+  display: inline-flex; align-items: center; gap: 12px;
+  font: 500 var(--step--1) / 1.2 var(--font-display); letter-spacing: 0.28em; text-transform: uppercase; color: var(--silver);
+}
+.label::before { content: ""; width: 28px; height: 1px; background: currentColor; opacity: 0.7; }
+.label--plain::before { display: none; }
+.caps { font-family: var(--font-display); text-transform: uppercase; letter-spacing: 0.22em; }
+.lead { font-size: var(--step-1); line-height: 1.55; color: var(--ink-2); max-width: 56ch; }
+.muted { color: var(--ink-2); }
+.small { font-size: var(--step--1); }
+
+/* Buttons: hell gefüllt + zurückhaltend umrandet */
+.btn {
+  --h: 52px;
+  display: inline-flex; align-items: center; justify-content: center; gap: 12px; min-height: var(--h);
+  padding: 0 28px; border-radius: var(--radius); border: 1px solid transparent;
+  font: 500 0.82rem / 1 var(--font-display); letter-spacing: 0.2em; text-transform: uppercase; text-decoration: none;
+  cursor: pointer; transition: background-color 0.25s var(--ease), color 0.25s var(--ease), border-color 0.25s var(--ease), transform 0.25s var(--ease);
+}
+.btn svg { width: 16px; height: 16px; transition: transform 0.3s var(--ease); }
+.btn:hover svg { transform: translateX(4px); }
+.btn--primary { background: var(--ink); color: #101112; }
+.btn--primary:hover { background: #fff; }
+.btn--ghost { border-color: var(--line-strong); color: var(--ink); background: transparent; }
+.btn--ghost:hover { border-color: var(--ink); }
+.btn--sm { --h: 44px; padding: 0 20px; font-size: 0.74rem; }
+.btn[disabled] { opacity: 0.55; cursor: progress; }
+.btn-row { display: flex; flex-wrap: wrap; gap: 14px; }
+
+.link-arrow {
+  display: inline-flex; align-items: center; gap: 10px; min-height: 44px;
+  font: 500 0.8rem / 1 var(--font-display); letter-spacing: 0.2em; text-transform: uppercase; text-decoration: none; color: var(--ink);
+}
+.link-arrow svg { width: 16px; height: 16px; transition: transform 0.3s var(--ease); }
+.link-arrow:hover svg { transform: translateX(5px); }
+
+.skip-link { position: absolute; left: 16px; top: -100px; z-index: 200; background: var(--ink); color: #101112; padding: 12px 18px; border-radius: var(--radius); }
+.skip-link:focus { top: 16px; }
+.visually-hidden { position: absolute !important; width: 1px; height: 1px; margin: -1px; overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap; border: 0; }
+
+/* Hinweisleiste für die Vorschau */
+.preview-bar { background: #000; color: #c9ccd2; font-size: 12px; letter-spacing: 0.04em; text-align: center; padding: 7px 16px; }
+
+/* Platzhalter-Kennzeichnung auf gestalteten Bildflächen */
+.ph-tag {
+  position: absolute; left: 14px; bottom: 14px; z-index: 2; max-width: calc(100% - 28px);
+  font: 500 10.5px / 1.3 var(--font-body); letter-spacing: 0.08em; text-transform: uppercase;
+  color: #e9e7e2; background: rgb(0 0 0 / 0.55); border: 1px dashed rgb(255 255 255 / 0.4); padding: 5px 9px; border-radius: 2px;
+}
+
+/* Einblenden beim Scrollen – nur mit JS und ohne reduzierte Bewegung (Ausgangszustand sichtbar ohne JS) */
+.js [data-reveal] { opacity: 0; transform: translateY(22px); transition: opacity 0.9s var(--ease), transform 0.9s var(--ease); transition-delay: var(--d, 0s); }
+.js [data-reveal].is-in { opacity: 1; transform: none; }
+
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after { animation-duration: 0.01ms !important; animation-iteration-count: 1 !important; transition-duration: 0.01ms !important; scroll-behavior: auto !important; }
+  .js [data-reveal] { opacity: 1; transform: none; }
+}

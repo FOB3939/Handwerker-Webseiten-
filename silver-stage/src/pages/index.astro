@@ -1,0 +1,269 @@
+---
+import Base from "../layouts/Base.astro";
+import Visual from "../components/Visual.astro";
+import Icon from "../components/Icon.astro";
+import Logo from "../components/Logo.astro";
+import { ROOMS, CONTACT, roomByKey } from "../config/site";
+import { u } from "../lib/url";
+const studio = roomByKey("tonstudio");
+const paths = [
+  { n: "01", kicker: "Aufnehmen", title: "Musik, Gesang & Sprache", text: "Im akustisch optimierten Tonstudio mit analoger und digitaler Technik.", href: "/tonstudio/" },
+  { n: "02", kicker: "Proben", title: "Bands & Live-Sessions", text: "Im Stageroom mit Bühne, Licht, Konzertanlage und Monitoring.", href: "/stageroom/" },
+  { n: "03", kicker: "Gestalten", title: "Tanz, Unterricht & Fotoshootings", text: "Im Lightroom mit farbigem Licht, hängender PA und Spiegelwand.", href: "/lightroom/" },
+];
+---
+<Base
+  title="Silver Stage – Tonstudio & Proberäume in München-Sendling"
+  description="Tonstudio, Proberaum mit Bühne und Raum für Tanz & Fotografie in München-Sendling. Musik aufnehmen, proben und gestalten – jetzt Session anfragen."
+  intro
+  current="/"
+>
+  <!-- 1 · Einstieg -->
+  <section class="hero" aria-labelledby="hero-title">
+    <div class="hero-bg"><Visual kind="studio" ratio="auto" class="hero-visual" eager /></div>
+    <div class="wrap hero-inner">
+      <p class="label">München-Sendling</p>
+      <p class="wordmark caps" aria-hidden="true">Silver Stage</p>
+      <h1 id="hero-title">Dein Sound. Dein&nbsp;Raum.</h1>
+      <p class="lead">Tonstudio, Proberaum mit Bühne und Raum für Tanz & Fotografie – an einem Ort in München.</p>
+      <div class="btn-row">
+        <a class="btn btn--primary" href={u("/kontakt/")}>Session anfragen<Icon name="arrow" /></a>
+        <a class="btn btn--ghost" href="#raeume">Räume entdecken</a>
+      </div>
+    </div>
+    <a class="scroll-cue" href="#zugaenge" aria-label="Weiter zu den Angeboten"><span></span></a>
+  </section>
+
+  <!-- 2 · Drei Zugänge -->
+  <section class="section paths" id="zugaenge" aria-labelledby="paths-title">
+    <div class="wrap">
+      <h2 id="paths-title" class="visually-hidden">Was du bei Silver Stage machen kannst</h2>
+      <ol class="path-list">
+        {paths.map((p, i) => (
+          <li data-reveal style={`--d:${i * 0.08}s`}>
+            <a href={u(p.href)} class="path">
+              <span class="num">{p.n}</span>
+              <span class="label label--plain">{p.kicker}</span>
+              <span class="ptitle">{p.title}</span>
+              <span class="ptext">{p.text}</span>
+              <span class="link-arrow">Mehr erfahren<Icon name="arrow" /></span>
+            </a>
+          </li>
+        ))}
+      </ol>
+    </div>
+  </section>
+
+  <!-- 3 · Räume im Vergleich -->
+  <section class="section section--alt" id="raeume" aria-labelledby="rooms-title">
+    <div class="wrap">
+      <div class="head" data-reveal>
+        <p class="label">Räume</p>
+        <h2 id="rooms-title">Drei Räume, ein Ort</h2>
+        <p class="lead">Vom Aufnahmeraum bis zur Bühne: Wähl den Raum, der zu deinem Vorhaben passt.</p>
+      </div>
+      <ul class="rooms">
+        {ROOMS.map((r, i) => (
+          <li class="room zoomable" data-reveal style={`--d:${i * 0.1}s`}>
+            <a href={u(r.path)} class="room-media" tabindex="-1" aria-hidden="true"><Visual kind={r.visual} ratio="4 / 3" /></a>
+            <div class="room-body">
+              <p class="label label--plain">{r.kicker}{r.area && <span class="area"> · {r.area}</span>}</p>
+              <h3><a href={u(r.path)}>{r.name}</a></h3>
+              <p class="muted">{r.short}</p>
+              <ul class="room-facts">{r.facts.slice(0, 3).map((f) => <li>{f}</li>)}</ul>
+              <div class="room-actions">
+                <a class="link-arrow" href={u(r.path)}>Zum {r.name}<Icon name="arrow" /></a>
+                <a class="btn btn--ghost btn--sm" href={u(`/kontakt/?raum=${r.key}`)}>Anfragen</a>
+              </div>
+            </div>
+          </li>
+        ))}
+      </ul>
+    </div>
+  </section>
+
+  <!-- 4 · Bilderstrecke -->
+  <section class="section gallery" aria-labelledby="gallery-title">
+    <div class="wrap">
+      <div class="head head--row" data-reveal>
+        <div><p class="label">Einblicke</p><h2 id="gallery-title">Studio, Bühne, Licht</h2></div>
+        <p class="muted">Die Bildflächen sind Platzhalter, bis freigegebene Fotos der Räume vorliegen.</p>
+      </div>
+      <div class="mosaic">
+        <Visual kind="stage" ratio="16 / 10" class="m1" />
+        <Visual kind="light" ratio="4 / 5" class="m2" />
+        <Visual kind="detail" ratio="1 / 1" class="m3" />
+        <Visual kind="lounge" ratio="16 / 10" class="m4" />
+      </div>
+    </div>
+  </section>
+
+  <!-- 5 · Studioqualität -->
+  <section class="section section--alt" aria-labelledby="tech-title">
+    <div class="wrap tech">
+      <div data-reveal>
+        <p class="label">Studioqualität</p>
+        <h2 id="tech-title">Analog und digital</h2>
+        <p class="lead">Ein akustisch optimierter Raum und Technik, die du nicht zu Hause stehen hast.</p>
+        <a class="link-arrow" href={u("/tonstudio/")}>Ausstattung ansehen<Icon name="arrow" /></a>
+      </div>
+      <ul class="tech-list" data-reveal style="--d:.1s">
+        {studio.facts.map((f) => <li><span class="dot" aria-hidden="true"></span>{f}</li>)}
+      </ul>
+    </div>
+  </section>
+
+  <!-- 7 · Ablauf -->
+  <section class="section" aria-labelledby="steps-title">
+    <div class="wrap">
+      <div class="head" data-reveal>
+        <p class="label">So läuft’s</p>
+        <h2 id="steps-title">In drei Schritten zur Session</h2>
+      </div>
+      <ol class="steps">
+        <li data-reveal><span class="num">1</span><h3>Vorhaben beschreiben</h3><p class="muted">Schreib uns, was du aufnehmen, proben oder gestalten möchtest – und wann.</p></li>
+        <li data-reveal style="--d:.08s"><span class="num">2</span><h3>Details abstimmen</h3><p class="muted">Wir klären Raum, Dauer, Technik und dein individuelles Angebot.</p></li>
+        <li data-reveal style="--d:.16s"><span class="num">3</span><h3>Termin bestätigen</h3><p class="muted">Sobald alles passt, bestätigen wir deinen Termin verbindlich.</p></li>
+      </ol>
+    </div>
+  </section>
+
+  <!-- Beat Stage Teaser -->
+  <section class="teaser" aria-labelledby="teaser-title">
+    <div class="wrap teaser-inner">
+      <div class="teaser-logo" aria-hidden="true"><Logo variant="signet" /></div>
+      <div>
+        <p class="label">Beat Stage</p>
+        <h2 id="teaser-title">Triffst du den Takt?</h2>
+        <p class="lead">Unser Rhythmusspiel im Browser: vier Pads, 30 Sekunden, 100 BPM. Ohne Anmeldung, Ton nur wenn du willst.</p>
+        <a class="btn btn--primary" href={u("/beat-stage/")}>Jetzt spielen<Icon name="arrow" /></a>
+      </div>
+    </div>
+  </section>
+
+  <!-- 8 · Standort -->
+  <section class="section section--alt" aria-labelledby="loc-title">
+    <div class="wrap loc">
+      <div data-reveal>
+        <p class="label">Standort</p>
+        <h2 id="loc-title">Mitten in Sendling</h2>
+        <address class="addr">{CONTACT.street}<br />{CONTACT.zip} {CONTACT.city}</address>
+        <p class="muted">{CONTACT.hoursNote}</p>
+        <div class="btn-row">
+          <a class="btn btn--ghost" href={CONTACT.routeUrl} target="_blank" rel="noopener"><Icon name="pin" />Route planen</a>
+        </div>
+        <p class="small muted note">Der Link öffnet Google Maps in einem neuen Tab. Auf dieser Seite ist keine Karte eingebettet.</p>
+      </div>
+      <div class="map" aria-hidden="true" data-reveal style="--d:.1s">
+        <svg viewBox="0 0 600 420"><rect width="600" height="420" fill="#141518" />
+          <g stroke="#2a2d33" stroke-width="10" fill="none" stroke-linecap="round"><path d="M-20 300 C120 280 240 240 620 120" /><path d="M140 -20 L230 440" /><path d="M-20 120 L620 210" /><path d="M420 -20 C400 120 430 300 380 440" /></g>
+          <path d="M-20 360 C150 330 300 300 620 260" stroke="#2b3550" stroke-width="22" fill="none" opacity="0.8" />
+          <g transform="translate(300 205)"><circle r="46" fill="#8b7dff" opacity="0.18" /><circle r="9" fill="#f3f1ec" /><circle r="20" fill="none" stroke="#f3f1ec" stroke-opacity="0.5" /></g>
+          <text x="330" y="190" fill="#c6cbd2" font-family="Jost, sans-serif" font-size="16" letter-spacing="3">FLÖSSERGASSE 8</text>
+        </svg>
+      </div>
+    </div>
+  </section>
+
+  <!-- 9 · Kontakt -->
+  <section class="section cta" aria-labelledby="cta-title">
+    <div class="wrap cta-inner" data-reveal>
+      <p class="label">Kontakt</p>
+      <h2 id="cta-title">Erzähl uns von deinem Projekt.</h2>
+      <p class="lead">Wir melden uns mit einem individuellen Angebot.</p>
+      <div class="btn-row center">
+        <a class="btn btn--primary" href={u("/kontakt/")}>Session anfragen<Icon name="arrow" /></a>
+        <a class="btn btn--ghost" href={CONTACT.phoneHref}><Icon name="phone" />{CONTACT.phone}</a>
+        <a class="btn btn--ghost" href={`mailto:${CONTACT.email}`}><Icon name="mail" />E-Mail schreiben</a>
+      </div>
+    </div>
+  </section>
+</Base>
+
+<style>
+  .hero { position: relative; min-height: calc(100svh - 76px); display: flex; align-items: flex-end; overflow: hidden; }
+  .hero-bg { position: absolute; inset: 0; }
+  .hero-bg :global(.hero-visual) { position: absolute; inset: 0; height: 100%; border-radius: 0; aspect-ratio: auto !important; }
+  .hero-bg :global(.ph-tag) { top: 14px; bottom: auto; }
+  .hero-bg::after { content: ""; position: absolute; inset: 0; pointer-events: none; background: linear-gradient(180deg, rgb(16 17 18 / 0.25) 0%, rgb(16 17 18 / 0.55) 50%, #101112 100%), radial-gradient(60% 50% at 20% 80%, rgb(16 17 18 / 0.6), transparent); }
+  .hero-inner { position: relative; z-index: 2; display: grid; gap: 22px; padding-block: 140px clamp(72px, 10vh, 120px); }
+  .wordmark { font: 300 clamp(2.6rem, 1rem + 8.4vw, 9.2rem) / 0.95 var(--font-display); letter-spacing: 0.16em; margin: 0 0 4px -0.06em; color: var(--ink); white-space: nowrap; }
+  .hero h1 { font-size: var(--step-3); font-weight: 400; letter-spacing: 0.01em; }
+  .scroll-cue { position: absolute; z-index: 2; left: 50%; bottom: 22px; transform: translateX(-50%); width: 44px; height: 44px; display: grid; place-items: center; }
+  .scroll-cue span { width: 1px; height: 36px; background: linear-gradient(var(--ink), transparent); animation: cue 2.2s var(--ease) infinite; }
+  @keyframes cue { 0% { transform: scaleY(0); transform-origin: top; } 50% { transform: scaleY(1); transform-origin: top; } 51% { transform-origin: bottom; } 100% { transform: scaleY(0); transform-origin: bottom; } }
+  @media (max-width: 560px) { .wordmark { letter-spacing: 0.1em; } }
+
+  .path-list { list-style: none; margin: 0; padding: 0; display: grid; grid-template-columns: repeat(3, 1fr); border-top: 1px solid var(--line); }
+  .path { display: grid; gap: 14px; align-content: start; height: 100%; padding: 40px 32px 40px 0; text-decoration: none; border-right: 1px solid var(--line); margin-right: 32px; transition: color 0.2s; }
+  .path-list li:last-child .path { border-right: 0; margin-right: 0; }
+  .num { font: 300 var(--step-2) / 1 var(--font-display); color: var(--silver); }
+  .ptitle { font: 400 var(--step-2) / 1.15 var(--font-display); }
+  .ptext { color: var(--ink-2); }
+  .path:hover .ptitle { text-decoration: underline; text-decoration-color: var(--line-strong); text-underline-offset: 6px; }
+  @media (max-width: 860px) { .path-list { grid-template-columns: 1fr; } .path { border-right: 0; margin-right: 0; border-bottom: 1px solid var(--line); padding: 32px 0; } .path-list li:last-child .path { border-bottom: 0; } }
+
+  .head { display: grid; gap: 18px; margin-bottom: clamp(40px, 6vw, 72px); max-width: 760px; }
+  .head--row { max-width: none; grid-template-columns: 1fr minmax(0, 420px); align-items: end; gap: 32px; }
+  .head--row > div { display: grid; gap: 18px; }
+  @media (max-width: 760px) { .head--row { grid-template-columns: 1fr; } }
+
+  .rooms { list-style: none; margin: 0; padding: 0; display: grid; grid-template-columns: repeat(3, 1fr); gap: 28px; }
+  .room { display: flex; flex-direction: column; background: var(--bg); border: 1px solid var(--line); border-radius: var(--radius); overflow: hidden; }
+  .room-media { display: block; }
+  .room-media :global(.visual) { border-radius: 0; }
+  .room-body { display: grid; gap: 14px; padding: 26px 26px 28px; flex: 1; align-content: start; }
+  .room h3 { font: 300 var(--step-2) / 1.1 var(--font-display); letter-spacing: 0.04em; text-transform: uppercase; }
+  .room h3 a { text-decoration: none; }
+  .room h3 a:hover { text-decoration: underline; text-underline-offset: 6px; text-decoration-color: var(--line-strong); }
+  .area { color: var(--ink); }
+  .room-facts { list-style: none; margin: 4px 0 0; padding: 0; border-top: 1px solid var(--line); }
+  .room-facts li { padding: 10px 0; border-bottom: 1px solid var(--line); font-size: var(--step--1); color: var(--ink); }
+  .room-actions { display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 12px; margin-top: 8px; }
+  @media (max-width: 980px) { .rooms { grid-template-columns: 1fr; max-width: 640px; } }
+
+  .mosaic { display: grid; grid-template-columns: 1.35fr 0.65fr 0.65fr; grid-template-rows: auto auto; gap: 18px; }
+  .mosaic :global(.m1) { grid-column: 1; grid-row: 1 / span 2; aspect-ratio: auto !important; min-height: 420px; }
+  .mosaic :global(.m2) { grid-column: 2; grid-row: 1 / span 2; aspect-ratio: auto !important; }
+  .mosaic :global(.m3) { grid-column: 3; grid-row: 1; }
+  .mosaic :global(.m4) { grid-column: 3; grid-row: 2; }
+  @media (max-width: 860px) { .mosaic { grid-template-columns: 1fr 1fr; } .mosaic :global(.m1) { grid-column: 1 / -1; grid-row: auto; min-height: 280px; } .mosaic :global(.m2) { grid-column: 1; grid-row: auto; aspect-ratio: 4 / 5 !important; } .mosaic :global(.m3), .mosaic :global(.m4) { grid-column: 2; grid-row: auto; } }
+  @media (max-width: 520px) { .mosaic { grid-template-columns: 1fr; } .mosaic :global(.m2), .mosaic :global(.m3), .mosaic :global(.m4) { grid-column: 1; } }
+
+  .tech { display: grid; grid-template-columns: 1fr 1fr; gap: clamp(40px, 6vw, 96px); align-items: start; }
+  .tech > div { display: grid; gap: 20px; }
+  .tech-list { list-style: none; margin: 0; padding: 0; border-top: 1px solid var(--line); }
+  .tech-list li { display: flex; align-items: center; gap: 16px; padding: 18px 0; border-bottom: 1px solid var(--line); font: 400 var(--step-1) / 1.3 var(--font-display); }
+  .dot { width: 7px; height: 7px; border-radius: 50%; background: var(--silver); flex: none; }
+  @media (max-width: 860px) { .tech { grid-template-columns: 1fr; } }
+
+  .steps { list-style: none; margin: 0; padding: 0; display: grid; grid-template-columns: repeat(3, 1fr); gap: 32px; counter-reset: s; }
+  .steps li { display: grid; gap: 14px; align-content: start; padding-top: 28px; border-top: 1px solid var(--line-strong); }
+  .steps .num { font-size: var(--step-3); font-weight: 300; }
+  @media (max-width: 860px) { .steps { grid-template-columns: 1fr; } }
+
+  .teaser { position: relative; overflow: hidden; background: radial-gradient(60% 120% at 15% 50%, rgb(139 125 255 / 0.22), transparent 60%), linear-gradient(180deg, #13121a, #101112); border-block: 1px solid var(--line); }
+  .teaser-inner { display: grid; grid-template-columns: 0.7fr 1.3fr; align-items: center; gap: clamp(32px, 6vw, 96px); padding-block: clamp(64px, 9vw, 120px); }
+  .teaser-inner > div:last-child { display: grid; gap: 20px; justify-items: start; }
+  .teaser-logo { color: var(--ink); width: min(100%, 300px); justify-self: center; }
+  .teaser-logo :global(svg) { width: 100%; height: auto; }
+  .teaser-logo :global(path) { animation: pulse 1.8s ease-in-out infinite; }
+  .teaser-logo :global(path[data-ring="1"]) { animation-delay: 0.15s; }
+  .teaser-logo :global(path[data-ring="2"]) { animation-delay: 0.3s; }
+  .teaser-logo :global(path[data-ring="3"]) { animation-delay: 0.45s; }
+  @keyframes pulse { 0%, 100% { opacity: 0.35; } 30% { opacity: 1; } }
+  @media (max-width: 760px) { .teaser-inner { grid-template-columns: 1fr; } .teaser-logo { width: 160px; justify-self: start; } }
+
+  .loc { display: grid; grid-template-columns: 1fr 1fr; gap: clamp(40px, 6vw, 96px); align-items: center; }
+  .loc > div:first-child { display: grid; gap: 18px; justify-items: start; }
+  .addr { font: 300 var(--step-2) / 1.25 var(--font-display); font-style: normal; }
+  .note { max-width: 44ch; }
+  .map { border: 1px solid var(--line); border-radius: var(--radius); overflow: hidden; }
+  .map svg { width: 100%; height: auto; }
+  @media (max-width: 860px) { .loc { grid-template-columns: 1fr; } }
+
+  .cta { text-align: center; }
+  .cta-inner { display: grid; justify-items: center; gap: 22px; }
+  .cta-inner .lead { margin-inline: auto; }
+  .center { justify-content: center; }
+</style>

@@ -1,0 +1,60 @@
+---
+import Logo from "./Logo.astro";
+import Icon from "./Icon.astro";
+import { CONTACT } from "../config/site";
+import { u } from "../lib/url";
+const year = new Date().getFullYear();
+---
+<footer class="footer">
+  <div class="wrap grid">
+    <div class="col brand-col">
+      <a href={u("/")} class="flogo" aria-label="Silver Stage – Startseite"><Logo /></a>
+      <p class="muted">Tonstudio, Proberaum mit Bühne und Raum für Tanz & Fotografie in München-Sendling.</p>
+    </div>
+    <div class="col">
+      <p class="label label--plain">Adresse</p>
+      <address>{CONTACT.street}<br />{CONTACT.zip} {CONTACT.city}</address>
+      <a class="link-arrow" href={CONTACT.routeUrl} target="_blank" rel="noopener">Route planen <Icon name="arrow" /></a>
+    </div>
+    <div class="col">
+      <p class="label label--plain">Kontakt</p>
+      <a class="flink" href={CONTACT.phoneHref}><Icon name="phone" />{CONTACT.phone}</a>
+      <a class="flink" href={`mailto:${CONTACT.email}`}><Icon name="mail" />{CONTACT.email}</a>
+      <p class="muted small">{CONTACT.hoursNote}</p>
+    </div>
+    <nav class="col" aria-label="Fußzeile">
+      <p class="label label--plain">Seiten</p>
+      <ul>
+        <li><a href={u("/tonstudio/")}>Tonstudio</a></li>
+        <li><a href={u("/stageroom/")}>Stageroom</a></li>
+        <li><a href={u("/lightroom/")}>Lightroom</a></li>
+        <li><a href={u("/beat-stage/")}>Beat Stage</a></li>
+        <li><a href={u("/ueber-uns/")}>Über uns</a></li>
+        <li><a href={u("/kontakt/")}>Kontakt</a></li>
+      </ul>
+    </nav>
+  </div>
+  <div class="wrap legal">
+    <p>© {year} Silver Stage, München</p>
+    <p><a href={u("/impressum/")}>Impressum</a> · <a href={u("/datenschutz/")}>Datenschutz</a></p>
+  </div>
+</footer>
+<style>
+  .footer { border-top: 1px solid var(--line); padding-top: clamp(56px, 7vw, 96px); background: var(--bg); }
+  .grid { display: grid; grid-template-columns: 1.4fr 1fr 1fr 0.9fr; gap: 40px; }
+  .col { display: grid; align-content: start; gap: 12px; }
+  .flogo { color: var(--ink); display: inline-block; }
+  .flogo :global(svg) { height: 32px; width: auto; }
+  .brand-col p { max-width: 34ch; }
+  address { font-style: normal; color: var(--ink); }
+  .flink { display: inline-flex; align-items: center; gap: 10px; min-height: 44px; text-decoration: none; overflow-wrap: anywhere; }
+  .flink :global(svg) { width: 18px; height: 18px; color: var(--silver); flex: none; }
+  .flink:hover { text-decoration: underline; }
+  ul { list-style: none; margin: 0; padding: 0; display: grid; }
+  ul a { display: inline-flex; align-items: center; min-height: 40px; text-decoration: none; color: var(--ink-2); }
+  ul a:hover { color: var(--ink); }
+  .legal { display: flex; flex-wrap: wrap; justify-content: space-between; gap: 12px; margin-top: 56px; padding-block: 24px 32px; border-top: 1px solid var(--line); color: var(--ink-2); font-size: var(--step--1); }
+  .legal a { display: inline-flex; min-height: 44px; align-items: center; }
+  @media (max-width: 900px) { .grid { grid-template-columns: 1fr 1fr; } .brand-col { grid-column: 1 / -1; } }
+  @media (max-width: 520px) { .grid { grid-template-columns: 1fr; } }
+</style>

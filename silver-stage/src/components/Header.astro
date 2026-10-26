@@ -1,0 +1,117 @@
+---
+import Logo from "./Logo.astro";
+import Icon from "./Icon.astro";
+import { NAV } from "../config/site";
+import { u, isCurrent } from "../lib/url";
+interface Props { current?: string }
+const { current } = Astro.props;
+---
+<header class="site-header" data-header>
+  <div class="wrap bar">
+    <a class="brand" href={u("/")} aria-label="Silver Stage – Startseite">
+      <Logo class="brand-logo" />
+    </a>
+    <nav class="nav" aria-label="Hauptnavigation">
+      <ul class="nav-list">
+        {NAV.map((item) => item.children ? (
+          <li class="has-sub" data-sub>
+            <button class="nav-link sub-toggle" type="button" aria-expanded="false" aria-controls="sub-raeume">
+              {item.label}<Icon name="chevron" class="chev" />
+            </button>
+            <ul class="sub" id="sub-raeume">
+              {item.children.map((c) => (
+                <li><a href={u(c.href)} aria-current={isCurrent(current, c.href) ? "page" : undefined}><span>{c.label}</span><small>{c.note}</small></a></li>
+              ))}
+            </ul>
+          </li>
+        ) : (
+          <li><a class="nav-link" href={u(item.href)} aria-current={isCurrent(current, item.href) ? "page" : undefined}>{item.label}</a></li>
+        ))}
+      </ul>
+    </nav>
+    <a class="btn btn--primary btn--sm header-cta" href={u("/kontakt/")}>Session anfragen</a>
+    <button class="menu-btn" type="button" aria-expanded="false" aria-controls="mobile-menu" data-menu-open>
+      <Icon name="menu" /><span class="visually-hidden">Menü öffnen</span>
+    </button>
+  </div>
+  <div class="mobile" id="mobile-menu" role="dialog" aria-modal="true" aria-label="Menü" hidden data-mobile>
+    <div class="mobile-top">
+      <a href={u("/")} class="brand" aria-label="Silver Stage – Startseite"><Logo class="brand-logo" /></a>
+      <button class="menu-btn" type="button" data-menu-close><Icon name="close" /><span class="visually-hidden">Menü schließen</span></button>
+    </div>
+    <ul class="mobile-list">
+      <li><a href={u("/tonstudio/")}>Tonstudio</a></li>
+      <li><a href={u("/stageroom/")}>Stageroom <small>Proberaum mit Bühne</small></a></li>
+      <li><a href={u("/lightroom/")}>Lightroom <small>Tanz, Gesang & Foto</small></a></li>
+      <li><a href={u("/beat-stage/")}>Beat Stage <small>Das Rhythmusspiel</small></a></li>
+      <li><a href={u("/ueber-uns/")}>Über uns</a></li>
+      <li><a href={u("/kontakt/")}>Kontakt</a></li>
+    </ul>
+    <a class="btn btn--primary mobile-cta" href={u("/kontakt/")}>Session anfragen</a>
+  </div>
+</header>
+
+<style>
+  .site-header { position: sticky; top: 0; z-index: 50; background: rgb(16 17 18 / 0.72); backdrop-filter: blur(14px) saturate(1.2); -webkit-backdrop-filter: blur(14px) saturate(1.2); border-bottom: 1px solid var(--line); }
+  .bar { display: flex; align-items: center; gap: 24px; min-height: 76px; }
+  .brand { display: inline-flex; align-items: center; min-height: 44px; color: var(--ink); text-decoration: none; margin-right: auto; }
+  .brand-logo { height: 30px; width: auto; }
+  .nav-list { display: flex; gap: 6px; list-style: none; margin: 0; padding: 0; }
+  .nav-link { display: inline-flex; align-items: center; gap: 6px; min-height: 44px; padding: 0 12px; background: none; border: 0; color: var(--ink-2); font: 500 0.78rem / 1 var(--font-display); letter-spacing: 0.2em; text-transform: uppercase; text-decoration: none; cursor: pointer; transition: color 0.2s; }
+  .nav-link:hover, .nav-link[aria-current="page"], .sub-toggle[aria-expanded="true"] { color: var(--ink); }
+  .nav-link[aria-current="page"] { text-decoration: underline; text-decoration-color: var(--silver); text-underline-offset: 8px; }
+  .chev { width: 14px; height: 14px; transition: transform 0.25s var(--ease); }
+  .sub-toggle[aria-expanded="true"] .chev { transform: rotate(180deg); }
+  .has-sub { position: relative; }
+  .sub { position: absolute; top: calc(100% + 10px); left: 0; min-width: 270px; list-style: none; margin: 0; padding: 8px; background: var(--bg-2); border: 1px solid var(--line); border-radius: var(--radius); box-shadow: 0 24px 48px -24px rgb(0 0 0 / 0.8); opacity: 0; visibility: hidden; transform: translateY(-6px); transition: opacity 0.2s, transform 0.2s var(--ease), visibility 0.2s; }
+  .has-sub.open .sub, .has-sub:focus-within .sub { opacity: 1; visibility: visible; transform: none; }
+  .sub a { display: grid; gap: 2px; padding: 12px 14px; text-decoration: none; border-radius: 2px; }
+  .sub a:hover, .sub a[aria-current="page"] { background: var(--bg-3); }
+  .sub span { font: 500 0.82rem / 1.2 var(--font-display); letter-spacing: 0.18em; text-transform: uppercase; }
+  .sub small { color: var(--ink-2); font-size: 0.82rem; }
+  .menu-btn { display: none; width: 48px; height: 48px; place-items: center; background: none; border: 1px solid var(--line); border-radius: var(--radius); color: var(--ink); cursor: pointer; }
+  .menu-btn :global(svg) { width: 22px; height: 22px; }
+  .mobile { position: fixed; inset: 0; z-index: 100; background: var(--bg); padding: 0 var(--pad) 32px; display: flex; flex-direction: column; overflow-y: auto; }
+  .mobile[hidden] { display: none; }
+  .mobile-top { display: flex; align-items: center; justify-content: space-between; min-height: 76px; }
+  .mobile-list { list-style: none; margin: 24px 0 32px; padding: 0; border-top: 1px solid var(--line); }
+  .mobile-list a { display: flex; flex-direction: column; gap: 4px; padding: 18px 0; border-bottom: 1px solid var(--line); text-decoration: none; font: 300 1.7rem / 1.1 var(--font-display); letter-spacing: 0.04em; text-transform: uppercase; }
+  .mobile-list small { font: 400 0.9rem / 1.3 var(--font-body); letter-spacing: 0; text-transform: none; color: var(--ink-2); }
+  .mobile-cta { margin-top: auto; }
+  @media (max-width: 1020px) {
+    .nav, .header-cta { display: none; }
+    .menu-btn { display: grid; }
+    .brand-logo { height: 26px; }
+  }
+</style>
+
+<script>
+  // Untermenü „Räume“: Klick/Tastatur, Escape schließt
+  document.querySelectorAll<HTMLElement>("[data-sub]").forEach((li) => {
+    const btn = li.querySelector<HTMLButtonElement>(".sub-toggle")!;
+    const set = (open: boolean) => { li.classList.toggle("open", open); btn.setAttribute("aria-expanded", String(open)); };
+    btn.addEventListener("click", () => set(btn.getAttribute("aria-expanded") !== "true"));
+    li.addEventListener("keydown", (e) => { if (e.key === "Escape") { set(false); btn.focus(); } });
+    li.addEventListener("focusout", (e) => { if (!li.contains(e.relatedTarget as Node)) set(false); });
+    document.addEventListener("click", (e) => { if (!li.contains(e.target as Node)) set(false); });
+  });
+
+  // Mobiles Menü: Fokus im Dialog halten, Escape schließt, Fokus zurück zum Auslöser
+  const panel = document.querySelector<HTMLElement>("[data-mobile]");
+  const opener = document.querySelector<HTMLButtonElement>("[data-menu-open]");
+  const closer = document.querySelector<HTMLButtonElement>("[data-menu-close]");
+  if (panel && opener && closer) {
+    const focusables = () => [...panel.querySelectorAll<HTMLElement>("a, button")];
+    const close = () => { panel.hidden = true; opener.setAttribute("aria-expanded", "false"); document.body.style.overflow = ""; opener.focus(); };
+    opener.addEventListener("click", () => { panel.hidden = false; opener.setAttribute("aria-expanded", "true"); document.body.style.overflow = "hidden"; closer.focus(); });
+    closer.addEventListener("click", close);
+    panel.addEventListener("keydown", (e) => {
+      if (e.key === "Escape") return close();
+      if (e.key !== "Tab") return;
+      const f = focusables(), first = f[0], last = f[f.length - 1];
+      if (e.shiftKey && document.activeElement === first) { e.preventDefault(); last.focus(); }
+      else if (!e.shiftKey && document.activeElement === last) { e.preventDefault(); first.focus(); }
+    });
+    matchMedia("(min-width: 1021px)").addEventListener("change", (m) => { if (m.matches && !panel.hidden) close(); });
+  }
+</script>

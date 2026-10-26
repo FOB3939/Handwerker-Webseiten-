@@ -1,0 +1,166 @@
+---
+import Icon from "./Icon.astro";
+import { SITE, CONTACT } from "../config/site";
+import { INTERESTS, DURATIONS } from "../lib/validate.js";
+import { u } from "../lib/url";
+interface Props { preselect?: string; compact?: boolean }
+const { preselect = "" } = Astro.props;
+const connected = !!SITE.formEndpoint;
+---
+<form class="inquiry" novalidate data-inquiry data-endpoint={SITE.formEndpoint} data-mail={CONTACT.email} data-preselect={preselect}>
+  {!connected && (
+    <p class="notice" role="note">
+      <strong>Hinweis:</strong> Das Online-Formular ist noch nicht an einen Server angeschlossen. Beim Absenden öffnet sich dein E-Mail-Programm mit deinen Angaben – verschickt ist die Anfrage erst, wenn du dort auf „Senden“ tippst. Alternativ: <a href={`mailto:${CONTACT.email}`}>{CONTACT.email}</a> oder <a href={CONTACT.phoneHref}>{CONTACT.phone}</a>.
+    </p>
+  )}
+  <div class="row2">
+    <div class="field">
+      <label for="f-name">Name <span aria-hidden="true">*</span></label>
+      <input id="f-name" name="name" type="text" autocomplete="name" required aria-describedby="e-name" />
+      <p class="err" id="e-name" data-err="name"></p>
+    </div>
+    <div class="field">
+      <label for="f-email">E-Mail <span aria-hidden="true">*</span></label>
+      <input id="f-email" name="email" type="email" autocomplete="email" inputmode="email" required aria-describedby="e-email" />
+      <p class="err" id="e-email" data-err="email"></p>
+    </div>
+  </div>
+  <div class="row2">
+    <div class="field">
+      <label for="f-phone">Telefon <span class="opt">(optional)</span></label>
+      <input id="f-phone" name="phone" type="tel" autocomplete="tel" inputmode="tel" aria-describedby="e-phone" />
+      <p class="err" id="e-phone" data-err="phone"></p>
+    </div>
+    <div class="field">
+      <label for="f-interest">Interesse <span aria-hidden="true">*</span></label>
+      <select id="f-interest" name="interest" required aria-describedby="e-interest">
+        <option value="">Bitte wählen</option>
+        {INTERESTS.map((i) => <option value={i} selected={i.toLowerCase() === preselect.toLowerCase()}>{i}</option>)}
+      </select>
+      <p class="err" id="e-interest" data-err="interest"></p>
+    </div>
+  </div>
+  <div class="row2">
+    <div class="field">
+      <label for="f-date">Wunschtermin <span class="opt">(optional)</span></label>
+      <input id="f-date" name="date" type="date" aria-describedby="e-date" />
+      <p class="err" id="e-date" data-err="date"></p>
+    </div>
+    <div class="field">
+      <label for="f-duration">Ungefähre Dauer <span class="opt">(optional)</span></label>
+      <select id="f-duration" name="duration" aria-describedby="e-duration">
+        <option value="">Noch nicht sicher</option>
+        {DURATIONS.map((d) => <option value={d}>{d}</option>)}
+      </select>
+      <p class="err" id="e-duration" data-err="duration"></p>
+    </div>
+  </div>
+  <div class="field">
+    <label for="f-message">Dein Vorhaben <span aria-hidden="true">*</span></label>
+    <textarea id="f-message" name="message" rows="6" required aria-describedby="e-message h-message" placeholder="Was möchtest du aufnehmen, proben oder gestalten? Wie viele Personen seid ihr?"></textarea>
+    <p class="hint" id="h-message">Eine Anfrage ist noch keine Buchung – wir stimmen Termin und Details mit dir ab.</p>
+    <p class="err" id="e-message" data-err="message"></p>
+  </div>
+  <div class="hp" aria-hidden="true"><label for="f-website">Website</label><input id="f-website" name="website" type="text" tabindex="-1" autocomplete="off" /></div>
+  <p class="privacy small muted">Mit dem Absenden werden deine Angaben zur Bearbeitung der Anfrage verwendet. Mehr dazu in der <a href={u("/datenschutz/")}>Datenschutzerklärung</a>. <span aria-hidden="true">*</span> Pflichtfeld</p>
+  <div class="actions">
+    <button class="btn btn--primary" type="submit" data-submit>{connected ? "Anfrage senden" : "Anfrage per E-Mail vorbereiten"}<Icon name="arrow" /></button>
+  </div>
+  <div class="status" role="status" aria-live="polite" data-status></div>
+</form>
+<div class="done" hidden tabindex="-1" data-done>
+  <p class="label">Anfrage angekommen</p>
+  <h2>Danke – deine Anfrage ist bei uns.</h2>
+  <p class="lead">Wir melden uns per E-Mail oder Telefon und stimmen Termin und Details mit dir ab. Eine Anfrage ist noch keine verbindliche Buchung.</p>
+</div>
+
+<style>
+  .inquiry { display: grid; gap: 20px; }
+  .notice { border-left: 2px solid var(--violet); background: var(--violet-soft); padding: 14px 16px; font-size: var(--step--1); line-height: 1.55; color: var(--ink); }
+  .row2 { display: grid; grid-template-columns: 1fr 1fr; gap: 20px; }
+  .field { display: grid; gap: 8px; }
+  label { font: 500 0.78rem / 1.2 var(--font-display); letter-spacing: 0.16em; text-transform: uppercase; color: var(--silver); }
+  .opt { letter-spacing: 0.04em; text-transform: none; color: var(--ink-2); font-family: var(--font-body); font-weight: 400; }
+  input, select, textarea { width: 100%; min-height: 52px; padding: 13px 14px; background: var(--bg); color: var(--ink); border: 1px solid var(--line-strong); border-radius: var(--radius); font: 400 1rem / 1.4 var(--font-body); transition: border-color 0.2s; }
+  textarea { resize: vertical; min-height: 150px; }
+  select { appearance: none; background-image: linear-gradient(45deg, transparent 50%, var(--silver) 50%), linear-gradient(135deg, var(--silver) 50%, transparent 50%); background-position: calc(100% - 22px) 23px, calc(100% - 16px) 23px; background-size: 6px 6px; background-repeat: no-repeat; padding-right: 44px; }
+  input::placeholder, textarea::placeholder { color: #8e939b; }
+  input:hover, select:hover, textarea:hover { border-color: var(--silver); }
+  input:focus-visible, select:focus-visible, textarea:focus-visible { outline: 2px solid var(--focus); outline-offset: 1px; border-color: var(--ink); }
+  [aria-invalid="true"] { border-color: #ff8f8f; }
+  .err { color: #ffb0b0; font-size: var(--step--1); min-height: 0; }
+  .err:empty { display: none; }
+  .hint { color: var(--ink-2); font-size: var(--step--1); }
+  .hp { position: absolute; left: -9999px; width: 1px; height: 1px; overflow: hidden; }
+  .status:empty { display: none; }
+  .status { padding: 14px 16px; border: 1px solid var(--line-strong); border-radius: var(--radius); font-size: var(--step--1); }
+  .status.is-error { border-color: #ff8f8f; color: #ffd0d0; }
+  .done { display: grid; gap: 16px; padding: 32px; border: 1px solid var(--line-strong); border-radius: var(--radius); }
+  .done h2 { font-size: var(--step-2); }
+  @media (max-width: 640px) { .row2 { grid-template-columns: 1fr; } }
+</style>
+
+<script>
+  import { validateInquiry, isSpam, inquiryText } from "../lib/validate.js";
+  const form = document.querySelector<HTMLFormElement>("[data-inquiry]");
+  if (form) {
+    const status = form.querySelector<HTMLElement>("[data-status]")!;
+    const submit = form.querySelector<HTMLButtonElement>("[data-submit]")!;
+    const done = document.querySelector<HTMLElement>("[data-done]")!;
+    const endpoint = form.dataset.endpoint || "";
+    // Raum aus der URL vorauswählen (?raum=stageroom)
+    const raum = new URLSearchParams(location.search).get("raum");
+    const sel = form.querySelector<HTMLSelectElement>("#f-interest")!;
+    if (raum) { const o = [...sel.options].find((o) => o.value.toLowerCase() === raum.toLowerCase()); if (o) sel.value = o.value; }
+    const dateInput = form.querySelector<HTMLInputElement>("#f-date")!;
+    dateInput.min = new Date().toISOString().slice(0, 10);
+
+    const data = () => Object.fromEntries(new FormData(form) as any) as Record<string, string>;
+    const show = (errs: Record<string, string>) => {
+      form.querySelectorAll<HTMLElement>("[data-err]").forEach((p) => {
+        const k = p.dataset.err!, field = form.elements.namedItem(k) as HTMLElement | null;
+        p.textContent = errs[k] ?? "";
+        field?.setAttribute("aria-invalid", errs[k] ? "true" : "false");
+      });
+    };
+    // Fehler nach dem ersten Absendeversuch live aktualisieren
+    let tried = false;
+    form.addEventListener("input", () => { if (tried) show(validateInquiry(data())); });
+
+    let busy = false;
+    form.addEventListener("submit", async (ev) => {
+      ev.preventDefault();
+      if (busy) return;
+      tried = true;
+      const d = data(), errs = validateInquiry(d);
+      show(errs);
+      status.className = "status"; status.textContent = "";
+      const first = Object.keys(errs)[0];
+      if (first) { (form.elements.namedItem(first) as HTMLElement)?.focus(); status.textContent = `Bitte prüf ${Object.keys(errs).length === 1 ? "das markierte Feld" : "die markierten Felder"}.`; status.classList.add("is-error"); return; }
+      if (isSpam(d)) return;
+
+      if (!endpoint) {
+        // Kein Server angeschlossen: E-Mail-Programm mit allen Angaben öffnen – ausdrücklich ohne Erfolgsmeldung
+        const subject = `Anfrage: ${d.interest} – ${d.name}`;
+        location.href = `mailto:${form.dataset.mail}?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(inquiryText(d))}`;
+        status.textContent = "Dein E-Mail-Programm sollte sich jetzt mit deinen Angaben öffnen. Die Anfrage ist erst verschickt, wenn du dort auf „Senden“ tippst. Falls sich nichts öffnet: schreib an " + form.dataset.mail + " oder ruf an.";
+        return;
+      }
+
+      busy = true; submit.disabled = true; submit.setAttribute("aria-busy", "true");
+      status.textContent = "Anfrage wird gesendet …";
+      try {
+        const ctrl = new AbortController(); const t = setTimeout(() => ctrl.abort(), 15000);
+        const res = await fetch(endpoint, { method: "POST", headers: { "Content-Type": "application/json" }, body: JSON.stringify(d), signal: ctrl.signal });
+        clearTimeout(t);
+        if (!res.ok) throw new Error(String(res.status));
+        form.hidden = true; done.hidden = false; done.focus();
+      } catch {
+        status.classList.add("is-error");
+        status.textContent = "Das Senden hat leider nicht geklappt. Deine Eingaben sind noch da – versuch es bitte erneut oder schreib direkt an " + form.dataset.mail + ".";
+      } finally {
+        busy = false; submit.disabled = false; submit.removeAttribute("aria-busy");
+      }
+    });
+  }
+</script>
