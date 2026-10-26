@@ -31,7 +31,7 @@ const jsonLd = [
   <section class="section" aria-labelledby="uses-title">
     <div class="wrap">
       <p class="label">Geeignet für</p>
-      <h2 id="uses-title" class="h2">Wofür du den {r.name} nutzt</h2>
+      <h2 id="uses-title" class="h2">Wofür du {r.article} {r.name} nutzt</h2>
       <ul class="uses">
         {r.uses.map((x, i) => <li data-reveal style={`--d:${i * 0.08}s`}><span class="n">{String(i + 1).padStart(2, "0")}</span><h3>{x.title}</h3><p class="muted">{x.text}</p></li>)}
       </ul>

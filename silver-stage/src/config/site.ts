@@ -33,6 +33,7 @@ export type RoomKey = "tonstudio" | "stageroom" | "lightroom";
 export interface Room {
   key: RoomKey;
   name: string;
+  article: "das" | "den";   // für „Wofür du das Tonstudio / den Stageroom nutzt“
   path: string;
   kicker: string;
   title: string;          // H1 der Detailseite
@@ -51,6 +52,7 @@ export const ROOMS: Room[] = [
   {
     key: "tonstudio",
     name: "Tonstudio",
+    article: "das",
     path: "/tonstudio/",
     kicker: "Aufnehmen",
     title: "Tonstudio in München-Sendling",
@@ -81,6 +83,7 @@ export const ROOMS: Room[] = [
   {
     key: "stageroom",
     name: "Stageroom",
+    article: "den",
     path: "/stageroom/",
     kicker: "Proben",
     title: "Stageroom: Proberaum mit Bühne",
@@ -112,6 +115,7 @@ export const ROOMS: Room[] = [
   {
     key: "lightroom",
     name: "Lightroom",
+    article: "den",
     path: "/lightroom/",
     kicker: "Gestalten",
     title: "Lightroom: Raum für Tanz, Gesang & Fotoshootings",

@@ -64,7 +64,7 @@ const { current } = Astro.props;
   .sub-toggle[aria-expanded="true"] .chev { transform: rotate(180deg); }
   .has-sub { position: relative; }
   .sub { position: absolute; top: calc(100% + 10px); left: 0; min-width: 270px; list-style: none; margin: 0; padding: 8px; background: var(--bg-2); border: 1px solid var(--line); border-radius: var(--radius); box-shadow: 0 24px 48px -24px rgb(0 0 0 / 0.8); opacity: 0; visibility: hidden; transform: translateY(-6px); transition: opacity 0.2s, transform 0.2s var(--ease), visibility 0.2s; }
-  .has-sub.open .sub, .has-sub:focus-within .sub { opacity: 1; visibility: visible; transform: none; }
+  .has-sub.open .sub, .has-sub:focus-within .sub { opacity: 1; visibility: visible; transform: none; transition: opacity 0.2s, transform 0.2s var(--ease), visibility 0s; }
   .sub a { display: grid; gap: 2px; padding: 12px 14px; text-decoration: none; border-radius: 2px; }
   .sub a:hover, .sub a[aria-current="page"] { background: var(--bg-3); }
   .sub span { font: 500 0.82rem / 1.2 var(--font-display); letter-spacing: 0.18em; text-transform: uppercase; }

@@ -96,6 +96,7 @@ const connected = !!SITE.formEndpoint;
   .status { padding: 14px 16px; border: 1px solid var(--line-strong); border-radius: var(--radius); font-size: var(--step--1); }
   .status.is-error { border-color: #ff8f8f; color: #ffd0d0; }
   .done { display: grid; gap: 16px; padding: 32px; border: 1px solid var(--line-strong); border-radius: var(--radius); }
+  .done[hidden], .inquiry[hidden] { display: none; }
   .done h2 { font-size: var(--step-2); }
   @media (max-width: 640px) { .row2 { grid-template-columns: 1fr; } }
 </style>
