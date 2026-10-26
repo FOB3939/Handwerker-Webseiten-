@@ -1,0 +1,10 @@
+---
+import Base from "../layouts/Base.astro";
+import PageHead from "../components/PageHead.astro";
+import { u } from "../lib/url";
+---
+<Base title="Seite nicht gefunden – Pizza Freechoice" description="Diese Seite gibt es nicht. Zur Speisekarte oder zur Startseite von Pizza Freechoice.">
+  <PageHead title="Diese Seite gibt es nicht." lead="Vielleicht hilft dir einer dieser Wege weiter.">
+    <div class="btn-row"><a class="btn btn--primary" href={u("/speisekarte/")}>Zur Speisekarte</a><a class="btn btn--ghost" href={u("/")}>Zur Startseite</a></div>
+  </PageHead>
+</Base>

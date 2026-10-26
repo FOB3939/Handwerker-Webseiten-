@@ -1,0 +1,114 @@
+---
+import Base from "../../layouts/Base.astro";
+import PageHead from "../../components/PageHead.astro";
+import MenuItem from "../../components/MenuItem.astro";
+import Icon from "../../components/Icon.astro";
+import { SITE } from "../../config/site";
+import { CATEGORIES, visibleProducts } from "../../config/menu";
+import { u } from "../../lib/url";
+const products = visibleProducts(SITE.preview);
+const cats = CATEGORIES.filter((c) => products.some((p) => p.category === c.id));
+---
+<Base title="Speisekarte – Pizza Freechoice" description="Die Speisekarte von Pizza Freechoice: Pizzen mit Größen und Preisen, durchsuchbar und gut lesbar auf dem Handy." current="/speisekarte/">
+  <PageHead kicker="Speisekarte" title="Worauf hast du Lust?" lead="Alle Gerichte mit Größen und Preisen. Tippe einen Begriff ein, um schnell zu finden, was du suchst." />
+
+  <section class="section section--tight" aria-label="Speisekarte">
+    <div class="wrap">
+      {SITE.preview && <p class="notice"><Icon name="info" /><span><strong>Vorschau:</strong> Die aktuelle Speisekarte von Pizza Freechoice liegt noch nicht vor. Alle Einträge sind Demo-Daten mit Beispielpreisen und werden vor der Veröffentlichung durch die echte Karte ersetzt.</span></p>}
+
+      {products.length === 0 ? (
+        <div class="empty">
+          <h2>Die Speisekarte wird gerade eingepflegt.</h2>
+          <p class="muted">Bis dahin erreichst du uns über den Bestellweg.</p>
+          <a class="btn btn--primary" href={u("/bestellen/")}>Zum Bestellen</a>
+        </div>
+      ) : (
+        <>
+          <div class="tools" data-tools hidden>
+            <label class="search">
+              <span class="visually-hidden">Speisekarte durchsuchen</span>
+              <Icon name="search" />
+              <input type="search" placeholder="Suchen, z. B. Salami" autocomplete="off" data-search />
+            </label>
+            {cats.length > 1 && (
+              <div class="chips" role="group" aria-label="Kategorie">
+                <button type="button" class="chip" aria-pressed="true" data-cat="">Alle</button>
+                {cats.map((c) => <button type="button" class="chip" aria-pressed="false" data-cat={c.id}>{c.label}</button>)}
+              </div>
+            )}
+          </div>
+          <p class="count muted" aria-live="polite" data-count></p>
+
+          {cats.map((c) => (
+            <section class="cat" aria-labelledby={`cat-${c.id}`} data-section={c.id}>
+              <h2 id={`cat-${c.id}`}>{c.label}</h2>
+              <div class="list">
+                {products.filter((p) => p.category === c.id).map((p) => <MenuItem p={p} headingLevel="h3" />)}
+              </div>
+            </section>
+          ))}
+
+          <div class="none" data-none hidden>
+            <h2>Nichts gefunden.</h2>
+            <p class="muted">Zu „<span data-term></span>“ gibt es keinen Eintrag. Probier einen anderen Begriff oder <button type="button" class="linkbtn" data-reset>zeig alle Gerichte</button>.</p>
+          </div>
+        </>
+      )}
+
+      <p class="fine muted">Allergene und Zusatzstoffe findest du auf der Seite <a href={u("/allergene-zusatzstoffe/")}>Allergene &amp; Zusatzstoffe</a>. Fehlende Angaben bedeuten „noch nicht bestätigt“, nicht „frei von“.</p>
+    </div>
+  </section>
+</Base>
+
+<style>
+  .notice { margin-bottom: 24px; }
+  .notice :global(svg) { width: 20px; height: 20px; flex: none; margin-top: 1px; }
+  .tools { display: flex; flex-wrap: wrap; gap: 12px; align-items: center; margin-bottom: 8px; }
+  .tools[hidden] { display: none; }
+  .search { position: relative; flex: 1 1 320px; max-width: 520px; }
+  .search :global(svg) { position: absolute; left: 16px; top: 50%; width: 20px; height: 20px; translate: 0 -50%; color: var(--ink-2); pointer-events: none; }
+  .search input { width: 100%; min-height: 52px; padding: 0 16px 0 46px; border-radius: 999px; border: 2px solid var(--ink); background: var(--white); color: var(--ink); font: inherit; }
+  .search input:focus-visible { outline: 3px solid var(--yellow); outline-offset: 2px; }
+  .chips { display: flex; flex-wrap: wrap; gap: 8px; }
+  .chip { min-height: 44px; padding: 0 18px; border-radius: 999px; border: 2px solid var(--ink); background: transparent; color: var(--ink); font: 700 0.95rem / 1 var(--font-body); cursor: pointer; }
+  .chip[aria-pressed="true"] { background: var(--dark); color: var(--cream); }
+  .count { min-height: 1.6em; margin: 6px 0 18px; font-size: var(--step--1); }
+  .cat { margin-top: 12px; }
+  .cat[hidden] { display: none; }
+  .cat h2 { font-size: var(--step-2); margin-bottom: 16px; padding-bottom: 10px; border-bottom: 3px solid var(--yellow); }
+  .list { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 14px; }
+  .list :global([data-item][hidden]) { display: none; }
+  .none, .empty { display: grid; gap: 12px; justify-items: start; padding: 32px 0; }
+  .none[hidden] { display: none; }
+  .none h2, .empty h2 { font-size: var(--step-2); }
+  .linkbtn { padding: 0; border: 0; background: none; color: inherit; font: inherit; text-decoration: underline; cursor: pointer; min-height: 24px; }
+  .fine { margin-top: 32px; font-size: var(--step--1); }
+  @media (max-width: 860px) { .list { grid-template-columns: 1fr; } }
+</style>
+
+<script>
+  // Suche + Kategorien (progressive Verbesserung: ohne JS ist die Karte vollständig sichtbar)
+  const tools = document.querySelector<HTMLElement>("[data-tools]");
+  if (tools) {
+    tools.hidden = false;
+    const input = tools.querySelector<HTMLInputElement>("[data-search]")!;
+    const chips = [...tools.querySelectorAll<HTMLButtonElement>("[data-cat]")];
+    const items = [...document.querySelectorAll<HTMLElement>("[data-item]")];
+    const sections = [...document.querySelectorAll<HTMLElement>("[data-section]")];
+    const none = document.querySelector<HTMLElement>("[data-none]")!, term = document.querySelector<HTMLElement>("[data-term]")!;
+    const count = document.querySelector<HTMLElement>("[data-count]")!;
+    let cat = "";
+    const norm = (s: string) => s.toLowerCase().normalize("NFD").replace(/[̀-ͯ]/g, "").trim();
+    const apply = () => {
+      const q = norm(input.value);
+      let n = 0;
+      items.forEach((it) => { const ok = (!cat || it.dataset.cat === cat) && (!q || norm(it.dataset.search || "").includes(q)); it.hidden = !ok; if (ok) n++; });
+      sections.forEach((s) => (s.hidden = !s.querySelector("[data-item]:not([hidden])")));
+      none.hidden = n > 0; term.textContent = input.value.trim();
+      count.textContent = q || cat ? `${n} ${n === 1 ? "Gericht" : "Gerichte"} gefunden` : "";
+    };
+    input.addEventListener("input", apply);
+    chips.forEach((c) => c.addEventListener("click", () => { cat = c.dataset.cat || ""; chips.forEach((x) => x.setAttribute("aria-pressed", String(x === c))); apply(); }));
+    document.querySelector("[data-reset]")?.addEventListener("click", () => { input.value = ""; cat = ""; chips.forEach((x, i) => x.setAttribute("aria-pressed", String(i === 0))); apply(); input.focus(); });
+  }
+</script>

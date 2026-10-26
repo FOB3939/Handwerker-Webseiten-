@@ -1,0 +1,28 @@
+---
+import Base from "../../layouts/Base.astro";
+import PageHead from "../../components/PageHead.astro";
+import Img from "../../components/Img.astro";
+import { u } from "../../lib/url";
+---
+<Base title="Über uns – Pizza Freechoice" description="Pizza Freechoice – Pizza Heimservice mit dem gelben Ladenschild. Wer wir sind und wo du uns findest." current="/ueber-uns/">
+  <PageHead kicker="Über uns" title="Pizza Freechoice." lead="Ein Pizza-Heimservice mit gelbem Ladenschild – und dem Namen als Versprechen: Bei uns hast du die Wahl." image="ladenAussen" />
+  <section class="section section--tight">
+    <div class="wrap grid">
+      <div class="txt">
+        <h2>Was du von uns weißt – und bald mehr.</h2>
+        <p class="lead muted">Unser Laden ist leicht zu finden: Achte auf das große gelbe Schild mit dem Schriftzug „Pizza Freechoice“ und die Aufschrift „Heimservice“ im Schaufenster.</p>
+        <p class="muted">Hier erzählen wir bald mehr über uns: wer hinter Pizza Freechoice steht, was uns wichtig ist und wie unsere Pizzen entstehen. Bis dahin: Schau in die <a href={u("/speisekarte/")}>Speisekarte</a> oder bestell direkt.</p>
+        <div class="btn-row"><a class="btn btn--primary" href={u("/bestellen/")}>Jetzt bestellen</a><a class="btn btn--ghost" href={u("/kontakt/")}>Kontakt &amp; Anfahrt</a></div>
+      </div>
+      <div class="pic"><Img name="eingang" sizes="(min-width: 900px) 40vw, 100vw" note /></div>
+    </div>
+  </section>
+</Base>
+<style>
+  .grid { display: grid; grid-template-columns: 1.1fr 0.9fr; gap: clamp(28px, 5vw, 72px); align-items: center; }
+  .txt { display: grid; gap: 18px; justify-items: start; }
+  .txt a { font-weight: 700; }
+  .pic { position: relative; border-radius: var(--radius-lg); overflow: hidden; aspect-ratio: 4 / 5; }
+  .pic :global(img) { width: 100%; height: 100%; object-fit: cover; }
+  @media (max-width: 860px) { .grid { grid-template-columns: 1fr; } }
+</style>

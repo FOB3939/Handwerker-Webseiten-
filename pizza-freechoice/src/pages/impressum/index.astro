@@ -1,0 +1,23 @@
+---
+import Base from "../../layouts/Base.astro";
+import PageHead from "../../components/PageHead.astro";
+import { BUSINESS, address, OPEN } from "../../config/site";
+const adr = address();
+---
+<Base title="Impressum – Pizza Freechoice" description="Impressum von Pizza Freechoice: Angaben zum Betreiber, Anschrift und Kontakt nach § 5 DDG." current="/impressum/">
+  <PageHead title="Impressum" />
+  <section class="section section--tight">
+    <div class="wrap legal">
+      <p class="notice"><span><strong>Platzhalter:</strong> Die Pflichtangaben nach § 5 DDG müssen vom Betreiber geliefert und geprüft werden. Diese Seite ist vor der Veröffentlichung zu vervollständigen.</span></p>
+      <h2>Angaben zum Betreiber</h2>
+      <p>{BUSINESS.legalName ?? <span class="open">Firmierung / Name des Betreibers: {OPEN}</span>}</p>
+      <p>{adr ?? <span class="open">Anschrift: {OPEN}</span>}</p>
+      <h2>Kontakt</h2>
+      <p>Telefon: {BUSINESS.phone ?? <span class="open">{OPEN}</span>}</p>
+      <p>E-Mail: {BUSINESS.email ?? <span class="open">{OPEN}</span>}</p>
+      <h2>Weitere Angaben</h2>
+      <p class="open">Vertretungsberechtigte Person, Registereintrag, Umsatzsteuer-ID, zuständige Aufsichtsbehörde (falls zutreffend): {OPEN}</p>
+    </div>
+  </section>
+</Base>
+<style>.legal { display: grid; gap: 10px; max-width: 760px; } .legal h2 { font-size: var(--step-1); margin-top: 18px; } .notice { margin-bottom: 12px; }</style>

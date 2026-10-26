@@ -1,0 +1,29 @@
+---
+// Kopf der Unterseiten: dunkle Fläche, Etikett, H1, Einleitung, optional Bild rechts
+import Img from "./Img.astro";
+import type { ImageKey } from "../assets/img";
+interface Props { kicker?: string; title: string; lead?: string; image?: ImageKey }
+const { kicker, title, lead, image } = Astro.props;
+---
+<section class:list={["phead", "on-dark", { "phead--img": image }]}>
+  <div class="wrap inner">
+    <div class="txt">
+      {kicker && <p class="kicker">{kicker}</p>}
+      <h1>{title}</h1>
+      {lead && <p class="lead muted">{lead}</p>}
+      <slot />
+    </div>
+    {image && <div class="pic"><Img name={image} sizes="(min-width: 900px) 40vw, 100vw" eager note /></div>}
+  </div>
+</section>
+<style>
+  .phead { position: relative; overflow: hidden; }
+  .phead::after { content: ""; position: absolute; left: 0; right: 0; bottom: 0; height: 10px; background: var(--yellow); }
+  .inner { display: grid; grid-template-columns: 1fr; gap: 32px; align-items: center; padding-block: clamp(48px, 7vw, 96px) clamp(56px, 8vw, 104px); }
+  .phead--img .inner { grid-template-columns: 1.1fr 0.9fr; }
+  .txt { display: grid; gap: 18px; justify-items: start; }
+  h1 { font-size: var(--step-4); font-weight: 800; line-height: 0.95; }
+  .pic { position: relative; border-radius: var(--radius-lg); overflow: hidden; aspect-ratio: 4 / 3; }
+  .pic :global(img) { width: 100%; height: 100%; object-fit: cover; }
+  @media (max-width: 860px) { .phead--img .inner { grid-template-columns: 1fr; } }
+</style>

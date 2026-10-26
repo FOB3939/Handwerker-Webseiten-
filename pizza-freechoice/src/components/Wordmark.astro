@@ -1,0 +1,14 @@
+---
+// Text-Wortmarke bis zum Original-Logo (kein aus KI-Bildern ausgeschnittenes Logo).
+// Gelbes „Schild“ mit dunkler Schrift – Bezug zur Ladenfront.
+interface Props { class?: string; size?: "sm" | "lg" }
+const { class: cls, size = "sm" } = Astro.props;
+---
+<span class:list={["wm", `wm--${size}`, cls]}><span class="wm-pizza">Pizza</span> <span class="wm-name">Freechoice</span></span>
+<style>
+  .wm { display: inline-flex; align-items: center; gap: 0.4em; font-family: var(--font-display); line-height: 1; white-space: nowrap; }
+  .wm-pizza { font-weight: 600; font-size: 0.78em; letter-spacing: 0.01em; }
+  .wm-name { background: var(--yellow); color: var(--dark); font-weight: 800; padding: 0.22em 0.42em 0.26em; border-radius: 0.28em; letter-spacing: -0.01em; font-variation-settings: "wdth" 88; transform: rotate(-2deg); box-shadow: 0 0.12em 0 #c6930c; }
+  .wm--sm { font-size: 1.32rem; }
+  .wm--lg { font-size: clamp(2.2rem, 1.4rem + 4vw, 4.4rem); }
+</style>

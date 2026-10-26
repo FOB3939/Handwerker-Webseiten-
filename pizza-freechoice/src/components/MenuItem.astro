@@ -1,0 +1,38 @@
+---
+// Ein Eintrag der Speisekarte: Name, Beschreibung, Größen mit Preis, Hinweise zu Demo/Allergenen
+import Img from "./Img.astro";
+import { euro } from "../config/site";
+import type { Product } from "../config/menu";
+interface Props { p: Product; withImage?: boolean; headingLevel?: "h2" | "h3" }
+const { p, withImage = true, headingLevel = "h3" } = Astro.props;
+const H = headingLevel;
+---
+<article class:list={["item", { "item--img": withImage && p.image }]} data-item data-search={`${p.name} ${p.description}`.toLowerCase()} data-cat={p.category}>
+  {withImage && p.image && <div class="pic"><Img name={p.image} sizes="(min-width: 900px) 260px, 40vw" /></div>}
+  <div class="body">
+    <div class="top">
+      <H class="name">{p.name}</H>
+      {p.demo && <span class="badge badge--demo">Demo-Eintrag</span>}
+    </div>
+    <p class="desc muted">{p.description}</p>
+    <ul class="variants" aria-label={`Größen und Preise für ${p.name}`}>
+      {p.variants.map((v) => <li><span>{v.label}{v.sizeCm ? ` · ${v.sizeCm} cm` : ""}</span><strong>{euro(v.priceCents)}{p.demo && <span class="visually-hidden"> (Demopreis)</span>}</strong></li>)}
+    </ul>
+    <p class="meta">{p.allergens ? `Allergene: ${p.allergens.join(", ")}` : "Allergene und Zusatzstoffe: noch nicht bestätigt"}</p>
+  </div>
+</article>
+<style>
+  .item { display: grid; gap: 18px; padding: 20px; border-radius: var(--radius); background: var(--white); border: 1px solid var(--line); box-shadow: 0 1px 0 rgb(33 26 22 / 0.04); }
+  .item--img { grid-template-columns: 132px 1fr; align-items: start; }
+  .pic { position: relative; aspect-ratio: 1; border-radius: 12px; overflow: hidden; background: var(--cream-2); }
+  .pic :global(img) { width: 100%; height: 100%; object-fit: cover; }
+  .body { display: grid; gap: 10px; }
+  .top { display: flex; flex-wrap: wrap; align-items: center; gap: 8px 12px; }
+  .name { font-size: var(--step-1); font-weight: 800; }
+  .desc { font-size: var(--step--1); line-height: 1.5; }
+  .variants { list-style: none; margin: 4px 0 0; padding: 0; display: flex; flex-wrap: wrap; gap: 8px; }
+  .variants li { display: inline-flex; align-items: baseline; gap: 10px; padding: 8px 14px; border-radius: 999px; background: var(--cream); border: 1px solid var(--line); font-size: var(--step--1); }
+  .variants strong { font: 800 1.05rem / 1 var(--font-display); font-variant-numeric: tabular-nums; }
+  .meta { font-size: 0.8rem; color: var(--ink-2); }
+  @media (max-width: 480px) { .item--img { grid-template-columns: 88px 1fr; } }
+</style>

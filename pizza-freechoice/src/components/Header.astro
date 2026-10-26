@@ -1,0 +1,81 @@
+---
+// Kopfzeile: Wortmarke, Hauptnavigation, hervorgehobene Aktion „Jetzt bestellen“; am Handy Menü-Dialog.
+import Wordmark from "./Wordmark.astro";
+import Icon from "./Icon.astro";
+import { NAV } from "../config/site";
+import { u, isCurrent } from "../lib/url";
+interface Props { current?: string }
+const { current } = Astro.props;
+---
+<header class="site-header" data-header>
+  <div class="wrap bar">
+    <a class="brand" href={u("/")}><Wordmark /><span class="visually-hidden"> – Startseite</span></a>
+    <nav class="nav" aria-label="Hauptnavigation">
+      <ul>
+        {NAV.map((n) => <li><a href={u(n.href)} aria-current={isCurrent(current, n.href) ? "page" : undefined}>{n.label}</a></li>)}
+      </ul>
+    </nav>
+    <a class="btn btn--primary btn--sm order" href={u("/bestellen/")} aria-current={isCurrent(current, "/bestellen/") ? "page" : undefined}><Icon name="bag" />Jetzt bestellen</a>
+    <button class="menu-btn" type="button" aria-expanded="false" aria-controls="mobile-menu" data-menu-open><Icon name="menu" /><span class="visually-hidden">Menü öffnen</span></button>
+  </div>
+  <div class="mobile on-dark" id="mobile-menu" role="dialog" aria-modal="true" aria-label="Menü" hidden data-mobile>
+    <div class="wrap mobile-top">
+      <a class="brand" href={u("/")}><Wordmark /><span class="visually-hidden"> – Startseite</span></a>
+      <button class="menu-btn" type="button" data-menu-close><Icon name="close" /><span class="visually-hidden">Menü schließen</span></button>
+    </div>
+    <ul class="wrap mobile-list">
+      <li><a href={u("/")}>Start</a></li>
+      {NAV.map((n) => <li><a href={u(n.href)} aria-current={isCurrent(current, n.href) ? "page" : undefined}>{n.label}</a></li>)}
+      <li><a href={u("/allergene-zusatzstoffe/")}>Allergene &amp; Zusatzstoffe</a></li>
+    </ul>
+    <div class="wrap"><a class="btn btn--primary mobile-cta" href={u("/bestellen/")}><Icon name="bag" />Jetzt bestellen</a></div>
+  </div>
+</header>
+
+<style>
+  .site-header { position: sticky; top: 0; z-index: 50; background: rgb(255 248 235 / 0.92); backdrop-filter: blur(12px) saturate(1.2); -webkit-backdrop-filter: blur(12px) saturate(1.2); border-bottom: 1px solid var(--line); }
+  .bar { display: flex; align-items: center; gap: 28px; min-height: 76px; }
+  .brand { display: inline-flex; align-items: center; min-height: 48px; text-decoration: none; color: var(--ink); margin-right: auto; }
+  .nav ul { display: flex; gap: 4px; list-style: none; margin: 0; padding: 0; }
+  .nav a { display: inline-flex; align-items: center; min-height: 44px; padding: 0 12px; border-radius: 999px; text-decoration: none; font-weight: 600; color: var(--ink); }
+  .nav a:hover { background: var(--cream-2); }
+  .nav a[aria-current="page"] { background: var(--dark); color: var(--cream); }
+  .menu-btn { display: none; width: 48px; height: 48px; place-items: center; border-radius: 999px; border: 2px solid var(--ink); background: transparent; color: inherit; cursor: pointer; }
+  .menu-btn svg { width: 22px; height: 22px; }
+  .mobile { position: fixed; inset: 0; z-index: 100; overflow-y: auto; display: flex; flex-direction: column; padding-bottom: calc(24px + env(safe-area-inset-bottom, 0px)); }
+  .mobile[hidden] { display: none; }
+  .mobile-top { display: flex; align-items: center; justify-content: space-between; min-height: 76px; }
+  .mobile .brand { color: var(--cream); }
+  .mobile .menu-btn { display: grid; border-color: var(--cream); }
+  .mobile-list { list-style: none; margin: 16px auto 28px; }
+  .mobile-list a { display: flex; align-items: center; min-height: 60px; border-bottom: 1px solid var(--line-dark); text-decoration: none; font: 700 1.7rem / 1.1 var(--font-display); }
+  .mobile-list a[aria-current="page"] { color: var(--yellow); }
+  .mobile-cta { width: 100%; }
+  @media (max-width: 960px) {
+    .nav { display: none; }
+    .menu-btn { display: grid; }
+    .bar { gap: 10px; }
+  }
+  /* Am Handy übernimmt die feste Bestell-Leiste unten */
+  @media (max-width: 760px) { .order { display: none; } }
+</style>
+
+<script>
+  // Mobiles Menü: Fokus im Dialog halten, Escape schließt, Fokus zurück zum Auslöser
+  const panel = document.querySelector<HTMLElement>("[data-mobile]");
+  const opener = document.querySelector<HTMLButtonElement>("[data-menu-open]");
+  const closer = document.querySelector<HTMLButtonElement>("[data-menu-close]");
+  if (panel && opener && closer) {
+    const close = () => { panel.hidden = true; opener.setAttribute("aria-expanded", "false"); document.body.style.overflow = ""; opener.focus(); };
+    opener.addEventListener("click", () => { panel.hidden = false; opener.setAttribute("aria-expanded", "true"); document.body.style.overflow = "hidden"; closer.focus(); });
+    closer.addEventListener("click", close);
+    panel.addEventListener("keydown", (e) => {
+      if (e.key === "Escape") return close();
+      if (e.key !== "Tab") return;
+      const f = [...panel.querySelectorAll<HTMLElement>("a, button")], first = f[0], last = f[f.length - 1];
+      if (e.shiftKey && document.activeElement === first) { e.preventDefault(); last.focus(); }
+      else if (!e.shiftKey && document.activeElement === last) { e.preventDefault(); first.focus(); }
+    });
+    matchMedia("(min-width: 961px)").addEventListener("change", (m) => { if (m.matches && !panel.hidden) close(); });
+  }
+</script>

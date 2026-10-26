@@ -1,0 +1,51 @@
+---
+import Wordmark from "./Wordmark.astro";
+import Icon from "./Icon.astro";
+import { BUSINESS, ORDER, address, OPEN } from "../config/site";
+import { u } from "../lib/url";
+const adr = address();
+---
+<footer class="site-footer on-dark">
+  <div class="wrap grid">
+    <div class="col">
+      <a class="brand" href={u("/")}><Wordmark /><span class="visually-hidden"> – Startseite</span></a>
+      <p class="muted">Pizza Heimservice</p>
+      <a class="btn btn--primary btn--sm" href={u("/bestellen/")}><Icon name="bag" />Jetzt bestellen</a>
+    </div>
+    <div class="col">
+      <h2 class="fh">Speisekarte</h2>
+      <ul>
+        <li><a href={u("/speisekarte/")}>Alle Gerichte</a></li>
+        <li><a href={u("/allergene-zusatzstoffe/")}>Allergene &amp; Zusatzstoffe</a></li>
+        <li><a href={u("/lieferung-abholung/")}>Lieferung &amp; Abholung</a></li>
+        <li><a href={u("/bestellen/")}>Bestellen{ORDER.provider ? ` über ${ORDER.provider}` : ""}</a></li>
+      </ul>
+    </div>
+    <div class="col">
+      <h2 class="fh">Kontakt</h2>
+      <ul>
+        <li>{adr ?? <span class="open">Adresse: {OPEN}</span>}</li>
+        <li>{BUSINESS.phone && BUSINESS.phoneHref ? <a href={BUSINESS.phoneHref}>{BUSINESS.phone}</a> : <span class="open">Telefon: {OPEN}</span>}</li>
+        <li><a href={u("/kontakt/")}>Öffnungszeiten &amp; Anfahrt</a></li>
+        <li><a href={u("/ueber-uns/")}>Über uns</a></li>
+      </ul>
+    </div>
+  </div>
+  <div class="wrap legal">
+    <p>© {new Date().getFullYear()} {BUSINESS.legalName ?? BUSINESS.name}</p>
+    <p><a href={u("/impressum/")}>Impressum</a><a href={u("/datenschutz/")}>Datenschutz</a></p>
+  </div>
+</footer>
+<style>
+  .site-footer { padding-block: clamp(56px, 8vw, 96px) 28px; }
+  .grid { display: grid; grid-template-columns: 1.3fr 1fr 1fr; gap: 40px; }
+  .col { display: grid; gap: 14px; align-content: start; justify-items: start; }
+  .brand { color: var(--cream); text-decoration: none; min-height: 48px; display: inline-flex; align-items: center; }
+  .fh { font-size: var(--step-1); }
+  ul { list-style: none; margin: 0; padding: 0; display: grid; gap: 4px; }
+  li a, .legal a { display: inline-flex; align-items: center; min-height: 44px; text-decoration-color: var(--yellow); text-underline-offset: 4px; }
+  li { color: var(--ink-on-dark-2); }
+  .legal { display: flex; flex-wrap: wrap; justify-content: space-between; gap: 12px; margin-top: 48px; padding-top: 20px; border-top: 1px solid var(--line-dark); color: var(--ink-on-dark-2); font-size: var(--step--1); }
+  .legal p { display: flex; gap: 18px; align-items: center; }
+  @media (max-width: 820px) { .grid { grid-template-columns: 1fr; gap: 32px; } }
+</style>

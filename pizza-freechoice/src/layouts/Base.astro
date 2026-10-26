@@ -1,0 +1,63 @@
+---
+import "@fontsource-variable/bricolage-grotesque/wdth.css";
+import "@fontsource/figtree/400.css";
+import "@fontsource/figtree/600.css";
+import "@fontsource/figtree/700.css";
+import "../styles/global.css";
+import Header from "../components/Header.astro";
+import Footer from "../components/Footer.astro";
+import MobileBar from "../components/MobileBar.astro";
+import Intro from "../components/Intro.astro";
+import { SITE, BUSINESS, ORDER, address } from "../config/site";
+import { u } from "../lib/url";
+import { assertProduction } from "../lib/prod";
+if (!SITE.preview) assertProduction();
+
+interface Props { title: string; description: string; current?: string; intro?: boolean; jsonld?: boolean }
+const { title, description, current, intro = false, jsonld = false } = Astro.props;
+const canonical = new URL(Astro.url.pathname, Astro.site).href;
+// Strukturdaten nur mit belegten Angaben (Name; Adresse/Telefon erst nach Bestätigung)
+const ld = {
+  "@context": "https://schema.org", "@type": "Restaurant", name: BUSINESS.name, servesCuisine: "Pizza", url: Astro.site?.href,
+  ...(address() ? { address: { "@type": "PostalAddress", streetAddress: BUSINESS.street, postalCode: BUSINESS.zip, addressLocality: BUSINESS.city, addressCountry: "DE" } } : {}),
+  ...(BUSINESS.phone ? { telephone: BUSINESS.phone } : {}),
+  ...(ORDER.url ? { acceptsReservations: false, hasMenu: new URL(u("/speisekarte/"), Astro.site).href } : {}),
+};
+---
+<!doctype html>
+<html lang="de">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+    <title>{title}</title>
+    <meta name="description" content={description} />
+    <meta name="robots" content={SITE.preview ? "noindex, nofollow" : "index, follow"} />
+    <link rel="canonical" href={canonical} />
+    <link rel="icon" href={u("/favicon.svg")} type="image/svg+xml" />
+    <meta name="theme-color" content="#211a16" />
+    <meta property="og:type" content="website" />
+    <meta property="og:locale" content="de_DE" />
+    <meta property="og:site_name" content={SITE.name} />
+    <meta property="og:title" content={title} />
+    <meta property="og:description" content={description} />
+    {jsonld && !SITE.preview && <script type="application/ld+json" set:html={JSON.stringify(ld)} />}
+  </head>
+  <body>
+    <a class="skip-link" href="#inhalt">Zum Inhalt springen</a>
+    {SITE.preview && (
+      <div class="preview-bar" role="note">Unverbindlicher Website-Entwurf – nicht die offizielle Website von Pizza Freechoice. Speisekarte, Preise und Bilder sind Demo-Inhalte.</div>
+    )}
+    {intro && <Intro />}
+    <Header current={current} />
+    <main id="inhalt" tabindex="-1">
+      <slot />
+    </main>
+    <Footer />
+    <MobileBar />
+  </body>
+</html>
+<style is:global>
+  .skip-link { position: absolute; left: 12px; top: -60px; z-index: 300; padding: 12px 16px; border-radius: 10px; background: var(--dark); color: var(--cream); font-weight: 700; }
+  .skip-link:focus { top: 12px; }
+  main:focus { outline: none; }
+</style>

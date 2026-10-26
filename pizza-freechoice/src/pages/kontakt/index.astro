@@ -1,0 +1,44 @@
+---
+import Base from "../../layouts/Base.astro";
+import PageHead from "../../components/PageHead.astro";
+import Icon from "../../components/Icon.astro";
+import { BUSINESS, address, OPEN } from "../../config/site";
+import { u } from "../../lib/url";
+const adr = address();
+---
+<Base title="Kontakt & Öffnungszeiten – Pizza Freechoice" description="Kontakt zu Pizza Freechoice: Adresse, Telefon, Öffnungszeiten und Anfahrt." current="/kontakt/">
+  <PageHead kicker="Kontakt" title="So erreichst du uns." lead="Adresse, Telefon und Öffnungszeiten auf einen Blick." image="eingang" />
+  <section class="section section--tight">
+    <div class="wrap cards">
+      <article class="card">
+        <Icon name="pin" class="ico" />
+        <h2>Adresse</h2>
+        {adr ? <p>{BUSINESS.street}<br />{BUSINESS.zip} {BUSINESS.city}</p> : <p class="open">{OPEN}</p>}
+        {BUSINESS.routeUrl && <a class="btn btn--ghost btn--sm" href={BUSINESS.routeUrl} target="_blank" rel="noopener">Route planen<span class="visually-hidden"> (öffnet Google Maps in neuem Tab)</span></a>}
+      </article>
+      <article class="card">
+        <Icon name="phone" class="ico" />
+        <h2>Telefon &amp; E-Mail</h2>
+        {BUSINESS.phone && BUSINESS.phoneHref ? <a class="big" href={BUSINESS.phoneHref}>{BUSINESS.phone}</a> : <p class="open">Telefon: {OPEN}</p>}
+        {BUSINESS.email ? <a href={`mailto:${BUSINESS.email}`}>{BUSINESS.email}</a> : <p class="open">E-Mail: {OPEN}</p>}
+      </article>
+      <article class="card">
+        <Icon name="clock" class="ico" />
+        <h2>Öffnungszeiten</h2>
+        {BUSINESS.hours ? <dl>{BUSINESS.hours.map((h) => <div><dt>{h.day}</dt><dd>{h.time}</dd></div>)}</dl> : <p class="open">{OPEN}</p>}
+      </article>
+    </div>
+    <div class="wrap cta"><a class="btn btn--primary" href={u("/bestellen/")}><Icon name="bag" />Jetzt bestellen</a></div>
+  </section>
+</Base>
+<style>
+  .cards { display: grid; grid-template-columns: repeat(3, 1fr); gap: 16px; }
+  .card { display: grid; gap: 10px; align-content: start; justify-items: start; padding: 26px; border-radius: var(--radius-lg); background: var(--white); border: 1px solid var(--line); }
+  .card h2 { font-size: var(--step-1); }
+  .card :global(.ico) { width: 28px; height: 28px; color: var(--tomato); }
+  .card a { font-weight: 700; min-height: 44px; display: inline-flex; align-items: center; }
+  .big { font: 800 var(--step-1) / 1.2 var(--font-display); }
+  dl { margin: 0; width: 100%; } dl div { display: flex; justify-content: space-between; gap: 12px; padding: 6px 0; border-top: 1px solid var(--line); } dt { font-weight: 700; } dd { margin: 0; }
+  .cta { margin-top: 32px; }
+  @media (max-width: 900px) { .cards { grid-template-columns: 1fr; } }
+</style>

@@ -1,0 +1,204 @@
+---
+import Base from "../layouts/Base.astro";
+import Img from "../components/Img.astro";
+import Icon from "../components/Icon.astro";
+import Wordmark from "../components/Wordmark.astro";
+import MenuItem from "../components/MenuItem.astro";
+import { getImage } from "astro:assets";
+import { IMAGES } from "../assets/img";
+import { SITE, BUSINESS, DELIVERY, address, OPEN } from "../config/site";
+import { visibleProducts } from "../config/menu";
+import { u } from "../lib/url";
+
+// Einstieg mit Art Direction: quer (04) ab 761 px, hochkant (05) darunter
+const set = async (src: any, widths: number[], q: number) => (await Promise.all(widths.filter((w) => w <= src.width).map(async (w) => `${(await getImage({ src, width: w, format: "webp", quality: q })).src} ${w}w`))).join(", ");
+const dk = IMAGES.heroDesktop.src, mb = IMAGES.heroMobil.src;
+const hero = {
+  // WebP ist bei diesen Motiven kleiner als AVIF (gemessen) → nur WebP + JPEG-Fallback
+  dWebp: await set(dk, [960, 1280, 1672], 64),
+  mWebp: await set(mb, [480, 640, 760], 54),
+  fallback: (await getImage({ src: dk, width: 1280, format: "jpg", quality: 70 })).src,
+};
+const items = visibleProducts(SITE.preview).slice(0, 3);
+const adr = address();
+const steps = [
+  { t: "Aussuchen", d: "Stöber in der Speisekarte und wähle Sorte und Größe." },
+  { t: "Bestellweg öffnen", d: "Über „Jetzt bestellen“ gelangst du zum Bestellweg – online oder per Telefon, sobald freigeschaltet." },
+  { t: "Liefern lassen oder abholen", d: "Je nach Angebot bringt der Heimservice deine Pizza, oder du holst sie im Laden ab." },
+];
+---
+<Base title="Pizza Freechoice – Pizza Heimservice" description="Pizza Freechoice: Speisekarte ansehen, Lieblingspizza aussuchen und bestellen – Heimservice und Abholung." current="/" intro jsonld>
+  <!-- Einstieg -->
+  <section class="hero on-dark" aria-labelledby="hero-title">
+    <picture class="hero-pic">
+      <source media="(max-width: 760px)" type="image/webp" srcset={hero.mWebp} sizes="100vw" />
+      <source type="image/webp" srcset={hero.dWebp} sizes="100vw" />
+      <img src={hero.fallback} width={dk.width} height={dk.height} alt={IMAGES.heroDesktop.alt} fetchpriority="high" decoding="async" />
+    </picture>
+    <span class="hero-shade" aria-hidden="true"></span>
+    {SITE.preview && <span class="img-note">Illustratives Motiv (KI-inszeniert)</span>}
+    <div class="wrap hero-inner">
+      <p class="hero-mark"><Wordmark /></p>
+      <h1 id="hero-title">Dein <span class="hl">Pizza-Moment.</span></h1>
+      <p class="lead hero-lead">Entdecke unsere Speisekarte und finde deine nächste Lieblingspizza.</p>
+      <div class="btn-row">
+        <a class="btn btn--primary" href={u("/bestellen/")}><Icon name="bag" />Jetzt bestellen</a>
+        <a class="btn btn--ghost" href={u("/speisekarte/")}>Speisekarte ansehen</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Liefer-/Abholinfo kompakt (nur bestätigte Angaben, sonst „Angabe folgt“) -->
+  <section class="sign" aria-label="Lieferung, Abholung und Öffnungszeiten">
+    <ul class="wrap sign-list">
+      <li><Icon name="truck" /><span><strong>Pizza Heimservice</strong>{DELIVERY.area ? `Liefergebiet: ${DELIVERY.area}` : `Liefergebiet: ${OPEN}`}</span></li>
+      <li><Icon name="store" /><span><strong>Abholung</strong>{DELIVERY.pickup === true ? (adr ?? "im Laden") : OPEN}</span></li>
+      <li><Icon name="clock" /><span><strong>Öffnungszeiten</strong>{BUSINESS.hours ? BUSINESS.hours.map((h) => `${h.day} ${h.time}`).join(" · ") : OPEN}</span></li>
+    </ul>
+  </section>
+
+  <!-- Menüvorschau -->
+  <section class="section" aria-labelledby="menu-title">
+    <div class="wrap">
+      <div class="head">
+        <div>
+          <p class="kicker">Speisekarte</p>
+          <h2 id="menu-title">Such dir was aus.</h2>
+        </div>
+        <a class="btn btn--ghost" href={u("/speisekarte/")}>Ganze Speisekarte<Icon name="arrow" /></a>
+      </div>
+      {SITE.preview && <p class="notice"><Icon name="info" /><span><strong>Vorschau:</strong> Die aktuelle Speisekarte liegt noch nicht vor. Die Einträge unten sind Demo-Daten mit Beispielpreisen.</span></p>}
+      <div class="menu-grid">
+        {items.map((p, i) => <MenuItem p={p} withImage={i === 0} />)}
+      </div>
+    </div>
+  </section>
+
+  <!-- Bildband -->
+  <section class="band on-dark" aria-labelledby="band-title">
+    <Img name="pizzaDetail" class="band-img" sizes="100vw" decorative />
+    <span class="band-shade" aria-hidden="true"></span>
+    {SITE.preview && <span class="img-note">Illustratives Motiv (KI-inszeniert)</span>}
+    <div class="wrap band-inner">
+      <h2 id="band-title">Free Choice heißt:<br />Du hast die Wahl.</h2>
+      <p class="lead">Klassiker oder voll belegt, Mittagspause oder Pizzaabend mit Freunden – such dir aus, worauf du heute Lust hast.</p>
+    </div>
+  </section>
+
+  <!-- Ablauf -->
+  <section class="section" aria-labelledby="steps-title">
+    <div class="wrap">
+      <p class="kicker">So einfach geht’s</p>
+      <h2 id="steps-title">In drei Schritten zur Pizza.</h2>
+      <ol class="steps">
+        {steps.map((s, i) => <li><span class="num" aria-hidden="true">{i + 1}</span><h3>{s.t}</h3><p class="muted">{s.d}</p></li>)}
+      </ol>
+    </div>
+  </section>
+
+  <!-- Über uns + Kontakt -->
+  <section class="section section--alt" aria-labelledby="about-title">
+    <div class="wrap about">
+      <div class="about-pic"><Img name="ladenAussen" sizes="(min-width: 900px) 50vw, 100vw" note /></div>
+      <div class="about-txt">
+        <p class="kicker">Über uns</p>
+        <h2 id="about-title">Der Laden mit dem gelben Schild.</h2>
+        <p class="lead muted">Pizza Freechoice ist ein Pizza-Heimservice. Erkennst du schon von Weitem: am gelben Schild über dem Schaufenster.</p>
+        <dl class="facts">
+          <div><dt>Adresse</dt><dd>{adr ?? <span class="open">{OPEN}</span>}</dd></div>
+          <div><dt>Telefon</dt><dd>{BUSINESS.phone && BUSINESS.phoneHref ? <a href={BUSINESS.phoneHref}>{BUSINESS.phone}</a> : <span class="open">{OPEN}</span>}</dd></div>
+          <div><dt>Öffnungszeiten</dt><dd>{BUSINESS.hours ? BUSINESS.hours.map((h) => <span class="hrow">{h.day}: {h.time}</span>) : <span class="open">{OPEN}</span>}</dd></div>
+        </dl>
+        <div class="btn-row">
+          <a class="btn btn--ghost" href={u("/ueber-uns/")}>Mehr über uns</a>
+          <a class="btn btn--ghost" href={u("/kontakt/")}>Kontakt &amp; Anfahrt</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Abschluss -->
+  <section class="final on-dark" aria-labelledby="final-title">
+    <Img name="pizzaabend" class="final-img" sizes="100vw" decorative />
+    <span class="final-shade" aria-hidden="true"></span>
+    <div class="wrap final-inner">
+      <h2 id="final-title">Hunger bekommen?</h2>
+      <div class="btn-row">
+        <a class="btn btn--primary" href={u("/bestellen/")}><Icon name="bag" />Jetzt bestellen</a>
+        <a class="btn btn--ghost" href={u("/speisekarte/")}>Speisekarte ansehen</a>
+      </div>
+    </div>
+  </section>
+</Base>
+
+<style>
+  /* ---------- Einstieg ---------- */
+  .hero { position: relative; isolation: isolate; overflow: hidden; min-height: min(calc(100svh - 76px), 860px); display: flex; align-items: center; }
+  .hero-pic img { position: absolute; inset: 0; z-index: -2; width: 100%; height: 100%; object-fit: cover; object-position: 70% 50%; }
+  .hero-shade { position: absolute; inset: 0; z-index: -1; background: linear-gradient(90deg, rgb(33 26 22 / 0.92) 0%, rgb(33 26 22 / 0.7) 34%, rgb(33 26 22 / 0) 62%); }
+  .hero .img-note { left: auto; right: 12px; }
+  .hero-inner { display: grid; gap: 22px; justify-items: start; padding-block: clamp(56px, 9vh, 110px); }
+  .hero h1 { font-size: clamp(3rem, 1.4rem + 6.4vw, 7.2rem); font-weight: 800; line-height: 0.92; letter-spacing: -0.035em; max-width: 9ch; font-variation-settings: "wdth" 85; }
+  .hl { position: relative; white-space: nowrap; }
+  .hl::after { content: ""; position: absolute; left: -0.04em; right: -0.04em; bottom: 0.04em; height: 0.16em; background: var(--yellow); border-radius: 0.1em; z-index: -1; transform: rotate(-1.2deg); }
+  .hero-lead { color: var(--ink-on-dark-2); max-width: 30ch; }
+  @media (max-width: 760px) {
+    .hero { align-items: flex-start; min-height: calc(100svh - 76px - var(--mbar)); }
+    .hero-pic img { object-position: 50% 100%; }
+    .hero-shade { background: linear-gradient(180deg, rgb(33 26 22 / 0.95) 0%, rgb(33 26 22 / 0.75) 40%, rgb(33 26 22 / 0) 68%); }
+    .hero-inner { padding-block: 36px 280px; }
+    .hero-mark { display: none; }
+    .hero .btn-row { width: 100%; }
+    .hero .btn-row .btn { flex: 1 1 100%; }
+  }
+
+  /* ---------- Ladenschild-Band ---------- */
+  .sign { background: var(--yellow); color: var(--dark); }
+  .sign-list { list-style: none; margin: 0 auto; padding-block: 22px; display: grid; grid-template-columns: repeat(3, 1fr); gap: 16px 32px; }
+  .sign-list li { display: flex; gap: 14px; align-items: flex-start; }
+  .sign-list :global(svg) { width: 28px; height: 28px; flex: none; }
+  .sign-list span { display: grid; gap: 2px; font-size: var(--step--1); }
+  .sign-list strong { font: 800 var(--step-0) / 1.2 var(--font-display); }
+  @media (max-width: 760px) { .sign-list { grid-template-columns: 1fr; } }
+
+  /* ---------- Menüvorschau ---------- */
+  .head { display: flex; flex-wrap: wrap; align-items: flex-end; justify-content: space-between; gap: 20px; margin-bottom: 28px; }
+  .notice { margin-bottom: 20px; }
+  .notice :global(svg) { width: 20px; height: 20px; flex: none; margin-top: 1px; }
+  .menu-grid { display: grid; grid-template-columns: 1.4fr 1fr 1fr; gap: 16px; align-items: stretch; }
+  @media (max-width: 1020px) { .menu-grid { grid-template-columns: 1fr; } }
+
+  /* ---------- Bildband ---------- */
+  .band { position: relative; isolation: isolate; overflow: hidden; }
+  .band :global(.band-img), .final :global(.final-img) { position: absolute; inset: 0; z-index: -2; width: 100%; height: 100%; object-fit: cover; }
+  .band-shade { position: absolute; inset: 0; z-index: -1; background: linear-gradient(90deg, rgb(33 26 22 / 0.9), rgb(33 26 22 / 0.35) 70%); }
+  .band .img-note { left: auto; right: 12px; }
+  .band-inner { display: grid; gap: 18px; padding-block: clamp(96px, 14vw, 180px); }
+  .band h2 { font-size: var(--step-4); font-weight: 800; line-height: 0.95; max-width: 12ch; }
+  .band .lead { color: var(--ink-on-dark-2); }
+
+  /* ---------- Ablauf ---------- */
+  .steps { list-style: none; margin: 36px 0 0; padding: 0; display: grid; grid-template-columns: repeat(3, 1fr); gap: 16px; counter-reset: s; }
+  .steps li { position: relative; display: grid; gap: 10px; align-content: start; padding: 26px 24px 28px; border-radius: var(--radius); background: var(--white); border: 1px solid var(--line); }
+  .num { display: grid; place-items: center; width: 48px; height: 48px; border-radius: 50%; background: var(--yellow); font: 800 1.4rem / 1 var(--font-display); box-shadow: 0 2px 0 #c6930c; margin-bottom: 6px; }
+  @media (max-width: 860px) { .steps { grid-template-columns: 1fr; } }
+
+  /* ---------- Über uns ---------- */
+  .section--alt { background: var(--cream-2); }
+  .about { display: grid; grid-template-columns: 1fr 1fr; gap: clamp(28px, 5vw, 72px); align-items: center; }
+  .about-pic { position: relative; border-radius: var(--radius-lg); overflow: hidden; aspect-ratio: 4 / 3; }
+  .about-pic :global(img) { width: 100%; height: 100%; object-fit: cover; }
+  .about-txt { display: grid; gap: 18px; justify-items: start; }
+  .facts { margin: 6px 0 4px; display: grid; gap: 10px; width: 100%; }
+  .facts div { display: grid; grid-template-columns: 140px 1fr; gap: 12px; padding-bottom: 10px; border-bottom: 1px solid var(--line); }
+  .facts dt { font-weight: 700; }
+  .facts dd { margin: 0; }
+  .hrow { display: block; }
+  @media (max-width: 860px) { .about { grid-template-columns: 1fr; } .facts div { grid-template-columns: 1fr; gap: 2px; } }
+
+  /* ---------- Abschluss ---------- */
+  .final { position: relative; isolation: isolate; overflow: hidden; }
+  .final-shade { position: absolute; inset: 0; z-index: -1; background: rgb(33 26 22 / 0.62); }
+  .final-inner { display: grid; justify-items: center; text-align: center; gap: 24px; padding-block: clamp(88px, 12vw, 150px); }
+  .final h2 { font-size: var(--step-4); font-weight: 800; }
+</style>

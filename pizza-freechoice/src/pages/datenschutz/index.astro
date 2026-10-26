@@ -1,0 +1,19 @@
+---
+import Base from "../../layouts/Base.astro";
+import PageHead from "../../components/PageHead.astro";
+---
+<Base title="Datenschutz – Pizza Freechoice" description="Datenschutzhinweise von Pizza Freechoice: welche Daten beim Besuch und bei Bestellungen verarbeitet werden." current="/datenschutz/">
+  <PageHead title="Datenschutz" />
+  <section class="section section--tight">
+    <div class="wrap legal">
+      <p class="notice"><span><strong>Platzhalter:</strong> Die Datenschutzerklärung muss zum tatsächlichen Betrieb passen (Hosting, Bestellanbieter, Telefon-/E-Mail-Kontakt) und vom Betreiber erstellt bzw. geprüft werden. Unten steht nur die Gliederung.</span></p>
+      <h2>1. Verantwortlicher</h2><p class="open">Name und Kontakt des Betreibers: Angabe folgt.</p>
+      <h2>2. Hosting und Server-Protokolle</h2><p class="open">Anbieter und Speicherdauer: Angabe folgt.</p>
+      <h2>3. Bestellungen</h2><p class="muted">Online-Bestellungen laufen über einen externen Bestellanbieter. Dessen Datenschutzhinweise gelten; Anbieter: Angabe folgt.</p>
+      <h2>4. Kontakt per Telefon oder E-Mail</h2><p class="open">Angabe folgt.</p>
+      <h2>5. Cookies und Analyse</h2><p class="muted">Diese Website setzt in der vorliegenden Fassung keine Analyse- oder Werbe-Cookies und bindet keine externen Karten oder Schriften ein.</p>
+      <h2>6. Deine Rechte</h2><p class="open">Auskunft, Berichtigung, Löschung, Einschränkung, Widerspruch, Datenübertragbarkeit, Beschwerde bei der Aufsichtsbehörde – Formulierung folgt mit der finalen Erklärung.</p>
+    </div>
+  </section>
+</Base>
+<style>.legal { display: grid; gap: 10px; max-width: 760px; } .legal h2 { font-size: var(--step-1); margin-top: 18px; } .notice { margin-bottom: 12px; }</style>

@@ -1,0 +1,41 @@
+---
+import Base from "../../layouts/Base.astro";
+import PageHead from "../../components/PageHead.astro";
+import { SITE } from "../../config/site";
+import { visibleProducts } from "../../config/menu";
+// Die 14 Hauptallergene nach LMIV (EU-Verordnung 1169/2011, Anhang II) – Bezugsliste, keine Produktangabe
+const ALLERGENS = ["Glutenhaltiges Getreide", "Krebstiere", "Eier", "Fisch", "Erdnüsse", "Sojabohnen", "Milch (einschließlich Laktose)", "Schalenfrüchte (Nüsse)", "Sellerie", "Senf", "Sesamsamen", "Schwefeldioxid und Sulfite", "Lupinen", "Weichtiere"];
+const products = visibleProducts(SITE.preview);
+---
+<Base title="Allergene & Zusatzstoffe – Pizza Freechoice" description="Allergene und Zusatzstoffe der Gerichte von Pizza Freechoice." current="/allergene-zusatzstoffe/">
+  <PageHead kicker="Speisekarte" title="Allergene &amp; Zusatzstoffe" lead="Hier stehen die Angaben je Gericht, sobald sie vom Betrieb bestätigt sind." />
+  <section class="section section--tight">
+    <div class="wrap">
+      <p class="notice"><span><strong>Wichtig:</strong> Für die Gerichte liegen noch keine bestätigten Allergen- und Zusatzstoffangaben vor. Ein fehlender Eintrag bedeutet „nicht bestätigt“ – nicht „frei von“. Bei Allergien frag bitte vor der Bestellung direkt nach.</span></p>
+      <h2>Gerichte</h2>
+      <div class="tablewrap" tabindex="0" role="region" aria-label="Tabelle Allergene und Zusatzstoffe (seitlich scrollbar)">
+        <table>
+          <caption class="visually-hidden">Allergene und Zusatzstoffe je Gericht</caption>
+          <thead><tr><th scope="col">Gericht</th><th scope="col">Allergene</th><th scope="col">Zusatzstoffe</th></tr></thead>
+          <tbody>
+            {products.map((p) => <tr><th scope="row">{p.name}{p.demo && " (Demo)"}</th><td>{p.allergens ? p.allergens.join(", ") : <span class="open">nicht bestätigt</span>}</td><td>{p.additives ? p.additives.join(", ") : <span class="open">nicht bestätigt</span>}</td></tr>)}
+          </tbody>
+        </table>
+      </div>
+      <h2>Die 14 Hauptallergene</h2>
+      <p class="muted">Kennzeichnungspflichtig nach der EU-Lebensmittelinformationsverordnung:</p>
+      <ul class="cols">{ALLERGENS.map((a) => <li>{a}</li>)}</ul>
+    </div>
+  </section>
+</Base>
+<style>
+  .notice { margin-bottom: 32px; }
+  h2 { font-size: var(--step-2); margin: 32px 0 14px; }
+  .tablewrap { overflow-x: auto; border-radius: var(--radius); border: 1px solid var(--line); background: var(--white); }
+  table { width: 100%; border-collapse: collapse; min-width: 520px; }
+  th, td { text-align: left; padding: 12px 16px; border-bottom: 1px solid var(--line); vertical-align: top; }
+  thead th { background: var(--cream-2); font-weight: 700; }
+  .cols { columns: 2; column-gap: 32px; padding-left: 1.2em; margin: 8px 0 0; }
+  .cols li { padding: 3px 0; break-inside: avoid; }
+  @media (max-width: 600px) { .cols { columns: 1; } }
+</style>
