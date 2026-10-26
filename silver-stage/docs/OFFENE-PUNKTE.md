@@ -34,3 +34,6 @@
 ## Optionale Messung (nur nach Entscheidung des Betreibers)
 Mögliche Ereignisse: Aufruf Raum-Seite, Beginn Anfrage, bestätigter Anfrage-Eingang (Server-OK), Klick auf Telefon/E-Mail.
 Keine Freitexte oder personenbezogenen Daten senden; Werkzeug und Rechtsgrundlage vorher klären. Derzeit ist **kein** Tracking eingebaut.
+
+## Neu im Startbereich (26.10.2026)
+- „Jahrelange Erfahrung in Aufnahme und Live-Sound“ steht im Startbereich (Wunsch des Auftraggebers, ohne Zahl). Mit Silver Stage bestätigen; ggf. konkretes Gründungsjahr bzw. Jahre nennen lassen.
