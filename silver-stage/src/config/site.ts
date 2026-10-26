@@ -77,8 +77,8 @@ export const ROOMS: Room[] = [
       { q: "Mit welcher Software wird gearbeitet?", a: "Im Studio stehen Cubase, Logic und Reaper zur Verfügung." },
     ],
     visual: "studio",
-    seoTitle: "Tonstudio München-Sendling – Musik, Gesang & Sprache aufnehmen | Silver Stage",
-    seoDescription: "Akustisch optimiertes Tonstudio in München-Sendling: Musik-, Gesangs- und Sprachaufnahmen mit ORAM-Analogpult, Neumann TLM 49 und analoger wie digitaler Technik. Jetzt anfragen.",
+    seoTitle: "Tonstudio München-Sendling für Musik & Gesang | Silver Stage",
+    seoDescription: "Tonstudio in München-Sendling: Musik, Gesang und Sprache aufnehmen – mit ORAM-Analogpult, Neumann TLM 49 und analoger Technik. Jetzt anfragen.",
   },
   {
     key: "stageroom",
@@ -109,7 +109,7 @@ export const ROOMS: Room[] = [
       { q: "Was kostet der Raum?", a: "Preise gibt es auf Anfrage – abhängig von Dauer und Bedarf." },
     ],
     visual: "stage",
-    seoTitle: "Proberaum mit Bühne in München – Stageroom 80 m² | Silver Stage",
+    seoTitle: "Proberaum mit Bühne in München, 80 m² | Silver Stage",
     seoDescription: "Proberaum mit Bühne in München-Sendling: 80 m², Lichtanlage, Konzertanlage, Monitoring, MIDAS Venice F-32, Beamer und Live-Aufnahme. Jetzt Probe anfragen.",
   },
   {
@@ -140,7 +140,7 @@ export const ROOMS: Room[] = [
       { q: "Was kostet der Raum?", a: "Preise gibt es auf Anfrage – abhängig von Dauer und Nutzung." },
     ],
     visual: "light",
-    seoTitle: "Tanzraum & Raum für Fotoshootings in München – Lightroom | Silver Stage",
+    seoTitle: "Tanzraum & Raum für Shootings in München | Silver Stage",
     seoDescription: "Lightroom in München-Sendling: 55 m² mit farbiger Lichtanlage, hängender PA und Spiegelwand – für Tanzgruppen, Gesangsunterricht und Fotoshootings.",
   },
 ];

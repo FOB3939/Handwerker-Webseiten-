@@ -32,13 +32,18 @@ const ogImage = new URL(`${base}og.png`.replace(/\/{2,}/g, "/"), SITE.url).href;
 const org = {
   "@context": "https://schema.org",
   "@type": "RecordingStudio",
+  "@id": `${SITE.url}/#studio`,
   name: "Silver Stage",
   url: SITE.url,
+  logo: new URL(`${base}brand/logo-stacked-dark.svg`.replace(/\/{2,}/g, "/"), SITE.url).href,
+  image: ogImage,
   telephone: "+49 89 23548214",
   email: CONTACT.email,
   address: { "@type": "PostalAddress", streetAddress: CONTACT.street, postalCode: CONTACT.zip, addressLocality: CONTACT.city, addressCountry: "DE" },
 };
-const ld = [org, ...jsonLd];
+// WebSite: liefert Google den Website-Namen (nur auf der Startseite nötig)
+const website = { "@context": "https://schema.org", "@type": "WebSite", name: "Silver Stage", url: SITE.url };
+const ld = Astro.url.pathname === base ? [org, website, ...jsonLd] : [org, ...jsonLd];
 ---
 <!doctype html>
 <html lang="de">

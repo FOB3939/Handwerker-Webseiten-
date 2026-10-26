@@ -38,7 +38,7 @@ const { room = "silver", class: cls, pulse = false, at = "right", src, alt = "" 
   .light--center { --cx: 50%; }
   .light--left { --cx: 30%; }
 
-  .light--pulse .arcs :global(path) { animation: ring var(--beat) cubic-bezier(0.2, 0.6, 0.3, 1) infinite; }
+  .light--pulse .arcs :global(path) { animation: ring var(--beat) cubic-bezier(0.2, 0.6, 0.3, 1) 8 both; }
   .light--pulse .arcs :global(path[data-ring="1"]) { animation-delay: 0.06s; }
   .light--pulse .arcs :global(path[data-ring="2"]) { animation-delay: 0.12s; }
   .light--pulse .arcs :global(path[data-ring="3"]) { animation-delay: 0.18s; }

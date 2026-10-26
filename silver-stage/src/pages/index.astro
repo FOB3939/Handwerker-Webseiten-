@@ -3,10 +3,21 @@ import Base from "../layouts/Base.astro";
 import Light from "../components/Light.astro";
 import Icon from "../components/Icon.astro";
 import Logo from "../components/Logo.astro";
+import Faq from "../components/Faq.astro";
 import { ROOMS, CONTACT, roomByKey } from "../config/site";
 import { u } from "../lib/url";
 const studio = roomByKey("tonstudio");
 const keys = ["D", "F", "J", "K"];
+// Konkrete Eckdaten statt Schlagworte (nur belegte Angaben aus site.ts)
+const spec: Record<string, string> = { tonstudio: "32-Kanal-Analogpult", stageroom: "80 m² mit Bühne", lightroom: "55 m² mit Spiegelwand" };
+// Häufige Fragen aus den belegten Antworten der Raumseiten
+const faq = [
+  { q: "Was kostet eine Session?", a: "Feste Preise gibt es nicht. Das Angebot richtet sich nach Raum, Dauer und Technik. Beschreib kurz dein Vorhaben, dann bekommst du ein konkretes Angebot." },
+  { q: "Ist jemand für die Technik da?", a: roomByKey("tonstudio").faq[1].a },
+  { q: "Kann ich die Bandprobe aufnehmen lassen?", a: roomByKey("stageroom").faq[1].a },
+  { q: "Wie groß sind die Räume?", a: "Der Stageroom hat 80 m² mit Bühne, der Lightroom 55 m² mit Spiegelwand. Das Tonstudio ist ein akustisch optimierter Aufnahmeraum." },
+  { q: "Wann kann ich kommen?", a: CONTACT.hoursNote },
+];
 ---
 <Base
   title="Silver Stage – Tonstudio & Proberäume in München-Sendling"
@@ -23,18 +34,19 @@ const keys = ["D", "F", "J", "K"];
     <div class="wrap hero-inner">
       <p class="where">Tonstudio und Proberäume in München-Sendling</p>
       <h1 id="hero-title" class="metal">Dein Sound.<br />Dein Raum.</h1>
-      <p class="lead">Aufnehmen, proben, tanzen, fotografieren – drei Räume unter einem Dach in der Flößergasse.</p>
+      <p class="lead">Ein Tonstudio zum Aufnehmen, eine Bühne zum Proben und ein Lichtraum für Tanz und Shootings. Alles unter einem Dach in der Flößergasse.</p>
       <div class="btn-row">
         <a class="btn btn--primary" href={u("/kontakt/")}>Session anfragen</a>
         <a class="btn btn--ghost" href="#raeume">Räume ansehen</a>
       </div>
+      <p class="assure">Preise auf Anfrage. Du bekommst ein Angebot für dein Vorhaben.</p>
     </div>
     <nav class="wrap hero-rooms" aria-label="Die drei Räume">
       {ROOMS.map((r) => (
         <a href={u(r.path)} data-room={r.key}>
           <span class="bar" aria-hidden="true"></span>
           <span class="rname">{r.name}</span>
-          <span class="rwhat">{r.kicker}{r.area ? `, ${r.area}` : ""}</span>
+          <span class="rwhat">{spec[r.key]}</span>
         </a>
       ))}
     </nav>
@@ -45,7 +57,7 @@ const keys = ["D", "F", "J", "K"];
     <div class="wrap">
       <div class="head" data-reveal>
         <h2 id="rooms-title">Drei Räume.<br />Drei Lichtstimmungen.</h2>
-        <p class="lead">Jeder Raum hat sein eigenes Licht – und seinen eigenen Zweck. Fahr mit der Maus darüber oder tippe einen Raum an.</p>
+        <p class="lead">Jeder Raum hat sein eigenes Licht und seinen eigenen Zweck: aufnehmen im Tonstudio, proben auf der Bühne, tanzen und fotografieren im Lightroom.</p>
       </div>
       <ul class="lanes">
         {ROOMS.map((r, i) => (
@@ -115,6 +127,11 @@ const keys = ["D", "F", "J", "K"];
     </div>
   </section>
 
+  <!-- Einwände vor der Anfrage klären -->
+  <section class="section section--alt" aria-label="Häufige Fragen">
+    <div class="wrap"><Faq items={faq} /></div>
+  </section>
+
   <!-- Standort + Kontakt -->
   <section class="section visit" aria-labelledby="visit-title">
     <div class="wrap">
@@ -142,7 +159,7 @@ const keys = ["D", "F", "J", "K"];
   .spot { position: absolute; inset: 0; background: radial-gradient(520px circle at var(--mx, 72%) var(--my, 42%), rgb(230 236 247 / 0.11), transparent 70%); transition: background-position 0.2s; }
   .hero-arcs { position: absolute; width: min(104vh, 80vw); aspect-ratio: 1; right: max(-18vw, -260px); top: 44%; transform: translateY(-50%); color: var(--silver); }
   .hero-arcs :global(svg) { width: 100%; height: 100%; overflow: visible; }
-  .hero-arcs :global(path) { vector-effect: non-scaling-stroke; stroke-width: 3px; stroke: var(--silver); opacity: 0.22; animation: beat var(--beat) cubic-bezier(0.15, 0.7, 0.3, 1) infinite; }
+  .hero-arcs :global(path) { vector-effect: non-scaling-stroke; stroke-width: 3px; stroke: var(--silver); opacity: 0.22; animation: beat var(--beat) cubic-bezier(0.15, 0.7, 0.3, 1) 8 both; }
   .hero-arcs :global(path[data-ring="1"]) { animation-delay: 0.05s; }
   .hero-arcs :global(path[data-ring="2"]) { animation-delay: 0.1s; }
   .hero-arcs :global(path[data-ring="3"]) { animation-delay: 0.15s; }
@@ -151,13 +168,14 @@ const keys = ["D", "F", "J", "K"];
   .hero-arcs :global(path[data-group="2"]) { stroke: var(--spot); }
   .hero-arcs :global(.signet-dot) { r: 3.2px; fill: var(--ink); filter: drop-shadow(0 0 18px #fff); }
   .hero-arcs :global(svg) { filter: drop-shadow(0 0 22px rgb(230 236 247 / 0.25)); }
-  @keyframes beat { 0% { opacity: 0.85; } 60%, 100% { opacity: 0.2; } }
+  @keyframes beat { 0% { opacity: 0.85; } 60%, 100% { opacity: 0.3; } }
   @media (prefers-reduced-motion: reduce) { .hero-arcs :global(path) { animation: none; opacity: 0.45; } }
 
   .hero-inner { position: relative; z-index: 2; align-self: center; display: grid; gap: 26px; justify-items: start; padding-block: clamp(64px, 12vh, 140px) 48px; }
   .where { font: 500 var(--step-0) / 1.3 var(--font-display); color: var(--silver); }
   .hero h1 { font-size: clamp(3.4rem, 1.2rem + 9.6vw, 11rem); line-height: 0.9; font-weight: 300; letter-spacing: -0.045em; padding-bottom: 0.06em; }
-  .hero .lead { color: var(--ink-2); max-width: 40ch; }
+  .hero .lead { color: var(--ink-2); max-width: 44ch; }
+  .assure { font-size: var(--step--1); color: var(--ink-2); margin-top: -8px; }
 
   .hero-rooms { position: relative; z-index: 2; display: grid; grid-template-columns: repeat(3, 1fr); border-top: 1px solid var(--line); }
   .hero-rooms a { position: relative; display: grid; gap: 4px; padding: 22px 24px 26px 0; text-decoration: none; }
@@ -212,7 +230,7 @@ const keys = ["D", "F", "J", "K"];
     background-blend-mode: overlay; box-shadow: inset 0 1px 0 rgb(255 255 255 / 0.1), inset 0 -1px 0 rgb(0 0 0 / 0.6); }
   .screw { width: 10px; height: 10px; border-radius: 50%; background: radial-gradient(circle at 35% 35%, #9aa1ab, #3a3f48 70%); box-shadow: 0 1px 0 rgb(0 0 0 / 0.6); }
   .unit { font: 400 var(--step-1) / 1.2 var(--font-display); color: var(--ink); }
-  .led { width: 8px; height: 8px; border-radius: 50%; background: var(--amber); box-shadow: 0 0 10px var(--amber), 0 0 2px #fff inset; animation: led calc(var(--beat) * 4) steps(1) infinite; animation-delay: calc(var(--i) * var(--beat) * 0.5); }
+  .led { width: 8px; height: 8px; border-radius: 50%; background: var(--amber); box-shadow: 0 0 10px var(--amber), 0 0 2px #fff inset; animation: led calc(var(--beat) * 4) steps(1) 2; animation-delay: calc(var(--i) * var(--beat) * 0.5); }
   @keyframes led { 0%, 60% { opacity: 1; } 61%, 100% { opacity: 0.35; } }
   @media (max-width: 860px) { .tech { grid-template-columns: 1fr; } .rack li { gap: 12px; } }
 
@@ -231,7 +249,7 @@ const keys = ["D", "F", "J", "K"];
   .keys { display: grid; grid-template-columns: repeat(4, 1fr); gap: clamp(10px, 1.6vw, 18px); max-width: 520px; width: 100%; justify-self: center; }
   .key { aspect-ratio: 1; display: grid; place-items: center; border-radius: 18px; font: 500 clamp(1.6rem, 1rem + 2vw, 2.6rem) / 1 var(--font-display); color: var(--ink-2);
     background: linear-gradient(180deg, #232833, #161a22); border: 1px solid var(--line); box-shadow: inset 0 1px 0 rgb(255 255 255 / 0.08), 0 10px 0 -2px #090b0f, 0 12px 24px rgb(0 0 0 / 0.5);
-    animation: hit calc(var(--beat) * 4) var(--ease) infinite; animation-delay: calc(var(--k) * var(--beat)); }
+    animation: hit calc(var(--beat) * 4) var(--ease) 2; animation-delay: calc(var(--k) * var(--beat)); }
   .key:nth-child(1) { --c: var(--amber); } .key:nth-child(2) { --c: var(--spot); } .key:nth-child(3) { --c: var(--magenta); } .key:nth-child(4) { --c: #8fd3ff; }
   @keyframes hit { 0% { color: #0d0f14; background: var(--c); box-shadow: 0 0 40px -4px var(--c), 0 4px 0 -2px #090b0f; transform: translateY(6px); } 25%, 100% { } }
   @media (prefers-reduced-motion: reduce) { .key { animation: none; } }

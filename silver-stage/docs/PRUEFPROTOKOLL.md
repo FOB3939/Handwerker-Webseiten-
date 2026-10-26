@@ -8,7 +8,7 @@ Alle Prüfungen liefen automatisiert in Chromium (Playwright) in der Arbeitsumge
 | Spiel-Durchlauf (automatische Treffer, Pause bei Tabwechsel) | `tests/browser-play.mjs` | 62/62 „Perfekt“, Pause/Fortsetzen korrekt |
 | 10 Seiten × 5 Breiten (320–1440 px): kein horizontales Scrollen, axe-core, interne Links | `tests/qa-pages.cjs` | 50/50 ohne Befund |
 | Interaktion: Intro (überspringen, einmal pro Sitzung, reduced motion), Navigation + Tastatur, Formular-Validierung, Doppelabsenden, Fehler-/Erfolgsfall | `tests/qa-interaction.cjs` | 17/17 bestanden |
-| Lighthouse (Vorschau-Build, mobil) | lighthouse | Startseite: Performance 98, Barrierefreiheit 100, Best Practices 100, LCP 2,1 s, CLS 0, TBT 0 ms; Tonstudio: 98 / 100 / 100, LCP 2,0 s, CLS 0,04 |
+| Lighthouse (Vorschau-Build, mobil) | lighthouse | Startseite: Performance 95–98, Barrierefreiheit 100, Best Practices 100, LCP 2,1 s, CLS 0, TBT 0 ms; Tonstudio: 98 / 100 / 100, LCP 2,0 s, CLS 0,04 |
 | Lighthouse SEO (Produktionskonfiguration, `PUBLIC_PREVIEW=false`) | lighthouse | 100 |
 | Sitemap | Build | nur die 7 Inhaltsseiten |
 | Artifact-Vorschau (Export, `scripts/artifact-export.mjs`) | Playwright | alle Seiten laden, Schriften aktiv, keine 404 |
@@ -30,3 +30,6 @@ Alle Prüfungen liefen automatisiert in Chromium (Playwright) in der Arbeitsumge
 - echter Mailversand (nur simuliert)
 - INP (nur mit Felddaten messbar)
 - Abgleich mit der alten Website und der Gestaltungsreferenz (beide nicht erreichbar)
+
+## Bewegung (WCAG 2.2.2)
+Automatisch laufende Animationen (Schallbögen, Rack-LEDs, D-F-J-K-Tasten) enden nach höchstens 4,8 s; bei „Bewegung reduzieren“ laufen sie gar nicht.

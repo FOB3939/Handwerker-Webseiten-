@@ -109,7 +109,7 @@ import { u } from "../../lib/url";
   .text-btn { background: none; border: 0; color: var(--ink); text-decoration: underline; text-underline-offset: 5px; min-height: 44px; padding: 0; font: inherit; cursor: pointer; }
   .start-art { color: var(--ink); max-width: 420px; width: 100%; justify-self: center; opacity: 0.9; }
   .start-art :global(svg) { width: 100%; height: auto; overflow: visible; filter: drop-shadow(0 0 20px rgb(230 236 247 / 0.2)); }
-  .start-art :global(path) { vector-effect: non-scaling-stroke; stroke-width: 3px; animation: art-beat var(--beat) cubic-bezier(0.15, 0.7, 0.3, 1) infinite; }
+  .start-art :global(path) { vector-effect: non-scaling-stroke; stroke-width: 3px; animation: art-beat var(--beat) cubic-bezier(0.15, 0.7, 0.3, 1) 8 both; }
   .start-art :global(path[data-group="0"]) { stroke: var(--amber); }
   .start-art :global(path[data-group="1"]) { stroke: var(--magenta); }
   .start-art :global(path[data-group="2"]) { stroke: var(--spot); }

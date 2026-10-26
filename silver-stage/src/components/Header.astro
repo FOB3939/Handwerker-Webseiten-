@@ -30,6 +30,7 @@ const { current } = Astro.props;
       </ul>
     </nav>
     <a class="btn btn--primary btn--sm header-cta" href={u("/kontakt/")}>Session anfragen</a>
+    <a class="btn btn--primary btn--sm mobile-quick" href={u("/kontakt/")}>Anfragen</a>
     <button class="menu-btn" type="button" aria-expanded="false" aria-controls="mobile-menu" data-menu-open>
       <Icon name="menu" /><span class="visually-hidden">Menü öffnen</span>
     </button>
@@ -78,9 +79,12 @@ const { current } = Astro.props;
   .mobile-list a { display: flex; flex-direction: column; gap: 4px; padding: 18px 0; border-bottom: 1px solid var(--line); text-decoration: none; font: 300 2rem / 1.1 var(--font-display); letter-spacing: -0.02em; }
   .mobile-list small { font: 400 0.9rem / 1.3 var(--font-body); letter-spacing: 0; text-transform: none; color: var(--ink-2); }
   .mobile-cta { margin-top: auto; }
+  .mobile-quick { display: none; --h: 44px; padding: 0 18px; }
   @media (max-width: 1020px) {
     .nav, .header-cta { display: none; }
     .menu-btn { display: grid; }
+    .mobile-quick { display: inline-flex; }
+    .bar { gap: 10px; }
     .brand :global(.brand-logo) { height: 26px; }
   }
 </style>
