@@ -1,0 +1,190 @@
+---
+// Bewegungs-Effekte der Startseite (aus der parallelen Vorschau-Version übernommen und angepasst):
+// Scroll-Fortschritt, Kopfzeile fährt ein, Einblend-Varianten, Überschriften Wort für Wort, Laufband (scroll-gesteuert),
+// Licht-Spot/Neigung/Magnet am Zeiger, Preis-Hochzählen, Parallaxe im Startbereich.
+// Regeln: nur transform/opacity/filter/clip-path (kein Layoutsprung); automatische Dauerbewegung endet nach ≤ 5 s
+// oder ist pausierbar (WCAG 2.2.2); bei „Bewegung reduzieren“ aus, außer „Effekte erzwingen“ (Vorschau).
+interface Props { words?: string[] }
+const { words = ["Aufnehmen", "Proben", "Tanzen", "Fotografieren", "Singen", "Performen", "Podcasten", "Live mitschneiden"] } = Astro.props;
+---
+<div class="progress-top" aria-hidden="true"></div>
+<div class="marquee" aria-hidden="true" data-marquee>
+  <div class="marquee-track" data-marquee-track>
+    {[0, 1].map(() => <div class="marquee-set">{words.map((w) => <span>{w}</span>)}</div>)}
+  </div>
+</div>
+
+<style is:global>
+  /* Scroll-Fortschritt */
+  .progress-top { position: fixed; left: 0; top: 0; height: 2px; width: 100%; z-index: 130; transform-origin: 0 50%; transform: scaleX(var(--p, 0)); background: linear-gradient(90deg, var(--amber), var(--spot) 50%, var(--magenta)); box-shadow: 0 0 12px rgb(201 139 255 / 0.7); pointer-events: none; }
+  /* Kopfzeile fährt ein */
+  .fx .site-header { animation: drop-in 0.8s var(--ease) both; }
+  @keyframes drop-in { from { transform: translateY(-100%); opacity: 0; } }
+  /* Einblenden beim Scrollen: Varianten */
+  .fx [data-fx] { opacity: 0; transition: opacity 0.9s var(--ease), transform 1s var(--ease), filter 0.9s var(--ease), clip-path 1.2s var(--ease); transition-delay: var(--d, 0s); }
+  .fx [data-fx="up"] { transform: translateY(40px); }
+  .fx [data-fx="left"] { transform: translateX(-48px); }
+  .fx [data-fx="right"] { transform: translateX(48px); }
+  .fx [data-fx="zoom"] { transform: scale(0.88); filter: blur(4px); }
+  .fx [data-fx="wipe"] { opacity: 1; clip-path: inset(0 0 100% 0); }
+  .fx [data-fx="tilt"] { transform: perspective(900px) rotateX(18deg) translateY(50px); transform-origin: 50% 100%; }
+  .fx [data-fx].in { opacity: 1; transform: none; filter: none; clip-path: inset(0 0 0 0); }
+  /* Überschriften Wort für Wort */
+  .fx .split .w { display: inline-block; overflow: hidden; vertical-align: top; padding-bottom: 0.08em; margin-bottom: -0.08em; }
+  .fx .split .w > span { display: inline-block; transform: translateY(110%); transition: transform 0.9s cubic-bezier(0.2, 0.75, 0.15, 1); transition-delay: calc(var(--i) * 60ms); }
+  .fx .split.in .w > span { transform: none; }
+  /* Laufband: bewegt sich mit dem Scrollen (keine Endlos-Animation) */
+  .marquee { overflow: hidden; border-bottom: 1px solid var(--line); background: var(--bg); padding-block: 22px; -webkit-mask: linear-gradient(90deg, transparent, #000 8%, #000 92%, transparent); mask: linear-gradient(90deg, transparent, #000 8%, #000 92%, transparent); }
+  .marquee-track { display: flex; width: max-content; transform: translate3d(var(--mq, 0px), 0, 0); will-change: transform; }
+  .marquee-set { display: flex; }
+  .marquee span { display: inline-flex; align-items: center; gap: 28px; padding-right: 28px; font: 300 clamp(1.6rem, 1rem + 2.4vw, 3rem) / 1 var(--font-display); letter-spacing: -0.02em; color: transparent; -webkit-text-stroke: 1px rgb(242 243 245 / 0.45); white-space: nowrap; }
+  .marquee span:nth-child(3n+1) { color: var(--ink); -webkit-text-stroke: 0; }
+  .marquee span::after { content: ""; width: 10px; height: 10px; border-radius: 50%; background: var(--magenta); box-shadow: 0 0 14px var(--magenta); }
+  .marquee span:nth-child(3n+2)::after { background: var(--amber); box-shadow: 0 0 14px var(--amber); }
+  .marquee span:nth-child(3n)::after { background: var(--spot); box-shadow: 0 0 14px var(--spot); }
+  /* Licht-Spot und Neigung am Zeiger */
+  .spot { position: relative; isolation: isolate; }
+  .spot::after { content: ""; position: absolute; inset: 0; border-radius: inherit; pointer-events: none; z-index: 2; opacity: 0; transition: opacity 0.35s; background: radial-gradient(260px circle at var(--mx, 50%) var(--my, 50%), color-mix(in srgb, var(--room, #fff) 22%, transparent), transparent 65%); }
+  .spot:hover::after { opacity: 1; }
+  .tilt, .magnet { transition: transform 0.4s var(--ease); }
+  /* Buttons: Glanz beim Darüberfahren */
+  .btn--primary { position: relative; overflow: hidden; }
+  .btn--primary::before { content: ""; position: absolute; top: 0; left: -60%; width: 40%; height: 100%; background: linear-gradient(100deg, transparent, rgb(255 255 255 / 0.75), transparent); transform: skewX(-20deg); transition: left 0.7s var(--ease); pointer-events: none; }
+  .btn--primary:hover::before { left: 130%; }
+  /* Bildraster: Bilder zoomen beim Erscheinen (nicht im 3D-Tunnel) */
+  .fx .tunnel-sec:not(.is-tunnel) .bento li[data-fx]:not(.in) img { transform: scale(1.18); }
+  .fx .tunnel-sec:not(.is-tunnel) .bento li img { transition: transform 1.6s var(--ease), filter 0.5s; }
+  /* Schritte: Zahl leuchtet auf */
+  .steps .num { transition: -webkit-text-stroke-color 0.8s, text-shadow 0.8s; transition-delay: calc(var(--d, 0s) + 0.3s); }
+  .steps li.in .num { -webkit-text-stroke-color: var(--silver); text-shadow: 0 0 30px rgb(213 218 225 / 0.25); }
+  /* Spiel-Board pulsiert beim Zuhören (vom Nutzer gestartet) */
+  .sc-board.listening { animation: board 1.2s ease-in-out infinite; }
+  @keyframes board { 50% { box-shadow: inset 0 0 0 6px #111419, 0 0 60px -10px rgb(201 139 255 / 0.45); } }
+  /* Handy-Leiste: Anfrage-Knopf stupst dreimal an */
+  .mbar.show a.pri { animation: nudge 4s ease-in-out 1s 3; }
+  @keyframes nudge { 0%, 90%, 100% { transform: none; } 93% { transform: scale(1.05); } 96% { transform: scale(0.98); } }
+  /* Adresse: Metallglanz zieht zweimal durch */
+  .fx .visit .addr.metal { background-size: 220% 100%; animation: addr-shine 7s ease-in-out 2; }
+  @keyframes addr-shine { 0%, 100% { background-position: 0 0; } 50% { background-position: 100% 0; } }
+  main, .footer { overflow-x: clip; }
+  @media (prefers-reduced-motion: reduce) {
+    html:not(.fx-force) .progress-top { display: none; }
+    html:not(.fx-force) .marquee-track { transform: none; }
+  }
+</style>
+
+<script>
+  const html = document.documentElement;
+  const calm = matchMedia("(prefers-reduced-motion: reduce)").matches && !html.classList.contains("fx-force");
+  const fine = matchMedia("(hover: hover) and (pointer: fine)").matches;
+  if (!calm) html.classList.add("fx");
+
+  // Überschriften Wort für Wort (nicht im Startbereich, nicht die Adresse)
+  if (!calm) document.querySelectorAll<HTMLElement>("main h2:not(.addr)").forEach((h) => {
+    if (h.closest(".hero")) return;
+    let i = 0;
+    const walk = (n: Node) => [...n.childNodes].forEach((c) => {
+      if (c.nodeType === 3) {
+        const f = document.createDocumentFragment();
+        (c.textContent || "").split(/(\s+)/).forEach((t) => {
+          if (!t) return;
+          if (/^\s+$/.test(t)) return f.append(t);
+          const w = document.createElement("span"); w.className = "w";
+          const s = document.createElement("span"); s.textContent = t; s.style.setProperty("--i", String(i++));
+          w.append(s); f.append(w);
+        });
+        (c as ChildNode).replaceWith(f);
+      } else if (c.nodeType === 1 && (c as Element).tagName !== "BR") walk(c);
+    });
+    walk(h); h.classList.add("split"); h.removeAttribute("data-reveal");
+  });
+
+  // Einblend-Varianten vergeben
+  const tag = (sel: string, type: string, step = 0, base = 0) => document.querySelectorAll<HTMLElement>(sel).forEach((e, k) => {
+    if (e.dataset.fx) return;
+    e.dataset.fx = type; e.style.setProperty("--d", (base + k * step).toFixed(2) + "s");
+  });
+  if (!calm) {
+    tag(".head .lead, .finder-q p", "up", 0, 0.15);
+    tag(".finder-opts .opt", "up", 0.1);
+    tag(".lanes .lane", "tilt", 0.12);
+    tag(".rooms-foot", "up", 0, 0.2);
+    tag(".who li", "up", 0.1);
+    tag(".tech-photo", "wipe");
+    tag(".tech-text .lead, .tech-text .link-arrow", "left", 0.1);
+    tag(".rack li", "right", 0.08);
+    if (!document.querySelector(".tunnel-sec.is-tunnel")) tag(".bento > li", "zoom", 0.06);
+    tag(".sc-text > *:not(h2)", "left", 0.08);
+    tag(".sc-board", "tilt", 0, 0.1);
+    tag(".steps li", "up", 0.14);
+    tag(".faq details", "up", 0.06);
+    tag(".visit .label, .visit .city", "up", 0.1);
+    tag(".visit .addr", "zoom");
+    tag(".visit-info", "left");
+    tag(".quick", "right", 0, 0.1);
+    tag(".footer .col", "up", 0.08);
+    document.querySelectorAll<HTMLElement>(".bento > li[data-fx]").forEach((e, k) => e.style.setProperty("--d", (k % 3) * 0.08 + "s"));
+  }
+  // Bereits vorhandene Elternelemente mit data-reveal nicht doppelt animieren
+  document.querySelectorAll(".split").forEach((h) => h.closest("[data-reveal]")?.classList.add("is-in"));
+  const targets = document.querySelectorAll<HTMLElement>("[data-fx], .split");
+  if (calm || !("IntersectionObserver" in window)) targets.forEach((t) => t.classList.add("in"));
+  else {
+    const io = new IntersectionObserver((es) => es.forEach((e) => {
+      if (!e.isIntersecting) return;
+      const t = e.target as HTMLElement; t.classList.add("in"); io.unobserve(t);
+      // nach dem Einblenden Klasse entfernen, damit eigene Übergänge (Hover usw.) wieder greifen
+      if (t.dataset.fx) setTimeout(() => t.removeAttribute("data-fx"), 1500 + (parseFloat(t.style.getPropertyValue("--d")) || 0) * 1000);
+    }), { rootMargin: "0px 0px -10% 0px", threshold: 0.12 });
+    targets.forEach((t) => io.observe(t));
+  }
+
+  // Preise zählen hoch, sobald sie sichtbar werden
+  if (!calm && "IntersectionObserver" in window) {
+    const count = (el: Element) => {
+      const node = [...el.childNodes].find((n) => n.nodeType === 3 && /\d/.test(n.textContent || ""));
+      if (!node) return;
+      const end = +(node.textContent!.match(/(\d+)/)![1]), t0 = performance.now(), dur = 1100;
+      const step = (t: number) => { const p = Math.min(1, (t - t0) / dur), v = Math.round(end * (1 - Math.pow(1 - p, 3))); node.textContent = node.textContent!.replace(/\d+/, String(v)); if (p < 1) requestAnimationFrame(step); };
+      node.textContent = node.textContent!.replace(/\d+/, "0"); requestAnimationFrame(step);
+    };
+    const cio = new IntersectionObserver((es) => es.forEach((e) => { if (e.isIntersecting) { count(e.target); cio.unobserve(e.target); } }), { threshold: 0.6 });
+    document.querySelectorAll(".lane-price").forEach((p) => cio.observe(p));
+  }
+
+  // Scroll: Fortschrittsbalken, Laufband, Parallaxe im Startbereich
+  const bar = document.querySelector<HTMLElement>(".progress-top"), mq = document.querySelector<HTMLElement>("[data-marquee]"), track = document.querySelector<HTMLElement>("[data-marquee-track]");
+  const hero = document.querySelector<HTMLElement>("[data-hero]"), slides = hero?.querySelector<HTMLElement>("[data-slides]"), inner = hero?.querySelector<HTMLElement>(".hero-inner");
+  let ticking = false;
+  const onScroll = () => {
+    ticking = false;
+    const y = scrollY, max = document.documentElement.scrollHeight - innerHeight;
+    bar?.style.setProperty("--p", max > 0 ? (y / max).toFixed(4) : "0");
+    if (calm) return;
+    if (mq && track) { const r = mq.getBoundingClientRect(); if (r.bottom > 0 && r.top < innerHeight) track.style.setProperty("--mq", `${(-(innerHeight - r.top) * 0.6) % (track.scrollWidth / 2)}px`); }
+    if (hero && slides && inner) {
+      const h = hero.offsetHeight;
+      if (y < h) { slides.style.transform = `translate3d(0, ${y * 0.35}px, 0)`; inner.style.transform = `translate3d(0, ${y * 0.15}px, 0)`; inner.style.opacity = String(Math.max(0, 1 - y / (h * 0.75))); }
+    }
+  };
+  addEventListener("scroll", () => { if (!ticking) { ticking = true; requestAnimationFrame(onScroll); } }, { passive: true });
+  onScroll();
+
+  // Zeiger-Effekte nur mit Maus
+  if (fine && !calm) {
+    document.querySelectorAll<HTMLElement>(".opt, .who a, .quick, .sc-board, .finder-out").forEach((c) => {
+      c.classList.add("spot");
+      c.addEventListener("pointermove", (e) => { const r = c.getBoundingClientRect(); c.style.setProperty("--mx", e.clientX - r.left + "px"); c.style.setProperty("--my", e.clientY - r.top + "px"); });
+    });
+    document.querySelectorAll<HTMLElement>(".who a, .opt").forEach((c) => {
+      c.classList.add("tilt");
+      c.addEventListener("pointermove", (e) => { const r = c.getBoundingClientRect(), x = (e.clientX - r.left) / r.width - 0.5, y = (e.clientY - r.top) / r.height - 0.5; c.style.transform = `perspective(700px) rotateX(${-y * 6}deg) rotateY(${x * 8}deg) translateY(-3px)`; });
+      c.addEventListener("pointerleave", () => { c.style.transform = ""; });
+    });
+    document.querySelectorAll<HTMLElement>(".hero-cta .btn, .header-cta").forEach((b) => {
+      b.classList.add("magnet");
+      b.addEventListener("pointermove", (e) => { const r = b.getBoundingClientRect(); b.style.transform = `translate(${(e.clientX - r.left - r.width / 2) * 0.18}px, ${(e.clientY - r.top - r.height / 2) * 0.25}px)`; });
+      b.addEventListener("pointerleave", () => { b.style.transform = ""; });
+    });
+  }
+</script>

@@ -6,6 +6,7 @@ import { PHOTOS, ROOM_PHOTOS, type PhotoKey } from "../assets/photos";
 import Icon from "../components/Icon.astro";
 import Faq from "../components/Faq.astro";
 import SoundCheck from "../components/SoundCheck.astro";
+import Effects from "../components/Effects.astro";
 import { ROOMS, CONTACT, PRICES, SITE, roomByKey, priceShown, euro } from "../config/site";
 import { u } from "../lib/url";
 const studio = roomByKey("tonstudio");
@@ -82,24 +83,26 @@ const faq = [
       <span class="shade" aria-hidden="true"></span>
     </div>
     <div class="wrap hero-inner">
-      <p class="eyebrow">Tonstudio &amp; Proberäume in München-Sendling</p>
+      <p class="eyebrow ld" style="--d:0s">Tonstudio &amp; Proberäume in München-Sendling</p>
       <h1 id="hero-title" class="rise hero-title"><span><span class="shine">Dein Sound.</span></span><span><span class="shine shine--2">Dein Raum.</span></span></h1>
-      <div class="btn-row hero-cta">
+      <div class="btn-row hero-cta ld" style="--d:.45s">
         <a class="btn btn--primary" href={u("/kontakt/")}>Session anfragen</a>
         <a class="btn btn--ghost" href={CONTACT.phoneHref}><Icon name="phone" />{CONTACT.phone}</a>
       </div>
-      <ul class="hero-facts" aria-label="Auf einen Blick">
+      <ul class="hero-facts ld" style="--d:.6s" aria-label="Auf einen Blick">
         <li><strong>3 Räume</strong> unter einem Dach</li>
         {Number.isFinite(minPrice) && <li>ab <strong>{euro(minPrice)}</strong> pro Stunde{priceIsExample && <span class="ex"> (Beispielpreis)</span>}</li>}
         <li><strong>32-Kanal</strong>-Analogpult</li>
         <li><strong>Live-Mitschnitt</strong> möglich</li>
       </ul>
     </div>
-    <div class="wrap hero-foot">
+    <button type="button" class="scroll-cue" aria-label="Weiter zum Raumfinder" data-scroll-cue></button>
+    <div class="wrap hero-foot ld" style="--d:.75s">
       <p class="caption" aria-live="polite">
         {slides.map((sl, i) => <a href={u(`/${sl.room}/`)} data-room={sl.room} data-caption hidden={i !== 0}><span class="dot" aria-hidden="true"></span>{sl.caption}</a>)}
       </p>
       <div class="ctrl" role="group" aria-label="Fotos im Startbereich">
+        <span class="eq" aria-hidden="true"><i></i><i></i><i></i><i></i></span>
         {slides.map((sl, i) => (
           <button type="button" class="seg" data-seg aria-label={`Foto ${i + 1} von ${slides.length}: ${sl.caption}`} aria-current={i === 0 ? "true" : undefined}><span></span></button>
         ))}
@@ -127,6 +130,9 @@ const faq = [
       ))}
     </div>
   </section>
+
+  <!-- Laufband + Bewegungs-Effekte der Seite -->
+  <Effects />
 
   <!-- Räume: aufklappende Lichtbahnen -->
   <section class="section rooms-sec" id="raeume" aria-labelledby="rooms-title">
@@ -466,6 +472,22 @@ const faq = [
   .hero-facts .ex { color: var(--ink-2); }
   @media (max-width: 640px) { .hero-cta { width: 100%; align-items: stretch !important; } .hero-cta .btn { width: 100%; } .hero-facts li { padding: 6px 11px; } }
 
+  /* ---------- Einstieg: Einblend-Folge, Equalizer, Scroll-Hinweis ---------- */
+  :global(.js) .hero .ld { opacity: 0; transform: translateY(22px); filter: blur(6px); transition: opacity 0.9s var(--ease), transform 0.9s var(--ease), filter 0.9s var(--ease); transition-delay: var(--d, 0s); }
+  :global(.js) .hero.title-in .ld { opacity: 1; transform: none; filter: none; }
+  .eyebrow::before { animation: pulse 2.4s ease-in-out 2; }
+  @keyframes pulse { 50% { box-shadow: 0 0 22px 4px var(--amber); transform: scale(1.25); } }
+  .eq { display: inline-flex; align-items: flex-end; align-self: center; gap: 3px; height: 18px; margin-right: 10px; }
+  .eq i { width: 3px; height: 100%; border-radius: 2px; background: var(--silver); transform-origin: bottom; animation: eq 1.1s ease-in-out infinite; }
+  .eq i:nth-child(2) { animation-delay: -0.3s; animation-duration: 0.9s; } .eq i:nth-child(3) { animation-delay: -0.6s; animation-duration: 1.3s; } .eq i:nth-child(4) { animation-delay: -0.15s; animation-duration: 0.8s; }
+  .hero.paused .eq i { animation-play-state: paused; }
+  @keyframes eq { 0%, 100% { transform: scaleY(0.25); } 50% { transform: scaleY(1); } }
+  .scroll-cue { position: absolute; left: 50%; bottom: 90px; width: 44px; height: 54px; margin-left: -22px; border: 0; border-radius: 16px; background: none; z-index: 2; cursor: pointer; padding: 0; }
+  .scroll-cue::before { content: ""; position: absolute; left: 9px; top: 6px; width: 26px; height: 42px; box-sizing: border-box; border: 1.5px solid rgb(242 243 245 / 0.45); border-radius: 14px; }
+  .scroll-cue::after { content: ""; position: absolute; left: 50%; top: 14px; width: 4px; height: 8px; margin-left: -2px; border-radius: 2px; background: var(--ink); animation: cue 1.8s ease-in-out 3; }
+  @keyframes cue { 0% { opacity: 0; transform: translateY(-4px); } 40% { opacity: 1; } 100% { opacity: 0; transform: translateY(14px); } }
+  @media (max-width: 900px), (max-height: 700px) { .scroll-cue { display: none; } }
+
   /* ---------- Raumfinder ---------- */
   .finder { background: var(--bg-2); border-bottom: 1px solid var(--line); }
   .finder-inner { display: grid; grid-template-columns: 0.8fr 2.2fr; gap: clamp(24px, 4vw, 56px); align-items: center; padding-block: clamp(40px, 6vw, 72px); }
@@ -631,6 +653,8 @@ const faq = [
     }));
     frame();
   }
+  // Scroll-Hinweis
+  document.querySelector("[data-scroll-cue]")?.addEventListener("click", () => document.querySelector("[data-finder]")?.scrollIntoView({ behavior: "smooth" }));
   // Raumfinder
   const finderBox = document.querySelector<HTMLElement>("[data-finder]");
   if (finderBox) {
