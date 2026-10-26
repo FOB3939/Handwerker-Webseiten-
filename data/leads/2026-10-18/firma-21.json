@@ -1,0 +1,410 @@
+{
+  "id": "2026-10-18-21",
+  "slug": "fraider-fliesen-bergkirchen",
+  "date": "2026-10-18",
+  "company": {
+    "name": "Klaus Fraider Fliesenverlegemeisterbetrieb",
+    "owner": "Klaus Fraider",
+    "trade": "Fliesenleger (Meisterbetrieb)",
+    "city": "Bergkirchen",
+    "address": "Bergstraße 6, 85232 Bergkirchen (Unterbachern)",
+    "phone": "08131 84091",
+    "email": null,
+    "serviceArea": [
+      "Bergkirchen",
+      "Unterbachern",
+      "Dachau",
+      "Karlsfeld",
+      "Hebertshausen",
+      "Schwabhausen",
+      "Odelzhausen",
+      "Sulzemoos"
+    ]
+  },
+  "listings": {
+    "google": {
+      "url": "https://www.google.com/maps/search/?api=1&query=Klaus%20Fraider%20Fliesen%20Bergstra%C3%9Fe%206%20Bergkirchen",
+      "rating": null,
+      "reviews": null,
+      "evidence": "INDIREKT / NICHT VERIFIZIERT – Websuche mit allowed_domains google.com/google.de lieferte keinen Maps-Place-Treffer zum Betrieb; auch Google-Spiegel (trustlocal, firmania, weshoplocal, reviewhero) zeigten keinen Eintrag. Ein Google-Unternehmensprofil ist daher NICHT belegt. Vor Kontakt in Google Maps prüfen, ob ein Eintrag existiert und KEIN Website-Feld hinterlegt ist."
+    },
+    "myhammer": {
+      "url": "https://www.fliesenleger.net/bergkirchen/klaus-fraider-platten--und-fliesen--verlegung-aULj28",
+      "rating": null,
+      "reviews": null,
+      "evidence": "Kein MyHammer gefunden – Eintrag „Klaus Fraider Platten- und Fliesenverlegung“ auf fliesenleger.net (Bergstr. 6, 85232 Bergkirchen, 08131 84091, „Der Fliesenfachbetrieb wird von Klaus Fraider geführt“, Spezialisierungen Fliesenverlegung/Fliesenarbeiten, keine Bewertungen). Zusätzlich Das Örtliche/Das Telefonbuch: „Fraider Klaus Fliesenverlegemeisterbetrieb“, Bergkirchen-Unterbachern, Zusatzinfo Badsanierung, Fliesenarbeiten, Mosaik; starofservice listet „Klaus Fraider, Fliesenleger, 85232 Bergkirchen“."
+    }
+  },
+  "websiteStatus": "keine eigene Website gefunden",
+  "websiteChecks": [
+    "(1) „Fraider Klaus Fliesenleger Bergkirchen“ / „Klaus Fraider Fliesenverlegemeisterbetrieb Bergstraße 6 Bergkirchen“ mit den blocked_domains: nur Portale (fliesenleger.net, starofservice, daibau) – keine eigene Domain; Suchzusammenfassung: „I found no company website“.",
+    "(2) Telefonnummer „08131 84091“ / „0813184091“ / „08131/84091“ mit den blocked_domains: keine Treffer (also auch keine Website mit dieser Nummer).",
+    "(3) Domainprüfung per allowed_domains fraider.de, fliesen-fraider.de, fraider-fliesen.de, fliesenfraider.de, klaus-fraider.de, fraider-bergkirchen.de: keine Treffer.",
+    "(4) „Impressum Klaus Fraider Bergkirchen Fliesen“: kein eigenes Impressum; nur fliesenleger.net, starofservice und andere Betriebe (fliesen-fix.de = Gerhard Müller, Bergkirchen-Deutenhausen, nicht identisch).",
+    "(5) Verzeichnisse (Das Örtliche, Das Telefonbuch, fliesenleger.net): kein Website-Feld in den Snippets; keine E-Mail-Adresse auffindbar – also KEIN Freemail-Beleg.",
+    "(6) Google-Maps-/Google-Spiegel-Treffer: keiner gefunden – daher auch kein Website-Feld sichtbar; nicht verifiziert."
+  ],
+  "facts": {
+    "services": [
+      "Fliesenverlegung (Wand und Boden)",
+      "Plattenverlegung",
+      "Badsanierung",
+      "Mosaikarbeiten",
+      "Fliesenarbeiten"
+    ],
+    "experience": null,
+    "praisedFor": []
+  },
+  "strategy": {
+    "audience": "Hausbesitzer und Wohnungseigentümer im westlichen Landkreis Dachau (Bergkirchen, Dachau, Karlsfeld, Schwabhausen), die Bad, Küche oder Böden fliesen bzw. ihr Bad sanieren lassen möchten",
+    "mainService": "Badsanierung und Fliesenverlegung vom Meisterbetrieb",
+    "trustSignal": "Eingetragener Fliesenverlegemeisterbetrieb mit Inhaber Klaus Fraider – persönlicher Ansprechpartner vor Ort in Unterbachern",
+    "conversionGoal": "Anfrage für Badsanierung / Fliesenarbeiten per Telefon oder Formular (mit Fotos und Maßen)",
+    "visualConcept": "Klares Aqua-Design: helle Fliesenflächen, saubere Fugenraster, Mosaik-Akzent im Bad"
+  },
+  "sales": {
+    "score": 5,
+    "whyGoodLead": [
+      "Etablierter Meisterbetrieb, der online nur in Telefon- und Branchenverzeichnissen auftaucht – keine eigene Website auffindbar",
+      "Badsanierung ist ein suchstarkes Thema im Landkreis Dachau – ohne Website gehen diese Anfragen an Mitbewerber",
+      "Klar umrissenes Angebot (Fliesen, Platten, Mosaik, Badsanierung) – leicht verständliche Seite",
+      "Keine Bewertungen online – eine Website mit Referenzfotos schafft Vertrauen"
+    ],
+    "pitch": "Grüß Gott Herr Fraider, mein Name ist … – ich erstelle Websites für Handwerksbetriebe im Landkreis Dachau. Ihren Fliesenverlegemeisterbetrieb in Unterbachern habe ich in den Branchenverzeichnissen gefunden – Badsanierung, Fliesen und Mosaik –, aber eine eigene Website, auf der Kunden Ihre Arbeiten sehen und direkt anfragen können, gibt es noch nicht. Ich habe dafür unverbindlich einen Entwurf vorbereitet. Darf ich Ihnen den Link schicken?"
+  },
+  "manualChecks": [
+    "RESERVE – weder Google-Eintrag noch Freemail-Adresse belegt: NUR versenden, wenn Google Maps einen Eintrag OHNE Website zeigt.",
+    "Website-Risiko: mittel – vor Versand in Google Maps prüfen, dass keine Website hinterlegt ist (Grund: alle Such-, Telefon-, Domain- und Impressum-Prüfungen negativ, aber KEIN Google-Eintrag belegt und keine Freemail-Adresse gefunden)",
+    "Google-Unternehmensprofil existiert evtl. gar nicht – in Google Maps nach „Fraider Fliesen Bergkirchen“ suchen; ohne Eintrag Lead ggf. verwerfen (Auftragskriterium „mit Google-Eintrag“)",
+    "Prüfen, ob der Betrieb noch aktiv ist (Festnetzeintrag, keine Online-Bewertungen, keine aktuellen Aktivitäten belegt)",
+    "E-Mail-Adresse nicht gefunden – beim Erstkontakt erfragen",
+    "Öffnungszeiten laut Verzeichnis Mo–Fr 8–18 Uhr – nicht übernommen, vorher bestätigen",
+    "Einsatzgebiet (serviceArea) ist abgeleitet aus der Lage, nicht belegt – mit Inhaber abstimmen",
+    "Echte Referenzfotos und Logo beim Betrieb anfragen"
+  ],
+  "sources": [
+    {
+      "label": "fliesenleger.net – Klaus Fraider Platten- und Fliesenverlegung",
+      "url": "https://www.fliesenleger.net/bergkirchen/klaus-fraider-platten--und-fliesen--verlegung-aULj28"
+    },
+    {
+      "label": "Das Örtliche – Fraider Klaus Fliesenverlegemeisterbetrieb",
+      "url": "https://www.dasoertliche.de/Themen/Fraider-Klaus-Fliesenverlegemeisterbetrieb-Bergkirchen-Unterbachern-Bergstr"
+    },
+    {
+      "label": "Das Telefonbuch – Fliesenverlegungen Klaus Fraider",
+      "url": "https://adresse.dastelefonbuch.de/Bergkirchen%20Kr%20Dachau/1-Fliesenverlegungen-Klaus-Fraider-Bergkirchen-Bergstr.html"
+    },
+    {
+      "label": "starofservice – Fliesenleger in Bergkirchen",
+      "url": "https://www.starofservice.de/liste/bayern/dachau/bergkirchen/fliesenlegen"
+    }
+  ],
+  "site": {
+    "theme": "aqua",
+    "category": "handwerk",
+    "scene": "bath",
+    "heroOffer": [
+      "Badsanierung",
+      "Fliesenverlegung",
+      "Plattenverlegung",
+      "Mosaik"
+    ],
+    "logoIcon": "drop",
+    "logoMark": "KF",
+    "brandName": "Fliesen Fraider",
+    "seoTitle": "Fliesenleger in Bergkirchen – Klaus Fraider Fliesenverlegemeisterbetrieb",
+    "seoDescription": "Badsanierung, Fliesen- und Plattenverlegung und Mosaikarbeiten vom Meisterbetrieb Klaus Fraider in Bergkirchen-Unterbachern. Jetzt unverbindlich anfragen.",
+    "nav": [
+      {
+        "label": "Leistungen",
+        "href": "#leistungen"
+      },
+      {
+        "label": "Projekte",
+        "href": "#projekte"
+      },
+      {
+        "label": "Ablauf",
+        "href": "#ablauf"
+      },
+      {
+        "label": "Region",
+        "href": "#region"
+      },
+      {
+        "label": "FAQ",
+        "href": "#faq"
+      },
+      {
+        "label": "Kontakt",
+        "href": "#kontakt"
+      }
+    ],
+    "hero": {
+      "eyebrow": "Fliesenverlegemeisterbetrieb · Bergkirchen",
+      "headline": "Ihr Fliesenleger in Bergkirchen – Badsanierung, Fliesen & Mosaik vom Meister.",
+      "sub": "Klaus Fraider verlegt Fliesen und Platten, saniert Bäder und setzt Mosaik-Akzente – als Meisterbetrieb aus Unterbachern für Bergkirchen, Dachau und Umgebung.",
+      "ctaPrimary": "Kostenlos anfragen",
+      "ctaSecondary": "Anrufen",
+      "bullets": [
+        "Meisterbetrieb aus Bergkirchen-Unterbachern",
+        "Badsanierung, Fliesen, Platten, Mosaik",
+        "Persönlich vom Inhaber Klaus Fraider"
+      ],
+      "imageLabel": "frisch gefliestes Bad mit großformatigen Fliesen und Mosaik-Akzent"
+    },
+    "badges": [
+      {
+        "title": "Meisterbetrieb",
+        "sub": "Fliesenverlegung"
+      },
+      {
+        "title": "Badsanierung",
+        "sub": "aus einer Hand"
+      },
+      {
+        "title": "Mosaik",
+        "sub": "für besondere Akzente"
+      },
+      {
+        "title": "Unterbachern",
+        "sub": "Bergstraße 6, Bergkirchen"
+      }
+    ],
+    "trust": [
+      {
+        "value": "Meister",
+        "label": "Fliesenverlegemeisterbetrieb"
+      },
+      {
+        "value": "Bad",
+        "label": "Sanierung vom Fachbetrieb"
+      },
+      {
+        "value": "Inhaber",
+        "label": "Klaus Fraider – persönlich"
+      },
+      {
+        "value": "Bergkirchen",
+        "label": "im Landkreis Dachau"
+      }
+    ],
+    "servicesIntro": {
+      "headline": "Fliesen, Platten und Bäder – fachgerecht verlegt",
+      "text": "Ob neues Bad, frische Bodenfliesen oder ein Mosaik als Blickfang: Der Meisterbetrieb von Klaus Fraider übernimmt Fliesen- und Plattenarbeiten in Bergkirchen und Umgebung."
+    },
+    "services": [
+      {
+        "title": "Badsanierung",
+        "text": "Das alte Bad wird zum neuen – mit sauber verlegten Wand- und Bodenfliesen.",
+        "items": [
+          "Wandfliesen",
+          "Bodenfliesen",
+          "Dusche & Wanne"
+        ]
+      },
+      {
+        "title": "Fliesenverlegung",
+        "text": "Fliesen an Wand und Boden, präzise geschnitten und verfugt.",
+        "items": [
+          "Wand",
+          "Boden",
+          "Verfugen"
+        ]
+      },
+      {
+        "title": "Plattenverlegung",
+        "text": "Platten fachgerecht verlegt – innen wie außen nach Absprache.",
+        "items": [
+          "Platten",
+          "Großformate",
+          "nach Absprache"
+        ]
+      },
+      {
+        "title": "Mosaikarbeiten",
+        "text": "Mosaik als Akzent in Bad, Küche oder Dusche.",
+        "items": [
+          "Mosaik",
+          "Akzentflächen",
+          "Duschnischen"
+        ]
+      },
+      {
+        "title": "Küche & Flur",
+        "text": "Robuste Fliesenflächen für stark beanspruchte Räume.",
+        "items": [
+          "Küchenspiegel",
+          "Flurboden",
+          "Fliesenarbeiten"
+        ]
+      },
+      {
+        "title": "Beratung vor Ort",
+        "text": "Material, Format und Ablauf werden persönlich besprochen.",
+        "items": [
+          "Aufmaß",
+          "Beratung",
+          "Angebot"
+        ]
+      }
+    ],
+    "why": {
+      "headline": "Warum ein Meisterbetrieb aus der Nachbarschaft?",
+      "points": [
+        {
+          "title": "Meisterbetrieb",
+          "text": "Fliesenverlegung als eingetragener Meisterbetrieb – Handwerk mit Ausbildung und Erfahrung."
+        },
+        {
+          "title": "Ein Ansprechpartner",
+          "text": "Inhaber Klaus Fraider ist Ihr direkter Ansprechpartner – von der Beratung bis zur Ausführung."
+        },
+        {
+          "title": "Spezialisiert",
+          "text": "Fliesen, Platten, Mosaik und Badsanierung – das ist das Kerngeschäft."
+        },
+        {
+          "title": "Kurze Wege",
+          "text": "Sitz in Unterbachern – schnell vor Ort in Bergkirchen, Dachau und den Nachbargemeinden."
+        }
+      ]
+    },
+    "reviews": {
+      "headline": "Im Landkreis Dachau zu Hause",
+      "summary": "Der Fliesenverlegemeisterbetrieb Klaus Fraider ist in den regionalen Branchenverzeichnissen mit Badsanierung, Fliesenarbeiten und Mosaik gelistet. Kundenbewertungen zeigen wir erst nach Freigabe durch den Betrieb.",
+      "highlights": [
+        "Meisterbetrieb",
+        "Badsanierung",
+        "Fliesen- und Plattenverlegung",
+        "Mosaikarbeiten"
+      ],
+      "source": "fliesenleger.net",
+      "sourceUrl": "https://www.fliesenleger.net/bergkirchen/klaus-fraider-platten--und-fliesen--verlegung-aULj28",
+      "rating": null,
+      "count": null
+    },
+    "process": {
+      "headline": "So läuft Ihr Fliesenprojekt ab",
+      "steps": [
+        {
+          "title": "Anfrage",
+          "text": "Kurz beschreiben, was gefliest werden soll – Fotos und Maße helfen."
+        },
+        {
+          "title": "Termin vor Ort",
+          "text": "Aufmaß und Beratung zu Fliesen, Format und Ablauf."
+        },
+        {
+          "title": "Angebot",
+          "text": "Sie erhalten ein klares Angebot für Ihr Projekt."
+        },
+        {
+          "title": "Ausführung",
+          "text": "Fachgerechte Verlegung und Verfugung – und am Ende ein sauberes Ergebnis."
+        }
+      ]
+    },
+    "gallery": {
+      "headline": "Arbeiten aus der Region",
+      "text": "Für die Live-Version zeigen wir hier echte Projekte des Fliesenverlegemeisterbetriebs Klaus Fraider.",
+      "items": [
+        {
+          "title": "Bad nachher",
+          "photoNeeded": "fertig saniertes Bad mit neuen Wand- und Bodenfliesen"
+        },
+        {
+          "title": "Dusche",
+          "photoNeeded": "geflieste bodengleiche Dusche"
+        },
+        {
+          "title": "Mosaik",
+          "photoNeeded": "Mosaik-Akzentfläche im Bad oder in der Küche"
+        },
+        {
+          "title": "Bodenfliesen",
+          "photoNeeded": "großformatige Bodenfliesen im Flur oder Wohnraum"
+        },
+        {
+          "title": "Vorher/Nachher",
+          "photoNeeded": "Bad vor und nach der Sanierung"
+        }
+      ]
+    },
+    "region": {
+      "headline": "Fliesenleger für Bergkirchen und Umgebung",
+      "text": "Vom Sitz in Unterbachern aus sind Bergkirchen, Dachau, Karlsfeld, Hebertshausen, Schwabhausen, Odelzhausen und Sulzemoos schnell erreicht.",
+      "places": [
+        "Bergkirchen",
+        "Unterbachern",
+        "Dachau",
+        "Karlsfeld",
+        "Hebertshausen",
+        "Schwabhausen",
+        "Odelzhausen",
+        "Sulzemoos"
+      ]
+    },
+    "faq": [
+      {
+        "q": "Übernehmen Sie komplette Badsanierungen?",
+        "a": "Badsanierung gehört zum Leistungsspektrum. Welche Gewerke dazugehören, besprechen wir bei der Besichtigung vor Ort."
+      },
+      {
+        "q": "Verlegen Sie auch Mosaik?",
+        "a": "Ja, Mosaikarbeiten gehören zum Angebot – etwa als Akzent in Bad oder Dusche."
+      },
+      {
+        "q": "Wie bekomme ich ein Angebot?",
+        "a": "Rufen Sie unter 08131 84091 an oder nutzen Sie das Formular. Nach einem Termin vor Ort erhalten Sie ein Angebot."
+      },
+      {
+        "q": "In welchen Orten sind Sie tätig?",
+        "a": "Der Betrieb sitzt in Bergkirchen-Unterbachern und ist in Bergkirchen, Dachau und den umliegenden Gemeinden im Einsatz."
+      },
+      {
+        "q": "Sind Sie ein Meisterbetrieb?",
+        "a": "Ja, der Betrieb ist als Fliesenverlegemeisterbetrieb eingetragen."
+      }
+    ],
+    "contact": {
+      "headline": "Ihr Fliesenprojekt anfragen",
+      "text": "Beschreiben Sie kurz Ihr Vorhaben – Bad, Boden oder Mosaik. Wir melden uns für einen Termin vor Ort.",
+      "topics": [
+        "Badsanierung",
+        "Fliesenverlegung",
+        "Plattenverlegung",
+        "Mosaik",
+        "Sonstiges"
+      ],
+      "responseNote": "Am schnellsten erreichen Sie uns telefonisch."
+    },
+    "quote": {
+      "sizeLabel": "Wie groß ist die Fläche?",
+      "sizes": [
+        "bis 10 m²",
+        "10–25 m²",
+        "25–50 m²",
+        "über 50 m²",
+        "Komplettes Bad"
+      ],
+      "timings": [
+        "So bald wie möglich",
+        "In 1–3 Monaten",
+        "In 3–6 Monaten",
+        "Noch offen"
+      ]
+    },
+    "stickyCta": "Fliesenprojekt anfragen",
+    "look": {
+      "palette": 0,
+      "font": 7,
+      "hero": 3,
+      "services": 2,
+      "radius": 1,
+      "logo": 5,
+      "intro": 0
+    }
+  }
+}

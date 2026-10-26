@@ -28,7 +28,7 @@
     },
     "myhammer": {
       "url": "https://www.my-hammer.de/auftragnehmer/patrick-faulhaber-kuechen-moebelmontagen",
-      "rating": 5.0,
+      "rating": 5,
       "reviews": 38,
       "evidence": "Profil und Bewertungsseite in Suchergebnissen belegt; erscheint auf MyHammer-Seiten für Andechs, Herrsching, Schondorf, Tutzing und Weßling."
     }
@@ -248,7 +248,7 @@
       ],
       "source": "MyHammer",
       "sourceUrl": "https://www.my-hammer.de/auftragnehmer/patrick-faulhaber-kuechen-moebelmontagen/bewertungen",
-      "rating": 5.0,
+      "rating": 5,
       "count": 38
     },
     "process": {
@@ -382,6 +382,15 @@
         "sub": "Andechs, Seefeld, Herrsching"
       }
     ],
-    "logoIcon": "cabinet"
+    "logoIcon": "cabinet",
+    "look": {
+      "palette": 1,
+      "font": 13,
+      "hero": 3,
+      "services": 2,
+      "radius": 4,
+      "logo": 3,
+      "intro": 0
+    }
   }
 }

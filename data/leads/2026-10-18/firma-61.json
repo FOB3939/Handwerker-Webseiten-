@@ -1,0 +1,351 @@
+{
+  "id": "2026-10-18-61",
+  "slug": "fliesenleger-jedraszczak-karlsfeld",
+  "date": "2026-10-18",
+  "company": {
+    "name": "Andrzej Jedraszczak Fliesenleger & Hausmeisterservice",
+    "owner": "Andrzej Jedraszczak",
+    "trade": "Fliesenleger & Hausmeisterservice",
+    "city": "Karlsfeld",
+    "address": "Karl-Theodor-Str. 22, 85757 Karlsfeld",
+    "phone": "01517 451358",
+    "email": null,
+    "serviceArea": [
+      "Karlsfeld"
+    ]
+  },
+  "listings": {
+    "google": {
+      "url": "https://www.google.com/maps/search/?api=1&query=Andrzej%20Jedraszczak%20Fliesenleger%20Karlsfeld",
+      "rating": null,
+      "reviews": null,
+      "evidence": "INDIREKT/NICHT VERIFIZIERT – WebSearch mit allowed_domains google.com/google.de/trustlocal.de lieferte keine maps/place-Seite und keinen trustlocal-Eintrag; keine Google-Bewertungen belegt. Ein Website-Feld war in keiner Quelle zu sehen (11880-Eintrag ohne Homepage)."
+    },
+    "myhammer": {
+      "url": "https://www.11880.com/suche/fliesenleger/karlsfeld",
+      "rating": null,
+      "reviews": null,
+      "evidence": "Kein MyHammer – Eintrag in 11880 (Fliesenleger Karlsfeld, außerdem unter Hausservice/Hausmeisterservice Karlsfeld): „Andrzej Jedraszczak Fliesenleger – Fliesenleger & Hausmeisterservice“, Karl-Theodor-Str. 22, 85757 Karlsfeld, Tel. (01517) 451358, keine Öffnungszeiten, keine Website, keine E-Mail."
+    }
+  },
+  "websiteStatus": "keine eigene Website gefunden",
+  "websiteChecks": [
+    "(1) „Andrzej Jedraszczak Fliesenleger Karlsfeld“ mit blocked_domains (11880, Gelbe Seiten, Das Örtliche, Das Telefonbuch, Cylex, meinestadt, Creditreform, Facebook, Instagram, golocal, MyHammer, Northdata, Firmenwissen, WerkenntdenBesten, Yelp, trustlocal, wlw) – keine eigene Domain",
+    "(2) Telefonsuche „01517 451358“ mit denselben blocked_domains – keine Website",
+    "(3) Domainprüfung per allowed_domains auf 8 naheliegende Domains (jedraszczak.de u. ä.) – keine Treffer",
+    "(4) Impressum-Suche „Impressum Jedraszczak Karlsfeld“ – kein eigenes Impressum",
+    "(5) Verzeichnis 11880: kein Website-Feld, keine E-Mail angegeben (kein Freemail-Beleg)",
+    "(6) Google/trustlocal-Suche (allowed google.com, google.de, trustlocal.de) – kein Place-/trustlocal-Treffer, damit kein Website-Feld sichtbar, aber Google-Eintrag auch nicht belegt",
+    "Website-Risiko: mittel – alle Prüfungen negativ, aber weder Google-Eintrag noch Freemail belegt (RESERVE)"
+  ],
+  "facts": {
+    "services": [
+      "Fliesenarbeiten",
+      "Hausmeisterservice",
+      "Hausservice"
+    ],
+    "experience": null,
+    "praisedFor": []
+  },
+  "strategy": {
+    "audience": "Haus- und Wohnungseigentümer, Vermieter und Hausverwaltungen in Karlsfeld und Umgebung",
+    "mainService": "Fliesenarbeiten, ergänzt um Hausmeister- und Hausservice",
+    "trustSignal": "Inhaber Andrzej Jedraszczak als direkter Ansprechpartner per Handy/WhatsApp",
+    "conversionGoal": "Anfrage per WhatsApp oder Formular (mit Fotos und ungefähren Maßen)",
+    "visualConcept": "Helle, saubere Bad-Optik mit Fliesenraster und Wasserakzenten – ordentlich und handwerklich"
+  },
+  "sales": {
+    "score": 5,
+    "whyGoodLead": [
+      "Keine eigene Website gefunden – nur Verzeichniseintrag bei 11880",
+      "Mobilnummer öffentlich gelistet – per WhatsApp ansprechbar",
+      "Kombination Fliesen + Hausmeisterservice spricht Privatkunden und Vermieter an",
+      "Einzelunternehmer in Karlsfeld – klare lokale Positionierung möglich"
+    ],
+    "pitch": "Hallo Herr Jedraszczak, ich erstelle Websites für Handwerksbetriebe im Münchner Umland. Ich habe Ihren Eintrag als Fliesenleger und Hausmeisterservice in Karlsfeld gefunden, aber keine eigene Website. Ich habe dafür unverbindlich einen Entwurf gebaut – darf ich Ihnen den Link schicken?"
+  },
+  "manualChecks": [
+    "RESERVE – weder Google-Eintrag noch Freemail-Adresse belegt: NUR versenden, wenn Google Maps einen Eintrag OHNE Website zeigt.",
+    "Website-Risiko: mittel – vor Versand in Google Maps prüfen, dass ein Eintrag existiert und keine Website hinterlegt ist (Grund: alle Suchen negativ, aber kein Google- und kein Freemail-Beleg)",
+    "Google-Maps-Eintrag prüfen: Existenz, Bewertungen nachtragen (aktuell null)",
+    "Leistungen nur aus 11880-Kategorien (Fliesenleger, Hausservice, Hausmeisterservice) – Details (Bad, Küche, Reparaturen etc.) beim Betrieb bestätigen",
+    "Mobilnummer 01517 451358 (11880) vor WhatsApp-Kontakt prüfen",
+    "Keine E-Mail-Adresse bekannt",
+    "Einsatzgebiet (serviceArea) nicht belegt – nur Sitz Karlsfeld; beim Betrieb bestätigen",
+    "Logo und Projektfotos: nicht gefunden – beim Betrieb anfragen"
+  ],
+  "sources": [
+    {
+      "label": "11880 – Fliesenleger Karlsfeld (Eintrag Andrzej Jedraszczak)",
+      "url": "https://www.11880.com/suche/fliesenleger/karlsfeld"
+    },
+    {
+      "label": "11880 – Hausmeisterservices Karlsfeld",
+      "url": "https://www.11880.com/suche/hausmeisterservice/karlsfeld"
+    },
+    {
+      "label": "11880 – Hausservices Karlsfeld",
+      "url": "https://www.11880.com/suche/hausservice/karlsfeld"
+    }
+  ],
+  "site": {
+    "theme": "aqua",
+    "category": "handwerk",
+    "heroOffer": [
+      "Fliesenarbeiten",
+      "Hausmeisterservice",
+      "Hausservice",
+      "Direkt beim Inhaber anfragen"
+    ],
+    "scene": "bath",
+    "logoIcon": "drop",
+    "logoMark": "AJ",
+    "brandName": "Jedraszczak Fliesen & Hausservice",
+    "seoTitle": "Fliesenleger & Hausmeisterservice in Karlsfeld – Andrzej Jedraszczak",
+    "seoDescription": "Fliesenarbeiten und Hausmeisterservice aus Karlsfeld. Andrzej Jedraszczak – direkt per Telefon oder WhatsApp unverbindlich anfragen.",
+    "hero": {
+      "eyebrow": "Fliesenleger & Hausmeisterservice · Karlsfeld",
+      "headline": "Ihr Fliesenleger und Hausmeisterservice in Karlsfeld.",
+      "sub": "Andrzej Jedraszczak übernimmt Fliesenarbeiten und kümmert sich als Hausmeisterservice um Haus und Wohnung – direkt aus Karlsfeld.",
+      "ctaPrimary": "Anfrage senden",
+      "ctaSecondary": "Anrufen",
+      "bullets": [
+        "Fliesenarbeiten",
+        "Hausmeister- und Hausservice",
+        "Direkter Kontakt zum Inhaber"
+      ],
+      "imageLabel": "frisch verfliestes Bad mit sauberen Fugen"
+    },
+    "badges": [
+      {
+        "title": "Fliesen",
+        "sub": "Fliesenarbeiten"
+      },
+      {
+        "title": "Hausmeister",
+        "sub": "Service rund ums Haus"
+      },
+      {
+        "title": "Inhaber",
+        "sub": "persönlich erreichbar"
+      },
+      {
+        "title": "Karlsfeld",
+        "sub": "Karl-Theodor-Straße"
+      }
+    ],
+    "trust": [
+      {
+        "value": "Inhaber",
+        "label": "persönlicher Ansprechpartner"
+      },
+      {
+        "value": "2",
+        "label": "Bereiche: Fliesen & Hausservice"
+      },
+      {
+        "value": "Mobil",
+        "label": "per Telefon & WhatsApp"
+      },
+      {
+        "value": "Karlsfeld",
+        "label": "Betrieb vor Ort"
+      }
+    ],
+    "servicesIntro": {
+      "headline": "Fliesen und Hausservice aus einer Hand",
+      "text": "Ob neue Fliesen oder Unterstützung rund ums Haus: Beschreiben Sie Ihr Anliegen, und Sie bekommen eine direkte Rückmeldung vom Inhaber."
+    },
+    "services": [
+      {
+        "title": "Fliesenarbeiten",
+        "text": "Fliesen verlegen für Bad, Küche und andere Räume – Umfang nach Absprache.",
+        "items": [
+          "Wandfliesen",
+          "Bodenfliesen",
+          "Ausbesserungen"
+        ]
+      },
+      {
+        "title": "Hausmeisterservice",
+        "text": "Betreuung von Haus und Wohnanlage nach Vereinbarung.",
+        "items": [
+          "Nach Absprache",
+          "Für Eigentümer & Vermieter"
+        ]
+      },
+      {
+        "title": "Hausservice",
+        "text": "Unterstützung bei Aufgaben rund um Haus und Wohnung.",
+        "items": [
+          "Nach Absprache",
+          "Einzelaufträge möglich"
+        ]
+      }
+    ],
+    "why": {
+      "headline": "Ein Ansprechpartner für Fliesen und Haus.",
+      "points": [
+        {
+          "title": "Zwei Leistungen, ein Kontakt",
+          "text": "Fliesenarbeiten und Hausmeisterservice – Sie müssen nicht mehrere Firmen koordinieren."
+        },
+        {
+          "title": "Direkter Draht",
+          "text": "Sie sprechen direkt mit dem Inhaber – per Telefon oder WhatsApp."
+        },
+        {
+          "title": "Aus Karlsfeld",
+          "text": "Kurze Wege im Ort und in die Nachbarorte."
+        },
+        {
+          "title": "Unkompliziert anfragen",
+          "text": "Ein paar Fotos genügen für die erste Einschätzung."
+        }
+      ]
+    },
+    "reviews": {
+      "headline": "Was Kunden sagen",
+      "summary": "Kundenstimmen werden hier eingebunden, sobald sie aus dem Google-Eintrag übernommen sind.",
+      "highlights": [
+        "Fliesenarbeiten",
+        "Hausmeisterservice",
+        "Direkter Kontakt",
+        "Sitz in Karlsfeld"
+      ],
+      "source": "Google",
+      "rating": null,
+      "count": null,
+      "sourceUrl": "https://www.google.com/maps/search/?api=1&query=Andrzej%20Jedraszczak%20Fliesenleger%20Karlsfeld"
+    },
+    "process": {
+      "headline": "So läuft Ihre Anfrage",
+      "steps": [
+        {
+          "title": "Anfrage",
+          "text": "Fotos und Beschreibung schicken – per WhatsApp oder Formular."
+        },
+        {
+          "title": "Besichtigung",
+          "text": "Umfang und Termin werden vor Ort abgestimmt."
+        },
+        {
+          "title": "Angebot",
+          "text": "Sie erhalten ein klares Angebot."
+        },
+        {
+          "title": "Ausführung",
+          "text": "Die Arbeiten werden wie vereinbart erledigt."
+        }
+      ]
+    },
+    "gallery": {
+      "headline": "Arbeiten aus Karlsfeld",
+      "text": "Für die Live-Version zeigen wir hier echte Projekte des Betriebs.",
+      "items": [
+        {
+          "title": "Badfliesen",
+          "photoNeeded": "neu verfliestes Bad"
+        },
+        {
+          "title": "Bodenfliesen",
+          "photoNeeded": "gefliester Boden in Flur oder Küche"
+        },
+        {
+          "title": "Ausbesserung",
+          "photoNeeded": "reparierte Fliesenfläche vorher/nachher"
+        },
+        {
+          "title": "Hausservice",
+          "photoNeeded": "gepflegter Hauseingang oder Treppenhaus"
+        }
+      ]
+    },
+    "region": {
+      "headline": "Fliesen und Hausservice in Karlsfeld",
+      "text": "Der Betrieb sitzt in Karlsfeld – das genaue Einsatzgebiet stimmen Sie bei der Anfrage ab.",
+      "places": [
+        "Karlsfeld",
+        "Dachau",
+        "München-Allach",
+        "Bergkirchen"
+      ]
+    },
+    "faq": [
+      {
+        "q": "Übernehmen Sie auch kleine Fliesenarbeiten?",
+        "a": "Fragen Sie einfach mit ein paar Fotos an – der Umfang wird gemeinsam abgestimmt."
+      },
+      {
+        "q": "Kann ich per WhatsApp anfragen?",
+        "a": "Gern – schicken Sie Fotos und eine kurze Beschreibung an die Mobilnummer."
+      },
+      {
+        "q": "Was umfasst der Hausmeisterservice?",
+        "a": "Die Leistungen werden individuell vereinbart – sprechen Sie Ihr Anliegen einfach an."
+      }
+    ],
+    "contact": {
+      "headline": "Ihre Anfrage – unverbindlich",
+      "text": "Beschreiben Sie kurz, worum es geht: Fliesenarbeiten oder Hausservice. Fotos helfen.",
+      "topics": [
+        "Fliesenarbeiten",
+        "Hausmeisterservice",
+        "Hausservice",
+        "Sonstiges"
+      ],
+      "responseNote": "Besichtigung nach Absprache."
+    },
+    "quote": {
+      "sizeLabel": "Worum geht es?",
+      "sizes": [
+        "Kleine Ausbesserung",
+        "Ein Raum / Bad",
+        "Mehrere Räume",
+        "Laufende Betreuung"
+      ],
+      "timings": [
+        "So bald wie möglich",
+        "In den nächsten Wochen",
+        "In 1–3 Monaten",
+        "Ich plane erst noch"
+      ]
+    },
+    "stickyCta": "Jetzt anfragen",
+    "nav": [
+      {
+        "label": "Leistungen",
+        "href": "#leistungen"
+      },
+      {
+        "label": "Projekte",
+        "href": "#projekte"
+      },
+      {
+        "label": "Bewertungen",
+        "href": "#bewertungen"
+      },
+      {
+        "label": "Ablauf",
+        "href": "#ablauf"
+      },
+      {
+        "label": "FAQ",
+        "href": "#faq"
+      },
+      {
+        "label": "Kontakt",
+        "href": "#kontakt"
+      }
+    ],
+    "look": {
+      "palette": 0,
+      "font": 11,
+      "hero": 3,
+      "services": 2,
+      "radius": 2,
+      "logo": 5,
+      "intro": 0
+    }
+  }
+}

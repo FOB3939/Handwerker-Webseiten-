@@ -1,0 +1,409 @@
+{
+  "id": "2026-10-18-45",
+  "slug": "trockenbau-arbau-germering",
+  "date": "2026-10-18",
+  "company": {
+    "name": "ARBau",
+    "owner": "Adrian Radzewicz",
+    "trade": "Trockenbau, Akustikbau & Renovierung",
+    "city": "Germering",
+    "address": "Streiflacher Str. 5c, 82110 Germering",
+    "phone": "01517 1882872",
+    "email": "arbau.innenausbau@gmail.com",
+    "serviceArea": [
+      "Germering",
+      "Puchheim",
+      "Gilching",
+      "Gräfelfing",
+      "Planegg",
+      "Fürstenfeldbruck"
+    ]
+  },
+  "listings": {
+    "google": {
+      "url": "https://www.google.com/maps/search/?api=1&query=ARBau%20Streiflacher%20Str.%205c%20Germering",
+      "rating": null,
+      "reviews": null,
+      "evidence": "INDIREKT/NICHT VERIFIZIERT – WebSearch mit allowed_domains google.com/google.de lieferte keine maps/place-Seite (nur Nachbarbetrieb Streiflacher Str. 5); auch auf trustlocal/weshoplocal/reviewhero/firmania kein Eintrag. Angenommen wegen starkem Freemail-Beleg (arbau.innenausbau@gmail.com im 11880-Eintrag). Ein Website-Feld war in keiner Quelle zu sehen."
+    },
+    "myhammer": {
+      "url": "https://www.11880.com/suche/trockenbau/germering",
+      "rating": null,
+      "reviews": null,
+      "evidence": "Kein MyHammer – Eintrag in 11880 (Trockenbau/Akustikbau/Altbausanierung Germering): „ARBau, Trockenbau, Renovierung & Akustikbau“, Streiflacher Str. 5c, 82110 Germering, Tel. (01517) 1882872, E-Mail arbau.innenausbau@gmail.com, keine Website. Zusätzlich blauarbeit.de-Profil (Inhaber Adrian Radzewicz; Bautrocknung, Trockenbau, Dämmung, Sanierung, Maler- und Bodenarbeiten)."
+    }
+  },
+  "websiteStatus": "keine eigene Website gefunden",
+  "websiteChecks": [
+    "(1) „ARBau Germering Trockenbau“ mit blocked_domains (11880, Gelbe Seiten, Das Örtliche, Das Telefonbuch, Cylex, meinestadt, Creditreform, Facebook, Instagram, golocal, MyHammer, Northdata, Firmenwissen, WerkenntdenBesten, Yelp, trustlocal, wlw) – nur 11880 (nicht blockiert in dieser Suche), blauarbeit.de-Profil und fremde Trockenbau-Seiten; keine eigene Domain",
+    "(2) Telefonsuche „01517 1882872“/„015171882872“/„Radzewicz Germering“ mit denselben blocked_domains – nur Rufnummernblock-Seite anrufer.info und unrelated Personen, keine Website",
+    "(3) Domainprüfung allowed_domains arbau.de, arbau-germering.de, arbau-innenausbau.de, ar-bau.de, radzewicz.de, radzewicz-trockenbau.de, arbau-trockenbau.de, trockenbau-radzewicz.de – Treffer nur ar-bau.de = AR-Bau Berlin (Inhaber Alexander Rabaev, Cunostraße 12, 14199 Berlin) und arbau.de (Maschinenhändler) – beide fremde Firmen, kein Bezug zu Germering",
+    "(4) Impressum-Suche „Impressum Adrian Radzewicz Germering“ – kein eigenes Impressum",
+    "(5) Verzeichnis 11880: kein Website-Feld genannt, E-Mail ist Freemail (gmail.com) – starkes Indiz",
+    "(6) Google-Maps-Suche (allowed google.com/google.de) – kein Place-Treffer, damit auch kein Website-Feld sichtbar; trustlocal & Co. ohne Eintrag",
+    "Website-Risiko: niedrig – Freemail-Adresse + Verzeichnis ohne Homepage, alle Domain-/Namens-/Telefonsuchen negativ (Google-Eintrag selbst aber nicht verifiziert)"
+  ],
+  "facts": {
+    "services": [
+      "Trockenbau",
+      "Akustikbau",
+      "Renovierung / Altbausanierung",
+      "Innenausbau",
+      "Dämmung",
+      "Bautrocknung",
+      "Maler- und Bodenarbeiten"
+    ],
+    "experience": null,
+    "praisedFor": []
+  },
+  "strategy": {
+    "audience": "Haus- und Wohnungseigentümer, Vermieter und kleine Gewerbe in Germering und im Landkreis Fürstenfeldbruck, die Räume umbauen, sanieren oder akustisch verbessern wollen",
+    "mainService": "Trockenbau und Innenausbau inkl. Akustikdecken und Renovierung",
+    "trustSignal": "Inhabergeführter Betrieb (Adrian Radzewicz) – direkter Ansprechpartner per Handy/WhatsApp",
+    "conversionGoal": "Rückruf/Angebot per WhatsApp oder Formular anfragen (mit Fotos und Raummaßen)",
+    "visualConcept": "Klare Werkstatt-Optik: Gipskartonplatten, Profile und saubere Kanten in hellem Baulicht – präzise, aufgeräumt, handfest"
+  },
+  "sales": {
+    "score": 7,
+    "whyGoodLead": [
+      "Keine eigene Website – nur Verzeichniseinträge, Kontakt per Gmail-Adresse",
+      "Mobilnummer öffentlich gelistet – direkt per WhatsApp ansprechbar",
+      "Breites Leistungsspektrum (Trockenbau, Akustik, Dämmung, Sanierung) – ideal für eine Leistungsseite mit lokalen Suchbegriffen",
+      "Standort Germering mit großem Einzugsgebiet im Münchner Westen"
+    ],
+    "pitch": "Hallo Herr Radzewicz, ich erstelle Websites für Handwerksbetriebe im Münchner Westen. Ich habe ARBau im Branchenverzeichnis mit Trockenbau, Akustikbau und Renovierung in Germering gefunden, aber keine eigene Website. Ich habe dafür unverbindlich einen Entwurf gebaut – darf ich Ihnen den Link schicken?"
+  },
+  "manualChecks": [
+    "Website-Risiko: niedrig – vor Versand in Google Maps prüfen, dass keine Website hinterlegt ist (Grund: Gmail-Adresse und 11880 ohne Homepage, alle Suchen negativ; Google-Eintrag aber nicht direkt gefunden)",
+    "Google-Maps-Eintrag „ARBau Germering“ prüfen: Existenz, Bewertungen nachtragen (aktuell null)",
+    "Nicht verwechseln mit ar-bau.de (AR-Bau Berlin, fremde Firma)",
+    "Inhabername Adrian Radzewicz stammt aus blauarbeit.de-Profil – beim Erstkontakt bestätigen",
+    "Mobilnummer 01517 1882872 (11880) vor WhatsApp-Kontakt prüfen",
+    "Einsatzgebiet (serviceArea) nicht belegt – nur Sitz Germering; beim Betrieb bestätigen",
+    "Logo und Projektfotos: nicht gefunden – beim Betrieb anfragen"
+  ],
+  "sources": [
+    {
+      "label": "11880 – Trockenbauer Germering (Eintrag ARBau)",
+      "url": "https://www.11880.com/suche/trockenbau/germering"
+    },
+    {
+      "label": "11880 – Akustikbauten Germering",
+      "url": "https://www.11880.com/suche/akustikbau/germering"
+    },
+    {
+      "label": "blauarbeit.de – Profil ARBau",
+      "url": "https://www.blauarbeit.de/handwerker/puchheim/arbau"
+    },
+    {
+      "label": "anrufer.info – Rufnummernblock 01517-188",
+      "url": "https://anrufer.info/mobil/01517-188"
+    },
+    {
+      "label": "ar-bau.de – fremde Firma in Berlin (Abgrenzung)",
+      "url": "https://ar-bau.de/kontakt.html"
+    }
+  ],
+  "site": {
+    "theme": "objekt",
+    "category": "handwerk",
+    "heroOffer": [
+      "Trockenbau",
+      "Akustikdecken",
+      "Dämmung",
+      "Renovierung",
+      "Bautrocknung"
+    ],
+    "scene": "drywall",
+    "logoIcon": "trowel",
+    "logoMark": "AR",
+    "brandName": "ARBau",
+    "seoTitle": "Trockenbau in Germering – ARBau Innenausbau",
+    "seoDescription": "Trockenbau, Akustikbau, Dämmung und Renovierung aus Germering. ARBau baut Wände, Decken und Räume um – jetzt unverbindlich anfragen.",
+    "nav": [
+      {
+        "label": "Leistungen",
+        "href": "#leistungen"
+      },
+      {
+        "label": "Projekte",
+        "href": "#projekte"
+      },
+      {
+        "label": "Bewertungen",
+        "href": "#bewertungen"
+      },
+      {
+        "label": "Ablauf",
+        "href": "#ablauf"
+      },
+      {
+        "label": "FAQ",
+        "href": "#faq"
+      },
+      {
+        "label": "Kontakt",
+        "href": "#kontakt"
+      }
+    ],
+    "hero": {
+      "eyebrow": "Trockenbau & Innenausbau · Germering",
+      "headline": "Trockenbau, Akustik & Renovierung in Germering – sauber ausgebaut.",
+      "sub": "ARBau stellt Wände, baut Decken ab, verbessert die Raumakustik und renoviert Altbauten in Germering und Umgebung – vom Ausbau bis zur fertigen Oberfläche.",
+      "ctaPrimary": "Angebot anfragen",
+      "ctaSecondary": "Anrufen",
+      "bullets": [
+        "Trockenbau, Akustik und Dämmung aus einer Hand",
+        "Auch Maler- und Bodenarbeiten",
+        "Direkter Kontakt zum Inhaber"
+      ],
+      "imageLabel": "neue Trockenbauwand mit Profilen und Gipskartonplatten"
+    },
+    "badges": [
+      {
+        "title": "Trockenbau",
+        "sub": "Wände & Decken"
+      },
+      {
+        "title": "Akustikbau",
+        "sub": "ruhigere Räume"
+      },
+      {
+        "title": "Renovierung",
+        "sub": "Altbau & Innenausbau"
+      },
+      {
+        "title": "Germering",
+        "sub": "Streiflacher Straße"
+      }
+    ],
+    "trust": [
+      {
+        "value": "Inhaber",
+        "label": "persönlicher Ansprechpartner"
+      },
+      {
+        "value": "7",
+        "label": "Leistungsbereiche"
+      },
+      {
+        "value": "Innen",
+        "label": "Ausbau, Dämmung, Oberfläche"
+      },
+      {
+        "value": "Germering",
+        "label": "Betrieb im Münchner Westen"
+      }
+    ],
+    "servicesIntro": {
+      "headline": "Ausbau, der passt",
+      "text": "Ob neue Raumaufteilung, abgehängte Decke oder Sanierung eines älteren Hauses: ARBau übernimmt den Innenausbau – und auf Wunsch auch Malern und Boden."
+    },
+    "services": [
+      {
+        "title": "Trockenbau",
+        "text": "Neue Wände, Vorsatzschalen und abgehängte Decken – für flexible Raumaufteilung ohne großen Schmutz.",
+        "items": [
+          "Ständerwände",
+          "Abgehängte Decken",
+          "Vorsatzschalen"
+        ]
+      },
+      {
+        "title": "Akustikbau",
+        "text": "Bessere Raumakustik für Wohnräume, Büros oder Praxen.",
+        "items": [
+          "Akustikdecken",
+          "Schallschutz",
+          "Raumakustik"
+        ]
+      },
+      {
+        "title": "Dämmung",
+        "text": "Wärme- und Schalldämmung im Innenausbau.",
+        "items": [
+          "Innendämmung",
+          "Dachausbau",
+          "Schallschutz"
+        ]
+      },
+      {
+        "title": "Renovierung & Sanierung",
+        "text": "Altbauten und Wohnungen werden instand gesetzt und modernisiert.",
+        "items": [
+          "Altbausanierung",
+          "Wohnungsrenovierung",
+          "Innenausbau"
+        ]
+      },
+      {
+        "title": "Bautrocknung",
+        "text": "Feuchte Räume nach Wasserschaden oder Neubau wieder trocken bekommen.",
+        "items": [
+          "Bautrocknung",
+          "Vorbereitung für Ausbau"
+        ]
+      },
+      {
+        "title": "Maler- & Bodenarbeiten",
+        "text": "Zum fertigen Ausbau die passende Oberfläche – Wand und Boden aus einer Hand.",
+        "items": [
+          "Malerarbeiten",
+          "Bodenarbeiten"
+        ]
+      }
+    ],
+    "why": {
+      "headline": "Ein Ansprechpartner vom Rohbau bis zur Oberfläche.",
+      "points": [
+        {
+          "title": "Alles aus einer Hand",
+          "text": "Trockenbau, Dämmung, Akustik, Malern und Boden – Sie koordinieren nicht mehrere Firmen."
+        },
+        {
+          "title": "Direkter Draht",
+          "text": "Sie sprechen direkt mit dem Inhaber – per Telefon oder WhatsApp."
+        },
+        {
+          "title": "Für Alt und Neu",
+          "text": "Sanierung im Bestand ebenso wie Ausbau im Neubau."
+        },
+        {
+          "title": "Aus Germering",
+          "text": "Kurze Wege in Germering und den Nachbarorten."
+        }
+      ]
+    },
+    "reviews": {
+      "headline": "Was Kunden sagen",
+      "summary": "Kundenstimmen werden hier eingebunden, sobald sie aus dem Google-Eintrag übernommen sind.",
+      "highlights": [
+        "Trockenbau & Akustik",
+        "Renovierung",
+        "Direkter Kontakt",
+        "Sitz in Germering"
+      ],
+      "source": "Google",
+      "sourceUrl": "https://www.google.com/maps/search/?api=1&query=ARBau%20Streiflacher%20Str.%205c%20Germering",
+      "rating": null,
+      "count": null
+    },
+    "process": {
+      "headline": "So läuft Ihr Ausbau",
+      "steps": [
+        {
+          "title": "Anfrage",
+          "text": "Fotos und Maße schicken – per WhatsApp oder Formular."
+        },
+        {
+          "title": "Besichtigung",
+          "text": "Umfang, Material und Termine werden vor Ort abgestimmt."
+        },
+        {
+          "title": "Angebot",
+          "text": "Sie erhalten ein klares Angebot für Ihr Vorhaben."
+        },
+        {
+          "title": "Ausführung",
+          "text": "Sauberer Ausbau und Übergabe eines fertigen Raums."
+        }
+      ]
+    },
+    "gallery": {
+      "headline": "Ausgebaute Räume",
+      "text": "Für die Live-Version zeigen wir hier echte Projekte des Betriebs.",
+      "items": [
+        {
+          "title": "Neue Wand",
+          "photoNeeded": "frisch gestellte Trockenbauwand"
+        },
+        {
+          "title": "Akustikdecke",
+          "photoNeeded": "abgehängte Akustikdecke in einem Raum"
+        },
+        {
+          "title": "Dachausbau",
+          "photoNeeded": "gedämmter Dachraum im Ausbau"
+        },
+        {
+          "title": "Sanierung",
+          "photoNeeded": "renovierter Altbauraum vorher/nachher"
+        },
+        {
+          "title": "Fertige Oberfläche",
+          "photoNeeded": "gestrichener Raum mit neuem Boden"
+        }
+      ]
+    },
+    "region": {
+      "headline": "Trockenbau für Germering und den Münchner Westen",
+      "text": "Von Germering aus ist ARBau schnell in Puchheim, Gilching, Gräfelfing, Planegg und Fürstenfeldbruck.",
+      "places": [
+        "Germering",
+        "Puchheim",
+        "Gilching",
+        "Gräfelfing",
+        "Planegg",
+        "Krailling",
+        "Fürstenfeldbruck"
+      ]
+    },
+    "faq": [
+      {
+        "q": "Übernehmen Sie auch kleine Aufträge?",
+        "a": "Fragen Sie einfach mit ein paar Fotos an – auch einzelne Wände oder Decken."
+      },
+      {
+        "q": "Machen Sie auch Malerarbeiten?",
+        "a": "Ja, Maler- und Bodenarbeiten gehören zum Angebot."
+      },
+      {
+        "q": "Kann ich per WhatsApp anfragen?",
+        "a": "Gern – schicken Sie Fotos und ungefähre Maße an die Mobilnummer."
+      },
+      {
+        "q": "Helfen Sie nach einem Wasserschaden?",
+        "a": "Bautrocknung und anschließende Sanierung gehören zum Leistungsumfang."
+      }
+    ],
+    "contact": {
+      "headline": "Ihr Angebot – unverbindlich",
+      "text": "Beschreiben Sie kurz Ihr Vorhaben: Raum, Maße und was gebaut oder saniert werden soll. Fotos helfen.",
+      "topics": [
+        "Trockenbau",
+        "Akustikbau",
+        "Dämmung",
+        "Renovierung / Sanierung",
+        "Bautrocknung",
+        "Maler- & Bodenarbeiten",
+        "Sonstiges"
+      ],
+      "responseNote": "Besichtigung nach Absprache."
+    },
+    "quote": {
+      "sizeLabel": "Was soll gemacht werden?",
+      "sizes": [
+        "Einzelne Wand / Decke",
+        "Ein Raum",
+        "Mehrere Räume / Wohnung",
+        "Ganzes Haus"
+      ],
+      "timings": [
+        "So bald wie möglich",
+        "In den nächsten Wochen",
+        "In 1–3 Monaten",
+        "Ich plane erst noch"
+      ]
+    },
+    "stickyCta": "Angebot anfragen",
+    "look": {
+      "palette": 1,
+      "font": 5,
+      "hero": 3,
+      "services": 0,
+      "radius": 0,
+      "logo": 1,
+      "intro": 4
+    }
+  }
+}

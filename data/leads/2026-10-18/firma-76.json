@@ -1,0 +1,339 @@
+{
+  "id": "2026-10-18-76",
+  "slug": "bt-trockenbau-ottobrunn",
+  "date": "2026-10-18",
+  "company": {
+    "name": "BT-Trockenbau",
+    "owner": null,
+    "trade": "Trockenbau",
+    "city": "Ottobrunn",
+    "address": "Zeisigstr. 14, 85521 Ottobrunn",
+    "phone": "0172 9536025",
+    "email": null,
+    "serviceArea": [
+      "Ottobrunn",
+      "Umgebung"
+    ]
+  },
+  "listings": {
+    "google": {
+      "url": "https://www.google.com/maps/search/?api=1&query=BT-Trockenbau%20Zeisigstr.%2014%20Ottobrunn",
+      "rating": null,
+      "reviews": null,
+      "evidence": "NICHT BELEGT – kein google.com/maps/place-Treffer und kein Google-Spiegel (trustlocal o. ä.) mit Google-Bewertungen gefunden. Ob ein Google-Eintrag existiert und ob dort eine Website hinterlegt ist, muss vor Versand in Google Maps geprüft werden."
+    },
+    "myhammer": {
+      "url": "https://www.11880.com/suche/trockenbau/ottobrunn",
+      "rating": null,
+      "reviews": null,
+      "evidence": "Kein MyHammer gefunden – Eintrag „BT-Trockenbau“ bei 11880 (Zeisigstr. 14, Ottobrunn, Mobil 0172 9536025)."
+    }
+  },
+  "websiteStatus": "keine eigene Website gefunden",
+  "websiteChecks": [
+    "(1) „BT-Trockenbau Ottobrunn“ mit blocked_domains (11880, Gelbe Seiten, Das Örtliche, Telefonbuch, Cylex, meinestadt, Creditreform, Facebook, Instagram, golocal, MyHammer, Northdata, Firmenwissen, WKDB, Yelp, trustlocal, wlw) – keine eigene Domain (Vorprüfung)",
+    "(2) Telefonsuche „0172 9536025“ – keine Website (Vorprüfung)",
+    "(3) Domain-Check auf naheliegende Domains (bt-trockenbau.de u. ä.) – keine Treffer (Vorprüfung)",
+    "(5) Verzeichnisse (Vorprüfung): kein Website-Feld bekannt; keine E-Mail-Adresse belegt (auch keine Freemail)",
+    "(6) Google-Spiegel: nicht vorhanden – Google-Eintrag unbelegt",
+    "Website-Risiko: mittel – Vorprüfungen negativ, aber weder Google-Eintrag noch Freemail belegt (RESERVE)"
+  ],
+  "facts": {
+    "services": [
+      "Trockenbau"
+    ],
+    "experience": null,
+    "praisedFor": []
+  },
+  "strategy": {
+    "audience": "Hauseigentümer, Bauherren und Vermieter in Ottobrunn und Umgebung, die Räume teilen oder Decken und Wände in Trockenbau ausführen lassen wollen",
+    "mainService": "Trockenbau – Wände und Decken",
+    "trustSignal": "Betrieb vor Ort in Ottobrunn, direkt per Handy erreichbar",
+    "conversionGoal": "Kostenloses Angebot anfragen (per WhatsApp/Anruf mit Fotos)",
+    "visualConcept": "Klare, helle Baustellenästhetik: Ständerwerk, Gipskarton und saubere Kanten"
+  },
+  "sales": {
+    "score": 4,
+    "whyGoodLead": [
+      "Keine eigene Website gefunden – nur Verzeichniseinträge mit Handynummer",
+      "Mobilnummer öffentlich gelistet – WhatsApp-Erstkontakt möglich",
+      "Kaum Online-Sichtbarkeit – eine Website mit Anfrageformular schafft einen direkten Kanal",
+      "RESERVE: Google-Eintrag unbelegt – nur nach Maps-Prüfung versenden"
+    ],
+    "pitch": "Hallo, hier ist … – ich baue Websites für Handwerksbetriebe im Münchner Umland. Ich habe Ihren Eintrag „BT-Trockenbau“ in Ottobrunn gefunden, aber keine eigene Website. Ich habe unverbindlich einen Entwurf vorbereitet, auf dem Kunden Ihre Leistungen sehen und direkt per WhatsApp anfragen können – darf ich Ihnen den Link schicken?"
+  },
+  "manualChecks": [
+    "RESERVE – weder Google-Eintrag noch Freemail-Adresse belegt: NUR versenden, wenn Google Maps einen Eintrag OHNE Website zeigt.",
+    "Website-Risiko: mittel – vor Versand in Google Maps prüfen, dass keine Website hinterlegt ist (Grund: Vorprüfungen negativ, aber weder Google-Eintrag noch Freemail belegt)",
+    "Einsatzgebiet: nur Sitz Ottobrunn belegt – konkrete Nachbarorte nicht belegt, beim Betrieb erfragen",
+    "Inhabername unbekannt – beim Erstkontakt erfragen; Anrede neutral halten",
+    "Leistung nur als Kategorie „Trockenbau“ belegt – Details (Decken, Dämmung, Dachausbau) beim Betrieb bestätigen",
+    "PLZ 85521 aus Ortsname ergänzt – mit Eintrag abgleichen",
+    "Bewertungen, Öffnungszeiten, Logo und Projektfotos: nicht belegt – beim Betrieb anfragen"
+  ],
+  "sources": [
+    {
+      "label": "11880 – Trockenbauer Ottobrunn (Suchliste mit BT-Trockenbau)",
+      "url": "https://www.11880.com/suche/trockenbau/ottobrunn"
+    }
+  ],
+  "site": {
+    "theme": "atelier",
+    "category": "handwerk",
+    "heroOffer": [
+      "Trockenbauwände",
+      "Decken",
+      "Raumteiler",
+      "Verspachteln"
+    ],
+    "scene": "drywall",
+    "logoIcon": "trowel",
+    "logoMark": "BT",
+    "brandName": "BT-Trockenbau",
+    "seoTitle": "Trockenbau in Ottobrunn – BT-Trockenbau",
+    "seoDescription": "Trockenbau in Ottobrunn und Umgebung. Jetzt kostenloses Angebot anfragen – auch per WhatsApp.",
+    "nav": [
+      {
+        "label": "Leistungen",
+        "href": "#leistungen"
+      },
+      {
+        "label": "Projekte",
+        "href": "#projekte"
+      },
+      {
+        "label": "Bewertungen",
+        "href": "#bewertungen"
+      },
+      {
+        "label": "Ablauf",
+        "href": "#ablauf"
+      },
+      {
+        "label": "FAQ",
+        "href": "#faq"
+      },
+      {
+        "label": "Kontakt",
+        "href": "#kontakt"
+      }
+    ],
+    "hero": {
+      "eyebrow": "Trockenbau · Ottobrunn",
+      "headline": "Trockenbau in Ottobrunn",
+      "sub": "Wände und Decken in Trockenbau – sauber ausgeführt, direkt anfragen.",
+      "ctaPrimary": "Kostenloses Angebot anfragen",
+      "ctaSecondary": "Anrufen",
+      "bullets": [
+        "Trockenbau aus Ottobrunn",
+        "Wände und Decken",
+        "Direkt per Handy erreichbar"
+      ],
+      "imageLabel": "frisch gespachtelte Trockenbauwand mit Ständerwerk"
+    },
+    "badges": [
+      {
+        "title": "Trockenbau",
+        "sub": "Wände & Decken"
+      },
+      {
+        "title": "Raumteiler",
+        "sub": "neue Aufteilung"
+      },
+      {
+        "title": "Direkt",
+        "sub": "per Handy erreichbar"
+      },
+      {
+        "title": "Ottobrunn",
+        "sub": "Zeisigstr."
+      }
+    ],
+    "trust": [
+      {
+        "value": "Vor Ort",
+        "label": "Betrieb in Ottobrunn"
+      },
+      {
+        "value": "1",
+        "label": "Leistungsbereiche"
+      },
+      {
+        "value": "Direkt",
+        "label": "ohne Callcenter"
+      },
+      {
+        "value": "Mobil",
+        "label": "schnell erreichbar"
+      }
+    ],
+    "servicesIntro": {
+      "headline": "Trockenbau für neue Räume",
+      "text": "Trockenbau schafft schnell und sauber neue Raumaufteilungen – ohne lange Trocknungszeiten."
+    },
+    "services": [
+      {
+        "title": "Trockenbauwände",
+        "text": "Neue Raumaufteilung mit Ständerwänden – sauber verspachtelt und bereit für Farbe.",
+        "items": [
+          "Ständerwände",
+          "Raumteiler",
+          "Verspachteln"
+        ]
+      },
+      {
+        "title": "Decken abhängen",
+        "text": "Decken in Trockenbau für ein ruhiges Raumbild.",
+        "items": [
+          "Abgehängte Decken",
+          "Leitungen verkleiden",
+          "Glatte Oberflächen"
+        ]
+      },
+      {
+        "title": "Verkleidungen",
+        "text": "Verkleidungen in Trockenbau nach Absprache.",
+        "items": [
+          "Vorwände",
+          "Verkleidungen",
+          "Nach Absprache"
+        ]
+      }
+    ],
+    "why": {
+      "headline": "Trockenbau aus Ottobrunn – direkt und unkompliziert.",
+      "points": [
+        {
+          "title": "Kurze Wege",
+          "text": "Der Betrieb sitzt in Ottobrunn und arbeitet in der Umgebung."
+        },
+        {
+          "title": "Direkter Kontakt",
+          "text": "Ein Anruf oder eine WhatsApp-Nachricht genügt."
+        },
+        {
+          "title": "Klare Absprachen",
+          "text": "Umfang und Ablauf werden vorab gemeinsam abgestimmt."
+        },
+        {
+          "title": "Trocken & schnell",
+          "text": "Trockenbau kommt ohne lange Trocknungszeiten aus."
+        }
+      ]
+    },
+    "reviews": {
+      "headline": "Was Kunden sagen",
+      "summary": "Kundenstimmen werden hier eingebunden, sobald sie aus einem Bewertungsprofil übernommen sind.",
+      "highlights": [
+        "Trockenbau in Ottobrunn",
+        "Wände und Decken",
+        "Direkter Kontakt"
+      ],
+      "source": "Google",
+      "sourceUrl": "https://www.google.com/maps/search/?api=1&query=BT-Trockenbau%20Zeisigstr.%2014%20Ottobrunn",
+      "rating": null,
+      "count": null
+    },
+    "process": {
+      "headline": "In vier Schritten zum Ergebnis",
+      "steps": [
+        {
+          "title": "Anfrage",
+          "text": "Fotos und grobe Maße per WhatsApp schicken – oder kurz anrufen."
+        },
+        {
+          "title": "Besichtigung",
+          "text": "Umfang und Details werden vor Ort abgestimmt."
+        },
+        {
+          "title": "Angebot",
+          "text": "Sie erhalten ein klares Angebot für Ihr Vorhaben."
+        },
+        {
+          "title": "Ausführung",
+          "text": "Ständerwerk, Beplankung, Spachteln – sauber übergeben."
+        }
+      ]
+    },
+    "gallery": {
+      "headline": "Räume, die neu entstehen",
+      "text": "Für die Live-Version zeigen wir hier echte Projekte des Betriebs.",
+      "items": [
+        {
+          "title": "Neue Trennwand",
+          "photoNeeded": "Ständerwand im Rohbau und fertig"
+        },
+        {
+          "title": "Decke",
+          "photoNeeded": "abgehängte Decke"
+        },
+        {
+          "title": "Vorwand",
+          "photoNeeded": "Vorwand mit Verkleidung"
+        }
+      ]
+    },
+    "region": {
+      "headline": "Trockenbau für Ottobrunn und Umgebung",
+      "text": "Von Ottobrunn aus für Kunden in der Umgebung – fragen Sie einfach an.",
+      "places": [
+        "Ottobrunn",
+        "Umgebung"
+      ]
+    },
+    "faq": [
+      {
+        "q": "Kann ich vorab Fotos schicken?",
+        "a": "Ja, Fotos und grobe Maße per WhatsApp helfen für eine erste Einschätzung."
+      },
+      {
+        "q": "Was kostet mein Vorhaben?",
+        "a": "Das hängt von Umfang und Material ab. Nach einer Besichtigung erhalten Sie ein klares Angebot."
+      },
+      {
+        "q": "Wie schnell ist eine Trockenbauwand fertig?",
+        "a": "Das hängt von Größe und Ausführung ab. Ein Zeitplan wird nach der Besichtigung abgestimmt."
+      },
+      {
+        "q": "Arbeiten Sie auch außerhalb von Ottobrunn?",
+        "a": "Fragen Sie einfach an – auch für die Umgebung von Ottobrunn."
+      }
+    ],
+    "contact": {
+      "headline": "Ihr Angebot – kostenlos und unverbindlich",
+      "text": "Beschreiben Sie kurz Ihr Vorhaben: welcher Raum, ungefähre Maße und ob Wand oder Decke. Fotos helfen.",
+      "topics": [
+        "Trockenbauwände",
+        "Decken abhängen",
+        "Verkleidungen",
+        "Sonstiges"
+      ],
+      "responseNote": "Besichtigung nach Absprache."
+    },
+    "quote": {
+      "sizeLabel": "Was soll gebaut werden?",
+      "sizes": [
+        "Eine Wand",
+        "Ein Raum",
+        "Dachgeschoss",
+        "Mehrere Räume"
+      ],
+      "timings": [
+        "So bald wie möglich",
+        "In den nächsten Wochen",
+        "In 1–3 Monaten",
+        "Ich plane erst noch"
+      ]
+    },
+    "stickyCta": "Angebot anfragen",
+    "look": {
+      "palette": 3,
+      "font": 11,
+      "hero": 1,
+      "services": 0,
+      "radius": 4,
+      "logo": 1,
+      "intro": 4
+    }
+  }
+}

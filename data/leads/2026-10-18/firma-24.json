@@ -1,0 +1,383 @@
+{
+  "id": "2026-10-18-24",
+  "slug": "obsthof-seidinger-ebersberg",
+  "date": "2026-10-18",
+  "company": {
+    "name": "Obsthof Seidinger",
+    "owner": "Maria Seidinger",
+    "trade": "Bioland-Obsthof",
+    "city": "Ebersberg",
+    "address": "Rinding 22, 85560 Ebersberg",
+    "phone": "08092 22103",
+    "email": "laurenzius_ich@yahoo.de",
+    "serviceArea": [
+      "Ebersberg",
+      "Rinding",
+      "Grafing bei München",
+      "Kirchseeon",
+      "Steinhöring",
+      "Emmering",
+      "Aßling"
+    ]
+  },
+  "listings": {
+    "google": {
+      "url": "https://www.google.com/maps/search/?api=1&query=Obsthof%20Seidinger%20Rinding%2022%20Ebersberg",
+      "rating": null,
+      "reviews": null,
+      "evidence": "INDIREKT / NICHT VERIFIZIERT – WebSearch mit allowed_domains google.com/google.de („Obsthof Seidinger Rinding Ebersberg“) und Spiegel-Verzeichnisse (trustlocal, weshoplocal, reviewhero, firmania, cybo, oeffnungszeitenbuch) lieferten keinen Eintrag des Hofs. Aufnahme nur wegen Freemail-Adresse (yahoo.de) und negativer Website-Prüfungen. Kein Website-Feld in irgendeinem gefundenen Verzeichnis."
+    },
+    "myhammer": {
+      "url": "https://hofladen-bauernladen.info/adressen/ebersberg-rinding-obsthof-seidinger__2335.php",
+      "rating": null,
+      "reviews": null,
+      "evidence": "Kein MyHammer – Eintrag „Obsthof Seidinger“ auf hofladen-bauernladen.info, zusätzlich mein-bauernhof.de und Liste „Regionale Vermarktung“ der Stadt Ebersberg: Maria Seidinger, Rinding 22, 85560 Ebersberg, Tel. 08092-22103, E-Mail laurenzius_ich@yahoo.de, Bioland-Verband, Verkauf nach telefonischer Vereinbarung. Keine Website in den Einträgen."
+    }
+  },
+  "websiteStatus": "keine eigene Website gefunden",
+  "websiteChecks": [
+    "(1) „Seidinger Obsthof Rinding“ mit Ausschluss von 11880.com, gelbeseiten.de, dasoertliche.de, dastelefonbuch.de, cylex.de, meinestadt.de, creditreform.de, facebook.com, instagram.com, golocal.de, my-hammer.de, northdata.de, firmenwissen.de, werkenntdenbesten.de, yelp.de, trustlocal.de, wlw.de: nur hofladen-bauernladen.info, mein-bauernhof.de, ebersberg.de und fremde Treffer (obsthof-sehringer.jimdofree.com = anderer Betrieb) – keine eigene Domain.",
+    "(2) Telefonsuche „08092 22103“ (gleiche Ausschlüsse): nur ebersberg.de (Regionale Vermarktung) – keine Website genannt.",
+    "(3) Domainprüfung: laut Vorprüfung (Hauptagent) negativ.",
+    "(4) Impressum-Suche: laut Vorprüfung negativ; zusätzliche Suche „Obsthof Seidinger Maria Seidinger Rinding 22 E-Mail“ zeigte nur Verzeichnisse, kein Impressum.",
+    "(5) Verzeichnisse: Website-Feld leer; E-Mail ist Freemail laurenzius_ich@yahoo.de (starkes Indiz).",
+    "(6) Kein Google-/Maps-Treffer mit Website-Feld gefunden (Google-Eintrag selbst nicht belegt)."
+  ],
+  "facts": {
+    "services": [
+      "Viele Apfelsorten",
+      "Birnen",
+      "Esskastanien",
+      "Frische Walnüsse",
+      "Eier (saisonal)",
+      "Himbeeren und Johannisbeeren zum Selberpflücken",
+      "Außerdem Fleisch, Geflügel, Gemüse, Getreide und Saft"
+    ],
+    "experience": null,
+    "praisedFor": [
+      "Vielzahl an Apfelsorten (laut Verzeichnissen)"
+    ]
+  },
+  "strategy": {
+    "audience": "Familien und Bio-Kunden aus Ebersberg, Grafing und Umgebung, die Äpfel, Obst und Beeren direkt vom Erzeuger wollen",
+    "mainService": "Bio-Äpfel in vielen Sorten, Birnen, Nüsse und Beeren zum Selberpflücken",
+    "trustSignal": "Bioland-Verband, ohne mineralische Dünger und chemische Spritzmittel",
+    "conversionGoal": "Anruf zur Terminvereinbarung für den Hofverkauf / Selbstpflücken",
+    "visualConcept": "Obstwiese im Herbst: Apfelkisten, Holz, warmes Rot und Grün"
+  },
+  "sales": {
+    "score": 6,
+    "whyGoodLead": [
+      "Nur in Verzeichnissen und der Stadt-Liste sichtbar, keine eigene Website",
+      "Yahoo-Adresse statt eigener Domain",
+      "Verkauf nur nach Anruf – eine Seite mit Sortiment und Saisonkalender spart Telefonate",
+      "Selbstpflücken und Apfelvielfalt sind ideale Website-Themen"
+    ],
+    "pitch": "Grüß Gott Frau Seidinger, mein Name ist … – ich gestalte Websites für Höfe im Landkreis Ebersberg. Ihren Bioland-Obsthof in Rinding habe ich auf der Liste der Stadt Ebersberg gefunden: viele Apfelsorten, Beeren zum Selberpflücken – aber noch keine eigene Seite. Ich habe unverbindlich einen Entwurf vorbereitet. Darf ich ihn Ihnen zeigen?"
+  },
+  "manualChecks": [
+    "Website-Risiko: mittel – vor Versand in Google Maps prüfen, dass keine Website hinterlegt ist (Grund: Freemail yahoo.de und Website-Prüfungen negativ, aber Google-Eintrag nicht belegt)",
+    "E-Mail laurenzius_ich@yahoo.de stammt aus einem Hofladen-Verzeichnis – Aktualität prüfen",
+    "Wochenmärkte (Grafing, Ebersberg, Erding, Dachau laut einem Verzeichnis) bestätigen – im Entwurf nicht verwendet",
+    "Sortiment Fleisch/Geflügel/Gemüse/Getreide/Saft bestätigen (Verzeichnis-Angabe) – im Hero nicht verwendet",
+    "Selbstpflück-Zeiten für Himbeeren/Johannisbeeren erfragen"
+  ],
+  "sources": [
+    {
+      "label": "hofladen-bauernladen.info – Obsthof Seidinger",
+      "url": "https://hofladen-bauernladen.info/adressen/ebersberg-rinding-obsthof-seidinger__2335.php"
+    },
+    {
+      "label": "mein-bauernhof.de – Obsthof Seidinger",
+      "url": "https://mein-bauernhof.de/verkaufstelle/obsthof-seidinger-778974"
+    },
+    {
+      "label": "mein-bauernhof.de – Obsthof Seidinger (Vorprüfung)",
+      "url": "https://www.mein-bauernhof.de/verkaufstelle/obsthof-seidinger-866183/"
+    },
+    {
+      "label": "Stadt Ebersberg – Regionale Vermarktung",
+      "url": "https://ebersberg.de/de/handel-gewerbe/landwirtschaft/regionale-vermarktung.html"
+    }
+  ],
+  "site": {
+    "theme": "hof",
+    "category": "hof",
+    "scene": "farm",
+    "heroOffer": [
+      "Äpfel",
+      "Birnen",
+      "Walnüsse",
+      "Kastanien",
+      "Beeren selbst pflücken",
+      "Bioland"
+    ],
+    "hours": [
+      {
+        "label": "Hofverkauf",
+        "value": "nach telefonischer Vereinbarung"
+      }
+    ],
+    "quote": {
+      "sizeLabel": "Was dürfen wir für Sie herrichten?",
+      "sizes": [
+        "Äpfel",
+        "Birnen",
+        "Walnüsse / Kastanien",
+        "Beeren selbst pflücken",
+        "Sonstige Frage"
+      ],
+      "timings": [
+        "Diese Woche",
+        "Nächste Woche",
+        "Zur Erntezeit",
+        "Noch offen"
+      ]
+    },
+    "badges": [
+      {
+        "title": "Bioland",
+        "sub": "Verband"
+      },
+      {
+        "title": "Viele Apfelsorten",
+        "sub": "aus eigenem Anbau"
+      },
+      {
+        "title": "Selbstpflücken",
+        "sub": "Himbeeren & Johannisbeeren"
+      },
+      {
+        "title": "Rinding 22",
+        "sub": "Ebersberg"
+      }
+    ],
+    "seoTitle": "Obsthof Seidinger in Ebersberg-Rinding – Bio-Äpfel, Nüsse & Beeren",
+    "seoDescription": "Bioland-Obsthof Seidinger in Rinding bei Ebersberg: viele Apfelsorten, Birnen, Kastanien, Walnüsse und Beeren zum Selberpflücken. Verkauf nach telefonischer Vereinbarung.",
+    "logoMark": "S",
+    "brandName": "Obsthof Seidinger",
+    "logoIcon": "barn",
+    "nav": [
+      {
+        "label": "Angebot",
+        "href": "#leistungen"
+      },
+      {
+        "label": "Hof",
+        "href": "#projekte"
+      },
+      {
+        "label": "Ablauf",
+        "href": "#ablauf"
+      },
+      {
+        "label": "Region",
+        "href": "#region"
+      },
+      {
+        "label": "FAQ",
+        "href": "#faq"
+      },
+      {
+        "label": "Kontakt",
+        "href": "#kontakt"
+      }
+    ],
+    "hero": {
+      "eyebrow": "Bioland-Obsthof · Ebersberg-Rinding",
+      "headline": "Bio-Äpfel in vielen Sorten direkt vom Obsthof in Ebersberg.",
+      "sub": "Auf dem Obsthof Seidinger in Rinding wachsen Äpfel, Birnen, Kastanien und Walnüsse – ohne mineralische Dünger und chemische Spritzmittel. Himbeeren und Johannisbeeren pflücken Sie selbst.",
+      "ctaPrimary": "Termin zum Einkauf vereinbaren",
+      "ctaSecondary": "Unser Obst",
+      "bullets": [
+        "Mitglied im Bioland-Verband",
+        "Beeren zum Selberpflücken",
+        "Verkauf nach Anruf"
+      ],
+      "imageLabel": "Apfelkisten vor der Obstwiese des Obsthofs Seidinger"
+    },
+    "trust": [
+      {
+        "value": "Bioland",
+        "label": "Verband"
+      },
+      {
+        "value": "Viele",
+        "label": "Apfelsorten"
+      },
+      {
+        "value": "Selbst",
+        "label": "pflücken"
+      },
+      {
+        "value": "Rinding",
+        "label": "bei Ebersberg"
+      }
+    ],
+    "servicesIntro": {
+      "headline": "Was auf unserem Hof wächst",
+      "text": "Obst und Nüsse aus eigenem Anbau – nach Bioland-Richtlinien, ohne chemische Spritzmittel."
+    },
+    "services": [
+      {
+        "title": "Äpfel",
+        "text": "Unser Hof ist bekannt für seine vielen Apfelsorten.",
+        "items": [
+          "Viele Apfelsorten",
+          "Bioland-Qualität"
+        ]
+      },
+      {
+        "title": "Birnen",
+        "text": "Saftige Birnen aus eigenem Anbau.",
+        "items": [
+          "Birnen"
+        ]
+      },
+      {
+        "title": "Kastanien & Walnüsse",
+        "text": "Im Herbst gibt es Esskastanien und frische Walnüsse.",
+        "items": [
+          "Esskastanien",
+          "Frische Walnüsse"
+        ]
+      },
+      {
+        "title": "Beeren selbst pflücken",
+        "text": "Himbeeren und Johannisbeeren können Sie bei uns selbst pflücken.",
+        "items": [
+          "Himbeeren",
+          "Johannisbeeren"
+        ]
+      },
+      {
+        "title": "Eier",
+        "text": "Zeitweise gibt es auch Eier vom Hof.",
+        "items": [
+          "Eier (saisonal)"
+        ]
+      }
+    ],
+    "why": {
+      "headline": "Warum zum Obsthof Seidinger?",
+      "points": [
+        {
+          "title": "Bioland",
+          "text": "Keine mineralischen Dünger, keine chemischen Spritzmittel."
+        },
+        {
+          "title": "Sortenvielfalt",
+          "text": "Viele Apfelsorten – vom Klassiker bis zur Rarität."
+        },
+        {
+          "title": "Selbst pflücken",
+          "text": "Ein Erlebnis für die ganze Familie."
+        },
+        {
+          "title": "Persönlich",
+          "text": "Einkauf nach kurzer Absprache am Telefon – Sie werden persönlich bedient."
+        }
+      ]
+    },
+    "reviews": {
+      "headline": "Bekannt in der Region",
+      "summary": "Der Obsthof Seidinger ist in der Liste „Regionale Vermarktung“ der Stadt Ebersberg und in Hofladen-Verzeichnissen gelistet. Kundenbewertungen zeigen wir erst nach Freigabe.",
+      "highlights": [
+        "Gelistet bei der Stadt Ebersberg",
+        "Bioland-Verband",
+        "Bekannt für viele Apfelsorten"
+      ],
+      "source": "Stadt Ebersberg",
+      "sourceUrl": "https://ebersberg.de/de/handel-gewerbe/landwirtschaft/regionale-vermarktung.html",
+      "rating": null,
+      "count": null
+    },
+    "process": {
+      "headline": "So kaufen Sie bei uns",
+      "steps": [
+        {
+          "title": "Anrufen",
+          "text": "Kurz unter 08092 22103 anrufen und einen Termin ausmachen."
+        },
+        {
+          "title": "Vorbeikommen",
+          "text": "Zum vereinbarten Termin nach Rinding 22 kommen."
+        },
+        {
+          "title": "Auswählen oder pflücken",
+          "text": "Obst und Nüsse mitnehmen oder Beeren selbst pflücken."
+        },
+        {
+          "title": "Genießen",
+          "text": "Bio-Obst frisch vom Baum."
+        }
+      ]
+    },
+    "gallery": {
+      "headline": "Ein Blick auf den Obsthof",
+      "text": "Für die Live-Version zeigen wir hier echte Bilder vom Obsthof Seidinger.",
+      "items": [
+        {
+          "title": "Obstwiese",
+          "photoNeeded": "Apfelbäume im Herbst"
+        },
+        {
+          "title": "Apfelsorten",
+          "photoNeeded": "Kisten mit verschiedenen Apfelsorten"
+        },
+        {
+          "title": "Beeren",
+          "photoNeeded": "Himbeersträucher zum Selberpflücken"
+        },
+        {
+          "title": "Nüsse",
+          "photoNeeded": "Walnüsse und Esskastanien"
+        }
+      ]
+    },
+    "region": {
+      "headline": "Ihr Obsthof bei Ebersberg",
+      "text": "Rinding liegt bei Ebersberg – aus Grafing, Kirchseeon, Steinhöring und Umgebung schnell erreichbar.",
+      "places": [
+        "Ebersberg",
+        "Rinding",
+        "Grafing bei München",
+        "Kirchseeon",
+        "Steinhöring",
+        "Emmering",
+        "Aßling"
+      ]
+    },
+    "faq": [
+      {
+        "q": "Wann kann ich einkaufen?",
+        "a": "Der Verkauf erfolgt nach telefonischer Vereinbarung unter 08092 22103."
+      },
+      {
+        "q": "Ist das Obst Bio?",
+        "a": "Ja, der Hof gehört zum Bioland-Verband – ohne mineralische Dünger und chemische Spritzmittel."
+      },
+      {
+        "q": "Kann ich selbst pflücken?",
+        "a": "Ja, Himbeeren und Johannisbeeren können Sie selbst pflücken – bitte vorher anrufen."
+      },
+      {
+        "q": "Wo finde ich den Hof?",
+        "a": "Rinding 22, 85560 Ebersberg."
+      }
+    ],
+    "contact": {
+      "headline": "Einkauf vereinbaren",
+      "text": "Rufen Sie an oder schreiben Sie uns – wir sagen Ihnen, was gerade reif ist.",
+      "topics": [
+        "Äpfel",
+        "Birnen",
+        "Nüsse",
+        "Selbstpflücken",
+        "Sonstiges"
+      ],
+      "responseNote": "Am schnellsten erreichen Sie uns telefonisch."
+    },
+    "stickyCta": "Termin vereinbaren"
+  }
+}

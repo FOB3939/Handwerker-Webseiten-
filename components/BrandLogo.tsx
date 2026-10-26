@@ -15,29 +15,64 @@ const ICONS: Record<LogoIcon, string> = {
   roof: "M2 13L12 4l10 9 M5 11v9h14v-9 M15 6V3h3v6",
 };
 
-// Selbst gestaltetes Logo (Emblem + Wortmarke) für den Entwurf. Ein vorhandenes Firmenlogo
-// des Betriebs ersetzt es in der Live-Version.
-export function Emblem({ icon, mark, size = 44, className = "" }: { icon: LogoIcon; mark: string; size?: number; className?: string }) {
+export type LogoStyle = "badge" | "ring" | "wordmark" | "block" | "tile" | "stamp";
+
+// Selbst gestaltetes Logo (Emblem + Wortmarke) für den Entwurf – je Firma ein eigener Stil
+// (lib/identity.ts). Ein vorhandenes Firmenlogo des Betriebs ersetzt es in der Live-Version.
+export function Emblem({ icon, mark, size = 44, className = "", variant = "badge" }: { icon: LogoIcon; mark: string; size?: number; className?: string; variant?: LogoStyle }) {
+  const M = "rgb(var(--muted))", A = "rgb(var(--accent))", AI = "rgb(var(--accent-ink))", D = "rgb(var(--dark))", DI = "rgb(var(--dark-ink))";
+  const two = mark.length > 1;
+  const glyph = (x: number, y: number, sc: number, color: string, w = 2.6) => (
+    <g transform={`translate(${x} ${y}) scale(${sc})`} fill="none" stroke={color} strokeWidth={w} strokeLinecap="round" strokeLinejoin="round">
+      <path className="logo-path" d={ICONS[icon]} pathLength={1} />
+    </g>
+  );
+  const letters = (x: number, y: number, fs: number, color: string) => (
+    <text x={x} y={y} textAnchor="middle" fontFamily="var(--font-display)" fontWeight="900" fontSize={fs} fill={color} letterSpacing="-0.5">{mark}</text>
+  );
   return (
     <svg width={size} height={size} viewBox="0 0 48 48" className={className} aria-hidden="true">
-      <rect x="1" y="1" width="46" height="46" rx="12" fill="rgb(var(--accent))" />
-      <rect x="1" y="1" width="46" height="46" rx="12" fill="none" stroke="rgba(255,255,255,.35)" strokeWidth="1.5" />
-      <text x={mark.length > 1 ? 21.5 : 22.5} y={mark.length > 1 ? 32 : 33} textAnchor="middle" fontFamily="var(--font-display)" fontWeight="900"
-        fontSize={mark.length > 1 ? 18 : 22} fill="rgb(var(--accent-ink))" letterSpacing="-0.5">{mark}</text>
-      <g transform="translate(29.5 4.5) scale(0.52)" fill="none" stroke="rgb(var(--accent-ink))" strokeWidth="2.6" strokeLinecap="round" strokeLinejoin="round" opacity="0.9">
-        <path d={ICONS[icon]} />
-      </g>
+      {variant === "badge" && (<>
+        <rect x="1" y="1" width="46" height="46" rx="12" fill={A} />
+        {letters(two ? 21.5 : 22.5, two ? 32 : 33, two ? 18 : 22, AI)}
+        {glyph(29.5, 4.5, 0.52, AI)}
+      </>)}
+      {variant === "ring" && (<>
+        <circle cx="24" cy="24" r="22" fill="none" stroke={A} strokeWidth="3" />
+        <circle cx="24" cy="24" r="16.5" fill={A} />
+        {glyph(14, 14, 0.85, AI, 2.4)}
+      </>)}
+      {variant === "wordmark" && glyph(4, 4, 1.65, A, 2)}
+      {variant === "block" && (<>
+        <rect x="2" y="2" width="44" height="44" fill={D} stroke={A} strokeWidth="2" />
+        {letters(24, two ? 31 : 33, two ? 20 : 25, DI)}
+        <rect x="2" y="40" width="44" height="6" fill={A} />
+      </>)}
+      {variant === "tile" && (<>
+        <rect x="2" y="2" width="21" height="21" rx="3" fill={A} />
+        <rect x="25" y="2" width="21" height="21" rx="3" fill={M} />
+        <rect x="2" y="25" width="21" height="21" rx="3" fill={M} />
+        <rect x="25" y="25" width="21" height="21" rx="3" fill={A} opacity="0.35" />
+        {letters(12.5, 18, 13, AI)}
+        {glyph(28, 28, 0.62, AI, 2.6)}
+        {glyph(5, 28, 0.62, "#fff", 2.6)}
+      </>)}
+      {variant === "stamp" && (<>
+        <path d="M24 2l19 11v22L24 46 5 35V13z" fill={A} />
+        <path d="M24 7l14.7 8.5v17L24 41 9.3 32.5v-17z" fill="none" stroke={AI} strokeWidth="1.2" opacity="0.55" />
+        {letters(24, two ? 29.5 : 31, two ? 15 : 19, AI)}
+      </>)}
     </svg>
   );
 }
 
-export default function BrandLogo({ icon, mark, name, tagline, size = 44 }: { icon: LogoIcon; mark: string; name: string; tagline: string; size?: number }) {
+export default function BrandLogo({ icon, mark, name, tagline, size = 44, variant = "badge" }: { icon: LogoIcon; mark: string; name: string; tagline: string; size?: number; variant?: LogoStyle }) {
   return (
     <span className="flex min-w-0 items-center gap-3">
-      <Emblem icon={icon} mark={mark} size={size} className="shrink-0" />
+      <Emblem icon={icon} mark={mark} size={size} className="shrink-0" variant={variant} />
       <span className="min-w-0 leading-tight">
-        <span className="block truncate font-display text-[15px] font-extrabold tracking-tight">{name}</span>
-        <span className="block truncate text-[11px] font-semibold uppercase tracking-[0.16em] text-t-muted">{tagline}</span>
+        <span className={`block truncate font-display font-extrabold tracking-tight ${variant === "wordmark" ? "text-lg" : "text-[15px]"}`}>{name}</span>
+        <span className="block truncate text-[12px] font-medium text-t-muted">{tagline}</span>
       </span>
     </span>
   );

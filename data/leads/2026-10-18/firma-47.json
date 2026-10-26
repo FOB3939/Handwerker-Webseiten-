@@ -1,0 +1,410 @@
+{
+  "id": "2026-10-18-47",
+  "slug": "oryszczak-maler-putz-penzberg",
+  "date": "2026-10-18",
+  "company": {
+    "name": "Mateusz Oryszczak",
+    "owner": "Mateusz Oryszczak",
+    "trade": "Maler-, Putz- & Trockenbauarbeiten",
+    "city": "Penzberg",
+    "address": "Poennensperchstr. 18, 82377 Penzberg",
+    "phone": "01520 6606478",
+    "email": null,
+    "serviceArea": [
+      "Penzberg",
+      "Dietramszell",
+      "Königsdorf"
+    ]
+  },
+  "listings": {
+    "google": {
+      "url": "https://www.google.com/maps/search/?api=1&query=Mateusz%20Oryszczak%20Poennensperchstr.%2018%20Penzberg",
+      "rating": null,
+      "reviews": null,
+      "evidence": "NICHT VERIFIZIERT / indirekt – Suche mit allowed_domains google.com lieferte keinen Maps-Treffer; kein Google-Spiegel (trustlocal o. ä.) mit Google-Bewertungen gefunden. Vor Kontaktaufnahme in Google Maps prüfen: Existiert ein Eintrag, und ist KEINE Website hinterlegt?"
+    },
+    "myhammer": {
+      "url": "https://www.my-hammer.de/auftragnehmer/mateusz-oryszczak",
+      "rating": null,
+      "reviews": null,
+      "evidence": "MyHammer-Profil „Profil von Mateusz Oryszczak in Penzberg“ in Suchergebnissen belegt, außerdem auf der MyHammer-Ortsliste Maler & Lackierer Penzberg. Profiltext sinngemäß: 3-Mann-Team, 20 Jahre Erfahrung; Putzarbeiten, Fassadensanierung und -dämmung, Maler- und Spachtelarbeiten; Leistungskatalog zusätzlich Trockenbau, Bodenverlegung, Stuck, Balkonsanierung. In Listen für Dietramszell/Königsdorf ohne Bewertungen geführt – Sterne/Anzahl im Penzberg-Profil nicht sicher sichtbar, daher null."
+    }
+  },
+  "websiteStatus": "keine eigene Website gefunden",
+  "websiteChecks": [
+    "(1) Namenssuchen „Mateusz Oryszczak Maler Penzberg“, „Oryszczak Malerarbeiten Profil“, „Oryszczak Penzberg“ – nur MyHammer, 11880, Cylex, Stadtbranchenbuch; keine eigene Domain, keine Baukasten-Seite",
+    "(2) Telefonsuche „01520 6606478“/„015206606478“ mit allen blocked_domains – einziger Treffer penzberg.stadtbranchenbuch.com (Verzeichnis), keine eigene Website",
+    "(3) Domainprüfung allowed_domains oryszczak.de, maler-oryszczak.de, oryszczak-bau.de, mateusz-oryszczak.de, oryszczak-maler.de, malerbetrieb-oryszczak.de, oryszczak-penzberg.de – keine Ergebnisse",
+    "(4) Impressum-Suche: nicht separat durchgeführt (Suchbudget erschöpft); keine der Namens-/Telefonsuchen zeigte ein Impressum",
+    "(5) Verzeichnisse: Cylex-Eintrag Poennensperchstr. 18, 82377 Penzberg, Mobil 015206606478, Text „Malerarbeiten, Trockenbau, Altbausanierung und Renovierung“ – laut Snippet keine Website; E-Mail nicht sichtbar (kein Freemail-Beleg)",
+    "(6) Kein Google-Maps-/Spiegel-Treffer gefunden – Website-Feld daher nicht prüfbar",
+    "Website-Risiko: mittel – alle Suchen negativ, aber kein Google-Beleg und keine Freemail"
+  ],
+  "facts": {
+    "services": [
+      "Malerarbeiten",
+      "Spachtelarbeiten",
+      "Innen- und Außenputz",
+      "Fassadensanierung und -dämmung",
+      "Trockenbau",
+      "Altbausanierung und Renovierung",
+      "Bodenverlegung",
+      "Stuckarbeiten",
+      "Balkonsanierung"
+    ],
+    "experience": "laut MyHammer-Profil 20 Jahre Erfahrung, 3-Mann-Team",
+    "praisedFor": []
+  },
+  "strategy": {
+    "audience": "Haus- und Wohnungseigentümer in Penzberg und Umgebung mit Renovierungs-, Putz- oder Fassadenvorhaben, auch Altbauten",
+    "mainService": "Maler-, Putz- und Fassadenarbeiten inkl. Sanierung",
+    "trustSignal": "Eingespieltes 3-Mann-Team mit 20 Jahren Erfahrung (Selbstangabe MyHammer)",
+    "conversionGoal": "Per WhatsApp/Telefon Fotos schicken und Angebot anfragen",
+    "visualConcept": "Ruhige Steinoptik: frisch verputzte Fassade, Spachtelstruktur im Streiflicht, solide und handwerklich"
+  },
+  "sales": {
+    "score": 6,
+    "whyGoodLead": [
+      "Kleiner Betrieb mit Mobilnummer – direkt per WhatsApp erreichbar",
+      "Keine eigene Website gefunden, nur MyHammer und Verzeichnisse",
+      "Breites Angebot (Maler, Putz, Fassade, Trockenbau, Sanierung) – viel Stoff für eine Leistungsseite",
+      "20 Jahre Erfahrung als Verkaufsargument, bisher online kaum sichtbar"
+    ],
+    "pitch": "Hallo Herr Oryszczak, ich erstelle Websites für Handwerksbetriebe rund um Penzberg. Ich habe Ihr MyHammer-Profil gesehen – Putz, Fassade, Maler- und Trockenbauarbeiten mit eingespieltem Team –, aber keine eigene Website gefunden. Ich habe unverbindlich einen Entwurf vorbereitet, der genau diese Leistungen zeigt. Darf ich Ihnen den Link schicken?"
+  },
+  "manualChecks": [
+    "RESERVE – weder Google-Eintrag noch Freemail-Adresse belegt: NUR versenden, wenn Google Maps einen Eintrag OHNE Website zeigt.",
+    "Website-Risiko: mittel – vor Versand in Google Maps prüfen, dass keine Website hinterlegt ist (Grund: kein Google-Eintrag gefunden, keine Freemail; alle Website-Suchen negativ)",
+    "Google-Eintrag in Maps suchen (Existenz, Bewertungen, Website-Feld)",
+    "MyHammer-Profil öffnen: Sterne/Bewertungsanzahl und Lob-Punkte nachtragen",
+    "Mobilnummer 01520 6606478 (Cylex/Stadtbranchenbuch) vor WhatsApp prüfen",
+    "Impressum-Suche (Inhaber + Penzberg) nachholen",
+    "Einsatzgebiet bestätigen – belegt nur Penzberg sowie MyHammer-Listen Dietramszell/Königsdorf",
+    "Logo und Projektfotos beim Betrieb anfragen"
+  ],
+  "sources": [
+    {
+      "label": "MyHammer – Profil Mateusz Oryszczak",
+      "url": "https://www.my-hammer.de/auftragnehmer/mateusz-oryszczak"
+    },
+    {
+      "label": "MyHammer – Maler und Lackierer in Penzberg",
+      "url": "https://www.my-hammer.de/malerarbeiten-tapezieren/maler-lackierer-berufe/penzberg"
+    },
+    {
+      "label": "MyHammer – Trockenbauer in Dietramszell",
+      "url": "https://www.my-hammer.de/trockenbau-verputzen/trockenbauer-berufe/dietramszell?page=5"
+    },
+    {
+      "label": "Cylex – Trockenbau in Penzberg (Eintrag Mateusz Oryszczak)",
+      "url": "https://web2.cylex.de/suche/trockenbau/Penzberg"
+    },
+    {
+      "label": "Cylex – Malerbetriebe in Penzberg",
+      "url": "https://web2.cylex.de/branchen/malerbetriebe-und-tapezierarbeiten/Penzberg/"
+    },
+    {
+      "label": "Stadtbranchenbuch Penzberg – Firmenverzeichnis",
+      "url": "https://penzberg.stadtbranchenbuch.com/F/firmenverzeichnis.html"
+    }
+  ],
+  "site": {
+    "theme": "stein",
+    "category": "handwerk",
+    "heroOffer": [
+      "Malerarbeiten",
+      "Innen- & Außenputz",
+      "Fassadensanierung",
+      "Trockenbau",
+      "Altbausanierung"
+    ],
+    "scene": "facade",
+    "logoIcon": "trowel",
+    "logoMark": "MO",
+    "brandName": "Mateusz Oryszczak",
+    "seoTitle": "Maler, Putz & Fassade in Penzberg – Mateusz Oryszczak",
+    "seoDescription": "Malerarbeiten, Putz, Fassadensanierung, Trockenbau und Altbausanierung in Penzberg und Umgebung. Fotos schicken und Angebot anfragen.",
+    "nav": [
+      {
+        "label": "Leistungen",
+        "href": "#leistungen"
+      },
+      {
+        "label": "Projekte",
+        "href": "#projekte"
+      },
+      {
+        "label": "Bewertungen",
+        "href": "#bewertungen"
+      },
+      {
+        "label": "Ablauf",
+        "href": "#ablauf"
+      },
+      {
+        "label": "FAQ",
+        "href": "#faq"
+      },
+      {
+        "label": "Kontakt",
+        "href": "#kontakt"
+      }
+    ],
+    "hero": {
+      "eyebrow": "Maler · Putz · Fassade · Penzberg",
+      "headline": "Maler-, Putz- und Fassadenarbeiten in Penzberg – aus einer Hand.",
+      "sub": "Mateusz Oryszczak und sein Team streichen, verputzen und sanieren – von der Innenwand bis zur gedämmten Fassade, auch im Altbau. Dazu Trockenbau und Spachtelarbeiten.",
+      "ctaPrimary": "Angebot anfragen",
+      "ctaSecondary": "Anrufen",
+      "bullets": [
+        "Eingespieltes 3-Mann-Team",
+        "Maler, Putz, Fassade und Trockenbau aus einer Hand",
+        "Sitz in Penzberg"
+      ],
+      "imageLabel": "frisch verputzte Hausfassade mit Gerüst"
+    },
+    "badges": [
+      {
+        "title": "3-Mann-Team",
+        "sub": "eingespielt"
+      },
+      {
+        "title": "Putz & Fassade",
+        "sub": "inkl. Dämmung"
+      },
+      {
+        "title": "Altbausanierung",
+        "sub": "und Renovierung"
+      },
+      {
+        "title": "Penzberg",
+        "sub": "Poennensperchstr. 18"
+      }
+    ],
+    "trust": [
+      {
+        "value": "20 J.",
+        "label": "Erfahrung laut Profil"
+      },
+      {
+        "value": "3",
+        "label": "Handwerker im Team"
+      },
+      {
+        "value": "Innen + Außen",
+        "label": "Wand, Putz, Fassade"
+      },
+      {
+        "value": "Penzberg",
+        "label": "Sitz des Betriebs"
+      }
+    ],
+    "servicesIntro": {
+      "headline": "Von der Wand bis zur Fassade",
+      "text": "Ein Team für Anstrich, Putz, Fassade und Innenausbau – damit Sie bei der Renovierung nicht mehrere Betriebe koordinieren müssen."
+    },
+    "services": [
+      {
+        "title": "Maler- & Spachtelarbeiten",
+        "text": "Saubere Anstriche und glatte, gespachtelte Flächen für Wohnräume und Treppenhäuser.",
+        "items": [
+          "Wand- und Deckenanstrich",
+          "Spachtelarbeiten",
+          "Renovierungsanstrich"
+        ]
+      },
+      {
+        "title": "Innen- & Außenputz",
+        "text": "Neuer Putz oder Ausbesserung – als Grundlage für Anstrich und Fassade.",
+        "items": [
+          "Innenputz",
+          "Außenputz",
+          "Ausbessern"
+        ]
+      },
+      {
+        "title": "Fassadensanierung & Dämmung",
+        "text": "Sanierung und Dämmung der Fassade für ein gepflegtes Haus und weniger Wärmeverlust.",
+        "items": [
+          "Fassadensanierung",
+          "Fassadendämmung",
+          "Neuer Fassadenputz"
+        ]
+      },
+      {
+        "title": "Trockenbau",
+        "text": "Wände, Verkleidungen und Ausbau mit Trockenbausystemen.",
+        "items": [
+          "Trennwände",
+          "Verkleidungen",
+          "Innenausbau"
+        ]
+      },
+      {
+        "title": "Altbausanierung & Renovierung",
+        "text": "Alte Räume und Häuser Schritt für Schritt wieder in Form bringen.",
+        "items": [
+          "Altbau",
+          "Wohnungsrenovierung",
+          "Koordination aus einer Hand"
+        ]
+      },
+      {
+        "title": "Boden, Stuck & Balkon",
+        "text": "Ergänzende Arbeiten laut Leistungskatalog – Bodenverlegung, Stuckarbeiten und Balkonsanierung.",
+        "items": [
+          "Bodenverlegung",
+          "Stuckarbeiten",
+          "Balkonsanierung"
+        ]
+      }
+    ],
+    "why": {
+      "headline": "Ein Team, das Putz und Farbe versteht.",
+      "points": [
+        {
+          "title": "Erfahrung",
+          "text": "Laut MyHammer-Profil bringt das Team rund 20 Jahre Erfahrung mit."
+        },
+        {
+          "title": "Alles aus einer Hand",
+          "text": "Maler, Putz, Fassade und Trockenbau – ein Ansprechpartner für das ganze Projekt."
+        },
+        {
+          "title": "Direkter Kontakt",
+          "text": "Sie sprechen direkt mit Mateusz Oryszczak – per Telefon oder WhatsApp."
+        },
+        {
+          "title": "Aus Penzberg",
+          "text": "Kurze Wege in Penzberg und den Nachbarorten."
+        }
+      ]
+    },
+    "reviews": {
+      "headline": "Was Kunden sagen",
+      "summary": "Mateusz Oryszczak ist auf MyHammer gelistet. Kundenstimmen werden hier eingebunden, sobald sie aus dem Profil übernommen sind.",
+      "highlights": [
+        "3-Mann-Team",
+        "Putz & Fassade",
+        "Maler & Trockenbau",
+        "Sitz in Penzberg"
+      ],
+      "source": "MyHammer",
+      "sourceUrl": "https://www.my-hammer.de/auftragnehmer/mateusz-oryszczak",
+      "rating": null,
+      "count": null
+    },
+    "process": {
+      "headline": "So läuft Ihr Projekt",
+      "steps": [
+        {
+          "title": "Anfrage",
+          "text": "Fotos und kurze Beschreibung per WhatsApp oder Telefon."
+        },
+        {
+          "title": "Besichtigung",
+          "text": "Untergrund, Umfang und Wunschergebnis vor Ort klären."
+        },
+        {
+          "title": "Angebot",
+          "text": "Klares Angebot für Maler-, Putz- oder Fassadenarbeiten."
+        },
+        {
+          "title": "Ausführung",
+          "text": "Das Team setzt um – sauber und abgestimmt."
+        }
+      ]
+    },
+    "gallery": {
+      "headline": "Projekte",
+      "text": "Für die Live-Version zeigen wir hier echte Projekte des Betriebs.",
+      "items": [
+        {
+          "title": "Fassade",
+          "photoNeeded": "sanierte, frisch verputzte Fassade"
+        },
+        {
+          "title": "Innenputz",
+          "photoNeeded": "neu verputzte Innenwand vor dem Anstrich"
+        },
+        {
+          "title": "Anstrich",
+          "photoNeeded": "frisch gestrichener Wohnraum"
+        },
+        {
+          "title": "Trockenbau",
+          "photoNeeded": "neue Trockenbauwand im Ausbau"
+        },
+        {
+          "title": "Altbau",
+          "photoNeeded": "Vorher/Nachher einer Altbausanierung"
+        }
+      ]
+    },
+    "region": {
+      "headline": "Im Einsatz rund um Penzberg",
+      "text": "Von Penzberg aus ist das Team in der Region unterwegs – auf MyHammer auch für Dietramszell und Königsdorf gelistet.",
+      "places": [
+        "Penzberg",
+        "Dietramszell",
+        "Königsdorf"
+      ]
+    },
+    "faq": [
+      {
+        "q": "Machen Sie auch Fassaden mit Dämmung?",
+        "a": "Ja, Fassadensanierung und -dämmung gehören zum Angebot."
+      },
+      {
+        "q": "Übernehmen Sie komplette Renovierungen?",
+        "a": "Ja – Maler-, Putz-, Trockenbau- und Sanierungsarbeiten lassen sich kombinieren."
+      },
+      {
+        "q": "Kann ich Fotos per WhatsApp schicken?",
+        "a": "Gern. Fotos helfen bei der ersten Einschätzung; für ein verbindliches Angebot folgt ein Termin vor Ort."
+      },
+      {
+        "q": "Arbeiten Sie auch im Altbau?",
+        "a": "Ja, Altbausanierung und Renovierung sind ein Schwerpunkt."
+      }
+    ],
+    "contact": {
+      "headline": "Angebot anfragen",
+      "text": "Beschreiben Sie kurz Ihr Vorhaben – innen oder außen, ungefähre Fläche – und schicken Sie gern Fotos mit.",
+      "topics": [
+        "Malerarbeiten",
+        "Putz",
+        "Fassadensanierung / Dämmung",
+        "Trockenbau",
+        "Altbausanierung",
+        "Sonstiges"
+      ],
+      "responseNote": "Besichtigung nach Absprache."
+    },
+    "quote": {
+      "sizeLabel": "Was steht an?",
+      "sizes": [
+        "Ein Raum",
+        "Wohnung / mehrere Räume",
+        "Fassade",
+        "Komplettsanierung"
+      ],
+      "timings": [
+        "So bald wie möglich",
+        "In den nächsten Wochen",
+        "In 1–3 Monaten",
+        "Ich plane erst noch"
+      ]
+    },
+    "stickyCta": "Angebot anfragen",
+    "look": {
+      "palette": 1,
+      "font": 1,
+      "hero": 1,
+      "services": 1,
+      "radius": 1,
+      "logo": 3,
+      "intro": 2
+    }
+  }
+}

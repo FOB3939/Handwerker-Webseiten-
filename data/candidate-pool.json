@@ -1,0 +1,257 @@
+{
+  "info": "Noch ungeprüfte Handwerker-Kandidaten aus früheren Läufen. Jeder Lauf prüft zuerst diese (oben = vielversprechend), entfernt geprüfte Einträge (angenommen → leads, verworfen → rejected in lead-history.json) und ergänzt neue Funde, für die das Suchbudget nicht reichte.",
+  "candidates": [
+    {
+      "name": "Johann Pfrieger Fliesenlegerei",
+      "trade": "Fliesen",
+      "city": "Olching",
+      "hint": "Mozartstr. 19, 08142 30919; Domain negativ; Google-/Freemail-Beleg fehlt"
+    },
+    {
+      "name": "Pedro-Bau.A3",
+      "trade": "Bau/Renovierung",
+      "city": "Wartenberg",
+      "hint": "MyHammer 14 Bewertungen; keine eigene Domain gefunden; Kontakt fehlt"
+    },
+    {
+      "name": "ISIC-hausservice",
+      "trade": "Hausmeister",
+      "city": "Freising",
+      "hint": "MyHammer 5,0 (15); Kontakt fehlt"
+    },
+    {
+      "name": "Ateş (Fliesen/Renovierung)",
+      "trade": "Fliesen",
+      "city": "Tutzing",
+      "hint": "MyHammer 4,7 (7); sonst nichts gefunden"
+    },
+    {
+      "name": "GT Fliesen (Santoro?)",
+      "trade": "Fliesen",
+      "city": "Olching",
+      "hint": "MyHammer 5,0 (19); Inhaber/Telefon fehlen"
+    },
+    {
+      "name": "Hausmeisterservice Benjamin Zeck",
+      "trade": "Hausmeister",
+      "city": "Neufahrn",
+      "hint": "nur MyHammer"
+    },
+    {
+      "name": "Lautenbacher Elektrobau",
+      "trade": "Elektro",
+      "city": "Murnau",
+      "hint": "MyHammer, ungeprüft"
+    },
+    {
+      "name": "Tk Elektrotechnik",
+      "trade": "Elektro",
+      "city": "Murnau",
+      "hint": "MyHammer, ungeprüft"
+    },
+    {
+      "name": "Andreas Waal Trockenbau",
+      "trade": "Trockenbau",
+      "city": "Penzberg",
+      "hint": "ungeprüft"
+    },
+    {
+      "name": "Attila Riegel Malermeister",
+      "trade": "Maler",
+      "city": "Miesbach",
+      "hint": "MyHammer 4,8 (16), ungeprüft"
+    },
+    {
+      "name": "LechRein GbR (Schleich)",
+      "trade": "Entrümpelung/Reinigung",
+      "city": "Kaufering",
+      "hint": "gegründet 2026; Telefon/Google fehlen"
+    },
+    {
+      "name": "Hamad Maler- und Verputzarbeiten",
+      "trade": "Maler",
+      "city": "Weilheim",
+      "hint": "sellwerk-Profil (prüfen, ob als Website gilt)"
+    },
+    {
+      "name": "Balint Innenausbau & Trockenbau",
+      "trade": "Trockenbau",
+      "city": "Fürstenfeldbruck",
+      "hint": "Ahornstr. 1 (11880), Telefon fehlt"
+    },
+    {
+      "name": "Attila Nemeth Fliesenleger",
+      "trade": "Fliesen",
+      "city": "Olching",
+      "hint": "11880 (2023)"
+    },
+    {
+      "name": "Jimmy Müller Trockenbau",
+      "trade": "Trockenbau",
+      "city": "Mammendorf",
+      "hint": "11880"
+    },
+    {
+      "name": "Christoph Niedersteiner Malewerk",
+      "trade": "Maler",
+      "city": "Markt Indersdorf",
+      "hint": "11880"
+    },
+    {
+      "name": "CL-Altbausanierung",
+      "trade": "Fliesen",
+      "city": "Karlsfeld",
+      "hint": "Richard-Wagner-Str. 13"
+    },
+    {
+      "name": "Stevo Kuzmanovic",
+      "trade": "Trockenbau/Fliesen",
+      "city": "Glonn",
+      "hint": "11880"
+    },
+    {
+      "name": "Fliesen Trybula",
+      "trade": "Fliesen/Vinyl",
+      "city": "Kirchseeon",
+      "hint": "11880"
+    },
+    {
+      "name": "NOJA Fliesen (Norman Kosch)",
+      "trade": "Fliesen",
+      "city": "Zorneding",
+      "hint": "Bahnwiesenstr. 3"
+    },
+    {
+      "name": "Fliesenleger Jürgen Pfeifer",
+      "trade": "Fliesen",
+      "city": "Grafing",
+      "hint": "08092 2321300"
+    },
+    {
+      "name": "CO Entrümpelung",
+      "trade": "Entrümpelung",
+      "city": "Ebersberg",
+      "hint": "An der Schafweide 2"
+    },
+    {
+      "name": "Allroundservice Rohleder",
+      "trade": "Entrümpelung",
+      "city": "Anzing",
+      "hint": "08121 9028712"
+    },
+    {
+      "name": "Trockenbau Rafał Mazurek",
+      "trade": "Trockenbau",
+      "city": "Windach",
+      "hint": "11880, 1×5,0"
+    },
+    {
+      "name": "Heiko Palmer Innenausbau",
+      "trade": "Trockenbau/Fliesen",
+      "city": "Landsberg",
+      "hint": "11880"
+    },
+    {
+      "name": "Montage Bau Dilmann",
+      "trade": "Trockenbau/Akustik",
+      "city": "Landsberg",
+      "hint": "11880"
+    },
+    {
+      "name": "Rene Janke Trockenbau",
+      "trade": "Trockenbau",
+      "city": "Hurlach",
+      "hint": "11880"
+    },
+    {
+      "name": "Merlin Haus- und Gartenservice",
+      "trade": "Hausmeister/Garten",
+      "city": "Schwabmünchen",
+      "hint": "08232 8079270"
+    },
+    {
+      "name": "Malerbetrieb Ratzka",
+      "trade": "Maler/Boden",
+      "city": "Penzing",
+      "hint": "08191 8271"
+    },
+    {
+      "name": "Sultan Gartenservice (Türkoglu)",
+      "trade": "Gartenpflege",
+      "city": "Isen",
+      "hint": "Mobil 0171 4745247; Einträge 2022"
+    },
+    {
+      "name": "Sezer Seymen",
+      "trade": "Trockenbau",
+      "city": "Erding",
+      "hint": "11880"
+    },
+    {
+      "name": "Dieter Sesojew Fliesenleger",
+      "trade": "Fliesen",
+      "city": "Altenerding",
+      "hint": "08122 1777975"
+    },
+    {
+      "name": "Fliesen Capriglia",
+      "trade": "Fliesen",
+      "city": "Altenerding",
+      "hint": "08122 9597503"
+    },
+    {
+      "name": "Schlenzger's Hausmeisterservice",
+      "trade": "Hausmeister",
+      "city": "Dorfen",
+      "hint": "11880"
+    },
+    {
+      "name": "Etec M. Willibald",
+      "trade": "Elektro",
+      "city": "Lenggries",
+      "hint": "Mobil 0176 41487839; Name/8 Domains negativ"
+    },
+    {
+      "name": "Fliesen und Naturstein (Tiroler Str. 4)",
+      "trade": "Fliesen",
+      "city": "Wolfratshausen",
+      "hint": "Mobil 0177 2017880"
+    },
+    {
+      "name": "Handwerker Service Oskar Pietras",
+      "trade": "Sanitär/Trockenbau",
+      "city": "Geretsried",
+      "hint": "11880"
+    },
+    {
+      "name": "Tino's Malerbetrieb",
+      "trade": "Maler",
+      "city": "Geretsried",
+      "hint": "Beethovenweg 9"
+    },
+    {
+      "name": "Isartaler Fliesenverlegung",
+      "trade": "Fliesen",
+      "city": "Geretsried",
+      "hint": "Graslitzer Str. 12"
+    },
+    {
+      "name": "Top Garten & Rasen",
+      "trade": "Gartenpflege",
+      "city": "Bad Tölz",
+      "hint": "11880"
+    },
+    {
+      "name": "Krosi GaLaBau",
+      "trade": "GaLaBau",
+      "city": "Bad Tölz",
+      "hint": "11880"
+    },
+    {
+      "name": "Svitlana Kochale Hausmeisterservice",
+      "trade": "Hausmeister",
+      "city": "Landsberg",
+      "hint": "Schongauer Str."
+    }
+  ]
+}

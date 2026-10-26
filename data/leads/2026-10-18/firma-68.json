@@ -1,0 +1,366 @@
+{
+  "id": "2026-10-18-68",
+  "slug": "sbau-galabau-oberding",
+  "date": "2026-10-18",
+  "company": {
+    "name": "Sbau Galabau",
+    "owner": null,
+    "trade": "Garten- und Landschaftsbau",
+    "city": "Oberding",
+    "address": "Freisinger Str. 76, 85445 Oberding (Schwaig)",
+    "phone": "0172 6402400",
+    "email": null,
+    "serviceArea": [
+      "Oberding",
+      "Schwaig"
+    ]
+  },
+  "listings": {
+    "google": {
+      "url": "https://www.google.com/maps/search/?api=1&query=Sbau%20Galabau%20Freisinger%20Str.%2076%20Oberding",
+      "rating": null,
+      "reviews": null,
+      "evidence": "INDIREKT / NICHT VERIFIZIERT – kein Maps-/trustlocal-Treffer gefunden. Aufnahme wegen Gmail-Adresse im 11880-Eintrag (strukturierte Daten, sichtbarer Text teils verschleiert – lokaler Teil wohl verkürzt, daher email=null) und allen negativen Website-Prüfungen. Ein Website-Feld war in keinem Eintrag zu sehen. Vor Versand in Google Maps prüfen, ob ein Eintrag existiert."
+    },
+    "myhammer": {
+      "url": "https://www.11880.com/branchenbuch/oberding/170211840B108364472/sbau-galabau.html",
+      "rating": null,
+      "reviews": null,
+      "evidence": "Kein MyHammer – Eintrag in 11880: „Sbau Galabau“, Freisinger Str. 76, 85445 Oberding (Schwaig), Tel. (0172) 6402400, E-Mail @gmail.com; Rubriken Garten- und Landschaftsbau, Gartenpflege, Gartenbau; keine Öffnungszeiten; Stand 16.05.2025. Zusätzlich aroundhome.de-Profil „J. Sbau“ an derselben Adresse (Trockenbau/Innenausbau, 4,3/5 – keine Google-Bewertung)."
+    }
+  },
+  "websiteStatus": "keine eigene Website gefunden",
+  "websiteChecks": [
+    "(1) \"Sbau Galabau\" Oberding Schwaig mit blocked_domains (11880, Gelbe Seiten, Das Örtliche, Das Telefonbuch, Cylex, meinestadt, Creditreform, Facebook, Instagram, golocal, MyHammer, Northdata, Firmenwissen, werkenntdenbesten, Yelp, trustlocal, wlw) – nur aroundhome.de-Profil „J. Sbau“ (Freisinger Str. 76, Oberding, Trockenbau/Innenausbau, kein Website-Link genannt) und fremde Betriebe (Galabau Adelsberger, Toni Dürr), keine eigene Domain",
+    "(2) Telefonsuche \"0172 6402400\"/\"01726402400\"/\"0172 640 2400\" mit blocked_domains (11880, Gelbe Seiten, Das Örtliche, Das Telefonbuch, Cylex, meinestadt, Creditreform, Facebook, Instagram, golocal, MyHammer, Northdata, Firmenwissen, werkenntdenbesten, Yelp, trustlocal, wlw) – nur Rufnummern-Auskunftsseiten (Vodafone-Block 0172-640), keine Domain",
+    "(3) Domainprüfung allowed_domains sbau.de, sbau-galabau.de, sbaugalabau.de, j-sbau.de, jsbau.de, sbau-oberding.de, galabau-sbau.de, sbau-bau.de – keine Ergebnisse",
+    "(4) Impressum-Suche Impressum \"Sbau\" Freisinger Str. 76 Oberding (blocked_domains (11880, Gelbe Seiten, Das Örtliche, Das Telefonbuch, Cylex, meinestadt, Creditreform, Facebook, Instagram, golocal, MyHammer, Northdata, Firmenwissen, werkenntdenbesten, Yelp, trustlocal, wlw)) – kein Impressum zu Sbau; Adresse laut onlinestreet.de ein Einfamilienhaus",
+    "(5) Verzeichnis 11880: kein Website-Feld, E-Mail ist Freemail (gmail.com, lokaler Teil in den Suchdaten verkürzt) – Indiz",
+    "(6) Kein Google-Spiegel/Maps-Treffer gefunden – daher kein Website-Feld prüfbar",
+    "Website-Risiko: mittel – alle Prüfungen negativ, Gmail-Domain belegt, aber Adresse nicht vollständig lesbar und kein Google-Beleg"
+  ],
+  "facts": {
+    "services": [
+      "Garten- und Landschaftsbau",
+      "Gartenpflege",
+      "Gartenbau",
+      "Pflasterarbeiten"
+    ],
+    "experience": null,
+    "praisedFor": []
+  },
+  "strategy": {
+    "audience": "Hausbesitzer und Bauherren in Oberding, Schwaig und im Landkreis Erding, die Garten und Außenanlagen anlegen oder pflegen lassen wollen",
+    "mainService": "Garten- und Landschaftsbau",
+    "trustSignal": "Direkter Kontakt per Mobilnummer – Betrieb vor Ort in Schwaig",
+    "conversionGoal": "Anfrage per WhatsApp oder Formular mit Fotos vom Garten",
+    "visualConcept": "Kräftig und handfest: Pflasterflächen, neu angelegte Beete, sauber gesetzte Kanten"
+  },
+  "sales": {
+    "score": 5,
+    "whyGoodLead": [
+      "Keine eigene Website – nur Verzeichniseinträge",
+      "Mobilnummer öffentlich – Kontakt per WhatsApp möglich",
+      "Gmail-Adresse – eigene Domain fehlt",
+      "Kleiner Betrieb ohne sichtbare Online-Präsenz gegenüber Wettbewerbern wie Galabau Adelsberger"
+    ],
+    "pitch": "Hallo, ich erstelle Websites für Handwerks- und Gartenbetriebe im Münchner Umland. Ich habe Sbau Galabau in Oberding im Branchenbuch gefunden – eine eigene Website gibt es aber noch nicht. Ich habe Ihnen unverbindlich einen Entwurf vorbereitet, über den Kunden direkt per WhatsApp anfragen können. Darf ich Ihnen den Link schicken?"
+  },
+  "manualChecks": [
+    "Website-Risiko: mittel – vor Versand in Google Maps prüfen, dass keine Website hinterlegt ist (Grund: alle Namens-/Domain-/Telefon-/Impressum-Suchen negativ, Gmail laut 11880, aber Adresse unvollständig und kein Google-Beleg)",
+    "Gewerk klären: 11880 = Garten- und Landschaftsbau; aroundhome-Profil „J. Sbau“ an derselben Adresse = Trockenbau/Innenausbau (4,3/5) – ggf. beides anbieten",
+    "Inhaber nicht belegt (nur Initiale „J.“ laut aroundhome) – Anrede vor Versand klären",
+    "Vollständige E-Mail-Adresse nicht lesbar (11880 zeigt …@gmail.com, verkürzt) – email=null",
+    "Existenz und Bewertungen des Google-Eintrags prüfen (rating/reviews aktuell null)",
+    "Pflasterarbeiten nur laut zweitem Verzeichnis (Suchsnippet) – bestätigen",
+    "Echtes Logo und Fotos: nicht gefunden – beim Betrieb anfragen"
+  ],
+  "sources": [
+    {
+      "label": "11880 – Sbau Galabau Oberding",
+      "url": "https://www.11880.com/branchenbuch/oberding/170211840B108364472/sbau-galabau.html"
+    },
+    {
+      "label": "11880 – Gartenbauer Oberding",
+      "url": "https://www.11880.com/suche/gartenbau/oberding"
+    },
+    {
+      "label": "aroundhome – J. Sbau in Oberding",
+      "url": "https://www.aroundhome.de/fachfirmen/firma/5d7fa90d1053275d35538cb2-1/"
+    },
+    {
+      "label": "onlinestreet – Freisinger Straße Oberding Schwaig",
+      "url": "https://onlinestreet.de/strassen/Freisinger+Stra%C3%9Fe.Oberding.478731.html"
+    }
+  ],
+  "site": {
+    "theme": "werk",
+    "category": "handwerk",
+    "heroOffer": [
+      "Garten- und Landschaftsbau",
+      "Gartenpflege",
+      "Gartenbau",
+      "Pflasterarbeiten",
+      "Anfrage per WhatsApp"
+    ],
+    "scene": "garden",
+    "logoIcon": "trowel",
+    "logoMark": "SG",
+    "brandName": "Sbau Galabau",
+    "seoTitle": "Garten- und Landschaftsbau in Oberding – Sbau Galabau",
+    "seoDescription": "Garten- und Landschaftsbau, Gartenpflege und Pflasterarbeiten aus Oberding-Schwaig. Direkt anfragen – auch per WhatsApp.",
+    "nav": [
+      {
+        "label": "Leistungen",
+        "href": "#leistungen"
+      },
+      {
+        "label": "Projekte",
+        "href": "#projekte"
+      },
+      {
+        "label": "Bewertungen",
+        "href": "#bewertungen"
+      },
+      {
+        "label": "Ablauf",
+        "href": "#ablauf"
+      },
+      {
+        "label": "FAQ",
+        "href": "#faq"
+      },
+      {
+        "label": "Kontakt",
+        "href": "#kontakt"
+      }
+    ],
+    "hero": {
+      "eyebrow": "Garten- & Landschaftsbau · Oberding-Schwaig",
+      "headline": "Ihr Garten- und Landschaftsbauer in Oberding – Garten, Pflege und Pflaster.",
+      "sub": "Sbau Galabau legt Gärten an, pflegt sie und übernimmt Pflasterarbeiten – in Oberding, Schwaig und Umgebung. Anfragen gehen direkt per Telefon oder WhatsApp.",
+      "ctaPrimary": "Per WhatsApp anfragen",
+      "ctaSecondary": "Anrufen",
+      "bullets": [
+        "Direkter Ansprechpartner",
+        "Anlage und Pflege aus einer Hand",
+        "Vor Ort in Schwaig"
+      ],
+      "imageLabel": "neu angelegter Garten mit Pflasterweg"
+    },
+    "badges": [
+      {
+        "title": "Galabau",
+        "sub": "Anlage & Gestaltung"
+      },
+      {
+        "title": "Pflege",
+        "sub": "Garten in Schuss"
+      },
+      {
+        "title": "WhatsApp",
+        "sub": "0172 6402400"
+      },
+      {
+        "title": "Oberding",
+        "sub": "Schwaig"
+      }
+    ],
+    "trust": [
+      {
+        "value": "4",
+        "label": "Leistungsbereiche"
+      },
+      {
+        "value": "1",
+        "label": "fester Ansprechpartner"
+      },
+      {
+        "value": "WhatsApp",
+        "label": "schnell erreichbar"
+      },
+      {
+        "value": "Oberding",
+        "label": "Landkreis Erding"
+      }
+    ],
+    "servicesIntro": {
+      "headline": "Garten anlegen, pflegen, pflastern",
+      "text": "Vom neuen Garten bis zur laufenden Pflege – abgestimmt auf Ihr Grundstück."
+    },
+    "services": [
+      {
+        "title": "Garten- und Landschaftsbau",
+        "text": "Anlage und Gestaltung von Gärten und Außenanlagen nach Absprache.",
+        "items": [
+          "Neuanlage",
+          "Umgestaltung",
+          "Beratung vor Ort"
+        ]
+      },
+      {
+        "title": "Gartenpflege",
+        "text": "Pflege Ihres Gartens, damit er ordentlich bleibt.",
+        "items": [
+          "Regelmäßige Pflege",
+          "Einmalige Einsätze",
+          "Privatgärten"
+        ]
+      },
+      {
+        "title": "Gartenbau",
+        "text": "Gartenarbeiten rund ums Haus.",
+        "items": [
+          "Gartenarbeiten",
+          "Beete",
+          "Nach Absprache"
+        ]
+      },
+      {
+        "title": "Pflasterarbeiten",
+        "text": "Pflasterflächen für Wege, Einfahrten und Terrassen.",
+        "items": [
+          "Wege",
+          "Einfahrten",
+          "Terrassen nach Absprache"
+        ]
+      }
+    ],
+    "why": {
+      "headline": "Ein Ansprechpartner für Ihren Garten.",
+      "points": [
+        {
+          "title": "Direkt erreichbar",
+          "text": "Sie sprechen direkt mit dem Betrieb – per Telefon oder WhatsApp."
+        },
+        {
+          "title": "Alles aus einer Hand",
+          "text": "Anlage, Pflege und Pflaster – Sie müssen nicht mehrere Betriebe koordinieren."
+        },
+        {
+          "title": "Aus Oberding",
+          "text": "Kurze Wege in Oberding, Schwaig und Umgebung."
+        },
+        {
+          "title": "Fotos genügen",
+          "text": "Schicken Sie Fotos – so lässt sich der Aufwand schnell einschätzen."
+        }
+      ]
+    },
+    "reviews": {
+      "headline": "Was Kunden sagen",
+      "summary": "Kundenstimmen werden hier eingebunden, sobald sie aus dem Google-Profil übernommen sind.",
+      "highlights": [
+        "Galabau",
+        "Gartenpflege",
+        "Pflaster",
+        "Oberding"
+      ],
+      "source": "Google",
+      "sourceUrl": "https://www.google.com/maps/search/?api=1&query=Sbau%20Galabau%20Freisinger%20Str.%2076%20Oberding",
+      "rating": null,
+      "count": null
+    },
+    "process": {
+      "headline": "So einfach geht's",
+      "steps": [
+        {
+          "title": "Anfrage",
+          "text": "Kurz per WhatsApp oder Telefon melden – gern mit Fotos."
+        },
+        {
+          "title": "Besichtigung",
+          "text": "Baum oder Fläche wird vor Ort angesehen."
+        },
+        {
+          "title": "Angebot",
+          "text": "Sie erhalten ein klares Angebot."
+        },
+        {
+          "title": "Ausführung",
+          "text": "Die Arbeiten werden zum vereinbarten Termin erledigt."
+        }
+      ]
+    },
+    "gallery": {
+      "headline": "Gärten aus der Region",
+      "text": "Für die Live-Version zeigen wir hier echte Projekte des Betriebs.",
+      "items": [
+        {
+          "title": "Neuanlage",
+          "photoNeeded": "neu angelegter Garten"
+        },
+        {
+          "title": "Pflasterweg",
+          "photoNeeded": "frisch verlegter Pflasterweg"
+        },
+        {
+          "title": "Pflege",
+          "photoNeeded": "gepflegter Garten mit Rasen und Beeten"
+        },
+        {
+          "title": "Vorher/Nachher",
+          "photoNeeded": "Garten vor und nach der Umgestaltung"
+        }
+      ]
+    },
+    "region": {
+      "headline": "Galabau für Oberding und Umgebung",
+      "text": "Von Oberding-Schwaig aus ist Sbau Galabau in der Region rund um Oberding im Einsatz.",
+      "places": [
+        "Oberding",
+        "Schwaig"
+      ]
+    },
+    "faq": [
+      {
+        "q": "Kann ich per WhatsApp anfragen?",
+        "a": "Ja, unter 0172 6402400 – am besten gleich mit ein paar Fotos."
+      },
+      {
+        "q": "Übernehmen Sie auch die Gartenpflege?",
+        "a": "Ja, neben Garten- und Landschaftsbau gehört auch die Gartenpflege dazu."
+      },
+      {
+        "q": "Machen Sie Pflasterarbeiten?",
+        "a": "Fragen Sie einfach an – Umfang und Termin werden individuell abgestimmt."
+      }
+    ],
+    "contact": {
+      "headline": "Jetzt unverbindlich anfragen",
+      "text": "Beschreiben Sie kurz Ihr Vorhaben. Fotos helfen bei der Einschätzung.",
+      "topics": [
+        "Garten- und Landschaftsbau",
+        "Gartenpflege",
+        "Pflasterarbeiten",
+        "Sonstiges"
+      ],
+      "responseNote": "Antwort per Telefon oder WhatsApp."
+    },
+    "quote": {
+      "sizeLabel": "Worum geht es?",
+      "sizes": [
+        "Kleiner Garten",
+        "Großer Garten",
+        "Pflasterfläche",
+        "Pflege"
+      ],
+      "timings": [
+        "So bald wie möglich",
+        "In den nächsten Wochen",
+        "Regelmäßig",
+        "Ich plane erst noch"
+      ]
+    },
+    "stickyCta": "WhatsApp-Anfrage",
+    "look": {
+      "palette": 0,
+      "font": 13,
+      "hero": 1,
+      "services": 2,
+      "radius": 0,
+      "logo": 5,
+      "intro": 0
+    }
+  }
+}

@@ -1,0 +1,403 @@
+{
+  "id": "2026-10-18-19",
+  "slug": "reitstall-schuetz-sauerlach",
+  "date": "2026-10-18",
+  "company": {
+    "name": "Reitstall Schütz",
+    "owner": "Rudolf Georg Schütz sen.",
+    "trade": "Pferdepension & Reitstall",
+    "city": "Sauerlach (Lanzenhaar)",
+    "address": "Münchener Straße 138, 82054 Sauerlach",
+    "phone": "08104 1746",
+    "email": null,
+    "serviceArea": [
+      "Sauerlach",
+      "Lanzenhaar",
+      "Arget",
+      "Oberhaching",
+      "Straßlach-Dingharting",
+      "Brunnthal",
+      "Otterfing",
+      "Grünwald"
+    ]
+  },
+  "listings": {
+    "google": {
+      "url": "https://www.google.com/maps/search/?api=1&query=Reitstall%20Sch%C3%BCtz%20Lanzenhaar%20Sauerlach",
+      "rating": null,
+      "reviews": null,
+      "evidence": "NICHT VERIFIZIERT – Google Maps aus der Recherche-Umgebung nicht erreichbar. Ein Waze-Eintrag „Reitstall Schütz, Lanzenhaar“ (Place-ID ChIJVahkN7LnnUcRrG-XPF4tfC4) existiert; ein Drittportal (team-dynamite.de) nennt 4,8/5 bei 20 Bewertungen – Herkunft unklar, daher nicht übernommen. Vor Kontakt manuell prüfen."
+    },
+    "myhammer": {
+      "url": "https://www.stall-frei.de/stall/bayern/sauerlach/122807",
+      "rating": null,
+      "reviews": null,
+      "evidence": "Kein MyHammer – Eintrag „Reitstall Schütz“ auf stall-frei.de: Münchener Straße 138, 82054 Sauerlach, Freizeitstall mit Vollpension, 50 Einstellplätze, Paddock, Reithalle, Reitplatz, Sommer- und Winterweide, Sattelkammer, Waschplatz mit Pferdedusche, Hängerparkplatz; Preise auf Anfrage. Zusätzlich trabland.de („Reitschule Schütz“, Reitschule mit Pensionsbetrieb) und pferdeundreiter.com (Rudolf Georg Schütz sen.). Keine Website im Eintrag, keine Bewertung übernommen."
+    }
+  },
+  "websiteStatus": "keine eigene Website gefunden",
+  "websiteChecks": [
+    "(1) „Reitstall Schütz Sauerlach“ mit Ausschluss von 11880.com, gelbeseiten.de, dasoertliche.de, dastelefonbuch.de, cylex.de, meinestadt.de, creditreform.de, facebook.com, instagram.com, golocal.de: nur Portale (stall-frei.de, pferdeundreiter.com, infobel, team-dynamite, muenchen-online, firma-24, Waze) – keine eigene Domain.",
+    "(2) Domainprüfung per allowed_domains reitstall-schuetz.de, reitstall-schütz.de, reitstall-schuetz-sauerlach.de, reitstall-lanzenhaar.de, schuetz-reitstall.de, reitanlage-schuetz.de, pferdebetrieb-schuetz.de: keine Treffer.",
+    "(3) „Schütz Lanzenhaar Münchener Straße 138“ zusätzlich ohne stall-frei, infobel, team-dynamite, Waze, firma-24: nur trabland.de, Branchenbücher (stadtbranchenbuch, branchen-info, deutschebiz), stallbewertung.de und die Website des Reitvereins rg-strasslach.de, der seit 06/2019 am Stall ansässig ist – keine Website des Stalls selbst.",
+    "(4) Ein Verzeichnis nennt als „Website“ nur www.stall-frei.de; keine E-Mail-Adresse des Betriebs auffindbar."
+  ],
+  "facts": {
+    "services": [
+      "Pensionspferdehaltung (Vollpension)",
+      "Reithalle und Reitplatz",
+      "Paddocks sowie Sommer- und Winterweide",
+      "Reitunterricht / Reitschule",
+      "Sattelkammer, Waschplatz mit Pferdedusche",
+      "Parkplatz für Pferdeanhänger"
+    ],
+    "experience": null,
+    "praisedFor": []
+  },
+  "strategy": {
+    "audience": "Freizeitreiter und Pferdebesitzer im südlichen Landkreis München (Sauerlach, Oberhaching, Straßlach, Brunnthal), die einen Pensionsplatz mit Halle und Weide suchen; Reitschüler mit Grundkenntnissen",
+    "mainService": "Pferdepension (Vollpension) mit Reithalle, Paddocks und Weide",
+    "trustSignal": "Etablierter Stall mit 50 Einstellplätzen, Reithalle und Weidegang; Heimat der Reitergemeinschaft München-Solln-Straßlach",
+    "conversionGoal": "Boxenanfrage per Telefon / Formular, Besichtigungstermin",
+    "visualConcept": "Kraftvoll und bodenständig: dunkles Holz, Sand der Reithalle, sattes Weidegrün, Hofszene mit Stall und Koppel"
+  },
+  "sales": {
+    "score": 6,
+    "whyGoodLead": [
+      "Nur in Stall- und Branchenportalen sichtbar, keine eigene Website",
+      "Boxenanfragen laufen heute über Portale wie stall-frei.de – eine eigene Seite mit Ausstattung und Anfrageformular spart Telefonate",
+      "Gute Ausstattung (Halle, Platz, Paddocks, Weide) lässt sich mit Fotos überzeugend zeigen",
+      "Lage zwischen München und Holzkirchen – hohe Nachfrage nach Pensionsplätzen im Münchner Süden"
+    ],
+    "pitch": "Grüß Gott Herr Schütz, mein Name ist … – ich gestalte Websites für Höfe und Reitställe im Münchner Süden. Ihren Stall in Lanzenhaar habe ich auf stall-frei.de gefunden: Vollpension, Reithalle, Paddocks und Weide – genau das, was Pferdebesitzer suchen. Eine eigene Seite, auf der man Ausstattung und Boxenanfrage auf einen Blick hat, gibt es aber noch nicht. Ich habe unverbindlich einen Entwurf vorbereitet. Darf ich ihn Ihnen kurz zeigen?"
+  },
+  "manualChecks": [
+    "Website-Risiko: mittel – vor Versand in Google Maps prüfen, dass keine Website hinterlegt ist (Grund: keine Freemail-Adresse belegt; Reitverein rg-strasslach.de ist am Stall ansässig und könnte als Website hinterlegt sein)",
+    "Größe prüfen: 50 Einstellplätze – mittelgroßer Betrieb; Inhaberstruktur (Familie Schütz, sen./jun.) bestätigen",
+    "Telefon klären: 08104 1746 (Festnetz, mehrere Verzeichnisse) vs. 0172 2433375 (Waze/team-dynamite)",
+    "Bewertungen prüfen: stallbewertung.de nennt 2,9/5 aus 8 Bewertungen (teils alt), team-dynamite 4,8/5 aus 20 – im Entwurf bewusst keine Bewertung genannt",
+    "Reitunterricht: laut Reitverein derzeit nur für Reiter, die in allen drei Gangarten sicher sind; Anfängerunterricht nur bedingt – Angebot vor Live-Gang bestätigen",
+    "Freie Boxen und Preise (laut Portal „auf Anfrage“, teils „wenig frei“) beim Inhaber erfragen"
+  ],
+  "sources": [
+    {
+      "label": "stall-frei.de – Reitstall Schütz",
+      "url": "https://www.stall-frei.de/stall/bayern/sauerlach/122807"
+    },
+    {
+      "label": "trabland.de – Reitschule Schütz",
+      "url": "https://www.trabland.de/reitschule-schuetz"
+    },
+    {
+      "label": "pferdeundreiter.com – Rudolf Georg Schütz sen.",
+      "url": "https://www.pferdeundreiter.com/rudolf_georg_schuetz_sen"
+    },
+    {
+      "label": "Reitergemeinschaft München-Solln-Straßlach – Kontakt",
+      "url": "https://rg-strasslach.de/kontakt/"
+    },
+    {
+      "label": "stallbewertung.de – Reitstall Schütz",
+      "url": "https://www.stallbewertung.de/reitstall-sch-tz"
+    },
+    {
+      "label": "Waze – Reitstall Schütz, Lanzenhaar",
+      "url": "https://www.waze.com/live-map/directions/de/by/sauerlach/reitstall-schutz,-lanzenhaar?to=place.ChIJVahkN7LnnUcRrG-XPF4tfC4"
+    }
+  ],
+  "site": {
+    "theme": "werk",
+    "category": "hof",
+    "scene": "farm",
+    "heroOffer": [
+      "Vollpension",
+      "Reithalle",
+      "Paddocks",
+      "Weide",
+      "Reitunterricht"
+    ],
+    "quote": {
+      "sizeLabel": "Wofür interessieren Sie sich?",
+      "sizes": [
+        "Pensionsplatz (Vollpension)",
+        "Box mit Paddock",
+        "Reitunterricht",
+        "Besichtigung",
+        "Sonstige Frage"
+      ],
+      "timings": [
+        "So bald wie möglich",
+        "In 1–3 Monaten",
+        "Ab Frühjahr",
+        "Noch offen"
+      ]
+    },
+    "badges": [
+      {
+        "title": "50 Einstellplätze",
+        "sub": "Pferdepension"
+      },
+      {
+        "title": "Reithalle",
+        "sub": "und Reitplatz"
+      },
+      {
+        "title": "Sommer- & Winterweide",
+        "sub": "plus Paddocks"
+      },
+      {
+        "title": "Lanzenhaar",
+        "sub": "Münchener Straße 138"
+      }
+    ],
+    "seoTitle": "Reitstall Schütz in Sauerlach-Lanzenhaar – Pferdepension mit Halle & Weide",
+    "seoDescription": "Pferdepension mit Vollpension, Reithalle, Reitplatz, Paddocks sowie Sommer- und Winterweide: Reitstall Schütz in Lanzenhaar bei Sauerlach. Jetzt Boxenanfrage stellen.",
+    "logoMark": "S",
+    "brandName": "Reitstall Schütz",
+    "logoIcon": "horseshoe",
+    "nav": [
+      {
+        "label": "Angebot",
+        "href": "#leistungen"
+      },
+      {
+        "label": "Hof",
+        "href": "#projekte"
+      },
+      {
+        "label": "Ablauf",
+        "href": "#ablauf"
+      },
+      {
+        "label": "Region",
+        "href": "#region"
+      },
+      {
+        "label": "FAQ",
+        "href": "#faq"
+      },
+      {
+        "label": "Kontakt",
+        "href": "#kontakt"
+      }
+    ],
+    "hero": {
+      "eyebrow": "Reitstall · Sauerlach-Lanzenhaar",
+      "headline": "Pferdepension mit Halle, Paddock und Weide – in Lanzenhaar.",
+      "sub": "Vollpension für Ihr Pferd zwischen München und Holzkirchen: Reithalle, Reitplatz, Paddocks und Weidegang im Sommer wie im Winter. Dazu Reitunterricht im Stall der Familie Schütz.",
+      "ctaPrimary": "Boxenanfrage stellen",
+      "ctaSecondary": "Ausstattung ansehen",
+      "bullets": [
+        "Vollpension mit Weidegang",
+        "Reithalle & Reitplatz",
+        "Waschplatz mit Pferdedusche"
+      ],
+      "imageLabel": "Pferde auf der Koppel vor dem Stall in Lanzenhaar"
+    },
+    "trust": [
+      {
+        "value": "50",
+        "label": "Einstellplätze"
+      },
+      {
+        "value": "Halle + Platz",
+        "label": "bei jedem Wetter reiten"
+      },
+      {
+        "value": "Sommer & Winter",
+        "label": "Weidegang"
+      },
+      {
+        "value": "Lanzenhaar",
+        "label": "bei Sauerlach"
+      }
+    ],
+    "servicesIntro": {
+      "headline": "Unser Angebot für Pferd und Reiter",
+      "text": "Ein Stall, in dem Pferde Pferd sein dürfen und Reiter alles finden, was sie für den Alltag brauchen – von der Halle bis zum Hängerparkplatz."
+    },
+    "services": [
+      {
+        "title": "Vollpension",
+        "text": "Rundum versorgt: Ihr Pferd steht in Vollpension – Fütterung und Stallarbeit übernimmt der Hof.",
+        "items": [
+          "Vollpension",
+          "Einstellplätze auf Anfrage",
+          "Besichtigung nach Termin"
+        ]
+      },
+      {
+        "title": "Paddocks",
+        "text": "Bewegung und frische Luft auch zwischen den Weidezeiten.",
+        "items": [
+          "Paddock",
+          "Auslauf"
+        ]
+      },
+      {
+        "title": "Sommer- & Winterweide",
+        "text": "Weidegang gehört bei uns zum ganzen Jahr – nicht nur zur grünen Saison.",
+        "items": [
+          "Sommerweide",
+          "Winterweide"
+        ]
+      },
+      {
+        "title": "Reithalle & Reitplatz",
+        "text": "Trainieren Sie unabhängig vom Wetter – in der Halle oder draußen auf dem Platz.",
+        "items": [
+          "Reithalle",
+          "Reitplatz"
+        ]
+      },
+      {
+        "title": "Reitunterricht",
+        "text": "Unterricht im Stall – für Reiter, die ihre Grundlagen sicher beherrschen und weiterkommen möchten.",
+        "items": [
+          "Reitunterricht",
+          "Probestunde nach Absprache"
+        ]
+      },
+      {
+        "title": "Rund ums Putzen & Parken",
+        "text": "Kleine Dinge, die den Stallalltag leichter machen.",
+        "items": [
+          "Sattelkammer",
+          "Waschplatz mit Pferdedusche",
+          "Parkplatz für Pferdeanhänger"
+        ]
+      }
+    ],
+    "why": {
+      "headline": "Warum Reiter zu uns kommen",
+      "points": [
+        {
+          "title": "Alles an einem Ort",
+          "text": "Halle, Platz, Paddocks und Weide – Sie brauchen für Training und Auslauf nicht woandershin."
+        },
+        {
+          "title": "Weide das ganze Jahr",
+          "text": "Sommer- und Winterweide sorgen für Bewegung und Abwechslung über alle Jahreszeiten."
+        },
+        {
+          "title": "Durchdachte Ausstattung",
+          "text": "Sattelkammer, Waschplatz mit Pferdedusche und Hängerparkplatz direkt am Stall."
+        },
+        {
+          "title": "Gut erreichbar",
+          "text": "Münchener Straße 138 in Lanzenhaar – schnell da aus Sauerlach, Oberhaching, Straßlach und dem Münchner Süden."
+        }
+      ]
+    },
+    "reviews": {
+      "headline": "Bekannt in der Reiterszene",
+      "summary": "Der Reitstall Schütz ist auf stall-frei.de, trabland.de und pferdeundreiter.com gelistet; seit 2019 ist hier außerdem die Reitergemeinschaft München-Solln-Straßlach zu Hause. Kundenbewertungen zeigen wir erst nach Freigabe.",
+      "highlights": [
+        "Eintrag bei stall-frei.de",
+        "Gelistet als Reitschule mit Pensionsbetrieb (trabland.de)",
+        "Heimat einer Reitergemeinschaft seit 2019",
+        "Halle, Platz, Paddocks und Weide"
+      ],
+      "source": "stall-frei.de",
+      "sourceUrl": "https://www.stall-frei.de/stall/bayern/sauerlach/122807",
+      "rating": null,
+      "count": null
+    },
+    "process": {
+      "headline": "So kommt Ihr Pferd zu uns",
+      "steps": [
+        {
+          "title": "Anfrage stellen",
+          "text": "Rufen Sie an oder nutzen Sie das Formular – kurz zu Pferd, Wunschtermin und Haltungsform."
+        },
+        {
+          "title": "Stall besichtigen",
+          "text": "Sie schauen sich Boxen, Paddocks, Halle und Weiden in Ruhe vor Ort an."
+        },
+        {
+          "title": "Details klären",
+          "text": "Freie Plätze, Preis und Einzug besprechen wir persönlich."
+        },
+        {
+          "title": "Einziehen",
+          "text": "Ihr Pferd zieht ein – und Sie können sich aufs Reiten konzentrieren."
+        }
+      ]
+    },
+    "gallery": {
+      "headline": "Ein Blick in den Stall",
+      "text": "Für die Live-Version zeigen wir hier echte Bilder vom Reitstall Schütz in Lanzenhaar.",
+      "items": [
+        {
+          "title": "Stallgasse",
+          "photoNeeded": "Stallgasse mit Boxen"
+        },
+        {
+          "title": "Reithalle",
+          "photoNeeded": "Reithalle von innen, gern mit Reiter"
+        },
+        {
+          "title": "Paddocks",
+          "photoNeeded": "Pferde im Paddock"
+        },
+        {
+          "title": "Weide",
+          "photoNeeded": "Pferde auf der Sommerweide"
+        },
+        {
+          "title": "Waschplatz",
+          "photoNeeded": "Waschplatz mit Pferdedusche und Sattelkammer"
+        }
+      ]
+    },
+    "region": {
+      "headline": "Ihr Pensionsstall im Münchner Süden",
+      "text": "Lanzenhaar liegt zwischen Sauerlach und Oberhaching – aus Arget, Straßlach-Dingharting, Brunnthal, Otterfing und Grünwald ist der Stall schnell erreicht.",
+      "places": [
+        "Sauerlach",
+        "Lanzenhaar",
+        "Arget",
+        "Oberhaching",
+        "Straßlach-Dingharting",
+        "Brunnthal",
+        "Otterfing",
+        "Grünwald"
+      ]
+    },
+    "faq": [
+      {
+        "q": "Sind gerade Boxen frei?",
+        "a": "Das ändert sich laufend. Rufen Sie am besten unter 08104 1746 an oder stellen Sie eine Boxenanfrage über das Formular."
+      },
+      {
+        "q": "Welche Haltungsform bieten Sie an?",
+        "a": "Pensionspferde stehen bei uns in Vollpension, mit Paddock sowie Sommer- und Winterweide."
+      },
+      {
+        "q": "Gibt es eine Reithalle?",
+        "a": "Ja – zusätzlich zum Reitplatz gibt es eine Reithalle, sodass Sie auch bei schlechtem Wetter reiten können."
+      },
+      {
+        "q": "Bieten Sie Reitunterricht an?",
+        "a": "Ja, im Stall wird Reitunterricht angeboten. Welche Stunden aktuell frei sind und für welches Niveau, klären wir gern am Telefon."
+      },
+      {
+        "q": "Kann ich meinen Pferdeanhänger am Stall abstellen?",
+        "a": "Ja, ein Parkplatz für Pferdeanhänger ist vorhanden."
+      }
+    ],
+    "contact": {
+      "headline": "Boxenanfrage & Besichtigung",
+      "text": "Sie suchen einen Pensionsplatz oder möchten den Stall kennenlernen? Melden Sie sich – wir vereinbaren gern einen Termin.",
+      "topics": [
+        "Pensionsplatz",
+        "Box mit Paddock",
+        "Reitunterricht",
+        "Besichtigung",
+        "Sonstiges"
+      ],
+      "responseNote": "Am schnellsten erreichen Sie uns telefonisch."
+    },
+    "stickyCta": "Boxenanfrage stellen"
+  }
+}

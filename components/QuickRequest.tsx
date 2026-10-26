@@ -4,6 +4,8 @@ interface Props {
   sizes: string[];
   timings: string[];
   compact?: boolean;
+  title?: string;
+  firstQuestion?: string;
 }
 
 const STEPS = ["Leistung", "Umfang", "Zeitraum", "Kontakt"];
@@ -15,16 +17,16 @@ const inputCls =
 
 // Mehrstufige Schnellanfrage („Angebot in 60 Sekunden“). Gesteuert vom Skript in Enhance.tsx;
 // im Entwurf werden keine Daten verschickt.
-export default function QuickRequest({ services, sizeLabel, sizes, timings, compact = false }: Props) {
+export default function QuickRequest({ services, sizeLabel, sizes, timings, compact = false, title = "Angebot in 60 Sekunden", firstQuestion = "Was dürfen wir für Sie tun?" }: Props) {
   const groups = [
-    { q: "Was dürfen wir für Sie tun?", o: services },
+    { q: firstQuestion, o: services },
     { q: sizeLabel, o: sizes },
     { q: "Wann soll es losgehen?", o: timings },
   ];
   return (
     <div data-qr className={`rounded-t bg-t-surface text-t-ink shadow-2xl ring-1 ring-t-line ${compact ? "p-5" : "p-6 sm:p-8"}`}>
       <div className="flex items-center justify-between gap-3">
-        <p className="font-display text-lg font-bold">Angebot in 60 Sekunden</p>
+        <p className="font-display text-lg font-bold">{title}</p>
         <p className="text-xs font-semibold text-t-muted" data-qr-count>Schritt 1 von 4</p>
       </div>
       <div className="mt-3 grid grid-cols-4 gap-1.5" aria-hidden="true">

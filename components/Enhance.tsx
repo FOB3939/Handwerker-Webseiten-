@@ -1,3 +1,6 @@
+import { readFileSync } from "node:fs";
+import { join } from "node:path";
+
 // Kleines Inline-Skript für die interaktiven Teile des Entwurfs. Bewusst ohne React-Hydration,
 // damit es auch in den eigenständigen Exporten (Vorschau-Dateien, Artifacts) funktioniert.
 const script = `(function(){
@@ -48,8 +51,47 @@ document.querySelectorAll("[data-qr]").forEach(function(w){
 document.querySelectorAll("form[data-contact]").forEach(function(f){
   f.addEventListener("submit",function(e){e.preventDefault();if(!f.reportValidity())return;f.hidden=true;f.parentNode.querySelector("[data-contact-done]").hidden=false;});
 });
+
+/* Motion (motion.dev, MIT): weiche Feder-Animationen, falls die Bibliothek geladen ist. */
+var M=window.Motion,fine=window.matchMedia&&window.matchMedia("(pointer: fine)").matches;
+if(M&&!reduce){
+  function split(el){var out=[];[].slice.call(el.childNodes).forEach(function(n){
+    if(n.nodeType===3){var parts=n.textContent.split(/(\\s+)/),frag=document.createDocumentFragment();
+      parts.forEach(function(p){if(!p)return;if(/^\\s+$/.test(p)){frag.appendChild(document.createTextNode(p));return;}var s=document.createElement("span");s.className="w";s.textContent=p;frag.appendChild(s);out.push(s);});
+      el.replaceChild(frag,n);}
+    else if(n.nodeType===1){out=out.concat(split(n));}});return out;}
+  document.querySelectorAll("h1[data-split]").forEach(function(h){var w=split(h);if(!w.length)return;
+    w.forEach(function(s){s.style.opacity="0";});
+    M.animate(w,{opacity:[0,1],y:[26,0],filter:["blur(6px)","blur(0px)"]},{duration:0.8,ease:[0.22,1,0.36,1],delay:M.stagger(0.06,{startDelay:2.2})});});
+  document.querySelectorAll("main h2").forEach(function(h){if(h.closest("[data-no-split]"))return;var w=split(h);if(!w.length)return;
+    w.forEach(function(s){s.style.opacity="0";});
+    M.inView(h,function(){M.animate(w,{opacity:[0,1],y:[18,0]},{duration:0.6,ease:[0.22,1,0.36,1],delay:M.stagger(0.04,{startDelay:0.1})});},{amount:0.4});});
+  M.inView(".svc-badge",function(info){var el=info.target||info;M.animate(el,{scale:[0.4,1],rotate:[-25,0]},{type:"spring",bounce:0.5,duration:0.9,delay:0.15});},{amount:0.6});
+  if(fine){
+    document.querySelectorAll(".btn-shine").forEach(function(b){
+      b.addEventListener("pointermove",function(e){var r=b.getBoundingClientRect(),dx=e.clientX-(r.left+r.width/2),dy=e.clientY-(r.top+r.height/2);
+        M.animate(b,{x:dx*0.22,y:dy*0.35},{type:"spring",stiffness:320,damping:18});});
+      b.addEventListener("pointerleave",function(){M.animate(b,{x:0,y:0},{type:"spring",stiffness:260,damping:14});});});
+    document.querySelectorAll(".card-fx").forEach(function(c){
+      c.addEventListener("pointermove",function(e){var r=c.getBoundingClientRect(),px=(e.clientX-r.left)/r.width-0.5,py=(e.clientY-r.top)/r.height-0.5;
+        M.animate(c,{rotateY:px*6,rotateX:-py*6,transformPerspective:900},{type:"spring",stiffness:220,damping:20});});
+      c.addEventListener("pointerleave",function(){M.animate(c,{rotateY:0,rotateX:0},{type:"spring",stiffness:180,damping:16});});});
+  }
+}
 })();`;
 
+// Motion wird als Datei im Projekt mitgeliefert (vendor/, MIT-Lizenz) und inline eingebettet,
+// damit die Animationen auch in exportierten Seiten ohne fremden Server laufen.
+const motion = readFileSync(join(process.cwd(), "vendor/motion-11.11.17.min.js"), "utf8");
+// Mitmach-Spiel je Gewerk (eigener Code, ohne Abhängigkeiten)
+const game = readFileSync(join(process.cwd(), "assets/trade-game.js"), "utf8");
+
 export default function Enhance() {
-  return <script id="demo-enhance" dangerouslySetInnerHTML={{ __html: script }} />;
+  return (
+    <>
+      <script id="demo-motion" dangerouslySetInnerHTML={{ __html: motion }} />
+      <script id="demo-enhance" dangerouslySetInnerHTML={{ __html: script }} />
+      <script id="demo-game" dangerouslySetInnerHTML={{ __html: game }} />
+    </>
+  );
 }

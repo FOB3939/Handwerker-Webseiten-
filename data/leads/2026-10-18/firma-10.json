@@ -1,0 +1,412 @@
+{
+  "id": "2026-10-18-10",
+  "slug": "hofladen-schmid-eitting",
+  "date": "2026-10-18",
+  "company": {
+    "name": "Hofladen Schmid",
+    "owner": "Wolfgang Schmid",
+    "trade": "Hofladen & Direktvermarktung",
+    "city": "Eitting",
+    "address": "Obere Hauptstraße 16, 85462 Eitting",
+    "phone": "08122 42986",
+    "email": "schmid_w@gmx.de",
+    "serviceArea": [
+      "Eitting",
+      "Reisen",
+      "Gaden",
+      "Berglern",
+      "Oberding",
+      "Erding",
+      "Langenpreising",
+      "Wartenberg"
+    ]
+  },
+  "listings": {
+    "google": {
+      "url": "https://www.google.com/maps/search/?api=1&query=Hofladen%20Schmid%20Eitting",
+      "rating": null,
+      "reviews": null,
+      "evidence": "NICHT VERIFIZIERT – Google/Google Maps war aus der Recherche-Umgebung nicht erreichbar und die Websuche lieferte keinen Maps-Treffer. Vor Kontaktaufnahme manuell prüfen."
+    },
+    "myhammer": {
+      "url": "https://www.regionales-bayern.de/anbieter/wolfgang-schmid-10577/",
+      "rating": null,
+      "reviews": null,
+      "evidence": "Kein MyHammer – Anbieterprofil „Wolfgang Schmid“ auf Regionales Bayern (Portal der Landwirtschaftsverwaltung, Region Erding/Freising) mit Adresse, Telefon 08122 42986, E-Mail schmid_w@gmx.de, Mitgliedschaft „Einkaufen auf dem Bauernhof“; zusätzlich ED-live-Branchenbuch (Eintrag 6733) und Hofladen-Seite der VR-Bank Erding. Keine Bewertungen belegt."
+    }
+  },
+  "websiteStatus": "keine eigene Website gefunden",
+  "websiteChecks": [
+    "(1) Exakter Name „Hofladen Schmid“ + Eitting: keine eigene Domain, nur Fremdtreffer (andere Schmid-Höfe, Eitting allgemein).",
+    "(2) „Hofladen Schmid Eitting Obere Hauptstraße 16“ mit Ausschluss von 11880, Gelbe Seiten, Das Örtliche, Das Telefonbuch, Cylex, meinestadt, Creditreform, Firmenwissen, Northdata, Facebook, Instagram, golocal: nur Regionales Bayern, VR-Bank Erding, ED-live, landwarenkorb.net – keine eigene Website.",
+    "(3) Inhaber/Telefon/E-Mail (Wolfgang Schmid, 08122 42986, schmid_w@gmx.de): Suche nicht ausführbar bzw. ohne Treffer auf eigener Domain.",
+    "(4) Domainprüfung per allowed_domains hofladen-schmid.de, hofladen-schmid-eitting.de, schmid-eitting.de, schmidhof-eitting.de: keine Treffer.",
+    "(5) Regionales-Bayern-Profil und VR-Bank-Hofladenseite nennen keine Website; E-Mail ist Freemail (gmx.de). ED-live zeigt einen generischen Link „Webseite“, dessen Ziel nicht sichtbar war.",
+    "(6) Sortimentssuche (Eiernudeln, Dinkelmehl, Marmelade) mit zusätzlichem Ausschluss von ED-live, VR-Bank, Regionales Bayern, Liveblatt, landwarenkorb: nur fremde Schmid-Betriebe (Allgäu, Baden-Württemberg) – nichts zu Eitting."
+  ],
+  "facts": {
+    "services": [
+      "Frische Eier",
+      "Eiernudeln",
+      "Dinkelmehl und Rapsöl",
+      "Selbst gemachte Marmeladen / Fruchtaufstriche und Säfte",
+      "Honig",
+      "Speisekartoffeln, Karotten und rote Rüben"
+    ],
+    "experience": null,
+    "praisedFor": []
+  },
+  "strategy": {
+    "audience": "Haushalte in Eitting, Berglern, Oberding und Erding, die Eier, Kartoffeln und Vorräte regelmäßig direkt beim Bauern kaufen möchten",
+    "mainService": "Hofladen mit Eiern, Eiernudeln, Kartoffeln und Hausgemachtem",
+    "trustSignal": "Mitglied bei „Einkaufen auf dem Bauernhof“, feste Öffnungszeiten, gelistet bei Regionales Bayern und VR-Bank Erding",
+    "conversionGoal": "Besuch im Hofladen zu den Öffnungszeiten / Anruf zur Vorbestellung",
+    "visualConcept": "Klar und bodenständig: helle, aufgeräumte Flächen, warmes Gelb der Eier und Nudeln, kräftiges Rot der Rüben, Hofszene mit Stall und Feld"
+  },
+  "sales": {
+    "score": 7,
+    "whyGoodLead": [
+      "Belegte, feste Öffnungszeiten und klares Sortiment – perfekte Basis für eine schnelle, nützliche Website",
+      "Eier und Kartoffeln sind Wiederholungskäufe – eine Seite mit Öffnungszeiten bindet Stammkunden",
+      "Bisher nur in Portalen sichtbar, Freemail-Adresse – keine eigene Präsenz",
+      "Eitting wächst durch die Flughafennähe; viele Neubürger suchen online nach dem nächsten Hofladen"
+    ],
+    "pitch": "Grüß Gott Herr Schmid, mein Name ist … – ich gestalte Websites für Höfe und kleine Betriebe im Landkreis Erding. Ich habe Ihren Hofladen bei Regionales Bayern und auf der Hofladen-Seite der VR-Bank gesehen – Eier, Eiernudeln, Dinkelmehl, Kartoffeln, alles direkt vom Hof. Wer in Eitting neu ist, findet Sie im Netz aber kaum. Ich habe deshalb unverbindlich eine kleine Hofladen-Seite mit Ihren Öffnungszeiten entworfen. Darf ich sie Ihnen zeigen?"
+  },
+  "manualChecks": [
+    "Website-Risiko: niedrig – vor Versand in Google Maps prüfen, dass keine Website hinterlegt ist",
+    "Ziel des generischen Links „Webseite“ im ED-live-Eintrag 6733 im Browser prüfen",
+    "Google-Unternehmensprofil prüfen (Existenz, Bewertungen, hinterlegte Website)",
+    "Öffnungszeiten (Mo, Mi, Sa 8–13 Uhr, Fr 8–18 Uhr) vor Live-Nutzung bestätigen lassen",
+    "Sortiment bestätigen: Kartoffeln/Karotten/rote Rüben nur bei Regionales Bayern, Honig/Rapsöl/Säfte nur bei ED-live genannt",
+    "Herkunft der Eier (eigene Hühner?) beim Inhaber erfragen – im Entwurf bewusst nicht behauptet"
+  ],
+  "sources": [
+    {
+      "label": "Regionales Bayern – Wolfgang Schmid",
+      "url": "https://www.regionales-bayern.de/anbieter/wolfgang-schmid-10577/"
+    },
+    {
+      "label": "ED-live Branchenbuch – Hofladen Schmid",
+      "url": "https://www.ed-live.de/branchenbuch?eintrag=6733"
+    },
+    {
+      "label": "VR-Bank Erding – Hofladen Schmid",
+      "url": "https://www.vr-bank-erding.de/bankeigen/hoflaeden/hofladen-schmid.html"
+    },
+    {
+      "label": "ED-live – Direktvermarkter im Landkreis Erding",
+      "url": "https://www.ed-live.de/region_direktvermarkter"
+    },
+    {
+      "label": "landwarenkorb.net – Hofläden Kreis Erding",
+      "url": "http://landwarenkorb.net/images/hoflaeden_direktvermarkter_deutschland_Bayern_Kreis_Erding.php"
+    }
+  ],
+  "site": {
+    "theme": "objekt",
+    "scene": "farm",
+    "quote": {
+      "sizeLabel": "Was dürfen wir für Sie herrichten?",
+      "sizes": [
+        "Eier",
+        "Eiernudeln & Dinkelmehl",
+        "Kartoffeln & Gemüse",
+        "Marmeladen, Säfte & Honig",
+        "Gemischter Einkauf"
+      ],
+      "timings": [
+        "Nächster Öffnungstag",
+        "Diese Woche",
+        "Regelmäßig (z. B. wöchentlich)",
+        "Nach Vereinbarung"
+      ]
+    },
+    "badges": [
+      {
+        "title": "Einkaufen auf dem Bauernhof",
+        "sub": "Mitgliedsbetrieb"
+      },
+      {
+        "title": "4 Tage die Woche",
+        "sub": "feste Öffnungszeiten"
+      },
+      {
+        "title": "Eier & Eiernudeln",
+        "sub": "frisch vom Hof"
+      },
+      {
+        "title": "Eitting",
+        "sub": "Obere Hauptstraße 16"
+      }
+    ],
+    "seoTitle": "Hofladen Schmid in Eitting – Eier, Nudeln & Kartoffeln vom Hof",
+    "seoDescription": "Frische Eier, Eiernudeln, Dinkelmehl, Kartoffeln und hausgemachte Marmeladen: Hofladen Schmid in Eitting bei Erding. Mo, Mi, Sa 8–13 Uhr, Fr 8–18 Uhr.",
+    "logoMark": "S",
+    "brandName": "Hofladen Schmid",
+    "logoIcon": "barn",
+    "nav": [
+      {
+        "label": "Hofladen",
+        "href": "#leistungen"
+      },
+      {
+        "label": "Hof",
+        "href": "#projekte"
+      },
+      {
+        "label": "Ablauf",
+        "href": "#ablauf"
+      },
+      {
+        "label": "Region",
+        "href": "#region"
+      },
+      {
+        "label": "FAQ",
+        "href": "#faq"
+      },
+      {
+        "label": "Kontakt",
+        "href": "#kontakt"
+      }
+    ],
+    "hero": {
+      "eyebrow": "Hofladen in Eitting · Landkreis Erding",
+      "headline": "Ehrlich vom Hof. Mitten in Eitting.",
+      "sub": "Frische Eier, Eiernudeln, Dinkelmehl, Kartoffeln und selbst gemachte Marmeladen – bei Familie Schmid kaufen Sie direkt dort, wo es entsteht. Vier Tage die Woche geöffnet.",
+      "ctaPrimary": "Jetzt anrufen",
+      "ctaSecondary": "Öffnungszeiten ansehen",
+      "bullets": [
+        "Eier & Eiernudeln",
+        "Kartoffeln, Karotten & rote Rüben",
+        "Hausgemachte Marmeladen & Säfte"
+      ],
+      "imageLabel": "Hofladen mit Eiern, Nudeln und Kartoffeln"
+    },
+    "trust": [
+      {
+        "value": "Mo · Mi · Sa",
+        "label": "8–13 Uhr geöffnet"
+      },
+      {
+        "value": "Fr",
+        "label": "8–18 Uhr geöffnet"
+      },
+      {
+        "value": "Mitglied",
+        "label": "Einkaufen auf dem Bauernhof"
+      },
+      {
+        "value": "Eitting",
+        "label": "Obere Hauptstraße 16"
+      }
+    ],
+    "servicesIntro": {
+      "headline": "Unser Hofladen-Sortiment",
+      "text": "Alles, was eine gute Küche braucht – von der Kartoffel bis zur Nudel, vom Ei bis zur Marmelade. Regional, unkompliziert und direkt vom Erzeuger."
+    },
+    "services": [
+      {
+        "title": "Frische Eier",
+        "text": "Eier für Frühstück, Kuchen und alles dazwischen – frisch im Hofladen.",
+        "items": [
+          "frische Eier",
+          "für jeden Tag",
+          "auch in größeren Mengen nach Absprache"
+        ]
+      },
+      {
+        "title": "Eiernudeln",
+        "text": "Nudeln aus Ei – die einfache Freude für den Mittagstisch.",
+        "items": [
+          "Eiernudeln",
+          "verschiedene Sorten nach Verfügbarkeit"
+        ]
+      },
+      {
+        "title": "Mehl & Öl",
+        "text": "Für Bäcker und Köche daheim: Dinkelmehl und Rapsöl.",
+        "items": [
+          "Dinkelmehl",
+          "Rapsöl"
+        ]
+      },
+      {
+        "title": "Kartoffeln & Gemüse",
+        "text": "Speisekartoffeln, Karotten und rote Rüben – Grundnahrungsmittel aus der Region.",
+        "items": [
+          "Speisekartoffeln",
+          "Karotten",
+          "rote Rüben"
+        ]
+      },
+      {
+        "title": "Marmeladen & Säfte",
+        "text": "Selbst gemachte Fruchtaufstriche und Säfte – zum Genießen und Verschenken.",
+        "items": [
+          "hausgemachte Marmeladen",
+          "Fruchtaufstriche",
+          "Säfte"
+        ]
+      },
+      {
+        "title": "Honig",
+        "text": "Honig ergänzt das Sortiment für Frühstück und Tee.",
+        "items": [
+          "Honig",
+          "regional"
+        ]
+      }
+    ],
+    "why": {
+      "headline": "Einkaufen, wie es sein sollte",
+      "points": [
+        {
+          "title": "Feste Öffnungszeiten",
+          "text": "Montag, Mittwoch und Samstag 8–13 Uhr, Freitag bis 18 Uhr – verlässlich planbar."
+        },
+        {
+          "title": "Direkt vom Erzeuger",
+          "text": "Sie kaufen beim Landwirt selbst – ohne Zwischenhandel, mit kurzem Weg."
+        },
+        {
+          "title": "Geprüftes Netzwerk",
+          "text": "Der Hof ist Mitglied bei „Einkaufen auf dem Bauernhof“, dem Verband der bayerischen Direktvermarkter."
+        },
+        {
+          "title": "Mitten im Ort",
+          "text": "Obere Hauptstraße 16 – zentral in Eitting, schnell erreichbar aus Berglern, Oberding und Erding."
+        }
+      ]
+    },
+    "reviews": {
+      "headline": "Bekannt in der Region",
+      "summary": "Der Hofladen Schmid ist bei Regionales Bayern, im ED-live-Branchenbuch und auf der Hofladen-Übersicht der VR-Bank Erding gelistet. Öffentliche Kundenbewertungen liegen derzeit nicht vor.",
+      "highlights": [
+        "Profil bei Regionales Bayern",
+        "Mitglied „Einkaufen auf dem Bauernhof“",
+        "Gelistet bei der VR-Bank Erding",
+        "Direktvermarkter im Landkreis Erding (ED-live)"
+      ],
+      "source": "Regionales Bayern",
+      "sourceUrl": "https://www.regionales-bayern.de/anbieter/wolfgang-schmid-10577/",
+      "rating": null,
+      "count": null
+    },
+    "process": {
+      "headline": "So einfach geht's",
+      "steps": [
+        {
+          "title": "Öffnungszeit wählen",
+          "text": "Mo, Mi und Sa von 8 bis 13 Uhr oder freitags bis 18 Uhr."
+        },
+        {
+          "title": "Optional vorbestellen",
+          "text": "Viele Eier für den Geburtstagskuchen oder einen Sack Kartoffeln? Kurz anrufen."
+        },
+        {
+          "title": "Vorbeikommen",
+          "text": "Obere Hauptstraße 16 in Eitting – direkt im Ort."
+        },
+        {
+          "title": "Wiederkommen",
+          "text": "Eier und Kartoffeln gehen immer – viele Kunden kommen jede Woche."
+        }
+      ]
+    },
+    "gallery": {
+      "headline": "Bei uns auf dem Hof",
+      "text": "Für die Live-Version zeigen wir hier echte Bilder vom Hof und aus dem Hofladen der Familie Schmid.",
+      "items": [
+        {
+          "title": "Hofladen",
+          "photoNeeded": "Verkaufsraum mit Regalen und Eierkartons"
+        },
+        {
+          "title": "Eiernudeln",
+          "photoNeeded": "Nudeln in Tüten, Nahaufnahme"
+        },
+        {
+          "title": "Kartoffeln",
+          "photoNeeded": "Kartoffelkisten und Feld"
+        },
+        {
+          "title": "Hausgemachtes",
+          "photoNeeded": "Marmeladengläser und Saftflaschen"
+        },
+        {
+          "title": "Der Hof",
+          "photoNeeded": "Hofansicht in Eitting"
+        }
+      ]
+    },
+    "region": {
+      "headline": "Ihr Hofladen für Eitting und Umgebung",
+      "text": "Aus Eitting, Reisen und Gaden ist man in wenigen Minuten da – und auch aus Berglern, Oberding, Erding, Langenpreising und Wartenberg lohnt sich der kurze Weg.",
+      "places": [
+        "Eitting",
+        "Reisen",
+        "Gaden",
+        "Berglern",
+        "Oberding",
+        "Erding",
+        "Langenpreising",
+        "Wartenberg"
+      ]
+    },
+    "faq": [
+      {
+        "q": "Wann hat der Hofladen geöffnet?",
+        "a": "Montag, Mittwoch und Samstag von 8 bis 13 Uhr, Freitag von 8 bis 18 Uhr. Dienstag, Donnerstag und Sonntag ist geschlossen."
+      },
+      {
+        "q": "Kann ich größere Mengen vorbestellen?",
+        "a": "Ja, rufen Sie einfach unter 08122 42986 an oder schreiben Sie an schmid_w@gmx.de."
+      },
+      {
+        "q": "Was gibt es im Hofladen?",
+        "a": "Eier, Eiernudeln, Dinkelmehl, Rapsöl, Honig, hausgemachte Marmeladen und Säfte sowie Speisekartoffeln, Karotten und rote Rüben – je nach Saison."
+      },
+      {
+        "q": "Wo finde ich den Hofladen?",
+        "a": "In der Oberen Hauptstraße 16 in 85462 Eitting."
+      },
+      {
+        "q": "Gibt es auch Geschenke?",
+        "a": "Hausgemachte Marmeladen, Säfte und Honig sind beliebte Mitbringsel – gern auch zusammengestellt nach Absprache."
+      }
+    ],
+    "contact": {
+      "headline": "Fragen oder vorbestellen",
+      "text": "Sie möchten etwas zurücklegen lassen oder wissen, was gerade da ist? Rufen Sie an oder schreiben Sie uns.",
+      "topics": [
+        "Eier",
+        "Eiernudeln",
+        "Kartoffeln & Gemüse",
+        "Mehl & Öl",
+        "Marmeladen, Säfte & Honig",
+        "Sonstiges"
+      ],
+      "responseNote": "Am schnellsten erreichen Sie uns zu den Öffnungszeiten."
+    },
+    "stickyCta": "Hofladen anrufen",
+    "category": "hof",
+    "heroOffer": [
+      "Eier",
+      "Eiernudeln",
+      "Kartoffeln",
+      "Marmeladen"
+    ],
+    "hours": [
+      {
+        "label": "Mo, Mi, Sa",
+        "value": "8–13 Uhr"
+      },
+      {
+        "label": "Fr",
+        "value": "8–18 Uhr"
+      }
+    ]
+  }
+}
