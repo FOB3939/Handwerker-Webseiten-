@@ -1,0 +1,408 @@
+{
+  "id": "2026-10-26-133",
+  "slug": "christian-kammerer-haus-gartenservice-poing",
+  "date": "2026-10-26",
+  "company": {
+    "name": "Christian Kammerer Haus & Gartenservice",
+    "owner": "Christian Kammerer",
+    "trade": "Hausmeister- & Gartenservice",
+    "city": "Poing",
+    "address": "Watzmannstr. 1, 85586 Poing",
+    "phone": "0162 6282520",
+    "email": null,
+    "serviceArea": [
+      "Poing",
+      "Grub",
+      "Pliening",
+      "Anzing",
+      "Markt Schwaben",
+      "Kirchheim bei München"
+    ]
+  },
+  "listings": {
+    "google": {
+      "url": "https://www.google.com/maps/search/?api=1&query=Christian%20Kammerer%20Haus%20%26%20Gartenservice%20Watzmannstr.%201%20Poing",
+      "rating": null,
+      "reviews": null,
+      "evidence": "NICHT BELEGT – kein Google-Spiegel gefunden (trustlocal, firmania, rgv-bayern, cybo, finde-offen, mapquest ohne Eintrag; landschaftsbau.net zeigt 0 Bewertungen). Google-Eintrag in Maps prüfen."
+    },
+    "myhammer": {
+      "url": "https://www.11880.com/branchenbuch/poing-bei-muenchen/170211846B43420518/christian-kammerer-haus-gartenservice.html",
+      "rating": null,
+      "reviews": null,
+      "evidence": "Kein MyHammer gefunden – 11880-Eintrag „Christian Kammerer Haus & Gartenservice“, Watzmannstr. 1, 85586 Poing, Tel. (08121) 772662 und (0162) 6282520, Rubriken Hausmeisterservice, Gartenbau, Garten- und Landschaftsbau, Baumpflege; Das Telefonbuch nennt 0162 6282520. Handelsregister: „Christian Kammerer Haus & Gartenservice Ihr Partner rund um's Haus e.K.“, AG München HRA 83687 (Einzelkaufmann)."
+    }
+  },
+  "websiteStatus": "keine eigene Website gefunden",
+  "websiteChecks": [
+    "(1) „Kammerer Haus- und Gartenservice Poing Watzmannstr“ mit blocked_domains (11880, Gelbe Seiten, Das Örtliche, Telefonbuch, Cylex, meinestadt, Creditreform, Facebook, Instagram, golocal, MyHammer, Northdata, Firmenwissen, WKDB, Yelp, wlw) – nur Verzeichnisse und Registerportale (landschaftsbau.net, branchen-info.net, webvalid, registercheck, openregister, goyellow, firmenschau); keine eigene Domain, kein Website-Feld",
+    "(2) Domain-Check allowed_domains kammerer-poing.de, kammerer-hausmeisterservice.de, kammerer-gartenservice.de, hausmeister-kammerer.de, kammerer-haus-garten.de, haus-gartenservice-kammerer.de (+ 11880, trustlocal, firmania, rgv-bayern) – nur 11880-Treffer, keine eigene Seite",
+    "(3) Telefonsuche „0162 6282520“/„01626282520“ – keine Treffer",
+    "(4) „Impressum Christian Kammerer Poing Haus Garten“ (ohne Register-/Verzeichnisportale) – kein eigenes Impressum, nur Verzeichnisse (Cylex, branchen-info, goyellow, freieauskunft, meinestadt)",
+    "Keine E-Mail-Adresse gefunden (auch keine Freemail); keine Bewertungen gefunden",
+    "Website-Risiko: mittel – alle vier Prüfungen negativ, aber eingetragener e.K. (seit ca. 2004 laut openregister) könnte eine Seite unter anderem Namen haben; weder Google-Eintrag noch Freemail belegt (RESERVE)"
+  ],
+  "facts": {
+    "services": [
+      "Hausmeisterservice",
+      "Gartenbau",
+      "Gartenumgestaltung",
+      "Garten- und Landschaftsbau",
+      "Baumpflege",
+      "Haus- und Grundstücksservice"
+    ],
+    "experience": null,
+    "praisedFor": []
+  },
+  "strategy": {
+    "audience": "Hausbesitzer, Eigentümergemeinschaften und Vermieter in Poing, Pliening und Anzing, die Haus und Garten in einer Hand betreut haben wollen",
+    "mainService": "Hausmeisterservice und Gartenpflege rund ums Haus",
+    "trustSignal": "Eingetragener Einzelbetrieb von Christian Kammerer mit Sitz in Poing",
+    "conversionGoal": "Kostenloses Angebot für Hausmeister- oder Gartenarbeiten anfragen (Anruf/WhatsApp/Formular)",
+    "visualConcept": "Gepflegte Reihenhausgärten und saubere Hauszugänge in Poing – grün, aufgeräumt, bodenständig"
+  },
+  "sales": {
+    "score": 3,
+    "whyGoodLead": [
+      "Keine eigene Website gefunden – nur Verzeichnis- und Registereinträge",
+      "Mobilnummer öffentlich gelistet (0162 6282520) – direkter Kontakt zum Inhaber möglich",
+      "Breites Angebot (Hausmeister, Garten, Baumpflege) – eine Website bündelt alles für Eigentümer und Verwalter",
+      "Poing wächst stark – viele Neubauten mit Gärten und Gemeinschaftsflächen"
+    ],
+    "pitch": "Grüß Gott Herr Kammerer, hier ist … – ich baue Websites für Handwerks- und Servicebetriebe im Landkreis Ebersberg. Ich habe Ihren Eintrag für Haus- und Gartenservice in Poing gefunden, aber keine eigene Website. Ich habe unverbindlich einen Entwurf vorbereitet, über den Kunden Ihre Leistungen sehen und direkt anfragen können – darf ich Ihnen den Link schicken?"
+  },
+  "manualChecks": [
+    "RESERVE – weder Google-Eintrag noch Freemail-Adresse belegt: NUR versenden, wenn Google Maps einen Eintrag OHNE Website zeigt.",
+    "Google-Eintrag in Maps suchen (Christian Kammerer Haus & Gartenservice, Watzmannstr. 1, Poing) – Existenz, Bewertungen und Website-Feld prüfen",
+    "Telefonnummern widersprüchlich: 0162 6282520 (11880, Das Telefonbuch), 0179 7450039 (branchen-info.net), Festnetz 08121 772662 (11880, landschaftsbau.net) bzw. 08121 772977 (Cylex) – vor WhatsApp-Erstkontakt klären, welche Mobilnummer aktuell ist",
+    "Leistungen nur aus Verzeichnisrubriken belegt (Hausmeisterservice, Gartenbau, Gartenumgestaltung, Baumpflege, Haus- und Grundstücksservice) – Winterdienst und Reinigung beim Betrieb bestätigen",
+    "Cylex führt den Betrieb zusätzlich unter Hausverwaltung – klären, ob das ein Angebot ist",
+    "Logo und Projektfotos: nicht gefunden – beim Betrieb anfragen"
+  ],
+  "sources": [
+    {
+      "label": "11880 – Christian Kammerer Haus & Gartenservice Poing",
+      "url": "https://www.11880.com/branchenbuch/poing-bei-muenchen/170211846B43420518/christian-kammerer-haus-gartenservice.html"
+    },
+    {
+      "label": "Das Telefonbuch – Hausmeisterdienste Christian Kammerer, Watzmannstr., Poing",
+      "url": "https://adresse.dastelefonbuch.de/Poing/1-Hausmeisterdienste-Christian-Kammerer-Poing-Watzmannstr.html"
+    },
+    {
+      "label": "landschaftsbau.net – Christian Kammerer Haus & Gartenservice Poing",
+      "url": "https://www.landschaftsbau.net/poing/christian-kammerer-haus-gartenservice-ihr-partner-rund-ums-haus-ek-aVvJGq.html"
+    },
+    {
+      "label": "openregister – HRA 83687, AG München",
+      "url": "https://openregister.de/company/DE-HRA-D2601-83687"
+    },
+    {
+      "label": "branchen-info.net – Christian Kammerer Haus & Gartenservice Poing",
+      "url": "https://poing.branchen-info.net/fp_4438077.php"
+    }
+  ],
+  "site": {
+    "theme": "garten",
+    "category": "handwerk",
+    "heroOffer": [
+      "Hausmeisterdienst",
+      "Gartenpflege",
+      "Heckenschnitt",
+      "Baumpflege",
+      "Gartengestaltung"
+    ],
+    "scene": "garden",
+    "logoIcon": "house",
+    "logoMark": "CK",
+    "brandName": "Kammerer Haus & Garten",
+    "seoTitle": "Hausmeister- & Gartenservice in Poing – Christian Kammerer",
+    "seoDescription": "Hausmeisterdienst, Gartenpflege und Baumpflege in Poing, Pliening und Anzing. Jetzt kostenloses Angebot anfragen.",
+    "nav": [
+      {
+        "label": "Leistungen",
+        "href": "#leistungen"
+      },
+      {
+        "label": "Projekte",
+        "href": "#projekte"
+      },
+      {
+        "label": "Bewertungen",
+        "href": "#bewertungen"
+      },
+      {
+        "label": "Ablauf",
+        "href": "#ablauf"
+      },
+      {
+        "label": "FAQ",
+        "href": "#faq"
+      },
+      {
+        "label": "Kontakt",
+        "href": "#kontakt"
+      }
+    ],
+    "hero": {
+      "eyebrow": "Haus & Garten · Poing",
+      "headline": "Hausmeister- und Gartenservice in Poing",
+      "sub": "Christian Kammerer kümmert sich um Haus, Garten und Grundstück – in Poing und Umgebung.",
+      "ctaPrimary": "Kostenloses Angebot anfragen",
+      "ctaSecondary": "Anrufen",
+      "bullets": [
+        "Haus und Garten in einer Hand",
+        "Inhaber direkt erreichbar",
+        "Betrieb in Poing"
+      ],
+      "imageLabel": "gepflegter Vorgarten vor einem Reihenhaus mit sauberem Hauszugang"
+    },
+    "badges": [
+      {
+        "title": "Hausmeisterdienst",
+        "sub": "rund ums Haus"
+      },
+      {
+        "title": "Gartenpflege",
+        "sub": "Rasen, Hecken, Beete"
+      },
+      {
+        "title": "Baumpflege",
+        "sub": "Schnitt und Kontrolle"
+      },
+      {
+        "title": "Poing",
+        "sub": "Watzmannstraße"
+      }
+    ],
+    "trust": [
+      {
+        "value": "Inhaber",
+        "label": "Christian Kammerer persönlich"
+      },
+      {
+        "value": "e.K.",
+        "label": "eingetragener Betrieb"
+      },
+      {
+        "value": "Haus + Garten",
+        "label": "ein Ansprechpartner"
+      },
+      {
+        "value": "Lkr. EBE",
+        "label": "kurze Anfahrt"
+      }
+    ],
+    "servicesIntro": {
+      "headline": "Haus und Garten in einer Hand",
+      "text": "Ob Kontrollgang am Haus oder Rückschnitt im Garten: Christian Kammerer übernimmt die Arbeiten, für die im Alltag die Zeit fehlt."
+    },
+    "services": [
+      {
+        "title": "Hausmeisterdienst",
+        "text": "Regelmäßige Kontrollgänge und kleine Arbeiten an Haus und Grundstück.",
+        "items": [
+          "Kontrollgänge",
+          "Kleinreparaturen",
+          "Außenanlagen"
+        ]
+      },
+      {
+        "title": "Gartenpflege",
+        "text": "Rasen, Beete und Hecken bleiben über die Saison gepflegt.",
+        "items": [
+          "Rasen mähen",
+          "Beete pflegen",
+          "Laub entfernen"
+        ]
+      },
+      {
+        "title": "Heckenschnitt",
+        "text": "Hecken und Sträucher werden in Form geschnitten, das Schnittgut kommt weg.",
+        "items": [
+          "Formschnitt",
+          "Rückschnitt",
+          "Schnittgut"
+        ]
+      },
+      {
+        "title": "Baumpflege",
+        "text": "Bäume werden fachgerecht zurückgeschnitten, damit sie gesund bleiben und nichts überhängt.",
+        "items": [
+          "Rückschnitt",
+          "Totholz",
+          "Lichtraum"
+        ]
+      },
+      {
+        "title": "Gartengestaltung",
+        "text": "Bereiche im Garten werden neu angelegt oder umgestaltet.",
+        "items": [
+          "Neu anlegen",
+          "Umgestalten",
+          "Bepflanzen"
+        ]
+      },
+      {
+        "title": "Grundstücksservice",
+        "text": "Wege, Zufahrten und Gemeinschaftsflächen bleiben ordentlich.",
+        "items": [
+          "Wege säubern",
+          "Zufahrten",
+          "Gemeinschaftsflächen"
+        ]
+      }
+    ],
+    "why": {
+      "headline": "Ein Ansprechpartner für Haus und Garten.",
+      "points": [
+        {
+          "title": "Persönlich",
+          "text": "Christian Kammerer ist Ihr direkter Ansprechpartner – von der Anfrage bis zur Ausführung."
+        },
+        {
+          "title": "Alles in einem Auftrag",
+          "text": "Hausmeisterarbeiten und Gartenpflege laufen über einen Betrieb."
+        },
+        {
+          "title": "Kurze Wege",
+          "text": "Von Poing aus schnell in Grub, Pliening, Anzing und Markt Schwaben."
+        },
+        {
+          "title": "Klare Absprachen",
+          "text": "Umfang, Rhythmus und Termine werden vorab festgelegt."
+        }
+      ]
+    },
+    "reviews": {
+      "headline": "Was Kunden sagen",
+      "summary": "Kundenstimmen werden hier eingebunden, sobald sie aus dem Google-Profil übernommen sind.",
+      "highlights": [
+        "Haus und Garten in Poing",
+        "Hausmeisterdienst",
+        "Inhabergeführt"
+      ],
+      "source": "Google",
+      "sourceUrl": "https://www.google.com/maps/search/?api=1&query=Christian%20Kammerer%20Haus%20%26%20Gartenservice%20Watzmannstr.%201%20Poing",
+      "rating": null,
+      "count": null
+    },
+    "process": {
+      "headline": "In vier Schritten zum gepflegten Grundstück",
+      "steps": [
+        {
+          "title": "Anfrage",
+          "text": "Kurz anrufen oder das Formular nutzen – gern mit Fotos."
+        },
+        {
+          "title": "Besichtigung",
+          "text": "Haus und Garten werden vor Ort angesehen."
+        },
+        {
+          "title": "Angebot",
+          "text": "Sie erhalten ein klares Angebot – einmalig oder regelmäßig."
+        },
+        {
+          "title": "Ausführung",
+          "text": "Die Arbeiten werden zum vereinbarten Termin erledigt."
+        }
+      ]
+    },
+    "gallery": {
+      "headline": "Gärten und Grundstücke aus der Region",
+      "text": "Für die Live-Version zeigen wir hier echte Arbeiten des Betriebs.",
+      "items": [
+        {
+          "title": "Gepflegter Vorgarten",
+          "photoNeeded": "aufgeräumter Vorgarten vor einem Reihenhaus"
+        },
+        {
+          "title": "Heckenschnitt",
+          "photoNeeded": "frisch geschnittene Hecke an einer Grundstücksgrenze"
+        },
+        {
+          "title": "Baumschnitt",
+          "photoNeeded": "zurückgeschnittener Obstbaum im Garten"
+        },
+        {
+          "title": "Saubere Zufahrt",
+          "photoNeeded": "gekehrte Hofeinfahrt ohne Laub"
+        },
+        {
+          "title": "Neue Bepflanzung",
+          "photoNeeded": "neu angelegtes Beet mit jungen Stauden"
+        }
+      ]
+    },
+    "region": {
+      "headline": "Haus- und Gartenservice für Poing und Umgebung",
+      "text": "Von Poing aus schnell in Grub, Pliening, Anzing, Markt Schwaben und Kirchheim.",
+      "places": [
+        "Poing",
+        "Grub",
+        "Pliening",
+        "Anzing",
+        "Markt Schwaben",
+        "Kirchheim bei München"
+      ]
+    },
+    "faq": [
+      {
+        "q": "Übernehmen Sie Arbeiten regelmäßig?",
+        "a": "Ja, auf Wunsch in festen Abständen – zum Beispiel über die ganze Gartensaison."
+      },
+      {
+        "q": "Kann ich Haus- und Gartenarbeiten zusammen beauftragen?",
+        "a": "Ja, beides läuft über einen Ansprechpartner und ein Angebot."
+      },
+      {
+        "q": "Arbeiten Sie auch für Eigentümergemeinschaften?",
+        "a": "Fragen Sie gern an – Umfang und Rhythmus klären wir vorab."
+      },
+      {
+        "q": "Wird das Schnittgut mitgenommen?",
+        "a": "Das wird im Angebot festgehalten – fragen Sie einfach an."
+      },
+      {
+        "q": "Arbeiten Sie auch außerhalb von Poing?",
+        "a": "Ja, im Umkreis – etwa in Pliening, Anzing und Markt Schwaben."
+      }
+    ],
+    "contact": {
+      "headline": "Ihr Angebot – kostenlos und unverbindlich",
+      "text": "Beschreiben Sie kurz, was an Haus oder Garten zu tun ist und wie groß das Grundstück ungefähr ist.",
+      "topics": [
+        "Hausmeisterdienst",
+        "Gartenpflege",
+        "Heckenschnitt",
+        "Baumpflege",
+        "Sonstiges"
+      ],
+      "responseNote": "Besichtigung nach Absprache."
+    },
+    "quote": {
+      "sizeLabel": "Worum geht es?",
+      "sizes": [
+        "Hausmeisterdienst",
+        "Gartenpflege",
+        "Hecke / Bäume",
+        "Garten umgestalten"
+      ],
+      "timings": [
+        "So bald wie möglich",
+        "In den nächsten Wochen",
+        "Regelmäßig ab nächster Saison",
+        "Ich plane erst noch"
+      ]
+    },
+    "stickyCta": "Angebot anfragen",
+    "look": {
+      "palette": 2,
+      "font": 6,
+      "hero": 0,
+      "services": 1,
+      "radius": 1,
+      "logo": 0,
+      "intro": 5
+    }
+  }
+}

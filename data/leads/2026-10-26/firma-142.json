@@ -1,0 +1,290 @@
+{
+  "id": "2026-10-26-142",
+  "slug": "juergen-diepold-maler-kaufering",
+  "date": "2026-10-26",
+  "company": {
+    "name": "Jürgen Diepold Maler",
+    "owner": "Jürgen Diepold",
+    "trade": "Malerbetrieb",
+    "city": "Kaufering",
+    "address": "Jahnstr. 37, 86916 Kaufering",
+    "phone": "08191 6571382",
+    "email": null,
+    "serviceArea": [
+      "Kaufering",
+      "Landsberg am Lech",
+      "Hurlach",
+      "Igling",
+      "Scheuring",
+      "Penzing"
+    ]
+  },
+  "listings": {
+    "google": {
+      "url": "https://www.google.com/maps/search/?api=1&query=J%C3%BCrgen%20Diepold%20Maler%20Jahnstr.%2037%20Kaufering",
+      "rating": null,
+      "reviews": null,
+      "evidence": "KEIN Google-Beleg gefunden (kein Spiegel-Treffer) und keine Freemail – RESERVE. Nur Verzeichnisse: 11880 (Maler, Lackierer & Tapezierer, Jahnstr. 37, Tel. 08191 6571382, Mo–Fr 8–18 Uhr, noch keine Bewertungen, aktualisiert 16.10.2024), maler-vergleich.com, maler24.biz, my-profi.eu."
+    },
+    "myhammer": {
+      "url": "https://www.11880.com/branchenbuch/kaufering/060693517B42107817/juergen-diepold-maler.html",
+      "rating": null,
+      "reviews": null,
+      "evidence": "Kein MyHammer gefunden – 11880-Eintrag „Jürgen Diepold Maler“ (Jahnstr. 37, 86916 Kaufering, 08191 6571382, keine Bewertungen)."
+    }
+  },
+  "websiteStatus": "keine eigene Website gefunden",
+  "websiteChecks": [
+    "(1) „Jürgen Diepold Maler Kaufering Jahnstr“ mit blocked_domains (11880, Gelbe Seiten, Das Örtliche, Telefonbuch, Cylex, meinestadt, Creditreform, Facebook, Instagram, golocal, MyHammer, Northdata, Firmenwissen, WKDB, Yelp, trustlocal, wlw) – nur Verzeichnisse (my-profi.eu, maler-vergleich.com, maler24.biz, peoplecheck); keine eigene Domain",
+    "(2) Domain-Check allowed_domains maler-diepold.de, diepold-maler.de, malerdiepold.de, diepold.de, malerbetrieb-diepold.de, maler-diepold-kaufering.de, juergen-diepold.de, diepold-malerbetrieb.de – nur diepold.de (fremde Personen, Göttingen, kein Bezug zum Betrieb)",
+    "(3) 11880-Eintrag: kein Website-Feld, keine E-Mail im Snippet",
+    "Telefon- und Impressum-Suche nicht durchgeführt (Suchbudget erschöpft) – vor Versand nachholen",
+    "RESERVE – weder Google-Eintrag noch Freemail belegt"
+  ],
+  "facts": {
+    "services": [
+      "Malerarbeiten",
+      "Tapezierarbeiten",
+      "Putzarbeiten",
+      "Renovierung",
+      "Neubau-Arbeiten",
+      "Imprägnierung",
+      "Fassadenbeschichtung",
+      "Lackierarbeiten"
+    ],
+    "experience": null,
+    "praisedFor": []
+  },
+  "strategy": {
+    "audience": "Hausbesitzer, Mieter, Vermieter und Bauherren in Kaufering, Landsberg und den Lechfeld-Orten, die renovieren, neu bauen oder die Fassade auffrischen wollen",
+    "mainService": "Maler- und Tapezierarbeiten innen, Fassadenbeschichtung außen",
+    "trustSignal": "Malerbetrieb mit Inhabername in Kaufering, werktags 8–18 Uhr telefonisch erreichbar",
+    "conversionGoal": "Kostenloses Angebot anfragen (Anruf oder Formular mit Fotos)",
+    "visualConcept": "Warme, frisch gestrichene Wohnräume, Farbrollen und saubere Abklebekanten – dazu eine helle, neu beschichtete Fassade"
+  },
+  "sales": {
+    "score": 3,
+    "whyGoodLead": [
+      "Keine eigene Website gefunden – nur Verzeichniseinträge",
+      "Klassischer Inhaber-Malerbetrieb, noch ohne Online-Bewertungen",
+      "Breites Leistungsbild (innen, Putz, Fassade) – gut auf einer Website darstellbar",
+      "Maler sind im wachsenden Kaufering/Landsberg stark gefragt"
+    ],
+    "pitch": "Grüß Gott Herr Diepold, hier ist … – ich baue Websites für Handwerker im Landkreis Landsberg. Ich habe Ihren Eintrag als Maler in Kaufering gefunden, aber keine eigene Website. Ich habe unverbindlich einen Entwurf vorbereitet, der Ihre Maler-, Tapezier- und Fassadenarbeiten zeigt und Anfragen direkt zu Ihnen schickt – darf ich Ihnen den Link schicken?"
+  },
+  "manualChecks": [
+    "RESERVE – weder Google-Eintrag noch Freemail-Adresse belegt: NUR versenden, wenn Google Maps einen Eintrag OHNE Website zeigt.",
+    "Telefon- und Impressum-Suche nachholen (Suchbudget war erschöpft)",
+    "Nur Festnetznummer bekannt (08191 6571382) – keine Mobilnummer, keine E-Mail; Kontakt telefonisch",
+    "11880-Eintrag zuletzt 16.10.2024 aktualisiert – prüfen, ob der Betrieb noch aktiv ist",
+    "Leistungen aus maler-vergleich.com (Maler-, Tapezier-, Putzarbeiten, Renovierung, Neubau, Imprägnierung, Fassadenbeschichtung) beim Betrieb bestätigen",
+    "Logo und Projektfotos: nicht gefunden – beim Betrieb anfragen"
+  ],
+  "sources": [
+    {
+      "label": "11880 – Jürgen Diepold Maler, Kaufering",
+      "url": "https://www.11880.com/branchenbuch/kaufering/060693517B42107817/juergen-diepold-maler.html"
+    },
+    {
+      "label": "11880 – Maler Kaufering",
+      "url": "https://www.11880.com/suche/maler/kaufering"
+    },
+    {
+      "label": "my-profi.eu – Diepold Jürgen, Jahnstr. 37, Kaufering",
+      "url": "https://www.my-profi.eu/de/fa/38298/diepold-jürgen-jahnstr-37-86916-kaufering"
+    },
+    {
+      "label": "maler-vergleich.com – Maler in Igling (Leistungsangaben)",
+      "url": "https://www.maler-vergleich.com/maler/firmen/igling"
+    },
+    {
+      "label": "maler24.biz – Malerarbeiten in Penzing",
+      "url": "https://www.maler24.biz/stadt/penzing/cat/malerarbeiten/"
+    }
+  ],
+  "site": {
+    "theme": "atelier",
+    "category": "handwerk",
+    "heroOffer": [
+      "Streichen",
+      "Tapezieren",
+      "Putz",
+      "Fassade",
+      "Lackieren"
+    ],
+    "scene": "paint",
+    "logoIcon": "roller",
+    "logoMark": "JD",
+    "brandName": "Maler Diepold",
+    "seoTitle": "Maler in Kaufering – Jürgen Diepold Maler",
+    "seoDescription": "Malerarbeiten, Tapezieren, Putz und Fassadenbeschichtung in Kaufering, Landsberg und Umgebung. Jetzt Angebot anfragen.",
+    "nav": [
+      { "label": "Leistungen", "href": "#leistungen" },
+      { "label": "Projekte", "href": "#projekte" },
+      { "label": "Bewertungen", "href": "#bewertungen" },
+      { "label": "Ablauf", "href": "#ablauf" },
+      { "label": "FAQ", "href": "#faq" },
+      { "label": "Kontakt", "href": "#kontakt" }
+    ],
+    "hero": {
+      "eyebrow": "Malerbetrieb · Kaufering",
+      "headline": "Ihr Maler in Kaufering",
+      "sub": "Wände, Tapeten, Putz und Fassade – frisch gemacht in Kaufering und Landsberg.",
+      "ctaPrimary": "Angebot anfragen",
+      "ctaSecondary": "Anrufen",
+      "bullets": [
+        "Inhaber Jürgen Diepold",
+        "Innen und Fassade",
+        "Mo–Fr 8–18 Uhr erreichbar"
+      ],
+      "imageLabel": "frisch gestrichene Wohnzimmerwand mit Farbrolle"
+    },
+    "badges": [
+      { "title": "Malerarbeiten", "sub": "Wände & Decken" },
+      { "title": "Tapezieren", "sub": "Raufaser bis Vlies" },
+      { "title": "Fassade", "sub": "Beschichtung" },
+      { "title": "Kaufering", "sub": "Jahnstraße" }
+    ],
+    "trust": [
+      { "value": "Inhaber", "label": "Jürgen Diepold persönlich" },
+      { "value": "Innen", "label": "Farbe, Tapete, Putz" },
+      { "value": "Außen", "label": "Fassade & Imprägnierung" },
+      { "value": "8–18", "label": "Uhr werktags erreichbar" }
+    ],
+    "servicesIntro": {
+      "headline": "Farbe, Tapete, Putz – innen wie außen",
+      "text": "Ob Mietwohnung vor dem Auszug, Neubau vor dem Einzug oder eine verwitterte Fassade: Jürgen Diepold übernimmt die Malerarbeiten von der Beratung bis zur sauberen Übergabe."
+    },
+    "services": [
+      {
+        "title": "Innenanstrich",
+        "text": "Wände und Decken in Wunschfarbe – abgeklebt, gestrichen und sauber übergeben.",
+        "items": ["Wände", "Decken", "Farbberatung"]
+      },
+      {
+        "title": "Tapezierarbeiten",
+        "text": "Alte Tapete runter, neue Tapete glatt an die Wand.",
+        "items": ["Raufaser", "Vliestapete", "Tapete entfernen"]
+      },
+      {
+        "title": "Putzarbeiten",
+        "text": "Risse und Schadstellen ausbessern, Flächen neu verputzen – als Grundlage für den Anstrich.",
+        "items": ["Ausbessern", "Innenputz", "Untergrund vorbereiten"]
+      },
+      {
+        "title": "Renovierung",
+        "text": "Wohnung oder Haus auffrischen – etwa vor dem Einzug oder nach dem Auszug.",
+        "items": ["Wohnungsrenovierung", "Auszugsrenovierung", "Treppenhaus"]
+      },
+      {
+        "title": "Neubau",
+        "text": "Malerarbeiten im Neubau, abgestimmt auf die anderen Gewerke.",
+        "items": ["Erstanstrich", "Neubau-Innenräume", "Termin nach Bauablauf"]
+      },
+      {
+        "title": "Fassade & Imprägnierung",
+        "text": "Fassadenbeschichtung und Imprägnierung schützen das Haus vor Wetter und Feuchtigkeit.",
+        "items": ["Fassadenbeschichtung", "Imprägnierung", "Lackierarbeiten"]
+      }
+    ],
+    "why": {
+      "headline": "Ein Maler aus Kaufering – mit Namen und Telefonnummer.",
+      "points": [
+        { "title": "Persönlich", "text": "Sie sprechen direkt mit Inhaber Jürgen Diepold." },
+        { "title": "Kurze Wege", "text": "Von der Jahnstraße schnell in Landsberg, Hurlach, Igling und Scheuring." },
+        { "title": "Innen und außen", "text": "Vom Wohnzimmer bis zur Fassade – ein Betrieb für alle Malerarbeiten." },
+        { "title": "Gut erreichbar", "text": "Werktags von 8 bis 18 Uhr telefonisch." }
+      ]
+    },
+    "reviews": {
+      "headline": "Was Kunden sagen",
+      "summary": "Kundenstimmen werden hier eingebunden, sobald sie aus dem Google-Profil übernommen sind.",
+      "highlights": [
+        "Malerbetrieb in Kaufering",
+        "Innen- und Fassadenarbeiten",
+        "Direkter Kontakt zum Inhaber"
+      ],
+      "source": "Google",
+      "sourceUrl": "https://www.google.com/maps/search/?api=1&query=J%C3%BCrgen%20Diepold%20Maler%20Jahnstr.%2037%20Kaufering",
+      "rating": null,
+      "count": null
+    },
+    "process": {
+      "headline": "So kommt Farbe ins Haus",
+      "steps": [
+        { "title": "Anfrage", "text": "Anrufen oder Formular ausfüllen – gern mit Fotos der Räume." },
+        { "title": "Termin vor Ort", "text": "Flächen, Untergrund und Farbwünsche werden gemeinsam angeschaut." },
+        { "title": "Angebot", "text": "Sie erhalten ein klares Angebot für die besprochenen Arbeiten." },
+        { "title": "Ausführung", "text": "Abdecken, vorbereiten, streichen – und besenrein übergeben." }
+      ]
+    },
+    "gallery": {
+      "headline": "Frisch gestrichen in Kaufering",
+      "text": "Für die Live-Version zeigen wir hier echte Projekte des Betriebs.",
+      "items": [
+        { "title": "Wohnzimmer", "photoNeeded": "frisch gestrichenes Wohnzimmer" },
+        { "title": "Neue Tapete", "photoNeeded": "frisch tapezierte Wand" },
+        { "title": "Treppenhaus", "photoNeeded": "renoviertes Treppenhaus" },
+        { "title": "Fassade", "photoNeeded": "neu beschichtete Hausfassade" },
+        { "title": "Putz ausgebessert", "photoNeeded": "ausgebesserte Wand vor und nach dem Anstrich" }
+      ]
+    },
+    "region": {
+      "headline": "Malerarbeiten in Kaufering und am Lech",
+      "text": "Von Kaufering aus in Landsberg, Hurlach, Igling, Scheuring und Penzing unterwegs.",
+      "places": [
+        "Kaufering",
+        "Landsberg am Lech",
+        "Hurlach",
+        "Igling",
+        "Scheuring",
+        "Penzing"
+      ]
+    },
+    "faq": [
+      { "q": "Streichen Sie auch Fassaden?", "a": "Ja, Fassadenbeschichtung und Imprägnierung gehören zum Angebot." },
+      { "q": "Übernehmen Sie Tapezierarbeiten?", "a": "Ja, Tapezieren gehört genauso dazu wie Streichen und Putzarbeiten." },
+      { "q": "Arbeiten Sie auch im Neubau?", "a": "Ja, Malerarbeiten im Neubau werden nach Bauablauf terminiert." },
+      { "q": "Wann sind Sie erreichbar?", "a": "Telefonisch werktags von 8 bis 18 Uhr." },
+      { "q": "Kommen Sie auch nach Landsberg?", "a": "Ja, Landsberg und die Orte rund um Kaufering gehören zum Einsatzgebiet." }
+    ],
+    "contact": {
+      "headline": "Ihr Angebot – kostenlos und unverbindlich",
+      "text": "Welche Räume oder Flächen, ungefähre Größe, innen oder außen? Ein paar Angaben und Fotos genügen für den ersten Schritt.",
+      "topics": [
+        "Innenanstrich",
+        "Tapezieren",
+        "Putzarbeiten",
+        "Renovierung",
+        "Fassade",
+        "Sonstiges"
+      ],
+      "responseNote": "Besichtigung nach Absprache."
+    },
+    "quote": {
+      "sizeLabel": "Was soll gestrichen werden?",
+      "sizes": [
+        "Ein Zimmer",
+        "Ganze Wohnung",
+        "Einfamilienhaus innen",
+        "Fassade"
+      ],
+      "timings": [
+        "So bald wie möglich",
+        "In den nächsten Wochen",
+        "In 1–3 Monaten",
+        "Ich plane erst noch"
+      ]
+    },
+    "stickyCta": "Angebot anfragen",
+    "look": {
+      "palette": 2,
+      "font": 6,
+      "hero": 0,
+      "services": 1,
+      "radius": 1,
+      "logo": 0,
+      "intro": 5
+    }
+  }
+}

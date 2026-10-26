@@ -1,0 +1,395 @@
+{
+  "id": "2026-10-26-138",
+  "slug": "albin-horvath-bautenschutz-herrsching",
+  "date": "2026-10-26",
+  "company": {
+    "name": "Albín Horváth Bautenschutz",
+    "owner": "Albín Horváth",
+    "trade": "Malerarbeiten & Bautenschutz",
+    "city": "Herrsching",
+    "address": "Summerstr. 25, 82211 Herrsching",
+    "phone": "0170 1692188",
+    "email": null,
+    "serviceArea": [
+      "Herrsching",
+      "Breitbrunn",
+      "Widdersberg",
+      "Andechs",
+      "Seefeld",
+      "Inning",
+      "Wörthsee"
+    ]
+  },
+  "listings": {
+    "google": {
+      "url": "https://www.google.com/maps/search/?api=1&query=Albín%20Horváth%20Bautenschutz%20Summerstr.%2025%20Herrsching",
+      "rating": null,
+      "reviews": null,
+      "evidence": "NICHT BELEGT – kein Google-Spiegel (rgv-bayern, firmania, trustlocal) gefunden; Betrieb nur im 11880-Branchenbuch (Maler Herrsching) und im Stadtbranchenbuch Herrsching gelistet. In Maps prüfen."
+    },
+    "myhammer": {
+      "url": "https://www.11880.com/suche/dienstleistung/herrsching",
+      "rating": null,
+      "reviews": null,
+      "evidence": "Kein MyHammer gefunden – Eintrag „Albín Horváth Bautenschutz“, Summerstr. 25, 82211 Herrsching, Tel. (0170) 1692188, bei 11880 unter Maler/Abdichtung/Bodenbeschichtung; zusätzlich Namensnennung im Stadtbranchenbuch Herrsching."
+    }
+  },
+  "websiteStatus": "keine eigene Website gefunden",
+  "websiteChecks": [
+    "(1) „Albin Horvath Bautenschutz Herrsching“ mit blocked_domains (11880, Gelbe Seiten, Das Örtliche, Telefonbuch, Cylex, meinestadt, Creditreform, Facebook, Instagram, golocal, MyHammer, Northdata, Firmenwissen, WKDB, Yelp, trustlocal, wlw) – nur Stadtbranchenbuch Herrsching (Namensnennung); horvath-bau.de gehört Horvath Tief- und Straßenbau (Jockgrim/Pfalz), Bautenschutz-Horvarth UG sitzt in Kirchheim am Ries – beides andere Firmen",
+    "(2) Telefonsuche „0170 1692188“/„01701692188“/„0170-1692188“ – keine Treffer",
+    "(3) Domain-Check allowed_domains horvath-bau.de, horvath-bautenschutz.de, bautenschutz-horvath.de, albin-horvath.de, horvath-herrsching.de, horvath-maler.de, maler-horvath.de, horvath-bautenschutz-herrsching.de – nur maler-horvath.de (Malerbetrieb Dieter Horváth, Heidelberg/Bad Dürkheim) und horvath-bau.de (Tiefbau Pfalz), beide fremd",
+    "(4) Google-Spiegel-Suche (rgv-bayern, firmania, trustlocal, stadtbranchenbuch) – kein Treffer",
+    "Keine E-Mail gefunden (auch keine Freemail); Mobilnummer öffentlich bei 11880",
+    "Website-Risiko: niedrig bis mittel – alle Prüfungen negativ, aber weder Google-Eintrag noch Freemail belegt (RESERVE)"
+  ],
+  "facts": {
+    "services": [
+      "Malerarbeiten",
+      "Abdichtung",
+      "Bodenbeschichtung",
+      "Bautenschutz"
+    ],
+    "experience": null,
+    "praisedFor": []
+  },
+  "strategy": {
+    "audience": "Hausbesitzer und Vermieter in Herrsching und am Ammersee-Ostufer, die Räume streichen, Keller oder Sockel abdichten oder Böden beschichten lassen wollen",
+    "mainService": "Malerarbeiten und Bautenschutz – Anstrich, Abdichtung, Bodenbeschichtung",
+    "trustSignal": "Inhaber Albín Horváth direkt per Handy erreichbar, Betrieb in Herrsching",
+    "conversionGoal": "Angebot per WhatsApp/Anruf mit Fotos der Wand, des Kellers oder Bodens anfragen",
+    "visualConcept": "Robuste Bauästhetik: frisch gestrichene Wand neben trockenem, abgedichtetem Kellersockel und glänzend beschichtetem Garagenboden – solide und klar"
+  },
+  "sales": {
+    "score": 5,
+    "whyGoodLead": [
+      "Keine eigene Website gefunden – nur Branchenbucheinträge",
+      "Mobilnummer öffentlich gelistet – ideal für WhatsApp-Erstkontakt",
+      "Praktisch keine Online-Sichtbarkeit – Website + Google-Profil schaffen Anfragen",
+      "Abdichtung und Bodenbeschichtung sind am Ammersee (Feuchte, Garagen, Keller) gefragt"
+    ],
+    "pitch": "Hallo Herr Horváth, hier ist … – ich baue Websites für Handwerker am Ammersee. Ich habe Ihren Eintrag „Albín Horváth Bautenschutz“ in Herrsching gefunden, aber keine eigene Website. Ich habe unverbindlich einen Entwurf vorbereitet, auf dem Kunden Ihre Maler-, Abdichtungs- und Bodenarbeiten sehen und direkt per WhatsApp anfragen können – darf ich Ihnen den Link schicken?"
+  },
+  "manualChecks": [
+    "RESERVE – weder Google-Eintrag noch Freemail-Adresse belegt: NUR versenden, wenn Google Maps einen Eintrag OHNE Website zeigt.",
+    "Google-Eintrag in Maps suchen (Existenz, Bewertungen, Website-Feld) – nicht über Spiegel belegt",
+    "Leistungen nur aus 11880-Kategorien (Maler, Abdichtung, Bodenbeschichtung) – Detailleistungen (Kellerabdichtung, Fassade, Garagenboden) beim Betrieb bestätigen",
+    "Schreibweise des Namens (Albín Horváth) und Betriebsstatus beim Erstkontakt bestätigen",
+    "Logo und Projektfotos: nicht gefunden – beim Betrieb anfragen"
+  ],
+  "sources": [
+    {
+      "label": "11880 – Maler/Dienstleistungen Herrsching (Liste mit Albín Horváth Bautenschutz)",
+      "url": "https://www.11880.com/suche/dienstleistung/herrsching"
+    },
+    {
+      "label": "Stadtbranchenbuch Herrsching am Ammersee (Namensnennung)",
+      "url": "https://herrsching-am-ammersee.stadtbranchenbuch.com/"
+    }
+  ],
+  "site": {
+    "theme": "stein",
+    "category": "handwerk",
+    "heroOffer": [
+      "Malerarbeiten",
+      "Abdichtung",
+      "Bodenbeschichtung",
+      "Bautenschutz"
+    ],
+    "scene": "paint",
+    "logoIcon": "roller",
+    "logoMark": "AH",
+    "brandName": "Horváth Bautenschutz",
+    "seoTitle": "Maler & Bautenschutz in Herrsching – Albín Horváth",
+    "seoDescription": "Malerarbeiten, Abdichtung und Bodenbeschichtung in Herrsching am Ammersee. Angebot anfragen – auch per WhatsApp mit Fotos.",
+    "nav": [
+      {
+        "label": "Leistungen",
+        "href": "#leistungen"
+      },
+      {
+        "label": "Projekte",
+        "href": "#projekte"
+      },
+      {
+        "label": "Bewertungen",
+        "href": "#bewertungen"
+      },
+      {
+        "label": "Ablauf",
+        "href": "#ablauf"
+      },
+      {
+        "label": "FAQ",
+        "href": "#faq"
+      },
+      {
+        "label": "Kontakt",
+        "href": "#kontakt"
+      }
+    ],
+    "hero": {
+      "eyebrow": "Maler & Bautenschutz · Herrsching",
+      "headline": "Maler und Bautenschutz in Herrsching",
+      "sub": "Wände streichen, Keller abdichten, Böden beschichten – ein Ansprechpartner am Ammersee.",
+      "ctaPrimary": "Angebot per WhatsApp",
+      "ctaSecondary": "Anrufen",
+      "bullets": [
+        "Betrieb in Herrsching",
+        "Anstrich, Abdichtung, Boden",
+        "Direkt per Handy erreichbar"
+      ],
+      "imageLabel": "frisch gestrichene Wand über abgedichtetem Sockel"
+    },
+    "badges": [
+      {
+        "title": "Malerarbeiten",
+        "sub": "innen & außen"
+      },
+      {
+        "title": "Abdichtung",
+        "sub": "gegen Feuchtigkeit"
+      },
+      {
+        "title": "Bodenbeschichtung",
+        "sub": "Keller & Garage"
+      },
+      {
+        "title": "Herrsching",
+        "sub": "Summerstraße"
+      }
+    ],
+    "trust": [
+      {
+        "value": "Vor Ort",
+        "label": "Betrieb in Herrsching"
+      },
+      {
+        "value": "3",
+        "label": "Leistungsbereiche"
+      },
+      {
+        "value": "Inhaber",
+        "label": "Albín Horváth"
+      },
+      {
+        "value": "Mobil",
+        "label": "per WhatsApp erreichbar"
+      }
+    ],
+    "servicesIntro": {
+      "headline": "Anstrich und Schutz für Ihr Haus",
+      "text": "Farbe allein hält nicht, wenn Feuchtigkeit nachdrückt. Deshalb kommen Malerarbeiten, Abdichtung und Bodenbeschichtung hier aus einer Hand."
+    },
+    "services": [
+      {
+        "title": "Innenanstrich",
+        "text": "Wände und Decken werden vorbereitet, ausgebessert und gleichmäßig gestrichen – Möbel und Böden bleiben abgedeckt.",
+        "items": [
+          "Wände",
+          "Decken",
+          "Ausbessern"
+        ]
+      },
+      {
+        "title": "Außenanstrich",
+        "text": "Neuer Anstrich für Fassade, Sockel und Holzteile – mit gründlicher Untergrundprüfung.",
+        "items": [
+          "Fassade",
+          "Sockel",
+          "Holzteile"
+        ]
+      },
+      {
+        "title": "Kellerabdichtung",
+        "text": "Feuchte Kellerwände werden abgedichtet, damit Putz und Farbe wieder halten.",
+        "items": [
+          "Kellerwände",
+          "Feuchteschutz",
+          "Sockel"
+        ]
+      },
+      {
+        "title": "Bodenbeschichtung",
+        "text": "Strapazierfähige Beschichtung für Keller, Garage und Werkstatt – leicht zu reinigen.",
+        "items": [
+          "Garage",
+          "Keller",
+          "Werkstatt"
+        ]
+      },
+      {
+        "title": "Bautenschutz",
+        "text": "Schutz von Mauerwerk und Bauteilen vor Nässe und Verschleiß, abgestimmt auf den Zustand vor Ort.",
+        "items": [
+          "Mauerwerk",
+          "Nässeschutz",
+          "Instandsetzung"
+        ]
+      },
+      {
+        "title": "Renovierung",
+        "text": "Vor dem Einzug oder nach dem Auszug: Räume werden ausgebessert und frisch gestrichen übergeben.",
+        "items": [
+          "Wohnungen",
+          "Ein- und Auszug",
+          "Vermieter"
+        ]
+      }
+    ],
+    "why": {
+      "headline": "Farbe und Schutz aus Herrsching.",
+      "points": [
+        {
+          "title": "Kurze Wege",
+          "text": "Von Herrsching aus schnell in Breitbrunn, Andechs, Seefeld und Inning."
+        },
+        {
+          "title": "Ursache zuerst",
+          "text": "Bei Feuchte wird erst abgedichtet, dann gestrichen – damit der Anstrich hält."
+        },
+        {
+          "title": "Direkter Draht",
+          "text": "Fotos per WhatsApp schicken und direkt mit dem Inhaber sprechen."
+        },
+        {
+          "title": "Drei Gewerke, ein Termin",
+          "text": "Anstrich, Abdichtung und Boden lassen sich in einem Auftrag erledigen."
+        }
+      ]
+    },
+    "reviews": {
+      "headline": "Was Kunden sagen",
+      "summary": "Kundenstimmen werden hier eingebunden, sobald sie aus dem Google-Profil übernommen sind.",
+      "highlights": [
+        "Malerarbeiten in Herrsching",
+        "Abdichtung und Bodenbeschichtung",
+        "Direkter Kontakt"
+      ],
+      "source": "Google",
+      "sourceUrl": "https://www.google.com/maps/search/?api=1&query=Albín%20Horváth%20Bautenschutz%20Summerstr.%2025%20Herrsching",
+      "rating": null,
+      "count": null
+    },
+    "process": {
+      "headline": "In vier Schritten zur fertigen Fläche",
+      "steps": [
+        {
+          "title": "Fotos schicken",
+          "text": "Wand, Keller oder Boden fotografieren und per WhatsApp senden."
+        },
+        {
+          "title": "Besichtigung",
+          "text": "Untergrund und Feuchte werden vor Ort angesehen."
+        },
+        {
+          "title": "Angebot",
+          "text": "Sie erhalten ein klares Angebot für Anstrich, Abdichtung oder Boden."
+        },
+        {
+          "title": "Ausführung",
+          "text": "Vorbereiten, abdichten, beschichten oder streichen – sauber übergeben."
+        }
+      ]
+    },
+    "gallery": {
+      "headline": "Flächen, die wieder halten",
+      "text": "Für die Live-Version zeigen wir hier echte Projekte des Betriebs.",
+      "items": [
+        {
+          "title": "Frischer Anstrich",
+          "photoNeeded": "hell gestrichenes Wohnzimmer nach Renovierung"
+        },
+        {
+          "title": "Kellerwand",
+          "photoNeeded": "abgedichtete, trockene Kellerwand"
+        },
+        {
+          "title": "Garagenboden",
+          "photoNeeded": "glänzend beschichteter Garagenboden"
+        },
+        {
+          "title": "Fassadensockel",
+          "photoNeeded": "neu gestrichener Sockel am Einfamilienhaus"
+        },
+        {
+          "title": "Werkstatt",
+          "photoNeeded": "beschichteter Werkstattboden mit Markierung"
+        }
+      ]
+    },
+    "region": {
+      "headline": "Für Herrsching und das Ammersee-Ostufer",
+      "text": "Von Herrsching aus nach Breitbrunn, Widdersberg, Andechs, Seefeld, Inning, Wörthsee und Pähl.",
+      "places": [
+        "Herrsching",
+        "Breitbrunn",
+        "Widdersberg",
+        "Andechs",
+        "Seefeld",
+        "Inning",
+        "Wörthsee",
+        "Pähl"
+      ]
+    },
+    "faq": [
+      {
+        "q": "Können Sie feuchte Kellerwände streichen?",
+        "a": "Zuerst wird die Ursache angesehen und abgedichtet – erst dann hält ein neuer Anstrich."
+      },
+      {
+        "q": "Welche Böden beschichten Sie?",
+        "a": "Zum Beispiel Keller-, Garagen- und Werkstattböden. Details klären wir bei der Besichtigung."
+      },
+      {
+        "q": "Kann ich vorab Fotos schicken?",
+        "a": "Ja, Fotos per WhatsApp helfen für eine erste Einschätzung."
+      },
+      {
+        "q": "Arbeiten Sie auch außerhalb von Herrsching?",
+        "a": "Ja, rund um den Ammersee – fragen Sie einfach an."
+      },
+      {
+        "q": "Übernehmen Sie auch Renovierungen bei Auszug?",
+        "a": "Ja, Räume werden ausgebessert und frisch gestrichen übergeben."
+      }
+    ],
+    "contact": {
+      "headline": "Ihr Angebot – unverbindlich anfragen",
+      "text": "Beschreiben Sie kurz, was ansteht: Anstrich, Abdichtung oder Boden, ungefähre Fläche und Ort. Fotos helfen.",
+      "topics": [
+        "Malerarbeiten",
+        "Abdichtung",
+        "Bodenbeschichtung",
+        "Renovierung",
+        "Sonstiges"
+      ],
+      "responseNote": "Besichtigung nach Absprache."
+    },
+    "quote": {
+      "sizeLabel": "Was soll gemacht werden?",
+      "sizes": [
+        "Ein Raum",
+        "Keller",
+        "Garage/Boden",
+        "Fassade/Sockel"
+      ],
+      "timings": [
+        "So bald wie möglich",
+        "In den nächsten Wochen",
+        "In 1–3 Monaten",
+        "Ich plane erst noch"
+      ]
+    },
+    "stickyCta": "Angebot anfragen",
+    "look": {
+      "palette": 2,
+      "font": 6,
+      "hero": 0,
+      "services": 1,
+      "radius": 1,
+      "logo": 0,
+      "intro": 5
+    }
+  }
+}
