@@ -7,41 +7,11 @@ import Icon from "../components/Icon.astro";
 import Faq from "../components/Faq.astro";
 import SoundCheck from "../components/SoundCheck.astro";
 import Effects from "../components/Effects.astro";
+import HomeHero from "../components/HomeHero.astro";
 import { ROOMS, CONTACT, PRICES, SITE, roomByKey, priceShown, euro } from "../config/site";
 import { u } from "../lib/url";
 const studio = roomByKey("tonstudio");
 // Wechselnde Titelbilder: je Bild ein Raum, Bildunterschrift verlinkt die Raumseite
-// Schwebende Zeichen im Startbereich (Linien-Icons, keine Emojis – sehen auf allen Geräten gleich aus)
-const ICONS = {
-  note: '<path d="M9 18V5l10-2v13"/><circle cx="6" cy="18" r="3"/><circle cx="16" cy="16" r="3"/>',
-  note2: '<circle cx="8" cy="18" r="4"/><path d="M12 18V2l7 4"/>',
-  mic: '<rect x="9" y="2" width="6" height="12" rx="3"/><path d="M19 10v1a7 7 0 0 1-14 0v-1M12 18v4M8 22h8"/>',
-  phones: '<path d="M3 14h3a2 2 0 0 1 2 2v3a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-7a9 9 0 0 1 18 0v7a2 2 0 0 1-2 2h-1a2 2 0 0 1-2-2v-3a2 2 0 0 1 2-2h3"/>',
-  camera: '<path d="M14.5 4h-5L7 7H4a2 2 0 0 0-2 2v9a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2V9a2 2 0 0 0-2-2h-3l-2.5-3z"/><circle cx="12" cy="13" r="3"/>',
-  fader: '<path d="M4 21v-7M4 10V3M12 21v-9M12 8V3M20 21v-5M20 12V3M1 14h6M9 8h6M17 16h6"/>',
-  wave: '<path d="M2 10v3M6 6v11M10 3v18M14 8v7M18 5v13M22 10v3"/>',
-  drum: '<path d="m2 2 8 8M22 2l-8 8"/><ellipse cx="12" cy="9" rx="10" ry="5"/><path d="M7 13.4v7.9M12 14v8M17 13.4v7.9M2 9v8a10 5 0 0 0 20 0V9"/>',
-  vinyl: '<circle cx="12" cy="12" r="10"/><circle cx="12" cy="12" r="2"/><path d="M6 12c0-1.7.7-3.2 1.8-4.2M18 12c0 1.7-.7 3.2-1.8 4.2"/>',
-  spark: '<path d="M12 3l1.9 5.8L20 10l-6.1 1.9L12 18l-1.9-6.1L4 10l6.1-1.2z"/>',
-} as const;
-// x/y = Startposition (%), s = Größe (px), d = Dauer (s), l = Verzögerung (s), c = Lichtfarbe, m = auch am Handy
-const SYMBOLS: { i: keyof typeof ICONS; x: number; y: number; s: number; d: number; l: number; c: string; m?: boolean }[] = [
-  { i: "note", x: 62, y: 18, s: 46, d: 16, l: 0, c: "var(--silver)", m: true },
-  { i: "mic", x: 80, y: 40, s: 54, d: 19, l: -6, c: "var(--amber)", m: true },
-  { i: "phones", x: 90, y: 14, s: 44, d: 21, l: -11, c: "var(--spot)", m: true },
-  { i: "note2", x: 72, y: 66, s: 38, d: 15, l: -3, c: "var(--magenta)", m: true },
-  { i: "fader", x: 54, y: 52, s: 40, d: 23, l: -14, c: "var(--silver)", m: true },
-  { i: "camera", x: 86, y: 72, s: 46, d: 18, l: -9, c: "var(--spot)", m: true },
-  { i: "wave", x: 44, y: 24, s: 36, d: 17, l: -12, c: "var(--amber)" },
-  { i: "drum", x: 66, y: 86, s: 50, d: 22, l: -17, c: "var(--silver)" },
-  { i: "vinyl", x: 94, y: 50, s: 42, d: 20, l: -4, c: "var(--magenta)" },
-  { i: "spark", x: 76, y: 8, s: 22, d: 9, l: -2, c: "var(--spot)", m: true },
-  { i: "spark", x: 58, y: 78, s: 16, d: 11, l: -7, c: "var(--amber)" },
-  { i: "note", x: 38, y: 70, s: 28, d: 14, l: -10, c: "var(--spot)" },
-];
-const slides: { photo: PhotoKey; room: "tonstudio" | "stageroom" | "lightroom"; caption: string }[] = [
-  { photo: "stagePultBlick", room: "stageroom", caption: "Stageroom – Blick vom Mischpult auf die Bühne" },
-];
 // Bildstrecke mit Großansicht
 const gallery: { photo: PhotoKey; shape: string }[] = [
   { photo: "stageVeniceBuehne", shape: "wide" },
@@ -64,13 +34,18 @@ const fromPrice = Object.fromEntries(PRICES.groups.map((g) => {
 }));
 const priceIsExample = !PRICES.confirmed && SITE.preview;
 const fromText = (k: string) => (fromPrice[k] === null || fromPrice[k] === undefined ? "Preis auf Anfrage" : `ab ${euro(fromPrice[k]!)} pro Stunde`);
-const minPrice = Math.min(...Object.values(fromPrice).filter((v): v is number => typeof v === "number"));
 // Raumfinder „Was hast du vor?“ (Texte nur aus belegten Angaben)
 const finder = [
   { key: "tonstudio", k: "Aufnehmen", s: "Song, Vocals, Podcast, Sprache", text: "Für Songs, Vocals, Podcasts und Sprachaufnahmen: 32-Kanal-Analogpult, Neumann TLM 49 und Shure SM7B." },
   { key: "stageroom", k: "Proben", s: "Band, Bühnenshow, Live-Mitschnitt", text: "Für Bandproben und Bühnenprogramme: 80 m² mit Bühne, Licht, Konzertanlage und Monitoring. Live-Mitschnitt möglich." },
   { key: "lightroom", k: "Gestalten", s: "Tanz, Gesang, Foto & Video", text: "Für Tanz, Gesang, Foto und Video: 55 m² mit Spiegelwand, farbigem Licht und hängender PA." },
 ] as const;
+// Startbereich: ein Kanalzug je Raum (Stageroom mit dem Pult-Foto ist vorgewählt)
+const heroPhoto = { tonstudio: "tonAufnahmeraum", stageroom: "stagePultBlick", lightroom: "lightBackline" } as const;
+const heroChannels = finder.map((f) => ({
+  key: f.key, name: roomByKey(f.key).name, path: roomByKey(f.key).path, photo: heroPhoto[f.key], alt: PHOTOS[heroPhoto[f.key]].alt,
+  spec: spec[f.key], use: f.k, price: fromText(f.key) + (priceIsExample && fromPrice[f.key] != null ? " (Beispielpreis)" : ""),
+}));
 // Für wen
 const who = [
   { room: "stageroom", t: "Bands & Musiker:innen", d: "Proben mit Bühne, Licht und Konzertanlage, auf Wunsch mit Live-Mitschnitt.", go: "Zum Stageroom" },
@@ -97,55 +72,8 @@ const faq = [
   intro
   current="/"
 >
-  <!-- Einstieg: wechselnde Fotos der Räume -->
-  <section class="hero" aria-labelledby="hero-title" data-hero>
-    <div class="slides" data-slides>
-      {slides.map((sl, i) => (
-        <figure class:list={["slide", { "is-active": i === 0, "seen": i === 0 }]} data-slide aria-hidden={i === 0 ? undefined : "true"}>
-          <Photo name={sl.photo} eager={i === 0} sizes="100vw" />
-        </figure>
-      ))}
-      <span class="shade" aria-hidden="true"></span>
-      <span class="beams" aria-hidden="true"><i></i><i></i><i></i></span>
-      <span class="grain" aria-hidden="true"></span>
-      <div class="symbols" aria-hidden="true" data-symbols>
-        {SYMBOLS.map((y) => (
-          <span class:list={["sym", { "sym--m": y.m }]} style={`--x:${y.x}%;--y:${y.y}%;--s:${y.s}px;--d:${y.d}s;--l:${y.l}s;--c:${y.c}`}>
-            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" set:html={ICONS[y.i]} />
-          </span>
-        ))}
-      </div>
-      <canvas class="hero-canvas" aria-hidden="true" data-hero-canvas></canvas>
-    </div>
-    <div class="wrap hero-inner">
-      <p class="eyebrow ld" style="--d:0s">Tonstudio &amp; Proberäume in München-Sendling</p>
-      <span class="rec ld" style="--d:.25s" aria-hidden="true"><i></i>REC</span>
-      <h1 id="hero-title" class="rise hero-title"><span><span class="shine">Dein Sound.</span></span><span><span class="shine shine--2">Dein Raum.</span></span></h1>
-      <div class="btn-row hero-cta ld" style="--d:.45s">
-        <a class="btn btn--primary" href={u("/kontakt/")}>Session anfragen</a>
-        <a class="btn btn--ghost" href={CONTACT.phoneHref}><Icon name="phone" />{CONTACT.phone}</a>
-      </div>
-      <ul class="hero-facts ld" style="--d:.6s" aria-label="Auf einen Blick">
-        <li><strong>3 Räume</strong> unter einem Dach</li>
-        {Number.isFinite(minPrice) && <li>ab <strong>{euro(minPrice)}</strong> pro Stunde{priceIsExample && <span class="ex"> (Beispielpreis)</span>}</li>}
-        <li><strong>32-Kanal</strong>-Analogpult</li>
-        <li><strong>Live-Mitschnitt</strong> möglich</li>
-      </ul>
-    </div>
-    <button type="button" class="scroll-cue" aria-label="Weiter zum Raumfinder" data-scroll-cue></button>
-    <div class="wrap hero-foot ld" style="--d:.75s">
-      <p class="caption" aria-live="polite">
-        {slides.map((sl, i) => <a href={u(`/${sl.room}/`)} data-room={sl.room} data-caption hidden={i !== 0}><span class="dot" aria-hidden="true"></span>{sl.caption}</a>)}
-      </p>
-      <div class="ctrl" role="group" aria-label="Bewegung im Startbereich">
-        <span class="eq" aria-hidden="true"><i></i><i></i><i></i><i></i></span>
-        {slides.length > 1 && slides.map((sl, i) => (
-          <button type="button" class="seg" data-seg aria-label={`Foto ${i + 1} von ${slides.length}: ${sl.caption}`} aria-current={i === 0 ? "true" : undefined}><span></span></button>
-        ))}
-        <button type="button" class="pause" data-pause aria-pressed="false"><span class="visually-hidden" data-pause-label>Bewegung anhalten</span><span class="pause-ico" aria-hidden="true"></span></button>
-      </div>
-    </div>
-  </section>
+  <!-- Einstieg: Mischpult mit einem Kanalzug je Raum -->
+  <HomeHero channels={heroChannels} />
 
   <!-- Raumfinder: ein Tipp zeigt den passenden Raum mit Preis -->
   <section class="finder" aria-labelledby="finder-title" data-finder>
@@ -333,107 +261,6 @@ const faq = [
 </Base>
 
 <style>
-  /* ---------- Einstieg ---------- */
-  .hero { position: relative; min-height: calc(100svh - 76px); display: grid; grid-template-rows: 1fr auto; overflow: hidden; background: #07080b; isolation: isolate; }
-  .slides { position: absolute; inset: 0; z-index: -1; }
-  .slide { position: absolute; inset: 0; margin: 0; opacity: 0; transition: opacity 1.4s var(--ease); }
-  .slide.is-active { opacity: 1; }
-  /* Weitere Fotos erst laden, kurz bevor sie gezeigt werden (lazy + display:none lädt nicht) */
-  .slide:not(.seen) { display: none; }
-  .slide :global(img) { width: 100%; height: 100%; object-fit: cover; transform: scale(1.06); }
-  .slide.is-active :global(img) { animation: kenburns 9s cubic-bezier(0.2, 0.5, 0.3, 1) forwards; }
-  @keyframes kenburns { from { transform: scale(1.12) translate3d(1.5%, 1%, 0); } to { transform: scale(1.02) translate3d(0, 0, 0); } }
-  .shade { position: absolute; inset: 0; background:
-      linear-gradient(90deg, rgb(7 8 11 / 0.86) 0%, rgb(7 8 11 / 0.55) 45%, rgb(7 8 11 / 0.12) 78%),
-      linear-gradient(0deg, rgb(7 8 11 / 0.9) 0%, transparent 38%),
-      linear-gradient(180deg, rgb(7 8 11 / 0.5) 0%, transparent 22%); }
-
-  /* Bühnenlicht: drei weiche Lichtkegel schwenken langsam über das Foto (pausierbar) */
-  .beams { position: absolute; inset: 0; pointer-events: none; mix-blend-mode: screen; overflow: hidden; }
-  .beams i { position: absolute; top: -12%; left: var(--x); width: 46vw; height: 125%; margin-left: -23vw; transform-origin: 50% 0;
-    background: conic-gradient(from 180deg at 50% 0, transparent 0deg 170deg, rgb(230 236 247 / 0.2) 180deg, transparent 190deg 360deg);
-    filter: blur(14px); animation: sway 11s ease-in-out infinite alternate; }
-  .beams i:nth-child(1) { --x: 22%; --r: -14deg; animation-delay: -3s; }
-  .beams i:nth-child(2) { --x: 55%; --r: 10deg; animation-duration: 13s; background: conic-gradient(from 180deg at 50% 0, transparent 0deg 172deg, rgb(242 166 90 / 0.16) 180deg, transparent 188deg 360deg); }
-  .beams i:nth-child(3) { --x: 84%; --r: -8deg; animation-duration: 9s; animation-delay: -6s; }
-  @keyframes sway { from { transform: rotate(var(--r)); opacity: 0.55; } to { transform: rotate(calc(var(--r) * -1)); opacity: 1; } }
-  .hero.paused .beams i { animation-play-state: paused; }
-  .grain { position: absolute; inset: 0; pointer-events: none; opacity: 0.09; mix-blend-mode: overlay;
-    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='160' height='160'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='.9' numOctaves='2' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E"); }
-  /* Schwebende Zeichen: steigen wie Töne langsam auf, glühen in den Raumfarben und weichen dem Zeiger leicht aus */
-  .symbols { position: absolute; inset: 0; pointer-events: none; overflow: hidden;
-    transform: translate3d(calc(var(--mx, 0) * -18px), calc(var(--my, 0) * -14px), 0); transition: transform 0.6s var(--ease); }
-  .sym { position: absolute; left: var(--x); top: var(--y); width: calc(var(--s) * 1.45); height: calc(var(--s) * 1.45); color: var(--c); opacity: 0;
-    filter: drop-shadow(0 0 6px color-mix(in srgb, var(--c) 90%, transparent)) drop-shadow(0 0 22px color-mix(in srgb, var(--c) 55%, transparent)); animation: float-up var(--d) linear var(--l) infinite; will-change: transform, opacity; }
-  .sym svg { width: 100%; height: 100%; display: block; animation: wobble calc(var(--d) / 3) ease-in-out var(--l) infinite alternate; }
-  @keyframes float-up {
-    0% { transform: translate3d(0, 34vh, 0) scale(0.6); opacity: 0; }
-    12% { opacity: 1; }
-    70% { opacity: 0.8; }
-    100% { transform: translate3d(-6vw, -46vh, 0) scale(1.08); opacity: 0; }
-  }
-  @keyframes wobble { from { transform: rotate(-12deg) translateX(-6px); } to { transform: rotate(12deg) translateX(6px); } }
-  .hero.paused .sym, .hero.paused .sym svg { animation-play-state: paused; }
-  @media (max-width: 760px) { .sym:not(.sym--m) { display: none; } .sym { width: calc(var(--s) * 1.05); height: calc(var(--s) * 1.05); } }
-  /* Ruhige Variante: Zeichen stehen still an ihrem Platz */
-  @media (prefers-reduced-motion: reduce) {
-    :global(html:not(.fx-force)) .sym, :global(html:not(.fx-force)) .sym svg { animation: none; }
-    :global(html:not(.fx-force)) .sym { opacity: 0.45; }
-  }
-  /* Aufnahme-Anzeige über der Überschrift */
-  .rec { display: inline-flex; align-items: center; gap: 8px; padding: 6px 12px 6px 10px; border-radius: 999px; border: 1px solid rgb(242 166 90 / 0.45);
-    background: rgb(13 15 20 / 0.55); backdrop-filter: blur(8px); -webkit-backdrop-filter: blur(8px); color: #ffd2a6; font: 500 0.72rem / 1 var(--font-display); letter-spacing: 0.22em; margin-bottom: -10px; }
-  .rec i { width: 8px; height: 8px; border-radius: 50%; background: #ff5a4e; box-shadow: 0 0 10px #ff5a4e; animation: rec-blink 1.6s ease-in-out infinite; }
-  @keyframes rec-blink { 50% { opacity: 0.25; } }
-  .hero.paused .rec i { animation-play-state: paused; }
-  @media (forced-colors: active) { .symbols { display: none; } }
-  .hero-canvas { position: absolute; inset: 0; width: 100%; height: 100%; pointer-events: none; }
-  @media (forced-colors: active) { .beams, .grain, .hero-canvas { display: none; } }
-
-  .hero-inner { align-self: end; display: grid; gap: 26px; justify-items: start; padding-block: clamp(96px, 16vh, 180px) clamp(32px, 6vh, 64px); }
-  /* Überschrift: groß und kräftig; beim Laden „fährt“ die Schrift aus Unschärfe und weiter Laufweite zusammen,
-     danach zieht ein Lichtschimmer über das Silber (pausiert mit dem Fotowechsel) */
-  .hero h1 { font-size: clamp(3.4rem, 0.6rem + 13vw, 13rem); line-height: 0.88; font-weight: 300; letter-spacing: -0.05em; filter: drop-shadow(0 6px 30px rgb(0 0 0 / 0.55)); }
-  .shine { transform-origin: left center; background: linear-gradient(105deg, transparent 42%, rgb(255 255 255 / 0.85) 50%, transparent 58%), linear-gradient(176deg, #ffffff 0%, #dfe3e8 38%, #8f97a3 58%, #e6e9ed 82%, #b9bfc8 100%); background-size: 260% 100%, 100% 100%; background-repeat: no-repeat; background-position: 100% 0, 0 0; -webkit-background-clip: text; background-clip: text; color: transparent; }
-  .shine--2 { background-image: linear-gradient(105deg, transparent 42%, rgb(255 255 255 / 0.85) 50%, transparent 58%), linear-gradient(176deg, #f4f6f9 0%, #c6cbd2 40%, #7d8591 60%, #dfe3e8 84%, #a9b0bb 100%); }
-  @media (forced-colors: active) { .shine { color: CanvasText; background: none; } }
-  :global(.js) .hero.title-in .shine { animation: track-in 1.3s cubic-bezier(0.2, 0.7, 0.15, 1) both, shimmer 4.5s ease-in-out 1.4s 3; }
-  :global(.js) .hero.title-in .shine--2 { animation-delay: 0.15s, 1.7s; }
-  .hero.paused .shine { animation-play-state: paused; }
-  /* nur transform/filter/opacity: kein Layoutsprung */
-  @keyframes track-in { from { transform: scale(1.14); filter: blur(16px); opacity: 0; } to { transform: none; filter: blur(0); opacity: 1; } }
-  @keyframes shimmer { 0% { background-position: 100% 0, 0 0; } 60%, 100% { background-position: 0% 0, 0 0; } }
-  .hero h1 > span { display: block; overflow: hidden; padding-bottom: 0.08em; margin-bottom: -0.08em; }
-  .hero h1 > span > span { display: inline-block; }
-  .hero h1 > span { white-space: nowrap; }
-  .hero .lead { color: #d9dde4; max-width: 36ch; text-shadow: 0 1px 16px rgb(0 0 0 / 0.6); }
-
-  .hero-foot { display: flex; align-items: center; justify-content: space-between; gap: 24px; padding-block: 18px 26px; border-top: 1px solid rgb(242 243 245 / 0.18); }
-  .caption { margin: 0; min-height: 44px; display: flex; align-items: center; }
-  .caption a { display: inline-flex; align-items: center; gap: 10px; color: #e6e9ee; text-decoration: none; font-size: var(--step--1); min-height: 44px; }
-  .caption a[hidden] { display: none; }
-  .caption a:hover { text-decoration: underline; }
-  .caption .dot { width: 8px; height: 8px; border-radius: 50%; background: var(--room); box-shadow: 0 0 12px var(--room); }
-  .ctrl { display: flex; align-items: center; gap: 6px; }
-  .seg { width: 44px; height: 44px; padding: 0; background: none; border: 0; cursor: pointer; display: grid; align-items: center; }
-  .seg span { display: block; height: 2px; background: rgb(242 243 245 / 0.28); border-radius: 2px; overflow: hidden; position: relative; }
-  .seg span::after { content: ""; position: absolute; inset: 0; background: var(--ink); transform: scaleX(0); transform-origin: left; }
-  .seg[aria-current="true"] span::after { animation: fill var(--slide, 6.5s) linear forwards; }
-  .hero.paused .seg[aria-current="true"] span::after, .hero.static .seg[aria-current="true"] span::after { animation: none; transform: scaleX(1); }
-  @keyframes fill { to { transform: scaleX(1); } }
-  .pause { width: 44px; height: 44px; margin-left: 6px; border-radius: 50%; border: 1px solid rgb(242 243 245 / 0.3); background: rgb(7 8 11 / 0.4); color: var(--ink); cursor: pointer; display: grid; place-items: center; }
-  .pause-ico { width: 10px; height: 12px; border-inline: 3px solid currentColor; }
-  .hero.paused .pause-ico { width: 0; height: 0; border-inline: 0; border-left: 10px solid currentColor; border-block: 6px solid transparent; margin-left: 3px; }
-  .hero.static .pause { display: none; }
-  /* Reduzierte Bewegung: Fotos wechseln weiter per Überblenden (pausierbar), aber ohne Zoom */
-  @media (prefers-reduced-motion: reduce) { :global(html:not(.fx-force)) .slide :global(img), :global(html:not(.fx-force)) .slide.is-active :global(img) { animation: none; transform: none; } :global(html:not(.fx-force)).js .rise > span > span { transform: none; transition: none; } }
-  @media (max-width: 640px) {
-    .hero-inner .btn-row { flex-direction: column; align-items: flex-start; }
-    .hero-foot { flex-direction: column; align-items: flex-start; gap: 4px; }
-    .shade { background: linear-gradient(0deg, rgb(7 8 11 / 0.94) 12%, rgb(7 8 11 / 0.62) 60%, rgb(7 8 11 / 0.4) 100%); }
-    .slide :global(img) { object-position: 50% 62%; }
-  }
-
   /* ---------- Räume ---------- */
   .head { display: grid; grid-template-columns: 1.1fr 0.9fr; align-items: end; gap: 32px; margin-bottom: clamp(40px, 6vw, 72px); }
   @media (max-width: 860px) { .head { grid-template-columns: 1fr; } }
@@ -543,31 +370,6 @@ const faq = [
   .city { font: 300 var(--step-2) / 1.2 var(--font-display); color: var(--ink-2); margin-top: 8px; }
   .visit-grid { display: grid; grid-template-columns: 1fr auto; gap: 32px; align-items: end; margin-top: clamp(40px, 6vw, 72px); padding-top: 32px; border-top: 1px solid var(--line); }
   @media (max-width: 960px) { .visit-grid { grid-template-columns: 1fr; } }
-  /* ---------- Einstieg: Zusatzzeile, Fakten ---------- */
-  .eyebrow { display: inline-flex; align-items: center; gap: 10px; font: 500 var(--step--1) / 1.3 var(--font-body); color: #e6e9ee; text-shadow: 0 1px 12px rgb(0 0 0 / 0.6); }
-  .eyebrow::before { content: ""; width: 8px; height: 8px; border-radius: 50%; background: var(--amber); box-shadow: 0 0 12px var(--amber); }
-  .hero-facts { list-style: none; margin: 4px 0 0; padding: 0; display: flex; flex-wrap: wrap; gap: 8px; }
-  .hero-facts li { padding: 7px 14px; border: 1px solid rgb(242 243 245 / 0.22); border-radius: 99px; background: rgb(7 8 11 / 0.55); backdrop-filter: blur(6px); -webkit-backdrop-filter: blur(6px); font-size: var(--step--1); color: #d9dde4; }
-  .hero-facts strong { color: var(--ink); font-weight: 500; }
-  .hero-facts .ex { color: var(--ink-2); }
-  @media (max-width: 640px) { .hero-cta { width: 100%; align-items: stretch !important; } .hero-cta .btn { width: 100%; } .hero-facts li { padding: 6px 11px; } }
-
-  /* ---------- Einstieg: Einblend-Folge, Equalizer, Scroll-Hinweis ---------- */
-  :global(.js) .hero .ld { opacity: 0; transform: translateY(22px); filter: blur(6px); transition: opacity 0.9s var(--ease), transform 0.9s var(--ease), filter 0.9s var(--ease); transition-delay: var(--d, 0s); }
-  :global(.js) .hero.title-in .ld { opacity: 1; transform: none; filter: none; }
-  .eyebrow::before { animation: pulse 2.4s ease-in-out 2; }
-  @keyframes pulse { 50% { box-shadow: 0 0 22px 4px var(--amber); transform: scale(1.25); } }
-  .eq { display: inline-flex; align-items: flex-end; align-self: center; gap: 3px; height: 18px; margin-right: 10px; }
-  .eq i { width: 3px; height: 100%; border-radius: 2px; background: var(--silver); transform-origin: bottom; animation: eq 1.1s ease-in-out infinite; }
-  .eq i:nth-child(2) { animation-delay: -0.3s; animation-duration: 0.9s; } .eq i:nth-child(3) { animation-delay: -0.6s; animation-duration: 1.3s; } .eq i:nth-child(4) { animation-delay: -0.15s; animation-duration: 0.8s; }
-  .hero.paused .eq i { animation-play-state: paused; }
-  @keyframes eq { 0%, 100% { transform: scaleY(0.25); } 50% { transform: scaleY(1); } }
-  .scroll-cue { position: absolute; left: 50%; bottom: 90px; width: 44px; height: 54px; margin-left: -22px; border: 0; border-radius: 16px; background: none; z-index: 2; cursor: pointer; padding: 0; }
-  .scroll-cue::before { content: ""; position: absolute; left: 9px; top: 6px; width: 26px; height: 42px; box-sizing: border-box; border: 1.5px solid rgb(242 243 245 / 0.45); border-radius: 14px; }
-  .scroll-cue::after { content: ""; position: absolute; left: 50%; top: 14px; width: 4px; height: 8px; margin-left: -2px; border-radius: 2px; background: var(--ink); animation: cue 1.8s ease-in-out 3; }
-  @keyframes cue { 0% { opacity: 0; transform: translateY(-4px); } 40% { opacity: 1; } 100% { opacity: 0; transform: translateY(14px); } }
-  @media (max-width: 900px), (max-height: 700px) { .scroll-cue { display: none; } }
-
   /* ---------- Raumfinder ---------- */
   .finder { background: var(--bg-2); border-bottom: 1px solid var(--line); }
   .finder-inner { display: grid; grid-template-columns: 0.8fr 2.2fr; gap: clamp(24px, 4vw, 56px); align-items: center; padding-block: clamp(40px, 6vw, 72px); }
@@ -652,98 +454,6 @@ const faq = [
 </style>
 
 <script>
-  // Startbereich: wechselnde Fotos (pausierbar, stoppt bei reduzierter Bewegung und verstecktem Tab)
-  const hero = document.querySelector<HTMLElement>("[data-hero]");
-  if (hero) {
-    const slides = [...hero.querySelectorAll<HTMLElement>("[data-slide]")];
-    const segs = [...hero.querySelectorAll<HTMLButtonElement>("[data-seg]")];
-    const caps = [...hero.querySelectorAll<HTMLElement>("[data-caption]")];
-    const pauseBtn = hero.querySelector<HTMLButtonElement>("[data-pause]")!;
-    const pauseLabel = hero.querySelector<HTMLElement>("[data-pause-label]")!;
-    let cur = 0, paused = false;
-    const show = (n: number) => {
-      cur = (n + slides.length) % slides.length;
-      slides[cur].classList.add("seen");
-      slides[(cur + 1) % slides.length].classList.add("seen"); // nächstes Foto vorladen
-      slides.forEach((s, i) => { s.classList.toggle("is-active", i === cur); s.toggleAttribute("aria-hidden", i !== cur); });
-      segs.forEach((b, i) => i === cur ? b.setAttribute("aria-current", "true") : b.removeAttribute("aria-current"));
-      caps.forEach((c, i) => (c.hidden = i !== cur));
-    };
-    const setPaused = (p: boolean) => {
-      paused = p; hero.classList.toggle("paused", p);
-      pauseBtn.setAttribute("aria-pressed", String(p));
-      pauseLabel.textContent = p ? "Bewegung fortsetzen" : "Bewegung anhalten";
-    };
-    // Weiter, sobald der Fortschrittsbalken des aktiven Fotos voll ist
-    segs.forEach((b, i) => {
-      b.addEventListener("click", () => show(i));
-      b.querySelector("span")!.addEventListener("animationend", () => { if (!paused && i === cur) show(cur + 1); });
-    });
-    pauseBtn.addEventListener("click", () => setPaused(!paused));
-    document.addEventListener("visibilitychange", () => { if (document.hidden && !paused) setPaused(true); });
-    // Überschrift nach dem Intro einblenden
-    const html = document.documentElement;
-    const ready = () => requestAnimationFrame(() => hero.classList.add("ready"));
-    // Mit Intro ist die Überschrift sofort da (das Intro ist die Einstiegsbewegung), ohne Intro steigt sie auf
-    if (html.classList.contains("intro-play")) hero.classList.add("ready", "no-rise"); else ready();
-    // Schrift-Effekt erst zeigen, wenn das Intro weg ist (vorher läge es unsichtbar darunter)
-    const titleIn = () => requestAnimationFrame(() => hero.classList.add("title-in"));
-    if (html.classList.contains("intro-play")) {
-      new MutationObserver((_, o) => { if (html.classList.contains("intro-done")) { o.disconnect(); titleIn(); } }).observe(html, { attributes: true, attributeFilter: ["class"] });
-    } else titleIn();
-    // Staub im Scheinwerferlicht + leise Wellenform (Canvas). Stoppt bei Pause, verstecktem Tab,
-    // außerhalb des Sichtbereichs und bei reduzierter Bewegung (außer „Effekte erzwingen“).
-    const cv = hero.querySelector<HTMLCanvasElement>("[data-hero-canvas]");
-    const calm = matchMedia("(prefers-reduced-motion: reduce)").matches && !html.classList.contains("fx-force");
-    const ctx = cv?.getContext("2d");
-    if (cv && ctx && !calm) {
-      let w = 0, h = 0, dpr = 1, raf = 0, visible = true, mx = -1e4, my = -1e4, t = 0;
-      const parts: { x: number; y: number; r: number; vx: number; vy: number; a: number }[] = [];
-      const size = () => {
-        dpr = Math.min(devicePixelRatio || 1, 1.5);
-        w = cv.clientWidth; h = cv.clientHeight;
-        cv.width = w * dpr; cv.height = h * dpr; ctx.setTransform(dpr, 0, 0, dpr, 0, 0);
-        const n = Math.round(Math.min(90, (w * h) / 14000));
-        parts.length = 0;
-        for (let i = 0; i < n; i++) parts.push({ x: Math.random() * w, y: Math.random() * h, r: 0.6 + Math.random() * 1.8, vx: (Math.random() - 0.5) * 0.15, vy: -0.08 - Math.random() * 0.25, a: 0.15 + Math.random() * 0.5 });
-      };
-      const frame = () => {
-        t += 0.016; ctx.clearRect(0, 0, w, h);
-        for (const p of parts) {
-          const dx = p.x - mx, dy = p.y - my, d2 = dx * dx + dy * dy;
-          if (d2 < 14400) { const f = (1 - d2 / 14400) * 0.9; p.x += (dx / Math.sqrt(d2 + 1)) * f; p.y += (dy / Math.sqrt(d2 + 1)) * f; }
-          p.x += p.vx + Math.sin(t + p.r * 3) * 0.08; p.y += p.vy;
-          if (p.y < -6) { p.y = h + 6; p.x = Math.random() * w; }
-          if (p.x < -6) p.x = w + 6; else if (p.x > w + 6) p.x = -6;
-          ctx.globalAlpha = p.a * (0.7 + 0.3 * Math.sin(t * 2 + p.x));
-          ctx.fillStyle = "#e6ecf7"; ctx.beginPath(); ctx.arc(p.x, p.y, p.r, 0, 6.283); ctx.fill();
-        }
-        // Wellenform am unteren Rand
-        ctx.globalAlpha = 0.22; ctx.strokeStyle = "#d5dae1"; ctx.lineWidth = 1.2; ctx.beginPath();
-        const base = h * 0.86;
-        for (let x = 0; x <= w; x += 6) {
-          const env = Math.sin((x / w) * Math.PI);
-          const y = base + env * (Math.sin(x * 0.021 + t * 2.2) * 14 + Math.sin(x * 0.007 - t * 1.3) * 10);
-          x ? ctx.lineTo(x, y) : ctx.moveTo(x, y);
-        }
-        ctx.stroke(); ctx.globalAlpha = 1;
-        raf = requestAnimationFrame(frame);
-      };
-      const run = () => { cancelAnimationFrame(raf); raf = 0; if (visible && !document.hidden && !hero.classList.contains("paused")) raf = requestAnimationFrame(frame); };
-      size(); run();
-      addEventListener("resize", () => { size(); }, { passive: true });
-      new IntersectionObserver(([e]) => { visible = e.isIntersecting; run(); }).observe(hero);
-      new MutationObserver(run).observe(hero, { attributes: true, attributeFilter: ["class"] });
-      document.addEventListener("visibilitychange", run);
-      hero.addEventListener("pointermove", (e) => {
-        const b = cv.getBoundingClientRect(); mx = e.clientX - b.left; my = e.clientY - b.top;
-        hero.style.setProperty("--mx", ((mx / b.width - 0.5) * 2).toFixed(3)); hero.style.setProperty("--my", ((my / b.height - 0.5) * 2).toFixed(3));
-      }, { passive: true });
-      hero.addEventListener("pointerleave", () => { mx = my = -1e4; });
-    }
-    // Nächstes Foto vorladen, sobald die Seite steht
-    addEventListener("load", () => setTimeout(() => slides[1]?.classList.add("seen"), 1500), { once: true });
-  }
   // 3D-Tunnel: Fotos fliegen beim Scrollen auf dich zu (Seiten-Scroll, kein Scroll-Kapern)
   const tunnel = document.querySelector<HTMLElement>("[data-tunnel]");
   if (tunnel && !(matchMedia("(prefers-reduced-motion: reduce)").matches && !document.documentElement.classList.contains("fx-force"))) {
@@ -796,8 +506,6 @@ const faq = [
     }));
     frame();
   }
-  // Scroll-Hinweis
-  document.querySelector("[data-scroll-cue]")?.addEventListener("click", () => document.querySelector("[data-finder]")?.scrollIntoView({ behavior: "smooth" }));
   // Nach oben
   const toTop = document.querySelector<HTMLElement>("[data-to-top]");
   if (toTop) {
