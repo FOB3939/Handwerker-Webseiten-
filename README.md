@@ -198,3 +198,17 @@ Schnell-Check-Liste mit Google-Maps-Links und Reserve-Kandidaten.
 - Reserve: A1 Jukic Bau (Unterhaching): https://claude.ai/artifact/CHHYSofYFF81HTTPehnGmf
 - Reserve: Thomas Sachse Bodenleger (Grasbrunn): https://claude.ai/artifact/1SqCDJSdyiEH9Q8DHqpYFN
 - Reserve: Hausmeisterservice Martinhilfteuch (Geretsried): https://claude.ai/artifact/W5s4zLtNapkF6ebDvjNzYx
+
+## Entwürfe 2026-10-26
+
+- WhatsApp-Entwürfe: https://claude.ai/artifact/Sbi5kD3bUudWZGwXaUkft2
+- Hausmeisterservice & Garten Sincek (Pähl): https://claude.ai/artifact/7CaM2E1tBhmA91hUjpPYek
+- Tonino Trockenbau (Dießen am Ammersee): https://claude.ai/artifact/RpWaJg26JButYTMv3ZwPB6
+- Reserve: Christian Kammerer Haus & Gartenservice (Poing): https://claude.ai/artifact/5vwqvRwa8K3SMyYZN2hiTh
+- Reserve: Anes Sabanovic Elektro (Riemerling): https://claude.ai/artifact/WSb7FDsLepHF7pjRRxrvgg
+- Reserve: Zeki Bugari Fliesenleger (Oberschleißheim): https://claude.ai/artifact/MsQ5V4mseYPq94sBVJDAzN
+- Reserve: Albín Horváth Bautenschutz (Herrsching): https://claude.ai/artifact/XNB6CNK2n1fJQAeCmW2tFk
+- Reserve: Bremauer Fliesenverlegung (Weilheim): https://claude.ai/artifact/QtL2cMVkUirfv1MgtF7AZu
+- Reserve: Zech Schreinerei (Bergkirchen): https://claude.ai/artifact/H8unStgniJYkXSRFAhxiBL
+- Reserve: Rainer Schneller Spenglerei (Puchheim): https://claude.ai/artifact/2L8g8185EvbheAsV2Y18GS
+- Reserve: Jürgen Diepold Maler (Kaufering): https://claude.ai/artifact/1hG3o1E64VGU7Jh3XuJWJQ

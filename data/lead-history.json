@@ -1918,6 +1918,126 @@
       "googleLink": "https://www.google.com/maps/search/?api=1&query=Hausmeisterservice%20Martinhilfteuch%20K%C3%B6nigsberger%20Weg%209%2C%2082538%20Geretsried",
       "googleVerified": false,
       "reserve": true
+    },
+    {
+      "company": "Christian Kammerer Haus & Gartenservice",
+      "slug": "christian-kammerer-haus-gartenservice-poing",
+      "trade": "Hausmeister- & Gartenservice",
+      "city": "Poing",
+      "date": "2026-10-26",
+      "phone": "0162 6282520",
+      "email": null,
+      "googleLink": "https://www.google.com/maps/search/?api=1&query=Christian%20Kammerer%20Haus%20%26%20Gartenservice%20Watzmannstr.%201%2C%2085586%20Poing",
+      "googleVerified": false,
+      "reserve": true
+    },
+    {
+      "company": "Anes Sabanovic Elektro",
+      "slug": "anes-sabanovic-elektro-riemerling",
+      "trade": "Elektroinstallation",
+      "city": "Riemerling",
+      "date": "2026-10-26",
+      "phone": "0172 7568812",
+      "email": null,
+      "googleLink": "https://www.google.com/maps/search/?api=1&query=Anes%20Sabanovic%20Elektro%20Auenstr.%2021%2C%2085521%20Riemerling",
+      "googleVerified": false,
+      "reserve": true
+    },
+    {
+      "company": "Zech Schreinerei",
+      "slug": "zech-schreinerei-bergkirchen",
+      "trade": "Schreinerei",
+      "city": "Bergkirchen",
+      "date": "2026-10-26",
+      "phone": "08131 667981",
+      "email": null,
+      "googleLink": "https://www.google.com/maps/search/?api=1&query=Zech%20Schreinerei%20Gra%C3%9Flfinger%20Str.%2055%2C%2085232%20Bergkirchen%20%28Feldgeding%29",
+      "googleVerified": false,
+      "reserve": true
+    },
+    {
+      "company": "Rainer Schneller Spenglerei",
+      "slug": "rainer-schneller-spenglerei-puchheim",
+      "trade": "Spenglerei",
+      "city": "Puchheim",
+      "date": "2026-10-26",
+      "phone": "089 89009270",
+      "email": null,
+      "googleLink": "https://www.google.com/maps/search/?api=1&query=Rainer%20Schneller%20Spenglerei%20Lagerstr.%2012%2C%2082178%20Puchheim",
+      "googleVerified": false,
+      "reserve": true
+    },
+    {
+      "company": "Zeki Bugari Fliesenleger",
+      "slug": "zeki-bugari-fliesenleger-oberschleissheim",
+      "trade": "Fliesenleger",
+      "city": "Oberschleißheim",
+      "date": "2026-10-26",
+      "phone": "01525 1528493",
+      "email": null,
+      "googleLink": "https://www.google.com/maps/search/?api=1&query=Zeki%20Bugari%20Fliesenleger%20Am%20Stutenanger%206%2C%2085764%20Oberschlei%C3%9Fheim",
+      "googleVerified": false,
+      "reserve": true
+    },
+    {
+      "company": "Albín Horváth Bautenschutz",
+      "slug": "albin-horvath-bautenschutz-herrsching",
+      "trade": "Malerarbeiten & Bautenschutz",
+      "city": "Herrsching",
+      "date": "2026-10-26",
+      "phone": "0170 1692188",
+      "email": null,
+      "googleLink": "https://www.google.com/maps/search/?api=1&query=Alb%C3%ADn%20Horv%C3%A1th%20Bautenschutz%20Summerstr.%2025%2C%2082211%20Herrsching",
+      "googleVerified": false,
+      "reserve": true
+    },
+    {
+      "company": "Hausmeisterservice & Garten-Landschaftsbau Sincek",
+      "slug": "hausmeisterservice-sincek-paehl",
+      "trade": "Hausmeisterservice & Gartenpflege",
+      "city": "Pähl",
+      "date": "2026-10-26",
+      "phone": "0151 43568644",
+      "email": "zvonko-sincek@web.de",
+      "googleLink": "https://www.google.com/maps/search/?api=1&query=Hausmeisterservice%20%26%20Garten-Landschaftsbau%20Sincek%20Hohe%20Rain%C3%A4ckerstr.%208%2C%2082396%20P%C3%A4hl",
+      "googleVerified": false,
+      "reserve": false
+    },
+    {
+      "company": "Bremauer Fliesenverlegung",
+      "slug": "bremauer-fliesenverlegung-weilheim",
+      "trade": "Fliesenleger",
+      "city": "Weilheim in Oberbayern",
+      "date": "2026-10-26",
+      "phone": "0176 67470288",
+      "email": null,
+      "googleLink": "https://www.google.com/maps/search/?api=1&query=Bremauer%20Fliesenverlegung%20Unterer%20Graben%2019%2C%2082362%20Weilheim%20in%20Oberbayern",
+      "googleVerified": false,
+      "reserve": true
+    },
+    {
+      "company": "Tonino Trockenbau",
+      "slug": "tonino-trockenbau-diessen",
+      "trade": "Trockenbau",
+      "city": "Dießen am Ammersee",
+      "date": "2026-10-26",
+      "phone": "01578 7972557",
+      "email": "v.zafirev95@gmail.com",
+      "googleLink": "https://www.google.com/maps/search/?api=1&query=Tonino%20Trockenbau%20Birkenau%2027%20A%2C%2086911%20Die%C3%9Fen%20%28Dettenschwang%29",
+      "googleVerified": false,
+      "reserve": false
+    },
+    {
+      "company": "Jürgen Diepold Maler",
+      "slug": "juergen-diepold-maler-kaufering",
+      "trade": "Malerbetrieb",
+      "city": "Kaufering",
+      "date": "2026-10-26",
+      "phone": "08191 6571382",
+      "email": null,
+      "googleLink": "https://www.google.com/maps/search/?api=1&query=J%C3%BCrgen%20Diepold%20Maler%20Jahnstr.%2037%2C%2086916%20Kaufering",
+      "googleVerified": false,
+      "reserve": true
     }
   ],
   "rejected": [
@@ -4469,6 +4589,221 @@
       "company": "Wolf & Partner Rollladen (Neubiberg)",
       "reason": "Website",
       "date": "2026-10-25"
+    },
+    {
+      "company": "Christian Merkl Fliesenleger (Weilheim)",
+      "reason": "bereits Website-Entwurf (20.10.)",
+      "date": "2026-10-26"
+    },
+    {
+      "company": "Manuel Kaußner GaLaBau (Pliening)",
+      "reason": "Website",
+      "date": "2026-10-26"
+    },
+    {
+      "company": "Gartenpflege Passauer (Forstinning)",
+      "reason": "E-Mail auf eigener Domain",
+      "date": "2026-10-26"
+    },
+    {
+      "company": "Malermeister Lindermeier (Unterhaching)",
+      "reason": "Website",
+      "date": "2026-10-26"
+    },
+    {
+      "company": "PEREZ Dienstleistungsservice (Forstinning)",
+      "reason": "Website",
+      "date": "2026-10-26"
+    },
+    {
+      "company": "Elektrodienst Seif (Höhenkirchen-Siegertsbrunn)",
+      "reason": "kein kleiner Betrieb (über 700 Bewertungen)",
+      "date": "2026-10-26"
+    },
+    {
+      "company": "Catalin Ioan / Renovierung Catalin (Ismaning)",
+      "reason": "Website",
+      "date": "2026-10-26"
+    },
+    {
+      "company": "E&E Handwerker München (Unterföhring)",
+      "reason": "Website",
+      "date": "2026-10-26"
+    },
+    {
+      "company": "Ralph Grauel Küchentechnik (Garching)",
+      "reason": "Website",
+      "date": "2026-10-26"
+    },
+    {
+      "company": "Malermeister Michael Böltl (Kirchheim)",
+      "reason": "Website",
+      "date": "2026-10-26"
+    },
+    {
+      "company": "Renovierungen-Morgenstern (Kirchheim)",
+      "reason": "Website",
+      "date": "2026-10-26"
+    },
+    {
+      "company": "Thomas Zimmermann GaLaBau (Feldkirchen)",
+      "reason": "Website",
+      "date": "2026-10-26"
+    },
+    {
+      "company": "Fliesenlegermeisterbetrieb Kuske (Unterschleißheim)",
+      "reason": "Website",
+      "date": "2026-10-26"
+    },
+    {
+      "company": "Rolladen Becker Bauelemente (Unterschleißheim)",
+      "reason": "GmbH, Firmendomain",
+      "date": "2026-10-26"
+    },
+    {
+      "company": "Schattenmeister Bauelemente (Unterschleißheim)",
+      "reason": "GmbH",
+      "date": "2026-10-26"
+    },
+    {
+      "company": "Fliesen Thaller (Ismaning)",
+      "reason": "GmbH, Website",
+      "date": "2026-10-26"
+    },
+    {
+      "company": "Die Fliese (Ismaning)",
+      "reason": "GmbH",
+      "date": "2026-10-26"
+    },
+    {
+      "company": "Oberlandfliesen Julian Müller (Penzberg)",
+      "reason": "Website",
+      "date": "2026-10-26"
+    },
+    {
+      "company": "artKeramika (Peißenberg)",
+      "reason": "Website",
+      "date": "2026-10-26"
+    },
+    {
+      "company": "Tobias Greinwald Holz & Bautenschutz (Seeshaupt)",
+      "reason": "GmbH, Website",
+      "date": "2026-10-26"
+    },
+    {
+      "company": "Fliesen Stefanic (Weilheim)",
+      "reason": "Website",
+      "date": "2026-10-26"
+    },
+    {
+      "company": "RenoMaxx (Weilheim)",
+      "reason": "GmbH, Website",
+      "date": "2026-10-26"
+    },
+    {
+      "company": "Fliesen Cetin (Weilheim)",
+      "reason": "Website",
+      "date": "2026-10-26"
+    },
+    {
+      "company": "Zimmerei Hornsteiner (Dießen)",
+      "reason": "Website",
+      "date": "2026-10-26"
+    },
+    {
+      "company": "Fliesen Braun (Schwabmünchen)",
+      "reason": "Website",
+      "date": "2026-10-26"
+    },
+    {
+      "company": "Christopher Dumke Gartengestaltung (Kissing)",
+      "reason": "Website",
+      "date": "2026-10-26"
+    },
+    {
+      "company": "Thomas Mayrock Maler (Kaufering)",
+      "reason": "Website",
+      "date": "2026-10-26"
+    },
+    {
+      "company": "Keller Johannes Innenausstatter (Kaufering)",
+      "reason": "E-Mail auf eigener Domain",
+      "date": "2026-10-26"
+    },
+    {
+      "company": "Lanzinger Franz GmbH (Prittriching)",
+      "reason": "GmbH",
+      "date": "2026-10-26"
+    },
+    {
+      "company": "Hammer Spenglerei GmbH (Prittriching)",
+      "reason": "GmbH",
+      "date": "2026-10-26"
+    },
+    {
+      "company": "Elektro Steer (Schondorf)",
+      "reason": "E-Mail auf eigener Domain",
+      "date": "2026-10-26"
+    },
+    {
+      "company": "MSTOOLS Elektrotechnik (Inning)",
+      "reason": "Website",
+      "date": "2026-10-26"
+    },
+    {
+      "company": "Simone Opdahl (Feldafing)",
+      "reason": "kein Handwerksbetrieb, Website",
+      "date": "2026-10-26"
+    },
+    {
+      "company": "Christian Reiter Fensterfachbetrieb (Seefeld)",
+      "reason": "Website",
+      "date": "2026-10-26"
+    },
+    {
+      "company": "Zimmerei Höfler (Andechs)",
+      "reason": "Website",
+      "date": "2026-10-26"
+    },
+    {
+      "company": "Malermeister Michael Casa (Tutzing)",
+      "reason": "Website",
+      "date": "2026-10-26"
+    },
+    {
+      "company": "Malerbetrieb R. Dornauer & Sohn (Herrsching)",
+      "reason": "Website",
+      "date": "2026-10-26"
+    },
+    {
+      "company": "Franz Baier Sanitär (Weßling)",
+      "reason": "E-Mail auf eigener Domain",
+      "date": "2026-10-26"
+    },
+    {
+      "company": "Jürgen Baumgartner Elektro (Inning)",
+      "reason": "Website",
+      "date": "2026-10-26"
+    },
+    {
+      "company": "Josef Hugo Malerbetrieb (Planegg)",
+      "reason": "Website",
+      "date": "2026-10-26"
+    },
+    {
+      "company": "Bodenliebe (Kirchheim)",
+      "reason": "GmbH",
+      "date": "2026-10-26"
+    },
+    {
+      "company": "Haider Bautenschutz (Moosburg)",
+      "reason": "nicht auffindbar",
+      "date": "2026-10-26"
+    },
+    {
+      "company": "KRAS Gebäudereinigung (Moosinning)",
+      "reason": "nicht auffindbar",
+      "date": "2026-10-26"
     }
   ]
 }
