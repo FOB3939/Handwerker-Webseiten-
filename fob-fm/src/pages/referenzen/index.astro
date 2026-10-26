@@ -1,0 +1,45 @@
+---
+import Base from "../../layouts/Base.astro";
+import PageHead from "../../components/PageHead.astro";
+import Img from "../../components/Img.astro";
+import BeforeAfter from "../../components/BeforeAfter.astro";
+import { COMPANY } from "../../config/site";
+import { u } from "../../lib/url";
+const items = [
+  { img: "wcWand", t: "Wand-WC montiert", d: "Spülrandloses Wand-WC mit neuem Sitz vor dunklen Fliesen." },
+  { img: "wcStand", t: "Stand-WC erneuert", d: "Neues WC mit Spülkasten, Anschluss über Edelstahl-Flexschlauch." },
+  { img: "waschtisch", t: "Waschtisch & Armatur", d: "Neue Einhebelarmatur und Ablaufventil am Waschbecken." },
+  { img: "boden", t: "Vinylboden verlegt", d: "Grauer Vinylboden in Eichenoptik mit passenden Sockelleisten." },
+  { img: "terrasse", t: "Holzterrasse erneuert", d: "Neue geriffelte Holzdielen auf der Dachterrasse." },
+] as const;
+---
+<Base title="Referenzen – FOB Haustechnik Hausmeisterservice" description="Referenzen von FOB Haustechnik: Fassade und Malerarbeiten vorher/nachher, Sanitärmontage, Vinylboden und Holzterrasse." current="/referenzen/">
+  <PageHead tag="Referenzen" title="Aus alt mach neu" lead="Ein Auszug aus unseren Arbeiten. Mehr Projekte zeigen wir regelmäßig auf Instagram." >
+    <a class="btn btn--line" href={COMPANY.instagram} target="_blank" rel="noopener">@fob.haustechnik auf Instagram<span class="visually-hidden"> (öffnet neuen Tab)</span></a>
+  </PageHead>
+  <section class="section section--tight">
+    <div class="wrap">
+      <h2 class="h">Vorher / Nachher</h2>
+      <div class="ba-grid">
+        <BeforeAfter before="fassadeVorher" after="fassadeNachher" label="Fassade neu gestrichen – mit unserem Partner-Malermeister" ratio="1136 / 1330" />
+        <BeforeAfter before="wandVorher" after="wandNachher" label="Malerarbeiten innen: Farbe und Spachteltechnik nach Kundenwunsch" ratio="1170 / 1160" />
+      </div>
+      <h2 class="h">Weitere Arbeiten</h2>
+      <ul class="gal">
+        {items.map((x) => <li><div class="pic"><Img name={x.img} sizes="(min-width: 900px) 33vw, 100vw" /></div><h3>{x.t}</h3><p class="muted">{x.d}</p></li>)}
+      </ul>
+      <div class="btn-row more"><a class="btn btn--gold" href={u("/kontakt/#anfrage")}>Eigenes Projekt anfragen</a></div>
+    </div>
+  </section>
+</Base>
+<style>
+  .h { font-size: var(--step-2); text-transform: uppercase; font-variation-settings: "wdth" 70; margin: 12px 0 20px; }
+  .ba-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 20px; align-items: start; margin-bottom: 56px; }
+  .gal { list-style: none; margin: 0; padding: 0; display: grid; grid-template-columns: repeat(3, 1fr); gap: 20px; }
+  .gal li { display: grid; gap: 8px; align-content: start; }
+  .pic { aspect-ratio: 4 / 5; overflow: hidden; border-radius: var(--radius); }
+  .pic :global(img) { width: 100%; height: 100%; object-fit: cover; }
+  .more { margin-top: 40px; }
+  @media (max-width: 900px) { .gal { grid-template-columns: 1fr 1fr; } }
+  @media (max-width: 700px) { .ba-grid, .gal { grid-template-columns: 1fr; } }
+</style>

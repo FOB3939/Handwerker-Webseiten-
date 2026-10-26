@@ -1,0 +1,44 @@
+---
+import Logo from "./Logo.astro";
+import Icon from "./Icon.astro";
+import { COMPANY, NAV } from "../config/site";
+import { u } from "../lib/url";
+---
+<footer class="site-footer dark">
+  <div class="wrap grid">
+    <div class="col">
+      <a class="brand" href={u("/")}><Logo /><span class="visually-hidden"> – Startseite</span></a>
+      <p class="muted">{COMPANY.slogan}</p>
+    </div>
+    <div class="col">
+      <h2 class="fh">Seiten</h2>
+      <ul>{NAV.map((n) => <li><a href={u(n.href)}>{n.label}</a></li>)}</ul>
+    </div>
+    <div class="col">
+      <h2 class="fh">Kontakt</h2>
+      <ul>
+        <li><span>{COMPANY.street}<br />{COMPANY.zip} {COMPANY.city}</span></li>
+        <li><a href={`mailto:${COMPANY.email}`}><Icon name="mail" />{COMPANY.email}</a></li>
+        {COMPANY.phone && COMPANY.phoneHref && <li><a href={COMPANY.phoneHref}><Icon name="phone" />{COMPANY.phone}</a></li>}
+        <li><a href={COMPANY.instagram} target="_blank" rel="noopener"><Icon name="insta" />Instagram<span class="visually-hidden"> (öffnet neuen Tab)</span></a></li>
+      </ul>
+    </div>
+  </div>
+  <div class="wrap legal">
+    <p>© {new Date().getFullYear()} {COMPANY.legalName ?? COMPANY.name}</p>
+    <p><a href={u("/impressum/")}>Impressum</a><a href={u("/datenschutz/")}>Datenschutz</a></p>
+  </div>
+</footer>
+<style>
+  .site-footer { padding-block: clamp(56px, 8vw, 96px) 28px; border-top: 6px solid var(--gold); }
+  .grid { display: grid; grid-template-columns: 1.4fr 1fr 1.2fr; gap: 40px; }
+  .col { display: grid; gap: 14px; align-content: start; justify-items: start; }
+  .brand { color: var(--ink-d); text-decoration: none; min-height: 48px; display: inline-flex; align-items: center; }
+  .fh { font-size: var(--step-1); }
+  ul { list-style: none; margin: 0; padding: 0; display: grid; gap: 4px; color: var(--ink-d2); }
+  li a, .legal a { display: inline-flex; align-items: center; gap: 8px; min-height: 44px; text-decoration-color: var(--gold); text-underline-offset: 4px; }
+  li a :global(svg) { width: 18px; height: 18px; }
+  .legal { display: flex; flex-wrap: wrap; justify-content: space-between; gap: 12px; margin-top: 48px; padding-top: 20px; border-top: 1px solid var(--line-d); color: var(--ink-d2); font-size: var(--step--1); }
+  .legal p { display: flex; gap: 18px; align-items: center; }
+  @media (max-width: 820px) { .grid { grid-template-columns: 1fr; gap: 32px; } }
+</style>

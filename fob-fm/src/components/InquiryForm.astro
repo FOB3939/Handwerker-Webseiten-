@@ -1,0 +1,55 @@
+---
+// Anfrage: bereitet eine E-Mail im eigenen Mailprogramm vor (kein Server, keine vorgetäuschte Bestätigung)
+import { COMPANY } from "../config/site";
+interface Props { topic?: "haustechnik" | "waermepumpe" }
+const { topic = "haustechnik" } = Astro.props;
+---
+<form class="form" data-inquiry novalidate data-mail={COMPANY.email}>
+  <div class="row">
+    <label>Name<input name="name" autocomplete="name" required /></label>
+    <label>Telefon oder E-Mail<input name="contact" autocomplete="email" required /></label>
+  </div>
+  <div class="row">
+    <label>PLZ und Ort<input name="place" autocomplete="postal-code" /></label>
+    <label>Worum geht es?
+      <select name="topic">
+        <option value="Haustechnik / Reparatur" selected={topic === "haustechnik"}>Haustechnik / Reparatur</option>
+        <option value="Malerarbeiten">Malerarbeiten</option>
+        <option value="Böden / Terrasse">Böden / Terrasse</option>
+        <option value="Gebäudereinigung / Hausmeister">Gebäudereinigung / Hausmeister</option>
+        <option value="Wärmepumpe & Förderung" selected={topic === "waermepumpe"}>Wärmepumpe &amp; Förderung</option>
+      </select>
+    </label>
+  </div>
+  <label>Dein Anliegen<textarea name="message" rows="5" required></textarea></label>
+  <p class="err" role="alert" data-err></p>
+  <button class="btn btn--gold" type="submit">E-Mail vorbereiten</button>
+  <p class="hint muted">„E-Mail vorbereiten“ öffnet dein E-Mail-Programm mit deinen Angaben an {COMPANY.email}. Gesendet wird erst, wenn du dort auf Senden tippst.</p>
+</form>
+<style>
+  .form { display: grid; gap: 16px; }
+  .row { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; }
+  label { display: grid; gap: 6px; font-weight: 700; font-size: var(--step--1); }
+  input, select, textarea { width: 100%; min-height: 50px; padding: 12px 14px; border-radius: var(--radius); border: 2px solid #8a8f96; background: var(--white); color: var(--ink); font: 400 1rem / 1.4 var(--font); }
+  input:focus-visible, select:focus-visible, textarea:focus-visible { outline: 3px solid var(--gold); outline-offset: 1px; border-color: var(--graphite); }
+  [aria-invalid="true"] { border-color: var(--copper); }
+  .err { min-height: 1.4em; color: var(--copper); font-weight: 700; font-size: var(--step--1); }
+  .hint { font-size: var(--step--1); }
+  .form .btn { justify-self: start; }
+  @media (max-width: 640px) { .row { grid-template-columns: 1fr; } .form .btn { justify-self: stretch; } }
+</style>
+<script>
+  document.querySelectorAll<HTMLFormElement>("[data-inquiry]").forEach((f) => {
+    f.addEventListener("submit", (e) => {
+      e.preventDefault();
+      const v = (n: string) => (f.elements.namedItem(n) as HTMLInputElement).value.trim();
+      const err = f.querySelector<HTMLElement>("[data-err]")!;
+      const miss = ["name", "contact", "message"].filter((n) => !v(n));
+      ["name", "contact", "message"].forEach((n) => (f.elements.namedItem(n) as HTMLElement).setAttribute("aria-invalid", String(miss.includes(n))));
+      if (miss.length) { err.textContent = "Bitte Name, Kontakt und dein Anliegen ausfüllen."; (f.elements.namedItem(miss[0]) as HTMLElement).focus(); return; }
+      err.textContent = "";
+      const body = `Name: ${v("name")}\nKontakt: ${v("contact")}\nOrt: ${v("place")}\nThema: ${v("topic")}\n\n${v("message")}`;
+      location.href = `mailto:${f.dataset.mail}?subject=${encodeURIComponent("Anfrage: " + v("topic"))}&body=${encodeURIComponent(body)}`;
+    });
+  });
+</script>

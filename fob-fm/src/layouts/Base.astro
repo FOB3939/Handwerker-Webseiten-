@@ -1,0 +1,51 @@
+---
+import "@fontsource-variable/archivo/wdth.css";
+import "../styles/global.css";
+import Header from "../components/Header.astro";
+import Footer from "../components/Footer.astro";
+import { SITE, COMPANY } from "../config/site";
+import { u } from "../lib/url";
+import { assertProduction } from "../lib/prod";
+if (!SITE.preview) assertProduction();
+
+interface Props { title: string; description: string; current?: string; jsonld?: boolean }
+const { title, description, current, jsonld = false } = Astro.props;
+const canonical = new URL(Astro.url.pathname, Astro.site).href;
+const ld = {
+  "@context": "https://schema.org", "@type": "HomeAndConstructionBusiness", name: COMPANY.name, slogan: COMPANY.slogan, url: Astro.site?.href, email: COMPANY.email,
+  address: { "@type": "PostalAddress", streetAddress: COMPANY.street, postalCode: COMPANY.zip, addressLocality: COMPANY.city, addressCountry: "DE" },
+  ...(COMPANY.phone ? { telephone: COMPANY.phone } : {}), sameAs: [COMPANY.instagram],
+};
+---
+<!doctype html>
+<html lang="de">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+    <title>{title}</title>
+    <meta name="description" content={description} />
+    <meta name="robots" content={SITE.preview ? "noindex, nofollow" : "index, follow"} />
+    <link rel="canonical" href={canonical} />
+    <link rel="icon" href={u("/favicon.svg")} type="image/svg+xml" />
+    <meta name="theme-color" content="#17191c" />
+    <meta property="og:type" content="website" />
+    <meta property="og:locale" content="de_DE" />
+    <meta property="og:site_name" content={COMPANY.name} />
+    <meta property="og:title" content={title} />
+    <meta property="og:description" content={description} />
+    {jsonld && !SITE.preview && <script type="application/ld+json" set:html={JSON.stringify(ld)} />}
+    <script is:inline>document.documentElement.classList.add("js");</script>
+  </head>
+  <body>
+    <a class="skip-link" href="#inhalt">Zum Inhalt springen</a>
+    {SITE.preview && <div class="preview-bar" role="note">Website-Entwurf – Inhalte und Bilder vor der Veröffentlichung prüfen. Telefonnummer, Impressum und Förderangaben sind noch offen.</div>}
+    <Header current={current} />
+    <main id="inhalt" tabindex="-1"><slot /></main>
+    <Footer />
+  </body>
+</html>
+<style is:global>
+  .skip-link { position: absolute; left: 12px; top: -60px; z-index: 300; padding: 12px 16px; border-radius: 6px; background: var(--graphite); color: var(--paper); font-weight: 700; }
+  .skip-link:focus { top: 12px; }
+  main:focus { outline: none; }
+</style>

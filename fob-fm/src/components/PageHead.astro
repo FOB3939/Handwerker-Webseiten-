@@ -1,0 +1,17 @@
+---
+interface Props { tag?: string; title: string; lead?: string }
+const { tag, title, lead } = Astro.props;
+---
+<section class="phead dark">
+  <div class="wrap inner">
+    {tag && <p class="tag">{tag}</p>}
+    <h1>{title}</h1>
+    {lead && <p class="lead muted">{lead}</p>}
+    <slot />
+  </div>
+</section>
+<style>
+  .phead { border-bottom: 6px solid var(--gold); background: radial-gradient(60% 120% at 90% 0%, #262b31, var(--graphite) 70%); }
+  .inner { display: grid; gap: 18px; justify-items: start; padding-block: clamp(48px, 7vw, 96px); }
+  h1 { font-size: var(--step-4); font-variation-settings: "wdth" 66; text-transform: uppercase; line-height: 0.92; }
+</style>

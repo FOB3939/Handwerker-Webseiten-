@@ -1,0 +1,75 @@
+/* FOB Haustechnik – Designsystem „Bauplan“
+   Graphit und Papier, Gold aus dem Firmenzeichen für Aktionen, Kupfer für Hinweise, Eisblau nur für Luft/Wärmepumpe.
+   Schrift: Archivo – schmal (wdth 72) und kräftig für Überschriften wie auf dem Schild, normal für Text. */
+:root {
+  --graphite: #17191c;
+  --graphite-2: #22262b;
+  --steel: #343a41;
+  --paper: #f3f1ec;
+  --paper-2: #e8e4db;
+  --white: #ffffff;
+  --gold: #d9a21b;
+  --gold-2: #ecb83a;
+  --copper: #9c4325;       /* Hinweise, 5,9:1 auf Papier */
+  --ice: #8fd0ef;
+  --ink: #17191c;
+  --ink-2: #4f555c;        /* 7,2:1 auf Papier */
+  --ink-d: #f3f1ec;
+  --ink-d2: #b9bec5;       /* 9:1 auf Graphit */
+  --line: #d9d4c9;
+  --line-d: rgb(243 241 236 / 0.14);
+
+  --font: "Archivo Variable", "Archivo", system-ui, sans-serif;
+  --step--1: clamp(0.86rem, 0.83rem + 0.12vw, 0.94rem);
+  --step-0: clamp(1rem, 0.96rem + 0.2vw, 1.12rem);
+  --step-1: clamp(1.2rem, 1.1rem + 0.45vw, 1.45rem);
+  --step-2: clamp(1.6rem, 1.3rem + 1.2vw, 2.3rem);
+  --step-3: clamp(2.1rem, 1.5rem + 2.6vw, 3.6rem);
+  --step-4: clamp(2.8rem, 1.6rem + 5.4vw, 6.2rem);
+  --wrap: 1280px;
+  --pad: clamp(20px, 4vw, 40px);
+  --radius: 6px;
+  --ease: cubic-bezier(0.2, 0.7, 0.2, 1);
+}
+*, *::before, *::after { box-sizing: border-box; }
+html { -webkit-text-size-adjust: 100%; scroll-padding-top: 90px; }
+body { margin: 0; background: var(--paper); color: var(--ink); font: 400 var(--step-0) / 1.6 var(--font); font-variation-settings: "wdth" 100; -webkit-font-smoothing: antialiased; overflow-x: clip; }
+img { max-width: 100%; height: auto; display: block; }
+picture { display: contents; }
+a { color: inherit; }
+h1, h2, h3 { margin: 0; font-weight: 800; line-height: 0.98; letter-spacing: -0.01em; font-variation-settings: "wdth" 72; text-wrap: balance; }
+h2 { font-size: var(--step-3); }
+h3 { font-size: var(--step-1); line-height: 1.15; font-variation-settings: "wdth" 85; }
+p { margin: 0; }
+:focus-visible { outline: 3px solid var(--copper); outline-offset: 3px; }
+.dark :focus-visible, .dark:focus-visible { outline-color: var(--gold); }
+.wrap { width: 100%; max-width: var(--wrap); margin-inline: auto; padding-inline: var(--pad); }
+.section { padding-block: clamp(64px, 9vw, 128px); }
+.section--tight { padding-block: clamp(40px, 6vw, 72px); }
+.dark { background: var(--graphite); color: var(--ink-d); }
+.muted { color: var(--ink-2); }
+.dark .muted { color: var(--ink-d2); }
+.lead { font-size: var(--step-1); line-height: 1.5; max-width: 48ch; }
+.visually-hidden { position: absolute !important; width: 1px; height: 1px; padding: 0; margin: -1px; overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap; border: 0; }
+/* Abschnittsnummer im Bauplan-Stil: nur wo es eine Abfolge gibt */
+.tag { display: inline-flex; align-items: center; gap: 10px; margin-bottom: 16px; font: 700 var(--step--1) / 1 var(--font); color: var(--copper); }
+.tag::before { content: ""; width: 22px; height: 2px; background: currentColor; }
+.dark .tag { color: var(--gold); }
+.btn { --h: 52px; display: inline-flex; align-items: center; justify-content: center; gap: 10px; min-height: var(--h); padding: 0 24px; border-radius: var(--radius); border: 2px solid transparent;
+  font: 700 1rem / 1 var(--font); text-decoration: none; cursor: pointer; transition: transform 0.2s var(--ease), background 0.2s; }
+.btn svg { width: 20px; height: 20px; flex: none; }
+.btn--gold { background: var(--gold); color: var(--graphite); }
+.btn--gold:hover { background: var(--gold-2); transform: translateY(-1px); }
+.btn--line { border-color: currentColor; color: inherit; background: transparent; }
+.btn--line:hover { background: rgb(23 25 28 / 0.06); }
+.dark .btn--line:hover { background: rgb(243 241 236 / 0.08); }
+.btn-row { display: flex; flex-wrap: wrap; gap: 12px; align-items: center; }
+.open { color: var(--ink-2); font-style: italic; }
+.dark .open { color: var(--ink-d2); }
+.note { display: flex; gap: 12px; padding: 14px 16px; border-left: 4px solid var(--copper); background: #fbf3ee; color: #6b2a14; font-size: var(--step--1); line-height: 1.5; }
+.preview-bar { background: var(--copper); color: #fff; font: 600 0.84rem / 1.4 var(--font); padding: 9px var(--pad); text-align: center; }
+/* 3D-Kippen für Karten (nur Maus, nur ohne reduzierte Bewegung) */
+.tilt { transform-style: preserve-3d; transition: transform 0.35s var(--ease); will-change: transform; }
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after { animation-duration: 0.01ms !important; animation-iteration-count: 1 !important; transition-duration: 0.01ms !important; scroll-behavior: auto !important; }
+}

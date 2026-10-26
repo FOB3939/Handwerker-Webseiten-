@@ -1,0 +1,23 @@
+---
+// Firmenzeichen, nach dem Firmenschild nachgezeichnet (zwei versetzte Rahmen + goldene Flächen).
+// ENTWURF: durch die Original-Vektordatei ersetzen (docs/OFFENE-PUNKTE.md).
+interface Props { class?: string; withText?: boolean; title?: string }
+const { class: cls, withText = true, title } = Astro.props;
+---
+<span class:list={["logo", cls]}>
+  <svg class="mark" viewBox="0 0 100 80" aria-hidden={title ? undefined : "true"} role={title ? "img" : undefined}>
+    {title && <title>{title}</title>}
+    <rect x="52" y="2" width="26" height="62" fill="#d9a21b" />
+    <rect x="16" y="28" width="30" height="26" fill="#d9a21b" />
+    <path d="M38 14 H86 V74 H70 M38 14 V38" fill="none" stroke="currentColor" stroke-width="5" stroke-linejoin="miter" />
+    <path d="M10 32 H48 M10 32 V74 H44 V54 M70 74 V44 H92 V66 L60 52" fill="none" stroke="currentColor" stroke-width="5" stroke-linejoin="miter" />
+  </svg>
+  {withText && <span class="txt"><span class="t1">FOB Haustechnik</span><span class="t2">Hausmeisterservice</span></span>}
+</span>
+<style>
+  .logo { display: inline-flex; align-items: center; gap: 12px; line-height: 1; }
+  .mark { width: 46px; height: auto; flex: none; overflow: visible; }
+  .txt { display: grid; gap: 3px; font-variation-settings: "wdth" 70; }
+  .t1 { font-weight: 800; font-size: 1.2rem; letter-spacing: 0.01em; }
+  .t2 { font-weight: 600; font-size: 0.82rem; letter-spacing: 0.04em; opacity: 0.8; }
+</style>

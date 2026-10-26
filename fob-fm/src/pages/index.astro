@@ -1,0 +1,222 @@
+---
+import Base from "../layouts/Base.astro";
+import Img from "../components/Img.astro";
+import Icon from "../components/Icon.astro";
+import BeforeAfter from "../components/BeforeAfter.astro";
+import { COMPANY, SERVICES, FUNDING } from "../config/site";
+import { u } from "../lib/url";
+const icons = { sanitaer: "drop", elektro: "bolt", maler: "brush", reinigung: "spark", boden: "floor", hausmeister: "key" } as const;
+---
+<Base title="FOB Haustechnik – Hausmeisterservice & Wärmepumpen" description="FOB Haustechnik Hausmeisterservice: Sanitär, Heizung, Elektro, Malerarbeiten, Böden und Gebäudereinigung rund um München – plus Luft-Wasser-Wärmepumpen mit Beratung und Förderung, deutschlandweit mit Partnern." current="/" jsonld>
+  <!-- Einstieg mit 3D-Szene -->
+  <section class="hero dark" aria-labelledby="hero-title">
+    <div class="wrap hero-grid">
+      <div class="hero-txt">
+        <p class="tag">Haustechnik &amp; Hausmeisterservice</p>
+        <h1 id="hero-title">Alles rund<br />ums Haus.</h1>
+        <p class="lead muted">Schnell, sauber, zuverlässig: Sanitär, Heizung, Elektro, Maler- und Bodenarbeiten aus einer Hand. Neu dabei: Luft-Wasser-Wärmepumpen – mit Beratung, Förderung und Einbau über unsere Partner in ganz Deutschland.</p>
+        <div class="btn-row">
+          <a class="btn btn--gold" href={u("/kontakt/#anfrage")}>Anfrage stellen</a>
+          <a class="btn btn--line" href={u("/waermepumpe/")}><Icon name="fan" />Wärmepumpe &amp; Förderung</a>
+        </div>
+      </div>
+      <div class="scene" data-scene>
+        <svg class="scene-fallback" viewBox="0 0 100 80" aria-hidden="true"><rect x="52" y="2" width="26" height="62" fill="#d9a21b" /><rect x="16" y="28" width="30" height="26" fill="#d9a21b" /><path d="M38 14 H86 V74 H70 M38 14 V38 M10 32 H48 M10 32 V74 H44 V54 M70 74 V44 H92 V66 L60 52" fill="none" stroke="#f3f1ec" stroke-width="2.5" /></svg>
+        <p class="scene-cap" aria-hidden="true"><span class="dot dot--ice"></span>Außenluft <span class="dot dot--gold"></span>Wärme fürs Haus</p>
+        <button class="pause" type="button" aria-pressed="false" data-pause hidden><span class="visually-hidden" data-pause-label>3D-Animation anhalten</span><span class="pause-ico" aria-hidden="true"></span></button>
+      </div>
+    </div>
+    <ul class="wrap facts" aria-label="Kurz zu FOB Haustechnik">
+      <li><strong>6 Gewerke</strong><span>aus einer Hand</span></li>
+      <li><strong>Wärmepumpen</strong><span>deutschlandweit mit Partnern</span></li>
+      <li><strong>Hochstadt</strong><span>bei Weßling · {COMPANY.region}</span></li>
+    </ul>
+  </section>
+
+  <!-- Leistungen -->
+  <section class="section" aria-labelledby="svc-title">
+    <div class="wrap">
+      <div class="head">
+        <h2 id="svc-title">Was wir für dich erledigen</h2>
+        <a class="btn btn--line" href={u("/leistungen/")}>Alle Leistungen<Icon name="arrow" /></a>
+      </div>
+      <ul class="svc">
+        {SERVICES.map((s) => (
+          <li class:list={["card tilt", { "card--img": s.image }]} data-tilt>
+            {s.image && <div class="card-img"><Img name={s.image} sizes="(min-width: 1000px) 30vw, 100vw" decorative /></div>}
+            <div class="card-body">
+              <Icon name={icons[s.key]} class="card-ico" />
+              <h3>{s.title}</h3>
+              <p class="muted">{s.text}</p>
+            </div>
+          </li>
+        ))}
+      </ul>
+    </div>
+  </section>
+
+  <!-- Wärmepumpe -->
+  <section class="hp dark" aria-labelledby="hp-title">
+    <div class="wrap hp-grid">
+      <div class="hp-txt">
+        <p class="tag">Neu: Wärmepumpen</p>
+        <h2 id="hp-title">Luft-Wasser-Wärmepumpe – von der Beratung bis zur Förderung.</h2>
+        <p class="lead muted">Gemeinsam mit Fachpartnern begleiten wir dich deutschlandweit: Wir prüfen, ob dein Haus geeignet ist, kümmern uns um den Förderantrag und koordinieren den Einbau.</p>
+        <a class="btn btn--gold" href={u("/waermepumpe/")}>Mehr zur Wärmepumpe<Icon name="arrow" /></a>
+      </div>
+      <ol class="hp-steps">
+        <li><span class="n">1</span><div><h3>Beratung</h3><p class="muted">Haus, Heizung und Verbrauch gemeinsam anschauen – passt eine Wärmepumpe?</p></div></li>
+        <li><span class="n">2</span><div><h3>Förderung</h3><p class="muted">Zuschuss über das {FUNDING.program.split(" – ")[0]}-Programm: Grundförderung {FUNDING.base} plus mögliche Boni. Wir prüfen den aktuellen Stand.</p></div></li>
+        <li><span class="n">3</span><div><h3>Einbau mit Partnern</h3><p class="muted">Installation und Inbetriebnahme durch Fachbetriebe aus unserem Partnernetz.</p></div></li>
+      </ol>
+    </div>
+  </section>
+
+  <!-- Vorher / Nachher -->
+  <section class="section" aria-labelledby="ref-title">
+    <div class="wrap">
+      <div class="head">
+        <h2 id="ref-title">Aus alt mach neu</h2>
+        <a class="btn btn--line" href={u("/referenzen/")}>Alle Referenzen<Icon name="arrow" /></a>
+      </div>
+      <p class="muted intro">Zieh den Regler und vergleiche selbst.</p>
+      <div class="ba-grid">
+        <BeforeAfter before="fassadeVorher" after="fassadeNachher" label="Fassade neu gestrichen – mit unserem Partner-Malermeister" ratio="1136 / 1330" />
+        <BeforeAfter before="wandVorher" after="wandNachher" label="Malerarbeiten innen: Farbe und Spachteltechnik nach Kundenwunsch" ratio="1170 / 1160" />
+      </div>
+    </div>
+  </section>
+
+  <!-- Bildstreifen -->
+  <section class="strip" aria-label="Weitere Arbeiten">
+    <ul class="wrap strip-list">
+      <li><Img name="wcStand" sizes="(min-width: 900px) 25vw, 50vw" /><span>Stand-WC montiert</span></li>
+      <li><Img name="waschtisch" sizes="(min-width: 900px) 25vw, 50vw" /><span>Waschtisch &amp; Armatur</span></li>
+      <li><Img name="boden" sizes="(min-width: 900px) 25vw, 50vw" /><span>Vinylboden verlegt</span></li>
+      <li><Img name="terrasse" sizes="(min-width: 900px) 25vw, 50vw" /><span>Holzterrasse erneuert</span></li>
+    </ul>
+  </section>
+
+  <!-- Kontakt -->
+  <section class="section cta dark" aria-labelledby="cta-title">
+    <div class="wrap cta-grid">
+      <div>
+        <h2 id="cta-title">Was steht bei dir an?</h2>
+        <p class="lead muted">Schreib uns kurz, worum es geht – wir melden uns mit einem Termin oder Angebot.</p>
+      </div>
+      <div class="cta-box">
+        <a class="big" href={`mailto:${COMPANY.email}`}><Icon name="mail" />{COMPANY.email}</a>
+        <p class="muted"><Icon name="pin" />{COMPANY.street}, {COMPANY.zip} {COMPANY.city}</p>
+        <a class="btn btn--gold" href={u("/kontakt/#anfrage")}>Zur Anfrage</a>
+      </div>
+    </div>
+  </section>
+</Base>
+
+<style>
+  /* ---------- Einstieg ---------- */
+  .hero { position: relative; overflow: hidden; background: radial-gradient(70% 80% at 78% 40%, #23282e 0%, var(--graphite) 70%); }
+  .hero-grid { display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 1.1fr); gap: 24px; align-items: center; min-height: min(calc(100svh - 120px), 760px); padding-block: 40px; }
+  .hero-txt { display: grid; gap: 22px; justify-items: start; position: relative; z-index: 1; }
+  .hero h1 { font-size: clamp(3.2rem, 1.6rem + 6.6vw, 7.6rem); line-height: 0.9; letter-spacing: -0.015em; font-variation-settings: "wdth" 66; text-transform: uppercase; }
+  .hero .lead { max-width: 44ch; }
+  .scene { position: relative; height: min(68vh, 620px); min-height: 360px; }
+  .scene :global(canvas) { position: absolute; inset: 0; width: 100% !important; height: 100% !important; opacity: 0; transition: opacity 0.8s var(--ease); }
+  .scene.ready :global(canvas) { opacity: 1; }
+  .scene-fallback { position: absolute; left: 50%; top: 50%; width: 46%; translate: -50% -50%; opacity: 0.85; transition: opacity 0.6s; }
+  .scene.ready .scene-fallback { opacity: 0; }
+  .scene-cap { position: absolute; z-index: 2; left: 0; bottom: 6px; display: flex; align-items: center; gap: 8px; font-size: 0.82rem; color: var(--ink-d2); }
+  .pause { position: absolute; z-index: 2; right: 0; bottom: 0; width: 44px; height: 44px; border-radius: 50%; border: 1.5px solid rgb(243 241 236 / 0.4); background: rgb(23 25 28 / 0.6); color: var(--paper); cursor: pointer; display: grid; place-items: center; }
+  .pause[hidden] { display: none; }
+  .pause-ico { width: 10px; height: 12px; border-inline: 3px solid currentColor; }
+  .pause[aria-pressed="true"] .pause-ico { width: 0; height: 0; border-inline: 0; border-left: 10px solid currentColor; border-block: 6px solid transparent; margin-left: 3px; }
+  .dot { width: 9px; height: 9px; border-radius: 50%; display: inline-block; margin-left: 8px; } .dot--ice { background: var(--ice); margin-left: 0; } .dot--gold { background: var(--gold); }
+  .facts { list-style: none; margin: 0 auto; padding-block: 0 36px; display: grid; grid-template-columns: repeat(3, 1fr); gap: 0; }
+  .facts li { display: grid; gap: 2px; padding: 16px 20px; border-left: 2px solid var(--gold); }
+  .facts strong { font: 800 var(--step-1) / 1.1 var(--font); font-variation-settings: "wdth" 72; }
+  .facts span { color: var(--ink-d2); font-size: var(--step--1); }
+  @media (max-width: 900px) {
+    .hero-grid { grid-template-columns: 1fr; min-height: 0; padding-block: 28px 8px; }
+    .scene { order: -1; height: 300px; min-height: 0; margin-inline: calc(var(--pad) * -1); }
+    .scene-cap { left: var(--pad); }
+    .pause { right: var(--pad); }
+    .facts { grid-template-columns: 1fr; gap: 8px; }
+  }
+
+  /* ---------- Leistungen ---------- */
+  .head { display: flex; flex-wrap: wrap; align-items: flex-end; justify-content: space-between; gap: 18px; margin-bottom: 32px; }
+  .svc { list-style: none; margin: 0; padding: 0; display: grid; grid-template-columns: repeat(3, 1fr); gap: 16px; perspective: 1200px; }
+  .card { display: grid; align-content: start; background: var(--white); border: 1px solid var(--line); border-radius: var(--radius); overflow: hidden; }
+  .card-img { aspect-ratio: 16 / 10; overflow: hidden; }
+  .card-img :global(img) { width: 100%; height: 100%; object-fit: cover; transition: transform 0.6s var(--ease); }
+  .card:hover .card-img :global(img) { transform: scale(1.04); }
+  .card-body { display: grid; gap: 10px; padding: 22px 22px 26px; }
+  .card :global(.card-ico) { width: 34px; height: 34px; color: var(--copper); }
+  @media (max-width: 1000px) { .svc { grid-template-columns: 1fr 1fr; } }
+  @media (max-width: 640px) { .svc { grid-template-columns: 1fr; } }
+
+  /* ---------- Wärmepumpe ---------- */
+  .hp { padding-block: clamp(64px, 9vw, 120px); background: linear-gradient(160deg, #1c2a33 0%, var(--graphite) 55%); }
+  .hp-grid { display: grid; grid-template-columns: 1fr 1fr; gap: clamp(32px, 5vw, 72px); align-items: center; }
+  .hp-txt { display: grid; gap: 20px; justify-items: start; }
+  .hp .tag { color: var(--ice); }
+  .hp-steps { list-style: none; margin: 0; padding: 0; display: grid; gap: 14px; }
+  .hp-steps li { display: grid; grid-template-columns: auto 1fr; gap: 18px; align-items: start; padding: 20px 22px; border: 1px solid var(--line-d); border-radius: var(--radius); background: rgb(255 255 255 / 0.03); }
+  .n { display: grid; place-items: center; width: 44px; height: 44px; border: 2px solid var(--ice); color: var(--ice); font: 800 1.2rem / 1 var(--font); border-radius: 50%; }
+  .hp-steps h3 { margin-bottom: 6px; }
+  @media (max-width: 900px) { .hp-grid { grid-template-columns: 1fr; } }
+
+  /* ---------- Vorher / Nachher ---------- */
+  .intro { margin: -16px 0 22px; }
+  .ba-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 20px; align-items: start; }
+  @media (max-width: 800px) { .ba-grid { grid-template-columns: 1fr; } }
+
+  /* ---------- Bildstreifen ---------- */
+  .strip { padding-bottom: clamp(64px, 9vw, 120px); }
+  .strip-list { list-style: none; margin: 0 auto; display: grid; grid-template-columns: repeat(4, 1fr); gap: 12px; }
+  .strip-list li { position: relative; aspect-ratio: 3 / 4; overflow: hidden; border-radius: var(--radius); }
+  .strip-list :global(img) { width: 100%; height: 100%; object-fit: cover; }
+  .strip-list span { position: absolute; left: 10px; bottom: 10px; padding: 5px 9px; border-radius: 4px; background: rgb(23 25 28 / 0.82); color: var(--paper); font: 700 0.82rem / 1.2 var(--font); }
+  @media (max-width: 800px) { .strip-list { grid-template-columns: 1fr 1fr; } }
+
+  /* ---------- Kontakt ---------- */
+  .cta-grid { display: grid; grid-template-columns: 1.2fr 1fr; gap: 32px; align-items: center; }
+  .cta-grid > div:first-child { display: grid; gap: 16px; }
+  .cta-box { display: grid; gap: 14px; justify-items: start; padding: 28px; border: 1px solid var(--line-d); border-radius: var(--radius); }
+  .cta-box :global(svg) { width: 20px; height: 20px; flex: none; }
+  .cta-box p { display: flex; gap: 10px; align-items: center; }
+  .big { display: inline-flex; align-items: center; gap: 10px; min-height: 44px; font: 800 var(--step-1) / 1.2 var(--font); font-variation-settings: "wdth" 80; text-decoration-color: var(--gold); text-underline-offset: 5px; word-break: break-all; }
+  @media (max-width: 860px) { .cta-grid { grid-template-columns: 1fr; } }
+</style>
+
+<script>
+  // 3D-Szene nachladen, sobald die Seite steht (Startbild bleibt bis dahin das Firmenzeichen)
+  const host = document.querySelector<HTMLElement>("[data-scene]");
+  const hasGL = () => { try { const c = document.createElement("canvas"); return !!(c.getContext("webgl2") || c.getContext("webgl")); } catch { return false; } };
+  if (host && hasGL()) {
+    const calm = matchMedia("(prefers-reduced-motion: reduce)").matches;
+    const go = () => import("../scripts/hero3d").then(({ mount }) => {
+      const ctl = mount(host, { calm });
+      requestAnimationFrame(() => host.classList.add("ready"));
+      // Dauerbewegung anhalten können (WCAG 2.2.2)
+      const btn = host.querySelector<HTMLButtonElement>("[data-pause]"), lab = host.querySelector<HTMLElement>("[data-pause-label]");
+      if (btn && lab && !calm) {
+        btn.hidden = false;
+        btn.addEventListener("click", () => { const p = btn.getAttribute("aria-pressed") !== "true"; btn.setAttribute("aria-pressed", String(p)); lab.textContent = p ? "3D-Animation fortsetzen" : "3D-Animation anhalten"; ctl.setPaused(p); });
+      }
+    }).catch(() => {});
+    // Erst bei der ersten Bewegung des Besuchers oder nach kurzer Zeit laden – so bleibt der Seitenaufbau frei
+    let started = false;
+    const kick = () => { if (started) return; started = true; ["pointermove", "scroll", "touchstart", "keydown"].forEach((ev) => removeEventListener(ev, kick)); go(); };
+    ["pointermove", "scroll", "touchstart", "keydown"].forEach((ev) => addEventListener(ev, kick, { once: true, passive: true }));
+    const later = () => setTimeout(() => ("requestIdleCallback" in window ? requestIdleCallback(kick, { timeout: 1500 }) : kick()), 2500);
+    if (document.readyState === "complete") later(); else addEventListener("load", later, { once: true });
+  }
+  // 3D-Kippen der Leistungs-Karten mit der Maus
+  if (matchMedia("(pointer: fine)").matches && !matchMedia("(prefers-reduced-motion: reduce)").matches) {
+    document.querySelectorAll<HTMLElement>("[data-tilt]").forEach((c) => {
+      c.addEventListener("pointermove", (e) => { const r = c.getBoundingClientRect(), x = (e.clientX - r.left) / r.width - 0.5, y = (e.clientY - r.top) / r.height - 0.5; c.style.transform = `rotateY(${x * 8}deg) rotateX(${-y * 8}deg) translateZ(0)`; });
+      c.addEventListener("pointerleave", () => (c.style.transform = ""));
+    });
+  }
+</script>

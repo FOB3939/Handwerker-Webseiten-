@@ -1,0 +1,53 @@
+---
+import Base from "../../layouts/Base.astro";
+import PageHead from "../../components/PageHead.astro";
+import Img from "../../components/Img.astro";
+import Icon from "../../components/Icon.astro";
+import { SERVICES } from "../../config/site";
+import { u } from "../../lib/url";
+const icons = { sanitaer: "drop", elektro: "bolt", maler: "brush", reinigung: "spark", boden: "floor", hausmeister: "key" } as const;
+const extra: Record<string, string[]> = {
+  sanitaer: ["WC und Spülkasten tauschen", "Waschtisch und Armaturen montieren", "Anschlüsse, Eckventile, Flexschläuche", "Arbeiten an Heizkörpern und Leitungen"],
+  elektro: ["Steckdosen und Schalter", "Leuchten anschließen", "Kleinere Elektroarbeiten rund ums Haus"],
+  maler: ["Wände und Decken streichen", "Spachtel- und Effekttechniken", "Fassaden mit Partner-Malermeister"],
+  reinigung: ["Treppenhaus und Gemeinschaftsflächen", "Reinigung nach Handwerksarbeiten"],
+  boden: ["Vinyl- und Laminatböden verlegen", "Sockelleisten", "Holzterrassen erneuern"],
+  hausmeister: ["Regelmäßige Kontrollgänge", "Kleinreparaturen", "Ein Ansprechpartner für viele Gewerke"],
+};
+---
+<Base title="Leistungen – FOB Haustechnik Hausmeisterservice" description="Leistungen von FOB Haustechnik: Sanitär & Heizung, Elektrotechnik, Malerarbeiten, Gebäudereinigung, Böden & Terrassen und Hausmeisterservice rund um München." current="/leistungen/">
+  <PageHead tag="Leistungen" title="Alles aus einer Hand" lead="Sechs Gewerke, ein Ansprechpartner – schnell, sauber, zuverlässig." />
+  <section class="section section--tight">
+    <div class="wrap list">
+      {SERVICES.map((s, i) => (
+        <article class:list={["row", { "row--rev": i % 2 === 1, "row--noimg": !s.image }]} id={s.key}>
+          {s.image && <div class="pic"><Img name={s.image} sizes="(min-width: 900px) 45vw, 100vw" /></div>}
+          <div class="txt">
+            <Icon name={icons[s.key]} class="ico" />
+            <h2>{s.title}</h2>
+            <p class="lead muted">{s.text}</p>
+            <ul class="checks">{extra[s.key].map((x) => <li><Icon name="check" />{x}</li>)}</ul>
+          </div>
+        </article>
+      ))}
+      <p class="note">Die Liste zeigt typische Aufgaben. Frag gern nach, wenn dein Anliegen nicht dabei ist – „und mehr …“ steht nicht umsonst auf unserem Schild.</p>
+      <div class="btn-row"><a class="btn btn--gold" href={u("/kontakt/#anfrage")}>Anfrage stellen</a><a class="btn btn--line" href={u("/referenzen/")}>Referenzen ansehen</a></div>
+    </div>
+  </section>
+</Base>
+<style>
+  .list { display: grid; grid-template-columns: minmax(0, 1fr); gap: clamp(40px, 6vw, 72px); }
+  .row > * { min-width: 0; }
+  .row { display: grid; grid-template-columns: 1fr 1fr; gap: clamp(24px, 4vw, 56px); align-items: center; scroll-margin-top: 100px; }
+  .row--rev .pic { order: 2; }
+  .row--noimg { grid-template-columns: 1fr; padding: clamp(24px, 4vw, 40px); background: var(--white); border: 1px solid var(--line); border-radius: var(--radius); }
+  .pic { aspect-ratio: 4 / 3; overflow: hidden; border-radius: var(--radius); }
+  .pic :global(img) { width: 100%; height: 100%; object-fit: cover; }
+  .txt { display: grid; gap: 14px; justify-items: start; }
+  .txt h2 { font-size: var(--step-3); text-transform: uppercase; font-variation-settings: "wdth" 68; }
+  .txt :global(.ico) { width: 40px; height: 40px; color: var(--copper); }
+  .checks { list-style: none; margin: 0; padding: 0; display: grid; gap: 8px; }
+  .checks li { display: flex; gap: 10px; align-items: flex-start; }
+  .checks :global(svg) { width: 20px; height: 20px; color: var(--gold); flex: none; margin-top: 3px; }
+  @media (max-width: 860px) { .row { grid-template-columns: 1fr; } .row--rev .pic { order: 0; } }
+</style>

@@ -1,0 +1,152 @@
+---
+import Base from "../../layouts/Base.astro";
+import PageHead from "../../components/PageHead.astro";
+import Icon from "../../components/Icon.astro";
+import InquiryForm from "../../components/InquiryForm.astro";
+import { FUNDING } from "../../config/site";
+import { u } from "../../lib/url";
+const steps = [
+  { t: "Erstgespräch", d: "Du erzählst uns von Haus, Heizung und Plänen – wir sagen dir ehrlich, ob eine Wärmepumpe infrage kommt." },
+  { t: "Vor-Ort-Check", d: "Heizlast, Heizflächen, Vorlauftemperatur und Aufstellort werden geprüft – die Grundlage für die richtige Größe." },
+  { t: "Angebot", d: "Du bekommst ein Angebot für Gerät, Einbau und Nebenarbeiten – nachvollziehbar aufgeschlüsselt." },
+  { t: "Förderantrag", d: "Wir unterstützen dich beim Zuschussantrag, bevor es losgeht – die Reihenfolge ist bei der Förderung wichtig." },
+  { t: "Einbau", d: "Fachbetriebe aus unserem Partnernetz installieren Außen- und Inneneinheit, wir koordinieren die Termine." },
+  { t: "Inbetriebnahme", d: "Einstellung, Einweisung und Unterlagen für den Verwendungsnachweis der Förderung." },
+];
+const faq = [
+  { q: "Geht eine Wärmepumpe auch im Altbau?", a: "Oft ja. Entscheidend sind Heizlast, Heizflächen und die nötige Vorlauftemperatur. Genau das prüfen wir beim Vor-Ort-Check, bevor du dich festlegst." },
+  { q: "Wie laut ist das Außengerät?", a: "Das hängt vom Gerät und vor allem vom Aufstellort ab. Wir planen den Standort so, dass Abstände und Schallschutz zu dir und deinen Nachbarn passen." },
+  { q: "Welche Förderung gibt es?", a: `Für Privatpersonen läuft der Zuschuss derzeit über das Programm ${FUNDING.program}. Es gibt eine Grundförderung von ${FUNDING.base} der förderfähigen Kosten, dazu je nach Situation Boni. Sätze und Grenzen ändern sich regelmäßig – wir prüfen den aktuellen Stand für dein Vorhaben.` },
+  { q: "Arbeitet ihr auch außerhalb von München?", a: "Ja. Die Wärmepumpen-Projekte begleiten wir gemeinsam mit Fachpartnern deutschlandweit. Sag uns einfach, wo dein Haus steht." },
+];
+---
+<Base title="Luft-Wasser-Wärmepumpe: Beratung, Förderung, Einbau – FOB Haustechnik" description="Luft-Wasser-Wärmepumpen mit FOB Haustechnik: Beratung, Vor-Ort-Check, Unterstützung beim KfW-Förderantrag und Einbau mit Fachpartnern – deutschlandweit." current="/waermepumpe/">
+  <PageHead tag="Wärmepumpe" title="Wärmepumpe mit Plan" lead="Beratung, Förderung und Einbau einer Luft-Wasser-Wärmepumpe – deutschlandweit gemeinsam mit unseren Fachpartnern.">
+    <div class="btn-row"><a class="btn btn--gold" href="#anfrage">Beratung anfragen</a><a class="btn btn--line" href="#foerderung"><Icon name="euro" />Zur Förderung</a></div>
+  </PageHead>
+
+  <!-- So funktioniert's -->
+  <section class="section" aria-labelledby="how-title">
+    <div class="wrap how">
+      <div class="how-txt">
+        <h2 id="how-title">So funktioniert’s</h2>
+        <p class="lead muted">Eine Luft-Wasser-Wärmepumpe holt Wärme aus der Außenluft und bringt sie mit Strom auf die Temperatur, die deine Heizung und dein Warmwasser brauchen.</p>
+        <ol class="flow-list">
+          <li><span class="sw sw--ice"></span><strong>Außengerät:</strong> saugt Außenluft an und nimmt ihre Wärme auf.</li>
+          <li><span class="sw sw--gold"></span><strong>Verdichter:</strong> hebt die Wärme auf Heiztemperatur.</li>
+          <li><span class="sw sw--warm"></span><strong>Heizkreis:</strong> verteilt sie über Heizkörper oder Fußbodenheizung – und erwärmt das Wasser im Speicher.</li>
+        </ol>
+      </div>
+      <svg class="diagram" viewBox="0 0 520 300" role="img" aria-labelledby="dg-t">
+        <title id="dg-t">Schema: Außenluft fließt ins Außengerät, Wärme fließt über eine Leitung ins Haus zu Heizkörper und Warmwasserspeicher.</title>
+        <g fill="none" stroke="#17191c" stroke-width="3">
+          <path d="M250 270 V120 L360 40 L470 120 V270 Z" />
+          <rect x="70" y="190" width="120" height="80" />
+          <circle cx="110" cy="230" r="26" />
+          <rect x="400" y="170" width="44" height="80" rx="6" />
+          <path d="M290 200 h50 M290 215 h50 M290 230 h50" />
+        </g>
+        <rect x="360" y="120" width="40" height="40" fill="#d9a21b" />
+        <g class="spin" style="transform-origin:110px 230px"><path d="M110 230 l0 -20 M110 230 l17 10 M110 230 l-17 10" stroke="#17191c" stroke-width="4" stroke-linecap="round" /></g>
+        <g class="air" stroke="#5aaed6" stroke-width="3" stroke-linecap="round" fill="none"><path d="M10 205 h45" /><path d="M10 230 h45" /><path d="M10 255 h45" /></g>
+        <path class="pipe" d="M190 215 C 230 215, 230 205, 290 205" stroke="#d9a21b" stroke-width="5" fill="none" stroke-dasharray="10 10" />
+        <path class="pipe" d="M340 215 C 370 215, 380 200, 400 200" stroke="#d9a21b" stroke-width="5" fill="none" stroke-dasharray="10 10" />
+        <text x="70" y="290" font-size="14" fill="#4f555c">Außengerät</text>
+        <text x="282" y="190" font-size="14" fill="#4f555c">Heizkörper</text>
+        <text x="392" y="268" font-size="14" fill="#4f555c">Speicher</text>
+      </svg>
+    </div>
+  </section>
+
+  <!-- Ablauf -->
+  <section class="section dark" aria-labelledby="steps-title">
+    <div class="wrap">
+      <h2 id="steps-title">In sechs Schritten zur Wärmepumpe</h2>
+      <ol class="steps">{steps.map((s, i) => <li><span class="n">{String(i + 1).padStart(2, "0")}</span><h3>{s.t}</h3><p class="muted">{s.d}</p></li>)}</ol>
+    </div>
+  </section>
+
+  <!-- Förderung -->
+  <section class="section" id="foerderung" aria-labelledby="fund-title">
+    <div class="wrap fund">
+      <div>
+        <p class="tag">Förderung</p>
+        <h2 id="fund-title">Zuschuss für deine neue Heizung</h2>
+        <p class="lead muted">Für selbstgenutzte und vermietete Wohngebäude gibt es einen staatlichen Zuschuss für den Heizungstausch. Wir helfen dir, die passende Förderung zu beantragen.</p>
+      </div>
+      <div class="fund-box">
+        <h3>{FUNDING.program}</h3>
+        <ul class="checks">
+          <li><Icon name="check" />Grundförderung: <strong>{FUNDING.base}</strong> der förderfähigen Kosten</li>
+          <li><Icon name="check" />Mögliche Boni je nach Situation, z. B. für schnellen Heizungstausch, geringes Einkommen oder besonders effiziente Geräte</li>
+          <li><Icon name="check" />Antrag vor Beginn der Arbeiten – wir sagen dir, was wann nötig ist</li>
+        </ul>
+        <p class="note"><span>Stand: {FUNDING.asOf}, ohne Gewähr. Fördersätze, Boni und Kostengrenzen ändern sich regelmäßig. Verbindlich sind die Angaben der KfW: <a href={FUNDING.url} target="_blank" rel="noopener">kfw.de/458<span class="visually-hidden"> (öffnet neuen Tab)</span></a>.</span></p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Partner -->
+  <section class="section section--tight partner dark" aria-labelledby="partner-title">
+    <div class="wrap partner-grid">
+      <h2 id="partner-title">Deutschlandweit mit Partnern</h2>
+      <p class="lead muted">Wir koordinieren Beratung und Planung, Fachbetriebe aus unserem Partnernetz übernehmen den Einbau in deiner Region. So hast du einen Ansprechpartner – egal, wo dein Haus steht.</p>
+    </div>
+  </section>
+
+  <!-- FAQ -->
+  <section class="section" aria-labelledby="faq-title">
+    <div class="wrap faq">
+      <h2 id="faq-title">Häufige Fragen</h2>
+      <div class="qa">{faq.map((f) => <details><summary>{f.q}</summary><p class="muted">{f.a}</p></details>)}</div>
+    </div>
+  </section>
+
+  <!-- Anfrage -->
+  <section class="section section--tight form-sec" id="anfrage" aria-labelledby="form-title">
+    <div class="wrap form-grid">
+      <div>
+        <h2 id="form-title">Beratung anfragen</h2>
+        <p class="lead muted">Ein paar Angaben reichen – wir melden uns mit den nächsten Schritten.</p>
+      </div>
+      <InquiryForm topic="waermepumpe" />
+    </div>
+  </section>
+</Base>
+<style>
+  .how { display: grid; grid-template-columns: 1fr 1.1fr; gap: clamp(28px, 5vw, 72px); align-items: center; }
+  .how-txt { display: grid; gap: 18px; }
+  .flow-list { margin: 0; padding: 0; list-style: none; display: grid; gap: 12px; }
+  .flow-list li { display: flex; gap: 12px; align-items: baseline; }
+  .sw { width: 12px; height: 12px; flex: none; border-radius: 2px; } .sw--ice { background: #5aaed6; } .sw--gold { background: var(--gold); } .sw--warm { background: var(--copper); }
+  .diagram { width: 100%; height: auto; background: var(--white); border: 1px solid var(--line); border-radius: var(--radius); padding: 12px; }
+  .spin { animation: spin 1.2s linear 4; }  /* begrenzt: Bewegung endet nach ≤ 5 s (WCAG 2.2.2) */
+  .pipe { animation: flow 1s linear 5; }
+  .air path { stroke-dasharray: 8 8; animation: flow 0.9s linear 5 reverse; }
+  @keyframes spin { to { transform: rotate(360deg); } }
+  @keyframes flow { to { stroke-dashoffset: -20; } }
+  @media (prefers-reduced-motion: reduce) { .spin, .pipe, .air path { animation: none; } }
+  .steps { list-style: none; margin: 36px 0 0; padding: 0; display: grid; grid-template-columns: repeat(3, 1fr); gap: 1px; background: var(--line-d); border: 1px solid var(--line-d); }
+  .steps li { display: grid; gap: 10px; align-content: start; padding: 26px 24px 30px; background: var(--graphite); }
+  .n { font: 800 2.2rem / 1 var(--font); font-variation-settings: "wdth" 66; color: var(--gold); }
+  .fund { display: grid; grid-template-columns: 1fr 1fr; gap: clamp(28px, 5vw, 72px); align-items: start; }
+  .fund > div:first-child { display: grid; gap: 16px; }
+  .fund-box { display: grid; gap: 16px; padding: 28px; background: var(--white); border: 1px solid var(--line); border-top: 6px solid var(--gold); border-radius: var(--radius); }
+  .checks { list-style: none; margin: 0; padding: 0; display: grid; gap: 10px; }
+  .checks li { display: flex; gap: 10px; align-items: flex-start; }
+  .checks :global(svg) { width: 20px; height: 20px; color: var(--gold); flex: none; margin-top: 3px; }
+  .note a { font-weight: 700; }
+  .partner { background: linear-gradient(160deg, #1c2a33, var(--graphite) 60%); }
+  .partner-grid { display: grid; grid-template-columns: 1fr 1.3fr; gap: 32px; align-items: center; }
+  .faq { display: grid; grid-template-columns: 1fr 1.6fr; gap: 32px; }
+  .qa details { border-bottom: 1px solid var(--line); }
+  .qa summary { min-height: 56px; display: flex; align-items: center; justify-content: space-between; gap: 16px; cursor: pointer; font: 700 var(--step-0) / 1.3 var(--font); list-style: none; }
+  .qa summary::-webkit-details-marker { display: none; }
+  .qa summary::after { content: "+"; font-size: 1.6rem; color: var(--copper); }
+  .qa details[open] summary::after { content: "–"; }
+  .qa p { padding-bottom: 18px; max-width: 64ch; }
+  .form-sec { background: var(--paper-2); }
+  .form-grid { display: grid; grid-template-columns: 1fr 1.4fr; gap: 40px; align-items: start; }
+  .form-grid > div:first-child { display: grid; gap: 14px; }
+  @media (max-width: 900px) { .how, .fund, .partner-grid, .faq, .form-grid { grid-template-columns: 1fr; } .steps { grid-template-columns: 1fr; } }
+</style>

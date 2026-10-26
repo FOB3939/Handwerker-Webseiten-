@@ -1,0 +1,20 @@
+---
+import Base from "../../layouts/Base.astro";
+import PageHead from "../../components/PageHead.astro";
+import { COMPANY } from "../../config/site";
+---
+<Base title="Impressum – FOB Haustechnik Hausmeisterservice" description="Impressum von FOB Haustechnik Hausmeisterservice: Anbieterangaben, Anschrift und Kontakt nach § 5 DDG." current="/impressum/">
+  <PageHead title="Impressum" />
+  <section class="section section--tight">
+    <div class="wrap legal">
+      <p class="note"><span><strong>Entwurf:</strong> Inhaber bzw. Rechtsform, Telefonnummer und ggf. USt-IdNr., Handwerkskammer/Eintragung ergänzen und prüfen lassen.</span></p>
+      <h2>Angaben gemäß § 5 DDG</h2>
+      <p>{COMPANY.legalName ?? <span class="open">Inhaber / Rechtsform: Angabe folgt</span>}<br />{COMPANY.name}<br />{COMPANY.street}<br />{COMPANY.zip} {COMPANY.city}</p>
+      <h2>Kontakt</h2>
+      <p>E-Mail: <a href={`mailto:${COMPANY.email}`}>{COMPANY.email}</a><br />Telefon: {COMPANY.phone ?? <span class="open">Angabe folgt</span>}</p>
+      <h2>Weitere Angaben</h2>
+      <p class="open">Umsatzsteuer-ID, Eintragung in die Handwerksrolle / zuständige Kammer, Berufshaftpflicht (falls zutreffend): Angabe folgt</p>
+    </div>
+  </section>
+</Base>
+<style>.legal { display: grid; gap: 12px; max-width: 760px; } .legal h2 { font-size: var(--step-1); margin-top: 16px; } .legal a { font-weight: 700; }</style>

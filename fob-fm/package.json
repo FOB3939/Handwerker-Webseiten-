@@ -1,0 +1,26 @@
+{
+  "name": "fob-fm",
+  "private": true,
+  "type": "module",
+  "version": "0.1.0",
+  "scripts": {
+    "dev": "astro dev",
+    "build": "astro build",
+    "preview": "astro preview",
+    "check": "astro check",
+    "test": "node --test tests/*.test.js",
+    "prod-check": "PUBLIC_PREVIEW=false astro build --outDir dist-live"
+  },
+  "dependencies": {
+    "@astrojs/sitemap": "3.7.4",
+    "@fontsource-variable/archivo": "5.3.0",
+    "astro": "5.18.2",
+    "three": "0.180.0"
+  },
+  "devDependencies": {
+    "@astrojs/check": "0.9.12",
+    "@types/three": "^0.180.0",
+    "axe-core": "4.14.0",
+    "typescript": "5.9.3"
+  }
+}

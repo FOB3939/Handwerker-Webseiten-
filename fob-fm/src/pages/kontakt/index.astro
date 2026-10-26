@@ -1,0 +1,39 @@
+---
+import Base from "../../layouts/Base.astro";
+import PageHead from "../../components/PageHead.astro";
+import Icon from "../../components/Icon.astro";
+import InquiryForm from "../../components/InquiryForm.astro";
+import { COMPANY } from "../../config/site";
+---
+<Base title="Kontakt – FOB Haustechnik Hausmeisterservice" description="Kontakt zu FOB Haustechnik Hausmeisterservice in Hochstadt bei Weßling: Anfrage per E-Mail, Adresse und Anfahrt." current="/kontakt/">
+  <PageHead tag="Kontakt" title="Sprich uns an" lead="Beschreib kurz dein Anliegen – wir melden uns mit einem Termin oder Angebot." />
+  <section class="section section--tight">
+    <div class="wrap grid">
+      <aside class="info">
+        <div class="box">
+          <h2>FOB Haustechnik Hausmeisterservice</h2>
+          <p><Icon name="pin" /><span>{COMPANY.street}<br />{COMPANY.zip} {COMPANY.city}</span></p>
+          <p><Icon name="mail" /><a href={`mailto:${COMPANY.email}`}>{COMPANY.email}</a></p>
+          {COMPANY.phone && COMPANY.phoneHref ? <p><Icon name="phone" /><a href={COMPANY.phoneHref}>{COMPANY.phone}</a></p> : <p class="open"><Icon name="phone" />Telefon: Angabe folgt</p>}
+          <p><Icon name="insta" /><a href={COMPANY.instagram} target="_blank" rel="noopener">@fob.haustechnik<span class="visually-hidden"> (öffnet neuen Tab)</span></a></p>
+          <a class="btn btn--line" href={COMPANY.routeUrl} target="_blank" rel="noopener">Route planen<span class="visually-hidden"> (öffnet Google Maps in neuem Tab)</span></a>
+        </div>
+      </aside>
+      <div class="form-wrap" id="anfrage">
+        <h2>Anfrage</h2>
+        <InquiryForm />
+      </div>
+    </div>
+  </section>
+</Base>
+<style>
+  .grid { display: grid; grid-template-columns: 0.9fr 1.4fr; gap: 40px; align-items: start; }
+  .box { display: grid; gap: 14px; justify-items: start; padding: 28px; background: var(--white); border: 1px solid var(--line); border-top: 6px solid var(--gold); border-radius: var(--radius); }
+  .box h2 { font-size: var(--step-1); text-transform: uppercase; font-variation-settings: "wdth" 72; }
+  .box p { display: flex; gap: 12px; align-items: flex-start; }
+  .box :global(svg) { width: 20px; height: 20px; flex: none; margin-top: 3px; color: var(--copper); }
+  .box a { font-weight: 700; display: inline-flex; min-height: 32px; align-items: center; word-break: break-all; }
+  .form-wrap { display: grid; gap: 18px; scroll-margin-top: 100px; }
+  .form-wrap h2 { font-size: var(--step-2); text-transform: uppercase; font-variation-settings: "wdth" 70; }
+  @media (max-width: 900px) { .grid { grid-template-columns: 1fr; } }
+</style>

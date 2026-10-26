@@ -1,0 +1,10 @@
+---
+import Base from "../layouts/Base.astro";
+import PageHead from "../components/PageHead.astro";
+import { u } from "../lib/url";
+---
+<Base title="Seite nicht gefunden – FOB Haustechnik" description="Diese Seite gibt es nicht. Zurück zur Startseite oder zu den Leistungen von FOB Haustechnik Hausmeisterservice.">
+  <PageHead title="Seite nicht gefunden" lead="Vielleicht hilft dir einer dieser Wege weiter.">
+    <div class="btn-row"><a class="btn btn--gold" href={u("/")}>Zur Startseite</a><a class="btn btn--line" href={u("/leistungen/")}>Leistungen</a></div>
+  </PageHead>
+</Base>

@@ -1,0 +1,11 @@
+---
+// Foto: WebP in passenden Breiten + JPEG-Fallback, feste Maße, nie hochskaliert
+import { Picture } from "astro:assets";
+import { IMAGES, type ImageKey } from "../assets/img";
+interface Props { name: ImageKey; class?: string; sizes?: string; eager?: boolean; decorative?: boolean }
+const { name, class: cls, sizes = "100vw", eager = false, decorative = false } = Astro.props;
+const img = IMAGES[name];
+const widths = [480, 800, 1200, 1512].filter((w) => w <= img.src.width);
+---
+<Picture src={img.src} alt={decorative ? "" : img.alt} widths={widths} sizes={sizes} formats={["webp"]} fallbackFormat="jpg" quality={72}
+  loading={eager ? "eager" : "lazy"} fetchpriority={eager ? "high" : "auto"} decoding="async" class={cls} />
