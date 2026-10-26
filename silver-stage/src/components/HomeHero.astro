@@ -1,88 +1,64 @@
 ---
-// Startbereich als Mischpult: drei Kanalzüge = drei Räume. Wer einen Regler antippt, „zieht“ den Raum hoch –
-// Foto, Lichtfarbe und Kurzinfo wechseln. Keine Endlos-Animation: die einzige Bewegung ohne Zutun ist
-// das Hochfahren der Regler beim Laden (wie ein Pult, das seine Einstellungen lädt).
+// Startbereich im Stil der Raumseiten: Pult-Foto, große Überschrift, Aktionen.
+// Effekt: Nach dem Laden geht das Pult „an“ – das Foto wird hell, eine Lichtkante zieht nach hinten und die
+// Tasten/Kappen im Foto leuchten Reihe für Reihe auf (gleiche Leuchtpunkte wie im Intro, intro-leds.ts).
+// Einmalig, danach bleiben die Lichter an; keine Endlos-Animation.
 import Photo from "./Photo.astro";
 import Icon from "./Icon.astro";
-import type { PhotoKey } from "../assets/photos";
 import { CONTACT } from "../config/site";
 import { u } from "../lib/url";
-
-type RoomKey = "tonstudio" | "stageroom" | "lightroom";
-interface Channel { key: RoomKey; name: string; path: string; photo: PhotoKey; alt: string; spec: string; use: string; price: string }
-interface Props { channels: Channel[]; start?: RoomKey }
-const { channels, start = "stageroom" } = Astro.props;
-// Ruhestellung der nicht gewählten Regler (Anteil der Reglerbahn), damit das Pult „gemischt“ aussieht
-const rest: Record<RoomKey, number> = { tonstudio: 0.42, stageroom: 0.58, lightroom: 0.34 };
-const SEGMENTS = 11;
 ---
-<section class="hero" aria-labelledby="hero-title" data-hero data-room={start}>
+<section class="hero" aria-labelledby="hero-title" data-hero data-room="stageroom">
   <div class="photos" data-slides>
-    {channels.map((c) => (
-      <figure class:list={["shot", { "is-on": c.key === start, seen: c.key === start }]} data-shot={c.key} aria-hidden={c.key === start ? undefined : "true"}>
-        <Photo name={c.photo} eager={c.key === start} sizes="100vw" decorative={c.key !== start} />
-      </figure>
-    ))}
+    <div class="board">
+      <Photo name="stagePultBlick" eager sizes="100vw" />
+      <div class="leds" aria-hidden="true" data-hero-leds></div>
+      <span class="scan" aria-hidden="true"></span>
+    </div>
     <span class="shade" aria-hidden="true"></span>
-    <span class="tint" aria-hidden="true"></span>
   </div>
 
   <div class="wrap hero-inner">
-    <div class="copy">
-      <p class="where ld" style="--d:0s">Tonstudio &amp; Proberäume in München-Sendling</p>
-      <h1 id="hero-title" class="hero-title"><span><span class="shine">Dein Sound.</span></span><span><span class="shine shine--2">Dein Raum.</span></span></h1>
-      <div class="btn-row hero-cta ld" style="--d:.35s">
-        <a class="btn btn--primary" href={u("/kontakt/")}>Session anfragen</a>
-        <a class="btn btn--ghost" href={CONTACT.phoneHref}><Icon name="phone" />{CONTACT.phone}</a>
-      </div>
+    <p class="where ld" style="--d:0s">Tonstudio &amp; Proberäume in München-Sendling</p>
+    <h1 id="hero-title" class="hero-title"><span><span class="shine">Dein Sound.</span></span><span><span class="shine shine--2">Dein Raum.</span></span></h1>
+    <div class="btn-row hero-cta ld" style="--d:.35s">
+      <a class="btn btn--primary" href={u("/kontakt/")}>Session anfragen</a>
+      <a class="btn btn--ghost" href={CONTACT.phoneHref}><Icon name="phone" />{CONTACT.phone}</a>
     </div>
-
-    <div class="desk ld" style="--d:.5s" data-desk>
-      <p class="desk-q" id="desk-q">Welchen Raum brauchst du?</p>
-      <div class="strips" role="group" aria-labelledby="desk-q">
-        {channels.map((c) => (
-          <button type="button" class="strip" data-ch={c.key} data-room={c.key} aria-pressed={c.key === start ? "true" : "false"} aria-controls="desk-out" style={`--rest:${rest[c.key]}`}>
-            <span class="meter" aria-hidden="true">{Array.from({ length: SEGMENTS }, (_, i) => <i style={`--i:${i}`}></i>)}</span>
-            <span class="track" aria-hidden="true"><span class="cap"></span></span>
-            <span class="ch-name">{c.name}</span>
-            <span class="ch-use">{c.use}</span>
-          </button>
-        ))}
-      </div>
-      <div class="out" id="desk-out" aria-live="polite">
-        {channels.map((c) => (
-          <div class="out-room" data-out={c.key} data-room={c.key} hidden={c.key !== start}>
-            <p class="out-name">{c.name}</p>
-            <p class="out-spec">{c.spec}<br /><span>{c.price}</span></p>
-            <a class="out-link" href={u(c.path)}>{c.name} ansehen</a>
-          </div>
-        ))}
-      </div>
-    </div>
+    <a class="hero-next ld" style="--d:.5s" href="#raumwahl">Welcher Raum passt zu dir?</a>
   </div>
 </section>
 
 <style>
-  .hero { position: relative; min-height: calc(100svh - 76px); display: grid; align-items: end; overflow: hidden; background: #07080b; isolation: isolate; }
+  .hero { position: relative; min-height: min(calc(100svh - 76px), 900px); display: flex; align-items: flex-end; overflow: hidden; background: #07080b; isolation: isolate; border-bottom: 1px solid var(--line); }
 
-  /* ---------- Foto je Raum ---------- */
-  .photos { position: absolute; inset: 0; z-index: -1; }
-  .shot { position: absolute; inset: 0; margin: 0; opacity: 0; transition: opacity 0.9s var(--ease); }
-  .shot.is-on { opacity: 1; }
-  .shot:not(.seen) { display: none; }
-  .shot :global(img) { width: 100%; height: 100%; object-fit: cover; transform: scale(1.04); transition: transform 1.6s var(--ease); }
-  .shot.is-on :global(img) { transform: none; }
+  /* ---------- Pult-Foto mit Leuchtpunkten ---------- */
+  /* Das Foto deckt den Bereich ab wie object-fit: cover – als Kasten im Seitenverhältnis des Fotos, damit die
+     Leuchtpunkte (in % des Fotos) genau auf den Tasten sitzen. */
+  .photos { position: absolute; inset: 0; z-index: -1; container-type: size; }
+  .board { position: absolute; left: 50%; top: 50%; width: max(100cqw, 100cqh * 1672 / 941); aspect-ratio: 1672 / 941; translate: -50% -50%; }
+  .board :global(img) { position: absolute; inset: 0; width: 100%; height: 100%; }
   .shade { position: absolute; inset: 0; background:
-      linear-gradient(90deg, rgb(7 8 11 / 0.88) 0%, rgb(7 8 11 / 0.5) 46%, rgb(7 8 11 / 0.2) 100%),
-      linear-gradient(0deg, rgb(7 8 11 / 0.92) 0%, transparent 46%); }
-  /* Lichtfarbe des gewählten Raums legt sich wie ein Scheinwerfer über das Foto */
-  .tint { position: absolute; inset: 0; mix-blend-mode: soft-light; opacity: 0.55; transition: background 0.9s var(--ease);
-    background: radial-gradient(70% 60% at 78% 30%, var(--room), transparent 70%); }
+      linear-gradient(90deg, rgb(7 8 11 / 0.82) 0%, rgb(7 8 11 / 0.4) 55%, rgb(7 8 11 / 0.08) 100%),
+      linear-gradient(0deg, rgb(7 8 11 / 0.9) 0%, transparent 48%); }
+  /* Strom an: Foto startet gedimmt und wird hell, sobald die Lichter loslaufen */
+  :global(.js) .hero .board :global(img) { filter: brightness(0.35) saturate(0.6); transition: filter 1.8s cubic-bezier(0.3, 0.1, 0.3, 1); }
+  :global(.js) .hero.power .board :global(img) { filter: none; }
+  .leds { position: absolute; inset: 0; pointer-events: none; }
+  .leds :global(i) { position: absolute; left: var(--x); top: var(--y); width: var(--w); aspect-ratio: 1; translate: -50% -50%; border-radius: 50%; opacity: 0; scale: 0.4;
+    background: radial-gradient(closest-side, #fff 0%, var(--c) 32%, color-mix(in srgb, var(--c) 40%, transparent) 60%, transparent 100%); }
+  .leds :global(i.warm) { width: calc(var(--w) * 2.2); }
+  .hero.power .leds :global(i) { animation: led-on 0.45s cubic-bezier(0.2, 0.9, 0.3, 1.4) var(--t) forwards; }
+  @keyframes led-on { 0% { opacity: 0; scale: 0.4; } 45% { opacity: 1; scale: 1.35; } 100% { opacity: var(--o, 0.9); scale: 1; } }
+  .scan { position: absolute; left: 0; right: 0; top: 100%; height: 22%; opacity: 0; mix-blend-mode: screen; pointer-events: none; will-change: transform;
+    background: linear-gradient(0deg, transparent, rgb(230 236 247 / 0.16) 50%, transparent); }
+  .hero.power .scan { animation: scan 2s cubic-bezier(0.4, 0, 0.3, 1) 0.05s forwards; }
+  @keyframes scan { 0% { transform: translateY(0); opacity: 0; } 15% { opacity: 1; } 85% { opacity: 1; } 100% { transform: translateY(-318%); opacity: 0; } }
 
   /* ---------- Text ---------- */
-  .hero-inner { display: grid; grid-template-columns: minmax(0, 1fr) auto; gap: clamp(24px, 4vw, 64px); align-items: end; padding-block: clamp(72px, 10vh, 130px) clamp(28px, 5vh, 56px); }
-  .copy { display: grid; gap: 28px; justify-items: start; min-width: 0; }
-  .where { margin: 0; color: #e6e9ee; font: 400 var(--step--1) / 1.4 var(--font-body); text-shadow: 0 1px 12px rgb(0 0 0 / 0.6); }
+  .hero-inner { display: grid; gap: 26px; justify-items: start; padding-block: clamp(120px, 18vh, 200px) clamp(48px, 7vw, 88px); }
+  .where { margin: 0; display: inline-flex; align-items: center; gap: 10px; color: var(--amber); font: 500 var(--step-0) / 1.3 var(--font-body); text-shadow: 0 1px 12px rgb(0 0 0 / 0.6); }
+  .where::before { content: ""; width: 9px; height: 9px; border-radius: 50%; background: var(--amber); box-shadow: 0 0 12px var(--amber); }
   .hero h1 { font-size: clamp(3.2rem, 0.6rem + 8vw, 9rem); line-height: 0.9; font-weight: 300; letter-spacing: -0.045em; filter: drop-shadow(0 6px 30px rgb(0 0 0 / 0.55)); margin: 0; }
   .hero h1 > span { display: block; overflow: hidden; padding-bottom: 0.08em; margin-bottom: -0.08em; white-space: nowrap; }
   .hero h1 > span > span { display: inline-block; }
@@ -95,113 +71,50 @@ const SEGMENTS = 11;
   @keyframes shimmer { 0% { background-position: 100% 0, 0 0; } 100% { background-position: 0% 0, 0 0; } }
   :global(.js) .hero .ld { opacity: 0; transform: translateY(18px); transition: opacity 0.8s var(--ease), transform 0.8s var(--ease); transition-delay: var(--d, 0s); }
   :global(.js) .hero.title-in .ld { opacity: 1; transform: none; }
+  .hero-next { display: inline-flex; align-items: center; gap: 10px; min-height: 44px; color: #e6e9ee; text-decoration: none; font-size: var(--step--1); }
+  .hero-next::after { content: ""; width: 8px; height: 8px; border-right: 1.5px solid currentColor; border-bottom: 1.5px solid currentColor; transform: translateY(-3px) rotate(45deg); }
+  .hero-next:hover { color: #fff; text-decoration: underline; text-underline-offset: 6px; }
 
-  /* ---------- Pult ---------- */
-  .desk { --track: 132px; display: grid; grid-template-columns: auto 190px; gap: 0; border-radius: 22px; overflow: hidden;
-    background: linear-gradient(180deg, rgb(28 32 40 / 0.78), rgb(12 14 19 / 0.86)); backdrop-filter: blur(16px) saturate(1.2); -webkit-backdrop-filter: blur(16px) saturate(1.2);
-    border: 1px solid rgb(242 243 245 / 0.14); box-shadow: 0 1px 0 rgb(255 255 255 / 0.08) inset, 0 30px 80px rgb(0 0 0 / 0.5); }
-  .desk-q { grid-column: 1 / -1; margin: 0; padding: 14px 18px 0; color: var(--ink-2); font-size: var(--step--1); }
-  .strips { display: flex; padding: 12px 8px 14px; }
-  .strip { position: relative; display: grid; grid-template-columns: auto auto; grid-template-rows: var(--track) auto auto; column-gap: 10px; row-gap: 0; justify-items: center;
-    padding: 10px 14px 8px; min-width: 92px; border: 0; border-radius: 14px; background: none; color: var(--ink); cursor: pointer; font: inherit; text-align: center; transition: background 0.3s var(--ease); }
-  .strip + .strip::before { content: ""; position: absolute; left: 0; top: 12px; bottom: 12px; width: 1px; background: rgb(242 243 245 / 0.1); }
-  .strip:hover { background: rgb(242 243 245 / 0.05); }
-  .strip[aria-pressed="true"] { background: color-mix(in srgb, var(--room) 12%, transparent); }
-  .strip:focus-visible { outline: 2px solid var(--silver); outline-offset: -2px; }
-
-  /* Pegelanzeige: Segmente leuchten bis zum Reglerstand */
-  .meter { grid-row: 1; display: flex; flex-direction: column-reverse; justify-content: space-between; width: 6px; height: 100%; }
-  .meter i { display: block; height: calc((100% - 10 * 3px) / 11); border-radius: 1px; background: rgb(242 243 245 / 0.1); transition: background 0.25s, box-shadow 0.25s; transition-delay: calc(var(--i) * 28ms); }
-  .strip.lit .meter i:nth-child(-n + 4) { background: rgb(213 218 225 / 0.55); }
-  .strip[aria-pressed="true"].lit .meter i:nth-child(-n + 9) { background: var(--room); box-shadow: 0 0 8px color-mix(in srgb, var(--room) 70%, transparent); }
-  .strip[aria-pressed="true"].lit .meter i:nth-child(10) { background: var(--amber); box-shadow: 0 0 8px var(--amber); }
-
-  /* Reglerbahn mit Fader-Kappe */
-  .track { grid-row: 1; position: relative; width: 26px; height: 100%; }
-  .track::before { content: ""; position: absolute; left: 50%; top: 4px; bottom: 4px; width: 4px; margin-left: -2px; border-radius: 2px; background: #05060a; box-shadow: 0 0 0 1px rgb(242 243 245 / 0.08); }
-  .track::after { content: ""; position: absolute; inset: 4px 2px; background: repeating-linear-gradient(0deg, rgb(242 243 245 / 0.18) 0 1px, transparent 1px 12px); mask: linear-gradient(90deg, #000 0 5px, transparent 5px 21px, #000 21px); }
-  .cap { position: absolute; left: 0; bottom: 0; width: 26px; height: 34px; border-radius: 5px;
-    background: linear-gradient(180deg, #eef0f3 0%, #b9bfc8 45%, #8f97a3 50%, #c9ced6 100%); box-shadow: 0 6px 14px rgb(0 0 0 / 0.55), 0 1px 0 #fff inset;
-    transform: translateY(calc(-1 * var(--lvl, 0) * (var(--track) - 34px))); transition: transform 0.7s cubic-bezier(0.3, 1.25, 0.4, 1); }
-  .cap::after { content: ""; position: absolute; left: 3px; right: 3px; top: 50%; height: 2px; margin-top: -1px; background: #2a2f38; border-radius: 1px; }
-  .strip.lit { --lvl: var(--rest); }
-  .strip.lit[aria-pressed="true"] { --lvl: 0.9; }
-  .strip[aria-pressed="true"] .cap::after { background: var(--room); box-shadow: 0 0 6px var(--room); }
-  .strip:not([aria-pressed="true"]):hover .cap { transform: translateY(calc(-1 * (var(--lvl, 0) + 0.06) * (var(--track) - 34px))); }
-
-  .ch-name { grid-column: 1 / -1; margin-top: 12px; font: 400 0.98rem / 1.2 var(--font-display); }
-  .ch-use { grid-column: 1 / -1; color: var(--ink-2); font-size: 0.78rem; line-height: 1.3; }
-  .strip[aria-pressed="true"] .ch-name { color: #fff; }
-
-  /* Kurzinfo zum gewählten Raum */
-  .out { padding: 12px 18px 18px 6px; display: grid; align-content: end; }
-  .out-room { display: grid; gap: 6px; animation: out-in 0.5s var(--ease); }
-  .out-room[hidden] { display: none; }
-  @keyframes out-in { from { opacity: 0; transform: translateY(8px); } to { opacity: 1; transform: none; } }
-  .out-name { margin: 0; font: 300 1.6rem / 1 var(--font-display); letter-spacing: -0.01em; }
-  .out-spec { margin: 0; color: #d9dde4; font-size: var(--step--1); line-height: 1.45; }
-  .out-spec span { color: var(--ink-2); }
-  .out-link { margin-top: 6px; display: inline-flex; align-items: center; min-height: 44px; color: var(--ink); text-decoration: underline; text-decoration-color: var(--room); text-underline-offset: 5px; text-decoration-thickness: 2px; font-weight: 500; }
-  .out-link:hover { color: #fff; }
-
-  @media (max-width: 1100px) {
-    .hero-inner { grid-template-columns: 1fr; align-items: start; }
-    .desk { justify-self: start; }
-  }
   @media (max-width: 640px) {
-    .hero { min-height: auto; }
-    .hero-inner { padding-block: 72px 28px; gap: 28px; }
+    .hero { min-height: calc(100svh - 120px); }
+    .hero-inner { padding-block: 96px 32px; gap: 22px; }
     .hero-cta { width: 100%; flex-direction: column; align-items: stretch !important; }
     .hero-cta .btn { width: 100%; }
-    .shade { background: linear-gradient(0deg, rgb(7 8 11 / 0.96) 30%, rgb(7 8 11 / 0.62) 70%, rgb(7 8 11 / 0.45) 100%); }
-    .desk { --track: 96px; width: 100%; grid-template-columns: 1fr; }
-    .strips { justify-content: space-between; padding-inline: 4px; }
-    .strip { min-width: 0; flex: 1; padding-inline: 6px; }
-    .ch-use { display: none; }
-    .out { padding: 4px 18px 16px; border-top: 1px solid rgb(242 243 245 / 0.1); }
+    .shade { background: linear-gradient(0deg, rgb(7 8 11 / 0.94) 22%, rgb(7 8 11 / 0.5) 62%, rgb(7 8 11 / 0.25) 100%); }
   }
-
-  /* Ruhige Variante: Regler stehen sofort, kein Überblenden */
+  /* Ruhige Variante: Pult hell, Lichter an, keine Bewegung */
   @media (prefers-reduced-motion: reduce) {
-    :global(html:not(.fx-force)) .cap, :global(html:not(.fx-force)) .shot, :global(html:not(.fx-force)) .shot :global(img) { transition: none; }
+    :global(html:not(.fx-force)) .hero .board :global(img) { filter: none; transition: none; }
+    :global(html:not(.fx-force)) .hero .leds :global(i) { animation: none; opacity: var(--o, 0.85); scale: 1; }
+    :global(html:not(.fx-force)) .hero .scan { display: none; }
   }
 </style>
 
 <script>
+  import { LEDS } from "./intro-leds";
   const hero = document.querySelector<HTMLElement>("[data-hero]");
-  if (hero) {
-    const strips = [...hero.querySelectorAll<HTMLButtonElement>("[data-ch]")];
-    const shots = [...hero.querySelectorAll<HTMLElement>("[data-shot]")];
-    const outs = [...hero.querySelectorAll<HTMLElement>("[data-out]")];
-    const pick = (key: string) => {
-      hero.dataset.room = key;
-      strips.forEach((s) => s.setAttribute("aria-pressed", String(s.dataset.ch === key)));
-      shots.forEach((f) => { const on = f.dataset.shot === key; if (on) f.classList.add("seen"); f.classList.toggle("is-on", on); f.toggleAttribute("aria-hidden", !on); });
-      outs.forEach((o) => (o.hidden = o.dataset.out !== key));
-    };
-    strips.forEach((s) => {
-      s.addEventListener("click", () => pick(s.dataset.ch!));
-      // Foto schon beim Darüberfahren/Fokus vorladen, damit der Wechsel ohne Lücke ist
-      const warm = () => shots.find((f) => f.dataset.shot === s.dataset.ch)?.classList.add("seen");
-      s.addEventListener("pointerenter", warm); s.addEventListener("focus", warm);
-    });
-    // Pfeiltasten wandern zwischen den Kanalzügen
-    hero.querySelector(".strips")?.addEventListener("keydown", (e) => {
-      const k = (e as KeyboardEvent).key, i = strips.indexOf(document.activeElement as HTMLButtonElement);
-      if (i < 0 || !["ArrowLeft", "ArrowRight"].includes(k)) return;
-      e.preventDefault(); strips[(i + (k === "ArrowRight" ? 1 : -1) + strips.length) % strips.length].focus();
-    });
+  const leds = hero?.querySelector<HTMLElement>("[data-hero-leds]");
+  if (hero && leds) {
+    // Leuchtpunkte erzeugen: vorne (unten im Bild) zuerst, dann Reihe für Reihe nach hinten.
+    // Alle warmen Tasten, von den Drehknöpfen nur jeder zweite – spart Rechenzeit beim Laden.
+    const frag = document.createDocumentFragment();
+    for (const [x, y, w, c, warm] of LEDS.filter((l, n) => l[4] || n % 2 === 0)) {
+      const i = document.createElement("i");
+      if (warm) i.className = "warm";
+      const t = 0.15 + ((100 - y) / 58) * 1.6 + Math.random() * 0.16;
+      i.style.cssText = `--x:${x}%;--y:${y}%;--w:${w}%;--c:${c};--t:${t.toFixed(2)}s;--o:${warm ? 0.95 : 0.5}`;
+      frag.append(i);
+    }
 
-    // Ladefolge: erst die Überschrift, dann fahren die Regler hoch (einmalig)
+    // Ladefolge: Überschrift und Pult gehen gemeinsam an – nach dem Intro, sonst sofort
     const html = document.documentElement;
     const start = () => requestAnimationFrame(() => {
       hero.classList.add("title-in");
-      strips.forEach((s, i) => setTimeout(() => s.classList.add("lit"), 700 + i * 140));
+      leds.append(frag); // erst jetzt einfügen, damit das Laden der Seite nicht belastet wird
+      setTimeout(() => hero.classList.add("power"), 250);
     });
     if (html.classList.contains("intro-play") && !html.classList.contains("intro-done")) {
       new MutationObserver((_, o) => { if (html.classList.contains("intro-done")) { o.disconnect(); start(); } }).observe(html, { attributes: true, attributeFilter: ["class"] });
     } else start();
-    // Übrige Raumfotos vorladen, sobald die Seite steht
-    addEventListener("load", () => setTimeout(() => shots.forEach((f) => f.classList.add("seen")), 2500), { once: true });
   }
 </script>

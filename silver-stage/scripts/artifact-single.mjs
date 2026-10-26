@@ -43,6 +43,12 @@ const photoSrc = (stem) => {
   return join(dist, "_astro", orig);
 };
 
+// Gemeinsam genutzte Skript-Teile (import "./x.js") als data:-Module einbetten
+const jsWithImports = (file) => readFileSync(file, "utf8").replace(/(from\s*|import\s*)(["'])\.\/([^"']+\.js)\2/g, (m, kw, q, name) => {
+  const code = jsWithImports(join(dirname(file), name));
+  return `${kw}${q}data:text/javascript;base64,${Buffer.from(code).toString("base64")}${q}`;
+});
+
 // ---------- Seiten umschreiben ----------
 const cssCache = new Map();
 // Gemeinsame Bausteine (Stile, Skripte) nur einmal speichern, Seiten verweisen per Platzhalter
@@ -81,7 +87,7 @@ for (const r of routes) {
   h = h.replace(/<link rel="(?:icon|apple-touch-icon|sitemap|canonical|alternate)"[^>]*>/g, "");
   h = h.replace(/<meta property="og:[^>]*>|<meta name="twitter:[^>]*>/g, "");
   // Skripte einbetten
-  h = h.replace(/<script type="module" src="([^"]+)"><\/script>/g, (_, src) => `<script type="module">${share(src, readFileSync(distFile(src), "utf8"))}</script>`);
+  h = h.replace(/<script type="module" src="([^"]+)"><\/script>/g, (_, src) => `<script type="module">${share(src, jsWithImports(distFile(src)))}</script>`);
   // Bilder: <source> entfernen, srcset/sizes weg, alle Fotoadressen → gemeinsamer Platzhalter
   h = h.replace(/<source\b[^>]*>/g, "");
   h = h.replace(/\s(?:srcset|sizes)="[^"]*"/g, "");
