@@ -17,7 +17,7 @@ Liegen in `src/assets/photos/` (als JPG ohne Metadaten; Astro erzeugt AVIF/WebP 
 |---|---|---|---|
 | stage-buehne-front | Bühne mit Schriftzug, Traverse | Startbereich, Stageroom-Titel | |
 | stage-venice-buehne | MIDAS Venice, Sofa, Bühne | Startbereich, Über uns, Tunnel | |
-| stage-pult-blick | Blick über Pult auf Bühne | Stageroom-Galerie, Tunnel | ⚠️ wirkt KI-generiert/-bearbeitet (unscharfe, unlogische Pult-Details) – Echtheit bestätigen |
+| stage-pult-blick | Blick über Pult auf Bühne | Hintergrund des Lade-Intros (Wunsch Auftraggeber), Stageroom-Galerie, Tunnel | ⚠️ wirkt KI-generiert/-bearbeitet (unscharfe, unlogische Pult-Details) – Echtheit bestätigen |
 | stage-rack-funk | Rack mit EQ, Funk, Hall | Stageroom-Galerie, Tunnel | ⚠️ Beschriftungen teils verzerrt – Echtheit bestätigen |
 | tonstudio-aufnahmeraum | Aufnahmeraum mit Signet-Vorhang | Startbereich, Tonstudio-Titel | |
 | tonstudio-mikrofon | Mikrofon mit Poppschutz | Tonstudio-Galerie, Tunnel | ⚠️ wirkt KI-generiert – Echtheit bestätigen |
