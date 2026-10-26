@@ -6,3 +6,4 @@ dist/
 !.env.example
 dist-*/
 artifact/
+artifact-single.html
