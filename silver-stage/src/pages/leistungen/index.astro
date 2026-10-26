@@ -1,0 +1,95 @@
+---
+// Leistungen: was man bei Silver Stage buchen kann – je Raum, nur belegte Angaben aus site.ts
+import Base from "../../layouts/Base.astro";
+import Photo from "../../components/Photo.astro";
+import { ROOMS, PRICES, SITE, priceShown, euro } from "../../config/site";
+import { ROOM_PHOTOS } from "../../assets/photos";
+import { u } from "../../lib/url";
+const isExample = !PRICES.confirmed && SITE.preview;
+const verb: Record<string, string> = { tonstudio: "Aufnehmen", stageroom: "Proben und auftreten", lightroom: "Tanzen, singen, fotografieren" };
+---
+<Base title="Leistungen – Aufnahme, Proberaum, Tanz & Foto in München | Silver Stage" description="Was du bei Silver Stage in München-Sendling buchen kannst: Aufnahme-Sessions, Gesangs- und Sprachaufnahmen, Bandproben mit Bühne, Live-Mitschnitt, Tanztraining und Fotoshootings." current="/leistungen/">
+  <section class="section lhero">
+    <div class="wrap">
+      <h1 class="metal">Leistungen</h1>
+      <p class="lead">Drei Räume, ein Haus: Hier siehst du, was du bei Silver Stage buchen kannst, was dabei ist und womit du rechnen kannst.</p>
+      <nav class="jump" aria-label="Zu den Räumen springen">
+        {ROOMS.map((r) => <a href={`#${r.key}`} data-room={r.key}><span class="dot" aria-hidden="true"></span>{r.name}<small>{verb[r.key]}</small></a>)}
+      </nav>
+      {isExample && <p class="note" role="note"><strong>Vorschau:</strong> Die Beträge sind Beispielpreise und noch nicht vom Studio bestätigt.</p>}
+    </div>
+  </section>
+
+  {ROOMS.map((r, i) => {
+    const items = PRICES.groups.find((g) => g.room === r.key)?.items ?? [];
+    return (
+      <section class:list={["section", "svc", { "section--alt": i % 2 === 1 }]} id={r.key} data-room={r.key} aria-labelledby={`h-${r.key}`}>
+        <div class="wrap svc-grid">
+          <div class="svc-media"><Photo name={ROOM_PHOTOS[r.key].hero} sizes="(min-width: 960px) 40vw, 100vw" /></div>
+          <div class="svc-body">
+            <p class="kick">{r.name}</p>
+            <h2 id={`h-${r.key}`}>{verb[r.key]}</h2>
+            <p class="muted">{r.short}</p>
+            <ul class="cards">
+              {items.map((it) => { const pr = priceShown(it); return (
+                <li class="card">
+                  <h3>{it.name}</h3>
+                  <p>{it.detail}</p>
+                  <p class="price">{pr === null ? "Preis auf Anfrage" : <>{euro(pr)}{" "}<span>{it.unit}{isExample && " · Beispielpreis"}</span></>}</p>
+                </li>
+              ); })}
+            </ul>
+            <h3 class="inc">Dabei im {r.name}</h3>
+            <ul class="facts">{r.facts.map((f) => <li>{f}</li>)}</ul>
+            <div class="btn-row">
+              <a class="btn btn--primary" href={u(`/kontakt/?raum=${r.key}`)}>{r.name} anfragen</a>
+              <a class="btn btn--ghost" href={u(r.path)}>Mehr zum {r.name}</a>
+            </div>
+          </div>
+        </div>
+      </section>
+    );
+  })}
+
+  <section class="section cta">
+    <div class="wrap cta-inner">
+      <h2>Nicht sicher, welcher Raum passt?</h2>
+      <div class="btn-row">
+        <a class="btn btn--primary" href={u("/kontakt/")}>Vorhaben beschreiben</a>
+        <a class="btn btn--ghost" href={u("/preise/")}>Alle Preise</a>
+      </div>
+    </div>
+  </section>
+</Base>
+<style>
+  .lhero { padding-bottom: clamp(24px, 4vw, 48px); }
+  .lhero .wrap { display: grid; gap: 22px; }
+  h1 { font-size: clamp(2.8rem, 1.2rem + 6vw, 7rem); line-height: 0.95; letter-spacing: -0.04em; padding-bottom: 0.06em; }
+  .jump { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 12px; margin-top: 8px; }
+  .jump a { display: grid; grid-template-columns: auto 1fr; column-gap: 10px; align-items: center; padding: 16px 18px; border: 1px solid var(--line); border-radius: var(--radius); text-decoration: none; color: var(--ink); font: 400 var(--step-1) / 1.2 var(--font-display);
+    background: radial-gradient(120% 120% at 100% 0%, color-mix(in srgb, var(--room) 14%, transparent), transparent 60%), var(--bg-2); transition: border-color 0.2s; }
+  .jump a:hover { border-color: var(--room); }
+  .jump small { grid-column: 2; font: 400 var(--step--1) / 1.3 var(--font-body); color: var(--ink-2); }
+  .dot { width: 8px; height: 8px; border-radius: 50%; background: var(--room); box-shadow: 0 0 10px var(--room); }
+  .note { max-width: 70ch; padding: 14px 18px; border: 1px dashed var(--line-strong); border-radius: 10px; color: var(--ink-2); font-size: var(--step--1); }
+  .svc { scroll-margin-top: 80px; }
+  .svc-grid { display: grid; grid-template-columns: minmax(0, 0.9fr) minmax(0, 1.1fr); gap: clamp(28px, 5vw, 72px); align-items: start; }
+  .svc-media { position: sticky; top: 100px; border-radius: var(--radius); overflow: hidden; aspect-ratio: 4 / 5; }
+  .svc-media :global(img) { width: 100%; height: 100%; object-fit: cover; }
+  .svc-body { display: grid; gap: 16px; }
+  .kick { margin: 0; color: var(--room); font-weight: 500; }
+  .svc h2 { font-size: var(--step-3); }
+  .cards { list-style: none; margin: 8px 0 0; padding: 0; display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 12px; }
+  .card { display: grid; gap: 6px; align-content: start; padding: 18px 20px; border: 1px solid var(--line); border-radius: var(--radius); background: var(--bg); }
+  .card h3 { font: 400 var(--step-1) / 1.2 var(--font-display); margin: 0; }
+  .card p { margin: 0; color: var(--ink-2); font-size: var(--step--1); }
+  .card .price { margin-top: 6px; color: var(--ink); font: 400 1.25rem / 1.2 var(--font-display); }
+  .card .price span { font: 400 var(--step--1) / 1.3 var(--font-body); color: var(--ink-2); }
+  .inc { margin: 12px 0 0; font: 500 var(--step-0) / 1.3 var(--font-body); }
+  .facts { list-style: none; margin: 0; padding: 0; display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 8px 24px; color: var(--ink-2); }
+  .facts li { display: flex; gap: 10px; }
+  .facts li::before { content: ""; flex: none; width: 6px; height: 6px; margin-top: 0.6em; border-radius: 50%; background: var(--room); }
+  .cta-inner { display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 24px; }
+  @media (max-width: 960px) { .svc-grid { grid-template-columns: 1fr; } .svc-media { position: static; aspect-ratio: 16 / 9; } }
+  @media (max-width: 640px) { .jump, .cards, .facts { grid-template-columns: 1fr; } }
+</style>

@@ -148,8 +148,9 @@ export const ROOMS: Room[] = [
 export const roomByKey = (k: RoomKey) => ROOMS.find((r) => r.key === k)!;
 
 export const NAV = [
-  { label: "Tonstudio", href: "/tonstudio/" },
-  { label: "Räume", href: "/stageroom/", children: [
+  { label: "Leistungen", href: "/leistungen/" },
+  { label: "Räume", href: "/tonstudio/", children: [
+    { label: "Tonstudio", href: "/tonstudio/", note: "Aufnehmen · 32-Kanal-Analogpult" },
     { label: "Stageroom", href: "/stageroom/", note: "Proberaum mit Bühne · 80 m²" },
     { label: "Lightroom", href: "/lightroom/", note: "Tanz, Gesang & Foto · 55 m²" },
   ] },
@@ -157,6 +158,15 @@ export const NAV = [
   { label: "Beat Stage", href: "/beat-stage/" },
   { label: "Über uns", href: "/ueber-uns/" },
   { label: "Kontakt", href: "/kontakt/" },
+];
+// Immer sichtbare Kurzleiste ganz oben (am Handy ohne Menü-Knopf erreichbar)
+export const QUICK_NAV = [
+  { label: "Leistungen", href: "/leistungen/" },
+  { label: "Räume", href: "/tonstudio/" },
+  { label: "Preise", href: "/preise/" },
+  { label: "Kontakt", href: "/kontakt/" },
+  { label: "Impressum", href: "/impressum/" },
+  { label: "Datenschutz", href: "/datenschutz/" },
 ];
 
 // Preisliste. ACHTUNG: Es liegen noch keine bestätigten Preise vor (Stand 26.10.2026).

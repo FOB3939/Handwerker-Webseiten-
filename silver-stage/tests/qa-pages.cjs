@@ -4,7 +4,7 @@ const { chromium } = require("playwright");
 const fs = require("fs"), path = require("path");
 const axe = fs.readFileSync(require.resolve("axe-core/axe.min.js"), "utf8");
 const BASE = process.env.BASE_URL_TEST || "http://localhost:4321";
-const PAGES = ["/", "/tonstudio/", "/stageroom/", "/lightroom/", "/ueber-uns/", "/kontakt/", "/preise/", "/beat-stage/", "/impressum/", "/datenschutz/", "/404.html"];
+const PAGES = ["/", "/tonstudio/", "/stageroom/", "/lightroom/", "/ueber-uns/", "/kontakt/", "/preise/", "/leistungen/", "/beat-stage/", "/impressum/", "/datenschutz/", "/404.html"];
 const WIDTHS = [360, 390, 768, 1024, 1440];
 (async () => {
   const b = await chromium.launch();

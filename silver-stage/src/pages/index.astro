@@ -80,16 +80,33 @@ const faq = [
     <div class="wrap finder-inner">
       <div class="finder-q">
         <h2 id="finder-title">Was hast du vor?</h2>
-        <p class="muted">Ein Tipp, und du siehst den passenden Raum mit Preis.</p>
+        <p class="muted">Tipp auf dein Vorhaben: Du siehst den passenden Raum mit Ausstattung und Preisen.</p>
       </div>
       <div class="finder-opts" role="group" aria-label="Vorhaben wählen">
         {finder.map((f) => <button type="button" class="opt" data-pick={f.key} data-room={f.key} aria-pressed="false" aria-controls={`fo-${f.key}`}><span class="opt-k">{f.k}</span><span class="opt-s">{f.s}</span></button>)}
       </div>
       {finder.map((f) => (
         <div class="finder-out" id={`fo-${f.key}`} data-room={f.key} data-finder-out={f.key} hidden>
-          <p class="fo-name">{roomByKey(f.key).name}</p>
-          <p class="fo-text">{f.text}<br /><span class="small">{fromText(f.key)}{priceIsExample && fromPrice[f.key] != null && " · Beispielpreis"}</span></p>
-          <div class="btn-row"><a class="btn btn--primary btn--sm" href={u(`/kontakt/?raum=${f.key}`)}>{roomByKey(f.key).name} anfragen</a><a class="btn btn--ghost btn--sm" href={u(roomByKey(f.key).path)}>Raum ansehen</a></div>
+          <div class="fo-photo"><Photo name={ROOM_PHOTOS[f.key].hero} sizes="(min-width: 960px) 40vw, 100vw" /></div>
+          <div class="fo-main">
+            <p class="fo-name">{roomByKey(f.key).name}</p>
+            <p class="fo-text">{f.text}</p>
+            <div class="fo-cols">
+              <div>
+                <h3 class="fo-h">Das kannst du hier machen</h3>
+                <ul class="fo-uses">{roomByKey(f.key).uses.map((x) => <li><strong>{x.title}</strong> {x.text}</li>)}</ul>
+              </div>
+              <div>
+                <h3 class="fo-h">Ausstattung</h3>
+                <ul class="fo-facts">{roomByKey(f.key).facts.slice(0, 5).map((x) => <li>{x}</li>)}</ul>
+              </div>
+            </div>
+            <h3 class="fo-h">Preise{priceIsExample && <span class="fo-ex"> (Beispielpreise, noch nicht bestätigt)</span>}</h3>
+            <ul class="fo-prices">
+              {PRICES.groups.find((g) => g.room === f.key)!.items.map((it) => { const pr = priceShown(it); return <li><span>{it.name}</span><span class="fo-p">{pr === null ? "auf Anfrage" : `${euro(pr)} ${it.unit}`}</span></li>; })}
+            </ul>
+            <div class="btn-row"><a class="btn btn--primary btn--sm" href={u(`/kontakt/?raum=${f.key}`)}>{roomByKey(f.key).name} anfragen</a><a class="btn btn--ghost btn--sm" href={u(roomByKey(f.key).path)}>Alles zum {roomByKey(f.key).name}</a></div>
+          </div>
         </div>
       ))}
     </div>
@@ -382,12 +399,27 @@ const faq = [
   .opt-k { display: flex; align-items: center; gap: 10px; font: 400 var(--step-1) / 1.15 var(--font-display); }
   .opt-k::before { content: ""; width: 8px; height: 8px; border-radius: 50%; background: var(--room); box-shadow: 0 0 10px var(--room); }
   .opt-s { font-size: var(--step--1); color: var(--ink-2); }
-  .finder-out { grid-column: 1 / -1; display: grid; grid-template-columns: auto 1fr auto; gap: 20px 32px; align-items: center; padding: 22px 26px; border-radius: var(--radius); border: 1px solid color-mix(in srgb, var(--room) 45%, transparent); background: radial-gradient(80% 140% at 0% 0%, color-mix(in srgb, var(--room) 12%, transparent), transparent 70%), var(--bg); animation: pop-in 0.45s var(--ease); }
+  .finder-out { grid-column: 1 / -1; display: grid; grid-template-columns: minmax(0, 0.9fr) minmax(0, 1.6fr); gap: 0; align-items: stretch; padding: 0; overflow: hidden; border-radius: var(--radius); border: 1px solid color-mix(in srgb, var(--room) 45%, transparent); background: radial-gradient(80% 140% at 0% 0%, color-mix(in srgb, var(--room) 12%, transparent), transparent 70%), var(--bg); animation: pop-in 0.45s var(--ease); }
   .finder-out[hidden] { display: none; }
   .fo-name { font: 300 var(--step-3) / 1 var(--font-display); letter-spacing: -0.03em; color: var(--room); }
-  .fo-text { color: var(--ink-2); }
+  .fo-text { color: #d9dde4; max-width: 60ch; }
+  .fo-photo { position: relative; min-height: 260px; }
+  .fo-photo :global(img) { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; }
+  .fo-main { display: grid; gap: 14px; align-content: start; padding: clamp(20px, 3vw, 34px); }
+  .fo-cols { display: grid; grid-template-columns: 1fr 1fr; gap: 20px 32px; }
+  .fo-h { margin: 6px 0 0; font: 500 var(--step--1) / 1.3 var(--font-body); color: var(--ink); }
+  .fo-ex { color: var(--ink-2); font-weight: 400; }
+  .fo-uses, .fo-facts, .fo-prices { list-style: none; margin: 8px 0 0; padding: 0; display: grid; gap: 8px; font-size: var(--step--1); color: var(--ink-2); }
+  .fo-uses strong { color: var(--ink); font-weight: 500; }
+  .fo-facts li { display: flex; gap: 10px; }
+  .fo-facts li::before { content: ""; flex: none; width: 6px; height: 6px; margin-top: 0.55em; border-radius: 50%; background: var(--room); }
+  .fo-prices { gap: 0; }
+  .fo-prices li { display: flex; justify-content: space-between; gap: 16px; padding: 9px 0; border-bottom: 1px solid var(--line); }
+  .fo-p { color: var(--ink); white-space: nowrap; font-variant-numeric: tabular-nums; }
+  .finder-out .btn-row { margin-top: 8px; }
   @keyframes pop-in { from { opacity: 0; transform: translateY(8px); } }
-  @media (max-width: 960px) { .finder-inner { grid-template-columns: 1fr; } .finder-out { grid-template-columns: 1fr; gap: 12px; } }
+  @media (max-width: 960px) { .finder-inner { grid-template-columns: 1fr; } .finder-out { grid-template-columns: 1fr; } .fo-photo { min-height: 0; aspect-ratio: 16 / 9; } }
+  @media (max-width: 640px) { .fo-cols { grid-template-columns: 1fr; } .fo-prices li { flex-direction: column; gap: 2px; } }
   @media (max-width: 640px) { .finder-opts { grid-template-columns: 1fr; } .opt { min-height: 0; padding: 16px 18px; } }
 
   /* ---------- Räume: Preis und Fuß ---------- */
