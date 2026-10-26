@@ -12,18 +12,18 @@ const year = new Date().getFullYear();
       <p class="muted">Tonstudio, Proberaum mit Bühne und Raum für Tanz & Fotografie in München-Sendling.</p>
     </div>
     <div class="col">
-      <p class="label label--plain">Adresse</p>
+      <p class="fhead">Adresse</p>
       <address>{CONTACT.street}<br />{CONTACT.zip} {CONTACT.city}</address>
       <a class="link-arrow" href={CONTACT.routeUrl} target="_blank" rel="noopener">Route planen <Icon name="arrow" /></a>
     </div>
     <div class="col">
-      <p class="label label--plain">Kontakt</p>
+      <p class="fhead">Kontakt</p>
       <a class="flink" href={CONTACT.phoneHref}><Icon name="phone" />{CONTACT.phone}</a>
       <a class="flink" href={`mailto:${CONTACT.email}`}><Icon name="mail" />{CONTACT.email}</a>
       <p class="muted small">{CONTACT.hoursNote}</p>
     </div>
     <nav class="col" aria-label="Fußzeile">
-      <p class="label label--plain">Seiten</p>
+      <p class="fhead">Seiten</p>
       <ul>
         <li><a href={u("/tonstudio/")}>Tonstudio</a></li>
         <li><a href={u("/stageroom/")}>Stageroom</a></li>
@@ -40,6 +40,7 @@ const year = new Date().getFullYear();
   </div>
 </footer>
 <style>
+  .fhead { font: 500 var(--step--1) / 1.2 var(--font-body); color: var(--ink-2); }
   .footer { border-top: 1px solid var(--line); padding-top: clamp(56px, 7vw, 96px); background: var(--bg); }
   .grid { display: grid; grid-template-columns: 1.4fr 1fr 1fr 0.9fr; gap: 40px; }
   .col { display: grid; align-content: start; gap: 12px; }
