@@ -1,0 +1,119 @@
+---
+import Base from "../layouts/Base.astro";
+import PageHero from "./PageHero.astro";
+import Visual from "./Visual.astro";
+import Faq from "./Faq.astro";
+import Icon from "./Icon.astro";
+import { ROOMS, SITE, type RoomKey, roomByKey } from "../config/site";
+import { u } from "../lib/url";
+interface Props { room: RoomKey }
+const r = roomByKey(Astro.props.room);
+const others = ROOMS.filter((x) => x.key !== r.key);
+const galleryKinds: Record<RoomKey, ("studio" | "stage" | "light" | "lounge" | "detail")[]> = {
+  tonstudio: ["detail", "studio", "lounge"],
+  stageroom: ["stage", "studio", "lounge"],
+  lightroom: ["light", "stage", "lounge"],
+};
+const jsonLd = [
+  { "@context": "https://schema.org", "@type": "BreadcrumbList", itemListElement: [
+    { "@type": "ListItem", position: 1, name: "Start", item: new URL(u("/"), SITE.url).href },
+    { "@type": "ListItem", position: 2, name: r.name, item: new URL(u(r.path), SITE.url).href },
+  ] },
+  { "@context": "https://schema.org", "@type": "FAQPage", mainEntity: r.faq.map((f) => ({ "@type": "Question", name: f.q, acceptedAnswer: { "@type": "Answer", text: f.a } })) },
+];
+---
+<Base title={r.seoTitle} description={r.seoDescription} current={r.path} jsonLd={jsonLd}>
+  <PageHero kicker={r.kicker} title={r.title} lead={r.lead} visual={r.visual}
+    cta={{ label: `${r.name} anfragen`, href: u(`/kontakt/?raum=${r.key}`) }}
+    cta2={{ label: "Ausstattung", href: "#ausstattung" }}
+    facts={r.area ? [r.area, "Preise auf Anfrage"] : ["Preise auf Anfrage"]} />
+
+  <section class="section" aria-labelledby="uses-title">
+    <div class="wrap">
+      <p class="label">Geeignet für</p>
+      <h2 id="uses-title" class="h2">Wofür du den {r.name} nutzt</h2>
+      <ul class="uses">
+        {r.uses.map((x, i) => <li data-reveal style={`--d:${i * 0.08}s`}><span class="n">{String(i + 1).padStart(2, "0")}</span><h3>{x.title}</h3><p class="muted">{x.text}</p></li>)}
+      </ul>
+    </div>
+  </section>
+
+  <section class="section section--alt" id="ausstattung" aria-labelledby="eq-title">
+    <div class="wrap eq">
+      <div class="eq-media" data-reveal><Visual kind={r.visual === "studio" ? "detail" : r.visual} ratio="4 / 5" /></div>
+      <div data-reveal style="--d:.1s">
+        <p class="label">Ausstattung</p>
+        <h2 id="eq-title" class="h2">Was dich erwartet</h2>
+        <ul class="facts">{r.facts.map((f) => <li><span class="dot" aria-hidden="true"></span>{f}</li>)}</ul>
+        <p class="small muted">Angaben laut bisheriger Website des Studios – vor dem Livegang mit dem Betreiber abgeglichen.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" aria-labelledby="g-title">
+    <div class="wrap">
+      <h2 id="g-title" class="visually-hidden">Bilder {r.name}</h2>
+      <div class="gal">
+        {galleryKinds[r.key].map((k, i) => <Visual kind={k} ratio={i === 0 ? "16 / 10" : "4 / 3"} class={`g${i}`} />)}
+      </div>
+    </div>
+  </section>
+
+  <section class="section section--alt" aria-labelledby="price-title">
+    <div class="wrap price" data-reveal>
+      <div>
+        <p class="label">Preise</p>
+        <h2 id="price-title" class="h2">Individuelles Angebot</h2>
+      </div>
+      <div class="price-body">
+        <p class="lead">Feste Preise gibt es nicht – das Angebot richtet sich nach Dauer, Nutzung und Technik. Beschreib dein Vorhaben, wir melden uns mit einem konkreten Vorschlag.</p>
+        <div class="btn-row"><a class="btn btn--primary" href={u(`/kontakt/?raum=${r.key}`)}>{r.name} anfragen<Icon name="arrow" /></a></div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section"><div class="wrap"><Faq items={r.faq} /></div></section>
+
+  <section class="section section--alt" aria-labelledby="more-title">
+    <div class="wrap">
+      <p class="label">Weitere Räume</p>
+      <h2 id="more-title" class="h2">Auch bei Silver Stage</h2>
+      <ul class="more">
+        {others.map((o) => (
+          <li class="zoomable"><a href={u(o.path)} class="more-card">
+            <Visual kind={o.visual} ratio="16 / 9" />
+            <span class="more-body"><span class="label label--plain">{o.kicker}{o.area ? ` · ${o.area}` : ""}</span><span class="more-name">{o.name}</span><span class="muted">{o.short}</span></span>
+          </a></li>
+        ))}
+      </ul>
+    </div>
+  </section>
+</Base>
+<style>
+  .h2 { margin: 16px 0 clamp(32px, 5vw, 56px); max-width: 20ch; }
+  .uses { list-style: none; margin: 0; padding: 0; display: grid; grid-template-columns: repeat(3, 1fr); gap: 32px; }
+  .uses li { display: grid; gap: 12px; padding-top: 24px; border-top: 1px solid var(--line-strong); }
+  .n { font: 300 var(--step-2) / 1 var(--font-display); color: var(--silver); }
+  .uses h3 { font-size: var(--step-2); font-weight: 300; }
+  .eq { display: grid; grid-template-columns: 0.8fr 1.2fr; gap: clamp(32px, 6vw, 96px); align-items: center; }
+  .eq .h2 { margin-bottom: 28px; }
+  .facts { list-style: none; margin: 0 0 20px; padding: 0; border-top: 1px solid var(--line); }
+  .facts li { display: flex; align-items: center; gap: 16px; padding: 16px 0; border-bottom: 1px solid var(--line); font: 400 var(--step-1) / 1.3 var(--font-display); }
+  .dot { width: 7px; height: 7px; border-radius: 50%; background: var(--silver); flex: none; }
+  .gal { display: grid; grid-template-columns: 1.4fr 1fr; gap: 18px; }
+  .gal :global(.g0) { grid-row: span 2; aspect-ratio: auto !important; min-height: 360px; }
+  .price { display: grid; grid-template-columns: 0.8fr 1.2fr; gap: 32px; align-items: start; }
+  .price .h2 { margin-bottom: 0; }
+  .price-body { display: grid; gap: 24px; }
+  .more { list-style: none; margin: 0; padding: 0; display: grid; grid-template-columns: 1fr 1fr; gap: 24px; }
+  .more-card { display: grid; text-decoration: none; border: 1px solid var(--line); border-radius: var(--radius); overflow: hidden; background: var(--bg); height: 100%; }
+  .more-card :global(.visual) { border-radius: 0; }
+  .more-body { display: grid; gap: 10px; padding: 22px 24px 26px; }
+  .more-name { font: 300 var(--step-2) / 1.1 var(--font-display); text-transform: uppercase; letter-spacing: 0.04em; }
+  .more-card:hover .more-name { text-decoration: underline; text-underline-offset: 6px; text-decoration-color: var(--line-strong); }
+  @media (max-width: 860px) {
+    .uses, .eq, .price, .more { grid-template-columns: 1fr; }
+    .eq-media { max-width: 420px; }
+    .gal { grid-template-columns: 1fr; } .gal :global(.g0) { min-height: 240px; grid-row: auto; }
+  }
+</style>

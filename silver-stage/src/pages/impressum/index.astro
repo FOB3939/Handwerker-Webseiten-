@@ -1,0 +1,25 @@
+---
+import Base from "../../layouts/Base.astro";
+import { CONTACT } from "../../config/site";
+---
+<Base title="Impressum – Silver Stage" description="Impressum von Silver Stage, Flößergasse 8, 81369 München." noindex>
+  <section class="section"><div class="wrap--narrow legal">
+    <p class="label">Rechtliches</p>
+    <h1>Impressum</h1>
+    <p class="todo" role="note"><strong>Entwurf – Veröffentlichungshindernis:</strong> Die Pflichtangaben nach § 5 DDG (Betreiber, Rechtsform, Vertretungsberechtigte, ggf. Register und USt-IdNr.) müssen vom Betreiber geliefert und geprüft werden. Die markierten Stellen sind Platzhalter.</p>
+    <h2>Angaben zum Anbieter</h2>
+    <p>[Name bzw. Firma und Rechtsform des Betreibers]<br />[Vertretungsberechtigte Person]<br />{CONTACT.street}<br />{CONTACT.zip} {CONTACT.city}</p>
+    <h2>Kontakt</h2>
+    <p>Telefon: {CONTACT.phone}<br />E-Mail: <a href={`mailto:${CONTACT.email}`}>{CONTACT.email}</a></p>
+    <h2>Registereintrag und Umsatzsteuer</h2>
+    <p>[Registergericht und Registernummer, falls vorhanden]<br />[Umsatzsteuer-Identifikationsnummer, falls vorhanden]</p>
+    <h2>Verantwortlich für den Inhalt</h2>
+    <p>[Name, Anschrift – nur falls erforderlich]</p>
+  </div></section>
+</Base>
+<style>
+  .legal { display: grid; gap: 18px; max-width: 760px; }
+  .legal h1 { font-size: var(--step-3); margin-bottom: 8px; }
+  .legal h2 { font-size: var(--step-1); font-weight: 500; margin-top: 18px; }
+  .todo { border-left: 2px solid #ffb37a; background: rgb(255 179 122 / 0.1); padding: 14px 16px; font-size: var(--step--1); }
+</style>

@@ -1,0 +1,14 @@
+---
+import Base from "../layouts/Base.astro";
+import Icon from "../components/Icon.astro";
+import { u } from "../lib/url";
+---
+<Base title="Seite nicht gefunden – Silver Stage" description="Diese Seite gibt es nicht." noindex>
+  <section class="section"><div class="wrap nf">
+    <p class="label">404</p>
+    <h1>Hier spielt gerade keine Musik.</h1>
+    <p class="lead">Die Seite gibt es nicht (mehr). Vielleicht suchst du eines davon:</p>
+    <div class="btn-row"><a class="btn btn--primary" href={u("/")}>Zur Startseite<Icon name="arrow" /></a><a class="btn btn--ghost" href={u("/kontakt/")}>Session anfragen</a></div>
+  </div></section>
+</Base>
+<style>.nf { display: grid; gap: 22px; justify-items: start; min-height: 50vh; align-content: center; } .nf h1 { font-size: var(--step-3); }</style>
