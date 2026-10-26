@@ -399,17 +399,17 @@
     "stickyCta": "Angebot anfragen",
     "look": {
       "palette": 4,
-      "font": 1,
-      "hero": 5,
-      "services": 5,
-      "radius": 2,
-      "logo": 3,
-      "intro": 0,
-      "projects": 2,
-      "process": 2,
-      "faq": 0,
-      "reviews": 1,
-      "order": 1
+      "font": 6,
+      "hero": 0,
+      "services": 4,
+      "radius": 0,
+      "logo": 4,
+      "intro": 5,
+      "projects": 1,
+      "process": 1,
+      "faq": 1,
+      "reviews": 0,
+      "order": 0
     }
   }
 }

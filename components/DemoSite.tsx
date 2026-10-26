@@ -207,11 +207,11 @@ function RatingChip({ lead, dark = false }: { lead: Lead; dark?: boolean }) {
 function CtaRow({ lead, call, dark = false }: { lead: Lead; call: string; dark?: boolean }) {
   const { hero } = lead.site;
   return (
-    <div className="mt-8 flex flex-col gap-3 sm:flex-row">
+    <div className="mt-8 flex flex-col flex-wrap gap-3 sm:flex-row">
       <a href="#anfrage" className="btn-shine inline-flex items-center justify-center gap-2 rounded-t bg-t-accent px-7 py-4 font-bold text-t-accent-ink shadow-lg shadow-black/10 transition hover:brightness-110">
         {hero.ctaPrimary}
       </a>
-      <a href={call} className={`inline-flex items-center justify-center gap-2 rounded-t border px-7 py-4 font-bold transition ${dark ? "border-white/30 text-white hover:bg-white/10" : "border-t-ink/20 text-t-ink hover:bg-t-ink/5"}`}>
+      <a href={call} className={`inline-flex items-center justify-center gap-2 whitespace-nowrap rounded-t border px-7 py-4 font-bold transition ${dark ? "border-white/30 text-white hover:bg-white/10" : "border-t-ink/20 text-t-ink hover:bg-t-ink/5"}`}>
         <PhoneIcon /> {lead.company.phone ?? hero.ctaSecondary}
       </a>
     </div>
@@ -404,14 +404,14 @@ function Hero({ lead, theme, call, upper, hof, fx }: Ctx) {
             <RatingChip lead={lead} />
             <h1 data-split {...fitH1(hero.headline, 0.42, `mt-4 text-balance font-display text-4xl font-extrabold leading-[1.04] sm:text-6xl ${upper}`)}>{hero.headline}</h1>
             <p className="mt-5 max-w-xl text-lg text-t-muted">{shortSub(hero.sub)}</p>
-            <OfferStrip lead={lead} hof={hof} />
+            <OfferStrip lead={lead} hof={hof} narrow />
             <CtaRow lead={lead} call={call} />
           </div>
           <div className="hero-media grid grid-cols-2 grid-rows-2 gap-3 sm:gap-4 lg:col-span-7">
             <div className="row-span-2">{art("h-full min-h-[18rem] w-full rounded-t shadow-xl", 0)}</div>
             {art("aspect-[4/3] w-full rounded-t shadow-lg", 2)}
             <div className="flex flex-col justify-end rounded-t bg-t-accent p-5 text-t-accent-ink shadow-lg">
-              <p className="font-display text-2xl font-black leading-tight">{b0?.title}</p>
+              <p lang="de" className="hyphens-auto break-words font-display text-xl font-black leading-tight sm:text-2xl">{b0?.title}</p>
               <p className="mt-1 text-sm">{b0?.sub}</p>
               {b1 && <p className="mt-3 border-t border-current/30 pt-3 text-sm font-semibold">{b1.title}</p>}
             </div>
@@ -548,16 +548,19 @@ function fitH1(headline: string, frac: number, className: string) {
   const longest = Math.max(...headline.replace(/[\u00ad.,–!?:]/g, " ").split(/\s+/).map((w) => w.length));
   // Breite Versalien (nicht die schmale Banner-Schrift) brauchen mehr Platz pro Buchstabe.
   const wideCaps = className.includes("uppercase") && frac < 0.9;
-  if (longest < (wideCaps ? 10 : 12)) return { className };
-  return { className: `${className} fit-h1`, style: { "--L": longest, "--frac": frac, "--cw": wideCaps ? 0.8 : 0.6 } as CSSProperties };
+  if (longest < 9) return { className };
+  // Zeichenbreite: aus der Schrift (--h1-cw), breite Versalien mindestens 0.8
+  const style = { "--L": longest, "--frac": frac, ...(wideCaps ? { "--cw": "max(0.8, var(--h1-cw, 0.62))" } : {}) };
+  return { className: `${className} fit-h1`, style: style as CSSProperties };
 }
 
-function OfferStrip({ lead, hof, dark = false }: { lead: Lead; hof: boolean; dark?: boolean }) {
+// narrow: schmale Textspalte (Mosaik-Hero) – höchstens zwei Kacheln pro Reihe, damit keine Wörter brechen
+function OfferStrip({ lead, hof, dark = false, narrow = false }: { lead: Lead; hof: boolean; dark?: boolean; narrow?: boolean }) {
   const offer = (lead.site.heroOffer?.length ? lead.site.heroOffer : lead.site.services.map((s) => s.title)).slice(0, hof ? 5 : 6);
   if (!hof) {
     // Handwerk: große Symbol-Kacheln – auf einen Blick erkennbar, was angeboten wird.
     return (
-      <ul data-pop aria-label="Leistungen auf einen Blick" className="mt-7 grid max-w-xl grid-cols-2 gap-2.5 sm:grid-cols-3">
+      <ul data-pop aria-label="Leistungen auf einen Blick" className={`mt-7 grid max-w-xl grid-cols-2 gap-2.5 ${narrow ? "" : "sm:grid-cols-3"}`}>
         {offer.map((o, k) => (
           <li key={o} style={{ "--k": k } as CSSProperties} className={`offer-tile flex flex-col items-center gap-2 rounded-t px-2 py-3 text-center text-[12px] font-bold leading-tight shadow-sm sm:flex-row sm:gap-2.5 sm:px-2.5 sm:py-2.5 sm:text-left sm:text-[13px] ${dark ? "bg-white/10 text-white ring-1 ring-white/25 backdrop-blur" : "bg-t-surface text-t-ink ring-1 ring-t-line"}`}>
             <span className={`grid h-10 w-10 shrink-0 place-items-center rounded-full ${dark ? "bg-t-accent text-t-accent-ink" : "bg-t-accent/15 text-t-accent"}`}>

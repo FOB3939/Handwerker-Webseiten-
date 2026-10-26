@@ -100,6 +100,9 @@ const PALETTES: Record<string, Palette[]> = {
 interface Fonts { display: string; body: string; href: string; upper?: boolean }
 const F = (display: string, body: string, href: string, upper = false): Fonts => ({ display, body, href, upper });
 const g = (q: string) => `https://fonts.googleapis.com/css2?${q}&display=swap`;
+// Breit laufende Display-Schriften brauchen pro Buchstabe mehr Platz (Zeichenbreite in em für die Größenanpassung langer Wörter in der h1)
+const CHAR_W: [RegExp, string][] = [[/Unbounded/, "1"], [/Syne|Archivo Black/, "0.84"], [/Red Hat Display|Epilogue|Sora/, "0.7"]];
+const charWidth = (display: string) => CHAR_W.find(([re]) => re.test(display))?.[1] ?? "0.62";
 const FONTS: Fonts[] = [
   F('"Bricolage Grotesque"', '"Figtree"', g("family=Bricolage+Grotesque:opsz,wght@12..96,500..800&family=Figtree:wght@400;500;600;700")),
   F('"Sora"', '"Sora"', g("family=Sora:wght@400;500;600;700;800")),
@@ -196,7 +199,7 @@ export function resolveTheme(lead: Lead): Identity {
     vars: withReadableColors({
       bg: rgb(pal.bg), surface: rgb(pal.surface), ink: rgb(pal.ink), muted: rgb(pal.muted), line: rgb(pal.line),
       accent: rgb(pal.accent), "accent-ink": rgb(pal.accentInk), dark: rgb(pal.dark), "dark-ink": rgb(pal.darkInk),
-      "font-display": `${fonts.display}, var(--font-sans)`, "font-body": `${fonts.body}, var(--font-sans)`,
+      "font-display": `${fonts.display}, var(--font-sans)`, "font-body": `${fonts.body}, var(--font-sans)`, "h1-cw": charWidth(fonts.display),
       radius: at(RADII, look.radius, s, 3),
     }),
     hero: at(HEROES, look.hero, s, 4),

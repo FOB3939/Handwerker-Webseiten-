@@ -393,17 +393,17 @@
     "stickyCta": "Angebot anfragen",
     "look": {
       "palette": 2,
-      "font": 10,
-      "hero": 2,
-      "services": 0,
-      "radius": 4,
-      "logo": 2,
-      "intro": 1,
-      "projects": 1,
-      "process": 0,
-      "faq": 2,
-      "reviews": 0,
-      "order": 2
+      "font": 1,
+      "hero": 5,
+      "services": 5,
+      "radius": 2,
+      "logo": 3,
+      "intro": 0,
+      "projects": 2,
+      "process": 2,
+      "faq": 0,
+      "reviews": 1,
+      "order": 1
     }
   }
 }
