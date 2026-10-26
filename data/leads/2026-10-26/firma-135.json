@@ -1,0 +1,399 @@
+{
+  "id": "2026-10-26-135",
+  "slug": "zech-schreinerei-bergkirchen",
+  "date": "2026-10-26",
+  "company": {
+    "name": "Zech Schreinerei",
+    "owner": null,
+    "trade": "Schreinerei",
+    "city": "Bergkirchen",
+    "address": "Graßlfinger Str. 55, 85232 Bergkirchen (Feldgeding)",
+    "phone": "08131 667981",
+    "email": null,
+    "serviceArea": [
+      "Bergkirchen",
+      "Feldgeding",
+      "Dachau",
+      "Karlsfeld",
+      "Schwabhausen",
+      "Odelzhausen"
+    ]
+  },
+  "listings": {
+    "google": {
+      "url": "https://www.google.com/maps/search/?api=1&query=Zech%20Schreinerei%20Gra%C3%9Flfinger%20Str.%2055%20Bergkirchen",
+      "rating": null,
+      "reviews": null,
+      "evidence": "NICHT BELEGT – kein Google-Spiegel (trustlocal, firmania, rgv-bayern) gefunden. Nur Verzeichniseinträge: 11880 („Zech Schreinerei“, Graßlfinger Str. 55, Bergkirchen) und suchehandwerker.de (gleiche Adresse, Tel. 08131 667981, keine Bewertungen). Ein weiteres Verzeichnis nennt „Stephan Zech Kunstgewerbe Schreinerei“ unter derselben Adresse. Nachsuche 22.10. in trustlocal, firmania, rgv-bayern, cybo, mapquest, infoisinfo, WKDB ebenfalls ohne Treffer."
+    },
+    "myhammer": {
+      "url": "https://www.11880.com/branchenbuch/bergkirchen-kreis-dachau/060694711B38607949/zech-schreinerei.html",
+      "rating": null,
+      "reviews": null,
+      "evidence": "Kein MyHammer gefunden – Eintrag „Zech Schreinerei“ bei 11880 (Kategorie Schreiner/Tischler, Graßlfinger Str. 55, 85232 Bergkirchen)."
+    }
+  },
+  "websiteStatus": "keine eigene Website gefunden",
+  "websiteChecks": [
+    "(1) „Schreinerei Zech Bergkirchen Graßlfinger Str“ mit blocked_domains (11880, Gelbe Seiten, Das Örtliche, Telefonbuch, Cylex, meinestadt, Creditreform, Facebook, Instagram, golocal, MyHammer, Northdata, Firmenwissen, WKDB, Yelp, trustlocal, wlw) – nur Verzeichnisse (suchehandwerker.de u. a.), keine eigene Domain. Gleichnamige, aber andere Betriebe: Schreinerei Zech GmbH & Co. KG (Freising), Schreinerei Franz Zech (Amberg) – beide nicht am Ort",
+    "(2) Domain-Check allowed_domains schreinerei-zech.de, zech-schreinerei.de, schreiner-zech.de, stephan-zech.de, zech-bergkirchen.de, schreinerei-zech-bergkirchen.de, zech-kunstgewerbe.de, kunstschreinerei-zech.de – einziger Treffer schreinerei-zech.de = Schreinerei Franz Zech in Amberg (anderer Betrieb, kein Bezug zu Bergkirchen)",
+    "(3) Telefonsuche „08131 667981“/„08131/667981“ (Nachprüfung 22.10.) – keine Treffer, keine Homepage-Angabe",
+    "(4) „Impressum Stephan Zech Schreinerei Bergkirchen Feldgeding“ (22.10.) – kein eigenes Impressum; nur fremde Betriebe (Zech GmbH & Co. KG Schlosserei Ingolstadt, Schreinerei Stephan Adolf Bergkirchen)",
+    "(5) Keine E-Mail gefunden (weder Freemail noch Firmendomain); Google-Spiegel-Suche (trustlocal, firmania, rgv-bayern, cybo, mapquest, infoisinfo, WKDB) am 22.10. ohne Treffer",
+    "Nachprüfung 26.10.: Google-Spiegel-Suche (trustlocal, firmania, rgv-bayern, cylex, 11880) erneut ohne Google-Beleg; 11880-Eintrag laut Snippet am 02.10.2026 aktualisiert, keine Bewertungen; Cylex nennt Stephan Zech als Inhaber (Schreinerei mit Zimmereibetrieb), keine E-Mail",
+    "Website-Risiko: niedrig – alle 4 Prüfungen negativ; aber kein Google-Beleg, keine Freemail (RESERVE)"
+  ],
+  "facts": {
+    "services": [
+      "Schreinerarbeiten",
+      "Tischlerarbeiten"
+    ],
+    "experience": null,
+    "praisedFor": []
+  },
+  "strategy": {
+    "audience": "Hauseigentümer und Familien in Bergkirchen, Feldgeding, Dachau und Karlsfeld, die Möbel nach Maß, Einbauten oder Holzreparaturen suchen",
+    "mainService": "Schreinerarbeiten nach Maß",
+    "trustSignal": "Kleine Schreinerei direkt in Feldgeding – kurze Wege im Dachauer Land",
+    "conversionGoal": "Anfrage für ein Möbel- oder Einbauprojekt per Telefon oder Formular",
+    "visualConcept": "Warme Werkstattästhetik: helles Massivholz, Hobelspäne, saubere Kanten und Maßarbeit"
+  },
+  "sales": {
+    "score": 3,
+    "whyGoodLead": [
+      "Keine eigene Website gefunden – nur knappe Verzeichniseinträge",
+      "Kein Google-Profil sichtbar – Website + Profil bringen Sichtbarkeit im Landkreis Dachau",
+      "Schreiner war bisher seltenes Gewerk in der Lead-Liste",
+      "Maßarbeit lebt von Bildern – eine Website mit Projektgalerie zeigt das Können"
+    ],
+    "pitch": "Grüß Gott, hier ist … – ich baue Websites für Handwerker im Landkreis Dachau. Ich habe Ihre Schreinerei in Bergkirchen im Branchenbuch gefunden, aber keine eigene Website. Ich habe unverbindlich einen Entwurf vorbereitet, auf dem Kunden Ihre Arbeiten sehen und direkt anfragen können – darf ich Ihnen den Link schicken?"
+  },
+  "manualChecks": [
+    "RESERVE – weder Google-Eintrag noch Freemail-Adresse belegt: NUR versenden, wenn Google Maps einen Eintrag OHNE Website zeigt.",
+    "Hinweis 26.10.: 11880-Eintrag am 02.10.2026 aktualisiert (spricht für aktiven Betrieb); Cylex nennt Stephan Zech als Inhaber – beim Erstkontakt bestätigen",
+    "Telefon- und Impressum-Suche am 22.10. nachgeholt (negativ) – Festnetznummer 08131 667981 vor Versand telefonisch prüfen",
+    "Prüfen, ob der Betrieb noch aktiv ist (nur ältere Verzeichniseinträge, Festnetznummer, keine Bewertungen)",
+    "Inhaber unklar – ein Verzeichnis nennt „Stephan Zech Kunstgewerbe Schreinerei“ an derselben Adresse; Schwerpunkt (Kunstgewerbe/Möbel/Innenausbau) beim Erstkontakt klären",
+    "Leistungen nur als Kategorie Schreiner/Tischler belegt – Detailleistungen (Möbel, Türen, Innenausbau) bestätigen",
+    "Logo und Projektfotos: nicht gefunden – beim Betrieb anfragen"
+  ],
+  "sources": [
+    {
+      "label": "11880 – Zech Schreinerei Bergkirchen",
+      "url": "https://www.11880.com/branchenbuch/bergkirchen-kreis-dachau/060694711B38607949/zech-schreinerei.html"
+    },
+    {
+      "label": "suchehandwerker.de – Zech Schreinerei in Bergkirchen",
+      "url": "https://suchehandwerker.de/betrieb/zech-schreinerei-301038/"
+    },
+    {
+      "label": "schreiner-tischler.de – Schreiner aus Bergkirchen (Übersicht)",
+      "url": "https://www.schreiner-tischler.de/bergkirchen"
+    }
+  ],
+  "site": {
+    "theme": "atelier",
+    "category": "handwerk",
+    "heroOffer": [
+      "Möbel nach Maß",
+      "Einbauschränke",
+      "Innentüren",
+      "Holzreparaturen",
+      "Innenausbau"
+    ],
+    "scene": "kitchen",
+    "logoIcon": "cabinet",
+    "logoMark": "ZS",
+    "brandName": "Zech Schreinerei",
+    "seoTitle": "Schreinerei in Bergkirchen – Zech Schreinerei",
+    "seoDescription": "Schreinerarbeiten nach Maß aus Bergkirchen-Feldgeding: Möbel, Einbauten, Türen und Reparaturen im Landkreis Dachau. Jetzt unverbindlich anfragen.",
+    "nav": [
+      {
+        "label": "Leistungen",
+        "href": "#leistungen"
+      },
+      {
+        "label": "Projekte",
+        "href": "#projekte"
+      },
+      {
+        "label": "Bewertungen",
+        "href": "#bewertungen"
+      },
+      {
+        "label": "Ablauf",
+        "href": "#ablauf"
+      },
+      {
+        "label": "FAQ",
+        "href": "#faq"
+      },
+      {
+        "label": "Kontakt",
+        "href": "#kontakt"
+      }
+    ],
+    "hero": {
+      "eyebrow": "Schreinerei · Bergkirchen-Feldgeding",
+      "headline": "Ihre Schreinerei in Bergkirchen",
+      "sub": "Möbel, Einbauten und Holzarbeiten nach Maß – gefertigt im Dachauer Land.",
+      "ctaPrimary": "Projekt anfragen",
+      "ctaSecondary": "Anrufen",
+      "bullets": [
+        "Werkstatt in Feldgeding",
+        "Maßarbeit statt Möbel von der Stange",
+        "Kurze Wege nach Dachau und Karlsfeld"
+      ],
+      "imageLabel": "Schreinerwerkstatt mit Massivholzplatten und Hobelbank"
+    },
+    "badges": [
+      {
+        "title": "Maßarbeit",
+        "sub": "passend für Ihren Raum"
+      },
+      {
+        "title": "Massivholz",
+        "sub": "und Plattenwerkstoffe"
+      },
+      {
+        "title": "Einbauten",
+        "sub": "Schränke & Nischen"
+      },
+      {
+        "title": "Feldgeding",
+        "sub": "Graßlfinger Straße"
+      }
+    ],
+    "trust": [
+      {
+        "value": "Vor Ort",
+        "label": "Werkstatt in Bergkirchen"
+      },
+      {
+        "value": "Maß",
+        "label": "jedes Stück individuell"
+      },
+      {
+        "value": "Holz",
+        "label": "Möbel, Türen, Ausbau"
+      },
+      {
+        "value": "Direkt",
+        "label": "ein Ansprechpartner"
+      }
+    ],
+    "servicesIntro": {
+      "headline": "Holzarbeiten, die genau passen",
+      "text": "Ob Dachschräge, Nische oder ganzer Raum: Wir planen und fertigen Möbel und Einbauten, die sich nach Ihrem Zuhause richten."
+    },
+    "services": [
+      {
+        "title": "Möbel nach Maß",
+        "text": "Tische, Regale und Sideboards, gefertigt in den Maßen und Oberflächen, die zu Ihrem Raum passen.",
+        "items": [
+          "Tische",
+          "Regale",
+          "Sideboards"
+        ]
+      },
+      {
+        "title": "Einbauschränke",
+        "text": "Schränke für Dachschrägen, Nischen und Flure – der Platz wird bis in die Ecke genutzt.",
+        "items": [
+          "Dachschrägen",
+          "Nischen",
+          "Garderoben"
+        ]
+      },
+      {
+        "title": "Innentüren",
+        "text": "Neue Innentüren liefern und einbauen oder bestehende Türen anpassen.",
+        "items": [
+          "Türen einbauen",
+          "Türen kürzen",
+          "Zargen"
+        ]
+      },
+      {
+        "title": "Innenausbau",
+        "text": "Verkleidungen, Ablagen und Holzelemente für Wohnräume, Treppenhaus und Dachgeschoss.",
+        "items": [
+          "Verkleidungen",
+          "Fensterbänke",
+          "Ablagen"
+        ]
+      },
+      {
+        "title": "Küchenanpassung",
+        "text": "Fronten, Arbeitsplatten und Passstücke so angepasst, dass die Küche sauber abschließt.",
+        "items": [
+          "Passblenden",
+          "Arbeitsplatten",
+          "Fronten"
+        ]
+      },
+      {
+        "title": "Reparaturen",
+        "text": "Klemmende Türen, lose Beschläge oder beschädigte Möbel – kleine Holzarbeiten zuverlässig erledigt.",
+        "items": [
+          "Beschläge",
+          "Ausbesserungen",
+          "Nacharbeiten"
+        ]
+      }
+    ],
+    "why": {
+      "headline": "Schreinerhandwerk aus Feldgeding – persönlich und genau.",
+      "points": [
+        {
+          "title": "Kurze Wege",
+          "text": "Von Feldgeding aus schnell in Bergkirchen, Dachau, Karlsfeld und Schwabhausen."
+        },
+        {
+          "title": "Ein Ansprechpartner",
+          "text": "Beratung, Aufmaß und Montage aus einer Hand – ohne Weiterreichen."
+        },
+        {
+          "title": "Passgenau",
+          "text": "Jedes Stück wird nach Aufmaß vor Ort gefertigt, nicht aus dem Katalog."
+        },
+        {
+          "title": "Auch Kleines",
+          "text": "Neben großen Einbauten übernehmen wir auch Anpassungen und Reparaturen."
+        }
+      ]
+    },
+    "reviews": {
+      "headline": "Was Kunden sagen",
+      "summary": "Kundenstimmen werden hier eingebunden, sobald ein Google-Profil mit Bewertungen besteht.",
+      "highlights": [
+        "Schreinerei in Bergkirchen",
+        "Maßarbeit aus Holz",
+        "Persönlicher Kontakt"
+      ],
+      "source": "Google",
+      "sourceUrl": "https://www.google.com/maps/search/?api=1&query=Zech%20Schreinerei%20Gra%C3%9Flfinger%20Str.%2055%20Bergkirchen",
+      "rating": null,
+      "count": null
+    },
+    "process": {
+      "headline": "So entsteht Ihr Möbelstück",
+      "steps": [
+        {
+          "title": "Anfrage",
+          "text": "Rufen Sie an oder schicken Sie Fotos und grobe Maße Ihres Vorhabens."
+        },
+        {
+          "title": "Aufmaß",
+          "text": "Vor Ort wird genau gemessen und besprochen, wie das Stück aussehen soll."
+        },
+        {
+          "title": "Angebot",
+          "text": "Sie erhalten ein klares Angebot mit Material und Ausführung."
+        },
+        {
+          "title": "Fertigung & Montage",
+          "text": "In der Werkstatt gefertigt und bei Ihnen sauber eingebaut."
+        }
+      ]
+    },
+    "gallery": {
+      "headline": "Aus der Werkstatt",
+      "text": "Für die Live-Version zeigen wir hier echte Arbeiten der Schreinerei.",
+      "items": [
+        {
+          "title": "Dachschrägenschrank",
+          "photoNeeded": "Einbauschrank unter einer Dachschräge"
+        },
+        {
+          "title": "Massivholztisch",
+          "photoNeeded": "Esstisch aus Massivholz im Wohnraum"
+        },
+        {
+          "title": "Garderobe",
+          "photoNeeded": "Einbaugarderobe im Flur"
+        },
+        {
+          "title": "Innentür",
+          "photoNeeded": "neu eingebaute Holz-Innentür mit Zarge"
+        },
+        {
+          "title": "Werkstatt",
+          "photoNeeded": "Hobelbank und Werkstücke in der Werkstatt"
+        }
+      ]
+    },
+    "region": {
+      "headline": "Schreinerei für Bergkirchen und das Dachauer Land",
+      "text": "Von Feldgeding aus arbeiten wir in Bergkirchen, Dachau, Karlsfeld, Schwabhausen und Odelzhausen.",
+      "places": [
+        "Bergkirchen",
+        "Feldgeding",
+        "Dachau",
+        "Karlsfeld",
+        "Schwabhausen",
+        "Odelzhausen"
+      ]
+    },
+    "faq": [
+      {
+        "q": "Fertigen Sie auch einzelne Möbelstücke?",
+        "a": "Ja, auch einzelne Stücke wie ein Regal oder ein Tisch werden nach Maß gefertigt."
+      },
+      {
+        "q": "Kann ich vorab Fotos und Maße schicken?",
+        "a": "Ja, Fotos und grobe Maße helfen für eine erste Einschätzung vor dem Aufmaß."
+      },
+      {
+        "q": "Übernehmen Sie auch kleine Reparaturen?",
+        "a": "Ja, auch Anpassungen an Türen, Beschlägen oder Möbeln – fragen Sie einfach an."
+      },
+      {
+        "q": "Wie lange dauert die Fertigung?",
+        "a": "Das hängt von Umfang und Material ab. Ein Zeitplan wird mit dem Angebot abgestimmt."
+      },
+      {
+        "q": "Arbeiten Sie auch außerhalb von Bergkirchen?",
+        "a": "Ja, im Landkreis Dachau und Umgebung, etwa in Dachau und Karlsfeld."
+      }
+    ],
+    "contact": {
+      "headline": "Ihr Projekt – unverbindlich anfragen",
+      "text": "Beschreiben Sie kurz, was entstehen soll: Raum, ungefähre Maße und Wunschmaterial. Fotos helfen.",
+      "topics": [
+        "Möbel nach Maß",
+        "Einbauschrank",
+        "Innentüren",
+        "Innenausbau",
+        "Reparatur",
+        "Sonstiges"
+      ],
+      "responseNote": "Aufmaß vor Ort nach Absprache."
+    },
+    "quote": {
+      "sizeLabel": "Was soll gefertigt werden?",
+      "sizes": [
+        "Einzelnes Möbelstück",
+        "Einbauschrank",
+        "Türen",
+        "Ganzer Raum"
+      ],
+      "timings": [
+        "So bald wie möglich",
+        "In den nächsten Wochen",
+        "In 1–3 Monaten",
+        "Ich plane erst noch"
+      ]
+    },
+    "stickyCta": "Projekt anfragen",
+    "look": {
+      "palette": 2,
+      "font": 6,
+      "hero": 0,
+      "services": 1,
+      "radius": 1,
+      "logo": 0,
+      "intro": 5
+    }
+  }
+}

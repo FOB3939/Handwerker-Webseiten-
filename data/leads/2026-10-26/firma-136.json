@@ -1,0 +1,397 @@
+{
+  "id": "2026-10-26-136",
+  "slug": "rainer-schneller-spenglerei-puchheim",
+  "date": "2026-10-26",
+  "company": {
+    "name": "Rainer Schneller Spenglerei",
+    "owner": null,
+    "trade": "Spenglerei",
+    "city": "Puchheim",
+    "address": "Lagerstr. 12, 82178 Puchheim",
+    "phone": "089 89009270",
+    "email": null,
+    "serviceArea": [
+      "Puchheim",
+      "Germering",
+      "Eichenau",
+      "Gröbenzell",
+      "Olching",
+      "Fürstenfeldbruck"
+    ]
+  },
+  "listings": {
+    "google": {
+      "url": "https://www.google.com/maps/search/?api=1&query=Rainer%20Schneller%20Spenglerei%20Lagerstr.%2012%20Puchheim",
+      "rating": null,
+      "reviews": null,
+      "evidence": "KEIN Google-Beleg gefunden – Spiegel-Suche (rgv-bayern, firmania, trustlocal) ohne Treffer; keine Freemail-Adresse belegt. Nur Verzeichniseinträge (11880: noch keine Bewertungen)."
+    },
+    "myhammer": {
+      "url": "https://www.11880.com/branchenbuch/puchheim-oberbayern/290114921B43334002/rainer-schneller-spenglerei.html",
+      "rating": null,
+      "reviews": null,
+      "evidence": "Kein MyHammer gefunden – 11880-Eintrag „Rainer Schneller Spenglerei“, Lagerstr. 12, Puchheim, Tel. (089) 89009270, Kategorien Spengler/Klempner, Öffnungszeiten Mo–Do 8–18 Uhr; außerdem orte.muenchen.de und oeffnungszeitenbuch."
+    }
+  },
+  "websiteStatus": "keine eigene Website gefunden",
+  "websiteChecks": [
+    "(1) „Rainer Schneller Spenglerei Puchheim“ mit blocked_domains (11880, Gelbe Seiten, Das Örtliche, Telefonbuch, Cylex, meinestadt, Creditreform, Facebook, Instagram, golocal, MyHammer, Northdata, Firmenwissen, WKDB, Yelp, trustlocal, wlw) – laut Vorprüfung negativ, nur Verzeichnisse",
+    "(2) Domain-Check allowed_domains spenglerei-schneller.de, schneller-spenglerei.de, spenglerei-schneller-puchheim.de, schneller-dach.de, rainer-schneller.de, schneller-puchheim.de, spenglereischneller.de, schneller-bedachung.de – nur schneller-dach.de (Gebrüder Schneller, Würzburg – anderer Betrieb)",
+    "(3) Telefonsuche „089 89009270“/„08989009270“ mit blocked_domains – nur orte.muenchen.de, oeffnungszeitenbuch.de und Stadtbranchenbuch-Listen; keine Website",
+    "(4) Impressum-Suche „Impressum Rainer Schneller Spenglerei Puchheim Inhaber“ – kein eigenes Impressum; nur andere Puchheimer Spenglereien (Happach GmbH, Gusenbauer GmbH – nicht verbunden)",
+    "Nachprüfung 26.10.: Google-Spiegel-Suche (trustlocal, firmania, rgv-bayern, cylex, 11880) erneut ohne Google-Beleg und ohne E-Mail; 11880-Eintrag laut Snippet am 02.10.2026 aktualisiert, noch keine Bewertungen",
+    "Website-Risiko: mittel – alle Prüfungen negativ, aber weder Google-Eintrag noch Freemail belegt; Verzeichnisdaten teils sehr alt (Betrieb evtl. nicht mehr aktiv)"
+  ],
+  "facts": {
+    "services": [
+      "Spenglerarbeiten",
+      "Klempnerarbeiten"
+    ],
+    "experience": null,
+    "praisedFor": []
+  },
+  "strategy": {
+    "audience": "Hauseigentümer und Hausverwaltungen in Puchheim, Germering, Eichenau und Gröbenzell mit Bedarf an Dachrinnen, Blechverkleidungen und Abdeckungen",
+    "mainService": "Spenglerarbeiten am Dach – Rinnen, Fallrohre, Verblechungen",
+    "trustSignal": "Spenglerei mit Werkstatt in Puchheim",
+    "conversionGoal": "Rückruf oder Angebot für Dachrinne oder Verblechung anfragen",
+    "visualConcept": "Handwerkliches Metall: glänzende Kupfer- und Titanzinkrinnen, gefalzte Bleche und klare Dachkanten"
+  },
+  "sales": {
+    "score": 2,
+    "whyGoodLead": [
+      "Keine eigene Website gefunden – nur Verzeichniseinträge",
+      "Spengler sind gesucht (Dachrinnen, Sturmschäden) – Kunden suchen online nach Betrieben vor Ort",
+      "Keine Bewertungen sichtbar – Website und Google-Profil würden Sichtbarkeit schaffen",
+      "Nur RESERVE: Google-Eintrag und aktuelle Tätigkeit unbelegt"
+    ],
+    "pitch": "Guten Tag Herr Schneller, ich baue Websites für Handwerksbetriebe im Landkreis Fürstenfeldbruck. Ich habe Ihre Spenglerei in Puchheim im Branchenbuch gefunden, aber keine eigene Website. Ich habe unverbindlich einen Entwurf vorbereitet, auf dem Kunden Ihre Spenglerarbeiten sehen und direkt anfragen können – darf ich Ihnen den Link schicken?"
+  },
+  "manualChecks": [
+    "RESERVE – weder Google-Eintrag noch Freemail-Adresse belegt: NUR versenden, wenn Google Maps einen Eintrag OHNE Website zeigt.",
+    "Hinweis 26.10.: 11880-Eintrag am 02.10.2026 aktualisiert – Betrieb vermutlich noch aktiv, trotzdem vor Versand telefonisch prüfen",
+    "Betrieb noch aktiv? Ein Verzeichniseintrag ist über 12 Jahre alt – Festnetz 089 89009270 prüfen; keine Mobilnummer und keine E-Mail öffentlich",
+    "Inhaber nur aus Firmennamen abgeleitet (Rainer Schneller) – beim Erstkontakt bestätigen",
+    "Leistungen nur grob belegt (Spengler/Klempner laut 11880) – Details (Dachrinnen, Verblechungen, Kupfer/Titanzink) beim Betrieb bestätigen",
+    "Logo und Projektfotos: nicht gefunden – beim Betrieb anfragen"
+  ],
+  "sources": [
+    {
+      "label": "11880 – Rainer Schneller Spenglerei Puchheim",
+      "url": "https://www.11880.com/branchenbuch/puchheim-oberbayern/290114921B43334002/rainer-schneller-spenglerei.html"
+    },
+    {
+      "label": "Stadtbranchenbuch München – Rainer Schneller Puchheim",
+      "url": "https://orte.muenchen.de/90413.html"
+    },
+    {
+      "label": "oeffnungszeitenbuch – Rainer Schneller Spenglerei",
+      "url": "https://www.oeffnungszeitenbuch.de/filiale/Puchheim-Rainer%2520Schneller%2520Spenglerei-2625862C.html"
+    }
+  ],
+  "site": {
+    "theme": "werk",
+    "category": "handwerk",
+    "heroOffer": [
+      "Dachrinnen",
+      "Fallrohre",
+      "Verblechungen",
+      "Kaminverkleidung",
+      "Reparaturen"
+    ],
+    "scene": "facade",
+    "logoIcon": "roof",
+    "logoMark": "RS",
+    "brandName": "Spenglerei Schneller",
+    "seoTitle": "Spenglerei in Puchheim – Rainer Schneller",
+    "seoDescription": "Spenglerarbeiten in Puchheim und Umgebung: Dachrinnen, Fallrohre, Verblechungen und Reparaturen. Jetzt Angebot anfragen.",
+    "nav": [
+      {
+        "label": "Leistungen",
+        "href": "#leistungen"
+      },
+      {
+        "label": "Projekte",
+        "href": "#projekte"
+      },
+      {
+        "label": "Bewertungen",
+        "href": "#bewertungen"
+      },
+      {
+        "label": "Ablauf",
+        "href": "#ablauf"
+      },
+      {
+        "label": "FAQ",
+        "href": "#faq"
+      },
+      {
+        "label": "Kontakt",
+        "href": "#kontakt"
+      }
+    ],
+    "hero": {
+      "eyebrow": "Spenglerei · Puchheim",
+      "headline": "Ihre Spenglerei in Puchheim",
+      "sub": "Dachrinnen, Fallrohre und Verblechungen – handwerklich gefertigt im Landkreis Fürstenfeldbruck.",
+      "ctaPrimary": "Angebot anfragen",
+      "ctaSecondary": "Anrufen",
+      "bullets": [
+        "Spenglerei aus Puchheim",
+        "Rinnen und Verblechungen",
+        "Reparatur und Neubau"
+      ],
+      "imageLabel": "neue Titanzink-Dachrinne mit Fallrohr an einem Satteldach"
+    },
+    "badges": [
+      {
+        "title": "Dachrinnen",
+        "sub": "neu & Reparatur"
+      },
+      {
+        "title": "Fallrohre",
+        "sub": "sicher abgeleitet"
+      },
+      {
+        "title": "Verblechung",
+        "sub": "Kamin, Gaube, Attika"
+      },
+      {
+        "title": "Puchheim",
+        "sub": "Lagerstraße"
+      }
+    ],
+    "trust": [
+      {
+        "value": "Vor Ort",
+        "label": "Werkstatt in Puchheim"
+      },
+      {
+        "value": "Blech",
+        "label": "Spengler- und Klempnerarbeiten"
+      },
+      {
+        "value": "FFB",
+        "label": "Landkreis Fürstenfeldbruck"
+      },
+      {
+        "value": "Direkt",
+        "label": "kurzer Draht zum Betrieb"
+      }
+    ],
+    "servicesIntro": {
+      "headline": "Spenglerarbeiten rund ums Dach",
+      "text": "Wo Wasser abläuft und Dach auf Wand trifft, braucht es sauber verarbeitetes Blech – von der Rinne bis zur Kaminverkleidung."
+    },
+    "services": [
+      {
+        "title": "Dachrinnen",
+        "text": "Neue Rinnen oder Austausch alter Anlagen – passgenau montiert, damit Regenwasser zuverlässig abläuft.",
+        "items": [
+          "Hängerinnen",
+          "Austausch",
+          "Rinnenhalter"
+        ]
+      },
+      {
+        "title": "Fallrohre",
+        "text": "Fallrohre und Anschlüsse leiten das Wasser sicher vom Dach in die Entwässerung.",
+        "items": [
+          "Fallrohre",
+          "Standrohre",
+          "Anschlüsse"
+        ]
+      },
+      {
+        "title": "Kaminverkleidung",
+        "text": "Blechverkleidungen schützen Kamin und Anschlüsse dauerhaft vor Witterung.",
+        "items": [
+          "Kaminkopf",
+          "Anschlussbleche",
+          "Abdichtung"
+        ]
+      },
+      {
+        "title": "Gaubenverblechung",
+        "text": "Gauben und Dachaufbauten erhalten eine dichte, saubere Blecheindeckung.",
+        "items": [
+          "Gaubenwangen",
+          "Gaubendach",
+          "Anschlüsse"
+        ]
+      },
+      {
+        "title": "Mauerabdeckungen",
+        "text": "Abdeckungen für Mauern, Attiken und Fensterbänke halten Feuchtigkeit fern.",
+        "items": [
+          "Attika",
+          "Mauerkronen",
+          "Fensterbleche"
+        ]
+      },
+      {
+        "title": "Reparaturen",
+        "text": "Undichte Rinne, lose Bleche oder Sturmschaden – Schäden werden fachgerecht instandgesetzt.",
+        "items": [
+          "Undichtigkeiten",
+          "Sturmschäden",
+          "Rinnenreinigung"
+        ]
+      }
+    ],
+    "why": {
+      "headline": "Spenglerhandwerk aus Puchheim – solide und direkt.",
+      "points": [
+        {
+          "title": "Kurze Wege",
+          "text": "Von Puchheim schnell in Germering, Eichenau, Gröbenzell und Olching."
+        },
+        {
+          "title": "Fachgewerk",
+          "text": "Spengler- und Klempnerarbeiten sind das Kerngeschäft – nicht Nebensache."
+        },
+        {
+          "title": "Direkter Kontakt",
+          "text": "Ein Anruf genügt, um Schaden oder Vorhaben zu besprechen."
+        },
+        {
+          "title": "Neu und Reparatur",
+          "text": "Vom Komplettaustausch bis zur kleinen Ausbesserung."
+        }
+      ]
+    },
+    "reviews": {
+      "headline": "Was Kunden sagen",
+      "summary": "Kundenstimmen werden hier eingebunden, sobald ein Google-Profil vorliegt.",
+      "highlights": [
+        "Spenglerei in Puchheim",
+        "Dachrinnen und Verblechungen",
+        "Direkter Kontakt"
+      ],
+      "source": "Google",
+      "sourceUrl": "https://www.google.com/maps/search/?api=1&query=Rainer%20Schneller%20Spenglerei%20Lagerstr.%2012%20Puchheim",
+      "rating": null,
+      "count": null
+    },
+    "process": {
+      "headline": "So kommt das Blech aufs Dach",
+      "steps": [
+        {
+          "title": "Anfrage",
+          "text": "Anrufen und Schaden oder Vorhaben kurz schildern – Fotos helfen."
+        },
+        {
+          "title": "Aufmaß",
+          "text": "Rinnen, Anschlüsse und Bleche werden vor Ort aufgemessen."
+        },
+        {
+          "title": "Angebot",
+          "text": "Sie erhalten ein klares Angebot mit Material und Arbeit."
+        },
+        {
+          "title": "Montage",
+          "text": "Fertigung und Montage – sauber angeschlossen und dicht übergeben."
+        }
+      ]
+    },
+    "gallery": {
+      "headline": "Blecharbeiten, die dicht halten",
+      "text": "Für die Live-Version zeigen wir hier echte Projekte des Betriebs.",
+      "items": [
+        {
+          "title": "Neue Dachrinne",
+          "photoNeeded": "montierte Dachrinne mit Rinnenhaltern an der Traufe"
+        },
+        {
+          "title": "Fallrohr",
+          "photoNeeded": "Fallrohr mit Standrohr an einer Hausfassade"
+        },
+        {
+          "title": "Kaminkopf",
+          "photoNeeded": "verblechter Kamin auf einem Ziegeldach"
+        },
+        {
+          "title": "Gaube",
+          "photoNeeded": "Gaube mit Blecheindeckung und Wangen"
+        },
+        {
+          "title": "Mauerabdeckung",
+          "photoNeeded": "Attika- oder Mauerabdeckung aus Blech"
+        }
+      ]
+    },
+    "region": {
+      "headline": "Spenglerei für Puchheim und den Landkreis Fürstenfeldbruck",
+      "text": "Von Puchheim aus schnell in Germering, Eichenau, Gröbenzell, Olching und Fürstenfeldbruck.",
+      "places": [
+        "Puchheim",
+        "Germering",
+        "Eichenau",
+        "Gröbenzell",
+        "Olching",
+        "Fürstenfeldbruck"
+      ]
+    },
+    "faq": [
+      {
+        "q": "Reparieren Sie auch einzelne Rinnenstücke?",
+        "a": "Ja, auch kleinere Reparaturen an Rinnen und Fallrohren sind möglich – am besten kurz anrufen und den Schaden schildern."
+      },
+      {
+        "q": "Welche Materialien verwenden Sie?",
+        "a": "Das Material wird je nach Dach und Wunsch abgestimmt – sprechen Sie uns beim Aufmaß darauf an."
+      },
+      {
+        "q": "Kann ich vorab Fotos schicken?",
+        "a": "Ja, Fotos vom Schaden oder der Situation am Dach helfen für eine erste Einschätzung."
+      },
+      {
+        "q": "Wann sind Sie erreichbar?",
+        "a": "Laut Verzeichnis Montag bis Donnerstag von 8 bis 18 Uhr unter 089 89009270."
+      },
+      {
+        "q": "Arbeiten Sie auch außerhalb von Puchheim?",
+        "a": "Ja, im Umkreis von Puchheim – fragen Sie einfach an."
+      }
+    ],
+    "contact": {
+      "headline": "Ihre Anfrage für Spenglerarbeiten",
+      "text": "Beschreiben Sie kurz, worum es geht: Rinne, Fallrohr, Verblechung oder Schaden. Fotos helfen.",
+      "topics": [
+        "Dachrinnen",
+        "Fallrohre",
+        "Kaminverkleidung",
+        "Verblechung",
+        "Reparatur",
+        "Sonstiges"
+      ],
+      "responseNote": "Aufmaß vor Ort nach Absprache."
+    },
+    "quote": {
+      "sizeLabel": "Was steht an?",
+      "sizes": [
+        "Kleine Reparatur",
+        "Rinne an einer Hausseite",
+        "Rinnen ums ganze Haus",
+        "Verblechung / Kamin"
+      ],
+      "timings": [
+        "So bald wie möglich",
+        "In den nächsten Wochen",
+        "In 1–3 Monaten",
+        "Ich plane erst noch"
+      ]
+    },
+    "stickyCta": "Angebot anfragen",
+    "look": {
+      "palette": 2,
+      "font": 6,
+      "hero": 0,
+      "services": 1,
+      "radius": 1,
+      "logo": 0,
+      "intro": 5
+    }
+  }
+}
