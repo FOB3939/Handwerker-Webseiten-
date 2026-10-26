@@ -10,8 +10,10 @@ import Logo from "./Logo.astro";
 import { INTRO } from "../config/site";
 import { getImage } from "astro:assets";
 import { PHOTOS } from "../assets/photos";
-// Hintergrundfoto: Mischpult mit Blick auf die Bühne. Klein und weichgezeichnet genug, um sofort da zu sein.
-const bg = await getImage({ src: PHOTOS.stagePultBlick.src, width: 1280, format: "webp", quality: 55 });
+// Hintergrundfoto: Mischpult mit Blick auf die Bühne – gestochen scharf. Darauf gehen die Lichter des Pults an
+// (Leuchtpunkte aus intro-leds.ts, von vorne nach hinten „steigend“), danach erscheint das Logo.
+const bgS = await getImage({ src: PHOTOS.stagePultBlick.src, width: 1280, format: "webp", quality: 72 });
+const bgL = await getImage({ src: PHOTOS.stagePultBlick.src, width: 1672, format: "webp", quality: 78 });
 ---
 <script is:inline define:vars={{ key: INTRO.storageKey }}>
   // Einmal pro Sitzung. Ohne Sitzungsspeicher (z. B. eingebettete Vorschau) läuft es bei jedem Aufruf.
@@ -28,7 +30,11 @@ const bg = await getImage({ src: PHOTOS.stagePultBlick.src, width: 1280, format:
 </script>
 <div class="intro" data-intro data-duration={INTRO.durationMs} role="region" aria-label="Intro">
   <!-- lazy: lädt nur, wenn das Intro wirklich läuft (sonst ist der Container display:none) -->
-  <img class="intro-photo" src={bg.src} width={bg.attributes.width} height={bg.attributes.height} alt="" aria-hidden="true" loading="lazy" decoding="async" onload="this.classList.add('is-loaded')" />
+  <div class="board" aria-hidden="true">
+    <img class="intro-photo" src={bgS.src} srcset={`${bgS.src} 1280w, ${bgL.src} 1672w`} sizes="100vw" width="1672" height="941" alt="" loading="lazy" decoding="async" onload="this.classList.add('is-loaded')" />
+    <div class="leds" data-leds></div>
+    <span class="scan"></span>
+  </div>
   <div class="vignette" aria-hidden="true"></div>
   <div class="stagelight" aria-hidden="true"></div>
   <div class="logo-wrap" aria-hidden="true" data-intro-logo>
@@ -48,10 +54,26 @@ const bg = await getImage({ src: PHOTOS.stagePultBlick.src, width: 1280, format:
   :global(html.intro-play) .logo-wrap { animation: fade-out 0.2s linear 4.8s forwards; }
   :global(html.intro-play) .skip { animation: fade-out 0.3s linear 4.4s forwards; }
   /* Foto hinter dem Logo: blendet weich ein, zoomt langsam, geht mit dem Hintergrund ab 4,3 s */
-  .intro-photo { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; opacity: 0; transform: scale(1.12); filter: blur(2px) saturate(0.9) brightness(0.42); transition: opacity 0.6s ease-out; }
-  :global(html.intro-play) .intro-photo { animation: photo-zoom 5s cubic-bezier(0.2, 0.5, 0.3, 1) forwards, fade-out 0.7s var(--ease) 4.3s forwards; }
+  /* Pult deckt den Bildschirm ab (wie object-fit: cover), damit die Leuchtpunkte genau auf den Tasten sitzen */
+  .board { position: absolute; left: 50%; top: 50%; width: max(100vw, 100vh * 1672 / 941); aspect-ratio: 1672 / 941; translate: -50% -50%; transform: scale(1.08); }
+  :global(html.intro-play) .board { animation: photo-zoom 5s cubic-bezier(0.2, 0.5, 0.3, 1) forwards, fade-out 0.7s var(--ease) 4.3s forwards; }
+  .intro-photo { position: absolute; inset: 0; width: 100%; height: 100%; opacity: 0; filter: brightness(0.16) saturate(0.5); transition: opacity 0.5s ease-out; }
   .intro-photo:global(.is-loaded) { opacity: 1; }
-  .vignette { position: absolute; inset: 0; background: radial-gradient(60% 55% at 50% 46%, rgb(10 10 12 / 0.25), rgb(10 10 12 / 0.85) 80%); }
+  /* Strom an: das Pult wird von vorne nach hinten hell, die Farben kommen */
+  :global(html.intro-play) .intro-photo { animation: power 2.4s cubic-bezier(0.3, 0.1, 0.3, 1) 0.4s forwards; }
+  @keyframes power { 60% { filter: brightness(0.5) saturate(1.05); } 100% { filter: brightness(0.72) saturate(1.15) contrast(1.05); } }
+  .leds { position: absolute; inset: 0; mix-blend-mode: screen; }
+  .leds :global(i) { position: absolute; left: var(--x); top: var(--y); width: var(--w); aspect-ratio: 1; translate: -50% -50%; border-radius: 50%; opacity: 0; scale: 0.4;
+    background: radial-gradient(closest-side, #fff 0%, var(--c) 32%, color-mix(in srgb, var(--c) 40%, transparent) 60%, transparent 100%);
+    animation: led-on 0.45s cubic-bezier(0.2, 0.9, 0.3, 1.4) var(--t) forwards; }
+  .leds :global(i.warm) { width: calc(var(--w) * 2.2); }
+  @keyframes led-on { 0% { opacity: 0; scale: 0.4; } 45% { opacity: 1; scale: 1.35; } 100% { opacity: var(--o, 0.9); scale: 1; } }
+  /* Lichtkante, die über das Pult nach hinten wandert */
+  .scan { position: absolute; left: 0; right: 0; height: 22%; top: 100%; opacity: 0; will-change: transform; mix-blend-mode: screen; pointer-events: none;
+    background: linear-gradient(0deg, transparent, rgb(230 236 247 / 0.16) 50%, transparent); }
+  :global(html.intro-play) .scan { animation: scan 2s cubic-bezier(0.4, 0, 0.3, 1) 0.45s forwards; }
+  @keyframes scan { 0% { transform: translateY(0); opacity: 0; } 15% { opacity: 1; } 85% { opacity: 1; } 100% { transform: translateY(-318%); opacity: 0; } }
+  .vignette { position: absolute; inset: 0; background: radial-gradient(42% 30% at 50% 48%, rgb(10 10 12 / 0.55), transparent 100%), radial-gradient(80% 70% at 50% 50%, transparent 40%, rgb(10 10 12 / 0.75) 100%); }
   :global(html.intro-play) .vignette { animation: fade-out 0.7s var(--ease) 4.3s forwards; }
   @keyframes photo-zoom { to { transform: scale(1.02); } }
   .stagelight { position: absolute; inset: 0; pointer-events: none;
@@ -72,7 +94,10 @@ const bg = await getImage({ src: PHOTOS.stagePultBlick.src, width: 1280, format:
   .sweep { position: absolute; inset: 20% auto 20% 0; width: 14%; background: linear-gradient(100deg, transparent, rgb(255 255 255 / 0.22), transparent); mix-blend-mode: screen; filter: blur(6px); transform: translateX(-120%) skewX(-16deg); opacity: 0; animation: sweep 1s ease-in-out 3s forwards; pointer-events: none; }
   .skip { position: absolute; right: var(--pad); bottom: calc(var(--pad) + env(safe-area-inset-bottom, 0px)); background: rgb(16 17 18 / 0.6); }
   /* Ruhige Variante bei reduzierter Bewegung: Foto und fertiges Logo blenden ein und aus, nichts bewegt sich */
-  :global(html.intro-calm) .intro-photo { transform: none; animation: fade-out 0.7s ease 4.3s forwards; }
+  :global(html.intro-calm) .board { transform: none; animation: fade-out 0.7s ease 4.3s forwards; }
+  :global(html.intro-calm) .intro-photo { animation: none; filter: brightness(0.72) saturate(1.1); }
+  :global(html.intro-calm) .leds :global(i) { animation: none; opacity: 0.85; scale: 1; }
+  :global(html.intro-calm) .scan { display: none; }
   :global(html.intro-calm) .logo-wrap { animation: calm-in 0.9s ease 0.2s both, fade-out 0.6s ease 4.3s forwards; }
   :global(html.intro-calm) .logo-wrap :global(.intro-logo *) { animation: none !important; opacity: 1 !important; stroke-dashoffset: 0 !important; transform: none !important; clip-path: none !important; }
   :global(html.intro-calm) .sweep { display: none; }
@@ -91,11 +116,25 @@ const bg = await getImage({ src: PHOTOS.stagePultBlick.src, width: 1280, format:
 </style>
 
 <script>
+  import { LEDS } from "./intro-leds";
   const intro = document.querySelector<HTMLElement>("[data-intro]");
   const root = document.documentElement;
   if (intro && root.classList.contains("intro-play")) {
     const duration = Number(intro.dataset.duration) || 3000;
     const logo = intro.querySelector<HTMLElement>("[data-intro-logo]")!;
+    // Pult-Lichter: vorne (unten im Bild) zuerst, dann Reihe für Reihe nach hinten – erst beim Abspielen erzeugt
+    const leds = intro.querySelector<HTMLElement>("[data-leds]");
+    if (leds) {
+      const frag = document.createDocumentFragment();
+      for (const [x, y, w, c, warm] of LEDS) {
+        const i = document.createElement("i");
+        if (warm) i.className = "warm";
+        const t = 0.5 + ((100 - y) / 58) * 1.7 + Math.random() * 0.18; // y≈100 → 0,5 s, y≈42 → 2,2 s
+        i.style.cssText = `--x:${x}%;--y:${y}%;--w:${w}%;--c:${c};--t:${t.toFixed(2)}s;--o:${warm ? 0.95 : 0.55}`;
+        frag.append(i);
+      }
+      leds.append(frag);
+    }
     let finished = false;
     const finish = () => {
       if (finished) return; finished = true;
