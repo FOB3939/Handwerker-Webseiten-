@@ -43,5 +43,5 @@ const { room = "silver", class: cls, pulse = false, at = "right", src, alt = "" 
   .light--pulse .arcs :global(path[data-ring="2"]) { animation-delay: 0.12s; }
   .light--pulse .arcs :global(path[data-ring="3"]) { animation-delay: 0.18s; }
   @keyframes ring { 0% { opacity: 1; } 70%, 100% { opacity: 0.4; } }
-  @media (prefers-reduced-motion: reduce) { .light--pulse .arcs :global(path) { animation: none; } }
+  @media (prefers-reduced-motion: reduce) { :global(html:not(.fx-force)) .light--pulse .arcs :global(path) { animation: none; } }
 </style>

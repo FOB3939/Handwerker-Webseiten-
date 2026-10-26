@@ -3,14 +3,16 @@ import "@fontsource/jost/latin-200.css";
 import "@fontsource/jost/latin-300.css";
 import "@fontsource/jost/latin-400.css";
 import "@fontsource/jost/latin-500.css";
+import "@fontsource/jost/latin-600.css";
 import "@fontsource/inter/latin-400.css";
 import "@fontsource/inter/latin-500.css";
 import "../styles/global.css";
 // Display-Schrift vorladen: verhindert Layoutsprung der großen Überschriften beim Schriftwechsel
 import jost300 from "@fontsource/jost/files/jost-latin-300-normal.woff2?url";
+import jost600 from "@fontsource/jost/files/jost-latin-600-normal.woff2?url";
 import jost400 from "@fontsource/jost/files/jost-latin-400-normal.woff2?url";
 import inter400 from "@fontsource/inter/files/inter-latin-400-normal.woff2?url";
-const preloadFonts = [jost300, jost400, inter400];
+const preloadFonts = [jost600, jost300, inter400];
 import Header from "../components/Header.astro";
 import Footer from "../components/Footer.astro";
 import Intro from "../components/Intro.astro";
@@ -69,12 +71,34 @@ const ld = Astro.url.pathname === base ? [org, website, ...jsonLd] : [org, ...js
     <meta property="og:image:width" content="1200" />
     <meta property="og:image:height" content="630" />
     <meta name="twitter:card" content="summary_large_image" />
-    <script is:inline>document.documentElement.classList.add("js");</script>
+    <script is:inline define:vars={{ preview: SITE.preview }}>
+      document.documentElement.classList.add("js");
+      // Nur Vorschau: „Effekte erzwingen“ zeigt alle Animationen trotz „Bewegung reduzieren“ (Merker in window.name, braucht keinen Speicher)
+      if (preview && (window.name || "").indexOf("ss-fx-force") > -1) document.documentElement.classList.add("fx-force");
+    </script>
     {ld.map((d) => <script type="application/ld+json" set:html={JSON.stringify(d)} />)}
   </head>
   <body>
     <a class="skip-link" href="#inhalt">Zum Inhalt springen</a>
-    {SITE.preview && <div class="preview-bar" role="note">Private Vorschau – Inhalte, Bilder und Logo vor Veröffentlichung mit Silver Stage abstimmen.</div>}
+    {SITE.preview && (
+      <div class="preview-bar" role="note">
+        <span>Private Vorschau – Inhalte, Bilder und Logo vor Veröffentlichung mit Silver Stage abstimmen.</span>
+        <span class="fx-tools">
+          <span data-fx-status>Skripte: aus</span>
+          <button type="button" data-fx-intro hidden>Intro abspielen</button>
+          <button type="button" data-fx-force hidden>Effekte erzwingen</button>
+        </span>
+        <script is:inline>
+          // sofort (vor dem ersten Zeichnen) ausfüllen, damit die Leiste beim Laden nicht wächst
+          (function () {
+            var r = matchMedia("(prefers-reduced-motion: reduce)").matches, f = document.documentElement.classList.contains("fx-force");
+            document.querySelector("[data-fx-status]").textContent = "Skripte: an · „Bewegung reduzieren“: " + (r ? "an" + (f ? " (Effekte erzwungen)" : " (Effekte gedrosselt)") : "aus");
+            document.querySelector("[data-fx-intro]").hidden = false;
+            if (r) { var b = document.querySelector("[data-fx-force]"); b.hidden = false; b.textContent = f ? "Effekte normal (gedrosselt)" : "Effekte erzwingen"; }
+          })();
+        </script>
+      </div>
+    )}
     {intro && <Intro />}
     <Header current={current} />
     <main id="inhalt" tabindex="-1">
@@ -82,9 +106,23 @@ const ld = Astro.url.pathname === base ? [org, website, ...jsonLd] : [org, ...js
     </main>
     <Footer />
     <script>
+      // Vorschau-Werkzeuge: zeigen, was auf diesem Gerät läuft, und erlauben Intro/Effekte auf Knopfdruck
+      const fxStatus = document.querySelector<HTMLElement>("[data-fx-status]");
+      if (fxStatus) {
+        const root = document.documentElement, reduce = matchMedia("(prefers-reduced-motion: reduce)").matches, forced = root.classList.contains("fx-force");
+        fxStatus.textContent = `Skripte: an · „Bewegung reduzieren“: ${reduce ? "an" : "aus"}${reduce ? (forced ? " (Effekte erzwungen)" : " (Effekte gedrosselt)") : ""}`;
+        const introBtn = document.querySelector<HTMLButtonElement>("[data-fx-intro]")!, forceBtn = document.querySelector<HTMLButtonElement>("[data-fx-force]")!;
+        const setName = (token: string, on: boolean) => { const t = (window.name || "").split(" ").filter((x) => x && x !== token); if (on) t.push(token); window.name = t.join(" "); };
+        introBtn.hidden = false;
+        introBtn.addEventListener("click", () => { try { sessionStorage.removeItem("ss-intro-seen"); } catch {} setName("ss-intro", true); location.href = introBtn.closest("body")!.querySelector<HTMLAnchorElement>(".site-header .brand")!.href; });
+        if (reduce) {
+          forceBtn.hidden = false; forceBtn.textContent = forced ? "Effekte normal (gedrosselt)" : "Effekte erzwingen";
+          forceBtn.addEventListener("click", () => { setName("ss-fx-force", !forced); location.reload(); });
+        }
+      }
       // Einblenden beim Scrollen (progressive Verbesserung)
       const els = document.querySelectorAll<HTMLElement>("[data-reveal]");
-      if (!("IntersectionObserver" in window) || matchMedia("(prefers-reduced-motion: reduce)").matches) {
+      if (!("IntersectionObserver" in window) || (matchMedia("(prefers-reduced-motion: reduce)").matches && !document.documentElement.classList.contains("fx-force"))) {
         els.forEach((e) => e.classList.add("is-in"));
       } else {
         const io = new IntersectionObserver((entries) => {

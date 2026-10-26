@@ -5,10 +5,10 @@ import { getImage } from "astro:assets";
 import { PHOTOS, ROOM_PHOTOS, type PhotoKey } from "../assets/photos";
 import Icon from "../components/Icon.astro";
 import Faq from "../components/Faq.astro";
+import SoundCheck from "../components/SoundCheck.astro";
 import { ROOMS, CONTACT, PRICES, SITE, roomByKey, priceShown, euro } from "../config/site";
 import { u } from "../lib/url";
 const studio = roomByKey("tonstudio");
-const keys = ["D", "F", "J", "K"];
 // Wechselnde Titelbilder: je Bild ein Raum, Bildunterschrift verlinkt die Raumseite
 const slides: { photo: PhotoKey; room: "tonstudio" | "stageroom" | "lightroom"; caption: string }[] = [
   { photo: "stageBuehneFront", room: "stageroom", caption: "Stageroom – Bühne, Licht und Konzertanlage" },
@@ -37,12 +37,31 @@ const fromPrice = Object.fromEntries(PRICES.groups.map((g) => {
   return [g.room, hourly.length ? Math.min(...hourly) : null];
 }));
 const priceIsExample = !PRICES.confirmed && SITE.preview;
+const fromText = (k: string) => (fromPrice[k] === null || fromPrice[k] === undefined ? "Preis auf Anfrage" : `ab ${euro(fromPrice[k]!)} pro Stunde`);
+const minPrice = Math.min(...Object.values(fromPrice).filter((v): v is number => typeof v === "number"));
+// Raumfinder „Was hast du vor?“ (Texte nur aus belegten Angaben)
+const finder = [
+  { key: "tonstudio", k: "Aufnehmen", s: "Song, Vocals, Podcast, Sprache", text: "Für Songs, Vocals, Podcasts und Sprachaufnahmen: 32-Kanal-Analogpult, Neumann TLM 49 und Shure SM7B." },
+  { key: "stageroom", k: "Proben", s: "Band, Bühnenshow, Live-Mitschnitt", text: "Für Bandproben und Bühnenprogramme: 80 m² mit Bühne, Licht, Konzertanlage und Monitoring. Live-Mitschnitt möglich." },
+  { key: "lightroom", k: "Gestalten", s: "Tanz, Gesang, Foto & Video", text: "Für Tanz, Gesang, Foto und Video: 55 m² mit Spiegelwand, farbigem Licht und hängender PA." },
+] as const;
+// Für wen
+const who = [
+  { room: "stageroom", t: "Bands & Musiker:innen", d: "Proben mit Bühne, Licht und Konzertanlage, auf Wunsch mit Live-Mitschnitt.", go: "Zum Stageroom" },
+  { room: "tonstudio", t: "Sänger:innen & Rapper:innen", d: "Vocals über Neumann TLM 49 oder Shure SM7B im akustisch optimierten Raum.", go: "Zum Tonstudio" },
+  { room: "tonstudio", t: "Podcasts & Sprecher:innen", d: "Sprachaufnahmen für Podcast, Hörspiel oder Werbung, klar und ohne störenden Hall.", go: "Zum Tonstudio" },
+  { room: "lightroom", t: "Tanz, Foto & Video", d: "55 m² mit Spiegelwand und farbigem Licht für Training, Choreos und Shootings.", go: "Zum Lightroom" },
+] as const;
 // Häufige Fragen aus den belegten Antworten der Raumseiten
 const faq = [
-  { q: "Was kostet eine Session?", a: "Das hängt von Raum, Dauer und Technik ab. Die Leistungen mit Preisen findest du auf der Preisseite; für dein Vorhaben bekommst du vorab ein konkretes Angebot." },
+  { q: "Was kostet eine Session?", a: fromPrice.tonstudio == null
+      ? "Das hängt von Raum, Dauer und Technik ab. Beschreib kurz dein Vorhaben, dann bekommst du ein konkretes Angebot."
+      : `Das Tonstudio gibt es ${fromText("tonstudio")}, den Stageroom ${fromText("stageroom")} und den Lightroom ${fromText("lightroom")}, ganze Tage sind ebenfalls möglich.${priceIsExample ? " (Vorschau: Beispielpreise, noch nicht vom Studio bestätigt.)" : ""} Für dein Vorhaben bekommst du vorab ein konkretes Angebot.` },
   { q: "Ist jemand für die Technik da?", a: roomByKey("tonstudio").faq[1].a },
   { q: "Kann ich die Bandprobe aufnehmen lassen?", a: roomByKey("stageroom").faq[1].a },
+  { q: "Kann ich auch Podcasts oder Sprachaufnahmen machen?", a: "Ja. Das Tonstudio ist für Musik-, Gesangs- und Sprachaufnahmen ausgelegt, also auch für Podcast, Hörspiel oder Werbung." },
   { q: "Wie groß sind die Räume?", a: "Der Stageroom hat 80 m² mit Bühne, der Lightroom 55 m² mit Spiegelwand. Das Tonstudio ist ein akustisch optimierter Aufnahmeraum." },
+  { q: "Ist meine Anfrage schon eine Buchung?", a: "Nein. Wir melden uns mit einem Angebot und einem Terminvorschlag. Verbindlich wird es erst, wenn wir den Termin gemeinsam bestätigen." },
   { q: "Wann kann ich kommen?", a: CONTACT.hoursNote },
 ];
 ---
@@ -63,12 +82,18 @@ const faq = [
       <span class="shade" aria-hidden="true"></span>
     </div>
     <div class="wrap hero-inner">
-      <h1 id="hero-title" class="rise"><span><span>Dein Sound.</span></span><span><span class="metal">Dein Raum.</span></span></h1>
-      <p class="lead">Tonstudio, Bühne und Lichtraum unter einem Dach in München-Sendling.</p>
-      <div class="btn-row">
+      <p class="eyebrow">Tonstudio &amp; Proberäume in München-Sendling</p>
+      <h1 id="hero-title" class="rise hero-title"><span><span class="shine">Dein Sound.</span></span><span><span class="shine shine--2">Dein Raum.</span></span></h1>
+      <div class="btn-row hero-cta">
         <a class="btn btn--primary" href={u("/kontakt/")}>Session anfragen</a>
-        <a class="btn btn--ghost" href="#raeume">Räume ansehen</a>
+        <a class="btn btn--ghost" href={CONTACT.phoneHref}><Icon name="phone" />{CONTACT.phone}</a>
       </div>
+      <ul class="hero-facts" aria-label="Auf einen Blick">
+        <li><strong>3 Räume</strong> unter einem Dach</li>
+        {Number.isFinite(minPrice) && <li>ab <strong>{euro(minPrice)}</strong> pro Stunde{priceIsExample && <span class="ex"> (Beispielpreis)</span>}</li>}
+        <li><strong>32-Kanal</strong>-Analogpult</li>
+        <li><strong>Live-Mitschnitt</strong> möglich</li>
+      </ul>
     </div>
     <div class="wrap hero-foot">
       <p class="caption" aria-live="polite">
@@ -80,6 +105,26 @@ const faq = [
         ))}
         <button type="button" class="pause" data-pause aria-pressed="false"><span class="visually-hidden" data-pause-label>Fotowechsel anhalten</span><span class="pause-ico" aria-hidden="true"></span></button>
       </div>
+    </div>
+  </section>
+
+  <!-- Raumfinder: ein Tipp zeigt den passenden Raum mit Preis -->
+  <section class="finder" aria-labelledby="finder-title" data-finder>
+    <div class="wrap finder-inner">
+      <div class="finder-q">
+        <h2 id="finder-title">Was hast du vor?</h2>
+        <p class="muted">Ein Tipp, und du siehst den passenden Raum mit Preis.</p>
+      </div>
+      <div class="finder-opts" role="group" aria-label="Vorhaben wählen">
+        {finder.map((f) => <button type="button" class="opt" data-pick={f.key} data-room={f.key} aria-pressed="false" aria-controls={`fo-${f.key}`}><span class="opt-k">{f.k}</span><span class="opt-s">{f.s}</span></button>)}
+      </div>
+      {finder.map((f) => (
+        <div class="finder-out" id={`fo-${f.key}`} data-room={f.key} data-finder-out={f.key} hidden>
+          <p class="fo-name">{roomByKey(f.key).name}</p>
+          <p class="fo-text">{f.text}<br /><span class="small">{fromText(f.key)}{priceIsExample && fromPrice[f.key] != null && " · Beispielpreis"}</span></p>
+          <div class="btn-row"><a class="btn btn--primary btn--sm" href={u(`/kontakt/?raum=${f.key}`)}>{roomByKey(f.key).name} anfragen</a><a class="btn btn--ghost btn--sm" href={u(roomByKey(f.key).path)}>Raum ansehen</a></div>
+        </div>
+      ))}
     </div>
   </section>
 
@@ -99,6 +144,7 @@ const faq = [
               <p class="label">{r.kicker}</p>
               <h3><a href={u(r.path)}>{r.name}</a></h3>
               <p class="lane-short">{r.short}</p>
+              {fromPrice[r.key] != null && <p class="lane-price"><small>ab</small> {euro(fromPrice[r.key]!)} <small>pro Stunde</small></p>}
               <ul class="lane-facts">{r.facts.slice(0, 4).map((f) => <li>{f}</li>)}</ul>
               <div class="btn-row">
                 <a class="btn btn--primary btn--sm" href={u(r.path)}>{r.name} ansehen</a>
@@ -107,6 +153,23 @@ const faq = [
             </div>
           </li>
         ))}
+      </ul>
+      <div class="rooms-foot">
+        <a class="btn btn--ghost" href={u("/preise/")}>Alle Leistungen und Preise</a>
+        {priceIsExample && <p class="small muted">Vorschau: Beispielpreise, noch nicht vom Studio bestätigt.</p>}
+      </div>
+    </div>
+  </section>
+
+  <!-- Für wen -->
+  <section class="section section--tight" aria-labelledby="who-title">
+    <div class="wrap">
+      <div class="head" data-reveal>
+        <h2 id="who-title">Für wen Silver Stage gemacht ist</h2>
+        <p class="lead">Ob erste Demo oder fertiges Album, Bandprobe oder Choreo: Du bringst die Idee mit, wir den Raum und die Technik.</p>
+      </div>
+      <ul class="who">
+        {who.map((w) => <li data-room={w.room}><a href={u(`/${w.room}/`)}><h3>{w.t}</h3><p>{w.d}</p><span class="go">{w.go}</span></a></li>)}
       </ul>
     </div>
   </section>
@@ -154,10 +217,16 @@ const faq = [
     </div>
     <dialog class="lightbox" data-lightbox aria-label="Großansicht">
       <form method="dialog"><button class="lb-close" aria-label="Großansicht schließen">×</button></form>
+      <span class="lb-count" data-lb-count></span>
       <img alt="" data-lb-img />
+      <button type="button" class="lb-nav lb-prev" data-lb-prev aria-label="Vorheriges Bild">‹</button>
+      <button type="button" class="lb-nav lb-next" data-lb-next aria-label="Nächstes Bild">›</button>
       <p class="lb-cap" data-lb-cap></p>
     </dialog>
   </section>
+
+  <!-- Mini-Spiel -->
+  <SoundCheck />
 
   <!-- Ablauf (echte Reihenfolge) -->
   <section class="section" aria-labelledby="steps-title">
@@ -171,68 +240,52 @@ const faq = [
     </div>
   </section>
 
-  <!-- Beat Stage -->
-  <section class="teaser" aria-labelledby="teaser-title">
-    <div class="wrap teaser-inner">
-      <div class="keys" aria-hidden="true">
-        {keys.map((k, i) => <span class="key" style={`--k:${i}`}>{k}</span>)}
-      </div>
-      <div class="teaser-text">
-        <h2 id="teaser-title">Triffst du den Takt?</h2>
-        <p class="lead">Beat Stage, unser Rhythmusspiel im Browser: vier Pads, 30 Sekunden, 100 BPM. Ohne Anmeldung – Ton erst, wenn du startest.</p>
-        <a class="btn btn--primary" href={u("/beat-stage/")}>Beat Stage spielen</a>
-      </div>
-    </div>
-  </section>
-
-  <!-- Preise auf einen Blick -->
-  <section class="section" aria-labelledby="prices-title">
-    <div class="wrap">
-      <div class="head" data-reveal>
-        <h2 id="prices-title">Preise auf einen Blick</h2>
-        <p class="lead">Stundenweise oder als ganzer Tag. Alle Leistungen und Preise stehen auf der Preisseite.</p>
-      </div>
-      <ul class="from-list">
-        {ROOMS.map((r) => (
-          <li data-room={r.key}>
-            <a href={u("/preise/")} class="from-card">
-              <span class="label">{r.kicker}</span>
-              <span class="from-name">{r.name}</span>
-              <span class="from-price">{fromPrice[r.key] === null ? "auf Anfrage" : <><small>ab</small> {euro(fromPrice[r.key]!)}{" "}<small>pro Stunde</small></>}</span>
-            </a>
-          </li>
-        ))}
-      </ul>
-      <div class="from-foot">
-        <a class="btn btn--primary" href={u("/preise/")}>Alle Leistungen und Preise</a>
-        {priceIsExample && <p class="small muted">Vorschau: Beispielpreise, noch nicht vom Studio bestätigt.</p>}
-      </div>
-    </div>
-  </section>
-
   <!-- Einwände vor der Anfrage klären -->
   <section class="section section--alt" aria-label="Häufige Fragen">
     <div class="wrap"><Faq items={faq} /></div>
   </section>
 
   <!-- Standort + Kontakt -->
-  <section class="section visit" aria-labelledby="visit-title">
+  <section class="section visit" id="anfrage" aria-labelledby="visit-title">
     <div class="wrap">
       <p class="label label--plain muted">So findest du uns</p>
       <h2 id="visit-title" class="addr metal">{CONTACT.street}</h2>
       <p class="city">{CONTACT.zip} {CONTACT.city}-Sendling</p>
-      <div class="visit-grid">
-        <div>
-          <p class="lead">Erzähl uns von deinem Projekt – wir melden uns mit einem individuellen Angebot. {CONTACT.hoursNote}</p>
+      <div class="visit-grid2">
+        <div class="visit-info">
+          <p class="lead">Erzähl uns von deinem Projekt. Wir melden uns mit einem individuellen Angebot und stimmen den Termin mit dir ab.</p>
+          <div class="btn-row">
+            <a class="btn btn--ghost" href={CONTACT.phoneHref}><Icon name="phone" />{CONTACT.phone}</a>
+            <a class="btn btn--ghost" href={`mailto:${CONTACT.email}`}><Icon name="mail" />{CONTACT.email}</a>
+            <a class="btn btn--ghost" href={CONTACT.routeUrl} target="_blank" rel="noopener"><Icon name="pin" />Route planen<span class="visually-hidden"> (öffnet Google Maps in neuem Tab)</span></a>
+          </div>
+          <p class="small muted">{CONTACT.hoursNote}</p>
         </div>
-        <div class="btn-row">
-          <a class="btn btn--primary" href={u("/kontakt/")}>Session anfragen</a>
-          <a class="btn btn--ghost" href={CONTACT.phoneHref}><Icon name="phone" />{CONTACT.phone}</a>
-          <a class="btn btn--ghost" href={CONTACT.routeUrl} target="_blank" rel="noopener"><Icon name="pin" />Route planen<span class="visually-hidden"> (öffnet Google Maps in neuem Tab)</span></a>
-        </div>
+        <form class="quick" data-quick novalidate>
+          <h3>Schnellanfrage</h3>
+          <div class="row">
+            <label>Name<input name="name" type="text" autocomplete="name" required /></label>
+            <label>Telefon oder E-Mail<input name="contact" type="text" autocomplete="email" required /></label>
+          </div>
+          <div class="row">
+            <label>Raum<select name="room"><option value="">Noch offen</option>{ROOMS.map((r) => <option>{r.name}</option>)}</select></label>
+            <label>Wunschtermin<input name="date" type="date" /></label>
+          </div>
+          <label>Dein Vorhaben<textarea name="message" rows="3" required placeholder="Was möchtest du aufnehmen, proben oder gestalten? Wie viele Personen?"></textarea></label>
+          <p class="err" data-quick-err role="alert"></p>
+          <button class="btn btn--primary" type="submit">Anfrage per E-Mail vorbereiten</button>
+          <p class="note">Öffnet dein E-Mail-Programm mit deinen Angaben; gesendet wird erst, wenn du dort auf Senden tippst. Mehr Optionen im <a href={u("/kontakt/")}>ausführlichen Formular</a>. Hinweise zum <a href={u("/datenschutz/")}>Datenschutz</a>.</p>
+        </form>
       </div>
     </div>
   </section>
+
+  <!-- Schnellleiste am Handy, sobald der Startbereich verlassen ist -->
+  <nav class="mbar" data-mbar aria-label="Schnellkontakt">
+    <a href={CONTACT.phoneHref}><Icon name="phone" />Anrufen</a>
+    <a href={CONTACT.routeUrl} target="_blank" rel="noopener"><Icon name="pin" />Route<span class="visually-hidden"> (öffnet Google Maps in neuem Tab)</span></a>
+    <a class="pri" href={u("/kontakt/")}>Session anfragen</a>
+  </nav>
 </Base>
 
 <style>
@@ -252,13 +305,21 @@ const faq = [
       linear-gradient(180deg, rgb(7 8 11 / 0.5) 0%, transparent 22%); }
 
   .hero-inner { align-self: end; display: grid; gap: 26px; justify-items: start; padding-block: clamp(96px, 16vh, 180px) clamp(32px, 6vh, 64px); }
-  .hero h1 { font-size: clamp(3.4rem, 1.2rem + 9.6vw, 11rem); line-height: 0.9; font-weight: 300; letter-spacing: -0.045em; }
+  /* Überschrift: groß und kräftig; beim Laden „fährt“ die Schrift aus Unschärfe und weiter Laufweite zusammen,
+     danach zieht ein Lichtschimmer über das Silber (pausiert mit dem Fotowechsel) */
+  .hero h1 { font-size: clamp(3.4rem, 0.6rem + 13vw, 13rem); line-height: 0.88; font-weight: 600; letter-spacing: -0.05em; filter: drop-shadow(0 6px 30px rgb(0 0 0 / 0.55)); }
+  .shine { transform-origin: left center; background: linear-gradient(105deg, #b9bfc8 0%, #ffffff 18%, #dfe3e8 34%, #8f97a3 50%, #ffffff 62%, #c6cbd2 78%, #ffffff 100%); background-size: 260% 100%; background-position: 100% 0; -webkit-background-clip: text; background-clip: text; color: transparent; }
+  .shine--2 { background-image: linear-gradient(105deg, #8f97a3 0%, #e6e9ed 20%, #ffffff 36%, #9aa1ab 52%, #f4f6f9 66%, #b9bfc8 82%, #ffffff 100%); }
+  @media (forced-colors: active) { .shine { color: CanvasText; background: none; } }
+  :global(.js) .hero.title-in .shine { animation: track-in 1.3s cubic-bezier(0.2, 0.7, 0.15, 1) both, shimmer 4.5s ease-in-out 1.4s 3; }
+  :global(.js) .hero.title-in .shine--2 { animation-delay: 0.15s, 1.7s; }
+  .hero.paused .shine { animation-play-state: paused; }
+  /* nur transform/filter/opacity: kein Layoutsprung */
+  @keyframes track-in { from { transform: scale(1.14); filter: blur(16px); opacity: 0; } to { transform: none; filter: blur(0); opacity: 1; } }
+  @keyframes shimmer { 0% { background-position: 100% 0; } 60%, 100% { background-position: 0% 0; } }
   .hero h1 > span { display: block; overflow: hidden; padding-bottom: 0.08em; margin-bottom: -0.08em; }
   .hero h1 > span > span { display: inline-block; }
-  .js .rise > span > span { transform: translateY(110%); transition: transform 1.1s cubic-bezier(0.2, 0.75, 0.15, 1); }
-  .js .rise > span:nth-child(2) > span { transition-delay: 0.12s; }
-  .js .hero.ready .rise > span > span { transform: none; }
-  .js .hero.no-rise .rise > span > span { transition: none; }
+  .hero h1 > span { white-space: nowrap; }
   .hero .lead { color: #d9dde4; max-width: 36ch; text-shadow: 0 1px 16px rgb(0 0 0 / 0.6); }
 
   .hero-foot { display: flex; align-items: center; justify-content: space-between; gap: 24px; padding-block: 18px 26px; border-top: 1px solid rgb(242 243 245 / 0.18); }
@@ -279,7 +340,7 @@ const faq = [
   .hero.paused .pause-ico { width: 0; height: 0; border-inline: 0; border-left: 10px solid currentColor; border-block: 6px solid transparent; margin-left: 3px; }
   .hero.static .pause { display: none; }
   /* Reduzierte Bewegung: Fotos wechseln weiter per Überblenden (pausierbar), aber ohne Zoom */
-  @media (prefers-reduced-motion: reduce) { .slide :global(img), .slide.is-active :global(img) { animation: none; transform: none; } .js .rise > span > span { transform: none; transition: none; } }
+  @media (prefers-reduced-motion: reduce) { :global(html:not(.fx-force)) .slide :global(img), :global(html:not(.fx-force)) .slide.is-active :global(img) { animation: none; transform: none; } :global(html:not(.fx-force)).js .rise > span > span { transform: none; transition: none; } }
   @media (max-width: 640px) {
     .hero-inner .btn-row { flex-direction: column; align-items: flex-start; }
     .hero-foot { flex-direction: column; align-items: flex-start; gap: 4px; }
@@ -388,7 +449,7 @@ const faq = [
     animation: hit calc(var(--beat) * 4) var(--ease) 2; animation-delay: calc(var(--k) * var(--beat)); }
   .key:nth-child(1) { --c: var(--amber); } .key:nth-child(2) { --c: var(--spot); } .key:nth-child(3) { --c: var(--magenta); } .key:nth-child(4) { --c: #8fd3ff; }
   @keyframes hit { 0% { color: #0d0f14; background: var(--c); box-shadow: 0 0 40px -4px var(--c), 0 4px 0 -2px #090b0f; transform: translateY(6px); } 25%, 100% { } }
-  @media (prefers-reduced-motion: reduce) { .key { animation: none; } }
+  @media (prefers-reduced-motion: reduce) { :global(html:not(.fx-force)) .key { animation: none; } }
   @media (max-width: 760px) { .teaser-inner { grid-template-columns: 1fr; } .keys { justify-self: start; } }
 
   /* ---------- Besuch ---------- */
@@ -396,6 +457,88 @@ const faq = [
   .city { font: 300 var(--step-2) / 1.2 var(--font-display); color: var(--ink-2); margin-top: 8px; }
   .visit-grid { display: grid; grid-template-columns: 1fr auto; gap: 32px; align-items: end; margin-top: clamp(40px, 6vw, 72px); padding-top: 32px; border-top: 1px solid var(--line); }
   @media (max-width: 960px) { .visit-grid { grid-template-columns: 1fr; } }
+  /* ---------- Einstieg: Zusatzzeile, Fakten ---------- */
+  .eyebrow { display: inline-flex; align-items: center; gap: 10px; font: 500 var(--step--1) / 1.3 var(--font-body); color: #e6e9ee; text-shadow: 0 1px 12px rgb(0 0 0 / 0.6); }
+  .eyebrow::before { content: ""; width: 8px; height: 8px; border-radius: 50%; background: var(--amber); box-shadow: 0 0 12px var(--amber); }
+  .hero-facts { list-style: none; margin: 4px 0 0; padding: 0; display: flex; flex-wrap: wrap; gap: 8px; }
+  .hero-facts li { padding: 7px 14px; border: 1px solid rgb(242 243 245 / 0.22); border-radius: 99px; background: rgb(7 8 11 / 0.55); backdrop-filter: blur(6px); -webkit-backdrop-filter: blur(6px); font-size: var(--step--1); color: #d9dde4; }
+  .hero-facts strong { color: var(--ink); font-weight: 500; }
+  .hero-facts .ex { color: var(--ink-2); }
+  @media (max-width: 640px) { .hero-cta { width: 100%; align-items: stretch !important; } .hero-cta .btn { width: 100%; } .hero-facts li { padding: 6px 11px; } }
+
+  /* ---------- Raumfinder ---------- */
+  .finder { background: var(--bg-2); border-bottom: 1px solid var(--line); }
+  .finder-inner { display: grid; grid-template-columns: 0.8fr 2.2fr; gap: clamp(24px, 4vw, 56px); align-items: center; padding-block: clamp(40px, 6vw, 72px); }
+  .finder h2 { font-size: var(--step-2); }
+  .finder-q p { margin-top: 10px; }
+  .finder-opts { display: grid; grid-template-columns: repeat(3, 1fr); gap: 12px; }
+  .opt { display: grid; gap: 6px; text-align: left; padding: 20px 22px; min-height: 96px; border-radius: var(--radius); border: 1px solid var(--line); background: radial-gradient(120% 120% at 100% 0%, color-mix(in srgb, var(--room) 14%, transparent), transparent 60%), var(--bg); color: var(--ink); cursor: pointer; transition: border-color 0.25s, transform 0.3s var(--ease), box-shadow 0.3s; }
+  .opt:hover { border-color: color-mix(in srgb, var(--room) 55%, transparent); transform: translateY(-2px); }
+  .opt[aria-pressed="true"] { border-color: var(--room); box-shadow: 0 0 0 1px var(--room), 0 18px 40px -24px var(--room); }
+  .opt-k { display: flex; align-items: center; gap: 10px; font: 400 var(--step-1) / 1.15 var(--font-display); }
+  .opt-k::before { content: ""; width: 8px; height: 8px; border-radius: 50%; background: var(--room); box-shadow: 0 0 10px var(--room); }
+  .opt-s { font-size: var(--step--1); color: var(--ink-2); }
+  .finder-out { grid-column: 1 / -1; display: grid; grid-template-columns: auto 1fr auto; gap: 20px 32px; align-items: center; padding: 22px 26px; border-radius: var(--radius); border: 1px solid color-mix(in srgb, var(--room) 45%, transparent); background: radial-gradient(80% 140% at 0% 0%, color-mix(in srgb, var(--room) 12%, transparent), transparent 70%), var(--bg); animation: pop-in 0.45s var(--ease); }
+  .finder-out[hidden] { display: none; }
+  .fo-name { font: 300 var(--step-3) / 1 var(--font-display); letter-spacing: -0.03em; color: var(--room); }
+  .fo-text { color: var(--ink-2); }
+  @keyframes pop-in { from { opacity: 0; transform: translateY(8px); } }
+  @media (max-width: 960px) { .finder-inner { grid-template-columns: 1fr; } .finder-out { grid-template-columns: 1fr; gap: 12px; } }
+  @media (max-width: 640px) { .finder-opts { grid-template-columns: 1fr; } .opt { min-height: 0; padding: 16px 18px; } }
+
+  /* ---------- Räume: Preis und Fuß ---------- */
+  .lane { cursor: pointer; }
+  .lane-price { font: 400 var(--step-2) / 1.1 var(--font-display); }
+  .lane-price small { font: 400 var(--step--1) / 1 var(--font-body); color: var(--ink-2); }
+  .rooms-foot { display: flex; flex-wrap: wrap; align-items: center; gap: 12px 24px; margin-top: 24px; }
+
+  /* ---------- Für wen ---------- */
+  .who { list-style: none; margin: 0; padding: 0; display: grid; grid-template-columns: repeat(4, 1fr); gap: 12px; }
+  .who a { display: grid; gap: 10px; align-content: start; height: 100%; padding: 26px; border-radius: var(--radius); border: 1px solid var(--line); background: var(--bg-2); text-decoration: none; transition: border-color 0.3s, transform 0.4s var(--ease); }
+  .who a:hover { border-color: color-mix(in srgb, var(--room) 55%, transparent); transform: translateY(-3px); }
+  .who h3 { font: 400 var(--step-1) / 1.2 var(--font-display); }
+  .who p { color: var(--ink-2); font-size: 0.98rem; }
+  .who .go { margin-top: auto; padding-top: 6px; font: 500 var(--step--1) / 1 var(--font-body); color: var(--room); }
+  @media (max-width: 1020px) { .who { grid-template-columns: 1fr 1fr; } }
+  @media (max-width: 560px) { .who { grid-template-columns: 1fr; } }
+
+  /* ---------- Großansicht: Blättern ---------- */
+  .lightbox { overflow: visible; }
+  .lb-nav { position: absolute; top: 50%; transform: translateY(-50%); width: 48px; height: 48px; border-radius: 50%; border: 1px solid var(--line-strong); background: #050608b3; color: var(--ink); font-size: 1.4rem; line-height: 1; cursor: pointer; display: grid; place-items: center; }
+  .lb-prev { left: 10px; } .lb-next { right: 10px; }
+  .lb-count { position: absolute; left: 16px; top: 16px; font-size: var(--step--1); color: var(--ink-2); background: #050608b3; padding: 4px 10px; border-radius: 99px; }
+
+  /* ---------- Besuch + Schnellanfrage ---------- */
+  .visit-grid2 { display: grid; grid-template-columns: 1fr 1fr; gap: clamp(32px, 5vw, 72px); align-items: start; margin-top: clamp(40px, 6vw, 72px); padding-top: 32px; border-top: 1px solid var(--line); }
+  .visit-info { display: grid; gap: 22px; justify-items: start; }
+  .visit-info .btn-row { flex-direction: column; align-items: stretch; width: min(100%, 360px); }
+  .quick { display: grid; gap: 14px; padding: clamp(20px, 3vw, 32px); border-radius: var(--radius); border: 1px solid var(--line); background: var(--bg-2); }
+  .quick h3 { font: 400 var(--step-2) / 1.1 var(--font-display); }
+  .quick .row { display: grid; grid-template-columns: 1fr 1fr; gap: 12px; }
+  .quick label { display: grid; gap: 6px; font-size: var(--step--1); color: var(--ink-2); }
+  .quick input, .quick select, .quick textarea { width: 100%; min-height: 48px; padding: 12px 14px; border-radius: 10px; border: 1px solid var(--line-strong); background: var(--bg); color: var(--ink); font: 400 1rem / 1.4 var(--font-body); }
+  .quick textarea { min-height: 96px; resize: vertical; }
+  .quick .err { color: #ff9f9f; font-size: var(--step--1); min-height: 1.2em; }
+  .quick .note { font-size: var(--step--1); color: var(--ink-2); }
+  .quick .note a { color: var(--ink); }
+  @media (max-width: 860px) { .visit-grid2 { grid-template-columns: 1fr; } }
+  @media (max-width: 480px) { .quick .row { grid-template-columns: 1fr; } }
+
+  /* ---------- Schnellleiste am Handy ---------- */
+  .mbar { display: none; }
+  @media (max-width: 760px) {
+    .mbar { position: fixed; left: 0; right: 0; bottom: 0; z-index: 60; display: grid; grid-template-columns: 1fr 1fr 1.4fr; gap: 8px; padding: 10px 12px calc(10px + env(safe-area-inset-bottom, 0px)); background: #0d0f14eb; backdrop-filter: blur(14px); -webkit-backdrop-filter: blur(14px); border-top: 1px solid var(--line); transform: translateY(110%); transition: transform 0.35s var(--ease); }
+    .mbar.show { transform: none; }
+    .mbar a { display: inline-flex; align-items: center; justify-content: center; gap: 8px; min-height: 48px; border-radius: 999px; border: 1px solid var(--line-strong); color: var(--ink); text-decoration: none; font: 500 0.95rem / 1 var(--font-display); }
+    .mbar a.pri { background: linear-gradient(180deg, #fff, #c9ced6); color: #0d0f14; border-color: transparent; }
+    .mbar :global(svg) { width: 18px; height: 18px; }
+    :global(.footer) { padding-bottom: 84px; }
+  }
+
+  /* Bildraster: kein Überlaufen auf schmalen Bildschirmen */
+  .bento { grid-template-columns: repeat(3, minmax(0, 1fr)); }
+  .bento > li { min-width: 0; }
+  @media (max-width: 760px) { .bento { grid-template-columns: repeat(2, minmax(0, 1fr)); } }
 </style>
 
 <script>
@@ -433,12 +576,17 @@ const faq = [
     const ready = () => requestAnimationFrame(() => hero.classList.add("ready"));
     // Mit Intro ist die Überschrift sofort da (das Intro ist die Einstiegsbewegung), ohne Intro steigt sie auf
     if (html.classList.contains("intro-play")) hero.classList.add("ready", "no-rise"); else ready();
+    // Schrift-Effekt erst zeigen, wenn das Intro weg ist (vorher läge es unsichtbar darunter)
+    const titleIn = () => requestAnimationFrame(() => hero.classList.add("title-in"));
+    if (html.classList.contains("intro-play")) {
+      new MutationObserver((_, o) => { if (html.classList.contains("intro-done")) { o.disconnect(); titleIn(); } }).observe(html, { attributes: true, attributeFilter: ["class"] });
+    } else titleIn();
     // Nächstes Foto vorladen, sobald die Seite steht
     addEventListener("load", () => setTimeout(() => slides[1]?.classList.add("seen"), 1500), { once: true });
   }
   // 3D-Tunnel: Fotos fliegen beim Scrollen auf dich zu (Seiten-Scroll, kein Scroll-Kapern)
   const tunnel = document.querySelector<HTMLElement>("[data-tunnel]");
-  if (tunnel && !matchMedia("(prefers-reduced-motion: reduce)").matches) {
+  if (tunnel && !(matchMedia("(prefers-reduced-motion: reduce)").matches && !document.documentElement.classList.contains("fx-force"))) {
     tunnel.classList.add("is-tunnel");
     const cards = [...tunnel.querySelectorAll<HTMLElement>("[data-card]")];
     const title = tunnel.querySelector<HTMLElement>("[data-tunnel-title]")!;
@@ -483,14 +631,43 @@ const faq = [
     }));
     frame();
   }
+  // Raumfinder
+  const finderBox = document.querySelector<HTMLElement>("[data-finder]");
+  if (finderBox) {
+    const opts = [...finderBox.querySelectorAll<HTMLButtonElement>("[data-pick]")], outs = [...finderBox.querySelectorAll<HTMLElement>("[data-finder-out]")];
+    opts.forEach((b) => b.addEventListener("click", () => {
+      opts.forEach((o) => o.setAttribute("aria-pressed", String(o === b)));
+      outs.forEach((o) => (o.hidden = o.dataset.finderOut !== b.dataset.pick));
+    }));
+  }
+  // Schnellanfrage: bereitet eine E-Mail vor (kein Versand ohne Zutun, keine vorgetäuschte Erfolgsmeldung)
+  const quick = document.querySelector<HTMLFormElement>("[data-quick]");
+  quick?.addEventListener("submit", (e) => {
+    e.preventDefault();
+    const v = (n: string) => (quick.elements.namedItem(n) as HTMLInputElement).value.trim();
+    const err = quick.querySelector<HTMLElement>("[data-quick-err]")!;
+    if (!v("name") || !v("contact") || !v("message")) { err.textContent = "Bitte Name, Kontakt und dein Vorhaben ausfüllen."; return; }
+    err.textContent = "";
+    const body = `Hallo Silver Stage,\n\n${v("message")}\n\nRaum: ${v("room") || "noch offen"}\nWunschtermin: ${v("date") || "flexibel"}\n\nName: ${v("name")}\nErreichbar unter: ${v("contact")}`;
+    location.href = `mailto:info@silver-stage.de?subject=${encodeURIComponent("Anfrage " + (v("room") || "Session") + " – " + v("name"))}&body=${encodeURIComponent(body)}`;
+  });
+  // Schnellleiste am Handy erst nach dem Startbereich einblenden
+  const mbar = document.querySelector<HTMLElement>("[data-mbar]"), heroEl = document.querySelector<HTMLElement>("[data-hero]");
+  if (mbar && heroEl && "IntersectionObserver" in window) new IntersectionObserver(([e]) => mbar.classList.toggle("show", !e.isIntersecting), { threshold: 0.15 }).observe(heroEl);
   // Großansicht der Bildstrecke
   const lb = document.querySelector<HTMLDialogElement>("[data-lightbox]");
   if (lb) {
     const img = lb.querySelector<HTMLImageElement>("[data-lb-img]")!, cap = lb.querySelector<HTMLElement>("[data-lb-cap]")!;
-    let opener: HTMLElement | null = null;
-    document.querySelectorAll<HTMLButtonElement>("[data-zoom]").forEach((b) => b.addEventListener("click", () => {
-      opener = b; img.src = b.dataset.zoom!; img.alt = b.dataset.alt!; cap.textContent = b.dataset.alt!; lb.showModal();
-    }));
+    const btns = [...document.querySelectorAll<HTMLButtonElement>("[data-zoom]")], cnt = lb.querySelector<HTMLElement>("[data-lb-count]")!;
+    let opener: HTMLElement | null = null, cur = 0;
+    const show = (n: number) => { cur = (n + btns.length) % btns.length; const b = btns[cur]; img.src = b.dataset.zoom!; img.alt = b.dataset.alt!; cap.textContent = b.dataset.alt!; cnt.textContent = `${cur + 1} / ${btns.length}`; };
+    btns.forEach((b, k) => b.addEventListener("click", () => { opener = b; show(k); lb.showModal(); }));
+    lb.querySelector("[data-lb-prev]")!.addEventListener("click", () => show(cur - 1));
+    lb.querySelector("[data-lb-next]")!.addEventListener("click", () => show(cur + 1));
+    lb.addEventListener("keydown", (e) => { if (e.key === "ArrowLeft") show(cur - 1); if (e.key === "ArrowRight") show(cur + 1); });
+    let x0: number | null = null;
+    lb.addEventListener("touchstart", (e) => (x0 = e.touches[0].clientX), { passive: true });
+    lb.addEventListener("touchend", (e) => { if (x0 === null) return; const dx = e.changedTouches[0].clientX - x0; if (Math.abs(dx) > 50) show(cur + (dx < 0 ? 1 : -1)); x0 = null; });
     lb.addEventListener("click", (e) => { if (e.target === lb) lb.close(); });
     lb.addEventListener("close", () => opener?.focus());
   }
@@ -500,6 +677,6 @@ const faq = [
   lanes.forEach((l) => {
     l.addEventListener("pointerenter", (e) => { if (e.pointerType === "mouse") open(l); });
     l.addEventListener("focusin", () => open(l));
-    l.addEventListener("click", () => open(l));
+    l.addEventListener("click", (e) => { if (matchMedia("(min-width: 901px)").matches && !l.classList.contains("is-open")) { e.preventDefault(); } open(l); });
   });
 </script>

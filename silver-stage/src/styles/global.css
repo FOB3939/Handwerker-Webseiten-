@@ -110,7 +110,9 @@ p + p { margin-top: 1em; }
 .visually-hidden { position: absolute !important; width: 1px; height: 1px; margin: -1px; overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap; border: 0; }
 
 /* Hinweisleiste für die Vorschau */
-.preview-bar { background: #000; color: #c9ccd2; font-size: 12px; text-align: center; padding: 7px 16px; }
+.preview-bar { background: #000; color: #c9ccd2; font-size: 12px; text-align: center; padding: 7px 16px; display: flex; flex-wrap: wrap; justify-content: center; align-items: center; gap: 4px 14px; }
+.fx-tools { display: inline-flex; flex-wrap: wrap; align-items: center; justify-content: center; gap: 8px; color: #9aa1ab; }
+.fx-tools button { font: inherit; color: #f2f3f5; background: #1d222c; border: 1px solid #3a404c; border-radius: 99px; padding: 6px 12px; min-height: 32px; cursor: pointer; }
 
 /* Kennzeichnung von Bildflächen, die später durch Fotos ersetzt werden */
 .ph-tag {
@@ -123,7 +125,8 @@ p + p { margin-top: 1em; }
 .js [data-reveal].is-in { opacity: 1; transform: none; }
 
 @media (prefers-reduced-motion: reduce) {
+  /* „Effekte erzwingen“ (nur Vorschau) hebt diese Drosselung auf: html.fx-force */
   /* Ausnahmen mit eigener ruhiger Variante: Intro (nur Blenden), Fotowechsel im Startbereich (Überblenden ohne Zoom) */
-  *:not(.intro, .intro *, .slide), *:not(.intro, .intro *)::before, *:not(.intro, .intro *, .seg > span)::after { animation-duration: 0.01ms !important; animation-iteration-count: 1 !important; transition-duration: 0.01ms !important; scroll-behavior: auto !important; }
-  .js [data-reveal] { opacity: 1; transform: none; }
+  html:not(.fx-force) *:not(.intro, .intro *, .slide), html:not(.fx-force) *:not(.intro, .intro *)::before, html:not(.fx-force) *:not(.intro, .intro *, .seg > span)::after { animation-duration: 0.01ms !important; animation-iteration-count: 1 !important; transition-duration: 0.01ms !important; scroll-behavior: auto !important; }
+  html:not(.fx-force).js [data-reveal] { opacity: 1; transform: none; }
 }

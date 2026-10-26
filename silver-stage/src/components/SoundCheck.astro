@@ -1,0 +1,197 @@
+---
+// Mini-Spiel „Soundcheck“ (Merken & Nachspielen): Die Pads spielen eine Folge vor, man spielt sie nach,
+// jede Runde kommt ein Schlag dazu. Ton erst nach Klick (Web Audio), Bestwert nur lokal im Browser.
+import { u } from "../lib/url";
+const pads = [
+  { name: "Kick", key: "D", shape: '<circle cx="12" cy="12" r="8" fill="currentColor"/>' },
+  { name: "Snare", key: "F", shape: '<rect x="5" y="5" width="14" height="14" rx="1.5" fill="currentColor"/>' },
+  { name: "Hi-Hat", key: "J", shape: '<path d="M12 4 21 19H3z" fill="currentColor"/>' },
+  { name: "Clap", key: "K", shape: '<path d="M12 3 21 12 12 21 3 12z" fill="currentColor"/>' },
+];
+---
+<section class="section sc-sec" id="soundcheck" aria-labelledby="sc-title" data-sc>
+  <div class="wrap sc">
+    <div class="sc-text">
+      <p class="label" data-room="lightroom">Mini-Spiel</p>
+      <h2 id="sc-title"><span>Soundcheck</span>Hörst du den Groove raus?</h2>
+      <p class="lead">Wir spielen dir einen Beat vor, du spielst ihn nach. Jede Runde kommt ein Schlag dazu. Wie lange hältst du durch?</p>
+      <ol class="sc-how">
+        <li>Zuhören: Die Pads leuchten in der richtigen Reihenfolge auf.</li>
+        <li>Nachspielen: Pads antippen oder Tasten <kbd>D</kbd> <kbd>F</kbd> <kbd>J</kbd> <kbd>K</kbd> drücken.</li>
+        <li>Ein Fehler, und die Runde ist vorbei. Ton gibt es erst nach deinem Start.</li>
+      </ol>
+      <p class="small muted">Lust auf mehr Rhythmus? <a href={u("/beat-stage/")}>Beat Stage spielen</a>, unser Taktspiel mit 100 BPM.</p>
+    </div>
+    <div class="sc-board">
+      <div class="sc-hud">
+        <p class="sc-status" data-sc-status>Bereit für den Soundcheck?</p>
+        <dl class="sc-stats"><div><dt>Runde</dt><dd data-sc-level>–</dd></div><div><dt>Bestwert</dt><dd data-sc-best>–</dd></div></dl>
+      </div>
+      <div class="sc-dots" data-sc-dots aria-hidden="true"></div>
+      <div class="sc-pads" role="group" aria-label="Pads">
+        {pads.map((p) => (
+          <button type="button" class="sc-pad" data-sc-pad disabled>
+            <svg class="ico" viewBox="0 0 24 24" aria-hidden="true" set:html={p.shape} /><span>{p.name}</span><span class="visually-hidden"> (Taste {p.key})</span><kbd aria-hidden="true">{p.key}</kbd>
+          </button>
+        ))}
+      </div>
+      <div class="sc-ctrl">
+        <button type="button" class="btn btn--primary btn--sm" data-sc-start>Mit Sound starten</button>
+        <button type="button" class="btn btn--ghost btn--sm" data-sc-mute>Stumm spielen</button>
+      </div>
+      <div class="sc-result" data-sc-result hidden>
+        <p class="sc-rank" data-sc-rank></p>
+        <p class="muted" data-sc-text></p>
+        <div class="btn-row">
+          <button type="button" class="btn btn--ghost btn--sm" data-sc-again>Noch einmal</button>
+          <a class="btn btn--primary btn--sm" href={u("/kontakt/?raum=tonstudio")}>Echte Session anfragen</a>
+        </div>
+      </div>
+      <p class="visually-hidden" aria-live="polite" data-sc-live></p>
+    </div>
+  </div>
+</section>
+
+<style>
+  .sc-sec { background: radial-gradient(60% 100% at 80% 40%, rgb(201 139 255 / 0.14), transparent 65%), radial-gradient(50% 80% at 10% 80%, rgb(242 166 90 / 0.08), transparent 60%), var(--bg-2); border-block: 1px solid var(--line); }
+  .sc { display: grid; grid-template-columns: 0.9fr 1.1fr; gap: clamp(40px, 6vw, 96px); align-items: center; }
+  .sc-text { display: grid; gap: 22px; justify-items: start; }
+  .sc-text h2 span { display: block; font-size: 0.5em; letter-spacing: 0; color: var(--ink-2); margin-bottom: 10px; font-weight: 400; }
+  .sc-how { margin: 0; padding-left: 1.1em; color: var(--ink-2); display: grid; gap: 6px; }
+  kbd { font: 500 0.8rem / 1 var(--font-body); padding: 3px 6px; border-radius: 5px; border: 1px solid var(--line-strong); background: #0d0f14; }
+  .sc-board { display: grid; gap: 18px; padding: clamp(18px, 3vw, 28px); border-radius: 22px; background: #08090c; border: 1px solid var(--line); box-shadow: inset 0 0 0 6px #111419, 0 40px 80px -40px #000; }
+  .sc-hud { display: flex; justify-content: space-between; align-items: center; gap: 12px; flex-wrap: wrap; }
+  .sc-status { font: 400 var(--step-1) / 1.25 var(--font-display); min-height: 1.3em; }
+  .sc-stats { display: flex; gap: 18px; margin: 0; font-size: var(--step--1); color: var(--ink-2); }
+  .sc-stats dd { margin: 0; color: var(--ink); font: 500 1.15rem / 1 var(--font-display); }
+  .sc-stats div { display: grid; gap: 4px; }
+  .sc-dots { display: flex; flex-wrap: wrap; gap: 6px; min-height: 10px; }
+  .sc-dots :global(i) { width: 10px; height: 10px; border-radius: 50%; background: rgb(242 243 245 / 0.14); transition: background 0.2s, box-shadow 0.2s; }
+  .sc-dots :global(i.ok) { background: var(--silver); box-shadow: 0 0 8px var(--silver); }
+  .sc-pads { display: grid; grid-template-columns: repeat(4, 1fr); gap: clamp(8px, 1.4vw, 14px); }
+  .sc-pad { --c: var(--amber); position: relative; aspect-ratio: 1; display: grid; place-items: center; align-content: center; gap: 8px; border-radius: 18px; border: 1px solid var(--line); background: linear-gradient(180deg, #232833, #161a22); color: var(--ink-2); font: 500 clamp(0.9rem, 0.7rem + 0.6vw, 1.1rem) / 1 var(--font-display); cursor: pointer; box-shadow: inset 0 1px #ffffff14, 0 10px 0 -2px #090b0f, 0 12px 24px #00000080; transition: transform 0.08s, background 0.12s, color 0.12s, box-shadow 0.12s; touch-action: manipulation; -webkit-tap-highlight-color: transparent; user-select: none; -webkit-user-select: none; }
+  .sc-pad:nth-child(2) { --c: var(--spot); } .sc-pad:nth-child(3) { --c: var(--magenta); } .sc-pad:nth-child(4) { --c: #8fd3ff; }
+  .sc-pad .ico { width: 42%; height: auto; color: var(--c); opacity: 0.8; }
+  .sc-pad:global(.on) { background: var(--c); color: #0d0f14; transform: translateY(6px); box-shadow: 0 0 44px -4px var(--c), 0 4px 0 -2px #090b0f; }
+  .sc-pad:global(.on) .ico { color: #0d0f14; opacity: 1; }
+  .sc-pad:global(.on) kbd { background: transparent; border-color: #0d0f1466; color: #0d0f14; }
+  .sc-pad:global(.bad) { background: #ff8f8f; color: #0d0f14; }
+  .sc-pad:disabled { cursor: default; }
+  .sc-board:global(.listening) .sc-pad:not(:global(.on)) { opacity: 0.6; }
+  .sc-ctrl { display: flex; flex-wrap: wrap; gap: 10px; }
+  .sc-result { display: grid; gap: 10px; padding: 18px 20px; border-radius: 14px; border: 1px solid var(--line-strong); background: var(--bg-2); animation: pop-in 0.4s var(--ease); }
+  .sc-result[hidden] { display: none; }
+  .sc-rank { font: 300 var(--step-2) / 1.1 var(--font-display); }
+  @keyframes pop-in { from { opacity: 0; transform: translateY(8px); } }
+  @media (max-width: 860px) { .sc { grid-template-columns: 1fr; } }
+  @media (max-width: 480px) { .sc-pad kbd { display: none; } .sc-pad { border-radius: 14px; } }
+</style>
+
+<script>
+  const root = document.querySelector<HTMLElement>("[data-sc]");
+  if (root) {
+    const $ = <T extends Element = HTMLElement>(s: string) => root.querySelector<T>(s)!;
+    const board = $(".sc-board"), pads = [...root.querySelectorAll<HTMLButtonElement>("[data-sc-pad]")], status = $("[data-sc-status]");
+    const lvlEl = $("[data-sc-level]"), bestEl = $("[data-sc-best]"), dots = $("[data-sc-dots]");
+    const res = $("[data-sc-result]"), rank = $("[data-sc-rank]"), resText = $("[data-sc-text]"), live = $("[data-sc-live]");
+    const NAMES = ["Kick", "Snare", "Hi-Hat", "Clap"], KEYS: Record<string, number> = { d: 0, f: 1, j: 2, k: 3 };
+    const store = { get(k: string, d: number) { try { const v = localStorage.getItem(k); return v === null ? d : JSON.parse(v); } catch { return d; } }, set(k: string, v: number) { try { localStorage.setItem(k, JSON.stringify(v)); } catch {} } };
+    let ctx: AudioContext | null = null, master: GainNode, noise: AudioBuffer, sound = false;
+    let seq: number[] = [], pos = 0, state = "idle", round = 0, best: number = store.get("ss-soundcheck-best", 0), token = 0;
+    bestEl.textContent = best ? String(best) : "–";
+
+    async function initAudio() {
+      try {
+        if (!ctx) {
+          const AC = window.AudioContext || (window as any).webkitAudioContext;
+          if (!AC) return false;
+          ctx = new AC({ latencyHint: "interactive" });
+          master = ctx.createGain(); master.gain.value = 0.7; master.connect(ctx.destination);
+          noise = ctx.createBuffer(1, ctx.sampleRate, ctx.sampleRate);
+          const d = noise.getChannelData(0); for (let k = 0; k < d.length; k++) d[k] = Math.random() * 2 - 1;
+        }
+        if (ctx.state === "suspended") await ctx.resume();
+        return ctx.state === "running";
+      } catch { return false; }
+    }
+    const env = (t: number, peak: number, len: number) => { const g = ctx!.createGain(); g.gain.setValueAtTime(1e-4, t); g.gain.exponentialRampToValueAtTime(peak, t + 0.002); g.gain.exponentialRampToValueAtTime(1e-4, t + len); g.connect(master); return g; };
+    const noiseSrc = (t: number) => { const s = ctx!.createBufferSource(); s.buffer = noise; s.start(t); return s; };
+    function play(p: number) {
+      if (!sound || !ctx) return;
+      const t = ctx.currentTime;
+      if (p === 0) { const o = ctx.createOscillator(); o.frequency.setValueAtTime(140, t); o.frequency.exponentialRampToValueAtTime(42, t + 0.18); o.connect(env(t, 0.95, 0.42)); o.start(t); o.stop(t + 0.45); }
+      else if (p === 1) { const n = noiseSrc(t), f = ctx.createBiquadFilter(); f.type = "bandpass"; f.frequency.value = 1800; n.connect(f); f.connect(env(t, 0.55, 0.2)); n.stop(t + 0.22);
+        const o = ctx.createOscillator(); o.type = "triangle"; o.frequency.setValueAtTime(220, t); o.frequency.exponentialRampToValueAtTime(160, t + 0.08); o.connect(env(t, 0.35, 0.1)); o.start(t); o.stop(t + 0.12); }
+      else if (p === 2) { const n = noiseSrc(t), f = ctx.createBiquadFilter(); f.type = "highpass"; f.frequency.value = 7000; n.connect(f); f.connect(env(t, 0.32, 0.07)); n.stop(t + 0.08); }
+      else { const n = noiseSrc(t), f = ctx.createBiquadFilter(); f.type = "bandpass"; f.frequency.value = 1300; f.Q.value = 1.1; n.connect(f);
+        const g = ctx.createGain(); g.gain.value = 0; f.connect(g); g.connect(master);
+        [0, 0.012, 0.024].forEach((d) => { g.gain.setValueAtTime(0.6, t + d); g.gain.exponentialRampToValueAtTime(0.05, t + d + 0.01); });
+        g.gain.setValueAtTime(0.35, t + 0.034); g.gain.exponentialRampToValueAtTime(1e-4, t + 0.24); n.stop(t + 0.26); }
+    }
+    function buzz() { if (!sound || !ctx) return; const t = ctx.currentTime, o = ctx.createOscillator(); o.type = "sawtooth"; o.frequency.setValueAtTime(120, t); o.frequency.linearRampToValueAtTime(70, t + 0.3); o.connect(env(t, 0.25, 0.35)); o.start(t); o.stop(t + 0.36); }
+    const flash = (p: number, ms = 200, cls = "on") => { pads[p].classList.add(cls); setTimeout(() => pads[p].classList.remove(cls), ms); };
+    const say = (t: string) => { status.textContent = t; };
+    const announce = (t: string) => { live.textContent = ""; requestAnimationFrame(() => (live.textContent = t)); };
+    const wait = (ms: number) => new Promise((r) => setTimeout(r, ms));
+    const drawDots = () => { dots.innerHTML = seq.map((_, k) => `<i class="${k < pos ? "ok" : ""}"></i>`).join(""); };
+    const lock = (on: boolean) => pads.forEach((p) => (p.disabled = on));
+
+    async function start(withSound: boolean) {
+      sound = withSound ? await initAudio() : false;
+      token++; seq = []; round = 0; res.hidden = true;
+      $("[data-sc-start]").textContent = "Neu starten";
+      for (let k = 0; k < 2; k++) seq.push(Math.floor(Math.random() * 4));
+      nextRound();
+    }
+    async function nextRound() {
+      const my = token;
+      round++; lvlEl.textContent = String(round);
+      seq.push(Math.floor(Math.random() * 4));
+      pos = 0; drawDots(); state = "listen"; lock(true); board.classList.add("listening");
+      say(`Runde ${round}: Hör zu …`);
+      announce(`Runde ${round}. ${seq.length} Schläge: ${seq.map((p) => NAMES[p]).join(", ")}.`);
+      await wait(650);
+      const gap = Math.max(300, 560 - round * 22);
+      for (const p of seq) { if (my !== token) return; play(p); flash(p, gap * 0.55); await wait(gap); }
+      if (my !== token) return;
+      board.classList.remove("listening"); state = "play"; lock(false);
+      say(`Jetzt du – ${seq.length} Schläge nachspielen.`);
+    }
+    function hit(p: number) {
+      if (state !== "play") return;
+      play(p);
+      if (seq[pos] !== p) return over(p);
+      flash(p); pos++; drawDots();
+      if (pos === seq.length) {
+        state = "wait"; lock(true);
+        say(["Sauber!", "Im Takt!", "Stark!", "Läuft!"][round % 4] + " Nächste Runde …");
+        setTimeout(() => { if (state === "wait") nextRound(); }, 800);
+      }
+    }
+    function over(p: number) {
+      state = "over"; lock(true); buzz(); flash(p, 500, "bad");
+      const done = round - 1, isBest = done > best;
+      if (isBest) { best = done; store.set("ss-soundcheck-best", best); bestEl.textContent = String(best); }
+      const title = done >= 9 ? "Studio-Ohr" : done >= 6 ? "Bühnenreif" : done >= 3 ? "Proberaum-reif" : "Erster Soundcheck";
+      say(`Daneben – richtig wäre ${NAMES[seq[pos]]} gewesen.`);
+      rank.textContent = `${title}: ${done} ${done === 1 ? "Runde" : "Runden"}${isBest ? " · neuer Bestwert!" : ""}`;
+      resText.textContent = done >= 6 ? "Dein Timing passt. Zeit, das im echten Studio aufzunehmen." : "Übung macht den Groove – im Stageroom geht das am besten mit der ganzen Band.";
+      res.hidden = false;
+      announce(rank.textContent);
+    }
+    pads.forEach((b, k) => {
+      b.addEventListener("pointerdown", (e) => { if (e.button === 0) { e.preventDefault(); hit(k); } });
+      b.addEventListener("click", (e) => { if (e.detail === 0) hit(k); }); // Tastatur (Enter/Leertaste)
+    });
+    addEventListener("keydown", (e) => {
+      if (state !== "play" || e.repeat || e.ctrlKey || e.metaKey || e.altKey) return;
+      if (["INPUT", "TEXTAREA", "SELECT"].includes((e.target as HTMLElement)?.tagName)) return;
+      const k = KEYS[e.key.toLowerCase()];
+      if (k !== undefined) { e.preventDefault(); hit(k); }
+    });
+    $("[data-sc-start]").addEventListener("click", () => start(true));
+    $("[data-sc-mute]").addEventListener("click", () => start(false));
+    $("[data-sc-again]").addEventListener("click", () => start(sound));
+    document.addEventListener("visibilitychange", () => { if (document.hidden && state !== "idle" && state !== "over") { token++; state = "idle"; lock(true); board.classList.remove("listening"); say("Pausiert – starte neu, wenn du so weit bist."); } });
+  }
+</script>
