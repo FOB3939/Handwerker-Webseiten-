@@ -1,0 +1,400 @@
+{
+  "id": "2026-10-26-140",
+  "slug": "bremauer-fliesenverlegung-weilheim",
+  "date": "2026-10-26",
+  "company": {
+    "name": "Bremauer Fliesenverlegung",
+    "owner": "Peter Bremauer",
+    "trade": "Fliesenleger",
+    "city": "Weilheim in Oberbayern",
+    "address": "Unterer Graben 19, 82362 Weilheim in Oberbayern",
+    "phone": "0176 67470288",
+    "email": null,
+    "serviceArea": [
+      "Weilheim",
+      "Polling",
+      "Wielenbach",
+      "Pähl",
+      "Peißenberg",
+      "Huglfing",
+      "Eberfing"
+    ]
+  },
+  "listings": {
+    "google": {
+      "url": "https://www.google.com/maps/search/?api=1&query=Bremauer%20Fliesenverlegung%20Unterer%20Graben%2019%20Weilheim",
+      "rating": null,
+      "reviews": null,
+      "evidence": "NICHT BELEGT – kein Google-Spiegel gefunden (trustlocal/rgv-bayern ohne Treffer; firmania nur als „Anbieter in der Nähe“ ohne Bewertungen); Cylex: noch keine Bewertungen. Google-Eintrag in Maps prüfen."
+    },
+    "myhammer": {
+      "url": "https://www.11880.com/branchenbuch/weilheim-in-oberbayern/dienstleistung-und-service/handwerk/fliesenleger/060691660",
+      "rating": null,
+      "reviews": null,
+      "evidence": "Kein MyHammer-Profil gefunden – 11880-Liste Fliesenleger Weilheim führt „Bremauer Fliesenverlegung“, Unterer Graben 19, Tel. (0176) 67470288; dazu Cylex, fliesenleger.net (Peter Manfred Bremauer), finde-offen."
+    }
+  },
+  "websiteStatus": "keine eigene Website gefunden",
+  "websiteChecks": [
+    "(1) „Bremauer Fliesenverlegung Weilheim“ mit blocked_domains (11880, Gelbe Seiten, Das Örtliche, Telefonbuch, Cylex, meinestadt, Creditreform, Facebook, Instagram, golocal, MyHammer, Northdata, Firmenwissen, WKDB, Yelp, trustlocal, wlw) – nur fliesenleger.net (Peter Bremauer), finde-offen, Yasni; keine eigene Domain",
+    "(2) Domain-Check allowed_domains bremauer.de, fliesen-bremauer.de, bremauer-fliesen.de, bremauer-fliesenverlegung.de, fliesenverlegung-bremauer.de, fliesen-bremauer-weilheim.de, peter-bremauer.de, bremauer-weilheim.de – nur bremauer.de = „BREMAUER Feinmechanik“ (Dietmar Bremauer, Schwabsoien), fremder Betrieb, keine Fliesen",
+    "(3) Telefonsuche „0176 67470288“ in drei Schreibweisen mit blocked_domains – keine Treffer außer Rufnummern-Blocklisten",
+    "(4) Impressum-Suche „Impressum Peter Bremauer Fliesen Weilheim Inhaber“ – kein eigenes Impressum (nur bremauer-s.de von Volker Bremauer, Frickenhausen BW – fremd)",
+    "(5) Bewertungssuche „Unterer Graben 19 Weilheim Bewertungen“ – Cylex ohne Bewertungen, kein Website-Feld; zweite Festnetznummer 0881 1287480 bei Cylex",
+    "Keine E-Mail gefunden (weder Freemail noch Firmendomain)",
+    "Website-Risiko: mittel – alle Prüfungen negativ, aber weder Google-Eintrag noch Freemail belegt (RESERVE)"
+  ],
+  "facts": {
+    "services": [
+      "Fliesenverlegung"
+    ],
+    "experience": null,
+    "praisedFor": []
+  },
+  "strategy": {
+    "audience": "Hauseigentümer und Mieter in Weilheim und den Nachbarorten, die Bad, Küche oder Böden neu fliesen lassen wollen",
+    "mainService": "Fliesenverlegung für Bad, Küche und Böden",
+    "trustSignal": "Fliesenleger mit Namen aus der Weilheimer Altstadt, per Handy erreichbar",
+    "conversionGoal": "Angebot für Fliesenarbeiten anfragen (Anruf/WhatsApp mit Fotos)",
+    "visualConcept": "Klare Fliesenflächen mit exakten Fugen, warme Altstadt-Töne als Akzent – handwerklich und ruhig"
+  },
+  "sales": {
+    "score": 4,
+    "whyGoodLead": [
+      "Keine eigene Website gefunden – nur Verzeichniseinträge",
+      "Mobilnummer öffentlich gelistet (0176) – WhatsApp-Erstkontakt möglich",
+      "Keine Bewertungen sichtbar – Website und Google-Profil schaffen Sichtbarkeit",
+      "Fliesen sind in der Region bisher selten als Lead vertreten"
+    ],
+    "pitch": "Hallo Herr Bremauer, hier ist … – ich baue Websites für Handwerker im Landkreis Weilheim-Schongau. Ich habe Ihre Fliesenverlegung in Weilheim im Branchenbuch gefunden, aber keine eigene Website. Ich habe unverbindlich einen Entwurf vorbereitet, auf dem Kunden Ihre Arbeiten sehen und direkt per WhatsApp anfragen können – darf ich Ihnen den Link schicken?"
+  },
+  "manualChecks": [
+    "RESERVE – weder Google-Eintrag noch Freemail-Adresse belegt: NUR versenden, wenn Google Maps einen Eintrag OHNE Website zeigt.",
+    "Website-Risiko: mittel – vor Versand in Google Maps prüfen, dass keine Website hinterlegt ist (Grund: kein Google-Spiegel, keine Freemail; nur Verzeichnisse belegt)",
+    "Zwei Adressen: Unterer Graben 19 (11880, Cylex, finde-offen) und Pollinger Str. 58 (fliesenleger.net, „Peter Manfred Bremauer“) – klären, welche gilt",
+    "Zwei Nummern: Mobil 0176 67470288 (11880, Cylex) und Festnetz 0881 1287480 (Cylex) – Mobil zuerst",
+    "Ob der Betrieb aktiv ist: finde-offen-Eintrag ca. 1.500 Tage alt – beim Erstkontakt klären",
+    "Leistungen nur als „Fliesenverlegung“ belegt – Bad, Naturstein, Mosaik, Terrasse beim Betrieb bestätigen",
+    "Logo und Projektfotos: nicht gefunden – beim Betrieb anfragen"
+  ],
+  "sources": [
+    {
+      "label": "11880 – Fliesenleger Weilheim (Liste mit Bremauer Fliesenverlegung)",
+      "url": "https://www.11880.com/branchenbuch/weilheim-in-oberbayern/dienstleistung-und-service/handwerk/fliesenleger/060691660"
+    },
+    {
+      "label": "Cylex – Bremauer Fliesenverlegung Weilheim",
+      "url": "https://web2.cylex.de/firma-home/bremauer-fliesenverlegung-8140874.html"
+    },
+    {
+      "label": "fliesenleger.net – Peter Bremauer, Weilheim",
+      "url": "https://www.fliesenleger.net/weilheim/null-aULiVP"
+    }
+  ],
+  "site": {
+    "theme": "aqua",
+    "category": "handwerk",
+    "heroOffer": [
+      "Bodenfliesen",
+      "Wandfliesen",
+      "Bad",
+      "Küche",
+      "Fugen"
+    ],
+    "scene": "bath",
+    "logoIcon": "trowel",
+    "logoMark": "BF",
+    "brandName": "Bremauer Fliesen",
+    "seoTitle": "Fliesenverlegung in Weilheim – Bremauer",
+    "seoDescription": "Fliesen für Bad, Küche und Böden in Weilheim und Umgebung: Bremauer Fliesenverlegung. Jetzt Angebot anfragen – auch per WhatsApp.",
+    "nav": [
+      {
+        "label": "Leistungen",
+        "href": "#leistungen"
+      },
+      {
+        "label": "Projekte",
+        "href": "#projekte"
+      },
+      {
+        "label": "Bewertungen",
+        "href": "#bewertungen"
+      },
+      {
+        "label": "Ablauf",
+        "href": "#ablauf"
+      },
+      {
+        "label": "FAQ",
+        "href": "#faq"
+      },
+      {
+        "label": "Kontakt",
+        "href": "#kontakt"
+      }
+    ],
+    "hero": {
+      "eyebrow": "Fliesenverlegung · Weilheim",
+      "headline": "Fliesen verlegen in Weilheim",
+      "sub": "Bad, Küche oder Flur: Peter Bremauer verlegt Ihre neuen Fliesen.",
+      "ctaPrimary": "Angebot anfragen",
+      "ctaSecondary": "Anrufen",
+      "bullets": [
+        "Fliesenleger aus Weilheim",
+        "Boden- und Wandfliesen",
+        "Direkt per Handy erreichbar"
+      ],
+      "imageLabel": "neu verlegter Fliesenboden mit exakten Fugen"
+    },
+    "badges": [
+      {
+        "title": "Boden",
+        "sub": "Fliesen verlegen"
+      },
+      {
+        "title": "Wand",
+        "sub": "Bad & Küche"
+      },
+      {
+        "title": "Fugen",
+        "sub": "erneuern"
+      },
+      {
+        "title": "Weilheim",
+        "sub": "Unterer Graben"
+      }
+    ],
+    "trust": [
+      {
+        "value": "Vor Ort",
+        "label": "Betrieb in Weilheim"
+      },
+      {
+        "value": "Boden",
+        "label": "und Wand"
+      },
+      {
+        "value": "Bad",
+        "label": "und Küche"
+      },
+      {
+        "value": "Mobil",
+        "label": "direkt erreichbar"
+      }
+    ],
+    "servicesIntro": {
+      "headline": "Fliesen verlegen – Raum für Raum",
+      "text": "Vom Badboden bis zum Küchenspiegel: Bremauer Fliesenverlegung bereitet den Untergrund vor, verlegt und verfugt die Fläche."
+    },
+    "services": [
+      {
+        "title": "Bodenfliesen",
+        "text": "Fliesenböden für Flur, Küche und Wohnräume – eben verlegt und belastbar.",
+        "items": [
+          "Flur",
+          "Küche",
+          "Wohnräume"
+        ]
+      },
+      {
+        "title": "Wandfliesen",
+        "text": "Fliesenflächen an Wänden in Bad, WC und Küche.",
+        "items": [
+          "Bad",
+          "WC",
+          "Küche"
+        ]
+      },
+      {
+        "title": "Fliesen im Bad",
+        "text": "Boden und Wände im Bad neu fliesen – bei Renovierung oder Neubau.",
+        "items": [
+          "Badboden",
+          "Duschbereich",
+          "Wandflächen"
+        ]
+      },
+      {
+        "title": "Küchenspiegel",
+        "text": "Ein neuer Fliesenspiegel hinter der Arbeitsplatte, passend zur Küche.",
+        "items": [
+          "Fliesenspiegel",
+          "Arbeitsbereich",
+          "Abschlüsse"
+        ]
+      },
+      {
+        "title": "Untergrund",
+        "text": "Vor der Verlegung wird der Untergrund geprüft und vorbereitet.",
+        "items": [
+          "Untergrund prüfen",
+          "Ausgleichen",
+          "Vorbereiten"
+        ]
+      },
+      {
+        "title": "Fugen & Ausbesserung",
+        "text": "Fugen erneuern und einzelne beschädigte Fliesen ersetzen.",
+        "items": [
+          "Silikonfugen",
+          "Fugen erneuern",
+          "Fliesentausch"
+        ]
+      }
+    ],
+    "why": {
+      "headline": "Fliesen aus der Weilheimer Altstadt.",
+      "points": [
+        {
+          "title": "Kurze Wege",
+          "text": "Vom Unteren Graben aus schnell in Polling, Wielenbach, Pähl und Peißenberg."
+        },
+        {
+          "title": "Direkter Kontakt",
+          "text": "Sie sprechen direkt mit Peter Bremauer – per Anruf oder WhatsApp."
+        },
+        {
+          "title": "Boden und Wand",
+          "text": "Ein Ansprechpartner für Bodenfliesen, Wandflächen und Fugen."
+        },
+        {
+          "title": "Auch kleine Flächen",
+          "text": "Ein Küchenspiegel oder neue Fugen sind ebenso willkommen."
+        }
+      ]
+    },
+    "reviews": {
+      "headline": "Was Kunden sagen",
+      "summary": "Kundenstimmen werden hier eingebunden, sobald sie aus dem Google-Profil übernommen sind.",
+      "highlights": [
+        "Fliesenverlegung in Weilheim",
+        "Boden- und Wandfliesen",
+        "Direkter Kontakt"
+      ],
+      "source": "Google",
+      "sourceUrl": "https://www.google.com/maps/search/?api=1&query=Bremauer%20Fliesenverlegung%20Unterer%20Graben%2019%20Weilheim",
+      "rating": null,
+      "count": null
+    },
+    "process": {
+      "headline": "In vier Schritten zur neuen Fläche",
+      "steps": [
+        {
+          "title": "Anfrage",
+          "text": "Fotos und grobe Maße per WhatsApp schicken oder kurz anrufen."
+        },
+        {
+          "title": "Besichtigung",
+          "text": "Untergrund, Fläche und Fliesenwahl werden vor Ort besprochen."
+        },
+        {
+          "title": "Angebot",
+          "text": "Sie erhalten ein klares Angebot für Ihr Vorhaben."
+        },
+        {
+          "title": "Verlegung",
+          "text": "Vorbereiten, verlegen, verfugen – die Fläche wird sauber übergeben."
+        }
+      ]
+    },
+    "gallery": {
+      "headline": "Gefliest in Weilheim und Umgebung",
+      "text": "Für die Live-Version zeigen wir hier echte Projekte des Betriebs.",
+      "items": [
+        {
+          "title": "Badboden",
+          "photoNeeded": "neu gefliester Badboden"
+        },
+        {
+          "title": "Duschwand",
+          "photoNeeded": "geflieste Duschwand mit sauberen Fugen"
+        },
+        {
+          "title": "Küchenspiegel",
+          "photoNeeded": "Fliesenspiegel hinter der Arbeitsplatte"
+        },
+        {
+          "title": "Flur",
+          "photoNeeded": "Fliesenboden im Eingangsbereich"
+        },
+        {
+          "title": "Fugen neu",
+          "photoNeeded": "erneuerte Silikonfugen im Bad"
+        }
+      ]
+    },
+    "region": {
+      "headline": "Fliesenverlegung für Weilheim und Umgebung",
+      "text": "Aus der Weilheimer Innenstadt in Polling, Wielenbach, Pähl, Peißenberg, Huglfing und Eberfing.",
+      "places": [
+        "Weilheim",
+        "Polling",
+        "Wielenbach",
+        "Pähl",
+        "Peißenberg",
+        "Huglfing",
+        "Eberfing"
+      ]
+    },
+    "faq": [
+      {
+        "q": "Kann ich vorab Fotos schicken?",
+        "a": "Ja, Fotos und grobe Maße per WhatsApp helfen für eine erste Einschätzung."
+      },
+      {
+        "q": "Bringe ich die Fliesen selbst mit?",
+        "a": "Das wird im Gespräch geklärt – beides ist nach Absprache möglich."
+      },
+      {
+        "q": "Wie lange dauert die Verlegung?",
+        "a": "Das hängt von Fläche und Untergrund ab. Einen Zeitplan gibt es nach der Besichtigung."
+      },
+      {
+        "q": "Übernehmen Sie auch kleine Aufträge?",
+        "a": "Fragen Sie einfach an – etwa für einen Küchenspiegel oder neue Fugen."
+      },
+      {
+        "q": "Arbeiten Sie auch außerhalb von Weilheim?",
+        "a": "Ja, im Umkreis von Weilheim, etwa in Polling, Pähl oder Peißenberg."
+      }
+    ],
+    "contact": {
+      "headline": "Ihr Angebot für die Fliesenverlegung",
+      "text": "Beschreiben Sie kurz, welcher Raum gefliest werden soll, ungefähre Fläche und Ihren Zeitrahmen. Fotos helfen.",
+      "topics": [
+        "Bodenfliesen",
+        "Wandfliesen",
+        "Fliesen im Bad",
+        "Küchenspiegel",
+        "Fugen & Ausbesserung",
+        "Sonstiges"
+      ],
+      "responseNote": "Besichtigung nach Absprache."
+    },
+    "quote": {
+      "sizeLabel": "Was soll gefliest werden?",
+      "sizes": [
+        "Ein kleiner Raum",
+        "Ein Bad",
+        "Mehrere Räume",
+        "Terrasse oder Treppe"
+      ],
+      "timings": [
+        "So bald wie möglich",
+        "In den nächsten Wochen",
+        "In 1–3 Monaten",
+        "Ich plane erst noch"
+      ]
+    },
+    "stickyCta": "Angebot anfragen",
+    "look": {
+      "palette": 2,
+      "font": 6,
+      "hero": 0,
+      "services": 1,
+      "radius": 1,
+      "logo": 0,
+      "intro": 5
+    }
+  }
+}

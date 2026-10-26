@@ -1,0 +1,284 @@
+{
+  "id": "2026-10-26-141",
+  "slug": "tonino-trockenbau-diessen",
+  "date": "2026-10-26",
+  "company": {
+    "name": "Tonino Trockenbau",
+    "owner": "Toni Zafirev",
+    "trade": "Trockenbau",
+    "city": "Dießen am Ammersee",
+    "address": "Birkenau 27 A, 86911 Dießen (Dettenschwang)",
+    "phone": "01578 7972557",
+    "email": "v.zafirev95@gmail.com",
+    "serviceArea": [
+      "Dießen am Ammersee",
+      "Dettenschwang",
+      "Riederau",
+      "Utting",
+      "Raisting",
+      "Hofstetten",
+      "Thaining"
+    ]
+  },
+  "listings": {
+    "google": {
+      "url": "https://www.google.com/maps/search/?api=1&query=Tonino%20Trockenbau%20Birkenau%2027A%20Die%C3%9Fen",
+      "rating": null,
+      "reviews": null,
+      "evidence": "KEIN Google-Beleg gefunden (kein Spiegel-Treffer wie rgv-bayern/trustlocal). Annahme stützt sich auf die öffentlich gelistete Freemail-Adresse v.zafirev95@gmail.com (11880, strukturierte Daten) mit Mobilnummer 01578 7972557. In Maps prüfen, ob ein Eintrag existiert."
+    },
+    "myhammer": {
+      "url": "https://www.11880.com/suche/trockenbau/diessen",
+      "rating": null,
+      "reviews": null,
+      "evidence": "Kein MyHammer gefunden – Eintrag „Toni Zafirev Tonino Trockenbau“ in den 11880-Ortslisten Trockenbauer/Maler/Bodenleger Dießen (Birkenau 27 A, 86911 Dießen-Dettenschwang, Tel. 01578 7972557, gmail-Adresse); außerdem in stadtbranchenbuch.com (Thaining) mit gleicher Nummer."
+    }
+  },
+  "websiteStatus": "keine eigene Website gefunden",
+  "websiteChecks": [
+    "(1) Namenssuche „Toni Zafirev Trockenbau“ (offen) – nur 11880-Ortslisten und fachfremde Treffer (LinkedIn anderer Person, Stellenportale); keine eigene Domain",
+    "(2) Kombinierte Suche Telefon „01578 7972557“/„015787972557“/„Zafirev“ Dießen mit blocked_domains (11880, Gelbe Seiten, Das Örtliche, Telefonbuch, Cylex, meinestadt, Creditreform, Facebook, Instagram, golocal, MyHammer, Northdata, Firmenwissen, WKDB, Yelp, trustlocal, wlw) – nur stadtbranchenbuch.com (Thaining) und tellows-Rufnummernseiten; keine Website",
+    "(3) Domain-Check allowed_domains tonino-trockenbau.de, toninotrockenbau.de, trockenbau-tonino.de, tonino-bau.de, zafirev.de, zafirev-trockenbau.de, trockenbau-zafirev.de, tonino-trockenbau.com – keine Treffer",
+    "(4) Verzeichnisse: kein Website-Feld in den 11880-Snippets, E-Mail ist Freemail (gmail.com)",
+    "Impressum-Suche nicht durchgeführt (Suchbudget erschöpft) – vor Versand nachholen",
+    "Website-Risiko: mittel – Prüfungen negativ, Freemail belegt, aber kein Google-Eintrag belegt"
+  ],
+  "facts": {
+    "services": [
+      "Trockenbau",
+      "Malerarbeiten",
+      "Bodenbeläge",
+      "Putz- und Spachtelarbeiten"
+    ],
+    "experience": null,
+    "praisedFor": []
+  },
+  "strategy": {
+    "audience": "Hausbesitzer, Vermieter und Bauherren in Dießen, Utting, Raisting und den Dörfern am Westufer des Ammersees, die Räume umbauen, Dachgeschosse ausbauen oder Wände und Böden erneuern wollen",
+    "mainService": "Trockenbau mit Spachtel-, Maler- und Bodenarbeiten aus einer Hand",
+    "trustSignal": "Kleiner Betrieb aus Dettenschwang, direkt per Handy und WhatsApp erreichbar",
+    "conversionGoal": "Kostenloses Angebot anfragen – Fotos und Maße per WhatsApp schicken",
+    "visualConcept": "Helle Ausbau-Optik: frisch verspachtelte Gipskartonwände, gestrichene Flächen und neuer Boden – vom Rohbau zum fertigen Raum"
+  },
+  "sales": {
+    "score": 4,
+    "whyGoodLead": [
+      "Keine eigene Website gefunden – nur Verzeichniseinträge",
+      "Mobilnummer und Gmail-Adresse öffentlich gelistet – WhatsApp-Erstkontakt möglich",
+      "Drei Gewerke (Trockenbau, Maler, Boden) – eine Website kann das Komplettpaket zeigen",
+      "Kaum Online-Sichtbarkeit am Ammersee – Website und Google-Profil bringen schnell Anfragen"
+    ],
+    "pitch": "Hallo Herr Zafirev, hier ist … – ich baue Websites für Handwerker am Ammersee. Ich habe Ihren Eintrag „Tonino Trockenbau“ in Dießen gefunden, aber keine eigene Website. Ich habe unverbindlich einen Entwurf vorbereitet, der Trockenbau, Malerarbeiten und Böden zeigt und Anfragen direkt per WhatsApp ermöglicht – darf ich Ihnen den Link schicken?"
+  },
+  "manualChecks": [
+    "Website-Risiko: mittel – vor Versand in Google Maps prüfen, dass keine Website hinterlegt ist (Grund: kein Google-Eintrag belegt, Annahme nur über öffentliche Gmail-Adresse; Impressum-Suche aus Budgetgründen nicht gemacht)",
+    "E-Mail lautet „v.zafirev95@…“, Inhaber laut Verzeichnis „Toni Zafirev“ – klären, wer Ansprechpartner ist; Anrede ggf. neutral",
+    "Google-Eintrag in Maps suchen (Existenz, Bewertungen) – keine Bewertungsdaten belegt",
+    "Leistungen nur grob belegt (Trockenbau, Maler, Bodenleger, Putz/Spachtel) – Details (Dachausbau, Bodenarten, Fassade) beim Betrieb bestätigen",
+    "Logo und Projektfotos: nicht gefunden – beim Betrieb anfragen"
+  ],
+  "sources": [
+    {
+      "label": "11880 – Trockenbauer Dießen (Liste mit Tonino Trockenbau)",
+      "url": "https://www.11880.com/suche/trockenbau/diessen"
+    },
+    {
+      "label": "11880 – Maler Dießen",
+      "url": "https://www.11880.com/suche/maler/diessen"
+    },
+    {
+      "label": "11880 – Bodenleger Dießen",
+      "url": "https://www.11880.com/suche/bodenleger/diessen"
+    },
+    {
+      "label": "Stadtbranchenbuch Thaining – Toni Zafirev Tonino Trockenbau",
+      "url": "https://bundesland-bayern.stadtbranchenbuch.com/thaining/"
+    }
+  ],
+  "site": {
+    "theme": "stein",
+    "category": "handwerk",
+    "heroOffer": [
+      "Trockenbau",
+      "Spachteln",
+      "Malerarbeiten",
+      "Bodenbeläge",
+      "Dachausbau"
+    ],
+    "scene": "drywall",
+    "logoIcon": "trowel",
+    "logoMark": "TT",
+    "brandName": "Tonino Trockenbau",
+    "seoTitle": "Trockenbau in Dießen am Ammersee – Tonino Trockenbau",
+    "seoDescription": "Trockenbau, Spachtel-, Maler- und Bodenarbeiten in Dießen, Utting und Raisting. Angebot anfragen – auch per WhatsApp.",
+    "nav": [
+      { "label": "Leistungen", "href": "#leistungen" },
+      { "label": "Projekte", "href": "#projekte" },
+      { "label": "Bewertungen", "href": "#bewertungen" },
+      { "label": "Ablauf", "href": "#ablauf" },
+      { "label": "FAQ", "href": "#faq" },
+      { "label": "Kontakt", "href": "#kontakt" }
+    ],
+    "hero": {
+      "eyebrow": "Trockenbau · Dießen am Ammersee",
+      "headline": "Trockenbau in Dießen am Ammersee",
+      "sub": "Wände stellen, spachteln, streichen, Boden legen – ein Ansprechpartner für den Innenausbau.",
+      "ctaPrimary": "Angebot anfragen",
+      "ctaSecondary": "Anrufen",
+      "bullets": [
+        "Betrieb in Dettenschwang",
+        "Trockenbau, Maler und Boden",
+        "Fotos per WhatsApp schicken"
+      ],
+      "imageLabel": "frisch verspachtelte Trockenbauwand in einem hellen Raum"
+    },
+    "badges": [
+      { "title": "Trockenbau", "sub": "Wände & Decken" },
+      { "title": "Spachteln", "sub": "glatte Flächen" },
+      { "title": "Malerarbeiten", "sub": "fertig gestrichen" },
+      { "title": "Dettenschwang", "sub": "Markt Dießen" }
+    ],
+    "trust": [
+      { "value": "3", "label": "Gewerke aus einer Hand" },
+      { "value": "Vor Ort", "label": "Betrieb im Markt Dießen" },
+      { "value": "Innen", "label": "Wand, Decke, Boden" },
+      { "value": "Mobil", "label": "Anruf oder WhatsApp" }
+    ],
+    "servicesIntro": {
+      "headline": "Vom Ständerwerk bis zum fertigen Boden",
+      "text": "Wer umbaut, braucht sonst drei Handwerker: Trockenbauer, Maler und Bodenleger. Bei Tonino Trockenbau koordinieren Sie das mit einem Anruf."
+    },
+    "services": [
+      {
+        "title": "Trockenbauwände",
+        "text": "Neue Raumaufteilung mit Ständerwänden – ohne Nassarbeiten und lange Trocknungszeiten.",
+        "items": ["Ständerwände", "Raumteiler", "Vorsatzschalen"]
+      },
+      {
+        "title": "Decken abhängen",
+        "text": "Abgehängte Decken verbergen Leitungen und schaffen ein ruhiges Raumbild.",
+        "items": ["Abgehängte Decken", "Leitungen verkleiden", "Einbauleuchten vorbereiten"]
+      },
+      {
+        "title": "Dachausbau",
+        "text": "Dachschrägen beplanken und den Speicher zum nutzbaren Raum machen.",
+        "items": ["Dachschrägen", "Kniestöcke", "Beplankung"]
+      },
+      {
+        "title": "Putz & Spachtel",
+        "text": "Fugen und Flächen werden glatt gespachtelt – die Grundlage für einen sauberen Anstrich.",
+        "items": ["Spachtelarbeiten", "Ausbesserungen", "Glatte Oberflächen"]
+      },
+      {
+        "title": "Malerarbeiten",
+        "text": "Nach dem Trockenbau gleich gestrichen: Wände und Decken übergeben Sie bezugsfertig.",
+        "items": ["Wände streichen", "Decken streichen", "Renovierung"]
+      },
+      {
+        "title": "Bodenbeläge",
+        "text": "Zum Schluss der neue Boden – der Raum ist danach komplett fertig.",
+        "items": ["Boden verlegen", "Altbelag ersetzen", "Sockelleisten"]
+      }
+    ],
+    "why": {
+      "headline": "Ein Ansprechpartner für den ganzen Raum.",
+      "points": [
+        { "title": "Drei Gewerke", "text": "Trockenbau, Anstrich und Boden aus einer Hand – keine Abstimmung zwischen mehreren Firmen." },
+        { "title": "Kurze Wege", "text": "Von Dettenschwang aus schnell in Dießen, Utting, Raisting und Hofstetten." },
+        { "title": "Direkter Draht", "text": "Ein Anruf oder eine WhatsApp-Nachricht genügt – ohne Zentrale." },
+        { "title": "Trocken gebaut", "text": "Trockenbau braucht keine langen Trocknungszeiten, Räume sind schnell wieder nutzbar." }
+      ]
+    },
+    "reviews": {
+      "headline": "Was Kunden sagen",
+      "summary": "Kundenstimmen werden hier eingebunden, sobald sie aus dem Google-Profil übernommen sind.",
+      "highlights": [
+        "Trockenbau am Ammersee",
+        "Spachtel- und Malerarbeiten",
+        "Direkter Kontakt"
+      ],
+      "source": "Google",
+      "sourceUrl": "https://www.google.com/maps/search/?api=1&query=Tonino%20Trockenbau%20Birkenau%2027A%20Die%C3%9Fen",
+      "rating": null,
+      "count": null
+    },
+    "process": {
+      "headline": "So entsteht Ihr neuer Raum",
+      "steps": [
+        { "title": "Fotos schicken", "text": "Raum fotografieren, grobe Maße notieren und per WhatsApp senden." },
+        { "title": "Besichtigung", "text": "Wände, Decke und Boden werden vor Ort angeschaut und abgestimmt." },
+        { "title": "Angebot", "text": "Sie bekommen ein Angebot mit allen Arbeitsschritten." },
+        { "title": "Umsetzung", "text": "Ständerwerk, Spachteln, Anstrich, Boden – bis der Raum fertig ist." }
+      ]
+    },
+    "gallery": {
+      "headline": "Ausbau am Ammersee",
+      "text": "Für die Live-Version zeigen wir hier echte Projekte des Betriebs.",
+      "items": [
+        { "title": "Neue Trennwand", "photoNeeded": "Ständerwand im Rohbau und verspachtelt" },
+        { "title": "Abgehängte Decke", "photoNeeded": "glatte Decke mit Einbauleuchten" },
+        { "title": "Dachgeschoss", "photoNeeded": "beplankte und gestrichene Dachschräge" },
+        { "title": "Frischer Anstrich", "photoNeeded": "frisch gestrichener Wohnraum" },
+        { "title": "Neuer Boden", "photoNeeded": "neu verlegter Boden im fertigen Raum" }
+      ]
+    },
+    "region": {
+      "headline": "Trockenbau am Westufer des Ammersees",
+      "text": "Von Dettenschwang aus in Dießen, Riederau, Utting, Raisting, Hofstetten und Thaining unterwegs.",
+      "places": [
+        "Dießen am Ammersee",
+        "Dettenschwang",
+        "Riederau",
+        "Utting",
+        "Raisting",
+        "Hofstetten",
+        "Thaining"
+      ]
+    },
+    "faq": [
+      { "q": "Übernehmen Sie auch Streichen und Boden?", "a": "Ja, neben Trockenbau gehören Maler- und Bodenarbeiten zum Angebot." },
+      { "q": "Kann ich vorab Fotos schicken?", "a": "Ja, Fotos und grobe Maße per WhatsApp reichen für eine erste Einschätzung." },
+      { "q": "Wie lange dauert eine Trockenbauwand?", "a": "Das hängt von Größe und Ausführung ab. Der Zeitplan wird nach der Besichtigung abgestimmt." },
+      { "q": "Bauen Sie auch Dachgeschosse aus?", "a": "Fragen Sie Ihr Vorhaben an – Umfang und Details werden vor Ort besprochen." },
+      { "q": "In welchen Orten arbeiten Sie?", "a": "Im Raum Dießen am Ammersee, etwa in Utting, Raisting, Hofstetten und Thaining." }
+    ],
+    "contact": {
+      "headline": "Ihr Angebot – kostenlos und unverbindlich",
+      "text": "Schreiben Sie kurz, welcher Raum es ist und was gemacht werden soll: Wand, Decke, Anstrich oder Boden. Fotos helfen.",
+      "topics": [
+        "Trockenbau",
+        "Dachausbau",
+        "Spachtel & Putz",
+        "Malerarbeiten",
+        "Bodenbeläge",
+        "Sonstiges"
+      ],
+      "responseNote": "Besichtigung nach Absprache."
+    },
+    "quote": {
+      "sizeLabel": "Was soll gemacht werden?",
+      "sizes": [
+        "Eine Wand oder Decke",
+        "Ein Raum komplett",
+        "Dachgeschoss",
+        "Mehrere Räume"
+      ],
+      "timings": [
+        "So bald wie möglich",
+        "In den nächsten Wochen",
+        "In 1–3 Monaten",
+        "Ich plane erst noch"
+      ]
+    },
+    "stickyCta": "Angebot anfragen",
+    "look": {
+      "palette": 2,
+      "font": 6,
+      "hero": 0,
+      "services": 1,
+      "radius": 1,
+      "logo": 0,
+      "intro": 5
+    }
+  }
+}
