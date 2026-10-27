@@ -1,0 +1,396 @@
+{
+  "id": "2026-10-27-153",
+  "slug": "ea-elektroanlagen-moosburg",
+  "date": "2026-10-27",
+  "company": {
+    "name": "EA Elektroanlagen",
+    "owner": null,
+    "trade": "Elektroinstallation",
+    "city": "Moosburg an der Isar",
+    "address": "Sudetenlandstraße 33, 85368 Moosburg an der Isar",
+    "phone": "0176 64963533",
+    "email": null,
+    "serviceArea": [
+      "Moosburg an der Isar",
+      "Langenbach",
+      "Zolling",
+      "Wang",
+      "Gammelsdorf",
+      "Freising"
+    ]
+  },
+  "listings": {
+    "google": {
+      "url": "https://www.google.com/maps/search/?api=1&query=EA%20Elektroanlagen%20Sudetenlandstra%C3%9Fe%2033%20Moosburg",
+      "rating": null,
+      "reviews": null,
+      "evidence": "NICHT DIREKT BELEGT – kein google.com/maps-Treffer und kein Eintrag auf trustlocal/firmania/rgv-bayern. Zaubee (Aggregator, dessen Daten häufig aus Google-Profilen stammen) führt „EA Elektroanlagen – Sudetenlandstraße 33, Moosburg“ als Elektriker mit 0 Bewertungen; das ist kein sicherer Google-Beleg. In Maps prüfen."
+    },
+    "myhammer": {
+      "url": "https://www.11880.com/suche/elektriker/moosburg",
+      "rating": null,
+      "reviews": null,
+      "evidence": "Kein MyHammer gefunden – Eintrag „EA Elektroanlagen“, Sudetenlandstr. 33, Tel. 0176 64963533 in der 11880-Liste Elektriker Moosburg; außerdem Stadtbranchenbuch Moosburg (Elektroinstallateur) und Zaubee."
+    }
+  },
+  "websiteStatus": "keine eigene Website gefunden",
+  "websiteChecks": [
+    "(1) „\"EA Elektroanlagen\" Moosburg“ mit blocked_domains (11880, Gelbe Seiten, Das Örtliche, Telefonbuch, Cylex, meinestadt, Creditreform, Facebook, Instagram, golocal, MyHammer, Northdata, Firmenwissen, WKDB, Yelp, trustlocal, wlw) – nur Stadtbranchenbuch Moosburg und Zaubee, keine eigene Domain, kein Website-Feld",
+    "(2) Domain-Check allowed_domains ea-elektroanlagen.de, eaelektroanlagen.de, ea-elektroanlagen.com, ea-elektro.de, ea-elektroanlagen-moosburg.de, elektroanlagen-moosburg.de, ea-elektrotechnik.de, eaelektro.de – einziger Treffer eaelektro.de = EA-Gruppe/EA-Elektrotechnik GmbH aus Philippsburg (Baden-Württemberg), anderer Betrieb ohne Bezug zu Moosburg",
+    "(3) Telefonsuche „0176 64963533“/„017664963533“/„0176-64963533“ – keine Treffer (nur fremde Nummern auf phoneblock), keine Website",
+    "(4) Impressum-Suche „Impressum \"EA Elektroanlagen\" Inhaber Moosburg“ – kein eigenes Impressum, Inhaber nirgends genannt",
+    "(5) Google-Spiegel-Suche (trustlocal, firmania, rgv-bayern, zaubee, stadtbranchenbuch) – nur Stadtbranchenbuch und Zaubee, beide ohne Website-Feld; keine E-Mail (auch keine Freemail) gefunden",
+    "Website-Risiko: niedrig bis mittel – alle Website-Prüfungen negativ, aber Google-Eintrag nicht sicher belegt → RESERVE"
+  ],
+  "facts": {
+    "services": [
+      "Elektroinstallation"
+    ],
+    "experience": null,
+    "praisedFor": []
+  },
+  "strategy": {
+    "audience": "Hauseigentümer, Vermieter und Bauherren in Moosburg, Langenbach, Zolling und Wang, die Elektrik erneuern, erweitern oder reparieren lassen wollen",
+    "mainService": "Elektroinstallation im Haus – neu, Erweiterung und Reparatur",
+    "trustSignal": "Elektrobetrieb direkt in Moosburg, per Handy erreichbar",
+    "conversionGoal": "Anfrage für Elektroarbeiten per Anruf oder WhatsApp (mit Fotos vom Sicherungskasten oder der Stelle)",
+    "visualConcept": "Aufgeräumte Technik: sauber verdrahtete Unterverteilung, gerade gesetzte Schalter und warmes Licht in einem Wohnraum"
+  },
+  "sales": {
+    "score": 3,
+    "whyGoodLead": [
+      "Keine eigene Website gefunden – nur zwei Verzeichniseinträge",
+      "Mobilnummer öffentlich gelistet – gut für WhatsApp-Erstkontakt",
+      "Kaum Online-Sichtbarkeit: 0 Bewertungen, keine Leistungsbeschreibung",
+      "Elektro ist im Raum Moosburg gefragt (Sanierung, Neubau, Wallbox, PV-Nachrüstung)"
+    ],
+    "pitch": "Hallo, hier ist … – ich baue Websites für Handwerker im Landkreis Freising. Ich habe „EA Elektroanlagen“ in Moosburg im Branchenbuch gefunden, aber keine eigene Website. Ich habe unverbindlich einen Entwurf vorbereitet, auf dem Kunden Ihre Elektroarbeiten sehen und Sie direkt per WhatsApp anfragen können – darf ich Ihnen den Link schicken?"
+  },
+  "manualChecks": [
+    "RESERVE – weder Google-Eintrag noch Freemail-Adresse belegt: NUR versenden, wenn Google Maps einen Eintrag OHNE Website zeigt. (Website-Prüfungen alle negativ; Zaubee zeigt 0 Bewertungen, Google-Profil aber nicht bestätigt)",
+    "In Google Maps nach „EA Elektroanlagen Moosburg“ suchen: Eintrag vorhanden? Website-Feld leer? Bewertungsanzahl?",
+    "Inhaber unbekannt – beim Erstkontakt erfragen, Anrede neutral halten; „EA“ nicht ausschreiben",
+    "Leistungen nur als „Elektroinstallateur“ belegt – Detailleistungen (Wallbox, PV, Smart Home, E-Check, Meisterbrief) vor Livegang bestätigen, bis dahin nur allgemeine Elektroinstallation zeigen",
+    "Nicht verwechseln mit EA-Gruppe / EA-Elektrotechnik GmbH (Philippsburg, eaelektro.de)",
+    "Logo und Projektfotos: nicht gefunden – beim Betrieb anfragen"
+  ],
+  "sources": [
+    {
+      "label": "11880 – Elektriker Moosburg (Liste mit EA Elektroanlagen)",
+      "url": "https://www.11880.com/suche/elektriker/moosburg"
+    },
+    {
+      "label": "Stadtbranchenbuch Moosburg – EA Elektroanlagen, Sudetenlandstraße 33",
+      "url": "https://moosburg-a-d-isar.stadtbranchenbuch.com/8005352.html"
+    },
+    {
+      "label": "Zaubee – EA Elektroanlagen, Sudetenlandstraße 33, Moosburg",
+      "url": "https://zaubee.com/biz/ea-elektroanlagen-oemdrquv"
+    }
+  ],
+  "site": {
+    "theme": "volt",
+    "category": "handwerk",
+    "heroOffer": [
+      "Elektroinstallation",
+      "Steckdosen",
+      "Beleuchtung",
+      "Unterverteilung",
+      "Reparaturen"
+    ],
+    "scene": "electric",
+    "logoIcon": "bolt",
+    "logoMark": "EA",
+    "brandName": "EA Elektroanlagen",
+    "seoTitle": "Elektriker in Moosburg – EA Elektroanlagen",
+    "seoDescription": "Elektroinstallation, Erweiterung und Reparatur in Moosburg an der Isar und Umgebung. Anfrage per Anruf oder WhatsApp.",
+    "nav": [
+      {
+        "label": "Leistungen",
+        "href": "#leistungen"
+      },
+      {
+        "label": "Projekte",
+        "href": "#projekte"
+      },
+      {
+        "label": "Bewertungen",
+        "href": "#bewertungen"
+      },
+      {
+        "label": "Ablauf",
+        "href": "#ablauf"
+      },
+      {
+        "label": "FAQ",
+        "href": "#faq"
+      },
+      {
+        "label": "Kontakt",
+        "href": "#kontakt"
+      }
+    ],
+    "hero": {
+      "eyebrow": "Elektroinstallation · Moosburg",
+      "headline": "Elektriker in Moosburg an der Isar",
+      "sub": "Neue Leitungen, zusätzliche Steckdosen und Reparaturen – direkt aus Moosburg.",
+      "ctaPrimary": "Elektroarbeiten anfragen",
+      "ctaSecondary": "Anrufen",
+      "bullets": [
+        "Elektrobetrieb in Moosburg",
+        "Installation und Reparatur",
+        "Direkt per Handy erreichbar"
+      ],
+      "imageLabel": "sauber verdrahtete Unterverteilung mit beschrifteten Sicherungen"
+    },
+    "badges": [
+      {
+        "title": "Installation",
+        "sub": "neu und erweitert"
+      },
+      {
+        "title": "Reparatur",
+        "sub": "wenn etwas ausfällt"
+      },
+      {
+        "title": "Licht",
+        "sub": "innen und außen"
+      },
+      {
+        "title": "Moosburg",
+        "sub": "Sudetenlandstraße"
+      }
+    ],
+    "trust": [
+      {
+        "value": "Vor Ort",
+        "label": "Betrieb in Moosburg"
+      },
+      {
+        "value": "Mobil",
+        "label": "direkt erreichbar"
+      },
+      {
+        "value": "Haus",
+        "label": "Wohnung, Haus, Garage"
+      },
+      {
+        "value": "WhatsApp",
+        "label": "Fotos vorab schicken"
+      }
+    ],
+    "servicesIntro": {
+      "headline": "Elektrik, die im Alltag funktioniert",
+      "text": "Ob neue Küche, ausgebauter Keller oder eine Sicherung, die immer wieder fliegt: Hier finden Sie die typischen Elektroarbeiten im Haus."
+    },
+    "services": [
+      {
+        "title": "Elektroinstallation",
+        "text": "Leitungen, Dosen und Anschlüsse für Neubau, Anbau oder Umbau – geplant nach Ihrer Raumnutzung.",
+        "items": [
+          "Neubau und Umbau",
+          "Leitungen verlegen",
+          "Anschlüsse"
+        ]
+      },
+      {
+        "title": "Steckdosen & Schalter",
+        "text": "Zusätzliche Steckdosen dort, wo sie fehlen, und neue Schalterprogramme für ein einheitliches Bild.",
+        "items": [
+          "Zusätzliche Steckdosen",
+          "Schalter tauschen",
+          "Außensteckdose"
+        ]
+      },
+      {
+        "title": "Beleuchtung",
+        "text": "Deckenleuchten, Spots und Außenlicht – angeschlossen und so geschaltet, wie Sie es im Alltag brauchen.",
+        "items": [
+          "Deckenleuchten",
+          "Einbauspots",
+          "Außenbeleuchtung"
+        ]
+      },
+      {
+        "title": "Unterverteilung",
+        "text": "Ordnung im Sicherungskasten: zusätzliche Stromkreise, klare Beschriftung und Schutzschalter.",
+        "items": [
+          "Stromkreise ergänzen",
+          "Beschriftung",
+          "FI-Schutzschalter"
+        ]
+      },
+      {
+        "title": "Reparaturen",
+        "text": "Wenn die Sicherung auslöst oder eine Dose ohne Strom ist, wird die Ursache gesucht und behoben.",
+        "items": [
+          "Fehlersuche",
+          "Defekte Dosen",
+          "Ausgefallene Kreise"
+        ]
+      },
+      {
+        "title": "Altbau-Elektrik",
+        "text": "Alte Leitungen und Verteilungen in Bestandshäusern schrittweise auf einen sicheren Stand bringen.",
+        "items": [
+          "Bestandsaufnahme",
+          "Leitungen erneuern",
+          "Schrittweise Sanierung"
+        ]
+      }
+    ],
+    "why": {
+      "headline": "Elektrik aus Moosburg – ohne Umwege.",
+      "points": [
+        {
+          "title": "Kurze Anfahrt",
+          "text": "Von der Sudetenlandstraße aus schnell in Moosburg, Langenbach, Zolling und Wang."
+        },
+        {
+          "title": "Direkter Draht",
+          "text": "Sie sprechen gleich mit dem Betrieb – per Anruf oder WhatsApp."
+        },
+        {
+          "title": "Fotos genügen",
+          "text": "Ein Bild vom Sicherungskasten oder der Stelle hilft bei der ersten Einschätzung."
+        },
+        {
+          "title": "Klein bis groß",
+          "text": "Von der einzelnen Steckdose bis zur Installation im ganzen Haus."
+        }
+      ]
+    },
+    "reviews": {
+      "headline": "Was Kunden sagen",
+      "summary": "Kundenstimmen werden hier eingebunden, sobald sie aus dem Google-Profil übernommen sind.",
+      "highlights": [
+        "Elektroinstallation in Moosburg",
+        "Installation und Reparatur",
+        "Direkter Kontakt"
+      ],
+      "source": "Google",
+      "sourceUrl": "https://www.google.com/maps/search/?api=1&query=EA%20Elektroanlagen%20Sudetenlandstra%C3%9Fe%2033%20Moosburg",
+      "rating": null,
+      "count": null
+    },
+    "process": {
+      "headline": "So läuft Ihr Elektroauftrag",
+      "steps": [
+        {
+          "title": "Nachricht",
+          "text": "Kurz beschreiben, was gebraucht wird – gern mit Foto per WhatsApp."
+        },
+        {
+          "title": "Termin",
+          "text": "Vor Ort werden Leitungswege, Verteilung und Umfang angesehen."
+        },
+        {
+          "title": "Angebot",
+          "text": "Sie erhalten ein Angebot mit den vereinbarten Arbeiten."
+        },
+        {
+          "title": "Ausführung",
+          "text": "Installation, Prüfung der Anlage und Übergabe mit Erklärung."
+        }
+      ]
+    },
+    "gallery": {
+      "headline": "Elektroarbeiten aus der Region",
+      "text": "Für die Live-Version zeigen wir hier echte Projekte des Betriebs.",
+      "items": [
+        {
+          "title": "Neue Unterverteilung",
+          "photoNeeded": "aufgeräumter Sicherungskasten mit beschrifteten Stromkreisen"
+        },
+        {
+          "title": "Küchenanschlüsse",
+          "photoNeeded": "Steckdosen und Anschlüsse über der Arbeitsplatte"
+        },
+        {
+          "title": "Einbauspots",
+          "photoNeeded": "Wohnraum mit gleichmäßig gesetzten Deckenspots"
+        },
+        {
+          "title": "Außenlicht",
+          "photoNeeded": "Hauseingang mit Wandleuchte und Außensteckdose"
+        },
+        {
+          "title": "Altbau erneuert",
+          "photoNeeded": "neue Leitungen im geöffneten Mauerschlitz vor dem Verputzen"
+        }
+      ]
+    },
+    "region": {
+      "headline": "Elektriker für Moosburg und das Isartal",
+      "text": "Von Moosburg aus schnell in Langenbach, Zolling, Wang, Gammelsdorf und Freising.",
+      "places": [
+        "Moosburg an der Isar",
+        "Langenbach",
+        "Zolling",
+        "Wang",
+        "Gammelsdorf",
+        "Freising"
+      ]
+    },
+    "faq": [
+      {
+        "q": "Übernehmen Sie auch kleine Aufträge?",
+        "a": "Ja, auch einzelne Steckdosen oder Leuchten – fragen Sie einfach an."
+      },
+      {
+        "q": "Kann ich vorab Fotos schicken?",
+        "a": "Ja, Fotos per WhatsApp vom Sicherungskasten oder der Stelle helfen für eine erste Einschätzung."
+      },
+      {
+        "q": "Meine Sicherung fliegt immer wieder – was tun?",
+        "a": "Gerät abstecken, Sicherung nicht dauerhaft wieder einschalten und kurz melden. Die Ursache wird vor Ort gesucht."
+      },
+      {
+        "q": "Arbeiten Sie auch im Altbau?",
+        "a": "Ja, Bestandsanlagen werden angesehen und bei Bedarf schrittweise erneuert."
+      },
+      {
+        "q": "In welchen Orten sind Sie unterwegs?",
+        "a": "In Moosburg und Umgebung, etwa Langenbach, Zolling, Wang und Freising."
+      }
+    ],
+    "contact": {
+      "headline": "Elektroarbeiten anfragen",
+      "text": "Beschreiben Sie kurz, was gemacht werden soll und wo. Ein Foto der Stelle oder des Sicherungskastens hilft.",
+      "topics": [
+        "Elektroinstallation",
+        "Steckdosen & Schalter",
+        "Beleuchtung",
+        "Unterverteilung",
+        "Reparatur",
+        "Sonstiges"
+      ],
+      "responseNote": "Termin nach Absprache."
+    },
+    "quote": {
+      "sizeLabel": "Worum geht es?",
+      "sizes": [
+        "Einzelne Steckdose/Leuchte",
+        "Ein Raum",
+        "Sicherungskasten",
+        "Ganzes Haus/Wohnung"
+      ],
+      "timings": [
+        "Dringend",
+        "In den nächsten Wochen",
+        "In 1–3 Monaten",
+        "Ich plane erst noch"
+      ]
+    },
+    "stickyCta": "Elektriker anfragen",
+    "look": {
+      "palette": 2,
+      "font": 6,
+      "hero": 0,
+      "services": 1,
+      "radius": 1,
+      "logo": 0,
+      "intro": 5
+    }
+  }
+}

@@ -1,0 +1,407 @@
+{
+  "id": "2026-10-27-145",
+  "slug": "igor-daniel-elektrotechnik-seefeld",
+  "date": "2026-10-27",
+  "company": {
+    "name": "Igor Daniel Elektrotechnik",
+    "owner": "Igor Daniel",
+    "trade": "Elektroinstallation",
+    "city": "Seefeld",
+    "address": "Hauptstr. 4, 82229 Seefeld (Hechendorf)",
+    "phone": "0172 4074978",
+    "email": "igi2304@gmail.com",
+    "serviceArea": [
+      "Seefeld",
+      "Hechendorf",
+      "Oberalting",
+      "Weßling",
+      "Gilching",
+      "Wörthsee",
+      "Herrsching"
+    ]
+  },
+  "listings": {
+    "google": {
+      "url": "https://www.google.com/maps/search/?api=1&query=Igor%20Daniel%20Elektrotechnik%20Hauptstr%204%20Seefeld",
+      "rating": null,
+      "reviews": null,
+      "evidence": "INDIREKT (Spiegel) – trustlocal.de führt „Igor Daniel-Elektrotechnik“ in den Elektriker-Listen (Top 10 Maisach: Score 8,4 bei 9 Bewertungen; als ähnlicher Betrieb auf dem Profil von W.W. Elektrobau Gilching: 8,5 bei 10 Bewertungen). Trustlocal-Scores sind keine Google-Sterne; kein Website-Feld sichtbar. Zusätzlich Freemail belegt (igi2304@gmail.com bei 11880). In Maps prüfen."
+    },
+    "myhammer": {
+      "url": "https://www.11880.com/suche/elektriker/seefeld",
+      "rating": null,
+      "reviews": null,
+      "evidence": "Kein MyHammer gefunden – 11880 führt „Igor Daniel Elektrotechnik“ (Elektriker, Elektrotechnik & Elektroinstallation), Hauptstr. 4, 82229 Seefeld (Hechendorf), Tel. (0172) 4074978, E-Mail igi2304@gmail.com, 1 Bewertung (5 Sterne), Eintrag vom Inhaber bestätigt. auftragsbank.de: aktiv seit 2023, Ansprechpartner Igor Daniel."
+    }
+  },
+  "websiteStatus": "keine eigene Website gefunden",
+  "websiteChecks": [
+    "(1) „Igor Daniel Elektrotechnik Maisach“ mit blocked_domains (11880, Gelbe Seiten, Das Örtliche, Telefonbuch, Cylex, meinestadt, Creditreform, Facebook, Instagram, golocal, MyHammer, Northdata, Firmenwissen, WKDB, Yelp, wlw) – nur auftragsbank.de-Eintrag (Seefeld, Hauptstrasse 4) und andere Elektriker (Elektro Hirsch, IMP-Elektro); keine eigene Domain",
+    "(2) Domain-/Impressum-Check allowed_domains igor-daniel.de, daniel-elektrotechnik.de, igordaniel.de, id-elektrotechnik.de, elektrotechnik-daniel.de, igor-daniel-elektrotechnik.de, elektro-daniel.de, daniel-elektro.de – einziger Treffer id-elektrotechnik.de gehört laut Impressum zu Heroid Haziri, ID Elektro & Anlagentechnik, Karlsfeld (anderer Betrieb)",
+    "(3) Telefon-/E-Mail-Suche „0172 4074978“/„01724074978“/„igi2304“ – nur Rufnummernblock-Seite (handyanrufe.de), keine Website",
+    "(4) Verzeichnis-/Spiegelsuche (11880, auftragsbank, trustlocal) – kein Website-Feld, E-Mail ist Freemail (gmail.com)",
+    "Website-Risiko: niedrig – alle Prüfungen negativ, Freemail öffentlich belegt, Google-Eintrag nur indirekt über trustlocal"
+  ],
+  "facts": {
+    "services": [
+      "Elektroinstallation",
+      "Elektrotechnik",
+      "Hausinstallation"
+    ],
+    "experience": null,
+    "praisedFor": []
+  },
+  "strategy": {
+    "audience": "Hausbesitzer, Wohnungseigentümer und Vermieter in Seefeld, Hechendorf, Weßling und Gilching, die Leitungen erneuern, Räume nachrüsten oder Störungen beheben lassen wollen",
+    "mainService": "Elektroinstallation im Haus – Neuinstallation, Erweiterung, Reparatur",
+    "trustSignal": "Junger Inhaberbetrieb in Hechendorf, direkt per Handy und WhatsApp beim Inhaber erreichbar",
+    "conversionGoal": "Rückruf oder Angebot für Elektroarbeiten anfragen (WhatsApp/Anruf mit Fotos)",
+    "visualConcept": "Helle Wohnräume am Pilsensee, sauber gesetzte Schalter und eine ordentlich beschriftete Unterverteilung – klar, technisch, freundlich"
+  },
+  "sales": {
+    "score": 7,
+    "whyGoodLead": [
+      "Keine eigene Website gefunden – nur Verzeichniseinträge",
+      "Mobilnummer und Gmail-Adresse öffentlich gelistet – direkter Erstkontakt per WhatsApp möglich",
+      "Gegründet 2023 laut auftragsbank.de – neuer Betrieb, der Sichtbarkeit aufbaut",
+      "Erste gute Bewertungen (trustlocal 8,4–8,5) – eine Website macht sie für Neukunden sichtbar"
+    ],
+    "pitch": "Hallo Herr Daniel, hier ist … – ich baue Websites für Handwerker im Landkreis Starnberg. Ich habe Ihren Eintrag „Igor Daniel Elektrotechnik“ in Hechendorf gefunden, aber keine eigene Website. Ich habe unverbindlich einen Entwurf vorbereitet, über den Kunden aus Seefeld und Umgebung Ihre Elektroarbeiten finden und direkt per WhatsApp anfragen können – darf ich Ihnen den Link schicken?"
+  },
+  "manualChecks": [
+    "Website-Risiko: niedrig – vor Versand in Google Maps prüfen, dass keine Website hinterlegt ist (Grund: Google-Eintrag nur über trustlocal-Spiegel belegt, Freemail vorhanden)",
+    "Google-Eintrag in Maps bestätigen (Existenz, tatsächliche Sterne und Anzahl – trustlocal nennt 9 bzw. 10 Bewertungen, 11880 eine 5-Sterne-Bewertung)",
+    "Ort: Seefeld-Hechendorf liegt knapp außerhalb der Tagesregion G1 (Nachbar von Weßling/Gilching) – trustlocal listet den Betrieb auch für Maisach",
+    "Leistungen nur grob belegt (Elektrotechnik, Elektroinstallation, Hausinstallation) – Detailleistungen (Unterverteilung, Smart Home, PV, Wallbox) beim Betrieb erfragen",
+    "Kein Meistertitel belegt – nicht als Meisterbetrieb bewerben",
+    "Logo und Projektfotos: nicht gefunden – beim Betrieb anfragen"
+  ],
+  "sources": [
+    {
+      "label": "11880 – Elektriker Seefeld (Liste mit Igor Daniel Elektrotechnik)",
+      "url": "https://www.11880.com/suche/elektriker/seefeld"
+    },
+    {
+      "label": "auftragsbank.de – Igor Daniel elektrotechnik, Seefeld",
+      "url": "https://www.auftragsbank.de/firmen/igor-daniel-elektrotechnik/74542"
+    },
+    {
+      "label": "trustlocal – Top 10 Elektriker in Maisach (Igor Daniel-Elektrotechnik, 8,4 / 9 Bewertungen)",
+      "url": "https://trustlocal.de/bayern/maisach/elektriker/"
+    },
+    {
+      "label": "trustlocal – W.W. Elektrobau Gilching (ähnliche Betriebe: Igor Daniel-Elektrotechnik 8,5 / 10)",
+      "url": "https://trustlocal.de/bayern/gilching/elektriker/ww-elektrobau-gmbh/"
+    }
+  ],
+  "site": {
+    "theme": "volt",
+    "category": "handwerk",
+    "heroOffer": [
+      "Elektroinstallation",
+      "Steckdosen",
+      "Beleuchtung",
+      "Fehlersuche",
+      "Sicherungskasten"
+    ],
+    "scene": "electric",
+    "logoIcon": "bolt",
+    "logoMark": "ID",
+    "brandName": "Igor Daniel Elektrotechnik",
+    "seoTitle": "Elektriker in Seefeld-Hechendorf – Igor Daniel Elektrotechnik",
+    "seoDescription": "Elektroinstallation, Erweiterungen und Reparaturen in Seefeld, Hechendorf, Weßling und Gilching. Anfrage per Anruf oder WhatsApp.",
+    "nav": [
+      {
+        "label": "Leistungen",
+        "href": "#leistungen"
+      },
+      {
+        "label": "Projekte",
+        "href": "#projekte"
+      },
+      {
+        "label": "Bewertungen",
+        "href": "#bewertungen"
+      },
+      {
+        "label": "Ablauf",
+        "href": "#ablauf"
+      },
+      {
+        "label": "FAQ",
+        "href": "#faq"
+      },
+      {
+        "label": "Kontakt",
+        "href": "#kontakt"
+      }
+    ],
+    "hero": {
+      "eyebrow": "Elektrotechnik · Seefeld-Hechendorf",
+      "headline": "Elektriker für Seefeld und Hechendorf",
+      "sub": "Neue Leitungen, mehr Steckdosen, behobene Störungen – direkt beim Inhaber angefragt.",
+      "ctaPrimary": "Angebot anfragen",
+      "ctaSecondary": "WhatsApp schreiben",
+      "bullets": [
+        "Betrieb in Hechendorf",
+        "Installation und Reparatur",
+        "Per Handy und WhatsApp erreichbar"
+      ],
+      "imageLabel": "frisch montierte Schalter und Steckdosen in hellem Wohnraum"
+    },
+    "badges": [
+      {
+        "title": "Installation",
+        "sub": "Neubau & Umbau"
+      },
+      {
+        "title": "Erweiterung",
+        "sub": "zusätzliche Anschlüsse"
+      },
+      {
+        "title": "Reparatur",
+        "sub": "Fehler finden"
+      },
+      {
+        "title": "Hechendorf",
+        "sub": "Hauptstraße"
+      }
+    ],
+    "trust": [
+      {
+        "value": "Vor Ort",
+        "label": "Betrieb in Hechendorf"
+      },
+      {
+        "value": "Inhaber",
+        "label": "Igor Daniel persönlich"
+      },
+      {
+        "value": "Mobil",
+        "label": "Anruf oder WhatsApp"
+      },
+      {
+        "value": "Pilsensee",
+        "label": "kurze Anfahrt"
+      }
+    ],
+    "servicesIntro": {
+      "headline": "Strom, wo Sie ihn brauchen",
+      "text": "Ob einzelne Steckdose oder neue Hausinstallation: Igor Daniel plant die Leitungen nach Ihrem Grundriss und schließt alles sauber an."
+    },
+    "services": [
+      {
+        "title": "Hausinstallation",
+        "text": "Leitungen, Schalter und Steckdosen für Neubau, Umbau und Sanierung – passend zur Raumaufteilung geplant.",
+        "items": [
+          "Neubau",
+          "Umbau",
+          "Sanierung"
+        ]
+      },
+      {
+        "title": "Steckdosen & Anschlüsse",
+        "text": "Mehr Steckdosen im Wohnzimmer, ein Anschluss für den Herd oder Strom im Gartenhaus.",
+        "items": [
+          "Steckdosen",
+          "Herdanschluss",
+          "Außenstrom"
+        ]
+      },
+      {
+        "title": "Beleuchtung",
+        "text": "Deckenleuchten, Spots und Außenlicht werden montiert und an Schalter oder Bewegungsmelder angeschlossen.",
+        "items": [
+          "Deckenleuchten",
+          "Spots",
+          "Außenlicht"
+        ]
+      },
+      {
+        "title": "Fehlersuche",
+        "text": "Springt der FI-Schalter oder bleibt ein Raum dunkel, wird die Ursache gesucht und behoben.",
+        "items": [
+          "FI löst aus",
+          "Stromausfall",
+          "Defekte Schalter"
+        ]
+      },
+      {
+        "title": "Sicherungskasten",
+        "text": "Alte Verteilungen werden erneuert und jeder Stromkreis beschriftet – damit Sie im Störfall sofort den richtigen finden.",
+        "items": [
+          "Unterverteilung",
+          "FI-Schutz",
+          "Beschriftung"
+        ]
+      },
+      {
+        "title": "Netzwerk & Leerrohre",
+        "text": "Datenleitungen und Leerrohre gleich mitverlegen, solange die Wände offen sind.",
+        "items": [
+          "Netzwerkkabel",
+          "Leerrohre",
+          "Medienanschluss"
+        ]
+      }
+    ],
+    "why": {
+      "headline": "Elektrik aus Hechendorf – kurz angefragt, sauber erledigt.",
+      "points": [
+        {
+          "title": "Kurze Wege",
+          "text": "Von Hechendorf aus sind Seefeld, Weßling, Gilching und Wörthsee schnell erreicht."
+        },
+        {
+          "title": "Direkter Draht",
+          "text": "Ihre Nachricht landet beim Inhaber – per Anruf, WhatsApp oder E-Mail."
+        },
+        {
+          "title": "Fotos genügen",
+          "text": "Ein Bild vom Sicherungskasten oder der Stelle reicht oft für eine erste Einschätzung."
+        },
+        {
+          "title": "Auch kleine Aufträge",
+          "text": "Eine einzelne Leuchte oder Steckdose ist genauso willkommen wie ein ganzer Umbau."
+        }
+      ]
+    },
+    "reviews": {
+      "headline": "Was Kunden sagen",
+      "summary": "Kundenstimmen werden hier eingebunden, sobald sie aus dem Google-Profil übernommen sind.",
+      "highlights": [
+        "Elektroinstallation in Seefeld",
+        "Reparaturen und Erweiterungen",
+        "Direkter Kontakt zum Inhaber"
+      ],
+      "source": "Google",
+      "sourceUrl": "https://www.google.com/maps/search/?api=1&query=Igor%20Daniel%20Elektrotechnik%20Hauptstr%204%20Seefeld",
+      "rating": null,
+      "count": null
+    },
+    "process": {
+      "headline": "Vom Foto zur fertigen Elektrik",
+      "steps": [
+        {
+          "title": "Nachricht",
+          "text": "Per WhatsApp oder Anruf schildern, was gemacht werden soll – gern mit Foto."
+        },
+        {
+          "title": "Termin vor Ort",
+          "text": "Leitungswege, Anschlüsse und Wünsche werden gemeinsam angeschaut."
+        },
+        {
+          "title": "Angebot",
+          "text": "Sie bekommen ein nachvollziehbares Angebot für die besprochenen Arbeiten."
+        },
+        {
+          "title": "Ausführung",
+          "text": "Installation, Prüfung und Übergabe – die Stromkreise sind danach beschriftet."
+        }
+      ]
+    },
+    "gallery": {
+      "headline": "Arbeiten rund um den Pilsensee",
+      "text": "Für die Live-Version zeigen wir hier echte Projekte des Betriebs.",
+      "items": [
+        {
+          "title": "Neue Verteilung",
+          "photoNeeded": "erneuerter, beschrifteter Sicherungskasten"
+        },
+        {
+          "title": "Küchenanschlüsse",
+          "photoNeeded": "Steckdosen über der Arbeitsplatte einer neuen Küche"
+        },
+        {
+          "title": "Spots im Flur",
+          "photoNeeded": "eingebaute Deckenspots in hellem Flur"
+        },
+        {
+          "title": "Rohinstallation",
+          "photoNeeded": "Leerrohre und Dosen im Rohbau vor dem Verputzen"
+        },
+        {
+          "title": "Außenlicht",
+          "photoNeeded": "Außenleuchte mit Bewegungsmelder am Hauseingang"
+        }
+      ]
+    },
+    "region": {
+      "headline": "Elektriker für Seefeld und das Umland",
+      "text": "Von Hechendorf aus nach Seefeld, Oberalting, Weßling, Gilching, Wörthsee und Herrsching.",
+      "places": [
+        "Seefeld",
+        "Hechendorf",
+        "Oberalting",
+        "Weßling",
+        "Gilching",
+        "Wörthsee",
+        "Herrsching"
+      ]
+    },
+    "faq": [
+      {
+        "q": "Lohnt sich ein Anruf auch für eine einzelne Steckdose?",
+        "a": "Ja, auch kleine Arbeiten werden übernommen – fragen Sie einfach an."
+      },
+      {
+        "q": "Kann ich per WhatsApp anfragen?",
+        "a": "Ja, schicken Sie eine Nachricht mit kurzer Beschreibung und am besten einem Foto."
+      },
+      {
+        "q": "Was tun, wenn der FI-Schalter immer wieder auslöst?",
+        "a": "Melden Sie sich – die Ursache wird vor Ort gesucht und behoben."
+      },
+      {
+        "q": "Arbeiten Sie auch in Weßling und Gilching?",
+        "a": "Ja, im Umkreis von Seefeld – Weßling, Gilching, Wörthsee und Herrsching inklusive."
+      },
+      {
+        "q": "Wie schnell bekomme ich einen Termin?",
+        "a": "Das hängt von der Auslastung ab. Nach Ihrer Nachricht wird ein Termin abgestimmt."
+      }
+    ],
+    "contact": {
+      "headline": "Elektroarbeiten anfragen",
+      "text": "Schreiben Sie kurz, worum es geht: neue Anschlüsse, Leuchten, Störung oder Sicherungskasten. Fotos helfen bei der Einschätzung.",
+      "topics": [
+        "Hausinstallation",
+        "Steckdosen & Anschlüsse",
+        "Beleuchtung",
+        "Fehlersuche",
+        "Sonstiges"
+      ],
+      "responseNote": "Termin vor Ort nach Absprache."
+    },
+    "quote": {
+      "sizeLabel": "Was steht an?",
+      "sizes": [
+        "Einzelne Steckdose/Leuchte",
+        "Störung beheben",
+        "Ein Raum",
+        "Ganze Wohnung/Haus"
+      ],
+      "timings": [
+        "So bald wie möglich",
+        "In den nächsten Wochen",
+        "In 1–3 Monaten",
+        "Ich plane erst noch"
+      ]
+    },
+    "stickyCta": "Per WhatsApp anfragen",
+    "look": {
+      "palette": 2,
+      "font": 6,
+      "hero": 0,
+      "services": 1,
+      "radius": 1,
+      "logo": 0,
+      "intro": 5,
+      "projects": 1,
+      "process": 1,
+      "faq": 0,
+      "reviews": 0,
+      "order": 0
+    }
+  }
+}

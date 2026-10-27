@@ -1,0 +1,407 @@
+{
+  "id": "2026-10-27-154",
+  "slug": "luis-lenz-garten-hallbergmoos",
+  "date": "2026-10-27",
+  "company": {
+    "name": "Luis Lenz Garten- und Forstdienstleistungen",
+    "owner": "Luis Lenz",
+    "trade": "Garten- und Landschaftsbau",
+    "city": "Hallbergmoos",
+    "address": "Wilhelmstraße 10, 85399 Hallbergmoos",
+    "phone": "01578 2577112",
+    "email": null,
+    "serviceArea": [
+      "Hallbergmoos",
+      "Goldach",
+      "Freising",
+      "Eching",
+      "Neufahrn",
+      "Erding"
+    ]
+  },
+  "listings": {
+    "google": {
+      "url": "https://www.google.com/maps/search/?api=1&query=Luis%20Lenz%20Garten-%20und%20Forstdienstleistungen%20Hallbergmoos",
+      "rating": null,
+      "reviews": null,
+      "evidence": "NICHT BELEGT – kein google.com/maps-Treffer und kein Eintrag auf trustlocal, firmania, rgv-bayern oder zaubee. In Maps prüfen."
+    },
+    "myhammer": {
+      "url": "https://www.11880.com/branchenbuch/hallbergmoos/170211840B112640803/luis-lenz-garten-u-forstdienstleistungen.html",
+      "rating": null,
+      "reviews": null,
+      "evidence": "Kein MyHammer gefunden – 11880-Eintrag „Luis Lenz Garten u. Forstdienstleistungen“, Tel. (01578) 2577112; außerdem Das Örtliche, meinestadt, Cylex (Wilhelmstr. 10) und unser-stadtplan.de (Tannenweg 15) mit Leistungsbeschreibung."
+    }
+  },
+  "websiteStatus": "keine eigene Website gefunden",
+  "websiteChecks": [
+    "(1) „Luis Lenz Garten Forstdienstleistungen Hallbergmoos“ mit blocked_domains (Gelbe Seiten, Das Örtliche, Telefonbuch, Cylex, meinestadt, Creditreform, Facebook, Instagram, golocal, MyHammer, Northdata, Firmenwissen, WKDB, Yelp, wlw) – nur 11880, firmenwissen.com (Einzelunternehmen, aktiv) und unser-stadtplan.de; keine eigene Domain",
+    "(2) Telefon-/Namenssuche „01578 2577112“/„015782577112“/„Luis Lenz“ Hallbergmoos – nur Das Örtliche, meinestadt, Cylex (Wilhelmstr. 10), keine Website",
+    "(3) Domain-Check allowed_domains lenz-garten.de, luis-lenz.de, luislenz.de, lenz-gartenbau.de, garten-lenz.de, lenz-forst.de, lenz-garten-forst.de, gartenbau-lenz.de – garten-lenz.de = Benedikt Lenz im Saarland (anderer Betrieb), luislenz.de = Fotokünstler im Wiesental (andere Person); kein Treffer für Hallbergmoos",
+    "(4) Google-Spiegel-Suche (trustlocal, firmania, rgv-bayern, zaubee, unser-stadtplan, Cylex) – kein Website-Feld, keine Bewertungen; keine E-Mail (auch keine Freemail) gefunden",
+    "Website-Risiko: niedrig – alle Website-Prüfungen negativ; aber weder Google-Eintrag noch Freemail belegt → RESERVE"
+  ],
+  "facts": {
+    "services": [
+      "Garten- und Landschaftsbau",
+      "Bepflanzungspläne",
+      "Terrassen",
+      "Treppen",
+      "Natursteinpflaster",
+      "Forstdienstleistungen"
+    ],
+    "experience": null,
+    "praisedFor": []
+  },
+  "strategy": {
+    "audience": "Hausbesitzer in Hallbergmoos, Goldach, Freising und Erding, die Terrasse, Wege oder Beete neu anlegen oder ihren Garten umgestalten wollen",
+    "mainService": "Gartengestaltung mit Natursteinpflaster, Terrassen und Treppen",
+    "trustSignal": "Inhaber Luis Lenz persönlich am Telefon, Betrieb in Hallbergmoos",
+    "conversionGoal": "Anfrage für Garten- oder Pflasterprojekt per Anruf oder WhatsApp mit Fotos",
+    "visualConcept": "Erdige Gartenbaustelle im Sonnenlicht: frisch verlegtes Natursteinpflaster, Stufen aus Blockstein, junge Bepflanzung am Rand"
+  },
+  "sales": {
+    "score": 3,
+    "whyGoodLead": [
+      "Keine eigene Website gefunden – nur Verzeichniseinträge",
+      "Mobilnummer öffentlich gelistet – gut für WhatsApp-Erstkontakt",
+      "Pflaster- und Terrassenarbeiten lassen sich mit Vorher-nachher-Bildern stark zeigen",
+      "Inhaber namentlich bekannt – persönliche Ansprache möglich"
+    ],
+    "pitch": "Hallo Herr Lenz, hier ist … – ich baue Websites für Handwerker im Landkreis Freising. Ich habe Ihren Betrieb für Garten- und Forstdienstleistungen in Hallbergmoos im Branchenbuch gefunden, aber keine eigene Website. Ich habe unverbindlich einen Entwurf vorbereitet, auf dem Kunden Ihre Pflaster- und Terrassenarbeiten sehen und direkt per WhatsApp anfragen können – darf ich Ihnen den Link schicken?"
+  },
+  "manualChecks": [
+    "RESERVE – weder Google-Eintrag noch Freemail-Adresse belegt: NUR versenden, wenn Google Maps einen Eintrag OHNE Website zeigt.",
+    "In Google Maps nach „Luis Lenz Garten Hallbergmoos“ suchen: Eintrag vorhanden? Website-Feld leer? Bewertungen?",
+    "Zwei Adressen in Verzeichnissen: Wilhelmstraße 10 (Das Örtliche, Cylex) und Tannenweg 15 (unser-stadtplan.de) – aktuelle Anschrift klären",
+    "Leistungen laut unser-stadtplan.de (Bepflanzungspläne, Treppen, Terrassen, Natursteinpflaster) – Umfang der Forstdienstleistungen (Fällung, Brennholz o. Ä.) beim Inhaber erfragen, bis dahin allgemein halten",
+    "Logo und Projektfotos: nicht gefunden – beim Betrieb anfragen"
+  ],
+  "sources": [
+    {
+      "label": "11880 – Luis Lenz Garten u. Forstdienstleistungen Hallbergmoos",
+      "url": "https://www.11880.com/branchenbuch/hallbergmoos/170211840B112640803/luis-lenz-garten-u-forstdienstleistungen.html"
+    },
+    {
+      "label": "unser-stadtplan.de – Luis Lenz Garten- und Forstdienstleistungen (Leistungen)",
+      "url": "https://www.unser-stadtplan.de/Stadtplan/Erding/Partner/Tannenweg-15/Luis-Lenz-Garten-und-Forstdienstleistungen.map"
+    },
+    {
+      "label": "Das Örtliche – Luis Lenz Garten- und Forstdienstleistungen, Wilhelmstr.",
+      "url": "https://www.dasoertliche.de/Themen/Luis-Lenz-Garten-und-Forstdienstleistungen-Hallbergmoos-Wilhelmstr"
+    },
+    {
+      "label": "meinestadt.de – Luis Lenz Garten- und Forstdienstleistungen",
+      "url": "https://branchenbuch.meinestadt.de/hallbergmoos/company/15241575"
+    },
+    {
+      "label": "Firmenwissen – Luis Lenz Garten- und Forstdienstleistungen",
+      "url": "https://www.firmenwissen.com/en/az/firmeneintrag/85399/8350368515/LUIS_LENZ_GARTEN_UND_FORSTDIENSTLEISTUNGEN.html"
+    }
+  ],
+  "site": {
+    "theme": "garten",
+    "category": "handwerk",
+    "heroOffer": [
+      "Natursteinpflaster",
+      "Terrassen",
+      "Gartentreppen",
+      "Bepflanzung",
+      "Forstarbeiten"
+    ],
+    "scene": "garden",
+    "logoIcon": "leaf",
+    "logoMark": "LL",
+    "brandName": "Luis Lenz",
+    "seoTitle": "Garten und Pflaster in Hallbergmoos – Luis Lenz",
+    "seoDescription": "Natursteinpflaster, Terrassen, Gartentreppen und Bepflanzung in Hallbergmoos und Umgebung. Anfrage per Anruf oder WhatsApp.",
+    "nav": [
+      {
+        "label": "Leistungen",
+        "href": "#leistungen"
+      },
+      {
+        "label": "Projekte",
+        "href": "#projekte"
+      },
+      {
+        "label": "Bewertungen",
+        "href": "#bewertungen"
+      },
+      {
+        "label": "Ablauf",
+        "href": "#ablauf"
+      },
+      {
+        "label": "FAQ",
+        "href": "#faq"
+      },
+      {
+        "label": "Kontakt",
+        "href": "#kontakt"
+      }
+    ],
+    "hero": {
+      "eyebrow": "Garten- und Forstdienstleistungen · Hallbergmoos",
+      "headline": "Gärten und Pflaster in Hallbergmoos",
+      "sub": "Natursteinpflaster, Terrassen und Treppen – geplant und gebaut von Luis Lenz.",
+      "ctaPrimary": "Gartenprojekt anfragen",
+      "ctaSecondary": "Anrufen",
+      "bullets": [
+        "Inhaber Luis Lenz",
+        "Pflaster, Terrasse, Treppe",
+        "Direkt per Handy erreichbar"
+      ],
+      "imageLabel": "frisch verlegtes Natursteinpflaster mit Blockstufen und Beet"
+    },
+    "badges": [
+      {
+        "title": "Pflaster",
+        "sub": "aus Naturstein"
+      },
+      {
+        "title": "Terrassen",
+        "sub": "neu angelegt"
+      },
+      {
+        "title": "Pflanzplan",
+        "sub": "passend zum Garten"
+      },
+      {
+        "title": "Hallbergmoos",
+        "sub": "kurze Wege"
+      }
+    ],
+    "trust": [
+      {
+        "value": "Inhaber",
+        "label": "Luis Lenz persönlich"
+      },
+      {
+        "value": "Garten",
+        "label": "und Forst"
+      },
+      {
+        "value": "Vor Ort",
+        "label": "Betrieb in Hallbergmoos"
+      },
+      {
+        "value": "Mobil",
+        "label": "direkt erreichbar"
+      }
+    ],
+    "servicesIntro": {
+      "headline": "Vom Pflanzplan bis zur fertigen Terrasse",
+      "text": "Ein Garten wird schöner, wenn Wege, Stufen und Beete zusammenpassen. Diese Arbeiten übernimmt der Betrieb rund um Hallbergmoos."
+    },
+    "services": [
+      {
+        "title": "Natursteinpflaster",
+        "text": "Wege, Einfahrten und Plätze aus Naturstein – auf tragfähigem Unterbau verlegt.",
+        "items": [
+          "Gartenwege",
+          "Hofflächen",
+          "Unterbau"
+        ]
+      },
+      {
+        "title": "Terrassen",
+        "text": "Neue Terrasse oder Erneuerung der alten Fläche, abgestimmt auf Haus und Garten.",
+        "items": [
+          "Neuanlage",
+          "Erneuerung",
+          "Randabschluss"
+        ]
+      },
+      {
+        "title": "Gartentreppen",
+        "text": "Stufen, die Höhenunterschiede im Garten sicher und begehbar machen.",
+        "items": [
+          "Blockstufen",
+          "Hanglagen",
+          "Übergänge"
+        ]
+      },
+      {
+        "title": "Bepflanzung",
+        "text": "Bepflanzungspläne für Beete und Ränder – passend zu Lage, Boden und Pflegeaufwand.",
+        "items": [
+          "Pflanzplan",
+          "Beete anlegen",
+          "Hecken"
+        ]
+      },
+      {
+        "title": "Gartenumgestaltung",
+        "text": "Bestehende Gärten neu ordnen: Flächen, Wege und Grün in eine klare Form bringen.",
+        "items": [
+          "Planung",
+          "Umbau",
+          "Neue Aufteilung"
+        ]
+      },
+      {
+        "title": "Forstdienstleistungen",
+        "text": "Arbeiten rund um Bäume und Gehölze – Umfang nach Absprache.",
+        "items": [
+          "Gehölzarbeiten",
+          "Nach Absprache",
+          "Grundstückspflege"
+        ]
+      }
+    ],
+    "why": {
+      "headline": "Ein Gartenbauer aus Hallbergmoos – mit Namen und Nummer.",
+      "points": [
+        {
+          "title": "Persönlicher Kontakt",
+          "text": "Sie sprechen direkt mit Inhaber Luis Lenz."
+        },
+        {
+          "title": "Stein und Grün",
+          "text": "Pflaster, Stufen und Bepflanzung aus einer Hand geplant."
+        },
+        {
+          "title": "Kurze Wege",
+          "text": "Von Hallbergmoos schnell in Goldach, Freising, Eching und Erding."
+        },
+        {
+          "title": "Fotos vorab",
+          "text": "Ein paar Bilder vom Garten per WhatsApp genügen für den ersten Eindruck."
+        }
+      ]
+    },
+    "reviews": {
+      "headline": "Was Kunden sagen",
+      "summary": "Kundenstimmen werden hier eingebunden, sobald sie aus dem Google-Profil übernommen sind.",
+      "highlights": [
+        "Natursteinpflaster",
+        "Terrassen und Treppen",
+        "Persönlicher Kontakt"
+      ],
+      "source": "Google",
+      "sourceUrl": "https://www.google.com/maps/search/?api=1&query=Luis%20Lenz%20Garten-%20und%20Forstdienstleistungen%20Hallbergmoos",
+      "rating": null,
+      "count": null
+    },
+    "process": {
+      "headline": "In vier Schritten zum neuen Garten",
+      "steps": [
+        {
+          "title": "Fotos schicken",
+          "text": "Garten oder Fläche fotografieren und per WhatsApp senden – oder anrufen."
+        },
+        {
+          "title": "Vor-Ort-Termin",
+          "text": "Maße, Gefälle, Material und Wünsche werden im Garten besprochen."
+        },
+        {
+          "title": "Angebot",
+          "text": "Sie erhalten ein Angebot für Pflaster, Terrasse oder Bepflanzung."
+        },
+        {
+          "title": "Bau",
+          "text": "Unterbau, Verlegung und Pflanzung – danach gemeinsame Abnahme."
+        }
+      ]
+    },
+    "gallery": {
+      "headline": "Gärten, die Form bekommen",
+      "text": "Für die Live-Version zeigen wir hier echte Projekte des Betriebs.",
+      "items": [
+        {
+          "title": "Natursteinweg",
+          "photoNeeded": "geschwungener Gartenweg aus Naturstein"
+        },
+        {
+          "title": "Neue Terrasse",
+          "photoNeeded": "fertige Terrassenfläche am Haus"
+        },
+        {
+          "title": "Gartentreppe",
+          "photoNeeded": "Blockstufen am Hang mit Bepflanzung"
+        },
+        {
+          "title": "Beet angelegt",
+          "photoNeeded": "frisch bepflanztes Beet mit Mulch"
+        },
+        {
+          "title": "Vorher – nachher",
+          "photoNeeded": "derselbe Garten vor und nach der Umgestaltung"
+        }
+      ]
+    },
+    "region": {
+      "headline": "Gartenbau für Hallbergmoos und das Erdinger Moos",
+      "text": "Von Hallbergmoos aus unterwegs in Goldach, Freising, Eching, Neufahrn und Erding.",
+      "places": [
+        "Hallbergmoos",
+        "Goldach",
+        "Freising",
+        "Eching",
+        "Neufahrn",
+        "Erding"
+      ]
+    },
+    "faq": [
+      {
+        "q": "Welches Pflaster passt in meinen Garten?",
+        "a": "Das hängt von Nutzung, Stil und Untergrund ab. Beim Vor-Ort-Termin werden passende Natursteine besprochen."
+      },
+      {
+        "q": "Kann ich vorab Fotos schicken?",
+        "a": "Ja, Fotos und grobe Maße per WhatsApp helfen für eine erste Einschätzung."
+      },
+      {
+        "q": "Planen Sie auch die Bepflanzung?",
+        "a": "Ja, Bepflanzungspläne für Beete und Ränder gehören zum Angebot."
+      },
+      {
+        "q": "Was gehört zu den Forstdienstleistungen?",
+        "a": "Arbeiten rund um Bäume und Gehölze – was genau möglich ist, klären Sie am besten kurz am Telefon."
+      },
+      {
+        "q": "Wo sind Sie unterwegs?",
+        "a": "In Hallbergmoos und Umgebung, etwa Goldach, Freising, Eching, Neufahrn und Erding."
+      }
+    ],
+    "contact": {
+      "headline": "Ihr Gartenprojekt anfragen",
+      "text": "Beschreiben Sie kurz, was entstehen soll – Weg, Terrasse, Treppe oder Bepflanzung – und wie groß die Fläche ungefähr ist. Fotos helfen.",
+      "topics": [
+        "Natursteinpflaster",
+        "Terrasse",
+        "Gartentreppe",
+        "Bepflanzung",
+        "Forstarbeiten",
+        "Sonstiges"
+      ],
+      "responseNote": "Vor-Ort-Termin nach Absprache."
+    },
+    "quote": {
+      "sizeLabel": "Wie groß ist die Fläche?",
+      "sizes": [
+        "Bis 20 m²",
+        "20–50 m²",
+        "50–100 m²",
+        "Ganzer Garten"
+      ],
+      "timings": [
+        "So bald wie möglich",
+        "Diese Saison",
+        "Nächstes Frühjahr",
+        "Ich plane erst noch"
+      ]
+    },
+    "stickyCta": "Gartenprojekt anfragen",
+    "look": {
+      "palette": 2,
+      "font": 6,
+      "hero": 0,
+      "services": 1,
+      "radius": 1,
+      "logo": 0,
+      "intro": 5
+    }
+  }
+}
