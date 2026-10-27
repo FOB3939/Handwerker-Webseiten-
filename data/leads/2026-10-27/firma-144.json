@@ -1,0 +1,397 @@
+{
+  "id": "2026-10-27-144",
+  "slug": "gaugg-kuechenmontage-freising",
+  "date": "2026-10-27",
+  "company": {
+    "name": "Wilhelm Gaugg Küchenmontage",
+    "owner": "Wilhelm Gaugg",
+    "trade": "Küchenmontage",
+    "city": "Freising",
+    "address": "Bourdonstr. 3, 85354 Freising",
+    "phone": "08161 66409",
+    "email": null,
+    "serviceArea": [
+      "Freising",
+      "Neufahrn",
+      "Marzling",
+      "Kranzberg",
+      "Hallbergmoos",
+      "Langenbach"
+    ]
+  },
+  "listings": {
+    "google": {
+      "url": "https://www.google.com/maps/search/?api=1&query=Wilhelm%20Gaugg%20K%C3%BCchenmontage%20Bourdonstr.%203%20Freising",
+      "rating": null,
+      "reviews": null,
+      "evidence": "NICHT BELEGT – Suche mit rgv-bayern/firmania/trustlocal lieferte keinen Google-Spiegel, nur 11880, Das Örtliche und Gelbe Seiten; Google-Eintrag in Maps prüfen."
+    },
+    "myhammer": {
+      "url": "https://www.dasoertliche.de/Themen/Gaugg-Wilhelm-K%C3%BCchenmontage-Freising-Bourdonstr",
+      "rating": null,
+      "reviews": null,
+      "evidence": "Kein MyHammer gefunden – Das Örtliche führt „Gaugg Wilhelm Küchenmontage“, Bourdonstr. 3, 85354 Freising, Tel. 08161 66409, Mo–Fr 08:00–18:00; ebenso 11880 und Gelbe Seiten (dort Fax 08161 66410, Eintrag ca. 575 Tage alt)."
+    }
+  },
+  "websiteStatus": "keine eigene Website gefunden",
+  "websiteChecks": [
+    "(1) Verzeichnis-/Google-Spiegel-Suche „Gaugg Küchenmontage Freising“ (rgv-bayern, firmania, trustlocal, 11880, Das Örtliche, Cylex, Gelbe Seiten) – nur Verzeichniseinträge ohne Website-Feld, kein Google-Spiegel",
+    "(2) Domain-Check allowed_domains gaugg.de, gaugg-kuechenmontage.de, kuechenmontage-gaugg.de, gaugg-freising.de, wilhelm-gaugg.de, gaugg-kuechen.de, kuechen-gaugg.de, gaugg.com – keine Treffer",
+    "(3) Telefonsuche „08161 66409“/„0816166409“ – keine Treffer, keine Website",
+    "Namenssuche mit blocked_domains (11880, Gelbe Seiten, Das Örtliche, Telefonbuch, Cylex, meinestadt, Creditreform, Facebook, Instagram, golocal, MyHammer, Northdata, Firmenwissen, WKDB, Yelp, trustlocal, wlw) und Impressum-Suche in diesem Lauf nicht wiederholt (Suchbudget); Vorprüfung im Pool als „RESERVE-geprüft“ vermerkt",
+    "Website-Risiko: niedrig bis mittel – alle Prüfungen negativ, aber weder Google-Eintrag noch Freemail belegt (RESERVE)"
+  ],
+  "facts": {
+    "services": [
+      "Küchenmontage"
+    ],
+    "experience": null,
+    "praisedFor": []
+  },
+  "strategy": {
+    "audience": "Haushalte und Vermieter in Freising, Neufahrn und Marzling, die eine neue oder gebrauchte Küche aufbauen oder nach einem Umzug wieder einbauen lassen wollen",
+    "mainService": "Küchenmontage – Aufbau, Anpassung und Einbau",
+    "trustSignal": "Inhabergeführter Montagebetrieb von Wilhelm Gaugg in Freising, werktags 8–18 Uhr erreichbar",
+    "conversionGoal": "Montagetermin bzw. Angebot anfragen (Anruf/Formular mit Küchenplan)",
+    "visualConcept": "Frisch montierte Küchenzeile, exakt ausgerichtete Fronten und Fugen, Werkzeug auf der Arbeitsplatte – präzise und aufgeräumt"
+  },
+  "sales": {
+    "score": 3,
+    "whyGoodLead": [
+      "Keine eigene Website gefunden – nur Verzeichniseinträge",
+      "Küchenkäufer suchen online nach Monteuren – ohne Website keine Sichtbarkeit",
+      "Inhabergeführt mit Namen – persönliche Ansprache möglich",
+      "Freising als Hochschul- und Zuzugsstadt: viele Umzüge und Küchenwechsel"
+    ],
+    "pitch": "Grüß Gott Herr Gaugg, hier ist … – ich baue Websites für Handwerksbetriebe im Landkreis Freising. Ich habe Ihre Küchenmontage im Telefonbuch gefunden, aber keine eigene Website. Ich habe unverbindlich einen Entwurf vorbereitet, über den Kunden einen Montagetermin anfragen können – darf ich Ihnen den Link schicken?"
+  },
+  "manualChecks": [
+    "RESERVE – weder Google-Eintrag noch Freemail-Adresse belegt: NUR versenden, wenn Google Maps einen Eintrag OHNE Website zeigt.",
+    "Google-Eintrag in Maps suchen (Existenz, Bewertungen, Website-Feld) – kein Spiegel gefunden",
+    "Ob der Betrieb noch aktiv ist, prüfen – Gelbe-Seiten-Eintrag ca. 575 Tage alt; Nummer 08161 66409 vor Kontakt bestätigen",
+    "Leistungen nicht im Detail belegt (nur „Küchenmontage“, Kategorie Innenausbau) – Arbeitsplatten, Geräteeinbau, Umzugsmontage und ggf. Möbelmontage beim Betrieb bestätigen",
+    "Elektro- und Wasseranschlüsse nicht als Leistung genannt – nur aufnehmen, wenn der Betrieb das bestätigt (ggf. Fachbetrieb nötig)",
+    "Logo und Projektfotos: nicht gefunden – beim Betrieb anfragen"
+  ],
+  "sources": [
+    {
+      "label": "Das Örtliche – Gaugg Wilhelm Küchenmontage, Freising",
+      "url": "https://www.dasoertliche.de/Themen/Gaugg-Wilhelm-K%C3%BCchenmontage-Freising-Bourdonstr"
+    },
+    {
+      "label": "11880 – Gaugg Wilhelm Küchenmontage, Freising",
+      "url": "https://www.11880.com/branchenbuch/freising-oberbayern/131903204B27931497/gaugg-wilhelm-kuechenmontage.html"
+    },
+    {
+      "label": "Gelbe Seiten – Gaugg Wilhelm, 85354 Freising",
+      "url": "https://www.gelbeseiten.de/gsbiz/cd9bd5f9-875d-432a-974f-a3da325a426f"
+    },
+    {
+      "label": "Das Örtliche – Küchenmontage in Freising (Ortsliste)",
+      "url": "https://www.dasoertliche.de/Themen/K%C3%BCchenmontage/Freising.html"
+    }
+  ],
+  "site": {
+    "theme": "atelier",
+    "category": "handwerk",
+    "heroOffer": [
+      "Küchenaufbau",
+      "Arbeitsplatten",
+      "Geräteeinbau",
+      "Umzugsmontage"
+    ],
+    "scene": "kitchen",
+    "logoIcon": "cabinet",
+    "logoMark": "WG",
+    "brandName": "Gaugg Küchenmontage",
+    "seoTitle": "Küchenmontage in Freising – Wilhelm Gaugg",
+    "seoDescription": "Küchenmontage in Freising und Umgebung: Aufbau, Arbeitsplatten, Einbaugeräte und Umzugsmontage. Jetzt Montagetermin anfragen.",
+    "nav": [
+      {
+        "label": "Leistungen",
+        "href": "#leistungen"
+      },
+      {
+        "label": "Projekte",
+        "href": "#projekte"
+      },
+      {
+        "label": "Bewertungen",
+        "href": "#bewertungen"
+      },
+      {
+        "label": "Ablauf",
+        "href": "#ablauf"
+      },
+      {
+        "label": "FAQ",
+        "href": "#faq"
+      },
+      {
+        "label": "Kontakt",
+        "href": "#kontakt"
+      }
+    ],
+    "hero": {
+      "eyebrow": "Küchenmontage · Freising",
+      "headline": "Küchenmontage in Freising",
+      "sub": "Wilhelm Gaugg baut Ihre neue oder mitgenommene Küche passgenau auf.",
+      "ctaPrimary": "Montagetermin anfragen",
+      "ctaSecondary": "Anrufen",
+      "bullets": [
+        "Montagebetrieb in Freising",
+        "Werktags 8–18 Uhr erreichbar",
+        "Neue und gebrauchte Küchen"
+      ],
+      "imageLabel": "frisch montierte Küchenzeile mit exakt ausgerichteten Fronten"
+    },
+    "badges": [
+      {
+        "title": "Aufbau",
+        "sub": "neue Küchen"
+      },
+      {
+        "title": "Umzug",
+        "sub": "ab- und aufbauen"
+      },
+      {
+        "title": "Arbeitsplatte",
+        "sub": "zugeschnitten"
+      },
+      {
+        "title": "Freising",
+        "sub": "Bourdonstraße"
+      }
+    ],
+    "trust": [
+      {
+        "value": "Mo–Fr",
+        "label": "8–18 Uhr erreichbar"
+      },
+      {
+        "value": "Inhaber",
+        "label": "Wilhelm Gaugg"
+      },
+      {
+        "value": "Vor Ort",
+        "label": "Betrieb in Freising"
+      },
+      {
+        "value": "Küche",
+        "label": "Aufbau bis Feinjustage"
+      }
+    ],
+    "servicesIntro": {
+      "headline": "Ihre Küche – aufgebaut, angepasst, eingestellt",
+      "text": "Vom Möbelhaus-Paket bis zur Küche aus der alten Wohnung: Die Montage richtet Schränke aus, passt Platten an und setzt die Geräte ein."
+    },
+    "services": [
+      {
+        "title": "Küchenaufbau",
+        "text": "Unter- und Oberschränke werden nach Plan aufgebaut, ausgerichtet und sicher an der Wand befestigt.",
+        "items": [
+          "Korpusse",
+          "Hängeschränke",
+          "Ausrichten"
+        ]
+      },
+      {
+        "title": "Arbeitsplatten",
+        "text": "Arbeitsplatten werden zugeschnitten und angepasst – mit Ausschnitten für Spüle und Kochfeld.",
+        "items": [
+          "Zuschnitt",
+          "Spülenausschnitt",
+          "Kochfeldausschnitt"
+        ]
+      },
+      {
+        "title": "Einbaugeräte",
+        "text": "Backofen, Kühlschrank und Geschirrspüler werden in die vorbereiteten Schränke eingesetzt.",
+        "items": [
+          "Backofen",
+          "Kühlschrank",
+          "Geschirrspüler"
+        ]
+      },
+      {
+        "title": "Umzugsmontage",
+        "text": "Die Küche wird in der alten Wohnung abgebaut und im neuen Zuhause wieder aufgebaut und angepasst.",
+        "items": [
+          "Abbau",
+          "Wiederaufbau",
+          "Anpassung"
+        ]
+      },
+      {
+        "title": "Fronten & Blenden",
+        "text": "Fronten, Sockelblenden und Passstücke werden eingesetzt, Türen und Schubkästen exakt eingestellt.",
+        "items": [
+          "Fronten",
+          "Sockel",
+          "Feinjustage"
+        ]
+      },
+      {
+        "title": "Nachrüstung",
+        "text": "Einzelne Schränke, neue Fronten oder eine neue Arbeitsplatte für die bestehende Küche.",
+        "items": [
+          "Zusatzschrank",
+          "Frontentausch",
+          "Neue Platte"
+        ]
+      }
+    ],
+    "why": {
+      "headline": "Küchenmontage aus Freising – ohne Umwege.",
+      "points": [
+        {
+          "title": "Kurze Anfahrt",
+          "text": "Der Betrieb sitzt in Freising und ist schnell in Neufahrn, Marzling und Kranzberg."
+        },
+        {
+          "title": "Fester Ansprechpartner",
+          "text": "Sie vereinbaren den Termin direkt mit Wilhelm Gaugg."
+        },
+        {
+          "title": "Werktags erreichbar",
+          "text": "Montag bis Freitag von 8 bis 18 Uhr telefonisch erreichbar."
+        },
+        {
+          "title": "Auch gebrauchte Küchen",
+          "text": "Ob neu gekauft oder aus der alten Wohnung – beides wird passend aufgebaut."
+        }
+      ]
+    },
+    "reviews": {
+      "headline": "Was Kunden sagen",
+      "summary": "Kundenstimmen werden hier eingebunden, sobald sie aus einem Google-Profil übernommen sind.",
+      "highlights": [
+        "Küchenmontage in Freising",
+        "Aufbau und Anpassung",
+        "Direkter Kontakt zum Inhaber"
+      ],
+      "source": "Google",
+      "sourceUrl": "https://www.google.com/maps/search/?api=1&query=Wilhelm%20Gaugg%20K%C3%BCchenmontage%20Bourdonstr.%203%20Freising",
+      "rating": null,
+      "count": null
+    },
+    "process": {
+      "headline": "Von der Lieferung zur fertigen Küche",
+      "steps": [
+        {
+          "title": "Anfrage",
+          "text": "Küchenplan oder Fotos schicken und den Liefertermin nennen."
+        },
+        {
+          "title": "Abstimmung",
+          "text": "Umfang, Anpassungen und Montagetag werden telefonisch geklärt."
+        },
+        {
+          "title": "Montage",
+          "text": "Schränke, Arbeitsplatte, Fronten und Einbaugeräte werden eingebaut."
+        },
+        {
+          "title": "Übergabe",
+          "text": "Türen und Schubkästen sind eingestellt, die Küche ist sauber übergeben."
+        }
+      ]
+    },
+    "gallery": {
+      "headline": "Küchen, frisch montiert",
+      "text": "Für die Live-Version zeigen wir hier echte Montagen des Betriebs.",
+      "items": [
+        {
+          "title": "Küchenzeile",
+          "photoNeeded": "fertig montierte Küchenzeile mit Hängeschränken"
+        },
+        {
+          "title": "Arbeitsplatte",
+          "photoNeeded": "Arbeitsplatte mit Spülen- und Kochfeldausschnitt"
+        },
+        {
+          "title": "Geräteeinbau",
+          "photoNeeded": "eingebauter Backofen im Hochschrank"
+        },
+        {
+          "title": "Umzugsküche",
+          "photoNeeded": "wieder aufgebaute Küche in neuer Wohnung"
+        },
+        {
+          "title": "Feinjustage",
+          "photoNeeded": "exakt ausgerichtete Fronten und Fugen"
+        }
+      ]
+    },
+    "region": {
+      "headline": "Küchenmontage für Freising und Umgebung",
+      "text": "Von Freising aus nach Neufahrn, Marzling, Kranzberg, Hallbergmoos und Langenbach.",
+      "places": [
+        "Freising",
+        "Neufahrn",
+        "Marzling",
+        "Kranzberg",
+        "Hallbergmoos",
+        "Langenbach"
+      ]
+    },
+    "faq": [
+      {
+        "q": "Montieren Sie auch Küchen aus dem Möbelhaus?",
+        "a": "Ja, auch Küchen aus dem Möbelhaus oder Online-Handel. Schicken Sie vorab den Küchenplan."
+      },
+      {
+        "q": "Bauen Sie meine alte Küche in der neuen Wohnung auf?",
+        "a": "Ja, die Küche kann abgebaut und in der neuen Wohnung wieder aufgebaut und angepasst werden."
+      },
+      {
+        "q": "Wie lange dauert eine Küchenmontage?",
+        "a": "Das hängt von Größe und Anpassungen ab. Den Zeitbedarf besprechen wir anhand des Plans."
+      },
+      {
+        "q": "Wer schließt Strom und Wasser an?",
+        "a": "Das klären wir bei der Anfrage – je nach Anschluss kann ein Elektro- oder Sanitärbetrieb nötig sein."
+      },
+      {
+        "q": "Wann sind Sie erreichbar?",
+        "a": "Montag bis Freitag von 8 bis 18 Uhr telefonisch."
+      }
+    ],
+    "contact": {
+      "headline": "Montagetermin anfragen",
+      "text": "Nennen Sie kurz Küchengröße, Liefertermin und ob neu oder gebraucht. Ein Foto vom Plan hilft.",
+      "topics": [
+        "Neue Küche",
+        "Umzugsmontage",
+        "Arbeitsplatte",
+        "Nachrüstung",
+        "Sonstiges"
+      ],
+      "responseNote": "Termin nach Absprache."
+    },
+    "quote": {
+      "sizeLabel": "Welche Küche soll montiert werden?",
+      "sizes": [
+        "Küchenzeile",
+        "L-Küche",
+        "U-Küche/Insel",
+        "Einzelne Teile"
+      ],
+      "timings": [
+        "So bald wie möglich",
+        "In den nächsten Wochen",
+        "In 1–3 Monaten",
+        "Liefertermin noch offen"
+      ]
+    },
+    "stickyCta": "Termin anfragen",
+    "look": {
+      "palette": 2,
+      "font": 6,
+      "hero": 0,
+      "services": 1,
+      "radius": 1,
+      "logo": 0,
+      "intro": 5
+    }
+  }
+}

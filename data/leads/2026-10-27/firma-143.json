@@ -1,0 +1,395 @@
+{
+  "id": "2026-10-27-143",
+  "slug": "zimmerei-stierstorfer-groebenzell",
+  "date": "2026-10-27",
+  "company": {
+    "name": "Zimmerei Franz X. Stierstorfer",
+    "owner": "Franz X. Stierstorfer",
+    "trade": "Zimmerei",
+    "city": "Gröbenzell",
+    "address": "Erlbachweg 11, 82194 Gröbenzell",
+    "phone": "08142 540393",
+    "email": null,
+    "serviceArea": [
+      "Gröbenzell",
+      "Olching",
+      "Puchheim",
+      "Eichenau",
+      "Lochhausen",
+      "Fürstenfeldbruck"
+    ]
+  },
+  "listings": {
+    "google": {
+      "url": "https://www.google.com/maps/search/?api=1&query=Franz%20X.%20Stierstorfer%20Zimmerer%20Erlbachweg%2011%20Gr%C3%B6benzell",
+      "rating": null,
+      "reviews": null,
+      "evidence": "NICHT BELEGT – Suche mit rgv-bayern/firmania/trustlocal lieferte keinen Google-Spiegel, nur Das-Örtliche-Einträge; Google-Eintrag in Maps prüfen."
+    },
+    "myhammer": {
+      "url": "https://www.dasoertliche.de/Themen/Stierstorfer-Franz-X-Zimmerer-Gr%C3%B6benzell-Erlbachweg",
+      "rating": null,
+      "reviews": null,
+      "evidence": "Kein MyHammer gefunden – Das Örtliche führt „Stierstorfer Franz X. Zimmerer“, Erlbachweg 11, 82194 Gröbenzell, Tel. 08142 540393 (Nummer laut Pool/Vorprüfung). Eine Das-Örtliche-Übersichtsseite zeigt neben dem Eintrag „Bewertungen (6)“ – Zuordnung zum Betrieb unklar."
+    }
+  },
+  "websiteStatus": "keine eigene Website gefunden",
+  "websiteChecks": [
+    "(1) „Zimmerei Stierstorfer Gröbenzell“ mit blocked_domains (11880, Gelbe Seiten, Das Örtliche, Telefonbuch, Cylex, meinestadt, Creditreform, Facebook, Instagram, golocal, MyHammer, Northdata, Firmenwissen, WKDB, Yelp, trustlocal, wlw) – kein eigener Treffer; nur andere Zimmereien am Ort (Bauernfeind, Scherer, Lindner) und die Zimmerei Stier GmbH (Trossingen, anderes Unternehmen)",
+    "(2) Verzeichnis-/Google-Spiegel-Suche (rgv-bayern, firmania, trustlocal, 11880, Das Örtliche, Cylex) – nur Das-Örtliche-Einträge ohne Website-Feld, kein Google-Spiegel",
+    "(3) Domain-Check allowed_domains zimmerei-stierstorfer.de, stierstorfer.de, stierstorfer-zimmerei.de, stierstorfer-holzbau.de, holzbau-stierstorfer.de, zimmerei-stierstorfer-groebenzell.de, stierstorfer-groebenzell.de, stierstorfer.com – nur stierstorfer.de = Autohaus Stierstorfer GmbH in Barbing (anderes Unternehmen, kein Bezug), sonst keine Treffer",
+    "(4) Telefonsuche „08142 540393“/„08142540393“ – keine Treffer, keine Website",
+    "Impressum-Suche nicht durchgeführt (Suchbudget erschöpft); Vorprüfung im Pool als „RESERVE-geprüft“ vermerkt",
+    "Website-Risiko: niedrig bis mittel – alle Prüfungen negativ, aber weder Google-Eintrag noch Freemail belegt (RESERVE)"
+  ],
+  "facts": {
+    "services": [
+      "Zimmererarbeiten"
+    ],
+    "experience": null,
+    "praisedFor": []
+  },
+  "strategy": {
+    "audience": "Hauseigentümer in Gröbenzell, Olching und Puchheim, die einen Dachstuhl erneuern, ein Carport bauen oder Holzbauteile am Haus reparieren lassen wollen",
+    "mainService": "Zimmererarbeiten – Dachstuhl und Holzbau am Haus",
+    "trustSignal": "Inhabergeführte Zimmerei von Franz X. Stierstorfer mit Sitz in Gröbenzell",
+    "conversionGoal": "Kostenlose Besichtigung bzw. Angebot anfragen (Anruf/Formular)",
+    "visualConcept": "Helles Konstruktionsholz, sichtbare Sparren und Balken, ein frisch aufgerichteter Dachstuhl vor blauem Himmel – handwerklich und klar"
+  },
+  "sales": {
+    "score": 3,
+    "whyGoodLead": [
+      "Keine eigene Website gefunden – nur ein Das-Örtliche-Eintrag",
+      "Zimmerer sind im Landkreis Fürstenfeldbruck gefragt (Dachsanierung, Carports, Anbauten)",
+      "Inhabergeführt mit Namen – persönliche Ansprache möglich",
+      "Andere Zimmereien in Gröbenzell haben Websites – ohne eigene Seite verliert der Betrieb Anfragen"
+    ],
+    "pitch": "Grüß Gott Herr Stierstorfer, hier ist … – ich baue Websites für Handwerksbetriebe im Landkreis Fürstenfeldbruck. Ich habe Ihre Zimmerei in Gröbenzell im Telefonbuch gefunden, aber keine eigene Website. Ich habe unverbindlich einen Entwurf vorbereitet, auf dem Kunden Ihre Zimmererarbeiten sehen und direkt anfragen können – darf ich Ihnen den Link schicken?"
+  },
+  "manualChecks": [
+    "RESERVE – weder Google-Eintrag noch Freemail-Adresse belegt: NUR versenden, wenn Google Maps einen Eintrag OHNE Website zeigt.",
+    "Google-Eintrag in Maps suchen (Existenz, Bewertungen, Website-Feld) – kein Spiegel gefunden",
+    "Telefonnummer 08142 540393 vor Kontakt bestätigen (Websuche ohne Treffer, nur Verzeichnis)",
+    "Ob der Betrieb noch aktiv ist, prüfen – Eintrag wirkt älter; „Bewertungen (6)“ auf Das Örtliche nicht eindeutig zugeordnet",
+    "Leistungen nicht im Detail belegt (nur „Zimmerer“) – Dachstuhl, Carport, Gauben, Holzterrassen und Dämmung beim Betrieb bestätigen",
+    "Adresse Erlbachweg 11 ist Wohnstraße – klären, ob sie auf der Website erscheinen soll; Logo und Projektfotos beim Betrieb anfragen"
+  ],
+  "sources": [
+    {
+      "label": "Das Örtliche – Stierstorfer Franz X. Zimmerer, Gröbenzell",
+      "url": "https://www.dasoertliche.de/Themen/Stierstorfer-Franz-X-Zimmerer-Gr%C3%B6benzell-Erlbachweg"
+    },
+    {
+      "label": "Das Örtliche – Stierstorfer Seite 2",
+      "url": "https://www.dasoertliche.de/Themen/Stierstorfer-Seite-2.html"
+    },
+    {
+      "label": "11880 – Zimmerer Gröbenzell (Ortsliste)",
+      "url": "https://www.11880.com/suche/zimmerei/groebenzell"
+    }
+  ],
+  "site": {
+    "theme": "werk",
+    "category": "handwerk",
+    "heroOffer": [
+      "Dachstuhl",
+      "Carport",
+      "Gauben",
+      "Holzterrasse",
+      "Reparaturen"
+    ],
+    "scene": "facade",
+    "logoIcon": "roof",
+    "logoMark": "FS",
+    "brandName": "Zimmerei Stierstorfer",
+    "seoTitle": "Zimmerei in Gröbenzell – Franz X. Stierstorfer",
+    "seoDescription": "Zimmererarbeiten in Gröbenzell, Olching und Puchheim: Dachstuhl, Carport, Gauben und Holzbau am Haus. Jetzt unverbindlich anfragen.",
+    "nav": [
+      {
+        "label": "Leistungen",
+        "href": "#leistungen"
+      },
+      {
+        "label": "Projekte",
+        "href": "#projekte"
+      },
+      {
+        "label": "Bewertungen",
+        "href": "#bewertungen"
+      },
+      {
+        "label": "Ablauf",
+        "href": "#ablauf"
+      },
+      {
+        "label": "FAQ",
+        "href": "#faq"
+      },
+      {
+        "label": "Kontakt",
+        "href": "#kontakt"
+      }
+    ],
+    "hero": {
+      "eyebrow": "Zimmerei · Gröbenzell",
+      "headline": "Zimmerei in Gröbenzell",
+      "sub": "Dachstühle, Carports und Holzbau am Haus – geplant und gebaut von Franz X. Stierstorfer.",
+      "ctaPrimary": "Besichtigung anfragen",
+      "ctaSecondary": "Anrufen",
+      "bullets": [
+        "Zimmerei mit Sitz in Gröbenzell",
+        "Inhaber Franz X. Stierstorfer",
+        "Holzbau rund ums Haus"
+      ],
+      "imageLabel": "frisch aufgerichteter Dachstuhl aus hellem Konstruktionsholz"
+    },
+    "badges": [
+      {
+        "title": "Dachstuhl",
+        "sub": "neu & saniert"
+      },
+      {
+        "title": "Carport",
+        "sub": "aus Holz"
+      },
+      {
+        "title": "Gauben",
+        "sub": "mehr Raum im Dach"
+      },
+      {
+        "title": "Gröbenzell",
+        "sub": "Erlbachweg"
+      }
+    ],
+    "trust": [
+      {
+        "value": "Vor Ort",
+        "label": "Zimmerei in Gröbenzell"
+      },
+      {
+        "value": "Inhaber",
+        "label": "Franz X. Stierstorfer"
+      },
+      {
+        "value": "Holz",
+        "label": "Dach, Carport, Terrasse"
+      },
+      {
+        "value": "Direkt",
+        "label": "Anruf genügt"
+      }
+    ],
+    "servicesIntro": {
+      "headline": "Holzbau vom Dach bis zur Terrasse",
+      "text": "Ob neuer Dachstuhl, Gaube oder Carport: Die Zimmerei plant das Holzbauteil passend zu Ihrem Haus und baut es auf."
+    },
+    "services": [
+      {
+        "title": "Dachstuhl",
+        "text": "Neue Dachstühle für Neu- und Anbauten sowie die Erneuerung einzelner Sparren und Pfetten im Bestand.",
+        "items": [
+          "Neubau",
+          "Sparren tauschen",
+          "Pfetten"
+        ]
+      },
+      {
+        "title": "Dachsanierung",
+        "text": "Morsche oder befallene Hölzer werden geprüft, verstärkt oder ersetzt – die Basis für ein neues Dach.",
+        "items": [
+          "Holz prüfen",
+          "Verstärken",
+          "Ersetzen"
+        ]
+      },
+      {
+        "title": "Gauben",
+        "text": "Eine Gaube bringt Licht und Stehhöhe ins Dachgeschoss – vom Holzbau bis zur Abstimmung mit dem Dachdecker.",
+        "items": [
+          "Schleppgaube",
+          "Satteldachgaube",
+          "Mehr Wohnraum"
+        ]
+      },
+      {
+        "title": "Carports",
+        "text": "Carports und Unterstände aus Holz, passend zu Grundstück und Haus.",
+        "items": [
+          "Einzelcarport",
+          "Doppelcarport",
+          "Geräteunterstand"
+        ]
+      },
+      {
+        "title": "Terrassen & Balkone",
+        "text": "Holzterrassen, Terrassenüberdachungen und Balkone aus witterungsbeständigem Holz.",
+        "items": [
+          "Holzterrasse",
+          "Überdachung",
+          "Balkon"
+        ]
+      },
+      {
+        "title": "Holzreparaturen",
+        "text": "Kleinere Arbeiten am Haus: Vordächer, Verschalungen und beschädigte Holzteile.",
+        "items": [
+          "Vordach",
+          "Verschalung",
+          "Ausbesserung"
+        ]
+      }
+    ],
+    "why": {
+      "headline": "Zimmererarbeit aus Gröbenzell – direkt beim Inhaber.",
+      "points": [
+        {
+          "title": "Kurze Wege",
+          "text": "Von Gröbenzell aus sind Olching, Puchheim und Eichenau in wenigen Minuten erreicht."
+        },
+        {
+          "title": "Ein Ansprechpartner",
+          "text": "Sie sprechen direkt mit Franz X. Stierstorfer – von der ersten Frage bis zur Abnahme."
+        },
+        {
+          "title": "Holz am Haus",
+          "text": "Dach, Gaube, Carport und Terrasse aus einer Hand statt mehrerer Anbieter."
+        },
+        {
+          "title": "Besichtigung vorab",
+          "text": "Umfang und Holzbedarf werden vor Ort geklärt, bevor ein Angebot entsteht."
+        }
+      ]
+    },
+    "reviews": {
+      "headline": "Was Kunden sagen",
+      "summary": "Kundenstimmen werden hier eingebunden, sobald sie aus einem Google-Profil übernommen sind.",
+      "highlights": [
+        "Zimmerei in Gröbenzell",
+        "Dachstuhl und Carport",
+        "Direkter Kontakt zum Inhaber"
+      ],
+      "source": "Google",
+      "sourceUrl": "https://www.google.com/maps/search/?api=1&query=Franz%20X.%20Stierstorfer%20Zimmerer%20Erlbachweg%2011%20Gr%C3%B6benzell",
+      "rating": null,
+      "count": null
+    },
+    "process": {
+      "headline": "So entsteht Ihr Holzbau",
+      "steps": [
+        {
+          "title": "Anruf",
+          "text": "Sie schildern kurz Ihr Vorhaben – gern mit Fotos vom Dach oder Grundstück."
+        },
+        {
+          "title": "Besichtigung",
+          "text": "Maße, Zustand des Holzes und Anschlüsse werden vor Ort aufgenommen."
+        },
+        {
+          "title": "Angebot",
+          "text": "Sie erhalten ein schriftliches Angebot mit Material und Umfang."
+        },
+        {
+          "title": "Aufbau",
+          "text": "Abbund und Montage – danach wird das Bauteil gemeinsam abgenommen."
+        }
+      ]
+    },
+    "gallery": {
+      "headline": "Holzbau aus der Region",
+      "text": "Für die Live-Version zeigen wir hier echte Projekte der Zimmerei.",
+      "items": [
+        {
+          "title": "Neuer Dachstuhl",
+          "photoNeeded": "aufgerichteter Dachstuhl vor dem Eindecken"
+        },
+        {
+          "title": "Gaube",
+          "photoNeeded": "fertige Gaube im Holzbau-Rohzustand"
+        },
+        {
+          "title": "Holzcarport",
+          "photoNeeded": "Carport aus Holz neben einem Einfamilienhaus"
+        },
+        {
+          "title": "Terrassenüberdachung",
+          "photoNeeded": "Holzüberdachung über einer Terrasse"
+        },
+        {
+          "title": "Sparren saniert",
+          "photoNeeded": "verstärkte oder getauschte Sparren im Altbau"
+        }
+      ]
+    },
+    "region": {
+      "headline": "Zimmerei für Gröbenzell und den Landkreis Fürstenfeldbruck",
+      "text": "Von Gröbenzell aus nach Olching, Puchheim, Eichenau, Lochhausen und Fürstenfeldbruck.",
+      "places": [
+        "Gröbenzell",
+        "Olching",
+        "Puchheim",
+        "Eichenau",
+        "Lochhausen",
+        "Fürstenfeldbruck"
+      ]
+    },
+    "faq": [
+      {
+        "q": "Kommen Sie vor dem Angebot vorbei?",
+        "a": "Ja, für Zimmererarbeiten ist eine Besichtigung vor Ort sinnvoll. Den Termin stimmen wir telefonisch ab."
+      },
+      {
+        "q": "Brauche ich für ein Carport eine Genehmigung?",
+        "a": "Das hängt von Größe und Gemeinde ab. Klären Sie das am besten vorab mit dem Bauamt – wir sagen Ihnen, welche Maße wir brauchen."
+      },
+      {
+        "q": "Kann ein alter Dachstuhl saniert werden?",
+        "a": "Oft ja. Ob einzelne Hölzer verstärkt oder ersetzt werden, zeigt die Besichtigung."
+      },
+      {
+        "q": "Arbeiten Sie mit dem Dachdecker zusammen?",
+        "a": "Bei Dachstuhl und Gauben stimmen wir uns mit dem Dachdecker ab, damit die Gewerke ineinandergreifen."
+      },
+      {
+        "q": "Arbeiten Sie auch außerhalb von Gröbenzell?",
+        "a": "Ja, im Umkreis von Gröbenzell – etwa in Olching, Puchheim und Eichenau."
+      }
+    ],
+    "contact": {
+      "headline": "Ihr Holzbau-Vorhaben – unverbindlich anfragen",
+      "text": "Beschreiben Sie kurz, was gebaut oder erneuert werden soll und wo. Fotos und grobe Maße helfen.",
+      "topics": [
+        "Dachstuhl",
+        "Gaube",
+        "Carport",
+        "Terrasse/Balkon",
+        "Sonstiges"
+      ],
+      "responseNote": "Besichtigung nach Absprache."
+    },
+    "quote": {
+      "sizeLabel": "Was soll gebaut werden?",
+      "sizes": [
+        "Kleine Reparatur",
+        "Carport/Unterstand",
+        "Gaube",
+        "Ganzer Dachstuhl"
+      ],
+      "timings": [
+        "So bald wie möglich",
+        "In den nächsten Wochen",
+        "In 1–3 Monaten",
+        "Ich plane erst noch"
+      ]
+    },
+    "stickyCta": "Besichtigung anfragen",
+    "look": {
+      "palette": 2,
+      "font": 6,
+      "hero": 0,
+      "services": 1,
+      "radius": 1,
+      "logo": 0,
+      "intro": 5
+    }
+  }
+}
