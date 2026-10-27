@@ -1,0 +1,401 @@
+{
+  "id": "2026-10-27-152",
+  "slug": "alexander-pechler-roehrmoos",
+  "date": "2026-10-27",
+  "company": {
+    "name": "Alexander Pechler Spenglerei und Bedachung",
+    "owner": "Alexander Pechler",
+    "trade": "Spenglerei & Bedachung",
+    "city": "Röhrmoos",
+    "address": "Am Jägerfeld 5a, 85244 Röhrmoos (Zieglberg)",
+    "phone": "08139 576789",
+    "email": null,
+    "serviceArea": [
+      "Röhrmoos",
+      "Zieglberg",
+      "Großinzemoos",
+      "Schwabhausen",
+      "Vierkirchen",
+      "Hebertshausen",
+      "Dachau"
+    ]
+  },
+  "listings": {
+    "google": {
+      "url": "https://www.google.com/maps/search/?api=1&query=Alexander%20Pechler%20Am%20J%C3%A4gerfeld%205a%20R%C3%B6hrmoos",
+      "rating": null,
+      "reviews": null,
+      "evidence": "NICHT BELEGT – Spiegelsuche (trustlocal, rgv-bayern, firmania) ohne Treffer für Pechler. Nur Verzeichnisse: Das Örtliche (Spengler Röhrmoos: „Spenglerei und Bedachung“, Am Jägerfeld 5a, Zieglberg), 11880-Telefonbuch, dachdecker.com (Röhrmoos/Vierkirchen, 08139 576789)."
+    },
+    "myhammer": {
+      "url": "https://www.dachdecker.com/roehrmoos/pechler-alexander-aUOBnF",
+      "rating": null,
+      "reviews": null,
+      "evidence": "Kein MyHammer gefunden – Eintrag „Pechler Alexander“ bei dachdecker.com (Am Jägerfeld 5a, 85244 Röhrmoos, 08139 576789); gleiche Daten bei kaminbau.net und heizungsbau.net."
+    }
+  },
+  "websiteStatus": "keine eigene Website gefunden",
+  "websiteChecks": [
+    "(1) „Alexander Pechler Spenglerei Bedachung Röhrmoos“ mit blocked_domains (11880, Gelbe Seiten, Das Örtliche, Telefonbuch, Cylex, meinestadt, Creditreform, Facebook, Instagram, golocal, MyHammer, Northdata, Firmenwissen, WKDB, Yelp, trustlocal, wlw) – nur dachdecker.com-Einträge; mf-dach.de führt „Alexander Pechler“ unter Schwabhausen in einer Referenzliste (fremde Firma); keine eigene Domain.",
+    "(2) Domain-Check allowed_domains pechler.de, spenglerei-pechler.de, pechler-spenglerei.de, pechler-dach.de, dach-pechler.de, pechler-bedachung.de, alexander-pechler.de, bedachung-pechler.de – keine Treffer.",
+    "(3) Telefonsuche „08139 576789“/„08139576789“ mit blocked_domains – nur dachdecker.com, kaminbau.net, heizungsbau.net (Branchenportale), keine Website.",
+    "(4) Google-Spiegel trustlocal/rgv-bayern/firmania – kein Eintrag gefunden.",
+    "(5) Impressum-Suche nicht separat durchgeführt (Suchbudget erschöpft). Keine E-Mail gefunden (auch keine Freemail).",
+    "Website-Risiko: mittel – alle Prüfungen negativ, aber weder Google-Eintrag noch Freemail belegt (RESERVE)"
+  ],
+  "facts": {
+    "services": [
+      "Spenglerarbeiten",
+      "Bedachung"
+    ],
+    "experience": null,
+    "praisedFor": []
+  },
+  "strategy": {
+    "audience": "Hauseigentümer in Röhrmoos, Vierkirchen, Schwabhausen und Hebertshausen, die Dach, Dachrinne oder Blechanschlüsse reparieren oder erneuern lassen wollen",
+    "mainService": "Spenglerei und Bedachung",
+    "trustSignal": "Inhaber Alexander Pechler, Betrieb im Röhrmooser Ortsteil Zieglberg",
+    "conversionGoal": "Anruf oder Anfrage mit Fotos vom Dach",
+    "visualConcept": "Bodenständiges Dachhandwerk: Ziegeldach mit neuer Rinne, Blechanschlüsse am Kamin, Werkzeug auf dem Gerüst"
+  },
+  "sales": {
+    "score": 4,
+    "whyGoodLead": [
+      "Keine eigene Website gefunden – nur Branchenportale",
+      "Dach- und Spenglerarbeiten sind stark nachgefragt, Anfragen kommen oft über die Online-Suche",
+      "Inhabergeführter Kleinbetrieb ohne Online-Auftritt",
+      "Kombination Spenglerei + Bedachung gut auf einer Seite darstellbar"
+    ],
+    "pitch": "Grüß Gott Herr Pechler, hier ist … – ich baue Websites für Handwerksbetriebe im Landkreis Dachau. Ihre Spenglerei und Bedachung in Röhrmoos habe ich im Verzeichnis gefunden, aber keine eigene Website. Ich habe unverbindlich einen Entwurf vorbereitet, über den Hausbesitzer aus der Gegend Ihre Dach- und Spenglerarbeiten finden und direkt anfragen können – darf ich Ihnen den Link schicken?"
+  },
+  "manualChecks": [
+    "RESERVE – weder Google-Eintrag noch Freemail-Adresse belegt: NUR versenden, wenn Google Maps einen Eintrag OHNE Website zeigt.",
+    "Prüfen, ob der Betrieb aktiv ist (nur Verzeichnisdaten, kein Datum belegt)",
+    "Keine Mobilnummer und keine E-Mail gefunden – nur Festnetz 08139 576789",
+    "Nicht verwechseln mit Jan Pechler in Pasenbach (08139/999087) – anderer Eintrag",
+    "Leistungen nur als Kategorie belegt (Spenglerei und Bedachung/Dachdecker; Portale führen ihn zusätzlich unter Kamin- und Heizungsbau – unbestätigt) – genaues Angebot beim Betrieb erfragen",
+    "Logo und Projektfotos: nicht gefunden – beim Betrieb anfragen"
+  ],
+  "sources": [
+    {
+      "label": "Das Örtliche – Spengler in Röhrmoos (Pechler, Spenglerei und Bedachung)",
+      "url": "https://www.dasoertliche.de/Themen/Spengler/R%C3%B6hrmoos.html"
+    },
+    {
+      "label": "dachdecker.com – Pechler Alexander, Röhrmoos",
+      "url": "https://www.dachdecker.com/roehrmoos/pechler-alexander-aUOBnF"
+    },
+    {
+      "label": "dachdecker.com – Dachdecker Vierkirchen (Liste mit Pechler)",
+      "url": "https://www.dachdecker.com/vierkirchen"
+    },
+    {
+      "label": "11880 – Telefonbuch Röhrmoos",
+      "url": "https://www.11880.com/telefonbuch/roehrmoos"
+    }
+  ],
+  "site": {
+    "theme": "werk",
+    "category": "handwerk",
+    "heroOffer": [
+      "Dachrinnen",
+      "Bedachung",
+      "Blechanschlüsse",
+      "Reparaturen"
+    ],
+    "scene": "facade",
+    "logoIcon": "roof",
+    "logoMark": "AP",
+    "brandName": "Pechler Spenglerei & Bedachung",
+    "seoTitle": "Spenglerei und Bedachung in Röhrmoos – Alexander Pechler",
+    "seoDescription": "Spenglerarbeiten und Bedachung in Röhrmoos, Vierkirchen, Schwabhausen und Umgebung. Jetzt Anfrage mit Fotos senden oder anrufen.",
+    "nav": [
+      {
+        "label": "Leistungen",
+        "href": "#leistungen"
+      },
+      {
+        "label": "Projekte",
+        "href": "#projekte"
+      },
+      {
+        "label": "Bewertungen",
+        "href": "#bewertungen"
+      },
+      {
+        "label": "Ablauf",
+        "href": "#ablauf"
+      },
+      {
+        "label": "FAQ",
+        "href": "#faq"
+      },
+      {
+        "label": "Kontakt",
+        "href": "#kontakt"
+      }
+    ],
+    "hero": {
+      "eyebrow": "Spenglerei & Bedachung · Röhrmoos",
+      "headline": "Dach und Blech in Röhrmoos",
+      "sub": "Spenglerarbeiten und Bedachung von Alexander Pechler aus Zieglberg.",
+      "ctaPrimary": "Anfrage senden",
+      "ctaSecondary": "Anrufen",
+      "bullets": [
+        "Betrieb in Röhrmoos-Zieglberg",
+        "Spenglerei und Bedachung",
+        "Direkt beim Inhaber anfragen"
+      ],
+      "imageLabel": "Ziegeldach mit neuer Dachrinne und Blechanschluss"
+    },
+    "badges": [
+      {
+        "title": "Spenglerei",
+        "sub": "Rinne & Anschluss"
+      },
+      {
+        "title": "Bedachung",
+        "sub": "Dachfläche"
+      },
+      {
+        "title": "Reparatur",
+        "sub": "nach Besichtigung"
+      },
+      {
+        "title": "Zieglberg",
+        "sub": "Am Jägerfeld"
+      }
+    ],
+    "trust": [
+      {
+        "value": "Inhaber",
+        "label": "Alexander Pechler"
+      },
+      {
+        "value": "2",
+        "label": "Gewerke: Blech & Dach"
+      },
+      {
+        "value": "Vor Ort",
+        "label": "Röhrmoos-Zieglberg"
+      },
+      {
+        "value": "Direkt",
+        "label": "kein Callcenter"
+      }
+    ],
+    "servicesIntro": {
+      "headline": "Spenglerei und Dach aus einer Hand",
+      "text": "Dachfläche, Rinne und Blechanschluss hängen zusammen – deshalb lohnt es sich, sie gemeinsam anzugehen."
+    },
+    "services": [
+      {
+        "title": "Dachrinnen",
+        "text": "Neue oder erneuerte Rinnen und Fallrohre führen Regenwasser sauber vom Haus weg.",
+        "items": [
+          "Dachrinne",
+          "Fallrohr",
+          "Rinnenhalter"
+        ]
+      },
+      {
+        "title": "Bedachung",
+        "text": "Dachflächen werden neu eingedeckt oder ausgebessert, damit das Haus dicht bleibt.",
+        "items": [
+          "Eindeckung",
+          "Ausbesserung",
+          "Dachfläche"
+        ]
+      },
+      {
+        "title": "Blechanschlüsse",
+        "text": "Kamin, Wand und Dachfenster werden mit Blech dicht an die Dachfläche angeschlossen.",
+        "items": [
+          "Kamin",
+          "Wandanschluss",
+          "Dachfenster"
+        ]
+      },
+      {
+        "title": "Verblechungen",
+        "text": "Ortgang, Traufe und Mauerkrone erhalten eine schützende Blechabdeckung.",
+        "items": [
+          "Ortgang",
+          "Traufe",
+          "Mauerabdeckung"
+        ]
+      },
+      {
+        "title": "Reparaturen",
+        "text": "Nach Sturm oder bei Undichtigkeit wird die Schadstelle gefunden und behoben.",
+        "items": [
+          "Sturmschaden",
+          "Undichtigkeit",
+          "Austausch"
+        ]
+      },
+      {
+        "title": "Dachcheck",
+        "text": "Ein Blick auf Dach und Rinne zeigt, wo Handlungsbedarf besteht – vor dem nächsten Winter.",
+        "items": [
+          "Sichtprüfung",
+          "Rinne reinigen",
+          "Empfehlung"
+        ]
+      }
+    ],
+    "why": {
+      "headline": "Dachhandwerk aus Röhrmoos.",
+      "points": [
+        {
+          "title": "Kurze Wege",
+          "text": "Von Zieglberg schnell in Röhrmoos, Vierkirchen, Schwabhausen und Hebertshausen."
+        },
+        {
+          "title": "Blech und Dach",
+          "text": "Rinne, Anschluss und Dachfläche in einem Auftrag – ohne zweiten Handwerker."
+        },
+        {
+          "title": "Direkter Kontakt",
+          "text": "Sie sprechen mit Alexander Pechler selbst."
+        },
+        {
+          "title": "Erst ansehen",
+          "text": "Vor dem Angebot wird das Dach vor Ort begutachtet."
+        }
+      ]
+    },
+    "reviews": {
+      "headline": "Was Kunden sagen",
+      "summary": "Kundenstimmen werden hier eingebunden, sobald sie aus dem Google-Profil übernommen sind.",
+      "highlights": [
+        "Spenglerei in Röhrmoos",
+        "Dach und Blech",
+        "Direkter Kontakt"
+      ],
+      "source": "Google",
+      "sourceUrl": "https://www.google.com/maps/search/?api=1&query=Alexander%20Pechler%20Am%20J%C3%A4gerfeld%205a%20R%C3%B6hrmoos",
+      "rating": null,
+      "count": null
+    },
+    "process": {
+      "headline": "In vier Schritten zum dichten Dach",
+      "steps": [
+        {
+          "title": "Anruf",
+          "text": "Kurz schildern, was am Dach oder an der Rinne los ist – Fotos helfen."
+        },
+        {
+          "title": "Besichtigung",
+          "text": "Dach, Rinne und Anschlüsse werden vor Ort angesehen."
+        },
+        {
+          "title": "Angebot",
+          "text": "Sie erhalten ein Angebot mit Umfang und Material."
+        },
+        {
+          "title": "Ausführung",
+          "text": "Die Arbeiten werden ausgeführt und das Dach sauber übergeben."
+        }
+      ]
+    },
+    "gallery": {
+      "headline": "Dächer aus der Region",
+      "text": "Für die Live-Version zeigen wir hier echte Projekte des Betriebs.",
+      "items": [
+        {
+          "title": "Neue Dachrinne",
+          "photoNeeded": "neu montierte Dachrinne mit Fallrohr"
+        },
+        {
+          "title": "Kaminanschluss",
+          "photoNeeded": "verblechter Kamin auf Ziegeldach"
+        },
+        {
+          "title": "Eindeckung",
+          "photoNeeded": "frisch eingedeckte Dachfläche"
+        },
+        {
+          "title": "Ortgang",
+          "photoNeeded": "Ortgangblech an Giebel"
+        },
+        {
+          "title": "Reparatur",
+          "photoNeeded": "Dach vor und nach Sturmschaden-Reparatur"
+        }
+      ]
+    },
+    "region": {
+      "headline": "Spenglerei und Bedachung rund um Röhrmoos",
+      "text": "Von Zieglberg aus in Röhrmoos, Großinzemoos, Schwabhausen, Vierkirchen, Hebertshausen und Dachau.",
+      "places": [
+        "Röhrmoos",
+        "Zieglberg",
+        "Großinzemoos",
+        "Schwabhausen",
+        "Vierkirchen",
+        "Hebertshausen",
+        "Dachau"
+      ]
+    },
+    "faq": [
+      {
+        "q": "Machen Sie auch kleine Reparaturen?",
+        "a": "Fragen Sie einfach an – nach einer kurzen Schilderung wird geklärt, wann jemand vorbeikommen kann."
+      },
+      {
+        "q": "Kann ich vorab Fotos schicken?",
+        "a": "Ja, Fotos von Dach oder Rinne helfen für eine erste Einschätzung."
+      },
+      {
+        "q": "Übernehmen Sie Spenglerei und Dach zusammen?",
+        "a": "Ja, der Betrieb ist für Spenglerei und Bedachung eingetragen."
+      },
+      {
+        "q": "Wie komme ich zu einem Angebot?",
+        "a": "Nach der Besichtigung vor Ort erhalten Sie ein Angebot für Ihr Dach."
+      },
+      {
+        "q": "Wo sind Sie unterwegs?",
+        "a": "In Röhrmoos und Umgebung, etwa Schwabhausen, Vierkirchen, Hebertshausen und Dachau."
+      }
+    ],
+    "contact": {
+      "headline": "Ihre Anfrage zu Dach und Blech",
+      "text": "Schreiben Sie kurz, worum es geht: Dachrinne, Dachfläche, Anschluss oder Schaden. Fotos helfen.",
+      "topics": [
+        "Dachrinne",
+        "Bedachung",
+        "Blechanschluss",
+        "Reparatur",
+        "Sonstiges"
+      ],
+      "responseNote": "Besichtigung nach Absprache."
+    },
+    "quote": {
+      "sizeLabel": "Was steht an?",
+      "sizes": [
+        "Dachrinne",
+        "Kamin/Anschluss",
+        "Teilfläche Dach",
+        "Ganzes Dach"
+      ],
+      "timings": [
+        "So bald wie möglich",
+        "In den nächsten Wochen",
+        "In 1–3 Monaten",
+        "Ich plane erst noch"
+      ]
+    },
+    "stickyCta": "Jetzt anfragen",
+    "look": {
+      "palette": 2,
+      "font": 6,
+      "hero": 0,
+      "services": 1,
+      "radius": 1,
+      "logo": 0,
+      "intro": 5
+    }
+  }
+}

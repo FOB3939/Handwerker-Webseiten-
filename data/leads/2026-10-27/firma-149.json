@@ -1,0 +1,403 @@
+{
+  "id": "2026-10-27-149",
+  "slug": "zimmerei-multerer-adelshofen",
+  "date": "2026-10-27",
+  "company": {
+    "name": "Zimmerei Multerer",
+    "owner": "Quirin Karl Ferdinand Multerer",
+    "trade": "Zimmerei",
+    "city": "Adelshofen",
+    "address": "Am Ziegelstadel 8, 82276 Adelshofen",
+    "phone": "0178 4955364",
+    "email": "quirin.multi@gmail.com",
+    "serviceArea": [
+      "Adelshofen",
+      "Nassenhausen",
+      "Mammendorf",
+      "Jesenwang",
+      "Moorenweis",
+      "Fürstenfeldbruck"
+    ]
+  },
+  "listings": {
+    "google": {
+      "url": "https://www.google.com/maps/search/?api=1&query=Zimmerei%20Multerer%20Am%20Ziegelstadel%208%20Adelshofen",
+      "rating": null,
+      "reviews": null,
+      "evidence": "NICHT BELEGT – kein Google-Spiegel (trustlocal, firmania, rgv-bayern) mit Bewertungen gefunden. Annahme stützt sich auf die öffentlich gelistete Freemail-Adresse quirin.multi@gmail.com im Firmenverzeichnis der Verwaltungsgemeinschaft Mammendorf. In Google Maps prüfen, ob ein Eintrag existiert."
+    },
+    "myhammer": {
+      "url": "https://www.11880.com/suche/zimmerei/moorenweis",
+      "rating": null,
+      "reviews": null,
+      "evidence": "Kein MyHammer gefunden – Einträge im VG-Mammendorf-Firmenverzeichnis, bei 11880 (Am Ziegelstadel 8, 0178 4955364, ohne Bewertung) und bei Gelbe Seiten als „Quirin Multerer Zimmerei“ (Holzbau, ohne Bewertung)."
+    }
+  },
+  "websiteStatus": "keine eigene Website gefunden",
+  "websiteChecks": [
+    "(1) „Zimmerei Multerer Adelshofen“ mit blocked_domains (11880, Gelbe Seiten, Das Örtliche, Telefonbuch, Cylex, meinestadt, Creditreform, Facebook, Instagram, golocal, MyHammer, Northdata, Firmenwissen, WKDB, Yelp, trustlocal, wlw) – nur VG-Mammendorf-Firmenverzeichnis; Treffer multerer-gmbh.de gehört zur Multerer GmbH in Neukirchen b. Hl. Blut (anderer Betrieb, Niederbayern), Josef Multerer Zimmerei sitzt in Walderbach (Oberpfalz) – beide nicht verwandt laut Quellen",
+    "(2) Domain-Check allowed_domains zimmerei-multerer.de, multerer-zimmerei.de, zimmereimulterer.de, multerer-holzbau.de, holzbau-multerer.de, quirin-multerer.de, multerer.de, zimmerei-multerer-adelshofen.de – nur multerer.de = Rechts-/Steuerkanzlei Sozietät Multerer Starnberg (fremd), sonst keine Treffer",
+    "(3) Telefonsuche „4955364“ + Multerer mit blocked_domains – nur VG-Mammendorf-Verzeichnis, keine Website",
+    "(4) Impressum-Suche „Impressum Quirin Multerer Zimmerei Adelshofen“ – kein eigenes Impressum, nur Verzeichnis (mit Gmail-Adresse) und fremde Multerer-Firmen",
+    "(5) Spiegel-Suche (trustlocal, firmania, rgv-bayern, 11880, Gelbe Seiten) – kein Bewertungsprofil, kein Website-Feld",
+    "Website-Risiko: mittel – alle Prüfungen negativ, Freemail öffentlich belegt, Google-Eintrag aber nicht belegt"
+  ],
+  "facts": {
+    "services": [
+      "Carports",
+      "Dachstühle",
+      "Sanierungen",
+      "Neubauten",
+      "Dacheindeckungen",
+      "Fassaden",
+      "Balkone",
+      "Terrassen"
+    ],
+    "experience": null,
+    "praisedFor": []
+  },
+  "strategy": {
+    "audience": "Hauseigentümer und Bauherren in Adelshofen, Mammendorf, Moorenweis und im westlichen Landkreis Fürstenfeldbruck, die einen Dachstuhl, ein Carport, einen Balkon oder eine Holzfassade planen",
+    "mainService": "Zimmererarbeiten – Dachstuhl, Dacheindeckung und Holzbau rund ums Haus",
+    "trustSignal": "Inhabergeführte Zimmerei direkt in Adelshofen, per Handy erreichbar",
+    "conversionGoal": "Anfrage für Dachstuhl, Carport oder Balkon per Anruf oder WhatsApp mit Fotos",
+    "visualConcept": "Warmes Holz, sichtbare Sparren und klare Zimmermannsverbindungen vor ländlicher Kulisse – handwerklich und bodenständig"
+  },
+  "sales": {
+    "score": 6,
+    "whyGoodLead": [
+      "Keine eigene Website gefunden – nur Gemeinde- und Branchenverzeichnisse",
+      "Mobilnummer und Gmail öffentlich gelistet – direkter Erstkontakt per WhatsApp möglich",
+      "Breites Holzbau-Angebot (Dachstuhl bis Terrasse), das online bisher nirgends gezeigt wird",
+      "Zimmerer sind im ländlichen Westen des Landkreises gefragt, Konkurrenz zeigt Referenzen online"
+    ],
+    "pitch": "Hallo Herr Multerer, hier ist … – ich baue Websites für Handwerker im Landkreis Fürstenfeldbruck. Ihre Zimmerei in Adelshofen habe ich im Firmenverzeichnis der VG Mammendorf gefunden, aber keine eigene Website. Ich habe unverbindlich einen Entwurf vorbereitet, der Dachstühle, Carports und Balkone zeigt und Anfragen direkt per WhatsApp bringt – darf ich Ihnen den Link schicken?"
+  },
+  "manualChecks": [
+    "Website-Risiko: mittel – vor Versand in Google Maps prüfen, dass keine Website hinterlegt ist (Grund: Google-Eintrag nicht belegt, Annahme über öffentliche Gmail-Adresse im VG-Mammendorf-Verzeichnis)",
+    "Google-Eintrag in Maps suchen (Existenz, Bewertungen) – falls vorhanden, Bewertungen nachtragen",
+    "Namensgleiche Multerer-Firmen (Multerer GmbH Neukirchen b. Hl. Blut, Josef Multerer Walderbach) sind laut Quellen nicht verwandt – im Gespräch kurz bestätigen",
+    "Meistertitel nicht belegt – im Text nicht verwenden, beim Erstkontakt erfragen",
+    "Leistungen laut VG-Verzeichnis (Carports, Dachstühle, Sanierungen, Neubauten, Dacheindeckungen, Fassaden, Balkone, Terrassen) – Schwerpunkte beim Betrieb bestätigen",
+    "Logo und Projektfotos: nicht gefunden – beim Betrieb anfragen"
+  ],
+  "sources": [
+    {
+      "label": "Firmenverzeichnis Verwaltungsgemeinschaft Mammendorf – Zimmerei Multerer",
+      "url": "https://vgmammendorf.de/index.php?gid=41266&id=0%2C1202"
+    },
+    {
+      "label": "11880 – Zimmerer Moorenweis/Umgebung (Eintrag Zimmerei Multerer)",
+      "url": "https://www.11880.com/suche/zimmerei/moorenweis"
+    },
+    {
+      "label": "11880 – Zimmerer Hattenhofen/Umgebung",
+      "url": "https://www.11880.com/suche/zimmerei/hattenhofen-kreis-fuerstenfeldbruck"
+    }
+  ],
+  "site": {
+    "theme": "werk",
+    "category": "handwerk",
+    "heroOffer": [
+      "Dachstühle",
+      "Carports",
+      "Balkone",
+      "Holzfassaden",
+      "Terrassen"
+    ],
+    "scene": "facade",
+    "logoIcon": "roof",
+    "logoMark": "ZM",
+    "brandName": "Zimmerei Multerer",
+    "seoTitle": "Zimmerei in Adelshofen – Zimmerei Multerer",
+    "seoDescription": "Dachstühle, Carports, Balkone und Holzfassaden aus Adelshofen für den Landkreis Fürstenfeldbruck. Jetzt Anfrage per Anruf oder WhatsApp.",
+    "nav": [
+      {
+        "label": "Leistungen",
+        "href": "#leistungen"
+      },
+      {
+        "label": "Projekte",
+        "href": "#projekte"
+      },
+      {
+        "label": "Bewertungen",
+        "href": "#bewertungen"
+      },
+      {
+        "label": "Ablauf",
+        "href": "#ablauf"
+      },
+      {
+        "label": "FAQ",
+        "href": "#faq"
+      },
+      {
+        "label": "Kontakt",
+        "href": "#kontakt"
+      }
+    ],
+    "hero": {
+      "eyebrow": "Zimmerei · Adelshofen",
+      "headline": "Zimmerei in Adelshofen",
+      "sub": "Dachstuhl, Carport oder Balkon – geplant und gebaut im westlichen Landkreis.",
+      "ctaPrimary": "Projekt anfragen",
+      "ctaSecondary": "Anrufen",
+      "bullets": [
+        "Holzbau aus Adelshofen",
+        "Vom Dachstuhl bis zur Terrasse",
+        "Direkt per Handy erreichbar"
+      ],
+      "imageLabel": "frisch aufgerichteter Dachstuhl aus hellem Holz"
+    },
+    "badges": [
+      {
+        "title": "Dachstuhl",
+        "sub": "Neubau & Sanierung"
+      },
+      {
+        "title": "Carport",
+        "sub": "aus Holz"
+      },
+      {
+        "title": "Balkon",
+        "sub": "& Terrasse"
+      },
+      {
+        "title": "Adelshofen",
+        "sub": "Am Ziegelstadel"
+      }
+    ],
+    "trust": [
+      {
+        "value": "Vor Ort",
+        "label": "Zimmerei in Adelshofen"
+      },
+      {
+        "value": "8",
+        "label": "Leistungen rund ums Holz"
+      },
+      {
+        "value": "Dach",
+        "label": "Stuhl und Eindeckung"
+      },
+      {
+        "value": "Mobil",
+        "label": "direkt erreichbar"
+      }
+    ],
+    "servicesIntro": {
+      "headline": "Holzbau vom Dach bis zur Terrasse",
+      "text": "Ob neuer Dachstuhl, Sanierung am Bestand oder ein Carport für zwei Autos: Die Zimmerei Multerer plant und baut mit Holz rund ums Haus."
+    },
+    "services": [
+      {
+        "title": "Dachstühle",
+        "text": "Neue Dachstühle für Neubauten und Ersatz für alte Konstruktionen – passend zu Dachform und Eindeckung.",
+        "items": [
+          "Neubau",
+          "Austausch",
+          "Gauben nach Absprache"
+        ]
+      },
+      {
+        "title": "Dacheindeckung",
+        "text": "Das Dach wird nach dem Abbund auch eingedeckt – ein Ansprechpartner für Tragwerk und Haut.",
+        "items": [
+          "Eindeckung",
+          "Lattung",
+          "Neues Dach"
+        ]
+      },
+      {
+        "title": "Carports",
+        "text": "Holz-Carports, die zum Haus passen und Auto, Fahrräder oder Brennholz trocken halten.",
+        "items": [
+          "Einzel-Carport",
+          "Doppel-Carport",
+          "Geräteraum"
+        ]
+      },
+      {
+        "title": "Balkone & Terrassen",
+        "text": "Balkone und Terrassen aus Holz – neu gebaut oder als Ersatz für morsche Altkonstruktionen.",
+        "items": [
+          "Balkonbau",
+          "Terrassendeck",
+          "Geländer"
+        ]
+      },
+      {
+        "title": "Holzfassaden",
+        "text": "Fassaden aus Holz schützen das Haus und geben ihm ein neues Gesicht.",
+        "items": [
+          "Verschalung",
+          "Fassadenerneuerung",
+          "Anbauten"
+        ]
+      },
+      {
+        "title": "Sanierung & Neubau",
+        "text": "Vom Umbau im Bestand bis zum neuen Holzbauteil – Arbeiten am Bauernhaus wie am Einfamilienhaus.",
+        "items": [
+          "Altbausanierung",
+          "Neubauten",
+          "Anbauten"
+        ]
+      }
+    ],
+    "why": {
+      "headline": "Holzbau aus Adelshofen – mit kurzen Wegen.",
+      "points": [
+        {
+          "title": "Aus dem Ort",
+          "text": "Die Zimmerei sitzt in Adelshofen und ist schnell in Mammendorf, Jesenwang und Moorenweis."
+        },
+        {
+          "title": "Direkter Draht",
+          "text": "Sie sprechen mit dem Inhaber – per Anruf oder WhatsApp."
+        },
+        {
+          "title": "Alles rund ums Holz",
+          "text": "Dachstuhl, Eindeckung, Carport und Balkon aus einer Hand statt mehrerer Gewerke."
+        },
+        {
+          "title": "Bestand & Neubau",
+          "text": "Ob alter Hof oder neues Haus – Sanierung und Neubau gehören beide zum Alltag."
+        }
+      ]
+    },
+    "reviews": {
+      "headline": "Was Kunden sagen",
+      "summary": "Kundenstimmen werden hier eingebunden, sobald sie aus einem Bewertungsprofil übernommen sind.",
+      "highlights": [
+        "Zimmerei in Adelshofen",
+        "Dachstühle und Carports",
+        "Direkter Kontakt zum Inhaber"
+      ],
+      "source": "Google",
+      "sourceUrl": "https://www.google.com/maps/search/?api=1&query=Zimmerei%20Multerer%20Am%20Ziegelstadel%208%20Adelshofen",
+      "rating": null,
+      "count": null
+    },
+    "process": {
+      "headline": "So entsteht Ihr Holzbau",
+      "steps": [
+        {
+          "title": "Anfrage",
+          "text": "Kurz anrufen oder Fotos und Maße per WhatsApp schicken."
+        },
+        {
+          "title": "Termin vor Ort",
+          "text": "Bestand, Maße und Wünsche werden direkt am Haus besprochen."
+        },
+        {
+          "title": "Angebot",
+          "text": "Sie erhalten ein nachvollziehbares Angebot für Holz und Arbeit."
+        },
+        {
+          "title": "Abbund & Montage",
+          "text": "Das Holz wird vorbereitet und vor Ort aufgerichtet und montiert."
+        }
+      ]
+    },
+    "gallery": {
+      "headline": "Holz, das trägt",
+      "text": "Für die Live-Version zeigen wir hier echte Projekte der Zimmerei.",
+      "items": [
+        {
+          "title": "Neuer Dachstuhl",
+          "photoNeeded": "aufgerichteter Dachstuhl vor der Eindeckung"
+        },
+        {
+          "title": "Holz-Carport",
+          "photoNeeded": "fertiges Carport neben einem Einfamilienhaus"
+        },
+        {
+          "title": "Balkon",
+          "photoNeeded": "neuer Holzbalkon mit Geländer"
+        },
+        {
+          "title": "Holzfassade",
+          "photoNeeded": "frisch verschalte Fassade an Haus oder Anbau"
+        },
+        {
+          "title": "Terrasse",
+          "photoNeeded": "Holzterrasse am Garten"
+        }
+      ]
+    },
+    "region": {
+      "headline": "Zimmerei für Adelshofen und den westlichen Landkreis",
+      "text": "Von Adelshofen aus schnell in Nassenhausen, Mammendorf, Jesenwang, Moorenweis und Fürstenfeldbruck.",
+      "places": [
+        "Adelshofen",
+        "Nassenhausen",
+        "Mammendorf",
+        "Jesenwang",
+        "Moorenweis",
+        "Fürstenfeldbruck"
+      ]
+    },
+    "faq": [
+      {
+        "q": "Bauen Sie auch Carports nach eigenen Maßen?",
+        "a": "Ja, Carports werden passend zu Grundstück und Haus geplant. Maße und Wünsche klären wir beim Termin vor Ort."
+      },
+      {
+        "q": "Können Sie einen alten Dachstuhl sanieren?",
+        "a": "Sanierungen gehören zum Angebot. Ob ausbessern oder erneuern, entscheidet sich nach der Besichtigung."
+      },
+      {
+        "q": "Übernehmen Sie auch die Dacheindeckung?",
+        "a": "Ja, Dacheindeckungen sind Teil der Leistungen – Tragwerk und Eindeckung kommen so aus einer Hand."
+      },
+      {
+        "q": "Kann ich vorab Fotos schicken?",
+        "a": "Gern – Fotos und grobe Maße per WhatsApp helfen bei einer ersten Einschätzung."
+      },
+      {
+        "q": "In welchen Orten arbeiten Sie?",
+        "a": "Vor allem in Adelshofen und den Nachbarorten im Landkreis Fürstenfeldbruck. Fragen Sie für weitere Orte einfach an."
+      }
+    ],
+    "contact": {
+      "headline": "Erzählen Sie uns von Ihrem Holzbau",
+      "text": "Was ist geplant – Dachstuhl, Carport, Balkon oder Fassade? Ort, grobe Maße und ein paar Fotos genügen für den Anfang.",
+      "topics": [
+        "Dachstuhl",
+        "Dacheindeckung",
+        "Carport",
+        "Balkon & Terrasse",
+        "Holzfassade",
+        "Sonstiges"
+      ],
+      "responseNote": "Termin vor Ort nach Absprache."
+    },
+    "quote": {
+      "sizeLabel": "Was soll gebaut werden?",
+      "sizes": [
+        "Carport oder Terrasse",
+        "Balkon",
+        "Dachstuhl / Dach",
+        "Fassade oder Anbau"
+      ],
+      "timings": [
+        "So bald wie möglich",
+        "In den nächsten Wochen",
+        "In 1–3 Monaten",
+        "Ich plane erst noch"
+      ]
+    },
+    "stickyCta": "Projekt anfragen",
+    "look": {
+      "palette": 2,
+      "font": 6,
+      "hero": 0,
+      "services": 1,
+      "radius": 1,
+      "logo": 0,
+      "intro": 5
+    }
+  }
+}

@@ -1,0 +1,413 @@
+{
+  "id": "2026-10-27-151",
+  "slug": "hof-spenglerei-eder-roehrmoos",
+  "date": "2026-10-27",
+  "company": {
+    "name": "HOF Spenglerei Inh. Georg Eder",
+    "owner": "Georg Eder",
+    "trade": "Spenglerei",
+    "city": "Röhrmoos",
+    "address": "Hauptstraße 26, 85244 Röhrmoos (Sigmertshausen)",
+    "phone": "08139 6657",
+    "email": "spenglerei.hof-eder@web.de",
+    "serviceArea": [
+      "Röhrmoos",
+      "Sigmertshausen",
+      "Schönbrunn",
+      "Hebertshausen",
+      "Vierkirchen",
+      "Haimhausen",
+      "Dachau"
+    ]
+  },
+  "listings": {
+    "google": {
+      "url": "https://www.google.com/maps/search/?api=1&query=HOF%20Spenglerei%20Georg%20Eder%20Hauptstra%C3%9Fe%2026%20R%C3%B6hrmoos",
+      "rating": null,
+      "reviews": null,
+      "evidence": "NICHT DIREKT BELEGT – kein Google-Spiegel (trustlocal/rgv-bayern) gefunden. Annahme-Grundlage ist die öffentlich gelistete Freemail-Adresse spenglerei.hof-eder@web.de (Verzeichnis-Snippets 11880/firmenABC). In Maps prüfen, ob ein Eintrag existiert und ob dort eine Website hinterlegt ist."
+    },
+    "myhammer": {
+      "url": "https://www.11880.com/branchenbuch/roehrmoos-kreis-dachau/290114921B26341975/hof-inh-georg-eder-spenglerei.html",
+      "rating": null,
+      "reviews": null,
+      "evidence": "Kein MyHammer gefunden – Eintrag „HOF Spenglerei Inh. Georg Eder“ bei 11880 (Hauptstraße 26, 85244 Röhrmoos, (08139) 6657, Mo–Fr 08:00–18:00, aktualisiert 29.03.2025), außerdem firmenABC, Das Örtliche (Spengler Sigmertshausen) und stadtbranchenbuch."
+    }
+  },
+  "websiteStatus": "keine eigene Website gefunden",
+  "websiteChecks": [
+    "(1) „Georg Eder Spenglerei Sigmertshausen Röhrmoos“ (Verzeichnisse außer 11880 geblockt) – nur 11880, firmenABC, inteka.de und die Bürgerinformationsbroschüre der Gemeinde Röhrmoos; keine eigene Domain. Treffer spenglerei-eder.at gehört zu einer Tiroler Firma.",
+    "(2) Domain-Check allowed_domains spenglerei-hof.de, spenglerei-eder.de, hof-eder.de, spenglerei-hof-eder.de, eder-spenglerei.de, hof-spenglerei.de, spenglerei-roehrmoos.de, georg-eder.de – einziger Treffer spenglerei-eder.de = Spenglerei Eder in GAUTING (Jonas Eder, Siedlerstraße 14) – anderer Betrieb, kein Bezug zu Röhrmoos.",
+    "(3) Telefonsuche „08139 6657“/„081396657“ mit blocked_domains (11880, Gelbe Seiten, Das Örtliche, Telefonbuch, Cylex, meinestadt, Creditreform, Facebook, Instagram, golocal, MyHammer, Northdata, Firmenwissen, WKDB, Yelp, trustlocal, wlw) – nur stadtbranchenbuch-Eintrag „Hof Klempner, Hauptstr. 26“ (Fax 08139 7762), keine Website.",
+    "(4) Impressum-Suche nicht separat durchgeführt (Suchbudget) – in den obigen Treffern kein eigenes Impressum.",
+    "(5) E-Mail spenglerei.hof-eder@web.de = Freemail, keine Firmendomain.",
+    "Website-Risiko: niedrig – alle Prüfungen negativ, Freemail belegt; Google-Eintrag selbst nicht belegt"
+  ],
+  "facts": {
+    "services": [
+      "Spenglerarbeiten",
+      "Kaminverkleidungen",
+      "Blechdächer"
+    ],
+    "experience": null,
+    "praisedFor": []
+  },
+  "strategy": {
+    "audience": "Hauseigentümer und Landwirte in Röhrmoos, Sigmertshausen und dem nördlichen Landkreis Dachau mit Blechdach, Kamin, Dachrinne oder Anschlüssen, die repariert oder erneuert werden müssen",
+    "mainService": "Kaminverkleidungen und Blechdächer",
+    "trustSignal": "Meisterbetrieb in Sigmertshausen (laut Bürgerbroschüre der Gemeinde Röhrmoos), Inhaber Georg Eder direkt erreichbar",
+    "conversionGoal": "Anfrage mit Fotos von Dach oder Kamin per E-Mail oder Anruf",
+    "visualConcept": "Handwerkliche Blecharbeit: gefalzte Stehfalzbahnen, glänzende Kaminverkleidung, Kupfer- und Zinkdetails vor ländlichem Dachauer Himmel"
+  },
+  "sales": {
+    "score": 6,
+    "whyGoodLead": [
+      "Keine eigene Website gefunden – nur Verzeichniseinträge und die Gemeindebroschüre",
+      "Freemail-Adresse (web.de) öffentlich gelistet",
+      "Meisterbetrieb mit klarer Spezialisierung (Kaminverkleidungen, Blechdächer) – gut darstellbar",
+      "Spenglerei ist im Dachauer Land gefragt, Online-Sichtbarkeit bisher gering"
+    ],
+    "pitch": "Grüß Gott Herr Eder, hier ist … – ich baue Websites für Handwerksbetriebe im Landkreis Dachau. Ihre Spenglerei in Sigmertshausen habe ich in der Gemeindebroschüre gefunden, aber keine eigene Website. Ich habe unverbindlich einen Entwurf vorbereitet, auf dem Kunden Ihre Kaminverkleidungen und Blechdächer sehen und direkt anfragen können – darf ich Ihnen den Link schicken?"
+  },
+  "manualChecks": [
+    "Website-Risiko: niedrig – vor Versand in Google Maps prüfen, dass keine Website hinterlegt ist (Grund: Freemail belegt und alle Suchen negativ, Google-Eintrag aber nicht direkt belegt)",
+    "Nicht verwechseln mit Spenglerei Eder in Gauting (spenglerei-eder.de, Jonas Eder) – anderer Betrieb",
+    "Name „HOF Spenglerei“: Bedeutung von „HOF“ (früherer Inhaber/Familienname?) beim Erstkontakt klären; Verzeichnisse führen auch „Hof Klempner“",
+    "Zweite Adresse Hofwirthstraße 9 bei inteka.de – klären, ob veraltet",
+    "Keine Mobilnummer gefunden – Festnetz 08139 6657, Fax 08139 7762; Kontakt per E-Mail ansprechen",
+    "Leistungen nur grob belegt (Kaminverkleidungen, Blechdächer, Spenglerei) – Dachrinnen, Gauben, Reparaturen beim Betrieb bestätigen",
+    "Logo und Projektfotos: nicht gefunden – beim Betrieb anfragen"
+  ],
+  "sources": [
+    {
+      "label": "11880 – HOF Spenglerei Inh. Georg Eder, Röhrmoos",
+      "url": "https://www.11880.com/branchenbuch/roehrmoos-kreis-dachau/290114921B26341975/hof-inh-georg-eder-spenglerei.html"
+    },
+    {
+      "label": "firmenABC – HOF Spenglerei Inh. Georg Eder",
+      "url": "https://www.firmenabc.com/u/hof-spenglerei-inh-georg-eder_dsudgx"
+    },
+    {
+      "label": "Gemeinde Röhrmoos – Bürgerinformationsbroschüre (Meisterbetrieb, Kaminverkleidungen – Blechdächer)",
+      "url": "https://www.roehrmoos.de/wp-content/uploads/Rathaus/2023_Buergerinformationsbroschuere.pdf"
+    },
+    {
+      "label": "Das Örtliche – Spengler in Sigmertshausen",
+      "url": "https://www.dasoertliche.de/Themen/Spengler/Sigmertshausen-Gem-R%C3%B6hrmoos.html"
+    },
+    {
+      "label": "stadtbranchenbuch – Hof Klempner, Hauptstr. 26",
+      "url": "https://roehrmoos.stadtbranchenbuch.com/1561969.html"
+    },
+    {
+      "label": "inteka.de – Klempnereien Röhrmoos",
+      "url": "https://inteka.de/Firmenverzeichnis/index.cfm?Eintrag=21399"
+    }
+  ],
+  "site": {
+    "theme": "werk",
+    "category": "handwerk",
+    "heroOffer": [
+      "Kaminverkleidung",
+      "Blechdächer",
+      "Dachrinnen",
+      "Anschlüsse",
+      "Reparaturen"
+    ],
+    "scene": "facade",
+    "logoIcon": "roof",
+    "logoMark": "HE",
+    "brandName": "HOF Spenglerei Eder",
+    "seoTitle": "Spenglerei in Röhrmoos-Sigmertshausen – HOF Spenglerei Georg Eder",
+    "seoDescription": "Meisterbetrieb für Kaminverkleidungen, Blechdächer und Spenglerarbeiten in Röhrmoos und dem Landkreis Dachau. Jetzt Anfrage mit Fotos senden.",
+    "nav": [
+      {
+        "label": "Leistungen",
+        "href": "#leistungen"
+      },
+      {
+        "label": "Projekte",
+        "href": "#projekte"
+      },
+      {
+        "label": "Bewertungen",
+        "href": "#bewertungen"
+      },
+      {
+        "label": "Ablauf",
+        "href": "#ablauf"
+      },
+      {
+        "label": "FAQ",
+        "href": "#faq"
+      },
+      {
+        "label": "Kontakt",
+        "href": "#kontakt"
+      }
+    ],
+    "hero": {
+      "eyebrow": "Spenglerei · Röhrmoos-Sigmertshausen",
+      "headline": "Spenglerei in Röhrmoos",
+      "sub": "Kaminverkleidungen und Blechdächer vom Meisterbetrieb in Sigmertshausen.",
+      "ctaPrimary": "Anfrage senden",
+      "ctaSecondary": "Anrufen",
+      "bullets": [
+        "Meisterbetrieb in Sigmertshausen",
+        "Kamin und Blechdach",
+        "Inhaber Georg Eder direkt erreichbar"
+      ],
+      "imageLabel": "Kaminverkleidung aus Blech auf einem Ziegeldach"
+    },
+    "badges": [
+      {
+        "title": "Meisterbetrieb",
+        "sub": "Spenglerhandwerk"
+      },
+      {
+        "title": "Kamin",
+        "sub": "Verkleidung in Blech"
+      },
+      {
+        "title": "Blechdach",
+        "sub": "neu oder saniert"
+      },
+      {
+        "title": "Sigmertshausen",
+        "sub": "Hauptstraße 26"
+      }
+    ],
+    "trust": [
+      {
+        "value": "Meister",
+        "label": "Inhabergeführter Betrieb"
+      },
+      {
+        "value": "Blech",
+        "label": "Dach, Kamin, Rinne"
+      },
+      {
+        "value": "Mo–Fr",
+        "label": "08–18 Uhr erreichbar"
+      },
+      {
+        "value": "Vor Ort",
+        "label": "Landkreis Dachau"
+      }
+    ],
+    "servicesIntro": {
+      "headline": "Blech, das Dach und Kamin schützt",
+      "text": "Wo Wasser und Wetter angreifen, sitzt saubere Spenglerarbeit: am Kamin, auf dem Dach und an jedem Anschluss."
+    },
+    "services": [
+      {
+        "title": "Kaminverkleidung",
+        "text": "Der Kaminkopf bekommt eine passgenaue Blechverkleidung, die Feuchtigkeit vom Mauerwerk fernhält.",
+        "items": [
+          "Kaminkopf",
+          "Verkleidung",
+          "Abdeckung"
+        ]
+      },
+      {
+        "title": "Blechdächer",
+        "text": "Dächer und Dachflächen aus Blech für Wohnhaus, Garage oder Nebengebäude – neu gedeckt oder erneuert.",
+        "items": [
+          "Neudeckung",
+          "Sanierung",
+          "Nebengebäude"
+        ]
+      },
+      {
+        "title": "Dachrinnen & Fallrohre",
+        "text": "Rinnen und Fallrohre leiten Regenwasser zuverlässig ab und schonen Fassade und Sockel.",
+        "items": [
+          "Dachrinnen",
+          "Fallrohre",
+          "Rinnenhalter"
+        ]
+      },
+      {
+        "title": "Anschlüsse & Abdichtung",
+        "text": "Übergänge an Wand, Gaube und Dachfenster werden mit Blech dicht angeschlossen.",
+        "items": [
+          "Wandanschluss",
+          "Gaube",
+          "Dachfenster"
+        ]
+      },
+      {
+        "title": "Verblechungen",
+        "text": "Mauerabdeckungen, Ortgänge und Fensterbänke aus Blech schützen exponierte Kanten.",
+        "items": [
+          "Mauerabdeckung",
+          "Ortgang",
+          "Fensterbank"
+        ]
+      },
+      {
+        "title": "Reparaturen",
+        "text": "Undichte Stelle, lose Rinne oder Sturmschaden: Der Schaden wird angesehen und fachgerecht behoben.",
+        "items": [
+          "Undichtigkeit",
+          "Sturmschaden",
+          "Austausch"
+        ]
+      }
+    ],
+    "why": {
+      "headline": "Spenglerhandwerk aus Sigmertshausen.",
+      "points": [
+        {
+          "title": "Meisterbetrieb",
+          "text": "Die Gemeinde Röhrmoos führt den Betrieb als Meisterbetrieb unter Inhaber Georg Eder."
+        },
+        {
+          "title": "Klarer Schwerpunkt",
+          "text": "Kaminverkleidungen und Blechdächer sind das Kerngeschäft – genau dafür rufen Kunden an."
+        },
+        {
+          "title": "Kurze Wege",
+          "text": "Von Sigmertshausen schnell in Röhrmoos, Hebertshausen, Vierkirchen und Dachau."
+        },
+        {
+          "title": "Ein Ansprechpartner",
+          "text": "Anfrage, Besichtigung und Ausführung laufen direkt über den Inhaber."
+        }
+      ]
+    },
+    "reviews": {
+      "headline": "Was Kunden sagen",
+      "summary": "Kundenstimmen werden hier eingebunden, sobald sie aus dem Google-Profil übernommen sind.",
+      "highlights": [
+        "Spenglerei in Sigmertshausen",
+        "Kamin und Blechdach",
+        "Meisterbetrieb"
+      ],
+      "source": "Google",
+      "sourceUrl": "https://www.google.com/maps/search/?api=1&query=HOF%20Spenglerei%20Georg%20Eder%20Hauptstra%C3%9Fe%2026%20R%C3%B6hrmoos",
+      "rating": null,
+      "count": null
+    },
+    "process": {
+      "headline": "So läuft Ihr Auftrag",
+      "steps": [
+        {
+          "title": "Anfrage",
+          "text": "Fotos von Dach, Kamin oder Rinne per E-Mail schicken oder kurz anrufen."
+        },
+        {
+          "title": "Besichtigung",
+          "text": "Georg Eder sieht sich Dach und Anschlüsse vor Ort an."
+        },
+        {
+          "title": "Angebot",
+          "text": "Sie erhalten ein Angebot mit Material und Umfang."
+        },
+        {
+          "title": "Ausführung",
+          "text": "Das Blech wird zugeschnitten, gekantet und dicht montiert."
+        }
+      ]
+    },
+    "gallery": {
+      "headline": "Arbeiten aus der Werkstatt",
+      "text": "Für die Live-Version zeigen wir hier echte Projekte des Betriebs.",
+      "items": [
+        {
+          "title": "Kaminkopf",
+          "photoNeeded": "fertige Kaminverkleidung aus Blech auf einem Ziegeldach"
+        },
+        {
+          "title": "Blechdach",
+          "photoNeeded": "neu gedecktes Stehfalzdach an Haus oder Nebengebäude"
+        },
+        {
+          "title": "Dachrinne",
+          "photoNeeded": "neue Dachrinne mit Fallrohr an einem Einfamilienhaus"
+        },
+        {
+          "title": "Gaubenanschluss",
+          "photoNeeded": "verblechte Gaube mit sauberem Anschluss"
+        },
+        {
+          "title": "Werkstatt",
+          "photoNeeded": "Kantbank oder Blechzuschnitt in der Werkstatt"
+        }
+      ]
+    },
+    "region": {
+      "headline": "Spenglerei für Röhrmoos und das Dachauer Land",
+      "text": "Von Sigmertshausen aus schnell in Röhrmoos, Schönbrunn, Hebertshausen, Vierkirchen, Haimhausen und Dachau.",
+      "places": [
+        "Röhrmoos",
+        "Sigmertshausen",
+        "Schönbrunn",
+        "Hebertshausen",
+        "Vierkirchen",
+        "Haimhausen",
+        "Dachau"
+      ]
+    },
+    "faq": [
+      {
+        "q": "Lohnt sich eine Kaminverkleidung aus Blech?",
+        "a": "Sie schützt das Mauerwerk am Kaminkopf vor Regen und Frost. Ob sie sinnvoll ist, klärt die Besichtigung."
+      },
+      {
+        "q": "Kann ich vorab Fotos schicken?",
+        "a": "Ja, Fotos von Dach, Kamin oder Schadstelle per E-Mail helfen für eine erste Einschätzung."
+      },
+      {
+        "q": "Übernehmen Sie auch kleine Reparaturen?",
+        "a": "Fragen Sie einfach an – Umfang und Termin werden direkt abgestimmt."
+      },
+      {
+        "q": "Wann ist der Betrieb erreichbar?",
+        "a": "Laut Verzeichnis Montag bis Freitag von 8 bis 18 Uhr unter 08139 6657."
+      },
+      {
+        "q": "In welchen Orten arbeiten Sie?",
+        "a": "In Röhrmoos und Umgebung, etwa Hebertshausen, Vierkirchen, Haimhausen und Dachau."
+      }
+    ],
+    "contact": {
+      "headline": "Ihre Anfrage an die Spenglerei",
+      "text": "Beschreiben Sie kurz, worum es geht: Kamin, Blechdach, Dachrinne oder Anschluss. Fotos helfen bei der Einschätzung.",
+      "topics": [
+        "Kaminverkleidung",
+        "Blechdach",
+        "Dachrinne",
+        "Anschluss/Abdichtung",
+        "Reparatur",
+        "Sonstiges"
+      ],
+      "responseNote": "Besichtigung nach Absprache."
+    },
+    "quote": {
+      "sizeLabel": "Worum geht es?",
+      "sizes": [
+        "Kamin",
+        "Dachrinne",
+        "Teilfläche Dach",
+        "Ganzes Blechdach"
+      ],
+      "timings": [
+        "So bald wie möglich",
+        "In den nächsten Wochen",
+        "In 1–3 Monaten",
+        "Ich plane erst noch"
+      ]
+    },
+    "stickyCta": "Anfrage senden",
+    "look": {
+      "palette": 2,
+      "font": 6,
+      "hero": 0,
+      "services": 1,
+      "radius": 1,
+      "logo": 0,
+      "intro": 5
+    }
+  }
+}
