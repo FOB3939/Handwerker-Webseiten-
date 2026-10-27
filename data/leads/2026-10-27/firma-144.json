@@ -386,12 +386,17 @@
     "stickyCta": "Termin anfragen",
     "look": {
       "palette": 2,
-      "font": 6,
-      "hero": 0,
+      "font": 9,
+      "hero": 1,
       "services": 1,
-      "radius": 1,
-      "logo": 0,
-      "intro": 5
+      "radius": 2,
+      "logo": 3,
+      "intro": 2,
+      "projects": 0,
+      "process": 1,
+      "faq": 0,
+      "reviews": 1,
+      "order": 1
     }
   }
 }

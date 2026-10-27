@@ -1,0 +1,413 @@
+{
+  "id": "2026-10-27-147",
+  "slug": "schreinerei-alscher-mammendorf",
+  "date": "2026-10-27",
+  "company": {
+    "name": "Schreinerei Udo Alscher",
+    "owner": "Udo Alscher",
+    "trade": "Schreinerei & Sachverständigenbüro",
+    "city": "Mammendorf",
+    "address": "Martin-Bauer-Weg 29, 82291 Mammendorf",
+    "phone": "0177 8947950",
+    "email": "alscher-u@t-online.de",
+    "serviceArea": [
+      "Mammendorf",
+      "Adelshofen",
+      "Nannhofen",
+      "Althegnenberg",
+      "Fürstenfeldbruck",
+      "München"
+    ]
+  },
+  "listings": {
+    "google": {
+      "url": "https://www.google.com/maps/search/?api=1&query=Udo%20Alscher%20Schreinerei%20Martin-Bauer-Weg%2029%20Mammendorf",
+      "rating": null,
+      "reviews": null,
+      "evidence": "NICHT BELEGT – kein Google-Spiegel mit Bewertungen gefunden. Annahme stützt sich auf die öffentlich gelistete Freemail-Adresse alscher-u@t-online.de (bau-sach-verstand.de, gutachter-info.de). In Google Maps prüfen, ob ein Eintrag existiert."
+    },
+    "myhammer": {
+      "url": "http://www.khs-ffb.de/index.php/schreinerinnung/mitgliedsfirmen/4-alscher-udo",
+      "rating": null,
+      "reviews": null,
+      "evidence": "Kein MyHammer gefunden – Mitglied der Schreinerinnung Fürstenfeldbruck (Martin-Bauer-Weg 29, Mammendorf, Tel. 08145/94464, Fax 08145/94465); Sachverständigen-Eintrag bei der Handwerkskammer München und Oberbayern (Mobil 0177 8947950)."
+    }
+  },
+  "websiteStatus": "keine eigene Website gefunden",
+  "websiteChecks": [
+    "(1) „Udo Alscher Schreiner Mammendorf“ mit blocked_domains (11880, Gelbe Seiten, Das Örtliche, Telefonbuch, Cylex, meinestadt, Creditreform, Facebook, Instagram, golocal, MyHammer, Northdata, Firmenwissen, WKDB, Yelp, trustlocal, wlw) – nur Verzeichnisse und Portalprofile (gutachter-info.de, bau-sach-verstand.de, khs-ffb.de Innung, HWK-Sachverständigenliste, stadtbranchenbuch, anrufer.info, tueren-und-fenster.com); keine eigene Domain",
+    "(2) Domain-Check allowed_domains schreinerei-alscher.de, alscher-schreinerei.de, alscher.de, udo-alscher.de, schreiner-alscher.de, alscher-mammendorf.de, sv-alscher.de, gutachter-alscher.de – keine Treffer",
+    "(3) Telefon-/E-Mail-Suche „0177 8947950“/„01778947950“/„alscher-u@t-online.de“ mit blocked_domains – nur HWK, Bau-Sach-Verstand, gutachter-info, Sachverständigenlisten (PDF), Rufnummern-Infoseiten; keine Website",
+    "(4) Impressum-Suche „Impressum Udo Alscher Schreinermeister Mammendorf Sachverständiger“ – kein eigenes Impressum",
+    "(5) Innungs-/Kammer-Check (khs-ffb.de, gutachter-info.de, hwk-muenchen.de) – kein Homepage-Feld in den Snippets",
+    "Website-Risiko: mittel – alle Prüfungen negativ, Freemail öffentlich belegt; gutachter-info.de-Profil („Home“) ist ein Portalprofil, keine eigene Domain; Google-Eintrag nicht belegt"
+  ],
+  "facts": {
+    "services": [
+      "Innenausbau",
+      "Fensterbau",
+      "Türen",
+      "Gerichts-, Privat- und Schiedsgutachten",
+      "Schimmelpilzerkennung, -bewertung und -sanierung (Gutachten)"
+    ],
+    "experience": "Schreinermeister; von der Handwerkskammer für München und Oberbayern öffentlich bestellter und vereidigter Sachverständiger (Teilgebiet Innenausbau und Fensterbau)",
+    "praisedFor": []
+  },
+  "strategy": {
+    "audience": "Hauseigentümer, Käufer, Vermieter und Anwälte im Landkreis Fürstenfeldbruck und in München, die Fenster, Türen oder Innenausbau ausführen oder fachlich bewerten lassen wollen – etwa bei Mängeln oder Schimmel",
+    "mainService": "Schreinerarbeiten im Innenausbau und Gutachten zu Fenstern, Innenausbau und Schimmel",
+    "trustSignal": "Schreinermeister und öffentlich bestellter, vereidigter Sachverständiger der Handwerkskammer für München und Oberbayern",
+    "conversionGoal": "Anfrage für Gutachten oder Schreinerarbeit per Anruf, WhatsApp oder E-Mail",
+    "visualConcept": "Ruhig und sachlich: Holzoberflächen, Fensterprofile und Messwerkzeug – Handwerk mit dem Blick des Prüfers"
+  },
+  "sales": {
+    "score": 5,
+    "whyGoodLead": [
+      "Keine eigene Website gefunden – nur Innungs-, Kammer- und Portalprofile",
+      "Mobilnummer und T-Online-Adresse öffentlich gelistet",
+      "Öffentliche Bestellung als Sachverständiger ist ein starkes Vertrauenssignal, das online bisher nicht gebündelt dargestellt wird",
+      "Gutachten-Kunden (Mängel, Schimmel) suchen gezielt online – eine eigene Seite bringt direkte Anfragen"
+    ],
+    "pitch": "Guten Tag Herr Alscher, hier ist … – ich baue Websites für Handwerker im Landkreis Fürstenfeldbruck. Ich habe Ihre Einträge bei der Schreinerinnung und der Handwerkskammer gefunden, aber keine eigene Website. Ich habe unverbindlich einen Entwurf vorbereitet, der Ihre Schreinerarbeiten und Ihre Gutachten zu Fenstern, Innenausbau und Schimmel an einem Ort zeigt – darf ich Ihnen den Link schicken?"
+  },
+  "manualChecks": [
+    "Website-Risiko: mittel – vor Versand in Google Maps prüfen, dass keine Website hinterlegt ist (Grund: Google-Eintrag nicht belegt, Annahme über öffentliche T-Online-Adresse; Portalprofil auf gutachter-info.de vorhanden)",
+    "Schwerpunkt klären: Betrieb tritt teils als „Sachverständigenbüro Alscher“ auf – vor dem Pitch prüfen, ob die Schreinerei noch aktiv ausführt oder nur Gutachten erstellt; Texte ggf. auf Sachverständigenbüro umstellen",
+    "Adresse abweichend: Innung/Verzeichnisse Martin-Bauer-Weg 29, Mammendorf; HWK-Sachverständigenliste Haspelstraße 3a, 82276 Adelshofen – aktuelle Anschrift erfragen",
+    "Öffentliche Bestellung ist befristet – vor Veröffentlichung bei der HWK München und Oberbayern bestätigen",
+    "Ältere E-Mail Udo.Alscher@tele2.de in einer PDF-Liste von 2015 – nicht verwenden; Festnetz 08145 94464 (eine Quelle nennt 08145 995958)",
+    "Leistungen der Schreinerei (Innenausbau, Fenster, Türen) aus Innungs-/Sachverständigen-Teilgebiet abgeleitet – beim Betrieb bestätigen; Logo und Fotos anfragen"
+  ],
+  "sources": [
+    {
+      "label": "Schreinerinnung Fürstenfeldbruck – Mitgliedsfirma Alscher Udo",
+      "url": "http://www.khs-ffb.de/index.php/schreinerinnung/mitgliedsfirmen/4-alscher-udo"
+    },
+    {
+      "label": "Handwerkskammer für München und Oberbayern – Sachverständiger Udo Alscher",
+      "url": "https://www.hwk-muenchen.de/74,0,svdetail.html?sv=386&svorg=74"
+    },
+    {
+      "label": "Bau-Sach-Verstand Verein – Udo Alscher (Mobil, E-Mail)",
+      "url": "https://www.bau-sach-verstand.de/dipl-ing-udo-alscher/"
+    },
+    {
+      "label": "gutachter-info.de – Gutachter Udo Alscher (Portalprofil)",
+      "url": "https://www.gutachter-info.de/gutachter/udo-alscher"
+    },
+    {
+      "label": "anrufer.info – 08145/94464 Udo Alscher Schreinerei",
+      "url": "https://anrufer.info/rufnummer/0814594464"
+    }
+  ],
+  "site": {
+    "theme": "atelier",
+    "category": "handwerk",
+    "heroOffer": [
+      "Innenausbau",
+      "Fenster",
+      "Türen",
+      "Gutachten",
+      "Schimmel"
+    ],
+    "scene": "parquet",
+    "logoIcon": "cabinet",
+    "logoMark": "UA",
+    "brandName": "Schreinerei Alscher",
+    "seoTitle": "Schreinerei & Gutachten in Mammendorf – Udo Alscher",
+    "seoDescription": "Schreinermeister und öffentlich bestellter Sachverständiger in Mammendorf: Innenausbau, Fenster, Türen und Gutachten zu Mängeln und Schimmel.",
+    "nav": [
+      {
+        "label": "Leistungen",
+        "href": "#leistungen"
+      },
+      {
+        "label": "Projekte",
+        "href": "#projekte"
+      },
+      {
+        "label": "Bewertungen",
+        "href": "#bewertungen"
+      },
+      {
+        "label": "Ablauf",
+        "href": "#ablauf"
+      },
+      {
+        "label": "FAQ",
+        "href": "#faq"
+      },
+      {
+        "label": "Kontakt",
+        "href": "#kontakt"
+      }
+    ],
+    "hero": {
+      "eyebrow": "Schreinerei · Sachverständiger · Mammendorf",
+      "headline": "Schreinermeister und Gutachter in Mammendorf",
+      "sub": "Fenster, Türen und Innenausbau – ausgeführt oder fachlich bewertet.",
+      "ctaPrimary": "Anfrage stellen",
+      "ctaSecondary": "Anrufen",
+      "bullets": [
+        "Schreinermeister",
+        "Öffentlich bestellter Sachverständiger",
+        "Schimmel-Bewertung"
+      ],
+      "imageLabel": "Holzfenster im Detail mit Prüfwerkzeug"
+    },
+    "badges": [
+      {
+        "title": "Schreinermeister",
+        "sub": "Innung Fürstenfeldbruck"
+      },
+      {
+        "title": "Sachverständiger",
+        "sub": "öffentlich bestellt"
+      },
+      {
+        "title": "Fenster & Türen",
+        "sub": "Innenausbau"
+      },
+      {
+        "title": "Schimmel",
+        "sub": "erkennen & bewerten"
+      }
+    ],
+    "trust": [
+      {
+        "value": "Meister",
+        "label": "im Schreinerhandwerk"
+      },
+      {
+        "value": "HWK",
+        "label": "öffentlich bestellt & vereidigt"
+      },
+      {
+        "value": "3",
+        "label": "Gutachtenarten"
+      },
+      {
+        "value": "Mobil",
+        "label": "direkt erreichbar"
+      }
+    ],
+    "servicesIntro": {
+      "headline": "Ausführen und beurteilen",
+      "text": "Udo Alscher arbeitet als Schreiner im Innenausbau und bewertet als Sachverständiger Fenster, Innenausbau und Schimmelschäden – für Private, Gerichte und Schiedsverfahren."
+    },
+    "services": [
+      {
+        "title": "Innenausbau",
+        "text": "Schreinerarbeiten im Innenraum, abgestimmt auf Raum und Nutzung.",
+        "items": [
+          "Einbauten",
+          "Verkleidungen",
+          "Ausbau"
+        ]
+      },
+      {
+        "title": "Fenster",
+        "text": "Fenster aus Schreinerhand – und eine fachliche Einschätzung, wenn etwas klemmt oder zieht.",
+        "items": [
+          "Fensterbau",
+          "Einstellen",
+          "Begutachtung"
+        ]
+      },
+      {
+        "title": "Türen",
+        "text": "Innentüren und Türelemente, passend zum Bestand.",
+        "items": [
+          "Innentüren",
+          "Anpassung",
+          "Austausch"
+        ]
+      },
+      {
+        "title": "Privatgutachten",
+        "text": "Unabhängige Bewertung von Mängeln an Fenstern und Innenausbau – etwa vor der Abnahme oder beim Hauskauf.",
+        "items": [
+          "Mängelbewertung",
+          "Abnahme",
+          "Hauskauf"
+        ]
+      },
+      {
+        "title": "Gerichts- & Schiedsgutachten",
+        "text": "Als öffentlich bestellter und vereidigter Sachverständiger erstellt Udo Alscher Gutachten für Gerichte und Schiedsverfahren.",
+        "items": [
+          "Gerichtsgutachten",
+          "Schiedsgutachten",
+          "Stellungnahmen"
+        ]
+      },
+      {
+        "title": "Schimmel-Bewertung",
+        "text": "Schimmel erkennen, bewerten und die Sanierung fachlich einordnen.",
+        "items": [
+          "Erkennung",
+          "Bewertung",
+          "Sanierung"
+        ]
+      }
+    ],
+    "why": {
+      "headline": "Wer Holz kennt, erkennt auch Mängel.",
+      "points": [
+        {
+          "title": "Meister im Handwerk",
+          "text": "Als Schreinermeister kennt Udo Alscher Fenster und Innenausbau aus der eigenen Praxis."
+        },
+        {
+          "title": "Öffentlich bestellt",
+          "text": "Die Handwerkskammer für München und Oberbayern hat ihn als Sachverständigen bestellt und vereidigt."
+        },
+        {
+          "title": "Schimmel im Blick",
+          "text": "Ein Schwerpunkt liegt auf Erkennung, Bewertung und Sanierung von Schimmelpilz."
+        },
+        {
+          "title": "Kurzer Draht",
+          "text": "Erreichbar direkt per Handy oder E-Mail – ohne Vermittlungsportal."
+        }
+      ]
+    },
+    "reviews": {
+      "headline": "Was Kunden sagen",
+      "summary": "Kundenstimmen werden hier eingebunden, sobald sie aus einem Bewertungsprofil übernommen sind.",
+      "highlights": [
+        "Schreinermeister in Mammendorf",
+        "Öffentlich bestellter Sachverständiger",
+        "Fenster, Türen, Innenausbau"
+      ],
+      "source": "Google",
+      "sourceUrl": "https://www.google.com/maps/search/?api=1&query=Udo%20Alscher%20Schreinerei%20Martin-Bauer-Weg%2029%20Mammendorf",
+      "rating": null,
+      "count": null
+    },
+    "process": {
+      "headline": "Von der Frage zur Antwort",
+      "steps": [
+        {
+          "title": "Kontakt",
+          "text": "Anliegen kurz schildern – telefonisch oder per E-Mail mit Fotos."
+        },
+        {
+          "title": "Ortstermin",
+          "text": "Fenster, Türen oder Räume werden vor Ort angesehen."
+        },
+        {
+          "title": "Angebot oder Gutachten",
+          "text": "Sie erhalten ein Angebot für die Arbeit oder eine schriftliche Bewertung."
+        },
+        {
+          "title": "Umsetzung",
+          "text": "Arbeiten werden ausgeführt oder das Gutachten wird übergeben und erläutert."
+        }
+      ]
+    },
+    "gallery": {
+      "headline": "Aus Werkstatt und Ortstermin",
+      "text": "Für die Live-Version zeigen wir hier echte Arbeiten und anonymisierte Beispiele aus Gutachten.",
+      "items": [
+        {
+          "title": "Innenausbau",
+          "photoNeeded": "fertiger Einbau aus Holz in einem Wohnraum"
+        },
+        {
+          "title": "Holzfenster",
+          "photoNeeded": "Holzfenster im Detail"
+        },
+        {
+          "title": "Innentür",
+          "photoNeeded": "neu eingepasste Innentür"
+        },
+        {
+          "title": "Ortstermin",
+          "photoNeeded": "Messung an einem Fensterrahmen"
+        },
+        {
+          "title": "Schimmel-Check",
+          "photoNeeded": "Feuchtemessung an einer Wand"
+        }
+      ]
+    },
+    "region": {
+      "headline": "Für Mammendorf, den Landkreis und München",
+      "text": "Von Mammendorf aus in Adelshofen, Nannhofen, Althegnenberg, Fürstenfeldbruck und bis nach München.",
+      "places": [
+        "Mammendorf",
+        "Adelshofen",
+        "Nannhofen",
+        "Althegnenberg",
+        "Fürstenfeldbruck",
+        "München"
+      ]
+    },
+    "faq": [
+      {
+        "q": "Was bedeutet „öffentlich bestellt und vereidigt“?",
+        "a": "Die Handwerkskammer hat die Sachkunde geprüft und den Sachverständigen bestellt. Solche Gutachten werden auch von Gerichten herangezogen."
+      },
+      {
+        "q": "Für welche Bereiche erstellen Sie Gutachten?",
+        "a": "Für Innenausbau und Fensterbau, mit Schwerpunkt auf Schimmelpilz-Erkennung, -Bewertung und -Sanierung."
+      },
+      {
+        "q": "Brauche ich ein Gerichtsgutachten oder ein Privatgutachten?",
+        "a": "Das hängt von Ihrer Situation ab. Schildern Sie kurz den Fall – dann lässt sich die passende Art einordnen."
+      },
+      {
+        "q": "Übernehmen Sie auch Schreinerarbeiten?",
+        "a": "Ja, als Schreinermeister mit Schwerpunkt Innenausbau, Fenster und Türen. Den Umfang klären wir im Gespräch."
+      },
+      {
+        "q": "Kann ich vorab Fotos schicken?",
+        "a": "Gern – Fotos per E-Mail oder WhatsApp helfen bei einer ersten Einschätzung."
+      }
+    ],
+    "contact": {
+      "headline": "Schildern Sie Ihr Anliegen",
+      "text": "Geht es um eine Schreinerarbeit oder um ein Gutachten? Beschreiben Sie kurz den Fall und den Ort – Fotos helfen.",
+      "topics": [
+        "Innenausbau",
+        "Fenster",
+        "Türen",
+        "Privatgutachten",
+        "Gerichts-/Schiedsgutachten",
+        "Schimmel"
+      ],
+      "responseNote": "Ortstermin nach Absprache."
+    },
+    "quote": {
+      "sizeLabel": "Worum geht es?",
+      "sizes": [
+        "Schreinerarbeit",
+        "Fenster oder Tür prüfen",
+        "Schimmel bewerten",
+        "Gutachten für Gericht/Schiedsverfahren"
+      ],
+      "timings": [
+        "So bald wie möglich",
+        "In den nächsten Wochen",
+        "In 1–3 Monaten",
+        "Ich plane erst noch"
+      ]
+    },
+    "stickyCta": "Anfrage stellen",
+    "look": {
+      "palette": 2,
+      "font": 10,
+      "hero": 2,
+      "services": 4,
+      "radius": 1,
+      "logo": 0,
+      "intro": 5,
+      "projects": 1,
+      "process": 1,
+      "faq": 0,
+      "reviews": 0,
+      "order": 2
+    }
+  }
+}

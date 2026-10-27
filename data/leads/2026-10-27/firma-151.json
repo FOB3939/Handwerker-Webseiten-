@@ -1,125 +1,128 @@
 {
   "id": "2026-10-27-151",
-  "slug": "hof-spenglerei-eder-roehrmoos",
+  "slug": "dachdeckerei-markus-jaeger-alling",
   "date": "2026-10-27",
   "company": {
-    "name": "HOF Spenglerei Inh. Georg Eder",
-    "owner": "Georg Eder",
-    "trade": "Spenglerei",
-    "city": "Röhrmoos",
-    "address": "Hauptstraße 26, 85244 Röhrmoos (Sigmertshausen)",
-    "phone": "08139 6657",
-    "email": "spenglerei.hof-eder@web.de",
+    "name": "Dachdeckerei Markus Jäger",
+    "owner": "Markus Jäger",
+    "trade": "Dachdecker",
+    "city": "Alling",
+    "address": "Pfarrgasse 1, 82239 Alling",
+    "phone": "08141 80000",
+    "email": "jaeger-daecher@t-online.de",
     "serviceArea": [
-      "Röhrmoos",
-      "Sigmertshausen",
-      "Schönbrunn",
-      "Hebertshausen",
-      "Vierkirchen",
-      "Haimhausen",
-      "Dachau"
+      "Alling",
+      "Biburg",
+      "Eichenau",
+      "Germering",
+      "Puchheim",
+      "Fürstenfeldbruck",
+      "Gilching"
     ]
   },
   "listings": {
     "google": {
-      "url": "https://www.google.com/maps/search/?api=1&query=HOF%20Spenglerei%20Georg%20Eder%20Hauptstra%C3%9Fe%2026%20R%C3%B6hrmoos",
-      "rating": null,
+      "url": "https://www.google.com/maps/search/?api=1&query=Dachdeckerei%20Markus%20J%C3%A4ger%20Pfarrgasse%201%20Alling",
+      "rating": 4.8,
       "reviews": null,
-      "evidence": "NICHT DIREKT BELEGT – kein Google-Spiegel (trustlocal/rgv-bayern) gefunden. Annahme-Grundlage ist die öffentlich gelistete Freemail-Adresse spenglerei.hof-eder@web.de (Verzeichnis-Snippets 11880/firmenABC). In Maps prüfen, ob ein Eintrag existiert und ob dort eine Website hinterlegt ist."
+      "evidence": "INDIREKT (Spiegel) – trustlocal.de führt „Dachdeckerei Markus Jäger“ (Alling, Kategorie Dachdecker) und nennt eine Google-Bewertung von 4,8; Anzahl im Snippet widersprüchlich (7 bzw. 12 Bewertungen). Kein Website-Feld im Snippet. Kein direkter google.com/maps-Treffer – in Maps prüfen."
     },
     "myhammer": {
-      "url": "https://www.11880.com/branchenbuch/roehrmoos-kreis-dachau/290114921B26341975/hof-inh-georg-eder-spenglerei.html",
+      "url": "https://www.11880.com/branchenbuch/alling-oberbayern/132381074B27579206/markus-jaeger-dachdeckermeister.html",
       "rating": null,
       "reviews": null,
-      "evidence": "Kein MyHammer gefunden – Eintrag „HOF Spenglerei Inh. Georg Eder“ bei 11880 (Hauptstraße 26, 85244 Röhrmoos, (08139) 6657, Mo–Fr 08:00–18:00, aktualisiert 29.03.2025), außerdem firmenABC, Das Örtliche (Spengler Sigmertshausen) und stadtbranchenbuch."
+      "evidence": "Kein MyHammer gefunden – Einträge bei 11880 (1 Bewertung, 5/5), Das Örtliche (1 Bewertung, 5,0), Dachdeckerinnung München-Oberbayern, orte.muenchen.de, dachdecker.com, goyellow; überall Pfarrgasse 1, Tel. 08141 80000, Fax 08141 80066."
     }
   },
   "websiteStatus": "keine eigene Website gefunden",
   "websiteChecks": [
-    "(1) „Georg Eder Spenglerei Sigmertshausen Röhrmoos“ (Verzeichnisse außer 11880 geblockt) – nur 11880, firmenABC, inteka.de und die Bürgerinformationsbroschüre der Gemeinde Röhrmoos; keine eigene Domain. Treffer spenglerei-eder.at gehört zu einer Tiroler Firma.",
-    "(2) Domain-Check allowed_domains spenglerei-hof.de, spenglerei-eder.de, hof-eder.de, spenglerei-hof-eder.de, eder-spenglerei.de, hof-spenglerei.de, spenglerei-roehrmoos.de, georg-eder.de – einziger Treffer spenglerei-eder.de = Spenglerei Eder in GAUTING (Jonas Eder, Siedlerstraße 14) – anderer Betrieb, kein Bezug zu Röhrmoos.",
-    "(3) Telefonsuche „08139 6657“/„081396657“ mit blocked_domains (11880, Gelbe Seiten, Das Örtliche, Telefonbuch, Cylex, meinestadt, Creditreform, Facebook, Instagram, golocal, MyHammer, Northdata, Firmenwissen, WKDB, Yelp, trustlocal, wlw) – nur stadtbranchenbuch-Eintrag „Hof Klempner, Hauptstr. 26“ (Fax 08139 7762), keine Website.",
-    "(4) Impressum-Suche nicht separat durchgeführt (Suchbudget) – in den obigen Treffern kein eigenes Impressum.",
-    "(5) E-Mail spenglerei.hof-eder@web.de = Freemail, keine Firmendomain.",
-    "Website-Risiko: niedrig – alle Prüfungen negativ, Freemail belegt; Google-Eintrag selbst nicht belegt"
+    "(1) „Dachdeckerei Markus Jäger Alling“ mit blocked_domains (11880, Gelbe Seiten, Das Örtliche, Telefonbuch, Cylex, meinestadt, Creditreform, Facebook, Instagram, golocal, MyHammer, Northdata, Firmenwissen, WKDB, Yelp, trustlocal, wlw) – nur Verzeichnisse (orte.muenchen.de, Dachdeckerinnung OBB, dachdecker.com, ratgeber-solar, goyellow, branchen-info); keine eigene Domain",
+    "(2) Domain-Check allowed_domains jaeger-daecher.de, jaeger-dach.de, dachdecker-jaeger.de, jaeger-bedachungen.de, dachdeckerei-jaeger.de, jaeger-alling.de, markus-jaeger.de, jaegerdach.de – jaeger-daecher.de (Domain der E-Mail-Adresse) ohne Treffer; jaeger-dach.de (Thomas Jäger, Pirna) und jaeger-bedachungen.de (Leon Jäger, Bergisches Land) sind fremde Betriebe",
+    "(3) Telefonsuche „08141 80000“ mit blocked_domains – nur Verzeichnisse und Innungsseite, keine Website",
+    "(4) Impressum-Suche „Impressum Markus Jäger Dachdeckermeister Pfarrgasse Alling“ – kein eigenes Impressum gefunden",
+    "(5) E-Mail: jaeger-daecher@t-online.de (Freemail, öffentlich auf der Seite der Dachdeckerinnung München-Oberbayern); ein Verzeichnis nennt abweichend dachdeckerinnung@t-online.de",
+    "(6) Weiterer Eintrag „Jäger Josef u. Eva“, Hartstr. 6a, Alling (Dachdecker, branchen-info) – vermutlich Familienbezug; dafür keine Website aufgefallen",
+    "Website-Risiko: niedrig – alle Prüfungen negativ, Freemail öffentlich belegt, Google-Eintrag über trustlocal gespiegelt"
   ],
   "facts": {
     "services": [
+      "Dachreparatur",
+      "Flachdachsanierung",
       "Spenglerarbeiten",
-      "Kaminverkleidungen",
-      "Blechdächer"
+      "Dachbeschichtung",
+      "Dachbegrünung",
+      "Solaranlagen"
     ],
     "experience": null,
     "praisedFor": []
   },
   "strategy": {
-    "audience": "Hauseigentümer und Landwirte in Röhrmoos, Sigmertshausen und dem nördlichen Landkreis Dachau mit Blechdach, Kamin, Dachrinne oder Anschlüssen, die repariert oder erneuert werden müssen",
-    "mainService": "Kaminverkleidungen und Blechdächer",
-    "trustSignal": "Meisterbetrieb in Sigmertshausen (laut Bürgerbroschüre der Gemeinde Röhrmoos), Inhaber Georg Eder direkt erreichbar",
-    "conversionGoal": "Anfrage mit Fotos von Dach oder Kamin per E-Mail oder Anruf",
-    "visualConcept": "Handwerkliche Blecharbeit: gefalzte Stehfalzbahnen, glänzende Kaminverkleidung, Kupfer- und Zinkdetails vor ländlichem Dachauer Himmel"
+    "audience": "Hausbesitzer in Alling, Eichenau, Germering und Fürstenfeldbruck mit undichtem Dach, sanierungsbedürftigem Flachdach oder Plänen für Solar und Gründach",
+    "mainService": "Dachreparatur und Flachdachsanierung",
+    "trustSignal": "Dachdeckermeister mit Sitz in Alling, Mitglied der Dachdeckerinnung München-Oberbayern",
+    "conversionGoal": "Dachcheck oder Reparatur-Anfrage per Anruf oder Formular (gern mit Fotos vom Schaden)",
+    "visualConcept": "Ziegeldach und Blechkanten im Abendlicht: rote Biberschwänze, Zinkrinne, klare Linien – handfest und ruhig"
   },
   "sales": {
     "score": 6,
     "whyGoodLead": [
-      "Keine eigene Website gefunden – nur Verzeichniseinträge und die Gemeindebroschüre",
-      "Freemail-Adresse (web.de) öffentlich gelistet",
-      "Meisterbetrieb mit klarer Spezialisierung (Kaminverkleidungen, Blechdächer) – gut darstellbar",
-      "Spenglerei ist im Dachauer Land gefragt, Online-Sichtbarkeit bisher gering"
+      "Keine eigene Website gefunden – nur Verzeichnis- und Innungseinträge",
+      "Meisterbetrieb mit Innungsmitgliedschaft – seriöse Basis für eine Website",
+      "Google-Eintrag mit guter Bewertung (4,8 laut trustlocal), aber kaum Sichtbarkeit außerhalb von Verzeichnissen",
+      "Dachdecker sind im Landkreis Fürstenfeldbruck gefragt – Website mit Anfrageformular bringt direkte Aufträge"
     ],
-    "pitch": "Grüß Gott Herr Eder, hier ist … – ich baue Websites für Handwerksbetriebe im Landkreis Dachau. Ihre Spenglerei in Sigmertshausen habe ich in der Gemeindebroschüre gefunden, aber keine eigene Website. Ich habe unverbindlich einen Entwurf vorbereitet, auf dem Kunden Ihre Kaminverkleidungen und Blechdächer sehen und direkt anfragen können – darf ich Ihnen den Link schicken?"
+    "pitch": "Grüß Gott Herr Jäger, ich baue Websites für Handwerker im Landkreis Fürstenfeldbruck. Ihre Dachdeckerei in Alling habe ich bei Google und der Innung gefunden, aber keine eigene Website. Ich habe unverbindlich einen Entwurf vorbereitet, auf dem Kunden Ihre Dach- und Spenglerarbeiten sehen und direkt eine Reparatur anfragen können – darf ich Ihnen den Link per E-Mail schicken?"
   },
   "manualChecks": [
-    "Website-Risiko: niedrig – vor Versand in Google Maps prüfen, dass keine Website hinterlegt ist (Grund: Freemail belegt und alle Suchen negativ, Google-Eintrag aber nicht direkt belegt)",
-    "Nicht verwechseln mit Spenglerei Eder in Gauting (spenglerei-eder.de, Jonas Eder) – anderer Betrieb",
-    "Name „HOF Spenglerei“: Bedeutung von „HOF“ (früherer Inhaber/Familienname?) beim Erstkontakt klären; Verzeichnisse führen auch „Hof Klempner“",
-    "Zweite Adresse Hofwirthstraße 9 bei inteka.de – klären, ob veraltet",
-    "Keine Mobilnummer gefunden – Festnetz 08139 6657, Fax 08139 7762; Kontakt per E-Mail ansprechen",
-    "Leistungen nur grob belegt (Kaminverkleidungen, Blechdächer, Spenglerei) – Dachrinnen, Gauben, Reparaturen beim Betrieb bestätigen",
+    "Website-Risiko: niedrig – vor Versand in Google Maps prüfen, dass keine Website hinterlegt ist (Grund: Google-Eintrag nur über trustlocal gespiegelt, Bewertungsanzahl widersprüchlich 7 vs. 12)",
+    "Keine Mobilnummer gefunden – Erstkontakt per E-Mail (jaeger-daecher@t-online.de) oder Festnetz 08141 80000",
+    "Verhältnis zum Eintrag „Jäger Josef u. Eva“ (Hartstr. 6a, Alling, Dachdecker) klären – evtl. Vorgänger-/Familienbetrieb",
+    "Leistungen stammen aus Verzeichniskategorien (Dachreparatur, Flachdach, Spengler, Dachbeschichtung, Dachbegrünung, Solar) – beim Betrieb bestätigen",
+    "Öffnungszeiten widersprüchlich (Mo–Fr 8–17 bzw. 8–18 Uhr) – nicht auf der Seite verwenden, bis bestätigt",
     "Logo und Projektfotos: nicht gefunden – beim Betrieb anfragen"
   ],
   "sources": [
     {
-      "label": "11880 – HOF Spenglerei Inh. Georg Eder, Röhrmoos",
-      "url": "https://www.11880.com/branchenbuch/roehrmoos-kreis-dachau/290114921B26341975/hof-inh-georg-eder-spenglerei.html"
+      "label": "Dachdeckerinnung München-Oberbayern – Markus Jäger (Adresse, Tel., E-Mail)",
+      "url": "https://dachdeckerinnung-obb.de/de-de/markus-jaeger-6055289/"
     },
     {
-      "label": "firmenABC – HOF Spenglerei Inh. Georg Eder",
-      "url": "https://www.firmenabc.com/u/hof-spenglerei-inh-georg-eder_dsudgx"
+      "label": "trustlocal – Dachdeckerei Markus Jäger, Alling (Google-Bewertung)",
+      "url": "https://trustlocal.de/bayern/alling/dachdecker/dachdeckerei-markus-jager/"
     },
     {
-      "label": "Gemeinde Röhrmoos – Bürgerinformationsbroschüre (Meisterbetrieb, Kaminverkleidungen – Blechdächer)",
-      "url": "https://www.roehrmoos.de/wp-content/uploads/Rathaus/2023_Buergerinformationsbroschuere.pdf"
+      "label": "11880 – Dachdeckerei Markus Jäger Alling",
+      "url": "https://www.11880.com/branchenbuch/alling-oberbayern/132381074B27579206/markus-jaeger-dachdeckermeister.html"
     },
     {
-      "label": "Das Örtliche – Spengler in Sigmertshausen",
-      "url": "https://www.dasoertliche.de/Themen/Spengler/Sigmertshausen-Gem-R%C3%B6hrmoos.html"
+      "label": "Das Örtliche – Jäger Markus Dachdeckermeister, Alling",
+      "url": "https://www.dasoertliche.de/Themen/J%C3%A4ger-Markus-Dachdeckermeister-Alling-Pfarrgasse"
     },
     {
-      "label": "stadtbranchenbuch – Hof Klempner, Hauptstr. 26",
-      "url": "https://roehrmoos.stadtbranchenbuch.com/1561969.html"
+      "label": "orte.muenchen.de – Markus Jäger Alling Dachdecker",
+      "url": "https://orte.muenchen.de/164834.html"
     },
     {
-      "label": "inteka.de – Klempnereien Röhrmoos",
-      "url": "https://inteka.de/Firmenverzeichnis/index.cfm?Eintrag=21399"
+      "label": "dachdecker.com – Markus Jäger Dachdeckermeister (Leistungen)",
+      "url": "https://www.dachdecker.com/alling/markus-jaeger-dachdeckermeister-aULcwM"
     }
   ],
   "site": {
     "theme": "werk",
     "category": "handwerk",
     "heroOffer": [
-      "Kaminverkleidung",
-      "Blechdächer",
-      "Dachrinnen",
-      "Anschlüsse",
-      "Reparaturen"
+      "Dachreparatur",
+      "Flachdach",
+      "Spenglerarbeiten",
+      "Gründach",
+      "Solar"
     ],
     "scene": "facade",
     "logoIcon": "roof",
-    "logoMark": "HE",
-    "brandName": "HOF Spenglerei Eder",
-    "seoTitle": "Spenglerei in Röhrmoos-Sigmertshausen – HOF Spenglerei Georg Eder",
-    "seoDescription": "Meisterbetrieb für Kaminverkleidungen, Blechdächer und Spenglerarbeiten in Röhrmoos und dem Landkreis Dachau. Jetzt Anfrage mit Fotos senden.",
+    "logoMark": "MJ",
+    "brandName": "Dachdeckerei Jäger",
+    "seoTitle": "Dachdecker in Alling – Dachdeckerei Markus Jäger",
+    "seoDescription": "Dachreparatur, Flachdachsanierung und Spenglerarbeiten in Alling, Eichenau und Germering. Dachdeckermeister Markus Jäger – jetzt anfragen.",
     "nav": [
       {
         "label": "Leistungen",
@@ -147,132 +150,132 @@
       }
     ],
     "hero": {
-      "eyebrow": "Spenglerei · Röhrmoos-Sigmertshausen",
-      "headline": "Spenglerei in Röhrmoos",
-      "sub": "Kaminverkleidungen und Blechdächer vom Meisterbetrieb in Sigmertshausen.",
-      "ctaPrimary": "Anfrage senden",
+      "eyebrow": "Dachdeckermeister · Alling",
+      "headline": "Dachdecker aus Alling",
+      "sub": "Reparaturen, Flachdächer und Spenglerarbeiten vom Meisterbetrieb in der Pfarrgasse.",
+      "ctaPrimary": "Dach-Anfrage stellen",
       "ctaSecondary": "Anrufen",
       "bullets": [
-        "Meisterbetrieb in Sigmertshausen",
-        "Kamin und Blechdach",
-        "Inhaber Georg Eder direkt erreichbar"
+        "Meisterbetrieb in Alling",
+        "Mitglied der Dachdeckerinnung",
+        "Steil- und Flachdach"
       ],
-      "imageLabel": "Kaminverkleidung aus Blech auf einem Ziegeldach"
+      "imageLabel": "Ziegeldach mit neuer Zinkrinne"
     },
     "badges": [
       {
         "title": "Meisterbetrieb",
-        "sub": "Spenglerhandwerk"
+        "sub": "Dachdeckermeister"
       },
       {
-        "title": "Kamin",
-        "sub": "Verkleidung in Blech"
+        "title": "Innung",
+        "sub": "München-Oberbayern"
       },
       {
-        "title": "Blechdach",
-        "sub": "neu oder saniert"
+        "title": "Flachdach",
+        "sub": "Sanierung & Abdichtung"
       },
       {
-        "title": "Sigmertshausen",
-        "sub": "Hauptstraße 26"
+        "title": "Alling",
+        "sub": "Pfarrgasse 1"
       }
     ],
     "trust": [
       {
         "value": "Meister",
-        "label": "Inhabergeführter Betrieb"
+        "label": "Dachdeckermeister Markus Jäger"
       },
       {
-        "value": "Blech",
-        "label": "Dach, Kamin, Rinne"
+        "value": "Innung",
+        "label": "Dachdecker München-Oberbayern"
       },
       {
-        "value": "Mo–Fr",
-        "label": "08–18 Uhr erreichbar"
+        "value": "6",
+        "label": "Leistungen rund ums Dach"
       },
       {
         "value": "Vor Ort",
-        "label": "Landkreis Dachau"
+        "label": "Betrieb in Alling"
       }
     ],
     "servicesIntro": {
-      "headline": "Blech, das Dach und Kamin schützt",
-      "text": "Wo Wasser und Wetter angreifen, sitzt saubere Spenglerarbeit: am Kamin, auf dem Dach und an jedem Anschluss."
+      "headline": "Vom Ziegel bis zur Rinne",
+      "text": "Ob Sturmschaden, undichtes Flachdach oder neue Dachrinne: Der Meisterbetrieb aus Alling kümmert sich um das ganze Dach."
     },
     "services": [
       {
-        "title": "Kaminverkleidung",
-        "text": "Der Kaminkopf bekommt eine passgenaue Blechverkleidung, die Feuchtigkeit vom Mauerwerk fernhält.",
+        "title": "Dachreparatur",
+        "text": "Verrutschte Ziegel, Sturmschäden oder eine undichte Stelle werden gefunden und behoben, bevor Wasser ins Haus läuft.",
         "items": [
-          "Kaminkopf",
-          "Verkleidung",
-          "Abdeckung"
+          "Sturmschäden",
+          "Undichte Stellen",
+          "Ziegel ersetzen"
         ]
       },
       {
-        "title": "Blechdächer",
-        "text": "Dächer und Dachflächen aus Blech für Wohnhaus, Garage oder Nebengebäude – neu gedeckt oder erneuert.",
+        "title": "Flachdachsanierung",
+        "text": "Alte Flachdächer auf Garage, Anbau oder Wohnhaus werden neu abgedichtet und wieder dicht.",
         "items": [
-          "Neudeckung",
-          "Sanierung",
-          "Nebengebäude"
+          "Abdichtung",
+          "Garagendach",
+          "Anbauten"
         ]
       },
       {
-        "title": "Dachrinnen & Fallrohre",
-        "text": "Rinnen und Fallrohre leiten Regenwasser zuverlässig ab und schonen Fassade und Sockel.",
+        "title": "Spenglerarbeiten",
+        "text": "Dachrinnen, Fallrohre und Blechanschlüsse leiten Regenwasser sauber vom Dach ab.",
         "items": [
           "Dachrinnen",
           "Fallrohre",
-          "Rinnenhalter"
+          "Anschlüsse"
         ]
       },
       {
-        "title": "Anschlüsse & Abdichtung",
-        "text": "Übergänge an Wand, Gaube und Dachfenster werden mit Blech dicht angeschlossen.",
+        "title": "Dachbeschichtung",
+        "text": "Eine Beschichtung schützt die Dachfläche und frischt das Erscheinungsbild auf.",
         "items": [
-          "Wandanschluss",
-          "Gaube",
-          "Dachfenster"
+          "Schutzschicht",
+          "Dachfläche",
+          "Werterhalt"
         ]
       },
       {
-        "title": "Verblechungen",
-        "text": "Mauerabdeckungen, Ortgänge und Fensterbänke aus Blech schützen exponierte Kanten.",
+        "title": "Dachbegrünung",
+        "text": "Ein Gründach auf Garage oder Flachdach hält Regenwasser zurück und schützt die Abdichtung.",
         "items": [
-          "Mauerabdeckung",
-          "Ortgang",
-          "Fensterbank"
+          "Gründach",
+          "Garage",
+          "Flachdach"
         ]
       },
       {
-        "title": "Reparaturen",
-        "text": "Undichte Stelle, lose Rinne oder Sturmschaden: Der Schaden wird angesehen und fachgerecht behoben.",
+        "title": "Solaranlagen",
+        "text": "Beim Montieren von Solarmodulen bleibt das Dach dicht – die Dachdeckung wird fachgerecht angepasst.",
         "items": [
-          "Undichtigkeit",
-          "Sturmschaden",
-          "Austausch"
+          "Montage aufs Dach",
+          "Dachanschlüsse",
+          "Dichtheit"
         ]
       }
     ],
     "why": {
-      "headline": "Spenglerhandwerk aus Sigmertshausen.",
+      "headline": "Ein Dachdeckermeister direkt aus Alling.",
       "points": [
         {
           "title": "Meisterbetrieb",
-          "text": "Die Gemeinde Röhrmoos führt den Betrieb als Meisterbetrieb unter Inhaber Georg Eder."
+          "text": "Markus Jäger ist Dachdeckermeister und Mitglied der Dachdeckerinnung München-Oberbayern."
         },
         {
-          "title": "Klarer Schwerpunkt",
-          "text": "Kaminverkleidungen und Blechdächer sind das Kerngeschäft – genau dafür rufen Kunden an."
+          "title": "Kurze Anfahrt",
+          "text": "Von der Pfarrgasse in Alling schnell in Eichenau, Germering, Puchheim und Fürstenfeldbruck."
         },
         {
-          "title": "Kurze Wege",
-          "text": "Von Sigmertshausen schnell in Röhrmoos, Hebertshausen, Vierkirchen und Dachau."
+          "title": "Dach und Blech",
+          "text": "Dacharbeiten und Spenglerarbeiten aus einer Hand – ohne zweiten Betrieb abzustimmen."
         },
         {
-          "title": "Ein Ansprechpartner",
-          "text": "Anfrage, Besichtigung und Ausführung laufen direkt über den Inhaber."
+          "title": "Steil und flach",
+          "text": "Ziegeldach, Garagendach oder Flachdach: Der Betrieb übernimmt beides."
         }
       ]
     },
@@ -280,134 +283,139 @@
       "headline": "Was Kunden sagen",
       "summary": "Kundenstimmen werden hier eingebunden, sobald sie aus dem Google-Profil übernommen sind.",
       "highlights": [
-        "Spenglerei in Sigmertshausen",
-        "Kamin und Blechdach",
-        "Meisterbetrieb"
+        "Dachdeckermeister in Alling",
+        "Dach- und Spenglerarbeiten",
+        "Flachdachsanierung"
       ],
       "source": "Google",
-      "sourceUrl": "https://www.google.com/maps/search/?api=1&query=HOF%20Spenglerei%20Georg%20Eder%20Hauptstra%C3%9Fe%2026%20R%C3%B6hrmoos",
+      "sourceUrl": "https://www.google.com/maps/search/?api=1&query=Dachdeckerei%20Markus%20J%C3%A4ger%20Pfarrgasse%201%20Alling",
       "rating": null,
       "count": null
     },
     "process": {
-      "headline": "So läuft Ihr Auftrag",
+      "headline": "So kommt Ihr Dach in Ordnung",
       "steps": [
         {
           "title": "Anfrage",
-          "text": "Fotos von Dach, Kamin oder Rinne per E-Mail schicken oder kurz anrufen."
+          "text": "Schaden kurz beschreiben oder anrufen – Fotos vom Dach helfen bei der Einschätzung."
         },
         {
-          "title": "Besichtigung",
-          "text": "Georg Eder sieht sich Dach und Anschlüsse vor Ort an."
+          "title": "Begutachtung",
+          "text": "Das Dach wird vor Ort angeschaut und die Ursache gesucht."
         },
         {
           "title": "Angebot",
-          "text": "Sie erhalten ein Angebot mit Material und Umfang."
+          "text": "Sie erhalten ein Angebot mit den nötigen Arbeiten."
         },
         {
           "title": "Ausführung",
-          "text": "Das Blech wird zugeschnitten, gekantet und dicht montiert."
+          "text": "Reparatur oder Sanierung wird ausgeführt und das Dach sauber übergeben."
         }
       ]
     },
     "gallery": {
-      "headline": "Arbeiten aus der Werkstatt",
+      "headline": "Dächer aus der Region",
       "text": "Für die Live-Version zeigen wir hier echte Projekte des Betriebs.",
       "items": [
         {
-          "title": "Kaminkopf",
-          "photoNeeded": "fertige Kaminverkleidung aus Blech auf einem Ziegeldach"
+          "title": "Ziegeldach",
+          "photoNeeded": "neu eingedecktes Ziegeldach eines Einfamilienhauses"
         },
         {
-          "title": "Blechdach",
-          "photoNeeded": "neu gedecktes Stehfalzdach an Haus oder Nebengebäude"
+          "title": "Flachdach",
+          "photoNeeded": "frisch abgedichtetes Flachdach auf Garage oder Anbau"
         },
         {
           "title": "Dachrinne",
-          "photoNeeded": "neue Dachrinne mit Fallrohr an einem Einfamilienhaus"
+          "photoNeeded": "neue Zinkrinne mit Fallrohr"
         },
         {
-          "title": "Gaubenanschluss",
-          "photoNeeded": "verblechte Gaube mit sauberem Anschluss"
+          "title": "Gründach",
+          "photoNeeded": "begrüntes Garagendach"
         },
         {
-          "title": "Werkstatt",
-          "photoNeeded": "Kantbank oder Blechzuschnitt in der Werkstatt"
+          "title": "Sturmschaden",
+          "photoNeeded": "reparierte Dachfläche nach Sturm"
         }
       ]
     },
     "region": {
-      "headline": "Spenglerei für Röhrmoos und das Dachauer Land",
-      "text": "Von Sigmertshausen aus schnell in Röhrmoos, Schönbrunn, Hebertshausen, Vierkirchen, Haimhausen und Dachau.",
+      "headline": "Dacharbeiten in Alling und Umgebung",
+      "text": "Von Alling aus schnell in Biburg, Eichenau, Germering, Puchheim, Fürstenfeldbruck und Gilching.",
       "places": [
-        "Röhrmoos",
-        "Sigmertshausen",
-        "Schönbrunn",
-        "Hebertshausen",
-        "Vierkirchen",
-        "Haimhausen",
-        "Dachau"
+        "Alling",
+        "Biburg",
+        "Eichenau",
+        "Germering",
+        "Puchheim",
+        "Fürstenfeldbruck",
+        "Gilching"
       ]
     },
     "faq": [
       {
-        "q": "Lohnt sich eine Kaminverkleidung aus Blech?",
-        "a": "Sie schützt das Mauerwerk am Kaminkopf vor Regen und Frost. Ob sie sinnvoll ist, klärt die Besichtigung."
+        "q": "Mein Dach ist undicht – wie schnell kommen Sie?",
+        "a": "Rufen Sie an und beschreiben Sie den Schaden. Der Termin wird je nach Dringlichkeit abgestimmt."
+      },
+      {
+        "q": "Sanieren Sie auch Flachdächer auf Garagen?",
+        "a": "Ja, Flachdachsanierung gehört zum Angebot – auch für Garagen und Anbauten."
+      },
+      {
+        "q": "Machen Sie auch Dachrinnen und Fallrohre?",
+        "a": "Ja, Spenglerarbeiten wie Rinnen, Fallrohre und Blechanschlüsse übernimmt der Betrieb."
       },
       {
         "q": "Kann ich vorab Fotos schicken?",
-        "a": "Ja, Fotos von Dach, Kamin oder Schadstelle per E-Mail helfen für eine erste Einschätzung."
+        "a": "Ja, Fotos vom Schaden oder von der Dachfläche per E-Mail helfen für eine erste Einschätzung."
       },
       {
-        "q": "Übernehmen Sie auch kleine Reparaturen?",
-        "a": "Fragen Sie einfach an – Umfang und Termin werden direkt abgestimmt."
-      },
-      {
-        "q": "Wann ist der Betrieb erreichbar?",
-        "a": "Laut Verzeichnis Montag bis Freitag von 8 bis 18 Uhr unter 08139 6657."
-      },
-      {
-        "q": "In welchen Orten arbeiten Sie?",
-        "a": "In Röhrmoos und Umgebung, etwa Hebertshausen, Vierkirchen, Haimhausen und Dachau."
+        "q": "In welchen Orten sind Sie unterwegs?",
+        "a": "In Alling und Umgebung, etwa Eichenau, Germering, Puchheim und Fürstenfeldbruck."
       }
     ],
     "contact": {
-      "headline": "Ihre Anfrage an die Spenglerei",
-      "text": "Beschreiben Sie kurz, worum es geht: Kamin, Blechdach, Dachrinne oder Anschluss. Fotos helfen bei der Einschätzung.",
+      "headline": "Dach-Anfrage – unverbindlich",
+      "text": "Beschreiben Sie kurz, was am Dach zu tun ist: Reparatur, Flachdach, Rinne oder Neues. Fotos helfen.",
       "topics": [
-        "Kaminverkleidung",
-        "Blechdach",
-        "Dachrinne",
-        "Anschluss/Abdichtung",
-        "Reparatur",
+        "Dachreparatur",
+        "Flachdachsanierung",
+        "Spenglerarbeiten",
+        "Dachbegrünung",
+        "Solaranlage",
         "Sonstiges"
       ],
       "responseNote": "Besichtigung nach Absprache."
     },
     "quote": {
-      "sizeLabel": "Worum geht es?",
+      "sizeLabel": "Welches Dach betrifft es?",
       "sizes": [
-        "Kamin",
-        "Dachrinne",
-        "Teilfläche Dach",
-        "Ganzes Blechdach"
+        "Einfamilienhaus",
+        "Garage/Carport",
+        "Anbau/Flachdach",
+        "Mehrfamilienhaus"
       ],
       "timings": [
-        "So bald wie möglich",
+        "Akuter Schaden",
         "In den nächsten Wochen",
         "In 1–3 Monaten",
         "Ich plane erst noch"
       ]
     },
-    "stickyCta": "Anfrage senden",
+    "stickyCta": "Dach-Anfrage stellen",
     "look": {
       "palette": 2,
-      "font": 6,
-      "hero": 0,
-      "services": 1,
-      "radius": 1,
-      "logo": 0,
-      "intro": 5
+      "font": 2,
+      "hero": 6,
+      "services": 0,
+      "radius": 3,
+      "logo": 4,
+      "intro": 1,
+      "projects": 0,
+      "process": 0,
+      "faq": 1,
+      "reviews": 0,
+      "order": 2
     }
   }
 }

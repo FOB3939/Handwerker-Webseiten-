@@ -133,7 +133,7 @@
     "hero": {
       "eyebrow": "Zimmerei · Gröbenzell",
       "headline": "Zimmerei in Gröbenzell",
-      "sub": "Dachstühle, Carports und Holzbau am Haus – geplant und gebaut von Franz X. Stierstorfer.",
+      "sub": "Dachstühle, Carports und Holzbau am Haus – geplant und gebaut vom Zimmerer aus Gröbenzell.",
       "ctaPrimary": "Besichtigung anfragen",
       "ctaSecondary": "Anrufen",
       "bullets": [
@@ -180,7 +180,7 @@
       }
     ],
     "servicesIntro": {
-      "headline": "Holzbau vom Dach bis zur Terrasse",
+      "headline": "Dachstuhl, Gaube und Carport aus Gröbenzell",
       "text": "Ob neuer Dachstuhl, Gaube oder Carport: Die Zimmerei plant das Holzbauteil passend zu Ihrem Haus und baut es auf."
     },
     "services": [
@@ -383,13 +383,18 @@
     },
     "stickyCta": "Besichtigung anfragen",
     "look": {
-      "palette": 2,
-      "font": 6,
-      "hero": 0,
-      "services": 1,
-      "radius": 1,
-      "logo": 0,
-      "intro": 5
+      "palette": 4,
+      "font": 4,
+      "hero": 6,
+      "services": 2,
+      "radius": 4,
+      "logo": 2,
+      "intro": 3,
+      "projects": 2,
+      "process": 2,
+      "faq": 2,
+      "reviews": 0,
+      "order": 2
     }
   }
 }

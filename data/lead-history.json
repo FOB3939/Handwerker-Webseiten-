@@ -61,7 +61,7 @@
       "googleLink": "https://www.google.com/maps/search/?api=1&query=Patrick%20Faulhaber%20K%C3%BCchenmontage%20Andechs",
       "googleVerified": false,
       "myhammerLink": "https://www.my-hammer.de/auftragnehmer/patrick-faulhaber-kuechen-moebelmontagen",
-      "myhammerRating": 5.0,
+      "myhammerRating": 5,
       "myhammerReviews": 38,
       "googleRating": null,
       "googleReviews": null,
@@ -138,7 +138,7 @@
       "googleLink": "https://www.google.com/maps/search/?api=1&query=Alexander%20Jung%20Elektrotechnik%20Erding",
       "googleVerified": false,
       "myhammerLink": "https://www.my-hammer.de/elektrik/elektriker-berufe/erding",
-      "myhammerRating": 5.0,
+      "myhammerRating": 5,
       "myhammerReviews": 5,
       "sources": [
         "https://www.my-hammer.de/elektrik/elektriker-berufe/erding",
@@ -309,7 +309,7 @@
       "googleLink": "https://www.google.com/maps/search/?api=1&query=Dusko%20Jovic%20Bau%20Unterhaching",
       "googleVerified": false,
       "myhammerLink": "https://www.my-hammer.de/auftragnehmer/dusko-jovic-bau/bewertungen",
-      "myhammerRating": 5.0,
+      "myhammerRating": 5,
       "myhammerReviews": 42,
       "sources": [
         "https://www.my-hammer.de/auftragnehmer/dusko-jovic-bau/bewertungen",
@@ -638,7 +638,7 @@
       "googleLink": "https://www.google.com/maps/search/?api=1&query=Murat%20%C3%96zerol%20Elektrotechnik%20Elisabeth-Dane-Stra%C3%9Fe%2032%20M%C3%BCnchen",
       "googleVerified": false,
       "myhammerLink": "https://www.my-hammer.de/auftragnehmer/murat-oezerol-elektrotechnik",
-      "myhammerRating": 5.0,
+      "myhammerRating": 5,
       "myhammerReviews": 41,
       "sources": [
         "https://www.my-hammer.de/auftragnehmer/murat-oezerol-elektrotechnik",
@@ -2038,6 +2038,126 @@
       "googleLink": "https://www.google.com/maps/search/?api=1&query=J%C3%BCrgen%20Diepold%20Maler%20Jahnstr.%2037%2C%2086916%20Kaufering",
       "googleVerified": false,
       "reserve": true
+    },
+    {
+      "company": "Zimmerei Franz X. Stierstorfer",
+      "slug": "zimmerei-stierstorfer-groebenzell",
+      "trade": "Zimmerei",
+      "city": "Gröbenzell",
+      "date": "2026-10-27",
+      "phone": "08142 540393",
+      "email": null,
+      "googleLink": "https://www.google.com/maps/search/?api=1&query=Franz%20X.%20Stierstorfer%20Zimmerer%20Erlbachweg%2011%20Gr%C3%B6benzell",
+      "googleVerified": false,
+      "reserve": true
+    },
+    {
+      "company": "Wilhelm Gaugg Küchenmontage",
+      "slug": "gaugg-kuechenmontage-freising",
+      "trade": "Küchenmontage",
+      "city": "Freising",
+      "date": "2026-10-27",
+      "phone": "08161 66409",
+      "email": null,
+      "googleLink": "https://www.google.com/maps/search/?api=1&query=Wilhelm%20Gaugg%20K%C3%BCchenmontage%20Bourdonstr.%203%20Freising",
+      "googleVerified": false,
+      "reserve": true
+    },
+    {
+      "company": "Igor Daniel Elektrotechnik",
+      "slug": "igor-daniel-elektrotechnik-seefeld",
+      "trade": "Elektroinstallation",
+      "city": "Seefeld",
+      "date": "2026-10-27",
+      "phone": "0172 4074978",
+      "email": "igi2304@gmail.com",
+      "googleLink": "https://www.google.com/maps/search/?api=1&query=Igor%20Daniel%20Elektrotechnik%20Hauptstr%204%20Seefeld",
+      "googleVerified": false,
+      "reserve": false
+    },
+    {
+      "company": "Zimmerei Multerer",
+      "slug": "zimmerei-multerer-adelshofen",
+      "trade": "Zimmerei",
+      "city": "Adelshofen",
+      "date": "2026-10-27",
+      "phone": "0178 4955364",
+      "email": "quirin.multi@gmail.com",
+      "googleLink": "https://www.google.com/maps/search/?api=1&query=Zimmerei%20Multerer%20Am%20Ziegelstadel%208%20Adelshofen",
+      "googleVerified": false,
+      "reserve": false
+    },
+    {
+      "company": "Schreinerei Udo Alscher",
+      "slug": "schreinerei-alscher-mammendorf",
+      "trade": "Schreinerei & Sachverständigenbüro",
+      "city": "Mammendorf",
+      "date": "2026-10-27",
+      "phone": "0177 8947950",
+      "email": "alscher-u@t-online.de",
+      "googleLink": "https://www.google.com/maps/search/?api=1&query=Udo%20Alscher%20Schreinerei%20Martin-Bauer-Weg%2029%20Mammendorf",
+      "googleVerified": false,
+      "reserve": false
+    },
+    {
+      "company": "HOF Spenglerei Inh. Georg Eder",
+      "slug": "hof-spenglerei-eder-roehrmoos",
+      "trade": "Spenglerei",
+      "city": "Röhrmoos",
+      "date": "2026-10-27",
+      "phone": "08139 6657",
+      "email": "spenglerei.hof-eder@web.de",
+      "googleLink": "https://www.google.com/maps/search/?api=1&query=HOF%20Spenglerei%20Georg%20Eder%20Hauptstra%C3%9Fe%2026%20R%C3%B6hrmoos",
+      "googleVerified": false,
+      "reserve": false
+    },
+    {
+      "company": "EA Elektroanlagen",
+      "slug": "ea-elektroanlagen-moosburg",
+      "trade": "Elektroinstallation",
+      "city": "Moosburg an der Isar",
+      "date": "2026-10-27",
+      "phone": "0176 64963533",
+      "email": null,
+      "googleLink": "https://www.google.com/maps/search/?api=1&query=EA%20Elektroanlagen%20Sudetenlandstra%C3%9Fe%2033%20Moosburg",
+      "googleVerified": false,
+      "reserve": true
+    },
+    {
+      "company": "Luis Lenz Garten- und Forstdienstleistungen",
+      "slug": "luis-lenz-garten-hallbergmoos",
+      "trade": "Garten- und Landschaftsbau",
+      "city": "Hallbergmoos",
+      "date": "2026-10-27",
+      "phone": "01578 2577112",
+      "email": null,
+      "googleLink": "https://www.google.com/maps/search/?api=1&query=Luis%20Lenz%20Garten-%20und%20Forstdienstleistungen%20Hallbergmoos",
+      "googleVerified": false,
+      "reserve": true
+    },
+    {
+      "company": "Dachdeckerei Markus Jäger",
+      "slug": "dachdeckerei-markus-jaeger-alling",
+      "trade": "Dachdecker",
+      "city": "Alling",
+      "date": "2026-10-27",
+      "phone": "08141 80000",
+      "email": "jaeger-daecher@t-online.de",
+      "googleLink": "https://www.google.com/maps/search/?api=1&query=Dachdeckerei%20Markus%20J%C3%A4ger%20Pfarrgasse%201%20Alling",
+      "googleVerified": false,
+      "reserve": false
+    },
+    {
+      "company": "Enrico Reichenbach Spenglerei & Bedachung",
+      "slug": "spenglerei-reichenbach-olching",
+      "trade": "Spenglerei & Bedachung",
+      "city": "Olching",
+      "date": "2026-10-27",
+      "phone": "08142 449996",
+      "email": "e.reichenbach@gmx.de",
+      "googleLink": "https://www.google.com/maps/search/?api=1&query=Enrico%20Reichenbach%20Spenglerei%20Hauptstra%C3%9Fe%2015b%20Olching",
+      "googleVerified": false,
+      "reserve": false
     }
   ],
   "rejected": [
@@ -4804,6 +4924,336 @@
       "company": "KRAS Gebäudereinigung (Moosinning)",
       "reason": "nicht auffindbar",
       "date": "2026-10-26"
+    },
+    {
+      "company": "Dachtechnik Koc (Gilching)",
+      "reason": "eigene Website dachtechnik-koc.de",
+      "date": "2026-10-27"
+    },
+    {
+      "company": "Elektrotechnik Kretzschmar (Gilching)",
+      "reason": "eigene Website elektro-kretzschmar.com",
+      "date": "2026-10-27"
+    },
+    {
+      "company": "Elektrotechnik Röhrl (Gilching)",
+      "reason": "eigene Website elektrotechnik-roehrl.de",
+      "date": "2026-10-27"
+    },
+    {
+      "company": "Ralf Christian Holzmann Elektro (Puchheim)",
+      "reason": "E-Mail auf eigener Domain ralf-holzmann.de",
+      "date": "2026-10-27"
+    },
+    {
+      "company": "Elektro Hido (Puchheim)",
+      "reason": "GmbH",
+      "date": "2026-10-27"
+    },
+    {
+      "company": "Ralf Hesse Sanitär-/Heizungstechnik (Germering)",
+      "reason": "Hesse GmbH, Website hesse-germering.de",
+      "date": "2026-10-27"
+    },
+    {
+      "company": "MSO Wartungs- und Energietechnik (Germering)",
+      "reason": "GmbH, Website mso-energietechnik.de",
+      "date": "2026-10-27"
+    },
+    {
+      "company": "Krell Bedachungen (Gilching)",
+      "reason": "eigene Website krell-dach.de",
+      "date": "2026-10-27"
+    },
+    {
+      "company": "Elektrotechnik-Huber Johann Huber (Eichenau)",
+      "reason": "eigene Website huber-elektrotechnik.de",
+      "date": "2026-10-27"
+    },
+    {
+      "company": "Ernst W. Bauer e.K. Rollladenbetrieb (Puchheim)",
+      "reason": "Website bauer-rolladen.de",
+      "date": "2026-10-27"
+    },
+    {
+      "company": "Elektrotechnik Waldecker (Stockdorf)",
+      "reason": "Website elektro-waldecker.de",
+      "date": "2026-10-27"
+    },
+    {
+      "company": "Elektro Stefan Klaußner (Gauting)",
+      "reason": "Website elektro-klaussner.de",
+      "date": "2026-10-27"
+    },
+    {
+      "company": "Elektro Rainer (Gauting)",
+      "reason": "E-Mail auf eigener Domain elektro-rainer.de",
+      "date": "2026-10-27"
+    },
+    {
+      "company": "Malerbetrieb Werth (Moosburg)",
+      "reason": "Websites maler-werth.de, maleroy.de",
+      "date": "2026-10-27"
+    },
+    {
+      "company": "Elektro Braselmann (Hallbergmoos)",
+      "reason": "eigene Website elektro-braselmann.de",
+      "date": "2026-10-27"
+    },
+    {
+      "company": "Hierholzer Heizung und sanitäre Anlagen e.K. (Weßling)",
+      "reason": "Website hierholzer-haustechnik.de",
+      "date": "2026-10-27"
+    },
+    {
+      "company": "Vasileios Katsoulas Elektrotechnik (Dachau)",
+      "reason": "eigene Website vk-elektrotechnik.de",
+      "date": "2026-10-27"
+    },
+    {
+      "company": "PANDA Sanitär-Heizung GmbH (Kranzberg)",
+      "reason": "GmbH mit Website",
+      "date": "2026-10-27"
+    },
+    {
+      "company": "Satir Versorgungstechnik GmbH (Bergkirchen)",
+      "reason": "GmbH mit Website",
+      "date": "2026-10-27"
+    },
+    {
+      "company": "Thomas Kosten Spenglerei (Freising)",
+      "reason": "eigene Website dachdecker-spengler-freising.de",
+      "date": "2026-10-27"
+    },
+    {
+      "company": "Bauspenglerei Christian Niedermair (Schwabhausen)",
+      "reason": "eigene Website spenglerei-niedermair.de",
+      "date": "2026-10-27"
+    },
+    {
+      "company": "Fenster Werker (Dachau)",
+      "reason": "eigene Website fenster-werker.de",
+      "date": "2026-10-27"
+    },
+    {
+      "company": "Peter Wingert Schlosserei (Bergkirchen)",
+      "reason": "Website wingert-metallbau.de",
+      "date": "2026-10-27"
+    },
+    {
+      "company": "Metallbau Schlosserei Hoffmann (Bergkirchen)",
+      "reason": "Baukasten-Seite hpage.com",
+      "date": "2026-10-27"
+    },
+    {
+      "company": "RAQIs Hausmeisterservice (Dachau)",
+      "reason": "Website hausmeisterservice-raqi.de",
+      "date": "2026-10-27"
+    },
+    {
+      "company": "Lux Hausmeisterservice (Dachau)",
+      "reason": "Website hausmeister-lux.de",
+      "date": "2026-10-27"
+    },
+    {
+      "company": "HE-Mi Bedachungen (Olching)",
+      "reason": "GmbH mit Website hemi-flachdachsanierung.de",
+      "date": "2026-10-27"
+    },
+    {
+      "company": "Schreinerei Heike Steinerstauch (Olching)",
+      "reason": "Weebly-Seite + Domain",
+      "date": "2026-10-27"
+    },
+    {
+      "company": "Holz + Haus Zimmerei Borowsky-Süß (Schöngeising)",
+      "reason": "eigene Website holzplushaus.de",
+      "date": "2026-10-27"
+    },
+    {
+      "company": "Dachdeckerei & Spenglerei Donath (Gröbenzell)",
+      "reason": "eigene Website dach-donath.de",
+      "date": "2026-10-27"
+    },
+    {
+      "company": "Bauspenglerei Andreas Schallermayer (Fürstenfeldbruck)",
+      "reason": "eigene Website spenglerei-schallermayer.de",
+      "date": "2026-10-27"
+    },
+    {
+      "company": "Frank Seiltz Zimmerei (Adelshofen)",
+      "reason": "Website seiltz.de",
+      "date": "2026-10-27"
+    },
+    {
+      "company": "Neheider Josef Zimmerei-Holzbau (Mammendorf)",
+      "reason": "eigene Website zimmerei-neheider.de",
+      "date": "2026-10-27"
+    },
+    {
+      "company": "Wallner GmbH Schreinerei (Olching)",
+      "reason": "GmbH mit Website",
+      "date": "2026-10-27"
+    },
+    {
+      "company": "Ludwig Kleber Metallbau (Maisach)",
+      "reason": "GmbH i.L., Website, geschlossen",
+      "date": "2026-10-27"
+    },
+    {
+      "company": "Dachdeckerei & Spenglerei R. Walter (Eching)",
+      "reason": "eigene Website dach-walter.de",
+      "date": "2026-10-27"
+    },
+    {
+      "company": "Stefan Schindlbeck Heizung + Sanitär (Weichs)",
+      "reason": "eigene Website",
+      "date": "2026-10-27"
+    },
+    {
+      "company": "Thomas Stiefelmayer Heizung-Sanitär (Weichs)",
+      "reason": "eigene Website stiefelmayer-heizung.de",
+      "date": "2026-10-27"
+    },
+    {
+      "company": "Elektro Leierer (Olching)",
+      "reason": "eigene Website elektro-leierer.de",
+      "date": "2026-10-27"
+    },
+    {
+      "company": "Ilias Gervalla Elektro-Technik (Olching)",
+      "reason": "Websites gervallaelektro.de",
+      "date": "2026-10-27"
+    },
+    {
+      "company": "Michael Steidinger Reinigungsservice (Karlsfeld)",
+      "reason": "im Netz nicht auffindbar",
+      "date": "2026-10-27"
+    },
+    {
+      "company": "Baumpflege Hauser (Eching)",
+      "reason": "Telefon nicht belegt",
+      "date": "2026-10-27"
+    },
+    {
+      "company": "Kristian Grundler Spenglerei (Eichenau)",
+      "reason": "Website grundler-daecher.de",
+      "date": "2026-10-27"
+    },
+    {
+      "company": "Stapelfeldt Spenglerei & Bedachung (Alling)",
+      "reason": "Website stapelfeldt-daecher.de, GmbH & Co. KG",
+      "date": "2026-10-27"
+    },
+    {
+      "company": "Florian Ullrich Schlosserei (Unterbrunn)",
+      "reason": "Website schlosserei-ullrich.de",
+      "date": "2026-10-27"
+    },
+    {
+      "company": "HAROLL (Gauting)",
+      "reason": "Website haroll.de",
+      "date": "2026-10-27"
+    },
+    {
+      "company": "Heizung & Sanitär Faller (Eichenau)",
+      "reason": "Website volker-faller.de",
+      "date": "2026-10-27"
+    },
+    {
+      "company": "Felix Schinnerer (Gilching)",
+      "reason": "Website f-schinnerer.de",
+      "date": "2026-10-27"
+    },
+    {
+      "company": "Peukert Andreas (Puchheim)",
+      "reason": "Website ap-heizungsbau.de, GmbH",
+      "date": "2026-10-27"
+    },
+    {
+      "company": "Hausmeisterservice & Gartenbau Manuel (Freising)",
+      "reason": "Website hausmeister-manuel.de",
+      "date": "2026-10-27"
+    },
+    {
+      "company": "Daniel Kraus Garten (Freising-Sünzhausen)",
+      "reason": "Website kraus-garten.de",
+      "date": "2026-10-27"
+    },
+    {
+      "company": "Metallwerkstatt Hans Loibl (Neuried)",
+      "reason": "Website metallbau-loibl.de",
+      "date": "2026-10-27"
+    },
+    {
+      "company": "Christian Engel Heizung/Sanitär (Langenbach)",
+      "reason": "E-Mail auf eigener Domain",
+      "date": "2026-10-27"
+    },
+    {
+      "company": "Markus Funke Heizungsbau (Neufahrn)",
+      "reason": "Homepage funke.tv",
+      "date": "2026-10-27"
+    },
+    {
+      "company": "Erwin Wagner Zimmerei (Emmering)",
+      "reason": "Website im Verzeichnis, Nummer ohne Anschluss",
+      "date": "2026-10-27"
+    },
+    {
+      "company": "Keser Schreinerei (Mammendorf)",
+      "reason": "eigene Website schreinereikeser.de",
+      "date": "2026-10-27"
+    },
+    {
+      "company": "Schreinerei Christian Gerlich (Grafrath)",
+      "reason": "eigene Website schreinerei-gerlich.de",
+      "date": "2026-10-27"
+    },
+    {
+      "company": "Thomas Grimm Spengler- u. Dachdeckerei (Emmering)",
+      "reason": "eigene Website dach-grimm.de",
+      "date": "2026-10-27"
+    },
+    {
+      "company": "Resch Spenglerei (Olching)",
+      "reason": "eigene Website resch-bedachungen.de",
+      "date": "2026-10-27"
+    },
+    {
+      "company": "Grimm Zimmerei und Landschaftspflege (Mammendorf)",
+      "reason": "eigene Website zimmerei-grimm.com",
+      "date": "2026-10-27"
+    },
+    {
+      "company": "Franz Hutterer Rollladenmontage (Erdweg)",
+      "reason": "eigene Website hutterer-sonnenschutz.de",
+      "date": "2026-10-27"
+    },
+    {
+      "company": "Hans und Michael Schrodt Bauspenglerei (Markt Indersdorf)",
+      "reason": "eigene Website bauspenglerei-schrodt.de",
+      "date": "2026-10-27"
+    },
+    {
+      "company": "Ferdinand Koll Sanitär Spenglerei (Schwabhausen)",
+      "reason": "eigene Website koll-spenglerei.de",
+      "date": "2026-10-27"
+    },
+    {
+      "company": "Christian Schwarzensteiner (Olching)",
+      "reason": "eigene Website schwarzensteiner.com",
+      "date": "2026-10-27"
+    },
+    {
+      "company": "Thomas Grafwallner (Olching)",
+      "reason": "eigene Website grafwallner-haustechnik.de",
+      "date": "2026-10-27"
+    },
+    {
+      "company": "Friedrich Tripolt (Olching)",
+      "reason": "eigene Website tripolt.de",
+      "date": "2026-10-27"
     }
   ]
 }

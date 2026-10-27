@@ -247,6 +247,16 @@ export const PLACES: Record<string, [number, number]> = {
   "Velden": [48.37, 12.26],
   "Wang": [48.49, 11.95],
   "Zolling": [48.45, 11.77],
+  Hechendorf: [48.045, 11.187],
+  Oberalting: [48.022, 11.205],
+  Nassenhausen: [48.193, 11.13],
+  Moorenweis: [48.155, 11.08],
+  Nannhofen: [48.218, 11.18],
+  Sigmertshausen: [48.322, 11.425],
+  "Schönbrunn": [48.32, 11.48],
+  Vierkirchen: [48.367, 11.46],
+  Gammelsdorf: [48.546, 11.946],
+  Biburg: [48.152, 11.287],
 };
 
 // Grobe Seeumrisse als Ellipsen: [lat, lon, Halbachse Nord-Süd in Grad, Halbachse Ost-West in Grad]

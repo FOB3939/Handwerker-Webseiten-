@@ -212,3 +212,17 @@ Schnell-Check-Liste mit Google-Maps-Links und Reserve-Kandidaten.
 - Reserve: Zech Schreinerei (Bergkirchen): https://claude.ai/artifact/H8unStgniJYkXSRFAhxiBL
 - Reserve: Rainer Schneller Spenglerei (Puchheim): https://claude.ai/artifact/2L8g8185EvbheAsV2Y18GS
 - Reserve: Jürgen Diepold Maler (Kaufering): https://claude.ai/artifact/1hG3o1E64VGU7Jh3XuJWJQ
+
+## Entwürfe 2026-10-27
+
+- WhatsApp-Entwürfe: https://claude.ai/artifact/Y6b4RYSMgD8r9DcWsdaiAC
+- Igor Daniel Elektrotechnik (Seefeld): https://claude.ai/artifact/JYzisGMPisz8XVvvX7aMt4
+- Zimmerei Multerer (Adelshofen): https://claude.ai/artifact/DiKDKfhvnbuiSpz7Xj73CE
+- Schreinerei Udo Alscher (Mammendorf): https://claude.ai/artifact/WHY6g3ZNWFKq2Vg98WjYmo
+- HOF Spenglerei Eder (Röhrmoos): https://claude.ai/artifact/FuA3HMfd3dAQizQAsvn5Xr
+- Dachdeckerei Markus Jäger (Alling): https://claude.ai/artifact/8VTkadTsHUxoTKEYiXLQA8
+- Enrico Reichenbach Spenglerei & Bedachung (Olching): https://claude.ai/artifact/511Wm48qUpYQA56ZtZ2eCc
+- Reserve: EA Elektroanlagen (Moosburg an der Isar): https://claude.ai/artifact/HP37xtC4rmLhmir4osPATY
+- Reserve: Luis Lenz Garten- und Forstdienstleistungen (Hallbergmoos): https://claude.ai/artifact/UTJjzfcKsDemsrASL9aguX
+- Reserve: Zimmerei Franz X. Stierstorfer (Gröbenzell): https://claude.ai/artifact/NE3zGDskTDowcet32yEqD5
+- Reserve: Wilhelm Gaugg Küchenmontage (Freising): https://claude.ai/artifact/AgCrGtZfFonskxrTKUMnFh

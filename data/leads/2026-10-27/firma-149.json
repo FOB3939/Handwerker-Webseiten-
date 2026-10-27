@@ -1,116 +1,109 @@
 {
   "id": "2026-10-27-149",
-  "slug": "zimmerei-multerer-adelshofen",
+  "slug": "ea-elektroanlagen-moosburg",
   "date": "2026-10-27",
   "company": {
-    "name": "Zimmerei Multerer",
-    "owner": "Quirin Karl Ferdinand Multerer",
-    "trade": "Zimmerei",
-    "city": "Adelshofen",
-    "address": "Am Ziegelstadel 8, 82276 Adelshofen",
-    "phone": "0178 4955364",
-    "email": "quirin.multi@gmail.com",
+    "name": "EA Elektroanlagen",
+    "owner": null,
+    "trade": "Elektroinstallation",
+    "city": "Moosburg an der Isar",
+    "address": "Sudetenlandstraße 33, 85368 Moosburg an der Isar",
+    "phone": "0176 64963533",
+    "email": null,
     "serviceArea": [
-      "Adelshofen",
-      "Nassenhausen",
-      "Mammendorf",
-      "Jesenwang",
-      "Moorenweis",
-      "Fürstenfeldbruck"
+      "Moosburg an der Isar",
+      "Langenbach",
+      "Zolling",
+      "Wang",
+      "Gammelsdorf",
+      "Freising"
     ]
   },
   "listings": {
     "google": {
-      "url": "https://www.google.com/maps/search/?api=1&query=Zimmerei%20Multerer%20Am%20Ziegelstadel%208%20Adelshofen",
+      "url": "https://www.google.com/maps/search/?api=1&query=EA%20Elektroanlagen%20Sudetenlandstra%C3%9Fe%2033%20Moosburg",
       "rating": null,
       "reviews": null,
-      "evidence": "NICHT BELEGT – kein Google-Spiegel (trustlocal, firmania, rgv-bayern) mit Bewertungen gefunden. Annahme stützt sich auf die öffentlich gelistete Freemail-Adresse quirin.multi@gmail.com im Firmenverzeichnis der Verwaltungsgemeinschaft Mammendorf. In Google Maps prüfen, ob ein Eintrag existiert."
+      "evidence": "NICHT DIREKT BELEGT – kein google.com/maps-Treffer und kein Eintrag auf trustlocal/firmania/rgv-bayern. Zaubee (Aggregator, dessen Daten häufig aus Google-Profilen stammen) führt „EA Elektroanlagen – Sudetenlandstraße 33, Moosburg“ als Elektriker mit 0 Bewertungen; das ist kein sicherer Google-Beleg. In Maps prüfen."
     },
     "myhammer": {
-      "url": "https://www.11880.com/suche/zimmerei/moorenweis",
+      "url": "https://www.11880.com/suche/elektriker/moosburg",
       "rating": null,
       "reviews": null,
-      "evidence": "Kein MyHammer gefunden – Einträge im VG-Mammendorf-Firmenverzeichnis, bei 11880 (Am Ziegelstadel 8, 0178 4955364, ohne Bewertung) und bei Gelbe Seiten als „Quirin Multerer Zimmerei“ (Holzbau, ohne Bewertung)."
+      "evidence": "Kein MyHammer gefunden – Eintrag „EA Elektroanlagen“, Sudetenlandstr. 33, Tel. 0176 64963533 in der 11880-Liste Elektriker Moosburg; außerdem Stadtbranchenbuch Moosburg (Elektroinstallateur) und Zaubee."
     }
   },
   "websiteStatus": "keine eigene Website gefunden",
   "websiteChecks": [
-    "(1) „Zimmerei Multerer Adelshofen“ mit blocked_domains (11880, Gelbe Seiten, Das Örtliche, Telefonbuch, Cylex, meinestadt, Creditreform, Facebook, Instagram, golocal, MyHammer, Northdata, Firmenwissen, WKDB, Yelp, trustlocal, wlw) – nur VG-Mammendorf-Firmenverzeichnis; Treffer multerer-gmbh.de gehört zur Multerer GmbH in Neukirchen b. Hl. Blut (anderer Betrieb, Niederbayern), Josef Multerer Zimmerei sitzt in Walderbach (Oberpfalz) – beide nicht verwandt laut Quellen",
-    "(2) Domain-Check allowed_domains zimmerei-multerer.de, multerer-zimmerei.de, zimmereimulterer.de, multerer-holzbau.de, holzbau-multerer.de, quirin-multerer.de, multerer.de, zimmerei-multerer-adelshofen.de – nur multerer.de = Rechts-/Steuerkanzlei Sozietät Multerer Starnberg (fremd), sonst keine Treffer",
-    "(3) Telefonsuche „4955364“ + Multerer mit blocked_domains – nur VG-Mammendorf-Verzeichnis, keine Website",
-    "(4) Impressum-Suche „Impressum Quirin Multerer Zimmerei Adelshofen“ – kein eigenes Impressum, nur Verzeichnis (mit Gmail-Adresse) und fremde Multerer-Firmen",
-    "(5) Spiegel-Suche (trustlocal, firmania, rgv-bayern, 11880, Gelbe Seiten) – kein Bewertungsprofil, kein Website-Feld",
-    "Website-Risiko: mittel – alle Prüfungen negativ, Freemail öffentlich belegt, Google-Eintrag aber nicht belegt"
+    "(1) „\"EA Elektroanlagen\" Moosburg“ mit blocked_domains (11880, Gelbe Seiten, Das Örtliche, Telefonbuch, Cylex, meinestadt, Creditreform, Facebook, Instagram, golocal, MyHammer, Northdata, Firmenwissen, WKDB, Yelp, trustlocal, wlw) – nur Stadtbranchenbuch Moosburg und Zaubee, keine eigene Domain, kein Website-Feld",
+    "(2) Domain-Check allowed_domains ea-elektroanlagen.de, eaelektroanlagen.de, ea-elektroanlagen.com, ea-elektro.de, ea-elektroanlagen-moosburg.de, elektroanlagen-moosburg.de, ea-elektrotechnik.de, eaelektro.de – einziger Treffer eaelektro.de = EA-Gruppe/EA-Elektrotechnik GmbH aus Philippsburg (Baden-Württemberg), anderer Betrieb ohne Bezug zu Moosburg",
+    "(3) Telefonsuche „0176 64963533“/„017664963533“/„0176-64963533“ – keine Treffer (nur fremde Nummern auf phoneblock), keine Website",
+    "(4) Impressum-Suche „Impressum \"EA Elektroanlagen\" Inhaber Moosburg“ – kein eigenes Impressum, Inhaber nirgends genannt",
+    "(5) Google-Spiegel-Suche (trustlocal, firmania, rgv-bayern, zaubee, stadtbranchenbuch) – nur Stadtbranchenbuch und Zaubee, beide ohne Website-Feld; keine E-Mail (auch keine Freemail) gefunden",
+    "Website-Risiko: niedrig bis mittel – alle Website-Prüfungen negativ, aber Google-Eintrag nicht sicher belegt → RESERVE"
   ],
   "facts": {
     "services": [
-      "Carports",
-      "Dachstühle",
-      "Sanierungen",
-      "Neubauten",
-      "Dacheindeckungen",
-      "Fassaden",
-      "Balkone",
-      "Terrassen"
+      "Elektroinstallation"
     ],
     "experience": null,
     "praisedFor": []
   },
   "strategy": {
-    "audience": "Hauseigentümer und Bauherren in Adelshofen, Mammendorf, Moorenweis und im westlichen Landkreis Fürstenfeldbruck, die einen Dachstuhl, ein Carport, einen Balkon oder eine Holzfassade planen",
-    "mainService": "Zimmererarbeiten – Dachstuhl, Dacheindeckung und Holzbau rund ums Haus",
-    "trustSignal": "Inhabergeführte Zimmerei direkt in Adelshofen, per Handy erreichbar",
-    "conversionGoal": "Anfrage für Dachstuhl, Carport oder Balkon per Anruf oder WhatsApp mit Fotos",
-    "visualConcept": "Warmes Holz, sichtbare Sparren und klare Zimmermannsverbindungen vor ländlicher Kulisse – handwerklich und bodenständig"
+    "audience": "Hauseigentümer, Vermieter und Bauherren in Moosburg, Langenbach, Zolling und Wang, die Elektrik erneuern, erweitern oder reparieren lassen wollen",
+    "mainService": "Elektroinstallation im Haus – neu, Erweiterung und Reparatur",
+    "trustSignal": "Elektrobetrieb direkt in Moosburg, per Handy erreichbar",
+    "conversionGoal": "Anfrage für Elektroarbeiten per Anruf oder WhatsApp (mit Fotos vom Sicherungskasten oder der Stelle)",
+    "visualConcept": "Aufgeräumte Technik: sauber verdrahtete Unterverteilung, gerade gesetzte Schalter und warmes Licht in einem Wohnraum"
   },
   "sales": {
-    "score": 6,
+    "score": 3,
     "whyGoodLead": [
-      "Keine eigene Website gefunden – nur Gemeinde- und Branchenverzeichnisse",
-      "Mobilnummer und Gmail öffentlich gelistet – direkter Erstkontakt per WhatsApp möglich",
-      "Breites Holzbau-Angebot (Dachstuhl bis Terrasse), das online bisher nirgends gezeigt wird",
-      "Zimmerer sind im ländlichen Westen des Landkreises gefragt, Konkurrenz zeigt Referenzen online"
+      "Keine eigene Website gefunden – nur zwei Verzeichniseinträge",
+      "Mobilnummer öffentlich gelistet – gut für WhatsApp-Erstkontakt",
+      "Kaum Online-Sichtbarkeit: 0 Bewertungen, keine Leistungsbeschreibung",
+      "Elektro ist im Raum Moosburg gefragt (Sanierung, Neubau, Wallbox, PV-Nachrüstung)"
     ],
-    "pitch": "Hallo Herr Multerer, hier ist … – ich baue Websites für Handwerker im Landkreis Fürstenfeldbruck. Ihre Zimmerei in Adelshofen habe ich im Firmenverzeichnis der VG Mammendorf gefunden, aber keine eigene Website. Ich habe unverbindlich einen Entwurf vorbereitet, der Dachstühle, Carports und Balkone zeigt und Anfragen direkt per WhatsApp bringt – darf ich Ihnen den Link schicken?"
+    "pitch": "Hallo, hier ist … – ich baue Websites für Handwerker im Landkreis Freising. Ich habe „EA Elektroanlagen“ in Moosburg im Branchenbuch gefunden, aber keine eigene Website. Ich habe unverbindlich einen Entwurf vorbereitet, auf dem Kunden Ihre Elektroarbeiten sehen und Sie direkt per WhatsApp anfragen können – darf ich Ihnen den Link schicken?"
   },
   "manualChecks": [
-    "Website-Risiko: mittel – vor Versand in Google Maps prüfen, dass keine Website hinterlegt ist (Grund: Google-Eintrag nicht belegt, Annahme über öffentliche Gmail-Adresse im VG-Mammendorf-Verzeichnis)",
-    "Google-Eintrag in Maps suchen (Existenz, Bewertungen) – falls vorhanden, Bewertungen nachtragen",
-    "Namensgleiche Multerer-Firmen (Multerer GmbH Neukirchen b. Hl. Blut, Josef Multerer Walderbach) sind laut Quellen nicht verwandt – im Gespräch kurz bestätigen",
-    "Meistertitel nicht belegt – im Text nicht verwenden, beim Erstkontakt erfragen",
-    "Leistungen laut VG-Verzeichnis (Carports, Dachstühle, Sanierungen, Neubauten, Dacheindeckungen, Fassaden, Balkone, Terrassen) – Schwerpunkte beim Betrieb bestätigen",
+    "RESERVE – weder Google-Eintrag noch Freemail-Adresse belegt: NUR versenden, wenn Google Maps einen Eintrag OHNE Website zeigt. (Website-Prüfungen alle negativ; Zaubee zeigt 0 Bewertungen, Google-Profil aber nicht bestätigt)",
+    "In Google Maps nach „EA Elektroanlagen Moosburg“ suchen: Eintrag vorhanden? Website-Feld leer? Bewertungsanzahl?",
+    "Inhaber unbekannt – beim Erstkontakt erfragen, Anrede neutral halten; „EA“ nicht ausschreiben",
+    "Leistungen nur als „Elektroinstallateur“ belegt – Detailleistungen (Wallbox, PV, Smart Home, E-Check, Meisterbrief) vor Livegang bestätigen, bis dahin nur allgemeine Elektroinstallation zeigen",
+    "Nicht verwechseln mit EA-Gruppe / EA-Elektrotechnik GmbH (Philippsburg, eaelektro.de)",
     "Logo und Projektfotos: nicht gefunden – beim Betrieb anfragen"
   ],
   "sources": [
     {
-      "label": "Firmenverzeichnis Verwaltungsgemeinschaft Mammendorf – Zimmerei Multerer",
-      "url": "https://vgmammendorf.de/index.php?gid=41266&id=0%2C1202"
+      "label": "11880 – Elektriker Moosburg (Liste mit EA Elektroanlagen)",
+      "url": "https://www.11880.com/suche/elektriker/moosburg"
     },
     {
-      "label": "11880 – Zimmerer Moorenweis/Umgebung (Eintrag Zimmerei Multerer)",
-      "url": "https://www.11880.com/suche/zimmerei/moorenweis"
+      "label": "Stadtbranchenbuch Moosburg – EA Elektroanlagen, Sudetenlandstraße 33",
+      "url": "https://moosburg-a-d-isar.stadtbranchenbuch.com/8005352.html"
     },
     {
-      "label": "11880 – Zimmerer Hattenhofen/Umgebung",
-      "url": "https://www.11880.com/suche/zimmerei/hattenhofen-kreis-fuerstenfeldbruck"
+      "label": "Zaubee – EA Elektroanlagen, Sudetenlandstraße 33, Moosburg",
+      "url": "https://zaubee.com/biz/ea-elektroanlagen-oemdrquv"
     }
   ],
   "site": {
-    "theme": "werk",
+    "theme": "volt",
     "category": "handwerk",
     "heroOffer": [
-      "Dachstühle",
-      "Carports",
-      "Balkone",
-      "Holzfassaden",
-      "Terrassen"
+      "Elektroinstallation",
+      "Steckdosen",
+      "Beleuchtung",
+      "Unterverteilung",
+      "Reparaturen"
     ],
-    "scene": "facade",
-    "logoIcon": "roof",
-    "logoMark": "ZM",
-    "brandName": "Zimmerei Multerer",
-    "seoTitle": "Zimmerei in Adelshofen – Zimmerei Multerer",
-    "seoDescription": "Dachstühle, Carports, Balkone und Holzfassaden aus Adelshofen für den Landkreis Fürstenfeldbruck. Jetzt Anfrage per Anruf oder WhatsApp.",
+    "scene": "electric",
+    "logoIcon": "bolt",
+    "logoMark": "EA",
+    "brandName": "EA Elektroanlagen",
+    "seoTitle": "Elektriker in Moosburg – EA Elektroanlagen",
+    "seoDescription": "Elektroinstallation, Erweiterung und Reparatur in Moosburg an der Isar und Umgebung. Anfrage per Anruf oder WhatsApp.",
     "nav": [
       {
         "label": "Leistungen",
@@ -138,266 +131,271 @@
       }
     ],
     "hero": {
-      "eyebrow": "Zimmerei · Adelshofen",
-      "headline": "Zimmerei in Adelshofen",
-      "sub": "Dachstuhl, Carport oder Balkon – geplant und gebaut im westlichen Landkreis.",
-      "ctaPrimary": "Projekt anfragen",
+      "eyebrow": "Elektroinstallation · Moosburg",
+      "headline": "Elektriker in Moosburg an der Isar",
+      "sub": "Neue Leitungen, zusätzliche Steckdosen und Reparaturen – direkt aus Moosburg.",
+      "ctaPrimary": "Elektroarbeiten anfragen",
       "ctaSecondary": "Anrufen",
       "bullets": [
-        "Holzbau aus Adelshofen",
-        "Vom Dachstuhl bis zur Terrasse",
+        "Elektrobetrieb in Moosburg",
+        "Installation und Reparatur",
         "Direkt per Handy erreichbar"
       ],
-      "imageLabel": "frisch aufgerichteter Dachstuhl aus hellem Holz"
+      "imageLabel": "sauber verdrahtete Unterverteilung mit beschrifteten Sicherungen"
     },
     "badges": [
       {
-        "title": "Dachstuhl",
-        "sub": "Neubau & Sanierung"
+        "title": "Installation",
+        "sub": "neu und erweitert"
       },
       {
-        "title": "Carport",
-        "sub": "aus Holz"
+        "title": "Reparatur",
+        "sub": "wenn etwas ausfällt"
       },
       {
-        "title": "Balkon",
-        "sub": "& Terrasse"
+        "title": "Licht",
+        "sub": "innen und außen"
       },
       {
-        "title": "Adelshofen",
-        "sub": "Am Ziegelstadel"
+        "title": "Moosburg",
+        "sub": "Sudetenlandstraße"
       }
     ],
     "trust": [
       {
         "value": "Vor Ort",
-        "label": "Zimmerei in Adelshofen"
-      },
-      {
-        "value": "8",
-        "label": "Leistungen rund ums Holz"
-      },
-      {
-        "value": "Dach",
-        "label": "Stuhl und Eindeckung"
+        "label": "Betrieb in Moosburg"
       },
       {
         "value": "Mobil",
         "label": "direkt erreichbar"
+      },
+      {
+        "value": "Haus",
+        "label": "Wohnung, Haus, Garage"
+      },
+      {
+        "value": "WhatsApp",
+        "label": "Fotos vorab schicken"
       }
     ],
     "servicesIntro": {
-      "headline": "Holzbau vom Dach bis zur Terrasse",
-      "text": "Ob neuer Dachstuhl, Sanierung am Bestand oder ein Carport für zwei Autos: Die Zimmerei Multerer plant und baut mit Holz rund ums Haus."
+      "headline": "Elektrik, die im Alltag funktioniert",
+      "text": "Ob neue Küche, ausgebauter Keller oder eine Sicherung, die immer wieder fliegt: Hier finden Sie die typischen Elektroarbeiten im Haus."
     },
     "services": [
       {
-        "title": "Dachstühle",
-        "text": "Neue Dachstühle für Neubauten und Ersatz für alte Konstruktionen – passend zu Dachform und Eindeckung.",
+        "title": "Elektroinstallation",
+        "text": "Leitungen, Dosen und Anschlüsse für Neubau, Anbau oder Umbau – geplant nach Ihrer Raumnutzung.",
         "items": [
-          "Neubau",
-          "Austausch",
-          "Gauben nach Absprache"
+          "Neubau und Umbau",
+          "Leitungen verlegen",
+          "Anschlüsse"
         ]
       },
       {
-        "title": "Dacheindeckung",
-        "text": "Das Dach wird nach dem Abbund auch eingedeckt – ein Ansprechpartner für Tragwerk und Haut.",
+        "title": "Steckdosen & Schalter",
+        "text": "Zusätzliche Steckdosen dort, wo sie fehlen, und neue Schalterprogramme für ein einheitliches Bild.",
         "items": [
-          "Eindeckung",
-          "Lattung",
-          "Neues Dach"
+          "Zusätzliche Steckdosen",
+          "Schalter tauschen",
+          "Außensteckdose"
         ]
       },
       {
-        "title": "Carports",
-        "text": "Holz-Carports, die zum Haus passen und Auto, Fahrräder oder Brennholz trocken halten.",
+        "title": "Beleuchtung",
+        "text": "Deckenleuchten, Spots und Außenlicht – angeschlossen und so geschaltet, wie Sie es im Alltag brauchen.",
         "items": [
-          "Einzel-Carport",
-          "Doppel-Carport",
-          "Geräteraum"
+          "Deckenleuchten",
+          "Einbauspots",
+          "Außenbeleuchtung"
         ]
       },
       {
-        "title": "Balkone & Terrassen",
-        "text": "Balkone und Terrassen aus Holz – neu gebaut oder als Ersatz für morsche Altkonstruktionen.",
+        "title": "Unterverteilung",
+        "text": "Ordnung im Sicherungskasten: zusätzliche Stromkreise, klare Beschriftung und Schutzschalter.",
         "items": [
-          "Balkonbau",
-          "Terrassendeck",
-          "Geländer"
+          "Stromkreise ergänzen",
+          "Beschriftung",
+          "FI-Schutzschalter"
         ]
       },
       {
-        "title": "Holzfassaden",
-        "text": "Fassaden aus Holz schützen das Haus und geben ihm ein neues Gesicht.",
+        "title": "Reparaturen",
+        "text": "Wenn die Sicherung auslöst oder eine Dose ohne Strom ist, wird die Ursache gesucht und behoben.",
         "items": [
-          "Verschalung",
-          "Fassadenerneuerung",
-          "Anbauten"
+          "Fehlersuche",
+          "Defekte Dosen",
+          "Ausgefallene Kreise"
         ]
       },
       {
-        "title": "Sanierung & Neubau",
-        "text": "Vom Umbau im Bestand bis zum neuen Holzbauteil – Arbeiten am Bauernhaus wie am Einfamilienhaus.",
+        "title": "Altbau-Elektrik",
+        "text": "Alte Leitungen und Verteilungen in Bestandshäusern schrittweise auf einen sicheren Stand bringen.",
         "items": [
-          "Altbausanierung",
-          "Neubauten",
-          "Anbauten"
+          "Bestandsaufnahme",
+          "Leitungen erneuern",
+          "Schrittweise Sanierung"
         ]
       }
     ],
     "why": {
-      "headline": "Holzbau aus Adelshofen – mit kurzen Wegen.",
+      "headline": "Elektrik aus Moosburg – ohne Umwege.",
       "points": [
         {
-          "title": "Aus dem Ort",
-          "text": "Die Zimmerei sitzt in Adelshofen und ist schnell in Mammendorf, Jesenwang und Moorenweis."
+          "title": "Kurze Anfahrt",
+          "text": "Von der Sudetenlandstraße aus schnell in Moosburg, Langenbach, Zolling und Wang."
         },
         {
           "title": "Direkter Draht",
-          "text": "Sie sprechen mit dem Inhaber – per Anruf oder WhatsApp."
+          "text": "Sie sprechen gleich mit dem Betrieb – per Anruf oder WhatsApp."
         },
         {
-          "title": "Alles rund ums Holz",
-          "text": "Dachstuhl, Eindeckung, Carport und Balkon aus einer Hand statt mehrerer Gewerke."
+          "title": "Fotos genügen",
+          "text": "Ein Bild vom Sicherungskasten oder der Stelle hilft bei der ersten Einschätzung."
         },
         {
-          "title": "Bestand & Neubau",
-          "text": "Ob alter Hof oder neues Haus – Sanierung und Neubau gehören beide zum Alltag."
+          "title": "Klein bis groß",
+          "text": "Von der einzelnen Steckdose bis zur Installation im ganzen Haus."
         }
       ]
     },
     "reviews": {
       "headline": "Was Kunden sagen",
-      "summary": "Kundenstimmen werden hier eingebunden, sobald sie aus einem Bewertungsprofil übernommen sind.",
+      "summary": "Kundenstimmen werden hier eingebunden, sobald sie aus dem Google-Profil übernommen sind.",
       "highlights": [
-        "Zimmerei in Adelshofen",
-        "Dachstühle und Carports",
-        "Direkter Kontakt zum Inhaber"
+        "Elektroinstallation in Moosburg",
+        "Installation und Reparatur",
+        "Direkter Kontakt"
       ],
       "source": "Google",
-      "sourceUrl": "https://www.google.com/maps/search/?api=1&query=Zimmerei%20Multerer%20Am%20Ziegelstadel%208%20Adelshofen",
+      "sourceUrl": "https://www.google.com/maps/search/?api=1&query=EA%20Elektroanlagen%20Sudetenlandstra%C3%9Fe%2033%20Moosburg",
       "rating": null,
       "count": null
     },
     "process": {
-      "headline": "So entsteht Ihr Holzbau",
+      "headline": "So läuft Ihr Elektroauftrag",
       "steps": [
         {
-          "title": "Anfrage",
-          "text": "Kurz anrufen oder Fotos und Maße per WhatsApp schicken."
+          "title": "Nachricht",
+          "text": "Kurz beschreiben, was gebraucht wird – gern mit Foto per WhatsApp."
         },
         {
-          "title": "Termin vor Ort",
-          "text": "Bestand, Maße und Wünsche werden direkt am Haus besprochen."
+          "title": "Termin",
+          "text": "Vor Ort werden Leitungswege, Verteilung und Umfang angesehen."
         },
         {
           "title": "Angebot",
-          "text": "Sie erhalten ein nachvollziehbares Angebot für Holz und Arbeit."
+          "text": "Sie erhalten ein Angebot mit den vereinbarten Arbeiten."
         },
         {
-          "title": "Abbund & Montage",
-          "text": "Das Holz wird vorbereitet und vor Ort aufgerichtet und montiert."
+          "title": "Ausführung",
+          "text": "Installation, Prüfung der Anlage und Übergabe mit Erklärung."
         }
       ]
     },
     "gallery": {
-      "headline": "Holz, das trägt",
-      "text": "Für die Live-Version zeigen wir hier echte Projekte der Zimmerei.",
+      "headline": "Elektroarbeiten aus der Region",
+      "text": "Für die Live-Version zeigen wir hier echte Projekte des Betriebs.",
       "items": [
         {
-          "title": "Neuer Dachstuhl",
-          "photoNeeded": "aufgerichteter Dachstuhl vor der Eindeckung"
+          "title": "Neue Unterverteilung",
+          "photoNeeded": "aufgeräumter Sicherungskasten mit beschrifteten Stromkreisen"
         },
         {
-          "title": "Holz-Carport",
-          "photoNeeded": "fertiges Carport neben einem Einfamilienhaus"
+          "title": "Küchenanschlüsse",
+          "photoNeeded": "Steckdosen und Anschlüsse über der Arbeitsplatte"
         },
         {
-          "title": "Balkon",
-          "photoNeeded": "neuer Holzbalkon mit Geländer"
+          "title": "Einbauspots",
+          "photoNeeded": "Wohnraum mit gleichmäßig gesetzten Deckenspots"
         },
         {
-          "title": "Holzfassade",
-          "photoNeeded": "frisch verschalte Fassade an Haus oder Anbau"
+          "title": "Außenlicht",
+          "photoNeeded": "Hauseingang mit Wandleuchte und Außensteckdose"
         },
         {
-          "title": "Terrasse",
-          "photoNeeded": "Holzterrasse am Garten"
+          "title": "Altbau erneuert",
+          "photoNeeded": "neue Leitungen im geöffneten Mauerschlitz vor dem Verputzen"
         }
       ]
     },
     "region": {
-      "headline": "Zimmerei für Adelshofen und den westlichen Landkreis",
-      "text": "Von Adelshofen aus schnell in Nassenhausen, Mammendorf, Jesenwang, Moorenweis und Fürstenfeldbruck.",
+      "headline": "Elektriker für Moosburg und das Isartal",
+      "text": "Von Moosburg aus schnell in Langenbach, Zolling, Wang, Gammelsdorf und Freising.",
       "places": [
-        "Adelshofen",
-        "Nassenhausen",
-        "Mammendorf",
-        "Jesenwang",
-        "Moorenweis",
-        "Fürstenfeldbruck"
+        "Moosburg an der Isar",
+        "Langenbach",
+        "Zolling",
+        "Wang",
+        "Gammelsdorf",
+        "Freising"
       ]
     },
     "faq": [
       {
-        "q": "Bauen Sie auch Carports nach eigenen Maßen?",
-        "a": "Ja, Carports werden passend zu Grundstück und Haus geplant. Maße und Wünsche klären wir beim Termin vor Ort."
-      },
-      {
-        "q": "Können Sie einen alten Dachstuhl sanieren?",
-        "a": "Sanierungen gehören zum Angebot. Ob ausbessern oder erneuern, entscheidet sich nach der Besichtigung."
-      },
-      {
-        "q": "Übernehmen Sie auch die Dacheindeckung?",
-        "a": "Ja, Dacheindeckungen sind Teil der Leistungen – Tragwerk und Eindeckung kommen so aus einer Hand."
+        "q": "Übernehmen Sie auch kleine Aufträge?",
+        "a": "Ja, auch einzelne Steckdosen oder Leuchten – fragen Sie einfach an."
       },
       {
         "q": "Kann ich vorab Fotos schicken?",
-        "a": "Gern – Fotos und grobe Maße per WhatsApp helfen bei einer ersten Einschätzung."
+        "a": "Ja, Fotos per WhatsApp vom Sicherungskasten oder der Stelle helfen für eine erste Einschätzung."
       },
       {
-        "q": "In welchen Orten arbeiten Sie?",
-        "a": "Vor allem in Adelshofen und den Nachbarorten im Landkreis Fürstenfeldbruck. Fragen Sie für weitere Orte einfach an."
+        "q": "Meine Sicherung fliegt immer wieder – was tun?",
+        "a": "Gerät abstecken, Sicherung nicht dauerhaft wieder einschalten und kurz melden. Die Ursache wird vor Ort gesucht."
+      },
+      {
+        "q": "Arbeiten Sie auch im Altbau?",
+        "a": "Ja, Bestandsanlagen werden angesehen und bei Bedarf schrittweise erneuert."
+      },
+      {
+        "q": "In welchen Orten sind Sie unterwegs?",
+        "a": "In Moosburg und Umgebung, etwa Langenbach, Zolling, Wang und Freising."
       }
     ],
     "contact": {
-      "headline": "Erzählen Sie uns von Ihrem Holzbau",
-      "text": "Was ist geplant – Dachstuhl, Carport, Balkon oder Fassade? Ort, grobe Maße und ein paar Fotos genügen für den Anfang.",
+      "headline": "Elektroarbeiten anfragen",
+      "text": "Beschreiben Sie kurz, was gemacht werden soll und wo. Ein Foto der Stelle oder des Sicherungskastens hilft.",
       "topics": [
-        "Dachstuhl",
-        "Dacheindeckung",
-        "Carport",
-        "Balkon & Terrasse",
-        "Holzfassade",
+        "Elektroinstallation",
+        "Steckdosen & Schalter",
+        "Beleuchtung",
+        "Unterverteilung",
+        "Reparatur",
         "Sonstiges"
       ],
-      "responseNote": "Termin vor Ort nach Absprache."
+      "responseNote": "Termin nach Absprache."
     },
     "quote": {
-      "sizeLabel": "Was soll gebaut werden?",
+      "sizeLabel": "Worum geht es?",
       "sizes": [
-        "Carport oder Terrasse",
-        "Balkon",
-        "Dachstuhl / Dach",
-        "Fassade oder Anbau"
+        "Einzelne Steckdose/Leuchte",
+        "Ein Raum",
+        "Sicherungskasten",
+        "Ganzes Haus/Wohnung"
       ],
       "timings": [
-        "So bald wie möglich",
+        "Dringend",
         "In den nächsten Wochen",
         "In 1–3 Monaten",
         "Ich plane erst noch"
       ]
     },
-    "stickyCta": "Projekt anfragen",
+    "stickyCta": "Elektriker anfragen",
     "look": {
-      "palette": 2,
+      "palette": 0,
       "font": 6,
       "hero": 0,
-      "services": 1,
-      "radius": 1,
-      "logo": 0,
-      "intro": 5
+      "services": 2,
+      "radius": 2,
+      "logo": 2,
+      "intro": 3,
+      "projects": 1,
+      "process": 2,
+      "faq": 2,
+      "reviews": 0,
+      "order": 0
     }
   }
 }

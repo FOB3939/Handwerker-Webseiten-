@@ -8,18 +8,6 @@
    "hint": "RESERVE 2026-10-25: Name+Verzeichnis negativ, Domain/Telefon/Impressum offen; Tel. 08121 71591 (Vorlage scratchpad/reserve25)"
   },
   {
-   "name": "Zimmerei Franz X. Stierstorfer",
-   "trade": "Zimmerei",
-   "city": "Gröbenzell",
-   "hint": "RESERVE-geprüft; 08142 540393"
-  },
-  {
-   "name": "Wilhelm Gaugg Küchenmontage",
-   "trade": "Küchenmontage",
-   "city": "Freising",
-   "hint": "RESERVE-geprüft; 08161 66409"
-  },
-  {
    "name": "Jürgen Ostermeier Parkettlegermeister",
    "trade": "Parkett",
    "city": "Markt Schwaben",
@@ -42,24 +30,6 @@
    "trade": "Bau",
    "city": "Schwabmünchen",
    "hint": "Website negativ; 08232 958309"
-  },
-  {
-   "name": "Michael Steidinger Reinigungsservice",
-   "trade": "Reinigung",
-   "city": "Karlsfeld",
-   "hint": "08131 591751; Website-Prüfung offen"
-  },
-  {
-   "name": "Ludwig Kleber Metallbau",
-   "trade": "Metallbau",
-   "city": "Maisach",
-   "hint": "Festnetz; ungeprüft"
-  },
-  {
-   "name": "Baumpflege Hauser",
-   "trade": "Baumpflege",
-   "city": "Eching",
-   "hint": "ungeprüft"
   },
   {
    "name": "Andreas Strehl Malereibetrieb",
@@ -161,7 +131,7 @@
    "name": "Ulrich Weist Elektrotechnik",
    "trade": "Elektroinstallation",
    "city": "Wörthsee",
-   "hint": "RESERVE-geprüft 2026-10-26: Website negativ, kein Google/Freemail; 3 Festnetznummern (08153 887987/887874/984804) klären; Vorlage scratchpad/reserve26/weist.json"
+   "hint": "RESERVE-geprüft 2026-10-27 (Datei bereit, nicht gewählt): Website negativ, kein Google/Freemail; mehrere Nummern klären"
   },
   {
    "name": "Angelo Bruno Fliesenleger",
@@ -270,6 +240,78 @@
    "trade": "Elektro",
    "city": "Wörthsee",
    "hint": "08153 8613, ungeprüft"
+  },
+  {
+   "name": "Alexander Pechler Spenglerei und Bedachung",
+   "trade": "Spenglerei & Bedachung",
+   "city": "Röhrmoos",
+   "hint": "RESERVE-geprüft 2026-10-27 (Datei bereit, nicht gewählt): Website negativ, kein Google/Freemail; 08139 576789"
+  },
+  {
+   "name": "Rolf Tannek Metallbau",
+   "trade": "Metallbau",
+   "city": "Dachau",
+   "hint": "RESERVE-geprüft 2026-10-27 (Datei bereit, nicht gewählt): Website negativ, kein Google/Freemail; 08131 514871"
+  },
+  {
+   "name": "Walter Zacherl Zimmermeister",
+   "trade": "Zimmerei",
+   "city": "Moorenweis",
+   "hint": "08146 7280; Name negativ, kein Google/Freemail – Domain/Telefon offen, höchstens RESERVE"
+  },
+  {
+   "name": "Josef Höhenleiter Schmiedemeister",
+   "trade": "Schmiede",
+   "city": "Hebertshausen",
+   "hint": "keine Website, aber kein aktueller Betriebsnachweis"
+  },
+  {
+   "name": "Baudienstleistung Rupprecht",
+   "trade": "Zimmerei",
+   "city": "Petershausen",
+   "hint": "0173 4925079; ungeprüft, evtl. MiMaRu GmbH"
+  },
+  {
+   "name": "Marcus Stark Spenglerei",
+   "trade": "Spenglerei",
+   "city": "Olching",
+   "hint": "08142 442734; ungeprüft, voraussichtlich nur RESERVE"
+  },
+  {
+   "name": "Hermann Daniel Elektromeister",
+   "trade": "Elektroinstallation",
+   "city": "Stockdorf",
+   "hint": "089 8573206; ungeprüft"
+  },
+  {
+   "name": "Elektrotechnik Kromer",
+   "trade": "Elektroinstallation",
+   "city": "Eichenau",
+   "hint": "08141 3089998; ungeprüft"
+  },
+  {
+   "name": "Waske Elektrotechnik",
+   "trade": "Elektroinstallation",
+   "city": "Eichenau",
+   "hint": "08141 36127; ungeprüft"
+  },
+  {
+   "name": "Elektro Notdienst Moritz",
+   "trade": "Elektroinstallation",
+   "city": "Moosburg an der Isar",
+   "hint": "01579 2502397; ungeprüft, evtl. Medicvolt-Group"
+  },
+  {
+   "name": "Metallbau-Metallgestaltung Haidetz Klein",
+   "trade": "Metallbau",
+   "city": "Gauting",
+   "hint": "089 45226146; ungeprüft"
+  },
+  {
+   "name": "Edo Vidas Heizung-Sanitär",
+   "trade": "Heizung & Sanitär",
+   "city": "Weßling",
+   "hint": "08153 4131; ungeprüft"
   }
  ]
 }
