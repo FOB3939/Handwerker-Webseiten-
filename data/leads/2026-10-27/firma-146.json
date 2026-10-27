@@ -1,0 +1,418 @@
+{
+  "id": "2026-10-27-146",
+  "slug": "ulrich-weist-elektrotechnik-woerthsee",
+  "date": "2026-10-27",
+  "company": {
+    "name": "Ulrich Weist Elektrotechnik",
+    "owner": "Ulrich Weist",
+    "trade": "Elektroinstallation",
+    "city": "Wörthsee",
+    "address": "Sankt-Florian-Weg 2, 82237 Wörthsee (Etterschlag)",
+    "phone": "08153 887987",
+    "email": null,
+    "serviceArea": [
+      "Wörthsee",
+      "Etterschlag",
+      "Steinebach",
+      "Walchstadt",
+      "Inning",
+      "Weßling",
+      "Seefeld"
+    ]
+  },
+  "listings": {
+    "google": {
+      "url": "https://www.google.com/maps/search/?api=1&query=Ulrich%20Weist%20Elektrotechnik%20Sankt-Florian-Weg%202%20Wörthsee",
+      "rating": null,
+      "reviews": null,
+      "evidence": "NICHT BELEGT – kein Google-Spiegel (rgv-bayern, firmania, trustlocal) gefunden. elektriker.org zeigt 5,0/5 bei 6 Bewertungen (Plattform-Herkunft nicht genannt, „nicht in Gesamtbewertung einbezogen“), StarOfService listet den Betrieb in Wörthsee. In Maps prüfen."
+    },
+    "myhammer": {
+      "url": "https://www.11880.com/branchenbuch/woerthsee/060691303B110362851/ulrich-weist-elektrotechnik.html",
+      "rating": null,
+      "reviews": null,
+      "evidence": "Kein MyHammer gefunden – Eintrag „Ulrich Weist Elektrotechnik“ bei 11880 (Sankt-Florian-Weg 2, Etterschlag, (08153) 887987) sowie elektriker.org, elektriker24.org, elektriker.biz."
+    }
+  },
+  "websiteStatus": "keine eigene Website gefunden",
+  "websiteChecks": [
+    "(1) „Ulrich Weist Elektrotechnik Wörthsee“ mit blocked_domains (11880, Gelbe Seiten, Das Örtliche, Telefonbuch, Cylex, meinestadt, Creditreform, Facebook, Instagram, golocal, MyHammer, Northdata, Firmenwissen, WKDB, Yelp, trustlocal, wlw) – nur Verzeichnisse (elektriker.org, elektriker24.org, elektriker.biz, StarOfService, yasni); kein eigenes Impressum, keine Domain. Andere Wörthseer Elektriker (Ulmer EMT, 5 Seen Elektro) haben Websites, sind aber andere Firmen.",
+    "(2) Domain-Check allowed_domains elektro-weist.de, weist-elektrotechnik.de, elektrotechnik-weist.de, weist-elektro.de, elektroweist.de, ulrich-weist.de, weist.de, elektrotechnik-weist-woerthsee.de – keine Treffer",
+    "(3) Telefonsuche „08153 887987“/„08153 887874“/„08153 984804“ mit blocked_domains – nur elektriker24.org-Profile (Ulrich Weist Elektrotechnik bzw. „Elektrotechnik Weist“) und Rufnummernliste, keine Website",
+    "(4) Google-Spiegel-Suche (rgv-bayern, firmania, trustlocal, stadtbranchenbuch) – kein Treffer, kein Website-Feld sichtbar",
+    "Keine E-Mail gefunden (auch keine Freemail); keine Mobilnummer belegt",
+    "Website-Risiko: mittel – alle Prüfungen negativ, aber weder Google-Eintrag noch Freemail belegt (RESERVE)",
+    "Geprüft am 2026-10-26 (Website-Prüfungen negativ); am 2026-10-27 ohne neue Suchen übernommen"
+  ],
+  "facts": {
+    "services": [
+      "Elektroinstallation",
+      "Neuinstallation",
+      "Erweiterungen",
+      "Reparaturen",
+      "Verkabelung",
+      "Steuerungstechnik",
+      "Solartechnik"
+    ],
+    "experience": null,
+    "praisedFor": []
+  },
+  "strategy": {
+    "audience": "Hausbesitzer, Vermieter und kleine Gewerbe in Wörthsee, Inning, Weßling und Seefeld, die Leitungen erneuern, Räume nachrüsten oder Störungen beheben lassen wollen",
+    "mainService": "Elektroinstallation – Neuinstallation, Erweiterung und Reparatur",
+    "trustSignal": "Inhabergeführter Elektrobetrieb in Etterschlag – Ansprechpartner ist Ulrich Weist selbst",
+    "conversionGoal": "Rückruf oder Angebot für Elektroarbeiten anfragen (Telefon/Formular mit Fotos)",
+    "visualConcept": "Aufgeräumte Technik: sauber beschriftete Unterverteilung, gerade verlegte Leitungen, helle Räume am Wörthsee – klar, präzise, ruhig"
+  },
+  "sales": {
+    "score": 4,
+    "whyGoodLead": [
+      "Keine eigene Website gefunden – nur Branchenverzeichnisse",
+      "Inhabergeführter Kleinbetrieb, Name des Inhabers bekannt",
+      "Wenige Bewertungen (6 auf elektriker.org) – Website + Google-Profil bringen Sichtbarkeit",
+      "Elektriker am Westufer des Wörthsees gefragt (Sanierung, PV, Nachrüstung)"
+    ],
+    "pitch": "Grüß Gott Herr Weist, hier ist … – ich baue Websites für Handwerksbetriebe im Fünfseenland. Ich habe Ihren Eintrag „Ulrich Weist Elektrotechnik“ in Etterschlag gefunden, aber keine eigene Website. Ich habe unverbindlich einen Entwurf vorbereitet, über den Kunden aus Wörthsee und Umgebung Ihre Elektroarbeiten finden und direkt anfragen können – darf ich Ihnen den Link schicken?"
+  },
+  "manualChecks": [
+    "RESERVE – weder Google-Eintrag noch Freemail-Adresse belegt: NUR versenden, wenn Google Maps einen Eintrag OHNE Website zeigt.",
+    "Telefonnummer klären: Verzeichnisse nennen 08153 887987 (11880, elektriker24), 08153 887874 sowie 08153 984804 („Elektrotechnik Weist“) – vor Kontakt die aktuelle Nummer prüfen",
+    "Google-Eintrag in Maps suchen (Existenz, Bewertungen, Website-Feld) – elektriker.org-Bewertungen (5,0/6) nicht eindeutig Google",
+    "Keine Mobilnummer belegt – Erstkontakt per Festnetz/Anruf, kein WhatsApp voraussetzen",
+    "Leistungen nur aus Verzeichnistexten (Installation, Erweiterung, Reparatur, Verkabelung; einmal Steuerungs- und Solartechnik) – beim Betrieb bestätigen",
+    "Logo und Projektfotos: nicht gefunden – beim Betrieb anfragen"
+  ],
+  "sources": [
+    {
+      "label": "11880 – Ulrich Weist Elektrotechnik Wörthsee",
+      "url": "https://www.11880.com/branchenbuch/woerthsee/060691303B110362851/ulrich-weist-elektrotechnik.html"
+    },
+    {
+      "label": "elektriker.org – Ulrich Weist Elektrotechnik (5,0 / 6 Bewertungen)",
+      "url": "https://www.elektriker.org/woerthsee/ulrich-weist-elektrotechnik-aUMzLZ"
+    },
+    {
+      "label": "elektriker24.org – Ulrich Weist Elektrotechnik",
+      "url": "https://www.elektriker24.org/stadt/woerthsee/profil/ulrich-weist-elektrotechnik/"
+    },
+    {
+      "label": "elektriker24.org – Elektrotechnik Weist",
+      "url": "https://www.elektriker24.org/stadt/woerthsee/profil/elektrotechnik-weist/"
+    },
+    {
+      "label": "elektriker.biz – Ulrich Weist Wörthsee",
+      "url": "https://www.elektriker.biz/woerthsee/ulrich-weist-2920377.html"
+    }
+  ],
+  "site": {
+    "theme": "volt",
+    "category": "handwerk",
+    "heroOffer": [
+      "Elektroinstallation",
+      "Erweiterungen",
+      "Reparaturen",
+      "Verkabelung",
+      "Solartechnik"
+    ],
+    "scene": "electric",
+    "logoIcon": "bolt",
+    "logoMark": "UW",
+    "brandName": "Weist Elektrotechnik",
+    "seoTitle": "Elektriker in Wörthsee – Ulrich Weist Elektrotechnik",
+    "seoDescription": "Elektroinstallation, Erweiterungen und Reparaturen in Wörthsee, Inning und Weßling. Jetzt Rückruf oder Angebot anfragen.",
+    "nav": [
+      {
+        "label": "Leistungen",
+        "href": "#leistungen"
+      },
+      {
+        "label": "Projekte",
+        "href": "#projekte"
+      },
+      {
+        "label": "Bewertungen",
+        "href": "#bewertungen"
+      },
+      {
+        "label": "Ablauf",
+        "href": "#ablauf"
+      },
+      {
+        "label": "FAQ",
+        "href": "#faq"
+      },
+      {
+        "label": "Kontakt",
+        "href": "#kontakt"
+      }
+    ],
+    "hero": {
+      "eyebrow": "Elektrotechnik · Wörthsee-Etterschlag",
+      "headline": "Ihr Elektriker in Wörthsee",
+      "sub": "Neue Leitungen, zusätzliche Steckdosen und Reparaturen – direkt vom Inhaber erledigt.",
+      "ctaPrimary": "Angebot anfragen",
+      "ctaSecondary": "Anrufen",
+      "bullets": [
+        "Betrieb in Etterschlag",
+        "Installation und Reparatur",
+        "Inhaber als Ansprechpartner"
+      ],
+      "imageLabel": "aufgeräumte Unterverteilung mit beschrifteten Sicherungen"
+    },
+    "badges": [
+      {
+        "title": "Installation",
+        "sub": "Neubau & Bestand"
+      },
+      {
+        "title": "Reparatur",
+        "sub": "Störungen beheben"
+      },
+      {
+        "title": "Verkabelung",
+        "sub": "sauber verlegt"
+      },
+      {
+        "title": "Wörthsee",
+        "sub": "Sankt-Florian-Weg"
+      }
+    ],
+    "trust": [
+      {
+        "value": "Vor Ort",
+        "label": "Betrieb in Etterschlag"
+      },
+      {
+        "value": "Inhaber",
+        "label": "Ulrich Weist persönlich"
+      },
+      {
+        "value": "5,0",
+        "label": "auf elektriker.org (6 Bew.)"
+      },
+      {
+        "value": "Fünfseenland",
+        "label": "kurze Anfahrt"
+      }
+    ],
+    "servicesIntro": {
+      "headline": "Elektroarbeiten für Haus und Betrieb",
+      "text": "Von der Steckdose im Hobbyraum bis zur kompletten Neuinstallation: Ulrich Weist plant und verlegt die Elektrik so, dass sie heute passt und später erweiterbar bleibt."
+    },
+    "services": [
+      {
+        "title": "Elektroinstallation",
+        "text": "Neue Leitungen, Schalter und Steckdosen für Neubau, Umbau und Sanierung – geplant nach Ihrem Grundriss.",
+        "items": [
+          "Neubau",
+          "Umbau",
+          "Sanierung"
+        ]
+      },
+      {
+        "title": "Erweiterungen",
+        "text": "Zusätzliche Steckdosen, Lampenanschlüsse oder ein neuer Stromkreis für Werkstatt, Garage oder Büro.",
+        "items": [
+          "Steckdosen",
+          "Stromkreise",
+          "Außenanschlüsse"
+        ]
+      },
+      {
+        "title": "Reparaturen",
+        "text": "Fliegt die Sicherung, flackert das Licht oder ist ein Schalter defekt, wird die Ursache gesucht und behoben.",
+        "items": [
+          "Fehlersuche",
+          "Defekte Schalter",
+          "Sicherungen"
+        ]
+      },
+      {
+        "title": "Verkabelung",
+        "text": "Sauber verlegte Leitungen für Strom und Daten – in Leerrohr, Kanal oder unter Putz.",
+        "items": [
+          "Strom",
+          "Netzwerk",
+          "Leerrohre"
+        ]
+      },
+      {
+        "title": "Unterverteilung",
+        "text": "Alte Sicherungskästen werden erneuert und übersichtlich beschriftet, damit im Störfall jeder Kreis schnell zu finden ist.",
+        "items": [
+          "Sicherungskasten",
+          "FI-Schutz",
+          "Beschriftung"
+        ]
+      },
+      {
+        "title": "Steuerung & Solar",
+        "text": "Anschluss von Steuerungen und Solartechnik an die Hausinstallation – Details im Gespräch.",
+        "items": [
+          "Steuerungstechnik",
+          "Solartechnik",
+          "Anschluss"
+        ]
+      }
+    ],
+    "why": {
+      "headline": "Elektrik aus Etterschlag – ohne Umwege.",
+      "points": [
+        {
+          "title": "Kurze Wege",
+          "text": "Von Etterschlag aus sind Steinebach, Inning, Weßling und Seefeld schnell erreicht."
+        },
+        {
+          "title": "Ein Ansprechpartner",
+          "text": "Sie sprechen mit Ulrich Weist selbst – von der Anfrage bis zur Übergabe."
+        },
+        {
+          "title": "Erweiterbar geplant",
+          "text": "Leitungen und Verteilung werden so ausgelegt, dass spätere Wünsche Platz haben."
+        },
+        {
+          "title": "Sauber übergeben",
+          "text": "Nach den Arbeiten bleibt keine Baustelle zurück – Stromkreise sind beschriftet."
+        }
+      ]
+    },
+    "reviews": {
+      "headline": "Was Kunden sagen",
+      "summary": "Kundenstimmen werden hier eingebunden, sobald sie aus dem Google-Profil übernommen sind.",
+      "highlights": [
+        "Elektroinstallation in Wörthsee",
+        "Erweiterungen und Reparaturen",
+        "Persönlicher Kontakt"
+      ],
+      "source": "Google",
+      "sourceUrl": "https://www.google.com/maps/search/?api=1&query=Ulrich%20Weist%20Elektrotechnik%20Sankt-Florian-Weg%202%20Wörthsee",
+      "rating": null,
+      "count": null
+    },
+    "process": {
+      "headline": "So läuft Ihr Auftrag ab",
+      "steps": [
+        {
+          "title": "Anfrage",
+          "text": "Kurz anrufen oder das Formular nutzen – Fotos vom Sicherungskasten helfen."
+        },
+        {
+          "title": "Besichtigung",
+          "text": "Vor Ort werden Umfang, Leitungswege und Wünsche abgestimmt."
+        },
+        {
+          "title": "Angebot",
+          "text": "Sie erhalten ein nachvollziehbares Angebot für die vereinbarten Arbeiten."
+        },
+        {
+          "title": "Ausführung",
+          "text": "Installation, Prüfung und Übergabe mit beschrifteter Verteilung."
+        }
+      ]
+    },
+    "gallery": {
+      "headline": "Arbeiten aus der Region",
+      "text": "Für die Live-Version zeigen wir hier echte Projekte des Betriebs.",
+      "items": [
+        {
+          "title": "Neue Unterverteilung",
+          "photoNeeded": "erneuerter, beschrifteter Sicherungskasten"
+        },
+        {
+          "title": "Küchenanschluss",
+          "photoNeeded": "Steckdosen und Anschlüsse in neuer Küche"
+        },
+        {
+          "title": "Leitungen verlegen",
+          "photoNeeded": "Leerrohre im Rohbau vor dem Verputzen"
+        },
+        {
+          "title": "Außenbeleuchtung",
+          "photoNeeded": "Außenleuchte an Hauseingang am Abend"
+        },
+        {
+          "title": "Garage",
+          "photoNeeded": "neuer Stromkreis mit Steckdosen in Garage"
+        }
+      ]
+    },
+    "region": {
+      "headline": "Elektriker für Wörthsee und das Fünfseenland",
+      "text": "Von Etterschlag aus nach Steinebach, Walchstadt, Inning, Weßling, Seefeld und Gilching.",
+      "places": [
+        "Wörthsee",
+        "Etterschlag",
+        "Steinebach",
+        "Walchstadt",
+        "Inning",
+        "Weßling",
+        "Seefeld",
+        "Gilching"
+      ]
+    },
+    "faq": [
+      {
+        "q": "Übernehmen Sie auch kleine Aufträge?",
+        "a": "Ja, auch einzelne Steckdosen oder Reparaturen – fragen Sie einfach an."
+      },
+      {
+        "q": "Kann ich vorab Fotos schicken?",
+        "a": "Ja, Fotos vom Sicherungskasten oder der Stelle helfen bei der ersten Einschätzung."
+      },
+      {
+        "q": "Erneuern Sie alte Sicherungskästen?",
+        "a": "Ja, Unterverteilungen werden erneuert und übersichtlich beschriftet."
+      },
+      {
+        "q": "Arbeiten Sie auch in Inning und Weßling?",
+        "a": "Ja, im Umkreis von Wörthsee – Inning, Weßling, Seefeld und Gilching inklusive."
+      },
+      {
+        "q": "Wie schnell bekomme ich einen Termin?",
+        "a": "Das hängt von der Auslastung ab. Rufen Sie an, dann wird ein Termin abgestimmt."
+      }
+    ],
+    "contact": {
+      "headline": "Elektroarbeiten anfragen",
+      "text": "Beschreiben Sie kurz, was gemacht werden soll: Neuinstallation, Erweiterung oder Reparatur. Fotos helfen.",
+      "topics": [
+        "Elektroinstallation",
+        "Erweiterung",
+        "Reparatur",
+        "Verkabelung",
+        "Sonstiges"
+      ],
+      "responseNote": "Besichtigung nach Absprache."
+    },
+    "quote": {
+      "sizeLabel": "Worum geht es?",
+      "sizes": [
+        "Einzelne Reparatur",
+        "Ein Raum",
+        "Mehrere Räume",
+        "Ganzes Haus"
+      ],
+      "timings": [
+        "So bald wie möglich",
+        "In den nächsten Wochen",
+        "In 1–3 Monaten",
+        "Ich plane erst noch"
+      ]
+    },
+    "stickyCta": "Angebot anfragen",
+    "look": {
+      "palette": 4,
+      "font": 9,
+      "hero": 1,
+      "services": 3,
+      "radius": 0,
+      "logo": 5,
+      "intro": 4,
+      "projects": 0,
+      "process": 0,
+      "faq": 2,
+      "reviews": 1,
+      "order": 1
+    }
+  }
+}
