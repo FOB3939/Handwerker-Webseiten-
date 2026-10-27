@@ -1,0 +1,416 @@
+{
+  "id": "2026-10-27-155",
+  "slug": "dachdeckerei-markus-jaeger-alling",
+  "date": "2026-10-27",
+  "company": {
+    "name": "Dachdeckerei Markus Jäger",
+    "owner": "Markus Jäger",
+    "trade": "Dachdecker",
+    "city": "Alling",
+    "address": "Pfarrgasse 1, 82239 Alling",
+    "phone": "08141 80000",
+    "email": "jaeger-daecher@t-online.de",
+    "serviceArea": [
+      "Alling",
+      "Biburg",
+      "Eichenau",
+      "Germering",
+      "Puchheim",
+      "Fürstenfeldbruck",
+      "Gilching"
+    ]
+  },
+  "listings": {
+    "google": {
+      "url": "https://www.google.com/maps/search/?api=1&query=Dachdeckerei%20Markus%20J%C3%A4ger%20Pfarrgasse%201%20Alling",
+      "rating": 4.8,
+      "reviews": null,
+      "evidence": "INDIREKT (Spiegel) – trustlocal.de führt „Dachdeckerei Markus Jäger“ (Alling, Kategorie Dachdecker) und nennt eine Google-Bewertung von 4,8; Anzahl im Snippet widersprüchlich (7 bzw. 12 Bewertungen). Kein Website-Feld im Snippet. Kein direkter google.com/maps-Treffer – in Maps prüfen."
+    },
+    "myhammer": {
+      "url": "https://www.11880.com/branchenbuch/alling-oberbayern/132381074B27579206/markus-jaeger-dachdeckermeister.html",
+      "rating": null,
+      "reviews": null,
+      "evidence": "Kein MyHammer gefunden – Einträge bei 11880 (1 Bewertung, 5/5), Das Örtliche (1 Bewertung, 5,0), Dachdeckerinnung München-Oberbayern, orte.muenchen.de, dachdecker.com, goyellow; überall Pfarrgasse 1, Tel. 08141 80000, Fax 08141 80066."
+    }
+  },
+  "websiteStatus": "keine eigene Website gefunden",
+  "websiteChecks": [
+    "(1) „Dachdeckerei Markus Jäger Alling“ mit blocked_domains (11880, Gelbe Seiten, Das Örtliche, Telefonbuch, Cylex, meinestadt, Creditreform, Facebook, Instagram, golocal, MyHammer, Northdata, Firmenwissen, WKDB, Yelp, trustlocal, wlw) – nur Verzeichnisse (orte.muenchen.de, Dachdeckerinnung OBB, dachdecker.com, ratgeber-solar, goyellow, branchen-info); keine eigene Domain",
+    "(2) Domain-Check allowed_domains jaeger-daecher.de, jaeger-dach.de, dachdecker-jaeger.de, jaeger-bedachungen.de, dachdeckerei-jaeger.de, jaeger-alling.de, markus-jaeger.de, jaegerdach.de – jaeger-daecher.de (Domain der E-Mail-Adresse) ohne Treffer; jaeger-dach.de (Thomas Jäger, Pirna) und jaeger-bedachungen.de (Leon Jäger, Bergisches Land) sind fremde Betriebe",
+    "(3) Telefonsuche „08141 80000“ mit blocked_domains – nur Verzeichnisse und Innungsseite, keine Website",
+    "(4) Impressum-Suche „Impressum Markus Jäger Dachdeckermeister Pfarrgasse Alling“ – kein eigenes Impressum gefunden",
+    "(5) E-Mail: jaeger-daecher@t-online.de (Freemail, öffentlich auf der Seite der Dachdeckerinnung München-Oberbayern); ein Verzeichnis nennt abweichend dachdeckerinnung@t-online.de",
+    "(6) Weiterer Eintrag „Jäger Josef u. Eva“, Hartstr. 6a, Alling (Dachdecker, branchen-info) – vermutlich Familienbezug; dafür keine Website aufgefallen",
+    "Website-Risiko: niedrig – alle Prüfungen negativ, Freemail öffentlich belegt, Google-Eintrag über trustlocal gespiegelt"
+  ],
+  "facts": {
+    "services": [
+      "Dachreparatur",
+      "Flachdachsanierung",
+      "Spenglerarbeiten",
+      "Dachbeschichtung",
+      "Dachbegrünung",
+      "Solaranlagen"
+    ],
+    "experience": null,
+    "praisedFor": []
+  },
+  "strategy": {
+    "audience": "Hausbesitzer in Alling, Eichenau, Germering und Fürstenfeldbruck mit undichtem Dach, sanierungsbedürftigem Flachdach oder Plänen für Solar und Gründach",
+    "mainService": "Dachreparatur und Flachdachsanierung",
+    "trustSignal": "Dachdeckermeister mit Sitz in Alling, Mitglied der Dachdeckerinnung München-Oberbayern",
+    "conversionGoal": "Dachcheck oder Reparatur-Anfrage per Anruf oder Formular (gern mit Fotos vom Schaden)",
+    "visualConcept": "Ziegeldach und Blechkanten im Abendlicht: rote Biberschwänze, Zinkrinne, klare Linien – handfest und ruhig"
+  },
+  "sales": {
+    "score": 6,
+    "whyGoodLead": [
+      "Keine eigene Website gefunden – nur Verzeichnis- und Innungseinträge",
+      "Meisterbetrieb mit Innungsmitgliedschaft – seriöse Basis für eine Website",
+      "Google-Eintrag mit guter Bewertung (4,8 laut trustlocal), aber kaum Sichtbarkeit außerhalb von Verzeichnissen",
+      "Dachdecker sind im Landkreis Fürstenfeldbruck gefragt – Website mit Anfrageformular bringt direkte Aufträge"
+    ],
+    "pitch": "Grüß Gott Herr Jäger, ich baue Websites für Handwerker im Landkreis Fürstenfeldbruck. Ihre Dachdeckerei in Alling habe ich bei Google und der Innung gefunden, aber keine eigene Website. Ich habe unverbindlich einen Entwurf vorbereitet, auf dem Kunden Ihre Dach- und Spenglerarbeiten sehen und direkt eine Reparatur anfragen können – darf ich Ihnen den Link per E-Mail schicken?"
+  },
+  "manualChecks": [
+    "Website-Risiko: niedrig – vor Versand in Google Maps prüfen, dass keine Website hinterlegt ist (Grund: Google-Eintrag nur über trustlocal gespiegelt, Bewertungsanzahl widersprüchlich 7 vs. 12)",
+    "Keine Mobilnummer gefunden – Erstkontakt per E-Mail (jaeger-daecher@t-online.de) oder Festnetz 08141 80000",
+    "Verhältnis zum Eintrag „Jäger Josef u. Eva“ (Hartstr. 6a, Alling, Dachdecker) klären – evtl. Vorgänger-/Familienbetrieb",
+    "Leistungen stammen aus Verzeichniskategorien (Dachreparatur, Flachdach, Spengler, Dachbeschichtung, Dachbegrünung, Solar) – beim Betrieb bestätigen",
+    "Öffnungszeiten widersprüchlich (Mo–Fr 8–17 bzw. 8–18 Uhr) – nicht auf der Seite verwenden, bis bestätigt",
+    "Logo und Projektfotos: nicht gefunden – beim Betrieb anfragen"
+  ],
+  "sources": [
+    {
+      "label": "Dachdeckerinnung München-Oberbayern – Markus Jäger (Adresse, Tel., E-Mail)",
+      "url": "https://dachdeckerinnung-obb.de/de-de/markus-jaeger-6055289/"
+    },
+    {
+      "label": "trustlocal – Dachdeckerei Markus Jäger, Alling (Google-Bewertung)",
+      "url": "https://trustlocal.de/bayern/alling/dachdecker/dachdeckerei-markus-jager/"
+    },
+    {
+      "label": "11880 – Dachdeckerei Markus Jäger Alling",
+      "url": "https://www.11880.com/branchenbuch/alling-oberbayern/132381074B27579206/markus-jaeger-dachdeckermeister.html"
+    },
+    {
+      "label": "Das Örtliche – Jäger Markus Dachdeckermeister, Alling",
+      "url": "https://www.dasoertliche.de/Themen/J%C3%A4ger-Markus-Dachdeckermeister-Alling-Pfarrgasse"
+    },
+    {
+      "label": "orte.muenchen.de – Markus Jäger Alling Dachdecker",
+      "url": "https://orte.muenchen.de/164834.html"
+    },
+    {
+      "label": "dachdecker.com – Markus Jäger Dachdeckermeister (Leistungen)",
+      "url": "https://www.dachdecker.com/alling/markus-jaeger-dachdeckermeister-aULcwM"
+    }
+  ],
+  "site": {
+    "theme": "werk",
+    "category": "handwerk",
+    "heroOffer": [
+      "Dachreparatur",
+      "Flachdach",
+      "Spenglerarbeiten",
+      "Gründach",
+      "Solar"
+    ],
+    "scene": "facade",
+    "logoIcon": "roof",
+    "logoMark": "MJ",
+    "brandName": "Dachdeckerei Markus Jäger",
+    "seoTitle": "Dachdecker in Alling – Dachdeckerei Markus Jäger",
+    "seoDescription": "Dachreparatur, Flachdachsanierung und Spenglerarbeiten in Alling, Eichenau und Germering. Dachdeckermeister Markus Jäger – jetzt anfragen.",
+    "nav": [
+      {
+        "label": "Leistungen",
+        "href": "#leistungen"
+      },
+      {
+        "label": "Projekte",
+        "href": "#projekte"
+      },
+      {
+        "label": "Bewertungen",
+        "href": "#bewertungen"
+      },
+      {
+        "label": "Ablauf",
+        "href": "#ablauf"
+      },
+      {
+        "label": "FAQ",
+        "href": "#faq"
+      },
+      {
+        "label": "Kontakt",
+        "href": "#kontakt"
+      }
+    ],
+    "hero": {
+      "eyebrow": "Dachdeckermeister · Alling",
+      "headline": "Dachdecker aus Alling",
+      "sub": "Reparaturen, Flachdächer und Spenglerarbeiten vom Meisterbetrieb in der Pfarrgasse.",
+      "ctaPrimary": "Dach-Anfrage stellen",
+      "ctaSecondary": "Anrufen",
+      "bullets": [
+        "Meisterbetrieb in Alling",
+        "Mitglied der Dachdeckerinnung",
+        "Steil- und Flachdach"
+      ],
+      "imageLabel": "Ziegeldach mit neuer Zinkrinne"
+    },
+    "badges": [
+      {
+        "title": "Meisterbetrieb",
+        "sub": "Dachdeckermeister"
+      },
+      {
+        "title": "Innung",
+        "sub": "München-Oberbayern"
+      },
+      {
+        "title": "Flachdach",
+        "sub": "Sanierung & Abdichtung"
+      },
+      {
+        "title": "Alling",
+        "sub": "Pfarrgasse 1"
+      }
+    ],
+    "trust": [
+      {
+        "value": "Meister",
+        "label": "Dachdeckermeister Markus Jäger"
+      },
+      {
+        "value": "Innung",
+        "label": "Dachdecker München-Oberbayern"
+      },
+      {
+        "value": "6",
+        "label": "Leistungen rund ums Dach"
+      },
+      {
+        "value": "Vor Ort",
+        "label": "Betrieb in Alling"
+      }
+    ],
+    "servicesIntro": {
+      "headline": "Vom Ziegel bis zur Rinne",
+      "text": "Ob Sturmschaden, undichtes Flachdach oder neue Dachrinne: Der Meisterbetrieb aus Alling kümmert sich um das ganze Dach."
+    },
+    "services": [
+      {
+        "title": "Dachreparatur",
+        "text": "Verrutschte Ziegel, Sturmschäden oder eine undichte Stelle werden gefunden und behoben, bevor Wasser ins Haus läuft.",
+        "items": [
+          "Sturmschäden",
+          "Undichte Stellen",
+          "Ziegel ersetzen"
+        ]
+      },
+      {
+        "title": "Flachdachsanierung",
+        "text": "Alte Flachdächer auf Garage, Anbau oder Wohnhaus werden neu abgedichtet und wieder dicht.",
+        "items": [
+          "Abdichtung",
+          "Garagendach",
+          "Anbauten"
+        ]
+      },
+      {
+        "title": "Spenglerarbeiten",
+        "text": "Dachrinnen, Fallrohre und Blechanschlüsse leiten Regenwasser sauber vom Dach ab.",
+        "items": [
+          "Dachrinnen",
+          "Fallrohre",
+          "Anschlüsse"
+        ]
+      },
+      {
+        "title": "Dachbeschichtung",
+        "text": "Eine Beschichtung schützt die Dachfläche und frischt das Erscheinungsbild auf.",
+        "items": [
+          "Schutzschicht",
+          "Dachfläche",
+          "Werterhalt"
+        ]
+      },
+      {
+        "title": "Dachbegrünung",
+        "text": "Ein Gründach auf Garage oder Flachdach hält Regenwasser zurück und schützt die Abdichtung.",
+        "items": [
+          "Gründach",
+          "Garage",
+          "Flachdach"
+        ]
+      },
+      {
+        "title": "Solaranlagen",
+        "text": "Beim Montieren von Solarmodulen bleibt das Dach dicht – die Dachdeckung wird fachgerecht angepasst.",
+        "items": [
+          "Montage aufs Dach",
+          "Dachanschlüsse",
+          "Dichtheit"
+        ]
+      }
+    ],
+    "why": {
+      "headline": "Ein Dachdeckermeister direkt aus Alling.",
+      "points": [
+        {
+          "title": "Meisterbetrieb",
+          "text": "Markus Jäger ist Dachdeckermeister und Mitglied der Dachdeckerinnung München-Oberbayern."
+        },
+        {
+          "title": "Kurze Anfahrt",
+          "text": "Von der Pfarrgasse in Alling schnell in Eichenau, Germering, Puchheim und Fürstenfeldbruck."
+        },
+        {
+          "title": "Dach und Blech",
+          "text": "Dacharbeiten und Spenglerarbeiten aus einer Hand – ohne zweiten Betrieb abzustimmen."
+        },
+        {
+          "title": "Steil und flach",
+          "text": "Ziegeldach, Garagendach oder Flachdach: Der Betrieb übernimmt beides."
+        }
+      ]
+    },
+    "reviews": {
+      "headline": "Was Kunden sagen",
+      "summary": "Kundenstimmen werden hier eingebunden, sobald sie aus dem Google-Profil übernommen sind.",
+      "highlights": [
+        "Dachdeckermeister in Alling",
+        "Dach- und Spenglerarbeiten",
+        "Flachdachsanierung"
+      ],
+      "source": "Google",
+      "sourceUrl": "https://www.google.com/maps/search/?api=1&query=Dachdeckerei%20Markus%20J%C3%A4ger%20Pfarrgasse%201%20Alling",
+      "rating": null,
+      "count": null
+    },
+    "process": {
+      "headline": "So kommt Ihr Dach in Ordnung",
+      "steps": [
+        {
+          "title": "Anfrage",
+          "text": "Schaden kurz beschreiben oder anrufen – Fotos vom Dach helfen bei der Einschätzung."
+        },
+        {
+          "title": "Begutachtung",
+          "text": "Das Dach wird vor Ort angeschaut und die Ursache gesucht."
+        },
+        {
+          "title": "Angebot",
+          "text": "Sie erhalten ein Angebot mit den nötigen Arbeiten."
+        },
+        {
+          "title": "Ausführung",
+          "text": "Reparatur oder Sanierung wird ausgeführt und das Dach sauber übergeben."
+        }
+      ]
+    },
+    "gallery": {
+      "headline": "Dächer aus der Region",
+      "text": "Für die Live-Version zeigen wir hier echte Projekte des Betriebs.",
+      "items": [
+        {
+          "title": "Ziegeldach",
+          "photoNeeded": "neu eingedecktes Ziegeldach eines Einfamilienhauses"
+        },
+        {
+          "title": "Flachdach",
+          "photoNeeded": "frisch abgedichtetes Flachdach auf Garage oder Anbau"
+        },
+        {
+          "title": "Dachrinne",
+          "photoNeeded": "neue Zinkrinne mit Fallrohr"
+        },
+        {
+          "title": "Gründach",
+          "photoNeeded": "begrüntes Garagendach"
+        },
+        {
+          "title": "Sturmschaden",
+          "photoNeeded": "reparierte Dachfläche nach Sturm"
+        }
+      ]
+    },
+    "region": {
+      "headline": "Dacharbeiten in Alling und Umgebung",
+      "text": "Von Alling aus schnell in Biburg, Eichenau, Germering, Puchheim, Fürstenfeldbruck und Gilching.",
+      "places": [
+        "Alling",
+        "Biburg",
+        "Eichenau",
+        "Germering",
+        "Puchheim",
+        "Fürstenfeldbruck",
+        "Gilching"
+      ]
+    },
+    "faq": [
+      {
+        "q": "Mein Dach ist undicht – wie schnell kommen Sie?",
+        "a": "Rufen Sie an und beschreiben Sie den Schaden. Der Termin wird je nach Dringlichkeit abgestimmt."
+      },
+      {
+        "q": "Sanieren Sie auch Flachdächer auf Garagen?",
+        "a": "Ja, Flachdachsanierung gehört zum Angebot – auch für Garagen und Anbauten."
+      },
+      {
+        "q": "Machen Sie auch Dachrinnen und Fallrohre?",
+        "a": "Ja, Spenglerarbeiten wie Rinnen, Fallrohre und Blechanschlüsse übernimmt der Betrieb."
+      },
+      {
+        "q": "Kann ich vorab Fotos schicken?",
+        "a": "Ja, Fotos vom Schaden oder von der Dachfläche per E-Mail helfen für eine erste Einschätzung."
+      },
+      {
+        "q": "In welchen Orten sind Sie unterwegs?",
+        "a": "In Alling und Umgebung, etwa Eichenau, Germering, Puchheim und Fürstenfeldbruck."
+      }
+    ],
+    "contact": {
+      "headline": "Dach-Anfrage – unverbindlich",
+      "text": "Beschreiben Sie kurz, was am Dach zu tun ist: Reparatur, Flachdach, Rinne oder Neues. Fotos helfen.",
+      "topics": [
+        "Dachreparatur",
+        "Flachdachsanierung",
+        "Spenglerarbeiten",
+        "Dachbegrünung",
+        "Solaranlage",
+        "Sonstiges"
+      ],
+      "responseNote": "Besichtigung nach Absprache."
+    },
+    "quote": {
+      "sizeLabel": "Welches Dach betrifft es?",
+      "sizes": [
+        "Einfamilienhaus",
+        "Garage/Carport",
+        "Anbau/Flachdach",
+        "Mehrfamilienhaus"
+      ],
+      "timings": [
+        "Akuter Schaden",
+        "In den nächsten Wochen",
+        "In 1–3 Monaten",
+        "Ich plane erst noch"
+      ]
+    },
+    "stickyCta": "Dach-Anfrage stellen",
+    "look": {
+      "palette": 2,
+      "font": 6,
+      "hero": 0,
+      "services": 1,
+      "radius": 1,
+      "logo": 0,
+      "intro": 5
+    }
+  }
+}
