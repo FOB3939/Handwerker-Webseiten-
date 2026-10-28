@@ -2158,6 +2158,126 @@
       "googleLink": "https://www.google.com/maps/search/?api=1&query=Enrico%20Reichenbach%20Spenglerei%20Hauptstra%C3%9Fe%2015b%20Olching",
       "googleVerified": false,
       "reserve": false
+    },
+    {
+      "company": "Huber Heinrich Schreinerei",
+      "slug": "huber-heinrich-schreinerei-erding",
+      "trade": "Schreinerei",
+      "city": "Erding",
+      "date": "2026-10-28",
+      "phone": "08122 49124",
+      "email": "holzwurm-heini@gmx.de",
+      "googleLink": "https://www.google.com/maps/search/?api=1&query=Huber%20Heinrich%20Schreinerei%20Alte%20R%C3%B6merstr.%20172%20Erding",
+      "googleVerified": false,
+      "reserve": false
+    },
+    {
+      "company": "Ernst Holnburger Fliesenlegermeister",
+      "slug": "ernst-holnburger-fliesenleger-lengdorf",
+      "trade": "Fliesenleger",
+      "city": "Lengdorf",
+      "date": "2026-10-28",
+      "phone": "08083 353",
+      "email": "ernst.holnburger@t-online.de",
+      "googleLink": "https://www.google.com/maps/search/?api=1&query=Ernst%20Holnburger%20Fliesenleger%20Am%20M%C3%BChlanger%202%20Lengdorf",
+      "googleVerified": false,
+      "reserve": false
+    },
+    {
+      "company": "Schreinerei für Holz u. Corian Alfred Huber",
+      "slug": "schreinerei-alfred-huber-bockhorn",
+      "trade": "Schreinerei",
+      "city": "Bockhorn",
+      "date": "2026-10-28",
+      "phone": "08122 92525",
+      "email": "corianhuber@t-online.de",
+      "googleLink": "https://www.google.com/maps/search/?api=1&query=Schreinerei%20Alfred%20Huber%20Neumauggen%208%20Bockhorn",
+      "googleVerified": false,
+      "reserve": false
+    },
+    {
+      "company": "Christian Eberl Heizung-Sanitär",
+      "slug": "christian-eberl-heizung-sanitaer-ebersberg",
+      "trade": "Heizung & Sanitär",
+      "city": "Ebersberg",
+      "date": "2026-10-28",
+      "phone": "08092 21577",
+      "email": "chr.eberl@onlinehome.de",
+      "googleLink": "https://www.google.com/maps/search/?api=1&query=Christian%20Eberl%20Heizung-Sanit%C3%A4r%20Ignaz-Perner-Str.%203%20Ebersberg",
+      "googleVerified": false,
+      "reserve": false
+    },
+    {
+      "company": "Wyporski SHK",
+      "slug": "wyporski-shk-wolfratshausen",
+      "trade": "Sanitär, Heizung & Klima",
+      "city": "Wolfratshausen",
+      "date": "2026-10-28",
+      "phone": "01523 1912042",
+      "email": null,
+      "googleLink": "https://www.google.com/maps/search/?api=1&query=Wyporski%20SHK%20Auenstra%C3%9Fe%206A%20Wolfratshausen",
+      "googleVerified": false,
+      "reserve": false
+    },
+    {
+      "company": "Handwerkliche Dienstleistungen Inh. Akos Czeller",
+      "slug": "akos-czeller-elektro-geretsried",
+      "trade": "Elektroinstallation",
+      "city": "Geretsried",
+      "date": "2026-10-28",
+      "phone": "01514 6997831",
+      "email": "czellerakos@gmail.com",
+      "googleLink": "https://www.google.com/maps/search/?api=1&query=Akos%20Czeller%20Wolfratshauser%20Str.%2011%20Geretsried",
+      "googleVerified": false,
+      "reserve": false
+    },
+    {
+      "company": "Spenglerei Höller",
+      "slug": "spenglerei-hoeller-holzkirchen",
+      "trade": "Spenglerei & Dachdecker",
+      "city": "Holzkirchen",
+      "date": "2026-10-28",
+      "phone": "0170 4387857",
+      "email": "spenglerei.hoeller@gmx.de",
+      "googleLink": "https://www.google.com/maps/search/?api=1&query=Spenglerei%20H%C3%B6ller%20M%C3%BChlweg%208%20Holzkirchen",
+      "googleVerified": false,
+      "reserve": false
+    },
+    {
+      "company": "Bedachung & Spenglerei Thiermann",
+      "slug": "bedachung-spenglerei-thiermann-dietramszell",
+      "trade": "Dachdecker & Spenglerei",
+      "city": "Dietramszell",
+      "date": "2026-10-28",
+      "phone": "01511 1647571",
+      "email": "maik-thiermann@gmx.de",
+      "googleLink": "https://www.google.com/maps/search/?api=1&query=Bedachung%20Spenglerei%20Thiermann%20Am%20Dorfbach%2011%20Dietramszell",
+      "googleVerified": false,
+      "reserve": false
+    },
+    {
+      "company": "Röttig Thomas Spenglerei",
+      "slug": "roettig-spenglerei-wolfratshausen",
+      "trade": "Spenglerei",
+      "city": "Wolfratshausen",
+      "date": "2026-10-28",
+      "phone": "08171 17131",
+      "email": null,
+      "googleLink": "https://www.google.com/maps/search/?api=1&query=R%C3%B6ttig%20Thomas%20Spenglerei%20Andreasstr.%208%20Wolfratshausen",
+      "googleVerified": false,
+      "reserve": false
+    },
+    {
+      "company": "Franz Achatz Schreinerei",
+      "slug": "franz-achatz-schreinerei-dorfen",
+      "trade": "Schreinerei",
+      "city": "Dorfen",
+      "date": "2026-10-28",
+      "phone": "08082 949063",
+      "email": "schreinerei-achatz@t-online.de",
+      "googleLink": "https://www.google.com/maps/search/?api=1&query=Franz%20Achatz%20Schreinerei%20Kummereck%201%20Dorfen",
+      "googleVerified": false,
+      "reserve": false
     }
   ],
   "rejected": [
@@ -5254,6 +5374,211 @@
       "company": "Friedrich Tripolt (Olching)",
       "reason": "eigene Website tripolt.de",
       "date": "2026-10-27"
+    },
+    {
+      "company": "Thomas Schwarz Haustechnik (Wolfratshausen)",
+      "reason": "eigene Website haustechnik-schwarz.de",
+      "date": "2026-10-28"
+    },
+    {
+      "company": "Schreinerei und Montage Florian König (Vaterstetten)",
+      "reason": "eigene Website schreinermotion.de",
+      "date": "2026-10-28"
+    },
+    {
+      "company": "Wild Sanitär Heizung Service (Ottobrunn)",
+      "reason": "eigene Website wild-sanitaer.de",
+      "date": "2026-10-28"
+    },
+    {
+      "company": "Otiss Bau & Montage Dejan Dugonjic (Taufkirchen)",
+      "reason": "eigene Website obm-muenchen.de",
+      "date": "2026-10-28"
+    },
+    {
+      "company": "Christian Groß Heizung-Sanitär (Baldham)",
+      "reason": "eigene Website haustechnik-vaterstetten.de",
+      "date": "2026-10-28"
+    },
+    {
+      "company": "Malerbetrieb Seiler Nico (Grasbrunn)",
+      "reason": "eigene Website seiler-maler.de",
+      "date": "2026-10-28"
+    },
+    {
+      "company": "Sanitär Fabian Fraunhofer (Unterhaching)",
+      "reason": "eigene Website fabian-fraunhofer.de",
+      "date": "2026-10-28"
+    },
+    {
+      "company": "Schmitt Sanitär & Heizung Maximilian Schmitt (Taufkirchen)",
+      "reason": "eigene Website schmitt-sanitaer-heizung.com",
+      "date": "2026-10-28"
+    },
+    {
+      "company": "Isak Malerfirma (Grasbrunn)",
+      "reason": "eigene Website maler-isak.de",
+      "date": "2026-10-28"
+    },
+    {
+      "company": "Sebastian Plettl Handwerk & Dienstleistung (Haar)",
+      "reason": "E-Mail auf eigener Domain",
+      "date": "2026-10-28"
+    },
+    {
+      "company": "Fußbodentechnik Alpay Öztürk (Haar)",
+      "reason": "E-Mail auf eigener Domain",
+      "date": "2026-10-28"
+    },
+    {
+      "company": "Spenglerei Wex (Erding)",
+      "reason": "eigene Website spenglereiwex.de",
+      "date": "2026-10-28"
+    },
+    {
+      "company": "Gerhard Nemela Sanitär/Heizung (Dorfen)",
+      "reason": "eigene Website nemela-heizung.de",
+      "date": "2026-10-28"
+    },
+    {
+      "company": "Hermann Angermaier Metallbau (Taufkirchen/Vils)",
+      "reason": "E-Mail auf eigener Domain",
+      "date": "2026-10-28"
+    },
+    {
+      "company": "Mario Bösel Dachdeckermeister (Taufkirchen/Vils)",
+      "reason": "eigene Website premium-dach.de",
+      "date": "2026-10-28"
+    },
+    {
+      "company": "Zimmerei & Holzbau Tim Maszhold (Dorfen)",
+      "reason": "Website zimmerei-maszhold.de im Verzeichnis",
+      "date": "2026-10-28"
+    },
+    {
+      "company": "Sigl Klaus Zimmerei und Gerüstbau (Glonn)",
+      "reason": "eigene Website sigl-klaus.de",
+      "date": "2026-10-28"
+    },
+    {
+      "company": "Kai Neubert Heizungs- und Sanitärmontagen (Markt Schwaben)",
+      "reason": "eigene Website, heute GmbH",
+      "date": "2026-10-28"
+    },
+    {
+      "company": "Thomas Grube Heizung-Sanitär (Grafing)",
+      "reason": "eigene Website grube-thomas.de",
+      "date": "2026-10-28"
+    },
+    {
+      "company": "Kopka Elektro (Ebersberg)",
+      "reason": "eigene Website kopka-elektro.de",
+      "date": "2026-10-28"
+    },
+    {
+      "company": "Elektrotechnik Stefan Kolb GmbH (Poing)",
+      "reason": "GmbH",
+      "date": "2026-10-28"
+    },
+    {
+      "company": "Lankus Fabian Metallbau (Grafing)",
+      "reason": "nicht auffindbar",
+      "date": "2026-10-28"
+    },
+    {
+      "company": "Clemens Gruber Zimmerei Holzbau (Geretsried)",
+      "reason": "eigene Website zimmerei-clemens-gruber.de",
+      "date": "2026-10-28"
+    },
+    {
+      "company": "FLUX Elektrotechnik (Markt Schwaben)",
+      "reason": "eigene Website flux-elektrotechnik.de",
+      "date": "2026-10-28"
+    },
+    {
+      "company": "Hubert Sandtner Schreinerei (Erding)",
+      "reason": "eigene Website schreinerei-sandtner.de",
+      "date": "2026-10-28"
+    },
+    {
+      "company": "Armin Nurovic Elektroinstallationsdienst (Hohenbrunn)",
+      "reason": "nicht auffindbar",
+      "date": "2026-10-28"
+    },
+    {
+      "company": "Elektro Erxleben (Höhenkirchen-Siegertsbrunn)",
+      "reason": "nicht auffindbar",
+      "date": "2026-10-28"
+    },
+    {
+      "company": "A-K Gebäudeservice (Kirchseeon)",
+      "reason": "Betrieb nicht als aktiv belegt",
+      "date": "2026-10-28"
+    },
+    {
+      "company": "Andrä Hausmeisterservice (Dietramszell)",
+      "reason": "keine Kontaktdaten belegt",
+      "date": "2026-10-28"
+    },
+    {
+      "company": "Malerbetrieb Zenglein (Unterhaching)",
+      "reason": "GmbH",
+      "date": "2026-10-28"
+    },
+    {
+      "company": "Franz Braun Elektroinstallationen (Hohenbrunn)",
+      "reason": "nicht auffindbar",
+      "date": "2026-10-28"
+    },
+    {
+      "company": "Theodor Huber Fliesenleger (Markt Schwaben)",
+      "reason": "nicht auffindbar",
+      "date": "2026-10-28"
+    },
+    {
+      "company": "Manfred Huber Spenglerei (Eitting)",
+      "reason": "eigene Website spenglerei-erding.de",
+      "date": "2026-10-28"
+    },
+    {
+      "company": "Stephan Larasser Schlosserei-Metallbau (Grafing)",
+      "reason": "eigene Website larasser-metallbau.de",
+      "date": "2026-10-28"
+    },
+    {
+      "company": "Liegl Heizungsbau (Ottobrunn)",
+      "reason": "eigene Website liegl-heizungsbau.de",
+      "date": "2026-10-28"
+    },
+    {
+      "company": "Terrassenbau Scheungraber (Geretsried)",
+      "reason": "eigene Website wpcterrassenbau.de",
+      "date": "2026-10-28"
+    },
+    {
+      "company": "Elektro B. Schiwietz (Finsing)",
+      "reason": "eigene Domain elektro-b-schiwietz.de",
+      "date": "2026-10-28"
+    },
+    {
+      "company": "Bayer Heizung Sanitär (Isen)",
+      "reason": "eigene Website bayer-heizung.de",
+      "date": "2026-10-28"
+    },
+    {
+      "company": "Peter Gola Gas- und Wasserinstallateurmeister (Markt Schwaben)",
+      "reason": "eigene Website gola-haustechnik.de",
+      "date": "2026-10-28"
+    },
+    {
+      "company": "Elektro Huml (Höhenkirchen-Siegertsbrunn)",
+      "reason": "GmbH mit Website elektro-huml.de",
+      "date": "2026-10-28"
+    },
+    {
+      "company": "Zimmerei Floßmann (Egling)",
+      "reason": "eigene Website zimmereiflossmann.de",
+      "date": "2026-10-28"
     }
   ]
 }

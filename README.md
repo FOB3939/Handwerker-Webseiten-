@@ -226,3 +226,17 @@ Schnell-Check-Liste mit Google-Maps-Links und Reserve-Kandidaten.
 - Reserve: Luis Lenz Garten- und Forstdienstleistungen (Hallbergmoos): https://claude.ai/artifact/UTJjzfcKsDemsrASL9aguX
 - Reserve: Zimmerei Franz X. Stierstorfer (Gröbenzell): https://claude.ai/artifact/NE3zGDskTDowcet32yEqD5
 - Reserve: Wilhelm Gaugg Küchenmontage (Freising): https://claude.ai/artifact/AgCrGtZfFonskxrTKUMnFh
+
+## Entwürfe 2026-10-28
+
+- WhatsApp-Entwürfe: https://claude.ai/artifact/9k5tpV94zxj1chfiAnDZxJ
+- Wyporski SHK (Wolfratshausen): https://claude.ai/artifact/2hfo4K2Qb1ycywEzaqDcmd
+- Akos Czeller Elektro (Geretsried): https://claude.ai/artifact/Kq23C1BANeiYkXMGQW4FcP
+- Spenglerei Höller (Holzkirchen): https://claude.ai/artifact/VR7HngGX6rMN5xUNMizPig
+- Bedachung & Spenglerei Thiermann (Dietramszell): https://claude.ai/artifact/5mSTDR9v9ViCm4sxwJHgGC
+- Röttig Thomas Spenglerei (Wolfratshausen): https://claude.ai/artifact/XEuWQQBmPzxjJozqjxhAnN
+- Christian Eberl Heizung-Sanitär (Ebersberg): https://claude.ai/artifact/3VpyVvJVyQsFRv8meUpPAY
+- Huber Heinrich Schreinerei (Erding): https://claude.ai/artifact/7jNahSid6DZRoMi7NMfsAb
+- Ernst Holnburger Fliesenlegermeister (Lengdorf): https://claude.ai/artifact/BCy7bSCEmRRkBdYctabqiC
+- Schreinerei Alfred Huber (Bockhorn): https://claude.ai/artifact/JMDkD9rBvkKnvQ4JN3Xd68
+- Franz Achatz Schreinerei (Dorfen): https://claude.ai/artifact/9kzUSrgA7PSyF6bjYZqJ8y

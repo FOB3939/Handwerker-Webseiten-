@@ -1,130 +1,127 @@
 {
   "id": "2026-10-28-159",
-  "slug": "christian-eberl-heizung-sanitaer-ebersberg",
+  "slug": "spenglerei-hoeller-holzkirchen",
   "date": "2026-10-28",
   "company": {
-    "name": "Christian Eberl Heizung-Sanitär",
-    "owner": "Christian Eberl",
-    "trade": "Heizung & Sanitär",
-    "city": "Ebersberg",
-    "address": "Ignaz-Perner-Str. 3, 85560 Ebersberg",
-    "phone": "08092 21577",
-    "email": "chr.eberl@onlinehome.de",
+    "name": "Spenglerei Höller",
+    "owner": "Quirin Höller",
+    "trade": "Spenglerei & Dachdecker",
+    "city": "Holzkirchen",
+    "address": "Mühlweg 8, 83607 Holzkirchen-Sufferloh",
+    "phone": "0170 4387857",
+    "email": "spenglerei.hoeller@gmx.de",
     "serviceArea": [
-      "Ebersberg",
-      "Grafing",
-      "Kirchseeon",
-      "Steinhöring",
-      "Hohenlinden",
-      "Aßling",
-      "Emmering"
+      "Holzkirchen",
+      "Sufferloh",
+      "Warngau",
+      "Otterfing",
+      "Valley",
+      "Sauerlach",
+      "Miesbach"
     ]
   },
   "listings": {
     "google": {
-      "url": "https://www.google.com/maps/search/?api=1&query=Christian%20Eberl%20Heizung-Sanit%C3%A4r%20Ignaz-Perner-Str.%203%20Ebersberg",
-      "rating": null,
-      "reviews": null,
-      "evidence": "INDIREKT (Spiegel) – trustlocal.de führt „Christian Eberl in Ebersberg“ (Kategorie Sanitär; trustlocal übernimmt Google-Daten), lasertagarena-oftersheim.de zeigt „Christian Eberl – Ignaz-Perner-Straße 3, 85560 Ebersberg“ unter einer 20-stelligen Google-Kennung (15229024490289916555). Bewertungszahl in den Snippets nicht sichtbar; kein Website-Feld sichtbar – in Maps prüfen."
+      "url": "https://www.google.com/maps/search/?api=1&query=Spenglerei%20H%C3%B6ller%20M%C3%BChlweg%208%20Holzkirchen",
+      "rating": 5,
+      "reviews": 3,
+      "evidence": "INDIREKT (Spiegel) – Das Örtliche (Eintrag „Höller Spenglerei, Holzkirchen-Sufferloh, Mühlweg“) zeigt aggregierte Web-Bewertungen: Google 5/5 aus 3 Bewertungen. Kein direkter google.com/maps/place-Treffer, in keinem Snippet ein Website-Feld – in Maps prüfen."
     },
     "myhammer": {
-      "url": "https://www.wasserwaermeluft.de/handwerkersuche/christian-eberl-heizung-sanitaer-85560-ebersberg",
+      "url": "https://www.11880.com/suche/dachdecker/holzkirchen",
       "rating": null,
       "reviews": null,
-      "evidence": "Kein MyHammer gefunden – Fachhandwerker-Eintrag auf wasserwaermeluft.de (Ignaz-Perner-Str. 3, Tel. +49 8092 21577, Fax +49 8092 87382, E-Mail chr.eberl@onlinehome.de) plus heizungsbau.net („Christian Eberl Installationen“: Heizungsinstallation, Reparatur, Wartung) und Das Örtliche."
+      "evidence": "Kein MyHammer gefunden – 11880 führt „FA. Spenglerei Höller“ (Mühlweg 8, 83607 Holzkirchen, Tel. 0170 4387857, E-Mail spenglerei.hoeller@gmx.de) in den Listen Dachdecker Holzkirchen und Klempner Warngau."
     }
   },
   "websiteStatus": "keine eigene Website gefunden",
   "websiteChecks": [
-    "(1) „Christian Eberl“ Ebersberg Sanitär Heizung mit blocked_domains (11880, Gelbe Seiten, Das Örtliche, Telefonbuch, Cylex, meinestadt, Creditreform, Facebook, Instagram, golocal, MyHammer, Northdata, Firmenwissen, WKDB, Yelp, wlw) – nur Verzeichnisse (wasserwaermeluft, trustlocal, heizungsbau.net, oeffnungszeitenbuch, Google-ID-Spiegel) und eine Berufsschul-Meldung (Ausbildung im Familienbetrieb); keine eigene Domain. Gleichnamiger HWK-Eintrag in Bad Bayersoien ist ein anderer Betrieb.",
-    "(2) Domain-Check allowed_domains eberl-ebersberg.de, eberl-heizung.de, eberl-sanitaer.de, heizung-eberl.de, eberl-haustechnik.de, christian-eberl.de, eberl-installationen.de, sanitaer-eberl.de – Treffer nur eberl-heizung.de (Stefan Eberl, Wunsiedel) und eberl-haustechnik.de (Karlsfeld): andere Betriebe, kein Bezug zu Ebersberg",
-    "(3) Telefonsuche „08092 21577“/„0809221577“ – keine Website, nur Verzeichnisse",
-    "(4) Adress-/Kontaktsuche Ignaz-Perner-Str. 3 – nur Verzeichnisse (Das Örtliche, wasserwaermeluft, heizungsbau.net); E-Mail auf onlinehome.de (1&1-Postfach, keine Firmendomain)",
-    "(5) Zweiter Eintrag am selben Ort: „Johann Eberl Gas- u. WasserInstall. Heiz.Bau“ (gleiche Nummer, vermutlich Vorgänger/Familie) – ebenfalls nur Verzeichniseinträge, keine Website gesehen",
-    "Website-Risiko: mittel – alle Prüfungen negativ, Google-Eintrag nur über Spiegel belegt, E-Mail auf Provider-Domain onlinehome.de"
+    "(1) „Spenglerei Höller Holzkirchen Mühlweg“ mit (blocked_domains: 11880, Gelbe Seiten, Das Örtliche, Telefonbuch, Cylex, meinestadt, Creditreform, Facebook, Instagram, golocal, MyHammer, Northdata, Firmenwissen, WKDB, Yelp, trustlocal, wlw) – nur Verzeichnisse (bayregio.de, blauarbeit.de, dachbau.biz-Listen); keine eigene Domain",
+    "(2) Domain-Check allowed_domains spenglerei-hoeller.de, hoeller-spenglerei.de, spenglereihoeller.de, hoeller-holzkirchen.de, spenglerei-hoeller-holzkirchen.de, quirin-hoeller.de, hoeller-dach.de, dach-hoeller.de – nur hoeller-dach.de gefunden, gehört aber Dachdeckerei Gerhard Höller in Wermelskirchen (anderer Betrieb, NRW)",
+    "(3) Telefonsuche „0170 4387857“/„01704387857“ mit blocked_domains – nur ein Firmenkatalog-Eintrag (defirmenkataloge.com), keine Website",
+    "(4) Impressum-Suche „Impressum Quirin Höller Spenglerei Holzkirchen Sufferloh“ – kein eigenes Impressum gefunden",
+    "(5) Verzeichnisse: E-Mail ist Freemail (gmx.de), kein Website-Feld in den Snippets (11880, Das Örtliche, Gelbe Seiten)",
+    "Website-Risiko: niedrig – Freemail belegt, Google-Bewertungen über Das Örtliche gespiegelt, alle Website-Prüfungen negativ"
   ],
   "facts": {
     "services": [
-      "Heizungsinstallation",
-      "Heizungsreparatur",
-      "Heizungswartung",
-      "Sanitärinstallation",
-      "Gas- und Wasserinstallation"
+      "Spenglerarbeiten",
+      "Dachdeckerarbeiten",
+      "Schneefangsysteme",
+      "Flüssigkunststoffabdichtungen",
+      "Foliendächer",
+      "Dachentlüftungen",
+      "Dachwartung und Reparaturen"
     ],
     "experience": null,
     "praisedFor": []
   },
   "strategy": {
-    "audience": "Hauseigentümer und Vermieter in Ebersberg, Grafing, Kirchseeon und Steinhöring, deren Heizung gewartet, repariert oder erneuert werden soll oder die Sanitärarbeiten planen",
-    "mainService": "Heizung installieren, warten und reparieren",
-    "trustSignal": "Inhabergeführter Familienbetrieb in Ebersberg, Ansprechpartner Christian Eberl direkt am Telefon",
-    "conversionGoal": "Wartungs- oder Reparaturtermin anfragen (Anruf oder Formular mit Angaben zur Anlage)",
-    "visualConcept": "Aufgeräumter Heizungsraum mit Kessel, Rohrleitungen und Armaturen – technisch, sauber, in kühlen Wassertönen"
+    "audience": "Hauseigentümer und Hausverwaltungen in Holzkirchen, Warngau, Otterfing und Valley mit undichten Stellen, Flachdächern, Dachrinnen oder fehlendem Schneefang",
+    "mainService": "Spenglerei – Blech, Abdichtung und Dachreparatur",
+    "trustSignal": "Inhaber Quirin Höller direkt per Handy erreichbar, Google 5/5 (3 Bewertungen)",
+    "conversionGoal": "Reparatur oder Abdichtung anfragen – per WhatsApp mit Fotos vom Dach",
+    "visualConcept": "Oberland-Dächer: Kupfer- und Zinkblech, saubere Falze, Schneefanggitter vor Bergkulisse – handfest und präzise"
   },
   "sales": {
-    "score": 4,
+    "score": 7,
     "whyGoodLead": [
-      "Keine eigene Website gefunden – nur Verzeichniseinträge",
-      "Kleiner Inhaberbetrieb mit wenigen Online-Spuren – eine Website macht Leistungen erstmals sichtbar",
-      "Heizungswartung und -tausch sind im Landkreis Ebersberg dauerhaft gefragt",
-      "E-Mail öffentlich gelistet – schriftlicher Erstkontakt möglich"
+      "Keine eigene Website – nur Verzeichniseinträge mit Handynummer und GMX-Adresse",
+      "Mobilnummer öffentlich gelistet – direkter WhatsApp-Kontakt möglich",
+      "Google 5/5 aus 3 Bewertungen – gute Basis, aber kaum Sichtbarkeit",
+      "Spengler sind im Oberland nach Schneewintern und Unwettern gefragt"
     ],
-    "pitch": "Guten Tag Herr Eberl, ich baue Websites für Handwerksbetriebe im Landkreis Ebersberg. Ihren Betrieb in der Ignaz-Perner-Straße finde ich in Verzeichnissen, aber ohne eigene Website. Ich habe unverbindlich einen Entwurf vorbereitet, auf dem Kunden Ihre Heizungs- und Sanitärleistungen sehen und direkt einen Termin anfragen können – darf ich Ihnen den Link schicken?"
+    "pitch": "Hallo Herr Höller, hier ist … – ich baue Websites für Handwerker im Landkreis Miesbach. Ich habe Ihre Spenglerei in Sufferloh gefunden, aber keine eigene Website. Ich habe unverbindlich einen Entwurf vorbereitet, auf dem Kunden Ihre Abdichtungen, Schneefänge und Reparaturen sehen und direkt per WhatsApp anfragen können – darf ich Ihnen den Link schicken?"
   },
   "manualChecks": [
-    "Website-Risiko: mittel – vor Versand in Google Maps prüfen, dass keine Website hinterlegt ist (Grund: Google-Eintrag nur über Spiegelseiten belegt, E-Mail auf Provider-Domain onlinehome.de statt klassischer Freemail)",
-    "Google-Eintrag in Maps bestätigen (Existenz, Bewertungszahl – in den Snippets nicht sichtbar)",
-    "Festnetznummer 08092 21577 – keine Mobilnummer belegt; Erstkontakt per Anruf oder E-Mail",
-    "Verhältnis zu „Johann Eberl Gas- u. WasserInstall. Heiz.Bau“ (gleiche Adresse und Nummer) klären – Firmenname für die Seite abstimmen",
-    "Leistungen nur grob belegt (Heizungsinstallation, Reparatur, Wartung; Sanitär; Gas-/Wasserinstallation) – Wärmepumpe, Badsanierung, Notdienst nicht belegt, beim Betrieb erfragen",
+    "Website-Risiko: niedrig – vor Versand in Google Maps prüfen, dass keine Website hinterlegt ist (Grund: Freemail belegt, Google-Eintrag nur über Das-Örtliche-Spiegel belegt)",
+    "Google-Eintrag in Maps bestätigen (Bewertungen laut Das Örtliche 5/5 aus 3; andere Portale zeigen abweichende Werte 4,36 bzw. 2,71)",
+    "bayregio.de nennt den Betrieb „Meisterbetrieb“ – nur eine Quelle, daher auf der Seite nicht verwendet; beim Erstkontakt bestätigen",
+    "Leistungen aus bayregio-Eintrag (Schneefang, Flüssigkunststoff, Foliendächer, Dachentlüftung, Wartung/Reparatur) – Umfang Dachrinnen/Fassadenblech beim Betrieb bestätigen",
     "Logo und Projektfotos: nicht gefunden – beim Betrieb anfragen"
   ],
   "sources": [
     {
-      "label": "wasserwaermeluft.de – Fachhandwerker Christian Eberl Heizung-Sanitär",
-      "url": "https://www.wasserwaermeluft.de/handwerkersuche/christian-eberl-heizung-sanitaer-85560-ebersberg"
+      "label": "11880 – Dachdecker Holzkirchen (FA. Spenglerei Höller, gmx-Adresse, Handy)",
+      "url": "https://www.11880.com/suche/dachdecker/holzkirchen"
     },
     {
-      "label": "wasserwaermeluft.de – Webvisitenkarte Christian Eberl",
-      "url": "https://www.wasserwaermeluft.de/webvisitenkarte/christian-eberl-heizung-sanitaer"
+      "label": "11880 – Klempner Warngau (Spenglerei Höller)",
+      "url": "https://www.11880.com/suche/klempner/warngau"
     },
     {
-      "label": "trustlocal – Christian Eberl in Ebersberg (Google-Spiegel)",
-      "url": "https://trustlocal.de/bayern/ebersberg/sanitar/christian-eberl/"
+      "label": "Das Örtliche – Höller Spenglerei Holzkirchen-Sufferloh (Google 5/5 aus 3)",
+      "url": "https://www.dasoertliche.de/Themen/H%C3%B6ller-Spenglerei-Holzkirchen-Sufferloh-M%C3%BChlweg"
     },
     {
-      "label": "Branchenprofil mit Google-Kennung – Christian Eberl, Ignaz-Perner-Straße 3",
-      "url": "https://lasertagarena-oftersheim.de/15229024490289916555/"
+      "label": "Gelbe Seiten – Spenglerei Höller, 83607 Holzkirchen-Sufferloh",
+      "url": "https://www.gelbeseiten.de/gsbiz/17ebf596-a142-4e65-bb77-872238ab6809"
     },
     {
-      "label": "heizungsbau.net – Christian Eberl Installationen",
-      "url": "https://www.heizungsbau.net/ebersberg/christian-eberl-installationen-aULWWk"
+      "label": "bayregio – Spenglerei Höller in Holzkirchen (Leistungen)",
+      "url": "https://www.bayregio.de/verzeichnis/detail.php?eintrag=5970"
     },
     {
-      "label": "Das Örtliche – Eberl Christian, Ignaz-Perner-Str.",
-      "url": "https://www.dasoertliche.de//Themen/Eberl-Christian-Ebersberg-Ignaz-Perner-Str"
-    },
-    {
-      "label": "11880 – Johann Eberl Gas- u. WasserInstall. Heiz.Bau (gleiche Adresse)",
-      "url": "https://www.11880.com/branchenbuch/ebersberg-oberbayern/292352347B27102227/johann-eberl-gas-u-wasserinstall-heiz-bau.html"
+      "label": "blauarbeit – Quirin Höller, Spenglerei Höller",
+      "url": "https://www.blauarbeit.de/gbl/prf/view.do?ct=600&cty=apa-nocc&userId=498395&urn=dachdecker/holzkirchen/quirin_hoeller"
     }
   ],
   "site": {
-    "theme": "aqua",
+    "theme": "werk",
     "category": "handwerk",
     "heroOffer": [
-      "Heizung",
-      "Wartung",
-      "Reparatur",
-      "Sanitär",
-      "Wasserleitungen"
+      "Dachreparatur",
+      "Abdichtung",
+      "Schneefang",
+      "Foliendach",
+      "Dachwartung"
     ],
-    "scene": "bath",
-    "logoIcon": "house",
-    "logoMark": "CE",
-    "brandName": "Eberl Heizung-Sanitär",
-    "seoTitle": "Heizung & Sanitär in Ebersberg – Christian Eberl",
-    "seoDescription": "Heizungsinstallation, Wartung, Reparatur sowie Sanitär-, Gas- und Wasserinstallation in Ebersberg und Umgebung. Termin jetzt anfragen.",
+    "scene": "facade",
+    "logoIcon": "roof",
+    "logoMark": "SH",
+    "brandName": "Spenglerei Höller",
+    "seoTitle": "Spenglerei in Holzkirchen – Spenglerei Höller, Sufferloh",
+    "seoDescription": "Spenglerarbeiten, Abdichtungen, Schneefang und Dachreparaturen in Holzkirchen und Umgebung. Jetzt per WhatsApp oder Anruf anfragen.",
     "nav": [
       {
         "label": "Leistungen",
@@ -152,267 +149,272 @@
       }
     ],
     "hero": {
-      "eyebrow": "Heizung & Sanitär · Ebersberg",
-      "headline": "Heizung und Sanitär in Ebersberg",
-      "sub": "Installation, Wartung und Reparatur – direkt beim Inhaber Christian Eberl angefragt.",
-      "ctaPrimary": "Termin anfragen",
+      "eyebrow": "Spenglerei · Holzkirchen-Sufferloh",
+      "headline": "Spenglerei für Holzkirchen und Umgebung",
+      "sub": "Abdichtungen, Schneefang und Reparaturen am Dach – direkt vom Inhaber.",
+      "ctaPrimary": "Reparatur anfragen",
       "ctaSecondary": "Anrufen",
       "bullets": [
-        "Betrieb in der Ignaz-Perner-Straße",
-        "Heizung warten und reparieren",
-        "Sanitär-, Gas- und Wasserinstallation"
+        "Spenglerei aus Sufferloh",
+        "Flachdach, Folie und Flüssigkunststoff",
+        "Per Handy und WhatsApp erreichbar"
       ],
-      "imageLabel": "aufgeräumter Heizungsraum mit Kessel und Rohrleitungen"
+      "imageLabel": "Dachrand mit frischer Blechverwahrung und Schneefanggitter"
     },
     "badges": [
       {
-        "title": "Heizung",
-        "sub": "Einbau & Wartung"
+        "title": "Spenglerei",
+        "sub": "Blech am Dach"
       },
       {
-        "title": "Reparatur",
-        "sub": "wenn die Anlage streikt"
+        "title": "Abdichtung",
+        "sub": "Folie & Flüssigkunststoff"
       },
       {
-        "title": "Sanitär",
-        "sub": "Leitungen & Anschlüsse"
+        "title": "Schneefang",
+        "sub": "für Oberland-Winter"
       },
       {
-        "title": "Ebersberg",
-        "sub": "Ignaz-Perner-Straße"
+        "title": "Sufferloh",
+        "sub": "Mühlweg 8"
       }
     ],
     "trust": [
       {
+        "value": "5,0",
+        "label": "Google (3 Bewertungen)"
+      },
+      {
         "value": "Inhaber",
-        "label": "Christian Eberl persönlich"
+        "label": "Quirin Höller"
       },
       {
-        "value": "5",
-        "label": "Leistungsbereiche"
+        "value": "Dach",
+        "label": "Blech, Folie, Wartung"
       },
       {
-        "value": "Vor Ort",
-        "label": "Betrieb in Ebersberg"
-      },
-      {
-        "value": "Direkt",
-        "label": "Anruf oder E-Mail"
+        "value": "Mobil",
+        "label": "direkt erreichbar"
       }
     ],
     "servicesIntro": {
-      "headline": "Was Christian Eberl für Ihr Haus übernimmt",
-      "text": "Von der neuen Heizungsanlage über die jährliche Wartung bis zur Wasserleitung im Bad: ein Betrieb, ein Ansprechpartner."
+      "headline": "Was am Dach dicht und sicher sein muss",
+      "text": "Ob tropfende Anschlüsse, ein in die Jahre gekommenes Flachdach oder Dachlawinen über dem Eingang: Die Spenglerei Höller kümmert sich um die Stellen, an denen Wasser und Schnee Schaden machen."
     },
     "services": [
       {
-        "title": "Heizungsinstallation",
-        "text": "Neue Heizungsanlagen werden fachgerecht eingebaut und an das bestehende Leitungsnetz angeschlossen.",
+        "title": "Spenglerarbeiten",
+        "text": "Blechverwahrungen, Anschlüsse und Abdeckungen, die Regen und Schmelzwasser zuverlässig vom Haus wegführen.",
         "items": [
-          "Neue Anlage",
-          "Heizungstausch",
-          "Anschluss"
-        ]
-      },
-      {
-        "title": "Heizungswartung",
-        "text": "Eine regelmäßige Wartung hält die Anlage effizient und beugt Ausfällen im Winter vor.",
-        "items": [
-          "Jährliche Wartung",
-          "Einstellung",
-          "Sichtprüfung"
-        ]
-      },
-      {
-        "title": "Heizungsreparatur",
-        "text": "Bleibt die Heizung kalt, wird die Ursache gesucht und die Anlage wieder in Gang gebracht.",
-        "items": [
-          "Fehlersuche",
-          "Ersatzteile",
-          "Wiederinbetriebnahme"
-        ]
-      },
-      {
-        "title": "Sanitärinstallation",
-        "text": "Leitungen, Anschlüsse und Objekte in Bad und Küche – neu verlegt oder ersetzt.",
-        "items": [
-          "Bad",
-          "Küche",
-          "Anschlüsse"
-        ]
-      },
-      {
-        "title": "Wasserinstallation",
-        "text": "Trink- und Abwasserleitungen werden verlegt, erneuert oder instand gesetzt.",
-        "items": [
-          "Trinkwasser",
-          "Abwasser",
-          "Leitungstausch"
-        ]
-      },
-      {
-        "title": "Gasinstallation",
-        "text": "Gasleitungen und -anschlüsse für Heizung und Haushalt werden installiert und geprüft.",
-        "items": [
-          "Gasleitungen",
+          "Verwahrungen",
           "Anschlüsse",
-          "Prüfung"
+          "Abdeckungen"
+        ]
+      },
+      {
+        "title": "Schneefangsysteme",
+        "text": "Schneefanggitter und -haken halten Dachlawinen über Eingängen, Wegen und Stellplätzen zurück.",
+        "items": [
+          "Schneefanggitter",
+          "Nachrüstung",
+          "Über Eingängen"
+        ]
+      },
+      {
+        "title": "Flüssigkunststoff",
+        "text": "Flüssige Abdichtung für schwierige Details wie Durchdringungen, Ecken und Anschlüsse.",
+        "items": [
+          "Durchdringungen",
+          "Detailabdichtung",
+          "Sanierung"
+        ]
+      },
+      {
+        "title": "Foliendächer",
+        "text": "Flachdächer, Garagen und Anbauten mit Dachfolie neu abdichten oder sanieren.",
+        "items": [
+          "Flachdach",
+          "Garagendach",
+          "Anbauten"
+        ]
+      },
+      {
+        "title": "Dachentlüftung",
+        "text": "Lüfter und Entlüftungen, damit Feuchtigkeit unter der Dachhaut abziehen kann.",
+        "items": [
+          "Dachlüfter",
+          "Entlüftungsrohre",
+          "Feuchteschutz"
+        ]
+      },
+      {
+        "title": "Wartung & Reparatur",
+        "text": "Kontrolle nach Sturm und Winter, kleine Schäden beheben, bevor sie teuer werden.",
+        "items": [
+          "Dachcheck",
+          "Sturmschäden",
+          "Undichte Stellen"
         ]
       }
     ],
     "why": {
-      "headline": "Ein Betrieb aus Ebersberg für Heizung und Wasser.",
+      "headline": "Spenglerei aus Sufferloh – kurze Wege, klare Absprachen.",
       "points": [
         {
-          "title": "Kurze Anfahrt",
-          "text": "Der Betrieb sitzt in Ebersberg und ist schnell in Grafing, Kirchseeon und Steinhöring."
+          "title": "Vor Ort",
+          "text": "Von Sufferloh aus schnell in Holzkirchen, Warngau, Otterfing und Valley."
         },
         {
-          "title": "Ein Ansprechpartner",
-          "text": "Sie sprechen direkt mit dem Inhaber – vom ersten Anruf bis zur Übergabe."
+          "title": "Inhaber am Telefon",
+          "text": "Sie sprechen direkt mit Quirin Höller – ohne Zentrale."
         },
         {
-          "title": "Alles aus einer Hand",
-          "text": "Heizung, Sanitär, Gas und Wasser – ohne mehrere Firmen abzustimmen."
+          "title": "Für Oberland-Wetter",
+          "text": "Schneefang und dichte Anschlüsse sind hier keine Nebensache."
         },
         {
-          "title": "Wartung mit Plan",
-          "text": "Regelmäßige Termine halten die Anlage zuverlässig in Betrieb."
+          "title": "Auch kleine Aufträge",
+          "text": "Ein undichter Anschluss oder ein Lüfter ist genauso willkommen wie ein ganzes Flachdach."
         }
       ]
     },
     "reviews": {
       "headline": "Was Kunden sagen",
-      "summary": "Kundenstimmen werden hier eingebunden, sobald sie aus dem Google-Profil übernommen sind.",
+      "summary": "Laut Das Örtliche bewerten Kunden die Spenglerei Höller bei Google mit 5 von 5 Sternen (3 Bewertungen). Die Stimmen werden hier eingebunden, sobald sie aus dem Google-Profil übernommen sind.",
       "highlights": [
-        "Heizung in Ebersberg",
-        "Wartung und Reparatur",
-        "Direkter Kontakt zum Inhaber"
+        "Google 5/5",
+        "Spenglerei in Holzkirchen",
+        "Direkter Kontakt"
       ],
       "source": "Google",
-      "sourceUrl": "https://www.google.com/maps/search/?api=1&query=Christian%20Eberl%20Heizung-Sanit%C3%A4r%20Ignaz-Perner-Str.%203%20Ebersberg",
-      "rating": null,
-      "count": null
+      "sourceUrl": "https://www.google.com/maps/search/?api=1&query=Spenglerei%20H%C3%B6ller%20M%C3%BChlweg%208%20Holzkirchen",
+      "rating": 5,
+      "count": 3
     },
     "process": {
-      "headline": "So kommt Ihr Termin zustande",
+      "headline": "So läuft Ihre Anfrage",
       "steps": [
         {
-          "title": "Anfrage",
-          "text": "Kurz anrufen oder per E-Mail schildern, um welche Anlage es geht."
+          "title": "Fotos schicken",
+          "text": "Schaden oder Vorhaben fotografieren und per WhatsApp senden – oder kurz anrufen."
         },
         {
-          "title": "Termin vor Ort",
-          "text": "Heizung oder Leitungen werden angesehen, der Umfang wird abgestimmt."
+          "title": "Termin am Dach",
+          "text": "Die Stelle wird vor Ort angeschaut und das Material abgestimmt."
         },
         {
           "title": "Angebot",
-          "text": "Sie erhalten ein klares Angebot für Einbau oder Reparatur."
+          "text": "Sie bekommen ein nachvollziehbares Angebot für die Arbeit."
         },
         {
           "title": "Ausführung",
-          "text": "Die Arbeiten werden erledigt und die Anlage geprüft übergeben."
+          "text": "Abdichten, verblechen, montieren – und die Baustelle sauber verlassen."
         }
       ]
     },
     "gallery": {
-      "headline": "Anlagen und Installationen",
-      "text": "Für die Live-Version zeigen wir hier echte Arbeiten des Betriebs.",
+      "headline": "Arbeiten am Dach",
+      "text": "Für die Live-Version zeigen wir hier echte Projekte der Spenglerei Höller.",
       "items": [
         {
-          "title": "Neue Heizung",
-          "photoNeeded": "frisch installierter Heizkessel mit Rohranschlüssen"
+          "title": "Schneefanggitter",
+          "photoNeeded": "montiertes Schneefanggitter an einem Ziegeldach"
         },
         {
-          "title": "Wartung",
-          "photoNeeded": "Heizungsanlage mit geöffneter Verkleidung bei der Wartung"
+          "title": "Foliendach",
+          "photoNeeded": "frisch abgedichtetes Garagen- oder Flachdach"
         },
         {
-          "title": "Verteiler",
-          "photoNeeded": "sauber verlegter Heizkreisverteiler"
+          "title": "Detailabdichtung",
+          "photoNeeded": "Durchdringung mit Flüssigkunststoff abgedichtet"
         },
         {
-          "title": "Bad-Anschlüsse",
-          "photoNeeded": "neue Wasseranschlüsse im Bad vor dem Fliesen"
+          "title": "Blechverwahrung",
+          "photoNeeded": "Kamin- oder Wandanschluss mit neuer Blechverwahrung"
         },
         {
-          "title": "Wasserleitung",
-          "photoNeeded": "erneuerte Trinkwasserleitung im Keller"
+          "title": "Dachlüfter",
+          "photoNeeded": "neu gesetzter Dachlüfter in der Eindeckung"
         }
       ]
     },
     "region": {
-      "headline": "Heizung und Sanitär rund um Ebersberg",
-      "text": "Von Ebersberg aus schnell in Grafing, Kirchseeon, Steinhöring, Hohenlinden, Aßling und Emmering.",
+      "headline": "Spenglerei für Holzkirchen und das Oberland",
+      "text": "Von Sufferloh aus in Holzkirchen, Warngau, Otterfing, Valley, Sauerlach und Miesbach unterwegs.",
       "places": [
-        "Ebersberg",
-        "Grafing",
-        "Kirchseeon",
-        "Steinhöring",
-        "Hohenlinden",
-        "Aßling",
-        "Emmering"
+        "Holzkirchen",
+        "Sufferloh",
+        "Warngau",
+        "Otterfing",
+        "Valley",
+        "Sauerlach",
+        "Miesbach"
       ]
     },
     "faq": [
       {
-        "q": "Wie oft sollte die Heizung gewartet werden?",
-        "a": "Üblich ist eine Wartung pro Jahr. Den passenden Termin stimmen wir mit Ihnen ab."
+        "q": "Kommen Sie auch für kleine Reparaturen?",
+        "a": "Ja. Schicken Sie am besten ein Foto der Stelle, dann lässt sich der Aufwand einschätzen."
       },
       {
-        "q": "Was tun, wenn die Heizung ausfällt?",
-        "a": "Rufen Sie an und beschreiben Sie, was die Anlage anzeigt. Dann wird ein Termin zur Fehlersuche vereinbart."
+        "q": "Kann man Schneefang nachrüsten?",
+        "a": "In vielen Fällen ja. Ob und wie, hängt von Dachdeckung und Dachneigung ab – das wird vor Ort geprüft."
       },
       {
-        "q": "Übernehmen Sie auch Sanitärarbeiten?",
-        "a": "Ja, Sanitär-, Wasser- und Gasinstallation gehören zum Angebot."
+        "q": "Wann ist Flüssigkunststoff sinnvoll?",
+        "a": "Vor allem bei schwierigen Details wie Rohrdurchführungen, Ecken und Anschlüssen, an denen Bahnen schlecht zu verarbeiten sind."
       },
       {
-        "q": "Kann ich per E-Mail anfragen?",
-        "a": "Ja, eine kurze Beschreibung per E-Mail genügt für den ersten Kontakt."
+        "q": "Dichten Sie auch Garagendächer ab?",
+        "a": "Ja, Foliendächer auf Garagen, Carports und Anbauten gehören zu den Leistungen."
       },
       {
-        "q": "Arbeiten Sie auch außerhalb von Ebersberg?",
-        "a": "Ja, im Umkreis von Ebersberg – fragen Sie einfach an."
+        "q": "Wie erreiche ich Sie am schnellsten?",
+        "a": "Per Anruf oder WhatsApp unter 0170 4387857 oder per E-Mail."
       }
     ],
     "contact": {
-      "headline": "Termin für Heizung oder Sanitär anfragen",
-      "text": "Nennen Sie kurz die Art der Anlage, das Problem oder Vorhaben und wann es passen würde.",
+      "headline": "Schaden am Dach? Kurz beschreiben, Foto anhängen.",
+      "text": "Sagen Sie kurz, wo es tropft oder was geplant ist – Flachdach, Anschluss, Schneefang oder Wartung. Ein Foto hilft bei der ersten Einschätzung.",
       "topics": [
-        "Heizungswartung",
-        "Heizungsreparatur",
-        "Neue Heizung",
-        "Sanitär",
-        "Gas/Wasser",
+        "Reparatur",
+        "Abdichtung",
+        "Schneefang",
+        "Foliendach",
+        "Dachwartung",
         "Sonstiges"
       ],
-      "responseNote": "Termin nach Absprache."
+      "responseNote": "Termin vor Ort nach Absprache."
     },
     "quote": {
       "sizeLabel": "Worum geht es?",
       "sizes": [
-        "Wartung",
-        "Reparatur",
-        "Neue Heizung",
-        "Sanitär / Wasser"
+        "Kleine Reparatur",
+        "Anschluss / Detail",
+        "Garagen- oder Flachdach",
+        "Ganzes Dach"
       ],
       "timings": [
-        "Dringend",
+        "Dringend – es tropft",
         "In den nächsten Wochen",
-        "In 1–3 Monaten",
+        "Vor dem Winter",
         "Ich plane erst noch"
       ]
     },
-    "stickyCta": "Termin anfragen",
+    "stickyCta": "Reparatur anfragen",
     "look": {
-      "palette": 2,
-      "font": 6,
-      "hero": 0,
-      "services": 1,
-      "radius": 1,
-      "logo": 0,
-      "intro": 5
+      "palette": 0,
+      "font": 7,
+      "hero": 1,
+      "services": 3,
+      "radius": 3,
+      "logo": 3,
+      "intro": 4,
+      "projects": 2,
+      "process": 0,
+      "faq": 0,
+      "reviews": 1,
+      "order": 1
     }
   }
 }

@@ -257,6 +257,16 @@ export const PLACES: Record<string, [number, number]> = {
   Vierkirchen: [48.367, 11.46],
   Gammelsdorf: [48.546, 11.946],
   Biburg: [48.152, 11.287],
+  "Steinhöring": [48.087, 12.032],
+  Hohenlinden: [48.157, 11.995],
+  "Aßling": [47.996, 12.006],
+  Sufferloh: [47.868, 11.74],
+  Warngau: [47.832, 11.723],
+  Valley: [47.89, 11.78],
+  Miesbach: [47.789, 11.833],
+  Ascholding: [47.883, 11.477],
+  Waldram: [47.9, 11.433],
+  Schwindegg: [48.271, 12.258],
 };
 
 // Grobe Seeumrisse als Ellipsen: [lat, lon, Halbachse Nord-Süd in Grad, Halbachse Ost-West in Grad]

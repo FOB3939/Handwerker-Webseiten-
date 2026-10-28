@@ -398,17 +398,17 @@
     "stickyCta": "Projekt anfragen",
     "look": {
       "palette": 4,
-      "font": 4,
-      "hero": 6,
-      "services": 2,
-      "radius": 4,
-      "logo": 2,
-      "intro": 3,
+      "font": 1,
+      "hero": 5,
+      "services": 1,
+      "radius": 1,
+      "logo": 5,
+      "intro": 2,
       "projects": 2,
-      "process": 2,
+      "process": 1,
       "faq": 2,
-      "reviews": 0,
-      "order": 2
+      "reviews": 1,
+      "order": 1
     }
   }
 }

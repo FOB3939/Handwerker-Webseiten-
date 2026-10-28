@@ -1,121 +1,130 @@
 {
   "id": "2026-10-28-156",
-  "slug": "ilir-metaj-hausmeister-dietramszell",
+  "slug": "christian-eberl-heizung-sanitaer-ebersberg",
   "date": "2026-10-28",
   "company": {
-    "name": "Ilir Metaj Hausmeister und Gebäudedienstleistung",
-    "owner": "Ilir Metaj",
-    "trade": "Hausmeisterservice",
-    "city": "Dietramszell",
-    "address": "Bairawieser Str. 6, 83623 Dietramszell",
-    "phone": "01590 6534770",
-    "email": null,
+    "name": "Christian Eberl Heizung-Sanitär",
+    "owner": "Christian Eberl",
+    "trade": "Heizung & Sanitär",
+    "city": "Ebersberg",
+    "address": "Ignaz-Perner-Str. 3, 85560 Ebersberg",
+    "phone": "08092 21577",
+    "email": "chr.eberl@onlinehome.de",
     "serviceArea": [
-      "Dietramszell",
-      "Bad Tölz",
-      "Geretsried",
-      "Wolfratshausen",
-      "Egling",
-      "Holzkirchen"
+      "Ebersberg",
+      "Grafing",
+      "Kirchseeon",
+      "Steinhöring",
+      "Hohenlinden",
+      "Aßling",
+      "Emmering"
     ]
   },
   "listings": {
     "google": {
-      "url": "https://www.google.com/maps/search/?api=1&query=Ilir%20Metaj%20Hausmeister%20und%20Geb%C3%A4udedienstleistung%20Bairawieser%20Str.%206%20Dietramszell",
+      "url": "https://www.google.com/maps/search/?api=1&query=Christian%20Eberl%20Heizung-Sanit%C3%A4r%20Ignaz-Perner-Str.%203%20Ebersberg",
       "rating": null,
       "reviews": null,
-      "evidence": "Nicht belegt – kein Treffer auf Google-Spiegeln (trustlocal, firmania, rgv-bayern). Nur Verzeichnisse: 11880 (Dietramszell/Obermühltal, „Vom Inhaber bestätigt“, ohne Bewertungen), Sellwerk, Cylex, MapQuest, YellowMap, hausmeisterdienste.net. In Maps prüfen."
+      "evidence": "INDIREKT (Spiegel) – trustlocal.de führt „Christian Eberl in Ebersberg“ (Kategorie Sanitär; trustlocal übernimmt Google-Daten), lasertagarena-oftersheim.de zeigt „Christian Eberl – Ignaz-Perner-Straße 3, 85560 Ebersberg“ unter einer 20-stelligen Google-Kennung (15229024490289916555). Bewertungszahl in den Snippets nicht sichtbar; kein Website-Feld sichtbar – in Maps prüfen."
     },
     "myhammer": {
-      "url": "https://sellwerk.de/firmenprofil/ilir-metaj-hausmeister-und-gebaeudedienstleistung",
+      "url": "https://www.wasserwaermeluft.de/handwerkersuche/christian-eberl-heizung-sanitaer-85560-ebersberg",
       "rating": null,
       "reviews": null,
-      "evidence": "Kein MyHammer gefunden – Sellwerk-Profil mit Bairawieser Str. 6, Dietramszell, Tel. 0159-06534770; hausmeisterdienste.net „Offen für Aufträge“ (01590 6534770)."
+      "evidence": "Kein MyHammer gefunden – Fachhandwerker-Eintrag auf wasserwaermeluft.de (Ignaz-Perner-Str. 3, Tel. +49 8092 21577, Fax +49 8092 87382, E-Mail chr.eberl@onlinehome.de) plus heizungsbau.net („Christian Eberl Installationen“: Heizungsinstallation, Reparatur, Wartung) und Das Örtliche."
     }
   },
   "websiteStatus": "keine eigene Website gefunden",
   "websiteChecks": [
-    "(1) „Ilir Metaj Hausmeister Dietramszell“ mit blocked_domains (11880, Gelbe Seiten, Das Örtliche, Telefonbuch, Cylex, meinestadt, Creditreform, Facebook, Instagram, golocal, MyHammer, Northdata, Firmenwissen, WKDB, Yelp, trustlocal, wlw) – nur Verzeichnisse (MapQuest, hausmeisterdienste.net, YellowMap, tellows); keine eigene Domain",
-    "(2) Domain-Check allowed_domains metaj.de, metaj-hausmeister.de, hausmeister-metaj.de, metaj-hausmeisterservice.de, hausmeisterservice-metaj.de, ilir-metaj.de, metaj-gebaeudedienstleistung.de, metaj-service.de – nur metaj.de = fremde Berliner Anwaltskanzlei (Shkelzen Metaj), kein Bezug",
-    "(3) Telefonsuche „015906534770“/„01590 6534770“ – nur tellows, YellowMap, hausmeisterdienste.net, Rufnummernliste; keine Website",
-    "(4) E-Mail-Suche in 11880/rgv-bayern/firmania/Sellwerk – keine E-Mail im Snippet (weder Freemail noch Firmendomain)",
-    "Website-Risiko: mittel – alle Prüfungen negativ, aber weder Google-Eintrag noch Freemail belegt (RESERVE)"
+    "(1) „Christian Eberl“ Ebersberg Sanitär Heizung mit blocked_domains (11880, Gelbe Seiten, Das Örtliche, Telefonbuch, Cylex, meinestadt, Creditreform, Facebook, Instagram, golocal, MyHammer, Northdata, Firmenwissen, WKDB, Yelp, wlw) – nur Verzeichnisse (wasserwaermeluft, trustlocal, heizungsbau.net, oeffnungszeitenbuch, Google-ID-Spiegel) und eine Berufsschul-Meldung (Ausbildung im Familienbetrieb); keine eigene Domain. Gleichnamiger HWK-Eintrag in Bad Bayersoien ist ein anderer Betrieb.",
+    "(2) Domain-Check allowed_domains eberl-ebersberg.de, eberl-heizung.de, eberl-sanitaer.de, heizung-eberl.de, eberl-haustechnik.de, christian-eberl.de, eberl-installationen.de, sanitaer-eberl.de – Treffer nur eberl-heizung.de (Stefan Eberl, Wunsiedel) und eberl-haustechnik.de (Karlsfeld): andere Betriebe, kein Bezug zu Ebersberg",
+    "(3) Telefonsuche „08092 21577“/„0809221577“ – keine Website, nur Verzeichnisse",
+    "(4) Adress-/Kontaktsuche Ignaz-Perner-Str. 3 – nur Verzeichnisse (Das Örtliche, wasserwaermeluft, heizungsbau.net); E-Mail auf onlinehome.de (1&1-Postfach, keine Firmendomain)",
+    "(5) Zweiter Eintrag am selben Ort: „Johann Eberl Gas- u. WasserInstall. Heiz.Bau“ (gleiche Nummer, vermutlich Vorgänger/Familie) – ebenfalls nur Verzeichniseinträge, keine Website gesehen",
+    "Website-Risiko: mittel – alle Prüfungen negativ, Google-Eintrag nur über Spiegel belegt, E-Mail auf Provider-Domain onlinehome.de"
   ],
   "facts": {
     "services": [
-      "Hausmeisterdienste",
-      "Gebäudedienstleistungen"
+      "Heizungsinstallation",
+      "Heizungsreparatur",
+      "Heizungswartung",
+      "Sanitärinstallation",
+      "Gas- und Wasserinstallation"
     ],
     "experience": null,
     "praisedFor": []
   },
   "strategy": {
-    "audience": "Hausverwaltungen, Vermieter, Eigentümergemeinschaften und Hausbesitzer in Dietramszell, Bad Tölz, Geretsried und Wolfratshausen, die einen Hausmeister vor Ort suchen",
-    "mainService": "Hausmeisterdienste und Gebäudebetreuung",
-    "trustSignal": "Inhabergeführter Hausmeisterservice in Dietramszell, direkt per Handy erreichbar",
-    "conversionGoal": "Anfrage für Objektbetreuung per Anruf oder WhatsApp",
-    "visualConcept": "Gepflegtes Mehrfamilienhaus im Tölzer Land: sauberer Eingang, gemähter Rasen, geräumter Weg – ruhig und ordentlich"
+    "audience": "Hauseigentümer und Vermieter in Ebersberg, Grafing, Kirchseeon und Steinhöring, deren Heizung gewartet, repariert oder erneuert werden soll oder die Sanitärarbeiten planen",
+    "mainService": "Heizung installieren, warten und reparieren",
+    "trustSignal": "Inhabergeführter Familienbetrieb in Ebersberg, Ansprechpartner Christian Eberl direkt am Telefon",
+    "conversionGoal": "Wartungs- oder Reparaturtermin anfragen (Anruf oder Formular mit Angaben zur Anlage)",
+    "visualConcept": "Aufgeräumter Heizungsraum mit Kessel, Rohrleitungen und Armaturen – technisch, sauber, in kühlen Wassertönen"
   },
   "sales": {
-    "score": 3,
+    "score": 4,
     "whyGoodLead": [
       "Keine eigene Website gefunden – nur Verzeichniseinträge",
-      "Mobilnummer öffentlich gelistet – WhatsApp-Erstkontakt möglich",
-      "Laut hausmeisterdienste.net „Offen für Aufträge“ – sucht aktiv Kunden",
-      "Hausverwaltungen suchen Hausmeister online – eine Website schafft hier Sichtbarkeit"
+      "Kleiner Inhaberbetrieb mit wenigen Online-Spuren – eine Website macht Leistungen erstmals sichtbar",
+      "Heizungswartung und -tausch sind im Landkreis Ebersberg dauerhaft gefragt",
+      "E-Mail öffentlich gelistet – schriftlicher Erstkontakt möglich"
     ],
-    "pitch": "Hallo Herr Metaj, ich baue Websites für Handwerks- und Servicebetriebe im Landkreis Bad Tölz-Wolfratshausen. Ihren Hausmeisterservice in Dietramszell habe ich in Verzeichnissen gefunden, aber keine eigene Website. Ich habe unverbindlich einen Entwurf vorbereitet, über den Hausverwaltungen und Eigentümer Sie direkt anfragen können – darf ich Ihnen den Link schicken?"
+    "pitch": "Guten Tag Herr Eberl, ich baue Websites für Handwerksbetriebe im Landkreis Ebersberg. Ihren Betrieb in der Ignaz-Perner-Straße finde ich in Verzeichnissen, aber ohne eigene Website. Ich habe unverbindlich einen Entwurf vorbereitet, auf dem Kunden Ihre Heizungs- und Sanitärleistungen sehen und direkt einen Termin anfragen können – darf ich Ihnen den Link schicken?"
   },
   "manualChecks": [
-    "RESERVE – weder Google-Eintrag noch Freemail-Adresse belegt: NUR versenden, wenn Google Maps einen Eintrag OHNE Website zeigt.",
-    "Leistungen nicht im Detail belegt (nur „Hausmeister und Gebäudedienstleistung“) – Gartenpflege, Winterdienst, Reinigung und Kleinreparaturen beim Erstkontakt bestätigen",
-    "Rufnummer unterschiedlich geschrieben (0159-06534770 / 01590 6534770 / 015906534770) – dieselbe Nummer, Erreichbarkeit testen",
-    "Ortsteil laut 11880 Obermühltal – Anschrift Bairawieser Str. 6 bestätigen",
-    "Nicht verwechseln mit metaj.de (Anwaltskanzlei Berlin, fremd)",
-    "Logo und Fotos: nicht gefunden – beim Betrieb anfragen"
+    "Website-Risiko: mittel – vor Versand in Google Maps prüfen, dass keine Website hinterlegt ist (Grund: Google-Eintrag nur über Spiegelseiten belegt, E-Mail auf Provider-Domain onlinehome.de statt klassischer Freemail)",
+    "Google-Eintrag in Maps bestätigen (Existenz, Bewertungszahl – in den Snippets nicht sichtbar)",
+    "Festnetznummer 08092 21577 – keine Mobilnummer belegt; Erstkontakt per Anruf oder E-Mail",
+    "Verhältnis zu „Johann Eberl Gas- u. WasserInstall. Heiz.Bau“ (gleiche Adresse und Nummer) klären – Firmenname für die Seite abstimmen",
+    "Leistungen nur grob belegt (Heizungsinstallation, Reparatur, Wartung; Sanitär; Gas-/Wasserinstallation) – Wärmepumpe, Badsanierung, Notdienst nicht belegt, beim Betrieb erfragen",
+    "Logo und Projektfotos: nicht gefunden – beim Betrieb anfragen"
   ],
   "sources": [
     {
-      "label": "Sellwerk – Ilir Metaj Hausmeister und Gebäudedienstleistung",
-      "url": "https://sellwerk.de/firmenprofil/ilir-metaj-hausmeister-und-gebaeudedienstleistung"
+      "label": "wasserwaermeluft.de – Fachhandwerker Christian Eberl Heizung-Sanitär",
+      "url": "https://www.wasserwaermeluft.de/handwerkersuche/christian-eberl-heizung-sanitaer-85560-ebersberg"
     },
     {
-      "label": "11880 – Hausmeisterservices Dietramszell (Liste mit Ilir Metaj)",
-      "url": "https://www.11880.com/branchenbuch/dietramszell/hausmeisterservice"
+      "label": "wasserwaermeluft.de – Webvisitenkarte Christian Eberl",
+      "url": "https://www.wasserwaermeluft.de/webvisitenkarte/christian-eberl-heizung-sanitaer"
     },
     {
-      "label": "Cylex – Hausmeisterservice Dietramszell",
-      "url": "https://web2.cylex.de/suche/hausmeisterservice/Dietramszell"
+      "label": "trustlocal – Christian Eberl in Ebersberg (Google-Spiegel)",
+      "url": "https://trustlocal.de/bayern/ebersberg/sanitar/christian-eberl/"
     },
     {
-      "label": "MapQuest – Ilir Metaj Hausmeister und Gebäudedienstleistung",
-      "url": "https://www.mapquest.com/de/ilir-metaj-hausmeister-und-gebaudedienstleistung-689797036"
+      "label": "Branchenprofil mit Google-Kennung – Christian Eberl, Ignaz-Perner-Straße 3",
+      "url": "https://lasertagarena-oftersheim.de/15229024490289916555/"
     },
     {
-      "label": "hausmeisterdienste.net – Eintrag „Offen für Aufträge“",
-      "url": "https://www.hausmeisterdienste.net/greiling"
+      "label": "heizungsbau.net – Christian Eberl Installationen",
+      "url": "https://www.heizungsbau.net/ebersberg/christian-eberl-installationen-aULWWk"
     },
     {
-      "label": "YellowMap – Hausmeister Wolfratshausen (Umkreis)",
-      "url": "http://www.yellowmap.de/D_82515_Wolfratshausen/0/657_Hausmeister.htm"
+      "label": "Das Örtliche – Eberl Christian, Ignaz-Perner-Str.",
+      "url": "https://www.dasoertliche.de//Themen/Eberl-Christian-Ebersberg-Ignaz-Perner-Str"
+    },
+    {
+      "label": "11880 – Johann Eberl Gas- u. WasserInstall. Heiz.Bau (gleiche Adresse)",
+      "url": "https://www.11880.com/branchenbuch/ebersberg-oberbayern/292352347B27102227/johann-eberl-gas-u-wasserinstall-heiz-bau.html"
     }
   ],
   "site": {
-    "theme": "objekt",
+    "theme": "aqua",
     "category": "handwerk",
     "heroOffer": [
-      "Objektbetreuung",
-      "Gartenpflege",
-      "Winterdienst",
-      "Kleinreparaturen",
-      "Kontrollgänge"
+      "Heizung",
+      "Wartung",
+      "Reparatur",
+      "Sanitär",
+      "Wasserleitungen"
     ],
-    "scene": "facade",
+    "scene": "bath",
     "logoIcon": "house",
-    "logoMark": "IM",
-    "brandName": "Metaj Hausmeisterservice",
-    "seoTitle": "Hausmeister in Dietramszell – Ilir Metaj",
-    "seoDescription": "Hausmeisterdienste und Gebäudebetreuung in Dietramszell, Bad Tölz und Geretsried. Jetzt per Anruf oder WhatsApp anfragen.",
+    "logoMark": "CE",
+    "brandName": "Eberl Heizung-Sanitär",
+    "seoTitle": "Heizung & Sanitär in Ebersberg – Christian Eberl",
+    "seoDescription": "Heizungsinstallation, Wartung, Reparatur sowie Sanitär-, Gas- und Wasserinstallation in Ebersberg und Umgebung. Termin jetzt anfragen.",
     "nav": [
       {
         "label": "Leistungen",
@@ -143,271 +152,272 @@
       }
     ],
     "hero": {
-      "eyebrow": "Hausmeisterservice · Dietramszell",
-      "headline": "Ihr Hausmeister in Dietramszell",
-      "sub": "Haus, Garten und Außenflächen betreut – im Tölzer Land und Umgebung.",
-      "ctaPrimary": "Betreuung anfragen",
+      "eyebrow": "Heizung & Sanitär · Ebersberg",
+      "headline": "Heizung und Sanitär in Ebersberg",
+      "sub": "Installation, Wartung und Reparatur – direkt beim Inhaber Christian Eberl angefragt.",
+      "ctaPrimary": "Termin anfragen",
       "ctaSecondary": "Anrufen",
       "bullets": [
-        "Hausmeister aus Dietramszell",
-        "Für Eigentümer und Hausverwaltungen",
-        "Direkt per Handy erreichbar"
+        "Betrieb in der Ignaz-Perner-Straße",
+        "Heizung warten und reparieren",
+        "Sanitär-, Gas- und Wasserinstallation"
       ],
-      "imageLabel": "gepflegter Hauseingang eines Mehrfamilienhauses mit geräumtem Weg"
+      "imageLabel": "aufgeräumter Heizungsraum mit Kessel und Rohrleitungen"
     },
     "badges": [
       {
-        "title": "Hausmeister",
-        "sub": "Objektbetreuung"
+        "title": "Heizung",
+        "sub": "Einbau & Wartung"
       },
       {
-        "title": "Außenanlagen",
-        "sub": "Garten & Wege"
+        "title": "Reparatur",
+        "sub": "wenn die Anlage streikt"
       },
       {
-        "title": "Mobil",
-        "sub": "01590 6534770"
+        "title": "Sanitär",
+        "sub": "Leitungen & Anschlüsse"
       },
       {
-        "title": "Dietramszell",
-        "sub": "Tölzer Land"
+        "title": "Ebersberg",
+        "sub": "Ignaz-Perner-Straße"
       }
     ],
     "trust": [
       {
+        "value": "Inhaber",
+        "label": "Christian Eberl persönlich"
+      },
+      {
+        "value": "5",
+        "label": "Leistungsbereiche"
+      },
+      {
         "value": "Vor Ort",
-        "label": "Betrieb in Dietramszell"
+        "label": "Betrieb in Ebersberg"
       },
       {
         "value": "Direkt",
-        "label": "Kontakt zum Inhaber"
-      },
-      {
-        "value": "Mobil",
-        "label": "Anruf oder WhatsApp"
-      },
-      {
-        "value": "Offen",
-        "label": "für neue Objekte"
+        "label": "Anruf oder E-Mail"
       }
     ],
     "servicesIntro": {
-      "headline": "Was der Hausmeister übernimmt",
-      "text": "Damit Haus und Grundstück in Ordnung bleiben, ohne dass Sie sich um jede Kleinigkeit selbst kümmern müssen."
+      "headline": "Was Christian Eberl für Ihr Haus übernimmt",
+      "text": "Von der neuen Heizungsanlage über die jährliche Wartung bis zur Wasserleitung im Bad: ein Betrieb, ein Ansprechpartner."
     },
     "services": [
       {
-        "title": "Objektbetreuung",
-        "text": "Regelmäßige Kontrolle von Haus, Technikräumen und Gemeinschaftsflächen.",
+        "title": "Heizungsinstallation",
+        "text": "Neue Heizungsanlagen werden fachgerecht eingebaut und an das bestehende Leitungsnetz angeschlossen.",
         "items": [
-          "Kontrollgänge",
-          "Mängel melden",
-          "Ansprechpartner vor Ort"
+          "Neue Anlage",
+          "Heizungstausch",
+          "Anschluss"
         ]
       },
       {
-        "title": "Gartenpflege",
-        "text": "Rasen, Hecken und Beete am Haus gepflegt halten.",
+        "title": "Heizungswartung",
+        "text": "Eine regelmäßige Wartung hält die Anlage effizient und beugt Ausfällen im Winter vor.",
         "items": [
-          "Rasenmähen",
-          "Heckenschnitt",
-          "Laub entfernen"
+          "Jährliche Wartung",
+          "Einstellung",
+          "Sichtprüfung"
         ]
       },
       {
-        "title": "Winterdienst",
-        "text": "Wege und Zufahrten im Winter räumen und streuen.",
+        "title": "Heizungsreparatur",
+        "text": "Bleibt die Heizung kalt, wird die Ursache gesucht und die Anlage wieder in Gang gebracht.",
         "items": [
-          "Schneeräumen",
-          "Streuen",
-          "Zufahrten"
+          "Fehlersuche",
+          "Ersatzteile",
+          "Wiederinbetriebnahme"
         ]
       },
       {
-        "title": "Kleinreparaturen",
-        "text": "Kleine Schäden beheben, bevor daraus größere werden.",
+        "title": "Sanitärinstallation",
+        "text": "Leitungen, Anschlüsse und Objekte in Bad und Küche – neu verlegt oder ersetzt.",
         "items": [
-          "Leuchtmittel",
-          "Türen & Schlösser",
-          "Kleinmontagen"
+          "Bad",
+          "Küche",
+          "Anschlüsse"
         ]
       },
       {
-        "title": "Reinigung",
-        "text": "Treppenhaus, Eingang und Außenflächen sauber halten.",
+        "title": "Wasserinstallation",
+        "text": "Trink- und Abwasserleitungen werden verlegt, erneuert oder instand gesetzt.",
         "items": [
-          "Treppenhaus",
-          "Eingangsbereich",
-          "Mülltonnenplatz"
+          "Trinkwasser",
+          "Abwasser",
+          "Leitungstausch"
         ]
       },
       {
-        "title": "Haus im Urlaub",
-        "text": "Während Ihrer Abwesenheit nach dem Rechten sehen.",
+        "title": "Gasinstallation",
+        "text": "Gasleitungen und -anschlüsse für Heizung und Haushalt werden installiert und geprüft.",
         "items": [
-          "Briefkasten",
-          "Lüften",
-          "Sichtkontrolle"
+          "Gasleitungen",
+          "Anschlüsse",
+          "Prüfung"
         ]
       }
     ],
     "why": {
-      "headline": "Ein Hausmeister aus dem Ort",
+      "headline": "Ein Betrieb aus Ebersberg für Heizung und Wasser.",
       "points": [
         {
-          "title": "Kurze Wege",
-          "text": "Von Dietramszell aus schnell in Bad Tölz, Geretsried, Wolfratshausen und Egling."
+          "title": "Kurze Anfahrt",
+          "text": "Der Betrieb sitzt in Ebersberg und ist schnell in Grafing, Kirchseeon und Steinhöring."
         },
         {
           "title": "Ein Ansprechpartner",
-          "text": "Sie sprechen direkt mit Ilir Metaj – ohne Zentrale dazwischen."
+          "text": "Sie sprechen direkt mit dem Inhaber – vom ersten Anruf bis zur Übergabe."
         },
         {
-          "title": "Per Handy erreichbar",
-          "text": "Anruf oder WhatsApp genügt, auch für kurzfristige Anliegen."
+          "title": "Alles aus einer Hand",
+          "text": "Heizung, Sanitär, Gas und Wasser – ohne mehrere Firmen abzustimmen."
         },
         {
-          "title": "Alles am Haus",
-          "text": "Innen, Garten und Winterdienst über einen Auftrag."
+          "title": "Wartung mit Plan",
+          "text": "Regelmäßige Termine halten die Anlage zuverlässig in Betrieb."
         }
       ]
     },
     "reviews": {
       "headline": "Was Kunden sagen",
-      "summary": "Kundenstimmen binden wir ein, sobald ein Google-Profil mit Bewertungen vorliegt.",
+      "summary": "Kundenstimmen werden hier eingebunden, sobald sie aus dem Google-Profil übernommen sind.",
       "highlights": [
-        "Hausmeister in Dietramszell",
-        "Direkter Kontakt",
-        "Haus und Garten"
+        "Heizung in Ebersberg",
+        "Wartung und Reparatur",
+        "Direkter Kontakt zum Inhaber"
       ],
       "source": "Google",
-      "sourceUrl": "https://www.google.com/maps/search/?api=1&query=Ilir%20Metaj%20Hausmeister%20und%20Geb%C3%A4udedienstleistung%20Bairawieser%20Str.%206%20Dietramszell",
+      "sourceUrl": "https://www.google.com/maps/search/?api=1&query=Christian%20Eberl%20Heizung-Sanit%C3%A4r%20Ignaz-Perner-Str.%203%20Ebersberg",
       "rating": null,
       "count": null
     },
     "process": {
-      "headline": "So beginnt die Betreuung",
+      "headline": "So kommt Ihr Termin zustande",
       "steps": [
         {
           "title": "Anfrage",
-          "text": "Kurz anrufen oder per WhatsApp Objekt und Wünsche schildern."
+          "text": "Kurz anrufen oder per E-Mail schildern, um welche Anlage es geht."
         },
         {
-          "title": "Besichtigung",
-          "text": "Haus und Grundstück gemeinsam ansehen und Aufgaben festlegen."
+          "title": "Termin vor Ort",
+          "text": "Heizung oder Leitungen werden angesehen, der Umfang wird abgestimmt."
         },
         {
           "title": "Angebot",
-          "text": "Sie erhalten ein Angebot für Umfang und Rhythmus der Betreuung."
+          "text": "Sie erhalten ein klares Angebot für Einbau oder Reparatur."
         },
         {
-          "title": "Start",
-          "text": "Die Betreuung beginnt – mit festem Ansprechpartner vor Ort."
+          "title": "Ausführung",
+          "text": "Die Arbeiten werden erledigt und die Anlage geprüft übergeben."
         }
       ]
     },
     "gallery": {
-      "headline": "Gepflegte Häuser im Tölzer Land",
-      "text": "In der Live-Version zeigen wir hier echte Objekte und Einsätze.",
+      "headline": "Anlagen und Installationen",
+      "text": "Für die Live-Version zeigen wir hier echte Arbeiten des Betriebs.",
       "items": [
         {
-          "title": "Gepflegter Eingang",
-          "photoNeeded": "sauberer Hauseingang eines Mehrfamilienhauses"
+          "title": "Neue Heizung",
+          "photoNeeded": "frisch installierter Heizkessel mit Rohranschlüssen"
         },
         {
-          "title": "Rasen & Hecke",
-          "photoNeeded": "frisch gemähter Rasen mit geschnittener Hecke"
+          "title": "Wartung",
+          "photoNeeded": "Heizungsanlage mit geöffneter Verkleidung bei der Wartung"
         },
         {
-          "title": "Winterdienst",
-          "photoNeeded": "geräumter Gehweg nach Schneefall"
+          "title": "Verteiler",
+          "photoNeeded": "sauber verlegter Heizkreisverteiler"
         },
         {
-          "title": "Treppenhaus",
-          "photoNeeded": "gereinigtes Treppenhaus"
+          "title": "Bad-Anschlüsse",
+          "photoNeeded": "neue Wasseranschlüsse im Bad vor dem Fliesen"
         },
         {
-          "title": "Kleinreparatur",
-          "photoNeeded": "Austausch eines Türschlosses oder einer Leuchte"
+          "title": "Wasserleitung",
+          "photoNeeded": "erneuerte Trinkwasserleitung im Keller"
         }
       ]
     },
     "region": {
-      "headline": "Hausmeister für Dietramszell und Umgebung",
-      "text": "Von Dietramszell aus in Bad Tölz, Geretsried, Wolfratshausen, Egling und Holzkirchen.",
+      "headline": "Heizung und Sanitär rund um Ebersberg",
+      "text": "Von Ebersberg aus schnell in Grafing, Kirchseeon, Steinhöring, Hohenlinden, Aßling und Emmering.",
       "places": [
-        "Dietramszell",
-        "Bad Tölz",
-        "Geretsried",
-        "Wolfratshausen",
-        "Egling",
-        "Holzkirchen"
+        "Ebersberg",
+        "Grafing",
+        "Kirchseeon",
+        "Steinhöring",
+        "Hohenlinden",
+        "Aßling",
+        "Emmering"
       ]
     },
     "faq": [
       {
-        "q": "Betreuen Sie auch einzelne Einfamilienhäuser?",
-        "a": "Fragen Sie einfach an – der Umfang wird bei der Besichtigung abgestimmt."
+        "q": "Wie oft sollte die Heizung gewartet werden?",
+        "a": "Üblich ist eine Wartung pro Jahr. Den passenden Termin stimmen wir mit Ihnen ab."
       },
       {
-        "q": "Übernehmen Sie den Winterdienst?",
-        "a": "Winterdienst gehört typischerweise zum Hausmeisterservice. Details und Zeiten klären wir im Gespräch."
+        "q": "Was tun, wenn die Heizung ausfällt?",
+        "a": "Rufen Sie an und beschreiben Sie, was die Anlage anzeigt. Dann wird ein Termin zur Fehlersuche vereinbart."
       },
       {
-        "q": "Kann ich per WhatsApp anfragen?",
-        "a": "Ja, schicken Sie Ihre Anfrage an die Mobilnummer 01590 6534770."
+        "q": "Übernehmen Sie auch Sanitärarbeiten?",
+        "a": "Ja, Sanitär-, Wasser- und Gasinstallation gehören zum Angebot."
       },
       {
-        "q": "Arbeiten Sie auch außerhalb von Dietramszell?",
-        "a": "Ja, im Umkreis – zum Beispiel Bad Tölz, Geretsried und Wolfratshausen."
+        "q": "Kann ich per E-Mail anfragen?",
+        "a": "Ja, eine kurze Beschreibung per E-Mail genügt für den ersten Kontakt."
       },
       {
-        "q": "Was kostet die Betreuung?",
-        "a": "Das hängt von Objekt und Aufgaben ab. Nach der Besichtigung erhalten Sie ein Angebot."
+        "q": "Arbeiten Sie auch außerhalb von Ebersberg?",
+        "a": "Ja, im Umkreis von Ebersberg – fragen Sie einfach an."
       }
     ],
     "contact": {
-      "headline": "Hausmeister anfragen",
-      "text": "Schreiben Sie kurz, um welches Objekt es geht, wo es liegt und welche Aufgaben anfallen.",
+      "headline": "Termin für Heizung oder Sanitär anfragen",
+      "text": "Nennen Sie kurz die Art der Anlage, das Problem oder Vorhaben und wann es passen würde.",
       "topics": [
-        "Objektbetreuung",
-        "Gartenpflege",
-        "Winterdienst",
-        "Kleinreparaturen",
-        "Reinigung",
+        "Heizungswartung",
+        "Heizungsreparatur",
+        "Neue Heizung",
+        "Sanitär",
+        "Gas/Wasser",
         "Sonstiges"
       ],
-      "responseNote": "Besichtigung nach Absprache."
+      "responseNote": "Termin nach Absprache."
     },
     "quote": {
-      "sizeLabel": "Welches Objekt?",
+      "sizeLabel": "Worum geht es?",
       "sizes": [
-        "Einfamilienhaus",
-        "Mehrfamilienhaus",
-        "Wohnanlage",
-        "Gewerbeobjekt"
+        "Wartung",
+        "Reparatur",
+        "Neue Heizung",
+        "Sanitär / Wasser"
       ],
       "timings": [
-        "So bald wie möglich",
-        "Ab nächstem Monat",
-        "Zur nächsten Saison",
+        "Dringend",
+        "In den nächsten Wochen",
+        "In 1–3 Monaten",
         "Ich plane erst noch"
       ]
     },
-    "stickyCta": "Betreuung anfragen",
+    "stickyCta": "Termin anfragen",
     "look": {
-      "palette": 4,
-      "font": 4,
-      "hero": 6,
-      "services": 2,
+      "palette": 1,
+      "font": 6,
+      "hero": 0,
+      "services": 0,
       "radius": 4,
-      "logo": 2,
-      "intro": 3,
-      "projects": 2,
-      "process": 2,
-      "faq": 2,
+      "logo": 0,
+      "intro": 1,
+      "projects": 1,
+      "process": 0,
+      "faq": 0,
       "reviews": 0,
-      "order": 2
+      "order": 0
     }
   }
 }

@@ -1,117 +1,120 @@
 {
   "id": "2026-10-28-158",
-  "slug": "dietmar-christoleit-fliesen-erding",
+  "slug": "akos-czeller-elektro-geretsried",
   "date": "2026-10-28",
   "company": {
-    "name": "Dietmar Christoleit Fliesen- und Natursteinverlegung",
-    "owner": "Dietmar Hans Christoleit",
-    "trade": "Fliesenleger",
-    "city": "Erding",
-    "address": "Müllerstr. 54, 85435 Erding",
-    "phone": "08122 13275",
-    "email": null,
+    "name": "Handwerkliche Dienstleistungen Inh. Akos Czeller",
+    "owner": "Akos Czeller",
+    "trade": "Elektroinstallation",
+    "city": "Geretsried",
+    "address": "Wolfratshauser Str. 11, 82538 Geretsried",
+    "phone": "01514 6997831",
+    "email": "czellerakos@gmail.com",
     "serviceArea": [
-      "Erding",
-      "Altenerding",
-      "Oberding",
-      "Bockhorn",
-      "Moosinning",
-      "Wörth"
+      "Geretsried",
+      "Wolfratshausen",
+      "Königsdorf",
+      "Egling",
+      "Dietramszell",
+      "Bad Tölz"
     ]
   },
   "listings": {
     "google": {
-      "url": "https://www.google.com/maps/search/?api=1&query=Dietmar%20Christoleit%20Fliesenleger%20M%C3%BCllerstr.%2054%20Erding",
+      "url": "https://www.google.com/maps/search/?api=1&query=Akos%20Czeller%20Wolfratshauser%20Str.%2011%20Geretsried",
       "rating": null,
       "reviews": null,
-      "evidence": "NICHT BELEGT – Suche auf trustlocal.de, firmania.de und rgv-bayern.de ohne Treffer zu „Christoleit“. Ob ein Google-Eintrag existiert, ist offen – in Maps prüfen."
+      "evidence": "NICHT direkt belegt – Elektriker-Portale zeigen Bewertungen widersprüchlich (ElektrikerPortal 5,0 bei 6 Bewertungen und Öffnungszeiten, andere 1, 4, 5 oder 0 Bewertungen); Herkunft der Bewertungen unklar, daher nicht übernommen. Annahme erfolgt über öffentlich belegte Freemail-Adresse (czellerakos@gmail.com, Stadtbranchenbuch). In Maps prüfen."
     },
     "myhammer": {
-      "url": "https://www.11880.com/branchenbuch/erding/060691660B35658975/dietmar-christoleit-fliesen-und-natursteinverlegung.html",
+      "url": "https://www.11880.com/branchenbuch/geretsried/060691303B113020661/handwerkliche-dienstleistungen-inh-akos-czeller.html",
       "rating": null,
       "reviews": null,
-      "evidence": "Kein MyHammer gefunden – 11880-Eintrag „Dietmar Christoleit Fliesen- und Natursteinverlegung“, Erding (Tel. laut Snippet (08122) 92593); fliesenleger.net, auftragsfreundlich.de und muenchen.de-Branchenbuch mit Müllerstr. 54, 85435 Erding, Tel. 08122 13275."
+      "evidence": "Kein MyHammer gefunden – 11880-Eintrag „Handwerkliche Dienstleistungen Inh. Akos Czeller“, Wolfratshauser Str. 11, Geretsried, Tel. 01514 6997831 (Altbauinstallationen, Datennetzwerke) in der Liste Elektriker Geretsried."
     }
   },
   "websiteStatus": "keine eigene Website gefunden",
   "websiteChecks": [
-    "(1) „Dietmar Christoleit Fliesen Natursteinverlegung Erding“ mit blocked_domains (11880, Gelbe Seiten, Das Örtliche, Telefonbuch, Cylex, meinestadt, Creditreform, Facebook, Instagram, golocal, MyHammer, Northdata, Firmenwissen, WKDB, Yelp, wlw) – nur Verzeichnisse (fliesenleger.net, auftragsfreundlich.de, muenchen.de-Branchenbuch); Websites in den Treffern gehören anderen Betrieben (infinitum-fliesen, werling-fliesen, fliesen-auer, halfar-stehr)",
-    "(2) Domain-Check allowed_domains christoleit.de, fliesen-christoleit.de, christoleit-fliesen.de, fliesenleger-christoleit.de, dietmar-christoleit.de, christoleit-erding.de, fliesen-christoleit-erding.de – keine Treffer",
-    "(3) Telefonsuche „08122 13275“ / „08122 92593“ mit blocked_domains – nur fliesenleger.net-Seiten, keine Website",
-    "(4) Google-Spiegel (trustlocal, firmania, rgv-bayern) – kein Eintrag gefunden",
-    "Impressum-Suche nicht mehr durchgeführt (Suchbudget) – kein eigenes Impressum in den Treffern",
-    "Website-Risiko: mittel – Prüfungen negativ, aber weder Google-Eintrag noch Freemail belegt"
+    "(1) „Akos Czeller Geretsried Elektro“ mit blocked_domains (11880, Gelbe Seiten, Das Örtliche, Telefonbuch, Cylex, meinestadt, Creditreform, Facebook, Instagram, golocal, MyHammer, Northdata, Firmenwissen, WKDB, Yelp, trustlocal, wlw) – nur Elektriker-Portale (elektriker.org, elektrikerportal.com, handwerksradar, elektriker.biz) und Stadtbranchenbuch; keine eigene Domain",
+    "(2) Domain-Check allowed_domains czeller.de, akos-czeller.de, czeller-elektro.de, elektro-czeller.de, czeller-dienstleistungen.de, czeller-handwerk.de, czeller.com, akosczeller.de – nur czeller.com (private Seite einer anderen Person „C. Zeller“, Genealogie/Physik), kein Bezug",
+    "(3) Telefon-/E-Mail-Suche „01514 6997831“/„015146997831“/„czellerakos“ mit blocked_domains – nur Verzeichnisse, keine Website",
+    "(4) Impressum-Suche „Impressum \"Akos Czeller\" Geretsried“ – kein eigenes Impressum (nur fremde Treffer Dr. Czell Kieferorthopädie, AKOS GmbH Stuttgart)",
+    "(5) E-Mail laut Stadtbranchenbuch: czellerakos@gmail.com (Freemail, keine Firmendomain)",
+    "Website-Risiko: niedrig – alle Prüfungen negativ, Freemail öffentlich belegt"
   ],
   "facts": {
     "services": [
-      "Fliesenverlegung",
-      "Natursteinarbeiten",
-      "Bodenarbeiten",
-      "Estricharbeiten",
-      "Fugenarbeiten"
+      "Elektroinstallation",
+      "Altbauinstallationen",
+      "Datennetzwerke",
+      "EDV-Installationen",
+      "Elektroreparaturen",
+      "Gebäudeinstallationen"
     ],
     "experience": null,
     "praisedFor": []
   },
   "strategy": {
-    "audience": "Hauseigentümer und Vermieter in Erding, Altenerding, Oberding und Bockhorn, die Bad, Küche, Boden oder Terrasse mit Fliesen oder Naturstein neu gestalten wollen",
-    "mainService": "Fliesen- und Natursteinverlegung",
-    "trustSignal": "Inhabergeführter Fliesenbetrieb in Erding (Müllerstraße), persönlicher Ansprechpartner Dietmar Christoleit",
-    "conversionGoal": "Anfrage für Fliesen- oder Natursteinarbeiten (Anruf oder Formular mit Fotos und Fläche)",
-    "visualConcept": "Ruhige Materialästhetik: großformatige Fliesen, Natursteinplatten mit Maserung, exakte Fugen und Streiflicht"
+    "audience": "Hauseigentümer und Vermieter in Geretsried und Wolfratshausen mit Altbau-Elektrik, Renovierung oder Bedarf an Netzwerkverkabelung",
+    "mainService": "Elektroinstallation und Altbau-Sanierung der Elektrik",
+    "trustSignal": "Inhaber Akos Czeller persönlich per Handy und E-Mail erreichbar",
+    "conversionGoal": "Elektro-Anfrage per Anruf, WhatsApp oder E-Mail mit Fotos vom Zählerschrank",
+    "visualConcept": "Aufgeräumter Verteilerkasten, sauber verlegte Leitungen und Netzwerkdosen – präzise, hell, technisch"
   },
   "sales": {
-    "score": 3,
+    "score": 5,
     "whyGoodLead": [
-      "Keine eigene Website gefunden – nur Verzeichniseinträge",
-      "Inhabergeführter Betrieb mit Namen – persönlicher Auftritt gut umsetzbar",
-      "Naturstein als Schwerpunkt hebt ihn von reinen Fliesenlegern ab",
-      "Erding wächst – Bad- und Bodensanierungen sind gefragt"
+      "Keine eigene Website gefunden – nur Branchenportale",
+      "Mobilnummer und Gmail-Adresse öffentlich – zwei direkte Kontaktwege",
+      "Elektriker im Raum Geretsried sind gefragt; Altbau und Netzwerk sind gut erklärbare Schwerpunkte",
+      "Kleiner Inhaberbetrieb ohne eigene Online-Präsenz – Website bringt Sichtbarkeit"
     ],
-    "pitch": "Grüß Gott Herr Christoleit, hier ist … – ich baue Websites für Handwerksbetriebe im Landkreis Erding. Ich habe Ihren Eintrag als Fliesen- und Natursteinleger in Erding gefunden, aber keine eigene Website. Ich habe unverbindlich einen Entwurf vorbereitet, auf dem Kunden Ihre Arbeiten sehen und direkt anfragen können – darf ich Ihnen den Link schicken?"
+    "pitch": "Hallo Herr Czeller, hier ist … – ich baue Websites für Handwerker im Landkreis Bad Tölz-Wolfratshausen. Ich habe Ihren Eintrag in Geretsried gefunden, aber keine eigene Website. Ich habe unverbindlich einen Entwurf vorbereitet, auf dem Kunden Ihre Elektroarbeiten – vom Altbau bis zum Datennetz – sehen und direkt anfragen können. Darf ich Ihnen den Link schicken?"
   },
   "manualChecks": [
-    "RESERVE – weder Google-Eintrag noch Freemail-Adresse belegt: NUR versenden, wenn Google Maps einen Eintrag OHNE Website zeigt.",
-    "Google Maps prüfen: Eintrag „Dietmar Christoleit“ (Müllerstr. 54, Erding) – mit oder ohne Website, Bewertungsanzahl?",
-    "Zwei Telefonnummern: 08122 13275 (fliesenleger.net, auftragsfreundlich, muenchen.de) und (08122) 92593 (11880-Snippet) – aktuelle Nummer klären; keine Mobilnummer, keine E-Mail belegt",
-    "Betrieb aktiv? Kein Aktualisierungsdatum belegt – beim Erstkontakt bestätigen",
-    "Leistungen laut fliesenleger.net (Fliesen, Naturstein, Boden, Estrich, Fugen) – Schwerpunkte beim Betrieb bestätigen",
+    "Website-Risiko: niedrig – vor Versand in Google Maps prüfen, dass keine Website hinterlegt ist (Grund: Freemail belegt, Google-Eintrag nicht direkt belegt)",
+    "Google-Eintrag in Maps suchen; Bewertungsangaben der Portale widersprüchlich (0–6)",
+    "Ein Portal nennt den Inhaber Meister – nicht belegt, nicht übernommen; ggf. erfragen",
+    "Ein Verzeichnis listet zusätzlich Klimainstallation, das Stadtbranchenbuch führt den Betrieb auch unter Bauunternehmen – Leistungsumfang beim Erstkontakt klären",
     "Logo und Projektfotos: nicht gefunden – beim Betrieb anfragen"
   ],
   "sources": [
     {
-      "label": "11880 – Dietmar Christoleit Fliesen- und Natursteinverlegung, Erding",
-      "url": "https://www.11880.com/branchenbuch/erding/060691660B35658975/dietmar-christoleit-fliesen-und-natursteinverlegung.html"
+      "label": "11880 – Handwerkliche Dienstleistungen Inh. Akos Czeller",
+      "url": "https://www.11880.com/branchenbuch/geretsried/060691303B113020661/handwerkliche-dienstleistungen-inh-akos-czeller.html"
     },
     {
-      "label": "fliesenleger.net – Dietmar Christoleit Fliesenleger, Erding",
-      "url": "https://www.fliesenleger.net/erding/dietmar-christoleit-fliesenleger-aULj2Q"
+      "label": "Stadtbranchenbuch Geretsried – Akos Czeller (mit E-Mail)",
+      "url": "https://geretsried.stadtbranchenbuch.com/9739412.html"
     },
     {
-      "label": "auftragsfreundlich.de – Fliesenleger Erding",
-      "url": "https://www.auftragsfreundlich.de/Fliesen--Platten-und-Mosaikleger/Erding/"
+      "label": "ElektrikerPortal – Akos Czeller Geretsried",
+      "url": "https://elektrikerportal.com/geretsried/6598-akos-czeller"
     },
     {
-      "label": "muenchen.de Branchenbuch – Fliesen Erding",
-      "url": "https://www.muenchen.de/service/branchenbuch/erding/F/125.html"
+      "label": "elektriker.org – Akos Czeller Handwerkliche Dienstleistungen",
+      "url": "https://www.elektriker.org/geretsried/akos-czeller-handwerkliche-dienstleistungen-aUPhoz"
+    },
+    {
+      "label": "Handwerksradar – Akos Czeller Geretsried",
+      "url": "https://handwerksradar.com/elektriker/bayern/akos-czeller-geretsried-82538"
     }
   ],
   "site": {
-    "theme": "stein",
+    "theme": "volt",
     "category": "handwerk",
     "heroOffer": [
-      "Fliesen",
-      "Naturstein",
-      "Bodenbeläge",
-      "Estrich",
-      "Verfugen"
+      "Elektroinstallation",
+      "Altbau",
+      "Datennetzwerk",
+      "Reparaturen"
     ],
-    "scene": "bath",
-    "logoIcon": "trowel",
-    "logoMark": "DC",
-    "brandName": "Christoleit Fliesen",
-    "seoTitle": "Fliesenleger in Erding – Dietmar Christoleit",
-    "seoDescription": "Fliesen- und Natursteinverlegung in Erding: Bäder, Böden, Estrich und Fugenarbeiten von Dietmar Christoleit. Jetzt Anfrage senden.",
+    "scene": "electric",
+    "logoIcon": "bolt",
+    "logoMark": "AC",
+    "brandName": "Akos Czeller Elektro",
+    "seoTitle": "Elektriker in Geretsried – Akos Czeller",
+    "seoDescription": "Elektroinstallation, Altbau-Elektrik, Datennetzwerke und Reparaturen in Geretsried und Umgebung. Direkt beim Inhaber anfragen.",
     "nav": [
       {
         "label": "Leistungen",
@@ -139,132 +142,132 @@
       }
     ],
     "hero": {
-      "eyebrow": "Fliesen & Naturstein · Erding",
-      "headline": "Fliesen und Naturstein in Erding",
-      "sub": "Bäder, Böden und Natursteinflächen – verlegt von Dietmar Christoleit aus Erding.",
+      "eyebrow": "Elektroinstallation · Geretsried",
+      "headline": "Elektriker in Geretsried",
+      "sub": "Neue Leitungen im Altbau, Netzwerk und Reparaturen – direkt vom Inhaber.",
       "ctaPrimary": "Anfrage senden",
       "ctaSecondary": "Anrufen",
       "bullets": [
-        "Fliesen und Naturstein",
-        "Estrich und Fugen",
-        "Inhaber Dietmar Christoleit"
+        "Elektrik in Alt- und Neubau",
+        "Netzwerk- und EDV-Verkabelung",
+        "Per Handy und E-Mail erreichbar"
       ],
-      "imageLabel": "frisch verlegter Natursteinboden mit exakten Fugen"
+      "imageLabel": "aufgeräumter Verteilerkasten mit beschrifteten Sicherungen"
     },
     "badges": [
       {
-        "title": "Fliesen",
-        "sub": "Bad, Küche, Boden"
+        "title": "Elektroinstallation",
+        "sub": "Alt- und Neubau"
       },
       {
-        "title": "Naturstein",
-        "sub": "Platten & Stufen"
+        "title": "Datennetzwerk",
+        "sub": "LAN und EDV"
       },
       {
-        "title": "Estrich",
-        "sub": "tragfähiger Untergrund"
+        "title": "Reparaturen",
+        "sub": "Fehler finden und beheben"
       },
       {
-        "title": "Erding",
-        "sub": "Müllerstraße"
+        "title": "Geretsried",
+        "sub": "Wolfratshauser Straße"
       }
     ],
     "trust": [
       {
-        "value": "5",
-        "label": "Leistungsbereiche"
-      },
-      {
         "value": "Inhaber",
-        "label": "Dietmar Christoleit"
+        "label": "Akos Czeller"
       },
       {
-        "value": "Erding",
-        "label": "Betriebssitz"
+        "value": "Altbau",
+        "label": "Elektrik erneuern"
       },
       {
-        "value": "Boden",
-        "label": "vom Estrich bis zur Fuge"
+        "value": "LAN",
+        "label": "Netzwerk und EDV"
+      },
+      {
+        "value": "Mobil",
+        "label": "Anruf oder WhatsApp"
       }
     ],
     "servicesIntro": {
-      "headline": "Vom Untergrund bis zur letzten Fuge",
-      "text": "Ein Belag hält nur so gut wie sein Unterbau. Darum kommen Estrich, Verlegung und Verfugung hier aus einer Hand."
+      "headline": "Elektrik, die zum Haus passt",
+      "text": "Alte Leitungen, zu wenige Steckdosen oder schwaches WLAN im Keller: Akos Czeller kümmert sich um Strom und Netzwerk in Wohnung und Haus."
     },
     "services": [
       {
-        "title": "Fliesenverlegung",
-        "text": "Wand- und Bodenfliesen für Bad, Küche und Wohnräume – sauber geplant und im Raster verlegt.",
+        "title": "Elektroinstallation",
+        "text": "Leitungen, Steckdosen, Schalter und Verteilungen für Neubau, Umbau und Renovierung.",
         "items": [
-          "Bad",
-          "Küche",
-          "Wohnräume"
+          "Steckdosen & Schalter",
+          "Leitungen",
+          "Unterverteilung"
         ]
       },
       {
-        "title": "Natursteinarbeiten",
-        "text": "Naturstein bringt Maserung und Charakter in Böden, Treppen und Fensterbänke.",
+        "title": "Altbauinstallation",
+        "text": "Veraltete Elektrik wird geprüft und Schritt für Schritt auf einen sicheren Stand gebracht.",
         "items": [
-          "Bodenplatten",
-          "Treppenstufen",
-          "Fensterbänke"
+          "Bestand prüfen",
+          "Leitungen erneuern",
+          "Sicherungen"
         ]
       },
       {
-        "title": "Bodenarbeiten",
-        "text": "Neue Bodenbeläge aus Fliese oder Stein für Flur, Wohnraum und Keller.",
+        "title": "Datennetzwerke",
+        "text": "Netzwerkkabel und Dosen, damit Büro, Homeoffice und Fernseher stabil am Netz hängen.",
         "items": [
-          "Flur",
-          "Wohnraum",
-          "Keller"
+          "LAN-Verkabelung",
+          "Netzwerkdosen",
+          "Patchfeld"
         ]
       },
       {
-        "title": "Estricharbeiten",
-        "text": "Ein ebener, tragfähiger Estrich ist die Grundlage für jeden Belag.",
+        "title": "EDV-Installation",
+        "text": "Anschluss und Verkabelung von Router, Rechnern und Geräten im Haus oder Büro.",
         "items": [
-          "Untergrund",
-          "Ausgleich",
-          "Vorbereitung"
+          "Router-Anschluss",
+          "Gerätekabel",
+          "Ordnung im Technikschrank"
         ]
       },
       {
-        "title": "Fugenarbeiten",
-        "text": "Neue Fugen lassen ältere Fliesenflächen wieder ordentlich aussehen.",
+        "title": "Elektroreparaturen",
+        "text": "Fällt die Sicherung oder flackert das Licht, wird die Ursache gesucht und behoben.",
         "items": [
-          "Neu verfugen",
-          "Silikonfugen",
-          "Ausbessern"
+          "Fehlersuche",
+          "Austausch defekter Teile",
+          "Prüfung"
         ]
       },
       {
-        "title": "Badsanierung",
-        "text": "Alte Fliesen raus, neue Flächen rein – für ein Bad, das wieder zeitgemäß wirkt.",
+        "title": "Gebäudeinstallation",
+        "text": "Elektrik für Mehrfamilienhäuser, Treppenhäuser und Nebengebäude.",
         "items": [
-          "Wandfliesen",
-          "Bodenfliesen",
-          "Dusche"
+          "Treppenhaus",
+          "Keller & Garage",
+          "Außenbeleuchtung"
         ]
       }
     ],
     "why": {
-      "headline": "Fliesen aus Erding – mit Blick fürs Detail.",
+      "headline": "Ein Elektriker, ein Ansprechpartner.",
       "points": [
         {
-          "title": "Persönlich",
-          "text": "Sie sprechen direkt mit Dietmar Christoleit – vom ersten Anruf bis zur Abnahme."
+          "title": "Direkt erreichbar",
+          "text": "Handynummer und E-Mail führen ohne Umweg zum Inhaber."
         },
         {
-          "title": "Stein und Fliese",
-          "text": "Naturstein und Keramik aus einer Hand, auch kombiniert in einem Raum."
+          "title": "Altbau-Erfahrung",
+          "text": "Altbauinstallationen gehören zu den genannten Schwerpunkten."
         },
         {
-          "title": "Solider Unterbau",
-          "text": "Estrich und Verlegung aus einer Hand – Belag und Untergrund passen zusammen."
+          "title": "Strom und Netzwerk",
+          "text": "Steckdose und LAN-Dose werden in einem Auftrag erledigt."
         },
         {
-          "title": "Kurze Wege",
-          "text": "Vom Betrieb in Erding schnell in Altenerding, Oberding, Bockhorn und Moosinning."
+          "title": "Vor Ort in Geretsried",
+          "text": "Kurze Wege nach Wolfratshausen, Königsdorf und Egling."
         }
       ]
     },
@@ -272,119 +275,119 @@
       "headline": "Was Kunden sagen",
       "summary": "Kundenstimmen werden hier eingebunden, sobald sie aus dem Google-Profil übernommen sind.",
       "highlights": [
-        "Fliesenleger in Erding",
-        "Naturstein und Fliesen",
-        "Persönlicher Ansprechpartner"
+        "Elektroinstallation",
+        "Altbau-Elektrik",
+        "Netzwerkverkabelung"
       ],
       "source": "Google",
-      "sourceUrl": "https://www.google.com/maps/search/?api=1&query=Dietmar%20Christoleit%20Fliesenleger%20M%C3%BCllerstr.%2054%20Erding",
+      "sourceUrl": "https://www.google.com/maps/search/?api=1&query=Akos%20Czeller%20Wolfratshauser%20Str.%2011%20Geretsried",
       "rating": null,
       "count": null
     },
     "process": {
-      "headline": "In vier Schritten zum neuen Belag",
+      "headline": "Vom Anruf bis zur fertigen Elektrik",
       "steps": [
         {
           "title": "Anfrage",
-          "text": "Anrufen oder Fotos und ungefähre Fläche schicken."
+          "text": "Anrufen, WhatsApp oder E-Mail – ein Foto vom Sicherungskasten hilft."
         },
         {
           "title": "Besichtigung",
-          "text": "Untergrund, Material und Verlegemuster werden vor Ort besprochen."
+          "text": "Bestand und Wünsche werden vor Ort besprochen."
         },
         {
           "title": "Angebot",
-          "text": "Sie erhalten ein klares Angebot für Material und Arbeit."
+          "text": "Sie erhalten ein klares Angebot mit den nötigen Arbeiten."
         },
         {
-          "title": "Verlegung",
-          "text": "Untergrund vorbereiten, verlegen, verfugen – und sauber übergeben."
+          "title": "Ausführung",
+          "text": "Installation, Prüfung und Übergabe – mit Erklärung, was gemacht wurde."
         }
       ]
     },
     "gallery": {
-      "headline": "Flächen, die bleiben",
-      "text": "Für die Live-Version zeigen wir hier echte Arbeiten des Betriebs.",
+      "headline": "Arbeiten aus Geretsried und Umgebung",
+      "text": "Für die Live-Version zeigen wir hier echte Projekte des Betriebs.",
       "items": [
         {
-          "title": "Neues Bad",
-          "photoNeeded": "gefliestes Bad mit bodengleicher Dusche"
+          "title": "Verteilerkasten",
+          "photoNeeded": "neu aufgebaute, beschriftete Unterverteilung"
         },
         {
-          "title": "Natursteinboden",
-          "photoNeeded": "Natursteinplatten im Flur oder Wohnraum"
+          "title": "Altbau-Elektrik",
+          "photoNeeded": "neue Leitungen in einer renovierten Altbauwohnung"
         },
         {
-          "title": "Steintreppe",
-          "photoNeeded": "Treppe mit Natursteinstufen"
+          "title": "Netzwerkdose",
+          "photoNeeded": "sauber gesetzte LAN-Dose im Homeoffice"
         },
         {
-          "title": "Küchenwand",
-          "photoNeeded": "Fliesenspiegel in der Küche"
+          "title": "Technikschrank",
+          "photoNeeded": "geordneter Router- und Patchschrank"
         },
         {
-          "title": "Frische Fugen",
-          "photoNeeded": "Fliesenfläche vor und nach dem Neuverfugen"
+          "title": "Außenlicht",
+          "photoNeeded": "neue Außenbeleuchtung an Haus oder Garage"
         }
       ]
     },
     "region": {
-      "headline": "Fliesenarbeiten für Erding und Umgebung",
-      "text": "Vom Betrieb in Erding aus in Altenerding, Oberding, Bockhorn, Moosinning und Wörth.",
+      "headline": "Elektriker für Geretsried und Umgebung",
+      "text": "Von Geretsried aus schnell in Wolfratshausen, Königsdorf, Egling, Dietramszell und Bad Tölz.",
       "places": [
-        "Erding",
-        "Altenerding",
-        "Oberding",
-        "Bockhorn",
-        "Moosinning",
-        "Wörth"
+        "Geretsried",
+        "Wolfratshausen",
+        "Königsdorf",
+        "Egling",
+        "Dietramszell",
+        "Bad Tölz"
       ]
     },
     "faq": [
       {
-        "q": "Verlegen Sie auch Naturstein?",
-        "a": "Ja, Natursteinarbeiten gehören neben Fliesen zum Angebot."
+        "q": "Muss die Elektrik im Altbau komplett raus?",
+        "a": "Nicht immer. Nach einer Prüfung vor Ort ist klar, was erneuert werden muss und was bleiben kann."
       },
       {
-        "q": "Übernehmen Sie auch den Estrich?",
-        "a": "Ja, Estricharbeiten sind Teil des Angebots – Details klären wir bei der Besichtigung."
+        "q": "Verlegen Sie auch Netzwerkkabel?",
+        "a": "Ja, Datennetzwerke und EDV-Installationen gehören zum Angebot."
       },
       {
         "q": "Kann ich vorab Fotos schicken?",
-        "a": "Ja, Fotos und die ungefähre Fläche helfen für eine erste Einschätzung."
+        "a": "Ja, per WhatsApp oder E-Mail – das erleichtert die erste Einschätzung."
       },
       {
-        "q": "Lohnt sich Neuverfugen statt neuer Fliesen?",
-        "a": "Oft ja, wenn die Fliesen selbst intakt sind. Das sehen wir uns vor Ort an."
+        "q": "Wie erreiche ich Sie am besten?",
+        "a": "Per Handy unter 01514 6997831 oder per E-Mail an czellerakos@gmail.com."
       },
       {
-        "q": "In welchen Orten arbeiten Sie?",
-        "a": "Rund um Erding, etwa in Altenerding, Oberding und Bockhorn – weitere Orte auf Anfrage."
+        "q": "Arbeiten Sie auch außerhalb von Geretsried?",
+        "a": "Ja, im Umkreis von Geretsried – fragen Sie einfach an."
       }
     ],
     "contact": {
-      "headline": "Ihre Anfrage – unverbindlich",
-      "text": "Beschreiben Sie kurz Raum, ungefähre Fläche und ob Fliese oder Naturstein. Fotos vom Ist-Zustand helfen.",
+      "headline": "Elektro-Anfrage senden",
+      "text": "Beschreiben Sie kurz, was ansteht: neue Steckdosen, Altbau-Elektrik, Netzwerk oder eine Störung. Fotos helfen.",
       "topics": [
-        "Fliesen",
-        "Naturstein",
-        "Bodenbelag",
-        "Estrich",
-        "Fugen",
+        "Elektroinstallation",
+        "Altbau",
+        "Datennetzwerk",
+        "Reparatur",
         "Sonstiges"
       ],
-      "responseNote": "Besichtigung nach Absprache."
+      "responseNote": "Rückmeldung nach Absprache per Telefon oder E-Mail."
     },
     "quote": {
-      "sizeLabel": "Wie groß ist die Fläche?",
+      "sizeLabel": "Was steht an?",
       "sizes": [
-        "Unter 10 m²",
-        "10–30 m²",
-        "30–60 m²",
-        "Über 60 m²"
+        "Einzelne Steckdosen/Lampen",
+        "Ein Raum",
+        "Ganze Wohnung",
+        "Ganzes Haus",
+        "Netzwerk"
       ],
       "timings": [
-        "So bald wie möglich",
+        "Dringend (Störung)",
         "In den nächsten Wochen",
         "In 1–3 Monaten",
         "Ich plane erst noch"
@@ -392,13 +395,18 @@
     },
     "stickyCta": "Anfrage senden",
     "look": {
-      "palette": 2,
-      "font": 6,
-      "hero": 0,
-      "services": 1,
-      "radius": 1,
-      "logo": 0,
-      "intro": 5
+      "palette": 0,
+      "font": 2,
+      "hero": 6,
+      "services": 4,
+      "radius": 0,
+      "logo": 2,
+      "intro": 5,
+      "projects": 0,
+      "process": 1,
+      "faq": 2,
+      "reviews": 0,
+      "order": 2
     }
   }
 }

@@ -50,12 +50,6 @@
    "hint": "08084 575; Website negativ, kein Google/Freemail – RESERVE"
   },
   {
-   "name": "Matthias Eder Fliesenlegermeister",
-   "trade": "Fliesen",
-   "city": "Lengdorf",
-   "hint": "08083 546886; fliesen-eder.de klären"
-  },
-  {
    "name": "Malermeister Alfred Bachmeier",
    "trade": "Maler",
    "city": "Wartenberg",
@@ -68,64 +62,10 @@
    "hint": "08102 4153; Website negativ, kein Google/Freemail – RESERVE"
   },
   {
-   "name": "Armin Nurovic Elektroinstallationsdienst",
-   "trade": "Elektro",
-   "city": "Hohenbrunn",
-   "hint": "ungeprüft"
-  },
-  {
-   "name": "Franz Braun Elektroinstallationen",
-   "trade": "Elektro",
-   "city": "Hohenbrunn",
-   "hint": "ungeprüft"
-  },
-  {
-   "name": "A-K Gebäudeservice",
-   "trade": "Reinigung",
-   "city": "Kirchseeon",
-   "hint": "08091 6179991; ungeprüft"
-  },
-  {
-   "name": "Theodor Huber Fliesenleger",
-   "trade": "Fliesen",
-   "city": "Markt Schwaben",
-   "hint": "ungeprüft"
-  },
-  {
    "name": "Kruppa Kastulus Hausmeisterservice",
    "trade": "Hausmeister",
    "city": "Moosinning",
    "hint": "08123 990971; Name negativ"
-  },
-  {
-   "name": "Ernst Holnburger",
-   "trade": "Fliesen",
-   "city": "Lengdorf",
-   "hint": "ungeprüft"
-  },
-  {
-   "name": "Andrä Hausmeisterservice",
-   "trade": "Hausmeister",
-   "city": "Dietramszell",
-   "hint": "Festnetz; ungeprüft"
-  },
-  {
-   "name": "Christian u. Irmgard Zenglein Malerbetrieb",
-   "trade": "Maler",
-   "city": "Unterhaching",
-   "hint": "ungeprüft"
-  },
-  {
-   "name": "Elektro Erxleben",
-   "trade": "Elektro",
-   "city": "Höhenkirchen-Siegertsbrunn",
-   "hint": "ungeprüft"
-  },
-  {
-   "name": "Seif Elektrodienst",
-   "trade": "Elektro",
-   "city": "Höhenkirchen-Siegertsbrunn",
-   "hint": "ungeprüft"
   },
   {
    "name": "Ulrich Weist Elektrotechnik",
@@ -312,6 +252,180 @@
    "trade": "Heizung & Sanitär",
    "city": "Weßling",
    "hint": "08153 4131; ungeprüft"
+  },
+  {
+   "name": "Ilir Metaj Hausmeister und Gebäudedienstleistung",
+   "trade": "Hausmeisterservice",
+   "city": "Dietramszell",
+   "hint": "RESERVE-geprüft 2026-10-28 (Datei bereit, nicht gewählt): Website negativ, kein Google/Freemail; 01590 6534770"
+  },
+  {
+   "name": "Schreinerei Wandinger",
+   "trade": "Schreinerei",
+   "city": "Dorfen",
+   "hint": "RESERVE-geprüft 2026-10-28 (Datei bereit, nicht gewählt): Website negativ, kein Google/Freemail; 08081 959241"
+  },
+  {
+   "name": "Dietmar Christoleit Fliesen- und Natursteinverlegung",
+   "trade": "Fliesenleger",
+   "city": "Erding",
+   "hint": "RESERVE-geprüft 2026-10-28 (Datei bereit, nicht gewählt): Website negativ, kein Google/Freemail; 08122 13275"
+  },
+  {
+   "name": "Gar Balthasar u. Petra Zimmerei",
+   "trade": "Zimmerei",
+   "city": "Grafing bei München",
+   "hint": "RESERVE-geprüft 2026-10-28 (Datei bereit, nicht gewählt): Website negativ, kein Google/Freemail; 08092 9026"
+  },
+  {
+   "name": "Malermeisterbetrieb Peter Kneuttinger",
+   "trade": "Malerbetrieb",
+   "city": "Grasbrunn",
+   "hint": "RESERVE-geprüft 2026-10-28 (Datei bereit, nicht gewählt): Website negativ, kein Google/Freemail; 08106 302478"
+  },
+  {
+   "name": "Simon Alt Fliesenlegermeister",
+   "trade": "Fliesenleger",
+   "city": "Taufkirchen",
+   "hint": "RESERVE-geprüft 2026-10-28 (Datei bereit, nicht gewählt): Website negativ, kein Google/Freemail; 089 6121090"
+  },
+  {
+   "name": "Reinhold Kade Sanitäre Anlagen",
+   "trade": "Sanitär",
+   "city": "Wolfratshausen",
+   "hint": "08171 29540"
+  },
+  {
+   "name": "Peter Fischer Sanitärinstallation",
+   "trade": "Sanitär",
+   "city": "Wolfratshausen",
+   "hint": "08171 10473"
+  },
+  {
+   "name": "Elektrotechnik Hengge",
+   "trade": "Elektroinstallation",
+   "city": "Geretsried",
+   "hint": "08171 9977569"
+  },
+  {
+   "name": "Gerhard Ertlmeier Elektrotechnik",
+   "trade": "Elektroinstallation",
+   "city": "Geretsried",
+   "hint": "08171 488577"
+  },
+  {
+   "name": "Istvan Mac Elektroinstallationen",
+   "trade": "Elektroinstallation",
+   "city": "Geretsried",
+   "hint": "08171 96294"
+  },
+  {
+   "name": "Heiko Ehrhardt Installation und Heizungsbau",
+   "trade": "Sanitär & Heizung",
+   "city": "Taufkirchen",
+   "hint": "11880-Eintrag"
+  },
+  {
+   "name": "Sebastian Ruck Heizung-Sanitär",
+   "trade": "Sanitär & Heizung",
+   "city": "Unterhaching",
+   "hint": "11880-Eintrag"
+  },
+  {
+   "name": "Wolfgang Hillner Kunstschlosserei",
+   "trade": "Metallbau",
+   "city": "Haar",
+   "hint": "089 466741"
+  },
+  {
+   "name": "Damir Bolfan",
+   "trade": "Fliesenleger",
+   "city": "Taufkirchen",
+   "hint": "branchenbuch24"
+  },
+  {
+   "name": "Iljaz Husenaj Baudienstleistungen & Bauelemente",
+   "trade": "Fenster & Rollladen",
+   "city": "Unterhaching",
+   "hint": "089 61100978"
+  },
+  {
+   "name": "Matthias Ebert Fliesenlegerei",
+   "trade": "Fliesenleger",
+   "city": "Ottobrunn",
+   "hint": "089 6011081"
+  },
+  {
+   "name": "Thomas Machhammer",
+   "trade": "Metallbau",
+   "city": "Taufkirchen (Vils)",
+   "hint": "08084 259813; Tätigkeit unklar"
+  },
+  {
+   "name": "Josef Haberl Schreinerei Zimmerei",
+   "trade": "Zimmerei",
+   "city": "Taufkirchen (Vils)",
+   "hint": "08084 1270"
+  },
+  {
+   "name": "Franz Hatzl Spenglerei",
+   "trade": "Spenglerei",
+   "city": "Eitting",
+   "hint": "08122 4526"
+  },
+  {
+   "name": "Johannes Langer",
+   "trade": "Zimmerei",
+   "city": "Glonn",
+   "hint": "0160 97001953; Name/Domain/Telefon negativ, kein Google/Freemail – RESERVE"
+  },
+  {
+   "name": "Walter Deuter Schlosserei",
+   "trade": "Metallbau",
+   "city": "Baiern",
+   "hint": "08093 901974"
+  },
+  {
+   "name": "Christian Moosburner Zimmerei",
+   "trade": "Zimmerei",
+   "city": "Glonn",
+   "hint": "08093 656957"
+  },
+  {
+   "name": "Dietel Metallbau",
+   "trade": "Metallbau",
+   "city": "Ebersberg",
+   "hint": "08092 3206464"
+  },
+  {
+   "name": "Robert Grichtmaier Metallbau",
+   "trade": "Metallbau",
+   "city": "Kirchseeon",
+   "hint": "08091 9562"
+  },
+  {
+   "name": "Georg Unterlugauer jun.",
+   "trade": "Elektroinstallation",
+   "city": "Höhenkirchen-Siegertsbrunn",
+   "hint": "08102 748316"
+  },
+  {
+   "name": "Matthias Eder Fliesenlegermeister",
+   "trade": "Fliesenleger",
+   "city": "Lengdorf",
+   "hint": "08083 546886; alle Website-Prüfungen negativ, kein Google/Freemail – RESERVE"
+  },
+  {
+   "name": "Alfred Pichlmeier Zimmerei",
+   "trade": "Zimmerei",
+   "city": "Taufkirchen (Vils)",
+   "hint": "08084 7678; Name negativ"
+  },
+  {
+   "name": "Anton Söllner Spenglerei & Dachdeckerei",
+   "trade": "Spenglerei",
+   "city": "Taufkirchen (Vils)",
+   "hint": "ungeprüft"
   }
  ]
 }

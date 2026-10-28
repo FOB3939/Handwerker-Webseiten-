@@ -1,119 +1,117 @@
 {
   "id": "2026-10-28-160",
-  "slug": "zimmerei-gar-grafing",
+  "slug": "bedachung-spenglerei-thiermann-dietramszell",
   "date": "2026-10-28",
   "company": {
-    "name": "Gar Balthasar u. Petra Zimmerei",
-    "owner": "Balthasar und Petra Gar",
-    "trade": "Zimmerei",
-    "city": "Grafing bei München",
-    "address": "Wasserburger Str. 1, 85567 Grafing bei München",
-    "phone": "08092 9026",
-    "email": null,
+    "name": "Bedachung & Spenglerei Thiermann",
+    "owner": null,
+    "trade": "Dachdecker & Spenglerei",
+    "city": "Dietramszell",
+    "address": "Am Dorfbach 11, 83623 Dietramszell-Ascholding",
+    "phone": "01511 1647571",
+    "email": "maik-thiermann@gmx.de",
     "serviceArea": [
-      "Grafing",
-      "Ebersberg",
-      "Aßling",
-      "Emmering",
-      "Kirchseeon",
-      "Glonn",
-      "Bruck"
+      "Dietramszell",
+      "Ascholding",
+      "Egling",
+      "Icking",
+      "Geretsried",
+      "Wolfratshausen",
+      "Otterfing"
     ]
   },
   "listings": {
     "google": {
-      "url": "https://www.google.com/maps/search/?api=1&query=Gar%20Balthasar%20u.%20Petra%20Zimmerei%20Wasserburger%20Str.%201%20Grafing",
+      "url": "https://www.google.com/maps/search/?api=1&query=Bedachung%20Spenglerei%20Thiermann%20Am%20Dorfbach%2011%20Dietramszell",
       "rating": null,
       "reviews": null,
-      "evidence": "NICHT BELEGT – kein Google-Spiegel (trustlocal, rgv-bayern, firmania) gefunden. Nur klassische Verzeichnisse; suchehandwerker.de und 11880 melden keine Bewertungen. In Maps prüfen."
+      "evidence": "NICHT BELEGT – kein Google-Spiegel mit Bewertungen gefunden. Lead stützt sich auf die öffentlich belegte Freemail maik-thiermann@gmx.de (11880, Eintrag „vom Inhaber bestätigt“). In Maps prüfen, ob ein Eintrag existiert und keine Website hinterlegt ist."
     },
     "myhammer": {
-      "url": "https://www.11880.com/branchenbuch/grafing-bei-muenchen/060695949B27762590/balthasar-gar-petra-gar-zimmerei.html",
+      "url": "https://www.11880.com/suche/dachdecker/wolfratshausen",
       "rating": null,
       "reviews": null,
-      "evidence": "Kein MyHammer gefunden – Einträge auf 11880, suchehandwerker.de (Zimmerarbeiten, Holzbauarbeiten), branchen-info.net, goyellow und meinestadt mit Wasserburger Str. 1 und Tel. 08092 9026."
+      "evidence": "Kein MyHammer gefunden – 11880 führt „Bedachung & Spenglerei Thiermann“ (Am Dorfbach 11, 83623 Dietramszell, Tel. (01511) 1647571, E-Mail maik-thiermann@gmx.de) in den Listen Dachdecker Wolfratshausen, Innenausbau Dietramszell und Zimmerei Geretsried/Egling."
     }
   },
   "websiteStatus": "keine eigene Website gefunden",
   "websiteChecks": [
-    "(1) „Gar“ Balthasar Petra Zimmerei Grafing mit blocked_domains (Gelbe Seiten, Das Örtliche, Telefonbuch, meinestadt, Creditreform, Facebook, Instagram, golocal, MyHammer, Northdata, Firmenwissen, WKDB, Yelp, wlw) – nur Verzeichnisse (suchehandwerker.de, 11880, branchen-info.net, Cylex); keine eigene Domain",
-    "(2) Domain-Check allowed_domains zimmerei-gar.de, gar-zimmerei.de, zimmerei-gar-grafing.de, gar-holzbau.de, holzbau-gar.de, gar-grafing.de, zimmerergar.de, zimmerei-gar.com – keine Treffer",
-    "(3) Telefonsuche „08092 9026“/„080929026“ (ohne 11880/Gelbe Seiten/Das Örtliche/Telefonbuch/Cylex) – nur branchen-info.net, meinestadt, goyellow; keine Website",
-    "(4) Impressum-Suche nicht mehr durchgeführt (Suchbudget erschöpft) – vor Versand nachholen",
-    "Keine E-Mail-Adresse gefunden (weder Freemail noch Firmendomain)"
+    "(1) „Bedachung Spenglerei Thiermann Dietramszell“ mit (blocked_domains: 11880, Gelbe Seiten, Das Örtliche, Telefonbuch, Cylex, meinestadt, Creditreform, Facebook, Instagram, golocal, MyHammer, Northdata, Firmenwissen, WKDB, Yelp, trustlocal, wlw) – nur Verzeichnisse (dachdecker-betriebe.de-Ortslisten Dietramszell, Icking, Otterfing, Wolfratshausen; goyellow); keine eigene Domain",
+    "(2) Domain-Check allowed_domains thiermann-bedachung.de, bedachung-thiermann.de, spenglerei-thiermann.de, thiermann-spenglerei.de, thiermann-dach.de, dach-thiermann.de, thiermann-dietramszell.de, thiermann.de – keine Treffer",
+    "(3) Telefon-/E-Mail-Kombisuche – vom Suchdienst abgelehnt; Nummer und E-Mail nur in 11880-Einträgen gesehen",
+    "(4) Namenssuche „Maik Thiermann“ Dachdecker Spengler mit blocked_domains – keine Treffer zum Betrieb, kein Impressum",
+    "(5) Verzeichnisse: E-Mail ist Freemail (gmx.de), kein Website-Feld in den 11880-Snippets",
+    "Website-Risiko: mittel – Freemail belegt und alle Prüfungen negativ, aber kein Google-Beleg und Telefonsuche nicht möglich"
   ],
   "facts": {
     "services": [
-      "Zimmerarbeiten",
-      "Holzbauarbeiten"
+      "Bedachung",
+      "Spenglerarbeiten",
+      "Flachdach",
+      "Zimmererarbeiten",
+      "Innenausbau"
     ],
     "experience": null,
     "praisedFor": []
   },
   "strategy": {
-    "audience": "Hauseigentümer, Landwirte und Bauherren in Grafing, Ebersberg, Aßling und Glonn, die einen Dachstuhl, Carport, Anbau oder Holzarbeiten am Haus planen",
-    "mainService": "Zimmerarbeiten und Holzbau",
-    "trustSignal": "Inhabergeführte Zimmerei in Grafing, Ansprechpartner Balthasar und Petra Gar",
-    "conversionGoal": "Rückruf oder Besichtigung für ein Holzbau-Vorhaben anfragen",
-    "visualConcept": "Frisch abgebundener Dachstuhl aus hellem Fichtenholz vor oberbayerischem Himmel – handwerklich, warm, bodenständig"
+    "audience": "Hauseigentümer, Landwirte und Bauherren in Dietramszell, Egling, Icking und Geretsried mit Dach-, Flachdach- oder Blecharbeiten",
+    "mainService": "Bedachung und Spenglerei aus einer Hand",
+    "trustSignal": "Kleiner Betrieb in Ascholding, Eintrag vom Inhaber bestätigt, direkt per Handy erreichbar",
+    "conversionGoal": "Dach- oder Spenglerarbeit anfragen – per WhatsApp mit Fotos",
+    "visualConcept": "Isartal-Dächer: Ziegel, Blechkanten und Holz vor Voralpen-Hintergrund – bodenständig und klar"
   },
   "sales": {
-    "score": 3,
+    "score": 6,
     "whyGoodLead": [
-      "Keine eigene Website gefunden – nur Verzeichniseinträge",
-      "Zimmerei ist ein bisher seltenes Gewerk im Lead-Bestand",
-      "Holzbau-Projekte sind beratungsintensiv – eine Seite mit Leistungen und Anfrageformular erleichtert den ersten Kontakt",
-      "Inhaberbetrieb mit fester Adresse in Grafing"
+      "Keine eigene Website – nur Verzeichniseinträge mit Handy und GMX-Adresse",
+      "Mobilnummer öffentlich gelistet – WhatsApp-Erstkontakt möglich",
+      "Breites Profil (Dach, Spenglerei, Flachdach, Zimmerei, Innenausbau) lässt sich auf einer Website gut ordnen",
+      "Gewerk Dachdecker/Spengler bisher selten im Bestand"
     ],
-    "pitch": "Guten Tag Herr und Frau Gar, ich baue Websites für Handwerksbetriebe im Landkreis Ebersberg. Ihre Zimmerei in der Wasserburger Straße finde ich in Verzeichnissen, aber ohne eigene Website. Ich habe unverbindlich einen Entwurf vorbereitet, auf dem Bauherren Ihre Zimmer- und Holzbauarbeiten sehen und direkt anfragen können – darf ich Ihnen den Link schicken?"
+    "pitch": "Hallo, hier ist … – ich baue Websites für Handwerker im Isartal. Ich habe Ihren Eintrag „Bedachung & Spenglerei Thiermann“ in Ascholding gefunden, aber keine eigene Website. Ich habe unverbindlich einen Entwurf vorbereitet, auf dem Kunden Ihre Dach- und Spenglerarbeiten sehen und direkt per WhatsApp anfragen können – darf ich Ihnen den Link schicken?"
   },
   "manualChecks": [
-    "RESERVE – weder Google-Eintrag noch Freemail-Adresse belegt: NUR versenden, wenn Google Maps einen Eintrag OHNE Website zeigt.",
-    "Prüfen, ob der Betrieb noch aktiv ist (Verzeichnisdaten teils älter, branchen-info zuletzt 2024 aktualisiert)",
-    "Impressum-Suche („Impressum Gar Zimmerei Grafing“) vor Versand nachholen",
-    "Festnetznummer 08092 9026 – keine Mobilnummer, keine E-Mail belegt; Erstkontakt per Anruf",
-    "Leistungen nur grob belegt (Zimmerarbeiten, Holzbauarbeiten) – Dachstühle, Carports, Holzfassaden, Dachfenster beim Betrieb bestätigen",
-    "Ein Verzeichnis führt den Betrieb unter Tischlerei – Schwerpunkt klären",
+    "Website-Risiko: mittel – vor Versand in Google Maps prüfen, dass keine Website hinterlegt ist (Grund: Freemail belegt, aber kein Google-Eintrag belegt und Telefonsuche nicht möglich)",
+    "Google-Eintrag in Maps suchen (Existenz, Bewertungen) – bisher kein Beleg",
+    "Inhabername nicht belegt (E-Mail lautet maik-thiermann@gmx.de) – Anrede beim Erstkontakt klären, auf der Seite nicht genannt",
+    "Leistungen nur aus Verzeichniskategorien (Dachdecker, Spengler, Flachdach, Zimmerei, Innenausbau) – Schwerpunkte beim Betrieb bestätigen",
     "Logo und Projektfotos: nicht gefunden – beim Betrieb anfragen"
   ],
   "sources": [
     {
-      "label": "11880 – Balthasar Gar Petra Gar Zimmerei Grafing",
-      "url": "https://www.11880.com/branchenbuch/grafing-bei-muenchen/060695949B27762590/balthasar-gar-petra-gar-zimmerei.html"
+      "label": "11880 – Dachdecker Wolfratshausen (Bedachung & Spenglerei Thiermann, gmx-Adresse)",
+      "url": "https://www.11880.com/suche/dachdecker/wolfratshausen"
     },
     {
-      "label": "suchehandwerker.de – Balthasar Gar Petra Gar Zimmerei",
-      "url": "https://suchehandwerker.de/betrieb/balthasar-gar-petra-gar-zimmerei-320661/"
+      "label": "11880 – Innenausbauer Dietramszell (Thiermann, Am Dorfbach 11)",
+      "url": "https://www.11880.com/suche/innenausbau/dietramszell"
     },
     {
-      "label": "branchen-info.net – Gar Balthasar u. Petra Zimmerei",
-      "url": "https://bruck.branchen-info.net/fp_3144123.php"
+      "label": "11880 – Zimmerer Geretsried",
+      "url": "https://www.11880.com/suche/zimmerei/geretsried"
     },
     {
-      "label": "goyellow – Gar Balthasar, Gar Petra Zimmerei",
-      "url": "https://www.goyellow.de/home/zimmerer-gar-balthasar-gar-petra-zimmerei-grafing-b-muenchen--cndtx.html"
-    },
-    {
-      "label": "meinestadt – Balthasar und Petra Gar in Grafing",
-      "url": "https://branchenbuch.meinestadt.de/grafing-muenchen/company/3304085"
+      "label": "dachdecker-betriebe.de – Dachdecker in Dietramszell",
+      "url": "https://www.dachdecker-betriebe.de/Dachdecker/dietramszell"
     }
   ],
   "site": {
-    "theme": "werk",
+    "theme": "stein",
     "category": "handwerk",
     "heroOffer": [
-      "Dachstuhl",
-      "Holzbau",
-      "Carport",
-      "Anbauten",
-      "Reparaturen"
+      "Bedachung",
+      "Spenglerei",
+      "Flachdach",
+      "Zimmerei",
+      "Innenausbau"
     ],
     "scene": "facade",
     "logoIcon": "roof",
-    "logoMark": "G",
-    "brandName": "Zimmerei Gar",
-    "seoTitle": "Zimmerei in Grafing – Balthasar u. Petra Gar",
-    "seoDescription": "Zimmer- und Holzbauarbeiten in Grafing und im Landkreis Ebersberg: Dachstühle, Carports, Anbauten. Jetzt Vorhaben schildern und Rückruf anfragen.",
+    "logoMark": "BT",
+    "brandName": "Thiermann Bedachung & Spenglerei",
+    "seoTitle": "Dachdecker & Spengler in Dietramszell – Bedachung & Spenglerei Thiermann",
+    "seoDescription": "Bedachung, Spenglerei und Flachdach aus Dietramszell-Ascholding. Für Egling, Icking, Geretsried und Wolfratshausen – jetzt per WhatsApp anfragen.",
     "nav": [
       {
         "label": "Leistungen",
@@ -141,132 +139,132 @@
       }
     ],
     "hero": {
-      "eyebrow": "Zimmerei · Grafing",
-      "headline": "Ihre Zimmerei in Grafing",
-      "sub": "Zimmer- und Holzbauarbeiten für Haus, Hof und Garten im Landkreis Ebersberg.",
-      "ctaPrimary": "Vorhaben schildern",
+      "eyebrow": "Bedachung & Spenglerei · Dietramszell",
+      "headline": "Dach und Blech aus Ascholding",
+      "sub": "Steildach, Flachdach und Spenglerarbeiten für Dietramszell und das Isartal.",
+      "ctaPrimary": "Dacharbeit anfragen",
       "ctaSecondary": "Anrufen",
       "bullets": [
-        "Inhaberbetrieb in Grafing",
-        "Zimmer- und Holzbauarbeiten",
-        "Wasserburger Straße 1"
+        "Bedachung und Spenglerei",
+        "Flachdach und Holzarbeiten",
+        "Per Handy und WhatsApp erreichbar"
       ],
-      "imageLabel": "frisch abgebundener Dachstuhl aus hellem Holz"
+      "imageLabel": "neu eingedecktes Satteldach mit Blechrinne vor Voralpen-Hügeln"
     },
     "badges": [
       {
-        "title": "Zimmerei",
-        "sub": "Arbeiten mit Holz"
+        "title": "Bedachung",
+        "sub": "Steil- und Flachdach"
       },
       {
-        "title": "Holzbau",
-        "sub": "vom Dach bis zum Anbau"
+        "title": "Spenglerei",
+        "sub": "Rinnen & Verwahrungen"
       },
       {
-        "title": "Inhaber Gar",
-        "sub": "Balthasar & Petra"
+        "title": "Holz",
+        "sub": "Zimmerei & Ausbau"
       },
       {
-        "title": "Grafing",
-        "sub": "Wasserburger Straße"
+        "title": "Ascholding",
+        "sub": "Am Dorfbach"
       }
     ],
     "trust": [
       {
-        "value": "Inhaber",
-        "label": "Balthasar & Petra Gar"
-      },
-      {
-        "value": "Holz",
-        "label": "Zimmer- und Holzbau"
-      },
-      {
         "value": "Vor Ort",
-        "label": "Betrieb in Grafing"
+        "label": "Betrieb in Ascholding"
       },
       {
-        "value": "Direkt",
-        "label": "Anruf genügt"
+        "value": "5",
+        "label": "Leistungsbereiche"
+      },
+      {
+        "value": "Dach",
+        "label": "Ziegel, Folie, Blech"
+      },
+      {
+        "value": "Mobil",
+        "label": "direkt erreichbar"
       }
     ],
     "servicesIntro": {
-      "headline": "Zimmer- und Holzbauarbeiten aus Grafing",
-      "text": "Ob neuer Dachstuhl, Carport oder Reparatur am Holz: Die Zimmerei Gar plant und baut mit Ihnen vor Ort."
+      "headline": "Vom Dachstuhl bis zur Dachrinne",
+      "text": "Wer Dach, Blech und Holz in einer Hand hat, spart Abstimmung zwischen Gewerken. Die Bedachung & Spenglerei Thiermann übernimmt Eindeckung, Flachdach, Spenglerarbeiten und Holzarbeiten am Haus."
     },
     "services": [
       {
-        "title": "Dachstühle",
-        "text": "Neue Dachstühle und Umbauten am bestehenden Dach – vom Aufmaß bis zur Montage.",
+        "title": "Dacheindeckung",
+        "text": "Neue Eindeckung oder Teilsanierung von Steildächern – vom Abdecken bis zum dichten First.",
         "items": [
-          "Neubau",
-          "Umbau",
-          "Aufmaß"
+          "Neueindeckung",
+          "Teilsanierung",
+          "Firste & Grate"
         ]
       },
       {
-        "title": "Holzbau",
-        "text": "Tragende Holzkonstruktionen für Wohnhaus, Nebengebäude und Hof.",
+        "title": "Flachdach",
+        "text": "Flachdächer auf Garagen, Anbauten und Wohnhäusern abdichten oder sanieren.",
         "items": [
-          "Holzkonstruktionen",
-          "Nebengebäude",
-          "Hofgebäude"
+          "Abdichtung",
+          "Sanierung",
+          "Garagendach"
         ]
       },
       {
-        "title": "Carports",
-        "text": "Carports und Unterstände aus Holz, passend zu Haus und Grundstück.",
+        "title": "Spenglerarbeiten",
+        "text": "Dachrinnen, Fallrohre und Blechverwahrungen, damit Wasser sicher vom Haus wegläuft.",
         "items": [
-          "Carport",
-          "Unterstand",
-          "Holzschuppen"
+          "Dachrinnen",
+          "Fallrohre",
+          "Verwahrungen"
         ]
       },
       {
-        "title": "Anbauten",
-        "text": "Mehr Platz durch Anbauten und Vordächer in Holzbauweise.",
+        "title": "Dachreparatur",
+        "text": "Verrutschte Ziegel, undichte Anschlüsse oder Sturmschäden schnell beheben.",
         "items": [
-          "Anbau",
+          "Sturmschäden",
+          "Undichte Stellen",
+          "Ziegeltausch"
+        ]
+      },
+      {
+        "title": "Zimmererarbeiten",
+        "text": "Holzarbeiten am Dach und rund ums Haus, vom Dachstuhl bis zum Vordach.",
+        "items": [
+          "Dachstuhl",
           "Vordach",
-          "Überdachung"
+          "Holzbau"
         ]
       },
       {
-        "title": "Balkone & Terrassen",
-        "text": "Holzbalkone und Terrassenüberdachungen für draußen.",
+        "title": "Innenausbau",
+        "text": "Ausbau unterm Dach und im Haus, damit aus Speicherflächen nutzbare Räume werden.",
         "items": [
-          "Balkon",
-          "Terrassendach",
-          "Geländer"
-        ]
-      },
-      {
-        "title": "Reparaturen",
-        "text": "Beschädigte Balken, Sparren und Holzteile werden ersetzt oder instand gesetzt.",
-        "items": [
-          "Balken",
-          "Sparren",
-          "Instandsetzung"
+          "Dachgeschoss",
+          "Verkleidungen",
+          "Ausbau"
         ]
       }
     ],
     "why": {
-      "headline": "Holzbau aus Grafing – mit kurzen Wegen.",
+      "headline": "Ein Ansprechpartner für Dach, Blech und Holz.",
       "points": [
         {
-          "title": "Kurze Wege",
-          "text": "Der Betrieb sitzt in Grafing und ist schnell in Ebersberg, Aßling und Glonn."
+          "title": "Aus Ascholding",
+          "text": "Kurze Wege nach Dietramszell, Egling, Icking und Geretsried."
         },
         {
-          "title": "Inhabergeführt",
-          "text": "Sie sprechen direkt mit Balthasar oder Petra Gar."
+          "title": "Weniger Abstimmung",
+          "text": "Eindeckung, Rinne und Holzarbeiten aus einer Hand."
         },
         {
-          "title": "Holz als Werkstoff",
-          "text": "Zimmerarbeiten verbinden Tragkraft mit einem warmen, natürlichen Material."
+          "title": "Direkter Draht",
+          "text": "Anruf oder WhatsApp genügen – ohne Zentrale."
         },
         {
-          "title": "Vor Ort geplant",
-          "text": "Maße und Details werden am Objekt aufgenommen und abgestimmt."
+          "title": "Auch kleine Schäden",
+          "text": "Ein undichter Anschluss wird genauso ernst genommen wie ein neues Dach."
         }
       ]
     },
@@ -274,134 +272,139 @@
       "headline": "Was Kunden sagen",
       "summary": "Kundenstimmen werden hier eingebunden, sobald sie aus dem Google-Profil übernommen sind.",
       "highlights": [
-        "Zimmerei in Grafing",
-        "Holzbauarbeiten",
+        "Bedachung im Isartal",
+        "Spenglerei und Flachdach",
         "Direkter Kontakt"
       ],
       "source": "Google",
-      "sourceUrl": "https://www.google.com/maps/search/?api=1&query=Gar%20Balthasar%20u.%20Petra%20Zimmerei%20Wasserburger%20Str.%201%20Grafing",
+      "sourceUrl": "https://www.google.com/maps/search/?api=1&query=Bedachung%20Spenglerei%20Thiermann%20Am%20Dorfbach%2011%20Dietramszell",
       "rating": null,
       "count": null
     },
     "process": {
-      "headline": "Vom Anruf bis zum fertigen Holzbau",
+      "headline": "Vom Foto zum dichten Dach",
       "steps": [
         {
-          "title": "Anruf",
-          "text": "Kurz schildern, was gebaut oder repariert werden soll."
+          "title": "Anfrage",
+          "text": "Fotos vom Dach per WhatsApp schicken oder kurz anrufen."
         },
         {
           "title": "Besichtigung",
-          "text": "Maße, Zustand und Wünsche werden vor Ort aufgenommen."
+          "text": "Dach, Rinne oder Ausbau werden vor Ort angeschaut."
         },
         {
           "title": "Angebot",
-          "text": "Sie erhalten ein klares Angebot für Ihr Holzbau-Vorhaben."
+          "text": "Sie erhalten ein klares Angebot mit Material und Umfang."
         },
         {
-          "title": "Abbund & Montage",
-          "text": "Das Holz wird zugeschnitten und auf der Baustelle montiert."
+          "title": "Ausführung",
+          "text": "Eindecken, abdichten, verblechen – und sauber übergeben."
         }
       ]
     },
     "gallery": {
-      "headline": "Arbeiten aus Holz",
-      "text": "Für die Live-Version zeigen wir hier echte Projekte der Zimmerei.",
+      "headline": "Dächer im Isartal",
+      "text": "Für die Live-Version zeigen wir hier echte Projekte des Betriebs.",
       "items": [
         {
-          "title": "Neuer Dachstuhl",
-          "photoNeeded": "aufgerichteter Dachstuhl vor dem Eindecken"
+          "title": "Neues Steildach",
+          "photoNeeded": "frisch eingedecktes Ziegeldach"
         },
         {
-          "title": "Carport",
-          "photoNeeded": "fertiger Holz-Carport neben einem Wohnhaus"
+          "title": "Flachdach",
+          "photoNeeded": "abgedichtetes Garagen- oder Anbaudach"
         },
         {
-          "title": "Anbau",
-          "photoNeeded": "Holzanbau im Rohbau"
+          "title": "Dachrinne",
+          "photoNeeded": "neue Blechrinne mit Fallrohr"
         },
         {
-          "title": "Terrassendach",
-          "photoNeeded": "Terrassenüberdachung aus Holz"
+          "title": "Vordach",
+          "photoNeeded": "Holz-Vordach über einer Haustür"
         },
         {
-          "title": "Sanierung",
-          "photoNeeded": "ersetzte Balken in einem älteren Dachstuhl"
+          "title": "Dachausbau",
+          "photoNeeded": "ausgebautes Dachgeschoss mit Holzverkleidung"
         }
       ]
     },
     "region": {
-      "headline": "Zimmerei für Grafing und den Landkreis Ebersberg",
-      "text": "Von Grafing aus schnell in Ebersberg, Aßling, Emmering, Kirchseeon, Glonn und Bruck.",
+      "headline": "Bedachung für Dietramszell und das Isartal",
+      "text": "Von Ascholding aus in Dietramszell, Egling, Icking, Geretsried, Wolfratshausen und Otterfing unterwegs.",
       "places": [
-        "Grafing",
-        "Ebersberg",
-        "Aßling",
-        "Emmering",
-        "Kirchseeon",
-        "Glonn",
-        "Bruck"
+        "Dietramszell",
+        "Ascholding",
+        "Egling",
+        "Icking",
+        "Geretsried",
+        "Wolfratshausen",
+        "Otterfing"
       ]
     },
     "faq": [
       {
-        "q": "Welche Arbeiten übernimmt die Zimmerei?",
-        "a": "Zimmer- und Holzbauarbeiten – welche Details im Einzelfall passen, klären wir im Gespräch."
+        "q": "Übernehmen Sie auch kleine Reparaturen?",
+        "a": "Ja. Ein Foto der Stelle per WhatsApp hilft, den Aufwand vorab einzuschätzen."
       },
       {
-        "q": "Kommen Sie zur Besichtigung?",
-        "a": "Ja, für ein Angebot werden Maße und Zustand vor Ort aufgenommen."
+        "q": "Machen Sie auch Flachdächer?",
+        "a": "Ja, Flachdächer auf Garagen, Anbauten und Wohnhäusern gehören zum Angebot."
       },
       {
-        "q": "Bauen Sie auch Carports?",
-        "a": "Fragen Sie gern an – Carports und Unterstände aus Holz gehören zum typischen Zimmerer-Handwerk."
+        "q": "Kann ich Dach und Dachrinne zusammen beauftragen?",
+        "a": "Ja, Bedachung und Spenglerarbeiten kommen aus einem Betrieb."
       },
       {
-        "q": "Wie lange dauert ein Holzbau-Projekt?",
-        "a": "Das hängt von Größe und Umfang ab. Einen Zeitplan erhalten Sie mit dem Angebot."
+        "q": "Arbeiten Sie auch mit Holz?",
+        "a": "Ja, Zimmerer- und Innenausbauarbeiten sind ebenfalls möglich – fragen Sie mit Ihrem Vorhaben an."
       },
       {
-        "q": "Arbeiten Sie auch außerhalb von Grafing?",
-        "a": "Ja, im Umkreis von Grafing – fragen Sie einfach an."
+        "q": "In welchen Orten sind Sie unterwegs?",
+        "a": "Rund um Dietramszell, etwa in Egling, Icking, Geretsried und Wolfratshausen."
       }
     ],
     "contact": {
-      "headline": "Ihr Holzbau-Vorhaben – unverbindlich anfragen",
-      "text": "Beschreiben Sie kurz, was entstehen oder repariert werden soll, und wo das Objekt liegt.",
+      "headline": "Ihr Dachprojekt – kurz beschreiben, Fotos anhängen",
+      "text": "Sagen Sie, worum es geht: Eindeckung, Flachdach, Rinne, Reparatur oder Ausbau. Fotos helfen bei der ersten Einschätzung.",
       "topics": [
-        "Dachstuhl",
-        "Carport",
-        "Anbau",
-        "Terrassendach",
+        "Dacheindeckung",
+        "Flachdach",
+        "Spenglerarbeiten",
         "Reparatur",
+        "Zimmerei / Ausbau",
         "Sonstiges"
       ],
       "responseNote": "Besichtigung nach Absprache."
     },
     "quote": {
-      "sizeLabel": "Was soll gebaut werden?",
+      "sizeLabel": "Was steht an?",
       "sizes": [
         "Reparatur",
-        "Carport / Unterstand",
-        "Anbau / Vordach",
-        "Dachstuhl"
+        "Dachrinne / Blech",
+        "Flachdach",
+        "Ganzes Dach"
       ],
       "timings": [
-        "So bald wie möglich",
+        "Dringend",
         "In den nächsten Wochen",
         "In 1–3 Monaten",
         "Ich plane erst noch"
       ]
     },
-    "stickyCta": "Vorhaben anfragen",
+    "stickyCta": "Dacharbeit anfragen",
     "look": {
-      "palette": 2,
-      "font": 6,
-      "hero": 0,
-      "services": 1,
+      "palette": 1,
+      "font": 12,
+      "hero": 4,
+      "services": 2,
       "radius": 1,
-      "logo": 0,
-      "intro": 5
+      "logo": 4,
+      "intro": 3,
+      "projects": 0,
+      "process": 2,
+      "faq": 1,
+      "reviews": 0,
+      "order": 0
     }
   }
 }

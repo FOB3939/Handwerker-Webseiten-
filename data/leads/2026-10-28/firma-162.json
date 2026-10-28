@@ -1,113 +1,123 @@
 {
   "id": "2026-10-28-162",
-  "slug": "simon-alt-fliesenlegermeister-taufkirchen",
+  "slug": "franz-achatz-schreinerei-dorfen",
   "date": "2026-10-28",
   "company": {
-    "name": "Simon Alt Fliesenlegermeister",
-    "owner": "Simon Alt",
-    "trade": "Fliesenleger",
-    "city": "Taufkirchen",
-    "address": "Akazienstr. 36, 82024 Taufkirchen",
-    "phone": "089 6121090",
-    "email": null,
+    "name": "Franz Achatz Schreinerei",
+    "owner": "Franz Achatz",
+    "trade": "Schreinerei",
+    "city": "Dorfen",
+    "address": "Kummereck 1, 84405 Dorfen",
+    "phone": "08082 949063",
+    "email": "schreinerei-achatz@t-online.de",
     "serviceArea": [
-      "Taufkirchen",
-      "Unterhaching",
-      "Oberhaching",
-      "Ottobrunn",
-      "Neubiberg",
-      "Brunnthal",
-      "Sauerlach"
+      "Dorfen",
+      "Isen",
+      "Taufkirchen (Vils)",
+      "Lengdorf",
+      "Sankt Wolfgang",
+      "Schwindegg"
     ]
   },
   "listings": {
     "google": {
-      "url": "https://www.google.com/maps/search/?api=1&query=Simon%20Alt%20Fliesenlegermeister%20Akazienstr.%2036%20Taufkirchen",
+      "url": "https://www.google.com/maps/search/?api=1&query=Franz%20Achatz%20Schreinerei%20Kummereck%201%20Dorfen",
       "rating": null,
       "reviews": null,
-      "evidence": "NICHT BELEGT – kein Google-Spiegel mit diesem Betrieb gefunden; nur Verzeichnisse (11880, orte.muenchen.de, muenchen.de-Branchenbuch, fliesenleger24). In Maps prüfen."
+      "evidence": "NICHT direkt belegt – kein Google-Spiegel gefunden; Das Örtliche zeigt 0 Bewertungen, tischler-schreiner.org eine Bewertung 5,0 (Herkunft unklar, nicht übernommen). Annahme über öffentlich belegte Freemail-Adresse schreinerei-achatz@t-online.de (Vereinsadressliste als PDF, Stand 2016 – evtl. veraltet). In Maps prüfen."
     },
     "myhammer": {
-      "url": "https://www.11880.com/suche/fliesenleger/taufkirchen",
+      "url": "https://www.dasoertliche.de/Themen/Franz-Achatz-Schreinerei-Dorfen-Kummereck-Kummereck",
       "rating": null,
       "reviews": null,
-      "evidence": "Kein MyHammer gefunden – 11880-Ortsliste Fliesenleger Taufkirchen: „Simon Alt Fliesenlegermeister“, Akazienstr. 36, 82024 Taufkirchen (Am Wald), Tel. (089) 6121090."
+      "evidence": "Kein MyHammer gefunden – Einträge in Das Örtliche, Das Telefonbuch, goyellow (u. a. Mobil 0151 12872960), tischler-schreiner.org (Möbelbau), oeffnungszeitenbuch und muenchen.de-Branchenbuch, Kummereck 1, Dorfen."
     }
   },
   "websiteStatus": "keine eigene Website gefunden",
   "websiteChecks": [
-    "(1) „Simon Alt Fliesen Taufkirchen“ mit blocked_domains (11880.com, gelbeseiten.de, dasoertliche.de, dastelefonbuch.de, cylex.de, meinestadt.de, creditreform.de, facebook.com, instagram.com, golocal.de, my-hammer.de, northdata.de, firmenwissen.de, werkenntdenbesten.de, yelp.de, wlw.de) – nur Verzeichnisse (orte.muenchen.de, muenchen.de-Branchenbuch, fliesenleger24.com); keine eigene Domain, keine Bewertungen",
-    "(2) Domain-Check allowed_domains fliesen-alt.de, alt-fliesen.de, simon-alt.de, fliesenleger-alt.de, fliesen-simon-alt.de, simonalt.de, alt-fliesenleger.de, fliesenalt.de – keine Treffer",
-    "(3) Telefonsuche „089 6121090“/„0896121090“/„089/6121090“ mit blocked_domains – keine Treffer, keine Website",
-    "(4) Impressum-Suche aus Budgetgründen NICHT durchgeführt",
-    "Website-Risiko: mittel – drei Prüfungen negativ, aber kein Google-Beleg und keine Freemail; Betrieb im Netz kaum sichtbar (evtl. inaktiv)"
+    "(1) „Franz Achatz Schreinerei Kummereck Dorfen“ mit blocked_domains (11880, Gelbe Seiten, Cylex, meinestadt, Creditreform, Facebook, Instagram, golocal, MyHammer, Northdata, Firmenwissen, WKDB, Yelp, wlw) – nur Verzeichnisse (Das Örtliche, Das Telefonbuch, goyellow, tischler-schreiner.org); keine eigene Domain",
+    "(2) Domain-Check allowed_domains schreinerei-achatz.de, achatz-schreinerei.de, achatz.de, schreiner-achatz.de, achatz-dorfen.de, franz-achatz.de, achatz-moebel.de, schreinereiachatz.de – keine Treffer",
+    "(3) Telefonsuche „0151 12872960“/„015112872960“/„08082 949063“/„08082949063“ – keine Treffer mit Bezug zum Betrieb, keine Website",
+    "(4) Impressum-Suche „Impressum Franz Achatz Schreiner Dorfen Kummereck“ mit vollen blocked_domains (11880, Gelbe Seiten, Das Örtliche, Telefonbuch, Cylex, meinestadt, Creditreform, Facebook, Instagram, golocal, MyHammer, Northdata, Firmenwissen, WKDB, Yelp, trustlocal, wlw) – kein eigenes Impressum, nur Verzeichnisse und eine Vereinsadressliste (PDF 2016) mit schreinerei-achatz@t-online.de",
+    "(5) E-Mail schreinerei-achatz@t-online.de ist Freemail (T-Online), keine Firmendomain; Domain schreinerei-achatz.de ohne Treffer",
+    "Website-Risiko: mittel – alle Prüfungen negativ, Freemail öffentlich belegt (aber älter), Google-Eintrag nicht belegt"
   ],
   "facts": {
     "services": [
-      "Fliesen-, Platten- und Mosaikverlegung"
+      "Möbelbau",
+      "Innenausbau",
+      "Einbaumöbel",
+      "Innentüren"
     ],
     "experience": null,
     "praisedFor": []
   },
   "strategy": {
-    "audience": "Hauseigentümer und Wohnungsbesitzer in Taufkirchen, Unterhaching, Oberhaching und Ottobrunn, die Bad, Küche, Flur oder Terrasse neu fliesen lassen wollen",
-    "mainService": "Fliesen, Platten und Mosaik verlegen",
-    "trustSignal": "Fliesenlegermeister mit Sitz in Taufkirchen (Am Wald)",
-    "conversionGoal": "Kostenloses Angebot für Fliesenarbeiten anfragen (Anruf oder Formular mit Fotos und Maßen)",
-    "visualConcept": "Klare Fugenbilder, großformatige Fliesen im Bad und feines Mosaik – präzise Linien und ruhige Steinfarben"
+    "audience": "Hausbesitzer und Bauherren in Dorfen, Isen und Taufkirchen (Vils), die Möbel nach Maß oder einen Innenausbau planen",
+    "mainService": "Möbelbau und Innenausbau nach Maß",
+    "trustSignal": "Schreinerei von Franz Achatz in Kummereck bei Dorfen, direkt beim Inhaber erreichbar",
+    "conversionGoal": "Anfrage per Telefon oder E-Mail mit Raummaßen und Skizze",
+    "visualConcept": "Warmes Massivholz, offene Werkbank mit Hobelspänen, Einbauschrank in einem ländlichen Wohnraum – bodenständig und genau"
   },
   "sales": {
-    "score": 3,
+    "score": 4,
     "whyGoodLead": [
       "Keine eigene Website gefunden – nur Verzeichniseinträge",
-      "Fliesenlegermeister laut Firmenname – gutes Vertrauenssignal für eine Website",
-      "Im Netz kaum sichtbar, keine Bewertungen – Website schafft Auffindbarkeit",
-      "Badsanierung ist im Landkreis München stark gefragt"
+      "Mobilnummer (goyellow) und T-Online-Adresse öffentlich – mehrere Kontaktwege",
+      "Schreiner sind im Bestand selten; Möbelbau lässt sich mit Bildern gut zeigen",
+      "Kaum Bewertungen/Sichtbarkeit – eine Website bringt Anfragen aus dem Raum Dorfen"
     ],
-    "pitch": "Grüß Gott Herr Alt, hier ist … – ich baue Websites für Handwerker im Landkreis München. Ihren Fliesenleger-Meisterbetrieb in Taufkirchen habe ich im Branchenbuch gefunden, aber keine eigene Website. Ich habe unverbindlich einen Entwurf vorbereitet, über den Kunden aus Taufkirchen und Unterhaching direkt Fotos ihres Bads schicken und ein Angebot anfragen können – darf ich Ihnen den Link zeigen?"
+    "pitch": "Grüß Gott Herr Achatz, hier ist … – ich baue Websites für Handwerker im Landkreis Erding. Ich habe Ihre Schreinerei in Kummereck gefunden, aber keine eigene Website. Ich habe unverbindlich einen Entwurf vorbereitet, auf dem Kunden Ihren Möbelbau und Innenausbau sehen und direkt anfragen können – darf ich Ihnen den Link schicken?"
   },
   "manualChecks": [
-    "RESERVE – weder Google-Eintrag noch Freemail-Adresse belegt: NUR versenden, wenn Google Maps einen Eintrag OHNE Website zeigt.",
-    "Website-Risiko: mittel – Impressum-Suche nicht durchgeführt; vor Versand in Google Maps prüfen, dass keine Website hinterlegt ist",
-    "Prüfen, ob der Betrieb noch aktiv ist – außer Verzeichnissen keine Online-Spuren, Telefonsuche ohne Treffer",
-    "Nur Festnetz (089 6121090) belegt – keine Mobilnummer, keine E-Mail; Erstkontakt telefonisch",
-    "Leistungen nur als „Fliesen-, Platten- und Mosaikleger“ belegt – Badsanierung, Naturstein, Terrasse beim Betrieb bestätigen",
+    "Website-Risiko: mittel – vor Versand in Google Maps prüfen, dass keine Website hinterlegt ist (Grund: Freemail nur aus älterer Vereinsliste 2016 belegt, Google-Eintrag nicht belegt)",
+    "E-Mail schreinerei-achatz@t-online.de stammt aus einer Vereinsadressliste (2016) – vor Versand prüfen, ob noch aktuell; ggf. telefonisch Kontakt aufnehmen",
+    "Mobilnummer 0151 12872960 nur bei goyellow („Achatz Franz“) – vor WhatsApp-Kontakt bestätigen; Festnetz 08082 949063 (Fax 949067) mehrfach belegt",
+    "Zweiter Eintrag „Franz Achatz Schreinerei“, Bahnweg 81/3, Taufkirchen (Vils), Tel. 08084 259309 (finde-offen) – klären, ob zweiter Standort, alter Eintrag oder anderer Betrieb",
+    "Leistungen nur grob belegt (Möbelbau, „Schreinerei + Innenausbau“; Verzeichnis nennt zudem Treppen, Fenster, Böden, Türen) – Umfang beim Erstkontakt bestätigen",
     "Logo und Projektfotos: nicht gefunden – beim Betrieb anfragen"
   ],
   "sources": [
     {
-      "label": "11880 – Fliesenleger Taufkirchen (Liste mit Simon Alt Fliesenlegermeister)",
-      "url": "https://www.11880.com/suche/fliesenleger/taufkirchen"
+      "label": "Das Örtliche – Franz Achatz Schreinerei Dorfen",
+      "url": "https://www.dasoertliche.de/Themen/Franz-Achatz-Schreinerei-Dorfen-Kummereck-Kummereck"
     },
     {
-      "label": "Stadtbranchenbuch München – Simon Alt Taufkirchen Fliesenleger",
-      "url": "https://orte.muenchen.de/100870.html"
+      "label": "Das Telefonbuch – Achatz Franz Schreinerei",
+      "url": "https://adresse.dastelefonbuch.de/Dorfen/1-Tischlereien-Franz-Achatz-Dorfen-Kummereck.html"
     },
     {
-      "label": "muenchen.de – Fliesen-, Platten- und Mosaikleger München Landkreis",
-      "url": "https://www.muenchen.de/service/branchenbuch/muenchen-landkreis/F/897.html"
+      "label": "goyellow – Achatz Franz Schreinerei, Kummereck 1",
+      "url": "https://www.goyellow.de/home/tischlerei-achatz-dorfen-kummereck.html"
     },
     {
-      "label": "fliesenleger24 – Fliesenleger in Brunnthal (Simon Alt Fliesenlegermeister)",
-      "url": "https://www.fliesenleger24.com/stadt/brunnthal/"
+      "label": "tischler-schreiner.org – Franz Achatz Schreinerei (Möbelbau)",
+      "url": "https://www.tischler-schreiner.org/dorfen/franz-achatz-schreinerei-aULFpJ"
+    },
+    {
+      "label": "Vereinsadressen Stockschützen Kreis 306 (2016, mit E-Mail)",
+      "url": "https://www.esv-eching.de/app/download/6612912/Vereinsadressen+Stocksch%C3%BCtzen+Kreis+306+19.10.2016.pdf"
+    },
+    {
+      "label": "finde-offen – Franz Achatz Schreinerei, Taufkirchen (Vils)",
+      "url": "https://finde-offen.de/taufkirchen-vils/franz-achatz-schreinerei-1481563"
     }
   ],
   "site": {
-    "theme": "aqua",
+    "theme": "atelier",
     "category": "handwerk",
     "heroOffer": [
-      "Badfliesen",
-      "Bodenfliesen",
-      "Mosaik",
-      "Naturstein",
-      "Fugen"
+      "Möbelbau",
+      "Einbauschränke",
+      "Innenausbau",
+      "Innentüren"
     ],
-    "scene": "bath",
-    "logoIcon": "trowel",
-    "logoMark": "SA",
-    "brandName": "Fliesen Alt",
-    "seoTitle": "Fliesenlegermeister in Taufkirchen – Simon Alt",
-    "seoDescription": "Fliesen, Platten und Mosaik für Bad, Küche und Boden in Taufkirchen und Umgebung. Fliesenlegermeister Simon Alt – Angebot anfragen.",
+    "scene": "kitchen",
+    "logoIcon": "cabinet",
+    "logoMark": "FA",
+    "brandName": "Schreinerei Achatz",
+    "seoTitle": "Schreinerei in Dorfen – Franz Achatz",
+    "seoDescription": "Möbel nach Maß, Einbauschränke und Innenausbau aus Kummereck bei Dorfen. Jetzt beim Schreiner anfragen.",
     "nav": [
       {
         "label": "Leistungen",
@@ -135,132 +145,132 @@
       }
     ],
     "hero": {
-      "eyebrow": "Fliesenlegermeister · Taufkirchen",
-      "headline": "Fliesen vom Meister in Taufkirchen",
-      "sub": "Bad, Küche und Boden – Fliesen, Platten und Mosaik exakt verlegt.",
-      "ctaPrimary": "Angebot anfragen",
+      "eyebrow": "Schreinerei · Dorfen-Kummereck",
+      "headline": "Schreinerei Achatz in Dorfen",
+      "sub": "Möbel und Einbauten nach Maß – geplant für Ihren Raum, gebaut in Kummereck.",
+      "ctaPrimary": "Anfrage senden",
       "ctaSecondary": "Anrufen",
       "bullets": [
-        "Fliesenlegermeister vor Ort",
-        "Fliesen, Platten, Mosaik",
-        "Taufkirchen und Nachbarorte"
+        "Möbelbau nach Maß",
+        "Innenausbau",
+        "Direkt beim Inhaber Franz Achatz"
       ],
-      "imageLabel": "neu gefliestes Bad mit großformatigen Fliesen"
+      "imageLabel": "maßgefertigter Einbauschrank aus hellem Holz unter einer Dachschräge"
     },
     "badges": [
       {
-        "title": "Meister",
-        "sub": "Fliesenlegerhandwerk"
+        "title": "Möbelbau",
+        "sub": "nach Maß"
       },
       {
-        "title": "Bad",
-        "sub": "Wand & Boden"
+        "title": "Einbauschränke",
+        "sub": "auch unter Schrägen"
       },
       {
-        "title": "Mosaik",
-        "sub": "feine Flächen"
+        "title": "Innenausbau",
+        "sub": "Türen und Verkleidungen"
       },
       {
-        "title": "Taufkirchen",
-        "sub": "Am Wald"
+        "title": "Kummereck",
+        "sub": "bei Dorfen"
       }
     ],
     "trust": [
       {
-        "value": "Meister",
-        "label": "Fliesenlegermeister"
+        "value": "Inhaber",
+        "label": "Franz Achatz"
       },
       {
-        "value": "Vor Ort",
-        "label": "Sitz in Taufkirchen"
+        "value": "Maß",
+        "label": "Möbel für Ihren Raum"
       },
       {
-        "value": "3",
-        "label": "Fliesen, Platten, Mosaik"
+        "value": "Holz",
+        "label": "Werkstatt bei Dorfen"
       },
       {
         "value": "Direkt",
-        "label": "Ansprechpartner Simon Alt"
+        "label": "Telefon oder E-Mail"
       }
     ],
     "servicesIntro": {
-      "headline": "Fliesen, Platten und Mosaik",
-      "text": "Ob neues Bad, Küchenspiegel oder Flurboden: Fliesen werden passend geplant, sauber geschnitten und mit gleichmäßigen Fugen verlegt."
+      "headline": "Holz, das genau in Ihren Raum passt",
+      "text": "Nischen, Dachschrägen und alte Häuser haben selten Standardmaße. Die Schreinerei Achatz baut Möbel und Einbauten, die sich nach dem Raum richten."
     },
     "services": [
       {
-        "title": "Badfliesen",
-        "text": "Wand- und Bodenfliesen für Bad und Dusche – mit sauberen Anschlüssen an Wanne, Duschfläche und Armaturen.",
+        "title": "Möbel nach Maß",
+        "text": "Schränke, Regale und Tische, geplant nach Ihren Maßen und Wünschen.",
         "items": [
-          "Wandfliesen",
-          "Duschbereich",
-          "Bodenfliesen"
+          "Schränke",
+          "Regale",
+          "Tische"
         ]
       },
       {
-        "title": "Bodenfliesen",
-        "text": "Flur, Küche oder Wohnraum bekommen einen strapazierfähigen Fliesenboden, eben verlegt.",
+        "title": "Einbauschränke",
+        "text": "Stauraum in Nischen, unter Schrägen und in Fluren – bündig eingepasst.",
         "items": [
-          "Flur",
-          "Küche",
-          "Wohnräume"
+          "Dachschrägen",
+          "Nischen",
+          "Garderoben"
         ]
       },
       {
-        "title": "Mosaik",
-        "text": "Mosaik setzt Akzente in Dusche, Nische oder am Waschtisch – exakt in der Fluchtlinie verlegt.",
+        "title": "Innenausbau",
+        "text": "Holzarbeiten im Innenraum, die Räume fertig und wohnlich machen.",
         "items": [
-          "Duschnischen",
-          "Akzentflächen",
-          "Waschtisch"
+          "Verkleidungen",
+          "Ausbau",
+          "Holzdecken"
         ]
       },
       {
-        "title": "Platten verlegen",
-        "text": "Großformatige Platten für ruhige Flächen mit wenig Fugen – innen wie außen.",
+        "title": "Innentüren",
+        "text": "Neue Zimmertüren oder der Austausch alter Türen samt Zarge.",
         "items": [
-          "Großformat",
-          "Terrasse",
-          "Balkon"
+          "Zimmertüren",
+          "Zargen",
+          "Einbau"
         ]
       },
       {
-        "title": "Küchenspiegel",
-        "text": "Fliesen zwischen Arbeitsplatte und Oberschränken schützen die Wand und sind leicht zu reinigen.",
+        "title": "Küchen und Bad",
+        "text": "Möbel für Küche und Bad, die Platz bis in die letzte Ecke nutzen.",
         "items": [
-          "Fliesenspiegel",
-          "Arbeitsbereich",
-          "Anschlüsse"
+          "Küchenmöbel",
+          "Badmöbel",
+          "Arbeitsplatten"
         ]
       },
       {
-        "title": "Fugen erneuern",
-        "text": "Alte, verfärbte oder rissige Fugen werden entfernt und neu verfugt – das Bad wirkt wieder gepflegt.",
+        "title": "Reparaturen",
+        "text": "Klemmende Türen, lose Beschläge oder beschädigte Möbelteile werden instand gesetzt.",
         "items": [
-          "Fugen auskratzen",
-          "Neu verfugen",
-          "Silikon erneuern"
+          "Beschläge",
+          "Türen einstellen",
+          "Ausbessern"
         ]
       }
     ],
     "why": {
-      "headline": "Fliesen vom Meister aus Taufkirchen.",
+      "headline": "Ein Schreiner aus dem Dorfener Land.",
       "points": [
         {
-          "title": "Meisterhandwerk",
-          "text": "Simon Alt führt den Betrieb als Fliesenlegermeister."
+          "title": "Werkstatt vor Ort",
+          "text": "Kummereck liegt direkt bei Dorfen – kurze Wege nach Isen, Lengdorf und Taufkirchen (Vils)."
         },
         {
-          "title": "Kurze Wege",
-          "text": "Von Taufkirchen aus schnell in Unterhaching, Oberhaching, Ottobrunn und Neubiberg."
+          "title": "Inhaber im Gespräch",
+          "text": "Franz Achatz bespricht Ihr Vorhaben persönlich."
         },
         {
-          "title": "Ein Ansprechpartner",
-          "text": "Planung, Angebot und Verlegung laufen über eine Person."
+          "title": "Maß statt Katalog",
+          "text": "Möbel richten sich nach Ihrem Raum, nicht nach Standardgrößen."
         },
         {
-          "title": "Saubere Fugen",
-          "text": "Fliesen werden in der Flucht geplant, damit das Fugenbild über die ganze Fläche stimmt."
+          "title": "Auch kleine Aufträge",
+          "text": "Ein einzelnes Regal oder eine Türreparatur sind willkommen."
         }
       ]
     },
@@ -268,116 +278,115 @@
       "headline": "Was Kunden sagen",
       "summary": "Kundenstimmen werden hier eingebunden, sobald sie aus dem Google-Profil übernommen sind.",
       "highlights": [
-        "Fliesenlegermeister in Taufkirchen",
-        "Fliesen, Platten, Mosaik",
+        "Schreinerei bei Dorfen",
+        "Möbel nach Maß",
         "Direkter Kontakt"
       ],
       "source": "Google",
-      "sourceUrl": "https://www.google.com/maps/search/?api=1&query=Simon%20Alt%20Fliesenlegermeister%20Akazienstr.%2036%20Taufkirchen",
+      "sourceUrl": "https://www.google.com/maps/search/?api=1&query=Franz%20Achatz%20Schreinerei%20Kummereck%201%20Dorfen",
       "rating": null,
       "count": null
     },
     "process": {
-      "headline": "In vier Schritten zur neuen Fliesenfläche",
+      "headline": "Vom Maß zum fertigen Möbel",
       "steps": [
         {
           "title": "Anfrage",
-          "text": "Kurz anrufen oder Fotos und grobe Maße schicken."
+          "text": "Raummaße, Foto oder Skizze schicken – oder kurz anrufen."
         },
         {
           "title": "Aufmaß",
-          "text": "Fläche, Untergrund und Fliesenwahl werden vor Ort besprochen."
+          "text": "Der Raum wird vor Ort vermessen, Holz und Ausführung abgestimmt."
         },
         {
           "title": "Angebot",
-          "text": "Sie erhalten ein schriftliches Angebot für Material und Verlegung."
+          "text": "Sie erhalten ein klares Angebot für Ihr Möbel."
         },
         {
-          "title": "Verlegung",
-          "text": "Untergrund vorbereiten, verlegen, verfugen – und sauber übergeben."
+          "title": "Fertigung & Einbau",
+          "text": "In der Werkstatt gebaut und bei Ihnen eingepasst."
         }
       ]
     },
     "gallery": {
-      "headline": "Flächen, die lange schön bleiben",
-      "text": "In der Live-Version zeigen wir hier echte Arbeiten des Betriebs.",
+      "headline": "Aus der Werkstatt",
+      "text": "Für die Live-Version zeigen wir hier echte Arbeiten der Schreinerei.",
       "items": [
         {
-          "title": "Neues Bad",
-          "photoNeeded": "komplett gefliestes Bad mit bodengleicher Dusche"
+          "title": "Einbauschrank",
+          "photoNeeded": "Einbauschrank unter einer Dachschräge"
         },
         {
-          "title": "Mosaiknische",
-          "photoNeeded": "Duschnische mit Mosaikfliesen"
+          "title": "Garderobe",
+          "photoNeeded": "maßgefertigte Garderobe im Flur"
         },
         {
-          "title": "Flurboden",
-          "photoNeeded": "Flur mit großformatigen Bodenfliesen"
+          "title": "Regalwand",
+          "photoNeeded": "Holzregal über eine ganze Wand"
         },
         {
-          "title": "Küchenspiegel",
-          "photoNeeded": "gefliester Küchenspiegel über der Arbeitsplatte"
+          "title": "Zimmertür",
+          "photoNeeded": "neu eingebaute Innentür mit Zarge"
         },
         {
-          "title": "Terrasse",
-          "photoNeeded": "Terrasse mit Außenplatten"
+          "title": "Werkstatt",
+          "photoNeeded": "Werkbank mit Holzteilen in Arbeit"
         }
       ]
     },
     "region": {
-      "headline": "Fliesenleger für den Münchner Süden",
-      "text": "Von Taufkirchen aus in Unterhaching, Oberhaching, Ottobrunn, Neubiberg, Brunnthal und Sauerlach.",
+      "headline": "Schreinerei für Dorfen und Umgebung",
+      "text": "Von Kummereck aus schnell in Dorfen, Isen, Taufkirchen (Vils), Lengdorf, Sankt Wolfgang und Schwindegg.",
       "places": [
-        "Taufkirchen",
-        "Unterhaching",
-        "Oberhaching",
-        "Ottobrunn",
-        "Neubiberg",
-        "Brunnthal",
-        "Sauerlach"
+        "Dorfen",
+        "Isen",
+        "Taufkirchen (Vils)",
+        "Lengdorf",
+        "Sankt Wolfgang",
+        "Schwindegg"
       ]
     },
     "faq": [
       {
-        "q": "Verlegen Sie auch Fliesen, die ich selbst gekauft habe?",
-        "a": "Das wird bei der Anfrage geklärt. Fragen Sie gern direkt nach."
+        "q": "Bauen Sie auch Möbel für Dachschrägen?",
+        "a": "Ja, gerade Nischen und Schrägen sind ein typischer Fall für Möbel nach Maß."
       },
       {
-        "q": "Können Sie alte Fugen erneuern?",
-        "a": "Ja, alte Fugen werden entfernt und neu verfugt – oft eine günstige Auffrischung fürs Bad."
+        "q": "Was brauche ich für eine erste Anfrage?",
+        "a": "Grobe Maße, ein Foto des Raums und eine Idee, was entstehen soll – eine Skizze reicht."
       },
       {
-        "q": "Wie lange dauert ein neues Bad?",
-        "a": "Das hängt von Größe und Umfang ab. Den Zeitplan besprechen wir nach dem Aufmaß."
+        "q": "Kommen Sie zum Aufmaß ins Haus?",
+        "a": "Ja, vor der Fertigung wird der Raum vor Ort vermessen."
       },
       {
-        "q": "Kann ich vorab Fotos schicken?",
-        "a": "Ja, Fotos und grobe Maße helfen bei einer ersten Einschätzung."
+        "q": "Übernehmen Sie auch kleine Reparaturen?",
+        "a": "Fragen Sie einfach an – auch kleinere Arbeiten an Türen und Möbeln sind möglich."
       },
       {
-        "q": "Arbeiten Sie auch in Unterhaching und Oberhaching?",
-        "a": "Ja, auch in Unterhaching, Oberhaching und den anderen Nachbarorten von Taufkirchen."
+        "q": "In welchem Umkreis arbeiten Sie?",
+        "a": "Rund um Dorfen, etwa in Isen, Lengdorf und Taufkirchen (Vils) – sprechen Sie uns an."
       }
     ],
     "contact": {
-      "headline": "Angebot für Ihre Fliesenarbeiten",
-      "text": "Beschreiben Sie kurz Raum, ungefähre Fläche und Fliesenwunsch. Fotos vom jetzigen Zustand helfen.",
+      "headline": "Ihr Möbel – kurz beschrieben",
+      "text": "Was soll entstehen, wo soll es stehen, welche Maße ungefähr? Fotos oder eine Skizze helfen.",
       "topics": [
-        "Badfliesen",
-        "Bodenfliesen",
-        "Mosaik",
-        "Fugen erneuern",
+        "Möbel nach Maß",
+        "Einbauschrank",
+        "Innenausbau",
+        "Innentür",
         "Sonstiges"
       ],
-      "responseNote": "Aufmaß nach Absprache."
+      "responseNote": "Rückmeldung nach Absprache per Telefon oder E-Mail."
     },
     "quote": {
-      "sizeLabel": "Welche Fläche soll gefliest werden?",
+      "sizeLabel": "Was soll gebaut werden?",
       "sizes": [
-        "Bad",
-        "Küche",
-        "Flur oder Wohnraum",
-        "Terrasse oder Balkon"
+        "Einzelnes Möbel",
+        "Einbauschrank",
+        "Mehrere Möbel/ein Raum",
+        "Innenausbau"
       ],
       "timings": [
         "So bald wie möglich",
@@ -386,20 +395,20 @@
         "Ich plane erst noch"
       ]
     },
-    "stickyCta": "Angebot anfragen",
+    "stickyCta": "Anfrage senden",
     "look": {
-      "palette": 0,
-      "font": 0,
-      "hero": 0,
+      "palette": 5,
+      "font": 8,
+      "hero": 2,
       "services": 0,
-      "radius": 0,
+      "radius": 2,
       "logo": 0,
-      "intro": 0,
+      "intro": 1,
       "projects": 0,
       "process": 0,
       "faq": 0,
       "reviews": 0,
-      "order": 0
+      "order": 2
     }
   }
 }

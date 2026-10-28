@@ -1,117 +1,124 @@
 {
   "id": "2026-10-28-161",
-  "slug": "malermeisterbetrieb-kneuttinger-grasbrunn",
+  "slug": "roettig-spenglerei-wolfratshausen",
   "date": "2026-10-28",
   "company": {
-    "name": "Malermeisterbetrieb Peter Kneuttinger",
-    "owner": "Peter Kneuttinger",
-    "trade": "Malerbetrieb",
-    "city": "Grasbrunn",
-    "address": "Schwablweg 9, 85630 Grasbrunn",
-    "phone": "08106 302478",
+    "name": "Röttig Thomas Spenglerei",
+    "owner": "Thomas Röttig",
+    "trade": "Spenglerei",
+    "city": "Wolfratshausen",
+    "address": "Andreasstr. 8, 82515 Wolfratshausen-Waldram",
+    "phone": "08171 17131",
     "email": null,
     "serviceArea": [
-      "Grasbrunn",
-      "Harthausen",
-      "Neukeferloh",
-      "Vaterstetten",
-      "Baldham",
-      "Höhenkirchen-Siegertsbrunn",
-      "Zorneding"
+      "Wolfratshausen",
+      "Waldram",
+      "Geretsried",
+      "Icking",
+      "Egling",
+      "Münsing"
     ]
   },
   "listings": {
     "google": {
-      "url": "https://www.google.com/maps/search/?api=1&query=Malermeisterbetrieb%20Peter%20Kneuttinger%20Schwablweg%209%20Grasbrunn",
+      "url": "https://www.google.com/maps/search/?api=1&query=R%C3%B6ttig%20Thomas%20Spenglerei%20Andreasstr.%208%20Wolfratshausen",
       "rating": null,
       "reviews": null,
-      "evidence": "NICHT BELEGT – kein Google-Spiegel (trustlocal, firmania, rgv-bayern) mit diesem Betrieb gefunden. Nur Verzeichnisse (11880, orte.muenchen.de, misterwhat, my-profi-maler, firmenABC). In Maps prüfen."
+      "evidence": "INDIREKT (Spiegel) – Das Örtliche zeigt beim Eintrag „Röttig Thomas Spenglerei“, Andreasstr. 8, Wolfratshausen-Waldram, eine Google-Bewertung (5/5 aus 1 Bewertung). Ein anderer Das-Örtliche-Eintrag nennt 1,0 – widersprüchlich, daher Wert nicht übernommen. Kein Website-Feld in den Snippets. In Maps prüfen."
     },
     "myhammer": {
-      "url": "https://www.11880.com/branchenbuch/grasbrunn/060693517B26078474/malermeisterbetrieb-peter-kneuttinger.html",
+      "url": "https://www.dasoertliche.de/Themen/R%C3%B6ttig-Thomas-Spenglerei-Wolfratshausen-Waldram-Andreasstr",
       "rating": null,
       "reviews": null,
-      "evidence": "Kein MyHammer gefunden – 11880-Eintrag „Malermeisterbetrieb Peter Kneuttinger“, Schwablweg 9, Grasbrunn, Tel. (08106) 302478, Eintrag aktualisiert 08.06.2024."
+      "evidence": "Kein MyHammer gefunden – Einträge in Das Örtliche, Das Telefonbuch, golocal (Klempnereien), goyellow, klicktel, branchen-info.net, sanitaer.org und finde-offen („Röttig Thomas Spenglerei Bedachung“), jeweils Andreasstr. 8, Tel. 08171 17131."
     }
   },
   "websiteStatus": "keine eigene Website gefunden",
   "websiteChecks": [
-    "(1) „Kneuttinger Malermeister Grasbrunn“ mit blocked_domains (11880.com, gelbeseiten.de, dasoertliche.de, dastelefonbuch.de, cylex.de, meinestadt.de, creditreform.de, facebook.com, instagram.com, golocal.de, my-hammer.de, northdata.de, firmenwissen.de, werkenntdenbesten.de, yelp.de, wlw.de) – nur Verzeichnisse (misterwhat, orte.muenchen.de, my-profi-maler, firmenABC, yellowmap, branchen-info); keine eigene Domain, kein Website-Feld",
-    "(2) Domain-Check allowed_domains kneuttinger.de, maler-kneuttinger.de, malerbetrieb-kneuttinger.de, kneuttinger-maler.de, malermeister-kneuttinger.de, peter-kneuttinger.de, kneuttinger-malerbetrieb.de, maler-kneuttinger-grasbrunn.de – keine Treffer",
-    "(3) Telefonnummer- und Impressum-Suche aus Budgetgründen NICHT durchgeführt",
-    "(4) 11880-Snippet (Suche Malerbetrieb Putzbrunn/Grasbrunn): nur Adresse und Festnetz, keine Homepage, keine E-Mail",
-    "Website-Risiko: mittel – zwei Prüfungen negativ, aber kein Google-Beleg und keine Freemail; Telefon-/Impressum-Prüfung offen"
+    "(1) „Röttig Thomas Spenglerei Andreasstr Wolfratshausen“ mit blocked_domains (11880, Gelbe Seiten, Das Örtliche, Telefonbuch, Cylex, meinestadt, Creditreform, Facebook, Instagram, golocal, MyHammer, Northdata, Firmenwissen, WKDB, Yelp, trustlocal, wlw) (Das Telefonbuch hier nicht geblockt) – nur Verzeichnisse (sanitaer.org, branchen-info.net, goyellow, Das Telefonbuch); keine eigene Domain",
+    "(2) Domain-Check allowed_domains spenglerei-roettig.de, roettig-spenglerei.de, roettig.de, spengler-roettig.de, roettig-wolfratshausen.de, thomas-roettig.de, roettig-dach.de, spenglereiroettig.de – keine Treffer",
+    "(3) Telefonsuche „08171 17131“/„0817117131“/„08171 171 31“/„08171-17131“ – keine Treffer mit Bezug zum Betrieb, keine Website",
+    "(4) Impressum-Suche „Impressum Thomas Röttig Spenglermeister Waldram Wolfratshausen“ mit blocked_domains – kein eigenes Impressum (nur klicktel, finde-offen und Impressen fremder Vereine/Firmen)",
+    "(5) Keine E-Mail gefunden (auch keine Freemail), kein „Homepage“-Feld in den Verzeichnis-Snippets",
+    "Website-Risiko: mittel – alle Prüfungen negativ, Google-Eintrag nur indirekt über Das Örtliche belegt, keine Freemail"
   ],
   "facts": {
     "services": [
-      "Malerarbeiten",
-      "Lackierarbeiten"
+      "Spenglerarbeiten",
+      "Bedachung",
+      "Dachrinnen und Fallrohre",
+      "Blechverkleidungen"
     ],
     "experience": null,
     "praisedFor": []
   },
   "strategy": {
-    "audience": "Hauseigentümer, Vermieter und Mieter in Grasbrunn, Harthausen, Neukeferloh und Vaterstetten, die Räume streichen, Fassaden auffrischen oder Türen und Fenster lackieren lassen wollen",
-    "mainService": "Maler- und Lackierarbeiten innen und außen",
-    "trustSignal": "Malermeisterbetrieb mit festem Sitz im Schwablweg in Grasbrunn",
-    "conversionGoal": "Kostenloses Angebot für Malerarbeiten anfragen (Anruf oder Formular mit Fotos)",
-    "visualConcept": "Ruhige, helle Wohnräume mit frisch gestrichenen Wänden, Farbmuster und sauber abgeklebte Kanten – handwerklich und aufgeräumt"
+    "audience": "Hauseigentümer und Hausverwaltungen in Wolfratshausen, Waldram, Geretsried und Icking mit undichten Dachrinnen, Blechanschlüssen oder Dacharbeiten",
+    "mainService": "Spenglerarbeiten an Dach und Fassade – Rinnen, Fallrohre, Bleche",
+    "trustSignal": "Inhabergeführte Spenglerei in Waldram, Inhaber Thomas Röttig",
+    "conversionGoal": "Anruf oder Anfrage mit Fotos von Rinne, Dachanschluss oder Schaden",
+    "visualConcept": "Glänzende Kupfer- und Titanzinkbleche, saubere Falze und Rinnen vor Isartal-Himmel – handwerklich, ruhig, präzise"
   },
   "sales": {
-    "score": 3,
+    "score": 4,
     "whyGoodLead": [
       "Keine eigene Website gefunden – nur Verzeichniseinträge",
-      "Meisterbetrieb (laut Firmenname) mit festem Sitz in Grasbrunn",
-      "Keine Online-Bewertungen sichtbar – eine Website schafft Sichtbarkeit im wachsenden Osten des Landkreises",
-      "Malerarbeiten werden ständig nachgefragt (Renovierung, Mieterwechsel)"
+      "Kleiner Inhaberbetrieb mit kaum Google-Bewertungen – eine Website schafft Sichtbarkeit",
+      "Spengler sind selten im Bestand und regional stark gefragt (Rinnen, Bleche, Sturmschäden)",
+      "Festnetz öffentlich – telefonischer Erstkontakt möglich"
     ],
-    "pitch": "Grüß Gott Herr Kneuttinger, hier ist … – ich baue Websites für Handwerker im Münchner Osten. Ihren Malermeisterbetrieb in Grasbrunn habe ich in Branchenverzeichnissen gefunden, aber keine eigene Website. Ich habe unverbindlich einen Entwurf vorbereitet, über den Kunden aus Grasbrunn und Vaterstetten direkt ein Angebot anfragen können – darf ich Ihnen den Link schicken?"
+    "pitch": "Grüß Gott Herr Röttig, hier ist … – ich baue Websites für Handwerker im Landkreis Bad Tölz-Wolfratshausen. Ich habe Ihre Spenglerei in Waldram gefunden, aber keine eigene Website. Ich habe unverbindlich einen Entwurf vorbereitet, auf dem Kunden Ihre Spenglerarbeiten sehen und direkt anfragen können – darf ich Ihnen den Link schicken?"
   },
   "manualChecks": [
-    "RESERVE – weder Google-Eintrag noch Freemail-Adresse belegt: NUR versenden, wenn Google Maps einen Eintrag OHNE Website zeigt.",
-    "Website-Risiko: mittel – Telefon- und Impressum-Suche nicht durchgeführt; vor Versand in Google Maps prüfen, dass keine Website hinterlegt ist",
-    "Nur Festnetz (08106 302478) belegt – keine Mobilnummer, keine E-Mail; Erstkontakt telefonisch",
-    "Prüfen, ob der Betrieb noch aktiv ist (11880-Eintrag zuletzt 08.06.2024 aktualisiert)",
-    "Leistungen nur als „Maler, Lackierer“ belegt – Fassade, Tapezieren, Bodenbeläge o. Ä. beim Betrieb bestätigen",
+    "Website-Risiko: mittel – vor Versand in Google Maps prüfen, dass keine Website hinterlegt ist (Grund: Google-Eintrag nur über Das Örtliche belegt, keine Freemail)",
+    "Google-Bewertung in Maps bestätigen (Das Örtliche: 5/5 aus 1, anderer Eintrag 1,0 – widersprüchlich)",
+    "Keine Mobilnummer und keine E-Mail gefunden – Erstkontakt per Festnetz 08171 17131",
+    "Gewerk in Verzeichnissen uneinheitlich (Spenglerei, Klempner, Bedachung, Sanitär) – Leistungsumfang (Bedachung, Fassadenbleche) beim Erstkontakt bestätigen",
+    "Meistertitel nicht belegt – nicht verwenden",
     "Logo und Projektfotos: nicht gefunden – beim Betrieb anfragen"
   ],
   "sources": [
     {
-      "label": "11880 – Malermeisterbetrieb Peter Kneuttinger Grasbrunn",
-      "url": "https://www.11880.com/branchenbuch/grasbrunn/060693517B26078474/malermeisterbetrieb-peter-kneuttinger.html"
+      "label": "Das Örtliche – Röttig Thomas Spenglerei (mit Google-Bewertung)",
+      "url": "https://www.dasoertliche.de/Themen/R%C3%B6ttig-Thomas-Spenglerei-Wolfratshausen-Waldram-Andreasstr"
     },
     {
-      "label": "Stadtbranchenbuch München – Kneuttinger Peter Maler, Lackierer Grasbrunn",
-      "url": "https://orte.muenchen.de/160411.html"
+      "label": "Das Telefonbuch – Röttig Thomas Spenglerei Waldram",
+      "url": "https://adresse.dastelefonbuch.de/Wolfratshausen/1-Klempner-R%C3%B6ttig-Thomas-Wolfratshausen-Andreasstr.html"
     },
     {
-      "label": "misterwhat – Malermeisterbetrieb Peter Kneuttinger",
-      "url": "https://www.misterwhat.de/company/2376305-malermeisterbetrieb-peter-kneuttinger-grasbrunn"
+      "label": "golocal – Klempnereien Wolfratshausen (Röttig Thomas Spenglerei)",
+      "url": "https://www.golocal.de/wolfratshausen/heizungen/"
     },
     {
-      "label": "my-profi-maler – Malermeisterbetrieb Kneuttinger Peter",
-      "url": "https://my-profi-maler.de/profil/130510/malermeisterbetrieb-kneuttinger-peter/"
+      "label": "branchen-info.net – Röttig Thomas Spenglerei",
+      "url": "https://wolfratshausen.branchen-info.net/fp_2714586.php"
     },
     {
-      "label": "firmenABC – Malermeisterbetrieb Kneuttinger Peter",
-      "url": "https://www.firmenabc.com/u/malermeisterbetrieb-kneuttinger-peter_duflbq"
+      "label": "finde-offen – Röttig Thomas Spenglerei Bedachung",
+      "url": "https://finde-offen.de/wolfratshausen/r%C3%B6ttig-thomas-spenglerei-bedachung-1902017"
+    },
+    {
+      "label": "goyellow – Röttig Thomas Spenglerei",
+      "url": "https://www.goyellow.de/home/klempner-roettig-thomas-wolfratshausen.html"
     }
   ],
   "site": {
-    "theme": "atelier",
+    "theme": "werk",
     "category": "handwerk",
     "heroOffer": [
-      "Innenanstrich",
-      "Lackierarbeiten",
-      "Fassade",
-      "Renovierung"
+      "Dachrinnen",
+      "Fallrohre",
+      "Blechdach",
+      "Kaminbleche",
+      "Reparaturen"
     ],
-    "scene": "paint",
-    "logoIcon": "roller",
-    "logoMark": "PK",
-    "brandName": "Maler Kneuttinger",
-    "seoTitle": "Malermeister in Grasbrunn – Peter Kneuttinger",
-    "seoDescription": "Maler- und Lackierarbeiten in Grasbrunn, Harthausen und Vaterstetten. Malermeisterbetrieb Peter Kneuttinger – jetzt Angebot anfragen.",
+    "scene": "facade",
+    "logoIcon": "roof",
+    "logoMark": "TR",
+    "brandName": "Spenglerei Röttig",
+    "seoTitle": "Spenglerei in Wolfratshausen-Waldram – Thomas Röttig",
+    "seoDescription": "Dachrinnen, Fallrohre, Blechanschlüsse und Bedachung in Wolfratshausen, Waldram und Geretsried. Jetzt Anfrage stellen.",
     "nav": [
       {
         "label": "Leistungen",
@@ -139,132 +146,132 @@
       }
     ],
     "hero": {
-      "eyebrow": "Malermeisterbetrieb · Grasbrunn",
-      "headline": "Malermeister in Grasbrunn",
-      "sub": "Wände, Decken und Lack – gestrichen vom Meisterbetrieb aus dem Schwablweg.",
-      "ctaPrimary": "Angebot anfragen",
+      "eyebrow": "Spenglerei · Wolfratshausen-Waldram",
+      "headline": "Rinnen und Blech aus Waldram",
+      "sub": "Rinnen, Fallrohre und Blechanschlüsse, die Regen sicher vom Haus ableiten.",
+      "ctaPrimary": "Anfrage senden",
       "ctaSecondary": "Anrufen",
       "bullets": [
-        "Meisterbetrieb in Grasbrunn",
-        "Maler- und Lackierarbeiten",
-        "Kurze Wege nach Vaterstetten"
+        "Spenglerarbeiten aus Waldram",
+        "Rinnen, Rohre und Bleche",
+        "Inhaber Thomas Röttig"
       ],
-      "imageLabel": "frisch gestrichenes Wohnzimmer mit Farbmustern"
+      "imageLabel": "neu montierte Dachrinne mit Fallrohr an einem Satteldach"
     },
     "badges": [
       {
-        "title": "Meisterbetrieb",
-        "sub": "Malerhandwerk"
+        "title": "Dachrinnen",
+        "sub": "montieren und erneuern"
       },
       {
-        "title": "Anstrich",
-        "sub": "Wände & Decken"
+        "title": "Blechanschlüsse",
+        "sub": "Kamin, Gaube, Wand"
       },
       {
-        "title": "Lack",
-        "sub": "Türen, Fenster, Holz"
+        "title": "Bedachung",
+        "sub": "nach Absprache"
       },
       {
-        "title": "Grasbrunn",
-        "sub": "Schwablweg 9"
+        "title": "Waldram",
+        "sub": "Andreasstraße"
       }
     ],
     "trust": [
       {
-        "value": "Meister",
-        "label": "Malermeisterbetrieb"
+        "value": "Inhaber",
+        "label": "Thomas Röttig"
       },
       {
-        "value": "Vor Ort",
-        "label": "Sitz in Grasbrunn"
+        "value": "Waldram",
+        "label": "Betrieb vor Ort"
       },
       {
-        "value": "Innen & außen",
-        "label": "Maler- und Lackierarbeiten"
+        "value": "Blech",
+        "label": "Rinnen, Rohre, Anschlüsse"
       },
       {
-        "value": "Direkt",
-        "label": "Ansprechpartner Peter Kneuttinger"
+        "value": "Isartal",
+        "label": "kurze Anfahrt"
       }
     ],
     "servicesIntro": {
-      "headline": "Farbe und Lack für Haus und Wohnung",
-      "text": "Vom einzelnen Zimmer bis zum ganzen Haus: Der Betrieb streicht, lackiert und bereitet Untergründe so vor, dass der Anstrich lange hält."
+      "headline": "Blech am Dach – dicht und sauber verarbeitet",
+      "text": "Wo Wasser vom Dach läuft, entscheiden Rinnen, Rohre und Anschlüsse über trockene Wände. Die Spenglerei Röttig übernimmt diese Arbeiten in und um Wolfratshausen."
     },
     "services": [
       {
-        "title": "Innenanstrich",
-        "text": "Wände und Decken bekommen einen gleichmäßigen, frischen Anstrich – Möbel und Böden werden vorher abgedeckt.",
+        "title": "Dachrinnen",
+        "text": "Neue Rinnen nach Maß oder Ersatz für verbeulte und undichte Rinnen am Wohnhaus.",
         "items": [
-          "Wände",
-          "Decken",
-          "Treppenhäuser"
+          "Hängerinnen",
+          "Rinnenhalter",
+          "Austausch"
         ]
       },
       {
-        "title": "Lackierarbeiten",
-        "text": "Türen, Zargen, Fenster und Heizkörper werden angeschliffen und neu lackiert.",
+        "title": "Fallrohre",
+        "text": "Fallrohre leiten das Wasser kontrolliert ab – vom Rinnenstutzen bis zum Anschluss am Boden.",
         "items": [
-          "Türen & Zargen",
-          "Fensterrahmen",
-          "Heizkörper"
+          "Fallrohre",
+          "Bögen",
+          "Standrohr-Anschluss"
         ]
       },
       {
-        "title": "Fassadenanstrich",
-        "text": "Ein neuer Außenanstrich schützt die Fassade vor Witterung und lässt das Haus wieder gepflegt aussehen.",
+        "title": "Kamin- und Gaubenbleche",
+        "text": "Blechverkleidungen an Kamin und Gaube schützen die Übergänge, an denen Wasser sonst eindringt.",
         "items": [
-          "Fassade",
-          "Sockel",
-          "Dachuntersicht"
+          "Kaminverkleidung",
+          "Gaubenbleche",
+          "Abdeckungen"
         ]
       },
       {
-        "title": "Untergrund vorbereiten",
-        "text": "Risse und Löcher werden gespachtelt, damit die neue Farbe glatt und sauber aufliegt.",
+        "title": "Wand- und Dachanschlüsse",
+        "text": "Saubere Anschlussbleche zwischen Dach, Wand und Vordach verhindern Feuchteschäden.",
         "items": [
-          "Spachteln",
-          "Schleifen",
-          "Grundieren"
+          "Wandanschluss",
+          "Kehlen",
+          "Vordach"
         ]
       },
       {
-        "title": "Renovierung",
-        "text": "Beim Auszug oder vor dem Einzug wird die Wohnung zügig wieder bezugsfertig gestrichen.",
+        "title": "Bedachung",
+        "text": "Dacharbeiten in Abstimmung mit den Spenglerarbeiten – Umfang wird vor Ort besprochen.",
         "items": [
-          "Mieterwechsel",
-          "Auszug",
-          "Einzug"
+          "Dachflächen",
+          "Ausbesserung",
+          "Abstimmung vor Ort"
         ]
       },
       {
-        "title": "Holzschutz",
-        "text": "Holz außen am Haus – etwa Balkon oder Dachüberstand – erhält einen schützenden Anstrich.",
+        "title": "Reparaturen",
+        "text": "Undichte Stellen, gelöste Halter oder Sturmschäden werden gefunden und ausgebessert.",
         "items": [
-          "Balkone",
-          "Holzverkleidung",
-          "Zäune"
+          "Undichte Rinnen",
+          "Sturmschäden",
+          "Ausbessern"
         ]
       }
     ],
     "why": {
-      "headline": "Ein Meisterbetrieb aus Grasbrunn.",
+      "headline": "Spenglerarbeiten aus Waldram – kurze Wege im Isartal.",
       "points": [
         {
-          "title": "Meisterhandwerk",
-          "text": "Der Betrieb führt den Meistertitel im Namen – Malerarbeiten nach den Regeln des Handwerks."
+          "title": "Vor Ort in Waldram",
+          "text": "Der Betrieb sitzt in der Andreasstraße und ist schnell in Wolfratshausen, Geretsried und Icking."
         },
         {
-          "title": "Kurze Wege",
-          "text": "Vom Schwablweg aus sind Harthausen, Neukeferloh, Baldham und Vaterstetten schnell erreicht."
+          "title": "Inhaber am Telefon",
+          "text": "Sie sprechen direkt mit Thomas Röttig über Ihr Dach."
         },
         {
-          "title": "Ein Ansprechpartner",
-          "text": "Sie sprechen direkt mit Peter Kneuttinger – von der Anfrage bis zur Abnahme."
+          "title": "Blech ist das Kerngeschäft",
+          "text": "Rinnen, Rohre und Anschlüsse sind die Arbeiten, um die sich die Spenglerei dreht."
         },
         {
-          "title": "Sauber abgeklebt",
-          "text": "Möbel, Böden und Fenster werden geschützt, bevor der erste Pinselstrich fällt."
+          "title": "Kleine Aufträge willkommen",
+          "text": "Auch eine einzelne undichte Rinne lohnt eine Anfrage."
         }
       ]
     },
@@ -272,138 +279,137 @@
       "headline": "Was Kunden sagen",
       "summary": "Kundenstimmen werden hier eingebunden, sobald sie aus dem Google-Profil übernommen sind.",
       "highlights": [
-        "Malermeisterbetrieb in Grasbrunn",
-        "Maler- und Lackierarbeiten",
+        "Spenglerei in Waldram",
+        "Rinnen und Bleche",
         "Direkter Kontakt"
       ],
       "source": "Google",
-      "sourceUrl": "https://www.google.com/maps/search/?api=1&query=Malermeisterbetrieb%20Peter%20Kneuttinger%20Schwablweg%209%20Grasbrunn",
+      "sourceUrl": "https://www.google.com/maps/search/?api=1&query=R%C3%B6ttig%20Thomas%20Spenglerei%20Andreasstr.%208%20Wolfratshausen",
       "rating": null,
       "count": null
     },
     "process": {
-      "headline": "So kommt die Farbe an die Wand",
+      "headline": "So läuft Ihr Auftrag",
       "steps": [
         {
           "title": "Anruf",
-          "text": "Kurz schildern, welche Räume oder Flächen gestrichen werden sollen."
+          "text": "Kurz schildern, was ansteht – Fotos von Rinne oder Schaden helfen."
         },
         {
           "title": "Besichtigung",
-          "text": "Flächen, Untergrund und Farbwünsche werden vor Ort angesehen."
+          "text": "Dach, Rinnen und Anschlüsse werden vor Ort angeschaut."
         },
         {
           "title": "Angebot",
-          "text": "Sie erhalten ein schriftliches Angebot mit klarem Leistungsumfang."
+          "text": "Sie erhalten ein klares Angebot für die Arbeiten."
         },
         {
-          "title": "Ausführung",
-          "text": "Abdecken, vorbereiten, streichen – und die Räume besenrein übergeben."
+          "title": "Montage",
+          "text": "Bleche, Rinnen und Rohre werden montiert und dicht angeschlossen."
         }
       ]
     },
     "gallery": {
-      "headline": "Frische Farbe in Grasbrunn und Umgebung",
-      "text": "In der Live-Version zeigen wir hier echte Arbeiten des Betriebs.",
+      "headline": "Arbeiten am Dach",
+      "text": "Für die Live-Version zeigen wir hier echte Projekte der Spenglerei.",
       "items": [
         {
-          "title": "Wohnzimmer",
-          "photoNeeded": "frisch gestrichenes Wohnzimmer mit hellen Wänden"
+          "title": "Neue Dachrinne",
+          "photoNeeded": "frisch montierte Hängerinne am Traufbereich"
         },
         {
-          "title": "Treppenhaus",
-          "photoNeeded": "gestrichenes Treppenhaus mit sauberen Kanten"
+          "title": "Fallrohr",
+          "photoNeeded": "Fallrohr mit Bogen an einer Hauswand"
         },
         {
-          "title": "Lackierte Tür",
-          "photoNeeded": "neu lackierte Innentür mit Zarge"
+          "title": "Kaminverkleidung",
+          "photoNeeded": "verkleideter Kamin mit Anschlussblech"
         },
         {
-          "title": "Fassade",
-          "photoNeeded": "Einfamilienhaus mit frischem Fassadenanstrich"
+          "title": "Gaubenblech",
+          "photoNeeded": "Gaube mit sauberer Blecheinfassung"
         },
         {
-          "title": "Farbmuster",
-          "photoNeeded": "Farbfächer und Musterflächen an der Wand"
+          "title": "Reparatur",
+          "photoNeeded": "ausgebesserte Rinne vorher und nachher"
         }
       ]
     },
     "region": {
-      "headline": "Malerarbeiten im Münchner Osten",
-      "text": "Von Grasbrunn aus in Harthausen, Neukeferloh, Vaterstetten, Baldham, Höhenkirchen-Siegertsbrunn und Zorneding.",
+      "headline": "Spenglerei für Wolfratshausen und das Isartal",
+      "text": "Von Waldram aus schnell in Wolfratshausen, Geretsried, Icking, Egling und Münsing.",
       "places": [
-        "Grasbrunn",
-        "Harthausen",
-        "Neukeferloh",
-        "Vaterstetten",
-        "Baldham",
-        "Höhenkirchen-Siegertsbrunn",
-        "Zorneding"
+        "Wolfratshausen",
+        "Waldram",
+        "Geretsried",
+        "Icking",
+        "Egling",
+        "Münsing"
       ]
     },
     "faq": [
       {
-        "q": "Streichen Sie auch einzelne Zimmer?",
-        "a": "Ja, auch einzelne Räume werden gestrichen. Den Umfang klären wir bei der Anfrage."
+        "q": "Meine Dachrinne läuft über – was tun?",
+        "a": "Oft ist sie verstopft, verbogen oder hat zu wenig Gefälle. Schicken Sie ein Foto, dann lässt sich die Ursache besser einschätzen."
       },
       {
-        "q": "Muss ich die Möbel selbst ausräumen?",
-        "a": "Das wird vorab besprochen. Möbel, die im Raum bleiben, werden abgedeckt."
+        "q": "Lohnt sich die Reparatur einer alten Rinne?",
+        "a": "Das hängt vom Zustand ab. Nach der Besichtigung wird besprochen, ob ausbessern oder erneuern sinnvoller ist."
       },
       {
-        "q": "Lackieren Sie auch Türen und Heizkörper?",
-        "a": "Ja, Lackierarbeiten an Türen, Zargen, Fenstern und Heizkörpern gehören zum Malerhandwerk."
+        "q": "Übernehmen Sie auch Kaminverkleidungen?",
+        "a": "Blechverkleidungen an Kamin und Gaube gehören zu den typischen Spenglerarbeiten – fragen Sie einfach an."
       },
       {
-        "q": "Wie schnell bekomme ich ein Angebot?",
-        "a": "Nach der Besichtigung erhalten Sie ein schriftliches Angebot. Rufen Sie einfach an."
+        "q": "Kann ich vorab Fotos schicken?",
+        "a": "Ja, Fotos vom Schaden oder der Dachsituation helfen bei der ersten Einschätzung."
       },
       {
-        "q": "Arbeiten Sie auch in Vaterstetten?",
-        "a": "Ja, auch in Vaterstetten, Baldham und den Nachbarorten von Grasbrunn."
+        "q": "Arbeiten Sie auch außerhalb von Wolfratshausen?",
+        "a": "Ja, im Umkreis von Waldram und Wolfratshausen – sprechen Sie uns an."
       }
     ],
     "contact": {
-      "headline": "Angebot für Ihre Malerarbeiten",
-      "text": "Beschreiben Sie kurz, welche Räume oder Flächen gestrichen werden sollen. Fotos helfen bei der ersten Einschätzung.",
+      "headline": "Anfrage an die Spenglerei",
+      "text": "Beschreiben Sie kurz, worum es geht: Rinne, Fallrohr, Kamin- oder Wandanschluss, Schaden. Fotos helfen.",
       "topics": [
-        "Innenanstrich",
-        "Lackierarbeiten",
-        "Fassade",
-        "Renovierung",
+        "Dachrinne",
+        "Fallrohr",
+        "Kamin-/Gaubenblech",
+        "Reparatur",
         "Sonstiges"
       ],
-      "responseNote": "Besichtigung nach Absprache."
+      "responseNote": "Rückmeldung telefonisch nach Absprache."
     },
     "quote": {
-      "sizeLabel": "Was soll gestrichen werden?",
+      "sizeLabel": "Was steht an?",
       "sizes": [
-        "Ein Zimmer",
-        "Eine Wohnung",
-        "Ganzes Haus",
-        "Fassade"
+        "Einzelne Reparatur",
+        "Rinne/Fallrohr erneuern",
+        "Kamin- oder Gaubenblech",
+        "Mehrere Arbeiten am Dach"
       ],
       "timings": [
-        "So bald wie möglich",
+        "Dringend (Schaden)",
         "In den nächsten Wochen",
         "In 1–3 Monaten",
         "Ich plane erst noch"
       ]
     },
-    "stickyCta": "Angebot anfragen",
+    "stickyCta": "Anfrage senden",
     "look": {
-      "palette": 0,
-      "font": 0,
-      "hero": 0,
-      "services": 0,
-      "radius": 0,
-      "logo": 0,
-      "intro": 0,
-      "projects": 0,
-      "process": 0,
-      "faq": 0,
-      "reviews": 0,
-      "order": 0
+      "palette": 2,
+      "font": 3,
+      "hero": 7,
+      "services": 1,
+      "radius": 4,
+      "logo": 5,
+      "intro": 2,
+      "projects": 1,
+      "process": 1,
+      "faq": 2,
+      "reviews": 1,
+      "order": 3
     }
   }
 }
