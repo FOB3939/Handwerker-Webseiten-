@@ -1,0 +1,409 @@
+{
+  "id": "2026-10-28-161",
+  "slug": "malermeisterbetrieb-kneuttinger-grasbrunn",
+  "date": "2026-10-28",
+  "company": {
+    "name": "Malermeisterbetrieb Peter Kneuttinger",
+    "owner": "Peter Kneuttinger",
+    "trade": "Malerbetrieb",
+    "city": "Grasbrunn",
+    "address": "Schwablweg 9, 85630 Grasbrunn",
+    "phone": "08106 302478",
+    "email": null,
+    "serviceArea": [
+      "Grasbrunn",
+      "Harthausen",
+      "Neukeferloh",
+      "Vaterstetten",
+      "Baldham",
+      "Höhenkirchen-Siegertsbrunn",
+      "Zorneding"
+    ]
+  },
+  "listings": {
+    "google": {
+      "url": "https://www.google.com/maps/search/?api=1&query=Malermeisterbetrieb%20Peter%20Kneuttinger%20Schwablweg%209%20Grasbrunn",
+      "rating": null,
+      "reviews": null,
+      "evidence": "NICHT BELEGT – kein Google-Spiegel (trustlocal, firmania, rgv-bayern) mit diesem Betrieb gefunden. Nur Verzeichnisse (11880, orte.muenchen.de, misterwhat, my-profi-maler, firmenABC). In Maps prüfen."
+    },
+    "myhammer": {
+      "url": "https://www.11880.com/branchenbuch/grasbrunn/060693517B26078474/malermeisterbetrieb-peter-kneuttinger.html",
+      "rating": null,
+      "reviews": null,
+      "evidence": "Kein MyHammer gefunden – 11880-Eintrag „Malermeisterbetrieb Peter Kneuttinger“, Schwablweg 9, Grasbrunn, Tel. (08106) 302478, Eintrag aktualisiert 08.06.2024."
+    }
+  },
+  "websiteStatus": "keine eigene Website gefunden",
+  "websiteChecks": [
+    "(1) „Kneuttinger Malermeister Grasbrunn“ mit blocked_domains (11880.com, gelbeseiten.de, dasoertliche.de, dastelefonbuch.de, cylex.de, meinestadt.de, creditreform.de, facebook.com, instagram.com, golocal.de, my-hammer.de, northdata.de, firmenwissen.de, werkenntdenbesten.de, yelp.de, wlw.de) – nur Verzeichnisse (misterwhat, orte.muenchen.de, my-profi-maler, firmenABC, yellowmap, branchen-info); keine eigene Domain, kein Website-Feld",
+    "(2) Domain-Check allowed_domains kneuttinger.de, maler-kneuttinger.de, malerbetrieb-kneuttinger.de, kneuttinger-maler.de, malermeister-kneuttinger.de, peter-kneuttinger.de, kneuttinger-malerbetrieb.de, maler-kneuttinger-grasbrunn.de – keine Treffer",
+    "(3) Telefonnummer- und Impressum-Suche aus Budgetgründen NICHT durchgeführt",
+    "(4) 11880-Snippet (Suche Malerbetrieb Putzbrunn/Grasbrunn): nur Adresse und Festnetz, keine Homepage, keine E-Mail",
+    "Website-Risiko: mittel – zwei Prüfungen negativ, aber kein Google-Beleg und keine Freemail; Telefon-/Impressum-Prüfung offen"
+  ],
+  "facts": {
+    "services": [
+      "Malerarbeiten",
+      "Lackierarbeiten"
+    ],
+    "experience": null,
+    "praisedFor": []
+  },
+  "strategy": {
+    "audience": "Hauseigentümer, Vermieter und Mieter in Grasbrunn, Harthausen, Neukeferloh und Vaterstetten, die Räume streichen, Fassaden auffrischen oder Türen und Fenster lackieren lassen wollen",
+    "mainService": "Maler- und Lackierarbeiten innen und außen",
+    "trustSignal": "Malermeisterbetrieb mit festem Sitz im Schwablweg in Grasbrunn",
+    "conversionGoal": "Kostenloses Angebot für Malerarbeiten anfragen (Anruf oder Formular mit Fotos)",
+    "visualConcept": "Ruhige, helle Wohnräume mit frisch gestrichenen Wänden, Farbmuster und sauber abgeklebte Kanten – handwerklich und aufgeräumt"
+  },
+  "sales": {
+    "score": 3,
+    "whyGoodLead": [
+      "Keine eigene Website gefunden – nur Verzeichniseinträge",
+      "Meisterbetrieb (laut Firmenname) mit festem Sitz in Grasbrunn",
+      "Keine Online-Bewertungen sichtbar – eine Website schafft Sichtbarkeit im wachsenden Osten des Landkreises",
+      "Malerarbeiten werden ständig nachgefragt (Renovierung, Mieterwechsel)"
+    ],
+    "pitch": "Grüß Gott Herr Kneuttinger, hier ist … – ich baue Websites für Handwerker im Münchner Osten. Ihren Malermeisterbetrieb in Grasbrunn habe ich in Branchenverzeichnissen gefunden, aber keine eigene Website. Ich habe unverbindlich einen Entwurf vorbereitet, über den Kunden aus Grasbrunn und Vaterstetten direkt ein Angebot anfragen können – darf ich Ihnen den Link schicken?"
+  },
+  "manualChecks": [
+    "RESERVE – weder Google-Eintrag noch Freemail-Adresse belegt: NUR versenden, wenn Google Maps einen Eintrag OHNE Website zeigt.",
+    "Website-Risiko: mittel – Telefon- und Impressum-Suche nicht durchgeführt; vor Versand in Google Maps prüfen, dass keine Website hinterlegt ist",
+    "Nur Festnetz (08106 302478) belegt – keine Mobilnummer, keine E-Mail; Erstkontakt telefonisch",
+    "Prüfen, ob der Betrieb noch aktiv ist (11880-Eintrag zuletzt 08.06.2024 aktualisiert)",
+    "Leistungen nur als „Maler, Lackierer“ belegt – Fassade, Tapezieren, Bodenbeläge o. Ä. beim Betrieb bestätigen",
+    "Logo und Projektfotos: nicht gefunden – beim Betrieb anfragen"
+  ],
+  "sources": [
+    {
+      "label": "11880 – Malermeisterbetrieb Peter Kneuttinger Grasbrunn",
+      "url": "https://www.11880.com/branchenbuch/grasbrunn/060693517B26078474/malermeisterbetrieb-peter-kneuttinger.html"
+    },
+    {
+      "label": "Stadtbranchenbuch München – Kneuttinger Peter Maler, Lackierer Grasbrunn",
+      "url": "https://orte.muenchen.de/160411.html"
+    },
+    {
+      "label": "misterwhat – Malermeisterbetrieb Peter Kneuttinger",
+      "url": "https://www.misterwhat.de/company/2376305-malermeisterbetrieb-peter-kneuttinger-grasbrunn"
+    },
+    {
+      "label": "my-profi-maler – Malermeisterbetrieb Kneuttinger Peter",
+      "url": "https://my-profi-maler.de/profil/130510/malermeisterbetrieb-kneuttinger-peter/"
+    },
+    {
+      "label": "firmenABC – Malermeisterbetrieb Kneuttinger Peter",
+      "url": "https://www.firmenabc.com/u/malermeisterbetrieb-kneuttinger-peter_duflbq"
+    }
+  ],
+  "site": {
+    "theme": "atelier",
+    "category": "handwerk",
+    "heroOffer": [
+      "Innenanstrich",
+      "Lackierarbeiten",
+      "Fassade",
+      "Renovierung"
+    ],
+    "scene": "paint",
+    "logoIcon": "roller",
+    "logoMark": "PK",
+    "brandName": "Maler Kneuttinger",
+    "seoTitle": "Malermeister in Grasbrunn – Peter Kneuttinger",
+    "seoDescription": "Maler- und Lackierarbeiten in Grasbrunn, Harthausen und Vaterstetten. Malermeisterbetrieb Peter Kneuttinger – jetzt Angebot anfragen.",
+    "nav": [
+      {
+        "label": "Leistungen",
+        "href": "#leistungen"
+      },
+      {
+        "label": "Projekte",
+        "href": "#projekte"
+      },
+      {
+        "label": "Bewertungen",
+        "href": "#bewertungen"
+      },
+      {
+        "label": "Ablauf",
+        "href": "#ablauf"
+      },
+      {
+        "label": "FAQ",
+        "href": "#faq"
+      },
+      {
+        "label": "Kontakt",
+        "href": "#kontakt"
+      }
+    ],
+    "hero": {
+      "eyebrow": "Malermeisterbetrieb · Grasbrunn",
+      "headline": "Malermeister in Grasbrunn",
+      "sub": "Wände, Decken und Lack – gestrichen vom Meisterbetrieb aus dem Schwablweg.",
+      "ctaPrimary": "Angebot anfragen",
+      "ctaSecondary": "Anrufen",
+      "bullets": [
+        "Meisterbetrieb in Grasbrunn",
+        "Maler- und Lackierarbeiten",
+        "Kurze Wege nach Vaterstetten"
+      ],
+      "imageLabel": "frisch gestrichenes Wohnzimmer mit Farbmustern"
+    },
+    "badges": [
+      {
+        "title": "Meisterbetrieb",
+        "sub": "Malerhandwerk"
+      },
+      {
+        "title": "Anstrich",
+        "sub": "Wände & Decken"
+      },
+      {
+        "title": "Lack",
+        "sub": "Türen, Fenster, Holz"
+      },
+      {
+        "title": "Grasbrunn",
+        "sub": "Schwablweg 9"
+      }
+    ],
+    "trust": [
+      {
+        "value": "Meister",
+        "label": "Malermeisterbetrieb"
+      },
+      {
+        "value": "Vor Ort",
+        "label": "Sitz in Grasbrunn"
+      },
+      {
+        "value": "Innen & außen",
+        "label": "Maler- und Lackierarbeiten"
+      },
+      {
+        "value": "Direkt",
+        "label": "Ansprechpartner Peter Kneuttinger"
+      }
+    ],
+    "servicesIntro": {
+      "headline": "Farbe und Lack für Haus und Wohnung",
+      "text": "Vom einzelnen Zimmer bis zum ganzen Haus: Der Betrieb streicht, lackiert und bereitet Untergründe so vor, dass der Anstrich lange hält."
+    },
+    "services": [
+      {
+        "title": "Innenanstrich",
+        "text": "Wände und Decken bekommen einen gleichmäßigen, frischen Anstrich – Möbel und Böden werden vorher abgedeckt.",
+        "items": [
+          "Wände",
+          "Decken",
+          "Treppenhäuser"
+        ]
+      },
+      {
+        "title": "Lackierarbeiten",
+        "text": "Türen, Zargen, Fenster und Heizkörper werden angeschliffen und neu lackiert.",
+        "items": [
+          "Türen & Zargen",
+          "Fensterrahmen",
+          "Heizkörper"
+        ]
+      },
+      {
+        "title": "Fassadenanstrich",
+        "text": "Ein neuer Außenanstrich schützt die Fassade vor Witterung und lässt das Haus wieder gepflegt aussehen.",
+        "items": [
+          "Fassade",
+          "Sockel",
+          "Dachuntersicht"
+        ]
+      },
+      {
+        "title": "Untergrund vorbereiten",
+        "text": "Risse und Löcher werden gespachtelt, damit die neue Farbe glatt und sauber aufliegt.",
+        "items": [
+          "Spachteln",
+          "Schleifen",
+          "Grundieren"
+        ]
+      },
+      {
+        "title": "Renovierung",
+        "text": "Beim Auszug oder vor dem Einzug wird die Wohnung zügig wieder bezugsfertig gestrichen.",
+        "items": [
+          "Mieterwechsel",
+          "Auszug",
+          "Einzug"
+        ]
+      },
+      {
+        "title": "Holzschutz",
+        "text": "Holz außen am Haus – etwa Balkon oder Dachüberstand – erhält einen schützenden Anstrich.",
+        "items": [
+          "Balkone",
+          "Holzverkleidung",
+          "Zäune"
+        ]
+      }
+    ],
+    "why": {
+      "headline": "Ein Meisterbetrieb aus Grasbrunn.",
+      "points": [
+        {
+          "title": "Meisterhandwerk",
+          "text": "Der Betrieb führt den Meistertitel im Namen – Malerarbeiten nach den Regeln des Handwerks."
+        },
+        {
+          "title": "Kurze Wege",
+          "text": "Vom Schwablweg aus sind Harthausen, Neukeferloh, Baldham und Vaterstetten schnell erreicht."
+        },
+        {
+          "title": "Ein Ansprechpartner",
+          "text": "Sie sprechen direkt mit Peter Kneuttinger – von der Anfrage bis zur Abnahme."
+        },
+        {
+          "title": "Sauber abgeklebt",
+          "text": "Möbel, Böden und Fenster werden geschützt, bevor der erste Pinselstrich fällt."
+        }
+      ]
+    },
+    "reviews": {
+      "headline": "Was Kunden sagen",
+      "summary": "Kundenstimmen werden hier eingebunden, sobald sie aus dem Google-Profil übernommen sind.",
+      "highlights": [
+        "Malermeisterbetrieb in Grasbrunn",
+        "Maler- und Lackierarbeiten",
+        "Direkter Kontakt"
+      ],
+      "source": "Google",
+      "sourceUrl": "https://www.google.com/maps/search/?api=1&query=Malermeisterbetrieb%20Peter%20Kneuttinger%20Schwablweg%209%20Grasbrunn",
+      "rating": null,
+      "count": null
+    },
+    "process": {
+      "headline": "So kommt die Farbe an die Wand",
+      "steps": [
+        {
+          "title": "Anruf",
+          "text": "Kurz schildern, welche Räume oder Flächen gestrichen werden sollen."
+        },
+        {
+          "title": "Besichtigung",
+          "text": "Flächen, Untergrund und Farbwünsche werden vor Ort angesehen."
+        },
+        {
+          "title": "Angebot",
+          "text": "Sie erhalten ein schriftliches Angebot mit klarem Leistungsumfang."
+        },
+        {
+          "title": "Ausführung",
+          "text": "Abdecken, vorbereiten, streichen – und die Räume besenrein übergeben."
+        }
+      ]
+    },
+    "gallery": {
+      "headline": "Frische Farbe in Grasbrunn und Umgebung",
+      "text": "In der Live-Version zeigen wir hier echte Arbeiten des Betriebs.",
+      "items": [
+        {
+          "title": "Wohnzimmer",
+          "photoNeeded": "frisch gestrichenes Wohnzimmer mit hellen Wänden"
+        },
+        {
+          "title": "Treppenhaus",
+          "photoNeeded": "gestrichenes Treppenhaus mit sauberen Kanten"
+        },
+        {
+          "title": "Lackierte Tür",
+          "photoNeeded": "neu lackierte Innentür mit Zarge"
+        },
+        {
+          "title": "Fassade",
+          "photoNeeded": "Einfamilienhaus mit frischem Fassadenanstrich"
+        },
+        {
+          "title": "Farbmuster",
+          "photoNeeded": "Farbfächer und Musterflächen an der Wand"
+        }
+      ]
+    },
+    "region": {
+      "headline": "Malerarbeiten im Münchner Osten",
+      "text": "Von Grasbrunn aus in Harthausen, Neukeferloh, Vaterstetten, Baldham, Höhenkirchen-Siegertsbrunn und Zorneding.",
+      "places": [
+        "Grasbrunn",
+        "Harthausen",
+        "Neukeferloh",
+        "Vaterstetten",
+        "Baldham",
+        "Höhenkirchen-Siegertsbrunn",
+        "Zorneding"
+      ]
+    },
+    "faq": [
+      {
+        "q": "Streichen Sie auch einzelne Zimmer?",
+        "a": "Ja, auch einzelne Räume werden gestrichen. Den Umfang klären wir bei der Anfrage."
+      },
+      {
+        "q": "Muss ich die Möbel selbst ausräumen?",
+        "a": "Das wird vorab besprochen. Möbel, die im Raum bleiben, werden abgedeckt."
+      },
+      {
+        "q": "Lackieren Sie auch Türen und Heizkörper?",
+        "a": "Ja, Lackierarbeiten an Türen, Zargen, Fenstern und Heizkörpern gehören zum Malerhandwerk."
+      },
+      {
+        "q": "Wie schnell bekomme ich ein Angebot?",
+        "a": "Nach der Besichtigung erhalten Sie ein schriftliches Angebot. Rufen Sie einfach an."
+      },
+      {
+        "q": "Arbeiten Sie auch in Vaterstetten?",
+        "a": "Ja, auch in Vaterstetten, Baldham und den Nachbarorten von Grasbrunn."
+      }
+    ],
+    "contact": {
+      "headline": "Angebot für Ihre Malerarbeiten",
+      "text": "Beschreiben Sie kurz, welche Räume oder Flächen gestrichen werden sollen. Fotos helfen bei der ersten Einschätzung.",
+      "topics": [
+        "Innenanstrich",
+        "Lackierarbeiten",
+        "Fassade",
+        "Renovierung",
+        "Sonstiges"
+      ],
+      "responseNote": "Besichtigung nach Absprache."
+    },
+    "quote": {
+      "sizeLabel": "Was soll gestrichen werden?",
+      "sizes": [
+        "Ein Zimmer",
+        "Eine Wohnung",
+        "Ganzes Haus",
+        "Fassade"
+      ],
+      "timings": [
+        "So bald wie möglich",
+        "In den nächsten Wochen",
+        "In 1–3 Monaten",
+        "Ich plane erst noch"
+      ]
+    },
+    "stickyCta": "Angebot anfragen",
+    "look": {
+      "palette": 0,
+      "font": 0,
+      "hero": 0,
+      "services": 0,
+      "radius": 0,
+      "logo": 0,
+      "intro": 0,
+      "projects": 0,
+      "process": 0,
+      "faq": 0,
+      "reviews": 0,
+      "order": 0
+    }
+  }
+}

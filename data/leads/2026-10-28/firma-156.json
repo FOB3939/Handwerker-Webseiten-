@@ -1,0 +1,413 @@
+{
+  "id": "2026-10-28-156",
+  "slug": "ilir-metaj-hausmeister-dietramszell",
+  "date": "2026-10-28",
+  "company": {
+    "name": "Ilir Metaj Hausmeister und Gebäudedienstleistung",
+    "owner": "Ilir Metaj",
+    "trade": "Hausmeisterservice",
+    "city": "Dietramszell",
+    "address": "Bairawieser Str. 6, 83623 Dietramszell",
+    "phone": "01590 6534770",
+    "email": null,
+    "serviceArea": [
+      "Dietramszell",
+      "Bad Tölz",
+      "Geretsried",
+      "Wolfratshausen",
+      "Egling",
+      "Holzkirchen"
+    ]
+  },
+  "listings": {
+    "google": {
+      "url": "https://www.google.com/maps/search/?api=1&query=Ilir%20Metaj%20Hausmeister%20und%20Geb%C3%A4udedienstleistung%20Bairawieser%20Str.%206%20Dietramszell",
+      "rating": null,
+      "reviews": null,
+      "evidence": "Nicht belegt – kein Treffer auf Google-Spiegeln (trustlocal, firmania, rgv-bayern). Nur Verzeichnisse: 11880 (Dietramszell/Obermühltal, „Vom Inhaber bestätigt“, ohne Bewertungen), Sellwerk, Cylex, MapQuest, YellowMap, hausmeisterdienste.net. In Maps prüfen."
+    },
+    "myhammer": {
+      "url": "https://sellwerk.de/firmenprofil/ilir-metaj-hausmeister-und-gebaeudedienstleistung",
+      "rating": null,
+      "reviews": null,
+      "evidence": "Kein MyHammer gefunden – Sellwerk-Profil mit Bairawieser Str. 6, Dietramszell, Tel. 0159-06534770; hausmeisterdienste.net „Offen für Aufträge“ (01590 6534770)."
+    }
+  },
+  "websiteStatus": "keine eigene Website gefunden",
+  "websiteChecks": [
+    "(1) „Ilir Metaj Hausmeister Dietramszell“ mit blocked_domains (11880, Gelbe Seiten, Das Örtliche, Telefonbuch, Cylex, meinestadt, Creditreform, Facebook, Instagram, golocal, MyHammer, Northdata, Firmenwissen, WKDB, Yelp, trustlocal, wlw) – nur Verzeichnisse (MapQuest, hausmeisterdienste.net, YellowMap, tellows); keine eigene Domain",
+    "(2) Domain-Check allowed_domains metaj.de, metaj-hausmeister.de, hausmeister-metaj.de, metaj-hausmeisterservice.de, hausmeisterservice-metaj.de, ilir-metaj.de, metaj-gebaeudedienstleistung.de, metaj-service.de – nur metaj.de = fremde Berliner Anwaltskanzlei (Shkelzen Metaj), kein Bezug",
+    "(3) Telefonsuche „015906534770“/„01590 6534770“ – nur tellows, YellowMap, hausmeisterdienste.net, Rufnummernliste; keine Website",
+    "(4) E-Mail-Suche in 11880/rgv-bayern/firmania/Sellwerk – keine E-Mail im Snippet (weder Freemail noch Firmendomain)",
+    "Website-Risiko: mittel – alle Prüfungen negativ, aber weder Google-Eintrag noch Freemail belegt (RESERVE)"
+  ],
+  "facts": {
+    "services": [
+      "Hausmeisterdienste",
+      "Gebäudedienstleistungen"
+    ],
+    "experience": null,
+    "praisedFor": []
+  },
+  "strategy": {
+    "audience": "Hausverwaltungen, Vermieter, Eigentümergemeinschaften und Hausbesitzer in Dietramszell, Bad Tölz, Geretsried und Wolfratshausen, die einen Hausmeister vor Ort suchen",
+    "mainService": "Hausmeisterdienste und Gebäudebetreuung",
+    "trustSignal": "Inhabergeführter Hausmeisterservice in Dietramszell, direkt per Handy erreichbar",
+    "conversionGoal": "Anfrage für Objektbetreuung per Anruf oder WhatsApp",
+    "visualConcept": "Gepflegtes Mehrfamilienhaus im Tölzer Land: sauberer Eingang, gemähter Rasen, geräumter Weg – ruhig und ordentlich"
+  },
+  "sales": {
+    "score": 3,
+    "whyGoodLead": [
+      "Keine eigene Website gefunden – nur Verzeichniseinträge",
+      "Mobilnummer öffentlich gelistet – WhatsApp-Erstkontakt möglich",
+      "Laut hausmeisterdienste.net „Offen für Aufträge“ – sucht aktiv Kunden",
+      "Hausverwaltungen suchen Hausmeister online – eine Website schafft hier Sichtbarkeit"
+    ],
+    "pitch": "Hallo Herr Metaj, ich baue Websites für Handwerks- und Servicebetriebe im Landkreis Bad Tölz-Wolfratshausen. Ihren Hausmeisterservice in Dietramszell habe ich in Verzeichnissen gefunden, aber keine eigene Website. Ich habe unverbindlich einen Entwurf vorbereitet, über den Hausverwaltungen und Eigentümer Sie direkt anfragen können – darf ich Ihnen den Link schicken?"
+  },
+  "manualChecks": [
+    "RESERVE – weder Google-Eintrag noch Freemail-Adresse belegt: NUR versenden, wenn Google Maps einen Eintrag OHNE Website zeigt.",
+    "Leistungen nicht im Detail belegt (nur „Hausmeister und Gebäudedienstleistung“) – Gartenpflege, Winterdienst, Reinigung und Kleinreparaturen beim Erstkontakt bestätigen",
+    "Rufnummer unterschiedlich geschrieben (0159-06534770 / 01590 6534770 / 015906534770) – dieselbe Nummer, Erreichbarkeit testen",
+    "Ortsteil laut 11880 Obermühltal – Anschrift Bairawieser Str. 6 bestätigen",
+    "Nicht verwechseln mit metaj.de (Anwaltskanzlei Berlin, fremd)",
+    "Logo und Fotos: nicht gefunden – beim Betrieb anfragen"
+  ],
+  "sources": [
+    {
+      "label": "Sellwerk – Ilir Metaj Hausmeister und Gebäudedienstleistung",
+      "url": "https://sellwerk.de/firmenprofil/ilir-metaj-hausmeister-und-gebaeudedienstleistung"
+    },
+    {
+      "label": "11880 – Hausmeisterservices Dietramszell (Liste mit Ilir Metaj)",
+      "url": "https://www.11880.com/branchenbuch/dietramszell/hausmeisterservice"
+    },
+    {
+      "label": "Cylex – Hausmeisterservice Dietramszell",
+      "url": "https://web2.cylex.de/suche/hausmeisterservice/Dietramszell"
+    },
+    {
+      "label": "MapQuest – Ilir Metaj Hausmeister und Gebäudedienstleistung",
+      "url": "https://www.mapquest.com/de/ilir-metaj-hausmeister-und-gebaudedienstleistung-689797036"
+    },
+    {
+      "label": "hausmeisterdienste.net – Eintrag „Offen für Aufträge“",
+      "url": "https://www.hausmeisterdienste.net/greiling"
+    },
+    {
+      "label": "YellowMap – Hausmeister Wolfratshausen (Umkreis)",
+      "url": "http://www.yellowmap.de/D_82515_Wolfratshausen/0/657_Hausmeister.htm"
+    }
+  ],
+  "site": {
+    "theme": "objekt",
+    "category": "handwerk",
+    "heroOffer": [
+      "Objektbetreuung",
+      "Gartenpflege",
+      "Winterdienst",
+      "Kleinreparaturen",
+      "Kontrollgänge"
+    ],
+    "scene": "facade",
+    "logoIcon": "house",
+    "logoMark": "IM",
+    "brandName": "Metaj Hausmeisterservice",
+    "seoTitle": "Hausmeister in Dietramszell – Ilir Metaj",
+    "seoDescription": "Hausmeisterdienste und Gebäudebetreuung in Dietramszell, Bad Tölz und Geretsried. Jetzt per Anruf oder WhatsApp anfragen.",
+    "nav": [
+      {
+        "label": "Leistungen",
+        "href": "#leistungen"
+      },
+      {
+        "label": "Projekte",
+        "href": "#projekte"
+      },
+      {
+        "label": "Bewertungen",
+        "href": "#bewertungen"
+      },
+      {
+        "label": "Ablauf",
+        "href": "#ablauf"
+      },
+      {
+        "label": "FAQ",
+        "href": "#faq"
+      },
+      {
+        "label": "Kontakt",
+        "href": "#kontakt"
+      }
+    ],
+    "hero": {
+      "eyebrow": "Hausmeisterservice · Dietramszell",
+      "headline": "Ihr Hausmeister in Dietramszell",
+      "sub": "Haus, Garten und Außenflächen betreut – im Tölzer Land und Umgebung.",
+      "ctaPrimary": "Betreuung anfragen",
+      "ctaSecondary": "Anrufen",
+      "bullets": [
+        "Hausmeister aus Dietramszell",
+        "Für Eigentümer und Hausverwaltungen",
+        "Direkt per Handy erreichbar"
+      ],
+      "imageLabel": "gepflegter Hauseingang eines Mehrfamilienhauses mit geräumtem Weg"
+    },
+    "badges": [
+      {
+        "title": "Hausmeister",
+        "sub": "Objektbetreuung"
+      },
+      {
+        "title": "Außenanlagen",
+        "sub": "Garten & Wege"
+      },
+      {
+        "title": "Mobil",
+        "sub": "01590 6534770"
+      },
+      {
+        "title": "Dietramszell",
+        "sub": "Tölzer Land"
+      }
+    ],
+    "trust": [
+      {
+        "value": "Vor Ort",
+        "label": "Betrieb in Dietramszell"
+      },
+      {
+        "value": "Direkt",
+        "label": "Kontakt zum Inhaber"
+      },
+      {
+        "value": "Mobil",
+        "label": "Anruf oder WhatsApp"
+      },
+      {
+        "value": "Offen",
+        "label": "für neue Objekte"
+      }
+    ],
+    "servicesIntro": {
+      "headline": "Was der Hausmeister übernimmt",
+      "text": "Damit Haus und Grundstück in Ordnung bleiben, ohne dass Sie sich um jede Kleinigkeit selbst kümmern müssen."
+    },
+    "services": [
+      {
+        "title": "Objektbetreuung",
+        "text": "Regelmäßige Kontrolle von Haus, Technikräumen und Gemeinschaftsflächen.",
+        "items": [
+          "Kontrollgänge",
+          "Mängel melden",
+          "Ansprechpartner vor Ort"
+        ]
+      },
+      {
+        "title": "Gartenpflege",
+        "text": "Rasen, Hecken und Beete am Haus gepflegt halten.",
+        "items": [
+          "Rasenmähen",
+          "Heckenschnitt",
+          "Laub entfernen"
+        ]
+      },
+      {
+        "title": "Winterdienst",
+        "text": "Wege und Zufahrten im Winter räumen und streuen.",
+        "items": [
+          "Schneeräumen",
+          "Streuen",
+          "Zufahrten"
+        ]
+      },
+      {
+        "title": "Kleinreparaturen",
+        "text": "Kleine Schäden beheben, bevor daraus größere werden.",
+        "items": [
+          "Leuchtmittel",
+          "Türen & Schlösser",
+          "Kleinmontagen"
+        ]
+      },
+      {
+        "title": "Reinigung",
+        "text": "Treppenhaus, Eingang und Außenflächen sauber halten.",
+        "items": [
+          "Treppenhaus",
+          "Eingangsbereich",
+          "Mülltonnenplatz"
+        ]
+      },
+      {
+        "title": "Haus im Urlaub",
+        "text": "Während Ihrer Abwesenheit nach dem Rechten sehen.",
+        "items": [
+          "Briefkasten",
+          "Lüften",
+          "Sichtkontrolle"
+        ]
+      }
+    ],
+    "why": {
+      "headline": "Ein Hausmeister aus dem Ort",
+      "points": [
+        {
+          "title": "Kurze Wege",
+          "text": "Von Dietramszell aus schnell in Bad Tölz, Geretsried, Wolfratshausen und Egling."
+        },
+        {
+          "title": "Ein Ansprechpartner",
+          "text": "Sie sprechen direkt mit Ilir Metaj – ohne Zentrale dazwischen."
+        },
+        {
+          "title": "Per Handy erreichbar",
+          "text": "Anruf oder WhatsApp genügt, auch für kurzfristige Anliegen."
+        },
+        {
+          "title": "Alles am Haus",
+          "text": "Innen, Garten und Winterdienst über einen Auftrag."
+        }
+      ]
+    },
+    "reviews": {
+      "headline": "Was Kunden sagen",
+      "summary": "Kundenstimmen binden wir ein, sobald ein Google-Profil mit Bewertungen vorliegt.",
+      "highlights": [
+        "Hausmeister in Dietramszell",
+        "Direkter Kontakt",
+        "Haus und Garten"
+      ],
+      "source": "Google",
+      "sourceUrl": "https://www.google.com/maps/search/?api=1&query=Ilir%20Metaj%20Hausmeister%20und%20Geb%C3%A4udedienstleistung%20Bairawieser%20Str.%206%20Dietramszell",
+      "rating": null,
+      "count": null
+    },
+    "process": {
+      "headline": "So beginnt die Betreuung",
+      "steps": [
+        {
+          "title": "Anfrage",
+          "text": "Kurz anrufen oder per WhatsApp Objekt und Wünsche schildern."
+        },
+        {
+          "title": "Besichtigung",
+          "text": "Haus und Grundstück gemeinsam ansehen und Aufgaben festlegen."
+        },
+        {
+          "title": "Angebot",
+          "text": "Sie erhalten ein Angebot für Umfang und Rhythmus der Betreuung."
+        },
+        {
+          "title": "Start",
+          "text": "Die Betreuung beginnt – mit festem Ansprechpartner vor Ort."
+        }
+      ]
+    },
+    "gallery": {
+      "headline": "Gepflegte Häuser im Tölzer Land",
+      "text": "In der Live-Version zeigen wir hier echte Objekte und Einsätze.",
+      "items": [
+        {
+          "title": "Gepflegter Eingang",
+          "photoNeeded": "sauberer Hauseingang eines Mehrfamilienhauses"
+        },
+        {
+          "title": "Rasen & Hecke",
+          "photoNeeded": "frisch gemähter Rasen mit geschnittener Hecke"
+        },
+        {
+          "title": "Winterdienst",
+          "photoNeeded": "geräumter Gehweg nach Schneefall"
+        },
+        {
+          "title": "Treppenhaus",
+          "photoNeeded": "gereinigtes Treppenhaus"
+        },
+        {
+          "title": "Kleinreparatur",
+          "photoNeeded": "Austausch eines Türschlosses oder einer Leuchte"
+        }
+      ]
+    },
+    "region": {
+      "headline": "Hausmeister für Dietramszell und Umgebung",
+      "text": "Von Dietramszell aus in Bad Tölz, Geretsried, Wolfratshausen, Egling und Holzkirchen.",
+      "places": [
+        "Dietramszell",
+        "Bad Tölz",
+        "Geretsried",
+        "Wolfratshausen",
+        "Egling",
+        "Holzkirchen"
+      ]
+    },
+    "faq": [
+      {
+        "q": "Betreuen Sie auch einzelne Einfamilienhäuser?",
+        "a": "Fragen Sie einfach an – der Umfang wird bei der Besichtigung abgestimmt."
+      },
+      {
+        "q": "Übernehmen Sie den Winterdienst?",
+        "a": "Winterdienst gehört typischerweise zum Hausmeisterservice. Details und Zeiten klären wir im Gespräch."
+      },
+      {
+        "q": "Kann ich per WhatsApp anfragen?",
+        "a": "Ja, schicken Sie Ihre Anfrage an die Mobilnummer 01590 6534770."
+      },
+      {
+        "q": "Arbeiten Sie auch außerhalb von Dietramszell?",
+        "a": "Ja, im Umkreis – zum Beispiel Bad Tölz, Geretsried und Wolfratshausen."
+      },
+      {
+        "q": "Was kostet die Betreuung?",
+        "a": "Das hängt von Objekt und Aufgaben ab. Nach der Besichtigung erhalten Sie ein Angebot."
+      }
+    ],
+    "contact": {
+      "headline": "Hausmeister anfragen",
+      "text": "Schreiben Sie kurz, um welches Objekt es geht, wo es liegt und welche Aufgaben anfallen.",
+      "topics": [
+        "Objektbetreuung",
+        "Gartenpflege",
+        "Winterdienst",
+        "Kleinreparaturen",
+        "Reinigung",
+        "Sonstiges"
+      ],
+      "responseNote": "Besichtigung nach Absprache."
+    },
+    "quote": {
+      "sizeLabel": "Welches Objekt?",
+      "sizes": [
+        "Einfamilienhaus",
+        "Mehrfamilienhaus",
+        "Wohnanlage",
+        "Gewerbeobjekt"
+      ],
+      "timings": [
+        "So bald wie möglich",
+        "Ab nächstem Monat",
+        "Zur nächsten Saison",
+        "Ich plane erst noch"
+      ]
+    },
+    "stickyCta": "Betreuung anfragen",
+    "look": {
+      "palette": 4,
+      "font": 4,
+      "hero": 6,
+      "services": 2,
+      "radius": 4,
+      "logo": 2,
+      "intro": 3,
+      "projects": 2,
+      "process": 2,
+      "faq": 2,
+      "reviews": 0,
+      "order": 2
+    }
+  }
+}

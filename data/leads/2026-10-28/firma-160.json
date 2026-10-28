@@ -1,0 +1,407 @@
+{
+  "id": "2026-10-28-160",
+  "slug": "zimmerei-gar-grafing",
+  "date": "2026-10-28",
+  "company": {
+    "name": "Gar Balthasar u. Petra Zimmerei",
+    "owner": "Balthasar und Petra Gar",
+    "trade": "Zimmerei",
+    "city": "Grafing bei München",
+    "address": "Wasserburger Str. 1, 85567 Grafing bei München",
+    "phone": "08092 9026",
+    "email": null,
+    "serviceArea": [
+      "Grafing",
+      "Ebersberg",
+      "Aßling",
+      "Emmering",
+      "Kirchseeon",
+      "Glonn",
+      "Bruck"
+    ]
+  },
+  "listings": {
+    "google": {
+      "url": "https://www.google.com/maps/search/?api=1&query=Gar%20Balthasar%20u.%20Petra%20Zimmerei%20Wasserburger%20Str.%201%20Grafing",
+      "rating": null,
+      "reviews": null,
+      "evidence": "NICHT BELEGT – kein Google-Spiegel (trustlocal, rgv-bayern, firmania) gefunden. Nur klassische Verzeichnisse; suchehandwerker.de und 11880 melden keine Bewertungen. In Maps prüfen."
+    },
+    "myhammer": {
+      "url": "https://www.11880.com/branchenbuch/grafing-bei-muenchen/060695949B27762590/balthasar-gar-petra-gar-zimmerei.html",
+      "rating": null,
+      "reviews": null,
+      "evidence": "Kein MyHammer gefunden – Einträge auf 11880, suchehandwerker.de (Zimmerarbeiten, Holzbauarbeiten), branchen-info.net, goyellow und meinestadt mit Wasserburger Str. 1 und Tel. 08092 9026."
+    }
+  },
+  "websiteStatus": "keine eigene Website gefunden",
+  "websiteChecks": [
+    "(1) „Gar“ Balthasar Petra Zimmerei Grafing mit blocked_domains (Gelbe Seiten, Das Örtliche, Telefonbuch, meinestadt, Creditreform, Facebook, Instagram, golocal, MyHammer, Northdata, Firmenwissen, WKDB, Yelp, wlw) – nur Verzeichnisse (suchehandwerker.de, 11880, branchen-info.net, Cylex); keine eigene Domain",
+    "(2) Domain-Check allowed_domains zimmerei-gar.de, gar-zimmerei.de, zimmerei-gar-grafing.de, gar-holzbau.de, holzbau-gar.de, gar-grafing.de, zimmerergar.de, zimmerei-gar.com – keine Treffer",
+    "(3) Telefonsuche „08092 9026“/„080929026“ (ohne 11880/Gelbe Seiten/Das Örtliche/Telefonbuch/Cylex) – nur branchen-info.net, meinestadt, goyellow; keine Website",
+    "(4) Impressum-Suche nicht mehr durchgeführt (Suchbudget erschöpft) – vor Versand nachholen",
+    "Keine E-Mail-Adresse gefunden (weder Freemail noch Firmendomain)"
+  ],
+  "facts": {
+    "services": [
+      "Zimmerarbeiten",
+      "Holzbauarbeiten"
+    ],
+    "experience": null,
+    "praisedFor": []
+  },
+  "strategy": {
+    "audience": "Hauseigentümer, Landwirte und Bauherren in Grafing, Ebersberg, Aßling und Glonn, die einen Dachstuhl, Carport, Anbau oder Holzarbeiten am Haus planen",
+    "mainService": "Zimmerarbeiten und Holzbau",
+    "trustSignal": "Inhabergeführte Zimmerei in Grafing, Ansprechpartner Balthasar und Petra Gar",
+    "conversionGoal": "Rückruf oder Besichtigung für ein Holzbau-Vorhaben anfragen",
+    "visualConcept": "Frisch abgebundener Dachstuhl aus hellem Fichtenholz vor oberbayerischem Himmel – handwerklich, warm, bodenständig"
+  },
+  "sales": {
+    "score": 3,
+    "whyGoodLead": [
+      "Keine eigene Website gefunden – nur Verzeichniseinträge",
+      "Zimmerei ist ein bisher seltenes Gewerk im Lead-Bestand",
+      "Holzbau-Projekte sind beratungsintensiv – eine Seite mit Leistungen und Anfrageformular erleichtert den ersten Kontakt",
+      "Inhaberbetrieb mit fester Adresse in Grafing"
+    ],
+    "pitch": "Guten Tag Herr und Frau Gar, ich baue Websites für Handwerksbetriebe im Landkreis Ebersberg. Ihre Zimmerei in der Wasserburger Straße finde ich in Verzeichnissen, aber ohne eigene Website. Ich habe unverbindlich einen Entwurf vorbereitet, auf dem Bauherren Ihre Zimmer- und Holzbauarbeiten sehen und direkt anfragen können – darf ich Ihnen den Link schicken?"
+  },
+  "manualChecks": [
+    "RESERVE – weder Google-Eintrag noch Freemail-Adresse belegt: NUR versenden, wenn Google Maps einen Eintrag OHNE Website zeigt.",
+    "Prüfen, ob der Betrieb noch aktiv ist (Verzeichnisdaten teils älter, branchen-info zuletzt 2024 aktualisiert)",
+    "Impressum-Suche („Impressum Gar Zimmerei Grafing“) vor Versand nachholen",
+    "Festnetznummer 08092 9026 – keine Mobilnummer, keine E-Mail belegt; Erstkontakt per Anruf",
+    "Leistungen nur grob belegt (Zimmerarbeiten, Holzbauarbeiten) – Dachstühle, Carports, Holzfassaden, Dachfenster beim Betrieb bestätigen",
+    "Ein Verzeichnis führt den Betrieb unter Tischlerei – Schwerpunkt klären",
+    "Logo und Projektfotos: nicht gefunden – beim Betrieb anfragen"
+  ],
+  "sources": [
+    {
+      "label": "11880 – Balthasar Gar Petra Gar Zimmerei Grafing",
+      "url": "https://www.11880.com/branchenbuch/grafing-bei-muenchen/060695949B27762590/balthasar-gar-petra-gar-zimmerei.html"
+    },
+    {
+      "label": "suchehandwerker.de – Balthasar Gar Petra Gar Zimmerei",
+      "url": "https://suchehandwerker.de/betrieb/balthasar-gar-petra-gar-zimmerei-320661/"
+    },
+    {
+      "label": "branchen-info.net – Gar Balthasar u. Petra Zimmerei",
+      "url": "https://bruck.branchen-info.net/fp_3144123.php"
+    },
+    {
+      "label": "goyellow – Gar Balthasar, Gar Petra Zimmerei",
+      "url": "https://www.goyellow.de/home/zimmerer-gar-balthasar-gar-petra-zimmerei-grafing-b-muenchen--cndtx.html"
+    },
+    {
+      "label": "meinestadt – Balthasar und Petra Gar in Grafing",
+      "url": "https://branchenbuch.meinestadt.de/grafing-muenchen/company/3304085"
+    }
+  ],
+  "site": {
+    "theme": "werk",
+    "category": "handwerk",
+    "heroOffer": [
+      "Dachstuhl",
+      "Holzbau",
+      "Carport",
+      "Anbauten",
+      "Reparaturen"
+    ],
+    "scene": "facade",
+    "logoIcon": "roof",
+    "logoMark": "G",
+    "brandName": "Zimmerei Gar",
+    "seoTitle": "Zimmerei in Grafing – Balthasar u. Petra Gar",
+    "seoDescription": "Zimmer- und Holzbauarbeiten in Grafing und im Landkreis Ebersberg: Dachstühle, Carports, Anbauten. Jetzt Vorhaben schildern und Rückruf anfragen.",
+    "nav": [
+      {
+        "label": "Leistungen",
+        "href": "#leistungen"
+      },
+      {
+        "label": "Projekte",
+        "href": "#projekte"
+      },
+      {
+        "label": "Bewertungen",
+        "href": "#bewertungen"
+      },
+      {
+        "label": "Ablauf",
+        "href": "#ablauf"
+      },
+      {
+        "label": "FAQ",
+        "href": "#faq"
+      },
+      {
+        "label": "Kontakt",
+        "href": "#kontakt"
+      }
+    ],
+    "hero": {
+      "eyebrow": "Zimmerei · Grafing",
+      "headline": "Ihre Zimmerei in Grafing",
+      "sub": "Zimmer- und Holzbauarbeiten für Haus, Hof und Garten im Landkreis Ebersberg.",
+      "ctaPrimary": "Vorhaben schildern",
+      "ctaSecondary": "Anrufen",
+      "bullets": [
+        "Inhaberbetrieb in Grafing",
+        "Zimmer- und Holzbauarbeiten",
+        "Wasserburger Straße 1"
+      ],
+      "imageLabel": "frisch abgebundener Dachstuhl aus hellem Holz"
+    },
+    "badges": [
+      {
+        "title": "Zimmerei",
+        "sub": "Arbeiten mit Holz"
+      },
+      {
+        "title": "Holzbau",
+        "sub": "vom Dach bis zum Anbau"
+      },
+      {
+        "title": "Inhaber Gar",
+        "sub": "Balthasar & Petra"
+      },
+      {
+        "title": "Grafing",
+        "sub": "Wasserburger Straße"
+      }
+    ],
+    "trust": [
+      {
+        "value": "Inhaber",
+        "label": "Balthasar & Petra Gar"
+      },
+      {
+        "value": "Holz",
+        "label": "Zimmer- und Holzbau"
+      },
+      {
+        "value": "Vor Ort",
+        "label": "Betrieb in Grafing"
+      },
+      {
+        "value": "Direkt",
+        "label": "Anruf genügt"
+      }
+    ],
+    "servicesIntro": {
+      "headline": "Zimmer- und Holzbauarbeiten aus Grafing",
+      "text": "Ob neuer Dachstuhl, Carport oder Reparatur am Holz: Die Zimmerei Gar plant und baut mit Ihnen vor Ort."
+    },
+    "services": [
+      {
+        "title": "Dachstühle",
+        "text": "Neue Dachstühle und Umbauten am bestehenden Dach – vom Aufmaß bis zur Montage.",
+        "items": [
+          "Neubau",
+          "Umbau",
+          "Aufmaß"
+        ]
+      },
+      {
+        "title": "Holzbau",
+        "text": "Tragende Holzkonstruktionen für Wohnhaus, Nebengebäude und Hof.",
+        "items": [
+          "Holzkonstruktionen",
+          "Nebengebäude",
+          "Hofgebäude"
+        ]
+      },
+      {
+        "title": "Carports",
+        "text": "Carports und Unterstände aus Holz, passend zu Haus und Grundstück.",
+        "items": [
+          "Carport",
+          "Unterstand",
+          "Holzschuppen"
+        ]
+      },
+      {
+        "title": "Anbauten",
+        "text": "Mehr Platz durch Anbauten und Vordächer in Holzbauweise.",
+        "items": [
+          "Anbau",
+          "Vordach",
+          "Überdachung"
+        ]
+      },
+      {
+        "title": "Balkone & Terrassen",
+        "text": "Holzbalkone und Terrassenüberdachungen für draußen.",
+        "items": [
+          "Balkon",
+          "Terrassendach",
+          "Geländer"
+        ]
+      },
+      {
+        "title": "Reparaturen",
+        "text": "Beschädigte Balken, Sparren und Holzteile werden ersetzt oder instand gesetzt.",
+        "items": [
+          "Balken",
+          "Sparren",
+          "Instandsetzung"
+        ]
+      }
+    ],
+    "why": {
+      "headline": "Holzbau aus Grafing – mit kurzen Wegen.",
+      "points": [
+        {
+          "title": "Kurze Wege",
+          "text": "Der Betrieb sitzt in Grafing und ist schnell in Ebersberg, Aßling und Glonn."
+        },
+        {
+          "title": "Inhabergeführt",
+          "text": "Sie sprechen direkt mit Balthasar oder Petra Gar."
+        },
+        {
+          "title": "Holz als Werkstoff",
+          "text": "Zimmerarbeiten verbinden Tragkraft mit einem warmen, natürlichen Material."
+        },
+        {
+          "title": "Vor Ort geplant",
+          "text": "Maße und Details werden am Objekt aufgenommen und abgestimmt."
+        }
+      ]
+    },
+    "reviews": {
+      "headline": "Was Kunden sagen",
+      "summary": "Kundenstimmen werden hier eingebunden, sobald sie aus dem Google-Profil übernommen sind.",
+      "highlights": [
+        "Zimmerei in Grafing",
+        "Holzbauarbeiten",
+        "Direkter Kontakt"
+      ],
+      "source": "Google",
+      "sourceUrl": "https://www.google.com/maps/search/?api=1&query=Gar%20Balthasar%20u.%20Petra%20Zimmerei%20Wasserburger%20Str.%201%20Grafing",
+      "rating": null,
+      "count": null
+    },
+    "process": {
+      "headline": "Vom Anruf bis zum fertigen Holzbau",
+      "steps": [
+        {
+          "title": "Anruf",
+          "text": "Kurz schildern, was gebaut oder repariert werden soll."
+        },
+        {
+          "title": "Besichtigung",
+          "text": "Maße, Zustand und Wünsche werden vor Ort aufgenommen."
+        },
+        {
+          "title": "Angebot",
+          "text": "Sie erhalten ein klares Angebot für Ihr Holzbau-Vorhaben."
+        },
+        {
+          "title": "Abbund & Montage",
+          "text": "Das Holz wird zugeschnitten und auf der Baustelle montiert."
+        }
+      ]
+    },
+    "gallery": {
+      "headline": "Arbeiten aus Holz",
+      "text": "Für die Live-Version zeigen wir hier echte Projekte der Zimmerei.",
+      "items": [
+        {
+          "title": "Neuer Dachstuhl",
+          "photoNeeded": "aufgerichteter Dachstuhl vor dem Eindecken"
+        },
+        {
+          "title": "Carport",
+          "photoNeeded": "fertiger Holz-Carport neben einem Wohnhaus"
+        },
+        {
+          "title": "Anbau",
+          "photoNeeded": "Holzanbau im Rohbau"
+        },
+        {
+          "title": "Terrassendach",
+          "photoNeeded": "Terrassenüberdachung aus Holz"
+        },
+        {
+          "title": "Sanierung",
+          "photoNeeded": "ersetzte Balken in einem älteren Dachstuhl"
+        }
+      ]
+    },
+    "region": {
+      "headline": "Zimmerei für Grafing und den Landkreis Ebersberg",
+      "text": "Von Grafing aus schnell in Ebersberg, Aßling, Emmering, Kirchseeon, Glonn und Bruck.",
+      "places": [
+        "Grafing",
+        "Ebersberg",
+        "Aßling",
+        "Emmering",
+        "Kirchseeon",
+        "Glonn",
+        "Bruck"
+      ]
+    },
+    "faq": [
+      {
+        "q": "Welche Arbeiten übernimmt die Zimmerei?",
+        "a": "Zimmer- und Holzbauarbeiten – welche Details im Einzelfall passen, klären wir im Gespräch."
+      },
+      {
+        "q": "Kommen Sie zur Besichtigung?",
+        "a": "Ja, für ein Angebot werden Maße und Zustand vor Ort aufgenommen."
+      },
+      {
+        "q": "Bauen Sie auch Carports?",
+        "a": "Fragen Sie gern an – Carports und Unterstände aus Holz gehören zum typischen Zimmerer-Handwerk."
+      },
+      {
+        "q": "Wie lange dauert ein Holzbau-Projekt?",
+        "a": "Das hängt von Größe und Umfang ab. Einen Zeitplan erhalten Sie mit dem Angebot."
+      },
+      {
+        "q": "Arbeiten Sie auch außerhalb von Grafing?",
+        "a": "Ja, im Umkreis von Grafing – fragen Sie einfach an."
+      }
+    ],
+    "contact": {
+      "headline": "Ihr Holzbau-Vorhaben – unverbindlich anfragen",
+      "text": "Beschreiben Sie kurz, was entstehen oder repariert werden soll, und wo das Objekt liegt.",
+      "topics": [
+        "Dachstuhl",
+        "Carport",
+        "Anbau",
+        "Terrassendach",
+        "Reparatur",
+        "Sonstiges"
+      ],
+      "responseNote": "Besichtigung nach Absprache."
+    },
+    "quote": {
+      "sizeLabel": "Was soll gebaut werden?",
+      "sizes": [
+        "Reparatur",
+        "Carport / Unterstand",
+        "Anbau / Vordach",
+        "Dachstuhl"
+      ],
+      "timings": [
+        "So bald wie möglich",
+        "In den nächsten Wochen",
+        "In 1–3 Monaten",
+        "Ich plane erst noch"
+      ]
+    },
+    "stickyCta": "Vorhaben anfragen",
+    "look": {
+      "palette": 2,
+      "font": 6,
+      "hero": 0,
+      "services": 1,
+      "radius": 1,
+      "logo": 0,
+      "intro": 5
+    }
+  }
+}

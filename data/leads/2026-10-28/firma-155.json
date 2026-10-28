@@ -1,0 +1,414 @@
+{
+  "id": "2026-10-28-155",
+  "slug": "schreinerei-alfred-huber-bockhorn",
+  "date": "2026-10-28",
+  "company": {
+    "name": "Schreinerei für Holz u. Corian Alfred Huber",
+    "owner": "Alfred Huber",
+    "trade": "Schreinerei",
+    "city": "Bockhorn",
+    "address": "Neumauggen 8, 85461 Bockhorn",
+    "phone": "08122 92525",
+    "email": "corianhuber@t-online.de",
+    "serviceArea": [
+      "Bockhorn",
+      "Erding",
+      "Walpertskirchen",
+      "Fraunberg",
+      "Wartenberg",
+      "Dorfen"
+    ]
+  },
+  "listings": {
+    "google": {
+      "url": "https://www.google.com/maps/search/?api=1&query=Schreinerei%20Alfred%20Huber%20Neumauggen%208%20Bockhorn",
+      "rating": null,
+      "reviews": null,
+      "evidence": "Kein direkter Google-Beleg – firmania.de (Google-Spiegel) nennt „Schreinerei Für Holz U. Corian Alfred Huber“, Neumauggen 8, Bockhorn, nur als Nachbareintrag ohne Bewertungen/Website-Feld. Annahme regulär über öffentlich belegte Freemail-Adresse corianhuber@t-online.de (11880). In Maps prüfen."
+    },
+    "myhammer": {
+      "url": "https://www.11880.com/branchenbuch/bockhorn-oberbayern/060695949B27547560/schreinerei-alfred-huber.html",
+      "rating": null,
+      "reviews": null,
+      "evidence": "Kein MyHammer gefunden – Eintrag „Schreinerei Alfred Huber“ bei 11880 (Tel. 08122 92525, E-Mail corianhuber@t-online.de, Anschrift dort Neumauggen 5) sowie Das Örtliche, meister.de, stadtbranchenbuch, firmenABC, branchenportal24, Yelp (ohne Bewertungen)."
+    }
+  },
+  "websiteStatus": "keine eigene Website gefunden",
+  "websiteChecks": [
+    "(1) „Schreinerei Alfred Huber Bockhorn“ mit blocked_domains (11880, Gelbe Seiten, Das Örtliche, Telefonbuch, Cylex, meinestadt, Creditreform, Facebook, Instagram, golocal, MyHammer, Northdata, Firmenwissen, WKDB, Yelp, trustlocal, wlw) – nur Verzeichnisse (meister.de, yelp.com, firmenABC, branchenportal24, tischlerei.biz, weissacher.de-Händlerliste); keine eigene Domain. Gleichnamige fremde Betriebe mit Website: Schreinerei Huber Buch am Erlbach (huber-schreinerei-buch.de), Leonhard Huber Oberneukirchen (huber-schreinerei.de, nennt „Bockhorn“ nur im Seitentitel, Anschrift Oberneukirchen), Zimmerei Huber GmbH Emling (Bockhorn, anderes Gewerk/GmbH)",
+    "(2) Domain-Check allowed_domains schreinerei-huber-bockhorn.de, huber-schreinerei.de, schreinerei-alfred-huber.de, alfred-huber.de, huber-corian.de, corian-huber.de, schreinerei-huber.de, huber-bockhorn.de – nur fremde Hubers (Oberneukirchen, Tengling); zweiter Check corianhuber.de, alfred-huber-schreinerei.de, huber-mauggen.de, schreinerei-huber-erding.de – keine Treffer",
+    "(3) Telefon-/E-Mail-Suche „08122 92525“/„0812292525“/„corianhuber“ mit blocked_domains – nur meister.de und stadtbranchenbuch (Bockhorn, Walpertskirchen), keine Website",
+    "(4) E-Mail auf Freemail (t-online.de), keine Firmendomain; in keinem Verzeichnis-Snippet ein Website-Feld",
+    "Website-Risiko: niedrig – alle Prüfungen negativ, Freemail öffentlich belegt"
+  ],
+  "facts": {
+    "services": [
+      "Schreinerarbeiten in Holz",
+      "Verarbeitung von Corian (Mineralwerkstoff/Acrylharz)"
+    ],
+    "experience": null,
+    "praisedFor": []
+  },
+  "strategy": {
+    "audience": "Hauseigentümer und Bauherren in Bockhorn, Erding und im östlichen Landkreis Erding, die Möbel, Küchenarbeitsplatten oder Waschtische nach Maß in Holz oder Corian suchen",
+    "mainService": "Schreinerarbeiten in Holz und Corian nach Maß",
+    "trustSignal": "Inhabergeführte Schreinerei in Neumauggen bei Bockhorn mit seltener Spezialisierung auf Corian",
+    "conversionGoal": "Anfrage für ein Möbel- oder Corian-Projekt per Telefon oder E-Mail (mit Maßen/Fotos)",
+    "visualConcept": "Warme Werkstattatmosphäre: helles Holz neben fugenlosen weißen Corian-Flächen – Kontrast aus Natur und glatter Präzision"
+  },
+  "sales": {
+    "score": 4,
+    "whyGoodLead": [
+      "Keine eigene Website gefunden – nur Verzeichniseinträge",
+      "Seltene Spezialisierung (Corian) lässt sich online kaum finden – eine Website macht sie sichtbar",
+      "Freemail-Adresse öffentlich – einfacher Erstkontakt per E-Mail",
+      "Schreiner ist ein bisher selten vertretenes Gewerk"
+    ],
+    "pitch": "Grüß Gott Herr Huber, ich baue Websites für Handwerksbetriebe im Landkreis Erding. Ihre Schreinerei für Holz und Corian in Bockhorn habe ich in Verzeichnissen gefunden, aber keine eigene Website. Ich habe unverbindlich einen Entwurf vorbereitet, der Ihre Holz- und Corian-Arbeiten zeigt und Anfragen direkt zu Ihnen bringt – darf ich Ihnen den Link schicken?"
+  },
+  "manualChecks": [
+    "Website-Risiko: niedrig – vor Versand in Google Maps prüfen, dass keine Website hinterlegt ist (Grund: Google-Eintrag nicht direkt belegt, nur Freemail und Verzeichnisse)",
+    "Anschrift klären: Neumauggen 8 (meister.de, Das Örtliche, stadtbranchenbuch, firmania) vs. Neumauggen 5 (11880)",
+    "Nur Festnetz (08122 92525) belegt – keine Mobilnummer, Erstkontakt per Anruf oder E-Mail",
+    "Leistungen nur grob belegt (Schreinerei Holz und Corian/Acrylharzprodukte) – konkrete Anwendungen (Arbeitsplatten, Waschtische, Innenausbau) beim Betrieb bestätigen",
+    "Meistertitel/Betriebsalter nicht belegt – nicht verwenden, ggf. erfragen",
+    "Nicht verwechseln mit Zimmerei Huber GmbH (Emling, Bockhorn) und Schreinerei Huber Buch am Erlbach",
+    "Logo und Projektfotos: nicht gefunden – beim Betrieb anfragen"
+  ],
+  "sources": [
+    {
+      "label": "11880 – Schreinerei Alfred Huber Bockhorn (E-Mail, Telefon)",
+      "url": "https://www.11880.com/branchenbuch/bockhorn-oberbayern/060695949B27547560/schreinerei-alfred-huber.html"
+    },
+    {
+      "label": "meister.de – Schreinerei für Holz u. Corian Alfred Huber",
+      "url": "https://www.meister.de/bockhorn-oberbayern/614017-schreinerei-fuer-holz-u-corian-alfred-huber"
+    },
+    {
+      "label": "Das Örtliche – Huber Alfred, Schreinerei, Bockhorn",
+      "url": "https://www.dasoertliche.de/Themen/Huber/Bockhorn-Flanning.html"
+    },
+    {
+      "label": "stadtbranchenbuch – Alfred Huber Schreinerei, Neumauggen 8",
+      "url": "https://bockhorn-oberbayern.stadtbranchenbuch.com/702359.html"
+    },
+    {
+      "label": "firmenABC – Alfred Huber Schreinerei",
+      "url": "https://www.firmenabc.com/u/alfred-huber-schreinerei_fscucb"
+    },
+    {
+      "label": "firmania – Nachbareintrag mit Schreinerei für Holz u. Corian Alfred Huber",
+      "url": "https://firmania.de/bockhorn-erding/anton-schlehhuber-holzbau-zimmerei-2991565"
+    }
+  ],
+  "site": {
+    "theme": "werk",
+    "category": "handwerk",
+    "heroOffer": [
+      "Möbel nach Maß",
+      "Corian",
+      "Arbeitsplatten",
+      "Waschtische",
+      "Innenausbau"
+    ],
+    "scene": "kitchen",
+    "logoIcon": "cabinet",
+    "logoMark": "AH",
+    "brandName": "Schreinerei Alfred Huber",
+    "seoTitle": "Schreinerei in Bockhorn – Holz & Corian | Alfred Huber",
+    "seoDescription": "Schreinerarbeiten in Holz und Corian aus Bockhorn bei Erding: Möbel, Arbeitsplatten und Waschtische nach Maß. Jetzt Projekt anfragen.",
+    "nav": [
+      {
+        "label": "Leistungen",
+        "href": "#leistungen"
+      },
+      {
+        "label": "Projekte",
+        "href": "#projekte"
+      },
+      {
+        "label": "Bewertungen",
+        "href": "#bewertungen"
+      },
+      {
+        "label": "Ablauf",
+        "href": "#ablauf"
+      },
+      {
+        "label": "FAQ",
+        "href": "#faq"
+      },
+      {
+        "label": "Kontakt",
+        "href": "#kontakt"
+      }
+    ],
+    "hero": {
+      "eyebrow": "Schreinerei · Bockhorn",
+      "headline": "Holz und Corian aus Bockhorn",
+      "sub": "Möbel, Arbeitsplatten und Waschtische nach Maß – gefertigt bei Erding.",
+      "ctaPrimary": "Projekt anfragen",
+      "ctaSecondary": "Anrufen",
+      "bullets": [
+        "Schreinerei in Neumauggen",
+        "Holz und Corian aus einer Werkstatt",
+        "Anfrage per Telefon oder E-Mail"
+      ],
+      "imageLabel": "Küche mit heller Holzfront und fugenloser weißer Arbeitsplatte"
+    },
+    "badges": [
+      {
+        "title": "Holz",
+        "sub": "Möbel nach Maß"
+      },
+      {
+        "title": "Corian",
+        "sub": "fugenlose Flächen"
+      },
+      {
+        "title": "Inhaber",
+        "sub": "Alfred Huber"
+      },
+      {
+        "title": "Bockhorn",
+        "sub": "Landkreis Erding"
+      }
+    ],
+    "trust": [
+      {
+        "value": "2",
+        "label": "Werkstoffe: Holz und Corian"
+      },
+      {
+        "value": "Maß",
+        "label": "Einzelstücke statt Katalog"
+      },
+      {
+        "value": "Vor Ort",
+        "label": "Werkstatt in Neumauggen"
+      },
+      {
+        "value": "Direkt",
+        "label": "Kontakt zum Inhaber"
+      }
+    ],
+    "servicesIntro": {
+      "headline": "Was in der Werkstatt entsteht",
+      "text": "Holz bringt Wärme, Corian eine glatte, fugenlose Oberfläche. Beides wird in Bockhorn passend zu Ihrem Raum gefertigt."
+    },
+    "services": [
+      {
+        "title": "Möbel nach Maß",
+        "text": "Schränke, Regale und Einbauten, die genau in Nische, Dachschräge oder Flur passen.",
+        "items": [
+          "Einbauschränke",
+          "Regale",
+          "Nischenlösungen"
+        ]
+      },
+      {
+        "title": "Corian-Arbeitsplatten",
+        "text": "Fugenlose Arbeitsflächen aus Mineralwerkstoff für Küche und Hauswirtschaftsraum.",
+        "items": [
+          "Küchenarbeitsplatten",
+          "Fugenlose Flächen",
+          "Ausschnitte"
+        ]
+      },
+      {
+        "title": "Waschtische",
+        "text": "Waschtische und Ablagen aus Corian oder Holz für Bad und Gäste-WC.",
+        "items": [
+          "Waschtischplatten",
+          "Ablagen",
+          "Gäste-WC"
+        ]
+      },
+      {
+        "title": "Küchenmöbel",
+        "text": "Fronten, Korpusse und Arbeitsplatten aus einer Hand – in Holz, Corian oder kombiniert.",
+        "items": [
+          "Fronten",
+          "Korpusse",
+          "Kombination Holz/Corian"
+        ]
+      },
+      {
+        "title": "Innenausbau",
+        "text": "Verkleidungen, Türen und Holzarbeiten im Innenraum, abgestimmt auf Ihre Einrichtung.",
+        "items": [
+          "Verkleidungen",
+          "Einbauten",
+          "Holzarbeiten"
+        ]
+      },
+      {
+        "title": "Reparatur & Anpassung",
+        "text": "Bestehende Möbel und Platten ändern, kürzen oder ergänzen, statt neu zu kaufen.",
+        "items": [
+          "Anpassen",
+          "Ergänzen",
+          "Ausbessern"
+        ]
+      }
+    ],
+    "why": {
+      "headline": "Warum eine Schreinerei mit Corian?",
+      "points": [
+        {
+          "title": "Zwei Werkstoffe",
+          "text": "Holz und Corian aus einer Werkstatt – ohne zweiten Handwerker für die Platte."
+        },
+        {
+          "title": "Passt genau",
+          "text": "Jedes Stück wird für Ihren Raum gemessen und gefertigt."
+        },
+        {
+          "title": "Kurze Wege",
+          "text": "Von Neumauggen aus schnell in Erding, Walpertskirchen, Fraunberg und Dorfen."
+        },
+        {
+          "title": "Ein Ansprechpartner",
+          "text": "Sie sprechen direkt mit Alfred Huber – von der Idee bis zur Montage."
+        }
+      ]
+    },
+    "reviews": {
+      "headline": "Was Kunden sagen",
+      "summary": "Kundenstimmen binden wir ein, sobald sie aus dem Google-Profil übernommen sind.",
+      "highlights": [
+        "Holz und Corian",
+        "Maßanfertigung",
+        "Werkstatt in Bockhorn"
+      ],
+      "source": "Google",
+      "sourceUrl": "https://www.google.com/maps/search/?api=1&query=Schreinerei%20Alfred%20Huber%20Neumauggen%208%20Bockhorn",
+      "rating": null,
+      "count": null
+    },
+    "process": {
+      "headline": "Vom Maß zum fertigen Stück",
+      "steps": [
+        {
+          "title": "Anfrage",
+          "text": "Rufen Sie an oder schicken Sie eine E-Mail mit Fotos und groben Maßen."
+        },
+        {
+          "title": "Aufmaß",
+          "text": "Vor Ort werden Maße, Werkstoff und Details abgestimmt."
+        },
+        {
+          "title": "Angebot",
+          "text": "Sie erhalten ein Angebot für Holz, Corian oder die Kombination."
+        },
+        {
+          "title": "Fertigung & Montage",
+          "text": "Das Stück entsteht in der Werkstatt und wird bei Ihnen eingebaut."
+        }
+      ]
+    },
+    "gallery": {
+      "headline": "Arbeiten aus der Werkstatt",
+      "text": "In der Live-Version zeigen wir hier echte Projekte der Schreinerei.",
+      "items": [
+        {
+          "title": "Corian-Arbeitsplatte",
+          "photoNeeded": "Küche mit fugenloser Corian-Arbeitsplatte"
+        },
+        {
+          "title": "Waschtisch",
+          "photoNeeded": "Waschtisch aus Corian im Bad"
+        },
+        {
+          "title": "Einbauschrank",
+          "photoNeeded": "Einbauschrank in Dachschräge oder Nische"
+        },
+        {
+          "title": "Küchenfront",
+          "photoNeeded": "Holzfronten einer Maßküche"
+        },
+        {
+          "title": "Werkstatt",
+          "photoNeeded": "Werkstatt in Neumauggen mit Werkstück"
+        }
+      ]
+    },
+    "region": {
+      "headline": "Schreinerei für Bockhorn und den Landkreis Erding",
+      "text": "Von Neumauggen aus in Bockhorn, Erding, Walpertskirchen, Fraunberg, Wartenberg und Dorfen.",
+      "places": [
+        "Bockhorn",
+        "Erding",
+        "Walpertskirchen",
+        "Fraunberg",
+        "Wartenberg",
+        "Dorfen"
+      ]
+    },
+    "faq": [
+      {
+        "q": "Was ist Corian?",
+        "a": "Corian ist ein Mineralwerkstoff auf Acrylharzbasis. Er lässt sich fugenlos verarbeiten und eignet sich für Arbeitsplatten und Waschtische."
+      },
+      {
+        "q": "Kann ich Holz und Corian kombinieren?",
+        "a": "Ja, zum Beispiel Holzfronten mit einer Corian-Arbeitsplatte. Die Details klären wir beim Aufmaß."
+      },
+      {
+        "q": "Kann ich vorab Fotos und Maße schicken?",
+        "a": "Ja, per E-Mail. Das hilft für eine erste Einschätzung."
+      },
+      {
+        "q": "Arbeiten Sie auch außerhalb von Bockhorn?",
+        "a": "Ja, im Landkreis Erding und Umgebung – fragen Sie einfach an."
+      },
+      {
+        "q": "Wie lange dauert eine Maßanfertigung?",
+        "a": "Das hängt von Umfang und Werkstoff ab. Den Zeitplan stimmen wir nach dem Aufmaß ab."
+      }
+    ],
+    "contact": {
+      "headline": "Ihr Projekt in Holz oder Corian",
+      "text": "Beschreiben Sie kurz, was entstehen soll: Raum, ungefähre Maße und Werkstoff. Fotos helfen.",
+      "topics": [
+        "Möbel nach Maß",
+        "Corian-Arbeitsplatte",
+        "Waschtisch",
+        "Küchenmöbel",
+        "Innenausbau",
+        "Sonstiges"
+      ],
+      "responseNote": "Aufmaß vor Ort nach Absprache."
+    },
+    "quote": {
+      "sizeLabel": "Was soll gefertigt werden?",
+      "sizes": [
+        "Einzelnes Möbel",
+        "Arbeitsplatte",
+        "Waschtisch",
+        "Ganze Küche oder Raum"
+      ],
+      "timings": [
+        "So bald wie möglich",
+        "In den nächsten Wochen",
+        "In 1–3 Monaten",
+        "Ich plane erst noch"
+      ]
+    },
+    "stickyCta": "Projekt anfragen",
+    "look": {
+      "palette": 4,
+      "font": 4,
+      "hero": 6,
+      "services": 2,
+      "radius": 4,
+      "logo": 2,
+      "intro": 3,
+      "projects": 2,
+      "process": 2,
+      "faq": 2,
+      "reviews": 0,
+      "order": 2
+    }
+  }
+}

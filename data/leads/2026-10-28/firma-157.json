@@ -1,0 +1,401 @@
+{
+  "id": "2026-10-28-157",
+  "slug": "schreinerei-wandinger-dorfen",
+  "date": "2026-10-28",
+  "company": {
+    "name": "Schreinerei Wandinger",
+    "owner": null,
+    "trade": "Schreinerei",
+    "city": "Dorfen",
+    "address": "Weckerling 1, 84405 Dorfen",
+    "phone": "08081 959241",
+    "email": null,
+    "serviceArea": [
+      "Dorfen",
+      "Taufkirchen (Vils)",
+      "Isen",
+      "Lengdorf",
+      "Sankt Wolfgang",
+      "Schwindegg"
+    ]
+  },
+  "listings": {
+    "google": {
+      "url": "https://www.google.com/maps/search/?api=1&query=Schreinerei%20Wandinger%20Weckerling%201%20Dorfen",
+      "rating": null,
+      "reviews": null,
+      "evidence": "NICHT BELEGT – Suche auf trustlocal.de, firmania.de und rgv-bayern.de ohne Treffer zu „Wandinger“ in Dorfen (trustlocal-Dorfen-Listen zeigen nur andere Schreinereien). Ob ein Google-Eintrag existiert, ist offen – in Maps prüfen."
+    },
+    "myhammer": {
+      "url": "https://www.11880.com/branchenbuch/dorfen/060694711B28171801/schreinerei-wandinger.html",
+      "rating": null,
+      "reviews": null,
+      "evidence": "Kein MyHammer gefunden – 11880-Eintrag „Schreinerei Wandinger“, Weckerling 1, 84405 Dorfen, Tel. (08081) 959241 (aktualisiert 03.10.2026), dazu orte.muenchen.de, staedte-info.net und branchen-info.net (dort „ungeprüfte Daten“)."
+    }
+  },
+  "websiteStatus": "keine eigene Website gefunden",
+  "websiteChecks": [
+    "(1) „Schreinerei Wandinger Dorfen Weckerling“ mit blocked_domains (11880, Gelbe Seiten, Das Örtliche, Telefonbuch, Cylex, meinestadt, Creditreform, Facebook, Instagram, golocal, MyHammer, Northdata, Firmenwissen, WKDB, Yelp, trustlocal, wlw) – nur Verzeichnisse (orte.muenchen.de, staedte-info.net, branchen-info.net, my-tischler.de); keine eigene Domain, kein Website-Feld",
+    "(2) Domain-Check allowed_domains schreinerei-wandinger.de, wandinger-schreinerei.de, wandinger.de, schreinerei-wandinger-dorfen.de, wandinger-dorfen.de, schreiner-wandinger.de, wandinger-moebel.de – nur wandinger.de als Platzhalter („Hier entsteht die Domain wandinger.de“), kein Bezug zur Schreinerei erkennbar",
+    "(3) Telefonsuche „08081 959241“ mit blocked_domains – nur Verzeichnisse (orte.muenchen.de, staedte-info.net, branchen-info.net, anrufer.info), keine Website",
+    "(4) Google-Spiegel (trustlocal, firmania, rgv-bayern) – kein Eintrag gefunden",
+    "Impressum-Suche nicht mehr durchgeführt (Suchbudget) – kein Hinweis auf ein eigenes Impressum in den bisherigen Treffern",
+    "Website-Risiko: mittel – Prüfungen negativ, aber weder Google-Eintrag noch Freemail belegt; Platzhalter wandinger.de abklären"
+  ],
+  "facts": {
+    "services": [
+      "Schreinerarbeiten"
+    ],
+    "experience": null,
+    "praisedFor": []
+  },
+  "strategy": {
+    "audience": "Hauseigentümer und Familien in Dorfen, Taufkirchen (Vils), Isen und Lengdorf, die Möbel, Einbauten oder Holzarbeiten vom Schreiner aus der Gegend suchen",
+    "mainService": "Schreinerarbeiten – Möbel und Einbauten nach Maß",
+    "trustSignal": "Werkstatt in Weckerling bei Dorfen, direkter Kontakt zum Betrieb",
+    "conversionGoal": "Anfrage für ein Möbel- oder Einbauprojekt (Anruf oder Formular mit Fotos und Maßen)",
+    "visualConcept": "Warme Werkstattatmosphäre: helles Massivholz, Hobelspäne, Werkbank und saubere Fugen – handfest und ländlich"
+  },
+  "sales": {
+    "score": 3,
+    "whyGoodLead": [
+      "Keine eigene Website gefunden – nur Verzeichniseinträge",
+      "Schreiner sind im Raum Dorfen bisher kaum unter den Leads",
+      "Eine Website mit Projektbildern zeigt, was die Werkstatt baut",
+      "Kunden in Dorfen und Umgebung suchen Schreiner zunehmend online"
+    ],
+    "pitch": "Grüß Gott, hier ist … – ich baue Websites für Handwerksbetriebe im Landkreis Erding. Ich habe die Schreinerei Wandinger in Weckerling bei Dorfen im Branchenbuch gefunden, aber keine eigene Website. Ich habe unverbindlich einen Entwurf vorbereitet, auf dem Kunden Ihre Arbeiten sehen und direkt anfragen können – darf ich Ihnen den Link schicken?"
+  },
+  "manualChecks": [
+    "RESERVE – weder Google-Eintrag noch Freemail-Adresse belegt: NUR versenden, wenn Google Maps einen Eintrag OHNE Website zeigt.",
+    "Google Maps prüfen: Gibt es einen Eintrag „Schreinerei Wandinger“ (Weckerling 1, Dorfen) – mit oder ohne Website, wie viele Bewertungen?",
+    "Domain wandinger.de ist ein Platzhalter – klären, ob sie dem Betrieb gehört (dann ggf. Website geplant)",
+    "Nur Festnetz (08081 959241) belegt, keine Mobilnummer, keine E-Mail – Erstkontakt telefonisch",
+    "Inhabername unbekannt – beim Erstkontakt erfragen; Anrede neutral halten",
+    "Leistungen nur als Gewerk belegt (Schreinerei) – Schwerpunkte (Möbel, Küchen, Fenster/Türen, Innenausbau) beim Betrieb bestätigen",
+    "Logo und Projektfotos: nicht gefunden – beim Betrieb anfragen"
+  ],
+  "sources": [
+    {
+      "label": "11880 – Schreinerei Wandinger, Dorfen",
+      "url": "https://www.11880.com/branchenbuch/dorfen/060694711B28171801/schreinerei-wandinger.html"
+    },
+    {
+      "label": "muenchen.de Stadtbranchenbuch – Schreinerei Wandinger Dorfen",
+      "url": "https://orte.muenchen.de/26114.html"
+    },
+    {
+      "label": "staedte-info.net – Weckerling, Dorfen",
+      "url": "http://dorfen.staedte-info.net/weckerling_140991.php"
+    },
+    {
+      "label": "branchen-info.net – Firmen Dorfen mit S",
+      "url": "https://regioregister.branchen-info.net/dorfen/firmen/s/1/"
+    }
+  ],
+  "site": {
+    "theme": "werk",
+    "category": "handwerk",
+    "heroOffer": [
+      "Möbel nach Maß",
+      "Einbauschränke",
+      "Innenausbau",
+      "Holzarbeiten",
+      "Reparaturen"
+    ],
+    "scene": "kitchen",
+    "logoIcon": "cabinet",
+    "logoMark": "SW",
+    "brandName": "Schreinerei Wandinger",
+    "seoTitle": "Schreinerei in Dorfen – Schreinerei Wandinger",
+    "seoDescription": "Schreinerei Wandinger in Weckerling bei Dorfen: Möbel, Einbauten und Holzarbeiten nach Maß. Jetzt Projekt anfragen.",
+    "nav": [
+      {
+        "label": "Leistungen",
+        "href": "#leistungen"
+      },
+      {
+        "label": "Projekte",
+        "href": "#projekte"
+      },
+      {
+        "label": "Bewertungen",
+        "href": "#bewertungen"
+      },
+      {
+        "label": "Ablauf",
+        "href": "#ablauf"
+      },
+      {
+        "label": "FAQ",
+        "href": "#faq"
+      },
+      {
+        "label": "Kontakt",
+        "href": "#kontakt"
+      }
+    ],
+    "hero": {
+      "eyebrow": "Schreinerei · Dorfen",
+      "headline": "Schreinerei Wandinger in Dorfen",
+      "sub": "Möbel und Einbauten aus Holz, gebaut in Weckerling bei Dorfen.",
+      "ctaPrimary": "Projekt anfragen",
+      "ctaSecondary": "Anrufen",
+      "bullets": [
+        "Werkstatt in Weckerling",
+        "Maßarbeit statt Möbel von der Stange",
+        "Für Dorfen und das Isental"
+      ],
+      "imageLabel": "Massivholzmöbel in der Schreinerwerkstatt"
+    },
+    "badges": [
+      {
+        "title": "Schreinerei",
+        "sub": "Holz nach Maß"
+      },
+      {
+        "title": "Einbauten",
+        "sub": "passend zum Raum"
+      },
+      {
+        "title": "Werkstatt",
+        "sub": "Weckerling 1"
+      },
+      {
+        "title": "Dorfen",
+        "sub": "und Umgebung"
+      }
+    ],
+    "trust": [
+      {
+        "value": "Vor Ort",
+        "label": "Werkstatt bei Dorfen"
+      },
+      {
+        "value": "Holz",
+        "label": "als Werkstoff"
+      },
+      {
+        "value": "Maß",
+        "label": "statt Standard"
+      },
+      {
+        "value": "Direkt",
+        "label": "Kontakt zum Betrieb"
+      }
+    ],
+    "servicesIntro": {
+      "headline": "Was in der Werkstatt entsteht",
+      "text": "Vom Schrank unter der Dachschräge bis zur neuen Treppenverkleidung: Ein Schreiner baut, was in Ihren Raum passt – und nicht umgekehrt."
+    },
+    "services": [
+      {
+        "title": "Möbel nach Maß",
+        "text": "Tische, Regale und Schränke, die auf Ihre Maße und Ihren Raum abgestimmt sind.",
+        "items": [
+          "Tische",
+          "Regale",
+          "Kommoden"
+        ]
+      },
+      {
+        "title": "Einbauschränke",
+        "text": "Stauraum in Nischen, unter Dachschrägen und im Flur – millimetergenau eingepasst.",
+        "items": [
+          "Dachschrägen",
+          "Nischen",
+          "Garderoben"
+        ]
+      },
+      {
+        "title": "Küchen",
+        "text": "Küchenfronten und Einbauten aus der Werkstatt, abgestimmt auf Grundriss und Nutzung.",
+        "items": [
+          "Küchenmöbel",
+          "Fronten",
+          "Arbeitsplatten"
+        ]
+      },
+      {
+        "title": "Innentüren",
+        "text": "Neue Türen oder angepasste Türblätter für Alt- und Neubau.",
+        "items": [
+          "Türen",
+          "Zargen",
+          "Anpassen"
+        ]
+      },
+      {
+        "title": "Innenausbau",
+        "text": "Holzverkleidungen, Treppenstufen und Fensterbänke für ein stimmiges Raumbild.",
+        "items": [
+          "Verkleidungen",
+          "Treppen",
+          "Fensterbänke"
+        ]
+      },
+      {
+        "title": "Reparaturen",
+        "text": "Klemmende Türen, lose Beschläge oder beschädigte Möbel – der Schreiner bringt es wieder in Ordnung.",
+        "items": [
+          "Beschläge",
+          "Ausbessern",
+          "Nachjustieren"
+        ]
+      }
+    ],
+    "why": {
+      "headline": "Ein Schreiner aus der Gegend – das hat Vorteile.",
+      "points": [
+        {
+          "title": "Kurze Wege",
+          "text": "Von Weckerling aus sind Dorfen, Taufkirchen (Vils) und Isen schnell erreicht – auch zum Aufmaß."
+        },
+        {
+          "title": "Passt in den Raum",
+          "text": "Maßanfertigung nutzt Ecken und Schrägen, die Möbel von der Stange verschenken."
+        },
+        {
+          "title": "Ein Ansprechpartner",
+          "text": "Planung, Fertigung und Montage laufen über denselben Betrieb."
+        },
+        {
+          "title": "Holz, das hält",
+          "text": "Gut verarbeitetes Holz lässt sich später nachbessern statt wegwerfen."
+        }
+      ]
+    },
+    "reviews": {
+      "headline": "Was Kunden sagen",
+      "summary": "Kundenstimmen werden hier eingebunden, sobald sie aus dem Google-Profil übernommen sind.",
+      "highlights": [
+        "Schreinerei in Dorfen",
+        "Möbel und Einbauten nach Maß",
+        "Direkter Kontakt"
+      ],
+      "source": "Google",
+      "sourceUrl": "https://www.google.com/maps/search/?api=1&query=Schreinerei%20Wandinger%20Weckerling%201%20Dorfen",
+      "rating": null,
+      "count": null
+    },
+    "process": {
+      "headline": "So entsteht Ihr Möbelstück",
+      "steps": [
+        {
+          "title": "Anfrage",
+          "text": "Kurz anrufen oder Fotos und grobe Maße schicken."
+        },
+        {
+          "title": "Aufmaß",
+          "text": "Vor Ort werden Maße, Holz und Ausführung besprochen."
+        },
+        {
+          "title": "Angebot",
+          "text": "Sie erhalten ein klares Angebot mit Material und Umfang."
+        },
+        {
+          "title": "Fertigung & Montage",
+          "text": "Gebaut in der Werkstatt, eingebaut bei Ihnen zu Hause."
+        }
+      ]
+    },
+    "gallery": {
+      "headline": "Aus der Werkstatt",
+      "text": "Für die Live-Version zeigen wir hier echte Arbeiten der Schreinerei.",
+      "items": [
+        {
+          "title": "Einbauschrank",
+          "photoNeeded": "Einbauschrank unter einer Dachschräge"
+        },
+        {
+          "title": "Esstisch",
+          "photoNeeded": "Massivholztisch im Wohnraum"
+        },
+        {
+          "title": "Küche",
+          "photoNeeded": "Küchenzeile mit Holzfronten"
+        },
+        {
+          "title": "Treppe",
+          "photoNeeded": "Holztreppe oder Treppenverkleidung"
+        },
+        {
+          "title": "Werkstatt",
+          "photoNeeded": "Werkbank mit Werkstück in Arbeit"
+        }
+      ]
+    },
+    "region": {
+      "headline": "Schreinerarbeiten für Dorfen und das Isental",
+      "text": "Von Weckerling aus in Dorfen, Taufkirchen (Vils), Isen, Lengdorf, Sankt Wolfgang und Schwindegg.",
+      "places": [
+        "Dorfen",
+        "Taufkirchen (Vils)",
+        "Isen",
+        "Lengdorf",
+        "Sankt Wolfgang",
+        "Schwindegg"
+      ]
+    },
+    "faq": [
+      {
+        "q": "Bauen Sie auch Einzelstücke?",
+        "a": "Fragen Sie einfach an – Umfang und Ausführung werden beim Aufmaß besprochen."
+      },
+      {
+        "q": "Kommen Sie zum Aufmaß ins Haus?",
+        "a": "Für Einbauten ist ein Aufmaß vor Ort sinnvoll. Den Termin stimmen wir telefonisch ab."
+      },
+      {
+        "q": "Kann ich vorab Fotos schicken?",
+        "a": "Ja, Fotos und grobe Maße helfen für eine erste Einschätzung."
+      },
+      {
+        "q": "Übernehmen Sie auch kleine Reparaturen?",
+        "a": "Sprechen Sie uns an – ob sich eine Reparatur lohnt, klären wir gemeinsam."
+      },
+      {
+        "q": "In welchen Orten arbeiten Sie?",
+        "a": "Rund um Dorfen, etwa in Taufkirchen (Vils), Isen und Lengdorf – weitere Orte auf Anfrage."
+      }
+    ],
+    "contact": {
+      "headline": "Ihr Projekt – unverbindlich anfragen",
+      "text": "Beschreiben Sie kurz, was gebaut werden soll: Raum, ungefähre Maße und Holzwunsch. Fotos helfen.",
+      "topics": [
+        "Möbel nach Maß",
+        "Einbauschrank",
+        "Küche",
+        "Innentüren",
+        "Reparatur",
+        "Sonstiges"
+      ],
+      "responseNote": "Aufmaß nach Absprache."
+    },
+    "quote": {
+      "sizeLabel": "Was soll gebaut werden?",
+      "sizes": [
+        "Einzelnes Möbel",
+        "Einbauschrank",
+        "Küche",
+        "Mehrere Räume"
+      ],
+      "timings": [
+        "So bald wie möglich",
+        "In den nächsten Wochen",
+        "In 1–3 Monaten",
+        "Ich plane erst noch"
+      ]
+    },
+    "stickyCta": "Projekt anfragen",
+    "look": {
+      "palette": 2,
+      "font": 6,
+      "hero": 0,
+      "services": 1,
+      "radius": 1,
+      "logo": 0,
+      "intro": 5
+    }
+  }
+}
