@@ -20,7 +20,7 @@ PROGS = [  # (bass roots Hz, triads Hz)
  ([41.2, 55.0, 49.0, 61.74], [[164.8, 196, 246.9], [220, 261.6, 329.6], [196, 246.9, 293.7], [185, 246.9, 293.7]]),
 ]
 roots, chords = PROGS[seed % len(PROGS)]
-bpm = [112, 116, 120, 124][seed // 7 % 4]; beat = 60 / bpm; bar = 4 * beat
+bpm = cues.get('bpm') or [112, 116, 120, 124][seed // 7 % 4]; beat = 60 / bpm; bar = 4 * beat
 t = np.arange(int(.35 * SR)) / SR
 kick = np.sin(2 * np.pi * (45 * t + (110 / 18) * (1 - np.exp(-t * 18)))) * np.exp(-t * 7)
 hn = rng.standard_normal(int(.06 * SR)); hat = np.diff(np.concatenate([[0], hn])) * np.exp(-np.arange(len(hn)) / SR * 60) * .35
@@ -41,7 +41,7 @@ for b in range(int(T / bar) + 1):
         if tb >= intro and k % 2 == 1: add(mus, clap, tb, .8)
         add(mus, hat, tb + beat / 2)
         if tb >= intro: add(mus, hat, tb + beat * .75, .5)
-fo = np.ones(N); i = int((T - 1.8) * SR); fo[i:] = np.linspace(1, 0, N - i); mus *= fo
+fo = np.ones(N); i = int((T - cues.get('fade', 1.8)) * SR); fo[i:] = np.linspace(1, 0, N - i); mus *= fo
 def whoosh(d=.55, up=True):
     n = int(d * SR); x = rng.standard_normal(n); tt = np.arange(n) / SR
     a = np.linspace(.02, .25, n) if up else np.linspace(.25, .02, n)

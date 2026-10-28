@@ -1,0 +1,146 @@
+<!doctype html>
+<html lang="de">
+<head>
+<meta charset="utf-8">
+<style>
+@font-face{font-family:Montserrat;font-weight:600;src:url(assets/fonts/montserrat-latin-600-normal.woff2)}
+@font-face{font-family:Montserrat;font-weight:800;src:url(assets/fonts/montserrat-latin-800-normal.woff2)}
+@font-face{font-family:Oswald;font-weight:700;src:url(assets/fonts/oswald-latin-700-normal.woff2)}
+:root{--or:#E8892B;--ink:#0b0b0c}
+*{box-sizing:border-box;margin:0;padding:0}
+html,body{width:1080px;height:1920px;overflow:hidden;background:#000}
+#stage{position:relative;width:1080px;height:1920px;overflow:hidden;font-family:Montserrat,sans-serif;color:#fff;background:#000}
+.scene{position:absolute;inset:0;display:none;overflow:hidden}
+.bg{position:absolute;inset:-80px;background-size:cover;background-position:center;filter:blur(38px) brightness(.45) saturate(.9)}
+.fg{position:absolute;left:0;width:1080px;transform-origin:50% 50%}
+.fg img{display:block;width:100%;height:auto}
+.cover{position:absolute;inset:0;background-size:cover;background-position:center;transform-origin:72% 62%}
+.shade{position:absolute;inset:0;background:linear-gradient(180deg,rgba(0,0,0,.72) 0%,rgba(0,0,0,.15) 30%,rgba(0,0,0,0) 55%,rgba(0,0,0,.55) 82%,rgba(0,0,0,.8) 100%)}
+.a{position:absolute}
+.c{left:80px;right:80px;text-align:center}
+.hl{font:800 104px Montserrat;line-height:1.02;text-transform:uppercase;letter-spacing:-.01em;text-shadow:0 8px 30px rgba(0,0,0,.6)}
+.hl b{color:var(--or)}
+.w{display:inline-block}
+.tag{display:inline-block;white-space:nowrap;background:var(--or);color:#0b0b0c;font:800 64px Montserrat;text-transform:uppercase;padding:10px 34px;border-radius:12px;box-shadow:0 14px 40px rgba(0,0,0,.45)}
+.sub{font:600 46px Montserrat;color:#f1f1f1;text-shadow:0 4px 18px rgba(0,0,0,.7)}
+.sub b{color:var(--or);font-weight:800}
+.card{left:80px;right:80px;display:flex;align-items:center;gap:28px;padding:26px 34px;border-radius:22px;background:rgba(11,11,12,.78);border:2px solid rgba(255,255,255,.14);box-shadow:0 16px 40px rgba(0,0,0,.45);backdrop-filter:blur(6px)}
+.card i{flex:none;width:76px;height:76px;border-radius:50%;background:var(--or);color:#0b0b0c;display:flex;align-items:center;justify-content:center;font:800 42px Montserrat;font-style:normal}
+.card span{font:800 50px Montserrat;line-height:1.12}
+.icons{left:80px;right:80px;display:flex;justify-content:center;gap:26px}
+.icons div{display:flex;align-items:center;gap:14px;background:rgba(11,11,12,.8);border:2px solid var(--or);border-radius:60px;padding:14px 26px;font:800 38px Montserrat}
+.icons svg{width:46px;height:46px}
+/* contact card */
+#K .bgk{position:absolute;inset:-60px;background-size:cover;background-position:center;filter:blur(10px) brightness(.28) saturate(.8)}
+#K .veil{position:absolute;inset:0;background:radial-gradient(ellipse at 50% 40%,rgba(10,10,12,.55),rgba(5,5,6,.92) 75%)}
+.brand{white-space:nowrap;font:800 78px Montserrat;letter-spacing:.01em;text-transform:uppercase}
+.brand b{color:var(--or)}
+.line{left:300px;right:300px;height:6px;background:var(--or);border-radius:3px}
+.lab{font:600 40px Montserrat;color:#cfcfcf}
+.phone{font:800 104px Montserrat;letter-spacing:.01em}
+.web{font:800 86px Montserrat;color:var(--or)}
+.addr{font:600 44px Montserrat;line-height:1.3}
+.small{font:600 36px Montserrat;color:#d6d6d6;line-height:1.45}
+#caps{position:absolute;left:60px;right:60px;top:1470px;text-align:center;z-index:20}
+#caps div{display:inline-block;background:rgba(11,11,12,.86);border-radius:18px;padding:12px 30px;font:800 54px Montserrat;line-height:1.18;box-shadow:0 10px 30px rgba(0,0,0,.35)}
+#caps span.on{color:var(--or)}
+#flash{position:absolute;inset:0;background:#fff;z-index:30;opacity:0}
+#prog{position:absolute;left:0;top:0;height:8px;background:var(--or);z-index:31}
+</style>
+<script>document.write('<script src="'+(new URLSearchParams(location.search).get('data')||'data.js')+'"><\/script>')</script>
+</head>
+<body>
+<div id="stage">
+  <!-- A 0–4 -->
+  <div class="scene" id="A"><div class="cover" id="Aimg" style="background-image:url(jobs/bruck/img/amg.png)"></div><div class="shade"></div>
+    <div class="a c hl" id="Ah" style="top:300px"><span class="w">Du</span> <span class="w">willst</span> <span class="w">dein</span> <span class="w">Auto</span> <span class="w"><b>verkaufen?</b></span></div></div>
+  <!-- B 4–9 -->
+  <div class="scene" id="B"><div class="bg" style="background-image:url(jobs/bruck/img/exterior.png)"></div>
+    <div class="fg" id="Bfg" style="top:660px"><img src="jobs/bruck/img/exterior.png"></div><div class="shade"></div>
+    <div class="a c" id="Bt" style="top:300px"><span class="tag">Wir kaufen dein Auto!</span></div>
+    <div class="a c sub" id="Bs" style="top:440px">Autohaus <b>Bruck</b> · Fürstenfeldbruck</div></div>
+  <!-- C 9–15 -->
+  <div class="scene" id="C"><div class="bg" style="background-image:url(jobs/bruck/img/white.png)"></div>
+    <div class="fg" id="Cfg" style="top:560px"><img src="jobs/bruck/img/white.png"></div><div class="shade"></div>
+    <div class="a card" id="C1" style="top:290px"><i>✓</i><span>Faire, transparente Bewertung</span></div>
+    <div class="a card" id="C2" style="top:450px"><i>✓</i><span>Ankauf auch ohne Neukauf</span></div></div>
+  <!-- D 15–22 -->
+  <div class="scene" id="D"><div class="bg" style="background-image:url(jobs/bruck/img/showroom.png)"></div>
+    <div class="fg" id="Dfg" style="top:800px"><img src="jobs/bruck/img/showroom.png"></div><div class="shade"></div>
+    <div class="a card" id="D1" style="top:290px"><i>1</i><span>Fahrzeugdaten senden</span></div>
+    <div class="a card" id="D2" style="top:450px"><i>2</i><span>Vor Ort begutachten lassen</span></div>
+    <div class="a card" id="D3" style="top:610px"><i>3</i><span>Kaufentscheidung erhalten</span></div></div>
+  <!-- E 22–28 -->
+  <div class="scene" id="E"><div class="cover" id="E1" style="background-image:url(jobs/bruck/img/amg.png);transform-origin:40% 60%"></div>
+    <div id="E2" style="position:absolute;inset:0;display:none"><div class="bg" style="background-image:url(jobs/bruck/img/exterior.png)"></div><div class="fg" id="Efg" style="top:660px"><img src="jobs/bruck/img/exterior.png"></div></div>
+    <div class="shade"></div>
+    <div class="a c" id="Et1" style="top:300px"><span class="tag">Schnelle Auszahlung</span></div>
+    <div class="a c hl" id="Et2" style="top:430px;font-size:76px">Jetzt <b>unverbindlich</b><br>anfragen</div>
+    <div class="a icons" id="Ei" style="top:1240px">
+      <div><svg viewBox="0 0 24 24"><path d="M12 2a10 10 0 0 0-8.6 15.1L2 22l5-1.3A10 10 0 1 0 12 2z" fill="#E8892B"/><path d="M8.5 7.5c.3-.6.6-.6.9-.6h.5c.2 0 .4 0 .6.4l.8 1.9c.1.2 0 .5-.1.7l-.6.7c-.1.2-.2.3 0 .6.7 1.2 1.6 2 2.8 2.6.3.1.4.1.6-.1l.7-.8c.2-.2.4-.2.6-.1l1.8.9c.3.1.4.2.4.4 0 .5-.2 1.3-.9 1.7-.6.4-1.6.5-3.1-.1-2.3-1-3.9-3.3-4.4-4.2-.6-1-.6-2.2.4-3z" fill="#0b0b0c"/></svg>WhatsApp</div>
+      <div><svg viewBox="0 0 24 24"><path d="M6.6 2.5l3 4-2 2c1.2 2.6 3.3 4.7 5.9 5.9l2-2 4 3-1.6 3.6C11 18.6 5.4 13 4.9 6.1z" fill="#E8892B"/></svg>Telefon</div>
+      <div><svg viewBox="0 0 24 24" fill="none" stroke="#E8892B" stroke-width="2"><circle cx="12" cy="12" r="9"/><path d="M3 12h18M12 3c3 3.5 3 14.5 0 18M12 3c-3 3.5-3 14.5 0 18"/></svg>Online</div></div></div>
+  <!-- K 28–38 contact card -->
+  <div class="scene" id="K"><div class="bgk" id="Kbg" style="background-image:url(jobs/bruck/img/exterior.png)"></div><div class="veil"></div>
+    <div class="a c brand" id="K1" style="top:250px">Autohaus <b>Bruck</b></div>
+    <div class="a line" id="Kl" style="top:372px"></div>
+    <div class="a c" id="K2" style="top:405px"><span class="tag" style="font-size:56px">Wir kaufen dein Auto</span></div>
+    <div class="a c lab" id="K3" style="top:600px">Telefon &amp; WhatsApp</div>
+    <div class="a c phone" id="K4" style="top:655px">0176 615 986 19</div>
+    <div class="a c web" id="K5" style="top:830px">autohausbruck.de</div>
+    <div class="a c addr" id="K6" style="top:990px">Rudolf-Diesel-Ring 2<br>82256 Fürstenfeldbruck</div>
+    <div class="a c small" id="K7" style="top:1160px">info@autohausbruck.de<br>Mo–Fr 8:30–17:00 Uhr · Sa 10:00–15:00 Uhr</div></div>
+  <div id="caps"></div><div id="flash"></div><div id="prog"></div>
+</div>
+<script>
+const $=id=>document.getElementById(id);
+const cl=(x,a=0,b=1)=>Math.min(b,Math.max(a,x));
+const p=(t,a,d)=>cl((t-a)/d);
+const eo=x=>1-Math.pow(1-x,3);
+const io=x=>x<.5?4*x*x*x:1-Math.pow(-2*x+2,3)/2;
+const back=x=>{const c=1.7;return 1+(c+1)*Math.pow(x-1,3)+c*Math.pow(x-1,2)};
+const esc=s=>String(s).replace(/&/g,'&amp;').replace(/</g,'&lt;');
+// text entrance: slide up + fade (no distortion of type)
+function rise(el,t,t0,d=.45,dist=50){const k=eo(p(t,t0,d));el.style.opacity=k;el.style.transform=`translateY(${(1-k)*dist}px)`}
+function popIn(el,t,t0){const k=back(p(t,t0,.4));el.style.opacity=cl(p(t,t0,.15));el.style.transform=`scale(${.7+.3*k})`}
+function slideX(el,t,t0,dir){const k=eo(p(t,t0,.45));el.style.opacity=k;el.style.transform=`translateX(${(1-k)*dir*500}px)`}
+const C=CUES, T=C.total;
+const CUTS=[4,9,15,22,25,28];
+const SC=[['A',0,4],['B',4,9],['C',9,15],['D',15,22],['E',22,28],['K',28,T]];
+const CH=[];{let cur=[];CAPS.forEach((w,k)=>{cur.push(w);const brk=/[.,?!:;–]$/.test(w.text)||cur.length>=4||cur.map(x=>x.text).join(' ').length>24;if(brk||k===CAPS.length-1){CH.push(cur);cur=[]}});}
+CH.forEach((c,k)=>{c.s=c[0].start;c.e=k+1<CH.length?Math.min(CH[k+1][0].start,c[c.length-1].end+.5):c[c.length-1].end+.8});
+
+window.render=function(t){
+  SC.forEach(([id,a,b])=>$(id).style.display=(t>=a&&t<b)?'block':'none');
+  // beat-synced cut accent: tiny scale bounce + light flash
+  let fl=0,bump=0;for(const c of CUTS){if(t>=c&&t<c+.35){const k=Math.exp(-(t-c)*14);fl+=.28*k;bump+=.025*k}}
+  $('flash').style.opacity=cl(fl);
+  $('prog').style.width=(cl(t/T)*100)+'%';
+  // A: dynamic but subtle zoom on the car front
+  {const k=io(p(t,0,4));$('Aimg').style.transform=`scale(${1.04+.16*k+bump})`;
+   [...$('Ah').children].forEach((w,i)=>{const k=back(p(t,.15+i*.25,.4));w.style.opacity=cl(p(t,.15+i*.25,.12));w.style.transform=`translateY(${(1-k)*60}px)`});}
+  // B: slow push towards the sign
+  {const k=io(p(t,4,5));$('Bfg').style.transform=`scale(${1.12+.38*k+bump}) translate(${40*k}px,${70*k}px)`;$('Bfg').style.transformOrigin='42% 22%';
+   popIn($('Bt'),t,4.3);rise($('Bs'),t,5.0);}
+  // C: slow zoom on white car, benefits one after another
+  {const k=io(p(t,9,6));$('Cfg').style.transform=`scale(${1.18+.14*k+bump})`;$('Cfg').style.transformOrigin='50% 52%';
+   slideX($('C1'),t,C.c1,-1);slideX($('C2'),t,C.c2,1);}
+  // D: gentle lateral camera move across the showroom
+  {const k=io(p(t,15,7));$('Dfg').style.transform=`scale(${1.62+bump}) translateX(${140-280*k}px)`;
+   rise($('D1'),t,C.d1);rise($('D2'),t,C.d2);rise($('D3'),t,C.d3);}
+  // E: alternate black Mercedes / exterior on the beat
+  {const sw=t>=25;$('E1').style.display=sw?'none':'block';$('E2').style.display=sw?'block':'none';
+   $('E1').style.transform=`scale(${1.12+.08*io(p(t,22,3))+bump})`;
+   $('Efg').style.transform=`scale(${1.3+.1*io(p(t,25,3))+bump})`;$('Efg').style.transformOrigin='42% 22%';
+   popIn($('Et1'),t,22.25);rise($('Et2'),t,C.e2);
+   [...$('Ei').children].forEach((d,i)=>{const k=back(p(t,C.e3+i*.3,.4));d.style.opacity=cl(p(t,C.e3+i*.3,.12));d.style.transform=`scale(${.6+.4*k})`});}
+  // K: calm contact card, everything stays until the last frame
+  {$('Kbg').style.transform=`scale(${1.08+.04*p(t,28,10)})`;
+   [['K1',28.15],['Kl',28.35],['K2',28.5],['K3',28.9],['K4',29.05],['K5',29.5],['K6',30.0],['K7',30.4]].forEach(([id,t0])=>rise($(id),t,t0,.5,40));}
+  let html='';for(const c of CH){if(t>=c.s&&t<c.e){const k=back(p(t,c.s,.18));html=`<div style="transform:scale(${.8+.2*k});opacity:${cl(p(t,c.s,.08))}">`+c.map(w=>`<span class="${t>=w.start-.03?'on':''}">${esc(w.text)}</span>`).join(' ')+'</div>';break}}
+  $('caps').innerHTML=html;
+};
+window.addEventListener('load',()=>document.fonts.ready.then(()=>render(0)));
+</script>
+</body>
+</html>
