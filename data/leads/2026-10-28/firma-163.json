@@ -1,0 +1,409 @@
+{
+  "id": "2026-10-28-163",
+  "slug": "wyporski-shk-wolfratshausen",
+  "date": "2026-10-28",
+  "company": {
+    "name": "Wyporski SHK",
+    "owner": "Dawid Wyporski",
+    "trade": "Sanitär, Heizung & Klima",
+    "city": "Wolfratshausen",
+    "address": "Auenstraße 6A, 82515 Wolfratshausen",
+    "phone": "01523 1912042",
+    "email": null,
+    "serviceArea": [
+      "Wolfratshausen",
+      "Geretsried",
+      "Icking",
+      "Egling",
+      "Münsing",
+      "Eurasburg"
+    ]
+  },
+  "listings": {
+    "google": {
+      "url": "https://www.google.com/maps/search/?api=1&query=Wyporski%20SHK%20Auenstra%C3%9Fe%206A%20Wolfratshausen",
+      "rating": null,
+      "reviews": null,
+      "evidence": "INDIREKT (Spiegel) – LocalityBiz (guide.in.ua) führt „Wyporski SHK, Wolfratshausen“ mit Adresse Auenstraße 6A, Öffnungszeiten (Mo–Do 7–17, Fr 7–13 Uhr), 5,0 Sternen bei 5 Bewertungen und Status „geöffnet“ – typische Google-Maps-Daten. GoWork („Dawid Wyporski Installateur“) nennt 5/5 aus 9 externen Bewertungen. Bewertungszahl widersprüchlich (5 vs. 9), daher nicht übernommen. In keinem Snippet ein Website-Feld. Kein direkter google.com/maps-Treffer – in Maps prüfen."
+    },
+    "myhammer": {
+      "url": "https://www.11880.com/branchenbuch/wolfratshausen/060692320B112643143/wyporski-shk.html",
+      "rating": null,
+      "reviews": null,
+      "evidence": "Kein MyHammer gefunden – 11880-Eintrag „Wyporski SHK“, Auenstr. 6 A, Wolfratshausen, Tel. 01523 1912042 (Heizungsinstallation); dazu Kleinanzeigen-Pro-Profil „WYPORSKI SHK“ (Klimaanlagen, PV-Anlagen, Wärmepumpen)."
+    }
+  },
+  "websiteStatus": "keine eigene Website gefunden",
+  "websiteChecks": [
+    "(1) „Wyporski SHK Wolfratshausen“ mit blocked_domains (11880, Gelbe Seiten, Das Örtliche, Telefonbuch, Cylex, meinestadt, Creditreform, Facebook, Instagram, golocal, MyHammer, Northdata, Firmenwissen, WKDB, Yelp, trustlocal, wlw) – nur Kleinanzeigen-Pro-Profil, GoWork, LocalityBiz; keine eigene Domain, kein Baukasten",
+    "(2) Domain-Check allowed_domains wyporski-shk.de, wyporski.de, shk-wyporski.de, wyporski-haustechnik.de, wyporski-heizung.de, wyporskishk.de, wyporski.com, wyporski-shk.com – keine Treffer",
+    "(3) Telefonsuche „01523 1912042“/„015231912042“/„+49 1523 1912042“ mit blocked_domains – nur Rufnummern-Blocklisten (anrufer.info), keine Website",
+    "(4) Impressum-Suche „Impressum \"Dawid Wyporski\"“ – kein Impressum gefunden",
+    "(5) Spiegel-/Portal-Suche (trustlocal, firmania, rgv-bayern, Kleinanzeigen, LocalityBiz, GoWork) – kein Website-Feld, keine E-Mail sichtbar",
+    "Website-Risiko: mittel – alle Prüfungen negativ, Google-Eintrag nur indirekt über Spiegel belegt, keine Freemail"
+  ],
+  "facts": {
+    "services": [
+      "Heizungsinstallation",
+      "Wärmepumpen",
+      "Klimaanlagen",
+      "Photovoltaikanlagen",
+      "Sanitär"
+    ],
+    "experience": null,
+    "praisedFor": []
+  },
+  "strategy": {
+    "audience": "Hauseigentümer in Wolfratshausen, Geretsried und Icking, die Heizung modernisieren, eine Wärmepumpe oder Klimaanlage nachrüsten oder Sanitärarbeiten planen",
+    "mainService": "Wärmepumpe, Heizung und Klimaanlage – Einbau aus einer Hand",
+    "trustSignal": "Inhabergeführter SHK-Betrieb in Wolfratshausen, direkt per Handy erreichbar",
+    "conversionGoal": "Beratungstermin für Wärmepumpe, Heizung oder Klimaanlage anfragen (Anruf/WhatsApp)",
+    "visualConcept": "Technisch-klar: Außeneinheit einer Wärmepumpe am Einfamilienhaus, sauber verrohrter Heizungsraum, kühle Blau- und Weißtöne"
+  },
+  "sales": {
+    "score": 5,
+    "whyGoodLead": [
+      "Keine eigene Website gefunden – nur Kleinanzeigen-Profil und Verzeichnisse",
+      "Mobilnummer öffentlich gelistet – direkter Erstkontakt per WhatsApp möglich",
+      "Wärmepumpen und Klimaanlagen sind gefragte, erklärungsbedürftige Leistungen – eine Website mit Anfrageformular passt genau",
+      "Gute Bewertungen laut Spiegelseiten, aber kaum eigene Online-Präsenz"
+    ],
+    "pitch": "Hallo Herr Wyporski, hier ist … – ich baue Websites für Handwerker im Isartal. Ich habe Wyporski SHK in Wolfratshausen gefunden, aber keine eigene Website. Ich habe unverbindlich einen Entwurf vorbereitet, auf dem Kunden Ihre Leistungen zu Wärmepumpe, Heizung und Klimaanlage sehen und direkt anfragen können – darf ich Ihnen den Link schicken?"
+  },
+  "manualChecks": [
+    "Website-Risiko: mittel – vor Versand in Google Maps prüfen, dass keine Website hinterlegt ist (Grund: Google-Eintrag nur über Spiegelseiten belegt, keine Freemail)",
+    "Google-Eintrag in Maps bestätigen und tatsächliche Bewertungsanzahl prüfen (Spiegel: 5 vs. 9 Bewertungen, je 5,0)",
+    "Kleinanzeigen-Profil spricht von zertifiziertem Meisterbetrieb – nicht in die Seite übernommen; beim Betrieb bestätigen",
+    "Sanitär-Umfang (Bad, Installation) nur aus dem Namen „SHK“ abgeleitet – Details erfragen",
+    "Logo und Projektfotos: nicht gefunden – beim Betrieb anfragen"
+  ],
+  "sources": [
+    {
+      "label": "11880 – Wyporski SHK Wolfratshausen",
+      "url": "https://www.11880.com/branchenbuch/wolfratshausen/060692320B112643143/wyporski-shk.html"
+    },
+    {
+      "label": "Kleinanzeigen Pro – WYPORSKI SHK",
+      "url": "https://www.kleinanzeigen.de/pro/wyporski-shk"
+    },
+    {
+      "label": "GoWork – Dawid Wyporski Installateur Wolfratshausen",
+      "url": "https://gowork.de/dawid-wyporski-installate-wolfratshausen"
+    },
+    {
+      "label": "LocalityBiz – Wyporski SHK Wolfratshausen (Google-Daten-Spiegel)",
+      "url": "https://guide.in.ua/business/26108606/wyporski-shk-wolfratshausen"
+    }
+  ],
+  "site": {
+    "theme": "aqua",
+    "category": "handwerk",
+    "heroOffer": [
+      "Wärmepumpen",
+      "Heizung",
+      "Klimaanlagen",
+      "Photovoltaik",
+      "Sanitär"
+    ],
+    "scene": "bath",
+    "logoIcon": "drop",
+    "logoMark": "WS",
+    "brandName": "Wyporski SHK",
+    "seoTitle": "Heizung, Wärmepumpe & Klima in Wolfratshausen – Wyporski SHK",
+    "seoDescription": "Wärmepumpen, Heizungsinstallation, Klimaanlagen und PV in Wolfratshausen und Umgebung. Beratung direkt beim Inhaber anfragen.",
+    "nav": [
+      {
+        "label": "Leistungen",
+        "href": "#leistungen"
+      },
+      {
+        "label": "Projekte",
+        "href": "#projekte"
+      },
+      {
+        "label": "Bewertungen",
+        "href": "#bewertungen"
+      },
+      {
+        "label": "Ablauf",
+        "href": "#ablauf"
+      },
+      {
+        "label": "FAQ",
+        "href": "#faq"
+      },
+      {
+        "label": "Kontakt",
+        "href": "#kontakt"
+      }
+    ],
+    "hero": {
+      "eyebrow": "Sanitär · Heizung · Klima · Wolfratshausen",
+      "headline": "Wärmepumpe und Heizung in Wolfratshausen",
+      "sub": "Heizung, Klimaanlage und Photovoltaik vom Inhaber geplant und eingebaut.",
+      "ctaPrimary": "Beratung anfragen",
+      "ctaSecondary": "Anrufen",
+      "bullets": [
+        "SHK-Betrieb in Wolfratshausen",
+        "Wärmepumpe, Klima und PV",
+        "Direkt beim Inhaber"
+      ],
+      "imageLabel": "Außeneinheit einer Wärmepumpe an einem Einfamilienhaus"
+    },
+    "badges": [
+      {
+        "title": "Wärmepumpen",
+        "sub": "Heizen mit Umweltwärme"
+      },
+      {
+        "title": "Klimaanlagen",
+        "sub": "kühle Räume im Sommer"
+      },
+      {
+        "title": "Photovoltaik",
+        "sub": "Strom vom eigenen Dach"
+      },
+      {
+        "title": "Wolfratshausen",
+        "sub": "Auenstraße"
+      }
+    ],
+    "trust": [
+      {
+        "value": "Inhaber",
+        "label": "Dawid Wyporski"
+      },
+      {
+        "value": "SHK",
+        "label": "Sanitär, Heizung, Klima"
+      },
+      {
+        "value": "Mo–Fr",
+        "label": "werktags erreichbar"
+      },
+      {
+        "value": "Mobil",
+        "label": "Anruf oder WhatsApp"
+      }
+    ],
+    "servicesIntro": {
+      "headline": "Wärme, Kühlung und Strom aus einer Hand",
+      "text": "Wer die Heizung tauscht, denkt oft gleich an Klimaanlage oder PV-Anlage. Wyporski SHK plant die Technik zusammen, damit sie zum Haus passt."
+    },
+    "services": [
+      {
+        "title": "Wärmepumpen",
+        "text": "Planung und Einbau einer Wärmepumpe – vom Standort der Außeneinheit bis zur Einbindung ins Heizsystem.",
+        "items": [
+          "Luft-Wasser-Wärmepumpe",
+          "Aufstellung",
+          "Einbindung"
+        ]
+      },
+      {
+        "title": "Heizungsinstallation",
+        "text": "Neue Heizung oder Umbau der bestehenden Anlage, sauber verrohrt und eingestellt.",
+        "items": [
+          "Heizungstausch",
+          "Rohrleitungen",
+          "Inbetriebnahme"
+        ]
+      },
+      {
+        "title": "Klimaanlagen",
+        "text": "Split-Klimageräte für Schlafzimmer, Büro oder Dachgeschoss – leise und effizient.",
+        "items": [
+          "Split-Geräte",
+          "Montage",
+          "Einweisung"
+        ]
+      },
+      {
+        "title": "Photovoltaik",
+        "text": "PV-Anlagen, die eigenen Strom für Wärmepumpe und Haushalt liefern.",
+        "items": [
+          "PV-Anlage",
+          "Eigenverbrauch",
+          "Kombination mit Wärmepumpe"
+        ]
+      },
+      {
+        "title": "Sanitärinstallation",
+        "text": "Wasserleitungen und Sanitäranschlüsse in Neubau und Bestand.",
+        "items": [
+          "Wasserleitungen",
+          "Anschlüsse",
+          "Austausch"
+        ]
+      },
+      {
+        "title": "Wartung & Service",
+        "text": "Regelmäßige Durchsicht hält Heizung, Wärmepumpe und Klimagerät zuverlässig in Betrieb.",
+        "items": [
+          "Wartung",
+          "Störungen beheben",
+          "Einstellung"
+        ]
+      }
+    ],
+    "why": {
+      "headline": "Ein Ansprechpartner für Heizung, Klima und PV.",
+      "points": [
+        {
+          "title": "Alles abgestimmt",
+          "text": "Wärmepumpe, PV und Klimaanlage werden zusammen gedacht statt von drei Firmen."
+        },
+        {
+          "title": "Direkt beim Inhaber",
+          "text": "Sie sprechen mit Dawid Wyporski selbst – vom ersten Anruf bis zur Übergabe."
+        },
+        {
+          "title": "Kurze Wege",
+          "text": "Der Betrieb sitzt in Wolfratshausen und ist schnell in Geretsried, Icking und Egling."
+        },
+        {
+          "title": "Klare Zeiten",
+          "text": "Werktags erreichbar, Termine werden verbindlich abgestimmt."
+        }
+      ]
+    },
+    "reviews": {
+      "headline": "Was Kunden sagen",
+      "summary": "Kundenstimmen werden hier eingebunden, sobald sie aus dem Google-Profil übernommen sind.",
+      "highlights": [
+        "Wärmepumpen und Heizung",
+        "Klimaanlagen",
+        "Direkter Kontakt zum Inhaber"
+      ],
+      "source": "Google",
+      "sourceUrl": "https://www.google.com/maps/search/?api=1&query=Wyporski%20SHK%20Auenstra%C3%9Fe%206A%20Wolfratshausen",
+      "rating": null,
+      "count": null
+    },
+    "process": {
+      "headline": "So kommt die neue Technik ins Haus",
+      "steps": [
+        {
+          "title": "Anfrage",
+          "text": "Kurz anrufen oder per WhatsApp schildern, was geplant ist – gern mit Fotos vom Heizraum."
+        },
+        {
+          "title": "Termin vor Ort",
+          "text": "Haus, Heizraum und Aufstellort werden gemeinsam angeschaut."
+        },
+        {
+          "title": "Angebot",
+          "text": "Sie bekommen ein nachvollziehbares Angebot für Ihre Lösung."
+        },
+        {
+          "title": "Einbau",
+          "text": "Montage, Inbetriebnahme und Einweisung in die neue Anlage."
+        }
+      ]
+    },
+    "gallery": {
+      "headline": "Anlagen aus der Region",
+      "text": "Für die Live-Version zeigen wir hier echte Projekte des Betriebs.",
+      "items": [
+        {
+          "title": "Wärmepumpe",
+          "photoNeeded": "Außeneinheit am Haus, sauber aufgestellt"
+        },
+        {
+          "title": "Heizraum",
+          "photoNeeded": "neu verrohrter Heizungsraum mit Speicher"
+        },
+        {
+          "title": "Klimagerät",
+          "photoNeeded": "Split-Innengerät im Schlafzimmer oder Büro"
+        },
+        {
+          "title": "PV-Dach",
+          "photoNeeded": "Photovoltaikanlage auf einem Einfamilienhaus"
+        },
+        {
+          "title": "Installation",
+          "photoNeeded": "saubere Sanitär- oder Heizungsleitungen vor dem Verschließen"
+        }
+      ]
+    },
+    "region": {
+      "headline": "Für Wolfratshausen und das Isartal",
+      "text": "Von der Auenstraße aus schnell in Geretsried, Icking, Egling, Münsing und Eurasburg.",
+      "places": [
+        "Wolfratshausen",
+        "Geretsried",
+        "Icking",
+        "Egling",
+        "Münsing",
+        "Eurasburg"
+      ]
+    },
+    "faq": [
+      {
+        "q": "Lohnt sich eine Wärmepumpe in meinem Haus?",
+        "a": "Das hängt von Gebäude, Dämmung und bestehender Heizung ab. Bei einem Termin vor Ort lässt sich das konkret einschätzen."
+      },
+      {
+        "q": "Kann ich Wärmepumpe und PV-Anlage kombinieren?",
+        "a": "Ja, beides gehört zum Angebot und kann gemeinsam geplant werden."
+      },
+      {
+        "q": "Bauen Sie auch Klimaanlagen in Bestandswohnungen ein?",
+        "a": "Ja, Klimaanlagen gehören zum Leistungsumfang. Was in Ihrer Wohnung möglich ist, klären wir vorab."
+      },
+      {
+        "q": "Wann erreiche ich Sie?",
+        "a": "Montag bis Donnerstag von 7 bis 17 Uhr, freitags von 7 bis 13 Uhr – telefonisch oder per WhatsApp."
+      },
+      {
+        "q": "Kommen Sie auch außerhalb von Wolfratshausen?",
+        "a": "Ja, im Umkreis von Wolfratshausen – fragen Sie einfach an."
+      }
+    ],
+    "contact": {
+      "headline": "Beratung anfragen",
+      "text": "Schreiben Sie kurz, worum es geht: Wärmepumpe, Heizungstausch, Klimaanlage, PV oder Sanitär. Fotos vom Heizraum helfen.",
+      "topics": [
+        "Wärmepumpe",
+        "Heizung",
+        "Klimaanlage",
+        "Photovoltaik",
+        "Sanitär",
+        "Sonstiges"
+      ],
+      "responseNote": "Rückmeldung werktags."
+    },
+    "quote": {
+      "sizeLabel": "Worum geht es?",
+      "sizes": [
+        "Heizungstausch",
+        "Wärmepumpe",
+        "Klimaanlage",
+        "PV-Anlage",
+        "Wartung/Störung"
+      ],
+      "timings": [
+        "Dringend",
+        "In den nächsten Wochen",
+        "In 1–3 Monaten",
+        "Ich plane erst noch"
+      ]
+    },
+    "stickyCta": "Beratung anfragen",
+    "look": {
+      "palette": 0,
+      "font": 5,
+      "hero": 7,
+      "services": 5,
+      "radius": 3,
+      "logo": 5,
+      "intro": 0,
+      "projects": 0,
+      "process": 2,
+      "faq": 2,
+      "reviews": 1,
+      "order": 3
+    }
+  }
+}

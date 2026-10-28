@@ -1,0 +1,412 @@
+{
+  "id": "2026-10-28-164",
+  "slug": "akos-czeller-elektro-geretsried",
+  "date": "2026-10-28",
+  "company": {
+    "name": "Handwerkliche Dienstleistungen Inh. Akos Czeller",
+    "owner": "Akos Czeller",
+    "trade": "Elektroinstallation",
+    "city": "Geretsried",
+    "address": "Wolfratshauser Str. 11, 82538 Geretsried",
+    "phone": "01514 6997831",
+    "email": "czellerakos@gmail.com",
+    "serviceArea": [
+      "Geretsried",
+      "Wolfratshausen",
+      "Königsdorf",
+      "Egling",
+      "Dietramszell",
+      "Bad Tölz"
+    ]
+  },
+  "listings": {
+    "google": {
+      "url": "https://www.google.com/maps/search/?api=1&query=Akos%20Czeller%20Wolfratshauser%20Str.%2011%20Geretsried",
+      "rating": null,
+      "reviews": null,
+      "evidence": "NICHT direkt belegt – Elektriker-Portale zeigen Bewertungen widersprüchlich (ElektrikerPortal 5,0 bei 6 Bewertungen und Öffnungszeiten, andere 1, 4, 5 oder 0 Bewertungen); Herkunft der Bewertungen unklar, daher nicht übernommen. Annahme erfolgt über öffentlich belegte Freemail-Adresse (czellerakos@gmail.com, Stadtbranchenbuch). In Maps prüfen."
+    },
+    "myhammer": {
+      "url": "https://www.11880.com/branchenbuch/geretsried/060691303B113020661/handwerkliche-dienstleistungen-inh-akos-czeller.html",
+      "rating": null,
+      "reviews": null,
+      "evidence": "Kein MyHammer gefunden – 11880-Eintrag „Handwerkliche Dienstleistungen Inh. Akos Czeller“, Wolfratshauser Str. 11, Geretsried, Tel. 01514 6997831 (Altbauinstallationen, Datennetzwerke) in der Liste Elektriker Geretsried."
+    }
+  },
+  "websiteStatus": "keine eigene Website gefunden",
+  "websiteChecks": [
+    "(1) „Akos Czeller Geretsried Elektro“ mit blocked_domains (11880, Gelbe Seiten, Das Örtliche, Telefonbuch, Cylex, meinestadt, Creditreform, Facebook, Instagram, golocal, MyHammer, Northdata, Firmenwissen, WKDB, Yelp, trustlocal, wlw) – nur Elektriker-Portale (elektriker.org, elektrikerportal.com, handwerksradar, elektriker.biz) und Stadtbranchenbuch; keine eigene Domain",
+    "(2) Domain-Check allowed_domains czeller.de, akos-czeller.de, czeller-elektro.de, elektro-czeller.de, czeller-dienstleistungen.de, czeller-handwerk.de, czeller.com, akosczeller.de – nur czeller.com (private Seite einer anderen Person „C. Zeller“, Genealogie/Physik), kein Bezug",
+    "(3) Telefon-/E-Mail-Suche „01514 6997831“/„015146997831“/„czellerakos“ mit blocked_domains – nur Verzeichnisse, keine Website",
+    "(4) Impressum-Suche „Impressum \"Akos Czeller\" Geretsried“ – kein eigenes Impressum (nur fremde Treffer Dr. Czell Kieferorthopädie, AKOS GmbH Stuttgart)",
+    "(5) E-Mail laut Stadtbranchenbuch: czellerakos@gmail.com (Freemail, keine Firmendomain)",
+    "Website-Risiko: niedrig – alle Prüfungen negativ, Freemail öffentlich belegt"
+  ],
+  "facts": {
+    "services": [
+      "Elektroinstallation",
+      "Altbauinstallationen",
+      "Datennetzwerke",
+      "EDV-Installationen",
+      "Elektroreparaturen",
+      "Gebäudeinstallationen"
+    ],
+    "experience": null,
+    "praisedFor": []
+  },
+  "strategy": {
+    "audience": "Hauseigentümer und Vermieter in Geretsried und Wolfratshausen mit Altbau-Elektrik, Renovierung oder Bedarf an Netzwerkverkabelung",
+    "mainService": "Elektroinstallation und Altbau-Sanierung der Elektrik",
+    "trustSignal": "Inhaber Akos Czeller persönlich per Handy und E-Mail erreichbar",
+    "conversionGoal": "Elektro-Anfrage per Anruf, WhatsApp oder E-Mail mit Fotos vom Zählerschrank",
+    "visualConcept": "Aufgeräumter Verteilerkasten, sauber verlegte Leitungen und Netzwerkdosen – präzise, hell, technisch"
+  },
+  "sales": {
+    "score": 5,
+    "whyGoodLead": [
+      "Keine eigene Website gefunden – nur Branchenportale",
+      "Mobilnummer und Gmail-Adresse öffentlich – zwei direkte Kontaktwege",
+      "Elektriker im Raum Geretsried sind gefragt; Altbau und Netzwerk sind gut erklärbare Schwerpunkte",
+      "Kleiner Inhaberbetrieb ohne eigene Online-Präsenz – Website bringt Sichtbarkeit"
+    ],
+    "pitch": "Hallo Herr Czeller, hier ist … – ich baue Websites für Handwerker im Landkreis Bad Tölz-Wolfratshausen. Ich habe Ihren Eintrag in Geretsried gefunden, aber keine eigene Website. Ich habe unverbindlich einen Entwurf vorbereitet, auf dem Kunden Ihre Elektroarbeiten – vom Altbau bis zum Datennetz – sehen und direkt anfragen können. Darf ich Ihnen den Link schicken?"
+  },
+  "manualChecks": [
+    "Website-Risiko: niedrig – vor Versand in Google Maps prüfen, dass keine Website hinterlegt ist (Grund: Freemail belegt, Google-Eintrag nicht direkt belegt)",
+    "Google-Eintrag in Maps suchen; Bewertungsangaben der Portale widersprüchlich (0–6)",
+    "Ein Portal nennt den Inhaber Meister – nicht belegt, nicht übernommen; ggf. erfragen",
+    "Ein Verzeichnis listet zusätzlich Klimainstallation, das Stadtbranchenbuch führt den Betrieb auch unter Bauunternehmen – Leistungsumfang beim Erstkontakt klären",
+    "Logo und Projektfotos: nicht gefunden – beim Betrieb anfragen"
+  ],
+  "sources": [
+    {
+      "label": "11880 – Handwerkliche Dienstleistungen Inh. Akos Czeller",
+      "url": "https://www.11880.com/branchenbuch/geretsried/060691303B113020661/handwerkliche-dienstleistungen-inh-akos-czeller.html"
+    },
+    {
+      "label": "Stadtbranchenbuch Geretsried – Akos Czeller (mit E-Mail)",
+      "url": "https://geretsried.stadtbranchenbuch.com/9739412.html"
+    },
+    {
+      "label": "ElektrikerPortal – Akos Czeller Geretsried",
+      "url": "https://elektrikerportal.com/geretsried/6598-akos-czeller"
+    },
+    {
+      "label": "elektriker.org – Akos Czeller Handwerkliche Dienstleistungen",
+      "url": "https://www.elektriker.org/geretsried/akos-czeller-handwerkliche-dienstleistungen-aUPhoz"
+    },
+    {
+      "label": "Handwerksradar – Akos Czeller Geretsried",
+      "url": "https://handwerksradar.com/elektriker/bayern/akos-czeller-geretsried-82538"
+    }
+  ],
+  "site": {
+    "theme": "volt",
+    "category": "handwerk",
+    "heroOffer": [
+      "Elektroinstallation",
+      "Altbau",
+      "Datennetzwerk",
+      "Reparaturen"
+    ],
+    "scene": "electric",
+    "logoIcon": "bolt",
+    "logoMark": "AC",
+    "brandName": "Akos Czeller Elektro",
+    "seoTitle": "Elektriker in Geretsried – Akos Czeller",
+    "seoDescription": "Elektroinstallation, Altbau-Elektrik, Datennetzwerke und Reparaturen in Geretsried und Umgebung. Direkt beim Inhaber anfragen.",
+    "nav": [
+      {
+        "label": "Leistungen",
+        "href": "#leistungen"
+      },
+      {
+        "label": "Projekte",
+        "href": "#projekte"
+      },
+      {
+        "label": "Bewertungen",
+        "href": "#bewertungen"
+      },
+      {
+        "label": "Ablauf",
+        "href": "#ablauf"
+      },
+      {
+        "label": "FAQ",
+        "href": "#faq"
+      },
+      {
+        "label": "Kontakt",
+        "href": "#kontakt"
+      }
+    ],
+    "hero": {
+      "eyebrow": "Elektroinstallation · Geretsried",
+      "headline": "Elektriker in Geretsried",
+      "sub": "Neue Leitungen im Altbau, Netzwerk und Reparaturen – direkt vom Inhaber.",
+      "ctaPrimary": "Anfrage senden",
+      "ctaSecondary": "Anrufen",
+      "bullets": [
+        "Elektrik in Alt- und Neubau",
+        "Netzwerk- und EDV-Verkabelung",
+        "Per Handy und E-Mail erreichbar"
+      ],
+      "imageLabel": "aufgeräumter Verteilerkasten mit beschrifteten Sicherungen"
+    },
+    "badges": [
+      {
+        "title": "Elektroinstallation",
+        "sub": "Alt- und Neubau"
+      },
+      {
+        "title": "Datennetzwerk",
+        "sub": "LAN und EDV"
+      },
+      {
+        "title": "Reparaturen",
+        "sub": "Fehler finden und beheben"
+      },
+      {
+        "title": "Geretsried",
+        "sub": "Wolfratshauser Straße"
+      }
+    ],
+    "trust": [
+      {
+        "value": "Inhaber",
+        "label": "Akos Czeller"
+      },
+      {
+        "value": "Altbau",
+        "label": "Elektrik erneuern"
+      },
+      {
+        "value": "LAN",
+        "label": "Netzwerk und EDV"
+      },
+      {
+        "value": "Mobil",
+        "label": "Anruf oder WhatsApp"
+      }
+    ],
+    "servicesIntro": {
+      "headline": "Elektrik, die zum Haus passt",
+      "text": "Alte Leitungen, zu wenige Steckdosen oder schwaches WLAN im Keller: Akos Czeller kümmert sich um Strom und Netzwerk in Wohnung und Haus."
+    },
+    "services": [
+      {
+        "title": "Elektroinstallation",
+        "text": "Leitungen, Steckdosen, Schalter und Verteilungen für Neubau, Umbau und Renovierung.",
+        "items": [
+          "Steckdosen & Schalter",
+          "Leitungen",
+          "Unterverteilung"
+        ]
+      },
+      {
+        "title": "Altbauinstallation",
+        "text": "Veraltete Elektrik wird geprüft und Schritt für Schritt auf einen sicheren Stand gebracht.",
+        "items": [
+          "Bestand prüfen",
+          "Leitungen erneuern",
+          "Sicherungen"
+        ]
+      },
+      {
+        "title": "Datennetzwerke",
+        "text": "Netzwerkkabel und Dosen, damit Büro, Homeoffice und Fernseher stabil am Netz hängen.",
+        "items": [
+          "LAN-Verkabelung",
+          "Netzwerkdosen",
+          "Patchfeld"
+        ]
+      },
+      {
+        "title": "EDV-Installation",
+        "text": "Anschluss und Verkabelung von Router, Rechnern und Geräten im Haus oder Büro.",
+        "items": [
+          "Router-Anschluss",
+          "Gerätekabel",
+          "Ordnung im Technikschrank"
+        ]
+      },
+      {
+        "title": "Elektroreparaturen",
+        "text": "Fällt die Sicherung oder flackert das Licht, wird die Ursache gesucht und behoben.",
+        "items": [
+          "Fehlersuche",
+          "Austausch defekter Teile",
+          "Prüfung"
+        ]
+      },
+      {
+        "title": "Gebäudeinstallation",
+        "text": "Elektrik für Mehrfamilienhäuser, Treppenhäuser und Nebengebäude.",
+        "items": [
+          "Treppenhaus",
+          "Keller & Garage",
+          "Außenbeleuchtung"
+        ]
+      }
+    ],
+    "why": {
+      "headline": "Ein Elektriker, ein Ansprechpartner.",
+      "points": [
+        {
+          "title": "Direkt erreichbar",
+          "text": "Handynummer und E-Mail führen ohne Umweg zum Inhaber."
+        },
+        {
+          "title": "Altbau-Erfahrung",
+          "text": "Altbauinstallationen gehören zu den genannten Schwerpunkten."
+        },
+        {
+          "title": "Strom und Netzwerk",
+          "text": "Steckdose und LAN-Dose werden in einem Auftrag erledigt."
+        },
+        {
+          "title": "Vor Ort in Geretsried",
+          "text": "Kurze Wege nach Wolfratshausen, Königsdorf und Egling."
+        }
+      ]
+    },
+    "reviews": {
+      "headline": "Was Kunden sagen",
+      "summary": "Kundenstimmen werden hier eingebunden, sobald sie aus dem Google-Profil übernommen sind.",
+      "highlights": [
+        "Elektroinstallation",
+        "Altbau-Elektrik",
+        "Netzwerkverkabelung"
+      ],
+      "source": "Google",
+      "sourceUrl": "https://www.google.com/maps/search/?api=1&query=Akos%20Czeller%20Wolfratshauser%20Str.%2011%20Geretsried",
+      "rating": null,
+      "count": null
+    },
+    "process": {
+      "headline": "Vom Anruf bis zur fertigen Elektrik",
+      "steps": [
+        {
+          "title": "Anfrage",
+          "text": "Anrufen, WhatsApp oder E-Mail – ein Foto vom Sicherungskasten hilft."
+        },
+        {
+          "title": "Besichtigung",
+          "text": "Bestand und Wünsche werden vor Ort besprochen."
+        },
+        {
+          "title": "Angebot",
+          "text": "Sie erhalten ein klares Angebot mit den nötigen Arbeiten."
+        },
+        {
+          "title": "Ausführung",
+          "text": "Installation, Prüfung und Übergabe – mit Erklärung, was gemacht wurde."
+        }
+      ]
+    },
+    "gallery": {
+      "headline": "Arbeiten aus Geretsried und Umgebung",
+      "text": "Für die Live-Version zeigen wir hier echte Projekte des Betriebs.",
+      "items": [
+        {
+          "title": "Verteilerkasten",
+          "photoNeeded": "neu aufgebaute, beschriftete Unterverteilung"
+        },
+        {
+          "title": "Altbau-Elektrik",
+          "photoNeeded": "neue Leitungen in einer renovierten Altbauwohnung"
+        },
+        {
+          "title": "Netzwerkdose",
+          "photoNeeded": "sauber gesetzte LAN-Dose im Homeoffice"
+        },
+        {
+          "title": "Technikschrank",
+          "photoNeeded": "geordneter Router- und Patchschrank"
+        },
+        {
+          "title": "Außenlicht",
+          "photoNeeded": "neue Außenbeleuchtung an Haus oder Garage"
+        }
+      ]
+    },
+    "region": {
+      "headline": "Elektriker für Geretsried und Umgebung",
+      "text": "Von Geretsried aus schnell in Wolfratshausen, Königsdorf, Egling, Dietramszell und Bad Tölz.",
+      "places": [
+        "Geretsried",
+        "Wolfratshausen",
+        "Königsdorf",
+        "Egling",
+        "Dietramszell",
+        "Bad Tölz"
+      ]
+    },
+    "faq": [
+      {
+        "q": "Muss die Elektrik im Altbau komplett raus?",
+        "a": "Nicht immer. Nach einer Prüfung vor Ort ist klar, was erneuert werden muss und was bleiben kann."
+      },
+      {
+        "q": "Verlegen Sie auch Netzwerkkabel?",
+        "a": "Ja, Datennetzwerke und EDV-Installationen gehören zum Angebot."
+      },
+      {
+        "q": "Kann ich vorab Fotos schicken?",
+        "a": "Ja, per WhatsApp oder E-Mail – das erleichtert die erste Einschätzung."
+      },
+      {
+        "q": "Wie erreiche ich Sie am besten?",
+        "a": "Per Handy unter 01514 6997831 oder per E-Mail an czellerakos@gmail.com."
+      },
+      {
+        "q": "Arbeiten Sie auch außerhalb von Geretsried?",
+        "a": "Ja, im Umkreis von Geretsried – fragen Sie einfach an."
+      }
+    ],
+    "contact": {
+      "headline": "Elektro-Anfrage senden",
+      "text": "Beschreiben Sie kurz, was ansteht: neue Steckdosen, Altbau-Elektrik, Netzwerk oder eine Störung. Fotos helfen.",
+      "topics": [
+        "Elektroinstallation",
+        "Altbau",
+        "Datennetzwerk",
+        "Reparatur",
+        "Sonstiges"
+      ],
+      "responseNote": "Rückmeldung nach Absprache per Telefon oder E-Mail."
+    },
+    "quote": {
+      "sizeLabel": "Was steht an?",
+      "sizes": [
+        "Einzelne Steckdosen/Lampen",
+        "Ein Raum",
+        "Ganze Wohnung",
+        "Ganzes Haus",
+        "Netzwerk"
+      ],
+      "timings": [
+        "Dringend (Störung)",
+        "In den nächsten Wochen",
+        "In 1–3 Monaten",
+        "Ich plane erst noch"
+      ]
+    },
+    "stickyCta": "Anfrage senden",
+    "look": {
+      "palette": 0,
+      "font": 5,
+      "hero": 7,
+      "services": 5,
+      "radius": 3,
+      "logo": 5,
+      "intro": 0,
+      "projects": 0,
+      "process": 2,
+      "faq": 2,
+      "reviews": 1,
+      "order": 3
+    }
+  }
+}
