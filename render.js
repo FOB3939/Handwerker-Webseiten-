@@ -9,7 +9,7 @@ const path = require('path'), fs = require('fs');
   fs.rmSync(out, { recursive: true, force: true }); fs.mkdirSync(out, { recursive: true });
   const b = await chromium.launch();
   const pg = await b.newPage({ viewport: { width: 1080, height: 1920 } });
-  await pg.goto('file://' + path.resolve(__dirname, 'reel.html') + '?data=' + encodeURIComponent(path.resolve(job, 'data.js')));
+  await pg.goto('file://' + path.resolve(__dirname, process.env.REEL_HTML || 'reel.html') + '?data=' + encodeURIComponent(path.resolve(job, 'data.js')));
   await pg.evaluate(() => document.fonts.ready);
   await pg.waitForTimeout(400);
   const times = stills ? stills.split(',').map(Number) : [...Array(Math.ceil(+fps * data.total)).keys()].map(i => i / +fps);

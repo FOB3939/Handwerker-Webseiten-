@@ -1,0 +1,301 @@
+<!doctype html>
+<html lang="de">
+<head>
+<meta charset="utf-8">
+<style>
+@font-face{font-family:Oswald;font-weight:500;src:url(assets/fonts/oswald-latin-500-normal.woff2)}
+@font-face{font-family:Oswald;font-weight:700;src:url(assets/fonts/oswald-latin-700-normal.woff2)}
+@font-face{font-family:Montserrat;font-weight:600;src:url(assets/fonts/montserrat-latin-600-normal.woff2)}
+@font-face{font-family:Montserrat;font-weight:800;src:url(assets/fonts/montserrat-latin-800-normal.woff2)}
+:root{--gold:#D49B0B;--gold2:#F0B92A;--ink:#121110;--red:#E0442A;--green:#4CB25A;--blue:#5BB4EE}
+*{box-sizing:border-box;margin:0;padding:0}
+html,body{width:1080px;height:1920px;overflow:hidden;background:#000}
+#stage{position:relative;width:1080px;height:1920px;overflow:hidden;font-family:Montserrat,sans-serif;color:#fff;background:radial-gradient(circle at 50% 40%,#2b261f 0%,#0e0d0c 70%)}
+#cam{position:absolute;inset:0;transform-origin:50% 45%}
+#speed{position:absolute;left:50%;top:40%;width:3400px;height:3400px;margin:-1700px 0 0 -1700px;opacity:.25;
+  background:repeating-conic-gradient(from 0deg,rgba(240,185,42,.10) 0deg 2deg,transparent 2deg 9deg);
+  -webkit-mask:radial-gradient(circle,transparent 0 220px,#000 700px);mask:radial-gradient(circle,transparent 0 220px,#000 700px)}
+.scene{position:absolute;inset:0;display:none}
+.a{position:absolute}
+.c{left:50px;right:50px;text-align:center}
+.osw{font-family:Oswald;font-weight:700;text-transform:uppercase}
+.chip{display:inline-block;font-family:Oswald;font-weight:700;font-size:46px;text-transform:uppercase;padding:6px 30px;border-radius:50px}
+.red{background:var(--red)}.gold{background:var(--gold2);color:var(--ink)}.green{background:var(--green)}
+#brand{position:absolute;left:0;right:0;top:150px;display:flex;justify-content:center;align-items:center;gap:18px;z-index:5}
+#brand img{width:84px;height:84px;border-radius:50%}
+#brand div{font-family:Oswald;font-weight:700;font-size:40px;letter-spacing:.04em;text-transform:uppercase}
+#brand b{color:var(--gold2)}
+.h1{font-size:108px;line-height:1.02}
+.h1 b{color:var(--gold2)}
+/* coins */
+.coin{position:absolute;width:86px;height:86px;border-radius:50%;background:radial-gradient(circle at 35% 30%,#ffe08a,#D49B0B 60%,#9a6f05);color:#5a3f00;font:800 50px Montserrat;display:flex;align-items:center;justify-content:center;box-shadow:0 6px 14px rgba(0,0,0,.5)}
+/* co2 chart */
+#chart{left:90px;top:520px;width:900px;height:760px}
+.bar{position:absolute;bottom:120px;width:105px;border-radius:14px 14px 0 0;background:linear-gradient(#ff8a5c,#E0442A)}
+.bl{position:absolute;bottom:60px;width:105px;text-align:center;font:600 34px Montserrat;color:#cfc7b8}
+.bv{position:absolute;width:150px;margin-left:-22px;text-align:center;font-family:Oswald;font-weight:700;font-size:44px}
+/* benefits */
+.ben{position:absolute;left:90px;right:90px;height:120px;border-radius:24px;display:flex;align-items:center;gap:28px;padding:0 30px;background:rgba(255,255,255,.08);border:3px solid rgba(255,255,255,.14);font:800 48px Montserrat}
+.ben i{flex:none;width:80px;height:80px;border-radius:50%;background:var(--green);display:flex;align-items:center;justify-content:center;font-style:normal;font-size:46px}
+/* process */
+#pline{position:absolute;left:170px;top:520px;width:10px;background:var(--gold2);border-radius:5px}
+.step{position:absolute;left:110px;right:70px;height:170px;display:flex;align-items:center;gap:40px}
+.step .n{flex:none;width:130px;height:130px;border-radius:50%;background:var(--gold2);color:var(--ink);display:flex;align-items:center;justify-content:center;box-shadow:0 0 0 10px rgba(240,185,42,.25)}
+.step .n svg{width:76px;height:76px}
+.step .t{font:800 52px Montserrat;line-height:1.08}
+.step .t small{display:block;font:600 34px Montserrat;color:var(--gold2);margin-top:6px}
+/* funding */
+#pct{top:470px;font-family:Oswald;font-weight:700;font-size:330px;line-height:1;color:var(--gold2)}
+#pct small{font-size:130px;vertical-align:top;margin-left:6px}
+#pctT{top:820px;font:800 66px Montserrat}
+#pctS{top:910px;font:600 40px Montserrat;color:#d6cfc1}
+#warn{left:80px;right:80px;top:1060px;border-radius:26px;background:var(--red);padding:30px 36px;display:flex;align-items:center;gap:30px}
+#warn svg{flex:none;width:120px;height:120px}
+#warn div{font:800 46px Montserrat;line-height:1.15}
+#foot{left:70px;right:70px;top:1265px;text-align:center;font:600 26px Montserrat;color:#a9a294}
+/* package */
+.tile{position:absolute;width:420px;height:300px;border-radius:30px;background:#fff;color:var(--ink);display:flex;flex-direction:column;align-items:center;justify-content:center;gap:16px;box-shadow:12px 12px 0 var(--gold2)}
+.tile svg{width:120px;height:120px}
+.tile span{font-family:Oswald;font-weight:700;font-size:52px;text-transform:uppercase}
+/* cta */
+#clogo{left:315px;top:290px;width:450px;height:450px;border-radius:50%;box-shadow:0 30px 90px rgba(0,0,0,.6)}
+#c1{top:790px;font-size:76px;line-height:1.05}
+#c1 b{color:var(--gold2)}
+#c2{top:1060px;font:800 132px Montserrat;color:var(--gold2)}
+#c3{top:1225px;font:600 36px Montserrat;color:#e2dbcd;white-space:nowrap}
+#c4{top:1295px;display:flex;justify-content:center;gap:20px}
+#c4 div{font-family:Oswald;font-weight:700;font-size:46px;text-transform:uppercase;padding:4px 22px;background:#fff;color:var(--ink)}
+#c4 div:nth-child(2){background:var(--gold2)}
+#caps{position:absolute;left:60px;right:60px;top:1450px;text-align:center;z-index:15;font:800 58px Montserrat;line-height:1.15;
+  text-shadow:0 0 12px #000,0 4px 0 #000,0 -2px 0 #000,3px 0 0 #000,-3px 0 0 #000}
+#caps span.on{color:var(--gold2)}
+#swipe{position:absolute;inset:-300px;z-index:20;pointer-events:none}
+#swipe div{position:absolute;left:0;right:0;height:700px;transform:skewY(-14deg)}
+#flash{position:absolute;inset:0;background:#fff;z-index:30;opacity:0}
+#vign{position:absolute;inset:0;z-index:12;pointer-events:none;background:radial-gradient(ellipse at 50% 45%,transparent 55%,rgba(0,0,0,.5) 100%)}
+#prog{position:absolute;left:0;top:0;height:10px;background:var(--gold2);z-index:40}
+#black{position:absolute;inset:0;background:#000;z-index:50;opacity:0}
+</style>
+<script>document.write('<script src="'+(new URLSearchParams(location.search).get('data')||'data.js')+'"><\/script>')</script>
+</head>
+<body>
+<div id="stage"><div id="cam"><div id="speed"></div>
+
+<!-- S1: Gas frisst Geld -->
+<div class="scene" id="S1">
+  <div class="a c" style="top:300px" id="s1chip"><span class="chip red">Problem</span></div>
+  <svg class="a" id="boiler" style="left:290px;top:430px;width:500px;height:620px" viewBox="0 0 500 620">
+    <rect x="60" y="20" width="380" height="500" rx="30" fill="#F2EEE6" stroke="#121110" stroke-width="10"/>
+    <rect x="130" y="80" width="240" height="70" rx="10" fill="#2c2924"/><text x="250" y="130" fill="#F0B92A" font-family="Oswald" font-size="44" text-anchor="middle">GAS</text>
+    <rect x="160" y="220" width="180" height="200" rx="18" fill="#2c2924"/>
+    <path id="gflame" d="M250 250c18 40 60 60 60 110a60 60 0 0 1-120 0c0-26 14-40 26-56 4 20 16 26 22 26 0-30 0-50 12-80z" fill="#4FA3E0"/>
+    <g stroke="#9a948a" stroke-width="16" stroke-linecap="round"><path d="M150 520v80M220 520v80M280 520v80M350 520v80"/></g>
+  </svg>
+  <div id="coins"></div>
+  <div class="a c osw h1" style="top:1110px" id="s1t">Gasheizung<br><b>frisst Geld?</b></div>
+</div>
+
+<!-- S2: CO2-Preis -->
+<div class="scene" id="S2">
+  <div class="a c osw h1" style="top:300px" id="s2t">CO₂-Preis <b>steigt</b></div>
+  <div class="a c" style="top:430px;font:600 38px Montserrat;color:#cfc7b8" id="s2s">Euro pro Tonne CO₂ (BEHG)</div>
+  <div class="a" id="chart"></div>
+</div>
+
+<!-- S3: Die Lösung -->
+<div class="scene" id="S3">
+  <div class="a c" style="top:300px" id="s3chip"><span class="chip green">Die Lösung</span></div>
+  <div class="a c osw" style="top:400px;font-size:96px;line-height:1.02" id="s3t">Luft-Wasser-<br><b style="color:var(--gold2)">Wärmepumpe</b></div>
+  <svg class="a" id="hp" style="left:90px;top:640px;width:900px;height:660px" viewBox="0 0 900 660">
+    <g id="air" fill="none" stroke="#5BB4EE" stroke-width="10" stroke-linecap="round"></g>
+    <rect x="160" y="120" width="560" height="420" rx="34" fill="#F2EEE6" stroke="#121110" stroke-width="10"/>
+    <circle cx="390" cy="330" r="160" fill="#2c2924"/>
+    <g id="fan"><g fill="#cfc7b8"><path d="M0 0C26-52 78-78 104-52 78-26 39-6 0 0z"/><path d="M0 0C26-52 78-78 104-52 78-26 39-6 0 0z" transform="rotate(120)"/><path d="M0 0C26-52 78-78 104-52 78-26 39-6 0 0z" transform="rotate(240)"/></g><circle r="24" fill="#F0B92A"/></g>
+    <g stroke="#8a847a" stroke-width="7"><path d="M600 150v360M630 150v360M660 150v360"/></g>
+    <rect x="190" y="540" width="60" height="40" fill="#121110"/><rect x="630" y="540" width="60" height="40" fill="#121110"/>
+    <g id="heatw" fill="none" stroke="#E0442A" stroke-width="10" stroke-linecap="round"></g>
+  </svg>
+  <div class="a c" style="top:1310px" id="s3v"><span class="chip gold">z. B. Viessmann</span></div>
+</div>
+
+<!-- S4: Vorher / Nachher Haus -->
+<div class="scene" id="S4">
+  <div class="a" id="houseWrap" style="left:90px;top:300px;width:900px;height:680px;border-radius:30px;overflow:hidden;border:8px solid #fff;background:#cfe8f7">
+    <svg id="hB" class="a" style="inset:0" viewBox="0 0 900 680">
+      <rect width="900" height="680" fill="#b9c3cc"/>
+      <rect y="560" width="900" height="120" fill="#7d8a6e"/>
+      <path d="M180 300L450 110l270 190v300H180z" fill="#e7c6a8" stroke="#121110" stroke-width="8"/>
+      <path d="M150 310L450 90l300 220" fill="none" stroke="#7a3b2a" stroke-width="30" stroke-linejoin="round"/>
+      <rect x="560" y="120" width="50" height="110" fill="#7a3b2a"/>
+      <g id="smoke" fill="#6b6b6b"></g>
+      <rect x="250" y="340" width="110" height="110" fill="#fff" stroke="#121110" stroke-width="6"/><rect x="540" y="340" width="110" height="110" fill="#fff" stroke="#121110" stroke-width="6"/>
+      <rect x="400" y="460" width="100" height="140" fill="#7a3b2a"/>
+      <rect x="40" y="420" width="120" height="150" rx="10" fill="#F2EEE6" stroke="#121110" stroke-width="6"/><path d="M100 455c8 18 26 26 26 48a26 26 0 0 1-52 0c0-12 6-18 12-24 2 8 6 10 8 10 0-14 0-22 6-34z" fill="#4FA3E0"/>
+      <text x="100" y="600" font-family="Oswald" font-size="30" text-anchor="middle" fill="#121110">GAS</text>
+    </svg>
+    <svg id="hA" class="a" style="inset:0" viewBox="0 0 900 680">
+      <rect width="900" height="680" fill="#cfe8f7"/><circle cx="790" cy="90" r="50" fill="#FFD25A"/>
+      <rect y="560" width="900" height="120" fill="#6fb35f"/>
+      <path d="M180 300L450 110l270 190v300H180z" fill="#f4ead9" stroke="#121110" stroke-width="8"/>
+      <path d="M150 310L450 90l300 220" fill="none" stroke="#3c3a36" stroke-width="30" stroke-linejoin="round"/>
+      <rect x="250" y="340" width="110" height="110" fill="#fff6c9" stroke="#121110" stroke-width="6"/><rect x="540" y="340" width="110" height="110" fill="#fff6c9" stroke="#121110" stroke-width="6"/>
+      <rect x="400" y="460" width="100" height="140" fill="#3c3a36"/>
+      <rect x="735" y="470" width="150" height="110" rx="10" fill="#F2EEE6" stroke="#121110" stroke-width="6"/><circle cx="790" cy="525" r="38" fill="#2c2924"/><g id="fan2" fill="#cfc7b8"><path d="M0 0C8-16 24-24 32-16 24-8 12-2 0 0z"/><path d="M0 0C8-16 24-24 32-16 24-8 12-2 0 0z" transform="rotate(120)"/><path d="M0 0C8-16 24-24 32-16 24-8 12-2 0 0z" transform="rotate(240)"/></g>
+      <path d="M720 530h15" stroke="#121110" stroke-width="10"/>
+      <path d="M80 520C80 470 110 440 160 438c0 50-30 80-80 82z" fill="#4CB25A"/><path d="M80 520l40-40" stroke="#121110" stroke-width="5"/>
+    </svg>
+    <div class="a" id="hbar" style="top:0;bottom:0;width:10px;margin-left:-5px;background:#fff;box-shadow:0 0 30px #fff"></div>
+    <span class="a chip red" id="hV" style="left:24px;top:24px;font-size:40px">Vorher: Gas</span>
+    <span class="a chip green" id="hN" style="right:24px;top:24px;font-size:40px">Jetzt: Wärmepumpe</span>
+  </div>
+  <div class="ben" id="b1" style="top:1020px"><i>€</i>Niedrigere Heizkosten</div>
+  <div class="ben" id="b2" style="top:1160px"><i>✓</i>Unabhängig von Gas</div>
+  <div class="ben" id="b3" style="top:1300px"><i>🌿</i>Klimafreundlich heizen</div>
+</div>
+
+<!-- S5: Ablauf -->
+<div class="scene" id="S5">
+  <div class="a c osw h1" style="top:300px;font-size:96px" id="s5t">So läuft's <b>mit FOB</b></div>
+  <div id="pline"></div>
+  <div class="step" id="p1" style="top:470px"><div class="n" id="n1"></div><div class="t">Kostenlose Beratung<small>vor Ort</small></div></div>
+  <div class="step" id="p2" style="top:690px"><div class="n" id="n2"></div><div class="t">Planung &amp; Angebot<small>passend zu Ihrem Haus</small></div></div>
+  <div class="step" id="p3" style="top:910px"><div class="n" id="n3"></div><div class="t">Hilfe beim<br>Förderantrag<small>KfW · wir unterstützen</small></div></div>
+  <div class="step" id="p4" style="top:1130px"><div class="n" id="n4"></div><div class="t">Einbau durch<br>Fachpartner<small>deutschlandweit</small></div></div>
+</div>
+
+<!-- S6: Förderung -->
+<div class="scene" id="S6">
+  <div class="a c" style="top:310px" id="s6chip"><span class="chip gold">Option: KfW-Förderung</span></div>
+  <div class="a c" id="pct"><span id="pnum">0</span><small>%</small></div>
+  <div class="a c" id="pctT">Zuschuss möglich*</div>
+  <div class="a c" id="pctS">Grundförderung 30 % + Boni · KfW 458</div>
+  <div class="a" id="warn"><svg viewBox="0 0 100 100"><circle cx="50" cy="50" r="44" fill="#fff"/><path d="M34 22h32M34 78h32M38 22c0 18 24 22 24 28S38 60 38 78M62 22c0 18-24 22-24 28s24 10 24 28" fill="none" stroke="#121110" stroke-width="6" stroke-linecap="round"/><path d="M42 72h16l-8-10z" fill="#D49B0B"/></svg><div>Ab Februar 2027 sinken die Förderhöchstbeträge</div></div>
+  <div class="a" id="foot">* bis zu 70 % der förderfähigen Kosten, abhängig von Einkommen und Voraussetzungen. Stand 10/2026, ohne Gewähr – individuelle Prüfung im Beratungsgespräch.</div>
+</div>
+
+<!-- S7: Komplettpaket -->
+<div class="scene" id="S7">
+  <div class="a c" style="top:300px;display:flex;justify-content:center;gap:20px" id="s7chips"><span class="chip gold">Mit Förderung ✓</span><span class="chip" style="background:#fff;color:#121110">Ohne Förderung ✓</span></div>
+  <div class="a c osw h1" style="top:410px;font-size:100px" id="s7t">Komplettpaket<br><b>aus einer Hand</b></div>
+  <div class="tile" id="k1" style="left:90px;top:680px"></div>
+  <div class="tile" id="k2" style="left:570px;top:680px"></div>
+  <div class="tile" id="k3" style="left:90px;top:1030px"></div>
+  <div class="tile" id="k4" style="left:570px;top:1030px"></div>
+</div>
+
+<!-- S8: CTA -->
+<div class="scene" id="S8">
+  <img class="a" id="clogo" src="assets/logo.png">
+  <div class="a c osw" id="c1"><b>Kostenloses &amp;<br>unverbindliches</b><br>Beratungsgespräch</div>
+  <div class="a c" id="c2">fob-fm.de</div>
+  <div class="a c" id="c3">Deutschlandweit mit starken Fachpartnern</div>
+  <div class="a c" id="c4"><div>Beratung</div><div>Förderung</div><div>Montage</div></div>
+</div>
+
+</div>
+<div id="brand"><img src="assets/logo.png"><div>FOB <b>Haustechnik</b></div></div>
+<div id="vign"></div><div id="caps"></div>
+<div id="swipe"><div style="background:#F0B92A"></div><div style="background:#121110"></div><div style="background:#fff"></div></div>
+<div id="flash"></div><div id="prog"></div><div id="black"></div></div>
+<script>
+const SV='fill="none" stroke="#121110" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"';
+const IC={
+ talk:`<svg viewBox="0 0 100 100" ${SV}><path d="M14 20h56v36H38L22 70V56h-8z" fill="#fff"/><path d="M50 62h18l14 12V62h6V36h-8"/></svg>`,
+ plan:`<svg viewBox="0 0 100 100" ${SV}><rect x="18" y="12" width="64" height="78" rx="6" fill="#fff"/><path d="M32 34h36M32 50h36M32 66h20"/></svg>`,
+ euro:`<svg viewBox="0 0 100 100" ${SV}><circle cx="50" cy="50" r="38" fill="#fff"/><path d="M64 34a20 20 0 1 0 0 32M28 46h28M28 56h28"/></svg>`,
+ tools:`<svg viewBox="0 0 100 100" ${SV}><path d="M20 80l40-40M62 18a14 14 0 0 0 18 18l-8 8-18-18z" fill="#fff"/><path d="M80 80L36 36M22 22l14 14-6 6-14-14z"/></svg>`,
+ service:`<svg viewBox="0 0 100 100" ${SV}><circle cx="50" cy="50" r="36" fill="#F0B92A"/><path d="M32 52l12 12 24-26"/></svg>`,
+};
+const $=id=>document.getElementById(id);
+const cl=(x,a=0,b=1)=>Math.min(b,Math.max(a,x));
+const p=(t,a,d)=>cl((t-a)/d);
+const eo=x=>1-Math.pow(1-x,3);
+const back=x=>{const c=2.0;return 1+(c+1)*Math.pow(x-1,3)+c*Math.pow(x-1,2)};
+const pop=(t,a,d=.45)=>back(p(t,a,d));
+function tf(el,{o,x=0,y=0,s=1,r=0}){if(o!==undefined)el.style.opacity=o;el.style.transform=`translate(${x}px,${y}px) scale(${s}) rotate(${r}deg)`}
+const esc=s=>String(s).replace(/&/g,'&amp;').replace(/</g,'&lt;');
+const C=CUES; // named cue times (seconds)
+const SC=['S1','S2','S3','S4','S5','S6','S7','S8'];
+const ST=[0,C.co2,C.loesung,C.vorher,C.proc,C.kfw,C.pack,C.cta].map((v,i)=>i?v-.15:0);
+const TOTAL=C.total;
+const send=i=>i+1<ST.length?ST[i+1]:TOTAL;
+// build dynamic parts
+for(let i=0;i<12;i++){const d=document.createElement('div');d.className='coin';d.textContent='€';$('coins').appendChild(d)}
+const CO2=[['2021',25],['2022',30],['2023',30],['2024',45],['2025',55],['2026','55–65',65]];
+$('chart').innerHTML=CO2.map((r,i)=>`<div class="bar" id="cb${i}" style="left:${i*150+20}px;height:0"></div><div class="bv" id="cv${i}" style="left:${i*150+20}px">${r[1]}</div><div class="bl" style="left:${i*150+20}px">${r[0]}</div>`).join('');
+$('air').innerHTML=[0,1,2,3].map(i=>`<path id="aw${i}" d="M0 ${200+i*80} h110"/>`).join('');
+$('heatw').innerHTML=[0,1,2].map(i=>`<path id="hw${i}" d="M${770+i*40} 260 q 18 -30 0 -60 q -18 -30 0 -60"/>`).join('');
+$('smoke').innerHTML=[0,1,2,3,4].map(i=>`<circle id="sm${i}" cx="585" cy="110" r="30"/>`).join('');
+['talk','plan','euro','tools'].forEach((k,i)=>$('n'+(i+1)).innerHTML=IC[k]);
+[['talk','Beratung'],['euro','Förderung'],['tools','Montage'],['service','Service']].forEach(([k,l],i)=>$('k'+(i+1)).innerHTML=IC[k]+`<span>${l}</span>`);
+// captions
+const CH=[];{let cur=[];CAPS.forEach((w,k)=>{cur.push(w);const brk=/[.,?!:;–]$/.test(w.text)||cur.length>=4||cur.map(x=>x.text).join(' ').length>24;if(brk||k===CAPS.length-1){CH.push(cur);cur=[]}});}
+CH.forEach((c,k)=>{c.s=c[0].start;c.e=k+1<CH.length?Math.min(CH[k+1][0].start,c[c.length-1].end+.6):c[c.length-1].end+.8});
+const IMP=[[0,.8],...ST.slice(1).map(s=>[s+.05,.8]),[C.pct+1.6,1],[C.feb,.8],[C.url,.8]];
+const FLASH=[[.02,.4],[C.cta-.1,.5],[C.pct+1.6,.4]];
+
+window.render=function(t){
+  SC.forEach((id,i)=>$(id).style.display=(t>=ST[i]&&t<send(i))?'block':'none');
+  let sx=0,sy=0,zs=1+.02*Math.sin(t*.7);for(const[ti,A]of IMP){if(t>=ti&&t<ti+.6){const k=Math.exp(-(t-ti)*9)*A;sx+=Math.sin((t-ti)*83)*16*k;sy+=Math.cos((t-ti)*71)*12*k;zs+=.03*k}}
+  $('cam').style.transform=`translate(${sx}px,${sy}px) scale(${zs})`;
+  let fl=0;for(const[ti,A]of FLASH)if(t>=ti)fl+=A*Math.exp(-(t-ti)*7);$('flash').style.opacity=cl(fl);
+  let sw=null;for(const s of ST.slice(1))if(t>s-.32&&t<s+.32)sw=(t-(s-.32))/.64;
+  [...$('swipe').children].forEach((d,i)=>{if(sw===null){d.style.display='none';return}d.style.display='block';const k=cl(sw*1.15-i*.07);d.style.top=(2700-k*3600)+'px';d.style.height=(800-i*220)+'px'});
+  $('speed').style.transform=`rotate(${t*12}deg)`;$('speed').style.opacity=t<ST[2]?.9:.25;
+  $('prog').style.width=(cl(t/TOTAL)*100)+'%';$('black').style.opacity=p(t,TOTAL-.6,.6);
+  const bk=eo(p(t,0,.5));tf($('brand'),{o:bk,y:(1-bk)*-60});
+  // S1
+  {const k=pop(t,.05,.5);tf($('boiler'),{o:cl(k*3),s:.6+.4*k,r:Math.sin(t*14)*(t<ST[1]?1.2:0)});
+   tf($('s1chip'),{o:cl(pop(t,.2,.35)*3),s:pop(t,.2,.35)});
+   const kt=pop(t,.35,.4);const gl=t>.35&&t<.9?Math.sin(t*120)*7:0;tf($('s1t'),{o:cl(kt*3),s:.4+.6*kt,x:gl});$('s1t').style.textShadow=gl?`${gl}px 0 #00e5ff,${-gl}px 0 #ff2bd6`:'none';
+   $('gflame').setAttribute('transform',`translate(250 400) scale(${1+.06*Math.sin(t*15)},${1+.1*Math.sin(t*11)}) translate(-250 -400)`);
+   [...$('coins').children].forEach((c,i)=>{const ph=((t*.6+i/12)%1);const side=i%2?1:-1;const x=540+side*(150+ph*(250+(i%3)*40))-43;const y=760-ph*380-(i%4)*30;c.style.left=x+'px';c.style.top=y+'px';c.style.opacity=t>.5?Math.sin(ph*Math.PI):0;c.style.transform=`rotate(${side*ph*30}deg) scale(${.8+.4*ph})`});}
+  // S2
+  {const k=eo(p(t,ST[1]+.05,.45));tf($('s2t'),{o:k,y:(1-k)*-60});tf($('s2s'),{o:eo(p(t,ST[1]+.3,.4))});
+   CO2.forEach((r,i)=>{const v=r[2]||r[1];const kb=eo(p(t,ST[1]+.3+i*.22,.5));$('cb'+i).style.height=(v*8.5*kb)+'px';const lab=$('cv'+i);lab.style.bottom=(120+v*8.5*kb+10)+'px';lab.style.opacity=kb;
+     $('cb'+i).style.background=i==5?'linear-gradient(#ffb36b,#E0442A)':'linear-gradient(#ff8a5c,#c63a22)'});}
+  // S3
+  {const k=pop(t,ST[2]+.05,.35);tf($('s3chip'),{o:cl(k*3),s:k});const kt=eo(p(t,ST[2]+.2,.45));tf($('s3t'),{o:kt,y:(1-kt)*60});
+   const kh=pop(t,ST[2]+.4,.6);tf($('hp'),{o:cl(kh*3),s:.6+.4*kh});
+   $('fan').setAttribute('transform',`translate(390 330) rotate(${t*540})`);
+   for(let i=0;i<4;i++){const ph=((t*1.3+i/4)%1);$('aw'+i).setAttribute('transform',`translate(${ph*160} 0)`);$('aw'+i).style.opacity=t>C.holt?Math.sin(ph*Math.PI):0}
+   for(let i=0;i<3;i++){const ph=((t*1.1+i/3)%1);$('hw'+i).setAttribute('transform',`translate(0 ${-ph*80})`);$('hw'+i).style.opacity=t>C.holt?(1-ph):0}
+   const kv=pop(t,C.viessmann,.4);tf($('s3v'),{o:cl(kv*3),s:kv});}
+  // S4
+  {const kw=pop(t,ST[3]+.05,.45);tf($('houseWrap'),{o:cl(kw*3),s:.85+.15*kw});
+   const w=eo(p(t,C.jetzt1,.8))*100;$('hA').style.clipPath=`inset(0 ${100-w}% 0 0)`;$('hbar').style.left=w+'%';$('hbar').style.opacity=w>0&&w<100?1:0;
+   $('hV').style.opacity=w<50?1:0;$('hN').style.opacity=w>50?1:0;
+   for(let i=0;i<5;i++){const ph=((t*.6+i/5)%1);const s=$('sm'+i);s.setAttribute('cy',100-ph*110);s.setAttribute('cx',585+ph*60);s.setAttribute('r',22+ph*30);s.style.opacity=(1-ph)*.7}
+   $('fan2').setAttribute('transform',`translate(790 525) rotate(${t*600})`);
+   [['b1',C.b1],['b2',C.b2],['b3',C.b3]].forEach(([id,ti],i)=>{const k=pop(t,ti-.08,.4);tf($(id),{o:cl(k*3),x:(1-k)*(i%2?320:-320)})});}
+  // S5
+  {const k=eo(p(t,ST[4]+.05,.45));tf($('s5t'),{o:k,y:(1-k)*-60});
+   const P=[C.p1,C.p2,C.p3,C.p4];let lh=0;
+   P.forEach((ti,i)=>{const kk=pop(t,ti-.08,.4);tf($('p'+(i+1)),{o:cl(kk*3),x:(1-kk)*300});lh=Math.max(lh,eo(p(t,ti-.3,.4))*(i*220+20))});
+   $('pline').style.height=lh+'px';
+   const kd=eo(p(t,C.p4b,.3));$('p4').querySelector('small').style.transform=`scale(${1+.25*Math.sin(kd*Math.PI)})`;}
+  // S6
+  {tf($('s6chip'),{o:cl(pop(t,ST[5]+.05,.35)*3),s:pop(t,ST[5]+.05,.35)});
+   const n=eo(p(t,C.pct-.2,1.6));$('pnum').textContent=(n>=1?'bis ':'')+Math.round(n*70);
+   $('pct').style.fontSize=(n>=1?250:330)+'px';tf($('pct'),{o:cl(n*5),s:t>C.pct+1.4?1+.08*Math.exp(-(t-C.pct-1.4)*6):1});
+   const k1=eo(p(t,C.pct+.3,.4));tf($('pctT'),{o:k1,y:(1-k1)*30});const k2=eo(p(t,C.pct+.6,.4));tf($('pctS'),{o:k2,y:(1-k2)*30});
+   const kw=pop(t,C.feb,.45);tf($('warn'),{o:cl(kw*3),s:.6+.4*kw,r:(1-kw)*-4+(t>C.feb+.5?Math.sin(t*10)*.6:0)});
+   $('foot').style.opacity=eo(p(t,ST[5]+.5,.5));}
+  // S7
+  {const kc=pop(t,ST[6]+.05,.4);tf($('s7chips'),{o:cl(kc*3),s:kc});
+   const kt=eo(p(t,C.komplett-.3,.45));tf($('s7t'),{o:kt,y:(1-kt)*50});
+   [1,2,3,4].forEach(i=>{const k=pop(t,C.komplett+(i-1)*.22,.4);tf($('k'+i),{o:cl(k*3),s:k,r:(1-k)*(i%2?-12:12)})});}
+  // S8
+  {const kl=pop(t,ST[7]+.05,.6);tf($('clogo'),{o:cl(kl*3),s:.5+.5*kl,r:(1-kl)*30});
+   const k1=eo(p(t,ST[7]+.3,.5));tf($('c1'),{o:k1,y:(1-k1)*60});
+   const k2=pop(t,C.url,.5);tf($('c2'),{o:cl(k2*3),s:k2*(1+.03*Math.sin(t*5))});
+   const k3=eo(p(t,C.url+.6,.5));tf($('c3'),{o:k3});
+   [...$('c4').children].forEach((c,j)=>{const kk=pop(t,C.url+.9+j*.25,.3);c.style.opacity=cl(kk*3);c.style.transform=`scale(${2.2-1.2*kk}) rotate(${(j-1)*2}deg)`});}
+  // captions
+  let html='';for(const c of CH){if(t>=c.s&&t<c.e){const k=pop(t,c.s,.18);html=`<div style="transform:scale(${.7+.3*k});opacity:${cl(k*3)}">`+c.map(w=>`<span class="${t>=w.start-.03?'on':''}">${esc(w.text)}</span>`).join(' ')+'</div>';break}}
+  $('caps').innerHTML=html;
+};
+document.fonts.ready.then(()=>render(0));
+</script>
+</body>
+</html>
