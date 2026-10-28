@@ -1,0 +1,18 @@
+{
+  "slug": "2026-10-28-rohre-frost",
+  "topic": "Wasserleitungen vor Frost schützen",
+  "format": "quiz",
+  "style": {"theme": "blue", "transition": "slice", "bg": "dots", "entrance": "rise"},
+  "scenes": [
+    {"type": "hook", "chip": "Winter-Check", "icon": "snow", "title": "Frost sprengt *Leitungen*?", "sub": "Jetzt vorbeugen!",
+     "vo": "Frost kann Ihre Wasserleitungen sprengen!", "items": [{"vo": "Jetzt im Herbst vorbeugen."}]},
+    {"type": "quiz", "question": "Was tun mit dem *Außenwasserhahn*?", "options": ["Einfach laufen lassen", "Innen absperren & entleeren", "Mit Folie abdecken"], "answer": 1,
+     "vo": "Quiz: Was machen Sie mit dem Außenwasserhahn?", "items": [{"vo": "Richtig: innen absperren und entleeren!"}]},
+    {"type": "list", "style": "check", "title": "Frost-*Checkliste*", "vo": "Ihre Frost-Checkliste:",
+     "items": [
+       {"text": "Außenhahn absperren", "vo": "Außenhahn absperren,"},
+       {"text": "Leitungen in Garage & Keller dämmen", "vo": "Leitungen in Garage und Keller dämmen,"},
+       {"text": "Räume nie ganz auskühlen lassen", "vo": "und unbeheizte Räume nie ganz auskühlen lassen."}]},
+    {"type": "cta", "title": "Wir machen Ihr Haus *winterfest*", "vo": "FOB Hausmeisterservice macht Ihr Haus winterfest – jetzt anfragen", "items": [{"vo": "auf fob-fm punkt de."}]}
+  ]
+}

@@ -1,8 +1,30 @@
 # FOB Reels – automatische Instagram-Reels
 
 Content-Baukasten für **FOB Haustechnik & Hausmeisterservice** (Weßling · München & Umgebung, fob-fm.de).
-Jedes Reel: 1080×1920, 30 fps, 30–45 s, Sprecher (ElevenLabs), Untertitel, Musik-Bett, Soundeffekte, Action-Übergänge.
-Aufbau immer **Problem → Ursache → Lösung → (Vorher/Nachher) → Call-to-Action**.
+Jedes Reel: 1080×1920, 30 fps, **≈ 30 s**, Sprecher (ElevenLabs), Untertitel, Musik-Bett, Soundeffekte, Action-Übergänge.
+Jeden Tag wechseln **Inhaltsformat** und **Design**, damit der Feed abwechslungsreich bleibt.
+
+## Inhaltsformate (`"format"` in der Spec, Szenenfolge)
+
+| format | Szenen |
+|---|---|
+| `problem` | hook → list(red, Ursachen) → list(Schritte) → cta |
+| `top3` | hook → list(3 nummerierte Tipps) → tip → cta |
+| `myth` | hook → myth → myth → cta |
+| `quiz` | hook → quiz → list(check) oder tip → cta |
+| `stat` | hook → stat → list(check) → cta |
+| `compare` | hook → compare → tip → cta |
+| `checklist` | hook → list(check, 3–4 Punkte) → cta |
+| `beforeafter` | hook(photo) → ba → list(check) → cta (nur mit passenden Fotos) |
+
+Nie zweimal hintereinander dasselbe Format.
+
+## Design (`"style"` in der Spec)
+
+`{"theme": dark|light|blue|gold, "transition": swipe|circle|slice|zoom, "bg": speed|grid|dots|blobs, "entrance": pop|slide|rise|wipe}`
+
+Jeden Tag eine andere Kombination; theme **und** transition müssen sich vom Vortag (letzte Spec in `specs/`) unterscheiden.
+Titel-Markup: `*Wort*` = Akzentfarbe, `|` = Zeilenumbruch.
 
 ## Dateien
 
@@ -29,9 +51,13 @@ Aufbau immer **Problem → Ursache → Lösung → (Vorher/Nachher) → Call-to-
   {"type":"cta","vo":"FOB Haustechnik – jetzt kostenlos und unverbindlich anfragen","items":[{"vo":"auf fob-fm punkt de."}]}]}
 ```
 
-* Szenentypen: `hook`, `list` (`style:"red"` = Problem/Ursache mit Icons, sonst nummerierte Schritte; max. 4 Punkte), `tip`, `ba` (Vorher/Nachher-Schieber), `cta` (immer letzte Szene).
+* Szenentypen: `hook`, `list` (`style:"red"` = Ursachen mit Icons, `"check"` = Checkliste, sonst nummeriert; max. 4 Punkte), `tip`, `ba` (Vorher/Nachher-Schieber), `cta` (immer letzte Szene), außerdem:
+  * `stat`: `{"value":2000,"prefix":"","suffix":" L","title":"…","sub":"…","vo":"…","items":[{"vo":"Zahl zählt hoch"},{"vo":"sub erscheint"}]}` – nur belegbare Zahlen
+  * `myth`: `{"myth":"…","fact":"…","vo":"Mythos: …","items":[{"vo":"Fakt: …"}]}` – Texte max. ~60 Zeichen
+  * `quiz`: `{"question":"…","options":["A","B","C"],"answer":1,"vo":"Frage","items":[{"vo":"Richtig: …"}]}` – Optionen max. ~26 Zeichen
+  * `compare`: `{"title":"…","left":{"label":"…","icon":"…","text":"…"},"right":{…},"vo":"…","items":[{"vo":"rechte Seite erscheint"}]}` – Texte max. ~45 Zeichen
 * Jede Szene und jeder Punkt hat einen eigenen `vo`-Satz; die Animation startet genau, wenn dieser Satz gesprochen wird.
-* Gesamter Sprechertext: **60–85 Wörter** (≈ 30–42 s). Die Website immer als „fob-fm punkt de“ schreiben (Untertitel zeigen „fob-fm.de“).
+* Gesamter Sprechertext: **52–62 Wörter** (≈ 27–30 s gesprochen, Video ≈ 30–33 s). Die Website immer als „fob-fm punkt de“ schreiben (Untertitel zeigen „fob-fm.de“).
 * Icons: toilet drop faucet wrench bolt socket paint house leaf snow heatpump radiator thermo euro clock warning check key shower mold window bulb flame broom pipe phone calendar tools
 * Fotos (`assets/photos/<id>.jpg`): sink_before/sink_after (Waschtisch), wc_before/wc_after (Unterputz-Spülkasten/WC), room_before/room_after (Malerarbeiten Zimmer), paint_before/paint_after (Wand grün/Spachteltechnik), facade_before/facade_after (Fassade), hedge_before/hedge_after (Heckenschnitt), courtyard (Wohnanlage/Hausmeister), stairs (Treppenhaus/Boden-Reinigung), siphon (schwarzer Designsiphon), faucet (Armatur-Montage)
 
