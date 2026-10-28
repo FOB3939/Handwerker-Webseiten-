@@ -1,0 +1,10 @@
+{"slug":"2026-11-01-winterdienst-vergleich","topic":"Winterdienst: selbst räumen oder FOB","format":"compare",
+ "style":{"theme":"ice","transition":"glitch","bg":"snow","entrance":"rise"},
+ "scenes":[
+  {"type":"hook","chip":"Winterdienst","icon":"clock","title":"Um *6 Uhr* Schnee schippen?","vo":"Um sechs Uhr morgens Schnee schippen?"},
+  {"type":"compare","title":"Selbst oder *FOB*?","left":{"label":"Selbst","icon":"warning","text":"Früh raus, Haftungsrisiko, Streugut kaufen"},"right":{"label":"FOB","icon":"check","text":"Wir räumen & streuen zuverlässig"},"vo":"Selbst machen heißt: früh raus, Haftungsrisiko und Streugut kaufen.","items":[{"vo":"Mit FOB räumen und streuen wir zuverlässig für Sie."}]},
+  {"type":"list","style":"check","title":"Für *alle*","vo":"Ob für","items":[
+    {"text":"Ihr Eigenheim","vo":"Ihr Eigenheim,"},
+    {"text":"Wohnanlagen","vo":"die Wohnanlage"},
+    {"text":"Gewerbeflächen","vo":"oder Gewerbeflächen – in München und Umgebung."}]},
+  {"type":"cta","title":"Winterdienst *jetzt* anfragen","vo":"FOB Winterdienst – jetzt anfragen","items":[{"vo":"auf fob-fm punkt de."}]}]}

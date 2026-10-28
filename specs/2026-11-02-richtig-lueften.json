@@ -1,0 +1,7 @@
+{"slug":"2026-11-02-richtig-lueften","topic":"Schimmel vermeiden: richtig lüften im Winter","format":"quiz",
+ "style":{"theme":"blue","transition":"slice","bg":"dots","entrance":"wipe"},
+ "scenes":[
+  {"type":"hook","chip":"Winter-Tipp","icon":"mold","title":"Schimmel im *Winter*?","sub":"Oft liegt's am Lüften","vo":"Schimmel im Winter?","items":[{"vo":"Oft liegt's am falschen Lüften."}]},
+  {"type":"quiz","question":"Wie lüften Sie *richtig*?","options":["Fenster dauerhaft kippen","5–10 Min. stoßlüften","Gar nicht – spart Heizung"],"answer":1,"vo":"Quiz: Wie lüften Sie richtig?","items":[{"vo":"Richtig: mehrmals täglich fünf bis zehn Minuten stoßlüften!"}]},
+  {"type":"tip","title":"Profi-Tipp","icon":"window","text":"Gekippte Fenster kühlen die Wände aus – Schimmelgefahr!","vo":"Gekippte Fenster kühlen die Wände aus – genau da entsteht Schimmel."},
+  {"type":"cta","variant":"bio","title":"Schimmel entdeckt? *Wir helfen*","vo":"Schimmel schon da? Link in der Bio –","items":[{"vo":"FOB hilft schnell und sauber."}]}]}

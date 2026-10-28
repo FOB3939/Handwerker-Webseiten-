@@ -21,7 +21,20 @@ Nie zweimal hintereinander dasselbe Format.
 
 ## Design (`"style"` in der Spec)
 
-`{"theme": dark|light|blue|gold, "transition": swipe|circle|slice|zoom, "bg": speed|grid|dots|blobs, "entrance": pop|slide|rise|wipe}`
+`{"theme": dark|light|blue|gold|ice, "transition": swipe|circle|slice|zoom|glitch, "bg": speed|grid|dots|blobs|snow, "entrance": pop|slide|rise|wipe|flip}` (`ice` + `snow` passen zu Winterthemen)
+
+## Schluss-Szene (`cta`) – ebenfalls abwechseln
+
+| variant | Wirkung | Felder |
+|---|---|---|
+| *(leer)* `web` | Logo, Titel, große „fob-fm.de“, Badges | `title` |
+| `book` | Kalender mit Haken, Button mit Glanz-Effekt | `title`, `button`, `note` |
+| `follow` | Folgen-Button wird angetippt → „✓ Gefolgt“, @fob.haustechnik | `title`, `handle` |
+| `dm` | Chat: Kundenfrage, Tipp-Punkte, FOB-Antwort | `title`, `ask`, `reply`, `note` |
+| `bio` | Hüpfender Pfeil, riesiges „Link in Bio“, Logo | `title` |
+
+Der Sprechertext der CTA passt zur Variante (z. B. follow: „Folgen Sie FOB für mehr Profi-Tipps“, dm: „Schreiben Sie uns“).
+Nicht zweimal hintereinander dieselbe Variante; höchstens jedes zweite Video endet mit „fob-fm punkt de“.
 
 Jeden Tag eine andere Kombination; theme **und** transition müssen sich vom Vortag (letzte Spec in `specs/`) unterscheiden.
 Titel-Markup: `*Wort*` = Akzentfarbe, `|` = Zeilenumbruch.

@@ -1,0 +1,11 @@
+{"slug":"2026-10-30-heizung-entlueften","topic":"Heizkörper gluckert – richtig entlüften","format":"problem",
+ "style":{"theme":"dark","transition":"swipe","bg":"speed","entrance":"slide"},
+ "scenes":[
+  {"type":"hook","chip":"Problem","icon":"radiator","title":"Heizung *gluckert*?","sub":"Und wird nicht richtig warm?","vo":"Ihre Heizung gluckert?","items":[{"vo":"Und wird nicht richtig warm?"}]},
+  {"type":"list","title":"*Entlüften* – so geht's","vo":"Dann ist Luft im System. So entlüften Sie:","items":[
+    {"text":"Heizung ausschalten","vo":"Heizung ausschalten,"},
+    {"text":"Ventil mit Schlüssel öffnen","vo":"Ventil mit dem Entlüftungsschlüssel öffnen,"},
+    {"text":"Schließen, sobald Wasser kommt","vo":"schließen, sobald Wasser kommt,"},
+    {"text":"Anlagendruck prüfen","vo":"und den Anlagendruck prüfen."}]},
+  {"type":"tip","title":"Profi-Tipp","icon":"thermo","text":"Druck zu niedrig? Wasser nachfüllen lassen – das übernehmen wir!","vo":"Druck zu niedrig? Dann muss Wasser nachgefüllt werden – das übernehmen wir."},
+  {"type":"cta","variant":"follow","title":"Folgen Sie uns|für mehr *Profi-Tipps*","vo":"Folgen Sie FOB für mehr Profi-Tipps","items":[{"vo":"rund ums Haus!"}]}]}

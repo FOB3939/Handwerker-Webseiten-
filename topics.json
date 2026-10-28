@@ -1,5 +1,17 @@
 [
  {
+  "id": "richtig-lueften",
+  "title": "Schimmel vermeiden: richtig lüften im Winter",
+  "cat": "Bad",
+  "done": "2026-11-02"
+ },
+ {
+  "id": "winterdienst-vergleich",
+  "title": "Winterdienst: selbst räumen oder FOB",
+  "cat": "Winterdienst",
+  "done": "2026-11-01"
+ },
+ {
   "id": "spuelkasten-laeuft",
   "title": "Unterputz-Spülkasten läuft ständig nach",
   "cat": "Sanitär",
@@ -18,7 +30,8 @@
  {
   "id": "heizung-gluckert",
   "title": "Heizkörper gluckert und wird nicht warm – richtig entlüften",
-  "cat": "Heizung"
+  "cat": "Heizung",
+  "done": "2026-10-30"
  },
  {
   "id": "heizung-druck",
@@ -83,7 +96,8 @@
  {
   "id": "winterdienst-pflicht",
   "title": "Räum- und Streupflicht im Winter – wer haftet?",
-  "cat": "Winterdienst"
+  "cat": "Winterdienst",
+  "done": "2026-10-29"
  },
  {
   "id": "rohre-frost",
@@ -159,7 +173,8 @@
  {
   "id": "dachrinne",
   "title": "Verstopfte Dachrinne im Herbst – Laub raus, Schäden vermeiden",
-  "cat": "Hausmeister"
+  "cat": "Hausmeister",
+  "done": "2026-10-31"
  },
  {
   "id": "kellerfeuchte",
@@ -199,6 +214,7 @@
  {
   "id": "herbstcheck",
   "title": "Herbst-Check fürs Haus – vor dem Winter erledigen",
-  "cat": "Hausmeister"
+  "cat": "Hausmeister",
+  "done": "2026-10-31"
  }
 ]

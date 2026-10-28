@@ -1,0 +1,7 @@
+{"slug":"2026-10-29-winterdienst-mythen","topic":"Räum- und Streupflicht – Mythen","format":"myth",
+ "style":{"theme":"light","transition":"circle","bg":"blobs","entrance":"pop"},
+ "scenes":[
+  {"type":"hook","chip":"Mythos-Check","icon":"snow","title":"Wer muss *Schnee räumen*?","vo":"Wer muss eigentlich Schnee räumen?"},
+  {"type":"myth","myth":"Bei Glätte haftet immer die Stadt","fact":"Meist haftet der Eigentümer – oder wer laut Vertrag zuständig ist","vo":"Mythos: Bei Glätte haftet immer die Stadt.","items":[{"vo":"Fakt: Meist haftet der Eigentümer – oder wer laut Vertrag zuständig ist."}]},
+  {"type":"myth","myth":"Am Wochenende muss niemand räumen","fact":"Die Pflicht gilt auch an Sonn- und Feiertagen","vo":"Mythos: Am Wochenende muss niemand räumen.","items":[{"vo":"Fakt: Die Pflicht gilt auch an Sonn- und Feiertagen."}]},
+  {"type":"cta","variant":"book","title":"Winterdienst *sichern*","button":"Kostenlos anfragen","note":"unverbindlich · fob-fm.de","vo":"Sichern Sie sich jetzt Ihren Winterdienst mit FOB.","items":[{"vo":"Kostenlos und unverbindlich anfragen!"}]}]}

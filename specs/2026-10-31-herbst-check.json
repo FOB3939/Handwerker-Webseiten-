@@ -1,0 +1,12 @@
+{"slug":"2026-10-31-herbst-check","topic":"Herbst-Check: Haus winterfit machen","format":"checklist",
+ "style":{"theme":"gold","transition":"zoom","bg":"grid","entrance":"flip"},
+ "scenes":[
+  {"type":"hook","chip":"Herbst-Check","icon":"leaf","title":"Ist Ihr Haus *winterfit*?","vo":"Ist Ihr Haus schon winterfit?"},
+  {"type":"list","style":"check","title":"Herbst-*Checkliste*","vo":"Die Checkliste:","items":[
+    {"text":"Dachrinne säubern","vo":"Dachrinne von Laub befreien,"},
+    {"text":"Außenhahn absperren","vo":"Außenwasserhahn absperren,"},
+    {"text":"Heizung warten lassen","vo":"Heizung warten lassen,"},
+    {"text":"Streugut bereitstellen","vo":"und Streugut bereitstellen."}]},
+  {"type":"tip","title":"Wichtig","icon":"warning","text":"Verstopfte Dachrinnen können Fassade und Keller schädigen","vo":"Verstopfte Dachrinnen können im Winter Fassade und Keller schädigen."},
+  {"type":"ba","before":"hedge_before","after":"hedge_after","title":"Hecke & Laub gleich mit","vo":"Hecke und Laub erledigen wir gleich mit –","items":[{"vo":"so sieht das danach aus."}]},
+  {"type":"cta","variant":"dm","title":"Keine Zeit? *Schreiben* Sie uns!","ask":"Machen Sie meinen Herbst-Check?","reply":"Klar – wir erledigen alles!","vo":"Keine Zeit dafür? Schreiben Sie uns einfach –","items":[{"vo":"wir erledigen den Herbst-Check für Sie."}]}]}
