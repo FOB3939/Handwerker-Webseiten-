@@ -124,6 +124,16 @@ html,body{width:1080px;height:1920px;overflow:hidden;background:#000}
 #gbars i{position:absolute;left:0;right:0;mix-blend-mode:screen}
 #bg-snow{inset:0}
 #bg-snow i{position:absolute;border-radius:50%;background:var(--snow);box-shadow:0 0 6px var(--snow)}
+/* step (full-bleed photo / clip) */
+.full{position:absolute;inset:0;overflow:hidden;background:#000}
+.full .ph{position:absolute;inset:-4%;background-size:cover;background-position:center}
+.full .shade{position:absolute;inset:0;background:linear-gradient(180deg,rgba(0,0,0,.55) 0%,rgba(0,0,0,0) 22%,rgba(0,0,0,0) 48%,rgba(0,0,0,.82) 78%,rgba(0,0,0,.9) 100%)}
+.full .leak{position:absolute;top:-20%;bottom:-20%;width:420px;background:linear-gradient(90deg,transparent,rgba(255,214,120,.55),rgba(255,255,255,.35),transparent);transform:skewX(-18deg);mix-blend-mode:screen}
+.snumb{left:60px;top:240px;font-family:Oswald;font-weight:700;font-size:250px;line-height:1;color:transparent;-webkit-text-stroke:6px var(--gold2);text-shadow:0 10px 40px rgba(0,0,0,.5)}
+.schip{left:60px;top:1060px}
+.stt{left:60px;right:60px;top:1150px;font-size:100px;line-height:1;color:#fff;text-shadow:0 6px 24px rgba(0,0,0,.6);white-space:normal}
+.stt b{color:var(--gold2)}
+.frame{position:absolute;inset:26px;border:4px solid rgba(255,255,255,.55);border-radius:18px;pointer-events:none}
 /* cta variants */
 .cbtn{left:140px;right:140px;height:150px;border-radius:80px;display:flex;align-items:center;justify-content:center;gap:24px;font-family:Oswald;font-weight:700;font-size:70px;text-transform:uppercase;overflow:hidden;box-shadow:0 20px 50px rgba(0,0,0,.3)}
 .cbtn .sh{position:absolute;top:0;bottom:0;width:140px;background:linear-gradient(90deg,transparent,rgba(255,255,255,.7),transparent);transform:skewX(-20deg)}
@@ -218,7 +228,7 @@ function enter(el,t,t0,dir=1,big=false){
 }
 
 // ---------- build scenes ----------
-const SC=SPEC.scenes, CU=CUES;
+const SC=SPEC.scenes, CU=CUES, PRE=[];
 const root=$('scenes'), built=[];
 SC.forEach((sc,i)=>{
   const d=document.createElement('div');d.className='scene';root.appendChild(d);
@@ -258,6 +268,13 @@ SC.forEach((sc,i)=>{
     h+=`<div class="a center osw ctitle" data-k="title">${fmt(sc.title||'Der Vergleich')}</div>`;
     const side=(c,x,cls)=>`<div class="a cmp card" data-k="${cls}" style="left:${x}px"><span class="chip ${cls==='L'?'red':'green'}">${esc(c.label)}</span>${icon(c.icon)}<div class="tx">${fmt(c.text)}</div></div>`;
     h+=side(sc.left,60,'L')+side(sc.right,580,'R')+`<div class="a vs" data-k="vs">VS</div>`;
+  }else if(T==='step'){
+    const media=sc.clip?`<div class="ph" data-k="ph"></div>`:`<div class="ph" data-k="ph" style="background-image:url(assets/photos/${sc.photo}.jpg)"></div>`;
+    if(sc.clip){for(let k=1;k<=sc.frames;k++){const im=new Image();im.src=`assets/clips/${sc.clip}/f${String(k).padStart(2,'0')}.jpg`;PRE.push(im)}}
+    h+=`<div class="full" data-k="full">${media}<div class="shade"></div><div class="leak" data-k="leak"></div><div class="frame"></div></div>`;
+    if(sc.n)h+=`<div class="a snumb" data-k="num">${String(sc.n).padStart(2,'0')}</div>`;
+    h+=`<div class="a schip" data-k="chip"><span class="chip ${sc.n?'gold':'red'}">${esc(sc.chip||('Schritt '+sc.n))}</span></div>`;
+    h+=`<div class="a osw stt" data-k="title">${fmt(sc.title)}</div>`;
   }else if(T==='cta'&&sc.variant==='follow'){
     h+=`<img class="a clogo" data-k="logo" src="assets/logo.png" style="left:340px;width:400px;height:400px">`;
     h+=`<div class="a center osw c1" data-k="c1" style="top:770px">${fmt(sc.title||'Folgen Sie uns|für mehr *Profi-Tipps*')}</div>`;
@@ -312,7 +329,7 @@ const CH=[];{let cur=[];CAPS.forEach((w,k)=>{cur.push(w);const brk=/[.,?!:;–]$
   if(brk||k===CAPS.length-1){CH.push(cur);cur=[]}});}
 CH.forEach((c,k)=>{c.s=c[0].start;c.e=k+1<CH.length?Math.min(CH[k+1][0].start,c[c.length-1].end+.6):c[c.length-1].end+.8});
 
-window.render=function(t){
+window.render=async function(t){
   built.forEach(b=>{b.d.style.display=(t>=START[b.i]&&t<sceneEnd(b.i))?'block':'none'});
   // camera
   let sx=0,sy=0,zs=1+.02*Math.sin(t*.7),bl=0;
@@ -389,6 +406,13 @@ window.render=function(t){
       enter(E.title,t,s0+.05,-1,true);enter(E.L,t,s0+.3,-1);
       const rv=IT[0]??s0+1.2;enter(E.R,t,rv,1);
       const kv=pop(t,rv+.15,.4);tf(E.vs,{o:cl(kv*3),s:kv,r:(1-kv)*180});
+    }else if(T==='step'){
+      const d=sceneEnd(b.i)-s0, k=cl((t-s0)/d), dir=(sc.n||0)%2?1:-1;
+      if(sc.clip){const fi=Math.min(sc.frames,1+Math.floor((t-s0)*(sc.fps||15)));E.ph.style.backgroundImage=`url(assets/clips/${sc.clip}/f${String(fi).padStart(2,'0')}.jpg)`}
+      E.ph.style.transform=`scale(${1.18-.12*eo(k)}) translate(${dir*(1-k)*30}px,${(k-.5)*-20}px)`;
+      E.leak.style.left=(-600+eo(p(t,s0+.05,.9))*2400)+'px';
+      if(E.num){const kn=pop(t,s0+.1,.5);tf(E.num,{o:cl(kn*3),s:1.6-.6*kn,x:(1-kn)*-120})}
+      enter(E.chip,t,s0+.25,-1);enter(E.title,t,s0+.35,-1,true);
     }else if(T==='cta'&&sc.variant==='follow'){
       const kl=pop(t,s0+.05,.6);tf(E.logo,{o:cl(kl*3),s:.5+.5*kl,r:(1-kl)*30});
       enter(E.c1,t,s0+.35,1);enter(E.btn,t,s0+.7,-1);
@@ -428,6 +452,7 @@ window.render=function(t){
   let html='';for(const c of CH){if(t>=c.s&&t<c.e){const k=pop(t,c.s,.18);
     html=`<div style="transform:scale(${.7+.3*k});opacity:${cl(k*3)}">`+c.map(w=>`<span class="${t>=w.start-.03?'on':''}">${esc(w.text)}</span>`).join(' ')+'</div>';break}}
   $('caps').innerHTML=html;
+  await Promise.all(PRE.map(im=>im.decode().catch(()=>{})));
 };
 document.fonts.ready.then(()=>render(0));
 </script>

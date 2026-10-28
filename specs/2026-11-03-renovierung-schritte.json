@@ -1,0 +1,11 @@
+{"slug":"2026-11-03-renovierung-schritte","topic":"Renovierung Schritt für Schritt: Boden, Fliesen, Vinyl","format":"steps",
+ "style":{"theme":"dark","transition":"zoom","bg":"speed","entrance":"slide"},
+ "scenes":[
+  {"type":"step","chip":"Unser Projekt","photo":"vinyl","title":"Vom Rohbau zum *Traumraum*","vo":"Vom Rohbau zum fertigen Raum – so arbeiten wir!"},
+  {"type":"step","n":1,"photo":"floor_raw","title":"Boden *ausgleichen*","vo":"Zuerst wird der Boden ausgeglichen."},
+  {"type":"step","n":2,"photo":"foil","title":"Alles sauber *abdecken*","vo":"Dann decken wir alles sauber ab."},
+  {"type":"ba","before":"radiator_before","after":"radiator_after","title":"Heizkörper frisch lackiert","vo":"Der Heizkörper wird frisch lackiert –","items":[{"vo":"wie neu!"}]},
+  {"type":"step","n":3,"photo":"tiles_level","title":"Fliesen mit *Nivelliersystem*","vo":"Fliesen verlegen wir mit Nivelliersystem – perfekt eben."},
+  {"type":"step","n":4,"clip":"tiles","frames":24,"fps":12,"title":"Fliesenspiegel *verfugen*","vo":"Der Fliesenspiegel wird sauber verfugt."},
+  {"type":"step","n":5,"photo":"vinyl","title":"Neuer *Vinylboden*","vo":"Und zum Schluss: neuer Vinylboden."},
+  {"type":"cta","variant":"book","title":"Ihr Projekt ist das *nächste*?","button":"Kostenlos anfragen","note":"unverbindlich · fob-fm.de","vo":"Ihr Projekt ist das nächste?","items":[{"vo":"Jetzt kostenlos und unverbindlich anfragen!"}]}]}

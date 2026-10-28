@@ -15,6 +15,7 @@ Jeden Tag wechseln **Inhaltsformat** und **Design**, damit der Feed abwechslungs
 | `stat` | hook → stat → list(check) → cta |
 | `compare` | hook → compare → tip → cta |
 | `checklist` | hook → list(check, 3–4 Punkte) → cta |
+| `steps` | step(Einstieg) → step 1…n (echte Fotos/Clips) → ba → cta |
 | `beforeafter` | hook(photo) → ba → list(check) → cta (nur mit passenden Fotos) |
 
 Nie zweimal hintereinander dasselbe Format.
@@ -68,11 +69,12 @@ Titel-Markup: `*Wort*` = Akzentfarbe, `|` = Zeilenumbruch.
   * `stat`: `{"value":2000,"prefix":"","suffix":" L","title":"…","sub":"…","vo":"…","items":[{"vo":"Zahl zählt hoch"},{"vo":"sub erscheint"}]}` – nur belegbare Zahlen
   * `myth`: `{"myth":"…","fact":"…","vo":"Mythos: …","items":[{"vo":"Fakt: …"}]}` – Texte max. ~60 Zeichen
   * `quiz`: `{"question":"…","options":["A","B","C"],"answer":1,"vo":"Frage","items":[{"vo":"Richtig: …"}]}` – Optionen max. ~26 Zeichen
+  * `step`: Vollbild-Foto oder Videoclip mit großer Schrittnummer, Lichtstreifen und Kamerafahrt – `{"type":"step","n":1,"photo":"<id>","title":"…","vo":"…"}` oder mit Clip `{"clip":"tiles","frames":24,"fps":12}` (Einzelbilder in `assets/clips/<name>/f01.jpg…`); ohne `n` + `chip` als Einstieg. Ideal für echte Baustellenfotos (Format `steps`).
   * `compare`: `{"title":"…","left":{"label":"…","icon":"…","text":"…"},"right":{…},"vo":"…","items":[{"vo":"rechte Seite erscheint"}]}` – Texte max. ~45 Zeichen
 * Jede Szene und jeder Punkt hat einen eigenen `vo`-Satz; die Animation startet genau, wenn dieser Satz gesprochen wird.
 * Gesamter Sprechertext: **52–62 Wörter** (≈ 27–30 s gesprochen, Video ≈ 30–33 s). Die Website immer als „fob-fm punkt de“ schreiben (Untertitel zeigen „fob-fm.de“).
 * Icons: toilet drop faucet wrench bolt socket paint house leaf snow heatpump radiator thermo euro clock warning check key shower mold window bulb flame broom pipe phone calendar tools
-* Fotos (`assets/photos/<id>.jpg`): sink_before/sink_after (Waschtisch), wc_before/wc_after (Unterputz-Spülkasten/WC), room_before/room_after (Malerarbeiten Zimmer), paint_before/paint_after (Wand grün/Spachteltechnik), facade_before/facade_after (Fassade), hedge_before/hedge_after (Heckenschnitt), courtyard (Wohnanlage/Hausmeister), stairs (Treppenhaus/Boden-Reinigung), siphon (schwarzer Designsiphon), faucet (Armatur-Montage)
+* Fotos (`assets/photos/<id>.jpg`): sink_before/sink_after (Waschtisch), wc_before/wc_after (Unterputz-Spülkasten/WC), room_before/room_after (Malerarbeiten Zimmer), paint_before/paint_after (Wand grün/Spachteltechnik), facade_before/facade_after (Fassade), hedge_before/hedge_after (Heckenschnitt), courtyard (Wohnanlage/Hausmeister), stairs (Treppenhaus/Boden-Reinigung), siphon (schwarzer Designsiphon), faucet (Armatur-Montage), floor_raw (Boden ausgeglichen, Rohzustand), foil (Boden abgedeckt), radiator_before/radiator_after (Rippenheizkörper lackieren), tiles_level (Bodenfliesen mit Nivelliersystem), vinyl (Vinylboden verlegen); Clip: tiles (Fliesenspiegel verfugt)
 
 ## Ablauf je Reel
 
