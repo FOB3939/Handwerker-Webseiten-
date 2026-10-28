@@ -1,0 +1,405 @@
+{
+  "id": "2026-10-28-166",
+  "slug": "bedachung-spenglerei-thiermann-dietramszell",
+  "date": "2026-10-28",
+  "company": {
+    "name": "Bedachung & Spenglerei Thiermann",
+    "owner": null,
+    "trade": "Dachdecker & Spenglerei",
+    "city": "Dietramszell",
+    "address": "Am Dorfbach 11, 83623 Dietramszell-Ascholding",
+    "phone": "01511 1647571",
+    "email": "maik-thiermann@gmx.de",
+    "serviceArea": [
+      "Dietramszell",
+      "Ascholding",
+      "Egling",
+      "Icking",
+      "Geretsried",
+      "Wolfratshausen",
+      "Otterfing"
+    ]
+  },
+  "listings": {
+    "google": {
+      "url": "https://www.google.com/maps/search/?api=1&query=Bedachung%20Spenglerei%20Thiermann%20Am%20Dorfbach%2011%20Dietramszell",
+      "rating": null,
+      "reviews": null,
+      "evidence": "NICHT BELEGT – kein Google-Spiegel mit Bewertungen gefunden. Lead stützt sich auf die öffentlich belegte Freemail maik-thiermann@gmx.de (11880, Eintrag „vom Inhaber bestätigt“). In Maps prüfen, ob ein Eintrag existiert und keine Website hinterlegt ist."
+    },
+    "myhammer": {
+      "url": "https://www.11880.com/suche/dachdecker/wolfratshausen",
+      "rating": null,
+      "reviews": null,
+      "evidence": "Kein MyHammer gefunden – 11880 führt „Bedachung & Spenglerei Thiermann“ (Am Dorfbach 11, 83623 Dietramszell, Tel. (01511) 1647571, E-Mail maik-thiermann@gmx.de) in den Listen Dachdecker Wolfratshausen, Innenausbau Dietramszell und Zimmerei Geretsried/Egling."
+    }
+  },
+  "websiteStatus": "keine eigene Website gefunden",
+  "websiteChecks": [
+    "(1) „Bedachung Spenglerei Thiermann Dietramszell“ mit (blocked_domains: 11880, Gelbe Seiten, Das Örtliche, Telefonbuch, Cylex, meinestadt, Creditreform, Facebook, Instagram, golocal, MyHammer, Northdata, Firmenwissen, WKDB, Yelp, trustlocal, wlw) – nur Verzeichnisse (dachdecker-betriebe.de-Ortslisten Dietramszell, Icking, Otterfing, Wolfratshausen; goyellow); keine eigene Domain",
+    "(2) Domain-Check allowed_domains thiermann-bedachung.de, bedachung-thiermann.de, spenglerei-thiermann.de, thiermann-spenglerei.de, thiermann-dach.de, dach-thiermann.de, thiermann-dietramszell.de, thiermann.de – keine Treffer",
+    "(3) Telefon-/E-Mail-Kombisuche – vom Suchdienst abgelehnt; Nummer und E-Mail nur in 11880-Einträgen gesehen",
+    "(4) Namenssuche „Maik Thiermann“ Dachdecker Spengler mit blocked_domains – keine Treffer zum Betrieb, kein Impressum",
+    "(5) Verzeichnisse: E-Mail ist Freemail (gmx.de), kein Website-Feld in den 11880-Snippets",
+    "Website-Risiko: mittel – Freemail belegt und alle Prüfungen negativ, aber kein Google-Beleg und Telefonsuche nicht möglich"
+  ],
+  "facts": {
+    "services": [
+      "Bedachung",
+      "Spenglerarbeiten",
+      "Flachdach",
+      "Zimmererarbeiten",
+      "Innenausbau"
+    ],
+    "experience": null,
+    "praisedFor": []
+  },
+  "strategy": {
+    "audience": "Hauseigentümer, Landwirte und Bauherren in Dietramszell, Egling, Icking und Geretsried mit Dach-, Flachdach- oder Blecharbeiten",
+    "mainService": "Bedachung und Spenglerei aus einer Hand",
+    "trustSignal": "Kleiner Betrieb in Ascholding, Eintrag vom Inhaber bestätigt, direkt per Handy erreichbar",
+    "conversionGoal": "Dach- oder Spenglerarbeit anfragen – per WhatsApp mit Fotos",
+    "visualConcept": "Isartal-Dächer: Ziegel, Blechkanten und Holz vor Voralpen-Hintergrund – bodenständig und klar"
+  },
+  "sales": {
+    "score": 6,
+    "whyGoodLead": [
+      "Keine eigene Website – nur Verzeichniseinträge mit Handy und GMX-Adresse",
+      "Mobilnummer öffentlich gelistet – WhatsApp-Erstkontakt möglich",
+      "Breites Profil (Dach, Spenglerei, Flachdach, Zimmerei, Innenausbau) lässt sich auf einer Website gut ordnen",
+      "Gewerk Dachdecker/Spengler bisher selten im Bestand"
+    ],
+    "pitch": "Hallo, hier ist … – ich baue Websites für Handwerker im Isartal. Ich habe Ihren Eintrag „Bedachung & Spenglerei Thiermann“ in Ascholding gefunden, aber keine eigene Website. Ich habe unverbindlich einen Entwurf vorbereitet, auf dem Kunden Ihre Dach- und Spenglerarbeiten sehen und direkt per WhatsApp anfragen können – darf ich Ihnen den Link schicken?"
+  },
+  "manualChecks": [
+    "Website-Risiko: mittel – vor Versand in Google Maps prüfen, dass keine Website hinterlegt ist (Grund: Freemail belegt, aber kein Google-Eintrag belegt und Telefonsuche nicht möglich)",
+    "Google-Eintrag in Maps suchen (Existenz, Bewertungen) – bisher kein Beleg",
+    "Inhabername nicht belegt (E-Mail lautet maik-thiermann@gmx.de) – Anrede beim Erstkontakt klären, auf der Seite nicht genannt",
+    "Leistungen nur aus Verzeichniskategorien (Dachdecker, Spengler, Flachdach, Zimmerei, Innenausbau) – Schwerpunkte beim Betrieb bestätigen",
+    "Logo und Projektfotos: nicht gefunden – beim Betrieb anfragen"
+  ],
+  "sources": [
+    {
+      "label": "11880 – Dachdecker Wolfratshausen (Bedachung & Spenglerei Thiermann, gmx-Adresse)",
+      "url": "https://www.11880.com/suche/dachdecker/wolfratshausen"
+    },
+    {
+      "label": "11880 – Innenausbauer Dietramszell (Thiermann, Am Dorfbach 11)",
+      "url": "https://www.11880.com/suche/innenausbau/dietramszell"
+    },
+    {
+      "label": "11880 – Zimmerer Geretsried",
+      "url": "https://www.11880.com/suche/zimmerei/geretsried"
+    },
+    {
+      "label": "dachdecker-betriebe.de – Dachdecker in Dietramszell",
+      "url": "https://www.dachdecker-betriebe.de/Dachdecker/dietramszell"
+    }
+  ],
+  "site": {
+    "theme": "stein",
+    "category": "handwerk",
+    "heroOffer": [
+      "Bedachung",
+      "Spenglerei",
+      "Flachdach",
+      "Zimmerei",
+      "Innenausbau"
+    ],
+    "scene": "facade",
+    "logoIcon": "roof",
+    "logoMark": "BT",
+    "brandName": "Thiermann Bedachung & Spenglerei",
+    "seoTitle": "Dachdecker & Spengler in Dietramszell – Bedachung & Spenglerei Thiermann",
+    "seoDescription": "Bedachung, Spenglerei und Flachdach aus Dietramszell-Ascholding. Für Egling, Icking, Geretsried und Wolfratshausen – jetzt per WhatsApp anfragen.",
+    "nav": [
+      {
+        "label": "Leistungen",
+        "href": "#leistungen"
+      },
+      {
+        "label": "Projekte",
+        "href": "#projekte"
+      },
+      {
+        "label": "Bewertungen",
+        "href": "#bewertungen"
+      },
+      {
+        "label": "Ablauf",
+        "href": "#ablauf"
+      },
+      {
+        "label": "FAQ",
+        "href": "#faq"
+      },
+      {
+        "label": "Kontakt",
+        "href": "#kontakt"
+      }
+    ],
+    "hero": {
+      "eyebrow": "Bedachung & Spenglerei · Dietramszell",
+      "headline": "Dach und Blech aus Ascholding",
+      "sub": "Steildach, Flachdach und Spenglerarbeiten für Dietramszell und das Isartal.",
+      "ctaPrimary": "Dacharbeit anfragen",
+      "ctaSecondary": "Anrufen",
+      "bullets": [
+        "Bedachung und Spenglerei",
+        "Flachdach und Holzarbeiten",
+        "Per Handy und WhatsApp erreichbar"
+      ],
+      "imageLabel": "neu eingedecktes Satteldach mit Blechrinne vor Voralpen-Hügeln"
+    },
+    "badges": [
+      {
+        "title": "Bedachung",
+        "sub": "Steil- und Flachdach"
+      },
+      {
+        "title": "Spenglerei",
+        "sub": "Rinnen & Verwahrungen"
+      },
+      {
+        "title": "Holz",
+        "sub": "Zimmerei & Ausbau"
+      },
+      {
+        "title": "Ascholding",
+        "sub": "Am Dorfbach"
+      }
+    ],
+    "trust": [
+      {
+        "value": "Vor Ort",
+        "label": "Betrieb in Ascholding"
+      },
+      {
+        "value": "5",
+        "label": "Leistungsbereiche"
+      },
+      {
+        "value": "Dach",
+        "label": "Ziegel, Folie, Blech"
+      },
+      {
+        "value": "Mobil",
+        "label": "direkt erreichbar"
+      }
+    ],
+    "servicesIntro": {
+      "headline": "Vom Dachstuhl bis zur Dachrinne",
+      "text": "Wer Dach, Blech und Holz in einer Hand hat, spart Abstimmung zwischen Gewerken. Die Bedachung & Spenglerei Thiermann übernimmt Eindeckung, Flachdach, Spenglerarbeiten und Holzarbeiten am Haus."
+    },
+    "services": [
+      {
+        "title": "Dacheindeckung",
+        "text": "Neue Eindeckung oder Teilsanierung von Steildächern – vom Abdecken bis zum dichten First.",
+        "items": [
+          "Neueindeckung",
+          "Teilsanierung",
+          "Firste & Grate"
+        ]
+      },
+      {
+        "title": "Flachdach",
+        "text": "Flachdächer auf Garagen, Anbauten und Wohnhäusern abdichten oder sanieren.",
+        "items": [
+          "Abdichtung",
+          "Sanierung",
+          "Garagendach"
+        ]
+      },
+      {
+        "title": "Spenglerarbeiten",
+        "text": "Dachrinnen, Fallrohre und Blechverwahrungen, damit Wasser sicher vom Haus wegläuft.",
+        "items": [
+          "Dachrinnen",
+          "Fallrohre",
+          "Verwahrungen"
+        ]
+      },
+      {
+        "title": "Dachreparatur",
+        "text": "Verrutschte Ziegel, undichte Anschlüsse oder Sturmschäden schnell beheben.",
+        "items": [
+          "Sturmschäden",
+          "Undichte Stellen",
+          "Ziegeltausch"
+        ]
+      },
+      {
+        "title": "Zimmererarbeiten",
+        "text": "Holzarbeiten am Dach und rund ums Haus, vom Dachstuhl bis zum Vordach.",
+        "items": [
+          "Dachstuhl",
+          "Vordach",
+          "Holzbau"
+        ]
+      },
+      {
+        "title": "Innenausbau",
+        "text": "Ausbau unterm Dach und im Haus, damit aus Speicherflächen nutzbare Räume werden.",
+        "items": [
+          "Dachgeschoss",
+          "Verkleidungen",
+          "Ausbau"
+        ]
+      }
+    ],
+    "why": {
+      "headline": "Ein Ansprechpartner für Dach, Blech und Holz.",
+      "points": [
+        {
+          "title": "Aus Ascholding",
+          "text": "Kurze Wege nach Dietramszell, Egling, Icking und Geretsried."
+        },
+        {
+          "title": "Weniger Abstimmung",
+          "text": "Eindeckung, Rinne und Holzarbeiten aus einer Hand."
+        },
+        {
+          "title": "Direkter Draht",
+          "text": "Anruf oder WhatsApp genügen – ohne Zentrale."
+        },
+        {
+          "title": "Auch kleine Schäden",
+          "text": "Ein undichter Anschluss wird genauso ernst genommen wie ein neues Dach."
+        }
+      ]
+    },
+    "reviews": {
+      "headline": "Was Kunden sagen",
+      "summary": "Kundenstimmen werden hier eingebunden, sobald sie aus dem Google-Profil übernommen sind.",
+      "highlights": [
+        "Bedachung im Isartal",
+        "Spenglerei und Flachdach",
+        "Direkter Kontakt"
+      ],
+      "source": "Google",
+      "sourceUrl": "https://www.google.com/maps/search/?api=1&query=Bedachung%20Spenglerei%20Thiermann%20Am%20Dorfbach%2011%20Dietramszell",
+      "rating": null,
+      "count": null
+    },
+    "process": {
+      "headline": "Vom Foto zum dichten Dach",
+      "steps": [
+        {
+          "title": "Anfrage",
+          "text": "Fotos vom Dach per WhatsApp schicken oder kurz anrufen."
+        },
+        {
+          "title": "Besichtigung",
+          "text": "Dach, Rinne oder Ausbau werden vor Ort angeschaut."
+        },
+        {
+          "title": "Angebot",
+          "text": "Sie erhalten ein klares Angebot mit Material und Umfang."
+        },
+        {
+          "title": "Ausführung",
+          "text": "Eindecken, abdichten, verblechen – und sauber übergeben."
+        }
+      ]
+    },
+    "gallery": {
+      "headline": "Dächer im Isartal",
+      "text": "Für die Live-Version zeigen wir hier echte Projekte des Betriebs.",
+      "items": [
+        {
+          "title": "Neues Steildach",
+          "photoNeeded": "frisch eingedecktes Ziegeldach"
+        },
+        {
+          "title": "Flachdach",
+          "photoNeeded": "abgedichtetes Garagen- oder Anbaudach"
+        },
+        {
+          "title": "Dachrinne",
+          "photoNeeded": "neue Blechrinne mit Fallrohr"
+        },
+        {
+          "title": "Vordach",
+          "photoNeeded": "Holz-Vordach über einer Haustür"
+        },
+        {
+          "title": "Dachausbau",
+          "photoNeeded": "ausgebautes Dachgeschoss mit Holzverkleidung"
+        }
+      ]
+    },
+    "region": {
+      "headline": "Bedachung für Dietramszell und das Isartal",
+      "text": "Von Ascholding aus in Dietramszell, Egling, Icking, Geretsried, Wolfratshausen und Otterfing unterwegs.",
+      "places": [
+        "Dietramszell",
+        "Ascholding",
+        "Egling",
+        "Icking",
+        "Geretsried",
+        "Wolfratshausen",
+        "Otterfing"
+      ]
+    },
+    "faq": [
+      {
+        "q": "Übernehmen Sie auch kleine Reparaturen?",
+        "a": "Ja. Ein Foto der Stelle per WhatsApp hilft, den Aufwand vorab einzuschätzen."
+      },
+      {
+        "q": "Machen Sie auch Flachdächer?",
+        "a": "Ja, Flachdächer auf Garagen, Anbauten und Wohnhäusern gehören zum Angebot."
+      },
+      {
+        "q": "Kann ich Dach und Dachrinne zusammen beauftragen?",
+        "a": "Ja, Bedachung und Spenglerarbeiten kommen aus einem Betrieb."
+      },
+      {
+        "q": "Arbeiten Sie auch mit Holz?",
+        "a": "Ja, Zimmerer- und Innenausbauarbeiten sind ebenfalls möglich – fragen Sie mit Ihrem Vorhaben an."
+      },
+      {
+        "q": "In welchen Orten sind Sie unterwegs?",
+        "a": "Rund um Dietramszell, etwa in Egling, Icking, Geretsried und Wolfratshausen."
+      }
+    ],
+    "contact": {
+      "headline": "Ihr Dachprojekt – kurz beschreiben, Fotos anhängen",
+      "text": "Sagen Sie, worum es geht: Eindeckung, Flachdach, Rinne, Reparatur oder Ausbau. Fotos helfen bei der ersten Einschätzung.",
+      "topics": [
+        "Dacheindeckung",
+        "Flachdach",
+        "Spenglerarbeiten",
+        "Reparatur",
+        "Zimmerei / Ausbau",
+        "Sonstiges"
+      ],
+      "responseNote": "Besichtigung nach Absprache."
+    },
+    "quote": {
+      "sizeLabel": "Was steht an?",
+      "sizes": [
+        "Reparatur",
+        "Dachrinne / Blech",
+        "Flachdach",
+        "Ganzes Dach"
+      ],
+      "timings": [
+        "Dringend",
+        "In den nächsten Wochen",
+        "In 1–3 Monaten",
+        "Ich plane erst noch"
+      ]
+    },
+    "stickyCta": "Dacharbeit anfragen",
+    "look": {
+      "palette": 2,
+      "font": 6,
+      "hero": 0,
+      "services": 1,
+      "radius": 1,
+      "logo": 0,
+      "intro": 5
+    }
+  }
+}
