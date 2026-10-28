@@ -1,0 +1,27 @@
+{
+  "slug": "2026-10-28-spuelkasten-laeuft",
+  "topic": "Unterputz-Spülkasten läuft ständig nach",
+  "scenes": [
+    {"type": "hook", "chip": "Problem", "icon": "toilet", "title": "Spülkasten läuft ständig?",
+     "sub": "Bis zu 100 Liter Wasser am Tag!",
+     "vo": "Ihr Spülkasten läuft ständig nach?",
+     "items": [{"vo": "Das kann bis zu hundert Liter Wasser am Tag kosten!"}]},
+    {"type": "list", "style": "red", "title": "Die Ursache", "vo": "Meist steckt dahinter:",
+     "items": [
+       {"text": "Verkalkte Ablaufdichtung", "icon": "drop", "vo": "eine verkalkte Ablaufdichtung,"},
+       {"text": "Defektes Füllventil", "icon": "wrench", "vo": "ein defektes Füllventil,"},
+       {"text": "Verstellter Überlauf", "icon": "warning", "vo": "oder ein verstellter Überlauf."}]},
+    {"type": "list", "title": "So geht's", "sub": "In 4 Schritten", "vo": "So geht's:",
+     "items": [
+       {"text": "Drückerplatte abnehmen", "vo": "Drückerplatte abnehmen,"},
+       {"text": "Wasser im Spülkasten abstellen", "vo": "Wasser im Spülkasten abstellen,"},
+       {"text": "Dichtung reinigen oder tauschen", "vo": "Dichtung reinigen oder tauschen,"},
+       {"text": "Füllventil prüfen", "vo": "Füllventil prüfen."}]},
+    {"type": "ba", "before": "wc_before", "after": "wc_after", "title": "Zu alt? Wir erneuern ihn komplett",
+     "vo": "Ist der Spülkasten zu alt,", "items": [{"vo": "erneuern wir ihn komplett – sauber und schnell."}]},
+    {"type": "cta", "vo": "FOB Haustechnik – jetzt kostenlos und unverbindlich anfragen",
+     "items": [{"vo": "auf fob-fm punkt de."}]}
+  ],
+  "caption": "",
+  "hashtags": ""
+}
