@@ -1,0 +1,407 @@
+{
+  "id": "2026-10-28-154",
+  "slug": "ernst-holnburger-fliesenleger-lengdorf",
+  "date": "2026-10-28",
+  "company": {
+    "name": "Ernst Holnburger Fliesenlegermeister",
+    "owner": "Ernst Holnburger",
+    "trade": "Fliesenleger",
+    "city": "Lengdorf",
+    "address": "Am Mühlanger 2, 84435 Lengdorf",
+    "phone": "08083 353",
+    "email": "ernst.holnburger@t-online.de",
+    "serviceArea": [
+      "Lengdorf",
+      "Isen",
+      "Dorfen",
+      "Sankt Wolfgang",
+      "Walpertskirchen",
+      "Erding"
+    ]
+  },
+  "listings": {
+    "google": {
+      "url": "https://www.google.com/maps/search/?api=1&query=Ernst%20Holnburger%20Fliesenleger%20Am%20M%C3%BChlanger%202%20Lengdorf",
+      "rating": null,
+      "reviews": null,
+      "evidence": "NICHT BELEGT – kein Google-Spiegel (firmania/rgv-bayern/trustlocal) gefunden. Annahme stützt sich auf die öffentlich gelistete Freemail-Adresse ernst.holnburger@t-online.de (Hagos-Ofenbauersuche u. a.; in einem Verzeichnis als Ernst.Holmburger@t-online.de). Google-Eintrag in Maps prüfen."
+    },
+    "myhammer": {
+      "url": "https://www.fliesenleger24.com/stadt/lengdorf/profil/ernst-holnburger-fliesenlegermeister/",
+      "rating": null,
+      "reviews": null,
+      "evidence": "Kein MyHammer gefunden – Einträge fliesenleger24 („Ernst Holnburger Fliesenlegermeister“), suchehandwerker.de (0 Bewertungen), fliesenleger.net, Hagos („Kachelofen-Luftheiz.bau“), Stadtbranchenbuch, opendi, GoYellow, branchen-info, muenchen.de: Am Mühlanger 2, 84435 Lengdorf, Tel. 08083 353 (Fax 08083 1602)."
+    }
+  },
+  "websiteStatus": "keine eigene Website gefunden",
+  "websiteChecks": [
+    "(1) „Ernst Holnburger Fliesen Lengdorf“ – nur Verzeichnisse (muenchen.de-Branchenbuch Fliesenleger Erding/Lengdorf); keine eigene Domain",
+    "(2) Domain-Check allowed_domains holnburger.de, fliesen-holnburger.de, holnburger-fliesen.de, fliesenleger-holnburger.de, holnburger-ernst.de, ernst-holnburger.de, holmburger.de, fliesen-holmburger.de – fliesen-holnburger.de gehört zu „Fliesen Holnburger“ in Kinsau (Lkr. Landsberg, eigene Adresse/E-Mail a.holnburger@t-online.de), holnburger.de zu einer Fleischwaren GmbH – beides andere Betriebe, kein Bezug zu Lengdorf",
+    "(3) Telefonsuche „08083 353“/„08083353“ mit blocked_domains (11880, Gelbe Seiten, Das Örtliche, Telefonbuch, Cylex, meinestadt, Creditreform, Facebook, Instagram, golocal, MyHammer, Northdata, Firmenwissen, WKDB, Yelp, trustlocal, wlw) – nur Verzeichnisse (Stadtbranchenbuch, opendi, orte.muenchen.de, branchen-info, finderr, fliesenleger24, GoYellow, bundes-telefonbuch, Hagos), keine Website",
+    "(4) Impressum-Suche „Impressum Ernst Holnburger Fliesenlegermeister Kachelofen Lengdorf Am Mühlanger“ mit blocked_domains – kein eigenes Impressum, nur Verzeichnisse (u. a. firmenABC „Fliesen Holnburger in Lengdorf“, fussbodenleger.org, immobilie.com)",
+    "(5) E-Mail ist Freemail (t-online.de), keine Firmendomain",
+    "Website-Risiko: mittel – alle Prüfungen negativ, Freemail belegt; kein Google-Spiegel gefunden, namensgleicher Fliesenbetrieb mit Website in Kinsau (nicht am Ort)"
+  ],
+  "facts": {
+    "services": [
+      "Fliesenverlegung",
+      "Mosaikarbeiten",
+      "Kachelofen- und Luftheizungsbau"
+    ],
+    "experience": null,
+    "praisedFor": []
+  },
+  "strategy": {
+    "audience": "Hausbesitzer und Bauherren in Lengdorf, Isen, Dorfen und Sankt Wolfgang, die Bad, Küche oder Böden fliesen lassen oder einen Kachelofen planen",
+    "mainService": "Fliesenverlegung im Bad, in der Küche und am Boden",
+    "trustSignal": "Fliesenlegermeister in Lengdorf, zusätzlich Kachelofen- und Luftheizungsbau",
+    "conversionGoal": "Anfrage per E-Mail oder Telefon mit Raumgröße und Fotos",
+    "visualConcept": "Ruhige, handwerkliche Bildsprache: exakte Fugen, Mosaikdetails und die Wärme eines gefliesten Kachelofens"
+  },
+  "sales": {
+    "score": 5,
+    "whyGoodLead": [
+      "Keine eigene Website gefunden – nur Verzeichniseinträge",
+      "Freemail-Adresse (t-online.de) öffentlich gelistet – E-Mail-Erstkontakt möglich",
+      "Zwei Standbeine (Fliesen und Kachelofen) lassen sich auf einer Website gut zeigen",
+      "Ländliche Region um Isen und Dorfen mit vielen Ein- und Mehrfamilienhäusern"
+    ],
+    "pitch": "Grüß Gott Herr Holnburger, ich baue Websites für Handwerksbetriebe im Landkreis Erding. Ihren Fliesenlegerbetrieb in Lengdorf habe ich in mehreren Verzeichnissen gefunden, aber keine eigene Website. Ich habe unverbindlich einen Entwurf vorbereitet, der Ihre Fliesen- und Kachelofenarbeiten zeigt – darf ich Ihnen den Link schicken?"
+  },
+  "manualChecks": [
+    "Website-Risiko: mittel – vor Versand in Google Maps prüfen, dass keine Website hinterlegt ist (Grund: kein Google-Spiegel gefunden; namensgleicher Betrieb „Fliesen Holnburger“ in Kinsau hat fliesen-holnburger.de – nicht verwechseln)",
+    "Google-Eintrag in Maps suchen (Ernst Holnburger, Am Mühlanger 2, Lengdorf) – Existenz, Bewertungen, Website-Feld prüfen",
+    "E-Mail-Schreibweise uneinheitlich: ernst.holnburger@t-online.de (Hagos u. a.) vs. Ernst.Holmburger@t-online.de – vor Versand klären bzw. telefonisch bestätigen",
+    "Nur Festnetz (08083 353) bekannt – kein WhatsApp-Erstkontakt",
+    "„Fliesenlegermeister“ laut Verzeichnisnamen (fliesenleger24, GoYellow); Kachelofen-/Luftheizungsbau laut Hagos – Leistungsumfang beim Betrieb bestätigen",
+    "Verzeichnisdaten teils älter – prüfen, ob der Betrieb noch aktiv ist",
+    "Logo und Projektfotos: nicht gefunden – beim Betrieb anfragen"
+  ],
+  "sources": [
+    {
+      "label": "Hagos – Ernst Holnburger Kachelofen-Luftheiz.bau",
+      "url": "https://www.hagos.de/ofenbauer-suche/ofenbauer/ernst-holnburger-509"
+    },
+    {
+      "label": "fliesenleger24 – Ernst Holnburger Fliesenlegermeister Lengdorf",
+      "url": "https://www.fliesenleger24.com/stadt/lengdorf/profil/ernst-holnburger-fliesenlegermeister/"
+    },
+    {
+      "label": "suchehandwerker.de – Ernst Holnburger Fliesenlegermeister",
+      "url": "https://suchehandwerker.de/betrieb/ernst-holnburger-fliesenlegermeister-140530/"
+    },
+    {
+      "label": "Stadtbranchenbuch Lengdorf – Ernst Holnburger Fliesenleger",
+      "url": "https://lengdorf.stadtbranchenbuch.com/393898.html"
+    },
+    {
+      "label": "muenchen.de – Fliesenleger Lengdorf",
+      "url": "https://www.muenchen.de/service/branchenbuch/erding/lengdorf/F/126.html"
+    }
+  ],
+  "site": {
+    "theme": "aqua",
+    "category": "handwerk",
+    "heroOffer": [
+      "Badfliesen",
+      "Bodenfliesen",
+      "Mosaik",
+      "Kachelöfen",
+      "Ausbesserungen"
+    ],
+    "scene": "bath",
+    "logoIcon": "trowel",
+    "logoMark": "EH",
+    "brandName": "Fliesen Holnburger",
+    "seoTitle": "Fliesenleger in Lengdorf – Ernst Holnburger",
+    "seoDescription": "Fliesen für Bad, Küche und Boden, Mosaikarbeiten und Kachelöfen aus Lengdorf. Jetzt unverbindlich anfragen.",
+    "nav": [
+      {
+        "label": "Leistungen",
+        "href": "#leistungen"
+      },
+      {
+        "label": "Projekte",
+        "href": "#projekte"
+      },
+      {
+        "label": "Bewertungen",
+        "href": "#bewertungen"
+      },
+      {
+        "label": "Ablauf",
+        "href": "#ablauf"
+      },
+      {
+        "label": "FAQ",
+        "href": "#faq"
+      },
+      {
+        "label": "Kontakt",
+        "href": "#kontakt"
+      }
+    ],
+    "hero": {
+      "eyebrow": "Fliesenleger · Lengdorf",
+      "headline": "Fliesenlegermeister in Lengdorf",
+      "sub": "Fliesen, Mosaik und Kachelöfen für Häuser rund um Isen und Dorfen.",
+      "ctaPrimary": "Anfrage senden",
+      "ctaSecondary": "Anrufen",
+      "bullets": [
+        "Fliesenlegermeister vor Ort",
+        "Fliesen und Kachelofenbau",
+        "Per E-Mail und Telefon erreichbar"
+      ],
+      "imageLabel": "frisch gefliestes Bad mit exakten Fugen"
+    },
+    "badges": [
+      {
+        "title": "Fliesen",
+        "sub": "Bad, Küche, Boden"
+      },
+      {
+        "title": "Mosaik",
+        "sub": "feine Details"
+      },
+      {
+        "title": "Kachelofen",
+        "sub": "Ofen- und Luftheizungsbau"
+      },
+      {
+        "title": "Lengdorf",
+        "sub": "Am Mühlanger"
+      }
+    ],
+    "trust": [
+      {
+        "value": "Meister",
+        "label": "Fliesenlegermeister"
+      },
+      {
+        "value": "2",
+        "label": "Standbeine: Fliesen & Ofen"
+      },
+      {
+        "value": "Vor Ort",
+        "label": "Betrieb in Lengdorf"
+      },
+      {
+        "value": "Direkt",
+        "label": "Kontakt ohne Umwege"
+      }
+    ],
+    "servicesIntro": {
+      "headline": "Fliesen und Kachelöfen aus Lengdorf",
+      "text": "Vom neuen Bad bis zum Kachelofen im Wohnzimmer: Fliesen- und Ofenarbeiten kommen hier aus einer Hand."
+    },
+    "services": [
+      {
+        "title": "Badfliesen",
+        "text": "Wände und Böden im Bad neu fliesen – mit sauberen Fugen und dichten Anschlüssen.",
+        "items": [
+          "Wandfliesen",
+          "Duschbereich",
+          "Bodenfliesen"
+        ]
+      },
+      {
+        "title": "Bodenfliesen",
+        "text": "Strapazierfähige Böden für Flur, Küche und Wohnräume, verlegt nach Ihrem Fliesenwunsch.",
+        "items": [
+          "Flur",
+          "Küche",
+          "Wohnräume"
+        ]
+      },
+      {
+        "title": "Küchenfliesen",
+        "text": "Fliesenspiegel und Wandflächen in der Küche, die sich leicht reinigen lassen.",
+        "items": [
+          "Fliesenspiegel",
+          "Arbeitsbereich",
+          "Wandflächen"
+        ]
+      },
+      {
+        "title": "Mosaikarbeiten",
+        "text": "Mosaik setzt Akzente in Dusche, Nische oder Bordüre – mit viel Sorgfalt im Detail.",
+        "items": [
+          "Duschnischen",
+          "Bordüren",
+          "Akzentflächen"
+        ]
+      },
+      {
+        "title": "Kachelöfen",
+        "text": "Kachelofen- und Luftheizungsbau für behagliche Wärme im Wohnraum.",
+        "items": [
+          "Kachelofen",
+          "Luftheizung",
+          "Ofenverkleidung"
+        ]
+      },
+      {
+        "title": "Ausbesserungen",
+        "text": "Gesprungene Fliesen ersetzen und Fugen erneuern, damit Flächen wieder dicht sind.",
+        "items": [
+          "Fliesentausch",
+          "Fugen erneuern",
+          "Silikonfugen"
+        ]
+      }
+    ],
+    "why": {
+      "headline": "Fliesenarbeiten vom Meister aus Lengdorf.",
+      "points": [
+        {
+          "title": "Meisterbetrieb",
+          "text": "Ernst Holnburger führt den Betrieb als Fliesenlegermeister."
+        },
+        {
+          "title": "Fliesen & Ofen",
+          "text": "Bad, Böden und Kachelofen lassen sich mit einem Betrieb planen."
+        },
+        {
+          "title": "Kurze Wege",
+          "text": "Von Lengdorf schnell in Isen, Dorfen, Sankt Wolfgang und Walpertskirchen."
+        },
+        {
+          "title": "Direkter Kontakt",
+          "text": "Anfragen gehen direkt an den Betrieb – per E-Mail oder Telefon."
+        }
+      ]
+    },
+    "reviews": {
+      "headline": "Was Kunden sagen",
+      "summary": "Kundenstimmen werden hier eingebunden, sobald sie aus dem Google-Profil übernommen sind.",
+      "highlights": [
+        "Fliesenleger in Lengdorf",
+        "Fliesen und Kachelofen",
+        "Persönlicher Kontakt"
+      ],
+      "source": "Google",
+      "sourceUrl": "https://www.google.com/maps/search/?api=1&query=Ernst%20Holnburger%20Fliesenleger%20Am%20M%C3%BChlanger%202%20Lengdorf",
+      "rating": null,
+      "count": null
+    },
+    "process": {
+      "headline": "Vom Angebot zur fertigen Fläche",
+      "steps": [
+        {
+          "title": "Anfrage",
+          "text": "Raum, ungefähre Fläche und Fliesenwunsch per E-Mail oder Telefon nennen."
+        },
+        {
+          "title": "Besichtigung",
+          "text": "Untergrund, Maße und Details werden vor Ort angeschaut."
+        },
+        {
+          "title": "Angebot",
+          "text": "Sie erhalten ein Angebot für Material und Verlegung."
+        },
+        {
+          "title": "Verlegung",
+          "text": "Untergrund vorbereiten, fliesen, verfugen – und sauber übergeben."
+        }
+      ]
+    },
+    "gallery": {
+      "headline": "Flächen und Öfen",
+      "text": "Für die Live-Version zeigen wir hier echte Arbeiten des Betriebs.",
+      "items": [
+        {
+          "title": "Neues Bad",
+          "photoNeeded": "frisch gefliestes Bad mit Dusche"
+        },
+        {
+          "title": "Fliesenboden",
+          "photoNeeded": "großformatiger Fliesenboden im Flur"
+        },
+        {
+          "title": "Mosaik",
+          "photoNeeded": "Mosaiknische in der Dusche"
+        },
+        {
+          "title": "Kachelofen",
+          "photoNeeded": "Kachelofen im Wohnzimmer"
+        },
+        {
+          "title": "Küchenspiegel",
+          "photoNeeded": "Fliesenspiegel hinter der Arbeitsplatte"
+        }
+      ]
+    },
+    "region": {
+      "headline": "Fliesenleger für Lengdorf und das östliche Erdinger Land",
+      "text": "Von Lengdorf aus nach Isen, Dorfen, Sankt Wolfgang, Walpertskirchen und Erding.",
+      "places": [
+        "Lengdorf",
+        "Isen",
+        "Dorfen",
+        "Sankt Wolfgang",
+        "Walpertskirchen",
+        "Erding"
+      ]
+    },
+    "faq": [
+      {
+        "q": "Fliesen Sie auch nur ein kleines Bad?",
+        "a": "Ja, auch kleinere Bäder oder einzelne Flächen sind möglich – fragen Sie einfach an."
+      },
+      {
+        "q": "Kann ich vorab Fotos schicken?",
+        "a": "Ja, Fotos und ungefähre Maße per E-Mail helfen für eine erste Einschätzung."
+      },
+      {
+        "q": "Bauen Sie auch Kachelöfen?",
+        "a": "Ja, Kachelofen- und Luftheizungsbau gehört zum Angebot."
+      },
+      {
+        "q": "Werden auch einzelne Fliesen ausgetauscht?",
+        "a": "Kleinere Ausbesserungen wie Fliesentausch oder neue Fugen sind nach Absprache möglich."
+      },
+      {
+        "q": "In welchen Orten arbeiten Sie?",
+        "a": "Rund um Lengdorf – etwa in Isen, Dorfen, Sankt Wolfgang und Walpertskirchen."
+      }
+    ],
+    "contact": {
+      "headline": "Ihr Fliesenprojekt – unverbindlich anfragen",
+      "text": "Beschreiben Sie kurz Raum, ungefähre Fläche und Fliesenwunsch – oder Ihre Idee für einen Kachelofen. Fotos helfen.",
+      "topics": [
+        "Badfliesen",
+        "Bodenfliesen",
+        "Küchenfliesen",
+        "Mosaik",
+        "Kachelofen",
+        "Sonstiges"
+      ],
+      "responseNote": "Besichtigung nach Absprache."
+    },
+    "quote": {
+      "sizeLabel": "Welche Fläche soll gefliest werden?",
+      "sizes": [
+        "Bis 10 m²",
+        "10–30 m²",
+        "Ganzes Bad",
+        "Kachelofen"
+      ],
+      "timings": [
+        "So bald wie möglich",
+        "In den nächsten Wochen",
+        "In 1–3 Monaten",
+        "Ich plane erst noch"
+      ]
+    },
+    "stickyCta": "Anfrage senden",
+    "look": {
+      "palette": 2,
+      "font": 6,
+      "hero": 0,
+      "services": 1,
+      "radius": 1,
+      "logo": 0,
+      "intro": 5
+    }
+  }
+}

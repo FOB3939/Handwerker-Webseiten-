@@ -1,0 +1,409 @@
+{
+  "id": "2026-10-28-153",
+  "slug": "huber-heinrich-schreinerei-erding",
+  "date": "2026-10-28",
+  "company": {
+    "name": "Huber Heinrich Schreinerei",
+    "owner": "Heinrich Huber",
+    "trade": "Schreinerei",
+    "city": "Erding",
+    "address": "Alte Römerstr. 172, 85435 Erding",
+    "phone": "08122 49124",
+    "email": "holzwurm-heini@gmx.de",
+    "serviceArea": [
+      "Erding",
+      "Altenerding",
+      "Klettham",
+      "Langengeisling",
+      "Oberding",
+      "Wörth",
+      "Bockhorn"
+    ]
+  },
+  "listings": {
+    "google": {
+      "url": "https://www.google.com/maps/search/?api=1&query=Huber%20Heinrich%20Schreinerei%20Alte%20R%C3%B6merstr.%20172%20Erding",
+      "rating": null,
+      "reviews": null,
+      "evidence": "NICHT DIREKT BELEGT – firmania.de (Spiegel mit Google-Daten) führt „Huber Heinrich Schreinerei – Tischlerarbeiten in Erding, Alte Römerstr. 172“ (aktualisiert Januar 2023), ohne Website-Feld und ohne Bewertungszahl im Snippet. Annahme stützt sich auf die öffentlich gelistete Freemail-Adresse (holzwurm-heini@gmx.de, tischlerei.biz). Google-Eintrag in Maps prüfen."
+    },
+    "myhammer": {
+      "url": "https://www.tischlerei.biz/erding/heinrich-huber-3915505.html",
+      "rating": null,
+      "reviews": null,
+      "evidence": "Kein MyHammer gefunden – Verzeichniseinträge tischlerei.biz (mit E-Mail holzwurm-heini@gmx.de), oeffnungszeitenbuch.de, branchen-info.net, finde-offen.de, GermanListing, firmania: Alte Römerstr. 172, 85435 Erding, Tel. 08122 49124 (Fax 08122 49134)."
+    }
+  },
+  "websiteStatus": "keine eigene Website gefunden",
+  "websiteChecks": [
+    "(1) „Heinrich Huber Schreinerei Erding Alte Römerstraße“ mit blocked_domains (11880, Gelbe Seiten, Das Örtliche, Telefonbuch, Cylex, meinestadt, Creditreform, Facebook, Instagram, golocal, MyHammer, Northdata, Firmenwissen, WKDB, Yelp, trustlocal, wlw) – nur Verzeichnisse (GermanListing, oeffnungszeitenbuch, branchen-info.net, tischlerei.biz, finde-offen, haendlerschutz); keine eigene Domain, kein Website-Feld",
+    "(2) Domain-Check allowed_domains schreinerei-huber-erding.de, huber-schreinerei.de, schreinerei-huber.de, holzwurm-heini.de, heinrich-huber.de, huber-heinrich.de, schreiner-huber-erding.de, schreinerinnung-erding.de – keine Treffer für den Betrieb; die Schreinerinnung Erding listet andere Huber-Schreinereien (Taufkirchen/Vils mit schreinerei-hubert-huber.com, Kalmhub, Langenpreising), nicht diesen Betrieb",
+    "(3) Telefon-/E-Mail-Suche „holzwurm-heini“ / „08122 49124“ / „0812249124“ – keine Website, nur unabhängige Treffer (Holzwurm KG Österreich u. a.)",
+    "(4) Impressum-Suche „Impressum Inhaber Heinrich Huber Schreinerei Erding“ – kein eigenes Impressum; schreinerei-erding.de gehört laut Impressum der Manfred Woitzik GmbH (Singlding), nicht diesem Betrieb",
+    "(5) E-Mail ist Freemail (gmx.de), keine Firmendomain",
+    "Website-Risiko: mittel – alle Prüfungen negativ, Freemail belegt; Google-Eintrag nur über firmania-Spiegel angedeutet, Bewertungen unbekannt"
+  ],
+  "facts": {
+    "services": [
+      "Schreinerarbeiten",
+      "Tischlerarbeiten",
+      "Möbel"
+    ],
+    "experience": null,
+    "praisedFor": []
+  },
+  "strategy": {
+    "audience": "Hausbesitzer, Wohnungseigentümer und Mieter in Erding und den Ortsteilen, die Einbaumöbel, Türen oder Holzreparaturen von einer Schreinerei vor Ort wollen",
+    "mainService": "Schreinerarbeiten – Möbel nach Maß und Innenausbau aus Holz",
+    "trustSignal": "Eigene Werkstatt an der Alten Römerstraße in Erding, persönlicher Ansprechpartner",
+    "conversionGoal": "Anfrage per E-Mail oder Telefon mit Maßen und Fotos",
+    "visualConcept": "Warme Werkstattatmosphäre: Holzmaserung, Hobelspäne, präzise Kanten und geölte Oberflächen"
+  },
+  "sales": {
+    "score": 5,
+    "whyGoodLead": [
+      "Keine eigene Website gefunden – nur Verzeichniseinträge",
+      "Freemail-Adresse (gmx.de) öffentlich gelistet – E-Mail-Erstkontakt möglich",
+      "Schreiner-Gewerk ist bisher selten unter den Leads",
+      "Erding wächst stark – Nachfrage nach Einbaumöbeln und Innenausbau"
+    ],
+    "pitch": "Grüß Gott Herr Huber, ich baue Websites für Handwerksbetriebe im Landkreis Erding. Ihre Schreinerei an der Alten Römerstraße habe ich in mehreren Verzeichnissen gefunden, aber keine eigene Website. Ich habe unverbindlich einen Entwurf vorbereitet, auf dem Kunden Ihre Arbeiten sehen und direkt anfragen können – darf ich Ihnen den Link schicken?"
+  },
+  "manualChecks": [
+    "Website-Risiko: mittel – vor Versand in Google Maps prüfen, dass keine Website hinterlegt ist (Grund: Google-Eintrag nur über firmania-Spiegel angedeutet, Bewertungen unbekannt; Annahme über Freemail)",
+    "Google-Eintrag in Maps suchen (Huber Heinrich Schreinerei, Alte Römerstr. 172, Erding) – Existenz, Bewertungen, Website-Feld prüfen",
+    "Inhaber „Heinrich Huber“ nur aus dem Firmennamen abgeleitet – kein Impressum gefunden; Anrede beim Erstkontakt bestätigen",
+    "Nur Festnetz (08122 49124) bekannt – Erstkontakt per E-Mail (holzwurm-heini@gmx.de) oder Telefon, kein WhatsApp",
+    "Verzeichnisse ordnen den Betrieb teils als Tischlerei, teils als Zimmermann oder Möbel ein – Leistungsschwerpunkt (Möbel, Türen, Innenausbau) beim Betrieb bestätigen",
+    "Verzeichnisdaten teils älter (firmania 2023) – prüfen, ob der Betrieb noch aktiv ist",
+    "Logo und Projektfotos: nicht gefunden – beim Betrieb anfragen"
+  ],
+  "sources": [
+    {
+      "label": "tischlerei.biz – Huber Heinrich Schreinerei Erding (mit E-Mail)",
+      "url": "https://www.tischlerei.biz/erding/heinrich-huber-3915505.html"
+    },
+    {
+      "label": "firmania – Huber Heinrich Schreinerei, Alte Römerstr. 172, Erding",
+      "url": "https://firmania.de/erding/huber-heinrich-schreinerei-2813380"
+    },
+    {
+      "label": "oeffnungszeitenbuch – Heinrich Huber Schreinerei Erding",
+      "url": "https://www.oeffnungszeitenbuch.de/filiale/Erding-Heinrich%2520Huber%2520Schreinerei-1646936F.html"
+    },
+    {
+      "label": "branchen-info.net – Huber Heinrich Schreinerei Erding",
+      "url": "https://erding.branchen-info.net/fp_1805233.php"
+    },
+    {
+      "label": "GermanListing – Huber Heinrich Schreinerei",
+      "url": "https://www.germanlisting.com/huberheinrichschreinerei"
+    }
+  ],
+  "site": {
+    "theme": "werk",
+    "category": "handwerk",
+    "heroOffer": [
+      "Möbel nach Maß",
+      "Einbauschränke",
+      "Innentüren",
+      "Innenausbau",
+      "Reparaturen"
+    ],
+    "scene": "kitchen",
+    "logoIcon": "cabinet",
+    "logoMark": "HH",
+    "brandName": "Schreinerei Huber",
+    "seoTitle": "Schreinerei in Erding – Huber Heinrich Schreinerei",
+    "seoDescription": "Möbel nach Maß, Einbauschränke, Türen und Holzreparaturen aus der Werkstatt in Erding. Jetzt unverbindlich anfragen.",
+    "nav": [
+      {
+        "label": "Leistungen",
+        "href": "#leistungen"
+      },
+      {
+        "label": "Projekte",
+        "href": "#projekte"
+      },
+      {
+        "label": "Bewertungen",
+        "href": "#bewertungen"
+      },
+      {
+        "label": "Ablauf",
+        "href": "#ablauf"
+      },
+      {
+        "label": "FAQ",
+        "href": "#faq"
+      },
+      {
+        "label": "Kontakt",
+        "href": "#kontakt"
+      }
+    ],
+    "hero": {
+      "eyebrow": "Schreinerei · Erding",
+      "headline": "Schreinerei Huber in Erding",
+      "sub": "Möbel, Schränke und Türen aus Holz – gefertigt an der Alten Römerstraße.",
+      "ctaPrimary": "Anfrage senden",
+      "ctaSecondary": "Anrufen",
+      "bullets": [
+        "Werkstatt in Erding",
+        "Maßarbeit aus Holz",
+        "Per E-Mail und Telefon erreichbar"
+      ],
+      "imageLabel": "Schreinerwerkstatt mit Hobelbank und frisch geöltem Holz"
+    },
+    "badges": [
+      {
+        "title": "Schreinerei",
+        "sub": "Werkstatt in Erding"
+      },
+      {
+        "title": "Maßanfertigung",
+        "sub": "passend für Ihren Raum"
+      },
+      {
+        "title": "Holz",
+        "sub": "Möbel, Türen, Ausbau"
+      },
+      {
+        "title": "Erding",
+        "sub": "Alte Römerstraße"
+      }
+    ],
+    "trust": [
+      {
+        "value": "Vor Ort",
+        "label": "Werkstatt in Erding"
+      },
+      {
+        "value": "Maß",
+        "label": "statt Möbel von der Stange"
+      },
+      {
+        "value": "Holz",
+        "label": "Möbel, Türen, Ausbau"
+      },
+      {
+        "value": "Direkt",
+        "label": "Anfrage ohne Umwege"
+      }
+    ],
+    "servicesIntro": {
+      "headline": "Was in der Werkstatt entsteht",
+      "text": "Ob Nische unter der Dachschräge oder knarzende Tür: Eine Schreinerei passt Holz genau an Ihren Raum an."
+    },
+    "services": [
+      {
+        "title": "Möbel nach Maß",
+        "text": "Regale, Sideboards und Tische, die exakt in Ihren Raum passen – geplant nach Ihren Maßen.",
+        "items": [
+          "Regale",
+          "Sideboards",
+          "Tische"
+        ]
+      },
+      {
+        "title": "Einbauschränke",
+        "text": "Schränke für Dachschrägen, Nischen und Flure nutzen jeden Zentimeter Stauraum.",
+        "items": [
+          "Dachschrägen",
+          "Nischen",
+          "Garderoben"
+        ]
+      },
+      {
+        "title": "Innentüren",
+        "text": "Neue Zimmertüren einbauen oder bestehende Türen anpassen, damit sie wieder sauber schließen.",
+        "items": [
+          "Türen einbauen",
+          "Türen anpassen",
+          "Zargen"
+        ]
+      },
+      {
+        "title": "Innenausbau",
+        "text": "Verkleidungen, Abdeckungen und Holzelemente für Wohnräume und Treppenhaus.",
+        "items": [
+          "Verkleidungen",
+          "Fensterbänke",
+          "Abdeckungen"
+        ]
+      },
+      {
+        "title": "Reparaturen",
+        "text": "Lose Scharniere, beschädigte Fronten oder klemmende Schubladen werden instand gesetzt.",
+        "items": [
+          "Möbelreparatur",
+          "Beschläge",
+          "Schubladen"
+        ]
+      },
+      {
+        "title": "Holzarbeiten",
+        "text": "Kleinere Tischler- und Holzarbeiten rund ums Haus nach Absprache.",
+        "items": [
+          "Kleinaufträge",
+          "Zuschnitt",
+          "Montage"
+        ]
+      }
+    ],
+    "why": {
+      "headline": "Holzarbeiten aus einer Werkstatt in Erding.",
+      "points": [
+        {
+          "title": "Kurze Wege",
+          "text": "Die Werkstatt liegt in Erding – schnell in Altenerding, Klettham und Langengeisling."
+        },
+        {
+          "title": "Passgenau",
+          "text": "Maßanfertigung nutzt Ecken und Schrägen, die Fertigmöbel leer lassen."
+        },
+        {
+          "title": "Ein Ansprechpartner",
+          "text": "Von der Anfrage bis zur Montage sprechen Sie mit dem Betrieb selbst."
+        },
+        {
+          "title": "Auch Kleines",
+          "text": "Neben neuen Möbeln gehören Anpassungen und Reparaturen dazu."
+        }
+      ]
+    },
+    "reviews": {
+      "headline": "Was Kunden sagen",
+      "summary": "Kundenstimmen werden hier eingebunden, sobald sie aus dem Google-Profil übernommen sind.",
+      "highlights": [
+        "Schreinerei in Erding",
+        "Maßarbeit aus Holz",
+        "Persönlicher Kontakt"
+      ],
+      "source": "Google",
+      "sourceUrl": "https://www.google.com/maps/search/?api=1&query=Huber%20Heinrich%20Schreinerei%20Alte%20R%C3%B6merstr.%20172%20Erding",
+      "rating": null,
+      "count": null
+    },
+    "process": {
+      "headline": "So entsteht Ihr Möbelstück",
+      "steps": [
+        {
+          "title": "Anfrage",
+          "text": "Schicken Sie Maße, eine Skizze oder Fotos per E-Mail – oder rufen Sie an."
+        },
+        {
+          "title": "Aufmaß",
+          "text": "Vor Ort werden Maße, Holzart und Details besprochen."
+        },
+        {
+          "title": "Angebot",
+          "text": "Sie erhalten ein Angebot für Fertigung und Montage."
+        },
+        {
+          "title": "Fertigung & Montage",
+          "text": "Das Stück entsteht in der Werkstatt und wird bei Ihnen eingebaut."
+        }
+      ]
+    },
+    "gallery": {
+      "headline": "Aus der Werkstatt",
+      "text": "Für die Live-Version zeigen wir hier echte Arbeiten des Betriebs.",
+      "items": [
+        {
+          "title": "Einbauschrank",
+          "photoNeeded": "Einbauschrank unter einer Dachschräge"
+        },
+        {
+          "title": "Regalwand",
+          "photoNeeded": "Regalwand aus Holz im Wohnzimmer"
+        },
+        {
+          "title": "Innentür",
+          "photoNeeded": "neu eingebaute Holz-Innentür mit Zarge"
+        },
+        {
+          "title": "Garderobe",
+          "photoNeeded": "maßgefertigte Garderobe im Flur"
+        },
+        {
+          "title": "Werkstatt",
+          "photoNeeded": "Hobelbank und Werkzeug in der Schreinerei"
+        }
+      ]
+    },
+    "region": {
+      "headline": "Schreinerarbeiten für Erding und Umgebung",
+      "text": "Von der Alten Römerstraße aus nach Altenerding, Klettham, Langengeisling, Oberding, Wörth und Bockhorn.",
+      "places": [
+        "Erding",
+        "Altenerding",
+        "Klettham",
+        "Langengeisling",
+        "Oberding",
+        "Wörth",
+        "Bockhorn"
+      ]
+    },
+    "faq": [
+      {
+        "q": "Fertigen Sie auch einzelne Möbelstücke?",
+        "a": "Ja, auch einzelne Regale oder Schränke nach Maß sind möglich – fragen Sie einfach an."
+      },
+      {
+        "q": "Kann ich vorab Maße und Fotos schicken?",
+        "a": "Ja, Fotos, Maße oder eine Skizze per E-Mail helfen für eine erste Einschätzung."
+      },
+      {
+        "q": "Übernehmen Sie auch Reparaturen?",
+        "a": "Kleinere Reparaturen an Möbeln, Türen und Beschlägen gehören nach Absprache dazu."
+      },
+      {
+        "q": "Wird das Möbelstück auch eingebaut?",
+        "a": "Ja, Einbaumöbel und Türen werden vor Ort montiert."
+      },
+      {
+        "q": "Arbeiten Sie auch außerhalb von Erding?",
+        "a": "Ja, im Umkreis von Erding – zum Beispiel in Oberding, Wörth oder Bockhorn."
+      }
+    ],
+    "contact": {
+      "headline": "Ihr Holzprojekt – unverbindlich anfragen",
+      "text": "Beschreiben Sie kurz, was entstehen soll: Raum, ungefähre Maße und Holzwunsch. Fotos oder eine Skizze helfen.",
+      "topics": [
+        "Möbel nach Maß",
+        "Einbauschrank",
+        "Innentüren",
+        "Innenausbau",
+        "Reparatur",
+        "Sonstiges"
+      ],
+      "responseNote": "Aufmaß vor Ort nach Absprache."
+    },
+    "quote": {
+      "sizeLabel": "Was soll gefertigt werden?",
+      "sizes": [
+        "Einzelnes Möbel",
+        "Einbauschrank",
+        "Türen",
+        "Mehrere Räume"
+      ],
+      "timings": [
+        "So bald wie möglich",
+        "In den nächsten Wochen",
+        "In 1–3 Monaten",
+        "Ich plane erst noch"
+      ]
+    },
+    "stickyCta": "Anfrage senden",
+    "look": {
+      "palette": 2,
+      "font": 6,
+      "hero": 0,
+      "services": 1,
+      "radius": 1,
+      "logo": 0,
+      "intro": 5
+    }
+  }
+}
