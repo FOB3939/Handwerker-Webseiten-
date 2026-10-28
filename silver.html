@@ -1,0 +1,90 @@
+<!doctype html>
+<html lang="de">
+<head>
+<meta charset="utf-8">
+<style>
+@font-face{font-family:Montserrat;font-weight:600;src:url(assets/fonts/montserrat-latin-600-normal.woff2)}
+@font-face{font-family:Montserrat;font-weight:800;src:url(assets/fonts/montserrat-latin-800-normal.woff2)}
+:root{--bl:#3D7BFF;--bl2:#7FB0FF}
+*{box-sizing:border-box;margin:0;padding:0}
+html,body{width:1080px;height:1920px;overflow:hidden;background:#000}
+#stage{position:relative;width:1080px;height:1920px;overflow:hidden;font-family:Montserrat,sans-serif;color:#fff;background:#000}
+.shot{position:absolute;inset:0;display:none;overflow:hidden}
+.cover{position:absolute;top:0;height:1920px;width:auto;max-width:none}
+.bg{position:absolute;inset:-80px;background-size:cover;background-position:center;filter:blur(36px) brightness(.4)}
+.fit{position:absolute;left:0;width:1080px}
+.shade{position:absolute;inset:0;background:linear-gradient(180deg,rgba(0,0,0,.65) 0%,rgba(0,0,0,0) 28%,rgba(0,0,0,0) 58%,rgba(0,0,0,.7) 85%,rgba(0,0,0,.85) 100%)}
+#title{position:absolute;left:70px;right:70px;top:300px;text-align:center;z-index:10}
+#title .k{display:inline-block;font:600 34px Montserrat;letter-spacing:.32em;text-transform:uppercase;color:var(--bl2);margin-bottom:18px}
+#title .h{font:800 92px Montserrat;line-height:1.02;text-transform:uppercase;text-shadow:0 8px 34px rgba(0,0,0,.7)}
+#title .h b{color:var(--bl2)}
+#bar{position:absolute;left:470px;width:140px;height:6px;top:282px;background:var(--bl);border-radius:3px;z-index:10;box-shadow:0 0 18px var(--bl)}
+#logoW{position:absolute;inset:0;z-index:12;display:none;background:radial-gradient(ellipse at 50% 45%,rgba(10,16,40,.55),rgba(0,0,0,.92) 72%)}
+#logo{position:absolute;left:90px;width:900px;top:640px}
+#tag{position:absolute;left:60px;right:60px;top:1060px;text-align:center;font:800 64px Montserrat;text-transform:uppercase;line-height:1.1}
+#tag b{color:var(--bl2)}
+#cta{position:absolute;left:0;right:0;top:1230px;text-align:center}
+#cta span{display:inline-block;font:800 56px Montserrat;text-transform:uppercase;padding:18px 54px;border-radius:70px;background:var(--bl);box-shadow:0 0 40px rgba(61,123,255,.7)}
+#beams{position:absolute;inset:0;z-index:2;pointer-events:none;mix-blend-mode:screen}
+#caps{position:absolute;left:60px;right:60px;top:1500px;text-align:center;z-index:20}
+#caps div{display:inline-block;background:rgba(0,0,0,.78);border:2px solid rgba(127,176,255,.35);border-radius:18px;padding:12px 30px;font:800 54px Montserrat;line-height:1.18}
+#caps span.on{color:var(--bl2)}
+#flash{position:absolute;inset:0;background:#fff;z-index:30;opacity:0}
+#prog{position:absolute;left:0;top:0;height:8px;background:var(--bl);z-index:31;box-shadow:0 0 12px var(--bl)}
+</style>
+<script>document.write('<script src="'+(new URLSearchParams(location.search).get('data')||'data.js')+'"><\/script>')</script>
+</head>
+<body>
+<div id="stage"><div id="shots"></div><canvas id="beams" width="1080" height="1920"></canvas>
+<div id="bar"></div><div id="title"><div class="k" id="tk"></div><div class="h" id="th"></div></div>
+<div id="logoW"><img id="logo" src="jobs/silver/img/logo_t.png"><div id="tag">Hier wird dein<br><b>Sound groß</b></div><div id="cta"><span>Jetzt anfragen</span></div></div>
+<div id="caps"></div><div id="flash"></div><div id="prog"></div></div>
+<script>
+const $=id=>document.getElementById(id);
+const cl=(x,a=0,b=1)=>Math.min(b,Math.max(a,x));
+const p=(t,a,d)=>cl((t-a)/d);
+const eo=x=>1-Math.pow(1-x,3);
+const io=x=>x<.5?4*x*x*x:1-Math.pow(-2*x+2,3)/2;
+const back=x=>{const c=1.7;return 1+(c+1)*Math.pow(x-1,3)+c*Math.pow(x-1,2)};
+const esc=s=>String(s).replace(/&/g,'&amp;').replace(/</g,'&lt;');
+const S=SHOTS, T=TOTAL;
+S.forEach((s,i)=>{const d=document.createElement('div');d.className='shot';
+  d.innerHTML=s.mode==='fit'?`<div class="bg" style="background-image:url(jobs/silver/img/${s.img}.jpg)"></div><img class="fit" src="jobs/silver/img/${s.img}.jpg" style="top:${s.top||560}px"><div class="shade"></div>`
+    :`<img class="cover" src="jobs/silver/img/${s.img}.jpg"><div class="shade"></div>`;
+  $('shots').appendChild(d);s.el=d;s.im=d.querySelector('img:last-of-type')});
+const cv=$('beams'),ctx=cv.getContext('2d');
+const CH=[];{let cur=[];CAPS.forEach((w,k)=>{cur.push(w);const brk=/[.,?!:;–]$/.test(w.text)||cur.length>=4||cur.map(x=>x.text).join(' ').length>24;if(brk||k===CAPS.length-1){CH.push(cur);cur=[]}});}
+CH.forEach((c,k)=>{c.s=c[0].start;c.e=k+1<CH.length?Math.min(CH[k+1][0].start,c[c.length-1].end+.5):c[c.length-1].end+.8});
+window.render=function(t){
+  let cur=null;S.forEach((s,i)=>{const on=t>=s.t0&&t<s.t1;s.el.style.display=on?'block':'none';if(on)cur=s});
+  if(cur){const k=io(p(t,cur.t0,cur.t1-cur.t0));
+    if(cur.mode==='fit'){cur.im.style.transform=`scale(${1.08+.12*k})`}
+    else{// cover pan: image 3412px wide; travel across a window of it
+      const W=1920*1672/941, a=cur.from??.2, b=cur.to??.6, z=cur.zoom?1+.08*k:1;
+      const x=-(W-1080)*(a+(b-a)*k);cur.im.style.left=x+'px';cur.im.style.transform=`scale(${z})`;cur.im.style.transformOrigin=`${-x+540}px 960px`}}
+  // cut flash on every shot start
+  let fl=0;S.forEach(s=>{if(t>=s.t0&&t<s.t0+.3&&s.t0>0)fl+=.35*Math.exp(-(t-s.t0)*14)});$('flash').style.opacity=cl(fl);
+  // light beams (stage look)
+  ctx.clearRect(0,0,1080,1920);
+  if(!(t>=END)){for(let i=0;i<3;i++){const a=Math.sin(t*.6+i*2.1)*.35;const x0=180+i*360;ctx.save();ctx.translate(x0,-40);ctx.rotate(a);
+    const g=ctx.createLinearGradient(0,0,0,1500);g.addColorStop(0,'rgba(127,176,255,.22)');g.addColorStop(1,'rgba(127,176,255,0)');
+    ctx.fillStyle=g;ctx.beginPath();ctx.moveTo(-18,0);ctx.lineTo(18,0);ctx.lineTo(220,1500);ctx.lineTo(-220,1500);ctx.fill();ctx.restore()}}
+  // segment titles
+  let seg=null;for(const g of SEGS)if(t>=g.t0&&t<g.t1)seg=g;
+  if(seg&&seg.h){$('tk').textContent=seg.k||'';$('th').innerHTML=seg.h;const k=eo(p(t,seg.t0+.1,.5));const out=p(t,seg.t1-.25,.25);
+    $('title').style.opacity=k*(1-out);$('title').style.transform=`translateY(${(1-k)*50}px)`;$('bar').style.opacity=k*(1-out);$('bar').style.transform=`scaleX(${k})`}
+  else{$('title').style.opacity=0;$('bar').style.opacity=0}
+  // logo reveals
+  const lv=LOGOS.find(l=>t>=l[0]&&t<l[1]);$('logoW').style.display=lv?'block':'none';
+  if(lv){const k=back(p(t,lv[0],.6));$('logo').style.opacity=cl(p(t,lv[0],.25));$('logo').style.transform=`scale(${.8+.2*k})`;
+    const fin=lv[2];$('tag').style.display=$('cta').style.display=fin?'block':'none';$('logo').style.top=fin?'560px':'760px';
+    if(fin){const k2=eo(p(t,lv[0]+.6,.5));$('tag').style.opacity=k2;$('tag').style.transform=`translateY(${(1-k2)*40}px)`;
+      const k3=back(p(t,CTA,.45));$('cta').style.opacity=cl(p(t,CTA,.15));$('cta').style.transform=`scale(${(.7+.3*k3)*(t>CTA+.6?1+.03*Math.sin((t-CTA)*5):1)})`}}
+  $('prog').style.width=(cl(t/T)*100)+'%';
+  let html='';for(const c of CH){if(t>=c.s&&t<c.e){const k=back(p(t,c.s,.18));html=`<div style="transform:scale(${.8+.2*k});opacity:${cl(p(t,c.s,.08))}">`+c.map(w=>`<span class="${t>=w.start-.03?'on':''}">${esc(w.text)}</span>`).join(' ')+'</div>';break}}
+  $('caps').innerHTML=lv&&lv[2]?'':html;
+};
+window.addEventListener('load',()=>document.fonts.ready.then(()=>render(0)));
+</script>
+</body>
+</html>
