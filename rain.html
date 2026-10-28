@@ -1,0 +1,246 @@
+<!doctype html>
+<html lang="de">
+<head>
+<meta charset="utf-8">
+<style>
+@font-face{font-family:Oswald;font-weight:700;src:url(assets/fonts/oswald-latin-700-normal.woff2)}
+@font-face{font-family:Montserrat;font-weight:600;src:url(assets/fonts/montserrat-latin-600-normal.woff2)}
+@font-face{font-family:Montserrat;font-weight:800;src:url(assets/fonts/montserrat-latin-800-normal.woff2)}
+*{box-sizing:border-box;margin:0;padding:0}
+html,body{width:1080px;height:1920px;overflow:hidden;background:#000}
+#stage{position:relative;width:1080px;height:1920px;overflow:hidden;font-family:Montserrat,sans-serif;color:#fff;background:linear-gradient(180deg,#1b2633 0%,#0d141c 100%)}
+#cam{position:absolute;inset:0;transform-origin:50% 45%}
+.scene{position:absolute;inset:0;display:none}
+.a{position:absolute}
+.c{left:40px;right:40px;text-align:center}
+.osw{font-family:Oswald;font-weight:700;text-transform:uppercase}
+.chip{display:inline-block;font-family:Oswald;font-weight:700;font-size:40px;text-transform:uppercase;padding:4px 24px;border-radius:40px}
+canvas{position:absolute;inset:0}
+#label{position:absolute;left:0;right:0;top:120px;text-align:center;z-index:30}
+#label span{font:600 28px Montserrat;letter-spacing:.06em;text-transform:uppercase;background:rgba(0,0,0,.55);border:2px solid rgba(255,255,255,.35);padding:6px 18px;border-radius:30px}
+#caps{position:absolute;left:50px;right:50px;top:1460px;text-align:center;z-index:25}
+#caps div{display:inline-block;background:rgba(10,14,20,.86);border-radius:22px;padding:12px 30px;font:800 56px Montserrat;line-height:1.18}
+#caps span.on{color:#7cc8ff}
+.title{font-size:150px;line-height:.95;text-shadow:0 10px 40px rgba(0,0,0,.6)}
+.title b{color:#7cc8ff}
+.lane{position:absolute;left:30px;right:30px;border-radius:26px;overflow:hidden;background:linear-gradient(180deg,#2a3a4d,#1a2532);border:3px solid rgba(255,255,255,.12)}
+.lname{position:absolute;left:24px;top:20px}
+.watch{position:absolute;left:175px;top:10px;width:100px;height:100px}
+.bar{position:absolute;left:24px;bottom:16px;height:14px;border-radius:7px;background:#7cc8ff;box-shadow:0 0 14px #7cc8ff}
+.barl{position:absolute;left:24px;bottom:34px;font:600 24px Montserrat;color:#bcd3ea}
+#zr{left:0;right:0;top:768px;text-align:center;z-index:5}
+#zr span{font:800 30px Montserrat;background:#F0B92A;color:#121110;padding:6px 20px;border-radius:30px}
+.big{font-size:76px;line-height:1.02}
+.big b{color:#F0B92A}
+.legend{left:60px;right:60px;font:800 44px Montserrat;display:flex;align-items:center;gap:24px}
+.legend i{flex:none;width:70px;height:70px;border-radius:50%;display:flex;align-items:center;justify-content:center;font-style:normal;font-size:40px;background:#7cc8ff;color:#0d141c}
+#final{position:absolute;inset:0;z-index:28;display:none;background:rgba(5,8,12,.78)}
+#flash{position:absolute;inset:0;background:#fff;z-index:40;opacity:0}
+#vhs{position:absolute;inset:0;z-index:35;display:none;background:repeating-linear-gradient(180deg,rgba(255,255,255,.08) 0 3px,transparent 3px 9px)}
+#prog{position:absolute;left:0;top:0;height:10px;background:#7cc8ff;z-index:45}
+#logo{position:absolute;right:30px;top:40px;width:80px;height:80px;border-radius:50%;z-index:30}
+</style>
+<script>document.write('<script src="'+(new URLSearchParams(location.search).get('data')||'data.js')+'"><\/script>')</script>
+</head>
+<body>
+<div id="stage"><div id="cam">
+  <canvas id="cv" width="1080" height="1920"></canvas>
+  <!-- S1 hook -->
+  <div class="scene" id="S1">
+    <svg class="a" id="face" viewBox="0 0 1080 1920" style="inset:0"></svg>
+    <svg class="a" id="duo" viewBox="0 0 1080 1920" style="inset:0"></svg>
+    <div class="a c osw title" id="ht" style="top:330px">Gehen <b>vs.</b><br>Rennen 🌧️</div>
+  </div>
+  <!-- S2/S4/S5 lanes -->
+  <div class="scene" id="LN">
+    <div class="lane" id="laneA" style="top:300px;height:470px"><div class="lname"><span class="chip" style="background:#fff;color:#121110">Gehen</span></div>
+      <svg class="watch" id="wA" viewBox="0 0 100 100"></svg><div class="barl">Zeit im Regen</div><div class="bar" id="barA"></div></div>
+    <div class="lane" id="laneB" style="top:810px;height:470px"><div class="lname"><span class="chip" style="background:#F0B92A;color:#121110">Rennen</span></div>
+      <svg class="watch" id="wB" viewBox="0 0 100 100"></svg><div class="barl">Zeit im Regen</div><div class="bar" id="barB"></div></div>
+    <div class="a" id="zr"><span>⏩ Zeitraffer · gleiche Zeitbasis</span></div>
+    <svg class="a" id="lanesvg" viewBox="0 0 1080 1920" style="inset:0"></svg>
+    <div class="a c osw big" id="win" style="top:1290px;z-index:6"></div>
+  </div>
+  <!-- S3 explanation -->
+  <div class="scene" id="S3">
+    <div class="a c osw big" id="s3t" style="top:250px">Mehr Tempo =<br><b>weniger Zeit im Regen</b></div>
+    <svg class="a" id="expl" viewBox="0 0 1080 1920" style="inset:0"></svg>
+    <div class="a legend" id="lg1" style="top:1180px"><i>↓</i>Von oben: je länger, desto mehr</div>
+    <div class="a legend" id="lg2" style="top:1290px"><i>→</i>Von vorne: abhängig von der Strecke</div>
+  </div>
+</div>
+<div id="final"><div class="a c osw" id="fq" style="top:700px;font-size:120px;line-height:1">Was hättest<br>du gedacht? 🤔</div>
+  <div class="a c" id="fn" style="top:1010px;font:600 34px Montserrat;color:#bcd3ea;line-height:1.35">Vereinfachter Vergleich: gleichmäßiger Regen, kein Wind.<br>Schematische Darstellung – keine Messwerte.</div></div>
+<img id="logo" src="assets/logo.png">
+<div id="label"><span>Animation · schematische Darstellung</span></div>
+<div id="caps"></div><div id="vhs"></div><div id="flash"></div><div id="prog"></div></div>
+<script>
+const $=id=>document.getElementById(id);
+const cl=(x,a=0,b=1)=>Math.min(b,Math.max(a,x));
+const p=(t,a,d)=>cl((t-a)/d);
+const eo=x=>1-Math.pow(1-x,3);
+const back=x=>{const c=2;return 1+(c+1)*Math.pow(x-1,3)+c*Math.pow(x-1,2)};
+const pop=(t,a,d=.45)=>back(p(t,a,d));
+function tf(el,{o,x=0,y=0,s=1,r=0}){if(o!==undefined)el.style.opacity=o;el.style.transform=`translate(${x}px,${y}px) scale(${s}) rotate(${r}deg)`}
+const esc=s=>String(s).replace(/&/g,'&amp;').replace(/</g,'&lt;');
+const C=CUES, T=C.total;
+const NS='http://www.w3.org/2000/svg';
+function el(tag,attrs,parent){const e=document.createElementNS(NS,tag);for(const k in attrs)e.setAttribute(k,attrs[k]);parent&&parent.appendChild(e);return e}
+
+// ---------- person rig (identical look for both) ----------
+function makePerson(parent){
+  const g=el('g',{},parent);
+  const P={g};
+  P.legB=[el('line',{stroke:'#22303f','stroke-width':22,'stroke-linecap':'round'},g),el('line',{stroke:'#22303f','stroke-width':20,'stroke-linecap':'round'},g)];
+  P.armB=[el('line',{stroke:'#2f6ea8','stroke-width':16,'stroke-linecap':'round'},g),el('line',{stroke:'#e8b48a','stroke-width':13,'stroke-linecap':'round'},g)];
+  P.torso=el('line',{stroke:'#3b82c4','stroke-width':40,'stroke-linecap':'round'},g);
+  P.legF=[el('line',{stroke:'#2d3d50','stroke-width':22,'stroke-linecap':'round'},g),el('line',{stroke:'#2d3d50','stroke-width':20,'stroke-linecap':'round'},g)];
+  P.shoeB=el('ellipse',{rx:16,ry:8,fill:'#eee'},g);P.shoeF=el('ellipse',{rx:16,ry:8,fill:'#fff'},g);
+  P.head=el('circle',{r:26,fill:'#e8b48a'},g);P.hair=el('path',{fill:'#3a2a1f'},g);
+  P.armF=[el('line',{stroke:'#3b82c4','stroke-width':16,'stroke-linecap':'round'},g),el('line',{stroke:'#e8b48a','stroke-width':13,'stroke-linecap':'round'},g)];
+  return P;
+}
+const L=(e,a,b)=>{e.setAttribute('x1',a[0]);e.setAttribute('y1',a[1]);e.setAttribute('x2',b[0]);e.setAttribute('y2',b[1])};
+const seg=(o,ang,len)=>[o[0]+Math.sin(ang)*len,o[1]+Math.cos(ang)*len];
+// pose: x,y = foot ground point, s=scale, ph=cycle phase (rad), mode 'walk'|'run'|'stand'
+function pose(P,x,y,s,ph,mode){
+  const run=mode==='run', st=mode==='stand';
+  const lean=run?.22:st?0:.05, bob=st?0:(run?Math.abs(Math.sin(ph))*-10:Math.abs(Math.sin(ph))*-4);
+  const hip=[0,-95+bob], sh=[hip[0]+Math.sin(lean)*70,hip[1]-70];
+  const thA=st?0:(run?.8:.42)*Math.sin(ph), thB=-thA;
+  const knee=a=>st?0:Math.max(0,(run?1.5:.5)*Math.sin(a));
+  const legs=[[thA,knee(ph+1.6)],[thB,knee(ph+1.6+Math.PI)]];
+  const armSw=st?0:(run?.9:.38)*Math.sin(ph);
+  const toPt=v=>`${v[0]},${v[1]}`;
+  const tr=`translate(${x},${y}) scale(${s})`;P.g.setAttribute('transform',tr);
+  [[P.legF,legs[0],P.shoeF],[P.legB,legs[1],P.shoeB]].forEach(([Lg,[th,kn],shoe])=>{const k=seg(hip,th,48);const f=seg(k,th-kn,48);L(Lg[0],hip,k);L(Lg[1],k,f);shoe.setAttribute('cx',f[0]+8);shoe.setAttribute('cy',f[1]+4)});
+  L(P.torso,hip,sh);
+  [[P.armF,-armSw],[P.armB,armSw]].forEach(([A,sw])=>{const e=seg(sh,sw,38);const h=seg(e,sw-(run?1.5:.25),34);L(A[0],sh,e);L(A[1],e,h)});
+  const hd=[sh[0]+Math.sin(lean)*30+4,sh[1]-34];P.head.setAttribute('cx',hd[0]);P.head.setAttribute('cy',hd[1]);
+  P.hair.setAttribute('d',`M${hd[0]-27},${hd[1]-2} a27,27 0 0 1 54,-4 q-20,-8 -54,4z`);
+  return {head:[x+hd[0]*s,y+hd[1]*s],chest:[x+(sh[0]+14)*s,y+(sh[1]+30)*s],knee:[x+20*s,y-50*s],shoulder:[x+sh[0]*s,y+sh[1]*s]};
+}
+
+// ---------- build ----------
+// hook face (profile close-up)
+{const f=$('face');
+ el('path',{d:'M760 2000 L760 1500 Q760 1380 700 1330 L640 1290 Q600 1240 610 1180 L560 1150 Q540 1120 580 1100 L600 1080 Q560 1040 590 1010 Q550 990 600 950 Q590 870 620 800 Q660 640 820 600 Q1000 570 1100 650 L1100 2000Z',fill:'#e8b48a'},f);
+ el('path',{d:'M620 800 Q660 560 900 540 Q1060 540 1120 620 L1120 900 Q1040 760 900 720 Q760 700 640 820Z',fill:'#3a2a1f'},f);
+ el('path',{d:'M660 960 q30 14 60 0',stroke:'#5a3b26','stroke-width':8,fill:'none','stroke-linecap':'round'},f);
+ el('path',{d:'M640 925 q40 -20 90 -6',stroke:'#3a2a1f','stroke-width':10,fill:'none','stroke-linecap':'round'},f);
+ el('path',{d:'M600 1180 q20 6 40 0',stroke:'#a8645a','stroke-width':8,fill:'none','stroke-linecap':'round'},f);
+ for(let i=0;i<5;i++)el('ellipse',{id:'sp'+i,fill:'none',stroke:'#cfe6ff','stroke-width':5},f);
+ for(let i=0;i<5;i++)el('path',{id:'st'+i,fill:'#9fd0ff',opacity:.85},f);}
+const DUO=[makePerson($('duo')),makePerson($('duo'))];
+const LP=[makePerson($('lanesvg')),makePerson($('lanesvg'))];
+const EP=[makePerson($('expl')),makePerson($('expl'))];
+// lanes: flags, shelters, distance markers
+const LANES=[{top:300},{top:810}];
+const X0=120,X1=860,GY=330; // relative ground y inside lane
+LANES.forEach((ln,i)=>{const g=el('g',{transform:`translate(0 ${ln.top})`},$('lanesvg'));
+  el('line',{x1:30,y1:GY,x2:1050,y2:GY,stroke:'rgba(255,255,255,.35)','stroke-width':4},g);
+  [[X0,'START','#fff'],[X1,'ZIEL','#F0B92A']].forEach(([x,t,c])=>{el('line',{x1:x,y1:GY,x2:x,y2:GY-190,stroke:c,'stroke-width':6},g);el('path',{d:`M${x} ${GY-190} l70 22 l-70 22z`,fill:c},g);
+    const tx=el('text',{x:x,y:GY+46,fill:c,'font-family':'Oswald','font-size':34,'text-anchor':'middle'},g);tx.textContent=t});
+  // shelter roof right of finish
+  el('rect',{x:X1+30,y:GY-300,width:190,height:24,rx:8,fill:'#8a96a3'},g);el('line',{x1:X1+200,y1:GY-276,x2:X1+200,y2:GY,stroke:'#8a96a3','stroke-width':12},g);
+  const lb=el('text',{x:X1+125,y:GY-312,fill:'#bcd3ea','font-family':'Montserrat','font-size':24,'text-anchor':'middle','font-weight':600},g);lb.textContent='Unterstand';
+  el('line',{x1:X0,y1:GY+80,x2:X1,y2:GY+80,stroke:'#bcd3ea','stroke-width':3,'stroke-dasharray':'10 8'},g);
+  const dm=el('text',{x:(X0+X1)/2,y:GY+74,fill:'#bcd3ea','font-family':'Oswald','font-size':30,'text-anchor':'middle'},g);dm.textContent='100 m';
+  ln.dry=el('text',{x:X1+110,y:GY-200,fill:'#7CFC9A','font-family':'Oswald','font-size':40,'text-anchor':'middle',opacity:0},g);ln.dry.textContent='TROCKEN ✓';
+});
+['wA','wB'].forEach(id=>{const w=$(id);el('circle',{cx:50,cy:54,r:40,fill:'#fff',stroke:'#121110','stroke-width':5},w);el('rect',{x:44,y:4,width:12,height:10,rx:3,fill:'#E0442A'},w);
+  for(let k=0;k<12;k++){const a=k/12*2*Math.PI;el('line',{x1:50+Math.sin(a)*32,y1:54-Math.cos(a)*32,x2:50+Math.sin(a)*37,y2:54-Math.cos(a)*37,stroke:'#121110','stroke-width':3},w)}
+  el('line',{id:id+'h',x1:50,y1:54,x2:50,y2:22,stroke:'#E0442A','stroke-width':5,'stroke-linecap':'round'},w);el('circle',{cx:50,cy:54,r:5,fill:'#121110'},w)});
+// explanation: hit markers
+const EX=[{x:300,label:'GEHEN'},{x:780,label:'RENNEN'}];
+EX.forEach((e,i)=>{const g=$('expl');el('line',{x1:e.x-200,y1:1080,x2:e.x+200,y2:1080,stroke:'rgba(255,255,255,.3)','stroke-width':4},g);
+  const t=el('text',{x:e.x,y:1140,fill:i?'#F0B92A':'#fff','font-family':'Oswald','font-size':46,'text-anchor':'middle'},g);t.textContent=e.label;
+  e.top=[];e.front=[];for(let k=0;k<6;k++){e.top.push(el('circle',{r:0,fill:'none',stroke:'#7cc8ff','stroke-width':6},g));e.front.push(el('circle',{r:0,fill:'none',stroke:'#F0B92A','stroke-width':6},g))}
+  el('path',{d:`M${e.x-150} 560 v70 m-14 -16 l14 18 l14 -18`,stroke:'#7cc8ff','stroke-width':8,fill:'none','stroke-linecap':'round'},g);
+  el('path',{d:`M${e.x-210} 860 h70 m-16 -14 l18 14 l-18 14`,stroke:'#F0B92A','stroke-width':8,fill:'none','stroke-linecap':'round'},g);});
+
+// rain drops (deterministic)
+const R=(()=>{let s=7;return()=>((s=(s*16807)%2147483647)/2147483647)})();
+const DROPS=[...Array(260)].map(()=>({x:R()*1080,y:R()*2000,v:1500+R()*500,l:30+R()*30}));
+const cv=$('cv'),ctx=cv.getContext('2d');
+function rain(t,rects,opts={}){
+  ctx.strokeStyle=opts.col||'rgba(175,210,255,.55)';ctx.lineWidth=opts.w||3;ctx.lineCap='round';
+  for(const r of rects){ctx.save();ctx.beginPath();ctx.rect(r[0],r[1],r[2],r[3]);ctx.clip();ctx.beginPath();
+    for(const d of DROPS){const y=(d.y+d.v*t)%2000-60;const x=d.x;if(r.cut&&r.cut(x,y))continue;ctx.moveTo(x,y);ctx.lineTo(x-2,y+d.l)}ctx.stroke();ctx.restore()}
+}
+
+// captions
+const CH=[];{let cur=[];CAPS.forEach((w,k)=>{cur.push(w);const brk=/[.,?!:;–]$/.test(w.text)||cur.length>=4||cur.map(x=>x.text).join(' ').length>24;if(brk||k===CAPS.length-1){CH.push(cur);cur=[]}});}
+CH.forEach((c,k)=>{c.s=c[0].start;c.e=k+1<CH.length?Math.min(CH[k+1][0].start,c[c.length-1].end+.6):c[c.length-1].end+.8});
+
+// simulation clock for the lane scenes (same time base for both lanes)
+const segA=C.s3-C.s2, segB=C.s5-C.s4, REW=C.rew;
+const RUN_T=segA+1.4;                       // runner reaches the finish early in the resolution scene
+const WALK_T=segA+segB+(REW-C.s5)-0.6;       // walker reaches it during the final scene
+function sim(t){if(t<C.s3)return t-C.s2; if(t<C.s4)return segA; if(t<REW)return segA+(t-C.s4); return 0;}
+const span=X1-X0;
+function lanePos(s,arr){return s>=arr?X1+60+Math.min(40,(s-arr)*80):X0+span*(s/arr)}
+
+window.render=function(t){
+  const sc=t<C.s2?'S1':t<C.s3?'LN':t<C.s4?'S3':'LN';
+  ['S1','LN','S3'].forEach(id=>$(id).style.display=id===sc?'block':'none');
+  ctx.clearRect(0,0,1080,1920);
+  // camera shake on cuts
+  let sx=0,sy=0,zs=1;for(const ti of [0,C.cut,C.s2,C.s3,C.s4,REW]){if(t>=ti&&t<ti+.5){const k=Math.exp(-(t-ti)*9);sx+=Math.sin((t-ti)*83)*14*k;sy+=Math.cos((t-ti)*71)*10*k;zs+=.03*k}}
+  $('cam').style.transform=`translate(${sx}px,${sy}px) scale(${zs})`;
+  let fl=0;for(const ti of [C.cut,C.s2,C.s3,C.s4])if(t>=ti)fl+=.7*Math.exp(-(t-ti)*10);$('flash').style.opacity=cl(fl);
+  $('prog').style.width=(cl(t/T)*100)+'%';
+  if(sc==='S1'){
+    const face=t<C.cut;$('face').style.display=face?'block':'none';$('duo').style.display=face?'none':'block';
+    if(face){
+      const z=1.15-.12*eo(p(t,0,C.cut));$('face').style.transform=`scale(${z})`;$('face').style.transformOrigin='70% 50%';
+      rain(t,[[0,0,1080,1920]],{w:5,col:'rgba(190,220,255,.65)'});
+      const HP=[[640,880],[700,1010],[600,1080],[720,760],[650,1200]];
+      HP.forEach((h,i)=>{const per=.55+i*.07,ph=((t+i*.21)%per)/per;const e=$('sp'+i);e.setAttribute('cx',h[0]);e.setAttribute('cy',h[1]);e.setAttribute('rx',10+ph*60);e.setAttribute('ry',4+ph*22);e.setAttribute('opacity',1-ph);
+        const s=$('st'+i);const y=h[1]+ph*160;s.setAttribute('d',`M${h[0]+6},${y} q8,18 0,26 q-8,-8 0,-26z`);s.setAttribute('opacity',ph<.9?.85:0)});
+      $('ht').style.opacity=0;
+    }else{
+      rain(t,[[0,0,1080,1920]]);
+      pose(DUO[0],300,1300,2.6,t*5,'walk');pose(DUO[1],780,1300,2.6,t*9,'run');
+      const k=pop(t,C.cut,.4);tf($('ht'),{o:cl(k*3),s:1.6-.6*k});
+    }
+  }
+  if(sc==='LN'){
+    const rew=t>=REW&&t<REW+.8;$('vhs').style.display=rew?'block':'none';
+    let s=sim(t); if(rew) s=(segA+segB+(REW-C.s5))*(1-eo((t-REW)/.8)); else if(t>=REW+.8) s=0;
+    const arr=[WALK_T,RUN_T];
+    const rects=LANES.map((ln,i)=>{const r=[30,ln.top,1020,470];const sx0=X1+30,sy1=ln.top+GY-300;r.cut=(x,y)=>x>sx0&&x<sx0+190&&y>sy1;return r});
+    rain(t,rects);
+    LANES.forEach((ln,i)=>{const x=lanePos(s,arr[i]);const moving=s<arr[i]&&s>0;
+      pose(LP[i],x,ln.top+GY,1.3,s*(i?9:5),moving?(i?'run':'walk'):'stand');
+      const sw=Math.min(s,arr[i]);$(i?'wB':'wA').querySelector(`#${i?'wB':'wA'}h`).setAttribute('transform',`rotate(${sw/10*360} 50 54)`);
+      $(i?'barB':'barA').style.width=(sw/WALK_T*840)+'px';
+      ln.dry.setAttribute('opacity',s>=arr[i]+.2&&!rew?1:0)});
+    $('zr').style.opacity=1;
+    // texts
+    const W=$('win');
+    if(t>=C.s4&&t<C.s5){W.innerHTML='Auf 100 Metern:<br><b>Rennen gewinnt!</b>';const k=pop(t,C.win,.45);tf(W,{o:cl(k*3),s:1.5-.5*k})}
+    else if(t>=C.s5&&t<REW){W.innerHTML='Weniger Regen<br><b>von oben ↓</b>';const k=pop(t,C.oben,.45);tf(W,{o:cl(k*3),s:1.5-.5*k})}
+    else W.style.opacity=0;
+    W.style.top='1290px';W.style.background='rgba(10,14,20,.0)';
+  }
+  if(sc==='S3'){
+    rain(t,[[0,380,1080,720]]);
+    const k=eo(p(t,C.dafur-.1,.45));tf($('s3t'),{o:k,y:(1-k)*-40});
+    const pts=[pose(EP[0],300,1080,2.4,t*5,'walk'),pose(EP[1],780,1080,2.4,t*9,'run')];
+    EX.forEach((e,i)=>{const P=pts[i];
+      e.top.forEach((c,k)=>{const per=.45,ph=((t+k*per/6)%per)/per;const hx=P.head[0]+(k%3-1)*24,hy=P.head[1]-20+(k%2)*40;c.setAttribute('cx',hx);c.setAttribute('cy',hy);c.setAttribute('r',6+ph*26);c.setAttribute('opacity',1-ph)});
+      const fper=i?.15:.45;e.front.forEach((c,k)=>{const ph=((t+k*fper/6)%fper)/fper;const fx=P.chest[0]+40,fy=P.chest[1]+(k%3)*70;c.setAttribute('cx',fx);c.setAttribute('cy',fy);c.setAttribute('r',6+ph*26);c.setAttribute('opacity',1-ph)})});
+    const k1=pop(t,C.dafur+.4,.4),k2=pop(t,C.dafur+1.1,.4);tf($('lg1'),{o:cl(k1*3),x:(1-k1)*-300});tf($('lg2'),{o:cl(k2*3),x:(1-k2)*300});
+  }
+  // final question
+  const fq=t>=C.fin;$('final').style.display=fq?'block':'none';
+  if(fq){const k=pop(t,C.fin,.45);tf($('fq'),{o:cl(k*3),s:1.4-.4*k});$('fn').style.opacity=eo(p(t,C.fin+.4,.4))}
+  $('label').style.opacity=1;
+  let html='';for(const c of CH){if(t>=c.s&&t<c.e){const k=pop(t,c.s,.18);html=`<div style="transform:scale(${.7+.3*k});opacity:${cl(k*3)}">`+c.map(w=>`<span class="${t>=w.start-.03?'on':''}">${esc(w.text)}</span>`).join(' ')+'</div>';break}}
+  $('caps').innerHTML=html;
+};
+document.fonts.ready.then(()=>render(0));
+</script>
+</body>
+</html>
