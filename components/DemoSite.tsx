@@ -755,6 +755,32 @@ function HofGallery({ lead, theme, upper }: Ctx) {
 
 /* ---------- Leistungen ---------- */
 
+// Symbolbild je Leistung: Motiv nach Leistungsname (Fassade, Boden, Bad …), sonst das Gewerk-Motiv.
+// Immer als „Symbolbild“ gekennzeichnet – es zeigt nicht den Betrieb.
+type SvcSceneKind = Parameters<typeof Scene>[0]["kind"];
+function serviceScene(title: string, items: string[], fallback: SvcSceneKind): SvcSceneKind {
+  const t = `${title} ${items.join(" ")}`.toLowerCase();
+  const rules: [RegExp, SvcSceneKind][] = [
+    [/fassad|außen|aussen|dach|rinne|blech|fenster|tür|carport|zimmerei/, "facade"],
+    [/garten|hecke|rasen|pflaster|baum|beet|grün|terrass/, "garden"],
+    [/boden|parkett|laminat|vinyl|dielen|teppich|estrich/, "parquet"],
+    [/fliese|bad|dusche|sanit|wc|naturstein|mosaik/, "bath"],
+    [/küche|möbel|schrank|einbau/, "kitchen"],
+    [/elektr|steckdose|licht|beleuchtung|strom|smart/, "electric"],
+    [/trockenbau|decke|spachtel|akustik|dämm/, "drywall"],
+    [/anstrich|streich|lack|tapez|farb|wand|maler/, "paint"],
+  ];
+  return rules.find(([re]) => re.test(t))?.[1] ?? fallback;
+}
+function SvcImage({ title, items, scene, palette, seed, className }: { title: string; items: string[]; scene: SvcSceneKind; palette: string[]; seed: number; className: string }) {
+  return (
+    <div className="svc-img relative overflow-hidden">
+      <Scene kind={serviceScene(title, items, scene)} palette={palette} label={`Symbolbild: ${title}`} seed={seed} className={`card-media ${className}`} showLabel={false} />
+      <span className="absolute right-2 top-2 rounded-sm bg-black/70 px-2 py-0.5 text-[11px] font-semibold text-white">Symbolbild</span>
+    </div>
+  );
+}
+
 function Services({ lead, theme, upper, hof }: Ctx) {
   const { services, servicesIntro, scene } = lead.site;
   if (hof) return <ProductGrid lead={lead} upper={upper} />;
@@ -768,18 +794,19 @@ function Services({ lead, theme, upper, hof }: Ctx) {
         <ol data-stagger className="mt-14 divide-y divide-t-line border-y border-t-line">
           {services.map((s, i) => (
             <li key={s.title} className="group grid gap-4 py-8 transition-colors hover:bg-t-surface md:grid-cols-12 md:items-center md:px-4">
+              <div className="md:col-span-3"><SvcImage title={s.title} items={s.items} scene={scene} palette={theme.palette} seed={i + 1} className="aspect-[16/9] w-full rounded-t md:aspect-[4/3]" /></div>
               <span className="flex items-center gap-3 md:col-span-1 md:flex-col md:items-start">
                 <span className="svc-badge grid h-14 w-14 place-items-center rounded-full bg-t-accent/10 text-t-accent ring-1 ring-t-accent/25"><ServiceIcon name={serviceIcon(s.title, scene, s.items)} size={28} /></span>
                 <span className="font-display text-sm font-bold text-t-accent">{String(i + 1).padStart(2, "0")}</span>
               </span>
-              <div className="md:col-span-5">
+              <div className="md:col-span-4">
                 <h3 className={`font-display text-2xl font-semibold ${upper}`}>{s.title}</h3>
                 <p className="mt-2 text-t-muted">{s.text}</p>
               </div>
-              <ul className="flex flex-wrap gap-2 md:col-span-4">
+              <ul className="flex flex-wrap gap-2 md:col-span-3">
                 {s.items.map((it) => <li key={it} className="rounded-full border border-t-line bg-t-surface px-3 py-1.5 text-sm">{it}</li>)}
               </ul>
-              <a href="#anfrage" className="inline-flex min-h-[44px] items-center text-sm font-bold text-t-accent md:col-span-2 md:justify-end">Anfragen</a>
+              <a href="#anfrage" className="inline-flex min-h-[44px] items-center text-sm font-bold text-t-accent md:col-span-1 md:justify-end">Anfragen</a>
             </li>
           ))}
         </ol>
@@ -788,7 +815,7 @@ function Services({ lead, theme, upper, hof }: Ctx) {
         <div data-stagger className="mt-14 grid gap-5 md:grid-cols-2 lg:grid-cols-3">
           {services.map((s, i) => (
             <article key={s.title} className="card-fx group flex flex-col overflow-hidden rounded-t border border-t-line bg-t-surface shadow-sm">
-              <div className="overflow-hidden"><Scene kind={scene} palette={theme.palette} label={s.title} seed={i + 1} className="card-media aspect-[16/9] w-full" showLabel={false} /></div>
+              <SvcImage title={s.title} items={s.items} scene={scene} palette={theme.palette} seed={i + 1} className="aspect-[16/9] w-full" />
               <span className="card-line block h-1 bg-t-accent" aria-hidden="true" />
               <div className="relative flex flex-1 flex-col p-6 pt-10">
                 <span className="svc-badge absolute -top-7 left-6 grid h-14 w-14 place-items-center rounded-full bg-t-accent text-t-accent-ink shadow-lg ring-4 ring-t-surface"><ServiceIcon name={serviceIcon(s.title, scene, s.items)} size={26} /></span>
@@ -807,7 +834,7 @@ function Services({ lead, theme, upper, hof }: Ctx) {
         <div data-stagger className="mt-14 grid gap-px bg-t-line sm:grid-cols-2 lg:grid-cols-3">
           {services.map((s, i) => (
             <article key={s.title} className="card-fx group relative bg-t-bg">
-              <div className="overflow-hidden"><Scene kind={scene} palette={theme.palette} label={s.title} seed={i + 1} className="card-media aspect-[16/10] w-full" showLabel={false} /></div>
+              <SvcImage title={s.title} items={s.items} scene={scene} palette={theme.palette} seed={i + 1} className="aspect-[16/10] w-full" />
               <span className="card-line block h-1 bg-t-accent" aria-hidden="true" />
               <div className="relative p-6 pt-10">
                 <span className="svc-badge absolute -top-7 left-6 grid h-14 w-14 place-items-center rounded-full bg-t-accent text-t-accent-ink shadow-lg ring-4 ring-t-bg"><ServiceIcon name={serviceIcon(s.title, scene, s.items)} size={26} /></span>
@@ -825,7 +852,7 @@ function Services({ lead, theme, upper, hof }: Ctx) {
         return (
           <div className="mt-14 grid gap-6 lg:grid-cols-12">
             <article data-reveal="left" className="card-fx group relative flex flex-col overflow-hidden rounded-t bg-t-dark text-t-dark-ink lg:col-span-7">
-              <div className="overflow-hidden"><Scene kind={scene} palette={theme.palette} label={lead0.title} seed={1} className="card-media aspect-[16/10] w-full" showLabel={false} /></div>
+              <SvcImage title={lead0.title} items={lead0.items} scene={scene} palette={theme.palette} seed={1} className="aspect-[16/10] w-full" />
               <div className="flex flex-1 flex-col p-8">
                 <span className="text-xs font-bold uppercase tracking-[0.2em] text-t-accent">Schwerpunkt</span>
                 <h3 className={`mt-2 font-display text-3xl font-bold ${upper}`}>{lead0.title}</h3>
@@ -835,10 +862,13 @@ function Services({ lead, theme, upper, hof }: Ctx) {
               </div>
             </article>
             <ul data-stagger className="grid gap-3 lg:col-span-5">
-              {more.map((s) => (
-                <li key={s.title} className="card-fx flex items-start gap-4 rounded-t border border-t-line bg-t-surface p-5">
-                  <span className="svc-badge grid h-12 w-12 shrink-0 place-items-center rounded-t bg-t-accent/10 text-t-accent"><ServiceIcon name={serviceIcon(s.title, scene, s.items)} size={24} /></span>
-                  <div>
+              {more.map((s, i) => (
+                <li key={s.title} className="card-fx flex items-start gap-4 overflow-hidden rounded-t border border-t-line bg-t-surface p-3 pr-5">
+                  <div className="relative w-28 shrink-0 sm:w-32">
+                    <SvcImage title={s.title} items={s.items} scene={scene} palette={theme.palette} seed={i + 2} className="aspect-[4/3] w-full rounded-t" />
+                    <span className="svc-badge absolute -right-2 -top-2 grid h-9 w-9 place-items-center rounded-full bg-t-accent text-t-accent-ink shadow"><ServiceIcon name={serviceIcon(s.title, scene, s.items)} size={18} /></span>
+                  </div>
+                  <div className="min-w-0 py-1">
                     <h3 className={`font-display text-lg font-bold ${upper}`}>{s.title}</h3>
                     <p className="mt-1 text-sm text-t-muted">{s.text}</p>
                   </div>
@@ -861,7 +891,9 @@ function Services({ lead, theme, upper, hof }: Ctx) {
           </div>
           <ol data-stagger className="space-y-4 lg:col-span-7">
             {services.map((s, i) => (
-              <li key={s.title} className="group rounded-t border-l-4 border-t-accent bg-t-surface p-6 shadow-sm transition hover:shadow-lg">
+              <li key={s.title} className="group grid gap-5 rounded-t border-l-4 border-t-accent bg-t-surface p-6 shadow-sm transition hover:shadow-lg sm:grid-cols-[1fr_9.5rem]">
+                <SvcImage title={s.title} items={s.items} scene={scene} palette={theme.palette} seed={i + 3} className="aspect-[16/9] w-full rounded-t sm:aspect-[4/3]" />
+                <div className="sm:order-first">
                 <div className="flex items-center gap-3">
                   <span className="font-display text-sm font-black text-t-accent">{String(i + 1).padStart(2, "0")}</span>
                   <h3 className={`font-display text-xl font-bold ${upper}`}>{s.title}</h3>
@@ -869,6 +901,7 @@ function Services({ lead, theme, upper, hof }: Ctx) {
                 </div>
                 <p className="mt-2 text-t-muted">{s.text}</p>
                 <p className="mt-3 text-sm font-semibold">{s.items.join(" · ")}</p>
+                </div>
               </li>
             ))}
           </ol>
@@ -878,7 +911,7 @@ function Services({ lead, theme, upper, hof }: Ctx) {
         <div data-stagger className="mt-14 space-y-6">
           {services.map((s, i) => (
             <article key={s.title} className="card-fx group grid items-center gap-6 overflow-hidden rounded-t border border-t-line bg-t-surface md:grid-cols-12">
-              <div className={`overflow-hidden md:col-span-4 ${i % 2 ? "md:order-2" : ""}`}><Scene kind={scene} palette={theme.palette} label={s.title} seed={i + 1} className="card-media aspect-[16/9] w-full md:aspect-[4/3]" showLabel={false} /></div>
+              <div className={`md:col-span-4 ${i % 2 ? "md:order-2" : ""}`}><SvcImage title={s.title} items={s.items} scene={scene} palette={theme.palette} seed={i + 1} className="aspect-[16/9] w-full md:aspect-[4/3]" /></div>
               <div className="p-6 md:col-span-8 md:p-8">
                 <div className="flex items-center gap-3 text-t-accent"><ServiceIcon name={serviceIcon(s.title, scene, s.items)} size={22} /><span className="text-xs font-bold uppercase tracking-[0.2em]">Leistung {i + 1}</span></div>
                 <h3 className={`mt-2 font-display text-2xl font-bold ${upper}`}>{s.title}</h3>

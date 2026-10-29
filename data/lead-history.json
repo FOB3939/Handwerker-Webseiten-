@@ -2398,6 +2398,18 @@
       "googleLink": "https://www.google.com/maps/search/?api=1&query=Demaku%20Gebäudereinigung%20Bachstraße%2067%20Peißenberg",
       "googleVerified": false,
       "reserve": false
+    },
+    {
+      "company": "Angela Freilinger Malerbetrieb",
+      "slug": "angela-freilinger-malerbetrieb-seefeld",
+      "trade": "Malerbetrieb",
+      "city": "Seefeld",
+      "date": "2026-10-29",
+      "phone": "08153 916164",
+      "email": null,
+      "googleLink": "https://www.google.com/maps/search/?api=1&query=Angela%20Freilinger%20Malerbetrieb%20Stocketweg%2013%20Seefeld",
+      "googleVerified": false,
+      "reserve": false
     }
   ],
   "rejected": [

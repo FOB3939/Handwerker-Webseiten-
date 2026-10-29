@@ -256,3 +256,6 @@ Ab diesem Lauf im Stil „Kante“ (dunkel, schmale Versal-Überschrift mit farb
 - Elektro Gstaiger (Weilheim): https://claude.ai/artifact/F9g1AskZzoisK1jkpmfX7p
 - Demaku Gebäudereinigung & Hausmeisterservice (Peißenberg): https://claude.ai/artifact/C7XvBYednqZkQCUt5uKgtq
 - Reserve: BS Schmidt Badsanierung (Murnau): https://claude.ai/artifact/8Vv4FejLKCGXAKaderKNWz
+- Auf Wunsch: Angela Freilinger Malerbetrieb (Seefeld-Meiling): https://claude.ai/artifact/8ax5p3aPBPiekwwf5Jo9jr
+
+Seit 29.10. zeigt jede Leistung ein eigenes, als „Symbolbild“ gekennzeichnetes Motiv (passend zum Leistungsnamen, `serviceScene()` in components/DemoSite.tsx).

@@ -1,0 +1,414 @@
+{
+  "id": "2026-10-29-173",
+  "slug": "angela-freilinger-malerbetrieb-seefeld",
+  "date": "2026-10-29",
+  "company": {
+    "name": "Angela Freilinger Malerbetrieb",
+    "owner": "Angela Freilinger",
+    "trade": "Malerbetrieb",
+    "city": "Seefeld",
+    "address": "Stocketweg 13, 82229 Seefeld (Meiling)",
+    "phone": "08153 916164",
+    "email": null,
+    "serviceArea": [
+      "Meiling",
+      "Seefeld",
+      "Hechendorf",
+      "Oberalting",
+      "Drößling",
+      "Herrsching",
+      "Wörthsee",
+      "Gilching"
+    ]
+  },
+  "listings": {
+    "google": {
+      "url": "https://www.google.com/maps/search/?api=1&query=Angela%20Freilinger%20Malerbetrieb%20Stocketweg%2013%20Seefeld",
+      "rating": null,
+      "reviews": null,
+      "evidence": "Vom Auftraggeber per Apple-Karten-Screenshot gezeigt: „Angela Freilinger Malerbetrieb – Anbieter von Malarbeiten“, keine Bewertungen, Mo–Fr 08:00–18:00, Sa–So geschlossen. Google-Eintrag in Maps prüfen."
+    },
+    "myhammer": {
+      "url": "https://www.11880.com/branchenbuch/seefeld-oberbayern/060693517B27707431/angela-freilinger-malerbetrieb.html",
+      "rating": null,
+      "reviews": null,
+      "evidence": "Kein MyHammer gefunden – 11880-Eintrag „Angela Freilinger Malerbetrieb“, Maler & Lackierer, Stocketweg 13, 82229 Seefeld (Meiling), 08153 916164."
+    }
+  },
+  "websiteStatus": "keine eigene Website gefunden",
+  "websiteChecks": [
+    "(1) „Angela Freilinger Malerbetrieb“ – nur Verzeichnisse (orte.muenchen.de, 11880, Das Örtliche, Cylex, goyellow, branchen-info.net, Yelp)",
+    "(2) „Freilinger Malerbetrieb Seefeld Meiling“ mit blocked_domains (11880, Das Örtliche, Cylex, Gelbe Seiten, meinestadt, Telefonbuch) – nur Verzeichnisse, keine eigene Domain",
+    "(3) Domain-Check maler-freilinger.de, freilinger-maler.de, malerbetrieb-freilinger.de, malerei-freilinger.de, angela-freilinger.de, freilinger.de – nur freilinger.de (Freilinger Computer Systeme, Breitbrunn – anderer Betrieb)",
+    "Website-Risiko: niedrig – keine eigene Website gefunden; Apple-Karten-Eintrag ohne Website-Feld laut Screenshot"
+  ],
+  "facts": {
+    "services": [
+      "Malerarbeiten",
+      "Lackierarbeiten",
+      "Tapezierarbeiten"
+    ],
+    "experience": null,
+    "praisedFor": []
+  },
+  "strategy": {
+    "audience": "Hauseigentümer, Vermieter und Mieter in Seefeld, Meiling, Hechendorf und rund um den Pilsensee, die Räume streichen, Fassaden auffrischen oder Wände gestalten lassen wollen",
+    "mainService": "Maler- und Lackierarbeiten innen und außen",
+    "trustSignal": "Inhabergeführter Malerbetrieb von Angela Freilinger im Seefelder Ortsteil Meiling",
+    "conversionGoal": "Besichtigung bzw. Angebot telefonisch anfragen",
+    "visualConcept": "Klare, dunkle Bühne mit kräftigem Akzent: frische Wände, Fassaden und Holz – Symbolbilder je Leistung"
+  },
+  "sales": {
+    "score": 6,
+    "whyGoodLead": [
+      "Keine eigene Website gefunden – nur Verzeichniseinträge",
+      "Apple-Karten-Eintrag ohne Bewertungen – eine Website schafft Vertrauen",
+      "Inhabergeführter Betrieb mit klaren Öffnungszeiten (Mo–Fr 8–18 Uhr)",
+      "Einzugsgebiet am Pilsensee und im Fünfseenland mit vielen Häusern im Bestand"
+    ],
+    "pitch": "Guten Tag Frau Freilinger, ich baue Websites für Handwerksbetriebe im Fünfseenland. Ihren Malerbetrieb in Meiling habe ich gefunden, aber keine eigene Website. Ich habe unverbindlich einen Entwurf vorbereitet – darf ich Ihnen den Link schicken?"
+  },
+  "manualChecks": [
+    "Website-Risiko: niedrig – vor Versand in Google Maps prüfen, dass keine Website hinterlegt ist (Grund: Eintrag nur über Apple Karten und Verzeichnisse belegt)",
+    "Telefonnummer klären: 11880/Das Örtliche nennen 08153 916164, orte.muenchen.de 08153 1464 (dort auch Eintrag „Freilinger Elisabeth“ unter derselben Adresse)",
+    "Leistungen nur aus Verzeichnis-Stichworten (Innen-/Außenanstrich, Fassade, Wand & Decke, Boden, Trockenbau, Kalk-/Marmortechnik) – beim Betrieb bestätigen",
+    "Ob „Malermeisterin“ zutrifft, ist nicht belegt – nicht auf der Seite verwendet",
+    "Logo und Projektfotos: nicht gefunden – Leistungsbilder sind als Symbolbilder gekennzeichnet"
+  ],
+  "sources": [
+    {
+      "label": "11880 – Angela Freilinger Malerbetrieb, Seefeld",
+      "url": "https://www.11880.com/branchenbuch/seefeld-oberbayern/060693517B27707431/angela-freilinger-malerbetrieb.html"
+    },
+    {
+      "label": "Das Örtliche – Freilinger Angela Malerbetrieb, Seefeld-Meiling",
+      "url": "https://www.dasoertliche.de/Themen/Freilinger-Angela-Malerbetrieb-Seefeld-Meiling-Stocketweg"
+    },
+    {
+      "label": "orte.muenchen.de – Freilinger Angela, Maler, Lackierer",
+      "url": "https://orte.muenchen.de/104930.html"
+    },
+    {
+      "label": "Cylex – Freilinger Angela Malerbetrieb",
+      "url": "https://web2.cylex.de/firma-home/freilinger-angela-malerbetrieb-6942029.html"
+    },
+    {
+      "label": "branchen-info.net – Freilinger Angela Malerbetrieb (Leistungsstichworte)",
+      "url": "https://seefeld-sta.branchen-info.net/fp_3654260.php"
+    }
+  ],
+  "site": {
+    "theme": "atelier",
+    "category": "handwerk",
+    "heroOffer": [
+      "Innenanstrich",
+      "Fassade",
+      "Wand & Decke",
+      "Bodenbeläge",
+      "Trockenbau",
+      "Kalkputz"
+    ],
+    "scene": "paint",
+    "quote": {
+      "sizeLabel": "Was soll gemacht werden?",
+      "sizes": [
+        "Ein Zimmer",
+        "Mehrere Räume",
+        "Ganze Wohnung",
+        "Fassade",
+        "Treppenhaus"
+      ],
+      "timings": [
+        "So bald wie möglich",
+        "In den nächsten Wochen",
+        "In 1–3 Monaten",
+        "Ich plane erst noch"
+      ]
+    },
+    "badges": [
+      {
+        "title": "Meiling",
+        "sub": "Stocketweg"
+      },
+      {
+        "title": "Mo–Fr",
+        "sub": "8–18 Uhr erreichbar"
+      },
+      {
+        "title": "Innen & außen",
+        "sub": "Wände und Fassaden"
+      },
+      {
+        "title": "Inhaberin",
+        "sub": "Angela Freilinger"
+      }
+    ],
+    "seoTitle": "Malerbetrieb in Seefeld – Angela Freilinger",
+    "seoDescription": "Malerarbeiten, Fassaden und Wandgestaltung in Seefeld, Meiling, Hechendorf und am Pilsensee. Jetzt unverbindlich anfragen.",
+    "logoMark": "AF",
+    "brandName": "Malerbetrieb Freilinger",
+    "logoIcon": "roller",
+    "nav": [
+      {
+        "label": "Leistungen",
+        "href": "#leistungen"
+      },
+      {
+        "label": "Projekte",
+        "href": "#projekte"
+      },
+      {
+        "label": "Bewertungen",
+        "href": "#bewertungen"
+      },
+      {
+        "label": "Ablauf",
+        "href": "#ablauf"
+      },
+      {
+        "label": "FAQ",
+        "href": "#faq"
+      },
+      {
+        "label": "Kontakt",
+        "href": "#kontakt"
+      }
+    ],
+    "hero": {
+      "eyebrow": "Malerbetrieb · Seefeld-Meiling",
+      "headline": "Frische Farbe für Seefeld",
+      "sub": "Wände, Decken und Fassaden – vom Malerbetrieb Angela Freilinger aus Meiling.",
+      "ctaPrimary": "Angebot anfragen",
+      "ctaSecondary": "Anrufen",
+      "bullets": [
+        "Malerbetrieb in Meiling",
+        "Mo–Fr 8–18 Uhr erreichbar",
+        "Innen und außen"
+      ],
+      "imageLabel": "frisch gestrichener Wohnraum mit hellen Wänden"
+    },
+    "trust": [
+      {
+        "value": "Mo–Fr",
+        "label": "8–18 Uhr erreichbar"
+      },
+      {
+        "value": "Meiling",
+        "label": "Betrieb im Ort"
+      },
+      {
+        "value": "6",
+        "label": "Leistungen innen & außen"
+      },
+      {
+        "value": "Direkt",
+        "label": "bei der Inhaberin anfragen"
+      }
+    ],
+    "services": [
+      {
+        "title": "Innenanstrich",
+        "text": "Wohnräume, Flure und Treppenhäuser bekommen einen gleichmäßigen Anstrich – Böden und Möbel werden vorher abgedeckt.",
+        "items": [
+          "Wohnräume",
+          "Treppenhäuser",
+          "Abdecken"
+        ]
+      },
+      {
+        "title": "Fassade",
+        "text": "Ein neuer Fassadenanstrich schützt den Putz vor Wetter und lässt das Haus wieder gepflegt aussehen.",
+        "items": [
+          "Außenanstrich",
+          "Sockel",
+          "Renovierung"
+        ]
+      },
+      {
+        "title": "Wand & Decke",
+        "text": "Wände und Decken werden gespachtelt, gestrichen oder neu tapeziert – je nach Raum und Wunsch.",
+        "items": [
+          "Spachteln",
+          "Tapezieren",
+          "Deckenanstrich"
+        ]
+      },
+      {
+        "title": "Bodenbeläge",
+        "text": "Neue Beläge werden verlegt, damit Raum und Wand nach der Renovierung zusammenpassen.",
+        "items": [
+          "Vinyl",
+          "Laminat",
+          "Teppich"
+        ]
+      },
+      {
+        "title": "Trockenbau",
+        "text": "Vorsatzschalen und Ausbesserungen in Trockenbauweise schaffen glatte Flächen für den neuen Anstrich.",
+        "items": [
+          "Vorsatzschalen",
+          "Ausbesserungen",
+          "Spachtelflächen"
+        ]
+      },
+      {
+        "title": "Kalk & Lasur",
+        "text": "Kalkputz und Lasuren geben Wänden eine lebendige, matte Oberfläche statt glatter Dispersionsfarbe.",
+        "items": [
+          "Kalkputz",
+          "Lasurtechnik",
+          "Marmoreffekt"
+        ]
+      }
+    ],
+    "servicesIntro": {
+      "headline": "Vom Zimmer bis zur Fassade",
+      "text": "Angela Freilinger und ihr Malerbetrieb übernehmen Vorbereitung, Anstrich und Aufräumen – innen wie außen."
+    },
+    "why": {
+      "headline": "Ein Malerbetrieb aus dem Ort statt anonymer Kolonne.",
+      "points": [
+        {
+          "title": "Kurze Wege",
+          "text": "Der Betrieb sitzt in Meiling – Seefeld, Hechendorf und Oberalting liegen direkt nebenan."
+        },
+        {
+          "title": "Klare Zeiten",
+          "text": "Montag bis Freitag von 8 bis 18 Uhr erreichbar."
+        },
+        {
+          "title": "Direkter Kontakt",
+          "text": "Sie sprechen mit der Inhaberin – vom Angebot bis zur Abnahme."
+        },
+        {
+          "title": "Sauber hinterlassen",
+          "text": "Abdecken, Abkleben und Aufräumen gehören zu jedem Auftrag."
+        }
+      ]
+    },
+    "reviews": {
+      "headline": "Was Kunden sagen",
+      "summary": "Kundenstimmen werden hier eingebunden, sobald sie aus dem Google-Profil übernommen sind.",
+      "highlights": [
+        "Malerbetrieb in Meiling",
+        "Innen und außen",
+        "Direkter Kontakt zur Inhaberin"
+      ],
+      "source": "Google",
+      "sourceUrl": "https://www.google.com/maps/search/?api=1&query=Angela%20Freilinger%20Malerbetrieb%20Stocketweg%2013%20Seefeld",
+      "rating": null,
+      "count": null
+    },
+    "process": {
+      "headline": "So kommt Farbe an Ihre Wände",
+      "steps": [
+        {
+          "title": "Anfrage",
+          "text": "Kurz anrufen und beschreiben, welche Räume oder Flächen anstehen."
+        },
+        {
+          "title": "Besichtigung",
+          "text": "Untergrund, Farbton und Umfang werden vor Ort angeschaut."
+        },
+        {
+          "title": "Angebot",
+          "text": "Sie erhalten ein schriftliches Angebot mit klarem Umfang."
+        },
+        {
+          "title": "Ausführung",
+          "text": "Abdecken, vorbereiten, streichen – und sauber übergeben."
+        }
+      ]
+    },
+    "gallery": {
+      "headline": "Frisch gestrichen am Pilsensee",
+      "text": "Für die Live-Version zeigen wir hier echte Arbeiten des Betriebs.",
+      "items": [
+        {
+          "title": "Wohnzimmer",
+          "photoNeeded": "frisch gestrichenes Wohnzimmer"
+        },
+        {
+          "title": "Fassade",
+          "photoNeeded": "Einfamilienhaus mit neuem Fassadenanstrich"
+        },
+        {
+          "title": "Treppenhaus",
+          "photoNeeded": "neu gestrichenes Treppenhaus"
+        },
+        {
+          "title": "Kalkputz",
+          "photoNeeded": "Wand mit Kalkputz-Oberfläche"
+        },
+        {
+          "title": "Boden",
+          "photoNeeded": "neu verlegter Vinylboden"
+        }
+      ]
+    },
+    "region": {
+      "headline": "Malerarbeiten in Seefeld und am Pilsensee",
+      "text": "Von Meiling aus schnell in Seefeld, Hechendorf, Oberalting, Drößling, Herrsching, Wörthsee und Gilching.",
+      "places": [
+        "Meiling",
+        "Seefeld",
+        "Hechendorf",
+        "Oberalting",
+        "Drößling",
+        "Herrsching",
+        "Wörthsee",
+        "Gilching"
+      ]
+    },
+    "faq": [
+      {
+        "q": "Kommen Sie zur Besichtigung vorbei?",
+        "a": "Ja, Umfang und Untergrund werden vor dem Angebot vor Ort angeschaut."
+      },
+      {
+        "q": "Wann sind Sie erreichbar?",
+        "a": "Montag bis Freitag von 8 bis 18 Uhr, am Wochenende ist geschlossen."
+      },
+      {
+        "q": "Muss ich die Möbel selbst wegräumen?",
+        "a": "Das wird bei der Besichtigung abgesprochen. Böden und verbleibende Möbel werden abgedeckt."
+      },
+      {
+        "q": "Machen Sie auch Fassaden?",
+        "a": "Ja, Außenanstrich und Fassadenrenovierung gehören zum Angebot."
+      },
+      {
+        "q": "Arbeiten Sie auch außerhalb von Seefeld?",
+        "a": "Ja, rund um den Pilsensee und in den Nachbarorten – fragen Sie einfach an."
+      }
+    ],
+    "contact": {
+      "headline": "Ihr Malerprojekt – unverbindlich anfragen",
+      "text": "Beschreiben Sie kurz, welche Räume oder Flächen anstehen. Fotos helfen bei der ersten Einschätzung.",
+      "topics": [
+        "Innenanstrich",
+        "Fassade",
+        "Wand & Decke",
+        "Bodenbeläge",
+        "Sonstiges"
+      ],
+      "responseNote": "Mo–Fr 8–18 Uhr erreichbar."
+    },
+    "stickyCta": "Angebot anfragen",
+    "look": {
+      "skin": "kante",
+      "palette": 3,
+      "font": 2,
+      "hero": 5,
+      "services": 1,
+      "radius": 3,
+      "logo": 2,
+      "intro": 3,
+      "projects": 2,
+      "process": 0,
+      "faq": 2,
+      "reviews": 1,
+      "order": 3
+    }
+  }
+}

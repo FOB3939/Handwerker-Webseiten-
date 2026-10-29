@@ -278,6 +278,8 @@ export const PLACES: Record<string, [number, number]> = {
   Schmiechen: [48.205, 10.963],
   "Egling an der Paar": [48.177, 10.996],
   Marnbach: [47.856, 11.155],
+  Meiling: [48.019, 11.235],
+  "Drößling": [48.024, 11.201],
 };
 
 // Grobe Seeumrisse als Ellipsen: [lat, lon, Halbachse Nord-Süd in Grad, Halbachse Ost-West in Grad]
