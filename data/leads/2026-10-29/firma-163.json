@@ -1,0 +1,408 @@
+{
+  "id": "2026-10-29-163",
+  "slug": "malerbetrieb-reinhard-kefer-tutzing",
+  "date": "2026-10-29",
+  "company": {
+    "name": "Malerbetrieb Reinhard Kefer",
+    "owner": "Reinhard Kefer",
+    "trade": "Malerbetrieb",
+    "city": "Tutzing",
+    "address": "Andechser Str. 22, 82327 Tutzing (Traubing)",
+    "phone": "08157 900030",
+    "email": "reinhard.kefer@t-online.de",
+    "serviceArea": [
+      "Traubing",
+      "Tutzing",
+      "Aschering",
+      "Machtlfing",
+      "Pöcking",
+      "Andechs",
+      "Feldafing"
+    ]
+  },
+  "listings": {
+    "google": {
+      "url": "https://www.google.com/maps/search/?api=1&query=Reinhard%20Kefer%20Maler%20Andechser%20Str.%2022%20Tutzing",
+      "rating": null,
+      "reviews": null,
+      "evidence": "Kein Google-Spiegel gefunden (trustlocal/firmania/rgv ohne Treffer). Lead stützt sich auf die öffentlich belegte Freemail: Die Ortsseite traubing.de (Traubinger Gemeinschaft e.V., „Unternehmen in Traubing“) führt „Malerbetrieb Reinhard Kefer, Andechser Str. 22, 82327 Traubing, 0 81 57 - 90 00 30, reinhard.kefer(*at*)t-online.de“. Google-Eintrag in Maps prüfen."
+    },
+    "myhammer": {
+      "url": "https://www.11880.com/branchenbuch/tutzing/060693517B26954812/kefer-reinhard.html",
+      "rating": null,
+      "reviews": null,
+      "evidence": "Kein MyHammer gefunden – 11880-Eintrag „Kefer Reinhard“, Maler und Lackierer, Andechser Str. 22, Tutzing (Traubing), (08157) 900030, Öffnungszeiten Mo–Fr 07:00–17:00 (Eintrag aktualisiert August 2026), WKDB-Siegel „Sehr gut“; kein Homepage-Feld im Snippet."
+    }
+  },
+  "websiteStatus": "keine eigene Website gefunden",
+  "websiteChecks": [
+    "(1) „Reinhard Kefer Maler Tutzing“ auf 11880/trustlocal/firmania/rgv – nur 11880-Eintrag, kein Homepage-Feld",
+    "(2) „Kefer Maler Traubing Andechser Str“ mit blocked_domains (11880, Gelbe Seiten, Das Örtliche, Telefonbuch, Cylex, meinestadt, Creditreform, Facebook, Instagram, golocal, MyHammer, Northdata, Firmenwissen, WKDB, Yelp, wlw) – nur Verzeichnisse (finde-offen.de „Kefer Reinhard Malermstr.“, my-profi.eu, my-profi-maler.de, branchen-info.net, firmenabc), Tutzinger Nachrichten 03/2021 und traubing.de; keine eigene Domain",
+    "(3) Domain-Check allowed_domains maler-kefer.de, malerei-kefer.de, kefer-maler.de, malerbetrieb-kefer.de, kefer-malerbetrieb.de, reinhard-kefer.de, kefer.de, malermeister-kefer.de – keine Treffer",
+    "(4) Telefonsuche „08157 900030“/„08157/900030“/„08157 90 00 30“ – keine Website mit dieser Nummer",
+    "(5) E-Mail ist Freemail (t-online.de) laut traubing.de – keine Firmendomain",
+    "Website-Risiko: niedrig – alle Prüfungen negativ, Freemail öffentlich belegt"
+  ],
+  "facts": {
+    "services": [
+      "Malerarbeiten",
+      "Lackierarbeiten",
+      "Tapezierarbeiten"
+    ],
+    "experience": "Laut Tutzinger Nachrichten (Heft 03/2021) hat Reinhard Kefer den Malerbetrieb vor mehr als 30 Jahren übernommen und dort zuvor seine Lehre gemacht; Verzeichnisse führen ihn als Malermeister („Malermstr.“).",
+    "praisedFor": []
+  },
+  "strategy": {
+    "audience": "Hauseigentümer, Vermieter und Wohnungseigentümer in Traubing, Tutzing, Aschering und Machtlfing, die Innenräume streichen, Türen und Fenster lackieren oder Wände neu tapezieren lassen wollen",
+    "mainService": "Maler- und Lackierarbeiten innen und außen",
+    "trustSignal": "Malermeister mit Betrieb in Traubing, seit über 30 Jahren in eigener Hand (Tutzinger Nachrichten 2021)",
+    "conversionGoal": "Kostenlose Besichtigung bzw. Angebot anfragen (Anruf oder E-Mail mit Fotos)",
+    "visualConcept": "Ruhige Fünfseenland-Ästhetik: frisch gestrichene Wände in warmen Kalktönen, lackierte Holzfenster, Malerrolle und Abdeckvlies – sauber und handwerklich"
+  },
+  "sales": {
+    "score": 6,
+    "whyGoodLead": [
+      "Keine eigene Website gefunden – nur Verzeichnisse und die Traubinger Ortsseite",
+      "Freemail (t-online) öffentlich belegt – Website + eigene Domain naheliegendes Upgrade",
+      "Langjähriger Meisterbetrieb mit belegter Geschichte (Tutzinger Nachrichten) – starke Story für die Seite",
+      "Wohlhabendes Einzugsgebiet am Starnberger See mit vielen Sanierungen"
+    ],
+    "pitch": "Grüß Gott Herr Kefer, hier ist … – ich baue Websites für Handwerksbetriebe im Fünfseenland. Ihren Malerbetrieb in Traubing habe ich auf der Ortsseite gefunden, aber keine eigene Website. Ich habe unverbindlich einen Entwurf vorbereitet, auf dem Kunden Ihre Maler- und Lackierarbeiten sehen und direkt anfragen können – darf ich Ihnen den Link schicken?"
+  },
+  "manualChecks": [
+    "Website-Risiko: niedrig – vor Versand in Google Maps prüfen, dass keine Website hinterlegt ist (Grund: kein Google-Spiegel gefunden, Lead stützt sich auf Freemail)",
+    "Google-Eintrag in Maps suchen (Existenz, Bewertungen) – bisher nicht belegt",
+    "E-Mail auf traubing.de verschleiert als reinhard.kefer(*at*)t-online.de – Schreibweise beim Erstkontakt bestätigen",
+    "Öffnungszeiten widersprüchlich (11880: Mo–Fr 7–17 Uhr; finde-offen: Mo–Fr 8–18 Uhr) – nicht auf der Seite verwenden, bis geklärt",
+    "Leistungen nur grob belegt (Maler, Lackierer; Malerarbeiten) – Fassade, Tapeten, Spachteltechniken beim Betrieb bestätigen",
+    "Logo und Projektfotos: nicht gefunden – beim Betrieb anfragen"
+  ],
+  "sources": [
+    {
+      "label": "traubing.de – Unternehmen in Traubing (Malerbetrieb Reinhard Kefer, E-Mail)",
+      "url": "https://www.traubing.de/so-ist-traubing/unternehmen.html"
+    },
+    {
+      "label": "11880 – Kefer Reinhard, Maler, Tutzing",
+      "url": "https://www.11880.com/branchenbuch/tutzing/060693517B26954812/kefer-reinhard.html"
+    },
+    {
+      "label": "finde-offen.de – Kefer Reinhard Malermstr.",
+      "url": "https://finde-offen.de/tutzing/kefer-reinhard-malermstr-1130601"
+    },
+    {
+      "label": "my-profi-maler.de – Kefer Reinhard (Einsatzgebiet)",
+      "url": "https://my-profi-maler.de/profil/104212/kefer-reinhard/"
+    },
+    {
+      "label": "Tutzinger Nachrichten 03/2021 (Betriebsübernahme)",
+      "url": "https://tutzinger-nachrichten.de/wp-content/uploads/2021/02/47661_Tutzinger_Nachr_0321_scr.pdf"
+    }
+  ],
+  "site": {
+    "theme": "atelier",
+    "category": "handwerk",
+    "heroOffer": [
+      "Innenanstrich",
+      "Lackierung",
+      "Tapezieren",
+      "Fassade",
+      "Fenster lackieren"
+    ],
+    "scene": "paint",
+    "quote": {
+      "sizeLabel": "Was soll gestrichen werden?",
+      "sizes": [
+        "Ein Zimmer",
+        "Mehrere Räume",
+        "Ganze Wohnung",
+        "Fassade",
+        "Türen/Fenster"
+      ],
+      "timings": [
+        "So bald wie möglich",
+        "In den nächsten Wochen",
+        "In 1–3 Monaten",
+        "Ich plane erst noch"
+      ]
+    },
+    "badges": [
+      {
+        "title": "Malermeister",
+        "sub": "Reinhard Kefer"
+      },
+      {
+        "title": "Traubing",
+        "sub": "Andechser Straße"
+      },
+      {
+        "title": "Lackieren",
+        "sub": "Holz & Metall"
+      },
+      {
+        "title": "Innen & außen",
+        "sub": "Wände und Fassaden"
+      }
+    ],
+    "seoTitle": "Malerbetrieb in Tutzing-Traubing – Reinhard Kefer",
+    "seoDescription": "Maler- und Lackierarbeiten in Traubing, Tutzing und Umgebung vom Malermeister Reinhard Kefer. Jetzt unverbindlich anfragen.",
+    "logoMark": "RK",
+    "brandName": "Malerbetrieb Kefer",
+    "logoIcon": "roller",
+    "nav": [
+      {
+        "label": "Leistungen",
+        "href": "#leistungen"
+      },
+      {
+        "label": "Projekte",
+        "href": "#projekte"
+      },
+      {
+        "label": "Bewertungen",
+        "href": "#bewertungen"
+      },
+      {
+        "label": "Ablauf",
+        "href": "#ablauf"
+      },
+      {
+        "label": "FAQ",
+        "href": "#faq"
+      },
+      {
+        "label": "Kontakt",
+        "href": "#kontakt"
+      }
+    ],
+    "hero": {
+      "eyebrow": "Malermeister · Tutzing-Traubing",
+      "headline": "Malerbetrieb Kefer in Traubing",
+      "sub": "Streichen, lackieren und tapezieren – vom Meister aus Traubing für das Fünfseenland.",
+      "ctaPrimary": "Angebot anfragen",
+      "ctaSecondary": "Anrufen",
+      "bullets": [
+        "Malermeister vor Ort in Traubing",
+        "Über 30 Jahre in eigener Hand",
+        "Innen, außen, Holz und Metall"
+      ],
+      "imageLabel": "frisch gestrichenes Wohnzimmer mit lackierten Holzfenstern"
+    },
+    "trust": [
+      {
+        "value": "30+",
+        "label": "Jahre unter Reinhard Kefer"
+      },
+      {
+        "value": "Meister",
+        "label": "Maler- und Lackierer"
+      },
+      {
+        "value": "Traubing",
+        "label": "Betrieb im Ort"
+      },
+      {
+        "value": "t-online",
+        "label": "Anfrage auch per E-Mail"
+      }
+    ],
+    "services": [
+      {
+        "title": "Innenanstrich",
+        "text": "Wände und Decken bekommen einen gleichmäßigen, frischen Anstrich – Möbel und Böden werden vorher sauber abgedeckt.",
+        "items": [
+          "Wände",
+          "Decken",
+          "Treppenhäuser"
+        ]
+      },
+      {
+        "title": "Lackierarbeiten",
+        "text": "Türen, Fensterrahmen, Heizkörper und Geländer werden geschliffen und neu lackiert, damit sie wieder geschützt sind.",
+        "items": [
+          "Türen",
+          "Heizkörper",
+          "Geländer"
+        ]
+      },
+      {
+        "title": "Tapezieren",
+        "text": "Alte Tapeten kommen runter, der Untergrund wird vorbereitet und neue Tapete sauber auf Stoß geklebt.",
+        "items": [
+          "Raufaser",
+          "Vliestapete",
+          "Untergrund vorbereiten"
+        ]
+      },
+      {
+        "title": "Fassadenanstrich",
+        "text": "Ein neuer Fassadenanstrich schützt das Mauerwerk vor Witterung und lässt das Haus wieder gepflegt aussehen.",
+        "items": [
+          "Putzfassaden",
+          "Sockel",
+          "Dachuntersichten"
+        ]
+      },
+      {
+        "title": "Holzfenster & Läden",
+        "text": "Holzfenster und Fensterläden werden angeschliffen und neu gestrichen, bevor Feuchtigkeit ins Holz zieht.",
+        "items": [
+          "Fensterrahmen",
+          "Fensterläden",
+          "Holzverkleidung"
+        ]
+      },
+      {
+        "title": "Renovierung bei Auszug",
+        "text": "Wohnung übergabefertig streichen lassen – für Mieter, Vermieter und Eigentümer vor dem Verkauf.",
+        "items": [
+          "Auszugsrenovierung",
+          "Vermietung",
+          "Spachtelarbeiten"
+        ]
+      }
+    ],
+    "servicesIntro": {
+      "headline": "Farbe, Lack und Tapete aus einer Hand",
+      "text": "Vom einzelnen Zimmer bis zur Fassade: Der Malerbetrieb Kefer übernimmt Vorbereitung, Anstrich und Aufräumen."
+    },
+    "why": {
+      "headline": "Ein Malermeister aus dem Ort statt anonymer Kolonne.",
+      "points": [
+        {
+          "title": "Kurze Wege",
+          "text": "Der Betrieb sitzt in Traubing – Tutzing, Aschering und Machtlfing liegen direkt nebenan."
+        },
+        {
+          "title": "Erfahrung im Betrieb",
+          "text": "Reinhard Kefer hat hier gelernt und den Betrieb vor über 30 Jahren übernommen."
+        },
+        {
+          "title": "Direkter Ansprechpartner",
+          "text": "Sie sprechen mit dem Meister selbst – vom Angebot bis zur Abnahme."
+        },
+        {
+          "title": "Sauber hinterlassen",
+          "text": "Abdecken, Abkleben und Aufräumen gehören zu jedem Auftrag dazu."
+        }
+      ]
+    },
+    "reviews": {
+      "headline": "Was Kunden sagen",
+      "summary": "Kundenstimmen werden hier eingebunden, sobald sie aus dem Google-Profil übernommen sind.",
+      "highlights": [
+        "Malermeister in Traubing",
+        "Lackier- und Malerarbeiten",
+        "Direkter Kontakt zum Inhaber"
+      ],
+      "source": "Google",
+      "sourceUrl": "https://www.google.com/maps/search/?api=1&query=Reinhard%20Kefer%20Maler%20Andechser%20Str.%2022%20Tutzing",
+      "rating": null,
+      "count": null
+    },
+    "process": {
+      "headline": "So kommt Farbe an Ihre Wände",
+      "steps": [
+        {
+          "title": "Anfrage",
+          "text": "Kurz anrufen oder per E-Mail beschreiben, welche Räume oder Flächen anstehen."
+        },
+        {
+          "title": "Besichtigung",
+          "text": "Untergrund, Farbton und Umfang werden vor Ort angeschaut."
+        },
+        {
+          "title": "Angebot",
+          "text": "Sie erhalten ein schriftliches Angebot mit klarem Leistungsumfang."
+        },
+        {
+          "title": "Ausführung",
+          "text": "Abdecken, vorbereiten, streichen – und besenrein übergeben."
+        }
+      ]
+    },
+    "gallery": {
+      "headline": "Frisch gestrichen im Fünfseenland",
+      "text": "Für die Live-Version zeigen wir hier echte Arbeiten des Betriebs.",
+      "items": [
+        {
+          "title": "Wohnzimmer",
+          "photoNeeded": "frisch gestrichenes Wohnzimmer mit hellen Wänden"
+        },
+        {
+          "title": "Treppenhaus",
+          "photoNeeded": "neu gestrichenes Treppenhaus mit Geländer"
+        },
+        {
+          "title": "Holzfenster",
+          "photoNeeded": "neu lackierte Holzfenster mit Läden"
+        },
+        {
+          "title": "Fassade",
+          "photoNeeded": "Einfamilienhaus mit frischem Fassadenanstrich"
+        },
+        {
+          "title": "Tapete",
+          "photoNeeded": "neu tapezierte Wand im Schlafzimmer"
+        }
+      ]
+    },
+    "region": {
+      "headline": "Malerarbeiten in Traubing und rund um Tutzing",
+      "text": "Von Traubing aus schnell in Tutzing, Aschering, Machtlfing, Pöcking, Andechs und Feldafing.",
+      "places": [
+        "Traubing",
+        "Tutzing",
+        "Aschering",
+        "Machtlfing",
+        "Pöcking",
+        "Andechs",
+        "Feldafing"
+      ]
+    },
+    "faq": [
+      {
+        "q": "Kommen Sie zur Besichtigung vorbei?",
+        "a": "Ja, Umfang und Untergrund werden vor dem Angebot vor Ort angeschaut."
+      },
+      {
+        "q": "Muss ich die Möbel selbst wegräumen?",
+        "a": "Das wird bei der Besichtigung abgesprochen. Böden und verbleibende Möbel werden abgedeckt."
+      },
+      {
+        "q": "Lackieren Sie auch Türen und Fenster?",
+        "a": "Ja, Lackierarbeiten an Holz und Metall gehören zum Malerhandwerk und zum Angebot."
+      },
+      {
+        "q": "Kann ich per E-Mail anfragen?",
+        "a": "Ja, schicken Sie gern eine kurze Beschreibung und Fotos per E-Mail oder rufen Sie an."
+      },
+      {
+        "q": "Arbeiten Sie auch außerhalb von Traubing?",
+        "a": "Ja, in Tutzing und den umliegenden Orten – fragen Sie einfach an."
+      }
+    ],
+    "contact": {
+      "headline": "Ihr Malerprojekt – unverbindlich anfragen",
+      "text": "Beschreiben Sie kurz, welche Räume oder Flächen anstehen und ob gestrichen, lackiert oder tapeziert werden soll. Fotos helfen.",
+      "topics": [
+        "Innenanstrich",
+        "Lackierarbeiten",
+        "Tapezieren",
+        "Fassade",
+        "Sonstiges"
+      ],
+      "responseNote": "Besichtigung nach Absprache."
+    },
+    "stickyCta": "Angebot anfragen",
+    "look": {
+      "palette": 2,
+      "font": 6,
+      "hero": 0,
+      "services": 1,
+      "radius": 1,
+      "logo": 0,
+      "intro": 5
+    }
+  }
+}

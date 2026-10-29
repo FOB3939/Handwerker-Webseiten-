@@ -1,0 +1,397 @@
+{
+  "id": "2026-10-29-170",
+  "slug": "hausmeisterservice-kaindl-peissenberg",
+  "date": "2026-10-29",
+  "company": {
+    "name": "Hausmeisterservice Kaindl",
+    "owner": null,
+    "trade": "Hausmeisterservice",
+    "city": "Peißenberg",
+    "address": "Barbarahof 6, 82380 Peißenberg",
+    "phone": "0162 3567403",
+    "email": null,
+    "serviceArea": [
+      "Peißenberg",
+      "Hohenpeißenberg",
+      "Weilheim",
+      "Peiting",
+      "Polling",
+      "Forst"
+    ]
+  },
+  "listings": {
+    "google": {
+      "url": "https://www.google.com/maps/search/?api=1&query=Hausmeisterservice%20Kaindl%20Barbarahof%206%20Pei%C3%9Fenberg",
+      "rating": null,
+      "reviews": null,
+      "evidence": "NICHT BELEGT – weder direkter Google-Maps-Treffer noch Google-Spiegel (rgv-bayern, firmania, trustlocal) gefunden. In Maps prüfen."
+    },
+    "myhammer": {
+      "url": "https://www.11880.com/suche/hausmeisterservice/weilheim",
+      "rating": null,
+      "reviews": null,
+      "evidence": "Kein MyHammer gefunden – Eintrag „Hausmeisterservice kaindl“ in der 11880-Ortsliste (Kategorie Hausmeisterservice, Barbarahof 6, 82380 Peißenberg, (0162) 3567403, keine Öffnungszeiten)."
+    }
+  },
+  "websiteStatus": "keine eigene Website gefunden",
+  "websiteChecks": [
+    "(1) „Hausmeisterservice Kaindl Peißenberg Barbarahof“ mit blocked_domains (11880, Gelbe Seiten, Das Örtliche, Telefonbuch, Cylex, meinestadt, Creditreform, Facebook, Instagram, golocal, MyHammer, Northdata, Firmenwissen, WKDB, Yelp, trustlocal, wlw) – nur Verzeichnisse (hausmeisterdienste.net, fliesenleger.net) mit anderen Peißenberger Betrieben; kein Kaindl-Eintrag, keine eigene Domain. Unter Barbarahof 6a ist zusätzlich „Tolgay Bostan Gebäudemanagement“ gelistet (andere Firma)",
+    "(2) Telefonsuche „0162 3567403“/„01623567403“/„0162/3567403“ mit blocked_domains – nur Rufnummern-Blocklisten (anrufer.info, handyanrufe.de), keine Website",
+    "(3) Domain-Check allowed_domains hausmeisterservice-kaindl.de, kaindl-hausmeisterservice.de, hausmeister-kaindl.de, kaindl-hausmeister.de, kaindl-service.de, hms-kaindl.de, kaindl-peissenberg.de, kaindl.de – nur kaindl.de (Kaindl Schleiftechnik, Königsbach-Stein – fremde Firma), sonst keine Treffer",
+    "(4) Spiegelsuche (rgv-bayern, firmania, trustlocal, hausmeisterdienste.net) – nur der 11880-Eintrag, kein Website-Feld, keine E-Mail",
+    "(5) Impressum-Suche nicht separat durchgeführt (Suchbudget) – Inhaber-Vorname unbekannt",
+    "Website-Risiko: mittel – alle Prüfungen negativ, aber weder Google-Eintrag noch Freemail belegt (RESERVE)"
+  ],
+  "facts": {
+    "services": [
+      "Hausmeisterservice"
+    ],
+    "experience": null,
+    "praisedFor": []
+  },
+  "strategy": {
+    "audience": "Hausverwaltungen, Vermieter, Eigentümergemeinschaften und ältere Hausbesitzer in Peißenberg, Hohenpeißenberg und Weilheim, die laufende Pflege von Haus und Grundstück abgeben wollen",
+    "mainService": "Hausmeisterservice für Wohnanlagen und Privathäuser",
+    "trustSignal": "Betrieb vor Ort in Peißenberg, direkt per Handy erreichbar",
+    "conversionGoal": "Hausmeister-Angebot anfragen – per Anruf oder WhatsApp mit Objektadresse und gewünschten Aufgaben",
+    "visualConcept": "Gepflegter Hauseingang einer Wohnanlage im Pfaffenwinkel: gefegte Wege, gemähter Rasen, ordentliche Mülltonnenplätze – bodenständig und aufgeräumt"
+  },
+  "sales": {
+    "score": 4,
+    "whyGoodLead": [
+      "Keine eigene Website gefunden – nur ein 11880-Eintrag",
+      "Mobilnummer öffentlich gelistet – WhatsApp-Erstkontakt möglich",
+      "Hausverwaltungen suchen Hausmeister online – ohne Seite kaum auffindbar",
+      "Wiederkehrende Aufträge: eine Anfrage kann zu einem Dauervertrag werden"
+    ],
+    "pitch": "Hallo, hier ist … – ich baue Websites für Handwerksbetriebe im Pfaffenwinkel. Ich habe Ihren Eintrag „Hausmeisterservice Kaindl“ in Peißenberg gefunden, aber keine eigene Website. Ich habe unverbindlich einen Entwurf vorbereitet, über den Hausverwaltungen und Eigentümer Sie direkt per WhatsApp anfragen können – darf ich Ihnen den Link schicken?"
+  },
+  "manualChecks": [
+    "RESERVE – weder Google-Eintrag noch Freemail-Adresse belegt: NUR versenden, wenn Google Maps einen Eintrag OHNE Website zeigt.",
+    "Google Maps: „Hausmeisterservice Kaindl, Barbarahof 6, Peißenberg“ suchen – Existenz, Bewertungen und Website-Feld prüfen",
+    "Nur ein einziger Verzeichniseintrag (11880) – prüfen, ob der Betrieb noch aktiv ist",
+    "Inhabername unbekannt (nur Nachname Kaindl) – Anrede beim Erstkontakt bestätigen",
+    "Konkrete Leistungen nicht belegt (nur Kategorie Hausmeisterservice) – Seite zeigt gewerkübliche Aufgaben (Pflege, Winterdienst, Kleinreparaturen); vor Versand beim Betrieb bestätigen",
+    "Logo und Fotos: nicht gefunden – beim Betrieb anfragen"
+  ],
+  "sources": [
+    {
+      "label": "11880 – Hausmeisterservices Weilheim (Liste mit Hausmeisterservice Kaindl, Peißenberg)",
+      "url": "https://www.11880.com/suche/hausmeisterservice/weilheim"
+    },
+    {
+      "label": "11880 – Hausmeisterservices Schongau (Umkreisliste mit Peißenberger Betrieben)",
+      "url": "https://www.11880.com/suche/hausmeisterservice/schongau"
+    }
+  ],
+  "site": {
+    "theme": "garten",
+    "category": "handwerk",
+    "heroOffer": [
+      "Hauspflege",
+      "Grünpflege",
+      "Winterdienst",
+      "Kleinreparaturen",
+      "Kontrollgänge"
+    ],
+    "scene": "garden",
+    "logoIcon": "house",
+    "logoMark": "HK",
+    "brandName": "Hausmeisterservice Kaindl",
+    "seoTitle": "Hausmeisterservice in Peißenberg – Hausmeisterservice Kaindl",
+    "seoDescription": "Hausmeisterservice in Peißenberg und Umgebung: Pflege von Haus und Außenanlagen, Winterdienst und kleine Reparaturen. Jetzt per WhatsApp anfragen.",
+    "nav": [
+      {
+        "label": "Leistungen",
+        "href": "#leistungen"
+      },
+      {
+        "label": "Projekte",
+        "href": "#projekte"
+      },
+      {
+        "label": "Bewertungen",
+        "href": "#bewertungen"
+      },
+      {
+        "label": "Ablauf",
+        "href": "#ablauf"
+      },
+      {
+        "label": "FAQ",
+        "href": "#faq"
+      },
+      {
+        "label": "Kontakt",
+        "href": "#kontakt"
+      }
+    ],
+    "hero": {
+      "eyebrow": "Hausmeisterservice · Peißenberg",
+      "headline": "Ihr Hausmeister in Peißenberg",
+      "sub": "Haus, Hof und Grünflächen in Schuss halten – rund um Peißenberg.",
+      "ctaPrimary": "Hausmeister anfragen",
+      "ctaSecondary": "Anrufen",
+      "bullets": [
+        "Betrieb in Peißenberg",
+        "Für Wohnanlagen und Privathäuser",
+        "Direkt per Handy erreichbar"
+      ],
+      "imageLabel": "gepflegter Eingang einer Wohnanlage mit gefegtem Weg und gemähtem Rasen"
+    },
+    "badges": [
+      {
+        "title": "Hauspflege",
+        "sub": "Treppenhaus & Keller"
+      },
+      {
+        "title": "Außenanlagen",
+        "sub": "Rasen, Hecke, Wege"
+      },
+      {
+        "title": "Winterdienst",
+        "sub": "Wege frei halten"
+      },
+      {
+        "title": "Peißenberg",
+        "sub": "Barbarahof"
+      }
+    ],
+    "trust": [
+      {
+        "value": "Vor Ort",
+        "label": "Betrieb in Peißenberg"
+      },
+      {
+        "value": "Haus & Hof",
+        "label": "innen und außen"
+      },
+      {
+        "value": "Laufend",
+        "label": "auch regelmäßige Termine"
+      },
+      {
+        "value": "Mobil",
+        "label": "direkt erreichbar"
+      }
+    ],
+    "servicesIntro": {
+      "headline": "Was ein Hausmeister Ihnen abnimmt",
+      "text": "Damit Mieter, Eigentümer und Verwaltung sich nicht um jede Glühbirne und jeden Rasenschnitt kümmern müssen."
+    },
+    "services": [
+      {
+        "title": "Objektbetreuung",
+        "text": "Regelmäßige Kontrollgänge durch Haus, Keller und Technikräume – Mängel werden früh gemeldet.",
+        "items": [
+          "Kontrollgänge",
+          "Mängelmeldung",
+          "Ansprechpartner"
+        ]
+      },
+      {
+        "title": "Grünpflege",
+        "text": "Rasen mähen, Hecken schneiden, Laub entfernen – die Außenanlage bleibt ordentlich.",
+        "items": [
+          "Rasen",
+          "Hecken",
+          "Laub"
+        ]
+      },
+      {
+        "title": "Winterdienst",
+        "text": "Wege und Zugänge werden geräumt und gestreut, wenn Schnee fällt.",
+        "items": [
+          "Räumen",
+          "Streuen",
+          "Zugänge"
+        ]
+      },
+      {
+        "title": "Kleinreparaturen",
+        "text": "Klemmende Türen, lose Griffe, defekte Leuchtmittel – kleine Schäden werden direkt behoben.",
+        "items": [
+          "Türen",
+          "Leuchtmittel",
+          "Kleinteile"
+        ]
+      },
+      {
+        "title": "Mülltonnenservice",
+        "text": "Tonnen werden zur Abholung bereitgestellt und der Stellplatz sauber gehalten.",
+        "items": [
+          "Bereitstellen",
+          "Stellplatz",
+          "Sauberkeit"
+        ]
+      },
+      {
+        "title": "Treppenhaus & Keller",
+        "text": "Gemeinschaftsflächen werden in Ordnung gehalten – Treppen, Flure und Kellergänge.",
+        "items": [
+          "Treppenhaus",
+          "Flure",
+          "Keller"
+        ]
+      }
+    ],
+    "why": {
+      "headline": "Ein Hausmeister aus Peißenberg – nah am Objekt.",
+      "points": [
+        {
+          "title": "Kurze Wege",
+          "text": "Der Betrieb sitzt in Peißenberg und ist schnell in Hohenpeißenberg, Weilheim und Peiting."
+        },
+        {
+          "title": "Ein Ansprechpartner",
+          "text": "Verwaltung und Eigentümer haben eine feste Nummer für alles rund ums Haus."
+        },
+        {
+          "title": "Regelmäßig",
+          "text": "Pflege und Kontrolle nach festem Rhythmus statt nur auf Zuruf."
+        },
+        {
+          "title": "Direkter Draht",
+          "text": "Anruf oder WhatsApp genügt – ohne Warteschleife."
+        }
+      ]
+    },
+    "reviews": {
+      "headline": "Was Kunden sagen",
+      "summary": "Kundenstimmen werden hier eingebunden, sobald sie aus dem Google-Profil übernommen sind.",
+      "highlights": [
+        "Hausmeisterservice in Peißenberg",
+        "Haus und Außenanlagen",
+        "Direkter Kontakt"
+      ],
+      "source": "Google",
+      "sourceUrl": "https://www.google.com/maps/search/?api=1&query=Hausmeisterservice%20Kaindl%20Barbarahof%206%20Pei%C3%9Fenberg",
+      "rating": null,
+      "count": null
+    },
+    "process": {
+      "headline": "So startet die Betreuung",
+      "steps": [
+        {
+          "title": "Anfrage",
+          "text": "Objektadresse und gewünschte Aufgaben per WhatsApp schicken – oder anrufen."
+        },
+        {
+          "title": "Besichtigung",
+          "text": "Haus und Außenanlagen werden gemeinsam angeschaut."
+        },
+        {
+          "title": "Angebot",
+          "text": "Sie erhalten ein Angebot – einmalig oder als regelmäßige Betreuung."
+        },
+        {
+          "title": "Betreuung",
+          "text": "Die Arbeiten laufen nach Plan, Mängel werden gemeldet."
+        }
+      ]
+    },
+    "gallery": {
+      "headline": "Gepflegte Häuser im Pfaffenwinkel",
+      "text": "Für die Live-Version zeigen wir hier echte Objekte, die der Betrieb betreut.",
+      "items": [
+        {
+          "title": "Gepflegter Eingang",
+          "photoNeeded": "Hauseingang einer Wohnanlage mit sauberem Weg"
+        },
+        {
+          "title": "Rasen & Hecke",
+          "photoNeeded": "frisch gemähter Rasen mit geschnittener Hecke"
+        },
+        {
+          "title": "Winterdienst",
+          "photoNeeded": "geräumter und gestreuter Gehweg"
+        },
+        {
+          "title": "Treppenhaus",
+          "photoNeeded": "sauberes, helles Treppenhaus"
+        },
+        {
+          "title": "Tonnenplatz",
+          "photoNeeded": "aufgeräumter Mülltonnenstellplatz"
+        }
+      ]
+    },
+    "region": {
+      "headline": "Hausmeisterservice für Peißenberg und Umgebung",
+      "text": "Von Peißenberg aus in Hohenpeißenberg, Weilheim, Peiting, Polling, Forst und Wessobrunn.",
+      "places": [
+        "Peißenberg",
+        "Hohenpeißenberg",
+        "Weilheim",
+        "Peiting",
+        "Polling",
+        "Forst",
+        "Wessobrunn"
+      ]
+    },
+    "faq": [
+      {
+        "q": "Betreuen Sie auch einzelne Privathäuser?",
+        "a": "Fragen Sie gern an – Umfang und Rhythmus werden individuell abgestimmt."
+      },
+      {
+        "q": "Ist auch ein einmaliger Einsatz möglich?",
+        "a": "Ja, zum Beispiel ein Garteneinsatz im Herbst. Regelmäßige Betreuung ist ebenso möglich."
+      },
+      {
+        "q": "Wer kümmert sich im Winter um die Wege?",
+        "a": "Winterdienst kann Teil der Betreuung sein – Details klären Sie bei der Besichtigung."
+      },
+      {
+        "q": "Wie schnell bekomme ich ein Angebot?",
+        "a": "Nach der Besichtigung des Objekts erhalten Sie ein Angebot."
+      },
+      {
+        "q": "Arbeiten Sie auch außerhalb von Peißenberg?",
+        "a": "Ja, im Umkreis von Peißenberg – fragen Sie einfach an."
+      }
+    ],
+    "contact": {
+      "headline": "Hausmeister anfragen – kostenlos und unverbindlich",
+      "text": "Nennen Sie kurz Ort und Art des Objekts und welche Aufgaben übernommen werden sollen.",
+      "topics": [
+        "Objektbetreuung",
+        "Grünpflege",
+        "Winterdienst",
+        "Kleinreparaturen",
+        "Sonstiges"
+      ],
+      "responseNote": "Besichtigung nach Absprache."
+    },
+    "quote": {
+      "sizeLabel": "Um welches Objekt geht es?",
+      "sizes": [
+        "Einfamilienhaus",
+        "Mehrfamilienhaus",
+        "Wohnanlage",
+        "Gewerbeobjekt"
+      ],
+      "timings": [
+        "So bald wie möglich",
+        "In den nächsten Wochen",
+        "In 1–3 Monaten",
+        "Ich plane erst noch"
+      ]
+    },
+    "stickyCta": "Hausmeister anfragen",
+    "look": {
+      "palette": 3,
+      "font": 5,
+      "hero": 7,
+      "services": 3,
+      "radius": 0,
+      "logo": 3,
+      "intro": 4,
+      "projects": 0,
+      "process": 0,
+      "faq": 0,
+      "reviews": 1,
+      "order": 3
+    }
+  }
+}

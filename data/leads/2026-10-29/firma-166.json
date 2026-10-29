@@ -1,0 +1,401 @@
+{
+  "id": "2026-10-29-166",
+  "slug": "gaber-rehm-maler-unterfoehring",
+  "date": "2026-10-29",
+  "company": {
+    "name": "Gaber-Rehm Gerd",
+    "owner": "Gerd Gaber-Rehm",
+    "trade": "Malerbetrieb",
+    "city": "Unterföhring",
+    "address": "Keltenweg 46, 85774 Unterföhring",
+    "phone": "089 9581663",
+    "email": null,
+    "serviceArea": [
+      "Unterföhring",
+      "Ismaning",
+      "Aschheim",
+      "Feldkirchen",
+      "Johanneskirchen",
+      "Bogenhausen",
+      "Garching"
+    ]
+  },
+  "listings": {
+    "google": {
+      "url": "https://www.google.com/maps/search/?api=1&query=Gaber-Rehm%20Gerd%20Keltenweg%2046%20Unterf%C3%B6hring",
+      "rating": null,
+      "reviews": null,
+      "evidence": "NICHT belegt – Suche über Google-Spiegel (trustlocal, firmania, rgv-bayern) ohne Treffer zu Gaber-Rehm; keine Freemail gefunden. In Maps prüfen."
+    },
+    "myhammer": {
+      "url": "https://www.11880.com/branchenbuch/unterfoehring/060693517B52801929/gaber-rehm-gerd.html",
+      "rating": null,
+      "reviews": null,
+      "evidence": "Kein MyHammer gefunden – 11880-Eintrag „Gaber-Rehm Gerd“, Maler, Keltenweg 46, 85774 Unterföhring, Tel. (089) 9581663 (laut Snippet aktualisiert 02.10.2026, ohne Bewertungen und Öffnungszeiten). Gemeinde-Broschüre Unterföhring (yumpu) führt „Malerbetrieb Gaber-Rehm G“."
+    }
+  },
+  "websiteStatus": "keine eigene Website gefunden",
+  "websiteChecks": [
+    "(1) „Gerd Gaber-Rehm Maler“ mit blocked_domains (11880, Gelbe Seiten, Das Örtliche, Telefonbuch, Cylex, meinestadt, Creditreform, Facebook, Instagram, golocal, MyHammer, Northdata, Firmenwissen, WKDB, Yelp, trustlocal, wlw) – nur Verzeichnisse (Gemeinde-Broschüre Unterföhring auf yumpu, regio.land-Branchenliste); keine eigene Domain. „Maler Rehm“ (maler-rehm-nf.de) und Rehm Malermeister GmbH (Augustdorf) sind andere Firmen",
+    "(2) „Gaber-Rehm Unterföhring“ in 11880/trustlocal/firmania/rgv-bayern/maler.org – nur 11880-Eintrag ohne Website-Feld",
+    "(3) Domain-Check allowed_domains gaber-rehm.de, maler-gaber-rehm.de, malerbetrieb-gaber-rehm.de, gaberrehm.de, malermeister-gaber-rehm.de, gaber-rehm-maler.de, maler-gaber.de, gaber-maler.de – keine Treffer",
+    "(4) Telefonsuche „089 9581663“/„0899581663“ – keine Treffer",
+    "Website-Risiko: mittel – alle Prüfungen negativ, aber weder Google-Eintrag noch Freemail belegt (RESERVE); Eintrag eher alt (Ersteintrag laut Snippet 2021)"
+  ],
+  "facts": {
+    "services": [
+      "Malerarbeiten"
+    ],
+    "experience": null,
+    "praisedFor": []
+  },
+  "strategy": {
+    "audience": "Mieter, Eigentümer und Hausverwaltungen in Unterföhring, Ismaning und Aschheim, die Wohnungen oder Treppenhäuser streichen lassen wollen",
+    "mainService": "Malerarbeiten innen – Wände, Decken, Lackierungen",
+    "trustSignal": "Malerbetrieb mit Sitz in Unterföhring, direkt per Telefon erreichbar",
+    "conversionGoal": "Angebot für Malerarbeiten anfragen (Anruf oder Formular mit Raumangaben)",
+    "visualConcept": "Helle, frisch gestrichene Räume, Farbrolle und abgeklebte Kanten – ordentlich und freundlich"
+  },
+  "sales": {
+    "score": 3,
+    "whyGoodLead": [
+      "Keine eigene Website gefunden – nur Verzeichniseinträge mit Festnetznummer",
+      "Unterföhring hat viele Mietwohnungen und Neubauten – Malerarbeiten bei Ein- und Auszug sind gefragt",
+      "Ohne Website kaum auffindbar – ein Auftritt bringt Anfragen aus dem Nordosten Münchens"
+    ],
+    "pitch": "Grüß Gott Herr Gaber-Rehm, hier ist … – ich baue Websites für Handwerker im Münchner Norden. Ich habe Ihren Eintrag als Malerbetrieb in Unterföhring gefunden, aber keine eigene Website. Ich habe unverbindlich einen Entwurf vorbereitet, auf dem Kunden Ihre Malerarbeiten sehen und direkt anfragen können – darf ich Ihnen den Link schicken?"
+  },
+  "manualChecks": [
+    "RESERVE – weder Google-Eintrag noch Freemail-Adresse belegt: NUR versenden, wenn Google Maps einen Eintrag OHNE Website zeigt.",
+    "Website-Risiko: mittel – vor Versand in Google Maps prüfen, dass keine Website hinterlegt ist (Grund: weder Google-Eintrag noch Freemail belegt, nur Verzeichniseinträge)",
+    "Prüfen, ob der Betrieb noch aktiv ist (Eintrag eher alt, Festnetz) – ggf. kurz anrufen",
+    "Ein Snippet beschreibt ihn als Maler- und Lackierermeister mit Terminen nach telefonischer Absprache – Quelle unklar, daher NICHT übernommen; beim Erstkontakt klären",
+    "Leistungen nur als „Maler“ belegt – Schwerpunkte (Innenanstrich, Fassade, Tapezieren, Lackieren) beim Betrieb erfragen",
+    "Keine Mobilnummer, keine E-Mail gefunden – Kontakt telefonisch",
+    "Logo und Projektfotos: nicht gefunden – beim Betrieb anfragen"
+  ],
+  "sources": [
+    {
+      "label": "11880 – Gaber-Rehm Gerd, Unterföhring",
+      "url": "https://www.11880.com/branchenbuch/unterfoehring/060693517B52801929/gaber-rehm-gerd.html"
+    },
+    {
+      "label": "11880 – Maler Garching (Liste mit Gaber-Rehm Gerd)",
+      "url": "https://www.11880.com/suche/maler/garching"
+    },
+    {
+      "label": "Gemeinde Unterföhring – Broschüre mit „Malerbetrieb Gaber-Rehm G“ (yumpu)",
+      "url": "https://www.yumpu.com/de/document/view/3456699/janayen-ulrike-dr-gemeinde-unterfahring/149"
+    }
+  ],
+  "site": {
+    "theme": "atelier",
+    "category": "handwerk",
+    "heroOffer": [
+      "Innenanstrich",
+      "Tapezieren",
+      "Lackieren",
+      "Decken",
+      "Treppenhaus"
+    ],
+    "scene": "paint",
+    "logoIcon": "roller",
+    "logoMark": "GR",
+    "brandName": "Malerbetrieb Gaber-Rehm",
+    "seoTitle": "Maler in Unterföhring – Malerbetrieb Gaber-Rehm",
+    "seoDescription": "Malerarbeiten in Unterföhring, Ismaning und Aschheim: Wände, Decken, Tapeten und Lack. Jetzt Angebot anfragen.",
+    "nav": [
+      {
+        "label": "Leistungen",
+        "href": "#leistungen"
+      },
+      {
+        "label": "Projekte",
+        "href": "#projekte"
+      },
+      {
+        "label": "Bewertungen",
+        "href": "#bewertungen"
+      },
+      {
+        "label": "Ablauf",
+        "href": "#ablauf"
+      },
+      {
+        "label": "FAQ",
+        "href": "#faq"
+      },
+      {
+        "label": "Kontakt",
+        "href": "#kontakt"
+      }
+    ],
+    "hero": {
+      "eyebrow": "Malerbetrieb · Unterföhring",
+      "headline": "Ihr Maler in Unterföhring",
+      "sub": "Frische Farbe für Wohnung, Haus und Treppenhaus im Münchner Nordosten.",
+      "ctaPrimary": "Angebot anfragen",
+      "ctaSecondary": "Anrufen",
+      "bullets": [
+        "Malerbetrieb aus Unterföhring",
+        "Wände, Decken, Lack",
+        "Direkt per Telefon"
+      ],
+      "imageLabel": "frisch gestrichene, helle Wohnzimmerwand mit Farbrolle"
+    },
+    "badges": [
+      {
+        "title": "Anstrich",
+        "sub": "Wände & Decken"
+      },
+      {
+        "title": "Tapete",
+        "sub": "neu tapeziert"
+      },
+      {
+        "title": "Lack",
+        "sub": "Türen & Heizkörper"
+      },
+      {
+        "title": "Unterföhring",
+        "sub": "Keltenweg"
+      }
+    ],
+    "trust": [
+      {
+        "value": "Vor Ort",
+        "label": "Betrieb in Unterföhring"
+      },
+      {
+        "value": "Innen",
+        "label": "Wohnung & Haus"
+      },
+      {
+        "value": "Direkt",
+        "label": "Ansprechpartner am Telefon"
+      },
+      {
+        "value": "Nordost",
+        "label": "Unterföhring bis Ismaning"
+      }
+    ],
+    "servicesIntro": {
+      "headline": "Malerarbeiten für Wohnung und Haus",
+      "text": "Ein neuer Anstrich vor dem Einzug, eine Tapete im Kinderzimmer oder lackierte Türen: Sie sagen, was ansteht – der Maler übernimmt."
+    },
+    "services": [
+      {
+        "title": "Wände & Decken",
+        "text": "Räume streichen – vom einzelnen Zimmer bis zur ganzen Wohnung, mit sauber abgeklebten Kanten.",
+        "items": [
+          "Innenanstrich",
+          "Deckenanstrich",
+          "Farbwechsel"
+        ]
+      },
+      {
+        "title": "Tapezieren",
+        "text": "Alte Tapete runter, neue Tapete drauf – glatt und auf Stoß geklebt.",
+        "items": [
+          "Raufaser",
+          "Vliestapete",
+          "Tapete entfernen"
+        ]
+      },
+      {
+        "title": "Lackierarbeiten",
+        "text": "Türen, Zargen, Heizkörper und Geländer bekommen einen neuen Lack.",
+        "items": [
+          "Türen",
+          "Heizkörper",
+          "Geländer"
+        ]
+      },
+      {
+        "title": "Renovierung bei Auszug",
+        "text": "Wohnung für die Übergabe streichen lassen – passend zum Auszugstermin.",
+        "items": [
+          "Auszug",
+          "Übergabe",
+          "Mietwohnung"
+        ]
+      },
+      {
+        "title": "Treppenhaus",
+        "text": "Treppenhäuser und Flure in Mehrfamilienhäusern frisch streichen.",
+        "items": [
+          "Flure",
+          "Treppenhaus",
+          "Eingangsbereich"
+        ]
+      },
+      {
+        "title": "Spachteln & Ausbessern",
+        "text": "Risse, Löcher und unebene Stellen vor dem Streichen ausbessern.",
+        "items": [
+          "Risse",
+          "Dübellöcher",
+          "Glätten"
+        ]
+      }
+    ],
+    "why": {
+      "headline": "Maler aus Unterföhring – ohne lange Wege.",
+      "points": [
+        {
+          "title": "Kurze Wege",
+          "text": "Von Unterföhring schnell in Ismaning, Aschheim, Feldkirchen und Bogenhausen."
+        },
+        {
+          "title": "Ein Ansprechpartner",
+          "text": "Sie sprechen direkt mit Gerd Gaber-Rehm – von der Anfrage bis zur Übergabe."
+        },
+        {
+          "title": "Sauber gearbeitet",
+          "text": "Böden und Möbel werden abgedeckt, Kanten sauber abgeklebt."
+        },
+        {
+          "title": "Klarer Preis",
+          "text": "Umfang und Kosten werden vor Beginn besprochen."
+        }
+      ]
+    },
+    "reviews": {
+      "headline": "Was Kunden sagen",
+      "summary": "Kundenstimmen werden hier eingebunden, sobald sie aus dem Google-Profil übernommen sind.",
+      "highlights": [
+        "Maler in Unterföhring",
+        "Wände, Decken, Lack",
+        "Direkter Kontakt"
+      ],
+      "source": "Google",
+      "sourceUrl": "https://www.google.com/maps/search/?api=1&query=Gaber-Rehm%20Gerd%20Keltenweg%2046%20Unterf%C3%B6hring",
+      "rating": null,
+      "count": null
+    },
+    "process": {
+      "headline": "So kommen Sie zur frischen Wand",
+      "steps": [
+        {
+          "title": "Anfrage",
+          "text": "Anrufen und kurz schildern, welche Räume gestrichen werden sollen."
+        },
+        {
+          "title": "Besichtigung",
+          "text": "Flächen, Untergrund und Farbwünsche werden vor Ort angeschaut."
+        },
+        {
+          "title": "Angebot",
+          "text": "Sie erhalten ein Angebot mit Umfang und Preis."
+        },
+        {
+          "title": "Ausführung",
+          "text": "Abdecken, Vorarbeiten, Streichen – der Raum wird sauber übergeben."
+        }
+      ]
+    },
+    "gallery": {
+      "headline": "Räume in neuer Farbe",
+      "text": "Für die Live-Version zeigen wir hier echte Arbeiten des Betriebs.",
+      "items": [
+        {
+          "title": "Wohnzimmer",
+          "photoNeeded": "frisch gestrichenes Wohnzimmer in hellem Ton"
+        },
+        {
+          "title": "Neue Tapete",
+          "photoNeeded": "tapezierte Wand mit sauberen Stößen"
+        },
+        {
+          "title": "Lackierte Tür",
+          "photoNeeded": "weiß lackierte Zimmertür mit Zarge"
+        },
+        {
+          "title": "Treppenhaus",
+          "photoNeeded": "frisch gestrichenes Treppenhaus eines Mehrfamilienhauses"
+        },
+        {
+          "title": "Vorher – nachher",
+          "photoNeeded": "dieselbe Wand vor und nach dem Anstrich"
+        }
+      ]
+    },
+    "region": {
+      "headline": "Malerarbeiten für Unterföhring und den Münchner Nordosten",
+      "text": "Von Unterföhring aus in Ismaning, Aschheim, Feldkirchen, Johanneskirchen, Bogenhausen und Garching.",
+      "places": [
+        "Unterföhring",
+        "Ismaning",
+        "Aschheim",
+        "Feldkirchen",
+        "Johanneskirchen",
+        "Bogenhausen",
+        "Garching"
+      ]
+    },
+    "faq": [
+      {
+        "q": "Streichen Sie auch einzelne Räume?",
+        "a": "Ja, auch ein einzelnes Zimmer lässt sich anfragen – der Umfang wird vorab besprochen."
+      },
+      {
+        "q": "Muss ich die Möbel ausräumen?",
+        "a": "Das wird bei der Besichtigung abgestimmt; Böden und verbliebene Möbel werden abgedeckt."
+      },
+      {
+        "q": "Wie erreiche ich den Betrieb?",
+        "a": "Am einfachsten telefonisch unter 089 9581663."
+      },
+      {
+        "q": "Arbeiten Sie auch außerhalb von Unterföhring?",
+        "a": "Ja, in den Nachbarorten im Münchner Nordosten – nennen Sie beim Anruf Ihren Ort."
+      },
+      {
+        "q": "Kann ich die Farbe selbst aussuchen?",
+        "a": "Ja, Farbton und Oberfläche werden vor dem Start gemeinsam festgelegt."
+      }
+    ],
+    "contact": {
+      "headline": "Malerarbeiten anfragen",
+      "text": "Nennen Sie kurz, welche Räume, ungefähre Größe und ob gestrichen, tapeziert oder lackiert werden soll.",
+      "topics": [
+        "Wände & Decken",
+        "Tapezieren",
+        "Lackieren",
+        "Treppenhaus",
+        "Sonstiges"
+      ],
+      "responseNote": "Besichtigung nach Absprache."
+    },
+    "quote": {
+      "sizeLabel": "Was soll gestrichen werden?",
+      "sizes": [
+        "Ein Raum",
+        "Mehrere Räume",
+        "Ganze Wohnung",
+        "Treppenhaus"
+      ],
+      "timings": [
+        "So bald wie möglich",
+        "In den nächsten Wochen",
+        "In 1–3 Monaten",
+        "Ich plane erst noch"
+      ]
+    },
+    "stickyCta": "Maler anfragen",
+    "look": {
+      "palette": 5,
+      "font": 8,
+      "hero": 2,
+      "services": 0,
+      "radius": 2,
+      "logo": 0,
+      "intro": 1,
+      "projects": 0,
+      "process": 0,
+      "faq": 0,
+      "reviews": 0,
+      "order": 2
+    }
+  }
+}

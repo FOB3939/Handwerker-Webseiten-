@@ -1,0 +1,396 @@
+{
+  "id": "2026-10-29-165",
+  "slug": "theodor-aumiller-elektro-woerthsee",
+  "date": "2026-10-29",
+  "company": {
+    "name": "Theodor Aumiller",
+    "owner": "Theodor Aumiller",
+    "trade": "Elektroinstallation",
+    "city": "Wörthsee",
+    "address": "Hochstaudenweg 5, 82237 Wörthsee",
+    "phone": "08153 8613",
+    "email": null,
+    "serviceArea": [
+      "Wörthsee",
+      "Steinebach",
+      "Etterschlag",
+      "Seefeld",
+      "Weßling",
+      "Inning",
+      "Herrsching",
+      "Gilching"
+    ]
+  },
+  "listings": {
+    "google": {
+      "url": "https://www.google.com/maps/search/?api=1&query=Theodor%20Aumiller%20Hochstaudenweg%205%20W%C3%B6rthsee",
+      "rating": null,
+      "reviews": null,
+      "evidence": "NICHT belegt – Suche über Google-Spiegel (trustlocal, firmania, rgv-bayern) ohne Treffer zu Theodor Aumiller; keine Freemail gefunden. In Maps prüfen."
+    },
+    "myhammer": {
+      "url": "https://www.11880.com/suche/elektriker/seefeld",
+      "rating": null,
+      "reviews": null,
+      "evidence": "Kein MyHammer gefunden – 11880 führt Theodor Aumiller als Elektriker, Hochstaudenweg 5, 82237 Wörthsee, Tel. (08153) 8613."
+    }
+  },
+  "websiteStatus": "keine eigene Website gefunden",
+  "websiteChecks": [
+    "(1) „Theodor Aumiller Elektro Wörthsee“ (offene Websuche) – kein Treffer zum Betrieb, keine eigene Domain; nur fremde Firmen (Aumüller Aumatic GmbH Thierhaupten, Elektro Aumiller Stuttgart)",
+    "(2) 11880/trustlocal/firmania/rgv-bayern „Aumiller Wörthsee Elektro“ – nur 11880-Eintrag ohne Website-Feld; in Wörthsee außerdem Josef Aumiller Schreinerei, Jakl Hof (Jakob Aumiller) und Aumiller GmbH (Garten) – Verwandtschaft unbekannt, keine dieser Firmen ist ein Elektrobetrieb",
+    "(3) Domain-Check allowed_domains elektro-aumiller.de, aumiller-elektro.de, aumiller.de, elektro-aumiller-woerthsee.de, aumiller-elektrotechnik.de, elektrotechnik-aumiller.de, theodor-aumiller.de, elektroaumiller.de – keine Treffer",
+    "(4) Telefonsuche „08153 8613“/„081538613“ – keine Treffer",
+    "(5) Impressum-Suche „Impressum Theodor Aumiller Wörthsee“ – kein Impressum gefunden",
+    "Website-Risiko: mittel – alle Prüfungen negativ, aber weder Google-Eintrag noch Freemail belegt (RESERVE); Eintrag evtl. alt"
+  ],
+  "facts": {
+    "services": [
+      "Elektroinstallation"
+    ],
+    "experience": null,
+    "praisedFor": []
+  },
+  "strategy": {
+    "audience": "Hausbesitzer, Vermieter und Mieter in Wörthsee, Steinebach, Etterschlag und Seefeld mit Elektroarbeiten im Haus",
+    "mainService": "Elektroinstallation im Wohnhaus",
+    "trustSignal": "Elektriker mit Sitz in Wörthsee, direkt per Telefon erreichbar",
+    "conversionGoal": "Rückruf oder Angebot für Elektroarbeiten anfragen",
+    "visualConcept": "Ruhige, technische Optik: Verteilerkasten, saubere Leitungsführung, Steckdosen und Licht – klar und aufgeräumt"
+  },
+  "sales": {
+    "score": 3,
+    "whyGoodLead": [
+      "Keine eigene Website gefunden – nur ein Verzeichniseintrag mit Festnetznummer",
+      "Elektro ist ein bisher seltenes Gewerk in den Leads",
+      "Kein sichtbarer Online-Auftritt – eine Website macht den Betrieb am Wörthsee auffindbar"
+    ],
+    "pitch": "Grüß Gott Herr Aumiller, hier ist … – ich baue Websites für Handwerker rund um den Ammersee und Wörthsee. Ich habe Ihren Eintrag als Elektriker in Wörthsee gefunden, aber keine eigene Website. Ich habe unverbindlich einen Entwurf vorbereitet, auf dem Kunden Ihre Leistungen sehen und direkt anrufen können – darf ich Ihnen den Link schicken?"
+  },
+  "manualChecks": [
+    "RESERVE – weder Google-Eintrag noch Freemail-Adresse belegt: NUR versenden, wenn Google Maps einen Eintrag OHNE Website zeigt.",
+    "Website-Risiko: mittel – vor Versand in Google Maps prüfen, dass keine Website hinterlegt ist (Grund: weder Google-Eintrag noch Freemail belegt, nur 11880-Eintrag)",
+    "Prüfen, ob der Betrieb noch aktiv ist (nur ein Verzeichniseintrag, Festnetz) – ggf. kurz anrufen",
+    "Leistungen nur als „Elektriker“ belegt – Schwerpunkte (Installation, Reparatur, Beleuchtung, E-Check) beim Betrieb erfragen",
+    "Mögliche Verwandtschaft zu weiteren Aumiller-Betrieben in Wörthsee (Schreinerei, Jakl Hof, Aumiller GmbH) – diese betreffen andere Gewerke; vor Versand sicherstellen, dass kein gemeinsamer Webauftritt existiert",
+    "Keine Mobilnummer, keine E-Mail gefunden – Kontakt telefonisch",
+    "Logo und Projektfotos: nicht gefunden – beim Betrieb anfragen"
+  ],
+  "sources": [
+    {
+      "label": "11880 – Elektriker Seefeld (Liste mit Theodor Aumiller, Wörthsee)",
+      "url": "https://www.11880.com/suche/elektriker/seefeld"
+    }
+  ],
+  "site": {
+    "theme": "volt",
+    "category": "handwerk",
+    "heroOffer": [
+      "Elektroinstallation",
+      "Steckdosen",
+      "Beleuchtung",
+      "Reparaturen",
+      "Sicherungen"
+    ],
+    "scene": "electric",
+    "logoIcon": "bolt",
+    "logoMark": "TA",
+    "brandName": "Elektro Aumiller",
+    "seoTitle": "Elektriker in Wörthsee – Theodor Aumiller",
+    "seoDescription": "Elektroinstallation, Reparaturen und Beleuchtung in Wörthsee, Steinebach und Seefeld. Jetzt anrufen oder Rückruf anfragen.",
+    "nav": [
+      {
+        "label": "Leistungen",
+        "href": "#leistungen"
+      },
+      {
+        "label": "Projekte",
+        "href": "#projekte"
+      },
+      {
+        "label": "Bewertungen",
+        "href": "#bewertungen"
+      },
+      {
+        "label": "Ablauf",
+        "href": "#ablauf"
+      },
+      {
+        "label": "FAQ",
+        "href": "#faq"
+      },
+      {
+        "label": "Kontakt",
+        "href": "#kontakt"
+      }
+    ],
+    "hero": {
+      "eyebrow": "Elektro · Wörthsee",
+      "headline": "Ihr Elektriker in Wörthsee",
+      "sub": "Elektroarbeiten im Haus – von der neuen Steckdose bis zur Leitung.",
+      "ctaPrimary": "Rückruf anfragen",
+      "ctaSecondary": "Anrufen",
+      "bullets": [
+        "Elektriker aus Wörthsee",
+        "Installation und Reparatur",
+        "Direkt per Telefon"
+      ],
+      "imageLabel": "geöffneter Sicherungskasten mit sauber verlegten Leitungen"
+    },
+    "badges": [
+      {
+        "title": "Installation",
+        "sub": "Leitungen & Dosen"
+      },
+      {
+        "title": "Reparatur",
+        "sub": "wenn etwas ausfällt"
+      },
+      {
+        "title": "Licht",
+        "sub": "innen und außen"
+      },
+      {
+        "title": "Wörthsee",
+        "sub": "Hochstaudenweg"
+      }
+    ],
+    "trust": [
+      {
+        "value": "Vor Ort",
+        "label": "Betrieb in Wörthsee"
+      },
+      {
+        "value": "Elektro",
+        "label": "im Wohnhaus"
+      },
+      {
+        "value": "Direkt",
+        "label": "Ansprechpartner am Telefon"
+      },
+      {
+        "value": "Kurz",
+        "label": "Wege rund um den See"
+      }
+    ],
+    "servicesIntro": {
+      "headline": "Elektroarbeiten rund ums Haus",
+      "text": "Ob eine Steckdose fehlt, das Licht flackert oder die Sicherung fliegt: Ein Anruf klärt, was zu tun ist."
+    },
+    "services": [
+      {
+        "title": "Elektroinstallation",
+        "text": "Neue Leitungen, Schalter und Steckdosen fachgerecht verlegt – bei Umbau, Anbau oder Renovierung.",
+        "items": [
+          "Leitungen",
+          "Schalter",
+          "Steckdosen"
+        ]
+      },
+      {
+        "title": "Reparaturen",
+        "text": "Defekte Schalter, Dosen oder Leitungen finden und instand setzen.",
+        "items": [
+          "Fehlersuche",
+          "Austausch",
+          "Instandsetzung"
+        ]
+      },
+      {
+        "title": "Beleuchtung",
+        "text": "Lampen und Leuchten anschließen – im Wohnraum, im Flur oder an der Hauswand.",
+        "items": [
+          "Deckenleuchten",
+          "Außenlicht",
+          "Bewegungsmelder"
+        ]
+      },
+      {
+        "title": "Sicherungskasten",
+        "text": "Sicherungen und Verteilung prüfen und bei Bedarf erneuern.",
+        "items": [
+          "Sicherungen",
+          "FI-Schalter",
+          "Verteilung"
+        ]
+      },
+      {
+        "title": "Geräteanschluss",
+        "text": "Herd, Backofen oder andere Großgeräte sicher ans Netz bringen.",
+        "items": [
+          "Herdanschluss",
+          "Küchengeräte",
+          "Starkstrom"
+        ]
+      },
+      {
+        "title": "Altbau & Umbau",
+        "text": "Alte Elektrik bei Renovierung oder Umbau auf den nötigen Stand bringen.",
+        "items": [
+          "Erneuerung",
+          "Renovierung",
+          "Erweiterung"
+        ]
+      }
+    ],
+    "why": {
+      "headline": "Elektriker vom Wörthsee – ohne Umwege.",
+      "points": [
+        {
+          "title": "Kurze Wege",
+          "text": "Von Wörthsee schnell in Steinebach, Etterschlag, Seefeld und Weßling."
+        },
+        {
+          "title": "Ein Ansprechpartner",
+          "text": "Sie sprechen direkt mit Theodor Aumiller – kein Callcenter."
+        },
+        {
+          "title": "Klare Absprache",
+          "text": "Was gemacht wird und was es kostet, steht vor Beginn fest."
+        },
+        {
+          "title": "Sicher angeschlossen",
+          "text": "Elektroarbeiten gehören in Fachhand – für Ihre Sicherheit im Haus."
+        }
+      ]
+    },
+    "reviews": {
+      "headline": "Was Kunden sagen",
+      "summary": "Kundenstimmen werden hier eingebunden, sobald sie aus dem Google-Profil übernommen sind.",
+      "highlights": [
+        "Elektriker in Wörthsee",
+        "Installation und Reparatur",
+        "Direkter Kontakt"
+      ],
+      "source": "Google",
+      "sourceUrl": "https://www.google.com/maps/search/?api=1&query=Theodor%20Aumiller%20Hochstaudenweg%205%20W%C3%B6rthsee",
+      "rating": null,
+      "count": null
+    },
+    "process": {
+      "headline": "So läuft Ihr Auftrag",
+      "steps": [
+        {
+          "title": "Anruf",
+          "text": "Kurz schildern, was nicht funktioniert oder was neu kommen soll."
+        },
+        {
+          "title": "Termin",
+          "text": "Bei Bedarf schaut sich der Elektriker die Lage vor Ort an."
+        },
+        {
+          "title": "Angebot",
+          "text": "Sie erfahren vorab, welche Arbeiten anfallen."
+        },
+        {
+          "title": "Ausführung",
+          "text": "Die Arbeiten werden erledigt und mit Ihnen durchgegangen."
+        }
+      ]
+    },
+    "gallery": {
+      "headline": "Elektrik, die funktioniert",
+      "text": "Für die Live-Version zeigen wir hier echte Arbeiten des Betriebs.",
+      "items": [
+        {
+          "title": "Neue Steckdosen",
+          "photoNeeded": "frisch gesetzte Steckdosenkombination an einer Wohnzimmerwand"
+        },
+        {
+          "title": "Sicherungskasten",
+          "photoNeeded": "aufgeräumte Unterverteilung mit beschrifteten Sicherungen"
+        },
+        {
+          "title": "Außenlicht",
+          "photoNeeded": "Wandleuchte mit Bewegungsmelder am Hauseingang"
+        },
+        {
+          "title": "Küchenanschluss",
+          "photoNeeded": "angeschlossener Herd in einer Einbauküche"
+        },
+        {
+          "title": "Leitungen",
+          "photoNeeded": "sauber verlegte Leitungen im Rohbau"
+        }
+      ]
+    },
+    "region": {
+      "headline": "Elektriker für Wörthsee und Umgebung",
+      "text": "Von Wörthsee aus in Steinebach, Etterschlag, Seefeld, Weßling, Inning, Herrsching und Gilching.",
+      "places": [
+        "Wörthsee",
+        "Steinebach",
+        "Etterschlag",
+        "Seefeld",
+        "Weßling",
+        "Inning",
+        "Herrsching",
+        "Gilching"
+      ]
+    },
+    "faq": [
+      {
+        "q": "Kommen Sie auch für kleine Arbeiten?",
+        "a": "Fragen Sie einfach an – auch eine einzelne Steckdose oder Leuchte lässt sich telefonisch abklären."
+      },
+      {
+        "q": "Wie erreiche ich den Betrieb am besten?",
+        "a": "Am einfachsten telefonisch unter 08153 8613."
+      },
+      {
+        "q": "Arbeiten Sie auch außerhalb von Wörthsee?",
+        "a": "Ja, in den Nachbarorten rund um den Wörthsee – sprechen Sie Ihren Ort beim Anruf an."
+      },
+      {
+        "q": "Erhalte ich vorher ein Angebot?",
+        "a": "Ja, Umfang und Kosten werden vor Beginn der Arbeiten besprochen."
+      },
+      {
+        "q": "Kann ich die Elektrik selbst reparieren?",
+        "a": "Arbeiten am Stromnetz gehören aus Sicherheitsgründen in die Hand eines Elektrikers."
+      }
+    ],
+    "contact": {
+      "headline": "Elektroarbeit anfragen",
+      "text": "Beschreiben Sie kurz, worum es geht: welcher Raum, was ausgefallen ist oder was neu kommen soll.",
+      "topics": [
+        "Elektroinstallation",
+        "Reparatur",
+        "Beleuchtung",
+        "Sicherungskasten",
+        "Sonstiges"
+      ],
+      "responseNote": "Rückruf nach Absprache."
+    },
+    "quote": {
+      "sizeLabel": "Worum geht es?",
+      "sizes": [
+        "Einzelne Steckdose/Leuchte",
+        "Ein Raum",
+        "Mehrere Räume",
+        "Ganzes Haus"
+      ],
+      "timings": [
+        "Dringend",
+        "In den nächsten Wochen",
+        "In 1–3 Monaten",
+        "Ich plane erst noch"
+      ]
+    },
+    "stickyCta": "Elektriker anfragen",
+    "look": {
+      "palette": 2,
+      "font": 6,
+      "hero": 0,
+      "services": 1,
+      "radius": 1,
+      "logo": 0,
+      "intro": 5,
+      "projects": 0,
+      "process": 0,
+      "faq": 0,
+      "reviews": 0,
+      "order": 0
+    }
+  }
+}

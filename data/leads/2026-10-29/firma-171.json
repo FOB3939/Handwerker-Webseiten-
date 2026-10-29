@@ -1,0 +1,408 @@
+{
+  "id": "2026-10-29-171",
+  "slug": "malermeister-tony-vogel-landsberg-am-lech",
+  "date": "2026-10-29",
+  "company": {
+    "name": "Malermeister Tony Vogel",
+    "owner": "Tony Vogel",
+    "trade": "Malerbetrieb",
+    "city": "Landsberg am Lech",
+    "address": "Mühlweg 14, 86899 Landsberg am Lech",
+    "phone": "08191 4018899",
+    "email": "tony-vogel@gmx.de",
+    "serviceArea": [
+      "Landsberg am Lech",
+      "Kaufering",
+      "Penzing",
+      "Igling",
+      "Pürgen",
+      "Schwifting",
+      "Fuchstal"
+    ]
+  },
+  "listings": {
+    "google": {
+      "url": "https://www.google.com/maps/search/?api=1&query=Malermeister%20Tony%20Vogel%20M%C3%BChlweg%2014%20Landsberg%20am%20Lech",
+      "rating": null,
+      "reviews": null,
+      "evidence": "Kein Google-Eintrag direkt belegt. Freemail tony-vogel@gmx.de öffentlich im 11880-Eintrag und bei Gelbe Seiten gelistet. Weitere Verzeichnisse: maler.org (Mühlweg 14, Landsberg), Das Örtliche (Mühlweg 14). In keinem Snippet ein Website-Feld. In Maps prüfen."
+    },
+    "myhammer": {
+      "url": "https://www.11880.com/branchenbuch/landsberg-am-lech/060693517B107209645/malermeister-tony-vogel.html",
+      "rating": null,
+      "reviews": null,
+      "evidence": "Kein MyHammer gefunden – 11880-Eintrag „Malermeister Tony Vogel“, Mühlweg 14, 86899 Landsberg am Lech, Tel. (08191) 4018899, E-Mail tony-vogel@gmx.de."
+    }
+  },
+  "websiteStatus": "keine eigene Website gefunden",
+  "websiteChecks": [
+    "(1) „Tony Vogel“ Maler Landsberg mit blocked_domains (11880, Gelbe Seiten, Das Örtliche, Telefonbuch, Cylex, meinestadt, Creditreform, Facebook, Instagram, golocal, MyHammer, Northdata, Firmenwissen, WKDB, Yelp, trustlocal, wlw) – nur maler.org-Profil und Namensvettern (britischer Schauspieler); keine eigene Domain",
+    "(2) Domain-Check allowed_domains maler-vogel.de, malermeister-vogel.de, tony-vogel.de, tonyvogel.de, maler-vogel-landsberg.de, vogel-maler.de, malervogel.de, malerbetrieb-vogel.de – nur fremde Betriebe (Thomas Vogel in Münster/Hessen, Maler Vogel KG Oberstadion, Malerbetrieb Vogel Ochsenfurt), nichts zu Landsberg",
+    "(3) Kontakt-Suche „Malermeister Tony Vogel“ Landsberg Telefon – muenchen.de-Branchenbuch und sellwerk ohne Vogel-Eintrag mit Website",
+    "(4) Telefon/E-Mail-Suche „08191 4018899“ / „08191 9378713“ / „tony-vogel@gmx.de“ – keine Treffer außerhalb der Verzeichnisse, keine Website",
+    "(5) Verzeichnisse (11880, Gelbe Seiten, Das Örtliche): kein „Homepage“-Feld in den Snippets; E-Mail ist Freemail (gmx.de)",
+    "Website-Risiko: niedrig – alle Prüfungen negativ, Freemail öffentlich belegt"
+  ],
+  "facts": {
+    "services": [
+      "Innenanstrich",
+      "Außenanstrich",
+      "Tapezierarbeiten",
+      "Bodenbeläge verlegen",
+      "Fassadengestaltung",
+      "Wärmedämmung",
+      "Schimmelbeseitigung"
+    ],
+    "experience": null,
+    "praisedFor": []
+  },
+  "strategy": {
+    "audience": "Hauseigentümer, Vermieter und Mieter in Landsberg am Lech, Kaufering und den Dörfern am Lechrain, die Räume renovieren, eine Fassade streichen oder Schimmel beseitigen lassen wollen",
+    "mainService": "Malerarbeiten innen und außen – Anstrich, Tapete, Fassade",
+    "trustSignal": "Malermeister mit Betrieb am Mühlweg in Landsberg, direkt beim Inhaber erreichbar",
+    "conversionGoal": "Kostenloses Angebot für Malerarbeiten anfragen (Anruf oder E-Mail mit Fotos)",
+    "visualConcept": "Helle Wohnräume mit frischen Farbflächen, sauber abgeklebte Kanten und eine Altstadtfassade im Lechtal-Licht"
+  },
+  "sales": {
+    "score": 6,
+    "whyGoodLead": [
+      "Keine eigene Website gefunden – nur Verzeichniseinträge mit GMX-Adresse",
+      "Meistertitel steht schon im Firmennamen – ein starkes Argument, das bisher online nicht sichtbar ist",
+      "Breites Leistungsbild (innen, außen, Boden, Dämmung, Schimmel) lässt sich auf einer Seite gut ordnen",
+      "Landsberg und Umgebung haben viel Altbau- und Fassadenbestand mit Renovierungsbedarf"
+    ],
+    "pitch": "Grüß Gott Herr Vogel, hier ist … – ich baue Websites für Handwerker im Landkreis Landsberg. Ich habe Ihren Eintrag als Malermeister am Mühlweg gefunden, aber keine eigene Website. Ich habe unverbindlich einen Entwurf vorbereitet, auf dem Kunden Ihre Maler-, Fassaden- und Tapezierarbeiten sehen und direkt anfragen können – darf ich Ihnen den Link schicken?"
+  },
+  "manualChecks": [
+    "Website-Risiko: niedrig – vor Versand in Google Maps prüfen, dass keine Website hinterlegt ist (Grund: Google-Eintrag nicht direkt belegt, nur Freemail und Verzeichnisse)",
+    "Zwei Festnetznummern: 11880 nennt (08191) 4018899, Gelbe Seiten (08191) 9378713 – klären, welche aktuell ist; keine Mobilnummer gefunden, Erstkontakt per E-Mail an tony-vogel@gmx.de",
+    "Leistungen nur aus maler.org-Profil (Innen-/Außenanstrich, Tapezieren, Bodenverlegung, Fassade, Wärmedämmung, Schimmelbeseitigung) – beim Betrieb bestätigen",
+    "Betriebsstatus nicht aktuell bestätigt (keine Bewertungen, keine Datumsangaben gefunden) – vor Versand Erreichbarkeit prüfen",
+    "Logo und Projektfotos: nicht gefunden – beim Betrieb anfragen"
+  ],
+  "sources": [
+    {
+      "label": "11880 – Malermeister Tony Vogel, Landsberg",
+      "url": "https://www.11880.com/branchenbuch/landsberg-am-lech/060693517B107209645/malermeister-tony-vogel.html"
+    },
+    {
+      "label": "Gelbe Seiten – Vogel Tony, 86899 Landsberg am Lech",
+      "url": "https://www.gelbeseiten.de/gsbiz/50f6768c-8d2d-4d10-a280-7b3e265db3c2"
+    },
+    {
+      "label": "maler.org – Tony Vogel Malermeister, Landsberg (Lech)",
+      "url": "https://www.maler.org/landsberg-lech/tony-vogel-malermeister-aUObpD"
+    },
+    {
+      "label": "11880 – Maler Landsberg (Ortsliste)",
+      "url": "https://www.11880.com/suche/maler/landsberg"
+    }
+  ],
+  "site": {
+    "theme": "atelier",
+    "category": "handwerk",
+    "heroOffer": [
+      "Innenanstrich",
+      "Fassade",
+      "Tapeten",
+      "Bodenbeläge",
+      "Schimmel"
+    ],
+    "scene": "paint",
+    "logoIcon": "roller",
+    "logoMark": "TV",
+    "brandName": "Malermeister Tony Vogel",
+    "seoTitle": "Malermeister in Landsberg am Lech – Tony Vogel",
+    "seoDescription": "Innen- und Außenanstrich, Tapeten, Fassaden und Schimmelbeseitigung in Landsberg am Lech und Umgebung. Jetzt kostenloses Angebot anfragen.",
+    "nav": [
+      {
+        "label": "Leistungen",
+        "href": "#leistungen"
+      },
+      {
+        "label": "Projekte",
+        "href": "#projekte"
+      },
+      {
+        "label": "Bewertungen",
+        "href": "#bewertungen"
+      },
+      {
+        "label": "Ablauf",
+        "href": "#ablauf"
+      },
+      {
+        "label": "FAQ",
+        "href": "#faq"
+      },
+      {
+        "label": "Kontakt",
+        "href": "#kontakt"
+      }
+    ],
+    "hero": {
+      "eyebrow": "Malermeister · Landsberg am Lech",
+      "headline": "Malermeister Tony Vogel in Landsberg",
+      "sub": "Frische Wände, neue Tapeten und gepflegte Fassaden für Landsberg und den Lechrain.",
+      "ctaPrimary": "Kostenloses Angebot anfragen",
+      "ctaSecondary": "Anrufen",
+      "bullets": [
+        "Malermeister am Mühlweg",
+        "Innen, außen und Fassade",
+        "Auch Schimmel und Dämmung"
+      ],
+      "imageLabel": "frisch gestrichene Wohnzimmerwand mit Farbrolle und Abklebeband"
+    },
+    "badges": [
+      {
+        "title": "Malermeister",
+        "sub": "Inhaber Tony Vogel"
+      },
+      {
+        "title": "Innen & außen",
+        "sub": "Anstrich und Tapete"
+      },
+      {
+        "title": "Fassade",
+        "sub": "Anstrich und Dämmung"
+      },
+      {
+        "title": "Landsberg",
+        "sub": "Mühlweg 14"
+      }
+    ],
+    "trust": [
+      {
+        "value": "Meister",
+        "label": "im Malerhandwerk"
+      },
+      {
+        "value": "6",
+        "label": "Leistungsbereiche"
+      },
+      {
+        "value": "Lechrain",
+        "label": "Landsberg und Umgebung"
+      },
+      {
+        "value": "Direkt",
+        "label": "Kontakt zum Inhaber"
+      }
+    ],
+    "servicesIntro": {
+      "headline": "Vom Wohnzimmer bis zur Hauswand",
+      "text": "Tony Vogel streicht, tapeziert und gestaltet Fassaden. Dazu kommen Bodenbeläge, Wärmedämmung und die Sanierung von Schimmelstellen."
+    },
+    "services": [
+      {
+        "title": "Innenanstrich",
+        "text": "Wände und Decken bekommen einen neuen Anstrich – Möbel und Böden werden vorher sorgfältig abgedeckt.",
+        "items": [
+          "Wände und Decken",
+          "Treppenhäuser",
+          "Farbberatung"
+        ]
+      },
+      {
+        "title": "Tapezierarbeiten",
+        "text": "Alte Tapeten kommen runter, neue gehen gerade und stoßfest an die Wand – vom Raufaser bis zur Mustertapete.",
+        "items": [
+          "Tapete entfernen",
+          "Raufaser",
+          "Vliestapete"
+        ]
+      },
+      {
+        "title": "Fassadenanstrich",
+        "text": "Ein neuer Anstrich schützt die Hauswand vor Wetter und gibt dem Haus wieder ein gepflegtes Gesicht.",
+        "items": [
+          "Fassade reinigen",
+          "Grundieren",
+          "Neuanstrich"
+        ]
+      },
+      {
+        "title": "Wärmedämmung",
+        "text": "Gedämmte Außenwände halten die Wärme im Haus und senken die Heizkosten spürbar.",
+        "items": [
+          "Fassadendämmung",
+          "Putz und Anstrich",
+          "Außenwände"
+        ]
+      },
+      {
+        "title": "Schimmelbeseitigung",
+        "text": "Befallene Stellen werden fachgerecht behandelt und neu beschichtet, damit der Raum wieder gesund nutzbar ist.",
+        "items": [
+          "Befall entfernen",
+          "Untergrund behandeln",
+          "Neu beschichten"
+        ]
+      },
+      {
+        "title": "Bodenbeläge",
+        "text": "Nach dem Streichen auch gleich der neue Boden – verlegt vom selben Handwerker.",
+        "items": [
+          "Bodenbelag verlegen",
+          "Untergrund vorbereiten",
+          "Sockelleisten"
+        ]
+      }
+    ],
+    "why": {
+      "headline": "Ein Malermeister aus Landsberg – kein Vermittler.",
+      "points": [
+        {
+          "title": "Meisterhandwerk",
+          "text": "Sie beauftragen einen Malermeister direkt, ohne Zwischenhändler."
+        },
+        {
+          "title": "Alles aus einer Hand",
+          "text": "Anstrich, Tapete, Boden und Dämmung – ein Ansprechpartner für die ganze Renovierung."
+        },
+        {
+          "title": "Kurze Wege",
+          "text": "Vom Mühlweg in Landsberg schnell in Kaufering, Penzing, Igling oder Fuchstal."
+        },
+        {
+          "title": "Auch bei Schimmel",
+          "text": "Feuchte Ecken und Schimmelflecken werden behandelt, nicht nur überstrichen."
+        }
+      ]
+    },
+    "reviews": {
+      "headline": "Was Kunden sagen",
+      "summary": "Kundenstimmen werden hier eingebunden, sobald sie aus dem Google-Profil übernommen sind.",
+      "highlights": [
+        "Malermeister in Landsberg",
+        "Innen und außen",
+        "Direkter Kontakt"
+      ],
+      "source": "Google",
+      "sourceUrl": "https://www.google.com/maps/search/?api=1&query=Malermeister%20Tony%20Vogel%20M%C3%BChlweg%2014%20Landsberg%20am%20Lech",
+      "rating": null,
+      "count": null
+    },
+    "process": {
+      "headline": "So läuft Ihr Malerauftrag ab",
+      "steps": [
+        {
+          "title": "Anfrage",
+          "text": "Rufen Sie an oder schicken Sie eine E-Mail mit Fotos der Räume oder der Fassade."
+        },
+        {
+          "title": "Termin vor Ort",
+          "text": "Flächen, Untergrund und Farbwünsche werden gemeinsam angeschaut."
+        },
+        {
+          "title": "Angebot",
+          "text": "Sie erhalten ein schriftliches Angebot mit allen Arbeitsschritten."
+        },
+        {
+          "title": "Ausführung",
+          "text": "Abdecken, vorbereiten, streichen, aufräumen – der Raum wird sauber übergeben."
+        }
+      ]
+    },
+    "gallery": {
+      "headline": "Farbe, die bleibt",
+      "text": "Für die Live-Version zeigen wir hier echte Projekte des Betriebs.",
+      "items": [
+        {
+          "title": "Wohnzimmer",
+          "photoNeeded": "frisch gestrichenes Wohnzimmer mit Akzentwand"
+        },
+        {
+          "title": "Treppenhaus",
+          "photoNeeded": "renoviertes Treppenhaus im Mehrfamilienhaus"
+        },
+        {
+          "title": "Hausfassade",
+          "photoNeeded": "neu gestrichene Fassade eines Einfamilienhauses"
+        },
+        {
+          "title": "Neue Tapete",
+          "photoNeeded": "Schlafzimmer mit frisch tapezierter Mustertapete"
+        },
+        {
+          "title": "Schimmel saniert",
+          "photoNeeded": "Raumecke vor und nach der Schimmelbehandlung"
+        }
+      ]
+    },
+    "region": {
+      "headline": "Malerarbeiten in Landsberg und am Lechrain",
+      "text": "Vom Mühlweg aus schnell in Kaufering, Penzing, Igling, Pürgen, Schwifting und Fuchstal.",
+      "places": [
+        "Landsberg am Lech",
+        "Kaufering",
+        "Penzing",
+        "Igling",
+        "Pürgen",
+        "Schwifting",
+        "Fuchstal"
+      ]
+    },
+    "faq": [
+      {
+        "q": "Muss ich die Möbel selbst ausräumen?",
+        "a": "Das wird beim Termin vor Ort abgestimmt. Was im Raum bleibt, wird abgedeckt und geschützt."
+      },
+      {
+        "q": "Streichen Sie auch Fassaden?",
+        "a": "Ja, Fassadenanstrich und Wärmedämmung gehören zum Angebot."
+      },
+      {
+        "q": "Kann Schimmel einfach überstrichen werden?",
+        "a": "Nein. Befallene Stellen werden zuerst behandelt, danach wird neu beschichtet."
+      },
+      {
+        "q": "Kann ich vorab Fotos schicken?",
+        "a": "Ja, Fotos per E-Mail helfen für eine erste Einschätzung vor dem Termin."
+      },
+      {
+        "q": "Arbeiten Sie auch außerhalb von Landsberg?",
+        "a": "Ja, in Landsberg am Lech und den umliegenden Gemeinden – fragen Sie einfach an."
+      }
+    ],
+    "contact": {
+      "headline": "Ihr Angebot – kostenlos und unverbindlich",
+      "text": "Beschreiben Sie kurz, was gemacht werden soll: welche Räume oder Fassade, ungefähre Fläche und Wunschtermin. Fotos helfen.",
+      "topics": [
+        "Innenanstrich",
+        "Tapezierarbeiten",
+        "Fassadenanstrich",
+        "Wärmedämmung",
+        "Schimmelbeseitigung",
+        "Bodenbeläge",
+        "Sonstiges"
+      ],
+      "responseNote": "Besichtigung nach Absprache."
+    },
+    "quote": {
+      "sizeLabel": "Was soll gestrichen werden?",
+      "sizes": [
+        "Ein Zimmer",
+        "Ganze Wohnung",
+        "Treppenhaus",
+        "Hausfassade"
+      ],
+      "timings": [
+        "So bald wie möglich",
+        "In den nächsten Wochen",
+        "In 1–3 Monaten",
+        "Ich plane erst noch"
+      ]
+    },
+    "stickyCta": "Angebot anfragen",
+    "look": {
+      "palette": 2,
+      "font": 6,
+      "hero": 0,
+      "services": 1,
+      "radius": 1,
+      "logo": 0,
+      "intro": 5
+    }
+  }
+}

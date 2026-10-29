@@ -1,0 +1,400 @@
+{
+  "id": "2026-10-29-169",
+  "slug": "bs-schmidt-badsanierung-murnau",
+  "date": "2026-10-29",
+  "company": {
+    "name": "BS Schmidt Badsanierung",
+    "owner": null,
+    "trade": "Badsanierung & Fliesen",
+    "city": "Murnau am Staffelsee",
+    "address": "Schützenplatz 7 A, 82418 Murnau am Staffelsee",
+    "phone": "0178 5397442",
+    "email": null,
+    "serviceArea": [
+      "Murnau am Staffelsee",
+      "Seehausen",
+      "Uffing",
+      "Riegsee",
+      "Spatzenhausen",
+      "Ohlstadt"
+    ]
+  },
+  "listings": {
+    "google": {
+      "url": "https://www.google.com/maps/search/?api=1&query=BS%20Schmidt%20Badsanierung%20Sch%C3%BCtzenplatz%207A%20Murnau",
+      "rating": null,
+      "reviews": null,
+      "evidence": "NICHT BELEGT – weder direkter Google-Maps-Treffer noch Google-Spiegel (rgv-bayern, firmania, trustlocal) gefunden. In Maps prüfen."
+    },
+    "myhammer": {
+      "url": "https://www.11880.com/suche/fliesenleger/murnau",
+      "rating": null,
+      "reviews": null,
+      "evidence": "Kein MyHammer gefunden – Eintrag „BS Schmidt Badsanierung“ in den 11880-Ortslisten Fliesenleger Murnau und Antdorf (Schützenplatz 7 A, 82418 Murnau, (0178) 5397442; Kategorien Fliesenleger, Badsanierung, Badrenovierung & Badezimmerplanung; keine Öffnungszeiten)."
+    }
+  },
+  "websiteStatus": "keine eigene Website gefunden",
+  "websiteChecks": [
+    "(1) „BS Schmidt Badsanierung Murnau“ mit blocked_domains (11880, Gelbe Seiten, Das Örtliche, Telefonbuch, Cylex, meinestadt, Creditreform, Facebook, Instagram, golocal, MyHammer, Northdata, Firmenwissen, WKDB, Yelp, trustlocal, wlw) – nur Badsanierungs-Portale und andere Betriebe (Haustechnik Samm, Schröter Haustechnik, maler schmidt aus Krün, Matthias Paul Schmidt Bauunternehmen Penzing); keine eigene Domain",
+    "(2) Telefonsuche „0178 5397442“/„01785397442“/„0178/5397442“ – nur Rufnummern-Blocklisten (anrufer.info, handyanrufe.de), keine Website",
+    "(3) Domain-Check allowed_domains bs-schmidt.de, bs-schmidt-badsanierung.de, schmidt-badsanierung.de, badsanierung-schmidt.de, bs-badsanierung.de, schmidt-badsanierung-murnau.de, badsanierung-murnau.de, bsschmidt.de – nur bsschmidt.de (Christian Schmidt Brandschutz, Lampertheim – fremde Firma), sonst keine Treffer",
+    "(4) Verzeichnis-/Spiegelsuche (11880, rgv-bayern, firmania, trustlocal) – nur 11880-Ortslisten; laut Snippet strukturierte Daten mit E-Mail-Adresse, die Adresse selbst ist aber nicht sichtbar; kein Website-Feld",
+    "(5) Impressum-Suche nicht separat durchgeführt (Suchbudget) – Inhaber-Vorname unbekannt",
+    "Website-Risiko: mittel – alle Prüfungen negativ, aber weder Google-Eintrag noch Freemail belegt (RESERVE)"
+  ],
+  "facts": {
+    "services": [
+      "Badsanierung",
+      "Badrenovierung",
+      "Badezimmerplanung",
+      "Fliesenlegen"
+    ],
+    "experience": null,
+    "praisedFor": []
+  },
+  "strategy": {
+    "audience": "Hauseigentümer und Vermieter in Murnau, Seehausen, Uffing und Riegsee, die ein älteres Bad erneuern oder neu fliesen lassen wollen",
+    "mainService": "Badsanierung mit Fliesenarbeiten",
+    "trustSignal": "Kleiner Betrieb in Murnau, direkt per Handy erreichbar",
+    "conversionGoal": "Badsanierung anfragen – per WhatsApp mit Fotos vom jetzigen Bad oder per Anruf",
+    "visualConcept": "Helles, ruhiges Bad: großformatige Fliesen, saubere Fugen, bodengleiche Dusche – Blick vom Staffelsee-Licht inspiriert"
+  },
+  "sales": {
+    "score": 4,
+    "whyGoodLead": [
+      "Keine eigene Website gefunden – nur 11880-Einträge",
+      "Mobilnummer öffentlich gelistet – WhatsApp-Erstkontakt möglich",
+      "Badsanierung ist ein Hochwert-Auftrag, bei dem Kunden vorab online vergleichen",
+      "In Murnau wenige kleine Badsanierer mit eigener Seite sichtbar"
+    ],
+    "pitch": "Hallo, hier ist … – ich baue Websites für Handwerker im Oberland. Ich habe Ihren Eintrag „BS Schmidt Badsanierung“ in Murnau gefunden, aber keine eigene Website. Ich habe unverbindlich einen Entwurf vorbereitet, auf dem Kunden Ihre Badsanierungen sehen und Ihnen direkt Fotos ihres Bads per WhatsApp schicken können – darf ich Ihnen den Link senden?"
+  },
+  "manualChecks": [
+    "RESERVE – weder Google-Eintrag noch Freemail-Adresse belegt: NUR versenden, wenn Google Maps einen Eintrag OHNE Website zeigt.",
+    "Google Maps: „BS Schmidt Badsanierung, Schützenplatz 7 A, Murnau“ suchen – Existenz, Bewertungen und Website-Feld prüfen",
+    "11880-Eintrag enthält laut Snippet eine E-Mail-Adresse, die nicht sichtbar war – im 11880-Profil ansehen: Firmendomain = verwerfen, Freemail = regulärer Lead",
+    "Inhabername unbekannt (nur „Schmidt“) – Anrede beim Erstkontakt neutral halten; Bedeutung „BS“ klären",
+    "Leistungen nur aus Verzeichniskategorien (Fliesenleger, Badsanierung, Badrenovierung, Badezimmerplanung) – Sanitärinstallation selbst oder mit Partner? beim Betrieb bestätigen",
+    "Logo und Projektfotos: nicht gefunden – beim Betrieb anfragen"
+  ],
+  "sources": [
+    {
+      "label": "11880 – Fliesenleger Murnau (Liste mit BS Schmidt Badsanierung)",
+      "url": "https://www.11880.com/suche/fliesenleger/murnau"
+    },
+    {
+      "label": "11880 – Fliesenleger Antdorf (Liste mit BS Schmidt Badsanierung)",
+      "url": "https://www.11880.com/suche/fliesenleger/antdorf"
+    }
+  ],
+  "site": {
+    "theme": "aqua",
+    "category": "handwerk",
+    "heroOffer": [
+      "Badsanierung",
+      "Fliesen",
+      "Badplanung",
+      "Dusche",
+      "Renovierung"
+    ],
+    "scene": "bath",
+    "logoIcon": "drop",
+    "logoMark": "BS",
+    "brandName": "BS Schmidt Badsanierung",
+    "seoTitle": "Badsanierung in Murnau – BS Schmidt Badsanierung",
+    "seoDescription": "Badsanierung, Badplanung und Fliesenarbeiten in Murnau am Staffelsee und Umgebung. Fotos vom Bad per WhatsApp schicken und Angebot anfragen.",
+    "nav": [
+      {
+        "label": "Leistungen",
+        "href": "#leistungen"
+      },
+      {
+        "label": "Projekte",
+        "href": "#projekte"
+      },
+      {
+        "label": "Bewertungen",
+        "href": "#bewertungen"
+      },
+      {
+        "label": "Ablauf",
+        "href": "#ablauf"
+      },
+      {
+        "label": "FAQ",
+        "href": "#faq"
+      },
+      {
+        "label": "Kontakt",
+        "href": "#kontakt"
+      }
+    ],
+    "hero": {
+      "eyebrow": "Badsanierung · Murnau am Staffelsee",
+      "headline": "Badsanierung in Murnau",
+      "sub": "Vom alten Bad zum neuen: Planung, Rückbau und Fliesen aus Murnau.",
+      "ctaPrimary": "Bad-Angebot anfragen",
+      "ctaSecondary": "Anrufen",
+      "bullets": [
+        "Badplanung vorab",
+        "Fliesen für Boden und Wand",
+        "Direkt per Handy erreichbar"
+      ],
+      "imageLabel": "helles saniertes Bad mit großformatigen Fliesen und bodengleicher Dusche"
+    },
+    "badges": [
+      {
+        "title": "Badsanierung",
+        "sub": "Komplett oder in Teilen"
+      },
+      {
+        "title": "Badplanung",
+        "sub": "vor dem ersten Abriss"
+      },
+      {
+        "title": "Fliesen",
+        "sub": "Boden und Wand"
+      },
+      {
+        "title": "Murnau",
+        "sub": "Schützenplatz"
+      }
+    ],
+    "trust": [
+      {
+        "value": "Murnau",
+        "label": "Betrieb am Schützenplatz"
+      },
+      {
+        "value": "Bad",
+        "label": "Schwerpunkt Sanierung"
+      },
+      {
+        "value": "Fotos",
+        "label": "Ersteinschätzung per WhatsApp"
+      },
+      {
+        "value": "Mobil",
+        "label": "direkt erreichbar"
+      }
+    ],
+    "servicesIntro": {
+      "headline": "Ihr Bad – geplant, saniert, gefliest",
+      "text": "Ob nur neue Fliesen oder ein komplett erneuertes Bad: Erst wird geplant, dann gebaut – so wissen Sie vorher, was Sie bekommen."
+    },
+    "services": [
+      {
+        "title": "Komplettsanierung",
+        "text": "Das alte Bad wird zurückgebaut und neu aufgebaut – vom Untergrund bis zur letzten Fuge.",
+        "items": [
+          "Rückbau",
+          "Neuaufbau",
+          "Fertige Übergabe"
+        ]
+      },
+      {
+        "title": "Badplanung",
+        "text": "Gemeinsam wird festgelegt, wo Dusche, WC und Waschtisch hinkommen und welche Fliesen passen.",
+        "items": [
+          "Aufteilung",
+          "Fliesenauswahl",
+          "Ablauf"
+        ]
+      },
+      {
+        "title": "Badrenovierung",
+        "text": "Neue Oberflächen für ein Bad, dessen Aufteilung bleiben darf – schneller als eine Komplettsanierung.",
+        "items": [
+          "Neue Fliesen",
+          "Neue Oberflächen",
+          "Kürzere Bauzeit"
+        ]
+      },
+      {
+        "title": "Wandfliesen",
+        "text": "Wände im Bad werden neu gefliest – vom Spritzschutz bis zur raumhohen Verlegung.",
+        "items": [
+          "Raumhoch",
+          "Spritzschutz",
+          "Saubere Fugen"
+        ]
+      },
+      {
+        "title": "Bodenfliesen",
+        "text": "Rutschhemmende, pflegeleichte Böden für Bad und Gäste-WC.",
+        "items": [
+          "Bad",
+          "Gäste-WC",
+          "Pflegeleicht"
+        ]
+      },
+      {
+        "title": "Dusche erneuern",
+        "text": "Die alte Duschwanne raus, eine neue, gefliese Dusche rein – auf Wunsch bodennah.",
+        "items": [
+          "Duschbereich",
+          "Abdichtung",
+          "Fliesen"
+        ]
+      }
+    ],
+    "why": {
+      "headline": "Ein Bad aus Murnau – ohne Umwege geplant.",
+      "points": [
+        {
+          "title": "Kurze Wege",
+          "text": "Der Betrieb sitzt in Murnau und ist schnell in Seehausen, Uffing und Riegsee."
+        },
+        {
+          "title": "Erst planen",
+          "text": "Vor dem Abriss steht fest, wie das neue Bad aussehen soll."
+        },
+        {
+          "title": "Fotos genügen",
+          "text": "Für eine erste Einschätzung reichen ein paar Handyfotos vom jetzigen Bad."
+        },
+        {
+          "title": "Direkter Draht",
+          "text": "Sie sprechen mit dem Betrieb selbst – per Anruf oder WhatsApp."
+        }
+      ]
+    },
+    "reviews": {
+      "headline": "Was Kunden sagen",
+      "summary": "Kundenstimmen werden hier eingebunden, sobald sie aus dem Google-Profil übernommen sind.",
+      "highlights": [
+        "Badsanierung in Murnau",
+        "Fliesen für Boden und Wand",
+        "Direkter Kontakt"
+      ],
+      "source": "Google",
+      "sourceUrl": "https://www.google.com/maps/search/?api=1&query=BS%20Schmidt%20Badsanierung%20Sch%C3%BCtzenplatz%207A%20Murnau",
+      "rating": null,
+      "count": null
+    },
+    "process": {
+      "headline": "So entsteht Ihr neues Bad",
+      "steps": [
+        {
+          "title": "Fotos schicken",
+          "text": "Ein paar Bilder vom Bad und grobe Maße per WhatsApp – oder kurz anrufen."
+        },
+        {
+          "title": "Termin vor Ort",
+          "text": "Aufmaß, Wünsche und Zustand des Untergrunds werden geklärt."
+        },
+        {
+          "title": "Plan & Angebot",
+          "text": "Sie erhalten Aufteilung, Fliesenvorschlag und ein klares Angebot."
+        },
+        {
+          "title": "Umbau",
+          "text": "Rückbau, Aufbau und Fliesen – danach ist das Bad bereit."
+        }
+      ]
+    },
+    "gallery": {
+      "headline": "Bäder aus dem Raum Murnau",
+      "text": "Für die Live-Version zeigen wir hier echte Bäder des Betriebs – vorher und nachher.",
+      "items": [
+        {
+          "title": "Komplettes Bad",
+          "photoNeeded": "fertig saniertes Bad, Gesamtansicht"
+        },
+        {
+          "title": "Neue Dusche",
+          "photoNeeded": "geflieste Dusche mit Glaswand"
+        },
+        {
+          "title": "Wandfliesen",
+          "photoNeeded": "raumhoch geflieste Wand mit sauberen Fugen"
+        },
+        {
+          "title": "Gäste-WC",
+          "photoNeeded": "kleines renoviertes Gäste-WC"
+        },
+        {
+          "title": "Vorher – nachher",
+          "photoNeeded": "dasselbe Bad vor und nach der Sanierung"
+        }
+      ]
+    },
+    "region": {
+      "headline": "Badsanierung rund um den Staffelsee",
+      "text": "Von Murnau aus in Seehausen, Uffing, Riegsee, Spatzenhausen, Ohlstadt und Eglfing.",
+      "places": [
+        "Murnau am Staffelsee",
+        "Seehausen",
+        "Uffing",
+        "Riegsee",
+        "Spatzenhausen",
+        "Ohlstadt",
+        "Eglfing"
+      ]
+    },
+    "faq": [
+      {
+        "q": "Kann ich vorab Fotos von meinem Bad schicken?",
+        "a": "Ja, Fotos und grobe Maße per WhatsApp helfen für eine erste Einschätzung."
+      },
+      {
+        "q": "Muss immer das ganze Bad raus?",
+        "a": "Nein. Oft reicht eine Renovierung mit neuen Fliesen – das klärt der Termin vor Ort."
+      },
+      {
+        "q": "Wie lange dauert eine Badsanierung?",
+        "a": "Das hängt von Größe und Umfang ab. Ein Zeitplan wird nach dem Aufmaß abgestimmt."
+      },
+      {
+        "q": "Hilft der Betrieb bei der Planung?",
+        "a": "Ja, Badplanung gehört zum Angebot – Aufteilung und Fliesen werden vorher festgelegt."
+      },
+      {
+        "q": "Arbeiten Sie auch außerhalb von Murnau?",
+        "a": "Ja, rund um den Staffelsee – fragen Sie einfach an."
+      }
+    ],
+    "contact": {
+      "headline": "Ihr Bad-Angebot – kostenlos und unverbindlich",
+      "text": "Beschreiben Sie kurz Ihr Bad: Größe, was raus soll und was Sie sich wünschen. Fotos helfen.",
+      "topics": [
+        "Komplettsanierung",
+        "Badrenovierung",
+        "Dusche erneuern",
+        "Fliesenarbeiten",
+        "Sonstiges"
+      ],
+      "responseNote": "Termin vor Ort nach Absprache."
+    },
+    "quote": {
+      "sizeLabel": "Was soll gemacht werden?",
+      "sizes": [
+        "Nur Fliesen",
+        "Dusche erneuern",
+        "Kleines Bad / Gäste-WC",
+        "Komplettes Bad"
+      ],
+      "timings": [
+        "So bald wie möglich",
+        "In den nächsten Wochen",
+        "In 1–3 Monaten",
+        "Ich plane erst noch"
+      ]
+    },
+    "stickyCta": "Bad anfragen",
+    "look": {
+      "palette": 3,
+      "font": 5,
+      "hero": 7,
+      "services": 3,
+      "radius": 0,
+      "logo": 3,
+      "intro": 4,
+      "projects": 0,
+      "process": 0,
+      "faq": 0,
+      "reviews": 1,
+      "order": 3
+    }
+  }
+}
