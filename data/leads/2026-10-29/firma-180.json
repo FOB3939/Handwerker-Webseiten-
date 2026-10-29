@@ -1,0 +1,399 @@
+{
+  "id": "2026-10-29-180",
+  "slug": "demaku-gebaeudereinigung-peissenberg",
+  "date": "2026-10-29",
+  "company": {
+    "name": "Demaku Gebäudereinigung & Hausmeisterservice",
+    "owner": null,
+    "trade": "Gebäudereinigung & Hausmeisterservice",
+    "city": "Peißenberg",
+    "address": "Bachstraße 67, 82380 Peißenberg",
+    "phone": "01573 3721083",
+    "email": null,
+    "serviceArea": [
+      "Peißenberg",
+      "Hohenpeißenberg",
+      "Weilheim",
+      "Peiting",
+      "Polling",
+      "Wielenbach"
+    ]
+  },
+  "listings": {
+    "google": {
+      "url": "https://www.google.com/maps/search/?api=1&query=Demaku%20Gebäudereinigung%20Bachstraße%2067%20Peißenberg",
+      "rating": null,
+      "reviews": null,
+      "evidence": "INDIREKT (Spiegel) – firmania.de führt „Demaku- Gebäudereinigung“, Bachstraße 67, 82380 Peißenberg, Tel. +49 1573 3721083, Öffnungszeiten Mo–Sa 09:00–17:00 (typische Google-Profil-Daten). Keine Bewertungen und kein Website-Feld im Snippet. Kein direkter google.com/maps-Treffer – in Maps prüfen."
+    },
+    "myhammer": {
+      "url": "https://www.11880.com/suche/gebaeudereinigung/peissenberg",
+      "rating": null,
+      "reviews": null,
+      "evidence": "Kein MyHammer gefunden – Eintrag „Demaku Gebäudereinigung & Hausmeisterservice“ in der 11880-Liste Gebäudereinigung Peißenberg (Bachstr. 67, (01573) 3721083), ohne E-Mail-Feld. Zusätzlich regional.de (Gebäudereinigung Bayern) mit Leistungsbeschreibung, ohne Website-Link."
+    }
+  },
+  "websiteStatus": "keine eigene Website gefunden",
+  "websiteChecks": [
+    "(a) „Demaku Gebäudereinigung Hausmeisterservice Peißenberg“ mit blocked_domains (11880, Gelbe Seiten, Das Örtliche, Telefonbuch, Cylex, meinestadt, Creditreform, Facebook, Instagram, golocal, MyHammer, Northdata, Firmenwissen, WKDB, Yelp, trustlocal, wlw) – nur Verzeichnisse (firmania, regional.de, putzperle, hausmeisterdienste.net); keine eigene Domain",
+    "(b) Domain-Check allowed_domains demaku.de, demaku-gebaeudereinigung.de, demaku-reinigung.de, demaku-service.de, demaku-hausmeisterservice.de, demaku-peissenberg.de, demaku.com, demaku-clean.de – einziger Treffer demaku.com = Privatseite Florian Demaku, München (Pitch-Analysen, kein Reinigungsbetrieb)",
+    "(c) Telefonsuche „01573 3721083“/„015733721083“/„+49 1573 3721083“ – nur Rufnummernblock-Listen und Vorwahl-Infoseiten, keine Website",
+    "(d) Impressum-Suche „Impressum Demaku Bachstraße 67 Peißenberg Inhaber“ – kein eigenes Impressum; Inhaber nirgends genannt",
+    "Verzeichnisse: regional.de-Eintrag ohne Website-Link; 11880 ohne E-Mail-Feld; keine E-Mail gefunden (auch keine Freemail – laut Vorrecherche vermutet, nicht bestätigt)",
+    "Website-Risiko: mittel – alle Prüfungen negativ, Google-Eintrag nur indirekt über firmania belegt, keine Freemail bestätigt"
+  ],
+  "facts": {
+    "services": [
+      "Gebäudereinigung",
+      "Grundreinigung",
+      "Glasreinigung",
+      "Unterhaltsreinigung",
+      "Hausmeisterservice"
+    ],
+    "experience": null,
+    "praisedFor": []
+  },
+  "strategy": {
+    "audience": "Hausverwaltungen, Vermieter, Eigentümergemeinschaften und Gewerbebetriebe in Peißenberg, Weilheim und Peiting, die Treppenhaus, Büro oder Fenster regelmäßig reinigen lassen wollen",
+    "mainService": "Unterhalts-, Grund- und Glasreinigung mit Hausmeisterservice",
+    "trustSignal": "Betrieb vor Ort in der Bachstraße in Peißenberg, direkt per Handy erreichbar",
+    "conversionGoal": "Kostenloses Angebot für Reinigung oder Hausmeisterservice anfragen (Anruf/WhatsApp)",
+    "visualConcept": "Helles, frisch gereinigtes Treppenhaus mit glänzenden Glasflächen, kühles Blau und Weiß – ordentlich und klar"
+  },
+  "sales": {
+    "score": 4,
+    "whyGoodLead": [
+      "Keine eigene Website gefunden – nur Verzeichniseinträge",
+      "Mobilnummer öffentlich gelistet – ideal für WhatsApp-Erstkontakt",
+      "Reinigung und Hausmeisterdienst für Hausverwaltungen: Website mit Leistungsübersicht schafft Vertrauen bei Daueraufträgen",
+      "Keine Bewertungen sichtbar – Website und Google-Profil bringen Sichtbarkeit im Landkreis Weilheim-Schongau"
+    ],
+    "pitch": "Hallo, hier ist … – ich baue Websites für Handwerks- und Servicebetriebe im Landkreis Weilheim-Schongau. Ihren Eintrag „Demaku Gebäudereinigung & Hausmeisterservice“ in Peißenberg habe ich gefunden, aber keine eigene Website. Ich habe unverbindlich einen Entwurf vorbereitet, über den Hausverwaltungen und Firmen Ihre Reinigungsleistungen sehen und direkt anfragen können – darf ich Ihnen den Link schicken?"
+  },
+  "manualChecks": [
+    "Website-Risiko: mittel – vor Versand in Google Maps prüfen, dass keine Website hinterlegt ist (Grund: Google-Eintrag nur über firmania-Spiegel belegt, keine Freemail bestätigt)",
+    "Google-Eintrag in Maps bestätigen (Existenz, Bewertungen) – 11880 zeigte zeitweise „Geschlossen“, firmania Mo–Sa 9–17 Uhr",
+    "Inhabername unbekannt („Demaku“ vermutlich Familienname) – beim Erstkontakt erfragen; Anrede neutral halten. Privatseite demaku.com (Florian Demaku, München) gehört nach Snippet nicht zum Betrieb",
+    "Hausmeisterleistungen nur durch den Firmennamen belegt; Reinigungsleistungen (Grund-, Glas-, Unterhaltsreinigung) laut regional.de – Umfang (Winterdienst, Grünpflege) beim Betrieb bestätigen",
+    "Logo und Projektfotos: nicht gefunden – beim Betrieb anfragen"
+  ],
+  "sources": [
+    {
+      "label": "11880 – Gebäudereinigung Peißenberg (Liste mit Demaku)",
+      "url": "https://www.11880.com/suche/gebaeudereinigung/peissenberg"
+    },
+    {
+      "label": "firmania – Demaku- Gebäudereinigung, Bachstraße 67, Peißenberg",
+      "url": "https://firmania.de/peissenberg/demaku-geb%C3%A4udereinigung-4115053"
+    },
+    {
+      "label": "regional.de – Gebäudereinigung Bayern (Demaku Gebäudereinigung)",
+      "url": "https://www.regional.de/Bayern/Dienstleistung/Gebaeudereinigung.html"
+    }
+  ],
+  "site": {
+    "theme": "objekt",
+    "category": "handwerk",
+    "heroOffer": [
+      "Unterhaltsreinigung",
+      "Grundreinigung",
+      "Glasreinigung",
+      "Treppenhaus",
+      "Hausmeister"
+    ],
+    "scene": "facade",
+    "logoIcon": "broom",
+    "logoMark": "DK",
+    "brandName": "Demaku",
+    "seoTitle": "Gebäudereinigung in Peißenberg – Demaku",
+    "seoDescription": "Unterhalts-, Grund- und Glasreinigung sowie Hausmeisterservice in Peißenberg und Umgebung. Jetzt kostenloses Angebot anfragen – auch per WhatsApp.",
+    "nav": [
+      {
+        "label": "Leistungen",
+        "href": "#leistungen"
+      },
+      {
+        "label": "Projekte",
+        "href": "#projekte"
+      },
+      {
+        "label": "Bewertungen",
+        "href": "#bewertungen"
+      },
+      {
+        "label": "Ablauf",
+        "href": "#ablauf"
+      },
+      {
+        "label": "FAQ",
+        "href": "#faq"
+      },
+      {
+        "label": "Kontakt",
+        "href": "#kontakt"
+      }
+    ],
+    "hero": {
+      "eyebrow": "Gebäudereinigung · Peißenberg",
+      "headline": "Gebäudereinigung und Hausmeister in Peißenberg",
+      "sub": "Treppenhäuser, Büros und Fenster regelmäßig sauber – aus der Bachstraße in Peißenberg.",
+      "ctaPrimary": "Kostenloses Angebot anfragen",
+      "ctaSecondary": "Anrufen",
+      "bullets": [
+        "Grund-, Glas- und Unterhaltsreinigung",
+        "Hausmeisterservice aus Peißenberg",
+        "Direkt per Handy erreichbar"
+      ],
+      "imageLabel": "frisch gereinigtes Treppenhaus mit glänzenden Glasflächen"
+    },
+    "badges": [
+      {
+        "title": "Unterhaltsreinigung",
+        "sub": "regelmäßig nach Plan"
+      },
+      {
+        "title": "Glasreinigung",
+        "sub": "Fenster & Glasflächen"
+      },
+      {
+        "title": "Hausmeister",
+        "sub": "rund ums Objekt"
+      },
+      {
+        "title": "Peißenberg",
+        "sub": "Bachstraße"
+      }
+    ],
+    "trust": [
+      {
+        "value": "Vor Ort",
+        "label": "Betrieb in Peißenberg"
+      },
+      {
+        "value": "Mo–Sa",
+        "label": "erreichbar"
+      },
+      {
+        "value": "3",
+        "label": "Reinigungsarten"
+      },
+      {
+        "value": "Mobil",
+        "label": "schnell erreichbar"
+      }
+    ],
+    "servicesIntro": {
+      "headline": "Reinigung und Hausmeisterdienst für Ihr Objekt",
+      "text": "Von der einmaligen Grundreinigung bis zum festen Reinigungsplan fürs Treppenhaus: Sie bekommen Reinigung und Betreuung aus einer Hand."
+    },
+    "services": [
+      {
+        "title": "Unterhaltsreinigung",
+        "text": "Treppenhaus, Büro oder Praxis werden in festen Abständen gereinigt – Sie legen den Rhythmus fest.",
+        "items": [
+          "Treppenhäuser",
+          "Büros",
+          "Fester Turnus"
+        ]
+      },
+      {
+        "title": "Grundreinigung",
+        "text": "Gründliche Reinigung nach Auszug, Renovierung oder vor der Übergabe an neue Mieter.",
+        "items": [
+          "Nach Auszug",
+          "Nach Renovierung",
+          "Übergabe"
+        ]
+      },
+      {
+        "title": "Glasreinigung",
+        "text": "Fenster, Rahmen und Glasflächen streifenfrei – innen und außen.",
+        "items": [
+          "Fenster",
+          "Rahmen",
+          "Glastüren"
+        ]
+      },
+      {
+        "title": "Treppenhausreinigung",
+        "text": "Saubere Stufen, Geländer und Eingänge für Mehrfamilienhäuser und Wohnanlagen.",
+        "items": [
+          "Stufen",
+          "Geländer",
+          "Eingangsbereich"
+        ]
+      },
+      {
+        "title": "Büroreinigung",
+        "text": "Arbeitsplätze, Küche und Sanitärräume werden gereinigt, wenn der Betrieb ruht.",
+        "items": [
+          "Arbeitsplätze",
+          "Teeküche",
+          "Sanitärräume"
+        ]
+      },
+      {
+        "title": "Hausmeisterservice",
+        "text": "Kleine Arbeiten und Kontrollgänge rund ums Haus – abgestimmt auf Ihr Objekt.",
+        "items": [
+          "Kontrollgänge",
+          "Kleinreparaturen",
+          "Objektbetreuung"
+        ]
+      }
+    ],
+    "why": {
+      "headline": "Sauberkeit aus Peißenberg – ohne lange Wege.",
+      "points": [
+        {
+          "title": "Vor Ort",
+          "text": "Der Betrieb sitzt in Peißenberg und ist schnell in Weilheim, Peiting und Hohenpeißenberg."
+        },
+        {
+          "title": "Ein Kontakt",
+          "text": "Reinigung und Hausmeisterdienst laufen über eine Nummer – ohne Callcenter."
+        },
+        {
+          "title": "Planbar",
+          "text": "Fester Reinigungsrhythmus, damit Treppenhaus und Büro dauerhaft gepflegt bleiben."
+        },
+        {
+          "title": "Flexibel",
+          "text": "Einmalige Grundreinigung oder laufender Auftrag – je nach Bedarf."
+        }
+      ]
+    },
+    "reviews": {
+      "headline": "Was Kunden sagen",
+      "summary": "Kundenstimmen werden hier eingebunden, sobald sie aus dem Google-Profil übernommen sind.",
+      "highlights": [
+        "Gebäudereinigung in Peißenberg",
+        "Glas- und Unterhaltsreinigung",
+        "Direkter Kontakt"
+      ],
+      "source": "Google",
+      "sourceUrl": "https://www.google.com/maps/search/?api=1&query=Demaku%20Gebäudereinigung%20Bachstraße%2067%20Peißenberg",
+      "rating": null,
+      "count": null
+    },
+    "process": {
+      "headline": "In vier Schritten zum sauberen Objekt",
+      "steps": [
+        {
+          "title": "Anfrage",
+          "text": "Anrufen oder per WhatsApp kurz das Objekt und den Wunsch beschreiben."
+        },
+        {
+          "title": "Besichtigung",
+          "text": "Flächen, Böden und Glas werden vor Ort angeschaut."
+        },
+        {
+          "title": "Angebot",
+          "text": "Sie erhalten ein Angebot mit Leistungen und Rhythmus."
+        },
+        {
+          "title": "Start",
+          "text": "Die Reinigung beginnt zum vereinbarten Termin – einmalig oder regelmäßig."
+        }
+      ]
+    },
+    "gallery": {
+      "headline": "Saubere Objekte in Peißenberg",
+      "text": "Für die Live-Version zeigen wir hier echte Einsätze des Betriebs.",
+      "items": [
+        {
+          "title": "Treppenhaus",
+          "photoNeeded": "gereinigtes Treppenhaus in einem Mehrfamilienhaus"
+        },
+        {
+          "title": "Fensterfront",
+          "photoNeeded": "streifenfreie Fensterfront nach der Glasreinigung"
+        },
+        {
+          "title": "Büro",
+          "photoNeeded": "aufgeräumter, gereinigter Büroraum"
+        },
+        {
+          "title": "Grundreinigung",
+          "photoNeeded": "leere Wohnung nach Grundreinigung zur Übergabe"
+        },
+        {
+          "title": "Eingangsbereich",
+          "photoNeeded": "gepflegter Hauseingang einer Wohnanlage"
+        }
+      ]
+    },
+    "region": {
+      "headline": "Gebäudereinigung für Peißenberg und den Pfaffenwinkel",
+      "text": "Von Peißenberg aus in Hohenpeißenberg, Weilheim, Peiting, Polling und Wielenbach im Einsatz.",
+      "places": [
+        "Peißenberg",
+        "Hohenpeißenberg",
+        "Weilheim",
+        "Peiting",
+        "Polling",
+        "Wielenbach"
+      ]
+    },
+    "faq": [
+      {
+        "q": "Reinigen Sie auch regelmäßig?",
+        "a": "Ja, Unterhaltsreinigung in festem Rhythmus gehört zum Angebot – zum Beispiel wöchentlich fürs Treppenhaus."
+      },
+      {
+        "q": "Übernehmen Sie eine Grundreinigung nach dem Auszug?",
+        "a": "Ja, Grundreinigungen sind möglich. Den Umfang stimmen wir vorab ab."
+      },
+      {
+        "q": "Putzen Sie auch Fenster?",
+        "a": "Ja, Glasreinigung von Fenstern und Glasflächen ist Teil des Angebots."
+      },
+      {
+        "q": "Wie bekomme ich ein Angebot?",
+        "a": "Rufen Sie an oder schreiben Sie per WhatsApp. Nach einer kurzen Besichtigung erhalten Sie ein Angebot."
+      },
+      {
+        "q": "Sind Sie auch außerhalb von Peißenberg tätig?",
+        "a": "Ja, im Umkreis von Peißenberg – fragen Sie einfach an."
+      }
+    ],
+    "contact": {
+      "headline": "Ihr Angebot – kostenlos und unverbindlich",
+      "text": "Beschreiben Sie kurz Ihr Objekt: Art, ungefähre Fläche, gewünschte Reinigung und wie oft.",
+      "topics": [
+        "Unterhaltsreinigung",
+        "Grundreinigung",
+        "Glasreinigung",
+        "Hausmeisterservice",
+        "Sonstiges"
+      ],
+      "responseNote": "Besichtigung nach Absprache."
+    },
+    "quote": {
+      "sizeLabel": "Welches Objekt soll gereinigt werden?",
+      "sizes": [
+        "Wohnung",
+        "Treppenhaus",
+        "Büro / Praxis",
+        "Wohnanlage",
+        "Gewerbefläche"
+      ],
+      "timings": [
+        "Einmalig, so bald wie möglich",
+        "Regelmäßig ab sofort",
+        "In den nächsten Wochen",
+        "Ich plane erst noch"
+      ]
+    },
+    "stickyCta": "Angebot anfragen",
+    "look": {
+      "palette": 2,
+      "font": 6,
+      "hero": 0,
+      "services": 1,
+      "radius": 1,
+      "logo": 0,
+      "intro": 5
+    }
+  }
+}

@@ -1,0 +1,408 @@
+{
+  "id": "2026-10-29-175",
+  "slug": "muja-haus-garten-service-seefeld",
+  "date": "2026-10-29",
+  "company": {
+    "name": "MUJA Haus Garten Service",
+    "owner": null,
+    "trade": "Hausmeisterservice & Gartenpflege",
+    "city": "Seefeld",
+    "address": "Hauptstr. 28, 82229 Seefeld (Hechendorf)",
+    "phone": "0178 1487421",
+    "email": "besnikislami75@gmail.com",
+    "serviceArea": [
+      "Seefeld",
+      "Hechendorf",
+      "Wörthsee",
+      "Weßling",
+      "Herrsching",
+      "Gilching",
+      "Inning",
+      "Starnberg"
+    ]
+  },
+  "listings": {
+    "google": {
+      "url": "https://www.google.com/maps/search/?api=1&query=Haus%20Garten%20Service%20Muja%20Hauptstr.%2028%20Seefeld",
+      "rating": null,
+      "reviews": null,
+      "evidence": "Kein Google-Beleg gefunden (kein Spiegel-Treffer bei trustlocal/firmania/rgv-bayern). Annahme stützt sich auf die öffentlich gelistete Gmail-Adresse besnikislami75@gmail.com in zwei 11880-Einträgen – in Google Maps prüfen."
+    },
+    "myhammer": {
+      "url": "https://www.11880.com/branchenbuch/seefeld-oberbayern/170211840B112623506/haus-garten-service-muja.html",
+      "rating": null,
+      "reviews": null,
+      "evidence": "Kein MyHammer gefunden – zwei 11880-Einträge unter derselben Adresse Hauptstr. 28, Seefeld (Hechendorf): „Haus Garten Service Muja“ (Garten- und Landschaftsbau, Tel. 08152 9174358, noch keine Bewertungen) und „MUJA Gartenhaus service“ (Hausmeisterservice & Garten- und Landschaftsbau, Tel. 0178 1487421), beide mit besnikislami75@gmail.com."
+    }
+  },
+  "websiteStatus": "keine eigene Website gefunden",
+  "websiteChecks": [
+    "(0) Freemail bestätigt: 11880-Snippets zeigen besnikislami75@gmail.com für beide Einträge (Hauptstr. 28, Seefeld-Hechendorf)",
+    "(1) „MUJA Haus Garten Service Seefeld Hechendorf“ mit blocked_domains (11880, Gelbe Seiten, Das Örtliche, Telefonbuch, Cylex, meinestadt, Creditreform, Facebook, Instagram, golocal, MyHammer, Northdata, Firmenwissen, WKDB, Yelp, trustlocal, wlw) – kein eigener Treffer; nur andere Betriebe in Seefeld (MW-Servicepartner, Gartenservice Schmelzer, Hms.Hausmeisterservice, Stefan Fey) und „Gartengestaltung Muja“ (gartengestaltung-muja.de) aus Ludwigsburg/Tamm – anderer Betrieb, ca. 400 km entfernt",
+    "(2) Domain-Check allowed_domains muja-service.de, muja-hausgartenservice.de, haus-garten-service-muja.de, muja-gartenservice.de, muja-garten.de, muja-hausmeisterservice.de, muja-seefeld.de, hausgartenservice-muja.de – keine Treffer",
+    "(3) Telefonsuche „0178 1487421“/„01781487421“/„08152 9174358“ mit blocked_domains – nur Rufnummern-Sammelseite (anruferauskunft.de), keine Website",
+    "(4) Impressum-Suche „Impressum Besnik Islami Seefeld Garten Hausmeister“ – kein eigenes Impressum; nur Namensgleiche ohne Bezug (Fribourg CH, Fußballer) und andere Gartenbaubetriebe (besnik-haziri.de, islami-gartenbau.de Pfaffenhofen = anderer Inhaber)",
+    "(5) Exakte Suche nach der Gmail-Adresse – keine Seite außer 11880 nennt sie",
+    "Website-Risiko: mittel – alle Prüfungen negativ, Freemail belegt, aber kein Google-Beleg und zwei Einträge mit unterschiedlichen Namen/Nummern"
+  ],
+  "facts": {
+    "services": [
+      "Hausmeisterservice",
+      "Garten- und Landschaftsbau",
+      "Gartenpflege"
+    ],
+    "experience": null,
+    "praisedFor": []
+  },
+  "strategy": {
+    "audience": "Hausbesitzer, Vermieter, Ferienwohnungs-Eigentümer und kleine Hausverwaltungen in Seefeld, Hechendorf, Wörthsee und Weßling, die Haus und Garten regelmäßig betreuen lassen wollen",
+    "mainService": "Haus- und Gartenbetreuung aus einer Hand",
+    "trustSignal": "Betrieb direkt in Seefeld-Hechendorf, per Handy erreichbar",
+    "conversionGoal": "Unverbindliche Anfrage für Gartenpflege oder Hausbetreuung (Anruf/WhatsApp mit Fotos)",
+    "visualConcept": "Frisches Grün am Pilsensee: gemähter Rasen, geschnittene Hecken, gefegte Wege vor einem gepflegten Einfamilienhaus"
+  },
+  "sales": {
+    "score": 4,
+    "whyGoodLead": [
+      "Keine eigene Website gefunden – nur zwei 11880-Einträge",
+      "Mobilnummer und Gmail-Adresse öffentlich gelistet – direkter Erstkontakt möglich",
+      "Zwei Namensvarianten verwirren Kunden – eine Website bündelt Name, Nummer und Leistungen",
+      "Haus- und Gartenbetreuung bringt wiederkehrende Aufträge rund um den Pilsensee"
+    ],
+    "pitch": "Hallo, hier ist … – ich baue Websites für Handwerksbetriebe im Fünfseenland. Ich habe Ihren Eintrag „MUJA Haus Garten Service“ in Seefeld-Hechendorf gefunden, aber keine eigene Website. Ich habe unverbindlich einen Entwurf vorbereitet, über den Hausbesitzer Gartenpflege und Hausbetreuung direkt per WhatsApp anfragen können – darf ich Ihnen den Link schicken?"
+  },
+  "manualChecks": [
+    "Website-Risiko: mittel – vor Versand in Google Maps prüfen, dass keine Website hinterlegt ist (Grund: kein Google-Beleg, nur Freemail in 11880; zwei Einträge „Haus Garten Service Muja“ und „MUJA Gartenhaus service“)",
+    "Google Maps: „Muja Hauptstr. 28 Seefeld“ suchen – Existenz, Bewertungen, Website-Feld prüfen",
+    "Firmenname klären: „MUJA Haus Garten Service“ vs. „MUJA Gartenhaus service“ – Schreibweise für Logo/Titel beim Betrieb bestätigen",
+    "Zwei Nummern: Mobil 0178 1487421 und Festnetz 08152 9174358 – klären, welche gilt",
+    "Inhaber nicht belegt (Gmail-Adresse lässt auf Besnik Islami schließen, nirgends als Inhaber genannt) – Anrede neutral halten",
+    "Leistungen nur über Kategorien belegt (Hausmeisterservice, Garten- und Landschaftsbau) – Detailleistungen (Winterdienst, Heckenschnitt, Pflasterarbeiten) beim Betrieb bestätigen",
+    "Logo und Projektfotos: nicht gefunden – beim Betrieb anfragen"
+  ],
+  "sources": [
+    {
+      "label": "11880 – Haus Garten Service Muja, Seefeld",
+      "url": "https://www.11880.com/branchenbuch/seefeld-oberbayern/170211840B112623506/haus-garten-service-muja.html"
+    },
+    {
+      "label": "11880 – Gartenbauer Seefeld (Liste)",
+      "url": "https://www.11880.com/suche/gartenbau/seefeld"
+    },
+    {
+      "label": "11880 – Garten- und Landschaftsbauer Seefeld (Liste)",
+      "url": "https://www.11880.com/suche/garten-und-landschaftsbau/seefeld"
+    }
+  ],
+  "site": {
+    "theme": "garten",
+    "category": "handwerk",
+    "heroOffer": [
+      "Gartenpflege",
+      "Rasen",
+      "Hecken",
+      "Hausbetreuung",
+      "Außenanlagen"
+    ],
+    "scene": "garden",
+    "logoIcon": "leaf",
+    "logoMark": "MU",
+    "brandName": "MUJA Haus Garten Service",
+    "seoTitle": "Haus- und Gartenservice in Seefeld – MUJA",
+    "seoDescription": "Gartenpflege und Hausmeisterservice in Seefeld-Hechendorf, Wörthsee und Weßling. Jetzt unverbindlich anfragen – auch per WhatsApp.",
+    "nav": [
+      {
+        "label": "Leistungen",
+        "href": "#leistungen"
+      },
+      {
+        "label": "Projekte",
+        "href": "#projekte"
+      },
+      {
+        "label": "Bewertungen",
+        "href": "#bewertungen"
+      },
+      {
+        "label": "Ablauf",
+        "href": "#ablauf"
+      },
+      {
+        "label": "FAQ",
+        "href": "#faq"
+      },
+      {
+        "label": "Kontakt",
+        "href": "#kontakt"
+      }
+    ],
+    "hero": {
+      "eyebrow": "Haus & Garten · Seefeld",
+      "headline": "Haus- und Gartenservice in Seefeld",
+      "sub": "Rasen, Hecken und Haus betreut aus Hechendorf – für Grundstücke rund um den Pilsensee.",
+      "ctaPrimary": "Gartenpflege anfragen",
+      "ctaSecondary": "Anrufen",
+      "bullets": [
+        "Betrieb in Seefeld-Hechendorf",
+        "Garten und Haus aus einer Hand",
+        "Direkt per Handy erreichbar"
+      ],
+      "imageLabel": "gepflegter Garten mit frisch gemähtem Rasen und geschnittener Hecke vor einem Einfamilienhaus"
+    },
+    "badges": [
+      {
+        "title": "Gartenpflege",
+        "sub": "Rasen, Hecken, Beete"
+      },
+      {
+        "title": "Hausmeister",
+        "sub": "Haus und Außenanlagen"
+      },
+      {
+        "title": "Gartenbau",
+        "sub": "Garten- und Landschaftsbau"
+      },
+      {
+        "title": "Hechendorf",
+        "sub": "Hauptstraße 28"
+      }
+    ],
+    "trust": [
+      {
+        "value": "Seefeld",
+        "label": "Betrieb in Hechendorf"
+      },
+      {
+        "value": "2",
+        "label": "Bereiche: Haus & Garten"
+      },
+      {
+        "value": "Pilsensee",
+        "label": "kurze Wege im Umland"
+      },
+      {
+        "value": "Mobil",
+        "label": "Anruf oder WhatsApp"
+      }
+    ],
+    "servicesIntro": {
+      "headline": "Garten und Haus in einer Hand",
+      "text": "Statt Gärtner und Hausmeister einzeln zu suchen: ein Ansprechpartner kümmert sich um Grünflächen und um das Haus."
+    },
+    "services": [
+      {
+        "title": "Rasenpflege",
+        "text": "Regelmäßiges Mähen und Kantenschneiden hält den Rasen dicht und ordentlich – auch während Sie verreist sind.",
+        "items": [
+          "Rasenmähen",
+          "Kanten schneiden",
+          "Vertikutieren"
+        ]
+      },
+      {
+        "title": "Hecken- und Strauchschnitt",
+        "text": "Hecken und Sträucher in Form bringen, Grünschnitt mitnehmen – der Garten wirkt wieder aufgeräumt.",
+        "items": [
+          "Heckenschnitt",
+          "Strauchschnitt",
+          "Grünschnitt-Abfuhr"
+        ]
+      },
+      {
+        "title": "Beet- und Gartenpflege",
+        "text": "Unkraut entfernen, Beete auflockern und Laub beseitigen – im Frühjahr wie im Herbst.",
+        "items": [
+          "Unkraut jäten",
+          "Beetpflege",
+          "Laub entfernen"
+        ]
+      },
+      {
+        "title": "Hausmeisterdienste",
+        "text": "Kontrollgänge, kleine Reparaturen und Ordnung rund ums Haus – für Eigentümer und Vermieter.",
+        "items": [
+          "Kontrollgänge",
+          "Kleinreparaturen",
+          "Ordnung am Haus"
+        ]
+      },
+      {
+        "title": "Außenanlagen",
+        "text": "Wege, Einfahrt und Terrasse sauber halten, damit das Grundstück das ganze Jahr gepflegt aussieht.",
+        "items": [
+          "Wege fegen",
+          "Einfahrt reinigen",
+          "Terrasse säubern"
+        ]
+      },
+      {
+        "title": "Gartengestaltung",
+        "text": "Kleinere Umgestaltungen im Garten- und Landschaftsbau nach Absprache – vom neuen Beet bis zur Bepflanzung.",
+        "items": [
+          "Neue Beete",
+          "Bepflanzung",
+          "Umgestaltung"
+        ]
+      }
+    ],
+    "why": {
+      "headline": "Haus und Garten aus Hechendorf – ein Ansprechpartner.",
+      "points": [
+        {
+          "title": "Kurze Wege",
+          "text": "Der Betrieb sitzt in Seefeld-Hechendorf und ist schnell in Wörthsee, Weßling und Herrsching."
+        },
+        {
+          "title": "Alles in einem Auftrag",
+          "text": "Gartenpflege und Hausbetreuung laufen über eine Nummer statt über zwei Firmen."
+        },
+        {
+          "title": "Direkter Draht",
+          "text": "Ein Anruf oder eine WhatsApp-Nachricht genügt – ohne Warteschleife."
+        },
+        {
+          "title": "Regelmäßig oder einmalig",
+          "text": "Ob feste Pflegetermine oder ein einzelner Einsatz vor dem Urlaub – nach Absprache."
+        }
+      ]
+    },
+    "reviews": {
+      "headline": "Was Kunden sagen",
+      "summary": "Kundenstimmen werden hier eingebunden, sobald sie aus dem Google-Profil übernommen sind.",
+      "highlights": [
+        "Gartenpflege in Seefeld",
+        "Hausbetreuung",
+        "Direkter Kontakt"
+      ],
+      "source": "Google",
+      "sourceUrl": "https://www.google.com/maps/search/?api=1&query=Haus%20Garten%20Service%20Muja%20Hauptstr.%2028%20Seefeld",
+      "rating": null,
+      "count": null
+    },
+    "process": {
+      "headline": "So kommt Ihr Garten in Pflege",
+      "steps": [
+        {
+          "title": "Anfrage",
+          "text": "Kurz anrufen oder Fotos von Garten und Haus per WhatsApp schicken."
+        },
+        {
+          "title": "Besichtigung",
+          "text": "Vor Ort wird besprochen, was gepflegt oder erledigt werden soll."
+        },
+        {
+          "title": "Angebot",
+          "text": "Sie erhalten ein klares Angebot – einmalig oder als regelmäßige Betreuung."
+        },
+        {
+          "title": "Einsatz",
+          "text": "Die Arbeiten werden zum vereinbarten Termin erledigt, Grünschnitt inklusive nach Absprache."
+        }
+      ]
+    },
+    "gallery": {
+      "headline": "Gärten, die gepflegt aussehen",
+      "text": "Für die Live-Version zeigen wir hier echte Einsätze des Betriebs.",
+      "items": [
+        {
+          "title": "Gemähter Rasen",
+          "photoNeeded": "frisch gemähter Rasen mit sauberen Kanten"
+        },
+        {
+          "title": "Geschnittene Hecke",
+          "photoNeeded": "Hecke vor und nach dem Schnitt"
+        },
+        {
+          "title": "Gepflegte Beete",
+          "photoNeeded": "unkrautfreies Staudenbeet"
+        },
+        {
+          "title": "Saubere Einfahrt",
+          "photoNeeded": "gefegte Einfahrt ohne Laub"
+        },
+        {
+          "title": "Herbstputz",
+          "photoNeeded": "Garten nach dem Laubräumen im Herbst"
+        }
+      ]
+    },
+    "region": {
+      "headline": "Haus- und Gartenservice rund um den Pilsensee",
+      "text": "Von Seefeld-Hechendorf aus schnell in Wörthsee, Weßling, Herrsching, Gilching, Inning und Starnberg.",
+      "places": [
+        "Seefeld",
+        "Hechendorf",
+        "Wörthsee",
+        "Weßling",
+        "Herrsching",
+        "Gilching",
+        "Inning",
+        "Starnberg"
+      ]
+    },
+    "faq": [
+      {
+        "q": "Kann ich eine regelmäßige Gartenpflege vereinbaren?",
+        "a": "Ja, feste Pflegetermine lassen sich nach Absprache vereinbaren – ebenso einzelne Einsätze."
+      },
+      {
+        "q": "Übernehmen Sie Haus und Garten zusammen?",
+        "a": "Ja, Hausmeisterservice und Gartenpflege gehören beide zum Angebot."
+      },
+      {
+        "q": "Kann ich vorab Fotos schicken?",
+        "a": "Ja, Fotos per WhatsApp helfen für eine erste Einschätzung."
+      },
+      {
+        "q": "Wird der Grünschnitt mitgenommen?",
+        "a": "Das wird bei der Besichtigung abgestimmt und im Angebot festgehalten."
+      },
+      {
+        "q": "Arbeiten Sie auch außerhalb von Seefeld?",
+        "a": "Ja, im Umkreis von Seefeld-Hechendorf – fragen Sie einfach an."
+      }
+    ],
+    "contact": {
+      "headline": "Ihre Anfrage – unverbindlich",
+      "text": "Beschreiben Sie kurz, was ansteht: Rasen, Hecke, Beete oder Arbeiten am Haus. Fotos und die ungefähre Grundstücksgröße helfen.",
+      "topics": [
+        "Gartenpflege",
+        "Hecken- und Strauchschnitt",
+        "Hausmeisterdienste",
+        "Außenanlagen",
+        "Sonstiges"
+      ],
+      "responseNote": "Besichtigung nach Absprache."
+    },
+    "quote": {
+      "sizeLabel": "Wie groß ist das Grundstück?",
+      "sizes": [
+        "Kleiner Garten",
+        "Einfamilienhaus-Garten",
+        "Großes Grundstück",
+        "Wohnanlage"
+      ],
+      "timings": [
+        "So bald wie möglich",
+        "Regelmäßig ab sofort",
+        "Nächste Saison",
+        "Ich plane erst noch"
+      ]
+    },
+    "stickyCta": "Pflege anfragen",
+    "look": {
+      "palette": 5,
+      "font": 8,
+      "hero": 2,
+      "services": 0,
+      "radius": 2,
+      "logo": 0,
+      "intro": 1,
+      "projects": 0,
+      "process": 0,
+      "faq": 0,
+      "reviews": 0,
+      "order": 2
+    }
+  }
+}

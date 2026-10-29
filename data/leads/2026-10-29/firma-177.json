@@ -1,0 +1,419 @@
+{
+  "id": "2026-10-29-177",
+  "slug": "elektro-gstaiger-weilheim",
+  "date": "2026-10-29",
+  "company": {
+    "name": "Elektro Gstaiger",
+    "owner": "Martin Gstaiger",
+    "trade": "Elektroinstallation",
+    "city": "Weilheim in Oberbayern",
+    "address": "Weinhartstr. 28 A, 82362 Weilheim in Oberbayern",
+    "phone": "0881 9278243",
+    "email": null,
+    "serviceArea": [
+      "Weilheim",
+      "Marnbach",
+      "Polling",
+      "Wielenbach",
+      "Pähl",
+      "Peißenberg"
+    ]
+  },
+  "listings": {
+    "google": {
+      "url": "https://www.google.com/maps/search/?api=1&query=Elektro%20Gstaiger%20Weinhartstr.%2028A%20Weilheim",
+      "rating": 5,
+      "reviews": 3,
+      "evidence": "INDIREKT – das 11880-Profil „Elektro Gstaiger Installationen aller Art“ weist einen Google-Eintrag mit 3 Bewertungen (alle 5/5) aus; werkenntdenbesten.de zählt 6 Bewertungen auf 3 Portalen (golocal, Google, elektriker.org), Ø 5,00. Kein direkter google.com/maps-Treffer, kein Website-Feld in den Snippets – in Maps prüfen."
+    },
+    "myhammer": {
+      "url": "https://www.11880.com/branchenbuch/weilheim-in-oberbayern/060691303B36951436/elektro-gstaiger-installationen-aller-art.html",
+      "rating": null,
+      "reviews": null,
+      "evidence": "Kein MyHammer gefunden – 11880-Profil (2 Bewertungen, Ø 5), Verzeichnisse elektrikerportal.com, elektriker.org („Martin Gstaiger Elektro Gstaiger“, Weinhartstr. 28 a), YellowMap, goyellow, branchen-info.net, defirmenkataloge.com."
+    }
+  },
+  "websiteStatus": "keine eigene Website gefunden",
+  "websiteChecks": [
+    "(1) „Gstaiger Elektro Weilheim Weinhartstr“ mit blocked_domains (11880, Gelbe Seiten, Das Örtliche, Telefonbuch, Cylex, meinestadt, Creditreform, Facebook, Instagram, golocal, MyHammer, Northdata, Firmenwissen, WKDB, Yelp, trustlocal, wlw) – nur Verzeichnisse (elektrikerportal.com, YellowMap, defirmenkataloge.com, branchen-info.net, mein-elektriker-profi.de, goyellow, der-elektriker-24.de); keine eigene Domain",
+    "(2) Domain-Check allowed_domains elektro-gstaiger.de, gstaiger-elektro.de, gstaiger.de, elektrogstaiger.de, gstaiger-weilheim.de, elektro-gstaiger-weilheim.de, gstaiger-elektrotechnik.de, gstaiger.com – keine Treffer",
+    "(3) Telefonsuche „0881 9278243“/„08819278243“/„0881/9278243“ mit blocked_domains – nur Rückwärtssuche-Seiten (anrufer.info, anruferauskunft.de), keine Website",
+    "(4) Impressum-Suche „Impressum Gstaiger Elektroinstallation Weilheim Inhaber“ – kein eigenes Impressum; Inhaber Martin Gstaiger nur in Verzeichnissen (elektriker.org, immobilie.com)",
+    "(5) Google-Spiegel-Suche (rgv-bayern, firmania, trustlocal) – kein Treffer für Gstaiger; Google-Beleg nur über 11880/werkenntdenbesten",
+    "Website-Risiko: mittel – alle Prüfungen negativ, Google-Eintrag nur indirekt belegt, keine E-Mail gefunden"
+  ],
+  "facts": {
+    "services": [
+      "Elektroinstallation",
+      "Hausinstallation",
+      "Smart Home",
+      "Elektroprüfungen",
+      "Beleuchtung",
+      "Notstromanlagen",
+      "Reparaturen"
+    ],
+    "experience": null,
+    "praisedFor": []
+  },
+  "strategy": {
+    "audience": "Hausbesitzer, Vermieter und kleine Gewerbebetriebe in Weilheim und den Nachbarorten, die eine neue Elektroinstallation, Reparatur oder Prüfung brauchen",
+    "mainService": "Elektroinstallation in Haus und Gewerbe",
+    "trustSignal": "Inhabergeführter Elektrobetrieb in Weilheim mit durchweg 5-Sterne-Bewertungen auf mehreren Portalen",
+    "conversionGoal": "Anruf oder Anfrageformular für Installation, Reparatur oder Prüfung",
+    "visualConcept": "Aufgeräumte Technik: sauber verdrahteter Verteilerkasten, gerade Leitungsführung, warmes Licht in Wohnräumen"
+  },
+  "sales": {
+    "score": 6,
+    "whyGoodLead": [
+      "Keine eigene Website gefunden – nur Verzeichniseinträge",
+      "Durchweg 5-Sterne-Bewertungen auf mehreren Portalen – gute Basis für eine Website",
+      "Inhaber namentlich bekannt (Martin Gstaiger) – persönliche Ansprache möglich",
+      "Elektro ist in den Leads bisher selten vertreten"
+    ],
+    "pitch": "Grüß Gott Herr Gstaiger, hier ist … – ich baue Websites für Handwerker im Landkreis Weilheim-Schongau. Ihr Betrieb hat sehr gute Bewertungen, aber ich habe keine eigene Website gefunden. Ich habe unverbindlich einen Entwurf vorbereitet, auf dem Kunden Ihre Elektroarbeiten sehen und direkt anfragen können – darf ich Ihnen den Link schicken?"
+  },
+  "manualChecks": [
+    "Website-Risiko: mittel – vor Versand in Google Maps prüfen, dass keine Website hinterlegt ist (Grund: Google-Eintrag nur indirekt über 11880/werkenntdenbesten belegt, kein direkter Maps-Treffer)",
+    "Google-Bewertungen in Maps bestätigen (11880 nennt 3 Google-Bewertungen à 5/5) und ggf. im Entwurf eintragen",
+    "Nur Festnetz bekannt (0881 9278243, teils auch 0881 9275617) – keine Mobilnummer und keine E-Mail gefunden; Erstkontakt per Anruf",
+    "Leistungen stammen aus Verzeichnisprofil (elektrikerportal.com: Hausinstallation, Smart Home, Prüfungen, Beleuchtung, Notstrom, Reparaturen) – beim Betrieb bestätigen; Photovoltaik nur als Verzeichniskategorie, daher nicht im Entwurf",
+    "Meistertitel nicht belegt – nicht verwenden",
+    "Logo und Projektfotos: nicht gefunden – beim Betrieb anfragen"
+  ],
+  "sources": [
+    {
+      "label": "11880 – Elektro Gstaiger Installationen aller Art, Weilheim",
+      "url": "https://www.11880.com/branchenbuch/weilheim-in-oberbayern/060691303B36951436/elektro-gstaiger-installationen-aller-art.html"
+    },
+    {
+      "label": "werkenntdenbesten – Elektro Gstaiger (6 Bewertungen, Ø 5,00)",
+      "url": "https://www.werkenntdenbesten.de/e/36951436/elektriker/weilheim-in-oberbayern/elektro-gstaiger-installationen-aller-art-bewertungen.html"
+    },
+    {
+      "label": "elektriker.org – Martin Gstaiger Elektro Gstaiger",
+      "url": "https://www.elektriker.org/weilheim/martin-gstaiger-elektro-gstaiger-aULyuI"
+    },
+    {
+      "label": "ElektrikerPortal – Elektro Gstaiger (Leistungen)",
+      "url": "https://elektrikerportal.com/6433-elektro-gstaiger"
+    },
+    {
+      "label": "YellowMap – Elektro Gstaiger Weilheim",
+      "url": "https://www.yellowmap.de/Details/nypccjYPNBDDuX8xQC-n3w==.aspx"
+    },
+    {
+      "label": "branchen-info.net – Elektro Gstaiger Weilheim",
+      "url": "https://weilheim-in-oberbayern.branchen-info.net/fp_2857667.php"
+    }
+  ],
+  "site": {
+    "theme": "volt",
+    "category": "handwerk",
+    "heroOffer": [
+      "Elektroinstallation",
+      "Smart Home",
+      "Beleuchtung",
+      "E-Prüfung",
+      "Reparaturen"
+    ],
+    "scene": "electric",
+    "logoIcon": "bolt",
+    "logoMark": "EG",
+    "brandName": "Elektro Gstaiger",
+    "seoTitle": "Elektriker in Weilheim – Elektro Gstaiger",
+    "seoDescription": "Elektroinstallation, Smart Home, Beleuchtung und Prüfungen in Weilheim und Umgebung. Martin Gstaiger – jetzt anfragen.",
+    "nav": [
+      {
+        "label": "Leistungen",
+        "href": "#leistungen"
+      },
+      {
+        "label": "Projekte",
+        "href": "#projekte"
+      },
+      {
+        "label": "Bewertungen",
+        "href": "#bewertungen"
+      },
+      {
+        "label": "Ablauf",
+        "href": "#ablauf"
+      },
+      {
+        "label": "FAQ",
+        "href": "#faq"
+      },
+      {
+        "label": "Kontakt",
+        "href": "#kontakt"
+      }
+    ],
+    "hero": {
+      "eyebrow": "Elektroinstallation · Weilheim",
+      "headline": "Elektriker für Weilheim und Umgebung",
+      "sub": "Installation, Reparatur und Prüfung – für Haus, Wohnung und Gewerbe.",
+      "ctaPrimary": "Anfrage senden",
+      "ctaSecondary": "Anrufen",
+      "bullets": [
+        "Inhaber Martin Gstaiger",
+        "Privat und Gewerbe",
+        "Bewertungen mit 5 Sternen"
+      ],
+      "imageLabel": "sauber verdrahteter Verteilerkasten mit beschrifteten Sicherungen"
+    },
+    "badges": [
+      {
+        "title": "Installation",
+        "sub": "Neubau & Sanierung"
+      },
+      {
+        "title": "Smart Home",
+        "sub": "vernetzte Haustechnik"
+      },
+      {
+        "title": "Prüfung",
+        "sub": "Anlagen checken lassen"
+      },
+      {
+        "title": "Weilheim",
+        "sub": "Weinhartstraße"
+      }
+    ],
+    "trust": [
+      {
+        "value": "5,0",
+        "label": "Ø auf mehreren Portalen"
+      },
+      {
+        "value": "Vor Ort",
+        "label": "Betrieb in Weilheim"
+      },
+      {
+        "value": "Privat",
+        "label": "und Gewerbe"
+      },
+      {
+        "value": "Inhaber",
+        "label": "persönlich am Telefon"
+      }
+    ],
+    "servicesIntro": {
+      "headline": "Strom, Licht und Technik im ganzen Haus",
+      "text": "Von der neuen Steckdose bis zur kompletten Hausinstallation: Elektro Gstaiger plant, verlegt und prüft – für Wohnhäuser, Wohnungen und Betriebe."
+    },
+    "services": [
+      {
+        "title": "Hausinstallation",
+        "text": "Neue Leitungen, Steckdosen und Unterverteilungen für Neubau, Umbau und Sanierung.",
+        "items": [
+          "Neubau",
+          "Altbausanierung",
+          "Unterverteilung"
+        ]
+      },
+      {
+        "title": "Smart Home",
+        "text": "Licht, Rollläden und Heizung vernetzt steuern – per Taster, Zeitplan oder App.",
+        "items": [
+          "Lichtsteuerung",
+          "Rollladensteuerung",
+          "Nachrüstung"
+        ]
+      },
+      {
+        "title": "Elektroprüfung",
+        "text": "Prüfung bestehender Anlagen, damit Sie wissen, ob alles sicher ist.",
+        "items": [
+          "Anlagenprüfung",
+          "Mängel finden",
+          "Prüfprotokoll"
+        ]
+      },
+      {
+        "title": "Beleuchtung",
+        "text": "Licht für Wohnräume, Küche, Bad und Außenbereich – passend geplant und montiert.",
+        "items": [
+          "Innenbeleuchtung",
+          "Außenlicht",
+          "LED-Umrüstung"
+        ]
+      },
+      {
+        "title": "Notstrom",
+        "text": "Notstromanlagen, damit wichtige Geräte bei einem Stromausfall weiterlaufen.",
+        "items": [
+          "Beratung",
+          "Installation",
+          "Anschluss"
+        ]
+      },
+      {
+        "title": "Reparaturen",
+        "text": "Defekte Steckdose, Sicherung fliegt raus, Licht geht nicht: Fehler finden und beheben.",
+        "items": [
+          "Fehlersuche",
+          "Austausch",
+          "Instandsetzung"
+        ]
+      }
+    ],
+    "why": {
+      "headline": "Elektroarbeiten aus Weilheim – direkt beim Inhaber.",
+      "points": [
+        {
+          "title": "Kurze Wege",
+          "text": "Der Betrieb sitzt in Weilheim und ist schnell in Marnbach, Polling und Wielenbach."
+        },
+        {
+          "title": "Ein Ansprechpartner",
+          "text": "Sie sprechen direkt mit Martin Gstaiger – von der Anfrage bis zur Übergabe."
+        },
+        {
+          "title": "Gute Bewertungen",
+          "text": "Auf mehreren Portalen vergeben Kunden durchweg 5 Sterne."
+        },
+        {
+          "title": "Privat und Gewerbe",
+          "text": "Ob Wohnung, Haus oder Betrieb – die Installation passt zur Nutzung."
+        }
+      ]
+    },
+    "reviews": {
+      "headline": "Was Kunden sagen",
+      "summary": "Kundenstimmen werden hier eingebunden, sobald sie aus dem Google-Profil übernommen sind.",
+      "highlights": [
+        "Elektroinstallation in Weilheim",
+        "Smart Home und Beleuchtung",
+        "Direkter Kontakt zum Inhaber"
+      ],
+      "source": "Google",
+      "sourceUrl": "https://www.google.com/maps/search/?api=1&query=Elektro%20Gstaiger%20Weinhartstr.%2028A%20Weilheim",
+      "rating": null,
+      "count": null
+    },
+    "process": {
+      "headline": "So läuft Ihr Auftrag ab",
+      "steps": [
+        {
+          "title": "Anruf",
+          "text": "Kurz schildern, was gemacht werden soll – Neubau, Umbau oder Reparatur."
+        },
+        {
+          "title": "Termin vor Ort",
+          "text": "Leitungen, Verteiler und Wünsche werden gemeinsam angeschaut."
+        },
+        {
+          "title": "Angebot",
+          "text": "Sie erhalten ein klares Angebot mit allen Positionen."
+        },
+        {
+          "title": "Ausführung",
+          "text": "Installation, Prüfung und Übergabe – sauber und dokumentiert."
+        }
+      ]
+    },
+    "gallery": {
+      "headline": "Arbeiten aus der Region",
+      "text": "Für die Live-Version zeigen wir hier echte Projekte des Betriebs.",
+      "items": [
+        {
+          "title": "Neuer Verteiler",
+          "photoNeeded": "frisch verdrahteter Zählerschrank"
+        },
+        {
+          "title": "Smart Home",
+          "photoNeeded": "Wandtaster oder Display zur Haussteuerung"
+        },
+        {
+          "title": "Außenbeleuchtung",
+          "photoNeeded": "beleuchtete Hauseinfahrt am Abend"
+        },
+        {
+          "title": "Küchenlicht",
+          "photoNeeded": "LED-Unterbauleuchten in einer Küche"
+        },
+        {
+          "title": "Sanierung",
+          "photoNeeded": "offene Wand mit neu verlegten Leitungen"
+        }
+      ]
+    },
+    "region": {
+      "headline": "Elektriker für Weilheim und die Nachbarorte",
+      "text": "Von der Weinhartstraße aus schnell in Marnbach, Polling, Wielenbach, Pähl und Peißenberg.",
+      "places": [
+        "Weilheim",
+        "Marnbach",
+        "Polling",
+        "Wielenbach",
+        "Pähl",
+        "Peißenberg"
+      ]
+    },
+    "faq": [
+      {
+        "q": "Übernehmen Sie auch kleine Reparaturen?",
+        "a": "Ja, auch einzelne Steckdosen, Schalter oder Leuchten – rufen Sie einfach an."
+      },
+      {
+        "q": "Kann ich mein Haus nachträglich zum Smart Home machen?",
+        "a": "Oft ja. Was in Ihrem Haus möglich ist, klären wir bei einem Termin vor Ort."
+      },
+      {
+        "q": "Prüfen Sie bestehende Elektroanlagen?",
+        "a": "Ja, Elektroprüfungen gehören zum Angebot – für Wohnungen, Häuser und Betriebe."
+      },
+      {
+        "q": "Arbeiten Sie auch für Gewerbekunden?",
+        "a": "Ja, neben Privatkunden betreut der Betrieb auch Gewerbe."
+      },
+      {
+        "q": "Wie bekomme ich ein Angebot?",
+        "a": "Über das Formular oder telefonisch. Nach einem kurzen Termin vor Ort folgt das Angebot."
+      }
+    ],
+    "contact": {
+      "headline": "Ihre Elektro-Anfrage",
+      "text": "Beschreiben Sie kurz, worum es geht: welcher Raum, Neubau oder Bestand, Installation oder Reparatur.",
+      "topics": [
+        "Elektroinstallation",
+        "Smart Home",
+        "Elektroprüfung",
+        "Beleuchtung",
+        "Reparatur",
+        "Sonstiges"
+      ],
+      "responseNote": "Rückruf nach Absprache."
+    },
+    "quote": {
+      "sizeLabel": "Worum geht es?",
+      "sizes": [
+        "Einzelne Reparatur",
+        "Ein Raum",
+        "Ganze Wohnung",
+        "Ganzes Haus / Gewerbe"
+      ],
+      "timings": [
+        "So bald wie möglich",
+        "In den nächsten Wochen",
+        "In 1–3 Monaten",
+        "Ich plane erst noch"
+      ]
+    },
+    "stickyCta": "Elektriker anfragen",
+    "look": {
+      "palette": 5,
+      "font": 8,
+      "hero": 2,
+      "services": 0,
+      "radius": 2,
+      "logo": 0,
+      "intro": 1,
+      "projects": 0,
+      "process": 0,
+      "faq": 0,
+      "reviews": 0,
+      "order": 2
+    }
+  }
+}
