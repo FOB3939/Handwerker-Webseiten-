@@ -1,0 +1,419 @@
+{
+  "id": "2026-10-29-167",
+  "slug": "bauer-metallbau-tutzing",
+  "date": "2026-10-29",
+  "company": {
+    "name": "Bauer Metallbau",
+    "owner": null,
+    "trade": "Metallbau & Kunstschlosserei",
+    "city": "Tutzing",
+    "address": "Gröschlstraße 10, 82327 Tutzing",
+    "phone": "08158 905910",
+    "email": null,
+    "serviceArea": [
+      "Tutzing",
+      "Bernried",
+      "Feldafing",
+      "Pöcking",
+      "Starnberg",
+      "Seeshaupt"
+    ]
+  },
+  "listings": {
+    "google": {
+      "url": "https://www.google.com/maps/search/?api=1&query=Bauer%20Metallbau%20Gröschlstraße%2010%20Tutzing",
+      "rating": null,
+      "reviews": null,
+      "evidence": "NICHT BELEGT – kein Google-Spiegel (trustlocal, rgv-bayern, firmania) gefunden. metallbauer.io zeigt 5,0 bei 5 Bewertungen (Ende März 2026), nennt aber keine Quelle – ob Google-Bewertungen, ist unklar. 11880 meldet 0 Bewertungen. findglocal.com spiegelt offenbar eine Facebook-Seite (ID 294836513905681, Beiträge bis März 2026). In Maps prüfen."
+    },
+    "myhammer": {
+      "url": "https://www.11880.com/branchenbuch/tutzing/250203634B29493890/bauer-metallbau.html",
+      "rating": null,
+      "reviews": null,
+      "evidence": "Kein MyHammer gefunden – 11880-Eintrag „Bauer Metallbau“, Tutzing (Metallbau, Kunstschlosserei, Bauschlosserei, Türenbau), keine Bewertungen; außerdem branchen-info, stadtbranchenbuch, metallbauer.io, schlosserei.net, metallbau.com."
+    }
+  },
+  "websiteStatus": "keine eigene Website gefunden",
+  "websiteChecks": [
+    "(1) „Bauer Metallbau“ Tutzing mit blocked_domains (11880, Gelbe Seiten, Das Örtliche, Telefonbuch, Cylex, meinestadt, Creditreform, Facebook, Instagram, golocal, MyHammer, Northdata, Firmenwissen, WKDB, Yelp, trustlocal, wlw) – nur Verzeichnisse (schlosserei.net, metallbau.com, branchen-info, metallbauer.io, stadtbranchenbuch, findglocal); keine eigene Domain, kein Website-Feld in den Snippets. Michael Zirngibl Stahl- und Metallbau (Tutzing) ist eine andere Firma.",
+    "(2) Domain-Check allowed_domains bauer-metallbau.de, metallbau-bauer.de, bauer-metallbau-tutzing.de, metallbau-bauer-tutzing.de, kunstschlosserei-bauer.de, bauer-kunstschlosserei.de, metallbau-tutzing.de, bauermetallbau.de – Treffer nur für fremde Betriebe (metallbau-bauer.de = Woldert/Neuwied, bauermetallbau.de = Jürgen Bauer Metallbau GmbH, Thalmässing); kein Bezug zu Tutzing",
+    "(3) Telefonsuche „08158 905910“/„08158/905910“ – keine Treffer",
+    "(4) Impressum-Suche „Maximilian Bauer Metallbau Tutzing Gröschlstr Impressum“ – kein Impressum gefunden",
+    "(5) Google-Spiegel-Suche (trustlocal, firmania, rgv-bayern, metallbauer.io) – kein Google-Beleg; metallbauer.io-Bewertungen ohne Quellenangabe",
+    "Website-Risiko: mittel – alle Prüfungen negativ, aber weder Google-Eintrag noch Freemail belegt; vermutlich Facebook-Seite vorhanden"
+  ],
+  "facts": {
+    "services": [
+      "Metallbau",
+      "Kunstschlosserei",
+      "Bauschlosserei",
+      "Türenbau",
+      "Zaunbau",
+      "Tor- und Schrankenanlagen",
+      "Treppengeländer",
+      "Balkonanlagen",
+      "Metallarbeiten nach Maß",
+      "Reparaturen"
+    ],
+    "experience": null,
+    "praisedFor": []
+  },
+  "strategy": {
+    "audience": "Hauseigentümer, Bauherren und Hausverwaltungen in Tutzing, Bernried, Feldafing und Pöcking, die Geländer, Zäune, Tore oder Balkone aus Metall brauchen",
+    "mainService": "Metallbau und Kunstschlosserei – Geländer, Zäune, Tore und Balkone nach Maß",
+    "trustSignal": "Eigene Werkstatt in der Gröschlstraße in Tutzing",
+    "conversionGoal": "Anfrage mit Fotos und Maßen für Geländer, Zaun, Tor oder Balkon",
+    "visualConcept": "Werkstatt-Ästhetik: dunkler Stahl, Funkenflug, geschmiedete Details und klare Linien vor Seekulisse"
+  },
+  "sales": {
+    "score": 4,
+    "whyGoodLead": [
+      "Keine eigene Website gefunden – nur Verzeichniseinträge",
+      "Metallbau ist ein seltenes Gewerk im Lead-Bestand",
+      "Geländer, Zäune und Tore sind Projekte, für die Kunden vorab online Referenzen suchen",
+      "Kleiner Betrieb mit Werkstatt im Ort – eine Website mit Projektfotos hebt ihn von größeren Stahlbauern ab"
+    ],
+    "pitch": "Grüß Gott, hier ist … – ich baue Websites für Handwerksbetriebe am Starnberger See. Ich habe Bauer Metallbau in Tutzing in Verzeichnissen gefunden, aber keine eigene Website. Ich habe unverbindlich einen Entwurf vorbereitet, auf dem Kunden Ihre Geländer, Zäune und Tore sehen und direkt eine Anfrage schicken können – darf ich Ihnen den Link schicken?"
+  },
+  "manualChecks": [
+    "RESERVE – weder Google-Eintrag noch Freemail-Adresse belegt: NUR versenden, wenn Google Maps einen Eintrag OHNE Website zeigt.",
+    "Website-Risiko: mittel – vor Versand in Google Maps prüfen, dass keine Website hinterlegt ist (Grund: kein Google-Spiegel, keine Freemail; findglocal deutet auf eine Facebook-Seite hin)",
+    "Inhabername unklar: schlosserei.net/metallbau.com nennen „Maximilian Bauer Metallbau und Kunstschlosserei“, die findglocal-URL „Bernhard Bauer Metallbau und Kunstschlosserei“ – Anrede neutral halten und beim Erstkontakt klären",
+    "Festnetznummer 08158 905910 – keine Mobilnummer belegt; Erstkontakt per Anruf",
+    "„Meisterbetrieb“ nur bei findglocal genannt – nicht in die Seite übernommen, beim Betrieb bestätigen",
+    "Bewertungen (metallbauer.io 5,0/5) ohne Quellenangabe – nicht übernommen; in Maps prüfen",
+    "Logo und Projektfotos: nicht gefunden – beim Betrieb anfragen"
+  ],
+  "sources": [
+    {
+      "label": "11880 – Bauer Metallbau Tutzing",
+      "url": "https://www.11880.com/branchenbuch/tutzing/250203634B29493890/bauer-metallbau.html"
+    },
+    {
+      "label": "branchen-info.net – Bauer Metallbau Tutzing (Leistungen)",
+      "url": "http://tutzing.branchen-info.net/fp_2829209.php"
+    },
+    {
+      "label": "metallbauer.io – Bauer Metallbau",
+      "url": "https://metallbauer.io/4669-bauer-metallbau"
+    },
+    {
+      "label": "stadtbranchenbuch – Bauer Metallbau, Gröschlstr. 10",
+      "url": "https://tutzing.stadtbranchenbuch.com/880622.html"
+    },
+    {
+      "label": "schlosserei.net – Maximilian Bauer Metallbau und Kunstschlosserei",
+      "url": "https://www.schlosserei.net/tutzing/maximilian-bauer-metallbau-und-kunstschlosserei-aUOqF0"
+    },
+    {
+      "label": "findglocal – Bauer Metallbau und Kunstschlosserei (Facebook-Spiegel)",
+      "url": "http://www.findglocal.com/DE/Tutzing/294836513905681/Bernhard-Bauer-Metallbau-und-Kunstschlosserei"
+    }
+  ],
+  "site": {
+    "theme": "werk",
+    "category": "handwerk",
+    "heroOffer": [
+      "Geländer",
+      "Zäune",
+      "Tore",
+      "Balkone",
+      "Kunstschlosserei"
+    ],
+    "scene": "facade",
+    "logoIcon": "house",
+    "logoMark": "BM",
+    "brandName": "Bauer Metallbau",
+    "seoTitle": "Metallbau in Tutzing – Bauer Metallbau",
+    "seoDescription": "Geländer, Zäune, Tore und Balkonanlagen aus Metall – gefertigt in Tutzing für den Starnberger See. Jetzt Anfrage mit Fotos schicken.",
+    "nav": [
+      {
+        "label": "Leistungen",
+        "href": "#leistungen"
+      },
+      {
+        "label": "Projekte",
+        "href": "#projekte"
+      },
+      {
+        "label": "Bewertungen",
+        "href": "#bewertungen"
+      },
+      {
+        "label": "Ablauf",
+        "href": "#ablauf"
+      },
+      {
+        "label": "FAQ",
+        "href": "#faq"
+      },
+      {
+        "label": "Kontakt",
+        "href": "#kontakt"
+      }
+    ],
+    "hero": {
+      "eyebrow": "Metallbau · Tutzing",
+      "headline": "Metallbau und Kunstschlosserei in Tutzing",
+      "sub": "Geländer, Zäune und Tore nach Maß – aus der Werkstatt in der Gröschlstraße.",
+      "ctaPrimary": "Projekt anfragen",
+      "ctaSecondary": "Anrufen",
+      "bullets": [
+        "Werkstatt in Tutzing",
+        "Fertigung nach Maß",
+        "Auch Reparaturen"
+      ],
+      "imageLabel": "geschmiedetes Treppengeländer aus Stahl an einer Hauseingangstreppe"
+    },
+    "badges": [
+      {
+        "title": "Geländer",
+        "sub": "Treppe & Balkon"
+      },
+      {
+        "title": "Zäune & Tore",
+        "sub": "auch Schranken"
+      },
+      {
+        "title": "Kunstschlosserei",
+        "sub": "Einzelstücke"
+      },
+      {
+        "title": "Tutzing",
+        "sub": "Gröschlstraße"
+      }
+    ],
+    "trust": [
+      {
+        "value": "Werkstatt",
+        "label": "in Tutzing"
+      },
+      {
+        "value": "Nach Maß",
+        "label": "für Ihr Haus gefertigt"
+      },
+      {
+        "value": "Innen & außen",
+        "label": "Treppe, Balkon, Einfahrt"
+      },
+      {
+        "value": "Reparatur",
+        "label": "auch an bestehenden Anlagen"
+      }
+    ],
+    "servicesIntro": {
+      "headline": "Metall, das zu Ihrem Haus passt",
+      "text": "Vom Treppengeländer bis zum Einfahrtstor: Jedes Teil wird für Ihr Gebäude geplant, in Tutzing gefertigt und vor Ort montiert."
+    },
+    "services": [
+      {
+        "title": "Treppengeländer",
+        "text": "Geländer für Innen- und Außentreppen – gerade, gebogen oder mit Zierelementen, passend zu Stufen und Haus.",
+        "items": [
+          "Innentreppen",
+          "Außentreppen",
+          "Handläufe"
+        ]
+      },
+      {
+        "title": "Balkonanlagen",
+        "text": "Balkongeländer und Balkonanlagen aus Metall, abgestimmt auf Fassade und Aussicht.",
+        "items": [
+          "Balkongeländer",
+          "Brüstungen",
+          "Montage vor Ort"
+        ]
+      },
+      {
+        "title": "Zaunbau",
+        "text": "Zäune aus Metall für Grundstück und Garten – stabil, langlebig und im gewünschten Design.",
+        "items": [
+          "Gartenzäune",
+          "Grundstückseinfassung",
+          "Pforten"
+        ]
+      },
+      {
+        "title": "Tore & Schranken",
+        "text": "Einfahrtstore und Schrankenanlagen nach Maß, damit Zufahrt und Grundstück sicher abgeschlossen sind.",
+        "items": [
+          "Einfahrtstore",
+          "Schranken",
+          "Gartentore"
+        ]
+      },
+      {
+        "title": "Kunstschlosserei",
+        "text": "Einzelstücke mit handwerklichen Details – für alle, die mehr wollen als Ware von der Stange.",
+        "items": [
+          "Zierelemente",
+          "Einzelanfertigungen",
+          "Türen aus Metall"
+        ]
+      },
+      {
+        "title": "Reparatur & Instandsetzung",
+        "text": "Bestehende Geländer, Tore und Anlagen werden repariert, statt sie gleich zu ersetzen.",
+        "items": [
+          "Geländer richten",
+          "Tore instand setzen",
+          "Ersatzteile anfertigen"
+        ]
+      }
+    ],
+    "why": {
+      "headline": "Metallbau aus Tutzing – geplant, gefertigt, montiert.",
+      "points": [
+        {
+          "title": "Eigene Werkstatt",
+          "text": "Gefertigt wird in der Gröschlstraße in Tutzing – kurze Wege von der Werkbank bis zur Baustelle."
+        },
+        {
+          "title": "Maß statt Katalog",
+          "text": "Jedes Geländer und jedes Tor wird für Ihr Gebäude geplant."
+        },
+        {
+          "title": "Alles aus einer Hand",
+          "text": "Zaun, Tor und Geländer kommen aus derselben Werkstatt und passen zueinander."
+        },
+        {
+          "title": "Reparatur möglich",
+          "text": "Auch bestehende Anlagen werden instand gesetzt, wenn sich das lohnt."
+        }
+      ]
+    },
+    "reviews": {
+      "headline": "Was Kunden sagen",
+      "summary": "Kundenstimmen werden hier eingebunden, sobald sie aus dem Google-Profil übernommen sind.",
+      "highlights": [
+        "Metallbau in Tutzing",
+        "Geländer, Zäune und Tore",
+        "Fertigung nach Maß"
+      ],
+      "source": "Google",
+      "sourceUrl": "https://www.google.com/maps/search/?api=1&query=Bauer%20Metallbau%20Gröschlstraße%2010%20Tutzing",
+      "rating": null,
+      "count": null
+    },
+    "process": {
+      "headline": "So entsteht Ihr Geländer oder Tor",
+      "steps": [
+        {
+          "title": "Anfrage",
+          "text": "Fotos, grobe Maße und Ihre Idee schicken – oder kurz anrufen."
+        },
+        {
+          "title": "Aufmaß",
+          "text": "Vor Ort werden Maße, Befestigung und Gestaltung abgestimmt."
+        },
+        {
+          "title": "Fertigung",
+          "text": "Das Bauteil entsteht in der Werkstatt in Tutzing."
+        },
+        {
+          "title": "Montage",
+          "text": "Einbau vor Ort und Übergabe des fertigen Bauteils."
+        }
+      ]
+    },
+    "gallery": {
+      "headline": "Arbeiten aus der Werkstatt",
+      "text": "Für die Live-Version zeigen wir hier echte Projekte des Betriebs.",
+      "items": [
+        {
+          "title": "Treppengeländer",
+          "photoNeeded": "Stahlgeländer an einer Außentreppe"
+        },
+        {
+          "title": "Balkon",
+          "photoNeeded": "Balkongeländer aus Metall an einer Hausfassade"
+        },
+        {
+          "title": "Einfahrtstor",
+          "photoNeeded": "Metalltor an einer Grundstückseinfahrt"
+        },
+        {
+          "title": "Gartenzaun",
+          "photoNeeded": "Metallzaun mit Pforte am Garten"
+        },
+        {
+          "title": "Kunstschlosserei",
+          "photoNeeded": "geschmiedetes Zierelement in Nahaufnahme"
+        }
+      ]
+    },
+    "region": {
+      "headline": "Metallbau für Tutzing und das Westufer",
+      "text": "Von Tutzing aus nach Bernried, Feldafing, Pöcking, Starnberg und Seeshaupt.",
+      "places": [
+        "Tutzing",
+        "Bernried",
+        "Feldafing",
+        "Pöcking",
+        "Starnberg",
+        "Seeshaupt"
+      ]
+    },
+    "faq": [
+      {
+        "q": "Fertigen Sie auch Einzelstücke?",
+        "a": "Ja, Kunstschlosserei und Metallarbeiten nach Maß gehören zum Angebot."
+      },
+      {
+        "q": "Kann ich vorab Fotos schicken?",
+        "a": "Ja, Fotos und grobe Maße helfen für eine erste Einschätzung."
+      },
+      {
+        "q": "Reparieren Sie auch alte Geländer und Tore?",
+        "a": "Ja, bestehende Anlagen werden repariert, wenn sich das lohnt."
+      },
+      {
+        "q": "Bauen Sie auch Tore und Schranken?",
+        "a": "Ja, Tor- und Schrankenanlagen werden nach Maß gefertigt."
+      },
+      {
+        "q": "Arbeiten Sie auch außerhalb von Tutzing?",
+        "a": "Ja, im Umkreis von Tutzing – fragen Sie einfach an."
+      }
+    ],
+    "contact": {
+      "headline": "Ihr Metallprojekt – kurz beschreiben",
+      "text": "Was soll entstehen: Geländer, Zaun, Tor, Balkon oder Reparatur? Fotos vom Einbauort und grobe Maße helfen.",
+      "topics": [
+        "Treppengeländer",
+        "Balkonanlage",
+        "Zaun",
+        "Tor / Schranke",
+        "Reparatur",
+        "Sonstiges"
+      ],
+      "responseNote": "Aufmaß vor Ort nach Absprache."
+    },
+    "quote": {
+      "sizeLabel": "Was soll gefertigt werden?",
+      "sizes": [
+        "Ein Geländer",
+        "Zaun oder Tor",
+        "Balkonanlage",
+        "Reparatur",
+        "Einzelstück"
+      ],
+      "timings": [
+        "So bald wie möglich",
+        "In den nächsten Wochen",
+        "In 1–3 Monaten",
+        "Ich plane erst noch"
+      ]
+    },
+    "stickyCta": "Projekt anfragen",
+    "look": {
+      "palette": 2,
+      "font": 6,
+      "hero": 0,
+      "services": 1,
+      "radius": 1,
+      "logo": 0,
+      "intro": 5
+    }
+  }
+}
