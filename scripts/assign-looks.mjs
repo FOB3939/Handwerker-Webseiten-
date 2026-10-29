@@ -25,7 +25,8 @@ function plan(offset) {
   return leads.map(({ lead }, i) => {
     const fam = family(lead);
     const k = famCount[fam] = (famCount[fam] ?? -1) + 1;
-    const look = { palette: (k + offset) % PAL[fam] };
+    // Seitenstil seit 29.10.: „kante“ (dunkel, Versal-Überschrift, eckige Buttons) – lib/identity.ts
+    const look = { skin: "kante", palette: (k + offset) % PAL[fam] };
     for (const [key, n] of Object.entries(N)) look[key] = (i * STEP[key] + offset + (key === "intro" ? 1 : 0) + (key === "projects" ? Math.floor(i / 3) : 0)) % n;
     return { fam, look };
   });

@@ -267,6 +267,17 @@ export const PLACES: Record<string, [number, number]> = {
   Ascholding: [47.883, 11.477],
   Waldram: [47.9, 11.433],
   Schwindegg: [48.271, 12.258],
+  Traubing: [47.958, 11.296],
+  Aschering: [47.977, 11.3],
+  Machtlfing: [47.955, 11.214],
+  Lohhof: [48.293, 11.585],
+  Feldmoching: [48.215, 11.54],
+  Merching: [48.247, 10.985],
+  Steinach: [48.267, 10.981],
+  Prittriching: [48.2, 10.926],
+  Schmiechen: [48.205, 10.963],
+  "Egling an der Paar": [48.177, 10.996],
+  Marnbach: [47.856, 11.155],
 };
 
 // Grobe Seeumrisse als Ellipsen: [lat, lon, Halbachse Nord-Süd in Grad, Halbachse Ost-West in Grad]

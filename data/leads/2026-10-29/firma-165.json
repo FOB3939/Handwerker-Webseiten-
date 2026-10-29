@@ -1,103 +1,119 @@
 {
   "id": "2026-10-29-165",
-  "slug": "theodor-aumiller-elektro-woerthsee",
+  "slug": "malermeister-tony-vogel-landsberg-am-lech",
   "date": "2026-10-29",
   "company": {
-    "name": "Theodor Aumiller",
-    "owner": "Theodor Aumiller",
-    "trade": "Elektroinstallation",
-    "city": "Wörthsee",
-    "address": "Hochstaudenweg 5, 82237 Wörthsee",
-    "phone": "08153 8613",
-    "email": null,
+    "name": "Malermeister Tony Vogel",
+    "owner": "Tony Vogel",
+    "trade": "Malerbetrieb",
+    "city": "Landsberg am Lech",
+    "address": "Mühlweg 14, 86899 Landsberg am Lech",
+    "phone": "08191 4018899",
+    "email": "tony-vogel@gmx.de",
     "serviceArea": [
-      "Wörthsee",
-      "Steinebach",
-      "Etterschlag",
-      "Seefeld",
-      "Weßling",
-      "Inning",
-      "Herrsching",
-      "Gilching"
+      "Landsberg am Lech",
+      "Kaufering",
+      "Penzing",
+      "Igling",
+      "Pürgen",
+      "Schwifting",
+      "Fuchstal"
     ]
   },
   "listings": {
     "google": {
-      "url": "https://www.google.com/maps/search/?api=1&query=Theodor%20Aumiller%20Hochstaudenweg%205%20W%C3%B6rthsee",
+      "url": "https://www.google.com/maps/search/?api=1&query=Malermeister%20Tony%20Vogel%20M%C3%BChlweg%2014%20Landsberg%20am%20Lech",
       "rating": null,
       "reviews": null,
-      "evidence": "NICHT belegt – Suche über Google-Spiegel (trustlocal, firmania, rgv-bayern) ohne Treffer zu Theodor Aumiller; keine Freemail gefunden. In Maps prüfen."
+      "evidence": "Kein Google-Eintrag direkt belegt. Freemail tony-vogel@gmx.de öffentlich im 11880-Eintrag und bei Gelbe Seiten gelistet. Weitere Verzeichnisse: maler.org (Mühlweg 14, Landsberg), Das Örtliche (Mühlweg 14). In keinem Snippet ein Website-Feld. In Maps prüfen."
     },
     "myhammer": {
-      "url": "https://www.11880.com/suche/elektriker/seefeld",
+      "url": "https://www.11880.com/branchenbuch/landsberg-am-lech/060693517B107209645/malermeister-tony-vogel.html",
       "rating": null,
       "reviews": null,
-      "evidence": "Kein MyHammer gefunden – 11880 führt Theodor Aumiller als Elektriker, Hochstaudenweg 5, 82237 Wörthsee, Tel. (08153) 8613."
+      "evidence": "Kein MyHammer gefunden – 11880-Eintrag „Malermeister Tony Vogel“, Mühlweg 14, 86899 Landsberg am Lech, Tel. (08191) 4018899, E-Mail tony-vogel@gmx.de."
     }
   },
   "websiteStatus": "keine eigene Website gefunden",
   "websiteChecks": [
-    "(1) „Theodor Aumiller Elektro Wörthsee“ (offene Websuche) – kein Treffer zum Betrieb, keine eigene Domain; nur fremde Firmen (Aumüller Aumatic GmbH Thierhaupten, Elektro Aumiller Stuttgart)",
-    "(2) 11880/trustlocal/firmania/rgv-bayern „Aumiller Wörthsee Elektro“ – nur 11880-Eintrag ohne Website-Feld; in Wörthsee außerdem Josef Aumiller Schreinerei, Jakl Hof (Jakob Aumiller) und Aumiller GmbH (Garten) – Verwandtschaft unbekannt, keine dieser Firmen ist ein Elektrobetrieb",
-    "(3) Domain-Check allowed_domains elektro-aumiller.de, aumiller-elektro.de, aumiller.de, elektro-aumiller-woerthsee.de, aumiller-elektrotechnik.de, elektrotechnik-aumiller.de, theodor-aumiller.de, elektroaumiller.de – keine Treffer",
-    "(4) Telefonsuche „08153 8613“/„081538613“ – keine Treffer",
-    "(5) Impressum-Suche „Impressum Theodor Aumiller Wörthsee“ – kein Impressum gefunden",
-    "Website-Risiko: mittel – alle Prüfungen negativ, aber weder Google-Eintrag noch Freemail belegt (RESERVE); Eintrag evtl. alt"
+    "(1) „Tony Vogel“ Maler Landsberg mit blocked_domains (11880, Gelbe Seiten, Das Örtliche, Telefonbuch, Cylex, meinestadt, Creditreform, Facebook, Instagram, golocal, MyHammer, Northdata, Firmenwissen, WKDB, Yelp, trustlocal, wlw) – nur maler.org-Profil und Namensvettern (britischer Schauspieler); keine eigene Domain",
+    "(2) Domain-Check allowed_domains maler-vogel.de, malermeister-vogel.de, tony-vogel.de, tonyvogel.de, maler-vogel-landsberg.de, vogel-maler.de, malervogel.de, malerbetrieb-vogel.de – nur fremde Betriebe (Thomas Vogel in Münster/Hessen, Maler Vogel KG Oberstadion, Malerbetrieb Vogel Ochsenfurt), nichts zu Landsberg",
+    "(3) Kontakt-Suche „Malermeister Tony Vogel“ Landsberg Telefon – muenchen.de-Branchenbuch und sellwerk ohne Vogel-Eintrag mit Website",
+    "(4) Telefon/E-Mail-Suche „08191 4018899“ / „08191 9378713“ / „tony-vogel@gmx.de“ – keine Treffer außerhalb der Verzeichnisse, keine Website",
+    "(5) Verzeichnisse (11880, Gelbe Seiten, Das Örtliche): kein „Homepage“-Feld in den Snippets; E-Mail ist Freemail (gmx.de)",
+    "Website-Risiko: niedrig – alle Prüfungen negativ, Freemail öffentlich belegt"
   ],
   "facts": {
     "services": [
-      "Elektroinstallation"
+      "Innenanstrich",
+      "Außenanstrich",
+      "Tapezierarbeiten",
+      "Bodenbeläge verlegen",
+      "Fassadengestaltung",
+      "Wärmedämmung",
+      "Schimmelbeseitigung"
     ],
     "experience": null,
     "praisedFor": []
   },
   "strategy": {
-    "audience": "Hausbesitzer, Vermieter und Mieter in Wörthsee, Steinebach, Etterschlag und Seefeld mit Elektroarbeiten im Haus",
-    "mainService": "Elektroinstallation im Wohnhaus",
-    "trustSignal": "Elektriker mit Sitz in Wörthsee, direkt per Telefon erreichbar",
-    "conversionGoal": "Rückruf oder Angebot für Elektroarbeiten anfragen",
-    "visualConcept": "Ruhige, technische Optik: Verteilerkasten, saubere Leitungsführung, Steckdosen und Licht – klar und aufgeräumt"
+    "audience": "Hauseigentümer, Vermieter und Mieter in Landsberg am Lech, Kaufering und den Dörfern am Lechrain, die Räume renovieren, eine Fassade streichen oder Schimmel beseitigen lassen wollen",
+    "mainService": "Malerarbeiten innen und außen – Anstrich, Tapete, Fassade",
+    "trustSignal": "Malermeister mit Betrieb am Mühlweg in Landsberg, direkt beim Inhaber erreichbar",
+    "conversionGoal": "Kostenloses Angebot für Malerarbeiten anfragen (Anruf oder E-Mail mit Fotos)",
+    "visualConcept": "Helle Wohnräume mit frischen Farbflächen, sauber abgeklebte Kanten und eine Altstadtfassade im Lechtal-Licht"
   },
   "sales": {
-    "score": 3,
+    "score": 6,
     "whyGoodLead": [
-      "Keine eigene Website gefunden – nur ein Verzeichniseintrag mit Festnetznummer",
-      "Elektro ist ein bisher seltenes Gewerk in den Leads",
-      "Kein sichtbarer Online-Auftritt – eine Website macht den Betrieb am Wörthsee auffindbar"
+      "Keine eigene Website gefunden – nur Verzeichniseinträge mit GMX-Adresse",
+      "Meistertitel steht schon im Firmennamen – ein starkes Argument, das bisher online nicht sichtbar ist",
+      "Breites Leistungsbild (innen, außen, Boden, Dämmung, Schimmel) lässt sich auf einer Seite gut ordnen",
+      "Landsberg und Umgebung haben viel Altbau- und Fassadenbestand mit Renovierungsbedarf"
     ],
-    "pitch": "Grüß Gott Herr Aumiller, hier ist … – ich baue Websites für Handwerker rund um den Ammersee und Wörthsee. Ich habe Ihren Eintrag als Elektriker in Wörthsee gefunden, aber keine eigene Website. Ich habe unverbindlich einen Entwurf vorbereitet, auf dem Kunden Ihre Leistungen sehen und direkt anrufen können – darf ich Ihnen den Link schicken?"
+    "pitch": "Grüß Gott Herr Vogel, hier ist … – ich baue Websites für Handwerker im Landkreis Landsberg. Ich habe Ihren Eintrag als Malermeister am Mühlweg gefunden, aber keine eigene Website. Ich habe unverbindlich einen Entwurf vorbereitet, auf dem Kunden Ihre Maler-, Fassaden- und Tapezierarbeiten sehen und direkt anfragen können – darf ich Ihnen den Link schicken?"
   },
   "manualChecks": [
-    "RESERVE – weder Google-Eintrag noch Freemail-Adresse belegt: NUR versenden, wenn Google Maps einen Eintrag OHNE Website zeigt.",
-    "Website-Risiko: mittel – vor Versand in Google Maps prüfen, dass keine Website hinterlegt ist (Grund: weder Google-Eintrag noch Freemail belegt, nur 11880-Eintrag)",
-    "Prüfen, ob der Betrieb noch aktiv ist (nur ein Verzeichniseintrag, Festnetz) – ggf. kurz anrufen",
-    "Leistungen nur als „Elektriker“ belegt – Schwerpunkte (Installation, Reparatur, Beleuchtung, E-Check) beim Betrieb erfragen",
-    "Mögliche Verwandtschaft zu weiteren Aumiller-Betrieben in Wörthsee (Schreinerei, Jakl Hof, Aumiller GmbH) – diese betreffen andere Gewerke; vor Versand sicherstellen, dass kein gemeinsamer Webauftritt existiert",
-    "Keine Mobilnummer, keine E-Mail gefunden – Kontakt telefonisch",
+    "Website-Risiko: niedrig – vor Versand in Google Maps prüfen, dass keine Website hinterlegt ist (Grund: Google-Eintrag nicht direkt belegt, nur Freemail und Verzeichnisse)",
+    "Zwei Festnetznummern: 11880 nennt (08191) 4018899, Gelbe Seiten (08191) 9378713 – klären, welche aktuell ist; keine Mobilnummer gefunden, Erstkontakt per E-Mail an tony-vogel@gmx.de",
+    "Leistungen nur aus maler.org-Profil (Innen-/Außenanstrich, Tapezieren, Bodenverlegung, Fassade, Wärmedämmung, Schimmelbeseitigung) – beim Betrieb bestätigen",
+    "Betriebsstatus nicht aktuell bestätigt (keine Bewertungen, keine Datumsangaben gefunden) – vor Versand Erreichbarkeit prüfen",
     "Logo und Projektfotos: nicht gefunden – beim Betrieb anfragen"
   ],
   "sources": [
     {
-      "label": "11880 – Elektriker Seefeld (Liste mit Theodor Aumiller, Wörthsee)",
-      "url": "https://www.11880.com/suche/elektriker/seefeld"
+      "label": "11880 – Malermeister Tony Vogel, Landsberg",
+      "url": "https://www.11880.com/branchenbuch/landsberg-am-lech/060693517B107209645/malermeister-tony-vogel.html"
+    },
+    {
+      "label": "Gelbe Seiten – Vogel Tony, 86899 Landsberg am Lech",
+      "url": "https://www.gelbeseiten.de/gsbiz/50f6768c-8d2d-4d10-a280-7b3e265db3c2"
+    },
+    {
+      "label": "maler.org – Tony Vogel Malermeister, Landsberg (Lech)",
+      "url": "https://www.maler.org/landsberg-lech/tony-vogel-malermeister-aUObpD"
+    },
+    {
+      "label": "11880 – Maler Landsberg (Ortsliste)",
+      "url": "https://www.11880.com/suche/maler/landsberg"
     }
   ],
   "site": {
-    "theme": "volt",
+    "theme": "atelier",
     "category": "handwerk",
     "heroOffer": [
-      "Elektroinstallation",
-      "Steckdosen",
-      "Beleuchtung",
-      "Reparaturen",
-      "Sicherungen"
+      "Innenanstrich",
+      "Fassade",
+      "Tapeten",
+      "Bodenbeläge",
+      "Schimmel"
     ],
-    "scene": "electric",
-    "logoIcon": "bolt",
-    "logoMark": "TA",
-    "brandName": "Elektro Aumiller",
-    "seoTitle": "Elektriker in Wörthsee – Theodor Aumiller",
-    "seoDescription": "Elektroinstallation, Reparaturen und Beleuchtung in Wörthsee, Steinebach und Seefeld. Jetzt anrufen oder Rückruf anfragen.",
+    "scene": "paint",
+    "logoIcon": "roller",
+    "logoMark": "TV",
+    "brandName": "Malermeister Tony Vogel",
+    "seoTitle": "Malermeister in Landsberg am Lech – Tony Vogel",
+    "seoDescription": "Innen- und Außenanstrich, Tapeten, Fassaden und Schimmelbeseitigung in Landsberg am Lech und Umgebung. Jetzt kostenloses Angebot anfragen.",
     "nav": [
       {
         "label": "Leistungen",
@@ -125,132 +141,132 @@
       }
     ],
     "hero": {
-      "eyebrow": "Elektro · Wörthsee",
-      "headline": "Ihr Elektriker in Wörthsee",
-      "sub": "Elektroarbeiten im Haus – von der neuen Steckdose bis zur Leitung.",
-      "ctaPrimary": "Rückruf anfragen",
+      "eyebrow": "Malermeister · Landsberg am Lech",
+      "headline": "Malermeister Tony Vogel in Landsberg",
+      "sub": "Frische Wände, neue Tapeten und gepflegte Fassaden für Landsberg und den Lechrain.",
+      "ctaPrimary": "Kostenloses Angebot anfragen",
       "ctaSecondary": "Anrufen",
       "bullets": [
-        "Elektriker aus Wörthsee",
-        "Installation und Reparatur",
-        "Direkt per Telefon"
+        "Malermeister am Mühlweg",
+        "Innen, außen und Fassade",
+        "Auch Schimmel und Dämmung"
       ],
-      "imageLabel": "geöffneter Sicherungskasten mit sauber verlegten Leitungen"
+      "imageLabel": "frisch gestrichene Wohnzimmerwand mit Farbrolle und Abklebeband"
     },
     "badges": [
       {
-        "title": "Installation",
-        "sub": "Leitungen & Dosen"
+        "title": "Malermeister",
+        "sub": "Inhaber Tony Vogel"
       },
       {
-        "title": "Reparatur",
-        "sub": "wenn etwas ausfällt"
+        "title": "Innen & außen",
+        "sub": "Anstrich und Tapete"
       },
       {
-        "title": "Licht",
-        "sub": "innen und außen"
+        "title": "Fassade",
+        "sub": "Anstrich und Dämmung"
       },
       {
-        "title": "Wörthsee",
-        "sub": "Hochstaudenweg"
+        "title": "Landsberg",
+        "sub": "Mühlweg 14"
       }
     ],
     "trust": [
       {
-        "value": "Vor Ort",
-        "label": "Betrieb in Wörthsee"
+        "value": "Meister",
+        "label": "im Malerhandwerk"
       },
       {
-        "value": "Elektro",
-        "label": "im Wohnhaus"
+        "value": "6",
+        "label": "Leistungsbereiche"
+      },
+      {
+        "value": "Lechrain",
+        "label": "Landsberg und Umgebung"
       },
       {
         "value": "Direkt",
-        "label": "Ansprechpartner am Telefon"
-      },
-      {
-        "value": "Kurz",
-        "label": "Wege rund um den See"
+        "label": "Kontakt zum Inhaber"
       }
     ],
     "servicesIntro": {
-      "headline": "Elektroarbeiten rund ums Haus",
-      "text": "Ob eine Steckdose fehlt, das Licht flackert oder die Sicherung fliegt: Ein Anruf klärt, was zu tun ist."
+      "headline": "Vom Wohnzimmer bis zur Hauswand",
+      "text": "Tony Vogel streicht, tapeziert und gestaltet Fassaden. Dazu kommen Bodenbeläge, Wärmedämmung und die Sanierung von Schimmelstellen."
     },
     "services": [
       {
-        "title": "Elektroinstallation",
-        "text": "Neue Leitungen, Schalter und Steckdosen fachgerecht verlegt – bei Umbau, Anbau oder Renovierung.",
+        "title": "Innenanstrich",
+        "text": "Wände und Decken bekommen einen neuen Anstrich – Möbel und Böden werden vorher sorgfältig abgedeckt.",
         "items": [
-          "Leitungen",
-          "Schalter",
-          "Steckdosen"
+          "Wände und Decken",
+          "Treppenhäuser",
+          "Farbberatung"
         ]
       },
       {
-        "title": "Reparaturen",
-        "text": "Defekte Schalter, Dosen oder Leitungen finden und instand setzen.",
+        "title": "Tapezierarbeiten",
+        "text": "Alte Tapeten kommen runter, neue gehen gerade und stoßfest an die Wand – vom Raufaser bis zur Mustertapete.",
         "items": [
-          "Fehlersuche",
-          "Austausch",
-          "Instandsetzung"
+          "Tapete entfernen",
+          "Raufaser",
+          "Vliestapete"
         ]
       },
       {
-        "title": "Beleuchtung",
-        "text": "Lampen und Leuchten anschließen – im Wohnraum, im Flur oder an der Hauswand.",
+        "title": "Fassadenanstrich",
+        "text": "Ein neuer Anstrich schützt die Hauswand vor Wetter und gibt dem Haus wieder ein gepflegtes Gesicht.",
         "items": [
-          "Deckenleuchten",
-          "Außenlicht",
-          "Bewegungsmelder"
+          "Fassade reinigen",
+          "Grundieren",
+          "Neuanstrich"
         ]
       },
       {
-        "title": "Sicherungskasten",
-        "text": "Sicherungen und Verteilung prüfen und bei Bedarf erneuern.",
+        "title": "Wärmedämmung",
+        "text": "Gedämmte Außenwände halten die Wärme im Haus und senken die Heizkosten spürbar.",
         "items": [
-          "Sicherungen",
-          "FI-Schalter",
-          "Verteilung"
+          "Fassadendämmung",
+          "Putz und Anstrich",
+          "Außenwände"
         ]
       },
       {
-        "title": "Geräteanschluss",
-        "text": "Herd, Backofen oder andere Großgeräte sicher ans Netz bringen.",
+        "title": "Schimmelbeseitigung",
+        "text": "Befallene Stellen werden fachgerecht behandelt und neu beschichtet, damit der Raum wieder gesund nutzbar ist.",
         "items": [
-          "Herdanschluss",
-          "Küchengeräte",
-          "Starkstrom"
+          "Befall entfernen",
+          "Untergrund behandeln",
+          "Neu beschichten"
         ]
       },
       {
-        "title": "Altbau & Umbau",
-        "text": "Alte Elektrik bei Renovierung oder Umbau auf den nötigen Stand bringen.",
+        "title": "Bodenbeläge",
+        "text": "Nach dem Streichen auch gleich der neue Boden – verlegt vom selben Handwerker.",
         "items": [
-          "Erneuerung",
-          "Renovierung",
-          "Erweiterung"
+          "Bodenbelag verlegen",
+          "Untergrund vorbereiten",
+          "Sockelleisten"
         ]
       }
     ],
     "why": {
-      "headline": "Elektriker vom Wörthsee – ohne Umwege.",
+      "headline": "Ein Malermeister aus Landsberg – kein Vermittler.",
       "points": [
         {
+          "title": "Meisterhandwerk",
+          "text": "Sie beauftragen einen Malermeister direkt, ohne Zwischenhändler."
+        },
+        {
+          "title": "Alles aus einer Hand",
+          "text": "Anstrich, Tapete, Boden und Dämmung – ein Ansprechpartner für die ganze Renovierung."
+        },
+        {
           "title": "Kurze Wege",
-          "text": "Von Wörthsee schnell in Steinebach, Etterschlag, Seefeld und Weßling."
+          "text": "Vom Mühlweg in Landsberg schnell in Kaufering, Penzing, Igling oder Fuchstal."
         },
         {
-          "title": "Ein Ansprechpartner",
-          "text": "Sie sprechen direkt mit Theodor Aumiller – kein Callcenter."
-        },
-        {
-          "title": "Klare Absprache",
-          "text": "Was gemacht wird und was es kostet, steht vor Beginn fest."
-        },
-        {
-          "title": "Sicher angeschlossen",
-          "text": "Elektroarbeiten gehören in Fachhand – für Ihre Sicherheit im Haus."
+          "title": "Auch bei Schimmel",
+          "text": "Feuchte Ecken und Schimmelflecken werden behandelt, nicht nur überstrichen."
         }
       ]
     },
@@ -258,139 +274,141 @@
       "headline": "Was Kunden sagen",
       "summary": "Kundenstimmen werden hier eingebunden, sobald sie aus dem Google-Profil übernommen sind.",
       "highlights": [
-        "Elektriker in Wörthsee",
-        "Installation und Reparatur",
+        "Malermeister in Landsberg",
+        "Innen und außen",
         "Direkter Kontakt"
       ],
       "source": "Google",
-      "sourceUrl": "https://www.google.com/maps/search/?api=1&query=Theodor%20Aumiller%20Hochstaudenweg%205%20W%C3%B6rthsee",
+      "sourceUrl": "https://www.google.com/maps/search/?api=1&query=Malermeister%20Tony%20Vogel%20M%C3%BChlweg%2014%20Landsberg%20am%20Lech",
       "rating": null,
       "count": null
     },
     "process": {
-      "headline": "So läuft Ihr Auftrag",
+      "headline": "So läuft Ihr Malerauftrag ab",
       "steps": [
         {
-          "title": "Anruf",
-          "text": "Kurz schildern, was nicht funktioniert oder was neu kommen soll."
+          "title": "Anfrage",
+          "text": "Rufen Sie an oder schicken Sie eine E-Mail mit Fotos der Räume oder der Fassade."
         },
         {
-          "title": "Termin",
-          "text": "Bei Bedarf schaut sich der Elektriker die Lage vor Ort an."
+          "title": "Termin vor Ort",
+          "text": "Flächen, Untergrund und Farbwünsche werden gemeinsam angeschaut."
         },
         {
           "title": "Angebot",
-          "text": "Sie erfahren vorab, welche Arbeiten anfallen."
+          "text": "Sie erhalten ein schriftliches Angebot mit allen Arbeitsschritten."
         },
         {
           "title": "Ausführung",
-          "text": "Die Arbeiten werden erledigt und mit Ihnen durchgegangen."
+          "text": "Abdecken, vorbereiten, streichen, aufräumen – der Raum wird sauber übergeben."
         }
       ]
     },
     "gallery": {
-      "headline": "Elektrik, die funktioniert",
-      "text": "Für die Live-Version zeigen wir hier echte Arbeiten des Betriebs.",
+      "headline": "Farbe, die bleibt",
+      "text": "Für die Live-Version zeigen wir hier echte Projekte des Betriebs.",
       "items": [
         {
-          "title": "Neue Steckdosen",
-          "photoNeeded": "frisch gesetzte Steckdosenkombination an einer Wohnzimmerwand"
+          "title": "Wohnzimmer",
+          "photoNeeded": "frisch gestrichenes Wohnzimmer mit Akzentwand"
         },
         {
-          "title": "Sicherungskasten",
-          "photoNeeded": "aufgeräumte Unterverteilung mit beschrifteten Sicherungen"
+          "title": "Treppenhaus",
+          "photoNeeded": "renoviertes Treppenhaus im Mehrfamilienhaus"
         },
         {
-          "title": "Außenlicht",
-          "photoNeeded": "Wandleuchte mit Bewegungsmelder am Hauseingang"
+          "title": "Hausfassade",
+          "photoNeeded": "neu gestrichene Fassade eines Einfamilienhauses"
         },
         {
-          "title": "Küchenanschluss",
-          "photoNeeded": "angeschlossener Herd in einer Einbauküche"
+          "title": "Neue Tapete",
+          "photoNeeded": "Schlafzimmer mit frisch tapezierter Mustertapete"
         },
         {
-          "title": "Leitungen",
-          "photoNeeded": "sauber verlegte Leitungen im Rohbau"
+          "title": "Schimmel saniert",
+          "photoNeeded": "Raumecke vor und nach der Schimmelbehandlung"
         }
       ]
     },
     "region": {
-      "headline": "Elektriker für Wörthsee und Umgebung",
-      "text": "Von Wörthsee aus in Steinebach, Etterschlag, Seefeld, Weßling, Inning, Herrsching und Gilching.",
+      "headline": "Malerarbeiten in Landsberg und am Lechrain",
+      "text": "Vom Mühlweg aus schnell in Kaufering, Penzing, Igling, Pürgen, Schwifting und Fuchstal.",
       "places": [
-        "Wörthsee",
-        "Steinebach",
-        "Etterschlag",
-        "Seefeld",
-        "Weßling",
-        "Inning",
-        "Herrsching",
-        "Gilching"
+        "Landsberg am Lech",
+        "Kaufering",
+        "Penzing",
+        "Igling",
+        "Pürgen",
+        "Schwifting",
+        "Fuchstal"
       ]
     },
     "faq": [
       {
-        "q": "Kommen Sie auch für kleine Arbeiten?",
-        "a": "Fragen Sie einfach an – auch eine einzelne Steckdose oder Leuchte lässt sich telefonisch abklären."
+        "q": "Muss ich die Möbel selbst ausräumen?",
+        "a": "Das wird beim Termin vor Ort abgestimmt. Was im Raum bleibt, wird abgedeckt und geschützt."
       },
       {
-        "q": "Wie erreiche ich den Betrieb am besten?",
-        "a": "Am einfachsten telefonisch unter 08153 8613."
+        "q": "Streichen Sie auch Fassaden?",
+        "a": "Ja, Fassadenanstrich und Wärmedämmung gehören zum Angebot."
       },
       {
-        "q": "Arbeiten Sie auch außerhalb von Wörthsee?",
-        "a": "Ja, in den Nachbarorten rund um den Wörthsee – sprechen Sie Ihren Ort beim Anruf an."
+        "q": "Kann Schimmel einfach überstrichen werden?",
+        "a": "Nein. Befallene Stellen werden zuerst behandelt, danach wird neu beschichtet."
       },
       {
-        "q": "Erhalte ich vorher ein Angebot?",
-        "a": "Ja, Umfang und Kosten werden vor Beginn der Arbeiten besprochen."
+        "q": "Kann ich vorab Fotos schicken?",
+        "a": "Ja, Fotos per E-Mail helfen für eine erste Einschätzung vor dem Termin."
       },
       {
-        "q": "Kann ich die Elektrik selbst reparieren?",
-        "a": "Arbeiten am Stromnetz gehören aus Sicherheitsgründen in die Hand eines Elektrikers."
+        "q": "Arbeiten Sie auch außerhalb von Landsberg?",
+        "a": "Ja, in Landsberg am Lech und den umliegenden Gemeinden – fragen Sie einfach an."
       }
     ],
     "contact": {
-      "headline": "Elektroarbeit anfragen",
-      "text": "Beschreiben Sie kurz, worum es geht: welcher Raum, was ausgefallen ist oder was neu kommen soll.",
+      "headline": "Ihr Angebot – kostenlos und unverbindlich",
+      "text": "Beschreiben Sie kurz, was gemacht werden soll: welche Räume oder Fassade, ungefähre Fläche und Wunschtermin. Fotos helfen.",
       "topics": [
-        "Elektroinstallation",
-        "Reparatur",
-        "Beleuchtung",
-        "Sicherungskasten",
+        "Innenanstrich",
+        "Tapezierarbeiten",
+        "Fassadenanstrich",
+        "Wärmedämmung",
+        "Schimmelbeseitigung",
+        "Bodenbeläge",
         "Sonstiges"
       ],
-      "responseNote": "Rückruf nach Absprache."
+      "responseNote": "Besichtigung nach Absprache."
     },
     "quote": {
-      "sizeLabel": "Worum geht es?",
+      "sizeLabel": "Was soll gestrichen werden?",
       "sizes": [
-        "Einzelne Steckdose/Leuchte",
-        "Ein Raum",
-        "Mehrere Räume",
-        "Ganzes Haus"
+        "Ein Zimmer",
+        "Ganze Wohnung",
+        "Treppenhaus",
+        "Hausfassade"
       ],
       "timings": [
-        "Dringend",
+        "So bald wie möglich",
         "In den nächsten Wochen",
         "In 1–3 Monaten",
         "Ich plane erst noch"
       ]
     },
-    "stickyCta": "Elektriker anfragen",
+    "stickyCta": "Angebot anfragen",
     "look": {
+      "skin": "kante",
       "palette": 2,
-      "font": 6,
-      "hero": 0,
-      "services": 1,
-      "radius": 1,
+      "font": 2,
+      "hero": 6,
+      "services": 2,
+      "radius": 2,
       "logo": 0,
-      "intro": 5,
+      "intro": 3,
       "projects": 0,
-      "process": 0,
+      "process": 2,
       "faq": 0,
       "reviews": 0,
-      "order": 0
+      "order": 2
     }
   }
 }

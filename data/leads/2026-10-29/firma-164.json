@@ -1,147 +1,108 @@
 {
   "id": "2026-10-29-164",
-  "slug": "edo-vidas-heizung-sanitaer-wessling",
+  "slug": "bs-schmidt-badsanierung-murnau",
   "date": "2026-10-29",
   "company": {
-    "name": "Edo Vidas Heizung – Sanitär",
-    "owner": "Edo Vidas",
-    "trade": "Sanitär & Heizung",
-    "city": "Weßling",
-    "address": "Sommerstr. 14a, 82234 Weßling",
-    "phone": "08153 4131",
+    "name": "BS Schmidt Badsanierung",
+    "owner": null,
+    "trade": "Badsanierung & Fliesen",
+    "city": "Murnau am Staffelsee",
+    "address": "Schützenplatz 7 A, 82418 Murnau am Staffelsee",
+    "phone": "0178 5397442",
     "email": null,
     "serviceArea": [
-      "Weßling",
-      "Oberpfaffenhofen",
-      "Hochstadt",
-      "Gilching",
-      "Wörthsee",
-      "Seefeld"
+      "Murnau am Staffelsee",
+      "Seehausen",
+      "Uffing",
+      "Riegsee",
+      "Spatzenhausen",
+      "Ohlstadt"
     ]
   },
   "listings": {
     "google": {
-      "url": "https://www.google.com/maps/search/?api=1&query=Edo%20Vidas%20Heizung%20Sanit%C3%A4r%20Sommerstr.%2014a%20We%C3%9Fling",
+      "url": "https://www.google.com/maps/search/?api=1&query=BS%20Schmidt%20Badsanierung%20Sch%C3%BCtzenplatz%207A%20Murnau",
       "rating": null,
       "reviews": null,
-      "evidence": "NICHT BELEGT – kein Google-Spiegel gefunden (trustlocal/firmania/rgv-Suche „Vidas Weßling“ ohne Treffer; dort nur Max Baier Heizung-Sanitär). In Maps prüfen."
+      "evidence": "NICHT BELEGT – weder direkter Google-Maps-Treffer noch Google-Spiegel (rgv-bayern, firmania, trustlocal) gefunden. In Maps prüfen."
     },
     "myhammer": {
-      "url": "https://www.11880.com/suche/heizungsinstallation/woerthsee",
+      "url": "https://www.11880.com/suche/fliesenleger/murnau",
       "rating": null,
       "reviews": null,
-      "evidence": "Kein MyHammer gefunden – 11880 führt „Edo Vidas Heizung - Sanitär“, Sommerstr. 14a, 82234 Weßling, (08153) 4131 in den Ortslisten Heizungsinstallation/Klempner Wörthsee; weitere Nennung bei klimatechniker24.com und branchenbuch24.com. Keine E-Mail, kein Homepage-Feld in den Snippets."
+      "evidence": "Kein MyHammer gefunden – Eintrag „BS Schmidt Badsanierung“ in den 11880-Ortslisten Fliesenleger Murnau und Antdorf (Schützenplatz 7 A, 82418 Murnau, (0178) 5397442; Kategorien Fliesenleger, Badsanierung, Badrenovierung & Badezimmerplanung; keine Öffnungszeiten)."
     }
   },
   "websiteStatus": "keine eigene Website gefunden",
   "websiteChecks": [
-    "(1) „Edo Vidas Heizung Sanitär Weßling“ auf 11880/trustlocal/firmania/rgv – nur 11880-Ortslisten, kein Homepage-Feld",
-    "(2) „\"Vidas\" Heizung Sanitär Weßling Sommerstr“ mit blocked_domains (11880, Gelbe Seiten, Das Örtliche, Telefonbuch, Cylex, meinestadt, Creditreform, Facebook, Instagram, golocal, MyHammer, Northdata, Firmenwissen, WKDB, Yelp, wlw) – nur klimatechniker24.com und branchenbuch24.com, keine eigene Domain",
-    "(3) „\"Edo Vidas\" Weßling“ ohne Filter – keine Treffer zum Betrieb",
-    "(4) Domain-Check allowed_domains vidas-heizung.de, vidas-sanitaer.de, vidas-haustechnik.de, heizung-vidas.de, edo-vidas.de, vidas.de, vidas-wessling.de, sanitaer-vidas.de – keine Treffer",
-    "(5) Telefonsuche „08153 4131“/„08153/4131“/„(08153) 4131“ – nur klimatechniker24.com-Liste, keine Website",
-    "Website-Risiko: mittel – alle Prüfungen negativ, aber weder Google-Eintrag noch Freemail belegt"
+    "(1) „BS Schmidt Badsanierung Murnau“ mit blocked_domains (11880, Gelbe Seiten, Das Örtliche, Telefonbuch, Cylex, meinestadt, Creditreform, Facebook, Instagram, golocal, MyHammer, Northdata, Firmenwissen, WKDB, Yelp, trustlocal, wlw) – nur Badsanierungs-Portale und andere Betriebe (Haustechnik Samm, Schröter Haustechnik, maler schmidt aus Krün, Matthias Paul Schmidt Bauunternehmen Penzing); keine eigene Domain",
+    "(2) Telefonsuche „0178 5397442“/„01785397442“/„0178/5397442“ – nur Rufnummern-Blocklisten (anrufer.info, handyanrufe.de), keine Website",
+    "(3) Domain-Check allowed_domains bs-schmidt.de, bs-schmidt-badsanierung.de, schmidt-badsanierung.de, badsanierung-schmidt.de, bs-badsanierung.de, schmidt-badsanierung-murnau.de, badsanierung-murnau.de, bsschmidt.de – nur bsschmidt.de (Christian Schmidt Brandschutz, Lampertheim – fremde Firma), sonst keine Treffer",
+    "(4) Verzeichnis-/Spiegelsuche (11880, rgv-bayern, firmania, trustlocal) – nur 11880-Ortslisten; laut Snippet strukturierte Daten mit E-Mail-Adresse, die Adresse selbst ist aber nicht sichtbar; kein Website-Feld",
+    "(5) Impressum-Suche nicht separat durchgeführt (Suchbudget) – Inhaber-Vorname unbekannt",
+    "Website-Risiko: mittel – alle Prüfungen negativ, aber weder Google-Eintrag noch Freemail belegt (RESERVE)"
   ],
   "facts": {
     "services": [
-      "Heizungsinstallation",
-      "Sanitärinstallation"
+      "Badsanierung",
+      "Badrenovierung",
+      "Badezimmerplanung",
+      "Fliesenlegen"
     ],
     "experience": null,
     "praisedFor": []
   },
   "strategy": {
-    "audience": "Hauseigentümer und Hausverwaltungen in Weßling, Oberpfaffenhofen, Gilching und Wörthsee mit tropfenden Armaturen, alter Heizung oder geplanter Badmodernisierung",
-    "mainService": "Heizung und Sanitär – Installation, Wartung, Reparatur",
-    "trustSignal": "Kleiner Inhaberbetrieb in Weßling, direkt erreichbar",
-    "conversionGoal": "Rückruf oder Termin für Heizungs-/Sanitäranliegen anfragen",
-    "visualConcept": "Technisch-klare Haustechnik: blank verlegte Kupferrohre, Heizkessel im Keller, helles Bad mit neuer Armatur – ordentlich und vertrauenswürdig"
+    "audience": "Hauseigentümer und Vermieter in Murnau, Seehausen, Uffing und Riegsee, die ein älteres Bad erneuern oder neu fliesen lassen wollen",
+    "mainService": "Badsanierung mit Fliesenarbeiten",
+    "trustSignal": "Kleiner Betrieb in Murnau, direkt per Handy erreichbar",
+    "conversionGoal": "Badsanierung anfragen – per WhatsApp mit Fotos vom jetzigen Bad oder per Anruf",
+    "visualConcept": "Helles, ruhiges Bad: großformatige Fliesen, saubere Fugen, bodengleiche Dusche – Blick vom Staffelsee-Licht inspiriert"
   },
   "sales": {
     "score": 4,
     "whyGoodLead": [
-      "Keine eigene Website gefunden – nur Verzeichniseinträge",
-      "Sanitär/Heizung ist bisher selten unter den Leads",
-      "Heizungstausch und Badmodernisierung sind im Landkreis Starnberg stark gefragt",
-      "Inhaberbetrieb ohne Online-Auftritt – Website bringt schnell Sichtbarkeit"
+      "Keine eigene Website gefunden – nur 11880-Einträge",
+      "Mobilnummer öffentlich gelistet – WhatsApp-Erstkontakt möglich",
+      "Badsanierung ist ein Hochwert-Auftrag, bei dem Kunden vorab online vergleichen",
+      "In Murnau wenige kleine Badsanierer mit eigener Seite sichtbar"
     ],
-    "pitch": "Grüß Gott Herr Vidas, hier ist … – ich baue Websites für Handwerksbetriebe im Landkreis Starnberg. Ich habe Ihren Heizungs- und Sanitärbetrieb in Weßling im Branchenbuch gefunden, aber keine eigene Website. Ich habe unverbindlich einen Entwurf vorbereitet, auf dem Kunden Ihre Leistungen sehen und direkt einen Rückruf anfragen können – darf ich Ihnen den Link schicken?"
+    "pitch": "Hallo, hier ist … – ich baue Websites für Handwerker im Oberland. Ich habe Ihren Eintrag „BS Schmidt Badsanierung“ in Murnau gefunden, aber keine eigene Website. Ich habe unverbindlich einen Entwurf vorbereitet, auf dem Kunden Ihre Badsanierungen sehen und Ihnen direkt Fotos ihres Bads per WhatsApp schicken können – darf ich Ihnen den Link senden?"
   },
   "manualChecks": [
     "RESERVE – weder Google-Eintrag noch Freemail-Adresse belegt: NUR versenden, wenn Google Maps einen Eintrag OHNE Website zeigt.",
-    "Betrieb aktiv? Verzeichnisdaten teils alt (klimatechniker24 vor ca. 870 Tagen indexiert) – Festnetz 08153 4131 vorab prüfen",
-    "Keine E-Mail und keine Mobilnummer gefunden – Erstkontakt telefonisch",
-    "Leistungen nur als Kategorien belegt (Heizungsinstallation, Klempner) – Badsanierung, Wärmepumpe, Notdienst beim Betrieb bestätigen, vorher nicht als Fakt darstellen",
+    "Google Maps: „BS Schmidt Badsanierung, Schützenplatz 7 A, Murnau“ suchen – Existenz, Bewertungen und Website-Feld prüfen",
+    "11880-Eintrag enthält laut Snippet eine E-Mail-Adresse, die nicht sichtbar war – im 11880-Profil ansehen: Firmendomain = verwerfen, Freemail = regulärer Lead",
+    "Inhabername unbekannt (nur „Schmidt“) – Anrede beim Erstkontakt neutral halten; Bedeutung „BS“ klären",
+    "Leistungen nur aus Verzeichniskategorien (Fliesenleger, Badsanierung, Badrenovierung, Badezimmerplanung) – Sanitärinstallation selbst oder mit Partner? beim Betrieb bestätigen",
     "Logo und Projektfotos: nicht gefunden – beim Betrieb anfragen"
   ],
   "sources": [
     {
-      "label": "11880 – Heizungsinstallationen Wörthsee (Liste mit Edo Vidas)",
-      "url": "https://www.11880.com/suche/heizungsinstallation/woerthsee"
+      "label": "11880 – Fliesenleger Murnau (Liste mit BS Schmidt Badsanierung)",
+      "url": "https://www.11880.com/suche/fliesenleger/murnau"
     },
     {
-      "label": "11880 – Klempner Wörthsee (Liste mit Edo Vidas)",
-      "url": "https://www.11880.com/suche/klempner/woerthsee"
-    },
-    {
-      "label": "klimatechniker24.com – Weßling (Nennung Edo Vidas)",
-      "url": "https://www.klimatechniker24.com/stadt/wessling/profil/franz-baier-sanitaer-und-heizungstechnik/"
-    },
-    {
-      "label": "branchenbuch24.com – Sanitär Weßling (Nennung Edo Vidas)",
-      "url": "https://www.branchenbuch24.com/wessling/bauen-und-wohnen/sanitaer/georg-dechant-sanitaer-und-heizung-146112/"
+      "label": "11880 – Fliesenleger Antdorf (Liste mit BS Schmidt Badsanierung)",
+      "url": "https://www.11880.com/suche/fliesenleger/antdorf"
     }
   ],
   "site": {
     "theme": "aqua",
     "category": "handwerk",
     "heroOffer": [
-      "Heizung",
-      "Sanitär",
-      "Wartung",
-      "Reparatur",
-      "Armaturen"
+      "Badsanierung",
+      "Fliesen",
+      "Badplanung",
+      "Dusche",
+      "Renovierung"
     ],
     "scene": "bath",
-    "quote": {
-      "sizeLabel": "Worum geht es?",
-      "sizes": [
-        "Heizung",
-        "Wasserleitung",
-        "Bad/WC",
-        "Wartung",
-        "Sonstiges"
-      ],
-      "timings": [
-        "Dringend",
-        "In den nächsten Wochen",
-        "In 1–3 Monaten",
-        "Ich plane erst noch"
-      ]
-    },
-    "badges": [
-      {
-        "title": "Heizung",
-        "sub": "Installation & Wartung"
-      },
-      {
-        "title": "Sanitär",
-        "sub": "Leitungen & Armaturen"
-      },
-      {
-        "title": "Weßling",
-        "sub": "Sommerstraße"
-      },
-      {
-        "title": "Inhaber",
-        "sub": "Edo Vidas"
-      }
-    ],
-    "seoTitle": "Heizung & Sanitär in Weßling – Edo Vidas",
-    "seoDescription": "Heizungs- und Sanitärinstallation in Weßling, Gilching und Wörthsee. Edo Vidas – jetzt Rückruf anfragen.",
-    "logoMark": "EV",
-    "brandName": "Vidas Heizung · Sanitär",
     "logoIcon": "drop",
+    "logoMark": "BS",
+    "brandName": "BS Schmidt Badsanierung",
+    "seoTitle": "Badsanierung in Murnau – BS Schmidt Badsanierung",
+    "seoDescription": "Badsanierung, Badplanung und Fliesenarbeiten in Murnau am Staffelsee und Umgebung. Fotos vom Bad per WhatsApp schicken und Angebot anfragen.",
     "nav": [
       {
         "label": "Leistungen",
@@ -169,232 +130,272 @@
       }
     ],
     "hero": {
-      "eyebrow": "Heizung · Sanitär · Weßling",
-      "headline": "Heizung und Sanitär in Weßling",
-      "sub": "Edo Vidas installiert und repariert Heizung und Wasserleitungen in Weßling und Umgebung.",
-      "ctaPrimary": "Rückruf anfragen",
+      "eyebrow": "Badsanierung · Murnau am Staffelsee",
+      "headline": "Badsanierung in Murnau",
+      "sub": "Vom alten Bad zum neuen: Planung, Rückbau und Fliesen aus Murnau.",
+      "ctaPrimary": "Bad-Angebot anfragen",
       "ctaSecondary": "Anrufen",
       "bullets": [
-        "Inhaberbetrieb in Weßling",
-        "Heizung und Sanitär aus einer Hand",
-        "Kurze Wege im Fünfseenland"
+        "Badplanung vorab",
+        "Fliesen für Boden und Wand",
+        "Direkt per Handy erreichbar"
       ],
-      "imageLabel": "Heizungsraum mit sauber verlegten Kupferrohren"
+      "imageLabel": "helles saniertes Bad mit großformatigen Fliesen und bodengleicher Dusche"
     },
-    "trust": [
+    "badges": [
       {
-        "value": "Weßling",
-        "label": "Betrieb vor Ort"
+        "title": "Badsanierung",
+        "sub": "Komplett oder in Teilen"
       },
       {
-        "value": "2",
-        "label": "Gewerke: Heizung & Sanitär"
+        "title": "Badplanung",
+        "sub": "vor dem ersten Abriss"
       },
       {
-        "value": "Inhaber",
-        "label": "direkt am Telefon"
+        "title": "Fliesen",
+        "sub": "Boden und Wand"
       },
       {
-        "value": "Umland",
-        "label": "Gilching bis Wörthsee"
+        "title": "Murnau",
+        "sub": "Schützenplatz"
       }
     ],
-    "services": [
+    "trust": [
       {
-        "title": "Heizungsinstallation",
-        "text": "Neue Heizungsanlagen werden montiert, angeschlossen und in Betrieb genommen.",
-        "items": [
-          "Heizkessel",
-          "Heizkörper",
-          "Rohrleitungen"
-        ]
+        "value": "Murnau",
+        "label": "Betrieb am Schützenplatz"
       },
       {
-        "title": "Heizungswartung",
-        "text": "Regelmäßige Wartung hält die Anlage effizient und beugt Ausfällen im Winter vor.",
-        "items": [
-          "Jahreswartung",
-          "Einstellung",
-          "Entlüften"
-        ]
+        "value": "Bad",
+        "label": "Schwerpunkt Sanierung"
       },
       {
-        "title": "Heizungsreparatur",
-        "text": "Bleibt der Heizkörper kalt oder verliert die Anlage Druck, wird die Ursache gesucht und behoben.",
-        "items": [
-          "Störungssuche",
-          "Druckverlust",
-          "Pumpentausch"
-        ]
+        "value": "Fotos",
+        "label": "Ersteinschätzung per WhatsApp"
       },
       {
-        "title": "Sanitärinstallation",
-        "text": "Wasser- und Abwasserleitungen werden verlegt und angeschlossen – im Neubau wie im Bestand.",
-        "items": [
-          "Wasserleitungen",
-          "Abwasser",
-          "Anschlüsse"
-        ]
-      },
-      {
-        "title": "Armaturen & WC",
-        "text": "Tropfende Hähne, defekte Spülkästen oder neue Waschtische – kleine Arbeiten, schnell erledigt.",
-        "items": [
-          "Armaturen",
-          "Spülkasten",
-          "Waschtisch"
-        ]
-      },
-      {
-        "title": "Leitungsschäden",
-        "text": "Undichte oder alte Leitungen werden geortet, repariert oder ersetzt.",
-        "items": [
-          "Rohrbruch",
-          "Leitungstausch",
-          "Dichtungen"
-        ]
+        "value": "Mobil",
+        "label": "direkt erreichbar"
       }
     ],
     "servicesIntro": {
-      "headline": "Wärme und Wasser im Haus – aus einer Hand",
-      "text": "Ob Heizung im Keller oder Armatur im Bad: Ein Betrieb kümmert sich um beide Seiten der Haustechnik."
+      "headline": "Ihr Bad – geplant, saniert, gefliest",
+      "text": "Ob nur neue Fliesen oder ein komplett erneuertes Bad: Erst wird geplant, dann gebaut – so wissen Sie vorher, was Sie bekommen."
     },
+    "services": [
+      {
+        "title": "Komplettsanierung",
+        "text": "Das alte Bad wird zurückgebaut und neu aufgebaut – vom Untergrund bis zur letzten Fuge.",
+        "items": [
+          "Rückbau",
+          "Neuaufbau",
+          "Fertige Übergabe"
+        ]
+      },
+      {
+        "title": "Badplanung",
+        "text": "Gemeinsam wird festgelegt, wo Dusche, WC und Waschtisch hinkommen und welche Fliesen passen.",
+        "items": [
+          "Aufteilung",
+          "Fliesenauswahl",
+          "Ablauf"
+        ]
+      },
+      {
+        "title": "Badrenovierung",
+        "text": "Neue Oberflächen für ein Bad, dessen Aufteilung bleiben darf – schneller als eine Komplettsanierung.",
+        "items": [
+          "Neue Fliesen",
+          "Neue Oberflächen",
+          "Kürzere Bauzeit"
+        ]
+      },
+      {
+        "title": "Wandfliesen",
+        "text": "Wände im Bad werden neu gefliest – vom Spritzschutz bis zur raumhohen Verlegung.",
+        "items": [
+          "Raumhoch",
+          "Spritzschutz",
+          "Saubere Fugen"
+        ]
+      },
+      {
+        "title": "Bodenfliesen",
+        "text": "Rutschhemmende, pflegeleichte Böden für Bad und Gäste-WC.",
+        "items": [
+          "Bad",
+          "Gäste-WC",
+          "Pflegeleicht"
+        ]
+      },
+      {
+        "title": "Dusche erneuern",
+        "text": "Die alte Duschwanne raus, eine neue, geflieste Dusche rein – auf Wunsch bodennah.",
+        "items": [
+          "Duschbereich",
+          "Abdichtung",
+          "Fliesen"
+        ]
+      }
+    ],
     "why": {
-      "headline": "Haustechnik vom Inhaberbetrieb aus Weßling.",
+      "headline": "Ein Bad aus Murnau – ohne Umwege geplant.",
       "points": [
         {
-          "title": "Aus dem Ort",
-          "text": "Der Betrieb sitzt in der Sommerstraße in Weßling – Oberpfaffenhofen und Hochstadt liegen nebenan."
+          "title": "Kurze Wege",
+          "text": "Der Betrieb sitzt in Murnau und ist schnell in Seehausen, Uffing und Riegsee."
         },
         {
-          "title": "Ein Ansprechpartner",
-          "text": "Edo Vidas bespricht Ihr Anliegen selbst – ohne Weiterleitung."
+          "title": "Erst planen",
+          "text": "Vor dem Abriss steht fest, wie das neue Bad aussehen soll."
         },
         {
-          "title": "Heizung und Wasser",
-          "text": "Beide Gewerke in einer Hand – ein Termin statt zwei Firmen."
+          "title": "Fotos genügen",
+          "text": "Für eine erste Einschätzung reichen ein paar Handyfotos vom jetzigen Bad."
         },
         {
-          "title": "Klare Absprachen",
-          "text": "Umfang und Kosten werden vor Beginn besprochen."
+          "title": "Direkter Draht",
+          "text": "Sie sprechen mit dem Betrieb selbst – per Anruf oder WhatsApp."
         }
       ]
     },
     "reviews": {
       "headline": "Was Kunden sagen",
-      "summary": "Kundenstimmen werden hier eingebunden, sobald ein Google-Profil verknüpft ist.",
+      "summary": "Kundenstimmen werden hier eingebunden, sobald sie aus dem Google-Profil übernommen sind.",
       "highlights": [
-        "Heizung und Sanitär in Weßling",
-        "Inhabergeführt",
-        "Kurze Wege im Umland"
+        "Badsanierung in Murnau",
+        "Fliesen für Boden und Wand",
+        "Direkter Kontakt"
       ],
       "source": "Google",
-      "sourceUrl": "https://www.google.com/maps/search/?api=1&query=Edo%20Vidas%20Heizung%20Sanit%C3%A4r%20Sommerstr.%2014a%20We%C3%9Fling",
+      "sourceUrl": "https://www.google.com/maps/search/?api=1&query=BS%20Schmidt%20Badsanierung%20Sch%C3%BCtzenplatz%207A%20Murnau",
       "rating": null,
       "count": null
     },
     "process": {
-      "headline": "So läuft Ihr Auftrag",
+      "headline": "So entsteht Ihr neues Bad",
       "steps": [
         {
-          "title": "Anruf",
-          "text": "Kurz schildern, ob Heizung, Leitung oder Bad betroffen ist."
+          "title": "Fotos schicken",
+          "text": "Ein paar Bilder vom Bad und grobe Maße per WhatsApp – oder kurz anrufen."
         },
         {
-          "title": "Termin",
-          "text": "Ein Termin vor Ort wird vereinbart, um das Problem anzusehen."
+          "title": "Termin vor Ort",
+          "text": "Aufmaß, Wünsche und Zustand des Untergrunds werden geklärt."
         },
         {
-          "title": "Angebot",
-          "text": "Sie erfahren, was zu tun ist und was es kostet."
+          "title": "Plan & Angebot",
+          "text": "Sie erhalten Aufteilung, Fliesenvorschlag und ein klares Angebot."
         },
         {
-          "title": "Ausführung",
-          "text": "Montage oder Reparatur, Funktionsprüfung und Übergabe."
+          "title": "Umbau",
+          "text": "Rückbau, Aufbau und Fliesen – danach ist das Bad bereit."
         }
       ]
     },
     "gallery": {
-      "headline": "Haustechnik, sauber verlegt",
-      "text": "Für die Live-Version zeigen wir hier echte Arbeiten des Betriebs.",
+      "headline": "Bäder aus dem Raum Murnau",
+      "text": "Für die Live-Version zeigen wir hier echte Bäder des Betriebs – vorher und nachher.",
       "items": [
         {
-          "title": "Heizungsraum",
-          "photoNeeded": "Heizkessel mit sauber verlegten Rohren"
+          "title": "Komplettes Bad",
+          "photoNeeded": "fertig saniertes Bad, Gesamtansicht"
         },
         {
-          "title": "Heizkörper",
-          "photoNeeded": "neu montierter Heizkörper im Wohnraum"
+          "title": "Neue Dusche",
+          "photoNeeded": "geflieste Dusche mit Glaswand"
         },
         {
-          "title": "Waschtisch",
-          "photoNeeded": "neuer Waschtisch mit Armatur"
-        },
-        {
-          "title": "Leitungen",
-          "photoNeeded": "frisch verlegte Wasserleitungen vor dem Verschließen"
+          "title": "Wandfliesen",
+          "photoNeeded": "raumhoch geflieste Wand mit sauberen Fugen"
         },
         {
           "title": "Gäste-WC",
-          "photoNeeded": "modernisiertes Gäste-WC"
+          "photoNeeded": "kleines renoviertes Gäste-WC"
+        },
+        {
+          "title": "Vorher – nachher",
+          "photoNeeded": "dasselbe Bad vor und nach der Sanierung"
         }
       ]
     },
     "region": {
-      "headline": "Heizung und Sanitär für Weßling und Umgebung",
-      "text": "Von Weßling aus schnell in Oberpfaffenhofen, Hochstadt, Gilching, Wörthsee und Seefeld.",
+      "headline": "Badsanierung rund um den Staffelsee",
+      "text": "Von Murnau aus in Seehausen, Uffing, Riegsee, Spatzenhausen, Ohlstadt und Eglfing.",
       "places": [
-        "Weßling",
-        "Oberpfaffenhofen",
-        "Hochstadt",
-        "Gilching",
-        "Wörthsee",
-        "Seefeld"
+        "Murnau am Staffelsee",
+        "Seehausen",
+        "Uffing",
+        "Riegsee",
+        "Spatzenhausen",
+        "Ohlstadt",
+        "Eglfing"
       ]
     },
     "faq": [
       {
-        "q": "Warten Sie auch bestehende Heizungen?",
-        "a": "Ja, Wartung und Einstellung bestehender Anlagen gehören zum Heizungshandwerk und zum Angebot."
+        "q": "Kann ich vorab Fotos von meinem Bad schicken?",
+        "a": "Ja, Fotos und grobe Maße per WhatsApp helfen für eine erste Einschätzung."
       },
       {
-        "q": "Übernehmen Sie kleine Reparaturen?",
-        "a": "Ja, auch tropfende Armaturen oder defekte Spülkästen – rufen Sie einfach an."
+        "q": "Muss immer das ganze Bad raus?",
+        "a": "Nein. Oft reicht eine Renovierung mit neuen Fliesen – das klärt der Termin vor Ort."
       },
       {
-        "q": "Kommen Sie für eine Besichtigung vorbei?",
-        "a": "Ja, vor größeren Arbeiten wird die Situation vor Ort angeschaut."
+        "q": "Wie lange dauert eine Badsanierung?",
+        "a": "Das hängt von Größe und Umfang ab. Ein Zeitplan wird nach dem Aufmaß abgestimmt."
       },
       {
-        "q": "In welchen Orten sind Sie unterwegs?",
-        "a": "In Weßling und den umliegenden Orten wie Gilching, Wörthsee und Seefeld."
+        "q": "Hilft der Betrieb bei der Planung?",
+        "a": "Ja, Badplanung gehört zum Angebot – Aufteilung und Fliesen werden vorher festgelegt."
       },
       {
-        "q": "Wie erreiche ich Sie am besten?",
-        "a": "Telefonisch unter 08153 4131 oder über das Anfrageformular auf dieser Seite."
+        "q": "Arbeiten Sie auch außerhalb von Murnau?",
+        "a": "Ja, rund um den Staffelsee – fragen Sie einfach an."
       }
     ],
     "contact": {
-      "headline": "Ihr Anliegen – wir rufen zurück",
-      "text": "Beschreiben Sie kurz, ob es um Heizung, Wasserleitung oder Bad geht und wie dringend es ist.",
+      "headline": "Ihr Bad-Angebot – kostenlos und unverbindlich",
+      "text": "Beschreiben Sie kurz Ihr Bad: Größe, was raus soll und was Sie sich wünschen. Fotos helfen.",
       "topics": [
-        "Heizung",
-        "Wartung",
-        "Sanitär",
-        "Armaturen/WC",
+        "Komplettsanierung",
+        "Badrenovierung",
+        "Dusche erneuern",
+        "Fliesenarbeiten",
         "Sonstiges"
       ],
-      "responseNote": "Rückruf nach Absprache."
+      "responseNote": "Termin vor Ort nach Absprache."
     },
-    "stickyCta": "Rückruf anfragen",
+    "quote": {
+      "sizeLabel": "Was soll gemacht werden?",
+      "sizes": [
+        "Nur Fliesen",
+        "Dusche erneuern",
+        "Kleines Bad / Gäste-WC",
+        "Komplettes Bad"
+      ],
+      "timings": [
+        "So bald wie möglich",
+        "In den nächsten Wochen",
+        "In 1–3 Monaten",
+        "Ich plane erst noch"
+      ]
+    },
+    "stickyCta": "Bad anfragen",
     "look": {
-      "palette": 2,
-      "font": 6,
-      "hero": 0,
-      "services": 1,
-      "radius": 1,
-      "logo": 0,
-      "intro": 5
+      "skin": "kante",
+      "palette": 1,
+      "font": 11,
+      "hero": 3,
+      "services": 3,
+      "radius": 4,
+      "logo": 5,
+      "intro": 4,
+      "projects": 2,
+      "process": 0,
+      "faq": 2,
+      "reviews": 1,
+      "order": 3
     }
   }
 }

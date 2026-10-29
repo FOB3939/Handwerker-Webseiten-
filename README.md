@@ -240,3 +240,19 @@ Schnell-Check-Liste mit Google-Maps-Links und Reserve-Kandidaten.
 - Ernst Holnburger Fliesenlegermeister (Lengdorf): https://claude.ai/artifact/BCy7bSCEmRRkBdYctabqiC
 - Schreinerei Alfred Huber (Bockhorn): https://claude.ai/artifact/JMDkD9rBvkKnvQ4JN3Xd68
 - Franz Achatz Schreinerei (Dorfen): https://claude.ai/artifact/9kzUSrgA7PSyF6bjYZqJ8y
+
+## Entwürfe 2026-10-29
+
+Ab diesem Lauf im Stil „Kante“ (dunkel, schmale Versal-Überschrift mit farbigem Schlusswort, Schreibmaschinen-Zeilen, eckige Buttons) – `site.look.skin = "kante"`, gesetzt von `scripts/assign-looks.mjs`.
+
+- WhatsApp-Entwürfe: https://claude.ai/artifact/YPX64NK226UfmL3RN4hJ4Z
+- Malerbetrieb Reinhard Kefer (Tutzing): https://claude.ai/artifact/SHXTvoWDfUYNffwPwn8xum
+- Malermeister Tony Vogel (Landsberg am Lech): https://claude.ai/artifact/Gj34ryiRQrrJTuLBVvYGew
+- Jürgen Weisser Malerbetrieb (Landsberg am Lech): https://claude.ai/artifact/WXy13SrVeXkGzzQSqTEJJG
+- EMC Haustechnik (Oberschleißheim): https://claude.ai/artifact/4xxnKu9X7PuqAmDdQoYk48
+- Fenster- und Türenmontage (Oberschleißheim): https://claude.ai/artifact/541H2oL2cNsXo72CyCWogr
+- MUJA Haus Garten Service (Seefeld): https://claude.ai/artifact/8xWCucTRa6ufSiWcVFy9nM
+- GartenHans (Merching): https://claude.ai/artifact/AXr8YFxeHfFPBK6oRN4irA
+- Elektro Gstaiger (Weilheim): https://claude.ai/artifact/F9g1AskZzoisK1jkpmfX7p
+- Demaku Gebäudereinigung & Hausmeisterservice (Peißenberg): https://claude.ai/artifact/C7XvBYednqZkQCUt5uKgtq
+- Reserve: BS Schmidt Badsanierung (Murnau): https://claude.ai/artifact/8Vv4FejLKCGXAKaderKNWz

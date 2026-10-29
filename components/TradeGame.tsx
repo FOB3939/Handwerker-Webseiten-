@@ -11,7 +11,7 @@ const GAME_RULES: [RegExp, GameKind][] = [
   [/fliese|naturstein|mosaik/i, "tiles"],
   [/sanit|installateur|heizung|klempner|bäder|badsanier|wasser|rohr/i, "water"],
   [/fensterreinig|glasreinig|fensterputz|gebäudereinig|reinigungsservice/i, "glass"],
-  [/rollladen|rolladen|sonnenschutz|markise|jalousie/i, "blinds"],
+  [/rollladen|rolladen|sonnenschutz|markise|jalousie|fenster- und tür|fenstermontage|türenmontage/i, "blinds"],
   [/metallbau|schlosser|schmiede|geländer|stahlbau|zaun/i, "railing"],
   [/küche|möbel|schreiner|tischler|einbau/i, "kitchen"],
   [/elektr|strom|photovoltaik|solar|wallbox/i, "circuit"],

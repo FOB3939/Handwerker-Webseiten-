@@ -1,131 +1,117 @@
 {
   "id": "2026-10-29-167",
-  "slug": "bauer-metallbau-tutzing",
+  "slug": "fenster-und-tuerenmontage-oberschleissheim",
   "date": "2026-10-29",
   "company": {
-    "name": "Bauer Metallbau",
+    "name": "Fenster und Türenmontage",
     "owner": null,
-    "trade": "Metallbau & Kunstschlosserei",
-    "city": "Tutzing",
-    "address": "Gröschlstraße 10, 82327 Tutzing",
-    "phone": "08158 905910",
-    "email": null,
+    "trade": "Fenster- und Türenmontage",
+    "city": "Oberschleißheim",
+    "address": "Am Fohlengarten 6, 85764 Oberschleißheim",
+    "phone": "0179 7286165",
+    "email": "kusterkristijan43@gmail.com",
     "serviceArea": [
-      "Tutzing",
-      "Bernried",
-      "Feldafing",
-      "Pöcking",
-      "Starnberg",
-      "Seeshaupt"
+      "Oberschleißheim",
+      "Unterschleißheim",
+      "Garching",
+      "Lohhof",
+      "Feldmoching",
+      "Dachau"
     ]
   },
   "listings": {
     "google": {
-      "url": "https://www.google.com/maps/search/?api=1&query=Bauer%20Metallbau%20Gröschlstraße%2010%20Tutzing",
+      "url": "https://www.google.com/maps/search/?api=1&query=Fenster%20und%20T%C3%BCrenmontage%20Am%20Fohlengarten%206%20Oberschlei%C3%9Fheim",
       "rating": null,
       "reviews": null,
-      "evidence": "NICHT BELEGT – kein Google-Spiegel (trustlocal, rgv-bayern, firmania) gefunden. metallbauer.io zeigt 5,0 bei 5 Bewertungen (Ende März 2026), nennt aber keine Quelle – ob Google-Bewertungen, ist unklar. 11880 meldet 0 Bewertungen. findglocal.com spiegelt offenbar eine Facebook-Seite (ID 294836513905681, Beiträge bis März 2026). In Maps prüfen."
+      "evidence": "Kein Google-Beleg gefunden (kein Spiegel-Treffer). Angenommen über öffentlich belegte Freemail: 11880-Eintrag „Fenster und Türenmontage“, Am Fohlengarten 6, Oberschleißheim, (0179) 7286165, Gmail-Adresse kusterkristijan43@gmail.com, „Daten vom Inhaber bestätigt“, keine Bewertungen. In Maps prüfen."
     },
     "myhammer": {
-      "url": "https://www.11880.com/branchenbuch/tutzing/250203634B29493890/bauer-metallbau.html",
+      "url": "https://www.11880.com/branchenbuch/oberschleissheim/290110615B112620023/fenster-und-tuerenmontage.html",
       "rating": null,
       "reviews": null,
-      "evidence": "Kein MyHammer gefunden – 11880-Eintrag „Bauer Metallbau“, Tutzing (Metallbau, Kunstschlosserei, Bauschlosserei, Türenbau), keine Bewertungen; außerdem branchen-info, stadtbranchenbuch, metallbauer.io, schlosserei.net, metallbau.com."
+      "evidence": "Kein MyHammer gefunden – 11880-Profil (Kategorien Bauunternehmen, Bauelement & Türenbau, Fensterbau); fensterbau.org/trockenbauunternehmen.net führen „Kristijan Kuster“, Am Fohlengarten 6a; fensterversand.com führt „Fenster- und Türenmontage Kuster“ (Emmering) mit 10 kundenzufriedenen Montageaufträgen."
     }
   },
   "websiteStatus": "keine eigene Website gefunden",
   "websiteChecks": [
-    "(1) „Bauer Metallbau“ Tutzing mit blocked_domains (11880, Gelbe Seiten, Das Örtliche, Telefonbuch, Cylex, meinestadt, Creditreform, Facebook, Instagram, golocal, MyHammer, Northdata, Firmenwissen, WKDB, Yelp, trustlocal, wlw) – nur Verzeichnisse (schlosserei.net, metallbau.com, branchen-info, metallbauer.io, stadtbranchenbuch, findglocal); keine eigene Domain, kein Website-Feld in den Snippets. Michael Zirngibl Stahl- und Metallbau (Tutzing) ist eine andere Firma.",
-    "(2) Domain-Check allowed_domains bauer-metallbau.de, metallbau-bauer.de, bauer-metallbau-tutzing.de, metallbau-bauer-tutzing.de, kunstschlosserei-bauer.de, bauer-kunstschlosserei.de, metallbau-tutzing.de, bauermetallbau.de – Treffer nur für fremde Betriebe (metallbau-bauer.de = Woldert/Neuwied, bauermetallbau.de = Jürgen Bauer Metallbau GmbH, Thalmässing); kein Bezug zu Tutzing",
-    "(3) Telefonsuche „08158 905910“/„08158/905910“ – keine Treffer",
-    "(4) Impressum-Suche „Maximilian Bauer Metallbau Tutzing Gröschlstr Impressum“ – kein Impressum gefunden",
-    "(5) Google-Spiegel-Suche (trustlocal, firmania, rgv-bayern, metallbauer.io) – kein Google-Beleg; metallbauer.io-Bewertungen ohne Quellenangabe",
-    "Website-Risiko: mittel – alle Prüfungen negativ, aber weder Google-Eintrag noch Freemail belegt; vermutlich Facebook-Seite vorhanden"
+    "(1) „Kristijan Kuster Fenster Türen Montage Oberschleißheim“ mit blocked_domains (11880, Gelbe Seiten, Das Örtliche, Telefonbuch, Cylex, meinestadt, Creditreform, Facebook, Instagram, golocal, MyHammer, Northdata, Firmenwissen, WKDB, Yelp, trustlocal, wlw) – nur Verzeichnisse (fensterbau.org, trockenbauunternehmen.net, fensterversand.com-Monteursprofil); zusätzlich Jimdo-Seite „kuester-handelmontageservice.jimdosite.com“ (Schreibweise Küster, Zuordnung unklar – vermutlich anderer Betrieb, siehe manualChecks)",
+    "(2) Telefonsuche „0179 7286165“/„01797286165“/„0179/7286165“ – keine Treffer, keine Website",
+    "(3) Domain-Check allowed_domains kuster-montage.de, fenster-tuerenmontage.de, fenster-und-tuerenmontage.de, kuster-fenster.de, kk-montage.de, fenstermontage-kuster.de, kuster-fenstermontage.de, kristijan-kuster.de – keine Treffer",
+    "(4) 11880-Profil: kein Website-Feld, nur Gmail-Adresse (Freemail) und Mobilnummer",
+    "Website-Risiko: mittel – Prüfungen negativ, Freemail belegt; aber Jimdo-Seite „Küster Handel & Montageservice“ mit ähnlichem Namen nicht ausgeschlossen, kein Google-Beleg"
   ],
   "facts": {
     "services": [
-      "Metallbau",
-      "Kunstschlosserei",
-      "Bauschlosserei",
-      "Türenbau",
-      "Zaunbau",
-      "Tor- und Schrankenanlagen",
-      "Treppengeländer",
-      "Balkonanlagen",
-      "Metallarbeiten nach Maß",
-      "Reparaturen"
+      "Fenstermontage",
+      "Fenstertausch",
+      "Türenmontage",
+      "Aufmaß",
+      "Demontage alter Fenster",
+      "Entsorgung",
+      "Verfugen"
     ],
     "experience": null,
     "praisedFor": []
   },
   "strategy": {
-    "audience": "Hauseigentümer, Bauherren und Hausverwaltungen in Tutzing, Bernried, Feldafing und Pöcking, die Geländer, Zäune, Tore oder Balkone aus Metall brauchen",
-    "mainService": "Metallbau und Kunstschlosserei – Geländer, Zäune, Tore und Balkone nach Maß",
-    "trustSignal": "Eigene Werkstatt in der Gröschlstraße in Tutzing",
-    "conversionGoal": "Anfrage mit Fotos und Maßen für Geländer, Zaun, Tor oder Balkon",
-    "visualConcept": "Werkstatt-Ästhetik: dunkler Stahl, Funkenflug, geschmiedete Details und klare Linien vor Seekulisse"
+    "audience": "Haus- und Wohnungseigentümer in Oberschleißheim, Unterschleißheim und im Münchner Norden, die alte Fenster oder Türen tauschen lassen wollen – auch nach Online-Kauf der Elemente",
+    "mainService": "Fenster und Türen tauschen – Aufmaß, Ausbau, Einbau, Abdichtung",
+    "trustSignal": "Montage von A bis Z (Aufmaß bis Entsorgung) und direkter Kontakt per Handy",
+    "conversionGoal": "Montageanfrage per WhatsApp mit Fotos und Maßen der Fenster",
+    "visualConcept": "Helles Fenster mit frischer Fuge, Werkzeug auf der Fensterbank – präzise Montage, klare Linien"
   },
   "sales": {
-    "score": 4,
+    "score": 6,
     "whyGoodLead": [
       "Keine eigene Website gefunden – nur Verzeichniseinträge",
-      "Metallbau ist ein seltenes Gewerk im Lead-Bestand",
-      "Geländer, Zäune und Tore sind Projekte, für die Kunden vorab online Referenzen suchen",
-      "Kleiner Betrieb mit Werkstatt im Ort – eine Website mit Projektfotos hebt ihn von größeren Stahlbauern ab"
+      "Gmail-Adresse und Mobilnummer öffentlich – direkter WhatsApp-/Mail-Kontakt",
+      "Generischer Firmenname „Fenster und Türenmontage“ ist ohne eigene Website kaum auffindbar",
+      "Fenstertausch ist durch Sanierungen und Förderprogramme gefragt"
     ],
-    "pitch": "Grüß Gott, hier ist … – ich baue Websites für Handwerksbetriebe am Starnberger See. Ich habe Bauer Metallbau in Tutzing in Verzeichnissen gefunden, aber keine eigene Website. Ich habe unverbindlich einen Entwurf vorbereitet, auf dem Kunden Ihre Geländer, Zäune und Tore sehen und direkt eine Anfrage schicken können – darf ich Ihnen den Link schicken?"
+    "pitch": "Hallo, hier ist … – ich baue Websites für Handwerker im Münchner Norden. Ich habe Ihren Eintrag „Fenster und Türenmontage“ in Oberschleißheim gefunden, aber keine eigene Website. Ich habe unverbindlich einen Entwurf vorbereitet, auf dem Kunden Ihre Fenster- und Türmontage sehen und direkt per WhatsApp mit Fotos anfragen können – darf ich Ihnen den Link schicken?"
   },
   "manualChecks": [
-    "RESERVE – weder Google-Eintrag noch Freemail-Adresse belegt: NUR versenden, wenn Google Maps einen Eintrag OHNE Website zeigt.",
-    "Website-Risiko: mittel – vor Versand in Google Maps prüfen, dass keine Website hinterlegt ist (Grund: kein Google-Spiegel, keine Freemail; findglocal deutet auf eine Facebook-Seite hin)",
-    "Inhabername unklar: schlosserei.net/metallbau.com nennen „Maximilian Bauer Metallbau und Kunstschlosserei“, die findglocal-URL „Bernhard Bauer Metallbau und Kunstschlosserei“ – Anrede neutral halten und beim Erstkontakt klären",
-    "Festnetznummer 08158 905910 – keine Mobilnummer belegt; Erstkontakt per Anruf",
-    "„Meisterbetrieb“ nur bei findglocal genannt – nicht in die Seite übernommen, beim Betrieb bestätigen",
-    "Bewertungen (metallbauer.io 5,0/5) ohne Quellenangabe – nicht übernommen; in Maps prüfen",
+    "Website-Risiko: mittel – vor Versand in Google Maps prüfen, dass keine Website hinterlegt ist (Grund: kein Google-Beleg gefunden; Jimdo-Seite „kuester-handelmontageservice.jimdosite.com“ mit ähnlichem Namen – prüfen, ob sie zu diesem Betrieb gehört; falls ja: verwerfen)",
+    "Inhabername nicht ausdrücklich belegt – „Kristijan Kuster“ nur aus Verzeichnistiteln (fensterbau.org) und der Gmail-Adresse; beim Erstkontakt bestätigen, bis dahin neutrale Anrede",
+    "Adresse: 11880 „Am Fohlengarten 6“, fensterbau.org „6a“; fensterversand.com nennt Emmering (Dr.-Rank-Str. 27) mit Einsatzgebiet PLZ 80/81/82/86 – aktuellen Sitz klären",
+    "Leistungen (Aufmaß, Demontage, Montage, Entsorgung, Verfugen) stammen aus dem fensterversand.com-Monteursprofil – vor Veröffentlichung bestätigen; ob auch Rollläden/Haustüren dazugehören, erfragen",
     "Logo und Projektfotos: nicht gefunden – beim Betrieb anfragen"
   ],
   "sources": [
     {
-      "label": "11880 – Bauer Metallbau Tutzing",
-      "url": "https://www.11880.com/branchenbuch/tutzing/250203634B29493890/bauer-metallbau.html"
+      "label": "11880 – Fenster und Türenmontage, Oberschleißheim",
+      "url": "https://www.11880.com/branchenbuch/oberschleissheim/290110615B112620023/fenster-und-tuerenmontage.html"
     },
     {
-      "label": "branchen-info.net – Bauer Metallbau Tutzing (Leistungen)",
-      "url": "http://tutzing.branchen-info.net/fp_2829209.php"
+      "label": "fensterbau.org – Kristijan Kuster",
+      "url": "https://www.fensterbau.org/emmering/kristijan-kuster-aUOhO2"
     },
     {
-      "label": "metallbauer.io – Bauer Metallbau",
-      "url": "https://metallbauer.io/4669-bauer-metallbau"
+      "label": "trockenbauunternehmen.net – Kristijan Kuster, Oberschleißheim",
+      "url": "https://www.trockenbauunternehmen.net/oberschleissheim/kristijan-kuster-aUOMec"
     },
     {
-      "label": "stadtbranchenbuch – Bauer Metallbau, Gröschlstr. 10",
-      "url": "https://tutzing.stadtbranchenbuch.com/880622.html"
-    },
-    {
-      "label": "schlosserei.net – Maximilian Bauer Metallbau und Kunstschlosserei",
-      "url": "https://www.schlosserei.net/tutzing/maximilian-bauer-metallbau-und-kunstschlosserei-aUOqF0"
-    },
-    {
-      "label": "findglocal – Bauer Metallbau und Kunstschlosserei (Facebook-Spiegel)",
-      "url": "http://www.findglocal.com/DE/Tutzing/294836513905681/Bernhard-Bauer-Metallbau-und-Kunstschlosserei"
+      "label": "fensterversand.com – Fenster- und Türenmontage Kuster (Monteursprofil)",
+      "url": "https://www.fensterversand.com/fenstermonteure/fenster--und-tuerenmontage-kuster-emmering-5783.php"
     }
   ],
   "site": {
     "theme": "werk",
     "category": "handwerk",
     "heroOffer": [
-      "Geländer",
-      "Zäune",
-      "Tore",
-      "Balkone",
-      "Kunstschlosserei"
+      "Fenstertausch",
+      "Türenmontage",
+      "Aufmaß",
+      "Entsorgung",
+      "Verfugen"
     ],
     "scene": "facade",
     "logoIcon": "house",
-    "logoMark": "BM",
-    "brandName": "Bauer Metallbau",
-    "seoTitle": "Metallbau in Tutzing – Bauer Metallbau",
-    "seoDescription": "Geländer, Zäune, Tore und Balkonanlagen aus Metall – gefertigt in Tutzing für den Starnberger See. Jetzt Anfrage mit Fotos schicken.",
+    "logoMark": "FT",
+    "brandName": "Fenster und Türenmontage",
+    "seoTitle": "Fenster- und Türenmontage in Oberschleißheim",
+    "seoDescription": "Fenster tauschen, Türen montieren, alte Elemente entsorgen – in Oberschleißheim und im Münchner Norden. Jetzt per WhatsApp anfragen.",
     "nav": [
       {
         "label": "Leistungen",
@@ -153,132 +139,132 @@
       }
     ],
     "hero": {
-      "eyebrow": "Metallbau · Tutzing",
-      "headline": "Metallbau und Kunstschlosserei in Tutzing",
-      "sub": "Geländer, Zäune und Tore nach Maß – aus der Werkstatt in der Gröschlstraße.",
-      "ctaPrimary": "Projekt anfragen",
+      "eyebrow": "Fenster & Türen · Oberschleißheim",
+      "headline": "Neue Fenster, sauber eingebaut",
+      "sub": "Aufmaß, Ausbau, Einbau und Verfugen – Ihre Fenster und Türen aus einer Hand.",
+      "ctaPrimary": "Montage anfragen",
       "ctaSecondary": "Anrufen",
       "bullets": [
-        "Werkstatt in Tutzing",
-        "Fertigung nach Maß",
-        "Auch Reparaturen"
+        "Fenster und Türen tauschen",
+        "Alte Elemente entsorgt",
+        "Direkt per Handy erreichbar"
       ],
-      "imageLabel": "geschmiedetes Treppengeländer aus Stahl an einer Hauseingangstreppe"
+      "imageLabel": "neu eingebautes Kunststofffenster mit frischer Anschlussfuge"
     },
     "badges": [
       {
-        "title": "Geländer",
-        "sub": "Treppe & Balkon"
+        "title": "Fenster",
+        "sub": "Tausch & Montage"
       },
       {
-        "title": "Zäune & Tore",
-        "sub": "auch Schranken"
+        "title": "Türen",
+        "sub": "Einbau"
       },
       {
-        "title": "Kunstschlosserei",
-        "sub": "Einzelstücke"
+        "title": "Entsorgung",
+        "sub": "alte Elemente"
       },
       {
-        "title": "Tutzing",
-        "sub": "Gröschlstraße"
+        "title": "Oberschleißheim",
+        "sub": "Münchner Norden"
       }
     ],
     "trust": [
       {
-        "value": "Werkstatt",
-        "label": "in Tutzing"
+        "value": "A–Z",
+        "label": "Aufmaß bis Entsorgung"
       },
       {
-        "value": "Nach Maß",
-        "label": "für Ihr Haus gefertigt"
+        "value": "Mobil",
+        "label": "direkt erreichbar"
       },
       {
-        "value": "Innen & außen",
-        "label": "Treppe, Balkon, Einfahrt"
+        "value": "Fenster",
+        "label": "und Türen"
       },
       {
-        "value": "Reparatur",
-        "label": "auch an bestehenden Anlagen"
+        "value": "Vor Ort",
+        "label": "Oberschleißheim"
       }
     ],
     "servicesIntro": {
-      "headline": "Metall, das zu Ihrem Haus passt",
-      "text": "Vom Treppengeländer bis zum Einfahrtstor: Jedes Teil wird für Ihr Gebäude geplant, in Tutzing gefertigt und vor Ort montiert."
+      "headline": "Vom Aufmaß bis zur fertigen Fuge",
+      "text": "Alte Fenster raus, neue rein – inklusive Maß, Abdichtung und Abtransport. Auch wenn Sie die Elemente selbst bestellt haben."
     },
     "services": [
       {
-        "title": "Treppengeländer",
-        "text": "Geländer für Innen- und Außentreppen – gerade, gebogen oder mit Zierelementen, passend zu Stufen und Haus.",
+        "title": "Fenstertausch",
+        "text": "Alte Fenster werden ausgebaut und neue passgenau eingesetzt – Raum für Raum, mit wenig Schmutz.",
         "items": [
-          "Innentreppen",
-          "Außentreppen",
-          "Handläufe"
+          "Ausbau",
+          "Einbau",
+          "Ausrichten"
         ]
       },
       {
-        "title": "Balkonanlagen",
-        "text": "Balkongeländer und Balkonanlagen aus Metall, abgestimmt auf Fassade und Aussicht.",
+        "title": "Fenstermontage",
+        "text": "Neue Fenster im Neubau oder nach Online-Kauf werden fachgerecht montiert und befestigt.",
         "items": [
-          "Balkongeländer",
-          "Brüstungen",
-          "Montage vor Ort"
+          "Neubau",
+          "Bestand",
+          "Online gekaufte Fenster"
         ]
       },
       {
-        "title": "Zaunbau",
-        "text": "Zäune aus Metall für Grundstück und Garten – stabil, langlebig und im gewünschten Design.",
+        "title": "Türenmontage",
+        "text": "Innen- und Außentüren werden eingesetzt, ausgerichtet und gangbar übergeben.",
         "items": [
-          "Gartenzäune",
-          "Grundstückseinfassung",
-          "Pforten"
+          "Innentüren",
+          "Außentüren",
+          "Einstellen"
         ]
       },
       {
-        "title": "Tore & Schranken",
-        "text": "Einfahrtstore und Schrankenanlagen nach Maß, damit Zufahrt und Grundstück sicher abgeschlossen sind.",
+        "title": "Aufmaß",
+        "text": "Vor der Bestellung wird genau gemessen – damit die neuen Elemente wirklich passen.",
         "items": [
-          "Einfahrtstore",
-          "Schranken",
-          "Gartentore"
+          "Maße nehmen",
+          "Beratung",
+          "Bestellhilfe"
         ]
       },
       {
-        "title": "Kunstschlosserei",
-        "text": "Einzelstücke mit handwerklichen Details – für alle, die mehr wollen als Ware von der Stange.",
+        "title": "Demontage & Entsorgung",
+        "text": "Die alten Fenster und Türen werden ausgebaut und abtransportiert – Sie müssen nichts selbst wegbringen.",
         "items": [
-          "Zierelemente",
-          "Einzelanfertigungen",
-          "Türen aus Metall"
+          "Ausbau",
+          "Abtransport",
+          "Entsorgung"
         ]
       },
       {
-        "title": "Reparatur & Instandsetzung",
-        "text": "Bestehende Geländer, Tore und Anlagen werden repariert, statt sie gleich zu ersetzen.",
+        "title": "Verfugen & Abdichten",
+        "text": "Saubere Anschlussfugen halten Zugluft und Feuchtigkeit draußen.",
         "items": [
-          "Geländer richten",
-          "Tore instand setzen",
-          "Ersatzteile anfertigen"
+          "Anschlussfugen",
+          "Abdichtung",
+          "Sauberer Abschluss"
         ]
       }
     ],
     "why": {
-      "headline": "Metallbau aus Tutzing – geplant, gefertigt, montiert.",
+      "headline": "Fenster und Türen tauschen – ohne Umwege.",
       "points": [
         {
-          "title": "Eigene Werkstatt",
-          "text": "Gefertigt wird in der Gröschlstraße in Tutzing – kurze Wege von der Werkbank bis zur Baustelle."
+          "title": "Ein Ansprechpartner",
+          "text": "Aufmaß, Ausbau, Einbau und Entsorgung laufen über einen Monteur."
         },
         {
-          "title": "Maß statt Katalog",
-          "text": "Jedes Geländer und jedes Tor wird für Ihr Gebäude geplant."
+          "title": "Auch für Selbstbesteller",
+          "text": "Sie haben Fenster online gekauft? Die Montage übernimmt der Betrieb."
         },
         {
-          "title": "Alles aus einer Hand",
-          "text": "Zaun, Tor und Geländer kommen aus derselben Werkstatt und passen zueinander."
+          "title": "Nichts bleibt liegen",
+          "text": "Alte Fenster und Türen werden mitgenommen und entsorgt."
         },
         {
-          "title": "Reparatur möglich",
-          "text": "Auch bestehende Anlagen werden instand gesetzt, wenn sich das lohnt."
+          "title": "Schnell erreichbar",
+          "text": "Fotos und Maße per WhatsApp schicken – Sie bekommen direkt Rückmeldung."
         }
       ]
     },
@@ -286,117 +272,116 @@
       "headline": "Was Kunden sagen",
       "summary": "Kundenstimmen werden hier eingebunden, sobald sie aus dem Google-Profil übernommen sind.",
       "highlights": [
-        "Metallbau in Tutzing",
-        "Geländer, Zäune und Tore",
-        "Fertigung nach Maß"
+        "Fenstertausch",
+        "Türenmontage",
+        "Direkter Kontakt"
       ],
       "source": "Google",
-      "sourceUrl": "https://www.google.com/maps/search/?api=1&query=Bauer%20Metallbau%20Gröschlstraße%2010%20Tutzing",
+      "sourceUrl": "https://www.google.com/maps/search/?api=1&query=Fenster%20und%20T%C3%BCrenmontage%20Am%20Fohlengarten%206%20Oberschlei%C3%9Fheim",
       "rating": null,
       "count": null
     },
     "process": {
-      "headline": "So entsteht Ihr Geländer oder Tor",
+      "headline": "In vier Schritten zu neuen Fenstern",
       "steps": [
         {
-          "title": "Anfrage",
-          "text": "Fotos, grobe Maße und Ihre Idee schicken – oder kurz anrufen."
+          "title": "Fotos schicken",
+          "text": "Fotos der alten Fenster und grobe Maße per WhatsApp senden."
         },
         {
           "title": "Aufmaß",
-          "text": "Vor Ort werden Maße, Befestigung und Gestaltung abgestimmt."
+          "text": "Vor Ort wird exakt gemessen und das Vorgehen abgestimmt."
         },
         {
-          "title": "Fertigung",
-          "text": "Das Bauteil entsteht in der Werkstatt in Tutzing."
+          "title": "Angebot",
+          "text": "Sie erhalten ein klares Angebot für Montage und Entsorgung."
         },
         {
-          "title": "Montage",
-          "text": "Einbau vor Ort und Übergabe des fertigen Bauteils."
+          "title": "Einbau",
+          "text": "Ausbau, Einbau, Verfugen – und die alten Elemente nehmen wir mit."
         }
       ]
     },
     "gallery": {
-      "headline": "Arbeiten aus der Werkstatt",
+      "headline": "Fenster und Türen aus der Region",
       "text": "Für die Live-Version zeigen wir hier echte Projekte des Betriebs.",
       "items": [
         {
-          "title": "Treppengeländer",
-          "photoNeeded": "Stahlgeländer an einer Außentreppe"
+          "title": "Fenstertausch",
+          "photoNeeded": "vorher/nachher eines getauschten Wohnzimmerfensters"
         },
         {
-          "title": "Balkon",
-          "photoNeeded": "Balkongeländer aus Metall an einer Hausfassade"
+          "title": "Neue Haustür",
+          "photoNeeded": "montierte Außentür von außen"
         },
         {
-          "title": "Einfahrtstor",
-          "photoNeeded": "Metalltor an einer Grundstückseinfahrt"
+          "title": "Saubere Fuge",
+          "photoNeeded": "Nahaufnahme der Anschlussfuge am neuen Fenster"
         },
         {
-          "title": "Gartenzaun",
-          "photoNeeded": "Metallzaun mit Pforte am Garten"
+          "title": "Innentür",
+          "photoNeeded": "neu eingesetzte Innentür mit Zarge"
         },
         {
-          "title": "Kunstschlosserei",
-          "photoNeeded": "geschmiedetes Zierelement in Nahaufnahme"
+          "title": "Ausbau",
+          "photoNeeded": "ausgebaute Altfenster bereit zum Abtransport"
         }
       ]
     },
     "region": {
-      "headline": "Metallbau für Tutzing und das Westufer",
-      "text": "Von Tutzing aus nach Bernried, Feldafing, Pöcking, Starnberg und Seeshaupt.",
+      "headline": "Fenstermontage im Münchner Norden",
+      "text": "Von Oberschleißheim aus in Unterschleißheim, Lohhof, Garching, Feldmoching und Dachau.",
       "places": [
-        "Tutzing",
-        "Bernried",
-        "Feldafing",
-        "Pöcking",
-        "Starnberg",
-        "Seeshaupt"
+        "Oberschleißheim",
+        "Unterschleißheim",
+        "Lohhof",
+        "Garching",
+        "Feldmoching",
+        "Dachau"
       ]
     },
     "faq": [
       {
-        "q": "Fertigen Sie auch Einzelstücke?",
-        "a": "Ja, Kunstschlosserei und Metallarbeiten nach Maß gehören zum Angebot."
+        "q": "Montieren Sie auch Fenster, die ich selbst gekauft habe?",
+        "a": "Ja, die Montage selbst bestellter Fenster und Türen ist möglich. Am besten vorab Maße und Hersteller durchgeben."
+      },
+      {
+        "q": "Nehmen Sie die alten Fenster mit?",
+        "a": "Ja, Demontage und Entsorgung der alten Elemente gehören dazu."
+      },
+      {
+        "q": "Messen Sie vor der Bestellung aus?",
+        "a": "Ja, ein Aufmaß vor Ort sorgt dafür, dass die neuen Elemente passen."
       },
       {
         "q": "Kann ich vorab Fotos schicken?",
-        "a": "Ja, Fotos und grobe Maße helfen für eine erste Einschätzung."
+        "a": "Ja, Fotos und grobe Maße per WhatsApp reichen für eine erste Einschätzung."
       },
       {
-        "q": "Reparieren Sie auch alte Geländer und Tore?",
-        "a": "Ja, bestehende Anlagen werden repariert, wenn sich das lohnt."
-      },
-      {
-        "q": "Bauen Sie auch Tore und Schranken?",
-        "a": "Ja, Tor- und Schrankenanlagen werden nach Maß gefertigt."
-      },
-      {
-        "q": "Arbeiten Sie auch außerhalb von Tutzing?",
-        "a": "Ja, im Umkreis von Tutzing – fragen Sie einfach an."
+        "q": "Wo arbeiten Sie?",
+        "a": "In Oberschleißheim und im Münchner Norden – fragen Sie für Ihren Ort einfach an."
       }
     ],
     "contact": {
-      "headline": "Ihr Metallprojekt – kurz beschreiben",
-      "text": "Was soll entstehen: Geländer, Zaun, Tor, Balkon oder Reparatur? Fotos vom Einbauort und grobe Maße helfen.",
+      "headline": "Fenster oder Türen tauschen? Jetzt anfragen",
+      "text": "Schreiben Sie kurz, wie viele Fenster oder Türen getauscht werden sollen und ob die neuen Elemente schon bestellt sind. Fotos helfen.",
       "topics": [
-        "Treppengeländer",
-        "Balkonanlage",
-        "Zaun",
-        "Tor / Schranke",
-        "Reparatur",
+        "Fenstertausch",
+        "Fenstermontage",
+        "Türenmontage",
+        "Aufmaß",
+        "Entsorgung",
         "Sonstiges"
       ],
-      "responseNote": "Aufmaß vor Ort nach Absprache."
+      "responseNote": "Aufmaß-Termin nach Absprache."
     },
     "quote": {
-      "sizeLabel": "Was soll gefertigt werden?",
+      "sizeLabel": "Wie viele Elemente?",
       "sizes": [
-        "Ein Geländer",
-        "Zaun oder Tor",
-        "Balkonanlage",
-        "Reparatur",
-        "Einzelstück"
+        "1–2 Fenster",
+        "3–6 Fenster",
+        "Ganzes Haus",
+        "Tür(en)"
       ],
       "timings": [
         "So bald wie möglich",
@@ -405,15 +390,21 @@
         "Ich plane erst noch"
       ]
     },
-    "stickyCta": "Projekt anfragen",
+    "stickyCta": "Montage anfragen",
     "look": {
-      "palette": 2,
-      "font": 6,
-      "hero": 0,
-      "services": 1,
-      "radius": 1,
-      "logo": 0,
-      "intro": 5
+      "skin": "kante",
+      "palette": 1,
+      "font": 12,
+      "hero": 4,
+      "services": 0,
+      "radius": 3,
+      "logo": 2,
+      "intro": 1,
+      "projects": 0,
+      "process": 0,
+      "faq": 2,
+      "reviews": 0,
+      "order": 0
     }
   }
 }

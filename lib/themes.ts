@@ -1,7 +1,7 @@
 import type { CSSProperties } from "react";
 import type { ThemeKey } from "./types";
 
-export type HeroVariant = "editorial" | "panel" | "fullbleed" | "split" | "organic" | "banner" | "stack" | "mosaic" | "card" | "minimal";
+export type HeroVariant = "editorial" | "panel" | "fullbleed" | "split" | "organic" | "banner" | "stack" | "mosaic" | "card" | "minimal" | "kante";
 export type ServicesVariant = "cards" | "numbered" | "tiles" | "feature" | "split" | "rows";
 
 export interface Theme {

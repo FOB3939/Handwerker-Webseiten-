@@ -24,6 +24,8 @@ export interface Identity extends Theme {
   /** Startwert für den generativen Hintergrund – je Betrieb eindeutig */
   seed: number;
   name: string;
+  /** Seitenstil – "kante": dunkel, Versal-Überschrift, eckige Buttons */
+  skin?: "kante";
 }
 
 interface Palette {
@@ -180,11 +182,58 @@ function family(lead: Lead): string {
 
 // Feste Zuteilung pro Tagesrunde (scripts/assign-looks.mjs schreibt site.look), damit innerhalb
 // einer Runde keine zwei Seiten gleich aussehen. Ohne look entscheidet der Slug-Hash.
-type Look = { palette?: number; font?: number; hero?: number; services?: number; radius?: number; logo?: number; intro?: number; projects?: number; process?: number; faq?: number; reviews?: number; order?: number };
+type Look = { skin?: string; palette?: number; font?: number; hero?: number; services?: number; radius?: number; logo?: number; intro?: number; projects?: number; process?: number; faq?: number; reviews?: number; order?: number };
 const at = <T,>(arr: T[], i: number | undefined, s: string, salt: number) => (i === undefined ? pick(arr, s, salt) : arr[i % arr.length]);
 
 export function familyOf(lead: Lead) {
   return family(lead);
+}
+
+// „Kante“: dunkler, kantiger Stil (schmale Versal-Überschrift, Schreibmaschinen-Zeilen, eckige Buttons).
+// Gleiche Familie/Palette wie sonst, nur auf dunklem Grund – der Akzent bleibt je Betrieb eigen.
+const KANTE_FONTS: Fonts[] = [
+  F('"Barlow Condensed"', '"Barlow"', g("family=Barlow+Condensed:wght@700;800&family=Barlow:wght@400;500;600;700&family=JetBrains+Mono:wght@500;700"), true),
+  F('"Big Shoulders Display"', '"Work Sans"', g("family=Big+Shoulders+Display:wght@800;900&family=Work+Sans:wght@400;500;600;700&family=JetBrains+Mono:wght@500;700"), true),
+  F('"Oswald"', '"Hanken Grotesk"', g("family=Oswald:wght@600;700&family=Hanken+Grotesk:wght@400;500;600;700&family=IBM+Plex+Mono:wght@500;700"), true),
+  F('"Anton"', '"Rethink Sans"', g("family=Anton&family=Rethink+Sans:wght@400;500;600;700&family=IBM+Plex+Mono:wght@500;700"), true),
+  F('"Saira Condensed"', '"Saira"', g("family=Saira+Condensed:wght@700;800&family=Saira:wght@400;500;600;700&family=JetBrains+Mono:wght@500;700"), true),
+];
+function hsl([r, g, b]: number[]): [number, number, number] {
+  r /= 255; g /= 255; b /= 255;
+  const mx = Math.max(r, g, b), mn = Math.min(r, g, b), l = (mx + mn) / 2, d = mx - mn;
+  if (!d) return [0, 0, l];
+  const sat = d / (1 - Math.abs(2 * l - 1));
+  const h = mx === r ? ((g - b) / d + (g < b ? 6 : 0)) : mx === g ? (b - r) / d + 2 : (r - g) / d + 4;
+  return [h * 60, sat, l];
+}
+function fromHsl(h: number, sat: number, l: number): number[] {
+  const c = (1 - Math.abs(2 * l - 1)) * sat, x = c * (1 - Math.abs(((h / 60) % 2) - 1)), m = l - c / 2;
+  const [r, g, b] = h < 60 ? [c, x, 0] : h < 120 ? [x, c, 0] : h < 180 ? [0, c, x] : h < 240 ? [0, x, c] : h < 300 ? [x, 0, c] : [c, 0, x];
+  return [r, g, b].map((v) => Math.round((v + m) * 255));
+}
+const mix = (a: number[], b: number[], t: number) => a.map((v, i) => Math.round(v + (b[i] - v) * t));
+function kanteVars(pal: Palette, fonts: Fonts): Record<string, string> {
+  const dark = trip(rgb(pal.dark)), ink = trip(rgb(pal.darkInk));
+  const bg = mix(dark, [0, 0, 0], 0.45), surface = mix(bg, [255, 255, 255], 0.07), deep = mix(dark, [0, 0, 0], 0.72);
+  // Akzent muss auf dem dunklen Grund leuchten: erst Palette durchgehen, sonst aufhellen
+  // Akzent soll auf Dunkel kräftig leuchten: erster farbige Ton der Palette, Sättigung angehoben, Helligkeit bis Kontrast ≥ 4,8:1
+  const cands = [pal.accent, ...pal.scene].map((h) => trip(rgb(h)));
+  const base = cands.find((c) => hsl(c)[1] >= 0.25) ?? cands[0];
+  const [h, sat, l0] = hsl(base);
+  let acc = trip(readable(base, [bg, surface], 255));
+  for (let l = Math.max(l0, 0.4); l <= 0.92; l += 0.02) {
+    const c = fromHsl(h, Math.max(sat, 0.62), l);
+    if (ratio(c, bg) >= 4.8 && ratio(c, surface) >= 4.8) { acc = c; break; }
+  }
+  const accentInk = ratio([255, 255, 255], acc) >= 4.5 ? "255 255 255" : "17 17 17";
+  const mono = /IBM\+Plex/.test(fonts.href) ? '"IBM Plex Mono"' : '"JetBrains Mono"';
+  return {
+    bg: bg.join(" "), surface: surface.join(" "), ink: ink.join(" "), muted: readable(mix(ink, bg, 0.35), [bg, surface], 255), line: mix(bg, ink, 0.16).join(" "),
+    accent: acc.join(" "), "accent-ink": accentInk, "accent-text": acc.join(" "), "accent-text-dark": readable(acc, [deep], 255),
+    dark: deep.join(" "), "dark-ink": ink.join(" "),
+    "font-display": `${fonts.display}, var(--font-condensed)`, "font-body": `${fonts.body}, var(--font-sans)`, "font-mono": `${mono}, ui-monospace, monospace`,
+    "h1-cw": "0.5", radius: "0px",
+  };
 }
 
 export function resolveTheme(lead: Lead): Identity {
@@ -194,15 +243,17 @@ export function resolveTheme(lead: Lead): Identity {
   const s = lead.slug;
   const look: Look = (lead.site as { look?: Look }).look ?? {};
   const pal = at(PALETTES[family(lead)], look.palette, s, 1);
-  const fonts = at(FONTS, look.font, s, 2);
+  const kante = look.skin === "kante";
+  const fonts = kante ? at(KANTE_FONTS, look.font, s, 2) : at(FONTS, look.font, s, 2);
   return {
-    vars: withReadableColors({
+    vars: kante ? kanteVars(pal, fonts) : withReadableColors({
       bg: rgb(pal.bg), surface: rgb(pal.surface), ink: rgb(pal.ink), muted: rgb(pal.muted), line: rgb(pal.line),
       accent: rgb(pal.accent), "accent-ink": rgb(pal.accentInk), dark: rgb(pal.dark), "dark-ink": rgb(pal.darkInk),
       "font-display": `${fonts.display}, var(--font-sans)`, "font-body": `${fonts.body}, var(--font-sans)`, "h1-cw": charWidth(fonts.display),
       radius: at(RADII, look.radius, s, 3),
     }),
-    hero: at(HEROES, look.hero, s, 4),
+    hero: kante ? "kante" : at(HEROES, look.hero, s, 4),
+    skin: kante ? "kante" : undefined,
     services: at(SERVICES, look.services, s, 5),
     displayCase: fonts.upper ? "upper" : "normal",
     palette: pal.scene,

@@ -60,7 +60,7 @@ export default function DemoSite({ lead }: { lead: Lead }) {
   if (!ctx.hof) ctx.fx = fxFor(company.trade, familyOf(lead));
   const game = ctx.hof ? null : gameFor(company.trade, ctx.fx);
   // Hero-Varianten mit eingebauter Schnellanfrage (dann entfällt der separate Anfrage-Abschnitt)
-  const heroHasForm = !ctx.hof && ["fullbleed", "split", "minimal", "panel"].includes(theme.hero);
+  const heroHasForm = !ctx.hof && ["fullbleed", "split", "minimal", "panel", "kante"].includes(theme.hero);
   const divider = ctx.fx ? <TradeDivider kind={ctx.fx} /> : null;
   const sections: Record<SectionKey, ReactNode> = {
     badges: <Badges {...ctx} />,
@@ -80,7 +80,7 @@ export default function DemoSite({ lead }: { lead: Lead }) {
   };
 
   return (
-    <div data-identity={theme.name} data-mfx={game ? MFX[game][theme.order % MFX[game].length] : undefined} data-seed={theme.seed} data-pal={theme.palette.join(",")} data-3d={ctx.hof ? undefined : style3d(theme.services)} style={themeStyle(theme)} className="min-h-screen bg-t-bg font-body text-t-ink antialiased">
+    <div data-identity={theme.name} data-skin={theme.skin} data-mfx={game ? MFX[game][theme.order % MFX[game].length] : undefined} data-seed={theme.seed} data-pal={theme.palette.join(",")} data-3d={ctx.hof ? undefined : style3d(theme.services)} style={themeStyle(theme)} className="min-h-screen bg-t-bg font-body text-t-ink antialiased">
       <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="" />
       <link rel="stylesheet" href={theme.fontsHref} precedence="default" />
       <div className="scroll-progress fixed inset-x-0 top-0 z-[55] h-1 bg-t-accent" aria-hidden="true" />
@@ -254,6 +254,8 @@ function Hero({ lead, theme, call, upper, hof, fx }: Ctx) {
   const art = (cls: string, seed = 0) => heroPhoto && heroSrc
     ? <Photo photo={heroPhoto} src={heroSrc} className={cls} eager badge={false} />
     : <Scene kind={scene} palette={theme.palette} label={hero.imageLabel} seed={seed} className={cls} />;
+
+  if (theme.hero === "kante") return <KanteHero lead={lead} call={call} art={art} sig={sig} />;
 
   if (theme.hero === "editorial") {
     return (
@@ -544,6 +546,50 @@ function Marquee({ lead }: Ctx) {
 
 // Verkleinert die Hero-Überschrift, wenn ein einzelnes Wort sehr lang ist (z. B. „Hausmeisterservice“),
 // damit es nicht mitten im Wort umbricht.
+// Kante-Hero: dunkle Fläche mit gedämpftem Motiv und Raster, Schreibmaschinen-Zeilen in Klammern,
+// schmale Versal-Überschrift mit farbigem Schlusswort, eckige Buttons über volle Breite.
+function KanteHero({ lead, call, art, sig }: { lead: Lead; call: string; art: (cls: string, seed?: number) => ReactNode; sig: ReactNode }) {
+  const { hero } = lead.site;
+  const { company } = lead;
+  const words = hero.headline.trim().split(/\s+/);
+  const last = words.pop() ?? "";
+  // Längstes Wort bestimmt die Schriftgröße, damit nichts abgeschnitten oder getrennt wird
+  const longest = Math.max(...hero.headline.replace(/[\u00ad.,–!?:]/g, " ").split(/\s+/).map((w) => w.length));
+  const area = company.serviceArea.filter((x) => x !== company.city && !/umgebung/i.test(x))[0];
+  const status = [company.phone ? `${/^(\+49\s?|0)1[5-7]/.test(company.phone) ? "Mobil" : "Telefon"} ${company.phone}` : null, company.email ? "Anfrage per E-Mail" : "Anfrage per Formular"].filter(Boolean).join(" · ");
+  return (
+    <section className="kante-hero relative isolate overflow-hidden bg-t-dark text-t-dark-ink">
+      {sig}
+      <div className="absolute inset-0 -z-10 overflow-hidden"><div data-parallax="0.15" className="h-full w-full opacity-40 saturate-50">{art("absolute inset-0 h-full w-full", 1)}</div></div>
+      <div className="absolute inset-0 -z-10 bg-gradient-to-b from-black/55 via-black/75 to-black/90" />
+      <div className="kante-grid absolute inset-0 -z-10" aria-hidden="true" />
+      <div className="mx-auto grid max-w-site items-start gap-10 px-4 pb-16 pt-10 sm:px-6 lg:grid-cols-12 lg:pb-24 lg:pt-16">
+        <div className="hero-in lg:col-span-7">
+          <p className="kante-mono text-[13px] uppercase leading-relaxed tracking-[0.16em] text-t-dark-ink/85">[ {company.trade} für {company.city}{area ? ` & ${area}` : ""} ]</p>
+          <p className="kante-mono mt-5 flex items-center gap-2.5 border-b border-white/15 pb-4 text-[12px] uppercase tracking-[0.14em] text-t-dark-ink/85 sm:text-[13px]">
+            <span className="kante-dot h-2.5 w-2.5 shrink-0 rounded-full bg-t-accent" aria-hidden="true" />{status}
+          </p>
+          <h1 style={{ "--L": longest } as CSSProperties} className="kante-h1 mt-5 font-display font-extrabold uppercase leading-[0.92] tracking-tight">
+            {words.join(" ")} <span className="text-t-accent">{last}</span>
+          </h1>
+          <p className="mt-7 max-w-xl text-lg leading-relaxed text-t-dark-ink/85 sm:text-xl">{shortSub(hero.sub)}</p>
+          <div className="mt-9 grid max-w-xl gap-3">
+            <a href="#anfrage" className="kante-btn btn-shine flex min-h-[64px] items-center justify-between gap-4 bg-t-accent px-7 text-t-accent-ink transition hover:brightness-110">
+              <span>{hero.ctaPrimary}</span><span aria-hidden="true" className="text-2xl leading-none">→</span>
+            </a>
+            {company.phone && (
+              <a href={call} className="kante-btn flex min-h-[64px] items-center justify-between gap-4 border border-white/35 px-7 text-t-dark-ink transition hover:bg-white/10">
+                <span>Jetzt anrufen</span><span aria-hidden="true"><PhoneIcon /></span>
+              </a>
+            )}
+          </div>
+        </div>
+        <div id="anfrage" className="hero-media scroll-mt-24 lg:col-span-5 lg:pt-12"><QuickRequest {...quoteProps(lead)} /></div>
+      </div>
+    </section>
+  );
+}
+
 function fitH1(headline: string, frac: number, className: string) {
   const longest = Math.max(...headline.replace(/[\u00ad.,–!?:]/g, " ").split(/\s+/).map((w) => w.length));
   // Breite Versalien (nicht die schmale Banner-Schrift) brauchen mehr Platz pro Buchstabe.
@@ -1326,7 +1372,17 @@ function localBusiness(lead: Lead) {
   return data;
 }
 
-function StickyBar({ lead, call }: Ctx) {
+function StickyBar({ lead, call, theme }: Ctx) {
+  if (theme.skin === "kante") {
+    return (
+      <div className="fixed inset-x-0 bottom-0 z-40 flex border-t border-white/10 bg-t-dark md:hidden">
+        {lead.company.phone && (
+          <a href={call} className="kante-btn flex min-h-[60px] flex-1 items-center justify-center gap-2 text-t-dark-ink"><PhoneIcon /> Anrufen</a>
+        )}
+        <a href="#anfrage" className="kante-btn flex min-h-[60px] flex-[1.3] items-center justify-center bg-t-accent px-3 text-t-accent-ink">{lead.site.stickyCta}</a>
+      </div>
+    );
+  }
   return (
     <div className="fixed inset-x-0 bottom-0 z-40 border-t border-t-line bg-t-surface/95 p-3 shadow-[0_-8px_24px_rgba(0,0,0,0.08)] backdrop-blur md:hidden">
       <div className="flex gap-2">

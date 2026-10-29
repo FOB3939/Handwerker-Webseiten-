@@ -2278,6 +2278,126 @@
       "googleLink": "https://www.google.com/maps/search/?api=1&query=Franz%20Achatz%20Schreinerei%20Kummereck%201%20Dorfen",
       "googleVerified": false,
       "reserve": false
+    },
+    {
+      "company": "Malerbetrieb Reinhard Kefer",
+      "slug": "malerbetrieb-reinhard-kefer-tutzing",
+      "trade": "Malerbetrieb",
+      "city": "Tutzing",
+      "date": "2026-10-29",
+      "phone": "08157 900030",
+      "email": "reinhard.kefer@t-online.de",
+      "googleLink": "https://www.google.com/maps/search/?api=1&query=Reinhard%20Kefer%20Maler%20Andechser%20Str.%2022%20Tutzing",
+      "googleVerified": false,
+      "reserve": false
+    },
+    {
+      "company": "BS Schmidt Badsanierung",
+      "slug": "bs-schmidt-badsanierung-murnau",
+      "trade": "Badsanierung & Fliesen",
+      "city": "Murnau am Staffelsee",
+      "date": "2026-10-29",
+      "phone": "0178 5397442",
+      "email": null,
+      "googleLink": "https://www.google.com/maps/search/?api=1&query=BS%20Schmidt%20Badsanierung%20Sch%C3%BCtzenplatz%207A%20Murnau",
+      "googleVerified": false,
+      "reserve": true
+    },
+    {
+      "company": "Malermeister Tony Vogel",
+      "slug": "malermeister-tony-vogel-landsberg-am-lech",
+      "trade": "Malerbetrieb",
+      "city": "Landsberg am Lech",
+      "date": "2026-10-29",
+      "phone": "08191 4018899",
+      "email": "tony-vogel@gmx.de",
+      "googleLink": "https://www.google.com/maps/search/?api=1&query=Malermeister%20Tony%20Vogel%20M%C3%BChlweg%2014%20Landsberg%20am%20Lech",
+      "googleVerified": false,
+      "reserve": false
+    },
+    {
+      "company": "EMC Haustechnik",
+      "slug": "emc-haustechnik-oberschleissheim",
+      "trade": "Sanitär & Heizung",
+      "city": "Oberschleißheim",
+      "date": "2026-10-29",
+      "phone": "0173 7174617",
+      "email": null,
+      "googleLink": "https://www.google.com/maps/search/?api=1&query=EMC%20Haustechnik%20Dachauer%20Str.%2011c%20Oberschlei%C3%9Fheim",
+      "googleVerified": false,
+      "reserve": false
+    },
+    {
+      "company": "Fenster und Türenmontage",
+      "slug": "fenster-und-tuerenmontage-oberschleissheim",
+      "trade": "Fenster- und Türenmontage",
+      "city": "Oberschleißheim",
+      "date": "2026-10-29",
+      "phone": "0179 7286165",
+      "email": "kusterkristijan43@gmail.com",
+      "googleLink": "https://www.google.com/maps/search/?api=1&query=Fenster%20und%20T%C3%BCrenmontage%20Am%20Fohlengarten%206%20Oberschlei%C3%9Fheim",
+      "googleVerified": false,
+      "reserve": false
+    },
+    {
+      "company": "MUJA Haus Garten Service",
+      "slug": "muja-haus-garten-service-seefeld",
+      "trade": "Hausmeisterservice & Gartenpflege",
+      "city": "Seefeld",
+      "date": "2026-10-29",
+      "phone": "0178 1487421",
+      "email": "besnikislami75@gmail.com",
+      "googleLink": "https://www.google.com/maps/search/?api=1&query=Haus%20Garten%20Service%20Muja%20Hauptstr.%2028%20Seefeld",
+      "googleVerified": false,
+      "reserve": false
+    },
+    {
+      "company": "GartenHans",
+      "slug": "gartenhans-merching",
+      "trade": "Garten- und Landschaftsbau",
+      "city": "Merching",
+      "date": "2026-10-29",
+      "phone": "01514 1229928",
+      "email": "gartenhans86504@web.de",
+      "googleLink": "https://www.google.com/maps/search/?api=1&query=GartenHans%20Zugspitzstr.%207%20Merching",
+      "googleVerified": false,
+      "reserve": false
+    },
+    {
+      "company": "Elektro Gstaiger",
+      "slug": "elektro-gstaiger-weilheim",
+      "trade": "Elektroinstallation",
+      "city": "Weilheim in Oberbayern",
+      "date": "2026-10-29",
+      "phone": "0881 9278243",
+      "email": null,
+      "googleLink": "https://www.google.com/maps/search/?api=1&query=Elektro%20Gstaiger%20Weinhartstr.%2028A%20Weilheim",
+      "googleVerified": false,
+      "reserve": false
+    },
+    {
+      "company": "Jürgen Weisser",
+      "slug": "maler-juergen-weisser-landsberg-am-lech",
+      "trade": "Malerbetrieb",
+      "city": "Landsberg am Lech",
+      "date": "2026-10-29",
+      "phone": "08191 4280035",
+      "email": "juergen_weisser@web.de",
+      "googleLink": "https://www.google.com/maps/search/?api=1&query=Jürgen%20Weisser%20Maler%20Spitalfeldstr.%2018%20Landsberg%20am%20Lech",
+      "googleVerified": false,
+      "reserve": false
+    },
+    {
+      "company": "Demaku Gebäudereinigung & Hausmeisterservice",
+      "slug": "demaku-gebaeudereinigung-peissenberg",
+      "trade": "Gebäudereinigung & Hausmeisterservice",
+      "city": "Peißenberg",
+      "date": "2026-10-29",
+      "phone": "01573 3721083",
+      "email": null,
+      "googleLink": "https://www.google.com/maps/search/?api=1&query=Demaku%20Gebäudereinigung%20Bachstraße%2067%20Peißenberg",
+      "googleVerified": false,
+      "reserve": false
     }
   ],
   "rejected": [
@@ -5579,6 +5699,186 @@
       "company": "Zimmerei Floßmann (Egling)",
       "reason": "eigene Website zimmereiflossmann.de",
       "date": "2026-10-28"
+    },
+    {
+      "company": "Killmaier Malermeister (Tutzing)",
+      "reason": "Website malermeister-killmaier.de im Verzeichnis",
+      "date": "2026-10-29"
+    },
+    {
+      "company": "Malerbetrieb Christian Rapa (Unterföhring)",
+      "reason": "Website maler-rapa.de laut 11880",
+      "date": "2026-10-29"
+    },
+    {
+      "company": "CM-Elektro (Schondorf)",
+      "reason": "E-Mail auf eigener Domain",
+      "date": "2026-10-29"
+    },
+    {
+      "company": "Alexander Hort Fliesenlegermeisterbetrieb (Ismaning)",
+      "reason": "eigene Website fliesenleger-hort.de",
+      "date": "2026-10-29"
+    },
+    {
+      "company": "Gartenwicht Frank Westermaier (Merching)",
+      "reason": "eigene Website der-gartenwicht.com",
+      "date": "2026-10-29"
+    },
+    {
+      "company": "Malermeister Rico Nedbal (Landsberg)",
+      "reason": "eigene Website maler-rico.de",
+      "date": "2026-10-29"
+    },
+    {
+      "company": "Fliesen & Natursteine Gaber (Friedberg)",
+      "reason": "eigene Website fliesenleger-aichach.de",
+      "date": "2026-10-29"
+    },
+    {
+      "company": "Mutter Gartenbau (Mering)",
+      "reason": "eigene Website mutter-gartenbau.de",
+      "date": "2026-10-29"
+    },
+    {
+      "company": "Jakob Gailler Fliesen Marmor (Dießen)",
+      "reason": "eigene Website jakobgailler.de",
+      "date": "2026-10-29"
+    },
+    {
+      "company": "Tobias Bühler Heizung Sanitär (Kaufering)",
+      "reason": "eigene Website buehler-haustechnik.de",
+      "date": "2026-10-29"
+    },
+    {
+      "company": "Kurt Horst Hanisch Sanitär + Heizung (Schwabmünchen)",
+      "reason": "Website hanisch-kurt.de laut 11880",
+      "date": "2026-10-29"
+    },
+    {
+      "company": "Fliesen Bretschneider (Friedberg)",
+      "reason": "GmbH",
+      "date": "2026-10-29"
+    },
+    {
+      "company": "Der Malerfuchs Malerbetrieb (Pürgen)",
+      "reason": "GmbH",
+      "date": "2026-10-29"
+    },
+    {
+      "company": "Avci Hausmeister Service (Peißenberg)",
+      "reason": "Baukasten-Seite avci-clean.jimdofree.com",
+      "date": "2026-10-29"
+    },
+    {
+      "company": "Gartenbau Falkner (Peißenberg)",
+      "reason": "eigene Website gartenbau-falkner.de",
+      "date": "2026-10-29"
+    },
+    {
+      "company": "SeBo's Gartenbauservice (Weilheim)",
+      "reason": "eigene Website sebos-gartenbauservice.de",
+      "date": "2026-10-29"
+    },
+    {
+      "company": "Garten und Landschaftsbau Oberland (Peißenberg)",
+      "reason": "eigene Website gartenservice-oberland.de",
+      "date": "2026-10-29"
+    },
+    {
+      "company": "Georg Fischer Malereibetrieb (Penzberg)",
+      "reason": "Website malerei-fischer.com",
+      "date": "2026-10-29"
+    },
+    {
+      "company": "Jürgen Mrosek Malerbetrieb (Penzberg)",
+      "reason": "Website maler-mrosek.de",
+      "date": "2026-10-29"
+    },
+    {
+      "company": "Malermeister Öz (Ismaning)",
+      "reason": "eigene Website malermeister-oez.de",
+      "date": "2026-10-29"
+    },
+    {
+      "company": "EAM Elektro (Garching)",
+      "reason": "eigene Website eam-elektro.com",
+      "date": "2026-10-29"
+    },
+    {
+      "company": "Hausmeisterservice Wieringer (Kirchheim)",
+      "reason": "eigene Website hms-wieringer.de",
+      "date": "2026-10-29"
+    },
+    {
+      "company": "Hausmeisterei Eichenseer (Heimstetten)",
+      "reason": "Eintrag geschlossen, Sitz München",
+      "date": "2026-10-29"
+    },
+    {
+      "company": "Franz Lohmaier Garten- und Landschaftsbau (Aschheim)",
+      "reason": "mögliche Website franz-lohmaier.de",
+      "date": "2026-10-29"
+    },
+    {
+      "company": "Günther Lohmaier Malereibetrieb (Ismaning)",
+      "reason": "E-Mail auf eigener Domain",
+      "date": "2026-10-29"
+    },
+    {
+      "company": "Kamm GmbH (Ismaning)",
+      "reason": "GmbH",
+      "date": "2026-10-29"
+    },
+    {
+      "company": "Richard Eder Malermeister (Starnberg)",
+      "reason": "eigene Website malermeister-richard-eder.de",
+      "date": "2026-10-29"
+    },
+    {
+      "company": "Schmuck Garten Robert Schmuck (Weßling)",
+      "reason": "eigene Website schmuck-garten.de",
+      "date": "2026-10-29"
+    },
+    {
+      "company": "Space-Workers (Inning)",
+      "reason": "eigene Website space-workers.de",
+      "date": "2026-10-29"
+    },
+    {
+      "company": "Elektro Noli (Herrsching)",
+      "reason": "Existenz nicht belegt",
+      "date": "2026-10-29"
+    },
+    {
+      "company": "Elektrotechnik Roscher (Andechs)",
+      "reason": "Homepage elektrotechnik-roscher.de im Verzeichnis",
+      "date": "2026-10-29"
+    },
+    {
+      "company": "EIV-Connect Elektro & IT-Service (Weilheim)",
+      "reason": "UG",
+      "date": "2026-10-29"
+    },
+    {
+      "company": "Andreas Schiller Gartengestaltung (Gilching)",
+      "reason": "eigene Website gartengestaltung-schiller.de",
+      "date": "2026-10-29"
+    },
+    {
+      "company": "Firat Garten und Landschaftsbau (Weilheim)",
+      "reason": "eigene Website firat-galabau.de",
+      "date": "2026-10-29"
+    },
+    {
+      "company": "Maler Mellmann (Pürgen)",
+      "reason": "eigene Website maler-mellmann.de",
+      "date": "2026-10-29"
+    },
+    {
+      "company": "Malermeister Marcel Schmid (Landsberg)",
+      "reason": "eigene Website malermeister-marcelschmid.de",
+      "date": "2026-10-29"
     }
   ]
 }

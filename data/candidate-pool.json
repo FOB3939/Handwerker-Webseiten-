@@ -104,28 +104,10 @@
    "hint": "08856 8053124, ungeprüft"
   },
   {
-   "name": "Gaber-Rehm Gerd",
-   "trade": "Maler",
-   "city": "Unterföhring",
-   "hint": "089 9581663, Eintrag alt, ungeprüft"
-  },
-  {
-   "name": "Malerbetrieb Christian Rapa",
-   "trade": "Maler",
-   "city": "Unterföhring",
-   "hint": "ungeprüft"
-  },
-  {
    "name": "Rainer Goetzke",
    "trade": "Maler und Tapezierer",
    "city": "Heimstetten",
    "hint": "089 66085677, ungeprüft"
-  },
-  {
-   "name": "Alexander Hort Fliesenlegermeisterbetrieb",
-   "trade": "Fliesenleger",
-   "city": "Ismaning",
-   "hint": "089 96147024, ungeprüft"
   },
   {
    "name": "Bavariahomeservice",
@@ -134,21 +116,9 @@
    "hint": "ungeprüft"
   },
   {
-   "name": "CM-Elektro",
-   "trade": "Elektro",
-   "city": "Schondorf",
-   "hint": "08192 9330995, ungeprüft"
-  },
-  {
    "name": "Lichtenstern Christoph",
    "trade": "Sanitär/Heizung",
    "city": "Steindorf",
-   "hint": "ungeprüft"
-  },
-  {
-   "name": "Gartenwicht Frank Westermaier",
-   "trade": "GaLaBau",
-   "city": "Merching",
    "hint": "ungeprüft"
   },
   {
@@ -156,30 +126,6 @@
    "trade": "Trockenbau",
    "city": "Dießen",
    "hint": "ungeprüft"
-  },
-  {
-   "name": "Andreas Hierholzer e.K.",
-   "trade": "Sanitär/Heizung",
-   "city": "Weßling",
-   "hint": "08153 3498, ungeprüft"
-  },
-  {
-   "name": "Killmaier Malermeister",
-   "trade": "Maler",
-   "city": "Tutzing",
-   "hint": "08157 9990044, ungeprüft"
-  },
-  {
-   "name": "Reinhard Kefer",
-   "trade": "Maler",
-   "city": "Tutzing",
-   "hint": "08157 900030, ungeprüft"
-  },
-  {
-   "name": "Theodor Aumiller",
-   "trade": "Elektro",
-   "city": "Wörthsee",
-   "hint": "08153 8613, ungeprüft"
   },
   {
    "name": "Alexander Pechler Spenglerei und Bedachung",
@@ -246,12 +192,6 @@
    "trade": "Metallbau",
    "city": "Gauting",
    "hint": "089 45226146; ungeprüft"
-  },
-  {
-   "name": "Edo Vidas Heizung-Sanitär",
-   "trade": "Heizung & Sanitär",
-   "city": "Weßling",
-   "hint": "08153 4131; ungeprüft"
   },
   {
    "name": "Ilir Metaj Hausmeister und Gebäudedienstleistung",
@@ -426,6 +366,222 @@
    "trade": "Spenglerei",
    "city": "Taufkirchen (Vils)",
    "hint": "ungeprüft"
+  },
+  {
+   "name": "Edo Vidas Heizung – Sanitär",
+   "trade": "Sanitär & Heizung",
+   "city": "Weßling",
+   "hint": "RESERVE-geprüft 2026-10-29 (Datei bereit, nicht gewählt): Website negativ, kein Google/Freemail; 08153 4131"
+  },
+  {
+   "name": "Theodor Aumiller",
+   "trade": "Elektroinstallation",
+   "city": "Wörthsee",
+   "hint": "RESERVE-geprüft 2026-10-29 (Datei bereit, nicht gewählt): Website negativ, kein Google/Freemail; 08153 8613"
+  },
+  {
+   "name": "Gaber-Rehm Gerd",
+   "trade": "Malerbetrieb",
+   "city": "Unterföhring",
+   "hint": "RESERVE-geprüft 2026-10-29 (Datei bereit, nicht gewählt): Website negativ, kein Google/Freemail; 089 9581663"
+  },
+  {
+   "name": "Bauer Metallbau",
+   "trade": "Metallbau & Kunstschlosserei",
+   "city": "Tutzing",
+   "hint": "RESERVE-geprüft 2026-10-29 (Datei bereit, nicht gewählt): Website negativ, kein Google/Freemail; 08158 905910"
+  },
+  {
+   "name": "Elektro Martin Wintergerst",
+   "trade": "Elektroinstallation",
+   "city": "Andechs",
+   "hint": "RESERVE-geprüft 2026-10-29 (Datei bereit, nicht gewählt): Website negativ, kein Google/Freemail; 0171 6542063"
+  },
+  {
+   "name": "Hausmeisterservice Kaindl",
+   "trade": "Hausmeisterservice",
+   "city": "Peißenberg",
+   "hint": "RESERVE-geprüft 2026-10-29 (Datei bereit, nicht gewählt): Website negativ, kein Google/Freemail; 0162 3567403"
+  },
+  {
+   "name": "Schönl Heinrich Spenglerei Bedachungen",
+   "trade": "Spenglerei & Bedachungen",
+   "city": "Weilheim in Oberbayern",
+   "hint": "RESERVE-geprüft 2026-10-29 (Datei bereit, nicht gewählt): Website negativ, kein Google/Freemail; 0170 3257673"
+  },
+  {
+   "name": "Bratu & Co. Walter Bratu",
+   "trade": "Garten- und Landschaftsbau",
+   "city": "Peißenberg",
+   "hint": "0176 82283021; Name/Telefon/Domain negativ, kein Google/Freemail – RESERVE"
+  },
+  {
+   "name": "Maler iurato Salvatore",
+   "trade": "Malerbetrieb",
+   "city": "Penzberg",
+   "hint": "08856 8030830"
+  },
+  {
+   "name": "Helmut Endres Malermeister",
+   "trade": "Malerbetrieb",
+   "city": "Penzberg",
+   "hint": "08856 803384"
+  },
+  {
+   "name": "Sirsch Günter",
+   "trade": "Fliesenleger",
+   "city": "Penzberg",
+   "hint": "08856 82543"
+  },
+  {
+   "name": "Fliesen-And'l",
+   "trade": "Fliesenleger",
+   "city": "Penzberg",
+   "hint": "08856 9379179"
+  },
+  {
+   "name": "Tolgay Bostan Gebäudemanagement",
+   "trade": "Hausmeisterservice",
+   "city": "Peißenberg",
+   "hint": "01522 2628315"
+  },
+  {
+   "name": "Eduard Vachente",
+   "trade": "Fliesenleger",
+   "city": "Schwabmünchen",
+   "hint": "11880-Ortsliste"
+  },
+  {
+   "name": "Fliesen Dini",
+   "trade": "Fliesenleger",
+   "city": "Schwabmünchen",
+   "hint": "11880-Ortsliste"
+  },
+  {
+   "name": "Karlsdorfer Sanitärtechnik",
+   "trade": "Sanitär",
+   "city": "Landsberg",
+   "hint": "11880"
+  },
+  {
+   "name": "Anton Josef Steinhart Toni's Bauservice",
+   "trade": "Fliesenleger",
+   "city": "Friedberg",
+   "hint": "fliesenleger.net"
+  },
+  {
+   "name": "Bardak",
+   "trade": "Pflasterbau",
+   "city": "Friedberg",
+   "hint": "11880"
+  },
+  {
+   "name": "Malerbetrieb Aliu",
+   "trade": "Malerbetrieb",
+   "city": "Landsberg",
+   "hint": "11880"
+  },
+  {
+   "name": "MbH Hausmeisterservice für Haus und Garten",
+   "trade": "Hausmeisterservice",
+   "city": "Unterschleißheim",
+   "hint": "0170 7648394; Name/Telefon/Domain negativ, kein Google/Freemail – RESERVE"
+  },
+  {
+   "name": "Meister Hiki",
+   "trade": "Sanitär & Heizung",
+   "city": "Oberschleißheim",
+   "hint": "089 74389126"
+  },
+  {
+   "name": "Brucker Gas-Wasser-Heizung Sanitärhandwerk",
+   "trade": "Sanitär",
+   "city": "Oberschleißheim",
+   "hint": "089 3153683"
+  },
+  {
+   "name": "Herzinger",
+   "trade": "Fliesenleger",
+   "city": "Unterschleißheim",
+   "hint": "089 31596096"
+  },
+  {
+   "name": "Karl Mandl Bodenlegerei",
+   "trade": "Bodenleger",
+   "city": "Unterschleißheim",
+   "hint": "089 37488080"
+  },
+  {
+   "name": "Franz Gillmeier Sonnenschutzeinrichtungen",
+   "trade": "Rollladen",
+   "city": "Unterföhring",
+   "hint": "089 9506677"
+  },
+  {
+   "name": "Christian Bablick",
+   "trade": "Sanitär & Heizung",
+   "city": "Tutzing",
+   "hint": "11880"
+  },
+  {
+   "name": "Hans Lang Heizung Sanitär",
+   "trade": "Sanitär & Heizung",
+   "city": "Pöcking",
+   "hint": "11880"
+  },
+  {
+   "name": "Schmiede & Schlosserei Engesser",
+   "trade": "Metallbau",
+   "city": "Pöcking",
+   "hint": "11880"
+  },
+  {
+   "name": "Günter Ersam Fliesentechnik",
+   "trade": "Fliesenleger",
+   "city": "Inning",
+   "hint": "08143 999548"
+  },
+  {
+   "name": "Josef Mauser jun. Fliesenlegermeister",
+   "trade": "Fliesenleger",
+   "city": "Inning",
+   "hint": "08143 94442"
+  },
+  {
+   "name": "Herbert Hennig Elektroinstallationen",
+   "trade": "Elektroinstallation",
+   "city": "Herrsching",
+   "hint": "08152 9822253"
+  },
+  {
+   "name": "Robert Bach Heizung-Sanitär-Solar",
+   "trade": "Sanitär & Heizung",
+   "city": "Kaufering",
+   "hint": "11880"
+  },
+  {
+   "name": "Elektro Keberle",
+   "trade": "Elektroinstallation",
+   "city": "Kaufering",
+   "hint": "11880"
+  },
+  {
+   "name": "Lotter Tapan Garten und Landschaftsbau",
+   "trade": "Garten- und Landschaftsbau",
+   "city": "Peißenberg",
+   "hint": "0162 9215241"
+  },
+  {
+   "name": "Mert Genc",
+   "trade": "Garten- und Landschaftsbau",
+   "city": "Peißenberg",
+   "hint": "01512 0372780"
+  },
+  {
+   "name": "BauArt Nico",
+   "trade": "Hausmeisterservice",
+   "city": "Peißenberg",
+   "hint": "01514 2301716; Name negativ, Rest offen"
   }
  ]
 }

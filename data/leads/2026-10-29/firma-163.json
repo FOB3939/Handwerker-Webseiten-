@@ -396,13 +396,19 @@
     },
     "stickyCta": "Angebot anfragen",
     "look": {
-      "palette": 2,
+      "skin": "kante",
+      "palette": 1,
       "font": 6,
       "hero": 0,
-      "services": 1,
+      "services": 4,
       "radius": 1,
-      "logo": 0,
-      "intro": 5
+      "logo": 4,
+      "intro": 5,
+      "projects": 1,
+      "process": 1,
+      "faq": 1,
+      "reviews": 0,
+      "order": 0
     }
   }
 }

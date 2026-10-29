@@ -1,109 +1,118 @@
 {
   "id": "2026-10-29-166",
-  "slug": "gaber-rehm-maler-unterfoehring",
+  "slug": "emc-haustechnik-oberschleissheim",
   "date": "2026-10-29",
   "company": {
-    "name": "Gaber-Rehm Gerd",
-    "owner": "Gerd Gaber-Rehm",
-    "trade": "Malerbetrieb",
-    "city": "Unterföhring",
-    "address": "Keltenweg 46, 85774 Unterföhring",
-    "phone": "089 9581663",
+    "name": "EMC Haustechnik",
+    "owner": null,
+    "trade": "Sanitär & Heizung",
+    "city": "Oberschleißheim",
+    "address": "Dachauer Str. 11c, 85764 Oberschleißheim",
+    "phone": "0173 7174617",
     "email": null,
     "serviceArea": [
-      "Unterföhring",
-      "Ismaning",
-      "Aschheim",
-      "Feldkirchen",
-      "Johanneskirchen",
-      "Bogenhausen",
-      "Garching"
+      "Oberschleißheim",
+      "Unterschleißheim",
+      "Lohhof",
+      "Garching",
+      "Hochbrück",
+      "Feldmoching"
     ]
   },
   "listings": {
     "google": {
-      "url": "https://www.google.com/maps/search/?api=1&query=Gaber-Rehm%20Gerd%20Keltenweg%2046%20Unterf%C3%B6hring",
+      "url": "https://www.google.com/maps/search/?api=1&query=EMC%20Haustechnik%20Dachauer%20Str.%2011c%20Oberschlei%C3%9Fheim",
       "rating": null,
-      "reviews": null,
-      "evidence": "NICHT belegt – Suche über Google-Spiegel (trustlocal, firmania, rgv-bayern) ohne Treffer zu Gaber-Rehm; keine Freemail gefunden. In Maps prüfen."
+      "reviews": 24,
+      "evidence": "INDIREKT (Spiegel) – trustlocal.de (aggregiert Google-Bewertungen) führt „EMC Haustechnik“, Dachauer Str. 11, Oberschleißheim, in „Top 10 Sanitärbetriebe in Oberschleißheim“ mit Score 8,8 und 24 Bewertungen; Profiltext: Meisterbetrieb, Sanitäranlagen von der Planung bis zur Ausführung, schlüsselfertige Übergabe. Kein Website-Feld im Snippet. Kein direkter google.com/maps-Treffer – in Maps prüfen (Sternwert nicht belegt)."
     },
     "myhammer": {
-      "url": "https://www.11880.com/branchenbuch/unterfoehring/060693517B52801929/gaber-rehm-gerd.html",
+      "url": "https://www.11880.com/suche/sanitaerinstallation/oberschleissheim",
       "rating": null,
       "reviews": null,
-      "evidence": "Kein MyHammer gefunden – 11880-Eintrag „Gaber-Rehm Gerd“, Maler, Keltenweg 46, 85774 Unterföhring, Tel. (089) 9581663 (laut Snippet aktualisiert 02.10.2026, ohne Bewertungen und Öffnungszeiten). Gemeinde-Broschüre Unterföhring (yumpu) führt „Malerbetrieb Gaber-Rehm G“."
+      "evidence": "Kein MyHammer gefunden – 11880-Ortslisten Sanitärinstallation und Klempner Oberschleißheim führen „EMC Haustechnik“, Dachauer Str. 11c, (0173) 7174617, Kategorien Klempner, Sanitärinstallation, Solaranlage installieren; ebenso stadtbranchenbuch.com (Oberschleißheim, Sanitärinstallation)."
     }
   },
   "websiteStatus": "keine eigene Website gefunden",
   "websiteChecks": [
-    "(1) „Gerd Gaber-Rehm Maler“ mit blocked_domains (11880, Gelbe Seiten, Das Örtliche, Telefonbuch, Cylex, meinestadt, Creditreform, Facebook, Instagram, golocal, MyHammer, Northdata, Firmenwissen, WKDB, Yelp, trustlocal, wlw) – nur Verzeichnisse (Gemeinde-Broschüre Unterföhring auf yumpu, regio.land-Branchenliste); keine eigene Domain. „Maler Rehm“ (maler-rehm-nf.de) und Rehm Malermeister GmbH (Augustdorf) sind andere Firmen",
-    "(2) „Gaber-Rehm Unterföhring“ in 11880/trustlocal/firmania/rgv-bayern/maler.org – nur 11880-Eintrag ohne Website-Feld",
-    "(3) Domain-Check allowed_domains gaber-rehm.de, maler-gaber-rehm.de, malerbetrieb-gaber-rehm.de, gaberrehm.de, malermeister-gaber-rehm.de, gaber-rehm-maler.de, maler-gaber.de, gaber-maler.de – keine Treffer",
-    "(4) Telefonsuche „089 9581663“/„0899581663“ – keine Treffer",
-    "Website-Risiko: mittel – alle Prüfungen negativ, aber weder Google-Eintrag noch Freemail belegt (RESERVE); Eintrag eher alt (Ersteintrag laut Snippet 2021)"
+    "(1) „EMC Haustechnik“ Oberschleißheim mit blocked_domains (11880, Gelbe Seiten, Das Örtliche, Telefonbuch, Cylex, meinestadt, Creditreform, Facebook, Instagram, golocal, MyHammer, Northdata, Firmenwissen, WKDB, Yelp, trustlocal, wlw) – nur Verzeichnisse (stadtbranchenbuch, branchenportal24); Treffer emcsolutions.de gehört zur EMC Solutions & Technics GmbH, Am Stutenanger 6 (EMV-Prüfungen, andere Firma, andere Adresse/Telefon)",
+    "(2) Domain-Check allowed_domains emc-haustechnik.de, emchaustechnik.de, emc-haustechnik.com, emc-sanitaer.de, emc-haustechnik-oberschleissheim.de, emc-heizung.de, emc-shk.de, emchaustechnik.com – einziger Treffer emc-haustechnik.de = Lüftungsfirma in Melle (Niedersachsen, Impressum Dipl.-Ing. Christiane Kaase), nicht dieser Betrieb",
+    "(3) Telefonsuche „0173 7174617“/„01737174617“/„0173/7174617“ – keine Treffer außer fremden Rufnummernseiten, keine Website",
+    "(4) Impressum-Suche „EMC Haustechnik Impressum Inhaber Oberschleißheim“ – kein Impressum, kein Inhabername; nur trustlocal- und stadtbranchenbuch-Einträge",
+    "(5) Verzeichnisse (11880, stadtbranchenbuch, trustlocal-Snippet): kein Website-Feld, keine E-Mail",
+    "Website-Risiko: mittel – alle Prüfungen negativ, Google-Eintrag nur über trustlocal-Spiegel belegt, keine Freemail; Namensähnlichkeit mit emc-haustechnik.de (Melle) und EMC Solutions & Technics GmbH (Oberschleißheim) beachten"
   ],
   "facts": {
     "services": [
-      "Malerarbeiten"
+      "Sanitärinstallation",
+      "Heizungsinstallation",
+      "Klempnerarbeiten",
+      "Solaranlagen installieren",
+      "Planung bis Ausführung von Sanitäranlagen"
     ],
     "experience": null,
     "praisedFor": []
   },
   "strategy": {
-    "audience": "Mieter, Eigentümer und Hausverwaltungen in Unterföhring, Ismaning und Aschheim, die Wohnungen oder Treppenhäuser streichen lassen wollen",
-    "mainService": "Malerarbeiten innen – Wände, Decken, Lackierungen",
-    "trustSignal": "Malerbetrieb mit Sitz in Unterföhring, direkt per Telefon erreichbar",
-    "conversionGoal": "Angebot für Malerarbeiten anfragen (Anruf oder Formular mit Raumangaben)",
-    "visualConcept": "Helle, frisch gestrichene Räume, Farbrolle und abgeklebte Kanten – ordentlich und freundlich"
+    "audience": "Eigentümer von Häusern und Wohnungen in Oberschleißheim, Unterschleißheim und Garching, die ein Bad erneuern, eine Heizung tauschen oder einen Rohrschaden beheben lassen wollen",
+    "mainService": "Sanitäranlagen von der Planung bis zur schlüsselfertigen Übergabe",
+    "trustSignal": "24 Bewertungen (laut trustlocal-Spiegel) und Meisterbetrieb laut Profilbeschreibung – direkt per Handy erreichbar",
+    "conversionGoal": "Anfrage für Bad- oder Heizungsprojekt per WhatsApp/Anruf mit Fotos",
+    "visualConcept": "Helles, ruhiges Bad mit klaren Fliesenfugen und Armaturen in Chrom – sachlich, technisch sauber"
   },
   "sales": {
-    "score": 3,
+    "score": 7,
     "whyGoodLead": [
-      "Keine eigene Website gefunden – nur Verzeichniseinträge mit Festnetznummer",
-      "Unterföhring hat viele Mietwohnungen und Neubauten – Malerarbeiten bei Ein- und Auszug sind gefragt",
-      "Ohne Website kaum auffindbar – ein Auftritt bringt Anfragen aus dem Nordosten Münchens"
+      "Keine eigene Website gefunden – nur Verzeichniseinträge mit Handynummer",
+      "Bereits 24 Bewertungen laut trustlocal – Betrieb ist aktiv, Website verwandelt Bewertungen in Anfragen",
+      "Mobilnummer öffentlich – ideal für WhatsApp-Erstkontakt",
+      "Namensgleiche Firmen (EMC in Melle, EMC Solutions in Oberschleißheim) besetzen die Suche – eigene Website schafft Eindeutigkeit"
     ],
-    "pitch": "Grüß Gott Herr Gaber-Rehm, hier ist … – ich baue Websites für Handwerker im Münchner Norden. Ich habe Ihren Eintrag als Malerbetrieb in Unterföhring gefunden, aber keine eigene Website. Ich habe unverbindlich einen Entwurf vorbereitet, auf dem Kunden Ihre Malerarbeiten sehen und direkt anfragen können – darf ich Ihnen den Link schicken?"
+    "pitch": "Hallo, hier ist … – ich baue Websites für Handwerker im Münchner Norden. Ich habe EMC Haustechnik in Oberschleißheim mit guten Bewertungen gefunden, aber keine eigene Website – wer nach „EMC Haustechnik“ sucht, landet bei einer Lüftungsfirma in Niedersachsen. Ich habe unverbindlich einen Entwurf vorbereitet, auf dem Kunden Ihre Sanitär- und Heizungsleistungen sehen und direkt per WhatsApp anfragen können – darf ich Ihnen den Link schicken?"
   },
   "manualChecks": [
-    "RESERVE – weder Google-Eintrag noch Freemail-Adresse belegt: NUR versenden, wenn Google Maps einen Eintrag OHNE Website zeigt.",
-    "Website-Risiko: mittel – vor Versand in Google Maps prüfen, dass keine Website hinterlegt ist (Grund: weder Google-Eintrag noch Freemail belegt, nur Verzeichniseinträge)",
-    "Prüfen, ob der Betrieb noch aktiv ist (Eintrag eher alt, Festnetz) – ggf. kurz anrufen",
-    "Ein Snippet beschreibt ihn als Maler- und Lackierermeister mit Terminen nach telefonischer Absprache – Quelle unklar, daher NICHT übernommen; beim Erstkontakt klären",
-    "Leistungen nur als „Maler“ belegt – Schwerpunkte (Innenanstrich, Fassade, Tapezieren, Lackieren) beim Betrieb erfragen",
-    "Keine Mobilnummer, keine E-Mail gefunden – Kontakt telefonisch",
+    "Website-Risiko: mittel – vor Versand in Google Maps prüfen, dass keine Website hinterlegt ist (Grund: Google-Eintrag nur über trustlocal-Spiegel belegt, keine Freemail)",
+    "Google-Eintrag in Maps bestätigen (Bewertungsanzahl 24 laut trustlocal, Sternwert unbekannt – erst dann rating/count im reviews-Block setzen)",
+    "„Meisterbetrieb“ stammt nur aus der trustlocal-Profilbeschreibung – vor Verwendung auf der Seite beim Betrieb bestätigen",
+    "Inhabername und Rechtsform unbekannt – beim Erstkontakt erfragen; Anrede neutral halten",
+    "Hausnummer: 11880/stadtbranchenbuch 11c, trustlocal 11 – klären",
+    "Heizungsleistungen und Solar nur aus Verzeichniskategorien belegt – Umfang (Wärmepumpe, Gas, Wartung) beim Betrieb bestätigen",
     "Logo und Projektfotos: nicht gefunden – beim Betrieb anfragen"
   ],
   "sources": [
     {
-      "label": "11880 – Gaber-Rehm Gerd, Unterföhring",
-      "url": "https://www.11880.com/branchenbuch/unterfoehring/060693517B52801929/gaber-rehm-gerd.html"
+      "label": "11880 – Sanitärinstallationen Oberschleißheim (Liste mit EMC Haustechnik)",
+      "url": "https://www.11880.com/suche/sanitaerinstallation/oberschleissheim"
     },
     {
-      "label": "11880 – Maler Garching (Liste mit Gaber-Rehm Gerd)",
-      "url": "https://www.11880.com/suche/maler/garching"
+      "label": "11880 – Klempner Oberschleißheim",
+      "url": "https://www.11880.com/suche/klempner/oberschleissheim"
     },
     {
-      "label": "Gemeinde Unterföhring – Broschüre mit „Malerbetrieb Gaber-Rehm G“ (yumpu)",
-      "url": "https://www.yumpu.com/de/document/view/3456699/janayen-ulrike-dr-gemeinde-unterfahring/149"
+      "label": "trustlocal – Top 10 Sanitärbetriebe in Oberschleißheim (EMC Haustechnik, 24 Bewertungen)",
+      "url": "https://trustlocal.de/bayern/oberschlei%C3%9Fheim/sanitar/"
+    },
+    {
+      "label": "Stadtbranchenbuch – Sanitärinstallation Oberschleißheim",
+      "url": "https://oberschleissheim.stadtbranchenbuch.com/S/368.html"
     }
   ],
   "site": {
-    "theme": "atelier",
+    "theme": "aqua",
     "category": "handwerk",
     "heroOffer": [
-      "Innenanstrich",
-      "Tapezieren",
-      "Lackieren",
-      "Decken",
-      "Treppenhaus"
+      "Badsanierung",
+      "Sanitär",
+      "Heizung",
+      "Rohrarbeiten",
+      "Solar"
     ],
-    "scene": "paint",
-    "logoIcon": "roller",
-    "logoMark": "GR",
-    "brandName": "Malerbetrieb Gaber-Rehm",
-    "seoTitle": "Maler in Unterföhring – Malerbetrieb Gaber-Rehm",
-    "seoDescription": "Malerarbeiten in Unterföhring, Ismaning und Aschheim: Wände, Decken, Tapeten und Lack. Jetzt Angebot anfragen.",
+    "scene": "bath",
+    "logoIcon": "drop",
+    "logoMark": "EMC",
+    "brandName": "EMC Haustechnik",
+    "seoTitle": "Sanitär & Heizung in Oberschleißheim – EMC Haustechnik",
+    "seoDescription": "Sanitärinstallation, Heizung und Klempnerarbeiten in Oberschleißheim, Unterschleißheim und Garching. Projekt anfragen – auch per WhatsApp.",
     "nav": [
       {
         "label": "Leistungen",
@@ -131,132 +140,132 @@
       }
     ],
     "hero": {
-      "eyebrow": "Malerbetrieb · Unterföhring",
-      "headline": "Ihr Maler in Unterföhring",
-      "sub": "Frische Farbe für Wohnung, Haus und Treppenhaus im Münchner Nordosten.",
-      "ctaPrimary": "Angebot anfragen",
+      "eyebrow": "Haustechnik · Oberschleißheim",
+      "headline": "Sanitär und Heizung in Oberschleißheim",
+      "sub": "Vom geplanten Bad bis zur fertigen Anlage – aus einer Hand umgesetzt.",
+      "ctaPrimary": "Projekt anfragen",
       "ctaSecondary": "Anrufen",
       "bullets": [
-        "Malerbetrieb aus Unterföhring",
-        "Wände, Decken, Lack",
-        "Direkt per Telefon"
+        "Planung bis Übergabe",
+        "Sanitär, Heizung, Klempner",
+        "Direkt per Handy erreichbar"
       ],
-      "imageLabel": "frisch gestrichene, helle Wohnzimmerwand mit Farbrolle"
+      "imageLabel": "helles Bad mit bodengleicher Dusche und Chromarmaturen"
     },
     "badges": [
       {
-        "title": "Anstrich",
-        "sub": "Wände & Decken"
+        "title": "Sanitär",
+        "sub": "Installation & Bad"
       },
       {
-        "title": "Tapete",
-        "sub": "neu tapeziert"
+        "title": "Heizung",
+        "sub": "Installation"
       },
       {
-        "title": "Lack",
-        "sub": "Türen & Heizkörper"
+        "title": "Klempner",
+        "sub": "Rohre & Leitungen"
       },
       {
-        "title": "Unterföhring",
-        "sub": "Keltenweg"
+        "title": "Oberschleißheim",
+        "sub": "Dachauer Straße"
       }
     ],
     "trust": [
       {
-        "value": "Vor Ort",
-        "label": "Betrieb in Unterföhring"
+        "value": "24",
+        "label": "Bewertungen (Spiegel)"
       },
       {
-        "value": "Innen",
-        "label": "Wohnung & Haus"
+        "value": "1 Hand",
+        "label": "Planung bis Übergabe"
       },
       {
-        "value": "Direkt",
-        "label": "Ansprechpartner am Telefon"
+        "value": "Bad",
+        "label": "schlüsselfertig"
       },
       {
-        "value": "Nordost",
-        "label": "Unterföhring bis Ismaning"
+        "value": "Mobil",
+        "label": "direkt erreichbar"
       }
     ],
     "servicesIntro": {
-      "headline": "Malerarbeiten für Wohnung und Haus",
-      "text": "Ein neuer Anstrich vor dem Einzug, eine Tapete im Kinderzimmer oder lackierte Türen: Sie sagen, was ansteht – der Maler übernimmt."
+      "headline": "Wasser, Wärme, Leitungen – ein Ansprechpartner",
+      "text": "EMC Haustechnik plant Sanitäranlagen, setzt sie um und übergibt sie fertig. Dazu kommen Heizungs- und Klempnerarbeiten im Münchner Norden."
     },
     "services": [
       {
-        "title": "Wände & Decken",
-        "text": "Räume streichen – vom einzelnen Zimmer bis zur ganzen Wohnung, mit sauber abgeklebten Kanten.",
+        "title": "Badsanierung",
+        "text": "Das alte Bad wird zum neuen: Planung, Installation und Übergabe laufen über einen Betrieb.",
         "items": [
-          "Innenanstrich",
-          "Deckenanstrich",
-          "Farbwechsel"
+          "Bad planen",
+          "Dusche & Wanne",
+          "Schlüsselfertige Übergabe"
         ]
       },
       {
-        "title": "Tapezieren",
-        "text": "Alte Tapete runter, neue Tapete drauf – glatt und auf Stoß geklebt.",
+        "title": "Sanitärinstallation",
+        "text": "Neue Leitungen, Waschtische und WCs werden fachgerecht angeschlossen – im Neubau und im Bestand.",
         "items": [
-          "Raufaser",
-          "Vliestapete",
-          "Tapete entfernen"
+          "Wasserleitungen",
+          "Waschtisch & WC",
+          "Abwasser"
         ]
       },
       {
-        "title": "Lackierarbeiten",
-        "text": "Türen, Zargen, Heizkörper und Geländer bekommen einen neuen Lack.",
+        "title": "Heizungsinstallation",
+        "text": "Heizkörper, Leitungen und Heiztechnik werden installiert und an Ihr Haus angepasst.",
         "items": [
-          "Türen",
           "Heizkörper",
-          "Geländer"
+          "Heizleitungen",
+          "Anschluss"
         ]
       },
       {
-        "title": "Renovierung bei Auszug",
-        "text": "Wohnung für die Übergabe streichen lassen – passend zum Auszugstermin.",
+        "title": "Klempnerarbeiten",
+        "text": "Undichte Stellen, verstopfte Abflüsse oder neue Anschlüsse werden schnell behoben.",
         "items": [
-          "Auszug",
-          "Übergabe",
-          "Mietwohnung"
+          "Rohre",
+          "Abflüsse",
+          "Armaturen"
         ]
       },
       {
-        "title": "Treppenhaus",
-        "text": "Treppenhäuser und Flure in Mehrfamilienhäusern frisch streichen.",
+        "title": "Solaranlagen",
+        "text": "Solarthermie für warmes Wasser – geplant und eingebunden in Ihre Haustechnik.",
         "items": [
-          "Flure",
-          "Treppenhaus",
-          "Eingangsbereich"
+          "Solar installieren",
+          "Einbindung",
+          "Warmwasser"
         ]
       },
       {
-        "title": "Spachteln & Ausbessern",
-        "text": "Risse, Löcher und unebene Stellen vor dem Streichen ausbessern.",
+        "title": "Planung & Beratung",
+        "text": "Vor der Ausführung steht ein klarer Plan: Was ist möglich, was ist sinnvoll, was kostet es?",
         "items": [
-          "Risse",
-          "Dübellöcher",
-          "Glätten"
+          "Vor-Ort-Termin",
+          "Planung",
+          "Angebot"
         ]
       }
     ],
     "why": {
-      "headline": "Maler aus Unterföhring – ohne lange Wege.",
+      "headline": "Haustechnik aus Oberschleißheim – geplant, gebaut, übergeben.",
       "points": [
         {
+          "title": "Ein Betrieb, ein Plan",
+          "text": "Planung und Ausführung liegen bei einem Betrieb – keine Abstimmung zwischen fremden Firmen."
+        },
+        {
+          "title": "Schlüsselfertig",
+          "text": "Sie bekommen das Bad fertig übergeben und nutzen es sofort."
+        },
+        {
           "title": "Kurze Wege",
-          "text": "Von Unterföhring schnell in Ismaning, Aschheim, Feldkirchen und Bogenhausen."
+          "text": "Von der Dachauer Straße schnell in Unterschleißheim, Garching und Feldmoching."
         },
         {
-          "title": "Ein Ansprechpartner",
-          "text": "Sie sprechen direkt mit Gerd Gaber-Rehm – von der Anfrage bis zur Übergabe."
-        },
-        {
-          "title": "Sauber gearbeitet",
-          "text": "Böden und Möbel werden abgedeckt, Kanten sauber abgeklebt."
-        },
-        {
-          "title": "Klarer Preis",
-          "text": "Umfang und Kosten werden vor Beginn besprochen."
+          "title": "Direkter Draht",
+          "text": "Anruf oder WhatsApp genügt – Sie sprechen direkt mit dem Betrieb."
         }
       ]
     },
@@ -264,116 +273,116 @@
       "headline": "Was Kunden sagen",
       "summary": "Kundenstimmen werden hier eingebunden, sobald sie aus dem Google-Profil übernommen sind.",
       "highlights": [
-        "Maler in Unterföhring",
-        "Wände, Decken, Lack",
+        "Sanitär in Oberschleißheim",
+        "Planung bis Ausführung",
         "Direkter Kontakt"
       ],
       "source": "Google",
-      "sourceUrl": "https://www.google.com/maps/search/?api=1&query=Gaber-Rehm%20Gerd%20Keltenweg%2046%20Unterf%C3%B6hring",
+      "sourceUrl": "https://www.google.com/maps/search/?api=1&query=EMC%20Haustechnik%20Dachauer%20Str.%2011c%20Oberschlei%C3%9Fheim",
       "rating": null,
       "count": null
     },
     "process": {
-      "headline": "So kommen Sie zur frischen Wand",
+      "headline": "So kommt Ihr Projekt ins Laufen",
       "steps": [
         {
           "title": "Anfrage",
-          "text": "Anrufen und kurz schildern, welche Räume gestrichen werden sollen."
+          "text": "Fotos vom Bad oder der Anlage per WhatsApp schicken – oder kurz anrufen."
         },
         {
-          "title": "Besichtigung",
-          "text": "Flächen, Untergrund und Farbwünsche werden vor Ort angeschaut."
+          "title": "Vor-Ort-Termin",
+          "text": "Leitungen, Maße und Wünsche werden direkt bei Ihnen aufgenommen."
         },
         {
-          "title": "Angebot",
-          "text": "Sie erhalten ein Angebot mit Umfang und Preis."
+          "title": "Planung & Angebot",
+          "text": "Sie erhalten einen Plan und ein nachvollziehbares Angebot."
         },
         {
-          "title": "Ausführung",
-          "text": "Abdecken, Vorarbeiten, Streichen – der Raum wird sauber übergeben."
+          "title": "Ausführung & Übergabe",
+          "text": "Installation, Prüfung und Übergabe der fertigen Anlage."
         }
       ]
     },
     "gallery": {
-      "headline": "Räume in neuer Farbe",
-      "text": "Für die Live-Version zeigen wir hier echte Arbeiten des Betriebs.",
+      "headline": "Bäder und Anlagen aus der Region",
+      "text": "Für die Live-Version zeigen wir hier echte Projekte des Betriebs.",
       "items": [
         {
-          "title": "Wohnzimmer",
-          "photoNeeded": "frisch gestrichenes Wohnzimmer in hellem Ton"
+          "title": "Neues Bad",
+          "photoNeeded": "fertig saniertes Bad mit bodengleicher Dusche"
         },
         {
-          "title": "Neue Tapete",
-          "photoNeeded": "tapezierte Wand mit sauberen Stößen"
+          "title": "Waschtisch",
+          "photoNeeded": "neuer Waschtisch mit Unterschrank und Armatur"
         },
         {
-          "title": "Lackierte Tür",
-          "photoNeeded": "weiß lackierte Zimmertür mit Zarge"
+          "title": "Heizkörper",
+          "photoNeeded": "montierter Heizkörper mit sauber geführten Leitungen"
         },
         {
-          "title": "Treppenhaus",
-          "photoNeeded": "frisch gestrichenes Treppenhaus eines Mehrfamilienhauses"
+          "title": "Rohinstallation",
+          "photoNeeded": "offene Wand mit neuen Wasser- und Abwasserleitungen"
         },
         {
-          "title": "Vorher – nachher",
-          "photoNeeded": "dieselbe Wand vor und nach dem Anstrich"
+          "title": "Solarthermie",
+          "photoNeeded": "Solarspeicher bzw. Kollektoren nach Montage"
         }
       ]
     },
     "region": {
-      "headline": "Malerarbeiten für Unterföhring und den Münchner Nordosten",
-      "text": "Von Unterföhring aus in Ismaning, Aschheim, Feldkirchen, Johanneskirchen, Bogenhausen und Garching.",
+      "headline": "Sanitär und Heizung im Münchner Norden",
+      "text": "Von Oberschleißheim aus schnell in Unterschleißheim, Lohhof, Garching, Hochbrück und Feldmoching.",
       "places": [
-        "Unterföhring",
-        "Ismaning",
-        "Aschheim",
-        "Feldkirchen",
-        "Johanneskirchen",
-        "Bogenhausen",
-        "Garching"
+        "Oberschleißheim",
+        "Unterschleißheim",
+        "Lohhof",
+        "Garching",
+        "Hochbrück",
+        "Feldmoching"
       ]
     },
     "faq": [
       {
-        "q": "Streichen Sie auch einzelne Räume?",
-        "a": "Ja, auch ein einzelnes Zimmer lässt sich anfragen – der Umfang wird vorab besprochen."
+        "q": "Übernehmen Sie die komplette Badsanierung?",
+        "a": "Ja, Sanitäranlagen werden von der Planung bis zur Übergabe umgesetzt. Den genauen Umfang besprechen wir vor Ort."
       },
       {
-        "q": "Muss ich die Möbel ausräumen?",
-        "a": "Das wird bei der Besichtigung abgestimmt; Böden und verbliebene Möbel werden abgedeckt."
+        "q": "Kann ich vorab Fotos schicken?",
+        "a": "Ja, Fotos vom Bad oder der Heizung per WhatsApp helfen für eine erste Einschätzung."
       },
       {
-        "q": "Wie erreiche ich den Betrieb?",
-        "a": "Am einfachsten telefonisch unter 089 9581663."
+        "q": "Machen Sie auch kleinere Klempnerarbeiten?",
+        "a": "Ja, auch Arbeiten an Rohren, Abflüssen und Armaturen gehören dazu."
       },
       {
-        "q": "Arbeiten Sie auch außerhalb von Unterföhring?",
-        "a": "Ja, in den Nachbarorten im Münchner Nordosten – nennen Sie beim Anruf Ihren Ort."
+        "q": "Installieren Sie Solaranlagen?",
+        "a": "Ja, Solaranlagen gehören zum Leistungsangebot. Fragen Sie für Ihr Haus konkret an."
       },
       {
-        "q": "Kann ich die Farbe selbst aussuchen?",
-        "a": "Ja, Farbton und Oberfläche werden vor dem Start gemeinsam festgelegt."
+        "q": "In welchen Orten arbeiten Sie?",
+        "a": "In Oberschleißheim und Umgebung, zum Beispiel Unterschleißheim, Garching und Feldmoching."
       }
     ],
     "contact": {
-      "headline": "Malerarbeiten anfragen",
-      "text": "Nennen Sie kurz, welche Räume, ungefähre Größe und ob gestrichen, tapeziert oder lackiert werden soll.",
+      "headline": "Ihr Sanitär- oder Heizungsprojekt anfragen",
+      "text": "Beschreiben Sie kurz Ihr Vorhaben: Bad, Heizung oder Reparatur, ungefähre Größe und Zeitraum. Fotos helfen.",
       "topics": [
-        "Wände & Decken",
-        "Tapezieren",
-        "Lackieren",
-        "Treppenhaus",
+        "Badsanierung",
+        "Sanitärinstallation",
+        "Heizung",
+        "Klempnerarbeiten",
+        "Solar",
         "Sonstiges"
       ],
-      "responseNote": "Besichtigung nach Absprache."
+      "responseNote": "Vor-Ort-Termin nach Absprache."
     },
     "quote": {
-      "sizeLabel": "Was soll gestrichen werden?",
+      "sizeLabel": "Worum geht es?",
       "sizes": [
-        "Ein Raum",
-        "Mehrere Räume",
-        "Ganze Wohnung",
-        "Treppenhaus"
+        "Reparatur",
+        "Gäste-WC",
+        "Komplettes Bad",
+        "Heizung / Anlage"
       ],
       "timings": [
         "So bald wie möglich",
@@ -382,20 +391,21 @@
         "Ich plane erst noch"
       ]
     },
-    "stickyCta": "Maler anfragen",
+    "stickyCta": "Projekt anfragen",
     "look": {
-      "palette": 5,
-      "font": 8,
-      "hero": 2,
-      "services": 0,
-      "radius": 2,
-      "logo": 0,
-      "intro": 1,
-      "projects": 0,
-      "process": 0,
-      "faq": 0,
-      "reviews": 0,
-      "order": 2
+      "skin": "kante",
+      "palette": 2,
+      "font": 7,
+      "hero": 1,
+      "services": 1,
+      "radius": 0,
+      "logo": 1,
+      "intro": 2,
+      "projects": 2,
+      "process": 1,
+      "faq": 1,
+      "reviews": 1,
+      "order": 1
     }
   }
 }
