@@ -1,0 +1,276 @@
+<!doctype html>
+<html lang="de">
+<head>
+<meta charset="utf-8">
+<style>
+@font-face{font-family:Montserrat;font-weight:600;src:url(assets/fonts/montserrat-latin-600-normal.woff2)}
+@font-face{font-family:Montserrat;font-weight:800;src:url(assets/fonts/montserrat-latin-800-normal.woff2)}
+@font-face{font-family:Oswald;font-weight:700;src:url(assets/fonts/oswald-latin-700-normal.woff2)}
+:root{--g:#F0B92A;--red:#E5402A;--blue:#3FA9F5;--ink:#0d1116;--kalk:#d9c9a3}
+*{box-sizing:border-box;margin:0;padding:0}
+html,body{width:1080px;height:1920px;overflow:hidden;background:#000}
+#stage{position:relative;width:1080px;height:1920px;overflow:hidden;font-family:Montserrat,sans-serif;color:#fff;background:radial-gradient(circle at 50% 40%,#1d2b3a 0%,#0a0f15 75%)}
+#cam{position:absolute;inset:0;transform-origin:50% 45%}
+.sc{position:absolute;inset:0;display:none}
+.a{position:absolute}
+.c{left:60px;right:60px;text-align:center}
+.h{font:800 92px Montserrat;line-height:1.02;text-transform:uppercase;text-shadow:0 8px 30px rgba(0,0,0,.6)}
+.h b{color:var(--g)}
+.chip{display:inline-block;font:800 38px Montserrat;text-transform:uppercase;padding:8px 26px;border-radius:40px}
+svg{position:absolute}
+#brand{position:absolute;left:0;right:0;top:140px;display:flex;justify-content:center;align-items:center;gap:16px;z-index:9}
+#brand img{width:76px;height:76px;border-radius:50%}
+#brand div{font:700 36px Oswald;letter-spacing:.05em;text-transform:uppercase}
+#brand b{color:var(--g)}
+/* services */
+.ph{position:absolute;inset:0;background-size:cover;background-position:center}
+.shade{position:absolute;inset:0;background:linear-gradient(180deg,rgba(0,0,0,.6),rgba(0,0,0,0) 30%,rgba(0,0,0,0) 55%,rgba(0,0,0,.8))}
+.lab{position:absolute;left:60px;right:60px;top:1150px;text-align:center;font:800 88px Montserrat;text-transform:uppercase;line-height:1;text-shadow:0 6px 24px rgba(0,0,0,.8)}
+.lab small{display:block;font-size:40px;color:var(--g);letter-spacing:.08em;margin-bottom:12px}
+.cnt{position:absolute;right:60px;top:240px;font:700 64px Oswald;color:var(--g)}
+/* map */
+#map{position:absolute;inset:0;background:
+  repeating-linear-gradient(0deg,rgba(255,255,255,.05) 0 2px,transparent 2px 90px),repeating-linear-gradient(90deg,rgba(255,255,255,.05) 0 2px,transparent 2px 90px)}
+/* cta */
+.cbtn{left:150px;right:150px;height:150px;border-radius:80px;display:flex;align-items:center;justify-content:center;font:700 72px Oswald;text-transform:uppercase;overflow:hidden;box-shadow:0 20px 50px rgba(0,0,0,.4)}
+#caps{position:absolute;left:50px;right:50px;top:1500px;text-align:center;z-index:20}
+#caps div{display:inline-block;background:rgba(8,12,18,.86);border-radius:18px;padding:12px 28px;font:800 56px Montserrat;line-height:1.16}
+#caps span.on{color:var(--g)}
+#flash{position:absolute;inset:0;background:#fff;z-index:30;opacity:0}
+#prog{position:absolute;left:0;top:0;height:8px;background:var(--g);z-index:31}
+#gl{position:absolute;inset:0;z-index:29;pointer-events:none;display:none}
+#gl i{position:absolute;left:0;right:0;mix-blend-mode:screen}
+</style>
+<script>document.write('<script src="'+(new URLSearchParams(location.search).get('data')||'data.js')+'"><\/script>')</script>
+</head>
+<body>
+<div id="stage"><div id="cam">
+
+<!-- S1 HOOK: WC with trickle -->
+<div class="sc" id="S1">
+  <svg id="wc" viewBox="0 -160 1080 1920" width="1080" height="1920" style="inset:0"></svg>
+  <div class="a c" id="tip1" style="top:270px"><span class="chip" style="background:var(--g);color:var(--ink);font-size:46px">💡 Profi-Tipp</span></div><div class="a c h" id="h1" style="top:370px">Ihr WC<br><b>rinnt</b> ständig?</div>
+  <div class="a" id="mark" style="left:560px;top:1200px"><span class="chip" style="background:var(--red)">Hier rinnt's!</span></div>
+</div>
+
+<!-- ST TIP: make appointment -->
+<div class="sc" id="ST">
+  <div class="a c" style="top:280px"><span class="chip" id="tchip" style="background:var(--g);color:var(--ink)">Unser Tipp</span></div>
+  <div class="a c h" id="hT" style="top:380px;font-size:100px">Zeitnah<br><b>Termin</b> machen</div>
+  <svg id="cal" viewBox="0 0 1080 1920" width="1080" height="1920" style="inset:0"></svg>
+  <div class="a c" id="hT2" style="top:1330px;font:800 54px Montserrat;color:#cfe3f5">beim Sanitär-Kundendienst</div>
+</div>
+
+<!-- S2 PROBLEM: outlets clog -->
+<div class="sc" id="S2">
+  <div class="a c" style="top:280px"><span class="chip" style="background:var(--red)">Sonst droht</span></div>
+  <div class="a c h" id="h2" style="top:380px;font-size:84px">Kalk verengt die<br><b>Spülauslässe</b></div>
+  <svg id="rim" viewBox="0 0 1080 1920" width="1080" height="1920" style="inset:0"></svg>
+</div>
+
+<!-- S3 PROCESS: tank exploded view -->
+<div class="sc" id="S3">
+  <div class="a c" style="top:270px"><span class="chip" id="s3chip" style="background:var(--g);color:var(--ink)">So machen wir's</span></div>
+  <svg id="tank" viewBox="0 0 1080 1920" width="1080" height="1920" style="inset:0"></svg>
+  <div class="a c h" id="h3" style="top:1250px;font-size:80px"></div>
+</div>
+
+<!-- SK: ceramic swap before/after -->
+<div class="sc" id="SK">
+  <div class="a" id="kb" style="inset:0;overflow:hidden"><div class="ph" style="background-image:url(assets/photos/wc_before.jpg)"></div></div>
+  <div class="a" id="ka" style="inset:0;overflow:hidden"><div class="ph" style="background-image:url(assets/photos/wc_after.jpg)"></div></div>
+  <div class="a" id="kd" style="top:0;bottom:0;width:10px;background:var(--g);box-shadow:0 0 30px var(--g)"></div>
+  <div class="shade"></div>
+  <div class="a c" style="top:280px"><span class="chip" id="kchip" style="background:var(--red)">Schon zu spät?</span></div>
+  <div class="lab" id="klab" style="top:1180px"><small>Dann tauschen wir die</small><b style="color:var(--g)">WC-Keramik</b></div>
+  <div class="a" id="kv" style="left:60px;top:400px"><span class="chip" style="background:rgba(0,0,0,.6)">Vorher</span></div>
+  <div class="a" id="kn" style="right:60px;top:400px"><span class="chip" style="background:var(--g);color:var(--ink)">Nachher</span></div>
+</div>
+
+<!-- S4 SERVICES montage -->
+<div class="sc" id="S4"><div id="mont"></div></div>
+
+<!-- S5 LOCAL -->
+<div class="sc" id="S5"><div id="map"></div>
+  <svg id="pin" viewBox="0 0 1080 1920" width="1080" height="1920" style="inset:0"></svg>
+  <div class="a c" style="top:300px"><span class="chip" style="background:var(--g);color:var(--ink)">Ihr Sanitär-Kundendienst</span></div>
+  <div class="a c h" id="h5" style="top:1180px;font-size:96px">Weßling-<br><b>Hochstadt</b></div>
+  <div class="a c" id="h5b" style="top:1395px;font:800 50px Montserrat;color:#cfe3f5">82234 &amp; Umgebung</div>
+</div>
+
+<!-- S6 CTA -->
+<div class="sc" id="S6">
+  <img class="a" id="clogo" src="assets/logo.png" style="left:340px;top:300px;width:400px;height:400px;border-radius:50%;box-shadow:0 30px 80px rgba(0,0,0,.6)">
+  <div class="a cbtn" id="fbtn" style="top:780px;background:#fff;color:#121110"><span id="ftxt">+ Folgen</span></div>
+  <svg class="a" id="hand" viewBox="0 0 100 100" style="left:640px;top:860px;width:150px;height:150px"><path d="M38 10a7 7 0 0 1 14 0v34l6-2a7 7 0 0 1 8 4l2 5 6-1a7 7 0 0 1 8 5l2 6 4 0a7 7 0 0 1 7 8l-4 20c-2 8-8 11-16 11H44c-6 0-10-3-13-8L14 62a7 7 0 0 1 11-9l13 12z" fill="#fff" stroke="#121110" stroke-width="5" stroke-linejoin="round"/></svg>
+  <div class="a c" id="c1" style="top:1000px;font:800 58px Montserrat;text-transform:uppercase">Folgen für <span style="color:var(--g)">mehr Tipps</span></div>
+  <div class="a c" id="c2" style="top:1080px;font:800 126px Montserrat;color:var(--g)">fob-fm.de</div>
+  <div class="a c" id="c3" style="top:1250px;font:600 40px Montserrat;color:#cfe3f5">Sanitär-Kundendienst · Weßling-Hochstadt</div>
+</div>
+
+</div>
+<div id="brand"><img src="assets/logo.png"><div>FOB <b>Sanitär</b></div></div>
+<div id="caps"></div><div id="gl"></div><div id="flash"></div><div id="prog"></div></div>
+<script>
+const $=id=>document.getElementById(id);
+const cl=(x,a=0,b=1)=>Math.min(b,Math.max(a,x));
+const p=(t,a,d)=>cl((t-a)/d);
+const eo=x=>1-Math.pow(1-x,3);
+const io=x=>x<.5?4*x*x*x:1-Math.pow(-2*x+2,3)/2;
+const back=x=>{const c=1.8;return 1+(c+1)*Math.pow(x-1,3)+c*Math.pow(x-1,2)};
+const esc=s=>String(s).replace(/&/g,'&amp;').replace(/</g,'&lt;');
+const NS='http://www.w3.org/2000/svg';
+const el=(tag,at,par)=>{const e=document.createElementNS(NS,tag);for(const k in at)e.setAttribute(k,at[k]);par&&par.appendChild(e);return e};
+const C=CUES, T=C.total;
+const SC=[['S1',0,C.st],['ST',C.st,C.s2],['S2',C.s2,C.s3],['S3',C.s3,C.sk],['SK',C.sk,C.s6],['S4',-1,-1],['S5',-1,-1],['S6',C.s6,T]];
+const CUTS=[C.st,C.s2,C.s3,C.sk,C.s6];
+
+// ---------- S1: WC front view with trickle ----------
+{const g=$('wc');
+  // tank
+ el('rect',{x:300,y:520,width:480,height:300,rx:30,fill:'#f4f6f8',stroke:'#c9d1d9','stroke-width':6},g);
+ el('rect',{x:470,y:500,width:140,height:30,rx:12,fill:'#dfe5ea'},g);
+ // bowl
+ el('path',{d:'M250 860 h580 q-10 190 -160 260 l-30 200 h-200 l-30 -200 q-150 -70 -160 -260z',fill:'#f4f6f8',stroke:'#c9d1d9','stroke-width':6},g);
+ el('ellipse',{cx:540,cy:880,rx:270,ry:60,fill:'#e3e8ed',stroke:'#c9d1d9','stroke-width':6},g);
+ el('ellipse',{cx:540,cy:905,rx:220,ry:40,fill:'#cfe3f5',id:'water'},g);
+ el('ellipse',{cx:540,cy:905,rx:220,ry:40,fill:'none',stroke:'#9fc6e8','stroke-width':4,id:'ripple'},g);
+ // trickle streams on inner bowl wall
+ for(let i=0;i<3;i++)el('path',{id:'tr'+i,fill:'none',stroke:'#59b6ff','stroke-width':7,'stroke-linecap':'round','stroke-dasharray':'26 22'},g);
+ el('circle',{id:'ring',cx:600,cy:900,r:80,fill:'none',stroke:'var(--red)','stroke-width':10},g);
+}
+// ---------- ST: calendar ----------
+{const g=$('cal');const cg=el('g',{id:'calg'},g);
+ el('rect',{x:300,y:780,width:480,height:470,rx:30,fill:'#f4f6f8',stroke:'#c9d1d9','stroke-width':6},cg);
+ el('path',{d:'M300 890 v-80 q0 -30 30 -30 h420 q30 0 30 30 v80z',fill:'var(--red)'},cg);
+ [400,680].forEach(x=>el('rect',{x:x-12,y:750,width:24,height:70,rx:12,fill:'#8a96a3'},cg));
+ const tt=el('text',{x:540,y:860,fill:'#fff','font-family':'Montserrat','font-weight':800,'font-size':44,'text-anchor':'middle'},cg);tt.textContent='TERMIN';
+ for(let r=0;r<3;r++)for(let c=0;c<5;c++)el('rect',{id:'d'+(r*5+c),x:335+c*84,y:920+r*100,width:66,height:74,rx:10,fill:'#dfe5ea'},cg);
+ const ck=el('g',{id:'calck'},g);el('circle',{cx:0,cy:0,r:120,fill:'#3FA34D',stroke:'#fff','stroke-width':10},ck);el('path',{d:'M-55 0 l38 40 l72 -80',fill:'none',stroke:'#fff','stroke-width':26,'stroke-linecap':'round','stroke-linejoin':'round'},ck);
+}
+// ---------- S2: rim outlets cross-section ----------
+const HOLES=[];
+{const g=$('rim');
+ el('path',{d:'M90 760 h900 v120 q0 40 -40 40 h-820 q-40 0 -40 -40z',fill:'#f4f6f8',stroke:'#c9d1d9','stroke-width':6},g);
+ el('rect',{x:120,y:790,width:840,height:60,rx:20,fill:'#cfe3f5'},g);
+ const lb=el('text',{x:540,y:740,fill:'#cfe3f5','font-family':'Montserrat','font-weight':800,'font-size':36,'text-anchor':'middle'},g);lb.textContent='SPÜLRAND (Querschnitt)';
+ for(let i=0;i<7;i++){const x=180+i*120;el('rect',{x:x-22,y:900,width:44,height:40,fill:'#0a0f15'},g);
+   const k=el('rect',{x:x-22,y:900,width:44,height:0,fill:'var(--kalk)'},g);
+   const s=el('path',{fill:'none',stroke:'#59b6ff','stroke-width':12,'stroke-linecap':'round'},g);
+   HOLES.push({x,k,s})}
+ el('path',{d:'M140 960 q400 520 800 0',fill:'none',stroke:'#c9d1d9','stroke-width':6,opacity:.5},g);
+ const w=el('text',{x:540,y:1340,fill:'var(--red)','font-family':'Montserrat','font-weight':800,'font-size':64,'text-anchor':'middle',id:'nothing'},g);w.textContent='Spüldruck zu schwach!';
+}
+// ---------- S3: tank exploded ----------
+const PARTS=[];
+{const g=$('tank');
+ el('rect',{x:250,y:430,width:580,height:640,rx:30,fill:'rgba(255,255,255,.06)',stroke:'#c9d1d9','stroke-width':6,id:'tbox'},g);
+ const wl=el('rect',{x:256,y:640,width:568,height:424,rx:24,fill:'rgba(63,169,245,.25)',id:'tw'},g);
+ const mk=(id,label,draw)=>{const p=el('g',{id},g);draw(p);const t=el('text',{y:0,fill:'#fff','font-family':'Montserrat','font-weight':800,'font-size':34,'text-anchor':'middle'},p);t.textContent=label;PARTS.push({p,t});return p};
+ mk('pF','Füllventil',p=>{el('rect',{x:-20,y:-200,width:40,height:300,rx:12,fill:'#e7ecf1'},p);el('rect',{x:-60,y:-230,width:120,height:60,rx:18,fill:'#cfd8e0'},p);el('circle',{cx:0,cy:-40,r:46,fill:'#b8c4cf'},p)});
+ mk('pA','Bassin',p=>{el('rect',{x:-26,y:-260,width:52,height:300,rx:14,fill:'#e7ecf1'},p);el('rect',{x:-90,y:20,width:180,height:50,rx:16,fill:'#cfd8e0'},p);el('rect',{x:-50,y:-290,width:100,height:40,rx:12,fill:'#b8c4cf'},p)});
+ mk('pS','Schwimmerglocke',p=>{el('path',{d:'M-90 40 q0 -150 90 -150 q90 0 90 150z',fill:'#e7ecf1'},p);el('rect',{x:-100,y:30,width:200,height:30,rx:10,fill:'#cfd8e0'},p)});
+ // kalk spots on parts
+ PARTS.forEach((P,i)=>{P.k=[];for(let j=0;j<6;j++)P.k.push(el('circle',{cx:(j%3-1)*34,cy:-60+Math.floor(j/3)*90+(i==2?60:0),r:14+j%3*4,fill:'var(--kalk)'},P.p))});
+ // bubbles & brush
+ for(let i=0;i<24;i++)el('circle',{id:'bb'+i,r:6+i%4*3,fill:'none',stroke:'#9fd3ff','stroke-width':4},g);
+ const br=el('g',{id:'brush'},g);el('rect',{x:-15,y:-140,width:30,height:140,rx:10,fill:'#c8742a'},br);el('rect',{x:-45,y:0,width:90,height:40,rx:8,fill:'#ddd'},br);
+ for(let i=0;i<9;i++)el('line',{x1:-40+i*10,y1:40,x2:-40+i*10,y2:80,stroke:'#f0b92a','stroke-width':4},br);
+ // flush arrows (pressure)
+ for(let i=0;i<5;i++)el('path',{id:'fa'+i,d:`M${400+i*70} 1090 v80 m-18 -22 l18 24 l18 -24`,fill:'none',stroke:'#59b6ff','stroke-width':12,'stroke-linecap':'round'},g);
+}
+// ---------- S4 montage ----------
+const MONT=[{img:'siphon',pos:'50% 80%',l:'Rohr-<br>verstopfung',n:'01'},{img:'sink_after',l:'Neues<br>Waschbecken',n:'02'},{img:'wc_after',l:'Neues WC',n:'03'},{img:'siphon',pos:'50% 0%',l:'Undichte<br>Absperrung',n:'04'}];
+const PRE=[];['wc_before','wc_after'].forEach(n=>{const im=new Image();im.src=`assets/photos/${n}.jpg`;PRE.push(im)});MONT.forEach((m,i)=>{const im=new Image();im.src=`assets/photos/${m.img}.jpg`;PRE.push(im);const d=document.createElement('div');d.className='a';d.style.inset='0';d.innerHTML=`<div class="ph" style="background-image:url(assets/photos/${m.img}.jpg);background-position:${m.pos||'center'}"></div><div class="shade"></div><div class="cnt">${m.n}</div><div class="lab"><small>Wir helfen bei</small>${m.l}</div>`;$('mont').appendChild(d);m.el=d});
+// ---------- S5 pin ----------
+{const g=$('pin');for(let i=0;i<4;i++)el('circle',{id:'rr'+i,cx:540,cy:820,r:10,fill:'none',stroke:'var(--g)','stroke-width':6},g);
+ el('path',{id:'pinp',d:'M540 900 C 470 800 440 760 440 700 a100 100 0 0 1 200 0 c0 60 -30 100 -100 200z',fill:'var(--red)',stroke:'#fff','stroke-width':6},g);
+ el('circle',{cx:540,cy:700,r:38,fill:'#fff'},g);
+ ['Gilching','Seefeld','Gauting','Herrsching','Starnberg'].forEach((n,i)=>{const a=i/5*Math.PI*2+.4;const t=el('text',{id:'tn'+i,x:540+Math.cos(a)*340,y:820+Math.sin(a)*250,fill:'#cfe3f5','font-family':'Montserrat','font-weight':600,'font-size':34,'text-anchor':'middle',opacity:0},g);t.textContent=n});}
+// glitch bars
+for(let i=0;i<6;i++){const e=document.createElement('i');e.style.background=i%2?'rgba(0,229,255,.5)':'rgba(255,43,214,.45)';$('gl').appendChild(e)}
+// captions
+const CH=[];{let cur=[];CAPS.forEach((w,k)=>{cur.push(w);const brk=/[.,?!:;–]$/.test(w.text)||cur.length>=4||cur.map(x=>x.text).join(' ').length>22;if(brk||k===CAPS.length-1){CH.push(cur);cur=[]}});}
+CH.forEach((c,k)=>{c.s=c[0].start;c.e=k+1<CH.length?Math.min(CH[k+1][0].start,c[c.length-1].end+.5):c[c.length-1].end+.8});
+
+window.render=async function(t){
+  SC.forEach(([id,a,b])=>$(id).style.display=(t>=a&&t<b)?'block':'none');
+  // camera: punch on cuts + glitch on cuts
+  let sx=0,sy=0,zs=1+.015*Math.sin(t*.8),gk=0;
+  for(const c of [0,...CUTS]){if(t>=c&&t<c+.5){const k=Math.exp(-(t-c)*9);sx+=Math.sin((t-c)*83)*16*k;sy+=Math.cos((t-c)*71)*12*k;zs+=.05*k}
+    if(Math.abs(t-c)<.18&&c>0)gk=1-Math.abs(t-c)/.18}
+  for(const c of C.hits){if(t>=c&&t<c+.4){const k=Math.exp(-(t-c)*10);zs+=.04*k;sx+=Math.sin((t-c)*90)*8*k}}
+  $('cam').style.transform=`translate(${sx}px,${sy}px) scale(${zs}) skewX(${gk*Math.sin(t*233)*10}deg)`;
+  $('cam').style.filter=gk>.05?`hue-rotate(${gk*80}deg) contrast(1.3)`:'none';
+  $('gl').style.display=gk>.05?'block':'none';if(gk>.05)[...$('gl').children].forEach((e,i)=>{e.style.top=(Math.abs(Math.sin(t*(41+i*13)+i))*1880)+'px';e.style.height=(10+gk*80)+'px';e.style.transform=`translateX(${Math.sin(t*71+i)*120*gk}px)`});
+  let fl=0;for(const c of CUTS)if(t>=c)fl+=.35*Math.exp(-(t-c)*12);$('flash').style.opacity=cl(fl);
+  $('prog').style.width=(cl(t/T)*100)+'%';
+  // S1
+  {const zk=io(p(t,0,C.s2));$('wc').style.transform=`scale(${1+.22*zk})`;$('wc').style.transformOrigin='600px 1060px';
+   for(let i=0;i<3;i++){const x=470+i*60;$('tr'+i).setAttribute('d',`M${x} 860 q ${10+i*5} 30 ${20+i*8} 60`);$('tr'+i).setAttribute('stroke-dashoffset',-t*120-i*15)}
+   $('ripple').setAttribute('rx',220*(.6+.4*((t*1.5)%1)));$('ripple').setAttribute('ry',40*(.6+.4*((t*1.5)%1)));$('ripple').setAttribute('opacity',1-((t*1.5)%1));
+   const k=back(p(t,.05,.4));$('h1').style.opacity=cl(p(t,.05,.12));$('h1').style.transform=`scale(${1.4-.4*k})`;
+   const km=back(p(t,C.hier,.35));$('mark').style.opacity=cl(p(t,C.hier,.1));$('mark').style.transform=`scale(${km})`;
+   $('ring').setAttribute('opacity',t>=C.hier?1:0);$('ring').setAttribute('r',70+10*Math.sin(t*10))}
+  // tip chip in S1
+  {const k=back(p(t,.05,.35));$('tip1').style.opacity=cl(p(t,.05,.1));$('tip1').style.transform=`scale(${k}) rotate(${(1-k)*-8}deg)`}
+  // ST
+  {const t0=C.st;const k=back(p(t,t0+.05,.4));$('hT').style.opacity=cl(p(t,t0+.05,.12));$('hT').style.transform=`scale(${1.3-.3*k})`;
+   $('tchip').style.transform=`scale(${back(p(t,t0,.35))})`;
+   const kc=back(p(t,t0+.3,.5));$('calg').setAttribute('transform',`translate(540 1015) scale(${kc}) rotate(${(1-kc)*-12}) translate(-540 -1015)`);
+   const hi=7;for(let i=0;i<15;i++){$('d'+i).setAttribute('fill',i===hi&&t>C.ck-.4?'var(--g)':'#dfe5ea')}
+   const ks=back(p(t,C.ck,.35));$('calck').setAttribute('transform',`translate(720 1180) scale(${ks*1}) rotate(${(1-ks)*-60})`);$('calck').setAttribute('opacity',t>=C.ck?1:0);
+   const k2=eo(p(t,t0+.9,.4));$('hT2').style.opacity=k2;$('hT2').style.transform=`translateY(${(1-k2)*40}px)`}
+  // SK
+  {const t0=C.sk,w=1,x=0;$('kb').style.display='none';$('ka').style.clipPath=`inset(0 0 0 ${x}px)`;$('kd').style.left=(x-5)+'px';$('kd').style.opacity=w>0&&w<1?1:0;
+   $('kb').querySelector('.ph').style.transform=$('ka').querySelector('.ph').style.transform=`scale(${1.12-.08*p(t,t0,C.s6-t0)})`;
+   $('kchip').style.transform=`scale(${back(p(t,t0,.35))})`;const kl=back(p(t,t0+.25,.4));$('klab').style.opacity=cl(p(t,t0+.25,.1));$('klab').style.transform=`scale(${kl})`;
+   $('kv').style.opacity=0;$('kn').style.opacity=0}
+  // S2
+  {const k=eo(p(t,C.s2+.05,.4));$('h2').style.opacity=k;$('h2').style.transform=`translateY(${(1-k)*40}px)`;
+   const clog=io(p(t,C.s2+.6,(C.s3-C.s2)*.6));
+   HOLES.forEach((h,i)=>{const c=cl(clog*1.3-i*.04);h.k.setAttribute('height',40*c);h.k.setAttribute('y',900+40*(1-c));
+     const len=(1-c)*260*(.8+.2*Math.sin(t*12+i));h.s.setAttribute('d',`M${h.x} 950 q ${(i-3)*12} ${len*.5} ${(i-3)*20} ${len}`);h.s.setAttribute('opacity',len>8?1:0)});
+   $('nothing').setAttribute('opacity',p(t,C.nichts,.3))}
+  // S3: phases
+  {const P=C.parts, Aph=C.ent, B=C.wieder, Z=C.druck;
+   const home=[[400,820],[680,760],[680,980]], out=[[230,820],[540,760],[850,820]];
+   const txt=t<Aph?'Ausbauen':t<C.burst?'<b>Entkalken</b>':t<B?'<b>Bürsten</b>':t<Z?'Erneuern &amp; <b>einbauen</b>':'Spüldruck <b>✓</b>';
+   if($('h3').dataset.t!==txt){$('h3').dataset.t=txt;$('h3').innerHTML=txt}
+   const ks=[P[0],P[1],P[2]];
+   PARTS.forEach((Q,i)=>{const kOut=back(p(t,ks[i],.45)),kIn=eo(p(t,B+i*.15,.45));const k=kOut*(1-kIn);
+     const x=home[i][0]+(out[i][0]-home[i][0])*k,y=home[i][1]+(out[i][1]-home[i][1])*k+(t>Aph&&t<B?Math.sin(t*6+i)*10:0);
+     Q.p.setAttribute('transform',`translate(${x} ${y}) scale(${.75+.25*k})`);Q.t.setAttribute('y',k>.5?140:-9999);
+     const clean=eo(p(t,C.burst+i*.25,.5));Q.k.forEach(c=>c.setAttribute('opacity',1-clean))});
+   $('tw').setAttribute('opacity',t<P[0]?1:t<B?.15:1);
+   for(let i=0;i<24;i++){const b=$('bb'+i);const on=t>Aph&&t<B;const ph=((t*.8+i/24)%1);b.setAttribute('cx',150+(i*97)%780);b.setAttribute('cy',1100-ph*420);b.setAttribute('opacity',on?(1-ph):0)}
+   const bo=t>C.burst&&t<B;$('brush').setAttribute('opacity',bo?1:0);$('brush').setAttribute('transform',`translate(${540+Math.sin(t*14)*260} ${700+Math.cos(t*7)*40}) rotate(${Math.sin(t*14)*25})`);
+   for(let i=0;i<5;i++){const on=t>Z;$('fa'+i).setAttribute('opacity',on?1:0);$('fa'+i).setAttribute('transform',`translate(0 ${((t*3+i*.2)%1)*60})`)}
+   $('s3chip').style.transform=`scale(${back(p(t,C.s3,.35))})`;
+   const kh=back(p(t,C.s3+.05,.4));$('h3').style.transform=`scale(${.9+.1*kh})`}
+  // S4
+  {const n=MONT.length,d=(C.s5-C.s4)/n;MONT.forEach((m,i)=>{const t0=C.s4+i*d,on=t>=t0&&t<t0+d;m.el.style.display=on?'block':'none';
+    if(on){const k=p(t,t0,d);m.el.querySelector('.ph').style.transform=`scale(${1.25-.15*eo(k)}) rotate(${(i%2?-1:1)*(1-eo(k))*3}deg)`;
+      const kl=back(p(t,t0+.05,.35));m.el.querySelector('.lab').style.transform=`scale(${kl})`;m.el.querySelector('.lab').style.opacity=cl(p(t,t0+.05,.1))}})}
+  // S5
+  {const kp=back(p(t,C.s5+.05,.5));$('pinp').setAttribute('transform',`translate(0 ${(1-kp)*-400})`);
+   for(let i=0;i<4;i++){const ph=((t-C.s5)*.7+i/4)%1;const r=$('rr'+i);r.setAttribute('r',20+ph*420);r.setAttribute('opacity',t>C.s5+.4?(1-ph)*.8:0)}
+   for(let i=0;i<5;i++)$('tn'+i).setAttribute('opacity',eo(p(t,C.s5+.8+i*.15,.4))*.9);
+   const k=eo(p(t,C.s5+.3,.45));$('h5').style.opacity=k;$('h5').style.transform=`translateY(${(1-k)*50}px)`;$('h5b').style.opacity=eo(p(t,C.s5+.7,.4))}
+  // S6
+  {const kl=back(p(t,C.s6,.5));$('clogo').style.opacity=cl(p(t,C.s6,.15));$('clogo').style.transform=`scale(${.6+.4*kl})`;
+   const kb=back(p(t,C.s6+.3,.4));$('fbtn').style.opacity=cl(p(t,C.s6+.3,.1));
+   const tap=C.tap,hk=eo(p(t,tap-.5,.45)),press=t>tap&&t<tap+.2;
+   $('hand').style.opacity=cl(p(t,tap-.5,.15))*(1-p(t,tap+.9,.3));$('hand').style.transform=`translate(${(1-hk)*300}px,${(1-hk)*200+(press?10:0)}px)`;
+   const done=t>=tap;$('fbtn').style.background=done?'#3FA34D':'#fff';$('fbtn').style.color=done?'#fff':'#121110';$('ftxt').textContent=done?'✓ Gefolgt':'+ Folgen';
+   $('fbtn').style.transform=`scale(${kb*(done?1+.08*Math.sin(cl((t-tap)/.3)*Math.PI):1)})`;
+   [['c1',C.url-.4],['c3',C.url+.5]].forEach(([id,t0])=>{const k=eo(p(t,t0,.4));$(id).style.opacity=k;$(id).style.transform=`translateY(${(1-k)*30}px)`});
+   const k2=back(p(t,C.url,.45));$('c2').style.opacity=cl(p(t,C.url,.12));$('c2').style.transform=`scale(${(.7+.3*k2)*(t>C.url+.6?1+.03*Math.sin((t-C.url)*5):1)})`}
+  let html='';for(const c of CH){if(t>=c.s&&t<c.e){const k=back(p(t,c.s,.16));html=`<div style="transform:scale(${.75+.25*k});opacity:${cl(p(t,c.s,.06))}">`+c.map(w=>`<span class="${t>=w.start-.03?'on':''}">${esc(w.text)}</span>`).join(' ')+'</div>';break}}
+  $('caps').innerHTML=html;
+  await Promise.all(PRE.map(im=>im.decode().catch(()=>{})));
+};
+window.addEventListener('load',()=>document.fonts.ready.then(()=>render(0)));
+</script>
+</body>
+</html>
