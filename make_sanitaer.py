@@ -12,7 +12,7 @@ C['hier'] = find('hier')
 C['s2'] = find('ein', C['hier']) - .1
 C['nichts'] = find('nichts')
 C['s3'] = find('so', C['nichts']) - .1
-C['parts'] = [find('füllventil'), find('ablaufventil'), find('schwimmerglocke')]
+C['parts'] = [find('füllventil'), find('bassin'), find('schwimmerglocke')]
 C['ent'] = find('entkalken'); C['burst'] = find('schmutz'); C['wieder'] = find('alles', C['burst']); C['druck'] = find('spüldruck')
 C['s4'] = find('dazu') - .1
 C['s5'] = find('ihr', C['s4']) - .1
