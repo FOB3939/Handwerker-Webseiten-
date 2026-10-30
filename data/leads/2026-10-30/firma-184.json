@@ -1,0 +1,415 @@
+{
+  "id": "2026-10-30-184",
+  "slug": "saray-heizung-sanitaer-moosburg",
+  "date": "2026-10-30",
+  "company": {
+    "name": "Saray Heizung Sanitär",
+    "owner": "Kamil Saray",
+    "trade": "Sanitär & Heizung",
+    "city": "Moosburg an der Isar",
+    "address": "Weingraben 32, 85368 Moosburg an der Isar",
+    "phone": "0172 4417812",
+    "email": null,
+    "serviceArea": [
+      "Moosburg an der Isar",
+      "Langenbach",
+      "Zolling",
+      "Haag an der Amper",
+      "Wang",
+      "Bruckberg",
+      "Freising"
+    ]
+  },
+  "listings": {
+    "google": {
+      "url": "https://www.google.com/maps/search/?api=1&query=Saray%20Heizung%20Sanit%C3%A4r%20Weingraben%2032%20Moosburg",
+      "rating": null,
+      "reviews": null,
+      "evidence": "NICHT BELEGT – kein Google-Spiegel (trustlocal, rgv-bayern, firmania) zu „Saray Heizung Sanitär“ gefunden. Betrieb nur über Verzeichnisse belegt (11880, Stadtbranchenbuch Moosburg, Cylex, blauarbeit, Marktplatz Mittelstand, tellows, Kleinanzeigen). In Google Maps prüfen, ob ein Eintrag existiert und ob dort eine Website hinterlegt ist."
+    },
+    "myhammer": {
+      "url": "https://www.11880.com/branchenbuch/moosburg-an-der-isar/060692320B112646176/saray-heizung-sanitaer.html",
+      "rating": null,
+      "reviews": null,
+      "evidence": "Kein MyHammer gefunden – 11880-Eintrag „Saray Heizung Sanitär“, Weingraben 32, Moosburg, Tel. 0172 4417812 (Heizungsinstallation, Gasheizungen, Wasseranlagen, Klimaanlagen-Kundendienst); blauarbeit führt Kamil Saray unter Badsanierung, Heizungsinstallation und Fliesenleger."
+    }
+  },
+  "websiteStatus": "keine eigene Website gefunden",
+  "websiteChecks": [
+    "(1) „\"Saray\" Heizung Sanitär Moosburg“ mit blocked_domains (11880, Gelbe Seiten, Das Örtliche, Telefonbuch, Cylex, meinestadt, Creditreform, Facebook, Instagram, golocal, MyHammer, Northdata, Firmenwissen, WKDB, Yelp, trustlocal, wlw) – nur blauarbeit und Marktplatz Mittelstand mit Saray; übrige Treffer sind andere Moosburger Betriebe mit Websites (Schwarzkugler, radke, Henning, Heating Company)",
+    "(2) Domain-Check allowed_domains saray-heizung.de, saray-sanitaer.de, saray-haustechnik.de, saray-heizung-sanitaer.de, heizung-saray.de, sanitaer-saray.de, saray-shk.de, saray.de – keine Treffer",
+    "(3) Telefonsuche „0172 4417812“/„01724417812“ mit blocked_domains – nur tellows-Einträge (Saray Heizung Sanitär, Weingraben 32), keine Website",
+    "(4) Inhabersuche „\"Kamil Saray\" Moosburg“ – nur Kleinanzeigen-Anzeige (Heizung-Wasser-Sanitär-Badrenovierung, gewerblich) und blauarbeit; kein Impressum, keine Domain",
+    "(5) Verzeichnisse (11880, Stadtbranchenbuch, Cylex) – kein Website-Feld in den Snippets, keine E-Mail-Adresse gefunden (auch keine Freemail)",
+    "RESERVE – weder Google-Eintrag noch Freemail belegt"
+  ],
+  "facts": {
+    "services": [
+      "Heizungsinstallation",
+      "Gasheizungen",
+      "Wasseranlagen",
+      "Klimaanlagen-Kundendienst",
+      "Badsanierung",
+      "Fliesenarbeiten"
+    ],
+    "experience": null,
+    "praisedFor": []
+  },
+  "strategy": {
+    "audience": "Hausbesitzer und Vermieter in Moosburg, Langenbach, Zolling und dem nördlichen Landkreis Freising, die ihre Heizung erneuern, eine Störung beheben lassen oder das Bad sanieren wollen",
+    "mainService": "Heizung und Sanitär – Installation, Wartung und Badsanierung",
+    "trustSignal": "Inhaber Kamil Saray direkt per Handy erreichbar, Betrieb in Moosburg",
+    "conversionGoal": "Anfrage per WhatsApp/Anruf mit Fotos von Heizung oder Bad",
+    "visualConcept": "Sauberes Bad und Heizungsraum: helle Fliesen, Kupfer- und Edelstahlrohre, klares Blau – technisch, ordentlich, greifbar"
+  },
+  "sales": {
+    "score": 4,
+    "whyGoodLead": [
+      "Keine eigene Website gefunden – nur Verzeichniseinträge und eine Kleinanzeige",
+      "Mobilnummer öffentlich gelistet – ideal für WhatsApp-Erstkontakt",
+      "Inhaber wirbt selbst über Kleinanzeigen – sucht offenbar aktiv Aufträge",
+      "Sanitär/Heizung ist bisher selten unter den Leads; Heizungstausch ist stark gefragt"
+    ],
+    "pitch": "Hallo Herr Saray, hier ist … – ich baue Websites für Handwerker im Landkreis Freising. Ich habe Ihren Eintrag „Saray Heizung Sanitär“ in Moosburg gefunden, aber keine eigene Website. Ich habe unverbindlich einen Entwurf vorbereitet, auf dem Kunden Ihre Heizungs- und Badarbeiten sehen und direkt per WhatsApp anfragen können – darf ich Ihnen den Link schicken?"
+  },
+  "manualChecks": [
+    "RESERVE – weder Google-Eintrag noch Freemail-Adresse belegt: NUR versenden, wenn Google Maps einen Eintrag OHNE Website zeigt.",
+    "Google-Eintrag in Maps suchen (Saray Heizung Sanitär, Weingraben 32, Moosburg) – Bewertungen nur übernehmen, wenn dort sichtbar",
+    "Leistungen aus Verzeichnissen zusammengetragen (11880: Heizung, Gas, Wasser, Klima-Kundendienst; blauarbeit: Badsanierung, Fliesen) – beim Erstkontakt bestätigen",
+    "Meistertitel/Handwerksrolle nicht belegt – auf der Seite nicht behaupten",
+    "Logo und Projektfotos: nicht gefunden – beim Betrieb anfragen"
+  ],
+  "sources": [
+    {
+      "label": "11880 – Saray Heizung Sanitär, Moosburg",
+      "url": "https://www.11880.com/branchenbuch/moosburg-an-der-isar/060692320B112646176/saray-heizung-sanitaer.html"
+    },
+    {
+      "label": "blauarbeit – Kamil Saray, Saray Heizung Sanitär (Branchenbuch)",
+      "url": "https://www.blauarbeit.de/heizungsinstallation/branchenbuch/volkenschwand"
+    },
+    {
+      "label": "Marktplatz Mittelstand – Firmen in Moosburg (Saray Heizung Sanitär)",
+      "url": "https://www.mein.marktplatz-mittelstand.de/moosburg/kaffeemanufaktur-aWWq5P.html"
+    },
+    {
+      "label": "Stadtbranchenbuch – Firmenverzeichnis Moosburg",
+      "url": "https://moosburg.stadtbranchenbuch.com/F/firmenverzeichnis.html"
+    },
+    {
+      "label": "tellows – Heizung, Vodafone-Nummern (Saray Heizung Sanitär)",
+      "url": "https://www.tellows.de/firmen/Vodafone/0172/Heizung/556"
+    },
+    {
+      "label": "Kleinanzeigen – Heizung-Wasser-Sanitär-Badrenovierung, Moosburg",
+      "url": "https://www.ebay-kleinanzeigen.de/s-anzeige/heizung-wasser-sanitaer-badrenovierung/2343633357-298-6540"
+    }
+  ],
+  "site": {
+    "theme": "aqua",
+    "category": "handwerk",
+    "heroOffer": [
+      "Heizung",
+      "Gasheizung",
+      "Wasserinstallation",
+      "Badsanierung",
+      "Klimaservice"
+    ],
+    "scene": "bath",
+    "logoIcon": "drop",
+    "logoMark": "SH",
+    "brandName": "Saray Heizung Sanitär",
+    "seoTitle": "Heizung & Sanitär in Moosburg – Saray Heizung Sanitär",
+    "seoDescription": "Heizungsinstallation, Wasseranlagen und Badsanierung in Moosburg an der Isar und Umgebung. Jetzt anfragen – auch per WhatsApp.",
+    "nav": [
+      {
+        "label": "Leistungen",
+        "href": "#leistungen"
+      },
+      {
+        "label": "Projekte",
+        "href": "#projekte"
+      },
+      {
+        "label": "Bewertungen",
+        "href": "#bewertungen"
+      },
+      {
+        "label": "Ablauf",
+        "href": "#ablauf"
+      },
+      {
+        "label": "FAQ",
+        "href": "#faq"
+      },
+      {
+        "label": "Kontakt",
+        "href": "#kontakt"
+      }
+    ],
+    "hero": {
+      "eyebrow": "Heizung & Sanitär · Moosburg",
+      "headline": "Heizung und Bad in Moosburg",
+      "sub": "Heizung, Wasserleitungen und Bad aus einer Hand – mit Inhaber Kamil Saray.",
+      "ctaPrimary": "Anfrage per WhatsApp",
+      "ctaSecondary": "Anrufen",
+      "bullets": [
+        "Betrieb in Moosburg an der Isar",
+        "Heizung, Wasser, Bad",
+        "Direkt per Handy erreichbar"
+      ],
+      "imageLabel": "neu installierte Heizungsanlage mit Kupferleitungen"
+    },
+    "badges": [
+      {
+        "title": "Heizung",
+        "sub": "Installation & Gas"
+      },
+      {
+        "title": "Wasser",
+        "sub": "Leitungen & Anlagen"
+      },
+      {
+        "title": "Bad",
+        "sub": "Sanierung & Fliesen"
+      },
+      {
+        "title": "Moosburg",
+        "sub": "Weingraben"
+      }
+    ],
+    "trust": [
+      {
+        "value": "Vor Ort",
+        "label": "Betrieb in Moosburg"
+      },
+      {
+        "value": "Inhaber",
+        "label": "Kamil Saray persönlich"
+      },
+      {
+        "value": "6",
+        "label": "Leistungsbereiche"
+      },
+      {
+        "value": "Mobil",
+        "label": "Anruf oder WhatsApp"
+      }
+    ],
+    "servicesIntro": {
+      "headline": "Wärme, Wasser und Bad aus einer Hand",
+      "text": "Ob neue Heizung, tropfende Leitung oder altes Bad: Ein Ansprechpartner plant und installiert – ohne Abstimmung zwischen mehreren Firmen."
+    },
+    "services": [
+      {
+        "title": "Heizungsinstallation",
+        "text": "Neue Heizungen werden montiert, angeschlossen und in Betrieb genommen.",
+        "items": [
+          "Heizungstausch",
+          "Heizkörper",
+          "Inbetriebnahme"
+        ]
+      },
+      {
+        "title": "Gasheizungen",
+        "text": "Installation und Arbeiten an Gasheizungen – vom Anschluss bis zur Übergabe.",
+        "items": [
+          "Gasthermen",
+          "Anschluss",
+          "Austausch"
+        ]
+      },
+      {
+        "title": "Wasseranlagen",
+        "text": "Leitungen für Trink- und Abwasser werden neu verlegt oder erneuert.",
+        "items": [
+          "Wasserleitungen",
+          "Abwasser",
+          "Anschlüsse"
+        ]
+      },
+      {
+        "title": "Badsanierung",
+        "text": "Das alte Bad wird zurückgebaut und mit neuer Dusche, Wanne und Armaturen ausgestattet.",
+        "items": [
+          "Dusche & Wanne",
+          "Armaturen",
+          "WC & Waschtisch"
+        ]
+      },
+      {
+        "title": "Fliesenarbeiten",
+        "text": "Wand- und Bodenfliesen im Bad – passend zur neuen Sanitärtechnik verlegt.",
+        "items": [
+          "Wandfliesen",
+          "Bodenfliesen",
+          "Fugen"
+        ]
+      },
+      {
+        "title": "Klimaanlagen-Service",
+        "text": "Kundendienst für Klimaanlagen, damit die Anlage im Sommer zuverlässig kühlt.",
+        "items": [
+          "Kundendienst",
+          "Prüfung",
+          "Wartung"
+        ]
+      }
+    ],
+    "why": {
+      "headline": "Ein Ansprechpartner für Heizung, Wasser und Bad.",
+      "points": [
+        {
+          "title": "Alles aus einer Hand",
+          "text": "Heizung, Leitungen, Bad und Fliesen – ohne Koordination mehrerer Gewerke."
+        },
+        {
+          "title": "Kurze Wege",
+          "text": "Der Betrieb sitzt in Moosburg und ist schnell in Langenbach, Zolling und Wang."
+        },
+        {
+          "title": "Inhaber am Telefon",
+          "text": "Sie sprechen direkt mit Kamil Saray – per Anruf oder WhatsApp."
+        },
+        {
+          "title": "Fotos genügen",
+          "text": "Ein Bild von Heizung oder Bad reicht für eine erste Einschätzung."
+        }
+      ]
+    },
+    "reviews": {
+      "headline": "Was Kunden sagen",
+      "summary": "Kundenstimmen werden hier eingebunden, sobald sie aus dem Google-Profil übernommen sind.",
+      "highlights": [
+        "Heizung in Moosburg",
+        "Badsanierung",
+        "Direkter Kontakt zum Inhaber"
+      ],
+      "source": "Google",
+      "sourceUrl": "https://www.google.com/maps/search/?api=1&query=Saray%20Heizung%20Sanit%C3%A4r%20Weingraben%2032%20Moosburg",
+      "rating": null,
+      "count": null
+    },
+    "process": {
+      "headline": "So läuft Ihr Auftrag ab",
+      "steps": [
+        {
+          "title": "Anfrage",
+          "text": "Fotos von Heizung, Leitung oder Bad per WhatsApp schicken – oder kurz anrufen."
+        },
+        {
+          "title": "Termin vor Ort",
+          "text": "Anlage und Räume werden angesehen, Wünsche besprochen."
+        },
+        {
+          "title": "Angebot",
+          "text": "Sie erhalten ein schriftliches Angebot für die vereinbarten Arbeiten."
+        },
+        {
+          "title": "Montage",
+          "text": "Installation, Anschluss und Übergabe mit Erklärung der neuen Technik."
+        }
+      ]
+    },
+    "gallery": {
+      "headline": "Arbeiten aus Moosburg und Umgebung",
+      "text": "Für die Live-Version zeigen wir hier echte Projekte des Betriebs.",
+      "items": [
+        {
+          "title": "Neue Heizung",
+          "photoNeeded": "frisch montierte Heizungsanlage im Heizraum"
+        },
+        {
+          "title": "Gastherme",
+          "photoNeeded": "installierte Gastherme mit sauber verlegten Leitungen"
+        },
+        {
+          "title": "Bad saniert",
+          "photoNeeded": "fertig saniertes Bad mit bodengleicher Dusche"
+        },
+        {
+          "title": "Wasserleitungen",
+          "photoNeeded": "neu verlegte Wasserleitungen vor dem Verschließen"
+        },
+        {
+          "title": "Fliesen im Bad",
+          "photoNeeded": "frisch verfugte Wand- und Bodenfliesen"
+        }
+      ]
+    },
+    "region": {
+      "headline": "Heizung und Sanitär rund um Moosburg",
+      "text": "Von Moosburg aus schnell in Langenbach, Zolling, Haag an der Amper, Wang, Bruckberg und Freising.",
+      "places": [
+        "Moosburg an der Isar",
+        "Langenbach",
+        "Zolling",
+        "Haag an der Amper",
+        "Wang",
+        "Bruckberg",
+        "Freising"
+      ]
+    },
+    "faq": [
+      {
+        "q": "Tauschen Sie auch alte Heizungen aus?",
+        "a": "Ja, Heizungsinstallation und Arbeiten an Gasheizungen gehören zum Angebot. Was zu Ihrem Haus passt, klärt der Termin vor Ort."
+      },
+      {
+        "q": "Kann ich vorab Fotos schicken?",
+        "a": "Ja, Fotos von Heizung, Leitung oder Bad per WhatsApp helfen für eine erste Einschätzung."
+      },
+      {
+        "q": "Machen Sie das ganze Bad, auch die Fliesen?",
+        "a": "Ja, Badsanierung und Fliesenarbeiten werden zusammen angeboten."
+      },
+      {
+        "q": "Warten Sie auch Klimaanlagen?",
+        "a": "Ja, Kundendienst für Klimaanlagen ist Teil des Angebots."
+      },
+      {
+        "q": "In welchen Orten sind Sie unterwegs?",
+        "a": "In Moosburg und Umgebung, etwa Langenbach, Zolling, Wang und Freising – fragen Sie einfach an."
+      }
+    ],
+    "contact": {
+      "headline": "Ihre Anfrage an Saray Heizung Sanitär",
+      "text": "Beschreiben Sie kurz, worum es geht: Heizung, Leitung, Bad oder Klimaanlage. Fotos helfen.",
+      "topics": [
+        "Heizung",
+        "Gasheizung",
+        "Wasserleitungen",
+        "Badsanierung",
+        "Klimaanlage",
+        "Sonstiges"
+      ],
+      "responseNote": "Termin vor Ort nach Absprache."
+    },
+    "quote": {
+      "sizeLabel": "Worum geht es?",
+      "sizes": [
+        "Heizung erneuern",
+        "Störung / Reparatur",
+        "Bad sanieren",
+        "Leitungen",
+        "Klimaanlage"
+      ],
+      "timings": [
+        "So bald wie möglich",
+        "In den nächsten Wochen",
+        "In 1–3 Monaten",
+        "Ich plane erst noch"
+      ]
+    },
+    "stickyCta": "Jetzt anfragen",
+    "look": {
+      "palette": 2,
+      "font": 6,
+      "hero": 0,
+      "services": 1,
+      "radius": 1,
+      "logo": 0,
+      "intro": 5
+    }
+  }
+}
