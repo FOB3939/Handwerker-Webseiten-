@@ -1,0 +1,20 @@
+{
+ "slug": "2026-10-31-wc-no-gos",
+ "topic": "3 Dinge, die nie ins WC gehören",
+ "format": "top3",
+ "style": {"theme": "dark", "transition": "slice", "bg": "blobs", "entrance": "flip"},
+ "scenes": [
+  {"type": "hook", "chip": "No-Go!", "icon": "toilet", "title": "3 Dinge, die *nie*|ins WC gehören",
+   "vo": "Drei Dinge, die nie ins WC gehören!"},
+  {"type": "list", "style": "red", "title": "Bloß *nicht!*", "vo": "Erstens:",
+   "items": [
+    {"text": "Feuchttücher – lösen sich nicht", "icon": "warning", "vo": "Feuchttücher – die lösen sich nicht auf."},
+    {"text": "Essensreste", "icon": "warning", "vo": "Zweitens: Essensreste."},
+    {"text": "Fett & Öl – wird im Rohr hart", "icon": "pipe", "vo": "Drittens: Fett und Öl – das wird im Rohr hart."}]},
+  {"type": "tip", "title": "Nur das hier!", "icon": "check", "text": "Ins WC gehört nur Toilettenpapier.",
+   "vo": "Ins WC gehört nur Toilettenpapier."},
+  {"type": "cta", "variant": "follow", "title": "Schon *verstopft?*", "handle": "Sanitär-Kundendienst · fob-fm.de",
+   "vo": "Schon verstopft? Unser Sanitär-Kundendienst hilft.",
+   "items": [{"vo": "Folgen Sie uns für mehr Tipps!"}]}
+ ]
+}

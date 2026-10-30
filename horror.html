@@ -1,0 +1,162 @@
+<!doctype html>
+<html lang="de">
+<head>
+<meta charset="utf-8">
+<style>
+@font-face{font-family:Montserrat;font-weight:600;src:url(assets/fonts/montserrat-latin-600-normal.woff2)}
+@font-face{font-family:Montserrat;font-weight:800;src:url(assets/fonts/montserrat-latin-800-normal.woff2)}
+@font-face{font-family:Oswald;font-weight:700;src:url(assets/fonts/oswald-latin-700-normal.woff2)}
+:root{--o:#FF7A00;--y:#FFD52E;--red:#E5302A;--grn:#3FBF5A;--ink:#0b0b0f}
+*{box-sizing:border-box;margin:0;padding:0}
+html,body{width:1080px;height:1920px;overflow:hidden;background:#000}
+#stage{position:relative;width:1080px;height:1920px;overflow:hidden;font-family:Montserrat,sans-serif;color:#fff;background:#050507}
+#cam{position:absolute;inset:0;transform-origin:50% 45%}
+#wall{position:absolute;inset:-60px;background-color:#2a1d16;background-image:linear-gradient(#1a110c 6px,transparent 6px),linear-gradient(90deg,#1a110c 6px,transparent 6px),linear-gradient(90deg,#1a110c 6px,transparent 6px);background-size:220px 110px,220px 220px,220px 220px;background-position:0 0,0 0,110px 110px}
+#dark{position:absolute;inset:0;pointer-events:none;z-index:6}
+.sc{position:absolute;inset:0;display:none;z-index:8}
+.a{position:absolute}
+.c{left:50px;right:50px;text-align:center}
+.h{font:800 100px Montserrat;line-height:1.02;text-transform:uppercase;text-shadow:0 8px 30px rgba(0,0,0,.8)}
+.h b{color:var(--o)}
+.chip{display:inline-block;font:800 40px Montserrat;text-transform:uppercase;padding:10px 30px;border-radius:44px}
+svg{position:absolute}
+#brand{position:absolute;left:0;right:0;top:140px;display:flex;justify-content:center;align-items:center;gap:16px;z-index:9}
+#brand img{width:76px;height:76px;border-radius:50%}
+#brand div{font:700 36px Oswald;letter-spacing:.05em;text-transform:uppercase}
+#brand b{color:var(--o)}
+#bill{left:200px;top:520px;width:680px;padding:46px 50px;background:#f4efe6;color:#222;border-radius:12px;box-shadow:0 30px 80px rgba(0,0,0,.7);font:600 40px Montserrat}
+#bill .r{display:flex;justify-content:space-between;border-bottom:2px dashed #bbb;padding:14px 0}
+#bill .tot{font:800 64px Oswald;color:var(--red);text-align:right;margin-top:20px}
+#stamp{left:170px;top:1080px;width:740px;padding:26px 0;border:10px solid var(--grn);border-radius:30px;color:var(--grn);text-align:center;font:800 62px Montserrat;text-transform:uppercase;line-height:1.05;background:rgba(5,5,7,.88)}
+.cbtn{left:120px;right:120px;height:150px;border-radius:80px;display:flex;align-items:center;justify-content:center;font:700 66px Oswald;text-transform:uppercase;background:var(--o);color:#fff;box-shadow:0 0 60px rgba(255,122,0,.55)}
+#caps{position:absolute;left:50px;right:50px;top:1560px;text-align:center;z-index:20}
+#caps div{display:inline-block;background:rgba(5,5,7,.88);border-radius:18px;padding:12px 28px;font:800 56px Montserrat;line-height:1.16}
+#caps span.on{color:var(--o)}
+#flash{position:absolute;inset:0;background:#fff;z-index:30;opacity:0}
+#prog{position:absolute;left:0;top:0;height:8px;background:var(--o);z-index:31}
+.bat{position:absolute;font-size:90px;z-index:9}
+</style>
+<script>document.write('<script src="'+(new URLSearchParams(location.search).get('data')||'data.js')+'"><\/script>')</script>
+</head>
+<body>
+<div id="stage"><div id="cam">
+<div id="wall"></div>
+<svg id="meter" viewBox="0 0 1080 1920" width="1080" height="1920" style="inset:0;z-index:5"></svg>
+<canvas id="dark" width="1080" height="1920"></canvas>
+
+<div class="sc" id="S1">
+  <div class="a c" id="psst" style="top:420px;font:800 140px Montserrat;color:#cfd3dc;letter-spacing:.06em">Psst …</div>
+  <div class="a c" id="hear" style="top:1240px;font:800 72px Montserrat;text-transform:uppercase">Hören Sie das? 👂</div>
+</div>
+<div class="sc" id="S2">
+  <div class="a c h" id="h2" style="top:300px;font-size:84px">Im Keller dreht<br>sich <b>etwas …</b></div>
+</div>
+<div class="sc" id="S3">
+  <div class="a c h" id="h3" style="top:300px;font-size:110px">Ihr <b>Strom­zähler!</b> 😱</div>
+</div>
+<div class="sc" id="S4">
+  <div class="a c h" id="h4" style="top:300px;font-size:84px">Der wahre <b>Horror</b> …</div>
+  <div class="a" id="bill"><div style="font:800 46px Montserrat;margin-bottom:10px">STROMRECHNUNG 👻</div>
+    <div class="r"><span>Verbrauch</span><span>😨</span></div><div class="r"><span>Abschlag</span><span>😱</span></div><div class="tot">€ € € !</div></div>
+  <div class="bat" id="b1">🦇</div><div class="bat" id="b2">🦇</div><div class="bat" id="b3">🦇</div>
+</div>
+<div class="sc" id="S5">
+  <div class="a c" style="top:300px"><span class="chip" id="c5" style="background:var(--o)">Licht an! 💡</span></div>
+  <div class="a c h" id="h5" style="top:400px;font-size:84px">Wir <b>vergleichen</b><br>Strom &amp; Gas</div>
+  <div class="a c" id="pump" style="top:640px;font-size:300px;line-height:1">🎃</div>
+  <div class="a" id="stamp">Kostenlos &amp;<br>unverbindlich</div>
+</div>
+<div class="sc" id="S6">
+  <img class="a" id="clogo" src="assets/logo.png" style="left:360px;top:290px;width:360px;height:360px;border-radius:50%;box-shadow:0 0 80px rgba(255,122,0,.45)">
+  <div class="a c" id="e1" style="top:720px;font:800 64px Montserrat;text-transform:uppercase;line-height:1.08">Jetzt <span style="color:var(--o)">kostenlos</span><br>vergleichen</div>
+  <div class="a cbtn" id="ebtn" style="top:930px">fob-fm.de</div>
+  <div class="a c" id="e3" style="top:1115px;font:600 40px Montserrat;color:#e8d9c8">fob-fm.de/strom-gasvergleich</div>
+  <div class="a c" id="e4" style="top:1220px;font:800 54px Montserrat;color:var(--o)">Happy Halloween 🎃</div>
+</div>
+</div>
+<div id="brand"><img src="assets/logo.png"><div>FOB <b>Strom</b> &amp; Gas</div></div>
+<div id="caps"></div><div id="flash"></div><div id="prog"></div></div>
+<script>
+const $=id=>document.getElementById(id);
+const cl=(x,a=0,b=1)=>Math.min(b,Math.max(a,x));
+const p=(t,a,d)=>cl((t-a)/d);
+const eo=x=>1-Math.pow(1-x,3);
+const io=x=>x<.5?4*x*x*x:1-Math.pow(-2*x+2,3)/2;
+const back=x=>{const c=1.8;return 1+(c+1)*Math.pow(x-1,3)+c*Math.pow(x-1,2)};
+const esc=s=>String(s).replace(/&/g,'&amp;').replace(/</g,'&lt;');
+const NS='http://www.w3.org/2000/svg';
+const el=(tag,at,par)=>{const e=document.createElementNS(NS,tag);for(const k in at)e.setAttribute(k,at[k]);par&&par.appendChild(e);return e};
+const C=CUES,T=C.total;
+const SC=[['S1',0,C.s2],['S2',C.s2,C.s3],['S3',C.s3,C.s4],['S4',C.s4,C.s5],['S5',C.s5,C.s6],['S6',C.s6,T]];
+const CUTS=[C.s3,C.s4,C.s5,C.s6];
+// meter on wall
+{const g=$('meter');
+ el('rect',{x:290,y:640,width:500,height:520,rx:30,fill:'#d9dde2',stroke:'#7d858e','stroke-width':8},g);
+ el('rect',{x:340,y:700,width:400,height:130,rx:12,fill:'#0b0b0f'},g);
+ for(let i=0;i<6;i++){el('rect',{x:354+i*64,y:716,width:54,height:98,rx:6,fill:'#1d1d24'},g);el('text',{id:'dg'+i,x:381+i*64,y:790,fill:i>3?'#E5302A':'#fff','font-family':'Oswald','font-weight':700,'font-size':72,'text-anchor':'middle'},g).textContent='0'}
+ el('text',{x:540,y:890,fill:'#3d4650','font-family':'Montserrat','font-weight':800,'font-size':36,'text-anchor':'middle'},g).textContent='kWh';
+ el('circle',{cx:540,cy:1030,r:85,fill:'#c7ccd3',stroke:'#7d858e','stroke-width':6},g);
+ el('rect',{id:'disc',x:455,y:1020,width:170,height:20,rx:10,fill:'#E5302A'},g);
+ // cable
+ el('path',{d:'M540 1160 C 540 1300 300 1300 300 1500 L 300 2000',fill:'none',stroke:'#111','stroke-width':22},g);}
+const cv=$('dark'),ctx=cv.getContext('2d');
+const R=(()=>{let s=13;return()=>((s=(s*16807)%2147483647)/2147483647)})();
+const CH=[];{let cur=[];CAPS.forEach((w,k)=>{cur.push(w);const brk=/[.,?!:;–…]$/.test(w.text)||cur.length>=4||cur.map(x=>x.text).join(' ').length>22;if(brk||k===CAPS.length-1){CH.push(cur);cur=[]}});}
+CH.forEach((c,k)=>{c.s=c[0].start;c.e=k+1<CH.length?Math.min(CH[k+1][0].start,c[c.length-1].end+.5):c[c.length-1].end+.8});
+window.render=function(t){
+  SC.forEach(([id,a,b])=>$(id).style.display=(t>=a&&t<b)?'block':'none');
+  // camera: slow creep in S1/S2, shake growing in S2, punch on cuts
+  let sx=0,sy=0,zs=1;
+  if(t<C.s3){zs=1+.08*p(t,0,C.s3);const sh=p(t,C.s2,C.s3-C.s2)*10;sx+=Math.sin(t*61)*sh;sy+=Math.cos(t*53)*sh}
+  for(const c of CUTS){if(t>=c&&t<c+.5){const k=Math.exp(-(t-c)*8);sx+=Math.sin((t-c)*83)*24*k;sy+=Math.cos((t-c)*71)*18*k;zs+=.08*k}}
+  $('cam').style.transform=`translate(${sx}px,${sy}px) scale(${zs})`;
+  let fl=0;for(const c of CUTS)if(t>=c)fl+=(c===C.s3?.9:.35)*Math.exp(-(t-c)*(c===C.s3?7:12));$('flash').style.opacity=cl(fl);
+  $('prog').style.width=(cl(t/T)*100)+'%';
+  // meter digits + disc: speed ramps up in S2/S3/S4
+  const sp=t<C.s2?.3:t<C.s5?.3+6*p(t,C.s2,C.s4-C.s2):.15;
+  const v=Math.floor(Math.pow(t+1,1+sp)*700*(1+sp))+20481;String(v).padStart(6,'0').slice(-6).split('').forEach((d,i)=>$('dg'+i).textContent=d);
+  $('disc').setAttribute('transform',`rotate(${t*200*(1+sp*8)} 540 1030)`);
+  $('meter').style.opacity=t<C.s6?1:0;$('meter').style.transform=t>=C.s3&&t<C.s4?`scale(${1.12+.04*Math.sin(t*30)})`:'none';$('meter').style.transformOrigin='540px 900px';
+  // darkness with flashlight (S1–S4), lights on in S5+
+  ctx.clearRect(0,0,1080,1920);
+  const lightsOn=eo(p(t,C.s5,.35));
+  if(lightsOn<1){
+    let fx,fy,fr;
+    if(t<C.s2){fx=540+Math.sin(t*1.3)*300;fy=900+Math.cos(t*.9)*350;fr=260}
+    else{const k=eo(p(t,C.s2,.8));fx=540+(Math.sin(t*1.3)*300)*(1-k);fy=900*(1-k)+900*k+Math.cos(t*.9)*350*(1-k);fr=260+120*k}
+    if(t>=C.s3)fr=520;
+    const flick=(Math.sin(t*37)>.92||Math.sin(t*23+1)>.97)?.55:1;
+    ctx.fillStyle=`rgba(3,3,5,${(.97)*(1-lightsOn)})`;ctx.fillRect(0,0,1080,1920);
+    ctx.globalCompositeOperation='destination-out';
+    const g=ctx.createRadialGradient(fx,fy,fr*.2,fx,fy,fr);g.addColorStop(0,`rgba(0,0,0,${flick})`);g.addColorStop(1,'rgba(0,0,0,0)');
+    ctx.fillStyle=g;ctx.beginPath();ctx.arc(fx,fy,fr,0,7);ctx.fill();ctx.globalCompositeOperation='source-over';
+    ctx.fillStyle=`rgba(255,200,120,${.08*flick*(1-lightsOn)})`;ctx.beginPath();ctx.arc(fx,fy,fr,0,7);ctx.fill();
+  }
+  $('wall').style.filter=t>=C.s5?'brightness(1.15) saturate(1.1)':(t>=C.s3&&t<C.s5?`hue-rotate(${-20}deg) brightness(${.8+.25*Math.abs(Math.sin(t*8))})`:'none');
+  // S1
+  {const k=eo(p(t,.05,.8));$('psst').style.opacity=k*(1-p(t,C.hear-.3,.4))+(t>C.hear?0:0);$('psst').style.transform=`scale(${.9+.1*k})`;$('psst').style.filter=`blur(${(1-k)*10}px)`;
+   const kh=eo(p(t,C.hear,.5));$('hear').style.opacity=kh;$('hear').style.transform=`translateY(${(1-kh)*30}px)`}
+  // S2
+  {const k=eo(p(t,C.s2+.1,.6));$('h2').style.opacity=k;$('h2').style.transform=`translateY(${(1-k)*40}px) skewX(${Math.sin(t*40)*3*p(t,C.immer,.5)}deg)`}
+  // S3 jump scare
+  {const k=back(p(t,C.s3,.35));$('h3').style.opacity=cl(p(t,C.s3,.05));$('h3').style.transform=`scale(${2-1*k}) rotate(${Math.sin(t*50)*2}deg)`}
+  // S4 bill + bats
+  {const t0=C.s4;const k=eo(p(t,t0+.1,.4));$('h4').style.opacity=k;
+   const kb=back(p(t,t0+.25,.55));$('bill').style.opacity=cl(p(t,t0+.25,.1));$('bill').style.transform=`translateY(${(1-kb)*-900}px) rotate(${-6+(1-kb)*25+Math.sin(t*3)*1.5}deg)`;
+   [[1,0],[2,.25],[3,.5]].forEach(([i,d])=>{const ph=p(t,t0+.3+d,2.2);const b=$('b'+i);b.style.left=(-150+ph*1400)+'px';b.style.top=(380+i*300+Math.sin(ph*12+i)*80)+'px';b.style.transform=`scaleX(${i%2?1:-1}) rotate(${Math.sin(t*20+i)*15}deg)`;b.style.opacity=ph>0&&ph<1?1:0})}
+  // S5 lights on + stamp
+  {const t0=C.s5;$('c5').style.transform=`scale(${back(p(t,t0,.35))})`;const k=eo(p(t,t0+.15,.4));$('h5').style.opacity=k;$('h5').style.transform=`translateY(${(1-k)*40}px)`;
+   const kp=back(p(t,t0+.3,.5));$('pump').style.transform=`scale(${kp}) rotate(${Math.sin(t*3)*6}deg)`;
+   const ks=back(p(t,C.kost,.35));$('stamp').style.opacity=cl(p(t,C.kost,.08));$('stamp').style.transform=`scale(${2.2-1.2*ks}) rotate(${-8+(1-ks)*-14}deg)`}
+  // S6
+  {const t0=C.s6;const kl=back(p(t,t0,.5));$('clogo').style.opacity=cl(p(t,t0,.15));$('clogo').style.transform=`scale(${.6+.4*kl}) rotate(${(1-kl)*-20}deg)`;
+   const k1=eo(p(t,t0+.25,.4));$('e1').style.opacity=k1;$('e1').style.transform=`translateY(${(1-k1)*40}px)`;
+   const kb=back(p(t,C.url,.45));$('ebtn').style.opacity=cl(p(t,C.url,.12));$('ebtn').style.transform=`scale(${(.7+.3*kb)*(t>C.url+.6?1+.035*Math.sin((t-C.url)*6):1)})`;
+   $('e3').style.opacity=eo(p(t,C.url+.5,.4));const k4=back(p(t,C.url+.9,.4));$('e4').style.opacity=cl(p(t,C.url+.9,.1));$('e4').style.transform=`scale(${k4})`}
+  let html='';for(const c of CH){if(t>=c.s&&t<c.e){const k=back(p(t,c.s,.16));html=`<div style="transform:scale(${.75+.25*k});opacity:${cl(p(t,c.s,.06))}">`+c.map(w=>`<span class="${t>=w.start-.03?'on':''}">${esc(w.text)}</span>`).join(' ')+'</div>';break}}
+  $('caps').innerHTML=t>=C.s6?'':html;
+};
+window.addEventListener('load',()=>document.fonts.ready.then(()=>render(0)));
+</script>
+</body>
+</html>

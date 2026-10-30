@@ -1,0 +1,105 @@
+<!doctype html>
+<html lang="de">
+<head>
+<meta charset="utf-8">
+<style>
+@font-face{font-family:Montserrat;font-weight:600;src:url(assets/fonts/montserrat-latin-600-normal.woff2)}
+@font-face{font-family:Montserrat;font-weight:800;src:url(assets/fonts/montserrat-latin-800-normal.woff2)}
+@font-face{font-family:Oswald;font-weight:700;src:url(assets/fonts/oswald-latin-700-normal.woff2)}
+:root{--g:#F0B92A;--p:#FF3D7F;--c:#22C3E6;--grn:#3FBF5A;--ink:#141018}
+*{box-sizing:border-box;margin:0;padding:0}
+html,body{width:1080px;height:1920px;overflow:hidden;background:#000}
+#stage{position:relative;width:1080px;height:1920px;overflow:hidden;font-family:Montserrat,sans-serif;color:#fff;background:radial-gradient(circle at 50% 35%,#3a1e5c 0%,#140a22 75%)}
+#rays{position:absolute;left:-460px;top:-500px;width:2000px;height:2000px;background:repeating-conic-gradient(rgba(255,255,255,.06) 0 10deg,transparent 10deg 20deg);border-radius:50%}
+#cam{position:absolute;inset:0;transform-origin:50% 45%}
+.a{position:absolute}
+.c{left:50px;right:50px;text-align:center}
+#brand{position:absolute;left:0;right:0;top:140px;display:flex;justify-content:center;align-items:center;gap:16px;z-index:9}
+#brand img{width:76px;height:76px;border-radius:50%}
+#brand div{font:700 36px Oswald;letter-spacing:.05em;text-transform:uppercase}
+#brand b{color:var(--g)}
+#title{top:250px;font:800 104px Montserrat;text-transform:uppercase;line-height:1;text-shadow:0 8px 0 #000}
+#title b{color:var(--g)}
+#card{left:90px;top:480px;width:900px;height:900px;background:#fff;border-radius:40px;padding:24px;display:grid;grid-template-columns:1fr 1fr;gap:24px;box-shadow:0 30px 80px rgba(0,0,0,.6)}
+.cell{position:relative;border-radius:26px;display:flex;flex-direction:column;align-items:center;justify-content:center;text-align:center;color:var(--ink);overflow:hidden}
+.cell .e{font-size:150px;line-height:1.05}
+.cell .t{font:800 40px Montserrat;line-height:1.1;padding:0 14px;margin-top:8px}
+.dab{position:absolute;left:50%;top:44%;width:300px;height:300px;margin:-150px 0 0 -150px;border-radius:50%;background:rgba(255,61,127,.55);border:10px solid var(--p);display:flex;align-items:center;justify-content:center;font:800 120px Montserrat;color:#fff}
+.done{position:absolute;inset:0;background:rgba(63,191,90,.92);display:flex;align-items:center;justify-content:center;font:800 54px Montserrat;color:#fff;text-transform:uppercase}
+#bingo{left:0;right:0;top:760px;text-align:center;font:700 300px Oswald;color:var(--g);text-shadow:0 0 0 #000,10px 10px 0 var(--p),20px 20px 0 #000;letter-spacing:.02em;z-index:12}
+#conf{position:absolute;inset:0;z-index:13;pointer-events:none}
+#fix{top:1420px;font:800 64px Montserrat;text-transform:uppercase;line-height:1.08}
+#fix b{color:var(--grn)}
+#end{position:absolute;inset:0;z-index:14;display:none;background:radial-gradient(circle at 50% 40%,#3a1e5c,#0d0716 75%)}
+.cbtn{left:120px;right:120px;height:150px;border-radius:80px;display:flex;align-items:center;justify-content:center;font:700 72px Oswald;text-transform:uppercase;background:var(--g);color:var(--ink);box-shadow:0 0 60px rgba(240,185,42,.5)}
+#caps{position:absolute;left:50px;right:50px;top:1600px;text-align:center;z-index:20}
+#caps div{display:inline-block;background:rgba(13,7,22,.9);border-radius:18px;padding:12px 28px;font:800 56px Montserrat;line-height:1.16}
+#caps span.on{color:var(--g)}
+#flash{position:absolute;inset:0;background:#fff;z-index:30;opacity:0}
+#prog{position:absolute;left:0;top:0;height:8px;background:var(--g);z-index:31}
+</style>
+<script>document.write('<script src="'+(new URLSearchParams(location.search).get('data')||'data.js')+'"><\/script>')</script>
+</head>
+<body>
+<div id="stage"><div id="rays"></div><div id="cam">
+  <div class="a c" id="title">Hausmeister-<br><b>Bingo!</b> 🎱</div>
+  <div class="a" id="card"></div>
+  <div class="a" id="bingo">BINGO!</div>
+  <div class="a c" id="fix">Kein Problem –<br><b>wir kümmern uns</b> ✓</div>
+  <canvas id="conf" width="1080" height="1920"></canvas>
+  <div id="end">
+    <img class="a" id="clogo" src="assets/logo.png" style="left:360px;top:300px;width:360px;height:360px;border-radius:50%;box-shadow:0 0 80px rgba(240,185,42,.45)">
+    <div class="a c" id="e1" style="top:730px;font:800 62px Montserrat;text-transform:uppercase;line-height:1.08"><span style="color:var(--g)">Hausmeisterservice</span><br>jetzt anfragen</div>
+    <div class="a cbtn" id="ebtn" style="top:940px">fob-fm.de</div>
+    <div class="a c" id="e3" style="top:1130px;font:600 40px Montserrat;color:#e6dcf3">Treppenhaus · Grünpflege · Winterdienst<br>Weßling-Hochstadt · München &amp; Umgebung</div>
+  </div>
+</div>
+<div id="brand"><img src="assets/logo.png"><div>FOB <b>Hausmeister</b></div></div>
+<div id="caps"></div><div id="flash"></div><div id="prog"></div></div>
+<script>
+const $=id=>document.getElementById(id);
+const cl=(x,a=0,b=1)=>Math.min(b,Math.max(a,x));
+const p=(t,a,d)=>cl((t-a)/d);
+const eo=x=>1-Math.pow(1-x,3);
+const back=x=>{const c=1.8;return 1+(c+1)*Math.pow(x-1,3)+c*Math.pow(x-1,2)};
+const esc=s=>String(s).replace(/&/g,'&amp;').replace(/</g,'&lt;');
+const C=CUES,T=C.total;
+const CELLS=[['🚲','Fahrrad im<br>Treppenhaus','#FFE3EC'],['🍂','Laub vor der<br>Haustür','#FFF1D6'],['💡','Licht im Keller<br>kaputt','#E0F7FC'],['🗑️','Mülltonnen<br>voll','#E8F8E8']];
+const EL=CELLS.map(([e,t,bg])=>{const d=document.createElement('div');d.className='cell';d.style.background=bg;d.innerHTML=`<div class="e">${e}</div><div class="t">${t}</div><div class="dab">✓</div><div class="done">✓ Erledigt</div>`;$('card').appendChild(d);return d});
+const cv=$('conf'),ctx=cv.getContext('2d');const R=(()=>{let s=21;return()=>((s=(s*16807)%2147483647)/2147483647)})();
+const CF=[...Array(160)].map(()=>({x:540+(R()-.5)*200,y:900,vx:(R()-.5)*1800,vy:-600-R()*1400,r:R()*6,c:['#F0B92A','#FF3D7F','#22C3E6','#3FBF5A','#fff'][Math.floor(R()*5)],s:8+R()*12}));
+const CH=[];{let cur=[];CAPS.forEach((w,k)=>{cur.push(w);const brk=/[.,?!:;–]$/.test(w.text)||cur.length>=4||cur.map(x=>x.text).join(' ').length>22;if(brk||k===CAPS.length-1){CH.push(cur);cur=[]}});}
+CH.forEach((c,k)=>{c.s=c[0].start;c.e=k+1<CH.length?Math.min(CH[k+1][0].start,c[c.length-1].end+.5):c[c.length-1].end+.8});
+window.render=function(t){
+  let sx=0,sy=0,zs=1+.012*Math.sin(t*1.1);
+  const hits=[...C.items,C.bingo,C.fix,C.end];
+  for(const c of hits){if(t>=c&&t<c+.45){const k=Math.exp(-(t-c)*9);zs+=(c===C.bingo?.12:.05)*k;sx+=Math.sin((t-c)*90)*(c===C.bingo?26:10)*k;sy+=Math.cos((t-c)*70)*(c===C.bingo?20:6)*k}}
+  $('cam').style.transform=`translate(${sx}px,${sy}px) scale(${zs})`;
+  $('rays').style.transform=`rotate(${t*12}deg)`;
+  $('flash').style.opacity=cl((t>=C.bingo?.5*Math.exp(-(t-C.bingo)*10):0)+(t>=C.end?.35*Math.exp(-(t-C.end)*12):0));
+  $('prog').style.width=(cl(t/T)*100)+'%';
+  // title + card in
+  const kt=back(p(t,0,.45));$('title').style.transform=`scale(${1.5-.5*kt}) rotate(${(1-kt)*-6}deg)`;$('title').style.opacity=cl(p(t,0,.1));
+  const kc=back(p(t,.35,.55));$('card').style.transform=`translateY(${(1-kc)*900}px) rotate(${(1-kc)*8}deg) scale(${t>=C.bingo&&t<C.bingo+.5?1+.04*Math.sin((t-C.bingo)*30):1})`;
+  EL.forEach((e,i)=>{const ti=C.items[i];const kd=back(p(t,ti,.3));const d=e.querySelector('.dab');d.style.opacity=cl(p(t,ti,.06));d.style.transform=`scale(${kd*(t>ti?1:0)}) rotate(${(1-kd)*-40}deg)`;
+    const kk=eo(p(t,C.fix+.25+i*.18,.3));const dn=e.querySelector('.done');dn.style.clipPath=`inset(0 ${100-kk*100}% 0 0)`;
+    e.style.transform=t>=ti&&t<ti+.3?`scale(${1+.06*Math.sin((t-ti)/.3*Math.PI)})`:'none'});
+  // BINGO
+  const kb=back(p(t,C.bingo,.4));$('bingo').style.opacity=t>=C.bingo&&t<C.fix?cl(p(t,C.bingo,.05)):0;$('bingo').style.transform=`scale(${(2.4-1.4*kb)}) rotate(${-8+Math.sin(t*14)*3}deg)`;
+  ctx.clearRect(0,0,1080,1920);
+  if(t>=C.bingo&&t<C.end){const d=t-C.bingo;for(const f of CF){const x=f.x+f.vx*d,y=f.y+f.vy*d+900*d*d;if(y>1980)continue;ctx.save();ctx.translate(x,y);ctx.rotate(f.r+d*8);ctx.fillStyle=f.c;ctx.fillRect(-f.s/2,-f.s/4,f.s,f.s/2);ctx.restore()}}
+  // fix line
+  const kf=eo(p(t,C.fix,.4));$('fix').style.opacity=t<C.end?kf:0;$('fix').style.transform=`translateY(${(1-kf)*40}px)`;
+  // end card
+  const e=t>=C.end;$('end').style.display=e?'block':'none';
+  if(e){const kl=back(p(t,C.end,.5));$('clogo').style.transform=`scale(${.6+.4*kl})`;$('clogo').style.opacity=cl(p(t,C.end,.15));
+    const k1=eo(p(t,C.end+.2,.4));$('e1').style.opacity=k1;$('e1').style.transform=`translateY(${(1-k1)*40}px)`;
+    const k2=back(p(t,C.url,.45));$('ebtn').style.opacity=cl(p(t,C.url,.12));$('ebtn').style.transform=`scale(${(.7+.3*k2)*(t>C.url+.6?1+.035*Math.sin((t-C.url)*6):1)})`;
+    $('e3').style.opacity=eo(p(t,C.url+.5,.4))}
+  let html='';for(const c of CH){if(t>=c.s&&t<c.e){const k=back(p(t,c.s,.16));html=`<div style="transform:scale(${.75+.25*k});opacity:${cl(p(t,c.s,.06))}">`+c.map(w=>`<span class="${t>=w.start-.03?'on':''}">${esc(w.text)}</span>`).join(' ')+'</div>';break}}
+  $('caps').innerHTML=(t>=C.end||(t>=C.fix-.05&&t<C.end))?'':html;
+};
+window.addEventListener('load',()=>document.fonts.ready.then(()=>render(0)));
+</script>
+</body>
+</html>
