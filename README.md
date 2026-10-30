@@ -259,3 +259,17 @@ Ab diesem Lauf im Stil „Kante“ (dunkel, schmale Versal-Überschrift mit farb
 - Auf Wunsch: Angela Freilinger Malerbetrieb (Seefeld-Meiling): https://claude.ai/artifact/8ax5p3aPBPiekwwf5Jo9jr
 
 Seit 29.10. zeigt jede Leistung ein eigenes, als „Symbolbild“ gekennzeichnetes Motiv (passend zum Leistungsnamen, `serviceScene()` in components/DemoSite.tsx).
+
+## Entwürfe 2026-10-30
+
+- WhatsApp-Entwürfe: https://claude.ai/artifact/XZhisw4FNFmJXWZgaLj5ME
+- Thaci Bodenleger (Olching): https://claude.ai/artifact/CAmxvZbSDvdu5S8fLNTgE4
+- Michael Baumgartner Malereibetrieb (Olching): https://claude.ai/artifact/JzZg4iiYHrYfEpb1bjDRuU
+- Josef Sandmeier Zimmerei und Holzbau (Dachau): https://claude.ai/artifact/1rVVQN9GaobbGwXtGYTuEL
+- Maler Iurato Salvatore (Penzberg): https://claude.ai/artifact/BaBsiNAtwcgtC9m4mqVUyy
+- R. Bach Heizung-Sanitär-Solar (Kaufering): https://claude.ai/artifact/9JhKRH1iAfbFwZsELt69Qb
+- Altbau Renovierung (Rudelzhausen): https://claude.ai/artifact/QzhmVJ56NZHi6YwADXmHvT
+- Hausmeisterservice Matijevic (Nandlstadt): https://claude.ai/artifact/DCyMLUEnTA3gVfCVC5DbrM
+- Ulrich Oberhauser Elektro (Reichertshausen): https://claude.ai/artifact/9WzsNEBYr9wg4cwtYJYrN8
+- Franz-Josef Wolf Heizungsbau und Sanitäre Anlagen (Röhrmoos): https://claude.ai/artifact/NSUtaZ3sBYpMH3NTn3pmGQ
+- Haus Gartenservice (Erding): https://claude.ai/artifact/3oRAo7vYSAssQHy1hXwVGr

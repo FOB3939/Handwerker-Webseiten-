@@ -1,120 +1,118 @@
 {
   "id": "2026-10-30-177",
-  "slug": "elektro-wintergerst-andechs",
+  "slug": "maler-iurato-penzberg",
   "date": "2026-10-30",
   "company": {
-    "name": "Elektro Martin Wintergerst",
-    "owner": "Martin Wintergerst",
-    "trade": "Elektroinstallation",
-    "city": "Andechs",
-    "address": "Andechser Straße 23, 82346 Andechs (Erling)",
-    "phone": "0171 6542063",
+    "name": "Maler Iurato Salvatore",
+    "owner": "Salvatore Iurato",
+    "trade": "Malerbetrieb",
+    "city": "Penzberg",
+    "address": "Heimgartenstr. 16, 82377 Penzberg",
+    "phone": "08856 8030830",
     "email": null,
     "serviceArea": [
-      "Andechs",
-      "Erling",
-      "Herrsching",
-      "Machtlfing",
-      "Pähl",
-      "Seefeld"
+      "Penzberg",
+      "Iffeldorf",
+      "Sindelsdorf",
+      "Bichl",
+      "Bad Heilbrunn",
+      "Seeshaupt"
     ]
   },
   "listings": {
     "google": {
-      "url": "https://www.google.com/maps/search/?api=1&query=Elektro%20Wintergerst%20Andechser%20Straße%2023%20Andechs",
+      "url": "https://www.google.com/maps/search/?api=1&query=Salvatore%20Iurato%20Maler%20Heimgartenstr.%2016%20Penzberg",
       "rating": null,
       "reviews": null,
-      "evidence": "Nur indirekt belegt: firmania.de (Google-Spiegel) führt „Elektro Wintergerst Martin“, Raiffeisenstraße 13, 82346 Andechs (Erling) – ohne Bewertungsangabe und mit dem Status „Geschlossen“ (unklar, ob nur Öffnungsstatus oder dauerhaft geschlossen). trustlocal und rgv-bayern ohne Treffer; 11880 meldet „noch keine Bewertungen“. In Maps prüfen."
+      "evidence": "INDIREKT (Spiegel) – penzberg.deutschbranchenbuch.com führt „Salvatore Iurato – Maler – Heimgartenstraße 16, 82377 Penzberg“ unter der Google-Kategorie „painter“ mit Bewertungsrubrik (Google-Places-Spiegel). Keine Bewertungsanzahl im Snippet, kein Website-Feld. Kein Treffer bei trustlocal/rgv-bayern/firmania, kein direkter google.com/maps-Treffer – in Maps prüfen."
     },
     "myhammer": {
-      "url": "https://www.11880.com/branchenbuch/andechs/060691303B26731723/elektro-wintergerst-martin.html",
+      "url": "https://www.11880.com/suche/maler/benediktbeuern",
       "rating": null,
       "reviews": null,
-      "evidence": "Kein MyHammer gefunden – 11880-Einträge „Elektro Wintergerst Martin“ (Raiffeisenstr. 13, 08152 6559) und „Elektro Wintergerst Martin Elektro“ (Andechser Str. 23, 0171 6542063); außerdem wirsindhandwerk.de, bundes-telefonbuch, Das Telefonbuch (Eintrag nicht vom Inhaber bestätigt)."
+      "evidence": "Kein MyHammer gefunden – Eintrag „Maler iurato Salvatore“ in der 11880-Malerliste (Heimgartenstr. 16, 82377 Penzberg-Steigenberg, (08856) 8030830; zweite Adresse St.-Klara-Straße 21, (08856) 8000880), außerdem maler.org, stadtbranchenbuch (dort zusätzlich 0174 7511590) und deutschbranchenbuch."
     }
   },
   "websiteStatus": "keine eigene Website gefunden",
   "websiteChecks": [
-    "(1) „Wintergerst Elektro Andechs“ mit blocked_domains (11880, Gelbe Seiten, Das Örtliche, Telefonbuch, Cylex, meinestadt, Creditreform, Facebook, Instagram, golocal, MyHammer, Northdata, Firmenwissen, WKDB, Yelp, trustlocal, wlw) – nur Verzeichnisse (wirsindhandwerk.de, bundes-telefonbuch, starofservice, handwerker-anzeiger, branchen-info); keine eigene Domain, kein Website-Feld",
-    "(2) Domain-Check allowed_domains elektro-wintergerst.de, wintergerst-elektro.de, elektrowintergerst.de, wintergerst-andechs.de, elektro-wintergerst-andechs.de, martin-wintergerst.de, wintergerst.de, elektro-wintergerst.com – einziger Treffer wintergerst.de (Wintergerst-Gruppe Augsburg, Bahnhofs-Shops/E-Zigaretten) – fremd",
-    "(3) Telefonsuche „0171 6542063“/„01716542063“/„0171/6542063“ – keine Treffer",
-    "(4) Impressum-Suche „Impressum Martin Wintergerst Elektro Andechs Inhaber“ – kein Impressum; Das-Telefonbuch-Eintrag nicht vom Inhaber bestätigt",
-    "(5) Bewertungs-/Spiegelsuche (trustlocal, firmania, rgv-bayern, 11880) – keine Bewertungen, kein Google-Beleg",
-    "Website-Risiko: niedrig – alle Prüfungen negativ; aber weder Google-Eintrag noch Freemail belegt, Verzeichnisdaten teils alt (2012–2021)"
+    "(1) „Iurato Maler Penzberg Heimgartenstr“ mit blocked_domains (11880, Gelbe Seiten, Das Örtliche, Telefonbuch, Cylex, meinestadt, Creditreform, Facebook, Instagram, golocal, MyHammer, Northdata, Firmenwissen, WKDB, Yelp, trustlocal, wlw) – nur Verzeichnisse (maler.org, stadtbranchenbuch, deutschbranchenbuch, branchenbuch24); keine eigene Domain",
+    "(2) Domain-Check allowed_domains maler-iurato.de, iurato.de, iurato-maler.de, malerbetrieb-iurato.de, salvatore-iurato.de, iurato-penzberg.de, maler-iurato-penzberg.de, iurato-salvatore.de – keine Treffer",
+    "(3) Telefonsuche „0174 7511590“/„01747511590“/„08856 8030830“ mit blocked_domains – keine Treffer, keine Website",
+    "(4) „Impressum Salvatore Iurato Malerbetrieb Penzberg Inhaber“ – kein eigenes Impressum, nur Verzeichnisse; fensterbau.org führt denselben Namen zusätzlich unter „Fenstereinbau“",
+    "(5) Google-Spiegel deutschbranchenbuch – kein Website-Feld sichtbar; keine E-Mail gefunden (auch keine Freemail)",
+    "Website-Risiko: mittel – alle Prüfungen negativ, Google-Eintrag nur indirekt über deutschbranchenbuch-Spiegel belegt, keine Freemail"
   ],
   "facts": {
     "services": [
-      "Elektroinstallation",
-      "Elektroreparatur",
-      "Elektrogeräte und -bedarf"
+      "Malerarbeiten",
+      "Maler- und Lackiererarbeiten"
     ],
     "experience": null,
     "praisedFor": []
   },
   "strategy": {
-    "audience": "Hauseigentümer, Mieter und Landwirte in Andechs, Erling, Machtlfing und Herrsching, die einen Elektriker für Installation, Erweiterung oder Reparatur suchen",
-    "mainService": "Elektroinstallation und Reparatur rund ums Haus",
-    "trustSignal": "Elektriker aus Erling, direkt per Handy erreichbar",
-    "conversionGoal": "Anruf oder WhatsApp mit kurzer Beschreibung des Elektro-Problems",
-    "visualConcept": "Aufgeräumter Sicherungskasten, saubere Leitungsführung, warmes Licht in einem oberbayerischen Wohnhaus"
+    "audience": "Hauseigentümer, Mieter und Vermieter in Penzberg und den Orten rund um den Starnberger See und das Loisachtal, die Wohnräume, Treppenhäuser oder Fassaden streichen lassen wollen",
+    "mainService": "Malerarbeiten innen und außen",
+    "trustSignal": "Inhabergeführter Malerbetrieb in Penzberg-Steigenberg, direkter Ansprechpartner Salvatore Iurato",
+    "conversionGoal": "Kostenloses Angebot für Malerarbeiten anfragen (Anruf oder Formular mit Fotos)",
+    "visualConcept": "Warme, frisch gestrichene Wohnräume mit klaren Kanten, Abdeckfolie und Farbrolle – ordentlich und hell"
   },
   "sales": {
     "score": 4,
     "whyGoodLead": [
-      "Keine eigene Website gefunden – nur ältere Verzeichniseinträge",
-      "Mobilnummer öffentlich gelistet – direkter Erstkontakt möglich",
-      "Elektro ist im Lead-Bestand selten und stark gefragt",
-      "Kaum Online-Sichtbarkeit (keine Bewertungen) – Website bringt schnell Anfragen"
+      "Keine eigene Website gefunden – nur Verzeichniseinträge",
+      "Inhabergeführter Kleinbetrieb mit Personenname – Website schafft Vertrauen",
+      "Mobilnummer in einem Verzeichnis gelistet – Erstkontakt per WhatsApp möglich",
+      "Malerarbeiten werden oft online gesucht – ohne Website gehen Anfragen an Mitbewerber"
     ],
-    "pitch": "Grüß Gott, hier ist … – ich baue Websites für Handwerker am Ammersee. Ich habe Elektro Wintergerst in Andechs im Verzeichnis gefunden, aber keine eigene Website. Ich habe unverbindlich einen Entwurf vorbereitet, über den Kunden aus Andechs und Herrsching Sie direkt anrufen oder per WhatsApp anfragen können – darf ich Ihnen den Link schicken?"
+    "pitch": "Grüß Gott Herr Iurato, hier ist … – ich baue Websites für Handwerksbetriebe im Oberland. Ich habe Ihren Malerbetrieb in Penzberg in den Branchenbüchern gefunden, aber keine eigene Website. Ich habe unverbindlich einen Entwurf vorbereitet, über den Kunden aus Penzberg und Umgebung direkt ein Angebot anfragen können – darf ich Ihnen den Link schicken?"
   },
   "manualChecks": [
-    "Website-Risiko: mittel – vor Versand in Google Maps prüfen, dass keine Website hinterlegt ist (Grund: alle Website-Prüfungen negativ, Google-Eintrag aber nur über firmania-Spiegel belegt und dort als „Geschlossen“ markiert)",
-    "Betrieb aktiv? firmania zeigt beim Google-Eintrag (Raiffeisenstr. 13) „Geschlossen“ – in Google Maps prüfen, ob „Dauerhaft geschlossen“; falls ja, NICHT versenden",
-    "Betrieb aktiv? Verzeichnisdaten teils alt (bundes-telefonbuch 2012/2014, 11880-Eintrag Raiffeisenstr. zuletzt 2021) – vor Versand bestätigen",
-    "Zwei Adressen/Nummern: Andechser Str. 23 (0171 6542063) und Raiffeisenstr. 13 (08152 6559), zusätzlich 08157 8378 in einem Verzeichnis – klären, welche gilt",
-    "Leistungen nur grob belegt (Elektroinstallation, Elektroreparatur, Elektrogeräte) – Detailleistungen (Beleuchtung, Verteilung, E-Check, Wallbox) beim Betrieb bestätigen",
-    "„Meister“ nirgends belegt – nicht verwenden",
+    "Website-Risiko: mittel – vor Versand in Google Maps prüfen, dass keine Website hinterlegt ist (Grund: Google-Eintrag nur indirekt über deutschbranchenbuch-Spiegel belegt, keine Freemail)",
+    "Google-Eintrag in Maps bestätigen (Existenz, Bewertungsanzahl unbekannt)",
+    "Zwei Adressen/Nummern: Heimgartenstr. 16 / 08856 8030830 und St.-Klara-Straße 21 / 08856 8000880 (11880) – klären, welche gilt",
+    "Mobilnummer 0174 7511590 nur in einem Verzeichnis (stadtbranchenbuch) – vor WhatsApp-Kontakt bestätigen",
+    "Leistungen nur grob belegt (Malerarbeiten, Maler/Lackierer); fensterbau.org nennt auch „Fenstereinbau“ – Detailleistungen (Fassade, Tapezieren, Lackieren) beim Betrieb bestätigen",
     "Logo und Projektfotos: nicht gefunden – beim Betrieb anfragen"
   ],
   "sources": [
     {
-      "label": "11880 – Elektro Wintergerst Martin, Andechs",
-      "url": "https://www.11880.com/branchenbuch/andechs/060691303B26731723/elektro-wintergerst-martin.html"
+      "label": "11880 – Malerliste (Maler iurato Salvatore, Penzberg)",
+      "url": "https://www.11880.com/suche/maler/benediktbeuern"
     },
     {
-      "label": "11880 – Elektro Herrsching (Liste mit Wintergerst, Andechser Str. 23)",
-      "url": "https://www.11880.com/suche/elektro/herrsching"
+      "label": "deutschbranchenbuch – Salvatore Iurato, Maler, Penzberg (Google-Places-Spiegel)",
+      "url": "https://penzberg.deutschbranchenbuch.com/painter/salvatore-iurato/"
     },
     {
-      "label": "wirsindhandwerk.de – Elektro Martin Wintergerst",
-      "url": "https://www.wirsindhandwerk.de/elektro-martin-wintergerst"
+      "label": "maler.org – Iurato Salvatore, Penzberg",
+      "url": "https://www.maler.org/penzberg/iurato-salvatore-aUOATa"
     },
     {
-      "label": "Bundes-Telefonbuch – Elektro Wintergerst Martin",
-      "url": "https://www.bundes-telefonbuch.de/andechs/elektrotechnik/elektro-wintergerst-martin-bvg204033374"
+      "label": "Stadtbranchenbuch – Salvatore Iurato, Heimgartenstr. 16",
+      "url": "https://penzberg.stadtbranchenbuch.com/5234386.html"
     },
     {
-      "label": "Das Telefonbuch – Elektro Wintergerst Martin, Andechser Str.",
-      "url": "https://adresse.dastelefonbuch.de/Andechs/1-Elektroger%C3%A4te-und-bedarf-Elektro-Wintergerst-Martin-Andechs-Andechser-Str.html"
+      "label": "fensterbau.org – Iurato Salvatore, Penzberg",
+      "url": "https://www.fensterbau.org/penzberg/iurato-salvatore-aUOAT9"
     }
   ],
   "site": {
-    "theme": "volt",
+    "theme": "atelier",
     "category": "handwerk",
     "heroOffer": [
-      "Elektroinstallation",
-      "Reparaturen",
-      "Beleuchtung",
-      "Steckdosen",
-      "Fehlersuche"
+      "Innenanstrich",
+      "Fassade",
+      "Lackieren",
+      "Tapezieren",
+      "Renovierung"
     ],
-    "scene": "electric",
-    "logoIcon": "bolt",
-    "logoMark": "EW",
-    "brandName": "Elektro Wintergerst",
-    "seoTitle": "Elektriker in Andechs – Elektro Wintergerst",
-    "seoDescription": "Elektroinstallation und Reparaturen in Andechs, Erling und Herrsching. Direkt anrufen oder per WhatsApp anfragen.",
+    "scene": "paint",
+    "logoIcon": "roller",
+    "logoMark": "SI",
+    "brandName": "Maler Iurato",
+    "seoTitle": "Maler in Penzberg – Salvatore Iurato",
+    "seoDescription": "Malerarbeiten innen und außen in Penzberg und Umgebung: Wände, Decken, Fassaden und Lackierarbeiten. Jetzt kostenloses Angebot anfragen.",
     "nav": [
       {
         "label": "Leistungen",
@@ -142,132 +140,132 @@
       }
     ],
     "hero": {
-      "eyebrow": "Elektro · Andechs",
-      "headline": "Ihr Elektriker in Andechs",
-      "sub": "Installation, Erweiterung und Reparatur – vom Elektriker aus Erling.",
-      "ctaPrimary": "Jetzt anfragen",
+      "eyebrow": "Malerbetrieb · Penzberg",
+      "headline": "Malerarbeiten in Penzberg",
+      "sub": "Wände, Decken und Fassaden frisch gestrichen – von Salvatore Iurato aus Penzberg-Steigenberg.",
+      "ctaPrimary": "Kostenloses Angebot anfragen",
       "ctaSecondary": "Anrufen",
       "bullets": [
-        "Elektriker aus Andechs-Erling",
-        "Installation und Reparatur",
-        "Direkt per Handy erreichbar"
+        "Malerbetrieb aus Penzberg",
+        "Innen und außen",
+        "Direkter Ansprechpartner"
       ],
-      "imageLabel": "aufgeräumter Sicherungskasten mit beschrifteten Leitungsschutzschaltern"
+      "imageLabel": "frisch gestrichenes Wohnzimmer mit Farbrolle und Abdeckfolie"
     },
     "badges": [
       {
-        "title": "Installation",
-        "sub": "Neubau & Umbau"
+        "title": "Innenräume",
+        "sub": "Wände & Decken"
       },
       {
-        "title": "Reparatur",
-        "sub": "wenn etwas ausfällt"
+        "title": "Fassade",
+        "sub": "Anstrich außen"
       },
       {
-        "title": "Beleuchtung",
-        "sub": "innen & außen"
+        "title": "Lackieren",
+        "sub": "Türen & Holz"
       },
       {
-        "title": "Andechs",
-        "sub": "Erling"
+        "title": "Penzberg",
+        "sub": "Heimgartenstraße"
       }
     ],
     "trust": [
       {
         "value": "Vor Ort",
-        "label": "Betrieb in Andechs"
+        "label": "Betrieb in Penzberg"
       },
       {
-        "value": "Mobil",
-        "label": "direkt erreichbar"
+        "value": "Inhaber",
+        "label": "Salvatore Iurato"
       },
       {
-        "value": "Haus & Hof",
-        "label": "Installation und Reparatur"
+        "value": "Innen & außen",
+        "label": "Malerarbeiten"
       },
       {
-        "value": "Ammersee",
-        "label": "kurze Wege"
+        "value": "Direkt",
+        "label": "ohne Umwege erreichbar"
       }
     ],
     "servicesIntro": {
-      "headline": "Strom, der zuverlässig fließt",
-      "text": "Ob neue Steckdose, Umbau im Altbau oder ein Defekt: Der Elektriker aus Erling kümmert sich um Installation und Reparatur im Haus."
+      "headline": "Farbe für Wohnung, Haus und Fassade",
+      "text": "Ob ein einzelnes Zimmer vor dem Einzug oder das ganze Treppenhaus: Sie bekommen saubere Kanten, abgedeckte Böden und einen Ansprechpartner von der Anfrage bis zur Übergabe."
     },
     "services": [
       {
-        "title": "Elektroinstallation",
-        "text": "Neue Leitungen, Schalter und Steckdosen – für Neubau, Umbau oder Renovierung.",
+        "title": "Innenanstrich",
+        "text": "Wände und Decken in Wohnung und Haus neu streichen – vom Kinderzimmer bis zum offenen Wohnbereich.",
         "items": [
-          "Leitungen verlegen",
-          "Schalter & Steckdosen",
-          "Umbau & Renovierung"
+          "Wände",
+          "Decken",
+          "Farbwahl"
         ]
       },
       {
-        "title": "Elektroreparatur",
-        "text": "Wenn etwas nicht mehr funktioniert, wird der Fehler gesucht und behoben.",
+        "title": "Fassadenanstrich",
+        "text": "Ein neuer Anstrich schützt die Außenwand und lässt das Haus wieder gepflegt aussehen.",
         "items": [
-          "Fehlersuche",
-          "Defekte beheben",
-          "Austausch von Bauteilen"
+          "Reinigen",
+          "Grundieren",
+          "Streichen"
         ]
       },
       {
-        "title": "Beleuchtung",
-        "text": "Leuchten innen und außen anschließen – vom Wohnzimmer bis zur Hofeinfahrt.",
+        "title": "Lackierarbeiten",
+        "text": "Türen, Zargen, Heizkörper und Holzflächen bekommen eine neue, widerstandsfähige Oberfläche.",
         "items": [
-          "Innenleuchten",
-          "Außenbeleuchtung",
-          "Lampen anschließen"
+          "Türen",
+          "Heizkörper",
+          "Holzteile"
         ]
       },
       {
-        "title": "Erweiterungen",
-        "text": "Zusätzliche Steckdosen und Stromkreise, wenn Küche, Werkstatt oder Garage mehr Strom brauchen.",
+        "title": "Tapezieren",
+        "text": "Alte Tapeten runter, Untergrund vorbereiten, neue Tapete glatt und auf Stoß verklebt.",
         "items": [
-          "Zusätzliche Steckdosen",
-          "Neue Stromkreise",
-          "Garage & Werkstatt"
+          "Tapete entfernen",
+          "Raufaser",
+          "Vliestapete"
         ]
       },
       {
-        "title": "Geräteanschluss",
-        "text": "Herd, Backofen und andere Elektrogeräte werden fachgerecht angeschlossen.",
+        "title": "Spachteln & Ausbessern",
+        "text": "Risse, Dübellöcher und unebene Stellen werden vor dem Streichen sauber geschlossen.",
         "items": [
-          "Herdanschluss",
-          "Haushaltsgeräte",
-          "Elektrobedarf"
+          "Risse",
+          "Löcher",
+          "Glätten"
         ]
       },
       {
-        "title": "Altbau-Elektrik",
-        "text": "Alte Leitungen und Verteilungen werden geprüft und bei Bedarf erneuert.",
+        "title": "Renovierung bei Auszug",
+        "text": "Wohnung für die Übergabe streichen lassen – planbar und ohne eigenes Werkzeug.",
         "items": [
-          "Leitungen prüfen",
-          "Verteilung erneuern",
-          "Sicherer Betrieb"
+          "Auszug",
+          "Einzug",
+          "Vermietung"
         ]
       }
     ],
     "why": {
-      "headline": "Elektro aus Andechs – ohne lange Anfahrt.",
+      "headline": "Ein Malerbetrieb aus Penzberg – mit kurzem Draht.",
       "points": [
         {
-          "title": "Aus dem Ort",
-          "text": "Der Betrieb sitzt in Erling und ist schnell in Herrsching, Machtlfing und Pähl."
+          "title": "Kurze Wege",
+          "text": "Von Steigenberg aus schnell in Iffeldorf, Sindelsdorf, Bichl und am Starnberger See."
         },
         {
-          "title": "Direkter Draht",
-          "text": "Ein Anruf oder eine WhatsApp-Nachricht genügt – ohne Warteschleife."
+          "title": "Ein Ansprechpartner",
+          "text": "Sie sprechen direkt mit dem Inhaber – keine Weiterleitung, kein Callcenter."
         },
         {
-          "title": "Installation & Reparatur",
-          "text": "Neue Anschlüsse und die Behebung von Defekten aus einer Hand."
+          "title": "Sauber gearbeitet",
+          "text": "Böden und Möbel werden abgedeckt, nach der Arbeit bleibt der Raum besenrein."
         },
         {
-          "title": "Klare Absprache",
-          "text": "Was gemacht wird, wird vorher besprochen."
+          "title": "Innen und außen",
+          "text": "Wohnräume, Treppenhaus und Fassade lassen sich in einem Auftrag erledigen."
         }
       ]
     },
@@ -275,132 +273,138 @@
       "headline": "Was Kunden sagen",
       "summary": "Kundenstimmen werden hier eingebunden, sobald sie aus dem Google-Profil übernommen sind.",
       "highlights": [
-        "Elektriker in Andechs",
-        "Installation und Reparatur",
+        "Malerarbeiten in Penzberg",
+        "Innen und außen",
         "Direkter Kontakt"
       ],
       "source": "Google",
-      "sourceUrl": "https://www.google.com/maps/search/?api=1&query=Elektro%20Wintergerst%20Andechser%20Straße%2023%20Andechs",
+      "sourceUrl": "https://www.google.com/maps/search/?api=1&query=Salvatore%20Iurato%20Maler%20Heimgartenstr.%2016%20Penzberg",
       "rating": null,
       "count": null
     },
     "process": {
-      "headline": "In vier Schritten zur funktionierenden Elektrik",
+      "headline": "So kommt die neue Farbe an die Wand",
       "steps": [
         {
-          "title": "Anruf",
-          "text": "Kurz schildern, was gebraucht wird oder was ausgefallen ist – gern mit Foto per WhatsApp."
+          "title": "Anfrage",
+          "text": "Kurz anrufen oder das Formular mit ein paar Fotos der Räume ausfüllen."
         },
         {
-          "title": "Termin",
-          "text": "Ein Termin vor Ort wird abgestimmt."
+          "title": "Besichtigung",
+          "text": "Flächen, Untergrund und Farbwünsche werden vor Ort angeschaut."
         },
         {
-          "title": "Arbeit",
-          "text": "Installation oder Reparatur wird fachgerecht ausgeführt."
+          "title": "Angebot",
+          "text": "Sie erhalten ein klares Angebot mit Umfang und Termin."
         },
         {
-          "title": "Übergabe",
-          "text": "Alles wird geprüft und erklärt."
+          "title": "Ausführung",
+          "text": "Abdecken, vorbereiten, streichen – und die Räume sauber übergeben."
         }
       ]
     },
     "gallery": {
-      "headline": "Arbeiten aus Andechs und Umgebung",
+      "headline": "Frisch gestrichen in Penzberg und Umgebung",
       "text": "Für die Live-Version zeigen wir hier echte Projekte des Betriebs.",
       "items": [
         {
-          "title": "Verteilung",
-          "photoNeeded": "neu bestückter Sicherungskasten"
+          "title": "Wohnzimmer",
+          "photoNeeded": "frisch gestrichenes Wohnzimmer mit klaren Kanten"
         },
         {
-          "title": "Steckdosen",
-          "photoNeeded": "neu gesetzte Steckdosen in einer Küche"
+          "title": "Treppenhaus",
+          "photoNeeded": "gestrichenes Treppenhaus in einem Mehrfamilienhaus"
         },
         {
-          "title": "Außenlicht",
-          "photoNeeded": "Außenleuchte an einer Hauswand"
+          "title": "Fassade",
+          "photoNeeded": "Hausfassade nach dem Neuanstrich"
         },
         {
-          "title": "Altbau",
-          "photoNeeded": "erneuerte Leitungen in einem Altbau"
+          "title": "Lackierte Türen",
+          "photoNeeded": "weiß lackierte Innentür mit Zarge"
         },
         {
-          "title": "Werkstatt",
-          "photoNeeded": "Starkstromanschluss in Garage oder Werkstatt"
+          "title": "Tapezierter Raum",
+          "photoNeeded": "Raum mit neu verklebter Tapete"
         }
       ]
     },
     "region": {
-      "headline": "Elektriker für Andechs und den Ammersee-Osten",
-      "text": "Von Erling aus nach Herrsching, Machtlfing, Pähl und Seefeld.",
+      "headline": "Malerarbeiten für Penzberg und das Oberland",
+      "text": "Von Penzberg aus unterwegs in Iffeldorf, Sindelsdorf, Bichl, Bad Heilbrunn und Seeshaupt.",
       "places": [
-        "Andechs",
-        "Erling",
-        "Herrsching",
-        "Machtlfing",
-        "Pähl",
-        "Seefeld"
+        "Penzberg",
+        "Iffeldorf",
+        "Sindelsdorf",
+        "Bichl",
+        "Bad Heilbrunn",
+        "Seeshaupt"
       ]
     },
     "faq": [
       {
-        "q": "Kommen Sie auch für kleine Reparaturen?",
-        "a": "Fragen Sie einfach an – auch kleinere Elektroarbeiten sind möglich."
+        "q": "Kann ich vorab Fotos schicken?",
+        "a": "Ja, Fotos der Räume oder der Fassade helfen für eine erste Einschätzung."
       },
       {
-        "q": "Kann ich vorab ein Foto schicken?",
-        "a": "Ja, ein Foto per WhatsApp hilft für eine erste Einschätzung."
+        "q": "Muss ich die Möbel selbst ausräumen?",
+        "a": "Das wird bei der Besichtigung abgestimmt. Was im Raum bleibt, wird vor dem Streichen abgedeckt."
       },
       {
-        "q": "Schließen Sie Herd und Backofen an?",
-        "a": "Ja, der Anschluss von Elektrogeräten gehört dazu."
+        "q": "Streichen Sie auch Fassaden?",
+        "a": "Ja, Malerarbeiten innen wie außen gehören zum Angebot. Details klären wir vor Ort."
       },
       {
-        "q": "Prüfen Sie auch alte Leitungen?",
-        "a": "Ja, alte Elektrik wird geprüft und bei Bedarf erneuert."
+        "q": "Wie schnell ist ein Termin möglich?",
+        "a": "Das hängt von der Auslastung und dem Umfang ab. Einen Termin nennen wir Ihnen mit dem Angebot."
       },
       {
-        "q": "Arbeiten Sie auch außerhalb von Andechs?",
-        "a": "Ja, im Umkreis von Andechs – zum Beispiel in Herrsching und Pähl."
+        "q": "Arbeiten Sie auch außerhalb von Penzberg?",
+        "a": "Ja, im Umkreis von Penzberg – fragen Sie einfach an."
       }
     ],
     "contact": {
-      "headline": "Elektro-Anfrage – kurz und direkt",
-      "text": "Beschreiben Sie, was installiert oder repariert werden soll und wo. Ein Foto hilft.",
+      "headline": "Ihr Angebot – kostenlos und unverbindlich",
+      "text": "Beschreiben Sie kurz, welche Räume oder Flächen gestrichen werden sollen und bis wann. Fotos helfen.",
       "topics": [
-        "Elektroinstallation",
-        "Reparatur",
-        "Beleuchtung",
-        "Geräteanschluss",
+        "Innenanstrich",
+        "Fassade",
+        "Lackierarbeiten",
+        "Tapezieren",
         "Sonstiges"
       ],
-      "responseNote": "Termin vor Ort nach Absprache."
+      "responseNote": "Besichtigung nach Absprache."
     },
     "quote": {
-      "sizeLabel": "Worum geht es?",
+      "sizeLabel": "Was soll gestrichen werden?",
       "sizes": [
-        "Reparatur / Defekt",
-        "Einzelne Steckdose oder Leuchte",
-        "Ein Raum",
-        "Ganzes Haus / Umbau"
+        "Ein Zimmer",
+        "Ganze Wohnung",
+        "Treppenhaus",
+        "Fassade"
       ],
       "timings": [
-        "Dringend",
-        "In den nächsten Tagen",
+        "So bald wie möglich",
         "In den nächsten Wochen",
+        "In 1–3 Monaten",
         "Ich plane erst noch"
       ]
     },
-    "stickyCta": "Elektriker anfragen",
+    "stickyCta": "Angebot anfragen",
     "look": {
-      "palette": 2,
-      "font": 6,
-      "hero": 0,
-      "services": 1,
-      "radius": 1,
-      "logo": 0,
-      "intro": 5
+      "skin": "kante",
+      "palette": 4,
+      "font": 13,
+      "hero": 1,
+      "services": 5,
+      "radius": 2,
+      "logo": 5,
+      "intro": 0,
+      "projects": 0,
+      "process": 2,
+      "faq": 2,
+      "reviews": 1,
+      "order": 1
     }
   }
 }

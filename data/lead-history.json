@@ -2410,6 +2410,126 @@
       "googleLink": "https://www.google.com/maps/search/?api=1&query=Angela%20Freilinger%20Malerbetrieb%20Stocketweg%2013%20Seefeld",
       "googleVerified": false,
       "reserve": false
+    },
+    {
+      "company": "Thaci Bodenleger",
+      "slug": "thaci-bodenleger-olching",
+      "trade": "Bodenleger",
+      "city": "Olching",
+      "date": "2026-10-30",
+      "phone": "0177 4331550",
+      "email": null,
+      "googleLink": "https://www.google.com/maps/search/?api=1&query=Thaci%20Bodenleger%20Fritzstr.%207%20Olching",
+      "googleVerified": false,
+      "reserve": false
+    },
+    {
+      "company": "Michael Baumgartner Malereibetrieb",
+      "slug": "malereibetrieb-baumgartner-olching",
+      "trade": "Malerbetrieb",
+      "city": "Olching",
+      "date": "2026-10-30",
+      "phone": "0172 8583832",
+      "email": "malermeisterbaumgartner@t-online.de",
+      "googleLink": "https://www.google.com/maps/search/?api=1&query=Michael%20Baumgartner%20Malereibetrieb%20Ordenslandstr.%206%20Olching",
+      "googleVerified": false,
+      "reserve": false
+    },
+    {
+      "company": "Josef Sandmeier Zimmerei und Holzbau",
+      "slug": "zimmerei-sandmeier-dachau",
+      "trade": "Zimmerei & Holzbau",
+      "city": "Dachau",
+      "date": "2026-10-30",
+      "phone": "08131 3378078",
+      "email": "josef.sandmeier@gmx.de",
+      "googleLink": "https://www.google.com/maps/search/?api=1&query=Josef%20Sandmeier%20Zimmerei%20Goppertshofer%20Str.%20Dachau",
+      "googleVerified": false,
+      "reserve": false
+    },
+    {
+      "company": "Maler Iurato Salvatore",
+      "slug": "maler-iurato-penzberg",
+      "trade": "Malerbetrieb",
+      "city": "Penzberg",
+      "date": "2026-10-30",
+      "phone": "08856 8030830",
+      "email": null,
+      "googleLink": "https://www.google.com/maps/search/?api=1&query=Salvatore%20Iurato%20Maler%20Heimgartenstr.%2016%20Penzberg",
+      "googleVerified": false,
+      "reserve": false
+    },
+    {
+      "company": "R. Bach Heizung-Sanitär-Solar",
+      "slug": "r-bach-heizung-sanitaer-solar-kaufering",
+      "trade": "Heizung & Sanitär",
+      "city": "Kaufering",
+      "date": "2026-10-30",
+      "phone": "08191 971117",
+      "email": "robert.bach@gmx.de",
+      "googleLink": "https://www.google.com/maps/search/?api=1&query=R.%20Bach%20Heizung-Sanit%C3%A4r-Solar%20Viktor-Frankl-Str.%2017%20Kaufering",
+      "googleVerified": false,
+      "reserve": false
+    },
+    {
+      "company": "Altbau Renovierung",
+      "slug": "altbau-renovierung-rudelzhausen",
+      "trade": "Renovierung & Trockenbau",
+      "city": "Rudelzhausen",
+      "date": "2026-10-30",
+      "phone": "0155 10689029",
+      "email": "ak-bau.mail@gmx.de",
+      "googleLink": "https://www.google.com/maps/search/?api=1&query=Altbau%20Renovierung%20Hausmehringer%20Str.%201%20Rudelzhausen",
+      "googleVerified": false,
+      "reserve": false
+    },
+    {
+      "company": "Hausmeisterservice Matijevic",
+      "slug": "hausmeisterservice-matijevic-nandlstadt",
+      "trade": "Hausmeisterservice",
+      "city": "Nandlstadt",
+      "date": "2026-10-30",
+      "phone": "0172 9870947",
+      "email": null,
+      "googleLink": "https://www.google.com/maps/search/?api=1&query=Hausmeisterservice%20Matijevic%20Moosburger%20Stra%C3%9Fe%2026%20Nandlstadt",
+      "googleVerified": false,
+      "reserve": false
+    },
+    {
+      "company": "Ulrich Oberhauser Elektro",
+      "slug": "elektro-oberhauser-reichertshausen",
+      "trade": "Elektroinstallation",
+      "city": "Reichertshausen",
+      "date": "2026-10-30",
+      "phone": "08441 2388",
+      "email": "elektro-ulrich-oberhauser@t-online.de",
+      "googleLink": "https://www.google.com/maps/search/?api=1&query=Ulrich%20Oberhauser%20Elektro%20Sonnenweg%203%20Reichertshausen",
+      "googleVerified": false,
+      "reserve": false
+    },
+    {
+      "company": "Franz-Josef Wolf Heizungsbau und Sanitäre Anlagen",
+      "slug": "heizungsbau-wolf-roehrmoos",
+      "trade": "Sanitär & Heizung",
+      "city": "Röhrmoos",
+      "date": "2026-10-30",
+      "phone": "08139 7832",
+      "email": "franz-josef.wolf@gmx.de",
+      "googleLink": "https://www.google.com/maps/search/?api=1&query=Franz-Josef%20Wolf%20Heizungsbau%20Indersdorfer%20Str.%2061%20R%C3%B6hrmoos",
+      "googleVerified": false,
+      "reserve": false
+    },
+    {
+      "company": "Haus Gartenservice",
+      "slug": "haus-gartenservice-erding",
+      "trade": "Hausmeisterservice",
+      "city": "Erding",
+      "date": "2026-10-30",
+      "phone": "01512 9111942",
+      "email": "marioservice.erding@gmail.com",
+      "googleLink": "https://www.google.com/maps/search/?api=1&query=Haus%20Gartenservice%20Erlenstr.%2016%20Erding",
+      "googleVerified": false,
+      "reserve": false
     }
   ],
   "rejected": [
@@ -5891,6 +6011,386 @@
       "company": "Malermeister Marcel Schmid (Landsberg)",
       "reason": "eigene Website malermeister-marcelschmid.de",
       "date": "2026-10-29"
+    },
+    {
+      "company": "Eberle Elektrotechnik (Markt Indersdorf)",
+      "reason": "E-Mail auf eigener Domain",
+      "date": "2026-10-30"
+    },
+    {
+      "company": "HGS Dienstleistungen Patrick Schmid (Markt Indersdorf)",
+      "reason": "eigene Website hgs-dl.de",
+      "date": "2026-10-30"
+    },
+    {
+      "company": "Glonntaler-Hausmeisterservice (Markt Indersdorf)",
+      "reason": "eigene Website glonntaler-hausmeisterservice.de",
+      "date": "2026-10-30"
+    },
+    {
+      "company": "Stefan Mühe Garten- und Landschaftsbau (Petershausen)",
+      "reason": "eigene Website muehe-gartenbau.de",
+      "date": "2026-10-30"
+    },
+    {
+      "company": "Malerfachbetrieb S. Andraschko (Röhrmoos)",
+      "reason": "eigene Website maler-andraschko.de",
+      "date": "2026-10-30"
+    },
+    {
+      "company": "Natura Garten- und Landschaftsbau Martin Grandl (Petershausen)",
+      "reason": "Website natura-gartenbau.de",
+      "date": "2026-10-30"
+    },
+    {
+      "company": "Rothmeier Putz-Stuck-Trockenbau (Schwabhausen)",
+      "reason": "GmbH mit Website",
+      "date": "2026-10-30"
+    },
+    {
+      "company": "Malerbetrieb Ott (Dachau)",
+      "reason": "GmbH & Co. KG",
+      "date": "2026-10-30"
+    },
+    {
+      "company": "Elektrotechnik Kromer (Eichenau)",
+      "reason": "eigene Website elektrotechnik-kromer.de",
+      "date": "2026-10-30"
+    },
+    {
+      "company": "A.F Elektrotechnik (Zolling)",
+      "reason": "eigene Website af-elektrotechnik.info",
+      "date": "2026-10-30"
+    },
+    {
+      "company": "Daniel Sauer Maler/Trockenbau (Kranzberg)",
+      "reason": "eigene Website malermeister-sauer.de",
+      "date": "2026-10-30"
+    },
+    {
+      "company": "Peter Pichler Gas- und Wasserinstallationen (Allershausen)",
+      "reason": "wahrscheinlich Website spenglerei-pichler.de",
+      "date": "2026-10-30"
+    },
+    {
+      "company": "Georg Sonnenberger & Sohn Schreinerei GmbH (Schwabhausen)",
+      "reason": "GmbH",
+      "date": "2026-10-30"
+    },
+    {
+      "company": "M. Feicht Trockenbau (Maisach)",
+      "reason": "nicht auffindbar",
+      "date": "2026-10-30"
+    },
+    {
+      "company": "Marcus Stark Spenglerei (Olching)",
+      "reason": "nicht auffindbar",
+      "date": "2026-10-30"
+    },
+    {
+      "company": "Tolgay Bostan Gebäudemanagement (Peißenberg)",
+      "reason": "nicht auffindbar",
+      "date": "2026-10-30"
+    },
+    {
+      "company": "Mert Genc (Peißenberg)",
+      "reason": "nicht auffindbar",
+      "date": "2026-10-30"
+    },
+    {
+      "company": "W&B Bodenbeläge (Olching)",
+      "reason": "eigene Website parkettschleifenolching.de",
+      "date": "2026-10-30"
+    },
+    {
+      "company": "Michael Kloyer Malerfachbetrieb (Gröbenzell)",
+      "reason": "eigene Website malermeister-kloyer.de",
+      "date": "2026-10-30"
+    },
+    {
+      "company": "Roony Fliesenleger Shqipron Mustafa (Germering)",
+      "reason": "eigene Website roony-fliesenleger.de",
+      "date": "2026-10-30"
+    },
+    {
+      "company": "Gábor Pincze (Germering)",
+      "reason": "eigene Website pincze.de",
+      "date": "2026-10-30"
+    },
+    {
+      "company": "Fliesenfachbetrieb Hoti (Gilching)",
+      "reason": "eigene Website fliesenfachbetrieb-hoti.de",
+      "date": "2026-10-30"
+    },
+    {
+      "company": "Jürgen Bise Fliesenverlegung (Gilching)",
+      "reason": "eigene Website fliesen-bise.de",
+      "date": "2026-10-30"
+    },
+    {
+      "company": "Helmut Haas FliesenHaas (Gauting)",
+      "reason": "eigene Website fliesenhaas.com",
+      "date": "2026-10-30"
+    },
+    {
+      "company": "Michael Pollinger Fliesenleger (Germering)",
+      "reason": "E-Mail auf eigener Domain",
+      "date": "2026-10-30"
+    },
+    {
+      "company": "Keramax GmbH (Germering)",
+      "reason": "GmbH",
+      "date": "2026-10-30"
+    },
+    {
+      "company": "Listl Renovierung Fliesen & Innenausbau GmbH (Germering)",
+      "reason": "GmbH",
+      "date": "2026-10-30"
+    },
+    {
+      "company": "Der Fliesen-Magier (Germering)",
+      "reason": "gleiche Nummer wie bestehender Lead",
+      "date": "2026-10-30"
+    },
+    {
+      "company": "Hartl Metallbau & Brandschutz (Gilching)",
+      "reason": "E-Mail auf eigener Domain",
+      "date": "2026-10-30"
+    },
+    {
+      "company": "Reinhold Stahl-Metallbau GmbH (Gauting)",
+      "reason": "GmbH",
+      "date": "2026-10-30"
+    },
+    {
+      "company": "Kleber Franz GmbH Fliesenfachgeschäft (Krailling)",
+      "reason": "GmbH",
+      "date": "2026-10-30"
+    },
+    {
+      "company": "R. O. BAU Renovierung & Sanierung (Freising)",
+      "reason": "eigene Website ro-bauunternehmen.de",
+      "date": "2026-10-30"
+    },
+    {
+      "company": "Miri Malerbetrieb (Freising)",
+      "reason": "Schwesterbetrieb mit Website miri-sanierung-renovierung.de",
+      "date": "2026-10-30"
+    },
+    {
+      "company": "Eden Montagen (Neufahrn)",
+      "reason": "eigene Website edenmontagen.de",
+      "date": "2026-10-30"
+    },
+    {
+      "company": "Kat Innenausbau (Allershausen)",
+      "reason": "eigene Website kat-innbau.de",
+      "date": "2026-10-30"
+    },
+    {
+      "company": "Schweißerei Zsigmond (Kranzberg)",
+      "reason": "eigene Website schweisserei-zsigmond.de",
+      "date": "2026-10-30"
+    },
+    {
+      "company": "Sailer Dienstleistungen (Zolling)",
+      "reason": "eigene Website sailer-dienstleistungen.de",
+      "date": "2026-10-30"
+    },
+    {
+      "company": "Clear-fix (Moosburg)",
+      "reason": "eigene Website clear-fix.de",
+      "date": "2026-10-30"
+    },
+    {
+      "company": "Baudienstleistung Rupprecht (Petershausen)",
+      "reason": "heute GmbH",
+      "date": "2026-10-30"
+    },
+    {
+      "company": "Waske Elektrotechnik (Eichenau)",
+      "reason": "eigene Website waske-elektrotechnik.com",
+      "date": "2026-10-30"
+    },
+    {
+      "company": "ETR Elektrotechnik Ritter (Bergkirchen)",
+      "reason": "eigene Website elektrotechnik-etr.de",
+      "date": "2026-10-30"
+    },
+    {
+      "company": "Falko Stollberg Fliesen (Dachau)",
+      "reason": "Website fliesenleger-stollberg.de im Verzeichnis",
+      "date": "2026-10-30"
+    },
+    {
+      "company": "Hermann Daniel Elektromeister (Stockdorf)",
+      "reason": "nicht auffindbar",
+      "date": "2026-10-30"
+    },
+    {
+      "company": "Michael Hurt Elektro (Mammendorf)",
+      "reason": "eigene Website elektro-hurt.de",
+      "date": "2026-10-30"
+    },
+    {
+      "company": "Christian Bablick (Tutzing)",
+      "reason": "eigene Website christian-bablick.de",
+      "date": "2026-10-30"
+    },
+    {
+      "company": "Hans Lang Heizung Sanitär (Pöcking)",
+      "reason": "GmbH mit Website haustechnik-lang.com",
+      "date": "2026-10-30"
+    },
+    {
+      "company": "Herbert Hennig Elektroinstallationen (Herrsching)",
+      "reason": "GmbH",
+      "date": "2026-10-30"
+    },
+    {
+      "company": "Elektro Keberle (Kaufering)",
+      "reason": "eigene Website elektro-keberle.de",
+      "date": "2026-10-30"
+    },
+    {
+      "company": "Meister Hiki (Oberschleißheim)",
+      "reason": "Website meisterhiki.de laut 11880",
+      "date": "2026-10-30"
+    },
+    {
+      "company": "H. & S. Altbausanierung Gerhard Hopfner (Dachau)",
+      "reason": "Homepage im Verzeichnis",
+      "date": "2026-10-30"
+    },
+    {
+      "company": "muc.interiordesign (Dachau)",
+      "reason": "eigene Website muc-interiordesign.de",
+      "date": "2026-10-30"
+    },
+    {
+      "company": "MPR Martin Podlesek (Neuried)",
+      "reason": "eigene Website mpr-muenchen.de",
+      "date": "2026-10-30"
+    },
+    {
+      "company": "Zabelaj Qualität in Farbe und Design (Olching)",
+      "reason": "eigene Website farbe-zabelaj.de",
+      "date": "2026-10-30"
+    },
+    {
+      "company": "Thurnhofer Ihr Maler (Gröbenzell)",
+      "reason": "Website ihr-maler-ffb.de im Verzeichnis",
+      "date": "2026-10-30"
+    },
+    {
+      "company": "Elektrotechnik Hamberger (Markt Indersdorf)",
+      "reason": "eigene Website elektro-hamberger.de",
+      "date": "2026-10-30"
+    },
+    {
+      "company": "Schreinerei Josef Gattinger (Röhrmoos)",
+      "reason": "eigene Website schreinerei-gattinger.de",
+      "date": "2026-10-30"
+    },
+    {
+      "company": "Elektro Busalt (Vierkirchen)",
+      "reason": "eigene Website elektro-busalt.de",
+      "date": "2026-10-30"
+    },
+    {
+      "company": "Zimmerei Huber (Hohenkammer)",
+      "reason": "eigene Website huber-zimmerei.com",
+      "date": "2026-10-30"
+    },
+    {
+      "company": "Milan Paulic Spenglerei Bedachungen (Maisach)",
+      "reason": "Schwesterbetrieb mit Website spenglerei-paulic.de",
+      "date": "2026-10-30"
+    },
+    {
+      "company": "Helmut Endres Malermeister (Penzberg)",
+      "reason": "Website malerbetrieb-endres.de im Verzeichnis",
+      "date": "2026-10-30"
+    },
+    {
+      "company": "Fliesen-And'l (Penzberg)",
+      "reason": "E-Mail auf eigener Domain",
+      "date": "2026-10-30"
+    },
+    {
+      "company": "Franz Gillmeier Sonnenschutzeinrichtungen (Unterföhring)",
+      "reason": "eigene Website sonnenschutz-gillmeier.de",
+      "date": "2026-10-30"
+    },
+    {
+      "company": "Loni-Dienstleistung Muss Delija (Langenbach)",
+      "reason": "eigene Website loni-dienstleistung.de",
+      "date": "2026-10-30"
+    },
+    {
+      "company": "Christian Klimaschewski Fliesenverlege-Fachbetrieb (Freising)",
+      "reason": "Homepage klimaschewski-fliesen.de im Verzeichnis",
+      "date": "2026-10-30"
+    },
+    {
+      "company": "Harrer Elektroanlagenmeister (Aichach)",
+      "reason": "GmbH mit Website elektrotechnik-harrer.de",
+      "date": "2026-10-30"
+    },
+    {
+      "company": "Marco Bannemer Dachdeckerei und Spenglerei (Maisach)",
+      "reason": "Homepage dachteam.net im Verzeichnis",
+      "date": "2026-10-30"
+    },
+    {
+      "company": "Christoph Treibl Heizung & Sanitär (Markt Indersdorf)",
+      "reason": "eigene Website treibl-heizung.de",
+      "date": "2026-10-30"
+    },
+    {
+      "company": "Georg Niederreiter Zimmerei (Maisach)",
+      "reason": "eigene Website zimmerei-niederreiter.de",
+      "date": "2026-10-30"
+    },
+    {
+      "company": "Lehner Renovierungsfachbetrieb (Planegg)",
+      "reason": "GmbH mit Website lehner-renovierungen.de",
+      "date": "2026-10-30"
+    },
+    {
+      "company": "Anton Hauzeneder H&S Fenster (Puchheim)",
+      "reason": "eigene Website hs-fenster-tueren.com",
+      "date": "2026-10-30"
+    },
+    {
+      "company": "C.S.M. Dachmann Hausmeisterservice (Hallbergmoos)",
+      "reason": "eigene Website csm-dachmann.de",
+      "date": "2026-10-30"
+    },
+    {
+      "company": "AC-Facility-Group-Service (Hallbergmoos)",
+      "reason": "eigene Website ac-facility-group-service.de",
+      "date": "2026-10-30"
+    },
+    {
+      "company": "RoSoB GbR Sonnenschutztechnik (Markt Schwaben)",
+      "reason": "eigene Website rosob.de",
+      "date": "2026-10-30"
+    },
+    {
+      "company": "Budai Sanitär und Heizung (Taufkirchen)",
+      "reason": "Website budaisanitaer.eu",
+      "date": "2026-10-30"
+    },
+    {
+      "company": "RoMa GmbH Bauelemente (Erding)",
+      "reason": "GmbH",
+      "date": "2026-10-30"
+    },
+    {
+      "company": "TEE GmbH (Pliening)",
+      "reason": "GmbH",
+      "date": "2026-10-30"
     }
   ]
 }

@@ -32,12 +32,6 @@
    "hint": "Website negativ; 08232 958309"
   },
   {
-   "name": "Andreas Strehl Malereibetrieb",
-   "trade": "Maler",
-   "city": "Planegg",
-   "hint": "ungeprüft"
-  },
-  {
    "name": "J. Postruzin Estriche",
    "trade": "Boden",
    "city": "Kirchheim",
@@ -110,12 +104,6 @@
    "hint": "089 66085677, ungeprüft"
   },
   {
-   "name": "Bavariahomeservice",
-   "trade": "Entrümpelung",
-   "city": "Unterschleißheim",
-   "hint": "ungeprüft"
-  },
-  {
    "name": "Lichtenstern Christoph",
    "trade": "Sanitär/Heizung",
    "city": "Steindorf",
@@ -128,70 +116,16 @@
    "hint": "ungeprüft"
   },
   {
-   "name": "Alexander Pechler Spenglerei und Bedachung",
-   "trade": "Spenglerei & Bedachung",
-   "city": "Röhrmoos",
-   "hint": "RESERVE-geprüft 2026-10-27 (Datei bereit, nicht gewählt): Website negativ, kein Google/Freemail; 08139 576789"
-  },
-  {
-   "name": "Rolf Tannek Metallbau",
-   "trade": "Metallbau",
-   "city": "Dachau",
-   "hint": "RESERVE-geprüft 2026-10-27 (Datei bereit, nicht gewählt): Website negativ, kein Google/Freemail; 08131 514871"
-  },
-  {
-   "name": "Walter Zacherl Zimmermeister",
-   "trade": "Zimmerei",
-   "city": "Moorenweis",
-   "hint": "08146 7280; Name negativ, kein Google/Freemail – Domain/Telefon offen, höchstens RESERVE"
-  },
-  {
    "name": "Josef Höhenleiter Schmiedemeister",
    "trade": "Schmiede",
    "city": "Hebertshausen",
    "hint": "keine Website, aber kein aktueller Betriebsnachweis"
   },
   {
-   "name": "Baudienstleistung Rupprecht",
-   "trade": "Zimmerei",
-   "city": "Petershausen",
-   "hint": "0173 4925079; ungeprüft, evtl. MiMaRu GmbH"
-  },
-  {
-   "name": "Marcus Stark Spenglerei",
-   "trade": "Spenglerei",
-   "city": "Olching",
-   "hint": "08142 442734; ungeprüft, voraussichtlich nur RESERVE"
-  },
-  {
-   "name": "Hermann Daniel Elektromeister",
-   "trade": "Elektroinstallation",
-   "city": "Stockdorf",
-   "hint": "089 8573206; ungeprüft"
-  },
-  {
-   "name": "Elektrotechnik Kromer",
-   "trade": "Elektroinstallation",
-   "city": "Eichenau",
-   "hint": "08141 3089998; ungeprüft"
-  },
-  {
-   "name": "Waske Elektrotechnik",
-   "trade": "Elektroinstallation",
-   "city": "Eichenau",
-   "hint": "08141 36127; ungeprüft"
-  },
-  {
    "name": "Elektro Notdienst Moritz",
    "trade": "Elektroinstallation",
    "city": "Moosburg an der Isar",
    "hint": "01579 2502397; ungeprüft, evtl. Medicvolt-Group"
-  },
-  {
-   "name": "Metallbau-Metallgestaltung Haidetz Klein",
-   "trade": "Metallbau",
-   "city": "Gauting",
-   "hint": "089 45226146; ungeprüft"
   },
   {
    "name": "Ilir Metaj Hausmeister und Gebäudedienstleistung",
@@ -392,24 +326,6 @@
    "hint": "RESERVE-geprüft 2026-10-29 (Datei bereit, nicht gewählt): Website negativ, kein Google/Freemail; 08158 905910"
   },
   {
-   "name": "Elektro Martin Wintergerst",
-   "trade": "Elektroinstallation",
-   "city": "Andechs",
-   "hint": "RESERVE-geprüft 2026-10-29 (Datei bereit, nicht gewählt): Website negativ, kein Google/Freemail; 0171 6542063"
-  },
-  {
-   "name": "Hausmeisterservice Kaindl",
-   "trade": "Hausmeisterservice",
-   "city": "Peißenberg",
-   "hint": "RESERVE-geprüft 2026-10-29 (Datei bereit, nicht gewählt): Website negativ, kein Google/Freemail; 0162 3567403"
-  },
-  {
-   "name": "Schönl Heinrich Spenglerei Bedachungen",
-   "trade": "Spenglerei & Bedachungen",
-   "city": "Weilheim in Oberbayern",
-   "hint": "RESERVE-geprüft 2026-10-29 (Datei bereit, nicht gewählt): Website negativ, kein Google/Freemail; 0170 3257673"
-  },
-  {
    "name": "Bratu & Co. Walter Bratu",
    "trade": "Garten- und Landschaftsbau",
    "city": "Peißenberg",
@@ -422,28 +338,10 @@
    "hint": "08856 8030830"
   },
   {
-   "name": "Helmut Endres Malermeister",
-   "trade": "Malerbetrieb",
-   "city": "Penzberg",
-   "hint": "08856 803384"
-  },
-  {
    "name": "Sirsch Günter",
    "trade": "Fliesenleger",
    "city": "Penzberg",
    "hint": "08856 82543"
-  },
-  {
-   "name": "Fliesen-And'l",
-   "trade": "Fliesenleger",
-   "city": "Penzberg",
-   "hint": "08856 9379179"
-  },
-  {
-   "name": "Tolgay Bostan Gebäudemanagement",
-   "trade": "Hausmeisterservice",
-   "city": "Peißenberg",
-   "hint": "01522 2628315"
   },
   {
    "name": "Eduard Vachente",
@@ -488,46 +386,10 @@
    "hint": "0170 7648394; Name/Telefon/Domain negativ, kein Google/Freemail – RESERVE"
   },
   {
-   "name": "Meister Hiki",
-   "trade": "Sanitär & Heizung",
-   "city": "Oberschleißheim",
-   "hint": "089 74389126"
-  },
-  {
    "name": "Brucker Gas-Wasser-Heizung Sanitärhandwerk",
    "trade": "Sanitär",
    "city": "Oberschleißheim",
    "hint": "089 3153683"
-  },
-  {
-   "name": "Herzinger",
-   "trade": "Fliesenleger",
-   "city": "Unterschleißheim",
-   "hint": "089 31596096"
-  },
-  {
-   "name": "Karl Mandl Bodenlegerei",
-   "trade": "Bodenleger",
-   "city": "Unterschleißheim",
-   "hint": "089 37488080"
-  },
-  {
-   "name": "Franz Gillmeier Sonnenschutzeinrichtungen",
-   "trade": "Rollladen",
-   "city": "Unterföhring",
-   "hint": "089 9506677"
-  },
-  {
-   "name": "Christian Bablick",
-   "trade": "Sanitär & Heizung",
-   "city": "Tutzing",
-   "hint": "11880"
-  },
-  {
-   "name": "Hans Lang Heizung Sanitär",
-   "trade": "Sanitär & Heizung",
-   "city": "Pöcking",
-   "hint": "11880"
   },
   {
    "name": "Schmiede & Schlosserei Engesser",
@@ -548,40 +410,196 @@
    "hint": "08143 94442"
   },
   {
-   "name": "Herbert Hennig Elektroinstallationen",
-   "trade": "Elektroinstallation",
-   "city": "Herrsching",
-   "hint": "08152 9822253"
-  },
-  {
-   "name": "Robert Bach Heizung-Sanitär-Solar",
-   "trade": "Sanitär & Heizung",
-   "city": "Kaufering",
-   "hint": "11880"
-  },
-  {
-   "name": "Elektro Keberle",
-   "trade": "Elektroinstallation",
-   "city": "Kaufering",
-   "hint": "11880"
-  },
-  {
    "name": "Lotter Tapan Garten und Landschaftsbau",
    "trade": "Garten- und Landschaftsbau",
    "city": "Peißenberg",
    "hint": "0162 9215241"
   },
   {
-   "name": "Mert Genc",
-   "trade": "Garten- und Landschaftsbau",
-   "city": "Peißenberg",
-   "hint": "01512 0372780"
-  },
-  {
    "name": "BauArt Nico",
    "trade": "Hausmeisterservice",
    "city": "Peißenberg",
    "hint": "01514 2301716; Name negativ, Rest offen"
+  },
+  {
+   "name": "Alexander Pechler Spenglerei und Bedachung",
+   "trade": "Spenglerei & Bedachung",
+   "city": "Röhrmoos",
+   "hint": "RESERVE-geprüft 2026-10-30 (Datei bereit, nicht gewählt): Website negativ, kein Google/Freemail; 08139 576789"
+  },
+  {
+   "name": "Hausmeisterservice Kaindl",
+   "trade": "Hausmeisterservice",
+   "city": "Peißenberg",
+   "hint": "RESERVE-geprüft 2026-10-30 (Datei bereit, nicht gewählt): Website negativ, kein Google/Freemail; 0162 3567403"
+  },
+  {
+   "name": "Rolf Tannek Metallbau",
+   "trade": "Metallbau",
+   "city": "Dachau",
+   "hint": "RESERVE-geprüft 2026-10-30 (Datei bereit, nicht gewählt): Website negativ, kein Google/Freemail; 08131 514871"
+  },
+  {
+   "name": "Elektro Martin Wintergerst",
+   "trade": "Elektroinstallation",
+   "city": "Andechs",
+   "hint": "RESERVE-geprüft 2026-10-30 (Datei bereit, nicht gewählt): Website negativ, kein Google/Freemail; 0171 6542063"
+  },
+  {
+   "name": "Fliesenverlegungen Torsten Freidl",
+   "trade": "Fliesenleger",
+   "city": "Gilching",
+   "hint": "RESERVE-geprüft 2026-10-30 (Datei bereit, nicht gewählt): Website negativ, kein Google/Freemail; 0172 8669719"
+  },
+  {
+   "name": "Wolfgang Köth Fliesenleger",
+   "trade": "Fliesenleger",
+   "city": "Gauting",
+   "hint": "RESERVE-geprüft 2026-10-30 (Datei bereit, nicht gewählt): Website negativ, kein Google/Freemail; 089 8504351"
+  },
+  {
+   "name": "Fliesenlegerbetrieb Bajrami",
+   "trade": "Fliesenleger",
+   "city": "Petershausen",
+   "hint": "RESERVE-geprüft 2026-10-30 (Datei bereit, nicht gewählt): Website negativ, kein Google/Freemail; 0176 28444917"
+  },
+  {
+   "name": "Saray Heizung Sanitär",
+   "trade": "Sanitär & Heizung",
+   "city": "Moosburg an der Isar",
+   "hint": "RESERVE-geprüft 2026-10-30 (Datei bereit, nicht gewählt): Website negativ, kein Google/Freemail; 0172 4417812"
+  },
+  {
+   "name": "Karl Mandl Bodenlegerei",
+   "trade": "Bodenleger",
+   "city": "Unterschleißheim",
+   "hint": "RESERVE-geprüft 2026-10-30 (Datei bereit, nicht gewählt): Website negativ, kein Google/Freemail; 089 37488080"
+  },
+  {
+   "name": "De Benedetto Mosaik & Fliesendesign",
+   "trade": "Fliesenleger",
+   "city": "Schwabhausen",
+   "hint": "RESERVE-geprüft 2026-10-30 (Datei bereit, nicht gewählt): Website negativ, kein Google/Freemail; 0171 3521583"
+  },
+  {
+   "name": "Stefan Geißer Fliesenleger",
+   "trade": "Fliesenleger",
+   "city": "Dachau",
+   "hint": "11880"
+  },
+  {
+   "name": "Klaus-Peter Pälchen Garten- und Landschaftsbau",
+   "trade": "Garten- und Landschaftsbau",
+   "city": "Vierkirchen",
+   "hint": "11880"
+  },
+  {
+   "name": "Bdp. Bodenleger Design Projekt",
+   "trade": "Bodenleger",
+   "city": "Olching",
+   "hint": "0177 5013842"
+  },
+  {
+   "name": "Franz Skof Fliesenleger und Verfugung",
+   "trade": "Fliesenleger",
+   "city": "Fürstenfeldbruck",
+   "hint": "Sudetenstr. 6"
+  },
+  {
+   "name": "Fliesen Paci",
+   "trade": "Fliesenleger",
+   "city": "Fürstenfeldbruck",
+   "hint": "Dallmayrstr. 19"
+  },
+  {
+   "name": "Knörnschild",
+   "trade": "Bodenleger",
+   "city": "Olching",
+   "hint": "08142 13823"
+  },
+  {
+   "name": "Bruno Dold Fliesen- u. Mosaikarbeiten",
+   "trade": "Fliesenleger",
+   "city": "Germering",
+   "hint": "089 849654"
+  },
+  {
+   "name": "Lang Franz Fliesenlegermeister",
+   "trade": "Fliesenleger",
+   "city": "Puchheim",
+   "hint": "fliesenlegers.online"
+  },
+  {
+   "name": "Alois Thurnhofer Fußbodenverlegung",
+   "trade": "Bodenleger",
+   "city": "Hallbergmoos",
+   "hint": "Ahornweg 9"
+  },
+  {
+   "name": "Walter Dachdeckerei & Spenglerei",
+   "trade": "Dachdecker",
+   "city": "Eching",
+   "hint": "trustlocal (Google-Spiegel), Website offen"
+  },
+  {
+   "name": "Walter Jäger Elektroinstallation",
+   "trade": "Elektroinstallation",
+   "city": "Maisach",
+   "hint": "Verzeichnis"
+  },
+  {
+   "name": "Günter Sixt Elektroinstallation",
+   "trade": "Elektroinstallation",
+   "city": "Maisach",
+   "hint": "Verzeichnis"
+  },
+  {
+   "name": "Peter Fichtl Fliesenleger",
+   "trade": "Fliesenleger",
+   "city": "Dachau",
+   "hint": "Verzeichnis"
+  },
+  {
+   "name": "MBG",
+   "trade": "Metallbau",
+   "city": "Allershausen",
+   "hint": "0172 8627881; Name/Domain/Telefon negativ, kein Google/Freemail – RESERVE, mb-metallbau.online prüfen"
+  },
+  {
+   "name": "Stefan Pischulti Holz- und Bautenschutz",
+   "trade": "Zimmerei",
+   "city": "Odelzhausen",
+   "hint": "08134 5741"
+  },
+  {
+   "name": "Georg Huber Schlosserei",
+   "trade": "Metallbau",
+   "city": "Sankt Wolfgang",
+   "hint": "gmx laut 11880"
+  },
+  {
+   "name": "Schmiede & Schlosserei Forstmaier",
+   "trade": "Metallbau",
+   "city": "Dorfen",
+   "hint": "t-online laut 11880"
+  },
+  {
+   "name": "Alois Bauer Schmiede",
+   "trade": "Metallbau",
+   "city": "Fraunberg",
+   "hint": "t-online laut 11880"
+  },
+  {
+   "name": "Fliesen Weber",
+   "trade": "Fliesenleger",
+   "city": "Erding",
+   "hint": "Brunnenweg 9, Festnetz"
+  },
+  {
+   "name": "Die Leger Fliesenlegermeisterbetrieb",
+   "trade": "Fliesenleger",
+   "city": "Hohenlinden",
+   "hint": "11880"
   }
  ]
 }

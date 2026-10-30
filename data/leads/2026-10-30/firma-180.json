@@ -1,125 +1,118 @@
 {
   "id": "2026-10-30-180",
-  "slug": "thaci-bodenleger-olching",
+  "slug": "hausmeisterservice-matijevic-nandlstadt",
   "date": "2026-10-30",
   "company": {
-    "name": "Thaci Bodenleger",
-    "owner": "Avni Thaci",
-    "trade": "Bodenleger",
-    "city": "Olching",
-    "address": "Fritzstr. 7, 82140 Olching",
-    "phone": "0177 4331550",
+    "name": "Hausmeisterservice Matijevic",
+    "owner": null,
+    "trade": "Hausmeisterservice",
+    "city": "Nandlstadt",
+    "address": "Moosburger Straße 26, 85405 Nandlstadt",
+    "phone": "0172 9870947",
     "email": null,
     "serviceArea": [
-      "Olching",
-      "Esting",
-      "Gröbenzell",
-      "Eichenau",
-      "Fürstenfeldbruck",
-      "Maisach"
+      "Nandlstadt",
+      "Au in der Hallertau",
+      "Rudelzhausen",
+      "Attenkirchen",
+      "Zolling",
+      "Mauern",
+      "Moosburg"
     ]
   },
   "listings": {
     "google": {
-      "url": "https://www.google.com/maps/search/?api=1&query=Thaci%20Bodenleger%20Fritzstr.%207%20Olching",
+      "url": "https://www.google.com/maps/search/?api=1&query=Hausmeisterservice%20Matijevic%20Moosburger%20Stra%C3%9Fe%2026%20Nandlstadt",
       "rating": null,
       "reviews": null,
-      "evidence": "INDIREKT (Spiegel) – ambestenbewertet.de führt „Bodenleger Thaci, 0177 4331550, Fritzstraße 7“ als Profil mit Karte, Bewertungen, Arbeitszeit und Fotos (typische Google-Maps-Spiegelung, Kategorie „Generalunternehmer“); Sternzahl/Anzahl im Snippet nicht sichtbar. Kein Website-Feld oder Domain in den Snippets. Kein direkter google.com/maps/place-Treffer – in Maps prüfen."
+      "evidence": "Kein Google-Spiegel gefunden. Freemail (Gmail-Adresse) laut 11880-Eintrag belegt – Snippet bestätigt „Gmail-Adresse“, die vollständige Adresse war im Snippet nicht lesbar. 11880: Moosburger Straße 26, 85405 Nandlstadt, Tel. (0172) 9870947, Hausmeisterservice, Dachboden-/Garagenentrümpelung, Haushaltsauflösung, Entsorgung; keine Öffnungszeiten."
     },
     "myhammer": {
-      "url": "https://handwerk.check24.de/craftsmen/cs/profile/sp_m85KX",
+      "url": "https://www.my-hammer.de/reinigung/gebaeudereiniger-berufe/nandlstadt",
       "rating": null,
       "reviews": null,
-      "evidence": "MyHammer-Profil „Bodenleger A. Thaci“ (Olching) laut Suchzusammenfassung erwähnt, URL nicht gesichert; Check24-Handwerkerprofil „Thaci - Bodenleger“ vorhanden. 11880-Eintrag Fritzstr. 7, 0177 4331550, Leistungen Bodenleger, Parkettleger, Laminatleger (aktualisiert 05.09.2026)."
+      "evidence": "MyHammer-Kategorieseiten (Nandlstadt, Rudelzhausen) führen „Hausmeisterservice Matijevic“ mit Kurzprofil: Arbeiten rund um Haus, Hof und Garten in Nandlstadt und Umgebung. Keine Bewertungsdaten im Snippet."
     }
   },
   "websiteStatus": "keine eigene Website gefunden",
   "websiteChecks": [
-    "(1) „Thaci Bodenleger Olching“ mit blocked_domains (11880, Gelbe Seiten, Das Örtliche, Telefonbuch, Cylex, meinestadt, Creditreform, Facebook, Instagram, golocal, MyHammer, Northdata, Firmenwissen, WKDB, Yelp, trustlocal, wlw) – nur Verzeichnisse (auftragsbank.de, finde-offen.de, ambestenbewertet.de, Check24, dialo.de); keine eigene Domain",
-    "(2) Domain-Check allowed_domains bodenleger-thaci.de, thaci-bodenleger.de, thaci-boden.de, bodenlegerthaci.de, thacibodenleger.de, avni-thaci.de, thaci-olching.de, boden-thaci.de – keine Treffer",
-    "(3) Telefonsuche „0177 4331550“/„01774331550“ mit blocked_domains – nur Rufnummern-Blocklisten (E-Plus/O2), keine Website",
-    "(4) Impressum-Suche „Avni Thaci“ Impressum Olching – kein eigenes Impressum, nur fremde Impressen",
-    "(5) Gegencheck „MThaci Gebäudereinigung & Bodenleger“ (Dachauer Str. 72, Neu-Esting, 0176 31608627): nur Verzeichnisse, keine Website gefunden – Verhältnis zu Thaci Bodenleger unklar",
-    "Website-Risiko: mittel – alle Prüfungen negativ, Google-Eintrag nur indirekt über Spiegel belegt, keine Freemail"
+    "(1) „Hausmeisterservice Matijevic Nandlstadt“ (offene Suche) – nur MyHammer-Kategorieseiten und fremde Hausmeisterdienste; keine eigene Domain",
+    "(2) 11880/trustlocal/Das Örtliche/Gelbe Seiten – nur 11880-Einträge, kein Website-Feld im Snippet, Kontakt per Gmail-Adresse",
+    "(3) Domain-Check allowed_domains hausmeisterservice-matijevic.de, matijevic.de, matijevic-hausmeisterservice.de, hausmeister-matijevic.de, matijevic-service.de, hms-matijevic.de, matijevic-nandlstadt.de – keine Treffer",
+    "(4) Telefonsuche „0172 9870947“/„01729870947“/„+49 172 9870947“ – keine Treffer",
+    "Impressum-Suche nicht mehr durchgeführt (Suchbudget erschöpft)",
+    "Website-Risiko: mittel – Prüfungen (a)–(c) negativ, Freemail belegt, aber kein Google-Eintrag belegt und Impressum-Suche fehlt"
   ],
   "facts": {
     "services": [
-      "Bodenverlegung",
-      "Parkett verlegen",
-      "Laminat verlegen",
-      "Vinylboden verlegen",
-      "Teppichboden verlegen"
+      "Hausmeisterservice",
+      "Dachboden- und Garagenentrümpelung",
+      "Haushaltsauflösung",
+      "Entsorgung",
+      "Arbeiten rund um Haus, Hof und Garten"
     ],
     "experience": null,
     "praisedFor": []
   },
   "strategy": {
-    "audience": "Eigentümer, Mieter und Vermieter in Olching, Esting, Gröbenzell und Fürstenfeldbruck, die beim Renovieren oder Einziehen neue Böden wollen",
-    "mainService": "Parkett, Laminat und Vinyl verlegen",
-    "trustSignal": "Inhabergeführter Bodenleger aus Olching, direkt per Handy erreichbar",
-    "conversionGoal": "Kostenloses Angebot für neuen Boden anfragen (per WhatsApp/Anruf mit Fotos und Quadratmetern)",
-    "visualConcept": "Warme Holztöne, frisch verlegte Dielen und saubere Sockelleisten – ruhig, wohnlich, handwerklich genau"
+    "audience": "Hausbesitzer, Vermieter und Erben in Nandlstadt, Au, Attenkirchen und Moosburg, die Hilfe bei Haus, Hof und Garten oder beim Ausräumen von Dachboden, Garage und Wohnung brauchen",
+    "mainService": "Hausmeisterdienste und Entrümpelungen",
+    "trustSignal": "Betrieb in Nandlstadt, direkt per Handy erreichbar",
+    "conversionGoal": "Anfrage per WhatsApp/Anruf mit Fotos von Garten, Dachboden oder Wohnung",
+    "visualConcept": "Aufgeräumte Höfe und leere Dachböden: gepflegte Hecken, gefegte Einfahrt, ein beladener Anhänger – praktisch und bodenständig"
   },
   "sales": {
-    "score": 5,
+    "score": 6,
     "whyGoodLead": [
-      "Keine eigene Website gefunden – nur Verzeichniseinträge",
+      "Keine eigene Website gefunden – nur Verzeichnis- und MyHammer-Einträge",
       "Mobilnummer öffentlich gelistet – ideal für WhatsApp-Erstkontakt",
-      "Bodenbeläge sind ein Renovierungsthema, bei dem Kunden online nach Vorher-Nachher-Bildern suchen",
-      "Mehrere Verzeichnisprofile (Check24, 11880) zeigen aktive Auftragssuche"
+      "Gmail-Adresse statt Firmendomain – typisches Zeichen für fehlende Website",
+      "Hausmeister- und Entrümpelungsleistungen werden im ländlichen Landkreis Freising oft online gesucht"
     ],
-    "pitch": "Hallo Herr Thaci, hier ist … – ich baue Websites für Handwerker im Landkreis Fürstenfeldbruck. Ich habe Ihren Eintrag als Bodenleger in Olching gefunden, aber keine eigene Website. Ich habe unverbindlich einen Entwurf vorbereitet, auf dem Kunden Ihre Parkett-, Laminat- und Vinylarbeiten sehen und direkt per WhatsApp anfragen können – darf ich Ihnen den Link schicken?"
+    "pitch": "Hallo, hier ist … – ich baue Websites für Handwerker im Landkreis Freising. Ich habe Ihren Eintrag „Hausmeisterservice Matijevic“ in Nandlstadt gefunden, aber keine eigene Website. Ich habe unverbindlich einen Entwurf vorbereitet, auf dem Kunden Ihre Hausmeister- und Entrümpelungsarbeiten sehen und direkt per WhatsApp anfragen können – darf ich Ihnen den Link schicken?"
   },
   "manualChecks": [
-    "Website-Risiko: mittel – vor Versand in Google Maps prüfen, dass keine Website hinterlegt ist (Grund: Google-Eintrag nur über Spiegelseite ambestenbewertet.de belegt, keine Freemail)",
-    "Google-Eintrag in Maps bestätigen (Existenz, Kategorie, Bewertungsanzahl)",
-    "Adresse uneinheitlich: Fritzstr. 7 (11880, finde-offen, ambestenbewertet) vs. Fritzstr. 1 (dialo) – klären; zusätzlich Festnetz 08142 4627529 laut dialo",
-    "Möglicher Familien-/Schwesterbetrieb „MThaci Gebäudereinigung & Bodenleger“ (Dachauer Str. 72, Neu-Esting, 0176 31608627) – ohne Website gefunden, Verhältnis beim Erstkontakt klären",
-    "Leistungen nur aus Verzeichnissen (Parkett, Laminat, Vinyl, Teppich) – Parkettschleifen, Sockelleisten, Untergrund beim Betrieb bestätigen",
+    "Website-Risiko: mittel – vor Versand in Google Maps prüfen, dass keine Website hinterlegt ist (Grund: kein Google-Eintrag belegt, Freemail nur über 11880, Impressum-Suche aus Budgetgründen nicht durchgeführt)",
+    "Gmail-Adresse aus dem 11880-Eintrag übernehmen (im Snippet nicht vollständig lesbar, daher email = null)",
+    "Inhaber-Vorname unbekannt – beim Erstkontakt erfragen; Anrede „Herr/Frau Matijevic“ erst nach Bestätigung",
+    "Leistungen laut 11880/MyHammer (Hausmeister, Entrümpelung, Haushaltsauflösung, Entsorgung, Haus/Hof/Garten) – Gartenpflege und Winterdienst im Detail bestätigen",
+    "MyHammer-Profil auf Bewertungen prüfen (im Snippet keine Angaben)",
     "Logo und Projektfotos: nicht gefunden – beim Betrieb anfragen"
   ],
   "sources": [
     {
-      "label": "11880 – Thaci Bodenleger Olching",
-      "url": "https://www.11880.com/branchenbuch/olching/060690823B108654927/thaci-bodenleger.html"
+      "label": "MyHammer – Gebäudereiniger/Hausmeister Nandlstadt (mit Hausmeisterservice Matijevic)",
+      "url": "https://www.my-hammer.de/reinigung/gebaeudereiniger-berufe/nandlstadt"
     },
     {
-      "label": "ambestenbewertet.de – Bodenleger Thaci (Google-Spiegel)",
-      "url": "https://bodenleger-thaci.ambestenbewertet.de/"
+      "label": "MyHammer – Gebäudereiniger/Hausmeister Rudelzhausen (mit Hausmeisterservice Matijevic)",
+      "url": "https://www.my-hammer.de/reinigung/gebaeudereiniger-berufe/rudelzhausen"
     },
     {
-      "label": "Check24 – Thaci Bodenleger",
-      "url": "https://handwerk.check24.de/craftsmen/cs/profile/sp_m85KX"
+      "label": "11880 – Haushaltsauflösungen Pfaffenhofen (Umkreisliste mit Matijevic)",
+      "url": "https://www.11880.com/suche/haushaltsaufloesung/pfaffenhofen"
     },
     {
-      "label": "dialo.de – Bodenleger Avni Thaci Olching",
-      "url": "https://www.dialo.de/boden/olching/bodenleger-avni-thaci-m45911926400"
-    },
-    {
-      "label": "auftragsbank.de – Thaci Bodenleger",
-      "url": "https://www.auftragsbank.de/firmen/thaci-bodenleger/33358"
-    },
-    {
-      "label": "finde-offen.de – Thaci Bodenleger Fritzstr. 7",
-      "url": "https://finde-offen.de/olching/thaci-bodenleger-3227409"
+      "label": "11880 – Hausmeisterservices Mainburg (Umkreisliste)",
+      "url": "https://www.11880.com/suche/hausmeisterservice/mainburg"
     }
   ],
   "site": {
-    "theme": "atelier",
+    "theme": "garten",
     "category": "handwerk",
     "heroOffer": [
-      "Parkett",
-      "Laminat",
-      "Vinyl",
-      "Teppich",
-      "Altbelag raus"
+      "Hausmeister",
+      "Entrümpelung",
+      "Haushaltsauflösung",
+      "Garten",
+      "Entsorgung"
     ],
-    "scene": "parquet",
-    "logoIcon": "plank",
-    "logoMark": "TB",
-    "brandName": "Thaci Bodenleger",
-    "seoTitle": "Bodenleger in Olching – Thaci Bodenleger",
-    "seoDescription": "Parkett, Laminat, Vinyl und Teppich verlegen in Olching, Esting und Gröbenzell. Angebot per WhatsApp oder Anruf anfragen.",
+    "scene": "garden",
+    "logoIcon": "house",
+    "logoMark": "HM",
+    "brandName": "Hausmeisterservice Matijevic",
+    "seoTitle": "Hausmeisterservice in Nandlstadt – Matijevic",
+    "seoDescription": "Hausmeisterdienste, Entrümpelung und Haushaltsauflösung in Nandlstadt und Umgebung. Jetzt anfragen – auch per WhatsApp mit Fotos.",
     "nav": [
       {
         "label": "Leistungen",
@@ -147,48 +140,48 @@
       }
     ],
     "hero": {
-      "eyebrow": "Bodenleger · Olching",
-      "headline": "Neue Böden für Olching",
-      "sub": "Parkett, Laminat und Vinyl – verlegt von Avni Thaci aus Olching.",
-      "ctaPrimary": "Kostenloses Angebot anfragen",
+      "eyebrow": "Hausmeisterservice · Nandlstadt",
+      "headline": "Hausmeisterservice in Nandlstadt",
+      "sub": "Haus, Hof und Garten in Schuss – und Dachboden oder Garage wieder leer.",
+      "ctaPrimary": "Jetzt anfragen",
       "ctaSecondary": "Anrufen",
       "bullets": [
-        "Bodenleger aus Olching",
-        "Parkett, Laminat, Vinyl, Teppich",
-        "Direkt per Handy erreichbar"
+        "Betrieb in Nandlstadt",
+        "Hausmeister und Entrümpelung",
+        "Fotos per WhatsApp schicken"
       ],
-      "imageLabel": "frisch verlegter Eichenparkett-Boden im hellen Wohnzimmer"
+      "imageLabel": "gepflegter Hof mit gefegter Einfahrt und geschnittener Hecke"
     },
     "badges": [
       {
-        "title": "Parkett",
-        "sub": "Dielen & Stäbe"
+        "title": "Hausmeister",
+        "sub": "Haus, Hof & Garten"
       },
       {
-        "title": "Laminat",
-        "sub": "schnell verlegt"
+        "title": "Entrümpelung",
+        "sub": "Dachboden & Garage"
       },
       {
-        "title": "Vinyl",
-        "sub": "Klick oder geklebt"
+        "title": "Auflösung",
+        "sub": "ganze Haushalte"
       },
       {
-        "title": "Olching",
-        "sub": "Fritzstraße"
+        "title": "Nandlstadt",
+        "sub": "Moosburger Straße"
       }
     ],
     "trust": [
       {
         "value": "Vor Ort",
-        "label": "Betrieb in Olching"
+        "label": "Betrieb in Nandlstadt"
       },
       {
         "value": "4",
-        "label": "Bodenarten"
+        "label": "Leistungsbereiche"
       },
       {
-        "value": "Innen",
-        "label": "Wohnung, Haus, Büro"
+        "value": "Haus & Hof",
+        "label": "drinnen und draußen"
       },
       {
         "value": "Mobil",
@@ -196,199 +189,200 @@
       }
     ],
     "servicesIntro": {
-      "headline": "Vom alten Belag zum fertigen Boden",
-      "text": "Sie wählen den Belag, der Bodenleger kümmert sich um Untergrund, Verlegung und saubere Abschlüsse."
+      "headline": "Arbeit rund ums Haus, abgenommen",
+      "text": "Ob laufende Pflege oder einmaliges Ausräumen: Sie geben die Arbeit ab und haben Haus, Hof und Keller wieder im Griff."
     },
     "services": [
       {
-        "title": "Parkett verlegen",
-        "text": "Echtholz bringt Wärme in Wohn- und Schlafräume – schwimmend oder verklebt, passend zum Untergrund.",
+        "title": "Hausmeisterdienste",
+        "text": "Kleine Reparaturen, Kontrollgänge und Arbeiten rund ums Haus – für Eigentümer und Vermieter.",
         "items": [
-          "Landhausdielen",
-          "Stabparkett",
-          "Fertigparkett"
+          "Kleinreparaturen",
+          "Kontrollgänge",
+          "Objektbetreuung"
         ]
       },
       {
-        "title": "Laminat verlegen",
-        "text": "Robuster Boden für Flur, Kinderzimmer und Mietwohnung, oft an einem Tag pro Raum fertig.",
+        "title": "Garten & Hof",
+        "text": "Hecke schneiden, Rasen mähen, Hof und Einfahrt sauber halten.",
         "items": [
-          "Klicklaminat",
-          "Trittschalldämmung",
-          "Übergangsprofile"
+          "Rasen mähen",
+          "Hecke schneiden",
+          "Hof kehren"
         ]
       },
       {
-        "title": "Vinylboden",
-        "text": "Pflegeleicht und fußwarm, auch für Küche und Bad geeignet.",
+        "title": "Dachboden entrümpeln",
+        "text": "Was sich über Jahre angesammelt hat, wird ausgeräumt und abtransportiert.",
         "items": [
-          "Klickvinyl",
-          "Klebevinyl",
-          "Feuchträume"
+          "Ausräumen",
+          "Abtransport",
+          "Besenrein"
         ]
       },
       {
-        "title": "Teppichboden",
-        "text": "Weicher Belag für Schlafzimmer, Treppen und Büros – zugeschnitten und sauber an den Kanten.",
+        "title": "Garage entrümpeln",
+        "text": "Die Garage wieder fürs Auto nutzen – alter Kram kommt raus.",
         "items": [
-          "Auslegware",
-          "Treppenstufen",
-          "Büroflächen"
+          "Ausräumen",
+          "Sortieren",
+          "Abtransport"
         ]
       },
       {
-        "title": "Altbelag entfernen",
-        "text": "Alter Teppich, PVC oder Laminat kommt raus, bevor der neue Boden kommt.",
+        "title": "Haushaltsauflösung",
+        "text": "Nach Umzug, Pflegeheim oder Erbfall wird die Wohnung vollständig geräumt.",
         "items": [
-          "Rückbau",
-          "Entsorgung klären",
-          "Untergrund freilegen"
+          "Wohnungen",
+          "Häuser",
+          "Keller"
         ]
       },
       {
-        "title": "Untergrund & Leisten",
-        "text": "Ein ebener Untergrund und passende Sockelleisten machen den Boden erst fertig.",
+        "title": "Entsorgung",
+        "text": "Sperrmüll, Grünschnitt und Altmaterial werden abgeholt und entsorgt.",
         "items": [
-          "Untergrund prüfen",
-          "Ausgleichen",
-          "Sockelleisten"
+          "Sperrmüll",
+          "Grünschnitt",
+          "Abholung"
         ]
       }
     ],
     "why": {
-      "headline": "Bodenleger aus Olching – kurze Wege, direkte Absprache.",
+      "headline": "Ein Anruf, und die Arbeit ist vergeben.",
       "points": [
         {
-          "title": "Aus Olching",
-          "text": "Der Betrieb sitzt in der Fritzstraße und ist schnell in Esting, Gröbenzell und Eichenau."
+          "title": "Aus Nandlstadt",
+          "text": "Kurze Wege nach Au, Attenkirchen, Zolling, Mauern und Moosburg."
         },
         {
-          "title": "Ein Ansprechpartner",
-          "text": "Sie sprechen direkt mit Avni Thaci – von der ersten Frage bis zur Übergabe."
+          "title": "Drinnen und draußen",
+          "text": "Hausmeisterarbeiten, Garten und Entrümpelung von einem Betrieb."
         },
         {
-          "title": "Alle gängigen Beläge",
-          "text": "Parkett, Laminat, Vinyl und Teppich aus einer Hand – Sie müssen nicht mehrere Firmen koordinieren."
+          "title": "Direkter Kontakt",
+          "text": "Sie erreichen den Betrieb per Handy oder WhatsApp – ohne Warteschleife."
         },
         {
-          "title": "Fotos genügen",
-          "text": "Für eine erste Einschätzung reichen Fotos und Quadratmeter per WhatsApp."
+          "title": "Mit Abtransport",
+          "text": "Bei Entrümpelungen ist die Entsorgung gleich mit eingeplant."
         }
       ]
     },
     "reviews": {
       "headline": "Was Kunden sagen",
-      "summary": "Kundenstimmen werden hier eingebunden, sobald sie aus dem Google-Profil übernommen sind.",
+      "summary": "Kundenstimmen werden hier eingebunden, sobald sie aus einem Google- oder MyHammer-Profil übernommen sind.",
       "highlights": [
-        "Bodenleger in Olching",
-        "Parkett, Laminat, Vinyl",
+        "Hausmeister in Nandlstadt",
+        "Entrümpelung und Auflösung",
         "Direkter Kontakt"
       ],
       "source": "Google",
-      "sourceUrl": "https://www.google.com/maps/search/?api=1&query=Thaci%20Bodenleger%20Fritzstr.%207%20Olching",
+      "sourceUrl": "https://www.google.com/maps/search/?api=1&query=Hausmeisterservice%20Matijevic%20Moosburger%20Stra%C3%9Fe%2026%20Nandlstadt",
       "rating": null,
       "count": null
     },
     "process": {
-      "headline": "So kommt Ihr neuer Boden ins Haus",
+      "headline": "So einfach geht's",
       "steps": [
         {
-          "title": "Anfrage",
-          "text": "Raum, Quadratmeter und Wunschbelag per WhatsApp schicken – oder kurz anrufen."
+          "title": "Melden",
+          "text": "Kurz anrufen oder Fotos per WhatsApp schicken."
         },
         {
-          "title": "Aufmaß",
-          "text": "Vor Ort werden Fläche, Untergrund und Übergänge geprüft."
+          "title": "Ansehen",
+          "text": "Bei Entrümpelungen wird der Umfang vor Ort eingeschätzt."
         },
         {
-          "title": "Angebot",
-          "text": "Sie erhalten ein klares Angebot für Belag und Verlegung."
+          "title": "Termin",
+          "text": "Sie erhalten ein Angebot und einen festen Termin."
         },
         {
-          "title": "Verlegung",
-          "text": "Altbelag raus, Untergrund vorbereiten, neuen Boden verlegen, Leisten setzen."
+          "title": "Erledigt",
+          "text": "Arbeit erledigt, Abfall abtransportiert, Fläche sauber übergeben."
         }
       ]
     },
     "gallery": {
-      "headline": "Böden, die bleiben",
-      "text": "Für die Live-Version zeigen wir hier echte Projekte des Betriebs.",
+      "headline": "Vorher voll, nachher frei",
+      "text": "Für die Live-Version zeigen wir hier echte Einsätze des Betriebs.",
       "items": [
         {
-          "title": "Eichenparkett",
-          "photoNeeded": "Wohnzimmer mit frisch verlegten Eichendielen"
+          "title": "Leerer Dachboden",
+          "photoNeeded": "geräumter, besenreiner Dachboden"
         },
         {
-          "title": "Laminat im Flur",
-          "photoNeeded": "Flur mit hellem Laminat und Sockelleisten"
+          "title": "Freie Garage",
+          "photoNeeded": "entrümpelte Garage mit Platz fürs Auto"
         },
         {
-          "title": "Vinyl in der Küche",
-          "photoNeeded": "Küche mit Klickvinyl in Holzoptik"
+          "title": "Gepflegter Garten",
+          "photoNeeded": "frisch gemähter Rasen und geschnittene Hecke"
         },
         {
-          "title": "Teppich",
-          "photoNeeded": "Schlafzimmer mit neuem Teppichboden"
+          "title": "Saubere Einfahrt",
+          "photoNeeded": "gekehrter Hof vor einem Wohnhaus"
         },
         {
-          "title": "Vorher – nachher",
-          "photoNeeded": "Raum mit altem Belag und derselbe Raum mit neuem Boden"
+          "title": "Geräumte Wohnung",
+          "photoNeeded": "leere Wohnung nach Haushaltsauflösung"
         }
       ]
     },
     "region": {
-      "headline": "Bodenleger für Olching und Umgebung",
-      "text": "Von Olching aus schnell in Esting, Gröbenzell, Eichenau, Fürstenfeldbruck und Maisach.",
+      "headline": "Hausmeisterservice für Nandlstadt und Umgebung",
+      "text": "Von Nandlstadt aus in Au, Rudelzhausen, Attenkirchen, Zolling, Mauern und Moosburg.",
       "places": [
-        "Olching",
-        "Esting",
-        "Gröbenzell",
-        "Eichenau",
-        "Fürstenfeldbruck",
-        "Maisach"
+        "Nandlstadt",
+        "Au in der Hallertau",
+        "Rudelzhausen",
+        "Attenkirchen",
+        "Zolling",
+        "Mauern",
+        "Moosburg"
       ]
     },
     "faq": [
       {
-        "q": "Welche Böden verlegen Sie?",
-        "a": "Parkett, Laminat, Vinyl und Teppichboden."
+        "q": "Übernehmen Sie auch einmalige Einsätze?",
+        "a": "Ja, neben laufender Betreuung sind auch einzelne Aufträge wie eine Garagen- oder Dachbodenräumung möglich."
+      },
+      {
+        "q": "Wird der Abfall mitgenommen?",
+        "a": "Ja, Entsorgung gehört zum Angebot – Sperrmüll und Altmaterial werden abtransportiert."
       },
       {
         "q": "Kann ich vorab Fotos schicken?",
-        "a": "Ja, Fotos und ungefähre Quadratmeter per WhatsApp helfen für eine erste Einschätzung."
+        "a": "Ja, Fotos per WhatsApp helfen, den Aufwand einzuschätzen."
       },
       {
-        "q": "Muss ich den Belag selbst kaufen?",
-        "a": "Das wird im Einzelfall abgestimmt – sprechen Sie es bei der Anfrage einfach an."
+        "q": "Was kostet eine Entrümpelung?",
+        "a": "Das hängt von Menge und Zugänglichkeit ab. Nach einer Einschätzung erhalten Sie ein Angebot."
       },
       {
-        "q": "Wird der alte Boden entfernt?",
-        "a": "Das klären wir beim Aufmaß, je nach Belag und Untergrund."
-      },
-      {
-        "q": "Arbeiten Sie auch außerhalb von Olching?",
-        "a": "Ja, im Umkreis von Olching – fragen Sie einfach an."
+        "q": "Kommen Sie auch außerhalb von Nandlstadt?",
+        "a": "Ja, in die Nachbarorte wie Au, Attenkirchen oder Moosburg – fragen Sie einfach an."
       }
     ],
     "contact": {
-      "headline": "Ihr Angebot – kostenlos und unverbindlich",
-      "text": "Schreiben Sie kurz, welcher Raum, wie viele Quadratmeter und welcher Belag. Fotos vom jetzigen Boden helfen.",
+      "headline": "Auftrag anfragen",
+      "text": "Schreiben Sie kurz, worum es geht: Gartenpflege, Hausmeisterarbeit oder Entrümpelung – und wo. Fotos helfen.",
       "topics": [
-        "Parkett",
-        "Laminat",
-        "Vinyl",
-        "Teppichboden",
+        "Hausmeisterdienste",
+        "Garten & Hof",
+        "Entrümpelung",
+        "Haushaltsauflösung",
         "Sonstiges"
       ],
-      "responseNote": "Aufmaß nach Absprache."
+      "responseNote": "Termin nach Absprache."
     },
     "quote": {
-      "sizeLabel": "Wie groß ist die Fläche?",
+      "sizeLabel": "Was steht an?",
       "sizes": [
-        "Ein Zimmer",
-        "Bis 50 m²",
-        "50–100 m²",
-        "Ganze Wohnung/Haus"
+        "Einzelner Einsatz",
+        "Garage oder Dachboden",
+        "Ganze Wohnung",
+        "Laufende Betreuung"
       ],
       "timings": [
         "So bald wie möglich",
@@ -397,20 +391,21 @@
         "Ich plane erst noch"
       ]
     },
-    "stickyCta": "Angebot anfragen",
+    "stickyCta": "Jetzt anfragen",
     "look": {
+      "skin": "kante",
       "palette": 3,
-      "font": 2,
-      "hero": 4,
+      "font": 0,
+      "hero": 2,
       "services": 2,
-      "radius": 2,
-      "logo": 3,
-      "intro": 1,
+      "radius": 1,
+      "logo": 2,
+      "intro": 3,
       "projects": 1,
-      "process": 1,
-      "faq": 1,
+      "process": 2,
+      "faq": 2,
       "reviews": 0,
-      "order": 1
+      "order": 2
     }
   }
 }

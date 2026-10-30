@@ -1,120 +1,122 @@
 {
   "id": "2026-10-30-176",
-  "slug": "metallbau-tannek-dachau",
+  "slug": "zimmerei-sandmeier-dachau",
   "date": "2026-10-30",
   "company": {
-    "name": "Rolf Tannek Metallbau",
-    "owner": "Rolf Tannek",
-    "trade": "Metallbau",
+    "name": "Josef Sandmeier Zimmerei und Holzbau",
+    "owner": "Josef Sandmeier",
+    "trade": "Zimmerei & Holzbau",
     "city": "Dachau",
-    "address": "Roßwachtstraße 50, 85221 Dachau",
-    "phone": "08131 514871",
-    "email": null,
+    "address": "Goppertshofer Str. 20, 85221 Dachau-Pellheim",
+    "phone": "08131 3378078",
+    "email": "josef.sandmeier@gmx.de",
     "serviceArea": [
       "Dachau",
-      "Karlsfeld",
+      "Pellheim",
       "Bergkirchen",
-      "Hebertshausen",
       "Röhrmoos",
-      "Schwabhausen"
+      "Hebertshausen",
+      "Schwabhausen",
+      "Karlsfeld"
     ]
   },
   "listings": {
     "google": {
-      "url": "https://www.google.com/maps/search/?api=1&query=Rolf%20Tannek%20Metallbau%20Ro%C3%9Fwachtstra%C3%9Fe%2050%20Dachau",
+      "url": "https://www.google.com/maps/search/?api=1&query=Josef%20Sandmeier%20Zimmerei%20Goppertshofer%20Str.%20Dachau",
       "rating": null,
       "reviews": null,
-      "evidence": "NICHT BELEGT – kein Treffer bei trustlocal, firmania oder rgv-bayern. werkenntdenbesten.de nennt „Herr Rolf Tannek. Metallbau“ in der Liste Metallbauer Dachau (ohne Bewertungen, ohne Website-Angabe) – das ist kein sicherer Google-Beleg. In Google Maps prüfen. Nachprüfung 2026-10-30: erneut kein Treffer bei trustlocal, firmania oder rgv-bayern."
+      "evidence": "NICHT BELEGT – kein Google-Spiegel (trustlocal, rgv-bayern, firmania) zu Josef Sandmeier Zimmerei gefunden. Annahme über öffentlich gelistete Freemail-Adresse josef.sandmeier@gmx.de (11880-Snippet und Verzeichnis-Eintrag). In Google Maps prüfen, ob ein Eintrag existiert und ob dort eine Website hinterlegt ist."
     },
     "myhammer": {
-      "url": "https://www.auftragsfreundlich.de/Rolf-Tannek.html",
+      "url": "https://www.11880.com/suche/schreiner/petershausen",
       "rating": null,
       "reviews": null,
-      "evidence": "Kein MyHammer gefunden – Einträge bei auftragsfreundlich.de (Metallbau, 85221 Dachau, noch keine Bewertung), Cylex (Roßwachtstr. 50, 08131 514871) und in der Mitgliederliste der Metallinnung Dachau-Fürstenfeldbruck."
+      "evidence": "Kein MyHammer gefunden – 11880-Snippet (Ortsliste Schreiner/Zimmerer Umgebung Petershausen/Röhrmoos) nennt „Josef Sandmeier Zimmerei“ in Dachau mit gmx-Adresse; dachdecker.com führt Josef Sandmeier (Dachau) unter Dachdecker; branchenbuch-bayern (Rubrik Zimmereien) und 11880-dachdecker.com mit Goppertshofer Str., Tel. 08131 3378078."
     }
   },
   "websiteStatus": "keine eigene Website gefunden",
   "websiteChecks": [
-    "(1) „Rolf Tannek Metallbau Dachau“ mit blocked_domains (11880, Gelbe Seiten, Das Örtliche, Telefonbuch, Cylex, meinestadt, Creditreform, Facebook, Instagram, golocal, MyHammer, Northdata, WKDB, Yelp, wlw) – nur Innungsliste, auftragsfreundlich, branchenbuch24 und Ortslisten; keine eigene Domain",
-    "(2) Domain-Check allowed_domains tannek.de, tannek-metallbau.de, metallbau-tannek.de, rolf-tannek.de, tannek-dachau.de, metallbautannek.de, tannekmetallbau.de, schlosserei-tannek.de – nur tannek.de als privater IT-Blog („Tanneks site of Life“) ohne Bezug zu einem Metallbaubetrieb",
-    "(3) Telefonsuche „08131 514871“/„08131514871“ – nur Cylex-Ortslisten, Metallinnung und Rufnummern-Auskunft, keine Website",
-    "(4) „Rolf Tannek“ Dachau Bewertungen – nur auftragsfreundlich (keine Bewertung); übrige Treffer betreffen Optik Tannek GmbH (Optiker, Münchner Str. 42, eigene Website) – Verwandtschaft nicht belegt, kein Handwerks-Schwesterbetrieb",
-    "(5) Google-Spiegel trustlocal/firmania/rgv-bayern – kein Eintrag; keine E-Mail gefunden (auch keine Freemail)",
-    "Website-Risiko: mittel – alle Website-Prüfungen negativ, aber weder Google-Eintrag noch Freemail belegt (RESERVE)"
+    "(1) „Josef Sandmeier Zimmerei Dachau“ mit blocked_domains (11880, Gelbe Seiten, Das Örtliche, Telefonbuch, Cylex, meinestadt, Creditreform, Facebook, Instagram, golocal, MyHammer, Northdata, Firmenwissen, WKDB, Yelp, trustlocal, wlw) – nur Verzeichnisse (dachdecker.com, branchenbuch-bayern, 11880-dachdecker.com, muenchen.de-Branchenbuch); keine eigene Domain",
+    "(2) Domain-Check allowed_domains sandmeier-zimmerei.de, zimmerei-sandmeier.de, sandmeier-holzbau.de, holzbau-sandmeier.de, sandmeier.de, zimmerei-sandmeier-dachau.de, sandmeier-dachau.de, josef-sandmeier.de – nur sandmeier.de (Sandmeier-Computer-Solutions, IT-Firma in Trier, fremd); sonst keine Treffer",
+    "(3) Telefonsuche „08131 3378078“/„081313378078“/„08131 71308“ mit blocked_domains – nur Verzeichnisse (dachdecker.com, branchenbuch-bayern; 71308 dort evtl. veraltet), keine Website",
+    "(4) Impressum-Suche „Impressum Josef Sandmeier Zimmerei Pellheim Goppertshofer“ – kein eigenes Impressum; Impressen nur von anderen Firmen (u. a. Zimmerei & Holzbau Ring, Pellheim – anderer Betrieb)",
+    "(5) E-Mail josef.sandmeier@gmx.de (Freemail) – keine Firmendomain",
+    "Hinweis: In Bergkirchen gibt es „Franz Sandmeier GmbH & Co. KG“ (Mineralöl/Immobilien) – anderes Gewerk, Verwandtschaft nicht belegt",
+    "Website-Risiko: mittel – alle Prüfungen negativ, Freemail belegt, aber kein Google-Beleg und widersprüchliche Verzeichnisdaten"
   ],
   "facts": {
     "services": [
-      "Metallbau",
-      "Treppenbau",
-      "Edelstahlarbeiten",
-      "Balkongeländer",
-      "Zäune",
-      "Tore",
-      "Vordächer",
-      "Glastrennwände"
+      "Zimmerei",
+      "Holzbau",
+      "Dachdeckerarbeiten (Verzeichniskategorie)"
     ],
     "experience": null,
     "praisedFor": []
   },
   "strategy": {
-    "audience": "Hauseigentümer, Bauherren und Hausverwaltungen in Dachau und Umgebung, die Geländer, Treppen, Tore, Zäune oder Vordächer aus Metall brauchen",
-    "mainService": "Metallbau – Geländer, Treppen, Tore und Vordächer",
-    "trustSignal": "Mitglied der Metallinnung Dachau-Fürstenfeldbruck, inhabergeführt in Dachau",
-    "conversionGoal": "Anfrage für Geländer, Tor oder Treppe per Anruf, gern mit Fotos und Maßen",
-    "visualConcept": "Werkstattcharakter: gebürsteter Edelstahl, schwarz beschichteter Stahl und Glas – präzise Kanten, klare Linien"
+    "audience": "Hausbesitzer und Landwirte in Dachau, Pellheim, Bergkirchen und Röhrmoos, die einen Dachstuhl erneuern, ein Carport oder Vordach bauen oder Holzbauteile reparieren lassen wollen",
+    "mainService": "Zimmerei und Holzbau – Dachstuhl, Anbauten und Reparaturen",
+    "trustSignal": "Inhabergeführter Zimmereibetrieb in Dachau-Pellheim, Inhaber Josef Sandmeier direkt erreichbar",
+    "conversionGoal": "Anfrage per Telefon oder E-Mail mit Fotos und groben Maßen",
+    "visualConcept": "Warmes Holz und klare Zimmermannsarbeit: frisch abgebundener Dachstuhl, Sparren vor blauem Himmel, Holzschnitt und Werkstattstaub"
   },
   "sales": {
     "score": 4,
     "whyGoodLead": [
-      "Keine eigene Website gefunden – nur Innungsliste und Verzeichnisse",
-      "Breites, gut belegtes Leistungsspektrum (Geländer, Tore, Treppen, Vordächer) – gut darstellbar mit Projektbildern",
-      "Innungsmitglied mit Inhabernamen – kleiner, persönlich geführter Betrieb",
-      "Metallbau ist bisher selten unter den Leads"
+      "Keine eigene Website gefunden – nur Verzeichniseinträge mit widersprüchlichen Daten",
+      "Freemail-Adresse (gmx) statt eigener Domain",
+      "Zimmerei ist unter den bisherigen Leads selten",
+      "Im Dachauer Hinterland suchen Bauherren und Landwirte Zimmerer gezielt online – ohne Website bleibt der Betrieb unsichtbar"
     ],
-    "pitch": "Guten Tag Herr Tannek, ich baue Websites für Handwerksbetriebe im Landkreis Dachau. Ihren Betrieb habe ich in der Mitgliederliste der Metallinnung gefunden, aber keine eigene Website. Ich habe unverbindlich einen Entwurf vorbereitet, auf dem Kunden Ihre Geländer, Tore und Treppen sehen und direkt anfragen können – darf ich Ihnen den Link schicken?"
+    "pitch": "Grüß Gott Herr Sandmeier, hier ist … – ich baue Websites für Handwerker im Landkreis Dachau. Ich habe Ihre Zimmerei in Pellheim in Verzeichnissen gefunden, aber keine eigene Website. Ich habe unverbindlich einen Entwurf vorbereitet, auf dem Kunden Ihre Zimmerer- und Holzbauarbeiten sehen und direkt anfragen können – darf ich Ihnen den Link per E-Mail schicken?"
   },
   "manualChecks": [
-    "RESERVE – weder Google-Eintrag noch Freemail-Adresse belegt: NUR versenden, wenn Google Maps einen Eintrag OHNE Website zeigt.",
-    "Die Metallinnung nennt zusätzlich eine Mobil- und Faxnummer – Ziffern waren im Suchsnippet nicht sichtbar; auf metallinnung-dachau-ffb.de (Mitglieder Landkreis Dachau) nachsehen und ggf. ergänzen",
-    "Verzeichnisdaten teils alt (auftragsfreundlich bestätigt 2009) – prüfen, ob der Betrieb noch aktiv ist",
-    "Optik Tannek GmbH in Dachau hat eine Website – kein Bezug belegt, beim Erstkontakt nicht ansprechen",
+    "Website-Risiko: mittel – vor Versand in Google Maps prüfen, dass keine Website hinterlegt ist (Grund: kein Google-Spiegel gefunden, nur Freemail belegt; Verzeichnisdaten widersprüchlich)",
+    "Adresse klären: Goppertshofer Str. 20 (mehrere Einträge) oder Nr. 18 (ein Eintrag „J. Sandmeier Zimmerei“)",
+    "Telefon klären: 08131 3378078 (mehrere Einträge) vs. 08131 71308 (älterer Eintrag, evtl. abgeschaltet) – keine Mobilnummer gefunden, Erstkontakt per Anruf/E-Mail",
+    "Prüfen, ob der Betrieb noch aktiv ist (Einträge teils veraltet)",
+    "Leistungen nur grob belegt (Zimmerei, Holzbau, Verzeichniskategorie Dachdecker) – Dachstuhl, Carport, Vordach, Balkon, Holzterrasse sind gewerkübliche Annahmen, beim Erstkontakt bestätigen",
+    "Meistertitel/Handwerksrolle nicht belegt – auf der Seite nicht behaupten",
     "Logo und Projektfotos: nicht gefunden – beim Betrieb anfragen"
   ],
   "sources": [
     {
-      "label": "Metallinnung Dachau-Fürstenfeldbruck – Mitglieder im Landkreis Dachau",
-      "url": "http://www.metallinnung-dachau-ffb.de/mitglieder-im-landkreis-dachau/"
+      "label": "11880 – Schreiner Petershausen (Snippet mit Josef Sandmeier Zimmerei, Dachau, gmx)",
+      "url": "https://www.11880.com/suche/schreiner/petershausen"
     },
     {
-      "label": "auftragsfreundlich.de – Rolf Tannek in Dachau",
-      "url": "https://www.auftragsfreundlich.de/Rolf-Tannek.html"
+      "label": "dachdecker.com – Josef Sandmeier, Dachau",
+      "url": "https://www.dachdecker.com/dachau/josef-sandmeier-aUOBnR"
     },
     {
-      "label": "Cylex – Metallbau in Dachau (Liste mit Rolf Tannek)",
-      "url": "https://web2.cylex.de/suche/metallbau/Dachau"
+      "label": "11880-dachdecker.com – Dachdecker Dachau",
+      "url": "https://www.11880-dachdecker.com/dachdecker/dachau"
     },
     {
-      "label": "werkenntdenbesten – Metallbauer Dachau (Liste mit Rolf Tannek)",
-      "url": "https://www.werkenntdenbesten.de/metallbau/dachau"
+      "label": "branchenbuch-bayern – Zimmereien Landkreis Dachau",
+      "url": "https://branchenbuch-bayern.de/suche/index.php?Oid=13&Uid=464&id_lkr=34&id_lkr2=0&id_plz=1429&mhaupt=&mid_lkr=34&mpage=&namescript=umkreissuche.php&order=&page=&rubrikname=Zimmereien&show=&string=&total=&total2=&umkreis=10000&x="
+    },
+    {
+      "label": "muenchen.de Branchenbuch – Zimmerei Dachau",
+      "url": "https://www.muenchen.de/service/branchenbuch/dachau/Z/406.html"
     }
   ],
   "site": {
     "theme": "werk",
     "category": "handwerk",
     "heroOffer": [
-      "Geländer",
-      "Treppen",
-      "Tore",
-      "Zäune",
-      "Vordächer",
-      "Edelstahl"
+      "Dachstuhl",
+      "Holzbau",
+      "Carport",
+      "Vordach",
+      "Reparaturen"
     ],
     "scene": "facade",
-    "logoIcon": "house",
-    "logoMark": "RT",
-    "brandName": "Metallbau Tannek",
-    "seoTitle": "Metallbau in Dachau – Rolf Tannek",
-    "seoDescription": "Geländer, Treppen, Tore, Zäune und Vordächer aus Stahl und Edelstahl – Metallbau Rolf Tannek in Dachau. Jetzt anfragen.",
+    "logoIcon": "roof",
+    "logoMark": "JS",
+    "brandName": "Zimmerei Sandmeier",
+    "seoTitle": "Zimmerei in Dachau-Pellheim – Josef Sandmeier",
+    "seoDescription": "Zimmerei und Holzbau in Dachau-Pellheim: Dachstuhl, Carport, Vordach und Reparaturen am Holz. Jetzt Anfrage mit Fotos schicken.",
     "nav": [
       {
         "label": "Leistungen",
@@ -142,132 +144,132 @@
       }
     ],
     "hero": {
-      "eyebrow": "Metallbau · Dachau",
-      "headline": "Metallbau aus Dachau",
-      "sub": "Geländer, Treppen, Tore und Vordächer aus Stahl und Edelstahl – passend für Ihr Haus gefertigt.",
+      "eyebrow": "Zimmerei & Holzbau · Dachau-Pellheim",
+      "headline": "Zimmerei und Holzbau in Dachau",
+      "sub": "Dachstuhl, Anbau oder Reparatur – Josef Sandmeier plant und baut mit Holz.",
       "ctaPrimary": "Anfrage senden",
       "ctaSecondary": "Anrufen",
       "bullets": [
-        "Metallbau aus Dachau",
-        "Mitglied der Metallinnung",
-        "Stahl, Edelstahl und Glas"
+        "Betrieb in Dachau-Pellheim",
+        "Dach und Holzbau aus einer Hand",
+        "Inhaber direkt erreichbar"
       ],
-      "imageLabel": "Edelstahlgeländer mit Glasfüllung an einem Balkon"
+      "imageLabel": "frisch aufgerichteter Dachstuhl aus Holz vor blauem Himmel"
     },
     "badges": [
       {
-        "title": "Geländer",
-        "sub": "Balkon & Treppe"
+        "title": "Zimmerei",
+        "sub": "Abbund & Montage"
       },
       {
-        "title": "Tore & Zäune",
-        "sub": "für Einfahrt und Garten"
+        "title": "Holzbau",
+        "sub": "Anbau & Vordach"
       },
       {
-        "title": "Innung",
-        "sub": "Metallinnung Dachau-FFB"
+        "title": "Dach",
+        "sub": "Dachstuhl & Sanierung"
       },
       {
-        "title": "Dachau",
-        "sub": "Roßwachtstraße"
+        "title": "Pellheim",
+        "sub": "Goppertshofer Straße"
       }
     ],
     "trust": [
       {
-        "value": "Inhaber",
-        "label": "Rolf Tannek"
-      },
-      {
-        "value": "Innung",
-        "label": "Metallinnung Dachau-FFB"
-      },
-      {
-        "value": "8",
-        "label": "belegte Leistungsbereiche"
-      },
-      {
         "value": "Vor Ort",
-        "label": "Betrieb in Dachau"
+        "label": "Betrieb in Dachau-Pellheim"
+      },
+      {
+        "value": "Inhaber",
+        "label": "Josef Sandmeier persönlich"
+      },
+      {
+        "value": "Holz",
+        "label": "Dach, Anbau, Reparatur"
+      },
+      {
+        "value": "Kurze Wege",
+        "label": "Landkreis Dachau"
       }
     ],
     "servicesIntro": {
-      "headline": "Stahl, Edelstahl und Glas nach Maß",
-      "text": "Ob Balkon, Einfahrt oder Treppenhaus: Metallbau nach Maß passt sich an Ihr Gebäude an – statt umgekehrt."
+      "headline": "Was der Zimmerer für Ihr Haus baut",
+      "text": "Vom neuen Dachstuhl bis zum morschen Balken: Holzarbeiten am Haus kommen aus einer Hand – mit einem Ansprechpartner von der Besichtigung bis zur Montage."
     },
     "services": [
       {
-        "title": "Balkongeländer",
-        "text": "Geländer für Balkon und Terrasse, die sicher halten und zur Fassade passen.",
+        "title": "Dachstühle",
+        "text": "Neue Dachstühle für Neubau und Umbau – abgebunden und vor Ort aufgerichtet.",
         "items": [
-          "Stahl",
-          "Edelstahl",
-          "Glasfüllung"
+          "Neubau",
+          "Umbau",
+          "Aufrichten"
         ]
       },
       {
-        "title": "Treppenbau",
-        "text": "Treppen aus Metall für innen und außen – vom Kelleraufgang bis zur Außentreppe.",
+        "title": "Dachsanierung",
+        "text": "Alte Dächer werden geprüft, schadhafte Sparren und Latten ersetzt und das Dach neu eingedeckt.",
         "items": [
-          "Außentreppen",
-          "Innentreppen",
-          "Handläufe"
+          "Sparren tauschen",
+          "Lattung",
+          "Neueindeckung"
         ]
       },
       {
-        "title": "Tore",
-        "text": "Hof- und Einfahrtstore, abgestimmt auf Zufahrt und Grundstück.",
+        "title": "Carports & Vordächer",
+        "text": "Holz-Carports und Vordächer, passend zu Haus und Grundstück gebaut.",
         "items": [
-          "Einfahrtstore",
-          "Gartentore",
-          "Schiebetore"
+          "Carport",
+          "Vordach",
+          "Überdachung"
         ]
       },
       {
-        "title": "Zäune",
-        "text": "Metallzäune, die Grundstücke klar abgrenzen und lange halten.",
+        "title": "Anbauten in Holz",
+        "text": "Zusätzlicher Raum aus Holz – vom Anbau bis zum Gartenhaus.",
         "items": [
-          "Grundstückszaun",
-          "Sichtschutz",
-          "Pforten"
+          "Anbau",
+          "Gartenhaus",
+          "Schuppen"
         ]
       },
       {
-        "title": "Vordächer",
-        "text": "Vordächer über Haustür und Eingang, die vor Regen schützen.",
+        "title": "Balkone & Terrassen",
+        "text": "Balkone und Terrassen aus Holz werden neu gebaut oder instand gesetzt.",
         "items": [
-          "Hauseingang",
-          "Glasvordach",
-          "Unterkonstruktion"
+          "Balkon",
+          "Holzterrasse",
+          "Geländer"
         ]
       },
       {
-        "title": "Edelstahl & Glas",
-        "text": "Edelstahlarbeiten und Glastrennwände für Haus, Büro und Treppenhaus.",
+        "title": "Holzreparaturen",
+        "text": "Morsche Balken, beschädigte Sparren oder Sturmschäden werden fachgerecht ersetzt.",
         "items": [
-          "Edelstahlarbeiten",
-          "Glastrennwände",
-          "Sonderanfertigung"
+          "Balken tauschen",
+          "Sturmschaden",
+          "Instandsetzung"
         ]
       }
     ],
     "why": {
-      "headline": "Metallbau aus Dachau – vom Aufmaß bis zur Montage.",
+      "headline": "Ein Zimmerer aus Pellheim für Ihr Holzprojekt.",
       "points": [
         {
           "title": "Kurze Wege",
-          "text": "Der Betrieb sitzt in Dachau und ist schnell in Karlsfeld, Bergkirchen und Hebertshausen."
+          "text": "Der Betrieb sitzt in Pellheim und ist schnell in Dachau, Bergkirchen und Röhrmoos."
         },
         {
-          "title": "Innungsbetrieb",
-          "text": "Mitglied der Metallinnung Dachau-Fürstenfeldbruck."
+          "title": "Direkter Ansprechpartner",
+          "text": "Sie sprechen mit Inhaber Josef Sandmeier – ohne Zwischenstellen."
         },
         {
-          "title": "Nach Maß",
-          "text": "Geländer, Tore und Treppen werden für Ihr Gebäude angepasst."
+          "title": "Dach und Holz zusammen",
+          "text": "Dachstuhl, Eindeckung und Holzbau werden in einem Auftrag abgestimmt."
         },
         {
-          "title": "Inhaber direkt",
-          "text": "Sie sprechen mit Rolf Tannek selbst."
+          "title": "Fotos genügen",
+          "text": "Ein paar Bilder vom Dach oder Balken reichen für eine erste Einschätzung."
         }
       ]
     },
@@ -275,116 +277,119 @@
       "headline": "Was Kunden sagen",
       "summary": "Kundenstimmen werden hier eingebunden, sobald sie aus dem Google-Profil übernommen sind.",
       "highlights": [
-        "Metallbau in Dachau",
-        "Geländer, Tore und Treppen",
-        "Direkter Kontakt zum Inhaber"
+        "Zimmerei in Dachau-Pellheim",
+        "Dachstuhl und Holzbau",
+        "Inhaber direkt erreichbar"
       ],
       "source": "Google",
-      "sourceUrl": "https://www.google.com/maps/search/?api=1&query=Rolf%20Tannek%20Metallbau%20Ro%C3%9Fwachtstra%C3%9Fe%2050%20Dachau",
+      "sourceUrl": "https://www.google.com/maps/search/?api=1&query=Josef%20Sandmeier%20Zimmerei%20Goppertshofer%20Str.%20Dachau",
       "rating": null,
       "count": null
     },
     "process": {
-      "headline": "Vom Aufmaß zum fertigen Geländer",
+      "headline": "Vom ersten Anruf zum fertigen Dach",
       "steps": [
         {
           "title": "Anfrage",
-          "text": "Kurz beschreiben, was gebraucht wird – Fotos und grobe Maße helfen."
+          "text": "Rufen Sie an oder schicken Sie Fotos und grobe Maße per E-Mail."
         },
         {
-          "title": "Aufmaß",
-          "text": "Vor Ort werden Maße genommen und Material, Form und Befestigung abgestimmt."
+          "title": "Besichtigung",
+          "text": "Dach, Balken oder Bauplatz werden vor Ort angesehen und vermessen."
         },
         {
           "title": "Angebot",
-          "text": "Sie erhalten ein Angebot für Fertigung und Montage."
+          "text": "Sie erhalten ein schriftliches Angebot für Holz, Arbeit und Zeitplan."
         },
         {
-          "title": "Fertigung & Montage",
-          "text": "Das Bauteil wird gefertigt und vor Ort sicher montiert."
+          "title": "Abbund & Montage",
+          "text": "Das Holz wird zugeschnitten, montiert und die Baustelle sauber übergeben."
         }
       ]
     },
     "gallery": {
-      "headline": "Arbeiten aus Metall",
+      "headline": "Holzbau aus dem Dachauer Land",
       "text": "Für die Live-Version zeigen wir hier echte Projekte des Betriebs.",
       "items": [
         {
-          "title": "Balkongeländer",
-          "photoNeeded": "Edelstahlgeländer mit Glas an einem Balkon"
+          "title": "Neuer Dachstuhl",
+          "photoNeeded": "frisch aufgerichteter Dachstuhl mit sichtbaren Sparren"
         },
         {
-          "title": "Außentreppe",
-          "photoNeeded": "verzinkte Stahltreppe am Hauseingang"
-        },
-        {
-          "title": "Einfahrtstor",
-          "photoNeeded": "Metalltor an einer Hofeinfahrt"
+          "title": "Carport",
+          "photoNeeded": "fertiger Holz-Carport neben einem Wohnhaus"
         },
         {
           "title": "Vordach",
-          "photoNeeded": "Glasvordach über einer Haustür"
+          "photoNeeded": "Holzvordach über einer Haustür"
         },
         {
-          "title": "Glastrennwand",
-          "photoNeeded": "Glastrennwand mit Metallrahmen im Innenraum"
+          "title": "Holzbalkon",
+          "photoNeeded": "neu gebauter Holzbalkon mit Geländer"
+        },
+        {
+          "title": "Dachsanierung",
+          "photoNeeded": "Dach mit neuer Lattung vor dem Eindecken"
         }
       ]
     },
     "region": {
-      "headline": "Metallbau für Dachau und den Landkreis",
-      "text": "Von der Roßwachtstraße in Dachau aus schnell in Karlsfeld, Bergkirchen, Hebertshausen, Röhrmoos und Schwabhausen.",
+      "headline": "Zimmerarbeiten rund um Dachau",
+      "text": "Von Pellheim aus schnell in Dachau, Bergkirchen, Röhrmoos, Hebertshausen, Schwabhausen und Karlsfeld.",
       "places": [
         "Dachau",
-        "Karlsfeld",
+        "Pellheim",
         "Bergkirchen",
-        "Hebertshausen",
         "Röhrmoos",
-        "Schwabhausen"
+        "Hebertshausen",
+        "Schwabhausen",
+        "Karlsfeld"
       ]
     },
     "faq": [
       {
-        "q": "Fertigen Sie Geländer nach Maß?",
-        "a": "Ja, Geländer werden nach Aufmaß vor Ort an Balkon, Treppe oder Terrasse angepasst."
-      },
-      {
-        "q": "Welche Materialien sind möglich?",
-        "a": "Stahl, Edelstahl und Glas – was passt, wird bei der Besichtigung besprochen."
+        "q": "Bauen Sie auch kleinere Projekte wie ein Vordach?",
+        "a": "Fragen Sie gern an – auch kleinere Holzarbeiten am Haus werden nach Absprache übernommen."
       },
       {
         "q": "Kann ich vorab Fotos schicken?",
-        "a": "Ja, Fotos und grobe Maße helfen für eine erste Einschätzung."
+        "a": "Ja, Fotos und grobe Maße per E-Mail helfen für eine erste Einschätzung."
       },
       {
-        "q": "Übernehmen Sie auch die Montage?",
-        "a": "Ja, Fertigung und Montage gehören zum Auftrag."
+        "q": "Prüfen Sie auch einen alten Dachstuhl?",
+        "a": "Ja, bei der Besichtigung wird der Zustand von Sparren und Balken angesehen und besprochen, was zu tun ist."
       },
       {
-        "q": "Arbeiten Sie auch außerhalb von Dachau?",
-        "a": "Ja, im Umkreis von Dachau – fragen Sie einfach an."
+        "q": "Übernehmen Sie auch die Dacheindeckung?",
+        "a": "Das klären wir bei der Anfrage – Dachstuhl und Eindeckung lassen sich oft in einem Auftrag abstimmen."
+      },
+      {
+        "q": "In welchen Orten arbeiten Sie?",
+        "a": "In Dachau und Umgebung, etwa Bergkirchen, Röhrmoos, Hebertshausen und Schwabhausen – fragen Sie einfach an."
       }
     ],
     "contact": {
-      "headline": "Ihr Metallbau-Projekt – unverbindlich anfragen",
-      "text": "Beschreiben Sie kurz, was entstehen soll: Geländer, Treppe, Tor, Zaun oder Vordach. Fotos und Maße helfen.",
+      "headline": "Ihre Anfrage an die Zimmerei Sandmeier",
+      "text": "Beschreiben Sie kurz Ihr Vorhaben: Dachstuhl, Carport, Anbau oder Reparatur, dazu ungefähre Maße. Fotos helfen.",
       "topics": [
-        "Balkongeländer",
-        "Treppen",
-        "Tore",
-        "Zäune",
-        "Vordächer",
+        "Dachstuhl",
+        "Dachsanierung",
+        "Carport / Vordach",
+        "Anbau",
+        "Balkon / Terrasse",
+        "Reparatur",
         "Sonstiges"
       ],
-      "responseNote": "Aufmaß vor Ort nach Absprache."
+      "responseNote": "Besichtigung nach Absprache."
     },
     "quote": {
       "sizeLabel": "Was soll gebaut werden?",
       "sizes": [
-        "Geländer",
-        "Treppe",
-        "Tor / Zaun",
-        "Vordach / Glas"
+        "Dachstuhl",
+        "Dachsanierung",
+        "Carport / Vordach",
+        "Anbau / Gartenhaus",
+        "Reparatur"
       ],
       "timings": [
         "So bald wie möglich",
@@ -393,15 +398,21 @@
         "Ich plane erst noch"
       ]
     },
-    "stickyCta": "Projekt anfragen",
+    "stickyCta": "Jetzt anfragen",
     "look": {
-      "palette": 2,
-      "font": 6,
-      "hero": 0,
-      "services": 1,
-      "radius": 1,
-      "logo": 0,
-      "intro": 5
+      "skin": "kante",
+      "palette": 3,
+      "font": 8,
+      "hero": 6,
+      "services": 0,
+      "radius": 4,
+      "logo": 4,
+      "intro": 1,
+      "projects": 1,
+      "process": 0,
+      "faq": 1,
+      "reviews": 0,
+      "order": 2
     }
   }
 }

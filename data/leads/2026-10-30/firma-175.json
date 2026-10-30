@@ -1,107 +1,130 @@
 {
   "id": "2026-10-30-175",
-  "slug": "hausmeisterservice-kaindl-peissenberg",
+  "slug": "malereibetrieb-baumgartner-olching",
   "date": "2026-10-30",
   "company": {
-    "name": "Hausmeisterservice Kaindl",
-    "owner": null,
-    "trade": "Hausmeisterservice",
-    "city": "Peißenberg",
-    "address": "Barbarahof 6, 82380 Peißenberg",
-    "phone": "0162 3567403",
-    "email": null,
+    "name": "Michael Baumgartner Malereibetrieb",
+    "owner": "Michael Baumgartner",
+    "trade": "Malerbetrieb",
+    "city": "Olching",
+    "address": "Ordenslandstr. 6, 82140 Olching",
+    "phone": "0172 8583832",
+    "email": "malermeisterbaumgartner@t-online.de",
     "serviceArea": [
-      "Peißenberg",
-      "Hohenpeißenberg",
-      "Weilheim",
-      "Peiting",
-      "Polling",
-      "Forst"
+      "Olching",
+      "Gröbenzell",
+      "Eichenau",
+      "Puchheim",
+      "Emmering",
+      "Maisach",
+      "Bergkirchen",
+      "Alling",
+      "Germering",
+      "Fürstenfeldbruck"
     ]
   },
   "listings": {
     "google": {
-      "url": "https://www.google.com/maps/search/?api=1&query=Hausmeisterservice%20Kaindl%20Barbarahof%206%20Pei%C3%9Fenberg",
+      "url": "https://www.google.com/maps/search/?api=1&query=Michael%20Baumgartner%20Malereibetrieb%20Ordenslandstr.%206%20Olching",
       "rating": null,
       "reviews": null,
-      "evidence": "NICHT BELEGT – weder direkter Google-Maps-Treffer noch Google-Spiegel (rgv-bayern, firmania, trustlocal) gefunden. In Maps prüfen."
+      "evidence": "NICHT BELEGT – kein Google-Spiegel gefunden (trustlocal/rgv-bayern/firmania/ambestenbewertet ohne Treffer; ratingbook.de ohne Bewertungen). Annahme über öffentlich gelistete Freemail-Adresse malermeisterbaumgartner@t-online.de (11880, Eintrag aktualisiert 03.10.2026)."
     },
     "myhammer": {
-      "url": "https://www.11880.com/suche/hausmeisterservice/weilheim",
+      "url": "https://www.11880.com/branchenbuch/olching/060693517B102639834/michael-baumgartner-malereibetrieb.html",
       "rating": null,
       "reviews": null,
-      "evidence": "Kein MyHammer gefunden – Eintrag „Hausmeisterservice kaindl“ in der 11880-Ortsliste (Kategorie Hausmeisterservice, Barbarahof 6, 82380 Peißenberg, (0162) 3567403, keine Öffnungszeiten)."
+      "evidence": "Kein MyHammer gefunden – 11880-Eintrag „Michael Baumgartner Malereibetrieb“, Ordenslandstr. 6, Tel. 08142 6523022 und 0172 8583832, E-Mail malermeisterbaumgartner@t-online.de, keine Bewertungen; weitere Einträge bei maler.org, maler-und-lackierer.com, my-profi-maler.de, ratingbook.de, dialo.de."
     }
   },
   "websiteStatus": "keine eigene Website gefunden",
   "websiteChecks": [
-    "(1) „Hausmeisterservice Kaindl Peißenberg Barbarahof“ mit blocked_domains (11880, Gelbe Seiten, Das Örtliche, Telefonbuch, Cylex, meinestadt, Creditreform, Facebook, Instagram, golocal, MyHammer, Northdata, Firmenwissen, WKDB, Yelp, trustlocal, wlw) – nur Verzeichnisse (hausmeisterdienste.net, fliesenleger.net) mit anderen Peißenberger Betrieben; kein Kaindl-Eintrag, keine eigene Domain. Unter Barbarahof 6a ist zusätzlich „Tolgay Bostan Gebäudemanagement“ gelistet (andere Firma)",
-    "(2) Telefonsuche „0162 3567403“/„01623567403“/„0162/3567403“ mit blocked_domains – nur Rufnummern-Blocklisten (anrufer.info, handyanrufe.de), keine Website",
-    "(3) Domain-Check allowed_domains hausmeisterservice-kaindl.de, kaindl-hausmeisterservice.de, hausmeister-kaindl.de, kaindl-hausmeister.de, kaindl-service.de, hms-kaindl.de, kaindl-peissenberg.de, kaindl.de – nur kaindl.de (Kaindl Schleiftechnik, Königsbach-Stein – fremde Firma), sonst keine Treffer",
-    "(4) Spiegelsuche (rgv-bayern, firmania, trustlocal, hausmeisterdienste.net) – nur der 11880-Eintrag, kein Website-Feld, keine E-Mail",
-    "(5) Impressum-Suche „Impressum Hausmeisterservice Kaindl Peißenberg Inhaber“ mit blocked_domains (2026-10-30) – kein eigenes Impressum; nur fremde Kaindl-Firmen (M. Kaindl GmbH Wals/AT, Kaindl Bau GmbH Herrsching, Installateur Kaindl Wien, Haus Kaindl Reit im Winkl) und Hausmeisterservice Punzet (Peißenberg, andere Firma). Inhaber-Vorname weiterhin unbekannt.",
-    "(6) Nachprüfung 2026-10-30: Impressum-Suche negativ; kein Google-Spiegel neu aufgetaucht – Status RESERVE unverändert",
-    "Website-Risiko: mittel – alle Prüfungen negativ, aber weder Google-Eintrag noch Freemail belegt (RESERVE)"
+    "(1) „Michael Baumgartner Malereibetrieb Olching“ mit blocked_domains (11880, Gelbe Seiten, Das Örtliche, Telefonbuch, Cylex, meinestadt, Creditreform, Facebook, Instagram, golocal, MyHammer, Northdata, Firmenwissen, WKDB, Yelp, trustlocal, wlw) – nur Verzeichnisse (maler.org, maler-und-lackierer.com, my-profi.eu, my-profi-maler.de, ratingbook.de, dialo.de); keine eigene Domain",
+    "(2) Domain-Check allowed_domains maler-baumgartner.de, malerbaumgartner.de, baumgartner-maler.de, malerei-baumgartner.de, maler-baumgartner-olching.de, baumgartner-malerei.de, malereibetrieb-baumgartner.de, baumgartner-olching.de – einziger Treffer maler-baumgartner.de gehört Werner Baumgartner, Bad Säckingen (anderer Betrieb)",
+    "(3) Telefonsuche „08142 6523022“ mit blocked_domains – nur maler.org-Verzeichniseintrag und Vorwahlseiten, keine Website",
+    "(4) Impressum-Suche „Impressum Malermeister Michael Baumgartner Ordenslandstr. Olching“ – kein eigenes Impressum, nur Verzeichnisse und ein LinkedIn-Profil „Malermeister Baumgartner“",
+    "(5) E-Mail auf Freemail (t-online.de) – kein Hinweis auf eigene Domain",
+    "Website-Risiko: niedrig – Freemail öffentlich belegt, alle Prüfungen negativ; Google-Eintrag selbst nicht belegt"
   ],
   "facts": {
     "services": [
-      "Hausmeisterservice"
+      "Malerarbeiten",
+      "Tapezierarbeiten",
+      "Lackierarbeiten",
+      "Fassadendämmung",
+      "Wärmedämmung",
+      "Bodenverlegung"
     ],
     "experience": null,
     "praisedFor": []
   },
   "strategy": {
-    "audience": "Hausverwaltungen, Vermieter, Eigentümergemeinschaften und ältere Hausbesitzer in Peißenberg, Hohenpeißenberg und Weilheim, die laufende Pflege von Haus und Grundstück abgeben wollen",
-    "mainService": "Hausmeisterservice für Wohnanlagen und Privathäuser",
-    "trustSignal": "Betrieb vor Ort in Peißenberg, direkt per Handy erreichbar",
-    "conversionGoal": "Hausmeister-Angebot anfragen – per Anruf oder WhatsApp mit Objektadresse und gewünschten Aufgaben",
-    "visualConcept": "Gepflegter Hauseingang einer Wohnanlage im Pfaffenwinkel: gefegte Wege, gemähter Rasen, ordentliche Mülltonnenplätze – bodenständig und aufgeräumt"
+    "audience": "Eigentümer, Vermieter und Hausverwaltungen in Olching, Gröbenzell, Eichenau, Puchheim und Fürstenfeldbruck, die Wohnungen streichen, Fassaden dämmen oder vor dem Einzug renovieren lassen",
+    "mainService": "Maler- und Tapezierarbeiten innen, Fassade und Wärmedämmung",
+    "trustSignal": "Malermeister Michael Baumgartner führt den Betrieb in Olching selbst",
+    "conversionGoal": "Kostenloses Angebot für Malerarbeiten anfragen (per WhatsApp/Anruf mit Fotos)",
+    "visualConcept": "Frisch gestrichene Wände in ruhigen Tönen, Abklebeband, Rolle und Pinsel – aufgeräumt und präzise"
   },
   "sales": {
-    "score": 4,
+    "score": 6,
     "whyGoodLead": [
-      "Keine eigene Website gefunden – nur ein 11880-Eintrag",
-      "Mobilnummer öffentlich gelistet – WhatsApp-Erstkontakt möglich",
-      "Hausverwaltungen suchen Hausmeister online – ohne Seite kaum auffindbar",
-      "Wiederkehrende Aufträge: eine Anfrage kann zu einem Dauervertrag werden"
+      "Keine eigene Website gefunden – nur Verzeichniseinträge",
+      "Freemail (t-online) und Mobilnummer öffentlich gelistet – direkter Erstkontakt möglich",
+      "Breites Leistungsspektrum (Innen, Fassade, Dämmung, Boden) lässt sich auf einer Website gut zeigen",
+      "11880-Eintrag im Oktober 2026 aktualisiert – Betrieb aktiv"
     ],
-    "pitch": "Hallo, hier ist … – ich baue Websites für Handwerksbetriebe im Pfaffenwinkel. Ich habe Ihren Eintrag „Hausmeisterservice Kaindl“ in Peißenberg gefunden, aber keine eigene Website. Ich habe unverbindlich einen Entwurf vorbereitet, über den Hausverwaltungen und Eigentümer Sie direkt per WhatsApp anfragen können – darf ich Ihnen den Link schicken?"
+    "pitch": "Hallo Herr Baumgartner, hier ist … – ich baue Websites für Handwerker im Landkreis Fürstenfeldbruck. Ich habe Ihren Malereibetrieb in Olching gefunden, aber keine eigene Website. Ich habe unverbindlich einen Entwurf vorbereitet, auf dem Kunden Ihre Maler-, Fassaden- und Dämmarbeiten sehen und direkt anfragen können – darf ich Ihnen den Link schicken?"
   },
   "manualChecks": [
-    "RESERVE – weder Google-Eintrag noch Freemail-Adresse belegt: NUR versenden, wenn Google Maps einen Eintrag OHNE Website zeigt.",
-    "Nicht verwechseln mit Kaindl Bau GmbH (Herrsching, eigene Website kaindl-bau.de) – fremde Firma",
-    "Google Maps: „Hausmeisterservice Kaindl, Barbarahof 6, Peißenberg“ suchen – Existenz, Bewertungen und Website-Feld prüfen",
-    "Nur ein einziger Verzeichniseintrag (11880) – prüfen, ob der Betrieb noch aktiv ist",
-    "Inhabername unbekannt (nur Nachname Kaindl) – Anrede beim Erstkontakt bestätigen",
-    "Konkrete Leistungen nicht belegt (nur Kategorie Hausmeisterservice) – Seite zeigt gewerkübliche Aufgaben (Pflege, Winterdienst, Kleinreparaturen); vor Versand beim Betrieb bestätigen",
-    "Logo und Fotos: nicht gefunden – beim Betrieb anfragen"
+    "Website-Risiko: niedrig – vor Versand in Google Maps prüfen, dass keine Website hinterlegt ist (Grund: Freemail belegt, alle Prüfungen negativ, Google-Eintrag aber nicht über Spiegel belegt)",
+    "Google-Eintrag in Maps suchen (Existenz, Bewertungen) – falls keiner existiert, Google-Profil als Zusatzangebot nennen",
+    "Zwei Nummern: Mobil 0172 8583832 (11880) und Festnetz 08142 6523022 – Mobilnummer vor WhatsApp-Kontakt bestätigen",
+    "„Meisterbetrieb“ nur aus Verzeichnistexten (maler-und-lackierer.com, dialo „Malermeister“, E-Mail-Name) – vor Veröffentlichung bestätigen lassen",
+    "Leistungen aus Verzeichnissen (Maler, Tapezieren, Lackieren, Fassaden-/Wärmedämmung, Bodenverlegung) – Umfang beim Betrieb bestätigen",
+    "Logo und Projektfotos: nicht gefunden – beim Betrieb anfragen"
   ],
   "sources": [
     {
-      "label": "11880 – Hausmeisterservices Weilheim (Liste mit Hausmeisterservice Kaindl, Peißenberg)",
-      "url": "https://www.11880.com/suche/hausmeisterservice/weilheim"
+      "label": "11880 – Michael Baumgartner Malereibetrieb Olching (t-online, Mobil)",
+      "url": "https://www.11880.com/branchenbuch/olching/060693517B102639834/michael-baumgartner-malereibetrieb.html"
     },
     {
-      "label": "11880 – Hausmeisterservices Schongau (Umkreisliste mit Peißenberger Betrieben)",
-      "url": "https://www.11880.com/suche/hausmeisterservice/schongau"
+      "label": "maler.org – Michael Baumgartner Malerbetrieb Olching",
+      "url": "https://www.maler.org/olching/michael-baumgartner-malerbetrieb-aUOaDK"
+    },
+    {
+      "label": "maler-und-lackierer.com – Malereibetrieb Michael Baumgartner",
+      "url": "https://www.maler-und-lackierer.com/anbieter/olching/malerreibetrieb-michael-baumgartner/"
+    },
+    {
+      "label": "my-profi-maler.de – Baumgartner Michael",
+      "url": "https://my-profi-maler.de/profil/13935/baumgartner-michael/"
+    },
+    {
+      "label": "ratingbook.de – Malereibetrieb Baumgartner",
+      "url": "https://www.ratingbook.de/malereibetrieb-baumgartner"
+    },
+    {
+      "label": "dialo.de – Michael Baumgartner Malermeister Olching",
+      "url": "https://www.dialo.de/maler/olching/michael-baumgartner-malermeister-m31496597800"
     }
   ],
   "site": {
-    "theme": "garten",
+    "theme": "objekt",
     "category": "handwerk",
     "heroOffer": [
-      "Hauspflege",
-      "Grünpflege",
-      "Winterdienst",
-      "Kleinreparaturen",
-      "Kontrollgänge"
+      "Innenanstrich",
+      "Tapezieren",
+      "Lackieren",
+      "Fassade",
+      "Wärmedämmung"
     ],
-    "scene": "garden",
-    "logoIcon": "house",
-    "logoMark": "HK",
-    "brandName": "Hausmeisterservice Kaindl",
-    "seoTitle": "Hausmeisterservice in Peißenberg – Hausmeisterservice Kaindl",
-    "seoDescription": "Hausmeisterservice in Peißenberg und Umgebung: Pflege von Haus und Außenanlagen, Winterdienst und kleine Reparaturen. Jetzt per WhatsApp anfragen.",
+    "scene": "paint",
+    "logoIcon": "roller",
+    "logoMark": "MB",
+    "brandName": "Malereibetrieb Baumgartner",
+    "seoTitle": "Maler in Olching – Malereibetrieb Michael Baumgartner",
+    "seoDescription": "Malerarbeiten, Tapezieren, Lackieren, Fassaden- und Wärmedämmung in Olching, Gröbenzell und Umgebung. Jetzt Angebot anfragen.",
     "nav": [
       {
         "label": "Leistungen",
@@ -129,48 +152,48 @@
       }
     ],
     "hero": {
-      "eyebrow": "Hausmeisterservice · Peißenberg",
-      "headline": "Ihr Hausmeister in Peißenberg",
-      "sub": "Haus, Hof und Grünflächen in Schuss halten – rund um Peißenberg.",
-      "ctaPrimary": "Hausmeister anfragen",
+      "eyebrow": "Malereibetrieb · Olching",
+      "headline": "Ihr Maler aus Olching",
+      "sub": "Wände, Lack und Fassade – Michael Baumgartner übernimmt Innen und Außen.",
+      "ctaPrimary": "Kostenloses Angebot anfragen",
       "ctaSecondary": "Anrufen",
       "bullets": [
-        "Betrieb in Peißenberg",
-        "Für Wohnanlagen und Privathäuser",
-        "Direkt per Handy erreichbar"
+        "Malerbetrieb aus Olching",
+        "Innen, Fassade, Dämmung",
+        "Mobil und per E-Mail erreichbar"
       ],
-      "imageLabel": "gepflegter Eingang einer Wohnanlage mit gefegtem Weg und gemähtem Rasen"
+      "imageLabel": "frisch gestrichene Wohnzimmerwand mit Farbrolle und Abklebeband"
     },
     "badges": [
       {
-        "title": "Hauspflege",
-        "sub": "Treppenhaus & Keller"
+        "title": "Innenräume",
+        "sub": "Streichen & Tapezieren"
       },
       {
-        "title": "Außenanlagen",
-        "sub": "Rasen, Hecke, Wege"
+        "title": "Lack",
+        "sub": "Türen, Fenster, Heizkörper"
       },
       {
-        "title": "Winterdienst",
-        "sub": "Wege frei halten"
+        "title": "Fassade",
+        "sub": "Anstrich & Dämmung"
       },
       {
-        "title": "Peißenberg",
-        "sub": "Barbarahof"
+        "title": "Olching",
+        "sub": "Ordenslandstraße"
       }
     ],
     "trust": [
       {
         "value": "Vor Ort",
-        "label": "Betrieb in Peißenberg"
+        "label": "Betrieb in Olching"
       },
       {
-        "value": "Haus & Hof",
-        "label": "innen und außen"
+        "value": "10",
+        "label": "Orte im Einsatzgebiet"
       },
       {
-        "value": "Laufend",
-        "label": "auch regelmäßige Termine"
+        "value": "Innen + Außen",
+        "label": "ein Betrieb"
       },
       {
         "value": "Mobil",
@@ -178,83 +201,83 @@
       }
     ],
     "servicesIntro": {
-      "headline": "Was ein Hausmeister Ihnen abnimmt",
-      "text": "Damit Mieter, Eigentümer und Verwaltung sich nicht um jede Glühbirne und jeden Rasenschnitt kümmern müssen."
+      "headline": "Farbe, Tapete und Dämmung aus einer Hand",
+      "text": "Ob ein Zimmer vor dem Einzug oder die ganze Fassade: Sie besprechen alles mit einem Ansprechpartner."
     },
     "services": [
       {
-        "title": "Objektbetreuung",
-        "text": "Regelmäßige Kontrollgänge durch Haus, Keller und Technikräume – Mängel werden früh gemeldet.",
+        "title": "Malerarbeiten innen",
+        "text": "Wände und Decken frisch gestrichen – Möbel und Böden werden vorher abgedeckt.",
         "items": [
-          "Kontrollgänge",
-          "Mängelmeldung",
-          "Ansprechpartner"
+          "Wände & Decken",
+          "Treppenhäuser",
+          "Renovierung vor Einzug"
         ]
       },
       {
-        "title": "Grünpflege",
-        "text": "Rasen mähen, Hecken schneiden, Laub entfernen – die Außenanlage bleibt ordentlich.",
+        "title": "Tapezierarbeiten",
+        "text": "Raufaser, Vlies oder Mustertapete – alte Tapete runter, neue sauber an die Wand.",
         "items": [
-          "Rasen",
-          "Hecken",
-          "Laub"
+          "Raufaser",
+          "Vliestapete",
+          "Alte Tapete entfernen"
         ]
       },
       {
-        "title": "Winterdienst",
-        "text": "Wege und Zugänge werden geräumt und gestreut, wenn Schnee fällt.",
+        "title": "Lackierarbeiten",
+        "text": "Türen, Fensterrahmen, Geländer und Heizkörper bekommen einen frischen, haltbaren Lack.",
         "items": [
-          "Räumen",
-          "Streuen",
-          "Zugänge"
+          "Türen & Zargen",
+          "Fensterrahmen",
+          "Heizkörper"
         ]
       },
       {
-        "title": "Kleinreparaturen",
-        "text": "Klemmende Türen, lose Griffe, defekte Leuchtmittel – kleine Schäden werden direkt behoben.",
+        "title": "Fassadendämmung",
+        "text": "Eine gedämmte Fassade hält die Wärme im Haus und bekommt gleich einen neuen Anstrich.",
         "items": [
-          "Türen",
-          "Leuchtmittel",
-          "Kleinteile"
+          "Außendämmung",
+          "Fassadenanstrich",
+          "Putzflächen"
         ]
       },
       {
-        "title": "Mülltonnenservice",
-        "text": "Tonnen werden zur Abholung bereitgestellt und der Stellplatz sauber gehalten.",
+        "title": "Wärmedämmung",
+        "text": "Dämmarbeiten senken Heizkosten und beugen kalten Wänden vor.",
         "items": [
-          "Bereitstellen",
-          "Stellplatz",
-          "Sauberkeit"
+          "Wärmeschutz",
+          "Kalte Wände",
+          "Energie sparen"
         ]
       },
       {
-        "title": "Treppenhaus & Keller",
-        "text": "Gemeinschaftsflächen werden in Ordnung gehalten – Treppen, Flure und Kellergänge.",
+        "title": "Bodenverlegung",
+        "text": "Nach dem Streichen auch der neue Boden – ohne einen weiteren Betrieb zu suchen.",
         "items": [
-          "Treppenhaus",
-          "Flure",
-          "Keller"
+          "Bodenbeläge",
+          "Renovierung komplett",
+          "Abstimmung in einem"
         ]
       }
     ],
     "why": {
-      "headline": "Ein Hausmeister aus Peißenberg – nah am Objekt.",
+      "headline": "Malerbetrieb aus Olching – vom ersten Anruf bis zum letzten Pinselstrich.",
       "points": [
         {
+          "title": "Inhaber vor Ort",
+          "text": "Michael Baumgartner führt den Betrieb selbst und ist Ihr direkter Ansprechpartner."
+        },
+        {
+          "title": "Innen und außen",
+          "text": "Wohnung, Treppenhaus oder Fassade – alles läuft über einen Betrieb."
+        },
+        {
           "title": "Kurze Wege",
-          "text": "Der Betrieb sitzt in Peißenberg und ist schnell in Hohenpeißenberg, Weilheim und Peiting."
+          "text": "Von der Ordenslandstraße schnell in Gröbenzell, Eichenau, Puchheim und Fürstenfeldbruck."
         },
         {
-          "title": "Ein Ansprechpartner",
-          "text": "Verwaltung und Eigentümer haben eine feste Nummer für alles rund ums Haus."
-        },
-        {
-          "title": "Regelmäßig",
-          "text": "Pflege und Kontrolle nach festem Rhythmus statt nur auf Zuruf."
-        },
-        {
-          "title": "Direkter Draht",
-          "text": "Anruf oder WhatsApp genügt – ohne Warteschleife."
+          "title": "Mehr als Farbe",
+          "text": "Dämmung und Boden gehören zum Angebot – praktisch bei größeren Renovierungen."
         }
       ]
     },
@@ -262,116 +285,119 @@
       "headline": "Was Kunden sagen",
       "summary": "Kundenstimmen werden hier eingebunden, sobald sie aus dem Google-Profil übernommen sind.",
       "highlights": [
-        "Hausmeisterservice in Peißenberg",
-        "Haus und Außenanlagen",
+        "Malerbetrieb in Olching",
+        "Innen, Fassade, Dämmung",
         "Direkter Kontakt"
       ],
       "source": "Google",
-      "sourceUrl": "https://www.google.com/maps/search/?api=1&query=Hausmeisterservice%20Kaindl%20Barbarahof%206%20Pei%C3%9Fenberg",
+      "sourceUrl": "https://www.google.com/maps/search/?api=1&query=Michael%20Baumgartner%20Malereibetrieb%20Ordenslandstr.%206%20Olching",
       "rating": null,
       "count": null
     },
     "process": {
-      "headline": "So startet die Betreuung",
+      "headline": "In vier Schritten zu frischen Wänden",
       "steps": [
         {
           "title": "Anfrage",
-          "text": "Objektadresse und gewünschte Aufgaben per WhatsApp schicken – oder anrufen."
+          "text": "Fotos und grobe Raumgrößen per WhatsApp oder E-Mail schicken – oder anrufen."
         },
         {
           "title": "Besichtigung",
-          "text": "Haus und Außenanlagen werden gemeinsam angeschaut."
+          "text": "Untergrund, Farbwünsche und Umfang werden vor Ort abgestimmt."
         },
         {
           "title": "Angebot",
-          "text": "Sie erhalten ein Angebot – einmalig oder als regelmäßige Betreuung."
+          "text": "Sie erhalten ein nachvollziehbares Angebot für Ihr Vorhaben."
         },
         {
-          "title": "Betreuung",
-          "text": "Die Arbeiten laufen nach Plan, Mängel werden gemeldet."
+          "title": "Ausführung",
+          "text": "Abdecken, vorbereiten, streichen oder tapezieren – und besenrein übergeben."
         }
       ]
     },
     "gallery": {
-      "headline": "Gepflegte Häuser im Pfaffenwinkel",
-      "text": "Für die Live-Version zeigen wir hier echte Objekte, die der Betrieb betreut.",
+      "headline": "Räume in neuer Farbe",
+      "text": "Für die Live-Version zeigen wir hier echte Projekte des Betriebs.",
       "items": [
         {
-          "title": "Gepflegter Eingang",
-          "photoNeeded": "Hauseingang einer Wohnanlage mit sauberem Weg"
+          "title": "Wohnzimmer",
+          "photoNeeded": "frisch gestrichenes Wohnzimmer in hellem Ton"
         },
         {
-          "title": "Rasen & Hecke",
-          "photoNeeded": "frisch gemähter Rasen mit geschnittener Hecke"
+          "title": "Neue Tapete",
+          "photoNeeded": "tapezierte Wand mit sauberen Stößen"
         },
         {
-          "title": "Winterdienst",
-          "photoNeeded": "geräumter und gestreuter Gehweg"
+          "title": "Lackierte Türen",
+          "photoNeeded": "weiß lackierte Zimmertür mit Zarge"
+        },
+        {
+          "title": "Fassade",
+          "photoNeeded": "Einfamilienhaus mit neuem Fassadenanstrich"
         },
         {
           "title": "Treppenhaus",
-          "photoNeeded": "sauberes, helles Treppenhaus"
-        },
-        {
-          "title": "Tonnenplatz",
-          "photoNeeded": "aufgeräumter Mülltonnenstellplatz"
+          "photoNeeded": "renoviertes Treppenhaus im Mehrfamilienhaus"
         }
       ]
     },
     "region": {
-      "headline": "Hausmeisterservice für Peißenberg und Umgebung",
-      "text": "Von Peißenberg aus in Hohenpeißenberg, Weilheim, Peiting, Polling, Forst und Wessobrunn.",
+      "headline": "Malerarbeiten in Olching und im Landkreis Fürstenfeldbruck",
+      "text": "Von Olching aus in Gröbenzell, Eichenau, Puchheim, Emmering, Maisach, Germering und Fürstenfeldbruck.",
       "places": [
-        "Peißenberg",
-        "Hohenpeißenberg",
-        "Weilheim",
-        "Peiting",
-        "Polling",
-        "Forst",
-        "Wessobrunn"
+        "Olching",
+        "Gröbenzell",
+        "Eichenau",
+        "Puchheim",
+        "Emmering",
+        "Maisach",
+        "Bergkirchen",
+        "Alling",
+        "Germering",
+        "Fürstenfeldbruck"
       ]
     },
     "faq": [
       {
-        "q": "Betreuen Sie auch einzelne Privathäuser?",
-        "a": "Fragen Sie gern an – Umfang und Rhythmus werden individuell abgestimmt."
+        "q": "Muss ich die Möbel selbst ausräumen?",
+        "a": "Das wird bei der Besichtigung abgesprochen. Böden und Möbel werden vor dem Streichen abgedeckt."
       },
       {
-        "q": "Ist auch ein einmaliger Einsatz möglich?",
-        "a": "Ja, zum Beispiel ein Garteneinsatz im Herbst. Regelmäßige Betreuung ist ebenso möglich."
+        "q": "Kann ich vorab Fotos schicken?",
+        "a": "Ja, Fotos und grobe Maße per WhatsApp oder E-Mail helfen für eine erste Einschätzung."
       },
       {
-        "q": "Wer kümmert sich im Winter um die Wege?",
-        "a": "Winterdienst kann Teil der Betreuung sein – Details klären Sie bei der Besichtigung."
+        "q": "Streichen Sie auch Fassaden?",
+        "a": "Ja, Fassadenanstrich und Fassadendämmung gehören zum Angebot."
       },
       {
-        "q": "Wie schnell bekomme ich ein Angebot?",
-        "a": "Nach der Besichtigung des Objekts erhalten Sie ein Angebot."
+        "q": "Übernehmen Sie auch Tapezierarbeiten?",
+        "a": "Ja, inklusive Entfernen alter Tapeten."
       },
       {
-        "q": "Arbeiten Sie auch außerhalb von Peißenberg?",
-        "a": "Ja, im Umkreis von Peißenberg – fragen Sie einfach an."
+        "q": "In welchen Orten arbeiten Sie?",
+        "a": "In Olching und den Nachbarorten, etwa Gröbenzell, Eichenau, Puchheim, Emmering, Maisach und Fürstenfeldbruck."
       }
     ],
     "contact": {
-      "headline": "Hausmeister anfragen – kostenlos und unverbindlich",
-      "text": "Nennen Sie kurz Ort und Art des Objekts und welche Aufgaben übernommen werden sollen.",
+      "headline": "Ihr Angebot – kostenlos und unverbindlich",
+      "text": "Beschreiben Sie kurz, welche Räume oder Flächen gestrichen, tapeziert oder gedämmt werden sollen. Fotos helfen.",
       "topics": [
-        "Objektbetreuung",
-        "Grünpflege",
-        "Winterdienst",
-        "Kleinreparaturen",
+        "Innenanstrich",
+        "Tapezieren",
+        "Lackieren",
+        "Fassade & Dämmung",
         "Sonstiges"
       ],
       "responseNote": "Besichtigung nach Absprache."
     },
     "quote": {
-      "sizeLabel": "Um welches Objekt geht es?",
+      "sizeLabel": "Was soll gestrichen werden?",
       "sizes": [
-        "Einfamilienhaus",
-        "Mehrfamilienhaus",
-        "Wohnanlage",
-        "Gewerbeobjekt"
+        "Ein Zimmer",
+        "Ganze Wohnung",
+        "Treppenhaus",
+        "Fassade"
       ],
       "timings": [
         "So bald wie möglich",
@@ -380,17 +406,18 @@
         "Ich plane erst noch"
       ]
     },
-    "stickyCta": "Hausmeister anfragen",
+    "stickyCta": "Angebot anfragen",
     "look": {
+      "skin": "kante",
       "palette": 3,
-      "font": 5,
-      "hero": 7,
-      "services": 3,
-      "radius": 0,
+      "font": 3,
+      "hero": 3,
+      "services": 1,
+      "radius": 1,
       "logo": 3,
-      "intro": 4,
+      "intro": 2,
       "projects": 0,
-      "process": 0,
+      "process": 1,
       "faq": 0,
       "reviews": 1,
       "order": 3
