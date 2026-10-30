@@ -1,0 +1,184 @@
+<!doctype html>
+<html lang="de">
+<head>
+<meta charset="utf-8">
+<style>
+@font-face{font-family:Montserrat;font-weight:600;src:url(assets/fonts/montserrat-latin-600-normal.woff2)}
+@font-face{font-family:Montserrat;font-weight:800;src:url(assets/fonts/montserrat-latin-800-normal.woff2)}
+@font-face{font-family:Oswald;font-weight:700;src:url(assets/fonts/oswald-latin-700-normal.woff2)}
+:root{--w:#4FC3F7;--w2:#B3E5FC;--g:#F0B92A;--red:#E5402A;--grn:#3FBF5A;--ink:#06121c}
+*{box-sizing:border-box;margin:0;padding:0}
+html,body{width:1080px;height:1920px;overflow:hidden;background:#000}
+#stage{position:relative;width:1080px;height:1920px;overflow:hidden;font-family:Montserrat,sans-serif;color:#fff;background:radial-gradient(circle at 50% 35%,#0f2a3d 0%,#040b12 75%)}
+#cam{position:absolute;inset:0;transform-origin:50% 40%}
+.sc{position:absolute;inset:0;display:none}
+.a{position:absolute}
+.c{left:50px;right:50px;text-align:center}
+.h{font:800 96px Montserrat;line-height:1.02;text-transform:uppercase;text-shadow:0 8px 30px rgba(0,0,0,.6)}
+.h b{color:var(--w)}
+.chip{display:inline-block;font:800 40px Montserrat;text-transform:uppercase;padding:10px 30px;border-radius:44px}
+svg{position:absolute}
+#brand{position:absolute;left:0;right:0;top:140px;display:flex;justify-content:center;align-items:center;gap:16px;z-index:9}
+#brand img{width:76px;height:76px;border-radius:50%}
+#brand div{font:700 36px Oswald;letter-spacing:.05em;text-transform:uppercase}
+#brand b{color:var(--w)}
+#tw{top:1180px;font:800 150px Oswald;letter-spacing:.04em;color:var(--w2);text-shadow:0 0 40px rgba(79,195,247,.6)}
+#cnt{top:690px;font:700 230px Oswald;color:var(--w);text-shadow:0 0 60px rgba(79,195,247,.5);line-height:1}
+#unit{top:950px;font:800 64px Montserrat;text-transform:uppercase}
+#src{top:1060px;font:600 32px Montserrat;color:#8fb3c8}
+#tubs{left:60px;right:60px;top:440px;display:grid;grid-template-columns:repeat(8,1fr);gap:30px 0;justify-items:center}
+#tubs span{font-size:92px;line-height:1.05;display:block}
+#h3{top:1200px}
+#sign{left:690px;top:520px;transform-origin:0 100%}
+#sign div{background:#fff;color:var(--ink);font:800 64px Montserrat;padding:14px 34px;border-radius:16px;box-shadow:0 10px 30px rgba(0,0,0,.5)}
+#xx{left:290px;top:520px;font:800 520px Montserrat;color:var(--red);line-height:1;text-shadow:0 0 50px rgba(229,64,42,.6)}
+.cbtn{left:150px;right:150px;height:150px;border-radius:80px;display:flex;align-items:center;justify-content:center;font:700 72px Oswald;text-transform:uppercase;overflow:hidden;box-shadow:0 20px 50px rgba(0,0,0,.4)}
+#caps{position:absolute;left:50px;right:50px;top:1560px;text-align:center;z-index:20}
+#caps div{display:inline-block;background:rgba(4,11,18,.88);border-radius:18px;padding:12px 28px;font:800 56px Montserrat;line-height:1.16}
+#caps span.on{color:var(--w)}
+#flash{position:absolute;inset:0;background:#fff;z-index:30;opacity:0}
+#prog{position:absolute;left:0;top:0;height:8px;background:var(--w);z-index:31}
+</style>
+<script>document.write('<script src="'+(new URLSearchParams(location.search).get('data')||'data.js')+'"><\/script>')</script>
+</head>
+<body>
+<div id="stage"><div id="cam">
+
+<!-- shared faucet (S1, S2, S5) -->
+<svg id="fx" viewBox="0 0 1080 1920" width="1080" height="1920" style="inset:0"></svg>
+
+<div class="sc" id="S1"><div class="a c" id="tw"></div></div>
+
+<div class="sc" id="S2">
+  <div class="a c" id="cnt">0</div>
+  <div class="a c" id="unit">Liter <span style="color:var(--w)">pro Jahr</span></div>
+  <div class="a c" id="src">bei 1 Tropfen pro Sekunde · Quelle: Verbraucherzentrale Hamburg</div>
+</div>
+
+<div class="sc" id="S3">
+  <div class="a c" style="top:300px"><span class="chip" id="c3" style="background:var(--w);color:var(--ink)">Das sind etwa</span></div>
+  <div class="a" id="tubs"></div>
+  <div class="a c h" id="h3">≈ 40 <b>Badewannen!</b></div>
+</div>
+
+<div class="sc" id="S4">
+  <div class="a c" style="top:640px;font-size:420px;line-height:1" id="tub4">🛁</div>
+  <div class="a" id="duck" style="left:600px;top:700px;font-size:120px">🦆</div>
+  <div class="a" id="sign"><div>Ihre?</div></div>
+  <div class="a" id="xx">✕</div>
+  <div class="a c h" id="h4" style="top:1180px;font-size:88px">Nur halt<br><b>nicht Ihre</b> 😅</div>
+</div>
+
+<div class="sc" id="S5">
+  <div class="a c" style="top:280px"><span class="chip" id="c5" style="background:var(--g);color:var(--ink)">Sanitär-Kundendienst</span></div>
+  <div class="a c h" id="h5" style="top:1200px">Wieder <b>dicht</b> ✓</div>
+</div>
+
+<div class="sc" id="S6">
+  <img class="a" id="clogo" src="assets/logo.png" style="left:340px;top:300px;width:400px;height:400px;border-radius:50%;box-shadow:0 30px 80px rgba(0,0,0,.6)">
+  <div class="a cbtn" id="fbtn" style="top:780px;background:#fff;color:#121110"><span id="ftxt">+ Folgen</span></div>
+  <svg class="a" id="hand" viewBox="0 0 100 100" style="left:640px;top:860px;width:150px;height:150px"><path d="M38 10a7 7 0 0 1 14 0v34l6-2a7 7 0 0 1 8 4l2 5 6-1a7 7 0 0 1 8 5l2 6 4 0a7 7 0 0 1 7 8l-4 20c-2 8-8 11-16 11H44c-6 0-10-3-13-8L14 62a7 7 0 0 1 11-9l13 12z" fill="#fff" stroke="#121110" stroke-width="5" stroke-linejoin="round"/></svg>
+  <div class="a c" id="e1" style="top:1000px;font:800 58px Montserrat;text-transform:uppercase">Folgen für <span style="color:var(--w)">mehr Tipps</span></div>
+  <div class="a c" id="e2" style="top:1080px;font:800 126px Montserrat;color:var(--g)">fob-fm.de</div>
+  <div class="a c" id="e3" style="top:1250px;font:600 40px Montserrat;color:#cfe3f5">Sanitär-Kundendienst · Weßling-Hochstadt</div>
+</div>
+
+</div>
+<div id="brand"><img src="assets/logo.png"><div>FOB <b>Sanitär</b></div></div>
+<div id="caps"></div><div id="flash"></div><div id="prog"></div></div>
+<script>
+const $=id=>document.getElementById(id);
+const cl=(x,a=0,b=1)=>Math.min(b,Math.max(a,x));
+const p=(t,a,d)=>cl((t-a)/d);
+const eo=x=>1-Math.pow(1-x,3);
+const io=x=>x<.5?4*x*x*x:1-Math.pow(-2*x+2,3)/2;
+const back=x=>{const c=1.8;return 1+(c+1)*Math.pow(x-1,3)+c*Math.pow(x-1,2)};
+const esc=s=>String(s).replace(/&/g,'&amp;').replace(/</g,'&lt;');
+const NS='http://www.w3.org/2000/svg';
+const el=(tag,at,par)=>{const e=document.createElementNS(NS,tag);for(const k in at)e.setAttribute(k,at[k]);par&&par.appendChild(e);return e};
+const C=CUES,T=C.total;
+const SC=[['S1',0,C.s2],['S2',C.s2,C.s3],['S3',C.s3,C.s4],['S4',C.s4,C.s5],['S5',C.s5,C.s6],['S6',C.s6,T]];
+const CUTS=[C.s2,C.s3,C.s4,C.s5,C.s6];
+// faucet + drop + splash
+{const g=$('fx');const f=el('g',{id:'fau'},g);
+ el('rect',{x:120,y:380,width:120,height:300,rx:18,fill:'#c9d3dc'},f);           // wall pipe
+ el('path',{d:'M180 470 h330 q80 0 80 80 v90 h-90 v-60 q0 -20 -20 -20 h-300z',fill:'#e6edf3',stroke:'#9fb0bf','stroke-width':6},f);
+ el('rect',{x:300,y:400,width:60,height:70,rx:10,fill:'#b8c6d2'},f);
+ el('rect',{x:240,y:370,width:180,height:40,rx:20,fill:'#E5402A'},f);             // handle
+ el('rect',{x:494,y:636,width:102,height:20,rx:8,fill:'#9fb0bf'},f);
+ el('path',{id:'drop',d:'M0 -40 C 18 -12 28 6 28 20 a28 28 0 0 1 -56 0 c0 -14 10 -32 28 -60z',fill:'var(--w)',stroke:'#e1f5fe','stroke-width':3},g);
+ for(let i=0;i<3;i++)el('ellipse',{id:'rp'+i,cx:545,cy:1080,rx:10,ry:3,fill:'none',stroke:'var(--w2)','stroke-width':6},g);
+ for(let i=0;i<6;i++)el('circle',{id:'sp'+i,r:9,fill:'var(--w2)'},g);
+ const w=el('g',{id:'wr'},g);el('path',{d:'M-20 0 h40 v220 q0 20 -20 20 q-20 0 -20 -20z',fill:'#F0B92A',stroke:'#7a5a10','stroke-width':5},w);el('path',{d:'M-60 -40 a60 60 0 1 0 120 0 l-30 0 l0 30 l-60 0 l0 -30z',fill:'#F0B92A',stroke:'#7a5a10','stroke-width':5},w);
+ const ck=el('g',{id:'ck'},g);el('circle',{r:110,fill:'var(--grn)',stroke:'#fff','stroke-width':10},ck);el('path',{d:'M-50 0 l35 38 l68 -76',fill:'none',stroke:'#fff','stroke-width':24,'stroke-linecap':'round','stroke-linejoin':'round'},ck);}
+// tubs
+for(let i=0;i<40;i++){const s=document.createElement('span');s.textContent='🛁';$('tubs').appendChild(s)}
+const TUB=[...$('tubs').children];
+// captions
+const CH=[];{let cur=[];CAPS.forEach((w,k)=>{cur.push(w);const brk=/[.,?!:;–…]$/.test(w.text)||cur.length>=4||cur.map(x=>x.text).join(' ').length>22;if(brk||k===CAPS.length-1){CH.push(cur);cur=[]}});}
+CH.forEach((c,k)=>{c.s=c[0].start;c.e=k+1<CH.length?Math.min(CH[k+1][0].start,c[c.length-1].end+.5):c[c.length-1].end+.8});
+function dropAt(t,t0,dur){ // drop falls from spout (545,660) to puddle (545,1080) during [t0,t0+dur]
+  const k=p(t,t0,dur);return {y:660+420*k*k,on:t>=t0&&t<t0+dur,land:t-(t0+dur)}}
+window.render=function(t){
+  SC.forEach(([id,a,b])=>$(id).style.display=(t>=a&&t<b)?'block':'none');
+  let sx=0,sy=0,zs=1;
+  for(const c of [0,...CUTS]){if(t>=c&&t<c+.5){const k=Math.exp(-(t-c)*9);sx+=Math.sin((t-c)*83)*16*k;sy+=Math.cos((t-c)*71)*12*k;zs+=.05*k}}
+  for(const c of C.hits){if(t>=c&&t<c+.4){const k=Math.exp(-(t-c)*10);zs+=.05*k;sx+=Math.sin((t-c)*90)*9*k}}
+  // S1 creeping zoom per drip
+  if(t<C.s2){let z=1;C.drips.forEach((d,i)=>{z+=.045*eo(p(t,d,.4))});zs*=z}
+  $('cam').style.transform=`translate(${sx}px,${sy}px) scale(${zs})`;
+  let fl=0;for(const c of CUTS)if(t>=c)fl+=.35*Math.exp(-(t-c)*12);$('flash').style.opacity=cl(fl);
+  $('prog').style.width=(cl(t/T)*100)+'%';
+  // faucet group placement per scene
+  const inS1=t<C.s2,inS2=t>=C.s2&&t<C.s3,inS5=t>=C.s5&&t<C.s6;
+  $('fx').style.display=(inS1||inS2||inS5)?'block':'none';
+  $('fx').style.transform=inS2?'translate(0,-150px) scale(.55)':inS5?'translate(0,130px)':'none';$('fx').style.transformOrigin='540px 400px';
+  // drops: S1 at drip cues, S2 continuous, S5 one drop that freezes
+  let drops=[];
+  if(inS1)drops=C.drips.map(d=>[d-.45,.45]);
+  if(inS2){const n=Math.floor((t-C.s2)/.5);for(let i=n-1;i<=n;i++)drops.push([C.s2+i*.5,.45])}
+  if(inS5)drops=[[C.s5+.2,.45]];
+  let dy=null,landK=-1;
+  for(const [t0,du] of drops){const d=dropAt(t,t0,du);if(d.on)dy=d.y;if(d.land>=0&&d.land<.6)landK=d.land}
+  if(inS5&&t>C.fix){const d=dropAt(C.fix,C.s5+.2,.45);dy=Math.min(d.y,900);landK=-1}
+  if(inS5&&t>C.fix+.6)dy=null;
+  $('drop').setAttribute('transform',dy===null?'translate(-999 0)':`translate(545 ${dy})`);
+  for(let i=0;i<3;i++){const k=landK<0?-1:landK/.6-i*.15;const r=$('rp'+i);if(k<0||k>1){r.setAttribute('opacity',0)}else{r.setAttribute('rx',20+k*180);r.setAttribute('ry',6+k*40);r.setAttribute('opacity',1-k)}}
+  for(let i=0;i<6;i++){const s=$('sp'+i);if(landK<0||landK>.45){s.setAttribute('opacity',0);continue}const a=-Math.PI*(i+.5)/6,k=landK/.45;s.setAttribute('cx',545+Math.cos(a)*120*k);s.setAttribute('cy',1080+Math.sin(a)*160*k+300*k*k);s.setAttribute('opacity',1-k)}
+  // S1 "Tropf" word
+  {let txt='',lk=0;C.drips.forEach((d,i)=>{if(t>=d-.05){txt='Tropf'+'.'.repeat(i+1);lk=back(p(t,d-.05,.3))}});$('tw').textContent=txt;$('tw').style.transform=`scale(${.6+.4*lk})`;$('tw').style.opacity=txt?1:0}
+  // S2 counter
+  {const k=io(p(t,C.s2+.2,C.six-C.s2-.1));const v=Math.round(6000*k);$('cnt').textContent=v.toLocaleString('de-DE');
+   const pop=t>=C.six?1+.12*Math.exp(-(t-C.six)*6)*Math.sin((t-C.six)*20):1;$('cnt').style.transform=`scale(${pop})`;$('cnt').style.color=t>=C.six?'#fff':'var(--w)';
+   const ku=eo(p(t,C.s2+.3,.4));$('unit').style.opacity=ku;$('unit').style.transform=`translateY(${(1-ku)*30}px)`;$('src').style.opacity=eo(p(t,C.s2+.8,.4))*.95}
+  // S3 tubs
+  {$('c3').style.transform=`scale(${back(p(t,C.s3,.35))})`;const span=Math.max(.6,C.vierzig-C.s3-.2);
+   TUB.forEach((e,i)=>{const ti=C.s3+.15+span*i/40;const k=back(p(t,ti,.22));e.style.transform=`scale(${k}) rotate(${(1-k)*30}deg)`;e.style.opacity=cl(p(t,ti,.05))});
+   const kh=back(p(t,C.vierzig,.4));$('h3').style.opacity=cl(p(t,C.vierzig,.1));$('h3').style.transform=`scale(${.6+.4*kh})`}
+  // S4 punchline
+  {const t0=C.s4;const kt=back(p(t,t0,.4));$('tub4').style.transform=`scale(${kt})`;$('duck').style.transform=`translateY(${Math.sin(t*6)*12}px) rotate(${Math.sin(t*4)*8}deg)`;$('duck').style.opacity=cl(p(t,t0+.2,.1));
+   const ks=back(p(t,t0+.25,.4));$('sign').style.transform=`rotate(${-12+(1-ks)*-40}deg) scale(${ks})`;$('sign').style.opacity=cl(p(t,t0+.25,.1));
+   const kx=back(p(t,C.nicht,.3));$('xx').style.opacity=cl(p(t,C.nicht,.06));$('xx').style.transform=`scale(${2.4-1.4*kx}) rotate(${(1-kx)*20}deg)`;
+   const kh=eo(p(t,C.nicht-.1,.35));$('h4').style.opacity=kh;$('h4').style.transform=`translateY(${(1-kh)*50}px)`}
+  // S5 fix
+  {const t0=C.s5;$('c5').style.transform=`scale(${back(p(t,t0,.35))})`;
+   const kw=eo(p(t,t0+.1,.5)),rot=t<C.fix?-60+60*kw:Math.sin((t-C.fix)*16)*25*Math.exp(-(t-C.fix)*3);
+   $('wr').setAttribute('transform',`translate(${330+(1-kw)*500} ${330}) rotate(${rot}) scale(.9)`);$('wr').setAttribute('opacity',inS5?1:0);
+   const kc=back(p(t,C.fix+.4,.35));$('ck').setAttribute('transform',`translate(780 900) scale(${t>C.fix+.4?kc:0})`);
+   const kh=back(p(t,C.fix+.3,.4));$('h5').style.opacity=cl(p(t,C.fix+.3,.1));$('h5').style.transform=`scale(${kh})`}
+  // S6
+  {const t0=C.s6;const kl=back(p(t,t0,.5));$('clogo').style.opacity=cl(p(t,t0,.15));$('clogo').style.transform=`scale(${.6+.4*kl})`;
+   const kb=back(p(t,t0+.3,.4));$('fbtn').style.opacity=cl(p(t,t0+.3,.1));
+   const tap=C.tap,hk=eo(p(t,tap-.5,.45)),press=t>tap&&t<tap+.2;
+   $('hand').style.opacity=cl(p(t,tap-.5,.15))*(1-p(t,tap+.9,.3));$('hand').style.transform=`translate(${(1-hk)*300}px,${(1-hk)*200+(press?10:0)}px)`;
+   const done=t>=tap;$('fbtn').style.background=done?'#3FA34D':'#fff';$('fbtn').style.color=done?'#fff':'#121110';$('ftxt').textContent=done?'✓ Gefolgt':'+ Folgen';
+   $('fbtn').style.transform=`scale(${kb*(done?1+.08*Math.sin(cl((t-tap)/.3)*Math.PI):1)})`;
+   [['e1',tap+.2],['e3',tap+.9]].forEach(([id,a])=>{const k=eo(p(t,a,.4));$(id).style.opacity=k;$(id).style.transform=`translateY(${(1-k)*30}px)`});
+   const k2=back(p(t,tap+.5,.45));$('e2').style.opacity=cl(p(t,tap+.5,.12));$('e2').style.transform=`scale(${(.7+.3*k2)*(t>tap+1.1?1+.03*Math.sin((t-tap)*5):1)})`}
+  let html='';for(const c of CH){if(t>=c.s&&t<c.e){const k=back(p(t,c.s,.16));html=`<div style="transform:scale(${.75+.25*k});opacity:${cl(p(t,c.s,.06))}">`+c.map(w=>`<span class="${t>=w.start-.03?'on':''}">${esc(w.text)}</span>`).join(' ')+'</div>';break}}
+  $('caps').innerHTML=(t<C.s2||t>=C.s6)?'':html;
+};
+window.addEventListener('load',()=>document.fonts.ready.then(()=>render(0)));
+</script>
+</body>
+</html>
