@@ -9,12 +9,13 @@ find = lambda pre, after=0.0: next(w['start'] for w in words if w['start'] >= af
 TOTAL = round(words[-1]['end'] + 2.4, 2)
 C = {'total': TOTAL}
 C['hier'] = find('rinnt') + .3
-C['st'] = find('dann') - .1; C['ck'] = find('termin')
-C['s2'] = find('denn') - .1; C['nichts'] = find('spüldruck')
+C['st'] = find('dann') - .1; C['ck'] = find('rufen')
+C['s2'] = find('sonst') - .1; C['nichts'] = find('spüldruck')
 C['s3'] = find('wir', C['s2']) - .1
-C['parts'] = [find('füllventil'), find('bassin'), find('schwimmerglocke')]
-C['ent'] = find('entkalken'); C['wieder'] = find('erneuern'); C['burst'] = (C['ent'] + C['wieder']) / 2
-C['sk'] = find('ist', C['wieder']) - .1; C['druck'] = C['sk'] - 1.0
+C['sk'] = find('oder', C['s3']) - .1
+d3 = C['sk'] - C['s3']  # tank sequence spread over the whole scene: out, descale, brush, back in, pressure
+C['parts'] = [C['s3'] + d3 * x for x in (.06, .12, .18)]
+C['ent'] = C['s3'] + d3 * .24; C['burst'] = C['s3'] + d3 * .46; C['wieder'] = C['s3'] + d3 * .68; C['druck'] = C['s3'] + d3 * .86
 C['s6'] = find('folgen') - .1; C['tap'] = C['s6'] + .9; C['url'] = find('tipps')
 C['hits'] = C['parts'] + [C['druck'], C['ck'], C['url']]
 caps = [{'text': w['text'], 'start': w['start'], 'end': w['end']} for w in words]
