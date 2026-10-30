@@ -1,0 +1,412 @@
+{
+  "id": "2026-10-30-186",
+  "slug": "zimmerei-sandmeier-dachau",
+  "date": "2026-10-30",
+  "company": {
+    "name": "Josef Sandmeier Zimmerei und Holzbau",
+    "owner": "Josef Sandmeier",
+    "trade": "Zimmerei & Holzbau",
+    "city": "Dachau",
+    "address": "Goppertshofer Str. 20, 85221 Dachau-Pellheim",
+    "phone": "08131 3378078",
+    "email": "josef.sandmeier@gmx.de",
+    "serviceArea": [
+      "Dachau",
+      "Pellheim",
+      "Bergkirchen",
+      "Röhrmoos",
+      "Hebertshausen",
+      "Schwabhausen",
+      "Karlsfeld"
+    ]
+  },
+  "listings": {
+    "google": {
+      "url": "https://www.google.com/maps/search/?api=1&query=Josef%20Sandmeier%20Zimmerei%20Goppertshofer%20Str.%20Dachau",
+      "rating": null,
+      "reviews": null,
+      "evidence": "NICHT BELEGT – kein Google-Spiegel (trustlocal, rgv-bayern, firmania) zu Josef Sandmeier Zimmerei gefunden. Annahme über öffentlich gelistete Freemail-Adresse josef.sandmeier@gmx.de (11880-Snippet und Verzeichnis-Eintrag). In Google Maps prüfen, ob ein Eintrag existiert und ob dort eine Website hinterlegt ist."
+    },
+    "myhammer": {
+      "url": "https://www.11880.com/suche/schreiner/petershausen",
+      "rating": null,
+      "reviews": null,
+      "evidence": "Kein MyHammer gefunden – 11880-Snippet (Ortsliste Schreiner/Zimmerer Umgebung Petershausen/Röhrmoos) nennt „Josef Sandmeier Zimmerei“ in Dachau mit gmx-Adresse; dachdecker.com führt Josef Sandmeier (Dachau) unter Dachdecker; branchenbuch-bayern (Rubrik Zimmereien) und 11880-dachdecker.com mit Goppertshofer Str., Tel. 08131 3378078."
+    }
+  },
+  "websiteStatus": "keine eigene Website gefunden",
+  "websiteChecks": [
+    "(1) „Josef Sandmeier Zimmerei Dachau“ mit blocked_domains (11880, Gelbe Seiten, Das Örtliche, Telefonbuch, Cylex, meinestadt, Creditreform, Facebook, Instagram, golocal, MyHammer, Northdata, Firmenwissen, WKDB, Yelp, trustlocal, wlw) – nur Verzeichnisse (dachdecker.com, branchenbuch-bayern, 11880-dachdecker.com, muenchen.de-Branchenbuch); keine eigene Domain",
+    "(2) Domain-Check allowed_domains sandmeier-zimmerei.de, zimmerei-sandmeier.de, sandmeier-holzbau.de, holzbau-sandmeier.de, sandmeier.de, zimmerei-sandmeier-dachau.de, sandmeier-dachau.de, josef-sandmeier.de – nur sandmeier.de (Sandmeier-Computer-Solutions, IT-Firma in Trier, fremd); sonst keine Treffer",
+    "(3) Telefonsuche „08131 3378078“/„081313378078“/„08131 71308“ mit blocked_domains – nur Verzeichnisse (dachdecker.com, branchenbuch-bayern; 71308 dort evtl. veraltet), keine Website",
+    "(4) Impressum-Suche „Impressum Josef Sandmeier Zimmerei Pellheim Goppertshofer“ – kein eigenes Impressum; Impressen nur von anderen Firmen (u. a. Zimmerei & Holzbau Ring, Pellheim – anderer Betrieb)",
+    "(5) E-Mail josef.sandmeier@gmx.de (Freemail) – keine Firmendomain",
+    "Hinweis: In Bergkirchen gibt es „Franz Sandmeier GmbH & Co. KG“ (Mineralöl/Immobilien) – anderes Gewerk, Verwandtschaft nicht belegt",
+    "Website-Risiko: mittel – alle Prüfungen negativ, Freemail belegt, aber kein Google-Beleg und widersprüchliche Verzeichnisdaten"
+  ],
+  "facts": {
+    "services": [
+      "Zimmerei",
+      "Holzbau",
+      "Dachdeckerarbeiten (Verzeichniskategorie)"
+    ],
+    "experience": null,
+    "praisedFor": []
+  },
+  "strategy": {
+    "audience": "Hausbesitzer und Landwirte in Dachau, Pellheim, Bergkirchen und Röhrmoos, die einen Dachstuhl erneuern, ein Carport oder Vordach bauen oder Holzbauteile reparieren lassen wollen",
+    "mainService": "Zimmerei und Holzbau – Dachstuhl, Anbauten und Reparaturen",
+    "trustSignal": "Inhabergeführter Zimmereibetrieb in Dachau-Pellheim, Inhaber Josef Sandmeier direkt erreichbar",
+    "conversionGoal": "Anfrage per Telefon oder E-Mail mit Fotos und groben Maßen",
+    "visualConcept": "Warmes Holz und klare Zimmermannsarbeit: frisch abgebundener Dachstuhl, Sparren vor blauem Himmel, Holzschnitt und Werkstattstaub"
+  },
+  "sales": {
+    "score": 4,
+    "whyGoodLead": [
+      "Keine eigene Website gefunden – nur Verzeichniseinträge mit widersprüchlichen Daten",
+      "Freemail-Adresse (gmx) statt eigener Domain",
+      "Zimmerei ist unter den bisherigen Leads selten",
+      "Im Dachauer Hinterland suchen Bauherren und Landwirte Zimmerer gezielt online – ohne Website bleibt der Betrieb unsichtbar"
+    ],
+    "pitch": "Grüß Gott Herr Sandmeier, hier ist … – ich baue Websites für Handwerker im Landkreis Dachau. Ich habe Ihre Zimmerei in Pellheim in Verzeichnissen gefunden, aber keine eigene Website. Ich habe unverbindlich einen Entwurf vorbereitet, auf dem Kunden Ihre Zimmerer- und Holzbauarbeiten sehen und direkt anfragen können – darf ich Ihnen den Link per E-Mail schicken?"
+  },
+  "manualChecks": [
+    "Website-Risiko: mittel – vor Versand in Google Maps prüfen, dass keine Website hinterlegt ist (Grund: kein Google-Spiegel gefunden, nur Freemail belegt; Verzeichnisdaten widersprüchlich)",
+    "Adresse klären: Goppertshofer Str. 20 (mehrere Einträge) oder Nr. 18 (ein Eintrag „J. Sandmeier Zimmerei“)",
+    "Telefon klären: 08131 3378078 (mehrere Einträge) vs. 08131 71308 (älterer Eintrag, evtl. abgeschaltet) – keine Mobilnummer gefunden, Erstkontakt per Anruf/E-Mail",
+    "Prüfen, ob der Betrieb noch aktiv ist (Einträge teils veraltet)",
+    "Leistungen nur grob belegt (Zimmerei, Holzbau, Verzeichniskategorie Dachdecker) – Dachstuhl, Carport, Vordach, Balkon, Holzterrasse sind gewerkübliche Annahmen, beim Erstkontakt bestätigen",
+    "Meistertitel/Handwerksrolle nicht belegt – auf der Seite nicht behaupten",
+    "Logo und Projektfotos: nicht gefunden – beim Betrieb anfragen"
+  ],
+  "sources": [
+    {
+      "label": "11880 – Schreiner Petershausen (Snippet mit Josef Sandmeier Zimmerei, Dachau, gmx)",
+      "url": "https://www.11880.com/suche/schreiner/petershausen"
+    },
+    {
+      "label": "dachdecker.com – Josef Sandmeier, Dachau",
+      "url": "https://www.dachdecker.com/dachau/josef-sandmeier-aUOBnR"
+    },
+    {
+      "label": "11880-dachdecker.com – Dachdecker Dachau",
+      "url": "https://www.11880-dachdecker.com/dachdecker/dachau"
+    },
+    {
+      "label": "branchenbuch-bayern – Zimmereien Landkreis Dachau",
+      "url": "https://branchenbuch-bayern.de/suche/index.php?Oid=13&Uid=464&id_lkr=34&id_lkr2=0&id_plz=1429&mhaupt=&mid_lkr=34&mpage=&namescript=umkreissuche.php&order=&page=&rubrikname=Zimmereien&show=&string=&total=&total2=&umkreis=10000&x="
+    },
+    {
+      "label": "muenchen.de Branchenbuch – Zimmerei Dachau",
+      "url": "https://www.muenchen.de/service/branchenbuch/dachau/Z/406.html"
+    }
+  ],
+  "site": {
+    "theme": "werk",
+    "category": "handwerk",
+    "heroOffer": [
+      "Dachstuhl",
+      "Holzbau",
+      "Carport",
+      "Vordach",
+      "Reparaturen"
+    ],
+    "scene": "facade",
+    "logoIcon": "roof",
+    "logoMark": "JS",
+    "brandName": "Zimmerei Sandmeier",
+    "seoTitle": "Zimmerei in Dachau-Pellheim – Josef Sandmeier",
+    "seoDescription": "Zimmerei und Holzbau in Dachau-Pellheim: Dachstuhl, Carport, Vordach und Reparaturen am Holz. Jetzt Anfrage mit Fotos schicken.",
+    "nav": [
+      {
+        "label": "Leistungen",
+        "href": "#leistungen"
+      },
+      {
+        "label": "Projekte",
+        "href": "#projekte"
+      },
+      {
+        "label": "Bewertungen",
+        "href": "#bewertungen"
+      },
+      {
+        "label": "Ablauf",
+        "href": "#ablauf"
+      },
+      {
+        "label": "FAQ",
+        "href": "#faq"
+      },
+      {
+        "label": "Kontakt",
+        "href": "#kontakt"
+      }
+    ],
+    "hero": {
+      "eyebrow": "Zimmerei & Holzbau · Dachau-Pellheim",
+      "headline": "Zimmerei und Holzbau in Dachau",
+      "sub": "Dachstuhl, Anbau oder Reparatur – Josef Sandmeier plant und baut mit Holz.",
+      "ctaPrimary": "Anfrage senden",
+      "ctaSecondary": "Anrufen",
+      "bullets": [
+        "Betrieb in Dachau-Pellheim",
+        "Dach und Holzbau aus einer Hand",
+        "Inhaber direkt erreichbar"
+      ],
+      "imageLabel": "frisch aufgerichteter Dachstuhl aus Holz vor blauem Himmel"
+    },
+    "badges": [
+      {
+        "title": "Zimmerei",
+        "sub": "Abbund & Montage"
+      },
+      {
+        "title": "Holzbau",
+        "sub": "Anbau & Vordach"
+      },
+      {
+        "title": "Dach",
+        "sub": "Dachstuhl & Sanierung"
+      },
+      {
+        "title": "Pellheim",
+        "sub": "Goppertshofer Straße"
+      }
+    ],
+    "trust": [
+      {
+        "value": "Vor Ort",
+        "label": "Betrieb in Dachau-Pellheim"
+      },
+      {
+        "value": "Inhaber",
+        "label": "Josef Sandmeier persönlich"
+      },
+      {
+        "value": "Holz",
+        "label": "Dach, Anbau, Reparatur"
+      },
+      {
+        "value": "Kurze Wege",
+        "label": "Landkreis Dachau"
+      }
+    ],
+    "servicesIntro": {
+      "headline": "Was der Zimmerer für Ihr Haus baut",
+      "text": "Vom neuen Dachstuhl bis zum morschen Balken: Holzarbeiten am Haus kommen aus einer Hand – mit einem Ansprechpartner von der Besichtigung bis zur Montage."
+    },
+    "services": [
+      {
+        "title": "Dachstühle",
+        "text": "Neue Dachstühle für Neubau und Umbau – abgebunden und vor Ort aufgerichtet.",
+        "items": [
+          "Neubau",
+          "Umbau",
+          "Aufrichten"
+        ]
+      },
+      {
+        "title": "Dachsanierung",
+        "text": "Alte Dächer werden geprüft, schadhafte Sparren und Latten ersetzt und das Dach neu eingedeckt.",
+        "items": [
+          "Sparren tauschen",
+          "Lattung",
+          "Neueindeckung"
+        ]
+      },
+      {
+        "title": "Carports & Vordächer",
+        "text": "Holz-Carports und Vordächer, passend zu Haus und Grundstück gebaut.",
+        "items": [
+          "Carport",
+          "Vordach",
+          "Überdachung"
+        ]
+      },
+      {
+        "title": "Anbauten in Holz",
+        "text": "Zusätzlicher Raum aus Holz – vom Anbau bis zum Gartenhaus.",
+        "items": [
+          "Anbau",
+          "Gartenhaus",
+          "Schuppen"
+        ]
+      },
+      {
+        "title": "Balkone & Terrassen",
+        "text": "Balkone und Terrassen aus Holz werden neu gebaut oder instand gesetzt.",
+        "items": [
+          "Balkon",
+          "Holzterrasse",
+          "Geländer"
+        ]
+      },
+      {
+        "title": "Holzreparaturen",
+        "text": "Morsche Balken, beschädigte Sparren oder Sturmschäden werden fachgerecht ersetzt.",
+        "items": [
+          "Balken tauschen",
+          "Sturmschaden",
+          "Instandsetzung"
+        ]
+      }
+    ],
+    "why": {
+      "headline": "Ein Zimmerer aus Pellheim für Ihr Holzprojekt.",
+      "points": [
+        {
+          "title": "Kurze Wege",
+          "text": "Der Betrieb sitzt in Pellheim und ist schnell in Dachau, Bergkirchen und Röhrmoos."
+        },
+        {
+          "title": "Direkter Ansprechpartner",
+          "text": "Sie sprechen mit Inhaber Josef Sandmeier – ohne Zwischenstellen."
+        },
+        {
+          "title": "Dach und Holz zusammen",
+          "text": "Dachstuhl, Eindeckung und Holzbau werden in einem Auftrag abgestimmt."
+        },
+        {
+          "title": "Fotos genügen",
+          "text": "Ein paar Bilder vom Dach oder Balken reichen für eine erste Einschätzung."
+        }
+      ]
+    },
+    "reviews": {
+      "headline": "Was Kunden sagen",
+      "summary": "Kundenstimmen werden hier eingebunden, sobald sie aus dem Google-Profil übernommen sind.",
+      "highlights": [
+        "Zimmerei in Dachau-Pellheim",
+        "Dachstuhl und Holzbau",
+        "Inhaber direkt erreichbar"
+      ],
+      "source": "Google",
+      "sourceUrl": "https://www.google.com/maps/search/?api=1&query=Josef%20Sandmeier%20Zimmerei%20Goppertshofer%20Str.%20Dachau",
+      "rating": null,
+      "count": null
+    },
+    "process": {
+      "headline": "Vom ersten Anruf zum fertigen Dach",
+      "steps": [
+        {
+          "title": "Anfrage",
+          "text": "Rufen Sie an oder schicken Sie Fotos und grobe Maße per E-Mail."
+        },
+        {
+          "title": "Besichtigung",
+          "text": "Dach, Balken oder Bauplatz werden vor Ort angesehen und vermessen."
+        },
+        {
+          "title": "Angebot",
+          "text": "Sie erhalten ein schriftliches Angebot für Holz, Arbeit und Zeitplan."
+        },
+        {
+          "title": "Abbund & Montage",
+          "text": "Das Holz wird zugeschnitten, montiert und die Baustelle sauber übergeben."
+        }
+      ]
+    },
+    "gallery": {
+      "headline": "Holzbau aus dem Dachauer Land",
+      "text": "Für die Live-Version zeigen wir hier echte Projekte des Betriebs.",
+      "items": [
+        {
+          "title": "Neuer Dachstuhl",
+          "photoNeeded": "frisch aufgerichteter Dachstuhl mit sichtbaren Sparren"
+        },
+        {
+          "title": "Carport",
+          "photoNeeded": "fertiger Holz-Carport neben einem Wohnhaus"
+        },
+        {
+          "title": "Vordach",
+          "photoNeeded": "Holzvordach über einer Haustür"
+        },
+        {
+          "title": "Holzbalkon",
+          "photoNeeded": "neu gebauter Holzbalkon mit Geländer"
+        },
+        {
+          "title": "Dachsanierung",
+          "photoNeeded": "Dach mit neuer Lattung vor dem Eindecken"
+        }
+      ]
+    },
+    "region": {
+      "headline": "Zimmerarbeiten rund um Dachau",
+      "text": "Von Pellheim aus schnell in Dachau, Bergkirchen, Röhrmoos, Hebertshausen, Schwabhausen und Karlsfeld.",
+      "places": [
+        "Dachau",
+        "Pellheim",
+        "Bergkirchen",
+        "Röhrmoos",
+        "Hebertshausen",
+        "Schwabhausen",
+        "Karlsfeld"
+      ]
+    },
+    "faq": [
+      {
+        "q": "Bauen Sie auch kleinere Projekte wie ein Vordach?",
+        "a": "Fragen Sie gern an – auch kleinere Holzarbeiten am Haus werden nach Absprache übernommen."
+      },
+      {
+        "q": "Kann ich vorab Fotos schicken?",
+        "a": "Ja, Fotos und grobe Maße per E-Mail helfen für eine erste Einschätzung."
+      },
+      {
+        "q": "Prüfen Sie auch einen alten Dachstuhl?",
+        "a": "Ja, bei der Besichtigung wird der Zustand von Sparren und Balken angesehen und besprochen, was zu tun ist."
+      },
+      {
+        "q": "Übernehmen Sie auch die Dacheindeckung?",
+        "a": "Das klären wir bei der Anfrage – Dachstuhl und Eindeckung lassen sich oft in einem Auftrag abstimmen."
+      },
+      {
+        "q": "In welchen Orten arbeiten Sie?",
+        "a": "In Dachau und Umgebung, etwa Bergkirchen, Röhrmoos, Hebertshausen und Schwabhausen – fragen Sie einfach an."
+      }
+    ],
+    "contact": {
+      "headline": "Ihre Anfrage an die Zimmerei Sandmeier",
+      "text": "Beschreiben Sie kurz Ihr Vorhaben: Dachstuhl, Carport, Anbau oder Reparatur, dazu ungefähre Maße. Fotos helfen.",
+      "topics": [
+        "Dachstuhl",
+        "Dachsanierung",
+        "Carport / Vordach",
+        "Anbau",
+        "Balkon / Terrasse",
+        "Reparatur",
+        "Sonstiges"
+      ],
+      "responseNote": "Besichtigung nach Absprache."
+    },
+    "quote": {
+      "sizeLabel": "Was soll gebaut werden?",
+      "sizes": [
+        "Dachstuhl",
+        "Dachsanierung",
+        "Carport / Vordach",
+        "Anbau / Gartenhaus",
+        "Reparatur"
+      ],
+      "timings": [
+        "So bald wie möglich",
+        "In den nächsten Wochen",
+        "In 1–3 Monaten",
+        "Ich plane erst noch"
+      ]
+    },
+    "stickyCta": "Jetzt anfragen",
+    "look": {
+      "palette": 2,
+      "font": 6,
+      "hero": 0,
+      "services": 1,
+      "radius": 1,
+      "logo": 0,
+      "intro": 5
+    }
+  }
+}
