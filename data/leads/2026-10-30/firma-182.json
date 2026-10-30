@@ -1,0 +1,279 @@
+{
+  "id": "2026-10-30-182",
+  "slug": "fliesenlegerbetrieb-bajrami-petershausen",
+  "date": "2026-10-30",
+  "company": {
+    "name": "Fliesenlegerbetrieb Bajrami",
+    "owner": null,
+    "trade": "Fliesenleger",
+    "city": "Petershausen",
+    "address": "Weißlinger Str. 17, 85238 Petershausen (Kollbach)",
+    "phone": "0176 28444917",
+    "email": null,
+    "serviceArea": [
+      "Petershausen",
+      "Kollbach",
+      "Vierkirchen",
+      "Jetzendorf",
+      "Hohenkammer",
+      "Markt Indersdorf",
+      "Dachau"
+    ]
+  },
+  "listings": {
+    "google": {
+      "url": "https://www.google.com/maps/search/?api=1&query=Fliesenlegerbetrieb%20Bajrami%20Wei%C3%9Flinger%20Str.%2017%20Petershausen",
+      "rating": null,
+      "reviews": null,
+      "evidence": "NICHT BELEGT – kein Google-Spiegel (rgv-bayern, firmania, trustlocal) mit diesem Betrieb gefunden. Nur Verzeichniseinträge (11880-Profil und Ortslisten Fliesenleger/Bodenleger Petershausen, dazu ein Eintrag „Bajrami Fliesenleger Mozaik“ mit gleicher Adresse und Festnetznummer). In Google Maps prüfen."
+    },
+    "myhammer": {
+      "url": "https://www.11880.com/branchenbuch/petershausen-oberbayern/060691660B108374430/fliesenlegerbetrieb-bajrami.html",
+      "rating": null,
+      "reviews": null,
+      "evidence": "Kein MyHammer-Profil gefunden – 11880-Eintrag „Fliesenlegerbetrieb Bajrami“, Weißlinger Str. 17, 85238 Petershausen (Kollbach), Tel. 08137 3043803 und Mobil 0176 28444917; keine E-Mail im Snippet."
+    }
+  },
+  "websiteStatus": "keine eigene Website gefunden",
+  "websiteChecks": [
+    "(1) „Fliesenlegerbetrieb Bajrami Petershausen“ ohne Filter – nur fremde Betriebe gleichen Namens (MyHammer-Profil Ibrahim Bajrami Hausham, Auftragsbank Metzingen, Fliesen & More Bajrami Samet in Oberösterreich); keine eigene Domain des Petershausener Betriebs",
+    "(2) Kombinierte Suche „Bajrami Fliesen Mozaik Petershausen“ / „0176 28444917“ / „08137 3043803“ mit blocked_domains (11880, Gelbe Seiten, Das Örtliche, Telefonbuch, Cylex, meinestadt, Creditreform, Facebook, Instagram, golocal, MyHammer, Northdata, Firmenwissen, WKDB, Yelp, trustlocal, wlw) – nur Verzeichnisse (fliesenleger24, fliesenleger.net, blauarbeit); fremde Websites bajrami-bauservice.de (GmbH, kein Bezug zu Adresse/Nummern erkennbar) und bajramifliesen.com (Raum Ingolstadt, anderer Betrieb laut Snippet)",
+    "(3) Domain-Check allowed_domains fliesen-bajrami.de, bajrami-fliesen.de, fliesenleger-bajrami.de, mozaik-fliesen.de, bajrami-mozaik.de, fliesenbajrami.de, bajrami.de, mozaik-bajrami.de – keine Treffer",
+    "(4) Verzeichnis-Snippets (11880): kein Website-Feld, keine E-Mail; Impressum-Suche wegen ausgeschöpftem Suchbudget nicht durchgeführt",
+    "Website-Risiko: mittel – keine eigene Website gefunden, aber weder Google-Eintrag noch Freemail belegt; Ähnlichkeit zu bajramifliesen.com (Mosaik, Raum Ingolstadt) nicht ausgeschlossen"
+  ],
+  "facts": {
+    "services": [
+      "Fliesenlegerarbeiten",
+      "Mosaik"
+    ],
+    "experience": null,
+    "praisedFor": []
+  },
+  "strategy": {
+    "audience": "Hauseigentümer und Vermieter in Petershausen, Vierkirchen, Jetzendorf und Markt Indersdorf, die Bad, Küche oder Böden neu fliesen lassen wollen",
+    "mainService": "Fliesen verlegen – Bad, Boden, Wand und Mosaik",
+    "trustSignal": "Betrieb in Kollbach bei Petershausen, direkt per Handy erreichbar",
+    "conversionGoal": "Fotos und Maße per WhatsApp schicken und ein kostenloses Angebot anfordern",
+    "visualConcept": "Ruhige Materialästhetik: großformatige Feinsteinzeugfliesen, exakte Fugenbilder und kleinteiliges Mosaik im Bad"
+  },
+  "sales": {
+    "score": 3,
+    "whyGoodLead": [
+      "Keine eigene Website gefunden – nur Verzeichniseinträge",
+      "Mobilnummer öffentlich gelistet – WhatsApp-Erstkontakt möglich",
+      "Fliesenarbeiten sind bei Badsanierungen im wachsenden Landkreis Dachau gefragt",
+      "Kaum Online-Sichtbarkeit – eine Website mit Projektfotos hebt den Betrieb sofort ab"
+    ],
+    "pitch": "Hallo, hier ist … – ich baue Websites für Handwerker im Landkreis Dachau. Ich habe Ihren Fliesenlegerbetrieb in Petershausen im Branchenbuch gefunden, aber keine eigene Website. Ich habe unverbindlich einen Entwurf vorbereitet, auf dem Kunden Ihre Fliesen- und Mosaikarbeiten sehen und direkt per WhatsApp anfragen können – darf ich Ihnen den Link schicken?"
+  },
+  "manualChecks": [
+    "RESERVE – weder Google-Eintrag noch Freemail-Adresse belegt: NUR versenden, wenn Google Maps einen Eintrag OHNE Website zeigt.",
+    "Prüfen, ob bajramifliesen.com (Mosaik, Raum Ingolstadt) zu diesem Betrieb gehört – falls ja, verwerfen",
+    "Zwei Mobilnummern in Verzeichnissen: 0176 28444917 (11880) und 0176 67061408 (weiteres Verzeichnis-Snippet) – vor WhatsApp-Kontakt klären, welche aktuell ist; Festnetz 08137 3043803",
+    "Inhabername nicht sicher belegt (ein Verzeichnis-Snippet nennt Egzon Bajrami) – Anrede neutral halten und beim Erstkontakt erfragen",
+    "Verzeichnisdaten teils über zwei Jahre alt – Aktivität des Betriebs bestätigen",
+    "Leistungen nur als Fliesenleger/Mosaik belegt – Detailleistungen (Bad, Terrasse, Naturstein) beim Betrieb bestätigen",
+    "Logo und Projektfotos: nicht gefunden – beim Betrieb anfragen"
+  ],
+  "sources": [
+    {
+      "label": "11880 – Fliesenlegerbetrieb Bajrami, Petershausen",
+      "url": "https://www.11880.com/branchenbuch/petershausen-oberbayern/060691660B108374430/fliesenlegerbetrieb-bajrami.html"
+    },
+    {
+      "label": "11880 – Bodenleger Petershausen (Ortsliste)",
+      "url": "https://www.11880.com/suche/bodenleger/petershausen"
+    },
+    {
+      "label": "11880 – Fliesenleger Vierkirchen (Umkreisliste)",
+      "url": "https://www.11880.com/suche/fliesenleger/vierkirchen"
+    }
+  ],
+  "site": {
+    "theme": "aqua",
+    "category": "handwerk",
+    "heroOffer": [
+      "Badfliesen",
+      "Bodenfliesen",
+      "Wandfliesen",
+      "Mosaik",
+      "Fugen"
+    ],
+    "scene": "bath",
+    "logoIcon": "trowel",
+    "logoMark": "FB",
+    "brandName": "Fliesenlegerbetrieb Bajrami",
+    "seoTitle": "Fliesenleger in Petershausen – Fliesenlegerbetrieb Bajrami",
+    "seoDescription": "Fliesen und Mosaik für Bad, Küche und Boden in Petershausen, Vierkirchen und Umgebung. Angebot anfragen – auch per WhatsApp.",
+    "nav": [
+      { "label": "Leistungen", "href": "#leistungen" },
+      { "label": "Projekte", "href": "#projekte" },
+      { "label": "Bewertungen", "href": "#bewertungen" },
+      { "label": "Ablauf", "href": "#ablauf" },
+      { "label": "FAQ", "href": "#faq" },
+      { "label": "Kontakt", "href": "#kontakt" }
+    ],
+    "hero": {
+      "eyebrow": "Fliesenleger · Petershausen-Kollbach",
+      "headline": "Fliesen und Mosaik aus Petershausen",
+      "sub": "Bad, Küche und Böden neu gefliest – für Petershausen und den Landkreis Dachau.",
+      "ctaPrimary": "Angebot anfragen",
+      "ctaSecondary": "Anrufen",
+      "bullets": [
+        "Betrieb in Kollbach",
+        "Wand, Boden und Mosaik",
+        "Fotos per WhatsApp schicken"
+      ],
+      "imageLabel": "frisch gefliestes Bad mit Mosaikband und gleichmäßigen Fugen"
+    },
+    "badges": [
+      { "title": "Fliesen", "sub": "Wand & Boden" },
+      { "title": "Mosaik", "sub": "Bad und Akzente" },
+      { "title": "Bad", "sub": "Dusche bis Waschtisch" },
+      { "title": "Kollbach", "sub": "Weißlinger Straße" }
+    ],
+    "trust": [
+      { "value": "Vor Ort", "label": "Betrieb in Petershausen" },
+      { "value": "6", "label": "Leistungsbereiche" },
+      { "value": "Innen", "label": "Bad, Küche, Wohnräume" },
+      { "value": "Mobil", "label": "direkt erreichbar" }
+    ],
+    "servicesIntro": {
+      "headline": "Vom Fliesenspiegel bis zum ganzen Bad",
+      "text": "Ob einzelne Wand oder komplette Etage: Der Betrieb verlegt Fliesen und Mosaik passend zu Raum, Format und Nutzung."
+    },
+    "services": [
+      {
+        "title": "Badfliesen",
+        "text": "Wände und Böden im Bad neu gefliest – mit sauberen Anschlüssen an Dusche, Wanne und Waschtisch.",
+        "items": ["Duschbereich", "Wandflächen", "Badboden"]
+      },
+      {
+        "title": "Bodenfliesen",
+        "text": "Robuste Fliesenböden für Flur, Küche und Wohnräume, auch in großen Formaten.",
+        "items": ["Flur", "Küche", "Wohnraum"]
+      },
+      {
+        "title": "Wandfliesen",
+        "text": "Fliesenflächen an Wänden, die Feuchtigkeit und Spritzern standhalten und leicht zu reinigen sind.",
+        "items": ["Gäste-WC", "Hauswirtschaftsraum", "Wandverkleidung"]
+      },
+      {
+        "title": "Mosaik",
+        "text": "Kleinteiliges Mosaik als Akzent in Dusche, Nische oder Wandband – exakt ausgerichtet.",
+        "items": ["Mosaikbänder", "Nischen", "Duschwände"]
+      },
+      {
+        "title": "Fliesenspiegel",
+        "text": "Neuer Fliesenspiegel für die Küche – passend zu Arbeitsplatte und Fronten.",
+        "items": ["Küchenrückwand", "Arbeitsbereich", "Steckdosenausschnitte"]
+      },
+      {
+        "title": "Fugen erneuern",
+        "text": "Verfärbte Fugen und rissige Silikonnähte werden entfernt und neu geschlossen.",
+        "items": ["Fugen", "Silikon", "Ausbesserung"]
+      }
+    ],
+    "why": {
+      "headline": "Fliesenarbeiten direkt aus Kollbach.",
+      "points": [
+        { "title": "Kurze Anfahrt", "text": "Von Kollbach aus schnell in Petershausen, Vierkirchen, Jetzendorf und Markt Indersdorf." },
+        { "title": "Ein Ansprechpartner", "text": "Sie besprechen Ihr Vorhaben direkt mit dem Betrieb – per Anruf oder WhatsApp." },
+        { "title": "Gefühl für Details", "text": "Mosaik und Fliesenspiegel verlangen genaues Arbeiten an Kanten und Ausschnitten." },
+        { "title": "Ganze Räume", "text": "Wand, Boden und Fugen werden in einem Auftrag abgestimmt." }
+      ]
+    },
+    "reviews": {
+      "headline": "Was Kunden sagen",
+      "summary": "Kundenstimmen werden hier eingebunden, sobald sie aus dem Google-Profil übernommen sind.",
+      "highlights": [
+        "Fliesen in Petershausen",
+        "Mosaik im Bad",
+        "Direkter Kontakt"
+      ],
+      "source": "Google",
+      "sourceUrl": "https://www.google.com/maps/search/?api=1&query=Fliesenlegerbetrieb%20Bajrami%20Wei%C3%9Flinger%20Str.%2017%20Petershausen",
+      "rating": null,
+      "count": null
+    },
+    "process": {
+      "headline": "So kommen Sie zu neuen Fliesen",
+      "steps": [
+        { "title": "Fotos schicken", "text": "Raum, Maße und Wunschfliese per WhatsApp schicken oder kurz anrufen." },
+        { "title": "Termin vor Ort", "text": "Untergrund, Format und Fugenbild werden gemeinsam angeschaut." },
+        { "title": "Angebot", "text": "Sie erhalten ein klares Angebot für Ihr Vorhaben." },
+        { "title": "Verlegen", "text": "Fliesen werden verlegt, verfugt und der Raum sauber übergeben." }
+      ]
+    },
+    "gallery": {
+      "headline": "Flächen, die lange schön bleiben",
+      "text": "Für die Live-Version zeigen wir hier echte Projekte des Betriebs.",
+      "items": [
+        { "title": "Neues Bad", "photoNeeded": "komplett gefliestes Bad mit bodengleicher Dusche" },
+        { "title": "Mosaikband", "photoNeeded": "Mosaikstreifen in der Duschwand" },
+        { "title": "Großformat", "photoNeeded": "Flur mit großformatigen Bodenfliesen" },
+        { "title": "Fliesenspiegel", "photoNeeded": "Küchenrückwand mit neuen Fliesen" },
+        { "title": "Gäste-WC", "photoNeeded": "kleines WC mit Wand- und Bodenfliesen" }
+      ]
+    },
+    "region": {
+      "headline": "Fliesenleger für Petershausen und Umgebung",
+      "text": "Von Kollbach aus nach Petershausen, Vierkirchen, Jetzendorf, Hohenkammer, Markt Indersdorf und Dachau.",
+      "places": [
+        "Petershausen",
+        "Kollbach",
+        "Vierkirchen",
+        "Jetzendorf",
+        "Hohenkammer",
+        "Markt Indersdorf",
+        "Dachau"
+      ]
+    },
+    "faq": [
+      { "q": "Kann ich vorab Fotos schicken?", "a": "Ja, Fotos und grobe Maße per WhatsApp helfen für eine erste Einschätzung." },
+      { "q": "Verlegen Sie auch Mosaik?", "a": "Ja, Mosaik gehört zum Angebot – etwa als Band in der Dusche oder in Nischen." },
+      { "q": "Muss ich die Fliesen selbst kaufen?", "a": "Das klären wir im Gespräch – beides ist möglich, je nach Wunsch und Vorhaben." },
+      { "q": "Wie lange dauert ein neues Bad?", "a": "Das hängt von Größe und Untergrund ab. Ein Zeitplan wird nach der Besichtigung abgestimmt." },
+      { "q": "Arbeiten Sie auch außerhalb von Petershausen?", "a": "Ja, im Umkreis von Petershausen – fragen Sie einfach an." }
+    ],
+    "contact": {
+      "headline": "Ihr Angebot – kostenlos und unverbindlich",
+      "text": "Beschreiben Sie kurz Ihr Vorhaben: welcher Raum, ungefähre Fläche und ob Wand, Boden oder Mosaik. Fotos helfen.",
+      "topics": [
+        "Badfliesen",
+        "Bodenfliesen",
+        "Mosaik",
+        "Fliesenspiegel",
+        "Fugen erneuern",
+        "Sonstiges"
+      ],
+      "responseNote": "Besichtigung nach Absprache."
+    },
+    "quote": {
+      "sizeLabel": "Was soll gefliest werden?",
+      "sizes": [
+        "Fliesenspiegel",
+        "Gäste-WC",
+        "Komplettes Bad",
+        "Boden mehrerer Räume"
+      ],
+      "timings": [
+        "So bald wie möglich",
+        "In den nächsten Wochen",
+        "In 1–3 Monaten",
+        "Ich plane erst noch"
+      ]
+    },
+    "stickyCta": "Angebot anfragen",
+    "look": {
+      "palette": 2,
+      "font": 6,
+      "hero": 0,
+      "services": 1,
+      "radius": 1,
+      "logo": 0,
+      "intro": 5
+    }
+  }
+}

@@ -1,0 +1,406 @@
+{
+  "id": "2026-10-30-177",
+  "slug": "elektro-wintergerst-andechs",
+  "date": "2026-10-30",
+  "company": {
+    "name": "Elektro Martin Wintergerst",
+    "owner": "Martin Wintergerst",
+    "trade": "Elektroinstallation",
+    "city": "Andechs",
+    "address": "Andechser Straße 23, 82346 Andechs (Erling)",
+    "phone": "0171 6542063",
+    "email": null,
+    "serviceArea": [
+      "Andechs",
+      "Erling",
+      "Herrsching",
+      "Machtlfing",
+      "Pähl",
+      "Seefeld"
+    ]
+  },
+  "listings": {
+    "google": {
+      "url": "https://www.google.com/maps/search/?api=1&query=Elektro%20Wintergerst%20Andechser%20Straße%2023%20Andechs",
+      "rating": null,
+      "reviews": null,
+      "evidence": "Nur indirekt belegt: firmania.de (Google-Spiegel) führt „Elektro Wintergerst Martin“, Raiffeisenstraße 13, 82346 Andechs (Erling) – ohne Bewertungsangabe und mit dem Status „Geschlossen“ (unklar, ob nur Öffnungsstatus oder dauerhaft geschlossen). trustlocal und rgv-bayern ohne Treffer; 11880 meldet „noch keine Bewertungen“. In Maps prüfen."
+    },
+    "myhammer": {
+      "url": "https://www.11880.com/branchenbuch/andechs/060691303B26731723/elektro-wintergerst-martin.html",
+      "rating": null,
+      "reviews": null,
+      "evidence": "Kein MyHammer gefunden – 11880-Einträge „Elektro Wintergerst Martin“ (Raiffeisenstr. 13, 08152 6559) und „Elektro Wintergerst Martin Elektro“ (Andechser Str. 23, 0171 6542063); außerdem wirsindhandwerk.de, bundes-telefonbuch, Das Telefonbuch (Eintrag nicht vom Inhaber bestätigt)."
+    }
+  },
+  "websiteStatus": "keine eigene Website gefunden",
+  "websiteChecks": [
+    "(1) „Wintergerst Elektro Andechs“ mit blocked_domains (11880, Gelbe Seiten, Das Örtliche, Telefonbuch, Cylex, meinestadt, Creditreform, Facebook, Instagram, golocal, MyHammer, Northdata, Firmenwissen, WKDB, Yelp, trustlocal, wlw) – nur Verzeichnisse (wirsindhandwerk.de, bundes-telefonbuch, starofservice, handwerker-anzeiger, branchen-info); keine eigene Domain, kein Website-Feld",
+    "(2) Domain-Check allowed_domains elektro-wintergerst.de, wintergerst-elektro.de, elektrowintergerst.de, wintergerst-andechs.de, elektro-wintergerst-andechs.de, martin-wintergerst.de, wintergerst.de, elektro-wintergerst.com – einziger Treffer wintergerst.de (Wintergerst-Gruppe Augsburg, Bahnhofs-Shops/E-Zigaretten) – fremd",
+    "(3) Telefonsuche „0171 6542063“/„01716542063“/„0171/6542063“ – keine Treffer",
+    "(4) Impressum-Suche „Impressum Martin Wintergerst Elektro Andechs Inhaber“ – kein Impressum; Das-Telefonbuch-Eintrag nicht vom Inhaber bestätigt",
+    "(5) Bewertungs-/Spiegelsuche (trustlocal, firmania, rgv-bayern, 11880) – keine Bewertungen, kein Google-Beleg",
+    "Website-Risiko: niedrig – alle Prüfungen negativ; aber weder Google-Eintrag noch Freemail belegt, Verzeichnisdaten teils alt (2012–2021)"
+  ],
+  "facts": {
+    "services": [
+      "Elektroinstallation",
+      "Elektroreparatur",
+      "Elektrogeräte und -bedarf"
+    ],
+    "experience": null,
+    "praisedFor": []
+  },
+  "strategy": {
+    "audience": "Hauseigentümer, Mieter und Landwirte in Andechs, Erling, Machtlfing und Herrsching, die einen Elektriker für Installation, Erweiterung oder Reparatur suchen",
+    "mainService": "Elektroinstallation und Reparatur rund ums Haus",
+    "trustSignal": "Elektriker aus Erling, direkt per Handy erreichbar",
+    "conversionGoal": "Anruf oder WhatsApp mit kurzer Beschreibung des Elektro-Problems",
+    "visualConcept": "Aufgeräumter Sicherungskasten, saubere Leitungsführung, warmes Licht in einem oberbayerischen Wohnhaus"
+  },
+  "sales": {
+    "score": 4,
+    "whyGoodLead": [
+      "Keine eigene Website gefunden – nur ältere Verzeichniseinträge",
+      "Mobilnummer öffentlich gelistet – direkter Erstkontakt möglich",
+      "Elektro ist im Lead-Bestand selten und stark gefragt",
+      "Kaum Online-Sichtbarkeit (keine Bewertungen) – Website bringt schnell Anfragen"
+    ],
+    "pitch": "Grüß Gott, hier ist … – ich baue Websites für Handwerker am Ammersee. Ich habe Elektro Wintergerst in Andechs im Verzeichnis gefunden, aber keine eigene Website. Ich habe unverbindlich einen Entwurf vorbereitet, über den Kunden aus Andechs und Herrsching Sie direkt anrufen oder per WhatsApp anfragen können – darf ich Ihnen den Link schicken?"
+  },
+  "manualChecks": [
+    "Website-Risiko: mittel – vor Versand in Google Maps prüfen, dass keine Website hinterlegt ist (Grund: alle Website-Prüfungen negativ, Google-Eintrag aber nur über firmania-Spiegel belegt und dort als „Geschlossen“ markiert)",
+    "Betrieb aktiv? firmania zeigt beim Google-Eintrag (Raiffeisenstr. 13) „Geschlossen“ – in Google Maps prüfen, ob „Dauerhaft geschlossen“; falls ja, NICHT versenden",
+    "Betrieb aktiv? Verzeichnisdaten teils alt (bundes-telefonbuch 2012/2014, 11880-Eintrag Raiffeisenstr. zuletzt 2021) – vor Versand bestätigen",
+    "Zwei Adressen/Nummern: Andechser Str. 23 (0171 6542063) und Raiffeisenstr. 13 (08152 6559), zusätzlich 08157 8378 in einem Verzeichnis – klären, welche gilt",
+    "Leistungen nur grob belegt (Elektroinstallation, Elektroreparatur, Elektrogeräte) – Detailleistungen (Beleuchtung, Verteilung, E-Check, Wallbox) beim Betrieb bestätigen",
+    "„Meister“ nirgends belegt – nicht verwenden",
+    "Logo und Projektfotos: nicht gefunden – beim Betrieb anfragen"
+  ],
+  "sources": [
+    {
+      "label": "11880 – Elektro Wintergerst Martin, Andechs",
+      "url": "https://www.11880.com/branchenbuch/andechs/060691303B26731723/elektro-wintergerst-martin.html"
+    },
+    {
+      "label": "11880 – Elektro Herrsching (Liste mit Wintergerst, Andechser Str. 23)",
+      "url": "https://www.11880.com/suche/elektro/herrsching"
+    },
+    {
+      "label": "wirsindhandwerk.de – Elektro Martin Wintergerst",
+      "url": "https://www.wirsindhandwerk.de/elektro-martin-wintergerst"
+    },
+    {
+      "label": "Bundes-Telefonbuch – Elektro Wintergerst Martin",
+      "url": "https://www.bundes-telefonbuch.de/andechs/elektrotechnik/elektro-wintergerst-martin-bvg204033374"
+    },
+    {
+      "label": "Das Telefonbuch – Elektro Wintergerst Martin, Andechser Str.",
+      "url": "https://adresse.dastelefonbuch.de/Andechs/1-Elektroger%C3%A4te-und-bedarf-Elektro-Wintergerst-Martin-Andechs-Andechser-Str.html"
+    }
+  ],
+  "site": {
+    "theme": "volt",
+    "category": "handwerk",
+    "heroOffer": [
+      "Elektroinstallation",
+      "Reparaturen",
+      "Beleuchtung",
+      "Steckdosen",
+      "Fehlersuche"
+    ],
+    "scene": "electric",
+    "logoIcon": "bolt",
+    "logoMark": "EW",
+    "brandName": "Elektro Wintergerst",
+    "seoTitle": "Elektriker in Andechs – Elektro Wintergerst",
+    "seoDescription": "Elektroinstallation und Reparaturen in Andechs, Erling und Herrsching. Direkt anrufen oder per WhatsApp anfragen.",
+    "nav": [
+      {
+        "label": "Leistungen",
+        "href": "#leistungen"
+      },
+      {
+        "label": "Projekte",
+        "href": "#projekte"
+      },
+      {
+        "label": "Bewertungen",
+        "href": "#bewertungen"
+      },
+      {
+        "label": "Ablauf",
+        "href": "#ablauf"
+      },
+      {
+        "label": "FAQ",
+        "href": "#faq"
+      },
+      {
+        "label": "Kontakt",
+        "href": "#kontakt"
+      }
+    ],
+    "hero": {
+      "eyebrow": "Elektro · Andechs",
+      "headline": "Ihr Elektriker in Andechs",
+      "sub": "Installation, Erweiterung und Reparatur – vom Elektriker aus Erling.",
+      "ctaPrimary": "Jetzt anfragen",
+      "ctaSecondary": "Anrufen",
+      "bullets": [
+        "Elektriker aus Andechs-Erling",
+        "Installation und Reparatur",
+        "Direkt per Handy erreichbar"
+      ],
+      "imageLabel": "aufgeräumter Sicherungskasten mit beschrifteten Leitungsschutzschaltern"
+    },
+    "badges": [
+      {
+        "title": "Installation",
+        "sub": "Neubau & Umbau"
+      },
+      {
+        "title": "Reparatur",
+        "sub": "wenn etwas ausfällt"
+      },
+      {
+        "title": "Beleuchtung",
+        "sub": "innen & außen"
+      },
+      {
+        "title": "Andechs",
+        "sub": "Erling"
+      }
+    ],
+    "trust": [
+      {
+        "value": "Vor Ort",
+        "label": "Betrieb in Andechs"
+      },
+      {
+        "value": "Mobil",
+        "label": "direkt erreichbar"
+      },
+      {
+        "value": "Haus & Hof",
+        "label": "Installation und Reparatur"
+      },
+      {
+        "value": "Ammersee",
+        "label": "kurze Wege"
+      }
+    ],
+    "servicesIntro": {
+      "headline": "Strom, der zuverlässig fließt",
+      "text": "Ob neue Steckdose, Umbau im Altbau oder ein Defekt: Der Elektriker aus Erling kümmert sich um Installation und Reparatur im Haus."
+    },
+    "services": [
+      {
+        "title": "Elektroinstallation",
+        "text": "Neue Leitungen, Schalter und Steckdosen – für Neubau, Umbau oder Renovierung.",
+        "items": [
+          "Leitungen verlegen",
+          "Schalter & Steckdosen",
+          "Umbau & Renovierung"
+        ]
+      },
+      {
+        "title": "Elektroreparatur",
+        "text": "Wenn etwas nicht mehr funktioniert, wird der Fehler gesucht und behoben.",
+        "items": [
+          "Fehlersuche",
+          "Defekte beheben",
+          "Austausch von Bauteilen"
+        ]
+      },
+      {
+        "title": "Beleuchtung",
+        "text": "Leuchten innen und außen anschließen – vom Wohnzimmer bis zur Hofeinfahrt.",
+        "items": [
+          "Innenleuchten",
+          "Außenbeleuchtung",
+          "Lampen anschließen"
+        ]
+      },
+      {
+        "title": "Erweiterungen",
+        "text": "Zusätzliche Steckdosen und Stromkreise, wenn Küche, Werkstatt oder Garage mehr Strom brauchen.",
+        "items": [
+          "Zusätzliche Steckdosen",
+          "Neue Stromkreise",
+          "Garage & Werkstatt"
+        ]
+      },
+      {
+        "title": "Geräteanschluss",
+        "text": "Herd, Backofen und andere Elektrogeräte werden fachgerecht angeschlossen.",
+        "items": [
+          "Herdanschluss",
+          "Haushaltsgeräte",
+          "Elektrobedarf"
+        ]
+      },
+      {
+        "title": "Altbau-Elektrik",
+        "text": "Alte Leitungen und Verteilungen werden geprüft und bei Bedarf erneuert.",
+        "items": [
+          "Leitungen prüfen",
+          "Verteilung erneuern",
+          "Sicherer Betrieb"
+        ]
+      }
+    ],
+    "why": {
+      "headline": "Elektro aus Andechs – ohne lange Anfahrt.",
+      "points": [
+        {
+          "title": "Aus dem Ort",
+          "text": "Der Betrieb sitzt in Erling und ist schnell in Herrsching, Machtlfing und Pähl."
+        },
+        {
+          "title": "Direkter Draht",
+          "text": "Ein Anruf oder eine WhatsApp-Nachricht genügt – ohne Warteschleife."
+        },
+        {
+          "title": "Installation & Reparatur",
+          "text": "Neue Anschlüsse und die Behebung von Defekten aus einer Hand."
+        },
+        {
+          "title": "Klare Absprache",
+          "text": "Was gemacht wird, wird vorher besprochen."
+        }
+      ]
+    },
+    "reviews": {
+      "headline": "Was Kunden sagen",
+      "summary": "Kundenstimmen werden hier eingebunden, sobald sie aus dem Google-Profil übernommen sind.",
+      "highlights": [
+        "Elektriker in Andechs",
+        "Installation und Reparatur",
+        "Direkter Kontakt"
+      ],
+      "source": "Google",
+      "sourceUrl": "https://www.google.com/maps/search/?api=1&query=Elektro%20Wintergerst%20Andechser%20Straße%2023%20Andechs",
+      "rating": null,
+      "count": null
+    },
+    "process": {
+      "headline": "In vier Schritten zur funktionierenden Elektrik",
+      "steps": [
+        {
+          "title": "Anruf",
+          "text": "Kurz schildern, was gebraucht wird oder was ausgefallen ist – gern mit Foto per WhatsApp."
+        },
+        {
+          "title": "Termin",
+          "text": "Ein Termin vor Ort wird abgestimmt."
+        },
+        {
+          "title": "Arbeit",
+          "text": "Installation oder Reparatur wird fachgerecht ausgeführt."
+        },
+        {
+          "title": "Übergabe",
+          "text": "Alles wird geprüft und erklärt."
+        }
+      ]
+    },
+    "gallery": {
+      "headline": "Arbeiten aus Andechs und Umgebung",
+      "text": "Für die Live-Version zeigen wir hier echte Projekte des Betriebs.",
+      "items": [
+        {
+          "title": "Verteilung",
+          "photoNeeded": "neu bestückter Sicherungskasten"
+        },
+        {
+          "title": "Steckdosen",
+          "photoNeeded": "neu gesetzte Steckdosen in einer Küche"
+        },
+        {
+          "title": "Außenlicht",
+          "photoNeeded": "Außenleuchte an einer Hauswand"
+        },
+        {
+          "title": "Altbau",
+          "photoNeeded": "erneuerte Leitungen in einem Altbau"
+        },
+        {
+          "title": "Werkstatt",
+          "photoNeeded": "Starkstromanschluss in Garage oder Werkstatt"
+        }
+      ]
+    },
+    "region": {
+      "headline": "Elektriker für Andechs und den Ammersee-Osten",
+      "text": "Von Erling aus nach Herrsching, Machtlfing, Pähl und Seefeld.",
+      "places": [
+        "Andechs",
+        "Erling",
+        "Herrsching",
+        "Machtlfing",
+        "Pähl",
+        "Seefeld"
+      ]
+    },
+    "faq": [
+      {
+        "q": "Kommen Sie auch für kleine Reparaturen?",
+        "a": "Fragen Sie einfach an – auch kleinere Elektroarbeiten sind möglich."
+      },
+      {
+        "q": "Kann ich vorab ein Foto schicken?",
+        "a": "Ja, ein Foto per WhatsApp hilft für eine erste Einschätzung."
+      },
+      {
+        "q": "Schließen Sie Herd und Backofen an?",
+        "a": "Ja, der Anschluss von Elektrogeräten gehört dazu."
+      },
+      {
+        "q": "Prüfen Sie auch alte Leitungen?",
+        "a": "Ja, alte Elektrik wird geprüft und bei Bedarf erneuert."
+      },
+      {
+        "q": "Arbeiten Sie auch außerhalb von Andechs?",
+        "a": "Ja, im Umkreis von Andechs – zum Beispiel in Herrsching und Pähl."
+      }
+    ],
+    "contact": {
+      "headline": "Elektro-Anfrage – kurz und direkt",
+      "text": "Beschreiben Sie, was installiert oder repariert werden soll und wo. Ein Foto hilft.",
+      "topics": [
+        "Elektroinstallation",
+        "Reparatur",
+        "Beleuchtung",
+        "Geräteanschluss",
+        "Sonstiges"
+      ],
+      "responseNote": "Termin vor Ort nach Absprache."
+    },
+    "quote": {
+      "sizeLabel": "Worum geht es?",
+      "sizes": [
+        "Reparatur / Defekt",
+        "Einzelne Steckdose oder Leuchte",
+        "Ein Raum",
+        "Ganzes Haus / Umbau"
+      ],
+      "timings": [
+        "Dringend",
+        "In den nächsten Tagen",
+        "In den nächsten Wochen",
+        "Ich plane erst noch"
+      ]
+    },
+    "stickyCta": "Elektriker anfragen",
+    "look": {
+      "palette": 2,
+      "font": 6,
+      "hero": 0,
+      "services": 1,
+      "radius": 1,
+      "logo": 0,
+      "intro": 5
+    }
+  }
+}
