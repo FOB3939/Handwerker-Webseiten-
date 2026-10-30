@@ -1,0 +1,404 @@
+{
+  "id": "2026-10-30-188",
+  "slug": "maler-iurato-penzberg",
+  "date": "2026-10-30",
+  "company": {
+    "name": "Maler Iurato Salvatore",
+    "owner": "Salvatore Iurato",
+    "trade": "Malerbetrieb",
+    "city": "Penzberg",
+    "address": "Heimgartenstr. 16, 82377 Penzberg",
+    "phone": "08856 8030830",
+    "email": null,
+    "serviceArea": [
+      "Penzberg",
+      "Iffeldorf",
+      "Sindelsdorf",
+      "Bichl",
+      "Bad Heilbrunn",
+      "Seeshaupt"
+    ]
+  },
+  "listings": {
+    "google": {
+      "url": "https://www.google.com/maps/search/?api=1&query=Salvatore%20Iurato%20Maler%20Heimgartenstr.%2016%20Penzberg",
+      "rating": null,
+      "reviews": null,
+      "evidence": "INDIREKT (Spiegel) – penzberg.deutschbranchenbuch.com führt „Salvatore Iurato – Maler – Heimgartenstraße 16, 82377 Penzberg“ unter der Google-Kategorie „painter“ mit Bewertungsrubrik (Google-Places-Spiegel). Keine Bewertungsanzahl im Snippet, kein Website-Feld. Kein Treffer bei trustlocal/rgv-bayern/firmania, kein direkter google.com/maps-Treffer – in Maps prüfen."
+    },
+    "myhammer": {
+      "url": "https://www.11880.com/suche/maler/benediktbeuern",
+      "rating": null,
+      "reviews": null,
+      "evidence": "Kein MyHammer gefunden – Eintrag „Maler iurato Salvatore“ in der 11880-Malerliste (Heimgartenstr. 16, 82377 Penzberg-Steigenberg, (08856) 8030830; zweite Adresse St.-Klara-Straße 21, (08856) 8000880), außerdem maler.org, stadtbranchenbuch (dort zusätzlich 0174 7511590) und deutschbranchenbuch."
+    }
+  },
+  "websiteStatus": "keine eigene Website gefunden",
+  "websiteChecks": [
+    "(1) „Iurato Maler Penzberg Heimgartenstr“ mit blocked_domains (11880, Gelbe Seiten, Das Örtliche, Telefonbuch, Cylex, meinestadt, Creditreform, Facebook, Instagram, golocal, MyHammer, Northdata, Firmenwissen, WKDB, Yelp, trustlocal, wlw) – nur Verzeichnisse (maler.org, stadtbranchenbuch, deutschbranchenbuch, branchenbuch24); keine eigene Domain",
+    "(2) Domain-Check allowed_domains maler-iurato.de, iurato.de, iurato-maler.de, malerbetrieb-iurato.de, salvatore-iurato.de, iurato-penzberg.de, maler-iurato-penzberg.de, iurato-salvatore.de – keine Treffer",
+    "(3) Telefonsuche „0174 7511590“/„01747511590“/„08856 8030830“ mit blocked_domains – keine Treffer, keine Website",
+    "(4) „Impressum Salvatore Iurato Malerbetrieb Penzberg Inhaber“ – kein eigenes Impressum, nur Verzeichnisse; fensterbau.org führt denselben Namen zusätzlich unter „Fenstereinbau“",
+    "(5) Google-Spiegel deutschbranchenbuch – kein Website-Feld sichtbar; keine E-Mail gefunden (auch keine Freemail)",
+    "Website-Risiko: mittel – alle Prüfungen negativ, Google-Eintrag nur indirekt über deutschbranchenbuch-Spiegel belegt, keine Freemail"
+  ],
+  "facts": {
+    "services": [
+      "Malerarbeiten",
+      "Maler- und Lackiererarbeiten"
+    ],
+    "experience": null,
+    "praisedFor": []
+  },
+  "strategy": {
+    "audience": "Hauseigentümer, Mieter und Vermieter in Penzberg und den Orten rund um den Starnberger See und das Loisachtal, die Wohnräume, Treppenhäuser oder Fassaden streichen lassen wollen",
+    "mainService": "Malerarbeiten innen und außen",
+    "trustSignal": "Inhabergeführter Malerbetrieb in Penzberg-Steigenberg, direkter Ansprechpartner Salvatore Iurato",
+    "conversionGoal": "Kostenloses Angebot für Malerarbeiten anfragen (Anruf oder Formular mit Fotos)",
+    "visualConcept": "Warme, frisch gestrichene Wohnräume mit klaren Kanten, Abdeckfolie und Farbrolle – ordentlich und hell"
+  },
+  "sales": {
+    "score": 4,
+    "whyGoodLead": [
+      "Keine eigene Website gefunden – nur Verzeichniseinträge",
+      "Inhabergeführter Kleinbetrieb mit Personenname – Website schafft Vertrauen",
+      "Mobilnummer in einem Verzeichnis gelistet – Erstkontakt per WhatsApp möglich",
+      "Malerarbeiten werden oft online gesucht – ohne Website gehen Anfragen an Mitbewerber"
+    ],
+    "pitch": "Grüß Gott Herr Iurato, hier ist … – ich baue Websites für Handwerksbetriebe im Oberland. Ich habe Ihren Malerbetrieb in Penzberg in den Branchenbüchern gefunden, aber keine eigene Website. Ich habe unverbindlich einen Entwurf vorbereitet, über den Kunden aus Penzberg und Umgebung direkt ein Angebot anfragen können – darf ich Ihnen den Link schicken?"
+  },
+  "manualChecks": [
+    "Website-Risiko: mittel – vor Versand in Google Maps prüfen, dass keine Website hinterlegt ist (Grund: Google-Eintrag nur indirekt über deutschbranchenbuch-Spiegel belegt, keine Freemail)",
+    "Google-Eintrag in Maps bestätigen (Existenz, Bewertungsanzahl unbekannt)",
+    "Zwei Adressen/Nummern: Heimgartenstr. 16 / 08856 8030830 und St.-Klara-Straße 21 / 08856 8000880 (11880) – klären, welche gilt",
+    "Mobilnummer 0174 7511590 nur in einem Verzeichnis (stadtbranchenbuch) – vor WhatsApp-Kontakt bestätigen",
+    "Leistungen nur grob belegt (Malerarbeiten, Maler/Lackierer); fensterbau.org nennt auch „Fenstereinbau“ – Detailleistungen (Fassade, Tapezieren, Lackieren) beim Betrieb bestätigen",
+    "Logo und Projektfotos: nicht gefunden – beim Betrieb anfragen"
+  ],
+  "sources": [
+    {
+      "label": "11880 – Malerliste (Maler iurato Salvatore, Penzberg)",
+      "url": "https://www.11880.com/suche/maler/benediktbeuern"
+    },
+    {
+      "label": "deutschbranchenbuch – Salvatore Iurato, Maler, Penzberg (Google-Places-Spiegel)",
+      "url": "https://penzberg.deutschbranchenbuch.com/painter/salvatore-iurato/"
+    },
+    {
+      "label": "maler.org – Iurato Salvatore, Penzberg",
+      "url": "https://www.maler.org/penzberg/iurato-salvatore-aUOATa"
+    },
+    {
+      "label": "Stadtbranchenbuch – Salvatore Iurato, Heimgartenstr. 16",
+      "url": "https://penzberg.stadtbranchenbuch.com/5234386.html"
+    },
+    {
+      "label": "fensterbau.org – Iurato Salvatore, Penzberg",
+      "url": "https://www.fensterbau.org/penzberg/iurato-salvatore-aUOAT9"
+    }
+  ],
+  "site": {
+    "theme": "atelier",
+    "category": "handwerk",
+    "heroOffer": [
+      "Innenanstrich",
+      "Fassade",
+      "Lackieren",
+      "Tapezieren",
+      "Renovierung"
+    ],
+    "scene": "paint",
+    "logoIcon": "roller",
+    "logoMark": "SI",
+    "brandName": "Maler Iurato",
+    "seoTitle": "Maler in Penzberg – Salvatore Iurato",
+    "seoDescription": "Malerarbeiten innen und außen in Penzberg und Umgebung: Wände, Decken, Fassaden und Lackierarbeiten. Jetzt kostenloses Angebot anfragen.",
+    "nav": [
+      {
+        "label": "Leistungen",
+        "href": "#leistungen"
+      },
+      {
+        "label": "Projekte",
+        "href": "#projekte"
+      },
+      {
+        "label": "Bewertungen",
+        "href": "#bewertungen"
+      },
+      {
+        "label": "Ablauf",
+        "href": "#ablauf"
+      },
+      {
+        "label": "FAQ",
+        "href": "#faq"
+      },
+      {
+        "label": "Kontakt",
+        "href": "#kontakt"
+      }
+    ],
+    "hero": {
+      "eyebrow": "Malerbetrieb · Penzberg",
+      "headline": "Malerarbeiten in Penzberg",
+      "sub": "Wände, Decken und Fassaden frisch gestrichen – von Salvatore Iurato aus Penzberg-Steigenberg.",
+      "ctaPrimary": "Kostenloses Angebot anfragen",
+      "ctaSecondary": "Anrufen",
+      "bullets": [
+        "Malerbetrieb aus Penzberg",
+        "Innen und außen",
+        "Direkter Ansprechpartner"
+      ],
+      "imageLabel": "frisch gestrichenes Wohnzimmer mit Farbrolle und Abdeckfolie"
+    },
+    "badges": [
+      {
+        "title": "Innenräume",
+        "sub": "Wände & Decken"
+      },
+      {
+        "title": "Fassade",
+        "sub": "Anstrich außen"
+      },
+      {
+        "title": "Lackieren",
+        "sub": "Türen & Holz"
+      },
+      {
+        "title": "Penzberg",
+        "sub": "Heimgartenstraße"
+      }
+    ],
+    "trust": [
+      {
+        "value": "Vor Ort",
+        "label": "Betrieb in Penzberg"
+      },
+      {
+        "value": "Inhaber",
+        "label": "Salvatore Iurato"
+      },
+      {
+        "value": "Innen & außen",
+        "label": "Malerarbeiten"
+      },
+      {
+        "value": "Direkt",
+        "label": "ohne Umwege erreichbar"
+      }
+    ],
+    "servicesIntro": {
+      "headline": "Farbe für Wohnung, Haus und Fassade",
+      "text": "Ob ein einzelnes Zimmer vor dem Einzug oder das ganze Treppenhaus: Sie bekommen saubere Kanten, abgedeckte Böden und einen Ansprechpartner von der Anfrage bis zur Übergabe."
+    },
+    "services": [
+      {
+        "title": "Innenanstrich",
+        "text": "Wände und Decken in Wohnung und Haus neu streichen – vom Kinderzimmer bis zum offenen Wohnbereich.",
+        "items": [
+          "Wände",
+          "Decken",
+          "Farbwahl"
+        ]
+      },
+      {
+        "title": "Fassadenanstrich",
+        "text": "Ein neuer Anstrich schützt die Außenwand und lässt das Haus wieder gepflegt aussehen.",
+        "items": [
+          "Reinigen",
+          "Grundieren",
+          "Streichen"
+        ]
+      },
+      {
+        "title": "Lackierarbeiten",
+        "text": "Türen, Zargen, Heizkörper und Holzflächen bekommen eine neue, widerstandsfähige Oberfläche.",
+        "items": [
+          "Türen",
+          "Heizkörper",
+          "Holzteile"
+        ]
+      },
+      {
+        "title": "Tapezieren",
+        "text": "Alte Tapeten runter, Untergrund vorbereiten, neue Tapete glatt und auf Stoß verklebt.",
+        "items": [
+          "Tapete entfernen",
+          "Raufaser",
+          "Vliestapete"
+        ]
+      },
+      {
+        "title": "Spachteln & Ausbessern",
+        "text": "Risse, Dübellöcher und unebene Stellen werden vor dem Streichen sauber geschlossen.",
+        "items": [
+          "Risse",
+          "Löcher",
+          "Glätten"
+        ]
+      },
+      {
+        "title": "Renovierung bei Auszug",
+        "text": "Wohnung für die Übergabe streichen lassen – planbar und ohne eigenes Werkzeug.",
+        "items": [
+          "Auszug",
+          "Einzug",
+          "Vermietung"
+        ]
+      }
+    ],
+    "why": {
+      "headline": "Ein Malerbetrieb aus Penzberg – mit kurzem Draht.",
+      "points": [
+        {
+          "title": "Kurze Wege",
+          "text": "Von Steigenberg aus schnell in Iffeldorf, Sindelsdorf, Bichl und am Starnberger See."
+        },
+        {
+          "title": "Ein Ansprechpartner",
+          "text": "Sie sprechen direkt mit dem Inhaber – keine Weiterleitung, kein Callcenter."
+        },
+        {
+          "title": "Sauber gearbeitet",
+          "text": "Böden und Möbel werden abgedeckt, nach der Arbeit bleibt der Raum besenrein."
+        },
+        {
+          "title": "Innen und außen",
+          "text": "Wohnräume, Treppenhaus und Fassade lassen sich in einem Auftrag erledigen."
+        }
+      ]
+    },
+    "reviews": {
+      "headline": "Was Kunden sagen",
+      "summary": "Kundenstimmen werden hier eingebunden, sobald sie aus dem Google-Profil übernommen sind.",
+      "highlights": [
+        "Malerarbeiten in Penzberg",
+        "Innen und außen",
+        "Direkter Kontakt"
+      ],
+      "source": "Google",
+      "sourceUrl": "https://www.google.com/maps/search/?api=1&query=Salvatore%20Iurato%20Maler%20Heimgartenstr.%2016%20Penzberg",
+      "rating": null,
+      "count": null
+    },
+    "process": {
+      "headline": "So kommt die neue Farbe an die Wand",
+      "steps": [
+        {
+          "title": "Anfrage",
+          "text": "Kurz anrufen oder das Formular mit ein paar Fotos der Räume ausfüllen."
+        },
+        {
+          "title": "Besichtigung",
+          "text": "Flächen, Untergrund und Farbwünsche werden vor Ort angeschaut."
+        },
+        {
+          "title": "Angebot",
+          "text": "Sie erhalten ein klares Angebot mit Umfang und Termin."
+        },
+        {
+          "title": "Ausführung",
+          "text": "Abdecken, vorbereiten, streichen – und die Räume sauber übergeben."
+        }
+      ]
+    },
+    "gallery": {
+      "headline": "Frisch gestrichen in Penzberg und Umgebung",
+      "text": "Für die Live-Version zeigen wir hier echte Projekte des Betriebs.",
+      "items": [
+        {
+          "title": "Wohnzimmer",
+          "photoNeeded": "frisch gestrichenes Wohnzimmer mit klaren Kanten"
+        },
+        {
+          "title": "Treppenhaus",
+          "photoNeeded": "gestrichenes Treppenhaus in einem Mehrfamilienhaus"
+        },
+        {
+          "title": "Fassade",
+          "photoNeeded": "Hausfassade nach dem Neuanstrich"
+        },
+        {
+          "title": "Lackierte Türen",
+          "photoNeeded": "weiß lackierte Innentür mit Zarge"
+        },
+        {
+          "title": "Tapezierter Raum",
+          "photoNeeded": "Raum mit neu verklebter Tapete"
+        }
+      ]
+    },
+    "region": {
+      "headline": "Malerarbeiten für Penzberg und das Oberland",
+      "text": "Von Penzberg aus unterwegs in Iffeldorf, Sindelsdorf, Bichl, Bad Heilbrunn und Seeshaupt.",
+      "places": [
+        "Penzberg",
+        "Iffeldorf",
+        "Sindelsdorf",
+        "Bichl",
+        "Bad Heilbrunn",
+        "Seeshaupt"
+      ]
+    },
+    "faq": [
+      {
+        "q": "Kann ich vorab Fotos schicken?",
+        "a": "Ja, Fotos der Räume oder der Fassade helfen für eine erste Einschätzung."
+      },
+      {
+        "q": "Muss ich die Möbel selbst ausräumen?",
+        "a": "Das wird bei der Besichtigung abgestimmt. Was im Raum bleibt, wird vor dem Streichen abgedeckt."
+      },
+      {
+        "q": "Streichen Sie auch Fassaden?",
+        "a": "Ja, Malerarbeiten innen wie außen gehören zum Angebot. Details klären wir vor Ort."
+      },
+      {
+        "q": "Wie schnell ist ein Termin möglich?",
+        "a": "Das hängt von der Auslastung und dem Umfang ab. Einen Termin nennen wir Ihnen mit dem Angebot."
+      },
+      {
+        "q": "Arbeiten Sie auch außerhalb von Penzberg?",
+        "a": "Ja, im Umkreis von Penzberg – fragen Sie einfach an."
+      }
+    ],
+    "contact": {
+      "headline": "Ihr Angebot – kostenlos und unverbindlich",
+      "text": "Beschreiben Sie kurz, welche Räume oder Flächen gestrichen werden sollen und bis wann. Fotos helfen.",
+      "topics": [
+        "Innenanstrich",
+        "Fassade",
+        "Lackierarbeiten",
+        "Tapezieren",
+        "Sonstiges"
+      ],
+      "responseNote": "Besichtigung nach Absprache."
+    },
+    "quote": {
+      "sizeLabel": "Was soll gestrichen werden?",
+      "sizes": [
+        "Ein Zimmer",
+        "Ganze Wohnung",
+        "Treppenhaus",
+        "Fassade"
+      ],
+      "timings": [
+        "So bald wie möglich",
+        "In den nächsten Wochen",
+        "In 1–3 Monaten",
+        "Ich plane erst noch"
+      ]
+    },
+    "stickyCta": "Angebot anfragen",
+    "look": {
+      "palette": 2,
+      "font": 6,
+      "hero": 0,
+      "services": 1,
+      "radius": 1,
+      "logo": 0,
+      "intro": 5
+    }
+  }
+}
