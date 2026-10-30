@@ -1,0 +1,403 @@
+{
+  "id": "2026-10-30-178",
+  "slug": "fliesenverlegungen-freidl-gilching",
+  "date": "2026-10-30",
+  "company": {
+    "name": "Fliesenverlegungen Torsten Freidl",
+    "owner": "Torsten Freidl",
+    "trade": "Fliesenleger",
+    "city": "Gilching",
+    "address": "Weßlinger Str. 12E, 82205 Gilching",
+    "phone": "0172 8669719",
+    "email": null,
+    "serviceArea": [
+      "Gilching",
+      "Weßling",
+      "Wörthsee",
+      "Germering",
+      "Herrsching",
+      "Seefeld"
+    ]
+  },
+  "listings": {
+    "google": {
+      "url": "https://www.google.com/maps/search/?api=1&query=Torsten%20Freidl%20Fliesenleger%20We%C3%9Flinger%20Str.%2012%20Gilching",
+      "rating": null,
+      "reviews": null,
+      "evidence": "NICHT BELEGT – kein Google-Spiegel (trustlocal, firmania, rgv-bayern) mit eigenem Profil gefunden; goyellow und starofservice listen „Freidl Torsten Fliesenleger“ (Weßlinger Str. 12E) ohne Bewertungen und ohne Website-Feld. Das Telefonbuch: „noch keine Bewertungen“. In Maps prüfen."
+    },
+    "myhammer": {
+      "url": "https://adresse.dastelefonbuch.de/Gilching/1-Fliesenverlegungen-Torsten-Freidl-Gilching-We%C3%9Flinger-Str.html",
+      "rating": null,
+      "reviews": null,
+      "evidence": "Kein MyHammer gefunden – Eintrag „Fliesenverlegungen Torsten Freidl“ im Telefonbuch (Weßlinger Str. 12, Gilching, Mobil 0172 8669719, Suchbegriffe Badsanierung, Fliesenarbeiten, Mosaik) sowie in goyellow, starofservice und muenchen.de-Branchenbuch."
+    }
+  },
+  "websiteStatus": "keine eigene Website gefunden",
+  "websiteChecks": [
+    "(1) „Freidl Fliesen Gilching“ mit blocked_domains (11880.com, Gelbe Seiten, Das Örtliche, Telefonbuch, Cylex, meinestadt, Creditreform, Facebook, Instagram, golocal, MyHammer, Northdata, Firmenwissen, WKDB, Yelp, wlw, muenchen.de) – nur Verzeichnisse/Aggregatoren (auftragsfreundlich, starofservice, goyellow, fliesenleger24 u. a.); keine eigene Domain",
+    "(2) Domain-Check allowed_domains fliesen-freidl.de, freidl-fliesen.de, freidl.de, fliesenleger-freidl.de, torsten-freidl.de, freidl-fliesenverlegungen.de, fliesenverlegung-freidl.de, tf-fliesen.de – keine Treffer",
+    "(3) Telefonsuche „0172 8669719“/„01728669719“/„0172-8669719“ – keine Treffer (nur fremde Rufnummernseiten)",
+    "(4) Google-Spiegel-Suche (trustlocal, firmania, rgv-bayern, starofservice, goyellow) – nur Listen-Einträge ohne Bewertungen, kein Website-Feld",
+    "(5) Impressum-Suche nicht separat durchgeführt (Suchbudget) – im Namens-Check kein Impressum mit Freidl aufgetaucht",
+    "Website-Risiko: mittel – alle Prüfungen negativ, aber weder Google-Eintrag noch Freemail belegt"
+  ],
+  "facts": {
+    "services": [
+      "Fliesenarbeiten",
+      "Badsanierung",
+      "Mosaik"
+    ],
+    "experience": null,
+    "praisedFor": []
+  },
+  "strategy": {
+    "audience": "Hauseigentümer und Wohnungsbesitzer in Gilching, Weßling, Wörthsee und Germering, die Bad, Küche oder Böden neu fliesen lassen wollen",
+    "mainService": "Fliesenarbeiten und Badsanierung",
+    "trustSignal": "Inhaber Torsten Freidl direkt per Handy erreichbar, Betrieb in Gilching",
+    "conversionGoal": "Kostenloses Angebot für Fliesenarbeiten anfragen (per WhatsApp/Anruf mit Fotos)",
+    "visualConcept": "Helles Bad mit sauber verfugten Wandfliesen und Mosaikstreifen – präzise Fugenbilder, ruhige Natursteintöne"
+  },
+  "sales": {
+    "score": 4,
+    "whyGoodLead": [
+      "Keine eigene Website gefunden – nur Verzeichniseinträge",
+      "Mobilnummer öffentlich gelistet – ideal für WhatsApp-Erstkontakt",
+      "Keine Bewertungen sichtbar – Website und Google-Profil schaffen erste Sichtbarkeit",
+      "Badsanierung im Landkreis Starnberg stark nachgefragt"
+    ],
+    "pitch": "Hallo Herr Freidl, hier ist … – ich baue Websites für Handwerker im Landkreis Starnberg. Ich habe Ihren Eintrag „Fliesenverlegungen Torsten Freidl“ in Gilching gefunden, aber keine eigene Website. Ich habe unverbindlich einen Entwurf vorbereitet, auf dem Kunden Ihre Fliesen- und Badarbeiten sehen und direkt per WhatsApp anfragen können – darf ich Ihnen den Link schicken?"
+  },
+  "manualChecks": [
+    "RESERVE – weder Google-Eintrag noch Freemail-Adresse belegt: NUR versenden, wenn Google Maps einen Eintrag OHNE Website zeigt. Zusätzlich: Website-Risiko mittel (Grund: alle Suchen negativ, aber nur Verzeichnisbelege).",
+    "Google Maps: Existenz eines Eintrags und fehlendes Website-Feld prüfen",
+    "Aktivität prüfen: Verzeichnis zeigt Öffnungszeiten nur Do/Fr 8–18 Uhr, ein Eintrag ca. 881 Tage alt – evtl. Nebengewerbe oder ruhend",
+    "Hausnummer uneinheitlich (12 bzw. 12E) – beim Erstkontakt bestätigen",
+    "Leistungen nur als Suchbegriffe belegt (Badsanierung, Fliesenarbeiten, Mosaik) – Details beim Betrieb bestätigen",
+    "Logo und Projektfotos: nicht gefunden – beim Betrieb anfragen"
+  ],
+  "sources": [
+    {
+      "label": "Das Telefonbuch – Fliesenverlegungen Torsten Freidl, Gilching",
+      "url": "https://adresse.dastelefonbuch.de/Gilching/1-Fliesenverlegungen-Torsten-Freidl-Gilching-We%C3%9Flinger-Str.html"
+    },
+    {
+      "label": "goyellow – Fliesenleger Gilching (Freidl Torsten)",
+      "url": "https://www.goyellow.de/suche/fliesenleger/gilching"
+    },
+    {
+      "label": "starofservice – Fliesenleger Gilching",
+      "url": "https://www.starofservice.de/liste/bayern/starnberg/gilching/fliesenlegen"
+    },
+    {
+      "label": "muenchen.de Branchenbuch – Fliesen Gilching",
+      "url": "https://www.muenchen.de/service/branchenbuch/starnberg/gilching/F/125.html"
+    }
+  ],
+  "site": {
+    "theme": "aqua",
+    "category": "handwerk",
+    "heroOffer": [
+      "Badfliesen",
+      "Bodenfliesen",
+      "Mosaik",
+      "Badsanierung",
+      "Fugen"
+    ],
+    "scene": "bath",
+    "logoIcon": "trowel",
+    "logoMark": "TF",
+    "brandName": "Fliesen Freidl",
+    "seoTitle": "Fliesenleger in Gilching – Torsten Freidl",
+    "seoDescription": "Fliesenarbeiten, Mosaik und Badsanierung in Gilching und Umgebung. Angebot anfragen – auch per WhatsApp mit Fotos.",
+    "nav": [
+      {
+        "label": "Leistungen",
+        "href": "#leistungen"
+      },
+      {
+        "label": "Projekte",
+        "href": "#projekte"
+      },
+      {
+        "label": "Bewertungen",
+        "href": "#bewertungen"
+      },
+      {
+        "label": "Ablauf",
+        "href": "#ablauf"
+      },
+      {
+        "label": "FAQ",
+        "href": "#faq"
+      },
+      {
+        "label": "Kontakt",
+        "href": "#kontakt"
+      }
+    ],
+    "hero": {
+      "eyebrow": "Fliesenleger · Gilching",
+      "headline": "Fliesenarbeiten in Gilching",
+      "sub": "Bad, Küche und Böden neu gefliest – direkt beim Inhaber angefragt.",
+      "ctaPrimary": "Angebot anfragen",
+      "ctaSecondary": "Anrufen",
+      "bullets": [
+        "Fliesen und Mosaik",
+        "Badsanierung",
+        "Direkt per Handy erreichbar"
+      ],
+      "imageLabel": "frisch verfugte Wandfliesen mit Mosaikbordüre im Bad"
+    },
+    "badges": [
+      {
+        "title": "Fliesen",
+        "sub": "Wand & Boden"
+      },
+      {
+        "title": "Mosaik",
+        "sub": "Akzente im Detail"
+      },
+      {
+        "title": "Badsanierung",
+        "sub": "vom alten zum neuen Bad"
+      },
+      {
+        "title": "Gilching",
+        "sub": "Weßlinger Straße"
+      }
+    ],
+    "trust": [
+      {
+        "value": "Inhaber",
+        "label": "Torsten Freidl persönlich"
+      },
+      {
+        "value": "Gilching",
+        "label": "Betrieb vor Ort"
+      },
+      {
+        "value": "3",
+        "label": "Schwerpunkte"
+      },
+      {
+        "value": "Mobil",
+        "label": "direkt erreichbar"
+      }
+    ],
+    "servicesIntro": {
+      "headline": "Fliesen für Bad, Küche und Wohnraum",
+      "text": "Von der einzelnen Wand bis zum kompletten Bad: Sie bekommen Fliesenarbeiten aus einer Hand, abgestimmt auf Raum und Nutzung."
+    },
+    "services": [
+      {
+        "title": "Wandfliesen",
+        "text": "Neue Fliesen für Bad, Küche und WC – sauber gesetzt und gleichmäßig verfugt.",
+        "items": [
+          "Bad",
+          "Küchenspiegel",
+          "Gäste-WC"
+        ]
+      },
+      {
+        "title": "Bodenfliesen",
+        "text": "Strapazierfähige Böden für Flur, Küche und Wohnräume.",
+        "items": [
+          "Flur",
+          "Küche",
+          "Wohnraum"
+        ]
+      },
+      {
+        "title": "Mosaikarbeiten",
+        "text": "Mosaik setzt Akzente in Dusche, Nische oder als Bordüre.",
+        "items": [
+          "Duschnischen",
+          "Bordüren",
+          "Akzentflächen"
+        ]
+      },
+      {
+        "title": "Badsanierung",
+        "text": "Das alte Bad wird zum neuen: alte Fliesen raus, neue Flächen sauber verlegt.",
+        "items": [
+          "Altfliesen entfernen",
+          "Neuverfliesung",
+          "Fertige Übergabe"
+        ]
+      },
+      {
+        "title": "Fugen & Silikon",
+        "text": "Erneuerte Fugen und Silikonfugen lassen ein Bad wieder gepflegt aussehen.",
+        "items": [
+          "Neu verfugen",
+          "Silikonfugen",
+          "Ausbesserung"
+        ]
+      },
+      {
+        "title": "Reparaturen",
+        "text": "Einzelne gesprungene oder lose Fliesen werden ersetzt, ohne gleich alles neu zu machen.",
+        "items": [
+          "Einzelfliesen",
+          "Lose Fliesen",
+          "Kleinaufträge"
+        ]
+      }
+    ],
+    "why": {
+      "headline": "Fliesen aus Gilching – mit kurzem Draht zum Inhaber.",
+      "points": [
+        {
+          "title": "Ein Ansprechpartner",
+          "text": "Sie sprechen direkt mit Torsten Freidl – von der Anfrage bis zur Übergabe."
+        },
+        {
+          "title": "Kurze Wege",
+          "text": "Von Gilching aus schnell in Weßling, Wörthsee, Germering und Herrsching."
+        },
+        {
+          "title": "Fotos genügen",
+          "text": "Ein paar Bilder per WhatsApp reichen für eine erste Einschätzung."
+        },
+        {
+          "title": "Detail im Blick",
+          "text": "Mosaik und saubere Fugenbilder machen den Unterschied im fertigen Bad."
+        }
+      ]
+    },
+    "reviews": {
+      "headline": "Was Kunden sagen",
+      "summary": "Kundenstimmen werden hier eingebunden, sobald sie aus dem Google-Profil übernommen sind.",
+      "highlights": [
+        "Fliesenarbeiten in Gilching",
+        "Mosaik und Badsanierung",
+        "Direkter Kontakt"
+      ],
+      "source": "Google",
+      "sourceUrl": "https://www.google.com/maps/search/?api=1&query=Torsten%20Freidl%20Fliesenleger%20We%C3%9Flinger%20Str.%2012%20Gilching",
+      "rating": null,
+      "count": null
+    },
+    "process": {
+      "headline": "So kommt die Fliese an die Wand",
+      "steps": [
+        {
+          "title": "Anfrage",
+          "text": "Fotos und grobe Maße per WhatsApp schicken oder kurz anrufen."
+        },
+        {
+          "title": "Termin vor Ort",
+          "text": "Fläche, Untergrund und Fliesenwahl werden gemeinsam angeschaut."
+        },
+        {
+          "title": "Angebot",
+          "text": "Sie erhalten ein klares Angebot für Ihr Vorhaben."
+        },
+        {
+          "title": "Verlegung",
+          "text": "Fliesen setzen, verfugen, Silikon ziehen – und sauber übergeben."
+        }
+      ]
+    },
+    "gallery": {
+      "headline": "Flächen, die neu glänzen",
+      "text": "Für die Live-Version zeigen wir hier echte Projekte des Betriebs.",
+      "items": [
+        {
+          "title": "Neues Bad",
+          "photoNeeded": "komplett neu gefliestes Bad mit bodengleicher Dusche"
+        },
+        {
+          "title": "Mosaiknische",
+          "photoNeeded": "Duschnische mit Mosaikfliesen"
+        },
+        {
+          "title": "Küchenspiegel",
+          "photoNeeded": "gefliester Küchenspiegel über der Arbeitsplatte"
+        },
+        {
+          "title": "Flurboden",
+          "photoNeeded": "großformatige Bodenfliesen im Flur"
+        },
+        {
+          "title": "Frische Fugen",
+          "photoNeeded": "erneuerte Fugen und Silikon im Bad"
+        }
+      ]
+    },
+    "region": {
+      "headline": "Fliesenleger für Gilching und das Fünfseenland",
+      "text": "Von Gilching aus schnell in Weßling, Wörthsee, Germering, Herrsching und Seefeld.",
+      "places": [
+        "Gilching",
+        "Weßling",
+        "Wörthsee",
+        "Germering",
+        "Herrsching",
+        "Seefeld"
+      ]
+    },
+    "faq": [
+      {
+        "q": "Kann ich vorab Fotos schicken?",
+        "a": "Ja, Fotos und grobe Maße per WhatsApp helfen für eine erste Einschätzung."
+      },
+      {
+        "q": "Übernehmen Sie auch kleine Aufträge?",
+        "a": "Fragen Sie einfach an – auch einzelne Fliesen oder neue Fugen lassen sich besprechen."
+      },
+      {
+        "q": "Muss ich die Fliesen selbst kaufen?",
+        "a": "Das klären wir beim Termin – Sie können eigene Fliesen mitbringen oder die Auswahl gemeinsam besprechen."
+      },
+      {
+        "q": "Wie lange dauert eine Badsanierung?",
+        "a": "Das hängt von Größe und Umfang ab. Einen Zeitplan gibt es nach der Besichtigung."
+      },
+      {
+        "q": "Arbeiten Sie auch außerhalb von Gilching?",
+        "a": "Ja, im Umkreis von Gilching – etwa in Weßling, Wörthsee oder Germering."
+      }
+    ],
+    "contact": {
+      "headline": "Ihr Angebot für neue Fliesen",
+      "text": "Beschreiben Sie kurz Ihr Vorhaben: welcher Raum, ungefähre Fläche und ob Wand, Boden oder Mosaik. Fotos helfen.",
+      "topics": [
+        "Wandfliesen",
+        "Bodenfliesen",
+        "Mosaik",
+        "Badsanierung",
+        "Fugen & Reparatur",
+        "Sonstiges"
+      ],
+      "responseNote": "Besichtigung nach Absprache."
+    },
+    "quote": {
+      "sizeLabel": "Wie groß ist die Fläche?",
+      "sizes": [
+        "Einzelne Fliesen",
+        "Bis 10 m²",
+        "10–30 m²",
+        "Komplettes Bad",
+        "Mehrere Räume"
+      ],
+      "timings": [
+        "So bald wie möglich",
+        "In den nächsten Wochen",
+        "In 1–3 Monaten",
+        "Ich plane erst noch"
+      ]
+    },
+    "stickyCta": "Angebot anfragen",
+    "look": {
+      "palette": 2,
+      "font": 6,
+      "hero": 0,
+      "services": 1,
+      "radius": 1,
+      "logo": 0,
+      "intro": 5
+    }
+  }
+}

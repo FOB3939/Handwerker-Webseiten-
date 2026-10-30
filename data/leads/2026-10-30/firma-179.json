@@ -1,0 +1,401 @@
+{
+  "id": "2026-10-30-179",
+  "slug": "fliesenleger-koeth-gauting",
+  "date": "2026-10-30",
+  "company": {
+    "name": "Wolfgang Köth Fliesenleger",
+    "owner": "Wolfgang Köth",
+    "trade": "Fliesenleger",
+    "city": "Gauting",
+    "address": "Am Hang 10, 82131 Gauting",
+    "phone": "089 8504351",
+    "email": null,
+    "serviceArea": [
+      "Gauting",
+      "Stockdorf",
+      "Krailling",
+      "Planegg",
+      "Starnberg",
+      "Gilching"
+    ]
+  },
+  "listings": {
+    "google": {
+      "url": "https://www.google.com/maps/search/?api=1&query=Wolfgang%20K%C3%B6th%20Fliesenleger%20Am%20Hang%2010%20Gauting",
+      "rating": null,
+      "reviews": null,
+      "evidence": "NICHT BELEGT – kein Google-Spiegel mit Profil gefunden; nur Verzeichnisse (bauenwohnen.org, servicesinfo.de, branchenbuch24, frag-christel Firmenregister Gauting) mit Am Hang 10, Tel. 089 8504351, Fax 089 89340531. In Maps prüfen."
+    },
+    "myhammer": {
+      "url": "https://www.branchenbuch24.com/gauting/haus-innenausstattung/fliesen-platten-und-mosaikleger/wolfgang-koeth-811927/",
+      "rating": null,
+      "reviews": null,
+      "evidence": "Kein MyHammer gefunden – Eintrag „Wolfgang Köth – Fliesen-, Platten- und Mosaikleger“ bei branchenbuch24 sowie bauenwohnen.org und servicesinfo.de (Am Hang 10, 82131 Gauting)."
+    }
+  },
+  "websiteStatus": "keine eigene Website gefunden",
+  "websiteChecks": [
+    "(1) „Wolfgang Köth Fliesenleger Gauting“ mit blocked_domains (11880.com, Gelbe Seiten, Das Örtliche, Telefonbuch, Cylex, meinestadt, Creditreform, Facebook, Instagram, golocal, MyHammer, Northdata, Firmenwissen, WKDB, Yelp, wlw) – nur Verzeichnisse (bauenwohnen.org, servicesinfo.de, branchenbuch24, handwerker-suchmaschine, frag-christel, unser-wuermtal); keine eigene Domain, kein Website-Feld",
+    "(2) Domain-Check allowed_domains fliesen-koeth.de, koeth-fliesen.de, koeth.de, fliesenleger-koeth.de, wolfgang-koeth.de, koeth-gauting.de, fliesen-koeth-gauting.de, koethfliesen.de – nur koeth.de = Köth Elektronik (Messgeräte, fremde Firma), kein Fliesenbetrieb",
+    "(3) Telefonsuche „089 8504351“ NICHT durchgeführt (Suchbudget erschöpft)",
+    "(4) Impressum-Suche NICHT durchgeführt (Suchbudget erschöpft)",
+    "Website-Risiko: mittel – zwei Prüfungen negativ, zwei offen; weder Google-Eintrag noch Freemail belegt; nur Festnetz"
+  ],
+  "facts": {
+    "services": [
+      "Fliesenverlegung",
+      "Plattenverlegung",
+      "Mosaikarbeiten"
+    ],
+    "experience": null,
+    "praisedFor": []
+  },
+  "strategy": {
+    "audience": "Hauseigentümer und Wohnungsbesitzer in Gauting, Stockdorf, Krailling und Planegg, die Bad, Küche, Böden oder Terrasse neu fliesen lassen wollen",
+    "mainService": "Fliesen-, Platten- und Mosaikarbeiten",
+    "trustSignal": "Inhaber Wolfgang Köth, Betrieb in Gauting",
+    "conversionGoal": "Rückruf bzw. Angebot für Fliesenarbeiten anfragen",
+    "visualConcept": "Ruhige Würmtal-Töne: großformatige Platten, feines Mosaik, klare Fugenlinien in warmem Grau und Sand"
+  },
+  "sales": {
+    "score": 3,
+    "whyGoodLead": [
+      "Keine eigene Website gefunden – nur Verzeichniseinträge",
+      "Inhabergeführter Betrieb in Gauting",
+      "Keine Bewertungen sichtbar – Website schafft erste Sichtbarkeit im Würmtal",
+      "Fliesenarbeiten im wohlhabenden Würmtal gefragt"
+    ],
+    "pitch": "Guten Tag Herr Köth, hier ist … – ich baue Websites für Handwerker im Würmtal. Ich habe Ihren Eintrag als Fliesenleger in Gauting gefunden, aber keine eigene Website. Ich habe unverbindlich einen Entwurf vorbereitet, auf dem Kunden Ihre Fliesen- und Mosaikarbeiten sehen und direkt anfragen können – darf ich Ihnen den Link schicken?"
+  },
+  "manualChecks": [
+    "RESERVE – weder Google-Eintrag noch Freemail-Adresse belegt: NUR versenden, wenn Google Maps einen Eintrag OHNE Website zeigt. Zusätzlich: Website-Risiko mittel (Grund: Telefon- und Impressum-Suche offen).",
+    "Vor Versand: Telefonnummer 089 8504351 und „Impressum Köth Gauting“ googeln – bei Website-Treffer verwerfen",
+    "Aktivität prüfen: Verzeichnisdaten evtl. veraltet (Fax, keine Bewertungen) – Betrieb möglicherweise nicht mehr aktiv",
+    "Nur Festnetz – Erstkontakt per Anruf statt WhatsApp",
+    "Leistungen nur als Branche belegt (Fliesen-, Platten- und Mosaikleger) – Details beim Betrieb bestätigen",
+    "Logo und Projektfotos: nicht gefunden – beim Betrieb anfragen"
+  ],
+  "sources": [
+    {
+      "label": "branchenbuch24 – Wolfgang Köth, Fliesen-, Platten- und Mosaikleger Gauting",
+      "url": "https://www.branchenbuch24.com/gauting/haus-innenausstattung/fliesen-platten-und-mosaikleger/wolfgang-koeth-811927/"
+    },
+    {
+      "label": "bauenwohnen.org – Wolfgang Köth Fliesenleger Gauting",
+      "url": "https://bauenwohnen.org/BY/gauting/wolfgang-koth-fliesenleger/"
+    },
+    {
+      "label": "servicesinfo.de – Wolfgang Köth Fliesenleger Gauting",
+      "url": "http://servicesinfo.de/BY/gauting/wolfgang-koth-fliesenleger/"
+    },
+    {
+      "label": "Firmenregister Gauting – Firmen mit K",
+      "url": "https://gauting.frag-christel.de/K/firmen.php"
+    }
+  ],
+  "site": {
+    "theme": "stein",
+    "category": "handwerk",
+    "heroOffer": [
+      "Wandfliesen",
+      "Bodenplatten",
+      "Mosaik",
+      "Terrasse"
+    ],
+    "scene": "bath",
+    "logoIcon": "trowel",
+    "logoMark": "WK",
+    "brandName": "Fliesen Köth",
+    "seoTitle": "Fliesenleger in Gauting – Wolfgang Köth",
+    "seoDescription": "Fliesen-, Platten- und Mosaikarbeiten in Gauting und im Würmtal. Jetzt Angebot anfragen.",
+    "nav": [
+      {
+        "label": "Leistungen",
+        "href": "#leistungen"
+      },
+      {
+        "label": "Projekte",
+        "href": "#projekte"
+      },
+      {
+        "label": "Bewertungen",
+        "href": "#bewertungen"
+      },
+      {
+        "label": "Ablauf",
+        "href": "#ablauf"
+      },
+      {
+        "label": "FAQ",
+        "href": "#faq"
+      },
+      {
+        "label": "Kontakt",
+        "href": "#kontakt"
+      }
+    ],
+    "hero": {
+      "eyebrow": "Fliesenleger · Gauting",
+      "headline": "Fliesen und Mosaik in Gauting",
+      "sub": "Wände, Böden und Platten im Würmtal – direkt beim Inhaber angefragt.",
+      "ctaPrimary": "Angebot anfragen",
+      "ctaSecondary": "Anrufen",
+      "bullets": [
+        "Fliesen, Platten, Mosaik",
+        "Inhaber Wolfgang Köth",
+        "Betrieb in Gauting"
+      ],
+      "imageLabel": "großformatige Bodenplatten mit feiner Mosaikfläche an der Wand"
+    },
+    "badges": [
+      {
+        "title": "Fliesen",
+        "sub": "Wand & Boden"
+      },
+      {
+        "title": "Platten",
+        "sub": "innen und außen"
+      },
+      {
+        "title": "Mosaik",
+        "sub": "feine Flächen"
+      },
+      {
+        "title": "Gauting",
+        "sub": "Am Hang"
+      }
+    ],
+    "trust": [
+      {
+        "value": "Inhaber",
+        "label": "Wolfgang Köth persönlich"
+      },
+      {
+        "value": "Würmtal",
+        "label": "Gauting und Umgebung"
+      },
+      {
+        "value": "3",
+        "label": "Fachbereiche"
+      },
+      {
+        "value": "Direkt",
+        "label": "ohne Umwege anfragen"
+      }
+    ],
+    "servicesIntro": {
+      "headline": "Fliesen, Platten und Mosaik",
+      "text": "Ob Bad, Küche, Flur oder Terrasse: Sie bekommen die passende Fläche – vom Großformat bis zum kleinen Mosaikstein."
+    },
+    "services": [
+      {
+        "title": "Wandfliesen",
+        "text": "Fliesen für Bad, WC und Küche – gerade gesetzt und sauber verfugt.",
+        "items": [
+          "Bad",
+          "WC",
+          "Küche"
+        ]
+      },
+      {
+        "title": "Bodenfliesen",
+        "text": "Robuste Böden für Flur, Küche und Wohnbereich.",
+        "items": [
+          "Flur",
+          "Küche",
+          "Wohnbereich"
+        ]
+      },
+      {
+        "title": "Plattenverlegung",
+        "text": "Großformatige Platten für ruhige Flächen mit wenigen Fugen.",
+        "items": [
+          "Großformat",
+          "Wohnräume",
+          "Eingangsbereich"
+        ]
+      },
+      {
+        "title": "Mosaik",
+        "text": "Mosaik für Dusche, Nische oder dekorative Wandflächen.",
+        "items": [
+          "Dusche",
+          "Nischen",
+          "Bordüren"
+        ]
+      },
+      {
+        "title": "Badfliesen",
+        "text": "Neue Fliesen im Bad – vom Gäste-WC bis zum Familienbad.",
+        "items": [
+          "Duschbereich",
+          "Wanne",
+          "Boden"
+        ]
+      },
+      {
+        "title": "Ausbesserung",
+        "text": "Beschädigte Fliesen werden ersetzt und Fugen erneuert.",
+        "items": [
+          "Einzelfliesen",
+          "Fugen",
+          "Silikon"
+        ]
+      }
+    ],
+    "why": {
+      "headline": "Fliesenarbeiten aus Gauting – persönlich betreut.",
+      "points": [
+        {
+          "title": "Inhaber am Telefon",
+          "text": "Sie besprechen Ihr Vorhaben direkt mit Wolfgang Köth."
+        },
+        {
+          "title": "Im Würmtal zu Hause",
+          "text": "Kurze Wege nach Stockdorf, Krailling, Planegg und Starnberg."
+        },
+        {
+          "title": "Vom Großformat bis Mosaik",
+          "text": "Fliesen, Platten und Mosaik kommen aus einer Hand."
+        },
+        {
+          "title": "Klare Absprache",
+          "text": "Fläche, Material und Termin werden vorab vor Ort geklärt."
+        }
+      ]
+    },
+    "reviews": {
+      "headline": "Was Kunden sagen",
+      "summary": "Kundenstimmen werden hier eingebunden, sobald sie aus dem Google-Profil übernommen sind.",
+      "highlights": [
+        "Fliesen in Gauting",
+        "Platten und Mosaik",
+        "Persönlicher Kontakt"
+      ],
+      "source": "Google",
+      "sourceUrl": "https://www.google.com/maps/search/?api=1&query=Wolfgang%20K%C3%B6th%20Fliesenleger%20Am%20Hang%2010%20Gauting",
+      "rating": null,
+      "count": null
+    },
+    "process": {
+      "headline": "Vom Anruf zur fertigen Fläche",
+      "steps": [
+        {
+          "title": "Anruf",
+          "text": "Kurz schildern, welcher Raum und welche Fläche gefliest werden soll."
+        },
+        {
+          "title": "Besichtigung",
+          "text": "Untergrund, Maße und Fliesenwahl werden vor Ort besprochen."
+        },
+        {
+          "title": "Angebot",
+          "text": "Sie erhalten ein nachvollziehbares Angebot."
+        },
+        {
+          "title": "Ausführung",
+          "text": "Verlegen, verfugen, abdichten – die Fläche wird sauber übergeben."
+        }
+      ]
+    },
+    "gallery": {
+      "headline": "Flächen aus dem Würmtal",
+      "text": "Für die Live-Version zeigen wir hier echte Projekte des Betriebs.",
+      "items": [
+        {
+          "title": "Familienbad",
+          "photoNeeded": "neu gefliestes Bad mit Dusche und Wanne"
+        },
+        {
+          "title": "Großformat",
+          "photoNeeded": "großformatige Bodenplatten im Wohnbereich"
+        },
+        {
+          "title": "Mosaikwand",
+          "photoNeeded": "Mosaikfläche in der Dusche"
+        },
+        {
+          "title": "Küchenboden",
+          "photoNeeded": "gefliester Küchenboden"
+        },
+        {
+          "title": "Gäste-WC",
+          "photoNeeded": "kleines WC mit neuen Wandfliesen"
+        }
+      ]
+    },
+    "region": {
+      "headline": "Fliesenleger für Gauting und das Würmtal",
+      "text": "Von Gauting aus in Stockdorf, Krailling, Planegg, Starnberg und Gilching.",
+      "places": [
+        "Gauting",
+        "Stockdorf",
+        "Krailling",
+        "Planegg",
+        "Starnberg",
+        "Gilching"
+      ]
+    },
+    "faq": [
+      {
+        "q": "Verlegen Sie auch Mosaik?",
+        "a": "Ja, Mosaikarbeiten gehören zum Angebot – etwa in Dusche oder Nische."
+      },
+      {
+        "q": "Übernehmen Sie auch Großformatplatten?",
+        "a": "Ja, Plattenverlegung ist Teil des Angebots. Details klären wir vor Ort."
+      },
+      {
+        "q": "Kann ich eigene Fliesen stellen?",
+        "a": "Das besprechen wir beim Termin – sprechen Sie es bei der Anfrage an."
+      },
+      {
+        "q": "Wie schnell bekomme ich einen Termin?",
+        "a": "Das hängt von der Auslastung ab. Rufen Sie an, dann wird ein Besichtigungstermin vereinbart."
+      },
+      {
+        "q": "Arbeiten Sie auch außerhalb von Gauting?",
+        "a": "Ja, im Würmtal und Umgebung – etwa Stockdorf, Krailling oder Planegg."
+      }
+    ],
+    "contact": {
+      "headline": "Ihr Angebot für Fliesenarbeiten",
+      "text": "Beschreiben Sie kurz Raum, ungefähre Fläche und ob Wand, Boden oder Mosaik gewünscht ist.",
+      "topics": [
+        "Wandfliesen",
+        "Bodenfliesen",
+        "Platten",
+        "Mosaik",
+        "Ausbesserung",
+        "Sonstiges"
+      ],
+      "responseNote": "Besichtigung nach Absprache."
+    },
+    "quote": {
+      "sizeLabel": "Was soll gefliest werden?",
+      "sizes": [
+        "Einzelne Fliesen",
+        "Gäste-WC",
+        "Bad",
+        "Boden in einem Raum",
+        "Mehrere Räume"
+      ],
+      "timings": [
+        "So bald wie möglich",
+        "In den nächsten Wochen",
+        "In 1–3 Monaten",
+        "Ich plane erst noch"
+      ]
+    },
+    "stickyCta": "Angebot anfragen",
+    "look": {
+      "palette": 2,
+      "font": 6,
+      "hero": 0,
+      "services": 1,
+      "radius": 1,
+      "logo": 0,
+      "intro": 5
+    }
+  }
+}
