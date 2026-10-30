@@ -1,0 +1,75 @@
+{
+ "slug": "2026-10-30-abfluss-verstopft",
+ "topic": "Sanitär-Kundendienst: Abfluss verstopft – keine Chemie-Keule",
+ "format": "problem",
+ "style": {
+  "theme": "gold",
+  "transition": "circle",
+  "bg": "grid",
+  "entrance": "pop"
+ },
+ "scenes": [
+  {
+   "type": "hook",
+   "chip": "Sanitär-Tipp",
+   "icon": "drop",
+   "photo": "siphon",
+   "title": "Abfluss *verstopft*?",
+   "sub": "Bitte keine Chemie-Keule!",
+   "vo": "Abfluss verstopft?",
+   "items": [
+    {
+     "vo": "Bitte nicht zur Chemie-Keule greifen –"
+    }
+   ]
+  },
+  {
+   "type": "tip",
+   "title": "Finger weg!",
+   "icon": "warning",
+   "text": "Aggressive Rohrreiniger können Dichtungen angreifen.",
+   "vo": "aggressive Rohrreiniger können Dichtungen angreifen."
+  },
+  {
+   "type": "list",
+   "style": "check",
+   "title": "Unser *Kundendienst*",
+   "vo": "Unser Sanitär-Kundendienst hilft:",
+   "items": [
+    {
+     "text": "Verstopfung lösen",
+     "icon": "pipe",
+     "vo": "Verstopfung lösen,"
+    },
+    {
+     "text": "Siphon reinigen",
+     "icon": "wrench",
+     "vo": "Siphon reinigen,"
+    },
+    {
+     "text": "Undichte Absperrungen",
+     "icon": "faucet",
+     "vo": "undichte Absperrungen erneuern,"
+    },
+    {
+     "text": "Neues Waschbecken & WC",
+     "icon": "toilet",
+     "vo": "neue Waschbecken und WCs."
+    }
+   ]
+  },
+  {
+   "type": "cta",
+   "variant": "book",
+   "title": "Termin *anfragen*",
+   "button": "Jetzt anfragen",
+   "note": "kostenlos & unverbindlich · fob-fm.de",
+   "vo": "Jetzt anfragen",
+   "items": [
+    {
+     "vo": "auf fob-fm punkt de."
+    }
+   ]
+  }
+ ]
+}
