@@ -1,0 +1,290 @@
+{
+  "id": "2026-10-30-193",
+  "slug": "hausmeisterservice-matijevic-nandlstadt",
+  "date": "2026-10-30",
+  "company": {
+    "name": "Hausmeisterservice Matijevic",
+    "owner": null,
+    "trade": "Hausmeisterservice",
+    "city": "Nandlstadt",
+    "address": "Moosburger Straße 26, 85405 Nandlstadt",
+    "phone": "0172 9870947",
+    "email": null,
+    "serviceArea": [
+      "Nandlstadt",
+      "Au in der Hallertau",
+      "Rudelzhausen",
+      "Attenkirchen",
+      "Zolling",
+      "Mauern",
+      "Moosburg"
+    ]
+  },
+  "listings": {
+    "google": {
+      "url": "https://www.google.com/maps/search/?api=1&query=Hausmeisterservice%20Matijevic%20Moosburger%20Stra%C3%9Fe%2026%20Nandlstadt",
+      "rating": null,
+      "reviews": null,
+      "evidence": "Kein Google-Spiegel gefunden. Freemail (Gmail-Adresse) laut 11880-Eintrag belegt – Snippet bestätigt „Gmail-Adresse“, die vollständige Adresse war im Snippet nicht lesbar. 11880: Moosburger Straße 26, 85405 Nandlstadt, Tel. (0172) 9870947, Hausmeisterservice, Dachboden-/Garagenentrümpelung, Haushaltsauflösung, Entsorgung; keine Öffnungszeiten."
+    },
+    "myhammer": {
+      "url": "https://www.my-hammer.de/reinigung/gebaeudereiniger-berufe/nandlstadt",
+      "rating": null,
+      "reviews": null,
+      "evidence": "MyHammer-Kategorieseiten (Nandlstadt, Rudelzhausen) führen „Hausmeisterservice Matijevic“ mit Kurzprofil: Arbeiten rund um Haus, Hof und Garten in Nandlstadt und Umgebung. Keine Bewertungsdaten im Snippet."
+    }
+  },
+  "websiteStatus": "keine eigene Website gefunden",
+  "websiteChecks": [
+    "(1) „Hausmeisterservice Matijevic Nandlstadt“ (offene Suche) – nur MyHammer-Kategorieseiten und fremde Hausmeisterdienste; keine eigene Domain",
+    "(2) 11880/trustlocal/Das Örtliche/Gelbe Seiten – nur 11880-Einträge, kein Website-Feld im Snippet, Kontakt per Gmail-Adresse",
+    "(3) Domain-Check allowed_domains hausmeisterservice-matijevic.de, matijevic.de, matijevic-hausmeisterservice.de, hausmeister-matijevic.de, matijevic-service.de, hms-matijevic.de, matijevic-nandlstadt.de – keine Treffer",
+    "(4) Telefonsuche „0172 9870947“/„01729870947“/„+49 172 9870947“ – keine Treffer",
+    "Impressum-Suche nicht mehr durchgeführt (Suchbudget erschöpft)",
+    "Website-Risiko: mittel – Prüfungen (a)–(c) negativ, Freemail belegt, aber kein Google-Eintrag belegt und Impressum-Suche fehlt"
+  ],
+  "facts": {
+    "services": [
+      "Hausmeisterservice",
+      "Dachboden- und Garagenentrümpelung",
+      "Haushaltsauflösung",
+      "Entsorgung",
+      "Arbeiten rund um Haus, Hof und Garten"
+    ],
+    "experience": null,
+    "praisedFor": []
+  },
+  "strategy": {
+    "audience": "Hausbesitzer, Vermieter und Erben in Nandlstadt, Au, Attenkirchen und Moosburg, die Hilfe bei Haus, Hof und Garten oder beim Ausräumen von Dachboden, Garage und Wohnung brauchen",
+    "mainService": "Hausmeisterdienste und Entrümpelungen",
+    "trustSignal": "Betrieb in Nandlstadt, direkt per Handy erreichbar",
+    "conversionGoal": "Anfrage per WhatsApp/Anruf mit Fotos von Garten, Dachboden oder Wohnung",
+    "visualConcept": "Aufgeräumte Höfe und leere Dachböden: gepflegte Hecken, gefegte Einfahrt, ein beladener Anhänger – praktisch und bodenständig"
+  },
+  "sales": {
+    "score": 6,
+    "whyGoodLead": [
+      "Keine eigene Website gefunden – nur Verzeichnis- und MyHammer-Einträge",
+      "Mobilnummer öffentlich gelistet – ideal für WhatsApp-Erstkontakt",
+      "Gmail-Adresse statt Firmendomain – typisches Zeichen für fehlende Website",
+      "Hausmeister- und Entrümpelungsleistungen werden im ländlichen Landkreis Freising oft online gesucht"
+    ],
+    "pitch": "Hallo, hier ist … – ich baue Websites für Handwerker im Landkreis Freising. Ich habe Ihren Eintrag „Hausmeisterservice Matijevic“ in Nandlstadt gefunden, aber keine eigene Website. Ich habe unverbindlich einen Entwurf vorbereitet, auf dem Kunden Ihre Hausmeister- und Entrümpelungsarbeiten sehen und direkt per WhatsApp anfragen können – darf ich Ihnen den Link schicken?"
+  },
+  "manualChecks": [
+    "Website-Risiko: mittel – vor Versand in Google Maps prüfen, dass keine Website hinterlegt ist (Grund: kein Google-Eintrag belegt, Freemail nur über 11880, Impressum-Suche aus Budgetgründen nicht durchgeführt)",
+    "Gmail-Adresse aus dem 11880-Eintrag übernehmen (im Snippet nicht vollständig lesbar, daher email = null)",
+    "Inhaber-Vorname unbekannt – beim Erstkontakt erfragen; Anrede „Herr/Frau Matijevic“ erst nach Bestätigung",
+    "Leistungen laut 11880/MyHammer (Hausmeister, Entrümpelung, Haushaltsauflösung, Entsorgung, Haus/Hof/Garten) – Gartenpflege und Winterdienst im Detail bestätigen",
+    "MyHammer-Profil auf Bewertungen prüfen (im Snippet keine Angaben)",
+    "Logo und Projektfotos: nicht gefunden – beim Betrieb anfragen"
+  ],
+  "sources": [
+    {
+      "label": "MyHammer – Gebäudereiniger/Hausmeister Nandlstadt (mit Hausmeisterservice Matijevic)",
+      "url": "https://www.my-hammer.de/reinigung/gebaeudereiniger-berufe/nandlstadt"
+    },
+    {
+      "label": "MyHammer – Gebäudereiniger/Hausmeister Rudelzhausen (mit Hausmeisterservice Matijevic)",
+      "url": "https://www.my-hammer.de/reinigung/gebaeudereiniger-berufe/rudelzhausen"
+    },
+    {
+      "label": "11880 – Haushaltsauflösungen Pfaffenhofen (Umkreisliste mit Matijevic)",
+      "url": "https://www.11880.com/suche/haushaltsaufloesung/pfaffenhofen"
+    },
+    {
+      "label": "11880 – Hausmeisterservices Mainburg (Umkreisliste)",
+      "url": "https://www.11880.com/suche/hausmeisterservice/mainburg"
+    }
+  ],
+  "site": {
+    "theme": "garten",
+    "category": "handwerk",
+    "heroOffer": [
+      "Hausmeister",
+      "Entrümpelung",
+      "Haushaltsauflösung",
+      "Garten",
+      "Entsorgung"
+    ],
+    "scene": "garden",
+    "logoIcon": "house",
+    "logoMark": "HM",
+    "brandName": "Hausmeisterservice Matijevic",
+    "seoTitle": "Hausmeisterservice in Nandlstadt – Matijevic",
+    "seoDescription": "Hausmeisterdienste, Entrümpelung und Haushaltsauflösung in Nandlstadt und Umgebung. Jetzt anfragen – auch per WhatsApp mit Fotos.",
+    "nav": [
+      { "label": "Leistungen", "href": "#leistungen" },
+      { "label": "Projekte", "href": "#projekte" },
+      { "label": "Bewertungen", "href": "#bewertungen" },
+      { "label": "Ablauf", "href": "#ablauf" },
+      { "label": "FAQ", "href": "#faq" },
+      { "label": "Kontakt", "href": "#kontakt" }
+    ],
+    "hero": {
+      "eyebrow": "Hausmeisterservice · Nandlstadt",
+      "headline": "Hausmeisterservice in Nandlstadt",
+      "sub": "Haus, Hof und Garten in Schuss – und Dachboden oder Garage wieder leer.",
+      "ctaPrimary": "Jetzt anfragen",
+      "ctaSecondary": "Anrufen",
+      "bullets": [
+        "Betrieb in Nandlstadt",
+        "Hausmeister und Entrümpelung",
+        "Fotos per WhatsApp schicken"
+      ],
+      "imageLabel": "gepflegter Hof mit gefegter Einfahrt und geschnittener Hecke"
+    },
+    "badges": [
+      { "title": "Hausmeister", "sub": "Haus, Hof & Garten" },
+      { "title": "Entrümpelung", "sub": "Dachboden & Garage" },
+      { "title": "Auflösung", "sub": "ganze Haushalte" },
+      { "title": "Nandlstadt", "sub": "Moosburger Straße" }
+    ],
+    "trust": [
+      { "value": "Vor Ort", "label": "Betrieb in Nandlstadt" },
+      { "value": "4", "label": "Leistungsbereiche" },
+      { "value": "Haus & Hof", "label": "drinnen und draußen" },
+      { "value": "Mobil", "label": "direkt erreichbar" }
+    ],
+    "servicesIntro": {
+      "headline": "Arbeit rund ums Haus, abgenommen",
+      "text": "Ob laufende Pflege oder einmaliges Ausräumen: Sie geben die Arbeit ab und haben Haus, Hof und Keller wieder im Griff."
+    },
+    "services": [
+      {
+        "title": "Hausmeisterdienste",
+        "text": "Kleine Reparaturen, Kontrollgänge und Arbeiten rund ums Haus – für Eigentümer und Vermieter.",
+        "items": ["Kleinreparaturen", "Kontrollgänge", "Objektbetreuung"]
+      },
+      {
+        "title": "Garten & Hof",
+        "text": "Hecke schneiden, Rasen mähen, Hof und Einfahrt sauber halten.",
+        "items": ["Rasen mähen", "Hecke schneiden", "Hof kehren"]
+      },
+      {
+        "title": "Dachboden entrümpeln",
+        "text": "Was sich über Jahre angesammelt hat, wird ausgeräumt und abtransportiert.",
+        "items": ["Ausräumen", "Abtransport", "Besenrein"]
+      },
+      {
+        "title": "Garage entrümpeln",
+        "text": "Die Garage wieder fürs Auto nutzen – alter Kram kommt raus.",
+        "items": ["Ausräumen", "Sortieren", "Abtransport"]
+      },
+      {
+        "title": "Haushaltsauflösung",
+        "text": "Nach Umzug, Pflegeheim oder Erbfall wird die Wohnung vollständig geräumt.",
+        "items": ["Wohnungen", "Häuser", "Keller"]
+      },
+      {
+        "title": "Entsorgung",
+        "text": "Sperrmüll, Grünschnitt und Altmaterial werden abgeholt und entsorgt.",
+        "items": ["Sperrmüll", "Grünschnitt", "Abholung"]
+      }
+    ],
+    "why": {
+      "headline": "Ein Anruf, und die Arbeit ist vergeben.",
+      "points": [
+        { "title": "Aus Nandlstadt", "text": "Kurze Wege nach Au, Attenkirchen, Zolling, Mauern und Moosburg." },
+        { "title": "Drinnen und draußen", "text": "Hausmeisterarbeiten, Garten und Entrümpelung von einem Betrieb." },
+        { "title": "Direkter Kontakt", "text": "Sie erreichen den Betrieb per Handy oder WhatsApp – ohne Warteschleife." },
+        { "title": "Mit Abtransport", "text": "Bei Entrümpelungen ist die Entsorgung gleich mit eingeplant." }
+      ]
+    },
+    "reviews": {
+      "headline": "Was Kunden sagen",
+      "summary": "Kundenstimmen werden hier eingebunden, sobald sie aus einem Google- oder MyHammer-Profil übernommen sind.",
+      "highlights": [
+        "Hausmeister in Nandlstadt",
+        "Entrümpelung und Auflösung",
+        "Direkter Kontakt"
+      ],
+      "source": "Google",
+      "sourceUrl": "https://www.google.com/maps/search/?api=1&query=Hausmeisterservice%20Matijevic%20Moosburger%20Stra%C3%9Fe%2026%20Nandlstadt",
+      "rating": null,
+      "count": null
+    },
+    "process": {
+      "headline": "So einfach geht's",
+      "steps": [
+        { "title": "Melden", "text": "Kurz anrufen oder Fotos per WhatsApp schicken." },
+        { "title": "Ansehen", "text": "Bei Entrümpelungen wird der Umfang vor Ort eingeschätzt." },
+        { "title": "Termin", "text": "Sie erhalten ein Angebot und einen festen Termin." },
+        { "title": "Erledigt", "text": "Arbeit erledigt, Abfall abtransportiert, Fläche sauber übergeben." }
+      ]
+    },
+    "gallery": {
+      "headline": "Vorher voll, nachher frei",
+      "text": "Für die Live-Version zeigen wir hier echte Einsätze des Betriebs.",
+      "items": [
+        { "title": "Leerer Dachboden", "photoNeeded": "geräumter, besenreiner Dachboden" },
+        { "title": "Freie Garage", "photoNeeded": "entrümpelte Garage mit Platz fürs Auto" },
+        { "title": "Gepflegter Garten", "photoNeeded": "frisch gemähter Rasen und geschnittene Hecke" },
+        { "title": "Saubere Einfahrt", "photoNeeded": "gekehrter Hof vor einem Wohnhaus" },
+        { "title": "Geräumte Wohnung", "photoNeeded": "leere Wohnung nach Haushaltsauflösung" }
+      ]
+    },
+    "region": {
+      "headline": "Hausmeisterservice für Nandlstadt und Umgebung",
+      "text": "Von Nandlstadt aus in Au, Rudelzhausen, Attenkirchen, Zolling, Mauern und Moosburg.",
+      "places": [
+        "Nandlstadt",
+        "Au in der Hallertau",
+        "Rudelzhausen",
+        "Attenkirchen",
+        "Zolling",
+        "Mauern",
+        "Moosburg"
+      ]
+    },
+    "faq": [
+      {
+        "q": "Übernehmen Sie auch einmalige Einsätze?",
+        "a": "Ja, neben laufender Betreuung sind auch einzelne Aufträge wie eine Garagen- oder Dachbodenräumung möglich."
+      },
+      {
+        "q": "Wird der Abfall mitgenommen?",
+        "a": "Ja, Entsorgung gehört zum Angebot – Sperrmüll und Altmaterial werden abtransportiert."
+      },
+      {
+        "q": "Kann ich vorab Fotos schicken?",
+        "a": "Ja, Fotos per WhatsApp helfen, den Aufwand einzuschätzen."
+      },
+      {
+        "q": "Was kostet eine Entrümpelung?",
+        "a": "Das hängt von Menge und Zugänglichkeit ab. Nach einer Einschätzung erhalten Sie ein Angebot."
+      },
+      {
+        "q": "Kommen Sie auch außerhalb von Nandlstadt?",
+        "a": "Ja, in die Nachbarorte wie Au, Attenkirchen oder Moosburg – fragen Sie einfach an."
+      }
+    ],
+    "contact": {
+      "headline": "Auftrag anfragen",
+      "text": "Schreiben Sie kurz, worum es geht: Gartenpflege, Hausmeisterarbeit oder Entrümpelung – und wo. Fotos helfen.",
+      "topics": [
+        "Hausmeisterdienste",
+        "Garten & Hof",
+        "Entrümpelung",
+        "Haushaltsauflösung",
+        "Sonstiges"
+      ],
+      "responseNote": "Termin nach Absprache."
+    },
+    "quote": {
+      "sizeLabel": "Was steht an?",
+      "sizes": ["Einzelner Einsatz", "Garage oder Dachboden", "Ganze Wohnung", "Laufende Betreuung"],
+      "timings": ["So bald wie möglich", "In den nächsten Wochen", "In 1–3 Monaten", "Ich plane erst noch"]
+    },
+    "stickyCta": "Jetzt anfragen",
+    "look": {
+      "palette": 2,
+      "font": 6,
+      "hero": 0,
+      "services": 1,
+      "radius": 1,
+      "logo": 0,
+      "intro": 5
+    }
+  }
+}
