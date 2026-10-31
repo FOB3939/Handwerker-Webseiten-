@@ -28,8 +28,9 @@ html,body{width:1080px;height:1920px;overflow:hidden;background:#000}
 #note{left:560px;top:520px;width:400px;transform-origin:50% 0}
 #note div{background:#FFE36A;color:#222;font:800 44px Montserrat;padding:30px 28px;border-radius:6px;box-shadow:0 20px 40px rgba(0,0,0,.5);line-height:1.15}
 #timer{left:190px;top:520px;width:700px;height:700px}
-#tlab{left:0;right:0;top:760px;text-align:center;font:700 170px Oswald;line-height:1;text-shadow:0 0 40px rgba(63,182,245,.7)}
-#tsub{left:0;right:0;top:1265px;text-align:center;font:800 46px Montserrat;text-transform:uppercase}
+#tlab{left:0;right:0;top:700px;text-align:center;font:700 220px Oswald;line-height:1;text-shadow:0 0 40px rgba(63,182,245,.7)}
+#tunit{left:0;right:0;top:930px;text-align:center;font:800 60px Montserrat;text-transform:uppercase;color:#B3E5FC}
+#tsub{left:30px;right:30px;top:1470px;text-align:center;font:800 46px Montserrat;text-transform:uppercase}
 #ben{left:90px;right:90px;top:520px}
 .b{display:flex;align-items:center;gap:30px;background:rgba(7,20,32,.88);border:3px solid rgba(63,191,90,.6);border-radius:28px;padding:30px 36px;margin-bottom:30px;font:800 56px Montserrat}
 .b i{flex:none;width:90px;height:90px;border-radius:50%;background:var(--grn);display:flex;align-items:center;justify-content:center;font-style:normal;font-size:56px}
@@ -56,11 +57,11 @@ canvas{position:absolute;inset:0;pointer-events:none}
   <div id="chip"><span id="chipT"></span></div>
   <div id="title"></div>
   <div class="a" id="note"><div>📌 Filter rückspülen!<br><span style="font-size:34px">… schon wieder vergessen 😬</span></div></div>
-  <svg class="a" id="timer" viewBox="0 0 700 700"><circle cx="350" cy="350" r="300" fill="rgba(4,16,26,.85)" stroke="rgba(255,255,255,.15)" stroke-width="34"/>
+  <div class="a" id="tgrp" style="inset:0;transform-origin:540px 870px"><svg class="a" id="timer" viewBox="0 0 700 700"><circle cx="350" cy="350" r="300" fill="rgba(4,16,26,.85)" stroke="rgba(255,255,255,.15)" stroke-width="34"/>
     <circle id="tarc" cx="350" cy="350" r="300" fill="none" stroke="#3FB6F5" stroke-width="34" stroke-linecap="round" transform="rotate(-90 350 350)" stroke-dasharray="1885" stroke-dashoffset="1885"/>
     <g id="swirl" stroke="#B3E5FC" stroke-width="16" fill="none" stroke-linecap="round" opacity="0"><path d="M350 150 a200 200 0 0 1 200 200"/><path d="M350 550 a200 200 0 0 1 -200 -200"/><path d="M550 350 l-30 -30 M550 350 l30 -30"/><path d="M150 350 l-30 30 M150 350 l30 30"/></g></svg>
-  <div class="a" id="tlab">48 h</div>
-  <div class="a" id="tsub">automatisch rückspülen</div>
+  <div class="a" id="tlab">45</div><div class="a" id="tunit">Tage</div></div>
+  <div class="a" id="tsub">alle 45 Tage</div>
   <div class="a" id="ben"><div class="b" id="b0"><i>✓</i>Mehr Hygiene</div><div class="b" id="b1"><i>✓</i>Besserer Wasserdruck</div><div class="b" id="b2"><i>✓</i>Weniger Wartung</div></div>
   <div class="a" id="slog">Sauberes Trinkwasser ist <b>kein Zufall</b> –<br>sondern <b>Technik.</b></div>
   <canvas id="fx" width="1080" height="1920"></canvas>
@@ -102,7 +103,7 @@ window.render=async function(t){
   setImg('imA',a);setImg('imB',b);$('bg').style.backgroundImage=`url(${IMG}${sc===1?'vorher':sc===3?'auto':sc===4?'label':'nachher'}.jpg)`;
   // ken burns
   const kb=sc===1?p(t,0,C.nach):sc===2?p(t,C.nach,C.jetzt-C.nach):sc===3?p(t,C.jetzt,C.fuer-C.jetzt):p(t,C.fuer,T-C.fuer);
-  $('imA').style.transform=sc===3?`scale(${1.05+.25*io(kb)}) translate(${-60*io(kb)}px,${-40*io(kb)}px)`:`scale(${1.04+.12*kb})`;
+  $('imA').style.transform=sc===3?`scale(${1.04+.06*kb})`:`scale(${1.04+.12*kb})`;
   $('imB').style.transform=`scale(${1.04+.1*kb})`;
   $('ph').style.filter=sc===4?'blur(6px) brightness(.45)':sc===5?'brightness(.4)':'none';
   // before/after wipe in scene 2
@@ -122,17 +123,24 @@ window.render=async function(t){
   // scene 2: automation tag
   const tb=$('tagB');tb.style.left='30%';tb.style.top='80%';const ktb=back(p(t,C.auto,.35));tb.style.opacity=sc===2&&t>=C.auto?1:0;tb.style.transform=`scale(${ktb})`;
   // scene 3: 48h timer
-  const s3=sc===3;['timer','tlab','tsub'].forEach(id=>$(id).style.display=s3?'block':'none');
+  const s3=sc===3;['tgrp','tsub'].forEach(id=>$(id).style.display=s3?'block':'none');
   if(s3){const k=eo(p(t,C.jetzt+.2,.4));$('timer').style.opacity=k;$('timer').style.transform=`scale(${.7+.3*back(p(t,C.jetzt+.2,.5))})`;
     const fill=io(p(t,C.jetzt+.5,C.acht-C.jetzt));$('tarc').setAttribute('stroke-dashoffset',1885*(1-fill));
-    const hrs=Math.round(48*fill);$('tlab').textContent=hrs+' h';$('tlab').style.opacity=k;$('tlab').style.transform=`scale(${t>=C.acht?1+.15*Math.exp(-(t-C.acht)*5)*Math.cos((t-C.acht)*18):1})`;
+    const days=Math.round(45*fill);$('tlab').textContent=days;$('tlab').style.opacity=k;$('tunit').style.opacity=k;
+    const mv=eo(p(t,C.acht+.9,.6));$('tgrp').style.transform=`translate(${250*mv}px,${-300*mv}px) scale(${1-.5*mv})`;$('tlab').style.transform=`scale(${t>=C.acht?1+.15*Math.exp(-(t-C.acht)*5)*Math.cos((t-C.acht)*18):1})`;
     const sw=t>=C.acht+.3;$('swirl').setAttribute('opacity',sw?1:0);$('swirl').setAttribute('transform',`rotate(${(t-C.acht)*360} 350 350)`);
-    $('tsub').textContent=sw?'⟳ Spülung läuft – automatisch!':'alle 48 Stunden';show('tsub',eo(p(t,C.jetzt+.6,.4)),20)}
+    $('tsub').innerHTML=t>=C.oft?'⚙️ Bei Bedarf <b style="color:#F0B92A">kürzer einstellbar</b>':sw?'⟳ Spülung läuft – automatisch!':'alle 45 Tage automatisch';show('tsub',eo(p(t,C.jetzt+.6,.4)),20);
+    if(t>=C.oft){const ko=back(p(t,C.oft,.35));$('tsub').style.transform=`scale(${ko})`}}
   // scene 4 benefits
   $('ben').style.display=sc===4?'block':'none';[C.hyg,C.druck,C.wart].forEach((ti,i)=>{const k=back(p(t,ti,.35));$('b'+i).style.opacity=cl(p(t,ti,.08));$('b'+i).style.transform=`translateX(${(1-k)*(i%2?600:-600)}px)`});
   // scene 5 slogan + sparkles
   $('slog').style.display=sc===5?'block':'none';{const k=back(p(t,C.sauber,.45));$('slog').style.opacity=cl(p(t,C.sauber,.1));$('slog').style.transform=`scale(${.8+.2*k})`}
   ctx.clearRect(0,0,1080,1920);
+  if(sc===3&&t>=C.acht+.3){const d=t-C.acht-.3,on=cl(d/.4);
+    // turbulence in the filter cup (backwash) and water rushing out of the drain
+    for(let i=0;i<34;i++){const ph=(d*1.6+i/34)%1,x=330+((i*53)%140)+Math.sin(d*9+i)*10,y=1000-ph*560;ctx.fillStyle=`rgba(179,229,252,${on*(1-ph)*.85})`;ctx.beginPath();ctx.arc(x,y,5+(i%4)*3,0,7);ctx.fill()}
+    for(let i=0;i<46;i++){const ph=(d*2.4+i/46)%1,x=372+((i*37)%56)+Math.sin(d*20+i)*4,y=1130+ph*330;ctx.strokeStyle=`rgba(79,195,247,${on*.9})`;ctx.lineWidth=7;ctx.lineCap='round';ctx.beginPath();ctx.moveTo(x,y);ctx.lineTo(x,y+38);ctx.stroke()}
+    for(let i=0;i<22;i++){const ph=(d*1.8+i/22)%1,a=(i/22)*Math.PI,x=400+Math.cos(a)*170*ph,y=1440-Math.sin(a)*120*ph+260*ph*ph;ctx.fillStyle=`rgba(179,229,252,${on*(1-ph)})`;ctx.beginPath();ctx.arc(x,y,6,0,7);ctx.fill()}}
   if(sc===2&&w>=1||sc===5){for(const s of SPK){const ph=(t*.8+s.ph)%1;const a=Math.sin(ph*Math.PI);ctx.save();ctx.translate(s.x,s.y);ctx.rotate(ph*2);ctx.fillStyle=`rgba(255,255,255,${a*.9})`;const z=s.s*a;ctx.beginPath();ctx.moveTo(0,-z);ctx.lineTo(z*.25,0);ctx.lineTo(0,z);ctx.lineTo(-z*.25,0);ctx.closePath();ctx.fill();ctx.beginPath();ctx.moveTo(-z,0);ctx.lineTo(0,z*.25);ctx.lineTo(z,0);ctx.lineTo(0,-z*.25);ctx.closePath();ctx.fill();ctx.restore()}}
   // end
   const e=sc===6;$('end').style.display=e?'block':'none';
