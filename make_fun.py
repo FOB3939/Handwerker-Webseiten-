@@ -23,6 +23,11 @@ elif name == 'autopunkt':
          's4': find('dazu') - .1, 'svc': [find('zulassungsdienst'), find('smart'), find('dellenreparatur'), find('unfallinstandsetzung'), find('autoglas'), find('hol')],
          's5': find('besuchen') - .1, 'kast': find('kastenseestraße'), 's6': find('autopunkt', find('glonn', find('kastenseestraße'))) - .1}
     scenes, items, bpm, title = [0, C['s2'], C['s3'], C['s4'], C['s5'], C['s6']], [[C['gar'], C['fin']], C['svc'], [C['kast']]], 118, 'Autopunkt_Glonn_Firmenvorstellung'
+elif name == 'ap_car':
+    C = {'der': find('der') - .05, 'tdi': find('45'), 'silber': find('in', find('quattro')) - .05, 'sport': find('sportliche') - .05, 'alu': find('alufelgen') - .05,
+         'led': find('led') - .05, 'innen': find('innen') - .05, 'multi': find('multifunktionslenkrad') - .05, 'digital': find('digitales') - .05,
+         'touch': find('großer') - .05, 'auto': find('und', find('touchscreen')) - .05, 'jetzt': find('jetzt') - .1}
+    scenes, items, bpm, title = [0, C['der'], C['silber'], C['innen'], C['jetzt']], [[C['tdi']], [C['sport'], C['alu'], C['led']], [C['multi'], C['digital'], C['touch'], C['auto']]], 124, 'Autopunkt_Glonn_Audi_A5_Sportback_neu'
 else:
     checks = [w['start'] for w in words if norm(w['text']) == 'check']
     C = {'items': checks + [find('bingo', 2)], 'bingo': find('bingo', 2), 'fix': find('kein'), 'end': find('jetzt') - .1, 'url': find('fobfm')}
@@ -41,7 +46,7 @@ json.dump({'total': TOTAL, 'bpm': bpm, 'fade': 2.0, 'scenes': scenes, 'items': i
 print(json.dumps(C))
 env = dict(os.environ, REEL_HTML=f'{name}.html')
 if '--stills' in sys.argv:
-    ts = [1.5, 3.2, 5.6, 8.2, 12.2, TOTAL - .5] if name == 'horror' else [C['braun'] + .6, C['rueck'] + .8, C['nach'] + .6, C['auto'] + .5, C['acht'] + .6, C['acht'] + 1.6, C['oft'] + .5, C['wart'] + .4, C['sauber'] + .8, TOTAL - .5] if name == 'hauswasser' else [0.9, C['s2'] + .4, C['s2'] + 2.2, C['fin'] + .6, C['svc'][2] + .3, C['svc'][5] + .5, C['kast'] + .8, TOTAL - .5] if name == 'autopunkt' else [1.0, C['items'][2] + .3, C['bingo'] + .5, C['fix'] + 1.4, TOTAL - .5]
+    ts = [1.5, 3.2, 5.6, 8.2, 12.2, TOTAL - .5] if name == 'horror' else [C['braun'] + .6, C['rueck'] + .8, C['nach'] + .6, C['auto'] + .5, C['acht'] + .6, C['acht'] + 1.6, C['oft'] + .5, C['wart'] + .4, C['sauber'] + .8, TOTAL - .5] if name == 'hauswasser' else [0.9, C['s2'] + .4, C['s2'] + 2.2, C['fin'] + .6, C['svc'][2] + .3, C['svc'][5] + .5, C['kast'] + .8, TOTAL - .5] if name == 'autopunkt' else [0.6, C['tdi'] + .4, C['silber'] + .5, C['alu'] + .4, C['led'] + .5, C['multi'] + .5, C['digital'] + .4, C['touch'] + .4, C['auto'] + .5, TOTAL - .5] if name == 'ap_car' else [1.0, C['items'][2] + .3, C['bingo'] + .5, C['fix'] + 1.4, TOTAL - .5]
     subprocess.run(['node', f'{KIT}/render.js', job, '30', ','.join(f'{x:.2f}' for x in ts)], check=True, env=env); sys.exit()
 subprocess.run(['node', f'{KIT}/render.js', job, '30'], check=True, env=env)
 subprocess.run(['python3', f'{KIT}/audio.py', f'{job}/cues.json', job, name], check=True)

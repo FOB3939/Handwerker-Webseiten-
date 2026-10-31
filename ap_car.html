@@ -1,0 +1,103 @@
+<!doctype html>
+<html lang="de">
+<head>
+<meta charset="utf-8">
+<style>
+@font-face{font-family:Montserrat;font-weight:600;src:url(assets/fonts/montserrat-latin-600-normal.woff2)}
+@font-face{font-family:Montserrat;font-weight:800;src:url(assets/fonts/montserrat-latin-800-normal.woff2)}
+@font-face{font-family:Oswald;font-weight:700;src:url(assets/fonts/oswald-latin-700-normal.woff2)}
+:root{--r:#D8141B;--r2:#FF3B3F;--ink:#0c0c0f}
+*{box-sizing:border-box;margin:0;padding:0}
+html,body{width:1080px;height:1920px;overflow:hidden;background:#000}
+#stage{position:relative;width:1080px;height:1920px;overflow:hidden;font-family:Montserrat,sans-serif;color:#fff;background:#000}
+#cam{position:absolute;inset:0}
+#vid{position:absolute;left:0;top:0;width:1080px;height:1920px;object-fit:cover}
+#grade{position:absolute;inset:0;background:linear-gradient(180deg,rgba(0,0,0,.55) 0%,rgba(0,0,0,0) 25%,rgba(0,0,0,0) 62%,rgba(0,0,0,.75) 100%)}
+#sweep{position:absolute;top:-20%;height:140%;width:260px;background:linear-gradient(90deg,transparent,rgba(255,255,255,.55),transparent);transform:skewX(-18deg);mix-blend-mode:screen}
+.a{position:absolute}
+.c{left:40px;right:40px;text-align:center}
+#neu{left:-40px;right:-40px;top:760px;text-align:center;transform-origin:50% 50%}
+#neu span{display:inline-block;background:var(--r);font:800 118px Montserrat;text-transform:uppercase;padding:18px 70px;line-height:1;box-shadow:0 20px 60px rgba(0,0,0,.6)}
+#neu small{display:block;font:800 52px Montserrat;margin-top:14px;text-shadow:0 4px 20px rgba(0,0,0,.8)}
+#title{top:250px}
+#title .m{font:700 150px Oswald;line-height:.95;text-transform:uppercase;text-shadow:0 8px 30px rgba(0,0,0,.8);letter-spacing:.02em}
+#title .s{display:inline-block;margin-top:12px;background:#fff;color:var(--ink);font:800 50px Montserrat;padding:10px 28px;text-transform:uppercase}
+#corner{right:40px;top:150px;background:var(--r);font:800 32px Montserrat;padding:10px 22px;text-transform:uppercase;letter-spacing:.06em;box-shadow:0 10px 30px rgba(0,0,0,.5)}
+#lab{left:0;right:0;top:1360px;text-align:center}
+#lab div{display:inline-flex;align-items:center;gap:18px;background:rgba(12,12,15,.86);border-left:12px solid var(--r);font:800 60px Montserrat;padding:18px 40px 18px 30px;text-transform:uppercase;box-shadow:0 20px 50px rgba(0,0,0,.6)}
+#lab i{font-style:normal;color:var(--r2)}
+#end{position:absolute;inset:0;display:none;background:rgba(10,4,5,.72)}
+#elogo{left:90px;width:900px;top:430px;border-radius:24px;box-shadow:0 30px 90px rgba(216,20,27,.4)}
+#caps{position:absolute;left:50px;right:50px;top:1590px;text-align:center;z-index:20}
+#caps div{display:inline-block;background:rgba(12,12,15,.88);border-radius:16px;padding:10px 26px;font:800 50px Montserrat;line-height:1.16}
+#caps span.on{color:var(--r2)}
+#flash{position:absolute;inset:0;background:#fff;z-index:30;opacity:0}
+#prog{position:absolute;left:0;top:0;height:8px;background:var(--r);z-index:31}
+#bars{position:absolute;inset:0;pointer-events:none}
+#bars:before,#bars:after{content:'';position:absolute;left:0;right:0;height:0;background:#000;transition:none}
+</style>
+<script>document.write('<script src="'+(new URLSearchParams(location.search).get('data')||'data.js')+'"><\/script>')</script>
+</head>
+<body>
+<div id="stage"><div id="cam"><img id="vid"><div id="grade"></div><div id="sweep"></div></div>
+  <div class="a" id="corner">Neu eingetroffen</div>
+  <div class="a" id="neu"><span>Neu eingetroffen</span><small>bei Autopunkt Glonn</small></div>
+  <div class="a c" id="title"><div class="m">Audi A5<br>Sportback</div><div class="s" id="sub">45 TDI quattro</div></div>
+  <div class="a" id="lab"><div><i>✓</i><span id="labt"></span></div></div>
+  <div id="end">
+    <img class="a" id="elogo" src="jobs/ap_car/logo.jpg">
+    <div class="a c" id="e1" style="top:890px;font:800 74px Montserrat;text-transform:uppercase;line-height:1.05">Jetzt <span style="color:var(--r2)">Probefahrt</span><br>vereinbaren</div>
+    <div class="a c" id="e2" style="top:1110px"><span style="display:inline-block;background:#fff;color:#0c0c0f;font:800 48px Montserrat;padding:18px 36px;border-radius:16px">📍 Kastenseestraße 6 · Glonn</span></div>
+    <div class="a c" id="e3" style="top:1250px;font:800 50px Montserrat">@autopunkt.glonn</div>
+    <div class="a c" id="e4" style="top:1330px;font:600 38px Montserrat;color:#ddd">Audi A5 Sportback 45 TDI quattro</div>
+  </div>
+<div id="caps"></div><div id="flash"></div><div id="prog"></div></div>
+<script>
+const $=id=>document.getElementById(id);
+const cl=(x,a=0,b=1)=>Math.min(b,Math.max(a,x));
+const p=(t,a,d)=>cl((t-a)/d);
+const eo=x=>1-Math.pow(1-x,3);
+const io=x=>x<.5?4*x*x*x:1-Math.pow(-2*x+2,3)/2;
+const back=x=>{const c=1.8;return 1+(c+1)*Math.pow(x-1,3)+c*Math.pow(x-1,2)};
+const esc=s=>String(s).replace(/&/g,'&amp;').replace(/</g,'&lt;');
+const C=CUES,T=C.total,NF=1060;
+// segments: [cue, source start s, speed, zoom from, zoom to, origin, label]
+const SEG=[[0,2.0,1,1.0,1.08,'50% 50%',''],[C.der,27.3,.9,1.05,1.12,'50% 55%',''],[C.tdi,23.2,.45,1.5,1.9,'32% 73%',''],
+ [C.silber,4.3,.8,1.02,1.1,'50% 60%','Edles Silber'],[C.sport,2.6,.8,1.04,1.12,'50% 50%','Sportliche Linie'],[C.alu,5.3,.5,1.15,1.35,'62% 72%','Alufelgen'],[C.led,22.4,.7,1.1,1.25,'30% 45%','LED-Rückleuchten'],
+ [C.innen,11.6,.9,1.0,1.08,'50% 50%',''],[C.multi,16.05,.55,1.15,1.3,'45% 55%','Multifunktionslenkrad'],[C.digital,16.2,.45,1.35,1.55,'55% 48%','Digitales Cockpit'],
+ [C.touch,15.1,.7,1.08,1.18,'40% 40%','Großer Touchscreen'],[C.auto,34.25,.25,1.5,1.75,'74% 52%','Automatik'],[C.jetzt,30.6,.6,1.1,1.2,'50% 50%','']];
+const CUTS=SEG.slice(1).map(s=>s[0]);
+const CH=[];{let cur=[];CAPS.forEach((w,k)=>{cur.push(w);const brk=/[.,?!:;–]$/.test(w.text)||cur.length>=4||cur.map(x=>x.text).join(' ').length>22;if(brk||k===CAPS.length-1){CH.push(cur);cur=[]}});}
+CH.forEach((c,k)=>{c.s=c[0].start;c.e=k+1<CH.length?Math.min(CH[k+1][0].start,c[c.length-1].end+.5):c[c.length-1].end+.8});
+window.render=async function(t){
+  let i=0;for(let k=0;k<SEG.length;k++)if(t>=SEG[k][0])i=k;
+  const [s0,src,spd,z0,z1,org,lab]=SEG[i],s1=i+1<SEG.length?SEG[i+1][0]:T,k=p(t,s0,s1-s0);
+  const f=Math.min(NF,Math.max(1,Math.round((src+(t-s0)*spd)*30)+1));
+  const v=$('vid');const url=`jobs/ap_car/vid/v${String(f).padStart(4,'0')}.jpg`;if(v.dataset.u!==url){v.dataset.u=url;v.src=url}
+  // camera: zoom move + punch on cut
+  let zs=z0+(z1-z0)*io(k),sx=0,sy=0;for(const c of CUTS){if(t>=c&&t<c+.4){const e=Math.exp(-(t-c)*10);zs+=.06*e;sx+=Math.sin((t-c)*80)*14*e;sy+=Math.cos((t-c)*70)*10*e}}
+  $('cam').style.transformOrigin=org;$('cam').style.transform=`translate(${sx}px,${sy}px) scale(${zs})`;
+  $('vid').style.filter=`contrast(1.08) saturate(1.12) brightness(${t>=C.jetzt?.6:1})`;
+  let fl=0;for(const c of CUTS)if(t>=c)fl+=.28*Math.exp(-(t-c)*13);fl+=t<.25?.6*(1-t/.25):0;$('flash').style.opacity=cl(fl);
+  // light sweep on every cut
+  const sw=p(t,s0,.7);$('sweep').style.left=(-300+1700*io(sw))+'px';$('sweep').style.opacity=sw<1?1:0;
+  $('prog').style.width=(cl(t/T)*100)+'%';
+  // NEU EINGETROFFEN stamp
+  {const on=t<C.der;const kk=back(p(t,.15,.45));$('neu').style.display=on?'block':'none';$('neu').style.transform=`rotate(${-8+(1-kk)*-20}deg) scale(${2.2-1.2*kk})`;$('neu').style.opacity=cl(p(t,.15,.08))*(1-p(t,C.der-.25,.25))}
+  {const kc=back(p(t,C.der,.4));$('corner').style.display=t>=C.der&&t<C.jetzt?'block':'none';$('corner').style.transform=`scale(${kc})`}
+  // title
+  {const on=t>=C.der&&t<C.silber;$('title').style.display=on?'block':'none';const kt=eo(p(t,C.der+.05,.5));$('title').style.opacity=kt*(1-p(t,C.silber-.25,.25));$('title').style.transform=`translateY(${(1-kt)*-60}px)`;
+   const ks=back(p(t,C.tdi,.35));$('sub').style.transform=`scale(${t>=C.tdi?ks:0})`}
+  // feature label
+  {const on=lab&&t<C.jetzt;$('lab').style.display=on?'block':'none';if(on){$('labt').textContent=lab;const kl=back(p(t,s0+.05,.35));$('lab').style.transform=`translateX(${(1-kl)*-900}px)`;$('lab').style.opacity=1-p(t,s1-.15,.15)}}
+  // end card
+  {const e=t>=C.jetzt;$('end').style.display=e?'block':'none';if(e){const kl=back(p(t,C.jetzt,.5));$('elogo').style.transform=`scale(${.6+.4*kl})`;$('elogo').style.opacity=cl(p(t,C.jetzt,.15));
+    [['e1',.3],['e2',.8],['e3',1.1],['e4',1.4]].forEach(([id,d])=>{const kk=eo(p(t,C.jetzt+d,.45));$(id).style.opacity=kk;$(id).style.transform=`translateY(${(1-kk)*40}px)`})}}
+  let html='';for(const c of CH){if(t>=c.s&&t<c.e){const kk=back(p(t,c.s,.16));html=`<div style="transform:scale(${.75+.25*kk});opacity:${cl(p(t,c.s,.06))}">`+c.map(w=>`<span class="${t>=w.start-.03?'on':''}">${esc(w.text)}</span>`).join(' ')+'</div>';break}}
+  $('caps').innerHTML=html;
+  await v.decode().catch(()=>{});
+};
+window.addEventListener('load',()=>document.fonts.ready.then(()=>render(0)));
+</script>
+</body>
+</html>
