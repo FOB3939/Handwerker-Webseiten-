@@ -1,0 +1,204 @@
+<!doctype html>
+<html lang="de">
+<head>
+<meta charset="utf-8">
+<style>
+@font-face{font-family:Montserrat;font-weight:600;src:url(assets/fonts/montserrat-latin-600-normal.woff2)}
+@font-face{font-family:Montserrat;font-weight:800;src:url(assets/fonts/montserrat-latin-800-normal.woff2)}
+@font-face{font-family:Oswald;font-weight:700;src:url(assets/fonts/oswald-latin-700-normal.woff2)}
+:root{--tq:#2ee6d6;--y:#ffd23f;--ink:#071631}
+*{box-sizing:border-box;margin:0;padding:0}
+html,body{width:1080px;height:1920px;overflow:hidden;background:#061430}
+#stage{position:relative;width:1080px;height:1920px;overflow:hidden;font-family:Montserrat,sans-serif;color:#fff;
+  background:radial-gradient(ellipse at 50% 46%,#1d4c8f 0%,#0c2756 46%,#061430 100%)}
+.vp{position:absolute;left:0;top:0;width:1080px;height:1920px;perspective:2600px;perspective-origin:50% 44%}
+.world{position:absolute;left:540px;top:960px;width:0;height:0;transform-style:preserve-3d}
+.b,.f,.g{position:absolute;transform-style:preserve-3d}
+.f{backface-visibility:visible}
+.bill{position:absolute;transform-style:preserve-3d;white-space:nowrap}
+.t{position:absolute;left:70px;right:70px;text-align:center;display:none}
+.big{font:700 112px Oswald;line-height:1;text-transform:uppercase;color:#fff;text-shadow:0 7px 0 #0a2a5a,0 16px 40px rgba(0,0,0,.5)}
+.chip{display:inline-block;font:800 34px Montserrat;background:var(--tq);color:var(--ink);padding:10px 26px;border-radius:40px;box-shadow:0 8px 0 #12867c}
+#plan{position:absolute;left:80px;top:150px;font:800 26px Montserrat;letter-spacing:.12em;color:var(--ink);background:var(--y);padding:8px 18px;border-radius:10px;z-index:25}
+#caps{position:absolute;left:90px;right:150px;top:1440px;text-align:center;z-index:20}
+#caps div{display:inline-block;background:rgba(5,14,36,.9);border:3px solid rgba(46,230,214,.55);border-radius:20px;padding:12px 28px;font:800 56px Montserrat;line-height:1.16;max-width:840px}
+#caps span.on{color:var(--y)}
+.lbl{position:absolute;top:310px;width:540px;text-align:center;font:700 64px Oswald;letter-spacing:.04em;display:none}
+.btn{display:inline-flex;align-items:center;gap:14px;margin:0 12px;padding:22px 34px;border-radius:30px;background:#fff;color:var(--ink);font:800 44px Montserrat;box-shadow:0 10px 0 #9fb0cf}
+</style>
+<script>document.write('<script src="'+(new URLSearchParams(location.search).get('data')||'data.js')+'"><\/script>')</script>
+</head>
+<body>
+<div id="stage">
+<div class="vp" id="vpMain"><div class="world" id="wMain"></div></div>
+<div class="vp" id="vpL" style="display:none"><div class="world" id="wL"></div></div>
+<div class="vp" id="vpR" style="display:none"><div class="world" id="wR"></div></div>
+<div id="plan">PLANUNGSBEISPIEL</div>
+<div class="t big" id="hook" style="top:225px;font-size:100px">Wer hat dieses Bad<br><span style="color:var(--y)">bitte geplant?</span></div>
+<div class="t" id="same" style="top:300px"><span class="chip">Gleicher Raum · gleiche Wände</span></div>
+<div class="t" id="free2" style="top:1290px"><span class="chip" style="background:#2bd67b;box-shadow:0 8px 0 #188a4d">✓ Bewegungsfläche frei</span></div>
+<div class="t" id="inst" style="top:300px"><span class="chip" style="background:#5aa9ff;box-shadow:0 8px 0 #2b6cc0">Eine Installationswand</span></div>
+<div class="lbl" id="lv" style="left:0;color:#ff8f8f">VORHER</div><div class="lbl" id="ln" style="left:540px;color:var(--tq)">NACHHER</div>
+<div class="t" id="q" style="top:1180px"><div style="font:800 54px Montserrat;margin-bottom:26px">Dusche größer oder mehr Stauraum?</div><span class="btn" id="b1">🚿 Dusche</span><span class="btn" id="b2">🗄️ Stauraum</span></div>
+<div class="t" id="e1" style="top:830px;font:600 40px Montserrat;color:#a9bde6;letter-spacing:.1em">PLANUNGSBEISPIEL</div>
+<div class="t" id="e2" style="top:900px;font:700 120px Oswald;color:var(--y)">fob-fm.de</div>
+<div class="t" id="e3" style="top:1060px;font:600 32px Montserrat;color:#a9bde6">Umsetzung abhängig von Bestand, Fallrohr &amp; Gefälle</div>
+<div id="caps"></div></div>
+<script>
+const $=id=>document.getElementById(id);
+const cl=(x,a=0,b=1)=>Math.min(b,Math.max(a,x));
+const p=(t,a,d)=>cl((t-a)/d);
+const eo=x=>1-Math.pow(1-x,3);
+const io=x=>x<.5?4*x*x*x:1-Math.pow(-2*x+2,3)/2;
+const back=x=>{const c=1.6;return 1+(c+1)*Math.pow(x-1,3)+c*Math.pow(x-1,2)};
+const lerp=(a,b,k)=>a+(b-a)*k;
+const C=CUES,T=C.total;
+const S=2.6, RW=200, RD=250;   // 1 cm = 2.6 px, room 2.00 x 2.50 m
+// ---------- 3D primitives ----------
+function shade(c){ // returns [top, south, north, east, west]
+  const h=c.replace('#','');const n=parseInt(h,16);let r=n>>16,g=n>>8&255,b=n&255;
+  const m=k=>`rgb(${Math.min(255,r*k)|0},${Math.min(255,g*k)|0},${Math.min(255,b*k)|0})`;return [m(1.06),m(.86),m(.7),m(.76),m(.62)]}
+function box(par,x,y,z,w,d,h,col,extra=''){const c=Array.isArray(col)?col:shade(col);const b=document.createElement('div');b.className='b';
+  b.style.cssText=`left:${x*S}px;top:${y*S}px;width:${w*S}px;height:${d*S}px;transform:translateZ(${z*S}px)`;
+  const F=(st,bg)=>{const f=document.createElement('div');f.className='f';f.style.cssText=st+`;background:${bg}`;b.appendChild(f);return f};
+  b.top=F(`left:0;top:0;width:${w*S}px;height:${d*S}px;transform:translateZ(${h*S}px);${extra}`,c[0]);
+  F(`left:0;top:${d*S}px;width:${w*S}px;height:${h*S}px;transform-origin:0 0;transform:rotateX(90deg)`,c[1]);
+  F(`left:0;top:0;width:${w*S}px;height:${h*S}px;transform-origin:0 0;transform:rotateX(90deg)`,c[2]);
+  F(`left:${w*S}px;top:0;width:${h*S}px;height:${d*S}px;transform-origin:0 0;transform:rotateY(-90deg)`,c[3]);
+  F(`left:0;top:0;width:${h*S}px;height:${d*S}px;transform-origin:0 0;transform:rotateY(-90deg)`,c[4]);
+  par.appendChild(b);return b}
+function grp(par,w,d){const g=document.createElement('div');g.className='g';g.style.width=w*S+'px';g.style.height=d*S+'px';g.style.transformOrigin='50% 50%';par.appendChild(g);g.w=w;g.d=d;return g}
+function flat(par,x,y,z,w,d,css){const f=document.createElement('div');f.className='f';f.style.cssText=`left:${x*S}px;top:${y*S}px;width:${w*S}px;height:${d*S}px;transform:translateZ(${z*S}px);${css}`;par.appendChild(f);return f}
+function bill(par,x,y,z,html,css=''){const b=document.createElement('div');b.className='bill';b.style.cssText=`left:${x*S}px;top:${y*S}px;${css}`;b.innerHTML=html;b.z=z;par.appendChild(b);return b}
+// ---------- items (local footprint, front faces +y) ----------
+const WHITE='#f2f5f8',WOOD='#c98e5a',TILE='#dfe7ee';
+function mkVanity(par){const g=grp(par,60,50);box(g,0,0,0,60,50,72,WOOD);box(g,-1,-1,72,62,52,6,WHITE);
+  flat(g,12,10,78.2,36,28,'border-radius:40%;background:radial-gradient(#cfe9ff,#9cc7ea);box-shadow:inset 0 0 0 3px #8db4d6');box(g,28,2,78,4,7,16,'#b8c4d0');
+  flat(g,2,50.2,10,56,0,'');box(g,4,50,12,52,1,54,'#b57a48');return g}
+function mkWC(par){const g=grp(par,40,62);box(g,2,0,0,36,18,78,WHITE);box(g,0,-1,78,40,20,4,'#e3e9ef');box(g,10,22,0,20,30,26,WHITE);
+  box(g,3,18,26,34,44,14,WHITE);flat(g,8,24,40.3,24,32,'border-radius:50%;background:radial-gradient(#bfe0ff 30%,#e9eef3 32%,#e9eef3 60%,#cfd8e2 62%)');return g}
+function mkShower(par,w,d,glassFront,glassSide){const g=grp(par,w,d);box(g,0,0,0,w,d,4,['#cfe2ee','#a9c2d3','#9bb3c4','#a3bccd','#8fa8b9']);
+  flat(g,w/2-5,d/2-5,4.3,10,10,'border-radius:50%;background:#7d93a6');
+  const gl=['rgba(170,225,255,.28)','rgba(170,225,255,.22)','rgba(170,225,255,.22)','rgba(170,225,255,.22)','rgba(170,225,255,.22)'];
+  if(glassFront)box(g,0,d-2,4,w*glassFront,2,106,gl);if(glassSide)box(g,w-2,0,4,2,d,106,gl);
+  box(g,w/2-3,1,96,6,10,4,'#b8c4d0');return g}
+function mkTall(par){const g=grp(par,50,40);box(g,0,0,0,50,40,150,'#d9a86f');flat(g,24.5,40.1,4,1,0,'');box(g,2,40,4,22,1,142,'#cf9c63');box(g,26,40,4,22,1,142,'#cf9c63');box(g,20,41,70,2,2,14,'#8a5a30');box(g,28,41,70,2,2,14,'#8a5a30');return g}
+function mkPerson(par){const g=grp(par,30,20);box(g,4,6,0,9,9,46,'#33415f');box(g,17,6,0,9,9,46,'#33415f');box(g,1,3,46,28,15,44,'#ff8a3d');
+  const armL=box(g,-6,5,48,7,8,40,'#ff8a3d');const armR=box(g,29,5,48,7,8,40,'#ff8a3d');box(g,6,4,90,18,16,20,'#ffd2b0');box(g,5,3,107,20,18,6,'#5a3a22');g.armR=armR;return g}
+function clutter(par){const g=grp(par,60,40);const c=['#ff6b6b','#5ad1ff','#ffd23f','#7be495'];const L=[];
+  [[0,0,0,30,20,8],[2,1,8,26,18,8],[0,0,16,30,20,8],[36,4,0,8,8,22],[46,10,0,8,8,16],[38,24,0,10,10,12]].forEach((q,k)=>L.push(box(g,q[0],q[1],q[2],q[3],q[4],q[5],c[k%4])));g.L=L;return g}
+// ---------- room ----------
+function room(W){
+  const R={};
+  box(W,-8,-8,-6,RW+16,RD+16,6,'#7b8aa6');
+  R.floor=flat(W,0,0,.2,RW,RD,`background:#e7edf2;background-image:linear-gradient(#c9d4de 2px,transparent 2px),linear-gradient(90deg,#c9d4de 2px,transparent 2px);background-size:${25*S}px ${25*S}px`);
+  // tall walls: north + west; low walls: east + south (cutaway)
+  box(W,-8,-8,0,RW+16,8,120,'#e9eff6');box(W,-8,0,0,8,RD,120,'#dfe7f0');
+  box(W,RW,0,0,8,RD,22,'#cfd9e4');box(W,-8,RD,0,118,8,22,'#cfd9e4');box(W,190,RD,0,18,8,22,'#cfd9e4'); // door gap x 110..190
+  R.frame=flat(W,-8,-8,123,RW+16,RD+16,'outline:6px solid #2ee6d6;outline-offset:-3px;border-radius:6px;opacity:0');
+  // installation wall (Vorwand) along west wall
+  R.vw=box(W,0,0,0,18,RD-4,112,'#5aa9ff');R.vw.style.transformOrigin='0 0';
+  // connection points (before: scattered / after: on Vorwand)
+  R.door=grp(W,80,4);R.door.style.transformOrigin='100% 50%';box(R.door,0,0,0,80,4,100,'#b97a45');box(R.door,6,4,48,6,4,4,'#d8dde3');
+  R.arcIn=flat(W,110,170,.6,160,160,'border-radius:50%;border:5px dashed rgba(255,90,90,.9);clip-path:inset(0 50% 50% 0);opacity:0');
+  R.arcOut=flat(W,110,170,.6,160,160,'border-radius:50%;border:5px dashed rgba(43,214,123,.95);clip-path:inset(50% 50% 0 0);opacity:0');
+  R.free=flat(W,86,108,.7,106,134,'border:5px dashed #2bd67b;border-radius:14px;background:rgba(43,214,123,.14);opacity:0');
+  R.shower=mkShower(W,80,80,1,1);R.showerB=mkShower(W,120,100,.55,0);
+  R.wc=mkWC(W);R.van=mkVanity(W);R.tall=mkTall(W);R.per=mkPerson(W);R.clut=clutter(W);
+  R.lab=[];R.bang=bill(W,150,200,110,'<div style="font:700 80px Oswald;color:#fff;background:#ff4d5a;padding:6px 26px;border-radius:18px;border:5px solid #071631;transform:rotate(-8deg)">KLONK!</div>');
+  R.q=bill(W,100,125,135,'<div style="font:700 110px Oswald;color:#ffd23f;text-shadow:0 6px 0 #8a6a00">?</div>');
+  R.fl=bill(W,105,165,40,'<div style="font:800 34px Montserrat;color:#071631;background:#2bd67b;padding:8px 18px;border-radius:30px">Bewegungsfläche frei</div>');
+  R.ck=[];[[10,215,60],[10,135,60],[10,55,60]].forEach(c=>R.ck.push(bill(W,c[0],c[1],c[2]+70,'<div style="font:800 40px Montserrat;color:#fff;background:#2bd67b;width:66px;height:66px;border-radius:50%;display:flex;align-items:center;justify-content:center;border:4px solid #071631">✓</div>')));
+  return R}
+// place item group by centre (cx,cy), rotation r, lift z
+function place(g,cx,cy,r,z=0,s=1){g.style.left=(cx-g.w/2)*S+'px';g.style.top=(cy-g.d/2)*S+'px';g.style.transform=`translateZ(${z*S}px) rotateZ(${r}deg) scale(${s})`}
+// before / after layouts (cm, room 200 x 250)
+const L0={shower:[40,40,0],wc:[140,31,0],van:[175,180,90],per:[95,135,20]};
+const L1={shower:[80,50,0],wc:[49,135,-90],van:[45,205,-90],tall:[175,20,0],per:[140,175,20]};
+function setBill(R,rx,rz){[R.bang,R.q,R.fl,...R.ck].forEach(b=>{b.style.transform=`translateZ(${b.z*S}px) rotateZ(${-rz}deg) rotateX(${-rx}deg) translate(-50%,-100%)`})}
+function cam(W,rx,rz,sc,ty=0){W.style.transform=`translateY(${ty}px) rotateX(${rx}deg) rotateZ(${rz}deg) scale(${sc}) translate(${-RW*S/2}px,${-RD*S/2}px)`}
+const RM=room($('wMain'));const RL=room($('wL'));const RR=room($('wR'));
+// static before/after rooms for the split screen
+function staticState(R,after){
+  const L=after?L1:L0;R.showerB.style.display=after?'block':'none';R.shower.style.display=after?'none':'block';
+  place(after?R.showerB:R.shower,...L.shower);place(R.wc,...L.wc);place(R.van,...L.van);
+  R.tall.style.display=after?'block':'none';if(after)place(R.tall,...L1.tall);place(R.per,...L.per);
+  R.vw.style.transform=`scale3d(1,1,${after?1:0})`;R.vw.style.opacity=after?1:0;R.clut.style.display=after?'none':'block';place(R.clut,98,42,0);
+  R.door.style.left=110*S+'px';R.door.style.top=248*S+'px';R.door.style.transform=`rotateZ(${after?-70:58}deg)`;
+  R.arcIn.style.opacity=after?0:1;R.arcOut.style.opacity=after?1:0;R.free.style.opacity=after?1:0;
+  [R.bang,R.q,R.fl,...R.ck].forEach(b=>b.style.display='none')}
+staticState(RL,false);staticState(RR,true);
+// ---------- captions ----------
+const CH=[];{let cur=[];CAPS.forEach((w,k)=>{cur.push(w);const txt=cur.map(x=>x.text).join(' ');const brk=/[.,?!:;]$/.test(w.text)||cur.length>=5||txt.length>28;if(brk||k===CAPS.length-1){CH.push(cur);cur=[]}});}
+CH.forEach((c,k)=>{c.s=c[0].start-.05;c.e=k+1<CH.length?Math.min(CH[k+1][0].start-.05,c[c.length-1].end+.6):c[c.length-1].end+.6});
+const show=(id,on)=>{$(id).style.display=on?'block':'none';return on};
+// ---------- render ----------
+window.render=async function(t){
+  const R=RM;
+  // camera: problem view -> top view (remodel) -> back to same angle
+  const kt=io(p(t,C.dabei,1.6)),kb=io(p(t,C.hoch+.3,1.2));
+  const rx=lerp(lerp(56,24,kt),56,kb),rz=lerp(lerp(36,8,kt),36,kb);
+  const drop=back(p(t,0,.7));const sc=lerp(.95,1.04,kt*(1-kb))*(.6+.4*drop);
+  cam($('wMain'),rx,rz,sc,(1-drop)*-500);setBill(R,rx,rz);
+  // ----- door -----
+  R.door.style.left=110*S+'px';R.door.style.top=248*S+'px';
+  let dang;if(t<C.oeff){const a=p(t,C.tuer-.15,.35);dang=t<C.tuer-.15?0:58*eo(a)-6*Math.sin(p(t,C.tuer+.2,.5)*Math.PI)*(t>C.tuer+.2?1:0);
+    if(t>C.dabei)dang=58*(1-eo(p(t,C.dabei,.8)))}
+  else dang=-70*back(p(t,C.oeff,.7));
+  R.door.style.transform=`rotateZ(${dang}deg)`;
+  R.arcIn.style.opacity=t>=C.tuer&&t<C.oeff?.9*(1-p(t,C.oeff-.3,.3)):0;R.arcOut.style.opacity=t>=C.oeff?eo(p(t,C.oeff,.5)):0;
+  // KLONK + room shake
+  const hit=C.tuer+.2;const sh=t>=hit&&t<hit+.5?Math.sin((t-hit)*70)*6*(1-p(t,hit,.5)):0;$('vpMain').style.transform=`translate(${sh}px,${sh*.5}px)`;
+  R.bang.style.display=t>=hit&&t<C.stau?'block':'none';if(t>=hit)R.bang.firstChild.style.transform=`rotate(-8deg) scale(${back(p(t,hit,.3))})`;
+  // ----- items: lift (explode), move on spoken word, drop -----
+  const lift=eo(p(t,C.gleich,.9))*80;
+  const mv=(k0,k1,c,dur=.9)=>io(p(t,c,dur));
+  const mvV=mv(0,0,C.wasch),mvW=mv(0,0,C.wc),mvS=mv(0,0,C.dusche);
+  const dropV=1-eo(p(t,C.wasch+.9,.4)),dropW=1-eo(p(t,C.wc+.9,.4)),dropS=1-eo(p(t,C.dusche+.9,.4));
+  const lz=(d)=>t<C.gleich?0:lift*d;
+  // shower: small corner -> walk-in (cross-fade while lifted)
+  place(R.shower,lerp(L0.shower[0],L1.shower[0],mvS),lerp(L0.shower[1],L1.shower[1],mvS),0,lz(dropS));
+  place(R.showerB,L1.shower[0],L1.shower[1],0,lz(dropS));
+  R.shower.style.opacity=1-mvS;R.showerB.style.opacity=mvS;R.showerB.style.display=mvS>0?'block':'none';
+  place(R.wc,lerp(L0.wc[0],L1.wc[0],mvW),lerp(L0.wc[1],L1.wc[1],mvW),lerp(L0.wc[2],L1.wc[2],mvW),lz(dropW));
+  place(R.van,lerp(L0.van[0],L1.van[0],mvV),lerp(L0.van[1],L1.van[1],mvV),lerp(L0.van[2],L1.van[2],mvV),lz(dropV));
+  // installation wall rises on "Waschtisch" ... checks on each item
+  const vw=eo(p(t,C.wasch-.4,.8));R.vw.style.transform=`scale3d(1,1,${Math.max(.001,vw)})`;R.vw.style.opacity=vw>0?1:0;
+  [C.wasch+1.0,C.wc+1.0,C.dusche+1.0].forEach((c,j)=>{const b=R.ck[j];b.style.display=t>=c&&t<C.so+.3?'block':'none';if(t>=c)b.firstChild.style.transform=`scale(${back(p(t,c,.35))})`});
+  // frame glow: room stays the same
+  R.frame.style.opacity=t>=C.gleich&&t<C.oeff+.2?.9*Math.min(1,p(t,C.gleich,.4))*(1-p(t,C.oeff,.3)):0;
+  // free movement area + tall cabinet
+  R.free.style.opacity=t>=C.freie?eo(p(t,C.freie,.5)):0;R.fl.style.display='none';if(show('free2',t>=C.freie+.2&&t<C.was)){$('free2').style.transform=`scale(${back(p(t,C.freie+.2,.4))})`}
+  R.tall.style.display=t>=C.hoch-.2?'block':'none';place(R.tall,...L1.tall);R.tall.style.transform+=` scale3d(1,1,${Math.max(.001,back(p(t,C.hoch-.2,.6)))})`;R.tall.style.transformOrigin='50% 50% 0';
+  // clutter: pops in on "Stauraum fehlt", flies into cabinet later
+  const cIn=back(p(t,C.stau,.4)),cOut=io(p(t,C.hoch+.2,.7));R.clut.style.display=t>=C.stau&&cOut<1?'block':'none';
+  place(R.clut,lerp(98,175,cOut),lerp(42,20,cOut),0,lerp(0,60,Math.sin(cOut*Math.PI))+(t>=C.gleich&&t<C.hoch?lift*.6:0),cIn*(1-cOut*.7));
+  // person: scratches head, steps aside during remodel, back for result
+  const out=eo(p(t,C.gleich,.6))*(1-eo(p(t,C.hoch+.2,.6)));
+  const pp=t<C.hoch?L0.per:L1.per;place(R.per,pp[0],pp[1],pp[2],0,1-out*.999);R.per.style.opacity=1-out;
+  R.per.armR.style.transform=`translateZ(${48*S}px) rotateX(${t<C.dabei?-150+Math.sin(t*14)*12:t>C.hoch+.6?-160:0}deg)`;R.per.armR.style.transformOrigin=`50% 50% ${40*S}px`;
+  R.q.style.display=t>=.6&&t<C.dabei?'block':'none';R.q.firstChild.style.transform=`scale(${back(p(t,.6,.4))}) rotate(${Math.sin(t*5)*8}deg)`;
+  // ----- overlays -----
+  if(show('hook',t>=.25&&t<C.tuer+.1)){const k=back(p(t,.25,.45));$('hook').style.transform=`translateY(${(1-k)*-200}px)`;$('hook').style.opacity=1-p(t,C.tuer-.15,.25)}
+  if(show('same',t>=C.gleich&&t<C.oeff)){$('same').style.transform=`scale(${back(p(t,C.gleich,.4))})`}
+  if(show('inst',t>=C.wasch-.3&&t<C.so)){$('inst').style.transform=`scale(${back(p(t,C.wasch-.3,.4))})`}
+  // ----- result: same angle before / after -----
+  const split=t>=C.was&&t<C.endc;
+  $('vpMain').style.display=split||t>=C.endc?'none':'block';$('vpL').style.display=split?'block':'none';$('vpR').style.display=split?'block':'none';
+  if(split){const k=eo(p(t,C.was,.6));
+    $('vpL').style.perspectiveOrigin='25% 44%';$('vpR').style.perspectiveOrigin='75% 44%';
+    $('wL').style.left='270px';$('wR').style.left='810px';$('wL').style.top=$('wR').style.top='880px';
+    cam($('wL'),56,36,.56*k+.0001);cam($('wR'),56,36,.56*k+.0001);$('vpL').style.opacity=$('vpR').style.opacity=1-p(t,C.endc-.4,.4)}
+  show('lv',split);show('ln',split);if(split){const k=back(p(t,C.was+.2,.4));$('lv').style.transform=$('ln').style.transform=`scale(${k})`}
+  if(show('q',t>=C.dusch2-.2&&t<C.endc)){$('q').style.opacity=1-p(t,C.endc-.4,.4);$('b1').style.transform=`scale(${back(p(t,C.dusch2,.35))})`;$('b2').style.transform=`scale(${back(p(t,C.stau2,.35))})`}
+  // end card
+  const inE=t>=C.endc;show('e1',inE);show('e2',inE);show('e3',inE);
+  if(inE){[['e1',.2],['e2',.4],['e3',.8]].forEach(([id,d])=>{const k=eo(p(t,C.endc+d,.6));$(id).style.opacity=k;$(id).style.transform=`translateY(${(1-k)*24}px)`})}
+  $('plan').style.display=inE?'none':'block';
+  let html='';for(const c of CH){if(t>=c.s&&t<c.e){html=c.map(w=>`<span class="${t>=w.start-.03?'on':''}">${w.text}</span>`).join(' ');break}}
+  $('caps').innerHTML=t<C.endc&&html&&!(t>=C.dusch2-.2)?`<div>${html}</div>`:'';
+};
+window.addEventListener('load',()=>document.fonts.ready.then(()=>render(0)));
+</script>
+</body>
+</html>
