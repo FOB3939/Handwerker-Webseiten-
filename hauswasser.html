@@ -1,0 +1,148 @@
+<!doctype html>
+<html lang="de">
+<head>
+<meta charset="utf-8">
+<style>
+@font-face{font-family:Montserrat;font-weight:600;src:url(assets/fonts/montserrat-latin-600-normal.woff2)}
+@font-face{font-family:Montserrat;font-weight:800;src:url(assets/fonts/montserrat-latin-800-normal.woff2)}
+@font-face{font-family:Oswald;font-weight:700;src:url(assets/fonts/oswald-latin-700-normal.woff2)}
+:root{--g:#F0B92A;--w:#3FB6F5;--red:#E5402A;--grn:#3FBF5A;--ink:#071420}
+*{box-sizing:border-box;margin:0;padding:0}
+html,body{width:1080px;height:1920px;overflow:hidden;background:#000}
+#stage{position:relative;width:1080px;height:1920px;overflow:hidden;font-family:Montserrat,sans-serif;color:#fff;background:#06111b}
+#bg{position:absolute;inset:-80px;background-size:cover;background-position:center;filter:blur(40px) brightness(.35) saturate(1.2)}
+#cam{position:absolute;inset:0;transform-origin:50% 50%}
+#ph{position:absolute;left:40px;top:400px;width:1000px;height:1053px;border-radius:34px;overflow:hidden;box-shadow:0 30px 80px rgba(0,0,0,.6);border:6px solid rgba(255,255,255,.12)}
+.im{position:absolute;inset:0;background-size:cover;background-position:center}
+#imB{clip-path:inset(0 0 0 100%)}
+#div{position:absolute;top:0;bottom:0;width:12px;margin-left:-6px;background:var(--g);box-shadow:0 0 30px var(--g);opacity:0}
+#ring{position:absolute;border:12px solid var(--red);border-radius:50%;opacity:0;box-shadow:0 0 30px rgba(229,64,42,.8)}
+.tag{position:absolute;font:800 46px Montserrat;padding:12px 26px;border-radius:18px;white-space:nowrap;box-shadow:0 10px 30px rgba(0,0,0,.5)}
+#chip{position:absolute;left:0;right:0;top:250px;text-align:center}
+#chip span{display:inline-block;font:800 44px Montserrat;text-transform:uppercase;padding:10px 34px;border-radius:44px;letter-spacing:.06em}
+#title{position:absolute;left:40px;right:40px;top:322px;text-align:center;font:800 62px Montserrat;text-transform:uppercase;text-shadow:0 6px 20px rgba(0,0,0,.7)}
+#brand{position:absolute;left:0;right:0;top:140px;display:flex;justify-content:center;align-items:center;gap:16px;z-index:9}
+#brand img{width:76px;height:76px;border-radius:50%}
+#brand div{font:700 36px Oswald;letter-spacing:.05em;text-transform:uppercase}
+#brand b{color:var(--w)}
+#note{left:560px;top:520px;width:400px;transform-origin:50% 0}
+#note div{background:#FFE36A;color:#222;font:800 44px Montserrat;padding:30px 28px;border-radius:6px;box-shadow:0 20px 40px rgba(0,0,0,.5);line-height:1.15}
+#timer{left:190px;top:520px;width:700px;height:700px}
+#tlab{left:0;right:0;top:760px;text-align:center;font:700 170px Oswald;line-height:1;text-shadow:0 0 40px rgba(63,182,245,.7)}
+#tsub{left:0;right:0;top:1265px;text-align:center;font:800 46px Montserrat;text-transform:uppercase}
+#ben{left:90px;right:90px;top:520px}
+.b{display:flex;align-items:center;gap:30px;background:rgba(7,20,32,.88);border:3px solid rgba(63,191,90,.6);border-radius:28px;padding:30px 36px;margin-bottom:30px;font:800 56px Montserrat}
+.b i{flex:none;width:90px;height:90px;border-radius:50%;background:var(--grn);display:flex;align-items:center;justify-content:center;font-style:normal;font-size:56px}
+#slog{left:60px;right:60px;top:600px;text-align:center;font:800 92px Montserrat;line-height:1.08;text-transform:uppercase;text-shadow:0 8px 30px rgba(0,0,0,.8)}
+#slog b{color:var(--w)}
+#end{position:absolute;inset:0;z-index:14;display:none;background:radial-gradient(circle at 50% 40%,#0f3550,#04101a 75%)}
+.cbtn{left:120px;right:120px;height:150px;border-radius:80px;display:flex;align-items:center;justify-content:center;font:700 72px Oswald;text-transform:uppercase;background:var(--w);color:var(--ink);box-shadow:0 0 60px rgba(63,182,245,.55)}
+.a{position:absolute}
+.c{left:50px;right:50px;text-align:center}
+#caps{position:absolute;left:50px;right:50px;top:1560px;text-align:center;z-index:20}
+#caps div{display:inline-block;background:rgba(4,16,26,.9);border-radius:18px;padding:12px 28px;font:800 54px Montserrat;line-height:1.16}
+#caps span.on{color:var(--w)}
+#flash{position:absolute;inset:0;background:#fff;z-index:30;opacity:0}
+#prog{position:absolute;left:0;top:0;height:8px;background:var(--w);z-index:31}
+canvas{position:absolute;inset:0;pointer-events:none}
+</style>
+<script>document.write('<script src="'+(new URLSearchParams(location.search).get('data')||'data.js')+'"><\/script>')</script>
+</head>
+<body>
+<div id="stage"><div id="bg"></div><div id="cam">
+  <div id="ph"><div class="im" id="imA"></div><div class="im" id="imB"></div><div id="div"></div><div id="ring"></div>
+    <div class="tag" id="tagA" style="background:var(--red)">Braun &amp; verschmutzt 🤢</div>
+    <div class="tag" id="tagB" style="background:var(--grn)">⟳ Rückspülautomatik</div></div>
+  <div id="chip"><span id="chipT"></span></div>
+  <div id="title"></div>
+  <div class="a" id="note"><div>📌 Filter rückspülen!<br><span style="font-size:34px">… schon wieder vergessen 😬</span></div></div>
+  <svg class="a" id="timer" viewBox="0 0 700 700"><circle cx="350" cy="350" r="300" fill="rgba(4,16,26,.85)" stroke="rgba(255,255,255,.15)" stroke-width="34"/>
+    <circle id="tarc" cx="350" cy="350" r="300" fill="none" stroke="#3FB6F5" stroke-width="34" stroke-linecap="round" transform="rotate(-90 350 350)" stroke-dasharray="1885" stroke-dashoffset="1885"/>
+    <g id="swirl" stroke="#B3E5FC" stroke-width="16" fill="none" stroke-linecap="round" opacity="0"><path d="M350 150 a200 200 0 0 1 200 200"/><path d="M350 550 a200 200 0 0 1 -200 -200"/><path d="M550 350 l-30 -30 M550 350 l30 -30"/><path d="M150 350 l-30 30 M150 350 l30 30"/></g></svg>
+  <div class="a" id="tlab">48 h</div>
+  <div class="a" id="tsub">automatisch rückspülen</div>
+  <div class="a" id="ben"><div class="b" id="b0"><i>✓</i>Mehr Hygiene</div><div class="b" id="b1"><i>✓</i>Besserer Wasserdruck</div><div class="b" id="b2"><i>✓</i>Weniger Wartung</div></div>
+  <div class="a" id="slog">Sauberes Trinkwasser ist <b>kein Zufall</b> –<br>sondern <b>Technik.</b></div>
+  <canvas id="fx" width="1080" height="1920"></canvas>
+  <div id="end">
+    <img class="a" id="clogo" src="assets/logo.png" style="left:360px;top:300px;width:360px;height:360px;border-radius:50%;box-shadow:0 0 80px rgba(63,182,245,.45)">
+    <div class="a c" id="e1" style="top:730px;font:800 62px Montserrat;text-transform:uppercase;line-height:1.08">Hauswasserstation<br><span style="color:var(--w)">jetzt anfragen</span></div>
+    <div class="a cbtn" id="ebtn" style="top:940px">fob-fm.de</div>
+    <div class="a c" id="e3" style="top:1130px;font:600 40px Montserrat;color:#cfe3f5">Sanitär-Kundendienst · Weßling-Hochstadt<br>München &amp; Umgebung</div>
+  </div>
+</div>
+<div id="brand"><img src="assets/logo.png"><div>FOB <b>Haustechnik</b></div></div>
+<div id="caps"></div><div id="flash"></div><div id="prog"></div></div>
+<script>
+const $=id=>document.getElementById(id);
+const cl=(x,a=0,b=1)=>Math.min(b,Math.max(a,x));
+const p=(t,a,d)=>cl((t-a)/d);
+const eo=x=>1-Math.pow(1-x,3);
+const io=x=>x<.5?4*x*x*x:1-Math.pow(-2*x+2,3)/2;
+const back=x=>{const c=1.8;return 1+(c+1)*Math.pow(x-1,3)+c*Math.pow(x-1,2)};
+const esc=s=>String(s).replace(/&/g,'&amp;').replace(/</g,'&lt;');
+const C=CUES,T=C.total,IMG='jobs/hauswasser/img/';
+const PRE=['vorher','nachher','auto','label'].map(n=>{const i=new Image();i.src=IMG+n+'.jpg';return i});
+const setImg=(id,n)=>{const e=$(id);if(e.dataset.n!==n){e.dataset.n=n;e.style.backgroundImage=`url(${IMG}${n}.jpg)`}};
+const cv=$('fx'),ctx=cv.getContext('2d');const R=(()=>{let s=9;return()=>((s=(s*16807)%2147483647)/2147483647)})();
+const SPK=[...Array(26)].map(()=>({x:80+R()*920,y:420+R()*1000,ph:R(),s:10+R()*20}));
+const CH=[];{let cur=[];CAPS.forEach((w,k)=>{cur.push(w);const brk=/[.,?!:;–]$/.test(w.text)||cur.length>=4||cur.map(x=>x.text).join(' ').length>22;if(brk||k===CAPS.length-1){CH.push(cur);cur=[]}});}
+CH.forEach((c,k)=>{c.s=c[0].start;c.e=k+1<CH.length?Math.min(CH[k+1][0].start,c[c.length-1].end+.5):c[c.length-1].end+.8});
+const show=(id,k,dy=40)=>{$(id).style.opacity=k;$(id).style.transform=`translateY(${(1-k)*dy}px)`};
+window.render=async function(t){
+  const sc=t<C.nach?1:t<C.jetzt?2:t<C.fuer?3:t<C.sauber?4:t<C.end?5:6;
+  // camera punches
+  let sx=0,sy=0,zs=1;for(const c of [C.nach,C.jetzt,C.fuer,C.sauber,C.end,C.braun]){if(t>=c&&t<c+.45){const k=Math.exp(-(t-c)*9);sx+=Math.sin((t-c)*83)*14*k;sy+=Math.cos((t-c)*71)*10*k;zs+=.04*k}}
+  $('cam').style.transform=`translate(${sx}px,${sy}px) scale(${zs})`;
+  let fl=0;for(const c of [C.nach,C.jetzt,C.fuer,C.sauber,C.end])if(t>=c)fl+=.35*Math.exp(-(t-c)*12);$('flash').style.opacity=cl(fl);
+  $('prog').style.width=(cl(t/T)*100)+'%';
+  // photo panel content per scene
+  const phOn=sc<=3||sc===5;$('ph').style.display=phOn||sc===4?'block':'none';
+  let a='vorher',b='nachher';if(sc===3){a='auto'}if(sc===4){a='label'}if(sc===5){a='nachher'}
+  setImg('imA',a);setImg('imB',b);$('bg').style.backgroundImage=`url(${IMG}${sc===1?'vorher':sc===3?'auto':sc===4?'label':'nachher'}.jpg)`;
+  // ken burns
+  const kb=sc===1?p(t,0,C.nach):sc===2?p(t,C.nach,C.jetzt-C.nach):sc===3?p(t,C.jetzt,C.fuer-C.jetzt):p(t,C.fuer,T-C.fuer);
+  $('imA').style.transform=sc===3?`scale(${1.05+.25*io(kb)}) translate(${-60*io(kb)}px,${-40*io(kb)}px)`:`scale(${1.04+.12*kb})`;
+  $('imB').style.transform=`scale(${1.04+.1*kb})`;
+  $('ph').style.filter=sc===4?'blur(6px) brightness(.45)':sc===5?'brightness(.4)':'none';
+  // before/after wipe in scene 2
+  const w=sc===2?io(p(t,C.nach,.9)):0;$('imB').style.clipPath=sc===2?`inset(0 0 0 ${100-w*100}%)`:'inset(0 0 0 100%)';
+  $('div').style.left=(100-w*100)+'%';$('div').style.opacity=sc===2&&w>0&&w<1?1:0;
+  // chip + title
+  const CT={1:['Vorher','var(--red)','Alte Hauswasserstation'],2:['Nachher','var(--grn)','Neue Hauswasserstation'],3:['Neu','var(--w)','Spült sich selbst'],4:['Ihre Vorteile','var(--grn)',''],5:['FOB Haustechnik','var(--g)',''],6:['','','']}[sc];
+  const st=[0,0,C.nach,C.jetzt,C.fuer,C.sauber,C.end][sc];
+  $('chipT').textContent=CT[0];$('chipT').style.background=CT[1];$('chipT').style.color=sc===5?'#071420':'#fff';$('chip').style.display=CT[0]?'block':'none';
+  $('chip').style.transform=`scale(${back(p(t,st,.35))})`;
+  $('title').textContent=CT[2];show('title',eo(p(t,st+.1,.4)),30);
+  // scene 1: ring + tags + note
+  const r=$('ring');r.style.left='38%';r.style.top='30%';r.style.width='26%';r.style.height='46%';
+  const kr=back(p(t,C.braun,.4));r.style.opacity=sc===1&&t>=C.braun?1:0;r.style.transform=`scale(${kr*(1+.04*Math.sin(t*8))})`;
+  const ta=$('tagA');ta.style.left='12%';ta.style.top='80%';const kta=back(p(t,C.braun+.2,.35));ta.style.opacity=sc===1&&t>=C.braun+.2?1:0;ta.style.transform=`scale(${kta}) rotate(-4deg)`;
+  const kn=back(p(t,C.rueck,.45));$('note').style.opacity=sc===1&&t>=C.rueck?1:0;$('note').style.transform=`rotate(${6+Math.sin((t-C.rueck)*9)*6*Math.exp(-(t-C.rueck)*1.5)}deg) scale(${kn})`;
+  // scene 2: automation tag
+  const tb=$('tagB');tb.style.left='30%';tb.style.top='80%';const ktb=back(p(t,C.auto,.35));tb.style.opacity=sc===2&&t>=C.auto?1:0;tb.style.transform=`scale(${ktb})`;
+  // scene 3: 48h timer
+  const s3=sc===3;['timer','tlab','tsub'].forEach(id=>$(id).style.display=s3?'block':'none');
+  if(s3){const k=eo(p(t,C.jetzt+.2,.4));$('timer').style.opacity=k;$('timer').style.transform=`scale(${.7+.3*back(p(t,C.jetzt+.2,.5))})`;
+    const fill=io(p(t,C.jetzt+.5,C.acht-C.jetzt));$('tarc').setAttribute('stroke-dashoffset',1885*(1-fill));
+    const hrs=Math.round(48*fill);$('tlab').textContent=hrs+' h';$('tlab').style.opacity=k;$('tlab').style.transform=`scale(${t>=C.acht?1+.15*Math.exp(-(t-C.acht)*5)*Math.cos((t-C.acht)*18):1})`;
+    const sw=t>=C.acht+.3;$('swirl').setAttribute('opacity',sw?1:0);$('swirl').setAttribute('transform',`rotate(${(t-C.acht)*360} 350 350)`);
+    $('tsub').textContent=sw?'⟳ Spülung läuft – automatisch!':'alle 48 Stunden';show('tsub',eo(p(t,C.jetzt+.6,.4)),20)}
+  // scene 4 benefits
+  $('ben').style.display=sc===4?'block':'none';[C.hyg,C.druck,C.wart].forEach((ti,i)=>{const k=back(p(t,ti,.35));$('b'+i).style.opacity=cl(p(t,ti,.08));$('b'+i).style.transform=`translateX(${(1-k)*(i%2?600:-600)}px)`});
+  // scene 5 slogan + sparkles
+  $('slog').style.display=sc===5?'block':'none';{const k=back(p(t,C.sauber,.45));$('slog').style.opacity=cl(p(t,C.sauber,.1));$('slog').style.transform=`scale(${.8+.2*k})`}
+  ctx.clearRect(0,0,1080,1920);
+  if(sc===2&&w>=1||sc===5){for(const s of SPK){const ph=(t*.8+s.ph)%1;const a=Math.sin(ph*Math.PI);ctx.save();ctx.translate(s.x,s.y);ctx.rotate(ph*2);ctx.fillStyle=`rgba(255,255,255,${a*.9})`;const z=s.s*a;ctx.beginPath();ctx.moveTo(0,-z);ctx.lineTo(z*.25,0);ctx.lineTo(0,z);ctx.lineTo(-z*.25,0);ctx.closePath();ctx.fill();ctx.beginPath();ctx.moveTo(-z,0);ctx.lineTo(0,z*.25);ctx.lineTo(z,0);ctx.lineTo(0,-z*.25);ctx.closePath();ctx.fill();ctx.restore()}}
+  // end
+  const e=sc===6;$('end').style.display=e?'block':'none';
+  if(e){const kl=back(p(t,C.end,.5));$('clogo').style.transform=`scale(${.6+.4*kl})`;$('clogo').style.opacity=cl(p(t,C.end,.15));show('e1',eo(p(t,C.end+.2,.4)));
+    const k2=back(p(t,C.url,.45));$('ebtn').style.opacity=cl(p(t,C.url,.12));$('ebtn').style.transform=`scale(${(.7+.3*k2)*(t>C.url+.6?1+.035*Math.sin((t-C.url)*6):1)})`;$('e3').style.opacity=eo(p(t,C.url+.5,.4))}
+  let html='';for(const c of CH){if(t>=c.s&&t<c.e){const k=back(p(t,c.s,.16));html=`<div style="transform:scale(${.75+.25*k});opacity:${cl(p(t,c.s,.06))}">`+c.map(w=>`<span class="${t>=w.start-.03?'on':''}">${esc(w.text)}</span>`).join(' ')+'</div>';break}}
+  $('caps').innerHTML=sc>=5?'':html;
+  await Promise.all(PRE.map(i=>i.decode().catch(()=>{})));
+};
+window.addEventListener('load',()=>document.fonts.ready.then(()=>render(0)));
+</script>
+</body>
+</html>

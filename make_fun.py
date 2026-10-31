@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Custom fun reels (horror.html, bingo.html): python3 make_fun.py <horror|bingo> [--stills]  (needs jobs/<name>/vo.mp3 + words.json)"""
+"""Custom reels (horror.html, bingo.html, hauswasser.html): python3 make_fun.py <horror|bingo|hauswasser> [--stills]  (needs jobs/<name>/vo.mp3 + words.json)"""
 import json, os, re, subprocess, sys
 KIT = os.path.dirname(os.path.abspath(__file__)); name = sys.argv[1]; job = f'{KIT}/jobs/{name}'
 words = json.load(open(f'{job}/words.json')); words = words.get('words', words) if isinstance(words, dict) else words
@@ -12,6 +12,12 @@ if name == 'horror':
          's4': find('der', find('stromzähler')) - .1, 's5': find('wir') - .1, 'kost': find('kostenlos'), 's6': find('auf', find('unverbindlich')) - .1,
          'url': find('fobfm')}
     scenes, items, bpm, title = [0, C['s3'], C['s4'], C['s5'], C['s6']], [[C['kost']], [C['url']]], 96, 'FOB_Halloween_Stromzaehler_Horror'
+elif name == 'hauswasser':
+    C = {'braun': find('braun'), 'rueck': find('rückspülen'), 'nach': find('nachher') - .1, 'auto': find('rückspülautomatik'),
+         'jetzt': find('jetzt') - .1, 'acht': find('achtundvierzig'), 'fuer': find('für') - .1, 'hyg': find('hygiene'),
+         'druck': find('wasserdruck'), 'wart': find('wartung'), 'sauber': find('sauberes') - .1, 'end': find('jetzt', find('technik')) - .1,
+         'url': find('fobfm')}
+    scenes, items, bpm, title = [0, C['nach'], C['jetzt'], C['fuer'], C['sauber'], C['end']], [[C['braun']], [C['auto']], [C['acht']], [C['hyg'], C['druck'], C['wart']], [C['url']]], 116, 'FOB_Hauswasserstation_Vorher_Nachher'
 else:
     checks = [w['start'] for w in words if norm(w['text']) == 'check']
     C = {'items': checks + [find('bingo', 2)], 'bingo': find('bingo', 2), 'fix': find('kein'), 'end': find('jetzt') - .1, 'url': find('fobfm')}
@@ -30,7 +36,7 @@ json.dump({'total': TOTAL, 'bpm': bpm, 'fade': 2.0, 'scenes': scenes, 'items': i
 print(json.dumps(C))
 env = dict(os.environ, REEL_HTML=f'{name}.html')
 if '--stills' in sys.argv:
-    ts = [1.5, 3.2, 5.6, 8.2, 12.2, TOTAL - .5] if name == 'horror' else [1.0, C['items'][2] + .3, C['bingo'] + .5, C['fix'] + 1.4, TOTAL - .5]
+    ts = [1.5, 3.2, 5.6, 8.2, 12.2, TOTAL - .5] if name == 'horror' else [C['braun'] + .6, C['rueck'] + .8, C['nach'] + .6, C['auto'] + .5, C['acht'] + .6, C['wart'] + .4, C['sauber'] + .8, TOTAL - .5] if name == 'hauswasser' else [1.0, C['items'][2] + .3, C['bingo'] + .5, C['fix'] + 1.4, TOTAL - .5]
     subprocess.run(['node', f'{KIT}/render.js', job, '30', ','.join(f'{x:.2f}' for x in ts)], check=True, env=env); sys.exit()
 subprocess.run(['node', f'{KIT}/render.js', job, '30'], check=True, env=env)
 subprocess.run(['python3', f'{KIT}/audio.py', f'{job}/cues.json', job, name], check=True)
