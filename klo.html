@@ -1,0 +1,210 @@
+<!doctype html>
+<html lang="de">
+<head>
+<meta charset="utf-8">
+<style>
+@font-face{font-family:Montserrat;font-weight:600;src:url(assets/fonts/montserrat-latin-600-normal.woff2)}
+@font-face{font-family:Montserrat;font-weight:800;src:url(assets/fonts/montserrat-latin-800-normal.woff2)}
+@font-face{font-family:Oswald;font-weight:700;src:url(assets/fonts/oswald-latin-700-normal.woff2)}
+:root{--tq:#2ee6d6;--y:#ffd23f;--ink:#071631}
+*{box-sizing:border-box;margin:0;padding:0}
+html,body{width:1080px;height:1920px;overflow:hidden;background:#061430}
+#stage{position:relative;width:1080px;height:1920px;overflow:hidden;font-family:Montserrat,sans-serif;color:#fff;
+  background:radial-gradient(circle at 50% 40%,#16407a 0%,#0b2350 50%,#061430 100%)}
+#tiles{position:absolute;inset:0;background-image:linear-gradient(rgba(46,230,214,.05) 3px,transparent 3px),linear-gradient(90deg,rgba(46,230,214,.05) 3px,transparent 3px);background-size:90px 90px}
+#cam{position:absolute;inset:0;transform-origin:50% 45%}
+svg{position:absolute;left:0;top:0;width:1080px;height:1920px;overflow:visible}
+.t{position:absolute;left:80px;right:80px;text-align:center;display:none}
+.big{font:700 128px Oswald;line-height:.98;text-transform:uppercase;color:var(--y);text-shadow:0 7px 0 #8a6a00,0 16px 40px rgba(0,0,0,.45)}
+#caps{position:absolute;left:90px;right:150px;top:1400px;text-align:center;z-index:20}
+#caps div{display:inline-block;background:rgba(5,14,36,.88);border:3px solid rgba(46,230,214,.6);border-radius:20px;padding:12px 28px;font:800 58px Montserrat;line-height:1.16;max-width:840px}
+#caps span.on{color:var(--y)}
+</style>
+<script>document.write('<script src="'+(new URLSearchParams(location.search).get('data')||'data.js')+'"><\/script>')</script>
+</head>
+<body>
+<div id="stage"><div id="tiles"></div>
+<div id="cam"><svg id="sv" viewBox="0 0 1080 1920"></svg></div>
+<div class="t big" id="tWeg" style="top:200px;font-size:96px">Weggespült<br><span style="color:var(--tq)">≠</span> Problem gelöst</div>
+<div class="t big" id="tEnd1" style="top:900px;font-size:110px;color:#fff;text-shadow:0 7px 0 #0a2a5a">Kleine Ursache.</div>
+<div class="t big" id="tEnd2" style="top:1030px;font-size:110px;color:var(--tq);text-shadow:0 7px 0 #0a4a50">Unnötiger Ärger.</div>
+<div class="t" id="tUrl" style="top:1210px;font:700 104px Oswald;color:var(--y)">fob-fm.de</div>
+<div id="caps"></div></div>
+<script>
+const $=id=>document.getElementById(id);
+const cl=(x,a=0,b=1)=>Math.min(b,Math.max(a,x));
+const p=(t,a,d)=>cl((t-a)/d);
+const eo=x=>1-Math.pow(1-x,3);
+const io=x=>x<.5?4*x*x*x:1-Math.pow(-2*x+2,3)/2;
+const back=x=>{const c=1.7;return 1+(c+1)*Math.pow(x-1,3)+c*Math.pow(x-1,2)};
+const lerp=(a,b,k)=>a+(b-a)*k;
+const C=CUES,T=C.total;
+const INK='#071631',W='#f7f5f0',TQ='#2ee6d6',Y='#ffd23f',RED='#ff4d5a',GR='#2bd67b';
+const S=(id,a)=>{const e=$(id);for(const k in a)e.setAttribute(k,a[k])};
+const at=(id,s)=>$(id).setAttribute('transform',s);
+const op=(id,v)=>$(id).setAttribute('opacity',v);
+// ---------- toilet (origin = floor centre) ----------
+function toilet(id){return `<g id="${id}">
+  <g id="${id}armL"><path id="${id}aL" d="" fill="none" stroke="${INK}" stroke-width="16" stroke-linecap="round"/><circle id="${id}hL" r="22" fill="${W}" stroke="${INK}" stroke-width="7"/></g>
+  <g id="${id}armR"><path id="${id}aR" d="" fill="none" stroke="${INK}" stroke-width="16" stroke-linecap="round"/><circle id="${id}hR" r="22" fill="${W}" stroke="${INK}" stroke-width="7"/></g>
+  <rect x="-90" y="-150" width="180" height="150" rx="26" fill="${W}" stroke="${INK}" stroke-width="9"/>
+  <path d="M-200 -370 C -200 -230 -120 -150 0 -150 C 120 -150 200 -230 200 -370 Z" fill="${W}" stroke="${INK}" stroke-width="9"/>
+  <ellipse cx="0" cy="-372" rx="214" ry="52" fill="#e9eef3" stroke="${INK}" stroke-width="9"/><ellipse cx="0" cy="-374" rx="150" ry="30" fill="#8fd3ff" stroke="${INK}" stroke-width="6"/>
+  <rect x="-175" y="-640" width="350" height="230" rx="34" fill="${W}" stroke="${INK}" stroke-width="9"/>
+  <rect x="-190" y="-660" width="380" height="40" rx="18" fill="#e9eef3" stroke="${INK}" stroke-width="8"/><rect x="-40" y="-680" width="80" height="24" rx="10" fill="${TQ}" stroke="${INK}" stroke-width="6"/>
+  <g id="${id}face" transform="translate(0,-525)">
+    <path id="${id}brL" d="" stroke="${INK}" stroke-width="10" stroke-linecap="round" fill="none"/><path id="${id}brR" d="" stroke="${INK}" stroke-width="10" stroke-linecap="round" fill="none"/>
+    <g id="${id}eyes"><circle id="${id}eL" cx="-62" cy="0" r="34" fill="#fff" stroke="${INK}" stroke-width="7"/><circle id="${id}eR" cx="62" cy="0" r="34" fill="#fff" stroke="${INK}" stroke-width="7"/>
+    <circle id="${id}pL" cx="-62" cy="0" r="14" fill="${INK}"/><circle id="${id}pR" cx="62" cy="0" r="14" fill="${INK}"/></g>
+    <path id="${id}shut" d="" fill="none" stroke="${INK}" stroke-width="9" stroke-linecap="round"/>
+    <path id="${id}m" d="" fill="${INK}" stroke="${INK}" stroke-width="9" stroke-linecap="round" stroke-linejoin="round"/>
+    <g id="${id}sw"></g></g>
+  <g id="${id}sign"><line x1="0" y1="0" x2="0" y2="170" stroke="#a0703a" stroke-width="16" stroke-linecap="round"/>
+    <rect x="-250" y="-150" width="500" height="160" rx="22" fill="${Y}" stroke="${INK}" stroke-width="9"/>
+    <text id="${id}st" x="0" y="-70" text-anchor="middle" dominant-baseline="central" font-family="Oswald" font-weight="700" font-size="70" fill="${INK}">ICH KÜNDIGE!</text></g>
+</g>`}
+// mood: 0 normal,1 angry,2 shocked(k),3 relaxed
+function face(id,mood,k=0,t=0,look=0){
+  const big=mood===2?34+10*k:34;['eL','eR'].forEach(e=>S(id+e,{r:big}));
+  const pr=mood===2?14-5*k:14;S(id+'pL',{r:pr,cx:-62+look*10,cy:mood===2?0:4});S(id+'pR',{r:pr,cx:62+look*10,cy:mood===2?0:4});
+  op(id+'eyes',mood===3?0:1);S(id+'shut',{d:mood===3?'M-92 4 q 30 -26 60 0 M32 4 q 30 -26 60 0':''});
+  const by=mood===2?-58-12*k:-52;
+  S(id+'brL',{d:mood===1?`M-100 -60 L-30 -38`:mood===3?'':`M-96 ${by} q 34 -12 64 0`});S(id+'brR',{d:mood===1?`M100 -60 L30 -38`:mood===3?'':`M32 ${by} q 34 -12 64 0`});
+  let m;if(mood===2){const h=30+40*k,w=26+14*k;m=`M0 ${60} m${-w} 0 a ${w} ${h/2} 0 1 0 ${2*w} 0 a ${w} ${h/2} 0 1 0 ${-2*w} 0`}
+  else if(mood===1)m='M-50 80 Q 0 50 50 80';else if(mood===3)m='M-55 62 Q 0 110 55 62 Z';else m='M-45 66 Q 0 96 45 66';
+  S(id+'m',{d:m,fill:mood===2||mood===3?INK:'none'});
+  let s='';if(mood===2&&k>.4){for(let j=0;j<2;j++){const ph=(t*1.1+j*.5)%1;s+=`<path transform="translate(${j?120:-125},${-40+ph*90})" d="M0 0 q -14 24 0 30 q 14 -6 0 -30z" fill="#7cc8ff" stroke="${INK}" stroke-width="4" opacity="${(1-ph)*(k-.4)/.6}"/>`}}
+  $(id+'sw').innerHTML=s}
+function arms(id,hl,hr){ // hand positions relative to toilet origin
+  S(id+'aL',{d:`M-190 -320 Q ${(hl[0]-190)/2-40} ${(hl[1]-320)/2} ${hl[0]} ${hl[1]}`});S(id+'hL',{cx:hl[0],cy:hl[1]});
+  S(id+'aR',{d:`M190 -320 Q ${(hr[0]+190)/2+40} ${(hr[1]-320)/2} ${hr[0]} ${hr[1]}`});S(id+'hR',{cx:hr[0],cy:hr[1]})}
+// ---------- items ----------
+const wipes=`<g><rect x="-110" y="-70" width="220" height="140" rx="30" fill="#7ad7ff" stroke="${INK}" stroke-width="8"/><rect x="-60" y="-56" width="120" height="44" rx="20" fill="#fff" stroke="${INK}" stroke-width="6"/><path d="M-30 -40 q 30 -40 60 0" fill="#fff" stroke="${INK}" stroke-width="6"/><text y="34" text-anchor="middle" font-family="Montserrat" font-weight="800" font-size="26" fill="${INK}">FEUCHT</text></g>`;
+const roll=`<g><rect x="-70" y="-90" width="140" height="180" rx="16" fill="#fff" stroke="${INK}" stroke-width="8"/><ellipse cx="0" cy="-90" rx="70" ry="20" fill="#eef2f6" stroke="${INK}" stroke-width="7"/><ellipse cx="0" cy="-90" rx="22" ry="7" fill="#b9a27a" stroke="${INK}" stroke-width="5"/><path d="M-70 -10 h140 M-70 40 h140" stroke="#c9d3de" stroke-width="5"/><path d="M70 0 q 40 20 30 90 l -30 0 z" fill="#fff" stroke="${INK}" stroke-width="7"/></g>`;
+const litter=`<g><path d="M-95 -95 L95 -95 L110 95 L-110 95 Z" fill="#b48cff" stroke="${INK}" stroke-width="8" stroke-linejoin="round"/><rect x="-95" y="-115" width="190" height="30" rx="8" fill="#9a70f0" stroke="${INK}" stroke-width="7"/>
+  <path d="M-34 -20 l 10 -28 l 14 20 h20 l 14 -20 l 10 28 q 6 50 -34 52 q -40 -2 -34 -52z" fill="#fff" stroke="${INK}" stroke-width="5"/><circle cx="-14" cy="-6" r="5" fill="${INK}"/><circle cx="14" cy="-6" r="5" fill="${INK}"/><text y="70" text-anchor="middle" font-family="Montserrat" font-weight="800" font-size="24" fill="${INK}">STREU</text></g>`;
+const cross=(id)=>`<g id="${id}" opacity="0"><path d="M-90 -90 L90 90 M90 -90 L-90 90" stroke="${RED}" stroke-width="26" stroke-linecap="round"/></g>`;
+const card=(id,item,label)=>`<g id="${id}" opacity="0"><rect x="-140" y="-150" width="280" height="330" rx="34" fill="#0f2f63" stroke="${TQ}" stroke-width="6"/>${item.replace('<g>','<g transform="translate(0,-20)">')}<text y="140" text-anchor="middle" font-family="Montserrat" font-weight="800" font-size="34" fill="#fff">${label}</text>${cross(id+'x')}</g>`;
+// ---------- scene ----------
+$('sv').innerHTML=`
+<g id="S1"><g id="T1" transform="translate(540,1320)">${toilet('ta')}</g>
+  <g id="alarm" transform="translate(540,640)" opacity="0"><path d="M-40 0 a40 40 0 0 1 80 0 v10 h-80z" fill="${RED}" stroke="${INK}" stroke-width="6"/><rect x="-52" y="8" width="104" height="18" rx="6" fill="${INK}"/><g id="rays"></g></g>
+  <g id="job" opacity="0"><rect x="-230" y="-200" width="460" height="400" rx="30" fill="${W}" stroke="${INK}" stroke-width="9"/><rect x="-80" y="-220" width="160" height="50" rx="14" fill="#a9b4c4" stroke="${INK}" stroke-width="7"/>
+    <text x="0" y="-130" text-anchor="middle" font-family="Montserrat" font-weight="800" font-size="34" fill="${INK}">STELLENBESCHREIBUNG</text>
+    <g font-family="Montserrat" font-weight="800" font-size="40" fill="${INK}"><text x="-180" y="-50"><tspan fill="${GR}">✓</tspan> Wasser</text><text x="-180" y="20"><tspan fill="${GR}">✓</tspan> Toilettenpapier</text><text x="-180" y="90"><tspan fill="${GR}">✓</tspan> Das Übliche</text></g>
+    <text x="0" y="160" text-anchor="middle" font-family="Montserrat" font-weight="600" font-size="28" fill="#55607a">Sonst nichts.</text></g>
+  ${card('c1',wipes,'Feuchttücher')}${card('c2',roll,'Küchenrolle')}${card('c3',litter,'Katzenstreu')}
+</g>
+<g id="S2" opacity="0">
+  <text x="540" y="560" text-anchor="middle" font-family="Montserrat" font-weight="800" font-size="34" fill="#9fb4d8">Abwasserrohr (vereinfacht)</text>
+  <path d="M150 600 V820 Q150 900 230 900 H1000" fill="none" stroke="#123a73" stroke-width="210" stroke-linecap="butt"/>
+  <path d="M150 600 V820 Q150 900 230 900 H1000" fill="none" stroke="${TQ}" stroke-width="226" stroke-opacity=".9" style="mix-blend-mode:normal" id="pipeO"/>
+  <path d="M150 600 V820 Q150 900 230 900 H1000" fill="none" stroke="#143c7a" stroke-width="196"/>
+  <rect id="wat" x="150" y="925" width="850" height="77" fill="#3fa9ff" opacity=".85"/>
+  <rect id="back" x="60" y="1002" width="0" height="0" fill="#3fa9ff" opacity=".85"/>
+  <g id="flow"></g><g id="tp"></g><g id="clog"></g>
+  <g id="warn" opacity="0"><path d="M0 -70 L64 44 H-64 Z" fill="${Y}" stroke="${INK}" stroke-width="8" stroke-linejoin="round"/><text y="26" text-anchor="middle" font-family="Oswald" font-weight="700" font-size="74" fill="${INK}">!</text></g>
+  <g id="lbTP" opacity="0"><rect x="-240" y="-40" width="480" height="80" rx="40" fill="${GR}" stroke="${INK}" stroke-width="6"/><text text-anchor="middle" dominant-baseline="central" font-family="Montserrat" font-weight="800" font-size="34" fill="${INK}">Klopapier: zerfällt ✓</text></g>
+  <g id="lbKR" opacity="0"><rect x="-300" y="-40" width="600" height="80" rx="40" fill="${RED}" stroke="${INK}" stroke-width="6"/><text text-anchor="middle" dominant-baseline="central" font-family="Montserrat" font-weight="800" font-size="34" fill="#fff">Küchenrolle: hält zusammen ✗</text></g>
+</g>
+<g id="S3" opacity="0">
+  <g id="T3" transform="translate(330,1320) scale(.82)">${toilet('tb')}</g>
+  <g id="bin" transform="translate(1300,1320)"><rect x="-130" y="-300" width="260" height="300" rx="26" fill="${TQ}" stroke="${INK}" stroke-width="9"/><path d="M-70 -250 v200 M0 -250 v200 M70 -250 v200" stroke="#1aa99c" stroke-width="12" stroke-linecap="round"/>
+    <g id="lid"><rect x="-150" y="-340" width="300" height="44" rx="18" fill="#1aa99c" stroke="${INK}" stroke-width="9"/><rect x="-40" y="-366" width="80" height="30" rx="12" fill="#1aa99c" stroke="${INK}" stroke-width="7"/></g>
+    <text x="0" y="-120" text-anchor="middle" font-family="Montserrat" font-weight="800" font-size="40" fill="${INK}">MÜLL</text></g>
+  <g id="fly1" opacity="0"><g transform="scale(.6)">${wipes}</g></g><g id="fly2" opacity="0"><g transform="scale(.6)">${roll}</g></g><g id="fly3" opacity="0"><g transform="scale(.6)">${litter}</g></g>
+  <g id="ok" opacity="0"><circle r="80" fill="${GR}" stroke="${INK}" stroke-width="9"/><path d="M-38 2 L-10 30 L42 -30" fill="none" stroke="#fff" stroke-width="20" stroke-linecap="round" stroke-linejoin="round"/></g>
+  <g id="cal" opacity="0"><rect x="-150" y="-130" width="300" height="270" rx="26" fill="${W}" stroke="${INK}" stroke-width="9"/><rect x="-150" y="-130" width="300" height="80" rx="26" fill="${RED}" stroke="${INK}" stroke-width="9"/>
+    <text y="-78" text-anchor="middle" font-family="Montserrat" font-weight="800" font-size="40" fill="#fff">LETZTEN</text><text y="40" text-anchor="middle" font-family="Oswald" font-weight="700" font-size="76" fill="${INK}">DIENSTAG</text><text y="112" text-anchor="middle" font-family="Oswald" font-weight="700" font-size="56" fill="${RED}">???</text>
+    <g id="mag"><circle r="62" fill="rgba(143,211,255,.35)" stroke="${INK}" stroke-width="12"/><line x1="44" y1="44" x2="110" y2="110" stroke="${INK}" stroke-width="22" stroke-linecap="round"/></g></g>
+</g>
+<g id="S4" opacity="0"><g id="T4" transform="translate(540,800) scale(.55)">${toilet('tc')}</g></g>`;
+// flow particles
+{let s='';for(let k=0;k<18;k++)s+=`<rect id="fp${k}" x="0" y="0" width="46" height="10" rx="5" fill="#bfe6ff" opacity=".9"/>`;$('flow').innerHTML=s}
+// ---------- captions ----------
+const CH=[];{let cur=[];CAPS.forEach((w,k)=>{cur.push(w);const txt=cur.map(x=>x.text).join(' ');const brk=/[.,?!:;]$/.test(w.text)||cur.length>=5||txt.length>28;if(brk||k===CAPS.length-1){CH.push(cur);cur=[]}});}
+CH.forEach((c,k)=>{c.s=c[0].start-.05;c.e=k+1<CH.length?Math.min(CH[k+1][0].start-.05,c[c.length-1].end+.6):c[c.length-1].end+.5});
+const show=(id,on)=>{$(id).style.display=on?'block':'none';return on};
+function drawClog(n,t){ // n = amount of debris 0..1
+  let s='';const items=[[700,960,'#7ad7ff',90,60],[760,950,'#fff',80,70],[650,975,'#b48cff',60,40],[730,985,'#d6c7a1',50,36],[800,975,'#7ad7ff',70,46],[690,940,'#fff',60,50]];
+  items.forEach((it,k)=>{const q=cl(n*items.length-k);if(q>0){const wob=Math.sin(t*3+k)*3;s+=`<rect x="${it[0]-it[3]*.65}" y="${it[1]-it[4]*.65+wob}" width="${it[3]*1.3*q}" height="${it[4]*1.3*q}" rx="16" fill="${it[2]}" stroke="${INK}" stroke-width="6" transform="rotate(${k*17-30} ${it[0]} ${it[1]})"/>`}});
+  $('clog').innerHTML=s}
+// ---------- render ----------
+window.render=async function(t){
+  const E1=C.feucht, E2=C.nur, E3=C.desh, E4=C.endc;
+  let cz=1,cx=0,cy=0;
+  // ===== S1: resignation + items =====
+  const in1=t<E2+.4;op('S1',in1?1-p(t,E2,.4):0);
+  if(in1){
+    // sign up on "gekündigt"
+    const ks=back(p(t,.1,.5)),up=eo(p(t,C.gek-.1,.45));
+    const pre=t<E1;
+    const tS=pre?1:lerp(1,.82,eo(p(t,E1,.5))),tY=pre?1320:lerp(1320,1340,eo(p(t,E1,.5))),tX=pre?540:lerp(540,540,0);
+    at('T1',`translate(${tX},${tY}) scale(${tS*ks})`);
+    const shakeA=t>=C.gek&&t<C.gek+1.2?Math.sin(t*40)*4*(1-p(t,C.gek,1.2)):0;
+    at('tasign',`translate(${250+shakeA},${lerp(-420,-760,up)}) rotate(${lerp(30,-6,up)+shakeA})`);op('tasign',t<E1?1:1-p(t,E1,.3));
+    arms('ta',t<E1?[lerp(-240,-260,up),lerp(-260,-300,up)]:[-250,-280],t<E1?[lerp(240,250,up),lerp(-260,-600,up)]:[lerp(250,240,p(t,E1,.3)),lerp(-600,-280,eo(p(t,E1,.4)))]);
+    // mood: angry while quitting, shock grows with each item
+    let mood=t<C.gek-.1?0:1,k=0;if(t>=E1){mood=2;k=t<C.kr?.3:t<C.katz?.65:1}
+    face('ta',mood,k,t,t>=E1?Math.sin(t*2):0);
+    // alarm on "gekündigt": soft rotating light + gentle zoom (no flashes)
+    const al=t>=C.gek&&t<C.grund+.4;op('alarm',al?cl(p(t,C.gek,.15))*(1-p(t,C.grund,.4)):0);
+    if(al){let r='';for(let j=0;j<6;j++){const a=t*4+j*Math.PI/3;r+=`<line x1="${Math.cos(a)*60}" y1="${-10+Math.sin(a)*60}" x2="${Math.cos(a)*100}" y2="${-10+Math.sin(a)*100}" stroke="${RED}" stroke-width="8" stroke-linecap="round" opacity=".7"/>`}$('rays').innerHTML=r;at('alarm',`translate(540,612)`)}
+    cz*=1+.1*io(p(t,C.gek,.6))*(1-io(p(t,C.grund,.8)));cy+=-60*io(p(t,C.gek,.6))*(1-io(p(t,C.grund,.8)));
+    // job description pops beside on "Aufgaben ... Stellenbeschreibung"
+    const jb=t>=C.aufg&&t<E1;op('job',jb?cl(p(t,C.aufg,.15))*(1-p(t,E1-.25,.25)):0);at('job',`translate(300,470) scale(${.85*back(p(t,C.aufg,.4))}) rotate(-3)`);
+    // item cards, each with red cross
+    [['c1',E1],['c2',C.kr],['c3',C.katz]].forEach(([id,c],j)=>{const on=t>=c;op(id,on?1:0);at(id,`translate(${220+j*320},${480}) scale(${.9*back(p(t,c,.4))})`);
+      const kx=back(p(t,c+.45,.3));op(id+'x',t>=c+.45?1:0);at(id+'x',`scale(${kx})`)});
+  }
+  // ===== S2: pipe cross-section =====
+  const in2=t>=E2&&t<E3+.4;op('S2',in2?cl(p(t,E2,.4))*(1-p(t,E3,.4)):0);
+  if(in2){cz*=1.0+.05*io(p(t,E2,8));
+    const slow=1-.85*eo(p(t,C.problem,1.0));const sp=260*slow;
+    // backed-up water rises behind the clog
+    const lvl=eo(p(t,C.genau,1.6));S('back',{x:60,y:1002-lvl*0,width:0,height:0});S('wat',{y:925-lvl*60,height:77+lvl*60});
+    for(let k=0;k<18;k++){const ph=((t*sp/900+k/18)%1);const x=150+ph*860;const pass=x<640||t<C.genau;S('fp'+k,{x:x,y:945+(k%3)*18-lvl*40,opacity:pass?.85*slow+.1:0})}
+    // flush: item drops down the inlet on "Spülen ... verschwindet"
+    let tp='';const fd=p(t,C.spuel,1.2);if(fd>0&&fd<1){const yy=lerp(560,900,io(fd));tp+=`<g transform="translate(${150+io(fd)*500},${yy}) rotate(${fd*200})"><rect x="-40" y="-26" width="80" height="52" rx="12" fill="#7ad7ff" stroke="${INK}" stroke-width="6"/></g>`}
+    // toilet paper falls apart in water
+    const tq=p(t,C.tp,2.0);if(tq>0&&tq<1){const x=lerp(150,900,tq),y=lerp(640,960,cl(tq*2.2));const br=cl((tq-.3)/.4);
+      for(let j=0;j<6;j++){const dx=(j%3-1)*br*40+br*j*12,dy=(Math.floor(j/3)-.5)*br*30;tp+=`<rect x="${x+dx-18*(1-br*.5)}" y="${y+dy-14}" width="${36*(1-br*.5)}" height="${28*(1-br*.5)}" rx="6" fill="#fff" stroke="${INK}" stroke-width="4" opacity="${1-cl((tq-.75)/.25)}"/>`}}
+    // kitchen towel stays whole and gets stuck
+    const kq=p(t,C.kr2,1.4);if(kq>0){const x=lerp(150,700,eo(kq)),y=lerp(640,950,cl(kq*1.8));tp+=`<g transform="translate(${x},${y}) rotate(${kq*30-10})"><rect x="-60" y="-40" width="120" height="80" rx="10" fill="#fff" stroke="${INK}" stroke-width="6"/><path d="M-40 -15 h80 M-40 10 h80" stroke="#c9d3de" stroke-width="5"/></g>`}
+    $('tp').innerHTML=tp;
+    drawClog(cl(p(t,C.spuel+.8,2.2)*.5+p(t,C.kr2+.8,2.0)*.5),t);
+    {const k=back(p(t,C.tp+.4,.35));op('lbTP',t>=C.tp+.4&&t<C.kr2?1:0);at('lbTP',`translate(540,1180) scale(${k})`)}
+    {const k=back(p(t,C.zus,.35));op('lbKR',t>=C.zus?1:0);at('lbKR',`translate(540,1180) scale(${k})`)}
+    {const k=back(p(t,C.problem,.35));op('warn',t>=C.problem?1:0);at('warn',`translate(720,770) scale(${k*(1+.04*Math.sin(t*6))})`)}
+  }
+  if(show('tWeg',t>=C.probl&&t<E3)){const k=back(p(t,C.probl,.45));$('tWeg').style.transform=`scale(${k})`;$('tWeg').style.opacity=1-p(t,E3-.3,.3)}
+  // ===== S3: bin, relax, Tuesday =====
+  const in3=t>=E3&&t<E4+.5;op('S3',in3?cl(p(t,E3+.3,.4))*(1-p(t,E4,.5)):0);
+  if(in3){const kb=eo(p(t,E3+.1,.8));at('bin',`translate(${lerp(1300,780,kb)},1320)`);
+    const lidO=t>=C.abf-.1&&t<C.muell+1.2?1:0;at('lid',`rotate(${-lidO*35*eo(p(t,C.abf-.1,.25))} -150 -320)`);
+    [['fly1',C.abf],['fly2',C.abf+.35],['fly3',C.abf+.7]].forEach(([id,c],j)=>{const q=p(t,c,.8);op(id,q>0&&q<1?1:0);
+      const x=lerp(330+j*40,780,q),y=lerp(700,1050,q)-Math.sin(q*Math.PI)*300;at(id,`translate(${x},${y}) rotate(${q*360})`)});
+    {const k=back(p(t,C.muell+.3,.4));op('ok',t>=C.muell+.3?1:0);at('ok',`translate(780,820) scale(${k})`)}
+    // toilet: worried -> relaxed with "ICH BLEIBE"
+    const relax=t>=C.muell+.3;face('tb',relax?3:2,relax?0:.3,t,0);
+    at('tbsign',`translate(240,${relax?lerp(-300,-760,eo(p(t,C.muell+.3,.5))):-300}) rotate(${relax?-4:20})`);op('tbsign',relax?1:0);$('tbst').textContent='ICH BLEIBE.';
+    arms('tb',[-250,-280],relax?[240,lerp(-280,-600,eo(p(t,C.muell+.3,.5)))]:[250,-280]);
+    // "letzten Dienstag" calendar with magnifier
+    const kc=back(p(t,C.dienst-.5,.4));op('cal',t>=C.dienst-.5?1:0);at('cal',`translate(830,480) scale(${.9*kc}) rotate(4)`);
+    at('mag',`translate(${Math.sin(t*3)*70},${30+Math.cos(t*2.4)*40})`);
+    op('ok',t>=C.muell+.3&&t<C.dienst-.5?1:t>=C.dienst-.5?1-p(t,C.dienst-.5,.3):0);
+  }
+  // ===== S4: calm end card =====
+  const in4=t>=E4;op('S4',in4?eo(p(t,E4+.1,.6)):0);
+  if(in4){face('tc',3,0,t,0);at('T4',`translate(540,${800+Math.sin((t-E4)*2)*6}) scale(.55)`);op('tcsign',0);arms('tc',[-230,-250],[230,-250])}
+  if(show('tEnd1',in4)){const k=eo(p(t,E4+.4,.6));$('tEnd1').style.opacity=k;$('tEnd1').style.transform=`translateY(${(1-k)*30}px)`}
+  if(show('tEnd2',in4)){const k=eo(p(t,E4+.8,.6));$('tEnd2').style.opacity=k;$('tEnd2').style.transform=`translateY(${(1-k)*30}px)`}
+  if(show('tUrl',in4)){const k=eo(p(t,E4+1.3,.6));$('tUrl').style.opacity=k;$('tUrl').style.transform=`translateY(${(1-k)*30}px)`}
+  $('cam').style.transform=`translate(${cx}px,${cy}px) scale(${cz})`;
+  let html='';for(const c of CH){if(t>=c.s&&t<c.e){html=c.map(w=>`<span class="${t>=w.start-.03?'on':''}">${w.text}</span>`).join(' ');break}}
+  $('caps').innerHTML=t<E4&&html?`<div>${html}</div>`:'';
+};
+window.addEventListener('load',()=>document.fonts.ready.then(()=>render(0)));
+</script>
+</body>
+</html>
