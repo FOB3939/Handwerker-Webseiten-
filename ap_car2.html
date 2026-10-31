@@ -1,0 +1,101 @@
+<!doctype html>
+<html lang="de">
+<head>
+<meta charset="utf-8">
+<style>
+@font-face{font-family:Montserrat;font-weight:600;src:url(assets/fonts/montserrat-latin-600-normal.woff2)}
+@font-face{font-family:Montserrat;font-weight:800;src:url(assets/fonts/montserrat-latin-800-normal.woff2)}
+@font-face{font-family:Oswald;font-weight:700;src:url(assets/fonts/oswald-latin-700-normal.woff2)}
+:root{--r:#D8141B;--r2:#FF3B3F;--ink:#0c0c0f}
+*{box-sizing:border-box;margin:0;padding:0}
+html,body{width:1080px;height:1920px;overflow:hidden;background:#000}
+#stage{position:relative;width:1080px;height:1920px;overflow:hidden;font-family:Montserrat,sans-serif;color:#fff;background:#000}
+#cam{position:absolute;inset:0;transform-origin:50% 50%}
+#vid{position:absolute;left:0;top:0;width:1080px;height:1920px;object-fit:cover}
+#grade{position:absolute;inset:0;background:linear-gradient(180deg,rgba(0,0,0,.5) 0%,rgba(0,0,0,0) 22%,rgba(0,0,0,0) 65%,rgba(0,0,0,.6) 100%)}
+#sweep{position:absolute;top:-20%;height:140%;width:240px;background:linear-gradient(90deg,transparent,rgba(255,255,255,.5),transparent);transform:skewX(-18deg);mix-blend-mode:screen}
+.a{position:absolute}
+.c{left:40px;right:40px;text-align:center}
+#neu{left:-40px;right:-40px;top:760px;text-align:center}
+#neu span{display:inline-block;background:var(--r);font:800 118px Montserrat;text-transform:uppercase;padding:18px 70px;line-height:1;box-shadow:0 20px 60px rgba(0,0,0,.6)}
+#neu small{display:block;font:800 52px Montserrat;margin-top:14px;text-shadow:0 4px 20px rgba(0,0,0,.8)}
+#title{top:230px}
+#title .m{font:700 140px Oswald;line-height:.95;text-transform:uppercase;text-shadow:0 8px 30px rgba(0,0,0,.8)}
+#title .s{display:inline-block;margin-top:12px;background:#fff;color:var(--ink);font:800 50px Montserrat;padding:10px 28px;text-transform:uppercase}
+#corner{right:40px;top:150px;background:var(--r);font:800 32px Montserrat;padding:10px 22px;text-transform:uppercase;letter-spacing:.06em;box-shadow:0 10px 30px rgba(0,0,0,.5)}
+#lab{left:0;right:0;top:1440px;text-align:center}
+#lab div{display:inline-flex;align-items:center;gap:18px;background:rgba(12,12,15,.86);border-left:12px solid var(--r);font:800 62px Montserrat;padding:18px 40px 18px 30px;text-transform:uppercase;box-shadow:0 20px 50px rgba(0,0,0,.6)}
+#lab i{font-style:normal;color:var(--r2)}
+#sheet{left:70px;right:70px;top:430px;background:rgba(12,12,15,.9);border-top:12px solid var(--r);border-radius:22px;padding:34px 44px;box-shadow:0 30px 80px rgba(0,0,0,.6)}
+#sheet h3{font:700 64px Oswald;text-transform:uppercase;letter-spacing:.03em;margin-bottom:14px}
+#sheet h3 b{color:var(--r2)}
+.row{display:flex;justify-content:space-between;align-items:center;padding:20px 0;border-top:2px solid rgba(255,255,255,.1);font:600 44px Montserrat}
+.row span:first-child{color:#bbb}
+.row span:last-child{font-weight:800}
+#end{position:absolute;inset:0;display:none;background:rgba(10,4,5,.75)}
+#elogo{left:90px;width:900px;top:430px;border-radius:24px;box-shadow:0 30px 90px rgba(216,20,27,.4)}
+#flash{position:absolute;inset:0;background:#fff;z-index:30;opacity:0}
+#prog{position:absolute;left:0;top:0;height:8px;background:var(--r);z-index:31}
+</style>
+<script>document.write('<script src="'+(new URLSearchParams(location.search).get('data')||'data.js')+'"><\/script>')</script>
+</head>
+<body>
+<div id="stage"><div id="cam"><img id="vid"><div id="grade"></div><div id="sweep"></div></div>
+  <div class="a" id="corner">Neu eingetroffen</div>
+  <div class="a" id="neu"><span>Neu eingetroffen</span><small>bei Autopunkt Glonn</small></div>
+  <div class="a c" id="title"><div class="m">Audi A5 Sportback</div><div class="s">45 TDI quattro</div></div>
+  <div class="a" id="lab"><div><i>✓</i><span id="labt"></span></div></div>
+  <div class="a" id="sheet"><h3>Eck<b>daten</b></h3>
+    <div class="row"><span>Modell</span><span>Audi A5 Sportback</span></div>
+    <div class="row"><span>Motor</span><span>45 TDI · Diesel</span></div>
+    <div class="row"><span>Antrieb</span><span>quattro Allrad</span></div>
+    <div class="row"><span>Getriebe</span><span>Automatik</span></div>
+    <div class="row"><span>Farbe</span><span>Silber</span></div></div>
+  <div id="end">
+    <img class="a" id="elogo" src="jobs/ap_car/logo.jpg">
+    <div class="a c" id="e1" style="top:890px;font:800 74px Montserrat;text-transform:uppercase;line-height:1.05">Jetzt <span style="color:var(--r2)">Probefahrt</span><br>vereinbaren</div>
+    <div class="a c" id="e2" style="top:1110px"><span style="display:inline-block;background:#fff;color:#0c0c0f;font:800 48px Montserrat;padding:18px 36px;border-radius:16px">📍 Kastenseestraße 6 · Glonn</span></div>
+    <div class="a c" id="e3" style="top:1250px;font:800 50px Montserrat">@autopunkt.glonn</div>
+  </div>
+<div id="flash"></div><div id="prog"></div></div>
+<script>
+const $=id=>document.getElementById(id);
+const cl=(x,a=0,b=1)=>Math.min(b,Math.max(a,x));
+const p=(t,a,d)=>cl((t-a)/d);
+const eo=x=>1-Math.pow(1-x,3);
+const io=x=>x<.5?4*x*x*x:1-Math.pow(-2*x+2,3)/2;
+const back=x=>{const c=1.8;return 1+(c+1)*Math.pow(x-1,3)+c*Math.pow(x-1,2)};
+const C=CUES,T=C.total,VD=C.vdur,NF=C.nf;
+// feature labels on the ORIGINAL timeline (video plays 1:1 so the original voice stays in sync)
+const LAB=[[4.4,6.6,'Alufelgen','62% 70%'],[7.4,10.2,'Edles Silber','50% 50%'],[11.4,14.2,'Edler Innenraum','50% 55%'],
+ [14.9,16.0,'Großer Touchscreen','45% 40%'],[16.0,17.2,'Digitales Cockpit','50% 45%'],[20.6,22.2,'Alufelgen','62% 72%'],[22.3,23.1,'LED-Rückleuchten','30% 45%'],
+ [23.1,24.3,'45 TDI quattro','32% 72%'],[33.7,VD,'Automatik','74% 52%']];
+const SHEET=[26.4,30.6];
+const HITS=[2.6,...LAB.map(l=>l[0]),SHEET[0],VD];
+window.render=async function(t){
+  const f=Math.min(NF,Math.max(1,Math.round(Math.min(t,VD-.04)*30)+1));
+  const v=$('vid');const url=`jobs/ap_car/vid/v${String(f).padStart(4,'0')}.jpg`;if(v.dataset.u!==url){v.dataset.u=url;v.src=url}
+  const L=LAB.find(l=>t>=l[0]&&t<l[1]);
+  // gentle push-in on each labelled detail + punch on hits
+  let zs=1.02+.02*Math.sin(t*.7),sx=0,sy=0,org='50% 50%';
+  if(L){zs=1.06+.14*io(p(t,L[0],L[1]-L[0]));org=L[3]}
+  for(const c of HITS){if(t>=c&&t<c+.4){const e=Math.exp(-(t-c)*10);zs+=.05*e;sx+=Math.sin((t-c)*80)*12*e;sy+=Math.cos((t-c)*70)*9*e}}
+  $('cam').style.transformOrigin=org;$('cam').style.transform=`translate(${sx}px,${sy}px) scale(${zs})`;
+  $('vid').style.filter=`contrast(1.08) saturate(1.12) ${t>=SHEET[0]&&t<SHEET[1]?'blur(6px) brightness(.55)':''} ${t>=VD?'blur(10px) brightness(.5)':''}`;
+  let fl=t<.25?.6*(1-t/.25):0;for(const c of HITS)if(t>=c)fl+=.22*Math.exp(-(t-c)*13);$('flash').style.opacity=cl(fl);
+  const sw=((t+.3)%3.2)/3.2;$('sweep').style.left=(-300+1700*io(cl(sw*2)))+'px';
+  $('prog').style.width=(cl(t/T)*100)+'%';
+  {const on=t<2.6;const kk=back(p(t,.15,.45));$('neu').style.display=on?'block':'none';$('neu').style.transform=`rotate(${-8+(1-kk)*-20}deg) scale(${2.2-1.2*kk})`;$('neu').style.opacity=cl(p(t,.15,.08))*(1-p(t,2.35,.25))}
+  {const kc=back(p(t,2.6,.4));$('corner').style.display=t>=2.6&&t<VD?'block':'none';$('corner').style.transform=`scale(${kc})`}
+  {const on=t>=2.6&&t<7.2;$('title').style.display=on?'block':'none';const kt=eo(p(t,2.65,.5));$('title').style.opacity=kt*(1-p(t,6.9,.3));$('title').style.transform=`translateY(${(1-kt)*-60}px)`}
+  {$('lab').style.display=L?'block':'none';if(L){$('labt').textContent=L[2];const kl=back(p(t,L[0]+.05,.35));$('lab').style.transform=`translateX(${(1-kl)*-900}px)`;$('lab').style.opacity=1-p(t,L[1]-.15,.15)}}
+  {const on=t>=SHEET[0]&&t<SHEET[1];$('sheet').style.display=on?'block':'none';if(on){const ks=back(p(t,SHEET[0],.45));$('sheet').style.transform=`scale(${ks})`;$('sheet').style.opacity=1-p(t,SHEET[1]-.3,.3);
+    [...$('sheet').querySelectorAll('.row')].forEach((r,i)=>{const kr=eo(p(t,SHEET[0]+.4+i*.45,.35));r.style.opacity=kr;r.style.transform=`translateX(${(1-kr)*120}px)`})}}
+  {const e=t>=VD;$('end').style.display=e?'block':'none';if(e){const kl=back(p(t,VD,.5));$('elogo').style.transform=`scale(${.6+.4*kl})`;$('elogo').style.opacity=cl(p(t,VD,.15));
+    [['e1',.3],['e2',.7],['e3',1.0]].forEach(([id,d])=>{const kk=eo(p(t,VD+d,.45));$(id).style.opacity=kk;$(id).style.transform=`translateY(${(1-kk)*40}px)`})}}
+  await v.decode().catch(()=>{});
+};
+window.addEventListener('load',()=>document.fonts.ready.then(()=>render(0)));
+</script>
+</body>
+</html>
