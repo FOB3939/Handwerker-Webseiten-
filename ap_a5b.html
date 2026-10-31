@@ -1,0 +1,183 @@
+<!doctype html>
+<html lang="de">
+<head>
+<meta charset="utf-8">
+<style>
+@font-face{font-family:Montserrat;font-weight:600;src:url(assets/fonts/montserrat-latin-600-normal.woff2)}
+@font-face{font-family:Montserrat;font-weight:800;src:url(assets/fonts/montserrat-latin-800-normal.woff2)}
+@font-face{font-family:Oswald;font-weight:700;src:url(assets/fonts/oswald-latin-700-normal.woff2)}
+:root{--r:#D8141B;--r2:#ff4d52;--ink:#0d0d10}
+*{box-sizing:border-box;margin:0;padding:0}
+html,body{width:1080px;height:1920px;overflow:hidden;background:#000}
+#stage{position:relative;width:1080px;height:1920px;overflow:hidden;font-family:Montserrat,sans-serif;color:#fff;background:#0d0d10}
+#shots{position:absolute;inset:0}
+.shot{position:absolute;inset:0;display:none;overflow:hidden}
+.cov{position:absolute;inset:0;background-size:cover;background-repeat:no-repeat}
+.bg{position:absolute;inset:-80px;background-size:cover;background-position:center;filter:blur(40px) brightness(.32) saturate(.9)}
+.fit{position:absolute;left:0;width:1080px;height:810px;background-size:cover;background-position:center;box-shadow:0 30px 80px rgba(0,0,0,.55)}
+.shade{position:absolute;inset:0;background:linear-gradient(180deg,rgba(0,0,0,.55) 0%,rgba(0,0,0,0) 26%,rgba(0,0,0,0) 58%,rgba(0,0,0,.72) 100%)}
+.a{position:absolute;display:none}
+.c{left:70px;right:70px;text-align:center}
+.chip{display:inline-block;background:var(--r);font:800 34px Montserrat;letter-spacing:.08em;text-transform:uppercase;padding:10px 24px}
+.h1{font:700 128px Oswald;text-transform:uppercase;line-height:.96;text-shadow:0 6px 30px rgba(0,0,0,.6)}
+.h2{font:800 58px Montserrat;text-transform:uppercase;line-height:1.1;text-shadow:0 4px 20px rgba(0,0,0,.7)}
+.lab{display:inline-block;background:rgba(13,13,16,.9);border-left:12px solid var(--r);padding:20px 34px;font:800 58px Montserrat;line-height:1.1;text-align:left;box-shadow:0 20px 50px rgba(0,0,0,.5)}
+.lab small{display:block;font:600 34px Montserrat;color:#cfcfd4;margin-top:6px}
+#stamp{left:-40px;right:-40px;top:250px;text-align:center}
+#stamp span{display:inline-block;background:var(--r);font:800 104px Montserrat;text-transform:uppercase;padding:16px 60px;line-height:1;box-shadow:0 20px 60px rgba(0,0,0,.6)}
+#stamp small{display:block;font:800 50px Montserrat;margin-top:16px;text-shadow:0 4px 20px rgba(0,0,0,.8)}
+#sheet{left:70px;right:70px;top:1270px;background:rgba(13,13,16,.94);border-top:10px solid var(--r);padding:22px 40px;transform-origin:50% 0}
+.row{display:flex;justify-content:space-between;padding:13px 0;font:600 42px Montserrat;border-top:2px solid rgba(255,255,255,.08)}
+.row:first-child{border-top:none}
+.row span:first-child{color:#a9a9b0}
+.row span:last-child{font-weight:800}
+.row.hot span:last-child{color:var(--r2)}
+#pq{top:300px}
+#price{left:0;right:0;top:820px;text-align:center}
+#price .p{display:inline-block;background:#fff;color:var(--ink);font:700 200px Oswald;line-height:1;padding:20px 54px;box-shadow:0 30px 80px rgba(0,0,0,.6)}
+#price .p b{color:var(--r)}
+#price .n{display:block;margin-top:26px;font:800 48px Montserrat;text-transform:uppercase;letter-spacing:.04em;text-shadow:0 4px 20px rgba(0,0,0,.8)}
+#sweep{position:absolute;top:-20%;height:140%;width:220px;background:linear-gradient(90deg,transparent,rgba(255,255,255,.35),transparent);transform:skewX(-18deg);mix-blend-mode:screen;z-index:6}
+#flash{position:absolute;inset:0;background:#fff;z-index:30;opacity:0;pointer-events:none}
+#caps{position:absolute;left:60px;right:60px;top:1560px;text-align:center;z-index:20}
+#caps div{display:inline-block;background:rgba(13,13,16,.86);border-radius:14px;padding:10px 24px;font:800 48px Montserrat;line-height:1.18;max-width:960px}
+#caps span.on{color:var(--r2)}
+#prog{position:absolute;left:0;top:0;height:7px;background:var(--r);z-index:31}
+/* end card */
+#end{position:absolute;inset:0;display:none;background:#fff;color:var(--ink);z-index:25;overflow:hidden}
+#ebar{position:absolute;top:0;bottom:0;width:1300px;background:var(--r);z-index:28;display:none}
+#lw{position:absolute;left:80px;width:920px;top:190px;height:362px}
+#logo{position:absolute;inset:0;width:920px;height:362px}
+#lshine{position:absolute;inset:0;-webkit-mask:url(jobs/ap_a5/logo_red.png) center/100% 100% no-repeat;mask:url(jobs/ap_a5/logo_red.png) center/100% 100% no-repeat;background:linear-gradient(105deg,transparent 40%,rgba(255,255,255,.95) 50%,transparent 60%);background-size:300% 100%}
+#eline{position:absolute;left:140px;right:140px;top:600px;height:8px;background:var(--r);transform-origin:50% 50%}
+#ecar{position:absolute;left:60px;right:60px;top:650px;height:560px;border-radius:28px;overflow:hidden;box-shadow:0 30px 70px rgba(0,0,0,.28)}
+#ecar div{position:absolute;inset:0;background:url(jobs/ap_a5/img/01_front34_rechts.jpg) center/cover}
+#ecar i{position:absolute;left:24px;top:24px;font:800 30px Montserrat;font-style:normal;background:var(--r);color:#fff;padding:8px 18px;text-transform:uppercase;letter-spacing:.06em}
+#eprice{position:absolute;left:0;right:0;top:1250px;text-align:center}
+#eprice span{display:inline-block;background:var(--r);color:#fff;font:700 130px Oswald;line-height:1;padding:14px 46px;border-radius:18px;box-shadow:0 20px 50px rgba(216,20,27,.35)}
+#efacts{position:absolute;left:0;right:0;top:1440px;text-align:center;font:800 40px Montserrat;color:#3a3a40}
+#ecta{position:absolute;left:40px;right:40px;top:1530px;text-align:center;font:800 62px Montserrat;line-height:1.12}
+#ecta b{color:var(--r)}
+#econ{position:absolute;left:0;right:0;top:1720px;text-align:center;font:600 38px Montserrat;color:#55555c;line-height:1.35}
+</style>
+<script>document.write('<script src="'+(new URLSearchParams(location.search).get('data')||'data.js')+'"><\/script>')</script>
+</head>
+<body>
+<div id="stage"><div id="shots"></div><div id="sweep"></div>
+  <div class="a" id="stamp"><span>Neu eingetroffen</span><small>bei Autopunkt Glonn</small></div>
+  <div class="a c" id="title" style="top:240px"><div class="h1">Audi A5<br>Sportback</div></div>
+  <div class="a c" id="t2" style="top:1300px"><div class="lab">45 TDI quattro<small>Diesel · Allrad · Automatik</small></div></div>
+  <div class="a c" id="t3h" style="top:250px"><div class="h2">Die Eckdaten</div></div>
+  <div class="a" id="sheet">
+    <div class="row"><span>Motor</span><span>45 TDI · Diesel</span></div>
+    <div class="row"><span>Antrieb</span><span>quattro Allrad</span></div>
+    <div class="row"><span>Getriebe</span><span>Automatik</span></div>
+    <div class="row hot"><span>Kilometer</span><span id="kmv">89.000 km</span></div>
+    <div class="row"><span>Farbe</span><span>Silber</span></div></div>
+  <div class="a c" id="t4" style="top:1300px"><div class="lab">Virtual Cockpit<small>mit Navigation</small></div></div>
+  <div class="a c" id="t5" style="top:1300px"><div class="lab">Rückfahrkamera<small>plus Einparkhilfe vorn &amp; hinten</small></div></div>
+  <div class="a c" id="t6" style="top:1300px"><div class="lab">3-Zonen-Klimaautomatik</div></div>
+  <div class="a c" id="pq"><div class="h1" style="font-size:150px">Und der<br><span style="color:var(--r2)">Preis?</span></div></div>
+  <div class="a" id="price"><div class="p"><span id="pv">26.990</span> <b>€</b></div><span class="n">Audi A5 Sportback · 89.000 km</span></div>
+  <div id="end">
+    <div id="lw"><img id="logo" src="jobs/ap_a5/logo_red.png"><div id="lshine"></div></div>
+    <div id="eline"></div>
+    <div id="ecar"><div></div><i>Neu eingetroffen</i></div>
+    <div id="eprice"><span>26.990 €</span></div>
+    <div id="efacts">Audi A5 Sportback 45 TDI quattro · 89.000 km</div>
+    <div id="ecta">Interesse? Schreib uns <b>„A5“</b> per DM</div>
+    <div id="econ">📍 Kastenseestraße 6 · Glonn<br>📞 0173 6851896</div>
+  </div>
+  <div id="ebar"></div>
+<div id="caps"></div><div id="flash"></div><div id="prog"></div></div>
+<script>
+const $=id=>document.getElementById(id);
+const cl=(x,a=0,b=1)=>Math.min(b,Math.max(a,x));
+const p=(t,a,d)=>cl((t-a)/d);
+const eo=x=>1-Math.pow(1-x,3);
+const io=x=>x<.5?4*x*x*x:1-Math.pow(-2*x+2,3)/2;
+const back=x=>{const c=1.7;return 1+(c+1)*Math.pow(x-1,3)+c*Math.pow(x-1,2)};
+const C=CUES,T=C.total,IMG='jobs/ap_a5/img/';
+// [start, image, mode, posX%, posY%, zoomFrom, zoomTo, originX%, originY%, transition]
+const SH=[[0,'15_front34_links_hero','fit',50,50,1.0,1.06,50,50,'flash'],
+ [C.der,'02_front_mittig','cover',50,55,1.12,1.02,50,55,'zoom'],
+ [C.tdi,'06_heck_mittig','cover',72,50,1.05,1.16,70,60,'whip'],
+ [C.diesel,'04_seitenprofil','fit',50,50,1.0,1.05,50,50,'wipe'],
+ [C.im,'10_cockpit_lenkrad','cover',38,50,1.02,1.12,40,50,'iris'],
+ [C.beim,'16_rueckfahrkamera_2','cover',40,40,1.02,1.1,40,40,'whipv'],
+ [C.dazu,'09_cockpit_gesamt','cover',55,45,1.05,1.22,53,43,'zoom'],
+ [C.preis,'07_heck34_rechts','cover',32,50,1.1,1.0,40,50,'flash']];
+const FITTOP=[640,null,null,400];
+const TR=.32;
+const CH=[];{let cur=[];CAPS.forEach((w,k)=>{cur.push(w);const brk=/[.,?!:;–]$/.test(w.text)||cur.length>=4||cur.map(x=>x.text).join(' ').length>24;if(brk||k===CAPS.length-1){CH.push(cur);cur=[]}});}
+CH.forEach((c,k)=>{c.s=c[0].start;c.e=k+1<CH.length?Math.min(CH[k+1][0].start,c[c.length-1].end+.5):c[c.length-1].end+.8});
+const PRE=SH.map(s=>{const i=new Image();i.src=IMG+s[1]+'.jpg';return i});
+SH.forEach((s,k)=>{const d=document.createElement('div');d.className='shot';const u=`url(${IMG}${s[1]}.jpg)`;
+  d.innerHTML=s[2]==='fit'?`<div class="bg" style="background-image:${u}"></div><div class="fit" style="background-image:${u};top:${FITTOP[k]}px"></div>`:`<div class="cov" style="background-image:${u};background-position:${s[3]}% ${s[4]}%"></div><div class="shade"></div>`;
+  $('shots').appendChild(d);s.el=d;s.m=d.querySelector('.fit,.cov')});
+const vis=(id,on)=>{$(id).style.display=on?'block':'none';return on};
+const fmt=n=>String(Math.round(n)).replace(/\B(?=(\d{3})+(?!\d))/g,'.');
+function place(s,k,t){const e=k+1<SH.length?SH[k+1][0]:T;const z=s[5]+(s[6]-s[5])*io(p(t,s[0],e-s[0]));s.m.style.transformOrigin=`${s[7]}% ${s[8]}%`;s.m.style.transform=`scale(${z})`}
+window.render=async function(t){
+  let i=0;SH.forEach((s,k)=>{if(t>=s[0])i=k});
+  const s=SH[i],q=p(t,s[0],TR),inTr=i>0&&q<1;
+  SH.forEach((x,k)=>{const on=k===i||(inTr&&k===i-1);x.el.style.display=on?'block':'none';x.el.style.zIndex=k===i?2:1;x.el.style.transform='';x.el.style.clipPath='';x.el.style.filter='';if(on)place(x,k,t)});
+  // varied cut transitions
+  let fl=t<.25?.7*(1-t/.25):0;
+  if(inTr){const e=eo(q),el=s.el;
+    if(s[9]==='flash'){fl+=.8*(1-q)}
+    else if(s[9]==='zoom'){el.style.transform=`scale(${1.35-.35*e})`;el.style.filter=`blur(${(1-e)*14}px)`;fl+=.25*(1-q)}
+    else if(s[9]==='whip'){el.style.transform=`translateX(${(1-e)*1080}px)`;el.style.filter=`blur(${(1-e)*30}px)`;SH[i-1].el.style.transform=`translateX(${-e*1080}px)`;SH[i-1].el.style.filter=`blur(${e*30}px)`}
+    else if(s[9]==='whipv'){el.style.transform=`translateY(${(1-e)*1920}px)`;el.style.filter=`blur(${(1-e)*30}px)`;SH[i-1].el.style.transform=`translateY(${-e*1920}px)`}
+    else if(s[9]==='wipe'){el.style.clipPath=`inset(0 ${(1-e)*100}% 0 0)`}
+    else if(s[9]==='iris'){el.style.clipPath=`circle(${e*120}% at 50% 45%)`}}
+  // price hit flash + shake
+  if(t>=C.zahl)fl+=.5*Math.exp(-(t-C.zahl)*9);
+  $('flash').style.opacity=cl(fl);
+  let shx=0;if(t>=C.zahl&&t<C.zahl+.5){const e=Math.exp(-(t-C.zahl)*8);shx=Math.sin((t-C.zahl)*90)*16*e}
+  $('shots').style.transform=`translateX(${shx}px)`;
+  const sw=[C.der,C.diesel].find(x=>t>=x&&t<x+1.3);$('sweep').style.left=sw!==undefined?(-300+1700*io(p(t,sw+.25,.9)))+'px':'-400px';
+  // 1 stamp
+  if(vis('stamp',t>=.1&&t<C.der)){const k=back(p(t,.1,.4));$('stamp').style.transform=`rotate(${-6+(1-k)*-18}deg) scale(${2.3-1.3*k})`;$('stamp').style.opacity=cl(p(t,.1,.08))*(1-p(t,C.der-.2,.2))}
+  // 2 title slam with blur
+  if(vis('title',t>=C.der&&t<C.tdi)){const k=eo(p(t,C.der+.05,.3));$('title').style.transform=`scale(${1.6-.6*k})`;$('title').style.filter=`blur(${(1-k)*12}px)`;$('title').style.opacity=k*(1-p(t,C.tdi-.2,.2))}
+  // 3 label slides in from left with overshoot
+  if(vis('t2',t>=C.tdi+.15&&t<C.diesel)){const k=back(p(t,C.tdi+.15,.4));$('t2').style.transform=`translateX(${(1-k)*-900}px)`}
+  // 4 sheet flips open, rows tick in on spoken words, km counts up
+  if(vis('t3h',t>=C.diesel+.1&&t<C.im)){const k=eo(p(t,C.diesel+.1,.4));$('t3h').style.opacity=k;$('t3h').style.transform=`translateY(${(1-k)*-50}px)`}
+  if(vis('sheet',t>=C.diesel+.05&&t<C.im)){const k=back(p(t,C.diesel+.05,.45));$('sheet').style.transform=`perspective(1200px) rotateX(${(1-k)*-80}deg)`;$('sheet').style.opacity=cl(p(t,C.diesel+.05,.15))*(1-p(t,C.im-.2,.2))}
+  const RT=[C.diesel+.15,C.allrad,C.auto,C.km,C.km+.6];
+  [...$('sheet').querySelectorAll('.row')].forEach((r,j)=>{const kr=eo(p(t,RT[j],.3));r.style.opacity=kr;r.style.transform=`translateX(${(1-kr)*80}px)`});
+  $('kmv').textContent=fmt(89000*eo(p(t,C.km,.9)))+' km';
+  // 5 text wipe reveal
+  if(vis('t4',t>=C.im+.2&&t<C.beim)){const k=eo(p(t,C.im+.2,.5));$('t4').style.clipPath=`inset(0 ${(1-k)*100}% 0 0)`;$('t4').style.opacity=1-p(t,C.beim-.2,.2)}
+  // 6 rise from below with blur
+  if(vis('t5',t>=C.beim+.2&&t<C.dazu)){const k=eo(p(t,C.beim+.2,.45));$('t5').style.transform=`translateY(${(1-k)*160}px)`;$('t5').style.filter=`blur(${(1-k)*10}px)`;$('t5').style.opacity=k*(1-p(t,C.dazu-.2,.2))}
+  // 7 pop
+  if(vis('t6',t>=C.dazu+.2&&t<C.preis)){const k=back(p(t,C.dazu+.2,.4));$('t6').style.transform=`scale(${k})`;$('t6').style.opacity=1-p(t,C.preis-.2,.2)}
+  // 8 question drops in, then price counts up with a hit
+  if(vis('pq',t>=C.preis+.05&&t<C.zahl)){const k=back(p(t,C.preis+.05,.4));$('pq').style.transform=`translateY(${(1-k)*-500}px)`}
+  if(vis('price',t>=C.zahl&&t<C.end)){const k=back(p(t,C.zahl,.35));$('price').style.transform=`scale(${.4+.6*k})`;$('pv').textContent=fmt(26990*eo(p(t,C.zahl,.8)))}
+  SH.forEach((x,k)=>{if(k===7)x.el.style.filter=t>=C.zahl?'brightness(.55) blur(4px)':''});
+  // end: red bar wipes across, white card with logo build
+  const be=p(t,C.end,.7);
+  if(vis('ebar',be>0&&be<1)){$('ebar').style.left=(-1300+2600*io(be))+'px'}
+  if(vis('end',t>=C.end+.33)){const E=C.end+.33;
+    const kl=eo(p(t,E+.1,.7));$('logo').style.clipPath=`inset(0 ${(1-kl)*100}% 0 0)`;$('lw').style.transform=`scale(${1.08-.08*eo(p(t,E,1.4))})`;
+    $('lshine').style.backgroundPosition=`${100-200*io(p(t,E+.9,.8))}% 0`;
+    $('eline').style.transform=`scaleX(${eo(p(t,E+.6,.5))})`;
+    {const k=eo(p(t,E+.5,.6));$('ecar').style.opacity=k;$('ecar').style.transform=`translateY(${(1-k)*80}px)`;$('ecar').firstChild.style.transform=`scale(${1.12-.08*p(t,E+.5,4)})`}
+    {const k=back(p(t,E+.9,.4));$('eprice').style.transform=`scale(${k})`;$('eprice').style.opacity=cl(p(t,E+.9,.1))}
+    [['efacts',1.15],['ecta',1.35],['econ',1.7]].forEach(([id,d])=>{const k=eo(p(t,E+d,.45));$(id).style.opacity=k;$(id).style.transform=`translateY(${(1-k)*40}px)`});
+  }
+  // captions (hidden over sheet, price and end card)
+  let html='';for(const c of CH){if(t>=c.s&&t<c.e){html=c.map(w=>`<span class="${t>=w.start-.03?'on':''}">${w.text.replace(/&/g,'&amp;')}</span>`).join(' ');break}}
+  const hide=(t>=C.diesel&&t<C.im)||t>=C.zahl;
+  $('caps').innerHTML=!hide&&html?`<div>${html}</div>`:'';
+  $('prog').style.width=(cl(t/T)*100)+'%';
+  await Promise.all(PRE.map(x=>x.decode().catch(()=>{})));
+};
+window.addEventListener('load',()=>document.fonts.ready.then(()=>render(0)));
+</script>
+</body>
+</html>
