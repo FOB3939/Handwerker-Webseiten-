@@ -1,0 +1,102 @@
+<!doctype html>
+<html lang="de">
+<head>
+<meta charset="utf-8">
+<style>
+@font-face{font-family:Montserrat;font-weight:600;src:url(assets/fonts/montserrat-latin-600-normal.woff2)}
+@font-face{font-family:Montserrat;font-weight:800;src:url(assets/fonts/montserrat-latin-800-normal.woff2)}
+@font-face{font-family:Oswald;font-weight:700;src:url(assets/fonts/oswald-latin-700-normal.woff2)}
+:root{--r:#D8141B;--ink:#0d0d10}
+*{box-sizing:border-box;margin:0;padding:0}
+html,body{width:1080px;height:1920px;overflow:hidden;background:#000}
+#stage{position:relative;width:1080px;height:1920px;overflow:hidden;font-family:Montserrat,sans-serif;color:#fff;background:#0d0d10}
+.shot{position:absolute;inset:0;display:none;overflow:hidden}
+.cov{position:absolute;inset:0;background-size:cover;background-repeat:no-repeat}
+.bg{position:absolute;inset:-80px;background-size:cover;background-position:center;filter:blur(40px) brightness(.32) saturate(.9)}
+.fit{position:absolute;left:0;width:1080px;height:810px;background-size:cover;background-position:center;box-shadow:0 30px 80px rgba(0,0,0,.55)}
+.shade{position:absolute;inset:0;background:linear-gradient(180deg,rgba(0,0,0,.55) 0%,rgba(0,0,0,0) 26%,rgba(0,0,0,0) 58%,rgba(0,0,0,.72) 100%)}
+.a{position:absolute}
+.c{left:70px;right:70px;text-align:center}
+.chip{display:inline-block;background:var(--r);font:800 34px Montserrat;letter-spacing:.08em;text-transform:uppercase;padding:10px 24px}
+.h1{font:700 118px Oswald;text-transform:uppercase;line-height:.98;text-shadow:0 6px 30px rgba(0,0,0,.6)}
+.h2{font:800 54px Montserrat;text-transform:uppercase;line-height:1.1;text-shadow:0 4px 20px rgba(0,0,0,.7)}
+.lab{display:inline-block;background:rgba(13,13,16,.88);border-left:12px solid var(--r);padding:20px 34px;font:800 56px Montserrat;line-height:1.1;text-align:left}
+.lab small{display:block;font:600 34px Montserrat;color:#cfcfd4;margin-top:6px}
+#sheet{left:70px;right:70px;top:1320px;background:rgba(13,13,16,.92);border-top:10px solid var(--r);padding:26px 40px}
+.row{display:flex;justify-content:space-between;padding:14px 0;font:600 42px Montserrat;border-top:2px solid rgba(255,255,255,.08)}
+.row:first-child{border-top:none}
+.row span:first-child{color:#a9a9b0}
+.row span:last-child{font-weight:800}
+#price{left:0;right:0;top:1270px;text-align:center}
+#price .p{display:inline-block;background:#fff;color:var(--ink);font:700 190px Oswald;line-height:1;padding:16px 50px;box-shadow:0 30px 80px rgba(0,0,0,.6)}
+#price .p b{color:var(--r)}
+#sweep{position:absolute;top:-20%;height:140%;width:220px;background:linear-gradient(90deg,transparent,rgba(255,255,255,.35),transparent);transform:skewX(-18deg);mix-blend-mode:screen;z-index:6}
+#prog{position:absolute;left:0;top:0;height:7px;background:var(--r);z-index:31}
+#logo{left:190px;width:700px;top:170px;border-radius:20px;box-shadow:0 20px 60px rgba(0,0,0,.5)}
+</style>
+<script>document.write('<script src="'+(new URLSearchParams(location.search).get('data')||'data.js')+'"><\/script>')</script>
+</head>
+<body>
+<div id="stage"><div id="shots"></div><div id="sweep"></div>
+  <!-- 1 hook -->
+  <div class="a c" id="t1" style="top:260px"><span class="chip">Neu eingetroffen</span><div class="h1" style="margin-top:26px">Audi A5<br>Sportback</div><div class="h2" style="margin-top:20px">45 TDI quattro</div></div>
+  <!-- 2 badge -->
+  <div class="a c" id="t2" style="top:1330px"><div class="lab">45 TDI quattro<small>Diesel · Allrad · Automatik</small></div></div>
+  <!-- 3 data sheet -->
+  <div class="a c" id="t3h" style="top:250px"><div class="h2">Die Eckdaten</div></div>
+  <div class="a" id="sheet">
+    <div class="row"><span>Modell</span><span>Audi A5 Sportback</span></div>
+    <div class="row"><span>Motor</span><span>45 TDI · Diesel</span></div>
+    <div class="row"><span>Antrieb</span><span>quattro Allrad</span></div>
+    <div class="row"><span>Getriebe</span><span>Automatik</span></div>
+    <div class="row"><span>Farbe</span><span>Silber</span></div></div>
+  <!-- highlights -->
+  <div class="a c" id="t4" style="top:1330px"><div class="lab">Virtual Cockpit<small>mit Navigation</small></div></div>
+  <div class="a c" id="t5" style="top:1330px"><div class="lab">Rückfahrkamera<small>plus Einparkhilfe vorn &amp; hinten</small></div></div>
+  <div class="a c" id="t6" style="top:1330px"><div class="lab">3-Zonen-Klimaautomatik</div></div>
+  <!-- price -->
+  <div class="a c" id="t9h" style="top:250px"><div class="h2">Audi A5 Sportback<br>45 TDI quattro</div></div>
+  <div class="a" id="price"><div class="p">21.000 <b>€</b></div></div>
+  <!-- end -->
+  <img class="a" id="logo" src="jobs/ap_a5/logo.jpg">
+  <div class="a c" id="e1" style="top:1420px;font:800 60px Montserrat;line-height:1.15">Interesse?<br>Schreib uns <span style="color:#ff4d52">„A5“</span> per DM</div>
+  <div class="a c" id="e2" style="top:1600px;font:600 40px Montserrat;color:#e6e6ea">📍 Kastenseestraße 6 · Glonn<br>📞 0173 6851896</div>
+<div id="prog"></div></div>
+<script>
+const $=id=>document.getElementById(id);
+const cl=(x,a=0,b=1)=>Math.min(b,Math.max(a,x));
+const p=(t,a,d)=>cl((t-a)/d);
+const eo=x=>1-Math.pow(1-x,3);
+const io=x=>x<.5?4*x*x*x:1-Math.pow(-2*x+2,3)/2;
+const T=CUES.total,IMG='jobs/ap_a5/img/';
+// [start, image, mode, posX%, posY%, zoomFrom, zoomTo, originX%, originY%] — cuts sit on the 120-bpm beat grid
+const SH=[[0,'15_front34_links_hero','fit',50,50,1.0,1.06,50,50],[3.0,'06_heck_mittig','cover',72,50,1.05,1.14,70,60],[5.5,'04_seitenprofil','fit',50,50,1.0,1.05,50,50],
+ [8.5,'10_cockpit_lenkrad','cover',38,50,1.02,1.1,40,50],[11.0,'16_rueckfahrkamera_2','cover',40,40,1.02,1.1,40,40],[13.5,'09_cockpit_gesamt','cover',55,45,1.05,1.22,53,43],
+ [16.0,'08_fahrersitz','cover',50,50,1.02,1.08,50,60],[18.0,'14_felge','cover',40,50,1.03,1.12,40,50],[20.0,'07_heck34_rechts','cover',32,50,1.02,1.08,40,50],
+ [24.5,'01_front34_rechts','fit',50,50,1.0,1.04,50,50]];
+const FITTOP=[720,null,470,null,null,null,null,null,null,560];
+const PRE=SH.map(s=>{const i=new Image();i.src=IMG+s[1]+'.jpg';return i});
+SH.forEach((s,k)=>{const d=document.createElement('div');d.className='shot';const u=`url(${IMG}${s[1]}.jpg)`;
+  d.innerHTML=s[2]==='fit'?`<div class="bg" style="background-image:${u}"></div><div class="fit" style="background-image:${u};top:${FITTOP[k]}px"></div>`:`<div class="cov" style="background-image:${u};background-position:${s[3]}% ${s[4]}%"></div><div class="shade"></div>`;
+  $('shots').appendChild(d);s.el=d;s.m=d.querySelector('.fit,.cov')});
+const show=(id,t,a,b,dx=0,dy=40)=>{const e=$(id);const on=t>=a&&t<b;e.style.display=on?'block':'none';if(!on)return;const k=eo(p(t,a,.45)),o=1-p(t,b-.25,.25);e.style.opacity=cl(p(t,a,.2))*o;e.style.transform=`translate(${(1-k)*dx}px,${(1-k)*dy}px)`};
+window.render=async function(t){
+  let i=0;SH.forEach((s,k)=>{if(t>=s[0])i=k});
+  SH.forEach((s,k)=>s.el.style.display=k===i?'block':'none');
+  const s=SH[i],e=i+1<SH.length?SH[i+1][0]:T,k=io(p(t,s[0],e-s[0]));
+  s.m.style.transformOrigin=`${s[7]}% ${s[8]}%`;s.m.style.transform=`scale(${s[5]+(s[6]-s[5])*k})`;
+  // subtle light sweep only on hero, side profile and price shot
+  const sw=[0,5.5,20.0].find(x=>t>=x&&t<x+1.2);$('sweep').style.left=sw!==undefined?(-300+1700*io(p(t,sw+.2,.9)))+'px':'-400px';
+  show('t1',t,.15,3.0,0,30);show('t2',t,3.3,5.5,-200,0);show('t3h',t,5.7,8.5);show('sheet',t,5.9,8.5,0,60);
+  [...$('sheet').querySelectorAll('.row')].forEach((r,j)=>{const kr=eo(p(t,6.1+j*.28,.35));r.style.opacity=kr;r.style.transform=`translateX(${(1-kr)*80}px)`});
+  show('t4',t,8.7,11.0,-200,0);show('t5',t,11.2,13.5,-200,0);show('t6',t,13.7,16.0,-200,0);
+  show('t9h',t,20.3,24.5);show('price',t,20.8,24.5,0,0);
+  if(t>=20.8&&t<24.5){const kp=eo(p(t,20.8,.5));$('price').style.transform=`scale(${.85+.15*kp})`}
+  show('logo',t,24.8,T+1,0,-30);show('e1',t,25.4,T+1);show('e2',t,25.9,T+1);
+  $('prog').style.width=(cl(t/T)*100)+'%';
+  await Promise.all(PRE.map(x=>x.decode().catch(()=>{})));
+};
+window.addEventListener('load',()=>document.fonts.ready.then(()=>render(0)));
+</script>
+</body>
+</html>
