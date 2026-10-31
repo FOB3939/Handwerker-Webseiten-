@@ -31,6 +31,9 @@ html,body{width:1080px;height:1920px;overflow:hidden;background:#000}
 #price .p{display:inline-block;background:#fff;color:var(--ink);font:700 190px Oswald;line-height:1;padding:16px 50px;box-shadow:0 30px 80px rgba(0,0,0,.6)}
 #price .p b{color:var(--r)}
 #sweep{position:absolute;top:-20%;height:140%;width:220px;background:linear-gradient(90deg,transparent,rgba(255,255,255,.35),transparent);transform:skewX(-18deg);mix-blend-mode:screen;z-index:6}
+#caps{position:absolute;left:60px;right:60px;top:1530px;text-align:center;z-index:20}
+#caps div{display:inline-block;background:rgba(13,13,16,.85);border-radius:14px;padding:10px 24px;font:800 48px Montserrat;line-height:1.18;max-width:960px}
+#caps span.on{color:#ff4d52}
 #prog{position:absolute;left:0;top:0;height:7px;background:var(--r);z-index:31}
 #logo{left:190px;width:700px;top:170px;border-radius:20px;box-shadow:0 20px 60px rgba(0,0,0,.5)}
 </style>
@@ -61,7 +64,7 @@ html,body{width:1080px;height:1920px;overflow:hidden;background:#000}
   <img class="a" id="logo" src="jobs/ap_a5/logo.jpg">
   <div class="a c" id="e1" style="top:1420px;font:800 60px Montserrat;line-height:1.15">Interesse?<br>Schreib uns <span style="color:#ff4d52">„A5“</span> per DM</div>
   <div class="a c" id="e2" style="top:1600px;font:600 40px Montserrat;color:#e6e6ea">📍 Kastenseestraße 6 · Glonn<br>📞 0173 6851896</div>
-<div id="prog"></div></div>
+<div id="caps"></div><div id="prog"></div></div>
 <script>
 const $=id=>document.getElementById(id);
 const cl=(x,a=0,b=1)=>Math.min(b,Math.max(a,x));
@@ -70,11 +73,15 @@ const eo=x=>1-Math.pow(1-x,3);
 const io=x=>x<.5?4*x*x*x:1-Math.pow(-2*x+2,3)/2;
 const T=CUES.total,IMG='jobs/ap_a5/img/';
 // [start, image, mode, posX%, posY%, zoomFrom, zoomTo, originX%, originY%] — cuts sit on the 120-bpm beat grid
-const SH=[[0,'15_front34_links_hero','fit',50,50,1.0,1.06,50,50],[3.0,'06_heck_mittig','cover',72,50,1.05,1.14,70,60],[5.5,'04_seitenprofil','fit',50,50,1.0,1.05,50,50],
- [8.5,'10_cockpit_lenkrad','cover',38,50,1.02,1.1,40,50],[11.0,'16_rueckfahrkamera_2','cover',40,40,1.02,1.1,40,40],[13.5,'09_cockpit_gesamt','cover',55,45,1.05,1.22,53,43],
- [16.0,'08_fahrersitz','cover',50,50,1.02,1.08,50,60],[18.0,'14_felge','cover',40,50,1.03,1.12,40,50],[20.0,'07_heck34_rechts','cover',32,50,1.02,1.08,40,50],
- [24.5,'01_front34_rechts','fit',50,50,1.0,1.04,50,50]];
-const FITTOP=[720,null,470,null,null,null,null,null,null,560];
+const C=CUES;
+// cuts follow the voiceover: each shot starts on the word it illustrates
+const SH=[[0,'15_front34_links_hero','fit',50,50,1.0,1.06,50,50],[C.tdi,'06_heck_mittig','cover',72,50,1.05,1.14,70,60],[C.diesel,'04_seitenprofil','fit',50,50,1.0,1.05,50,50],
+ [C.im,'10_cockpit_lenkrad','cover',38,50,1.02,1.1,40,50],[C.beim,'16_rueckfahrkamera_2','cover',40,40,1.02,1.1,40,40],[C.dazu,'09_cockpit_gesamt','cover',55,45,1.05,1.22,53,43],
+ [C.seat,'08_fahrersitz','cover',50,50,1.02,1.08,50,60],[C.preis,'07_heck34_rechts','cover',32,50,1.02,1.08,40,50],
+ [C.end,'01_front34_rechts','fit',50,50,1.0,1.04,50,50]];
+const FITTOP=[720,null,470,null,null,null,null,null,560];
+const CH=[];{let cur=[];CAPS.forEach((w,k)=>{cur.push(w);const brk=/[.,?!:;–]$/.test(w.text)||cur.length>=4||cur.map(x=>x.text).join(' ').length>24;if(brk||k===CAPS.length-1){CH.push(cur);cur=[]}});}
+CH.forEach((c,k)=>{c.s=c[0].start;c.e=k+1<CH.length?Math.min(CH[k+1][0].start,c[c.length-1].end+.5):c[c.length-1].end+.8});
 const PRE=SH.map(s=>{const i=new Image();i.src=IMG+s[1]+'.jpg';return i});
 SH.forEach((s,k)=>{const d=document.createElement('div');d.className='shot';const u=`url(${IMG}${s[1]}.jpg)`;
   d.innerHTML=s[2]==='fit'?`<div class="bg" style="background-image:${u}"></div><div class="fit" style="background-image:${u};top:${FITTOP[k]}px"></div>`:`<div class="cov" style="background-image:${u};background-position:${s[3]}% ${s[4]}%"></div><div class="shade"></div>`;
@@ -86,13 +93,16 @@ window.render=async function(t){
   const s=SH[i],e=i+1<SH.length?SH[i+1][0]:T,k=io(p(t,s[0],e-s[0]));
   s.m.style.transformOrigin=`${s[7]}% ${s[8]}%`;s.m.style.transform=`scale(${s[5]+(s[6]-s[5])*k})`;
   // subtle light sweep only on hero, side profile and price shot
-  const sw=[0,5.5,20.0].find(x=>t>=x&&t<x+1.2);$('sweep').style.left=sw!==undefined?(-300+1700*io(p(t,sw+.2,.9)))+'px':'-400px';
-  show('t1',t,.15,3.0,0,30);show('t2',t,3.3,5.5,-200,0);show('t3h',t,5.7,8.5);show('sheet',t,5.9,8.5,0,60);
-  [...$('sheet').querySelectorAll('.row')].forEach((r,j)=>{const kr=eo(p(t,6.1+j*.28,.35));r.style.opacity=kr;r.style.transform=`translateX(${(1-kr)*80}px)`});
-  show('t4',t,8.7,11.0,-200,0);show('t5',t,11.2,13.5,-200,0);show('t6',t,13.7,16.0,-200,0);
-  show('t9h',t,20.3,24.5);show('price',t,20.8,24.5,0,0);
-  if(t>=20.8&&t<24.5){const kp=eo(p(t,20.8,.5));$('price').style.transform=`scale(${.85+.15*kp})`}
-  show('logo',t,24.8,T+1,0,-30);show('e1',t,25.4,T+1);show('e2',t,25.9,T+1);
+  const sw=[0,C.diesel,C.preis].find(x=>t>=x&&t<x+1.2);$('sweep').style.left=sw!==undefined?(-300+1700*io(p(t,sw+.2,.9)))+'px':'-400px';
+  show('t1',t,.15,C.tdi,0,30);show('t2',t,C.tdi+.1,C.diesel,-200,0);show('t3h',t,C.diesel+.1,C.im);show('sheet',t,C.diesel+.1,C.im,0,60);
+  const RT=[C.diesel+.2,C.diesel+.2,C.allrad,C.auto,C.auto+.4];
+  [...$('sheet').querySelectorAll('.row')].forEach((r,j)=>{const kr=eo(p(t,RT[j],.35));r.style.opacity=kr;r.style.transform=`translateX(${(1-kr)*80}px)`});
+  show('t4',t,C.im+.15,C.beim,-200,0);show('t5',t,C.beim+.15,C.dazu,-200,0);show('t6',t,C.dazu+.15,C.seat,-200,0);
+  show('t9h',t,C.preis+.1,C.end);show('price',t,C.zahl,C.end,0,0);
+  if(t>=C.zahl&&t<C.end){const kp=eo(p(t,C.zahl,.5));$('price').style.transform=`scale(${.85+.15*kp})`}
+  show('logo',t,C.end+.1,T+1,0,-30);show('e1',t,C.end+.3,T+1);show('e2',t,C.end+.8,T+1);
+  let html='';for(const c of CH){if(t>=c.s&&t<c.e){html=c.map(w=>`<span class="${t>=w.start-.03?'on':''}">${w.text.replace(/&/g,'&amp;')}</span>`).join(' ');break}}
+  $('caps').innerHTML=t<C.end&&!(t>=C.diesel&&t<C.im)&&html?`<div>${html}</div>`:'';
   $('prog').style.width=(cl(t/T)*100)+'%';
   await Promise.all(PRE.map(x=>x.decode().catch(()=>{})));
 };
