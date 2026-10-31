@@ -1,0 +1,241 @@
+<!doctype html>
+<html lang="de">
+<head>
+<meta charset="utf-8">
+<style>
+@font-face{font-family:Montserrat;font-weight:600;src:url(assets/fonts/montserrat-latin-600-normal.woff2)}
+@font-face{font-family:Montserrat;font-weight:800;src:url(assets/fonts/montserrat-latin-800-normal.woff2)}
+@font-face{font-family:Oswald;font-weight:700;src:url(assets/fonts/oswald-latin-700-normal.woff2)}
+:root{--o:#ff8a1f;--o2:#ffb347;--b:#0a1f44;--ink:#081430;--w:#f6f2ea}
+*{box-sizing:border-box;margin:0;padding:0}
+html,body{width:1080px;height:1920px;overflow:hidden;background:#06132b}
+#stage{position:relative;width:1080px;height:1920px;overflow:hidden;font-family:Montserrat,sans-serif;color:#fff;
+  background:radial-gradient(circle at 50% 38%,#163a78 0%,#0a1f44 48%,#06132b 100%)}
+#dots{position:absolute;inset:0;background-image:radial-gradient(rgba(255,255,255,.06) 2px,transparent 2.5px);background-size:44px 44px}
+svg{position:absolute;left:0;top:0;width:1080px;height:1920px;overflow:visible}
+.t{position:absolute;left:80px;right:80px;text-align:center;display:none}
+.big{font:700 150px Oswald;line-height:.95;text-transform:uppercase;color:var(--o);text-shadow:0 8px 0 #7a3300,0 18px 40px rgba(0,0,0,.5);letter-spacing:.01em}
+.head{display:inline-block;font:800 50px Montserrat;background:var(--o);color:var(--ink);padding:12px 30px;border-radius:18px;box-shadow:0 8px 0 #9a4300}
+.chk{display:flex;align-items:center;gap:22px;justify-content:flex-start;margin:0 auto 22px;width:820px;background:rgba(8,20,48,.85);border:4px solid var(--o);border-radius:24px;padding:18px 28px;font:800 50px Montserrat;text-align:left}
+.chk i{font-style:normal;display:inline-flex;align-items:center;justify-content:center;width:70px;height:70px;border-radius:50%;background:var(--o);color:var(--ink);font-size:46px;flex:none}
+#caps{position:absolute;left:90px;right:150px;top:1360px;text-align:center;z-index:20}
+#caps div{display:inline-block;background:rgba(5,14,36,.88);border:3px solid rgba(255,138,31,.55);border-radius:20px;padding:12px 28px;font:800 60px Montserrat;line-height:1.16;max-width:840px}
+#caps span.on{color:var(--o2)}
+#flash{position:absolute;inset:0;background:#fff;opacity:0;z-index:30}
+#vign{position:absolute;inset:0;pointer-events:none;background:radial-gradient(circle at 50% 45%,transparent 55%,rgba(0,0,0,.45) 100%);z-index:19}
+</style>
+<script>document.write('<script src="'+(new URLSearchParams(location.search).get('data')||'data.js')+'"><\/script>')</script>
+</head>
+<body>
+<div id="stage"><div id="dots"></div>
+<svg id="sv" viewBox="0 0 1080 1920"></svg>
+<div class="t big" id="turbo" style="top:230px">Heizungs-<br>Turbo?!</div>
+<div class="t" id="count" style="top:520px;font:700 190px Oswald;color:#fff;text-shadow:0 10px 0 #7a3300"></div>
+<div class="t big" id="nein" style="top:260px;color:#fff;text-shadow:0 8px 0 #7a3300">Leider<br><span style="color:var(--o)">nein.</span></div>
+<div class="t" id="h1" style="top:230px"><span class="head">Thermostat = Wunschtemperatur</span></div>
+<div class="t" id="note1" style="top:1260px;font:600 34px Montserrat;color:#b8c6e6">Richtwerte (ca.), je nach Thermostat</div>
+<div class="t" id="h2" style="top:230px"><span class="head" id="h2t">Raum kalt: Ventil offen</span></div>
+<div class="t" id="h4" style="top:220px">
+  <div class="chk" id="c1"><i>✓</i>Wunschtemperatur einstellen</div>
+  <div class="chk" id="c2"><i>✓</i>Heizkörper freihalten</div></div>
+<div class="t big" id="jung" style="top:230px;font-size:120px">Tropen-<br>klima?!</div>
+<div class="t" id="e1" style="top:820px;font:800 74px Montserrat;line-height:1.1">Haustechnik<br>einfach erklärt</div>
+<div class="t" id="e2" style="top:1060px;font:700 110px Oswald;color:var(--o);letter-spacing:.02em">fob-fm.de</div>
+<div id="vign"></div><div id="caps"></div><div id="flash"></div></div>
+<script>
+const $=id=>document.getElementById(id);
+const cl=(x,a=0,b=1)=>Math.min(b,Math.max(a,x));
+const p=(t,a,d)=>cl((t-a)/d);
+const eo=x=>1-Math.pow(1-x,3);
+const io=x=>x<.5?4*x*x*x:1-Math.pow(-2*x+2,3)/2;
+const back=x=>{const c=1.7;return 1+(c+1)*Math.pow(x-1,3)+c*Math.pow(x-1,2)};
+const lerp=(a,b,k)=>a+(b-a)*k;
+const C=CUES,T=C.total;
+const INK='#081430',W='#f6f2ea',O='#ff8a1f';
+// ---------- drawing helpers (SVG strings) ----------
+function radiator(id,w,h){let ribs='';const n=Math.round(w/62);for(let i=1;i<n;i++){const x=i*w/n;ribs+=`<line x1="${x}" y1="22" x2="${x}" y2="${h-22}" stroke="#cfc8bb" stroke-width="7" stroke-linecap="round"/>`}
+  return `<g id="${id}"><g id="${id}b">
+   <rect x="${w*.1}" y="${h-8}" width="26" height="46" rx="8" fill="${INK}"/><rect x="${w*.9-26}" y="${h-8}" width="26" height="46" rx="8" fill="${INK}"/>
+   <rect id="${id}body" x="0" y="0" width="${w}" height="${h}" rx="30" fill="${W}" stroke="${INK}" stroke-width="9"/>${ribs}
+   <rect x="18" y="14" width="${w-36}" height="14" rx="7" fill="#fff" opacity=".8"/>
+   <rect id="${id}glow" x="0" y="0" width="${w}" height="${h}" rx="30" fill="${O}" opacity="0"/>
+   <g id="${id}face" transform="translate(${w/2},${h*.45})">
+     <circle cx="-${w*.16}" cy="0" r="${h*.1}" fill="#fff" stroke="${INK}" stroke-width="6"/><circle cx="${w*.16}" cy="0" r="${h*.1}" fill="#fff" stroke="${INK}" stroke-width="6"/>
+     <circle id="${id}p1" cx="-${w*.16}" cy="0" r="${h*.045}" fill="${INK}"/><circle id="${id}p2" cx="${w*.16}" cy="0" r="${h*.045}" fill="${INK}"/>
+     <path id="${id}lid" d="" fill="${W}" stroke="${INK}" stroke-width="6"/>
+     <path id="${id}m" d="" fill="none" stroke="${INK}" stroke-width="8" stroke-linecap="round"/>
+     <g id="${id}sw"></g></g></g></g>`}
+function dial(id,r){let lab='';['❄','1','2','3','4','5'].forEach((s,k)=>{const a=(k*40)*Math.PI/180,x=Math.sin(a)*r*.68,y=-Math.cos(a)*r*.68;
+   lab+=`<text x="${x}" y="${y}" text-anchor="middle" dominant-baseline="central" font-family="Montserrat" font-weight="800" font-size="${r*.3}" fill="${INK}" transform="rotate(${k*40} ${x} ${y})">${s}</text>`});
+  return `<g id="${id}"><rect x="${-r*.38}" y="${r*.85}" width="${r*.76}" height="${r*.5}" rx="${r*.1}" fill="#cfc8bb" stroke="${INK}" stroke-width="${r*.06}"/>
+   <circle r="${r}" fill="${W}" stroke="${INK}" stroke-width="${r*.07}"/><circle r="${r*.86}" fill="none" stroke="#d9d2c4" stroke-width="${r*.05}"/>
+   <g id="${id}n">${lab}</g><path d="M0 ${-r*1.02} l${-r*.13} ${-r*.2} h${r*.26} z" fill="${O}" stroke="${INK}" stroke-width="${r*.04}"/>
+   <circle r="${r*.2}" fill="#e9e3d6" stroke="${INK}" stroke-width="${r*.04}"/></g>`}
+function therm(id,h){return `<g id="${id}"><rect x="-22" y="0" width="44" height="${h}" rx="22" fill="#fff" stroke="${INK}" stroke-width="7"/>
+   <rect id="${id}f" x="-11" y="${h-10}" width="22" height="10" rx="11" fill="${O}"/><circle cx="0" cy="${h+24}" r="38" fill="${O}" stroke="${INK}" stroke-width="7"/>
+   <text id="${id}t" x="-40" y="70" text-anchor="end" font-family="Oswald" font-weight="700" font-size="74" fill="#fff">15°</text></g>`}
+const flame=(id)=>`<g id="${id}"><path d="M0 0 C -45 40 -40 120 0 190 C 40 120 45 40 0 0 Z" fill="${O}"/><path d="M0 30 C -22 60 -20 120 0 160 C 20 120 22 60 0 30 Z" fill="#ffe066"/></g>`;
+const leaf=(c)=>`<path d="M0 0 C 70 -60 200 -50 280 0 C 200 50 70 60 0 0 Z" fill="${c}" stroke="#0c3b1c" stroke-width="6"/><path d="M10 0 L 260 0" stroke="#0c3b1c" stroke-width="5"/>`;
+function waves(id){let s='';for(let i=0;i<3;i++)s+=`<path d="M${i*60-60} 0 q 20 -30 0 -60 q -20 -30 0 -60" fill="none" stroke="${O}" stroke-width="10" stroke-linecap="round"/>`;return `<g id="${id}">${s}</g>`}
+function room(id,x,y,w,h){return `<g id="${id}" transform="translate(${x},${y})"><rect width="${w}" height="${h}" rx="34" fill="#0f2a5c" stroke="#2e5aa8" stroke-width="6"/>
+   <rect x="0" y="${h*.78}" width="${w}" height="${h*.22}" rx="0" fill="#0b2250"/><line x1="0" y1="${h*.78}" x2="${w}" y2="${h*.78}" stroke="#2e5aa8" stroke-width="6"/></g>`}
+// ---------- build scene ----------
+const sv=$('sv');
+sv.innerHTML=`
+<g id="A">
+  <g id="smoke"></g>
+  <g id="fl" transform="translate(0,0)">${flame('f1')}${flame('f2')}${flame('f3')}</g>
+  <g id="radA">${radiator('ra',560,380)}</g>
+  <g id="dA">${dial('da',92)}</g>
+  <g id="rec" opacity="0"><circle r="120" fill="#111" stroke="#333" stroke-width="6"/><circle r="80" fill="none" stroke="#2a2a2a" stroke-width="4"/><circle r="40" fill="${O}"/><circle r="8" fill="#111"/><path d="M-150 -40 L 150 40" stroke="#fff" stroke-width="10" stroke-linecap="round"/></g>
+</g>
+<g id="B1" opacity="0">
+  <g id="dB" transform="translate(540,700)">${dial('db',230)}</g>
+  <g id="pills"></g>
+</g>
+<g id="B2" opacity="0">
+  ${room('rL',70,380,450,820)}${room('rR',560,380,450,820)}
+  <g transform="translate(295,470)"><text text-anchor="middle" font-family="Montserrat" font-weight="800" font-size="46" fill="#fff">Stufe 3</text></g>
+  <g transform="translate(785,470)"><text text-anchor="middle" font-family="Montserrat" font-weight="800" font-size="46" fill="${O}">Stufe 5</text></g>
+  <g transform="translate(400,560)">${therm('tL',300)}</g><g transform="translate(890,560)">${therm('tR',300)}</g>
+  <g transform="translate(110,560)" id="snowL"><text font-size="80" y="60">❄</text></g><g transform="translate(600,560)" id="snowR"><text font-size="80" y="60">❄</text></g>
+  <g transform="translate(120,950) scale(.5)">${radiator('rl',420,240)}</g><g transform="translate(610,950) scale(.5)">${radiator('rr',420,240)}</g>
+  <g transform="translate(215,935)">${waves('wL')}</g><g transform="translate(705,935)">${waves('wR')}</g>
+  <g id="vL" transform="translate(110,1240)"></g><g id="vR" transform="translate(600,1240)"></g>
+  <g id="eq" transform="translate(540,1290)" opacity="0"><circle r="54" fill="${O}" stroke="${INK}" stroke-width="7"/><text text-anchor="middle" dominant-baseline="central" font-family="Oswald" font-weight="700" font-size="80" fill="${INK}">=</text></g>
+  <g id="okL" opacity="0" transform="translate(295,880)"><rect x="-150" y="-44" width="300" height="88" rx="44" fill="#2bb673" stroke="${INK}" stroke-width="6"/><text text-anchor="middle" dominant-baseline="central" font-family="Montserrat" font-weight="800" font-size="40" fill="#fff">✓ Ziel 20°</text></g>
+  <g id="lgR" opacity="0" transform="translate(785,880)"><rect x="-170" y="-44" width="340" height="88" rx="44" fill="${O}" stroke="${INK}" stroke-width="6"/><text id="lgRt" text-anchor="middle" dominant-baseline="central" font-family="Montserrat" font-weight="800" font-size="38" fill="${INK}">heizt länger …</text></g>
+</g>
+<g id="Cc" opacity="0">
+  ${room('rm',80,560,920,760)}
+  <g id="win" transform="translate(380,640)"><rect width="320" height="280" rx="16" fill="#1d4a92" stroke="#7fa6e8" stroke-width="10"/><line x1="160" y1="0" x2="160" y2="280" stroke="#7fa6e8" stroke-width="8"/><line x1="0" y1="140" x2="320" y2="140" stroke="#7fa6e8" stroke-width="8"/><circle cx="250" cy="70" r="30" fill="#ffe8a3"/></g>
+  <g id="radC" transform="translate(330,1010)">${radiator('rc',420,220)}</g>
+  <g id="dC" transform="translate(800,1110)">${dial('dc',60)}</g>
+  <g id="thC" transform="translate(240,700)">${therm('tC',260)}</g>
+  <g id="curt"><rect id="curtL" x="350" y="610" width="130" height="620" rx="20" fill="#c2410c" stroke="${INK}" stroke-width="7"/><rect id="curtR" x="600" y="610" width="130" height="620" rx="20" fill="#c2410c" stroke="${INK}" stroke-width="7"/></g>
+  <g id="sofa" transform="translate(300,1060)"><rect x="0" y="40" width="480" height="150" rx="40" fill="#5b6b8f" stroke="${INK}" stroke-width="8"/><rect x="-30" y="0" width="90" height="190" rx="36" fill="#4a5878" stroke="${INK}" stroke-width="8"/><rect x="420" y="0" width="90" height="190" rx="36" fill="#4a5878" stroke="${INK}" stroke-width="8"/></g>
+  <g id="jungle" opacity="0"></g>
+  <g id="towel" opacity="0"><rect x="-80" y="-30" width="160" height="60" rx="14" fill="${O}" stroke="${INK}" stroke-width="6"/><line x1="-60" y1="-10" x2="60" y2="-10" stroke="#fff" stroke-width="5"/></g>
+</g>
+<g id="E" opacity="0"><g transform="translate(540,600)">${dial('de',120)}</g></g>`;
+// pills (scale)
+{let s='';const V=[['1','12°'],['2','16°'],['3','20°'],['4','24°'],['5','28°']];V.forEach((v,k)=>{const x=110+k*172;s+=`<g id="pl${k}" transform="translate(${x+76},1100)"><rect x="-76" y="-80" width="152" height="160" rx="28" fill="#0f2a5c" stroke="#2e5aa8" stroke-width="6"/><text y="-28" text-anchor="middle" font-family="Oswald" font-weight="700" font-size="62" fill="#fff">${v[0]}</text><text y="46" text-anchor="middle" font-family="Montserrat" font-weight="800" font-size="40" fill="${O}">${v[1]}</text></g>`});$('pills').innerHTML=s}
+// valves
+['vL','vR'].forEach(id=>{$(id).innerHTML=`<text x="0" y="-12" font-family="Montserrat" font-weight="800" font-size="34" fill="#b8c6e6">Ventil</text><rect x="0" y="6" width="370" height="40" rx="20" fill="#0b2250" stroke="#2e5aa8" stroke-width="5"/><rect id="${id}b" x="5" y="11" width="0" height="30" rx="15" fill="${O}"/><text id="${id}t" x="370" y="-12" text-anchor="end" font-family="Montserrat" font-weight="800" font-size="34" fill="#fff">ZU</text>`});
+// jungle leaves
+{let s='';const L=[[80,560,-30,'#1f9d55',1.3],[1000,560,210,'#18803f',1.2],[80,1320,-60,'#22a05a',1.2],[1000,1320,240,'#1b8a46',1.3],[300,560,60,'#2bb673',.9],[780,560,120,'#1f9d55',.9],[90,940,-10,'#18803f',1.0],[990,900,190,'#2bb673',1.0],[540,560,90,'#22a05a',.8]];
+ L.forEach((l,k)=>s+=`<g id="lf${k}" transform="translate(${l[0]},${l[1]}) rotate(${l[2]}) scale(0)" data-s="${l[4]}" data-r="${l[2]}">${leaf(l[3])}</g>`);
+ for(let k=0;k<5;k++)s+=`<path id="vn${k}" d="M${180+k*180} 560 q 30 80 0 160 q -30 80 0 160" fill="none" stroke="#1f9d55" stroke-width="16" stroke-linecap="round" stroke-dasharray="400" stroke-dashoffset="400"/>`;
+ s+=`<g id="parrot" transform="translate(-200,700)"><ellipse cx="0" cy="0" rx="44" ry="60" fill="#e63946" stroke="${INK}" stroke-width="6"/><circle cx="8" cy="-50" r="32" fill="#e63946" stroke="${INK}" stroke-width="6"/><circle cx="18" cy="-56" r="8" fill="#fff"/><circle cx="20" cy="-56" r="4" fill="${INK}"/><path d="M36 -50 q 26 6 8 26 z" fill="#ffd166" stroke="${INK}" stroke-width="5"/><path d="M-10 50 l -20 70 l 30 -40 z" fill="#2a9df4" stroke="${INK}" stroke-width="5"/></g>`;
+ $('jungle').innerHTML=s}
+// ---------- per-frame helpers ----------
+const at=(id,s)=>$(id).setAttribute('transform',s);
+const op=(id,v)=>$(id).setAttribute('opacity',v);
+function face(id,w,h,mood,look=0,blink=0){ // mood: 1 happy, 0 neutral, -1 sad, 2 shocked
+  const ex=w*.16,r=h*.1;$(id+'p1').setAttribute('cx',-ex+look*r*.4);$(id+'p2').setAttribute('cx',ex+look*r*.4);
+  const py=mood<0?r*.4:mood===2?0:0;$(id+'p1').setAttribute('cy',py);$(id+'p2').setAttribute('cy',py);
+  const pr=mood===2?h*.03:h*.045;$(id+'p1').setAttribute('r',pr);$(id+'p2').setAttribute('r',pr);
+  const lid=mood<0?.45:blink;const ly=-r+2*r*lid;
+  $(id+'lid').setAttribute('d',lid>0?`M${-ex-r} ${-r} h${2*r} v${ly+r} h${-2*r}z M${ex-r} ${-r} h${2*r} v${ly+r} h${-2*r}z`:'');
+  const my=h*.24,mw=w*.12;const c=mood===1?h*.12:mood<0?-h*.08:mood===2?0:h*.03;
+  $(id+'m').setAttribute('d',mood===2?`M${-mw*.4} ${my} a ${mw*.4} ${h*.07} 0 1 0 ${mw*.8} 0 a ${mw*.4} ${h*.07} 0 1 0 ${-mw*.8} 0`:`M${-mw} ${my} Q 0 ${my+c} ${mw} ${my}`)}
+const setDial=(id,s)=>at(id+'n',`rotate(${-s*40})`);
+function temp(id,h,v){const k=cl((v-10)/22);const fh=10+k*(h-10);const f=$(id+'f');f.setAttribute('y',h-fh);f.setAttribute('height',fh);$(id+'t').textContent=Math.round(v)+'°'}
+function sweat(id,w,h,t,on){let s='';if(on>0){for(let k=0;k<3;k++){const ph=((t*1.3+k*.33)%1);s+=`<path transform="translate(${-w*.3+k*w*.3},${-h*.35+ph*h*.9})" d="M0 0 q -14 24 0 30 q 14 -6 0 -30z" fill="#7cc8ff" stroke="${INK}" stroke-width="4" opacity="${on*(1-ph)}"/>`}}$(id+'sw').innerHTML=s}
+const show=(id,on)=>{$(id).style.display=on?'block':'none';return on};
+// captions
+const CH=[];{let cur=[];CAPS.forEach((w,k)=>{cur.push(w);const txt=cur.map(x=>x.text).join(' ');const brk=/[.,?!:;]$/.test(w.text)||cur.length>=5||txt.length>30;if(brk||k===CAPS.length-1){CH.push(cur);cur=[]}});}
+CH.forEach((c,k)=>{c.s=c[0].start-.05;c.e=k+1<CH.length?Math.min(CH[k+1][0].start-.05,c[c.length-1].end+.6):c[c.length-1].end+.6});
+// ---------- render ----------
+window.render=async function(t){
+  const A1=C.ist, B0=C.ein, B2s=C.ist2, C0=C.desh, D0=C.das, E0=C.endc;
+  let fl=t<.2?.6*(1-t/.2):0;
+  // ===== A: turbo + leider nein =====
+  const inA=t<B0+.35; op('A',inA?(t<B0?1:1-p(t,B0,.35)):0);
+  if(inA){
+    const dset=lerp(3,5,io(p(t,.5,.6)));  // turns to 5 on "fünf"
+    const turbo=t>=1.2&&t<A1, fk=turbo?eo(p(t,1.2,.4)):t>=A1?1-eo(p(t,A1,.35)):0;
+    const lift=turbo?-40*eo(p(t,1.2,.6))-10*Math.sin(t*40):t>=A1?lerp(-40,0,back(p(t,A1+.1,.5))):0;
+    const shx=turbo?Math.sin(t*55)*8*fk:0;
+    at('radA',`translate(${220+shx},${760+lift})`);at('dA',`translate(${880+shx},${930+lift})`);setDial('da',dset);
+    $('raglow').setAttribute('opacity',turbo?.25+.1*Math.sin(t*30):0);
+    face('ra',560,380,t>=A1+.15?-1:turbo?2:1,turbo?Math.sin(t*9):0,0);
+    [0,1,2].forEach(k=>{const x=220+shx+110+k*170,s=fk*(1+.18*Math.sin(t*37+k*2));$('f'+(k+1)).setAttribute('transform',`translate(${x},${1170+lift}) scale(${.9*s},${1.1*s})`)});
+    // smoke on cancel
+    let sm='';if(t>=A1){for(let k=0;k<5;k++){const q=p(t,A1+k*.05,1.1);if(q>0&&q<1)sm+=`<circle cx="${330+k*90+Math.sin(k)*30}" cy="${1200-q*220}" r="${40+q*70}" fill="#9aa7bf" opacity="${.55*(1-q)}"/>`}}$('smoke').innerHTML=sm;
+    // record scratch badge
+    const kr=p(t,A1,.25);op('rec',t>=A1&&t<B0?cl(kr)*(1-p(t,B0-.2,.2)):0);at('rec',`translate(540,650) rotate(${(t-A1)*-400}) scale(${(.6+.4*back(kr))*.5})`);
+    if(t>=A1&&t<A1+.12)fl+=.35;
+  }
+  if(show('turbo',t>=.15&&t<A1)){const k=back(p(t,.15,.4));$('turbo').style.transform=`scale(${k*(1+.04*Math.sin(t*14))}) rotate(${-3+Math.sin(t*20)*1.5}deg)`;$('turbo').style.opacity=cl(p(t,.15,.1))}
+  {const cd=[[C.klingt,'3'],[C.nach,'2'],[C.turbo,'1']];let cur=null;cd.forEach(c=>{if(t>=c[0])cur=c});
+   if(show('count',cur&&t<A1)){$('count').textContent=cur[1];const k=p(t,cur[0],.35);$('count').style.transform=`scale(${1.6-.6*eo(k)})`;$('count').style.opacity=1-k*.6}}
+  if(show('nein',t>=A1+.25&&t<B0+.3)){const k=back(p(t,A1+.25,.35));$('nein').style.transform=`translateY(${(1-k)*-300}px) rotate(${(1-k)*-12}deg)`;$('nein').style.opacity=1-p(t,B0,.3)}
+  // ===== B1: thermostat sets target temperature =====
+  const inB1=t>=B0&&t<C.ist2+.3;op('B1',inB1?cl(p(t,B0,.35))*(1-p(t,C.ist2,.3)):0);
+  if(inB1){const k=back(p(t,B0,.5));at('dB',`translate(540,720) scale(${k})`);
+    // step through 1..5 on "gewünschte Raumtemperatur", then settle on 3
+    const sweep=p(t,C.gew,1.6);let s=sweep<1?1+4*io(sweep):lerp(5,3,io(p(t,C.gew+1.7,.6)));setDial('db',s);
+    const sel=Math.round(s)-1;for(let j=0;j<5;j++){const kk=back(p(t,B0+.3+j*.08,.35));const on=j===sel&&t>=C.gew;
+      at('pl'+j,`translate(${186+j*172},1100) scale(${kk*(on?1.12:1)})`);$('pl'+j).firstChild.setAttribute('fill',on?'#ff8a1f':'#0f2a5c');
+      $('pl'+j).children[1].setAttribute('fill',on?INK:'#fff');$('pl'+j).children[2].setAttribute('fill',on?INK:O)}}
+  if(show('h1',inB1&&t<C.ist2)){const k=back(p(t,B0+.1,.4));$('h1').style.transform=`scale(${k})`}
+  if(show('note1',t>=B0+.8&&t<C.ist2)){$('note1').style.opacity=p(t,B0+.8,.4)}
+  // ===== B2: split screen, same valve opening, same speed, Stufe 5 only longer =====
+  const inB2=t>=C.ist2&&t<C0+.3;op('B2',inB2?cl(p(t,C.ist2,.3))*(1-p(t,C0,.3)):0);
+  if(inB2){const kin=back(p(t,C.ist2,.45));at('rL',`translate(${70-(1-kin)*500},380)`);at('rR',`translate(${560+(1-kin)*500},380)`);
+    // temperatures: both 15 -> 20 equally, then left holds, right keeps heating to 28 (same rate)
+    const R0=C.genauso+.1,R1=R0+2.4,R2=R1+3.85;const r1=p(t,R0,2.4),r2=p(t,R1,3.85);
+    const tl=15+5*r1,tr=t<R1?15+5*r1:20+8*r2;temp('tL',300,tl);temp('tR',300,tr);
+    const cold=1-p(t,R0,.6);op('snowL',cold);op('snowR',cold);
+    // valves: open fully on "Ventil", left closes when 20° reached, right closes at 28°
+    const vo=eo(p(t,C.ventil,.6));const vl=vo*(1-eo(p(t,R1,.5))),vr=vo*(1-eo(p(t,R2,.5)));
+    $('vLb').setAttribute('width',360*vl);$('vRb').setAttribute('width',360*vr);$('vLt').textContent=vl>.5?'AUF':'ZU';$('vRt').textContent=vr>.5?'AUF':'ZU';
+    [['wL',vl],['wR',vr]].forEach(([id,v])=>{$(id).setAttribute('opacity',v);$(id).setAttribute('transform',`translate(0,${-((t*60)%60)})`)});
+    face('rl',420,240,vl>.5?2:1,0,0);face('rr',420,240,vr>.5?2:1,0,0);
+    $('rlglow').setAttribute('opacity',.25*vl);$('rrglow').setAttribute('opacity',.25*vr);
+    {const k=back(p(t,C.genauso,.4));op('eq',t>=C.genauso&&t<R1?cl(k):0);at('eq',`translate(540,1290) scale(${k})`)}
+    {const k=back(p(t,R1,.4));op('okL',t>=R1?1:0);at('okL',`translate(295,880) scale(${k})`)}
+    {const k=back(p(t,C.laenger,.4));op('lgR',t>=C.laenger?1:0);at('lgR',`translate(785,880) scale(${k})`);$('lgRt').textContent=tr>=27.9?'✓ Ziel 28°':'heizt länger …'}
+    if(t>=R1&&t<R1+.1)fl+=.12;}
+  if(show('h2',inB2&&t<C0)){const txt=t<C.ventil?'Raum kalt …':t<C.fuenf?'Ventil gleich weit offen':'Gleich schnell – nur länger';$('h2t').textContent=txt;
+    const ks=[C.ist2,C.ventil,C.fuenf].filter(x=>t>=x).pop();const k=back(p(t,ks,.35));$('h2').style.transform=`scale(${k})`}
+  // ===== C: tips + jungle =====
+  const inC=t>=C0&&t<E0+.4;op('Cc',inC?cl(p(t,C0,.35))*(1-p(t,E0,.4)):0);
+  if(inC){const ki=eo(p(t,C0,.5));at('Cc',`translate(0,${(1-ki)*80})`);
+    const jg=eo(p(t,D0,1.2));
+    // thermostat: 3 while explaining, swings to 5 for the jungle joke
+    setDial('dc',t<D0?3:lerp(3,5,back(p(t,D0,.5))));
+    // furniture moves away on "Heizkörper freihalten"
+    const fr=eo(p(t,C.hk,.7));at('sofa',`translate(${300+fr*900},${1060})`);
+    $('curtL').setAttribute('x',350-fr*50);$('curtR').setAttribute('x',600+fr*50);$('curtL').setAttribute('height',620-fr*330);$('curtR').setAttribute('height',620-fr*330);
+    temp('tC',260,t<D0?20:20+12*jg);
+    $('rcglow').setAttribute('opacity',t<D0?.12:.35+.1*Math.sin(t*12));
+    const wipe=t>=C.tropen-.6;face('rc',420,220,t<D0?1:wipe?-1:2,t>=D0?Math.sin(t*6)*.8:0,0);
+    sweat('rc',420,220,t,t>=D0?cl(p(t,D0+.3,.4)):0);
+    at('radC',`translate(${330+(t>=D0?Math.sin(t*30)*3:0)},1010)`);
+    // jungle grows
+    op('jungle',t>=D0?1:0);
+    for(let k=0;k<9;k++){const e=$('lf'+k);const q=back(p(t,D0+k*.08,.5));const tr=e.getAttribute('transform').replace(/scale\([^)]*\)/,'');e.setAttribute('transform',tr.replace(/rotate\([^)]*\)/,`rotate(${+e.dataset.r+Math.sin(t*3+k)*4})`)+` scale(${q*e.dataset.s})`)}
+    for(let k=0;k<5;k++)$('vn'+k).setAttribute('stroke-dashoffset',400*(1-eo(p(t,D0+.2+k*.1,.7))));
+    at('parrot',`translate(${lerp(-200,170,eo(p(t,D0+.6,.8)))},${700+Math.sin(t*8)*10})`);
+    // towel wipe across the radiator's forehead
+    const tw=t>=C.tropen-.6;op('towel',tw?1:0);if(tw){const ph=(t-(C.tropen-.6))*3.2;at('towel',`translate(${540+Math.sin(ph*Math.PI)*150},${1060}) rotate(${Math.sin(ph*Math.PI)*12})`)}
+    $('rm').firstChild.setAttribute('fill',t>=D0?`rgb(${lerp(15,20,jg)|0},${lerp(42,70,jg)|0},${lerp(92,52,jg)|0})`:'#0f2a5c');
+  }
+  if(show('h4',t>=C0&&t<D0)){const k1=back(p(t,C.wunsch,.4)),k2=back(p(t,C.hk,.4));$('c1').style.transform=`scale(${k1})`;$('c1').style.opacity=t>=C.wunsch?1:0;$('c2').style.transform=`scale(${k2})`;$('c2').style.opacity=t>=C.hk?1:0;$('h4').style.opacity=1-p(t,D0-.2,.2)}
+  if(show('jung',t>=C.tropen-.2&&t<E0)){const k=back(p(t,C.tropen-.2,.4));$('jung').style.transform=`scale(${k}) rotate(${Math.sin(t*18)*2}deg)`}
+  // ===== E: calm end card =====
+  const inE=t>=E0;op('E',inE?eo(p(t,E0+.1,.6)):0);
+  if(inE){setDial('de',lerp(5,3,io(p(t,E0+.2,1.0))))}
+  if(show('e1',inE)){const k=eo(p(t,E0+.4,.6));$('e1').style.opacity=k;$('e1').style.transform=`translateY(${(1-k)*30}px)`}
+  if(show('e2',inE)){const k=eo(p(t,E0+.8,.6));$('e2').style.opacity=k;$('e2').style.transform=`translateY(${(1-k)*30}px)`}
+  $('flash').style.opacity=cl(fl);
+  // captions
+  let html='';for(const c of CH){if(t>=c.s&&t<c.e){html=c.map(w=>`<span class="${t>=w.start-.03?'on':''}">${w.text}</span>`).join(' ');break}}
+  $('caps').innerHTML=t<E0&&html?`<div>${html}</div>`:'';
+};
+window.addEventListener('load',()=>document.fonts.ready.then(()=>render(0)));
+</script>
+</body>
+</html>
