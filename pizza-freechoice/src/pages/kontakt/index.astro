@@ -7,7 +7,7 @@ import { u } from "../../lib/url";
 const adr = address();
 ---
 <Base title="Kontakt & Öffnungszeiten – Pizza Freechoice" description="Kontakt zu Pizza Freechoice: Adresse, Telefon, Öffnungszeiten und Anfahrt." current="/kontakt/">
-  <PageHead kicker="Kontakt" title="So erreichst du uns." lead="Adresse, Telefon und Öffnungszeiten auf einen Blick." image="eingang" />
+  <PageHead title="So erreichst du uns." lead="Adresse, Telefon und Öffnungszeiten auf einen Blick." image="eingang" />
   <section class="section section--tight">
     <div class="wrap cards">
       <article class="card">
@@ -32,13 +32,14 @@ const adr = address();
   </section>
 </Base>
 <style>
-  .cards { display: grid; grid-template-columns: repeat(3, 1fr); gap: 16px; }
-  .card { display: grid; gap: 10px; align-content: start; justify-items: start; padding: 26px; border-radius: var(--radius-lg); background: var(--white); border: 1px solid var(--line); }
-  .card h2 { font-size: var(--step-1); }
+  .cards { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); border: 2px solid var(--espresso); border-radius: var(--r); background: var(--paper); }
+  .card { display: grid; gap: 10px; align-content: start; justify-items: start; padding: clamp(22px, 3vw, 32px); }
+  .card + .card { border-left: 2px dashed var(--rule); }
+  .card h2 { font-size: var(--step-2); }
   .card :global(.ico) { width: 28px; height: 28px; color: var(--tomato); }
   .card a { font-weight: 700; min-height: 44px; display: inline-flex; align-items: center; }
-  .big { font: 800 var(--step-1) / 1.2 var(--font-display); }
-  dl { margin: 0; width: 100%; } dl div { display: flex; justify-content: space-between; gap: 12px; padding: 6px 0; border-top: 1px solid var(--line); } dt { font-weight: 700; } dd { margin: 0; }
-  .cta { margin-top: 32px; }
-  @media (max-width: 900px) { .cards { grid-template-columns: 1fr; } }
+  .big { font: 700 var(--step-1) / 1.2 var(--font-body); }
+  dl { margin: 0; width: 100%; } dl div { display: flex; justify-content: space-between; gap: 12px; padding: 6px 0; border-bottom: 2px dotted var(--rule); } dt { font-weight: 700; } dd { margin: 0; }
+  .cta { margin-top: 36px; }
+  @media (max-width: 900px) { .cards { grid-template-columns: 1fr; } .card + .card { border-left: 0; border-top: 2px dashed var(--rule); } }
 </style>

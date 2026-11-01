@@ -1,4 +1,4 @@
-// Bedienungstests: Intro, Suche in der Speisekarte, mobiles Menü, Bestell-Leiste, Bestellseite ohne Fake-Checkout.
+// Bedienungstests: Intro, Bestellbon (Liefern/Abholen), Suche in der Speisekarte, mobiles Menü, Bestell-Leiste, Bestellseite ohne Fake-Checkout.
 // Voraussetzung: dist/ unter http://localhost:4340. Aufruf: node tests/qa-interaction.cjs
 const { chromium } = require("playwright");
 const BASE = process.env.BASE_URL_TEST || "http://localhost:4340";
@@ -31,6 +31,16 @@ const ok = (c, m) => { console.log(`${c ? "✓" : "✗"} ${m}`); if (!c) fails++
   // Reduzierte Bewegung: kein Intro
   ctx = await b.newContext({ reducedMotion: "reduce" }); p = await ctx.newPage(); await p.goto(BASE + "/");
   ok(!(await p.evaluate(() => document.documentElement.classList.contains("intro-play"))), "Bei reduzierter Bewegung kein Intro");
+  await ctx.close();
+
+  // Bestellbon: Umschalter Liefern/Abholen, per Tastatur bedienbar, unbestätigte Werte als „Angabe folgt“
+  ctx = await b.newContext({ reducedMotion: "reduce" }); p = await ctx.newPage(); await p.goto(BASE + "/");
+  ok(await p.isVisible(".rows--liefern") && !(await p.isVisible(".rows--abholen")), "Bon zeigt zuerst die Lieferangaben");
+  ok((await p.textContent(".rows--liefern")).includes("Angabe folgt"), "Unbestätigte Lieferangaben zeigen „Angabe folgt“");
+  await p.check('input[name="bon-mode"][value="abholen"]');
+  ok(await p.isVisible(".rows--abholen") && !(await p.isVisible(".rows--liefern")), "„Selbst abholen“ zeigt die Abholangaben");
+  await p.focus('input[name="bon-mode"][value="abholen"]'); await p.keyboard.press("ArrowLeft");
+  ok(await p.isVisible(".rows--liefern"), "Pfeiltaste schaltet zurück auf Liefern");
   await ctx.close();
 
   // Suche in der Speisekarte

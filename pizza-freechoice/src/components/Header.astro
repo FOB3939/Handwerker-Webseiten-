@@ -18,7 +18,7 @@ const { current } = Astro.props;
     <a class="btn btn--primary btn--sm order" href={u("/bestellen/")} aria-current={isCurrent(current, "/bestellen/") ? "page" : undefined}><Icon name="bag" />Jetzt bestellen</a>
     <button class="menu-btn" type="button" aria-expanded="false" aria-controls="mobile-menu" data-menu-open><Icon name="menu" /><span class="visually-hidden">Menü öffnen</span></button>
   </div>
-  <div class="mobile on-dark" id="mobile-menu" role="dialog" aria-modal="true" aria-label="Menü" hidden data-mobile>
+  <div class="mobile on-sun" id="mobile-menu" role="dialog" aria-modal="true" aria-label="Menü" hidden data-mobile>
     <div class="wrap mobile-top">
       <a class="brand" href={u("/")}><Wordmark /><span class="visually-hidden"> – Startseite</span></a>
       <button class="menu-btn" type="button" data-menu-close><Icon name="close" /><span class="visually-hidden">Menü schließen</span></button>
@@ -33,23 +33,23 @@ const { current } = Astro.props;
 </header>
 
 <style>
-  .site-header { position: sticky; top: 0; z-index: 50; background: rgb(255 248 235 / 0.92); backdrop-filter: blur(12px) saturate(1.2); -webkit-backdrop-filter: blur(12px) saturate(1.2); border-bottom: 1px solid var(--line); }
-  .bar { display: flex; align-items: center; gap: 28px; min-height: 76px; }
-  .brand { display: inline-flex; align-items: center; min-height: 48px; text-decoration: none; color: var(--ink); margin-right: auto; }
-  .nav ul { display: flex; gap: 4px; list-style: none; margin: 0; padding: 0; }
-  .nav a { display: inline-flex; align-items: center; min-height: 44px; padding: 0 12px; border-radius: 999px; text-decoration: none; font-weight: 600; color: var(--ink); }
-  .nav a:hover { background: var(--cream-2); }
-  .nav a[aria-current="page"] { background: var(--dark); color: var(--cream); }
-  .menu-btn { display: none; width: 48px; height: 48px; place-items: center; border-radius: 999px; border: 2px solid var(--ink); background: transparent; color: inherit; cursor: pointer; }
-  .menu-btn svg { width: 22px; height: 22px; }
+  .site-header { position: sticky; top: 0; z-index: 50; background: var(--sun); color: var(--espresso); border-bottom: 2px solid var(--espresso); }
+  .bar { display: flex; align-items: center; gap: 28px; min-height: 78px; }
+  .brand { display: inline-flex; align-items: center; min-height: 48px; text-decoration: none; color: var(--espresso); margin-right: auto; }
+  .nav ul { display: flex; gap: 2px; list-style: none; margin: 0; padding: 0; }
+  .nav a { display: inline-flex; align-items: center; min-height: 44px; padding: 0 12px; text-decoration: none; font-weight: 700; color: var(--espresso);
+    background: linear-gradient(var(--tomato), var(--tomato)) no-repeat 12px calc(100% - 8px) / 0 3px; transition: background-size 0.3s var(--ease); }
+  .nav a:hover { background-size: calc(100% - 24px) 3px; }
+  .nav a[aria-current="page"] { background-size: calc(100% - 24px) 3px; }
+  .menu-btn { display: none; width: 48px; height: 48px; place-items: center; border-radius: 999px; border: 2px solid var(--espresso); background: transparent; color: inherit; cursor: pointer; }
+  .menu-btn :global(svg) { width: 22px; height: 22px; }
   .mobile { position: fixed; inset: 0; z-index: 100; overflow-y: auto; display: flex; flex-direction: column; padding-bottom: calc(24px + env(safe-area-inset-bottom, 0px)); }
   .mobile[hidden] { display: none; }
-  .mobile-top { display: flex; align-items: center; justify-content: space-between; min-height: 76px; }
-  .mobile .brand { color: var(--cream); }
-  .mobile .menu-btn { display: grid; border-color: var(--cream); }
-  .mobile-list { list-style: none; margin: 16px auto 28px; }
-  .mobile-list a { display: flex; align-items: center; min-height: 60px; border-bottom: 1px solid var(--line-dark); text-decoration: none; font: 700 1.7rem / 1.1 var(--font-display); }
-  .mobile-list a[aria-current="page"] { color: var(--yellow); }
+  .mobile-top { display: flex; align-items: center; justify-content: space-between; min-height: 78px; border-bottom: 2px solid var(--espresso); }
+  .mobile .menu-btn { display: grid; }
+  .mobile-list { list-style: none; margin: 8px auto 28px; }
+  .mobile-list a { display: flex; align-items: center; min-height: 64px; border-bottom: 2px dashed rgb(43 26 16 / 0.35); text-decoration: none; font: 400 1.9rem / 1.05 var(--font-display); }
+  .mobile-list a[aria-current="page"] { color: var(--tomato); }
   .mobile-cta { width: 100%; }
   @media (max-width: 960px) {
     .nav { display: none; }
@@ -57,9 +57,8 @@ const { current } = Astro.props;
     .bar { gap: 10px; }
   }
   /* Am Handy übernimmt die feste Bestell-Leiste unten */
-  @media (max-width: 760px) { .order { display: none; } }
+  @media (max-width: 760px) { .order { display: none; } .bar { min-height: 70px; } }
 </style>
-
 <script>
   // Mobiles Menü: Fokus im Dialog halten, Escape schließt, Fokus zurück zum Auslöser
   const panel = document.querySelector<HTMLElement>("[data-mobile]");

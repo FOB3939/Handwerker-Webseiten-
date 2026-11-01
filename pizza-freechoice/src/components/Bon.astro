@@ -1,0 +1,57 @@
+---
+// Bestellbon: Umschalter „Liefern lassen“ / „Selbst abholen“ mit den jeweils bestätigten Angaben.
+// Nur Werte aus src/config/site.ts; unbestätigt → „Angabe folgt“. Funktioniert ohne JavaScript (Radio + :has).
+import Icon from "./Icon.astro";
+import { BUSINESS, DELIVERY, address, euro, OPEN } from "../config/site";
+import { u } from "../lib/url";
+const adr = address();
+const hours = BUSINESS.hours ? BUSINESS.hours.map((h) => `${h.day} ${h.time}`).join(", ") : null;
+const deliver = [
+  { k: "Liefergebiet", v: DELIVERY.area },
+  { k: "Lieferkosten", v: DELIVERY.feeCents == null ? null : DELIVERY.feeCents === 0 ? "ohne Liefergebühr" : euro(DELIVERY.feeCents) },
+  { k: "Mindestbestellwert", v: DELIVERY.minOrderCents == null ? null : euro(DELIVERY.minOrderCents) },
+];
+const pickup = [
+  { k: "Abholen möglich", v: DELIVERY.pickup == null ? null : DELIVERY.pickup ? "ja" : "nein" },
+  { k: "Adresse", v: adr },
+  { k: "Öffnungszeiten", v: hours },
+];
+---
+<div class="bon">
+  <fieldset class="switch">
+    <legend class="visually-hidden">Wie möchtest du deine Pizza bekommen?</legend>
+    <label><input type="radio" name="bon-mode" value="liefern" checked /><span><Icon name="truck" />Liefern lassen</span></label>
+    <label><input type="radio" name="bon-mode" value="abholen" /><span><Icon name="store" />Selbst abholen</span></label>
+  </fieldset>
+  <dl class="rows rows--liefern">
+    {deliver.map((r) => <div><dt>{r.k}</dt><dd class:list={{ open: !r.v }}>{r.v ?? OPEN}</dd></div>)}
+  </dl>
+  <dl class="rows rows--abholen">
+    {pickup.map((r) => <div><dt>{r.k}</dt><dd class:list={{ open: !r.v }}>{r.v ?? OPEN}</dd></div>)}
+  </dl>
+  <a class="more" href={u("/lieferung-abholung/")}>Alle Bedingungen zu Lieferung und Abholung</a>
+</div>
+<style>
+  .bon { position: relative; display: grid; gap: 14px; padding: 18px 20px 30px; background: var(--paper); color: var(--espresso); border-radius: var(--r) var(--r) 0 0; box-shadow: var(--shadow-print);
+    /* gezackter Abriss unten */
+    --z: 10px;
+    mask: conic-gradient(from -45deg at bottom, #0000, #000 1deg 89deg, #0000 90deg) 50% / calc(2 * var(--z)) 100%; }
+  .switch { display: grid; grid-template-columns: 1fr 1fr; gap: 4px; margin: 0; padding: 4px; border: 0; border-radius: 999px; background: var(--kraft); }
+  .switch label { position: relative; display: block; cursor: pointer; }
+  .switch input { position: absolute; inset: 0; opacity: 0; margin: 0; cursor: pointer; }
+  .switch span { display: flex; align-items: center; justify-content: center; gap: 8px; min-height: 46px; padding: 0 10px; border-radius: 999px; font-weight: 700; font-size: 0.96rem; text-align: center; transition: background-color 0.25s var(--ease), color 0.25s; }
+  .switch :global(svg) { width: 20px; height: 20px; flex: none; }
+  .switch input:checked + span { background: var(--espresso); color: var(--ink-on-dark); }
+  .switch input:focus-visible + span { outline: 3px solid var(--tomato); outline-offset: 2px; }
+  .rows { margin: 0; display: grid; }
+  @media (max-width: 420px) { .switch :global(svg) { display: none; } .switch span { font-size: 0.92rem; } }
+  .rows div { display: flex; flex-wrap: wrap; justify-content: space-between; gap: 2px 16px; padding: 9px 0; border-bottom: 2px dotted var(--rule); }
+  dt { font-weight: 700; }
+  dd { margin: 0; text-align: right; }
+  .rows--abholen { display: none; }
+  .bon:has(input[value="abholen"]:checked) .rows--abholen { display: grid; animation: in 0.35s var(--ease); }
+  .bon:has(input[value="abholen"]:checked) .rows--liefern { display: none; }
+  .bon:has(input[value="liefern"]:checked) .rows--liefern { animation: in 0.35s var(--ease); }
+  .more { display: inline-flex; align-items: center; min-height: 44px; font-weight: 700; font-size: var(--step--1); }
+  @keyframes in { from { opacity: 0; transform: translateY(4px); } }
+</style>

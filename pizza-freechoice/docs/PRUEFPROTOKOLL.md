@@ -1,4 +1,15 @@
-# Prüfprotokoll (26.10.2026, Vorschau-Build)
+# Prüfprotokoll
+
+## 01.11.2026 – Redesign „Faltkarte“ (Vorschau-Build)
+| Prüfung | Ergebnis |
+|---|---|
+| `astro check`, `astro build` | 0 Fehler, 10 Seiten |
+| `tests/qa-pages.cjs` (10 Seiten × 360/390/768/1024/1440, axe WCAG 2.2 AA, Überlauf, h1, Tippflächen, Links) | 50/50 ohne Befund, 9 interne Links erreichbar |
+| `tests/qa-interaction.cjs` (Intro, Bestellbon Liefern/Abholen inkl. Tastatur, Suche, Menü, Bestell-Leiste, kein Fake-Checkout) | alle bestanden |
+| `npm run prod-check` | bricht mit Liste der offenen Pflichtdaten ab (erwartet) |
+| Sichtprüfung 1366/390 aller Hauptseiten | geprüft; behoben: Icons im Bon-Umschalter, Ablaufliste auf „Lieferung & Abholung“, Leerraum unter dem Fuß am Handy |
+
+## 26.10.2026 – erste Fassung (Vorschau-Build)
 
 | Prüfung | Werkzeug | Ergebnis |
 |---|---|---|

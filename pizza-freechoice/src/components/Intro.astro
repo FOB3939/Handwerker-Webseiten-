@@ -1,6 +1,6 @@
 ---
 // Pizza-Intro (~3 s), einmal pro Sitzung, überspringbar (Knopf, Escape, Scrollen/Wischen).
-// 0–0,7 s warmes Licht + Kreislinie · 0,7–1,7 s drei Zutatenformen fliegen ein · 1,7–2,8 s Wortmarke · bis 3 s ausblenden.
+// 0–0,7 s Stempelring zeichnet sich · 0,7–1,7 s drei Zutatenformen fliegen ein · 1,7–2,8 s Wortmarke · bis 3 s ausblenden.
 // Liegt über der fertig geladenen Seite (blockiert weder Laden noch Bestellweg). Bei reduzierter Bewegung: kein Intro.
 import Wordmark from "./Wordmark.astro";
 ---
@@ -16,11 +16,11 @@ import Wordmark from "./Wordmark.astro";
 <div class="intro" data-intro>
   <div class="stage" aria-hidden="true">
     <svg class="pie" viewBox="0 0 200 200">
-      <circle class="ring" cx="100" cy="100" r="78" pathLength="1" />
-      <circle class="ring ring--in" cx="100" cy="100" r="66" pathLength="1" />
-      <g class="topping t1"><circle cx="72" cy="80" r="10" fill="#1d1712" stroke="#fff8eb" stroke-opacity="0.7" stroke-width="2" /><circle cx="72" cy="80" r="3.4" fill="#fff8eb" fill-opacity="0.35" /></g>
-      <g class="topping t2"><path d="M108 66c10 2 20 9 24 20" stroke="#c8331f" stroke-width="8" stroke-linecap="round" fill="none" /></g>
-      <g class="topping t3"><circle cx="96" cy="124" r="9" fill="none" stroke="#e7d35a" stroke-width="5" /></g>
+      <circle class="ring" cx="100" cy="100" r="80" pathLength="1" />
+      <circle class="ring ring--in" cx="100" cy="100" r="68" pathLength="1" />
+      <g class="topping t1"><circle cx="72" cy="80" r="11" fill="#2b1a10" /><circle cx="72" cy="80" r="3.6" fill="#ffc52e" /></g>
+      <g class="topping t2"><path d="M108 64c11 2 21 10 25 21" stroke="#b8261b" stroke-width="9" stroke-linecap="round" fill="none" /></g>
+      <g class="topping t3"><circle cx="96" cy="126" r="10" fill="none" stroke="#6f7f16" stroke-width="5.5" /></g>
     </svg>
     <div class="mark"><Wordmark size="lg" /></div>
   </div>
@@ -28,21 +28,22 @@ import Wordmark from "./Wordmark.astro";
 </div>
 <style>
   .intro { display: none; }
-  :global(html.intro-play) .intro { display: grid; place-items: center; position: fixed; inset: 0; z-index: 200; background: radial-gradient(60% 50% at 50% 45%, #3a2a1c 0%, #211a16 65%); animation: out 0.45s cubic-bezier(0.7, 0, 0.3, 1) 2.55s forwards; }
-  .stage { display: grid; justify-items: center; gap: 18px; }
-  .pie { width: min(56vw, 270px); overflow: visible; }
-  .ring { fill: none; stroke: var(--yellow); stroke-width: 3; stroke-dasharray: 1; stroke-dashoffset: 1; filter: drop-shadow(0 0 10px rgb(245 189 34 / 0.6)); animation: draw 0.7s cubic-bezier(0.6, 0, 0.3, 1) 0.05s forwards; }
-  .ring--in { stroke: rgb(245 189 34 / 0.45); stroke-width: 1.5; animation-delay: 0.25s; }
+  /* Gelber Flyer-Karton: Stempelring, Zutaten, Wortmarke wird „aufgedruckt“, dann rollt der Karton nach oben weg */
+  :global(html.intro-play) .intro { display: grid; place-items: center; position: fixed; inset: 0; z-index: 200; background: var(--sun); color: var(--espresso); animation: out 0.5s cubic-bezier(0.7, 0, 0.3, 1) 2.5s forwards; }
+  .stage { display: grid; justify-items: center; gap: 14px; }
+  .pie { width: min(52vw, 250px); overflow: visible; }
+  .ring { fill: none; stroke: var(--tomato); stroke-width: 5; stroke-dasharray: 1; stroke-dashoffset: 1; animation: draw 0.7s cubic-bezier(0.6, 0, 0.3, 1) 0.05s forwards; }
+  .ring--in { stroke-width: 2; stroke-dasharray: 0.012 0.018; stroke-dashoffset: 0; opacity: 0; animation: fade 0.4s ease-out 0.45s forwards; }
   .topping { opacity: 0; transform-box: fill-box; transform-origin: center; animation: drop 0.55s cubic-bezier(0.3, 1.4, 0.5, 1) forwards; }
   .t1 { --dx: -90px; --dy: -70px; animation-delay: 0.75s; }
   .t2 { --dx: 100px; --dy: -60px; animation-delay: 0.95s; }
   .t3 { --dx: -20px; --dy: 110px; animation-delay: 1.15s; }
-  .mark { color: var(--cream); clip-path: inset(0 100% 0 0); transform: translateY(10px); animation: rise 0.6s var(--ease) 1.7s forwards; }
-  .skip { position: absolute; right: 20px; bottom: calc(20px + env(safe-area-inset-bottom, 0px)); min-height: 44px; padding: 0 18px; border-radius: 999px; border: 2px solid var(--cream); background: transparent; color: var(--cream); font: 700 0.95rem / 1 var(--font-body); cursor: pointer; }
+  .mark { clip-path: inset(0 100% 0 0); transform: translateY(8px) scale(1.04); filter: blur(4px); animation: print 0.6s var(--ease) 1.65s forwards; }
+  .skip { position: absolute; right: 20px; bottom: calc(20px + env(safe-area-inset-bottom, 0px)); min-height: 44px; padding: 0 18px; border-radius: 999px; border: 2px solid var(--espresso); background: transparent; color: var(--espresso); font: 700 0.95rem / 1 var(--font-body); cursor: pointer; }
   @keyframes draw { to { stroke-dashoffset: 0; } }
+  @keyframes fade { to { opacity: 1; } }
   @keyframes drop { from { opacity: 0; transform: translate(var(--dx), var(--dy)) rotate(-40deg) scale(0.6); } to { opacity: 1; transform: none; } }
-  @keyframes rise { to { clip-path: inset(0 -10% 0 0); transform: none; } }
-  /* Ausgang als Vorhang nach oben (statt Ausblenden: kein halbtransparenter Zwischenzustand) */
+  @keyframes print { to { clip-path: inset(0 -10% 0 0); transform: none; filter: none; } }
   @keyframes out { to { transform: translateY(-100%); visibility: hidden; } }
   :global(html.intro-done) .intro { display: none !important; }
 </style>

@@ -10,7 +10,7 @@ const products = visibleProducts(SITE.preview);
 const cats = CATEGORIES.filter((c) => products.some((p) => p.category === c.id));
 ---
 <Base title="Speisekarte – Pizza Freechoice" description="Die Speisekarte von Pizza Freechoice: Pizzen mit Größen und Preisen, durchsuchbar und gut lesbar auf dem Handy." current="/speisekarte/">
-  <PageHead kicker="Speisekarte" title="Worauf hast du Lust?" lead="Alle Gerichte mit Größen und Preisen. Tippe einen Begriff ein, um schnell zu finden, was du suchst." />
+  <PageHead title="Worauf hast du Lust?" lead="Alle Gerichte mit Größen und Preisen. Tippe einen Begriff ein, um schnell zu finden, was du suchst." />
 
   <section class="section section--tight" aria-label="Speisekarte">
     <div class="wrap">
@@ -43,7 +43,7 @@ const cats = CATEGORIES.filter((c) => products.some((p) => p.category === c.id))
             <section class="cat" aria-labelledby={`cat-${c.id}`} data-section={c.id}>
               <h2 id={`cat-${c.id}`}>{c.label}</h2>
               <div class="list">
-                {products.filter((p) => p.category === c.id).map((p) => <MenuItem p={p} headingLevel="h3" />)}
+                {products.filter((p) => p.category === c.id).map((p) => <MenuItem p={p} headingLevel="h3" withImage />)}
               </div>
             </section>
           ))}
@@ -61,28 +61,28 @@ const cats = CATEGORIES.filter((c) => products.some((p) => p.category === c.id))
 </Base>
 
 <style>
-  .notice { margin-bottom: 24px; }
-  .notice :global(svg) { width: 20px; height: 20px; flex: none; margin-top: 1px; }
+  .notice { margin-bottom: 28px; }
   .tools { display: flex; flex-wrap: wrap; gap: 12px; align-items: center; margin-bottom: 8px; }
   .tools[hidden] { display: none; }
-  .search { position: relative; flex: 1 1 320px; max-width: 520px; }
-  .search :global(svg) { position: absolute; left: 16px; top: 50%; width: 20px; height: 20px; translate: 0 -50%; color: var(--ink-2); pointer-events: none; }
-  .search input { width: 100%; min-height: 52px; padding: 0 16px 0 46px; border-radius: 999px; border: 2px solid var(--ink); background: var(--white); color: var(--ink); font: inherit; }
-  .search input:focus-visible { outline: 3px solid var(--yellow); outline-offset: 2px; }
+  .search { position: relative; flex: 1 1 320px; max-width: 540px; }
+  .search :global(svg) { position: absolute; left: 18px; top: 50%; width: 22px; height: 22px; translate: 0 -50%; color: var(--espresso); pointer-events: none; }
+  .search input { width: 100%; min-height: 56px; padding: 0 18px 0 50px; border-radius: 999px; border: 2px solid var(--espresso); background: var(--paper); color: var(--ink); font: 500 1.05rem / 1 var(--font-body); }
+  .search input::placeholder { color: #7a5a35; }
+  .search input:focus-visible { outline: 3px solid var(--tomato); outline-offset: 2px; }
   .chips { display: flex; flex-wrap: wrap; gap: 8px; }
-  .chip { min-height: 44px; padding: 0 18px; border-radius: 999px; border: 2px solid var(--ink); background: transparent; color: var(--ink); font: 700 0.95rem / 1 var(--font-body); cursor: pointer; }
-  .chip[aria-pressed="true"] { background: var(--dark); color: var(--cream); }
-  .count { min-height: 1.6em; margin: 6px 0 18px; font-size: var(--step--1); }
-  .cat { margin-top: 12px; }
+  .chip { min-height: 44px; padding: 0 18px; border-radius: 999px; border: 2px solid var(--espresso); background: transparent; color: var(--ink); font: 700 0.95rem / 1 var(--font-body); cursor: pointer; }
+  .chip[aria-pressed="true"] { background: var(--espresso); color: var(--ink-on-dark); }
+  .count { min-height: 1.6em; margin: 8px 0 12px; font-size: var(--step--1); }
+  .cat { margin-top: 16px; }
   .cat[hidden] { display: none; }
-  .cat h2 { font-size: var(--step-2); margin-bottom: 16px; padding-bottom: 10px; border-bottom: 3px solid var(--yellow); }
-  .list { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 14px; }
+  .cat h2 { font-size: var(--step-3); padding-bottom: 6px; border-bottom: 4px solid var(--espresso); }
+  .list { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); column-gap: clamp(32px, 5vw, 72px); }
   .list :global([data-item][hidden]) { display: none; }
   .none, .empty { display: grid; gap: 12px; justify-items: start; padding: 32px 0; }
   .none[hidden] { display: none; }
   .none h2, .empty h2 { font-size: var(--step-2); }
-  .linkbtn { padding: 0; border: 0; background: none; color: inherit; font: inherit; text-decoration: underline; cursor: pointer; min-height: 24px; }
-  .fine { margin-top: 32px; font-size: var(--step--1); }
+  .linkbtn { padding: 0; border: 0; background: none; color: inherit; font: inherit; font-weight: 700; text-decoration: underline; text-decoration-color: var(--tomato); text-underline-offset: 0.2em; cursor: pointer; min-height: 24px; }
+  .fine { margin-top: 36px; font-size: var(--step--1); }
   @media (max-width: 860px) { .list { grid-template-columns: 1fr; } }
 </style>
 

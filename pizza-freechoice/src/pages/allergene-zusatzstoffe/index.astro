@@ -8,7 +8,7 @@ const ALLERGENS = ["Glutenhaltiges Getreide", "Krebstiere", "Eier", "Fisch", "Er
 const products = visibleProducts(SITE.preview);
 ---
 <Base title="Allergene & Zusatzstoffe – Pizza Freechoice" description="Allergene und Zusatzstoffe der Gerichte von Pizza Freechoice." current="/allergene-zusatzstoffe/">
-  <PageHead kicker="Speisekarte" title="Allergene &amp; Zusatzstoffe" lead="Hier stehen die Angaben je Gericht, sobald sie vom Betrieb bestätigt sind." />
+  <PageHead title="Allergene &amp; Zusatzstoffe" lead="Hier stehen die Angaben je Gericht, sobald sie vom Betrieb bestätigt sind." />
   <section class="section section--tight">
     <div class="wrap">
       <p class="notice"><span><strong>Wichtig:</strong> Für die Gerichte liegen noch keine bestätigten Allergen- und Zusatzstoffangaben vor. Ein fehlender Eintrag bedeutet „nicht bestätigt“ – nicht „frei von“. Bei Allergien frag bitte vor der Bestellung direkt nach.</span></p>
@@ -30,12 +30,14 @@ const products = visibleProducts(SITE.preview);
 </Base>
 <style>
   .notice { margin-bottom: 32px; }
-  h2 { font-size: var(--step-2); margin: 32px 0 14px; }
-  .tablewrap { overflow-x: auto; border-radius: var(--radius); border: 1px solid var(--line); background: var(--white); }
-  table { width: 100%; border-collapse: collapse; min-width: 520px; }
-  th, td { text-align: left; padding: 12px 16px; border-bottom: 1px solid var(--line); vertical-align: top; }
-  thead th { background: var(--cream-2); font-weight: 700; }
-  .cols { columns: 2; column-gap: 32px; padding-left: 1.2em; margin: 8px 0 0; }
+  h2 { font-size: var(--step-2); margin: 36px 0 14px; }
+  .tablewrap { overflow-x: auto; border-radius: var(--r); border: 2px solid var(--espresso); background: var(--paper); }
+  table { width: 100%; border-collapse: collapse; min-width: 520px; font-variant-numeric: tabular-nums; }
+  th, td { text-align: left; padding: 12px 16px; border-bottom: 2px dotted var(--rule); vertical-align: top; }
+  thead th { background: var(--kraft); font-weight: 700; border-bottom: 2px solid var(--espresso); }
+  tbody tr:last-child > * { border-bottom: 0; }
+  .cols { columns: 2; column-gap: 40px; padding-left: 1.2em; margin: 8px 0 0; max-width: 760px; }
   .cols li { padding: 3px 0; break-inside: avoid; }
+  .cols li::marker { color: var(--tomato); }
   @media (max-width: 600px) { .cols { columns: 1; } }
 </style>

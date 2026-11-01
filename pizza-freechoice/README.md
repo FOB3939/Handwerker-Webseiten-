@@ -1,7 +1,8 @@
 # Pizza Freechoice – Website (private Vorschau)
 
 Mehrseitige, statische Website für den Pizza-Heimservice „Pizza Freechoice“. Astro 5, TypeScript, kein Framework im
-Browser, lokal geladene Schriften (Bricolage Grotesque, Figtree). Grundlage: `docs/MASTERPROMPT.md`, `docs/BILDPLAN.md`.
+Browser, lokal geladene Schriften (Bagel Fat One, Schibsted Grotesk). Grundlage: `docs/MASTERPROMPT.md`, `docs/BILDPLAN.md`.
+Gestaltung „Faltkarte“ (Lieferzettel in Sonnengelb, Espresso und Tomate): `docs/DESIGN.md`.
 
 **Stand:** Vorschau mit klar gekennzeichneten Demo-Inhalten. Geschäftsdaten (Adresse, Telefon, Öffnungszeiten,
 Speisekarte, Preise, Liefer­bedingungen, Bestell-URL) sind **noch nicht bestätigt** → `docs/OFFENE-PUNKTE.md`.
@@ -17,7 +18,7 @@ npm run prod-check   # Live-Build (PUBLIC_PREVIEW=false) – bricht ab, solange 
 Tests (Server auf :4340 mit `python3 -m http.server 4340 -d dist`):
 ```bash
 node tests/qa-pages.cjs        # 10 Seiten × 5 Breiten: Überlauf, axe WCAG 2.2 AA, h1, Meta, Tippflächen, Links
-node tests/qa-interaction.cjs  # Intro, Suche, mobiles Menü, Bestell-Leiste, kein Fake-Checkout
+node tests/qa-interaction.cjs  # Intro, Bestellbon Liefern/Abholen, Suche, mobiles Menü, Bestell-Leiste, kein Fake-Checkout
 ```
 
 ## Seiten

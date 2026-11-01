@@ -7,10 +7,9 @@ const adr = address();
 ---
 <footer class="site-footer on-dark">
   <div class="wrap grid">
-    <div class="col">
-      <a class="brand" href={u("/")}><Wordmark /><span class="visually-hidden"> – Startseite</span></a>
-      <p class="muted">Pizza Heimservice</p>
-      <a class="btn btn--primary btn--sm" href={u("/bestellen/")}><Icon name="bag" />Jetzt bestellen</a>
+    <div class="col col--lead">
+      <p class="claim">Pizza Heimservice. Liefern lassen oder abholen.</p>
+      <a class="btn btn--sun btn--sm" href={u("/bestellen/")}><Icon name="bag" />Jetzt bestellen</a>
     </div>
     <div class="col">
       <h2 class="fh">Speisekarte</h2>
@@ -31,21 +30,24 @@ const adr = address();
       </ul>
     </div>
   </div>
+  <div class="wrap big"><a class="brand" href={u("/")}><Wordmark size="xl" /><span class="visually-hidden"> – Startseite</span></a></div>
   <div class="wrap legal">
     <p>© {new Date().getFullYear()} {BUSINESS.legalName ?? BUSINESS.name}</p>
     <p><a href={u("/impressum/")}>Impressum</a><a href={u("/datenschutz/")}>Datenschutz</a></p>
   </div>
 </footer>
 <style>
-  .site-footer { padding-block: clamp(56px, 8vw, 96px) 28px; }
-  .grid { display: grid; grid-template-columns: 1.3fr 1fr 1fr; gap: 40px; }
-  .col { display: grid; gap: 14px; align-content: start; justify-items: start; }
-  .brand { color: var(--cream); text-decoration: none; min-height: 48px; display: inline-flex; align-items: center; }
-  .fh { font-size: var(--step-1); }
-  ul { list-style: none; margin: 0; padding: 0; display: grid; gap: 4px; }
-  li a, .legal a { display: inline-flex; align-items: center; min-height: 44px; text-decoration-color: var(--yellow); text-underline-offset: 4px; }
+  .site-footer { padding-block: clamp(56px, 8vw, 96px) 24px; border-top: 6px solid var(--sun); }
+  .grid { display: grid; grid-template-columns: 1.4fr 1fr 1fr; gap: 40px; }
+  .col { display: grid; gap: 12px; align-content: start; justify-items: start; }
+  .claim { font: 400 var(--step-2) / 1.08 var(--font-display); color: var(--ink-on-dark); max-width: 14ch; margin-bottom: 8px; }
+  .fh { font-size: var(--step-1); color: var(--sun); }
+  ul { list-style: none; margin: 0; padding: 0; display: grid; gap: 2px; }
   li { color: var(--ink-on-dark-2); }
-  .legal { display: flex; flex-wrap: wrap; justify-content: space-between; gap: 12px; margin-top: 48px; padding-top: 20px; border-top: 1px solid var(--line-dark); color: var(--ink-on-dark-2); font-size: var(--step--1); }
+  li a, .legal a { display: inline-flex; align-items: center; min-height: 44px; text-decoration-color: var(--sun); }
+  .big { margin-top: clamp(40px, 6vw, 72px); overflow: hidden; }
+  .brand { color: var(--sun); text-decoration: none; display: inline-block; max-width: 100%; }
+  .legal { display: flex; flex-wrap: wrap; justify-content: space-between; gap: 12px; margin-top: 18px; padding-top: 14px; border-top: 2px dashed var(--rule-dark); color: var(--ink-on-dark-2); font-size: var(--step--1); }
   .legal p { display: flex; gap: 18px; align-items: center; }
-  @media (max-width: 820px) { .grid { grid-template-columns: 1fr; gap: 32px; } }
+  @media (max-width: 820px) { .grid { grid-template-columns: 1fr; gap: 28px; } }
 </style>
