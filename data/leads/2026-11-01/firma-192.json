@@ -1,0 +1,406 @@
+{
+  "id": "2026-11-01-192",
+  "slug": "hausmeisterservice-dzhambaz-kaufering",
+  "date": "2026-11-01",
+  "company": {
+    "name": "Hausmeisterservice Dzhambaz",
+    "owner": "Mehmed Dzhambaz",
+    "trade": "Hausmeisterservice",
+    "city": "Kaufering",
+    "address": "Leonhardistr. 17, 86916 Kaufering",
+    "phone": "01516 6875934",
+    "email": "mehmet.huseim@gmail.com",
+    "serviceArea": [
+      "Kaufering",
+      "Landsberg am Lech",
+      "Hurlach",
+      "Igling",
+      "Penzing",
+      "Scheuring"
+    ]
+  },
+  "listings": {
+    "google": {
+      "url": "https://www.google.com/maps/search/?api=1&query=Hausmeisterservice%20Dzhambaz%20Leonhardistr.%2017%20Kaufering",
+      "rating": null,
+      "reviews": null,
+      "evidence": "Kein Google-Spiegel gefunden – Google-Eintrag nicht belegt. Freemail-Adresse mehmet.huseim@gmail.com öffentlich im 11880-Eintrag (Leonhardistr. 17, 86916 Kaufering, 01516 6875934). 11880 zeigt 5/5 aus 3 Bewertungen (11880-Bewertungen, nicht Google). In Maps prüfen."
+    },
+    "myhammer": {
+      "url": "https://www.11880.com/suche/hausmeisterservice/landsberg",
+      "rating": null,
+      "reviews": null,
+      "evidence": "Kein MyHammer gefunden – Einträge bei 11880 (Hausmeisterservice, Renovierung Kaufering), Das Örtliche (Dzhambaz Mehmed, Hausmeisterdienste, Mo–Sa 8–17 Uhr, eine positive Kundenstimme), Seniorenportal und hausmeisterdienste.net."
+    }
+  },
+  "websiteStatus": "keine eigene Website gefunden",
+  "websiteChecks": [
+    "(1) „Hausmeisterservice Dzhambaz Kaufering“ mit blocked_domains (11880, Gelbe Seiten, Das Örtliche, Telefonbuch, Cylex, meinestadt, Creditreform, Facebook, Instagram, golocal, MyHammer, Northdata, Firmenwissen, WKDB, Yelp, trustlocal, wlw) – nur Verzeichnisse (hausmeisterdienste.net, Seniorenportal) und Kleinanzeigen; keine eigene Domain",
+    "(2) Verzeichnis-Suche „Dzhambaz Hausmeisterservice“ (11880, Das Örtliche, Gelbe Seiten, trustlocal, rgv-bayern) – Das Örtliche „Dzhambaz Mehmed“, Leonhardistr., 0151 66875934, Kategorie Hausmeisterdienste; kein Website-Feld im Snippet",
+    "(3) Telefon-/Namenssuche „PRO Hausmeisterservice Gebäudereinigung Kaufering 01516 6875934“ – nur Verzeichnis mit Dzhambaz, sonst andere Firmen (MEK, Maxi-Hösta, clean group) mit eigenen Websites",
+    "(4) Domain-Check allowed_domains hausmeisterservice-dzhambaz.de, dzhambaz.de, dzhambaz-hausmeisterservice.de, hausmeister-dzhambaz.de, dzhambaz-service.de, pro-hausmeisterservice.de, pro-hausmeisterservice-kaufering.de, dzhambaz.com – keine Treffer",
+    "(5) Impressum-Suche nicht ausgeführt (Suchwerkzeug lehnte Personensuche ab) – kein Impressum in den übrigen Treffern",
+    "Website-Risiko: niedrig – alle Prüfungen negativ, Freemail (gmail) öffentlich belegt"
+  ],
+  "facts": {
+    "services": [
+      "Hausmeisterservice",
+      "Gebäudereinigung",
+      "Renovierung"
+    ],
+    "experience": null,
+    "praisedFor": []
+  },
+  "strategy": {
+    "audience": "Hausverwaltungen, Vermieter, Eigentümergemeinschaften und Hausbesitzer in Kaufering und Landsberg, die Objektbetreuung, Reinigung oder kleinere Renovierungen auslagern wollen",
+    "mainService": "Hausmeisterservice mit Reinigung und Renovierung",
+    "trustSignal": "Inhaber direkt per Handy erreichbar, Mo–Sa 8–17 Uhr",
+    "conversionGoal": "Angebot für Objektbetreuung anfragen (Anruf/WhatsApp)",
+    "visualConcept": "Gepflegtes Mehrfamilienhaus, sauberes Treppenhaus, Werkzeugkoffer – ordentlich, bodenständig, freundlich"
+  },
+  "sales": {
+    "score": 6,
+    "whyGoodLead": [
+      "Keine eigene Website gefunden – nur Verzeichniseinträge",
+      "Mobilnummer und Gmail öffentlich – direkter WhatsApp-Erstkontakt möglich",
+      "Positive Kundenstimmen in Verzeichnissen, aber kaum sichtbar",
+      "Hausverwaltungen suchen online – eine Website mit Leistungsliste bringt Daueraufträge"
+    ],
+    "pitch": "Hallo Herr Dzhambaz, hier ist … – ich baue Websites für Handwerksbetriebe im Landkreis Landsberg. Ich habe Ihren Hausmeisterservice in Kaufering im Verzeichnis gefunden, aber keine eigene Website. Ich habe unverbindlich einen Entwurf vorbereitet, auf dem Hausverwaltungen und Eigentümer Ihre Leistungen sehen und direkt per WhatsApp anfragen können – darf ich Ihnen den Link schicken?"
+  },
+  "manualChecks": [
+    "Website-Risiko: niedrig – vor Versand in Google Maps prüfen, dass keine Website hinterlegt ist (Grund: Google-Eintrag nicht über Spiegel belegt, nur Freemail und Verzeichnisse)",
+    "Google-Eintrag in Maps suchen; die 5/5 aus 3 Bewertungen stammen von 11880, nicht von Google – nicht als Google-Bewertung ausgeben",
+    "Kleinanzeigen-Inserate „PRO Hausmeisterservice & Gebäudereinigung“ (Objektpflege, Zaunbau, Pflaster, Erdarbeiten, Transport; 2024) nur per Snippet dem Namen Dzhambaz zugeordnet – Firmenname und Zusatzleistungen beim Erstkontakt klären",
+    "E-Mail mehmet.huseim@gmail.com weicht vom Namen ab (Mehmet/Mehmed) – korrekte Schreibweise des Inhabernamens erfragen",
+    "Leistungen nur grob belegt (Hausmeisterservice, Gebäudereinigung, Renovierung) – Winterdienst/Gartenpflege bestätigen",
+    "Logo und Projektfotos: nicht gefunden – beim Betrieb anfragen"
+  ],
+  "sources": [
+    {
+      "label": "11880 – Hausmeisterservices Landsberg (Liste mit Hausmeisterservice Dzhambaz)",
+      "url": "https://www.11880.com/suche/hausmeisterservice/landsberg"
+    },
+    {
+      "label": "11880 – Renovierungen Kaufering (Hausmeisterservice Dzhambaz)",
+      "url": "https://www.11880.com/suche/renovierung/kaufering"
+    },
+    {
+      "label": "Das Örtliche – Dzhambaz Mehmed, Kaufering",
+      "url": "https://www.dasoertliche.de/Themen/Dzhambaz-Mehmed-Kaufering-Leonhardistr"
+    },
+    {
+      "label": "hausmeisterdienste.net – Hausmeisterservices Kaufering",
+      "url": "https://www.hausmeisterdienste.net/kaufering"
+    },
+    {
+      "label": "Seniorenportal – Hausmeisterdienste Schwabmünchen und Umgebung",
+      "url": "https://www.seniorenportal.de/regionale-angebote/hausmeisterdienste/schwabmuenchen"
+    }
+  ],
+  "site": {
+    "theme": "objekt",
+    "category": "handwerk",
+    "heroOffer": [
+      "Hausmeisterdienst",
+      "Treppenhausreinigung",
+      "Kleinreparaturen",
+      "Renovierung",
+      "Grünpflege"
+    ],
+    "scene": "facade",
+    "logoIcon": "broom",
+    "logoMark": "HD",
+    "brandName": "Hausmeisterservice Dzhambaz",
+    "seoTitle": "Hausmeisterservice in Kaufering – Hausmeisterservice Dzhambaz",
+    "seoDescription": "Hausmeisterdienst, Gebäudereinigung und Renovierung in Kaufering und Landsberg am Lech. Jetzt Angebot anfragen – auch per WhatsApp.",
+    "nav": [
+      {
+        "label": "Leistungen",
+        "href": "#leistungen"
+      },
+      {
+        "label": "Projekte",
+        "href": "#projekte"
+      },
+      {
+        "label": "Bewertungen",
+        "href": "#bewertungen"
+      },
+      {
+        "label": "Ablauf",
+        "href": "#ablauf"
+      },
+      {
+        "label": "FAQ",
+        "href": "#faq"
+      },
+      {
+        "label": "Kontakt",
+        "href": "#kontakt"
+      }
+    ],
+    "hero": {
+      "eyebrow": "Hausmeisterservice · Kaufering",
+      "headline": "Hausmeisterservice für Kaufering und Landsberg",
+      "sub": "Objektbetreuung, Reinigung und Renovierung – direkt beim Inhaber angefragt.",
+      "ctaPrimary": "Angebot anfragen",
+      "ctaSecondary": "Anrufen",
+      "bullets": [
+        "Betrieb in Kaufering",
+        "Reinigung und Renovierung",
+        "Mo–Sa 8–17 Uhr erreichbar"
+      ],
+      "imageLabel": "gepflegter Hauseingang eines Mehrfamilienhauses"
+    },
+    "badges": [
+      {
+        "title": "Hausmeister",
+        "sub": "Objektbetreuung"
+      },
+      {
+        "title": "Reinigung",
+        "sub": "Treppenhaus & Gebäude"
+      },
+      {
+        "title": "Renovierung",
+        "sub": "Wände, Böden, Kleinarbeiten"
+      },
+      {
+        "title": "Kaufering",
+        "sub": "Leonhardistraße"
+      }
+    ],
+    "trust": [
+      {
+        "value": "Vor Ort",
+        "label": "Betrieb in Kaufering"
+      },
+      {
+        "value": "Mo–Sa",
+        "label": "8–17 Uhr erreichbar"
+      },
+      {
+        "value": "3",
+        "label": "Leistungsbereiche"
+      },
+      {
+        "value": "Mobil",
+        "label": "direkt zum Inhaber"
+      }
+    ],
+    "servicesIntro": {
+      "headline": "Ein Ansprechpartner für Haus und Anlage",
+      "text": "Ob Treppenhaus, Außenanlage oder eine Wohnung zwischen zwei Mietern: Ein Anruf deckt Pflege, Reinigung und Renovierung ab."
+    },
+    "services": [
+      {
+        "title": "Hausmeisterdienst",
+        "text": "Regelmäßige Kontrollgänge, kleine Reparaturen und ein Blick auf Technik und Ordnung im Haus.",
+        "items": [
+          "Kontrollgänge",
+          "Kleinreparaturen",
+          "Mülltonnenservice"
+        ]
+      },
+      {
+        "title": "Treppenhausreinigung",
+        "text": "Saubere Treppenhäuser, Flure und Eingänge im festen Rhythmus.",
+        "items": [
+          "Treppenhaus",
+          "Flure",
+          "Eingangsbereich"
+        ]
+      },
+      {
+        "title": "Gebäudereinigung",
+        "text": "Reinigung von Gemeinschaftsflächen, Kellern und Nebenräumen – auch einmalig.",
+        "items": [
+          "Gemeinschaftsflächen",
+          "Keller",
+          "Grundreinigung"
+        ]
+      },
+      {
+        "title": "Renovierung",
+        "text": "Wohnungen zwischen zwei Mietverhältnissen wieder herrichten, damit sie schnell neu vermietet werden.",
+        "items": [
+          "Wände streichen",
+          "Ausbesserungen",
+          "Übergabefertig"
+        ]
+      },
+      {
+        "title": "Außenanlagen",
+        "text": "Wege, Hof und Grünflächen rund ums Haus in Ordnung halten.",
+        "items": [
+          "Rasen mähen",
+          "Hecke schneiden",
+          "Wege kehren"
+        ]
+      },
+      {
+        "title": "Objektbetreuung",
+        "text": "Ein fester Ansprechpartner für Hausverwaltungen und Eigentümer, der Mängel meldet und kleine Aufgaben direkt erledigt.",
+        "items": [
+          "Fester Ansprechpartner",
+          "Mängel melden",
+          "Schlüsselverwaltung"
+        ]
+      }
+    ],
+    "why": {
+      "headline": "Hausbetreuung aus Kaufering – mit kurzem Draht.",
+      "points": [
+        {
+          "title": "Kurze Wege",
+          "text": "Der Betrieb sitzt in Kaufering und ist schnell in Landsberg, Hurlach und Igling."
+        },
+        {
+          "title": "Direkt zum Inhaber",
+          "text": "Anfragen gehen per Anruf oder WhatsApp direkt an den Inhaber."
+        },
+        {
+          "title": "Mehrere Leistungen",
+          "text": "Pflege, Reinigung und Renovierung in einem Auftrag statt drei Firmen."
+        },
+        {
+          "title": "Feste Zeiten",
+          "text": "Montag bis Samstag von 8 bis 17 Uhr erreichbar."
+        }
+      ]
+    },
+    "reviews": {
+      "headline": "Was Kunden sagen",
+      "summary": "Kundenstimmen werden hier eingebunden, sobald sie aus dem Google-Profil übernommen sind.",
+      "highlights": [
+        "Hausmeisterservice in Kaufering",
+        "Reinigung und Renovierung",
+        "Direkter Kontakt"
+      ],
+      "source": "Google",
+      "sourceUrl": "https://www.google.com/maps/search/?api=1&query=Hausmeisterservice%20Dzhambaz%20Leonhardistr.%2017%20Kaufering",
+      "rating": null,
+      "count": null
+    },
+    "process": {
+      "headline": "So kommt die Betreuung ins Laufen",
+      "steps": [
+        {
+          "title": "Anfrage",
+          "text": "Kurz anrufen oder per WhatsApp Objekt und Wunsch schildern."
+        },
+        {
+          "title": "Besichtigung",
+          "text": "Haus, Flächen und Aufgaben werden vor Ort gemeinsam angeschaut."
+        },
+        {
+          "title": "Angebot",
+          "text": "Sie erhalten ein Angebot für einmalige oder regelmäßige Arbeiten."
+        },
+        {
+          "title": "Start",
+          "text": "Die Arbeiten beginnen zum vereinbarten Termin oder im festen Rhythmus."
+        }
+      ]
+    },
+    "gallery": {
+      "headline": "Einblicke in die Arbeit",
+      "text": "Für die Live-Version zeigen wir hier echte Objekte und Arbeiten des Betriebs.",
+      "items": [
+        {
+          "title": "Treppenhaus",
+          "photoNeeded": "frisch gereinigtes Treppenhaus eines Mehrfamilienhauses"
+        },
+        {
+          "title": "Außenanlage",
+          "photoNeeded": "gemähte Grünfläche und gekehrter Weg vor einem Wohnhaus"
+        },
+        {
+          "title": "Renovierte Wohnung",
+          "photoNeeded": "frisch gestrichener, leerer Wohnraum vor der Übergabe"
+        },
+        {
+          "title": "Kleinreparatur",
+          "photoNeeded": "Hausmeister beim Austausch eines Türgriffs oder einer Leuchte"
+        },
+        {
+          "title": "Kellerreinigung",
+          "photoNeeded": "aufgeräumter, sauberer Kellergang"
+        }
+      ]
+    },
+    "region": {
+      "headline": "Hausmeisterservice für Kaufering und den Landkreis Landsberg",
+      "text": "Von Kaufering aus schnell in Landsberg am Lech, Hurlach, Igling, Penzing und Scheuring.",
+      "places": [
+        "Kaufering",
+        "Landsberg am Lech",
+        "Hurlach",
+        "Igling",
+        "Penzing",
+        "Scheuring"
+      ]
+    },
+    "faq": [
+      {
+        "q": "Übernehmen Sie auch einmalige Aufträge?",
+        "a": "Ja, neben regelmäßiger Betreuung sind auch einmalige Reinigungen oder Renovierungen möglich."
+      },
+      {
+        "q": "Wann sind Sie erreichbar?",
+        "a": "Montag bis Samstag von 8 bis 17 Uhr, am besten per Anruf oder WhatsApp."
+      },
+      {
+        "q": "Arbeiten Sie für Hausverwaltungen?",
+        "a": "Ja, Anfragen von Hausverwaltungen, Vermietern und Eigentümergemeinschaften sind willkommen."
+      },
+      {
+        "q": "Renovieren Sie Wohnungen nach Auszug?",
+        "a": "Ja, Renovierungsarbeiten gehören zum Angebot. Den Umfang klären wir bei der Besichtigung."
+      },
+      {
+        "q": "In welchen Orten sind Sie tätig?",
+        "a": "In Kaufering, Landsberg am Lech und den umliegenden Gemeinden – fragen Sie einfach an."
+      }
+    ],
+    "contact": {
+      "headline": "Ihr Angebot – kostenlos und unverbindlich",
+      "text": "Nennen Sie kurz Adresse, Größe des Objekts und welche Arbeiten anfallen. Fotos helfen.",
+      "topics": [
+        "Hausmeisterdienst",
+        "Treppenhausreinigung",
+        "Gebäudereinigung",
+        "Renovierung",
+        "Außenanlagen",
+        "Sonstiges"
+      ],
+      "responseNote": "Besichtigung nach Absprache."
+    },
+    "quote": {
+      "sizeLabel": "Um welches Objekt geht es?",
+      "sizes": [
+        "Einfamilienhaus",
+        "Mehrfamilienhaus bis 6 Parteien",
+        "Wohnanlage",
+        "Gewerbeobjekt"
+      ],
+      "timings": [
+        "Einmalig",
+        "Wöchentlich",
+        "Monatlich",
+        "Noch offen"
+      ]
+    },
+    "stickyCta": "Angebot anfragen",
+    "look": {
+      "palette": 2,
+      "font": 6,
+      "hero": 0,
+      "services": 1,
+      "radius": 1,
+      "logo": 0,
+      "intro": 5
+    }
+  }
+}

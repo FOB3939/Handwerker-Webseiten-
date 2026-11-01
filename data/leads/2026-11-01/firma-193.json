@@ -1,0 +1,401 @@
+{
+  "id": "2026-11-01-193",
+  "slug": "mt-stone-prittriching",
+  "date": "2026-11-01",
+  "company": {
+    "name": "MT-Stone",
+    "owner": null,
+    "trade": "Fliesenleger",
+    "city": "Prittriching",
+    "address": "Ringstr. 2, 86931 Prittriching (Winkl)",
+    "phone": "0173 3669438",
+    "email": "mt-stone@t-online.de",
+    "serviceArea": [
+      "Prittriching",
+      "Winkl",
+      "Scheuring",
+      "Kaufering",
+      "Mering",
+      "Königsbrunn"
+    ]
+  },
+  "listings": {
+    "google": {
+      "url": "https://www.google.com/maps/search/?api=1&query=MT-Stone%20Ringstr.%202%20Prittriching",
+      "rating": null,
+      "reviews": null,
+      "evidence": "Kein Google-Spiegel gefunden – Google-Eintrag nicht belegt. Freemail-Adresse mt-stone@t-online.de öffentlich im 11880-Eintrag (Laminat- und Fliesenleger, Ringstr. 2, 86931 Prittriching-Winkl, 0173 3669438). 11880 zeigt 5/5 aus 1 Bewertung (11880, nicht Google). In Maps prüfen."
+    },
+    "myhammer": {
+      "url": "https://www.11880.com/suche/laminatleger/igling",
+      "rating": null,
+      "reviews": null,
+      "evidence": "Kein MyHammer gefunden – Einträge in 11880-Ortslisten (Laminatleger/Fliesen Umkreis Prittriching, Igling, Reichling) und im Gelbe-Seiten-Ortsindex Prittriching."
+    }
+  },
+  "websiteStatus": "keine eigene Website gefunden",
+  "websiteChecks": [
+    "(1) „MT-Stone Prittriching Winkl Fliesen“ mit blocked_domains (11880, Gelbe Seiten, Das Örtliche, Telefonbuch, Cylex, meinestadt, Creditreform, Facebook, Instagram, golocal, MyHammer, Northdata, Firmenwissen, WKDB, Yelp, trustlocal, wlw) – keine Treffer zum Betrieb; nur andere Fliesenleger (Obendorfer, Spöttl) und gleichnamige fremde Firmen (M-Stone Erkelenz, Mountain Stone USA)",
+    "(2) Verzeichnis-Suche „MT-Stone Prittriching Ringstr. 2“ (11880, Das Örtliche, Gelbe Seiten, rgv-bayern, trustlocal, firmania) – 11880 mit t-online-Adresse, kein Website-Feld",
+    "(3) Domain-Check allowed_domains mt-stone.de, mtstone.de, mt-stone-fliesen.de, mt-stone.com, mt-stone-prittriching.de, mtstone-fliesen.de, mt-stone.eu, mt-stone.info – keine Treffer",
+    "(4) Telefon-/E-Mail-Suche „0173 3669438“/„01733669438“/„mt-stone@t-online.de“ mit blocked_domains – nur Rufnummernblock-Liste (Vodafone), keine Website",
+    "(5) Impressum-Suche entfällt – Inhaber nirgends genannt, kein Impressum gefunden",
+    "Website-Risiko: niedrig – alle Prüfungen negativ, Freemail (t-online) öffentlich belegt"
+  ],
+  "facts": {
+    "services": [
+      "Fliesenlegen",
+      "Laminat verlegen"
+    ],
+    "experience": null,
+    "praisedFor": []
+  },
+  "strategy": {
+    "audience": "Hausbesitzer und Bauherren in Prittriching, Scheuring, Kaufering und Mering, die Bad, Küche oder Wohnräume neu fliesen oder Böden verlegen lassen",
+    "mainService": "Fliesen- und Bodenverlegung",
+    "trustSignal": "Kleiner Betrieb in Prittriching-Winkl, direkt per Handy erreichbar",
+    "conversionGoal": "Kostenloses Angebot anfragen (Fotos und Maße per WhatsApp)",
+    "visualConcept": "Steinoptik und klare Fugenbilder: großformatige Fliesen, Natursteinstruktur, ruhige Grautöne"
+  },
+  "sales": {
+    "score": 5,
+    "whyGoodLead": [
+      "Keine eigene Website gefunden – nur Verzeichniseinträge",
+      "Mobilnummer und t-online-Adresse öffentlich",
+      "Kaum Sichtbarkeit (1 Bewertung bei 11880) – eine Website hebt den Betrieb von größeren Fliesenlegern ab",
+      "Fliesen- und Bodenarbeiten werden im Lkr. Landsberg viel online angefragt"
+    ],
+    "pitch": "Hallo, hier ist … – ich baue Websites für Handwerker im Landkreis Landsberg. Ich habe Ihren Eintrag „MT-Stone“ in Prittriching gefunden, aber keine eigene Website. Ich habe unverbindlich einen Entwurf vorbereitet, auf dem Kunden Ihre Fliesen- und Bodenarbeiten sehen und direkt per WhatsApp anfragen können – darf ich Ihnen den Link schicken?"
+  },
+  "manualChecks": [
+    "Website-Risiko: niedrig – vor Versand in Google Maps prüfen, dass keine Website hinterlegt ist (Grund: Google-Eintrag nicht über Spiegel belegt, nur Freemail und Verzeichnisse)",
+    "Google-Eintrag in Maps suchen; die 5/5 aus 1 Bewertung stammt von 11880, nicht von Google",
+    "Inhabername unbekannt – beim Erstkontakt erfragen, Anrede neutral halten",
+    "Adresse Ringstr. 2 teilt sich der Betrieb laut Verzeichnis mit Hirundo Gesundheitsprodukte UG (andere Firma) – nicht verwechseln",
+    "Leistungen nur über Verzeichniskategorien belegt (Fliesenleger, Laminatleger) – Naturstein, Bad, Großformat beim Betrieb bestätigen (Name „Stone“ deutet darauf hin, ist aber nicht belegt)",
+    "Logo und Projektfotos: nicht gefunden – beim Betrieb anfragen"
+  ],
+  "sources": [
+    {
+      "label": "11880 – Laminatleger Igling (Umkreisliste mit MT-Stone)",
+      "url": "https://www.11880.com/suche/laminatleger/igling"
+    },
+    {
+      "label": "11880 – Laminatleger Reichling (Umkreisliste)",
+      "url": "https://www.11880.com/suche/laminatleger/reichling"
+    },
+    {
+      "label": "Gelbe Seiten – Branchen in Prittriching",
+      "url": "https://www.gelbeseiten.de/branchenbuch/staedte/bayern/landsberg%20a%20lech/prittriching"
+    },
+    {
+      "label": "11880 – Fliesen Blesch (Umkreisanbieter mit MT-Stone)",
+      "url": "https://www.11880.com/branchenbuch/weil-kreis-landsberg-am-lech/060691660B110334105/fliesen-blesch.html"
+    }
+  ],
+  "site": {
+    "theme": "stein",
+    "category": "handwerk",
+    "heroOffer": [
+      "Bodenfliesen",
+      "Wandfliesen",
+      "Badfliesen",
+      "Laminat",
+      "Fliesenreparatur"
+    ],
+    "scene": "bath",
+    "logoIcon": "trowel",
+    "logoMark": "MT",
+    "brandName": "MT-Stone",
+    "seoTitle": "Fliesenleger in Prittriching – MT-Stone",
+    "seoDescription": "Fliesen und Laminat verlegen in Prittriching, Scheuring, Kaufering und Mering. Jetzt kostenloses Angebot anfragen – auch per WhatsApp.",
+    "nav": [
+      {
+        "label": "Leistungen",
+        "href": "#leistungen"
+      },
+      {
+        "label": "Projekte",
+        "href": "#projekte"
+      },
+      {
+        "label": "Bewertungen",
+        "href": "#bewertungen"
+      },
+      {
+        "label": "Ablauf",
+        "href": "#ablauf"
+      },
+      {
+        "label": "FAQ",
+        "href": "#faq"
+      },
+      {
+        "label": "Kontakt",
+        "href": "#kontakt"
+      }
+    ],
+    "hero": {
+      "eyebrow": "Fliesen & Böden · Prittriching",
+      "headline": "Fliesenleger in Prittriching",
+      "sub": "Fliesen und Laminat verlegt – für Bad, Küche und Wohnräume im Lechfeld.",
+      "ctaPrimary": "Kostenloses Angebot anfragen",
+      "ctaSecondary": "Anrufen",
+      "bullets": [
+        "Betrieb in Prittriching-Winkl",
+        "Fliesen und Laminat",
+        "Direkt per Handy erreichbar"
+      ],
+      "imageLabel": "frisch verlegter Fliesenboden in Steinoptik"
+    },
+    "badges": [
+      {
+        "title": "Fliesen",
+        "sub": "Boden & Wand"
+      },
+      {
+        "title": "Laminat",
+        "sub": "für Wohnräume"
+      },
+      {
+        "title": "Bad & Küche",
+        "sub": "neu gefliest"
+      },
+      {
+        "title": "Prittriching",
+        "sub": "Ortsteil Winkl"
+      }
+    ],
+    "trust": [
+      {
+        "value": "Vor Ort",
+        "label": "Betrieb in Prittriching"
+      },
+      {
+        "value": "2",
+        "label": "Bodenarten: Fliese & Laminat"
+      },
+      {
+        "value": "Innen",
+        "label": "Bad, Küche, Wohnraum"
+      },
+      {
+        "value": "Mobil",
+        "label": "schnell erreichbar"
+      }
+    ],
+    "servicesIntro": {
+      "headline": "Fliesen und Böden aus einer Hand",
+      "text": "Wer Bad und Flur fliesen und das Wohnzimmer mit Laminat belegen will, braucht dafür nur einen Betrieb."
+    },
+    "services": [
+      {
+        "title": "Bodenfliesen",
+        "text": "Fliesenböden für Flur, Küche und Wohnräume – eben verlegt und sauber verfugt.",
+        "items": [
+          "Flur",
+          "Küche",
+          "Wohnraum"
+        ]
+      },
+      {
+        "title": "Wandfliesen",
+        "text": "Wandflächen in Bad und Küche mit Fliesen, die Spritzwasser und Alltag standhalten.",
+        "items": [
+          "Bad",
+          "Küchenrückwand",
+          "Sockel"
+        ]
+      },
+      {
+        "title": "Bad fliesen",
+        "text": "Boden und Wände im Bad neu gefliest – bei Sanierung oder Neubau.",
+        "items": [
+          "Badsanierung",
+          "Dusche",
+          "Bodenfliesen"
+        ]
+      },
+      {
+        "title": "Laminat verlegen",
+        "text": "Laminat für Wohn-, Schlaf- und Kinderzimmer, inklusive passender Sockelleisten.",
+        "items": [
+          "Wohnräume",
+          "Sockelleisten",
+          "Übergänge"
+        ]
+      },
+      {
+        "title": "Alten Belag erneuern",
+        "text": "Alte Fliesen oder Böden raus, neuer Belag rein – für Räume, die wieder frisch aussehen.",
+        "items": [
+          "Rückbau",
+          "Untergrund vorbereiten",
+          "Neuverlegung"
+        ]
+      },
+      {
+        "title": "Fliesen ausbessern",
+        "text": "Einzelne gesprungene Fliesen oder brüchige Fugen gezielt ersetzen.",
+        "items": [
+          "Fliesentausch",
+          "Fugen erneuern",
+          "Silikonfugen"
+        ]
+      }
+    ],
+    "why": {
+      "headline": "Fliesen und Böden aus Prittriching – ohne Umwege.",
+      "points": [
+        {
+          "title": "Kurze Wege",
+          "text": "Von Winkl aus schnell in Scheuring, Kaufering, Mering und Königsbrunn."
+        },
+        {
+          "title": "Direkter Kontakt",
+          "text": "Ein Anruf oder eine WhatsApp-Nachricht mit Fotos genügt für die erste Einschätzung."
+        },
+        {
+          "title": "Fliese und Laminat",
+          "text": "Bad fliesen und Wohnräume mit Laminat belegen – in einem Auftrag."
+        },
+        {
+          "title": "Klare Absprachen",
+          "text": "Material, Verlegeart und Termin werden vorab gemeinsam festgelegt."
+        }
+      ]
+    },
+    "reviews": {
+      "headline": "Was Kunden sagen",
+      "summary": "Kundenstimmen werden hier eingebunden, sobald sie aus dem Google-Profil übernommen sind.",
+      "highlights": [
+        "Fliesen in Prittriching",
+        "Laminat verlegen",
+        "Direkter Kontakt"
+      ],
+      "source": "Google",
+      "sourceUrl": "https://www.google.com/maps/search/?api=1&query=MT-Stone%20Ringstr.%202%20Prittriching",
+      "rating": null,
+      "count": null
+    },
+    "process": {
+      "headline": "Vom Foto zum fertigen Boden",
+      "steps": [
+        {
+          "title": "Anfrage",
+          "text": "Fotos und ungefähre Quadratmeter per WhatsApp schicken – oder kurz anrufen."
+        },
+        {
+          "title": "Aufmaß",
+          "text": "Untergrund, Maße und Wunschmaterial werden vor Ort angeschaut."
+        },
+        {
+          "title": "Angebot",
+          "text": "Sie erhalten ein klares Angebot für Material und Verlegung."
+        },
+        {
+          "title": "Verlegung",
+          "text": "Vorbereiten, verlegen, verfugen – der Raum wird besenrein übergeben."
+        }
+      ]
+    },
+    "gallery": {
+      "headline": "Böden und Wände, die neu entstehen",
+      "text": "Für die Live-Version zeigen wir hier echte Projekte des Betriebs.",
+      "items": [
+        {
+          "title": "Neues Bad",
+          "photoNeeded": "frisch gefliestes Bad mit bodengleicher Dusche"
+        },
+        {
+          "title": "Fliesenboden",
+          "photoNeeded": "großformatige Bodenfliesen in Steinoptik im Flur"
+        },
+        {
+          "title": "Küchenrückwand",
+          "photoNeeded": "geflieste Küchenrückwand über der Arbeitsplatte"
+        },
+        {
+          "title": "Laminat",
+          "photoNeeded": "neu verlegtes Laminat im Wohnzimmer mit Sockelleiste"
+        },
+        {
+          "title": "Fugenbild",
+          "photoNeeded": "Nahaufnahme sauber verfugter Fliesen"
+        }
+      ]
+    },
+    "region": {
+      "headline": "Fliesenleger für Prittriching und das Lechfeld",
+      "text": "Von Prittriching-Winkl aus schnell in Scheuring, Kaufering, Mering und Königsbrunn.",
+      "places": [
+        "Prittriching",
+        "Winkl",
+        "Scheuring",
+        "Kaufering",
+        "Mering",
+        "Königsbrunn"
+      ]
+    },
+    "faq": [
+      {
+        "q": "Verlegen Sie Fliesen und Laminat?",
+        "a": "Ja, beides gehört zum Angebot – für Bad, Küche und Wohnräume."
+      },
+      {
+        "q": "Kann ich vorab Fotos schicken?",
+        "a": "Ja, Fotos und grobe Maße per WhatsApp helfen für eine erste Einschätzung."
+      },
+      {
+        "q": "Wie lange dauert ein neues Bad?",
+        "a": "Das hängt von Größe und Untergrund ab. Einen Zeitplan gibt es nach dem Aufmaß."
+      },
+      {
+        "q": "Werden alte Fliesen entfernt?",
+        "a": "Ob Rückbau nötig ist, klären wir vor Ort. Den Umfang nennt das Angebot."
+      },
+      {
+        "q": "Arbeiten Sie auch außerhalb von Prittriching?",
+        "a": "Ja, im Umkreis von Prittriching – fragen Sie einfach an."
+      }
+    ],
+    "contact": {
+      "headline": "Ihr Angebot – kostenlos und unverbindlich",
+      "text": "Beschreiben Sie kurz Raum, ungefähre Fläche und ob Fliesen oder Laminat. Fotos helfen.",
+      "topics": [
+        "Bodenfliesen",
+        "Wandfliesen",
+        "Bad fliesen",
+        "Laminat verlegen",
+        "Fliesen ausbessern",
+        "Sonstiges"
+      ],
+      "responseNote": "Aufmaß nach Absprache."
+    },
+    "quote": {
+      "sizeLabel": "Wie groß ist die Fläche?",
+      "sizes": [
+        "Bis 10 m²",
+        "10–30 m²",
+        "30–60 m²",
+        "Über 60 m²"
+      ],
+      "timings": [
+        "So bald wie möglich",
+        "In den nächsten Wochen",
+        "In 1–3 Monaten",
+        "Ich plane erst noch"
+      ]
+    },
+    "stickyCta": "Angebot anfragen",
+    "look": {
+      "palette": 2,
+      "font": 6,
+      "hero": 0,
+      "services": 1,
+      "radius": 1,
+      "logo": 0,
+      "intro": 5
+    }
+  }
+}

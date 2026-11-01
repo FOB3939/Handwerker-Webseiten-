@@ -1,0 +1,406 @@
+{
+  "id": "2026-11-01-188",
+  "slug": "halser-metallbau-wessling",
+  "date": "2026-11-01",
+  "company": {
+    "name": "Michael Halser Metallbau",
+    "owner": "Michael Halser",
+    "trade": "Metallbau & Kunstschlosserei",
+    "city": "Weßling",
+    "address": "Webergaßl 3, 82234 Weßling-Hochstadt",
+    "phone": "08153 953198",
+    "email": null,
+    "serviceArea": [
+      "Weßling",
+      "Hochstadt",
+      "Oberpfaffenhofen",
+      "Gilching",
+      "Wörthsee",
+      "Seefeld",
+      "Herrsching",
+      "Starnberg"
+    ]
+  },
+  "listings": {
+    "google": {
+      "url": "https://www.google.com/maps/search/?api=1&query=Michael%20Halser%20Metallbau%20Webergassl%203%20Wessling",
+      "rating": null,
+      "reviews": null,
+      "evidence": "INDIREKT (Spiegel) – schlosserei.net zeigt für „Michael Halser Metallbau“ (Webergaßl 3, Weßling) eine Bewertung 5,0 (1) mit dem Hinweis „Rezensionen werden von der Google Suche nicht überprüft“ – also Google-Bewertungsdaten. GoYellow meldet dagegen noch keine Bewertungen. Kein direkter google.com/maps-Treffer, in keinem Snippet ein Website-Feld – in Maps prüfen."
+    },
+    "myhammer": {
+      "url": "https://www.11880.com/suche/metallbau/wessling",
+      "rating": null,
+      "reviews": null,
+      "evidence": "Kein MyHammer gefunden – Eintrag in der 11880-Ortsliste Metallbauer Weßling (Metallbau, Metallbearbeitung & Kunstschlosserei, Webergassl), außerdem GoYellow, schlosserei.net und Mitgliederliste der Metall-Innung Oberland (Webergaßl 3, 82234 Hochstadt, 08153 953198)."
+    }
+  },
+  "websiteStatus": "keine eigene Website gefunden",
+  "websiteChecks": [
+    "(1) „Halser Metallbau Weßling“ mit blocked_domains (11880, Gelbe Seiten, Das Örtliche, Telefonbuch, Cylex, meinestadt, Creditreform, Facebook, Instagram, golocal, MyHammer, Northdata, Firmenwissen, WKDB, Yelp, trustlocal, wlw) – nur Verzeichnisse (schlosserei.net, GoYellow, lokalwissen, daibau, yasni); keine eigene Domain",
+    "(2) Domain-Check allowed_domains halser-metallbau.de, metallbau-halser.de, halser.de, halsermetallbau.de, metallbauhalser.de, halser-metall.de, schlosserei-halser.de, halser-wessling.de – keine Treffer",
+    "(3) Telefonsuche „08153 953198“/„08153953198“/„08153/953198“ – keine Treffer (auch keine Website)",
+    "(4) Impressum-Suche „Michael Halser Metallbau Hochstadt Weßling Impressum“ – kein eigenes Impressum, nur Verzeichnisse und die Mitgliederliste der Metall-Innung Oberland",
+    "(5) Verzeichnisse: kein Website-Feld und keine E-Mail in den Snippets; zweite Nummer 08153 886898 auf schlosserei.net",
+    "Website-Risiko: mittel – alle Prüfungen negativ, Google-Eintrag nur indirekt über Spiegel (schlosserei.net) belegt, keine Freemail"
+  ],
+  "facts": {
+    "services": [
+      "Metallbau",
+      "Metallbearbeitung",
+      "Kunstschlosserei"
+    ],
+    "experience": null,
+    "praisedFor": []
+  },
+  "strategy": {
+    "audience": "Hauseigentümer, Bauherren und Gewerbe in Weßling, Gilching, Wörthsee und Herrsching, die Geländer, Tore, Zäune oder Einzelteile aus Metall brauchen",
+    "mainService": "Metallbau und Kunstschlosserei nach Maß",
+    "trustSignal": "Inhabergeführte Schlosserei in Hochstadt, gelistet bei der Metall-Innung Oberland",
+    "conversionGoal": "Anfrage mit Skizze oder Foto für ein Metallbauteil nach Maß (Anruf/Formular)",
+    "visualConcept": "Werkstattcharakter: geschweißtes Stahlgeländer, Funken an der Werkbank, geschmiedete Details – dunkle Stahltöne mit warmem Akzent"
+  },
+  "sales": {
+    "score": 5,
+    "whyGoodLead": [
+      "Keine eigene Website gefunden – nur Verzeichniseinträge",
+      "Inhabergeführter Kleinbetrieb, Metallbau ist im bisherigen Lead-Bestand selten",
+      "Nur eine (gespiegelte) Google-Bewertung – Website und Profil bringen Sichtbarkeit",
+      "Viele Eigenheime im Fünfseenland mit Bedarf an Geländern, Toren und Zäunen"
+    ],
+    "pitch": "Grüß Gott Herr Halser, ich baue Websites für Handwerker im Landkreis Starnberg. Ich habe Ihren Metallbau-Betrieb in Hochstadt in den Branchenverzeichnissen gefunden, aber keine eigene Website. Ich habe unverbindlich einen Entwurf vorbereitet, auf dem Kunden Ihre Schlosserarbeiten sehen und direkt anfragen können – darf ich Ihnen den Link schicken?"
+  },
+  "manualChecks": [
+    "Website-Risiko: mittel – vor Versand in Google Maps prüfen, dass keine Website hinterlegt ist (Grund: Google-Eintrag nur über Spiegelseite schlosserei.net belegt, keine Freemail)",
+    "Google-Eintrag in Maps bestätigen (Existenz, Bewertungsanzahl – Spiegel 5,0 bei 1 Bewertung, GoYellow 0)",
+    "Nur Festnetz bekannt (08153 953198, alternativ 08153 886898) – telefonisch statt per WhatsApp kontaktieren",
+    "Leistungen nur grob belegt (Metallbau, Metallbearbeitung, Kunstschlosserei; Türenbau nur in Aggregator) – Geländer, Tore, Zäune, Treppen beim Betrieb bestätigen",
+    "Innungsmitgliedschaft (Metall-Innung Oberland) nur aus Suchsnippet – vor Nennung auf der Seite bestätigen",
+    "Logo und Projektfotos: nicht gefunden – beim Betrieb anfragen"
+  ],
+  "sources": [
+    {
+      "label": "11880 – Metallbauer Weßling (Liste mit Michael Halser Metallbau)",
+      "url": "https://www.11880.com/suche/metallbau/wessling"
+    },
+    {
+      "label": "schlosserei.net – Michael Halser Metallbau (Google-Bewertung 5,0/1)",
+      "url": "https://www.schlosserei.net/wessling/michael-halser-metallbau-aUOTY7"
+    },
+    {
+      "label": "GoYellow – Halser Metallbau Michael, Weßling-Hochstadt",
+      "url": "https://www.goyellow.de/home/metallbau-halser-metallbau-wessling-hochstadt--bt40k4.html"
+    },
+    {
+      "label": "Metall-Innung Oberland – Mitglieder nach PLZ",
+      "url": "https://www.metall-innung-oberland.de/mitglieder_PLZ.html"
+    }
+  ],
+  "site": {
+    "theme": "werk",
+    "category": "handwerk",
+    "heroOffer": [
+      "Geländer",
+      "Tore",
+      "Zäune",
+      "Treppen",
+      "Kunstschlosserei"
+    ],
+    "scene": "facade",
+    "logoIcon": "house",
+    "logoMark": "MH",
+    "brandName": "Halser Metallbau",
+    "seoTitle": "Metallbau in Weßling – Michael Halser Metallbau",
+    "seoDescription": "Metallbau und Kunstschlosserei aus Weßling-Hochstadt: Geländer, Tore, Zäune und Einzelstücke nach Maß. Jetzt Anfrage senden.",
+    "nav": [
+      {
+        "label": "Leistungen",
+        "href": "#leistungen"
+      },
+      {
+        "label": "Projekte",
+        "href": "#projekte"
+      },
+      {
+        "label": "Bewertungen",
+        "href": "#bewertungen"
+      },
+      {
+        "label": "Ablauf",
+        "href": "#ablauf"
+      },
+      {
+        "label": "FAQ",
+        "href": "#faq"
+      },
+      {
+        "label": "Kontakt",
+        "href": "#kontakt"
+      }
+    ],
+    "hero": {
+      "eyebrow": "Metallbau · Weßling-Hochstadt",
+      "headline": "Metallbau aus Weßling",
+      "sub": "Geländer, Tore und Kunstschlosserei – nach Maß gefertigt in Hochstadt.",
+      "ctaPrimary": "Anfrage senden",
+      "ctaSecondary": "Anrufen",
+      "bullets": [
+        "Schlosserei in Hochstadt",
+        "Einzelstücke nach Maß",
+        "Inhaber Michael Halser"
+      ],
+      "imageLabel": "geschweißtes Stahlgeländer an einer Außentreppe"
+    },
+    "badges": [
+      {
+        "title": "Metallbau",
+        "sub": "nach Maß"
+      },
+      {
+        "title": "Kunstschlosserei",
+        "sub": "Einzelstücke"
+      },
+      {
+        "title": "Metallbearbeitung",
+        "sub": "aus der Werkstatt"
+      },
+      {
+        "title": "Hochstadt",
+        "sub": "Webergaßl 3"
+      }
+    ],
+    "trust": [
+      {
+        "value": "Vor Ort",
+        "label": "Werkstatt in Weßling-Hochstadt"
+      },
+      {
+        "value": "3",
+        "label": "Leistungsbereiche"
+      },
+      {
+        "value": "Maß",
+        "label": "statt Katalogware"
+      },
+      {
+        "value": "Direkt",
+        "label": "Inhaber am Telefon"
+      }
+    ],
+    "servicesIntro": {
+      "headline": "Metall, das genau passt",
+      "text": "Ob neues Treppengeländer oder Ersatz für ein verbogenes Hoftor: Michael Halser fertigt Teile nach Ihren Maßen in der eigenen Werkstatt."
+    },
+    "services": [
+      {
+        "title": "Geländer",
+        "text": "Treppen- und Balkongeländer aus Stahl, passend zu Haus und Treppe gefertigt.",
+        "items": [
+          "Treppengeländer",
+          "Balkongeländer",
+          "Handläufe"
+        ]
+      },
+      {
+        "title": "Tore und Türen",
+        "text": "Hoftore, Gartentüren und Metalltüren nach Maß für Einfahrt und Garten.",
+        "items": [
+          "Hoftore",
+          "Gartentüren",
+          "Metalltüren"
+        ]
+      },
+      {
+        "title": "Zäune",
+        "text": "Metallzäune und Zaunelemente, die zur Einfahrt und zum Grundstück passen.",
+        "items": [
+          "Zaunfelder",
+          "Pfosten",
+          "Einfassungen"
+        ]
+      },
+      {
+        "title": "Kunstschlosserei",
+        "text": "Geschmiedete und gestaltete Einzelstücke – vom Ziergitter bis zum Detail am Tor.",
+        "items": [
+          "Ziergitter",
+          "Schmuckelemente",
+          "Einzelstücke"
+        ]
+      },
+      {
+        "title": "Metallbearbeitung",
+        "text": "Zuschnitt, Bohren und Schweißen von Bauteilen nach Zeichnung oder Muster.",
+        "items": [
+          "Schweißarbeiten",
+          "Zuschnitt",
+          "Bauteile"
+        ]
+      },
+      {
+        "title": "Reparaturen",
+        "text": "Verbogene Tore, lose Geländer oder gebrochene Halterungen werden instand gesetzt.",
+        "items": [
+          "Schweißnähte",
+          "Beschläge",
+          "Instandsetzung"
+        ]
+      }
+    ],
+    "why": {
+      "headline": "Eine Werkstatt in Hochstadt statt Katalogware.",
+      "points": [
+        {
+          "title": "Nach Maß",
+          "text": "Jedes Teil wird für Ihre Treppe, Ihre Einfahrt oder Ihren Balkon gefertigt."
+        },
+        {
+          "title": "Kurze Wege",
+          "text": "Von Hochstadt sind Weßling, Gilching, Wörthsee und Herrsching schnell erreicht."
+        },
+        {
+          "title": "Ein Ansprechpartner",
+          "text": "Sie sprechen direkt mit Inhaber Michael Halser – von der Idee bis zur Montage."
+        },
+        {
+          "title": "Auch Kleinteile",
+          "text": "Neben großen Toren auch einzelne Halterungen, Reparaturen und Ergänzungen."
+        }
+      ]
+    },
+    "reviews": {
+      "headline": "Was Kunden sagen",
+      "summary": "Kundenstimmen werden hier eingebunden, sobald sie aus dem Google-Profil übernommen sind.",
+      "highlights": [
+        "Metallbau in Weßling",
+        "Arbeiten nach Maß",
+        "Direkter Kontakt"
+      ],
+      "source": "Google",
+      "sourceUrl": "https://www.google.com/maps/search/?api=1&query=Michael%20Halser%20Metallbau%20Webergassl%203%20Wessling",
+      "rating": null,
+      "count": null
+    },
+    "process": {
+      "headline": "Vom Maß zum fertigen Bauteil",
+      "steps": [
+        {
+          "title": "Anfrage",
+          "text": "Rufen Sie an oder senden Sie Foto, Skizze und grobe Maße."
+        },
+        {
+          "title": "Aufmaß",
+          "text": "Maße und Details werden vor Ort genau aufgenommen."
+        },
+        {
+          "title": "Angebot",
+          "text": "Sie erhalten ein Angebot für Material, Fertigung und Montage."
+        },
+        {
+          "title": "Fertigung & Montage",
+          "text": "Das Bauteil entsteht in der Werkstatt und wird bei Ihnen eingebaut."
+        }
+      ]
+    },
+    "gallery": {
+      "headline": "Aus der Werkstatt",
+      "text": "Für die Live-Version zeigen wir hier echte Arbeiten des Betriebs.",
+      "items": [
+        {
+          "title": "Treppengeländer",
+          "photoNeeded": "Stahlgeländer an einer Innen- oder Außentreppe"
+        },
+        {
+          "title": "Hoftor",
+          "photoNeeded": "zweiflügeliges Metalltor an einer Einfahrt"
+        },
+        {
+          "title": "Gartenzaun",
+          "photoNeeded": "Metallzaun mit Gartentür"
+        },
+        {
+          "title": "Ziergitter",
+          "photoNeeded": "geschmiedetes Gitter oder Schmuckelement im Detail"
+        },
+        {
+          "title": "Werkstatt",
+          "photoNeeded": "Schweißarbeit an der Werkbank"
+        }
+      ]
+    },
+    "region": {
+      "headline": "Metallbau für Weßling und das Fünfseenland",
+      "text": "Von Hochstadt aus in Weßling, Oberpfaffenhofen, Gilching, Wörthsee, Seefeld, Herrsching und Starnberg.",
+      "places": [
+        "Weßling",
+        "Hochstadt",
+        "Oberpfaffenhofen",
+        "Gilching",
+        "Wörthsee",
+        "Seefeld",
+        "Herrsching",
+        "Starnberg"
+      ]
+    },
+    "faq": [
+      {
+        "q": "Fertigen Sie auch einzelne Teile?",
+        "a": "Ja, auch einzelne Bauteile und Ergänzungen – fragen Sie mit Foto oder Skizze an."
+      },
+      {
+        "q": "Kann ich vorab Fotos schicken?",
+        "a": "Ja, Fotos und grobe Maße helfen für eine erste Einschätzung."
+      },
+      {
+        "q": "Reparieren Sie bestehende Tore und Geländer?",
+        "a": "Fragen Sie an – ob sich eine Reparatur lohnt, wird nach Ansicht geklärt."
+      },
+      {
+        "q": "Wie lange dauert eine Anfertigung?",
+        "a": "Das hängt von Umfang und Material ab. Den Zeitplan erhalten Sie mit dem Angebot."
+      },
+      {
+        "q": "Arbeiten Sie auch außerhalb von Weßling?",
+        "a": "Ja, im Umkreis von Weßling-Hochstadt – fragen Sie einfach an."
+      }
+    ],
+    "contact": {
+      "headline": "Ihr Metallbauteil anfragen",
+      "text": "Beschreiben Sie kurz, was entstehen soll: Geländer, Tor, Zaun oder Einzelstück, mit ungefähren Maßen. Fotos oder Skizzen helfen.",
+      "topics": [
+        "Geländer",
+        "Tore und Türen",
+        "Zäune",
+        "Kunstschlosserei",
+        "Reparatur",
+        "Sonstiges"
+      ],
+      "responseNote": "Aufmaß nach Absprache."
+    },
+    "quote": {
+      "sizeLabel": "Was soll gefertigt werden?",
+      "sizes": [
+        "Einzelteil oder Reparatur",
+        "Geländer",
+        "Tor oder Zaun",
+        "Größeres Projekt"
+      ],
+      "timings": [
+        "So bald wie möglich",
+        "In den nächsten Wochen",
+        "In 1–3 Monaten",
+        "Ich plane erst noch"
+      ]
+    },
+    "stickyCta": "Anfrage senden",
+    "look": {
+      "palette": 2,
+      "font": 6,
+      "hero": 0,
+      "services": 1,
+      "radius": 1,
+      "logo": 0,
+      "intro": 5
+    }
+  }
+}
