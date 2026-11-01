@@ -1,0 +1,129 @@
+<!doctype html>
+<html lang="de">
+<head>
+<meta charset="utf-8">
+<style>
+@font-face{font-family:Montserrat;font-weight:600;src:url(assets/fonts/montserrat-latin-600-normal.woff2)}
+@font-face{font-family:Montserrat;font-weight:800;src:url(assets/fonts/montserrat-latin-800-normal.woff2)}
+@font-face{font-family:Oswald;font-weight:700;src:url(assets/fonts/oswald-latin-700-normal.woff2)}
+:root{--tl:#12b5a5;--nv:#0d2b4e;--sky:#e8f7f5}
+*{box-sizing:border-box;margin:0;padding:0}
+html,body{width:1080px;height:1920px;overflow:hidden;background:#fff}
+#stage{position:relative;width:1080px;height:1920px;overflow:hidden;font-family:Montserrat,sans-serif;color:var(--nv);background:linear-gradient(180deg,#f2fbfa 0%,#dff3f0 100%)}
+svg{position:absolute;left:0;top:0;width:1080px;height:1920px}
+.t{position:absolute;left:70px;right:70px;text-align:center;display:none}
+#badge{position:absolute;left:0;right:0;top:150px;text-align:center;z-index:20}
+#badge span{display:inline-block;font:800 26px Montserrat;letter-spacing:.14em;background:#0d2b4e;color:#fff;padding:9px 20px;border-radius:30px}
+#brand{top:260px}
+#brand .w{font:800 104px Montserrat;letter-spacing:-.02em;color:var(--nv)}
+#brand .w b{color:var(--tl)}
+#brand .s{font:600 40px Montserrat;letter-spacing:.3em;color:#3b5c7d;margin-top:2px}
+.card{display:inline-flex;flex-direction:column;align-items:center;gap:10px;width:290px;padding:40px 0 34px;margin:0 8px;border-radius:30px;background:#fff;box-shadow:0 18px 40px rgba(13,43,78,.14);font:800 40px Montserrat}
+.card .e{font-size:120px;line-height:1}
+.chip{display:inline-block;margin:8px;padding:14px 30px;border-radius:40px;background:var(--tl);color:#fff;font:800 42px Montserrat;box-shadow:0 10px 24px rgba(18,181,165,.35)}
+.ben{display:flex;align-items:center;gap:22px;width:780px;margin:0 auto 22px;padding:22px 30px;border-radius:28px;background:#fff;box-shadow:0 18px 40px rgba(13,43,78,.14);font:800 46px Montserrat;text-align:left}
+.ben i{font-style:normal;flex:none;width:96px;height:96px;border-radius:50%;background:var(--sky);display:flex;align-items:center;justify-content:center;font-size:56px}
+#slogan{top:250px;font:800 76px Montserrat;line-height:1.08}
+#slogan b{color:var(--tl)}
+#caps{position:absolute;left:90px;right:150px;top:1450px;text-align:center;z-index:20}
+#caps div{display:inline-block;background:rgba(13,43,78,.92);color:#fff;border-radius:20px;padding:12px 28px;font:800 54px Montserrat;line-height:1.16;max-width:840px}
+#caps span.on{color:#7ff0e3}
+#out{position:absolute;inset:0;background:#fff;display:none;z-index:15}
+#out img{position:absolute;left:140px;top:430px;width:800px}
+#wipe2{position:absolute;inset:0;background:#0d2b4e;z-index:16;display:none}
+</style>
+<script>document.write('<script src="'+(new URLSearchParams(location.search).get('data')||'data.js')+'"><\/script>')</script>
+</head>
+<body>
+<div id="stage">
+<svg id="sv" viewBox="0 0 1080 1920"></svg>
+<div id="badge"><span>BEISPIELVIDEO · FIKTIVE FIRMA</span></div>
+<div class="t" id="brand"><div class="w">✨ Muster<b>glanz</b></div><div class="s">GEBÄUDEREINIGUNG</div></div>
+<div class="t" id="where" style="top:420px"><div class="card" id="w1"><span class="e">🏢</span>Büro</div><div class="card" id="w2"><span class="e">🩺</span>Praxis</div><div class="card" id="w3"><span class="e">🏠</span>Treppenhaus</div></div>
+<div class="t" id="how" style="top:860px"><span class="chip" id="h1">zuverlässig</span><span class="chip" id="h2">gründlich</span><br><span class="chip" id="h3" style="background:#0d2b4e">🕒 wann es passt</span></div>
+<div class="t" id="bens" style="top:960px"><div class="ben" id="b1"><i>👤</i>Feste Ansprechpartner</div><div class="ben" id="b2"><i>📅</i>Flexible Intervalle</div><div class="ben" id="b3"><i>🌿</i>Umweltschonende Mittel</div></div>
+<div class="t" id="slogan">Wir machen den<br>Unterschied <b>sichtbar.</b></div>
+<div id="out"><img src="jobs/demo/fob_logo.png">
+ <div class="t" id="o1" style="top:250px;font:800 46px Montserrat;color:#888;letter-spacing:.06em">DAS WAR EIN BEISPIEL 🎬</div>
+ <div class="t" id="o2" style="top:1010px;font:800 66px Montserrat;line-height:1.12;color:#222">Dein Unternehmen<br>als Video?</div>
+ <div class="t" id="o3" style="top:1210px"><span style="display:inline-block;background:#3a3a3a;color:#fff;font:800 46px Montserrat;padding:20px 40px;border-radius:50px">💬 Schreib uns eine Nachricht</span></div></div>
+<div id="wipe2"></div>
+<div id="caps"></div></div>
+<script>
+const $=id=>document.getElementById(id);
+const cl=(x,a=0,b=1)=>Math.min(b,Math.max(a,x));
+const p=(t,a,d)=>cl((t-a)/d);
+const eo=x=>1-Math.pow(1-x,3);
+const io=x=>x<.5?4*x*x*x:1-Math.pow(-2*x+2,3)/2;
+const back=x=>{const c=1.6;return 1+(c+1)*Math.pow(x-1,3)+c*Math.pow(x-1,2)};
+const lerp=(a,b,k)=>a+(b-a)*k;
+const C=CUES,T=C.total,NV='#0d2b4e',TL='#12b5a5';
+const A=(id,k,v)=>$(id).setAttribute(k,v);
+// office illustration (y 560..1330)
+let tiles='';for(let i=0;i<9;i++)tiles+=`<line x1="${80+i*115}" y1="1110" x2="${30+i*130}" y2="1330" stroke="#c9dcd9" stroke-width="4"/>`;
+let dirt='';[[260,1200,70,22],[520,1250,90,26],[760,1180,60,18],[880,1280,80,24],[400,1290,50,16]].forEach(d=>dirt+=`<ellipse cx="${d[0]}" cy="${d[1]}" rx="${d[2]}" ry="${d[3]}" fill="#8a6a45" opacity=".55"/>`);
+[[230,1150],[640,1210],[830,1150]].forEach(d=>dirt+=`<g transform="translate(${d[0]},${d[1]})"><circle r="22" fill="#e9e2d0" stroke="#b9ad8f" stroke-width="4"/><path d="M-12 -6 l20 6 M-8 8 l16 -14" stroke="#b9ad8f" stroke-width="4"/></g>`);
+dirt+=`<path d="M80 580 l120 0 M80 580 l0 120 M80 580 l90 90 M80 640 q30 -10 60 -60 M80 690 q60 -20 110 -110" stroke="#9aa7b1" stroke-width="3" fill="none"/>`;
+dirt+=`<rect x="380" y="640" width="320" height="230" fill="#9a8a6a" opacity=".35"/><path d="M420 700 l60 60 M520 680 l90 120 M600 690 l60 50" stroke="#7a6a50" stroke-width="5" opacity=".5"/>`;
+let spark='';for(let k=0;k<8;k++)spark+=`<path id="sp${k}" d="M0 -26 L6 -6 L26 0 L6 6 L0 26 L-6 6 L-26 0 L-6 -6Z" fill="#fff" stroke="${TL}" stroke-width="3" opacity="0"/>`;
+$('sv').innerHTML=`<defs><clipPath id="dc"><rect id="dcr" x="0" y="0" width="1080" height="1920"/></clipPath><clipPath id="room"><rect x="60" y="560" width="960" height="770" rx="36"/></clipPath></defs>
+<g id="office" clip-path="url(#room)">
+ <rect x="60" y="560" width="960" height="560" fill="#f7fbfb"/><rect x="60" y="1110" width="960" height="220" fill="#e6efee"/>${tiles}
+ <rect x="380" y="640" width="320" height="230" rx="10" fill="#bfe6ff" stroke="${NV}" stroke-width="8"/><line x1="540" y1="640" x2="540" y2="870" stroke="${NV}" stroke-width="6"/>
+ <circle cx="640" cy="690" r="28" fill="#fff6c9"/>
+ <rect x="560" y="980" width="380" height="24" rx="8" fill="#c58b55" stroke="${NV}" stroke-width="6"/><rect x="590" y="1004" width="18" height="140" fill="${NV}"/><rect x="890" y="1004" width="18" height="140" fill="${NV}"/>
+ <rect x="650" y="880" width="180" height="110" rx="10" fill="#28466e" stroke="${NV}" stroke-width="6"/><rect x="725" y="990" width="30" height="0" fill="${NV}"/>
+ <path d="M190 1130 h120 l-14 -110 h-92z" fill="#e07a3d" stroke="${NV}" stroke-width="6"/><path d="M250 1020 c-60 -40 -70 -120 -10 -150 c10 60 40 80 10 150 c40 -60 90 -60 110 -30 c-50 0 -80 20 -110 30" fill="#2bb673" stroke="${NV}" stroke-width="5"/>
+ <g id="dirt" clip-path="url(#dc)">${dirt}</g>
+ <g id="shine" opacity="0"><path d="M120 1180 l700 0" stroke="#fff" stroke-width="10" stroke-linecap="round" opacity=".8"/><path d="M200 1240 l500 0" stroke="#fff" stroke-width="8" stroke-linecap="round" opacity=".6"/></g>
+ <g id="sq"><rect x="-14" y="560" width="28" height="770" fill="${TL}" opacity=".9"/><rect x="-40" y="900" width="80" height="40" rx="12" fill="${NV}"/></g>
+ <g id="handle" opacity="0"><rect x="-5" y="560" width="10" height="770" fill="#fff"/><circle cy="945" r="44" fill="#fff" stroke="${NV}" stroke-width="6"/><path d="M-18 945 l-12 0 m8 -10 l-10 10 l10 10 M18 945 l12 0 m-8 -10 l10 10 l-10 10" stroke="${NV}" stroke-width="5" fill="none"/></g>
+ <text id="lv" x="110" y="620" font-family="Montserrat" font-weight="800" font-size="34" fill="#8a6a45" opacity="0">VORHER</text><text id="ln" x="970" y="620" text-anchor="end" font-family="Montserrat" font-weight="800" font-size="34" fill="${TL}" opacity="0">NACHHER</text>
+</g>
+<rect id="roomframe" x="60" y="560" width="960" height="770" rx="36" fill="none" stroke="#fff" stroke-width="10"/>
+<g id="sparks">${spark}</g>
+<g id="cleaner" opacity="0"><g id="clb"><rect x="-40" y="-170" width="80" height="120" rx="30" fill="${TL}" stroke="${NV}" stroke-width="6"/><circle cy="-205" r="38" fill="#ffd2b0" stroke="${NV}" stroke-width="6"/><path d="M-40 -232 q40 -40 80 0" fill="${NV}"/>
+ <circle cx="-13" cy="-208" r="5" fill="${NV}"/><circle cx="13" cy="-208" r="5" fill="${NV}"/><path d="M-12 -190 q12 10 24 0" stroke="${NV}" stroke-width="4" fill="none"/>
+ <rect x="-34" y="-50" width="26" height="60" fill="${NV}"/><rect x="8" y="-50" width="26" height="60" fill="${NV}"/></g>
+ <g id="mop"><line x1="40" y1="-140" x2="120" y2="10" stroke="#a0703a" stroke-width="10"/><rect x="80" y="4" width="90" height="22" rx="8" fill="#9fd8f5" stroke="${NV}" stroke-width="5"/></g></g>`;
+const CH=[];{let cur=[];CAPS.forEach((w,k)=>{cur.push(w);const txt=cur.map(x=>x.text).join(' ');const brk=/[.,?!:;–]$/.test(w.text)||cur.length>=5||txt.length>28;if(brk||k===CAPS.length-1){CH.push(cur);cur=[]}});}
+CH.forEach((c,k)=>{c.s=c[0].start-.05;c.e=k+1<CH.length?Math.min(CH[k+1][0].start-.05,c[c.length-1].end+.6):c[c.length-1].end+.5});
+const show=(id,on)=>{$(id).style.display=on?'block':'none';return on};
+window.render=async function(t){
+  const S2=C.ob, S3=C.mit, S4=C.mg2, S5=C.das, E=T;
+  // office visibility: scenes 1 and 4 full, scene 2/3 as faded backdrop moved down
+  const offOn=t<S2+.4||(t>=S4-.3&&t<S5+.5);
+  const offY=t<S2?0:t<S4?lerp(0,700,eo(p(t,S2,.5))):lerp(700,0,eo(p(t,S4-.3,.5)));
+  A('office','transform',`translate(0,${offY})`);A('roomframe','transform',`translate(0,${offY})`);
+  A('office','opacity',t<S2?1:t<S4-.3?1-p(t,S2,.4):1);A('roomframe','opacity',t<S2||t>=S4-.3?1:1-p(t,S2,.4));
+  // scene 1: squeegee wipes dirt away, sparkles
+  let wx;if(t<S4){const k=io(p(t,.5,1.6));wx=lerp(60,1020,k)}else{wx=540+300*Math.sin((t-S4)*2.2)}
+  A('dcr','x',wx);A('dcr','width',1080-wx);A('sq','transform',`translate(${wx},0)`);A('sq','opacity',t<S4&&t>=.4&&t<2.2?1:0);
+  A('handle','transform',`translate(${wx},0)`);A('handle','opacity',t>=S4?1:0);A('lv','opacity',t>=S4?1:0);A('ln','opacity',t>=S4?1:0);
+  A('shine','opacity',t>=2.0&&t<S2?eo(p(t,2,.5)):(t>=S4?.0:0));
+  for(let k=0;k<8;k++){const st=1.0+k*.18;const q=p(t,st,.7);const on=(t<S2&&q>0&&q<1);const sx=150+((k*137)%800),sy=640+((k*211)%600);
+    A('sp'+k,'opacity',on?Math.sin(q*Math.PI):0);A('sp'+k,'transform',`translate(${sx},${sy+offY}) scale(${.5+Math.sin(q*Math.PI)}) rotate(${q*90})`)}
+  // brand
+  if(show('brand',t>=C.mg1-.1&&t<S2)){const k=back(p(t,C.mg1-.1,.45));$('brand').style.transform=`scale(${k})`}
+  // scene 2: where + how
+  if(show('where',t>=S2&&t<S3)){[['w1',C.buero],['w2',C.praxis],['w3',C.trepp]].forEach(([id,c])=>{const k=back(p(t,c,.4));$(id).style.opacity=t>=c?1:0;$(id).style.transform=`scale(${k}) translateY(${(1-k)*80}px)`});$('where').style.opacity=1-p(t,S3-.25,.25)}
+  if(show('how',t>=C.zuv&&t<S3)){[['h1',C.zuv],['h2',C.gruend],['h3',C.passt]].forEach(([id,c])=>{const k=back(p(t,c,.35));$(id).style.opacity=t>=c?1:0;$(id).style.transform=`scale(${k})`});$('how').style.opacity=1-p(t,S3-.25,.25)}
+  // scene 3: cleaner + benefits
+  const clOn=t>=S3-.2&&t<S4;A('cleaner','opacity',clOn?1:0);
+  if(clOn){const k=eo(p(t,S3-.2,.6));A('cleaner','transform',`translate(${lerp(-200,540,k)},900) scale(1.7)`);A('mop','transform',`rotate(${Math.sin(t*6)*12} 40 -140)`);A('clb','transform',`translate(0,${Math.abs(Math.sin(t*6))*-6})`)}
+  if(show('bens',t>=S3&&t<S4)){[['b1',C.fest],['b2',C.flex],['b3',C.umwelt]].forEach(([id,c])=>{const k=back(p(t,c,.4));$(id).style.opacity=t>=c?1:0;$(id).style.transform=`translateX(${(1-k)*900}px)`});$('bens').style.opacity=1-p(t,S4-.25,.25)}
+  // move bens below cleaner? cleaner sits at y 640 (upper area)
+  // scene 4: slogan + before/after slider
+  if(show('slogan',t>=S4&&t<S5)){const k=back(p(t,S4+.2,.45));$('slogan').style.transform=`scale(${k})`}
+  // scene 5: outro with FOB logo
+  const ww=p(t,S5-.15,.5);$('wipe2').style.display=ww>0&&ww<1?'block':'none';$('wipe2').style.clipPath=`inset(0 ${100-ww*200<0?0:100-ww*200}% 0 ${ww>.5?(ww-.5)*200:0}%)`;
+  const inO=t>=S5+.1;$('out').style.display=inO?'block':'none';$('badge').style.display=inO?'none':'block';
+  if(inO){const kl=back(p(t,S5+.15,.6));$('out').querySelector('img').style.transform=`scale(${.7+.3*kl})`;$('out').querySelector('img').style.opacity=cl(p(t,S5+.15,.2));
+    [['o1',S5+.1],['o2',C.video-.2],['o3',C.schreib-.1]].forEach(([id,c])=>{const k=eo(p(t,c,.5));$(id).style.display='block';$(id).style.opacity=k;$(id).style.transform=`translateY(${(1-k)*30}px)`})}
+  let html='';for(const c of CH){if(t>=c.s&&t<c.e){html=c.map(w=>`<span class="${t>=w.start-.03?'on':''}">${w.text}</span>`).join(' ');break}}
+  $('caps').innerHTML=html&&t<C.endsp+.6?`<div>${html}</div>`:'';
+};
+window.addEventListener('load',()=>document.fonts.ready.then(()=>render(0)));
+</script>
+</body>
+</html>
