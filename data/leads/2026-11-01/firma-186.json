@@ -1,0 +1,407 @@
+{
+  "id": "2026-11-01-186",
+  "slug": "zimmerei-schlosser-seeshaupt",
+  "date": "2026-11-01",
+  "company": {
+    "name": "Anton Schlosser Zimmerermeister",
+    "owner": "Anton Schlosser",
+    "trade": "Zimmerei",
+    "city": "Seeshaupt",
+    "address": "Buchenstraße 17, 82402 Seeshaupt",
+    "phone": "08801 713",
+    "email": null,
+    "serviceArea": [
+      "Seeshaupt",
+      "Magnetsried",
+      "St. Heinrich",
+      "Bernried",
+      "Iffeldorf",
+      "Penzberg"
+    ]
+  },
+  "listings": {
+    "google": {
+      "url": "https://www.google.com/maps/search/?api=1&query=Anton%20Schlosser%20Zimmerermeister%20Buchenstra%C3%9Fe%2017%20Seeshaupt",
+      "rating": null,
+      "reviews": null,
+      "evidence": "INDIREKT (Spiegel) – firmania.de führt „Schlosser Anton Zimmerermeister – Zimmerarbeiten, Holzbauarbeiten in Seeshaupt, Buchenstr. 17, 82402 Seeshaupt“ (Eintrag 2196611). Im Snippet keine Bewertungsangabe und kein Website-Feld. trustlocal und rgv-bayern ohne Treffer. In Maps prüfen."
+    },
+    "myhammer": {
+      "url": "https://www.oeffnungszeitenbuch.de/filiale/Seeshaupt-Anton%2520Schlosser%2520Zimmerermeister-2612020P.html",
+      "rating": null,
+      "reviews": null,
+      "evidence": "Kein MyHammer gefunden – Verzeichniseinträge „Anton Schlosser Zimmerermeister“ (oeffnungszeitenbuch.de), „Anton Schlosser – Gerüstbauer Seeshaupt“ (branchenbuch24.com), wirsindhandwerk.de, youbuy.com; alle mit Buchenstr. 17, Telefon 08801 713."
+    }
+  },
+  "websiteStatus": "keine eigene Website gefunden",
+  "websiteChecks": [
+    "(1) „\"Anton Schlosser\" Zimmerer Seeshaupt“ mit blocked_domains (11880, Gelbe Seiten, Das Örtliche, Telefonbuch, Cylex, meinestadt, Creditreform, Facebook, Instagram, golocal, MyHammer, Northdata, Firmenwissen, WKDB, Yelp, trustlocal, wlw) – nur Verzeichnisse (branchenbuch24, oeffnungszeitenbuch, wirsindhandwerk, youbuy, starofservice, stadtbranchenbuch) und lokale Erwähnungen (Dorfzeitung, Gemeindearchiv); keine eigene Domain",
+    "(2) Spiegelsuche „Schwaighofer Zimmerei Seeshaupt“ (trustlocal, firmania, rgv-bayern) – firmania-Eintrag „Schlosser Anton Zimmerermeister“ ohne Website-Feld",
+    "(3) Domain-Check allowed_domains zimmerei-schlosser.de, schlosser-zimmerei.de, zimmerei-schlosser-seeshaupt.de, holzbau-schlosser.de, schlosser-holzbau.de, anton-schlosser.de, zimmerei-schlosser.com – einziger Treffer schlosser-holzbau.de = SCHLOSSER Holzbau, Jagstzell (Baden-Württemberg) – fremde Firma, kein Bezug zu Seeshaupt",
+    "(4) Telefonsuche „08801 713“/„08801/713“ – keine Treffer",
+    "(5) Impressum-Suche „Impressum \"Anton Schlosser\" Buchenstr Seeshaupt“ – kein Impressum gefunden",
+    "Website-Risiko: mittel – alle Prüfungen negativ; Google-Eintrag nur über firmania-Spiegel belegt, keine Bewertungen, keine Freemail; Betrieb evtl. nicht mehr aktiv"
+  ],
+  "facts": {
+    "services": [
+      "Zimmerarbeiten",
+      "Holzbauarbeiten",
+      "Gerüstbau"
+    ],
+    "experience": null,
+    "praisedFor": []
+  },
+  "strategy": {
+    "audience": "Hauseigentümer und Landwirte in Seeshaupt, Bernried, Iffeldorf und Penzberg, die Dachstuhl, Carport, Balkon oder Holzanbau planen oder reparieren lassen wollen",
+    "mainService": "Zimmerarbeiten und Holzbau am Südende des Starnberger Sees",
+    "trustSignal": "Zimmerermeister mit festem Sitz in Seeshaupt, direkt telefonisch erreichbar",
+    "conversionGoal": "Rückruf bzw. Besichtigungstermin für ein Holzbauvorhaben anfragen",
+    "visualConcept": "Warmes Holz und klare Linien: Dachstuhl im Rohbau, Balkenlagen, Holzschindeln und See-Landschaft im Hintergrund"
+  },
+  "sales": {
+    "score": 4,
+    "whyGoodLead": [
+      "Keine eigene Website gefunden – nur ältere Verzeichniseinträge",
+      "Zimmerei ist ein bisher seltenes Gewerk im Bestand",
+      "Fester Sitz in Seeshaupt, Festnetz öffentlich gelistet",
+      "Holzbau, Dachstuhl und Carport werden gern online gesucht – eine Seite mit Projekten bringt Anfragen"
+    ],
+    "pitch": "Grüß Gott Herr Schlosser, hier ist … – ich baue Websites für Handwerksbetriebe rund um den Starnberger See. Ihre Zimmerei in Seeshaupt habe ich in Verzeichnissen gefunden, aber keine eigene Website. Ich habe unverbindlich einen Entwurf vorbereitet, der Ihre Zimmer- und Holzbauarbeiten zeigt – darf ich Ihnen den Link schicken?"
+  },
+  "manualChecks": [
+    "Website-Risiko: mittel – vor Versand in Google Maps prüfen, dass keine Website hinterlegt ist (Grund: Google-Eintrag nur über firmania-Spiegel belegt, keine Bewertungen, keine Freemail)",
+    "Betrieb aktiv? Verzeichnisdaten wirken älter; ein Anton Schlosser aus Seeshaupt wird in der Dorfzeitung als Großvater erwähnt – möglicherweise im Ruhestand. Vor Versand telefonisch bzw. über Maps bestätigen",
+    "Branchenzuordnung uneinheitlich: Zimmerermeister / Holzbauarbeiten (firmania, oeffnungszeitenbuch) und Gerüstbauer (branchenbuch24) – Schwerpunkt beim Erstkontakt klären",
+    "Leistungen nur grob belegt (Zimmerarbeiten, Holzbauarbeiten, Gerüstbau) – Detailleistungen (Dachstuhl, Carport, Balkon, Holzfassade) beim Betrieb bestätigen",
+    "Nur Festnetz 08801 713 belegt, keine Mobilnummer und keine E-Mail – Kontakt telefonisch oder per Brief",
+    "Logo und Projektfotos: nicht gefunden – beim Betrieb anfragen"
+  ],
+  "sources": [
+    {
+      "label": "firmania – Schlosser Anton Zimmerermeister, Seeshaupt (Google-Spiegel)",
+      "url": "https://firmania.de/seeshaupt/schlosser-anton-zimmerermeister-2196611"
+    },
+    {
+      "label": "oeffnungszeitenbuch – Anton Schlosser Zimmerermeister",
+      "url": "https://www.oeffnungszeitenbuch.de/filiale/Seeshaupt-Anton%2520Schlosser%2520Zimmerermeister-2612020P.html"
+    },
+    {
+      "label": "branchenbuch24 – Anton Schlosser, Gerüstbauer Seeshaupt",
+      "url": "https://www.branchenbuch24.com/seeshaupt/haus-neubau-und-renovierung/geruestbauer/anton-schlosser-801851/"
+    },
+    {
+      "label": "wirsindhandwerk.de – Anton Schlosser in Seeshaupt",
+      "url": "https://www.wirsindhandwerk.de/anton-schlosser"
+    },
+    {
+      "label": "youbuy – Anton Schlosser, Buchenstr. 17, Seeshaupt",
+      "url": "http://www.youbuy.com/seeshaupt/anton-schlosser/anton-schlosser---buchenstr--17"
+    }
+  ],
+  "site": {
+    "theme": "werk",
+    "category": "handwerk",
+    "heroOffer": [
+      "Dachstuhl",
+      "Holzbau",
+      "Carport",
+      "Balkone",
+      "Gerüst"
+    ],
+    "scene": "facade",
+    "logoIcon": "roof",
+    "logoMark": "AS",
+    "brandName": "Zimmerei Schlosser",
+    "seoTitle": "Zimmerei in Seeshaupt – Anton Schlosser Zimmerermeister",
+    "seoDescription": "Zimmerarbeiten, Holzbau und Gerüst in Seeshaupt und am Südende des Starnberger Sees. Rückruf oder Besichtigung anfragen.",
+    "nav": [
+      {
+        "label": "Leistungen",
+        "href": "#leistungen"
+      },
+      {
+        "label": "Projekte",
+        "href": "#projekte"
+      },
+      {
+        "label": "Bewertungen",
+        "href": "#bewertungen"
+      },
+      {
+        "label": "Ablauf",
+        "href": "#ablauf"
+      },
+      {
+        "label": "FAQ",
+        "href": "#faq"
+      },
+      {
+        "label": "Kontakt",
+        "href": "#kontakt"
+      }
+    ],
+    "hero": {
+      "eyebrow": "Zimmerei · Seeshaupt",
+      "headline": "Zimmerei und Holzbau in Seeshaupt",
+      "sub": "Dachstuhl, Anbau oder Carport – geplant und gezimmert von Anton Schlosser.",
+      "ctaPrimary": "Besichtigung anfragen",
+      "ctaSecondary": "Anrufen",
+      "bullets": [
+        "Zimmerermeister in Seeshaupt",
+        "Zimmer- und Holzbauarbeiten",
+        "Gerüst aus eigener Hand"
+      ],
+      "imageLabel": "Dachstuhl aus Holz im Rohbau am Starnberger See"
+    },
+    "badges": [
+      {
+        "title": "Zimmerermeister",
+        "sub": "Anton Schlosser"
+      },
+      {
+        "title": "Holzbau",
+        "sub": "Dach, Anbau, Carport"
+      },
+      {
+        "title": "Gerüst",
+        "sub": "für eigene Arbeiten"
+      },
+      {
+        "title": "Seeshaupt",
+        "sub": "Buchenstraße 17"
+      }
+    ],
+    "trust": [
+      {
+        "value": "Seeshaupt",
+        "label": "fester Sitz am See"
+      },
+      {
+        "value": "Holz",
+        "label": "Zimmer- und Holzbau"
+      },
+      {
+        "value": "Gerüst",
+        "label": "im Leistungsumfang"
+      },
+      {
+        "value": "Direkt",
+        "label": "Inhaber am Telefon"
+      }
+    ],
+    "servicesIntro": {
+      "headline": "Was die Zimmerei für Ihr Haus baut",
+      "text": "Vom neuen Dachstuhl bis zur Reparatur am Balkon: Anton Schlosser übernimmt Zimmer- und Holzbauarbeiten rund um Seeshaupt."
+    },
+    "services": [
+      {
+        "title": "Dachstuhl",
+        "text": "Neue Dachstühle und Umbauten am bestehenden Dach – abgebunden und aufgestellt vom Zimmerer.",
+        "items": [
+          "Neubau",
+          "Umbau",
+          "Dachgauben"
+        ]
+      },
+      {
+        "title": "Holzanbauten",
+        "text": "Wintergarten-Unterbau, Anbau oder Aufstockung in Holz – mehr Platz ohne langen Rohbau.",
+        "items": [
+          "Anbau",
+          "Aufstockung",
+          "Holzrahmen"
+        ]
+      },
+      {
+        "title": "Carport & Vordach",
+        "text": "Carports, Vordächer und Unterstände aus Holz, passend zum Haus.",
+        "items": [
+          "Carport",
+          "Vordach",
+          "Holzlege"
+        ]
+      },
+      {
+        "title": "Balkone & Terrassen",
+        "text": "Balkone und Holzterrassen bauen oder morsche Teile ersetzen.",
+        "items": [
+          "Balkongeländer",
+          "Terrassenböden",
+          "Reparatur"
+        ]
+      },
+      {
+        "title": "Reparatur am Holz",
+        "text": "Beschädigte Balken, Sparren und Verschalungen tauschen, bevor der Schaden wächst.",
+        "items": [
+          "Sparren",
+          "Verschalung",
+          "Sturmschaden"
+        ]
+      },
+      {
+        "title": "Gerüstbau",
+        "text": "Das Gerüst für die Arbeiten am Dach stellt der Betrieb – ein Ansprechpartner weniger.",
+        "items": [
+          "Arbeitsgerüst",
+          "Dachgerüst",
+          "Auf- und Abbau"
+        ]
+      }
+    ],
+    "why": {
+      "headline": "Zimmerarbeiten direkt aus Seeshaupt.",
+      "points": [
+        {
+          "title": "Kurze Wege",
+          "text": "Von der Buchenstraße aus schnell in Magnetsried, Bernried, Iffeldorf und Penzberg."
+        },
+        {
+          "title": "Ein Ansprechpartner",
+          "text": "Anton Schlosser plant, zimmert und spricht selbst mit Ihnen."
+        },
+        {
+          "title": "Gerüst inklusive",
+          "text": "Gerüst und Zimmerarbeit kommen aus einer Hand – kein zweiter Betrieb nötig."
+        },
+        {
+          "title": "Holz vom Fach",
+          "text": "Als Zimmerermeister kennt er Holz, Verbindungen und Dachlasten."
+        }
+      ]
+    },
+    "reviews": {
+      "headline": "Was Kunden sagen",
+      "summary": "Kundenstimmen binden wir hier ein, sobald sie aus dem Google-Profil übernommen sind.",
+      "highlights": [
+        "Zimmerei in Seeshaupt",
+        "Holzbau und Dachstuhl",
+        "Gerüst aus eigener Hand"
+      ],
+      "source": "Google",
+      "sourceUrl": "https://www.google.com/maps/search/?api=1&query=Anton%20Schlosser%20Zimmerermeister%20Buchenstra%C3%9Fe%2017%20Seeshaupt",
+      "rating": null,
+      "count": null
+    },
+    "process": {
+      "headline": "So entsteht Ihr Holzbau",
+      "steps": [
+        {
+          "title": "Anruf",
+          "text": "Kurz schildern, was gebaut oder repariert werden soll."
+        },
+        {
+          "title": "Besichtigung",
+          "text": "Anton Schlosser sieht sich Dach, Balkon oder Bauplatz vor Ort an."
+        },
+        {
+          "title": "Angebot",
+          "text": "Sie erhalten ein Angebot mit Material und Umfang."
+        },
+        {
+          "title": "Ausführung",
+          "text": "Gerüst stellen, abbinden, aufrichten – und sauber übergeben."
+        }
+      ]
+    },
+    "gallery": {
+      "headline": "Holzbau aus Seeshaupt",
+      "text": "In der Live-Version zeigen wir hier echte Projekte der Zimmerei.",
+      "items": [
+        {
+          "title": "Neuer Dachstuhl",
+          "photoNeeded": "aufgerichteter Dachstuhl im Rohbau"
+        },
+        {
+          "title": "Carport",
+          "photoNeeded": "fertiger Holz-Carport neben einem Wohnhaus"
+        },
+        {
+          "title": "Balkon",
+          "photoNeeded": "Holzbalkon mit neuem Geländer"
+        },
+        {
+          "title": "Holzanbau",
+          "photoNeeded": "Anbau in Holzrahmenbauweise"
+        },
+        {
+          "title": "Gerüst am Dach",
+          "photoNeeded": "Arbeitsgerüst an einem Satteldach"
+        }
+      ]
+    },
+    "region": {
+      "headline": "Zimmerei für Seeshaupt und das Südende des Starnberger Sees",
+      "text": "Von Seeshaupt aus in Magnetsried, St. Heinrich, Bernried, Iffeldorf und Penzberg unterwegs.",
+      "places": [
+        "Seeshaupt",
+        "Magnetsried",
+        "St. Heinrich",
+        "Bernried",
+        "Iffeldorf",
+        "Penzberg",
+        "Münsing"
+      ]
+    },
+    "faq": [
+      {
+        "q": "Übernehmen Sie auch kleine Reparaturen?",
+        "a": "Fragen Sie einfach an – auch einzelne Sparren oder ein Balkongeländer lassen sich besprechen."
+      },
+      {
+        "q": "Brauche ich für den Carport einen Bauantrag?",
+        "a": "Das hängt von Größe und Gemeinde ab. Bei der Besichtigung klären wir, was nötig ist."
+      },
+      {
+        "q": "Stellen Sie das Gerüst selbst?",
+        "a": "Ja, Gerüstbau gehört zum Leistungsumfang des Betriebs."
+      },
+      {
+        "q": "Wie erreiche ich Sie am besten?",
+        "a": "Am schnellsten telefonisch unter 08801 713."
+      },
+      {
+        "q": "In welchen Orten arbeiten Sie?",
+        "a": "Vor allem in Seeshaupt und den Nachbarorten – fragen Sie gern auch für andere Orte an."
+      }
+    ],
+    "contact": {
+      "headline": "Ihr Holzbauvorhaben besprechen",
+      "text": "Schreiben Sie kurz, was entstehen oder repariert werden soll: Dach, Anbau, Carport oder Balkon. Fotos helfen bei der ersten Einschätzung.",
+      "topics": [
+        "Dachstuhl",
+        "Holzanbau",
+        "Carport & Vordach",
+        "Balkon & Terrasse",
+        "Reparatur",
+        "Sonstiges"
+      ],
+      "responseNote": "Besichtigung nach Absprache."
+    },
+    "quote": {
+      "sizeLabel": "Was soll gebaut werden?",
+      "sizes": [
+        "Reparatur",
+        "Carport / Vordach",
+        "Balkon / Terrasse",
+        "Dachstuhl / Anbau"
+      ],
+      "timings": [
+        "So bald wie möglich",
+        "In den nächsten Wochen",
+        "Nächste Saison",
+        "Ich plane erst noch"
+      ]
+    },
+    "stickyCta": "Besichtigung anfragen",
+    "look": {
+      "palette": 2,
+      "font": 6,
+      "hero": 0,
+      "services": 1,
+      "radius": 1,
+      "logo": 0,
+      "intro": 5
+    }
+  }
+}
