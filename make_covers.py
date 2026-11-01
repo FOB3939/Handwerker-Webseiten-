@@ -11,6 +11,8 @@ C = [  # file, chip, line1, line2 (accent), accent color, image(s), crop top (y 
  ('06_heizung5', 'HEIZUNG', 'Stufe 5 =', 'schneller warm?', '#ff8a1f', ['heiz5'], 560),
  ('07_gruppenchat', 'HAUSTECHNIK', 'Wenn dein Haus', 'schreiben könnte', '#2ee6d6', ['chat'], 330),
  ('08_bad', 'PLANUNGSBEISPIEL', 'Wer hat dieses', 'Bad geplant?!', '#ffd23f', ['bad'], 520),
+ ('09_fbh_teil1', 'FUSSBODENHEIZUNG · TEIL 1', 'Ein Raum', 'bleibt kalt?', '#5aa9ff', ['fbh1'], 400),
+ ('10_fbh_teil2', 'FUSSBODENHEIZUNG · TEIL 2', 'Fußbodenheizung', 'spülen', '#2ee6d6', ['fbh2'], 560),
 ]
 html = open(f'{KIT}/cover_tpl.html').read()
 pages = []
