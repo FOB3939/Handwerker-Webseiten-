@@ -1,115 +1,122 @@
 {
   "id": "2026-11-01-190",
-  "slug": "araucaria-gartengestaltung-polling",
+  "slug": "heinrich-broda-sanitaer-heizung-aschheim",
   "date": "2026-11-01",
   "company": {
-    "name": "Araucaria Garten- und Landschaftsgestaltung",
-    "owner": null,
-    "trade": "Garten- und Landschaftsbau",
-    "city": "Polling",
-    "address": "Huglfinger Str. 5, 82398 Polling",
-    "phone": "0176 85495315",
-    "email": "greinwalddominik@gmail.com",
+    "name": "Heinrich Broda Sanitär & Heizung",
+    "owner": "Heinrich Broda",
+    "trade": "Sanitär & Heizung",
+    "city": "Aschheim",
+    "address": "Johann-Wieser-Ring 17, 85609 Aschheim",
+    "phone": "0179 1259225",
+    "email": "Broda.Heinrich@gmx.de",
     "serviceArea": [
-      "Polling",
-      "Weilheim",
-      "Huglfing",
-      "Oderding",
-      "Etting",
-      "Peißenberg",
-      "Wielenbach"
+      "Aschheim",
+      "Dornach",
+      "Feldkirchen",
+      "Kirchheim",
+      "Heimstetten",
+      "Ismaning",
+      "Unterföhring"
     ]
   },
   "listings": {
     "google": {
-      "url": "https://www.google.com/maps/search/?api=1&query=Araucaria%20Garten-%20und%20Landschaftsgestaltung%20Huglfinger%20Str.%205%20Polling",
+      "url": "https://www.google.com/maps/search/?api=1&query=Heinrich%20Broda%20Sanit%C3%A4r%20Heizung%20Johann-Wieser-Ring%2017%20Aschheim",
       "rating": null,
       "reviews": null,
-      "evidence": "KEIN direkter Google-Beleg gefunden (kein Spiegel-Treffer). Annahme stützt sich auf die öffentlich gelistete Freemail-Adresse (gmail) im 11880-Eintrag. In Google Maps prüfen, ob ein Eintrag existiert und ob dort eine Website hinterlegt ist."
+      "evidence": "NICHT BELEGT – kein Google-Spiegel (trustlocal, firmania, rgv-bayern) mit Heinrich Broda in Aschheim gefunden. Annahme stützt sich auf die öffentlich gelistete Freemail-Adresse (Broda.Heinrich@gmx.de, Handwerkskammer München und branchenbuch24). In Maps prüfen, ob ein Eintrag existiert und ob dort eine Website hinterlegt ist."
     },
     "myhammer": {
-      "url": "https://www.11880.com/branchenbuch/polling-kreis-weilheim-schongau/170211840B102721250/araucaria-garten-und-landschaftsgestaltung.html",
+      "url": "https://www.hwk-muenchen.de/betriebe/heinrich-broda-heizung-sanitaer-74,0,bdbdetail.html?id=97031",
       "rating": null,
       "reviews": null,
-      "evidence": "Kein MyHammer gefunden – 11880-Eintrag „Araucaria Garten- und Landschaftsgestaltung“, Huglfinger Str. 5, 82398 Polling, Kategorien Garten- und Landschaftsbau, Garten- und Landschaftspflege, Gartenbau; E-Mail greinwalddominik@gmail.com; Mobilnummer im Snippet 0176 85495315 (in der 11880-Ortsliste Huglfing/Polling abweichend 0176 60819229)."
+      "evidence": "Kein MyHammer gefunden – Eintrag in der Handwerkersuche der Handwerkskammer für München und Oberbayern (Installateur und Heizungsbauer, Ausbildungsbetrieb; Reparatur, Kundendienst, Gas- und Ölbrenner; Tel. 089 908114, Mobil 0179 1259225, E-Mail gmx) sowie in der 11880-Ortsliste Heizungsinstallation Aschheim/Kirchheim."
     }
   },
   "websiteStatus": "keine eigene Website gefunden",
   "websiteChecks": [
-    "(1) „Araucaria Garten- und Landschaftsgestaltung Polling“ mit blocked_domains (11880, Gelbe Seiten, Das Örtliche, Telefonbuch, Cylex, meinestadt, Creditreform, Facebook, Instagram, golocal, MyHammer, Northdata, Firmenwissen, WKDB, Yelp, trustlocal, wlw) – nur Pflanzenratgeber zur Araukarie, keine Firmenseite",
-    "(2) „Dominik Greinwald Garten Polling“ mit blocked_domains – nur Familienchronik Greinwald, Gartenbauverein und andere Pollinger Gartenbaubetriebe; keine Website des Betriebs",
-    "(3) Domain-Check allowed_domains araucaria-polling.de, araucaria-garten.de, araucaria-gartengestaltung.de, araucaria-galabau.de, araucaria-gartenbau.de, greinwald-garten.de, greinwald-galabau.de, gartenbau-greinwald.de – keine Treffer",
-    "(4) Telefonsuche „0176 60819229“ zusammen mit Name/Adresse – keine Treffer; Suche nach 0176 85495315 vom Suchwerkzeug nicht ausgeführt",
-    "(5) Impressum-Suche „Impressum Araucaria Gartengestaltung Polling Greinwald“ – kein Impressum des Betriebs",
-    "(6) 11880-Eintrag: E-Mail auf gmail.com, kein Website-Feld im Snippet",
-    "Website-Risiko: mittel – alle Prüfungen negativ, Freemail belegt, aber kein Google-Beleg und widersprüchliche Mobilnummern"
+    "(1) „Heinrich Broda Sanitär Heizung Aschheim“ mit blocked_domains (11880, Gelbe Seiten, Das Örtliche, Telefonbuch, Cylex, meinestadt, Creditreform, Facebook, Instagram, golocal, MyHammer, Northdata, Firmenwissen, WKDB, Yelp, trustlocal, wlw) – nur Handwerkskammer und Verzeichnisse (klimatechniker.net, plusbranchenbuch, dialo, oeffnungszeitenbuch, branchenbuch24); keine eigene Domain",
+    "(2) Domain-Check allowed_domains broda-heizung.de, broda-sanitaer.de, heinrich-broda.de, broda-haustechnik.de, broda-aschheim.de, heizung-broda.de, sanitaer-broda.de, broda.de – keine Treffer",
+    "(3) Telefonsuche „0179 1259225“/„089 908114“ mit blocked_domains – nur der Handwerkskammer-Eintrag, keine Website",
+    "(4) Impressum-Suche „Impressum Heinrich Broda Heizung Sanitär Aschheim Johann-Wieser-Ring“ – kein eigenes Impressum, nur Verzeichnisse",
+    "(5) E-Mail ist Freemail (gmx.de), keine Firmendomain; in keinem Verzeichnis-Snippet ein Website-Feld",
+    "Website-Risiko: mittel – alle Prüfungen negativ, Freemail belegt, Google-Eintrag aber nicht belegt"
   ],
   "facts": {
     "services": [
-      "Garten- und Landschaftsbau",
-      "Gartenpflege",
-      "Garten- und Landschaftspflege",
-      "Gartenbau"
+      "Sanitärinstallation",
+      "Heizungsbau",
+      "Reparatur",
+      "Kundendienst",
+      "Gas- und Ölbrenner"
     ],
     "experience": null,
     "praisedFor": []
   },
   "strategy": {
-    "audience": "Hausbesitzer und Vermieter in Polling, Weilheim, Huglfing und Peißenberg, die ihren Garten neu anlegen oder regelmäßig pflegen lassen wollen",
-    "mainService": "Gartengestaltung und Gartenpflege",
-    "trustSignal": "Kleiner Betrieb direkt in Polling, per Handy und E-Mail erreichbar",
-    "conversionGoal": "Kostenlose Anfrage für Gartenpflege oder Gartengestaltung (per WhatsApp mit Fotos oder Anruf)",
-    "visualConcept": "Gepflegte oberbayerische Hausgärten im Voralpenland: frisch geschnittene Hecken, klare Beetkanten, Rasen vor Bergkulisse – ruhig und naturnah"
+    "audience": "Hausbesitzer, Eigentümergemeinschaften und Vermieter in Aschheim, Dornach, Feldkirchen und Kirchheim mit Heizungsstörung, Wartungsbedarf oder Badumbau",
+    "mainService": "Heizung und Sanitär – Kundendienst, Reparatur, Brennerservice",
+    "trustSignal": "Eingetragener Installateur- und Heizungsbauerbetrieb der Handwerkskammer München, Ausbildungsbetrieb, Sitz in Aschheim",
+    "conversionGoal": "Kundendienst oder Reparatur anfragen (Anruf/WhatsApp mit Foto vom Typenschild)",
+    "visualConcept": "Sauberer Heizungsraum: Gaskessel, Rohrleitungen in Kupfer, Manometer – technisch, aufgeräumt, warm beleuchtet"
   },
   "sales": {
-    "score": 4,
+    "score": 5,
     "whyGoodLead": [
-      "Keine eigene Website gefunden – nur Verzeichniseintrag mit gmail-Adresse",
-      "Mobilnummer öffentlich gelistet – WhatsApp-Erstkontakt möglich",
-      "Kaum Sichtbarkeit im Netz – eine Website mit Leistungsübersicht hebt den Betrieb von größeren GaLaBau-Firmen ab",
-      "Gartenpflege ist im Landkreis Weilheim-Schongau eine wiederkehrende Leistung mit Stammkunden-Potenzial"
+      "Keine eigene Website gefunden – nur Handwerkskammer- und Verzeichniseinträge",
+      "Mobilnummer und gmx-Adresse öffentlich gelistet – direkter Erstkontakt möglich",
+      "Sanitär/Heizung ist ein selten vertretenes Gewerk im Lead-Bestand",
+      "Heizungstausch und Brennerservice werden online gesucht – ohne Website gehen diese Anfragen an andere"
     ],
-    "pitch": "Hallo, hier ist … – ich baue Websites für Handwerksbetriebe im Landkreis Weilheim-Schongau. Ich habe Ihren Eintrag „Araucaria Garten- und Landschaftsgestaltung“ in Polling gefunden, aber keine eigene Website. Ich habe unverbindlich einen Entwurf vorbereitet, auf dem Kunden Ihre Gartenpflege und Gartengestaltung sehen und direkt per WhatsApp anfragen können – darf ich Ihnen den Link schicken?"
+    "pitch": "Grüß Gott Herr Broda, hier ist … – ich baue Websites für Handwerksbetriebe im Münchner Osten. Ich habe Ihren Eintrag bei der Handwerkskammer gefunden, aber keine eigene Website. Ich habe unverbindlich einen Entwurf vorbereitet, über den Kunden in Aschheim und Umgebung Kundendienst und Reparaturen direkt bei Ihnen anfragen können – darf ich Ihnen den Link schicken?"
   },
   "manualChecks": [
-    "Website-Risiko: mittel – vor Versand in Google Maps prüfen, dass keine Website hinterlegt ist (Grund: kein Google-Beleg gefunden, Annahme nur über Freemail; Mobilnummern widersprüchlich)",
-    "Mobilnummer klären: 11880-Detail-Snippet 0176 85495315, 11880-Ortsliste 0176 60819229 – vor Kontakt prüfen, welche aktuell ist",
-    "Inhaber nicht belegt (E-Mail deutet auf Dominik Greinwald hin) – im Erstkontakt erfragen, Anrede neutral halten",
-    "11880 zeigt den Betrieb teils als „geschlossen“ – prüfen, ob der Betrieb noch aktiv ist",
-    "Namensgleiche Betriebe mit Website in der Region (Trockenbau Greinwald Weilheim, Tobias Greinwald Seeshaupt) – kein Bezug belegt; prüfen, dass kein Familienbetrieb mit Website dahintersteht",
-    "Leistungen nur als Verzeichniskategorien belegt (Garten- und Landschaftsbau, -pflege, Gartenbau) – Detailleistungen (Pflaster, Zaun, Baumpflege) nicht genannt, beim Betrieb bestätigen",
+    "Website-Risiko: mittel – vor Versand in Google Maps prüfen, dass keine Website hinterlegt ist (Grund: Google-Eintrag nicht belegt, Annahme nur über Freemail-Adresse)",
+    "Google-Eintrag in Maps suchen (Existenz, Bewertungen); falls keiner existiert, Google-Profil als Zusatzangebot anbieten",
+    "Mobilnummer 0179 1259225 stammt aus dem Handwerkskammer-Eintrag – vor WhatsApp-Kontakt prüfen, ob sie aktuell ist",
+    "Leistungen laut Handwerkskammer: Reparatur, Kundendienst, Gas- und Ölbrenner – Badsanierung und Wärmepumpe NICHT belegt, beim Betrieb erfragen",
+    "Ausbildungsbetrieb laut Handwerkskammer – Meistertitel nicht belegt, nicht verwenden",
     "Logo und Projektfotos: nicht gefunden – beim Betrieb anfragen"
   ],
   "sources": [
     {
-      "label": "11880 – Araucaria Garten- und Landschaftsgestaltung, Polling",
-      "url": "https://www.11880.com/branchenbuch/polling-kreis-weilheim-schongau/170211840B102721250/araucaria-garten-und-landschaftsgestaltung.html"
+      "label": "Handwerkskammer München – Heinrich Broda Heizung + Sanitär",
+      "url": "https://www.hwk-muenchen.de/betriebe/heinrich-broda-heizung-sanitaer-74,0,bdbdetail.html?id=97031"
     },
     {
-      "label": "11880 – Gartenbauer Huglfing (Liste mit Araucaria)",
-      "url": "https://www.11880.com/suche/gartenbau/huglfing"
+      "label": "11880 – Heinrich Broda Sanitär & Heizung Aschheim",
+      "url": "https://www.11880.com/branchenbuch/aschheim/060691879B54176628/heinrich-broda-sanitaer-heizung.html"
     },
     {
-      "label": "11880 – Garten- und Landschaftsbauer Huglfing",
-      "url": "https://www.11880.com/suche/garten-und-landschaftsbau/huglfing"
+      "label": "branchenbuch24 – Heinrich Broda, Installateur und Heizungsbauer (mit gmx-Adresse)",
+      "url": "https://www.branchenbuch24.com/aschheim-donnach/haus-innenausstattung/installateur-und-heizungsbauer/heinrich-broda-819883/"
+    },
+    {
+      "label": "plusbranchenbuch – Heinrich Broda Sanitär & Heizung",
+      "url": "https://plusbranchenbuch.com/heinrich-broda-sanit%C3%A4r-heizung-aschheim-089908114"
+    },
+    {
+      "label": "klimatechniker.net – Heinrich Broda Sanitär Heizung",
+      "url": "https://www.klimatechniker.net/aschheim/heinrich-broda-sanitaer-heizung-aULKvR"
     }
   ],
   "site": {
-    "theme": "garten",
+    "theme": "aqua",
     "category": "handwerk",
     "heroOffer": [
-      "Gartenpflege",
-      "Gartengestaltung",
-      "Heckenschnitt",
-      "Rasenpflege",
-      "Bepflanzung"
+      "Heizung",
+      "Kundendienst",
+      "Reparatur",
+      "Brennerservice",
+      "Sanitär"
     ],
-    "scene": "garden",
-    "logoIcon": "leaf",
-    "logoMark": "AG",
-    "brandName": "Araucaria Gartengestaltung",
-    "seoTitle": "Gartengestaltung & Gartenpflege in Polling – Araucaria",
-    "seoDescription": "Garten- und Landschaftsbau, Gartenpflege und Gestaltung in Polling, Weilheim und Umgebung. Jetzt kostenlos anfragen – auch per WhatsApp.",
+    "scene": "bath",
+    "logoIcon": "drop",
+    "logoMark": "HB",
+    "brandName": "Heinrich Broda",
+    "seoTitle": "Sanitär & Heizung in Aschheim – Heinrich Broda",
+    "seoDescription": "Heizung, Sanitär, Kundendienst und Brennerservice in Aschheim, Dornach, Feldkirchen und Kirchheim. Jetzt anrufen oder per WhatsApp anfragen.",
     "nav": [
       {
         "label": "Leistungen",
@@ -137,266 +144,272 @@
       }
     ],
     "hero": {
-      "eyebrow": "Garten- und Landschaftsbau · Polling",
-      "headline": "Gartengestaltung und Pflege in Polling",
-      "sub": "Neue Beete, geschnittene Hecken und gepflegter Rasen – für Gärten zwischen Polling und Weilheim.",
-      "ctaPrimary": "Garten-Anfrage senden",
+      "eyebrow": "Sanitär & Heizung · Aschheim",
+      "headline": "Heizung und Sanitär in Aschheim",
+      "sub": "Kundendienst, Reparatur und Brennerservice für Aschheim, Dornach und den Münchner Osten.",
+      "ctaPrimary": "Kundendienst anfragen",
       "ctaSecondary": "Anrufen",
       "bullets": [
-        "Betrieb in Polling",
-        "Gestaltung und laufende Pflege",
-        "Fotos per WhatsApp genügen"
+        "Installateur- und Heizungsbauerbetrieb",
+        "Gas- und Ölbrenner",
+        "Ausbildungsbetrieb in Aschheim"
       ],
-      "imageLabel": "gepflegter Hausgarten mit Heckenschnitt im Voralpenland"
+      "imageLabel": "aufgeräumter Heizungsraum mit Gaskessel und Kupferrohren"
     },
     "badges": [
       {
-        "title": "Gestaltung",
-        "sub": "Garten neu anlegen"
+        "title": "Heizung",
+        "sub": "Gas und Öl"
       },
       {
-        "title": "Pflege",
-        "sub": "übers Gartenjahr"
+        "title": "Sanitär",
+        "sub": "Installation & Reparatur"
       },
       {
-        "title": "Landschaftsbau",
-        "sub": "Flächen und Wege"
+        "title": "Kundendienst",
+        "sub": "Störung beheben"
       },
       {
-        "title": "Polling",
-        "sub": "Huglfinger Straße"
+        "title": "Aschheim",
+        "sub": "Johann-Wieser-Ring"
       }
     ],
     "trust": [
       {
-        "value": "Vor Ort",
-        "label": "Betrieb in Polling"
+        "value": "HWK",
+        "label": "eingetragen bei der Handwerkskammer"
       },
       {
-        "value": "3",
-        "label": "Bereiche: Bau, Pflege, Gartenbau"
+        "value": "Azubi",
+        "label": "Ausbildungsbetrieb"
       },
       {
-        "value": "Außen",
-        "label": "Garten, Hof und Grün"
+        "value": "2",
+        "label": "Gewerke: Installateur & Heizungsbauer"
       },
       {
         "value": "Mobil",
-        "label": "per Handy erreichbar"
+        "label": "direkt erreichbar"
       }
     ],
     "servicesIntro": {
-      "headline": "Vom ersten Entwurf bis zum Herbstschnitt",
-      "text": "Ein Garten braucht Planung beim Anlegen und Pflege in jeder Saison. Beides erledigt ein Betrieb aus Polling."
+      "headline": "Was der Betrieb für Ihr Haus übernimmt",
+      "text": "Wenn die Heizung ausfällt oder der Brenner stottert, zählt ein Ansprechpartner vor Ort. Heinrich Broda kümmert sich um Heizung und Sanitär in Aschheim und Umgebung."
     },
     "services": [
       {
-        "title": "Gartengestaltung",
-        "text": "Wir planen Ihren Garten neu: Beete, Rasenflächen und Wege passend zu Haus und Grundstück.",
+        "title": "Heizungskundendienst",
+        "text": "Störung, Fehlermeldung, kalte Heizkörper: Der Kundendienst sucht die Ursache und bringt die Anlage wieder zum Laufen.",
         "items": [
-          "Neuanlage",
-          "Umgestaltung",
-          "Beetplanung"
+          "Störungssuche",
+          "Fehlermeldungen",
+          "Heizkörper entlüften"
         ]
       },
       {
-        "title": "Gartenpflege",
-        "text": "Regelmäßige Pflege hält den Garten in Form – Sie entscheiden, wie oft wir kommen.",
+        "title": "Gas- und Ölbrenner",
+        "text": "Service und Instandsetzung von Gas- und Ölbrennern, damit die Heizung sicher und sparsam arbeitet.",
         "items": [
-          "Saisonpflege",
-          "Unkraut entfernen",
-          "Laub räumen"
+          "Brennerservice",
+          "Einstellen",
+          "Instandsetzen"
         ]
       },
       {
-        "title": "Heckenschnitt",
-        "text": "Formschnitt für Hecken und Sträucher, damit sie dicht bleiben und nicht über den Zaun wachsen.",
+        "title": "Reparaturen",
+        "text": "Defekte Pumpen, Ventile oder Armaturen werden getauscht, bevor aus einem kleinen Schaden ein großer wird.",
         "items": [
-          "Formschnitt",
-          "Rückschnitt",
-          "Grünschnitt-Abfuhr"
+          "Pumpen",
+          "Ventile",
+          "Armaturen"
         ]
       },
       {
-        "title": "Rasenpflege",
-        "text": "Mähen, Vertikutieren und Nachsäen für einen dichten, belastbaren Rasen.",
+        "title": "Sanitärinstallation",
+        "text": "Leitungen, Anschlüsse und Sanitärobjekte – fachgerecht installiert vom eingetragenen Installateurbetrieb.",
         "items": [
-          "Mähen",
-          "Vertikutieren",
-          "Nachsaat"
+          "Wasserleitungen",
+          "Anschlüsse",
+          "Sanitärobjekte"
         ]
       },
       {
-        "title": "Bepflanzung",
-        "text": "Stauden, Sträucher und Gehölze, ausgewählt für Standort und Klima im Pfaffenwinkel.",
+        "title": "Heizungsbau",
+        "text": "Heizungsanlagen und Leitungen vom Heizungsbauer – die Details stimmen Sie vor Ort ab.",
         "items": [
-          "Stauden",
-          "Sträucher",
-          "Gehölze"
+          "Heizungsanlagen",
+          "Heizkörper",
+          "Rohrleitungen"
         ]
       },
       {
-        "title": "Landschaftsbau",
-        "text": "Flächen vorbereiten, Erde bewegen und Außenanlagen herrichten – als Grundlage für den neuen Garten.",
+        "title": "Wasser & Abfluss",
+        "text": "Tropfender Hahn, undichter Anschluss oder ein Spülkasten, der nachläuft: Kleine Sanitärschäden werden zügig behoben.",
         "items": [
-          "Flächen vorbereiten",
-          "Erdarbeiten",
-          "Außenanlagen"
+          "Undichtigkeiten",
+          "Spülkasten",
+          "Wasserhahn"
         ]
       }
     ],
     "why": {
-      "headline": "Gartenarbeit aus Polling – ohne lange Anfahrt.",
+      "headline": "Heizungsservice aus Aschheim – ohne Umwege.",
       "points": [
         {
-          "title": "Kurze Wege",
-          "text": "Von Polling aus sind Weilheim, Huglfing und Peißenberg schnell erreicht."
+          "title": "Vor Ort in Aschheim",
+          "text": "Der Betrieb sitzt am Johann-Wieser-Ring und ist schnell in Dornach, Feldkirchen und Kirchheim."
         },
         {
-          "title": "Ein Ansprechpartner",
-          "text": "Anfrage, Termin und Rückfragen laufen direkt über eine Handynummer."
+          "title": "Eingetragener Fachbetrieb",
+          "text": "Installateur und Heizungsbauer – eingetragen bei der Handwerkskammer für München und Oberbayern."
         },
         {
-          "title": "Bau und Pflege",
-          "text": "Wer den Garten anlegt, kann ihn danach auch pflegen – Sie brauchen keinen zweiten Betrieb."
+          "title": "Ausbildungsbetrieb",
+          "text": "Der Betrieb bildet aus und gibt sein Handwerk an den Nachwuchs weiter."
         },
         {
-          "title": "Fotos statt Termin",
-          "text": "Für eine erste Einschätzung reichen oft ein paar Bilder per WhatsApp."
+          "title": "Direkter Draht",
+          "text": "Sie sprechen mit dem Inhaber – per Anruf, WhatsApp oder E-Mail."
         }
       ]
     },
     "reviews": {
-      "headline": "Stimmen aus der Nachbarschaft",
-      "summary": "Kundenstimmen binden wir hier ein, sobald sie aus dem Google-Profil übernommen sind.",
+      "headline": "Was Kunden sagen",
+      "summary": "Kundenstimmen werden hier eingebunden, sobald sie aus dem Google-Profil übernommen sind.",
       "highlights": [
-        "Gartenpflege in Polling",
-        "Gestaltung und Bepflanzung",
-        "Direkter Kontakt"
+        "Heizung und Sanitär in Aschheim",
+        "Kundendienst und Reparatur",
+        "Gas- und Ölbrenner"
       ],
       "source": "Google",
-      "sourceUrl": "https://www.google.com/maps/search/?api=1&query=Araucaria%20Garten-%20und%20Landschaftsgestaltung%20Huglfinger%20Str.%205%20Polling",
+      "sourceUrl": "https://www.google.com/maps/search/?api=1&query=Heinrich%20Broda%20Sanit%C3%A4r%20Heizung%20Johann-Wieser-Ring%2017%20Aschheim",
       "rating": null,
       "count": null
     },
     "process": {
-      "headline": "So kommt Ihr Garten in Form",
+      "headline": "So läuft Ihr Kundendienst ab",
       "steps": [
         {
-          "title": "Fotos schicken",
-          "text": "Sie senden Bilder vom Garten und beschreiben kurz, was gemacht werden soll."
+          "title": "Melden",
+          "text": "Anrufen oder per WhatsApp schreiben – am besten mit Foto von Typenschild oder Fehlermeldung."
         },
         {
-          "title": "Vor-Ort-Termin",
-          "text": "Wir sehen uns Fläche, Boden und Bewuchs an und besprechen Ihre Wünsche."
+          "title": "Termin",
+          "text": "Ein Termin vor Ort wird mit Ihnen abgestimmt."
         },
         {
-          "title": "Angebot",
-          "text": "Sie bekommen ein klares Angebot – einmalig oder als laufende Pflege."
+          "title": "Prüfen",
+          "text": "Die Anlage wird geprüft und Sie erfahren, was zu tun ist."
         },
         {
-          "title": "Umsetzung",
-          "text": "Wir legen an oder pflegen und nehmen den Grünschnitt nach Absprache mit."
+          "title": "Beheben",
+          "text": "Reparatur oder Service wird ausgeführt und die Anlage wieder übergeben."
         }
       ]
     },
     "gallery": {
-      "headline": "Gärten aus der Region",
-      "text": "In der Live-Version zeigen wir hier echte Projekte des Betriebs.",
+      "headline": "Aus dem Arbeitsalltag",
+      "text": "Für die Live-Version zeigen wir hier echte Einsätze des Betriebs.",
       "items": [
         {
-          "title": "Neues Staudenbeet",
-          "photoNeeded": "frisch angelegtes Beet mit Stauden und Mulch"
+          "title": "Heizungsraum",
+          "photoNeeded": "aufgeräumter Heizungsraum mit Kessel"
         },
         {
-          "title": "Hecke in Form",
-          "photoNeeded": "Hecke vor und nach dem Formschnitt"
+          "title": "Brennerservice",
+          "photoNeeded": "geöffneter Gas- oder Ölbrenner bei der Wartung"
         },
         {
-          "title": "Rasenfläche",
-          "photoNeeded": "dichter, frisch gemähter Rasen am Einfamilienhaus"
+          "title": "Rohrleitungen",
+          "photoNeeded": "neu verlegte Kupferleitungen am Verteiler"
         },
         {
-          "title": "Gartenumbau",
-          "photoNeeded": "umgestalteter Garten mit Weg und Bepflanzung"
+          "title": "Bad-Anschluss",
+          "photoNeeded": "montierte Armatur an Waschtisch oder Dusche"
         },
         {
-          "title": "Herbstpflege",
-          "photoNeeded": "geräumter Garten nach Laub- und Rückschnitt"
+          "title": "Heizkörper",
+          "photoNeeded": "neu montierter Heizkörper mit Thermostatventil"
         }
       ]
     },
     "region": {
-      "headline": "Gartenpflege für Polling und den Pfaffenwinkel",
-      "text": "Von Polling aus arbeiten wir in Weilheim, Huglfing, Oderding, Etting, Peißenberg und Wielenbach.",
+      "headline": "Sanitär & Heizung für Aschheim und den Münchner Osten",
+      "text": "Von Aschheim aus schnell in Dornach, Feldkirchen, Kirchheim, Heimstetten, Ismaning und Unterföhring.",
       "places": [
-        "Polling",
-        "Weilheim",
-        "Huglfing",
-        "Oderding",
-        "Etting",
-        "Peißenberg",
-        "Wielenbach"
+        "Aschheim",
+        "Dornach",
+        "Feldkirchen",
+        "Kirchheim",
+        "Heimstetten",
+        "Ismaning",
+        "Unterföhring"
       ]
     },
     "faq": [
       {
-        "q": "Übernehmen Sie auch regelmäßige Gartenpflege?",
-        "a": "Ja, Gartenpflege gehört zum Angebot. Wie oft wir kommen, stimmen wir mit Ihnen ab."
+        "q": "Meine Heizung zeigt eine Störung – was soll ich schicken?",
+        "a": "Ein Foto vom Typenschild und von der Fehlermeldung hilft bei der ersten Einschätzung."
       },
       {
-        "q": "Kann ich vorab Fotos schicken?",
-        "a": "Ja, Fotos per WhatsApp helfen für eine erste Einschätzung."
+        "q": "Warten Sie auch Ölbrenner?",
+        "a": "Ja, Gas- und Ölbrenner gehören zu den Leistungen des Betriebs."
       },
       {
-        "q": "Legen Sie auch neue Gärten an?",
-        "a": "Ja, Garten- und Landschaftsbau sowie Gartengestaltung gehören zum Angebot."
+        "q": "Übernehmen Sie auch kleine Reparaturen?",
+        "a": "Ja, auch kleinere Sanitär- und Heizungsreparaturen – fragen Sie einfach an."
       },
       {
-        "q": "In welchen Orten arbeiten Sie?",
-        "a": "Vor allem in Polling, Weilheim, Huglfing und Umgebung – fragen Sie einfach an."
+        "q": "In welchen Orten sind Sie unterwegs?",
+        "a": "In Aschheim und Umgebung, etwa Dornach, Feldkirchen, Kirchheim und Ismaning."
       },
       {
-        "q": "Was kostet die Gartenpflege?",
-        "a": "Das hängt von Fläche und Aufwand ab. Nach Fotos oder Besichtigung erhalten Sie ein Angebot."
+        "q": "Wie erreiche ich Sie am schnellsten?",
+        "a": "Am schnellsten per Anruf oder WhatsApp auf dem Handy."
       }
     ],
     "contact": {
-      "headline": "Ihr Garten – kostenlos anfragen",
-      "text": "Schreiben Sie kurz, um welchen Garten es geht, wie groß er ungefähr ist und ob Neuanlage oder Pflege. Fotos helfen.",
+      "headline": "Kundendienst oder Reparatur anfragen",
+      "text": "Beschreiben Sie kurz das Problem: Heizung, Brenner oder Sanitär, Gerätetyp und seit wann. Fotos helfen.",
       "topics": [
-        "Gartengestaltung",
-        "Gartenpflege",
-        "Heckenschnitt",
-        "Rasenpflege",
+        "Heizungsstörung",
+        "Brennerservice",
+        "Reparatur",
+        "Sanitär",
         "Sonstiges"
       ],
-      "responseNote": "Besichtigung nach Absprache."
+      "responseNote": "Termin nach Absprache."
     },
     "quote": {
-      "sizeLabel": "Wie groß ist der Garten?",
+      "sizeLabel": "Worum geht es?",
       "sizes": [
-        "Kleiner Garten",
-        "Reihenhausgarten",
-        "Einfamilienhaus-Garten",
-        "Großes Grundstück"
+        "Heizungsstörung",
+        "Brennerservice",
+        "Sanitär-Reparatur",
+        "Neue Installation"
       ],
       "timings": [
-        "So bald wie möglich",
+        "Dringend",
+        "In den nächsten Tagen",
         "In den nächsten Wochen",
-        "Zum Frühjahr",
         "Ich plane erst noch"
       ]
     },
-    "stickyCta": "Garten anfragen",
+    "stickyCta": "Kundendienst anfragen",
     "look": {
-      "palette": 2,
-      "font": 6,
-      "hero": 0,
+      "skin": "kante",
+      "palette": 3,
+      "font": 13,
+      "hero": 1,
       "services": 1,
-      "radius": 1,
-      "logo": 0,
-      "intro": 5
+      "radius": 0,
+      "logo": 1,
+      "intro": 2,
+      "projects": 0,
+      "process": 1,
+      "faq": 1,
+      "reviews": 1,
+      "order": 1
     }
   }
 }

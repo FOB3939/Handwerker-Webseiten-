@@ -1,114 +1,127 @@
 {
   "id": "2026-11-01-193",
-  "slug": "mt-stone-prittriching",
+  "slug": "der-hausfreund-thomas-haeussrer-peiting",
   "date": "2026-11-01",
   "company": {
-    "name": "MT-Stone",
-    "owner": null,
-    "trade": "Fliesenleger",
-    "city": "Prittriching",
-    "address": "Ringstr. 2, 86931 Prittriching (Winkl)",
-    "phone": "0173 3669438",
-    "email": "mt-stone@t-online.de",
+    "name": "Thomas Häußrer – Der Hausfreund",
+    "owner": "Thomas Häußrer",
+    "trade": "Heizung & Sanitär (Kundendienst)",
+    "city": "Peiting",
+    "address": "Hohenbrand 26, 86971 Peiting",
+    "phone": "08805 9219180",
+    "email": null,
     "serviceArea": [
-      "Prittriching",
-      "Winkl",
-      "Scheuring",
-      "Kaufering",
-      "Mering",
-      "Königsbrunn"
+      "Peiting",
+      "Schongau",
+      "Altenstadt",
+      "Hohenpeißenberg",
+      "Rottenbuch",
+      "Böbing",
+      "Peißenberg"
     ]
   },
   "listings": {
     "google": {
-      "url": "https://www.google.com/maps/search/?api=1&query=MT-Stone%20Ringstr.%202%20Prittriching",
+      "url": "https://www.google.com/maps/search/?api=1&query=Thomas%20H%C3%A4u%C3%9Frer%20Der%20Hausfreund%20Hohenbrand%2026%20Peiting",
       "rating": null,
       "reviews": null,
-      "evidence": "Kein Google-Spiegel gefunden – Google-Eintrag nicht belegt. Freemail-Adresse mt-stone@t-online.de öffentlich im 11880-Eintrag (Laminat- und Fliesenleger, Ringstr. 2, 86931 Prittriching-Winkl, 0173 3669438). 11880 zeigt 5/5 aus 1 Bewertung (11880, nicht Google). In Maps prüfen."
+      "evidence": "INDIREKT (Spiegel, schwach) – eine firmania.de-Suche (Google-Daten-Spiegel) zeigte im Snippet „Der Hausfreund Reparaturservice u. Kundendienst Heizung-Sanitär-Sanierung“ von Häußrer Thomas, Hohenbrand, 86971 Peiting (Hausnummer dort 35-36 statt 26); eine direkte Profil-URL lag im Ergebnis nicht vor. Kein Website-Feld, keine Bewertungszahl. Kein direkter google.com/maps-Treffer – in Maps prüfen."
     },
     "myhammer": {
-      "url": "https://www.11880.com/suche/laminatleger/igling",
+      "url": "https://www.11880.com/branchenbuch/peiting/060692320B3716799/thomas-haeussrer-der-hausfreund-reparaturservice-u-kundendienst-heizung-sanitaer-sanierung.html",
       "rating": null,
       "reviews": null,
-      "evidence": "Kein MyHammer gefunden – Einträge in 11880-Ortslisten (Laminatleger/Fliesen Umkreis Prittriching, Igling, Reichling) und im Gelbe-Seiten-Ortsindex Prittriching."
+      "evidence": "Kein MyHammer gefunden – 11880-Eintrag „Thomas Häußrer Der Hausfreund Reparaturservice u. Kundendienst Heizung-Sanitär-Sanierung“, Hohenbrand 26, Peiting (noch keine Bewertungen, aktualisiert 07/2024), außerdem klicktel, infobel, bundes-telefonbuch (Eintrag seit 12.03.2026)."
     }
   },
   "websiteStatus": "keine eigene Website gefunden",
   "websiteChecks": [
-    "(1) „MT-Stone Prittriching Winkl Fliesen“ mit blocked_domains (11880, Gelbe Seiten, Das Örtliche, Telefonbuch, Cylex, meinestadt, Creditreform, Facebook, Instagram, golocal, MyHammer, Northdata, Firmenwissen, WKDB, Yelp, trustlocal, wlw) – keine Treffer zum Betrieb; nur andere Fliesenleger (Obendorfer, Spöttl) und gleichnamige fremde Firmen (M-Stone Erkelenz, Mountain Stone USA)",
-    "(2) Verzeichnis-Suche „MT-Stone Prittriching Ringstr. 2“ (11880, Das Örtliche, Gelbe Seiten, rgv-bayern, trustlocal, firmania) – 11880 mit t-online-Adresse, kein Website-Feld",
-    "(3) Domain-Check allowed_domains mt-stone.de, mtstone.de, mt-stone-fliesen.de, mt-stone.com, mt-stone-prittriching.de, mtstone-fliesen.de, mt-stone.eu, mt-stone.info – keine Treffer",
-    "(4) Telefon-/E-Mail-Suche „0173 3669438“/„01733669438“/„mt-stone@t-online.de“ mit blocked_domains – nur Rufnummernblock-Liste (Vodafone), keine Website",
-    "(5) Impressum-Suche entfällt – Inhaber nirgends genannt, kein Impressum gefunden",
-    "Website-Risiko: niedrig – alle Prüfungen negativ, Freemail (t-online) öffentlich belegt"
+    "(1) „Haustechnik Thomas Häußrer Der Hausfreund Peiting“ mit blocked_domains (11880, Gelbe Seiten, Das Örtliche, Telefonbuch, Cylex, meinestadt, Creditreform, Facebook, Instagram, golocal, MyHammer, Northdata, Firmenwissen, WKDB, Yelp, trustlocal, wlw) – nur Verzeichnisse (infobel, bundes-telefonbuch, klicktel, gartenbau.org); keine eigene Domain",
+    "(2) Domain-Check allowed_domains der-hausfreund.de, derhausfreund.de, hausfreund-peiting.de, hausfreund-haustechnik.de, haeussrer.de, haeussrer-peiting.de, haustechnik-haeussrer.de, haeussrer-haustechnik.de – keine Treffer",
+    "(3) Telefonsuche „08805 9219180“/„088059219180“ (ohne große Verzeichnisse) – nur gartenbau.org-Eintrag „Thomas Häußrer Serviceleistungen“ (gleiche Nummer, Fax 08805 9219181) und Vorwahl-Seiten; keine Website",
+    "(4) Impressum-Suche „Impressum Thomas Häußrer Hohenbrand Peiting“ – kein eigenes Impressum, nur Verzeichnisse; ältere Adresse Hauptplatz 18 Peiting (fischundfang.de, 2010)",
+    "(5) Google-Spiegel-Suche (trustlocal, firmania, rgv-bayern, yably) – nur firmania-Snippet ohne Website-Feld; keine Freemail gefunden",
+    "Website-Risiko: mittel – alle Prüfungen negativ, Google-Eintrag nur schwach über einen Spiegel-Snippet belegt, keine Freemail"
   ],
   "facts": {
     "services": [
-      "Fliesenlegen",
-      "Laminat verlegen"
+      "Heizungsinstallation",
+      "Kundendienst Heizung und Sanitär",
+      "Brennerkundendienst",
+      "Reparaturservice",
+      "Sanierung"
     ],
     "experience": null,
     "praisedFor": []
   },
   "strategy": {
-    "audience": "Hausbesitzer und Bauherren in Prittriching, Scheuring, Kaufering und Mering, die Bad, Küche oder Wohnräume neu fliesen oder Böden verlegen lassen",
-    "mainService": "Fliesen- und Bodenverlegung",
-    "trustSignal": "Kleiner Betrieb in Prittriching-Winkl, direkt per Handy erreichbar",
-    "conversionGoal": "Kostenloses Angebot anfragen (Fotos und Maße per WhatsApp)",
-    "visualConcept": "Steinoptik und klare Fugenbilder: großformatige Fliesen, Natursteinstruktur, ruhige Grautöne"
+    "audience": "Hausbesitzer und Vermieter in Peiting, Schongau, Altenstadt und Hohenpeißenberg, deren Heizung gewartet, repariert oder deren Bad und Leitungen saniert werden sollen",
+    "mainService": "Kundendienst und Reparatur für Heizung und Sanitär",
+    "trustSignal": "Inhaber Thomas Häußrer persönlich, Betrieb in Peiting-Hohenbrand",
+    "conversionGoal": "Kundendienst- oder Reparaturtermin anfragen (Anruf oder Formular mit Foto vom Typenschild)",
+    "visualConcept": "Heizungskeller mit sauber verlegten Kupferrohren, Brenner mit offenem Gehäuse, Werkzeugkoffer – handfest, ordentlich, nahbar"
   },
   "sales": {
-    "score": 5,
+    "score": 4,
     "whyGoodLead": [
       "Keine eigene Website gefunden – nur Verzeichniseinträge",
-      "Mobilnummer und t-online-Adresse öffentlich",
-      "Kaum Sichtbarkeit (1 Bewertung bei 11880) – eine Website hebt den Betrieb von größeren Fliesenlegern ab",
-      "Fliesen- und Bodenarbeiten werden im Lkr. Landsberg viel online angefragt"
+      "Kundendienst-Betrieb: Notfall- und Wartungsanfragen kommen oft über die Online-Suche",
+      "Einprägsamer Name „Der Hausfreund“ eignet sich gut als Marke für eine Website",
+      "Heizung/Sanitär ist im heutigen Lauf ein seltenes Gewerk"
     ],
-    "pitch": "Hallo, hier ist … – ich baue Websites für Handwerker im Landkreis Landsberg. Ich habe Ihren Eintrag „MT-Stone“ in Prittriching gefunden, aber keine eigene Website. Ich habe unverbindlich einen Entwurf vorbereitet, auf dem Kunden Ihre Fliesen- und Bodenarbeiten sehen und direkt per WhatsApp anfragen können – darf ich Ihnen den Link schicken?"
+    "pitch": "Grüß Gott Herr Häußrer, hier ist … – ich baue Websites für Handwerker im Landkreis Weilheim-Schongau. Ich habe Ihren Eintrag „Der Hausfreund“ in Peiting gefunden, aber keine eigene Website. Ich habe unverbindlich einen Entwurf vorbereitet, über den Kunden Ihren Heizungs- und Sanitär-Kundendienst finden und direkt einen Termin anfragen können – darf ich Ihnen den Link schicken?"
   },
   "manualChecks": [
-    "Website-Risiko: niedrig – vor Versand in Google Maps prüfen, dass keine Website hinterlegt ist (Grund: Google-Eintrag nicht über Spiegel belegt, nur Freemail und Verzeichnisse)",
-    "Google-Eintrag in Maps suchen; die 5/5 aus 1 Bewertung stammt von 11880, nicht von Google",
-    "Inhabername unbekannt – beim Erstkontakt erfragen, Anrede neutral halten",
-    "Adresse Ringstr. 2 teilt sich der Betrieb laut Verzeichnis mit Hirundo Gesundheitsprodukte UG (andere Firma) – nicht verwechseln",
-    "Leistungen nur über Verzeichniskategorien belegt (Fliesenleger, Laminatleger) – Naturstein, Bad, Großformat beim Betrieb bestätigen (Name „Stone“ deutet darauf hin, ist aber nicht belegt)",
+    "Website-Risiko: mittel – vor Versand in Google Maps prüfen, dass keine Website hinterlegt ist (Grund: Google-Eintrag nur über einen firmania-Snippet belegt, ohne Profil-URL)",
+    "Google-Eintrag in Maps bestätigen (Existenz, Bewertungen, Hausnummer 26 vs. 35-36)",
+    "Telefon: 08805 9219180 (Festnetz, keine Mobilnummer belegt); infobel/Peiting-Listen nennen zusätzlich (08805) 359 – aktuelle Nummer klären",
+    "Gleiche Adresse/Nummer auch als „Thomas Häußrer Serviceleistungen“ (Gartengestaltung, Baumpflege laut gartenbau.org) – klären, ob Gartenleistungen mit auf die Seite sollen",
+    "Leistungen nur grob belegt (Heizungsinstallation, Kundendienst Heizung/Sanitär, Brennerkundendienst, Reparatur, Sanierung) – Wärmepumpe, Badsanierung, Notdienst nicht belegt, beim Betrieb bestätigen",
+    "Meistertitel, Gründungsjahr, Team: nicht belegt – nicht verwenden",
     "Logo und Projektfotos: nicht gefunden – beim Betrieb anfragen"
   ],
   "sources": [
     {
-      "label": "11880 – Laminatleger Igling (Umkreisliste mit MT-Stone)",
-      "url": "https://www.11880.com/suche/laminatleger/igling"
+      "label": "11880 – Thomas Häußrer Der Hausfreund, Peiting",
+      "url": "https://www.11880.com/branchenbuch/peiting/060692320B3716799/thomas-haeussrer-der-hausfreund-reparaturservice-u-kundendienst-heizung-sanitaer-sanierung.html"
     },
     {
-      "label": "11880 – Laminatleger Reichling (Umkreisliste)",
-      "url": "https://www.11880.com/suche/laminatleger/reichling"
+      "label": "11880 – Heizungsinstallationen Peiting (Ortsliste)",
+      "url": "https://www.11880.com/suche/heizungsinstallation/peiting"
     },
     {
-      "label": "Gelbe Seiten – Branchen in Prittriching",
-      "url": "https://www.gelbeseiten.de/branchenbuch/staedte/bayern/landsberg%20a%20lech/prittriching"
+      "label": "klicktel – Häußrer Thomas Der Hausfreund",
+      "url": "http://www.klicktel.de/branchenbuch/peiting/060692320B3716798/haeussrer-thomas-der-hausfreund-reparaturservice-u-kundendienst-heizung-sanitaer-sanierung.html"
     },
     {
-      "label": "11880 – Fliesen Blesch (Umkreisanbieter mit MT-Stone)",
-      "url": "https://www.11880.com/branchenbuch/weil-kreis-landsberg-am-lech/060691660B110334105/fliesen-blesch.html"
+      "label": "infobel – Häußrer Thomas, Der Hausfreund",
+      "url": "https://www.infobel.com/de/germany/haussrer_thomas_der_hausfreund_heizung_sanitar_brennerkundendienst/peiting/DE102757196-08805359/businessdetails.aspx"
+    },
+    {
+      "label": "bundes-telefonbuch – Der Hausfreund, Peiting",
+      "url": "https://www.bundes-telefonbuch.de/peiting/firma/thomas-haeussrer-u-heizung-sanitaer-brennerkundendienst-der-hausfreund-bvg061629424"
+    },
+    {
+      "label": "gartenbau.org – Thomas Häußrer Serviceleistungen (gleiche Adresse/Nummer)",
+      "url": "https://www.gartenbau.org/peiting/thomas-haeussrer-serviceleistungen-aUMcq9"
     }
   ],
   "site": {
-    "theme": "stein",
+    "theme": "aqua",
     "category": "handwerk",
     "heroOffer": [
-      "Bodenfliesen",
-      "Wandfliesen",
-      "Badfliesen",
-      "Laminat",
-      "Fliesenreparatur"
+      "Heizungswartung",
+      "Brennerservice",
+      "Reparaturen",
+      "Sanitär",
+      "Sanierung"
     ],
     "scene": "bath",
-    "logoIcon": "trowel",
-    "logoMark": "MT",
-    "brandName": "MT-Stone",
-    "seoTitle": "Fliesenleger in Prittriching – MT-Stone",
-    "seoDescription": "Fliesen und Laminat verlegen in Prittriching, Scheuring, Kaufering und Mering. Jetzt kostenloses Angebot anfragen – auch per WhatsApp.",
+    "logoIcon": "drop",
+    "logoMark": "DH",
+    "brandName": "Der Hausfreund",
+    "seoTitle": "Heizung & Sanitär Kundendienst in Peiting – Der Hausfreund",
+    "seoDescription": "Heizungsinstallation, Brennerkundendienst und Reparaturen für Heizung und Sanitär in Peiting, Schongau und Umgebung. Jetzt Termin anfragen.",
     "nav": [
       {
         "label": "Leistungen",
@@ -136,132 +149,132 @@
       }
     ],
     "hero": {
-      "eyebrow": "Fliesen & Böden · Prittriching",
-      "headline": "Fliesenleger in Prittriching",
-      "sub": "Fliesen und Laminat verlegt – für Bad, Küche und Wohnräume im Lechfeld.",
-      "ctaPrimary": "Kostenloses Angebot anfragen",
+      "eyebrow": "Heizung & Sanitär · Peiting",
+      "headline": "Heizungs-Kundendienst in Peiting",
+      "sub": "Wartung, Reparatur und Sanierung von Heizung und Sanitär – vom Hausfreund aus Hohenbrand.",
+      "ctaPrimary": "Termin anfragen",
       "ctaSecondary": "Anrufen",
       "bullets": [
-        "Betrieb in Prittriching-Winkl",
-        "Fliesen und Laminat",
-        "Direkt per Handy erreichbar"
+        "Brennerkundendienst und Wartung",
+        "Reparaturen an Heizung und Sanitär",
+        "Inhaber Thomas Häußrer"
       ],
-      "imageLabel": "frisch verlegter Fliesenboden in Steinoptik"
+      "imageLabel": "Heizungskeller mit Brenner und sauber verlegten Kupferrohren"
     },
     "badges": [
       {
-        "title": "Fliesen",
-        "sub": "Boden & Wand"
+        "title": "Heizung",
+        "sub": "Installation & Wartung"
       },
       {
-        "title": "Laminat",
-        "sub": "für Wohnräume"
+        "title": "Brenner",
+        "sub": "Kundendienst"
       },
       {
-        "title": "Bad & Küche",
-        "sub": "neu gefliest"
+        "title": "Sanitär",
+        "sub": "Reparatur & Sanierung"
       },
       {
-        "title": "Prittriching",
-        "sub": "Ortsteil Winkl"
+        "title": "Peiting",
+        "sub": "Hohenbrand"
       }
     ],
     "trust": [
       {
+        "value": "Inhaber",
+        "label": "Thomas Häußrer persönlich"
+      },
+      {
         "value": "Vor Ort",
-        "label": "Betrieb in Prittriching"
+        "label": "Betrieb in Peiting"
       },
       {
-        "value": "2",
-        "label": "Bodenarten: Fliese & Laminat"
+        "value": "5",
+        "label": "Leistungsbereiche"
       },
       {
-        "value": "Innen",
-        "label": "Bad, Küche, Wohnraum"
-      },
-      {
-        "value": "Mobil",
-        "label": "schnell erreichbar"
+        "value": "Direkt",
+        "label": "ohne Callcenter"
       }
     ],
     "servicesIntro": {
-      "headline": "Fliesen und Böden aus einer Hand",
-      "text": "Wer Bad und Flur fliesen und das Wohnzimmer mit Laminat belegen will, braucht dafür nur einen Betrieb."
+      "headline": "Wenn Heizung oder Wasser streiken",
+      "text": "Der Hausfreund kümmert sich um Brenner, Heizungsanlage und Sanitär – von der jährlichen Wartung bis zur Sanierung alter Leitungen."
     },
     "services": [
       {
-        "title": "Bodenfliesen",
-        "text": "Fliesenböden für Flur, Küche und Wohnräume – eben verlegt und sauber verfugt.",
+        "title": "Heizungswartung",
+        "text": "Regelmäßige Wartung hält die Anlage effizient und beugt Ausfällen im Winter vor.",
         "items": [
-          "Flur",
-          "Küche",
-          "Wohnraum"
+          "Jährliche Wartung",
+          "Einstellung",
+          "Funktionsprüfung"
         ]
       },
       {
-        "title": "Wandfliesen",
-        "text": "Wandflächen in Bad und Küche mit Fliesen, die Spritzwasser und Alltag standhalten.",
+        "title": "Brennerkundendienst",
+        "text": "Brenner werden gereinigt, eingestellt und bei Störungen wieder in Gang gebracht.",
         "items": [
-          "Bad",
-          "Küchenrückwand",
-          "Sockel"
+          "Reinigung",
+          "Störungssuche",
+          "Einstellen"
         ]
       },
       {
-        "title": "Bad fliesen",
-        "text": "Boden und Wände im Bad neu gefliest – bei Sanierung oder Neubau.",
+        "title": "Heizungsreparatur",
+        "text": "Fällt die Heizung aus oder wird nicht mehr richtig warm, sucht der Kundendienst die Ursache und behebt sie.",
         "items": [
-          "Badsanierung",
-          "Dusche",
-          "Bodenfliesen"
+          "Störungen",
+          "Defekte Teile",
+          "Pumpen & Ventile"
         ]
       },
       {
-        "title": "Laminat verlegen",
-        "text": "Laminat für Wohn-, Schlaf- und Kinderzimmer, inklusive passender Sockelleisten.",
+        "title": "Heizungsinstallation",
+        "text": "Neue Heizkörper, Leitungen oder ein Anlagentausch – sauber eingebaut und angeschlossen.",
         "items": [
-          "Wohnräume",
-          "Sockelleisten",
-          "Übergänge"
+          "Heizkörper",
+          "Leitungen",
+          "Anlagentausch"
         ]
       },
       {
-        "title": "Alten Belag erneuern",
-        "text": "Alte Fliesen oder Böden raus, neuer Belag rein – für Räume, die wieder frisch aussehen.",
+        "title": "Sanitär-Reparatur",
+        "text": "Tropfende Armaturen, undichte Anschlüsse oder verstopfte Abflüsse werden schnell repariert.",
         "items": [
-          "Rückbau",
-          "Untergrund vorbereiten",
-          "Neuverlegung"
+          "Armaturen",
+          "Anschlüsse",
+          "Abflüsse"
         ]
       },
       {
-        "title": "Fliesen ausbessern",
-        "text": "Einzelne gesprungene Fliesen oder brüchige Fugen gezielt ersetzen.",
+        "title": "Sanierung",
+        "text": "Alte Leitungen und Installationen werden erneuert, damit Haus und Bad wieder zuverlässig funktionieren.",
         "items": [
-          "Fliesentausch",
-          "Fugen erneuern",
-          "Silikonfugen"
+          "Leitungen erneuern",
+          "Altbau",
+          "Bad & Küche"
         ]
       }
     ],
     "why": {
-      "headline": "Fliesen und Böden aus Prittriching – ohne Umwege.",
+      "headline": "Ein Ansprechpartner für Heizung und Wasser in Peiting.",
       "points": [
         {
           "title": "Kurze Wege",
-          "text": "Von Winkl aus schnell in Scheuring, Kaufering, Mering und Königsbrunn."
+          "text": "Von Hohenbrand aus schnell in Peiting, Schongau, Altenstadt und Hohenpeißenberg."
         },
         {
-          "title": "Direkter Kontakt",
-          "text": "Ein Anruf oder eine WhatsApp-Nachricht mit Fotos genügt für die erste Einschätzung."
+          "title": "Persönlich",
+          "text": "Sie sprechen direkt mit Inhaber Thomas Häußrer."
         },
         {
-          "title": "Fliese und Laminat",
-          "text": "Bad fliesen und Wohnräume mit Laminat belegen – in einem Auftrag."
+          "title": "Wartung & Reparatur",
+          "text": "Ein Betrieb für die regelmäßige Pflege und den Notfall."
         },
         {
-          "title": "Klare Absprachen",
-          "text": "Material, Verlegeart und Termin werden vorab gemeinsam festgelegt."
+          "title": "Heizung + Sanitär",
+          "text": "Brenner, Heizkörper, Armaturen und Leitungen in einer Hand."
         }
       ]
     },
@@ -269,133 +282,140 @@
       "headline": "Was Kunden sagen",
       "summary": "Kundenstimmen werden hier eingebunden, sobald sie aus dem Google-Profil übernommen sind.",
       "highlights": [
-        "Fliesen in Prittriching",
-        "Laminat verlegen",
+        "Kundendienst in Peiting",
+        "Heizung und Sanitär",
         "Direkter Kontakt"
       ],
       "source": "Google",
-      "sourceUrl": "https://www.google.com/maps/search/?api=1&query=MT-Stone%20Ringstr.%202%20Prittriching",
+      "sourceUrl": "https://www.google.com/maps/search/?api=1&query=Thomas%20H%C3%A4u%C3%9Frer%20Der%20Hausfreund%20Hohenbrand%2026%20Peiting",
       "rating": null,
       "count": null
     },
     "process": {
-      "headline": "Vom Foto zum fertigen Boden",
+      "headline": "So läuft Ihr Kundendienst ab",
       "steps": [
         {
-          "title": "Anfrage",
-          "text": "Fotos und ungefähre Quadratmeter per WhatsApp schicken – oder kurz anrufen."
+          "title": "Anruf",
+          "text": "Kurz schildern, was nicht funktioniert – oder ein Foto vom Typenschild schicken."
         },
         {
-          "title": "Aufmaß",
-          "text": "Untergrund, Maße und Wunschmaterial werden vor Ort angeschaut."
+          "title": "Termin",
+          "text": "Ein Termin wird vereinbart, bei Ausfall möglichst zeitnah."
         },
         {
-          "title": "Angebot",
-          "text": "Sie erhalten ein klares Angebot für Material und Verlegung."
+          "title": "Vor Ort",
+          "text": "Anlage prüfen, Ursache finden, Lösung und Kosten besprechen."
         },
         {
-          "title": "Verlegung",
-          "text": "Vorbereiten, verlegen, verfugen – der Raum wird besenrein übergeben."
+          "title": "Erledigt",
+          "text": "Reparatur oder Wartung ausführen und die Anlage wieder übergeben."
         }
       ]
     },
     "gallery": {
-      "headline": "Böden und Wände, die neu entstehen",
-      "text": "Für die Live-Version zeigen wir hier echte Projekte des Betriebs.",
+      "headline": "Aus dem Heizungskeller",
+      "text": "Für die Live-Version zeigen wir hier echte Arbeiten des Betriebs.",
       "items": [
         {
-          "title": "Neues Bad",
-          "photoNeeded": "frisch gefliestes Bad mit bodengleicher Dusche"
+          "title": "Brennerwartung",
+          "photoNeeded": "geöffneter Brenner bei der Reinigung"
         },
         {
-          "title": "Fliesenboden",
-          "photoNeeded": "großformatige Bodenfliesen in Steinoptik im Flur"
+          "title": "Heizungsanlage",
+          "photoNeeded": "aufgeräumter Heizungsraum nach der Wartung"
         },
         {
-          "title": "Küchenrückwand",
-          "photoNeeded": "geflieste Küchenrückwand über der Arbeitsplatte"
+          "title": "Neue Heizkörper",
+          "photoNeeded": "frisch montierter Heizkörper mit Thermostat"
         },
         {
-          "title": "Laminat",
-          "photoNeeded": "neu verlegtes Laminat im Wohnzimmer mit Sockelleiste"
+          "title": "Leitungssanierung",
+          "photoNeeded": "neu verlegte Rohrleitungen im Altbau"
         },
         {
-          "title": "Fugenbild",
-          "photoNeeded": "Nahaufnahme sauber verfugter Fliesen"
+          "title": "Armatur getauscht",
+          "photoNeeded": "neue Armatur im Bad"
         }
       ]
     },
     "region": {
-      "headline": "Fliesenleger für Prittriching und das Lechfeld",
-      "text": "Von Prittriching-Winkl aus schnell in Scheuring, Kaufering, Mering und Königsbrunn.",
+      "headline": "Kundendienst für Peiting und den Pfaffenwinkel",
+      "text": "Von Peiting-Hohenbrand aus nach Schongau, Altenstadt, Hohenpeißenberg, Rottenbuch, Böbing und Peißenberg.",
       "places": [
-        "Prittriching",
-        "Winkl",
-        "Scheuring",
-        "Kaufering",
-        "Mering",
-        "Königsbrunn"
+        "Peiting",
+        "Schongau",
+        "Altenstadt",
+        "Hohenpeißenberg",
+        "Rottenbuch",
+        "Böbing",
+        "Peißenberg"
       ]
     },
     "faq": [
       {
-        "q": "Verlegen Sie Fliesen und Laminat?",
-        "a": "Ja, beides gehört zum Angebot – für Bad, Küche und Wohnräume."
+        "q": "Wie oft sollte die Heizung gewartet werden?",
+        "a": "Üblich ist eine Wartung einmal im Jahr, am besten vor der Heizsaison."
       },
       {
-        "q": "Kann ich vorab Fotos schicken?",
-        "a": "Ja, Fotos und grobe Maße per WhatsApp helfen für eine erste Einschätzung."
+        "q": "Kommen Sie auch bei einem Heizungsausfall?",
+        "a": "Ja, rufen Sie an und schildern Sie die Störung – ein Termin wird so schnell wie möglich vereinbart."
       },
       {
-        "q": "Wie lange dauert ein neues Bad?",
-        "a": "Das hängt von Größe und Untergrund ab. Einen Zeitplan gibt es nach dem Aufmaß."
+        "q": "Welche Angaben helfen vorab?",
+        "a": "Hersteller und Typ der Anlage, am einfachsten ein Foto vom Typenschild, und eine kurze Beschreibung des Problems."
       },
       {
-        "q": "Werden alte Fliesen entfernt?",
-        "a": "Ob Rückbau nötig ist, klären wir vor Ort. Den Umfang nennt das Angebot."
+        "q": "Übernehmen Sie auch Sanitärreparaturen?",
+        "a": "Ja, Reparaturen und Sanierungen im Sanitärbereich gehören zum Kundendienst."
       },
       {
-        "q": "Arbeiten Sie auch außerhalb von Prittriching?",
-        "a": "Ja, im Umkreis von Prittriching – fragen Sie einfach an."
+        "q": "In welchen Orten sind Sie unterwegs?",
+        "a": "In Peiting und Umgebung, etwa Schongau, Altenstadt und Hohenpeißenberg – fragen Sie einfach an."
       }
     ],
     "contact": {
-      "headline": "Ihr Angebot – kostenlos und unverbindlich",
-      "text": "Beschreiben Sie kurz Raum, ungefähre Fläche und ob Fliesen oder Laminat. Fotos helfen.",
+      "headline": "Termin für Heizung oder Sanitär anfragen",
+      "text": "Beschreiben Sie kurz das Problem oder den Wunsch: Wartung, Störung, Reparatur oder Sanierung. Ein Foto vom Typenschild hilft.",
       "topics": [
-        "Bodenfliesen",
-        "Wandfliesen",
-        "Bad fliesen",
-        "Laminat verlegen",
-        "Fliesen ausbessern",
+        "Heizungswartung",
+        "Störung / Reparatur",
+        "Brennerkundendienst",
+        "Sanitär",
+        "Sanierung",
         "Sonstiges"
       ],
-      "responseNote": "Aufmaß nach Absprache."
+      "responseNote": "Rückmeldung nach Absprache."
     },
     "quote": {
-      "sizeLabel": "Wie groß ist die Fläche?",
+      "sizeLabel": "Worum geht es?",
       "sizes": [
-        "Bis 10 m²",
-        "10–30 m²",
-        "30–60 m²",
-        "Über 60 m²"
+        "Wartung",
+        "Störung / Ausfall",
+        "Reparatur",
+        "Sanierung"
       ],
       "timings": [
-        "So bald wie möglich",
+        "Dringend",
+        "In den nächsten Tagen",
         "In den nächsten Wochen",
-        "In 1–3 Monaten",
         "Ich plane erst noch"
       ]
     },
-    "stickyCta": "Angebot anfragen",
+    "stickyCta": "Termin anfragen",
     "look": {
-      "palette": 2,
-      "font": 6,
-      "hero": 0,
-      "services": 1,
-      "radius": 1,
-      "logo": 0,
-      "intro": 5
+      "skin": "kante",
+      "palette": 4,
+      "font": 0,
+      "hero": 2,
+      "services": 4,
+      "radius": 4,
+      "logo": 4,
+      "intro": 5,
+      "projects": 1,
+      "process": 1,
+      "faq": 1,
+      "reviews": 0,
+      "order": 2
     }
   }
 }

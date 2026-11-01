@@ -273,3 +273,17 @@ Seit 29.10. zeigt jede Leistung ein eigenes, als „Symbolbild“ gekennzeichnet
 - Ulrich Oberhauser Elektro (Reichertshausen): https://claude.ai/artifact/9WzsNEBYr9wg4cwtYJYrN8
 - Franz-Josef Wolf Heizungsbau und Sanitäre Anlagen (Röhrmoos): https://claude.ai/artifact/NSUtaZ3sBYpMH3NTn3pmGQ
 - Haus Gartenservice (Erding): https://claude.ai/artifact/3oRAo7vYSAssQHy1hXwVGr
+
+## Entwürfe 2026-11-01
+
+- WhatsApp-Entwürfe: https://claude.ai/artifact/AXc4FNvdrZPrz7JZu1LUyc
+- Anton Schlosser Zimmerermeister (Seeshaupt): https://claude.ai/artifact/HH6vkQAb9Sv7hiqWvFzQhu
+- Michael Muhr Spenglerei (Seeshaupt): https://claude.ai/artifact/J9uN7s7iacxKWHD6w5qc4y
+- Michael Halser Metallbau (Weßling): https://claude.ai/artifact/27yENnLjPZU7n2Tvd11jzf
+- Araucaria Garten- und Landschaftsgestaltung (Polling): https://claude.ai/artifact/HVHjAGXy8BE2BgHVM9NJjQ
+- Hausmeisterservice Dzhambaz (Kaufering): https://claude.ai/artifact/6eV2q1zBJPnK7sVx1nEZkR
+- MT-Stone (Prittriching): https://claude.ai/artifact/BLyyxFGA6dR4Z9VX7BYtMS
+- Heinrich Broda Sanitär & Heizung (Aschheim): https://claude.ai/artifact/Cfb4oWF3xwwYB9TcdvCk6o
+- Malermeister Michael Graßl (Unterschleißheim): https://claude.ai/artifact/1rv5SHYCyYfrFigAHtLp9u
+- FM Gebäudedienstleistungen (Vilgertshofen): https://claude.ai/artifact/ECumEHfRFpDhnkY5MzsPvv
+- Thomas Häußrer – Der Hausfreund (Peiting): https://claude.ai/artifact/Vp9LuHzabrgLATTztCJPPZ

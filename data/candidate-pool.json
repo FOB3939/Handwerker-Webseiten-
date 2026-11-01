@@ -26,18 +26,6 @@
    "hint": "RESERVE-geprüft; 08153 987460"
   },
   {
-   "name": "mh-bautechnik Michael Henter",
-   "trade": "Bau",
-   "city": "Schwabmünchen",
-   "hint": "Website negativ; 08232 958309"
-  },
-  {
-   "name": "J. Postruzin Estriche",
-   "trade": "Boden",
-   "city": "Kirchheim",
-   "hint": "ungeprüft"
-  },
-  {
    "name": "Alois Scharl Elektroinstallation",
    "trade": "Elektro",
    "city": "Fraunberg",
@@ -80,39 +68,9 @@
    "hint": "Domain negativ, kein Google/Freemail; 089 8503069"
   },
   {
-   "name": "Thomas Heck Malerbetrieb",
-   "trade": "Malerbetrieb",
-   "city": "Pöcking",
-   "hint": "Name/Domain negativ; 08157 8237"
-  },
-  {
-   "name": "Konstantin Schwaighofer",
-   "trade": "Zimmerer",
-   "city": "Seeshaupt",
-   "hint": "eine Suche ohne Website, keine Telefonnummer"
-  },
-  {
-   "name": "Fliesenleger Durakovic Hasan",
-   "trade": "Fliesenleger",
-   "city": "Penzberg",
-   "hint": "08856 8053124, ungeprüft"
-  },
-  {
-   "name": "Rainer Goetzke",
-   "trade": "Maler und Tapezierer",
-   "city": "Heimstetten",
-   "hint": "089 66085677, ungeprüft"
-  },
-  {
    "name": "Lichtenstern Christoph",
    "trade": "Sanitär/Heizung",
    "city": "Steindorf",
-   "hint": "ungeprüft"
-  },
-  {
-   "name": "Thomas Misch Holz- & Bautenschutz",
-   "trade": "Trockenbau",
-   "city": "Dießen",
    "hint": "ungeprüft"
   },
   {
@@ -254,12 +212,6 @@
    "hint": "0160 97001953; Name/Domain/Telefon negativ, kein Google/Freemail – RESERVE"
   },
   {
-   "name": "Walter Deuter Schlosserei",
-   "trade": "Metallbau",
-   "city": "Baiern",
-   "hint": "08093 901974"
-  },
-  {
    "name": "Christian Moosburner Zimmerei",
    "trade": "Zimmerei",
    "city": "Glonn",
@@ -344,34 +296,16 @@
    "hint": "08856 82543"
   },
   {
-   "name": "Eduard Vachente",
-   "trade": "Fliesenleger",
-   "city": "Schwabmünchen",
-   "hint": "11880-Ortsliste"
-  },
-  {
    "name": "Fliesen Dini",
    "trade": "Fliesenleger",
    "city": "Schwabmünchen",
    "hint": "11880-Ortsliste"
   },
   {
-   "name": "Karlsdorfer Sanitärtechnik",
-   "trade": "Sanitär",
-   "city": "Landsberg",
-   "hint": "11880"
-  },
-  {
    "name": "Anton Josef Steinhart Toni's Bauservice",
    "trade": "Fliesenleger",
    "city": "Friedberg",
    "hint": "fliesenleger.net"
-  },
-  {
-   "name": "Bardak",
-   "trade": "Pflasterbau",
-   "city": "Friedberg",
-   "hint": "11880"
   },
   {
    "name": "Malerbetrieb Aliu",
@@ -392,22 +326,10 @@
    "hint": "089 3153683"
   },
   {
-   "name": "Schmiede & Schlosserei Engesser",
-   "trade": "Metallbau",
-   "city": "Pöcking",
-   "hint": "11880"
-  },
-  {
    "name": "Günter Ersam Fliesentechnik",
    "trade": "Fliesenleger",
    "city": "Inning",
    "hint": "08143 999548"
-  },
-  {
-   "name": "Josef Mauser jun. Fliesenlegermeister",
-   "trade": "Fliesenleger",
-   "city": "Inning",
-   "hint": "08143 94442"
   },
   {
    "name": "Lotter Tapan Garten und Landschaftsbau",
@@ -426,12 +348,6 @@
    "trade": "Spenglerei & Bedachung",
    "city": "Röhrmoos",
    "hint": "RESERVE-geprüft 2026-10-30 (Datei bereit, nicht gewählt): Website negativ, kein Google/Freemail; 08139 576789"
-  },
-  {
-   "name": "Hausmeisterservice Kaindl",
-   "trade": "Hausmeisterservice",
-   "city": "Peißenberg",
-   "hint": "RESERVE-geprüft 2026-10-30 (Datei bereit, nicht gewählt): Website negativ, kein Google/Freemail; 0162 3567403"
   },
   {
    "name": "Rolf Tannek Metallbau",
@@ -572,18 +488,6 @@
    "hint": "08134 5741"
   },
   {
-   "name": "Georg Huber Schlosserei",
-   "trade": "Metallbau",
-   "city": "Sankt Wolfgang",
-   "hint": "gmx laut 11880"
-  },
-  {
-   "name": "Schmiede & Schlosserei Forstmaier",
-   "trade": "Metallbau",
-   "city": "Dorfen",
-   "hint": "t-online laut 11880"
-  },
-  {
    "name": "Alois Bauer Schmiede",
    "trade": "Metallbau",
    "city": "Fraunberg",
@@ -600,6 +504,204 @@
    "trade": "Fliesenleger",
    "city": "Hohenlinden",
    "hint": "11880"
+  },
+  {
+   "name": "Hausmeisterservice Kaindl",
+   "trade": "Hausmeisterservice",
+   "city": "Peißenberg",
+   "hint": "RESERVE-geprüft 2026-11-01 (Datei bereit, nicht gewählt): Website negativ, kein Google/Freemail; 0162 3567403"
+  },
+  {
+   "name": "Andreas Bültel Heizungs- und Lüftungsbau",
+   "trade": "Heizung, Lüftung & Sanitär",
+   "city": "Bernried am Starnberger See",
+   "hint": "RESERVE-geprüft 2026-11-01 (Datei bereit, nicht gewählt): Website negativ, kein Google/Freemail; 08158 903571"
+  },
+  {
+   "name": "Hanno Rudolf Syffert",
+   "trade": "Fliesen- und Parkettleger",
+   "city": "Geltendorf",
+   "hint": "RESERVE-geprüft 2026-11-01 (Datei bereit, nicht gewählt): Website negativ, kein Google/Freemail; 0177 97709666"
+  },
+  {
+   "name": "Hermann Schlammerl",
+   "trade": "Heizungsbau",
+   "city": "Wörthsee",
+   "hint": "RESERVE-geprüft 2026-11-01 (Datei bereit, nicht gewählt): Website negativ, kein Google/Freemail; 08153 89664"
+  },
+  {
+   "name": "Josef Wagner Schlosserei",
+   "trade": "Metallbau",
+   "city": "Kaufering",
+   "hint": "08191 65137"
+  },
+  {
+   "name": "Parkett Hermann",
+   "trade": "Parkettleger",
+   "city": "Penzing",
+   "hint": "08191 985772"
+  },
+  {
+   "name": "Parkett Spiegel",
+   "trade": "Parkettleger",
+   "city": "Prittriching",
+   "hint": "08206 4669555"
+  },
+  {
+   "name": "Brandmair Elektrotechnik",
+   "trade": "Elektroinstallation",
+   "city": "Schwabmünchen",
+   "hint": "08232 9507908"
+  },
+  {
+   "name": "Stephan Spielmann Rollladen und Sonnenschutzsysteme",
+   "trade": "Rollladen",
+   "city": "Eurasburg",
+   "hint": "08208 957858"
+  },
+  {
+   "name": "Harald Pfister Schlosserei",
+   "trade": "Metallbau",
+   "city": "Landsberg",
+   "hint": "11880"
+  },
+  {
+   "name": "Heinz Applis Elektroinstallation",
+   "trade": "Elektroinstallation",
+   "city": "Iffeldorf",
+   "hint": "08856 5474"
+  },
+  {
+   "name": "Gartengestaltung Melz & Czech GbR",
+   "trade": "Garten- und Landschaftsbau",
+   "city": "Huglfing",
+   "hint": "08802 901395"
+  },
+  {
+   "name": "Judith Pupeter Hubert Fliesenverlegung",
+   "trade": "Fliesenleger",
+   "city": "Inning",
+   "hint": "08143 298"
+  },
+  {
+   "name": "Erich Blas Gas- und Wasserinstallateurmeister",
+   "trade": "Sanitär",
+   "city": "Tutzing",
+   "hint": "08158 3946"
+  },
+  {
+   "name": "Helmut Gutbier Elektroinstallation",
+   "trade": "Elektroinstallation",
+   "city": "Pöcking",
+   "hint": "08157 2101"
+  },
+  {
+   "name": "Faesecke Elektro",
+   "trade": "Elektroinstallation",
+   "city": "Pöcking",
+   "hint": "08157 5195"
+  },
+  {
+   "name": "Volker Schöttler Sanitär Heizung",
+   "trade": "Sanitär & Heizung",
+   "city": "Kirchheim",
+   "hint": "089 6370266; Name negativ, kein Google/Freemail – RESERVE"
+  },
+  {
+   "name": "Stefan Wittmann Heizungs- und Lüftungsbau",
+   "trade": "Heizung",
+   "city": "Kirchheim",
+   "hint": "089 9032894"
+  },
+  {
+   "name": "Möbus-HLS",
+   "trade": "Sanitär & Heizung",
+   "city": "Kirchheim",
+   "hint": "089 9044112"
+  },
+  {
+   "name": "Georg Weiss",
+   "trade": "Sanitär & Heizung",
+   "city": "Aschheim",
+   "hint": "089 9039100"
+  },
+  {
+   "name": "Elektro Leuthner",
+   "trade": "Elektroinstallation",
+   "city": "Ismaning",
+   "hint": "089 95840876"
+  },
+  {
+   "name": "Elektro-Lutz Elektroinstallation",
+   "trade": "Elektroinstallation",
+   "city": "Ismaning",
+   "hint": "089 966843"
+  },
+  {
+   "name": "Josef Geil Malerbetrieb",
+   "trade": "Malerbetrieb",
+   "city": "Unterschleißheim",
+   "hint": "089 45036916"
+  },
+  {
+   "name": "Siegfried Trostl Malerbetrieb",
+   "trade": "Malerbetrieb",
+   "city": "Unterschleißheim",
+   "hint": "089 3103318"
+  },
+  {
+   "name": "Spenglerei Glas",
+   "trade": "Spenglerei",
+   "city": "Raisting",
+   "hint": "spenglerei-glas@gmx.de laut 11880"
+  },
+  {
+   "name": "Peter Reicheneder Spenglerei Sanitäre Installation",
+   "trade": "Spenglerei",
+   "city": "Wielenbach",
+   "hint": "11880"
+  },
+  {
+   "name": "Bauspenglerei Wagner e. K.",
+   "trade": "Spenglerei",
+   "city": "Weilheim",
+   "hint": "0881 2828"
+  },
+  {
+   "name": "Elektrotechnik Hindelang",
+   "trade": "Elektroinstallation",
+   "city": "Penzberg",
+   "hint": "trustlocal"
+  },
+  {
+   "name": "Elektrotechnik Botzenhard",
+   "trade": "Elektroinstallation",
+   "city": "Penzberg",
+   "hint": "trustlocal"
+  },
+  {
+   "name": "Eichberger Haustechnik",
+   "trade": "Sanitär & Heizung",
+   "city": "Peißenberg",
+   "hint": "ungeprüft"
+  },
+  {
+   "name": "Dominik Kölbl Garten- und Landschaftsbau",
+   "trade": "Garten- und Landschaftsbau",
+   "city": "Huglfing",
+   "hint": "08802 9149328; Prüfungen negativ, kein Google/Freemail – RESERVE, Namensrisiko Parkett Kölbl klären"
+  },
+  {
+   "name": "Martin Engesser",
+   "trade": "Schreiner/Zimmerer/Fenster",
+   "city": "Feldafing",
+   "hint": "gmx laut 11880; ungeprüft (Agent gestoppt)"
+  },
+  {
+   "name": "Irlesberger Fenster",
+   "trade": "Fenster",
+   "city": "Inning",
+   "hint": "t-online laut 11880; ungeprüft (Agent gestoppt)"
   }
  ]
 }

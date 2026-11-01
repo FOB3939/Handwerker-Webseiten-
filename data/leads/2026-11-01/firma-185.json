@@ -1,107 +1,123 @@
 {
   "id": "2026-11-01-185",
-  "slug": "hausmeisterservice-kaindl-peissenberg",
+  "slug": "spenglerei-muhr-seeshaupt",
   "date": "2026-11-01",
   "company": {
-    "name": "Hausmeisterservice Kaindl",
-    "owner": null,
-    "trade": "Hausmeisterservice",
-    "city": "Peißenberg",
-    "address": "Barbarahof 6, 82380 Peißenberg",
-    "phone": "0162 3567403",
-    "email": null,
+    "name": "Michael Muhr Spenglerei",
+    "owner": "Michael Muhr",
+    "trade": "Spenglerei",
+    "city": "Seeshaupt",
+    "address": "Hohenberger Straße 6, 82402 Seeshaupt",
+    "phone": "08801 2043",
+    "email": "spenglerei.muhr@t-online.de",
     "serviceArea": [
-      "Peißenberg",
-      "Hohenpeißenberg",
-      "Weilheim",
-      "Peiting",
-      "Polling",
-      "Forst"
+      "Seeshaupt",
+      "Bernried",
+      "Iffeldorf",
+      "Penzberg",
+      "Münsing",
+      "Tutzing"
     ]
   },
   "listings": {
     "google": {
-      "url": "https://www.google.com/maps/search/?api=1&query=Hausmeisterservice%20Kaindl%20Barbarahof%206%20Pei%C3%9Fenberg",
+      "url": "https://www.google.com/maps/search/?api=1&query=Michael%20Muhr%20Spenglerei%20Hohenberger%20Stra%C3%9Fe%206%20Seeshaupt",
       "rating": null,
       "reviews": null,
-      "evidence": "NICHT BELEGT – weder direkter Google-Maps-Treffer noch Google-Spiegel (rgv-bayern, firmania, trustlocal) gefunden. In Maps prüfen."
+      "evidence": "NICHT direkt belegt – kein Google-Spiegel geprüft (Suchbudget). Annahme über öffentlich belegte Freemail: spenglerei.muhr@t-online.de laut 11880 (Ergebnis der Suche Spenglerei Weilheim/Umgebung) und auf seeshaupt.de (Feuerwehr/Ortsvereine, mit Michael Muhr). In Maps prüfen."
     },
     "myhammer": {
-      "url": "https://www.11880.com/suche/hausmeisterservice/weilheim",
+      "url": "https://www.goyellow.de/home/klempner-muhr-seeshaupt--bvrh93.html",
       "rating": null,
       "reviews": null,
-      "evidence": "Kein MyHammer gefunden – Eintrag „Hausmeisterservice kaindl“ in der 11880-Ortsliste (Kategorie Hausmeisterservice, Barbarahof 6, 82380 Peißenberg, (0162) 3567403, keine Öffnungszeiten)."
+      "evidence": "Kein MyHammer gefunden – Verzeichniseinträge „Muhr Michael Spenglerei“ (goyellow, Klempner und Spengler), oeffnungszeitenbuch.de, finde-offen.de (Hohenberger Str. 6, Mo–Fr 8–18 Uhr, Angabe ca. 6 Jahre alt); Telefon 08801 2043, Fax 08801 2046."
     }
   },
   "websiteStatus": "keine eigene Website gefunden",
   "websiteChecks": [
-    "(1) „Hausmeisterservice Kaindl Peißenberg Barbarahof“ mit blocked_domains (11880, Gelbe Seiten, Das Örtliche, Telefonbuch, Cylex, meinestadt, Creditreform, Facebook, Instagram, golocal, MyHammer, Northdata, Firmenwissen, WKDB, Yelp, trustlocal, wlw) – nur Verzeichnisse (hausmeisterdienste.net, fliesenleger.net) mit anderen Peißenberger Betrieben; kein Kaindl-Eintrag, keine eigene Domain. Unter Barbarahof 6a ist zusätzlich „Tolgay Bostan Gebäudemanagement“ gelistet (andere Firma)",
-    "(2) Telefonsuche „0162 3567403“/„01623567403“/„0162/3567403“ mit blocked_domains – nur Rufnummern-Blocklisten (anrufer.info, handyanrufe.de), keine Website",
-    "(3) Domain-Check allowed_domains hausmeisterservice-kaindl.de, kaindl-hausmeisterservice.de, hausmeister-kaindl.de, kaindl-hausmeister.de, kaindl-service.de, hms-kaindl.de, kaindl-peissenberg.de, kaindl.de – nur kaindl.de (Kaindl Schleiftechnik, Königsbach-Stein – fremde Firma), sonst keine Treffer",
-    "(4) Spiegelsuche (rgv-bayern, firmania, trustlocal, hausmeisterdienste.net) – nur der 11880-Eintrag, kein Website-Feld, keine E-Mail",
-    "(5) Impressum-Suche „Impressum Hausmeisterservice Kaindl Peißenberg Inhaber“ mit blocked_domains (2026-10-30) – kein eigenes Impressum; nur fremde Kaindl-Firmen (M. Kaindl GmbH Wals/AT, Kaindl Bau GmbH Herrsching, Installateur Kaindl Wien, Haus Kaindl Reit im Winkl) und Hausmeisterservice Punzet (Peißenberg, andere Firma). Inhaber-Vorname weiterhin unbekannt.",
-    "(6) Nachprüfung 2026-10-30: Impressum-Suche negativ; kein Google-Spiegel neu aufgetaucht – Status RESERVE unverändert",
-    "Website-Risiko: mittel – alle Prüfungen negativ, aber weder Google-Eintrag noch Freemail belegt (RESERVE)"
+    "(1) „Michael Muhr Spenglerei Seeshaupt“ mit blocked_domains (11880, Gelbe Seiten, Das Örtliche, Telefonbuch, Cylex, meinestadt, Creditreform, Facebook, Instagram, golocal, MyHammer, Northdata, Firmenwissen, WKDB, Yelp, trustlocal, wlw) – nur Verzeichnisse (oeffnungszeitenbuch, goyellow, finde-offen, yasni, dachdecker.com) und Gemeindeseiten seeshaupt.de (Feuerwehr, Ortsvereine, Dorfzeitung 2002/2003); keine eigene Domain",
+    "(2) Domain-Check allowed_domains spenglerei-muhr.de, muhr-spenglerei.de, spenglerei-muhr-seeshaupt.de, muhr-seeshaupt.de, michael-muhr.de, spenglereimuhr.de, muhr-dach.de, spenglerei-muhr.com – keine Treffer",
+    "(3) Telefonsuche „08801 2043“/„088012043“/„08801/2043“ – keine Treffer",
+    "(4) Impressum-Suche nicht mehr durchgeführt (Suchbudget erschöpft) – Namenssuche zeigte kein Impressum",
+    "(5) E-Mail auf Freemail-Domain (t-online.de), nicht auf eigener Domain",
+    "Website-Risiko: niedrig – Name, Domain und Telefon negativ, Freemail belegt; Google-Eintrag nicht direkt geprüft"
   ],
   "facts": {
     "services": [
-      "Hausmeisterservice"
+      "Spenglerei",
+      "Klempnerarbeiten"
     ],
-    "experience": null,
+    "experience": "Laut Anzeige in der Seeshaupter Dorfzeitung (2002) seit 1964 – nur als Hintergrund, nicht im Seitentext verwendet",
     "praisedFor": []
   },
   "strategy": {
-    "audience": "Hausverwaltungen, Vermieter, Eigentümergemeinschaften und ältere Hausbesitzer in Peißenberg, Hohenpeißenberg und Weilheim, die laufende Pflege von Haus und Grundstück abgeben wollen",
-    "mainService": "Hausmeisterservice für Wohnanlagen und Privathäuser",
-    "trustSignal": "Betrieb vor Ort in Peißenberg, direkt per Handy erreichbar",
-    "conversionGoal": "Hausmeister-Angebot anfragen – per Anruf oder WhatsApp mit Objektadresse und gewünschten Aufgaben",
-    "visualConcept": "Gepflegter Hauseingang einer Wohnanlage im Pfaffenwinkel: gefegte Wege, gemähter Rasen, ordentliche Mülltonnenplätze – bodenständig und aufgeräumt"
+    "audience": "Hauseigentümer in Seeshaupt, Bernried, Iffeldorf und Penzberg mit undichter Dachrinne, alter Blecheindeckung oder anstehender Dachsanierung",
+    "mainService": "Spenglerarbeiten an Dach und Fassade – Rinnen, Fallrohre, Bleche",
+    "trustSignal": "Ortsansässige Spenglerei in Seeshaupt, Inhaber vor Ort bekannt",
+    "conversionGoal": "Rückruf oder Besichtigung für Spenglerarbeiten anfragen (per Telefon oder E-Mail mit Fotos)",
+    "visualConcept": "Glänzendes Kupfer und Titanzink vor bayerischem Himmel: Dachrinnen, Kehlen und Kaminverkleidungen in sauberen Falzen"
   },
   "sales": {
-    "score": 4,
+    "score": 5,
     "whyGoodLead": [
-      "Keine eigene Website gefunden – nur ein 11880-Eintrag",
-      "Mobilnummer öffentlich gelistet – WhatsApp-Erstkontakt möglich",
-      "Hausverwaltungen suchen Hausmeister online – ohne Seite kaum auffindbar",
-      "Wiederkehrende Aufträge: eine Anfrage kann zu einem Dauervertrag werden"
+      "Keine eigene Website gefunden – nur Verzeichniseinträge",
+      "Freemail-Adresse öffentlich gelistet – E-Mail-Erstkontakt möglich",
+      "Spenglerei ist ein bisher seltenes Gewerk im Bestand",
+      "Dachrinnen- und Blechreparaturen werden kurzfristig online gesucht"
     ],
-    "pitch": "Hallo, hier ist … – ich baue Websites für Handwerksbetriebe im Pfaffenwinkel. Ich habe Ihren Eintrag „Hausmeisterservice Kaindl“ in Peißenberg gefunden, aber keine eigene Website. Ich habe unverbindlich einen Entwurf vorbereitet, über den Hausverwaltungen und Eigentümer Sie direkt per WhatsApp anfragen können – darf ich Ihnen den Link schicken?"
+    "pitch": "Grüß Gott Herr Muhr, hier ist … – ich baue Websites für Handwerksbetriebe am Starnberger See. Ihre Spenglerei in Seeshaupt habe ich in Verzeichnissen gefunden, aber keine eigene Website. Ich habe unverbindlich einen Entwurf vorbereitet, über den Kunden Ihre Spenglerarbeiten sehen und direkt anfragen können – darf ich Ihnen den Link schicken?"
   },
   "manualChecks": [
-    "RESERVE – weder Google-Eintrag noch Freemail-Adresse belegt: NUR versenden, wenn Google Maps einen Eintrag OHNE Website zeigt.",
-    "Nicht verwechseln mit Kaindl Bau GmbH (Herrsching, eigene Website kaindl-bau.de) – fremde Firma",
-    "Google Maps: „Hausmeisterservice Kaindl, Barbarahof 6, Peißenberg“ suchen – Existenz, Bewertungen und Website-Feld prüfen",
-    "Nur ein einziger Verzeichniseintrag (11880) – prüfen, ob der Betrieb noch aktiv ist",
-    "Inhabername unbekannt (nur Nachname Kaindl) – Anrede beim Erstkontakt bestätigen",
-    "Konkrete Leistungen nicht belegt (nur Kategorie Hausmeisterservice) – Seite zeigt gewerkübliche Aufgaben (Pflege, Winterdienst, Kleinreparaturen); vor Versand beim Betrieb bestätigen",
-    "Logo und Fotos: nicht gefunden – beim Betrieb anfragen"
+    "Website-Risiko: niedrig – vor Versand in Google Maps prüfen, dass keine Website hinterlegt ist (Grund: Name, Domain und Telefon negativ, Freemail belegt; Google-Eintrag und Impressum nicht eigens geprüft)",
+    "E-Mail spenglerei.muhr@t-online.de steht auf seeshaupt.de im Zusammenhang mit Feuerwehr/Ortsvereinen – vor Versand prüfen, dass sie weiterhin geschäftlich genutzt wird",
+    "Zwei Adressen: Hohenberger Str. 6 (Verzeichnisse) und Buchwiesenstr. 21 (Dorfzeitung 2002/2003, dachdecker.com) – aktuelle Adresse klären",
+    "Betrieb aktiv? Verzeichnisdaten teils älter (finde-offen ca. 6 Jahre) – vor Versand bestätigen",
+    "Leistungen nur grob belegt (Spenglerei, Klempner) – Detailleistungen (Dachrinnen, Blechdach, Kaminverkleidung, Kupfer/Titanzink) beim Betrieb bestätigen",
+    "„Meister“ nirgends belegt – nicht verwenden; Gründungsjahr 1964 nur aus alter Anzeige – nicht auf der Seite verwenden",
+    "Logo und Projektfotos: nicht gefunden – beim Betrieb anfragen"
   ],
   "sources": [
     {
-      "label": "11880 – Hausmeisterservices Weilheim (Liste mit Hausmeisterservice Kaindl, Peißenberg)",
-      "url": "https://www.11880.com/suche/hausmeisterservice/weilheim"
+      "label": "oeffnungszeitenbuch – Michael Muhr Spenglerei, Seeshaupt",
+      "url": "https://www.oeffnungszeitenbuch.de/filiale/Seeshaupt-Michael%2520Muhr%2520Spenglerei-2646717L.html"
     },
     {
-      "label": "11880 – Hausmeisterservices Schongau (Umkreisliste mit Peißenberger Betrieben)",
-      "url": "https://www.11880.com/suche/hausmeisterservice/schongau"
+      "label": "goyellow – Muhr Michael Spenglerei",
+      "url": "https://www.goyellow.de/home/klempner-muhr-seeshaupt--bvrh93.html"
+    },
+    {
+      "label": "finde-offen – Michael Muhr Spenglerei, Hohenberger Str. 6",
+      "url": "https://finde-offen.de/seeshaupt/michael-muhr-spenglerei-1093684"
+    },
+    {
+      "label": "Gemeinde Seeshaupt – Ortsvereine (Michael Muhr, spenglerei.muhr@t-online.de)",
+      "url": "https://www.seeshaupt.de/freizeit-geniessen/reges-vereinsleben/ortsvereine"
+    },
+    {
+      "label": "Gemeinde Seeshaupt – Feuerwehr",
+      "url": "https://www.seeshaupt.de/bildung-und-soziales/feuerwehr-und-rettungsdienst/feuerwehr"
+    },
+    {
+      "label": "Seeshaupter Dorfzeitung 1/2003 (Anzeige Spenglerei Muhr)",
+      "url": "https://www.seeshaupt.de/fileadmin/Gemeinde_Seeshaupt/Dateien/Seeshaupter_Dorfzeitung/2003/01_Ausgabe_1.pdf"
     }
   ],
   "site": {
-    "theme": "garten",
+    "theme": "objekt",
     "category": "handwerk",
     "heroOffer": [
-      "Hauspflege",
-      "Grünpflege",
-      "Winterdienst",
-      "Kleinreparaturen",
-      "Kontrollgänge"
+      "Dachrinnen",
+      "Fallrohre",
+      "Blechdach",
+      "Kaminblech",
+      "Reparaturen"
     ],
-    "scene": "garden",
-    "logoIcon": "house",
-    "logoMark": "HK",
-    "brandName": "Hausmeisterservice Kaindl",
-    "seoTitle": "Hausmeisterservice in Peißenberg – Hausmeisterservice Kaindl",
-    "seoDescription": "Hausmeisterservice in Peißenberg und Umgebung: Pflege von Haus und Außenanlagen, Winterdienst und kleine Reparaturen. Jetzt per WhatsApp anfragen.",
+    "scene": "facade",
+    "logoIcon": "roof",
+    "logoMark": "MM",
+    "brandName": "Spenglerei Muhr",
+    "seoTitle": "Spenglerei in Seeshaupt – Michael Muhr",
+    "seoDescription": "Dachrinnen, Fallrohre, Blechdächer und Kaminverkleidungen in Seeshaupt und Umgebung. Spenglerei Michael Muhr – jetzt anfragen.",
     "nav": [
       {
         "label": "Leistungen",
@@ -129,271 +145,273 @@
       }
     ],
     "hero": {
-      "eyebrow": "Hausmeisterservice · Peißenberg",
-      "headline": "Ihr Hausmeister in Peißenberg",
-      "sub": "Haus, Hof und Grünflächen in Schuss halten – rund um Peißenberg.",
-      "ctaPrimary": "Hausmeister anfragen",
+      "eyebrow": "Spenglerei · Seeshaupt",
+      "headline": "Spenglerei Muhr in Seeshaupt",
+      "sub": "Dachrinnen, Bleche und Verwahrungen – damit Regenwasser dort abläuft, wo es soll.",
+      "ctaPrimary": "Anfrage senden",
       "ctaSecondary": "Anrufen",
       "bullets": [
-        "Betrieb in Peißenberg",
-        "Für Wohnanlagen und Privathäuser",
-        "Direkt per Handy erreichbar"
+        "Spenglerei in Seeshaupt",
+        "Rinnen, Rohre, Bleche",
+        "Anfrage per Telefon oder E-Mail"
       ],
-      "imageLabel": "gepflegter Eingang einer Wohnanlage mit gefegtem Weg und gemähtem Rasen"
+      "imageLabel": "neue Dachrinne aus Titanzink an einem Satteldach"
     },
     "badges": [
       {
-        "title": "Hauspflege",
-        "sub": "Treppenhaus & Keller"
+        "title": "Spenglerei",
+        "sub": "Dach und Fassade"
       },
       {
-        "title": "Außenanlagen",
-        "sub": "Rasen, Hecke, Wege"
+        "title": "Dachentwässerung",
+        "sub": "Rinnen & Fallrohre"
       },
       {
-        "title": "Winterdienst",
-        "sub": "Wege frei halten"
+        "title": "Blech",
+        "sub": "Kupfer & Titanzink"
       },
       {
-        "title": "Peißenberg",
-        "sub": "Barbarahof"
+        "title": "Seeshaupt",
+        "sub": "Hohenberger Straße"
       }
     ],
     "trust": [
       {
-        "value": "Vor Ort",
-        "label": "Betrieb in Peißenberg"
+        "value": "Seeshaupt",
+        "label": "Betrieb im Ort"
       },
       {
-        "value": "Haus & Hof",
-        "label": "innen und außen"
+        "value": "Blech",
+        "label": "Rinnen, Bleche, Verwahrungen"
       },
       {
-        "value": "Laufend",
-        "label": "auch regelmäßige Termine"
+        "value": "E-Mail",
+        "label": "Fotos direkt schicken"
       },
       {
-        "value": "Mobil",
-        "label": "direkt erreichbar"
+        "value": "Inhaber",
+        "label": "Michael Muhr"
       }
     ],
     "servicesIntro": {
-      "headline": "Was ein Hausmeister Ihnen abnimmt",
-      "text": "Damit Mieter, Eigentümer und Verwaltung sich nicht um jede Glühbirne und jeden Rasenschnitt kümmern müssen."
+      "headline": "Spenglerarbeiten rund ums Dach",
+      "text": "Ob tropfende Rinne oder neue Kaminverkleidung: Die Spenglerei Muhr hält Dach und Fassade in Seeshaupt dicht."
     },
     "services": [
       {
-        "title": "Objektbetreuung",
-        "text": "Regelmäßige Kontrollgänge durch Haus, Keller und Technikräume – Mängel werden früh gemeldet.",
+        "title": "Dachrinnen",
+        "text": "Neue Rinnen montieren oder undichte Stellen und Rinnenhalter ersetzen.",
         "items": [
-          "Kontrollgänge",
-          "Mängelmeldung",
-          "Ansprechpartner"
+          "Montage",
+          "Rinnenhalter",
+          "Abdichten"
         ]
       },
       {
-        "title": "Grünpflege",
-        "text": "Rasen mähen, Hecken schneiden, Laub entfernen – die Außenanlage bleibt ordentlich.",
+        "title": "Fallrohre",
+        "text": "Fallrohre erneuern und sauber an Rinne und Kanal anschließen.",
         "items": [
-          "Rasen",
-          "Hecken",
-          "Laub"
+          "Erneuern",
+          "Standrohr",
+          "Laubfang"
         ]
       },
       {
-        "title": "Winterdienst",
-        "text": "Wege und Zugänge werden geräumt und gestreut, wenn Schnee fällt.",
+        "title": "Blechdach",
+        "text": "Dächer und Vordächer mit Blech eindecken – etwa für Gauben, Erker oder Garagen.",
         "items": [
-          "Räumen",
-          "Streuen",
-          "Zugänge"
+          "Gauben",
+          "Vordächer",
+          "Garagendach"
         ]
       },
       {
-        "title": "Kleinreparaturen",
-        "text": "Klemmende Türen, lose Griffe, defekte Leuchtmittel – kleine Schäden werden direkt behoben.",
+        "title": "Kaminverkleidung",
+        "text": "Kamine mit Blech verkleiden und den Anschluss ans Dach dicht verwahren.",
         "items": [
-          "Türen",
-          "Leuchtmittel",
-          "Kleinteile"
+          "Verkleidung",
+          "Kaminkopf",
+          "Anschluss"
         ]
       },
       {
-        "title": "Mülltonnenservice",
-        "text": "Tonnen werden zur Abholung bereitgestellt und der Stellplatz sauber gehalten.",
+        "title": "Verwahrungen",
+        "text": "Wandanschlüsse, Kehlen und Ortgänge so ausbilden, dass kein Wasser eindringt.",
         "items": [
-          "Bereitstellen",
-          "Stellplatz",
-          "Sauberkeit"
+          "Kehlen",
+          "Wandanschluss",
+          "Ortgang"
         ]
       },
       {
-        "title": "Treppenhaus & Keller",
-        "text": "Gemeinschaftsflächen werden in Ordnung gehalten – Treppen, Flure und Kellergänge.",
+        "title": "Reparaturen",
+        "text": "Sturmschäden, lose Bleche und Tropfstellen schnell beheben.",
         "items": [
-          "Treppenhaus",
-          "Flure",
-          "Keller"
+          "Sturmschaden",
+          "Lose Bleche",
+          "Tropfstellen"
         ]
       }
     ],
     "why": {
-      "headline": "Ein Hausmeister aus Peißenberg – nah am Objekt.",
+      "headline": "Spenglerarbeiten aus dem eigenen Ort.",
       "points": [
         {
-          "title": "Kurze Wege",
-          "text": "Der Betrieb sitzt in Peißenberg und ist schnell in Hohenpeißenberg, Weilheim und Peiting."
+          "title": "Kurze Anfahrt",
+          "text": "Von Seeshaupt aus schnell in Bernried, Iffeldorf, Penzberg und Münsing."
         },
         {
-          "title": "Ein Ansprechpartner",
-          "text": "Verwaltung und Eigentümer haben eine feste Nummer für alles rund ums Haus."
+          "title": "Fotos per E-Mail",
+          "text": "Ein Bild der Schadstelle reicht oft für die erste Einschätzung."
         },
         {
-          "title": "Regelmäßig",
-          "text": "Pflege und Kontrolle nach festem Rhythmus statt nur auf Zuruf."
+          "title": "Inhaber vor Ort",
+          "text": "Michael Muhr ist in Seeshaupt bekannt und selbst ansprechbar."
         },
         {
-          "title": "Direkter Draht",
-          "text": "Anruf oder WhatsApp genügt – ohne Warteschleife."
+          "title": "Dicht bis ins Detail",
+          "text": "Kehlen, Anschlüsse und Rinnen entscheiden, ob das Dach trocken bleibt."
         }
       ]
     },
     "reviews": {
       "headline": "Was Kunden sagen",
-      "summary": "Kundenstimmen werden hier eingebunden, sobald sie aus dem Google-Profil übernommen sind.",
+      "summary": "Kundenstimmen binden wir hier ein, sobald sie aus dem Google-Profil übernommen sind.",
       "highlights": [
-        "Hausmeisterservice in Peißenberg",
-        "Haus und Außenanlagen",
-        "Direkter Kontakt"
+        "Spenglerei in Seeshaupt",
+        "Rinnen und Bleche",
+        "Inhaber vor Ort"
       ],
       "source": "Google",
-      "sourceUrl": "https://www.google.com/maps/search/?api=1&query=Hausmeisterservice%20Kaindl%20Barbarahof%206%20Pei%C3%9Fenberg",
+      "sourceUrl": "https://www.google.com/maps/search/?api=1&query=Michael%20Muhr%20Spenglerei%20Hohenberger%20Stra%C3%9Fe%206%20Seeshaupt",
       "rating": null,
       "count": null
     },
     "process": {
-      "headline": "So startet die Betreuung",
+      "headline": "Vom Tropfen zur dichten Rinne",
       "steps": [
         {
           "title": "Anfrage",
-          "text": "Objektadresse und gewünschte Aufgaben per WhatsApp schicken – oder anrufen."
+          "text": "Anrufen oder Fotos der Stelle per E-Mail schicken."
         },
         {
           "title": "Besichtigung",
-          "text": "Haus und Außenanlagen werden gemeinsam angeschaut."
+          "text": "Michael Muhr schaut sich Dach und Rinne vor Ort an."
         },
         {
           "title": "Angebot",
-          "text": "Sie erhalten ein Angebot – einmalig oder als regelmäßige Betreuung."
+          "text": "Sie erhalten ein Angebot mit Material und Umfang."
         },
         {
-          "title": "Betreuung",
-          "text": "Die Arbeiten laufen nach Plan, Mängel werden gemeldet."
+          "title": "Ausführung",
+          "text": "Bleche zuschneiden, montieren, abdichten – fertig."
         }
       ]
     },
     "gallery": {
-      "headline": "Gepflegte Häuser im Pfaffenwinkel",
-      "text": "Für die Live-Version zeigen wir hier echte Objekte, die der Betrieb betreut.",
+      "headline": "Arbeiten am Dach",
+      "text": "In der Live-Version zeigen wir hier echte Arbeiten der Spenglerei.",
       "items": [
         {
-          "title": "Gepflegter Eingang",
-          "photoNeeded": "Hauseingang einer Wohnanlage mit sauberem Weg"
+          "title": "Neue Dachrinne",
+          "photoNeeded": "frisch montierte Rinne aus Titanzink"
         },
         {
-          "title": "Rasen & Hecke",
-          "photoNeeded": "frisch gemähter Rasen mit geschnittener Hecke"
+          "title": "Kaminverkleidung",
+          "photoNeeded": "mit Blech verkleideter Kamin auf Ziegeldach"
         },
         {
-          "title": "Winterdienst",
-          "photoNeeded": "geräumter und gestreuter Gehweg"
+          "title": "Gaubendach",
+          "photoNeeded": "Gaube mit Blecheindeckung"
         },
         {
-          "title": "Treppenhaus",
-          "photoNeeded": "sauberes, helles Treppenhaus"
+          "title": "Kehle",
+          "photoNeeded": "eingeblechte Dachkehle"
         },
         {
-          "title": "Tonnenplatz",
-          "photoNeeded": "aufgeräumter Mülltonnenstellplatz"
+          "title": "Fallrohr",
+          "photoNeeded": "neues Fallrohr an Hausfassade"
         }
       ]
     },
     "region": {
-      "headline": "Hausmeisterservice für Peißenberg und Umgebung",
-      "text": "Von Peißenberg aus in Hohenpeißenberg, Weilheim, Peiting, Polling, Forst und Wessobrunn.",
+      "headline": "Spenglerei für Seeshaupt und das Südufer",
+      "text": "Von Seeshaupt aus in Bernried, Iffeldorf, Penzberg, Münsing und Tutzing unterwegs.",
       "places": [
-        "Peißenberg",
-        "Hohenpeißenberg",
-        "Weilheim",
-        "Peiting",
-        "Polling",
-        "Forst",
-        "Wessobrunn"
+        "Seeshaupt",
+        "Magnetsried",
+        "Bernried",
+        "Iffeldorf",
+        "Penzberg",
+        "Münsing",
+        "Tutzing"
       ]
     },
     "faq": [
       {
-        "q": "Betreuen Sie auch einzelne Privathäuser?",
-        "a": "Fragen Sie gern an – Umfang und Rhythmus werden individuell abgestimmt."
+        "q": "Meine Dachrinne tropft – lohnt sich eine Reparatur?",
+        "a": "Oft ja. Nach einem Blick auf Rinne und Halter lässt sich sagen, ob Reparatur oder Tausch sinnvoller ist."
       },
       {
-        "q": "Ist auch ein einmaliger Einsatz möglich?",
-        "a": "Ja, zum Beispiel ein Garteneinsatz im Herbst. Regelmäßige Betreuung ist ebenso möglich."
+        "q": "Kann ich vorab Fotos schicken?",
+        "a": "Ja, per E-Mail an spenglerei.muhr@t-online.de – das hilft bei der ersten Einschätzung."
       },
       {
-        "q": "Wer kümmert sich im Winter um die Wege?",
-        "a": "Winterdienst kann Teil der Betreuung sein – Details klären Sie bei der Besichtigung."
+        "q": "Welche Materialien verwenden Sie?",
+        "a": "Das wird je nach Dach abgestimmt, etwa Titanzink oder Kupfer."
       },
       {
-        "q": "Wie schnell bekomme ich ein Angebot?",
-        "a": "Nach der Besichtigung des Objekts erhalten Sie ein Angebot."
+        "q": "Übernehmen Sie auch kleine Aufträge?",
+        "a": "Fragen Sie einfach an – auch ein einzelnes Fallrohr oder ein loses Blech."
       },
       {
-        "q": "Arbeiten Sie auch außerhalb von Peißenberg?",
-        "a": "Ja, im Umkreis von Peißenberg – fragen Sie einfach an."
+        "q": "Wie erreiche ich Sie?",
+        "a": "Telefonisch unter 08801 2043 oder per E-Mail."
       }
     ],
     "contact": {
-      "headline": "Hausmeister anfragen – kostenlos und unverbindlich",
-      "text": "Nennen Sie kurz Ort und Art des Objekts und welche Aufgaben übernommen werden sollen.",
+      "headline": "Spenglerarbeiten anfragen",
+      "text": "Beschreiben Sie kurz, wo es tropft oder was erneuert werden soll – Rinne, Fallrohr, Kamin oder Blechdach. Fotos helfen.",
       "topics": [
-        "Objektbetreuung",
-        "Grünpflege",
-        "Winterdienst",
-        "Kleinreparaturen",
+        "Dachrinnen",
+        "Fallrohre",
+        "Blechdach",
+        "Kaminverkleidung",
+        "Reparatur",
         "Sonstiges"
       ],
       "responseNote": "Besichtigung nach Absprache."
     },
     "quote": {
-      "sizeLabel": "Um welches Objekt geht es?",
+      "sizeLabel": "Worum geht es?",
       "sizes": [
-        "Einfamilienhaus",
-        "Mehrfamilienhaus",
-        "Wohnanlage",
-        "Gewerbeobjekt"
+        "Kleine Reparatur",
+        "Rinne / Fallrohr",
+        "Kamin / Gaube",
+        "Ganzes Dach"
       ],
       "timings": [
-        "So bald wie möglich",
+        "Dringend",
         "In den nächsten Wochen",
-        "In 1–3 Monaten",
+        "Vor dem Winter",
         "Ich plane erst noch"
       ]
     },
-    "stickyCta": "Hausmeister anfragen",
+    "stickyCta": "Spengler anfragen",
     "look": {
+      "skin": "kante",
       "palette": 3,
-      "font": 5,
-      "hero": 7,
-      "services": 3,
+      "font": 2,
+      "hero": 2,
+      "services": 0,
       "radius": 0,
-      "logo": 3,
-      "intro": 4,
-      "projects": 0,
+      "logo": 2,
+      "intro": 1,
+      "projects": 2,
       "process": 0,
-      "faq": 0,
-      "reviews": 1,
-      "order": 3
+      "faq": 2,
+      "reviews": 0,
+      "order": 2
     }
   }
 }

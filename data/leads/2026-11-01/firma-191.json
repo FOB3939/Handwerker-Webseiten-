@@ -1,5 +1,5 @@
 {
-  "id": "2026-11-01-195",
+  "id": "2026-11-01-191",
   "slug": "malermeister-michael-grassl-unterschleissheim",
   "date": "2026-11-01",
   "company": {
@@ -398,13 +398,19 @@
     },
     "stickyCta": "Angebot anfragen",
     "look": {
+      "skin": "kante",
       "palette": 2,
-      "font": 6,
-      "hero": 0,
-      "services": 1,
-      "radius": 1,
-      "logo": 0,
-      "intro": 5
+      "font": 4,
+      "hero": 4,
+      "services": 0,
+      "radius": 3,
+      "logo": 2,
+      "intro": 1,
+      "projects": 1,
+      "process": 0,
+      "faq": 2,
+      "reviews": 0,
+      "order": 0
     }
   }
 }

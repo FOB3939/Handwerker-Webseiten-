@@ -1,101 +1,99 @@
 {
   "id": "2026-11-01-192",
-  "slug": "hausmeisterservice-dzhambaz-kaufering",
+  "slug": "fm-gebaeudedienstleistungen-vilgertshofen",
   "date": "2026-11-01",
   "company": {
-    "name": "Hausmeisterservice Dzhambaz",
-    "owner": "Mehmed Dzhambaz",
+    "name": "FM Gebäudedienstleistungen",
+    "owner": null,
     "trade": "Hausmeisterservice",
-    "city": "Kaufering",
-    "address": "Leonhardistr. 17, 86916 Kaufering",
-    "phone": "01516 6875934",
-    "email": "mehmet.huseim@gmail.com",
+    "city": "Vilgertshofen",
+    "address": "Am Grund 19 B, 86946 Vilgertshofen (Pflugdorf)",
+    "phone": "0155 61334608",
+    "email": "fm.gebaeudedienstleistungen@gmail.com",
     "serviceArea": [
-      "Kaufering",
+      "Vilgertshofen",
+      "Pflugdorf",
+      "Stadl",
+      "Issing",
+      "Reichling",
       "Landsberg am Lech",
-      "Hurlach",
-      "Igling",
-      "Penzing",
-      "Scheuring"
+      "Fuchstal"
     ]
   },
   "listings": {
     "google": {
-      "url": "https://www.google.com/maps/search/?api=1&query=Hausmeisterservice%20Dzhambaz%20Leonhardistr.%2017%20Kaufering",
+      "url": "https://www.google.com/maps/search/?api=1&query=FM%20Geb%C3%A4udedienstleistungen%20Am%20Grund%2019B%20Vilgertshofen",
       "rating": null,
       "reviews": null,
-      "evidence": "Kein Google-Spiegel gefunden – Google-Eintrag nicht belegt. Freemail-Adresse mehmet.huseim@gmail.com öffentlich im 11880-Eintrag (Leonhardistr. 17, 86916 Kaufering, 01516 6875934). 11880 zeigt 5/5 aus 3 Bewertungen (11880-Bewertungen, nicht Google). In Maps prüfen."
+      "evidence": "NICHT BELEGT – kein Google-Spiegel (rgv-bayern, trustlocal, firmania) gefunden. Annahme stützt sich auf die öffentlich gelistete Freemail-Adresse fm.gebaeudedienstleistungen@gmail.com im 11880-Eintrag (auch in den strukturierten Daten der Seite). Google-Eintrag in Maps prüfen."
     },
     "myhammer": {
-      "url": "https://www.11880.com/suche/hausmeisterservice/landsberg",
+      "url": "https://www.11880.com/suche/hausmeisterservice/vilgertshofen",
       "rating": null,
       "reviews": null,
-      "evidence": "Kein MyHammer gefunden – Einträge bei 11880 (Hausmeisterservice, Renovierung Kaufering), Das Örtliche (Dzhambaz Mehmed, Hausmeisterdienste, Mo–Sa 8–17 Uhr, eine positive Kundenstimme), Seniorenportal und hausmeisterdienste.net."
+      "evidence": "Kein MyHammer gefunden – 11880-Einträge „FM Gebäudedienstleistungen“, Am Grund 19 B, 86946 Vilgertshofen (Pflugdorf), Tel. (0155) 61334608, Kategorien Hausmeisterservice, Kleintransport, Gebäudereinigung & Facility Management; ein Eintrag laut Verzeichnis vom Inhaber bestätigt; keine Öffnungszeiten."
     }
   },
   "websiteStatus": "keine eigene Website gefunden",
   "websiteChecks": [
-    "(1) „Hausmeisterservice Dzhambaz Kaufering“ mit blocked_domains (11880, Gelbe Seiten, Das Örtliche, Telefonbuch, Cylex, meinestadt, Creditreform, Facebook, Instagram, golocal, MyHammer, Northdata, Firmenwissen, WKDB, Yelp, trustlocal, wlw) – nur Verzeichnisse (hausmeisterdienste.net, Seniorenportal) und Kleinanzeigen; keine eigene Domain",
-    "(2) Verzeichnis-Suche „Dzhambaz Hausmeisterservice“ (11880, Das Örtliche, Gelbe Seiten, trustlocal, rgv-bayern) – Das Örtliche „Dzhambaz Mehmed“, Leonhardistr., 0151 66875934, Kategorie Hausmeisterdienste; kein Website-Feld im Snippet",
-    "(3) Telefon-/Namenssuche „PRO Hausmeisterservice Gebäudereinigung Kaufering 01516 6875934“ – nur Verzeichnis mit Dzhambaz, sonst andere Firmen (MEK, Maxi-Hösta, clean group) mit eigenen Websites",
-    "(4) Domain-Check allowed_domains hausmeisterservice-dzhambaz.de, dzhambaz.de, dzhambaz-hausmeisterservice.de, hausmeister-dzhambaz.de, dzhambaz-service.de, pro-hausmeisterservice.de, pro-hausmeisterservice-kaufering.de, dzhambaz.com – keine Treffer",
-    "(5) Impressum-Suche nicht ausgeführt (Suchwerkzeug lehnte Personensuche ab) – kein Impressum in den übrigen Treffern",
-    "Website-Risiko: niedrig – alle Prüfungen negativ, Freemail (gmail) öffentlich belegt"
+    "(1) „FM Gebäudedienstleistungen Pflugdorf Hausmeisterservice Kleintransport“ mit blocked_domains (11880, Gelbe Seiten, Das Örtliche, Telefonbuch, Cylex, meinestadt, Creditreform, Facebook, Instagram, golocal, MyHammer, Northdata, Firmenwissen, WKDB, Yelp, trustlocal, wlw) – nur namensähnliche fremde Firmen: FM Gebäudedienste (fm-gebaeudedienste.de, Fellbach/Stuttgart), FM Dienstleistungs GmbH (fmdienstleistung.de), FM Gebäudedienstleistungen GmbH (fmg-service.de, Berlin), F&M Gebäudedienst (fum-gebaeude.de). Keine davon mit Bezug zu Vilgertshofen/Pflugdorf oder der Nummer 0155 61334608.",
+    "(2) Domain-Check allowed_domains fm-gebaeudedienstleistungen.de, fmgebaeudedienstleistungen.de, fm-gebaeudedienste.de, fmdienstleistung.de, fm-hausmeisterservice.de, fm-vilgertshofen.de, fm-dienstleistungen.de, fum-gebaeude.de – nur Treffer der Fellbacher FM Gebäudedienste (Adressen Stuttgarter Str. 163 / Röntgenstr. 14, Fellbach; info@fm-gebaeudedienste.de) und der FM Dienstleistungs GmbH; kein Bezug zu Vilgertshofen.",
+    "(3) Telefonsuche „0155 61334608“/„015561334608“ mit blocked_domains – nur allgemeine Vorwahl-Seiten (01556 = 1&1), keine Website.",
+    "(4) Impressum-Suche „Impressum FM Gebäudedienstleistungen Inhaber Vilgertshofen/Pflugdorf/Landsberg“ – nur Impressum der Berliner FM Gebäudedienstleistungen GmbH (fmg-service.de, HRB 143340 B) – andere Firma.",
+    "(5) Google-Spiegel-Suche (rgv-bayern, trustlocal, firmania, hausmeisterdienste.net) – kein Eintrag für den Vilgertshofener Betrieb; trustlocal zeigt nur die Fellbacher FM Gebäudedienste GmbH (51 Bewertungen) – andere Firma.",
+    "Website-Risiko: mittel – alle Prüfungen negativ, Freemail öffentlich belegt, aber kein Google-Eintrag belegt und mehrere namensähnliche Firmen mit Website"
   ],
   "facts": {
     "services": [
       "Hausmeisterservice",
+      "Kleintransport",
       "Gebäudereinigung",
-      "Renovierung"
+      "Facility Management"
     ],
     "experience": null,
     "praisedFor": []
   },
   "strategy": {
-    "audience": "Hausverwaltungen, Vermieter, Eigentümergemeinschaften und Hausbesitzer in Kaufering und Landsberg, die Objektbetreuung, Reinigung oder kleinere Renovierungen auslagern wollen",
-    "mainService": "Hausmeisterservice mit Reinigung und Renovierung",
-    "trustSignal": "Inhaber direkt per Handy erreichbar, Mo–Sa 8–17 Uhr",
-    "conversionGoal": "Angebot für Objektbetreuung anfragen (Anruf/WhatsApp)",
-    "visualConcept": "Gepflegtes Mehrfamilienhaus, sauberes Treppenhaus, Werkzeugkoffer – ordentlich, bodenständig, freundlich"
+    "audience": "Hausverwaltungen, Vermieter, Eigentümergemeinschaften und Gewerbetreibende in Vilgertshofen, Landsberg am Lech und den Dörfern am Lechrain, die Objektbetreuung, Reinigung oder kleine Transporte brauchen",
+    "mainService": "Hausmeisterservice und Gebäudereinigung",
+    "trustSignal": "Betrieb mit Sitz in Pflugdorf, direkt per Handy erreichbar",
+    "conversionGoal": "Unverbindliches Angebot für Objektbetreuung oder Kleintransport anfragen (Anruf/WhatsApp)",
+    "visualConcept": "Aufgeräumt und sachlich: gepflegtes Treppenhaus, gekehrter Hof, Transporter vor dem Haus – Ordnung, auf die man sich verlassen kann"
   },
   "sales": {
-    "score": 6,
+    "score": 4,
     "whyGoodLead": [
-      "Keine eigene Website gefunden – nur Verzeichniseinträge",
-      "Mobilnummer und Gmail öffentlich – direkter WhatsApp-Erstkontakt möglich",
-      "Positive Kundenstimmen in Verzeichnissen, aber kaum sichtbar",
-      "Hausverwaltungen suchen online – eine Website mit Leistungsliste bringt Daueraufträge"
+      "Keine eigene Website gefunden – nur Verzeichniseinträge mit Gmail-Adresse",
+      "Mobilnummer öffentlich gelistet – ideal für WhatsApp-Erstkontakt",
+      "Namensähnliche Firmen mit Website (Fellbach, Berlin) ziehen Suchanfragen ab – eine eigene Seite mit Ort schafft Klarheit",
+      "Hausmeister- und Reinigungsleistungen im wachsenden Lkr. Landsberg gefragt"
     ],
-    "pitch": "Hallo Herr Dzhambaz, hier ist … – ich baue Websites für Handwerksbetriebe im Landkreis Landsberg. Ich habe Ihren Hausmeisterservice in Kaufering im Verzeichnis gefunden, aber keine eigene Website. Ich habe unverbindlich einen Entwurf vorbereitet, auf dem Hausverwaltungen und Eigentümer Ihre Leistungen sehen und direkt per WhatsApp anfragen können – darf ich Ihnen den Link schicken?"
+    "pitch": "Hallo, hier ist … – ich baue Websites für Handwerks- und Dienstleistungsbetriebe im Landkreis Landsberg. Ich habe Ihren Eintrag „FM Gebäudedienstleistungen“ in Vilgertshofen gefunden, aber keine eigene Website – bei der Suche nach Ihrem Namen erscheinen nur gleichnamige Firmen aus Stuttgart und Berlin. Ich habe unverbindlich einen Entwurf vorbereitet, auf dem Hausverwaltungen und Eigentümer Ihre Leistungen sehen und direkt anfragen können – darf ich Ihnen den Link schicken?"
   },
   "manualChecks": [
-    "Website-Risiko: niedrig – vor Versand in Google Maps prüfen, dass keine Website hinterlegt ist (Grund: Google-Eintrag nicht über Spiegel belegt, nur Freemail und Verzeichnisse)",
-    "Google-Eintrag in Maps suchen; die 5/5 aus 3 Bewertungen stammen von 11880, nicht von Google – nicht als Google-Bewertung ausgeben",
-    "Kleinanzeigen-Inserate „PRO Hausmeisterservice & Gebäudereinigung“ (Objektpflege, Zaunbau, Pflaster, Erdarbeiten, Transport; 2024) nur per Snippet dem Namen Dzhambaz zugeordnet – Firmenname und Zusatzleistungen beim Erstkontakt klären",
-    "E-Mail mehmet.huseim@gmail.com weicht vom Namen ab (Mehmet/Mehmed) – korrekte Schreibweise des Inhabernamens erfragen",
-    "Leistungen nur grob belegt (Hausmeisterservice, Gebäudereinigung, Renovierung) – Winterdienst/Gartenpflege bestätigen",
+    "Website-Risiko: mittel – vor Versand in Google Maps prüfen, dass keine Website hinterlegt ist (Grund: Google-Eintrag nicht belegt, namensähnliche Firmen mit Website)",
+    "Google-Eintrag in Maps suchen (Existenz, Bewertungen); falls keiner existiert, Google-Profil als Zusatzangebot nennen",
+    "Inhabername unbekannt – beim Erstkontakt erfragen; Anrede neutral halten",
+    "Rechtsform klären (kein GmbH-Hinweis gefunden; Berliner „FM Gebäudedienstleistungen GmbH“ ist eine andere Firma)",
+    "Leistungen nur als Verzeichniskategorien belegt (Hausmeisterservice, Kleintransport, Gebäudereinigung, Facility Management) – Details (Winterdienst, Gartenpflege, Entrümpelung) beim Betrieb bestätigen, bevor sie auf die Seite kommen",
     "Logo und Projektfotos: nicht gefunden – beim Betrieb anfragen"
   ],
   "sources": [
     {
-      "label": "11880 – Hausmeisterservices Landsberg (Liste mit Hausmeisterservice Dzhambaz)",
-      "url": "https://www.11880.com/suche/hausmeisterservice/landsberg"
+      "label": "11880 – Hausmeisterservices Vilgertshofen (Liste mit FM Gebäudedienstleistungen)",
+      "url": "https://www.11880.com/suche/hausmeisterservice/vilgertshofen"
     },
     {
-      "label": "11880 – Renovierungen Kaufering (Hausmeisterservice Dzhambaz)",
-      "url": "https://www.11880.com/suche/renovierung/kaufering"
+      "label": "11880 – Gebäudereinigungen Vilgertshofen",
+      "url": "https://www.11880.com/suche/gebaeudereinigung/vilgertshofen"
     },
     {
-      "label": "Das Örtliche – Dzhambaz Mehmed, Kaufering",
-      "url": "https://www.dasoertliche.de/Themen/Dzhambaz-Mehmed-Kaufering-Leonhardistr"
+      "label": "11880 – Kleintransporte Uffing (Liste mit FM Gebäudedienstleistungen)",
+      "url": "https://www.11880.com/suche/kleintransport/uffing"
     },
     {
-      "label": "hausmeisterdienste.net – Hausmeisterservices Kaufering",
-      "url": "https://www.hausmeisterdienste.net/kaufering"
-    },
-    {
-      "label": "Seniorenportal – Hausmeisterdienste Schwabmünchen und Umgebung",
-      "url": "https://www.seniorenportal.de/regionale-angebote/hausmeisterdienste/schwabmuenchen"
+      "label": "11880 – Kleintransporte Scheuring (Liste mit FM Gebäudedienstleistungen)",
+      "url": "https://www.11880.com/suche/kleintransport/scheuring"
     }
   ],
   "site": {
@@ -103,17 +101,16 @@
     "category": "handwerk",
     "heroOffer": [
       "Hausmeisterdienst",
-      "Treppenhausreinigung",
-      "Kleinreparaturen",
-      "Renovierung",
-      "Grünpflege"
+      "Gebäudereinigung",
+      "Kleintransporte",
+      "Objektbetreuung"
     ],
     "scene": "facade",
     "logoIcon": "broom",
-    "logoMark": "HD",
-    "brandName": "Hausmeisterservice Dzhambaz",
-    "seoTitle": "Hausmeisterservice in Kaufering – Hausmeisterservice Dzhambaz",
-    "seoDescription": "Hausmeisterdienst, Gebäudereinigung und Renovierung in Kaufering und Landsberg am Lech. Jetzt Angebot anfragen – auch per WhatsApp.",
+    "logoMark": "FM",
+    "brandName": "FM Gebäudedienstleistungen",
+    "seoTitle": "Hausmeisterservice in Vilgertshofen – FM Gebäudedienstleistungen",
+    "seoDescription": "Hausmeisterservice, Gebäudereinigung und Kleintransporte aus Vilgertshofen-Pflugdorf für Landsberg und den Lechrain. Angebot per Anruf oder WhatsApp anfragen.",
     "nav": [
       {
         "label": "Leistungen",
@@ -141,238 +138,238 @@
       }
     ],
     "hero": {
-      "eyebrow": "Hausmeisterservice · Kaufering",
-      "headline": "Hausmeisterservice für Kaufering und Landsberg",
-      "sub": "Objektbetreuung, Reinigung und Renovierung – direkt beim Inhaber angefragt.",
+      "eyebrow": "Hausmeisterservice · Vilgertshofen",
+      "headline": "Hausmeisterservice für Vilgertshofen und Landsberg",
+      "sub": "Objektbetreuung, Reinigung und kleine Transporte – organisiert aus Pflugdorf.",
       "ctaPrimary": "Angebot anfragen",
       "ctaSecondary": "Anrufen",
       "bullets": [
-        "Betrieb in Kaufering",
-        "Reinigung und Renovierung",
-        "Mo–Sa 8–17 Uhr erreichbar"
+        "Sitz in Pflugdorf",
+        "Reinigung und Objektbetreuung",
+        "Kleintransporte auf Anfrage"
       ],
-      "imageLabel": "gepflegter Hauseingang eines Mehrfamilienhauses"
+      "imageLabel": "gepflegter Hauseingang mit sauberem Treppenhaus"
     },
     "badges": [
       {
         "title": "Hausmeister",
-        "sub": "Objektbetreuung"
+        "sub": "Objekte betreuen"
       },
       {
         "title": "Reinigung",
         "sub": "Treppenhaus & Gebäude"
       },
       {
-        "title": "Renovierung",
-        "sub": "Wände, Böden, Kleinarbeiten"
+        "title": "Transporte",
+        "sub": "klein und flexibel"
       },
       {
-        "title": "Kaufering",
-        "sub": "Leonhardistraße"
+        "title": "Pflugdorf",
+        "sub": "Am Grund 19 B"
       }
     ],
     "trust": [
       {
         "value": "Vor Ort",
-        "label": "Betrieb in Kaufering"
+        "label": "Sitz in Vilgertshofen"
       },
       {
-        "value": "Mo–Sa",
-        "label": "8–17 Uhr erreichbar"
-      },
-      {
-        "value": "3",
+        "value": "4",
         "label": "Leistungsbereiche"
       },
       {
+        "value": "Lechrain",
+        "label": "kurze Anfahrt"
+      },
+      {
         "value": "Mobil",
-        "label": "direkt zum Inhaber"
+        "label": "direkt erreichbar"
       }
     ],
     "servicesIntro": {
-      "headline": "Ein Ansprechpartner für Haus und Anlage",
-      "text": "Ob Treppenhaus, Außenanlage oder eine Wohnung zwischen zwei Mietern: Ein Anruf deckt Pflege, Reinigung und Renovierung ab."
+      "headline": "Ein Ansprechpartner für Haus, Hof und Transport",
+      "text": "Wer ein Mehrfamilienhaus, eine Gewerbeeinheit oder ein Ferienobjekt betreut, spart Abstimmung, wenn Hausmeisterdienst, Reinigung und kleine Fahrten aus einer Hand kommen."
     },
     "services": [
       {
         "title": "Hausmeisterdienst",
-        "text": "Regelmäßige Kontrollgänge, kleine Reparaturen und ein Blick auf Technik und Ordnung im Haus.",
+        "text": "Regelmäßige Kontrollgänge, kleine Reparaturen und ein Blick auf alles, was im Objekt auffällt.",
         "items": [
           "Kontrollgänge",
           "Kleinreparaturen",
-          "Mülltonnenservice"
-        ]
-      },
-      {
-        "title": "Treppenhausreinigung",
-        "text": "Saubere Treppenhäuser, Flure und Eingänge im festen Rhythmus.",
-        "items": [
-          "Treppenhaus",
-          "Flure",
-          "Eingangsbereich"
+          "Mängel melden"
         ]
       },
       {
         "title": "Gebäudereinigung",
-        "text": "Reinigung von Gemeinschaftsflächen, Kellern und Nebenräumen – auch einmalig.",
+        "text": "Treppenhäuser, Eingänge und Gemeinschaftsflächen werden im vereinbarten Rhythmus gereinigt.",
         "items": [
-          "Gemeinschaftsflächen",
-          "Keller",
-          "Grundreinigung"
-        ]
-      },
-      {
-        "title": "Renovierung",
-        "text": "Wohnungen zwischen zwei Mietverhältnissen wieder herrichten, damit sie schnell neu vermietet werden.",
-        "items": [
-          "Wände streichen",
-          "Ausbesserungen",
-          "Übergabefertig"
-        ]
-      },
-      {
-        "title": "Außenanlagen",
-        "text": "Wege, Hof und Grünflächen rund ums Haus in Ordnung halten.",
-        "items": [
-          "Rasen mähen",
-          "Hecke schneiden",
-          "Wege kehren"
+          "Treppenhaus",
+          "Eingangsbereich",
+          "Gemeinschaftsräume"
         ]
       },
       {
         "title": "Objektbetreuung",
-        "text": "Ein fester Ansprechpartner für Hausverwaltungen und Eigentümer, der Mängel meldet und kleine Aufgaben direkt erledigt.",
+        "text": "Für Hausverwaltungen und Eigentümer: ein fester Kontakt, der das Objekt kennt und sich kümmert.",
         "items": [
           "Fester Ansprechpartner",
-          "Mängel melden",
-          "Schlüsselverwaltung"
+          "Hausverwaltungen",
+          "Eigentümergemeinschaften"
+        ]
+      },
+      {
+        "title": "Facility Management",
+        "text": "Die laufenden Aufgaben rund um ein Gebäude werden gebündelt und abgestimmt erledigt.",
+        "items": [
+          "Aufgaben bündeln",
+          "Abstimmung",
+          "Objektpflege"
+        ]
+      },
+      {
+        "title": "Kleintransporte",
+        "text": "Möbel, Material oder Sperriges – kleine Transporte in der Region nach Absprache.",
+        "items": [
+          "Möbel",
+          "Material",
+          "Nach Absprache"
+        ]
+      },
+      {
+        "title": "Außenanlagen",
+        "text": "Hof und Zugänge sauber halten, damit Mieter und Besucher ordentlich ankommen.",
+        "items": [
+          "Hof kehren",
+          "Zugänge",
+          "Mülltonnenplatz"
         ]
       }
     ],
     "why": {
-      "headline": "Hausbetreuung aus Kaufering – mit kurzem Draht.",
+      "headline": "Kurze Wege von Pflugdorf aus.",
       "points": [
         {
-          "title": "Kurze Wege",
-          "text": "Der Betrieb sitzt in Kaufering und ist schnell in Landsberg, Hurlach und Igling."
+          "title": "Aus der Region",
+          "text": "Der Betrieb sitzt in Vilgertshofen-Pflugdorf und ist schnell in Landsberg und am Lechrain."
         },
         {
-          "title": "Direkt zum Inhaber",
-          "text": "Anfragen gehen per Anruf oder WhatsApp direkt an den Inhaber."
+          "title": "Mehr als Hausmeister",
+          "text": "Reinigung und kleine Transporte lassen sich mit der Objektbetreuung kombinieren."
         },
         {
-          "title": "Mehrere Leistungen",
-          "text": "Pflege, Reinigung und Renovierung in einem Auftrag statt drei Firmen."
+          "title": "Direkter Draht",
+          "text": "Anruf oder WhatsApp aufs Handy – ohne Warteschleife."
         },
         {
-          "title": "Feste Zeiten",
-          "text": "Montag bis Samstag von 8 bis 17 Uhr erreichbar."
+          "title": "Klar vereinbart",
+          "text": "Umfang und Rhythmus werden vorab festgelegt, damit jeder weiß, was erledigt wird."
         }
       ]
     },
     "reviews": {
       "headline": "Was Kunden sagen",
-      "summary": "Kundenstimmen werden hier eingebunden, sobald sie aus dem Google-Profil übernommen sind.",
+      "summary": "Kundenstimmen werden hier eingebunden, sobald sie aus einem Google-Profil übernommen sind.",
       "highlights": [
-        "Hausmeisterservice in Kaufering",
-        "Reinigung und Renovierung",
+        "Hausmeisterservice in Vilgertshofen",
+        "Reinigung und Kleintransporte",
         "Direkter Kontakt"
       ],
       "source": "Google",
-      "sourceUrl": "https://www.google.com/maps/search/?api=1&query=Hausmeisterservice%20Dzhambaz%20Leonhardistr.%2017%20Kaufering",
+      "sourceUrl": "https://www.google.com/maps/search/?api=1&query=FM%20Geb%C3%A4udedienstleistungen%20Am%20Grund%2019B%20Vilgertshofen",
       "rating": null,
       "count": null
     },
     "process": {
-      "headline": "So kommt die Betreuung ins Laufen",
+      "headline": "So startet die Betreuung",
       "steps": [
         {
           "title": "Anfrage",
-          "text": "Kurz anrufen oder per WhatsApp Objekt und Wunsch schildern."
+          "text": "Kurz schildern, um welches Objekt und welche Aufgaben es geht."
         },
         {
-          "title": "Besichtigung",
-          "text": "Haus, Flächen und Aufgaben werden vor Ort gemeinsam angeschaut."
+          "title": "Objekt ansehen",
+          "text": "Vor Ort werden Flächen, Zugänge und Wünsche besprochen."
         },
         {
           "title": "Angebot",
-          "text": "Sie erhalten ein Angebot für einmalige oder regelmäßige Arbeiten."
+          "text": "Sie erhalten ein Angebot mit Umfang und Rhythmus."
         },
         {
-          "title": "Start",
-          "text": "Die Arbeiten beginnen zum vereinbarten Termin oder im festen Rhythmus."
+          "title": "Betreuung",
+          "text": "Die Arbeiten laufen wie vereinbart – Rückfragen gehen direkt ans Handy."
         }
       ]
     },
     "gallery": {
-      "headline": "Einblicke in die Arbeit",
-      "text": "Für die Live-Version zeigen wir hier echte Objekte und Arbeiten des Betriebs.",
+      "headline": "Objekte in guten Händen",
+      "text": "In der Live-Version zeigen wir hier Fotos aus betreuten Objekten.",
       "items": [
         {
           "title": "Treppenhaus",
-          "photoNeeded": "frisch gereinigtes Treppenhaus eines Mehrfamilienhauses"
+          "photoNeeded": "frisch gereinigtes Treppenhaus in einem Mehrfamilienhaus"
         },
         {
-          "title": "Außenanlage",
-          "photoNeeded": "gemähte Grünfläche und gekehrter Weg vor einem Wohnhaus"
+          "title": "Hauseingang",
+          "photoNeeded": "gepflegter Eingangsbereich mit Briefkastenanlage"
         },
         {
-          "title": "Renovierte Wohnung",
-          "photoNeeded": "frisch gestrichener, leerer Wohnraum vor der Übergabe"
+          "title": "Hof",
+          "photoNeeded": "gekehrter Innenhof mit ordentlichem Mülltonnenplatz"
+        },
+        {
+          "title": "Kleintransport",
+          "photoNeeded": "Transporter beim Beladen von Möbeln"
         },
         {
           "title": "Kleinreparatur",
-          "photoNeeded": "Hausmeister beim Austausch eines Türgriffs oder einer Leuchte"
-        },
-        {
-          "title": "Kellerreinigung",
-          "photoNeeded": "aufgeräumter, sauberer Kellergang"
+          "photoNeeded": "Hausmeister beim Tausch eines Leuchtmittels im Flur"
         }
       ]
     },
     "region": {
-      "headline": "Hausmeisterservice für Kaufering und den Landkreis Landsberg",
-      "text": "Von Kaufering aus schnell in Landsberg am Lech, Hurlach, Igling, Penzing und Scheuring.",
+      "headline": "Unterwegs in Vilgertshofen und am Lechrain",
+      "text": "Von Pflugdorf aus schnell in Stadl, Issing, Reichling, Fuchstal und Landsberg am Lech.",
       "places": [
-        "Kaufering",
-        "Landsberg am Lech",
-        "Hurlach",
-        "Igling",
-        "Penzing",
-        "Scheuring"
+        "Vilgertshofen",
+        "Pflugdorf",
+        "Stadl",
+        "Issing",
+        "Reichling",
+        "Fuchstal",
+        "Landsberg am Lech"
       ]
     },
     "faq": [
       {
-        "q": "Übernehmen Sie auch einmalige Aufträge?",
-        "a": "Ja, neben regelmäßiger Betreuung sind auch einmalige Reinigungen oder Renovierungen möglich."
+        "q": "Für welche Objekte arbeiten Sie?",
+        "a": "Für Wohn- und Gewerbeobjekte – am besten kurz schildern, worum es geht."
       },
       {
-        "q": "Wann sind Sie erreichbar?",
-        "a": "Montag bis Samstag von 8 bis 17 Uhr, am besten per Anruf oder WhatsApp."
+        "q": "Kann ich nur die Reinigung buchen?",
+        "a": "Ja, die Leistungen lassen sich einzeln oder kombiniert vereinbaren."
       },
       {
-        "q": "Arbeiten Sie für Hausverwaltungen?",
-        "a": "Ja, Anfragen von Hausverwaltungen, Vermietern und Eigentümergemeinschaften sind willkommen."
+        "q": "Übernehmen Sie auch einmalige Transporte?",
+        "a": "Ja, Kleintransporte sind nach Absprache möglich."
       },
       {
-        "q": "Renovieren Sie Wohnungen nach Auszug?",
-        "a": "Ja, Renovierungsarbeiten gehören zum Angebot. Den Umfang klären wir bei der Besichtigung."
+        "q": "Wie schnell bekomme ich ein Angebot?",
+        "a": "Nach einer kurzen Besichtigung erhalten Sie ein Angebot mit Umfang und Rhythmus."
       },
       {
-        "q": "In welchen Orten sind Sie tätig?",
-        "a": "In Kaufering, Landsberg am Lech und den umliegenden Gemeinden – fragen Sie einfach an."
+        "q": "Arbeiten Sie auch in Landsberg?",
+        "a": "Ja, Landsberg am Lech und die Orte am Lechrain liegen im Einsatzgebiet."
       }
     ],
     "contact": {
-      "headline": "Ihr Angebot – kostenlos und unverbindlich",
-      "text": "Nennen Sie kurz Adresse, Größe des Objekts und welche Arbeiten anfallen. Fotos helfen.",
+      "headline": "Objekt kurz beschreiben – Angebot erhalten",
+      "text": "Nennen Sie Art und Größe des Objekts und welche Aufgaben anfallen. Für Transporte: was, von wo, nach wo.",
       "topics": [
         "Hausmeisterdienst",
-        "Treppenhausreinigung",
         "Gebäudereinigung",
-        "Renovierung",
-        "Außenanlagen",
+        "Objektbetreuung",
+        "Kleintransport",
         "Sonstiges"
       ],
       "responseNote": "Besichtigung nach Absprache."
@@ -381,26 +378,32 @@
       "sizeLabel": "Um welches Objekt geht es?",
       "sizes": [
         "Einfamilienhaus",
-        "Mehrfamilienhaus bis 6 Parteien",
-        "Wohnanlage",
-        "Gewerbeobjekt"
+        "Mehrfamilienhaus",
+        "Gewerbeobjekt",
+        "Einmaliger Transport"
       ],
       "timings": [
-        "Einmalig",
-        "Wöchentlich",
-        "Monatlich",
-        "Noch offen"
+        "So bald wie möglich",
+        "Ab nächstem Monat",
+        "Nur einmalig",
+        "Ich plane erst noch"
       ]
     },
     "stickyCta": "Angebot anfragen",
     "look": {
+      "skin": "kante",
       "palette": 2,
-      "font": 6,
-      "hero": 0,
-      "services": 1,
+      "font": 9,
+      "hero": 7,
+      "services": 5,
       "radius": 1,
-      "logo": 0,
-      "intro": 5
+      "logo": 3,
+      "intro": 0,
+      "projects": 2,
+      "process": 2,
+      "faq": 0,
+      "reviews": 1,
+      "order": 3
     }
   }
 }

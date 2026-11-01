@@ -2530,6 +2530,126 @@
       "googleLink": "https://www.google.com/maps/search/?api=1&query=Haus%20Gartenservice%20Erlenstr.%2016%20Erding",
       "googleVerified": false,
       "reserve": false
+    },
+    {
+      "company": "Anton Schlosser Zimmerermeister",
+      "slug": "zimmerei-schlosser-seeshaupt",
+      "trade": "Zimmerei",
+      "city": "Seeshaupt",
+      "date": "2026-11-01",
+      "phone": "08801 713",
+      "email": null,
+      "googleLink": "https://www.google.com/maps/search/?api=1&query=Anton%20Schlosser%20Zimmerermeister%20Buchenstra%C3%9Fe%2017%20Seeshaupt",
+      "googleVerified": false,
+      "reserve": false
+    },
+    {
+      "company": "Michael Muhr Spenglerei",
+      "slug": "spenglerei-muhr-seeshaupt",
+      "trade": "Spenglerei",
+      "city": "Seeshaupt",
+      "date": "2026-11-01",
+      "phone": "08801 2043",
+      "email": "spenglerei.muhr@t-online.de",
+      "googleLink": "https://www.google.com/maps/search/?api=1&query=Michael%20Muhr%20Spenglerei%20Hohenberger%20Stra%C3%9Fe%206%20Seeshaupt",
+      "googleVerified": false,
+      "reserve": false
+    },
+    {
+      "company": "Michael Halser Metallbau",
+      "slug": "halser-metallbau-wessling",
+      "trade": "Metallbau & Kunstschlosserei",
+      "city": "Weßling",
+      "date": "2026-11-01",
+      "phone": "08153 953198",
+      "email": null,
+      "googleLink": "https://www.google.com/maps/search/?api=1&query=Michael%20Halser%20Metallbau%20Webergassl%203%20Wessling",
+      "googleVerified": false,
+      "reserve": false
+    },
+    {
+      "company": "Araucaria Garten- und Landschaftsgestaltung",
+      "slug": "araucaria-gartengestaltung-polling",
+      "trade": "Garten- und Landschaftsbau",
+      "city": "Polling",
+      "date": "2026-11-01",
+      "phone": "0176 85495315",
+      "email": "greinwalddominik@gmail.com",
+      "googleLink": "https://www.google.com/maps/search/?api=1&query=Araucaria%20Garten-%20und%20Landschaftsgestaltung%20Huglfinger%20Str.%205%20Polling",
+      "googleVerified": false,
+      "reserve": false
+    },
+    {
+      "company": "Hausmeisterservice Dzhambaz",
+      "slug": "hausmeisterservice-dzhambaz-kaufering",
+      "trade": "Hausmeisterservice",
+      "city": "Kaufering",
+      "date": "2026-11-01",
+      "phone": "01516 6875934",
+      "email": "mehmet.huseim@gmail.com",
+      "googleLink": "https://www.google.com/maps/search/?api=1&query=Hausmeisterservice%20Dzhambaz%20Leonhardistr.%2017%20Kaufering",
+      "googleVerified": false,
+      "reserve": false
+    },
+    {
+      "company": "MT-Stone",
+      "slug": "mt-stone-prittriching",
+      "trade": "Fliesenleger",
+      "city": "Prittriching",
+      "date": "2026-11-01",
+      "phone": "0173 3669438",
+      "email": "mt-stone@t-online.de",
+      "googleLink": "https://www.google.com/maps/search/?api=1&query=MT-Stone%20Ringstr.%202%20Prittriching",
+      "googleVerified": false,
+      "reserve": false
+    },
+    {
+      "company": "Heinrich Broda Sanitär & Heizung",
+      "slug": "heinrich-broda-sanitaer-heizung-aschheim",
+      "trade": "Sanitär & Heizung",
+      "city": "Aschheim",
+      "date": "2026-11-01",
+      "phone": "0179 1259225",
+      "email": "Broda.Heinrich@gmx.de",
+      "googleLink": "https://www.google.com/maps/search/?api=1&query=Heinrich%20Broda%20Sanit%C3%A4r%20Heizung%20Johann-Wieser-Ring%2017%20Aschheim",
+      "googleVerified": false,
+      "reserve": false
+    },
+    {
+      "company": "Malermeister Michael Graßl",
+      "slug": "malermeister-michael-grassl-unterschleissheim",
+      "trade": "Malerbetrieb",
+      "city": "Unterschleißheim",
+      "date": "2026-11-01",
+      "phone": "0176 40122659",
+      "email": "michael.grassl@hotmail.com",
+      "googleLink": "https://www.google.com/maps/search/?api=1&query=Malermeister%20Michael%20Gra%C3%9Fl%20Friedrich-Kanzler-Stra%C3%9Fe%2012%20Unterschlei%C3%9Fheim",
+      "googleVerified": false,
+      "reserve": false
+    },
+    {
+      "company": "FM Gebäudedienstleistungen",
+      "slug": "fm-gebaeudedienstleistungen-vilgertshofen",
+      "trade": "Hausmeisterservice",
+      "city": "Vilgertshofen",
+      "date": "2026-11-01",
+      "phone": "0155 61334608",
+      "email": "fm.gebaeudedienstleistungen@gmail.com",
+      "googleLink": "https://www.google.com/maps/search/?api=1&query=FM%20Geb%C3%A4udedienstleistungen%20Am%20Grund%2019B%20Vilgertshofen",
+      "googleVerified": false,
+      "reserve": false
+    },
+    {
+      "company": "Thomas Häußrer – Der Hausfreund",
+      "slug": "der-hausfreund-thomas-haeussrer-peiting",
+      "trade": "Heizung & Sanitär (Kundendienst)",
+      "city": "Peiting",
+      "date": "2026-11-01",
+      "phone": "08805 9219180",
+      "email": null,
+      "googleLink": "https://www.google.com/maps/search/?api=1&query=Thomas%20H%C3%A4u%C3%9Frer%20Der%20Hausfreund%20Hohenbrand%2026%20Peiting",
+      "googleVerified": false,
+      "reserve": false
     }
   ],
   "rejected": [
@@ -6391,6 +6511,236 @@
       "company": "TEE GmbH (Pliening)",
       "reason": "GmbH",
       "date": "2026-10-30"
+    },
+    {
+      "company": "Montageservice Sven Pfeifer (Schwabmünchen)",
+      "reason": "eigene Website montageservice-pfeifer.com",
+      "date": "2026-11-01"
+    },
+    {
+      "company": "LM Bodenleger Luis Machado (Mering)",
+      "reason": "eigene Website lm-bodenleger.de",
+      "date": "2026-11-01"
+    },
+    {
+      "company": "Fliesen Blesch (Weil)",
+      "reason": "eigene Website fliesen-blesch.de",
+      "date": "2026-11-01"
+    },
+    {
+      "company": "Fliesentechnik-Schramm (Peiting)",
+      "reason": "Website fliesenfachfirma-schramm.com im Verzeichnis",
+      "date": "2026-11-01"
+    },
+    {
+      "company": "Elektrotechnik Lux Meisterbetrieb (Schongau)",
+      "reason": "eigene Website et-lux.de",
+      "date": "2026-11-01"
+    },
+    {
+      "company": "Haustechnik Pfaffenwinkel (Peiting)",
+      "reason": "GmbH",
+      "date": "2026-11-01"
+    },
+    {
+      "company": "Malermeisterbetrieb Maximilian Mayr (Uffing)",
+      "reason": "eigene Website mayr-malerbetrieb.de",
+      "date": "2026-11-01"
+    },
+    {
+      "company": "Elektro Schuster Inh. Andreas Reinhart (Penzberg)",
+      "reason": "eigene Website iq-elektro-schuster-penzberg.de",
+      "date": "2026-11-01"
+    },
+    {
+      "company": "Steindl Fassaden und Dachreinigung (Weilheim)",
+      "reason": "Baukasten-Seite business.site",
+      "date": "2026-11-01"
+    },
+    {
+      "company": "Marius Meister Baum- & Gartenpflege (Polling)",
+      "reason": "eigene Website meister-baumpflege.de",
+      "date": "2026-11-01"
+    },
+    {
+      "company": "Elektro Belen GbR (Schongau)",
+      "reason": "eigene Website elektro-belen.de",
+      "date": "2026-11-01"
+    },
+    {
+      "company": "Klaus Löw Rollladenbau (Weilheim)",
+      "reason": "eigene Website rollladenbau-loew.de",
+      "date": "2026-11-01"
+    },
+    {
+      "company": "Zimmerei Ressler GmbH (Peißenberg)",
+      "reason": "GmbH",
+      "date": "2026-11-01"
+    },
+    {
+      "company": "Elektro Ayvaz (Iffeldorf)",
+      "reason": "E-Mail auf eigener Domain",
+      "date": "2026-11-01"
+    },
+    {
+      "company": "Elektro Schreitt (Iffeldorf)",
+      "reason": "E-Mail auf eigener Domain",
+      "date": "2026-11-01"
+    },
+    {
+      "company": "Benedikt Schnell Zimmerei (Peißenberg)",
+      "reason": "E-Mail auf eigener Domain",
+      "date": "2026-11-01"
+    },
+    {
+      "company": "Lushtaku Hausmeisterservice (Inning)",
+      "reason": "eigene Website lushtaku.com",
+      "date": "2026-11-01"
+    },
+    {
+      "company": "Alexander Bachhuber Service (Starnberg)",
+      "reason": "eigene Website bachhuber-service.de",
+      "date": "2026-11-01"
+    },
+    {
+      "company": "Björn Thies Heizung und Sanitär (Tutzing)",
+      "reason": "eigene Visitenkarten-Website mit E-Mail",
+      "date": "2026-11-01"
+    },
+    {
+      "company": "STA Hausmeisterservice (Inning)",
+      "reason": "eigene Website sta-hausmeisterservice.de",
+      "date": "2026-11-01"
+    },
+    {
+      "company": "Fliesentechnik und Ausbau Sassen (Starnberg)",
+      "reason": "E-Mail auf eigener Domain",
+      "date": "2026-11-01"
+    },
+    {
+      "company": "LebensRaumParkett GmbH (Weßling)",
+      "reason": "GmbH",
+      "date": "2026-11-01"
+    },
+    {
+      "company": "Ömür Keser Metallbau (Weßling)",
+      "reason": "E-Mail auf eigener Domain",
+      "date": "2026-11-01"
+    },
+    {
+      "company": "Maier Metallbau GmbH (Weßling)",
+      "reason": "GmbH",
+      "date": "2026-11-01"
+    },
+    {
+      "company": "Rötzer Max Elektroanlagen (Unterschleißheim)",
+      "reason": "E-Mail auf eigener Domain",
+      "date": "2026-11-01"
+    },
+    {
+      "company": "Elektro Bade UG (Unterschleißheim)",
+      "reason": "Baukasten-Seite, UG",
+      "date": "2026-11-01"
+    },
+    {
+      "company": "Achim Lumper Sanitär- und Heizungstechnik (Kirchheim)",
+      "reason": "eigene Website lumper-muenchen.de",
+      "date": "2026-11-01"
+    },
+    {
+      "company": "Elektro-Grastat Patrick Grastat (Garching)",
+      "reason": "eigene Website elektro-grastat.de",
+      "date": "2026-11-01"
+    },
+    {
+      "company": "Malerbetrieb Brambilla (Unterschleißheim)",
+      "reason": "eigene Website malerbetrieb-brambilla.de",
+      "date": "2026-11-01"
+    },
+    {
+      "company": "Robert Zillner Malerbetrieb (Oberschleißheim)",
+      "reason": "eigene Website maler-zillner.com",
+      "date": "2026-11-01"
+    },
+    {
+      "company": "Leonhard Lotter Gartenanlagen (Weilheim)",
+      "reason": "Schwesterbetrieb mit Website klaus-lotter.de am Ort",
+      "date": "2026-11-01"
+    },
+    {
+      "company": "Elektro Schmieder Reinhard Schmieder (Weilheim)",
+      "reason": "eigene Website elektroschmieder.de",
+      "date": "2026-11-01"
+    },
+    {
+      "company": "Edgar Fichtl Dachdeckermeister (Landsberg)",
+      "reason": "eigene Website dachdecker-fichtl.de",
+      "date": "2026-11-01"
+    },
+    {
+      "company": "Peter Spöttl Spenglerei (Windach)",
+      "reason": "Homepage spenglerspoettl.de im Verzeichnis",
+      "date": "2026-11-01"
+    },
+    {
+      "company": "Stefan Hundt Spenglerei (Finning)",
+      "reason": "eigene Website hundt-spenglerei.com",
+      "date": "2026-11-01"
+    },
+    {
+      "company": "Spenglerei Dachdeckerei Nadeem (Penzing)",
+      "reason": "GmbH mit Website",
+      "date": "2026-11-01"
+    },
+    {
+      "company": "Max Kirchmann und Sohn KG (Windach)",
+      "reason": "KG, Webvisitenkarte",
+      "date": "2026-11-01"
+    },
+    {
+      "company": "Markus Vogl Zimmerei (Dießen)",
+      "reason": "Website zimmerei-vogl.de im Verzeichnis",
+      "date": "2026-11-01"
+    },
+    {
+      "company": "Fliesenleger Durakovic Hasan (Penzberg)",
+      "reason": "nicht nachweisbar",
+      "date": "2026-11-01"
+    },
+    {
+      "company": "mh-bautechnik Michael Henter (Schwabmünchen)",
+      "reason": "nicht nachweisbar",
+      "date": "2026-11-01"
+    },
+    {
+      "company": "MT Ausbauservice (Herrsching)",
+      "reason": "eigene Website mt-baut.de",
+      "date": "2026-11-01"
+    },
+    {
+      "company": "Wolf Baudienstleistungen (Penzing)",
+      "reason": "eigene Website wolfbaudienstleistungen.de",
+      "date": "2026-11-01"
+    },
+    {
+      "company": "Benno Priller Elektro (Penzberg)",
+      "reason": "Website sp-krenn.de im Verzeichnis",
+      "date": "2026-11-01"
+    },
+    {
+      "company": "TS Projekt- & Montagebau (Weilheim)",
+      "reason": "eigene Website ts-projektbau.de",
+      "date": "2026-11-01"
+    },
+    {
+      "company": "Christian Gerl Elektro- u. Energietechnik (Penzberg)",
+      "reason": "eigene Website energietechnik-gerl.de",
+      "date": "2026-11-01"
+    },
+    {
+      "company": "Edwin Keller Heizungsbau (Tutzing)",
+      "reason": "eigene Website heizung-sanitaer-solaranlagen.de",
+      "date": "2026-11-01"
     }
   ]
 }

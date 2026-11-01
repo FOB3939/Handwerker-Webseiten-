@@ -492,3 +492,4 @@ canvas.mfx-layer { width: 100%; height: 100%; }
 @media (prefers-reduced-motion: reduce) { .kante-dot { animation: none; } }
 [data-skin="kante"] header a[href="#anfrage"], [data-skin="kante"] main a.rounded-t[href="#anfrage"] { font-family: var(--font-mono, ui-monospace, monospace); text-transform: uppercase; letter-spacing: 0.1em; }
 [data-skin="kante"] header details summary, [data-skin="kante"] header a[href^="tel:"] { border-color: rgb(255 255 255 / 0.3); }
+[data-skin="kante"] .fixed.bottom-0 .kante-btn { font-size: 13px; letter-spacing: 0.07em; }

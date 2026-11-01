@@ -1,123 +1,115 @@
 {
   "id": "2026-11-01-187",
-  "slug": "spenglerei-muhr-seeshaupt",
+  "slug": "araucaria-gartengestaltung-polling",
   "date": "2026-11-01",
   "company": {
-    "name": "Michael Muhr Spenglerei",
-    "owner": "Michael Muhr",
-    "trade": "Spenglerei",
-    "city": "Seeshaupt",
-    "address": "Hohenberger Straße 6, 82402 Seeshaupt",
-    "phone": "08801 2043",
-    "email": "spenglerei.muhr@t-online.de",
+    "name": "Araucaria Garten- und Landschaftsgestaltung",
+    "owner": null,
+    "trade": "Garten- und Landschaftsbau",
+    "city": "Polling",
+    "address": "Huglfinger Str. 5, 82398 Polling",
+    "phone": "0176 85495315",
+    "email": "greinwalddominik@gmail.com",
     "serviceArea": [
-      "Seeshaupt",
-      "Bernried",
-      "Iffeldorf",
-      "Penzberg",
-      "Münsing",
-      "Tutzing"
+      "Polling",
+      "Weilheim",
+      "Huglfing",
+      "Oderding",
+      "Etting",
+      "Peißenberg",
+      "Wielenbach"
     ]
   },
   "listings": {
     "google": {
-      "url": "https://www.google.com/maps/search/?api=1&query=Michael%20Muhr%20Spenglerei%20Hohenberger%20Stra%C3%9Fe%206%20Seeshaupt",
+      "url": "https://www.google.com/maps/search/?api=1&query=Araucaria%20Garten-%20und%20Landschaftsgestaltung%20Huglfinger%20Str.%205%20Polling",
       "rating": null,
       "reviews": null,
-      "evidence": "NICHT direkt belegt – kein Google-Spiegel geprüft (Suchbudget). Annahme über öffentlich belegte Freemail: spenglerei.muhr@t-online.de laut 11880 (Ergebnis der Suche Spenglerei Weilheim/Umgebung) und auf seeshaupt.de (Feuerwehr/Ortsvereine, mit Michael Muhr). In Maps prüfen."
+      "evidence": "KEIN direkter Google-Beleg gefunden (kein Spiegel-Treffer). Annahme stützt sich auf die öffentlich gelistete Freemail-Adresse (gmail) im 11880-Eintrag. In Google Maps prüfen, ob ein Eintrag existiert und ob dort eine Website hinterlegt ist."
     },
     "myhammer": {
-      "url": "https://www.goyellow.de/home/klempner-muhr-seeshaupt--bvrh93.html",
+      "url": "https://www.11880.com/branchenbuch/polling-kreis-weilheim-schongau/170211840B102721250/araucaria-garten-und-landschaftsgestaltung.html",
       "rating": null,
       "reviews": null,
-      "evidence": "Kein MyHammer gefunden – Verzeichniseinträge „Muhr Michael Spenglerei“ (goyellow, Klempner und Spengler), oeffnungszeitenbuch.de, finde-offen.de (Hohenberger Str. 6, Mo–Fr 8–18 Uhr, Angabe ca. 6 Jahre alt); Telefon 08801 2043, Fax 08801 2046."
+      "evidence": "Kein MyHammer gefunden – 11880-Eintrag „Araucaria Garten- und Landschaftsgestaltung“, Huglfinger Str. 5, 82398 Polling, Kategorien Garten- und Landschaftsbau, Garten- und Landschaftspflege, Gartenbau; E-Mail greinwalddominik@gmail.com; Mobilnummer im Snippet 0176 85495315 (in der 11880-Ortsliste Huglfing/Polling abweichend 0176 60819229)."
     }
   },
   "websiteStatus": "keine eigene Website gefunden",
   "websiteChecks": [
-    "(1) „Michael Muhr Spenglerei Seeshaupt“ mit blocked_domains (11880, Gelbe Seiten, Das Örtliche, Telefonbuch, Cylex, meinestadt, Creditreform, Facebook, Instagram, golocal, MyHammer, Northdata, Firmenwissen, WKDB, Yelp, trustlocal, wlw) – nur Verzeichnisse (oeffnungszeitenbuch, goyellow, finde-offen, yasni, dachdecker.com) und Gemeindeseiten seeshaupt.de (Feuerwehr, Ortsvereine, Dorfzeitung 2002/2003); keine eigene Domain",
-    "(2) Domain-Check allowed_domains spenglerei-muhr.de, muhr-spenglerei.de, spenglerei-muhr-seeshaupt.de, muhr-seeshaupt.de, michael-muhr.de, spenglereimuhr.de, muhr-dach.de, spenglerei-muhr.com – keine Treffer",
-    "(3) Telefonsuche „08801 2043“/„088012043“/„08801/2043“ – keine Treffer",
-    "(4) Impressum-Suche nicht mehr durchgeführt (Suchbudget erschöpft) – Namenssuche zeigte kein Impressum",
-    "(5) E-Mail auf Freemail-Domain (t-online.de), nicht auf eigener Domain",
-    "Website-Risiko: niedrig – Name, Domain und Telefon negativ, Freemail belegt; Google-Eintrag nicht direkt geprüft"
+    "(1) „Araucaria Garten- und Landschaftsgestaltung Polling“ mit blocked_domains (11880, Gelbe Seiten, Das Örtliche, Telefonbuch, Cylex, meinestadt, Creditreform, Facebook, Instagram, golocal, MyHammer, Northdata, Firmenwissen, WKDB, Yelp, trustlocal, wlw) – nur Pflanzenratgeber zur Araukarie, keine Firmenseite",
+    "(2) „Dominik Greinwald Garten Polling“ mit blocked_domains – nur Familienchronik Greinwald, Gartenbauverein und andere Pollinger Gartenbaubetriebe; keine Website des Betriebs",
+    "(3) Domain-Check allowed_domains araucaria-polling.de, araucaria-garten.de, araucaria-gartengestaltung.de, araucaria-galabau.de, araucaria-gartenbau.de, greinwald-garten.de, greinwald-galabau.de, gartenbau-greinwald.de – keine Treffer",
+    "(4) Telefonsuche „0176 60819229“ zusammen mit Name/Adresse – keine Treffer; Suche nach 0176 85495315 vom Suchwerkzeug nicht ausgeführt",
+    "(5) Impressum-Suche „Impressum Araucaria Gartengestaltung Polling Greinwald“ – kein Impressum des Betriebs",
+    "(6) 11880-Eintrag: E-Mail auf gmail.com, kein Website-Feld im Snippet",
+    "Website-Risiko: mittel – alle Prüfungen negativ, Freemail belegt, aber kein Google-Beleg und widersprüchliche Mobilnummern"
   ],
   "facts": {
     "services": [
-      "Spenglerei",
-      "Klempnerarbeiten"
+      "Garten- und Landschaftsbau",
+      "Gartenpflege",
+      "Garten- und Landschaftspflege",
+      "Gartenbau"
     ],
-    "experience": "Laut Anzeige in der Seeshaupter Dorfzeitung (2002) seit 1964 – nur als Hintergrund, nicht im Seitentext verwendet",
+    "experience": null,
     "praisedFor": []
   },
   "strategy": {
-    "audience": "Hauseigentümer in Seeshaupt, Bernried, Iffeldorf und Penzberg mit undichter Dachrinne, alter Blecheindeckung oder anstehender Dachsanierung",
-    "mainService": "Spenglerarbeiten an Dach und Fassade – Rinnen, Fallrohre, Bleche",
-    "trustSignal": "Ortsansässige Spenglerei in Seeshaupt, Inhaber vor Ort bekannt",
-    "conversionGoal": "Rückruf oder Besichtigung für Spenglerarbeiten anfragen (per Telefon oder E-Mail mit Fotos)",
-    "visualConcept": "Glänzendes Kupfer und Titanzink vor bayerischem Himmel: Dachrinnen, Kehlen und Kaminverkleidungen in sauberen Falzen"
+    "audience": "Hausbesitzer und Vermieter in Polling, Weilheim, Huglfing und Peißenberg, die ihren Garten neu anlegen oder regelmäßig pflegen lassen wollen",
+    "mainService": "Gartengestaltung und Gartenpflege",
+    "trustSignal": "Kleiner Betrieb direkt in Polling, per Handy und E-Mail erreichbar",
+    "conversionGoal": "Kostenlose Anfrage für Gartenpflege oder Gartengestaltung (per WhatsApp mit Fotos oder Anruf)",
+    "visualConcept": "Gepflegte oberbayerische Hausgärten im Voralpenland: frisch geschnittene Hecken, klare Beetkanten, Rasen vor Bergkulisse – ruhig und naturnah"
   },
   "sales": {
-    "score": 5,
+    "score": 4,
     "whyGoodLead": [
-      "Keine eigene Website gefunden – nur Verzeichniseinträge",
-      "Freemail-Adresse öffentlich gelistet – E-Mail-Erstkontakt möglich",
-      "Spenglerei ist ein bisher seltenes Gewerk im Bestand",
-      "Dachrinnen- und Blechreparaturen werden kurzfristig online gesucht"
+      "Keine eigene Website gefunden – nur Verzeichniseintrag mit gmail-Adresse",
+      "Mobilnummer öffentlich gelistet – WhatsApp-Erstkontakt möglich",
+      "Kaum Sichtbarkeit im Netz – eine Website mit Leistungsübersicht hebt den Betrieb von größeren GaLaBau-Firmen ab",
+      "Gartenpflege ist im Landkreis Weilheim-Schongau eine wiederkehrende Leistung mit Stammkunden-Potenzial"
     ],
-    "pitch": "Grüß Gott Herr Muhr, hier ist … – ich baue Websites für Handwerksbetriebe am Starnberger See. Ihre Spenglerei in Seeshaupt habe ich in Verzeichnissen gefunden, aber keine eigene Website. Ich habe unverbindlich einen Entwurf vorbereitet, über den Kunden Ihre Spenglerarbeiten sehen und direkt anfragen können – darf ich Ihnen den Link schicken?"
+    "pitch": "Hallo, hier ist … – ich baue Websites für Handwerksbetriebe im Landkreis Weilheim-Schongau. Ich habe Ihren Eintrag „Araucaria Garten- und Landschaftsgestaltung“ in Polling gefunden, aber keine eigene Website. Ich habe unverbindlich einen Entwurf vorbereitet, auf dem Kunden Ihre Gartenpflege und Gartengestaltung sehen und direkt per WhatsApp anfragen können – darf ich Ihnen den Link schicken?"
   },
   "manualChecks": [
-    "Website-Risiko: niedrig – vor Versand in Google Maps prüfen, dass keine Website hinterlegt ist (Grund: Name, Domain und Telefon negativ, Freemail belegt; Google-Eintrag und Impressum nicht eigens geprüft)",
-    "E-Mail spenglerei.muhr@t-online.de steht auf seeshaupt.de im Zusammenhang mit Feuerwehr/Ortsvereinen – vor Versand prüfen, dass sie weiterhin geschäftlich genutzt wird",
-    "Zwei Adressen: Hohenberger Str. 6 (Verzeichnisse) und Buchwiesenstr. 21 (Dorfzeitung 2002/2003, dachdecker.com) – aktuelle Adresse klären",
-    "Betrieb aktiv? Verzeichnisdaten teils älter (finde-offen ca. 6 Jahre) – vor Versand bestätigen",
-    "Leistungen nur grob belegt (Spenglerei, Klempner) – Detailleistungen (Dachrinnen, Blechdach, Kaminverkleidung, Kupfer/Titanzink) beim Betrieb bestätigen",
-    "„Meister“ nirgends belegt – nicht verwenden; Gründungsjahr 1964 nur aus alter Anzeige – nicht auf der Seite verwenden",
+    "Website-Risiko: mittel – vor Versand in Google Maps prüfen, dass keine Website hinterlegt ist (Grund: kein Google-Beleg gefunden, Annahme nur über Freemail; Mobilnummern widersprüchlich)",
+    "Mobilnummer klären: 11880-Detail-Snippet 0176 85495315, 11880-Ortsliste 0176 60819229 – vor Kontakt prüfen, welche aktuell ist",
+    "Inhaber nicht belegt (E-Mail deutet auf Dominik Greinwald hin) – im Erstkontakt erfragen, Anrede neutral halten",
+    "11880 zeigt den Betrieb teils als „geschlossen“ – prüfen, ob der Betrieb noch aktiv ist",
+    "Namensgleiche Betriebe mit Website in der Region (Trockenbau Greinwald Weilheim, Tobias Greinwald Seeshaupt) – kein Bezug belegt; prüfen, dass kein Familienbetrieb mit Website dahintersteht",
+    "Leistungen nur als Verzeichniskategorien belegt (Garten- und Landschaftsbau, -pflege, Gartenbau) – Detailleistungen (Pflaster, Zaun, Baumpflege) nicht genannt, beim Betrieb bestätigen",
     "Logo und Projektfotos: nicht gefunden – beim Betrieb anfragen"
   ],
   "sources": [
     {
-      "label": "oeffnungszeitenbuch – Michael Muhr Spenglerei, Seeshaupt",
-      "url": "https://www.oeffnungszeitenbuch.de/filiale/Seeshaupt-Michael%2520Muhr%2520Spenglerei-2646717L.html"
+      "label": "11880 – Araucaria Garten- und Landschaftsgestaltung, Polling",
+      "url": "https://www.11880.com/branchenbuch/polling-kreis-weilheim-schongau/170211840B102721250/araucaria-garten-und-landschaftsgestaltung.html"
     },
     {
-      "label": "goyellow – Muhr Michael Spenglerei",
-      "url": "https://www.goyellow.de/home/klempner-muhr-seeshaupt--bvrh93.html"
+      "label": "11880 – Gartenbauer Huglfing (Liste mit Araucaria)",
+      "url": "https://www.11880.com/suche/gartenbau/huglfing"
     },
     {
-      "label": "finde-offen – Michael Muhr Spenglerei, Hohenberger Str. 6",
-      "url": "https://finde-offen.de/seeshaupt/michael-muhr-spenglerei-1093684"
-    },
-    {
-      "label": "Gemeinde Seeshaupt – Ortsvereine (Michael Muhr, spenglerei.muhr@t-online.de)",
-      "url": "https://www.seeshaupt.de/freizeit-geniessen/reges-vereinsleben/ortsvereine"
-    },
-    {
-      "label": "Gemeinde Seeshaupt – Feuerwehr",
-      "url": "https://www.seeshaupt.de/bildung-und-soziales/feuerwehr-und-rettungsdienst/feuerwehr"
-    },
-    {
-      "label": "Seeshaupter Dorfzeitung 1/2003 (Anzeige Spenglerei Muhr)",
-      "url": "https://www.seeshaupt.de/fileadmin/Gemeinde_Seeshaupt/Dateien/Seeshaupter_Dorfzeitung/2003/01_Ausgabe_1.pdf"
+      "label": "11880 – Garten- und Landschaftsbauer Huglfing",
+      "url": "https://www.11880.com/suche/garten-und-landschaftsbau/huglfing"
     }
   ],
   "site": {
-    "theme": "objekt",
+    "theme": "garten",
     "category": "handwerk",
     "heroOffer": [
-      "Dachrinnen",
-      "Fallrohre",
-      "Blechdach",
-      "Kaminblech",
-      "Reparaturen"
+      "Gartenpflege",
+      "Gartengestaltung",
+      "Heckenschnitt",
+      "Rasenpflege",
+      "Bepflanzung"
     ],
-    "scene": "facade",
-    "logoIcon": "roof",
-    "logoMark": "MM",
-    "brandName": "Spenglerei Muhr",
-    "seoTitle": "Spenglerei in Seeshaupt – Michael Muhr",
-    "seoDescription": "Dachrinnen, Fallrohre, Blechdächer und Kaminverkleidungen in Seeshaupt und Umgebung. Spenglerei Michael Muhr – jetzt anfragen.",
+    "scene": "garden",
+    "logoIcon": "leaf",
+    "logoMark": "AG",
+    "brandName": "Araucaria Gartengestaltung",
+    "seoTitle": "Gartengestaltung & Gartenpflege in Polling – Araucaria",
+    "seoDescription": "Garten- und Landschaftsbau, Gartenpflege und Gestaltung in Polling, Weilheim und Umgebung. Jetzt kostenlos anfragen – auch per WhatsApp.",
     "nav": [
       {
         "label": "Leistungen",
@@ -145,267 +137,272 @@
       }
     ],
     "hero": {
-      "eyebrow": "Spenglerei · Seeshaupt",
-      "headline": "Spenglerei Muhr in Seeshaupt",
-      "sub": "Dachrinnen, Bleche und Verwahrungen – damit Regenwasser dort abläuft, wo es soll.",
-      "ctaPrimary": "Anfrage senden",
+      "eyebrow": "Garten- und Landschaftsbau · Polling",
+      "headline": "Gartengestaltung und Pflege in Polling",
+      "sub": "Neue Beete, geschnittene Hecken und gepflegter Rasen – für Gärten zwischen Polling und Weilheim.",
+      "ctaPrimary": "Garten-Anfrage senden",
       "ctaSecondary": "Anrufen",
       "bullets": [
-        "Spenglerei in Seeshaupt",
-        "Rinnen, Rohre, Bleche",
-        "Anfrage per Telefon oder E-Mail"
+        "Betrieb in Polling",
+        "Gestaltung und laufende Pflege",
+        "Fotos per WhatsApp genügen"
       ],
-      "imageLabel": "neue Dachrinne aus Titanzink an einem Satteldach"
+      "imageLabel": "gepflegter Hausgarten mit Heckenschnitt im Voralpenland"
     },
     "badges": [
       {
-        "title": "Spenglerei",
-        "sub": "Dach und Fassade"
+        "title": "Gestaltung",
+        "sub": "Garten neu anlegen"
       },
       {
-        "title": "Dachentwässerung",
-        "sub": "Rinnen & Fallrohre"
+        "title": "Pflege",
+        "sub": "übers Gartenjahr"
       },
       {
-        "title": "Blech",
-        "sub": "Kupfer & Titanzink"
+        "title": "Landschaftsbau",
+        "sub": "Flächen und Wege"
       },
       {
-        "title": "Seeshaupt",
-        "sub": "Hohenberger Straße"
+        "title": "Polling",
+        "sub": "Huglfinger Straße"
       }
     ],
     "trust": [
       {
-        "value": "Seeshaupt",
-        "label": "Betrieb im Ort"
+        "value": "Vor Ort",
+        "label": "Betrieb in Polling"
       },
       {
-        "value": "Blech",
-        "label": "Rinnen, Bleche, Verwahrungen"
+        "value": "3",
+        "label": "Bereiche: Bau, Pflege, Gartenbau"
       },
       {
-        "value": "E-Mail",
-        "label": "Fotos direkt schicken"
+        "value": "Außen",
+        "label": "Garten, Hof und Grün"
       },
       {
-        "value": "Inhaber",
-        "label": "Michael Muhr"
+        "value": "Mobil",
+        "label": "per Handy erreichbar"
       }
     ],
     "servicesIntro": {
-      "headline": "Spenglerarbeiten rund ums Dach",
-      "text": "Ob tropfende Rinne oder neue Kaminverkleidung: Die Spenglerei Muhr hält Dach und Fassade in Seeshaupt dicht."
+      "headline": "Vom ersten Entwurf bis zum Herbstschnitt",
+      "text": "Ein Garten braucht Planung beim Anlegen und Pflege in jeder Saison. Beides erledigt ein Betrieb aus Polling."
     },
     "services": [
       {
-        "title": "Dachrinnen",
-        "text": "Neue Rinnen montieren oder undichte Stellen und Rinnenhalter ersetzen.",
+        "title": "Gartengestaltung",
+        "text": "Wir planen Ihren Garten neu: Beete, Rasenflächen und Wege passend zu Haus und Grundstück.",
         "items": [
-          "Montage",
-          "Rinnenhalter",
-          "Abdichten"
+          "Neuanlage",
+          "Umgestaltung",
+          "Beetplanung"
         ]
       },
       {
-        "title": "Fallrohre",
-        "text": "Fallrohre erneuern und sauber an Rinne und Kanal anschließen.",
+        "title": "Gartenpflege",
+        "text": "Regelmäßige Pflege hält den Garten in Form – Sie entscheiden, wie oft wir kommen.",
         "items": [
-          "Erneuern",
-          "Standrohr",
-          "Laubfang"
+          "Saisonpflege",
+          "Unkraut entfernen",
+          "Laub räumen"
         ]
       },
       {
-        "title": "Blechdach",
-        "text": "Dächer und Vordächer mit Blech eindecken – etwa für Gauben, Erker oder Garagen.",
+        "title": "Heckenschnitt",
+        "text": "Formschnitt für Hecken und Sträucher, damit sie dicht bleiben und nicht über den Zaun wachsen.",
         "items": [
-          "Gauben",
-          "Vordächer",
-          "Garagendach"
+          "Formschnitt",
+          "Rückschnitt",
+          "Grünschnitt-Abfuhr"
         ]
       },
       {
-        "title": "Kaminverkleidung",
-        "text": "Kamine mit Blech verkleiden und den Anschluss ans Dach dicht verwahren.",
+        "title": "Rasenpflege",
+        "text": "Mähen, Vertikutieren und Nachsäen für einen dichten, belastbaren Rasen.",
         "items": [
-          "Verkleidung",
-          "Kaminkopf",
-          "Anschluss"
+          "Mähen",
+          "Vertikutieren",
+          "Nachsaat"
         ]
       },
       {
-        "title": "Verwahrungen",
-        "text": "Wandanschlüsse, Kehlen und Ortgänge so ausbilden, dass kein Wasser eindringt.",
+        "title": "Bepflanzung",
+        "text": "Stauden, Sträucher und Gehölze, ausgewählt für Standort und Klima im Pfaffenwinkel.",
         "items": [
-          "Kehlen",
-          "Wandanschluss",
-          "Ortgang"
+          "Stauden",
+          "Sträucher",
+          "Gehölze"
         ]
       },
       {
-        "title": "Reparaturen",
-        "text": "Sturmschäden, lose Bleche und Tropfstellen schnell beheben.",
+        "title": "Landschaftsbau",
+        "text": "Flächen vorbereiten, Erde bewegen und Außenanlagen herrichten – als Grundlage für den neuen Garten.",
         "items": [
-          "Sturmschaden",
-          "Lose Bleche",
-          "Tropfstellen"
+          "Flächen vorbereiten",
+          "Erdarbeiten",
+          "Außenanlagen"
         ]
       }
     ],
     "why": {
-      "headline": "Spenglerarbeiten aus dem eigenen Ort.",
+      "headline": "Gartenarbeit aus Polling – ohne lange Anfahrt.",
       "points": [
         {
-          "title": "Kurze Anfahrt",
-          "text": "Von Seeshaupt aus schnell in Bernried, Iffeldorf, Penzberg und Münsing."
+          "title": "Kurze Wege",
+          "text": "Von Polling aus sind Weilheim, Huglfing und Peißenberg schnell erreicht."
         },
         {
-          "title": "Fotos per E-Mail",
-          "text": "Ein Bild der Schadstelle reicht oft für die erste Einschätzung."
+          "title": "Ein Ansprechpartner",
+          "text": "Anfrage, Termin und Rückfragen laufen direkt über eine Handynummer."
         },
         {
-          "title": "Inhaber vor Ort",
-          "text": "Michael Muhr ist in Seeshaupt bekannt und selbst ansprechbar."
+          "title": "Bau und Pflege",
+          "text": "Wer den Garten anlegt, kann ihn danach auch pflegen – Sie brauchen keinen zweiten Betrieb."
         },
         {
-          "title": "Dicht bis ins Detail",
-          "text": "Kehlen, Anschlüsse und Rinnen entscheiden, ob das Dach trocken bleibt."
+          "title": "Fotos statt Termin",
+          "text": "Für eine erste Einschätzung reichen oft ein paar Bilder per WhatsApp."
         }
       ]
     },
     "reviews": {
-      "headline": "Was Kunden sagen",
+      "headline": "Stimmen aus der Nachbarschaft",
       "summary": "Kundenstimmen binden wir hier ein, sobald sie aus dem Google-Profil übernommen sind.",
       "highlights": [
-        "Spenglerei in Seeshaupt",
-        "Rinnen und Bleche",
-        "Inhaber vor Ort"
+        "Gartenpflege in Polling",
+        "Gestaltung und Bepflanzung",
+        "Direkter Kontakt"
       ],
       "source": "Google",
-      "sourceUrl": "https://www.google.com/maps/search/?api=1&query=Michael%20Muhr%20Spenglerei%20Hohenberger%20Stra%C3%9Fe%206%20Seeshaupt",
+      "sourceUrl": "https://www.google.com/maps/search/?api=1&query=Araucaria%20Garten-%20und%20Landschaftsgestaltung%20Huglfinger%20Str.%205%20Polling",
       "rating": null,
       "count": null
     },
     "process": {
-      "headline": "Vom Tropfen zur dichten Rinne",
+      "headline": "So kommt Ihr Garten in Form",
       "steps": [
         {
-          "title": "Anfrage",
-          "text": "Anrufen oder Fotos der Stelle per E-Mail schicken."
+          "title": "Fotos schicken",
+          "text": "Sie senden Bilder vom Garten und beschreiben kurz, was gemacht werden soll."
         },
         {
-          "title": "Besichtigung",
-          "text": "Michael Muhr schaut sich Dach und Rinne vor Ort an."
+          "title": "Vor-Ort-Termin",
+          "text": "Wir sehen uns Fläche, Boden und Bewuchs an und besprechen Ihre Wünsche."
         },
         {
           "title": "Angebot",
-          "text": "Sie erhalten ein Angebot mit Material und Umfang."
+          "text": "Sie bekommen ein klares Angebot – einmalig oder als laufende Pflege."
         },
         {
-          "title": "Ausführung",
-          "text": "Bleche zuschneiden, montieren, abdichten – fertig."
+          "title": "Umsetzung",
+          "text": "Wir legen an oder pflegen und nehmen den Grünschnitt nach Absprache mit."
         }
       ]
     },
     "gallery": {
-      "headline": "Arbeiten am Dach",
-      "text": "In der Live-Version zeigen wir hier echte Arbeiten der Spenglerei.",
+      "headline": "Gärten aus der Region",
+      "text": "In der Live-Version zeigen wir hier echte Projekte des Betriebs.",
       "items": [
         {
-          "title": "Neue Dachrinne",
-          "photoNeeded": "frisch montierte Rinne aus Titanzink"
+          "title": "Neues Staudenbeet",
+          "photoNeeded": "frisch angelegtes Beet mit Stauden und Mulch"
         },
         {
-          "title": "Kaminverkleidung",
-          "photoNeeded": "mit Blech verkleideter Kamin auf Ziegeldach"
+          "title": "Hecke in Form",
+          "photoNeeded": "Hecke vor und nach dem Formschnitt"
         },
         {
-          "title": "Gaubendach",
-          "photoNeeded": "Gaube mit Blecheindeckung"
+          "title": "Rasenfläche",
+          "photoNeeded": "dichter, frisch gemähter Rasen am Einfamilienhaus"
         },
         {
-          "title": "Kehle",
-          "photoNeeded": "eingeblechte Dachkehle"
+          "title": "Gartenumbau",
+          "photoNeeded": "umgestalteter Garten mit Weg und Bepflanzung"
         },
         {
-          "title": "Fallrohr",
-          "photoNeeded": "neues Fallrohr an Hausfassade"
+          "title": "Herbstpflege",
+          "photoNeeded": "geräumter Garten nach Laub- und Rückschnitt"
         }
       ]
     },
     "region": {
-      "headline": "Spenglerei für Seeshaupt und das Südufer",
-      "text": "Von Seeshaupt aus in Bernried, Iffeldorf, Penzberg, Münsing und Tutzing unterwegs.",
+      "headline": "Gartenpflege für Polling und den Pfaffenwinkel",
+      "text": "Von Polling aus arbeiten wir in Weilheim, Huglfing, Oderding, Etting, Peißenberg und Wielenbach.",
       "places": [
-        "Seeshaupt",
-        "Magnetsried",
-        "Bernried",
-        "Iffeldorf",
-        "Penzberg",
-        "Münsing",
-        "Tutzing"
+        "Polling",
+        "Weilheim",
+        "Huglfing",
+        "Oderding",
+        "Etting",
+        "Peißenberg",
+        "Wielenbach"
       ]
     },
     "faq": [
       {
-        "q": "Meine Dachrinne tropft – lohnt sich eine Reparatur?",
-        "a": "Oft ja. Nach einem Blick auf Rinne und Halter lässt sich sagen, ob Reparatur oder Tausch sinnvoller ist."
+        "q": "Übernehmen Sie auch regelmäßige Gartenpflege?",
+        "a": "Ja, Gartenpflege gehört zum Angebot. Wie oft wir kommen, stimmen wir mit Ihnen ab."
       },
       {
         "q": "Kann ich vorab Fotos schicken?",
-        "a": "Ja, per E-Mail an spenglerei.muhr@t-online.de – das hilft bei der ersten Einschätzung."
+        "a": "Ja, Fotos per WhatsApp helfen für eine erste Einschätzung."
       },
       {
-        "q": "Welche Materialien verwenden Sie?",
-        "a": "Das wird je nach Dach abgestimmt, etwa Titanzink oder Kupfer."
+        "q": "Legen Sie auch neue Gärten an?",
+        "a": "Ja, Garten- und Landschaftsbau sowie Gartengestaltung gehören zum Angebot."
       },
       {
-        "q": "Übernehmen Sie auch kleine Aufträge?",
-        "a": "Fragen Sie einfach an – auch ein einzelnes Fallrohr oder ein loses Blech."
+        "q": "In welchen Orten arbeiten Sie?",
+        "a": "Vor allem in Polling, Weilheim, Huglfing und Umgebung – fragen Sie einfach an."
       },
       {
-        "q": "Wie erreiche ich Sie?",
-        "a": "Telefonisch unter 08801 2043 oder per E-Mail."
+        "q": "Was kostet die Gartenpflege?",
+        "a": "Das hängt von Fläche und Aufwand ab. Nach Fotos oder Besichtigung erhalten Sie ein Angebot."
       }
     ],
     "contact": {
-      "headline": "Spenglerarbeiten anfragen",
-      "text": "Beschreiben Sie kurz, wo es tropft oder was erneuert werden soll – Rinne, Fallrohr, Kamin oder Blechdach. Fotos helfen.",
+      "headline": "Ihr Garten – kostenlos anfragen",
+      "text": "Schreiben Sie kurz, um welchen Garten es geht, wie groß er ungefähr ist und ob Neuanlage oder Pflege. Fotos helfen.",
       "topics": [
-        "Dachrinnen",
-        "Fallrohre",
-        "Blechdach",
-        "Kaminverkleidung",
-        "Reparatur",
+        "Gartengestaltung",
+        "Gartenpflege",
+        "Heckenschnitt",
+        "Rasenpflege",
         "Sonstiges"
       ],
       "responseNote": "Besichtigung nach Absprache."
     },
     "quote": {
-      "sizeLabel": "Worum geht es?",
+      "sizeLabel": "Wie groß ist der Garten?",
       "sizes": [
-        "Kleine Reparatur",
-        "Rinne / Fallrohr",
-        "Kamin / Gaube",
-        "Ganzes Dach"
+        "Kleiner Garten",
+        "Reihenhausgarten",
+        "Einfamilienhaus-Garten",
+        "Großes Grundstück"
       ],
       "timings": [
-        "Dringend",
+        "So bald wie möglich",
         "In den nächsten Wochen",
-        "Vor dem Winter",
+        "Zum Frühjahr",
         "Ich plane erst noch"
       ]
     },
-    "stickyCta": "Spengler anfragen",
+    "stickyCta": "Garten anfragen",
     "look": {
+      "skin": "kante",
       "palette": 2,
-      "font": 6,
+      "font": 12,
       "hero": 0,
-      "services": 1,
+      "services": 4,
       "radius": 1,
-      "logo": 0,
-      "intro": 5
+      "logo": 4,
+      "intro": 5,
+      "projects": 2,
+      "process": 1,
+      "faq": 1,
+      "reviews": 0,
+      "order": 0
     }
   }
 }

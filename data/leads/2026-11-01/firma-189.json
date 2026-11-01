@@ -1,115 +1,114 @@
 {
   "id": "2026-11-01-189",
-  "slug": "bueltel-heizung-bernried",
+  "slug": "mt-stone-prittriching",
   "date": "2026-11-01",
   "company": {
-    "name": "Andreas Bültel Heizungs- und Lüftungsbau",
-    "owner": "Andreas Bültel",
-    "trade": "Heizung, Lüftung & Sanitär",
-    "city": "Bernried am Starnberger See",
-    "address": "Dorfstraße 17, 82347 Bernried am Starnberger See",
-    "phone": "08158 903571",
-    "email": null,
+    "name": "MT-Stone",
+    "owner": null,
+    "trade": "Fliesenleger",
+    "city": "Prittriching",
+    "address": "Ringstr. 2, 86931 Prittriching (Winkl)",
+    "phone": "0173 3669438",
+    "email": "mt-stone@t-online.de",
     "serviceArea": [
-      "Bernried",
-      "Tutzing",
-      "Seeshaupt",
-      "Pähl",
-      "Feldafing",
-      "Iffeldorf"
+      "Prittriching",
+      "Winkl",
+      "Scheuring",
+      "Kaufering",
+      "Mering",
+      "Königsbrunn"
     ]
   },
   "listings": {
     "google": {
-      "url": "https://www.google.com/maps/search/?api=1&query=Andreas%20B%C3%BCltel%20Dorfstra%C3%9Fe%2017%20Bernried",
+      "url": "https://www.google.com/maps/search/?api=1&query=MT-Stone%20Ringstr.%202%20Prittriching",
       "rating": null,
       "reviews": null,
-      "evidence": "NICHT BELEGT – kein Google-Spiegel mit Bewertungen oder Maps-Daten gefunden; nur Verzeichnisse (klicktel, klimatechniker.net, heizungsbau.net, Gelbe Seiten) und Handwerkerverzeichnis der HWK München. In Maps prüfen."
+      "evidence": "Kein Google-Spiegel gefunden – Google-Eintrag nicht belegt. Freemail-Adresse mt-stone@t-online.de öffentlich im 11880-Eintrag (Laminat- und Fliesenleger, Ringstr. 2, 86931 Prittriching-Winkl, 0173 3669438). 11880 zeigt 5/5 aus 1 Bewertung (11880, nicht Google). In Maps prüfen."
     },
     "myhammer": {
-      "url": "https://www.11880.com/branchenbuch/bernried-starnberger-see/060692320B36685163/andreas-bueltel-heizungs-und-lueftungsbau.html",
+      "url": "https://www.11880.com/suche/laminatleger/igling",
       "rating": null,
       "reviews": null,
-      "evidence": "Kein MyHammer gefunden – Eintrag bei 11880/klicktel „Andreas Bültel Heizungs- und Lüftungsbau“, Dorfstr. 17, 82347 Bernried, (08158) 903571, Branchen Heizungsinstallation, Lüftungsbau, Klempner (Daten laut klicktel aktualisiert 02.10.2026)."
+      "evidence": "Kein MyHammer gefunden – Einträge in 11880-Ortslisten (Laminatleger/Fliesen Umkreis Prittriching, Igling, Reichling) und im Gelbe-Seiten-Ortsindex Prittriching."
     }
   },
   "websiteStatus": "keine eigene Website gefunden",
   "websiteChecks": [
-    "(1) „Bültel Heizung Lüftungsbau Bernried“ mit blocked_domains (11880, Gelbe Seiten, Das Örtliche, Telefonbuch, Cylex, meinestadt, Creditreform, Facebook, Instagram, golocal, MyHammer, Northdata, Firmenwissen, WKDB, Yelp, trustlocal, wlw) – nur Verzeichnisse (klicktel, klimatechniker.net, heizungsbau.net, HWK-Handwerkersuche, SHK-Innung Oberland); keine eigene Domain",
-    "(2) Domain-Check allowed_domains bueltel.de, bueltel-heizung.de, heizung-bueltel.de, bueltel-haustechnik.de, andreas-bueltel.de, bueltel-bernried.de, bueltel.com, haustechnik-bueltel.de – nur bueltel.com (Bekleidungswerke Salzbergen, fremde Firma), sonst keine Treffer",
-    "(3) Telefon-/E-Mail-Suche „08158 903571“/„08158 9035-71“/„Bültel Bernried E-Mail“ – keine Website, keine E-Mail gefunden",
-    "(4) Impressum: nicht separat gesucht (Suchbudget) – in den Namenssuchen kein Impressum aufgetaucht",
-    "Website-Risiko: mittel – Prüfungen negativ, aber weder Google-Eintrag noch Freemail belegt → RESERVE"
+    "(1) „MT-Stone Prittriching Winkl Fliesen“ mit blocked_domains (11880, Gelbe Seiten, Das Örtliche, Telefonbuch, Cylex, meinestadt, Creditreform, Facebook, Instagram, golocal, MyHammer, Northdata, Firmenwissen, WKDB, Yelp, trustlocal, wlw) – keine Treffer zum Betrieb; nur andere Fliesenleger (Obendorfer, Spöttl) und gleichnamige fremde Firmen (M-Stone Erkelenz, Mountain Stone USA)",
+    "(2) Verzeichnis-Suche „MT-Stone Prittriching Ringstr. 2“ (11880, Das Örtliche, Gelbe Seiten, rgv-bayern, trustlocal, firmania) – 11880 mit t-online-Adresse, kein Website-Feld",
+    "(3) Domain-Check allowed_domains mt-stone.de, mtstone.de, mt-stone-fliesen.de, mt-stone.com, mt-stone-prittriching.de, mtstone-fliesen.de, mt-stone.eu, mt-stone.info – keine Treffer",
+    "(4) Telefon-/E-Mail-Suche „0173 3669438“/„01733669438“/„mt-stone@t-online.de“ mit blocked_domains – nur Rufnummernblock-Liste (Vodafone), keine Website",
+    "(5) Impressum-Suche entfällt – Inhaber nirgends genannt, kein Impressum gefunden",
+    "Website-Risiko: niedrig – alle Prüfungen negativ, Freemail (t-online) öffentlich belegt"
   ],
   "facts": {
     "services": [
-      "Heizungsinstallation",
-      "Lüftungsbau",
-      "Klempnerarbeiten"
+      "Fliesenlegen",
+      "Laminat verlegen"
     ],
     "experience": null,
     "praisedFor": []
   },
   "strategy": {
-    "audience": "Hauseigentümer in Bernried, Tutzing und Seeshaupt, die eine neue Heizung, Lüftung oder eine Reparatur an Leitungen brauchen",
-    "mainService": "Heizungsinstallation und Lüftungsbau",
-    "trustSignal": "Installateur und Heizungsbauer vor Ort in Bernried, im Handwerkerverzeichnis der HWK München",
-    "conversionGoal": "Anruf oder Anfrage für Heizungstausch, Wartung oder Lüftung",
-    "visualConcept": "Saubere Haustechnik: neue Heizungsanlage im Keller, Kupferleitungen, Lüftungsgerät – helle Blau- und Kupfertöne mit Seebezug"
+    "audience": "Hausbesitzer und Bauherren in Prittriching, Scheuring, Kaufering und Mering, die Bad, Küche oder Wohnräume neu fliesen oder Böden verlegen lassen",
+    "mainService": "Fliesen- und Bodenverlegung",
+    "trustSignal": "Kleiner Betrieb in Prittriching-Winkl, direkt per Handy erreichbar",
+    "conversionGoal": "Kostenloses Angebot anfragen (Fotos und Maße per WhatsApp)",
+    "visualConcept": "Steinoptik und klare Fugenbilder: großformatige Fliesen, Natursteinstruktur, ruhige Grautöne"
   },
   "sales": {
-    "score": 3,
+    "score": 5,
     "whyGoodLead": [
       "Keine eigene Website gefunden – nur Verzeichniseinträge",
-      "Heizung/Sanitär ist im Lead-Bestand selten",
-      "Inhabergeführter Betrieb in Bernried",
-      "Heizungstausch und Lüftung sind aktuell stark nachgefragt"
+      "Mobilnummer und t-online-Adresse öffentlich",
+      "Kaum Sichtbarkeit (1 Bewertung bei 11880) – eine Website hebt den Betrieb von größeren Fliesenlegern ab",
+      "Fliesen- und Bodenarbeiten werden im Lkr. Landsberg viel online angefragt"
     ],
-    "pitch": "Grüß Gott Herr Bültel, ich baue Websites für Handwerker rund um den Starnberger See. Ich habe Ihren Heizungs- und Lüftungsbaubetrieb in Bernried in den Verzeichnissen gefunden, aber keine eigene Website. Ich habe unverbindlich einen Entwurf vorbereitet, auf dem Kunden Ihre Leistungen sehen und direkt anfragen können – darf ich Ihnen den Link schicken?"
+    "pitch": "Hallo, hier ist … – ich baue Websites für Handwerker im Landkreis Landsberg. Ich habe Ihren Eintrag „MT-Stone“ in Prittriching gefunden, aber keine eigene Website. Ich habe unverbindlich einen Entwurf vorbereitet, auf dem Kunden Ihre Fliesen- und Bodenarbeiten sehen und direkt per WhatsApp anfragen können – darf ich Ihnen den Link schicken?"
   },
   "manualChecks": [
-    "RESERVE – weder Google-Eintrag noch Freemail-Adresse belegt: NUR versenden, wenn Google Maps einen Eintrag OHNE Website zeigt.",
-    "Impressum-Suche wurde aus Budgetgründen nicht separat durchgeführt – vor Versand kurz nach „Bültel Bernried Impressum“ suchen",
-    "Nur Festnetz bekannt (08158 903571) – telefonisch kontaktieren",
-    "Leistungen laut Verzeichnis: Heizungsinstallation, Lüftungsbau, Klempner; Sanitär nur in einem Verzeichnistitel („Heizung-Sanitär“) – Leistungsumfang bestätigen",
-    "Wärmepumpe nur über Verzeichniskategorie Heizungsinstallation (Wärmepumpen, Gas, Solarthermie, Öl, Pellets) belegt – vor Versand bestätigen oder Leistung streichen",
-    "Verwechslungsgefahr: Bernried in Niederbayern (94505) hat andere Heizungsbetriebe – richtigen Ort (82347) beachten",
+    "Website-Risiko: niedrig – vor Versand in Google Maps prüfen, dass keine Website hinterlegt ist (Grund: Google-Eintrag nicht über Spiegel belegt, nur Freemail und Verzeichnisse)",
+    "Google-Eintrag in Maps suchen; die 5/5 aus 1 Bewertung stammt von 11880, nicht von Google",
+    "Inhabername unbekannt – beim Erstkontakt erfragen, Anrede neutral halten",
+    "Adresse Ringstr. 2 teilt sich der Betrieb laut Verzeichnis mit Hirundo Gesundheitsprodukte UG (andere Firma) – nicht verwechseln",
+    "Leistungen nur über Verzeichniskategorien belegt (Fliesenleger, Laminatleger) – Naturstein, Bad, Großformat beim Betrieb bestätigen (Name „Stone“ deutet darauf hin, ist aber nicht belegt)",
     "Logo und Projektfotos: nicht gefunden – beim Betrieb anfragen"
   ],
   "sources": [
     {
-      "label": "11880 – Andreas Bültel Heizungs- und Lüftungsbau, Bernried",
-      "url": "https://www.11880.com/branchenbuch/bernried-starnberger-see/060692320B36685163/andreas-bueltel-heizungs-und-lueftungsbau.html"
+      "label": "11880 – Laminatleger Igling (Umkreisliste mit MT-Stone)",
+      "url": "https://www.11880.com/suche/laminatleger/igling"
     },
     {
-      "label": "klicktel – Bültel Andreas Heizungs- und Lüftungsbau",
-      "url": "https://klicktel.de/branchenbuch/bernried-starnberger-see/060693506B36685163/bueltel-andreas-heizungs-und-lueftungsbau.html"
+      "label": "11880 – Laminatleger Reichling (Umkreisliste)",
+      "url": "https://www.11880.com/suche/laminatleger/reichling"
     },
     {
-      "label": "klimatechniker.net – Andreas Bültel Heizung-Sanitär",
-      "url": "https://www.klimatechniker.net/bernried/andreas-bueltel-heizung-sanitaer-aULV5c"
+      "label": "Gelbe Seiten – Branchen in Prittriching",
+      "url": "https://www.gelbeseiten.de/branchenbuch/staedte/bayern/landsberg%20a%20lech/prittriching"
     },
     {
-      "label": "heizungsbau.net – Andreas Bültel",
-      "url": "https://www.heizungsbau.net/bernried-starnberger-see/andreas-bueltel-aUOOVZ"
+      "label": "11880 – Fliesen Blesch (Umkreisanbieter mit MT-Stone)",
+      "url": "https://www.11880.com/branchenbuch/weil-kreis-landsberg-am-lech/060691660B110334105/fliesen-blesch.html"
     }
   ],
   "site": {
-    "theme": "aqua",
+    "theme": "stein",
     "category": "handwerk",
     "heroOffer": [
-      "Heizung",
-      "Lüftung",
-      "Wärmepumpe",
-      "Wartung",
-      "Klempner"
+      "Bodenfliesen",
+      "Wandfliesen",
+      "Badfliesen",
+      "Laminat",
+      "Fliesenreparatur"
     ],
     "scene": "bath",
-    "logoIcon": "drop",
-    "logoMark": "AB",
-    "brandName": "Bültel Heizung & Lüftung",
-    "seoTitle": "Heizung und Lüftung in Bernried – Andreas Bültel",
-    "seoDescription": "Heizungsinstallation, Lüftungsbau und Klempnerarbeiten in Bernried am Starnberger See. Jetzt Termin anfragen.",
+    "logoIcon": "trowel",
+    "logoMark": "MT",
+    "brandName": "MT-Stone",
+    "seoTitle": "Fliesenleger in Prittriching – MT-Stone",
+    "seoDescription": "Fliesen und Laminat verlegen in Prittriching, Scheuring, Kaufering und Mering. Jetzt kostenloses Angebot anfragen – auch per WhatsApp.",
     "nav": [
       {
         "label": "Leistungen",
@@ -137,132 +136,132 @@
       }
     ],
     "hero": {
-      "eyebrow": "Heizung · Lüftung · Bernried",
-      "headline": "Heizung und Lüftung in Bernried",
-      "sub": "Neue Heizung, Lüftung oder Reparatur – vom Installateur direkt am Starnberger See.",
-      "ctaPrimary": "Termin anfragen",
+      "eyebrow": "Fliesen & Böden · Prittriching",
+      "headline": "Fliesenleger in Prittriching",
+      "sub": "Fliesen und Laminat verlegt – für Bad, Küche und Wohnräume im Lechfeld.",
+      "ctaPrimary": "Kostenloses Angebot anfragen",
       "ctaSecondary": "Anrufen",
       "bullets": [
-        "Betrieb in Bernried",
-        "Heizung und Lüftungsbau",
-        "Inhaber Andreas Bültel"
+        "Betrieb in Prittriching-Winkl",
+        "Fliesen und Laminat",
+        "Direkt per Handy erreichbar"
       ],
-      "imageLabel": "neue Heizungsanlage mit Kupferleitungen im Keller"
+      "imageLabel": "frisch verlegter Fliesenboden in Steinoptik"
     },
     "badges": [
       {
-        "title": "Heizung",
-        "sub": "Einbau & Tausch"
+        "title": "Fliesen",
+        "sub": "Boden & Wand"
       },
       {
-        "title": "Lüftung",
-        "sub": "frische Luft im Haus"
+        "title": "Laminat",
+        "sub": "für Wohnräume"
       },
       {
-        "title": "Klempner",
-        "sub": "Leitungen & Anschlüsse"
+        "title": "Bad & Küche",
+        "sub": "neu gefliest"
       },
       {
-        "title": "Bernried",
-        "sub": "Dorfstraße 17"
+        "title": "Prittriching",
+        "sub": "Ortsteil Winkl"
       }
     ],
     "trust": [
       {
         "value": "Vor Ort",
-        "label": "Betrieb in Bernried"
+        "label": "Betrieb in Prittriching"
       },
       {
-        "value": "3",
-        "label": "Leistungsbereiche"
+        "value": "2",
+        "label": "Bodenarten: Fliese & Laminat"
       },
       {
-        "value": "HWK",
-        "label": "Installateur und Heizungsbauer"
+        "value": "Innen",
+        "label": "Bad, Küche, Wohnraum"
       },
       {
-        "value": "Direkt",
-        "label": "Inhaber am Telefon"
+        "value": "Mobil",
+        "label": "schnell erreichbar"
       }
     ],
     "servicesIntro": {
-      "headline": "Warm, gut belüftet, dicht",
-      "text": "Andreas Bültel plant und installiert Heizungen und Lüftungsanlagen für Häuser rund um Bernried – und kümmert sich um die Leitungen dazwischen."
+      "headline": "Fliesen und Böden aus einer Hand",
+      "text": "Wer Bad und Flur fliesen und das Wohnzimmer mit Laminat belegen will, braucht dafür nur einen Betrieb."
     },
     "services": [
       {
-        "title": "Heizungstausch",
-        "text": "Die alte Anlage wird durch eine neue Heizung ersetzt, abgestimmt auf Haus und Verbrauch.",
+        "title": "Bodenfliesen",
+        "text": "Fliesenböden für Flur, Küche und Wohnräume – eben verlegt und sauber verfugt.",
         "items": [
-          "Beratung",
-          "Demontage",
-          "Neuinstallation"
+          "Flur",
+          "Küche",
+          "Wohnraum"
         ]
       },
       {
-        "title": "Wärmepumpe",
-        "text": "Einbau und Anschluss einer Wärmepumpe als Alternative zu Öl oder Gas.",
+        "title": "Wandfliesen",
+        "text": "Wandflächen in Bad und Küche mit Fliesen, die Spritzwasser und Alltag standhalten.",
         "items": [
-          "Planung",
-          "Einbau",
-          "Inbetriebnahme"
+          "Bad",
+          "Küchenrückwand",
+          "Sockel"
         ]
       },
       {
-        "title": "Heizungswartung",
-        "text": "Regelmäßige Wartung hält die Anlage effizient und beugt Ausfällen vor.",
+        "title": "Bad fliesen",
+        "text": "Boden und Wände im Bad neu gefliest – bei Sanierung oder Neubau.",
         "items": [
-          "Wartung",
-          "Einstellung",
-          "Störungen"
+          "Badsanierung",
+          "Dusche",
+          "Bodenfliesen"
         ]
       },
       {
-        "title": "Lüftungsbau",
-        "text": "Lüftungsanlagen für gleichmäßigen Luftaustausch – im Neubau und bei der Sanierung.",
+        "title": "Laminat verlegen",
+        "text": "Laminat für Wohn-, Schlaf- und Kinderzimmer, inklusive passender Sockelleisten.",
         "items": [
-          "Wohnraumlüftung",
-          "Leitungsführung",
-          "Einregulierung"
+          "Wohnräume",
+          "Sockelleisten",
+          "Übergänge"
         ]
       },
       {
-        "title": "Klempnerarbeiten",
-        "text": "Rohre, Anschlüsse und Leitungen werden verlegt, erneuert oder repariert.",
+        "title": "Alten Belag erneuern",
+        "text": "Alte Fliesen oder Böden raus, neuer Belag rein – für Räume, die wieder frisch aussehen.",
         "items": [
-          "Rohrleitungen",
-          "Anschlüsse",
-          "Reparaturen"
+          "Rückbau",
+          "Untergrund vorbereiten",
+          "Neuverlegung"
         ]
       },
       {
-        "title": "Heizkörper",
-        "text": "Heizkörper tauschen, versetzen oder ergänzen – passend zur Anlage.",
+        "title": "Fliesen ausbessern",
+        "text": "Einzelne gesprungene Fliesen oder brüchige Fugen gezielt ersetzen.",
         "items": [
-          "Austausch",
-          "Versetzen",
-          "Thermostate"
+          "Fliesentausch",
+          "Fugen erneuern",
+          "Silikonfugen"
         ]
       }
     ],
     "why": {
-      "headline": "Haustechnik aus Bernried – ohne lange Anfahrt.",
+      "headline": "Fliesen und Böden aus Prittriching – ohne Umwege.",
       "points": [
         {
           "title": "Kurze Wege",
-          "text": "Von Bernried sind Tutzing, Seeshaupt und Pähl schnell erreicht."
+          "text": "Von Winkl aus schnell in Scheuring, Kaufering, Mering und Königsbrunn."
         },
         {
-          "title": "Ein Ansprechpartner",
-          "text": "Sie sprechen direkt mit Inhaber Andreas Bültel."
+          "title": "Direkter Kontakt",
+          "text": "Ein Anruf oder eine WhatsApp-Nachricht mit Fotos genügt für die erste Einschätzung."
         },
         {
-          "title": "Heizung und Lüftung",
-          "text": "Wärme und Luftaustausch werden zusammen geplant."
+          "title": "Fliese und Laminat",
+          "text": "Bad fliesen und Wohnräume mit Laminat belegen – in einem Auftrag."
         },
         {
-          "title": "Auch Reparaturen",
-          "text": "Neben neuen Anlagen auch Störungen und kleinere Arbeiten."
+          "title": "Klare Absprachen",
+          "text": "Material, Verlegeart und Termin werden vorab gemeinsam festgelegt."
         }
       ]
     },
@@ -270,116 +269,116 @@
       "headline": "Was Kunden sagen",
       "summary": "Kundenstimmen werden hier eingebunden, sobald sie aus dem Google-Profil übernommen sind.",
       "highlights": [
-        "Heizung in Bernried",
-        "Lüftungsbau",
+        "Fliesen in Prittriching",
+        "Laminat verlegen",
         "Direkter Kontakt"
       ],
       "source": "Google",
-      "sourceUrl": "https://www.google.com/maps/search/?api=1&query=Andreas%20B%C3%BCltel%20Dorfstra%C3%9Fe%2017%20Bernried",
+      "sourceUrl": "https://www.google.com/maps/search/?api=1&query=MT-Stone%20Ringstr.%202%20Prittriching",
       "rating": null,
       "count": null
     },
     "process": {
-      "headline": "So läuft Ihr Auftrag",
+      "headline": "Vom Foto zum fertigen Boden",
       "steps": [
         {
           "title": "Anfrage",
-          "text": "Rufen Sie an und schildern Sie kurz Anlage und Anliegen."
+          "text": "Fotos und ungefähre Quadratmeter per WhatsApp schicken – oder kurz anrufen."
         },
         {
-          "title": "Besichtigung",
-          "text": "Anlage, Räume und Leitungen werden vor Ort angesehen."
+          "title": "Aufmaß",
+          "text": "Untergrund, Maße und Wunschmaterial werden vor Ort angeschaut."
         },
         {
           "title": "Angebot",
-          "text": "Sie erhalten ein Angebot mit Gerät, Material und Arbeitszeit."
+          "text": "Sie erhalten ein klares Angebot für Material und Verlegung."
         },
         {
-          "title": "Einbau",
-          "text": "Installation, Inbetriebnahme und Einweisung in die neue Anlage."
+          "title": "Verlegung",
+          "text": "Vorbereiten, verlegen, verfugen – der Raum wird besenrein übergeben."
         }
       ]
     },
     "gallery": {
-      "headline": "Anlagen aus der Region",
+      "headline": "Böden und Wände, die neu entstehen",
       "text": "Für die Live-Version zeigen wir hier echte Projekte des Betriebs.",
       "items": [
         {
-          "title": "Neue Heizung",
-          "photoNeeded": "frisch installierte Heizungsanlage im Keller"
+          "title": "Neues Bad",
+          "photoNeeded": "frisch gefliestes Bad mit bodengleicher Dusche"
         },
         {
-          "title": "Wärmepumpe",
-          "photoNeeded": "Außengerät einer Wärmepumpe am Haus"
+          "title": "Fliesenboden",
+          "photoNeeded": "großformatige Bodenfliesen in Steinoptik im Flur"
         },
         {
-          "title": "Lüftungsanlage",
-          "photoNeeded": "Lüftungsgerät mit Leitungen"
+          "title": "Küchenrückwand",
+          "photoNeeded": "geflieste Küchenrückwand über der Arbeitsplatte"
         },
         {
-          "title": "Heizkörper",
-          "photoNeeded": "neuer Heizkörper mit Thermostat"
+          "title": "Laminat",
+          "photoNeeded": "neu verlegtes Laminat im Wohnzimmer mit Sockelleiste"
         },
         {
-          "title": "Leitungen",
-          "photoNeeded": "sauber verlegte Kupferrohre"
+          "title": "Fugenbild",
+          "photoNeeded": "Nahaufnahme sauber verfugter Fliesen"
         }
       ]
     },
     "region": {
-      "headline": "Heizung und Lüftung rund um Bernried",
-      "text": "Von Bernried aus in Tutzing, Seeshaupt, Pähl, Feldafing und Iffeldorf.",
+      "headline": "Fliesenleger für Prittriching und das Lechfeld",
+      "text": "Von Prittriching-Winkl aus schnell in Scheuring, Kaufering, Mering und Königsbrunn.",
       "places": [
-        "Bernried",
-        "Tutzing",
-        "Seeshaupt",
-        "Pähl",
-        "Feldafing",
-        "Iffeldorf"
+        "Prittriching",
+        "Winkl",
+        "Scheuring",
+        "Kaufering",
+        "Mering",
+        "Königsbrunn"
       ]
     },
     "faq": [
       {
-        "q": "Bauen Sie auch Wärmepumpen ein?",
-        "a": "Fragen Sie an – welche Anlage zu Ihrem Haus passt, wird bei der Besichtigung geklärt."
+        "q": "Verlegen Sie Fliesen und Laminat?",
+        "a": "Ja, beides gehört zum Angebot – für Bad, Küche und Wohnräume."
       },
       {
-        "q": "Übernehmen Sie die Heizungswartung?",
-        "a": "Ja, Wartung und Störungen gehören zur Heizungsinstallation – vereinbaren Sie einen Termin."
+        "q": "Kann ich vorab Fotos schicken?",
+        "a": "Ja, Fotos und grobe Maße per WhatsApp helfen für eine erste Einschätzung."
       },
       {
-        "q": "Planen Sie auch Lüftungsanlagen?",
-        "a": "Ja, Lüftungsbau gehört zum Angebot – im Neubau und bei der Sanierung."
+        "q": "Wie lange dauert ein neues Bad?",
+        "a": "Das hängt von Größe und Untergrund ab. Einen Zeitplan gibt es nach dem Aufmaß."
       },
       {
-        "q": "Wie schnell bekomme ich einen Termin?",
-        "a": "Das hängt von der Auslastung ab. Rufen Sie an, dann wird ein Termin abgestimmt."
+        "q": "Werden alte Fliesen entfernt?",
+        "a": "Ob Rückbau nötig ist, klären wir vor Ort. Den Umfang nennt das Angebot."
       },
       {
-        "q": "Arbeiten Sie auch außerhalb von Bernried?",
-        "a": "Ja, im Umkreis von Bernried – fragen Sie einfach an."
+        "q": "Arbeiten Sie auch außerhalb von Prittriching?",
+        "a": "Ja, im Umkreis von Prittriching – fragen Sie einfach an."
       }
     ],
     "contact": {
-      "headline": "Termin anfragen",
-      "text": "Beschreiben Sie kurz Ihr Anliegen: Heizungstausch, Wartung, Lüftung oder Reparatur, dazu Hausgröße und vorhandene Anlage.",
+      "headline": "Ihr Angebot – kostenlos und unverbindlich",
+      "text": "Beschreiben Sie kurz Raum, ungefähre Fläche und ob Fliesen oder Laminat. Fotos helfen.",
       "topics": [
-        "Heizungstausch",
-        "Wärmepumpe",
-        "Wartung",
-        "Lüftung",
-        "Klempnerarbeiten",
+        "Bodenfliesen",
+        "Wandfliesen",
+        "Bad fliesen",
+        "Laminat verlegen",
+        "Fliesen ausbessern",
         "Sonstiges"
       ],
-      "responseNote": "Besichtigung nach Absprache."
+      "responseNote": "Aufmaß nach Absprache."
     },
     "quote": {
-      "sizeLabel": "Worum geht es?",
+      "sizeLabel": "Wie groß ist die Fläche?",
       "sizes": [
-        "Reparatur oder Störung",
-        "Wartung",
-        "Heizungstausch",
-        "Neubau oder Sanierung"
+        "Bis 10 m²",
+        "10–30 m²",
+        "30–60 m²",
+        "Über 60 m²"
       ],
       "timings": [
         "So bald wie möglich",
@@ -388,15 +387,21 @@
         "Ich plane erst noch"
       ]
     },
-    "stickyCta": "Termin anfragen",
+    "stickyCta": "Angebot anfragen",
     "look": {
+      "skin": "kante",
       "palette": 2,
-      "font": 6,
-      "hero": 0,
-      "services": 1,
-      "radius": 1,
+      "font": 8,
+      "hero": 6,
+      "services": 2,
+      "radius": 2,
       "logo": 0,
-      "intro": 5
+      "intro": 3,
+      "projects": 1,
+      "process": 2,
+      "faq": 0,
+      "reviews": 0,
+      "order": 2
     }
   }
 }
