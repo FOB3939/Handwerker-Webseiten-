@@ -498,3 +498,18 @@ input:focus-visible, select:focus-visible, textarea:focus-visible { outline: 3px
 .legal__list li { margin-bottom: .3rem; }
 .ph { background: #F1F5D2; color: var(--ink); border-bottom: 1.5px dashed #6F7A18; padding: 0 .15em; }
 .legal h1:focus { outline: none; }
+
+/* Symbolbilder: immer sichtbar gekennzeichnet, getrennt von der Galerie echter Fotos */
+.sym { position: relative; margin: 0; }
+.sym img { width: 100%; aspect-ratio: 16 / 9; object-fit: cover; border-radius: 3px; background: var(--line); }
+.sym__tag {
+  position: absolute; left: 8px; bottom: 8px; background: var(--ink); color: var(--paper);
+  font-size: .78rem; font-weight: 650; padding: .2rem .55rem; border-radius: 3px; letter-spacing: .01em;
+}
+.part__img { grid-column: 1 / -1; margin-top: 1.25rem; }
+.part__img img { aspect-ratio: 2 / 1; }
+.sym-pair { display: grid; grid-template-columns: 1fr 1fr; gap: 10px; margin-top: 2.25rem; }
+.sym-pair .sym__tag { background: var(--paper); color: var(--ink); }
+.sym-band { display: grid; grid-template-columns: 1fr 1fr; gap: clamp(10px, 2vw, 24px); margin-top: clamp(2.5rem, 5vw, 3.5rem); }
+.sym-band__note { grid-column: 1 / -1; font-size: .92rem; color: var(--ink-2); }
+@media (max-width: 520px) { .sym-band { grid-template-columns: minmax(0, 1fr); } }

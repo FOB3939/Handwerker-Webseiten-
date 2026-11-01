@@ -26,3 +26,15 @@ for (const [file, name, box] of jobs) {
     .toFile(path.join(out, name + ".webp"));
   console.log(name, info.width + "×" + info.height, Math.round(info.size / 1024) + " KB");
 }
+
+// Symbolbilder der alten Seite (inszeniert, keine echten Aufträge): auf 1000 px Breite, q70.
+// Aufruf: node scripts/fotos.mjs <originale> <ordner-mit-symbolbildern>
+const sym = process.argv[3];
+if (sym) {
+  const fs = await import("node:fs");
+  for (const f of fs.readdirSync(sym).filter((n) => n.endsWith(".webp"))) {
+    const info = await sharp(path.join(sym, f)).resize({ width: 1000 }).webp({ quality: 70, effort: 6 })
+      .toFile(path.join(out, "symbol", f));
+    console.log("symbol/" + f, info.width + "×" + info.height, Math.round(info.size / 1024) + " KB");
+  }
+}

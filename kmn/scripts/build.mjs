@@ -45,7 +45,7 @@ html = html
   .replace(/\{\{stars\}\}/g, star.repeat(5))
   .replace(/\{\{ext\}\}/g, ext)
   .replace(/\{\{icon:([a-z-]+)\}\}/g, (_, k) => ICONS[k]())
-  .replace(/\{\{img:([a-z-]+)\}\}/g, (_, k) => b64(path.join(root, "fotos", k + ".webp"), "image/webp"));
+  .replace(/\{\{img:([a-z/-]+)\}\}/g, (_, k) => b64(path.join(root, "fotos", k + ".webp"), "image/webp"));
 
 const left = html.match(/\{\{[^}]+\}\}/g);
 if (left) throw new Error("Offene Platzhalter: " + left.join(", "));
