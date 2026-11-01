@@ -474,3 +474,27 @@ input:focus-visible, select:focus-visible, textarea:focus-visible { outline: 3px
 .js-wt-top { fill: url(#pt-schiefer); }
 .js-wt-edge { fill: #2E3336; }
 .js-wt-side { fill: #3A4044; }
+
+/* Über uns */
+.about { display: grid; grid-template-columns: minmax(0, 1.5fr) minmax(0, 1fr); gap: 2.5rem 4rem; align-items: start; }
+.about__t { font-stretch: 112%; font-weight: 750; font-size: 1.35rem; line-height: 1.2; margin-top: 2.25rem; }
+.about__p { color: var(--ink-2); max-width: 58ch; margin-top: .6rem; }
+.plate { border: 2px solid var(--ink); border-radius: 6px; background: var(--paper); padding: 1.5rem 1.5rem .5rem; }
+.plate__t { font-stretch: 115%; font-weight: 750; font-size: 1.2rem; padding-bottom: .75rem; border-bottom: 2px solid var(--ink); }
+.plate__dl > div { display: grid; grid-template-columns: 9rem minmax(0, 1fr); gap: .5rem 1rem; padding: .85rem 0; border-bottom: 1px solid var(--line); }
+.plate__dl > div:last-child { border-bottom: 0; }
+.plate__dl dt { color: var(--ink-2); font-weight: 600; }
+.plate__dl dd { font-weight: 650; }
+.sec--about + .sec--why { padding-top: 0; }
+@media (max-width: 860px) { .about { grid-template-columns: minmax(0, 1fr); } }
+@media (max-width: 420px) { .plate__dl > div { grid-template-columns: minmax(0, 1fr); gap: .1rem; } }
+
+/* Rechtliches: Entwurf und Platzhalter */
+.legal h2 { font-stretch: 112%; font-size: 1.2rem; font-weight: 750; margin: 2rem 0 .5rem; }
+.legal__draft { background: #F3E3CC; border: 1.5px solid var(--oak-deep); border-radius: var(--r); padding: 1rem 1.1rem; margin-bottom: 1rem; }
+.legal__draft p { margin: 0; }
+.legal__draft p + p { margin-top: .35rem; color: var(--ink); }
+.legal__list { list-style: disc; padding-left: 1.4rem; margin-bottom: 1rem; max-width: 62ch; }
+.legal__list li { margin-bottom: .3rem; }
+.ph { background: #F1F5D2; color: var(--ink); border-bottom: 1.5px dashed #6F7A18; padding: 0 .15em; }
+.legal h1:focus { outline: none; }

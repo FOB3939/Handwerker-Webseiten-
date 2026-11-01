@@ -144,8 +144,21 @@ const heroTl = (p, js) => p.evaluate(js);
     const p = await b.newPage({ viewport: { width: 1024, height: 800 } });
     await p.goto("file://" + file + "#impressum");
     ok(await p.isVisible("#impressum-title") && !(await p.isVisible("#hero-title")), "Hash-Route #impressum");
+    ok(await p.isVisible('[data-route="impressum"] .legal__draft'), "Impressum zeigt Entwurfshinweis");
+    await p.screenshot({ path: path.join(shots, "impressum-1024.png"), fullPage: true });
     await p.goto("file://" + file + "#datenschutz");
     ok(await p.isVisible("#datenschutz-title"), "Hash-Route #datenschutz");
+    await p.screenshot({ path: path.join(shots, "datenschutz-1024.png"), fullPage: true });
+    if (axePath) {
+      await p.addScriptTag({ path: axePath });
+      const v = (await p.evaluate(() => axe.run(document, { runOnly: ["wcag2a", "wcag2aa", "wcag22aa", "best-practice"] }))).violations.map((x) => x.id);
+      ok(v.length === 0, "Datenschutz: axe ohne Verstöße " + v.join(", "));
+    }
+    await p.goto("file://" + file + "#start");
+    await p.click('.nav a[href="#ueber-uns"]');
+    await p.waitForFunction(() => Math.abs(document.getElementById("ueber-uns").getBoundingClientRect().top) < 200, null, { timeout: 5000 }).catch(() => {});
+    ok(await p.evaluate(() => { const r = document.getElementById("ueber-uns").getBoundingClientRect(); return r.top < 200 && r.bottom > 0; }), "Menü „Über uns“ springt zum Abschnitt");
+    await (await p.$("#ueber-uns")).screenshot({ path: path.join(shots, "ueber-uns-1024.png") });
     await p.close();
   }
   await b.close();

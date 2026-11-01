@@ -20,5 +20,5 @@ node tests/check.cjs [html] [shots-ordner]   # Playwright: Konsole, Überlauf, a
 - `docs/DESIGN.md` – Gestaltungsrichtung
 
 ## Offen
-- Impressum und Datenschutz: vollständige Angaben fehlen in der Vorlage („Angaben folgen“).
+- Impressum und Datenschutz: Vorlagentext der alten Seite mit markierten Platzhaltern „[… – vor Veröffentlichung ergänzen]“, Entwurf, noch nicht rechtlich geprüft.
 - Formularversand: in der Vorschau wird nichts gesendet.
