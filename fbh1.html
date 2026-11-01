@@ -1,0 +1,124 @@
+<!doctype html>
+<html lang="de">
+<head>
+<meta charset="utf-8">
+<style>
+@font-face{font-family:Montserrat;font-weight:600;src:url(assets/fonts/montserrat-latin-600-normal.woff2)}
+@font-face{font-family:Montserrat;font-weight:800;src:url(assets/fonts/montserrat-latin-800-normal.woff2)}
+@font-face{font-family:Oswald;font-weight:700;src:url(assets/fonts/oswald-latin-700-normal.woff2)}
+:root{--w:#ff8a3d;--c:#5aa9ff;--tq:#2ee6d6;--y:#ffd23f;--ink:#071631}
+*{box-sizing:border-box;margin:0;padding:0}
+html,body{width:1080px;height:1920px;overflow:hidden;background:#061430}
+#stage{position:relative;width:1080px;height:1920px;overflow:hidden;font-family:Montserrat,sans-serif;color:#fff;background:radial-gradient(ellipse at 50% 40%,#173f7d 0%,#0b2350 50%,#061430 100%)}
+svg{position:absolute;left:0;top:0;width:1080px;height:1920px}
+.t{position:absolute;left:60px;right:60px;text-align:center;display:none;z-index:5}
+#part{position:absolute;left:0;right:0;top:150px;text-align:center;z-index:5}
+#part span{display:inline-block;font:800 28px Montserrat;letter-spacing:.14em;background:var(--y);color:var(--ink);padding:8px 20px;border-radius:30px}
+#head{top:215px;font:700 84px Oswald;line-height:1.02;text-transform:uppercase;text-shadow:0 6px 0 rgba(0,0,0,.35)}
+.card{display:inline-flex;align-items:center;gap:20px;text-align:left;background:rgba(16,40,84,.95);border:5px solid var(--tq);border-radius:28px;padding:20px 30px;font:800 44px Montserrat;line-height:1.15;max-width:940px;box-shadow:0 20px 50px rgba(0,0,0,.4)}
+.card i{flex:none;font-style:normal;font-size:64px}
+.card small{display:block;font:600 32px Montserrat;color:#b8c8ea;margin-top:6px}
+#note{position:absolute;left:0;right:0;top:1355px;text-align:center;z-index:6;display:none}
+#note span{display:inline-block;font:800 28px Montserrat;background:rgba(255,210,63,.95);color:var(--ink);padding:8px 18px;border-radius:24px}
+#caps{position:absolute;left:90px;right:150px;top:1450px;text-align:center;z-index:20}
+#caps div{display:inline-block;background:rgba(5,14,36,.9);border:3px solid rgba(46,230,214,.55);border-radius:20px;padding:12px 28px;font:800 54px Montserrat;line-height:1.16;max-width:840px}
+#caps span.on{color:var(--y)}
+#end{position:absolute;inset:0;display:none;z-index:30;background:radial-gradient(ellipse at 50% 40%,#173f7d 0%,#061430 80%)}
+#end .t{display:block}
+</style>
+<script>document.write('<script src="'+(new URLSearchParams(location.search).get('data')||'data.js')+'"><\/script>')</script>
+</head>
+<body>
+<div id="stage">
+<svg id="sv" viewBox="0 0 1080 1920"></svg>
+<div id="part"><span>FUSSBODENHEIZUNG · TEIL 1</span></div>
+<div class="t" id="head"></div>
+<div class="t" id="cA" style="top:1150px"><div class="card" style="border-color:#ff6b6b"><i>🌡️</i><div>Thermostat, Batterie<br>oder Verbindung prüfen<small>Kein Signal = kein Wärmebedarf</small></div></div></div>
+<div class="t" id="cB" style="top:1150px"><div class="card" style="border-color:#2bd67b"><i>🔧</i><div>Stellantrieb defekt<br>→ tauschen ✓<small>Ventil öffnet ohne Antrieb – Kreis wird warm</small></div></div></div>
+<div id="note"><span>⚡ Elektrische Messungen nur durch Fachkraft</span></div>
+<div id="end"><div class="t" style="top:640px;font-size:110px">🔥🏠</div><div class="t" id="e1" style="top:820px;font:800 66px Montserrat;line-height:1.12">Teil 2:<br><span style="color:#2ee6d6">Fußbodenheizung spülen</span></div><div class="t" id="e2" style="top:1030px;font:800 44px Montserrat;color:#ffd23f">Folgen, um es nicht zu verpassen!</div><div class="t" id="e3" style="top:1150px;font:700 104px Oswald;color:#ffd23f">fob-fm.de</div></div>
+<div id="caps"></div></div>
+<script>
+const $=id=>document.getElementById(id);
+const cl=(x,a=0,b=1)=>Math.min(b,Math.max(a,x));
+const p=(t,a,d)=>cl((t-a)/d);
+const eo=x=>1-Math.pow(1-x,3);
+const io=x=>x<.5?4*x*x*x:1-Math.pow(-2*x+2,3)/2;
+const back=x=>{const c=1.6;return 1+(c+1)*Math.pow(x-1,3)+c*Math.pow(x-1,2)};
+const lerp=(a,b,k)=>a+(b-a)*k;
+const C=CUES,T=C.total,INK='#071631',WARM='#ff8a3d',COLD='#5aa9ff';
+const A=(id,k,v)=>$(id).setAttribute(k,v);
+const mix=(a,b,k)=>{const h=s=>[1,3,5].map(i=>parseInt(s.slice(i,i+2),16));const x=h(a),y=h(b);return `rgb(${x.map((v,i)=>Math.round(v+(y[i]-v)*k)).join(',')})`};
+// floor plan rooms with serpentine loops
+const R=[['Wohnen',90,420,520,420,1],['Küche',610,420,380,260,1],['Bad',610,680,380,160,1],['Schlafzimmer',90,840,900,330,0]];
+function serp(x,y,w,h){let d=`M${x+30} ${y+40}`;const n=Math.floor((w-60)/50);for(let i=0;i<=n;i++){const xx=x+30+i*50;d+=(i? ` L${xx} ${i%2?y+h-30:y+40}`:'')+` L${xx} ${i%2?y+40:y+h-30}`}return d}
+let plan='';R.forEach((r,k)=>{plan+=`<g><rect id="rm${k}" x="${r[1]}" y="${r[2]}" width="${r[3]}" height="${r[4]}" fill="#13325e" stroke="#fff" stroke-width="8"/>
+ <path id="lp${k}" d="${serp(r[1],r[2],r[3],r[4])}" fill="none" stroke="${r[5]?WARM:COLD}" stroke-width="10" stroke-linecap="round" stroke-linejoin="round" opacity=".85"/>
+ <text x="${r[1]+r[3]/2}" y="${r[2]+r[4]/2+18}" text-anchor="middle" font-family="Montserrat" font-weight="800" font-size="44" fill="#fff" stroke="#071631" stroke-width="8" paint-order="stroke">${r[0]} ${r[5]?'🔥':'❄️'}</text></g>`});
+// manifold with 5 circuits (index 4 = Schlafzimmer)
+const NAMES=['Bad','Küche','Wohnen','Wohnen','Schlafz.'];
+let man='';NAMES.forEach((n,k)=>{const x=250+k*140;
+ man+=`<path id="pp${k}" d="M${x} 760 V 1010" stroke="${k===4?COLD:WARM}" stroke-width="22" stroke-linecap="round"/>
+ <g id="act${k}"><rect x="${x-30}" y="560" width="60" height="90" rx="14" fill="#f2f5f8" stroke="${INK}" stroke-width="6"/><rect x="${x-14}" y="575" width="28" height="12" rx="4" fill="#9aa7b1"/></g>
+ <rect x="${x-14}" y="650" width="28" height="30" fill="#b8c4d0" stroke="${INK}" stroke-width="4"/>
+ <rect id="pin${k}" x="${x-6}" y="640" width="12" height="16" fill="#e04848" opacity="0"/>
+ <text x="${x}" y="1060" text-anchor="middle" font-family="Montserrat" font-weight="800" font-size="30" fill="#fff">${n}</text>`});
+let leds='';NAMES.forEach((n,k)=>leds+=`<circle id="led${k}" cx="${250+k*140}" cy="470" r="18" fill="#2a3b5f" stroke="#fff" stroke-width="4"/>`);
+$('sv').innerHTML=`
+<g id="plan">${plan}</g>
+<g id="cab" opacity="0">
+ <rect x="150" y="400" width="780" height="700" rx="20" fill="#dfe6ee" stroke="${INK}" stroke-width="10"/>
+ <rect x="160" y="420" width="760" height="100" rx="12" fill="#2a3b5f"/><text x="190" y="455" font-family="Montserrat" font-weight="800" font-size="26" fill="#9fb4d8">REGELLEISTE</text>${leds}
+ <rect x="190" y="680" width="700" height="44" rx="20" fill="#e04848" stroke="${INK}" stroke-width="6"/><text x="205" y="713" font-family="Montserrat" font-weight="800" font-size="26" fill="#fff">VORLAUF</text>
+ <rect x="190" y="740" width="700" height="44" rx="20" fill="#3f7fd6" stroke="${INK}" stroke-width="6"/><text x="205" y="773" font-family="Montserrat" font-weight="800" font-size="26" fill="#fff">RÜCKLAUF</text>
+ ${man}
+ <rect id="hl" x="${250+4*140-62}" y="430" width="124" height="660" rx="20" fill="none" stroke="#ffd23f" stroke-width="8" stroke-dasharray="22 14" opacity="0"/>
+ <g id="doorL"><rect x="150" y="400" width="390" height="700" fill="#c9d3de" stroke="${INK}" stroke-width="8"/><circle cx="510" cy="750" r="12" fill="${INK}"/></g>
+ <g id="doorR"><rect x="540" y="400" width="390" height="700" fill="#c9d3de" stroke="${INK}" stroke-width="8"/><circle cx="570" cy="750" r="12" fill="${INK}"/></g>
+</g>
+<g id="thermo" opacity="0" transform="translate(860,1230)"><circle r="95" fill="#f2f5f8" stroke="${INK}" stroke-width="8"/><circle r="70" fill="#dfe6ee"/><text id="tt" y="20" text-anchor="middle" font-family="Oswald" font-weight="700" font-size="64" fill="${INK}">17°</text><path id="tarc" d="" fill="none" stroke="${WARM}" stroke-width="10" stroke-linecap="round"/></g>
+<g id="qs" opacity="0" transform="translate(560,1235)"><rect x="-300" y="-55" width="460" height="110" rx="55" fill="#ffd23f" stroke="${INK}" stroke-width="6"/><text x="-70" y="16" text-anchor="middle" font-family="Montserrat" font-weight="800" font-size="44" fill="${INK}">LED an? 💡</text></g>`;
+const CH=[];{let cur=[];CAPS.forEach((w,k)=>{cur.push(w);const txt=cur.map(x=>x.text).join(' ');const brk=/[.,?!:;–]$/.test(w.text)||cur.length>=5||txt.length>28;if(brk||k===CAPS.length-1){CH.push(cur);cur=[]}});}
+CH.forEach((c,k)=>{c.s=c[0].start-.05;c.e=k+1<CH.length?Math.min(CH[k+1][0].start-.05,c[c.length-1].end+.6):c[c.length-1].end+.5});
+const show=(id,on)=>{$(id).style.display=on?'block':'none';return on};
+window.render=async function(t){
+  const S2=C.bei,E=C.endc;
+  // header
+  const h=$('head');let ht,hc;
+  if(t<S2){ht='Ein Raum<br><span style="color:#5aa9ff">bleibt kalt?</span>';hc=0}
+  else if(t<C.zuerst){ht='Blick in den<br><span style="color:#2ee6d6">Verteiler</span>';hc=S2}
+  else if(t<C.leucht2){ht='① Signal<br><span style="color:#ffd23f">vom Thermostat?</span>';hc=C.zuerst}
+  else{ht='② Stellantrieb<br><span style="color:#2ee6d6">abnehmen</span>';hc=C.leucht2}
+  show('head',t<E);h.innerHTML=ht;h.style.transform=`scale(${back(p(t,hc+.05,.4))})`;
+  // floor plan
+  const pl=t<S2+.5;A('plan','opacity',pl?cl(p(t,0,.3))*(1-p(t,S2,.5)):0);
+  if(pl){R.forEach((r,k)=>{A('lp'+k,'stroke-dasharray','30 20');A('lp'+k,'stroke-dashoffset',r[5]?-t*80:0);A('rm'+k,'fill',r[5]?mix('#13325e','#5a2f1d',.4+.15*Math.sin(t*3)):mix('#13325e','#1d3f7a',.5))});
+    A('plan','transform',`translate(540,800) scale(${.96+.04*eo(p(t,0,.6))}) translate(-540,-800)`)}
+  // cabinet
+  const cb=t>=S2;A('cab','opacity',cb?cl(p(t,S2,.4))*(1-p(t,E-.1,.1)):0);
+  const op=eo(p(t,C.vert,.8));A('doorL','transform',`translate(150,0) scale(${1-op*.98},1) translate(-150,0)`);A('doorR','transform',`translate(930,0) scale(${1-op*.98},1) translate(-930,0)`);
+  A('hl','opacity',t>=C.vert+.6?.6+.4*Math.sin(t*6):0);
+  // thermostat turned up
+  const th=t>=C.zuerst&&t<C.leucht2;A('thermo','opacity',th?cl(p(t,C.zuerst,.3)):0);
+  if(th){const k=eo(p(t,C.zuerst+.4,1.0));$('tt').textContent=Math.round(lerp(17,24,k))+'°';const a=-220+260*k;const r=82,rad=x=>x*Math.PI/180;
+    A('tarc','d',`M${r*Math.cos(rad(-220))} ${r*Math.sin(rad(-220))} A ${r} ${r} 0 ${260*k>180?1:0} 1 ${r*Math.cos(rad(a))} ${r*Math.sin(rad(a))}`)}
+  A('qs','opacity',t>=C.leucht&&t<C.leucht2?1:0);A('qs','transform',`translate(560,1235) scale(${back(p(t,C.leucht,.35))})`);
+  // LEDs: others on; Schlafzimmer off in branch A, on in branch B
+  for(let k=0;k<5;k++){let on=k<4?(Math.sin(t*2+k)>-0.3):false;if(k===4)on=t>=C.leucht2&&Math.sin(t*10)>-0.9;if(k===4&&t>=C.wenn&&t<C.leucht2)on=false;
+    A('led'+k,'fill',on?'#2bd67b':'#2a3b5f')}
+  if(show('cA',t>=C.wenn+.2&&t<C.leucht2)){$('cA').style.transform=`scale(${back(p(t,C.wenn+.2,.4))})`;$('cA').style.opacity=1-p(t,C.leucht2-.25,.25)}
+  // branch B: actuator removed -> pin pops, loop turns warm
+  const rm=eo(p(t,C.stell,.6));A('act4','transform',`translate(0,${-rm*180}) rotate(${rm*-12} 810 600)`);A('pin4','opacity',t>=C.stell+.3?1:0);
+  const wm=eo(p(t,C.warm,1.5));A('pp4','stroke',mix(COLD,WARM,wm));
+  if(show('cB',t>=C.defekt&&t<E)){$('cB').style.transform=`scale(${back(p(t,C.defekt,.4))})`}
+  show('note',t>=C.stell&&t<E);
+  // end card
+  const inE=t>=E;$('end').style.display=inE?'block':'none';
+  if(inE)[['e1',.2],['e2',.6],['e3',.9]].forEach(([id,d])=>{const k=eo(p(t,E+d,.5));$(id).style.opacity=k;$(id).style.transform=`translateY(${(1-k)*30}px)`});
+  let html='';for(const c of CH){if(t>=c.s&&t<c.e){html=c.map(w=>`<span class="${t>=w.start-.03?'on':''}">${w.text}</span>`).join(' ');break}}
+  $('caps').innerHTML=t<E&&html&&!(t>=C.wenn+.2&&t<C.leucht2)&&!(t>=C.defekt)?`<div>${html}</div>`:(t<E&&html&&t>=C.defekt?`<div>${html}</div>`:(t<E&&html?`<div>${html}</div>`:''));
+};
+window.addEventListener('load',()=>document.fonts.ready.then(()=>render(0)));
+</script>
+</body>
+</html>
