@@ -1,0 +1,14 @@
+{
+  "name": "kmn-kuechenmontage",
+  "private": true,
+  "version": "1.0.0",
+  "description": "K.M.N Küchenmontage – Einzeldatei-Website",
+  "scripts": {
+    "fotos": "node scripts/fotos.mjs",
+    "build": "node scripts/build.mjs",
+    "test": "node tests/check.cjs"
+  },
+  "dependencies": {
+    "@fontsource-variable/archivo": "^5.3.0"
+  }
+}
