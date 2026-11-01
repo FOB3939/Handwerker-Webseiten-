@@ -1,0 +1,133 @@
+<!doctype html>
+<html lang="de">
+<head>
+<meta charset="utf-8">
+<style>
+@font-face{font-family:Montserrat;font-weight:600;src:url(assets/fonts/montserrat-latin-600-normal.woff2)}
+@font-face{font-family:Montserrat;font-weight:800;src:url(assets/fonts/montserrat-latin-800-normal.woff2)}
+@font-face{font-family:Oswald;font-weight:700;src:url(assets/fonts/oswald-latin-700-normal.woff2)}
+:root{--ice:#bfe9ff;--tq:#2ee6d6;--y:#ffd23f;--ink:#071631}
+*{box-sizing:border-box;margin:0;padding:0}
+html,body{width:1080px;height:1920px;overflow:hidden;background:#061430}
+#stage{position:relative;width:1080px;height:1920px;overflow:hidden;font-family:Montserrat,sans-serif;color:#fff;background:linear-gradient(180deg,#0b2a55 0%,#0a1f44 55%,#061430 100%)}
+svg{position:absolute;left:0;top:0;width:1080px;height:1920px}
+.t{position:absolute;left:70px;right:70px;text-align:center}
+#title{top:180px;font:700 104px Oswald;line-height:1;text-transform:uppercase;text-shadow:0 7px 0 #0a2a5a,0 16px 40px rgba(0,0,0,.5)}
+#steps{position:absolute;left:80px;right:80px;top:905px}
+.row{display:flex;align-items:center;gap:22px;margin-bottom:12px;padding:10px 22px;border-radius:24px;background:rgba(12,40,84,.92);border:4px solid #23508f;font:800 40px Montserrat;opacity:0}
+.row i{flex:none;font-style:normal;width:64px;height:64px;border-radius:50%;background:#23508f;display:flex;align-items:center;justify-content:center;font:700 40px Oswald;color:#fff}
+.row.on{border-color:var(--tq)}.row.on i{background:var(--tq);color:var(--ink)}
+.row.done i{background:#2bd67b;color:var(--ink)}
+.row.warn{border-color:#ff6b6b;background:rgba(84,20,30,.9)}.row.warn i{background:#ff6b6b}
+#caps{position:absolute;left:90px;right:150px;top:1450px;text-align:center;z-index:20}
+#caps div{display:inline-block;background:rgba(5,14,36,.9);border:3px solid rgba(46,230,214,.55);border-radius:20px;padding:12px 28px;font:800 54px Montserrat;line-height:1.16;max-width:840px}
+#caps span.on{color:var(--y)}
+#end{position:absolute;inset:0;display:none;background:#061430}
+</style>
+<script>document.write('<script src="'+(new URLSearchParams(location.search).get('data')||'data.js')+'"><\/script>')</script>
+</head>
+<body>
+<div id="stage">
+<svg id="sv" viewBox="0 0 1080 1920"></svg>
+<div class="t" id="title"></div>
+<div id="steps">
+ <div class="row" id="r1"><i>1</i>Absperrventil innen zu</div>
+ <div class="row" id="r2"><i>2</i>Außenhahn auf, leer laufen lassen</div>
+ <div class="row" id="r3"><i>3</i>Entleerung öffnen (falls vorhanden)</div>
+ <div class="row" id="r4"><i>4</i>Schlauch ab, Hahn offen lassen</div>
+ <div class="row warn" id="r5"><i>!</i>Frostsicher? Nur ohne Schlauch!</div>
+</div>
+<div class="t" id="info" style="top:960px;display:none"><div style="display:inline-block;background:rgba(12,40,84,.92);border:4px solid #bfe9ff;border-radius:28px;padding:26px 36px;font:800 52px Montserrat;line-height:1.2">Wasser dehnt sich beim<br>Gefrieren aus – um ca. <span style="color:#ffd23f">9 %</span></div></div>
+<div id="caps"></div>
+<div id="end"><div class="t" id="e0" style="top:700px;font-size:120px">❄️</div><div class="t" id="e1" style="top:860px;font:800 72px Montserrat;line-height:1.1">Haustechnik<br>einfach erklärt</div><div class="t" id="e2" style="top:1090px;font:700 110px Oswald;color:var(--y)">fob-fm.de</div></div>
+</div>
+<script>
+const $=id=>document.getElementById(id);
+const cl=(x,a=0,b=1)=>Math.min(b,Math.max(a,x));
+const p=(t,a,d)=>cl((t-a)/d);
+const eo=x=>1-Math.pow(1-x,3);
+const io=x=>x<.5?4*x*x*x:1-Math.pow(-2*x+2,3)/2;
+const back=x=>{const c=1.6;return 1+(c+1)*Math.pow(x-1,3)+c*Math.pow(x-1,2)};
+const lerp=(a,b,k)=>a+(b-a)*k;
+const C=CUES,T=C.total,INK='#071631';
+const S=(id,a)=>{const e=$(id);for(const k in a)e.setAttribute(k,a[k])};
+// diagram: inside (left) | wall | outside (right); pipe at y=600
+let snow='';for(let k=0;k<26;k++)snow+=`<circle id="sn${k}" r="${4+(k%3)*2}" fill="#fff" opacity=".85"/>`;
+let bricks='';for(let r=0;r<11;r++)for(let c=0;c<2;c++)bricks+=`<rect x="${560+c*40+(r%2)*20}" y="${340+r*44}" width="38" height="40" rx="4" fill="#b8644a" stroke="#7a3a28" stroke-width="3"/>`;
+$('sv').innerHTML=`
+<defs><clipPath id="wallc"><rect x="560" y="340" width="80" height="480"/></clipPath><pattern id="icep" width="26" height="26" patternUnits="userSpaceOnUse"><rect width="26" height="26" fill="#d9f3ff"/><path d="M0 26 L26 0 M-6 6 L6 -6 M20 32 L32 20" stroke="#9fd8f5" stroke-width="3"/></pattern></defs>
+<rect x="70" y="340" width="490" height="480" rx="24" fill="#20406f"/><text x="110" y="395" font-family="Montserrat" font-weight="800" font-size="34" fill="#9fb8e0">INNEN</text>
+<rect id="outbg" x="640" y="340" width="370" height="480" rx="24" fill="#16365f"/><text x="670" y="395" font-family="Montserrat" font-weight="800" font-size="34" fill="#9fb8e0">AUSSEN</text>
+<rect x="640" y="760" width="370" height="60" fill="#eef7ff"/><g clip-path="url(#wallc)">${bricks}</g>
+<g id="snow">${snow}</g>
+<!-- pipe -->
+<rect x="90" y="582" width="720" height="40" rx="10" fill="#8a96a8" stroke="${INK}" stroke-width="6"/>
+<rect id="w1" x="96" y="590" width="214" height="24" fill="#3fa9ff"/>
+<rect id="w2" x="310" y="590" width="494" height="24" fill="#3fa9ff"/>
+<rect id="ice" x="640" y="586" width="166" height="32" fill="url(#icep)" opacity="0"/>
+<g id="arrows" opacity="0"><path d="M700 570 v-40 m-14 14 l14 -14 l14 14" stroke="#ff6b6b" stroke-width="8" fill="none" stroke-linecap="round" stroke-linejoin="round"/><path d="M760 634 v40 m-14 -14 l14 14 l14 -14" stroke="#ff6b6b" stroke-width="8" fill="none" stroke-linecap="round" stroke-linejoin="round"/></g>
+<path id="crack" d="M735 582 l-12 14 l14 6 l-10 16" stroke="${INK}" stroke-width="5" fill="none" opacity="0"/>
+<!-- inside valve -->
+<circle cx="310" cy="602" r="42" fill="#d4a24c" stroke="${INK}" stroke-width="6"/>
+<g id="wheel" transform="translate(310,520)"><line x1="0" y1="40" x2="0" y2="80" stroke="${INK}" stroke-width="10"/><ellipse id="wh" rx="56" ry="18" fill="#e04848" stroke="${INK}" stroke-width="6"/></g>
+<g id="drain" transform="translate(360,650)"><rect x="-12" y="-14" width="24" height="26" rx="5" fill="#d4a24c" stroke="${INK}" stroke-width="5"/></g>
+<g id="ddrip"></g>
+<text id="vlab" x="310" y="720" text-anchor="middle" font-family="Montserrat" font-weight="800" font-size="28" fill="#ffd23f" opacity="0">Absperrventil</text>
+<!-- outside tap -->
+<rect x="796" y="566" width="80" height="72" rx="14" fill="#c9d3de" stroke="${INK}" stroke-width="6"/>
+<path d="M860 636 v46 h-36" fill="none" stroke="${INK}" stroke-width="22" stroke-linecap="round"/><path d="M860 636 v46 h-36" fill="none" stroke="#c9d3de" stroke-width="10" stroke-linecap="round"/>
+<g id="lever" transform="translate(836,566)"><rect x="-8" y="-40" width="16" height="40" fill="${INK}"/><rect x="-60" y="-56" width="120" height="22" rx="11" fill="#2a6fd6" stroke="${INK}" stroke-width="5"/></g>
+<g id="icicles" opacity="0"><path d="M810 638 l8 34 l8 -34 M836 638 l6 26 l6 -26 M876 690 l-6 30 l-6 -30" fill="#d9f3ff" stroke="#9fd8f5" stroke-width="3"/></g>
+<g id="hose"><path d="M824 682 C 790 700 780 760 860 770 C 950 780 960 730 905 720 C 860 712 870 760 940 760" fill="none" stroke="#2fa34a" stroke-width="18" stroke-linecap="round"/></g>
+<g id="hx" opacity="0"><path d="M820 680 l140 100 M960 680 l-140 100" stroke="#ff4d5a" stroke-width="16" stroke-linecap="round"/></g>
+<g id="tdrip"></g>
+<!-- thermometer -->
+<g transform="translate(960,420)"><rect x="-16" y="0" width="32" height="200" rx="16" fill="#fff" stroke="${INK}" stroke-width="5"/><rect id="thf" x="-8" y="100" width="16" height="100" fill="#3fa9ff"/><circle cy="214" r="26" fill="#3fa9ff" stroke="${INK}" stroke-width="5"/>
+<text id="tht" x="-34" y="150" text-anchor="end" font-family="Oswald" font-weight="700" font-size="56" fill="#fff">+4°</text></g>
+<g id="knack" opacity="0" transform="translate(745,520)"><rect x="-120" y="-50" width="240" height="90" rx="20" fill="#ff4d5a" stroke="${INK}" stroke-width="6" transform="rotate(-6)"/><text text-anchor="middle" y="18" font-family="Oswald" font-weight="700" font-size="64" fill="#fff" transform="rotate(-6)">KNACK!</text></g>`;
+const CH=[];{let cur=[];CAPS.forEach((w,k)=>{cur.push(w);const txt=cur.map(x=>x.text).join(' ');const brk=/[.,?!:;]$/.test(w.text)||cur.length>=5||txt.length>28;if(brk||k===CAPS.length-1){CH.push(cur);cur=[]}});}
+CH.forEach((c,k)=>{c.s=c[0].start-.05;c.e=k+1<CH.length?Math.min(CH[k+1][0].start-.05,c[c.length-1].end+.6):c[c.length-1].end+.5});
+function drips(id,x,y,t,on){let s='';if(on>0)for(let k=0;k<3;k++){const ph=(t*1.6+k/3)%1;s+=`<path transform="translate(${x},${y+ph*90})" d="M0 0 q -10 18 0 22 q 10 -4 0 -22z" fill="#3fa9ff" opacity="${on*(1-ph)}"/>`}$(id).innerHTML=s}
+window.render=async function(t){
+  const D=C.desh,E=C.endc;
+  // title
+  const ti=$('title');
+  if(t<D){ti.innerHTML='Frost-Alarm <span style="color:#bfe9ff">❄️</span>';const k=back(p(t,.05,.45));ti.style.transform=`scale(${k}) rotate(${Math.sin(t*3)*1.2}deg)`;ti.style.color='#fff'}
+  else{ti.innerHTML='So geht’s <span style="color:#2ee6d6">richtig ✓</span>';const k=back(p(t,D,.45));ti.style.transform=`scale(${k})`}
+  // snow + temperature
+  for(let k=0;k<26;k++){const sp=40+(k*37)%60,x0=650+(k*53)%350;const y=340+((t*sp+k*71)%440);S('sn'+k,{cx:x0+Math.sin(t*1.5+k)*10,cy:y,opacity:t<E?.85:0})}
+  const temp=t<D?lerp(4,-6,io(p(t,.4,C.gefr-.2))):-6;S('tht',{});$('tht').textContent=(temp>0?'+':'')+Math.round(temp)+'°';
+  const tf=cl((temp+10)/20);S('thf',{y:200-tf*190,height:tf*190,fill:temp<0?'#3fa9ff':'#ff8a3d'});
+  // freezing: outer water turns to ice, expands, cracks (only in intro)
+  const frz=t<D?eo(p(t,C.gefr,1.0)):1-eo(p(t,D,.6));$('ice').setAttribute('opacity',frz);$('icicles').setAttribute('opacity',frz);
+  $('outbg').setAttribute('fill',frz>.3?'#16365f':'#16365f');
+  const ex=t>=C.dehnt&&t<D?1:0;$('arrows').setAttribute('opacity',ex*(.6+.4*Math.sin(t*10)));
+  $('arrows').setAttribute('transform',`translate(0,0)`);
+  const ck=t>=C.besch&&t<D;$('crack').setAttribute('opacity',ck?1:0);
+  $('knack').setAttribute('opacity',ck?1:0);if(ck){const k=back(p(t,C.besch,.35));$('knack').setAttribute('transform',`translate(745,500) scale(${k})`)}
+  // step 1: valve closes (wheel turns)
+  const v=p(t,C.abs,1.0);$('wh').setAttribute('rx',56*Math.abs(Math.cos(v*Math.PI*3)) + 6);$('vlab').setAttribute('opacity',t>=C.abs&&t<C.aussen+.5?1:0);
+  // step 2: tap lever opens, pipe between valve and tap drains
+  const op=eo(p(t,C.aussen,.5));$('lever').setAttribute('transform',`translate(836,566) rotate(${-op*70})`);
+  const dr=eo(p(t,C.aussen+.4,2.2));S('w2',{x:310+dr*494,width:494*(1-dr)});
+  drips('tdrip',838,692,t,t>=C.aussen+.3?(1-p(t,C.entl+.6,.6)):0);
+  // step 3: drain cap opens
+  const dc=eo(p(t,C.entl,.4));$('drain').setAttribute('transform',`translate(360,${650+dc*26})`);drips('ddrip',360,690,t,t>=C.entl+.2?(1-p(t,C.schl,.8)):0);
+  // step 4: hose comes off; frost-safe note: hose crossed
+  const ho=eo(p(t,C.schl,.6));$('hose').setAttribute('transform',`translate(${ho*60},${ho*120})`);$('hose').setAttribute('opacity',1-ho);
+  const hx=t>=C.auch;$('hx').setAttribute('opacity',hx?1:0);if(hx){$('hose').setAttribute('opacity',1);$('hose').setAttribute('transform','');const k=back(p(t,C.auch+.6,.35));$('hx').setAttribute('transform',`translate(890,730) scale(${k}) translate(-890,-730)`)}
+  // checklist rows
+  const RT=[C.abs,C.aussen,C.entl,C.schl,C.auch];
+  RT.forEach((c,j)=>{const r=$('r'+(j+1));const k=back(p(t,c,.4));r.style.opacity=t>=c?1:0;r.style.transform=`translateX(${(1-k)*-500}px)`;
+    const next=j+1<RT.length?RT[j+1]:99;if(j<4)r.className='row'+(t>=next?' done':(t>=c?' on':''));if(j<4&&t>=next)r.firstChild.textContent='✓'});
+  $('steps').style.display=t>=D?'block':'none';{const on=t>=C.dehnt&&t<D;$('info').style.display=on?'block':'none';if(on){const k=back(p(t,C.dehnt,.45));$('info').style.transform=`scale(${k})`}}
+  // end card
+  const inE=t>=E;$('end').style.display=inE?'block':'none';
+  if(inE)[['e0',.1],['e1',.3],['e2',.7]].forEach(([id,d])=>{const k=eo(p(t,E+d,.6));$(id).style.opacity=k;$(id).style.transform=`translateY(${(1-k)*30}px)`});
+  let html='';for(const c of CH){if(t>=c.s&&t<c.e){html=c.map(w=>`<span class="${t>=w.start-.03?'on':''}">${w.text}</span>`).join(' ');break}}
+  $('caps').innerHTML=t<E&&html?`<div>${html}</div>`:'';
+};
+window.addEventListener('load',()=>document.fonts.ready.then(()=>render(0)));
+</script>
+</body>
+</html>
