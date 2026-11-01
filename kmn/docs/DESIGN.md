@@ -27,10 +27,19 @@ Archivo (variabel, Breite 62–125 %, Gewicht 100–900), lokal per `@fontsource
 - Keine Eyebrows über Überschriften.
 
 ## Bewegung
-Ein einziger inszenierter Moment: „Küche entsteht“ (GSAP-Timeline, inline).
-Aufmaß und Anriss → Korpusse fallen ein → Fronten werden eingehängt und ausgerichtet → Arbeitsplatten senken sich
-→ Griffe, Spüle, Kochfeld → Wasserwaage, Libelle pendelt aus, Fugen leuchten auf → echtes Foto der Kochinsel.
-Nur transform/opacity. Start beim Sichtbarwerden (ScrollTrigger), Pause außerhalb des Sichtfelds,
-Pause-Knopf, sechs Schritt-Knöpfe zum Springen. `prefers-reduced-motion`: sofort fertiges Standbild,
-Schritt-Knöpfe zeigen das Endbild des Schritts. Ohne JS ist die fertige Küche sichtbar.
-Die Arbeitsplatten-Wahl im Abschnitt „Arbeitsplatten“ färbt Musterstück und Hero-Küche um.
+Ein einziger inszenierter Moment: die 3D-Scroll-Szene „Küche entsteht“ (Three.js, ein Canvas, plus GSAP ScrollTrigger,
+alles inline gebündelt). Die Szene ist über rund fünf Bildschirmhöhen gepinnt; der Scroll führt die Kamera:
+0 Grundriss von oben mit Maßketten → 1 „Nach Plan aufbauen“ (Aufmaß vor Ort, keine Planung) → 2 Stellfüße, Korpusse
+wachsen aus dem Grundriss, Insel wird mit der Wasserwaage nivelliert → 3 Arbeitshöhe als Maßlinie, „mit Ihnen abgestimmt“,
+ohne Zahl → 4 Arbeitsplatten senken sich, Ausschnitte für Kochfeld und Spüle, Nahfahrt auf Stoß und Wandanschluss →
+5 Fronten und Griffe, Fugen leuchten libellengrün → 6 Rückfahrt, Karte mit dem echten Foto der Kochinsel.
+Look: Lambert-Flächen mit Anthrazit-Strichkanten, Eiche-Boden als Canvas-Textur, Platte in der gewählten Optik.
+Maßbeschriftungen sind HTML-Etiketten (aria-hidden), die Kapiteltexte echte Überschriften und Absätze.
+Rendern nur bei Scroll-Änderung (keine Dauerschleife), devicePixelRatio max. 2.
+`prefers-reduced-motion`: kein Pinning, Standbild der fertigen Küche, Kapitel als normale Liste.
+Ohne WebGL oder ohne JS: die gezeichnete isometrische SVG-Küche als Standbild.
+Die Arbeitsplatten-Wahl im Abschnitt „Arbeitsplatten“ färbt Musterstück und 3D-Platte um.
+
+## Bilder
+Echte Montagefotos nur in „Fertig montiert.“, im Detail-Abschnitt und auf der Foto-Karte des Heros.
+Die Symbolbilder der alten Seite (inszeniert) tragen immer sichtbar „Symbolbild“ und stehen getrennt davon.

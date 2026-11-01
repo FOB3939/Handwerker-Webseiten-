@@ -47,50 +47,53 @@
 <main id="inhalt" tabindex="-1">
 <div class="route route--home" data-route="home">
 
-<!-- ============================================================ HERO -->
-<section class="hero" id="start" aria-labelledby="hero-title">
-  <div class="wrap hero__grid">
-    <div class="hero__head">
-      <h1 id="hero-title" class="display">Ihre Küche. Passgenau montiert.</h1>
-      <p class="lead">Aufbau, Abbau und Arbeitsplatten für Ihre Küche in München. Sorgfältig ausgeführt, nach Plan und mit klaren Absprachen.</p>
-    </div>
-
-    <figure class="stage" data-stage>
-      <div class="stage__canvas">
-        {{svg:hero}}
-        <div class="stage__step" aria-hidden="true"><span class="stage__num" data-step-num>1</span><span data-step-label>Korpusse setzen</span></div>
-        <div class="photo-card" data-photo-card>
-          <img src="{{img:kochinsel-raum}}" width="895" height="1415" alt="Fertig montierte Kochinsel mit grauen Fronten, dunkler Arbeitsplatte und Kochfeld in einem hellen Raum mit Eichenparkett" decoding="async">
-          <span class="photo-card__tag">Echtes Foto: Kochinsel montiert</span>
+<!-- ============================================================ HERO (3D-Szene) -->
+<section class="h3d" id="start" aria-labelledby="hero-title" data-h3d>
+  <div class="h3d__pin" data-h3d-pin>
+    <div class="wrap h3d__grid">
+      <div class="h3d__text">
+        <div class="h3d__stack">
+          <div class="h3d__intro" data-chapter data-active>
+            <h1 id="hero-title" class="display">Ihre Küche. Passgenau montiert.</h1>
+            <p class="lead">Aufbau, Abbau und Arbeitsplatten für Ihre Küche in München. Sorgfältig ausgeführt, nach Plan und mit klaren Absprachen.</p>
+            <div class="actions">
+              <a class="btn btn--ink btn--lg" href="#anfrage">Montage anfragen</a>
+              <a class="btn btn--line btn--lg" href="#leistungen">Leistungen ansehen</a>
+            </div>
+            <a class="rating" href="https://www.my-hammer.de/auftragnehmer/k-m-n-kuechenmontage/bewertungen" target="_blank" rel="noopener">
+              <span class="stars" aria-hidden="true">{{stars}}</span>
+              <span><strong>5,0</strong> bei 24 Bewertungen auf MyHammer, Stand 08.10.2026<span class="sr"> (öffnet in neuem Tab)</span></span>
+            </a>
+            <p class="h3d__hint" aria-hidden="true">Scrollen Sie: Die Küche entsteht Schritt für Schritt.</p>
+          </div>
+          <ol class="h3d__list" aria-label="So entsteht eine Küche">
+            <li data-chapter><span class="h3d__n" aria-hidden="true">1</span><h2 class="h3d__t">Nach Plan aufbauen</h2><p>Grundlage ist der Küchenplan Ihres Händlers oder Herstellers. Wir planen und verkaufen keine Küchen – wir bauen sie nach Plan auf. Was für die Montage zählt, messen wir vor Ort auf.</p></li>
+            <li data-chapter><span class="h3d__n" aria-hidden="true">2</span><h2 class="h3d__t">Korpusse setzen und ausrichten</h2><p>Jeder Schrank steht auf Stellfüßen. Mit der Wasserwaage richten wir die Korpusse aus, bis sie gerade stehen und sauber aneinander anschließen.</p></li>
+            <li data-chapter><span class="h3d__n" aria-hidden="true">3</span><h2 class="h3d__t">Arbeitshöhe abstimmen</h2><p>Wie hoch die Arbeitsplatte liegen soll, stimmen wir vor der Montage mit Ihnen ab. Auf diese Höhe richten wir die Schränke aus.</p></li>
+            <li data-chapter><span class="h3d__n" aria-hidden="true">4</span><h2 class="h3d__t">Arbeitsplatte einbauen</h2><p>Vor Ort ausgemessen, passend zugeschnitten und eingebaut: mit Ausschnitten für Kochfeld und Spüle, dicht gestoßen und sauber an die Wand angepasst.</p><a class="h3d__more" href="#arbeitsplatten">Optik der Platte wählen</a></li>
+            <li data-chapter><span class="h3d__n" aria-hidden="true">5</span><h2 class="h3d__t">Fronten einhängen, Fugen ausrichten</h2><p>Türen und Schubkästen werden eingehängt und eingestellt, bis die Fugen gleichmäßig verlaufen und alles leicht schließt.</p></li>
+            <li data-chapter><span class="h3d__n" aria-hidden="true">6</span><h2 class="h3d__t">Fertig montiert</h2><p>Gemeinsamer Blick auf das Ergebnis, bevor wir gehen. Das Foto zeigt eine echte Montage: eine Kochinsel nach dem Aufbau.</p><a class="btn btn--ink" href="#anfrage">Montage anfragen</a></li>
+          </ol>
+        </div>
+        <nav class="h3d__rail" aria-label="Kapitel der 3D-Szene">
+          <button type="button" data-goto-chapter="1"><span class="rail__n">1</span><span class="rail__t">Plan</span></button>
+          <button type="button" data-goto-chapter="2"><span class="rail__n">2</span><span class="rail__t">Korpusse</span></button>
+          <button type="button" data-goto-chapter="3"><span class="rail__n">3</span><span class="rail__t">Höhe</span></button>
+          <button type="button" data-goto-chapter="4"><span class="rail__n">4</span><span class="rail__t">Platte</span></button>
+          <button type="button" data-goto-chapter="5"><span class="rail__n">5</span><span class="rail__t">Fronten</span></button>
+          <button type="button" data-goto-chapter="6"><span class="rail__n">6</span><span class="rail__t">Fertig</span></button>
+        </nav>
+      </div>
+      <div class="h3d__stage">
+        <div class="h3d__canvas" data-h3d-canvas>
+          <div class="h3d__fallback">{{svg:hero}}</div>
+          <div class="h3d__labels" data-h3d-labels aria-hidden="true"></div>
+          <div class="photo-card" data-photo-card>
+            <img src="{{img:kochinsel-raum}}" width="895" height="1415" alt="Fertig montierte Kochinsel mit grauen Fronten, dunkler Arbeitsplatte und Kochfeld in einem hellen Raum mit Eichenparkett" decoding="async">
+            <span class="photo-card__tag">Echtes Foto: Kochinsel montiert</span>
+          </div>
         </div>
       </div>
-      <figcaption class="stage__bar">
-        <button class="play" type="button" data-play aria-label="Animation pausieren">
-          <svg class="i-pause" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M8 5v14M16 5v14"/></svg>
-          <svg class="i-play" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M7 4.5v15l12-7.5z"/></svg>
-          <svg class="i-again" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M4.5 12a7.5 7.5 0 1 0 2.2-5.3M4.5 4v4h4"/></svg>
-        </button>
-        <ol class="rail" aria-label="Montageschritte der Zeichnung">
-          <li><button type="button" data-seek="korpus"><span class="rail__n">1</span><span class="rail__t">Korpusse</span></button></li>
-          <li><button type="button" data-seek="fronten"><span class="rail__n">2</span><span class="rail__t">Fronten</span></button></li>
-          <li><button type="button" data-seek="platte"><span class="rail__n">3</span><span class="rail__t">Platte</span></button></li>
-          <li><button type="button" data-seek="geraete"><span class="rail__n">4</span><span class="rail__t">Geräte</span></button></li>
-          <li><button type="button" data-seek="pruefen"><span class="rail__n">5</span><span class="rail__t">Prüfen</span></button></li>
-          <li><button type="button" data-seek="foto"><span class="rail__n">6</span><span class="rail__t">Foto</span></button></li>
-        </ol>
-      </figcaption>
-    </figure>
-
-    <div class="hero__act">
-      <div class="actions">
-        <a class="btn btn--ink btn--lg" href="#anfrage">Montage anfragen</a>
-        <a class="btn btn--line btn--lg" href="#leistungen">Leistungen ansehen</a>
-      </div>
-      <a class="rating" href="https://www.my-hammer.de/auftragnehmer/k-m-n-kuechenmontage/bewertungen" target="_blank" rel="noopener">
-        <span class="stars" aria-hidden="true">{{stars}}</span>
-        <span><strong>5,0</strong> bei 24 Bewertungen auf MyHammer, Stand 08.10.2026<span class="sr"> (öffnet in neuem Tab)</span></span>
-      </a>
-      <p class="said">Häufig genannt: <span>sauber</span>, <span>zuverlässig</span>, <span>millimetergenau</span></p>
     </div>
   </div>
 </section>
@@ -468,5 +471,6 @@
 <script>
 /*JS*/
 </script>
+<script>/*HERO3D*/</script>
 </body>
 </html>

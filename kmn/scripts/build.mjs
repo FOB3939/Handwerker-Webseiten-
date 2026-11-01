@@ -4,6 +4,7 @@ import fs from "node:fs";
 import path from "node:path";
 import { fileURLToPath } from "node:url";
 import { createRequire } from "node:module";
+import { buildSync } from "esbuild";
 import { heroSVG, sampleSVG, patternDefs, ICONS, OPTIKEN } from "../src/kitchen.mjs";
 
 const root = path.join(path.dirname(fileURLToPath(import.meta.url)), "..");
@@ -30,12 +31,17 @@ const swatches = OPTIKEN.map((o) =>
 let html = rd("src/index.html");
 const css = rd("src/styles.css").replace("{{font:archivo}}", b64(fontFile, "font/woff2"));
 const js = rd("src/app.js");
+const hero3d = buildSync({
+  entryPoints: [path.join(root, "src/hero3d.js")], bundle: true, minify: true, format: "iife",
+  target: ["es2020"], write: false, legalComments: "none",
+}).outputFiles[0].text;
 const gsapJs = fs.readFileSync(resolveGsap("gsap.min.js"), "utf8") + "\n" + fs.readFileSync(resolveGsap("ScrollTrigger.min.js"), "utf8");
 
 html = html
   .replace("/*CSS*/", () => css)
   .replace("/*GSAP*/", () => gsapJs.replace(/<\/script/gi, "<\\/script"))
   .replace("/*JS*/", () => js)
+  .replace("/*HERO3D*/", () => hero3d.replace(/<\/script/gi, "<\\/script"))
   .replace("<script>/*", () => `<script type="application/json" id="optiken">${JSON.stringify(OPTIKEN)}</script>\n<script>/*`)
   .replace("{{patterns}}", () => patternDefs())
   .replace("{{svg:hero}}", () => heroSVG())

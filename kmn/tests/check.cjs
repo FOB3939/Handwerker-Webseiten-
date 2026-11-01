@@ -18,7 +18,7 @@ const decode = (p) => p.evaluate(() => Promise.all([...document.images].map((i) 
 const heroTl = (p, js) => p.evaluate(js);
 
 (async () => {
-  const b = await chromium.launch();
+  const b = await chromium.launch({ args: ["--use-angle=swiftshader", "--enable-unsafe-swiftshader"] });
   for (const w of WIDTHS) {
     console.log(`\n== ${w}px`);
     for (const motion of ["no-preference", "reduce"]) {
@@ -30,21 +30,25 @@ const heroTl = (p, js) => p.evaluate(js);
       await p.goto("file://" + file);
       await decode(p);
       if (motion === "no-preference") {
-        await p.waitForTimeout(1200);
-        const st = await p.getAttribute("[data-play]", "data-state");
-        ok(st === "playing", `${w} Animation läuft (Status ${st})`);
-        await p.waitForTimeout(10500);
-        const done = await p.getAttribute("[data-play]", "data-state");
-        ok(done === "done", `${w} Animation endet (Status ${done})`);
+        await p.waitForTimeout(600);
+        const r = await p.evaluate(() => ({ cls: document.querySelector("[data-h3d]").className, st: window.ScrollTrigger ? ScrollTrigger.getAll().length : 0 }));
+        ok(/h3d--gl/.test(r.cls) && !/static/.test(r.cls) && r.st > 0, `${w} 3D-Szene mit WebGL und ScrollTrigger aktiv (${r.cls})`);
+        if (axePath) {
+          await p.addScriptTag({ path: axePath });
+          const res = await p.evaluate(() => axe.run(document.querySelector("[data-h3d]"), { runOnly: ["wcag2a", "wcag2aa", "wcag21aa", "wcag22aa", "best-practice"] }));
+          const v = res.violations.map((x) => `${x.id}(${x.nodes.length})`);
+          ok(v.length === 0, `${w} axe in der gepinnten 3D-Szene ohne Verstöße ${v.join("; ")}`);
+        }
       } else {
         await p.waitForTimeout(300);
         const r = await p.evaluate(() => ({
-          state: document.querySelector("[data-play]").getAttribute("data-state"),
+          cls: document.querySelector("[data-h3d]").className,
           card: getComputedStyle(document.querySelector("[data-photo-card]")).opacity,
-          top: getComputedStyle(document.querySelector(".k-top")).opacity,
-          label: document.querySelector("[data-step-label]").textContent,
+          visible: [...document.querySelectorAll("[data-chapter]")].filter((c) => getComputedStyle(c).visibility === "visible" && getComputedStyle(c).opacity === "1").length,
+          total: document.querySelectorAll("[data-chapter]").length,
+          pin: getComputedStyle(document.querySelector("[data-h3d-pin]")).height,
         }));
-        ok(r.state === "done" && r.card === "1" && r.top === "1", `${w} reduzierte Bewegung: Standbild der fertigen Küche (${JSON.stringify(r)})`);
+        ok(/h3d--static/.test(r.cls) && r.card === "1" && r.visible === r.total, `${w} reduzierte Bewegung: Standbild und alle Kapitel als Liste (${JSON.stringify(r)})`);
         // Überlauf
         const over = await p.evaluate(() => {
           const W = document.documentElement.clientWidth;
@@ -76,32 +80,53 @@ const heroTl = (p, js) => p.evaluate(js);
     }
   }
 
-  // Hero-Phasen als Einzelbilder (deterministisch per Timeline-Zeit)
-  console.log("\n== Hero-Phasen");
-  for (const w of [1440, 390]) {
-    const p = await b.newPage({ viewport: { width: w, height: 900 } });
+  // 3D-Szene: je Kapitel ein Bild beim Scrollen
+  console.log("\n== 3D-Scroll-Phasen");
+  const PH = [["0-start", 0], ["1-plan", 1.5], ["2-korpusse", 2.75], ["3-hoehe", 3.5], ["4-arbeitsplatte", 4.35], ["4b-stoss", 5.0], ["5-fronten", 5.85], ["6-fertig", 99]];
+  const TITLES = ["Ihre Küche", "Nach Plan", "Korpusse", "Arbeitshöhe", "Arbeitsplatte", "Arbeitsplatte", "Fronten", "Fertig"];
+  for (const [w, h] of [[1440, 900], [390, 844]]) {
+    const p = await b.newPage({ viewport: { width: w, height: h } });
+    const errs = [];
+    p.on("console", (m) => { if (m.type() === "error" || m.type() === "warning") errs.push(m.text()); });
+    p.on("pageerror", (e) => errs.push(String(e)));
     await p.goto("file://" + file);
     await decode(p);
-    await p.click("[data-play]"); // pausieren
-    const phases = [["1-aufmass", 0.45], ["2-korpusse", 1.6], ["3-fronten", 2.75], ["4-platte", 3.9], ["5-geraete", 4.9], ["6-pruefen", 6.4], ["7-foto", 99]];
-    for (const [n, t] of phases) {
-      await p.evaluate((t) => {
-        const tl = gsap.globalTimeline.getChildren(false, false, true).find((x) => x.labels && "korpus" in x.labels);
-        tl.pause().seek(Math.min(t, tl.duration()), false);
-      }, t);
-      await p.waitForTimeout(80);
-      await (await p.$("[data-stage]")).screenshot({ path: path.join(shots, `hero-${w}-${n}.png`) });
+    for (let i = 0; i < PH.length; i++) {
+      await p.evaluate((t) => { const st = ScrollTrigger.getAll()[0]; const d = st.animation.duration(); scrollTo(0, st.start + (st.end - st.start) * Math.min(t, d) / d); }, PH[i][1]);
+      await p.waitForTimeout(1200);
+      const title = await p.evaluate(() => document.querySelector("[data-chapter][data-active]").textContent.trim());
+      ok(title.includes(TITLES[i]), `${w} Kapitel ${PH[i][0]} sichtbar („${title.slice(0, 30)}…“)`);
+      await p.screenshot({ path: path.join(shots, `hero3d-${w}-${PH[i][0]}.png`) });
     }
-    // Schritt-Knöpfe
-    await p.click('[data-seek="platte"]');
-    const lab = await p.textContent("[data-step-label]");
-    ok(/Arbeitsplatte/.test(lab), `${w} Schritt-Knopf springt zur Arbeitsplatte (${lab})`);
-    // Optik wählen färbt Hero-Platte
-    await p.click('[data-optik="eiche"]');
-    const fill = await p.evaluate(() => document.querySelector(".kitchen .js-wt-top").style.fill);
-    ok(/pt-eiche/.test(fill), `${w} Optik-Wahl färbt die Hero-Arbeitsplatte (${fill})`);
-    if (w === 1440) { await p.evaluate(() => scrollTo(0, 0)); await p.waitForTimeout(100); await (await p.$("[data-stage]")).screenshot({ path: path.join(shots, `hero-${w}-8-eiche.png`) }); }
+    const over = await p.evaluate(() => document.documentElement.scrollWidth);
+    ok(over <= w, `${w} 3D-Szene ohne horizontalen Überlauf (${over})`);
+    // Kapitel-Knopf springt
+    await p.evaluate(() => scrollTo(0, 0)); await p.waitForTimeout(600);
+    await p.click('[data-goto-chapter="4"]'); await p.waitForTimeout(1200);
+    const t4 = await p.evaluate(() => document.querySelector("[data-chapter][data-active]").textContent);
+    ok(/Arbeitsplatte einbauen/.test(t4), `${w} Kapitel-Knopf 4 springt zur Arbeitsplatte`);
+    // Optik-Wahl löst Umfärben aus (SVG-Fallback und 3D-Ereignis)
+    const ev = await p.evaluate(() => new Promise((res) => { addEventListener("kmn:optik", (e) => res(e.detail), { once: true }); document.querySelector('[data-optik="eiche"]').click(); }));
+    ok(ev === "eiche", `${w} Optik-Wahl färbt die 3D-Arbeitsplatte (${ev})`);
+    if (w === 1440) {
+      await p.evaluate(() => { const st = ScrollTrigger.getAll()[0]; scrollTo(0, st.start + (st.end - st.start) * 4.9 / st.animation.duration()); });
+      await p.waitForTimeout(1200);
+      await p.screenshot({ path: path.join(shots, "hero3d-1440-4c-eiche.png") });
+    }
+    ok(errs.length === 0, `${w} 3D-Szene ohne Konsolenfehler ${errs.join(" | ")}`);
     await p.close();
+  }
+  // Ohne WebGL: SVG-Standbild
+  {
+    const nb = await chromium.launch({ args: ["--disable-3d-apis", "--disable-webgl"] });
+    const p = await nb.newPage({ viewport: { width: 1024, height: 800 } });
+    const errs = [];
+    p.on("pageerror", (e) => errs.push(String(e)));
+    await p.goto("file://" + file); await p.waitForTimeout(300);
+    const r = await p.evaluate(() => ({ cls: document.querySelector("[data-h3d]").className, svg: getComputedStyle(document.querySelector(".h3d__fallback")).display }));
+    ok(/h3d--nogl/.test(r.cls) && r.svg !== "none" && errs.length === 0, `ohne WebGL: gezeichnetes Standbild (${JSON.stringify(r)}) ${errs.join(" ")}`);
+    await p.screenshot({ path: path.join(shots, "hero3d-ohne-webgl-1024.png") });
+    await nb.close();
   }
 
   // Formular nur mit Tastatur

@@ -1,21 +1,22 @@
 # K.M.N Küchenmontage – Website (Einzeldatei)
 
-Eigenständige HTML-Datei mit eingebettetem CSS, JS (GSAP 3 + ScrollTrigger), Schrift und Fotos.
+Eigenständige HTML-Datei mit eingebettetem CSS, JS (GSAP 3 + ScrollTrigger, Three.js per esbuild gebündelt), Schrift und Fotos.
 Keine Anfragen ins Netz zur Laufzeit, `noindex`.
 
 ## Befehle
 ```bash
-npm install                                  # @fontsource-variable/archivo
-node scripts/fotos.mjs <ordner-mit-originalen>  # Screenshots zuschneiden → fotos/*.webp
+npm install                                  # Schrift, three, gsap, esbuild
+node scripts/fotos.mjs <originale> [symbolbilder]  # zuschneiden → fotos/*.webp, fotos/symbol/*.webp
 node scripts/build.mjs [ziel.html]           # → dist/kmn-neu.html (+ optional Kopie)
 node tests/check.cjs [html] [shots-ordner]   # Playwright: Konsole, Überlauf, axe, Tastatur, Animation
 ```
-`sharp`, `gsap` und `axe-core` werden aus dem lokalen `node_modules` oder aus dem Hauptrepo geladen.
+`sharp` und `axe-core` kommen aus dem lokalen `node_modules` oder aus dem Hauptrepo. Die Tests starten Chromium mit SwiftShader, damit WebGL headless läuft.
 
 ## Dateien
 - `src/index.html` – Vorlage mit Platzhaltern (`{{img:…}}`, `{{svg:hero}}` …)
 - `src/styles.css`, `src/app.js` – Gestaltung, Animation, Formular, Hash-Routen `#impressum`/`#datenschutz`
-- `src/kitchen.mjs` – erzeugt die isometrischen SVG-Zeichnungen und Plattenmuster
+- `src/hero3d.js` – 3D-Scroll-Szene (Three.js)
+- `src/kitchen.mjs` – isometrische SVG-Zeichnungen (Fallback-Standbild, Piktogramme) und Plattenmuster
 - `fotos/` – zugeschnittene echte Fotos (MyHammer-Screenshots ohne Rand und Pfeile)
 - `docs/DESIGN.md` – Gestaltungsrichtung
 
