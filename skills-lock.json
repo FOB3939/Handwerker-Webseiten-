@@ -96,6 +96,21 @@
       "sourceType": "github",
       "skillPath": "skills/gsap-utils/SKILL.md",
       "computedHash": "1927bcc4ea95b38203404ad5ea1d060b15c4a886c65ae53e885ff1793aabe0ba"
+    },
+    "ui-ux-pro-max": {
+      "source": "nextlevelbuilder/ui-ux-pro-max-skill",
+      "sourceType": "github",
+      "skillPath": ".claude/skills/ui-ux-pro-max/SKILL.md",
+      "commit": "3a13158ff1f32156cbe144108de48eda2ecaed9a",
+      "computedHash": "ea087c341bfb5b23195c7302027268ede86da802554c18a5c4896a6017b439f9"
+    },
+    "impeccable": {
+      "source": "pbakaus/impeccable",
+      "sourceType": "github",
+      "skillPath": ".claude/skills/impeccable/SKILL.md",
+      "commit": "f5c80432f883a0ee437735305eafc2a9e1bdb7a0",
+      "computedHash": "2d80bb4181d0858a69c921cf9dd8a53dc918bc9f8797a2b957881d2b1b3c4e4a",
+      "note": "launcher/hooks not used (local policy)"
     }
   }
 }
