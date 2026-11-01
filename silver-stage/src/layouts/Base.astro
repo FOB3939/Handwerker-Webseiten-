@@ -1,16 +1,11 @@
 ---
-import "@fontsource/jost/latin-200.css";
-import "@fontsource/jost/latin-300.css";
-import "@fontsource/jost/latin-400.css";
-import "@fontsource/jost/latin-500.css";
-import "@fontsource/inter/latin-400.css";
-import "@fontsource/inter/latin-500.css";
+import "@fontsource-variable/anybody/standard.css";
+import "@fontsource-variable/schibsted-grotesk/wght.css";
 import "../styles/global.css";
-// Display-Schrift vorladen: verhindert Layoutsprung der großen Überschriften beim Schriftwechsel
-import jost300 from "@fontsource/jost/files/jost-latin-300-normal.woff2?url";
-import jost400 from "@fontsource/jost/files/jost-latin-400-normal.woff2?url";
-import inter400 from "@fontsource/inter/files/inter-latin-400-normal.woff2?url";
-const preloadFonts = [jost300, inter400];
+// Schriften vorladen: verhindert Layoutsprung der großen Überschriften beim Schriftwechsel
+import anybody from "@fontsource-variable/anybody/files/anybody-latin-standard-normal.woff2?url";
+import schibsted from "@fontsource-variable/schibsted-grotesk/files/schibsted-grotesk-latin-wght-normal.woff2?url";
+const preloadFonts = [anybody, schibsted];
 import Header from "../components/Header.astro";
 import Footer from "../components/Footer.astro";
 import Intro from "../components/Intro.astro";
@@ -58,7 +53,7 @@ const ld = Astro.url.pathname === base ? [org, website, ...jsonLd] : [org, ...js
     <link rel="icon" href={`${base}brand/favicon.svg`} type="image/svg+xml" />
     <link rel="icon" href={`${base}favicon-32.png`} sizes="32x32" type="image/png" />
     <link rel="apple-touch-icon" href={`${base}apple-touch-icon.png`} />
-    <meta name="theme-color" content="#0d0f14" />
+    <meta name="theme-color" content="#e3e4e6" />
     <meta property="og:type" content="website" />
     <meta property="og:locale" content="de_DE" />
     <meta property="og:site_name" content="Silver Stage" />
@@ -119,16 +114,6 @@ const ld = Astro.url.pathname === base ? [org, website, ...jsonLd] : [org, ...js
           forceBtn.hidden = false; forceBtn.textContent = forced ? "Effekte normal (gedrosselt)" : "Effekte erzwingen";
           forceBtn.addEventListener("click", () => { setName("ss-fx-force", !forced); location.reload(); });
         }
-      }
-      // Einblenden beim Scrollen (progressive Verbesserung)
-      const els = document.querySelectorAll<HTMLElement>("[data-reveal]");
-      if (!("IntersectionObserver" in window) || (matchMedia("(prefers-reduced-motion: reduce)").matches && !document.documentElement.classList.contains("fx-force"))) {
-        els.forEach((e) => e.classList.add("is-in"));
-      } else {
-        const io = new IntersectionObserver((entries) => {
-          for (const e of entries) if (e.isIntersecting) { e.target.classList.add("is-in"); io.unobserve(e.target); }
-        }, { rootMargin: "0px 0px -8% 0px", threshold: 0.08 });
-        els.forEach((e) => io.observe(e));
       }
     </script>
   </body>

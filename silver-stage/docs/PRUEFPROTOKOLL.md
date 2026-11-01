@@ -1,28 +1,27 @@
-# Prüfprotokoll (Stand 26.10.2026, nach Redesign „Lichtpult“)
+# Prüfprotokoll (Stand 01.11.2026, nach Redesign „Plakatwand“)
 
 Alle Prüfungen liefen automatisiert in Chromium (Playwright) in der Arbeitsumgebung.
 
 | Prüfung | Werkzeug | Ergebnis |
 |---|---|---|
+| Typprüfung, Build | `npm run check`, `npm run build` | 0 Fehler, 0 Warnungen; 12 Seiten gebaut |
 | Unit-Tests Spiel-Logik + Formular-Backend | `npm test` (node:test) | 16/16 bestanden |
-| Spiel-Durchlauf (automatische Treffer, Pause bei Tabwechsel) | `tests/browser-play.mjs` | 62/62 „Perfekt“, Pause/Fortsetzen korrekt |
-| 10 Seiten × 5 Breiten (320–1440 px): kein horizontales Scrollen, axe-core, interne Links | `tests/qa-pages.cjs` | 50/50 ohne Befund |
-| Interaktion: Intro (überspringen, einmal pro Sitzung, reduced motion), Navigation + Tastatur, Formular-Validierung, Doppelabsenden, Fehler-/Erfolgsfall | `tests/qa-interaction.cjs` | 17/17 bestanden |
-| Lighthouse (Vorschau-Build, mobil) | lighthouse | Startseite: Performance 95–98, Barrierefreiheit 100, Best Practices 100, LCP 2,1 s, CLS 0, TBT 0 ms; Tonstudio: 98 / 100 / 100, LCP 2,0 s, CLS 0,04 |
-| Lighthouse SEO (Produktionskonfiguration, `PUBLIC_PREVIEW=false`) | lighthouse | 100 |
-| Sitemap | Build | nur die 7 Inhaltsseiten |
-| Artifact-Vorschau (Export, `scripts/artifact-export.mjs`) | Playwright | alle Seiten laden, Schriften aktiv, keine 404 |
+| Spiel-Durchlauf (automatische Treffer, Pause, Autorepeat) | `tests/browser-play.mjs` | 62/62 „Perfekt“, 120 ms spät = 62 „Gut“, Pause/Fortsetzen korrekt |
+| 12 Seiten × 5 Breiten (360–1440 px): kein horizontales Scrollen, axe-core (WCAG 2.2 AA), Tippflächen, interne Links | `tests/qa-pages.cjs` | 60/60 ohne Befund |
+| Interaktion: Menü + Tastatur, Untermenü, Formular (ohne/mit Backend, Doppelabsenden), Line-up, Intro (überspringbar, einmal pro Sitzung) | `tests/qa-interaction.cjs` | 22/22 bestanden |
 
-## Kontraste (WCAG 2.2 AA, mind. 4,5:1) – Farben des Redesigns
+## Kontraste (WCAG 2.2 AA) – Farben „Plakatwand“
 | Paar | Kontrast |
 |---|---|
-| Haupttext #f2f3f5 auf Hintergrund #0d0f14 | 17,3:1 |
-| Sekundärtext #a9b0bb auf Hintergrund | 8,8:1 |
-| Sekundärtext auf Fläche #141820 | 8,1:1 |
-| Silber #d5dae1 auf Hintergrund | 13,6:1 |
-| Raumfarbe Bernstein #f2a65a auf Hintergrund | 9,5:1 |
-| Raumfarbe Magenta #c98bff auf Hintergrund | 7,9:1 |
-| Fokusring #c9bfff auf Hintergrund | 11,3:1 |
+| Druckschwarz #1c1a21 auf Papier #e3e4e6 | 13,5:1 |
+| Zweittext #4d4a55 auf Papier / auf Bogen #d5d7da | 6,8:1 / 6,0:1 |
+| Druckschwarz auf Gelb #ffd21a / Zweittext #4a3d00 auf Gelb | 11,9:1 / 7,4:1 |
+| Druckschwarz auf Pink #ff4f93 / Zweittext #3a0d22 auf Pink | 5,6:1 / 5,4:1 |
+| Weiß auf Blau #2f49f5 / Zweittext #dfe3ff auf Blau | 6,2:1 / 4,9:1 |
+| Link-Blau #2f49f5 auf Papier | 4,9:1 |
+| Fehlerrot #b3123f auf Papier / auf Weiß | 5,4:1 / 6,8:1 |
+| Bühne: #eceaf0 / #b5b2bd auf #1c1a21 | 13,5:1 / 8,3:1 |
+| Fokus: 3 px Druckschwarz auf Papier, Weiß auf Blau, Gelb auf der Bühne | ≥ 3:1 |
 
 ## Nicht getestet
 - echte Mobilgeräte (nur Emulation), Audio-Latenz von Beat Stage auf echten Geräten
@@ -32,5 +31,5 @@ Alle Prüfungen liefen automatisiert in Chromium (Playwright) in der Arbeitsumge
 - Abgleich mit der alten Website und der Gestaltungsreferenz (beide nicht erreichbar)
 
 ## Bewegung (WCAG 2.2.2)
-Automatisch laufende Animationen (Schallbögen, Rack-LEDs, D-F-J-K-Tasten) enden nach höchstens 4,8 s; bei „Bewegung reduzieren“ laufen sie gar nicht.
-Bei „Bewegung reduzieren“ gibt es ruhige Varianten statt keiner Effekte: Intro (5 s) nur mit Ein-/Ausblenden, Fotowechsel im Startbereich als Überblenden ohne Zoom (pausierbar), 3D-Tunnel als normales Bildraster. Ohne Sitzungsspeicher läuft das Intro bei jedem Aufruf. Getestet in Handy-Emulation (Pixel 7): normal, reduzierte Bewegung, gesperrter Speicher.
+Automatisch läuft nur der einmalige Rakelzug der Druckplatte (0,75 s) und das Signet auf der Beat-Stage-Startseite (endet nach 4,8 s).
+Bei „Bewegung reduzieren“ entfallen beide; das Intro läuft dann in der ruhigen Variante (nur Ein-/Ausblenden). Ohne Sitzungsspeicher läuft das Intro bei jedem Aufruf.

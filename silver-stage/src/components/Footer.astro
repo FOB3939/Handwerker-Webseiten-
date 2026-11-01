@@ -14,7 +14,7 @@ const year = new Date().getFullYear();
     <div class="col">
       <p class="fhead">Adresse</p>
       <address>{CONTACT.street}<br />{CONTACT.zip} {CONTACT.city}</address>
-      <a class="link-arrow" href={CONTACT.routeUrl} target="_blank" rel="noopener">Route planen <Icon name="arrow" /></a>
+      <a class="link" href={CONTACT.routeUrl} target="_blank" rel="noopener">Route planen<span class="visually-hidden"> (öffnet Google Maps in neuem Tab)</span></a>
     </div>
     <div class="col">
       <p class="fhead">Kontakt</p>
@@ -38,25 +38,28 @@ const year = new Date().getFullYear();
   </div>
   <div class="wrap legal">
     <p>© {year} Silver Stage, München</p>
-    <p><a href={u("/impressum/")}>Impressum</a> · <a href={u("/datenschutz/")}>Datenschutz</a></p>
+    <p><a href={u("/impressum/")}>Impressum</a><a href={u("/datenschutz/")}>Datenschutz</a></p>
   </div>
 </footer>
 <style>
-  .fhead { font: 500 var(--step--1) / 1.2 var(--font-body); color: var(--ink-2); }
-  .footer { border-top: 1px solid var(--line); padding-top: clamp(56px, 7vw, 96px); background: var(--bg); }
+  .footer { border-top: 2px solid var(--ink); padding-top: clamp(48px, 6vw, 80px); background: var(--paper-2); }
   .grid { display: grid; grid-template-columns: 1.4fr 1fr 1fr 0.9fr; gap: 40px; }
-  .col { display: grid; align-content: start; gap: 12px; }
+  .col { display: grid; align-content: start; gap: 10px; }
+  .fhead { font: 750 1rem / 1.2 var(--font-display); font-stretch: 112%; }
   .flogo { color: var(--ink); display: inline-block; }
-  .flogo :global(svg) { height: 32px; width: auto; }
+  .flogo :global(svg) { height: 34px; width: auto; }
   .brand-col p { max-width: 34ch; }
-  address { font-style: normal; color: var(--ink); }
-  .flink { display: inline-flex; align-items: center; gap: 10px; min-height: 44px; text-decoration: none; overflow-wrap: anywhere; }
-  .flink :global(svg) { width: 18px; height: 18px; color: var(--silver); flex: none; }
+  address { font-style: normal; }
+  .flink { display: inline-flex; align-items: center; gap: 10px; min-height: 44px; text-decoration: none; overflow-wrap: anywhere; font-weight: 600; }
+  .flink :global(svg) { width: 18px; height: 18px; flex: none; }
   .flink:hover { text-decoration: underline; }
+  .col :global(.link-arrow) { display: inline-flex; align-items: center; gap: 8px; min-height: 44px; font-weight: 650; text-decoration: underline; text-decoration-thickness: 2px; text-underline-offset: 6px; }
+  .col :global(.link-arrow svg) { display: none; }
   ul { list-style: none; margin: 0; padding: 0; display: grid; }
-  ul a { display: inline-flex; align-items: center; min-height: 40px; text-decoration: none; color: var(--ink-2); }
-  ul a:hover { color: var(--ink); }
-  .legal { display: flex; flex-wrap: wrap; justify-content: space-between; gap: 12px; margin-top: 56px; padding-block: 24px 32px; border-top: 1px solid var(--line); color: var(--ink-2); font-size: var(--step--1); }
+  ul a { display: inline-flex; align-items: center; min-height: 40px; text-decoration: none; color: var(--ink); }
+  ul a:hover { text-decoration: underline; text-underline-offset: 5px; }
+  .legal { display: flex; flex-wrap: wrap; justify-content: space-between; gap: 12px; margin-top: 48px; padding-block: 18px 28px; border-top: 1px solid var(--rule-strong); color: var(--ink-2); font-size: var(--step--1); }
+  .legal p { display: flex; gap: 16px; align-items: center; }
   .legal a { display: inline-flex; min-height: 44px; align-items: center; }
   @media (max-width: 900px) { .grid { grid-template-columns: 1fr 1fr; } .brand-col { grid-column: 1 / -1; } }
   @media (max-width: 520px) { .grid { grid-template-columns: 1fr; } }

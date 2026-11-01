@@ -14,10 +14,10 @@ const faq = [
 <Base title="Preise & Leistungen – Tonstudio und Proberaum München | Silver Stage" description="Leistungen und Preise von Silver Stage in München-Sendling: Aufnahme-Session, Gesangs- und Sprachaufnahme, Bandprobe mit Bühne, Live-Mitschnitt, Tanz und Fotoshooting." current="/preise/">
   <section class="section price-hero">
     <div class="wrap">
-      <h1 class="metal">Preise und Leistungen</h1>
+      <h1>Preise und Leistungen</h1>
       <p class="lead">Aufnehmen, proben, tanzen, fotografieren: Was du bei Silver Stage buchen kannst und womit du rechnen kannst.</p>
       {isExample && (
-        <p class="example-note" role="note"><strong>Vorschau:</strong> Die Beträge sind Beispielpreise zur Gestaltung und noch nicht vom Studio bestätigt. Vor der Veröffentlichung werden sie durch die echten Preise ersetzt.</p>
+        <p class="note" role="note"><strong>Vorschau:</strong> Die Beträge sind Beispielpreise zur Gestaltung und noch nicht vom Studio bestätigt. Vor der Veröffentlichung werden sie durch die echten Preise ersetzt.</p>
       )}
     </div>
   </section>
@@ -27,21 +27,22 @@ const faq = [
     </div>
     <p class="wrap small muted fine">{PRICES.note}</p>
   </section>
-  <section class="section section--alt"><div class="wrap"><Faq items={faq} /></div></section>
+  <section class="section section--sheet"><div class="wrap"><Faq items={faq} /></div></section>
   <section class="section cta">
     <div class="wrap cta-inner">
       <h2>Bereit für deine Session?</h2>
-      <a class="btn btn--primary" href={u("/kontakt/")}>Session anfragen</a>
+      <a class="btn" href={u("/kontakt/")}>Session anfragen</a>
     </div>
   </section>
 </Base>
 <style>
   .price-hero { padding-bottom: 0; }
   .price-hero .wrap { display: grid; gap: 22px; }
-  h1 { font-size: clamp(2.8rem, 1.2rem + 6vw, 7rem); line-height: 0.95; letter-spacing: -0.04em; padding-bottom: 0.06em; }
-  .example-note { max-width: 70ch; padding: 14px 18px; border: 1px dashed var(--line-strong); border-radius: 10px; color: var(--ink-2); font-size: var(--step--1); }
-  .tables { display: grid; grid-template-columns: repeat(3, 1fr); gap: 16px; align-items: start; }
+  h1 { font-size: clamp(2.8rem, 1rem + 6vw, 6rem); font-weight: 880; font-stretch: 128%; line-height: 0.88; letter-spacing: -0.04em; max-width: 12ch; }
+  .tables { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 16px; align-items: start; }
   .fine { margin-top: 20px; }
+  .cta { border-top: 2px solid var(--ink); }
   .cta-inner { display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 24px; }
   @media (max-width: 1080px) { .tables { grid-template-columns: 1fr; max-width: 720px; } }
+  @media (max-width: 480px) { h1 { font-size: clamp(2.2rem, 0.6rem + 8vw, 2.8rem); font-stretch: 108%; } }
 </style>

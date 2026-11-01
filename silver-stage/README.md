@@ -1,7 +1,8 @@
 # Silver Stage – Website
 
 Mehrseitige, statisch vorgerenderte Website für SILVER STAGE (Tonstudio, Stageroom, Lightroom) in München-Sendling.
-Stack: **Astro 5 + TypeScript**, keine Laufzeit-Frameworks. Schriften (Jost, Inter – SIL Open Font License) werden lokal ausgeliefert.
+Stack: **Astro 5 + TypeScript**, keine Laufzeit-Frameworks. Schriften (Anybody, Schibsted Grotesk – SIL Open Font License; Jost nur für die Logo-Erzeugung) werden lokal ausgeliefert.
+Gestaltung „Plakatwand“ (Siebdruck-Konzertplakat, eine Druckfarbe je Raum): [docs/DESIGN.md](docs/DESIGN.md).
 
 > Status: **private Vorschau**. Vor dem Livegang siehe [docs/OFFENE-PUNKTE.md](docs/OFFENE-PUNKTE.md).
 
@@ -17,14 +18,15 @@ npm run check      # Typprüfung
 ```
 
 Browser-Prüfungen (benötigen Playwright und einen laufenden Build auf Port 4321):
-`node tests/qa-pages.cjs` (alle Seiten × 5 Breiten, axe, Links), `node tests/qa-interaction.cjs` (Menü, Formular),
+`node tests/qa-pages.cjs` (alle Seiten × 5 Breiten, axe, Links), `node tests/qa-interaction.cjs` (Menü, Formular, Line-up, Intro;
+braucht zusätzlich einen Build mit `PUBLIC_FORM_ENDPOINT=/api/anfrage` in `dist-endpoint/` auf Port 4322),
 `node tests/browser-play.mjs` (Beat Stage automatisch durchspielen).
 
 ## Seiten
 
 | URL | Inhalt |
 |---|---|
-| `/` | Start: Intro (Erstbesuch), Einstieg, drei Zugänge, Räume, Bilderstrecke, Technik, Ablauf, Beat-Stage-Teaser, Standort, Kontakt |
+| `/` | Start: Intro (Erstbesuch), Plakat mit Line-up der drei Räume, Überblick zum gewählten Raum, Für wen, Technik, Einblicke (Großansicht), Soundcheck-Spiel, Ablauf, FAQ, Standort mit Schnellanfrage |
 | `/tonstudio/` `/stageroom/` `/lightroom/` | Raum-Detailseiten (gemeinsame Vorlage `src/components/RoomPage.astro`) |
 | `/ueber-uns/` | nur belegte Inhalte; Teamabschnitt wartet auf Freigabe |
 | `/kontakt/` | Anfrageformular, `?raum=stageroom` wählt den Raum vor |
@@ -36,8 +38,8 @@ Browser-Prüfungen (benötigen Playwright und einen laufenden Build auf Port 432
 Alle Texte, Kontaktdaten, Räume, FAQ und Navigation stehen zentral in **`src/config/site.ts`**.
 Telefonnummer, Zeiten, Ausstattung → dort ändern und neu bauen.
 
-**Fotos einsetzen:** `src/components/Visual.astro` nimmt `src` + `alt`. Freigegebene Fotos nach `public/fotos/` legen und
-z. B. `<Visual kind="studio" src="/fotos/tonstudio.jpg" alt="…" eager />` verwenden – dann entfällt der Platzhalter-Hinweis.
+**Fotos einsetzen:** Fotos liegen in `src/assets/photos/` und werden in `src/assets/photos/index.ts` (mit Alt-Text und Raumzuordnung) eingetragen;
+`src/components/Photo.astro` erzeugt daraus AVIF/WebP. Als Druckplatte (Schwarzauszug in der Raumfarbe) erscheinen sie in einem Element mit Klasse `plate`.
 Medienstatus: [docs/MEDIEN.md](docs/MEDIEN.md).
 
 ## Umgebung
@@ -82,23 +84,8 @@ Echte Vektoren, Wortmarke als Pfade (Jost Medium, OFL). **Entwurf – Freigabe d
 - Keine Cookies, keine Analyse, keine externen Schriften oder Karten. Gespeichert wird nur lokal im Browser: Intro-gesehen (Sitzung), Bestwert und Lautstärke des Spiels.
 
 
-## Effekte von 21st.dev (React-Komponenten)
-Die Website ist bewusst **Astro + TypeScript ohne React, Tailwind und shadcn**: weniger JavaScript, schnellere Seiten.
-21st.dev-Komponenten werden deshalb nicht 1:1 kopiert, sondern als Effekt nativ nachgebaut:
-
-- **Perspective Tunnel Hero** → Bildstrecke „Einblicke“ auf der Startseite (`src/pages/index.astro`, Abschnitt `data-tunnel`):
-  Fotos fliegen beim normalen Scrollen in 3D auf den Betrachter zu, Maus-Parallaxe, Klick öffnet Großansicht.
-  Unterschied zum Original: kein Abfangen des Mausrads (Scroll-Jacking), Tastatur-bedienbar, bei reduzierter Bewegung normales Raster.
-- **Ledger Hero** (Rechnungs-Software) passt inhaltlich nicht zu einem Tonstudio; übernommen wurde nur die Idee
-  eines klaren Preis-/Leistungsbereichs (`src/components/PriceTable.astro`, Seite `/preise/`).
-
-Falls später doch React-Komponenten direkt eingebunden werden sollen:
-```bash
-npx astro add react tailwind      # React-Inseln + Tailwind CSS
-npx shadcn@latest init            # legt components.json, src/lib/utils.ts (cn) und src/components/ui/ an
-npm i framer-motion lucide-react
-```
-`src/components/ui/` ist der Standardordner, in den die shadcn-CLI und 21st.dev Komponenten legen und aus dem sie per
-`@/components/ui/...` importiert werden – ohne diesen Ordner (und den `@`-Pfad-Alias in `tsconfig.json`) funktionieren die
-kopierten Importe nicht. Eingebunden wird eine React-Komponente in Astro als Insel, z. B. `<Tunnel client:visible />`.
-Tailwind-Preflight würde dabei die bestehenden Grundstile überschreiben – vorher prüfen.
+## Gestaltung und Effekte
+Siehe [docs/DESIGN.md](docs/DESIGN.md). Kurz: Druckfarben je Raum (`[data-room]`), Druckflächen (`.inked`), dunkle Bühne
+für Spiele (`.venue`), Fotos als Druckplatte (`.plate`). Einzige automatische Bewegung ist der „Rakelzug“ der Druckplatte
+im Startbereich (`src/components/HomeHero.astro`). Die früheren Effekte (21st.dev-Tunnel, Laufband, Neigen/Magnet,
+Einblendungen, `Effects.astro`) wurden mit dem Redesign entfernt; die Bildstrecke mit Großansicht bleibt.

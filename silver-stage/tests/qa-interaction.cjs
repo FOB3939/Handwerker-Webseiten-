@@ -57,5 +57,25 @@ const ok = (c, m) => console.log(`${c ? "✓" : "✗"} ${m}`);
     mode = 200; await p.click("[data-submit]"); await p.waitForTimeout(700);
     ok(await p.isVisible("[data-done]") && await p.evaluate(() => document.activeElement?.hasAttribute("data-done")), "Erfolg erst nach Server-OK, Fokus auf Bestätigung");
     await ctx.close(); }
+  // Startseite: Line-up wählt den Raum (Druckplatte, Überblick), Pfeiltasten wandern
+  { const ctx = await b.newContext({ viewport: { width: 1366, height: 900 } }); const p = await ctx.newPage();
+    await ctx.addInitScript(() => { try { sessionStorage.setItem("ss-intro-seen", "1"); } catch {} });
+    await p.goto("http://localhost:4321/");
+    await p.click('[data-ch="lightroom"]');
+    ok(await p.getAttribute('[data-ch="lightroom"]', "aria-pressed") === "true" && await p.getAttribute('[data-ch="stageroom"]', "aria-pressed") === "false", "Line-up: Lightroom gewählt (aria-pressed)");
+    ok(await p.getAttribute("[data-programm]", "data-room") === "lightroom" && await p.isVisible('[data-prog="lightroom"]') && !(await p.isVisible('[data-prog="stageroom"]')), "Überblick zeigt den gewählten Raum");
+    ok(await p.isVisible('[data-shot="lightroom"]') && await p.isVisible('[data-out="lightroom"]'), "Druckplatte und Bildzeile wechseln");
+    await p.focus('[data-ch="lightroom"]'); await p.keyboard.press("ArrowLeft");
+    ok(await p.evaluate(() => document.activeElement?.dataset.ch === "stageroom"), "Pfeiltasten wandern zwischen den Räumen");
+    await ctx.close(); }
+  // Markenintro: einmal pro Sitzung, überspringbar
+  { const ctx = await b.newContext({ viewport: { width: 1366, height: 900 } }); const p = await ctx.newPage();
+    await p.goto("http://localhost:4321/");
+    ok(await p.isVisible("[data-intro]"), "Intro läuft beim ersten Besuch");
+    await p.click("[data-intro-skip]");
+    ok(!(await p.isVisible("[data-intro]")), "Intro lässt sich überspringen");
+    await p.goto("http://localhost:4321/");
+    ok(!(await p.isVisible("[data-intro]")), "Intro läuft nur einmal pro Sitzung");
+    await ctx.close(); }
   await b.close();
 })();

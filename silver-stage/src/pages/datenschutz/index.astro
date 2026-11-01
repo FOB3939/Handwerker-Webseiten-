@@ -4,7 +4,6 @@ import { CONTACT } from "../../config/site";
 ---
 <Base title="Datenschutz – Silver Stage" description="Datenschutzhinweise von Silver Stage, Tonstudio und Proberäume in München-Sendling: Was die Website speichert und wie Anfragen verarbeitet werden." noindex>
   <section class="section"><div class="wrap--narrow legal">
-    <p class="label">Rechtliches</p>
     <h1>Datenschutz</h1>
     <p class="todo" role="note"><strong>Entwurf – Veröffentlichungshindernis:</strong> Diese Gliederung beschreibt den technischen Stand der Website. Die verbindliche Datenschutzerklärung muss der Betreiber passend zu Hosting, Formular-Dienst und tatsächlichen Abläufen erstellen bzw. prüfen lassen.</p>
     <h2>Verantwortliche Stelle</h2>
@@ -25,9 +24,10 @@ import { CONTACT } from "../../config/site";
   </div></section>
 </Base>
 <style>
-  .legal { display: grid; gap: 18px; max-width: 760px; }
-  .legal h1 { font-size: var(--step-3); margin-bottom: 8px; }
-  .legal h2 { font-size: var(--step-1); font-weight: 500; margin-top: 18px; }
+  .legal { display: grid; gap: 18px; }
+  .legal h1 { font-size: var(--step-4); font-weight: 880; font-stretch: 125%; margin-bottom: 8px; }
+  .legal h2 { font-size: var(--step-1); margin-top: 18px; padding-top: 14px; border-top: 2px solid var(--ink); }
+  .todo { border: 2px solid var(--ink); background: var(--yellow); color: #1c1a21; padding: 14px 16px; font-size: var(--step--1); }
   .legal ul { margin: 0; padding-left: 1.2em; display: grid; gap: 8px; color: var(--ink-2); }
-  .todo { border-left: 2px solid #ffb37a; background: rgb(255 179 122 / 0.1); padding: 14px 16px; font-size: var(--step--1); }
+  @media (max-width: 480px) { .legal h1 { font-size: clamp(2.2rem, 0.6rem + 8vw, 2.8rem); font-stretch: 108%; } }
 </style>

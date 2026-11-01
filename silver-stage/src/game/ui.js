@@ -191,6 +191,8 @@ function init(root) {
     raf = requestAnimationFrame(tick);
   }
 
+  // Druckfarben je Pad: Kick Gelb, Snare Pink, Hi-Hat Blau (aufgehellt für die dunkle Bühne), Clap Papier
+  const INK = ["#ffd21a", "#ff4f93", "#7b8cff", "#eceaf0"];
   const laneX = (i) => (W / 4) * i + W / 8;
   const hitY = () => H - 46;
   function shape(kind, x, y, s) {
@@ -207,13 +209,13 @@ function init(root) {
     for (let i = 0; i < 4; i++) {
       const x0 = (W / 4) * i;
       const age = (performance.now() - laneFlash[i]) / 300;
-      if (age < 1 && !reduce.matches) { ctx.fillStyle = `rgba(139,125,255,${0.18 * (1 - age)})`; ctx.fillRect(x0, 0, W / 4, H); }
-      ctx.strokeStyle = "rgba(243,241,236,0.08)"; ctx.lineWidth = 1;
+      if (age < 1 && !reduce.matches) { ctx.globalAlpha = 0.22 * (1 - age); ctx.fillStyle = INK[i]; ctx.fillRect(x0, 0, W / 4, H); ctx.globalAlpha = 1; }
+      ctx.strokeStyle = "rgba(236,234,240,0.1)"; ctx.lineWidth = 1;
       if (i) { ctx.beginPath(); ctx.moveTo(x0, 0); ctx.lineTo(x0, H); ctx.stroke(); }
-      ctx.strokeStyle = "rgba(198,203,210,0.55)"; ctx.lineWidth = 2;
+      ctx.strokeStyle = INK[i]; ctx.lineWidth = 2;
       shape(PADS[i].shape, laneX(i), hitY(), 16); ctx.stroke();
     }
-    ctx.strokeStyle = "rgba(243,241,236,0.35)"; ctx.lineWidth = 1;
+    ctx.strokeStyle = "rgba(236,234,240,0.45)"; ctx.lineWidth = 2;
     ctx.beginPath(); ctx.moveTo(0, hitY()); ctx.lineTo(W, hitY()); ctx.stroke();
   }
   function draw(t) {
@@ -226,10 +228,8 @@ function init(root) {
       if (dt < -0.35) continue;
       const y = y0 - (dt / APPROACH) * (y0 - 10);
       const near = Math.abs(dt) <= SETTINGS.good;
-      ctx.fillStyle = n.result === "miss" ? "rgba(255,143,143,0.35)" : near ? "#f3f1ec" : "#c6cbd2";
-      if (near && !reduce.matches) { ctx.shadowColor = "rgba(139,125,255,0.9)"; ctx.shadowBlur = 18; }
-      shape(PADS[n.pad].shape, laneX(n.pad), y, 14); ctx.fill();
-      ctx.shadowBlur = 0;
+      ctx.fillStyle = n.result === "miss" ? "rgba(255,159,191,0.35)" : near ? "#ffffff" : INK[n.pad];
+      shape(PADS[n.pad].shape, laneX(n.pad), y, near ? 16 : 14); ctx.fill();
     }
   }
   function drawIdle() { drawLanes(); }

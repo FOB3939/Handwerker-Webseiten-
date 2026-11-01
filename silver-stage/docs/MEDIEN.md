@@ -5,8 +5,7 @@
 | Logo (Bestand, Screenshot `IMG_8624`/Upload) | vom Auftraggeber bereitgestellt | Referenz für die Verfeinerung, nicht direkt eingebunden |
 | `public/brand/*.svg` | neu gezeichnet (Skript `scripts/build-logo.mjs`), Wortmarke Jost Medium (SIL OFL 1.1) | Entwurf, **Freigabe Betreiber nötig** |
 | `public/og.png`, `favicon-32.png`, `apple-touch-icon.png` | aus den Logo-SVGs gerendert | wie Logo |
-| Lichtstimmungen der Räume (nur noch für Lounge und als Ersatz) (Lichtkegel + Schallbögen des Signets in der Raumfarbe) | eigene CSS/SVG-Grafik in `src/components/Light.astro` | bewusst abstrakt, gibt sich nicht als Foto aus; echte Fotos später über die Prop `src` einsetzen |
-| Raum-Illustrationen (Studio, Bühne, Lightroom, Lounge, Detail) | `src/components/Visual.astro` | derzeit nicht eingebunden; Reserve mit Platzhalter-Kennzeichnung |
+| Lounge-Fläche (Signet auf Raster, kein Foto) | `src/components/Light.astro` | grafischer Platzhalter bis ein Lounge-Foto freigegeben ist |
 | Schriften Jost, Inter | @fontsource (SIL OFL 1.1), lokal ausgeliefert | frei nutzbar |
 | Spiel-Sounds | in Web Audio synthetisiert (`src/game/audio.js`) | keine Samples, keine Lizenzfragen |
 

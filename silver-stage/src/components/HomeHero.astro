@@ -1,7 +1,7 @@
 ---
-// Startbereich als Mischpult: drei Kanalzüge = drei Räume. Wer einen Regler antippt, „zieht“ den Raum hoch –
-// Foto, Lichtfarbe und Kurzinfo wechseln. Keine Endlos-Animation: die einzige Bewegung ohne Zutun ist
-// das Hochfahren der Regler beim Laden (wie ein Pult, das seine Einstellungen lädt).
+// Startbereich als Konzertplakat: Überschrift, Druckplatte (Foto in der Raumfarbe) und darunter das „Line-up“ –
+// die drei Räume wie Acts auf einem Plakat. Ein Act wählt den Raum: Druckplatte, Farbe und der Überblick
+// darunter (#programm) wechseln. Die einzige Bewegung ohne Zutun: die Platte wird einmal „gedruckt“ (Rakelzug).
 import Photo from "./Photo.astro";
 import Icon from "./Icon.astro";
 import type { PhotoKey } from "../assets/photos";
@@ -12,216 +12,163 @@ type RoomKey = "tonstudio" | "stageroom" | "lightroom";
 interface Channel { key: RoomKey; name: string; path: string; photo: PhotoKey; alt: string; spec: string; use: string; price: string }
 interface Props { channels: Channel[]; start?: RoomKey }
 const { channels, start = "stageroom" } = Astro.props;
-// Ruhestellung der nicht gewählten Regler (Anteil der Reglerbahn), damit das Pult „gemischt“ aussieht
-const rest: Record<RoomKey, number> = { tonstudio: 0.42, stageroom: 0.58, lightroom: 0.34 };
-const SEGMENTS = 11;
 ---
 <section class="hero" aria-labelledby="hero-title" data-hero data-room={start}>
-  <div class="photos" data-slides>
-    {channels.map((c) => (
-      <figure class:list={["shot", { "is-on": c.key === start, seen: c.key === start }]} data-shot={c.key} aria-hidden={c.key === start ? undefined : "true"}>
-        <Photo name={c.photo} eager={c.key === start} sizes="100vw" decorative={c.key !== start} />
-      </figure>
-    ))}
-    <span class="shade" aria-hidden="true"></span>
-    <span class="tint" aria-hidden="true"></span>
-  </div>
-
-  <div class="wrap hero-inner">
+  <div class="wrap hero-grid">
     <div class="copy">
-      <p class="where ld" style="--d:0s">Tonstudio &amp; Proberäume in München-Sendling</p>
-      <h1 id="hero-title" class="hero-title"><span><span class="shine">Dein Sound.</span></span><span><span class="shine shine--2">Dein Raum.</span></span></h1>
-      <p class="lead ld" style="--d:.2s">Aufnehmen, proben und gestalten mitten in Sendling – mit jahrelanger Erfahrung im Studio und auf der Bühne.</p>
-      <div class="btn-row hero-cta ld" style="--d:.35s">
-        <a class="btn btn--primary" href={u("/kontakt/")}>Session anfragen</a>
+      <h1 id="hero-title" class="hero-title"><span>Dein Sound.</span> <span>Dein Raum.</span></h1>
+      <p class="lead">Aufnehmen, proben und gestalten mitten in Sendling – mit jahrelanger Erfahrung im Studio und auf der Bühne.</p>
+      <div class="btn-row hero-cta">
+        <a class="btn" href={u("/kontakt/")}>Session anfragen</a>
         <a class="btn btn--ghost" href={CONTACT.phoneHref}><Icon name="phone" />{CONTACT.phone}</a>
       </div>
-      <ul class="creds ld" style="--d:.5s" aria-label="Kurz zu Silver Stage">
-        <li><Icon name="pin" /><span><strong>Mitten in Sendling</strong>{CONTACT.street}, {CONTACT.zip} {CONTACT.city}</span></li>
-        <li><svg viewBox="0 0 24 24" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"><path d="M3 12h2M7 8v8M11 5v14M15 9v6M19 7v10M21 12h0" /></svg><span><strong>Jahrelange Erfahrung</strong>in Aufnahme und Live-Sound</span></li>
-        <li><svg viewBox="0 0 24 24" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round"><rect x="3" y="4" width="7.5" height="7.5" rx="1.5" /><rect x="13.5" y="4" width="7.5" height="7.5" rx="1.5" /><rect x="3" y="14.5" width="18" height="5.5" rx="1.5" /></svg><span><strong>3 Räume</strong>unter einem Dach</span></li>
-      </ul>
     </div>
 
-    <div class="desk ld" style="--d:.5s" data-desk>
-      <p class="desk-q" id="desk-q">Welchen Raum brauchst du?</p>
-      <div class="strips" role="group" aria-labelledby="desk-q">
+    <div class="plates" data-slides>
+      {channels.map((c) => (
+        <figure class:list={["plate", "shot", { "is-on": c.key === start, seen: c.key === start }]} data-room={c.key} data-shot={c.key} aria-hidden={c.key === start ? undefined : "true"}>
+          <Photo name={c.photo} eager={c.key === start} sizes="(min-width: 900px) 46vw, 100vw" decorative={c.key !== start} />
+        </figure>
+      ))}
+      <div class="cap" id="hero-out" aria-live="polite">
         {channels.map((c) => (
-          <button type="button" class="strip" data-ch={c.key} data-room={c.key} aria-pressed={c.key === start ? "true" : "false"} aria-controls="desk-out" style={`--rest:${rest[c.key]}`}>
-            <span class="meter" aria-hidden="true">{Array.from({ length: SEGMENTS }, (_, i) => <i style={`--i:${i}`}></i>)}</span>
-            <span class="track" aria-hidden="true"><span class="cap"></span></span>
-            <span class="ch-name">{c.name}</span>
-            <span class="ch-use">{c.use}</span>
-          </button>
-        ))}
-      </div>
-      <div class="out" id="desk-out" aria-live="polite">
-        {channels.map((c) => (
-          <div class="out-room" data-out={c.key} data-room={c.key} hidden={c.key !== start}>
-            <p class="out-name">{c.name}</p>
-            <p class="out-spec">{c.spec}<br /><span>{c.price}</span></p>
-            <a class="out-link" href={u(c.path)}>{c.name} ansehen</a>
-          </div>
+          <p class="cap-room" data-out={c.key} hidden={c.key !== start}>
+            <span>Im Bild: <strong>{c.name}</strong></span>
+            <a href={u(c.path)}>{c.name} ansehen</a>
+          </p>
         ))}
       </div>
     </div>
   </div>
+
+  <div class="wrap bill">
+    <p class="bill-q" id="bill-q">Welchen Raum brauchst du?</p>
+    <div class="acts" role="group" aria-labelledby="bill-q">
+      {channels.map((c) => (
+        <button type="button" class="act" data-ch={c.key} data-room={c.key} aria-pressed={c.key === start ? "true" : "false"} aria-controls="hero-out programm">
+          <span class="act-name">{c.name}</span>
+          <span class="act-use">{c.use}, {c.spec}</span>
+          <span class="act-price">{c.price}</span>
+        </button>
+      ))}
+    </div>
+  </div>
+
+  <ul class="wrap facts" aria-label="Kurz zu Silver Stage">
+    <li><strong>Mitten in Sendling</strong>{CONTACT.street}, {CONTACT.zip} {CONTACT.city}</li>
+    <li><strong>Jahrelange Erfahrung</strong>in Aufnahme und Live-Sound</li>
+    <li><strong>3 Räume</strong>unter einem Dach</li>
+  </ul>
 </section>
 
 <style>
-  .hero { position: relative; min-height: max(560px, calc(100svh - 120px)); display: grid; align-items: end; overflow: hidden; background: #07080b; isolation: isolate; }
+  .hero { position: relative; padding-top: clamp(28px, 5vw, 64px); }
+  .hero-grid { display: grid; grid-template-columns: repeat(12, minmax(0, 1fr)); column-gap: clamp(16px, 2vw, 28px); align-items: end; }
+  .copy { grid-column: 1 / span 7; grid-row: 1; position: relative; z-index: 2; display: grid; gap: 22px; justify-items: start; padding-bottom: clamp(8px, 2vw, 24px); }
+  .hero-title { font-size: clamp(2.6rem, 0.9rem + 5.5vw, 5.6rem); font-weight: 860; font-stretch: 114%; line-height: 0.88; letter-spacing: -0.035em; mix-blend-mode: multiply; }
+  .hero-title span { display: block; white-space: nowrap; }
+  .lead { color: var(--ink); max-width: 34ch; }
+  .plates { z-index: 1; grid-column: 8 / -1; grid-row: 1; position: relative; aspect-ratio: 4 / 4.4; max-height: min(64svh, 600px); width: 100%; justify-self: end; }
+  .shot { position: absolute; inset: 0 0 52px 0; margin: 0; display: none; }
+  .shot.seen { display: block; }
+  .shot.is-on { z-index: 2; }
+  .shot.was { z-index: 1; }
+  .shot:not(.is-on):not(.was) { visibility: hidden; }
+  .shot :global(img) { position: absolute; inset: 0; }
+  /* Rakelzug: die neue Farbe wird von oben nach unten durchgezogen */
+  .shot.pull { animation: pull 0.75s var(--ease) both; }
+  @keyframes pull { from { clip-path: inset(0 0 100% 0); } to { clip-path: inset(0 0 0 0); } }
+  .cap { position: absolute; left: 0; right: 0; bottom: 0; height: 52px; display: flex; align-items: center; border-bottom: 2px solid var(--ink); }
+  .cap-room { display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 4px 16px; width: 100%; font-size: var(--step--1); }
+  .cap-room[hidden] { display: none; }
+  .cap-room strong { font-weight: 700; }
+  .cap-room a { display: inline-flex; align-items: center; min-height: 44px; font-weight: 650; text-decoration-thickness: 2px; text-underline-offset: 5px; }
 
-  /* ---------- Foto je Raum ---------- */
-  .photos { position: absolute; inset: 0; z-index: -1; }
-  .shot { position: absolute; inset: 0; margin: 0; opacity: 0; transition: opacity 0.9s var(--ease); }
-  .shot.is-on { opacity: 1; }
-  .shot:not(.seen) { display: none; }
-  .shot :global(img) { width: 100%; height: 100%; object-fit: cover; transform: scale(1.04); transition: transform 1.6s var(--ease); }
-  .shot.is-on :global(img) { transform: none; }
-  .shade { position: absolute; inset: 0; background:
-      radial-gradient(55% 60% at 18% 78%, rgb(242 166 90 / 0.10), transparent 70%),
-      linear-gradient(90deg, rgb(7 8 11 / 0.88) 0%, rgb(7 8 11 / 0.5) 46%, rgb(7 8 11 / 0.2) 100%),
-      linear-gradient(0deg, rgb(7 8 11 / 0.92) 0%, transparent 46%); }
-  /* Lichtfarbe des gewählten Raums legt sich wie ein Scheinwerfer über das Foto */
-  .tint { position: absolute; inset: 0; mix-blend-mode: soft-light; opacity: 0.55; transition: background 0.9s var(--ease);
-    background: radial-gradient(70% 60% at 78% 30%, var(--room), transparent 70%); }
+  /* Line-up */
+  .bill { margin-top: clamp(28px, 4vw, 48px); }
+  .bill-q { font: 700 0.95rem / 1.2 var(--font-body); margin-bottom: 12px; }
+  .acts { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); border-top: 2px solid var(--ink); border-bottom: 2px solid var(--ink); }
+  .act { min-width: 0; position: relative; display: grid; gap: 4px; align-content: start; text-align: left; padding: 22px clamp(14px, 2vw, 24px) 20px; min-height: 132px; border: 0; background: transparent; color: var(--ink); font: inherit; cursor: pointer; transition: background-color 0.25s var(--ease), color 0.25s var(--ease); }
+  .act + .act { border-left: 2px solid var(--ink); }
+  .act::before { content: ""; position: absolute; left: 0; right: 0; top: 0; height: 8px; background: var(--room); transition: height 0.35s var(--ease); }
+  .act:hover::before { height: 14px; }
+  .act[aria-pressed="true"] { background: var(--room); color: var(--on-room); }
+  .act[aria-pressed="true"]::before { height: 0; }
+  .act:focus-visible { outline: 3px solid var(--ink); outline-offset: -6px; }
+  .act[data-room="lightroom"]:focus-visible[aria-pressed="true"] { outline-color: #fff; }
+  .act-name { font: 860 clamp(1.5rem, 0.6rem + 2.6vw, 3rem) / 1 var(--font-display); font-stretch: 122%; overflow-wrap: anywhere; letter-spacing: -0.03em; margin-top: 6px; }
+  .act-use { font-weight: 650; }
+  .act-price { font-size: var(--step--1); color: var(--ink-2); }
+  .act[aria-pressed="true"] .act-price { color: var(--on-room-2); }
 
-  /* ---------- Text ---------- */
-  .hero-inner { display: grid; grid-template-columns: minmax(0, 1fr) auto; gap: clamp(24px, 4vw, 64px); align-items: end; padding-block: clamp(48px, 7vh, 100px) clamp(24px, 4vh, 44px); }
-  .copy { display: grid; gap: 20px; justify-items: start; min-width: 0; }
-  /* Ortsangabe wie auf den Raumseiten: leuchtender Punkt in Bernstein */
-  .where { margin: 0; display: inline-flex; align-items: center; gap: 10px; color: var(--amber); font: 500 var(--step-0) / 1.3 var(--font-body); text-shadow: 0 1px 12px rgb(0 0 0 / 0.6); }
-  .where::before { content: ""; width: 9px; height: 9px; border-radius: 50%; background: var(--amber); box-shadow: 0 0 12px var(--amber); }
-  .lead { margin: -4px 0 4px; max-width: 42ch; color: #dfe3e9; font: 300 var(--step-1) / 1.45 var(--font-display); text-shadow: 0 1px 16px rgb(0 0 0 / 0.7); }
-  /* Drei kurze Fakten unter den Knöpfen, durch feine Linien getrennt */
-  .creds { list-style: none; margin: 10px 0 0; padding: 18px 0 0; display: flex; flex-wrap: wrap; gap: 14px 0; border-top: 1px solid rgb(242 243 245 / 0.16); }
-  .creds li { display: flex; align-items: flex-start; gap: 12px; padding-right: 24px; margin-right: 24px; border-right: 1px solid rgb(242 243 245 / 0.14); }
-  .creds li:last-child { border-right: 0; margin-right: 0; padding-right: 0; }
-  .creds :global(svg), .creds svg { flex: none; width: 22px; height: 22px; margin-top: 2px; color: var(--silver); }
-  .creds span { display: grid; gap: 2px; color: var(--ink-2); font-size: var(--step--1); line-height: 1.35; }
-  .creds strong { color: var(--ink); font-weight: 500; }
-  .hero h1 { font-size: clamp(3.2rem, 0.6rem + 6.2vw, 7.2rem); line-height: 0.9; font-weight: 300; letter-spacing: -0.045em; filter: drop-shadow(0 6px 30px rgb(0 0 0 / 0.55)); margin: 0; }
-  .hero h1 > span { display: block; overflow: hidden; padding-bottom: 0.08em; margin-bottom: -0.08em; white-space: nowrap; }
-  .hero h1 > span > span { display: inline-block; }
-  .shine { transform-origin: left center; background: linear-gradient(105deg, transparent 42%, rgb(255 255 255 / 0.85) 50%, transparent 58%), linear-gradient(176deg, #ffffff 0%, #dfe3e8 38%, #8f97a3 58%, #e6e9ed 82%, #b9bfc8 100%); background-size: 260% 100%, 100% 100%; background-repeat: no-repeat; background-position: 100% 0, 0 0; -webkit-background-clip: text; background-clip: text; color: transparent; }
-  .shine--2 { background-image: linear-gradient(105deg, transparent 42%, rgb(255 255 255 / 0.85) 50%, transparent 58%), linear-gradient(176deg, #f4f6f9 0%, #c6cbd2 40%, #7d8591 60%, #dfe3e8 84%, #a9b0bb 100%); }
-  @media (forced-colors: active) { .shine { color: CanvasText; background: none; } }
-  :global(.js) .hero.title-in .shine { animation: track-in 1.3s cubic-bezier(0.2, 0.7, 0.15, 1) both, shimmer 2.4s ease-in-out 1.3s 1; }
-  :global(.js) .hero.title-in .shine--2 { animation-delay: 0.15s, 1.5s; }
-  @keyframes track-in { from { transform: scale(1.12); filter: blur(14px); opacity: 0; } to { transform: none; filter: blur(0); opacity: 1; } }
-  @keyframes shimmer { 0% { background-position: 100% 0, 0 0; } 100% { background-position: 0% 0, 0 0; } }
-  :global(.js) .hero .ld { opacity: 0; transform: translateY(18px); transition: opacity 0.8s var(--ease), transform 0.8s var(--ease); transition-delay: var(--d, 0s); }
-  :global(.js) .hero.title-in .ld { opacity: 1; transform: none; }
+  .facts { list-style: none; padding: 18px 0 0; margin-top: 0; margin-bottom: 0; display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 12px 24px; font-size: var(--step--1); color: var(--ink-2); }
+  .facts li { display: grid; gap: 2px; }
+  .facts strong { color: var(--ink); font: 750 1rem / 1.2 var(--font-display); font-stretch: 112%; }
 
-  /* ---------- Pult ---------- */
-  .desk { --track: 132px; display: grid; grid-template-columns: auto 190px; gap: 0; border-radius: 22px; overflow: hidden;
-    background: linear-gradient(180deg, rgb(28 32 40 / 0.78), rgb(12 14 19 / 0.86)); backdrop-filter: blur(16px) saturate(1.2); -webkit-backdrop-filter: blur(16px) saturate(1.2);
-    border: 1px solid rgb(242 243 245 / 0.14); box-shadow: 0 1px 0 rgb(255 255 255 / 0.08) inset, 0 30px 80px rgb(0 0 0 / 0.5); }
-  .desk-q { grid-column: 1 / -1; margin: 0; padding: 14px 18px 0; color: var(--ink-2); font-size: var(--step--1); }
-  .strips { display: flex; padding: 12px 8px 14px; }
-  .strip { position: relative; display: grid; grid-template-columns: auto auto; grid-template-rows: var(--track) auto auto; column-gap: 10px; row-gap: 0; justify-items: center;
-    padding: 10px 14px 8px; min-width: 92px; border: 0; border-radius: 14px; background: none; color: var(--ink); cursor: pointer; font: inherit; text-align: center; transition: background 0.3s var(--ease); }
-  .strip + .strip::before { content: ""; position: absolute; left: 0; top: 12px; bottom: 12px; width: 1px; background: rgb(242 243 245 / 0.1); }
-  .strip:hover { background: rgb(242 243 245 / 0.05); }
-  .strip[aria-pressed="true"] { background: color-mix(in srgb, var(--room) 12%, transparent); }
-  .strip:focus-visible { outline: 2px solid var(--silver); outline-offset: -2px; }
-
-  /* Pegelanzeige: Segmente leuchten bis zum Reglerstand */
-  .meter { grid-row: 1; display: flex; flex-direction: column-reverse; justify-content: space-between; width: 6px; height: 100%; }
-  .meter i { display: block; height: calc((100% - 10 * 3px) / 11); border-radius: 1px; background: rgb(242 243 245 / 0.1); transition: background 0.25s, box-shadow 0.25s; transition-delay: calc(var(--i) * 28ms); }
-  .strip.lit .meter i:nth-child(-n + 4) { background: rgb(213 218 225 / 0.55); }
-  .strip[aria-pressed="true"].lit .meter i:nth-child(-n + 9) { background: var(--room); box-shadow: 0 0 8px color-mix(in srgb, var(--room) 70%, transparent); }
-  .strip[aria-pressed="true"].lit .meter i:nth-child(10) { background: var(--amber); box-shadow: 0 0 8px var(--amber); }
-
-  /* Reglerbahn mit Fader-Kappe */
-  .track { grid-row: 1; position: relative; width: 26px; height: 100%; }
-  .track::before { content: ""; position: absolute; left: 50%; top: 4px; bottom: 4px; width: 4px; margin-left: -2px; border-radius: 2px; background: #05060a; box-shadow: 0 0 0 1px rgb(242 243 245 / 0.08); }
-  .track::after { content: ""; position: absolute; inset: 4px 2px; background: repeating-linear-gradient(0deg, rgb(242 243 245 / 0.18) 0 1px, transparent 1px 12px); mask: linear-gradient(90deg, #000 0 5px, transparent 5px 21px, #000 21px); }
-  .cap { position: absolute; left: 0; bottom: 0; width: 26px; height: 34px; border-radius: 5px;
-    background: linear-gradient(180deg, #eef0f3 0%, #b9bfc8 45%, #8f97a3 50%, #c9ced6 100%); box-shadow: 0 6px 14px rgb(0 0 0 / 0.55), 0 1px 0 #fff inset;
-    transform: translateY(calc(-1 * var(--lvl, 0) * (var(--track) - 34px))); transition: transform 0.7s cubic-bezier(0.3, 1.25, 0.4, 1); }
-  .cap::after { content: ""; position: absolute; left: 3px; right: 3px; top: 50%; height: 2px; margin-top: -1px; background: #2a2f38; border-radius: 1px; }
-  .strip.lit { --lvl: var(--rest); }
-  .strip.lit[aria-pressed="true"] { --lvl: 0.9; }
-  .strip[aria-pressed="true"] .cap::after { background: var(--room); box-shadow: 0 0 6px var(--room); }
-  .strip:not([aria-pressed="true"]):hover .cap { transform: translateY(calc(-1 * (var(--lvl, 0) + 0.06) * (var(--track) - 34px))); }
-
-  .ch-name { grid-column: 1 / -1; margin-top: 12px; font: 400 0.98rem / 1.2 var(--font-display); }
-  .ch-use { grid-column: 1 / -1; color: var(--ink-2); font-size: 0.78rem; line-height: 1.3; }
-  .strip[aria-pressed="true"] .ch-name { color: #fff; }
-
-  /* Kurzinfo zum gewählten Raum */
-  .out { padding: 12px 18px 18px 6px; display: grid; align-content: end; }
-  .out-room { display: grid; gap: 6px; animation: out-in 0.5s var(--ease); }
-  .out-room[hidden] { display: none; }
-  @keyframes out-in { from { opacity: 0; transform: translateY(8px); } to { opacity: 1; transform: none; } }
-  .out-name { margin: 0; font: 300 1.6rem / 1 var(--font-display); letter-spacing: -0.01em; }
-  .out-spec { margin: 0; color: #d9dde4; font-size: var(--step--1); line-height: 1.45; }
-  .out-spec span { color: var(--ink-2); }
-  .out-link { margin-top: 6px; display: inline-flex; align-items: center; min-height: 44px; color: var(--ink); text-decoration: underline; text-decoration-color: var(--room); text-underline-offset: 5px; text-decoration-thickness: 2px; font-weight: 500; }
-  .out-link:hover { color: #fff; }
-
-  @media (max-width: 1100px) {
-    .hero-inner { grid-template-columns: 1fr; align-items: start; }
-    .desk { justify-self: start; }
+  @media (max-width: 900px) {
+    .copy { grid-column: 1 / -1; }
+    .plates { grid-column: 1 / -1; grid-row: 2; aspect-ratio: 16 / 11; max-height: none; margin-top: 28px; }
   }
-  @media (max-width: 640px) {
-    .hero { min-height: auto; }
-    .hero-inner { padding-block: 72px 28px; gap: 28px; }
-    .hero-cta { width: 100%; flex-direction: column; align-items: stretch !important; }
-    .hero-cta .btn { width: 100%; }
-    .creds { flex-direction: column; gap: 14px; }
-    .creds li { border-right: 0; margin-right: 0; padding-right: 0; }
-    .lead { font-size: var(--step-0); }
-    .shade { background: linear-gradient(0deg, rgb(7 8 11 / 0.96) 30%, rgb(7 8 11 / 0.62) 70%, rgb(7 8 11 / 0.45) 100%); }
-    .desk { --track: 96px; width: 100%; grid-template-columns: 1fr; }
-    .strips { justify-content: space-between; padding-inline: 4px; }
-    .strip { min-width: 0; flex: 1; padding-inline: 6px; }
-    .ch-use { display: none; }
-    .out { padding: 4px 18px 16px; border-top: 1px solid rgb(242 243 245 / 0.1); }
+  @media (max-width: 720px) {
+    .acts { grid-template-columns: 1fr; }
+    .act + .act { border-left: 0; border-top: 2px solid var(--ink); }
+    .act { min-height: 0; padding: 16px 16px 14px; }
+    .act::before { height: 0; top: auto; bottom: 0; left: 0; right: auto; width: 10px; height: 100%; }
+    .act:hover::before { height: 100%; }
+    .act { padding-left: 26px; }
+    .facts { grid-template-columns: 1fr; }
+    .hero-cta { width: 100%; }
+    .hero-cta .btn { flex: 1 1 100%; }
   }
-
-  /* Ruhige Variante: Regler stehen sofort, kein Überblenden */
-  @media (prefers-reduced-motion: reduce) {
-    :global(html:not(.fx-force)) .cap, :global(html:not(.fx-force)) .shot, :global(html:not(.fx-force)) .shot :global(img) { transition: none; }
-  }
+  @media (max-width: 420px) { .hero-title { font-stretch: 108%; font-size: clamp(2.3rem, 0.6rem + 9.2vw, 3rem); } }
 </style>
 
 <script>
   const hero = document.querySelector<HTMLElement>("[data-hero]");
   if (hero) {
-    const strips = [...hero.querySelectorAll<HTMLButtonElement>("[data-ch]")];
+    const acts = [...hero.querySelectorAll<HTMLButtonElement>("[data-ch]")];
     const shots = [...hero.querySelectorAll<HTMLElement>("[data-shot]")];
     const outs = [...hero.querySelectorAll<HTMLElement>("[data-out]")];
+    const prog = document.querySelector<HTMLElement>("[data-programm]");
+    const calm = () => matchMedia("(prefers-reduced-motion: reduce)").matches && !document.documentElement.classList.contains("fx-force");
+    let current = hero.dataset.room!;
+    const pull = (f: HTMLElement) => { if (calm()) return; f.classList.remove("pull"); void f.offsetWidth; f.classList.add("pull"); };
     const pick = (key: string) => {
-      hero.dataset.room = key;
-      strips.forEach((s) => s.setAttribute("aria-pressed", String(s.dataset.ch === key)));
-      shots.forEach((f) => { const on = f.dataset.shot === key; if (on) f.classList.add("seen"); f.classList.toggle("is-on", on); f.toggleAttribute("aria-hidden", !on); });
+      if (key === current) return;
+      const prev = shots.find((f) => f.dataset.shot === current);
+      current = key; hero.dataset.room = key;
+      acts.forEach((s) => s.setAttribute("aria-pressed", String(s.dataset.ch === key)));
+      shots.forEach((f) => {
+        const on = f.dataset.shot === key;
+        f.classList.toggle("is-on", on); f.classList.toggle("was", f === prev);
+        f.toggleAttribute("aria-hidden", !on);
+        if (on) { f.classList.add("seen"); pull(f); }
+      });
+      setTimeout(() => prev?.classList.remove("was"), 800);
       outs.forEach((o) => (o.hidden = o.dataset.out !== key));
+      if (prog) {
+        prog.dataset.room = key;
+        prog.querySelectorAll<HTMLElement>("[data-prog]").forEach((p) => (p.hidden = p.dataset.prog !== key));
+      }
     };
-    strips.forEach((s) => {
+    acts.forEach((s) => {
       s.addEventListener("click", () => pick(s.dataset.ch!));
       // Foto schon beim Darüberfahren/Fokus vorladen, damit der Wechsel ohne Lücke ist
       const warm = () => shots.find((f) => f.dataset.shot === s.dataset.ch)?.classList.add("seen");
       s.addEventListener("pointerenter", warm); s.addEventListener("focus", warm);
     });
-    // Pfeiltasten wandern zwischen den Kanalzügen
-    hero.querySelector(".strips")?.addEventListener("keydown", (e) => {
-      const k = (e as KeyboardEvent).key, i = strips.indexOf(document.activeElement as HTMLButtonElement);
-      if (i < 0 || !["ArrowLeft", "ArrowRight"].includes(k)) return;
-      e.preventDefault(); strips[(i + (k === "ArrowRight" ? 1 : -1) + strips.length) % strips.length].focus();
+    // Pfeiltasten wandern zwischen den Acts
+    hero.querySelector(".acts")?.addEventListener("keydown", (e) => {
+      const k = (e as KeyboardEvent).key, i = acts.indexOf(document.activeElement as HTMLButtonElement);
+      if (i < 0 || !["ArrowLeft", "ArrowRight", "ArrowUp", "ArrowDown"].includes(k)) return;
+      e.preventDefault(); acts[(i + (k === "ArrowRight" || k === "ArrowDown" ? 1 : -1) + acts.length) % acts.length].focus();
     });
-
-    // Ladefolge: erst die Überschrift, dann fahren die Regler hoch (einmalig)
+    // Einmaliger Druck der ersten Platte, sobald das Intro (falls es läuft) vorbei ist
     const html = document.documentElement;
-    const start = () => requestAnimationFrame(() => {
-      hero.classList.add("title-in");
-      strips.forEach((s, i) => setTimeout(() => s.classList.add("lit"), 700 + i * 140));
-    });
+    const first = () => { const f = shots.find((x) => x.dataset.shot === current); if (f) pull(f); };
     if (html.classList.contains("intro-play") && !html.classList.contains("intro-done")) {
-      new MutationObserver((_, o) => { if (html.classList.contains("intro-done")) { o.disconnect(); start(); } }).observe(html, { attributes: true, attributeFilter: ["class"] });
-    } else start();
-    // Übrige Raumfotos vorladen, sobald die Seite steht
+      new MutationObserver((_, o) => { if (html.classList.contains("intro-done")) { o.disconnect(); first(); } }).observe(html, { attributes: true, attributeFilter: ["class"] });
+    } else first();
     addEventListener("load", () => setTimeout(() => shots.forEach((f) => f.classList.add("seen")), 2500), { once: true });
   }
 </script>

@@ -28,25 +28,24 @@ const isExample = !PRICES.confirmed && SITE.preview;
       );
     })}
   </ul>
-  <a class="btn btn--ghost btn--sm pt-cta" href={u(`/kontakt/?raum=${room}`)}>{r.name} anfragen</a>
+  <a class="btn btn--sm pt-cta" href={u(`/kontakt/?raum=${room}`)}>{r.name} anfragen</a>
 </article>
 
 <style>
-  .ptable { display: grid; gap: 18px; align-content: start; padding: clamp(22px, 3vw, 34px); border-radius: var(--radius); border: 1px solid var(--line); background: linear-gradient(180deg, color-mix(in srgb, var(--room) 7%, var(--bg-2)), var(--bg-2) 40%); position: relative; overflow: hidden; }
-  .ptable::before { content: ""; position: absolute; top: 0; left: 0; right: 0; height: 2px; background: var(--room); box-shadow: 0 0 18px var(--room); }
-  .pt-head { display: flex; align-items: baseline; justify-content: space-between; gap: 16px; }
-  .pt-title { font: 300 var(--step-2) / 1.1 var(--font-display); letter-spacing: -0.02em; }
-  .pt-link { font-size: var(--step--1); color: var(--ink-2); min-height: 44px; display: inline-flex; align-items: center; }
-  .pt-list { list-style: none; margin: 0; padding: 0; }
-  .pt-list li { display: grid; grid-template-columns: 1fr auto; gap: 16px; align-items: center; padding: 16px 0; border-top: 1px solid var(--line); }
-  .pt-name { display: grid; gap: 2px; font: 400 var(--step-1) / 1.25 var(--font-display); }
+  .ptable { display: grid; gap: 16px; align-content: start; padding: 0 0 clamp(18px, 2.5vw, 28px); background: var(--paper-3); border: 2px solid var(--ink); box-shadow: 0 20px 40px -26px rgb(28 26 33 / 0.5); }
+  .pt-head { display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 4px 16px; padding: 18px clamp(18px, 2.5vw, 28px); background: var(--room); color: var(--on-room); }
+  .pt-title { font: 880 var(--step-2) / 1 var(--font-display); font-stretch: 122%; letter-spacing: -0.02em; }
+  .pt-link { font-weight: 650; color: inherit; min-height: 44px; display: inline-flex; align-items: center; text-decoration-thickness: 2px; text-underline-offset: 5px; }
+  .pt-list { list-style: none; margin: 0; padding: 0 clamp(18px, 2.5vw, 28px); }
+  .pt-list li { display: grid; grid-template-columns: 1fr auto; gap: 16px; align-items: center; padding: 14px 0; border-bottom: 1px solid var(--rule-strong); }
+  .pt-list li:last-child { border-bottom: 0; }
+  .pt-name { display: grid; gap: 2px; font: 750 1.1rem / 1.25 var(--font-display); font-stretch: 106%; }
   .pt-name small { font: 400 var(--step--1) / 1.4 var(--font-body); color: var(--ink-2); }
   .pt-price { display: grid; justify-items: end; text-align: right; gap: 2px; }
-  .pt-price strong { font: 400 var(--step-2) / 1 var(--font-display); letter-spacing: -0.02em; color: var(--ink); }
-  .from { font-size: var(--step--1); color: var(--ink-2); }
-  .pt-price small { font-size: var(--step--1); color: var(--ink-2); }
-  .pt-tag { margin-top: 4px; font-size: 11px; color: var(--room); border: 1px dashed currentColor; border-radius: 99px; padding: 2px 8px; }
-  .pt-cta { justify-self: start; margin-top: 4px; }
-  .compact .pt-list li { padding: 12px 0; }
+  .pt-price strong { font: 880 var(--step-2) / 1 var(--font-display); font-stretch: 112%; font-variant-numeric: tabular-nums; }
+  .from, .pt-price small { font-size: var(--step--1); color: var(--ink-2); }
+  .pt-tag { margin-top: 4px; font-size: 12px; font-weight: 650; color: var(--ink); border: 1.5px dashed var(--ink); padding: 1px 8px; }
+  .pt-cta { justify-self: start; margin: 4px clamp(18px, 2.5vw, 28px) 0; }
+  .compact .pt-list li { padding: 10px 0; }
   @media (max-width: 480px) { .pt-list li { grid-template-columns: 1fr; } .pt-price { justify-items: start; text-align: left; } }
 </style>
