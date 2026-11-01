@@ -1,0 +1,100 @@
+<!doctype html>
+<html lang="de">
+<head>
+<meta charset="utf-8">
+<style>
+@font-face{font-family:Montserrat;font-weight:600;src:url(assets/fonts/montserrat-latin-600-normal.woff2)}
+@font-face{font-family:Montserrat;font-weight:800;src:url(assets/fonts/montserrat-latin-800-normal.woff2)}
+@font-face{font-family:Oswald;font-weight:700;src:url(assets/fonts/oswald-latin-700-normal.woff2)}
+:root{--g:#d9a21b;--ink:#111}
+*{box-sizing:border-box;margin:0;padding:0}
+html,body{width:1080px;height:1920px;overflow:hidden;background:#000}
+#stage{position:relative;width:1080px;height:1920px;overflow:hidden;font-family:Montserrat,sans-serif;color:#fff;background:#111}
+.L{position:absolute;inset:0;overflow:hidden}
+.L .bg{position:absolute;inset:-80px;background-size:cover;background-position:center;filter:blur(40px) brightness(.35)}
+.L img{position:absolute;left:0;top:0;width:1080px;height:1920px;object-fit:cover}
+.L img.fit{object-fit:contain}
+.shade{position:absolute;inset:0;z-index:4;background:linear-gradient(180deg,rgba(0,0,0,.55) 0%,rgba(0,0,0,0) 22%,rgba(0,0,0,0) 62%,rgba(0,0,0,.7) 100%);pointer-events:none}
+.t{position:absolute;left:60px;right:60px;text-align:center;display:none;z-index:6}
+#top{top:190px;font:700 96px Oswald;line-height:1;text-transform:uppercase;text-shadow:0 6px 30px rgba(0,0,0,.7)}
+#tag{top:190px}
+#tag span{display:inline-block;font:700 92px Oswald;padding:10px 40px;border-radius:16px;text-transform:uppercase;box-shadow:0 14px 40px rgba(0,0,0,.5)}
+#step{top:1300px}
+#step .c{display:inline-flex;align-items:center;gap:20px;background:rgba(17,17,17,.88);border-left:12px solid var(--g);border-radius:14px;padding:18px 32px 18px 22px;text-align:left}
+#step .n{flex:none;width:76px;height:76px;border-radius:50%;background:var(--g);color:#111;font:700 50px Oswald;display:flex;align-items:center;justify-content:center}
+#step .m{font:800 50px Montserrat;line-height:1.1}
+#flash{position:absolute;inset:0;background:#fff;opacity:0;z-index:8}
+#prog{position:absolute;left:0;top:0;height:8px;background:var(--g);z-index:9}
+#end{position:absolute;inset:0;display:none;z-index:7;background:radial-gradient(circle at 50% 42%,#2a2a2a,#0b0b0b 70%)}
+#end img{position:absolute;left:240px;top:420px;width:600px;height:600px;border-radius:50%;box-shadow:0 0 0 10px rgba(217,162,27,.25),0 30px 80px rgba(0,0,0,.6)}
+</style>
+<script>document.write('<script src="'+(new URLSearchParams(location.search).get('data')||'data.js')+'"><\/script>')</script>
+</head>
+<body>
+<div id="stage">
+<div class="L" id="A"><div class="bg"></div><img></div><div class="L" id="B"><div class="bg"></div><img></div>
+<div class="shade"></div>
+<div class="t" id="top"></div>
+<div class="t" id="tag"><span></span></div>
+<div class="t" id="step"><div class="c"><div class="n"></div><div class="m"></div></div></div>
+<div id="end"><img src="assets/logo.png"><div class="t" id="e1" style="top:1090px;font:800 58px Montserrat;line-height:1.15">Renovierung<br><span style="color:#d9a21b">Schritt für Schritt</span></div>
+ <div class="t" id="e2" style="top:1290px;font:700 84px Oswald;color:#d9a21b">fob-fm.de</div><div class="t" id="e3" style="top:1400px;font:600 40px Montserrat;color:#ddd">@fob.haustechnik</div></div>
+<div id="flash"></div><div id="prog"></div></div>
+<script>
+const $=id=>document.getElementById(id);
+const cl=(x,a=0,b=1)=>Math.min(b,Math.max(a,x));
+const p=(t,a,d)=>cl((t-a)/d);
+const eo=x=>1-Math.pow(1-x,3);
+const io=x=>x<.5?4*x*x*x:1-Math.pow(-2*x+2,3)/2;
+const back=x=>{const c=1.6;return 1+(c+1)*Math.pow(x-1,3)+c*Math.pow(x-1,2)};
+const J='jobs/proj/';
+// [duration, source, zoomFrom, zoomTo, originX%, originY%, step#, stepText, tag]
+// source: 'img/x' or ['v1', startSec, speed]
+const SH=[
+ [2.0,'img/kueche_vorher',1.12,1.0,50,40,'','', 'VORHER'],
+ [1.4,'img/boden_vorher',1.0,1.12,40,60,'1','Untergrund vorbereiten',''],
+ [3.0,['v1',1.0,1.0],1.0,1.06,50,50,'2','Grundieren',''],
+ [3.0,['v2',0.2,1.5],1.0,1.08,50,55,'3','Ausgleichsmasse anmischen',''],
+ [1.7,'img/ausgleich_2',1.0,1.1,30,60,'4','Boden nivellieren',''],
+ [1.5,'img/ausgleich_1',1.1,1.0,60,50,'4','Boden nivellieren',''],
+ [1.7,'img/boden_eben',1.0,1.08,50,60,'✓','Boden eben',''],
+ [1.4,'img/wand_roh',1.08,1.0,50,50,'5','Wände & Decke spachteln',''],
+ [1.2,'img/decke_spachtel',1.0,1.08,50,40,'5','Wände & Decke spachteln',''],
+ [1.2,'img/wand_spachtel',1.0,1.1,40,50,'5','Wände & Decke spachteln',''],
+ [1.4,'img/abkleben',1.0,1.08,60,60,'6','Abkleben & schützen',''],
+ [1.2,'img/folie',1.08,1.0,50,60,'6','Abkleben & schützen',''],
+ [1.6,'img/bad_fliesen',1.0,1.1,50,50,'7','Fliesen verlegen',''],
+ [1.8,'img/vinyl',1.0,1.08,50,70,'8','Küchenfliesen & Vinylboden',''],
+ [1.8,'img/wand_fertig1',1.06,1.0,50,50,'','','NACHHER'],
+ [1.6,'img/wand_fertig2',1.0,1.06,50,50,'','','NACHHER']];
+let acc=0;SH.forEach(s=>{s.t0=acc;acc+=s[0];s.t1=acc});const ENDC=acc;
+const NV={v1:677,v2:146};
+function src(s,t){if(typeof s[1]==='string')return J+s[1]+'.jpg';const [v,st,sp]=s[1];const f=Math.min(NV[v],Math.max(1,Math.round((st+(t-s.t0)*sp)*30)+1));return `${J}${v}/v${String(f).padStart(4,'0')}.jpg`}
+function setL(L,s,t,op){const img=L.querySelector('img'),bg=L.querySelector('.bg');const u=src(s,t);if(img.dataset.u!==u){img.dataset.u=u;img.src=u;bg.style.backgroundImage=`url(${u})`}
+  const isPhoto=typeof s[1]==='string'&&s[1].startsWith('img/wand')||s[1]==='img/decke_spachtel';img.className=isPhoto?'':'';
+  const k=io(p(t,s.t0,s[0]+.5));img.style.transformOrigin=`${s[4]}% ${s[5]}%`;img.style.transform=`scale(${s[2]+(s[3]-s[2])*k})`;L.style.opacity=op;L.style.display=op>0?'block':'none'}
+window.render=async function(t){
+  let i=SH.findIndex(s=>t<s.t1);if(i<0)i=SH.length-1;const s=SH[i];
+  // quick cross-dissolve on each cut (0.25 s)
+  const prev=i>0?SH[i-1]:null,q=p(t,s.t0,.25);
+  setL($('B'),s,t,1);if(prev&&q<1)setL($('A'),prev,t,1-q);else $('A').style.display='none';
+  $('A').style.zIndex=2;$('B').style.zIndex=1;
+  // flash at before->after
+  const ai=SH.findIndex(x=>x[8]==='NACHHER');let fl=t<.15?.5*(1-t/.15):0;if(t>=SH[ai].t0&&t<SH[ai].t0+.3)fl+=.6*(1-p(t,SH[ai].t0,.3));$('flash').style.opacity=fl;
+  // top title (hook) + tag
+  {const on=t<SH[1].t0+.25;$('top').style.display=on?'block':'none';if(on){$('top').innerHTML='Renovierung<br><span style="color:#d9a21b">Schritt für Schritt</span>';const k=back(p(t,.1,.45));$('top').style.transform=`scale(${k})`;$('top').style.opacity=1-p(t,SH[1].t0,.25);$('top').style.top='1180px'}}
+  {const on=!!s[8]&&t<ENDC;$('tag').style.display=on?'block':'none';if(on){const sp=$('tag').firstChild;sp.textContent=s[8];sp.style.background=s[8]==='VORHER'?'#e04848':'#d9a21b';sp.style.color=s[8]==='VORHER'?'#fff':'#111';
+    const t0=SH.findIndex(x=>x[8]===s[8]);const k=back(p(t,SH[t0].t0+.1,.4));sp.style.transform=`scale(${k}) rotate(-3deg)`}}
+  // step chip (animates when step number changes)
+  {const on=!!s[6]&&t<ENDC;$('step').style.display=on?'block':'none';if(on){let j=i;while(j>0&&SH[j-1][6]===s[6])j--;const k=back(p(t,SH[j].t0+.05,.4));
+    $('step').querySelector('.n').textContent=s[6];$('step').querySelector('.m').textContent=s[7];$('step').style.transform=`translateX(${(1-k)*-900}px)`}}
+  // end card
+  const inE=t>=ENDC;$('end').style.display=inE?'block':'none';
+  if(inE){const kl=back(p(t,ENDC,.5));$('end').querySelector('img').style.transform=`scale(${.6+.4*kl})`;[['e1',.4],['e2',.7],['e3',.9]].forEach(([id,d])=>{const k=eo(p(t,ENDC+d,.5));$(id).style.display='block';$(id).style.opacity=k;$(id).style.transform=`translateY(${(1-k)*30}px)`})}
+  $('prog').style.width=(cl(t/CUES.total)*100)+'%';
+  await Promise.all([...document.querySelectorAll('img')].map(x=>x.decode().catch(()=>{})));
+};
+window.addEventListener('load',()=>document.fonts.ready.then(()=>render(0)));
+</script>
+</body>
+</html>
