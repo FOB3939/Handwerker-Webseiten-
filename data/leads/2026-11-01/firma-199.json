@@ -1,0 +1,413 @@
+{
+  "id": "2026-11-01-199",
+  "slug": "hermann-schlammerl-woerthsee",
+  "date": "2026-11-01",
+  "company": {
+    "name": "Hermann Schlammerl",
+    "owner": "Hermann Schlammerl",
+    "trade": "Heizungsbau",
+    "city": "Wörthsee",
+    "address": "Lindenweg 12, 82237 Wörthsee",
+    "phone": "08153 89664",
+    "email": null,
+    "serviceArea": [
+      "Wörthsee",
+      "Steinebach",
+      "Etterschlag",
+      "Walchstadt",
+      "Weßling",
+      "Inning am Ammersee",
+      "Seefeld"
+    ]
+  },
+  "listings": {
+    "google": {
+      "url": "https://www.google.com/maps/search/?api=1&query=Hermann%20Schlammerl%20Lindenweg%2012%20W%C3%B6rthsee",
+      "rating": null,
+      "reviews": null,
+      "evidence": "NICHT BELEGT – Suche über Google-Spiegel (trustlocal, firmania, rgv-bayern, yably, top10place) ohne Treffer für Hermann Schlammerl. In Maps prüfen."
+    },
+    "myhammer": {
+      "url": "https://www.11880.com/branchenbuch/woerthsee/060692320B27357111/hermann-schlammerl.html",
+      "rating": null,
+      "reviews": null,
+      "evidence": "Kein MyHammer gefunden – 11880-Eintrag Hermann Schlammerl, Lindenweg 12, Wörthsee (Steinebach), Heizungsinstallation, Lüftungsbau & Klempner, (08153) 89664, noch keine Bewertungen, aktualisiert 22.10.2024; außerdem klimatechniker.net, oeffnungszeitenbuch.de, heizungsbau-adressen.de, VWS-Handwerkerverzeichnis."
+    }
+  },
+  "websiteStatus": "keine eigene Website gefunden",
+  "websiteChecks": [
+    "(1) „Hermann Schlammerl Heizung Wörthsee Steinebach“ mit blocked_domains (11880, Gelbe Seiten, Das Örtliche, Telefonbuch, Cylex, meinestadt, Creditreform, Facebook, Instagram, golocal, MyHammer, Northdata, Firmenwissen, WKDB, Yelp, trustlocal, wlw) – nur Verzeichnisse (VWS-Handwerker, heizungsbau-adressen, staedte-info, locatefamily); keine eigene Domain",
+    "(2) Domain-Check allowed_domains schlammerl.de, heizung-schlammerl.de, schlammerl-heizung.de, hermann-schlammerl.de, schlammerl-haustechnik.de, schlammerl-woerthsee.de, heizungsbau-schlammerl.de, schlammerl-sanitaer.de – einziger Treffer schlammerl.de = Metzgerei Schlammerl in Ottobrunn (fremder Betrieb)",
+    "(3) Telefonsuche „08153 89664“/„0815389664“/„08153/89664“ (ohne große Verzeichnisse) – keine Treffer",
+    "(4) Impressum-Suche „Impressum Hermann Schlammerl Lindenweg Wörthsee“ – kein eigenes Impressum, nur Verzeichnisse (oeffnungszeitenbuch, klimatechniker.net)",
+    "(5) Keine E-Mail gefunden (auch keine Freemail); kein Website-Feld in den Snippets",
+    "Website-Risiko: niedrig (keine Website gefunden), aber Lead-Risiko hoch – weder Google-Eintrag noch Freemail belegt, Betrieb möglicherweise nicht mehr aktiv"
+  ],
+  "facts": {
+    "services": [
+      "Heizungsinstallation",
+      "Lüftungsbau",
+      "Klempnerarbeiten"
+    ],
+    "experience": null,
+    "praisedFor": []
+  },
+  "strategy": {
+    "audience": "Hausbesitzer in Wörthsee, Steinebach, Etterschlag und Weßling, die ihre Heizung erneuern, warten oder reparieren lassen wollen",
+    "mainService": "Heizungsinstallation und Heizungsservice",
+    "trustSignal": "Inhabergeführter Heizungsbetrieb in Wörthsee-Steinebach",
+    "conversionGoal": "Anfrage für Heizungstausch, Wartung oder Reparatur (Anruf oder Formular)",
+    "visualConcept": "Moderner, aufgeräumter Heizungsraum mit Kesselanlage, Verteiler und Rohrdämmung – sachlich, technisch, ruhig"
+  },
+  "sales": {
+    "score": 2,
+    "whyGoodLead": [
+      "Keine eigene Website gefunden – nur Verzeichniseinträge",
+      "Heizungsbau im Fünfseenland: Heizungstausch und Wartung sind gefragt",
+      "Festnetznummer öffentlich gelistet, direkter Ansprechpartner",
+      "Heizung ist im heutigen Lauf ein seltenes Gewerk"
+    ],
+    "pitch": "Grüß Gott Herr Schlammerl, hier ist … – ich baue Websites für Handwerker im Landkreis Starnberg. Ich habe Ihren Heizungsbetrieb in Wörthsee-Steinebach in Branchenverzeichnissen gefunden, aber keine eigene Website. Ich habe unverbindlich einen Entwurf vorbereitet, über den Kunden Ihre Heizungsleistungen finden und direkt anfragen können – darf ich Ihnen den Link schicken?"
+  },
+  "manualChecks": [
+    "RESERVE – weder Google-Eintrag noch Freemail-Adresse belegt: NUR versenden, wenn Google Maps einen Eintrag OHNE Website zeigt.",
+    "Aktivität prüfen: Verzeichnisdaten teils alt (VWS-Verzeichnis, ca. 2008/2018), 11880 zuletzt aktualisiert 22.10.2024 – vor Kontakt klären, ob der Betrieb noch arbeitet",
+    "Telefon nur Festnetz 08153 89664, keine Mobilnummer belegt – WhatsApp-Kontakt nicht möglich",
+    "Namensvetter „Manuel Schlammerl Meisterbetrieb für Heizung, Sanitär und Solaranlagen“ in Habach (Lkr. Weilheim-Schongau) – Verbindung unbekannt; prüfen, ob es ein Familienbetrieb mit Website ist",
+    "Leistungen nur grob belegt (Heizungsinstallation, Lüftungsbau, Klempner laut 11880) – Wärmepumpe, Solar, Badsanierung nicht belegt",
+    "Meistertitel, Gründungsjahr, Team: nicht belegt – nicht verwenden",
+    "Logo und Projektfotos: nicht gefunden – beim Betrieb anfragen"
+  ],
+  "sources": [
+    {
+      "label": "11880 – Hermann Schlammerl, Wörthsee",
+      "url": "https://www.11880.com/branchenbuch/woerthsee/060692320B27357111/hermann-schlammerl.html"
+    },
+    {
+      "label": "11880 – Heizungsinstallationen Wörthsee (Ortsliste)",
+      "url": "https://www.11880.com/suche/heizungsinstallation/woerthsee"
+    },
+    {
+      "label": "klimatechniker.net – Hermann Schlammerl Wörthsee",
+      "url": "https://www.klimatechniker.net/woerthsee/hermann-schlammerl-aULV4N"
+    },
+    {
+      "label": "oeffnungszeitenbuch – Hermann Schlammerl in Wörthsee",
+      "url": "https://www.oeffnungszeitenbuch.de/filiale/Woerthsee-Hermann%2520Schlammerl-1776188N.html"
+    },
+    {
+      "label": "heizungsbau-adressen – Heizungsbau Wörthsee",
+      "url": "https://www.heizungsbau-adressen.de/heizungsbauer/woerthsee/"
+    },
+    {
+      "label": "VWS Handwerkerverzeichnis – Heizungs- und Lüftungsbau",
+      "url": "http://www.vws-handwerker.de/ausgaben/046/branchen/heizungs_und_lueft.html"
+    }
+  ],
+  "site": {
+    "theme": "werk",
+    "category": "handwerk",
+    "heroOffer": [
+      "Heizungsbau",
+      "Wartung",
+      "Reparatur",
+      "Lüftung",
+      "Klempner"
+    ],
+    "scene": "facade",
+    "logoIcon": "house",
+    "logoMark": "HS",
+    "brandName": "Heizungsbau Schlammerl",
+    "seoTitle": "Heizungsbau in Wörthsee – Hermann Schlammerl",
+    "seoDescription": "Heizungsinstallation, Wartung, Lüftungsbau und Klempnerarbeiten in Wörthsee, Steinebach, Etterschlag und Weßling. Jetzt unverbindlich anfragen.",
+    "nav": [
+      {
+        "label": "Leistungen",
+        "href": "#leistungen"
+      },
+      {
+        "label": "Projekte",
+        "href": "#projekte"
+      },
+      {
+        "label": "Bewertungen",
+        "href": "#bewertungen"
+      },
+      {
+        "label": "Ablauf",
+        "href": "#ablauf"
+      },
+      {
+        "label": "FAQ",
+        "href": "#faq"
+      },
+      {
+        "label": "Kontakt",
+        "href": "#kontakt"
+      }
+    ],
+    "hero": {
+      "eyebrow": "Heizungsbau · Wörthsee",
+      "headline": "Heizungsbau in Wörthsee-Steinebach",
+      "sub": "Heizung einbauen, warten und reparieren – für Häuser rund um den Wörthsee.",
+      "ctaPrimary": "Anfrage senden",
+      "ctaSecondary": "Anrufen",
+      "bullets": [
+        "Heizungsinstallation",
+        "Lüftungsbau und Klempnerarbeiten",
+        "Inhaber Hermann Schlammerl"
+      ],
+      "imageLabel": "aufgeräumter Heizungsraum mit Kessel und gedämmten Rohren"
+    },
+    "badges": [
+      {
+        "title": "Heizung",
+        "sub": "Einbau & Tausch"
+      },
+      {
+        "title": "Service",
+        "sub": "Wartung & Reparatur"
+      },
+      {
+        "title": "Lüftung",
+        "sub": "Lüftungsbau"
+      },
+      {
+        "title": "Wörthsee",
+        "sub": "Lindenweg, Steinebach"
+      }
+    ],
+    "trust": [
+      {
+        "value": "Inhaber",
+        "label": "Hermann Schlammerl"
+      },
+      {
+        "value": "Vor Ort",
+        "label": "Betrieb in Steinebach"
+      },
+      {
+        "value": "3",
+        "label": "Gewerke: Heizung, Lüftung, Klempner"
+      },
+      {
+        "value": "Direkt",
+        "label": "persönlicher Kontakt"
+      }
+    ],
+    "servicesIntro": {
+      "headline": "Heizung, Lüftung und Klempnerarbeiten",
+      "text": "Ob die alte Anlage ersetzt werden soll oder nur ein Heizkörper nicht warm wird: Der Betrieb plant, baut ein und hält die Technik in Schuss."
+    },
+    "services": [
+      {
+        "title": "Heizungsinstallation",
+        "text": "Neue Heizungsanlagen werden geplant, eingebaut und in Betrieb genommen.",
+        "items": [
+          "Planung",
+          "Einbau",
+          "Inbetriebnahme"
+        ]
+      },
+      {
+        "title": "Heizungstausch",
+        "text": "Die alte Anlage wird ausgebaut und durch eine neue ersetzt – mit möglichst kurzer Zeit ohne Wärme.",
+        "items": [
+          "Ausbau Altanlage",
+          "Neue Anlage",
+          "Anschluss"
+        ]
+      },
+      {
+        "title": "Wartung",
+        "text": "Regelmäßige Wartung hält die Heizung effizient und beugt Ausfällen vor.",
+        "items": [
+          "Jährliche Prüfung",
+          "Reinigung",
+          "Einstellung"
+        ]
+      },
+      {
+        "title": "Reparatur",
+        "text": "Bei Störungen wird die Ursache gesucht und behoben.",
+        "items": [
+          "Störungssuche",
+          "Ersatzteile",
+          "Pumpen & Ventile"
+        ]
+      },
+      {
+        "title": "Lüftungsbau",
+        "text": "Lüftungsanlagen sorgen für frische Luft und helfen gegen Feuchtigkeit.",
+        "items": [
+          "Lüftungsanlagen",
+          "Rohrführung",
+          "Montage"
+        ]
+      },
+      {
+        "title": "Klempnerarbeiten",
+        "text": "Rohre, Anschlüsse und Leitungen werden verlegt, abgedichtet und repariert.",
+        "items": [
+          "Rohrleitungen",
+          "Anschlüsse",
+          "Abdichtung"
+        ]
+      }
+    ],
+    "why": {
+      "headline": "Heizungsbau direkt aus Wörthsee.",
+      "points": [
+        {
+          "title": "Kurze Wege",
+          "text": "Von Steinebach aus schnell in Etterschlag, Walchstadt, Weßling und Inning."
+        },
+        {
+          "title": "Persönlich",
+          "text": "Sie sprechen direkt mit dem Inhaber Hermann Schlammerl."
+        },
+        {
+          "title": "Alles rund ums Heizen",
+          "text": "Einbau, Wartung und Reparatur aus einer Hand."
+        },
+        {
+          "title": "Auch Lüftung",
+          "text": "Lüftungsbau und Klempnerarbeiten ergänzen die Heizungstechnik."
+        }
+      ]
+    },
+    "reviews": {
+      "headline": "Was Kunden sagen",
+      "summary": "Kundenstimmen werden hier eingebunden, sobald sie aus dem Google-Profil übernommen sind.",
+      "highlights": [
+        "Heizungsbau in Wörthsee",
+        "Wartung und Reparatur",
+        "Persönlicher Kontakt"
+      ],
+      "source": "Google",
+      "sourceUrl": "https://www.google.com/maps/search/?api=1&query=Hermann%20Schlammerl%20Lindenweg%2012%20W%C3%B6rthsee",
+      "rating": null,
+      "count": null
+    },
+    "process": {
+      "headline": "Vom Anruf zur warmen Wohnung",
+      "steps": [
+        {
+          "title": "Anfrage",
+          "text": "Kurz anrufen oder das Formular nutzen und das Anliegen schildern."
+        },
+        {
+          "title": "Besichtigung",
+          "text": "Anlage und Räume werden vor Ort angesehen."
+        },
+        {
+          "title": "Angebot",
+          "text": "Sie erhalten ein klares Angebot für Einbau, Tausch oder Reparatur."
+        },
+        {
+          "title": "Einbau",
+          "text": "Die Arbeiten werden ausgeführt und die Anlage eingestellt übergeben."
+        }
+      ]
+    },
+    "gallery": {
+      "headline": "Heizungstechnik vor Ort",
+      "text": "Für die Live-Version zeigen wir hier echte Arbeiten des Betriebs.",
+      "items": [
+        {
+          "title": "Neue Anlage",
+          "photoNeeded": "frisch installierte Heizungsanlage im Keller"
+        },
+        {
+          "title": "Heizungsverteiler",
+          "photoNeeded": "sauber gedämmte Verteilerleitungen"
+        },
+        {
+          "title": "Wartung",
+          "photoNeeded": "geöffneter Kessel bei der Wartung"
+        },
+        {
+          "title": "Lüftung",
+          "photoNeeded": "montierte Lüftungsrohre im Technikraum"
+        },
+        {
+          "title": "Rohrleitungen",
+          "photoNeeded": "neu verlegte Kupferrohre"
+        }
+      ]
+    },
+    "region": {
+      "headline": "Heizungsbau rund um den Wörthsee",
+      "text": "Von Steinebach aus in Wörthsee, Etterschlag, Walchstadt, Weßling, Inning am Ammersee und Seefeld.",
+      "places": [
+        "Wörthsee",
+        "Steinebach",
+        "Etterschlag",
+        "Walchstadt",
+        "Weßling",
+        "Inning am Ammersee",
+        "Seefeld"
+      ]
+    },
+    "faq": [
+      {
+        "q": "Lohnt sich ein Heizungstausch?",
+        "a": "Das hängt von Alter und Zustand der Anlage ab. Nach einer Besichtigung bekommen Sie eine Einschätzung."
+      },
+      {
+        "q": "Wie oft sollte die Heizung gewartet werden?",
+        "a": "Üblich ist eine Wartung einmal im Jahr, am besten vor der Heizsaison."
+      },
+      {
+        "q": "Was tun bei einem Heizungsausfall?",
+        "a": "Rufen Sie an und beschreiben Sie die Störung – ein Termin wird so bald wie möglich vereinbart."
+      },
+      {
+        "q": "Übernehmen Sie auch Lüftung und Klempnerarbeiten?",
+        "a": "Ja, Lüftungsbau und Klempnerarbeiten gehören zum Angebot."
+      },
+      {
+        "q": "In welchen Orten arbeiten Sie?",
+        "a": "In Wörthsee und Umgebung, etwa Etterschlag, Walchstadt und Weßling – fragen Sie einfach an."
+      }
+    ],
+    "contact": {
+      "headline": "Ihre Anfrage zur Heizung",
+      "text": "Schreiben Sie kurz, worum es geht: neue Heizung, Wartung, Störung, Lüftung oder Leitungen. Hersteller und Baujahr der Anlage helfen.",
+      "topics": [
+        "Neue Heizung",
+        "Heizungstausch",
+        "Wartung",
+        "Reparatur",
+        "Lüftung",
+        "Sonstiges"
+      ],
+      "responseNote": "Rückmeldung nach Absprache."
+    },
+    "quote": {
+      "sizeLabel": "Worum geht es?",
+      "sizes": [
+        "Wartung",
+        "Reparatur",
+        "Heizungstausch",
+        "Neubau / Lüftung"
+      ],
+      "timings": [
+        "Dringend",
+        "In den nächsten Wochen",
+        "In 1–3 Monaten",
+        "Ich plane erst noch"
+      ]
+    },
+    "stickyCta": "Anfrage senden",
+    "look": {
+      "palette": 2,
+      "font": 6,
+      "hero": 0,
+      "services": 1,
+      "radius": 1,
+      "logo": 0,
+      "intro": 5
+    }
+  }
+}
