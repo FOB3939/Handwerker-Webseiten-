@@ -40,6 +40,17 @@ export const SERVICES = [
   { key: "hausmeister", title: "Hausmeisterservice", text: "Ein Ansprechpartner für die laufenden Aufgaben am Haus – von der Kontrolle bis zur Reparatur.", image: null },
 ] as const;
 
+// Typische Aufgaben je Gewerk (Startseite: Verteiler, /leistungen/)
+export const SERVICE_TASKS: Record<(typeof SERVICES)[number]["key"], string[]> = {
+  sanitaer: ["WC und Spülkasten tauschen", "Waschtisch und Armaturen montieren", "Anschlüsse, Eckventile, Flexschläuche", "Arbeiten an Heizkörpern und Leitungen"],
+  elektro: ["Steckdosen und Schalter", "Leuchten anschließen", "Kleinere Elektroarbeiten rund ums Haus"],
+  maler: ["Wände und Decken streichen", "Spachtel- und Effekttechniken", "Fassaden mit Partner-Malermeister"],
+  reinigung: ["Treppenhaus und Gemeinschaftsflächen", "Reinigung nach Handwerksarbeiten"],
+  boden: ["Vinyl- und Laminatböden verlegen", "Sockelleisten", "Holzterrassen erneuern"],
+  hausmeister: ["Regelmäßige Kontrollgänge", "Kleinreparaturen", "Ein Ansprechpartner für viele Gewerke"],
+};
+export const SERVICE_ICONS = { sanitaer: "drop", elektro: "bolt", maler: "brush", reinigung: "spark", boden: "floor", hausmeister: "key" } as const;
+
 // Förderung – Stand der Recherche Oktober 2026, OHNE Gewähr; vor Veröffentlichung auf kfw.de prüfen.
 export const FUNDING = {
   asOf: "Oktober 2026",

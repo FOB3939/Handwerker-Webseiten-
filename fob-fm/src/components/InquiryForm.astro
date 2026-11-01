@@ -23,18 +23,20 @@ const { topic = "haustechnik" } = Astro.props;
   </div>
   <label>Dein Anliegen<textarea name="message" rows="5" required></textarea></label>
   <p class="err" role="alert" data-err></p>
-  <button class="btn btn--gold" type="submit">E-Mail vorbereiten</button>
-  <p class="hint muted">„E-Mail vorbereiten“ öffnet dein E-Mail-Programm mit deinen Angaben an {COMPANY.email}. Gesendet wird erst, wenn du dort auf Senden tippst.</p>
+  <button class="btn btn--brass" type="submit">E-Mail vorbereiten</button>
+  <p class="hint">„E-Mail vorbereiten“ öffnet dein E-Mail-Programm mit deinen Angaben an {COMPANY.email}. Gesendet wird erst, wenn du dort auf Senden tippst.</p>
 </form>
 <style>
-  .form { display: grid; gap: 16px; }
-  .row { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; }
-  label { display: grid; gap: 6px; font-weight: 700; font-size: var(--step--1); }
-  input, select, textarea { width: 100%; min-height: 50px; padding: 12px 14px; border-radius: var(--radius); border: 2px solid #8a8f96; background: var(--white); color: var(--ink); font: 400 1rem / 1.4 var(--font); }
-  input:focus-visible, select:focus-visible, textarea:focus-visible { outline: 3px solid var(--gold); outline-offset: 1px; border-color: var(--graphite); }
-  [aria-invalid="true"] { border-color: var(--copper); }
-  .err { min-height: 1.4em; color: var(--copper); font-weight: 700; font-size: var(--step--1); }
-  .hint { font-size: var(--step--1); }
+  .form { display: grid; gap: 18px; padding: clamp(20px, 3vw, 32px); background: var(--white); color: var(--ink); border-radius: var(--r-tag); box-shadow: 0 1px 0 var(--line), 0 18px 40px -24px rgb(21 32 26 / 0.35); }
+  .row { display: grid; grid-template-columns: 1fr 1fr; gap: 18px; }
+  label { display: grid; gap: 6px; font: 750 1rem / 1.2 var(--display); letter-spacing: 0.01em; }
+  input, select, textarea { width: 100%; min-height: 50px; padding: 12px 14px; border-radius: 3px; border: 2px solid var(--line-2); background: #fff; color: var(--ink); font: 400 1.04rem / 1.4 var(--font); transition: border-color 0.2s; }
+  input:hover, select:hover, textarea:hover { border-color: var(--ink-2); }
+  input:focus-visible, select:focus-visible, textarea:focus-visible { outline: 3px solid var(--ruecklauf); outline-offset: 1px; border-color: var(--ink); }
+  [aria-invalid="true"] { border-color: var(--vorlauf); background: #fdf3f0; }
+  .err { min-height: 1.4em; color: var(--vorlauf); font-weight: 700; font-size: var(--step--1); }
+  .err:empty { min-height: 0; margin-top: -18px; }
+  .hint { font-size: var(--step--1); color: var(--ink-2); }
   .form .btn { justify-self: start; }
   @media (max-width: 640px) { .row { grid-template-columns: 1fr; } .form .btn { justify-self: stretch; } }
 </style>

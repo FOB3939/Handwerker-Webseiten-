@@ -117,7 +117,7 @@ for (const [stem, key] of stems) {
 
 // ---------- Hülle ----------
 const json = (o) => JSON.stringify(o).replace(/</g, "\\u003c");
-const shell = `<!doctype html><html lang="de"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>Website-Entwurf FOB Haustechnik</title><meta name="robots" content="noindex, nofollow"><style>html,body{margin:0;background:#17191c;color:#f3f1ec;font-family:system-ui,sans-serif}</style></head><body><p style="padding:24px">Website-Entwurf FOB Haustechnik wird geladen …</p>
+const shell = `<!doctype html><html lang="de"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>Website-Entwurf FOB Haustechnik</title><meta name="robots" content="noindex, nofollow"><style>html,body{margin:0;background:#e7eae4;color:#15201a;font-family:system-ui,sans-serif}</style></head><body><p style="padding:24px">Website-Entwurf FOB Haustechnik wird geladen …</p>
 <script>
 window.__SS = (function () {
   var P = ${json(pages)}, I = ${json(images)}, S = ${json(shared)};

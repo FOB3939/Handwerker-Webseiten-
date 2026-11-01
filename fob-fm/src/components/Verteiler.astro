@@ -1,0 +1,115 @@
+---
+// Heizkreisverteiler als Leistungsauswahl: sechs Abgänge = sechs Gewerke (Registerkarten, Pfeiltasten).
+// Der gewählte Abgang „öffnet“: Ventilgriff dreht, Abgang färbt sich rot. Ohne JS stehen alle Gewerke untereinander.
+import Img from "./Img.astro";
+import Icon from "./Icon.astro";
+import { SERVICES, SERVICE_TASKS, SERVICE_ICONS } from "../config/site";
+import { u } from "../lib/url";
+---
+<div class="manifold" data-manifold>
+  <div class="header-pipe" aria-hidden="true"><span class="cap"></span><span class="cap cap--r"></span></div>
+  <div class="outlets" role="tablist" aria-label="Gewerke">
+    {SERVICES.map((s, i) => (
+      <button class="outlet" type="button" role="tab" id={`tab-${s.key}`} aria-controls={`pan-${s.key}`} aria-selected={i === 0 ? "true" : "false"} tabindex={i === 0 ? 0 : -1} data-tab>
+        <span class="stub" aria-hidden="true"><span class="valve"></span></span>
+        <span class="label"><Icon name={SERVICE_ICONS[s.key]} class="o-ico" />{s.title}</span>
+      </button>
+    ))}
+  </div>
+  {SERVICES.map((s, i) => (
+    <section class:list={["panel", { "is-on": i === 0, "panel--plate": !s.image }]} role="tabpanel" id={`pan-${s.key}`} aria-labelledby={`tab-${s.key}`} tabindex="0" data-panel>
+      {s.image
+        ? <div class="pic"><Img name={s.image} sizes="(min-width: 1000px) 520px, 100vw" decorative /></div>
+        : <div class="pic plate" aria-hidden="true"><Icon name={SERVICE_ICONS[s.key]} class="plate-ico" /></div>}
+      <div class="txt">
+        <h3>{s.title}</h3>
+        <p>{s.text}</p>
+        <ul class="tasks">{SERVICE_TASKS[s.key].map((x) => <li>{x}</li>)}</ul>
+        <a class="more" href={u(`/leistungen/#${s.key}`)}>Mehr zu {s.title}<Icon name="arrow" /></a>
+      </div>
+    </section>
+  ))}
+</div>
+
+<style>
+  .manifold { position: relative; }
+  /* Verteilerbalken */
+  .header-pipe { position: relative; height: 22px; margin-inline: 6px; border-radius: 3px; background: linear-gradient(#c6ccc4, #f4f6f2 35%, #9ea89f); box-shadow: 0 2px 0 rgb(21 32 26 / 0.18); }
+  .cap { position: absolute; top: -5px; left: -6px; width: 14px; height: 32px; border-radius: 3px; background: var(--brass); box-shadow: inset 0 -3px 0 var(--brass-dk); }
+  .cap--r { left: auto; right: -6px; }
+  .outlets { display: grid; grid-template-columns: repeat(6, minmax(0, 1fr)); gap: 10px; padding-inline: 14px; }
+  .outlet { display: grid; justify-items: center; gap: 0; padding: 0; border: 0; background: none; color: var(--ink); cursor: pointer; font: inherit; text-align: center; }
+  .stub { position: relative; width: 14px; height: 54px; background: linear-gradient(90deg, #a9b3aa, #eef1ec 45%, #a9b3aa); transition: background 0.35s; }
+  .valve { position: absolute; left: 50%; top: 14px; width: 30px; height: 30px; translate: -50% 0; border-radius: 50%; background: var(--ruecklauf); box-shadow: inset 0 0 0 3px rgb(255 255 255 / 0.35), 0 2px 4px rgb(21 32 26 / 0.3); }
+  /* Griff: quer = zu, längs = offen */
+  .valve::after { content: ""; position: absolute; left: 50%; top: 50%; width: 34px; height: 8px; translate: -50% -50%; border-radius: 4px; background: var(--ink); transition: transform 0.45s var(--ease); }
+  .label { display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 6px; width: 100%; min-height: 96px; padding: 12px 8px 14px; background: var(--white); border-radius: var(--r-tag);
+    font: 750 1.08rem / 1.1 var(--display); box-shadow: inset 0 -3px 0 var(--line); transition: box-shadow 0.25s, background 0.25s; }
+  .label :global(.o-ico) { width: 26px; height: 26px; color: var(--ink-2); }
+  .outlet:hover .label { box-shadow: inset 0 -3px 0 var(--line-2); }
+  .outlet[aria-selected="true"] .stub { background: linear-gradient(90deg, #8a2414, #e2563c 45%, #8a2414); }
+  .outlet[aria-selected="true"] .valve { background: var(--vorlauf); }
+  .outlet[aria-selected="true"] .valve::after { transform: rotate(90deg); }
+  .outlet[aria-selected="true"] .label { background: var(--tanne); color: var(--ink-d); box-shadow: inset 0 -4px 0 var(--vorlauf-lt); }
+  .outlet[aria-selected="true"] .label :global(.o-ico) { color: var(--brass); }
+  .outlet:focus-visible { outline: none; }
+  .outlet:focus-visible .label { outline: 3px solid var(--ruecklauf); outline-offset: 3px; }
+
+  .panel { display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 1.1fr); gap: clamp(24px, 4vw, 56px); align-items: center; margin-top: 28px; padding: clamp(16px, 2.5vw, 28px); background: var(--white); border-radius: var(--r-tag); }
+  .panel:focus-visible { outline: 3px solid var(--ruecklauf); outline-offset: 3px; }
+  :global(.js) .panel:not(.is-on) { display: none; }
+  :global(html:not(.js)) .outlets, :global(html:not(.js)) .header-pipe { display: none; }
+  .pic { aspect-ratio: 4 / 3; overflow: hidden; border-radius: var(--r-photo); }
+  .pic :global(img) { width: 100%; height: 100%; object-fit: cover; }
+  .plate { display: grid; place-items: center; background: var(--tanne); background-image: linear-gradient(rgb(238 243 238 / 0.06) 1px, transparent 1px), linear-gradient(90deg, rgb(238 243 238 / 0.06) 1px, transparent 1px); background-size: 24px 24px; }
+  .plate :global(.plate-ico) { width: 38%; height: auto; color: var(--brass); stroke-width: 1.1; }
+  .txt { display: grid; gap: 14px; justify-items: start; }
+  .txt h3 { font-size: var(--step-2); }
+  .txt p { max-width: 52ch; }
+  .tasks { list-style: none; margin: 0; padding: 0; display: grid; gap: 8px; }
+  .tasks li { display: flex; gap: 12px; align-items: baseline; }
+  .tasks li::before { content: ""; flex: none; width: 10px; height: 10px; border-radius: 50%; border: 2.5px solid var(--vorlauf); translate: 0 -1px; }
+  .more { display: inline-flex; align-items: center; gap: 8px; min-height: 44px; font-weight: 750; text-decoration-color: var(--vorlauf); }
+  .more :global(svg) { width: 18px; height: 18px; transition: transform 0.25s var(--ease); }
+  .more:hover :global(svg) { transform: translateX(3px); }
+
+  @media (max-width: 1000px) { .label { font-size: 0.98rem; hyphens: auto; } .outlets { gap: 6px; padding-inline: 10px; } }
+  /* schmal: Verteilerbalken senkrecht links, Abgänge waagerecht */
+  @media (max-width: 760px) {
+    .manifold { display: grid; grid-template-columns: 22px minmax(0, 1fr); }
+    .header-pipe { grid-row: 1; grid-column: 1; height: auto; margin: 6px 0; background: linear-gradient(90deg, #c6ccc4, #f4f6f2 35%, #9ea89f); }
+    .cap { top: -6px; left: -5px; width: 32px; height: 14px; }
+    .cap--r { top: auto; bottom: -6px; left: -5px; right: auto; }
+    .outlets { grid-row: 1; grid-column: 2; grid-template-columns: 1fr; gap: 8px; padding: 0; }
+    .outlet { grid-template-columns: 40px minmax(0, 1fr); align-items: center; }
+    .stub { width: 40px; height: 14px; background: linear-gradient(#a9b3aa, #eef1ec 45%, #a9b3aa); }
+    .outlet[aria-selected="true"] .stub { background: linear-gradient(#8a2414, #e2563c 45%, #8a2414); }
+    .valve { top: 50%; left: 50%; width: 26px; height: 26px; translate: -50% -50%; }
+    .valve::after { width: 30px; height: 7px; transform: rotate(90deg); }
+    .outlet[aria-selected="true"] .valve::after { transform: rotate(0deg); }
+    .label { flex-direction: row; justify-content: flex-start; gap: 12px; min-height: 56px; padding: 8px 14px; text-align: left; font-size: 1.12rem; }
+    .panel { grid-column: 1 / -1; grid-template-columns: 1fr; }
+  }
+  @media (prefers-reduced-motion: reduce) { .valve::after, .stub, .label { transition: none; } }
+</style>
+
+<script>
+  // Registerkarten nach WAI-ARIA: Pfeiltasten, Pos1/Ende; Auswahl folgt dem Fokus
+  document.querySelectorAll<HTMLElement>("[data-manifold]").forEach((m) => {
+    const tabs = [...m.querySelectorAll<HTMLButtonElement>("[data-tab]")];
+    const panels = [...m.querySelectorAll<HTMLElement>("[data-panel]")];
+    const select = (i: number, focus = false) => {
+      tabs.forEach((t, j) => { t.setAttribute("aria-selected", String(i === j)); t.tabIndex = i === j ? 0 : -1; });
+      panels.forEach((p, j) => p.classList.toggle("is-on", i === j));
+      if (focus) tabs[i].focus();
+    };
+    tabs.forEach((t, i) => {
+      t.addEventListener("click", () => select(i));
+      t.addEventListener("keydown", (e) => {
+        const n = tabs.length;
+        const k: Record<string, number> = { ArrowRight: (i + 1) % n, ArrowDown: (i + 1) % n, ArrowLeft: (i - 1 + n) % n, ArrowUp: (i - 1 + n) % n, Home: 0, End: n - 1 };
+        if (e.key in k) { e.preventDefault(); select(k[e.key], true); }
+      });
+    });
+  });
+</script>

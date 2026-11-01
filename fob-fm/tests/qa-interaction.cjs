@@ -12,6 +12,11 @@ let fails = 0; const ok = (c, m) => { console.log(`${c ? "✓" : "✗"} ${m}`); 
   ok(await p.isVisible("[data-pause]"), "Pause-Knopf sichtbar");
   await p.click("[data-pause]");
   ok((await p.getAttribute("[data-pause]", "aria-pressed")) === "true" && (await p.textContent("[data-pause-label]")).includes("fortsetzen"), "Pause hält die Animation an (Zustand + Beschriftung)");
+  // Verteiler: Gewerk per Pfeiltaste wählen
+  await p.focus("[data-tab][aria-selected=true]"); await p.keyboard.press("ArrowRight");
+  ok(await p.evaluate(() => { const t = document.activeElement; const pan = document.getElementById(t.getAttribute("aria-controls")); return t.getAttribute("aria-selected") === "true" && t.id === "tab-elektro" && getComputedStyle(pan).display !== "none" && document.querySelectorAll("[data-panel]:not(.is-on)").length === 5; }), "Verteiler: Pfeiltaste wählt nächstes Gewerk und zeigt dessen Inhalt");
+  await p.keyboard.press("End");
+  ok(await p.evaluate(() => document.activeElement.id === "tab-hausmeister"), "Verteiler: Ende springt zum letzten Gewerk");
   ok(errs.length === 0, "keine Skriptfehler" + (errs.length ? ": " + errs[0] : ""));
   await ctx.close();
 

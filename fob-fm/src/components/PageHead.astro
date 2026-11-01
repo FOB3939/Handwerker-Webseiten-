@@ -1,17 +1,19 @@
 ---
-interface Props { tag?: string; title: string; lead?: string }
-const { tag, title, lead } = Astro.props;
+// Seitenkopf der Unterseiten: große Überschrift auf Putz, abgeschlossen von der Doppelleitung Vorlauf/Rücklauf
+interface Props { title: string; lead?: string }
+const { title, lead } = Astro.props;
 ---
-<section class="phead dark">
+<section class="phead">
   <div class="wrap inner">
-    {tag && <p class="tag">{tag}</p>}
     <h1>{title}</h1>
     {lead && <p class="lead muted">{lead}</p>}
     <slot />
   </div>
+  <div class="pipes" aria-hidden="true"></div>
 </section>
 <style>
-  .phead { border-bottom: 6px solid var(--gold); background: radial-gradient(60% 120% at 90% 0%, #262b31, var(--graphite) 70%); }
-  .inner { display: grid; gap: 18px; justify-items: start; padding-block: clamp(48px, 7vw, 96px); }
-  h1 { font-size: var(--step-4); font-variation-settings: "wdth" 66; text-transform: uppercase; line-height: 0.92; }
+  .phead { background: var(--putz); }
+  .inner { display: grid; gap: 20px; justify-items: start; padding-block: clamp(56px, 8vw, 112px) clamp(40px, 5vw, 64px); }
+  h1 { font-size: var(--step-4); max-width: 14ch; }
+  .lead { max-width: 52ch; }
 </style>

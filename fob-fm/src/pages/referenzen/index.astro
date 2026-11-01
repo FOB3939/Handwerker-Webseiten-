@@ -14,7 +14,7 @@ const items = [
 ] as const;
 ---
 <Base title="Referenzen – FOB Haustechnik Hausmeisterservice" description="Referenzen von FOB Haustechnik: Fassade und Malerarbeiten vorher/nachher, Sanitärmontage, Vinylboden und Holzterrasse." current="/referenzen/">
-  <PageHead tag="Referenzen" title="Aus alt mach neu" lead="Ein Auszug aus unseren Arbeiten. Mehr Projekte zeigen wir regelmäßig auf Instagram." >
+  <PageHead title="Aus alt mach neu" lead="Ein Auszug aus unseren Arbeiten. Mehr Projekte zeigen wir regelmäßig auf Instagram." >
     <a class="btn btn--line" href={COMPANY.instagram} target="_blank" rel="noopener">@fob.haustechnik auf Instagram<span class="visually-hidden"> (öffnet neuen Tab)</span></a>
   </PageHead>
   <section class="section section--tight">
@@ -28,18 +28,22 @@ const items = [
       <ul class="gal">
         {items.map((x) => <li><div class="pic"><Img name={x.img} sizes="(min-width: 900px) 33vw, 100vw" /></div><h3>{x.t}</h3><p class="muted">{x.d}</p></li>)}
       </ul>
-      <div class="btn-row more"><a class="btn btn--gold" href={u("/kontakt/#anfrage")}>Eigenes Projekt anfragen</a></div>
+      <div class="btn-row more"><a class="btn btn--brass" href={u("/kontakt/#anfrage")}>Eigenes Projekt anfragen</a></div>
     </div>
   </section>
 </Base>
 <style>
-  .h { font-size: var(--step-2); text-transform: uppercase; font-variation-settings: "wdth" 70; margin: 12px 0 20px; }
-  .ba-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 20px; align-items: start; margin-bottom: 56px; }
-  .gal { list-style: none; margin: 0; padding: 0; display: grid; grid-template-columns: repeat(3, 1fr); gap: 20px; }
-  .gal li { display: grid; gap: 8px; align-content: start; }
-  .pic { aspect-ratio: 4 / 5; overflow: hidden; border-radius: var(--radius); }
+  .h { font-size: var(--step-3); margin: 8px 0 28px; }
+  .h + .ba-grid { margin-bottom: clamp(64px, 8vw, 112px); }
+  .ba-grid { display: grid; grid-template-columns: 1fr 1.05fr; gap: clamp(16px, 2.5vw, 32px); align-items: start; }
+  .gal { list-style: none; margin: 0; padding: 0; display: grid; grid-template-columns: repeat(6, minmax(0, 1fr)); gap: clamp(16px, 2vw, 24px); }
+  .gal li { display: grid; gap: 8px; align-content: start; grid-column: span 2; }
+  .gal li:nth-child(1), .gal li:nth-child(2) { grid-column: span 3; }
+  .gal h3 { margin-top: 6px; }
+  .pic { aspect-ratio: 4 / 5; overflow: hidden; border-radius: var(--r-photo); }
+  .gal li:nth-child(-n + 2) .pic { aspect-ratio: 4 / 3.4; }
   .pic :global(img) { width: 100%; height: 100%; object-fit: cover; }
-  .more { margin-top: 40px; }
-  @media (max-width: 900px) { .gal { grid-template-columns: 1fr 1fr; } }
+  .more { margin-top: 48px; }
+  @media (max-width: 900px) { .gal { grid-template-columns: 1fr 1fr; } .gal li, .gal li:nth-child(1), .gal li:nth-child(2) { grid-column: auto; } .gal li:nth-child(-n + 2) .pic { aspect-ratio: 4 / 5; } }
   @media (max-width: 700px) { .ba-grid, .gal { grid-template-columns: 1fr; } }
 </style>

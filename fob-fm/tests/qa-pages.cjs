@@ -18,7 +18,6 @@ const WIDTHS = [360, 390, 768, 1024, 1440];
       const vis = (e) => { const r = e.getBoundingClientRect(), s = getComputedStyle(e); return r.width > 0 && r.height > 0 && s.visibility !== "hidden"; };
       const small = [...document.querySelectorAll("a, button, input, select, textarea, summary")].filter(vis).filter((e) => {
         if (e.closest("p, li address") && e.tagName === "A" && getComputedStyle(e).display === "inline") return false; // Fließtext-Links (WCAG-Ausnahme)
-        if (e.closest(".hp")) return false;
         const r = e.getBoundingClientRect(); return r.height < 44 && r.width < 44 || r.height < 24 || r.width < 24;
       }).map((e) => `${e.tagName}:${(e.textContent || e.getAttribute("aria-label") || "").trim().slice(0, 24)}`);
       return {

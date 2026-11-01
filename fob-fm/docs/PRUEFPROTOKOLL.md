@@ -1,3 +1,12 @@
+# Prüfprotokoll Redesign „Strangschema“ (01.11.2026, Vorschau-Build)
+
+| Prüfung | Ergebnis |
+|---|---|
+| `astro check` + Build | 0 Fehler, 8 Seiten |
+| `tests/qa-pages.cjs`: 8 Seiten × 360/390/768/1024/1440 px, Überlauf, axe WCAG 2.2 AA, h1, Meta, Tippflächen, Konsole | 40/40 ohne Befund, interne Links erreichbar |
+| `tests/qa-interaction.cjs`: 3D lädt, Pause-Knopf, Standbild bei reduzierter Bewegung, Verteiler per Pfeiltasten/Ende, Vorher/Nachher per Tastatur, Formular, Förder-Hinweis | bestanden |
+| Behobene Fehler | Überlauf /waermepumpe/ bei 360 px (Förderkasten), Kamera auf schmalen Flächen zu nah, Zeilenumbruch in „30 %“ |
+
 # Prüfprotokoll (26.10.2026, Vorschau-Build)
 
 | Prüfung | Ergebnis |
