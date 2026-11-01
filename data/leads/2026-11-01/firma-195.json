@@ -1,0 +1,410 @@
+{
+  "id": "2026-11-01-195",
+  "slug": "malermeister-michael-grassl-unterschleissheim",
+  "date": "2026-11-01",
+  "company": {
+    "name": "Malermeister Michael Graßl",
+    "owner": "Michael Graßl",
+    "trade": "Malerbetrieb",
+    "city": "Unterschleißheim",
+    "address": "Friedrich-Kanzler-Straße 12, 85716 Unterschleißheim",
+    "phone": "0176 40122659",
+    "email": "michael.grassl@hotmail.com",
+    "serviceArea": [
+      "Unterschleißheim",
+      "Lohhof",
+      "Oberschleißheim",
+      "Garching",
+      "Eching",
+      "Haimhausen",
+      "Hochbrück"
+    ]
+  },
+  "listings": {
+    "google": {
+      "url": "https://www.google.com/maps/search/?api=1&query=Malermeister%20Michael%20Gra%C3%9Fl%20Friedrich-Kanzler-Stra%C3%9Fe%2012%20Unterschlei%C3%9Fheim",
+      "rating": null,
+      "reviews": null,
+      "evidence": "INDIREKT (Spiegel) – lasertagarena-oftersheim.de zeigt „Malermeister Michael Graßl – Friedrich-Kanzler-Straße 12, 85716 Unterschleißheim“ unter einer 19-stelligen Google-Kennung (11486577392481584720), Snippet nennt 41 Bewertungen; malerfinder.de dagegen 5,0 bei 5 Bewertungen – Anzahl widersprüchlich, daher nicht übernommen. In keinem Spiegel-Snippet ein Website-Feld."
+    },
+    "myhammer": {
+      "url": "https://www.11880.com/branchenbuch/unterschleissheim/060693517B107401418/malermeister-michael-grassl.html",
+      "rating": null,
+      "reviews": null,
+      "evidence": "Kein MyHammer gefunden – Eintrag in der 11880-Ortsliste Maler Unterschleißheim (Friedrich-Kanzler-Str. 12, 0176 40122659), außerdem maler.org, malerfinder.de, suchehandwerker.de (mit Hotmail-Adresse)."
+    }
+  },
+  "websiteStatus": "keine eigene Website gefunden",
+  "websiteChecks": [
+    "(1) „Malermeister Michael Graßl Unterschleißheim“ mit blocked_domains (11880, Gelbe Seiten, Das Örtliche, Telefonbuch, Cylex, meinestadt, Creditreform, Facebook, Instagram, golocal, MyHammer, Northdata, Firmenwissen, WKDB, Yelp, trustlocal, wlw) – nur Verzeichnisse (malerfinder, maler.org, suchehandwerker, locale.online, top10place, malerbetrieb.de, micro-images, web-fuer-handwerk, Google-ID-Spiegel); keine eigene Domain",
+    "(2) Domain-Check allowed_domains maler-grassl.de, malermeister-grassl.de, grassl-maler.de, malerbetrieb-grassl.de, michael-grassl.de, grassl-malermeister.de, maler-grassl-unterschleissheim.de, grassl.de – Treffer nur fremder Namensvettern: michael-grassl.de (Bildhauer/Maler Ingolstadt, Kunst am Bau), malerbetrieb-grassl.de (Malerbetrieb Graßl GmbH, Siegenburg), grassl.de (Spedition) – kein Bezug zu Unterschleißheim",
+    "(3) Telefonsuche „0176 40122659“ – von der Suche abgelehnt (keine Ergebnisse); in den Verzeichnissen nur mit Verzeichniseinträgen verknüpft",
+    "(4) Impressum-Suche „Impressum Michael Graßl Malermeister Friedrich-Kanzler-Straße Unterschleißheim“ – kein eigenes Impressum, nur Verzeichnisse",
+    "(5) E-Mail ist Freemail (hotmail.com), keine Firmendomain; kein Website-Feld in den Snippets",
+    "Website-Risiko: mittel – alle Prüfungen negativ, Freemail und Google-Spiegel belegt; Bewertungszahl laut einem Spiegel 41 (Grenzbereich), Telefonsuche nicht ausführbar"
+  ],
+  "facts": {
+    "services": [
+      "Malerarbeiten",
+      "Wärmedämmung"
+    ],
+    "experience": null,
+    "praisedFor": []
+  },
+  "strategy": {
+    "audience": "Mieter, Wohnungseigentümer und Hausbesitzer in Unterschleißheim, Lohhof, Oberschleißheim und Garching, die Räume streichen, renovieren oder die Fassade auffrischen lassen wollen",
+    "mainService": "Malerarbeiten innen und außen",
+    "trustSignal": "Malermeister mit Sitz in Unterschleißheim, direkt per Handy erreichbar",
+    "conversionGoal": "Kostenloses Angebot für Malerarbeiten anfragen (WhatsApp mit Raumfotos)",
+    "visualConcept": "Frisch gestrichene, helle Wohnräume, abgeklebte Kanten, Farbrolle und Farbmuster – ruhig, sauber, wohnlich"
+  },
+  "sales": {
+    "score": 4,
+    "whyGoodLead": [
+      "Keine eigene Website gefunden – nur Verzeichniseinträge",
+      "Mobilnummer öffentlich gelistet – ideal für WhatsApp-Erstkontakt",
+      "Google-Profil mit Bewertungen vorhanden – eine Website macht diese Sichtbarkeit zu Anfragen",
+      "Malermeister im wachsenden Unterschleißheim mit viel Wohnungsbestand"
+    ],
+    "pitch": "Hallo Herr Graßl, hier ist … – ich baue Websites für Handwerker im Münchner Norden. Ich habe Ihren Eintrag als Malermeister in Unterschleißheim gefunden, aber keine eigene Website. Ich habe unverbindlich einen Entwurf vorbereitet, über den Kunden Ihre Malerarbeiten sehen und direkt per WhatsApp anfragen können – darf ich Ihnen den Link schicken?"
+  },
+  "manualChecks": [
+    "Website-Risiko: mittel – vor Versand in Google Maps prüfen, dass keine Website hinterlegt ist (Grund: Google-Eintrag nur über Spiegelseite belegt, Telefonsuche nicht ausführbar)",
+    "Bewertungsanzahl in Maps prüfen: ein Spiegel nennt 41, malerfinder.de 5 – bei deutlich über 40 Bewertungen Lead neu bewerten",
+    "Namensvettern mit Website (michael-grassl.de = Bildhauer Ingolstadt, malerbetrieb-grassl.de = GmbH Siegenburg) sind andere Betriebe – nicht verwechseln",
+    "Leistungen nur grob belegt (Malerarbeiten, Wärmedämmung laut maler.org) – Fassade, Tapezieren, Lackieren beim Betrieb bestätigen",
+    "Meistertitel aus dem Firmennamen „Malermeister Michael Graßl“ – weitere Angaben (Jahre, Team) nicht belegt",
+    "Logo und Projektfotos: nicht gefunden – beim Betrieb anfragen"
+  ],
+  "sources": [
+    {
+      "label": "11880 – Malermeister Michael Graßl Unterschleißheim",
+      "url": "https://www.11880.com/branchenbuch/unterschleissheim/060693517B107401418/malermeister-michael-grassl.html"
+    },
+    {
+      "label": "11880 – Maler Unterschleißheim (Ortsliste)",
+      "url": "https://www.11880.com/suche/maler/unterschleissheim"
+    },
+    {
+      "label": "Google-ID-Spiegel – Malermeister Michael Graßl, Friedrich-Kanzler-Straße 12",
+      "url": "https://lasertagarena-oftersheim.de/11486577392481584720/"
+    },
+    {
+      "label": "malerfinder.de – Malermeister Michael Graßl",
+      "url": "https://malerfinder.de/unterschleissheim/6200-malermeister-michael-grassl"
+    },
+    {
+      "label": "maler.org – Michael Graßl Malermeister",
+      "url": "https://www.maler.org/unterschleissheim/michael-grassl-malermeister-aUPibA"
+    },
+    {
+      "label": "suchehandwerker.de – Malermeister Michael Graßl (mit Hotmail-Adresse)",
+      "url": "https://suchehandwerker.de/betrieb/malermeister-michael-grassl-241822/"
+    }
+  ],
+  "site": {
+    "theme": "atelier",
+    "category": "handwerk",
+    "heroOffer": [
+      "Innenanstrich",
+      "Fassade",
+      "Renovierung",
+      "Lackieren",
+      "Dämmung"
+    ],
+    "scene": "paint",
+    "logoIcon": "roller",
+    "logoMark": "MG",
+    "brandName": "Malermeister Graßl",
+    "seoTitle": "Malermeister in Unterschleißheim – Michael Graßl",
+    "seoDescription": "Malerarbeiten innen und außen in Unterschleißheim, Lohhof, Oberschleißheim und Garching. Jetzt kostenloses Angebot anfragen – auch per WhatsApp.",
+    "nav": [
+      {
+        "label": "Leistungen",
+        "href": "#leistungen"
+      },
+      {
+        "label": "Projekte",
+        "href": "#projekte"
+      },
+      {
+        "label": "Bewertungen",
+        "href": "#bewertungen"
+      },
+      {
+        "label": "Ablauf",
+        "href": "#ablauf"
+      },
+      {
+        "label": "FAQ",
+        "href": "#faq"
+      },
+      {
+        "label": "Kontakt",
+        "href": "#kontakt"
+      }
+    ],
+    "hero": {
+      "eyebrow": "Malermeister · Unterschleißheim",
+      "headline": "Ihr Malermeister in Unterschleißheim",
+      "sub": "Frische Wände, gepflegte Fassaden – für Unterschleißheim, Lohhof und den Münchner Norden.",
+      "ctaPrimary": "Kostenloses Angebot anfragen",
+      "ctaSecondary": "Anrufen",
+      "bullets": [
+        "Malermeister aus Unterschleißheim",
+        "Innen- und Außenarbeiten",
+        "Direkt per Handy erreichbar"
+      ],
+      "imageLabel": "frisch gestrichenes Wohnzimmer mit abgeklebten Kanten und Farbrolle"
+    },
+    "badges": [
+      {
+        "title": "Malermeister",
+        "sub": "Michael Graßl"
+      },
+      {
+        "title": "Innenräume",
+        "sub": "Wände & Decken"
+      },
+      {
+        "title": "Außen",
+        "sub": "Fassade & Dämmung"
+      },
+      {
+        "title": "Unterschleißheim",
+        "sub": "Friedrich-Kanzler-Straße"
+      }
+    ],
+    "trust": [
+      {
+        "value": "Meister",
+        "label": "Malermeister als Inhaber"
+      },
+      {
+        "value": "Vor Ort",
+        "label": "Betrieb in Unterschleißheim"
+      },
+      {
+        "value": "Innen + außen",
+        "label": "Malerarbeiten"
+      },
+      {
+        "value": "Mobil",
+        "label": "schnell erreichbar"
+      }
+    ],
+    "servicesIntro": {
+      "headline": "Malerarbeiten für Wohnung, Haus und Fassade",
+      "text": "Ob ein Zimmer vor dem Einzug oder die ganze Wohnung nach dem Auszug: Der Malermeister plant mit Ihnen Farbe, Untergrund und Ablauf."
+    },
+    "services": [
+      {
+        "title": "Innenanstrich",
+        "text": "Wände und Decken werden vorbereitet, abgeklebt und sauber gestrichen – Möbel und Böden bleiben geschützt.",
+        "items": [
+          "Wände",
+          "Decken",
+          "Abdecken & Abkleben"
+        ]
+      },
+      {
+        "title": "Renovierung",
+        "text": "Vor dem Einzug oder nach dem Auszug: Räume werden ausgebessert und wieder bezugsfertig gestrichen.",
+        "items": [
+          "Auszugsrenovierung",
+          "Ausbessern",
+          "Bezugsfertig"
+        ]
+      },
+      {
+        "title": "Untergrund vorbereiten",
+        "text": "Risse und Löcher werden gespachtelt und geschliffen, damit der Anstrich lange hält.",
+        "items": [
+          "Spachteln",
+          "Schleifen",
+          "Grundieren"
+        ]
+      },
+      {
+        "title": "Lackierarbeiten",
+        "text": "Türen, Heizkörper und Fensterrahmen erhalten einen frischen, widerstandsfähigen Lack.",
+        "items": [
+          "Türen",
+          "Heizkörper",
+          "Fensterrahmen"
+        ]
+      },
+      {
+        "title": "Fassadenanstrich",
+        "text": "Ein neuer Anstrich schützt die Fassade vor Witterung und lässt das Haus wieder gepflegt aussehen.",
+        "items": [
+          "Fassade reinigen",
+          "Grundieren",
+          "Streichen"
+        ]
+      },
+      {
+        "title": "Wärmedämmung",
+        "text": "Dämmarbeiten an der Fassade senken den Wärmeverlust – Umfang und System stimmen Sie vor Ort ab.",
+        "items": [
+          "Fassadendämmung",
+          "Beratung vor Ort",
+          "Abschlussanstrich"
+        ]
+      }
+    ],
+    "why": {
+      "headline": "Malerarbeiten aus Unterschleißheim – vom Meister selbst.",
+      "points": [
+        {
+          "title": "Meister als Ansprechpartner",
+          "text": "Sie planen Ihr Vorhaben direkt mit Malermeister Michael Graßl."
+        },
+        {
+          "title": "Kurze Wege",
+          "text": "Der Betrieb sitzt in Unterschleißheim und ist schnell in Lohhof, Oberschleißheim und Garching."
+        },
+        {
+          "title": "Geschützte Räume",
+          "text": "Böden und Möbel werden vor dem Streichen abgedeckt, die Kanten sauber abgeklebt."
+        },
+        {
+          "title": "Fotos genügen",
+          "text": "Für eine erste Einschätzung reichen ein paar Fotos per WhatsApp."
+        }
+      ]
+    },
+    "reviews": {
+      "headline": "Was Kunden sagen",
+      "summary": "Kundenstimmen werden hier eingebunden, sobald sie aus dem Google-Profil übernommen sind.",
+      "highlights": [
+        "Malermeister in Unterschleißheim",
+        "Innen- und Außenarbeiten",
+        "Direkter Kontakt"
+      ],
+      "source": "Google",
+      "sourceUrl": "https://www.google.com/maps/search/?api=1&query=Malermeister%20Michael%20Gra%C3%9Fl%20Friedrich-Kanzler-Stra%C3%9Fe%2012%20Unterschlei%C3%9Fheim",
+      "rating": null,
+      "count": null
+    },
+    "process": {
+      "headline": "In vier Schritten zu frischen Wänden",
+      "steps": [
+        {
+          "title": "Fotos schicken",
+          "text": "Raum oder Fassade fotografieren und per WhatsApp senden – oder kurz anrufen."
+        },
+        {
+          "title": "Besichtigung",
+          "text": "Untergrund, Farbton und Umfang werden vor Ort besprochen."
+        },
+        {
+          "title": "Angebot",
+          "text": "Sie erhalten ein schriftliches Angebot für Ihr Vorhaben."
+        },
+        {
+          "title": "Streichen",
+          "text": "Abdecken, vorbereiten, streichen – und die Räume sauber übergeben."
+        }
+      ]
+    },
+    "gallery": {
+      "headline": "Frisch gestrichen",
+      "text": "Für die Live-Version zeigen wir hier echte Projekte des Betriebs.",
+      "items": [
+        {
+          "title": "Wohnzimmer",
+          "photoNeeded": "frisch gestrichenes Wohnzimmer in hellem Farbton"
+        },
+        {
+          "title": "Treppenhaus",
+          "photoNeeded": "renoviertes Treppenhaus mit sauberen Kanten"
+        },
+        {
+          "title": "Lackierte Türen",
+          "photoNeeded": "frisch lackierte Zimmertür mit Zarge"
+        },
+        {
+          "title": "Fassade",
+          "photoNeeded": "Einfamilienhaus mit neuem Fassadenanstrich"
+        },
+        {
+          "title": "Vorbereitung",
+          "photoNeeded": "abgeklebter Raum mit abgedecktem Boden"
+        }
+      ]
+    },
+    "region": {
+      "headline": "Malerarbeiten für Unterschleißheim und den Münchner Norden",
+      "text": "Von Unterschleißheim aus schnell in Lohhof, Oberschleißheim, Garching, Hochbrück, Eching und Haimhausen.",
+      "places": [
+        "Unterschleißheim",
+        "Lohhof",
+        "Oberschleißheim",
+        "Garching",
+        "Hochbrück",
+        "Eching",
+        "Haimhausen"
+      ]
+    },
+    "faq": [
+      {
+        "q": "Streichen Sie auch einzelne Zimmer?",
+        "a": "Ja, vom einzelnen Raum bis zur ganzen Wohnung – fragen Sie einfach an."
+      },
+      {
+        "q": "Muss ich die Möbel selbst wegräumen?",
+        "a": "Das klären wir bei der Besichtigung. Möbel und Böden werden vor dem Streichen abgedeckt."
+      },
+      {
+        "q": "Kann ich vorab Fotos schicken?",
+        "a": "Ja, Fotos per WhatsApp helfen für eine erste Einschätzung."
+      },
+      {
+        "q": "Übernehmen Sie auch Außenarbeiten?",
+        "a": "Ja, neben Innenräumen auch Fassade und Dämmung – Details nach Absprache."
+      },
+      {
+        "q": "In welchen Orten arbeiten Sie?",
+        "a": "In Unterschleißheim und Umgebung, etwa Lohhof, Oberschleißheim und Garching."
+      }
+    ],
+    "contact": {
+      "headline": "Ihr Angebot – kostenlos und unverbindlich",
+      "text": "Beschreiben Sie kurz Ihr Vorhaben: welche Räume oder Flächen, ungefähre Größe und Wunschfarbe. Fotos helfen.",
+      "topics": [
+        "Innenanstrich",
+        "Renovierung",
+        "Lackierarbeiten",
+        "Fassade",
+        "Sonstiges"
+      ],
+      "responseNote": "Besichtigung nach Absprache."
+    },
+    "quote": {
+      "sizeLabel": "Was soll gestrichen werden?",
+      "sizes": [
+        "Ein Zimmer",
+        "Ganze Wohnung",
+        "Treppenhaus",
+        "Fassade"
+      ],
+      "timings": [
+        "So bald wie möglich",
+        "In den nächsten Wochen",
+        "In 1–3 Monaten",
+        "Ich plane erst noch"
+      ]
+    },
+    "stickyCta": "Angebot anfragen",
+    "look": {
+      "palette": 2,
+      "font": 6,
+      "hero": 0,
+      "services": 1,
+      "radius": 1,
+      "logo": 0,
+      "intro": 5
+    }
+  }
+}
