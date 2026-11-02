@@ -1,0 +1,393 @@
+{
+  "id": "2026-11-02-194",
+  "slug": "karl-dennhoefer-gartenarbeiten-pliening",
+  "date": "2026-11-02",
+  "company": {
+    "name": "Karl Dennhöfer Gartenarbeiten & Zaunanlagen",
+    "owner": "Karl Dennhöfer",
+    "trade": "Gartenarbeiten & Zaunbau",
+    "city": "Pliening",
+    "address": "Ludwigstr. 15, 85652 Pliening",
+    "phone": "08121 71591",
+    "email": null,
+    "serviceArea": [
+      "Pliening",
+      "Gelting",
+      "Landsham",
+      "Poing",
+      "Kirchheim",
+      "Markt Schwaben",
+      "Feldkirchen"
+    ]
+  },
+  "listings": {
+    "google": {
+      "url": "https://www.google.com/maps/search/?api=1&query=Karl%20Dennh%C3%B6fer%20Gartenarbeiten%20Ludwigstr.%2015%20Pliening",
+      "rating": null,
+      "reviews": null,
+      "evidence": "NICHT BELEGT – kein Google-Spiegel (trustlocal, firmania, rgv-bayern) zu Dennhöfer in Pliening gefunden. stadtbranchenbuch.com meldet „noch keine Bewertungen“. In Google Maps prüfen."
+    },
+    "myhammer": {
+      "url": "https://klicktel.de/branchenbuch/pliening/170211840B27824604/dennhoefer-karl-gartenarbeiten-zaunanl.html",
+      "rating": null,
+      "reviews": null,
+      "evidence": "Kein MyHammer gefunden – Einträge bei klicktel („Dennhöfer Karl Gartenarbeiten ZaunAnl.“, Tel. 08121 71591) und stadtbranchenbuch.com (Ludwigstr. 15, Kategorie Garten- und Landschaftsbau/Gartenbau, aktualisiert 02.10.2026)."
+    }
+  },
+  "websiteStatus": "keine eigene Website gefunden",
+  "websiteChecks": [
+    "(1) Namenssuche „Dennhöfer Pliening Garten“ – kein Treffer zum Betrieb, keine Domain (nur Ortsinfos Pliening, anderer Gartenbauer Müß)",
+    "(2) Telefon-/Namenssuche „08121 71591“/„0812171591“/„Dennhöfer“ Gartenarbeiten Zaunbau mit blocked_domains (11880, Gelbe Seiten, Das Örtliche, Telefonbuch, Cylex, meinestadt, Creditreform, Facebook, Instagram, golocal, MyHammer, Northdata, Firmenwissen, WKDB, Yelp, wlw) – nur klicktel und stadtbranchenbuch.com, keine Website",
+    "(3) Domain-Check allowed_domains dennhoefer.de, dennhoefer-garten.de, dennhoefer-gartenbau.de, gartenbau-dennhoefer.de, dennhoefer-zaunbau.de, garten-dennhoefer.de, dennhoefer.com, karl-dennhoefer.de – keine Treffer",
+    "(4) Impressum-Suche „Impressum Karl Dennhöfer Ludwigstr Pliening“ – kein eigenes Impressum (nur Gemeinde Pliening, andere Firmen an der Ludwigstraße)",
+    "(5) Google-Spiegel trustlocal/firmania/rgv-bayern nach „Dennhöfer“ – nur fremde Firma Heinrich Dennhöfer Bauunternehmung (Emden, Niedersachsen), kein Bezug",
+    "Website-Risiko: niedrig – alle Prüfungen negativ; aber weder Google-Eintrag noch Freemail belegt (RESERVE)"
+  ],
+  "facts": {
+    "services": [
+      "Gartenarbeiten",
+      "Zaunanlagen",
+      "Garten- und Landschaftsbau"
+    ],
+    "experience": null,
+    "praisedFor": []
+  },
+  "strategy": {
+    "audience": "Hausbesitzer mit Garten in Pliening, Gelting, Landsham, Poing und Kirchheim, die Hilfe bei Gartenpflege oder einen neuen Zaun brauchen",
+    "mainService": "Gartenarbeiten und Zaunbau",
+    "trustSignal": "Inhabergeführt mit Namen Karl Dennhöfer, Adresse in Pliening, Festnetznummer im Ort",
+    "conversionGoal": "Anruf oder Anfrage mit Fotos für Gartenarbeiten oder Zaunbau",
+    "visualConcept": "Gepflegte Gärten im Münchner Osten: frisch geschnittene Hecken, gerade Zaunlinien, Holz- und Metallzaun vor Rasenflächen"
+  },
+  "sales": {
+    "score": 3,
+    "whyGoodLead": [
+      "Keine eigene Website gefunden – nur zwei Verzeichniseinträge",
+      "Inhaber namentlich bekannt (Karl Dennhöfer)",
+      "Zaunbau und Gartenarbeiten sind saisonal gefragt – Website mit Anfrageformular bringt Vorlauf für das Frühjahr",
+      "Verzeichniseintrag erst am 02.10.2026 aktualisiert – Betrieb vermutlich aktiv"
+    ],
+    "pitch": "Grüß Gott Herr Dennhöfer, hier ist … – ich baue Websites für Handwerksbetriebe im Münchner Osten. Ich habe Ihren Eintrag für Gartenarbeiten und Zaunanlagen in Pliening gefunden, aber keine eigene Website. Ich habe unverbindlich einen Entwurf vorbereitet, über den Kunden aus Pliening und Poing Gartenarbeiten und Zäune direkt bei Ihnen anfragen können – darf ich Ihnen den Link schicken?"
+  },
+  "manualChecks": [
+    "RESERVE – weder Google-Eintrag noch Freemail-Adresse belegt: NUR versenden, wenn Google Maps einen Eintrag OHNE Website zeigt.",
+    "Nur Festnetz (08121 71591) – kein WhatsApp-Erstkontakt möglich; Anruf oder Brief",
+    "Aktivität prüfen: Betrieb nur über Verzeichnisse belegt, keine Bewertungen",
+    "Leistungen nur grob belegt (Gartenarbeiten, Zaunanlagen, Kategorie Garten- und Landschaftsbau) – Detailleistungen (Heckenschnitt, Pflaster, Zaunmaterialien) beim Betrieb bestätigen",
+    "Logo und Projektfotos: nicht gefunden – beim Betrieb anfragen"
+  ],
+  "sources": [
+    {
+      "label": "klicktel – Dennhöfer Karl Gartenarbeiten ZaunAnl., Pliening",
+      "url": "https://klicktel.de/branchenbuch/pliening/170211840B27824604/dennhoefer-karl-gartenarbeiten-zaunanl.html"
+    },
+    {
+      "label": "stadtbranchenbuch – Karl Dennhöfer Gartenbau, Ludwigstr. 15, Pliening",
+      "url": "https://pliening.stadtbranchenbuch.com/408405.html"
+    }
+  ],
+  "site": {
+    "theme": "garten",
+    "category": "handwerk",
+    "heroOffer": [
+      "Gartenpflege",
+      "Zaunbau",
+      "Heckenschnitt",
+      "Gartengestaltung"
+    ],
+    "scene": "garden",
+    "logoIcon": "leaf",
+    "logoMark": "KD",
+    "brandName": "Dennhöfer Garten & Zaun",
+    "seoTitle": "Gartenarbeiten & Zaunbau in Pliening – Karl Dennhöfer",
+    "seoDescription": "Gartenarbeiten und Zaunanlagen in Pliening, Poing und Kirchheim. Karl Dennhöfer kümmert sich um Garten und Zaun – jetzt anfragen.",
+    "nav": [
+      {
+        "label": "Leistungen",
+        "href": "#leistungen"
+      },
+      {
+        "label": "Projekte",
+        "href": "#projekte"
+      },
+      {
+        "label": "Bewertungen",
+        "href": "#bewertungen"
+      },
+      {
+        "label": "Ablauf",
+        "href": "#ablauf"
+      },
+      {
+        "label": "FAQ",
+        "href": "#faq"
+      },
+      {
+        "label": "Kontakt",
+        "href": "#kontakt"
+      }
+    ],
+    "hero": {
+      "eyebrow": "Gartenarbeiten · Zaunbau · Pliening",
+      "headline": "Garten und Zaun aus Pliening",
+      "sub": "Karl Dennhöfer pflegt Gärten und setzt Zäune im Münchner Osten.",
+      "ctaPrimary": "Gartenarbeit anfragen",
+      "ctaSecondary": "Anrufen",
+      "bullets": [
+        "Inhaber Karl Dennhöfer",
+        "Gartenpflege und Zaunanlagen",
+        "Sitz in der Ludwigstraße, Pliening"
+      ],
+      "imageLabel": "gepflegter Garten mit neuem Holzzaun"
+    },
+    "badges": [
+      {
+        "title": "Gartenarbeiten",
+        "sub": "Pflege übers Jahr"
+      },
+      {
+        "title": "Zaunanlagen",
+        "sub": "neu und ersetzt"
+      },
+      {
+        "title": "Inhabergeführt",
+        "sub": "Karl Dennhöfer"
+      },
+      {
+        "title": "Pliening",
+        "sub": "Ludwigstraße 15"
+      }
+    ],
+    "trust": [
+      {
+        "value": "Pliening",
+        "label": "Betrieb vor Ort"
+      },
+      {
+        "value": "2",
+        "label": "Schwerpunkte: Garten & Zaun"
+      },
+      {
+        "value": "Inhaber",
+        "label": "persönlich am Telefon"
+      },
+      {
+        "value": "Ost",
+        "label": "Lkr. Ebersberg & München"
+      }
+    ],
+    "servicesIntro": {
+      "headline": "Was im Garten ansteht – und was ihn begrenzt",
+      "text": "Von der Hecke bis zum Zaunpfosten: Karl Dennhöfer übernimmt Arbeiten im Garten und baut Zaunanlagen rund um Pliening."
+    },
+    "services": [
+      {
+        "title": "Gartenpflege",
+        "text": "Rasen, Beete und Wege bleiben ordentlich – einmalig oder regelmäßig.",
+        "items": [
+          "Rasenpflege",
+          "Beete",
+          "Laub"
+        ]
+      },
+      {
+        "title": "Heckenschnitt",
+        "text": "Hecken und Sträucher werden in Form gebracht und der Schnitt entsorgt.",
+        "items": [
+          "Hecken",
+          "Sträucher",
+          "Grünschnitt"
+        ]
+      },
+      {
+        "title": "Zaunbau",
+        "text": "Neue Zaunanlagen um Grundstück und Garten – vom Pfosten bis zum letzten Feld.",
+        "items": [
+          "Neue Zäune",
+          "Pfosten setzen",
+          "Gartentore"
+        ]
+      },
+      {
+        "title": "Zaun erneuern",
+        "text": "Morsche oder schiefe Zäune werden abgebaut und durch neue ersetzt.",
+        "items": [
+          "Abbau",
+          "Ersatz",
+          "Ausbesserung"
+        ]
+      },
+      {
+        "title": "Gartenumgestaltung",
+        "text": "Bereiche im Garten neu ordnen, etwa für Beete, Wege oder Sitzplätze.",
+        "items": [
+          "Neue Beete",
+          "Wege",
+          "Flächen"
+        ]
+      },
+      {
+        "title": "Saisonarbeiten",
+        "text": "Frühjahrsputz und Herbstarbeiten, damit der Garten gut durchs Jahr kommt.",
+        "items": [
+          "Frühjahr",
+          "Herbst",
+          "Winterfest"
+        ]
+      }
+    ],
+    "why": {
+      "headline": "Ein Ansprechpartner für Garten und Zaun.",
+      "points": [
+        {
+          "title": "Kurze Wege",
+          "text": "Von Pliening ist Karl Dennhöfer schnell in Gelting, Landsham, Poing und Kirchheim."
+        },
+        {
+          "title": "Inhaber am Telefon",
+          "text": "Sie sprechen direkt mit dem Mann, der die Arbeit macht."
+        },
+        {
+          "title": "Garten und Zaun",
+          "text": "Gartenpflege und neue Zäune aus einer Hand – ein Termin statt zwei Firmen."
+        },
+        {
+          "title": "Klare Absprache",
+          "text": "Umfang und Termin werden vor Ort besprochen, bevor es losgeht."
+        }
+      ]
+    },
+    "reviews": {
+      "headline": "Was Kunden sagen",
+      "summary": "Kundenstimmen werden hier eingebunden, sobald sie aus dem Google-Profil übernommen sind.",
+      "highlights": [
+        "Gartenarbeiten in Pliening",
+        "Zaunbau",
+        "Direkter Kontakt zum Inhaber"
+      ],
+      "source": "Google",
+      "sourceUrl": "https://www.google.com/maps/search/?api=1&query=Karl%20Dennh%C3%B6fer%20Gartenarbeiten%20Ludwigstr.%2015%20Pliening",
+      "rating": null,
+      "count": null
+    },
+    "process": {
+      "headline": "So kommt Ihr Garten in Ordnung",
+      "steps": [
+        {
+          "title": "Anruf",
+          "text": "Kurz schildern, was im Garten ansteht oder welcher Zaun gebraucht wird."
+        },
+        {
+          "title": "Ortstermin",
+          "text": "Garten und Zaunverlauf werden gemeinsam angeschaut."
+        },
+        {
+          "title": "Angebot",
+          "text": "Sie erhalten ein Angebot mit Umfang und Termin."
+        },
+        {
+          "title": "Ausführung",
+          "text": "Die Arbeiten werden erledigt, Grünschnitt und Reste kommen mit."
+        }
+      ]
+    },
+    "gallery": {
+      "headline": "Gärten und Zäune rund um Pliening",
+      "text": "Für die Live-Version zeigen wir hier echte Arbeiten des Betriebs.",
+      "items": [
+        {
+          "title": "Neuer Holzzaun",
+          "photoNeeded": "frisch gesetzter Holzzaun an einem Einfamilienhaus"
+        },
+        {
+          "title": "Geschnittene Hecke",
+          "photoNeeded": "Hecke vor und nach dem Schnitt"
+        },
+        {
+          "title": "Gartentor",
+          "photoNeeded": "neues Gartentor mit Pfosten"
+        },
+        {
+          "title": "Gepflegter Rasen",
+          "photoNeeded": "gemähter Rasen mit sauberen Kanten"
+        },
+        {
+          "title": "Neue Beete",
+          "photoNeeded": "frisch angelegtes Beet im Garten"
+        }
+      ]
+    },
+    "region": {
+      "headline": "Unterwegs in Pliening und im Münchner Osten",
+      "text": "Von der Ludwigstraße in Pliening aus fährt Karl Dennhöfer zu Gärten in Gelting, Landsham, Poing, Kirchheim, Markt Schwaben und Feldkirchen.",
+      "places": [
+        "Pliening",
+        "Gelting",
+        "Landsham",
+        "Poing",
+        "Kirchheim",
+        "Markt Schwaben",
+        "Feldkirchen"
+      ]
+    },
+    "faq": [
+      {
+        "q": "Übernehmen Sie auch einmalige Gartenarbeiten?",
+        "a": "Ja, fragen Sie einfach an – Umfang und Termin werden vorab besprochen."
+      },
+      {
+        "q": "Welche Zäune bauen Sie?",
+        "a": "Das hängt von Grundstück und Wunsch ab. Material und Ausführung werden beim Ortstermin abgestimmt."
+      },
+      {
+        "q": "Wird der alte Zaun mitgenommen?",
+        "a": "Das klären wir im Angebot – Abbau und Entsorgung können mit vereinbart werden."
+      },
+      {
+        "q": "Arbeiten Sie auch außerhalb von Pliening?",
+        "a": "Ja, im Umkreis von Pliening, etwa in Poing, Kirchheim und Markt Schwaben."
+      },
+      {
+        "q": "Wie erreiche ich Sie am besten?",
+        "a": "Am schnellsten telefonisch unter 08121 71591."
+      }
+    ],
+    "contact": {
+      "headline": "Gartenarbeit oder Zaun anfragen",
+      "text": "Beschreiben Sie kurz, was ansteht: Pflege, Heckenschnitt oder neuer Zaun – mit ungefährer Länge oder Fläche.",
+      "topics": [
+        "Gartenpflege",
+        "Heckenschnitt",
+        "Zaunbau",
+        "Zaun erneuern",
+        "Sonstiges"
+      ],
+      "responseNote": "Ortstermin nach Absprache."
+    },
+    "quote": {
+      "sizeLabel": "Worum geht es?",
+      "sizes": [
+        "Kleiner Garten",
+        "Großer Garten",
+        "Zaun bis 20 m",
+        "Zaun über 20 m"
+      ],
+      "timings": [
+        "So bald wie möglich",
+        "In den nächsten Wochen",
+        "Zum Frühjahr",
+        "Ich plane erst noch"
+      ]
+    },
+    "stickyCta": "Jetzt anfragen",
+    "look": {
+      "palette": 2,
+      "font": 6,
+      "hero": 0,
+      "services": 1,
+      "radius": 1,
+      "logo": 0,
+      "intro": 5
+    }
+  }
+}

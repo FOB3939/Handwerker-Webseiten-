@@ -1,0 +1,405 @@
+{
+  "id": "2026-11-02-203",
+  "slug": "bradl-heizung-sanitaer-odelzhausen",
+  "date": "2026-11-02",
+  "company": {
+    "name": "Lorenz Bradl Heizung Sanitär",
+    "owner": "Lorenz Bradl",
+    "trade": "Sanitär & Heizung",
+    "city": "Odelzhausen",
+    "address": "Roßbach Str. 19, 85235 Odelzhausen",
+    "phone": "08134 355",
+    "email": null,
+    "serviceArea": [
+      "Odelzhausen",
+      "Roßbach",
+      "Sulzemoos",
+      "Pfaffenhofen an der Glonn",
+      "Erdweg",
+      "Egenhofen",
+      "Schwabhausen"
+    ]
+  },
+  "listings": {
+    "google": {
+      "url": "https://www.google.com/maps/search/?api=1&query=Lorenz%20Bradl%20Heizung%20Sanit%C3%A4r%20Ro%C3%9Fbach%20Str.%2019%20Odelzhausen",
+      "rating": null,
+      "reviews": null,
+      "evidence": "NICHT BELEGT – kein Google-Spiegel (rgv-bayern, firmania, trustlocal) gefunden. Ein Verzeichnis zeigt ein werkenntdenBESTEN-Siegel „Sehr gut“, ein anderes „noch keine Bewertungen“ – Bewertungsanzahl unbekannt. In Google Maps prüfen."
+    },
+    "myhammer": {
+      "url": "https://www.11880.com/branchenbuch/odelzhausen/060692320B28262943/lorenz-bradl-heizung-sanitaer.html",
+      "rating": null,
+      "reviews": null,
+      "evidence": "Kein MyHammer gefunden – 11880-Eintrag „Lorenz Bradl Heizung Sanitär“ (Roßbach Str. 19, Odelzhausen, Tel. 08134 355; Heizungsinstallation, Sanitärinstallation, Klempnerarbeiten), außerdem branchenbuchdeutschland, klicktel, goyellow, oeffnungszeitenbuch, finde-offen."
+    }
+  },
+  "websiteStatus": "keine eigene Website gefunden",
+  "websiteChecks": [
+    "(1) „Lorenz Bradl Heizung Sanitär Odelzhausen“ mit blocked_domains (11880, Gelbe Seiten, Das Örtliche, Telefonbuch, Cylex, meinestadt, Creditreform, Facebook, Instagram, golocal, MyHammer, Northdata, Firmenwissen, WKDB, Yelp, trustlocal, wlw) – nur Verzeichnisse (branchenbuchdeutschland, klicktel, goyellow, oeffnungszeitenbuch, finde-offen, viermalw, starofservice); keine eigene Domain, kein Website-Feld in den Snippets",
+    "(2) Domain-Check allowed_domains bradl-heizung.de, heizung-bradl.de, bradl-sanitaer.de, bradl-odelzhausen.de, lorenz-bradl.de, bradl-haustechnik.de, bradl-shk.de, bradl.de – keine Treffer",
+    "(3) Telefonsuche „08134 355“/„08134355“ + Bradl – keine Treffer",
+    "(4) Google-Spiegel-Suche (trustlocal, firmania, rgv-bayern, heizungsbau.net) – Betrieb nicht gelistet; keine E-Mail (auch keine Freemail) gefunden",
+    "(5) Impressum-Suche nicht durchgeführt (Suchbudget erschöpft) – vor Versand nachholen",
+    "Website-Risiko: mittel – Prüfungen (1)–(4) negativ, aber weder Google-Eintrag noch Freemail belegt (RESERVE)"
+  ],
+  "facts": {
+    "services": [
+      "Heizungsinstallation",
+      "Sanitärinstallation",
+      "Klempnerarbeiten",
+      "Gas- und Wasserinstallation"
+    ],
+    "experience": null,
+    "praisedFor": []
+  },
+  "strategy": {
+    "audience": "Hausbesitzer in Odelzhausen, Sulzemoos, Pfaffenhofen a. d. Glonn und Erdweg mit Heizungstausch, Badumbau oder Wasserschaden",
+    "mainService": "Heizung und Sanitär – Installation, Austausch und Reparatur",
+    "trustSignal": "Inhabergeführter Installateur im Odelzhausener Ortsteil Roßbach",
+    "conversionGoal": "Anruf oder Anfrage für Heizungs- und Sanitärarbeiten",
+    "visualConcept": "Saubere Technikästhetik: Kupferrohre, aufgeräumter Heizungskeller, helles Bad mit neuer Armatur"
+  },
+  "sales": {
+    "score": 3,
+    "whyGoodLead": [
+      "Keine eigene Website gefunden – nur ältere Verzeichniseinträge",
+      "Sanitär/Heizung bisher selten unter den Leads",
+      "Heizungstausch und Badsanierung sind stark nachgefragt – Website fängt Anfragen ab",
+      "Keine Online-Bewertungen sichtbar"
+    ],
+    "pitch": "Grüß Gott Herr Bradl, hier ist … – ich baue Websites für Handwerksbetriebe im Landkreis Dachau. Ich habe Ihren Betrieb in Roßbach in Branchenbüchern gefunden, aber keine eigene Website. Ich habe unverbindlich einen Entwurf vorbereitet, auf dem Kunden Heizung und Sanitär bei Ihnen direkt anfragen können – darf ich Ihnen den Link schicken?"
+  },
+  "manualChecks": [
+    "RESERVE – weder Google-Eintrag noch Freemail-Adresse belegt: NUR versenden, wenn Google Maps einen Eintrag OHNE Website zeigt.",
+    "Website-Risiko: mittel – vor Versand in Google Maps prüfen, dass keine Website hinterlegt ist (Grund: kein Google-Spiegel, keine Freemail, Impressum-Suche nicht durchgeführt)",
+    "Betrieb noch aktiv? Einträge teils von 2022, einer aktualisiert Juni 2026 – vor Kontakt anrufen bzw. Maps prüfen; nur Festnetz 08134 355 bekannt, keine Mobilnummer",
+    "Werkenntdenbesten-Siegel „Sehr gut“ laut Verzeichnis – Bewertungen nicht verifiziert, daher nicht übernommen",
+    "Leistungen aus Verzeichnissen (Heizung, Sanitär, Klempnerei, Gas/Wasser) – Wärmepumpe, Badsanierung, Notdienst nicht belegt, beim Betrieb klären",
+    "Logo und Projektfotos: nicht gefunden – beim Betrieb anfragen"
+  ],
+  "sources": [
+    {
+      "label": "11880 – Lorenz Bradl Heizung Sanitär, Odelzhausen",
+      "url": "https://www.11880.com/branchenbuch/odelzhausen/060692320B28262943/lorenz-bradl-heizung-sanitaer.html"
+    },
+    {
+      "label": "Branchenbuch Deutschland – Lorenz Bradl Heizung Sanitär",
+      "url": "https://www.branchenbuchdeutschland.de/branchenbuch/eintrag/lorenz-bradl-heizung-sanitaer-odelzhausen-71954292.html"
+    },
+    {
+      "label": "goyellow – Bradl Lorenz Heizung Sanitär",
+      "url": "https://www.goyellow.de/home/sanitaerinstallation-heizungsinstallation-bradl-odelzhausen-rossbach--bgm4y.html"
+    },
+    {
+      "label": "finde-offen – Bradl Lorenz Heiz.san., Roßbach Str. 19",
+      "url": "https://finde-offen.de/odelzhausen/bradl-lorenz-heizsan-1132257"
+    }
+  ],
+  "site": {
+    "theme": "aqua",
+    "category": "handwerk",
+    "heroOffer": [
+      "Heizung",
+      "Sanitär",
+      "Gasinstallation",
+      "Wasserleitungen",
+      "Reparaturen"
+    ],
+    "scene": "bath",
+    "logoIcon": "drop",
+    "logoMark": "LB",
+    "brandName": "Bradl Heizung Sanitär",
+    "seoTitle": "Heizung & Sanitär in Odelzhausen – Lorenz Bradl",
+    "seoDescription": "Heizungs- und Sanitärinstallation, Gas und Wasser aus Odelzhausen-Roßbach. Jetzt anrufen oder Anfrage senden.",
+    "nav": [
+      {
+        "label": "Leistungen",
+        "href": "#leistungen"
+      },
+      {
+        "label": "Projekte",
+        "href": "#projekte"
+      },
+      {
+        "label": "Bewertungen",
+        "href": "#bewertungen"
+      },
+      {
+        "label": "Ablauf",
+        "href": "#ablauf"
+      },
+      {
+        "label": "FAQ",
+        "href": "#faq"
+      },
+      {
+        "label": "Kontakt",
+        "href": "#kontakt"
+      }
+    ],
+    "hero": {
+      "eyebrow": "Heizung & Sanitär · Odelzhausen",
+      "headline": "Heizung und Sanitär aus Roßbach",
+      "sub": "Installation, Austausch und Reparatur für Häuser rund um Odelzhausen.",
+      "ctaPrimary": "Anfrage senden",
+      "ctaSecondary": "Anrufen",
+      "bullets": [
+        "Installateur in Odelzhausen-Roßbach",
+        "Heizung, Bad, Gas und Wasser",
+        "Direkt beim Inhaber"
+      ],
+      "imageLabel": "neu installierte Heizungsanlage mit Kupferrohren"
+    },
+    "badges": [
+      {
+        "title": "Heizung",
+        "sub": "Einbau & Tausch"
+      },
+      {
+        "title": "Sanitär",
+        "sub": "Bad & Küche"
+      },
+      {
+        "title": "Gas & Wasser",
+        "sub": "Leitungen"
+      },
+      {
+        "title": "Roßbach",
+        "sub": "Odelzhausen"
+      }
+    ],
+    "trust": [
+      {
+        "value": "Vor Ort",
+        "label": "Betrieb in Roßbach"
+      },
+      {
+        "value": "4",
+        "label": "Leistungsbereiche"
+      },
+      {
+        "value": "Inhaber",
+        "label": "persönlich im Einsatz"
+      },
+      {
+        "value": "Mo–Fr",
+        "label": "telefonisch erreichbar"
+      }
+    ],
+    "servicesIntro": {
+      "headline": "Wärme und Wasser im ganzen Haus",
+      "text": "Von der neuen Heizung bis zur tropfenden Armatur: Wir installieren, tauschen und reparieren Heizungs- und Sanitäranlagen im Glonntal."
+    },
+    "services": [
+      {
+        "title": "Heizungsinstallation",
+        "text": "Neue Heizungsanlagen fachgerecht eingebaut und an Ihr Haus angeschlossen.",
+        "items": [
+          "Neubau",
+          "Anschluss",
+          "Inbetriebnahme"
+        ]
+      },
+      {
+        "title": "Heizungstausch",
+        "text": "Alte Kessel raus, neue Anlage rein – mit Blick auf Verbrauch und Platz im Heizraum.",
+        "items": [
+          "Altanlage ausbauen",
+          "Neue Anlage",
+          "Einstellung"
+        ]
+      },
+      {
+        "title": "Sanitärinstallation",
+        "text": "Leitungen, Waschtisch, WC und Dusche für Neubau, Anbau oder Umbau.",
+        "items": [
+          "Bad",
+          "Küche",
+          "Gäste-WC"
+        ]
+      },
+      {
+        "title": "Gasinstallation",
+        "text": "Gasleitungen verlegen, anschließen und prüfen – für Heizung und Herd.",
+        "items": [
+          "Gasleitungen",
+          "Anschlüsse",
+          "Prüfung"
+        ]
+      },
+      {
+        "title": "Wasserleitungen",
+        "text": "Trink- und Abwasserleitungen erneuern, verlegen und abdichten.",
+        "items": [
+          "Trinkwasser",
+          "Abwasser",
+          "Leitungstausch"
+        ]
+      },
+      {
+        "title": "Klempnerarbeiten",
+        "text": "Undichte Armaturen, verstopfte Abflüsse und kleine Reparaturen rund ums Wasser.",
+        "items": [
+          "Armaturen",
+          "Abflüsse",
+          "Reparaturen"
+        ]
+      }
+    ],
+    "why": {
+      "headline": "Ein Installateur aus dem Ort – mit kurzen Wegen.",
+      "points": [
+        {
+          "title": "Kurze Anfahrt",
+          "text": "Von Roßbach schnell in Odelzhausen, Sulzemoos, Pfaffenhofen a. d. Glonn und Erdweg."
+        },
+        {
+          "title": "Heizung und Bad",
+          "text": "Wärme, Wasser und Gas aus einer Hand – ohne mehrere Firmen zu koordinieren."
+        },
+        {
+          "title": "Direkter Draht",
+          "text": "Sie sprechen mit dem Inhaber, nicht mit einer Zentrale."
+        },
+        {
+          "title": "Auch Kleines",
+          "text": "Tropfender Hahn oder neue Leitung – auch kleine Aufträge werden erledigt."
+        }
+      ]
+    },
+    "reviews": {
+      "headline": "Was Kunden sagen",
+      "summary": "Kundenstimmen werden hier eingebunden, sobald sie aus dem Google-Profil übernommen sind.",
+      "highlights": [
+        "Heizung und Sanitär",
+        "Gas- und Wasserinstallation",
+        "Betrieb in Roßbach"
+      ],
+      "source": "Google",
+      "sourceUrl": "https://www.google.com/maps/search/?api=1&query=Lorenz%20Bradl%20Heizung%20Sanit%C3%A4r%20Ro%C3%9Fbach%20Str.%2019%20Odelzhausen",
+      "rating": null,
+      "count": null
+    },
+    "process": {
+      "headline": "Vom Anruf zur fertigen Anlage",
+      "steps": [
+        {
+          "title": "Anrufen",
+          "text": "Kurz schildern, worum es geht – Heizung, Bad oder Reparatur."
+        },
+        {
+          "title": "Termin vor Ort",
+          "text": "Anlage und Räume werden angeschaut, Möglichkeiten besprochen."
+        },
+        {
+          "title": "Angebot",
+          "text": "Sie erhalten ein nachvollziehbares Angebot."
+        },
+        {
+          "title": "Einbau",
+          "text": "Installation, Prüfung und Einweisung in die neue Anlage."
+        }
+      ]
+    },
+    "gallery": {
+      "headline": "Aus dem Arbeitsalltag",
+      "text": "In der Live-Version zeigen wir hier echte Anlagen und Bäder aus der Region.",
+      "items": [
+        {
+          "title": "Heizraum",
+          "photoNeeded": "aufgeräumter Heizraum mit neuer Anlage"
+        },
+        {
+          "title": "Neues Bad",
+          "photoNeeded": "Bad mit neuem Waschtisch und Dusche"
+        },
+        {
+          "title": "Rohrleitungen",
+          "photoNeeded": "sauber verlegte Kupfer- oder Verbundrohre"
+        },
+        {
+          "title": "Gasanschluss",
+          "photoNeeded": "Gasleitung mit Absperrhahn"
+        },
+        {
+          "title": "Armaturen",
+          "photoNeeded": "neue Küchen- oder Badarmatur"
+        }
+      ]
+    },
+    "region": {
+      "headline": "Heizung und Sanitär im Glonntal und Dachauer Land",
+      "text": "Von Roßbach aus in Odelzhausen, Sulzemoos, Pfaffenhofen a. d. Glonn, Erdweg, Egenhofen und Schwabhausen.",
+      "places": [
+        "Odelzhausen",
+        "Roßbach",
+        "Sulzemoos",
+        "Pfaffenhofen an der Glonn",
+        "Erdweg",
+        "Egenhofen",
+        "Schwabhausen"
+      ]
+    },
+    "faq": [
+      {
+        "q": "Tauschen Sie auch alte Heizungen aus?",
+        "a": "Ja, Heizungsaustausch gehört zum Angebot. Welche Anlage passt, klären wir vor Ort."
+      },
+      {
+        "q": "Machen Sie auch kleine Reparaturen?",
+        "a": "Ja, auch tropfende Armaturen oder undichte Leitungen."
+      },
+      {
+        "q": "Übernehmen Sie Gasinstallationen?",
+        "a": "Ja, Gasleitungen und Anschlüsse werden installiert und geprüft."
+      },
+      {
+        "q": "Wann sind Sie erreichbar?",
+        "a": "Am besten werktags telefonisch – wir rufen zurück, wenn wir auf der Baustelle sind."
+      },
+      {
+        "q": "Kommen Sie auch nach Sulzemoos oder Erdweg?",
+        "a": "Ja, die Nachbarorte rund um Odelzhausen gehören zum Einsatzgebiet."
+      }
+    ],
+    "contact": {
+      "headline": "Heizung oder Bad? Rufen Sie an.",
+      "text": "Beschreiben Sie kurz Ihr Anliegen: welche Anlage, welches Problem, wie dringend. Ein Foto vom Typenschild hilft.",
+      "topics": [
+        "Heizungsinstallation",
+        "Heizungstausch",
+        "Sanitär / Bad",
+        "Gas & Wasser",
+        "Reparatur",
+        "Sonstiges"
+      ],
+      "responseNote": "Rückruf werktags."
+    },
+    "quote": {
+      "sizeLabel": "Worum geht es?",
+      "sizes": [
+        "Reparatur",
+        "Heizungstausch",
+        "Bad / Sanitär",
+        "Neubau / Umbau"
+      ],
+      "timings": [
+        "Dringend",
+        "In den nächsten Wochen",
+        "In 1–3 Monaten",
+        "Ich plane erst noch"
+      ]
+    },
+    "stickyCta": "Jetzt anrufen",
+    "look": {
+      "palette": 2,
+      "font": 6,
+      "hero": 0,
+      "services": 1,
+      "radius": 1,
+      "logo": 0,
+      "intro": 5
+    }
+  }
+}
