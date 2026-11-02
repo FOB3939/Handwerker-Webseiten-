@@ -1,0 +1,20 @@
+{
+  "name": "kinderarzt-gruenwald",
+  "private": true,
+  "version": "1.0.0",
+  "description": "Kinderarztpraxis Dr. med. Maru Bohdansky, Grünwald – Einzeldatei-Entwurf",
+  "scripts": {
+    "fotos": "node scripts/fotos.mjs",
+    "build": "node scripts/build.mjs",
+    "test": "node tests/check.cjs"
+  },
+  "dependencies": {
+    "@fontsource-variable/fredoka": "^5.2.0",
+    "@fontsource-variable/atkinson-hyperlegible-next": "^5.2.0"
+  },
+  "devDependencies": {
+    "esbuild": "^0.28.2",
+    "gsap": "^3.15.0",
+    "three": "^0.187.0"
+  }
+}
