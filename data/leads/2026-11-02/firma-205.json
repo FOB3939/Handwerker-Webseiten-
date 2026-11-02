@@ -1,0 +1,394 @@
+{
+  "id": "2026-11-02-205",
+  "slug": "badur-hausmeisterservice-neufahrn",
+  "date": "2026-11-02",
+  "company": {
+    "name": "Badur, Yilmaz – Transporte – Hausmeisterservice",
+    "owner": "Yilmaz Badur",
+    "trade": "Hausmeisterservice & Transporte",
+    "city": "Neufahrn bei Freising",
+    "address": "Amselweg 10, 85375 Neufahrn bei Freising",
+    "phone": "0176 62391383",
+    "email": null,
+    "serviceArea": [
+      "Neufahrn",
+      "Eching",
+      "Hallbergmoos",
+      "Freising",
+      "Unterschleißheim",
+      "Massenhausen"
+    ]
+  },
+  "listings": {
+    "google": {
+      "url": "https://www.google.com/maps/search/?api=1&query=Badur%20Yilmaz%20Transporte%20Hausmeisterservice%20Neufahrn",
+      "rating": null,
+      "reviews": null,
+      "evidence": "NICHT BELEGT – kein Google-Spiegel gefunden. Keine E-Mail-Adresse öffentlich. Nur Verzeichnisse: 11880 (laut Suche „vom Inhaber bestätigt“, letzte Aktualisierung 03.10.2026, noch keine Bewertungen), goyellow.de, servicesinfo.de, neufahrn.defirmenkataloge.com."
+    },
+    "myhammer": {
+      "url": "https://www.11880.com/branchenbuch/neufahrn-bei-freising/190685388B54490674/badur-yilmaz-transporte-hausmeisterservice.html",
+      "rating": null,
+      "reviews": null,
+      "evidence": "Kein MyHammer gefunden – 11880-Eintrag „Badur, Yilmaz – Transporte – Hausmeisterservice“, Amselweg 10, Neufahrn, Tel. (0176) 62391383, auch in der 11880-Liste Hausmeisterservice Freising."
+    }
+  },
+  "websiteStatus": "keine eigene Website gefunden",
+  "websiteChecks": [
+    "(1) „Yilmaz Badur Transporte Hausmeisterservice Neufahrn“ mit blocked_domains (Gelbe Seiten, Das Örtliche, Telefonbuch, Cylex, meinestadt, Creditreform, Facebook, Instagram, golocal, MyHammer, Northdata, Firmenwissen, WKDB, Yelp, wlw) – nur 11880, goyellow, servicesinfo; keine Website",
+    "(2) Domain-Check allowed_domains badur-transporte.de, badur.de, badur-hausmeisterservice.de, hausmeisterservice-badur.de, yilmaz-badur.de, badur-neufahrn.de, transporte-badur.de, badur-service.de – keine Treffer",
+    "(3) Telefonsuche „0176 62391383“ – nur goyellow und neufahrn.defirmenkataloge.com, keine Website",
+    "(4) Impressum-Suche nicht ausgeführt (Suchbudget erschöpft)",
+    "Website-Risiko: mittel – Prüfungen negativ, aber weder Google-Eintrag noch Freemail belegt (RESERVE)"
+  ],
+  "facts": {
+    "services": [
+      "Transporte",
+      "Hausmeisterservice"
+    ],
+    "experience": null,
+    "praisedFor": []
+  },
+  "strategy": {
+    "audience": "Hausverwaltungen, Vermieter, Eigentümergemeinschaften und Privatleute in Neufahrn, Eching und Hallbergmoos, die Hilfe rund ums Haus oder einen Transport brauchen",
+    "mainService": "Hausmeisterservice mit Transporten",
+    "trustSignal": "Inhaber Yilmaz Badur direkt per Handy erreichbar, Betrieb in Neufahrn",
+    "conversionGoal": "Anfrage per WhatsApp oder Anruf für Hausmeister- oder Transportauftrag",
+    "visualConcept": "Gepflegte Wohnanlage im Münchner Norden, Transporter vor dem Haus, aufgeräumter Hof – praktisch und bodenständig"
+  },
+  "sales": {
+    "score": 4,
+    "whyGoodLead": [
+      "Keine eigene Website gefunden – nur Verzeichniseinträge",
+      "Mobilnummer öffentlich gelistet – WhatsApp-Erstkontakt möglich",
+      "11880-Eintrag kürzlich vom Inhaber bestätigt – Betrieb wohl aktiv",
+      "Kombination Hausmeister + Transporte ist auf einer Website gut erklärbar"
+    ],
+    "pitch": "Hallo Herr Badur, hier ist … – ich baue Websites für Handwerks- und Servicebetriebe im Landkreis Freising. Ich habe Ihren Eintrag „Transporte – Hausmeisterservice“ in Neufahrn gefunden, aber keine Website. Ich habe unverbindlich einen Entwurf vorbereitet, über den Hausverwaltungen und Privatkunden direkt per WhatsApp anfragen können – darf ich Ihnen den Link schicken?"
+  },
+  "manualChecks": [
+    "RESERVE – weder Google-Eintrag noch Freemail-Adresse belegt: NUR versenden, wenn Google Maps einen Eintrag OHNE Website zeigt.",
+    "Schwerpunkt klären: goyellow ordnet den Betrieb „Speditionen und Logistik“ zu – prüfen, ob Hausmeisterservice tatsächlich aktiv angeboten wird",
+    "Leistungen nur als „Transporte“ und „Hausmeisterservice“ belegt – Gartenpflege, Winterdienst, Entrümpelung etc. vor Veröffentlichung bestätigen",
+    "Impressum-Suche nicht durchgeführt – vor Versand einmal „Badur Neufahrn Impressum“ prüfen",
+    "Logo und Fotos: nicht gefunden – beim Betrieb anfragen"
+  ],
+  "sources": [
+    {
+      "label": "11880 – Badur, Yilmaz – Transporte – Hausmeisterservice, Neufahrn",
+      "url": "https://www.11880.com/branchenbuch/neufahrn-bei-freising/190685388B54490674/badur-yilmaz-transporte-hausmeisterservice.html"
+    },
+    {
+      "label": "11880 – Hausmeisterservices Neufahrn",
+      "url": "https://www.11880.com/suche/hausmeisterservice/neufahrn"
+    },
+    {
+      "label": "goyellow – Badur, Yilmaz – Transporte – Hausmeisterservice",
+      "url": "https://www.goyellow.de/home/spedition-badur-yilmaz-transporte-hausmeisterservice-neufahrn-b-freising--d882tc.html"
+    }
+  ],
+  "site": {
+    "theme": "objekt",
+    "category": "handwerk",
+    "heroOffer": [
+      "Hausmeisterdienste",
+      "Transporte",
+      "Kleinreparaturen",
+      "Objektbetreuung"
+    ],
+    "scene": "facade",
+    "logoIcon": "house",
+    "logoMark": "YB",
+    "brandName": "Badur Hausmeisterservice",
+    "seoTitle": "Hausmeisterservice & Transporte in Neufahrn – Yilmaz Badur",
+    "seoDescription": "Hausmeisterservice und Transporte in Neufahrn, Eching und Hallbergmoos. Anfrage per WhatsApp oder Anruf.",
+    "nav": [
+      {
+        "label": "Leistungen",
+        "href": "#leistungen"
+      },
+      {
+        "label": "Projekte",
+        "href": "#projekte"
+      },
+      {
+        "label": "Bewertungen",
+        "href": "#bewertungen"
+      },
+      {
+        "label": "Ablauf",
+        "href": "#ablauf"
+      },
+      {
+        "label": "FAQ",
+        "href": "#faq"
+      },
+      {
+        "label": "Kontakt",
+        "href": "#kontakt"
+      }
+    ],
+    "hero": {
+      "eyebrow": "Hausmeisterservice · Neufahrn",
+      "headline": "Hausmeisterservice und Transporte in Neufahrn",
+      "sub": "Hilfe rund ums Haus und Transporte im Münchner Norden – direkt beim Inhaber angefragt.",
+      "ctaPrimary": "Anfrage senden",
+      "ctaSecondary": "Anrufen",
+      "bullets": [
+        "Betrieb in Neufahrn",
+        "Hausmeister und Transporte",
+        "Direkt per Handy erreichbar"
+      ],
+      "imageLabel": "gepflegter Eingangsbereich einer Wohnanlage mit Transporter"
+    },
+    "badges": [
+      {
+        "title": "Hausmeister",
+        "sub": "rund ums Haus"
+      },
+      {
+        "title": "Transporte",
+        "sub": "im Münchner Norden"
+      },
+      {
+        "title": "Neufahrn",
+        "sub": "bei Freising"
+      },
+      {
+        "title": "Direkt",
+        "sub": "beim Inhaber"
+      }
+    ],
+    "trust": [
+      {
+        "value": "Vor Ort",
+        "label": "Betrieb in Neufahrn"
+      },
+      {
+        "value": "2",
+        "label": "Leistungsbereiche"
+      },
+      {
+        "value": "1",
+        "label": "fester Ansprechpartner"
+      },
+      {
+        "value": "Mobil",
+        "label": "Anruf oder WhatsApp"
+      }
+    ],
+    "servicesIntro": {
+      "headline": "Was rund ums Haus anfällt",
+      "text": "Kleine Arbeiten am Objekt und Transporte aus einer Hand: Sie rufen eine Nummer an statt zwei Firmen."
+    },
+    "services": [
+      {
+        "title": "Hausmeisterdienste",
+        "text": "Regelmäßige Kontrolle und Betreuung von Wohn- und Gewerbeobjekten.",
+        "items": [
+          "Objektkontrolle",
+          "Mülltonnen",
+          "Kontrollgänge"
+        ]
+      },
+      {
+        "title": "Kleinreparaturen",
+        "text": "Was im Haus klemmt oder locker ist, wird bei der nächsten Runde gleich behoben.",
+        "items": [
+          "Türen & Schlösser",
+          "Leuchtmittel",
+          "Ausbesserungen"
+        ]
+      },
+      {
+        "title": "Objektbetreuung",
+        "text": "Ein fester Ansprechpartner für Hausverwaltung und Mieter vor Ort.",
+        "items": [
+          "Ansprechpartner",
+          "Meldungen",
+          "Absprachen"
+        ]
+      },
+      {
+        "title": "Transporte",
+        "text": "Transporte im Raum Neufahrn, Freising und München – nach Absprache.",
+        "items": [
+          "Kleintransporte",
+          "Materialfahrten",
+          "Abholung"
+        ]
+      },
+      {
+        "title": "Umzugshilfe",
+        "text": "Möbel und Kartons sicher von A nach B, mit Fahrzeug und tragender Hand.",
+        "items": [
+          "Möbeltransport",
+          "Tragehilfe",
+          "Kurzstrecken"
+        ]
+      },
+      {
+        "title": "Abtransport",
+        "text": "Was im Keller oder Hof stört, wird aufgeladen und weggebracht.",
+        "items": [
+          "Sperriges",
+          "Kellerräumung",
+          "Hofreinigung"
+        ]
+      }
+    ],
+    "why": {
+      "headline": "Hausmeister und Transporter aus einer Hand.",
+      "points": [
+        {
+          "title": "Eine Nummer",
+          "text": "Hausmeisterarbeit und Transport über denselben Ansprechpartner."
+        },
+        {
+          "title": "Kurze Wege",
+          "text": "Vom Amselweg aus schnell in Eching, Hallbergmoos und Freising."
+        },
+        {
+          "title": "Direkter Draht",
+          "text": "Sie sprechen mit dem Inhaber, nicht mit einer Zentrale."
+        },
+        {
+          "title": "Eigenes Fahrzeug",
+          "text": "Material und Sperriges werden gleich mitgenommen."
+        }
+      ]
+    },
+    "reviews": {
+      "headline": "Was Kunden sagen",
+      "summary": "Kundenstimmen werden hier eingebunden, sobald sie aus dem Google-Profil übernommen sind.",
+      "highlights": [
+        "Hausmeisterservice in Neufahrn",
+        "Transporte im Münchner Norden",
+        "Direkter Kontakt"
+      ],
+      "source": "Google",
+      "sourceUrl": "https://www.google.com/maps/search/?api=1&query=Badur%20Yilmaz%20Transporte%20Hausmeisterservice%20Neufahrn",
+      "rating": null,
+      "count": null
+    },
+    "process": {
+      "headline": "In vier Schritten zum Auftrag",
+      "steps": [
+        {
+          "title": "Anfrage",
+          "text": "Kurz per WhatsApp oder Telefon schildern, worum es geht."
+        },
+        {
+          "title": "Absprache",
+          "text": "Umfang, Termin und Häufigkeit werden gemeinsam festgelegt."
+        },
+        {
+          "title": "Angebot",
+          "text": "Sie erhalten einen klaren Preis für den Auftrag."
+        },
+        {
+          "title": "Erledigt",
+          "text": "Die Arbeit wird ausgeführt und kurz zurückgemeldet."
+        }
+      ]
+    },
+    "gallery": {
+      "headline": "Einsätze rund ums Haus",
+      "text": "Für die Live-Version zeigen wir hier echte Einsätze des Betriebs.",
+      "items": [
+        {
+          "title": "Wohnanlage",
+          "photoNeeded": "gepflegter Eingangsbereich einer Wohnanlage"
+        },
+        {
+          "title": "Treppenhaus",
+          "photoNeeded": "aufgeräumtes, kontrolliertes Treppenhaus"
+        },
+        {
+          "title": "Transport",
+          "photoNeeded": "beladener Transporter vor dem Haus"
+        },
+        {
+          "title": "Kellerräumung",
+          "photoNeeded": "geräumter Kellerraum"
+        },
+        {
+          "title": "Außenanlage",
+          "photoNeeded": "sauberer Hof mit Mülltonnenplatz"
+        }
+      ]
+    },
+    "region": {
+      "headline": "Im Einsatz in Neufahrn und Umgebung",
+      "text": "Von Neufahrn aus schnell in Eching, Hallbergmoos, Freising, Massenhausen und Unterschleißheim.",
+      "places": [
+        "Neufahrn",
+        "Eching",
+        "Hallbergmoos",
+        "Freising",
+        "Massenhausen",
+        "Unterschleißheim"
+      ]
+    },
+    "faq": [
+      {
+        "q": "Übernehmen Sie auch einmalige Aufträge?",
+        "a": "Ja, neben regelmäßiger Betreuung sind auch einzelne Einsätze möglich – fragen Sie einfach an."
+      },
+      {
+        "q": "Welche Transporte sind möglich?",
+        "a": "Das hängt von Menge und Strecke ab. Schildern Sie kurz, was transportiert werden soll."
+      },
+      {
+        "q": "Arbeiten Sie für Hausverwaltungen?",
+        "a": "Ja, Anfragen von Hausverwaltungen und Eigentümergemeinschaften sind willkommen."
+      },
+      {
+        "q": "Wie schnell bekomme ich einen Termin?",
+        "a": "Termine werden nach Absprache vergeben – am schnellsten per Anruf oder WhatsApp."
+      },
+      {
+        "q": "Kommen Sie auch nach Freising oder Eching?",
+        "a": "Ja, der Raum Neufahrn, Eching, Hallbergmoos und Freising gehört dazu."
+      }
+    ],
+    "contact": {
+      "headline": "Ihre Anfrage – kurz und unverbindlich",
+      "text": "Beschreiben Sie kurz, was erledigt oder transportiert werden soll, und wo. Fotos helfen.",
+      "topics": [
+        "Hausmeisterdienste",
+        "Kleinreparaturen",
+        "Transport",
+        "Umzugshilfe",
+        "Abtransport",
+        "Sonstiges"
+      ],
+      "responseNote": "Rückmeldung nach Absprache per Telefon oder WhatsApp."
+    },
+    "quote": {
+      "sizeLabel": "Worum geht es?",
+      "sizes": [
+        "Einmaliger Einsatz",
+        "Regelmäßige Betreuung",
+        "Transport",
+        "Mehrere Objekte"
+      ],
+      "timings": [
+        "So bald wie möglich",
+        "In den nächsten Wochen",
+        "Ab nächstem Monat",
+        "Ich plane erst noch"
+      ]
+    },
+    "stickyCta": "Anfrage senden",
+    "look": {
+      "palette": 2,
+      "font": 6,
+      "hero": 0,
+      "services": 1,
+      "radius": 1,
+      "logo": 0,
+      "intro": 5
+    }
+  }
+}

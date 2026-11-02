@@ -1,0 +1,418 @@
+{
+  "id": "2026-11-02-198",
+  "slug": "zimmerei-gehrmann-germering",
+  "date": "2026-11-02",
+  "company": {
+    "name": "Zimmerei Helmut Gehrmann",
+    "owner": "Helmut Gehrmann",
+    "trade": "Zimmerei & Fenster",
+    "city": "Germering",
+    "address": "Landsberger Str. 59b, 82110 Germering",
+    "phone": "089 84936013",
+    "email": "zimmerei-gilching@t-online.de",
+    "serviceArea": [
+      "Germering",
+      "Gilching",
+      "Puchheim",
+      "Unterpfaffenhofen",
+      "Alling",
+      "Gräfelfing"
+    ]
+  },
+  "listings": {
+    "google": {
+      "url": "https://www.google.com/maps/search/?api=1&query=Zimmerei%20Helmut%20Gehrmann%20Landsberger%20Str.%2059b%20Germering",
+      "rating": null,
+      "reviews": null,
+      "evidence": "NICHT BELEGT – kein Google-Spiegel (rgv-bayern, trustlocal, firmania) zum Germeringer Betrieb gefunden; trustlocal führt nur die fremde Holzbau Gehrmann GmbH (Vogtareuth). Annahme stützt sich auf die öffentlich belegte Freemail-Adresse zimmerei-gilching@t-online.de (Bayerwald-Händlerseite)."
+    },
+    "myhammer": {
+      "url": "https://www.11880.com/branchenbuch/germering-oberbayern/060695949B41937483/zimmerei-helmut-gehrmann.html",
+      "rating": null,
+      "reviews": null,
+      "evidence": "Kein MyHammer gefunden – 11880-Eintrag „Zimmerei Helmut Gehrmann“, Landsberger Str. 59 B, Germering, Tel. (089) 84936013 (Stand Juli 2024, Kategorien Zimmerei, Schreiner, Tischler); außerdem Bayerwald-Fenster-Händlerliste, stadtbranchenbuch (Fenster, Schreinerei) und goyellow."
+    }
+  },
+  "websiteStatus": "keine eigene Website gefunden",
+  "websiteChecks": [
+    "(1) „Zimmerei Helmut Gehrmann Germering“ mit blocked_domains (11880, Gelbe Seiten, Das Örtliche, Telefonbuch, Cylex, meinestadt, Creditreform, Facebook, Instagram, golocal, MyHammer, Northdata, Firmenwissen, WKDB, Yelp, trustlocal, wlw) – nur Verzeichnisse (bayerwald-fenster-tueren.de Händlerseite, germering.stadtbranchenbuch.com, goyellow, yellowmap, peoplecheck); keine eigene Domain",
+    "(2) Domain-Check allowed_domains zimmerei-gehrmann.de, gehrmann-zimmerei.de, zimmerei-gilching.de, zimmerei-germering.de, gehrmann-holzbau.de, holzbau-gehrmann.de, zimmerei-gehrmann.com, gehrmann-germering.de – einziger Treffer holzbau-gehrmann.de = Zimmerei Gehrmann GmbH in Vogtareuth (Tobias und Michael Gehrmann, Lkr. Rosenheim), anderer Betrieb ohne erkennbaren Bezug",
+    "(3) Telefon-/E-Mail-Suche „84936013“ bzw. „zimmerei-gilching@t-online.de“ – nur Bayerwald-Partnerseiten, Firmenwissen-Eintrag „Helmut Gehrmann Holz- und Bautenschutz“ (gleiche Nummer), stadtbranchenbuch, goyellow; keine Website",
+    "(4) Impressum-Suche „Impressum Helmut Gehrmann Zimmerei Germering Landsberger Straße 59“ – kein eigenes Impressum gefunden",
+    "(5) Google-Spiegel (rgv-bayern, trustlocal, firmania) – kein Eintrag zum Germeringer Betrieb",
+    "Hinweis: Bayerwald-Partnerportal (bayerwald-partner.com/hp12705/) führt eine Händler-Unterseite des Fensterherstellers – keine eigene Domain, aber vor Versand ansehen",
+    "Website-Risiko: mittel – alle Prüfungen negativ, Freemail belegt, aber kein Google-Eintrag belegt und ältere Firmengeschichte (GmbH in Gilching erloschen)"
+  ],
+  "facts": {
+    "services": [
+      "Zimmerei",
+      "Holzbau",
+      "Fenster (Händler Bayerwald Fenster & Haustüren)",
+      "Schreinerarbeiten",
+      "Holz- und Bautenschutz"
+    ],
+    "experience": null,
+    "praisedFor": []
+  },
+  "strategy": {
+    "audience": "Hauseigentümer in Germering, Gilching und Puchheim, die Dachstuhl, Holzbauteile oder Fenster erneuern oder ausbessern lassen wollen",
+    "mainService": "Zimmererarbeiten und Fenstertausch",
+    "trustSignal": "Inhabergeführter Betrieb an der Landsberger Straße in Germering, Händler für Bayerwald-Fenster und -Haustüren",
+    "conversionGoal": "Anruf oder Anfrage mit Fotos für Dach-, Holz- oder Fensterarbeiten",
+    "visualConcept": "Warme Holztöne, sichtbares Gebälk und neue Holzfenster – solide, handwerklich, bodenständig"
+  },
+  "sales": {
+    "score": 5,
+    "whyGoodLead": [
+      "Keine eigene Website gefunden – nur Verzeichnis- und Händlereinträge",
+      "Freemail-Adresse (t-online) öffentlich gelistet – Kontakt per E-Mail möglich",
+      "Zwei Standbeine (Zimmerei und Fenster) lassen sich auf einer Seite gut zeigen",
+      "Fenstertausch und Dachsanierung sind im Raum Germering stark gefragt"
+    ],
+    "pitch": "Guten Tag Herr Gehrmann, ich baue Websites für Handwerksbetriebe im Westen von München. Ihre Zimmerei in Germering habe ich in mehreren Verzeichnissen und als Bayerwald-Händler gefunden, aber keine eigene Website. Ich habe unverbindlich einen Entwurf vorbereitet, der Ihre Zimmerer- und Fensterarbeiten zeigt – darf ich Ihnen den Link schicken?"
+  },
+  "manualChecks": [
+    "Website-Risiko: mittel – vor Versand in Google Maps prüfen, dass keine Website hinterlegt ist (Grund: Google-Eintrag nicht belegt, nur Freemail und Verzeichnisse)",
+    "Betrieb aktiv? Zimmerei Helmut Gehrmann GmbH (Sitz Gilching, 2009 eingetragen) laut peoplecheck nach Liquidation erloschen; 11880-Eintrag Germering zuletzt Juli 2024 aktualisiert – Rechtsform und Fortführung klären",
+    "Bayerwald-Partnerseite bayerwald-partner.com/hp12705/ ansehen – falls dort eine vollwertige Händler-Homepage läuft, Pitch anpassen",
+    "Holzbau Gehrmann (Vogtareuth) ist laut Quellen ein anderer Betrieb – Verwandtschaft nicht belegt, im Gespräch nicht erwähnen",
+    "Leistungen nur grob belegt (Zimmerei, Holzbau, Fenster, Schreinerei, Holz- und Bautenschutz) – Details wie Dachstuhl, Carport, Gauben beim Betrieb bestätigen",
+    "Logo und Projektfotos: nicht gefunden – beim Betrieb anfragen"
+  ],
+  "sources": [
+    {
+      "label": "11880 – Zimmerei Helmut Gehrmann Germering",
+      "url": "https://www.11880.com/branchenbuch/germering-oberbayern/060695949B41937483/zimmerei-helmut-gehrmann.html"
+    },
+    {
+      "label": "Bayerwald Fenster & Haustüren – Händler Zimmerei Gehrmann Helmut Germering (E-Mail)",
+      "url": "https://www.bayerwald-fenster-tueren.de/de-de/partner-vor-ort-alt/haendler-zimmerei-gehrmann-helmut-germering-8213204/"
+    },
+    {
+      "label": "Bayerwald-Partnerportal – Zimmerei Gehrmann Helmut",
+      "url": "https://www.bayerwald-partner.com/hp12705/Zimmerei-Gehrmann-Helmut.htm"
+    },
+    {
+      "label": "Stadtbranchenbuch Germering – Zimmerei Helmut Gehrmann",
+      "url": "https://germering.stadtbranchenbuch.com/4766644.html"
+    },
+    {
+      "label": "goyellow – Zimmerei Helmut Gehrmann",
+      "url": "https://www.goyellow.de/home/zimmerer-zimmerei-helmut-gehrmann-germering--27hxtc.html"
+    },
+    {
+      "label": "Firmenwissen – Helmut Gehrmann Holz- und Bautenschutz, Germering",
+      "url": "https://www.firmenwissen.com/en/az/firmeneintrag/82110/8330318531/HELMUT_GEHRMANN_HOLZ_UND_BAUTENSCHUTZ.html"
+    }
+  ],
+  "site": {
+    "theme": "werk",
+    "category": "handwerk",
+    "heroOffer": [
+      "Dachstuhl",
+      "Holzbau",
+      "Fenster",
+      "Haustüren",
+      "Holzschutz"
+    ],
+    "scene": "facade",
+    "logoIcon": "roof",
+    "logoMark": "HG",
+    "brandName": "Zimmerei Gehrmann",
+    "seoTitle": "Zimmerei in Germering – Zimmerei Helmut Gehrmann",
+    "seoDescription": "Zimmererarbeiten, Holzbau, Fenster und Haustüren in Germering, Gilching und Puchheim. Jetzt unverbindlich anfragen.",
+    "nav": [
+      {
+        "label": "Leistungen",
+        "href": "#leistungen"
+      },
+      {
+        "label": "Projekte",
+        "href": "#projekte"
+      },
+      {
+        "label": "Bewertungen",
+        "href": "#bewertungen"
+      },
+      {
+        "label": "Ablauf",
+        "href": "#ablauf"
+      },
+      {
+        "label": "FAQ",
+        "href": "#faq"
+      },
+      {
+        "label": "Kontakt",
+        "href": "#kontakt"
+      }
+    ],
+    "hero": {
+      "eyebrow": "Zimmerei · Germering",
+      "headline": "Zimmerei und Fenster in Germering",
+      "sub": "Holzbau, Dacharbeiten und neue Fenster von der Landsberger Straße aus.",
+      "ctaPrimary": "Anfrage senden",
+      "ctaSecondary": "Anrufen",
+      "bullets": [
+        "Zimmerei aus Germering",
+        "Bayerwald-Fenster und Haustüren",
+        "Holz- und Bautenschutz"
+      ],
+      "imageLabel": "neuer Dachstuhl aus Fichtenholz über einem Einfamilienhaus"
+    },
+    "badges": [
+      {
+        "title": "Zimmerei",
+        "sub": "Holzbau & Dach"
+      },
+      {
+        "title": "Fenster",
+        "sub": "Bayerwald-Händler"
+      },
+      {
+        "title": "Holzschutz",
+        "sub": "Holz- und Bautenschutz"
+      },
+      {
+        "title": "Germering",
+        "sub": "Landsberger Straße"
+      }
+    ],
+    "trust": [
+      {
+        "value": "Inhaber",
+        "label": "Helmut Gehrmann"
+      },
+      {
+        "value": "2",
+        "label": "Gewerke: Holz und Fenster"
+      },
+      {
+        "value": "Vor Ort",
+        "label": "Betrieb in Germering"
+      },
+      {
+        "value": "Direkt",
+        "label": "per Telefon und E-Mail"
+      }
+    ],
+    "servicesIntro": {
+      "headline": "Vom Dachbalken bis zum Fensterflügel",
+      "text": "Holz trägt das Dach und rahmt die Fenster. Beides erledigt der Betrieb – geplant und montiert aus einer Hand."
+    },
+    "services": [
+      {
+        "title": "Zimmererarbeiten",
+        "text": "Balken, Pfetten und Sparren werden ersetzt, ergänzt oder neu abgebunden – für Neubau, Anbau und Sanierung.",
+        "items": [
+          "Dachstuhl",
+          "Balkenreparatur",
+          "Anbauten"
+        ]
+      },
+      {
+        "title": "Holzbau",
+        "text": "Holzkonstruktionen rund ums Haus, vom Vordach bis zum Unterstand.",
+        "items": [
+          "Vordächer",
+          "Carports",
+          "Unterstände"
+        ]
+      },
+      {
+        "title": "Fenster",
+        "text": "Als Händler für Bayerwald liefert und montiert der Betrieb neue Fenster beim Austausch oder Neubau.",
+        "items": [
+          "Fenstertausch",
+          "Holzfenster",
+          "Kunststofffenster"
+        ]
+      },
+      {
+        "title": "Haustüren",
+        "text": "Eine neue Haustür von Bayerwald – ausgemessen, geliefert und eingebaut.",
+        "items": [
+          "Haustüren",
+          "Nebeneingangstüren",
+          "Montage"
+        ]
+      },
+      {
+        "title": "Holz- und Bautenschutz",
+        "text": "Schutz für tragendes und sichtbares Holz gegen Feuchte, Pilze und Schädlinge.",
+        "items": [
+          "Holzschutz",
+          "Schadensprüfung",
+          "Sanierung"
+        ]
+      },
+      {
+        "title": "Schreinerarbeiten",
+        "text": "Holzbauteile nach Maß, wo Standardteile nicht passen.",
+        "items": [
+          "Maßanfertigung",
+          "Verkleidungen",
+          "Reparaturen"
+        ]
+      }
+    ],
+    "why": {
+      "headline": "Holz und Fenster aus einer Hand in Germering.",
+      "points": [
+        {
+          "title": "Ein Ansprechpartner",
+          "text": "Zimmerei und Fenstermontage kommen aus demselben Betrieb – keine Abstimmung zwischen zwei Firmen."
+        },
+        {
+          "title": "Kurze Wege",
+          "text": "Von der Landsberger Straße sind Gilching, Puchheim und Alling schnell erreicht."
+        },
+        {
+          "title": "Markenfenster",
+          "text": "Als Händler für Bayerwald Fenster und Haustüren bietet der Betrieb geprüfte Produkte."
+        },
+        {
+          "title": "Holz im Blick",
+          "text": "Holz- und Bautenschutz gehört zum Leistungsumfang – Schäden werden früh erkannt."
+        }
+      ]
+    },
+    "reviews": {
+      "headline": "Was Kunden sagen",
+      "summary": "Kundenstimmen werden hier eingebunden, sobald sie aus dem Google-Profil übernommen sind.",
+      "highlights": [
+        "Zimmerei in Germering",
+        "Fenster und Haustüren",
+        "Holz- und Bautenschutz"
+      ],
+      "source": "Google",
+      "sourceUrl": "https://www.google.com/maps/search/?api=1&query=Zimmerei%20Helmut%20Gehrmann%20Landsberger%20Str.%2059b%20Germering",
+      "rating": null,
+      "count": null
+    },
+    "process": {
+      "headline": "So läuft Ihr Auftrag ab",
+      "steps": [
+        {
+          "title": "Anfrage",
+          "text": "Rufen Sie an oder schicken Sie eine E-Mail mit Fotos und grober Beschreibung."
+        },
+        {
+          "title": "Aufmaß",
+          "text": "Dach, Holzbauteile oder Fensteröffnungen werden vor Ort aufgenommen."
+        },
+        {
+          "title": "Angebot",
+          "text": "Sie erhalten ein schriftliches Angebot mit Material und Ausführung."
+        },
+        {
+          "title": "Montage",
+          "text": "Abbund, Einbau oder Fenstertausch – mit sauberer Übergabe."
+        }
+      ]
+    },
+    "gallery": {
+      "headline": "Arbeiten aus der Werkstatt",
+      "text": "Für die Live-Version zeigen wir hier echte Projekte des Betriebs.",
+      "items": [
+        {
+          "title": "Neuer Dachstuhl",
+          "photoNeeded": "abgebundener Dachstuhl auf einem Wohnhaus"
+        },
+        {
+          "title": "Vordach",
+          "photoNeeded": "Holzvordach über einer Haustür"
+        },
+        {
+          "title": "Fenstertausch",
+          "photoNeeded": "neu eingebaute Holzfenster in einer Altbaufassade"
+        },
+        {
+          "title": "Haustür",
+          "photoNeeded": "neue Haustür im Eingangsbereich"
+        },
+        {
+          "title": "Carport",
+          "photoNeeded": "Holzcarport neben einem Einfamilienhaus"
+        }
+      ]
+    },
+    "region": {
+      "headline": "Zimmerei für Germering und den Westen von München",
+      "text": "Von Germering aus im Einsatz in Unterpfaffenhofen, Gilching, Puchheim, Alling und Gräfelfing.",
+      "places": [
+        "Germering",
+        "Gilching",
+        "Puchheim",
+        "Unterpfaffenhofen",
+        "Alling",
+        "Gräfelfing"
+      ]
+    },
+    "faq": [
+      {
+        "q": "Liefern Sie auch nur Fenster ohne Zimmererarbeiten?",
+        "a": "Ja, Fenster und Haustüren von Bayerwald werden auch einzeln geliefert und montiert."
+      },
+      {
+        "q": "Reparieren Sie einzelne Balken am Dachstuhl?",
+        "a": "Ja, beschädigte Balken werden geprüft und je nach Zustand ergänzt oder ersetzt."
+      },
+      {
+        "q": "Kann ich vorab Fotos schicken?",
+        "a": "Ja, Fotos per E-Mail helfen bei einer ersten Einschätzung vor dem Termin."
+      },
+      {
+        "q": "Prüfen Sie Holz auf Schäden?",
+        "a": "Holz- und Bautenschutz gehört zum Angebot – bei Verdacht auf Feuchte oder Schädlinge einfach anfragen."
+      },
+      {
+        "q": "Arbeiten Sie auch außerhalb von Germering?",
+        "a": "Ja, im Umkreis von Germering, etwa in Gilching, Puchheim und Alling."
+      }
+    ],
+    "contact": {
+      "headline": "Ihr Vorhaben – kurz beschrieben",
+      "text": "Schreiben Sie, worum es geht: Dach, Holzbau, Fenster oder Haustür. Fotos und ungefähre Maße helfen.",
+      "topics": [
+        "Zimmererarbeiten",
+        "Holzbau",
+        "Fenster",
+        "Haustüren",
+        "Holzschutz",
+        "Sonstiges"
+      ],
+      "responseNote": "Besichtigung nach Absprache."
+    },
+    "quote": {
+      "sizeLabel": "Worum geht es?",
+      "sizes": [
+        "Einzelne Reparatur",
+        "Fenster oder Tür",
+        "Vordach oder Carport",
+        "Dachstuhl"
+      ],
+      "timings": [
+        "So bald wie möglich",
+        "In den nächsten Wochen",
+        "In 1–3 Monaten",
+        "Ich plane erst noch"
+      ]
+    },
+    "stickyCta": "Anfrage senden",
+    "look": {
+      "palette": 1,
+      "font": 1,
+      "hero": 5,
+      "services": 3,
+      "radius": 4,
+      "logo": 1,
+      "intro": 4,
+      "projects": 2,
+      "process": 0,
+      "faq": 1,
+      "reviews": 1,
+      "order": 1
+    }
+  }
+}
