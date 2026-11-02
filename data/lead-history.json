@@ -2650,6 +2650,126 @@
       "googleLink": "https://www.google.com/maps/search/?api=1&query=Thomas%20H%C3%A4u%C3%9Frer%20Der%20Hausfreund%20Hohenbrand%2026%20Peiting",
       "googleVerified": false,
       "reserve": false
+    },
+    {
+      "company": "Bdp. Bodenleger Design Projekt",
+      "slug": "bdp-bodenleger-design-projekt-olching",
+      "trade": "Bodenleger & Trockenbau",
+      "city": "Olching",
+      "date": "2026-11-02",
+      "phone": "0177 5013842",
+      "email": null,
+      "googleLink": "https://www.google.com/maps/search/?api=1&query=Bodenleger%20Design%20Projekt%20Buchfinkenstr.%205%20Olching",
+      "googleVerified": false,
+      "reserve": true
+    },
+    {
+      "company": "Alois Bauer Schmiede",
+      "slug": "alois-bauer-schlosserei-fraunberg",
+      "trade": "Metallbau & Schlosserei",
+      "city": "Fraunberg",
+      "date": "2026-11-02",
+      "phone": "08084 1389",
+      "email": "schlosserei.bauer@t-online.de",
+      "googleLink": "https://www.google.com/maps/search/?api=1&query=Alois%20Bauer%20Schmiede%20Rappoltskirchen%202%20Fraunberg",
+      "googleVerified": false,
+      "reserve": false
+    },
+    {
+      "company": "Martin Engesser Garten- und Landschaftsbau",
+      "slug": "engesser-gartenbau-feldafing",
+      "trade": "Garten- und Landschaftsbau",
+      "city": "Feldafing",
+      "date": "2026-11-02",
+      "phone": "08157 609272",
+      "email": "engessermartin@gmx.de",
+      "googleLink": "https://www.google.com/maps/search/?api=1&query=Martin%20Engesser%20Wieling%2024%20Feldafing",
+      "googleVerified": false,
+      "reserve": false
+    },
+    {
+      "company": "Zimmerei Helmut Gehrmann",
+      "slug": "zimmerei-gehrmann-germering",
+      "trade": "Zimmerei & Fenster",
+      "city": "Germering",
+      "date": "2026-11-02",
+      "phone": "089 84936013",
+      "email": "zimmerei-gilching@t-online.de",
+      "googleLink": "https://www.google.com/maps/search/?api=1&query=Zimmerei%20Helmut%20Gehrmann%20Landsberger%20Str.%2059b%20Germering",
+      "googleVerified": false,
+      "reserve": false
+    },
+    {
+      "company": "Stadler Manfred Kunst- und Bauschlosserei Meisterbetrieb",
+      "slug": "schlosserei-stadler-emmering",
+      "trade": "Kunst- und Bauschlosserei",
+      "city": "Emmering",
+      "date": "2026-11-02",
+      "phone": "08141 512992",
+      "email": "schlosserei.manfred.stadler@gmx.de",
+      "googleLink": "https://www.google.com/maps/search/?api=1&query=Stadler%20Manfred%20Kunst%20und%20Bauschlosserei%20Roggensteiner%20Str.%209%20Emmering",
+      "googleVerified": false,
+      "reserve": false
+    },
+    {
+      "company": "Fliesenlegerbetrieb Bajrami",
+      "slug": "fliesenleger-bajrami-petershausen",
+      "trade": "Fliesenleger",
+      "city": "Petershausen",
+      "date": "2026-11-02",
+      "phone": "0176 28444917",
+      "email": null,
+      "googleLink": "https://www.google.com/maps/search/?api=1&query=Fliesenlegerbetrieb%20Bajrami%20Wei%C3%9Flinger%20Str.%2017%20Petershausen",
+      "googleVerified": false,
+      "reserve": true
+    },
+    {
+      "company": "Ismajli Trockenbau",
+      "slug": "ismajli-trockenbau-moosburg",
+      "trade": "Trockenbau & Innenausbau",
+      "city": "Moosburg a.d. Isar",
+      "date": "2026-11-02",
+      "phone": "0177 6831282",
+      "email": "faton_ismajli@hotmail.com",
+      "googleLink": "https://www.google.com/maps/search/?api=1&query=Ismajli%20Trockenbau%20Graf-Konrad-Str.%203B%20Moosburg",
+      "googleVerified": false,
+      "reserve": false
+    },
+    {
+      "company": "Andreas Solic Gas Wasser Sanitär",
+      "slug": "andreas-solic-sanitaer-freising",
+      "trade": "Sanitär & Heizung",
+      "city": "Freising",
+      "date": "2026-11-02",
+      "phone": "08161 94127",
+      "email": "a.solic@t-online.de",
+      "googleLink": "https://www.google.com/maps/search/?api=1&query=Andreas%20Solic%20Ortsstra%C3%9Fe%2031%20Freising",
+      "googleVerified": false,
+      "reserve": false
+    },
+    {
+      "company": "Fichtl Haustechnik",
+      "slug": "fichtl-haustechnik-dachau",
+      "trade": "Sanitär & Heizung",
+      "city": "Dachau",
+      "date": "2026-11-02",
+      "phone": "0174 6925481",
+      "email": "fichtl-haustechnik@outlook.de",
+      "googleLink": "https://www.google.com/maps/search/?api=1&query=Fichtl%20Haustechnik%20Siedlungsstra%C3%9Fe%2020a%20Dachau",
+      "googleVerified": false,
+      "reserve": false
+    },
+    {
+      "company": "Martin Schlögl Metallgestaltung & Kunstschmiede",
+      "slug": "martin-schloegl-metallgestaltung-alling",
+      "trade": "Metallgestaltung & Kunstschmiede",
+      "city": "Alling",
+      "date": "2026-11-02",
+      "phone": "08141 72849",
+      "email": "martin-schloegl@web.de",
+      "googleLink": "https://www.google.com/maps/search/?api=1&query=Martin%20Schl%C3%B6gl%20Metallgestaltung%20Am%20Weinberg%2028%20Alling",
+      "googleVerified": false,
+      "reserve": false
     }
   ],
   "rejected": [
@@ -6741,6 +6861,236 @@
       "company": "Edwin Keller Heizungsbau (Tutzing)",
       "reason": "eigene Website heizung-sanitaer-solaranlagen.de",
       "date": "2026-11-01"
+    },
+    {
+      "company": "Hand in Hand Altbausanierung / Patrick Maser (Altomünster)",
+      "reason": "69 Bewertungen trustlocal, HR-Einträge",
+      "date": "2026-11-02"
+    },
+    {
+      "company": "Stephan Herzinger Sanitär- und Heizungsbau (Odelzhausen)",
+      "reason": "Website stephan-herzinger.de",
+      "date": "2026-11-02"
+    },
+    {
+      "company": "Siegfried Schlosser Fliesenlegermeister (Altomünster)",
+      "reason": "Website fliesenleger-schlosser.de",
+      "date": "2026-11-02"
+    },
+    {
+      "company": "Jürgen Wächter / KS-Keramiker (Altomünster)",
+      "reason": "Website ks-keramiker.de",
+      "date": "2026-11-02"
+    },
+    {
+      "company": "Irlesberger Fenster (Inning)",
+      "reason": "Website irlesberger-fenster.de",
+      "date": "2026-11-02"
+    },
+    {
+      "company": "Spenglerei Glas / Johann Glas (Raisting)",
+      "reason": "gmx nicht belegt, Familienbetrieb haustechnik-glas.de",
+      "date": "2026-11-02"
+    },
+    {
+      "company": "Elektrotechnik Botzenhard (Landsberg)",
+      "reason": "GmbH ~24 MA, 26 Bew.",
+      "date": "2026-11-02"
+    },
+    {
+      "company": "Elektro Leuthner (Ismaning)",
+      "reason": "Website elektro-leuthner.de",
+      "date": "2026-11-02"
+    },
+    {
+      "company": "HolzBengel Thomas Buchheim (Germering)",
+      "reason": "Website holzbengel.de, GmbH",
+      "date": "2026-11-02"
+    },
+    {
+      "company": "Spenglerei Eder (Jonas Eder) (Gauting)",
+      "reason": "Website spenglerei-eder.de",
+      "date": "2026-11-02"
+    },
+    {
+      "company": "Zimmerei & Holzbau Üblacker (Weßling)",
+      "reason": "Website holzbau-ueblacker.de",
+      "date": "2026-11-02"
+    },
+    {
+      "company": "Michael Hofmann Zimmerermeister (Gilching)",
+      "reason": "Website hofmann-zimmerei.de",
+      "date": "2026-11-02"
+    },
+    {
+      "company": "MST Mattusch Sanitär Technik (Krailling)",
+      "reason": "GmbH, Website",
+      "date": "2026-11-02"
+    },
+    {
+      "company": "Lindinger Holztechnik (Germering)",
+      "reason": "GmbH",
+      "date": "2026-11-02"
+    },
+    {
+      "company": "Zimmerei Autenrieth (Weßling)",
+      "reason": "GmbH, Website autenrieth.net",
+      "date": "2026-11-02"
+    },
+    {
+      "company": "FHG Elektro-Anlagen (Gauting)",
+      "reason": "in Georg Huber Elektroanlagen GmbH aufgegangen",
+      "date": "2026-11-02"
+    },
+    {
+      "company": "Manfred Hirsch Elektroinstallationen (Moosburg)",
+      "reason": "Website elektro-hirsch-moosburg.de",
+      "date": "2026-11-02"
+    },
+    {
+      "company": "Robert Langenecker Schreinerei (Fahrenzhausen)",
+      "reason": "Website schreiner-langenecker.de",
+      "date": "2026-11-02"
+    },
+    {
+      "company": "Martin Huber Schreinerei (Kranzberg)",
+      "reason": "Website schreinerei-m-huber.de",
+      "date": "2026-11-02"
+    },
+    {
+      "company": "Hausmeister-Service Koch & Widmann (Allershausen)",
+      "reason": "Website",
+      "date": "2026-11-02"
+    },
+    {
+      "company": "Servus Wagner Hausmeisterservice (München)",
+      "reason": "Website",
+      "date": "2026-11-02"
+    },
+    {
+      "company": "Elektro Sauter (Thomas Sauter) (Neufahrn)",
+      "reason": "Domain elektrosauter.de",
+      "date": "2026-11-02"
+    },
+    {
+      "company": "Hausmeisterservice Nico Heyer GmbH (Freising)",
+      "reason": "GmbH, Website",
+      "date": "2026-11-02"
+    },
+    {
+      "company": "Reinhard Sigl Schreinerei (Moorenweis)",
+      "reason": "Website schreiner-sigl.de",
+      "date": "2026-11-02"
+    },
+    {
+      "company": "Schreinerei Klaus Keckeis (Moorenweis)",
+      "reason": "Website",
+      "date": "2026-11-02"
+    },
+    {
+      "company": "Schreinerei Doktor (Florian Doktor) (Moorenweis)",
+      "reason": "Website",
+      "date": "2026-11-02"
+    },
+    {
+      "company": "Metallbautechnik-Schlosserei Andreas Lütt (Moorenweis)",
+      "reason": "Website metallbau-luett.de",
+      "date": "2026-11-02"
+    },
+    {
+      "company": "Viktor Garten- und Landschaftsbau (Viktor Gojani) (Fürstenfeldbruck)",
+      "reason": "widersprüchlich, evtl. Website landschaftsbau-gojani.de",
+      "date": "2026-11-02"
+    },
+    {
+      "company": "Ernst Hurt Elektro (Mammendorf)",
+      "reason": "Familie Elektro Hurt mit Website",
+      "date": "2026-11-02"
+    },
+    {
+      "company": "Lichtenstern Christoph (Steindorf)",
+      "reason": "Website lichtenstern-heizung-sanitär.de",
+      "date": "2026-11-02"
+    },
+    {
+      "company": "Heiko Ehrhardt Installation und Heizungsbau (Taufkirchen)",
+      "reason": "Website hls-ehrhardt.com",
+      "date": "2026-11-02"
+    },
+    {
+      "company": "Iljaz Husenaj Baudienstleistungen (Unterhaching)",
+      "reason": "E-Mail eigene Domain",
+      "date": "2026-11-02"
+    },
+    {
+      "company": "Elektro Notdienst Moritz (Moosburg)",
+      "reason": "nicht auffindbar",
+      "date": "2026-11-02"
+    },
+    {
+      "company": "Malermeister Alfred Bachmeier (Wartenberg)",
+      "reason": "veraltet, evtl. Website wb-stuck.at",
+      "date": "2026-11-02"
+    },
+    {
+      "company": "Tauhid Bau (Freising)",
+      "reason": "Homepage tauhid-bau.de laut Verzeichnis",
+      "date": "2026-11-02"
+    },
+    {
+      "company": "Marco Bossmann Dachdecker (Planegg)",
+      "reason": "Website dachdeckerei-bossmann.de",
+      "date": "2026-11-02"
+    },
+    {
+      "company": "Dachdeckerbetrieb Steffen Böwing (Stockdorf)",
+      "reason": "Website boewing.bayern",
+      "date": "2026-11-02"
+    },
+    {
+      "company": "Martin Wiesheu Heizung Sanitär (Freising)",
+      "reason": "Website",
+      "date": "2026-11-02"
+    },
+    {
+      "company": "TM Elektrotechnik (Tobias Milchgießer) (Marzling)",
+      "reason": "Website tmelektrotechnik.de",
+      "date": "2026-11-02"
+    },
+    {
+      "company": "Loibl Elektro (Freising)",
+      "reason": "Website loiblelektro.de",
+      "date": "2026-11-02"
+    },
+    {
+      "company": "TW Thomas Würstl Heizung und Sanitär (Stockdorf)",
+      "reason": "Website tw-heizung-sanitaer.de",
+      "date": "2026-11-02"
+    },
+    {
+      "company": "Michael Dorn GbR (Weßling)",
+      "reason": "Website dorn-sanitaer.de",
+      "date": "2026-11-02"
+    },
+    {
+      "company": "Andreas Kiefl Sanitär und Heizungsbau (Eichenau)",
+      "reason": "Website sh-kiefl.de",
+      "date": "2026-11-02"
+    },
+    {
+      "company": "Stephan Metzger Gartenbau (Olching)",
+      "reason": "Website gartenbau-metzger.de",
+      "date": "2026-11-02"
+    },
+    {
+      "company": "MardiQ Elektro Bau (Fürstenfeldbruck)",
+      "reason": "Domain-E-Mail mardiq.de",
+      "date": "2026-11-02"
+    },
+    {
+      "company": "Bernd Wuschek Heizungsbau (Karlsfeld)",
+      "reason": "Familienbetrieb mit Website",
+      "date": "2026-11-02"
     }
   ]
 }

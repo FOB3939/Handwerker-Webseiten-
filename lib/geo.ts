@@ -1,5 +1,7 @@
 // Ungefähre Ortsmittelpunkte (WGS84) für die schematische Einsatzgebiets-Karte.
 export const PLACES: Record<string, [number, number]> = {
+  "Petershausen": [48.4153, 11.4708],
+  "Moosburg a.d. Isar": [48.4706, 11.9381],
   Gilching: [48.108, 11.293],
   Argelsried: [48.098, 11.318],
   "Weßling": [48.074, 11.25],

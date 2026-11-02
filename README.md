@@ -274,6 +274,20 @@ Seit 29.10. zeigt jede Leistung ein eigenes, als „Symbolbild“ gekennzeichnet
 - Franz-Josef Wolf Heizungsbau und Sanitäre Anlagen (Röhrmoos): https://claude.ai/artifact/NSUtaZ3sBYpMH3NTn3pmGQ
 - Haus Gartenservice (Erding): https://claude.ai/artifact/3oRAo7vYSAssQHy1hXwVGr
 
+## Entwürfe 2026-11-02
+
+- WhatsApp-Entwürfe: https://claude.ai/artifact/3Ze16No6FR1tDNWJnSc6XD
+- Ismajli Trockenbau (Moosburg): https://claude.ai/artifact/1DHSZhZKNk9ja2ydGfaLZr
+- Fichtl Haustechnik (Dachau): https://claude.ai/artifact/F6okxWHm8LQ3fyQQcBX5hS
+- Andreas Solic Gas Wasser Sanitär (Freising): https://claude.ai/artifact/GFKr9HHm2X1wBE1tyJ6A4E
+- Zimmerei Helmut Gehrmann (Germering): https://claude.ai/artifact/RcTY3no8KPryuXDgCSfFqX
+- Martin Engesser Garten- und Landschaftsbau (Feldafing): https://claude.ai/artifact/HtpCiNgqKf4tMQAPDkty7u
+- Alois Bauer Schmiede (Fraunberg): https://claude.ai/artifact/AtLV21WHtdqmZgmfBr72zg
+- Schlosserei Manfred Stadler (Emmering): https://claude.ai/artifact/T5mMEE2LTBxq56kXRbjcUd
+- Martin Schlögl Metallgestaltung & Kunstschmiede (Alling): https://claude.ai/artifact/DKS7oDyWu7geLp8np9kPt5
+- Reserve – Fliesenlegerbetrieb Bajrami (Petershausen): https://claude.ai/artifact/2Sx6bN3FmKerakB4woUbA2
+- Reserve – Bdp. Bodenleger Design Projekt (Olching): https://claude.ai/artifact/3gssBXqpSH25KHJTHTDrkZ
+
 ## Entwürfe 2026-11-01
 
 - WhatsApp-Entwürfe: https://claude.ai/artifact/AXc4FNvdrZPrz7JZu1LUyc

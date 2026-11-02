@@ -2,10 +2,64 @@
  "info": "Noch ungeprüfte Handwerker-Kandidaten aus früheren Läufen. Jeder Lauf prüft zuerst diese (oben = vielversprechend), entfernt geprüfte Einträge (angenommen → leads, verworfen → rejected in lead-history.json) und ergänzt neue Funde, für die das Suchbudget nicht reichte.",
  "candidates": [
   {
-   "name": "Karl Dennhöfer Gartenarbeiten",
+   "name": "Karl Dennhöfer Gartenarbeiten & Zaunanlagen",
    "trade": "Gartenarbeiten & Zaunbau",
    "city": "Pliening",
-   "hint": "RESERVE 2026-10-25: Name+Verzeichnis negativ, Domain/Telefon/Impressum offen; Tel. 08121 71591 (Vorlage scratchpad/reserve25)"
+   "hint": "RESERVE 2026-11-02: alle Website-Prüfungen negativ, weder Google noch Freemail belegt; Tel. 08121 71591 (Vorlage scratchpad/pool-back1102/firma-194.json)"
+  },
+  {
+   "name": "Gabor Weiß Zimmerei",
+   "trade": "Zimmerei",
+   "city": "Puchheim",
+   "hint": "RESERVE 2026-11-02: alle Website-Prüfungen negativ, weder Google noch Freemail belegt; Tel. 089 22847769 (Vorlage scratchpad/pool-back1102/firma-199.json)"
+  },
+  {
+   "name": "Susanne Leuschner Kunst- und Bauschlosser",
+   "trade": "Kunst- und Bauschlosserei",
+   "city": "Mammendorf",
+   "hint": "RESERVE 2026-11-02: alle Website-Prüfungen negativ, weder Google noch Freemail belegt; Tel. 08145 996780 (Vorlage scratchpad/pool-back1102/firma-201.json)"
+  },
+  {
+   "name": "Lorenz Bradl Heizung Sanitär",
+   "trade": "Sanitär & Heizung",
+   "city": "Odelzhausen",
+   "hint": "RESERVE 2026-11-02: alle Website-Prüfungen negativ, weder Google noch Freemail belegt; Tel. 08134 355 (Vorlage scratchpad/pool-back1102/firma-203.json)"
+  },
+  {
+   "name": "Badur, Yilmaz – Transporte – Hausmeisterservice",
+   "trade": "Hausmeisterservice & Transporte",
+   "city": "Neufahrn bei Freising",
+   "hint": "RESERVE 2026-11-02: alle Website-Prüfungen negativ, weder Google noch Freemail belegt; Tel. 0176 62391383 (Vorlage scratchpad/pool-back1102/firma-205.json)"
+  },
+  {
+   "name": "Christoph Daniel Kuske Fliesenlegermeisterbetrieb",
+   "trade": "Fliesen",
+   "city": "Unterschleißheim",
+   "hint": "2026-11-02: fliesen.kuske@web.de (Freemail!)"
+  },
+  {
+   "name": "Tauhid Bau",
+   "trade": "Hausmeister/Bau",
+   "city": "Freising",
+   "hint": "2026-11-02: Gmail laut 11880 (Freemail!)"
+  },
+  {
+   "name": "Martin Schlögl Metallgestaltung & Kunstschmiede",
+   "trade": "Metallbau",
+   "city": "Alling",
+   "hint": "2026-11-02: martin-schloegl@web.de (Freemail!)"
+  },
+  {
+   "name": "Metallbau Hoffmann",
+   "trade": "Metallbau",
+   "city": "Bergkirchen",
+   "hint": "2026-11-02: gmx (Freemail!)"
+  },
+  {
+   "name": "HMS Dormagen Hausmeisterservice",
+   "trade": "Hausmeister",
+   "city": "Olching",
+   "hint": "2026-11-02: hmsdormagen@gmx.de (Freemail!)"
   },
   {
    "name": "Jürgen Ostermeier Parkettlegermeister",
@@ -30,12 +84,6 @@
    "trade": "Elektro",
    "city": "Fraunberg",
    "hint": "08084 575; Website negativ, kein Google/Freemail – RESERVE"
-  },
-  {
-   "name": "Malermeister Alfred Bachmeier",
-   "trade": "Maler",
-   "city": "Wartenberg",
-   "hint": "08762 9610; Daten alt"
   },
   {
    "name": "Walter Meisinger Elektroinstallationen",
@@ -68,22 +116,10 @@
    "hint": "Domain negativ, kein Google/Freemail; 089 8503069"
   },
   {
-   "name": "Lichtenstern Christoph",
-   "trade": "Sanitär/Heizung",
-   "city": "Steindorf",
-   "hint": "ungeprüft"
-  },
-  {
    "name": "Josef Höhenleiter Schmiedemeister",
    "trade": "Schmiede",
    "city": "Hebertshausen",
    "hint": "keine Website, aber kein aktueller Betriebsnachweis"
-  },
-  {
-   "name": "Elektro Notdienst Moritz",
-   "trade": "Elektroinstallation",
-   "city": "Moosburg an der Isar",
-   "hint": "01579 2502397; ungeprüft, evtl. Medicvolt-Group"
   },
   {
    "name": "Ilir Metaj Hausmeister und Gebäudedienstleistung",
@@ -152,12 +188,6 @@
    "hint": "08171 96294"
   },
   {
-   "name": "Heiko Ehrhardt Installation und Heizungsbau",
-   "trade": "Sanitär & Heizung",
-   "city": "Taufkirchen",
-   "hint": "11880-Eintrag"
-  },
-  {
    "name": "Sebastian Ruck Heizung-Sanitär",
    "trade": "Sanitär & Heizung",
    "city": "Unterhaching",
@@ -174,12 +204,6 @@
    "trade": "Fliesenleger",
    "city": "Taufkirchen",
    "hint": "branchenbuch24"
-  },
-  {
-   "name": "Iljaz Husenaj Baudienstleistungen & Bauelemente",
-   "trade": "Fenster & Rollladen",
-   "city": "Unterhaching",
-   "hint": "089 61100978"
   },
   {
    "name": "Matthias Ebert Fliesenlegerei",
@@ -374,12 +398,6 @@
    "hint": "RESERVE-geprüft 2026-10-30 (Datei bereit, nicht gewählt): Website negativ, kein Google/Freemail; 089 8504351"
   },
   {
-   "name": "Fliesenlegerbetrieb Bajrami",
-   "trade": "Fliesenleger",
-   "city": "Petershausen",
-   "hint": "RESERVE-geprüft 2026-10-30 (Datei bereit, nicht gewählt): Website negativ, kein Google/Freemail; 0176 28444917"
-  },
-  {
    "name": "Saray Heizung Sanitär",
    "trade": "Sanitär & Heizung",
    "city": "Moosburg an der Isar",
@@ -408,12 +426,6 @@
    "trade": "Garten- und Landschaftsbau",
    "city": "Vierkirchen",
    "hint": "11880"
-  },
-  {
-   "name": "Bdp. Bodenleger Design Projekt",
-   "trade": "Bodenleger",
-   "city": "Olching",
-   "hint": "0177 5013842"
   },
   {
    "name": "Franz Skof Fliesenleger und Verfugung",
@@ -486,18 +498,6 @@
    "trade": "Zimmerei",
    "city": "Odelzhausen",
    "hint": "08134 5741"
-  },
-  {
-   "name": "Alois Bauer Schmiede",
-   "trade": "Metallbau",
-   "city": "Fraunberg",
-   "hint": "t-online laut 11880"
-  },
-  {
-   "name": "Fliesen Weber",
-   "trade": "Fliesenleger",
-   "city": "Erding",
-   "hint": "Brunnenweg 9, Festnetz"
   },
   {
    "name": "Die Leger Fliesenlegermeisterbetrieb",
@@ -626,12 +626,6 @@
    "hint": "089 9039100"
   },
   {
-   "name": "Elektro Leuthner",
-   "trade": "Elektroinstallation",
-   "city": "Ismaning",
-   "hint": "089 95840876"
-  },
-  {
    "name": "Elektro-Lutz Elektroinstallation",
    "trade": "Elektroinstallation",
    "city": "Ismaning",
@@ -648,12 +642,6 @@
    "trade": "Malerbetrieb",
    "city": "Unterschleißheim",
    "hint": "089 3103318"
-  },
-  {
-   "name": "Spenglerei Glas",
-   "trade": "Spenglerei",
-   "city": "Raisting",
-   "hint": "spenglerei-glas@gmx.de laut 11880"
   },
   {
    "name": "Peter Reicheneder Spenglerei Sanitäre Installation",
@@ -674,12 +662,6 @@
    "hint": "trustlocal"
   },
   {
-   "name": "Elektrotechnik Botzenhard",
-   "trade": "Elektroinstallation",
-   "city": "Penzberg",
-   "hint": "trustlocal"
-  },
-  {
    "name": "Eichberger Haustechnik",
    "trade": "Sanitär & Heizung",
    "city": "Peißenberg",
@@ -692,16 +674,208 @@
    "hint": "08802 9149328; Prüfungen negativ, kein Google/Freemail – RESERVE, Namensrisiko Parkett Kölbl klären"
   },
   {
-   "name": "Martin Engesser",
-   "trade": "Schreiner/Zimmerer/Fenster",
-   "city": "Feldafing",
-   "hint": "gmx laut 11880; ungeprüft (Agent gestoppt)"
+   "name": "Christian Schmid Maurermeister",
+   "trade": "Maurer",
+   "city": "Dachau",
+   "hint": "2026-11-02: (08131) 352018"
   },
   {
-   "name": "Irlesberger Fenster",
-   "trade": "Fenster",
-   "city": "Inning",
-   "hint": "t-online laut 11880; ungeprüft (Agent gestoppt)"
+   "name": "Günter Böhm Fliesenleger",
+   "trade": "Fliesen",
+   "city": "Altomünster",
+   "hint": "2026-11-02: 11880"
+  },
+  {
+   "name": "Johann Haas Fliesenlegermeister",
+   "trade": "Fliesen",
+   "city": "Altomünster",
+   "hint": "2026-11-02: 11880"
+  },
+  {
+   "name": "Geretshauser Parkett- und Fußbodentechnik",
+   "trade": "Parkett",
+   "city": "Markt Indersdorf",
+   "hint": "2026-11-02: (08136) 1408; Bodenmanufaktur GmbH gleiche Adresse"
+  },
+  {
+   "name": "W & S Wärme & Sanitär",
+   "trade": "Sanitär & Heizung",
+   "city": "Odelzhausen",
+   "hint": "2026-11-02: 08134/555290"
+  },
+  {
+   "name": "Haustechnik Prukop",
+   "trade": "Sanitär & Heizung",
+   "city": "Odelzhausen",
+   "hint": "2026-11-02: heizungsbau.net"
+  },
+  {
+   "name": "Ulrich Maier Holzbau",
+   "trade": "Zimmerei",
+   "city": "Altomünster",
+   "hint": "2026-11-02: (08258) 252"
+  },
+  {
+   "name": "Josef List Dachdeckerei und Spenglerei",
+   "trade": "Dachdecker",
+   "city": "Erdweg",
+   "hint": "2026-11-02: (08138) 6142"
+  },
+  {
+   "name": "Michael Schramml Metallbau",
+   "trade": "Metallbau",
+   "city": "Puchheim",
+   "hint": "2026-11-02: cylex"
+  },
+  {
+   "name": "Marco Bossmann Dachdeckerbetrieb",
+   "trade": "Dachdecker",
+   "city": "Planegg",
+   "hint": "2026-11-02: 089 89544930"
+  },
+  {
+   "name": "Dachdeckerbetrieb Steffen Böwing",
+   "trade": "Dachdecker",
+   "city": "Stockdorf |",
+   "hint": "2026-11-02: ungeprüft"
+  },
+  {
+   "name": "Michael Dorn GbR",
+   "trade": "Sanitär & Heizung",
+   "city": "Weßling",
+   "hint": "2026-11-02: 08153 4100"
+  },
+  {
+   "name": "Andreas Kiefl Sanitär und Heizungsbau",
+   "trade": "Sanitär & Heizung",
+   "city": "Eichenau",
+   "hint": "2026-11-02: 08141 538534"
+  },
+  {
+   "name": "TW Thomas Würstl Heizung und Sanitär e.K.",
+   "trade": "Sanitär & Heizung",
+   "city": "Stockdorf",
+   "hint": "2026-11-02: 089 37499223"
+  },
+  {
+   "name": "Hans Werner Maier Sanitärinstallation",
+   "trade": "Sanitär",
+   "city": "Gräfelfing",
+   "hint": "2026-11-02: 089 8543728; negativ, nur Reserve"
+  },
+  {
+   "name": "Elektro Brüning",
+   "trade": "Elektro",
+   "city": "Neufahrn",
+   "hint": "2026-11-02: 01520 6685371; Name+Tel negativ, Domain/Impressum offen"
+  },
+  {
+   "name": "Förg & Lücht GbR Hausmeisterservice",
+   "trade": "Hausmeister",
+   "city": "Freising",
+   "hint": "2026-11-02: 0176 30003306"
+  },
+  {
+   "name": "H & S GbR Trockenbau",
+   "trade": "Trockenbau",
+   "city": "Neufahrn",
+   "hint": "2026-11-02: 11880"
+  },
+  {
+   "name": "Alexander Escher Trockenbau/Maler",
+   "trade": "Trockenbau",
+   "city": "Freising |",
+   "hint": "2026-11-02: ungeprüft"
+  },
+  {
+   "name": "Campinie GbR",
+   "trade": "Hausmeister",
+   "city": "Freising",
+   "hint": "2026-11-02: 11880"
+  },
+  {
+   "name": "Jung Bauservice",
+   "trade": "GaLaBau",
+   "city": "Maisach",
+   "hint": "2026-11-02: 0176 22775242"
+  },
+  {
+   "name": "Stephan Metzger",
+   "trade": "Pflaster/Gartenbau/Zäune",
+   "city": "Olching",
+   "hint": "2026-11-02: 08142 16061"
+  },
+  {
+   "name": "Schreinerei Thomas Wimmer",
+   "trade": "Schreiner",
+   "city": "Türkenfeld |",
+   "hint": "2026-11-02: ungeprüft"
+  },
+  {
+   "name": "Johann Grund Schlosserei",
+   "trade": "Schlosser",
+   "city": "Moorenweis |",
+   "hint": "2026-11-02: ungeprüft"
+  },
+  {
+   "name": "Elektro Brüning (Patrick Brüning)",
+   "trade": "Elektro",
+   "city": "Neufahrn",
+   "hint": "2026-11-02: 01520 6685371; alle Website-Prüfungen negativ, nur RESERVE"
+  },
+  {
+   "name": "Helmut Schwaiger Heizung Sanitär Klima",
+   "trade": "Sanitär",
+   "city": "Freising",
+   "hint": "2026-11-02: evtl. t-online"
+  },
+  {
+   "name": "Dachtechnik Arnusch",
+   "trade": "Dachdecker",
+   "city": "Fürstenfeldbruck",
+   "hint": "2026-11-02: 08141 8905670"
+  },
+  {
+   "name": "Berchthold Elektro",
+   "trade": "Elektro",
+   "city": "Dachau |",
+   "hint": "2026-11-02: ungeprüft"
+  },
+  {
+   "name": "Jung Bauservice (Lukas Jung)",
+   "trade": "GaLaBau",
+   "city": "Maisach",
+   "hint": "2026-11-02: 0176 22775242; alle Prüfungen negativ, nur RESERVE"
+  },
+  {
+   "name": "Klostermann Elektroinstallation",
+   "trade": "Elektro",
+   "city": "Emmering",
+   "hint": "2026-11-02: (08141) 536414"
+  },
+  {
+   "name": "Andrea Elektrotechnik Müller Adrian G",
+   "trade": "Elektro",
+   "city": "Fürstenfeldbruck",
+   "hint": "2026-11-02: (08141) 8898982"
+  },
+  {
+   "name": "Montage Y-A Elektroinstallation",
+   "trade": "Elektro",
+   "city": "Fürstenfeldbruck",
+   "hint": "2026-11-02: (08141) 8910211"
+  },
+  {
+   "name": "Heizung und Sanitär Gottschalk",
+   "trade": "Sanitär",
+   "city": "Dachau",
+   "hint": "2026-11-02: 11880"
+  },
+  {
+   "name": "imm Haustechnik",
+   "trade": "Sanitär",
+   "city": "Karlsfeld",
+   "hint": "2026-11-02: 11880"
   }
  ]
 }

@@ -1,107 +1,125 @@
 {
   "id": "2026-11-02-195",
-  "slug": "bdp-bodenleger-design-projekt-olching",
+  "slug": "alois-bauer-schlosserei-fraunberg",
   "date": "2026-11-02",
   "company": {
-    "name": "Bdp. Bodenleger Design Projekt",
-    "owner": null,
-    "trade": "Bodenleger & Trockenbau",
-    "city": "Olching",
-    "address": "Buchfinkenstr. 5, 82140 Olching",
-    "phone": "0177 5013842",
-    "email": null,
+    "name": "Alois Bauer Schmiede",
+    "owner": "Alois Bauer",
+    "trade": "Metallbau & Schlosserei",
+    "city": "Fraunberg",
+    "address": "Rappoltskirchen 2, 85447 Fraunberg",
+    "phone": "08084 1389",
+    "email": "schlosserei.bauer@t-online.de",
     "serviceArea": [
-      "Olching",
-      "Esting",
-      "Gröbenzell",
-      "Eichenau",
-      "Puchheim",
-      "Fürstenfeldbruck",
-      "Karlsfeld"
+      "Fraunberg",
+      "Rappoltskirchen",
+      "Wartenberg",
+      "Berglern",
+      "Bockhorn",
+      "Langenpreising",
+      "Erding"
     ]
   },
   "listings": {
     "google": {
-      "url": "https://www.google.com/maps/search/?api=1&query=Bodenleger%20Design%20Projekt%20Buchfinkenstr.%205%20Olching",
+      "url": "https://www.google.com/maps/search/?api=1&query=Alois%20Bauer%20Schmiede%20Rappoltskirchen%202%20Fraunberg",
       "rating": null,
       "reviews": null,
-      "evidence": "NICHT BELEGT – kein Google-Spiegel (trustlocal, firmania, rgv-bayern) zu „Bodenleger Design Projekt“ gefunden. In Google Maps prüfen."
+      "evidence": "KEIN direkter Google-Beleg gefunden (kein Treffer auf Google-Spiegeln). Annahme über öffentlich belegte Freemail-Adresse schlosserei.bauer@t-online.de (11880-Strukturdaten und Gewerbeverein Fraunberg; ältere Listung schreibt schlosserei-bauer@t-online.de). Google-Eintrag in Maps prüfen."
     },
     "myhammer": {
-      "url": "https://www.dasoertliche.de/Themen/Parkett/Olching.html",
+      "url": "https://www.11880.com/branchenbuch/fraunberg-oberbayern/250203636B27657355/alois-bauer-schmiede.html",
       "rating": null,
       "reviews": null,
-      "evidence": "Kein MyHammer gefunden – Verzeichnis-Snippets (11880/Das Örtliche, Olching) führen „Bdp. Bodenleger Design Projekt“, Buchfinkenstr. 5, 82140 Olching, (0177) 5013842, Kategorien Trockenbau, Parkettleger & Montagearbeiten, keine Öffnungszeiten. Genaue Einzel-URL nicht erfasst."
+      "evidence": "Kein MyHammer gefunden – Einträge bei 11880 („Alois Bauer Schmiede“), Gewerbeverein Fraunberg („Metallbau - Schlosserei Alois Bauer“), schlosserei.net, metallbauer.io, orte.muenchen.de und bundes-telefonbuch (Rappoltskirchen 2, 08084 1389)."
     }
   },
   "websiteStatus": "keine eigene Website gefunden",
   "websiteChecks": [
-    "(1) Namenssuche „Bodenleger Design Projekt Olching“ (offen) – nur Portale (meister-job, trustlocal-Ortsliste, my-hammer), kein Treffer zum Betrieb, keine Domain",
-    "(2) Verzeichnissuche (11880, Das Örtliche, Gelbe Seiten, trustlocal, firmania) – nur Eintrag mit Adresse und Handynummer, kein Website-Feld, keine E-Mail",
-    "(3) Telefonsuche „0177 5013842“/„01775013842“/„0177/5013842“ – keine Treffer, keine Website",
-    "(4) Domain-Check allowed_domains bdp-bodenleger.de, bodenleger-design-projekt.de, bdp-olching.de, bodenlegerdesignprojekt.de, bdp-boden.de, bdp-design.de, bodenleger-olching.de, bdp-bodenlegerdesign.de – keine Treffer",
-    "(5) Impressum-Suche „Impressum Buchfinkenstr. 5 Olching Bodenleger“ – kein Impressum an dieser Adresse (nur andere Olchinger Bodenleger: Bodenbeläge Müller, W&B Bodenbeläge, Bruckerboden – andere Firmen)",
-    "Website-Risiko: niedrig – alle Prüfungen negativ; aber weder Google-Eintrag noch Freemail belegt (RESERVE)"
+    "(1) „Alois Bauer Schmiede Fraunberg“ mit blocked_domains (11880, Gelbe Seiten, Das Örtliche, Telefonbuch, Cylex, meinestadt, Creditreform, Facebook, Instagram, golocal, MyHammer, Northdata, Firmenwissen, WKDB, Yelp, trustlocal, wlw) – nur Verzeichnisse (11880, bundes-telefonbuch, goyellow), keine eigene Domain",
+    "(2) „Metallbau Schlosserei Alois Bauer Fraunberg Website Impressum“ mit blocked_domains – nur Verzeichnisse (schlosserei.net, gv-fraunberg.de, orte.muenchen.de, metallbauer.io, klicktel), kein Impressum, keine Website",
+    "(3) Domain-Check allowed_domains schlosserei-bauer.de, schmiede-bauer.de, bauer-schmiede.de, schlosserei-bauer-fraunberg.de, schmiede-bauer-fraunberg.de, bauer-fraunberg.de, schlosserei-bauer-rappoltskirchen.de, metallbau-bauer-fraunberg.de – einziger Treffer schlosserei-bauer.de = Bauer Tür und Technik GmbH (automatische Türsysteme, Raum München, info@btut.de) – andere Firma, kein Bezug zu Rappoltskirchen",
+    "(4) Telefonsuche „08084 1389“ mit blocked_domains – nur Verzeichnisse (stadtbranchenbuch, orte.muenchen.de, gv-fraunberg.de, schlosserei.net), keine Website",
+    "(5) E-Mail auf t-online.de (Freemail), keine Firmendomain",
+    "Website-Risiko: mittel – alle Prüfungen negativ, aber kein Google-Beleg und Aktivität unklar (einige 11880-Listen zeigen „geschlossen“, bundes-telefonbuch-Stand 2018)"
   ],
   "facts": {
     "services": [
-      "Parkett verlegen",
-      "Trockenbau",
-      "Montagearbeiten"
+      "Metallbau",
+      "Schlosserei",
+      "Schmiede",
+      "Metallbearbeitung"
     ],
     "experience": null,
     "praisedFor": []
   },
   "strategy": {
-    "audience": "Wohnungs- und Hausbesitzer in Olching, Esting, Gröbenzell und Eichenau, die Böden erneuern oder Räume im Innenausbau umgestalten",
-    "mainService": "Bodenverlegung (Parkett) und Trockenbau",
-    "trustSignal": "Betrieb mit Adresse in Olching, direkt per Handy erreichbar",
-    "conversionGoal": "Anfrage per WhatsApp oder Anruf mit Fotos und Quadratmetern",
-    "visualConcept": "Warme Holztöne: frisch verlegtes Parkett im Wohnraum, saubere Sockelleisten, helle Trockenbauwände"
+    "audience": "Hausbesitzer, Landwirte und Gewerbe in Fraunberg, Wartenberg, Bockhorn und im nördlichen Landkreis Erding, die Geländer, Tore, Gitter oder Reparaturen aus Metall brauchen",
+    "mainService": "Schlosser- und Schmiedearbeiten – Anfertigung und Reparatur",
+    "trustSignal": "Schmiede und Schlosserei direkt in Rappoltskirchen, Mitglied im Gewerbeverein Fraunberg",
+    "conversionGoal": "Anfrage für Anfertigung oder Reparatur per Telefon oder E-Mail (mit Foto und Maßen)",
+    "visualConcept": "Werkstatt-Ästhetik: Amboss, Funken, geschmiedetes Eisen und verzinkter Stahl – handfest und ländlich"
   },
   "sales": {
-    "score": 4,
+    "score": 5,
     "whyGoodLead": [
-      "Keine eigene Website gefunden – nur Verzeichniseintrag",
-      "Mobilnummer öffentlich gelistet – WhatsApp-Erstkontakt möglich",
-      "Boden plus Trockenbau – breites Angebot, das auf einer Website gut erklärt werden kann",
-      "Olching liegt in einer viel abgesuchten Region (G2) – passt ins Tagesgebiet"
+      "Keine eigene Website gefunden – nur Verzeichniseinträge",
+      "Freemail-Adresse (t-online) öffentlich gelistet – kein eigener Webauftritt",
+      "Metallbau/Schlosserei ist bisher selten unter den Leads",
+      "Ländlicher Betrieb, Anfragen laufen heute nur über Telefonbuch-Einträge"
     ],
-    "pitch": "Hallo, hier ist … – ich baue Websites für Handwerker im Landkreis Fürstenfeldbruck. Ich habe Ihren Eintrag „Bodenleger Design Projekt“ in Olching gefunden, aber keine eigene Website. Ich habe unverbindlich einen Entwurf vorbereitet, auf dem Kunden Ihre Parkett- und Trockenbauarbeiten sehen und Sie direkt per WhatsApp anfragen können – darf ich Ihnen den Link schicken?"
+    "pitch": "Grüß Gott Herr Bauer, hier ist … – ich baue Websites für Handwerksbetriebe im Landkreis Erding. Ich habe Ihre Schmiede und Schlosserei in Rappoltskirchen im Branchenbuch gefunden, aber keine eigene Website. Ich habe unverbindlich einen Entwurf vorbereitet, auf dem Kunden Ihre Metallarbeiten sehen und direkt anfragen können – darf ich Ihnen den Link per E-Mail schicken?"
   },
   "manualChecks": [
-    "RESERVE – weder Google-Eintrag noch Freemail-Adresse belegt: NUR versenden, wenn Google Maps einen Eintrag OHNE Website zeigt.",
-    "Inhabername unbekannt – beim Erstkontakt erfragen; Anrede neutral halten",
-    "Firmenname schwankt in Verzeichnissen („Bdp. Bodenleger Design Projekt“ / „Bodenleger Design Projekt“) – Schreibweise bestätigen",
-    "Leistungen nur grob belegt (Trockenbau, Parkettleger, Montagearbeiten) – Detailleistungen (Vinyl, Laminat, Schleifen) beim Betrieb bestätigen",
-    "Quell-URL des Verzeichniseintrags nicht exakt erfasst – vor Versand Eintrag in 11880/Das Örtliche aufrufen",
+    "Website-Risiko: mittel – vor Versand in Google Maps prüfen, dass keine Website hinterlegt ist (Grund: kein Google-Beleg gefunden, nur Freemail; Betrieb evtl. nicht mehr aktiv)",
+    "Betrieb aktiv? Einige 11880-Listen zeigen „geschlossen“, Daten teils von 2018 – vor Kontakt per Anruf oder Maps bestätigen",
+    "E-Mail-Schreibweise klären: schlosserei.bauer@t-online.de (11880, Gewerbeverein) vs. schlosserei-bauer@t-online.de (ältere Listung)",
+    "Zweite Nummer laut Gewerbeverein/schlosserei.net: 08084 2589411 (evtl. Fax) – Festnetz 08084 1389, keine Mobilnummer bekannt",
+    "Leistungen nur grob belegt (Metallbau, Schlosserei, Schmiede, Metallbearbeitung) – Geländer, Tore, Treppen, Landtechnik-Reparatur beim Betrieb bestätigen",
     "Logo und Projektfotos: nicht gefunden – beim Betrieb anfragen"
   ],
   "sources": [
     {
-      "label": "Das Örtliche – Parkett in Olching (Ortsliste)",
-      "url": "https://www.dasoertliche.de/Themen/Parkett/Olching.html"
+      "label": "11880 – Alois Bauer Schmiede, Fraunberg",
+      "url": "https://www.11880.com/branchenbuch/fraunberg-oberbayern/250203636B27657355/alois-bauer-schmiede.html"
     },
     {
-      "label": "Das Örtliche – Bodenbeläge in Olching (Ortsliste)",
-      "url": "https://www.dasoertliche.de/Themen/Bodenbel%C3%A4ge/Olching.html"
+      "label": "Gewerbeverein Fraunberg – Metallbau - Schlosserei Alois Bauer",
+      "url": "https://gv-fraunberg.de/directory-directory/listing/metallbau-schlosserei-alois-bauer/"
+    },
+    {
+      "label": "schlosserei.net – Alois Bauer Schlosserei Fraunberg",
+      "url": "https://www.schlosserei.net/fraunberg/alois-bauer-schlosserei-aULWr6"
+    },
+    {
+      "label": "orte.muenchen.de – Bauer Alois Fraunberg Schlosserei",
+      "url": "https://orte.muenchen.de/165549.html"
+    },
+    {
+      "label": "Bundes-Telefonbuch – Bauer Alois Schmiede, Rappoltskirchen",
+      "url": "https://www.bundes-telefonbuch.de/fraunberg-rappoltskirchen/firma/bauer-alois-schmiede-bvg610808483"
+    },
+    {
+      "label": "metallbauer.io – Alois Bauer Schlosserei",
+      "url": "https://metallbauer.io/5147-alois-bauer-schlosserei"
     }
   ],
   "site": {
-    "theme": "atelier",
+    "theme": "werk",
     "category": "handwerk",
     "heroOffer": [
-      "Parkett",
-      "Trockenbau",
-      "Montage",
-      "Sockelleisten"
+      "Geländer",
+      "Tore",
+      "Schmiedearbeiten",
+      "Reparaturen",
+      "Schweißen"
     ],
-    "scene": "parquet",
-    "logoIcon": "plank",
-    "logoMark": "BDP",
-    "brandName": "Bodenleger Design Projekt",
-    "seoTitle": "Parkett & Trockenbau in Olching – Bodenleger Design Projekt",
-    "seoDescription": "Parkett verlegen, Trockenbau und Montagearbeiten in Olching, Gröbenzell und Eichenau. Fotos per WhatsApp schicken und Angebot anfragen.",
+    "scene": "facade",
+    "logoIcon": "house",
+    "logoMark": "AB",
+    "brandName": "Schlosserei Alois Bauer",
+    "seoTitle": "Schlosserei & Schmiede in Fraunberg – Alois Bauer",
+    "seoDescription": "Metallbau, Schlosser- und Schmiedearbeiten aus Rappoltskirchen bei Fraunberg. Geländer, Tore und Reparaturen – jetzt anfragen.",
     "nav": [
       {
         "label": "Leistungen",
@@ -129,132 +147,132 @@
       }
     ],
     "hero": {
-      "eyebrow": "Parkett · Trockenbau · Olching",
-      "headline": "Neue Böden und Wände in Olching",
-      "sub": "Parkett, Trockenbau und Montage aus Olching – Anfrage direkt per WhatsApp.",
-      "ctaPrimary": "Angebot per WhatsApp",
+      "eyebrow": "Schmiede & Schlosserei · Rappoltskirchen",
+      "headline": "Schlosserei und Schmiede in Fraunberg",
+      "sub": "Geländer, Tore und Reparaturen aus Metall – gefertigt in Rappoltskirchen.",
+      "ctaPrimary": "Anfrage senden",
       "ctaSecondary": "Anrufen",
       "bullets": [
-        "Parkett verlegen",
-        "Trockenbau und Montage",
-        "Per Handy erreichbar"
+        "Werkstatt in Rappoltskirchen",
+        "Anfertigung und Reparatur",
+        "Kurze Wege im Landkreis Erding"
       ],
-      "imageLabel": "frisch verlegtes Eichenparkett im Wohnzimmer"
+      "imageLabel": "Schmiedewerkstatt mit Amboss und geschmiedetem Geländer"
     },
     "badges": [
       {
-        "title": "Parkett",
-        "sub": "neu verlegt"
+        "title": "Schlosserei",
+        "sub": "Anfertigung nach Maß"
       },
       {
-        "title": "Trockenbau",
-        "sub": "Wände & Decken"
+        "title": "Schmiede",
+        "sub": "Eisen in Form"
       },
       {
-        "title": "Montage",
-        "sub": "Leisten & Einbauten"
+        "title": "Reparatur",
+        "sub": "statt Neukauf"
       },
       {
-        "title": "Olching",
-        "sub": "Buchfinkenstraße"
+        "title": "Rappoltskirchen",
+        "sub": "Gemeinde Fraunberg"
       }
     ],
     "trust": [
       {
-        "value": "Olching",
-        "label": "Betrieb vor Ort"
+        "value": "Vor Ort",
+        "label": "Werkstatt in Rappoltskirchen"
       },
       {
-        "value": "3",
-        "label": "Gewerke: Boden, Trockenbau, Montage"
+        "value": "Metall",
+        "label": "Stahl und Eisen"
       },
       {
-        "value": "WhatsApp",
-        "label": "Fotos schicken, Antwort erhalten"
+        "value": "Maß",
+        "label": "Einzelstücke statt Katalog"
       },
       {
-        "value": "FFB",
-        "label": "Landkreis Fürstenfeldbruck"
+        "value": "Direkt",
+        "label": "Ansprechpartner Alois Bauer"
       }
     ],
     "servicesIntro": {
-      "headline": "Boden und Ausbau, abgestimmt in einem Auftrag",
-      "text": "Wer Wände versetzt, braucht danach oft einen neuen Boden. Hier kommen Trockenbau und Parkett von einem Betrieb."
+      "headline": "Metallarbeiten aus Rappoltskirchen",
+      "text": "Ob neues Hoftor, Treppengeländer oder ein gebrochenes Beschlagteil: Die Werkstatt fertigt und repariert, was aus Metall ist."
     },
     "services": [
       {
-        "title": "Parkett verlegen",
-        "text": "Neues Parkett im Wohnraum, Schlafzimmer oder Flur – auf vorbereitetem Untergrund verlegt.",
+        "title": "Geländer",
+        "text": "Treppen- und Balkongeländer aus Stahl, angepasst an Haus und Treppe vor Ort.",
         "items": [
-          "Fertigparkett",
-          "Wohnräume",
-          "Flure"
+          "Treppengeländer",
+          "Balkongeländer",
+          "Handläufe"
         ]
       },
       {
-        "title": "Bodenwechsel",
-        "text": "Alter Belag raus, neuer Boden rein – für Renovierung oder Mieterwechsel.",
+        "title": "Tore und Zäune",
+        "text": "Hoftore, Gartentüren und Zaunfelder in passender Höhe und Breite.",
         "items": [
-          "Altbelag entfernen",
-          "Untergrund prüfen",
-          "Neuverlegung"
+          "Hoftore",
+          "Gartentüren",
+          "Zaunfelder"
         ]
       },
       {
-        "title": "Sockelleisten",
-        "text": "Saubere Abschlüsse an Wand und Türen geben dem Boden den letzten Schliff.",
+        "title": "Schmiedearbeiten",
+        "text": "Geschmiedete Teile von Hand: Haken, Beschläge, Ziergitter und Ersatzteile.",
         "items": [
-          "Leisten",
-          "Übergänge",
-          "Türschwellen"
+          "Beschläge",
+          "Ziergitter",
+          "Einzelteile"
         ]
       },
       {
-        "title": "Trockenbauwände",
-        "text": "Neue Raumaufteilung mit Ständerwänden, bereit für Farbe oder Tapete.",
+        "title": "Reparaturen",
+        "text": "Gebrochene Scharniere, verbogene Tore oder rostige Gitter werden instand gesetzt.",
         "items": [
-          "Ständerwände",
-          "Raumteiler",
-          "Verspachteln"
+          "Schweißreparatur",
+          "Scharniere",
+          "Gitter"
         ]
       },
       {
-        "title": "Decken & Verkleidungen",
-        "text": "Abgehängte Decken und verkleidete Leitungen für ein ruhiges Raumbild.",
+        "title": "Schweißarbeiten",
+        "text": "Stahlteile werden verschweißt, verstärkt oder verlängert – in der Werkstatt oder vor Ort.",
         "items": [
-          "Abgehängte Decken",
-          "Vorsatzschalen",
-          "Verkleidungen"
+          "Stahlteile",
+          "Verstärkungen",
+          "Anbauten"
         ]
       },
       {
-        "title": "Montagearbeiten",
-        "text": "Montage im Innenausbau, die zu Boden und Wänden dazugehört.",
+        "title": "Metallbearbeitung",
+        "text": "Zuschnitt, Bohren und Biegen von Stahl für eigene Projekte und kleine Serien.",
         "items": [
-          "Innenausbau",
-          "Einbauten",
-          "Kleinmontagen"
+          "Zuschnitt",
+          "Bohren",
+          "Biegen"
         ]
       }
     ],
     "why": {
-      "headline": "Boden und Trockenbau aus einer Hand – in Olching.",
+      "headline": "Eine Werkstatt im Dorf statt Katalogware.",
       "points": [
         {
-          "title": "Ein Auftrag",
-          "text": "Trockenbau und Parkett werden aufeinander abgestimmt, statt zwei Firmen zu koordinieren."
+          "title": "Einzelstücke",
+          "text": "Jedes Teil wird für Ihr Haus, Ihren Hof oder Ihre Treppe gefertigt."
+        },
+        {
+          "title": "Reparieren lohnt",
+          "text": "Altes Tor oder Gitter? Oft reicht eine Reparatur statt Neukauf."
         },
         {
           "title": "Kurze Wege",
-          "text": "Von der Buchfinkenstraße schnell in Esting, Gröbenzell und Eichenau."
+          "text": "Von Rappoltskirchen schnell in Fraunberg, Wartenberg, Bockhorn und Erding."
         },
         {
-          "title": "Fotos genügen",
-          "text": "Ein paar Fotos und die Quadratmeter per WhatsApp reichen für eine erste Einschätzung."
-        },
-        {
-          "title": "Direkter Kontakt",
-          "text": "Sie schreiben oder telefonieren direkt mit dem Betrieb."
+          "title": "Ein Ansprechpartner",
+          "text": "Sie sprechen direkt mit Alois Bauer – von der Anfrage bis zur Montage."
         }
       ]
     },
@@ -262,116 +280,116 @@
       "headline": "Was Kunden sagen",
       "summary": "Kundenstimmen werden hier eingebunden, sobald sie aus dem Google-Profil übernommen sind.",
       "highlights": [
-        "Parkett in Olching",
-        "Trockenbau",
+        "Schlosserei in Rappoltskirchen",
+        "Anfertigung und Reparatur",
         "Direkter Kontakt"
       ],
       "source": "Google",
-      "sourceUrl": "https://www.google.com/maps/search/?api=1&query=Bodenleger%20Design%20Projekt%20Buchfinkenstr.%205%20Olching",
+      "sourceUrl": "https://www.google.com/maps/search/?api=1&query=Alois%20Bauer%20Schmiede%20Rappoltskirchen%202%20Fraunberg",
       "rating": null,
       "count": null
     },
     "process": {
-      "headline": "In vier Schritten zum neuen Raum",
+      "headline": "So kommt Ihr Metallteil zustande",
       "steps": [
         {
-          "title": "Fotos schicken",
-          "text": "Raum fotografieren, Quadratmeter dazuschreiben und per WhatsApp senden."
+          "title": "Anfrage",
+          "text": "Anrufen oder ein Foto mit groben Maßen per E-Mail schicken."
         },
         {
-          "title": "Besichtigung",
-          "text": "Untergrund, Wände und Wünsche werden vor Ort angeschaut."
+          "title": "Aufmaß",
+          "text": "Maße und Ausführung werden vor Ort oder in der Werkstatt geklärt."
         },
         {
-          "title": "Angebot",
-          "text": "Sie erhalten ein Angebot mit Material, Umfang und Termin."
+          "title": "Fertigung",
+          "text": "Das Teil entsteht in der Werkstatt in Rappoltskirchen."
         },
         {
-          "title": "Umsetzung",
-          "text": "Wände, Boden und Leisten werden gebaut und sauber übergeben."
+          "title": "Montage",
+          "text": "Einbau vor Ort oder Abholung in der Werkstatt."
         }
       ]
     },
     "gallery": {
-      "headline": "Räume, die neu werden",
-      "text": "Für die Live-Version zeigen wir hier echte Projekte des Betriebs.",
+      "headline": "Aus der Werkstatt",
+      "text": "Für die Live-Version zeigen wir hier echte Arbeiten der Schlosserei.",
       "items": [
         {
-          "title": "Eichenparkett",
-          "photoNeeded": "frisch verlegtes Parkett im Wohnzimmer"
+          "title": "Hoftor",
+          "photoNeeded": "geschweißtes Stahltor an einer Hofeinfahrt"
         },
         {
-          "title": "Neue Trennwand",
-          "photoNeeded": "Ständerwand verspachtelt, bereit zum Streichen"
+          "title": "Treppengeländer",
+          "photoNeeded": "Stahlgeländer an einer Außentreppe"
         },
         {
-          "title": "Sockelleisten",
-          "photoNeeded": "Detail Parkett mit sauberer Leiste"
+          "title": "Am Amboss",
+          "photoNeeded": "glühendes Eisen auf dem Amboss"
         },
         {
-          "title": "Abgehängte Decke",
-          "photoNeeded": "glatte Decke mit Einbauleuchten"
+          "title": "Ziergitter",
+          "photoNeeded": "geschmiedetes Fenstergitter"
         },
         {
-          "title": "Flur neu",
-          "photoNeeded": "Flur mit neuem Boden"
+          "title": "Reparatur",
+          "photoNeeded": "instand gesetztes altes Tor vorher/nachher"
         }
       ]
     },
     "region": {
-      "headline": "Für Olching und den Landkreis Fürstenfeldbruck",
-      "text": "Von Olching aus schnell in Esting, Gröbenzell, Eichenau, Puchheim, Fürstenfeldbruck und Karlsfeld.",
+      "headline": "Metallarbeiten für Fraunberg und den Landkreis Erding",
+      "text": "Von Rappoltskirchen aus nach Fraunberg, Wartenberg, Berglern, Bockhorn, Langenpreising und Erding.",
       "places": [
-        "Olching",
-        "Esting",
-        "Gröbenzell",
-        "Eichenau",
-        "Puchheim",
-        "Fürstenfeldbruck",
-        "Karlsfeld"
+        "Fraunberg",
+        "Rappoltskirchen",
+        "Wartenberg",
+        "Berglern",
+        "Bockhorn",
+        "Langenpreising",
+        "Erding"
       ]
     },
     "faq": [
       {
-        "q": "Kann ich vorab Fotos schicken?",
-        "a": "Ja, Fotos und grobe Quadratmeter per WhatsApp helfen für eine erste Einschätzung."
+        "q": "Fertigen Sie auch Einzelstücke?",
+        "a": "Ja, Geländer, Tore und Gitter werden nach Ihren Maßen angefertigt."
       },
       {
-        "q": "Muss der alte Boden vorher raus?",
-        "a": "Das hängt vom Untergrund ab und wird bei der Besichtigung geklärt."
+        "q": "Lohnt sich eine Reparatur meines alten Tors?",
+        "a": "Oft ja. Schicken Sie ein Foto – dann gibt es eine erste Einschätzung."
       },
       {
-        "q": "Machen Sie Trockenbau und Boden im selben Auftrag?",
-        "a": "Ja, beides gehört zum Angebot und lässt sich zeitlich abstimmen."
+        "q": "Kann ich ein Teil in der Werkstatt vorbeibringen?",
+        "a": "Nach kurzer telefonischer Absprache ja, die Werkstatt ist in Rappoltskirchen 2."
       },
       {
-        "q": "Arbeiten Sie auch außerhalb von Olching?",
-        "a": "Ja, im Umkreis von Olching – fragen Sie einfach an."
+        "q": "Montieren Sie die Teile auch vor Ort?",
+        "a": "Ja, Einbau und Montage werden bei der Anfrage mit abgestimmt."
       },
       {
-        "q": "Wie schnell bekomme ich ein Angebot?",
-        "a": "Nach der Besichtigung erhalten Sie ein Angebot; den Termin stimmen wir telefonisch ab."
+        "q": "Wie erreiche ich Sie am besten?",
+        "a": "Telefonisch unter 08084 1389 oder per E-Mail mit Foto und Maßen."
       }
     ],
     "contact": {
-      "headline": "Projekt beschreiben, Angebot erhalten",
-      "text": "Welcher Raum, wie viele Quadratmeter, Boden, Wand oder beides? Fotos helfen bei der Einschätzung.",
+      "headline": "Ihr Metallteil – unverbindlich anfragen",
+      "text": "Beschreiben Sie kurz, was gebraucht wird: Geländer, Tor, Gitter oder Reparatur. Fotos und grobe Maße helfen.",
       "topics": [
-        "Parkett",
-        "Bodenwechsel",
-        "Trockenbau",
-        "Montage",
+        "Geländer",
+        "Tore und Zäune",
+        "Schmiedearbeiten",
+        "Reparatur",
         "Sonstiges"
       ],
-      "responseNote": "Besichtigung nach Absprache."
+      "responseNote": "Rückmeldung nach Absprache, Termine in der Werkstatt nach Vereinbarung."
     },
     "quote": {
-      "sizeLabel": "Wie groß ist das Projekt?",
+      "sizeLabel": "Was soll gefertigt werden?",
       "sizes": [
-        "Ein Raum",
-        "Mehrere Räume",
-        "Ganze Wohnung",
-        "Nur Trockenbau"
+        "Kleines Einzelteil",
+        "Gitter oder Geländer",
+        "Tor oder Zaun",
+        "Reparatur"
       ],
       "timings": [
         "So bald wie möglich",
@@ -380,15 +398,21 @@
         "Ich plane erst noch"
       ]
     },
-    "stickyCta": "Fotos per WhatsApp senden",
+    "stickyCta": "Jetzt anfragen",
     "look": {
-      "palette": 2,
-      "font": 6,
-      "hero": 0,
+      "skin": "kante",
+      "palette": 3,
+      "font": 3,
+      "hero": 3,
       "services": 1,
       "radius": 1,
-      "logo": 0,
-      "intro": 5
+      "logo": 3,
+      "intro": 2,
+      "projects": 0,
+      "process": 1,
+      "faq": 0,
+      "reviews": 1,
+      "order": 3
     }
   }
 }

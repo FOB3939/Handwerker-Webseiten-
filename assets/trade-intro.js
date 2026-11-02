@@ -1,5 +1,5 @@
 /* Logo-Intro je Gewerk (ca. 3 s): ergänzt das vorhandene .demo-splash um eine passende Szene
-   (Wasser, Strom, Holz, Farbe, Fliesen, Garten, Trockenbau, Mauerwerk, Dach, Hausmeister).
+   (Wasser, Strom, Holz, Farbe, Fliesen, Garten, Trockenbau, Mauerwerk, Dach, Hausmeister, Metallbau).
    Das Gewerk wird aus dem Intro-Untertitel („<Gewerk> in <Ort>“) gelesen. Ohne Abhängigkeiten,
    respektiert „Bewegung reduzieren“. Verlängert das Intro und verschiebt die Hero-Animationen passend. */
 (function () {
@@ -11,6 +11,7 @@
   var RULES = [
     [/elektr|strom|photovoltaik|solar|wallbox|blitz/i, "electric"],
     [/dach/i, "roof"],
+    [/schlosser|schmied|metall|stahlbau|geländer/i, "metal"],
     [/sanit|installateur|heizung|klempner|bäder|badsanierung|wasser|rohr|spengler/i, "water"],
     [/schreiner|tischler|zimmer|holz|parkett|boden|dielen|möbel|küchen/i, "wood"],
     [/maler|lackier|anstrich|tapezier/i, "paint"],
@@ -91,6 +92,14 @@
     ".ti-door.l{left:0;transform-origin:left;--r:-80deg}.ti-door.r{right:0;transform-origin:right;--r:80deg}",
     ".ti-door:after{content:'';top:50%;width:8px;height:40px;margin-top:-20px;border-radius:4px;background:#d4b26a;position:absolute}.ti-door.l:after{right:18px}.ti-door.r:after{left:18px}",
     "@keyframes ti-door{to{transform:perspective(900px) rotateY(var(--r));opacity:.15}}",
+    // Metallbau/Schmiede: Stahlprofil fährt ein, glüht am Schweißpunkt, Funken sprühen
+    ".ti-beam{left:-5%;right:-5%;top:76%;height:18px;background:linear-gradient(180deg,#9aa3ab,#5d656c 55%,#3c4247);box-shadow:0 2px 0 rgba(0,0,0,.35);transform:translateX(-110%);animation:ti-beam .8s cubic-bezier(.2,.8,.2,1) .1s forwards}",
+    ".ti-post{bottom:0;width:14px;height:24%;background:linear-gradient(90deg,#4a5157,#8b949b 50%,#4a5157);transform:scaleY(0);transform-origin:bottom;animation:ti-post .55s cubic-bezier(.2,.8,.2,1) forwards}",
+    "@keyframes ti-beam{to{transform:none}}@keyframes ti-post{to{transform:none}}",
+    ".ti-weld{left:50%;top:calc(76% + 9px);width:16px;height:16px;margin:-8px 0 0 -8px;border-radius:50%;background:#fff6c8;box-shadow:0 0 18px 8px rgba(255,170,60,.85),0 0 60px 20px rgba(255,120,30,.45);opacity:0;animation:ti-weld 1.3s ease-out .85s both}",
+    "@keyframes ti-weld{0%{opacity:0}10%{opacity:1}25%{opacity:.6}40%{opacity:1}70%{opacity:.9}100%{opacity:0}}",
+    ".ti-spark{left:50%;top:calc(76% + 9px);width:3px;height:9px;border-radius:2px;background:linear-gradient(#fff3b0,#ff9a2e);opacity:0;animation:ti-spark .9s cubic-bezier(.2,.6,.4,1) both}",
+    "@keyframes ti-spark{0%{opacity:1;transform:translate(0,0) rotate(var(--a))}100%{opacity:0;transform:translate(var(--x),var(--y)) rotate(var(--a))}}",
   ].join("");
   var st = document.createElement("style");
   st.textContent = css;
@@ -146,6 +155,11 @@
     for (var rr = 0; rr < 4; rr++) for (var k2 = 0; k2 <= rr * 2 + 2; k2++) { var y = 30 + rr * 28, half = 30 + rr * 52, x0 = 210 - half + k2 * (2 * half / (rr * 2 + 2)) - 14; if (k2 > rr * 2 + 1) continue; tiles += '<rect class="t" x="' + x0.toFixed(0) + '" y="' + y + '" width="26" height="24" rx="4" style="animation-delay:' + (0.9 + rr * 0.18 + k2 * 0.03).toFixed(2) + 's"/>'; }
     var s = svg("ti-roof", "0 0 420 150", tiles + '<path pathLength="1" d="M10 145 L210 10 L410 145"/>');
     s.setAttribute("preserveAspectRatio", "xMidYMid meet");
+  } else if (kind === "metal") {
+    [12, 34, 66, 88].forEach(function (x, k) { el("i", "ti-post", "left:calc(" + x + "% - 7px);animation-delay:" + (0.35 + k * 0.08) + "s"); });
+    el("i", "ti-beam");
+    el("i", "ti-weld");
+    for (var sp = 0; sp < 34; sp++) { var ang = rnd(-2.9, -0.25), dist = rnd(90, 300); el("i", "ti-spark", "--a:" + (ang * 57.3 + 90).toFixed(0) + "deg;--x:" + (Math.cos(ang) * dist).toFixed(0) + "px;--y:" + (Math.sin(ang) * dist * 0.8 + rnd(40, 160)).toFixed(0) + "px;animation-delay:" + rnd(.9, 1.9).toFixed(2) + "s"); }
   } else if (kind === "keys") {
     el("i", "ti-light");
     el("i", "ti-door l"); el("i", "ti-door r");

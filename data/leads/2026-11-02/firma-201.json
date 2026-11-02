@@ -1,110 +1,129 @@
 {
   "id": "2026-11-02-201",
-  "slug": "schlosserei-leuschner-mammendorf",
+  "slug": "andreas-solic-sanitaer-freising",
   "date": "2026-11-02",
   "company": {
-    "name": "Susanne Leuschner Kunst- und Bauschlosser",
-    "owner": "Susanne Leuschner",
-    "trade": "Kunst- und Bauschlosserei",
-    "city": "Mammendorf",
-    "address": "Nikolausstr. 2, 82291 Mammendorf",
-    "phone": "08145 996780",
-    "email": null,
+    "name": "Andreas Solic Gas Wasser Sanitär",
+    "owner": "Andreas Solic",
+    "trade": "Sanitär & Heizung",
+    "city": "Freising",
+    "address": "Ortsstraße 31, 85354 Freising (Hohenbachern)",
+    "phone": "08161 94127",
+    "email": "a.solic@t-online.de",
     "serviceArea": [
-      "Mammendorf",
-      "Nannhofen",
-      "Adelshofen",
-      "Jesenwang",
-      "Althegnenberg",
-      "Hattenhofen",
-      "Maisach"
+      "Freising",
+      "Hohenbachern",
+      "Vötting",
+      "Kranzberg",
+      "Marzling",
+      "Neufahrn"
     ]
   },
   "listings": {
     "google": {
-      "url": "https://www.google.com/maps/search/?api=1&query=Susanne%20Leuschner%20Kunst-%20und%20Bauschlosser%20Nikolausstr.%202%20Mammendorf",
+      "url": "https://www.google.com/maps/search/?api=1&query=Andreas%20Solic%20Ortsstra%C3%9Fe%2031%20Freising",
       "rating": null,
       "reviews": null,
-      "evidence": "NICHT BELEGT – kein Google-Spiegel (rgv-bayern, trustlocal, firmania) gefunden, keine E-Mail-Adresse öffentlich. Nur Verzeichniseinträge (11880 „Kunstschmiede, keine Öffnungszeiten“, Stadtbranchenbuch Mammendorf, Bundes-Telefonbuch). RESERVE – in Maps prüfen."
+      "evidence": "NICHT BELEGT – kein Google-Spiegel (rgv-bayern, firmania, trustlocal) gefunden. Regulärer Lead über die öffentlich belegte Freemail-Adresse a.solic@t-online.de (11880, wasserwaermeluft.de, haus.co, Handwerkskammer-Betriebsdatenbank). In Google Maps prüfen."
     },
     "myhammer": {
-      "url": "https://www.11880.com/suche/schlosser/moorenweis",
+      "url": "https://www.11880.com/branchenbuch/freising-oberbayern/060692320B3567921/solic-andreas-gas-wasser-sanitaer.html",
       "rating": null,
       "reviews": null,
-      "evidence": "Kein MyHammer gefunden – „Susanne Leuschner Kunst- und Bauschlosser“, Nikolausstr. 2, 82291 Mammendorf, (08145) 996780 in 11880-Ortslisten (Schlosser/Kunstschmiede), Stadtbranchenbuch und Bundes-Telefonbuch."
+      "evidence": "Kein MyHammer gefunden – 11880-Eintrag „Andreas Solic Gas Wasser Sanitär“ (85354 Freising, Heizungsinstallation, E-Mail a.solic@t-online.de, Tel. laut 11880 (08161) 42481). Weitere Einträge: Handwerkskammer München (Installateur und Heizungsbauer), SHK-Innung Freising-Erding (Mitgliederliste), wasserwaermeluft.de-Handwerkersuche (Ortsstraße 31, Tel. 08161 94127, Fax 08161 42481), goyellow, YellowMap, haus.co."
     }
   },
   "websiteStatus": "keine eigene Website gefunden",
   "websiteChecks": [
-    "(1) „Leuschner Kunst- und Bauschlosserei Mammendorf Nikolausstr“ mit blocked_domains (11880, Gelbe Seiten, Das Örtliche, Telefonbuch, Cylex, meinestadt, Creditreform, Facebook, Instagram, golocal, MyHammer, Northdata, Firmenwissen, WKDB, Yelp.de, trustlocal, wlw) – nur Stadtbranchenbuch-Eintrag (Kategorie Kunstschmieden) und fremde Leuschner-Betriebe (Leipzig, Essen); keine eigene Domain.",
-    "(2) Telefonsuche „08145 996780“/„08145996780“ – nur Verzeichnisse (Stadtbranchenbuch, Bundes-Telefonbuch, 11880), keine Website.",
-    "(3) Domain-Check allowed_domains leuschner-schlosserei.de, schlosserei-leuschner.de, kunstschlosserei-leuschner.de, leuschner-metallbau.de, metallbau-leuschner.de, leuschner-mammendorf.de, susanne-leuschner.de, kunstschmiede-leuschner.de – einziger Treffer metallbau-leuschner.de = Metallbau Ernst Leuschner, Essen (andere Firma).",
-    "(4) Spiegel-Suche (rgv-bayern, trustlocal, firmania, schlosserei.net, sellwerk) – kein Eintrag für den Betrieb in Mammendorf.",
-    "Website-Risiko: niedrig – alle Prüfungen negativ; aber weder Google-Eintrag noch Freemail belegt (RESERVE)"
+    "(1) „\"Solic\" Sanitär Freising“ mit blocked_domains (11880, Gelbe Seiten, Das Örtliche, Telefonbuch, Cylex, meinestadt, Creditreform, Facebook, Instagram, golocal, MyHammer, Northdata, Firmenwissen, WKDB, Yelp, trustlocal, wlw) – nur Verzeichnisse (wasserwaermeluft.de, firmenwissen.com, goyellow, SHK-Innung Freising-Erding, Handwerkskammer, deine-heizungsmeister.de); keine eigene Domain",
+    "(2) Domain-Check allowed_domains solic.de, solic-sanitaer.de, sanitaer-solic.de, solic-haustechnik.de, haustechnik-solic.de, solic-freising.de, andreas-solic.de, solic-heizung.de – nur solic.de (Internetagentur Solic in Mühldorf, fremde Firma), kein Treffer für den Betrieb",
+    "(3) Telefonsuche „08161 42481“ (Nummer laut 11880) – keine Treffer",
+    "(4) Impressum-Suche „Impressum \"Andreas Solic\" Freising“ (zusätzlich wasserwaermeluft.de und goyellow gesperrt) – nur Verzeichnisse (HWK, photovoltaik-vergleichsrechner, heizungsbau.net, haus.co, YellowMap, klimatechniker.net), kein eigenes Impressum",
+    "(5) E-Mail auf Freemail (t-online.de), kein Hinweis auf eine Firmendomain. Laut Verzeichnis „Webseitenangabe bei einigen leer“",
+    "(6) wasserwaermeluft.de führt eine „Webvisitenkarte“ (Branchenprofil der Handwerkersuche, keine eigene Domain) – vor Versand ansehen",
+    "Website-Risiko: mittel – alle Prüfungen negativ, Freemail mehrfach belegt; Google-Eintrag nicht belegt und Branchenprofil-Visitenkarte bei wasserwaermeluft.de"
   ],
   "facts": {
     "services": [
-      "Bauschlosserei",
-      "Kunstschmiede / Kunstschlosserei"
+      "Gas- und Wasserinstallation",
+      "Sanitärinstallation",
+      "Heizungsinstallation",
+      "Badrenovierung",
+      "Küchenanschlüsse",
+      "Solarthermie / Solaranlagen",
+      "Trinkwasser-Check",
+      "24-Stunden-Notdienst (laut Verzeichnis)"
     ],
     "experience": null,
     "praisedFor": []
   },
   "strategy": {
-    "audience": "Hauseigentümer und Bauherren in Mammendorf, Adelshofen, Jesenwang und Althegnenberg, die Geländer, Tore oder geschmiedete Einzelstücke aus Metall suchen",
-    "mainService": "Kunst- und Bauschlosserei – Geländer, Tore und Schmiedearbeiten",
-    "trustSignal": "Inhabergeführte Schlosserei in Mammendorf, direkt erreichbar",
-    "conversionGoal": "Anfrage für Geländer, Tor oder Schmiedearbeit mit Fotos und Maßen",
-    "visualConcept": "Schmiedefeuer, Amboss und geschwungene Geländer aus Flachstahl – handwerklich und warm vor dunklem Stahlgrau"
+    "audience": "Hauseigentümer und Vermieter in Freising, Hohenbachern, Vötting und Kranzberg, die eine Heizung erneuern, ein Bad renovieren oder schnell Hilfe bei einem Wasserschaden brauchen",
+    "mainService": "Heizungs- und Sanitärinstallation – vom Bad bis zur Solarthermie",
+    "trustSignal": "Mitglied der SHK-Innung Freising-Erding, in der Handwerkskammer als Installateur und Heizungsbauer eingetragen, Inhaber persönlich erreichbar",
+    "conversionGoal": "Anruf oder Anfrageformular für Bad, Heizung oder Notfall",
+    "visualConcept": "Klare, helle Haustechnik-Optik: blanke Kupferleitungen, frisch gefliestes Bad, aufgeräumter Heizungsraum – sachlich und vertrauenswürdig"
   },
   "sales": {
-    "score": 4,
+    "score": 6,
     "whyGoodLead": [
-      "Keine eigene Website gefunden – nur Verzeichniseinträge",
-      "Kunstschmiede/Schlosserei bisher selten unter den Leads",
-      "Geschmiedete Einzelstücke verkaufen sich über Bilder – Galerie bringt sichtbaren Mehrwert",
-      "Kaum Online-Präsenz: selbst die Verzeichnisse zeigen keine Öffnungszeiten oder Leistungen"
+      "Keine eigene Website gefunden – nur Verzeichnis- und Innungseinträge",
+      "Freemail-Adresse öffentlich belegt (a.solic@t-online.de) – direkter Erstkontakt per E-Mail möglich",
+      "Innungsbetrieb mit breitem Leistungsspektrum (Bad, Heizung, Solar, Notdienst) – viel Stoff für eine Website",
+      "Sanitär & Heizung ist ein bisher seltenes Gewerk im Lead-Bestand; Heizungstausch und Förderung sorgen für Nachfrage"
     ],
-    "pitch": "Grüß Gott Frau Leuschner, ich baue Websites für Handwerksbetriebe im Landkreis Fürstenfeldbruck. Ihre Kunst- und Bauschlosserei in Mammendorf habe ich im Branchenbuch gefunden, aber ohne eigene Website. Ich habe unverbindlich einen Entwurf vorbereitet, auf dem Kunden Ihre Geländer, Tore und Schmiedearbeiten sehen und direkt anfragen können – darf ich Ihnen den Link schicken?"
+    "pitch": "Guten Tag Herr Solic, ich baue Websites für Handwerksbetriebe im Landkreis Freising. Ihren Betrieb habe ich in der Liste der SHK-Innung Freising-Erding gefunden, aber keine eigene Website. Ich habe unverbindlich einen Entwurf vorbereitet, auf dem Kunden aus Freising Ihre Leistungen von der Badrenovierung bis zur Solarthermie sehen und Sie direkt anrufen können – darf ich Ihnen den Link schicken?"
   },
   "manualChecks": [
-    "RESERVE – weder Google-Eintrag noch Freemail-Adresse belegt: NUR versenden, wenn Google Maps einen Eintrag OHNE Website zeigt.",
-    "Prüfen, ob der Betrieb noch aktiv ist (11880: „keine Öffnungszeiten“, keine weiteren Lebenszeichen gefunden)",
-    "Leistungen nur als Gewerk belegt (Kunst- und Bauschlosser, Kunstschmiede) – Geländer, Tore, Gitter, Treppen und Reparaturen sind für das Gewerk üblich, aber beim Betrieb bestätigen",
-    "Nikolausstr. 2 ist evtl. Privatadresse – Adresse auf der Website ggf. weglassen bzw. mit Inhaberin klären",
-    "Keine Mobilnummer, keine E-Mail – Erstkontakt nur per Festnetz 08145 996780",
+    "Website-Risiko: mittel – vor Versand in Google Maps prüfen, dass keine Website hinterlegt ist (Grund: Google-Eintrag nicht belegt, Branchenprofil-„Webvisitenkarte“ bei wasserwaermeluft.de)",
+    "Telefonnummer klären: 11880 nennt (08161) 42481, wasserwaermeluft.de/YellowMap nennen 08161 94127 als Telefon und 42481 als Fax – im Entwurf steht 08161 94127. Keine Mobilnummer gefunden",
+    "24-Stunden-Notdienst nur laut wasserwaermeluft.de belegt – vor Veröffentlichung beim Betrieb bestätigen",
+    "Kein Meistertitel belegt – nicht „Meisterbetrieb“ schreiben, solange nicht bestätigt",
+    "Betrieb ist laut Verzeichnis-Snippets eher länger am Markt (alte Einträge) – prüfen, ob der Betrieb noch aktiv ist",
     "Logo und Projektfotos: nicht gefunden – beim Betrieb anfragen"
   ],
   "sources": [
     {
-      "label": "11880 – Schlosser Moorenweis (Liste mit Susanne Leuschner, Mammendorf)",
-      "url": "https://www.11880.com/suche/schlosser/moorenweis"
+      "label": "11880 – Andreas Solic Gas Wasser Sanitär, Freising",
+      "url": "https://www.11880.com/branchenbuch/freising-oberbayern/060692320B3567921/solic-andreas-gas-wasser-sanitaer.html"
     },
     {
-      "label": "Stadtbranchenbuch Mammendorf – Susanne Leuschner Kunstschmieden",
-      "url": "https://mammendorf.stadtbranchenbuch.com/3165656.html"
+      "label": "wasserwaermeluft.de – Andreas Solic Sanitärbetrieb, 85354 Freising",
+      "url": "https://www.wasserwaermeluft.de/handwerkersuche/andreas-solic-sanitaerbetrieb-85354-freising"
     },
     {
-      "label": "Bundes-Telefonbuch – Firmen in Mammendorf",
-      "url": "https://www.bundes-telefonbuch.de/suche/firma/mammendorf"
+      "label": "Handwerkskammer für München und Oberbayern – Betriebsdatenbank Andreas Solic",
+      "url": "https://www.hwk-muenchen.de/betriebe/andreas-solic-74,0,bdbdetail.html?id=46121"
+    },
+    {
+      "label": "SHK-Innung Freising-Erding – Mitglieder Heizung/Sanitär Freising",
+      "url": "http://www.shk-freising-erding.de/die-innungsbetriebe/heizung-sanit%C3%A4r-freising.html"
+    },
+    {
+      "label": "haus.co – Andreas Solic, Freising",
+      "url": "https://www.haus.co/handwerker/freising/3081-andreas-solic"
+    },
+    {
+      "label": "YellowMap – Andreas Solic, Hohenbachern",
+      "url": "http://www.yellowmap.de/Details/2cSePL9C_QLcBOTst2fGBg==.aspx"
     }
   ],
   "site": {
-    "theme": "werk",
+    "theme": "aqua",
     "category": "handwerk",
     "heroOffer": [
-      "Geländer",
-      "Tore",
-      "Schmiedearbeiten",
-      "Gitter",
-      "Reparaturen"
+      "Heizung",
+      "Badrenovierung",
+      "Solarthermie",
+      "Trinkwasser-Check",
+      "Notdienst"
     ],
-    "scene": "facade",
-    "logoIcon": "house",
-    "logoMark": "SL",
-    "brandName": "Schlosserei Leuschner",
-    "seoTitle": "Kunst- und Bauschlosserei in Mammendorf – Susanne Leuschner",
-    "seoDescription": "Kunst- und Bauschlosserei in Mammendorf: Geländer, Tore, Gitter und geschmiedete Einzelstücke für Haus und Garten. Jetzt anfragen.",
+    "scene": "bath",
+    "logoIcon": "drop",
+    "logoMark": "AS",
+    "brandName": "Andreas Solic",
+    "seoTitle": "Sanitär & Heizung in Freising – Andreas Solic",
+    "seoDescription": "Heizungsinstallation, Badrenovierung, Solarthermie und Trinkwasser-Check in Freising und Umgebung. Innungsbetrieb – jetzt anrufen oder anfragen.",
     "nav": [
       {
         "label": "Leistungen",
@@ -132,132 +151,132 @@
       }
     ],
     "hero": {
-      "eyebrow": "Kunst- und Bauschlosserei · Mammendorf",
-      "headline": "Kunstschmiede und Schlosserei in Mammendorf",
-      "sub": "Geländer, Tore und geschmiedete Einzelstücke für Haus und Garten im westlichen Landkreis.",
+      "eyebrow": "Gas · Wasser · Heizung · Freising",
+      "headline": "Sanitär und Heizung in Freising",
+      "sub": "Neues Bad, neue Heizung oder Solarthermie – geplant und installiert aus Hohenbachern.",
       "ctaPrimary": "Anfrage senden",
       "ctaSecondary": "Anrufen",
       "bullets": [
-        "Schlosserei in Mammendorf",
-        "Kunst- und Bauschlosserei",
-        "Einzelstücke nach Ihren Vorstellungen"
+        "Mitglied der SHK-Innung Freising-Erding",
+        "Bad, Heizung und Solar aus einer Hand",
+        "Inhaber Andreas Solic persönlich am Telefon"
       ],
-      "imageLabel": "geschmiedetes Gartentor mit geschwungenen Stäben vor einem Bauernhaus"
+      "imageLabel": "frisch installierter Heizungsraum mit Kupferleitungen"
     },
     "badges": [
       {
-        "title": "Kunstschmiede",
-        "sub": "geschmiedete Einzelstücke"
+        "title": "Innungsbetrieb",
+        "sub": "SHK Freising-Erding"
       },
       {
-        "title": "Bauschlosserei",
-        "sub": "Geländer und Tore"
+        "title": "Heizung",
+        "sub": "Installation & Tausch"
       },
       {
-        "title": "Nach Maß",
-        "sub": "für Ihr Haus gefertigt"
+        "title": "Solarthermie",
+        "sub": "Wärme vom Dach"
       },
       {
-        "title": "Mammendorf",
-        "sub": "Lkr. Fürstenfeldbruck"
+        "title": "Hohenbachern",
+        "sub": "Ortsstraße 31"
       }
     ],
     "trust": [
       {
-        "value": "Inhaberin",
-        "label": "direkter Kontakt"
+        "value": "Innung",
+        "label": "SHK Freising-Erding"
       },
       {
-        "value": "2 Bereiche",
-        "label": "Kunst- und Bauschlosserei"
+        "value": "HWK",
+        "label": "Installateur und Heizungsbauer"
       },
       {
-        "value": "Nach Maß",
-        "label": "statt Katalogware"
+        "value": "6",
+        "label": "Leistungsbereiche"
       },
       {
         "value": "Vor Ort",
-        "label": "in Mammendorf"
+        "label": "Betrieb in Freising"
       }
     ],
     "servicesIntro": {
-      "headline": "Geschmiedet und geschlossert – für Haus und Hof",
-      "text": "Ein Tor, das zum alten Hof passt, ein Geländer für die neue Treppe oder ein Einzelstück mit Schnörkel: Hier entsteht Metall, das genau an Ihren Ort passt."
+      "headline": "Wasser, Wärme und Gas – sauber verlegt",
+      "text": "Andreas Solic installiert Leitungen, Bäder und Heizungen in Freising und den Orten rundherum – vom Küchenanschluss bis zur Solaranlage."
     },
     "services": [
       {
-        "title": "Geländer",
-        "text": "Geländer für Treppe, Balkon und Terrasse – schlicht aus Flachstahl oder mit geschmiedeten Details.",
+        "title": "Heizungsinstallation",
+        "text": "Neue Heizung einbauen oder die alte ersetzen: Der Betrieb plant die Anlage passend zum Haus und schließt sie fachgerecht an.",
         "items": [
-          "Treppe",
-          "Balkon",
-          "Terrasse"
+          "Heizungstausch",
+          "Neuinstallation",
+          "Heizkörper"
         ]
       },
       {
-        "title": "Tore und Türen",
-        "text": "Hof- und Gartentore, die zum Haus und zum Zaun passen.",
+        "title": "Badrenovierung",
+        "text": "Aus dem alten Bad wird ein neues: Leitungen, Dusche, WC und Waschtisch kommen in einem Auftrag.",
         "items": [
-          "Hoftor",
-          "Gartentür",
-          "Zaunfelder"
+          "Leitungen erneuern",
+          "Dusche und WC",
+          "Waschtisch"
         ]
       },
       {
-        "title": "Schmiedearbeiten",
-        "text": "Geschmiedete Einzelstücke mit Hand und Hammer gefertigt – vom Ziergitter bis zum Wandhalter.",
+        "title": "Solarthermie",
+        "text": "Kollektoren auf dem Dach erwärmen Wasser und unterstützen die Heizung – das senkt den Brennstoffbedarf.",
         "items": [
-          "Ziergitter",
-          "Beschläge",
-          "Einzelstücke"
+          "Solaranlagen",
+          "Warmwasser",
+          "Heizungsunterstützung"
         ]
       },
       {
-        "title": "Gitter",
-        "text": "Fenster- und Kellergitter, die schützen und trotzdem zum Haus passen.",
+        "title": "Gas- und Wasserinstallation",
+        "text": "Gas- und Wasserleitungen im Neubau und im Bestand – verlegt, angeschlossen und geprüft.",
         "items": [
-          "Fenstergitter",
-          "Kellerschacht",
-          "Lüftungsgitter"
+          "Wasserleitungen",
+          "Gasanschluss",
+          "Druckprüfung"
         ]
       },
       {
-        "title": "Handläufe",
-        "text": "Handläufe an Wand und Treppe für sicheren Halt im Haus und am Eingang.",
+        "title": "Küchenanschlüsse",
+        "text": "Spüle, Geschirrspüler und Armatur werden angeschlossen, damit die neue Küche ohne Umwege läuft.",
         "items": [
-          "Wandhandlauf",
-          "Eingangsstufen",
-          "Innen und außen"
+          "Spüle",
+          "Geschirrspüler",
+          "Armaturen"
         ]
       },
       {
-        "title": "Reparaturen",
-        "text": "Alte Tore, Geländer und Gitter instand setzen statt wegwerfen.",
+        "title": "Trinkwasser-Check",
+        "text": "Der Check zeigt, in welchem Zustand die Trinkwasserinstallation im Haus ist und wo nachgebessert werden sollte.",
         "items": [
-          "Schweißarbeiten",
-          "Instandsetzung",
-          "Ersatzteile"
+          "Leitungen prüfen",
+          "Zustand bewerten",
+          "Empfehlung"
         ]
       }
     ],
     "why": {
-      "headline": "Metall mit Handschrift – aus Mammendorf.",
+      "headline": "Haustechnik aus Freising – mit kurzen Wegen.",
       "points": [
         {
-          "title": "Kunst und Bau",
-          "text": "Zweckmäßige Schlosserarbeiten und geschmiedete Gestaltung aus einer Hand."
+          "title": "Innungsbetrieb",
+          "text": "Der Betrieb gehört zur SHK-Innung Freising-Erding und ist bei der Handwerkskammer eingetragen."
         },
         {
-          "title": "Direkter Draht",
-          "text": "Sie sprechen direkt mit der Inhaberin – ohne Zwischenstellen."
+          "title": "Ein Ansprechpartner",
+          "text": "Sie sprechen direkt mit Inhaber Andreas Solic – von der ersten Frage bis zur Übergabe."
         },
         {
-          "title": "Passend zum Haus",
-          "text": "Jedes Stück wird für Ihren Ort gemessen, ob Bauernhof oder Neubau."
+          "title": "Bad bis Dach",
+          "text": "Sanitär, Heizung und Solarthermie aus einer Hand, ohne mehrere Firmen abzustimmen."
         },
         {
-          "title": "Kurze Wege",
-          "text": "Von Mammendorf schnell in Adelshofen, Jesenwang, Althegnenberg und Maisach."
+          "title": "Nah dran",
+          "text": "Von Hohenbachern sind Freising, Vötting und Kranzberg in wenigen Minuten erreicht."
         }
       ]
     },
@@ -265,121 +284,119 @@
       "headline": "Was Kunden sagen",
       "summary": "Kundenstimmen werden hier eingebunden, sobald sie aus dem Google-Profil übernommen sind.",
       "highlights": [
-        "Schlosserei in Mammendorf",
-        "Geländer und Tore",
-        "Schmiedearbeiten"
+        "Heizung und Sanitär in Freising",
+        "Badrenovierung",
+        "Solarthermie"
       ],
       "source": "Google",
-      "sourceUrl": "https://www.google.com/maps/search/?api=1&query=Susanne%20Leuschner%20Kunst-%20und%20Bauschlosser%20Nikolausstr.%202%20Mammendorf",
+      "sourceUrl": "https://www.google.com/maps/search/?api=1&query=Andreas%20Solic%20Ortsstra%C3%9Fe%2031%20Freising",
       "rating": null,
       "count": null
     },
     "process": {
-      "headline": "So entsteht Ihr Stück",
+      "headline": "So läuft Ihr Auftrag ab",
       "steps": [
         {
-          "title": "Idee",
-          "text": "Anrufen und kurz beschreiben, was entstehen soll – gern mit Skizze oder Foto."
+          "title": "Anruf",
+          "text": "Sie schildern kurz, worum es geht: Bad, Heizung, Solar oder ein Leck."
         },
         {
-          "title": "Aufmaß",
-          "text": "Maße, Form und Befestigung werden vor Ort abgestimmt."
+          "title": "Termin vor Ort",
+          "text": "Andreas Solic sieht sich Leitungen, Raum und vorhandene Anlage an."
         },
         {
           "title": "Angebot",
-          "text": "Sie erhalten ein Angebot für Fertigung und Montage."
+          "text": "Sie erhalten ein schriftliches Angebot mit den nötigen Arbeiten und Teilen."
         },
         {
-          "title": "Werkstatt & Einbau",
-          "text": "Das Stück wird geschmiedet bzw. gefertigt und bei Ihnen montiert."
+          "title": "Installation",
+          "text": "Einbau, Anschluss und Prüfung – danach wird die Anlage an Sie übergeben."
         }
       ]
     },
     "gallery": {
-      "headline": "Aus der Schmiede",
-      "text": "Für die Live-Version zeigen wir hier echte Arbeiten des Betriebs.",
+      "headline": "Arbeiten aus der Region",
+      "text": "Für die Live-Version zeigen wir hier echte Projekte des Betriebs.",
       "items": [
         {
-          "title": "Hoftor",
-          "photoNeeded": "geschmiedetes Hoftor an einer Einfahrt"
+          "title": "Neues Bad",
+          "photoNeeded": "renoviertes Bad mit bodengleicher Dusche"
         },
         {
-          "title": "Treppengeländer",
-          "photoNeeded": "Metallgeländer an einer Außentreppe"
+          "title": "Heizungsraum",
+          "photoNeeded": "neu installierte Heizungsanlage mit Verrohrung"
         },
         {
-          "title": "Ziergitter",
-          "photoNeeded": "geschmiedetes Fenstergitter mit Schnörkeln"
+          "title": "Solarkollektoren",
+          "photoNeeded": "Solarthermie-Kollektoren auf einem Hausdach"
         },
         {
-          "title": "Handlauf",
-          "photoNeeded": "Wandhandlauf aus Stahl im Eingangsbereich"
+          "title": "Küchenanschluss",
+          "photoNeeded": "angeschlossene Spüle mit Armatur"
         },
         {
-          "title": "Am Amboss",
-          "photoNeeded": "glühendes Eisen auf dem Amboss in der Werkstatt"
+          "title": "Leitungsbau",
+          "photoNeeded": "frisch verlegte Kupfer- oder Verbundrohrleitungen"
         }
       ]
     },
     "region": {
-      "headline": "Schlosserei für Mammendorf und den westlichen Landkreis",
-      "text": "Von Mammendorf aus nach Nannhofen, Adelshofen, Jesenwang, Althegnenberg, Hattenhofen und Maisach.",
+      "headline": "Sanitär und Heizung rund um Freising",
+      "text": "Von der Ortsstraße in Hohenbachern aus fährt der Betrieb nach Freising, Vötting, Kranzberg, Marzling und Neufahrn.",
       "places": [
-        "Mammendorf",
-        "Nannhofen",
-        "Adelshofen",
-        "Jesenwang",
-        "Althegnenberg",
-        "Hattenhofen",
-        "Maisach"
+        "Freising",
+        "Hohenbachern",
+        "Vötting",
+        "Kranzberg",
+        "Marzling",
+        "Neufahrn"
       ]
     },
     "faq": [
       {
-        "q": "Fertigen Sie auch Einzelstücke?",
-        "a": "Ja, als Kunstschmiede entstehen auch einzelne Stücke nach Ihren Vorstellungen."
+        "q": "Tauschen Sie auch alte Heizungen aus?",
+        "a": "Ja. Heizungsinstallation und der Austausch bestehender Anlagen gehören zum Angebot. Was zu Ihrem Haus passt, klären wir beim Termin vor Ort."
       },
       {
-        "q": "Kann ich eine Skizze oder ein Foto mitbringen?",
-        "a": "Ja, eine Skizze oder ein Foto des Vorbilds hilft bei der ersten Abstimmung."
+        "q": "Übernehmen Sie eine komplette Badrenovierung?",
+        "a": "Ja, die Badrenovierung mit neuen Leitungen und Sanitärobjekten gehört zu den Leistungen. Den Umfang besprechen wir bei der Besichtigung."
       },
       {
-        "q": "Werden alte Tore und Geländer repariert?",
-        "a": "Fragen Sie an – ob sich eine Instandsetzung lohnt, klärt sich am besten anhand von Fotos."
+        "q": "Lohnt sich Solarthermie bei mir?",
+        "a": "Das hängt von Dachfläche, Ausrichtung und Heizung ab. Andreas Solic schaut sich das vor Ort an und gibt eine Einschätzung."
       },
       {
-        "q": "Wird das Teil auch montiert?",
-        "a": "Montage wird beim Aufmaß mit abgestimmt."
+        "q": "Was ist ein Trinkwasser-Check?",
+        "a": "Dabei wird die Trinkwasserinstallation im Haus geprüft. Sie erfahren, ob Leitungen und Anschlüsse in Ordnung sind oder erneuert werden sollten."
       },
       {
-        "q": "Arbeiten Sie auch außerhalb von Mammendorf?",
-        "a": "Ja, in der Umgebung von Mammendorf – rufen Sie einfach an."
+        "q": "Was tun bei einem Rohrbruch?",
+        "a": "Drehen Sie zuerst den Haupthahn zu und rufen Sie dann an. Wie schnell ein Termin möglich ist, klären wir direkt am Telefon."
       }
     ],
     "contact": {
-      "headline": "Ihre Anfrage an die Schlosserei",
-      "text": "Beschreiben Sie kurz, was entstehen soll – Geländer, Tor, Gitter oder Einzelstück – und wo es hin soll. Fotos oder eine Skizze helfen.",
+      "headline": "Bad, Heizung oder Solar – schreiben Sie uns",
+      "text": "Beschreiben Sie kurz Ihr Vorhaben: Was soll erneuert werden, wie alt ist die Anlage, um welchen Raum geht es? Fotos helfen bei der ersten Einschätzung.",
       "topics": [
-        "Geländer",
-        "Tor / Tür",
-        "Schmiedearbeit",
-        "Gitter",
-        "Reparatur",
+        "Heizungsinstallation",
+        "Badrenovierung",
+        "Solarthermie",
+        "Gas- und Wasserinstallation",
+        "Trinkwasser-Check",
         "Sonstiges"
       ],
-      "responseNote": "Aufmaß vor Ort nach Absprache."
+      "responseNote": "Termin vor Ort nach Absprache."
     },
     "quote": {
-      "sizeLabel": "Was soll entstehen?",
+      "sizeLabel": "Worum geht es?",
       "sizes": [
-        "Geländer oder Handlauf",
-        "Tor oder Tür",
-        "Gitter",
-        "Geschmiedetes Einzelstück",
-        "Reparatur"
+        "Heizung erneuern",
+        "Bad renovieren",
+        "Solarthermie",
+        "Reparatur oder Leck"
       ],
       "timings": [
-        "So bald wie möglich",
+        "Dringend",
         "In den nächsten Wochen",
         "In 1–3 Monaten",
         "Ich plane erst noch"
@@ -387,13 +404,19 @@
     },
     "stickyCta": "Anfrage senden",
     "look": {
-      "palette": 2,
-      "font": 6,
-      "hero": 0,
+      "skin": "kante",
+      "palette": 4,
+      "font": 5,
+      "hero": 5,
       "services": 1,
-      "radius": 1,
-      "logo": 0,
-      "intro": 5
+      "radius": 4,
+      "logo": 3,
+      "intro": 2,
+      "projects": 2,
+      "process": 1,
+      "faq": 0,
+      "reviews": 1,
+      "order": 1
     }
   }
 }

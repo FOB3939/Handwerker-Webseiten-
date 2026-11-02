@@ -1,111 +1,115 @@
 {
   "id": "2026-11-02-202",
-  "slug": "fliesenleger-bajrami-petershausen",
+  "slug": "fichtl-haustechnik-dachau",
   "date": "2026-11-02",
   "company": {
-    "name": "Fliesenlegerbetrieb Bajrami",
-    "owner": "Egzon Bajrami",
-    "trade": "Fliesenleger",
-    "city": "Petershausen",
-    "address": "Weißlinger Str. 17, 85238 Petershausen",
-    "phone": "0176 28444917",
-    "email": null,
+    "name": "Fichtl Haustechnik",
+    "owner": null,
+    "trade": "Sanitär & Heizung",
+    "city": "Dachau",
+    "address": "Siedlungsstraße 20a, 85221 Dachau",
+    "phone": "0174 6925481",
+    "email": "fichtl-haustechnik@outlook.de",
     "serviceArea": [
-      "Petershausen",
-      "Kollbach",
-      "Vierkirchen",
-      "Jetzendorf",
-      "Hohenkammer",
-      "Markt Indersdorf",
-      "Dachau"
+      "Dachau",
+      "Karlsfeld",
+      "Bergkirchen",
+      "Hebertshausen",
+      "Röhrmoos",
+      "Schwabhausen"
     ]
   },
   "listings": {
     "google": {
-      "url": "https://www.google.com/maps/search/?api=1&query=Fliesenlegerbetrieb%20Bajrami%20Wei%C3%9Flinger%20Str.%2017%20Petershausen",
+      "url": "https://www.google.com/maps/search/?api=1&query=Fichtl%20Haustechnik%20Siedlungsstra%C3%9Fe%2020a%20Dachau",
       "rating": null,
       "reviews": null,
-      "evidence": "NICHT BELEGT – kein Google-Spiegel (rgv-bayern, firmania, trustlocal) zum Betrieb gefunden. 11880-Profil „Bajrami Fliesenleger Mozaik“ (zuletzt aktualisiert 03.10.2026) ohne Bewertungen. In Google Maps prüfen."
+      "evidence": "NICHT BELEGT – kein Google-Spiegel (trustlocal, rgv-bayern, firmania) mit diesem Betrieb gefunden. Regulärer Lead über öffentlich belegte Freemail-Adresse fichtl-haustechnik@outlook.de (11880-Eintrag/Ortsliste Haustechnik Dachau). In Maps prüfen, ob ein Eintrag existiert und ob dort eine Website hinterlegt ist."
     },
     "myhammer": {
-      "url": "https://11880.com/branchenbuch/petershausen-oberbayern/060691660B108374430/fliesenlegerbetrieb-bajrami.html",
+      "url": "https://www.11880.com/suche/haustechnik/dachau",
       "rating": null,
       "reviews": null,
-      "evidence": "Kein MyHammer gefunden – 11880-Eintrag „Fliesenlegerbetrieb Bajrami“ (Weißlinger Str. 17, Petershausen, Tel. 08137 3043803, Kategorien Fliesenleger/Bodenleger); fliesenleger24.com mit Mobilnummer 0176 28444917; fliesenleger.net als „Egzon Bajrami Fliesenlegerbetrieb“ (gleiche Adresse)."
+      "evidence": "Kein MyHammer gefunden – „Fichtl Haustechnik“, Siedlungsstraße 20a, 85221 Dachau, (0174) 6925481, fichtl-haustechnik@outlook.de in den 11880-Ortslisten Haustechnik/Sanitärinstallation Dachau; Kategorien Heizungsinstallation, Sanitärinstallation, Klimaanlagenbau, Lüftungsbau. Keine Bewertungen, keine Öffnungszeiten."
     }
   },
   "websiteStatus": "keine eigene Website gefunden",
   "websiteChecks": [
-    "(1) „Bajrami Fliesenleger Petershausen“ mit blocked_domains (11880, Gelbe Seiten, Das Örtliche, Telefonbuch, Cylex, meinestadt, Creditreform, Facebook, Instagram, golocal, MyHammer, Northdata, Firmenwissen, WKDB, Yelp, trustlocal, wlw) – nur Verzeichnisse (fliesenleger24.com, fliesenleger.net, Firmenauskunft); keine eigene Domain. Namensvettern Fatmir Bajrami (Ingolstadt) und Shpend Bajrami (Nürnberg) sind andere Betriebe.",
-    "(2) Domain-Check allowed_domains fliesen-bajrami.de, bajrami-fliesen.de, mozaik-fliesen.de, fliesenleger-bajrami.de, bajrami-mozaik.de, fliesen-mozaik.de, mozaik-petershausen.de, bajrami.de – keine Treffer",
-    "(3) Telefonsuche „0176 28444917“/„017628444917“/„08137 3043803“ – keine Treffer, keine Website",
-    "(4) Impressum-Suche „Impressum Egzon Bajrami Fliesen Petershausen Inhaber“ – kein eigenes Impressum gefunden",
-    "(5) Google-Spiegel-Suche (rgv-bayern, firmania, trustlocal, firmenABC) – kein Treffer, daher kein Google-Beleg; keine E-Mail-Adresse (auch keine Freemail) gefunden",
-    "Website-Risiko: mittel – alle Prüfungen negativ, aber weder Google-Eintrag noch Freemail belegt (RESERVE)"
+    "(1) „Fichtl Haustechnik Dachau“ mit blocked_domains (11880, Gelbe Seiten, Das Örtliche, Telefonbuch, Cylex, meinestadt, Creditreform, Facebook, Instagram, golocal, MyHammer, Northdata, Firmenwissen, WKDB, Yelp, trustlocal, wlw) (11880 ausnahmsweise zugelassen) – nur Verzeichnisse/Ortslisten; keine eigene Domain. Gleichnamige Betriebe mit Website sind andere Firmen: Timo Fichtl Haustechnik (Hanau, fichtl-haustechnik.de, Tel. 06181…), Heizungsbau Fichtl (Marktoberdorf, heizungsbau-fichtl.de); Andreas Fichtl Kaminkehrermeister und Peter Fichtl Fliesenleger (beide Dachau) sind andere Gewerke",
+    "(2) Domain-Check allowed_domains fichtl-haustechnik.de, haustechnik-fichtl.de, fichtlhaustechnik.de, fichtl-dachau.de, fichtl-sanitaer.de, fichtl-heizung.de, fichtl-haustechnik.com, sanitaer-fichtl.de – einziger Treffer fichtl-haustechnik.de gehört zum Hanauer Betrieb (Vorwahl 06181, service@fichtl-haustechnik.de), nicht zu Dachau",
+    "(3) Telefon-/Mail-Suche „0174 6925481“/„01746925481“/„fichtl-haustechnik@outlook.de“ – keine Treffer außerhalb der Verzeichnisse, keine Website",
+    "(4) Inhaber-Suche „Fichtl Haustechnik Dachau Siedlungsstraße Inhaber“ (Verzeichnisse) – kein Impressum, Inhaber nirgends genannt",
+    "Website-Risiko: mittel – alle Prüfungen negativ, Freemail belegt, aber kein Google-Beleg und Namensgleichheit mit dem Hanauer Betrieb (fichtl-haustechnik.de)"
   ],
   "facts": {
     "services": [
-      "Fliesenverlegung",
-      "Bodenbeläge"
+      "Heizungsinstallation",
+      "Sanitärinstallation",
+      "Klimaanlagenbau",
+      "Lüftungsbau"
     ],
     "experience": null,
     "praisedFor": []
   },
   "strategy": {
-    "audience": "Hausbesitzer, Wohnungseigentümer und Vermieter in Petershausen, Vierkirchen, Jetzendorf und Markt Indersdorf, die Bad, Küche oder Böden neu fliesen lassen wollen",
-    "mainService": "Fliesen verlegen – Bad, Küche, Wohnräume und Böden",
-    "trustSignal": "Fliesenleger mit Sitz in Petershausen, direkt per Handy erreichbar",
-    "conversionGoal": "Kostenloses Angebot für Fliesenarbeiten anfragen (Fotos und Maße per WhatsApp)",
-    "visualConcept": "Ruhige Materialästhetik: großformatige Feinsteinzeugfliesen, exakte Fugenbilder, helles Tageslicht im Bad"
+    "audience": "Hauseigentümer, Vermieter und Wohnungseigentümer in Dachau, Karlsfeld und den Nachbargemeinden mit Heizungstausch, Badumbau, Reparatur oder Lüftungs-/Klimawunsch",
+    "mainService": "Heizung und Sanitär – Installation, Austausch, Reparatur",
+    "trustSignal": "Kleiner Haustechnik-Betrieb in Dachau, direkt per Handy erreichbar",
+    "conversionGoal": "Anfrage per WhatsApp/Anruf mit Fotos von Heizung oder Bad",
+    "visualConcept": "Klare Haustechnik-Optik: Heizungsraum mit sauber verlegten Rohren, helles Bad, Lüftungsgerät – technisch, ordentlich, wasserblau"
   },
   "sales": {
-    "score": 4,
+    "score": 7,
     "whyGoodLead": [
-      "Keine eigene Website gefunden – nur Verzeichniseinträge",
-      "Mobilnummer öffentlich gelistet – WhatsApp-Erstkontakt möglich",
-      "Keine Bewertungen sichtbar – Website und Google-Profil schaffen erste Sichtbarkeit",
-      "Badsanierungen sind im wachsenden Landkreis Dachau gefragt"
+      "Keine eigene Website gefunden – nur Verzeichniseinträge mit Outlook-Adresse",
+      "Mobilnummer öffentlich gelistet – ideal für WhatsApp-Erstkontakt",
+      "Sanitär/Heizung ist bisher selten unter den Leads; Heizungstausch und Wärmepumpen sind stark nachgefragt",
+      "Gleichnamige Website eines Hanauer Betriebs – eigene Seite grenzt den Dachauer Betrieb klar ab"
     ],
-    "pitch": "Hallo Herr Bajrami, hier ist … – ich baue Websites für Handwerker im Landkreis Dachau. Ich habe Ihren Fliesenlegerbetrieb in Petershausen in Branchenverzeichnissen gefunden, aber keine eigene Website. Ich habe unverbindlich einen Entwurf vorbereitet, auf dem Kunden Ihre Fliesenarbeiten sehen und direkt per WhatsApp anfragen können – darf ich Ihnen den Link schicken?"
+    "pitch": "Hallo, hier ist … – ich baue Websites für Handwerker im Landkreis Dachau. Ich habe Ihren Eintrag „Fichtl Haustechnik“ in Dachau gefunden, aber keine eigene Website – bei Google landet man eher bei einem gleichnamigen Betrieb in Hanau. Ich habe unverbindlich einen Entwurf vorbereitet, auf dem Kunden Ihre Heizungs- und Sanitärleistungen sehen und direkt per WhatsApp anfragen können – darf ich Ihnen den Link schicken?"
   },
   "manualChecks": [
-    "RESERVE – weder Google-Eintrag noch Freemail-Adresse belegt: NUR versenden, wenn Google Maps einen Eintrag OHNE Website zeigt.",
-    "Website-Risiko: mittel – vor Versand in Google Maps prüfen, dass keine Website hinterlegt ist (Grund: kein Google-Spiegel, keine Freemail; nur Verzeichnisse)",
-    "Zwei Nummern: Mobil 0176 28444917 (fliesenleger24) und Festnetz 08137 3043803 (11880, fliesenleger.net) – klären, welche aktuell ist",
-    "Inhaber „Egzon Bajrami“ nur aus fliesenleger.net – beim Erstkontakt bestätigen; Zusatzname „Mozaik“ (11880) klären",
-    "Leistungen nur grob belegt (Fliesenleger, Bodenleger) – Bad, Naturstein, Abdichtung usw. beim Betrieb bestätigen",
+    "Website-Risiko: mittel – vor Versand in Google Maps prüfen, dass keine Website hinterlegt ist (Grund: kein Google-Beleg, nur Freemail; Namensgleichheit mit Fichtl Haustechnik Hanau – fichtl-haustechnik.de gehört NICHT zu diesem Betrieb, darf im Pitch nicht verwechselt werden)",
+    "Google-Eintrag in Maps suchen (Existenz, Bewertungen) – bisher nicht belegt",
+    "Inhabername unbekannt – beim Erstkontakt erfragen, Anrede neutral halten",
+    "Leistungen nur über Verzeichniskategorien belegt (Heizung, Sanitär, Klima, Lüftung) – Schwerpunkte (Wärmepumpe, Badsanierung, Wartung) beim Betrieb bestätigen",
+    "Meisterbetrieb nicht belegt – nicht behaupten",
     "Logo und Projektfotos: nicht gefunden – beim Betrieb anfragen"
   ],
   "sources": [
     {
-      "label": "11880 – Bajrami Fliesenleger Mozaik, Petershausen",
-      "url": "https://11880.com/branchenbuch/petershausen-oberbayern/060691660B108374430/fliesenlegerbetrieb-bajrami.html"
+      "label": "11880 – Anbieter für Haustechnik Dachau (Liste mit Fichtl Haustechnik, E-Mail outlook.de)",
+      "url": "https://www.11880.com/suche/haustechnik/dachau"
     },
     {
-      "label": "11880 – Bodenleger/Bodenbeläge Petershausen",
-      "url": "https://www.11880.com/suche/bodenbelag/petershausen"
+      "label": "11880 – Sanitärinstallationen Dachau",
+      "url": "https://www.11880.com/suche/sanitaerinstallation/dachau"
     },
     {
-      "label": "fliesenleger24.com – Fliesenleger in Petershausen (Bajrami, Mobilnummer)",
-      "url": "https://www.fliesenleger24.com/stadt/petershausen/profil/lothar-swete-zentralheiz/"
+      "label": "11880 – Heizungsinstallationen Dachau",
+      "url": "https://www.11880.com/suche/heizungsinstallation/dachau"
+    },
+    {
+      "label": "Abgrenzung: Timo Fichtl Haustechnik, Hanau (anderer Betrieb)",
+      "url": "https://fichtl-haustechnik.de/"
     }
   ],
   "site": {
     "theme": "aqua",
     "category": "handwerk",
     "heroOffer": [
-      "Badfliesen",
-      "Bodenfliesen",
-      "Küchenspiegel",
-      "Treppen",
-      "Terrassen"
+      "Heizung",
+      "Sanitär",
+      "Lüftung",
+      "Klima",
+      "Reparatur"
     ],
     "scene": "bath",
-    "logoIcon": "trowel",
-    "logoMark": "FB",
-    "brandName": "Fliesen Bajrami",
-    "seoTitle": "Fliesenleger in Petershausen – Fliesenlegerbetrieb Bajrami",
-    "seoDescription": "Fliesen für Bad, Küche und Wohnräume in Petershausen und im Landkreis Dachau. Angebot anfragen – auch per WhatsApp.",
+    "logoIcon": "drop",
+    "logoMark": "FH",
+    "brandName": "Fichtl Haustechnik",
+    "seoTitle": "Heizung & Sanitär in Dachau – Fichtl Haustechnik",
+    "seoDescription": "Heizungs- und Sanitärinstallation, Lüftung und Klima in Dachau, Karlsfeld und Umgebung. Anfrage per Anruf oder WhatsApp.",
     "nav": [
       {
         "label": "Leistungen",
@@ -133,250 +137,249 @@
       }
     ],
     "hero": {
-      "eyebrow": "Fliesenleger · Petershausen",
-      "headline": "Fliesenleger in Petershausen",
-      "sub": "Bad, Küche und Böden – mit sauberen Fugen und geraden Kanten verlegt.",
-      "ctaPrimary": "Angebot anfragen",
+      "eyebrow": "Haustechnik · Dachau",
+      "headline": "Heizung und Sanitär in Dachau",
+      "sub": "Fichtl Haustechnik installiert Heizung, Bad, Lüftung und Klima im Landkreis Dachau.",
+      "ctaPrimary": "Anfrage per WhatsApp",
       "ctaSecondary": "Anrufen",
       "bullets": [
-        "Fliesenbetrieb aus Petershausen",
-        "Wand- und Bodenfliesen",
-        "Fotos per WhatsApp schicken"
+        "Heizung und Sanitär aus Dachau",
+        "Lüftung und Klima",
+        "Direkt per Handy erreichbar"
       ],
-      "imageLabel": "frisch gefliestes Bad mit großformatigen Fliesen"
+      "imageLabel": "Heizungsraum mit neu verlegten Rohren"
     },
     "badges": [
       {
-        "title": "Bad",
-        "sub": "Wand & Boden"
+        "title": "Heizung",
+        "sub": "Installation & Tausch"
       },
       {
-        "title": "Küche",
-        "sub": "Fliesenspiegel"
+        "title": "Sanitär",
+        "sub": "Bad & Leitungen"
       },
       {
-        "title": "Böden",
-        "sub": "Wohnräume & Flur"
+        "title": "Lüftung",
+        "sub": "frische Raumluft"
       },
       {
-        "title": "Petershausen",
-        "sub": "Weißlinger Straße"
+        "title": "Dachau",
+        "sub": "Siedlungsstraße"
       }
     ],
     "trust": [
       {
-        "value": "Vor Ort",
-        "label": "Betrieb in Petershausen"
+        "value": "Dachau",
+        "label": "Betrieb vor Ort"
       },
       {
-        "value": "Wand",
-        "label": "und Boden"
-      },
-      {
-        "value": "Innen",
-        "label": "Bad, Küche, Flur"
+        "value": "4",
+        "label": "Gewerke der Haustechnik"
       },
       {
         "value": "Mobil",
         "label": "direkt erreichbar"
+      },
+      {
+        "value": "WhatsApp",
+        "label": "Fotos schicken"
       }
     ],
     "servicesIntro": {
-      "headline": "Fliesen für jeden Raum im Haus",
-      "text": "Ob neues Bad, Küchenrückwand oder Flurboden: Wir planen das Fugenbild mit Ihnen und verlegen Fliesen passend zum Raum."
+      "headline": "Haustechnik für Haus und Wohnung",
+      "text": "Heizung, Wasser, Luft: Fichtl Haustechnik übernimmt die Technik, die im Alltag einfach funktionieren muss – vom Austausch bis zur Reparatur."
     },
     "services": [
       {
-        "title": "Badfliesen",
-        "text": "Wände und Boden im Bad neu gefliest – vom Gäste-WC bis zum großen Familienbad.",
+        "title": "Heizungsinstallation",
+        "text": "Neue Heizung oder Austausch der alten Anlage – geplant nach Haus, Verbrauch und Wunsch.",
         "items": [
-          "Wandfliesen",
-          "Bodenfliesen",
-          "Duschbereich"
+          "Heizungstausch",
+          "Neuinstallation",
+          "Heizkörper"
         ]
       },
       {
-        "title": "Bodenfliesen",
-        "text": "Strapazierfähige Böden für Flur, Küche und Wohnraum, eben verlegt und leicht zu pflegen.",
+        "title": "Heizungsreparatur",
+        "text": "Wenn die Heizung ausfällt oder Geräusche macht, wird die Ursache gesucht und behoben.",
         "items": [
-          "Flur",
-          "Wohnraum",
-          "Großformate"
+          "Störungssuche",
+          "Ersatzteile",
+          "Entlüften"
         ]
       },
       {
-        "title": "Küchenspiegel",
-        "text": "Fliesen hinter Herd und Arbeitsplatte schützen die Wand und setzen einen Akzent.",
+        "title": "Sanitärinstallation",
+        "text": "Wasserleitungen, Abfluss und Anschlüsse – im Neubau wie bei der Sanierung.",
         "items": [
-          "Rückwand",
-          "Arbeitsbereich",
-          "Akzentfliesen"
+          "Wasserleitungen",
+          "Abwasser",
+          "Anschlüsse"
         ]
       },
       {
-        "title": "Mosaik",
-        "text": "Mosaikflächen für Nischen, Duschwände oder Bordüren – kleinteilig und präzise gesetzt.",
+        "title": "Bad erneuern",
+        "text": "Neue Dusche, WC oder Waschtisch: Die Installation wird mit Ihnen Schritt für Schritt abgestimmt.",
         "items": [
-          "Nischen",
-          "Bordüren",
-          "Duschwände"
+          "Dusche",
+          "WC",
+          "Waschtisch"
         ]
       },
       {
-        "title": "Treppen und Stufen",
-        "text": "Geflieste Stufen und Podeste im Innenbereich mit passenden Kantenlösungen.",
+        "title": "Lüftungstechnik",
+        "text": "Lüftungsanlagen sorgen für frische Luft und helfen gegen Feuchte in Bad und Wohnräumen.",
         "items": [
-          "Stufen",
-          "Podeste",
-          "Kantenprofile"
+          "Wohnraumlüftung",
+          "Badlüftung",
+          "Feuchteschutz"
         ]
       },
       {
-        "title": "Reparatur und Fugen",
-        "text": "Gesprungene Fliesen tauschen, Fugen erneuern, Silikon nachziehen – auch kleine Aufträge.",
+        "title": "Klimaanlagen",
+        "text": "Kühle Räume im Sommer – Klimageräte passend zu Raum und Nutzung installiert.",
         "items": [
-          "Fliesentausch",
-          "Fugen erneuern",
-          "Silikonfugen"
+          "Klimageräte",
+          "Montage",
+          "Inbetriebnahme"
         ]
       }
     ],
     "why": {
-      "headline": "Fliesenarbeiten aus Petershausen – kurz und direkt.",
+      "headline": "Haustechnik aus Dachau – ohne Umwege.",
       "points": [
         {
-          "title": "Kurze Anfahrt",
-          "text": "Von Petershausen schnell in Vierkirchen, Jetzendorf, Hohenkammer und Markt Indersdorf."
+          "title": "Kurze Wege",
+          "text": "Von der Siedlungsstraße aus schnell in Karlsfeld, Bergkirchen und Hebertshausen."
         },
         {
           "title": "Ein Ansprechpartner",
-          "text": "Sie sprechen direkt mit dem Betrieb – vom ersten Foto bis zur Abnahme."
+          "text": "Heizung, Sanitär, Lüftung und Klima liegen in einer Hand."
         },
         {
-          "title": "Wand und Boden",
-          "text": "Bad, Küche und Wohnräume in einem Auftrag, mit abgestimmtem Fugenbild."
+          "title": "Direkt am Handy",
+          "text": "Anruf oder WhatsApp genügt – Fotos der Anlage helfen bei der ersten Einschätzung."
         },
         {
-          "title": "Auch kleine Jobs",
-          "text": "Einzelne Fliesen tauschen oder Fugen erneuern lohnt sich ebenso wie ein neues Bad."
+          "title": "Klare Absprache",
+          "text": "Umfang und Ablauf werden vor dem Start gemeinsam festgelegt."
         }
       ]
     },
     "reviews": {
-      "headline": "Stimmen aus der Region",
+      "headline": "Was Kunden sagen",
       "summary": "Kundenstimmen werden hier eingebunden, sobald sie aus dem Google-Profil übernommen sind.",
       "highlights": [
-        "Fliesen in Petershausen",
-        "Bad, Küche und Böden",
+        "Heizung und Sanitär in Dachau",
+        "Lüftung und Klima",
         "Direkter Kontakt"
       ],
       "source": "Google",
-      "sourceUrl": "https://www.google.com/maps/search/?api=1&query=Fliesenlegerbetrieb%20Bajrami%20Wei%C3%9Flinger%20Str.%2017%20Petershausen",
+      "sourceUrl": "https://www.google.com/maps/search/?api=1&query=Fichtl%20Haustechnik%20Siedlungsstra%C3%9Fe%2020a%20Dachau",
       "rating": null,
       "count": null
     },
     "process": {
-      "headline": "So kommen Ihre Fliesen an die Wand",
+      "headline": "So läuft Ihr Auftrag",
       "steps": [
         {
-          "title": "Fotos schicken",
-          "text": "Raum fotografieren, grobe Maße notieren und per WhatsApp senden."
+          "title": "Anfrage",
+          "text": "Kurz anrufen oder Fotos von Heizung, Bad oder Leitung per WhatsApp schicken."
         },
         {
-          "title": "Aufmaß vor Ort",
-          "text": "Untergrund, Fliesenformat und Fugenbild werden gemeinsam abgestimmt."
+          "title": "Termin vor Ort",
+          "text": "Anlage und Räume werden angeschaut, Wünsche besprochen."
         },
         {
           "title": "Angebot",
-          "text": "Sie erhalten ein klares Angebot mit allen Positionen."
+          "text": "Sie erhalten ein nachvollziehbares Angebot für Material und Arbeit."
         },
         {
-          "title": "Verlegen",
-          "text": "Untergrund vorbereiten, verlegen, verfugen und sauber übergeben."
+          "title": "Installation",
+          "text": "Einbau, Prüfung und Übergabe – mit Erklärung der neuen Technik."
         }
       ]
     },
     "gallery": {
-      "headline": "Flächen, die wir fliesen",
-      "text": "In der Live-Version zeigen wir hier echte Projekte aus Petershausen und Umgebung.",
+      "headline": "Arbeiten aus der Haustechnik",
+      "text": "Für die Live-Version zeigen wir hier echte Projekte des Betriebs.",
       "items": [
         {
-          "title": "Neues Bad",
-          "photoNeeded": "komplett gefliestes Bad mit bodengleicher Dusche"
+          "title": "Neue Heizung",
+          "photoNeeded": "frisch installierte Heizungsanlage im Keller"
         },
         {
-          "title": "Flurboden",
-          "photoNeeded": "großformatige Bodenfliesen im Eingangsbereich"
+          "title": "Rohrleitungen",
+          "photoNeeded": "sauber verlegte, gedämmte Heizungsrohre"
         },
         {
-          "title": "Küchenrückwand",
-          "photoNeeded": "geflieste Wand hinter der Arbeitsplatte"
+          "title": "Modernes Bad",
+          "photoNeeded": "fertiges Bad mit bodengleicher Dusche"
         },
         {
-          "title": "Mosaiknische",
-          "photoNeeded": "Duschnische mit Mosaikfliesen"
+          "title": "Lüftungsgerät",
+          "photoNeeded": "montiertes Lüftungsgerät mit Leitungen"
         },
         {
-          "title": "Fliesentreppe",
-          "photoNeeded": "geflieste Innentreppe mit Kantenprofil"
+          "title": "Klimagerät",
+          "photoNeeded": "Innengerät einer Klimaanlage an der Wand"
         }
       ]
     },
     "region": {
-      "headline": "Fliesenleger für Petershausen und das Dachauer Hinterland",
-      "text": "Von der Weißlinger Straße aus schnell in Kollbach, Vierkirchen, Jetzendorf, Hohenkammer, Markt Indersdorf und Dachau.",
+      "headline": "Haustechnik für Dachau und Umgebung",
+      "text": "Von Dachau aus schnell in Karlsfeld, Bergkirchen, Hebertshausen, Röhrmoos und Schwabhausen.",
       "places": [
-        "Petershausen",
-        "Kollbach",
-        "Vierkirchen",
-        "Jetzendorf",
-        "Hohenkammer",
-        "Markt Indersdorf",
-        "Dachau"
+        "Dachau",
+        "Karlsfeld",
+        "Bergkirchen",
+        "Hebertshausen",
+        "Röhrmoos",
+        "Schwabhausen"
       ]
     },
     "faq": [
       {
         "q": "Kann ich vorab Fotos schicken?",
-        "a": "Ja, Fotos und grobe Maße per WhatsApp reichen für eine erste Einschätzung."
+        "a": "Ja, Fotos von Heizung, Typenschild oder Bad per WhatsApp helfen für eine erste Einschätzung."
       },
       {
-        "q": "Bringen Sie die Fliesen mit oder kaufe ich sie selbst?",
-        "a": "Beides ist möglich – das stimmen wir beim Aufmaß ab."
+        "q": "Tauschen Sie auch alte Heizungen aus?",
+        "a": "Ja, Heizungsinstallation und Austausch gehören zum Angebot. Welche Anlage passt, wird vor Ort besprochen."
       },
       {
-        "q": "Übernehmen Sie auch kleine Reparaturen?",
-        "a": "Ja, auch einzelne Fliesen oder Fugen erneuern wir."
+        "q": "Übernehmen Sie Reparaturen?",
+        "a": "Ja, melden Sie sich mit einer kurzen Beschreibung des Problems – der Termin wird telefonisch abgestimmt."
       },
       {
-        "q": "Wie lange dauert ein neues Bad?",
-        "a": "Das hängt von Größe und Untergrund ab. Den Zeitplan besprechen wir nach dem Aufmaß."
+        "q": "Bauen Sie auch Lüftungs- und Klimaanlagen ein?",
+        "a": "Ja, Lüftungs- und Klimatechnik gehören neben Heizung und Sanitär zum Angebot."
       },
       {
-        "q": "Arbeiten Sie auch außerhalb von Petershausen?",
-        "a": "Ja, im Umkreis von Petershausen – fragen Sie einfach an."
+        "q": "In welchen Orten sind Sie unterwegs?",
+        "a": "In Dachau und den Nachbarorten wie Karlsfeld, Bergkirchen oder Hebertshausen – fragen Sie einfach an."
       }
     ],
     "contact": {
-      "headline": "Ihr Fliesenprojekt – unverbindlich anfragen",
-      "text": "Schreiben Sie kurz, welcher Raum gefliest werden soll, wie groß die Fläche ist und ob alte Fliesen raus müssen. Fotos helfen.",
+      "headline": "Heizung, Bad oder Lüftung – fragen Sie an",
+      "text": "Beschreiben Sie kurz, worum es geht: Heizung, Bad, Leitung, Lüftung oder Klima. Fotos helfen.",
       "topics": [
-        "Badfliesen",
-        "Bodenfliesen",
-        "Küchenspiegel",
-        "Mosaik",
+        "Heizung",
+        "Sanitär / Bad",
         "Reparatur",
+        "Lüftung",
+        "Klimaanlage",
         "Sonstiges"
       ],
-      "responseNote": "Aufmaß vor Ort nach Absprache."
+      "responseNote": "Rückmeldung per Anruf oder WhatsApp."
     },
     "quote": {
-      "sizeLabel": "Welche Fläche soll gefliest werden?",
+      "sizeLabel": "Worum geht es?",
       "sizes": [
-        "Gäste-WC",
-        "Badezimmer",
-        "Küche / Flur",
-        "Mehrere Räume"
+        "Heizung tauschen",
+        "Reparatur",
+        "Bad / Sanitär",
+        "Lüftung oder Klima"
       ],
       "timings": [
         "So bald wie möglich",
@@ -385,15 +388,21 @@
         "Ich plane erst noch"
       ]
     },
-    "stickyCta": "Angebot anfragen",
+    "stickyCta": "Jetzt anfragen",
     "look": {
-      "palette": 2,
-      "font": 6,
+      "skin": "kante",
+      "palette": 0,
+      "font": 10,
       "hero": 0,
-      "services": 1,
-      "radius": 1,
-      "logo": 0,
-      "intro": 5
+      "services": 0,
+      "radius": 2,
+      "logo": 4,
+      "intro": 1,
+      "projects": 0,
+      "process": 0,
+      "faq": 1,
+      "reviews": 0,
+      "order": 0
     }
   }
 }

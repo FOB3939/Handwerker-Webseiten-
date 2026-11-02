@@ -1,126 +1,128 @@
 {
   "id": "2026-11-02-198",
-  "slug": "zimmerei-gehrmann-germering",
+  "slug": "schlosserei-stadler-emmering",
   "date": "2026-11-02",
   "company": {
-    "name": "Zimmerei Helmut Gehrmann",
-    "owner": "Helmut Gehrmann",
-    "trade": "Zimmerei & Fenster",
-    "city": "Germering",
-    "address": "Landsberger Str. 59b, 82110 Germering",
-    "phone": "089 84936013",
-    "email": "zimmerei-gilching@t-online.de",
+    "name": "Stadler Manfred Kunst- und Bauschlosserei Meisterbetrieb",
+    "owner": "Manfred Stadler",
+    "trade": "Kunst- und Bauschlosserei",
+    "city": "Emmering",
+    "address": "Roggensteiner Str. 9, 82275 Emmering",
+    "phone": "08141 512992",
+    "email": "schlosserei.manfred.stadler@gmx.de",
     "serviceArea": [
-      "Germering",
-      "Gilching",
+      "Emmering",
+      "Fürstenfeldbruck",
+      "Eichenau",
       "Puchheim",
-      "Unterpfaffenhofen",
-      "Alling",
-      "Gräfelfing"
+      "Olching",
+      "Schöngeising",
+      "Maisach"
     ]
   },
   "listings": {
     "google": {
-      "url": "https://www.google.com/maps/search/?api=1&query=Zimmerei%20Helmut%20Gehrmann%20Landsberger%20Str.%2059b%20Germering",
+      "url": "https://www.google.com/maps/search/?api=1&query=Stadler%20Manfred%20Kunst%20und%20Bauschlosserei%20Roggensteiner%20Str.%209%20Emmering",
       "rating": null,
       "reviews": null,
-      "evidence": "NICHT BELEGT – kein Google-Spiegel (rgv-bayern, trustlocal, firmania) zum Germeringer Betrieb gefunden; trustlocal führt nur die fremde Holzbau Gehrmann GmbH (Vogtareuth). Annahme stützt sich auf die öffentlich belegte Freemail-Adresse zimmerei-gilching@t-online.de (Bayerwald-Händlerseite)."
+      "evidence": "NICHT BELEGT – kein Google-Spiegel (rgv-bayern, trustlocal, firmania) im Suchergebnis. Annahme über öffentlich belegte Freemail-Adresse schlosserei.manfred.stadler@gmx.de (11880-Snippet, Sellwerk-Firmenprofil, Stadtbranchenbuch). Yelp.com führt den Betrieb (Roggensteiner Str. 9, 08141 512992) ohne Website. In Maps prüfen."
     },
     "myhammer": {
-      "url": "https://www.11880.com/branchenbuch/germering-oberbayern/060695949B41937483/zimmerei-helmut-gehrmann.html",
+      "url": "https://www.11880.com/suche/schlosser/fuerstenfeldbruck",
       "rating": null,
       "reviews": null,
-      "evidence": "Kein MyHammer gefunden – 11880-Eintrag „Zimmerei Helmut Gehrmann“, Landsberger Str. 59 B, Germering, Tel. (089) 84936013 (Stand Juli 2024, Kategorien Zimmerei, Schreiner, Tischler); außerdem Bayerwald-Fenster-Händlerliste, stadtbranchenbuch (Fenster, Schreinerei) und goyellow."
+      "evidence": "Kein MyHammer gefunden – Eintrag „Stadler Manfred, Kunst- und Bauschlosserei“ in der 11880-Liste Schlosser/Metallbau Fürstenfeldbruck mit gmx-Adresse und Tel. (08141) 512992; außerdem Sellwerk, Stadtbranchenbuch, metallbau.com, branchen-info.net."
     }
   },
   "websiteStatus": "keine eigene Website gefunden",
   "websiteChecks": [
-    "(1) „Zimmerei Helmut Gehrmann Germering“ mit blocked_domains (11880, Gelbe Seiten, Das Örtliche, Telefonbuch, Cylex, meinestadt, Creditreform, Facebook, Instagram, golocal, MyHammer, Northdata, Firmenwissen, WKDB, Yelp, trustlocal, wlw) – nur Verzeichnisse (bayerwald-fenster-tueren.de Händlerseite, germering.stadtbranchenbuch.com, goyellow, yellowmap, peoplecheck); keine eigene Domain",
-    "(2) Domain-Check allowed_domains zimmerei-gehrmann.de, gehrmann-zimmerei.de, zimmerei-gilching.de, zimmerei-germering.de, gehrmann-holzbau.de, holzbau-gehrmann.de, zimmerei-gehrmann.com, gehrmann-germering.de – einziger Treffer holzbau-gehrmann.de = Zimmerei Gehrmann GmbH in Vogtareuth (Tobias und Michael Gehrmann, Lkr. Rosenheim), anderer Betrieb ohne erkennbaren Bezug",
-    "(3) Telefon-/E-Mail-Suche „84936013“ bzw. „zimmerei-gilching@t-online.de“ – nur Bayerwald-Partnerseiten, Firmenwissen-Eintrag „Helmut Gehrmann Holz- und Bautenschutz“ (gleiche Nummer), stadtbranchenbuch, goyellow; keine Website",
-    "(4) Impressum-Suche „Impressum Helmut Gehrmann Zimmerei Germering Landsberger Straße 59“ – kein eigenes Impressum gefunden",
-    "(5) Google-Spiegel (rgv-bayern, trustlocal, firmania) – kein Eintrag zum Germeringer Betrieb",
-    "Hinweis: Bayerwald-Partnerportal (bayerwald-partner.com/hp12705/) führt eine Händler-Unterseite des Fensterherstellers – keine eigene Domain, aber vor Versand ansehen",
-    "Website-Risiko: mittel – alle Prüfungen negativ, Freemail belegt, aber kein Google-Eintrag belegt und ältere Firmengeschichte (GmbH in Gilching erloschen)"
+    "(1) „Manfred Stadler Kunstschlosserei Bauschlosserei Emmering“ mit blocked_domains (11880, Gelbe Seiten, Das Örtliche, Telefonbuch, Cylex, meinestadt, Creditreform, Facebook, Instagram, golocal, MyHammer, Northdata, Firmenwissen, WKDB, Yelp.de, trustlocal, wlw) – nur Verzeichnisse (Sellwerk-Firmenprofil, Stadtbranchenbuch, metallbau.com, schlosserei.net, Ortsdienst, YellowMap); keine eigene Domain.",
+    "(2) Domain-Check allowed_domains schlosserei-stadler.de, stadler-schlosserei.de, schlosserei-stadler-emmering.de, stadler-metallbau.de, metallbau-stadler.de, kunstschlosserei-stadler.de, stadler-emmering.de, manfred-stadler.de – Treffer nur schlosserei-stadler.de (Martin Stadler, Unterdießen) und metallbau-stadler.de (Vorwahl 0651, Trier) = andere Firmen ohne Bezug zu Emmering.",
+    "(3) Telefon-/E-Mail-Suche „08141 512992“/„08141512992“/„schlosserei.manfred.stadler“ – nur Verzeichnisse (Sellwerk, branchen-info.net, Stadtbranchenbuch, Yelp.com), keine Website.",
+    "(4) Impressum-Suche „Impressum Manfred Stadler Schlosserei Roggensteiner Straße Emmering“ – kein eigenes Impressum gefunden.",
+    "(5) Verzeichnisse: kein Website-Feld in den Snippets; E-Mail ausschließlich gmx.de (Freemail).",
+    "Website-Risiko: niedrig – alle Prüfungen negativ, Freemail mehrfach belegt; Google-Eintrag selbst nicht belegt"
   ],
   "facts": {
     "services": [
-      "Zimmerei",
-      "Holzbau",
-      "Fenster (Händler Bayerwald Fenster & Haustüren)",
-      "Schreinerarbeiten",
-      "Holz- und Bautenschutz"
+      "Balkongeländer",
+      "Außentreppen",
+      "Fenstergitter",
+      "Vordächer",
+      "Gartentore",
+      "Individuelle Metallkonstruktionen"
     ],
     "experience": null,
     "praisedFor": []
   },
   "strategy": {
-    "audience": "Hauseigentümer in Germering, Gilching und Puchheim, die Dachstuhl, Holzbauteile oder Fenster erneuern oder ausbessern lassen wollen",
-    "mainService": "Zimmererarbeiten und Fenstertausch",
-    "trustSignal": "Inhabergeführter Betrieb an der Landsberger Straße in Germering, Händler für Bayerwald-Fenster und -Haustüren",
-    "conversionGoal": "Anruf oder Anfrage mit Fotos für Dach-, Holz- oder Fensterarbeiten",
-    "visualConcept": "Warme Holztöne, sichtbares Gebälk und neue Holzfenster – solide, handwerklich, bodenständig"
+    "audience": "Hauseigentümer, Bauherren und Hausverwaltungen in Emmering, Fürstenfeldbruck, Eichenau und Puchheim, die Geländer, Treppen, Tore oder Vordächer aus Metall brauchen",
+    "mainService": "Bau- und Kunstschlosserei – Geländer, Treppen, Tore und Gitter nach Maß",
+    "trustSignal": "Meisterbetrieb (laut Verzeichniseintrag) mit Werkstatt in Emmering",
+    "conversionGoal": "Anfrage für ein Geländer, eine Treppe oder ein Tor mit Fotos und groben Maßen",
+    "visualConcept": "Werkstatt-Ästhetik: dunkler Stahl, Funkenflug beim Schweißen, feuerverzinkte Geländer vor hellen Hausfassaden"
   },
   "sales": {
-    "score": 5,
+    "score": 6,
     "whyGoodLead": [
-      "Keine eigene Website gefunden – nur Verzeichnis- und Händlereinträge",
-      "Freemail-Adresse (t-online) öffentlich gelistet – Kontakt per E-Mail möglich",
-      "Zwei Standbeine (Zimmerei und Fenster) lassen sich auf einer Seite gut zeigen",
-      "Fenstertausch und Dachsanierung sind im Raum Germering stark gefragt"
+      "Keine eigene Website gefunden – nur Verzeichniseinträge mit gmx-Adresse",
+      "Metallbau/Schlosserei bisher selten unter den Leads",
+      "Meisterbetrieb mit fester Werkstatt – Geländer und Tore sind Aufträge mit gutem Volumen",
+      "Kunden suchen Geländer und Tore gezielt online mit Bildern – eine Projektgalerie bringt Anfragen"
     ],
-    "pitch": "Guten Tag Herr Gehrmann, ich baue Websites für Handwerksbetriebe im Westen von München. Ihre Zimmerei in Germering habe ich in mehreren Verzeichnissen und als Bayerwald-Händler gefunden, aber keine eigene Website. Ich habe unverbindlich einen Entwurf vorbereitet, der Ihre Zimmerer- und Fensterarbeiten zeigt – darf ich Ihnen den Link schicken?"
+    "pitch": "Grüß Gott Herr Stadler, ich baue Websites für Handwerksbetriebe im Landkreis Fürstenfeldbruck. Ihre Schlosserei in Emmering habe ich in Branchenverzeichnissen gefunden, aber ohne eigene Website. Ich habe unverbindlich einen Entwurf vorbereitet, auf dem Kunden Ihre Geländer, Treppen und Tore sehen und direkt anfragen können – darf ich Ihnen den Link per E-Mail schicken?"
   },
   "manualChecks": [
-    "Website-Risiko: mittel – vor Versand in Google Maps prüfen, dass keine Website hinterlegt ist (Grund: Google-Eintrag nicht belegt, nur Freemail und Verzeichnisse)",
-    "Betrieb aktiv? Zimmerei Helmut Gehrmann GmbH (Sitz Gilching, 2009 eingetragen) laut peoplecheck nach Liquidation erloschen; 11880-Eintrag Germering zuletzt Juli 2024 aktualisiert – Rechtsform und Fortführung klären",
-    "Bayerwald-Partnerseite bayerwald-partner.com/hp12705/ ansehen – falls dort eine vollwertige Händler-Homepage läuft, Pitch anpassen",
-    "Holzbau Gehrmann (Vogtareuth) ist laut Quellen ein anderer Betrieb – Verwandtschaft nicht belegt, im Gespräch nicht erwähnen",
-    "Leistungen nur grob belegt (Zimmerei, Holzbau, Fenster, Schreinerei, Holz- und Bautenschutz) – Details wie Dachstuhl, Carport, Gauben beim Betrieb bestätigen",
+    "Website-Risiko: niedrig – vor Versand in Google Maps prüfen, dass keine Website hinterlegt ist (Grund: Freemail mehrfach belegt, alle Suchen negativ, aber Google-Eintrag selbst nicht über Spiegel belegt)",
+    "Google-Eintrag in Maps suchen (Existenz, Bewertungen) – bisher nur Yelp.com-Eintrag gefunden",
+    "Zweite Adresse in branchen-info.net: „Manfred Stadler Schlosserei“, Emmeringer Str. 54, 82256 Fürstenfeldbruck (gleiche Nummer, ungeprüft) – vermutlich alte Anschrift; Roggensteiner Str. 9 in den meisten Quellen",
+    "Öffnungszeiten laut einem ca. zwei Jahre alten Eintrag Mo–Do 7:30–16:30, Fr 7:30–13:30 – nicht übernommen, beim Betrieb bestätigen",
+    "Keine Mobilnummer gefunden – Erstkontakt per E-Mail (gmx) oder Festnetz",
+    "Leistungen aus Verzeichnistexten (Balkongeländer, Außentreppen, Fenstergitter, Vordächer, Gartentore); Schlüsseldienst nur als Kategorie im Stadtbranchenbuch-Titel – nicht übernommen, beim Betrieb klären",
     "Logo und Projektfotos: nicht gefunden – beim Betrieb anfragen"
   ],
   "sources": [
     {
-      "label": "11880 – Zimmerei Helmut Gehrmann Germering",
-      "url": "https://www.11880.com/branchenbuch/germering-oberbayern/060695949B41937483/zimmerei-helmut-gehrmann.html"
+      "label": "11880 – Schlosser Fürstenfeldbruck (Liste mit Stadler Manfred, gmx-Adresse)",
+      "url": "https://www.11880.com/suche/schlosser/fuerstenfeldbruck"
     },
     {
-      "label": "Bayerwald Fenster & Haustüren – Händler Zimmerei Gehrmann Helmut Germering (E-Mail)",
-      "url": "https://www.bayerwald-fenster-tueren.de/de-de/partner-vor-ort-alt/haendler-zimmerei-gehrmann-helmut-germering-8213204/"
+      "label": "Sellwerk – Stadler Manfred Kunst und Bauschlosserei Meisterbetrieb",
+      "url": "https://sellwerk.de/firmenprofil/stadler-manfred-kunst-und-bauschlosserei"
     },
     {
-      "label": "Bayerwald-Partnerportal – Zimmerei Gehrmann Helmut",
-      "url": "https://www.bayerwald-partner.com/hp12705/Zimmerei-Gehrmann-Helmut.htm"
+      "label": "Stadtbranchenbuch Emmering – Stadler Manfred, Roggensteiner Str. 9",
+      "url": "https://emmering-kreis-fuerstenfeldbruck.stadtbranchenbuch.com/1563203.html"
     },
     {
-      "label": "Stadtbranchenbuch Germering – Zimmerei Helmut Gehrmann",
-      "url": "https://germering.stadtbranchenbuch.com/4766644.html"
+      "label": "metallbau.com – Manfred Stadler in Emmering",
+      "url": "https://www.metallbau.com/emmering-kreis-f%C3%BCrstenfeldbruck/manfred-stadler-3800921.html"
     },
     {
-      "label": "goyellow – Zimmerei Helmut Gehrmann",
-      "url": "https://www.goyellow.de/home/zimmerer-zimmerei-helmut-gehrmann-germering--27hxtc.html"
+      "label": "branchen-info.net – Manfred Stadler Schlosserei",
+      "url": "https://fuerstenfeldbruck.branchen-info.net/fp_1257136.php"
     },
     {
-      "label": "Firmenwissen – Helmut Gehrmann Holz- und Bautenschutz, Germering",
-      "url": "https://www.firmenwissen.com/en/az/firmeneintrag/82110/8330318531/HELMUT_GEHRMANN_HOLZ_UND_BAUTENSCHUTZ.html"
+      "label": "Yelp – Manfred Stadler, Emmering",
+      "url": "https://www.yelp.com/biz/manfred-stadler-emmering"
     }
   ],
   "site": {
     "theme": "werk",
     "category": "handwerk",
     "heroOffer": [
-      "Dachstuhl",
-      "Holzbau",
-      "Fenster",
-      "Haustüren",
-      "Holzschutz"
+      "Geländer",
+      "Außentreppen",
+      "Gartentore",
+      "Vordächer",
+      "Fenstergitter"
     ],
     "scene": "facade",
-    "logoIcon": "roof",
-    "logoMark": "HG",
-    "brandName": "Zimmerei Gehrmann",
-    "seoTitle": "Zimmerei in Germering – Zimmerei Helmut Gehrmann",
-    "seoDescription": "Zimmererarbeiten, Holzbau, Fenster und Haustüren in Germering, Gilching und Puchheim. Jetzt unverbindlich anfragen.",
+    "logoIcon": "house",
+    "logoMark": "MS",
+    "brandName": "Schlosserei Stadler",
+    "seoTitle": "Schlosserei in Emmering – Manfred Stadler, Meisterbetrieb",
+    "seoDescription": "Kunst- und Bauschlosserei in Emmering: Balkongeländer, Außentreppen, Gartentore, Vordächer und Fenstergitter nach Maß. Jetzt Anfrage senden.",
     "nav": [
       {
         "label": "Leistungen",
@@ -148,132 +150,132 @@
       }
     ],
     "hero": {
-      "eyebrow": "Zimmerei · Germering",
-      "headline": "Zimmerei und Fenster in Germering",
-      "sub": "Holzbau, Dacharbeiten und neue Fenster von der Landsberger Straße aus.",
+      "eyebrow": "Kunst- und Bauschlosserei · Emmering",
+      "headline": "Schlosserei Stadler in Emmering",
+      "sub": "Geländer, Treppen und Tore aus Metall – nach Maß gefertigt in Emmering.",
       "ctaPrimary": "Anfrage senden",
       "ctaSecondary": "Anrufen",
       "bullets": [
-        "Zimmerei aus Germering",
-        "Bayerwald-Fenster und Haustüren",
-        "Holz- und Bautenschutz"
+        "Meisterbetrieb in Emmering",
+        "Gefertigt nach Ihren Maßen",
+        "Für Haus, Garten und Balkon"
       ],
-      "imageLabel": "neuer Dachstuhl aus Fichtenholz über einem Einfamilienhaus"
+      "imageLabel": "Stahlgeländer an einer Außentreppe vor einer hellen Hausfassade"
     },
     "badges": [
       {
-        "title": "Zimmerei",
-        "sub": "Holzbau & Dach"
+        "title": "Meisterbetrieb",
+        "sub": "Kunst- und Bauschlosserei"
       },
       {
-        "title": "Fenster",
-        "sub": "Bayerwald-Händler"
+        "title": "Geländer",
+        "sub": "Balkon und Treppe"
       },
       {
-        "title": "Holzschutz",
-        "sub": "Holz- und Bautenschutz"
+        "title": "Tore & Gitter",
+        "sub": "Garten und Fenster"
       },
       {
-        "title": "Germering",
-        "sub": "Landsberger Straße"
+        "title": "Emmering",
+        "sub": "Roggensteiner Straße"
       }
     ],
     "trust": [
       {
-        "value": "Inhaber",
-        "label": "Helmut Gehrmann"
+        "value": "Meister",
+        "label": "Betrieb laut Eintrag"
       },
       {
-        "value": "2",
-        "label": "Gewerke: Holz und Fenster"
+        "value": "Nach Maß",
+        "label": "keine Ware von der Stange"
       },
       {
-        "value": "Vor Ort",
-        "label": "Betrieb in Germering"
+        "value": "Werkstatt",
+        "label": "in Emmering"
       },
       {
-        "value": "Direkt",
-        "label": "per Telefon und E-Mail"
+        "value": "Außen & innen",
+        "label": "Treppen, Geländer, Tore"
       }
     ],
     "servicesIntro": {
-      "headline": "Vom Dachbalken bis zum Fensterflügel",
-      "text": "Holz trägt das Dach und rahmt die Fenster. Beides erledigt der Betrieb – geplant und montiert aus einer Hand."
+      "headline": "Metallarbeiten für Haus und Garten",
+      "text": "Ob neues Balkongeländer, eine Außentreppe zum Garten oder ein Tor für die Einfahrt: Jedes Teil wird für Ihr Haus gemessen und in der Werkstatt gefertigt."
     },
     "services": [
       {
-        "title": "Zimmererarbeiten",
-        "text": "Balken, Pfetten und Sparren werden ersetzt, ergänzt oder neu abgebunden – für Neubau, Anbau und Sanierung.",
+        "title": "Balkongeländer",
+        "text": "Geländer für Balkon und Terrasse, passend zu Fassade und Brüstungshöhe angefertigt.",
         "items": [
-          "Dachstuhl",
-          "Balkenreparatur",
-          "Anbauten"
+          "Balkon",
+          "Terrasse",
+          "Brüstung"
         ]
       },
       {
-        "title": "Holzbau",
-        "text": "Holzkonstruktionen rund ums Haus, vom Vordach bis zum Unterstand.",
+        "title": "Außentreppen",
+        "text": "Treppen aus Metall für den Gartenzugang, den Kellerabgang oder als zweiter Weg ins Obergeschoss.",
         "items": [
-          "Vordächer",
-          "Carports",
-          "Unterstände"
+          "Gartentreppe",
+          "Kellerabgang",
+          "Treppengeländer"
         ]
       },
       {
-        "title": "Fenster",
-        "text": "Als Händler für Bayerwald liefert und montiert der Betrieb neue Fenster beim Austausch oder Neubau.",
+        "title": "Gartentore",
+        "text": "Tore und Türen für Einfahrt und Garten, abgestimmt auf Zaun und Grundstück.",
         "items": [
-          "Fenstertausch",
-          "Holzfenster",
-          "Kunststofffenster"
+          "Einfahrtstor",
+          "Gartentür",
+          "Zaunanschluss"
         ]
       },
       {
-        "title": "Haustüren",
-        "text": "Eine neue Haustür von Bayerwald – ausgemessen, geliefert und eingebaut.",
+        "title": "Vordächer",
+        "text": "Vordächer aus Metall über Haustür oder Nebeneingang – Schutz vor Regen beim Aufschließen.",
         "items": [
-          "Haustüren",
-          "Nebeneingangstüren",
-          "Montage"
+          "Haustür",
+          "Nebeneingang",
+          "Unterstand"
         ]
       },
       {
-        "title": "Holz- und Bautenschutz",
-        "text": "Schutz für tragendes und sichtbares Holz gegen Feuchte, Pilze und Schädlinge.",
+        "title": "Fenstergitter",
+        "text": "Gitter für Keller- und Erdgeschossfenster, die Einbrechern das Leben schwer machen.",
         "items": [
-          "Holzschutz",
-          "Schadensprüfung",
-          "Sanierung"
+          "Kellerfenster",
+          "Erdgeschoss",
+          "Nach Maß"
         ]
       },
       {
-        "title": "Schreinerarbeiten",
-        "text": "Holzbauteile nach Maß, wo Standardteile nicht passen.",
+        "title": "Sonderanfertigungen",
+        "text": "Individuelle Metallkonstruktionen, wenn es kein fertiges Teil gibt – vom Handlauf bis zum Halter.",
         "items": [
-          "Maßanfertigung",
-          "Verkleidungen",
-          "Reparaturen"
+          "Einzelstücke",
+          "Handläufe",
+          "Kunstschlosserei"
         ]
       }
     ],
     "why": {
-      "headline": "Holz und Fenster aus einer Hand in Germering.",
+      "headline": "Metall nach Maß – aus der Werkstatt in Emmering.",
       "points": [
         {
-          "title": "Ein Ansprechpartner",
-          "text": "Zimmerei und Fenstermontage kommen aus demselben Betrieb – keine Abstimmung zwischen zwei Firmen."
+          "title": "Meisterbetrieb",
+          "text": "Die Schlosserei wird im Verzeichnis als Meisterbetrieb geführt."
+        },
+        {
+          "title": "Alles nach Maß",
+          "text": "Geländer, Treppen und Tore werden für Ihr Gebäude gemessen und gefertigt."
         },
         {
           "title": "Kurze Wege",
-          "text": "Von der Landsberger Straße sind Gilching, Puchheim und Alling schnell erreicht."
+          "text": "Von Emmering aus schnell in Fürstenfeldbruck, Eichenau, Puchheim und Olching."
         },
         {
-          "title": "Markenfenster",
-          "text": "Als Händler für Bayerwald Fenster und Haustüren bietet der Betrieb geprüfte Produkte."
-        },
-        {
-          "title": "Holz im Blick",
-          "text": "Holz- und Bautenschutz gehört zum Leistungsumfang – Schäden werden früh erkannt."
+          "title": "Kunst und Bau",
+          "text": "Zweckmäßige Bauschlosserei und gestaltete Einzelstücke aus einer Werkstatt."
         }
       ]
     },
@@ -281,33 +283,33 @@
       "headline": "Was Kunden sagen",
       "summary": "Kundenstimmen werden hier eingebunden, sobald sie aus dem Google-Profil übernommen sind.",
       "highlights": [
-        "Zimmerei in Germering",
-        "Fenster und Haustüren",
-        "Holz- und Bautenschutz"
+        "Schlosserei in Emmering",
+        "Geländer, Treppen, Tore",
+        "Meisterbetrieb"
       ],
       "source": "Google",
-      "sourceUrl": "https://www.google.com/maps/search/?api=1&query=Zimmerei%20Helmut%20Gehrmann%20Landsberger%20Str.%2059b%20Germering",
+      "sourceUrl": "https://www.google.com/maps/search/?api=1&query=Stadler%20Manfred%20Kunst%20und%20Bauschlosserei%20Roggensteiner%20Str.%209%20Emmering",
       "rating": null,
       "count": null
     },
     "process": {
-      "headline": "So läuft Ihr Auftrag ab",
+      "headline": "Vom Aufmaß bis zur Montage",
       "steps": [
         {
           "title": "Anfrage",
-          "text": "Rufen Sie an oder schicken Sie eine E-Mail mit Fotos und grober Beschreibung."
+          "text": "Fotos der Stelle und grobe Maße per E-Mail schicken oder kurz anrufen."
         },
         {
           "title": "Aufmaß",
-          "text": "Dach, Holzbauteile oder Fensteröffnungen werden vor Ort aufgenommen."
+          "text": "Vor Ort werden Maße, Befestigung und Ausführung abgestimmt."
         },
         {
           "title": "Angebot",
-          "text": "Sie erhalten ein schriftliches Angebot mit Material und Ausführung."
+          "text": "Sie erhalten ein Angebot für Material, Fertigung und Montage."
         },
         {
-          "title": "Montage",
-          "text": "Abbund, Einbau oder Fenstertausch – mit sauberer Übergabe."
+          "title": "Fertigung & Montage",
+          "text": "Das Teil entsteht in der Werkstatt und wird bei Ihnen eingebaut."
         }
       ]
     },
@@ -316,81 +318,83 @@
       "text": "Für die Live-Version zeigen wir hier echte Projekte des Betriebs.",
       "items": [
         {
-          "title": "Neuer Dachstuhl",
-          "photoNeeded": "abgebundener Dachstuhl auf einem Wohnhaus"
+          "title": "Balkongeländer",
+          "photoNeeded": "fertig montiertes Balkongeländer an einem Wohnhaus"
+        },
+        {
+          "title": "Außentreppe",
+          "photoNeeded": "Metalltreppe vom Balkon in den Garten"
+        },
+        {
+          "title": "Gartentor",
+          "photoNeeded": "Einfahrtstor aus Metall, geschlossen"
         },
         {
           "title": "Vordach",
-          "photoNeeded": "Holzvordach über einer Haustür"
+          "photoNeeded": "Vordach über einer Haustür"
         },
         {
-          "title": "Fenstertausch",
-          "photoNeeded": "neu eingebaute Holzfenster in einer Altbaufassade"
-        },
-        {
-          "title": "Haustür",
-          "photoNeeded": "neue Haustür im Eingangsbereich"
-        },
-        {
-          "title": "Carport",
-          "photoNeeded": "Holzcarport neben einem Einfamilienhaus"
+          "title": "Fenstergitter",
+          "photoNeeded": "Gitter vor einem Kellerfenster"
         }
       ]
     },
     "region": {
-      "headline": "Zimmerei für Germering und den Westen von München",
-      "text": "Von Germering aus im Einsatz in Unterpfaffenhofen, Gilching, Puchheim, Alling und Gräfelfing.",
+      "headline": "Schlosserarbeiten in Emmering und Umgebung",
+      "text": "Von der Werkstatt in Emmering aus nach Fürstenfeldbruck, Eichenau, Puchheim, Olching, Schöngeising und Maisach.",
       "places": [
-        "Germering",
-        "Gilching",
+        "Emmering",
+        "Fürstenfeldbruck",
+        "Eichenau",
         "Puchheim",
-        "Unterpfaffenhofen",
-        "Alling",
-        "Gräfelfing"
+        "Olching",
+        "Schöngeising",
+        "Maisach"
       ]
     },
     "faq": [
       {
-        "q": "Liefern Sie auch nur Fenster ohne Zimmererarbeiten?",
-        "a": "Ja, Fenster und Haustüren von Bayerwald werden auch einzeln geliefert und montiert."
-      },
-      {
-        "q": "Reparieren Sie einzelne Balken am Dachstuhl?",
-        "a": "Ja, beschädigte Balken werden geprüft und je nach Zustand ergänzt oder ersetzt."
+        "q": "Fertigen Sie Geländer nach Maß?",
+        "a": "Ja. Geländer werden vor Ort gemessen und passend zu Balkon, Terrasse oder Treppe gefertigt."
       },
       {
         "q": "Kann ich vorab Fotos schicken?",
-        "a": "Ja, Fotos per E-Mail helfen bei einer ersten Einschätzung vor dem Termin."
+        "a": "Ja, Fotos und grobe Maße per E-Mail helfen für eine erste Einschätzung."
       },
       {
-        "q": "Prüfen Sie Holz auf Schäden?",
-        "a": "Holz- und Bautenschutz gehört zum Angebot – bei Verdacht auf Feuchte oder Schädlinge einfach anfragen."
+        "q": "Bauen Sie auch Außentreppen?",
+        "a": "Ja, Außentreppen aus Metall gehören zum Angebot, etwa vom Balkon in den Garten."
       },
       {
-        "q": "Arbeiten Sie auch außerhalb von Germering?",
-        "a": "Ja, im Umkreis von Germering, etwa in Gilching, Puchheim und Alling."
+        "q": "Übernehmen Sie Einzelanfertigungen?",
+        "a": "Ja, als Kunst- und Bauschlosserei fertigt der Betrieb auch individuelle Metallkonstruktionen."
+      },
+      {
+        "q": "Arbeiten Sie auch außerhalb von Emmering?",
+        "a": "Ja, in der Umgebung von Emmering – fragen Sie einfach an."
       }
     ],
     "contact": {
-      "headline": "Ihr Vorhaben – kurz beschrieben",
-      "text": "Schreiben Sie, worum es geht: Dach, Holzbau, Fenster oder Haustür. Fotos und ungefähre Maße helfen.",
+      "headline": "Ihre Anfrage an die Schlosserei",
+      "text": "Beschreiben Sie kurz, was entstehen soll: Geländer, Treppe, Tor oder Gitter, dazu grobe Maße. Fotos der Stelle helfen.",
       "topics": [
-        "Zimmererarbeiten",
-        "Holzbau",
-        "Fenster",
-        "Haustüren",
-        "Holzschutz",
+        "Balkongeländer",
+        "Außentreppe",
+        "Gartentor",
+        "Vordach",
+        "Fenstergitter",
         "Sonstiges"
       ],
-      "responseNote": "Besichtigung nach Absprache."
+      "responseNote": "Aufmaß vor Ort nach Absprache."
     },
     "quote": {
-      "sizeLabel": "Worum geht es?",
+      "sizeLabel": "Was soll gefertigt werden?",
       "sizes": [
-        "Einzelne Reparatur",
-        "Fenster oder Tür",
-        "Vordach oder Carport",
-        "Dachstuhl"
+        "Ein Geländer",
+        "Treppe",
+        "Tor oder Zaunelement",
+        "Vordach",
+        "Gitter / Kleinteil"
       ],
       "timings": [
         "So bald wie möglich",
@@ -401,18 +405,19 @@
     },
     "stickyCta": "Anfrage senden",
     "look": {
-      "palette": 1,
-      "font": 1,
-      "hero": 5,
-      "services": 3,
-      "radius": 4,
-      "logo": 1,
-      "intro": 4,
-      "projects": 2,
-      "process": 0,
-      "faq": 1,
-      "reviews": 1,
-      "order": 1
+      "skin": "kante",
+      "palette": 0,
+      "font": 4,
+      "hero": 4,
+      "services": 4,
+      "radius": 0,
+      "logo": 0,
+      "intro": 5,
+      "projects": 1,
+      "process": 1,
+      "faq": 0,
+      "reviews": 0,
+      "order": 0
     }
   }
 }

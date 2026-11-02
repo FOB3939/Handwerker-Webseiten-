@@ -1,125 +1,115 @@
 {
   "id": "2026-11-02-196",
-  "slug": "alois-bauer-schlosserei-fraunberg",
+  "slug": "engesser-gartenbau-feldafing",
   "date": "2026-11-02",
   "company": {
-    "name": "Alois Bauer Schmiede",
-    "owner": "Alois Bauer",
-    "trade": "Metallbau & Schlosserei",
-    "city": "Fraunberg",
-    "address": "Rappoltskirchen 2, 85447 Fraunberg",
-    "phone": "08084 1389",
-    "email": "schlosserei.bauer@t-online.de",
+    "name": "Martin Engesser Garten- und Landschaftsbau",
+    "owner": "Martin Engesser",
+    "trade": "Garten- und Landschaftsbau",
+    "city": "Feldafing",
+    "address": "Wieling 24, 82340 Feldafing",
+    "phone": "08157 609272",
+    "email": "engessermartin@gmx.de",
     "serviceArea": [
-      "Fraunberg",
-      "Rappoltskirchen",
-      "Wartenberg",
-      "Berglern",
-      "Bockhorn",
-      "Langenpreising",
-      "Erding"
+      "Feldafing",
+      "Wieling",
+      "Pöcking",
+      "Tutzing",
+      "Starnberg",
+      "Andechs",
+      "Herrsching"
     ]
   },
   "listings": {
     "google": {
-      "url": "https://www.google.com/maps/search/?api=1&query=Alois%20Bauer%20Schmiede%20Rappoltskirchen%202%20Fraunberg",
+      "url": "https://www.google.com/maps/search/?api=1&query=Martin%20Engesser%20Wieling%2024%20Feldafing",
       "rating": null,
       "reviews": null,
-      "evidence": "KEIN direkter Google-Beleg gefunden (kein Treffer auf Google-Spiegeln). Annahme über öffentlich belegte Freemail-Adresse schlosserei.bauer@t-online.de (11880-Strukturdaten und Gewerbeverein Fraunberg; ältere Listung schreibt schlosserei-bauer@t-online.de). Google-Eintrag in Maps prüfen."
+      "evidence": "KEIN direkter Google-Beleg gefunden. Annahme über öffentlich belegte Freemail-Adresse engessermartin@gmx.de (Verzeichnis-Strukturdaten zu Martin Engesser, Wieling 24, Feldafing, Tel. 08157 609272). Google-Eintrag in Maps prüfen."
     },
     "myhammer": {
-      "url": "https://www.11880.com/branchenbuch/fraunberg-oberbayern/250203636B27657355/alois-bauer-schmiede.html",
+      "url": "https://www.gartenbau.org/poecking/martin-engesser-garten---landschaftsbau-aUMy5E",
       "rating": null,
       "reviews": null,
-      "evidence": "Kein MyHammer gefunden – Einträge bei 11880 („Alois Bauer Schmiede“), Gewerbeverein Fraunberg („Metallbau - Schlosserei Alois Bauer“), schlosserei.net, metallbauer.io, orte.muenchen.de und bundes-telefonbuch (Rappoltskirchen 2, 08084 1389)."
+      "evidence": "Kein MyHammer gefunden – Einträge bei gartenbau.org („Martin Engesser Garten- + Landschaftsbau“, Feldafing Wieling 24 bzw. Pöcking Weilheimer Str. 11, „Offen für Aufträge“), 11880 (Fensterbau, Wieling 24) und branchenbuch24 (Einbau von genormten Baufertigteilen, Pöcking)."
     }
   },
   "websiteStatus": "keine eigene Website gefunden",
   "websiteChecks": [
-    "(1) „Alois Bauer Schmiede Fraunberg“ mit blocked_domains (11880, Gelbe Seiten, Das Örtliche, Telefonbuch, Cylex, meinestadt, Creditreform, Facebook, Instagram, golocal, MyHammer, Northdata, Firmenwissen, WKDB, Yelp, trustlocal, wlw) – nur Verzeichnisse (11880, bundes-telefonbuch, goyellow), keine eigene Domain",
-    "(2) „Metallbau Schlosserei Alois Bauer Fraunberg Website Impressum“ mit blocked_domains – nur Verzeichnisse (schlosserei.net, gv-fraunberg.de, orte.muenchen.de, metallbauer.io, klicktel), kein Impressum, keine Website",
-    "(3) Domain-Check allowed_domains schlosserei-bauer.de, schmiede-bauer.de, bauer-schmiede.de, schlosserei-bauer-fraunberg.de, schmiede-bauer-fraunberg.de, bauer-fraunberg.de, schlosserei-bauer-rappoltskirchen.de, metallbau-bauer-fraunberg.de – einziger Treffer schlosserei-bauer.de = Bauer Tür und Technik GmbH (automatische Türsysteme, Raum München, info@btut.de) – andere Firma, kein Bezug zu Rappoltskirchen",
-    "(4) Telefonsuche „08084 1389“ mit blocked_domains – nur Verzeichnisse (stadtbranchenbuch, orte.muenchen.de, gv-fraunberg.de, schlosserei.net), keine Website",
-    "(5) E-Mail auf t-online.de (Freemail), keine Firmendomain",
-    "Website-Risiko: mittel – alle Prüfungen negativ, aber kein Google-Beleg und Aktivität unklar (einige 11880-Listen zeigen „geschlossen“, bundes-telefonbuch-Stand 2018)"
+    "(1) „Martin Engesser Feldafing“ mit blocked_domains (Gelbe Seiten, Das Örtliche, Telefonbuch, meinestadt, Creditreform, Facebook, Instagram, golocal, MyHammer, Northdata, Firmenwissen, WKDB, Yelp, wlw) – nur Verzeichnisse (branchenbuch24, gartenbau.org, 11880) und Namensvettern (Traueranzeige, Mexiko/LinkedIn), keine eigene Domain",
+    "(2) Domain-Check allowed_domains engesser.de, martin-engesser.de, engesser-feldafing.de, engesser-fenster.de, engesser-gartenbau.de, fenster-engesser.de, engesser-poecking.de, gartenbau-engesser.de – nur engesser.de = ENGESSER GmbH Formenbau in Geisingen (andere Firma)",
+    "(3) Telefon-/E-Mail-Suche „08157 609272“ / „engessermartin“ mit blocked_domains – nur gartenbau.org-Einträge, keine Website",
+    "(4) Verzeichnis-Suche (11880, goyellow, klicktel, branchenbuch24, gartenbau.org) – kein Website-Feld, E-Mail engessermartin@gmx.de (Freemail)",
+    "Website-Risiko: mittel – alle Prüfungen negativ, aber kein Google-Beleg; Gewerk in Verzeichnissen uneinheitlich (GaLaBau vs. Fensterbau)"
   ],
   "facts": {
     "services": [
-      "Metallbau",
-      "Schlosserei",
-      "Schmiede",
-      "Metallbearbeitung"
+      "Garten- und Landschaftsbau",
+      "Gartengestaltung",
+      "Fensterbau / Einbau von Baufertigteilen (laut 11880/branchenbuch24)"
     ],
     "experience": null,
     "praisedFor": []
   },
   "strategy": {
-    "audience": "Hausbesitzer, Landwirte und Gewerbe in Fraunberg, Wartenberg, Bockhorn und im nördlichen Landkreis Erding, die Geländer, Tore, Gitter oder Reparaturen aus Metall brauchen",
-    "mainService": "Schlosser- und Schmiedearbeiten – Anfertigung und Reparatur",
-    "trustSignal": "Schmiede und Schlosserei direkt in Rappoltskirchen, Mitglied im Gewerbeverein Fraunberg",
-    "conversionGoal": "Anfrage für Anfertigung oder Reparatur per Telefon oder E-Mail (mit Foto und Maßen)",
-    "visualConcept": "Werkstatt-Ästhetik: Amboss, Funken, geschmiedetes Eisen und verzinkter Stahl – handfest und ländlich"
+    "audience": "Hausbesitzer in Feldafing, Pöcking, Tutzing und Starnberg mit Gärten am See, die Anlage, Umgestaltung oder Pflege ihres Gartens suchen",
+    "mainService": "Gartengestaltung und Landschaftsbau",
+    "trustSignal": "Betrieb direkt in Feldafing-Wieling, Inhaber Martin Engesser als Ansprechpartner",
+    "conversionGoal": "Anfrage für Gartengestaltung oder -pflege per Telefon oder E-Mail (mit Fotos)",
+    "visualConcept": "Gepflegte Seegärten am Starnberger See: Natursteinwege, Rasenflächen, Staudenbeete und alter Baumbestand"
   },
   "sales": {
     "score": 5,
     "whyGoodLead": [
       "Keine eigene Website gefunden – nur Verzeichniseinträge",
-      "Freemail-Adresse (t-online) öffentlich gelistet – kein eigener Webauftritt",
-      "Metallbau/Schlosserei ist bisher selten unter den Leads",
-      "Ländlicher Betrieb, Anfragen laufen heute nur über Telefonbuch-Einträge"
+      "Freemail-Adresse (gmx) öffentlich gelistet – kein eigener Webauftritt",
+      "Kaufkräftige Region am Starnberger See mit vielen Privatgärten",
+      "Verzeichnisse zeigen den Betrieb uneinheitlich – eine Website macht das Angebot klar"
     ],
-    "pitch": "Grüß Gott Herr Bauer, hier ist … – ich baue Websites für Handwerksbetriebe im Landkreis Erding. Ich habe Ihre Schmiede und Schlosserei in Rappoltskirchen im Branchenbuch gefunden, aber keine eigene Website. Ich habe unverbindlich einen Entwurf vorbereitet, auf dem Kunden Ihre Metallarbeiten sehen und direkt anfragen können – darf ich Ihnen den Link per E-Mail schicken?"
+    "pitch": "Grüß Gott Herr Engesser, hier ist … – ich baue Websites für Handwerksbetriebe im Landkreis Starnberg. Ich habe Ihren Garten- und Landschaftsbau in Feldafing im Branchenbuch gefunden, aber keine eigene Website. Ich habe unverbindlich einen Entwurf vorbereitet, auf dem Kunden Ihre Gartenarbeiten sehen und direkt anfragen können – darf ich Ihnen den Link per E-Mail schicken?"
   },
   "manualChecks": [
-    "Website-Risiko: mittel – vor Versand in Google Maps prüfen, dass keine Website hinterlegt ist (Grund: kein Google-Beleg gefunden, nur Freemail; Betrieb evtl. nicht mehr aktiv)",
-    "Betrieb aktiv? Einige 11880-Listen zeigen „geschlossen“, Daten teils von 2018 – vor Kontakt per Anruf oder Maps bestätigen",
-    "E-Mail-Schreibweise klären: schlosserei.bauer@t-online.de (11880, Gewerbeverein) vs. schlosserei-bauer@t-online.de (ältere Listung)",
-    "Zweite Nummer laut Gewerbeverein/schlosserei.net: 08084 2589411 (evtl. Fax) – Festnetz 08084 1389, keine Mobilnummer bekannt",
-    "Leistungen nur grob belegt (Metallbau, Schlosserei, Schmiede, Metallbearbeitung) – Geländer, Tore, Treppen, Landtechnik-Reparatur beim Betrieb bestätigen",
+    "Website-Risiko: mittel – vor Versand in Google Maps prüfen, dass keine Website hinterlegt ist (Grund: kein Google-Beleg gefunden, nur Freemail; Gewerk in Verzeichnissen uneinheitlich)",
+    "Gewerk klären: gartenbau.org führt Garten- und Landschaftsbau, 11880 Fensterbau, branchenbuch24 „Einbau von genormten Baufertigteilen“ – Schwerpunkt beim Erstkontakt erfragen und Seite ggf. anpassen",
+    "Zwei Adressen: Wieling 24, 82340 Feldafing und Weilheimer Str. 11, 82343 Pöcking (gleiche Nummer 08157 609272; gartenbau.org nennt zusätzlich 08157 924807) – aktuelle Adresse klären",
+    "Festnetz, keine Mobilnummer bekannt",
+    "Leistungen nur grob belegt (Gartengestaltung, Landschaftsbau) – Pflaster, Rasen, Bepflanzung, Pflege beim Betrieb bestätigen",
     "Logo und Projektfotos: nicht gefunden – beim Betrieb anfragen"
   ],
   "sources": [
     {
-      "label": "11880 – Alois Bauer Schmiede, Fraunberg",
-      "url": "https://www.11880.com/branchenbuch/fraunberg-oberbayern/250203636B27657355/alois-bauer-schmiede.html"
+      "label": "gartenbau.org – Martin Engesser Garten- + Landschaftsbau",
+      "url": "https://www.gartenbau.org/poecking/martin-engesser-garten---landschaftsbau-aUMy5E"
     },
     {
-      "label": "Gewerbeverein Fraunberg – Metallbau - Schlosserei Alois Bauer",
-      "url": "https://gv-fraunberg.de/directory-directory/listing/metallbau-schlosserei-alois-bauer/"
+      "label": "gartenbau.org – Landschaftsbauer in Feldafing (Liste mit Martin Engesser, Wieling 24)",
+      "url": "https://www.gartenbau.org/feldafing/landschaftsbau"
     },
     {
-      "label": "schlosserei.net – Alois Bauer Schlosserei Fraunberg",
-      "url": "https://www.schlosserei.net/fraunberg/alois-bauer-schlosserei-aULWr6"
+      "label": "11880 – Anbieter für Fenster Herrsching (Liste mit Martin Engesser, Feldafing)",
+      "url": "https://www.11880.com/suche/fenster/herrsching"
     },
     {
-      "label": "orte.muenchen.de – Bauer Alois Fraunberg Schlosserei",
-      "url": "https://orte.muenchen.de/165549.html"
-    },
-    {
-      "label": "Bundes-Telefonbuch – Bauer Alois Schmiede, Rappoltskirchen",
-      "url": "https://www.bundes-telefonbuch.de/fraunberg-rappoltskirchen/firma/bauer-alois-schmiede-bvg610808483"
-    },
-    {
-      "label": "metallbauer.io – Alois Bauer Schlosserei",
-      "url": "https://metallbauer.io/5147-alois-bauer-schlosserei"
+      "label": "branchenbuch24 – Martin Engesser, Pöcking",
+      "url": "https://www.branchenbuch24.com/poecking/haus-neubau-und-renovierung/einbau-von-genormten-baufertigteilen/martin-engesser-804583/"
     }
   ],
   "site": {
-    "theme": "werk",
+    "theme": "garten",
     "category": "handwerk",
     "heroOffer": [
-      "Geländer",
-      "Tore",
-      "Schmiedearbeiten",
-      "Reparaturen",
-      "Schweißen"
+      "Gartengestaltung",
+      "Pflasterwege",
+      "Bepflanzung",
+      "Rasen",
+      "Gartenpflege"
     ],
-    "scene": "facade",
-    "logoIcon": "house",
-    "logoMark": "AB",
-    "brandName": "Schlosserei Alois Bauer",
-    "seoTitle": "Schlosserei & Schmiede in Fraunberg – Alois Bauer",
-    "seoDescription": "Metallbau, Schlosser- und Schmiedearbeiten aus Rappoltskirchen bei Fraunberg. Geländer, Tore und Reparaturen – jetzt anfragen.",
+    "scene": "garden",
+    "logoIcon": "leaf",
+    "logoMark": "ME",
+    "brandName": "Engesser Gartenbau",
+    "seoTitle": "Garten- und Landschaftsbau in Feldafing – Martin Engesser",
+    "seoDescription": "Gartengestaltung und Landschaftsbau in Feldafing, Pöcking und Tutzing. Neue Wege, Beete und Rasenflächen – jetzt anfragen.",
     "nav": [
       {
         "label": "Leistungen",
@@ -147,132 +137,132 @@
       }
     ],
     "hero": {
-      "eyebrow": "Schmiede & Schlosserei · Rappoltskirchen",
-      "headline": "Schlosserei und Schmiede in Fraunberg",
-      "sub": "Geländer, Tore und Reparaturen aus Metall – gefertigt in Rappoltskirchen.",
-      "ctaPrimary": "Anfrage senden",
+      "eyebrow": "Garten- und Landschaftsbau · Feldafing",
+      "headline": "Gartenbau in Feldafing am See",
+      "sub": "Wege, Beete und Rasenflächen für Gärten zwischen Feldafing, Pöcking und Tutzing.",
+      "ctaPrimary": "Garten anfragen",
       "ctaSecondary": "Anrufen",
       "bullets": [
-        "Werkstatt in Rappoltskirchen",
-        "Anfertigung und Reparatur",
-        "Kurze Wege im Landkreis Erding"
+        "Betrieb in Feldafing-Wieling",
+        "Gestaltung und Pflege",
+        "Direkt mit Martin Engesser"
       ],
-      "imageLabel": "Schmiedewerkstatt mit Amboss und geschmiedetem Geländer"
+      "imageLabel": "gepflegter Garten mit Natursteinweg am Starnberger See"
     },
     "badges": [
       {
-        "title": "Schlosserei",
-        "sub": "Anfertigung nach Maß"
+        "title": "Gestaltung",
+        "sub": "neue Gartenideen"
       },
       {
-        "title": "Schmiede",
-        "sub": "Eisen in Form"
+        "title": "Wege",
+        "sub": "Pflaster & Naturstein"
       },
       {
-        "title": "Reparatur",
-        "sub": "statt Neukauf"
+        "title": "Pflanzen",
+        "sub": "Beete & Hecken"
       },
       {
-        "title": "Rappoltskirchen",
-        "sub": "Gemeinde Fraunberg"
+        "title": "Feldafing",
+        "sub": "Ortsteil Wieling"
       }
     ],
     "trust": [
       {
         "value": "Vor Ort",
-        "label": "Werkstatt in Rappoltskirchen"
+        "label": "Betrieb in Feldafing"
       },
       {
-        "value": "Metall",
-        "label": "Stahl und Eisen"
+        "value": "See",
+        "label": "Fünfseenland"
       },
       {
-        "value": "Maß",
-        "label": "Einzelstücke statt Katalog"
+        "value": "Garten",
+        "label": "Anlage und Pflege"
       },
       {
         "value": "Direkt",
-        "label": "Ansprechpartner Alois Bauer"
+        "label": "Inhaber am Telefon"
       }
     ],
     "servicesIntro": {
-      "headline": "Metallarbeiten aus der Dorfschmiede",
-      "text": "Ob neues Hoftor, Treppengeländer oder ein gebrochenes Beschlagteil: Die Werkstatt fertigt und repariert, was aus Metall ist."
+      "headline": "Vom ersten Entwurf bis zum fertigen Beet",
+      "text": "Ein Garten am See braucht Wege, die Regen vertragen, und Pflanzen, die zum Standort passen. Die Arbeiten werden auf Ihr Grundstück abgestimmt."
     },
     "services": [
       {
-        "title": "Geländer",
-        "text": "Treppen- und Balkongeländer aus Stahl, angepasst an Haus und Treppe vor Ort.",
+        "title": "Gartengestaltung",
+        "text": "Neue Aufteilung für bestehende Gärten: Sitzplatz, Wege, Beete und Rasen sinnvoll angeordnet.",
         "items": [
-          "Treppengeländer",
-          "Balkongeländer",
-          "Handläufe"
+          "Planung vor Ort",
+          "Sitzplätze",
+          "Gartenumbau"
         ]
       },
       {
-        "title": "Tore und Zäune",
-        "text": "Hoftore, Gartentüren und Zaunfelder in passender Höhe und Breite.",
+        "title": "Wege und Pflaster",
+        "text": "Gartenwege, Einfahrten und Terrassenflächen aus Pflaster oder Naturstein.",
         "items": [
-          "Hoftore",
-          "Gartentüren",
-          "Zaunfelder"
+          "Gartenwege",
+          "Einfahrten",
+          "Terrassen"
         ]
       },
       {
-        "title": "Schmiedearbeiten",
-        "text": "Geschmiedete Teile von Hand: Haken, Beschläge, Ziergitter und Ersatzteile.",
+        "title": "Bepflanzung",
+        "text": "Stauden, Sträucher und Hecken passend zu Licht und Boden auf Ihrem Grundstück.",
         "items": [
-          "Beschläge",
-          "Ziergitter",
-          "Einzelteile"
+          "Staudenbeete",
+          "Hecken",
+          "Sträucher"
         ]
       },
       {
-        "title": "Reparaturen",
-        "text": "Gebrochene Scharniere, verbogene Tore oder rostige Gitter werden instand gesetzt.",
+        "title": "Rasenanlage",
+        "text": "Neuer Rasen als Rollrasen oder Ansaat, mit vorbereitetem Boden.",
         "items": [
-          "Schweißreparatur",
-          "Scharniere",
-          "Gitter"
+          "Rollrasen",
+          "Ansaat",
+          "Bodenvorbereitung"
         ]
       },
       {
-        "title": "Schweißarbeiten",
-        "text": "Stahlteile werden verschweißt, verstärkt oder verlängert – in der Werkstatt oder vor Ort.",
+        "title": "Gartenpflege",
+        "text": "Rückschnitt, Heckenschnitt und Beetpflege über das Jahr verteilt.",
         "items": [
-          "Stahlteile",
-          "Verstärkungen",
-          "Anbauten"
+          "Heckenschnitt",
+          "Rückschnitt",
+          "Beetpflege"
         ]
       },
       {
-        "title": "Metallbearbeitung",
-        "text": "Zuschnitt, Bohren und Biegen von Stahl für eigene Projekte und kleine Serien.",
+        "title": "Erdarbeiten",
+        "text": "Gelände modellieren, Boden austauschen und Flächen für neue Anlagen vorbereiten.",
         "items": [
-          "Zuschnitt",
-          "Bohren",
-          "Biegen"
+          "Geländemodellierung",
+          "Bodenaustausch",
+          "Vorbereitung"
         ]
       }
     ],
     "why": {
-      "headline": "Eine Werkstatt im Dorf statt Katalogware.",
+      "headline": "Gartenbau aus Feldafing für Gärten im Fünfseenland.",
       "points": [
         {
-          "title": "Einzelstücke",
-          "text": "Jedes Teil wird für Ihr Haus, Ihren Hof oder Ihre Treppe gefertigt."
-        },
-        {
-          "title": "Reparieren lohnt",
-          "text": "Altes Tor oder Gitter? Oft reicht eine Reparatur statt Neukauf."
-        },
-        {
-          "title": "Kurze Wege",
-          "text": "Von Rappoltskirchen schnell in Fraunberg, Wartenberg, Bockhorn und Erding."
+          "title": "Kurze Anfahrt",
+          "text": "Von Wieling schnell in Feldafing, Pöcking, Tutzing und Starnberg."
         },
         {
           "title": "Ein Ansprechpartner",
-          "text": "Sie sprechen direkt mit Alois Bauer – von der Anfrage bis zur Montage."
+          "text": "Martin Engesser bespricht Ihr Vorhaben selbst – ohne Umwege."
+        },
+        {
+          "title": "Passend zum Standort",
+          "text": "Pflanzen und Beläge werden nach Lage, Licht und Boden gewählt."
+        },
+        {
+          "title": "Anlage und Pflege",
+          "text": "Wer den Garten anlegt, kennt ihn auch bei der späteren Pflege."
         }
       ]
     },
@@ -280,133 +270,139 @@
       "headline": "Was Kunden sagen",
       "summary": "Kundenstimmen werden hier eingebunden, sobald sie aus dem Google-Profil übernommen sind.",
       "highlights": [
-        "Schlosserei in Rappoltskirchen",
-        "Anfertigung und Reparatur",
+        "Gartenbau in Feldafing",
+        "Gestaltung und Pflege",
         "Direkter Kontakt"
       ],
       "source": "Google",
-      "sourceUrl": "https://www.google.com/maps/search/?api=1&query=Alois%20Bauer%20Schmiede%20Rappoltskirchen%202%20Fraunberg",
+      "sourceUrl": "https://www.google.com/maps/search/?api=1&query=Martin%20Engesser%20Wieling%2024%20Feldafing",
       "rating": null,
       "count": null
     },
     "process": {
-      "headline": "So kommt Ihr Metallteil zustande",
+      "headline": "In vier Schritten zum neuen Garten",
       "steps": [
         {
           "title": "Anfrage",
-          "text": "Anrufen oder ein Foto mit groben Maßen per E-Mail schicken."
+          "text": "Anrufen oder Fotos vom Garten per E-Mail schicken."
         },
         {
-          "title": "Aufmaß",
-          "text": "Maße und Ausführung werden vor Ort oder in der Werkstatt geklärt."
+          "title": "Begehung",
+          "text": "Wünsche, Flächen und Boden werden vor Ort angeschaut."
         },
         {
-          "title": "Fertigung",
-          "text": "Das Teil entsteht in der Werkstatt in Rappoltskirchen."
+          "title": "Angebot",
+          "text": "Sie erhalten ein klares Angebot für die geplanten Arbeiten."
         },
         {
-          "title": "Montage",
-          "text": "Einbau vor Ort oder Abholung in der Werkstatt."
+          "title": "Umsetzung",
+          "text": "Wege, Beete und Rasen werden angelegt und sauber übergeben."
         }
       ]
     },
     "gallery": {
-      "headline": "Aus der Werkstatt",
-      "text": "Für die Live-Version zeigen wir hier echte Arbeiten der Schlosserei.",
+      "headline": "Gärten rund um den See",
+      "text": "Für die Live-Version zeigen wir hier echte Projekte des Betriebs.",
       "items": [
         {
-          "title": "Hoftor",
-          "photoNeeded": "geschweißtes Stahltor an einer Hofeinfahrt"
+          "title": "Natursteinweg",
+          "photoNeeded": "geschwungener Gartenweg aus Naturstein"
         },
         {
-          "title": "Treppengeländer",
-          "photoNeeded": "Stahlgeländer an einer Außentreppe"
+          "title": "Staudenbeet",
+          "photoNeeded": "blühendes Staudenbeet vor einer Hecke"
         },
         {
-          "title": "Am Amboss",
-          "photoNeeded": "glühendes Eisen auf dem Amboss"
+          "title": "Neuer Rasen",
+          "photoNeeded": "frisch verlegter Rollrasen"
         },
         {
-          "title": "Ziergitter",
-          "photoNeeded": "geschmiedetes Fenstergitter"
+          "title": "Terrasse",
+          "photoNeeded": "gepflasterte Terrasse mit Sitzplatz"
         },
         {
-          "title": "Reparatur",
-          "photoNeeded": "instand gesetztes altes Tor vorher/nachher"
+          "title": "Heckenschnitt",
+          "photoNeeded": "frisch geschnittene Hecke"
         }
       ]
     },
     "region": {
-      "headline": "Metallarbeiten für Fraunberg und den Landkreis Erding",
-      "text": "Von Rappoltskirchen aus nach Fraunberg, Wartenberg, Berglern, Bockhorn, Langenpreising und Erding.",
+      "headline": "Gartenbau für Feldafing und das Fünfseenland",
+      "text": "Von Wieling aus nach Feldafing, Pöcking, Tutzing, Starnberg, Andechs und Herrsching.",
       "places": [
-        "Fraunberg",
-        "Rappoltskirchen",
-        "Wartenberg",
-        "Berglern",
-        "Bockhorn",
-        "Langenpreising",
-        "Erding"
+        "Feldafing",
+        "Wieling",
+        "Pöcking",
+        "Tutzing",
+        "Starnberg",
+        "Andechs",
+        "Herrsching"
       ]
     },
     "faq": [
       {
-        "q": "Fertigen Sie auch Einzelstücke?",
-        "a": "Ja, Geländer, Tore und Gitter werden nach Ihren Maßen angefertigt."
+        "q": "Kann ich vorab Fotos vom Garten schicken?",
+        "a": "Ja, Fotos per E-Mail helfen für eine erste Einschätzung."
       },
       {
-        "q": "Lohnt sich eine Reparatur meines alten Tors?",
-        "a": "Oft ja. Schicken Sie ein Foto – dann gibt es eine erste Einschätzung."
+        "q": "Übernehmen Sie auch die Pflege nach der Anlage?",
+        "a": "Gartenpflege wie Hecken- und Rückschnitt kann gern mit angefragt werden."
       },
       {
-        "q": "Kann ich ein Teil in der Werkstatt vorbeibringen?",
-        "a": "Nach kurzer telefonischer Absprache ja, die Werkstatt ist in Rappoltskirchen 2."
+        "q": "Arbeiten Sie auch außerhalb von Feldafing?",
+        "a": "Ja, im Umkreis von Feldafing – etwa in Pöcking, Tutzing und Starnberg."
       },
       {
-        "q": "Montieren Sie die Teile auch vor Ort?",
-        "a": "Ja, Einbau und Montage werden bei der Anfrage mit abgestimmt."
+        "q": "Wann ist die beste Zeit für einen neuen Rasen?",
+        "a": "Meist Frühjahr oder Spätsommer. Der genaue Termin wird bei der Begehung abgestimmt."
       },
       {
         "q": "Wie erreiche ich Sie am besten?",
-        "a": "Telefonisch unter 08084 1389 oder per E-Mail mit Foto und Maßen."
+        "a": "Telefonisch unter 08157 609272 oder per E-Mail an engessermartin@gmx.de."
       }
     ],
     "contact": {
-      "headline": "Ihr Metallteil – unverbindlich anfragen",
-      "text": "Beschreiben Sie kurz, was gebraucht wird: Geländer, Tor, Gitter oder Reparatur. Fotos und grobe Maße helfen.",
+      "headline": "Ihr Garten – unverbindlich anfragen",
+      "text": "Beschreiben Sie kurz Ihr Vorhaben: neue Wege, Beete, Rasen oder Pflege. Fotos und die ungefähre Fläche helfen.",
       "topics": [
-        "Geländer",
-        "Tore und Zäune",
-        "Schmiedearbeiten",
-        "Reparatur",
+        "Gartengestaltung",
+        "Wege und Pflaster",
+        "Bepflanzung",
+        "Gartenpflege",
         "Sonstiges"
       ],
-      "responseNote": "Rückmeldung nach Absprache, Termine in der Werkstatt nach Vereinbarung."
+      "responseNote": "Begehung vor Ort nach Absprache."
     },
     "quote": {
-      "sizeLabel": "Was soll gefertigt werden?",
+      "sizeLabel": "Wie groß ist der Garten?",
       "sizes": [
-        "Kleines Einzelteil",
-        "Gitter oder Geländer",
-        "Tor oder Zaun",
-        "Reparatur"
+        "Kleiner Garten",
+        "Reihenhausgarten",
+        "Großer Garten",
+        "Nur Teilfläche"
       ],
       "timings": [
         "So bald wie möglich",
-        "In den nächsten Wochen",
-        "In 1–3 Monaten",
+        "Diese Saison",
+        "Im Frühjahr",
         "Ich plane erst noch"
       ]
     },
-    "stickyCta": "Jetzt anfragen",
+    "stickyCta": "Garten anfragen",
     "look": {
-      "palette": 2,
-      "font": 6,
-      "hero": 0,
-      "services": 1,
-      "radius": 1,
-      "logo": 0,
-      "intro": 5
+      "skin": "kante",
+      "palette": 3,
+      "font": 8,
+      "hero": 6,
+      "services": 0,
+      "radius": 4,
+      "logo": 4,
+      "intro": 1,
+      "projects": 1,
+      "process": 0,
+      "faq": 1,
+      "reviews": 0,
+      "order": 2
     }
   }
 }
