@@ -1,0 +1,399 @@
+{
+  "id": "2026-11-02-201",
+  "slug": "schlosserei-leuschner-mammendorf",
+  "date": "2026-11-02",
+  "company": {
+    "name": "Susanne Leuschner Kunst- und Bauschlosser",
+    "owner": "Susanne Leuschner",
+    "trade": "Kunst- und Bauschlosserei",
+    "city": "Mammendorf",
+    "address": "Nikolausstr. 2, 82291 Mammendorf",
+    "phone": "08145 996780",
+    "email": null,
+    "serviceArea": [
+      "Mammendorf",
+      "Nannhofen",
+      "Adelshofen",
+      "Jesenwang",
+      "Althegnenberg",
+      "Hattenhofen",
+      "Maisach"
+    ]
+  },
+  "listings": {
+    "google": {
+      "url": "https://www.google.com/maps/search/?api=1&query=Susanne%20Leuschner%20Kunst-%20und%20Bauschlosser%20Nikolausstr.%202%20Mammendorf",
+      "rating": null,
+      "reviews": null,
+      "evidence": "NICHT BELEGT – kein Google-Spiegel (rgv-bayern, trustlocal, firmania) gefunden, keine E-Mail-Adresse öffentlich. Nur Verzeichniseinträge (11880 „Kunstschmiede, keine Öffnungszeiten“, Stadtbranchenbuch Mammendorf, Bundes-Telefonbuch). RESERVE – in Maps prüfen."
+    },
+    "myhammer": {
+      "url": "https://www.11880.com/suche/schlosser/moorenweis",
+      "rating": null,
+      "reviews": null,
+      "evidence": "Kein MyHammer gefunden – „Susanne Leuschner Kunst- und Bauschlosser“, Nikolausstr. 2, 82291 Mammendorf, (08145) 996780 in 11880-Ortslisten (Schlosser/Kunstschmiede), Stadtbranchenbuch und Bundes-Telefonbuch."
+    }
+  },
+  "websiteStatus": "keine eigene Website gefunden",
+  "websiteChecks": [
+    "(1) „Leuschner Kunst- und Bauschlosserei Mammendorf Nikolausstr“ mit blocked_domains (11880, Gelbe Seiten, Das Örtliche, Telefonbuch, Cylex, meinestadt, Creditreform, Facebook, Instagram, golocal, MyHammer, Northdata, Firmenwissen, WKDB, Yelp.de, trustlocal, wlw) – nur Stadtbranchenbuch-Eintrag (Kategorie Kunstschmieden) und fremde Leuschner-Betriebe (Leipzig, Essen); keine eigene Domain.",
+    "(2) Telefonsuche „08145 996780“/„08145996780“ – nur Verzeichnisse (Stadtbranchenbuch, Bundes-Telefonbuch, 11880), keine Website.",
+    "(3) Domain-Check allowed_domains leuschner-schlosserei.de, schlosserei-leuschner.de, kunstschlosserei-leuschner.de, leuschner-metallbau.de, metallbau-leuschner.de, leuschner-mammendorf.de, susanne-leuschner.de, kunstschmiede-leuschner.de – einziger Treffer metallbau-leuschner.de = Metallbau Ernst Leuschner, Essen (andere Firma).",
+    "(4) Spiegel-Suche (rgv-bayern, trustlocal, firmania, schlosserei.net, sellwerk) – kein Eintrag für den Betrieb in Mammendorf.",
+    "Website-Risiko: niedrig – alle Prüfungen negativ; aber weder Google-Eintrag noch Freemail belegt (RESERVE)"
+  ],
+  "facts": {
+    "services": [
+      "Bauschlosserei",
+      "Kunstschmiede / Kunstschlosserei"
+    ],
+    "experience": null,
+    "praisedFor": []
+  },
+  "strategy": {
+    "audience": "Hauseigentümer und Bauherren in Mammendorf, Adelshofen, Jesenwang und Althegnenberg, die Geländer, Tore oder geschmiedete Einzelstücke aus Metall suchen",
+    "mainService": "Kunst- und Bauschlosserei – Geländer, Tore und Schmiedearbeiten",
+    "trustSignal": "Inhabergeführte Schlosserei in Mammendorf, direkt erreichbar",
+    "conversionGoal": "Anfrage für Geländer, Tor oder Schmiedearbeit mit Fotos und Maßen",
+    "visualConcept": "Schmiedefeuer, Amboss und geschwungene Geländer aus Flachstahl – handwerklich und warm vor dunklem Stahlgrau"
+  },
+  "sales": {
+    "score": 4,
+    "whyGoodLead": [
+      "Keine eigene Website gefunden – nur Verzeichniseinträge",
+      "Kunstschmiede/Schlosserei bisher selten unter den Leads",
+      "Geschmiedete Einzelstücke verkaufen sich über Bilder – Galerie bringt sichtbaren Mehrwert",
+      "Kaum Online-Präsenz: selbst die Verzeichnisse zeigen keine Öffnungszeiten oder Leistungen"
+    ],
+    "pitch": "Grüß Gott Frau Leuschner, ich baue Websites für Handwerksbetriebe im Landkreis Fürstenfeldbruck. Ihre Kunst- und Bauschlosserei in Mammendorf habe ich im Branchenbuch gefunden, aber ohne eigene Website. Ich habe unverbindlich einen Entwurf vorbereitet, auf dem Kunden Ihre Geländer, Tore und Schmiedearbeiten sehen und direkt anfragen können – darf ich Ihnen den Link schicken?"
+  },
+  "manualChecks": [
+    "RESERVE – weder Google-Eintrag noch Freemail-Adresse belegt: NUR versenden, wenn Google Maps einen Eintrag OHNE Website zeigt.",
+    "Prüfen, ob der Betrieb noch aktiv ist (11880: „keine Öffnungszeiten“, keine weiteren Lebenszeichen gefunden)",
+    "Leistungen nur als Gewerk belegt (Kunst- und Bauschlosser, Kunstschmiede) – Geländer, Tore, Gitter, Treppen und Reparaturen sind für das Gewerk üblich, aber beim Betrieb bestätigen",
+    "Nikolausstr. 2 ist evtl. Privatadresse – Adresse auf der Website ggf. weglassen bzw. mit Inhaberin klären",
+    "Keine Mobilnummer, keine E-Mail – Erstkontakt nur per Festnetz 08145 996780",
+    "Logo und Projektfotos: nicht gefunden – beim Betrieb anfragen"
+  ],
+  "sources": [
+    {
+      "label": "11880 – Schlosser Moorenweis (Liste mit Susanne Leuschner, Mammendorf)",
+      "url": "https://www.11880.com/suche/schlosser/moorenweis"
+    },
+    {
+      "label": "Stadtbranchenbuch Mammendorf – Susanne Leuschner Kunstschmieden",
+      "url": "https://mammendorf.stadtbranchenbuch.com/3165656.html"
+    },
+    {
+      "label": "Bundes-Telefonbuch – Firmen in Mammendorf",
+      "url": "https://www.bundes-telefonbuch.de/suche/firma/mammendorf"
+    }
+  ],
+  "site": {
+    "theme": "werk",
+    "category": "handwerk",
+    "heroOffer": [
+      "Geländer",
+      "Tore",
+      "Schmiedearbeiten",
+      "Gitter",
+      "Reparaturen"
+    ],
+    "scene": "facade",
+    "logoIcon": "house",
+    "logoMark": "SL",
+    "brandName": "Schlosserei Leuschner",
+    "seoTitle": "Kunst- und Bauschlosserei in Mammendorf – Susanne Leuschner",
+    "seoDescription": "Kunst- und Bauschlosserei in Mammendorf: Geländer, Tore, Gitter und geschmiedete Einzelstücke für Haus und Garten. Jetzt anfragen.",
+    "nav": [
+      {
+        "label": "Leistungen",
+        "href": "#leistungen"
+      },
+      {
+        "label": "Projekte",
+        "href": "#projekte"
+      },
+      {
+        "label": "Bewertungen",
+        "href": "#bewertungen"
+      },
+      {
+        "label": "Ablauf",
+        "href": "#ablauf"
+      },
+      {
+        "label": "FAQ",
+        "href": "#faq"
+      },
+      {
+        "label": "Kontakt",
+        "href": "#kontakt"
+      }
+    ],
+    "hero": {
+      "eyebrow": "Kunst- und Bauschlosserei · Mammendorf",
+      "headline": "Kunstschmiede und Schlosserei in Mammendorf",
+      "sub": "Geländer, Tore und geschmiedete Einzelstücke für Haus und Garten im westlichen Landkreis.",
+      "ctaPrimary": "Anfrage senden",
+      "ctaSecondary": "Anrufen",
+      "bullets": [
+        "Schlosserei in Mammendorf",
+        "Kunst- und Bauschlosserei",
+        "Einzelstücke nach Ihren Vorstellungen"
+      ],
+      "imageLabel": "geschmiedetes Gartentor mit geschwungenen Stäben vor einem Bauernhaus"
+    },
+    "badges": [
+      {
+        "title": "Kunstschmiede",
+        "sub": "geschmiedete Einzelstücke"
+      },
+      {
+        "title": "Bauschlosserei",
+        "sub": "Geländer und Tore"
+      },
+      {
+        "title": "Nach Maß",
+        "sub": "für Ihr Haus gefertigt"
+      },
+      {
+        "title": "Mammendorf",
+        "sub": "Lkr. Fürstenfeldbruck"
+      }
+    ],
+    "trust": [
+      {
+        "value": "Inhaberin",
+        "label": "direkter Kontakt"
+      },
+      {
+        "value": "2 Bereiche",
+        "label": "Kunst- und Bauschlosserei"
+      },
+      {
+        "value": "Nach Maß",
+        "label": "statt Katalogware"
+      },
+      {
+        "value": "Vor Ort",
+        "label": "in Mammendorf"
+      }
+    ],
+    "servicesIntro": {
+      "headline": "Geschmiedet und geschlossert – für Haus und Hof",
+      "text": "Ein Tor, das zum alten Hof passt, ein Geländer für die neue Treppe oder ein Einzelstück mit Schnörkel: Hier entsteht Metall, das genau an Ihren Ort passt."
+    },
+    "services": [
+      {
+        "title": "Geländer",
+        "text": "Geländer für Treppe, Balkon und Terrasse – schlicht aus Flachstahl oder mit geschmiedeten Details.",
+        "items": [
+          "Treppe",
+          "Balkon",
+          "Terrasse"
+        ]
+      },
+      {
+        "title": "Tore und Türen",
+        "text": "Hof- und Gartentore, die zum Haus und zum Zaun passen.",
+        "items": [
+          "Hoftor",
+          "Gartentür",
+          "Zaunfelder"
+        ]
+      },
+      {
+        "title": "Schmiedearbeiten",
+        "text": "Geschmiedete Einzelstücke mit Hand und Hammer gefertigt – vom Ziergitter bis zum Wandhalter.",
+        "items": [
+          "Ziergitter",
+          "Beschläge",
+          "Einzelstücke"
+        ]
+      },
+      {
+        "title": "Gitter",
+        "text": "Fenster- und Kellergitter, die schützen und trotzdem zum Haus passen.",
+        "items": [
+          "Fenstergitter",
+          "Kellerschacht",
+          "Lüftungsgitter"
+        ]
+      },
+      {
+        "title": "Handläufe",
+        "text": "Handläufe an Wand und Treppe für sicheren Halt im Haus und am Eingang.",
+        "items": [
+          "Wandhandlauf",
+          "Eingangsstufen",
+          "Innen und außen"
+        ]
+      },
+      {
+        "title": "Reparaturen",
+        "text": "Alte Tore, Geländer und Gitter instand setzen statt wegwerfen.",
+        "items": [
+          "Schweißarbeiten",
+          "Instandsetzung",
+          "Ersatzteile"
+        ]
+      }
+    ],
+    "why": {
+      "headline": "Metall mit Handschrift – aus Mammendorf.",
+      "points": [
+        {
+          "title": "Kunst und Bau",
+          "text": "Zweckmäßige Schlosserarbeiten und geschmiedete Gestaltung aus einer Hand."
+        },
+        {
+          "title": "Direkter Draht",
+          "text": "Sie sprechen direkt mit der Inhaberin – ohne Zwischenstellen."
+        },
+        {
+          "title": "Passend zum Haus",
+          "text": "Jedes Stück wird für Ihren Ort gemessen, ob Bauernhof oder Neubau."
+        },
+        {
+          "title": "Kurze Wege",
+          "text": "Von Mammendorf schnell in Adelshofen, Jesenwang, Althegnenberg und Maisach."
+        }
+      ]
+    },
+    "reviews": {
+      "headline": "Was Kunden sagen",
+      "summary": "Kundenstimmen werden hier eingebunden, sobald sie aus dem Google-Profil übernommen sind.",
+      "highlights": [
+        "Schlosserei in Mammendorf",
+        "Geländer und Tore",
+        "Schmiedearbeiten"
+      ],
+      "source": "Google",
+      "sourceUrl": "https://www.google.com/maps/search/?api=1&query=Susanne%20Leuschner%20Kunst-%20und%20Bauschlosser%20Nikolausstr.%202%20Mammendorf",
+      "rating": null,
+      "count": null
+    },
+    "process": {
+      "headline": "So entsteht Ihr Stück",
+      "steps": [
+        {
+          "title": "Idee",
+          "text": "Anrufen und kurz beschreiben, was entstehen soll – gern mit Skizze oder Foto."
+        },
+        {
+          "title": "Aufmaß",
+          "text": "Maße, Form und Befestigung werden vor Ort abgestimmt."
+        },
+        {
+          "title": "Angebot",
+          "text": "Sie erhalten ein Angebot für Fertigung und Montage."
+        },
+        {
+          "title": "Werkstatt & Einbau",
+          "text": "Das Stück wird geschmiedet bzw. gefertigt und bei Ihnen montiert."
+        }
+      ]
+    },
+    "gallery": {
+      "headline": "Aus der Schmiede",
+      "text": "Für die Live-Version zeigen wir hier echte Arbeiten des Betriebs.",
+      "items": [
+        {
+          "title": "Hoftor",
+          "photoNeeded": "geschmiedetes Hoftor an einer Einfahrt"
+        },
+        {
+          "title": "Treppengeländer",
+          "photoNeeded": "Metallgeländer an einer Außentreppe"
+        },
+        {
+          "title": "Ziergitter",
+          "photoNeeded": "geschmiedetes Fenstergitter mit Schnörkeln"
+        },
+        {
+          "title": "Handlauf",
+          "photoNeeded": "Wandhandlauf aus Stahl im Eingangsbereich"
+        },
+        {
+          "title": "Am Amboss",
+          "photoNeeded": "glühendes Eisen auf dem Amboss in der Werkstatt"
+        }
+      ]
+    },
+    "region": {
+      "headline": "Schlosserei für Mammendorf und den westlichen Landkreis",
+      "text": "Von Mammendorf aus nach Nannhofen, Adelshofen, Jesenwang, Althegnenberg, Hattenhofen und Maisach.",
+      "places": [
+        "Mammendorf",
+        "Nannhofen",
+        "Adelshofen",
+        "Jesenwang",
+        "Althegnenberg",
+        "Hattenhofen",
+        "Maisach"
+      ]
+    },
+    "faq": [
+      {
+        "q": "Fertigen Sie auch Einzelstücke?",
+        "a": "Ja, als Kunstschmiede entstehen auch einzelne Stücke nach Ihren Vorstellungen."
+      },
+      {
+        "q": "Kann ich eine Skizze oder ein Foto mitbringen?",
+        "a": "Ja, eine Skizze oder ein Foto des Vorbilds hilft bei der ersten Abstimmung."
+      },
+      {
+        "q": "Werden alte Tore und Geländer repariert?",
+        "a": "Fragen Sie an – ob sich eine Instandsetzung lohnt, klärt sich am besten anhand von Fotos."
+      },
+      {
+        "q": "Wird das Teil auch montiert?",
+        "a": "Montage wird beim Aufmaß mit abgestimmt."
+      },
+      {
+        "q": "Arbeiten Sie auch außerhalb von Mammendorf?",
+        "a": "Ja, in der Umgebung von Mammendorf – rufen Sie einfach an."
+      }
+    ],
+    "contact": {
+      "headline": "Ihre Anfrage an die Schlosserei",
+      "text": "Beschreiben Sie kurz, was entstehen soll – Geländer, Tor, Gitter oder Einzelstück – und wo es hin soll. Fotos oder eine Skizze helfen.",
+      "topics": [
+        "Geländer",
+        "Tor / Tür",
+        "Schmiedearbeit",
+        "Gitter",
+        "Reparatur",
+        "Sonstiges"
+      ],
+      "responseNote": "Aufmaß vor Ort nach Absprache."
+    },
+    "quote": {
+      "sizeLabel": "Was soll entstehen?",
+      "sizes": [
+        "Geländer oder Handlauf",
+        "Tor oder Tür",
+        "Gitter",
+        "Geschmiedetes Einzelstück",
+        "Reparatur"
+      ],
+      "timings": [
+        "So bald wie möglich",
+        "In den nächsten Wochen",
+        "In 1–3 Monaten",
+        "Ich plane erst noch"
+      ]
+    },
+    "stickyCta": "Anfrage senden",
+    "look": {
+      "palette": 2,
+      "font": 6,
+      "hero": 0,
+      "services": 1,
+      "radius": 1,
+      "logo": 0,
+      "intro": 5
+    }
+  }
+}
