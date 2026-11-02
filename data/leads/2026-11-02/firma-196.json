@@ -1,0 +1,412 @@
+{
+  "id": "2026-11-02-196",
+  "slug": "alois-bauer-schlosserei-fraunberg",
+  "date": "2026-11-02",
+  "company": {
+    "name": "Alois Bauer Schmiede",
+    "owner": "Alois Bauer",
+    "trade": "Metallbau & Schlosserei",
+    "city": "Fraunberg",
+    "address": "Rappoltskirchen 2, 85447 Fraunberg",
+    "phone": "08084 1389",
+    "email": "schlosserei.bauer@t-online.de",
+    "serviceArea": [
+      "Fraunberg",
+      "Rappoltskirchen",
+      "Wartenberg",
+      "Berglern",
+      "Bockhorn",
+      "Langenpreising",
+      "Erding"
+    ]
+  },
+  "listings": {
+    "google": {
+      "url": "https://www.google.com/maps/search/?api=1&query=Alois%20Bauer%20Schmiede%20Rappoltskirchen%202%20Fraunberg",
+      "rating": null,
+      "reviews": null,
+      "evidence": "KEIN direkter Google-Beleg gefunden (kein Treffer auf Google-Spiegeln). Annahme über öffentlich belegte Freemail-Adresse schlosserei.bauer@t-online.de (11880-Strukturdaten und Gewerbeverein Fraunberg; ältere Listung schreibt schlosserei-bauer@t-online.de). Google-Eintrag in Maps prüfen."
+    },
+    "myhammer": {
+      "url": "https://www.11880.com/branchenbuch/fraunberg-oberbayern/250203636B27657355/alois-bauer-schmiede.html",
+      "rating": null,
+      "reviews": null,
+      "evidence": "Kein MyHammer gefunden – Einträge bei 11880 („Alois Bauer Schmiede“), Gewerbeverein Fraunberg („Metallbau - Schlosserei Alois Bauer“), schlosserei.net, metallbauer.io, orte.muenchen.de und bundes-telefonbuch (Rappoltskirchen 2, 08084 1389)."
+    }
+  },
+  "websiteStatus": "keine eigene Website gefunden",
+  "websiteChecks": [
+    "(1) „Alois Bauer Schmiede Fraunberg“ mit blocked_domains (11880, Gelbe Seiten, Das Örtliche, Telefonbuch, Cylex, meinestadt, Creditreform, Facebook, Instagram, golocal, MyHammer, Northdata, Firmenwissen, WKDB, Yelp, trustlocal, wlw) – nur Verzeichnisse (11880, bundes-telefonbuch, goyellow), keine eigene Domain",
+    "(2) „Metallbau Schlosserei Alois Bauer Fraunberg Website Impressum“ mit blocked_domains – nur Verzeichnisse (schlosserei.net, gv-fraunberg.de, orte.muenchen.de, metallbauer.io, klicktel), kein Impressum, keine Website",
+    "(3) Domain-Check allowed_domains schlosserei-bauer.de, schmiede-bauer.de, bauer-schmiede.de, schlosserei-bauer-fraunberg.de, schmiede-bauer-fraunberg.de, bauer-fraunberg.de, schlosserei-bauer-rappoltskirchen.de, metallbau-bauer-fraunberg.de – einziger Treffer schlosserei-bauer.de = Bauer Tür und Technik GmbH (automatische Türsysteme, Raum München, info@btut.de) – andere Firma, kein Bezug zu Rappoltskirchen",
+    "(4) Telefonsuche „08084 1389“ mit blocked_domains – nur Verzeichnisse (stadtbranchenbuch, orte.muenchen.de, gv-fraunberg.de, schlosserei.net), keine Website",
+    "(5) E-Mail auf t-online.de (Freemail), keine Firmendomain",
+    "Website-Risiko: mittel – alle Prüfungen negativ, aber kein Google-Beleg und Aktivität unklar (einige 11880-Listen zeigen „geschlossen“, bundes-telefonbuch-Stand 2018)"
+  ],
+  "facts": {
+    "services": [
+      "Metallbau",
+      "Schlosserei",
+      "Schmiede",
+      "Metallbearbeitung"
+    ],
+    "experience": null,
+    "praisedFor": []
+  },
+  "strategy": {
+    "audience": "Hausbesitzer, Landwirte und Gewerbe in Fraunberg, Wartenberg, Bockhorn und im nördlichen Landkreis Erding, die Geländer, Tore, Gitter oder Reparaturen aus Metall brauchen",
+    "mainService": "Schlosser- und Schmiedearbeiten – Anfertigung und Reparatur",
+    "trustSignal": "Schmiede und Schlosserei direkt in Rappoltskirchen, Mitglied im Gewerbeverein Fraunberg",
+    "conversionGoal": "Anfrage für Anfertigung oder Reparatur per Telefon oder E-Mail (mit Foto und Maßen)",
+    "visualConcept": "Werkstatt-Ästhetik: Amboss, Funken, geschmiedetes Eisen und verzinkter Stahl – handfest und ländlich"
+  },
+  "sales": {
+    "score": 5,
+    "whyGoodLead": [
+      "Keine eigene Website gefunden – nur Verzeichniseinträge",
+      "Freemail-Adresse (t-online) öffentlich gelistet – kein eigener Webauftritt",
+      "Metallbau/Schlosserei ist bisher selten unter den Leads",
+      "Ländlicher Betrieb, Anfragen laufen heute nur über Telefonbuch-Einträge"
+    ],
+    "pitch": "Grüß Gott Herr Bauer, hier ist … – ich baue Websites für Handwerksbetriebe im Landkreis Erding. Ich habe Ihre Schmiede und Schlosserei in Rappoltskirchen im Branchenbuch gefunden, aber keine eigene Website. Ich habe unverbindlich einen Entwurf vorbereitet, auf dem Kunden Ihre Metallarbeiten sehen und direkt anfragen können – darf ich Ihnen den Link per E-Mail schicken?"
+  },
+  "manualChecks": [
+    "Website-Risiko: mittel – vor Versand in Google Maps prüfen, dass keine Website hinterlegt ist (Grund: kein Google-Beleg gefunden, nur Freemail; Betrieb evtl. nicht mehr aktiv)",
+    "Betrieb aktiv? Einige 11880-Listen zeigen „geschlossen“, Daten teils von 2018 – vor Kontakt per Anruf oder Maps bestätigen",
+    "E-Mail-Schreibweise klären: schlosserei.bauer@t-online.de (11880, Gewerbeverein) vs. schlosserei-bauer@t-online.de (ältere Listung)",
+    "Zweite Nummer laut Gewerbeverein/schlosserei.net: 08084 2589411 (evtl. Fax) – Festnetz 08084 1389, keine Mobilnummer bekannt",
+    "Leistungen nur grob belegt (Metallbau, Schlosserei, Schmiede, Metallbearbeitung) – Geländer, Tore, Treppen, Landtechnik-Reparatur beim Betrieb bestätigen",
+    "Logo und Projektfotos: nicht gefunden – beim Betrieb anfragen"
+  ],
+  "sources": [
+    {
+      "label": "11880 – Alois Bauer Schmiede, Fraunberg",
+      "url": "https://www.11880.com/branchenbuch/fraunberg-oberbayern/250203636B27657355/alois-bauer-schmiede.html"
+    },
+    {
+      "label": "Gewerbeverein Fraunberg – Metallbau - Schlosserei Alois Bauer",
+      "url": "https://gv-fraunberg.de/directory-directory/listing/metallbau-schlosserei-alois-bauer/"
+    },
+    {
+      "label": "schlosserei.net – Alois Bauer Schlosserei Fraunberg",
+      "url": "https://www.schlosserei.net/fraunberg/alois-bauer-schlosserei-aULWr6"
+    },
+    {
+      "label": "orte.muenchen.de – Bauer Alois Fraunberg Schlosserei",
+      "url": "https://orte.muenchen.de/165549.html"
+    },
+    {
+      "label": "Bundes-Telefonbuch – Bauer Alois Schmiede, Rappoltskirchen",
+      "url": "https://www.bundes-telefonbuch.de/fraunberg-rappoltskirchen/firma/bauer-alois-schmiede-bvg610808483"
+    },
+    {
+      "label": "metallbauer.io – Alois Bauer Schlosserei",
+      "url": "https://metallbauer.io/5147-alois-bauer-schlosserei"
+    }
+  ],
+  "site": {
+    "theme": "werk",
+    "category": "handwerk",
+    "heroOffer": [
+      "Geländer",
+      "Tore",
+      "Schmiedearbeiten",
+      "Reparaturen",
+      "Schweißen"
+    ],
+    "scene": "facade",
+    "logoIcon": "house",
+    "logoMark": "AB",
+    "brandName": "Schlosserei Alois Bauer",
+    "seoTitle": "Schlosserei & Schmiede in Fraunberg – Alois Bauer",
+    "seoDescription": "Metallbau, Schlosser- und Schmiedearbeiten aus Rappoltskirchen bei Fraunberg. Geländer, Tore und Reparaturen – jetzt anfragen.",
+    "nav": [
+      {
+        "label": "Leistungen",
+        "href": "#leistungen"
+      },
+      {
+        "label": "Projekte",
+        "href": "#projekte"
+      },
+      {
+        "label": "Bewertungen",
+        "href": "#bewertungen"
+      },
+      {
+        "label": "Ablauf",
+        "href": "#ablauf"
+      },
+      {
+        "label": "FAQ",
+        "href": "#faq"
+      },
+      {
+        "label": "Kontakt",
+        "href": "#kontakt"
+      }
+    ],
+    "hero": {
+      "eyebrow": "Schmiede & Schlosserei · Rappoltskirchen",
+      "headline": "Schlosserei und Schmiede in Fraunberg",
+      "sub": "Geländer, Tore und Reparaturen aus Metall – gefertigt in Rappoltskirchen.",
+      "ctaPrimary": "Anfrage senden",
+      "ctaSecondary": "Anrufen",
+      "bullets": [
+        "Werkstatt in Rappoltskirchen",
+        "Anfertigung und Reparatur",
+        "Kurze Wege im Landkreis Erding"
+      ],
+      "imageLabel": "Schmiedewerkstatt mit Amboss und geschmiedetem Geländer"
+    },
+    "badges": [
+      {
+        "title": "Schlosserei",
+        "sub": "Anfertigung nach Maß"
+      },
+      {
+        "title": "Schmiede",
+        "sub": "Eisen in Form"
+      },
+      {
+        "title": "Reparatur",
+        "sub": "statt Neukauf"
+      },
+      {
+        "title": "Rappoltskirchen",
+        "sub": "Gemeinde Fraunberg"
+      }
+    ],
+    "trust": [
+      {
+        "value": "Vor Ort",
+        "label": "Werkstatt in Rappoltskirchen"
+      },
+      {
+        "value": "Metall",
+        "label": "Stahl und Eisen"
+      },
+      {
+        "value": "Maß",
+        "label": "Einzelstücke statt Katalog"
+      },
+      {
+        "value": "Direkt",
+        "label": "Ansprechpartner Alois Bauer"
+      }
+    ],
+    "servicesIntro": {
+      "headline": "Metallarbeiten aus der Dorfschmiede",
+      "text": "Ob neues Hoftor, Treppengeländer oder ein gebrochenes Beschlagteil: Die Werkstatt fertigt und repariert, was aus Metall ist."
+    },
+    "services": [
+      {
+        "title": "Geländer",
+        "text": "Treppen- und Balkongeländer aus Stahl, angepasst an Haus und Treppe vor Ort.",
+        "items": [
+          "Treppengeländer",
+          "Balkongeländer",
+          "Handläufe"
+        ]
+      },
+      {
+        "title": "Tore und Zäune",
+        "text": "Hoftore, Gartentüren und Zaunfelder in passender Höhe und Breite.",
+        "items": [
+          "Hoftore",
+          "Gartentüren",
+          "Zaunfelder"
+        ]
+      },
+      {
+        "title": "Schmiedearbeiten",
+        "text": "Geschmiedete Teile von Hand: Haken, Beschläge, Ziergitter und Ersatzteile.",
+        "items": [
+          "Beschläge",
+          "Ziergitter",
+          "Einzelteile"
+        ]
+      },
+      {
+        "title": "Reparaturen",
+        "text": "Gebrochene Scharniere, verbogene Tore oder rostige Gitter werden instand gesetzt.",
+        "items": [
+          "Schweißreparatur",
+          "Scharniere",
+          "Gitter"
+        ]
+      },
+      {
+        "title": "Schweißarbeiten",
+        "text": "Stahlteile werden verschweißt, verstärkt oder verlängert – in der Werkstatt oder vor Ort.",
+        "items": [
+          "Stahlteile",
+          "Verstärkungen",
+          "Anbauten"
+        ]
+      },
+      {
+        "title": "Metallbearbeitung",
+        "text": "Zuschnitt, Bohren und Biegen von Stahl für eigene Projekte und kleine Serien.",
+        "items": [
+          "Zuschnitt",
+          "Bohren",
+          "Biegen"
+        ]
+      }
+    ],
+    "why": {
+      "headline": "Eine Werkstatt im Dorf statt Katalogware.",
+      "points": [
+        {
+          "title": "Einzelstücke",
+          "text": "Jedes Teil wird für Ihr Haus, Ihren Hof oder Ihre Treppe gefertigt."
+        },
+        {
+          "title": "Reparieren lohnt",
+          "text": "Altes Tor oder Gitter? Oft reicht eine Reparatur statt Neukauf."
+        },
+        {
+          "title": "Kurze Wege",
+          "text": "Von Rappoltskirchen schnell in Fraunberg, Wartenberg, Bockhorn und Erding."
+        },
+        {
+          "title": "Ein Ansprechpartner",
+          "text": "Sie sprechen direkt mit Alois Bauer – von der Anfrage bis zur Montage."
+        }
+      ]
+    },
+    "reviews": {
+      "headline": "Was Kunden sagen",
+      "summary": "Kundenstimmen werden hier eingebunden, sobald sie aus dem Google-Profil übernommen sind.",
+      "highlights": [
+        "Schlosserei in Rappoltskirchen",
+        "Anfertigung und Reparatur",
+        "Direkter Kontakt"
+      ],
+      "source": "Google",
+      "sourceUrl": "https://www.google.com/maps/search/?api=1&query=Alois%20Bauer%20Schmiede%20Rappoltskirchen%202%20Fraunberg",
+      "rating": null,
+      "count": null
+    },
+    "process": {
+      "headline": "So kommt Ihr Metallteil zustande",
+      "steps": [
+        {
+          "title": "Anfrage",
+          "text": "Anrufen oder ein Foto mit groben Maßen per E-Mail schicken."
+        },
+        {
+          "title": "Aufmaß",
+          "text": "Maße und Ausführung werden vor Ort oder in der Werkstatt geklärt."
+        },
+        {
+          "title": "Fertigung",
+          "text": "Das Teil entsteht in der Werkstatt in Rappoltskirchen."
+        },
+        {
+          "title": "Montage",
+          "text": "Einbau vor Ort oder Abholung in der Werkstatt."
+        }
+      ]
+    },
+    "gallery": {
+      "headline": "Aus der Werkstatt",
+      "text": "Für die Live-Version zeigen wir hier echte Arbeiten der Schlosserei.",
+      "items": [
+        {
+          "title": "Hoftor",
+          "photoNeeded": "geschweißtes Stahltor an einer Hofeinfahrt"
+        },
+        {
+          "title": "Treppengeländer",
+          "photoNeeded": "Stahlgeländer an einer Außentreppe"
+        },
+        {
+          "title": "Am Amboss",
+          "photoNeeded": "glühendes Eisen auf dem Amboss"
+        },
+        {
+          "title": "Ziergitter",
+          "photoNeeded": "geschmiedetes Fenstergitter"
+        },
+        {
+          "title": "Reparatur",
+          "photoNeeded": "instand gesetztes altes Tor vorher/nachher"
+        }
+      ]
+    },
+    "region": {
+      "headline": "Metallarbeiten für Fraunberg und den Landkreis Erding",
+      "text": "Von Rappoltskirchen aus nach Fraunberg, Wartenberg, Berglern, Bockhorn, Langenpreising und Erding.",
+      "places": [
+        "Fraunberg",
+        "Rappoltskirchen",
+        "Wartenberg",
+        "Berglern",
+        "Bockhorn",
+        "Langenpreising",
+        "Erding"
+      ]
+    },
+    "faq": [
+      {
+        "q": "Fertigen Sie auch Einzelstücke?",
+        "a": "Ja, Geländer, Tore und Gitter werden nach Ihren Maßen angefertigt."
+      },
+      {
+        "q": "Lohnt sich eine Reparatur meines alten Tors?",
+        "a": "Oft ja. Schicken Sie ein Foto – dann gibt es eine erste Einschätzung."
+      },
+      {
+        "q": "Kann ich ein Teil in der Werkstatt vorbeibringen?",
+        "a": "Nach kurzer telefonischer Absprache ja, die Werkstatt ist in Rappoltskirchen 2."
+      },
+      {
+        "q": "Montieren Sie die Teile auch vor Ort?",
+        "a": "Ja, Einbau und Montage werden bei der Anfrage mit abgestimmt."
+      },
+      {
+        "q": "Wie erreiche ich Sie am besten?",
+        "a": "Telefonisch unter 08084 1389 oder per E-Mail mit Foto und Maßen."
+      }
+    ],
+    "contact": {
+      "headline": "Ihr Metallteil – unverbindlich anfragen",
+      "text": "Beschreiben Sie kurz, was gebraucht wird: Geländer, Tor, Gitter oder Reparatur. Fotos und grobe Maße helfen.",
+      "topics": [
+        "Geländer",
+        "Tore und Zäune",
+        "Schmiedearbeiten",
+        "Reparatur",
+        "Sonstiges"
+      ],
+      "responseNote": "Rückmeldung nach Absprache, Termine in der Werkstatt nach Vereinbarung."
+    },
+    "quote": {
+      "sizeLabel": "Was soll gefertigt werden?",
+      "sizes": [
+        "Kleines Einzelteil",
+        "Gitter oder Geländer",
+        "Tor oder Zaun",
+        "Reparatur"
+      ],
+      "timings": [
+        "So bald wie möglich",
+        "In den nächsten Wochen",
+        "In 1–3 Monaten",
+        "Ich plane erst noch"
+      ]
+    },
+    "stickyCta": "Jetzt anfragen",
+    "look": {
+      "palette": 2,
+      "font": 6,
+      "hero": 0,
+      "services": 1,
+      "radius": 1,
+      "logo": 0,
+      "intro": 5
+    }
+  }
+}

@@ -1,0 +1,402 @@
+{
+  "id": "2026-11-02-197",
+  "slug": "engesser-gartenbau-feldafing",
+  "date": "2026-11-02",
+  "company": {
+    "name": "Martin Engesser Garten- und Landschaftsbau",
+    "owner": "Martin Engesser",
+    "trade": "Garten- und Landschaftsbau",
+    "city": "Feldafing",
+    "address": "Wieling 24, 82340 Feldafing",
+    "phone": "08157 609272",
+    "email": "engessermartin@gmx.de",
+    "serviceArea": [
+      "Feldafing",
+      "Wieling",
+      "Pöcking",
+      "Tutzing",
+      "Starnberg",
+      "Andechs",
+      "Herrsching"
+    ]
+  },
+  "listings": {
+    "google": {
+      "url": "https://www.google.com/maps/search/?api=1&query=Martin%20Engesser%20Wieling%2024%20Feldafing",
+      "rating": null,
+      "reviews": null,
+      "evidence": "KEIN direkter Google-Beleg gefunden. Annahme über öffentlich belegte Freemail-Adresse engessermartin@gmx.de (Verzeichnis-Strukturdaten zu Martin Engesser, Wieling 24, Feldafing, Tel. 08157 609272). Google-Eintrag in Maps prüfen."
+    },
+    "myhammer": {
+      "url": "https://www.gartenbau.org/poecking/martin-engesser-garten---landschaftsbau-aUMy5E",
+      "rating": null,
+      "reviews": null,
+      "evidence": "Kein MyHammer gefunden – Einträge bei gartenbau.org („Martin Engesser Garten- + Landschaftsbau“, Feldafing Wieling 24 bzw. Pöcking Weilheimer Str. 11, „Offen für Aufträge“), 11880 (Fensterbau, Wieling 24) und branchenbuch24 (Einbau von genormten Baufertigteilen, Pöcking)."
+    }
+  },
+  "websiteStatus": "keine eigene Website gefunden",
+  "websiteChecks": [
+    "(1) „Martin Engesser Feldafing“ mit blocked_domains (Gelbe Seiten, Das Örtliche, Telefonbuch, meinestadt, Creditreform, Facebook, Instagram, golocal, MyHammer, Northdata, Firmenwissen, WKDB, Yelp, wlw) – nur Verzeichnisse (branchenbuch24, gartenbau.org, 11880) und Namensvettern (Traueranzeige, Mexiko/LinkedIn), keine eigene Domain",
+    "(2) Domain-Check allowed_domains engesser.de, martin-engesser.de, engesser-feldafing.de, engesser-fenster.de, engesser-gartenbau.de, fenster-engesser.de, engesser-poecking.de, gartenbau-engesser.de – nur engesser.de = ENGESSER GmbH Formenbau in Geisingen (andere Firma)",
+    "(3) Telefon-/E-Mail-Suche „08157 609272“ / „engessermartin“ mit blocked_domains – nur gartenbau.org-Einträge, keine Website",
+    "(4) Verzeichnis-Suche (11880, goyellow, klicktel, branchenbuch24, gartenbau.org) – kein Website-Feld, E-Mail engessermartin@gmx.de (Freemail)",
+    "Website-Risiko: mittel – alle Prüfungen negativ, aber kein Google-Beleg; Gewerk in Verzeichnissen uneinheitlich (GaLaBau vs. Fensterbau)"
+  ],
+  "facts": {
+    "services": [
+      "Garten- und Landschaftsbau",
+      "Gartengestaltung",
+      "Fensterbau / Einbau von Baufertigteilen (laut 11880/branchenbuch24)"
+    ],
+    "experience": null,
+    "praisedFor": []
+  },
+  "strategy": {
+    "audience": "Hausbesitzer in Feldafing, Pöcking, Tutzing und Starnberg mit Gärten am See, die Anlage, Umgestaltung oder Pflege ihres Gartens suchen",
+    "mainService": "Gartengestaltung und Landschaftsbau",
+    "trustSignal": "Betrieb direkt in Feldafing-Wieling, Inhaber Martin Engesser als Ansprechpartner",
+    "conversionGoal": "Anfrage für Gartengestaltung oder -pflege per Telefon oder E-Mail (mit Fotos)",
+    "visualConcept": "Gepflegte Seegärten am Starnberger See: Natursteinwege, Rasenflächen, Staudenbeete und alter Baumbestand"
+  },
+  "sales": {
+    "score": 5,
+    "whyGoodLead": [
+      "Keine eigene Website gefunden – nur Verzeichniseinträge",
+      "Freemail-Adresse (gmx) öffentlich gelistet – kein eigener Webauftritt",
+      "Kaufkräftige Region am Starnberger See mit vielen Privatgärten",
+      "Verzeichnisse zeigen den Betrieb uneinheitlich – eine Website macht das Angebot klar"
+    ],
+    "pitch": "Grüß Gott Herr Engesser, hier ist … – ich baue Websites für Handwerksbetriebe im Landkreis Starnberg. Ich habe Ihren Garten- und Landschaftsbau in Feldafing im Branchenbuch gefunden, aber keine eigene Website. Ich habe unverbindlich einen Entwurf vorbereitet, auf dem Kunden Ihre Gartenarbeiten sehen und direkt anfragen können – darf ich Ihnen den Link per E-Mail schicken?"
+  },
+  "manualChecks": [
+    "Website-Risiko: mittel – vor Versand in Google Maps prüfen, dass keine Website hinterlegt ist (Grund: kein Google-Beleg gefunden, nur Freemail; Gewerk in Verzeichnissen uneinheitlich)",
+    "Gewerk klären: gartenbau.org führt Garten- und Landschaftsbau, 11880 Fensterbau, branchenbuch24 „Einbau von genormten Baufertigteilen“ – Schwerpunkt beim Erstkontakt erfragen und Seite ggf. anpassen",
+    "Zwei Adressen: Wieling 24, 82340 Feldafing und Weilheimer Str. 11, 82343 Pöcking (gleiche Nummer 08157 609272; gartenbau.org nennt zusätzlich 08157 924807) – aktuelle Adresse klären",
+    "Festnetz, keine Mobilnummer bekannt",
+    "Leistungen nur grob belegt (Gartengestaltung, Landschaftsbau) – Pflaster, Rasen, Bepflanzung, Pflege beim Betrieb bestätigen",
+    "Logo und Projektfotos: nicht gefunden – beim Betrieb anfragen"
+  ],
+  "sources": [
+    {
+      "label": "gartenbau.org – Martin Engesser Garten- + Landschaftsbau",
+      "url": "https://www.gartenbau.org/poecking/martin-engesser-garten---landschaftsbau-aUMy5E"
+    },
+    {
+      "label": "gartenbau.org – Landschaftsbauer in Feldafing (Liste mit Martin Engesser, Wieling 24)",
+      "url": "https://www.gartenbau.org/feldafing/landschaftsbau"
+    },
+    {
+      "label": "11880 – Anbieter für Fenster Herrsching (Liste mit Martin Engesser, Feldafing)",
+      "url": "https://www.11880.com/suche/fenster/herrsching"
+    },
+    {
+      "label": "branchenbuch24 – Martin Engesser, Pöcking",
+      "url": "https://www.branchenbuch24.com/poecking/haus-neubau-und-renovierung/einbau-von-genormten-baufertigteilen/martin-engesser-804583/"
+    }
+  ],
+  "site": {
+    "theme": "garten",
+    "category": "handwerk",
+    "heroOffer": [
+      "Gartengestaltung",
+      "Pflasterwege",
+      "Bepflanzung",
+      "Rasen",
+      "Gartenpflege"
+    ],
+    "scene": "garden",
+    "logoIcon": "leaf",
+    "logoMark": "ME",
+    "brandName": "Engesser Gartenbau",
+    "seoTitle": "Garten- und Landschaftsbau in Feldafing – Martin Engesser",
+    "seoDescription": "Gartengestaltung und Landschaftsbau in Feldafing, Pöcking und Tutzing. Neue Wege, Beete und Rasenflächen – jetzt anfragen.",
+    "nav": [
+      {
+        "label": "Leistungen",
+        "href": "#leistungen"
+      },
+      {
+        "label": "Projekte",
+        "href": "#projekte"
+      },
+      {
+        "label": "Bewertungen",
+        "href": "#bewertungen"
+      },
+      {
+        "label": "Ablauf",
+        "href": "#ablauf"
+      },
+      {
+        "label": "FAQ",
+        "href": "#faq"
+      },
+      {
+        "label": "Kontakt",
+        "href": "#kontakt"
+      }
+    ],
+    "hero": {
+      "eyebrow": "Garten- und Landschaftsbau · Feldafing",
+      "headline": "Gartenbau in Feldafing am See",
+      "sub": "Wege, Beete und Rasenflächen für Gärten zwischen Feldafing, Pöcking und Tutzing.",
+      "ctaPrimary": "Garten anfragen",
+      "ctaSecondary": "Anrufen",
+      "bullets": [
+        "Betrieb in Feldafing-Wieling",
+        "Gestaltung und Pflege",
+        "Direkt mit Martin Engesser"
+      ],
+      "imageLabel": "gepflegter Garten mit Natursteinweg am Starnberger See"
+    },
+    "badges": [
+      {
+        "title": "Gestaltung",
+        "sub": "neue Gartenideen"
+      },
+      {
+        "title": "Wege",
+        "sub": "Pflaster & Naturstein"
+      },
+      {
+        "title": "Pflanzen",
+        "sub": "Beete & Hecken"
+      },
+      {
+        "title": "Feldafing",
+        "sub": "Ortsteil Wieling"
+      }
+    ],
+    "trust": [
+      {
+        "value": "Vor Ort",
+        "label": "Betrieb in Feldafing"
+      },
+      {
+        "value": "See",
+        "label": "Fünfseenland"
+      },
+      {
+        "value": "Garten",
+        "label": "Anlage und Pflege"
+      },
+      {
+        "value": "Direkt",
+        "label": "Inhaber am Telefon"
+      }
+    ],
+    "servicesIntro": {
+      "headline": "Vom ersten Entwurf bis zum fertigen Beet",
+      "text": "Ein Garten am See braucht Wege, die Regen vertragen, und Pflanzen, die zum Standort passen. Die Arbeiten werden auf Ihr Grundstück abgestimmt."
+    },
+    "services": [
+      {
+        "title": "Gartengestaltung",
+        "text": "Neue Aufteilung für bestehende Gärten: Sitzplatz, Wege, Beete und Rasen sinnvoll angeordnet.",
+        "items": [
+          "Planung vor Ort",
+          "Sitzplätze",
+          "Gartenumbau"
+        ]
+      },
+      {
+        "title": "Wege und Pflaster",
+        "text": "Gartenwege, Einfahrten und Terrassenflächen aus Pflaster oder Naturstein.",
+        "items": [
+          "Gartenwege",
+          "Einfahrten",
+          "Terrassen"
+        ]
+      },
+      {
+        "title": "Bepflanzung",
+        "text": "Stauden, Sträucher und Hecken passend zu Licht und Boden auf Ihrem Grundstück.",
+        "items": [
+          "Staudenbeete",
+          "Hecken",
+          "Sträucher"
+        ]
+      },
+      {
+        "title": "Rasenanlage",
+        "text": "Neuer Rasen als Rollrasen oder Ansaat, mit vorbereitetem Boden.",
+        "items": [
+          "Rollrasen",
+          "Ansaat",
+          "Bodenvorbereitung"
+        ]
+      },
+      {
+        "title": "Gartenpflege",
+        "text": "Rückschnitt, Heckenschnitt und Beetpflege über das Jahr verteilt.",
+        "items": [
+          "Heckenschnitt",
+          "Rückschnitt",
+          "Beetpflege"
+        ]
+      },
+      {
+        "title": "Erdarbeiten",
+        "text": "Gelände modellieren, Boden austauschen und Flächen für neue Anlagen vorbereiten.",
+        "items": [
+          "Geländemodellierung",
+          "Bodenaustausch",
+          "Vorbereitung"
+        ]
+      }
+    ],
+    "why": {
+      "headline": "Gartenbau aus Feldafing für Gärten im Fünfseenland.",
+      "points": [
+        {
+          "title": "Kurze Anfahrt",
+          "text": "Von Wieling schnell in Feldafing, Pöcking, Tutzing und Starnberg."
+        },
+        {
+          "title": "Ein Ansprechpartner",
+          "text": "Martin Engesser bespricht Ihr Vorhaben selbst – ohne Umwege."
+        },
+        {
+          "title": "Passend zum Standort",
+          "text": "Pflanzen und Beläge werden nach Lage, Licht und Boden gewählt."
+        },
+        {
+          "title": "Anlage und Pflege",
+          "text": "Wer den Garten anlegt, kennt ihn auch bei der späteren Pflege."
+        }
+      ]
+    },
+    "reviews": {
+      "headline": "Was Kunden sagen",
+      "summary": "Kundenstimmen werden hier eingebunden, sobald sie aus dem Google-Profil übernommen sind.",
+      "highlights": [
+        "Gartenbau in Feldafing",
+        "Gestaltung und Pflege",
+        "Direkter Kontakt"
+      ],
+      "source": "Google",
+      "sourceUrl": "https://www.google.com/maps/search/?api=1&query=Martin%20Engesser%20Wieling%2024%20Feldafing",
+      "rating": null,
+      "count": null
+    },
+    "process": {
+      "headline": "In vier Schritten zum neuen Garten",
+      "steps": [
+        {
+          "title": "Anfrage",
+          "text": "Anrufen oder Fotos vom Garten per E-Mail schicken."
+        },
+        {
+          "title": "Begehung",
+          "text": "Wünsche, Flächen und Boden werden vor Ort angeschaut."
+        },
+        {
+          "title": "Angebot",
+          "text": "Sie erhalten ein klares Angebot für die geplanten Arbeiten."
+        },
+        {
+          "title": "Umsetzung",
+          "text": "Wege, Beete und Rasen werden angelegt und sauber übergeben."
+        }
+      ]
+    },
+    "gallery": {
+      "headline": "Gärten rund um den See",
+      "text": "Für die Live-Version zeigen wir hier echte Projekte des Betriebs.",
+      "items": [
+        {
+          "title": "Natursteinweg",
+          "photoNeeded": "geschwungener Gartenweg aus Naturstein"
+        },
+        {
+          "title": "Staudenbeet",
+          "photoNeeded": "blühendes Staudenbeet vor einer Hecke"
+        },
+        {
+          "title": "Neuer Rasen",
+          "photoNeeded": "frisch verlegter Rollrasen"
+        },
+        {
+          "title": "Terrasse",
+          "photoNeeded": "gepflasterte Terrasse mit Sitzplatz"
+        },
+        {
+          "title": "Heckenschnitt",
+          "photoNeeded": "frisch geschnittene Hecke"
+        }
+      ]
+    },
+    "region": {
+      "headline": "Gartenbau für Feldafing und das Fünfseenland",
+      "text": "Von Wieling aus nach Feldafing, Pöcking, Tutzing, Starnberg, Andechs und Herrsching.",
+      "places": [
+        "Feldafing",
+        "Wieling",
+        "Pöcking",
+        "Tutzing",
+        "Starnberg",
+        "Andechs",
+        "Herrsching"
+      ]
+    },
+    "faq": [
+      {
+        "q": "Kann ich vorab Fotos vom Garten schicken?",
+        "a": "Ja, Fotos per E-Mail helfen für eine erste Einschätzung."
+      },
+      {
+        "q": "Übernehmen Sie auch die Pflege nach der Anlage?",
+        "a": "Gartenpflege wie Hecken- und Rückschnitt kann gern mit angefragt werden."
+      },
+      {
+        "q": "Arbeiten Sie auch außerhalb von Feldafing?",
+        "a": "Ja, im Umkreis von Feldafing – etwa in Pöcking, Tutzing und Starnberg."
+      },
+      {
+        "q": "Wann ist die beste Zeit für einen neuen Rasen?",
+        "a": "Meist Frühjahr oder Spätsommer. Der genaue Termin wird bei der Begehung abgestimmt."
+      },
+      {
+        "q": "Wie erreiche ich Sie am besten?",
+        "a": "Telefonisch unter 08157 609272 oder per E-Mail an engessermartin@gmx.de."
+      }
+    ],
+    "contact": {
+      "headline": "Ihr Garten – unverbindlich anfragen",
+      "text": "Beschreiben Sie kurz Ihr Vorhaben: neue Wege, Beete, Rasen oder Pflege. Fotos und die ungefähre Fläche helfen.",
+      "topics": [
+        "Gartengestaltung",
+        "Wege und Pflaster",
+        "Bepflanzung",
+        "Gartenpflege",
+        "Sonstiges"
+      ],
+      "responseNote": "Begehung vor Ort nach Absprache."
+    },
+    "quote": {
+      "sizeLabel": "Wie groß ist der Garten?",
+      "sizes": [
+        "Kleiner Garten",
+        "Reihenhausgarten",
+        "Großer Garten",
+        "Nur Teilfläche"
+      ],
+      "timings": [
+        "So bald wie möglich",
+        "Diese Saison",
+        "Im Frühjahr",
+        "Ich plane erst noch"
+      ]
+    },
+    "stickyCta": "Garten anfragen",
+    "look": {
+      "palette": 2,
+      "font": 6,
+      "hero": 0,
+      "services": 1,
+      "radius": 1,
+      "logo": 0,
+      "intro": 5
+    }
+  }
+}
