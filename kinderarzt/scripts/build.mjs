@@ -5,7 +5,7 @@ import path from "node:path";
 import { fileURLToPath } from "node:url";
 import { createRequire } from "node:module";
 import { buildSync } from "esbuild";
-import { sunMark, favicon, heroSVG, ICONS } from "../src/art.mjs";
+import { sunMark, favicon, ICONS } from "../src/art.mjs";
 
 const root = path.join(path.dirname(fileURLToPath(import.meta.url)), "..");
 const req = createRequire(path.join(root, "package.json"));
@@ -18,6 +18,7 @@ const fonts = {
   atkinson: req.resolve("@fontsource-variable/atkinson-hyperlegible-next/files/atkinson-hyperlegible-next-latin-wght-normal.woff2"),
 };
 
+const LAYERS = JSON.parse(rd("fotos/hero/layers.json"));
 let html = rd("src/index.html");
 const css = rd("src/styles.css").replace(/\{\{font:([a-z]+)\}\}/g, (_, k) => b64(fonts[k], "font/woff2"));
 const js = rd("src/app.js");
@@ -34,7 +35,10 @@ html = html
   .replace("/*HERO3D*/", () => esc(hero3d))
   .replace(/\{\{svg:sun\}\}/g, () => sunMark())
   .replace("{{svg:sun-big}}", () => sunMark({ cls: "sun sun--big" }))
-  .replace("{{svg:hero}}", () => heroSVG())
+  .replace(/\{\{hero:([a-z-]+)\}\}/g, (_, k) => b64(path.join(root, "fotos", "hero", k + ".webp"), "image/webp"))
+  .replace(/\{\{layers:([a-z-]+)\}\}/g, (_, k) => (LAYERS[k]?.layers || []).map((L) =>
+    `<img class="h3d__lay" data-layer="${L.id}" src="${b64(path.join(root, "fotos", "hero", `${k}-${L.id}.webp`), "image/webp")}" width="${L.pw}" height="${L.ph}" alt="" style="left:${(L.x * 100).toFixed(3)}%;top:${(L.y * 100).toFixed(3)}%;width:${(L.w * 100).toFixed(3)}%">`).join(""))
+  .replace("{{layersjson}}", () => JSON.stringify(LAYERS))
   .replace("{{favicon}}", () => favicon())
   .replace(/\{\{icon:([a-z]+)\}\}/g, (_, k) => { if (!ICONS[k]) throw new Error("Icon fehlt: " + k); return ICONS[k](); })
   .replace(/\{\{img:([a-z0-9-]+)\}\}/g, (_, k) => b64(path.join(root, "fotos", k + ".webp"), "image/webp"));

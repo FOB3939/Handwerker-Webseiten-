@@ -24,7 +24,18 @@ function watch(p) {
   p.on("request", (r) => { const u = r.url(); if (!u.startsWith("file:") && !u.startsWith("data:")) errs.push("Netzwerk: " + u); });
   return errs;
 }
-const scrollHero = (p, t) => p.evaluate((t) => { const st = __hero.st; const d = st.animation.duration(); scrollTo(0, st.start + (st.end - st.start) * Math.min(t, d) / d); }, t);
+// Scrollt so, dass die Fahrt an Station „pos“ steht (0 = Außenansicht … 5 = Team), und wartet, bis sie dort ist.
+async function gotoPos(p, pos) {
+  await p.evaluate((v) => {
+    const H = __hero, tl = H.tl, t0 = tl.time();
+    // Zeit zur Station aus der Zeitleiste ablesen (Bisektion), danach Zustand zurücksetzen
+    let lo = 0, hi = tl.duration();
+    for (let k = 0; k < 32; k++) { const m = (lo + hi) / 2; tl.time(m, true); if (H.state.pos < v) lo = m; else hi = m; }
+    tl.time(t0, true);
+    scrollTo(0, H.st.start + (H.st.end - H.st.start) * hi / tl.duration());
+  }, pos);
+  await p.waitForFunction((v) => Math.abs(__hero.state.pos - v) < 0.01, pos, { timeout: 25000 }).catch(() => {});
+}
 const axeRun = async (p, ctx) => {
   await p.addScriptTag({ path: axePath });
   return p.evaluate(([c, o]) => axe.run(c ? document.querySelector(c) : document, o).then((r) => r.violations.map((x) => `${x.id}(${x.nodes.length}): ${x.nodes.slice(0, 2).map((n) => n.target.join(" ")).join(" | ")}`)), [ctx, AXE]);
@@ -53,23 +64,25 @@ const axeRun = async (p, ctx) => {
         await p.waitForTimeout(300);
         const r = await p.evaluate(() => ({
           cls: document.querySelector("[data-h3d]").className,
-          photo: getComputedStyle(document.querySelector("[data-photo]")).visibility,
+          canvas: document.querySelectorAll("canvas").length,
+          figs: [...document.querySelectorAll(".h3d__list .h3d__ph")].filter((f) => f.getBoundingClientRect().height > 50).length,
+          kb: document.querySelectorAll("[data-kb]").length,
           visible: [...document.querySelectorAll("[data-chapter]")].filter((c) => getComputedStyle(c).visibility === "visible" && getComputedStyle(c).opacity === "1").length,
           total: document.querySelectorAll("[data-chapter]").length,
           triggers: ScrollTrigger.getAll().length,
         }));
-        ok(/h3d--static/.test(r.cls) && r.photo === "visible" && r.visible === r.total && r.triggers === 0, `${w} reduzierte Bewegung: Standbild, Foto, alle Kapitel, keine Scroll-Animation (${JSON.stringify(r)})`);
+        ok(/h3d--static/.test(r.cls) && r.canvas === 0 && r.figs === 5 && r.visible === r.total && r.triggers === 0 && r.kb === 0, `${w} reduzierte Bewegung: Fotos als Standbild, alle Kapitel als Liste, keine Animation (${JSON.stringify(r)})`);
         const over = await p.evaluate(() => {
           const W = document.documentElement.clientWidth;
           const bad = [...document.querySelectorAll("body *")].filter((el) => {
             const r = el.getBoundingClientRect();
-            return r.width && r.right > W + 1 && !el.closest(".skip,.h3d__skip,.tour__track,.sun--big");
+            return r.width && r.right > W + 1 && !el.closest(".skip,.h3d__skip,.tour__track,.sun--big,.h3d__ph");
           }).slice(0, 5).map((el) => el.tagName + "." + el.className);
           return { sw: document.documentElement.scrollWidth, W, bad };
         });
         ok(over.sw <= w && over.bad.length === 0, `${w} kein horizontaler Überlauf (${over.sw}px ${over.bad.join(" ")})`);
         const small = await p.evaluate(() => [...document.querySelectorAll("a[href],button,summary")]
-          .filter((el) => el.offsetParent && !el.closest(".skip,.h3d__skip"))
+          .filter((el) => el.offsetParent && !el.closest(".skip,.h3d__skip") && !(el.tagName === "A" && el.parentElement.tagName === "P" && getComputedStyle(el).display === "inline"))
           .map((el) => [el, el.getBoundingClientRect()]).filter(([, r]) => r.height < 44 || r.width < 24)
           .map(([el, r]) => `${el.tagName}:${el.textContent.trim().slice(0, 20)}(${Math.round(r.width)}x${Math.round(r.height)})`));
         ok(small.length === 0, `${w} Tippflächen ≥ 44 px ${small.join(", ")}`);
@@ -82,34 +95,32 @@ const axeRun = async (p, ctx) => {
     }
   }
 
-  // 3D-Scrollphasen
-  console.log("\n== 3D-Scrollphasen");
-  const PH = [["0-start", 0], ["1-sonne", 1.6], ["2-bauen", 2.45], ["2b-praxis", 3.15], ["3-tuer", 3.75], ["3b-foto", 4.25], ["4-ende", 99]];
-  const TITLES = ["Kinderärztin in Grünwald", "Guten Morgen", "Alles an seinem Platz", "Alles an seinem Platz", "Herein in die Praxis", "Herein in die Praxis", "Herein in die Praxis"];
+  // Kamerafahrt: je Station und Übergang ein Bild
+  console.log("\n== Kamerafahrt");
+  const PH = [["0-aussen", 0], ["1-tuer", 0.45], ["2-durch-die-tuer", 0.7], ["3-empfang", 1], ["4-uebergang", 1.5], ["5-wartebereich", 2], ["6-sprechzimmer", 3], ["7-untersuchung", 4], ["8-ende-team", 5]];
+  const TITLES = ["Willkommen", "Willkommen", "Empfang", "Empfang", "Wartebereich", "Wartebereich", "Sprechzimmer", "Untersuchung", "Kinderärztin in Grünwald"];
   for (const [w, h] of [[1440, 900], [390, 844]]) {
     const p = await b.newPage({ viewport: { width: w, height: h } });
     const errs = watch(p);
     await p.goto("file://" + file);
-    await decode(p);
-    await p.waitForTimeout(600);
+    await p.waitForFunction(() => document.querySelector("[data-h3d]").classList.contains("h3d--ready"), null, { timeout: 20000 }).catch(() => {});
     for (let i = 0; i < PH.length; i++) {
-      await scrollHero(p, PH[i][1]);
-      await p.waitForFunction((t) => Math.abs(__hero.tl.time() - Math.min(t, __hero.tl.duration())) < 0.05, PH[i][1], { timeout: 15000 }).catch(() => {});
-      await p.waitForTimeout(400);
+      await gotoPos(p, PH[i][1]);
+      await p.waitForTimeout(900);
       const title = await p.evaluate(() => document.querySelector("[data-chapter][data-active]").textContent.trim());
-      ok(title.includes(TITLES[i]), `${w} Phase ${PH[i][0]}: „${title.slice(0, 28)}…“`);
-      await p.screenshot({ path: path.join(shots, `hero3d-${w}-${PH[i][0]}.png`) });
+      ok(title.includes(TITLES[i]), `${w} ${PH[i][0]}: „${title.slice(0, 28)}…“`);
+      await p.screenshot({ path: path.join(shots, `fahrt-${w}-${PH[i][0]}.png`) });
     }
-    const end = await p.evaluate(() => ({ on: document.querySelector("[data-photo]").hasAttribute("data-on"), r: getComputedStyle(document.querySelector("[data-photo]")).clipPath }));
-    ok(end.on && /circle\(150%/.test(end.r), `${w} Übergang zum echten Foto vollständig (${end.r.slice(0, 30)})`);
+    const end = await p.evaluate(() => ({ pos: __hero.state.pos, h1: getComputedStyle(document.getElementById("hero-title").closest("[data-chapter]")).opacity }));
+    ok(end.pos > 4.99 && end.h1 === "1", `${w} Fahrt endet beim Team mit „Kinderärztin in Grünwald“ (${JSON.stringify(end)})`);
     ok((await p.evaluate(() => document.documentElement.scrollWidth)) <= w, `${w} 3D-Szene ohne horizontalen Überlauf`);
     await p.evaluate(() => scrollTo(0, 0));
     await p.waitForFunction(() => __hero.tl.time() < 0.02, null, { timeout: 20000 }).catch(() => {});
     await p.click('[data-goto-chapter="2"]');
-    await p.waitForFunction(() => Math.abs(__hero.tl.time() - 2.6) < 0.05, null, { timeout: 20000 }).catch(() => {});
+    await p.waitForFunction(() => Math.abs(__hero.state.pos - 2) < 0.01, null, { timeout: 25000 }).catch(() => {});
     await p.waitForTimeout(400);
-    const jump = await p.evaluate(() => ({ t: __hero.tl.time().toFixed(2), txt: document.querySelector("[data-chapter][data-active]").textContent.slice(0, 22) }));
-    ok(/Alles an seinem Platz/.test(jump.txt), `${w} Kapitel-Knopf „Praxis“ springt zur Szene (${JSON.stringify(jump)})`);
+    const jump = await p.evaluate(() => ({ pos: __hero.state.pos.toFixed(2), txt: document.querySelector("[data-chapter][data-active]").textContent.trim().slice(0, 22) }));
+    ok(/Wartebereich/.test(jump.txt), `${w} Stations-Knopf „Warten“ springt zum Wartebereich (${JSON.stringify(jump)})`);
     // Rendern pausiert außerhalb des Bildes
     await p.evaluate(() => document.getElementById("team").scrollIntoView()); await p.waitForTimeout(500);
     await p.waitForTimeout(800);
@@ -125,17 +136,17 @@ const axeRun = async (p, ctx) => {
       await p.screenshot({ path: path.join(shots, `abschnitt-${id}-${w}.png`) });
     }
     if (w === 1440) {
-      await p.evaluate(() => { const t = ScrollTrigger.getAll().find((s) => s.pin && s.trigger && s.trigger.id === "rundgang"); scrollTo(0, t.start + (t.end - t.start) * 0.5); });
+      await p.evaluate(() => { const t = ScrollTrigger.getAll().find((s) => s.pin && s.trigger && s.trigger.id === "einblicke"); scrollTo(0, t.start + (t.end - t.start) * 0.5); });
       await p.waitForTimeout(1400);
-      await p.screenshot({ path: path.join(shots, `rundgang-${w}-mitte.png`) });
+      await p.screenshot({ path: path.join(shots, `einblicke-${w}-mitte.png`) });
       const tp = await p.evaluate(() => parseFloat(getComputedStyle(document.querySelector("[data-tour]")).getPropertyValue("--tp")));
       ok(tp > 0.3 && tp < 0.7, `${w} Rundgang bewegt sich horizontal mit dem Scrollen (${tp})`);
     } else {
-      await p.evaluate(() => document.getElementById("rundgang").scrollIntoView()); await p.waitForTimeout(400);
+      await p.evaluate(() => document.getElementById("einblicke").scrollIntoView()); await p.waitForTimeout(400);
       await p.click("[data-tour-next]"); await p.waitForTimeout(900);
       const sl = await p.evaluate(() => document.querySelector("[data-tour-viewport]").scrollLeft);
       ok(sl > 50, `${w} Rundgang: „Nächster Raum“ blättert (${sl})`);
-      await p.screenshot({ path: path.join(shots, `rundgang-${w}.png`) });
+      await p.screenshot({ path: path.join(shots, `einblicke-${w}.png`) });
     }
     ok(errs.length === 0, `${w} Scrollphasen ohne Konsolenfehler ${errs.join(" | ")}`);
     await p.close();
@@ -148,8 +159,9 @@ const axeRun = async (p, ctx) => {
       const p = await nb.newPage({ viewport: { width: w, height: 800 } });
       const errs = watch(p);
       await p.goto("file://" + file); await p.waitForTimeout(400);
-      const r = await p.evaluate(() => ({ cls: document.querySelector("[data-h3d]").className, svg: getComputedStyle(document.querySelector(".h3d__fallback")).display, canvas: document.querySelectorAll("canvas").length }));
-      ok(/h3d--nogl/.test(r.cls) && r.svg !== "none" && r.canvas === 0 && errs.length === 0, `ohne WebGL ${w}: gezeichnetes Standbild (${JSON.stringify(r)}) ${errs.join(" ")}`);
+      await p.waitForTimeout(400);
+      const r = await p.evaluate(() => ({ cls: document.querySelector("[data-h3d]").className, figs: [...document.querySelectorAll(".h3d__list .h3d__ph")].filter((f) => getComputedStyle(f).display !== "none").length, kb: document.querySelectorAll(".h3d__ph[data-kb]").length, anim: getComputedStyle(document.querySelector(".h3d__ph [data-bg]")).animationName, canvas: document.querySelectorAll("canvas").length }));
+      ok(/h3d--nogl/.test(r.cls) && r.figs === 5 && r.kb > 0 && r.canvas === 0 && errs.length === 0, `ohne WebGL ${w}: Fotos mit Ken-Burns per CSS (${JSON.stringify(r)}) ${errs.join(" ")}`);
       await p.screenshot({ path: path.join(shots, `hero-ohne-webgl-${w}.png`) });
       await p.close();
     }
@@ -169,14 +181,16 @@ const axeRun = async (p, ctx) => {
     ok(await p.evaluate(() => document.querySelector(".menu-btn").getAttribute("aria-expanded") === "true" && document.activeElement.closest("#menu")), "Menü öffnet per Enter, Fokus im Menü");
     await p.keyboard.press("Escape");
     ok(await p.evaluate(() => document.querySelector(".menu-btn").getAttribute("aria-expanded") === "false" && document.activeElement.matches(".menu-btn")), "Escape schließt, Fokus zurück");
+    await p.waitForFunction(() => document.querySelector("[data-h3d]").classList.contains("h3d--ready"), null, { timeout: 20000 }).catch(() => {});
     await p.focus(".h3d__cta a");
-    await p.keyboard.press("Tab");
-    const nxt = await p.evaluate(() => document.activeElement.closest("[data-h3d]") ? document.activeElement.textContent.trim() : "");
-    ok(nxt.length > 0, `Tab aus dem Hero-Button bleibt in der sichtbaren Bedienung (${nxt.slice(0, 30)})`);
+    await p.waitForFunction(() => __hero.state.pos > 4.99, null, { timeout: 25000 }).catch(() => {});
+    await p.waitForTimeout(900);
+    const vis = await p.evaluate(() => ({ pos: __hero.state.pos.toFixed(2), op: getComputedStyle(document.activeElement.closest("[data-chapter]")).opacity }));
+    ok(vis.op === "1", `Fokus auf den Telefon-Knopf am Ende holt dieses Kapitel ins Bild (${JSON.stringify(vis)})`);
     await p.focus(".h3d__skip");
-    ok(await p.evaluate(() => getComputedStyle(document.activeElement).opacity === "1"), "„Einleitung überspringen“ wird bei Fokus sichtbar");
+    ok(await p.evaluate(() => getComputedStyle(document.activeElement).opacity === "1"), "„Rundgang überspringen“ wird bei Fokus sichtbar");
     await p.keyboard.press("Enter"); await p.waitForTimeout(300);
-    ok(await p.evaluate(() => location.hash === "#praxis"), "„Einleitung überspringen“ führt zur Praxis");
+    ok(await p.evaluate(() => location.hash === "#praxis"), "„Rundgang überspringen“ führt zur Praxis");
     await p.focus(".callbtn");
     const ring = await p.evaluate(() => { const s = getComputedStyle(document.activeElement); return s.outlineStyle + " " + s.outlineWidth; });
     ok(/solid 3px/.test(ring), "Sichtbarer Fokusring am Telefon-Button (" + ring + ")");

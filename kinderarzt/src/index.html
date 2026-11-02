@@ -30,7 +30,7 @@
       <ul id="menu" class="nav__list">
         <li><a href="#praxis">Praxis</a></li>
         <li><a href="#schwerpunkte">Schwerpunkte</a></li>
-        <li><a href="#rundgang">Rundgang</a></li>
+        <li><a href="#einblicke">Einblicke</a></li>
         <li><a href="#team">Team</a></li>
         <li><a href="#kontakt">Kontakt</a></li>
       </ul>
@@ -45,38 +45,57 @@
 
 <section class="h3d" id="start" aria-labelledby="hero-title" data-h3d>
   <div class="h3d__pin" data-h3d-pin>
-    <div class="h3d__stage">
-      <div class="h3d__canvas" data-h3d-canvas>
-        <div class="h3d__fallback">{{svg:hero}}</div>
-      </div>
-      <figure class="h3d__photo" data-photo>
-        <img src="{{img:aussen}}" width="1168" height="736" alt="Außenansicht der Praxis: weißes Gebäude mit großen Schaufenstern, über der Tür das Schild „Kinderarztpraxis“ mit gelber Sonne.">
-        <figcaption>Ludwig-Ganghofer-Str. 4, 82031 Grünwald</figcaption>
-      </figure>
+    <div class="h3d__stage" aria-hidden="true">
+      <div class="h3d__canvas" data-h3d-canvas></div>
+      <div class="h3d__scrim"></div>
     </div>
     <div class="wrap h3d__ui">
       <div class="h3d__text">
-        <div class="h3d__intro" data-chapter data-active>
+        <div class="h3d__end" data-chapter="5">
+          {{svg:sun}}
           <h1 id="hero-title" class="h3d__h1">Kinderärztin in Grünwald</h1>
-          <p class="h3d__lead">Kinderarztpraxis Dr. med. Maru Bohdansky, Fachärztin für Kinder- und Jugendmedizin.</p>
-          <div class="h3d__cta">
-            <a class="btn btn--sun btn--lg" href="tel:+498964260405">{{icon:phone}}<span><span class="xs-hide">Termin telefonisch: </span>089 64260405</span></a>
-          </div>
-          <p class="h3d__hint" aria-hidden="true"><span class="h3d__mouse"></span>Scrollen Sie: Die Sonne geht auf.</p>
+          <p class="h3d__lead">Kinderarztpraxis Dr. med. Maru Bohdansky, Fachärztin für Kinder- und Jugendmedizin. Termine vereinbaren Sie bitte telefonisch.</p>
+          <div class="h3d__cta"><a class="btn btn--sun btn--lg" href="tel:+498964260405">{{icon:phone}}<span><span class="xs-hide">Termin telefonisch: </span>089 64260405</span></a></div>
         </div>
-        <ol class="h3d__list" aria-label="Willkommen in der Praxis">
-          <li data-chapter><h2 class="h3d__t">Guten Morgen</h2><p>Die gelbe Sonne über der Tür ist das Zeichen der Praxis. Sie begrüßt Sie und Ihr Kind schon von der Straße aus.</p></li>
-          <li data-chapter><h2 class="h3d__t">Alles an seinem Platz</h2><p>Vorsorge-Untersuchungen, Impfungen und die Behandlung akuter Erkrankungen: Wir sind für Säuglinge, Kinder und Jugendliche da.</p></li>
-          <li data-chapter><h2 class="h3d__t">Herein in die Praxis</h2><p>Willkommen in der Ludwig-Ganghofer-Straße 4 in Grünwald.</p><a class="h3d__more" href="#rundgang">Zum Rundgang durch die Praxis</a></li>
+        <ol class="h3d__list" aria-label="Rundgang durch die Praxis">
+          <li data-chapter="0">
+            <figure class="h3d__ph" data-tex="aussen"><img data-bg src="{{hero:aussen}}" width="1600" height="1008" alt="Außenansicht der Praxis: weißes Gebäude mit großen Schaufenstern, über der Tür das Schild „Kinderarztpraxis“ mit gelber Sonne.">{{layers:aussen}}</figure>
+            <h2 class="h3d__t">Willkommen</h2>
+            <p>Kinderarztpraxis Dr. med. Maru Bohdansky in der Ludwig-Ganghofer-Straße 4 in Grünwald.</p>
+            <p class="h3d__hint" aria-hidden="true"><span class="h3d__mouse"></span>Scrollen Sie: Wir gehen hinein.</p>
+          </li>
+          <li data-chapter="1">
+            <figure class="h3d__ph" data-tex="empfang"><img data-bg src="{{hero:empfang}}" width="1094" height="1501" alt="Empfangstresen mit bunter Schultüte, dahinter zwei lächelnde Mitarbeiterinnen, davor streckt sich ein kleiner Junge.">{{layers:empfang}}</figure>
+            <h2 class="h3d__t">Empfang</h2>
+            <p>Hier melden Sie sich an. Termine vereinbaren Sie bitte telefonisch unter <a href="tel:+498964260405">089 64260405</a>.</p>
+          </li>
+          <li data-chapter="2">
+            <figure class="h3d__ph" data-tex="wartebereich"><img data-bg src="{{hero:wartebereich}}" width="1560" height="1040" alt="Heller Wartebereich mit blauen Sesseln, großem Fenster, Sitzhocker und Kindersitzen.">{{layers:wartebereich}}</figure>
+            <h2 class="h3d__t">Wartebereich</h2>
+            <p>Hell und ruhig, mit Platz für die ganze Familie.</p>
+          </li>
+          <li data-chapter="3">
+            <figure class="h3d__ph" data-tex="sprechzimmer"><img data-bg src="{{hero:sprechzimmer}}" width="1560" height="1040" alt="Sprechzimmer mit Schreibtisch, Regal, Untersuchungsliege und Teddybär.">{{layers:sprechzimmer}}</figure>
+            <h2 class="h3d__t">Sprechzimmer</h2>
+            <p>Hier besprechen wir mit Ihnen, was Ihr Kind braucht.</p>
+          </li>
+          <li data-chapter="4">
+            <figure class="h3d__ph" data-tex="behandlungsraum"><img data-bg src="{{hero:behandlungsraum}}" width="1560" height="1040" alt="Behandlungsraum mit Liege, hellen Schränken und Ultraschallgerät.">{{layers:behandlungsraum}}</figure>
+            <h2 class="h3d__t">Untersuchung</h2>
+            <p>Vorsorge-Untersuchungen, Impfungen und die Behandlung akuter Erkrankungen. Ein Ultraschallgerät steht in der Praxis.</p>
+          </li>
         </ol>
+        <figure class="h3d__ph h3d__ph--end" data-tex="team-gruppe"><img data-bg src="{{hero:team-gruppe}}" width="1500" height="1193" alt="">{{layers:team-gruppe}}</figure>
       </div>
-      <nav class="h3d__rail" aria-label="Kapitel der Einleitung">
+      <nav class="h3d__rail" aria-label="Stationen des Rundgangs">
         <button type="button" data-goto-chapter="0" style="--i:0"><span>Willkommen</span></button>
-        <button type="button" data-goto-chapter="1" style="--i:1"><span>Sonne</span></button>
-        <button type="button" data-goto-chapter="2" style="--i:2"><span>Praxis</span></button>
-        <button type="button" data-goto-chapter="3" style="--i:3"><span>Herein</span></button>
+        <button type="button" data-goto-chapter="1" style="--i:1"><span>Empfang</span></button>
+        <button type="button" data-goto-chapter="2" style="--i:2"><span>Warten</span></button>
+        <button type="button" data-goto-chapter="3" style="--i:3"><span>Sprechzimmer</span></button>
+        <button type="button" data-goto-chapter="4" style="--i:4"><span>Untersuchung</span></button>
+        <button type="button" data-goto-chapter="5" style="--i:5"><span>Termin</span></button>
       </nav>
-      <a class="h3d__skip" href="#praxis">Einleitung überspringen</a>
+      <a class="h3d__skip" href="#praxis">Rundgang überspringen</a>
     </div>
   </div>
 </section>
@@ -98,11 +117,6 @@
       </ul>
     </div>
   </div>
-  <div class="wrap moments">
-    <figure class="moment moment--a mask" data-reveal><img src="{{img:untersuchung}}" width="1170" height="780" alt="Ein Junge liegt entspannt auf der Liege, eine Ärztin misst den Blutdruck." loading="lazy"><figcaption>Untersuchung in der Praxis</figcaption></figure>
-    <figure class="moment moment--b mask" data-reveal><img src="{{img:wickeltisch}}" width="1170" height="780" alt="Ein Säugling liegt auf dem Wickeltisch, eine Ärztin beugt sich lächelnd zu ihm." loading="lazy"><figcaption>Am Wickeltisch</figcaption></figure>
-    <figure class="moment moment--c mask" data-reveal><img src="{{img:otoskop}}" width="1170" height="780" alt="Ein Junge mit großem Teddy schaut durch ein Otoskop, daneben sitzt eine Ärztin." loading="lazy"><figcaption>Untersuchung mit Teddy</figcaption></figure>
-  </div>
 </section>
 
 <section class="sec focus" id="schwerpunkte" aria-labelledby="focus-title">
@@ -119,22 +133,21 @@
   </div>
 </section>
 
-<section class="tour" id="rundgang" aria-labelledby="tour-title" data-tour>
+<section class="tour" id="einblicke" aria-labelledby="tour-title" data-tour>
   <div class="tour__pin" data-tour-pin>
     <div class="wrap tour__head">
-      <h2 id="tour-title" class="h2">Ein Rundgang durch die Praxis</h2>
+      <h2 id="tour-title" class="h2">Aus dem Praxisalltag</h2>
       <div class="tour__ctrl">
-        <button class="ibtn" type="button" data-tour-prev aria-label="Vorheriger Raum">{{icon:left}}</button>
-        <button class="ibtn" type="button" data-tour-next aria-label="Nächster Raum">{{icon:right}}</button>
+        <button class="ibtn" type="button" data-tour-prev aria-label="Vorheriges Foto">{{icon:left}}</button>
+        <button class="ibtn" type="button" data-tour-next aria-label="Nächstes Foto">{{icon:right}}</button>
       </div>
     </div>
-    <div class="tour__viewport" data-tour-viewport tabindex="0" role="region" aria-label="Bildstrecke: Räume der Praxis, mit Pfeiltasten blättern">
+    <div class="tour__viewport" data-tour-viewport tabindex="0" role="region" aria-label="Bildstrecke: Fotos aus dem Praxisalltag, mit Pfeiltasten blättern">
       <ol class="tour__track" data-tour-track>
-        <li class="room room--tall"><figure><div class="room__img"><img src="{{img:empfang}}" width="875" height="1200" alt="Empfangstresen mit bunter Schultüte, dahinter zwei lächelnde Mitarbeiterinnen, davor streckt sich ein kleiner Junge." loading="lazy"></div><figcaption><b>Empfang</b>Hier melden Sie sich an.</figcaption></figure></li>
-        <li class="room"><figure><div class="room__img"><img src="{{img:wartebereich}}" width="1170" height="780" alt="Heller Wartebereich mit blauen Sesseln, großem Fenster und Kindersitzen." loading="lazy"></div><figcaption><b>Wartebereich</b>Hell, ruhig, mit Platz für die ganze Familie.</figcaption></figure></li>
         <li class="room"><figure><div class="room__img"><img src="{{img:spielecke}}" width="1170" height="780" alt="Zwei Kinder sitzen lachend in einem bunten Spielzelt aus Schaumstoff." loading="lazy"></div><figcaption><b>Spielecke</b>Für die Wartezeit.</figcaption></figure></li>
-        <li class="room"><figure><div class="room__img"><img src="{{img:sprechzimmer}}" width="1170" height="780" alt="Sprechzimmer mit Schreibtisch, Regal, Untersuchungsliege und Teddybär." loading="lazy"></div><figcaption><b>Sprechzimmer</b>Zeit für das Gespräch.</figcaption></figure></li>
-        <li class="room"><figure><div class="room__img"><img src="{{img:behandlungsraum}}" width="1170" height="780" alt="Behandlungsraum mit Liege, hellen Schränken und Ultraschallgerät." loading="lazy"></div><figcaption><b>Behandlungsraum</b>Mit Ultraschallgerät.</figcaption></figure></li>
+        <li class="room"><figure><div class="room__img"><img src="{{img:untersuchung}}" width="1170" height="780" alt="Ein Junge liegt entspannt auf der Liege, eine Ärztin misst den Blutdruck." loading="lazy"></div><figcaption><b>Untersuchung</b>Blutdruckmessung auf der Liege.</figcaption></figure></li>
+        <li class="room"><figure><div class="room__img"><img src="{{img:wickeltisch}}" width="1170" height="780" alt="Ein Säugling liegt auf dem Wickeltisch, eine Ärztin beugt sich lächelnd zu ihm." loading="lazy"></div><figcaption><b>Am Wickeltisch</b>Für die Kleinsten.</figcaption></figure></li>
+        <li class="room"><figure><div class="room__img"><img src="{{img:otoskop}}" width="1170" height="780" alt="Ein Junge mit großem Teddy schaut durch ein Otoskop, daneben sitzt eine Ärztin." loading="lazy"></div><figcaption><b>Mit Teddy</b>Ein Blick durch das Otoskop.</figcaption></figure></li>
       </ol>
     </div>
     <div class="wrap tour__bar" aria-hidden="true"><span data-tour-progress></span></div>
@@ -265,7 +278,7 @@
     <nav aria-labelledby="f-nav"><h2 id="f-nav" class="foot__h">Seite</h2><ul>
       <li><a href="#praxis">Praxis</a></li>
       <li><a href="#schwerpunkte">Schwerpunkte</a></li>
-      <li><a href="#rundgang">Rundgang</a></li>
+      <li><a href="#einblicke">Einblicke</a></li>
       <li><a href="#team">Team</a></li></ul></nav>
   </div>
   <div class="wrap foot__base">
@@ -274,6 +287,7 @@
   </div>
 </footer>
 <script>/*GSAP*/</script>
+<script type="application/json" id="hero-layers">{{layersjson}}</script>
 <script>/*HERO3D*/</script>
 <script>
 /*JS*/

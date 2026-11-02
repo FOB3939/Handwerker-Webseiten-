@@ -122,10 +122,12 @@
   /* ------------------------------------------------------------ Fotos mit weichen Masken: Reveal beim Scrollen */
   if (hasGsap && !reduce) {
     doc.querySelectorAll(".mask[data-reveal]").forEach(function (el) {
-      gsap.fromTo(el, { "--ci": "12%", "--cs": 1.2 }, {
-        "--ci": "0%", "--cs": 1, ease: "power2.out",
+      gsap.fromTo(el, { "--ci": "12%", "--cs": 1.22 }, {
+        "--ci": "0%", "--cs": 1.1, ease: "power2.out",
         scrollTrigger: { trigger: el, start: "top 95%", end: "top 40%", scrub: 0.6 },
       });
+      // sanfter Parallax im Bildausschnitt
+      gsap.fromTo(el, { "--cy": "-4%" }, { "--cy": "4%", ease: "none", scrollTrigger: { trigger: el, start: "top bottom", end: "bottom top", scrub: true } });
     });
 
     /* Schwerpunkte: Kacheln steigen gestaffelt auf, Piktogramme zeichnen sich */

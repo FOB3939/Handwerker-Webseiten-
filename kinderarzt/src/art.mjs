@@ -1,4 +1,4 @@
-// Gezeichnete Grafiken (SVG) für den Build: Sonnen-Signet, Fallback-Standbild der 3D-Szene, Piktogramme.
+// Gezeichnete Grafiken (SVG) für den Build: Sonnen-Signet und Piktogramme.
 // Das Signet ist eine eigene Nachzeichnung (Sonne mit geschwungenen Strahlen), keine Kopie des Logofotos.
 
 const RAY = "M-5.2 -25.5C-7.6 -32.5 -2.6 -37.8 1.6 -47.5C6.4 -40.2 7.4 -32.6 5.2 -25.5Q0 -23.6 -5.2 -25.5Z";
@@ -17,40 +17,6 @@ export function favicon() {
   const rays = Array.from({ length: N }, (_, i) => `<path d="${RAY}" transform="rotate(${((360 / N) * i).toFixed(2)})"/>`).join("");
   return "data:image/svg+xml," + encodeURIComponent(
     `<svg xmlns="http://www.w3.org/2000/svg" viewBox="-50 -50 100 100"><g fill="#F7B500">${rays}</g><circle r="21" fill="#FFC93C"/></svg>`);
-}
-
-/** Standbild ohne WebGL: Sonne hinter dem Bauklotz-Haus, Teddy, Ballon, Wolken. viewBox 0 0 800 600 */
-export function heroSVG() {
-  const blocks = [];
-  const col = ["#ffffff", "#CFDDFB", "#FFD45C", "#ffffff", "#F7B3A6", "#CFDDFB"];
-  let k = 0;
-  for (let r = 0; r < 2; r++) for (let c = 0; c < 3; c++) {
-    if (r === 0 && c === 1) continue; // Tür
-    const x = 300 + c * 68, y = 452 - r * 68;
-    blocks.push(`<rect x="${x}" y="${y}" width="64" height="64" rx="12" fill="${col[k++ % col.length]}" stroke="#1C2A78" stroke-opacity=".12" stroke-width="2"/>`);
-  }
-  const rays = Array.from({ length: N }, (_, i) => `<path d="${RAY}" transform="rotate(${((360 / N) * i).toFixed(2)})"/>`).join("");
-  return `<svg class="h3d__svg" viewBox="0 0 800 600" role="img" aria-labelledby="fb-t">
-<title id="fb-t">Gezeichnete Szene: Eine gelbe Sonne geht hinter einem kleinen Haus aus Bauklötzen auf, daneben ein Teddy und ein Ballon.</title>
-<defs><linearGradient id="fb-sky" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#E4ECFD"/><stop offset="1" stop-color="#FFF7E2"/></linearGradient>
-<radialGradient id="fb-glow"><stop offset="0" stop-color="#FFE7A3" stop-opacity=".9"/><stop offset="1" stop-color="#FFE7A3" stop-opacity="0"/></radialGradient></defs>
-<rect width="800" height="600" fill="url(#fb-sky)"/>
-<circle cx="400" cy="250" r="230" fill="url(#fb-glow)"/>
-<g transform="translate(400 250) scale(3.1)" fill="#FFC93C"><g fill="#F7B500">${rays}</g><circle r="20.5"/></g>
-<g fill="#fff"><ellipse cx="150" cy="150" rx="70" ry="30"/><ellipse cx="190" cy="135" rx="45" ry="32"/><ellipse cx="640" cy="110" rx="60" ry="24"/><ellipse cx="670" cy="98" rx="38" ry="26"/></g>
-<ellipse cx="400" cy="530" rx="380" ry="46" fill="#F4F7FE"/>
-<ellipse cx="402" cy="520" rx="150" ry="14" fill="#1C2A78" opacity=".08"/>
-${blocks.join("")}
-<rect x="372" y="456" width="56" height="60" rx="10" fill="#FFE7A3"/>
-<path d="M372 516V466a10 10 0 0 1 10-10h18v60z" fill="#2E46B8"/><path d="M428 516V466a10 10 0 0 0-10-10h-18v60z" fill="#3B57D0"/>
-<path d="M286 384 L400 300 L514 384 Q520 392 510 392 H290 Q280 392 286 384Z" fill="#1C2A78"/>
-<g transform="translate(400 356) scale(.42)" fill="#FFC93C">${rays}<circle r="20.5"/></g>
-<g fill="#D9A877"><circle cx="210" cy="440" r="34"/><circle cx="186" cy="412" r="13"/><circle cx="234" cy="412" r="13"/><ellipse cx="210" cy="492" rx="40" ry="34"/><circle cx="180" cy="520" r="14"/><circle cx="240" cy="520" r="14"/></g>
-<g fill="#C48F5E"><circle cx="198" cy="444" r="4"/><circle cx="222" cy="444" r="4"/><ellipse cx="210" cy="456" rx="10" ry="7" fill="#EBC9A2"/></g>
-<path d="M560 330 C556 380 578 410 560 460" fill="none" stroke="#1C2A78" stroke-opacity=".35" stroke-width="2"/>
-<ellipse cx="560" cy="280" rx="38" ry="46" fill="#F0715C"/><path d="M554 324h12l-6 8z" fill="#F0715C"/>
-<ellipse cx="548" cy="266" rx="9" ry="14" fill="#fff" opacity=".35"/>
-</svg>`;
 }
 
 // Piktogramme, 24er-Raster, eine Strichstärke
