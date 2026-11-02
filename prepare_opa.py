@@ -1,9 +1,36 @@
 #!/usr/bin/env python3
 """Cut the reference image into animation layers for opa.html.
-   python3 prepare_opa.py   (needs jobs/opa/src/orig.png + src/man_mask2.png; writes jobs/opa/layers/*.png)"""
+   python3 prepare_opa.py [reference.png]
+   Copies the reference to jobs/opa/src/orig.png, builds the figure mask (GrabCut) and writes jobs/opa/layers/*.
+   Needs: pip install opencv-python-headless numpy"""
 import os, cv2, numpy as np
 KIT = os.path.dirname(os.path.abspath(__file__)); J = f'{KIT}/jobs/opa'; os.makedirs(f'{J}/layers', exist_ok=True)
-im = cv2.imread(f'{J}/src/orig.png'); h, w = im.shape[:2]; fg = cv2.imread(f'{J}/src/man_mask2.png', 0)
+os.makedirs(f'{J}/src', exist_ok=True)
+import sys, shutil
+if len(sys.argv) > 1: shutil.copy(sys.argv[1], f'{J}/src/orig.png')
+im = cv2.imread(f'{J}/src/orig.png'); h, w = im.shape[:2]
+def build_mask():
+    """Figure mask: GrabCut on the whole figure, toilet/plate forced to background, head refined separately."""
+    m = np.zeros((h, w), np.uint8); bg = np.zeros((1, 65)); fgm = np.zeros((1, 65))
+    cv2.grabCut(im, m, (45, 200, 660, 1220), bg, fgm, 6, cv2.GC_INIT_WITH_RECT)
+    m[470:640, 686:840] = cv2.GC_BGD; sub = m[660:1340, 445:900]; sub[sub > 0] = cv2.GC_BGD
+    cv2.grabCut(im, m, None, bg, fgm, 4, cv2.GC_INIT_WITH_MASK)
+    f = np.where((m == 1) | (m == 3), 255, 0).astype(np.uint8)
+    n, lab, st, _ = cv2.connectedComponentsWithStats(f); f = np.where(lab == 1 + np.argmax(st[1:, cv2.CC_STAT_AREA]), 255, 0).astype(np.uint8)
+    f = cv2.morphologyEx(f, cv2.MORPH_CLOSE, np.ones((9, 9), np.uint8))
+    Yg, Xg = np.mgrid[0:h, 0:w]; f[(Yg < 480) & (Xg < 300) & (cv2.cvtColor(im, cv2.COLOR_BGR2GRAY) > 150)] = 0
+    HP = np.array(HEAD_POLY, np.int32); hm = np.zeros((h, w), np.uint8); cv2.fillPoly(hm, [HP], 255)
+    init = np.full((h, w), cv2.GC_BGD, np.uint8); init[hm > 0] = cv2.GC_PR_FGD; init[cv2.erode(hm, np.ones((31, 31), np.uint8)) > 0] = cv2.GC_FGD
+    x0, y0, x1, y1 = 240, 180, 560, 480; sub = init[y0:y1, x0:x1].copy(); bg = np.zeros((1, 65)); fgm = np.zeros((1, 65))
+    cv2.grabCut(im[y0:y1, x0:x1], sub, None, bg, fgm, 6, cv2.GC_INIT_WITH_MASK)
+    hf = np.zeros((h, w), np.uint8); hf[y0:y1, x0:x1] = np.where((sub == 1) | (sub == 3), 255, 0); f[hm > 0] = 0; f |= hf
+    inv = 255 - f; ff = inv.copy(); cv2.floodFill(ff, np.zeros((h + 2, w + 2), np.uint8), (0, 0), 0); f = f | ff
+    f = cv2.morphologyEx(f, cv2.MORPH_OPEN, np.ones((5, 5), np.uint8))
+    n, lab, st, _ = cv2.connectedComponentsWithStats(f); return np.where(lab == 1 + np.argmax(st[1:, cv2.CC_STAT_AREA]), 255, 0).astype(np.uint8)
+HEAD_POLY = [(268,330),(272,280),(300,235),(340,213),(400,203),(450,213),(480,238),(500,272),(520,296),(530,298),(529,330),(523,352),(521,400),(519,447),(500,454),(470,452),(440,442),(410,432),(380,437),(345,432),(318,432),(298,402),(283,370)]
+mp = f'{J}/src/man_mask2.png'
+if not os.path.exists(mp): cv2.imwrite(mp, build_mask())
+fg = cv2.imread(mp, 0)
 Y, X = np.mgrid[0:h, 0:w]
 P = lambda pts: np.array(pts, np.int32)
 def poly(pts):
